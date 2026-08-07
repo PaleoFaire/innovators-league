@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ─── Open Graph / Twitter / Canonical (auto-managed) ─── -->
+    <link rel="canonical" href="https://innovatorsleague.com/changes.html">
+    <meta property="og:title" content="This Week in the League · The Innovators League">
+    <meta property="og:description" content="What changed this week across the frontier-tech database — new companies, status changes, valuation moves, funding updates, and IL30 moves.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://innovatorsleague.com/changes.html">
+    <meta property="og:site_name" content="The Innovators League">
+    <meta property="og:image" content="https://innovatorsleague.com/og-default.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="This Week in the League · The Innovators League">
+    <meta name="twitter:description" content="What changed this week across the frontier-tech database — new companies, status changes, valuation moves, funding updates, and IL30 moves.">
+    <meta name="twitter:image" content="https://innovatorsleague.com/og-default.png">
+    <meta name="twitter:site" content="@rationalopt">
+    <meta name="twitter:creator" content="@stephenmcb">
+    <!-- ─── /Open Graph / Twitter / Canonical ─── -->
+
+    <title>This Week in the League · The Innovators League</title>
+    <meta name="description" content="The auto-generated weekly changelog for the Innovators League database — every company added, every status change, every valuation move, every funding update.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260501">
+    <script src="config.js?v=20260501"></script>
+    <script src="analytics.js?v=20260501"></script>
+    <link rel="stylesheet" href="css/_tokens.css?v=20260501" />
+    <link rel="stylesheet" href="css/_components.css?v=20260501" />
+    <script src="structured-data.js?v=20260501" defer></script>
+
+    <!-- Page-specific styling — matches the dark-terminal aesthetic
+         (.signal-badge / .il30-card / .status-chip conventions in styles.css) -->
+    <style>
+      .chg-main { max-width: 1100px; margin: 0 auto; padding: 0 24px 64px; }
+      .chg-section { padding: 40px 0 8px; }
+      .chg-section .section-header { opacity: 1; transform: none; }
+      .chg-section .section-header h2 { font-size: 22px; }
+      .chg-section .section-header p { margin-left: 0; margin-right: auto; }
+      .chg-section .section-header::after { margin-left: 0; }
+
+      .chg-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+
+      .chg-card {
+        display: block;
+        background: linear-gradient(135deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 16px 18px;
+        text-decoration: none;
+        color: inherit;
+        transition: all 0.25s ease;
+        position: relative;
+        overflow: hidden;
+      }
+      .chg-card:hover {
+        border-color: rgba(255,107,44,0.45);
+        background: linear-gradient(135deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 100%);
+        transform: translateY(-2px);
+        box-shadow: 0 10px 32px rgba(255,107,44,0.10);
+      }
+      .chg-card.chg-new::before {
+        content: '';
+        position: absolute; top: 0; left: 0; right: 0; height: 2px;
+        background: linear-gradient(90deg, rgba(34,197,94,0.6), rgba(255,107,44,0.6));
+      }
+      .chg-card-name {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 16px; font-weight: 700; color: var(--text-primary);
+        margin-bottom: 4px;
+      }
+      .chg-card-sector {
+        font-size: 10px; font-family: 'SF Mono', 'Fira Code', monospace;
+        text-transform: uppercase; letter-spacing: 1px;
+        color: var(--text-muted); margin-bottom: 8px;
+      }
+      .chg-card-oneline { font-size: 13px; line-height: 1.55; color: rgba(240,240,250,0.72); }
+
+      /* from → to move rows */
+      .chg-move-list { display: flex; flex-direction: column; gap: 8px; }
+      .chg-move {
+        display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 12px 16px;
+        text-decoration: none; color: inherit;
+        transition: border-color 0.2s ease, background 0.2s ease;
+      }
+      .chg-move:hover { border-color: rgba(255,107,44,0.4); background: rgba(255,255,255,0.03); }
+      .chg-move-name {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 14px; font-weight: 600; color: var(--text-primary);
+        min-width: 180px;
+      }
+      .chg-move-vals {
+        display: flex; align-items: center; gap: 8px;
+        font-family: 'SF Mono', 'Fira Code', monospace; font-size: 13px;
+      }
+      .chg-from { color: var(--text-muted); text-decoration: line-through; text-decoration-color: rgba(240,240,250,0.25); }
+      .chg-arrow { color: var(--accent); font-weight: 700; }
+      .chg-to { font-weight: 700; }
+      .chg-to.up { color: #22c55e; }
+      .chg-to.down { color: #ef4444; }
+      .chg-to.flat { color: var(--text-primary); }
+      .chg-move-detail { font-size: 12px; color: var(--text-muted); flex-basis: 100%; }
+
+      /* departures + IL30 chips */
+      .chg-chip-row { display: flex; flex-wrap: wrap; gap: 8px; }
+      .chg-chip {
+        display: inline-block; font-size: 12px; font-weight: 600;
+        font-family: 'SF Mono', 'Fira Code', monospace;
+        padding: 6px 12px; border-radius: 6px;
+        background: rgba(148,163,184,0.08); color: #94A3B8;
+        border: 1px solid rgba(148,163,184,0.25);
+        text-decoration: none;
+      }
+      .chg-chip:hover { border-color: rgba(255,107,44,0.4); color: var(--text-primary); }
+      .chg-chip.chg-il30-in  { background: rgba(245,158,11,0.10); color: #f59e0b; border-color: rgba(245,158,11,0.35); }
+      .chg-chip.chg-il30-out { background: rgba(239,68,68,0.08);  color: #ef4444; border-color: rgba(239,68,68,0.3); }
+
+      /* events feed */
+      .chg-events { display: flex; flex-direction: column; gap: 0; border-left: 1px solid var(--border); margin-left: 6px; }
+      .chg-event {
+        display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;
+        padding: 10px 0 10px 18px; position: relative;
+        text-decoration: none; color: inherit;
+      }
+      .chg-event::before {
+        content: ''; position: absolute; left: -4px; top: 16px;
+        width: 7px; height: 7px; border-radius: 50%;
+        background: var(--accent); opacity: 0.7;
+      }
+      .chg-event:hover .chg-event-name { color: var(--accent); }
+      .chg-event-date {
+        font-family: 'SF Mono', 'Fira Code', monospace; font-size: 11px;
+        color: var(--text-muted); min-width: 68px;
+      }
+      .chg-event-name { font-family: 'Space Grotesk', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-primary); transition: color 0.2s; }
+      .chg-event-text { font-size: 13px; color: rgba(240,240,250,0.72); }
+
+      .chg-empty {
+        font-size: 13px; color: var(--text-muted);
+        font-family: 'SF Mono', 'Fira Code', monospace;
+        padding: 14px 16px; border: 1px dashed var(--border); border-radius: 10px;
+      }
+      .chg-meta-line {
+        font-size: 11px; font-family: 'SF Mono', 'Fira Code', monospace;
+        color: var(--text-muted); letter-spacing: 0.5px; margin-top: 10px;
+      }
+      @media (max-width: 640px) {
+        .chg-move-name { min-width: 0; flex-basis: 100%; }
+      }
+    </style>
+</head>
+<body>
+    <!-- Navigation — unified IA (auto-generated by scripts/unify_nav.py) -->
+    <nav class="nav">
+        <div class="nav-brand">
+            <a href="index.html" style="display:flex;align-items:center;gap:8px;text-decoration:none;">
+                <div class="nav-logo">ROS</div>
+                <span class="nav-title">THE INNOVATORS LEAGUE</span>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link" data-nav-id="index">Companies</a>
+            <a href="terminal.html" class="nav-link" data-nav-id="terminal" style="color:#86efac;">⚡ Terminal</a>
+            <a href="changes.html" class="nav-link" data-nav-id="changes" aria-current="page" style="color:var(--color-primary-bright)">🗞️ Changes</a>
+
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main" data-nav-group="calendar">📅 Calendar <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="catalysts.html" class="nav-dropdown-link" data-nav-id="catalysts">🎯 Catalyst Calendar</a>
+                    <a href="calendar.html" class="nav-dropdown-link" data-nav-id="calendar">📅 Industry Events</a>
+                    <a href="launches.html" class="nav-dropdown-link" data-nav-id="launches">🛰️ Space Launches</a>
+                    <a href="earnings-signals.html" class="nav-dropdown-link" data-nav-id="earnings-signals">📈 Earnings Signals</a>
+                    <a href="regulatory.html" class="nav-dropdown-link" data-nav-id="regulatory">📋 Regulatory</a>
+                </div>
+            </div>
+
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main" data-nav-group="capital">💰 Capital <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="investors.html" class="nav-dropdown-link" data-nav-id="investors">👥 Investors</a>
+                    <a href="investor-intelligence.html" class="nav-dropdown-link" data-nav-id="investor-intelligence">🕸 Investor Intelligence</a>
+                    <a href="investor-hub.html" class="nav-dropdown-link" data-nav-id="investor-hub">💼 Investor Hub</a>
+                    <a href="baskets.html" class="nav-dropdown-link" data-nav-id="baskets">💰 Public Baskets</a>
+                    <a href="valuations.html" class="nav-dropdown-link" data-nav-id="valuations">📉 Valuations</a>
+                    <a href="captable.html" class="nav-dropdown-link" data-nav-id="captable">📋 Cap Tables</a>
+                    <a href="govradar.html" class="nav-dropdown-link" data-nav-id="govradar">🎖️ Government Radar</a>
+                </div>
+            </div>
+
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main" data-nav-group="signals">🔴 Signals <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="brief.html" class="nav-dropdown-link" data-nav-id="brief">📰 Frontier Daily</a>
+                    <a href="signals.html" class="nav-dropdown-link" data-nav-id="signals">🔴 Proprietary Signals</a>
+                    <a href="discovery.html" class="nav-dropdown-link" data-nav-id="discovery">🌟 Discovery Queue</a>
+                    <a href="power-grid.html" class="nav-dropdown-link" data-nav-id="power-grid">⚡ Power Grid</a>
+                    <a href="alerts.html" class="nav-dropdown-link" data-nav-id="alerts">🔔 Alerts</a>
+                </div>
+            </div>
+
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main" data-nav-group="research">🔬 Research <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="visualizations.html" class="nav-dropdown-link" data-nav-id="visualizations">📊 Insights &amp; Data Viz</a>
+                    <a href="sectors.html" class="nav-dropdown-link" data-nav-id="sectors">🏭 Sectors</a>
+                    <a href="jobs.html" class="nav-dropdown-link" data-nav-id="jobs">💼 Talent</a>
+                    <a href="patents.html" class="nav-dropdown-link" data-nav-id="patents">📜 Patents</a>
+                    <a href="customers.html" class="nav-dropdown-link" data-nav-id="customers">👥 Customers</a>
+                    <a href="compare.html" class="nav-dropdown-link" data-nav-id="compare">⚖️ Compare</a>
+                    <a href="transformation.html" class="nav-dropdown-link" data-nav-id="transformation">🌱 Transformation</a>
+                    <a href="research.html" class="nav-dropdown-link" data-nav-id="research">🔬 Deep Research</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-auth" id="nav-auth">
+            <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+            <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+        </div>
+        <div class="nav-user" id="nav-user" style="display:none;">
+            <span class="nav-user-email" id="nav-user-email"></span>
+            <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+    <!-- Breadcrumb Navigation -->
+    <div class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 2.5l3.5 3.5-3.5 3.5"/></svg>
+        <span aria-current="page">This Week in the League</span>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <p class="hero-eyebrow" style="font-size:10px; letter-spacing:3px; font-family:'SF Mono',monospace; color:rgba(255,107,44,0.7); margin-bottom:8px;">THIS WEEK IN THE LEAGUE · AUTO-GENERATED CHANGELOG</p>
+            <h1 class="hero-title">What changed this week</h1>
+            <p class="hero-subtitle" id="chg-subtitle">Every company added, every status change, every valuation move, every funding update — diffed straight from the database, refreshed daily.</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" id="chg-stat-window">—</span>
+                    <span class="stat-label">Day Window</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="chg-stat-changes">0</span>
+                    <span class="stat-label">Changes Tracked</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="chg-stat-new">0</span>
+                    <span class="stat-label">New Companies</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="chg-stat-events">0</span>
+                    <span class="stat-label">Recent Events</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="chg-main">
+        <div id="chg-content"></div>
+
+        <div id="chg-error" style="display:none;" class="chg-empty">
+            ⚠ The weekly changelog hasn't been generated yet. It refreshes with the daily data sync — check back shortly.
+        </div>
+    </main>
+
+    <!-- Subscribe Banner -->
+    <section class="subscribe-banner">
+      <h3>Get Stephen's field notes every week</h3>
+      <p>Factory visits, founder calls, and deal signals that aren't in any LLM. Free, every Sunday.</p>
+      <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="subscribe-banner-btn">Subscribe Free</a>
+      <div class="subscribe-banner-note">Join 50,000+ investors and founders in the ROS community</div>
+    </section>
+
+    <footer class="premium-footer">
+      <div class="footer-inner">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <div class="footer-logo"><span class="footer-ros">ROS</span> THE INNOVATORS LEAGUE</div>
+            <p class="footer-tagline">The deal engine for frontier technology. Intelligence, access, and deal flow from inside the ecosystem.</p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-col">
+              <h4>Intelligence</h4>
+              <a href="index.html">Company Database</a>
+              <a href="visualizations.html">Insights &amp; Analytics</a>
+              <a href="brief.html">The Frontier Daily</a>
+              <a href="changes.html">This Week in the League</a>
+            </div>
+            <div class="footer-col">
+              <h4>Deal Flow</h4>
+              <a href="investors.html">Investor Directory</a>
+              <a href="valuations.html">Valuations</a>
+              <a href="jobs.html">Talent Intelligence</a>
+            </div>
+            <div class="footer-col">
+              <h4>ROS Ecosystem</h4>
+              <a href="https://rationaloptimistsociety.substack.com" target="_blank">Newsletter</a>
+              <a href="govradar.html">Gov Radar</a>
+              <a href="regulatory.html">Regulatory Intel</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Rational Optimist Society. All rights reserved.</p>
+          <div class="footer-data-freshness" id="footer-freshness"></div>
+                  <div class="footer-legal-row" style="display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:#8b949e;margin-top:6px;">
+            <a href="privacy.html" style="color:#8b949e;text-decoration:none;">Privacy</a>
+            <a href="terms.html" style="color:#8b949e;text-decoration:none;">Terms</a>
+            <a href="#" onclick="if(window.TIL_CookieConsent){window.TIL_CookieConsent.show();}return false;" style="color:#8b949e;text-decoration:none;">Manage cookies</a>
+            <a href="mailto:contact@rationaloptimistsociety.com" style="color:#8b949e;text-decoration:none;">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="utils.js?v=20260501"></script>
+    <script src="auth.js?v=20260501"></script>
+    <script src="data.js?v=20260501"></script>
+    <script src="data/changelog_auto.js?v=20260501"></script>
+    <script>
+    (function () {
+      'use strict';
+
+      if (typeof CHANGELOG_WEEKLY === 'undefined' || !CHANGELOG_WEEKLY) {
+        document.getElementById('chg-error').style.display = 'block';
+        return;
+      }
+      var C = CHANGELOG_WEEKLY;
+
+      // ─── helpers ───
+
+      function companyLink(name) {
+        return 'company.html?c=' + encodeURIComponent(name);
+      }
+
+      // '$3.8B' / '~$550M' -> value in $M for direction arrows; null if unparseable
+      function parseMoney(s) {
+        if (!s) return null;
+        var m = String(s).replace(/~/g, '').match(/\$?\s*([0-9][0-9,.]*)\s*([BbMmKk])?/);
+        if (!m) return null;
+        var v = parseFloat(m[1].replace(/,/g, ''));
+        if (isNaN(v)) return null;
+        var unit = (m[2] || 'M').toUpperCase();
+        return v * (unit === 'B' ? 1000 : unit === 'K' ? 0.001 : 1);
+      }
+
+      function moveDirection(from, to) {
+        var f = parseMoney(from), t = parseMoney(to);
+        if (f == null || t == null) return 'flat';
+        if (t > f) return 'up';
+        if (t < f) return 'down';
+        return 'flat';
+      }
+
+      function statusChip(status) {
+        var s = String(status || '').toLowerCase();
+        var cls = { ipo: 'status-ipo', acquired: 'status-acquired', dead: 'status-dead', zombie: 'status-zombie' }[s];
+        if (!cls) return '<span class="signal-badge signal-stable" style="margin-left:0;">' + escapeHtml(status || 'untracked') + '</span>';
+        var label = { ipo: "IPO'd", acquired: 'Acquired', dead: 'Died', zombie: 'Zombie' }[s];
+        return '<span class="status-chip ' + cls + '" style="margin-left:0;">' + label + '</span>';
+      }
+
+      var EVENT_TYPES = {
+        funding:        { label: 'FUNDING',    cls: 'signal-established' },
+        milestone:      { label: 'MILESTONE',  cls: 'signal-rising' },
+        gov_traction:   { label: 'GOV',        cls: 'signal-watch' },
+        partnership:    { label: 'PARTNER',    cls: 'signal-stealth' },
+        stock_movement: { label: 'STOCK',      cls: 'signal-hot' },
+        news_activity:  { label: 'NEWS',       cls: 'signal-stable' }
+      };
+
+      function eventBadge(type) {
+        var t = EVENT_TYPES[type] || { label: String(type || 'event').toUpperCase(), cls: 'signal-stable' };
+        return '<span class="signal-badge ' + t.cls + '" style="margin-left:0;">' + escapeHtml(t.label) + '</span>';
+      }
+
+      function sectionHeader(eyebrow, title, sub) {
+        return '<div class="section-header visible">' +
+          '<p class="section-eyebrow" style="justify-content:flex-start;">' + escapeHtml(eyebrow) + '</p>' +
+          '<h2>' + escapeHtml(title) + '</h2>' +
+          (sub ? '<p>' + escapeHtml(sub) + '</p>' : '') +
+          '</div>';
+      }
+
+      function emptyNote(text) {
+        return '<div class="chg-empty">' + escapeHtml(text) + '</div>';
+      }
+
+      function moveRow(item, opts) {
+        opts = opts || {};
+        var dir = opts.directional ? moveDirection(item.from, item.to) : 'flat';
+        var from = item.from && item.from.trim() ? item.from : '—';
+        var html = '<a class="chg-move" href="' + companyLink(item.name) + '">' +
+          '<span class="chg-move-name">' + escapeHtml(item.name) + '</span>' +
+          '<span class="chg-move-vals">' +
+            '<span class="chg-from">' + escapeHtml(from) + '</span>' +
+            '<span class="chg-arrow">&rarr;</span>' +
+            '<span class="chg-to ' + dir + '">' + escapeHtml(item.to || '—') + '</span>' +
+            (opts.trustChip ? '<span class="trust-chip" title="Diffed directly from the tracked database record">db-tracked</span>' : '') +
+          '</span>' +
+          (item.detail ? '<span class="chg-move-detail">' + escapeHtml(item.detail) + '</span>' : '') +
+        '</a>';
+        return html;
+      }
+
+      // ─── hero stats ───
+
+      var totalChanges =
+        (C.added || []).length + (C.removed || []).length +
+        (C.statusChanges || []).length + (C.valuationChanges || []).length +
+        (C.raisedChanges || []).length + (C.stageChanges || []).length +
+        ((C.il30Changes && C.il30Changes.in) || []).length +
+        ((C.il30Changes && C.il30Changes.out) || []).length;
+
+      document.getElementById('chg-stat-window').textContent = C.windowDays || '—';
+      document.getElementById('chg-stat-changes').textContent = totalChanges;
+      document.getElementById('chg-stat-new').textContent = (C.added || []).length;
+      document.getElementById('chg-stat-events').textContent = (C.events || []).length;
+      if (C.generated) {
+        document.getElementById('chg-subtitle').textContent =
+          'Every company added, every status change, every valuation move, every funding update — diffed straight from the database. Generated ' + C.generated + '.';
+      }
+
+      // ─── sections ───
+
+      var html = '';
+
+      // New to the database
+      html += '<section class="chg-section">';
+      html += sectionHeader('FRESH INTELLIGENCE', 'New to the database',
+        (C.added || []).length + ' compan' + ((C.added || []).length === 1 ? 'y' : 'ies') + ' added in the last ' + (C.windowDays || 7) + ' days.');
+      if ((C.added || []).length) {
+        html += '<div class="chg-grid">';
+        C.added.forEach(function (a) {
+          html += '<a class="chg-card chg-new" href="' + companyLink(a.name) + '">' +
+            '<div class="chg-card-name">' + escapeHtml(a.name) + '</div>' +
+            '<div class="chg-card-sector">' + escapeHtml(a.sector || 'Frontier Tech') + '</div>' +
+            (a.oneLine ? '<div class="chg-card-oneline">' + escapeHtml(a.oneLine) + '</div>' : '') +
+          '</a>';
+        });
+        html += '</div>';
+      } else {
+        html += emptyNote('No new companies this week.');
+      }
+      html += '</section>';
+
+      // Departures
+      html += '<section class="chg-section">';
+      html += sectionHeader('OFF THE BOARD', 'Departures', 'Companies removed from tracking this week.');
+      if ((C.removed || []).length) {
+        html += '<div class="chg-chip-row">';
+        C.removed.forEach(function (name) {
+          html += '<span class="chg-chip">' + escapeHtml(name) + '</span>';
+        });
+        html += '</div>';
+      } else {
+        html += emptyNote('No departures this week.');
+      }
+      html += '</section>';
+
+      // Status changes
+      html += '<section class="chg-section">';
+      html += sectionHeader('STATE OF PLAY', 'Status changes', "IPO'd, acquired, or died — reclassified this week.");
+      if ((C.statusChanges || []).length) {
+        html += '<div class="chg-move-list">';
+        C.statusChanges.forEach(function (s) {
+          html += '<a class="chg-move" href="' + companyLink(s.name) + '">' +
+            '<span class="chg-move-name">' + escapeHtml(s.name) + '</span>' +
+            '<span class="chg-move-vals">' + statusChip(s.from || '') +
+              '<span class="chg-arrow">&rarr;</span>' + statusChip(s.to) + '</span>' +
+            (s.detail ? '<span class="chg-move-detail">' + escapeHtml(s.detail) + '</span>' : '') +
+          '</a>';
+        });
+        html += '</div>';
+      } else {
+        html += emptyNote('No status changes this week.');
+      }
+      html += '</section>';
+
+      // Valuation moves
+      html += '<section class="chg-section">';
+      html += sectionHeader('REPRICING', 'Valuation moves', 'Where the market re-marked the board this week.');
+      if ((C.valuationChanges || []).length) {
+        html += '<div class="chg-move-list">';
+        C.valuationChanges.forEach(function (v) {
+          html += moveRow(v, { directional: true, trustChip: true });
+        });
+        html += '</div>';
+      } else {
+        html += emptyNote('No valuation changes recorded this week.');
+      }
+      html += '</section>';
+
+      // Funding updates
+      html += '<section class="chg-section">';
+      html += sectionHeader('CAPITAL FLOWS', 'Funding updates',
+        'Total-raised revisions and stage graduations in the last ' + (C.windowDays || 7) + ' days.');
+      var hasFunding = (C.raisedChanges || []).length || (C.stageChanges || []).length;
+      if (hasFunding) {
+        if ((C.raisedChanges || []).length) {
+          html += '<div class="chg-move-list" style="margin-bottom:14px;">';
+          C.raisedChanges.forEach(function (r) {
+            html += moveRow(r, { directional: true, trustChip: true });
+          });
+          html += '</div>';
+        }
+        if ((C.stageChanges || []).length) {
+          html += '<div class="chg-move-list">';
+          C.stageChanges.forEach(function (s) {
+            html += moveRow(s, { directional: false });
+          });
+          html += '</div>';
+        }
+      } else {
+        html += emptyNote('No funding updates this week.');
+      }
+      html += '</section>';
+
+      // IL30 moves
+      html += '<section class="chg-section">';
+      html += sectionHeader('THE THIRTY', 'IL30 moves', 'Who entered and who exited the Innovators League 30.');
+      var il30in = (C.il30Changes && C.il30Changes.in) || [];
+      var il30out = (C.il30Changes && C.il30Changes.out) || [];
+      if (il30in.length || il30out.length) {
+        html += '<div class="chg-chip-row">';
+        il30in.forEach(function (name) {
+          html += '<a class="chg-chip chg-il30-in" href="' + companyLink(name) + '">&#9650; IN &middot; ' + escapeHtml(name) + '</a>';
+        });
+        il30out.forEach(function (name) {
+          html += '<a class="chg-chip chg-il30-out" href="' + companyLink(name) + '">&#9660; OUT &middot; ' + escapeHtml(name) + '</a>';
+        });
+        html += '</div>';
+      } else {
+        html += emptyNote('No changes — the thirty holds.');
+      }
+      html += '</section>';
+
+      // Recent events feed
+      html += '<section class="chg-section">';
+      html += sectionHeader('THE TAPE', 'Recent events',
+        'Dated company events from the last 14 days, newest first.');
+      if ((C.events || []).length) {
+        html += '<div class="chg-events">';
+        C.events.forEach(function (e) {
+          html += '<a class="chg-event" href="' + companyLink(e.name) + '">' +
+            '<span class="chg-event-date">' + escapeHtml(e.date) + '</span>' +
+            eventBadge(e.type) +
+            '<span class="chg-event-name">' + escapeHtml(e.name) + '</span>' +
+            '<span class="chg-event-text">' + escapeHtml(e.text) + '</span>' +
+          '</a>';
+        });
+        html += '</div>';
+      } else {
+        html += emptyNote('No dated events in the last 14 days.');
+      }
+      html += '</section>';
+
+      html += '<p class="chg-meta-line">Auto-generated ' + escapeHtml(C.generated || '') +
+        ' · baseline ' + escapeHtml(C.baselineSha || 'n/a') +
+        ' · ' + (C.companiesTracked || 0) + ' companies tracked · refreshed with the daily data sync</p>';
+
+      document.getElementById('chg-content').innerHTML = html;
+    })();
+    </script>
+    <script src="cookie-consent.js?v=20260501"></script>
+    <script src="substack-capture.js?v=20260501"></script>
+</body>
+</html>

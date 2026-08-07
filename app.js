@@ -3310,8 +3310,56 @@ function initFilters() {
     specialFilter.addEventListener('change', applyFilters);
   }
 
+  // 'Backed by' investor filter — mirrors the special-filters pattern.
+  // The select is injected at runtime (index.html markup untouched) and its
+  // options come from the shared investor index in investor-graph.js.
+  initBackedByFilter();
+
   // Sort dropdown
   document.getElementById('sort-filter').addEventListener('change', applyFilters);
+}
+
+// ─── 'BACKED BY' INVESTOR FILTER ───
+// Injects a top-40-investors dropdown next to #special-filter. Investor
+// normalization/merging lives in investor-graph.js (also powers the
+// investors.html directory); it is lazy-loaded here so both pages share one
+// canonical index instead of drifting copies.
+function initBackedByFilter() {
+  const specialEl = document.getElementById('special-filter');
+  if (!specialEl || document.getElementById('backed-filter')) return;
+
+  const buildSelect = () => {
+    if (!window.INVESTOR_LIST || document.getElementById('backed-filter')) return;
+    const sel = document.createElement('select');
+    sel.id = 'backed-filter';
+    sel.className = 'filter-select';
+    const def = document.createElement('option');
+    def.value = 'all';
+    def.textContent = '💼 Backed by…';
+    sel.appendChild(def);
+    window.INVESTOR_LIST.slice(0, 40).forEach(inv => {
+      const opt = document.createElement('option');
+      opt.value = inv.key;
+      opt.textContent = `${inv.name} (${inv.count})`;
+      sel.appendChild(opt);
+    });
+    specialEl.insertAdjacentElement('afterend', sel);
+    sel.addEventListener('change', applyFilters);
+  };
+
+  if (window.INVESTOR_LIST) { buildSelect(); return; }
+  const script = document.createElement('script');
+  script.src = 'investor-graph.js?v=20260807';
+  script.onload = buildSelect;
+  document.head.appendChild(script);
+}
+
+// Shared predicate: does this company have the selected canonical investor?
+function matchesBackedFilter(company, backedKey) {
+  if (!backedKey || backedKey === 'all') return true;
+  if (!window.INVESTOR_INDEX) return true;
+  const inv = window.INVESTOR_INDEX.get(backedKey);
+  return inv ? inv.companySet.has(company.name) : false;
 }
 
 function applyFilters() {
@@ -3322,6 +3370,7 @@ function applyFilters() {
   const stageEl = document.getElementById('stage-filter');
   const cityEl = document.getElementById('city-filter');
   const specialEl = document.getElementById('special-filter');
+  const backedEl = document.getElementById('backed-filter');
   const sortEl = document.getElementById('sort-filter');
   const searchEl = document.getElementById('search-input');
 
@@ -3331,6 +3380,7 @@ function applyFilters() {
   const stage = stageEl?.value || 'all';
   const city = cityEl?.value || 'all';
   const special = specialEl?.value || 'all';
+  const backed = backedEl?.value || 'all';
   const sortBy = sortEl?.value || 'name';
   const searchTerm = (searchEl?.value || '').toLowerCase();
 
@@ -3377,6 +3427,11 @@ function applyFilters() {
       // Filter for companies with recent funding (has recentEvent with funding)
       filtered = filtered.filter(c => c.recentEvent && c.recentEvent.type === 'funding');
     }
+  }
+
+  // 'Backed by' investor filter (canonical index from investor-graph.js)
+  if (backed && backed !== 'all') {
+    filtered = filtered.filter(c => matchesBackedFilter(c, backed));
   }
 
   if (searchTerm) {
@@ -4366,6 +4421,7 @@ function exportCompanyList() {
   const stageEl = document.getElementById('stage-filter');
   const cityEl = document.getElementById('city-filter');
   const specialEl = document.getElementById('special-filter');
+  const backedEl = document.getElementById('backed-filter');
   const searchEl = document.getElementById('search-input');
 
   const sector = sectorEl?.value || 'all';
@@ -4374,6 +4430,7 @@ function exportCompanyList() {
   const stage = stageEl?.value || 'all';
   const city = cityEl?.value || 'all';
   const special = specialEl?.value || 'all';
+  const backed = backedEl?.value || 'all';
   const searchTerm = (searchEl?.value || '').toLowerCase();
 
   let companies = COMPANIES || [];
@@ -4385,6 +4442,7 @@ function exportCompanyList() {
   if (city && city !== 'all') companies = companies.filter(c => c.location && c.location.trim() === city);
   if (special === 'innovator50') companies = companies.filter(c => isInROS50(c.name));
   if (special === 'govContracts') companies = companies.filter(c => getGovContractCompanySet().has(c.name));
+  if (backed && backed !== 'all') companies = companies.filter(c => matchesBackedFilter(c, backed));
   if (searchTerm) {
     companies = companies.filter(c => {
       const hay = (c.name + ' ' + c.sector + ' ' + c.location + ' ' + (c.founder || '') + ' ' + (c.description || '')).toLowerCase();
@@ -10861,6 +10919,7 @@ async function saveCurrentSearch() {
     stage: document.getElementById('stage-filter')?.value || 'all',
     signal: document.getElementById('signal-filter')?.value || 'all',
     special: document.getElementById('special-filter')?.value || 'all',
+    backed: document.getElementById('backed-filter')?.value || 'all',
     sort: document.getElementById('sort-filter')?.value || 'score'
   };
 
@@ -10948,6 +11007,7 @@ function applySavedSearch(filters) {
   setVal('stage-filter', filters.stage);
   setVal('signal-filter', filters.signal);
   setVal('special-filter', filters.special);
+  setVal('backed-filter', filters.backed);
   setVal('sort-filter', filters.sort);
 
   // Trigger filter application

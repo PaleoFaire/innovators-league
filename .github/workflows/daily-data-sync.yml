@@ -215,6 +215,11 @@ jobs:
       - name: Merge all data into data.js
         run: python scripts/merge_data.py
 
+      # "This Week in the League" — weekly changelog rendered by changes.html.
+      # Guarded so a changelog failure can never break the daily sync.
+      - name: Build weekly changelog (data/changelog_auto.js)
+        run: python3 scripts/build_changelog.py || echo "::warning::changelog build failed"
+
       - name: Configure Git
         run: |
           git config user.name "TIL Data Bot"

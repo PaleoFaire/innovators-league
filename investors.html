@@ -185,6 +185,127 @@
         </div>
     </section>
 
+    <!-- All Investors Directory — every investor across COMPANIES.investors,
+         built at runtime by investor-graph.js. The curated firm cards above
+         are the editorial layer; this is the full graph. -->
+    <style>
+      /* ── All Investors directory (scoped .ai-) ── */
+      .ai-controls { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; }
+      .ai-controls .search-box { flex: 1; min-width: 260px; }
+      .ai-count-readout { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); letter-spacing: 0.3px; white-space: nowrap; }
+      .ai-table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg-card); }
+      #ai-table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 980px; }
+      #ai-table thead th {
+        position: sticky; top: 0; z-index: 2;
+        background: var(--bg-tertiary); color: var(--text-muted);
+        font-family: var(--font-mono); font-size: 10px; font-weight: 600;
+        text-transform: uppercase; letter-spacing: 1px; text-align: left;
+        padding: 10px 14px; border-bottom: 1px solid var(--border);
+        cursor: pointer; user-select: none; white-space: nowrap;
+      }
+      #ai-table thead th.ai-th-num { text-align: right; }
+      #ai-table thead th:hover { color: var(--text-secondary); }
+      #ai-table thead th.ai-th-active { color: var(--accent); }
+      .ai-arrow { font-size: 8px; margin-left: 4px; }
+      #ai-table tbody td { padding: 9px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+      #ai-table tbody tr:last-child td { border-bottom: none; }
+      tr.ai-row { cursor: pointer; transition: background var(--transition); }
+      tr.ai-row:hover { background: var(--bg-card-hover); }
+      tr.ai-row-open { background: var(--accent-dim); }
+      .ai-td-name { font-weight: 600; color: var(--text-primary); white-space: nowrap; }
+      .ai-td-num { font-family: var(--font-mono); font-size: 12px; color: var(--text-secondary); text-align: right; white-space: nowrap; }
+      .ai-td-sectors, .ai-td-chips { max-width: 300px; }
+      .ai-sector {
+        display: inline-block; font-family: var(--font-mono); font-size: 10px;
+        color: var(--accent-secondary); background: var(--accent-secondary-dim);
+        border: 1px solid rgba(96,165,250,0.25); border-radius: 4px;
+        padding: 2px 7px; margin: 1px 4px 1px 0; white-space: nowrap;
+      }
+      .ai-chip {
+        display: inline-block; font-size: 11px; font-weight: 500; line-height: 1.4;
+        padding: 2px 8px; margin: 1px 4px 1px 0; border-radius: 4px;
+        text-decoration: none; cursor: pointer; white-space: nowrap;
+        transition: all var(--transition); font-family: inherit;
+      }
+      .ai-chip-co { color: var(--text-secondary); background: var(--bg-elevated); border: 1px solid var(--border); }
+      .ai-chip-co:hover { color: var(--accent); border-color: var(--accent); }
+      .ai-chip-inv { color: var(--accent); background: var(--accent-dim); border: 1px solid rgba(255,107,44,0.25); }
+      .ai-chip-inv:hover { border-color: var(--accent); background: rgba(255,107,44,0.2); }
+      .ai-x { font-family: var(--font-mono); font-size: 10px; opacity: 0.7; }
+      .ai-empty { color: var(--text-muted); font-size: 13px; padding: 18px; text-align: center; }
+      /* detail panel */
+      #ai-detail { display: none; border: 1px solid rgba(255,107,44,0.35); border-radius: var(--radius); background: var(--bg-card); padding: 20px; margin-bottom: 16px; }
+      .ai-detail-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px; }
+      .ai-detail-name { font-family: var(--font-display); font-size: 22px; font-weight: 700; color: var(--text-primary); }
+      .ai-detail-stats { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-top: 6px; font-size: 12px; color: var(--text-secondary); }
+      .ai-detail-stats strong { color: var(--accent); font-family: var(--font-mono); }
+      .ai-detail-close { background: none; border: none; color: var(--text-muted); font-size: 26px; line-height: 1; cursor: pointer; padding: 0 4px; }
+      .ai-detail-close:hover { color: var(--text-primary); }
+      .ai-detail-label { font-family: var(--font-mono); font-size: 10px; font-weight: 600; letter-spacing: 1.5px; color: var(--text-muted); margin: 16px 0 8px; }
+      .ai-port-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 8px; }
+      .ai-port-card {
+        display: flex; flex-direction: column; gap: 2px; padding: 8px 12px;
+        background: var(--bg-tertiary); border: 1px solid var(--border);
+        border-radius: var(--radius-sm); text-decoration: none; transition: all var(--transition);
+      }
+      .ai-port-card:hover { border-color: var(--accent); background: var(--bg-card-hover); }
+      .ai-port-name { font-size: 13px; font-weight: 600; color: var(--text-primary); }
+      .ai-port-meta { font-family: var(--font-mono); font-size: 10px; color: var(--text-muted); }
+      .ai-lead-badge {
+        display: inline-block; font-family: var(--font-mono); font-size: 8px; font-weight: 700;
+        letter-spacing: 0.5px; color: var(--accent); background: var(--accent-dim);
+        border: 1px solid rgba(255,107,44,0.3); border-radius: 3px; padding: 1px 5px;
+        margin-left: 5px; vertical-align: middle;
+      }
+      .ai-coinv-row { display: flex; flex-wrap: wrap; gap: 4px; }
+      .ai-stats-row { display: flex; gap: 28px; flex-wrap: wrap; margin: 0 0 18px; }
+      .ai-stat { display: flex; flex-direction: column; }
+      .ai-stat-num { font-family: var(--font-mono); font-size: 22px; font-weight: 700; color: var(--accent); }
+      .ai-stat-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
+      @media (max-width: 640px) { .ai-controls { flex-direction: column; align-items: stretch; } .ai-count-readout { white-space: normal; } }
+    </style>
+    <section class="section" id="all-investors">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">THE FULL GRAPH</p>
+                <h2>All Investors</h2>
+                <p>Every investor across our tracked companies — normalized from the raw cap-table data. Click a row for the full portfolio; click a co-investor to jump to theirs.</p>
+            </div>
+
+            <div class="ai-stats-row">
+                <div class="ai-stat"><span class="ai-stat-num" id="ai-stat-total">—</span><span class="ai-stat-label">Unique Investors</span></div>
+                <div class="ai-stat"><span class="ai-stat-num" id="ai-stat-directory">—</span><span class="ai-stat-label">With 3+ Companies</span></div>
+                <div class="ai-stat"><span class="ai-stat-num" id="ai-stat-links">—</span><span class="ai-stat-label">Portfolio Links</span></div>
+            </div>
+
+            <div class="ai-controls">
+                <div class="search-box">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <input type="text" id="ai-search" placeholder="Search investors or portfolio companies...">
+                </div>
+                <span class="ai-count-readout" id="ai-count-readout"></span>
+            </div>
+
+            <div id="ai-detail"></div>
+
+            <div class="ai-table-wrap">
+                <table id="ai-table">
+                    <thead>
+                        <tr>
+                            <th data-sort="name">Investor<span class="ai-arrow"></span></th>
+                            <th data-sort="count" class="ai-th-num"># Companies<span class="ai-arrow"></span></th>
+                            <th data-sort="leadCount" class="ai-th-num"># As Lead<span class="ai-arrow"></span></th>
+                            <th data-sort="sector">Top Sectors<span class="ai-arrow"></span></th>
+                            <th>Notable Companies</th>
+                            <th>Top Co-Investors</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ai-tbody"></tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
     <!-- Active Deployers -->
     <section class="section active-deployers-section" id="active-deployers">
         <div class="container">
@@ -349,6 +470,7 @@
     <script src="data/fund_intelligence_auto.js?v=20260501"></script>
     <script src="data/ma_comps_auto.js?v=20260501"></script>
     <script src="investors.js?v=20260501"></script>
+    <script src="investor-graph.js?v=20260807"></script>
     <script src="cookie-consent.js?v=20260501"></script>
 </body>
 </html>

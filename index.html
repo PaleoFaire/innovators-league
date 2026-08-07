@@ -58,6 +58,7 @@
         <div class="nav-links">
             <a href="index.html" class="nav-link" data-nav-id="index" aria-current="page" style="color:var(--color-primary-bright)">Companies</a>
             <a href="terminal.html" class="nav-link" data-nav-id="terminal" style="color:#86efac;">⚡ Terminal</a>
+            <a href="changes.html" class="nav-link" data-nav-id="changes">🗞️ Changes</a>
 
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main" data-nav-group="calendar">📅 Calendar <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
@@ -221,6 +222,20 @@
       <div class="container">
         <h2 class="section-title">This Week's Movers</h2>
         <div id="movers-content"></div>
+      </div>
+    </section>
+
+    <!-- This Week in the League — auto-generated changelog teaser (changes.html) -->
+    <section id="weekly-changelog-teaser" class="section-container" style="display:none;">
+      <div class="container">
+        <a href="changes.html" style="display:block; text-decoration:none; color:inherit; background:linear-gradient(135deg, rgba(255,107,44,0.07) 0%, rgba(255,255,255,0.02) 100%); border:1px solid rgba(255,107,44,0.28); border-radius:14px; padding:24px 28px; transition:border-color 0.25s ease;"
+           onmouseover="this.style.borderColor='rgba(255,107,44,0.55)'" onmouseout="this.style.borderColor='rgba(255,107,44,0.28)'">
+          <p style="font-size:10px; letter-spacing:3px; font-family:'SF Mono',monospace; color:rgba(255,107,44,0.7); margin:0 0 6px; text-transform:uppercase;">🗞️ This Week in the League</p>
+          <h2 class="section-title" style="margin-bottom:6px;">What changed this week</h2>
+          <p style="font-size:14px; color:var(--text-muted); margin:0 0 14px;">The auto-generated weekly changelog — new companies, status changes, valuation moves, and funding updates, diffed straight from the database.</p>
+          <div id="chg-teaser-stats" style="display:flex; gap:22px; flex-wrap:wrap; font-family:'SF Mono','Fira Code',monospace;"></div>
+          <div style="margin-top:14px; font-size:13px; font-weight:700; color:var(--accent);">See what changed &rarr;</div>
+        </a>
       </div>
     </section>
 
@@ -1175,6 +1190,29 @@
     <script src="data/contractor_readiness_auto.js?v=20260501"></script>
     <script src="data/gov_demand_summary_auto.js?v=20260501"></script>
     <script src="data/expert_takes_auto.js?v=20260501"></script>
+    <script src="data/changelog_auto.js?v=20260501"></script>
+    <script>
+    // "This Week in the League" teaser — populated from CHANGELOG_WEEKLY
+    // (data/changelog_auto.js, rebuilt daily by scripts/build_changelog.py).
+    (function () {
+      if (typeof CHANGELOG_WEEKLY === 'undefined' || !CHANGELOG_WEEKLY) return;
+      var C = CHANGELOG_WEEKLY;
+      var stats = [
+        { n: (C.added || []).length, label: 'new companies' },
+        { n: (C.statusChanges || []).length, label: 'status changes' },
+        { n: (C.raisedChanges || []).length + (C.stageChanges || []).length + (C.valuationChanges || []).length, label: 'funding & valuation moves' },
+        { n: (C.events || []).length, label: 'recent events' }
+      ];
+      var el = document.getElementById('chg-teaser-stats');
+      if (!el) return;
+      el.innerHTML = stats.map(function (s) {
+        return '<div><span style="font-size:22px; font-weight:800; color:var(--text-primary);">' + s.n +
+               '</span> <span style="font-size:11px; color:var(--text-muted); text-transform:uppercase; letter-spacing:1px;">' + s.label + '</span></div>';
+      }).join('');
+      var section = document.getElementById('weekly-changelog-teaser');
+      if (section) section.style.display = '';
+    })();
+    </script>
     <script src="app.js?v=20260501"></script>
     <script src="cookie-consent.js?v=20260501"></script>
     <script src="substack-capture.js?v=20260501"></script>
