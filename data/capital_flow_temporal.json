@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T11:51:59+00:00",
+  "generatedAt": "2026-08-07T13:21:46+00:00",
   "matrix": {
     "ai-mineral-exploration": {
       "2026-Q3": {
@@ -168,9 +168,7 @@
             ]
           }
         ],
-        "investors": [
-          "Caffeinated Capital"
-        ]
+        "investors": []
       },
       "2025-Q2": {
         "deals": 1,
@@ -381,8 +379,7 @@
           }
         ],
         "investors": [
-          "8VC",
-          "Caffeinated Capital"
+          "8VC"
         ]
       }
     },
@@ -594,7 +591,8 @@
           "Bessemer Venture Partners",
           "Founders Fund",
           "In-Q-Tel",
-          "Khosla Ventures"
+          "Khosla Ventures",
+          "Y Combinator"
         ]
       },
       "2024-Q1": {
@@ -674,8 +672,7 @@
           "In-Q-Tel",
           "Lightspeed Venture Partners",
           "Lux Capital",
-          "Sequoia Capital",
-          "Thrive Capital Management, LLC"
+          "Sequoia Capital"
         ]
       }
     },
@@ -707,6 +704,7 @@
           }
         ],
         "investors": [
+          "Kleiner Perkins",
           "Sequoia Capital"
         ]
       },
@@ -734,6 +732,7 @@
         ],
         "investors": [
           "General Catalyst",
+          "Kleiner Perkins",
           "Lux Capital"
         ]
       }
@@ -1025,7 +1024,8 @@
           }
         ],
         "investors": [
-          "Founders Fund"
+          "Founders Fund",
+          "Y Combinator"
         ]
       },
       "2026-Q3": {
@@ -1066,7 +1066,8 @@
         ],
         "investors": [
           "Lightspeed Venture Partners",
-          "Sequoia Capital"
+          "Sequoia Capital",
+          "Y Combinator"
         ]
       },
       "2025-Q2": {
@@ -1388,9 +1389,7 @@
             ]
           }
         ],
-        "investors": [
-          "Future Ventures"
-        ]
+        "investors": []
       }
     },
     "ai-chips-inference": {
@@ -1560,24 +1559,6 @@
           "company": "Boom Supersonic",
           "cluster": "supersonic-hypersonic-transport",
           "date": "2026-04",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Caffeinated Capital": {
-      "2026-Q3": [
-        {
-          "company": "Antares",
-          "cluster": "nuclear-microreactor",
-          "date": "2026-07-28",
-          "source": "formd"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Saronic",
-          "cluster": "autonomy-maritime",
-          "date": "2026-03",
           "source": "recentEvent"
         }
       ]
@@ -1822,6 +1803,32 @@
         }
       ]
     },
+    "Y Combinator": {
+      "2026-Q2": [
+        {
+          "company": "Boom Supersonic",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-04",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q3": [
+        {
+          "company": "Gecko Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-07",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q3": [
+        {
+          "company": "Orangewood Labs",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Lowercarbon Capital": {
       "2024-Q1": [
         {
@@ -1856,16 +1863,6 @@
           "company": "Crusoe Energy",
           "cluster": "data-center-infrastructure",
           "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Thrive Capital Management, LLC": {
-      "2026-Q1": [
-        {
-          "company": "Physical Intelligence",
-          "cluster": "ai-robotics-embodied",
-          "date": "2026-03",
           "source": "recentEvent"
         }
       ]
@@ -1914,6 +1911,24 @@
         }
       ]
     },
+    "Kleiner Perkins": {
+      "2026-Q1": [
+        {
+          "company": "Waymo",
+          "cluster": "ai-autonomous-driving",
+          "date": "2026-02",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q3": [
+        {
+          "company": "Applied Intuition",
+          "cluster": "ai-autonomous-driving",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Lightspeed Venture Partners": {
       "2025-Q2": [
         {
@@ -1949,16 +1964,6 @@
           "source": "recentEvent"
         }
       ]
-    },
-    "Future Ventures": {
-      "2025-Q4": [
-        {
-          "company": "Mythic",
-          "cluster": "ai-chips-edge",
-          "date": "2025-12",
-          "source": "recentEvent"
-        }
-      ]
     }
   },
   "stats": {
@@ -1966,7 +1971,7 @@
     "totalUSDSold": 1934492343,
     "uniqueClusters": 39,
     "uniqueQuarters": 9,
-    "uniqueVCs": 17,
+    "uniqueVCs": 16,
     "quarterRange": [
       "2024-Q1",
       "2026-Q3"
