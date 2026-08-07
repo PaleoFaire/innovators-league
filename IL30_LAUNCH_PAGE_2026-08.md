@@ -86,13 +86,13 @@ In Ukraine, soldiers hand-wire $300 drones to $50,000 jammers to $5 million rada
 
 ### 8. Pilgrim
 
-*A clay bandage that stops a soldier bleeding out in seconds.*
+*A smoke detector for biological threats — making the invisible enemy visible.*
 
-**Founder** Jake Adler · **HQ** San Francisco, CA · **Stage** Seed · **Backers** Cantos, Thiel Capital, Day One
+**Founder** Jake Adler · **HQ** San Francisco, CA · **Stage** Seed · **Backers** Cantos, Thiel Capital, Conviction
 
 **First-hand** — Sat down with founder Jake Adler in San Francisco. *The ROS fund is an investor.*
 
-Defense pours billions into drones; soldiers still bleed out in minutes. Pilgrim's clay-packed gauze, Kingsfoil, clots catastrophic wounds almost instantly — and 22-year-old Jake Adler proved his conviction by drilling holes in his own thighs to test it against the Army's standard dressing. Sometimes the most important frontier technology is also the simplest: the thing that keeps the operator alive.
+Every threat humanity has beaten, we first learned to see: radar for bombers, smoke alarms for fires. Biology is still invisible — in June 2026, a false anthrax alarm locked down part of the Pentagon, because today's detectors can't tell a bioweapon from harmless soil bacteria. Pilgrim's ARGUS is the missing instrument: sensors that sample the air and are built to name the pathogen in minutes, not days. Adler — who once tested his own clotting bandage by drilling holes in his thighs — wants biology watched the way radar watches the sky.
 
 ---
 
