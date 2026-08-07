@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 28.24,
+      "avg_change": 27.53,
       "count": 1
     },
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 21.69,
+      "avg_change": 17.41,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 12.98,
+      "avg_change": 9.61,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.7,
+      "avg_change": 6.13,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 11.01,
+      "avg_change": 8.72,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 14.78,
+      "avg_change": 10.07,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.28,
+      "avg_change": 4.23,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -1.26,
+      "avg_change": -2.58,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.88,
+      "avg_change": 7.9,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "SATL",
       "Satellogic",
-      50.57
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      31.23
+      44.41
     ],
     [
       "PLTR",
       "Palantir",
-      28.24
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      26.49
+      27.53
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      24.45
+      21.88
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      20.0
+    ],
+    [
+      "RKLB",
+      "Rocket Lab",
+      16.99
     ]
   ],
   "topLosers": [
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      3.78
+      "TSLA",
+      "Tesla",
+      3.46
     ],
     [
-      "9348.T",
-      "ispace",
-      2.96
+      "OKLO",
+      "Oklo",
+      2.68
     ],
     [
       "AMD",
       "AMD",
-      0.52
+      0.8
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -1.54
+      -3.08
     ],
     [
       "RIVN",
       "Rivian",
-      -6.74
+      -8.62
     ]
   ],
-  "lastUpdated": "2026-08-06 14:20:26"
+  "lastUpdated": "2026-08-07 00:05:40"
 }
