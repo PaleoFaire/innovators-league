@@ -6543,5 +6543,355 @@
   "confidence": "None",
   "hasFormD": false,
   "note": "No SF neurotech entity; Nudge Capital/Coach/Investors/LLC are all unrelated businesses elsewhere."
+ },
+ "Astro Mechanica": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No issuer filer. Only SPVs: 'Astro Mechanica Seed a Series of SLRTE I LLC' (0002011839) and 'AVSF - Astro Mechanica 2024, LLC' (0002055325) - excluded per rules."
+ },
+ "Venus Aerospace": {
+  "cik": "0001812508",
+  "edgarName": "Venus Aerospace Corp.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Houston TX. Form Ds 2020-2026."
+ },
+ "Physical Intelligence": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR filer. Full-text search for company name and CEO Karol Hausman across Form Ds returns zero; raised via 4(a)(2) presumably."
+ },
+ "Waymo": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR filer named Waymo*. Full-text hits are only mutual funds (Fidelity/T. Rowe) disclosing Waymo LLC holdings. Alphabet subsidiary; no own CIK."
+ },
+ "Figure AI": {
+  "cik": "0002014185",
+  "edgarName": "Figure AI Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Sunnyvale CA, Form D 2024-03-13. Excluded 8 similarly named VUVP/CGF2021/Republic Deal Room SPV series."
+ },
+ "Neuralink": {
+  "cik": "0001708503",
+  "edgarName": "Neuralink Corp.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "NV inc, Fremont CA, Form D/D-A 2017-2025. Excluded VUVP and CGF2021 SPV series."
+ },
+ "Field AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No issuer filer. Only 'HII Field AI, LLC' series SPVs (0002095305/06, 0002126354). FTS for 'Field AI, Inc.' and CEO Ali Agha: zero."
+ },
+ "Nominal": {
+  "cik": "0001956231",
+  "edgarName": "Nominal, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Austin TX address (nominal.io has Austin office). Verified via Form D officers: Cameron McCord, Bryce Strauss (nominal.io founders); investors incl. Alfred Lin. Form Ds 2022-2026."
+ },
+ "Palantir": {
+  "cik": "0001321655",
+  "edgarName": "Palantir Technologies Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Public (NASDAQ PLTR). Historical Form D/D-A plus REGDEX in filing history since 2005. Excluded Palantir Investments/Private Stock LLC vehicles."
+ },
+ "Cognition": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Devin maker (Cognition AI/Cognition Labs, SF) has no filer. 'Cognition Corp' (0001993674, Lexington MA) is an unrelated requirements-software firm; Cognition Therapeutics is unrelated public biotech. FTS 'Cognition AI'/'Cognition Labs': zero."
+ },
+ "Hadrian": {
+  "cik": "0001863211",
+  "edgarName": "Hadrian Automation, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Torrance CA. Form Ds 2021-2025."
+ },
+ "Machina Labs": {
+  "cik": "0001995988",
+  "edgarName": "Machina Labs, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Chatsworth CA. Form Ds 2023-2026. Excluded CGF2021/Republic SPVs."
+ },
+ "DIRAC": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "diracinc.com (Dirac Inc., NYC manufacturing software) has no filer. 'Dirac Labs Inc.' (0002072335, Madison WI) is a different company - Form D officers Aishwarya Das/Sanket Deshpande (quantum startup)."
+ },
+ "Formic": {
+  "cik": "0001826172",
+  "edgarName": "Formic Technologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc; single Form D 2021-03-26 (San Pablo CA address predates Chicago HQ). Verified via officers: Saman Farid (CEO) and Garry Tan. 'Formic Labs LLC' (NY) is unrelated."
+ },
+ "Rangeview": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR filer. FTS 'Rangeview' Form Ds and founder Cameron Schiller: zero relevant hits."
+ },
+ "Senra Systems": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No issuer filer despite $65M Series B. Only SPV 'AVSF - Senra 2026, LLC' (0002130702) - excluded per rules."
+ },
+ "Salient Motion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR presence at all (browse + full-text zero). The many 'Salient' funds are unrelated Salient Partners vehicles."
+ },
+ "Divergent": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Divergent Technologies, Inc. (Torrance 3D-printing) has no filer; FTS 'Divergent Technologies'/'Divergent 3D' Form Ds zero; founder Kevin Czinger appears only for his prior companies. All 'Divergent' hits are unrelated funds/SPVs."
+ },
+ "Amca": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No issuer filer. Only SPV 'Caffeinated Capital Amca SPV, LLC' (0002128625). AMCAP/AMCAST entities unrelated."
+ },
+ "Altos Labs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR filer; FTS zero. $3B raise done without Form D (4(a)(2))."
+ },
+ "Retro Biosciences": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No issuer filer. Only 'Retro Bio' VUVP/CGF2021 SPV series. CEO Joe Betts-LaCroix appears only for his earlier companies (Mousera/Vium)."
+ },
+ "New Limit": {
+  "cik": "0001977037",
+  "edgarName": "NewLimit, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, South San Francisco. Form D/D-A 2023-2025. Excluded 'New Limit BBVC I' series SPV."
+ },
+ "Atom Bodies": {
+  "cik": "0001825186",
+  "edgarName": "Atom Limbs Inc",
+  "confidence": "Medium",
+  "hasFormD": false,
+  "note": "Atom Bodies is the renamed Atom Limbs (Tyler Hayes); EDGAR name not yet updated. DE inc, San Francisco. Filed Reg CF (Form C/C-AR 2020-2023), no Form D. Excluded 'Atom Limbs I, a series of Capitalize Investments' SPV."
+ },
+ "Mammoth Biosciences": {
+  "cik": "0001750963",
+  "edgarName": "Mammoth Biosciences, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, San Francisco (batch says Brisbane - same company). Form D 2018."
+ },
+ "Nucleus Genomics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No issuer filer. Only 'Nucleus Genomics Jun 2025 a Series of CGF2021 LLC' SPV. Founder Kian Sadeghi FTS: zero."
+ },
+ "Orchid": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "IMPORTANT: 'Orchid Health, Inc.' (0001783626, SF, Form D 2019) is a DIFFERENT company - officers Alexandra Meyer/Emily Anhalt, not Noor Siddiqui's orchid.com. FTS 'Noor Siddiqui' Form Ds: zero. Orchid Cellmark/BioSciences also unrelated."
+ },
+ "Herasight": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No issuer filer. Only 'Herasight Jun 2025 a Series of CGF2021 LLC' SPV (0002088287)."
+ },
+ "Terraform Industries": {
+  "cik": "0002123106",
+  "edgarName": "Terraform Industries, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Burbank CA. First Form D 2026-04-13."
+ },
+ "Commonwealth Fusion Systems": {
+  "cik": "0001744079",
+  "edgarName": "Commonwealth Fusion Systems LLC",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Cambridge MA. Form D/D-A 2018-2021. Excluded 'CFS PML SPV 1 LP' (WY)."
+ },
+ "Fervo Energy": {
+  "cik": "0001853868",
+  "edgarName": "Fervo Energy Co",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Houston. Form Ds 2021+ then IPO'd (S-1, 424B4, 10-Q through 2026)."
+ },
+ "Xcimer Energy": {
+  "cik": "0001916136",
+  "edgarName": "Xcimer Energy, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, former name 'V W G Inc.'. EDGAR address Redwood City CA is stale (HQ now Denver). Form D/D-A 2022."
+ },
+ "Helion": {
+  "cik": "0001615940",
+  "edgarName": "Helion Energy, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Redmond WA address (now Everett). Form Ds 2014-2015; later rounds not filed. Excluded Helion Strategies/Venture Partners funds."
+ },
+ "TAE Technologies": {
+  "cik": "0001175549",
+  "edgarName": "TRI ALPHA ENERGY INC",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "TAE Technologies' former name; EDGAR address Foothill Ranch CA = TAE HQ. Only paper-era REGDEX Reg D notices 2002-2007; no electronic Form D since."
+ },
+ "Mazama": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Mazama Energy (Frisco TX geothermal) has no filer. Mazama Capital Management (OR) unrelated; FTS 'Mazama Energy' Form Ds: zero."
+ },
+ "Quaise Energy": {
+  "cik": "0001813993",
+  "edgarName": "Quaise Energy, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Cambridge MA, former name 'Quaise, Inc.'. Form D/D-A 2020-2026."
+ },
+ "Captura": {
+  "cik": "0001960098",
+  "edgarName": "Captura Corp.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Pasadena CA. Form D/D-A 2022-2026."
+ },
+ "Base Power": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No issuer filer. Only SPV 'Base Power Seed RUV, a Series of Vauban Platform LP' (0001995179). FTS 'Base Power Company' + founders Zach Dell/Justin Lopas: zero."
+ },
+ "Karman Industries": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "'Karman Industries I LLC' (0002093664) is a Space.VC pooled-investment-fund SPV (verified in Form D) - excluded. Karman Holdings Inc. (public, defense) and Karman Line Acquisition (SPAC) are different companies."
+ },
+ "Claros": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "claros.tech (McLean VA) has no filer. Claros Technologies, Inc. (0001876740, Minneapolis MN materials firm) and Claros Mortgage Trust (REIT) are different companies."
+ },
+ "Zipline": {
+  "cik": "0001538148",
+  "edgarName": "Romotive Inc.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "Zipline International Inc. is the renamed Romotive Inc. (same DE entity, Keller Rinaudo). EDGAR name/address (Phoenix AZ) stale; Form Ds 2011 and 2014 predate rename; no filings since. No 'Zipline International' filer exists."
+ },
+ "Joby Aviation": {
+  "cik": "0001819848",
+  "edgarName": "Joby Aviation, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Public (NYSE JOBY). CIK is the former Reinvent Technology Partners SPAC shell that became Joby via 2021 merger; Santa Cruz CA. Form D also present in history."
+ },
+ "Rainmaker": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Rainmaker Technology Corporation (cloud seeding, El Segundo) has no own filer - name appears only in TriplePoint BDC portfolio disclosures. 'Rainmaker F1 SPV' CGF2021 series are SPVs. Founder Doricko FTS: zero."
+ },
+ "Airship Industries": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR filer. Airship AI Holdings (public, WA) is a different company."
+ },
+ "Cerebras": {
+  "cik": "0002021728",
+  "edgarName": "Cerebras Systems Inc.",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "DE inc, Sunnyvale. CIK created 2024 for IPO process (DRS/S-1/424B4/10-Q); no Form D under this CIK. Excluded Aurum/CGF2021/Monty SPVs."
+ },
+ "Etched": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Etched.ai, Inc. has no own filer. All EDGAR 'Etched' entities are SPVs (CGF2021 series, Etched SPV LLC). CEO Gavin Uberti FTS: zero."
+ },
+ "Extropic": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No issuer filer. Only SPVs: 'Infinite Capital LP - Series Extropic' and 'Gaingels Extropic LLC' - excluded per rules."
+ },
+ "Lightmatter": {
+  "cik": "0001768622",
+  "edgarName": "Lightmatter, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Boston MA address (HQ since moved to Mountain View). Form Ds 2019-2024. Excluded CGF2021/Riverside/MAV SPVs."
+ },
+ "Substrate": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "'Substrate, Inc.' (0001590428, Mountain View, single Form D 2013) predates the SF lithography company and is a different entity. Founder James Proud appears only for Hello Inc. No filer for the current Substrate."
+ },
+ "Lab 91": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR presence under 'Lab 91'/'Lab91' (browse + full-text zero). Stealth Austin company."
+ },
+ "Cuby Technologies": {
+  "cik": "0001923686",
+  "edgarName": "Cuby Technologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, New York NY. Form Ds 2023-2025."
  }
 }
