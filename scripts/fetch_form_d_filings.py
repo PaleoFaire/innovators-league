@@ -88,6 +88,25 @@ def parse_companies_from_data_js():
     return names
 
 
+CIK_MAP_PATH = Path(__file__).resolve().parent.parent / "data" / "cik_map.json"
+
+def load_cik_map():
+    """company -> CIK map built by the Aug 2026 EDGAR mapping sweep.
+    Returns {normalized_cik: company_name} for High/Medium-confidence rows.
+    Exact CIK joins replace the old name matching (~45% wrong entities)."""
+    try:
+        raw = json.loads(CIK_MAP_PATH.read_text())
+    except FileNotFoundError:
+        print("  WARNING: data/cik_map.json missing - no CIK joins possible")
+        return {}
+    out = {}
+    for name, rec in raw.items():
+        cik = str(rec.get("cik") or "").lstrip("0")
+        if cik and rec.get("confidence") in ("High", "Medium"):
+            out[cik] = name
+    return out
+
+
 def search_form_d(days=LOOKBACK_DAYS):
     """SEC EDGAR full-text search for every Form D within `days`.
     Returns list of dicts with the raw search-result shape."""
@@ -130,7 +149,7 @@ def _first(value, default=""):
     return value or default
 
 
-def build_record(hit, tracked_names):
+def build_record(hit, tracked_names, cik_to_company=None):
     """Turn an EDGAR search hit into a richer, UI-friendly row.
     Returns None for filings we can't match to a tracked company.
 
@@ -148,8 +167,22 @@ def build_record(hit, tracked_names):
     tracked_alnum = {re.sub(r"[^a-z0-9]", "", n.lower()): n for n in tracked_names}
 
     matched = None
+    match_method = None
     raw_issuer = None
-    for display in display_names:
+
+    # ── PRIMARY: exact CIK join (zero namesake risk) ──
+    _cik_norm = _first(src.get("ciks"), "").lstrip("0")
+    if cik_to_company and _cik_norm and _cik_norm in cik_to_company:
+        matched = cik_to_company[_cik_norm]
+        match_method = "cik"
+        for display in display_names:
+            m = re.match(r"^(.+?)\s*\((?:CIK\s*)?\d+\)", display)
+            if m:
+                raw_issuer = m.group(1).strip().rstrip(",.;")
+                break
+
+    # ── FALLBACK: legacy name heuristic — candidates only, never live ──
+    for display in display_names if not matched else []:
         # Accept either "Foo, Inc. (0001234567) (Issuer)" or
         # "Foo, Inc. (CIK 0001234567)" or "Foo, Inc.  (CIK 0001234567)"
         m = re.match(r"^(.+?)\s*\((?:CIK\s*)?\d+\)", display)
@@ -175,6 +208,7 @@ def build_record(hit, tracked_names):
                or tracked_alnum.get(name_alnum)
         if tracked:
             matched = tracked
+            match_method = "name-candidate"
             break
 
     if not matched:
@@ -194,6 +228,7 @@ def build_record(hit, tracked_names):
     file_date = _first(src.get("file_date"), "")
 
     return {
+        "match_method":    match_method,
         "company":         matched,
         "issuer_name":     raw_issuer or matched,
         "form":            _first(src.get("forms"), "D"),
@@ -280,9 +315,20 @@ def main():
     RAW_OUT.write_text(json.dumps([h.get("_source", h) for h in hits], indent=2))
     print(f"Wrote {RAW_OUT.name} ({len(hits)} raw filings)")
 
-    # Match to tracked companies
-    matched = [build_record(h, tracked) for h in hits]
-    matched = [m for m in matched if m]
+    # Match to tracked companies — CIK joins are live, name matches go to review
+    cik_map = load_cik_map()
+    print(f"CIK map: {len(cik_map)} verified company CIKs")
+    records = [build_record(h, tracked, cik_map) for h in hits]
+    records = [m for m in records if m]
+    matched   = [m for m in records if m["match_method"] == "cik"]
+    review    = [m for m in records if m["match_method"] != "cik"]
+    REVIEW_OUT = Path(__file__).resolve().parent.parent / "data" / "form_d_review_queue.json"
+    REVIEW_OUT.write_text(json.dumps({
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
+        "candidates": review,
+    }, indent=2))
+    print(f"Review queue (name-matched, not live): {len(review)} -> {REVIEW_OUT.name}")
     # Dedupe by accession number
     seen = set(); dedup = []
     for m in matched:

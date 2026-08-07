@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-08-07T11:12:55.308601+00:00",
+  "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
+  "candidates": [
+    {
+      "match_method": "name-candidate",
+      "company": "AIR",
+      "issuer_name": "Air Street Capital III LP",
+      "form": "D",
+      "filed_date": "2026-08-04",
+      "cik": "2135498",
+      "accession": "0000929638-26-002874",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002135498&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0000929638-26-002874"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Vast",
+      "issuer_name": "Vast Resources PLC",
+      "form": "D",
+      "filed_date": "2026-08-03",
+      "cik": "2107569",
+      "accession": "0001012975-26-000713",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002107569&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001012975-26-000713"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Cambium",
+      "issuer_name": "Cambium Capital Alder LP",
+      "form": "D",
+      "filed_date": "2026-07-30",
+      "cik": "2136864",
+      "accession": "0002136864-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002136864&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002136864-26-000002"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "TrustPoint",
+      "issuer_name": "TrustPoint Investors, LLC",
+      "form": "D",
+      "filed_date": "2026-07-29",
+      "cik": "2143595",
+      "accession": "0002143595-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002143595&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002143595-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Antares",
+      "issuer_name": "Antares Holdings LP",
+      "form": "D",
+      "filed_date": "2026-07-29",
+      "cik": "1652415",
+      "accession": "0002062357-26-000308",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652415&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002062357-26-000308"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Antares",
+      "issuer_name": "Antares Unitholder Investment LLC",
+      "form": "D",
+      "filed_date": "2026-07-29",
+      "cik": "1799789",
+      "accession": "0002062357-26-000306",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001799789&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002062357-26-000306"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Radiant",
+      "issuer_name": "Radiant Flux, L.P",
+      "form": "D",
+      "filed_date": "2026-07-27",
+      "cik": "2143368",
+      "accession": "0002143368-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002143368&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002143368-26-000001"
+    }
+  ]
+}

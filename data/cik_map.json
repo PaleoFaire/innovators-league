@@ -1,0 +1,6547 @@
+{
+ "The Bot Company": {
+  "cik": "2024013",
+  "edgarName": "Botco, Inc.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "DE-inc CA Form D filer; 'Botco' matches bot.co branding but no formerName corroboration. A 'BOTCO AI INVESTOR SYNDICATE' SPV (CIK 2029236) also exists — do not match that."
+ },
+ "Span": {
+  "cik": "1763476",
+  "edgarName": "Span.IO, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Legal name matches span.io domain; DE inc, CA HQ, multiple Form D/D-A."
+ },
+ "Eridu": {
+  "cik": "2120907",
+  "edgarName": "Eridu Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, CA; Form D filed; distinctive name."
+ },
+ "Alsym Energy": {
+  "cik": "1807605",
+  "edgarName": "Alsym Energy, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "fka Everon24, Inc.; MA HQ matches Malden."
+ },
+ "Tandem PV": {
+  "cik": "1909812",
+  "edgarName": "TANDEM PV, INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Quantum Source": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli company; no US EDGAR entity found under Quantum Source / QS-Labs."
+ },
+ "Ursa Space Systems": {
+  "cik": "1658448",
+  "edgarName": "Ursa Space Systems Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "AheadComputing": {
+  "cik": "2035028",
+  "edgarName": "AheadComputing, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Seasats": {
+  "cik": "1947322",
+  "edgarName": "SeaSatellites, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "'Seasats' is the brand for SeaSatellites; DE inc, CA (San Diego) Form D filer."
+ },
+ "Kinetic Automation": {
+  "cik": "2026659",
+  "edgarName": "Kinetic Automation Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "CubeFabs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity; only third-party mentions (Private Shares Fund) in FTS."
+ },
+ "Aurora Innovation": {
+  "cik": "1701474",
+  "edgarName": "Aurora Operations, Inc. (fka Aurora Innovation, Inc.)",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Primary historical Form D filer. One additional Form D under CIK 1852011 'Aurora Innovation, Inc.' (same 280 N Bernardo Ave address, 2021). Public parent is CIK 1828108 (PA, no Form D)."
+ },
+ "Resilience": {
+  "cik": "1834819",
+  "edgarName": "National Resilience, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "resilience.com biomanufacturer; legal name National Resilience, Inc. HQ listed CA/San Diego on EDGAR (Blue Ash OH is a site)."
+ },
+ "SendCutSend": {
+  "cik": "2131876",
+  "edgarName": "Send Cut Send, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, NV HQ matches Reno."
+ },
+ "Cellino": {
+  "cik": "1785112",
+  "edgarName": "Cellino Biotech Inc",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Plantd Materials": {
+  "cik": "1961689",
+  "edgarName": "Plantd, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Ignore SPVs (CGF2021 series, IFP Co-Investment)."
+ },
+ "Critical Loop": {
+  "cik": "2069282",
+  "edgarName": "Critical Loop, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Critical Energy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found; do not confuse with Critical Loop or Critical Elements Lithium."
+ },
+ "Farcast": {
+  "cik": "1960263",
+  "edgarName": "Farcast Corp.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "fka UTVATE Corp; CA, Form D/D-A."
+ },
+ "1872": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity for 1872.ai; '1872' FTS hits are unrelated (Intrexon)."
+ },
+ "Applied Atomics": {
+  "cik": "2058363",
+  "edgarName": "Applied Atomics, Inc",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "AK location matches Anchorage."
+ },
+ "Electric Era": {
+  "cik": "1823119",
+  "edgarName": "Electric Era Technologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "fka Lync Technologies Inc."
+ },
+ "Tobe Energy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "TOBE LLC (MI) is unrelated; no OK entity found."
+ },
+ "The Red Metal Company": {
+  "cik": "2118646",
+  "edgarName": "Red Metals, Inc.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "Matches redmetals.com domain; DE inc, address listed DE (not SC), so corroboration thin. NOT Red Metal Resources Ltd (Canadian miner)."
+ },
+ "Resolute Grid": {
+  "cik": "2142649",
+  "edgarName": "Resolute Grid, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "TX matches Heath, TX."
+ },
+ "Standard Electron": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found (Austin solar+storage startup; likely raised without Form D or too new)."
+ },
+ "Aventra": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": ""
+ },
+ "Auriga Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Auriga Holdings/Laboratories/Pioneer entities are unrelated."
+ },
+ "Radical AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "'Radical Inc.' (WA) and 'Radical Group Inc.' (CA) do not match NY materials-AI company; no NY entity."
+ },
+ "Slate Auto": {
+  "cik": "1979776",
+  "edgarName": "Re:Car, Inc.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "Slate Auto's publicly reported original stealth name was Re:Car; DE inc Form D filer. MA address predates Troy MI HQ; no formerName on EDGAR yet."
+ },
+ "Phaidra": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only HSI Phaidra I/II/III LLC SPVs on EDGAR — investment vehicles, not the company."
+ },
+ "Chai Discovery": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Chai Angels entities are unrelated angel funds."
+ },
+ "Impossible Metals": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only Gaingels Impossible Metals LLC SPV; no issuer entity (also checked fka Impossible Mining)."
+ },
+ "Sphere Semi": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only CGF2021-series SPVs reference Sphere Semi; no issuer CIK."
+ },
+ "Core Automation": {
+  "cik": "2148145",
+  "edgarName": "Core Automation, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, CA; Form D. Gaingels Core Automation LLC (2141764) is the SPV — do not match."
+ },
+ "Beyond Reach Labs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": ""
+ },
+ "Teradar": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only VXI TeraDAR SPV LP; no issuer entity."
+ },
+ "Lux Aeterna": {
+  "cik": "2112118",
+  "edgarName": "Lux Aeterna Space, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CO matches Denver."
+ },
+ "Reditus Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'Reditus Space Leonis 2025 a Series of CGF2021 LLC' SPV; no issuer CIK."
+ },
+ "Monarch Quantum": {
+  "cik": "2106994",
+  "edgarName": "Monarch Quantum, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA matches San Diego."
+ },
+ "Spaceium": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only Gaingels Spaceium LLC SPV."
+ },
+ "Blackstar": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "All Blackstar EDGAR entities are funds/real-estate/public shell — none is blackstar.inc SF."
+ },
+ "Besxar Space Industries": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": ""
+ },
+ "Smack Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Smack Inc. (MA) is a different company."
+ },
+ "Twenty": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "All 'Twenty*' EDGAR entities are funds/LLCs unrelated to twenty.io Arlington VA."
+ },
+ "EdgeRunner AI": {
+  "cik": "2027978",
+  "edgarName": "EdgeRunner AI, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "EDGAR business address CA; DE inc; exact name match."
+ },
+ "Dominion Dynamics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Canadian company; no US filings."
+ },
+ "Peak Quantum": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German company; no US filings."
+ },
+ "Diraq": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Australian company; no US filings (BTQ FTS hits are unrelated)."
+ },
+ "PAVE Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Swiss company; Pave Inc./LLC/Power entities are unrelated."
+ },
+ "Phoenix Tailings": {
+  "cik": "1875606",
+  "edgarName": "Phoenix Tailings, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Woburn MA; ignore Republic Deal Room SPV series (CIK 1979898/2109788)"
+ },
+ "Hyperscale Power": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Swiss company; no US filer. 'Hyperscale Data, Inc.' (CIK 896493, fka Ault Alliance) is unrelated"
+ },
+ "Atana Elements": {
+  "cik": "2117531",
+  "edgarName": "Atana Elements Inc",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "Unique name, DE inc, Form D Mar 2026; filer address TX vs SF HQ is the only inconsistency"
+ },
+ "Anduril Industries": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Issuer itself has no CIK; all 21 'Anduril' entities on EDGAR are investor SPVs (CGF2021 series, Anduril Investors LLC, etc.) — do not match any of them"
+ },
+ "Shield AI": {
+  "cik": "1675769",
+  "edgarName": "Shield AI Inc",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA; ignore 'SHIELD AI A SERIES OF VUVP FUND LLC' (CIK 2140937)"
+ },
+ "Epirus": {
+  "cik": "1793592",
+  "edgarName": "Epirus, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA, Form D 2022; NOT 'EPIRUS Biopharmaceuticals' (CIK 1135906, MA) — the exact trap"
+ },
+ "Saronic": {
+  "cik": "2033142",
+  "edgarName": "Saronic Technologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Austin TX; many SPVs (8VC, Overmatch, Vauban) reference it — use issuer only"
+ },
+ "Neros": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No 'Neros Technologies' filer. 'Neroshield, Inc.' (CIK 1952549, Greenbrae CA, Form D 2022) predates Neros' founding and is a different Marin-based company — not a match"
+ },
+ "Chaos Industries": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'Saturn Five Chaos Industries SPV LLC' exists; issuer never filed"
+ },
+ "Castelion": {
+  "cik": "1973707",
+  "edgarName": "Castelion Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA, fka Pallas Industries, Inc.; ignore Lavrock/CGF2021 SPVs"
+ },
+ "CX2 Industries": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No filer. 'Green Equity Holdings' (fka CX2 Technologies, NV/FL shell) is unrelated"
+ },
+ "Picogrid": {
+  "cik": "2009439",
+  "edgarName": "Picogrid, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D Jul 2026; NOT the 'Picogrid Feb 2026 a Series of CGF2021 LLC' SPV (CIK 2121781)"
+ },
+ "Skydio": {
+  "cik": "1848117",
+  "edgarName": "Skydio, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA San Mateo"
+ },
+ "Allen Control Systems": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found under name or full-text Form D search"
+ },
+ "Mach Industries": {
+  "cik": "1995957",
+  "edgarName": "Mach Industries Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc; filer business address TX (company has TX operations; HQ Huntington Beach CA). SPVs (Infinite Capital, CGF2021 Series C) corroborate active Reg D raising"
+ },
+ "Andrenam": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Vannevar Labs": {
+  "cik": "1775318",
+  "edgarName": "Vannevar Labs, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA, Form Ds since 2019"
+ },
+ "Blue Water Autonomy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Valar Atomics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "9+ SPVs (CGF2021 series, AVSF) reference it but the issuer itself has no CIK"
+ },
+ "Radiant": {
+  "cik": "1914078",
+  "edgarName": "Radiant Industries, Inc",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA El Segundo nuclear; ignore Decisive Point SPVs"
+ },
+ "Aalo Atomics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only SPVs/feeders (CGF2021, Gaingels, Denver Angels, 'Aalo Atomics CC Ltd' foreign feeder); no issuer CIK"
+ },
+ "Antares": {
+  "cik": "1998786",
+  "edgarName": "Antares Nuclear, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA Torrance, Form D Sep 2025; company now brands as Antares Industries. NOT Antares Capital LP or any credit vehicle"
+ },
+ "General Matter": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Kairos Power": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity (nonprofit-backed structure, no Form D)"
+ },
+ "X-Energy": {
+  "cik": "1840743",
+  "edgarName": "X Energy Reactor Company, LLC",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/MD Rockville, Form Ds since 2021. NOT Strata-X/Lithium X/Manganese X Energy (unrelated miners) nor Ares co-invest vehicles"
+ },
+ "Oklo": {
+  "cik": "1849056",
+  "edgarName": "Oklo Inc.",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "Public (NYSE: OKLO), DE inc, Santa Clara CA, fka AltC Acquisition Corp; no Form D"
+ },
+ "Last Energy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only Vineyard Master LLC SPVs reference it; issuer has no CIK"
+ },
+ "Deep Fission": {
+  "cik": "1918102",
+  "edgarName": "DEEP FISSION, INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA Berkeley, fka Surfside Acquisition Inc. (reverse merger); Form D Feb 2026"
+ },
+ "TerraPower": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No CIK under 'TerraPower' or 'Terra Power'; raises outside Form D"
+ },
+ "Standard Nuclear": {
+  "cik": "2086716",
+  "edgarName": "Standard Nuclear, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/TN Oak Ridge (ticker STDN); ignore Decisive Point and CGF2021 SPVs"
+ },
+ "The Nuclear Company": {
+  "cik": "2066278",
+  "edgarName": "Nuclear Co",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Lexington KY business address matches HQ; Form D May 2025"
+ },
+ "Exodys Energy": {
+  "cik": "1980522",
+  "edgarName": "Exodys Energy Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/NY, Form D Jul 2025; unique name"
+ },
+ "SpaceX": {
+  "cik": "1181412",
+  "edgarName": "SPACE EXPLORATION TECHNOLOGIES CORP",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "TX inc (redomiciled), TX address"
+ },
+ "Rocket Lab": {
+  "cik": "1819994",
+  "edgarName": "Rocket Lab Corp",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "Public parent (fka Rocket Lab USA, Inc. / Vector Acquisition Corp), Long Beach CA; no Form D. Sub CIK 1849874 also exists but 1819994 is the reporting entity"
+ },
+ "Apex Space": {
+  "cik": "1952065",
+  "edgarName": "Apex Technology, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Legal name of Apex Space; DE inc, 4940 Sepulveda Blvd, Culver City/LA; Form D Apr 2025"
+ },
+ "Varda Space Industries": {
+  "cik": "1839597",
+  "edgarName": "Varda Space Industries, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA El Segundo; ignore Gaingels/AVSF/CGF2021 SPVs"
+ },
+ "AstroForge": {
+  "cik": "2033635",
+  "edgarName": "AstroForge, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA, Form D Aug 2024"
+ },
+ "Reflect Orbital": {
+  "cik": "2069797",
+  "edgarName": "Reflect Orbital Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA, Form D May 2025"
+ },
+ "Relativity Space": {
+  "cik": "1673976",
+  "edgarName": "Relativity Space, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA Long Beach; many Republic/K5 SPVs reference it — use issuer only"
+ },
+ "Impulse Space": {
+  "cik": "1920171",
+  "edgarName": "Impulse Space, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA, fka Impulse Space Propulsion, Inc."
+ },
+ "K2 Space": {
+  "cik": "1969384",
+  "edgarName": "K2 Space Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA Torrance, Form D 2023"
+ },
+ "Vast": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Issuer (Vast Space, Long Beach) has no CIK — only unrelated 'Vast *' entities (Vast Enterprises MN, Vast Funding NV, etc.) and two Vast Space SPV series. Do NOT match Vast Resources PLC or similar"
+ },
+ "Northwood Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only Solari/Humba/CGF2021 SPVs; no issuer CIK. Unrelated Northwood Investors/REIT entities are not matches"
+ },
+ "Astranis": {
+  "cik": "1715660",
+  "edgarName": "Astranis Space Technologies Corp.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA SF, Form Ds since 2017"
+ },
+ "Viridian Space": {
+  "cik": "1921042",
+  "edgarName": "Viridian Space Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA, Form D Apr 2022; ignore Gaingels SPV"
+ },
+ "Observable Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No entity. 'Observable Networks, Inc.' (MO, network security, acquired by Cisco 2017) is unrelated"
+ },
+ "Firefly Aerospace": {
+  "cik": "1860160",
+  "edgarName": "Firefly Aerospace Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/TX Cedar Park; Form Ds pre-IPO, now public (FLY) — same CIK"
+ },
+ "Intuitive Machines": {
+  "cik": "1844452",
+  "edgarName": "Intuitive Machines, Inc.",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "Public (LUNR), DE/TX Houston, fka Inflection Point Acquisition Corp; no Form D on this CIK"
+ },
+ "Boom Supersonic": {
+  "cik": "1671828",
+  "edgarName": "Boom Technology, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Legal name of Boom Supersonic; DE/CO Denver, Form Ds since 2019"
+ },
+ "Hermeus": {
+  "cik": "1831988",
+  "edgarName": "Hermeus Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/GA (Atlanta-founded), Form Ds since 2020; ignore What If Ventures/CGF2021/Fundamental SPVs"
+ },
+ "Cover": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR filer for Cover Technologies (buildcover.com); full-text and name search both empty."
+ },
+ "The Boring Company": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity under Boring/TBC variants; no Form D ever filed under this name."
+ },
+ "Pipedream": {
+  "cik": "2000144",
+  "edgarName": "Pipedream Laboratories, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE-incorporated, Austin TX address; Form D 2023."
+ },
+ "Navier": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "'Navier, Inc.' CIK 1911798 is a DIFFERENT Chicago company (officers Metnick/Milinovich). Boat company appears only via third-party SPVs (Gaingels Navier Boat LLC); issuer never filed."
+ },
+ "Arc Boats": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No filer under Arc Boat/Arc Boats variants."
+ },
+ "Matic Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No filer under Matic Robotics or former name Matician."
+ },
+ "Shinkei": {
+  "cik": "1924433",
+  "edgarName": "Shinkei Systems Corp.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc; PA business address (founder's Penn-era address); corroborated by DRF Grad Fund Shinkei SPV."
+ },
+ "Vital Lyfe": {
+  "cik": "2078491",
+  "edgarName": "Vital Lyfe, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D Aug 2025, CA address matches Hawthorne HQ."
+ },
+ "Forterra": {
+  "cik": "1888781",
+  "edgarName": "Robotic Research OpCo, LLC",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Forterra fka Robotic Research; MD (Clarksburg) address matches. Other 'Forterra' filers are real-estate vehicles — do not match."
+ },
+ "Auterion": {
+  "cik": "2089119",
+  "edgarName": "Auterion Group Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Arlington VA, Form D Oct 2025."
+ },
+ "Firehawk Aerospace": {
+  "cik": "1816292",
+  "edgarName": "Firehawk Aerospace Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Unique name; Reg CF (C) + Form D history; business address listed in DE."
+ },
+ "Reveal Technology": {
+  "cik": "2069578",
+  "edgarName": "Reveal Technology, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Bozeman MT matches."
+ },
+ "Galvanick": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR filer."
+ },
+ "SkySafe": {
+  "cik": "1659377",
+  "edgarName": "SkySafe, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "San Diego CA; multiple Form D/D-A; Gaingels/AVSF SPVs corroborate."
+ },
+ "Distributed Spectrum": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR filer."
+ },
+ "Aurelius Systems": {
+  "cik": "2103974",
+  "edgarName": "Aurelius Systems, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Exact name, CA, Form D Jan 2026. NOT the Aurelius Capital fund family."
+ },
+ "Darkhive": {
+  "cik": "2036102",
+  "edgarName": "Darkhive Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "San Antonio TX matches; Form D May 2026."
+ },
+ "Deterrence": {
+  "cik": "2020563",
+  "edgarName": "Deterrence Defense, Inc.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "Name fits (defense) but Form D address is Denver CO (officers Jones/Rajendra) vs tracked Fremont CA HQ — verify before relying on it."
+ },
+ "Deepnight": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only a third-party SPV (Deepnight a Series of New Era Partners LLC); issuer Deepnight itself never filed."
+ },
+ "Zeromark": {
+  "cik": "2024673",
+  "edgarName": "ZeroMark, Inc.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "Unique name, D + D/A 2024, Gaingels ZeroMark SPV corroborates; business address NJ vs tracked NY (metro-area, likely same company)."
+ },
+ "Rune Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No filer; Rune Labs (CA neuro) and Rune PBC (TX) are different companies."
+ },
+ "Biofire": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only third-party SPVs (VUVP series, Gaingels Biofire); issuer Biofire Technologies not on EDGAR."
+ },
+ "Firestorm Labs": {
+  "cik": "1964095",
+  "edgarName": "Firestorm Labs, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "San Diego CA matches."
+ },
+ "Aalyria": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR filer (mentions in third-party filings only)."
+ },
+ "AnySignal": {
+  "cik": "2048513",
+  "edgarName": "AnySignal, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "LA CA; Form D Dec 2024."
+ },
+ "Turion Space": {
+  "cik": "1880581",
+  "edgarName": "Turion Space Corp.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Irvine CA; D + D/A."
+ },
+ "Umbra": {
+  "cik": "1838870",
+  "edgarName": "Umbra Lab, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Santa Barbara CA. NOT Umbra Companies/UMBRA Technologies/Umbra Fund."
+ },
+ "Albedo": {
+  "cik": "1934425",
+  "edgarName": "Albedo Space Corp.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Business address TX from Austin era; company later moved to Denver — same entity."
+ },
+ "Blue Origin": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR filer; Bezos-funded, never filed Form D."
+ },
+ "Axiom Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only third-party SPVs (Gaingels/AVSF/PML etc.); Axiom Space, Inc. itself is not an EDGAR filer."
+ },
+ "Astrolab": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "'AstroLab Inc.' CIK 1894554 is a Houston TX company with unrelated officers — NOT Venturi Astrolab (Hawthorne). No filer for Venturi Astrolab."
+ },
+ "Array Labs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only CGF2021/Gaingels SPVs; issuer Array Labs not a filer."
+ },
+ "Armada": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No filer for the SF edge-compute company (incl. 'Armada Systems'); Armada Hoffler/Armada funds are unrelated."
+ },
+ "Cowboy Space Corporation": {
+  "cik": "2133827",
+  "edgarName": "Cowboy Space Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "San Carlos CA; Form D May 2026."
+ },
+ "Applied Intuition": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR filer (appears only in third-party filings)."
+ },
+ "Agility Robotics": {
+  "cik": "1727116",
+  "edgarName": "Agility Robotics, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Oregon matches; Form D since 2018."
+ },
+ "Apptronik": {
+  "cik": "1918029",
+  "edgarName": "Apptronik, Inc",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Austin TX; D + D/A. Ignore the many Apptronik SPV series filers."
+ },
+ "Bright Machines": {
+  "cik": "1741724",
+  "edgarName": "Bright Machines, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "fka AutoLab AI, Inc.; SF CA."
+ },
+ "Atomic Industries": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only third-party SPVs; issuer not a filer."
+ },
+ "Re:Build Manufacturing": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'Re:Build Manufacturing Friends & Family, LLC' CIK 1838442 (the company's own MA-based F&F investment vehicle, not the operating company). Operating company not a filer."
+ },
+ "AMP Robotics": {
+  "cik": "1699390",
+  "edgarName": "AMP Robotics Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CO matches; formers 'AMP Robotics Corpation' (typo) and 'Cognitive Robotics, LLC'."
+ },
+ "Diode": {
+  "cik": "2067038",
+  "edgarName": "Diode, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Brooklyn NY; Form D officer Davide Asnaghi = diode.io founder. NOT Diode Dynamics or Diode Direct."
+ },
+ "Quilter": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "'Prometheus8, Inc.' (D filings mentioning Quilter) belongs to Patrick Quilter (audio, San Carlos) — not quilter.ai. UK Quilter Plc entities unrelated. No filer for quilter.ai."
+ },
+ "Science Corporation": {
+  "cik": "1873836",
+  "edgarName": "Science Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Alameda CA; Form D Mar 2026."
+ },
+ "Andromeda Surgical": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only third-party SPVs (AVSF/CGF2021); issuer not a filer."
+ },
+ "Solugen": {
+  "cik": "1756965",
+  "edgarName": "Solugen, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Houston TX; Form D since 2018."
+ },
+ "Exowatt": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "'Exowatt CC Ltd' CIK 2105081 is a BVI pooled investment fund, and 8090 Industries series are SPVs — none is Exowatt Inc. Issuer not a filer."
+ },
+ "Antora Energy": {
+  "cik": "2082245",
+  "edgarName": "Antora Energy, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA; Form D Nov 2025."
+ },
+ "Form Energy": {
+  "cik": "1717130",
+  "edgarName": "Form Energy, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "fka Baseload Renewables, Inc.; MA matches."
+ },
+ "Brimstone": {
+  "cik": "1918602",
+  "edgarName": "Brimstone Energy, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Legal name Brimstone Energy; CA (Oakland). NOT Brimstone Marine/Grill/Izvor."
+ },
+ "Boston Metal": {
+  "cik": "1763149",
+  "edgarName": "Boston Electrometallurgical Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Legal name of Boston Metal; DE inc, Woburn/MA business address; Form Ds 2019-2026"
+ },
+ "Avalanche Energy": {
+  "cik": "1867964",
+  "edgarName": "AVALANCHE ENERGY DESIGNS, INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Seattle fusion co; Form Ds 2021-2026"
+ },
+ "Bedrock Energy": {
+  "cik": "1941463",
+  "edgarName": "Bedrock Energy, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D 2022 lists founders Joselyn Lai and Silviu Livescu (geothermal co, pre-Austin move). Do NOT use CIK 1434702 (GulfStar Energy Corp, former name Bedrock Energy Inc — unrelated CO oil/gas)"
+ },
+ "Arbor Energy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only a third-party SPV exists (Voyager SPV - Arbor Energy 2025, LP); no filer entity for the company itself"
+ },
+ "Endurance Energy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "ENDURANCE ENERGY LTD (CIK 1453488) is an old foreign entity, not the Seattle startup; no Form D filer found"
+ },
+ "Aepnus Technology": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity beginning with Aepnus"
+ },
+ "Manna Aero": {
+  "cik": "1776716",
+  "edgarName": "MANNA DRONE DELIVERY INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE-incorporated, Ireland business address; Form Ds 2019-2021 — the Irish drone-delivery company"
+ },
+ "Asylon Robotics": {
+  "cik": "1752528",
+  "edgarName": "Asylon Inc",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/PA, Form D 2018. Asylon Robotics CMG, LLC (2075138, NY) is a co-investment SPV, not the company"
+ },
+ "Atom Computing": {
+  "cik": "1798861",
+  "edgarName": "Atom Computing Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA, Form Ds 2021-2022; ignore AVSF/CGF2021 SPVs"
+ },
+ "Atomic Semi": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Atomic Machines": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity or Form D found despite name-prefix and full-text search"
+ },
+ "Bedrock Ocean": {
+  "cik": "1809365",
+  "edgarName": "Bedrock Ocean Exploration, PBC",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/NY (Brooklyn), Form D 2020"
+ },
+ "Standard Subsea": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No entity under Standard Subsea or former name Amidon Heavy Industries"
+ },
+ "Clippership": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Clippership International (1598335, NJ, 2014 D) and Clippership Wharf/NC-SR entities are unrelated; no Redwood City filer"
+ },
+ "Amperon": {
+  "cik": "1737403",
+  "edgarName": "Amperon Holdings, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc; Form Ds 2018-2025; founded NY, later HQ Houston"
+ },
+ "Durin": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Durin Technologies/Durin Life Sciences (1797306, NJ diagnostics) is unrelated to the El Segundo mining-drilling startup"
+ },
+ "Watoga Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Canadian; no EDGAR entity"
+ },
+ "Daylight Computer": {
+  "cik": "2029037",
+  "edgarName": "Daylight Computer Co",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA, Form D 2026"
+ },
+ "Helsing": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German company; no US filer (HELSINGOR USA LLC unrelated)"
+ },
+ "Saildrone": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Surprisingly no Saildrone, Inc. filer entity; only third-party SPVs (Saildrone Blocker LLC, What If Ventures series). Company appears to raise without filing Form D"
+ },
+ "Overland AI": {
+  "cik": "2001954",
+  "edgarName": "OVERLAND AI INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/WA, Form Ds 2024-2026"
+ },
+ "Second Front Systems": {
+  "cik": "1817057",
+  "edgarName": "Second Front Systems, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/VA (DC metro), Form Ds 2020-2024"
+ },
+ "Primer AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No entity under Primer AI or Primer Technologies (Spectre Primer Technologies FL is unrelated)"
+ },
+ "True Anomaly": {
+  "cik": "1957052",
+  "edgarName": "TRUE ANOMALY, INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CO, Form Ds from 2022; ignore SPVs (59CH, Slipstream, Vauban)"
+ },
+ "Kodiak AI": {
+  "cik": "1853138",
+  "edgarName": "Kodiak AI, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Public (KDK) via Ares Acquisition Corp II SPAC merger; CIK has Form Ds 2025-2026. Pre-merger Kodiak Robotics, Inc. is CIK 1747286 (no Form Ds under it)"
+ },
+ "Theseus": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Theseus IP LLC / Theseus Pharmaceuticals / K2 Theseus funds all unrelated to theseus.us defense startup"
+ },
+ "Mara": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Mara Poling / Mara River funds unrelated; do not confuse with MARA Holdings (bitcoin miner)"
+ },
+ "Flock Safety": {
+  "cik": "1751333",
+  "edgarName": "Flock Group Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Legal name of Flock Safety; DE/GA, Form Ds 2018-2022"
+ },
+ "Icarus": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "All Icarus-named filers (Capital Corp, Studios, funds) unrelated to icarus.one"
+ },
+ "PILGRIM": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No filer entity for the Redwood City defense-biotech; Pilgrim Advisors Inc (912930) and VT/CA hits unrelated"
+ },
+ "NuScale Power": {
+  "cik": "1426625",
+  "edgarName": "NUSCALE POWER INC",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "OR entity that filed the Form Ds (2009). Public parent is NuScale Power Corp CIK 1822966 (NYSE: SMR, ex-Spring Valley SPAC) — no Form Ds under it"
+ },
+ "Zap Energy": {
+  "cik": "1714402",
+  "edgarName": "ZAP ENERGY, INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "WA/WA, Form Ds 2019-2024"
+ },
+ "Type One Energy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only a third-party SPV (INVEXT series) and SPAC merger references (NewHold Investment Corp III); no own filer entity"
+ },
+ "Focused Energy": {
+  "cik": "1870675",
+  "edgarName": "Focused Energy Inc.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "DE entity, Form D Jul 2021 matching the German-US fusion co's US arm timing; corroboration thin (no state/officer confirmation pulled)"
+ },
+ "Nano Nuclear Energy": {
+  "cik": "1923891",
+  "edgarName": "Nano Nuclear Energy Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Now public (NASDAQ: NNE); Form Ds 2022-2024 pre-IPO"
+ },
+ "Pacific Fusion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only AVSF SPV and S-1 text mentions; no filer entity for Pacific Fusion Corporation itself"
+ },
+ "Fuse Energy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Fuse Energy CC Ltd (2075536) is a BVI pooled investment fund (private equity fund per its Form D), NOT the company; Tamarack/DSQ entities are SPVs"
+ },
+ "Stoke Space": {
+  "cik": "1861415",
+  "edgarName": "Stoke Space Technologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/WA, Form Ds through 2026"
+ },
+ "Muon Space": {
+  "cik": "1932309",
+  "edgarName": "Muon Space, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA, Form D 2022"
+ },
+ "Planet Labs": {
+  "cik": "1543165",
+  "edgarName": "Planet Labs Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D filer 2013-2015. Public parent Planet Labs PBC (NYSE: PL) has a different CIK and no Form Ds"
+ },
+ "Astroscale": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Japanese company; no US filer entity found (no Astroscale U.S. filings)"
+ },
+ "Outpost Space": {
+  "cik": "1947241",
+  "edgarName": "Outpost Technologies Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Legal name of Outpost Space; CA business address (Santa Monica), Form D 2022"
+ },
+ "Longshot Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only a third-party SPV (LONGSHOT a Series of VUVP Fund LLC); no own filer entity"
+ },
+ "Proteus Space": {
+  "cik": "2052315",
+  "edgarName": "Proteus Space, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CA, Form D 2025"
+ },
+ "Ursa Major Technologies": {
+  "cik": "1723727",
+  "edgarName": "URSA MAJOR TECHNOLOGIES, INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE/CO, Form Ds 2017-2021"
+ },
+ "AST SpaceMobile": {
+  "cik": "1780312",
+  "edgarName": "AST SpaceMobile, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Public (NASDAQ: ASTS, ex-New Providence Acquisition SPAC); Form D 2022 under this CIK"
+ },
+ "Destinus": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "European company; only a third-party SPV (Oikoi Network Partners - Destinus I)"
+ },
+ "Dynamo Air": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity (Dynamo Administracao de Recursos is a Brazilian asset manager, unrelated)"
+ },
+ "Skild AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only a third-party SPV (Skild AI Apr 2025 Series of CGF2021 LLC) and fund NAV mentions; no own filer entity. Note: batch row's location/website are copied from Dynamo Air (data error upstream)"
+ },
+ "Crusoe Energy": {
+  "cik": "1924674",
+  "edgarName": "Crusoe Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Parent (former name Crusoe Energy Holdings Inc.) filing the current Form Ds 2022-2024. Operating sub Crusoe Energy Systems Inc. is CIK 1770688 with earlier Form Ds 2019-2021"
+ },
+ "Gecko Robotics": {
+  "cik": "1747029",
+  "edgarName": "Gecko Robotics, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Pittsburgh PA business address matches HQ. Ignored SPV 'Gecko Robotics Fund I, a series of GSBacker Fund, LP' (CIK 1913348)."
+ },
+ "Terranova": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only TerraNova Capital Partners/Equities (NY broker-dealer/capital firms) on EDGAR — not the SF startup at terranova.inc. No legitimate entity found."
+ },
+ "Carbon Robotics": {
+  "cik": "1680119",
+  "edgarName": "Carbon Robotics Inc.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "DE inc; business address San Francisco CA vs tracked Seattle HQ — Carbon Robotics was founded in SF before moving to Seattle, likely same company but address stale."
+ },
+ "Terran Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No filer; 'Terran Acquisition Corp' (NY SPAC-style) is not the Bloomington IN adobe-housing robotics startup."
+ },
+ "Recursion Pharmaceuticals": {
+  "cik": "1601830",
+  "edgarName": "RECURSION PHARMACEUTICALS, INC.",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "Public company (NASDAQ RXRX), DE inc, Salt Lake City UT; no Form D in recent filings (pre-IPO Ds may exist in older history)."
+ },
+ "Insitro": {
+  "cik": "1812648",
+  "edgarName": "Insitro, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, South San Francisco CA — exact match."
+ },
+ "Eikon Therapeutics": {
+  "cik": "1861123",
+  "edgarName": "Eikon Therapeutics, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Millbrae CA — exact match."
+ },
+ "Colossal Biosciences": {
+  "cik": "1964433",
+  "edgarName": "Colossal Biosciences Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Austin TX (tracked as Dallas; same company)."
+ },
+ "Medra": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only MEDRACON, INC. (IL) — unrelated. No filer for Medra AI (SF lab-automation)."
+ },
+ "Abridge": {
+  "cik": "1737537",
+  "edgarName": "Abridge AI Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Pittsburgh PA — matches HQ and legal name."
+ },
+ "Heirloom Carbon": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No filer; 'Heirloom Capital Management LP' (CT fund) is unrelated. Heirloom Carbon Technologies has no EDGAR entity found."
+ },
+ "Twelve": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No filer under Twelve Benefit Corporation, Twelve Inc, or Opus 12 Inc. 'Twelve Below I LP' is a NY VC fund; 'Opus 12 a series of Tortoise and Hare Ventures' is an SPV — neither matches."
+ },
+ "KoBold Metals": {
+  "cik": "1907824",
+  "edgarName": "KoBold Metals Co",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Globally unique name, DE inc, Form D + D/A consistent with large raises. EDGAR business address shows Birmingham AL rather than Berkeley HQ (likely filing-agent/office address)."
+ },
+ "Sublime Systems": {
+  "cik": "1862078",
+  "edgarName": "Sublime Systems, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Somerville MA — exact match."
+ },
+ "Redwood Materials": {
+  "cik": "1705348",
+  "edgarName": "REDWOOD MATERIALS, INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Carson City NV — exact match. Ignored SPV 'Redwood Materials SeriesD NJ 052023, a Series of CGF2021 LLC' (CIK 1979002)."
+ },
+ "Charm Industrial": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR filer under Charm Industrial (company or full-text search)."
+ },
+ "Impulse Labs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR filer found for Impulse Labs Inc."
+ },
+ "Mariana Minerals": {
+  "cik": "2123886",
+  "edgarName": "Mariana Minerals Co.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, CA business address — exact match."
+ },
+ "Nuro": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "CIK 1638919 'NURO, INC.' is now Nuviant Medical (Boston neurotech), NOT the Mountain View/SF autonomous-delivery Nuro; CIK 1552958 Nuro Pharma also unrelated. No entity for the AV company."
+ },
+ "Archer Aviation": {
+  "cik": "1824502",
+  "edgarName": "Archer Aviation Inc.",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "Public company (NYSE ACHR), San Jose CA — the actual company, not a similarly named vehicle."
+ },
+ "PsiQuantum": {
+  "cik": "2070804",
+  "edgarName": "PsiQuantum, Corp.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Palo Alto CA, filed Form D. Ignored SPV 'PsiQuantum 2026 a Series of What If Ventures Master LLC' (CIK 2107443)."
+ },
+ "Astera Labs": {
+  "cik": "1736297",
+  "edgarName": "Astera Labs, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, San Jose CA; public (NASDAQ ALAB) with pre-IPO Form D history."
+ },
+ "Zettascale": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR filer found for Zettascale (zscc.ai)."
+ },
+ "d-Matrix": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only SPV 'd-Matrix (I-3) a Series of Entrada Ventures II Master LLC' (CIK 2076059) — not the operating company. No filer for d-Matrix, Inc./Corp."
+ },
+ "Inversion Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only SPV 'Gaingels Inversion Space LLC' and unrelated 'Inversion Corporativa' (Madrid). No operating-company filer."
+ },
+ "Lumina Vehicles": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "'Lumina Alpha One Fund, LP' (Tampa FL fund) is unrelated. No filer for the SF vehicle startup."
+ },
+ "FleetZero": {
+  "cik": "1883830",
+  "edgarName": "fleetzero Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Birmingham AL — FleetZero was founded in Alabama (tracked HQ now Houston); unique name, clear match."
+ },
+ "Framework Computer": {
+  "cik": "1910290",
+  "edgarName": "Framework Computer Inc",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Burlingame CA (Bay Area) — exact match."
+ },
+ "Whisper Aero": {
+  "cik": "1984798",
+  "edgarName": "Whisper Aero Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Crossville TN — exact match."
+ },
+ "IonQ": {
+  "cik": "1682477",
+  "edgarName": "ionQ, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, College Park MD; public (NYSE IONQ) with pre-IPO Form D history."
+ },
+ "Rigetti Computing": {
+  "cik": "1838359",
+  "edgarName": "Rigetti Computing, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Berkeley CA; public (NASDAQ RGTI)."
+ },
+ "QuEra Computing": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No filer; 'Queralt, Inc.' (CT) is unrelated. QuEra Computing Inc. has no EDGAR entity found."
+ },
+ "NetworkOcean": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR filer found."
+ },
+ "Thalassa Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "'Thalassa CC Ltd' (Road Town, BVI) is unrelated. No filer for the SF robotics startup."
+ },
+ "Fortastra": {
+  "cik": "2081105",
+  "edgarName": "Fortastra Corp",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "Unique name, DE inc, Form D filed; atom search showed CA location, submissions show Wilmington DE registered address — thin corroboration of El Segundo HQ but no competing entity."
+ },
+ "Earth AI": {
+  "cik": "1963115",
+  "edgarName": "Earth AI Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc with Australia (C3) business address — matches the Sydney mineral-exploration AI company; filed Form D."
+ },
+ "Wardstone": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR filer found."
+ },
+ "Tokamak Energy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "'Tokamak Investors QP, LLC' (Menlo Park DE fund, likely an SPV investing in it) is not the UK operating company. No direct filer."
+ },
+ "First Light Fusion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no EDGAR filer."
+ },
+ "Newcleo": {
+  "cik": "2131813",
+  "edgarName": "newcleo Ltd.",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "UK-registered newcleo Ltd. filing F-4/425/DRS (de-SPAC process) — the actual nuclear company; no Form D."
+ },
+ "Wayve": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only investor SPVs (Linse Capital Wayve LLC, Seminal Wayve AI Fund LP, etc.) — the UK company itself has no CIK."
+ },
+ "Vertical Aerospace": {
+  "cik": "1867102",
+  "edgarName": "Vertical Aerospace Ltd.",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "Cayman-inc, Bristol UK business address; the actual public company (NYSE EVTL), not a lookalike."
+ },
+ "Oxford Nanopore Technologies": {
+  "cik": "1951610",
+  "edgarName": "Oxford Nanopore Technologies plc/ADR",
+  "confidence": "Medium",
+  "hasFormD": false,
+  "note": "CIK is the company's ADR registrant (Oxford UK) — same issuer, but an ADR facility rather than a Form D filer."
+ },
+ "Oxford Quantum Circuits": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no EDGAR filer."
+ },
+ "Orbital Marine Power": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no EDGAR filer."
+ },
+ "ZeroAvia": {
+  "cik": "1816334",
+  "edgarName": "ZeroAvia, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Hollister CA — US-incorporated parent of the UK/US hydrogen-aviation company; filed Form D."
+ },
+ "Space Forge": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'Space Forge SPV, a Series of Vauban Platform LP' (CIK 2027483) — an investor SPV, not the Cardiff company."
+ },
+ "Isar Aerospace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German company; 'ISAR Capital, LP' (NY) is unrelated. No EDGAR filer."
+ },
+ "Quantum-Systems": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German company; no EDGAR filer."
+ },
+ "Proxima Fusion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German company; no EDGAR filer."
+ },
+ "Marvel Fusion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity; German fusion co, no US filings found via browse or full-text search"
+ },
+ "Rocket Factory Augsburg": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Black Semiconductor": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Sunfire": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Rejected 'SunFireMatrix, Inc.' (DE) and 'Sunfire Acquisition Corp Ltd' (Cayman SPAC) — neither is Sunfire GmbH Dresden"
+ },
+ "planqc": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Pasqal": {
+  "cik": "2122325",
+  "edgarName": "Pasqal Holding SAS",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "France; F-4/425 going-public filings, no Form D"
+ },
+ "Exotec": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Rejected 'Exotech Bio, Inc.' — different business"
+ },
+ "Renaissance Fusion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Verkor": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "DNA Script": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Alice & Bob": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Latitude": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only Latitude real-estate/capital LP vehicles on EDGAR — none is the French launch company"
+ },
+ "Einride": {
+  "cik": "2095096",
+  "edgarName": "Einride AB",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "Sweden; F-1/F-4/8-A US listing filings, no Form D"
+ },
+ "Neko Health": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "ICEYE": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "IQM Quantum Computers": {
+  "cik": "2113060",
+  "edgarName": "IQM Quantum Computers Oyj",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "Finland; former name IQM Finland Oy; F-1/F-4 filings, no Form D"
+ },
+ "Solar Foods": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Climeworks": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "ANYbotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Synhelion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Saltfoss Energy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Copenhagen Atomics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "T1 Energy (formerly FREYR Battery)": {
+  "cik": "1992243",
+  "edgarName": "T1 Energy Inc.",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "DE-inc, Austin TX; former name 'FREYR Battery, Inc. /DE/'. Old Luxembourg FREYR Battery is separate CIK 1844224 (deregistered)"
+ },
+ "QuantWare": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "PLD Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "D-Orbit": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Skeleton Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity (note: source row has D-Orbit's location/website, likely a data error upstream)"
+ },
+ "Quantum Machines": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'AVSF - Quantum Machines 2022, LLC' investor SPV on EDGAR — not the company"
+ },
+ "Xtend": {
+  "cik": "2111860",
+  "edgarName": "Xtend AI Robotics, Inc.",
+  "confidence": "Medium",
+  "hasFormD": false,
+  "note": "DE-inc, Tampa FL registrant for XTEND's business combination with JFB Construction Holdings (S-4/425, Aug 2026, NYSE:XTND pending); go-public vehicle rather than Xtend Ltd Israel; no Form D"
+ },
+ "Percepto": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Ramon.Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found despite Milpitas CA HQ"
+ },
+ "Wiliot": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Tevel Aerobotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'OurCrowd (Investment in Tevel) L.P.' SPV — not the company"
+ },
+ "ispace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity; Tokyo-listed"
+ },
+ "Kyoto Fusioneering": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "GITAI": {
+  "cik": "1782690",
+  "edgarName": "GITAI Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE-inc; business address Japan/Torrance ops; Form D filer, name exact"
+ },
+ "Mujin": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Rapidus": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'BLITZ CAPITAL RAPIDUS FUND, LP' — a fund, not the Japanese foundry"
+ },
+ "Innospace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Skyroot Aerospace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Agnikul Cosmos": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only investor SPVs (Agnikul Series A SPV1 LLC, Globevestor Agnikul Funds, Gold Dragon series) — none is the company itself"
+ },
+ "Pixxel": {
+  "cik": "1818777",
+  "edgarName": "Pixxel Space Technologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE-inc, CA business address; D and D/A filings"
+ },
+ "ideaForge": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity; NSE-listed India"
+ },
+ "Xanadu Quantum Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Rejected Xanadu Bio Inc., AVSF Xanadu SPVs, Xanadu Inc (1529946), ECP Xanadu LP — none is the Toronto quantum company"
+ },
+ "Terrestrial Energy": {
+  "cik": "2027582",
+  "edgarName": "Terrestrial Energy Development Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE-inc, Charlotte NC business address matching HQ; former name 'Terrestrial Energy Inc.'; Form D plus S-4 (SPAC listing)"
+ },
+ "Tenstorrent": {
+  "cik": "2031944",
+  "edgarName": "Tenstorrent Holdings Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE-inc, TX business address (Austin relocation); Form D filer"
+ },
+ "CarbonCure Technologies": {
+  "cik": "1535335",
+  "edgarName": "CarbonCure Technologies Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Canadian (BC federal inc Z4, business A5); exact name; Form D filer"
+ },
+ "Fleet Space Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only AVSF/AVGSF Fleet Space investor SPVs — not the Australian company"
+ },
+ "Quantum Brilliance": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "DroneShield": {
+  "cik": "1671541",
+  "edgarName": "DroneShield Ltd",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Australia; Form D + D/A filer — preferred over the ADR facility CIK 2127703 (DRONESHIELD LIMITED/ADR, F-6EF only)"
+ },
+ "SunDrive Solar": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Australian company; no EDGAR entity found for SunDrive"
+ },
+ "Silicon Box": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Singapore company; no EDGAR entity"
+ },
+ "Satellogic": {
+  "cik": "1874315",
+  "edgarName": "Satellogic Inc.",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "Public (NASDAQ SATL), BVI-incorporated, US HQ; files 10-K/10-Q, no Form D"
+ },
+ "Dawn Aerospace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "NZ/NL company; only 'Gaingels Dawn Aerospace LLC' investor SPV exists — not the issuer"
+ },
+ "Dragonfly Aerospace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "South Africa; the many 'Dragonfly' EDGAR entities are funds/an energy SPAC, none is this company"
+ },
+ "Solinftec": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Brazilian company; no EDGAR entity"
+ },
+ "Neura Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German company; Neuralink/Neurable SPVs are unrelated"
+ },
+ "Tekever": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Portuguese company; 'CC Tekever Holdings, LLC' (CIK 2044540, DE/CA, Form D) is a US holding/investment vehicle, not the operating company"
+ },
+ "Dronamics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Bulgarian company; no EDGAR entity"
+ },
+ "Monumental": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Dutch company; Monumental Financial/Marketing/Minerals/Studios are unrelated"
+ },
+ "RobCo": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German company; ROBCO PARTNERS entities are LP fund vehicles, not the robotics firm"
+ },
+ "Deep Isolation": {
+  "cik": "1834158",
+  "edgarName": "Deep Isolation, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D filer, Berkeley CA/DE inc. Related 'Deep Isolation Nuclear, Inc.' CIK 1918080 is the current Reg A/reporting entity — this one is the Form D filer per rules"
+ },
+ "Grain Weevil": {
+  "cik": "1889965",
+  "edgarName": "Grain Weevil Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Naïo Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "French company; no EDGAR entity"
+ },
+ "Delian Alliance Industries": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Greek company; no EDGAR entity"
+ },
+ "Cobod": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Danish company; no EDGAR entity"
+ },
+ "Prusa Research": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Czech company; no EDGAR entity (only individuals named Prusak/Prusan)"
+ },
+ "Deep Atomic": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Swiss company; no EDGAR entity"
+ },
+ "Rhoman Aerospace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found (only an individual filer named Rhoman)"
+ },
+ "Long Wall": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity; American Longwall / Longwall Opportunities Fund are unrelated"
+ },
+ "Bedrock Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity; many 'Bedrock' funds/LLCs but no Bedrock Robotics"
+ },
+ "GrayMatter Robotics": {
+  "cik": "1944064",
+  "edgarName": "GrayMatter Robotics, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Orbital Composites": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Multiply Labs": {
+  "cik": "1690573",
+  "edgarName": "Multiply Labs, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "AiDash": {
+  "cik": "1832348",
+  "edgarName": "AiDash Inc",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Pano AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity; Pano Logic Inc is a defunct unrelated hardware co"
+ },
+ "Collaborative Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found for the Santa Clara robotics company (Cobot)"
+ },
+ "Orangewood Labs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity; Orangewood Partners entities are PE fund vehicles"
+ },
+ "Trilobio": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only investor SPVs (AVSF/Gaingels Trilobio) exist; issuer has no CIK"
+ },
+ "Starpath Robotics": {
+  "cik": "2031587",
+  "edgarName": "Starpath Robotics Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "DroneForge": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Built Robotics": {
+  "cik": "1718478",
+  "edgarName": "Built Robotics, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Chef Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found; issuer appears never to have filed Form D"
+ },
+ "Dexterity": {
+  "cik": "2137857",
+  "edgarName": "Dexterity, Inc.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "Name+CA state+Form D match the Redwood City robotics co, but CIK is recent (2024+) for a 2017 company — thin corroboration; Dexterity Surgical/GPS entities are unrelated"
+ },
+ "Floodbase": {
+  "cik": "1868015",
+  "edgarName": "Floodbase, PBC",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Formerly Cloud to Street, PBC — same CIK"
+ },
+ "Harbinger": {
+  "cik": "1902993",
+  "edgarName": "Harbinger Motors Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Garden Grove EV truck maker; Harbinger Capital Partners entities are unrelated hedge funds"
+ },
+ "LeoLabs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only investor SPVs (AVSF/CGF2021 LeoLabs series) exist; the issuer LeoLabs, Inc. has no CIK"
+ },
+ "Liminal Insights": {
+  "cik": "1782656",
+  "edgarName": "Liminal Insights, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Locus Robotics": {
+  "cik": "1676668",
+  "edgarName": "Locus Robotics Corp.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Lumafield": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Modern Intelligence": {
+  "cik": "1874284",
+  "edgarName": "Modern Intelligence Inc.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "Exact name + Form D; EDGAR business address CA vs Austin TX HQ — likely stale/agent address"
+ },
+ "Osaro": {
+  "cik": "1703829",
+  "edgarName": "Osaro, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Outrider": {
+  "cik": "1724273",
+  "edgarName": "Outrider Technologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Golden CO matches; Outrider Capital/Management/Offshore are unrelated funds"
+ },
+ "Parallel Systems": {
+  "cik": "1816535",
+  "edgarName": "Parallel Systems, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Rain Industries": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found for the Alameda aerial-firefighting co (rain.aero)"
+ },
+ "Rivian": {
+  "cik": "1537332",
+  "edgarName": "Rivian Automotive, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Original FL entity that filed the Form Ds (per prefer-Form-D rule); public reporting entity is Rivian Automotive, Inc. /DE CIK 1874178"
+ },
+ "Slingshot Aerospace": {
+  "cik": "1893211",
+  "edgarName": "Slingshot Aerospace, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Austin/El Segundo dual offices; TX business address consistent"
+ },
+ "Swarm Aero": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only investor SPVs (AVSF/CGF2021 Swarm Aero series) exist; issuer has no CIK"
+ },
+ "WeaveGrid": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Zanskar": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'GVP Climate Series SPV LP - Zanskar' investor vehicle exists; issuer has no CIK"
+ },
+ "Waabi": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Canadian company; no EDGAR entity found under Waabi/Waabi Innovation"
+ },
+ "D-Wave Quantum": {
+  "cik": "1907982",
+  "edgarName": "D-Wave Quantum Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Public company (QBTS); Palo Alto CA business address"
+ },
+ "Photonic Inc": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only hit is 'PHOTONIC 1, a Series of Agave SPV, LLC' (Utah SPV) — not the Vancouver quantum company"
+ },
+ "Nord Quantique": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Canadian; no EDGAR entity"
+ },
+ "Kepler Communications": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Canadian; only 'Kepler Asset Management LLC' exists — not a match"
+ },
+ "GHGSat": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Canadian; no EDGAR entity"
+ },
+ "Reaction Dynamics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Canadian; no EDGAR entity"
+ },
+ "Kinova Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Canadian; no EDGAR entity"
+ },
+ "ARC Clean Technology": {
+  "cik": "1917665",
+  "edgarName": "ARC Clean Energy, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Company's former name (ARC Clean Energy); Washington DC address matches HQ; Form D + D/A 2022-2023"
+ },
+ "Kela": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "'Kela Fund USA Inc.' (NY, CIK 1589719, registered 2013) is a fund, not the Israeli defense-tech startup founded 2024"
+ },
+ "Endurosat": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Bulgarian; no EDGAR entity"
+ },
+ "Skyryse": {
+  "cik": "1685409",
+  "edgarName": "SKYRYSE, INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "El Segundo CA matches HQ; Form Ds 2016-2025. Ignore SPV 'Skyryse 2025 a Series of CGF2021 LLC' (CIK 2098700)"
+ },
+ "Dusty Robotics": {
+  "cik": "1796214",
+  "edgarName": "Dusty Robotics, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Fortera": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No Fortera entity on EDGAR; 'Calera Capital...' feeder LP is unrelated PE vehicle, not the predecessor Calera Corp"
+ },
+ "LanzaTech": {
+  "cik": "1843724",
+  "edgarName": "LanzaTech Global, Inc.",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "Public via SPAC (former AMCI Acquisition Corp. II); Skokie IL matches; no Form D on this CIK"
+ },
+ "QuantumScape": {
+  "cik": "1811414",
+  "edgarName": "QuantumScape Corp",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "Public (QS); San Jose CA; former Kensington Capital Acquisition Corp."
+ },
+ "Mainspring Energy": {
+  "cik": "1716836",
+  "edgarName": "Mainspring Energy, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Former name EtaGen, Inc.; Menlo Park area CA"
+ },
+ "eGenesis": {
+  "cik": "1682809",
+  "edgarName": "eGenesis, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Osmo": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "'Osmo Inc.' CIK 1783350 (Irvine CA, single 2019 Form D) predates osmo.ai (founded 2023, NJ) — different company; not a match"
+ },
+ "Vivodyne": {
+  "cik": "1851074",
+  "edgarName": "Vivodyne, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Founded in Philadelphia, later moved to SF; same company"
+ },
+ "Cellares": {
+  "cik": "1861651",
+  "edgarName": "Cellares Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "LabGenius": {
+  "cik": "1718254",
+  "edgarName": "LABGENIUS Ltd",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "UK company that filed Form D in the US"
+ },
+ "Mission Barns": {
+  "cik": "1758352",
+  "edgarName": "Mission Barns, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Cresilon": {
+  "cik": "1728054",
+  "edgarName": "Cresilon, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Brooklyn NY matches"
+ },
+ "FlyBy Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'New Era Ventures Flyby Robotics a Series of CGF2021 LLC' (SPV, CIK 2066819) — issuer itself has no CIK"
+ },
+ "Ulysses Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "'ULYSSES AGGREGATOR, LP' (Palo Alto PE vehicle) is not a match; no entity for Ulysses Robotics / The Ocean Company"
+ },
+ "Poseidon Aerospace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "'Poseidon AmphibWorks Corp' (FL) is a different company; no match"
+ },
+ "Swift Beat": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity under Swift Beat / Swiftbeat / Swift Beat Holdings"
+ },
+ "Parry Labs": {
+  "cik": "2038771",
+  "edgarName": "Parry Labs Holdings, LLC",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "Holdings LLC in Alexandria VA matches HQ; filing entity is the holding company"
+ },
+ "Fortem Technologies": {
+  "cik": "1736071",
+  "edgarName": "Fortem Technologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Lindon UT matches"
+ },
+ "Hexium": {
+  "cik": "2030196",
+  "edgarName": "Hexium Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Austin TX matches"
+ },
+ "General Galactic": {
+  "cik": "2041023",
+  "edgarName": "General Galactic Technologies Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "El Segundo CA matches"
+ },
+ "Ares Industries": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity; do not confuse with Ares Management/credit vehicles"
+ },
+ "Starcloud": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'Starcloud 2026 a Series of NEW VISTA CAPITAL INVESTMENT LLC' (SPV, CIK 2123705) — issuer has no CIK"
+ },
+ "Steady Energy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Finnish; no EDGAR entity"
+ },
+ "CarbonCapture Inc.": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "'Carbon Capture America, Inc.' (Arvada CO) is a different business, not the LA DAC company"
+ },
+ "Graphyte": {
+  "cik": "2036139",
+  "edgarName": "Graphyte, Inc.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "Exact unique name + Form D; business address TN rather than Pine Bluff AR operations site — plausible corporate address but corroboration thin"
+ },
+ "Zeta Surgical": {
+  "cik": "1812531",
+  "edgarName": "Zeta Surgical Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Former name Z Imaging Inc.; Boston MA matches"
+ },
+ "Electric Hydrogen": {
+  "cik": "1997980",
+  "edgarName": "Electric Hydrogen Co.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Devens/Natick MA matches"
+ },
+ "Tenna Systems": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli; no EDGAR entity ('Tennant Capital Partners Fund LP' is unrelated)"
+ },
+ "Vatn Systems": {
+  "cik": "2046836",
+  "edgarName": "Vatn Systems, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Portsmouth RI matches"
+ },
+ "Hubble Network": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only investor SPVs (Gaingels Hubble Network LLC, Swagar Capital Hubble Network Fund LP) filed; issuer has no CIK. 'Hubble Bioscience' (OR) unrelated"
+ },
+ "Sage Geosystems": {
+  "cik": "2012554",
+  "edgarName": "Sage Geosystems Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Houston TX matches"
+ },
+ "Fourth Power": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity under Fourth Power"
+ },
+ "Asimov": {
+  "cik": "1707013",
+  "edgarName": "Asimov Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Boston/Cambridge MA matches"
+ },
+ "Cemvita": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity under Cemvita / Cemvita Factory"
+ },
+ "Q-CTRL": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Australian; no EDGAR entity"
+ },
+ "Hidden Level": {
+  "cik": "1773032",
+  "edgarName": "Hidden Level, Inc",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Syracuse NY matches"
+ },
+ "ClearSpace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Luxembourg/Swiss; no EDGAR entity"
+ },
+ "Profluent": {
+  "cik": "1941954",
+  "edgarName": "Profluent Bio Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Matches profluent.bio, Emeryville CA"
+ },
+ "Fairmat": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "French company; no EDGAR entity or Form D found (FTS hits only unrelated DBV/Hexcel mentions)"
+ },
+ "Infleqtion": {
+  "cik": "1746727",
+  "edgarName": "ColdQuanta, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "ColdQuanta is Infleqtion's legal entity pre-rename; Boulder CO, venture Form Ds. Post-SPAC public entity is Infleqtion, Inc. CIK 2007825 (fka Churchill Capital Corp X)"
+ },
+ "Elroy Air": {
+  "cik": "1808548",
+  "edgarName": "Elroy Air, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "South San Francisco, DE inc; ignore Gaingels/AngelList SPVs"
+ },
+ "Solid Power": {
+  "cik": "1728480",
+  "edgarName": "Solid Power Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Louisville CO operating co with Form D/D-A; public listed entity is CIK 1844862 (SLDP, fka Decarbonization Plus III) which has no Form D"
+ },
+ "Skyrora": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK launch company; no EDGAR presence"
+ },
+ "Quantinuum": {
+  "cik": "2006462",
+  "edgarName": "Quantinuum",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Cayman-inc entity at Honeywell's Brooklyn Park MN address; files D/D-A. IPO entity Quantinuum Inc. CIK 2110105 (QNT) has no Form D"
+ },
+ "CORE POWER": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK maritime nuclear co; 'Ener-Core Inc' (CIK 1495536) is an unrelated CA gas-turbine co — not a match"
+ },
+ "Wandelbots": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German robotics co; no EDGAR presence"
+ },
+ "AlixLabs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Swedish semiconductor co; no EDGAR presence"
+ },
+ "OpenStar": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "NZ fusion co; only unrelated EchoStar/OpenTV hits"
+ },
+ "Qilimanjaro": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Spanish quantum co; no EDGAR presence"
+ },
+ "QuiX Quantum": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Dutch photonic quantum co; no EDGAR presence"
+ },
+ "SemiQon": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Finnish quantum-chip co; no EDGAR presence (single BTQ mention unrelated)"
+ },
+ "REGENT Craft": {
+  "cik": "1870184",
+  "edgarName": "REGENT CRAFT INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "North Kingstown RI, DE inc — exact match"
+ },
+ "Archer Materials": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "ASX-listed Australian co; no US filings. Do NOT match Archer Aviation or fund holders"
+ },
+ "DEEPX": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Korean AI-chip co (Seongnam); 'DeepX Elysium Inc.' CIK 2130701 (St Petersburg FL) is a different business — rejected"
+ },
+ "PierSight": {
+  "cik": "2006575",
+  "edgarName": "PIERSIGHT SPACE, INC.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "Delaware flip entity (registered-agent address, Lewes DE) of the Indian SAR-satellite co; name exact, corroboration thin"
+ },
+ "Axial Composites": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Layup Parts": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found under Layup variants"
+ },
+ "Nox Metals": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only investor SPVs exist ('Nox Metals May 2026 a Series of CGF2021 LLC', 'AVSF - Nox Metals 2026 LLC') — company itself has no CIK"
+ },
+ "Duranium": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "MacroFab": {
+  "cik": "1649153",
+  "edgarName": "MacroFab, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Houston TX, DE inc — exact match"
+ },
+ "Finwave Semiconductor": {
+  "cik": "1730799",
+  "edgarName": "Finwave Semiconductor, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Belmont MA; former name Cambridge Electronics, Inc."
+ },
+ "OSH Cut": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "RMFG": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found; sole FTS hit (Wolverine World Wide) unrelated"
+ },
+ "Emelody": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "HLabs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity under HLabs or H Laboratories"
+ },
+ "RISE Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only an investor SPV ('RISE Robotics I, a series of Capitalize Investments LLC') — company itself has no CIK"
+ },
+ "Artimus Robotics": {
+  "cik": "1828740",
+  "edgarName": "Artimus Robotics Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Boulder CO, DE inc — exact match"
+ },
+ "Corvex Systems": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "All 'Corvex' filers are Keith Meister's hedge-fund vehicles (Corvex Management LP etc.) — NOT the Reno NV company"
+ },
+ "Foundry Lab": {
+  "cik": "1881935",
+  "edgarName": "Foundry Lab, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc with Petone NZ business address — matches NZ-origin digital-casting co now Austin-based"
+ },
+ "Aestus Industries": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "All 'Aestus' filers are capital/LP fund vehicles — not the company"
+ },
+ "Ouros Energy": {
+  "cik": "2129025",
+  "edgarName": "Ouros Energy, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Hallandale FL, DE inc; separate CGF2021 SPV series also exists"
+ },
+ "Forge Nano": {
+  "cik": "1719324",
+  "edgarName": "FORGE NANO, INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Thornton CO; multiple Form Ds plus S-4 (SPAC merger with Archimedes Tech II / ATII Holdings 'NANO' underway)"
+ },
+ "Nascent Materials": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Freeform": {
+  "cik": "1778615",
+  "edgarName": "Freeform Future Corp.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Legal name of the Hawthorne CA metal-3D-printing co; not 'FreeForm Brush Inc.'"
+ },
+ "Vuecason": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Radian Forge": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found; do not match Radian Group"
+ },
+ "Seurat Technologies": {
+  "cik": "1676064",
+  "edgarName": "Seurat Technologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Exact unique name, DE inc; EDGAR business address is stale Mountain View CA (company founded there before moving to Wilmington MA)"
+ },
+ "VulcanForms": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity under VulcanForms/Vulcan Forms; FTS hits are lender/competitor mentions only — apparently raised without Form D"
+ },
+ "Lumotive": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found; FTS hits are foundry-partner mentions only"
+ },
+ "Ouster": {
+  "cik": "1815095",
+  "edgarName": "Ouster, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "SF operating co with Form D; public entity is CIK 1816581 (OUST, fka Colonnade Acquisition) with no Form D"
+ },
+ "Aeva Technologies": {
+  "cik": "1694869",
+  "edgarName": "AEVA, INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Palo Alto operating co with Form D; public entity CIK 1789029 (AEVA, fka InterPrivate). 'Aeva Labs, Inc.' CIK 1777219 (Raleigh NC) is unrelated"
+ },
+ "Voyant Photonics": {
+  "cik": "1847501",
+  "edgarName": "Voyant Photonics, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "New York NY, DE inc — exact match"
+ },
+ "Standard Bots": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only investor SPV 'Gaingels Standard Bots LLC' — company itself has no CIK"
+ },
+ "Path Robotics": {
+  "cik": "1882283",
+  "edgarName": "Path Robotics, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Columbus OH — exact match; NOT 'Precise Path Robotics Inc' (golf robots) or Gaingels SPVs"
+ },
+ "Cohesive Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Ultra Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Gallox Semiconductors": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Vertical Semiconductor": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found; FTS hits are generic phrase matches in unrelated filings"
+ },
+ "MaverickX": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity or Form D found via full-text search"
+ },
+ "First Resonance": {
+  "cik": "1855716",
+  "edgarName": "First Resonance, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D 2021, CA matches LA HQ"
+ },
+ "Krevera": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Photonium": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Mbodi AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only an investor SPV (MBODI A SERIES OF VUVP FUND LLC) exists; not the company"
+ },
+ "Drafter": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only unrelated incidental text matches"
+ },
+ "OBSIDIA Semiconductor": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Cascade Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Marathon Fusion": {
+  "cik": "2010694",
+  "edgarName": "Marathon Fusion, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D 2024, SF HQ matches"
+ },
+ "GenFab Co": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Occam": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; EDGAR 'Occam' hits are unrelated funds and Occam Edge Inc (CA), no corroborated match"
+ },
+ "Blitzpanel": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "MatX": {
+  "cik": "2004726",
+  "edgarName": "MatX Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D filings incl. 2026-03-10, Mountain View matches"
+ },
+ "Amogy": {
+  "cik": "1849554",
+  "edgarName": "AMOGY Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D 2024, Brooklyn NY matches"
+ },
+ "Chariot Defense": {
+  "cik": "2113350",
+  "edgarName": "Chariot Defense, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D 2026-02-25, San Bruno CA matches"
+ },
+ "Intramotev": {
+  "cik": "1945538",
+  "edgarName": "INTRAMOTEV INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D 2022, St. Louis MO matches; ignore ProChain/Decile SPVs"
+ },
+ "Pickle Robot Company": {
+  "cik": "1770325",
+  "edgarName": "Pickle Robot Co",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D 2021, Cambridge MA matches"
+ },
+ "Augury": {
+  "cik": "1651145",
+  "edgarName": "Augury Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form Ds 2015-2020, NY matches"
+ },
+ "Lunar Energy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only AVSF SPV vehicles reference it; company itself has no EDGAR entity"
+ },
+ "Cache Energy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Furno Materials": {
+  "cik": "1985180",
+  "edgarName": "Furno Materials Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D 2023, CA matches Mountain View"
+ },
+ "Pyka": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only Pyka PML SPV LPs (FL/WY vehicles) exist; company itself has no EDGAR entity"
+ },
+ "Limelight Steel": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Slip Robotics": {
+  "cik": "1914450",
+  "edgarName": "Slip Robotics, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D 2023, GA matches Norcross"
+ },
+ "Remedy Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Verdant Robotics": {
+  "cik": "1791414",
+  "edgarName": "Verdant Robotics, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D 2019, CA matches Hayward; ignore GSBackers/INVEXT SPVs"
+ },
+ "Galadyne": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Simbe Robotics": {
+  "cik": "1787654",
+  "edgarName": "Simbe Robotics, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D 2024, SF CA matches"
+ },
+ "Velaura AI": {
+  "cik": "1929288",
+  "edgarName": "Auradine, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Matched via former name Auradine; Form D 2022, CA matches Santa Clara"
+ },
+ "Rugged Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Elementary Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Aeon Industrial": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Anthrogen": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Overview Energy": {
+  "cik": "1949935",
+  "edgarName": "OVERVIEW ENERGY, INC.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "Exact name, Form D 2022 filed from CA; tracked HQ is Ashburn VA — likely same company post-move but state corroboration thin"
+ },
+ "Living Carbon": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only a CGF2021 SPV series references it; company itself has no EDGAR entity"
+ },
+ "Sorcerer": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only incidental text matches in unrelated filings"
+ },
+ "Solideon": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only CGF2021 SPV series exist; company itself has no EDGAR entity"
+ },
+ "Zeno Power": {
+  "cik": "1929046",
+  "edgarName": "Zeno Power Systems, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D 2025, DC matches; ignore Gaingels/CGF2021 SPVs"
+ },
+ "Ayar Labs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only Morgan Creek SPV and third-party mentions; no Ayar Labs issuer entity on EDGAR"
+ },
+ "NextSilicon": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli company; no US filings found"
+ },
+ "Horizon Quantum Computing": {
+  "cik": "2088257",
+  "edgarName": "Horizon Quantum Computing Pte. Ltd.",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "Singapore opco; went public via dMY SPAC — listed parent is Horizon Quantum Holdings Ltd (CIK 2088256, ticker HQ). No Form D"
+ },
+ "Phasecraft": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; only incidental mentions in Rigetti/IQM filings"
+ },
+ "NVision Imaging Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German company; no US filings found"
+ },
+ "Ideon Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Canadian company; only incidental mentions in unrelated filings"
+ },
+ "Chemify": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no US filings found"
+ },
+ "Unspun": {
+  "cik": "2033020",
+  "edgarName": "Unspun, PBC",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D 2024, Oakland CA matches; ignore GSBackers/Vauban SPVs"
+ },
+ "Evolv Technology": {
+  "cik": "1582300",
+  "edgarName": "Evolv Technologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Private-era Form D filer (2013+), Waltham MA; distinct from post-SPAC public Evolv Technologies Holdings (CIK 1805385)"
+ },
+ "Sabanto": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found; source row appears corrupted (carries Evolv's location/website)"
+ },
+ "BurnBot": {
+  "cik": "2011777",
+  "edgarName": "Burnbot, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D 2024, CA matches"
+ },
+ "Enovix": {
+  "cik": "1391947",
+  "edgarName": "Enovix Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Same entity pre- and post-IPO (ENVX); Form Ds 2012-2020, Fremont CA. Source row website is corrupted (BurnBot URL)"
+ },
+ "Aclarity": {
+  "cik": "1919427",
+  "edgarName": "Aclarity, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Medway MA water-tech; name+state exact"
+ },
+ "Akash Systems": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only SPV series (CGF2021 LLC) and unrelated AkashX Inc on EDGAR; the operating company has no CIK"
+ },
+ "Defense Unicorns": {
+  "cik": "1950785",
+  "edgarName": "Defense Unicorns, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Strider Technologies": {
+  "cik": "1776892",
+  "edgarName": "Strider Technologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Xage Security": {
+  "cik": "1749043",
+  "edgarName": "Xage Security, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Mythic": {
+  "cik": "1691217",
+  "edgarName": "MYTHIC INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Austin TX location; former name Isocline Engineering Corp; distinct from Mythic Collection LLC (Reg A collectibles, not a match)"
+ },
+ "Positron AI": {
+  "cik": "2077932",
+  "edgarName": "Positron AI, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, NV location matches Reno HQ"
+ },
+ "Xsight Labs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli company; no EDGAR entity or Form D full-text hits"
+ },
+ "Electra": {
+  "cik": "1867881",
+  "edgarName": "Electrasteel, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "electra.earth is the renamed Electrasteel (Boulder CO clean iron); rejected Electra America Hospitality REIT and Electra Acquisition Corp"
+ },
+ "Lilac Solutions": {
+  "cik": "1746097",
+  "edgarName": "Lilac Solutions, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA inc+loc; rejected Tribeca Angels SPV (1759671)"
+ },
+ "Evozyne": {
+  "cik": "1811288",
+  "edgarName": "Evozyne, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Alto Neuroscience": {
+  "cik": "1999480",
+  "edgarName": "Alto Neuroscience, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Now NYSE-listed but same entity"
+ },
+ "Glyphic Biotechnologies": {
+  "cik": "2011516",
+  "edgarName": "Glyphic Biotechnologies, Inc.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "Exact name, DE inc, Form D; filer address NY vs tracked Berkeley CA HQ — Gaingels 'Glyphic Bio' SPVs corroborate raises; distinct from Glyphic Redaction Software"
+ },
+ "Biobot Analytics": {
+  "cik": "1809780",
+  "edgarName": "Biobot Analytics, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Zeitview": {
+  "cik": "1676896",
+  "edgarName": "DroneBase, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Zeitview is the renamed DroneBase; EDGAR entity still under former name, CA matches"
+ },
+ "Roam Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only Gaingels Roam Robotics LLC SPV on EDGAR; operating company has no CIK"
+ },
+ "Bethlehem Steel Corp": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "CIK 11860 is the historic, dissolved Bethlehem Steel Corp /DE/ (10-K filer, bankrupt 2001) — NOT the new bethlehemsteelcorp.com revival, which has no CIK"
+ },
+ "Seneca": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Sausalito CA seneca.com; only unrelated Seneca Bancorp / Seneca Partners BD hits — no plausible entity"
+ },
+ "1X Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Norwegian company; no EDGAR entity or Form D full-text hits"
+ },
+ "Gravitics": {
+  "cik": "1957517",
+  "edgarName": "Gravitics, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Unique name, DE inc, Form D; filer address Erie CO is a stale early address (HQ now Marysville WA) — clearly the same space-station startup"
+ },
+ "Orbit Fab": {
+  "cik": "1814164",
+  "edgarName": "Orbit Fab, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Filer state CA from original SF HQ, since moved to Lafayette CO"
+ },
+ "Radian Aerospace": {
+  "cik": "1667537",
+  "edgarName": "Radian Aerospace Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Lunar Outpost": {
+  "cik": "1926627",
+  "edgarName": "Lunar Outpost Inc",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Transmutex": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Swiss company; no EDGAR presence"
+ },
+ "MightyFly": {
+  "cik": "2096047",
+  "edgarName": "MightyFly Inc",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "DE inc, CA location matches the Bay Area cargo-drone company (batch row's Geneva/transmutex.com fields are a data glitch); filings are Reg CF (Form C), no Form D"
+ },
+ "Natilus": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "8+ SPV series (VUVP, CGF2021, Interlock, ProChain, Assure) file Form D for its raises, but Natilus Inc itself has no CIK"
+ },
+ "BotBuilt": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'BotBuilt 1, a Series of Shadow Ventures Master, LLC' SPV; company itself has no CIK"
+ },
+ "Precision AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Canadian company; no EDGAR entity"
+ },
+ "Dendra Systems": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; only 'UC Dendra Systems LLC' SPV on EDGAR"
+ },
+ "Near Space Labs": {
+  "cik": "1745399",
+  "edgarName": "Near Space Labs, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Brooklyn NY matches"
+ },
+ "Atomic AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity or Form D full-text hits"
+ },
+ "Ultima Genomics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity; rejected Ultima Hospitality fund. Raises likely under 4(a)(2)"
+ },
+ "Helios": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Batch row duplicates Ultima Genomics website (data glitch); no plausible entity — Helios & Matheson Analytics is unrelated"
+ },
+ "Material Evolution": {
+  "cik": "1978864",
+  "edgarName": "Material Evolution Inc.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "Exact name, DE inc, Form D filer at Dover DE registered-agent address; plausibly the US entity of the UK cement company but no independent corroboration"
+ },
+ "Amber Bio": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity or Form D full-text hits"
+ },
+ "Manifold Bio": {
+  "cik": "1820326",
+  "edgarName": "Manifold Biotechnologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Legal name Manifold Biotechnologies; Cambridge MA matches"
+ },
+ "Strand Therapeutics": {
+  "cik": "1778475",
+  "edgarName": "Strand Therapeutics Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Signaloid": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no EDGAR presence"
+ },
+ "Apis Cor": {
+  "cik": "1885037",
+  "edgarName": "Apis Cor Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Melbourne FL matches; also a Reg A (1-A) filer"
+ },
+ "Valinor Enterprises": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only Valinor Capital Partners / Valinor Credit fund vehicles on EDGAR — explicitly excluded; the DC defense startup has no CIK"
+ },
+ "Rivet Industries": {
+  "cik": "2022020",
+  "edgarName": "Rivet Industries, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Washington DC matches; D and D/A filed"
+ },
+ "Starfish Space": {
+  "cik": "1886318",
+  "edgarName": "Starfish Space Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Tukwila WA; rejected 'Starfish Space 35 a Series of Denver Ventures I LLC' SPV"
+ },
+ "Valthos": {
+  "cik": "2124500",
+  "edgarName": "Valthos Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Reliable Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only SPVs (Gaingels Reliable Robotics LLC, What If Ventures series) on EDGAR; Reliable Robotics Corporation itself has no CIK"
+ },
+ "Koloma": {
+  "cik": "1881912",
+  "edgarName": "Koloma, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Denver CO geologic-hydrogen company"
+ },
+ "Heart Aerospace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Swedish-origin; no EDGAR entity or Form D hits despite LA relocation"
+ },
+ "Peak Energy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'Peak Energy 38 a Series of Denver Ventures I LLC' SPV; the Denver sodium-ion battery company has no CIK"
+ },
+ "TS Conductor": {
+  "cik": "1892495",
+  "edgarName": "TS Conductor Corp.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA filer (Arcadia address), consistent with Huntington Beach HQ"
+ },
+ "Heron Power": {
+  "cik": "2069722",
+  "edgarName": "Heron Power Electronics Co",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Filer address Scotts Valley CA — exact HQ match"
+ },
+ "VEIR": {
+  "cik": "1800077",
+  "edgarName": "VEIR, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Woburn MA superconducting transmission"
+ },
+ "Mytra": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only investor SPVs exist (Mytra Oct 2025 a Series of CGF2021 LLC CIK 2097869, Infinite Capital LP - Series Mytra CIK 2098399); the company itself has no CIK."
+ },
+ "Hertha Metals": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity; company search and Form D full-text search return nothing (only unrelated SOUTHCREST FINANCIAL mentions 'Hertha')."
+ },
+ "Synchron": {
+  "cik": "1864980",
+  "edgarName": "Synchron, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D 2021/2022 filed from Brooklyn NY with CEO Thomas Oxley as related person — confirmed the BCI company; current EDGAR address Campbell CA. Rejected Synchron Networks, SynchroNeuron, and two SPV series."
+ },
+ "Lila Sciences": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only SPVs (AVSF - Lila Sciences LLCs, CGF2021 series); Lila Sciences Inc itself has no CIK."
+ },
+ "Freenome": {
+  "cik": "1676446",
+  "edgarName": "Freenome Holdings, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE-inc medical-lab company with multiple D/D-A filings; merged 2026 with Perceptive Capital SPAC (now public as Freenome, Inc. CIK 2017526) — Form D filer preferred per rules. Batch metadata (Cambridge MA, lila.ai URL) looks like a data glitch; company is South SF."
+ },
+ "Precision Neuroscience": {
+  "cik": "1858288",
+  "edgarName": "Precision Neuroscience Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE-inc, NY-located, D and D/A filings — exact match."
+ },
+ "ARX Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German company; no EDGAR entity."
+ },
+ "Frankenburg Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Estonian company; no EDGAR entity."
+ },
+ "Tytan Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German company; no EDGAR entity."
+ },
+ "Blackshark.ai": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Austrian company; only BlackShark Capital Partners LLC (NY fund, unrelated) on EDGAR."
+ },
+ "Improbable Defence": {
+  "cik": "1637536",
+  "edgarName": "Improbable Worlds Ltd",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "UK parent Improbable Worlds Ltd filed Form D; Improbable Defence is its defence division, not a separate EDGAR entity. Use only if group-level matching is acceptable."
+ },
+ "Aerospacelab": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Belgian company; no EDGAR entity."
+ },
+ "The Exploration Company": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German company; no EDGAR entity."
+ },
+ "HyImpulse": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German company; no EDGAR entity."
+ },
+ "Exolaunch": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German company; no EDGAR entity."
+ },
+ "Open Cosmos": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no EDGAR entity."
+ },
+ "Stegra": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Swedish company (ex H2 Green Steel); no EDGAR entity under either name."
+ },
+ "INERATEC": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German company; no EDGAR entity."
+ },
+ "Reverion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German company; no EDGAR entity."
+ },
+ "Enapter": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German (Frankfurt-listed) company; no EDGAR entity."
+ },
+ "44.01": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Omani company; no EDGAR entity."
+ },
+ "Isomorphic Labs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK Alphabet subsidiary; no EDGAR entity."
+ },
+ "Basecamp Research": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no EDGAR entity."
+ },
+ "SpliceBio": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Spanish company; no EDGAR entity under SpliceBio/Splice Bio."
+ },
+ "SiPearl": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "French company; no EDGAR entity."
+ },
+ "eleQtron": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German company; no EDGAR entity."
+ },
+ "Riverlane": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no EDGAR entity."
+ },
+ "Poolside": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Incorporated in France (Poolside AI SARL); only an investor SPV (7GC & Co. Opportunity Partners, Poolside LLC) on EDGAR — not the company."
+ },
+ "Nomagic": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Polish company; only GAINGELS NOMAGIC LLC investor SPV on EDGAR."
+ },
+ "Nu Quantum": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no EDGAR entity."
+ },
+ "Fractile": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no EDGAR entity."
+ },
+ "Pragmatic Semiconductor": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no EDGAR entity."
+ },
+ "Porotech": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no EDGAR entity."
+ },
+ "Oxa": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK autonomy company (ex Oxbotica); EDGAR 'Oxa*' hits (OxAM Quant funds, Oxalo Therapeutics, etc.) are all unrelated."
+ },
+ "Humanoid": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK robotics company; EDGAR Humanoid hits are SPVs, a CA 'Humanoid Labs, Inc.' and a CO shell (ex YaSheng Group) — none is this company."
+ },
+ "Nyobolt": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no EDGAR entity."
+ },
+ "Pulsar Fusion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no EDGAR entity despite US expansion."
+ },
+ "Magdrive": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK space-propulsion firm. 'MagDrive Technologies, Inc.' CIK 1943944 is a Bozeman MT company (officers Runyon/Yakos/Strom per its Form D) — unrelated. AVSF - Magdrive 2024 LLC is an SPV."
+ },
+ "Cambridge Aerospace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; only SPV 'Auctor Cambridge Aerospace, a series of Ratio Ventures, LP' on EDGAR."
+ },
+ "Hadean": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; only investor SPVs (VUVP FUND series, AVSF - Hadean Supercomputing) on EDGAR."
+ },
+ "Adarga": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no EDGAR entity."
+ },
+ "Isembard": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no EDGAR entity."
+ },
+ "Mission Zero Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no EDGAR entity."
+ },
+ "Epoch Biodesign": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no EDGAR entity."
+ },
+ "MBRYONICS": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Irish company; no EDGAR entity."
+ },
+ "Blykalla": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Swedish company; no EDGAR entity."
+ },
+ "Candela": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Swedish electric-boat maker; EDGAR Candela hits (Candela Corp/Medical lasers MA, Candela Capital LPs) are all unrelated."
+ },
+ "Hystar": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Norwegian company; no EDGAR entity."
+ },
+ "ReOrbit": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Finnish company; no EDGAR entity."
+ },
+ "Nordic Air Defence": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Swedish company; no EDGAR entity."
+ },
+ "KrattWorks": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Estonian drone maker; no EDGAR entity"
+ },
+ "DefSecIntel": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Estonian; no EDGAR entity"
+ },
+ "Kvertus": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Ukrainian EW; no EDGAR entity"
+ },
+ "Fire Point": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Ukrainian; no EDGAR entity"
+ },
+ "Vyriy Drone": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Ukrainian; no EDGAR entity"
+ },
+ "Skyeton": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Ukrainian UAV; no EDGAR entity"
+ },
+ "HIMERA": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Ukrainian radios; no EDGAR entity"
+ },
+ "Ark Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Estonian; no EDGAR entity"
+ },
+ "WB Group": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Polish defense group; no EDGAR entity"
+ },
+ "Creotech Instruments": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Polish, WSE-listed; no EDGAR entity"
+ },
+ "SatRev": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Polish; no EDGAR entity"
+ },
+ "KP Labs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Polish; no EDGAR entity"
+ },
+ "Primoco UAV": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Czech, Prague-listed; no EDGAR entity"
+ },
+ "Astrolight": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Lithuanian; no EDGAR entity"
+ },
+ "Quandela": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "French quantum; no EDGAR entity"
+ },
+ "Quobly": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "French quantum; no EDGAR entity"
+ },
+ "C12 Quantum Electronics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "French; no EDGAR entity"
+ },
+ "Harmattan AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "French; no EDGAR entity"
+ },
+ "Comand AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "French; only EDGAR hit 'Comand Dino Arduino' is an individual, not a match"
+ },
+ "Unseenlabs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "French; no EDGAR entity"
+ },
+ "Cailabs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "French; no EDGAR entity"
+ },
+ "Beyond Aero": {
+  "cik": "2019023",
+  "edgarName": "Beyond Aero Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D 2024 ($23.9M); officers Eloa Guillotin/Hugo Tarle/Valentin Chomel = Beyond Aero founders (Toulouse hydrogen jet), DE US entity"
+ },
+ "Stellaria": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "French nuclear; no EDGAR entity"
+ },
+ "Jimmy Energy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "French nuclear; no EDGAR entity"
+ },
+ "DiamFab": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "French; no EDGAR entity"
+ },
+ "Sateliot": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Spanish; no EDGAR entity"
+ },
+ "Kreios Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Spanish; no EDGAR entity"
+ },
+ "Argotec": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Italian; no EDGAR entity"
+ },
+ "Ephos": {
+  "cik": "1976862",
+  "edgarName": "Ephos, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Form D 2023 ($4M); exec Andrea Rocchetto = Ephos CEO (glass photonics, Milan + San Francisco); DE inc, SF address"
+ },
+ "AAVantgarde Bio": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Italian biotech; no EDGAR entity"
+ },
+ "Genespire": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Italian biotech; no EDGAR entity"
+ },
+ "Nearfield Instruments": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Dutch; no EDGAR entity"
+ },
+ "Axelera AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Dutch; no EDGAR entity"
+ },
+ "LeydenJar Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Dutch; no EDGAR entity"
+ },
+ "Carbyon": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Dutch; no EDGAR entity"
+ },
+ "Synspective": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Japanese, TSE-listed; no EDGAR entity"
+ },
+ "iQPS": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Japanese, TSE-listed; no EDGAR entity"
+ },
+ "Axelspace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Japanese; no EDGAR entity"
+ },
+ "Pale Blue": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Japanese; no EDGAR entity"
+ },
+ "Telexistence": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Japanese; no EDGAR entity"
+ },
+ "Helical Fusion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Japanese; no EDGAR entity"
+ },
+ "EX-Fusion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Japanese; no EDGAR entity"
+ },
+ "Terra Drone": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Japanese, TSE-listed; no EDGAR entity"
+ },
+ "ACSL": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Japanese, TSE-listed; no EDGAR entity"
+ },
+ "QunaSys": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Japanese; no EDGAR entity"
+ },
+ "FuriosaAI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Korean; no EDGAR entity"
+ },
+ "Perigee Aerospace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Korean; no EDGAR entity"
+ },
+ "Contec": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Korean, KOSDAQ-listed; no EDGAR entity for this company"
+ },
+ "Nara Space Technology": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Korean; no EDGAR entity"
+ },
+ "Neuromeka": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Korean, KOSDAQ-listed; no EDGAR entity"
+ },
+ "Thunder Tiger": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Taiwanese TWSE-listed drone maker; no EDGAR entity found"
+ },
+ "ABL Bio": {
+  "cik": "1991318",
+  "edgarName": "ABL BIO USA, Inc.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "US subsidiary of Korean KOSDAQ-listed ABL Bio; filed Form D 2023; parent itself has no CIK"
+ },
+ "Digantara": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Indian space-surveillance startup; no EDGAR entity or Form D"
+ },
+ "Raphe mPhibr": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Indian drone maker; no EDGAR entity"
+ },
+ "Sagar Defence Engineering": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Indian; no EDGAR entity"
+ },
+ "Newspace Research": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Indian; no EDGAR entity"
+ },
+ "Tonbo Imaging": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Indian imaging firm; Tonbo IO Inc (CIK 2106970) and Tonbo Media Group (1995649) are unrelated US filers — rejected"
+ },
+ "Bellatrix Aerospace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Indian; only Bellatrix Exploration Ltd (Canadian oil/gas) and a Bellatrix SPV series on EDGAR — rejected"
+ },
+ "Dhruva Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Indian; no EDGAR entity"
+ },
+ "SatSure": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Indian; no EDGAR entity"
+ },
+ "GalaxEye": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Indian; no EDGAR entity"
+ },
+ "Mindgrove Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Indian chip startup; no EDGAR entity"
+ },
+ "Netrasemi": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Indian; no EDGAR entity"
+ },
+ "Lohum Cleantech": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Indian battery recycler; no EDGAR entity"
+ },
+ "Sarla Aviation": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Indian eVTOL; no EDGAR entity"
+ },
+ "The ePlane Company": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Indian; ePlanet Ventures LPs are unrelated funds — rejected"
+ },
+ "Hypersonix Launch Systems": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Australian; no EDGAR entity"
+ },
+ "Gilmour Space Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Australian; appears only as mentions in third-party filings, no own CIK"
+ },
+ "Southern Launch": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Australian; no EDGAR entity"
+ },
+ "Silicon Quantum Computing": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Australian; no EDGAR entity"
+ },
+ "SwarmFarm Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Australian; no EDGAR entity"
+ },
+ "Greenroom Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Australian; no EDGAR entity"
+ },
+ "Cortical Labs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Australian; no EDGAR entity"
+ },
+ "Ocius Technology": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Australian; no EDGAR entity"
+ },
+ "Sicona Battery Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Australian; no EDGAR entity"
+ },
+ "Heven AeroTech": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "US (Sterling VA) drone maker, but no EDGAR entity or Form D found under Heven/HevenDrones/Heven AeroTech"
+ },
+ "Quantum Art": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli trapped-ion quantum co; 'Quantum Art, Inc.' (CIK 1921044, Palo Alto, single 2022 Form D) has no corroborating link to the Israeli firm and a Dominion 3 Partners SPV series also exists — both rejected as likely different entities"
+ },
+ "QuamCore": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli; no EDGAR entity"
+ },
+ "Qedma": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli; no EDGAR entity"
+ },
+ "Q-Factor": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli; no EDGAR entity"
+ },
+ "Classiq": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli; only 'AVSF - Classiq 2025, LLC' investor SPV on EDGAR — rejected"
+ },
+ "Majestic Labs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "US (Los Altos CA) AI-hardware startup, but no EDGAR entity or Form D found as of Aug 2026"
+ },
+ "Speedata": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli; no EDGAR entity"
+ },
+ "Hailo": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli AI-chip co; only 'OurCrowd (Investment in Hailo) L.P.' feeder fund on EDGAR — rejected"
+ },
+ "H2Pro": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli; no EDGAR entity"
+ },
+ "Addionics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli/UK; no EDGAR entity"
+ },
+ "StoreDot": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli; no EDGAR entity under StoreDot/Store-Dot"
+ },
+ "AIR": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli eVTOL (airev.aero); no EDGAR entity — 'AIR EVAC SERVICES INC' unrelated"
+ },
+ "Arbe Robotics": {
+  "cik": "1861841",
+  "edgarName": "Arbe Robotics Ltd.",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "Israeli Nasdaq-listed (ARBE); files 20-F/6-K, no Form D"
+ },
+ "Innoviz Technologies": {
+  "cik": "1835654",
+  "edgarName": "Innoviz Technologies Ltd.",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "Israeli Nasdaq-listed (INVZ) via SPAC; files 20-F/6-K, no Form D"
+ },
+ "SpectralX": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli; no EDGAR entity"
+ },
+ "Space42": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UAE (ADX-listed, ex Bayanat/Yahsat); no EDGAR entity — only NPORT mentions in fund holdings"
+ },
+ "ADASI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UAE EDGE Group subsidiary; no EDGAR entity"
+ },
+ "HUMAIN": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Saudi PIF AI company; 'Humain Ventures Fund I LP' (2023784) and Decile SPV series (2039419) are unrelated Texas fund vehicles — rejected"
+ },
+ "Baykar": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Turkish; no EDGAR entity, only third-party filing mentions"
+ },
+ "Fergani Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Turkish; no EDGAR entity"
+ },
+ "Tritone Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli metal-AM co; no EDGAR entity"
+ },
+ "Ranovus": {
+  "cik": "1587491",
+  "edgarName": "Ranovus Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Ontario, Canada optical-interconnect co; multiple Form D filings"
+ },
+ "Nano One Materials": {
+  "cik": "1832498",
+  "edgarName": "Nano One Materials Corp.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "BC, Canada TSX-listed battery-materials co; has Form D"
+ },
+ "NordSpace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Canadian; no EDGAR entity"
+ },
+ "Canada Rocket Company": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Wyvern": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'Wyvern Medical Fund LP' (NY fund) on EDGAR — not the Edmonton EO company"
+ },
+ "Anyon Systems": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Mentioned in SPAC filings only; no issuer entity"
+ },
+ "Axibo AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Epic Aerospace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Summit Lithium Technologies": {
+  "cik": "1811807",
+  "edgarName": "Summit Nanotech Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Filed D under former name Summit Nanotech; A0 = Alberta matches Calgary HQ"
+ },
+ "Simera Sense": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only third-party mentions (Sidus Space)"
+ },
+ "CubeSpace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Stratek Global": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Terrahaptix": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Stark Defence": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Alpine Eagle": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Unrelated J-Long Group mentions only"
+ },
+ "Agile Robots": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only mentioned in NVIDIA filings"
+ },
+ "Reflex Aerospace": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Third-party mentions only"
+ },
+ "OroraTech": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Mentioned in Spire Global filings only"
+ },
+ "POLARIS Raumflugzeuge": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "constellr": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Morpheus Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "SPAC/third-party mentions only; no issuer entity or Form D"
+ },
+ "Gauss Fusion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Unrelated Bruker mentions only"
+ },
+ "Kipu Quantum": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Third-party mentions only"
+ },
+ "ParityQC": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Third-party mention only"
+ },
+ "AQT": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Alpine Quantum Technologies has no EDGAR entity; IonQ mentions are third-party"
+ },
+ "QuantumDiamonds": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Corintis": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Mentioned in Applied Digital filings only"
+ },
+ "Distalmotion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Third-party mentions only"
+ },
+ "Mimic Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "DeepDrive": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Baidu mentions are unrelated"
+ },
+ "Kraftblock": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Third-party mentions only"
+ },
+ "cylib": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Quantum Motion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Monumo": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "XMOS": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK chipmaker; no issuer entity, only unrelated mentions"
+ },
+ "Causaly": {
+  "cik": "1746737",
+  "edgarName": "Causaly, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Delaware inc, London business address (X0=UK) matches; multiple Form D filings"
+ },
+ "Vyoma": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Atmos Space Cargo": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Theion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Third-party mentions only"
+ },
+ "Neustark": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Mentioned in UBS/CEMEX filings only"
+ },
+ "Orbem": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Unrelated SPAC mentions only"
+ },
+ "Calogena": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Third-party mention only"
+ },
+ "Hexana": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Fossa Systems": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Unrelated mentions only (Wisekey, Momentus)"
+ },
+ "SpaceForest": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "RoboTwin": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Ukrspecsystems": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Draganfly mention only"
+ },
+ "Roboneers": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Cellcolabs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Third-party mentions only"
+ },
+ "Space Machines Company": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "HEO": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity for HEO Robotics/HEO Ltd"
+ },
+ "Manastu Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Kneron": {
+  "cik": "1723421",
+  "edgarName": "KNERON, INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "US company, San Diego CA; Form D filed 2018"
+ },
+ "Dream Security": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found under Dream Security; company search and full-text search return nothing relevant."
+ },
+ "Asterra": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli company; no EDGAR entity under Asterra or former name Utilis."
+ },
+ "Vention": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'Vention Medical Holdings, Inc.' (CO, medical devices) and a capital fund exist on EDGAR — neither is the Montreal industrial-automation company."
+ },
+ "Kraken Robotics": {
+  "cik": "1499289",
+  "edgarName": "Kraken Robotics Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Newfoundland (A4) filer with multiple Form Ds; TSXV-listed marine robotics company."
+ },
+ "Telesat Lightspeed": {
+  "cik": "1845840",
+  "edgarName": "Telesat Corp",
+  "confidence": "Medium",
+  "hasFormD": false,
+  "note": "Lightspeed is the LEO constellation of public parent Telesat Corp (NASDAQ: TSAT); no Form D. No separate Lightspeed issuer on EDGAR."
+ },
+ "AbCellera": {
+  "cik": "1703057",
+  "edgarName": "AbCellera Biologics Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "BC (A1) filer; pre-IPO Form Ds plus full public-company filings."
+ },
+ "Svante": {
+  "cik": "1959725",
+  "edgarName": "Svante Technologies Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "BC filer matching Burnaby carbon-capture company; two Form Ds."
+ },
+ "MineSense Technologies": {
+  "cik": "1571702",
+  "edgarName": "MINESENSE TECHNOLOGIES LTD.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "BC filer, six Form Ds."
+ },
+ "Hypernova Space Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "South African company; no EDGAR presence."
+ },
+ "SambaNova Systems": {
+  "cik": "1733073",
+  "edgarName": "SambaNova Systems, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA filer, four Form Ds."
+ },
+ "Credo Semiconductor": {
+  "cik": "1807794",
+  "edgarName": "Credo Technology Group Holding Ltd",
+  "confidence": "High",
+  "hasFormD": false,
+  "note": "Same company (San Jose HQ, Cayman holdco, NASDAQ: CRDO); public filings only, no Form D on this CIK."
+ },
+ "Polar Semiconductor": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "LLC (Sanken/Allegro JV, Bloomington MN); no own EDGAR entity — appears only inside Allegro Microsystems filings."
+ },
+ "Lightelligence": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found for the photonic-computing company."
+ },
+ "Scout AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only investor SPVs (Decisive Point/Gaingels/CGF2021 'Scout AI' vehicles) and unrelated Agriculture Scout AI, Inc.; no issuer entity for scoutco.ai."
+ },
+ "SiFly": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found."
+ },
+ "Hyfix": {
+  "cik": "2088360",
+  "edgarName": "HYFIX SPATIAL INTELLIGENCE Inc",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA filer, one Form D; name and Santa Clara GNSS/spatial-intelligence business line up."
+ },
+ "Red 6": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'Red 6 Aerospace Feb 2023 a Series of CGF2021 LLC' (investor SPV, CIK 1973545) exists — not the issuer; Red 6 Aerospace, Inc. itself has no CIK."
+ },
+ "Portal Space Systems": {
+  "cik": "2118171",
+  "edgarName": "Portal Space Systems Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "WA filer matching Bothell HQ; appears in Form D company search."
+ },
+ "Stratolaunch": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity for Stratolaunch/Stratolaunch Systems (Cerberus-owned, no Form D found)."
+ },
+ "Scout Space": {
+  "cik": "1861219",
+  "edgarName": "SCOUT Space Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "VA filer matching Reston HQ; two Form Ds."
+ },
+ "Persona AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only investor SPVs ('Persona AI Jan 2025 a Series of CGF2021 LLC', 'Persona AI Apr 2025 a Series of Kalea Ventures LLC'); no issuer entity."
+ },
+ "Reflex Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found (company search and full-text both empty)."
+ },
+ "Nimble Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found."
+ },
+ "Sunday Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found."
+ },
+ "Pivotal": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "All 'Pivotal' EDGAR hits are bioVenture funds/LPs or unrelated firms; no entity for the eVTOL company (pivotal.aero, formerly Opener) — 'Opener, Inc' also absent."
+ },
+ "Alef Aeronautics": {
+  "cik": "1904011",
+  "edgarName": "Alef Aeronautics Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA filer; Form D plus amendments."
+ },
+ "Tomorrow.io": {
+  "cik": "1684983",
+  "edgarName": "ClimaCell Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "ClimaCell is Tomorrow.io's former/legal name; MA filer with multiple Form Ds."
+ },
+ "Sofar Ocean": {
+  "cik": "1687943",
+  "edgarName": "SoFar Ocean Technologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA filer, many Form Ds."
+ },
+ "Ocean Infinity": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK-parented marine robotics group; no EDGAR entity found for the Austin operation."
+ },
+ "ICON": {
+  "cik": "1751463",
+  "edgarName": "ICON Technology, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "TX filer with Form Ds 2018-2025 matching the Austin 3D-printed-construction company; not the CA 'Icon Technology Partners, L.P.' fund."
+ },
+ "Brilliant Labs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Singapore company; no EDGAR entity."
+ },
+ "Xaira Therapeutics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No issuer entity; only 'JSL Xaira Coinvest, L.P.' (investor SPV) appears on EDGAR."
+ },
+ "Genesis Therapeutics": {
+  "cik": "1775819",
+  "edgarName": "Genesis Therapeutics, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA filer, three Form Ds."
+ },
+ "Nabla Bio": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found."
+ },
+ "Iambic Therapeutics": {
+  "cik": "1997038",
+  "edgarName": "Iambic Therapeutics, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA filer with Form Ds 2023-2026; the NY 'IAMBIC INC.' (CIK 1845678) is a different company."
+ },
+ "Rondo Energy": {
+  "cik": "1934222",
+  "edgarName": "Rondo Energy, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA filer matching Alameda thermal-battery company."
+ },
+ "Thea Energy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'Thea Energy B a Series of What If Ventures Master LLC' (investor SPV, CIK 2102886); no issuer entity for the NJ stellarator company, incl. former name Princeton Stellarators."
+ },
+ "Sila Nanotechnologies": {
+  "cik": "1530888",
+  "edgarName": "Sila Nanotechnologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA filer, many Form Ds."
+ },
+ "Realta Fusion": {
+  "cik": "1978452",
+  "edgarName": "Realta Fusion Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "WI filer matching Madison HQ; two Form Ds."
+ },
+ "Mitra Chem": {
+  "cik": "1887663",
+  "edgarName": "Mitra Future Technologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Mitra Chem's legal name; CA filer with four Form Ds, matches Mountain View HQ."
+ },
+ "Curio Solutions": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found for the DC nuclear-waste company."
+ },
+ "Nuclearn.ai": {
+  "cik": "1986230",
+  "edgarName": "Nuclearn Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "AZ filer matching Phoenix HQ; two Form Ds."
+ },
+ "Emerald AI": {
+  "cik": "2047797",
+  "edgarName": "Emerald AI, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DC filer with five Form Ds; Emerald AI is DC-headquartered (tracked Seattle location appears secondary)."
+ },
+ "Elementl Power": {
+  "cik": "2021861",
+  "edgarName": "Elementl Power Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Exact name, Form D May 2024; not 'Elementl, Inc.' (CA, CIK 1977783). MD address vs Greer SC listing — early-stage nuclear developer with multiple offices."
+ },
+ "Panthalassa": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'RNN Ventures Panthalassa' investor SPVs; no issuer entity for the Portland wave-energy company."
+ },
+ "BRINC Drones": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity under BRINC/Brinc Drones, Inc.; company/full-text searches empty."
+ },
+ "Lodge Systems": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Canadian company; no EDGAR entity."
+ },
+ "Until": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found for the cryopreservation startup (untilcryo.com); 'Until'-named searches return unrelated funds."
+ },
+ "Genesis AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found for the SF robotics-foundation-model startup."
+ },
+ "Arena AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found; 'Arena Technologies' full-text hits are unrelated CMBS filings."
+ },
+ "Windborne": {
+  "cik": "1979342",
+  "edgarName": "WindBorne Systems Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Sagence": {
+  "cik": "1735468",
+  "edgarName": "Analog Inference, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Sagence AI is the renamed Analog Inference (Santa Clara analog AI chips); EDGAR entity still under former name. 'Sagence Group, Inc.' (IL consulting) is NOT this company."
+ },
+ "Spiritus": {
+  "cik": "1991788",
+  "edgarName": "SPIRITUS TECHNOLOGIES, PBC",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DAC company, White Rock/Los Alamos NM"
+ },
+ "Caelux": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found under Caelux or variants; no Form D full-text hits"
+ },
+ "Echodyne": {
+  "cik": "1628751",
+  "edgarName": "Echodyne Corp.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Epsilon3": {
+  "cik": "1936216",
+  "edgarName": "Epsilon3, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Performance Drone Works": {
+  "cik": "2013958",
+  "edgarName": "PDW Holdings, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "PDW = Performance Drone Works brand; SIC 3721 Aircraft, Huntsville AL. Ignore 'PDW B 2026 Series of What If Ventures' SPV."
+ },
+ "Lumaril": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Cognichip": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'Cognichip Jan 2026 a Series of NewBuild VC SPV LLC' (CIK 2107455) exists — an SPV, not the issuer; company itself has no EDGAR entity"
+ },
+ "Looking Glass": {
+  "cik": "1655120",
+  "edgarName": "Looking Glass Factory Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Holographic display company, Brooklyn NY; legal name includes 'Factory'"
+ },
+ "Deep Sentinel": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only Jason's Syndicate series SPVs named Deep Sentinel on EDGAR; issuer itself never filed"
+ },
+ "LuxWall": {
+  "cik": "1931489",
+  "edgarName": "LuxWall, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Planted Solar": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity; no Form D full-text hits"
+ },
+ "Tempo": {
+  "cik": "1652492",
+  "edgarName": "Tempo Automation, Inc.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "Bare name is ambiguous (source location metadata corrupted); Tempo Automation (SF electronics mfg) is the plausible frontier-tech match. Public shell 'Tempo Automation Holdings' (CIK 1813658) and various Tempo funds are NOT it."
+ },
+ "Cambium": {
+  "cik": "1857501",
+  "edgarName": "Cambium Carbon PBC",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "Matches the reclaimed-wood startup Cambium (fka Cambium Carbon); EDGAR business address Albuquerque NM vs commonly reported Baltimore/DC HQ — corroboration thin"
+ },
+ "Terra Industries": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only CGF2021 series SPVs named 'Terra Industries'; CIK 722079 TERRA INDUSTRIES INC is a defunct agriculture-chemicals public co, NOT a match"
+ },
+ "Wispr AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'Wispr I a Series of Republic Deal Room' SPV; issuer has no EDGAR entity (WISPRY INC is unrelated MEMS co)"
+ },
+ "AIM Intelligent Machines": {
+  "cik": "2052192",
+  "edgarName": "AIM Intelligent Machines, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Fulfil": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity for Fulfil/Fulfil Solutions (grocery robotics); Fulfilld Corp etc. are unrelated"
+ },
+ "Unconventional AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'Unconventional AI X T1V Mar 2026 a Series of CGF2021 LLC' SPV; issuer has no EDGAR entity"
+ },
+ "Sunflower Labs": {
+  "cik": "1876339",
+  "edgarName": "Sunflower Labs Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "JITX": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity; no full-text hits"
+ },
+ "Keen Technologies": {
+  "cik": "1945305",
+  "edgarName": "Keen Technologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Dallas TX, matches Carmack's AGI company"
+ },
+ "Nuvacore": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity; no full-text hits"
+ },
+ "Halo": {
+  "cik": "2022295",
+  "edgarName": "Halo Industries, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Halo Industries, Santa Clara laser wafering; prefer Inc over the 'Halo Industries PML SPV' LPs"
+ },
+ "ISEE": {
+  "cik": "1716222",
+  "edgarName": "iSee, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Autonomous trucking, Cambridge MA"
+ },
+ "Mojo Vision": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only SPVs (VUVP Fund series, Keymaker SPVs) reference Mojo Vision; the issuer itself has no EDGAR entity"
+ },
+ "Alpha School": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity"
+ },
+ "Sierra Space": {
+  "cik": "1899675",
+  "edgarName": "Sierra Space Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "CesiumAstro": {
+  "cik": "1707363",
+  "edgarName": "CesiumAstro Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Ignore 'CesiumAstro ... Series of Node Master LLC' SPVs"
+ },
+ "JetZero": {
+  "cik": "1952923",
+  "edgarName": "JetZero, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "X-Bow Systems": {
+  "cik": "1926742",
+  "edgarName": "X-Bow Launch Systems Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Lyten": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only SPVs (Lyten PML SPV 1 LP, RSM Lyten II, IGC Lyten series, InvestX Series LytEn) on EDGAR; Lyten, Inc. itself has no CIK"
+ },
+ "Vulcan Elements": {
+  "cik": "2125775",
+  "edgarName": "Vulcan Elements Holdings Corp.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Durham NC, most recent Form D (Apr 2026). Earlier operating entity VULCAN ELEMENTS INC. (CIK 2005797, Cambridge MA, Ds 2023-2025) is the same company pre-reorg; ignore CGF2021 SPVs."
+ },
+ "Xona Space Systems": {
+  "cik": "1920779",
+  "edgarName": "Xona Space Systems Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Electra.aero": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity for Electra Aero (Manassas VA); the many 'Electra' filers (REITs, therapeutics, battery materials) are unrelated"
+ },
+ "Loft Orbital": {
+  "cik": "1716900",
+  "edgarName": "LOFT ORBITAL SOLUTIONS INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Ignore 'LOFT ORBITAL A SERIES OF ZAG CAPITAL MASTER' SPV"
+ },
+ "Compound Eye": {
+  "cik": "1702923",
+  "edgarName": "Compound Eye Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "ThinkOrbital": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only 'Think Orbital Pre-Seed, a series of Type One Ventures Syndicate LLC' SPV; issuer has no EDGAR entity"
+ },
+ "Viken Detection": {
+  "cik": "1596224",
+  "edgarName": "Viken Detection Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Havoc AI": {
+  "cik": "2037252",
+  "edgarName": "HavocAI Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "EDGAR business address MA; company operates from Boston/Providence"
+ },
+ "Noveon Magnetics": {
+  "cik": "1653598",
+  "edgarName": "Urban Mining Co",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Noveon Magnetics fka Urban Mining Company, San Marcos TX; EDGAR entity still under former name. Do NOT match the old NOVEON INC chemicals companies."
+ },
+ "Code Metal": {
+  "cik": "2001452",
+  "edgarName": "Code Metal, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": ""
+ },
+ "Project Omega": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity; no full-text hits"
+ },
+ "9 Mothers": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity under '9 Mothers' or 'Nine Mothers'"
+ },
+ "Albacore": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "All EDGAR 'AlbaCore' entities are AlbaCore Capital credit funds/ICAVs — NOT the Philadelphia startup (albacore.inc)"
+ },
+ "American Housing Corporation": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only CGF2021 series SPVs named for it; 'American Housing REIT Inc.' and 'American Housing Impact Fund' are unrelated; issuer has no own CIK"
+ },
+ "Bohr Systems": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity; 'Bohr Arbitrage Crypto Fund, L.P.' is unrelated"
+ },
+ "Heaviside": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity (only an individual filer named Heaviside)"
+ },
+ "Maglut Heavy Industries": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity; no full-text hits"
+ },
+ "Mesh Optical Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found under any name variant"
+ },
+ "Periodic Labs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only SPV feeder (AGC Wealt Periodic Labs I, a Series of AGC AI Nexus Fund LLC) — not the issuer"
+ },
+ "Western Chemicals": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Zephyr Fusion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Lace Lithography": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Norwegian company; no US filings"
+ },
+ "Citra Space Corporation": {
+  "cik": "2130482",
+  "edgarName": "Citra Space Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CO location matches Colorado Springs HQ; DE incorporated"
+ },
+ "Star Catcher": {
+  "cik": "2136299",
+  "edgarName": "Star Catcher Industries Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "FL matches Jacksonville HQ; ignored VUVP Fund SPV"
+ },
+ "Union": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No plausible EDGAR entity; only credit unions and unrelated 'Union, Inc.' filers"
+ },
+ "Swan": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found for swan.tech under any variant"
+ },
+ "Volund Manufacturing": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only SPV (Cyrus Volund SPV, a Series of JDY Holdings LLC) — not the issuer"
+ },
+ "Foundry Robotics": {
+  "cik": "2108196",
+  "edgarName": "Foundry Robotics Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA matches SF HQ; DE incorporated"
+ },
+ "Odin Dynamics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only SPV (Odin Dynamics Jan 2026, a Series of CGF2021 LLC) — not the issuer itself"
+ },
+ "Mind Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only SPV (Garuda Ventures Mind Robotics, a Series of CGF2021 LLC)"
+ },
+ "Vector Defense": {
+  "cik": "2067621",
+  "edgarName": "Vector Defense, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "UT matches Salt Lake City HQ; DE incorporated"
+ },
+ "Westmag": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Voya Energy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only Voya Energy Infrastructure Credit Fund LPs — credit funds, explicitly not matches"
+ },
+ "Inertia Enterprises": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "World Labs": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Argus/One/IOT World Labs are unrelated; no entity for the Fei-Fei Li company"
+ },
+ "Foxglove": {
+  "cik": "1896614",
+  "edgarName": "Foxglove Technologies Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA matches SF HQ; robotics dev-tools company legal name"
+ },
+ "BlackSea Technologies": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Blacksea Marine Inc. (foreign, J3) is unrelated; no matching filer"
+ },
+ "CuspAI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "UK company; no US filings"
+ },
+ "HawkEye 360": {
+  "cik": "1750704",
+  "edgarName": "HawkEye 360, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "VA matches Herndon HQ; multiple Form Ds plus recent DRS"
+ },
+ "Strata Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Orbital Operations": {
+  "cik": "2054774",
+  "edgarName": "Orbital Operations Inc",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA matches Long Beach HQ; DE incorporated"
+ },
+ "Orbital Inc.": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Reflect/Alba/Power Orbital are different companies; no plain 'Orbital Inc.' LA filer"
+ },
+ "Sift Stack": {
+  "cik": "2042875",
+  "edgarName": "Sift Stack, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA matches Marina Del Rey HQ; DE incorporated"
+ },
+ "Cape": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No plausible EDGAR entity for cape.co (Arlington, VA)"
+ },
+ "Lambda": {
+  "cik": "1954966",
+  "edgarName": "Lambda, Inc./DE",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA location matches San Jose GPU-cloud company; legal name Lambda, Inc.; BloomTech (ex-Lambda School) and Red Lambda excluded"
+ },
+ "NODA AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Origin Charlotte NoDa DST is a real-estate trust — not a match"
+ },
+ "TurbineOne": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Onebrief": {
+  "cik": "1888809",
+  "edgarName": "Onebrief, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "HI matches Honolulu HQ"
+ },
+ "DEFCON AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Breaker Industries": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Scale AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only HII Scale AI SPV feeders; no 'Scale AI, Inc.' issuer entity on EDGAR"
+ },
+ "Together AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only SPV feeders (AGC/ID8/Riviera Together AI); Get Together AI, Inc. is a different company"
+ },
+ "Maritime Fusion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Atmo": {
+  "cik": "2049448",
+  "edgarName": "Atmo, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "CA matches SF HQ; exact legal-name match"
+ },
+ "Integrate": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No entity under Integrate.io, Integrate Inc, or former name Xplenty"
+ },
+ "Gallatin AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Gallatin-named Form D filers are unrelated (agritourism, holdings LLCs)"
+ },
+ "Kelluu": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Finnish company; no US filings"
+ },
+ "Reflection AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only SPV feeders (HII/ID8/CGF2021 series); no Reflection AI, Inc. issuer entity"
+ },
+ "Sygaldry Technologies": {
+  "cik": "2125374",
+  "edgarName": "Sygaldry Technologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "MI matches Ann Arbor HQ; SPV feeders excluded"
+ },
+ "Stardust Solutions": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli company; no US filings; unrelated Stardust filers excluded"
+ },
+ "Govini": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Vermeer": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Vermeer Global Partners / Weather Fund are investment vehicles, not the Brooklyn defense-tech company"
+ },
+ "Foundation Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity under Foundation Robotics or Foundation Robotics Labs"
+ },
+ "Perennial Autonomy": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found"
+ },
+ "Anello Photonics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Anellotech, Inc. (NY biofuels) is unrelated; no Anello Photonics filer"
+ },
+ "Hybron": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only SPV feeders (Gaingels Hybron LLC, CGF2021 series) — not the issuer"
+ },
+ "Onodrim Industries": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Dutch company; no US filings"
+ },
+ "Interlune": {
+  "cik": "1942463",
+  "edgarName": "Interlune Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Seattle WA biz address. Ignored 'INTERLUNE A SERIES OF VUVP FUND LLC' (SPV, TX)."
+ },
+ "Phantom Space": {
+  "cik": "1824296",
+  "edgarName": "Phantom Space Corp",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Tucson AZ. Ignored Caravela SPV."
+ },
+ "Ethos Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No matching entity; 'Ethos Astra/Airtable' etc. are unrelated SF fund SPVs."
+ },
+ "Black Forest Labs": {
+  "cik": "2109710",
+  "edgarName": "Black Forest Labs Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, business address Freiburg im Breisgau — the German company filed a US Form D."
+ },
+ "Cartesia": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only SPVs ('Cartesia AI Apr 2024 a Series of CGF2021 LLC') and unrelated 'Tadpole Cartesia'; the operating company has no CIK."
+ },
+ "Sereact": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "German company; no EDGAR entity."
+ },
+ "Dyna Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only an SPV (Umami Capital Dyna Robotics series of CGF2021 LLC); operating company has no CIK."
+ },
+ "Archetype AI": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found."
+ },
+ "Nth Cycle": {
+  "cik": "1831650",
+  "edgarName": "Nth Cycle Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Burlington MA — exact HQ match. Ignored Besimi Ventures SPV."
+ },
+ "Shine Technologies": {
+  "cik": "1514300",
+  "edgarName": "SHINE Medical Technologies, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Janesville WI; EDGAR still shows pre-rename name SHINE Medical Technologies (company rebranded to SHINE Technologies)."
+ },
+ "DG Matrix": {
+  "cik": "2059108",
+  "edgarName": "DG Matrix Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "Cary NC (HQ Morrisville, adjacent), DE inc."
+ },
+ "Magrathea Metals": {
+  "cik": "1918019",
+  "edgarName": "Magrathea Metals Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, SF Bay Area (HQ Oakland). Ignored CGF2021 SPV."
+ },
+ "SandboxAQ": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "9 Form D hits are all secondary/feeder SPVs (Hiive, HII, Parkway, NV, Barramundi); SandboxAQ itself has no CIK."
+ },
+ "Portal Biotech": {
+  "cik": "2049466",
+  "edgarName": "Portal Biotechnologies, Inc.",
+  "confidence": "Medium",
+  "hasFormD": true,
+  "note": "DE inc, Arlington MA; company is London-based — MA entity is plausibly its US parent/arm (name equivalence strong, geography thin)."
+ },
+ "Singularity": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No El Segundo CA entity; all 'Singularity' filers are unrelated (Education Group, Energy, funds, SPVs, Chinese SPAC)."
+ },
+ "Traysar": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found."
+ },
+ "Walden Robotics": {
+  "cik": "2144409",
+  "edgarName": "WALDEN ROBOTICS, INC.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Cambridge MA — exact match."
+ },
+ "TerraFirma": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "All 'Terra Firma' filers are unrelated (MN coop, Guernsey capital funds, PA gas co); no Austin TX entity."
+ },
+ "Blue Energy": {
+  "cik": "2130865",
+  "edgarName": "Blue Energy Global Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Chevy Chase MD — exact HQ city match; Form D May 2026. Other 'Blue Energy' filers are unrelated fuels/HK entities."
+ },
+ "Rebellions": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "South Korean chipmaker; no EDGAR entity."
+ },
+ "UFORCE": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Only New Vista Capital SPVs named UFORCE; UK company itself has no CIK."
+ },
+ "Eclipse Space": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity under Eclipse Space/Eclipse Industries."
+ },
+ "Gritt": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found."
+ },
+ "INTALUS": {
+  "cik": "2109350",
+  "edgarName": "Intalus, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, West Lafayette IN — exact HQ match; Form D May 2026."
+ },
+ "Oxide Computer Company": {
+  "cik": "1795071",
+  "edgarName": "Oxide Computer Co",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Oakland CA (HQ Emeryville, adjacent); latest Form D Aug 2026."
+ },
+ "TrustPoint": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Herndon VA GPS company not on EDGAR; TrustPoint Translations/International/Investors are unrelated GA/IL firms."
+ },
+ "ForSight Robotics": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Israeli company; no EDGAR entity."
+ },
+ "Atoms": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "All 'Atoms' filers are funds/SPVs or unrelated (Atoms VC LP, Atoms and Bits series, ATOMS Movie LLC); no LA operating company."
+ },
+ "Generalist AI": {
+  "cik": "2137708",
+  "edgarName": "Generalist AI, Inc.",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, San Francisco CA (HQ San Mateo, same metro); Form D Jun 2026."
+ },
+ "Skapion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found."
+ },
+ "Enigma": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "Enigma Technologies Inc (CIK 1547343) is the NYC data company, not the SF enigma.inc; other hits are funds/real-estate. No match."
+ },
+ "Itera": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No SF entity; hits are Iterable/Iterate/Iterative etc., all different companies."
+ },
+ "MATERIAL": {
+  "cik": "2099413",
+  "edgarName": "Material Hybrid Manufacturing Inc",
+  "confidence": "High",
+  "hasFormD": true,
+  "note": "DE inc, Miami FL — exact HQ match; Form D Dec 2025."
+ },
+ "Flamefront Propulsion": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No EDGAR entity found."
+ },
+ "Nudge": {
+  "cik": "",
+  "edgarName": "",
+  "confidence": "None",
+  "hasFormD": false,
+  "note": "No SF neurotech entity; Nudge Capital/Coach/Investors/LLC are all unrelated businesses elsewhere."
+ }
+}
