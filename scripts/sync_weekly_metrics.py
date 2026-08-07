@@ -461,11 +461,15 @@ def load_innov_scores():
         r'\s*note:\s*"((?:[^"\\]|\\.)*)"\s*\}',
         block,
     ):
-        rows[m.group(1)] = {
+        # Unescape captured JS-string content so the esc() writer round-trips
+        # idempotently (raw capture kept \-sequences, esc() re-escaped them,
+        # doubling backslashes on every weekly run — the 2^17 backslash bomb).
+        _unesc = lambda t: re.sub(r'\\(.)', r'\1', t)
+        rows[_unesc(m.group(1))] = {
             "techMoat": int(m.group(2)), "momentum": int(m.group(3)),
             "teamPedigree": int(m.group(4)), "marketGravity": int(m.group(5)),
             "capitalEfficiency": int(m.group(6)), "govTraction": int(m.group(7)),
-            "composite": float(m.group(8)), "tier": m.group(9), "note": m.group(10),
+            "composite": float(m.group(8)), "tier": m.group(9), "note": _unesc(m.group(10)),
         }
     return rows, (i, end)
 

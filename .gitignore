@@ -22,3 +22,8 @@ supabase/.temp/
 # ── Raw-data blobs (regenerable per run, excluded from repo) ──
 data/export_controls_raw.json
 data/form_d_filings_raw.json
+data/cold_email_*.json
+ROS_TOP100_COLD_EMAIL_TARGETS.md
+ROS_FUND_TOP100.md
+ROS_FUND_STRETCH50.md
+US_TRIP_*.md
