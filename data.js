@@ -39135,17 +39135,17 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-07 17:53
+// Last updated: 2026-08-07 19:07
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "SpaceX", headline: "SpaceX's Terafab will rely on natural gas power plants, not Tesla solar panels", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Humanoid", headline: "Mitsubishi joins the humanoid robot race ' at a 1,000 unit per month pace", source: "Electrek", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Waymo", headline: "Waymo Jacks Up Lobbying In Washington, DC", source: "CleanTechnica", time: "15h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "Zoox", headline: "Zoox To Start Charging Passengers Next Week", source: "CleanTechnica", time: "16h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI's new AI smart speaker will reportedly sell for between $300 and $400", source: "TechCrunch", time: "19h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "GrayMatter Robotics", headline: "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics", source: "The Robot Report", time: "21h ago", impact: "medium", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "ICE's DNA Collection Increases, SpaceX's Rocket Crashes Into the Moon, and the AI Backlash Grows", source: "Wired", time: "22h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Hadrian", headline: "Defense tech Hadrian raises $1.37B at $8B valuation", source: "TechCrunch", time: "22h ago", impact: "high", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX Pays Off a Data Center in 9 Months", source: "Next Big Future", time: "23h ago", impact: "low", unread: false },
+  { id: 1, type: "hire", company: "SpaceX", headline: "SpaceX's Terafab will rely on natural gas power plants, not Tesla solar panels", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Humanoid", headline: "Mitsubishi joins the humanoid robot race ' at a 1,000 unit per month pace", source: "Electrek", time: "6h ago", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Waymo", headline: "Waymo Jacks Up Lobbying In Washington, DC", source: "CleanTechnica", time: "16h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Zoox", headline: "Zoox To Start Charging Passengers Next Week", source: "CleanTechnica", time: "17h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI's new AI smart speaker will reportedly sell for between $300 and $400", source: "TechCrunch", time: "20h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "GrayMatter Robotics", headline: "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics", source: "The Robot Report", time: "22h ago", impact: "medium", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "ICE's DNA Collection Increases, SpaceX's Rocket Crashes Into the Moon, and the AI Backlash Grows", source: "Wired", time: "23h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Hadrian", headline: "Defense tech Hadrian raises $1.37B at $8B valuation", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX Pays Off a Data Center in 9 Months", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "hire", company: "SpaceX", headline: "Tesla, SpaceX confirm 'Terafab' chip fab site ' $16.8B first phase", source: "Electrek", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "contract", company: "SpaceX", headline: "Officials hedge SpaceX aircraft-tracking satellite bet with three smaller company contracts", source: "Defense One", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "news", company: "Deterrence", headline: "Does Latent Nuclear Deterrence Really Work?", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
