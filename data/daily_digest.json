@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-06T15:21:37.955786+00:00",
-  "date": "2026-08-06",
-  "dateDisplay": "Thursday, August 06, 2026",
+  "generatedAt": "2026-08-07T00:09:53.851052+00:00",
+  "date": "2026-08-07",
+  "dateDisplay": "Friday, August 07, 2026",
   "sections": {
     "govActivity": [
       {
@@ -81,44 +81,23 @@
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 5.25,
-        "changePercent": 50.57,
-        "change": 1.76
-      },
-      {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 489500.0,
-        "changePercent": 31.23,
-        "change": 116500.0
+        "price": 5.04,
+        "changePercent": 44.41,
+        "change": 1.55
       },
       {
         "ticker": "PLTR",
         "company": "Palantir",
-        "price": 156.79,
-        "changePercent": 28.24,
-        "change": 34.53
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 73.92,
-        "changePercent": 26.49,
-        "change": 15.48
+        "price": 155.92,
+        "changePercent": 27.53,
+        "change": 33.66
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 15.24,
-        "changePercent": 24.45,
-        "change": 2.99
-      },
-      {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 79.75,
-        "changePercent": 23.3,
-        "change": 15.07
+        "price": 14.93,
+        "changePercent": 21.88,
+        "change": 2.68
       },
       {
         "ticker": "DRSHF",
@@ -128,10 +107,31 @@
         "change": 0.25
       },
       {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 75.67,
+        "changePercent": 16.99,
+        "change": 10.99
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 67.36,
+        "changePercent": 15.26,
+        "change": 8.92
+      },
+      {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 6.35,
-        "changePercent": 18.47,
+        "price": 6.13,
+        "changePercent": 14.37,
+        "change": 0.77
+      },
+      {
+        "ticker": "JOBY",
+        "company": "Joby Aviation",
+        "price": 8.23,
+        "changePercent": 13.67,
         "change": 0.99
       }
     ],
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "SATL +50.6%"
+    "topMover": "SATL +44.4%"
   }
 }
