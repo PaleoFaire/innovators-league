@@ -87395,23 +87395,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-07 00:09
+// Last updated: 2026-08-07 03:55
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI's new AI smart speaker will reportedly sell for between $300 and $400", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "GrayMatter Robotics", headline: "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics", source: "The Robot Report", time: "3h ago", impact: "medium", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "ICE's DNA Collection Increases, SpaceX's Rocket Crashes Into the Moon, and the AI Backlash Grows", source: "Wired", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Hadrian", headline: "Defense tech Hadrian raises $1.37B at $8B valuation", source: "TechCrunch", time: "5h ago", impact: "high", unread: true },
-  { id: 5, type: "hire", company: "SpaceX", headline: "Tesla, SpaceX confirm 'Terafab' chip fab site ' $16.8B first phase", source: "Electrek", time: "7h ago", impact: "low", unread: true },
-  { id: 6, type: "contract", company: "SpaceX", headline: "Officials hedge SpaceX aircraft-tracking satellite bet with three smaller company contracts", source: "Defense One", time: "8h ago", impact: "low", unread: false },
-  { id: 7, type: "hire", company: "SpaceX", headline: "Tesla and SpaceX will invest $16.8B to start building 'Terafab' chip factory in Texas", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "OpenAI", headline: "OpenAI says Apple's own security practices undermine its trade secrets case", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Deterrence", headline: "Does Latent Nuclear Deterrence Really Work?", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
-  { id: 10, type: "hire", company: "Oklo", headline: "Nuclear startup Oklo splits its first atoms in test reactor", source: "Canary Media", time: "11h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches 8th iQPS satellite", source: "SpaceNews", time: "12h ago", impact: "medium", unread: false },
-  { id: 12, type: "milestone", company: "Modal", headline: "New York-headquartered AI startup Modal Labs to open London office", source: "Tech.eu", time: "16h ago", impact: "low", unread: false },
-  { id: 13, type: "hire", company: "Wayve", headline: "Wayve &#038; Uber Can Now Deploy Robotaxis in London", source: "CleanTechnica", time: "23h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "OpenAI Didn't Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree", source: "Wired", time: "23h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "OpenAI", headline: "OpenAI's Browser Could Be Hijacked to Spam Your WhatsApp Contacts", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "Waymo", headline: "Waymo Jacks Up Lobbying In Washington, DC", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Zoox", headline: "Zoox To Start Charging Passengers Next Week", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI's new AI smart speaker will reportedly sell for between $300 and $400", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "GrayMatter Robotics", headline: "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics", source: "The Robot Report", time: "7h ago", impact: "medium", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "ICE's DNA Collection Increases, SpaceX's Rocket Crashes Into the Moon, and the AI Backlash Grows", source: "Wired", time: "8h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Hadrian", headline: "Defense tech Hadrian raises $1.37B at $8B valuation", source: "TechCrunch", time: "8h ago", impact: "high", unread: false },
+  { id: 7, type: "hire", company: "SpaceX", headline: "Tesla, SpaceX confirm 'Terafab' chip fab site ' $16.8B first phase", source: "Electrek", time: "11h ago", impact: "low", unread: false },
+  { id: 8, type: "contract", company: "SpaceX", headline: "Officials hedge SpaceX aircraft-tracking satellite bet with three smaller company contracts", source: "Defense One", time: "11h ago", impact: "low", unread: false },
+  { id: 9, type: "hire", company: "SpaceX", headline: "Tesla and SpaceX will invest $16.8B to start building 'Terafab' chip factory in Texas", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "OpenAI", headline: "OpenAI says Apple's own security practices undermine its trade secrets case", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Deterrence", headline: "Does Latent Nuclear Deterrence Really Work?", source: "War on the Rocks", time: "12h ago", impact: "low", unread: false },
+  { id: 12, type: "hire", company: "Oklo", headline: "Nuclear startup Oklo splits its first atoms in test reactor", source: "Canary Media", time: "15h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches 8th iQPS satellite", source: "SpaceNews", time: "16h ago", impact: "medium", unread: false },
+  { id: 14, type: "milestone", company: "Modal", headline: "New York-headquartered AI startup Modal Labs to open London office", source: "Tech.eu", time: "20h ago", impact: "low", unread: false },
+  { id: 15, type: "hire", company: "Wayve", headline: "Wayve &#038; Uber Can Now Deploy Robotaxis in London", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
