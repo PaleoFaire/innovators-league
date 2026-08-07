@@ -1,7 +1,7 @@
 name: Scheduled Verification (companies + investors)
 
 # Recurring fact-check pipeline driven by cadence:
-#   Daily  06:00 UTC = 10:00 AGT — news-triggered re-verify (entities mentioned in last 24h)
+#   Daily  05:00 UTC = 09:00 AGT — news-triggered re-verify (entities mentioned in last 24h)
 #   Weekly Mon 07:00 UTC          — hot-tier sweep (signal=hot/rising firms; recently funded cos)
 #   Monthly 1st 08:00 UTC         — full sweep of all entities
 #
@@ -27,8 +27,8 @@ on:
         description: 'Max items per entity'
         default: '95'
   schedule:
-    # 6 AM UTC daily
-    - cron: '0 6 * * *'
+    # 5 AM UTC daily (moved off 06:00 to stagger the cron pileup with daily-data-sync)
+    - cron: '0 5 * * *'
     # 7 AM UTC every Monday
     - cron: '0 7 * * 1'
     # 8 AM UTC on the 1st of each month
@@ -55,6 +55,18 @@ jobs:
         with: { python-version: '3.11' }
       - run: pip install requests anthropic
 
+      # The verifier's URL cache used to be committed to the repo (2.4 MB).
+      # It's now gitignored; persist it across runs via actions/cache.
+      # Rolling key: each run saves under a fresh key, and restore-keys
+      # picks up the newest cache for this verifier-script version.
+      - name: Restore company-facts URL cache
+        uses: actions/cache@v4
+        with:
+          path: data/.company_facts_url_cache.json
+          key: company-facts-url-cache-${{ hashFiles('scripts/verify_company_facts.py') }}-${{ github.run_id }}
+          restore-keys: |
+            company-facts-url-cache-${{ hashFiles('scripts/verify_company_facts.py') }}-
+
       - name: Configure Git
         run: |
           git config user.name "TIL Data Bot"
@@ -69,7 +81,7 @@ jobs:
             LIMIT="${{ github.event.inputs.limit }}"
           else
             case "${{ github.event.schedule }}" in
-              "0 6 * * *")    MODE="daily" ;;
+              "0 5 * * *")    MODE="daily" ;;
               "0 7 * * 1")    MODE="weekly" ;;
               "0 8 1 * *")    MODE="monthly" ;;
               *)              MODE="daily" ;;

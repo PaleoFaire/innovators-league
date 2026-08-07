@@ -83,11 +83,41 @@ def load_js_object(filename, const_name):
         return {}
 
 
+def _companies_block(content):
+    """Return the text inside the COMPANIES array only, using string-aware
+    bracket matching (same approach as sync_weekly_metrics.load_companies).
+    Falls back to the full content if the array can't be located."""
+    start = content.find("const COMPANIES = [")
+    if start == -1:
+        return content
+    i = content.find("[", start)
+    depth = 0; in_str = False; sq = None; esc = False
+    for k in range(i, len(content)):
+        c = content[k]
+        if esc: esc = False; continue
+        if c == "\\" and in_str: esc = True; continue
+        if in_str:
+            if c == sq: in_str = False
+            continue
+        if c in "\"'": in_str = True; sq = c; continue
+        if c == "[": depth += 1
+        elif c == "]":
+            depth -= 1
+            if depth == 0:
+                return content[i + 1:k]
+    return content
+
+
 def get_company_names():
     """Extract all company names from data.js COMPANIES array."""
     companies = []
     with open(DATA_JS_PATH) as f:
         content = f.read()
+    # Bound the scan to the COMPANIES array ONLY — a whole-file scan also
+    # matches name: fields in COMMUNITY_TIERS / SLACK_CHANNELS /
+    # COMMUNITY_EVENTS / VC_FIRMS, which then get scored as companies
+    # (e.g. "general", "Founder Tier", "ROS Summit 2026").
+    content = _companies_block(content)
     # Find all name: "..." in COMPANIES
     for match in re.finditer(r'name:\s*"([^"]+)"', content):
         name = match.group(1)
@@ -185,7 +215,7 @@ def get_curated_scores():
     for entry in re.finditer(
         r'company:\s*"([^"]+)"[^}]*?techMoat:\s*(\d+)[^}]*?momentum:\s*(\d+)[^}]*?'
         r'teamPedigree:\s*(\d+)[^}]*?marketGravity:\s*(\d+)[^}]*?capitalEfficiency:\s*(\d+)[^}]*?'
-        r'govTraction:\s*(\d+)[^}]*?composite:\s*([\d.]+)[^}]*?tier:\s*"([^"]+)"[^}]*?note:\s*"([^"]*)"',
+        r'govTraction:\s*(\d+)[^}]*?composite:\s*([\d.]+)[^}]*?tier:\s*"([^"]+)"[^}]*?note:\s*"((?:[^"\\]|\\.)*)"',
         block
     ):
         curated[entry.group(1)] = {
@@ -198,7 +228,9 @@ def get_curated_scores():
             "govTraction": int(entry.group(7)),
             "composite": float(entry.group(8)),
             "tier": entry.group(9),
-            "note": entry.group(10),
+            # Unescape JS-string content (\" → ", \\ → \) so downstream
+            # writers don't re-escape already-escaped sequences.
+            "note": re.sub(r'\\(.)', r'\1', entry.group(10)),
         }
     return curated
 

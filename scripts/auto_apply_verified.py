@@ -123,12 +123,43 @@ def has_doubt(notes):
     return is_tier1_doubt(notes)
 
 
+def _companies_span(src):
+    """Return (start, end) character offsets of the COMPANIES array contents,
+    using string-aware bracket matching (same approach as
+    sync_weekly_metrics.load_companies). Falls back to the whole file if the
+    array can't be located."""
+    start = src.find("const COMPANIES = [")
+    if start == -1:
+        return 0, len(src)
+    i = src.find("[", start)
+    depth = 0; in_str = False; sq = None; esc = False
+    for k in range(i, len(src)):
+        c = src[k]
+        if esc: esc = False; continue
+        if c == "\\" and in_str: esc = True; continue
+        if in_str:
+            if c == sq: in_str = False
+            continue
+        if c in "\"'": in_str = True; sq = c; continue
+        if c == "[": depth += 1
+        elif c == "]":
+            depth -= 1
+            if depth == 0:
+                return i + 1, k
+    return 0, len(src)
+
+
 def find_object(src, name):
-    """Locate a company entry in data.js. Returns (open_pos, close_pos) or None."""
+    """Locate a company entry in the data.js COMPANIES array. Returns
+    (open_pos, close_pos) or None. Bounded to the COMPANIES span so a
+    same-named entry in COMMUNITY_* / VC_FIRMS blocks (which precede
+    COMPANIES) can never be patched by mistake."""
+    span_start, span_end = _companies_span(src)
     nm = re.escape(name)
-    m = re.search(rf'name:\s*"{nm}"', src)
+    m = re.search(rf'name:\s*"{nm}"', src[span_start:span_end])
     if not m: return None
-    open_pos = src.rfind('{', 0, m.start())
+    open_pos = src.rfind('{', span_start, span_start + m.start())
+    if open_pos == -1: return None
     depth = 0
     in_str = False
     str_q = None

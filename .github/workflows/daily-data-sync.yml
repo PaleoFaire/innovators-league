@@ -15,7 +15,6 @@ jobs:
   sync-sec-filings:
     name: Sync SEC Filings
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -44,7 +43,6 @@ jobs:
   sync-gov-contracts:
     name: Sync Government Contracts
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -73,7 +71,6 @@ jobs:
   sync-news:
     name: Sync News Signals
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -235,7 +232,21 @@ jobs:
               echo "Rebase failed on attempt $attempt; aborting"
               git rebase --abort 2>/dev/null || true
             }
-            git stash pop 2>/dev/null || true
+            # ── STASH-POP HEALING (ported from comprehensive-data-sync) ──
+            # A plain `git stash pop || true` silently dropped the day's
+            # merge output whenever the pop conflicted (e.g. hourly-news-sync
+            # pushed to data.js mid-run). Instead: detect the pop failure,
+            # drop the stash, reset any conflicted files to rebased main,
+            # and regenerate data.js from inputs via merge_data.py —
+            # data.js is DERIVED, so regeneration is always safe.
+            if ! git stash pop 2>/dev/null; then
+              if git stash list | grep -q .; then
+                echo "::warning::git stash pop conflicted on attempt $attempt — dropping stash and re-running merge_data.py against rebased main"
+                git stash drop 2>/dev/null || true
+                git diff --name-only --diff-filter=U | xargs -r git checkout HEAD --
+                python scripts/merge_data.py
+              fi
+            fi
             git add data.js data/ 2>/dev/null || true
             if git diff --staged --quiet; then
               echo "No changes to commit on attempt $attempt."

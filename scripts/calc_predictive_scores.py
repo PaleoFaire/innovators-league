@@ -28,10 +28,41 @@ def load_json(filename):
     return []
 
 
+def _companies_block(content):
+    """Return the text inside the COMPANIES array only, using string-aware
+    bracket matching (same approach as sync_weekly_metrics.load_companies).
+    Falls back to the full content if the array can't be located."""
+    start = content.find("const COMPANIES = [")
+    if start == -1:
+        return content
+    i = content.find("[", start)
+    depth = 0; in_str = False; sq = None; esc = False
+    for k in range(i, len(content)):
+        c = content[k]
+        if esc: esc = False; continue
+        if c == "\\" and in_str: esc = True; continue
+        if in_str:
+            if c == sq: in_str = False
+            continue
+        if c in "\"'": in_str = True; sq = c; continue
+        if c == "[": depth += 1
+        elif c == "]":
+            depth -= 1
+            if depth == 0:
+                return content[i + 1:k]
+    return content
+
+
 def get_company_data():
     """Extract company names, sectors, stages, funding info from data.js."""
     with open(DATA_JS_PATH) as f:
         content = f.read()
+
+    # Bound the scan to the COMPANIES array ONLY — a whole-file scan also
+    # matches name: fields in COMMUNITY_TIERS / SLACK_CHANNELS /
+    # COMMUNITY_EVENTS / VC_FIRMS, which then get scored as companies
+    # (e.g. "general", "Founder Tier", "ROS Summit 2026").
+    content = _companies_block(content)
 
     # Find all company names first, then extract fields per company
     # Split COMPANIES array into individual entries using name: as delimiter

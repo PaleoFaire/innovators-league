@@ -80,21 +80,42 @@ MAX_REASONABLE_PS = 100  # Anything above is single-ticker pre-revenue noise
 # Number parsing
 
 
+_UNIT_MULT = {"K": 1e3, "M": 1e6, "B": 1e9, "T": 1e12}
+
+
 def parse_dollar(s):
-    """Parse '$2.5B', '$500M', '500000', '$1.35B' → USD float. Returns 0
-    if unparseable. Strips '+' suffixes."""
+    """Parse '$2.5B', '$500M+', '~$1.35B', '€95M ($103M)', 'C$33M',
+    '$1.5-2B' → float. Returns 0 if unparseable.
+
+    Handles: '+' / '~' decorations, thousands separators, non-USD currency
+    symbols (magnitude taken as-is, no FX conversion), a parenthesised USD
+    conversion like '~€95M ($103M)' (preferred when present), and ranges
+    like '$1.5-2B' (lower bound returned, unit inherited from the upper
+    bound — the old parser read this as $1.50)."""
     if not s: return 0
     if isinstance(s, (int, float)):
         return float(s)
-    s = str(s).strip().replace(",", "").replace("+", "")
-    m = re.match(r"\$?\s*([\d.]+)\s*([KMBT])?", s)
+    s = str(s).strip().replace(",", "").replace("+", "").replace("~", "")
+    # Prefer an explicit USD conversion in parentheses, e.g. '€95M ($103M)'
+    m = re.search(r"\(\s*\$\s*([\d.]+)\s*([KMBT])?\s*\)", s, re.IGNORECASE)
+    if not m:
+        # First number in the string, ignoring currency symbols/prefixes
+        # ($, US$, C$, A$, €, £, ¥) the old anchored match choked on.
+        m = re.search(r"([\d.]+)\s*([KMBT])?", s, re.IGNORECASE)
     if not m: return 0
     try:
         n = float(m.group(1))
     except ValueError:
         return 0
     u = (m.group(2) or "").upper()
-    return n * {"K": 1e3, "M": 1e6, "B": 1e9, "T": 1e12}.get(u, 1)
+    if not u:
+        # Range like '$1.5-2B': the lower bound has no unit of its own —
+        # inherit the unit that follows the upper bound.
+        rng = re.match(r"[-–—]\s*\$?\s*[\d.]+\s*([KMBT])",
+                       s[m.end():], re.IGNORECASE)
+        if rng:
+            u = rng.group(1).upper()
+    return n * _UNIT_MULT.get(u, 1)
 
 
 def fmt_dollar(n):
@@ -259,6 +280,37 @@ def method_stage_progression(target, funding):
 
     step_up = STAGE_STEP_UP[stage]
     implied = base_val * step_up
+
+    # Hard sanity clamp: FUNDING_TRACKER amounts come from RSS-scraped
+    # headlines and are sometimes wildly mis-parsed ('$50M+' → $392B base).
+    # If the implied valuation exceeds 20x the company's own totalRaised,
+    # refuse to publish a number rather than show an absurd range
+    # (e.g. Durin, $3.4M raised, showing a $30B valuation range).
+    total_raised = parse_dollar(target.get("totalRaised"))
+    if total_raised > 0 and implied > 20 * total_raised:
+        return {
+            "name": "Stage-Progression",
+            "applicable": False,
+            "inputs": {
+                "base_value": base_val,
+                "base_value_fmt": fmt_dollar(base_val),
+                "base_source": base_label,
+                "current_stage": stage,
+                "step_up_multiplier": step_up,
+            },
+            "skip_reason": (
+                f"sanity clamp: implied {fmt_dollar(implied)} exceeds 20x "
+                f"company totalRaised ({fmt_dollar(total_raised)}) — base "
+                f"value likely a funding-tracker mis-parse"
+            ),
+            "rationale": (
+                f"Implied valuation {fmt_dollar(implied)} is more than 20x "
+                f"the {fmt_dollar(total_raised)} this company has raised, so "
+                f"the {base_label.replace('_', ' ')} base is not trustworthy "
+                f"and this method is skipped."
+            ),
+        }
+
     return {
         "name": "Stage-Progression",
         "applicable": True,

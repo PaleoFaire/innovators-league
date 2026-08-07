@@ -4,10 +4,19 @@ name: Verify Company Facts (manual trigger)
 # burning Claude budget on schedule. Each run processes one cohort
 # (default: top 100 cold-email picks) and outputs a verification report
 # Stephen reviews before any data.js changes are applied.
+#
+# DORMANT LEGACY: the default cohort file data/cold_email_picks.json has
+# been REMOVED from the repo, so a casual dispatch would fail (or run
+# against stale inputs). The `confirm` input below gates the job so an
+# accidental dispatch is impossible.
 
 on:
   workflow_dispatch:
     inputs:
+      confirm:
+        description: 'LEGACY workflow — cohort inputs are stale and data/cold_email_picks.json was removed from the repo. Type I-UNDERSTAND-LEGACY to run anyway.'
+        default: ''
+        required: true
       cohort_file:
         description: 'JSON file with company names to verify (relative to repo)'
         default: 'data/cold_email_picks.json'
@@ -27,6 +36,7 @@ permissions:
 jobs:
   verify:
     name: Verify cohort against public sources
+    if: github.event.inputs.confirm == 'I-UNDERSTAND-LEGACY'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

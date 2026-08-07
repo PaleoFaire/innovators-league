@@ -633,6 +633,13 @@ def main():
         else:
             hist.append(entry)
         history["companies"][name] = hist[-26:]
+    # Prune companies no longer in the current score set — removed/renamed
+    # companies would otherwise live in weekly_history.json forever.
+    stale = [k for k in history["companies"] if k not in updated_innov]
+    for k in stale:
+        del history["companies"][k]
+    if stale:
+        log.info(f"Pruned {len(stale)} removed companies from weekly_history.json")
     history_path.write_text(json.dumps(history, separators=(",", ":"), default=str))
     log.info(f"Updated weekly_history.json ({len(history['companies'])} companies, "
              f"{len(history['weeks'])} weeks)")

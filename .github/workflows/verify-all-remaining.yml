@@ -14,10 +14,19 @@ name: Verify All Remaining (hardened, batches 4-9)
 #   5. continue-on-error retained ONLY on the verify steps (so a single
 #      cohort's API failure doesn't abort the chain) — NOT on commit steps.
 #   6. `batches` input lets you re-run only the cohorts that failed.
+#
+# DORMANT LEGACY: the batch cohort files (data/cold_email_batch*.json)
+# have been REMOVED from the repo, so a casual dispatch would fail or run
+# against stale inputs. The `confirm` input below gates the job so an
+# accidental dispatch is impossible.
 
 on:
   workflow_dispatch:
     inputs:
+      confirm:
+        description: 'LEGACY workflow — batch cohort inputs are stale and data/cold_email_batch*.json were removed from the repo. Type I-UNDERSTAND-LEGACY to run anyway.'
+        default: ''
+        required: true
       batches:
         description: 'Comma-separated batches to run (default 4,5,6,7,8,9)'
         default: '4,5,6,7,8,9'
@@ -37,6 +46,7 @@ permissions:
 jobs:
   verify-and-apply-all:
     name: Verify + auto-apply selected cohorts (hardened)
+    if: github.event.inputs.confirm == 'I-UNDERSTAND-LEGACY'
     runs-on: ubuntu-latest
     timeout-minutes: 350
     env:

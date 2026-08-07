@@ -27,3 +27,7 @@ ROS_TOP100_COLD_EMAIL_TARGETS.md
 ROS_FUND_TOP100.md
 ROS_FUND_STRETCH50.md
 US_TRIP_*.md
+
+# ── Fetch caches (untracked 2026-08; workflows persist them via actions/cache) ──
+data/github_signals_etag_cache.json
+data/.company_facts_url_cache.json

@@ -5,7 +5,10 @@ Merges auto-generated data from various sources into data.js
 """
 
 import json
+import os
 import re
+import subprocess
+import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -873,6 +876,32 @@ def update_last_updated(data_js_content):
     return data_js_content
 
 
+def _companies_span(data_js_content):
+    """Return (start, end) character offsets of the COMPANIES array contents,
+    using string-aware bracket matching (same approach as
+    sync_weekly_metrics.load_companies). Falls back to the whole file if the
+    array can't be located."""
+    start = data_js_content.find("const COMPANIES = [")
+    if start == -1:
+        return 0, len(data_js_content)
+    i = data_js_content.find("[", start)
+    depth = 0; in_str = False; sq = None; esc = False
+    for k in range(i, len(data_js_content)):
+        c = data_js_content[k]
+        if esc: esc = False; continue
+        if c == "\\" and in_str: esc = True; continue
+        if in_str:
+            if c == sq: in_str = False
+            continue
+        if c in "\"'": in_str = True; sq = c; continue
+        if c == "[": depth += 1
+        elif c == "]":
+            depth -= 1
+            if depth == 0:
+                return i + 1, k
+    return 0, len(data_js_content)
+
+
 def update_company_funding(data_js_content):
     """Update COMPANIES funding fields from recent deals."""
     deals = load_json("deals_auto.json")
@@ -903,19 +932,25 @@ def update_company_funding(data_js_content):
         deal_amount = deal.get("amount", "")
         deal_valuation = deal.get("valuation", "")
 
-        # Find this company's entry in COMPANIES array
+        # Find this company's entry in the COMPANIES array ONLY —
+        # COMMUNITY_TIERS / SLACK_CHANNELS / COMMUNITY_EVENTS and VC_FIRMS
+        # also contain name: fields, and a whole-file first-match would
+        # silently corrupt those blocks instead.
+        # (Recomputed per iteration: earlier edits shift offsets.)
+        span_start, span_end = _companies_span(data_js_content)
         name_pattern = re.escape(company)
-        name_match = re.search(rf'name:\s*"{name_pattern}"', data_js_content)
+        name_match = re.search(rf'name:\s*"{name_pattern}"',
+                               data_js_content[span_start:span_end])
         if not name_match:
             continue
 
-        # Find the boundary of this company entry
-        entry_start = name_match.start()
-        next_name = re.search(r'name:\s*"', data_js_content[entry_start + 10:])
+        # Find the boundary of this company entry (bounded to COMPANIES span)
+        entry_start = span_start + name_match.start()
+        next_name = re.search(r'name:\s*"', data_js_content[entry_start + 10:span_end])
         if next_name:
             entry_end = entry_start + 10 + next_name.start()
         else:
-            entry_end = len(data_js_content)
+            entry_end = span_end
 
         entry_block = data_js_content[entry_start:entry_end]
 
@@ -947,6 +982,27 @@ def update_company_funding(data_js_content):
                     entry_block[val_match.end():]
                 entry_block = new_block
                 changes_made = True
+                # Sync the valuation trust layer (mirrors
+                # auto_apply_verified._sync_valuation_trust_fields): this
+                # figure is RSS-derived, so tag it "tracker-estimate", and
+                # drop any stale valuationAsOf — a round label belonging to
+                # the previous figure would lie about the new number.
+                _str_lit = r'"(?:[^"\\]|\\.)*"'
+                type_pat = rf'\bvaluationType\s*:\s*{_str_lit}'
+                if re.search(type_pat, entry_block):
+                    entry_block = re.sub(
+                        type_pat, 'valuationType: "tracker-estimate"',
+                        entry_block, count=1)
+                else:
+                    indent_m = re.search(r'\n(\s*)valuation\s*:', entry_block)
+                    indent = indent_m.group(1) if indent_m else '    '
+                    entry_block = re.sub(
+                        r'(\bvaluation\s*:\s*' + _str_lit + r')',
+                        lambda m: m.group(1) + f',\n{indent}valuationType: "tracker-estimate"',
+                        entry_block, count=1)
+                entry_block = re.sub(
+                    rf'\n\s*valuationAsOf\s*:\s*{_str_lit},?', '',
+                    entry_block, count=1)
 
         # Update recentEvent
         if deal_amount and deal_round:
@@ -2873,9 +2929,31 @@ def main():
     else:
         print("  WARNING: Potential syntax issues found — review data.js manually")
 
-    # Write updated data.js
-    with open(DATA_JS_PATH, 'w') as f:
+    # Write to a temp file, verify with node --check, and only rename into
+    # place on success — a syntactically broken data.js must never reach disk.
+    tmp_path = DATA_JS_PATH.with_name(DATA_JS_PATH.stem + ".tmp.js")
+    with open(tmp_path, 'w') as f:
         f.write(data_js_content)
+    try:
+        check = subprocess.run(
+            ["node", "--check", str(tmp_path)],
+            capture_output=True, text=True, timeout=120,
+        )
+    except FileNotFoundError:
+        # node unavailable on this machine — keep the pre-existing behavior
+        # (write with a loud warning) rather than blocking the pipeline.
+        print("  WARNING: node not found — skipping node --check validation")
+        check = None
+    except subprocess.TimeoutExpired:
+        print("\n  ERROR: node --check timed out — data.js NOT updated")
+        tmp_path.unlink(missing_ok=True)
+        sys.exit(1)
+    if check is not None and check.returncode != 0:
+        print("\n  ERROR: node --check FAILED — data.js NOT updated")
+        print((check.stderr or check.stdout or "").strip()[:2000])
+        tmp_path.unlink(missing_ok=True)
+        sys.exit(1)
+    os.replace(tmp_path, DATA_JS_PATH)
 
     print("\n" + "=" * 60)
     print(f"data.js updated ({original_length} -> {len(data_js_content)} bytes)")

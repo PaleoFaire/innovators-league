@@ -6,7 +6,9 @@ name: Jobs & Stocks Sync
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    # Every 6h at 01:15/07:15/13:15/19:15 UTC — offset from the on-the-hour
+    # pileup (daily-data-sync 06:00, comprehensive-data-sync 07:00).
+    - cron: '15 1,7,13,19 * * *'
   workflow_dispatch:
 
 permissions:

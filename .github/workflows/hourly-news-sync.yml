@@ -15,7 +15,6 @@ jobs:
   sync-news:
     name: Sync News Signals
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -84,14 +83,21 @@ jobs:
 
           js_array += "];"
 
-          # Replace in content
+          # Replace in content — track whether a substitution actually happened
+          replaced = False
           pattern = r'// Auto-generated real-time signals[\s\S]*?const COMPANY_SIGNALS = \[[\s\S]*?\];'
           if re.search(pattern, content):
               content = re.sub(pattern, js_array, content)
+              replaced = True
           else:
               pattern = r'const COMPANY_SIGNALS = \[[\s\S]*?\];'
               if re.search(pattern, content):
                   content = re.sub(pattern, js_array, content)
+                  replaced = True
+
+          if not replaced:
+              print("::error::COMPANY_SIGNALS block not found in data.js — no substitution performed")
+              exit(1)
 
           with open("data.js", "w") as f:
               f.write(content)
@@ -201,7 +207,7 @@ jobs:
           fi
           # Re-run JS-parse after rebase
           node --check data.js 2>&1 | tee /tmp/parse_check2.txt | head -20
-          node --check data/predictive_scores.js 2>&1 | tee -a /tmp/parse_check.txt | head -20
+          node --check data/predictive_scores.js 2>&1 | tee -a /tmp/parse_check2.txt | head -20
           if grep -qE 'SyntaxError|ParseError' /tmp/parse_check2.txt; then
             echo "::error::data.js failed JS parse after rebase. Aborting."
             exit 1

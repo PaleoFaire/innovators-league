@@ -4,9 +4,10 @@ name: Comprehensive Data Sync
 # Previously split into daily/weekly but the weekly condition was broken,
 # so all fetchers now run daily for reliable data freshness.
 #
-# Every fetcher job uses `continue-on-error: true` so a single dead API
-# can't take down the whole sync. The final `data-health-summary` job
-# records which steps succeeded in `data/data_health.json`.
+# Fetcher jobs may fail independently — `merge-all-data` and
+# `data-health-summary` run with `if: always()`, so a single dead API
+# can't block the merge, while job failures stay visible in the run
+# status and in `data/data_health.json`.
 
 on:
   schedule:
@@ -35,7 +36,6 @@ jobs:
   sync-hackernews:
     name: Sync Hacker News Buzz
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'research-only'
     steps:
       - uses: actions/checkout@v4
@@ -55,7 +55,6 @@ jobs:
   sync-press-releases:
     name: Sync Press Releases
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'research-only'
     steps:
       - uses: actions/checkout@v4
@@ -76,7 +75,6 @@ jobs:
   sync-federal-register:
     name: Sync Federal Register
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'research-only'
     steps:
       - uses: actions/checkout@v4
@@ -101,7 +99,6 @@ jobs:
   sync-arxiv:
     name: Sync arXiv Research Papers
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'daily-only'
     steps:
       - uses: actions/checkout@v4
@@ -122,7 +119,6 @@ jobs:
   sync-clinical-trials:
     name: Sync Clinical Trials
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'daily-only'
     steps:
       - uses: actions/checkout@v4
@@ -143,7 +139,6 @@ jobs:
   sync-nsf-grants:
     name: Sync NSF Research Grants
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'daily-only'
     steps:
       - uses: actions/checkout@v4
@@ -163,7 +158,6 @@ jobs:
   sync-doe-energy:
     name: Sync DOE Energy Programs
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'daily-only'
     steps:
       - uses: actions/checkout@v4
@@ -186,7 +180,6 @@ jobs:
   sync-nasa:
     name: Sync NASA TechPort Projects
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'daily-only'
     steps:
       - uses: actions/checkout@v4
@@ -207,7 +200,6 @@ jobs:
   sync-congress-bills:
     name: Sync Congress Bills
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'daily-only'
     steps:
       - uses: actions/checkout@v4
@@ -229,7 +221,6 @@ jobs:
   sync-sbir-topics:
     name: Sync SBIR/STTR Topics
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'daily-only'
     steps:
       - uses: actions/checkout@v4
@@ -249,7 +240,6 @@ jobs:
   sync-demand-signals:
     name: Sync Demand Signals
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'daily-only'
     steps:
       - uses: actions/checkout@v4
@@ -271,7 +261,6 @@ jobs:
   sync-nrc-licensing:
     name: Sync NRC Licensing
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'daily-only'
     steps:
       - uses: actions/checkout@v4
@@ -291,7 +280,6 @@ jobs:
   sync-faa-certification:
     name: Sync FAA Certification
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'daily-only'
     steps:
       - uses: actions/checkout@v4
@@ -311,7 +299,6 @@ jobs:
   sync-sam-contracts:
     name: Sync SAM.gov Contract Opportunities
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'daily-only'
     steps:
       - uses: actions/checkout@v4
@@ -334,7 +321,6 @@ jobs:
   sync-census-trade:
     name: Sync Census Bureau Trade Data
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'daily-only'
     steps:
       - uses: actions/checkout@v4
@@ -356,7 +342,6 @@ jobs:
   sync-sbir-awards:
     name: Sync SBIR/STTR Government Grants
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'daily-only'
     steps:
       - uses: actions/checkout@v4
@@ -378,7 +363,6 @@ jobs:
   sync-nih-grants:
     name: Sync NIH Reporter Grants
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'daily-only'
     steps:
       - uses: actions/checkout@v4
@@ -398,7 +382,6 @@ jobs:
   sync-arpa-e:
     name: Sync ARPA-E Energy Projects
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'daily-only'
     steps:
       - uses: actions/checkout@v4
@@ -418,7 +401,6 @@ jobs:
   sync-diffbot:
     name: Sync Diffbot Company Enrichment
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'daily-only'
     steps:
       - uses: actions/checkout@v4
@@ -440,7 +422,6 @@ jobs:
   sync-vc-portfolios:
     name: Sync VC Portfolio Pages
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'daily-only'
     steps:
       - uses: actions/checkout@v4
@@ -463,7 +444,6 @@ jobs:
   sync-funding-rss:
     name: Sync Funding RSS Feed
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'research-only'
     steps:
       - uses: actions/checkout@v4
@@ -483,7 +463,6 @@ jobs:
   sync-github-signals:
     name: Sync GitHub Org Signals
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'research-only'
     steps:
       - uses: actions/checkout@v4
@@ -491,6 +470,17 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests
+      # The ETag cache used to be committed to the repo (8 MB churn per
+      # run). It's now gitignored; persist it across runs via actions/cache
+      # instead. Rolling key: each run saves under a fresh key, and
+      # restore-keys picks up the newest cache for this script version.
+      - name: Restore GitHub ETag cache
+        uses: actions/cache@v4
+        with:
+          path: data/github_signals_etag_cache.json
+          key: github-signals-etag-${{ hashFiles('scripts/fetch_github_signals.py') }}-${{ github.run_id }}
+          restore-keys: |
+            github-signals-etag-${{ hashFiles('scripts/fetch_github_signals.py') }}-
       - run: python scripts/fetch_github_signals.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -500,13 +490,11 @@ jobs:
           path: |
             data/github_signals_auto.json
             data/github_signals_status.json
-            data/github_signals_etag_cache.json
           retention-days: 7
 
   sync-podcast-mentions:
     name: Sync Podcast Mentions
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'research-only'
     steps:
       - uses: actions/checkout@v4
@@ -526,7 +514,6 @@ jobs:
   sync-twitter-signals:
     name: Sync Twitter/X Signals (experimental)
     runs-on: ubuntu-latest
-    continue-on-error: true
     if: github.event.inputs.sync_type != 'research-only'
     steps:
       - uses: actions/checkout@v4
