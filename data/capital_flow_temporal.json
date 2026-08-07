@@ -1,6 +1,31 @@
 {
-  "generatedAt": "2026-08-07T11:01:13+00:00",
+  "generatedAt": "2026-08-07T11:51:59+00:00",
   "matrix": {
+    "ai-mineral-exploration": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 310499477,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Mariana Minerals",
+            "amount": 310499477,
+            "date": "2026-08-06",
+            "source": "formd",
+            "investors": [
+              "Andreessen Horowitz",
+              "Earthshot Ventures",
+              "Pax VC",
+              "Breakthrough Energy",
+              "Khosla Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "Khosla Ventures"
+        ]
+      }
+    },
     "energy-storage-thermal-gravity": {
       "2026-Q3": {
         "deals": 1,
@@ -15,26 +40,6 @@
             "investors": [
               "BlackRock",
               "Temasek"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "consumer-evtol": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 232323232,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "AIR",
-            "amount": 232323232,
-            "date": "2026-08-04",
-            "source": "formd",
-            "investors": [
-              "Entr\\u00e9e Capital",
-              "Shmuel Harlap"
             ]
           }
         ],
@@ -77,34 +82,26 @@
         ]
       }
     },
-    "space-habitats-manufacturing": {
+    "advanced-manufacturing": {
       "2026-Q3": {
         "deals": 1,
-        "totalSold": null,
+        "totalSold": 14360145,
         "companiesWithUnknownAmount": 0,
         "companies": [
           {
-            "name": "Vast",
-            "amount": 0,
+            "name": "Unspun",
+            "amount": 14360145,
             "date": "2026-08-03",
             "source": "formd",
             "investors": [
-              "Balerion Space Ventures",
-              "Jed McCaleb",
-              "Qatar Investment Authority",
-              "IQT",
-              "Mitsui & Co.",
-              "MUFG",
-              "Nikon Corporation",
-              "Stellar Ventures",
-              "Space Capital",
-              "Earthrise Ventures"
+              "DCVC",
+              "H&M Group",
+              "Congruent Ventures",
+              "Bold Capital Partners"
             ]
           }
         ],
-        "investors": [
-          "In-Q-Tel"
-        ]
+        "investors": []
       }
     },
     "battery-materials": {
@@ -154,13 +151,13 @@
     "nuclear-microreactor": {
       "2026-Q3": {
         "deals": 1,
-        "totalSold": 54647987,
+        "totalSold": 319999537,
         "companiesWithUnknownAmount": 0,
         "companies": [
           {
             "name": "Antares",
-            "amount": 54647987,
-            "date": "2026-07-29",
+            "amount": 319999537,
+            "date": "2026-07-28",
             "source": "formd",
             "investors": [
               "Shine Capital",
@@ -1469,17 +1466,51 @@
     }
   },
   "vcAttribution": {
+    "Khosla Ventures": {
+      "2026-Q3": [
+        {
+          "company": "Mariana Minerals",
+          "cluster": "ai-mineral-exploration",
+          "date": "2026-08-06",
+          "source": "formd"
+        },
+        {
+          "company": "Monumental",
+          "cluster": "construction-modular",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "Rocket Lab",
+          "cluster": "space-launch-large",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Collaborative Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "In-Q-Tel": {
       "2026-Q3": [
         {
           "company": "Emerald AI",
           "cluster": "grid-flexing",
-          "date": "2026-08-03",
-          "source": "formd"
-        },
-        {
-          "company": "Vast",
-          "cluster": "space-habitats-manufacturing",
           "date": "2026-08-03",
           "source": "formd"
         }
@@ -1538,7 +1569,7 @@
         {
           "company": "Antares",
           "cluster": "nuclear-microreactor",
-          "date": "2026-07-29",
+          "date": "2026-07-28",
           "source": "formd"
         }
       ],
@@ -1781,40 +1812,6 @@
         }
       ]
     },
-    "Khosla Ventures": {
-      "2025-Q4": [
-        {
-          "company": "Rocket Lab",
-          "cluster": "space-launch-large",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Hermeus",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q3": [
-        {
-          "company": "Monumental",
-          "cluster": "construction-modular",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Collaborative Robotics",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Playground Global": {
       "2025-Q2": [
         {
@@ -1966,7 +1963,7 @@
   },
   "stats": {
     "totalDealsTracked": 58,
-    "totalUSDSold": 1576604403,
+    "totalUSDSold": 1934492343,
     "uniqueClusters": 39,
     "uniqueQuarters": 9,
     "uniqueVCs": 17,
