@@ -1,17 +1,19 @@
 {
-  "generatedAt": "2026-08-06T08:17:24+00:00",
+  "generatedAt": "2026-08-07T07:03:48+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 32,
-  "newExtractionsThisRun": 32,
+  "cohortSize": 39,
+  "newExtractionsThisRun": 39,
   "summary": {
-    "cleared": 25,
-    "changesProposed": 7,
+    "cleared": 35,
+    "changesProposed": 4,
     "unverifiable": 0
   },
   "cleared": [
     "Antares",
     "Apptronik",
+    "Astera Labs",
+    "Aurora Innovation",
     "Base Power",
     "Blue Water Autonomy",
     "Cape",
@@ -22,187 +24,87 @@
     "Durin",
     "Fire Point",
     "Firestorm Labs",
+    "GrayMatter Robotics",
+    "ICEYE",
     "ICON",
-    "K2 Space",
+    "Oklo",
     "Palantir",
+    "Path Robotics",
     "Percepto",
+    "PsiQuantum",
     "Quaise Energy",
+    "Quantum-Systems",
     "Radiant",
+    "Rebellions",
     "Rivian",
     "Rocket Lab",
     "Saildrone",
+    "Umbra",
     "Valar Atomics",
     "Waymo",
+    "Wayve",
     "Xtend",
     "ideaForge"
   ],
   "changesProposed": [
     {
-      "name": "Blue Origin",
+      "name": "Hadrian",
       "current": {
-        "name": "Blue Origin",
-        "founder": "Jeff Bezos",
-        "location": "Kent, Washington, United States",
-        "founded": 2000,
-        "fundingStage": "SPAC",
-        "totalRaised": "$10B+",
-        "website": "https://blueorigin.com"
+        "name": "Hadrian",
+        "founder": "Chris Power",
+        "location": "Torrance, CA",
+        "founded": 2020,
+        "fundingStage": "Series C",
+        "totalRaised": "$560M",
+        "website": "https://www.hadrian.co"
       },
       "verified": {
-        "name": "Blue Origin",
-        "description": "Private American aerospace company headquartered in Kent, Washington, developing suborbital New Shepard and heavy-lift New Glenn rockets, and working on Blue Moon lunar lander for NASA's Artemis program.",
-        "founders": [
-          "Jeff Bezos"
-        ],
-        "location": "Kent, Washington, United States",
-        "founded_year": 2000,
-        "current_stage": "Private",
-        "total_raised": null,
-        "valuation": null,
+        "name": "Hadrian",
+        "description": "AI-powered precision manufacturing company that builds automated factories to produce mission-critical metal parts for defense and aerospace applications, powered by its Opus platform for factory autonomy.",
+        "founders": null,
+        "location": "Torrance, CA",
+        "founded_year": 2020,
+        "current_stage": null,
+        "total_raised": "$1.37B",
+        "valuation": "$8B",
         "investors": null,
-        "website": "https://blueorigin.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "current_stage": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry listed stage as 'SPAC' but source [0] clearly identifies company as 'Private'. No evidence in sources for total_raised ($10B+), valuation, or specific investors (Coatue Management, Jeff Bezos). Source [1] is about Air Force contract expansion and does not contain company-level funding or investor information."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "SPAC",
-          "verified": "Private",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Blue_Origin"
-        },
-        {
-          "idx": 1,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/u-s-air-force-expands-blue-origin-rocket-cargo-contract/"
-        }
-      ],
-      "notes": "Database entry listed stage as 'SPAC' but source [0] clearly identifies company as 'Private'. No evidence in sources for total_raised ($10B+), valuation, or specific investors (Coatue Management, Jeff Bezos). Source [1] is about Air Force contract expansion and does not contain company-level funding or investor information."
-    },
-    {
-      "name": "ICEYE",
-      "current": {
-        "name": "ICEYE",
-        "founder": "Rafa\u0142 Modrzewski, Pekka Laurila",
-        "location": "Espoo, Finland",
-        "founded": 2014,
-        "fundingStage": "Series E",
-        "totalRaised": "$730M+",
-        "website": "https://iceye.com"
-      },
-      "verified": {
-        "name": "ICEYE",
-        "description": "Finnish microsatellite manufacturer operating the world's largest synthetic aperture radar satellite constellation for Earth observation. Provides SAR imagery and satellite systems for defense, intelligence, insurance, and disaster response applications.",
-        "founders": [
-          "Rafa\u0142 Modrzewski",
-          "Pekka Laurila"
-        ],
-        "location": "Espoo, Finland",
-        "founded_year": 2014,
-        "current_stage": "Series F",
-        "total_raised": "$650M+",
-        "valuation": "\u20ac10B+",
-        "investors": [
-          "General Atlantic",
-          "General Catalyst",
-          "Solidium Oy",
-          "Move Capital Fund I",
-          "Blackwells Capital",
-          "True Ventures",
-          "OTB Ventures",
-          "Nokia",
-          "Qatar Investment Authority",
-          "TCV"
-        ],
-        "website": "https://iceye.com",
+        "website": "https://www.hadrian.co",
         "sources_per_field": {
           "name": [
             0,
-            1,
-            2
+            1
           ],
           "description": [
             0,
             1,
-            2
-          ],
-          "founders": [
-            1,
-            2
+            3
           ],
           "location": [
-            1,
-            2
+            1
           ],
           "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
+            1
           ],
           "total_raised": [
-            2
+            3
           ],
           "valuation": [
-            2
-          ],
-          "investors": [
-            2
+            3
           ],
           "website": [
             0,
-            1,
-            2
+            1
           ]
         },
-        "notes": "Wikipedia indicates June 2026 Series F round of \u20ac450M primary (led by General Atlantic) plus \u20ac550M secondary at \u20ac10B+ valuation. December 2025 \u20ac150M Series E round led by General Catalyst at \u20ac2.4B valuation also documented. Total satellites launched reached 62 as of December 5, 2025. Company reported profitability and \u20ac200M revenue (2025)."
+        "notes": "Source [2] is Wikipedia article about Roman emperor Hadrian, not the company. Source [3] is a TechCrunch article dated 2026/08/06 reporting a $1.37B raise at $8B valuation, which supersedes the database entry's $560M raised at $1.6B valuation. Founder name 'Chris Power' could not be verified from provided sources. Current stage could not be determined from sources. Specific investor names beyond those in database entry could not be extracted from provided sources."
       },
       "changes": [
         {
-          "field": "fundingStage",
-          "current": "Series E",
-          "verified": "Series F",
-          "sources": [
-            2
-          ]
-        },
-        {
           "field": "totalRaised",
-          "current": "$730M+",
-          "verified": "$650M+",
+          "current": "$560M",
+          "verified": "$1.37B",
           "sources": [
-            2
+            3
           ]
         }
       ],
@@ -210,30 +112,25 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://iceye.com"
+          "url": "https://www.hadrian.co"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://iceye.com/company"
+          "url": "https://www.hadrian.co/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/ICEYE"
+          "url": "https://en.wikipedia.org/wiki/Hadrian"
         },
         {
           "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/capella-iceye-and-umbra-win-nro-radar-data-contracts/"
-        },
-        {
-          "idx": 4,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/08/05/scale-up-europe-fund-makes-first-investment-co-leading-iceyes-eur1bn-round/"
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/08/06/defense-tech-hadrian-raises-1-37b-at-8b-valuation/"
         }
       ],
-      "notes": "Wikipedia indicates June 2026 Series F round of \u20ac450M primary (led by General Atlantic) plus \u20ac550M secondary at \u20ac10B+ valuation. December 2025 \u20ac150M Series E round led by General Catalyst at \u20ac2.4B valuation also documented. Total satellites launched reached 62 as of December 5, 2025. Company reported profitability and \u20ac200M revenue (2025)."
+      "notes": "Source [2] is Wikipedia article about Roman emperor Hadrian, not the company. Source [3] is a TechCrunch article dated 2026/08/06 reporting a $1.37B raise at $8B valuation, which supersedes the database entry's $560M raised at $1.6B valuation. Founder name 'Chris Power' could not be verified from provided sources. Current stage could not be determined from sources. Specific investor names beyond those in database entry could not be extracted from provided sources."
     },
     {
       "name": "Nano Nuclear Energy",
@@ -248,7 +145,7 @@
       },
       "verified": {
         "name": "NANO Nuclear Energy Inc.",
-        "description": "An advanced nuclear energy company developing microreactor technologies including KRONOS MMR\u2122, ZEUS\u2122, and LOKI MMR\u2122, with subsidiaries in nuclear fuel fabrication, fuel transportation, and space applications. The company is listed publicly on NASDAQ (ticker: NNE).",
+        "description": "Advanced technology-driven nuclear energy company developing microreactor technologies (KRONOS MMR, ZEUS, LOKI) and operating subsidiaries focused on nuclear fuel fabrication, transportation, space applications, and consulting services.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -263,7 +160,6 @@
             1
           ],
           "description": [
-            0,
             1
           ],
           "location": [
@@ -272,12 +168,9 @@
           "current_stage": [
             0,
             1
-          ],
-          "website": [
-            0
           ]
         },
-        "notes": "Company is publicly traded on NASDAQ under ticker NNE. Sources confirm three reactor designs (KRONOS, ZEUS, LOKI) in development. Database entry references ODIN sale to Cambridge AtomWorks and market cap of $1.2B (June 2026), but these facts are not verified in provided sources. No founder information available in sources. No total raised or valuation figures confirmed in sources. Founded year not specified in sources."
+        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from the company website and do not contain founder names, founding year, total raised, or valuation information. Source [2] (Canary Media article about Valar Atomics) is unrelated to NANO Nuclear Energy and was not used. Database entry claims about Jay Jiang Yu as founder, 2022 founding year, $600M+ raised, $808M valuation, and ODIN sale to Cambridge AtomWorks could not be verified from provided sources."
       },
       "changes": [
         {
@@ -307,106 +200,7 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly traded on NASDAQ under ticker NNE. Sources confirm three reactor designs (KRONOS, ZEUS, LOKI) in development. Database entry references ODIN sale to Cambridge AtomWorks and market cap of $1.2B (June 2026), but these facts are not verified in provided sources. No founder information available in sources. No total raised or valuation figures confirmed in sources. Founded year not specified in sources."
-    },
-    {
-      "name": "Quantum-Systems",
-      "current": {
-        "name": "Quantum-Systems",
-        "founder": "Florian Seibel",
-        "location": "Gilching, Germany",
-        "founded": 2015,
-        "fundingStage": "Series C",
-        "totalRaised": "$370M+",
-        "website": "https://quantum-systems.com"
-      },
-      "verified": {
-        "name": "Quantum-Systems",
-        "description": "German technology company that develops, designs, and produces unmanned aerial systems (UAS) including electric vertical take-off and landing (eVTOL) drones for defense, security, and commercial applications.",
-        "founders": [
-          "Florian Seibel"
-        ],
-        "location": "Gilching, Germany",
-        "founded_year": 2015,
-        "current_stage": "Series C",
-        "total_raised": "$160M",
-        "valuation": null,
-        "investors": [
-          "HV Capital",
-          "DTCP",
-          "Thiel Capital",
-          "Project A",
-          "Airbus Ventures",
-          "Omnes Capital",
-          "ScaleUp Fonds Bayern"
-        ],
-        "website": "https://quantum-systems.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            1
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ]
-        },
-        "notes": "In May 2025, Quantum-Systems became Europe's first dual-use unicorn (source 2). Founded by Florian Seibel, a former Bundeswehr officer and military helicopter pilot (source 1, 2). Series C round of \u20ac160M mentioned in source 2."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$370M+",
-          "verified": "$160M",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://quantum-systems.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://quantum-systems.com/about-us"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Quantum-Systems"
-        },
-        {
-          "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/capella-iceye-and-umbra-win-nro-radar-data-contracts/"
-        }
-      ],
-      "notes": "In May 2025, Quantum-Systems became Europe's first dual-use unicorn (source 2). Founded by Florian Seibel, a former Bundeswehr officer and military helicopter pilot (source 1, 2). Series C round of \u20ac160M mentioned in source 2."
+      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from the company website and do not contain founder names, founding year, total raised, or valuation information. Source [2] (Canary Media article about Valar Atomics) is unrelated to NANO Nuclear Energy and was not used. Database entry claims about Jay Jiang Yu as founder, 2022 founding year, $600M+ raised, $808M valuation, and ODIN sale to Cambridge AtomWorks could not be verified from provided sources."
     },
     {
       "name": "SpaceX",
@@ -421,7 +215,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered at Starbase in Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial Intelligence (Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates orbital launches, Starlink satellite communications, and artificial intelligence divisions.",
         "founders": [
           "Elon Musk"
         ],
@@ -463,7 +257,7 @@
             0
           ]
         },
-        "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion, described as the largest IPO in history. Current database entry references $1.65T valuation and 'Preparing for IPO' which contradicts the Wikipedia source showing the IPO has already occurred. No valuation figure found in provided sources to verify the $1.65T claim."
+        "notes": "IPO occurred June 12, 2026, raising $86 billion (largest IPO in history per source). Wikipedia indicates Elon Musk controls 85% voting power via super-voting stock, though text also states 82% in another location. Alphabet Inc. owns 6% equity. Database entry's $1.5T IPO valuation and $1.65T current valuation cannot be verified from provided sources."
       },
       "changes": [
         {
@@ -484,76 +278,78 @@
         {
           "idx": 1,
           "src": "news (Wired)",
-          "url": "https://www.wired.com/story/nobody-saw-spacex-rocket-moon-crash/"
+          "url": "https://www.wired.com/story/ice-dna-collection-increases-spacex-rocket-crashes-into-the-moon-and-the-ai-backlash-grows/"
         },
         {
           "idx": 2,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/08/livestream-after-predicting-the-spacex-q2-earnings-what-happens-in-the-next-18-critical-months.html"
+          "url": "https://www.nextbigfuture.com/2026/08/the-math-nobody-ran-on-ai-capex.html"
         },
         {
           "idx": 3,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/08/spacex-100b-arr-yearend-2026-guidance-over-my-96-billion-arr-bull-case.html"
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/08/06/tesla-spacex-terafab-grimes-county-16-8-billion/"
         }
       ],
-      "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion, described as the largest IPO in history. Current database entry references $1.65T valuation and 'Preparing for IPO' which contradicts the Wikipedia source showing the IPO has already occurred. No valuation figure found in provided sources to verify the $1.65T claim."
+      "notes": "IPO occurred June 12, 2026, raising $86 billion (largest IPO in history per source). Wikipedia indicates Elon Musk controls 85% voting power via super-voting stock, though text also states 82% in another location. Alphabet Inc. owns 6% equity. Database entry's $1.5T IPO valuation and $1.65T current valuation cannot be verified from provided sources."
     },
     {
-      "name": "Umbra",
+      "name": "Zettascale",
       "current": {
-        "name": "Umbra",
-        "founder": "David Langan, Gabe Dominocielo",
-        "location": "Santa Barbara, CA",
-        "founded": 2015,
-        "fundingStage": "Series B",
-        "totalRaised": "$100M+",
-        "website": "https://umbra.space"
+        "name": "Zettascale",
+        "founder": "Elias Almqvist (CEO; self-taught engineer, Chalmers University CS/CE dropout at 21), Prithvi Raj (CTO; MEng Computational Stats + ML Cambridge; ex-Microsoft)",
+        "location": "San Francisco, CA",
+        "founded": 2024,
+        "fundingStage": "Seed",
+        "totalRaised": "$3M+",
+        "website": "https://zscc.ai"
       },
       "verified": {
-        "name": "Umbra",
-        "description": "American space technology company that designs, builds, and operates synthetic aperture radar (SAR) satellite systems for remote sensing and mission solutions.",
-        "founders": [
-          "David Langan"
-        ],
-        "location": "Santa Barbara, CA",
-        "founded_year": 2015,
-        "current_stage": null,
+        "name": "Zettascale",
+        "description": "AI silicon company building XPU chips for inference and training that optimize dataflow per model. Backed by Y Combinator as part of the S24 batch.",
+        "founders": null,
+        "location": "San Francisco, CA",
+        "founded_year": null,
+        "current_stage": "Seed",
         "total_raised": null,
         "valuation": null,
-        "investors": null,
-        "website": "https://umbra.space",
+        "investors": [
+          "Y Combinator",
+          "Soma Capital",
+          "Olive Tree Capital"
+        ],
+        "website": "https://zscc.ai",
         "sources_per_field": {
           "name": [
-            0,
-            1
+            0
           ],
           "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
+            0
           ],
           "location": [
-            1
+            0
           ],
-          "founded_year": [
-            1
+          "current_stage": [],
+          "investors": [
+            0
           ],
           "website": [
             0
           ]
         },
-        "notes": "Only David Langan is explicitly named as a founder/co-founder in sources. Gabe Dominocielo from database entry is not mentioned in provided sources. Source [2] is Wikipedia article about shadow terminology (umbra/penumbra), not the company. Source [3] mentions Umbra won NRO radar-data contracts but no details provided. Current stage, total raised, valuation, and investors cannot be verified from provided sources."
+        "notes": "Rebranded to Zettascale from previous name (likely Exa Laborato based on database entry). Source [1] is about Tesla/SpaceX and unrelated to Zettascale. Founder names from database entry cannot be verified from provided sources. Y Combinator S24 batch status inferred from 'Backed by Y Combinator' but specific batch year not stated in sources. No specific funding amount verifiable from sources."
       },
       "changes": [
         {
-          "field": "founder",
-          "current": "David Langan, Gabe Dominocielo",
-          "verified": "David Langan",
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Y Combinator",
+            "Soma Capital",
+            "Olive Tree Capital"
+          ],
           "sources": [
-            1
+            0
           ]
         }
       ],
@@ -561,150 +357,15 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://umbra.space"
+          "url": "https://zscc.ai"
         },
         {
           "idx": 1,
-          "src": "company_about",
-          "url": "https://umbra.space/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Umbra"
-        },
-        {
-          "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/capella-iceye-and-umbra-win-nro-radar-data-contracts/"
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/08/06/tesla-spacex-terafab-grimes-county-16-8-billion/"
         }
       ],
-      "notes": "Only David Langan is explicitly named as a founder/co-founder in sources. Gabe Dominocielo from database entry is not mentioned in provided sources. Source [2] is Wikipedia article about shadow terminology (umbra/penumbra), not the company. Source [3] mentions Umbra won NRO radar-data contracts but no details provided. Current stage, total raised, valuation, and investors cannot be verified from provided sources."
-    },
-    {
-      "name": "Wayve",
-      "current": {
-        "name": "Wayve",
-        "founder": "Amar Shah, Alex Kendall",
-        "location": "London, UK",
-        "founded": 2017,
-        "fundingStage": "Series D",
-        "totalRaised": "$2.5B+",
-        "website": "https://wayve.ai"
-      },
-      "verified": {
-        "name": "Wayve",
-        "description": "British autonomous driving technology company developing self-driving vehicle systems through end-to-end deep learning and vision-based AI that learns from camera data without requiring HD maps or hand-coded rules.",
-        "founders": [
-          "Amar Shah",
-          "Alex Kendall"
-        ],
-        "location": "London, United Kingdom",
-        "founded_year": 2017,
-        "current_stage": "Series D",
-        "total_raised": "$2.8B",
-        "valuation": "$8.6B",
-        "investors": [
-          "SoftBank",
-          "Microsoft",
-          "Nvidia",
-          "Uber",
-          "Eclipse Ventures",
-          "Balderton Capital",
-          "D1 Capital Partners",
-          "Moore Strategic Ventures",
-          "Linse Capital",
-          "Virgin Group",
-          "Mercedes-Benz",
-          "Stellantis",
-          "Nissan",
-          "Ocado Group"
-        ],
-        "website": "https://wayve.ai",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            0,
-            1,
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            1
-          ],
-          "valuation": [
-            2
-          ],
-          "investors": [
-            1,
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Founded August 21, 2017. Co-founder Amar Shah departed in 2020; Alex Kendall is current CEO. Series C closed May 2024 at $1.05B led by SoftBank. Series D announced February 2026 with $1.5B raised, increasing valuation to $8.6B. Company has ~1,000 employees as of 2026."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "London, UK",
-          "verified": "London, United Kingdom",
-          "sources": [
-            0,
-            1,
-            2
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$2.5B+",
-          "verified": "$2.8B",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://wayve.ai"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://wayve.ai/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Wayve"
-        },
-        {
-          "idx": 3,
-          "src": "news (CleanTechnica)",
-          "url": "https://cleantechnica.com/2026/08/05/wayve-uber-can-now-deploy-robotaxis-in-london/"
-        }
-      ],
-      "notes": "Founded August 21, 2017. Co-founder Amar Shah departed in 2020; Alex Kendall is current CEO. Series C closed May 2024 at $1.05B led by SoftBank. Series D announced February 2026 with $1.5B raised, increasing valuation to $8.6B. Company has ~1,000 employees as of 2026."
+      "notes": "Rebranded to Zettascale from previous name (likely Exa Laborato based on database entry). Source [1] is about Tesla/SpaceX and unrelated to Zettascale. Founder names from database entry cannot be verified from provided sources. Y Combinator S24 batch status inferred from 'Backed by Y Combinator' but specific batch year not stated in sources. No specific funding amount verifiable from sources."
     }
   ],
   "unverifiable": []

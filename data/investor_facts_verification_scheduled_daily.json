@@ -1,133 +1,19 @@
 {
-  "generatedAt": "2026-08-06T08:17:42+00:00",
+  "generatedAt": "2026-08-07T07:04:20+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
-  "cohortSize": 2,
-  "newExtractionsThisRun": 2,
+  "cohortSize": 3,
+  "newExtractionsThisRun": 3,
   "summary": {
-    "cleared": 1,
-    "changesProposed": 1,
+    "cleared": 3,
+    "changesProposed": 0,
     "unverifiable": 0
   },
   "cleared": [
+    "Breakthrough Energy",
+    "Engine Ventures",
     "Future Ventures"
   ],
-  "changesProposed": [
-    {
-      "name": "Breakthrough Energy",
-      "current": {
-        "name": "Breakthrough Energy",
-        "shortName": "BEV",
-        "aum": "$2B+ (fund) / $14B (platform)",
-        "flagshipFund": "Breakthrough Energy Ventures",
-        "founded": 2015,
-        "hq": "Kirkland, Washington",
-        "website": "https://breakthroughenergy.org"
-      },
-      "verified": {
-        "name": "Breakthrough Energy",
-        "short_name": null,
-        "aum": null,
-        "flagship_fund": "Breakthrough Energy Ventures",
-        "founded_year": 2015,
-        "hq": "Kirkland, Washington",
-        "key_partners": [
-          "Bill Gates"
-        ],
-        "sector_focus": [
-          "Manufacturing",
-          "Electricity",
-          "Agriculture",
-          "Transportation",
-          "Building"
-        ],
-        "thesis": "Breakthrough Energy invests in businesses where the risk of failure is high and the timeframe for return on investment is 20 years. Clean technologies must be affordable and reliable to reach global scale.",
-        "website": "https://breakthroughenergy.org",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            5
-          ],
-          "flagship_fund": [
-            5
-          ],
-          "founded_year": [
-            5
-          ],
-          "hq": [
-            5
-          ],
-          "key_partners": [
-            5
-          ],
-          "sector_focus": [
-            0,
-            1
-          ],
-          "thesis": [
-            0,
-            1,
-            5
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "In March 2025, Bill Gates dissolved the Europe and US public policy units. Strategy shifted from public policy to supporting clean energy technology through Breakthrough Energy Catalyst program and Breakthrough Energy Ventures (source: [5]). Sources do not provide current AUM figure or complete list of current senior partners beyond Bill Gates."
-      },
-      "changes": [
-        {
-          "field": "thesis",
-          "current": "Breakthrough Energy invests in businesses where the risk of failure is high and the timeframe for return on investment is 20 years. Clean technologies must be affordable and reliable to reach global scale. The firm invests across five sectors of the global economy to accelerate clean energy innovation.",
-          "verified": "Breakthrough Energy invests in businesses where the risk of failure is high and the timeframe for return on investment is 20 years. Clean technologies must be affordable and reliable to reach global scale.",
-          "sources": [
-            0,
-            1,
-            5
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://breakthroughenergy.org"
-        },
-        {
-          "idx": 1,
-          "src": "firm/about",
-          "url": "https://breakthroughenergy.org/about"
-        },
-        {
-          "idx": 2,
-          "src": "firm/team",
-          "url": "https://breakthroughenergy.org/team"
-        },
-        {
-          "idx": 3,
-          "src": "firm/companies",
-          "url": "https://breakthroughenergy.org/companies"
-        },
-        {
-          "idx": 4,
-          "src": "firm/investments",
-          "url": "https://breakthroughenergy.org/investments"
-        },
-        {
-          "idx": 5,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Breakthrough_Energy"
-        },
-        {
-          "idx": 6,
-          "src": "news (Crunchbase News)",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/"
-        }
-      ],
-      "notes": "In March 2025, Bill Gates dissolved the Europe and US public policy units. Strategy shifted from public policy to supporting clean energy technology through Breakthrough Energy Catalyst program and Breakthrough Energy Ventures (source: [5]). Sources do not provide current AUM figure or complete list of current senior partners beyond Bill Gates."
-    }
-  ],
+  "changesProposed": [],
   "unverifiable": []
 }

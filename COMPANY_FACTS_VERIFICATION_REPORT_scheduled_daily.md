@@ -1,84 +1,59 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-08-06T08:17:24+00:00  
+**Generated:** 2026-08-07T07:03:48+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 32 companies  
+**Cohort size:** 39 companies  
 
-**New Claude extractions this run:** 32  
+**New Claude extractions this run:** 39  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 25 | 78% |
-| 🔧 Changes proposed | 7 | 22% |
+| ✅ Cleared (data matches sources) | 35 | 90% |
+| 🔧 Changes proposed | 4 | 10% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (7 companies)
+## 🔧 Proposed Changes (4 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
-### Blue Origin
+### Hadrian
 
-- **`fundingStage`:** `SPAC` → `Private`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Blue_Origin)
+- **`totalRaised`:** `$560M` → `$1.37B`  
+  Sources: [news (TechCrunch)](https://techcrunch.com/2026/08/06/defense-tech-hadrian-raises-1-37b-at-8b-valuation/)
 
-  **Notes:** Database entry listed stage as 'SPAC' but source [0] clearly identifies company as 'Private'. No evidence in sources for total_raised ($10B+), valuation, or specific investors (Coatue Management, Jeff Bezos). Source [1] is about Air Force contract expansion and does not contain company-level funding or investor information.
-
-### ICEYE
-
-- **`fundingStage`:** `Series E` → `Series F`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/ICEYE)
-- **`totalRaised`:** `$730M+` → `$650M+`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/ICEYE)
-
-  **Notes:** Wikipedia indicates June 2026 Series F round of €450M primary (led by General Atlantic) plus €550M secondary at €10B+ valuation. December 2025 €150M Series E round led by General Catalyst at €2.4B valuation also documented. Total satellites launched reached 62 as of December 5, 2025. Company reported profitability and €200M revenue (2025).
+  **Notes:** Source [2] is Wikipedia article about Roman emperor Hadrian, not the company. Source [3] is a TechCrunch article dated 2026/08/06 reporting a $1.37B raise at $8B valuation, which supersedes the database entry's $560M raised at $1.6B valuation. Founder name 'Chris Power' could not be verified from provided sources. Current stage could not be determined from sources. Specific investor names beyond those in database entry could not be extracted from provided sources.
 
 ### Nano Nuclear Energy
 
 - **`fundingStage`:** `Seed` → `Public`  
   Sources: [company_website](https://nanonuclearenergy.com) · [company_about](https://nanonuclearenergy.com/about)
 
-  **Notes:** Company is publicly traded on NASDAQ under ticker NNE. Sources confirm three reactor designs (KRONOS, ZEUS, LOKI) in development. Database entry references ODIN sale to Cambridge AtomWorks and market cap of $1.2B (June 2026), but these facts are not verified in provided sources. No founder information available in sources. No total raised or valuation figures confirmed in sources. Founded year not specified in sources.
-
-### Quantum-Systems
-
-- **`totalRaised`:** `$370M+` → `$160M`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Quantum-Systems)
-
-  **Notes:** In May 2025, Quantum-Systems became Europe's first dual-use unicorn (source 2). Founded by Florian Seibel, a former Bundeswehr officer and military helicopter pilot (source 1, 2). Series C round of €160M mentioned in source 2.
+  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from the company website and do not contain founder names, founding year, total raised, or valuation information. Source [2] (Canary Media article about Valar Atomics) is unrelated to NANO Nuclear Energy and was not used. Database entry claims about Jay Jiang Yu as founder, 2022 founding year, $600M+ raised, $808M valuation, and ODIN sale to Cambridge AtomWorks could not be verified from provided sources.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion, described as the largest IPO in history. Current database entry references $1.65T valuation and 'Preparing for IPO' which contradicts the Wikipedia source showing the IPO has already occurred. No valuation figure found in provided sources to verify the $1.65T claim.
+  **Notes:** IPO occurred June 12, 2026, raising $86 billion (largest IPO in history per source). Wikipedia indicates Elon Musk controls 85% voting power via super-voting stock, though text also states 82% in another location. Alphabet Inc. owns 6% equity. Database entry's $1.5T IPO valuation and $1.65T current valuation cannot be verified from provided sources.
 
-### Umbra
+### Zettascale
 
-- **`founder`:** `David Langan, Gabe Dominocielo` → `David Langan`  
-  Sources: [company_about](https://umbra.space/about)
+- **`investors`:** `[]` → `['Y Combinator', 'Soma Capital', 'Olive Tree Capital']`  
+  Sources: [company_website](https://zscc.ai)
 
-  **Notes:** Only David Langan is explicitly named as a founder/co-founder in sources. Gabe Dominocielo from database entry is not mentioned in provided sources. Source [2] is Wikipedia article about shadow terminology (umbra/penumbra), not the company. Source [3] mentions Umbra won NRO radar-data contracts but no details provided. Current stage, total raised, valuation, and investors cannot be verified from provided sources.
-
-### Wayve
-
-- **`location`:** `London, UK` → `London, United Kingdom`  
-  Sources: [company_website](https://wayve.ai) · [company_about](https://wayve.ai/about) · [wikipedia](https://en.wikipedia.org/wiki/Wayve)
-- **`totalRaised`:** `$2.5B+` → `$2.8B`  
-  Sources: [company_about](https://wayve.ai/about)
-
-  **Notes:** Founded August 21, 2017. Co-founder Amar Shah departed in 2020; Alex Kendall is current CEO. Series C closed May 2024 at $1.05B led by SoftBank. Series D announced February 2026 with $1.5B raised, increasing valuation to $8.6B. Company has ~1,000 employees as of 2026.
+  **Notes:** Rebranded to Zettascale from previous name (likely Exa Laborato based on database entry). Source [1] is about Tesla/SpaceX and unrelated to Zettascale. Founder names from database entry cannot be verified from provided sources. Y Combinator S24 batch status inferred from 'Backed by Y Combinator' but specific batch year not stated in sources. No specific funding amount verifiable from sources.
 
 ---
 
-## ✅ Cleared (25 companies)
+## ✅ Cleared (35 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -86,6 +61,8 @@ Sample (first 30):
 
 - Antares
 - Apptronik
+- Astera Labs
+- Aurora Innovation
 - Base Power
 - Blue Water Autonomy
 - Cape
@@ -96,21 +73,25 @@ Sample (first 30):
 - Durin
 - Fire Point
 - Firestorm Labs
+- GrayMatter Robotics
+- ICEYE
 - ICON
-- K2 Space
+- Oklo
 - Palantir
+- Path Robotics
 - Percepto
+- PsiQuantum
 - Quaise Energy
+- Quantum-Systems
 - Radiant
+- Rebellions
 - Rivian
 - Rocket Lab
 - Saildrone
-- Valar Atomics
-- Waymo
-- Xtend
-- ideaForge
+- Umbra
+- *...and 5 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-08-06T08:17:24+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-08-07T07:03:48+00:00*
