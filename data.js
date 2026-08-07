@@ -26080,21 +26080,6 @@ const VC_FIRMS = [
     insight: "Bessemer is the only Tier-1 generalist with a publicly named space-engineering bench — Lori Garver (ex-NASA Deputy Admin), Tess Hatch (ex-SpaceX), Ray Johnson (ex-Lockheed CTO). They led Rocket Lab Series B (still the canonical space VC win), back Rigetti and Xanadu in quantum, and in 2026 led the $450M Series A in Inertia Enterprises — the largest commercial laser-fusion bet yet. When Bessemer commits engineering-partner capital to a hard-tech category, the category gets legitimized."
   },
   {
-    name: "Razor's Edge Ventures",
-    shortName: "Razor's Edge",
-    aum: "$1.25B+",
-    flagshipFund: "Razor's Edge Fund IV ($560M, Sep 2025)",
-    founded: 2011,
-    hq: "Reston, VA",
-    thesis: "Razor's Edge seeks to find, fund and foster technology companies that solve significant challenges in national security and high-growth commercial markets. The firm invests in national security platform companies and dual-use growth and early-stage companies addressing major technology gaps, leveraging proprietary sector intelligence and deep networks with national security decision-makers.",
-    keyPartners: ["Peggy Styer", "Steve Pann", "Richard Moxley", "Mark Spoto", "Jack Kerrigan"],
-    sectorFocus: ["Cybersecurity", "Data science and data infrastructure", "Emerging device and sensor technologies", "Space technologies", "Earth observation", "Critical resources and services"],
-    portfolioCompanies: ["BlackSea Technologies", "BlackSky", "BlackVe", "Corsha", "Dark Wolf Solutions", "Expedition Technology", "HawkEye 360", "Integer Technologies", "Talon Defense", "Ursa Space Systems", "X-Bow Systems", "Zeno Power", "mPower Technology"],
-    signal: "established",
-    website: "https://www.razorsvc.com",
-    insight: "Razor's Edge is the longest-tenured pure defense / national-security specialist VC, with the deepest DC-Belt sourcing network. Their distinctive 'platform incubation' model — they don't just invest, they build vertically integrated defense primes from scratch (BlackSea Technologies' GARC USV program has $160M+ Navy obligations scaling to $212M; BlackVe builds sovereign-space mission systems across LEO/MEO/HEO/GEO/xGEO) — produces dealflow no other VC can replicate. When they commit, the IC pays attention."
-  },
-    {
     name: "Kleiner Perkins",
     shortName: "KP",
     aum: "Not publicly stated",
@@ -26109,37 +26094,7 @@ const VC_FIRMS = [
     website: "https://www.kleinerperkins.com",
     insight: "KP's hardtech practice is quietly assembling frontier positions (TerraFirma, Akeana, Alif, General Radar) after a software decade — a legacy giant rotating back to the physical economy."
   },
-    {
-    name: "New Enterprise Associates",
-    shortName: "NEA",
-    aum: "$35B+ (firm-stated, Dec 2025)",
-    flagshipFund: "NEA 18 + Venture Growth Equity (~$6.2B, 2023)",
-    founded: 1977,
-    hq: "Menlo Park, California",
-    thesis: "Generalist mega-fund whose frontier exposure is deal-driven rather than a branded practice — and the deals are serious: led IonQ's Series B (2017, now NYSE-listed), co-led CHAOS Industries' $275M Series C, seeded Aigen and Glacier, repeat backer of Cowboy Space Corporation.",
-    keyPartners: ["Scott Sandell", "Forest Baskett", "Andrew Schoen"],
-    sectorFocus: ["Deep Tech", "Energy", "Robotics", "Healthcare"],
-    portfolioCompanies: ["Aigen", "Built Robotics", "Cowboy Space Corporation", "CuspAI", "Firestorm Labs", "Focused Energy", "Genesis Therapeutics", "IonQ", "Mythic", "Outrider", "Second Front Systems", "Singularity", "SpliceBio", "TAE Technologies", "Ursa Space Systems", "World Labs", "Xaira Therapeutics"],
-    signal: "rising",
-    website: "https://www.nea.com",
-    insight: "NEA doesn't market a deep-tech thesis — it just keeps writing early checks into quantum, defense radar, farm robots, and orbital compute. Watch what they do, not what they brand."
-  },
-    {
-    name: "Accel",
-    shortName: "Accel",
-    aum: "Not publicly stated (~$36B per trackers)",
-    flagshipFund: "Leaders Fund V (~$4B + $650M sidecar, Apr 2026)",
-    founded: 1983,
-    hq: "Palo Alto, California",
-    thesis: "Two hard-tech channels: the ~$5B Leaders Fund V explicitly targets late-stage AI across hardware, robotics, defense tech, and data-center infrastructure, while Atoms X — the LeapTech track of its India pre-seed program, with Prosus matching every check — is seeding reusable rockets (EtherealX), laser satcom (QOSMIC), and robotic composites (Fabheads).",
-    keyPartners: ["Prashanth Prakash", "Ping Li", "Rachit Parekh"],
-    sectorFocus: ["AI Infrastructure", "Defense", "Space", "Advanced Manufacturing"],
-    portfolioCompanies: ["Aeon Industrial", "Cambridge Aerospace", "Chaos Industries", "Code Metal", "Fractile", "Fuse Energy", "Helsing", "Mind Robotics", "Nimble Robotics", "Periodic Labs", "Sarla Aviation", "Scale AI", "True Anomaly"],
-    signal: "rising",
-    website: "https://www.accel.com",
-    insight: "Accel's Atoms X is the most interesting India frontier-tech vehicle going: ISRO-alumni composites, reusable launch, and optical satcom, seeded at pre-seed with Prosus doubling every check."
-  },
-    {
+  {
     name: "Y Combinator",
     shortName: "YC",
     aum: "Standard deal $500K/startup ($125K for 7% + $375K MFN SAFE)",
@@ -26153,36 +26108,6 @@ const VC_FIRMS = [
     signal: "hot",
     website: "https://www.ycombinator.com",
     insight: "The 4th most-cited investor across this entire database (48 tracked companies). YC's demo days are now a primary hard-tech dealflow source — the batch shift is real and accelerating."
-  },
-    {
-    name: "NVentures",
-    shortName: "NVentures (NVIDIA)",
-    aum: "Evergreen, off NVIDIA's balance sheet (~83 portfolio cos, 22 unicorns)",
-    flagshipFund: "Corporate evergreen vehicle (Seed-Series B, checks to tens of $M)",
-    founded: 2022,
-    hq: "Santa Clara, California",
-    thesis: "NVIDIA's venture arm invests for return across the AI-industrial stack, with heavy 2025-26 concentration in physical AI and robotics foundation models (Skild AI $1.4B Series C, Field AI $314M), AI compute infrastructure, and quantum applications — roughly 43 new investments in the year to May 2026, led by Sid Siddeek.",
-    keyPartners: ["Mohamed 'Sid' Siddeek (VP & Head)"],
-    sectorFocus: ["Physical AI", "Robotics", "AI Compute", "Quantum"],
-    portfolioCompanies: ["Abridge", "Agility Robotics", "Alice & Bob", "Ayar Labs", "Bedrock Robotics", "Besxar Space Industries", "Black Forest Labs", "Bright Machines", "Carbon Robotics", "Cartesia", "Crusoe Energy", "Dyna Robotics", "Emerald AI", "Evozyne", "Field AI", "Freeform", "Freenome", "Generalist AI", "Iambic Therapeutics", "Lambda", "Lila Sciences", "Machina Labs", "Neura Robotics", "NextSilicon"],
-    signal: "hot",
-    website: "https://www.nvidia.com/en-us/nventures/",
-    insight: "The strategic kingmaker of physical AI: NVentures' presence in a robotics round (Bedrock, Walden, Generalist AI) is the strongest single hardware-conviction signal in venture right now."
-  },
-    {
-    name: "Lockheed Martin Ventures",
-    shortName: "LM Ventures",
-    aum: "$1B evergreen fund (raised from $400M, Apr 2026)",
-    flagshipFund: "Single balance-sheet fund: $50M (2007) -> $1B (2026)",
-    founded: 2007,
-    hq: "Bethesda, Maryland",
-    thesis: "Lockheed Martin's strategic arm backs dual-use startups across twelve focus areas from advanced weapons and autonomy to power, quantum, and PNT — 120+ companies since 2007, early into Rocket Lab (2015), led X-Bow's $105M Series B, and proved the acquisition pipeline by buying portfolio company Terran Orbital outright in 2024.",
-    keyPartners: ["J. Chris Moran (VP & GM)"],
-    sectorFocus: ["Defense", "Space", "Advanced Materials", "Autonomy"],
-    portfolioCompanies: ["Aeva Technologies", "Anello Photonics", "Electra.aero", "Elroy Air", "Farcast", "Firestorm Labs", "Havoc AI", "Hidden Level", "INTALUS", "Inversion Space", "Long Wall", "Orbit Fab", "Q-CTRL", "Red 6", "Rocket Lab", "Skydio", "Slingshot Aerospace", "Teradar", "Vatn Systems", "Venus Aerospace", "X-Bow Systems"],
-    signal: "rising",
-    website: "https://www.lockheedmartin.com/ventures",
-    insight: "The defense twin of In-Q-Tel: an LMV check means the largest prime is watching — and sometimes buying. Its 2.5x fund expansion in April 2026 says the primes expect the startup wave to keep coming."
   }
 ];
 
