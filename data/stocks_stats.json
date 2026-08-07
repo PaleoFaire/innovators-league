@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 27.53,
+      "avg_change": 37.91,
       "count": 1
     },
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 19.01,
+      "avg_change": 22.44,
       "count": 7
     },
     "autonomous": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 8.75,
+      "gainers": 7,
+      "losers": 0,
+      "avg_change": 11.28,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 6.13,
+      "avg_change": 14.48,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.72,
+      "avg_change": 10.49,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 4.15,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 12.59,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.96,
+      "avg_change": 9.72,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": -2.58,
+      "gainers": 2,
+      "losers": 0,
+      "avg_change": 4.11,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.9,
+      "avg_change": 6.8,
       "count": 3
     }
   },
@@ -61,22 +61,22 @@
     [
       "SATL",
       "Satellogic",
-      44.41
+      50.61
     ],
     [
       "PLTR",
       "Palantir",
-      27.53
+      37.91
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      21.88
+      27.63
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      20.0
+      "RKLB",
+      "Rocket Lab",
+      23.66
     ],
     [
       "ASRHF",
@@ -86,30 +86,30 @@
   ],
   "topLosers": [
     [
-      "OKLO",
-      "Oklo",
-      2.68
-    ],
-    [
-      "AMD",
-      "AMD",
-      0.8
-    ],
-    [
       "EVTL",
       "Vertical Aerospace",
-      -3.08
+      4.76
     ],
     [
       "RIVN",
       "Rivian",
-      -8.62
+      3.45
     ],
     [
-      "QBTS",
-      "D-Wave Quantum",
-      -9.84
+      "9348.T",
+      "ispace",
+      2.98
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      2.77
+    ],
+    [
+      "AMD",
+      "AMD",
+      1.34
     ]
   ],
-  "lastUpdated": "2026-08-07 07:21:38"
+  "lastUpdated": "2026-08-07 14:21:59"
 }
