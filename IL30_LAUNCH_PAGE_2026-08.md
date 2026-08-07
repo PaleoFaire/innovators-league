@@ -300,13 +300,13 @@ We digitized sight and sound decades ago — never smell. Osmo captures a scent 
 
 ### 27. Poseidon
 
-*Self-flying cargo craft that skim the waves — faster than ships, cheaper than planes.*
+*Pilotless cargo planes that take off from open water or a gravel strip.*
 
-**Founders** David Zagaynov, Parker Tenney · **HQ** San Francisco, CA · **Stage** Seed · **Backers** Tamarack Global, Draper Associates
+**Founders** David Zagaynov, Parker Tenney · **HQ** San Francisco, CA · **Stage** Seed · **Backers** Tamarack Global, Draper Associates, Starship Ventures
 
 **First-hand** — Met co-founder David Zagaynov in San Francisco this July.
 
-Between the boat and the plane sits a forgotten machine: the ekranoplan, which flies a few feet above the water on a cushion of trapped air. Poseidon is reviving it with modern composites and autonomy — pilotless craft hauling roughly two tons to coastlines and islands that have no airport or harbor. Zagaynov calls it "a cheap F-150 for the sky." An entire layer of transport the world abandoned decades ago is coming back, without the pilot.
+America's regional cargo planes are 35–40 years old — largely passenger aircraft with the seats ripped out. Poseidon starts from a blank sheet and one decision: delete the pilot. No cockpit means a lighter carbon-fiber airframe, smaller engines, and a target cost less than half a Cessna Caravan's. Its electric Seagull is already flying trials with the Navy and Coast Guard; next come Heron and Egret, seaplane-and-landplane twins built to haul 3,500 pounds over 1,500 nautical miles — which would make them the largest cargo drones built outside China. Zagaynov's pitch: "the good, cheap, reliable F-150" of the sky.
 
 ### 28. Ulysses
 
