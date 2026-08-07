@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T05:46:37.300406+00:00",
+  "generatedAt": "2026-08-07T07:36:10.644910+00:00",
   "date": "2026-08-07",
   "dateDisplay": "Friday, August 07, 2026",
   "sections": {
@@ -107,6 +107,13 @@
         "change": 0.25
       },
       {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 7.94,
+        "changePercent": 19.22,
+        "change": 1.28
+      },
+      {
         "ticker": "RKLB",
         "company": "Rocket Lab",
         "price": 75.67,
@@ -126,13 +133,6 @@
         "price": 6.13,
         "changePercent": 14.37,
         "change": 0.77
-      },
-      {
-        "ticker": "JOBY",
-        "company": "Joby Aviation",
-        "price": 8.23,
-        "changePercent": 13.67,
-        "change": 0.99
       }
     ],
     "regulatory": [
