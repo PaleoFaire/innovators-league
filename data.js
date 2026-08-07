@@ -5031,6 +5031,7 @@ tags: ["fusion", "field-reversed", "energy"],
   },
   {
     name: "Cowboy Space Corporation",
+    formerNames: ["Aetherflux"],
     status: "active",
     insight: "The audacious part isn't GPU data centers in orbit — it's making the rocket's upper stage the data center itself. If launch cost is the constraint, delete the difference between the payload and the vehicle.",
     addedDate: "2026-06",
