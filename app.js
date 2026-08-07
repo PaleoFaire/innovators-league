@@ -8,6 +8,96 @@ function isInROS50(companyName) {
   return INNOVATOR_50.some(i => i.company === companyName);
 }
 
+// ─── CANONICAL COMPANY NAME RESOLVER ───
+// Signal datasets (GOV_CONTRACTS, SAM_CONTRACTS, PATENT_INTEL, ALT_DATA_SIGNALS,
+// FUNDING_TRACKER, NEWS_FEED, …) sometimes use shorthand or legacy names that
+// don't exactly match a COMPANIES entry ("Anduril" vs "Anduril Industries").
+// resolveCompanyName() maps any such alias to its canonical COMPANIES name so
+// joins and click-through modals stop silently failing.
+// A `null` mapping means the name is deliberately out of universe (public
+// mega-caps, untracked startups) — render those as plain text, never as a
+// dead click target.
+const COMPANY_NAME_ALIASES = {
+  // dataset shorthand        → canonical COMPANIES name
+  'Anduril': 'Anduril Industries',
+  'Varda Space': 'Varda Space Industries',
+  'Palantir Technologies': 'Palantir',
+  'Helion Energy': 'Helion',
+  'Cuby': 'Cuby Technologies',
+  // Out-of-universe names used by signal datasets (not in COMPANIES)
+  'AMD': null, 'Anthropic': null, 'Anysphere': null, 'Bear Robotics': null,
+  'BlackSky': null, 'Boston Dynamics': null, 'Capella Space': null,
+  'Cohere': null, 'Databricks': null, 'Dunia': null, 'ElevenLabs': null,
+  'Flexport': null, 'Ginkgo Bioworks': null, 'Groq': null, 'H Company': null,
+  'Hive AI': null, 'Hugging Face': null, 'Humane': null,
+  'Kodiak Robotics': null, 'Labelbox': null, 'Matter': null,
+  'Mistral AI': null, 'Modal': null, 'Multiverse Computing': null,
+  'NVIDIA': null, 'OpenAI': null, 'Orbit2Orbit': null, 'Phospho': null,
+  'Rain AI': null, 'Rainbow Robotics': null, 'Rebellion Defense': null,
+  'SHIELD Technology Partners': null, 'Safe Superintelligence': null,
+  'Sakana AI': null, 'Sift': null, 'Stripe': null, 'Summit Nanotech': null,
+  'Synthesis': null, 'Tempus AI': null, 'Teralta': null,
+  'Terran Orbital': null, 'Tesla': null, 'Truemed': null,
+  'Vayu Robotics': null, 'Watershed': null, 'Zoox': null,
+};
+
+// Common corporate suffixes for the last-resort fallback match. Only applied
+// when the stripped form is unambiguous across the whole COMPANIES universe.
+const COMPANY_NAME_SUFFIX_RE = /\s+(industries|technologies|technology|systems|robotics|aerospace|energy|labs|inc\.?|corp\.?)$/i;
+
+let __companyNameIndex = null;
+function __getCompanyNameIndex() {
+  if (__companyNameIndex) return __companyNameIndex;
+  const byLower = new Map();      // lowercased canonical name → canonical name
+  const byStripped = new Map();   // suffix-stripped lowercase → canonical name (false = ambiguous)
+  (typeof COMPANIES !== 'undefined' ? COMPANIES : []).forEach(c => {
+    const lower = c.name.toLowerCase();
+    byLower.set(lower, c.name);
+    const stripped = lower.replace(COMPANY_NAME_SUFFIX_RE, '').trim();
+    if (stripped && stripped !== lower) {
+      byStripped.set(stripped, byStripped.has(stripped) ? false : c.name);
+    }
+  });
+  __companyNameIndex = { byLower, byStripped };
+  return __companyNameIndex;
+}
+
+function resolveCompanyName(name) {
+  if (!name || typeof COMPANIES === 'undefined') return null;
+  const idx = __getCompanyNameIndex();
+  const lower = String(name).toLowerCase();
+  // 1. Exact / case-insensitive match against COMPANIES
+  const exact = idx.byLower.get(lower);
+  if (exact) return exact;
+  // 2. Explicit alias map (null = known out-of-universe)
+  if (Object.prototype.hasOwnProperty.call(COMPANY_NAME_ALIASES, name)) {
+    return COMPANY_NAME_ALIASES[name];
+  }
+  // 3. Strip-suffix fallback, both directions, only when unambiguous:
+  //    dataset "Foo Industries" → canonical "Foo"
+  const stripped = lower.replace(COMPANY_NAME_SUFFIX_RE, '').trim();
+  if (stripped !== lower) {
+    const hit = idx.byLower.get(stripped);
+    if (hit) return hit;
+  }
+  //    dataset "Foo" → canonical "Foo Industries" (unique stripped form only)
+  const suffixHit = idx.byStripped.get(lower);
+  if (suffixHit) return suffixHit;
+  return null;
+}
+window.resolveCompanyName = resolveCompanyName;
+
+// Cached canonical-name set for the "Has Gov Contracts" joins.
+function getGovContractCompanySet() {
+  if (typeof GOV_CONTRACTS === 'undefined') return new Set();
+  if (!getGovContractCompanySet._cache) {
+    getGovContractCompanySet._cache = new Set(
+      GOV_CONTRACTS.map(g => resolveCompanyName(g.company) || g.company)
+    );
+  }
+  return getGovContractCompanySet._cache;
+}
+
 // ─── COUNTRY MAPPING ───
 // US state codes
 const US_STATES = new Set([
@@ -306,6 +396,35 @@ function renderSignalBadge(signal) {
   const s = SIGNAL_CONFIG[signal];
   return `<span class="signal-badge ${s.class}">${s.icon} ${s.label}</span>`;
 }
+
+// ─── COMPANY STATUS CHIP ───
+// Renders a status chip for any non-active company (ipo / acquired / dead /
+// zombie) so exited or defunct companies never masquerade as live private
+// investments. Returns '' for active companies.
+function renderStatusChip(company) {
+  if (!company || !company.status || company.status === 'active') return '';
+  const esc = (typeof escapeHtml === 'function') ? escapeHtml : (s => String(s == null ? '' : s));
+  const note = esc(company.statusNote || '');
+  if (company.status === 'ipo') {
+    const ticker = company.ticker ? ` (${esc(company.ticker)})` : '';
+    return `<span class="status-chip status-ipo" title="${note}">PUBLIC${ticker}</span>`;
+  }
+  if (company.status === 'acquired') {
+    const byRaw = company.acquirer || company.acquiredBy || '';
+    // Acquirer strings can be long — keep the chip compact, full text in tooltip
+    let by = String(byRaw).split(/[(,]/)[0].trim();
+    if (by.length > 32) by = by.slice(0, 29) + '…';
+    return `<span class="status-chip status-acquired" title="${esc(byRaw) || note}">ACQUIRED${by ? ` (${esc(by)})` : ''}</span>`;
+  }
+  if (company.status === 'dead') {
+    return `<span class="status-chip status-dead" title="${note}">DEAD</span>`;
+  }
+  if (company.status === 'zombie') {
+    return `<span class="status-chip status-zombie" title="${note}">ZOMBIE</span>`;
+  }
+  return '';
+}
+window.renderStatusChip = renderStatusChip;
 
 // ─── INNOVATOR SCORE™ (Frontier Index — 6-dimension, 0-100 composite) ───
 // Data: INNOVATOR_SCORES array with fields: company, techMoat, momentum,
@@ -931,8 +1050,16 @@ function getCompanyProfileUrl(companyName) {
 
 function openCompanyModal(companyName) {
   // Auth gating disabled — all companies open while site is pre-launch
-  const company = COMPANIES.find(c => c.name === companyName);
-  if (!company) return;
+  // Resolve dataset aliases ("Anduril" → "Anduril Industries") before lookup.
+  const resolvedName = resolveCompanyName(companyName);
+  const company = COMPANIES.find(c => c.name === (resolvedName || companyName));
+  if (!company) {
+    // Never a silent no-op: tell the user why nothing opened.
+    if (typeof showNotification === 'function') {
+      showNotification(`${companyName} isn't in the tracked company universe`);
+    }
+    return;
+  }
 
   const sectorInfo = SECTORS[company.sector] || { color: '#6b7280', icon: '' };
   const saved = isBookmarked(company.name);
@@ -1018,7 +1145,7 @@ function openCompanyModal(companyName) {
     <div class="modal-sector-badge" style="background:${sectorInfo.color}15; color:${sectorInfo.color}; border: 1px solid ${sectorInfo.color}30;">
       ${sectorInfo.icon} ${company.sector}
     </div>
-    <h2 class="modal-company-name">${company.name} ${renderSignalBadge(company.signal)}</h2>
+    <h2 class="modal-company-name">${company.name} ${renderSignalBadge(company.signal)} ${renderStatusChip(company)}</h2>
     ${company.founder ? `<p class="modal-founder">Founded by ${company.founder}</p>` : ''}
     ${renderFounderConnectionBadge(company.name)}
 
@@ -1034,7 +1161,7 @@ function openCompanyModal(companyName) {
     <div class="modal-stats">
       ${company.fundingStage ? `<div class="modal-stat"><span class="modal-stat-label">Stage</span><span class="modal-stat-value">${company.fundingStage}</span></div>` : ''}
       ${company.totalRaised ? `<div class="modal-stat"><span class="modal-stat-label">Total Raised</span><span class="modal-stat-value">${company.totalRaised}</span></div>` : ''}
-      ${company.valuation ? `<div class="modal-stat"><span class="modal-stat-label">Valuation</span><span class="modal-stat-value">${company.valuation}</span></div>` : ''}
+      ${company.valuation ? `<div class="modal-stat"><span class="modal-stat-label">Valuation</span><span class="modal-stat-value${String(company.valuation).toLowerCase() === 'undisclosed' ? ' valuation-undisclosed' : ''}">${company.valuation}</span>${company.valuationType === 'disclosed' ? `<span class="trust-chip" title="${escapeAttr(company.valuationAsOf || 'Disclosed valuation')}">✓ disclosed</span>` : ''}</div>` : ''}
       ${lastRound ? `<div class="modal-stat"><span class="modal-stat-label">Last Round</span><span class="modal-stat-value">${lastRound.amount} (${lastRound.date})</span></div>` : ''}
     </div>
 
@@ -1170,8 +1297,10 @@ function openCompanyModal(companyName) {
     })()}
 
     ${(() => {
-      const patent = typeof PATENT_INTEL !== 'undefined' ? PATENT_INTEL.find(p => p.company === company.name) : null;
-      if (!patent) return '';
+      const patent = typeof PATENT_INTEL !== 'undefined' ? PATENT_INTEL.find(p => p.company === company.name || resolveCompanyName(p.company) === company.name) : null;
+      // Auto-detected rows pending manual review carry a placeholder 5/10
+      // ipMoatScore and raw CPC codes — never present those as real intel.
+      if (!patent || (patent.note || '').includes('Pending manual review')) return '';
       const moatColor = patent.ipMoatScore >= 8 ? '#22c55e' : patent.ipMoatScore >= 6 ? '#f59e0b' : '#6b7280';
       return `
         <div class="modal-patent">
@@ -1857,7 +1986,7 @@ function initCommandPalette() {
       title: 'Export CSV',
       subtitle: 'Download company data',
       shortcut: '',
-      action: () => { if (typeof exportCSV === 'function') exportCSV(); }
+      action: () => { if (typeof exportCompanyList === 'function') exportCompanyList(); }
     });
 
     return items;
@@ -2489,6 +2618,11 @@ function resolveDataSourceDate(key) {
   return today;
 }
 
+// Sections backed by curated/editorial datasets (TRL_RANKINGS, PATENT_INTEL)
+// must never wear a live-data badge — the rows update on editorial passes,
+// not on a cron, so a "Live · Daily" label would misrepresent freshness.
+const CURATED_BADGE_SECTIONS = new Set(['trl-rankings', 'patent-intel']);
+
 function addSectionTimestamp(sectionId, dataSourceKey) {
   if (typeof DATA_SOURCES === 'undefined') return;
   const section = document.getElementById(sectionId);
@@ -2502,6 +2636,15 @@ function addSectionTimestamp(sectionId, dataSourceKey) {
 
   // Check if timestamp already exists
   if (header.querySelector('.section-timestamp')) return;
+
+  if (CURATED_BADGE_SECTIONS.has(sectionId)) {
+    const curatedTs = document.createElement('div');
+    curatedTs.className = 'section-timestamp';
+    curatedTs.innerHTML = `<span class="timestamp-dot" style="color:#6b7280">●</span> Curated`;
+    curatedTs.title = `Editorially curated dataset — updated on review passes, not on a live schedule.\nSource: ${source.source}`;
+    header.appendChild(curatedTs);
+    return;
+  }
 
   // Resolve "auto" dates from live data
   const dateStr = source.lastUpdated === 'auto' ? resolveDataSourceDate(dataSourceKey) : source.lastUpdated;
@@ -3001,7 +3144,7 @@ function renderCompanyCardHTML(company) {
           </button>
         </div>
       </div>
-      <h3 class="card-title">${company.name}</h3>
+      <h3 class="card-title">${company.name}${renderStatusChip(company)}</h3>
       ${company.founder ? `<p class="card-founder">${company.founder}</p>` : ''}
       <p class="card-description">${company.description.substring(0, 100)}...</p>
       <div class="card-meta">
@@ -3227,9 +3370,9 @@ function applyFilters() {
       const innovator50Names = (typeof INNOVATOR_50 !== 'undefined' ? INNOVATOR_50 : []).map(i => i.company || i.name);
       filtered = filtered.filter(c => innovator50Names.includes(c.name));
     } else if (special === 'govContracts') {
-      // Filter for companies with government contracts
-      const govCompanyNames = (typeof GOV_CONTRACTS !== 'undefined' ? GOV_CONTRACTS : []).map(g => g.company);
-      filtered = filtered.filter(c => govCompanyNames.includes(c.name));
+      // Filter for companies with government contracts (alias-resolved names)
+      const govCompanyNames = getGovContractCompanySet();
+      filtered = filtered.filter(c => govCompanyNames.has(c.name));
     } else if (special === 'recentFunding') {
       // Filter for companies with recent funding (has recentEvent with funding)
       filtered = filtered.filter(c => c.recentEvent && c.recentEvent.type === 'funding');
@@ -4241,7 +4384,7 @@ function exportCompanyList() {
   if (stage && stage !== 'all') companies = companies.filter(c => c.fundingStage === stage);
   if (city && city !== 'all') companies = companies.filter(c => c.location && c.location.trim() === city);
   if (special === 'innovator50') companies = companies.filter(c => isInROS50(c.name));
-  if (special === 'govContracts') companies = companies.filter(c => typeof GOV_CONTRACTS !== 'undefined' && GOV_CONTRACTS.some(g => g.company === c.name));
+  if (special === 'govContracts') companies = companies.filter(c => getGovContractCompanySet().has(c.name));
   if (searchTerm) {
     companies = companies.filter(c => {
       const hay = (c.name + ' ' + c.sector + ' ' + c.location + ' ' + (c.founder || '') + ' ' + (c.description || '')).toLowerCase();
@@ -6312,10 +6455,8 @@ function initGovContracts() {
     });
   });
 
-  // Government Demand Tracker Panel
-  if (typeof GOV_DEMAND_TRACKER !== 'undefined' && demandPanel) {
-    renderGovDemandTracker(demandPanel);
-  }
+  // Government Demand Tracker moved to govradar.html — panel no longer
+  // rendered here (renderGovDemandTracker removed as dead code).
 
   // Contractor Readiness Panel
   if (typeof CONTRACTOR_READINESS !== 'undefined' && readinessPanel) {
@@ -6476,112 +6617,6 @@ function initGovContracts() {
 }
 
 // ═══════════════════════════════════════════════════════════════
-// GOVERNMENT DEMAND TRACKER
-// What the government WANTS — live opportunities
-// ═══════════════════════════════════════════════════════════════
-function renderGovDemandTracker(panel) {
-  if (!panel || typeof GOV_DEMAND_TRACKER === 'undefined') return;
-
-  // Round 7m: augment the curated summary with live sector-level counts from
-  // GOV_DEMAND_SUMMARY_AUTO (sum of activeOpps/contractsAwarded/sbirAwards
-  // across all sectors). Auto values take precedence only when curated has
-  // no specific figures.
-  const curatedSummary = typeof GOV_DEMAND_SUMMARY !== 'undefined' ? GOV_DEMAND_SUMMARY : {};
-  const autoSummary = getAutoGlobal('GOV_DEMAND_SUMMARY_AUTO') || {};
-  const autoSectors = autoSummary.sectors || {};
-  let autoTotalOpps = 0, autoTotalSbir = 0, autoTotalContracts = 0, autoHigh = 0;
-  Object.values(autoSectors).forEach(function(s) {
-    autoTotalOpps += (s.activeOpps || 0);
-    autoTotalSbir += (s.sbirAwards || 0);
-    autoTotalContracts += (s.contractsAwarded || 0);
-    if ((s.demandIndex || 0) >= 50) autoHigh++;
-  });
-  const summary = {
-    totalOpportunities: curatedSummary.totalOpportunities || autoTotalOpps || GOV_DEMAND_TRACKER.length,
-    totalValue:         curatedSummary.totalValue         || (autoTotalContracts ? ('$' + autoTotalContracts + ' contracts') : '$500M+'),
-    criticalPriority:   curatedSummary.criticalPriority   || autoHigh || 3,
-    highPriority:       curatedSummary.highPriority       || 0,
-    topAgencies:        curatedSummary.topAgencies        || [],
-    hottestAreas:       curatedSummary.hottestAreas       || Object.keys(autoSectors).slice(0, 6)
-  };
-  const sorted = [...GOV_DEMAND_TRACKER].sort((a, b) => {
-    const priorityOrder = { 'Critical': 0, 'High': 1, 'Medium': 2, 'Low': 3 };
-    return (priorityOrder[a.priority] || 3) - (priorityOrder[b.priority] || 3);
-  });
-
-  panel.innerHTML = `
-    <div class="gov-demand-header">
-      <div class="gov-demand-summary">
-        <div class="demand-stat">
-          <span class="demand-stat-value">${summary.totalOpportunities || sorted.length}</span>
-          <span class="demand-stat-label">Active Opportunities</span>
-        </div>
-        <div class="demand-stat">
-          <span class="demand-stat-value">${summary.totalValue || '$500M+'}</span>
-          <span class="demand-stat-label">Total Value</span>
-        </div>
-        <div class="demand-stat">
-          <span class="demand-stat-value" style="color:#ef4444;">${summary.criticalPriority || 3}</span>
-          <span class="demand-stat-label">Critical Priority</span>
-        </div>
-      </div>
-      <div class="demand-hot-areas">
-        <span class="demand-hot-label">🔥 Hot Areas:</span>
-        ${(summary.hottestAreas || ['Counter-drone', 'Nuclear', 'Autonomy']).map(a => `<span class="demand-hot-tag">${a}</span>`).join('')}
-      </div>
-    </div>
-
-    <div class="gov-demand-grid">
-      ${sorted.map(opp => {
-        const priorityColor = opp.priority === 'Critical' ? '#ef4444' : opp.priority === 'High' ? '#f59e0b' : '#6b7280';
-        const daysUntilDeadline = opp.deadline !== 'Rolling' ? Math.ceil((new Date(opp.deadline) - new Date()) / (1000 * 60 * 60 * 24)) : null;
-        const urgencyClass = daysUntilDeadline && daysUntilDeadline < 30 ? 'urgent' : daysUntilDeadline && daysUntilDeadline < 60 ? 'soon' : '';
-
-        return `
-          <div class="gov-demand-card ${urgencyClass}">
-            <div class="demand-card-header">
-              <span class="demand-priority" style="background:${priorityColor}20; color:${priorityColor}; border:1px solid ${priorityColor}40;">
-                ${opp.priority}
-              </span>
-              <span class="demand-agency">${opp.agency}</span>
-            </div>
-            <h4 class="demand-title">${opp.title}</h4>
-            <div class="demand-meta">
-              <span class="demand-type">${opp.type}</span>
-              <span class="demand-value">${opp.value}</span>
-            </div>
-            <p class="demand-description">${opp.description}</p>
-            <div class="demand-tech-areas">
-              ${(opp.techAreas || []).map(t => `<span class="demand-tech-tag">${t}</span>`).join('')}
-            </div>
-            <div class="demand-deadline ${urgencyClass}">
-              <span class="deadline-icon">📅</span>
-              <span class="deadline-text">
-                ${opp.deadline === 'Rolling' ? 'Rolling submissions' : `Deadline: ${opp.deadline}`}
-                ${daysUntilDeadline ? `<span class="days-left">(${daysUntilDeadline} days)</span>` : ''}
-              </span>
-            </div>
-            ${opp.relevantCompanies && opp.relevantCompanies.length > 0 ? `
-              <div class="demand-relevant">
-                <span class="relevant-label">Relevant Companies:</span>
-                <div class="relevant-companies">
-                  ${opp.relevantCompanies.map(c => `<span class="relevant-company" onclick="openCompanyModal('${c.replace(/'/g, "\\'")}')">${c}</span>`).join('')}
-                </div>
-              </div>
-            ` : ''}
-            ${opp.source ? `<a href="${opp.source}" target="_blank" rel="noopener" class="demand-source-link">View Source →</a>` : ''}
-          </div>
-        `;
-      }).join('')}
-    </div>
-
-    <div class="gov-demand-footer">
-      <p class="demand-disclaimer">Data sourced from SAM.gov, agency BAAs, SBIR.gov, and official announcements. Last updated: ${typeof DATA_SOURCES !== 'undefined' ? DATA_SOURCES.govContracts?.lastUpdated : 'Unknown'}</p>
-    </div>
-  `;
-}
-
-// ═══════════════════════════════════════════════════════════════
 // PATENT INTELLIGENCE & IP MOAT
 // ═══════════════════════════════════════════════════════════════
 function initPatentIntel() {
@@ -6589,13 +6624,20 @@ function initPatentIntel() {
   const grid = document.getElementById('patent-grid');
   if (!grid) return;
 
+  // Raw CPC classification codes (e.g. "C12Q", "G06N") mean nothing to
+  // readers — only render human-readable tech-area labels as tags.
+  const isRawCpcCode = t => /^[A-HY]\d{2}[A-Z]?\d*(\/\d+)?$/.test(String(t).trim());
+
   // Merge editorial PATENT_INTEL with live PATENT_INTEL_AUTO
   const editorialCompanies = new Set();
   const allCards = [];
 
   // Editorial entries first (have IP moat scores)
   if (typeof PATENT_INTEL !== 'undefined') {
-    const sorted = [...PATENT_INTEL].sort((a, b) => (b.ipMoatScore || 0) - (a.ipMoatScore || 0));
+    // Rows pending manual review carry placeholder scores (5/10) and raw CPC
+    // codes as "tech areas" — exclude them until an editor verifies them.
+    const reviewed = PATENT_INTEL.filter(p => !(p.note || '').includes('Pending manual review'));
+    const sorted = [...reviewed].sort((a, b) => (b.ipMoatScore || 0) - (a.ipMoatScore || 0));
     sorted.forEach(p => {
       editorialCompanies.add(p.company);
       // Overlay live patent count if available
@@ -6627,7 +6669,7 @@ function initPatentIntel() {
             </div>
           </div>
           <div class="patent-tech-areas">
-            ${(p.techAreas || []).map(t => `<span class="patent-tech-tag">${t}</span>`).join('')}
+            ${(p.techAreas || []).filter(t => !isRawCpcCode(t)).map(t => `<span class="patent-tech-tag">${t}</span>`).join('')}
           </div>
           <p class="patent-note">${p.note || ''}</p>
         </div>
@@ -6642,7 +6684,7 @@ function initPatentIntel() {
       .sort((a, b) => b.patentCount - a.patentCount);
 
     liveOnly.forEach(p => {
-      const areas = (p.technologyAreas || []).slice(0, 4);
+      const areas = (p.technologyAreas || []).filter(t => !isRawCpcCode(t)).slice(0, 4);
       allCards.push(`
         <div class="patent-card" onclick="openCompanyModal('${(p.company || '').replace(/'/g, "\\'")}')">
           <div class="patent-card-header">
@@ -8509,7 +8551,7 @@ function initPortfolioBuilder() {
     const diversificationScore = Math.min(100, Math.round((uniqueSectors / Math.max(companies.length, 1)) * 100 * 1.5));
 
     const govCompanies = typeof GOV_CONTRACTS !== 'undefined'
-      ? companies.filter(c => GOV_CONTRACTS.some(g => g.company === c.name)).length
+      ? companies.filter(c => getGovContractCompanySet().has(c.name)).length
       : 0;
 
     document.getElementById('portfolio-metrics').innerHTML = `
@@ -8790,7 +8832,7 @@ function initPortfolioBuilder() {
       const results = companies.map(c => {
         const sectorImpact = config.sectors[c.sector] !== undefined ? config.sectors[c.sector] : (config.default || 0);
         // Gov traction multiplier — companies with gov contracts get amplified impact in defense/gov scenarios
-        const hasGovContracts = (typeof GOV_CONTRACTS !== 'undefined' && GOV_CONTRACTS.some(g => g.company === c.name));
+        const hasGovContracts = getGovContractCompanySet().has(c.name);
         const govMultiplier = hasGovContracts && sectorImpact > 0 ? 1.5 : hasGovContracts && sectorImpact < 0 ? 0.7 : 1;
         // Company-specific factors
         const score = c.score || 50;

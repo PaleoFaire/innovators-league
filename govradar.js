@@ -33,9 +33,19 @@ function parseUnit(val, unit) {
 function daysUntil(dateStr) {
   if (!dateStr) return Infinity;
   const target = new Date(dateStr + 'T00:00:00');
+  if (isNaN(target.getTime())) return Infinity; // "Rolling" and other non-dates
   const now = new Date();
   now.setHours(0, 0, 0, 0);
   return Math.ceil((target - now) / (1000 * 60 * 60 * 24));
+}
+
+// Sort key: open dated entries first (soonest first), then non-dated
+// entries ("Rolling" etc.), then closed entries last.
+function deadlineSortValue(deadline) {
+  var days = daysUntil(deadline);
+  if (!isFinite(days)) return 1e9;
+  if (days < 0) return 2e9 - days;
+  return days;
 }
 
 function deadlineClass(days) {
@@ -45,7 +55,8 @@ function deadlineClass(days) {
   return 'deadline-normal';
 }
 
-function deadlineText(days) {
+function deadlineText(days, rawDeadline) {
+  if (!isFinite(days)) return rawDeadline ? String(rawDeadline) : ''; // e.g. "Rolling"
   if (days < 0) return 'Closed';
   if (days === 0) return 'Today';
   if (days === 1) return '1 day';
@@ -289,13 +300,36 @@ function initHeroStats() {
   var sbir = (typeof SBIR_AWARDS_AUTO !== 'undefined') ? SBIR_AWARDS_AUTO : [];
   var contracts = (typeof GOV_CONTRACTS_AUTO !== 'undefined') ? GOV_CONTRACTS_AUTO : [];
 
-  // Count opportunities — demand signals + R&D awards
-  var oppCount = tracker.length + arpaE.length + nih.length + sbir.length;
-  animateCounter('gov-opp-count', oppCount);
+  // Quality demand signals only — raw auto-ingested rows (value TBD, no
+  // agency, no tech areas) are tracked but excluded from headline numbers.
+  var quality = tracker.filter(function(opp) {
+    return (opp.value && opp.value !== 'TBD') ||
+           (opp.agency && String(opp.agency).trim() !== '') ||
+           (opp.techAreas && opp.techAreas.length > 0);
+  });
+  var autoTracked = tracker.length - quality.length;
 
-  // Pipeline value — demand signals + ARPA-E + NIH + USAspending
+  // Set the final value synchronously first — the hero must never sit at
+  // its placeholder waiting for an IntersectionObserver or rAF callback —
+  // then let animateCounter play the count-up where frames are available.
+  function setStatText(id, text) {
+    var el = document.getElementById(id);
+    if (el) el.textContent = text;
+  }
+
+  // Count opportunities — quality demand signals + R&D awards
+  var oppCount = quality.length + arpaE.length + nih.length + sbir.length;
+  setStatText('gov-opp-count', oppCount.toLocaleString());
+  animateCounter('gov-opp-count', oppCount, { observe: false });
+
+  var breakdownEl = document.getElementById('gov-opp-breakdown');
+  if (breakdownEl) {
+    breakdownEl.textContent = quality.length.toLocaleString() + ' curated + ' + autoTracked.toLocaleString() + ' auto-tracked';
+  }
+
+  // Pipeline value — quality demand signals + ARPA-E + NIH + USAspending
   var totalVal = 0;
-  tracker.forEach(function(opp) { totalVal += parseValueToNumber(opp.value); });
+  quality.forEach(function(opp) { totalVal += parseValueToNumber(opp.value); });
   arpaE.forEach(function(p) { totalVal += (p.totalFunding || p.award || 0); });
   nih.forEach(function(g) { totalVal += (g.totalCost || g.awardAmount || 0); });
   contracts.forEach(function(c) { totalVal += parseValueToNumber(c.totalGovValue); });
@@ -303,9 +337,13 @@ function initHeroStats() {
   var pipelineEl = document.getElementById('gov-pipeline-value');
   if (pipelineEl) {
     if (totalVal >= 1e9) {
-      animateCounter('gov-pipeline-value', Math.round(totalVal / 1e9 * 10) / 10, { prefix: '$', suffix: 'B+' });
+      var bVal = Math.round(totalVal / 1e9 * 10) / 10;
+      pipelineEl.textContent = '$' + bVal + 'B+';
+      animateCounter('gov-pipeline-value', bVal, { prefix: '$', suffix: 'B+', observe: false });
     } else if (totalVal >= 1e6) {
-      animateCounter('gov-pipeline-value', Math.round(totalVal / 1e6), { prefix: '$', suffix: 'M+' });
+      var mVal = Math.round(totalVal / 1e6);
+      pipelineEl.textContent = '$' + mVal + 'M+';
+      animateCounter('gov-pipeline-value', mVal, { prefix: '$', suffix: 'M+', observe: false });
     } else {
       pipelineEl.textContent = formatCurrency(totalVal);
     }
@@ -313,11 +351,12 @@ function initHeroStats() {
 
   // Unique agencies — include federal R&D sources
   var agencies = new Set();
-  tracker.forEach(function(opp) { if (opp.agency) agencies.add(opp.agency); });
+  quality.forEach(function(opp) { if (opp.agency) agencies.add(opp.agency); });
   if (arpaE.length > 0) agencies.add('ARPA-E');
   if (nih.length > 0) agencies.add('NIH');
   if (sbir.length > 0) agencies.add('SBIR/STTR');
-  animateCounter('gov-agencies', agencies.size);
+  setStatText('gov-agencies', String(agencies.size));
+  animateCounter('gov-agencies', agencies.size, { observe: false });
 }
 
 // ─── 2. DEMAND HEATMAP ───
@@ -460,17 +499,19 @@ function initOpportunities() {
     document.getElementById('opp-priority-filter').addEventListener('change', renderOpportunities);
   }
 
-  renderOpportunities();
-
+  // Pagination state must be assigned BEFORE the first render — otherwise
+  // oppShown is undefined and slice(0, undefined) renders every card.
   var OPP_INITIAL = 15;
   var OPP_STEP = 15;
   var oppShown = OPP_INITIAL;
   var lastOppList = null;
 
+  renderOpportunities();
+
   function oppCardHTML(opp) {
     var days = daysUntil(opp.deadline);
     var dlClass = deadlineClass(days);
-    var dlText = deadlineText(days);
+    var dlText = deadlineText(days, opp.deadline);
     var typeBadge = oppTypeBadgeClass(opp.type);
     var priClass = priorityColor(opp.priority);
 
@@ -482,14 +523,16 @@ function initOpportunities() {
     html += '<span class="opp-priority-badge ' + priClass + '">' + escapeHtml(opp.priority || '') + '</span>';
     html += '</div>';
     html += '<div class="opp-title">' + escapeHtml(opp.title) + '</div>';
-    html += '<div class="opp-agency">' + escapeHtml(opp.agency || '') + '</div>';
+    if (opp.agency) {
+      html += '<div class="opp-agency">' + escapeHtml(opp.agency) + '</div>';
+    }
     html += '</div>';
     html += '</div>';
-    if (opp.description) {
+    if (opp.description && opp.description !== opp.title) {
       html += '<div class="opp-desc">' + escapeHtml(opp.description) + '</div>';
     }
     html += '<div class="opp-meta">';
-    if (opp.value) {
+    if (opp.value && opp.value !== 'TBD') {
       html += '<span class="opp-value">' + escapeHtml(opp.value) + '</span>';
     }
     if (opp.deadline) {
@@ -526,10 +569,12 @@ function initOpportunities() {
       return true;
     });
 
-    // Sort by deadline (soonest first), put null deadlines at end
+    // Sort by deadline (soonest first); non-dated deadlines ("Rolling")
+    // after dated ones, closed opportunities at the end
     filtered.sort(function(a, b) {
-      var da = daysUntil(a.deadline);
-      var db = daysUntil(b.deadline);
+      var da = deadlineSortValue(a.deadline);
+      var db = deadlineSortValue(b.deadline);
+      if (da === db) return 0;
       return da - db;
     });
 
@@ -571,11 +616,9 @@ function initOpportunities() {
           oppShown = OPP_INITIAL;
           gridEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
-        // Re-render while keeping the filter key stable
-        var savedKey = lastOppList;
-        lastOppList = null;
+        // Re-render; the filter key is unchanged, so the reset branch is
+        // skipped and the updated oppShown takes effect
         renderOpportunities();
-        lastOppList = savedKey;
       });
     }
   }
@@ -1122,13 +1165,15 @@ function initCompanyMatch() {
     opps.forEach(function(opp) {
       var days = daysUntil(opp.deadline);
       var dlClass = deadlineClass(days);
-      var dlText = opp.deadline ? (deadlineText(days)) : '';
+      var dlText = opp.deadline ? (deadlineText(days, opp.deadline)) : '';
       html += '<div class="match-opp-item">';
       html += '<div class="match-opp-item-title">' + escapeHtml(opp.title) + '</div>';
       html += '<div class="match-opp-item-meta">';
-      html += escapeHtml(opp.agency || '');
-      if (opp.value) html += ' &middot; ' + escapeHtml(opp.value);
-      if (dlText) html += ' &middot; <span class="' + dlClass + '" style="padding:1px 4px;border-radius:3px;font-weight:600;">' + dlText + '</span>';
+      var metaParts = [];
+      if (opp.agency) metaParts.push(escapeHtml(opp.agency));
+      if (opp.value && opp.value !== 'TBD') metaParts.push(escapeHtml(opp.value));
+      if (dlText) metaParts.push('<span class="' + dlClass + '" style="padding:1px 4px;border-radius:3px;font-weight:600;">' + dlText + '</span>');
+      html += metaParts.join(' &middot; ');
       html += '</div>';
       html += '</div>';
     });
@@ -1223,13 +1268,19 @@ function initDemandRadar() {
       return true;
     });
 
-    // Sort: Critical first, then by deadline
+    // Sort: open signals before closed ones, then Critical first, then by deadline
     var priorityOrder = { 'Critical': 0, 'High': 1, 'Medium': 2, 'Low': 3 };
     filtered.sort(function(a, b) {
+      var da = deadlineSortValue(a.deadline);
+      var db = deadlineSortValue(b.deadline);
+      var aClosed = da >= 2e9 ? 1 : 0;
+      var bClosed = db >= 2e9 ? 1 : 0;
+      if (aClosed !== bClosed) return aClosed - bClosed;
       var pa = priorityOrder[a.priority] !== undefined ? priorityOrder[a.priority] : 4;
       var pb = priorityOrder[b.priority] !== undefined ? priorityOrder[b.priority] : 4;
       if (pa !== pb) return pa - pb;
-      return daysUntil(a.deadline) - daysUntil(b.deadline);
+      if (da === db) return 0;
+      return da - db;
     });
 
     // Stats
@@ -1268,7 +1319,7 @@ function initDemandRadar() {
     filtered.forEach(function(signal, idx) {
       var days = daysUntil(signal.deadline);
       var dlClass = deadlineClass(days);
-      var dlText = deadlineText(days);
+      var dlText = deadlineText(days, signal.deadline);
       var typeBadge = oppTypeBadgeClass(signal.type);
       var priClass = priorityColor(signal.priority);
 
@@ -1287,17 +1338,19 @@ function initDemandRadar() {
       html += '<span class="radar-source-badge ' + srcClass + '">' + escapeHtml(srcLabel) + '</span>';
       html += '</div>';
       html += '<div class="radar-card-title">' + escapeHtml(signal.title) + '</div>';
-      html += '<div class="radar-card-agency">' + escapeHtml(signal.agency || '') + '</div>';
+      if (signal.agency) {
+        html += '<div class="radar-card-agency">' + escapeHtml(signal.agency) + '</div>';
+      }
       html += '</div></div>';
 
-      // Description
-      if (signal.description) {
+      // Description (suppressed when it just repeats the title)
+      if (signal.description && signal.description !== signal.title) {
         html += '<div class="radar-card-desc">' + escapeHtml(signal.description) + '</div>';
       }
 
       // Meta
       html += '<div class="radar-card-meta">';
-      if (signal.value) html += '<span class="radar-card-value">' + escapeHtml(signal.value) + '</span>';
+      if (signal.value && signal.value !== 'TBD') html += '<span class="radar-card-value">' + escapeHtml(signal.value) + '</span>';
       if (signal.deadline) html += '<span class="opp-deadline ' + dlClass + '">' + dlText + '</span>';
       if (signal.techAreas && signal.techAreas.length > 0) {
         signal.techAreas.slice(0, 5).forEach(function(t) {
@@ -2115,7 +2168,7 @@ function initSbirTracker() {
   sorted.forEach(function(topic) {
     var days = daysUntil(topic.closeDate);
     var dlClass = deadlineClass(days);
-    var dlText = days < 0 ? 'Closed' : days === 0 ? 'Closes today' : days + 'd left';
+    var dlText = !isFinite(days) ? escapeHtml(topic.closeDate || '') : days < 0 ? 'Closed' : days === 0 ? 'Closes today' : days + 'd left';
     var typeClass = topic.type === 'STTR' ? 'sbir-type-sttr' : 'sbir-type-sbir';
     var phaseClass = topic.phase === 'Phase II' ? 'sbir-phase-ii' : 'sbir-phase-i';
 

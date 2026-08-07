@@ -10,6 +10,16 @@
   let currentCompany = null;
   let hiringChart = null;
 
+  // Alias-aware dataset join: signal feeds sometimes use shorthand names
+  // ("Anduril" for "Anduril Industries"). Delegates to the shared resolver
+  // in app.js so flagship profiles stop reporting "No data on record".
+  function matchesCompany(datasetName, company) {
+    if (!datasetName || !company) return false;
+    if (datasetName === company.name) return true;
+    return (typeof resolveCompanyName === 'function') &&
+           resolveCompanyName(datasetName) === company.name;
+  }
+
   // ─── INITIALIZATION ───
   document.addEventListener('DOMContentLoaded', function() {
     // Wait for auth to be ready before initializing
@@ -144,6 +154,7 @@
               ${sectorInfo.icon} ${escapeHtml(company.sector)}
             </span>
             ${company.signal ? `<span class="signal-badge-large ${company.signal}">${getSignalIcon(company.signal)} ${company.signal.toUpperCase()}</span>` : ''}
+            ${(typeof renderStatusChip === 'function') ? renderStatusChip(company) : ''}
             ${company.tbpnMentioned ? '<span class="signal-badge-large" style="background:#22c55e15; color:#22c55e; border:1px solid #22c55e40;">✓ TBPN Featured</span>' : ''}
           </div>
           <div class="company-logo-icon" style="width:72px; height:72px; border-radius:16px; background:${sectorInfo.color}20; border:2px solid ${sectorInfo.color}40; display:flex; align-items:center; justify-content:center; font-size:36px; margin:12px 0;">
@@ -172,7 +183,7 @@
       <div class="hero-stats-grid">
         ${company.fundingStage ? `<div class="hero-stat"><div class="hero-stat-value">${escapeHtml(company.fundingStage)}</div><div class="hero-stat-label">Stage</div></div>` : ''}
         ${company.totalRaised ? `<div class="hero-stat"><div class="hero-stat-value">${escapeHtml(company.totalRaised)}</div><div class="hero-stat-label">Total Raised</div></div>` : ''}
-        ${company.valuation ? `<div class="hero-stat"><div class="hero-stat-value">${escapeHtml(company.valuation)}</div><div class="hero-stat-label">Valuation</div></div>` : `<div class="hero-stat"><div class="hero-stat-value" style="font-size:14px; color:var(--text-muted);">Undisclosed</div><div class="hero-stat-label">Valuation</div></div>`}
+        ${company.valuation ? `<div class="hero-stat"><div class="hero-stat-value${String(company.valuation).toLowerCase() === 'undisclosed' ? ' valuation-undisclosed' : ''}">${escapeHtml(company.valuation)}</div>${company.valuationType === 'disclosed' ? `<span class="trust-chip" title="${escapeHtml(company.valuationAsOf || 'Disclosed valuation')}">✓ disclosed</span>` : ''}<div class="hero-stat-label">Valuation</div></div>` : `<div class="hero-stat"><div class="hero-stat-value valuation-undisclosed" style="font-size:14px; color:var(--text-muted);">Undisclosed</div><div class="hero-stat-label">Valuation</div></div>`}
         ${company.employees ? `<div class="hero-stat"><div class="hero-stat-value">${escapeHtml(company.employees)}</div><div class="hero-stat-label">Employees</div></div>` : ''}
         ${getTRL(company) ? `<div class="hero-stat"><div class="hero-stat-value">TRL ${getTRL(company)}</div><div class="hero-stat-label">Tech Readiness</div></div>` : ''}
       </div>
@@ -318,7 +329,7 @@
 
     // Get funding rounds from FUNDING_TRACKER
     const rounds = typeof FUNDING_TRACKER !== 'undefined'
-      ? FUNDING_TRACKER.filter(f => f.company === company.name).sort((a, b) => new Date(b.date) - new Date(a.date))
+      ? FUNDING_TRACKER.filter(f => matchesCompany(f.company, company)).sort((a, b) => new Date(b.date) - new Date(a.date))
       : [];
 
     if (rounds.length === 0) {
@@ -353,14 +364,15 @@
   function renderContracts(company) {
     const container = document.getElementById('contracts-list');
 
-    // Get contracts from GOV_CONTRACTS
+    // Get contracts from GOV_CONTRACTS (alias-aware: "Anduril" rows must
+    // surface on the "Anduril Industries" profile)
     const contracts = typeof GOV_CONTRACTS !== 'undefined'
-      ? GOV_CONTRACTS.filter(c => c.company === company.name).slice(0, 5)
+      ? GOV_CONTRACTS.filter(c => matchesCompany(c.company, company)).slice(0, 5)
       : [];
 
     // Also check GOV_CONTRACTS for intel
     const contractIntel = typeof GOV_CONTRACTS !== 'undefined'
-      ? GOV_CONTRACTS.find(c => c.company === company.name)
+      ? GOV_CONTRACTS.find(c => matchesCompany(c.company, company))
       : null;
 
     if (contracts.length === 0 && !contractIntel) {
@@ -404,7 +416,7 @@
 
     // Get alt data for hiring info
     const altData = typeof ALT_DATA_SIGNALS !== 'undefined'
-      ? ALT_DATA_SIGNALS.find(a => a.company === company.name)
+      ? ALT_DATA_SIGNALS.find(a => matchesCompany(a.company, company))
       : null;
 
     if (!altData) {
@@ -510,7 +522,7 @@
     // Check news for milestones
     if (typeof NEWS_FEED !== 'undefined') {
       const companyNews = NEWS_FEED
-        .filter(n => n.companies?.includes(company.name))
+        .filter(n => n.companies?.some(cn => matchesCompany(cn, company)))
         .slice(0, 3)
         .map(n => ({
           date: n.date,
@@ -803,9 +815,9 @@
     var cardTitle = document.querySelector('#moat-card h3');
     if (cardTitle) cardTitle.textContent = 'Technical Moat Breakdown';
 
-    // Cross-reference data
-    var patent = (typeof PATENT_INTEL !== 'undefined') ? PATENT_INTEL.find(function(p) { return p.company === company.name; }) : null;
-    var govContract = (typeof GOV_CONTRACTS !== 'undefined') ? GOV_CONTRACTS.find(function(g) { return g.company === company.name; }) : null;
+    // Cross-reference data (alias-aware joins; skip unreviewed patent rows)
+    var patent = (typeof PATENT_INTEL !== 'undefined') ? PATENT_INTEL.find(function(p) { return matchesCompany(p.company, company) && !(p.note || '').includes('Pending manual review'); }) : null;
+    var govContract = (typeof GOV_CONTRACTS !== 'undefined') ? GOV_CONTRACTS.find(function(g) { return matchesCompany(g.company, company); }) : null;
     var trlEntry = (typeof TRL_RANKINGS !== 'undefined') ? TRL_RANKINGS.find(function(t) { return t.company === company.name; }) : null;
     var trlVal = trlEntry ? trlEntry.trl : null;
 
@@ -911,9 +923,9 @@
 
   function renderBasicMoatEvidence(container, company) {
     // Fallback: original 4-tile display for companies without MOAT_PROFILES entry
-    var patent = (typeof PATENT_INTEL !== 'undefined') ? PATENT_INTEL.find(function(p) { return p.company === company.name; }) : null;
-    var govContract = (typeof GOV_CONTRACTS !== 'undefined') ? GOV_CONTRACTS.find(function(g) { return g.company === company.name; }) : null;
-    var altData = (typeof ALT_DATA_SIGNALS !== 'undefined') ? ALT_DATA_SIGNALS.find(function(a) { return a.company === company.name; }) : null;
+    var patent = (typeof PATENT_INTEL !== 'undefined') ? PATENT_INTEL.find(function(p) { return matchesCompany(p.company, company) && !(p.note || '').includes('Pending manual review'); }) : null;
+    var govContract = (typeof GOV_CONTRACTS !== 'undefined') ? GOV_CONTRACTS.find(function(g) { return matchesCompany(g.company, company); }) : null;
+    var altData = (typeof ALT_DATA_SIGNALS !== 'undefined') ? ALT_DATA_SIGNALS.find(function(a) { return matchesCompany(a.company, company); }) : null;
 
     var ipMoat = patent ? { value: patent.ipMoatScore + '/10', strength: patent.ipMoatScore >= 7 ? 'strong' : patent.ipMoatScore >= 5 ? 'medium' : 'weak' } : { value: '?', strength: 'weak' };
     var govMoat = govContract ? { value: govContract.totalContracts ? govContract.totalContracts + ' contracts' : 'Active', strength: 'strong' } : { value: 'None', strength: 'weak' };
@@ -953,9 +965,11 @@
   function renderPatentIntel(company) {
     const container = document.getElementById('patent-intel');
 
-    // Check editorial data first, then fall back to live USPTO data
-    const patent = typeof PATENT_INTEL !== 'undefined' ? PATENT_INTEL.find(p => p.company === company.name) : null;
-    const livePatent = typeof PATENT_INTEL_AUTO !== 'undefined' ? PATENT_INTEL_AUTO.find(p => p.company === company.name) : null;
+    // Check editorial data first, then fall back to live USPTO data.
+    // Skip auto-detected editorial rows pending manual review — their 5/10
+    // ipMoatScore is a placeholder, not a real score.
+    const patent = typeof PATENT_INTEL !== 'undefined' ? PATENT_INTEL.find(p => matchesCompany(p.company, company) && !(p.note || '').includes('Pending manual review')) : null;
+    const livePatent = typeof PATENT_INTEL_AUTO !== 'undefined' ? PATENT_INTEL_AUTO.find(p => matchesCompany(p.company, company)) : null;
 
     if (!patent && !livePatent) {
       container.innerHTML = '<div class="no-data"><p>No patent data available</p></div>';
@@ -1023,7 +1037,7 @@
   function renderAltData(company) {
     const container = document.getElementById('alt-data');
 
-    const altData = typeof ALT_DATA_SIGNALS !== 'undefined' ? ALT_DATA_SIGNALS.find(a => a.company === company.name) : null;
+    const altData = typeof ALT_DATA_SIGNALS !== 'undefined' ? ALT_DATA_SIGNALS.find(a => matchesCompany(a.company, company)) : null;
 
     if (!altData) {
       container.innerHTML = '<div class="no-data"><p>No alternative data signals</p></div>';
@@ -1103,7 +1117,7 @@
     const container = document.getElementById('news-feed');
 
     const news = typeof NEWS_FEED !== 'undefined'
-      ? NEWS_FEED.filter(n => n.companies?.includes(company.name) || n.headline?.includes(company.name)).slice(0, 5)
+      ? NEWS_FEED.filter(n => n.companies?.some(cn => matchesCompany(cn, company)) || n.headline?.includes(company.name)).slice(0, 5)
       : [];
 
     if (news.length === 0) {
@@ -1630,6 +1644,13 @@
     allSignals.forEach(d => {
       if (!d) return;
 
+      // Skip opportunities whose submission window has already closed —
+      // a past-deadline solicitation is not an actionable demand signal.
+      if (d.deadline && d.deadline !== 'Rolling') {
+        const dl = new Date(d.deadline);
+        if (!isNaN(dl.getTime()) && dl.getTime() < Date.now() - 86400000) return;
+      }
+
       // Strategy 1: Pre-computed matchedCompanies (from auto-generated data)
       const autoMatch = (d.matchedCompanies || []).find(mc => mc.name.toLowerCase() === companyNameLower);
       if (autoMatch) {
@@ -1692,7 +1713,7 @@
             </div>
           </div>
           <div class="demand-tech">${escapeHtml(m.signal.title || 'Technology Area')}</div>
-          ${m.signal.value ? `<div class="demand-value">${escapeHtml(m.signal.value)}</div>` : ''}
+          ${m.signal.value && String(m.signal.value).trim().toUpperCase() !== 'TBD' ? `<div class="demand-value">${escapeHtml(m.signal.value)}</div>` : ''}
           ${m.signal.deadline && m.signal.deadline !== 'Rolling' ? `<div class="demand-timeline">Deadline: ${escapeHtml(m.signal.deadline)}</div>` : ''}
           ${m.reasons.length > 0 ? `<div style="font-size:10px;color:var(--text-muted);margin-top:2px;">${m.reasons.slice(0, 3).map(r => escapeHtml(r)).join(' + ')}</div>` : ''}
         </div>`;
@@ -2279,18 +2300,18 @@
       ? INNOVATOR_SCORES.find(function(s) { return s.company === company.name; }) : null;
 
     var fundingRounds = (typeof FUNDING_TRACKER !== 'undefined')
-      ? FUNDING_TRACKER.filter(function(f) { return f.company === company.name; }) : [];
+      ? FUNDING_TRACKER.filter(function(f) { return matchesCompany(f.company, company); }) : [];
     var dealEntries = (typeof DEAL_TRACKER !== 'undefined')
-      ? DEAL_TRACKER.filter(function(d) { return d.company === company.name; }) : [];
+      ? DEAL_TRACKER.filter(function(d) { return matchesCompany(d.company, company); }) : [];
 
     var govContracts = (typeof GOV_CONTRACTS !== 'undefined')
-      ? GOV_CONTRACTS.filter(function(g) { return g.company === company.name; }) : [];
+      ? GOV_CONTRACTS.filter(function(g) { return matchesCompany(g.company, company); }) : [];
     var sbirAwards = (typeof SBIR_AWARDS !== 'undefined')
-      ? SBIR_AWARDS.filter(function(s) { return s.company === company.name; }) : [];
+      ? SBIR_AWARDS.filter(function(s) { return matchesCompany(s.company, company); }) : [];
     var patents = (typeof PATENT_INTEL !== 'undefined')
-      ? PATENT_INTEL.find(function(p) { return p.company === company.name; }) : null;
+      ? PATENT_INTEL.find(function(p) { return matchesCompany(p.company, company) && !(p.note || '').includes('Pending manual review'); }) : null;
     var headcount = (typeof HEADCOUNT_ESTIMATES !== 'undefined')
-      ? HEADCOUNT_ESTIMATES.find(function(h) { return h.company === company.name; }) : null;
+      ? HEADCOUNT_ESTIMATES.find(function(h) { return matchesCompany(h.company, company); }) : null;
     var moat = (typeof MOAT_PROFILES !== 'undefined')
       ? MOAT_PROFILES.find(function(m) { return m.company === company.name; }) : null;
     var founderDna = (typeof FOUNDER_DNA !== 'undefined')
@@ -2715,31 +2736,31 @@
     // Funding history
     var fundingEntries = [];
     if (typeof DEAL_TRACKER !== 'undefined') {
-      fundingEntries = DEAL_TRACKER.filter(function(d) { return d.company === c.name; });
+      fundingEntries = DEAL_TRACKER.filter(function(d) { return matchesCompany(d.company, c); });
     }
 
     // Gov contracts
     var govContracts = [];
     if (typeof GOV_CONTRACTS !== 'undefined') {
-      govContracts = GOV_CONTRACTS.filter(function(g) { return g.company === c.name; });
+      govContracts = GOV_CONTRACTS.filter(function(g) { return matchesCompany(g.company, c); });
     }
 
     // SBIR awards
     var sbirAwards = [];
     if (typeof SBIR_AWARDS !== 'undefined') {
-      sbirAwards = SBIR_AWARDS.filter(function(s) { return s.company === c.name; });
+      sbirAwards = SBIR_AWARDS.filter(function(s) { return matchesCompany(s.company, c); });
     }
 
     // Patent intel
     var patents = null;
     if (typeof PATENT_INTEL !== 'undefined') {
-      patents = PATENT_INTEL.find(function(p) { return p.company === c.name; });
+      patents = PATENT_INTEL.find(function(p) { return matchesCompany(p.company, c) && !(p.note || '').includes('Pending manual review'); });
     }
 
     // Headcount
     var headcount = null;
     if (typeof HEADCOUNT_ESTIMATES !== 'undefined') {
-      headcount = HEADCOUNT_ESTIMATES.find(function(h) { return h.company === c.name; });
+      headcount = HEADCOUNT_ESTIMATES.find(function(h) { return matchesCompany(h.company, c); });
     }
 
     // Founder DNA

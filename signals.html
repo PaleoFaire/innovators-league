@@ -336,7 +336,7 @@
                 <div class="nav-dropdown-content">
                     <a href="brief.html" class="nav-dropdown-link" data-nav-id="brief">📰 Frontier Daily</a>
                     <a href="signals.html" class="nav-dropdown-link" data-nav-id="signals" aria-current="page" style="color:var(--color-primary-bright)">🔴 Proprietary Signals</a>
-                    <a href="discovery.html" class="nav-dropdown-link" data-nav-id="discovery">🌟 Discovery Queue</a>
+                    <!-- Discovery Queue unlinked from member nav (page kept at discovery.html) -->
                     <a href="power-grid.html" class="nav-dropdown-link" data-nav-id="power-grid">⚡ Power Grid</a>
                     <a href="alerts.html" class="nav-dropdown-link" data-nav-id="alerts">🔔 Alerts</a>
                 </div>
@@ -418,7 +418,8 @@
         <div class="signal-head">
           <div>
             <h2 class="signal-title">🚨 Export Controls / Entity List Watch</h2>
-            <p class="signal-subtitle">Cross-references all 868 tracked companies against the BIS Entity List, OFAC SDN, Commerce Denied Persons, ITAR Debarred, and 10 other restricted-party lists — every day. Unique: no competitor tracks this systematically.</p>
+            <!-- build-stat: keep in sync -->
+            <p class="signal-subtitle">Cross-references all 985 tracked companies against the BIS Entity List, OFAC SDN, Commerce Denied Persons, ITAR Debarred, and 10 other restricted-party lists — every day. Unique: no competitor tracks this systematically.</p>
           </div>
           <div class="signal-meta">
             <span class="sig-count" id="ec-count">—</span>
@@ -454,7 +455,8 @@
         <div class="signal-head">
           <div>
             <h2 class="signal-title">🎯 DoD SBIR Topic Bid-Fit</h2>
-            <p class="signal-subtitle">Active SBIR solicitations matched against all 868 companies via TF-IDF scoring over their curated descriptions. Predictive: which of our tracked companies will most likely win each topic.</p>
+            <!-- build-stat: keep in sync -->
+            <p class="signal-subtitle">Active SBIR solicitations matched against all 985 companies via TF-IDF scoring over their curated descriptions. Predictive: which of our tracked companies will most likely win each topic.</p>
           </div>
           <div class="signal-meta">
             <span class="sig-count" id="sbir-count">—</span>
@@ -556,6 +558,21 @@
     <script src="data/youtube_mentions_auto.js?v=20260501"></script>
     <script src="data/bill_of_lading_auto.js?v=20260501"></script>
     <script src="signals.js?v=20260501"></script>
+    <script>
+    // Members should never see internal setup instructions. If the trademark
+    // feed is still awaiting its API key, signals.js renders a "set
+    // USPTO_API_KEY in GitHub Actions secrets" placeholder — swap it for a
+    // graceful coming-soon note. (Runs after signals.js's DOMContentLoaded
+    // boot because listeners fire in registration order.)
+    document.addEventListener('DOMContentLoaded', function () {
+      var tmBody = document.getElementById('tm-body');
+      if (!tmBody) return;
+      var placeholder = tmBody.querySelector('.tm-placeholder');
+      if (placeholder && /API key/i.test(placeholder.textContent || '')) {
+        tmBody.innerHTML = '<div class="tm-placeholder">Trademark signal coming soon — the USPTO feed is being connected. Check back shortly.</div>';
+      }
+    });
+    </script>
     <script src="cookie-consent.js?v=20260501"></script>
 </body>
 </html>
