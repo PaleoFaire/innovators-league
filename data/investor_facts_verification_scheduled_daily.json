@@ -1,18 +1,17 @@
 {
-  "generatedAt": "2026-08-07T07:04:20+00:00",
+  "generatedAt": "2026-08-08T05:51:24+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
-  "cohortSize": 3,
-  "newExtractionsThisRun": 3,
+  "cohortSize": 2,
+  "newExtractionsThisRun": 2,
   "summary": {
-    "cleared": 3,
+    "cleared": 2,
     "changesProposed": 0,
     "unverifiable": 0
   },
   "cleared": [
     "Breakthrough Energy",
-    "Engine Ventures",
-    "Future Ventures"
+    "Engine Ventures"
   ],
   "changesProposed": [],
   "unverifiable": []

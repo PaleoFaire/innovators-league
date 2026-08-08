@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-07T07:03:48+00:00",
+  "generatedAt": "2026-08-08T05:50:57+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 39,
-  "newExtractionsThisRun": 39,
+  "cohortSize": 43,
+  "newExtractionsThisRun": 43,
   "summary": {
-    "cleared": 35,
-    "changesProposed": 4,
+    "cleared": 36,
+    "changesProposed": 7,
     "unverifiable": 0
   },
   "cleared": [
@@ -24,60 +24,262 @@
     "Durin",
     "Fire Point",
     "Firestorm Labs",
+    "Galvanick",
     "GrayMatter Robotics",
+    "Hadrian",
+    "Humanoid",
     "ICEYE",
     "ICON",
+    "Nano Nuclear Energy",
     "Oklo",
     "Palantir",
     "Path Robotics",
     "Percepto",
     "PsiQuantum",
     "Quaise Energy",
-    "Quantum-Systems",
     "Radiant",
-    "Rebellions",
     "Rivian",
     "Rocket Lab",
     "Saildrone",
     "Umbra",
     "Valar Atomics",
     "Waymo",
-    "Wayve",
     "Xtend",
     "ideaForge"
   ],
   "changesProposed": [
     {
-      "name": "Hadrian",
+      "name": "1X Technologies",
       "current": {
-        "name": "Hadrian",
-        "founder": "Chris Power",
-        "location": "Torrance, CA",
-        "founded": 2020,
-        "fundingStage": "Series C",
-        "totalRaised": "$560M",
-        "website": "https://www.hadrian.co"
+        "name": "1X Technologies",
+        "founder": "Bernt \u00d8ivind B\u00f8rnich",
+        "location": "Palo Alto, California",
+        "founded": 2014,
+        "fundingStage": "Series B",
+        "totalRaised": "$123.5M",
+        "website": "https://1xtechnologies.com"
       },
       "verified": {
-        "name": "Hadrian",
-        "description": "AI-powered precision manufacturing company that builds automated factories to produce mission-critical metal parts for defense and aerospace applications, powered by its Opus platform for factory autonomy.",
-        "founders": null,
-        "location": "Torrance, CA",
-        "founded_year": 2020,
-        "current_stage": null,
-        "total_raised": "$1.37B",
-        "valuation": "$8B",
+        "name": "1X Technologies",
+        "description": "Norwegian-American robotics company developing general-purpose humanoid robots for home environments. The company produces humanoid robots including EVE (for industrial use) and NEO (for residential use).",
+        "founders": [
+          "Bernt \u00d8ivind B\u00f8rnich"
+        ],
+        "location": "Palo Alto, California, USA",
+        "founded_year": 2014,
+        "current_stage": "Series B",
+        "total_raised": "$123.5M",
+        "valuation": null,
+        "investors": [
+          "OpenAI Startup Fund",
+          "Tiger Global",
+          "Sandwater",
+          "Alliance Ventures",
+          "Skagerak Capital",
+          "EQT Ventures",
+          "Samsung NEXT",
+          "Nistad Group"
+        ],
+        "website": "https://1x.tech",
+        "sources_per_field": {
+          "name": [
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            2
+          ]
+        },
+        "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Series A2 funding of $23.5M in March 2023 led by OpenAI Startup Fund. Series B funding of $100M in January 2024 led by EQT Ventures. Manufacturing operations in Hayward, California and Moss, Norway. NEO pre-orders opened October 28, 2025 at $20,000 with planned 2026 release."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Palo Alto, California",
+          "verified": "Palo Alto, California, USA",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://1xtechnologies.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://1xtechnologies.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1X_Technologies"
+        },
+        {
+          "idx": 3,
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/08/07/mitsubishi-joins-the-humanoid-robot-race-at-a-1000-unit-per-month-pace/"
+        }
+      ],
+      "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Series A2 funding of $23.5M in March 2023 led by OpenAI Startup Fund. Series B funding of $100M in January 2024 led by EQT Ventures. Manufacturing operations in Hayward, California and Moss, Norway. NEO pre-orders opened October 28, 2025 at $20,000 with planned 2026 release."
+    },
+    {
+      "name": "Agility Robotics",
+      "current": {
+        "name": "Agility Robotics",
+        "founder": "Jonathan Hurst, Damion Shelton, Mikhail Jones",
+        "location": "Salem, Oregon",
+        "founded": 2015,
+        "fundingStage": "Series D",
+        "totalRaised": "$400M+",
+        "website": "https://agilityrobotics.com"
+      },
+      "verified": {
+        "name": "Agility Robotics",
+        "description": "A humanoid robotics company that develops and deploys Digit, a bipedal humanoid robot for warehouse and logistics automation. Digit is the first humanoid robot deployed in real commercial operations at companies including Amazon, GXO Logistics, and Toyota.",
+        "founders": [
+          "Jonathan Hurst",
+          "Damion Shelton",
+          "Mikhail Jones"
+        ],
+        "location": "Salem, Oregon",
+        "founded_year": 2015,
+        "current_stage": "Pre-IPO",
+        "total_raised": null,
+        "valuation": null,
         "investors": null,
-        "website": "https://www.hadrian.co",
+        "website": "https://agilityrobotics.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            0
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Company rebranded from 'Agility Robotics' to 'Agility' on March 5, 2026 (per source 2). Commercial deployments confirmed at Amazon, GXO Logistics, Toyota, and Mercado Libre (per source 1). Sources do not provide verified total funding raised, valuation, or specific investor list."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series D",
+          "verified": "Pre-IPO",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://agilityrobotics.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://agilityrobotics.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Agility_Robotics"
+        },
+        {
+          "idx": 3,
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/08/07/mitsubishi-joins-the-humanoid-robot-race-at-a-1000-unit-per-month-pace/"
+        }
+      ],
+      "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Company rebranded from 'Agility Robotics' to 'Agility' on March 5, 2026 (per source 2). Commercial deployments confirmed at Amazon, GXO Logistics, Toyota, and Mercado Libre (per source 1). Sources do not provide verified total funding raised, valuation, or specific investor list."
+    },
+    {
+      "name": "Quantum-Systems",
+      "current": {
+        "name": "Quantum-Systems",
+        "founder": "Florian Seibel",
+        "location": "Gilching, Germany",
+        "founded": 2015,
+        "fundingStage": "Series C",
+        "totalRaised": "$160M",
+        "website": "https://quantum-systems.com"
+      },
+      "verified": {
+        "name": "Quantum-Systems",
+        "description": "German technology company that develops and produces unmanned aerial vehicles (UAVs/drones) for agriculture, surveillance, and defense applications. Specializes in electric vertical take-off and landing (eVTOL) systems.",
+        "founders": [
+          "Florian Seibel"
+        ],
+        "location": "Gilching, Germany",
+        "founded_year": 2015,
+        "current_stage": null,
+        "total_raised": "$1.2B",
+        "valuation": "$8B",
+        "investors": [
+          "HV Capital",
+          "DTCP",
+          "Thiel Capital",
+          "Project A",
+          "Airbus Ventures",
+          "Omnes Capital",
+          "ScaleUp Fonds Bayern"
+        ],
+        "website": "https://quantum-systems.com",
         "sources_per_field": {
           "name": [
             0,
             1
           ],
           "description": [
-            0,
-            1,
-            3
+            1
+          ],
+          "founders": [
+            1
           ],
           "location": [
             1
@@ -86,25 +288,28 @@
             1
           ],
           "total_raised": [
-            3
+            1
           ],
           "valuation": [
-            3
+            1
+          ],
+          "investors": [
+            1
           ],
           "website": [
             0,
             1
           ]
         },
-        "notes": "Source [2] is Wikipedia article about Roman emperor Hadrian, not the company. Source [3] is a TechCrunch article dated 2026/08/06 reporting a $1.37B raise at $8B valuation, which supersedes the database entry's $560M raised at $1.6B valuation. Founder name 'Chris Power' could not be verified from provided sources. Current stage could not be determined from sources. Specific investor names beyond those in database entry could not be extracted from provided sources."
+        "notes": "Source [2] (SpaceNews article) is about radar-data contracts for different companies (Capella, Iceye, Umbra) and does not contain information about Quantum-Systems. Founded by former Bundeswehr officer and military helicopter pilot Florian Seibel in January 2015. In July 2026, Quantum Systems completed a $1.2B fundraising round, setting valuation at $8B according to Wikipedia."
       },
       "changes": [
         {
           "field": "totalRaised",
-          "current": "$560M",
-          "verified": "$1.37B",
+          "current": "$160M",
+          "verified": "$1.2B",
           "sources": [
-            3
+            1
           ]
         }
       ],
@@ -112,95 +317,20 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://www.hadrian.co"
+          "url": "https://quantum-systems.com"
         },
         {
           "idx": 1,
-          "src": "company_about",
-          "url": "https://www.hadrian.co/about"
-        },
-        {
-          "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Hadrian"
-        },
-        {
-          "idx": 3,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/08/06/defense-tech-hadrian-raises-1-37b-at-8b-valuation/"
-        }
-      ],
-      "notes": "Source [2] is Wikipedia article about Roman emperor Hadrian, not the company. Source [3] is a TechCrunch article dated 2026/08/06 reporting a $1.37B raise at $8B valuation, which supersedes the database entry's $560M raised at $1.6B valuation. Founder name 'Chris Power' could not be verified from provided sources. Current stage could not be determined from sources. Specific investor names beyond those in database entry could not be extracted from provided sources."
-    },
-    {
-      "name": "Nano Nuclear Energy",
-      "current": {
-        "name": "Nano Nuclear Energy",
-        "founder": "Jay Jiang Yu",
-        "location": "New York, NY",
-        "founded": 2022,
-        "fundingStage": "Seed",
-        "totalRaised": "$600M+",
-        "website": "https://nanonuclearenergy.com"
-      },
-      "verified": {
-        "name": "NANO Nuclear Energy Inc.",
-        "description": "Advanced technology-driven nuclear energy company developing microreactor technologies (KRONOS MMR, ZEUS, LOKI) and operating subsidiaries focused on nuclear fuel fabrication, transportation, space applications, and consulting services.",
-        "founders": null,
-        "location": "New York, NY",
-        "founded_year": null,
-        "current_stage": "Public",
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://nanonuclearenergy.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            1
-          ],
-          "location": [
-            0
-          ],
-          "current_stage": [
-            0,
-            1
-          ]
-        },
-        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from the company website and do not contain founder names, founding year, total raised, or valuation information. Source [2] (Canary Media article about Valar Atomics) is unrelated to NANO Nuclear Energy and was not used. Database entry claims about Jay Jiang Yu as founder, 2022 founding year, $600M+ raised, $808M valuation, and ODIN sale to Cambridge AtomWorks could not be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "Seed",
-          "verified": "Public",
-          "sources": [
-            0,
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://nanonuclearenergy.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://nanonuclearenergy.com/about"
+          "url": "https://en.wikipedia.org/wiki/Quantum-Systems"
         },
         {
           "idx": 2,
-          "src": "news (Canary Media)",
-          "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/capella-iceye-and-umbra-win-nro-radar-data-contracts/"
         }
       ],
-      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from the company website and do not contain founder names, founding year, total raised, or valuation information. Source [2] (Canary Media article about Valar Atomics) is unrelated to NANO Nuclear Energy and was not used. Database entry claims about Jay Jiang Yu as founder, 2022 founding year, $600M+ raised, $808M valuation, and ODIN sale to Cambridge AtomWorks could not be verified from provided sources."
+      "notes": "Source [2] (SpaceNews article) is about radar-data contracts for different companies (Capella, Iceye, Umbra) and does not contain information about Quantum-Systems. Founded by former Bundeswehr officer and military helicopter pilot Florian Seibel in January 2015. In July 2026, Quantum Systems completed a $1.2B fundraising round, setting valuation at $8B according to Wikipedia."
     },
     {
       "name": "SpaceX",
@@ -215,7 +345,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates orbital launches, Starlink satellite communications, and artificial intelligence divisions.",
+        "description": "An American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. SpaceX operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial Intelligence (Grok and data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -257,7 +387,7 @@
             0
           ]
         },
-        "notes": "IPO occurred June 12, 2026, raising $86 billion (largest IPO in history per source). Wikipedia indicates Elon Musk controls 85% voting power via super-voting stock, though text also states 82% in another location. Alphabet Inc. owns 6% equity. Database entry's $1.5T IPO valuation and $1.65T current valuation cannot be verified from provided sources."
+        "notes": "Wikipedia source indicates SpaceX completed its initial public offering on June 12, 2026, raising $86 billion. Current database entry lists IPO stage and $1.5T valuation, but no valuation figure could be verified from sources provided. Wikipedia source also notes Elon Musk's voting control as 85% (not 82% as in database entry)."
       },
       "changes": [
         {
@@ -277,13 +407,13 @@
         },
         {
           "idx": 1,
-          "src": "news (Wired)",
-          "url": "https://www.wired.com/story/ice-dna-collection-increases-spacex-rocket-crashes-into-the-moon-and-the-ai-backlash-grows/"
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/08/07/spacexs-terafab-will-rely-on-natural-gas-power-plants-not-tesla-solar-panels/"
         },
         {
           "idx": 2,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/08/the-math-nobody-ran-on-ai-capex.html"
+          "src": "news (Wired)",
+          "url": "https://www.wired.com/story/ice-dna-collection-increases-spacex-rocket-crashes-into-the-moon-and-the-ai-backlash-grows/"
         },
         {
           "idx": 3,
@@ -291,7 +421,192 @@
           "url": "https://electrek.co/2026/08/06/tesla-spacex-terafab-grimes-county-16-8-billion/"
         }
       ],
-      "notes": "IPO occurred June 12, 2026, raising $86 billion (largest IPO in history per source). Wikipedia indicates Elon Musk controls 85% voting power via super-voting stock, though text also states 82% in another location. Alphabet Inc. owns 6% equity. Database entry's $1.5T IPO valuation and $1.65T current valuation cannot be verified from provided sources."
+      "notes": "Wikipedia source indicates SpaceX completed its initial public offering on June 12, 2026, raising $86 billion. Current database entry lists IPO stage and $1.5T valuation, but no valuation figure could be verified from sources provided. Wikipedia source also notes Elon Musk's voting control as 85% (not 82% as in database entry)."
+    },
+    {
+      "name": "Together AI",
+      "current": {
+        "name": "Together AI",
+        "founder": "Vipul Ved Prakash, Ce Zhang, Chris R\u00e9, Percy Liang",
+        "location": "San Francisco, CA",
+        "founded": 2022,
+        "fundingStage": "Series A",
+        "totalRaised": "$530M",
+        "website": "https://www.together.ai"
+      },
+      "verified": {
+        "name": "Together AI",
+        "description": "Full-stack AI platform for training, fine-tuning, and inference of open-source models, powered by cutting-edge systems research.",
+        "founders": [
+          "Vipul Ved Prakash",
+          "Ce Zhang",
+          "Chris R\u00e9",
+          "Tri Dao",
+          "Percy Liang"
+        ],
+        "location": null,
+        "founded_year": null,
+        "current_stage": "Series C",
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://www.together.ai",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "current_stage": [
+            0,
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Series C announced on website but no funding amount or valuation details provided in sources. Source [2] is about Mitsubishi robots and is not relevant to Together AI. Founded year not specified in provided sources despite database entry claiming 2022."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Vipul Ved Prakash, Ce Zhang, Chris R\u00e9, Percy Liang",
+          "verified": "Vipul Ved Prakash, Ce Zhang, Chris R\u00e9, Tri Dao, Percy Liang",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Series A",
+          "verified": "Series C",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.together.ai"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.together.ai/about"
+        },
+        {
+          "idx": 2,
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/08/07/mitsubishi-joins-the-humanoid-robot-race-at-a-1000-unit-per-month-pace/"
+        }
+      ],
+      "notes": "Series C announced on website but no funding amount or valuation details provided in sources. Source [2] is about Mitsubishi robots and is not relevant to Together AI. Founded year not specified in provided sources despite database entry claiming 2022."
+    },
+    {
+      "name": "Wayve",
+      "current": {
+        "name": "Wayve",
+        "founder": "Amar Shah, Alex Kendall",
+        "location": "London, United Kingdom",
+        "founded": 2017,
+        "fundingStage": "Series D",
+        "totalRaised": "$2.8B",
+        "website": "https://wayve.ai"
+      },
+      "verified": {
+        "name": "Wayve",
+        "description": "British autonomous driving technology company developing self-driving vehicle systems using end-to-end deep learning and vision-based AI that learns from camera data rather than relying on HD maps and hand-coded rules.",
+        "founders": [
+          "Amar Shah",
+          "Alex Kendall"
+        ],
+        "location": "London, United Kingdom",
+        "founded_year": 2017,
+        "current_stage": "Series D",
+        "total_raised": "$1.5B",
+        "valuation": "$8.6B",
+        "investors": [
+          "SoftBank",
+          "Microsoft",
+          "Nvidia",
+          "Uber",
+          "Eclipse Ventures",
+          "Balderton Capital",
+          "D1 Capital Partners",
+          "Moore Strategic Ventures",
+          "Linse Capital",
+          "Virgin Group",
+          "Mercedes-Benz",
+          "Stellantis",
+          "Nissan"
+        ],
+        "website": "https://wayve.ai",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "valuation": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Series D funding of $1.5B announced in February 2026, primarily from Mercedes-Benz, Stellantis, and Nissan alongside existing investors. Co-founder Amar Shah departed in 2020; Alex Kendall is current CEO."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "$2.8B",
+          "verified": "$1.5B",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wayve"
+        },
+        {
+          "idx": 1,
+          "src": "news (CleanTechnica)",
+          "url": "https://cleantechnica.com/2026/08/05/wayve-uber-can-now-deploy-robotaxis-in-london/"
+        }
+      ],
+      "notes": "Series D funding of $1.5B announced in February 2026, primarily from Mercedes-Benz, Stellantis, and Nissan alongside existing investors. Co-founder Amar Shah departed in 2020; Alex Kendall is current CEO."
     },
     {
       "name": "Zettascale",
@@ -306,7 +621,7 @@
       },
       "verified": {
         "name": "Zettascale",
-        "description": "AI silicon company building XPU chips for inference and training that optimize dataflow per model. Backed by Y Combinator as part of the S24 batch.",
+        "description": "AI silicon company building XPU chips for inference and training that optimize dataflow per model. Backed by Y Combinator as part of S24 batch.",
         "founders": null,
         "location": "San Francisco, CA",
         "founded_year": null,
@@ -337,7 +652,7 @@
             0
           ]
         },
-        "notes": "Rebranded to Zettascale from previous name (likely Exa Laborato based on database entry). Source [1] is about Tesla/SpaceX and unrelated to Zettascale. Founder names from database entry cannot be verified from provided sources. Y Combinator S24 batch status inferred from 'Backed by Y Combinator' but specific batch year not stated in sources. No specific funding amount verifiable from sources."
+        "notes": "Source [1] is about Tesla/SpaceX Terafab and contains no information about Zettascale; excluded from verification. Founder names from database entry could not be verified against provided sources. Founded year cannot be verified despite database entry stating 2024. Total raised cannot be verified despite database entry stating $3M+. YC S24 batch status inferred from 'Backed by Y Combinator' language but specific batch year not explicitly stated in sources."
       },
       "changes": [
         {
@@ -365,7 +680,7 @@
           "url": "https://electrek.co/2026/08/06/tesla-spacex-terafab-grimes-county-16-8-billion/"
         }
       ],
-      "notes": "Rebranded to Zettascale from previous name (likely Exa Laborato based on database entry). Source [1] is about Tesla/SpaceX and unrelated to Zettascale. Founder names from database entry cannot be verified from provided sources. Y Combinator S24 batch status inferred from 'Backed by Y Combinator' but specific batch year not stated in sources. No specific funding amount verifiable from sources."
+      "notes": "Source [1] is about Tesla/SpaceX Terafab and contains no information about Zettascale; excluded from verification. Founder names from database entry could not be verified against provided sources. Founded year cannot be verified despite database entry stating 2024. Total raised cannot be verified despite database entry stating $3M+. YC S24 batch status inferred from 'Backed by Y Combinator' language but specific batch year not explicitly stated in sources."
     }
   ],
   "unverifiable": []
