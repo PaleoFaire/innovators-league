@@ -39135,23 +39135,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-08 13:51
+// Last updated: 2026-08-08 14:39
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "Here Are the First Images of the Crater Left on the Moon by SpaceX's Rocket", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "Waymo", headline: "Waymo CEO: Don't Move Fast &#038; Break Things With Physical AI", source: "CleanTechnica", time: "12h ago", impact: "low", unread: true },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "Here Are the First Images of the Crater Left on the Moon by SpaceX's Rocket", source: "Wired", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "Waymo", headline: "Waymo CEO: Don't Move Fast &#038; Break Things With Physical AI", source: "CleanTechnica", time: "13h ago", impact: "low", unread: true },
   { id: 3, type: "news", company: "OpenAI", headline: "OpenAI says it slowed Astra model development over security concerns", source: "TechCrunch", time: "15h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "Semianalysis Agrees With NextBigfuture $300B Per Year for SpaceX by End of 2027", source: "Next Big Future", time: "15h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX's Terafab will rely on natural gas power plants, not Tesla solar panels", source: "TechCrunch", time: "23h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Humanoid", headline: "Mitsubishi joins the humanoid robot race ' at a 1,000 unit per month pace", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Waymo", headline: "Waymo Jacks Up Lobbying In Washington, DC", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "Zoox", headline: "Zoox To Start Charging Passengers Next Week", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "OpenAI", headline: "OpenAI's new AI smart speaker will reportedly sell for between $300 and $400", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "GrayMatter Robotics", headline: "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics", source: "The Robot Report", time: "1d ago", impact: "medium", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "ICE's DNA Collection Increases, SpaceX's Rocket Crashes Into the Moon, and the AI Backlash Grows", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Hadrian", headline: "Defense tech Hadrian raises $1.37B at $8B valuation", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX Pays Off a Data Center in 9 Months", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "hire", company: "SpaceX", headline: "Tesla, SpaceX confirm 'Terafab' chip fab site ' $16.8B first phase", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "contract", company: "SpaceX", headline: "Officials hedge SpaceX aircraft-tracking satellite bet with three smaller company contracts", source: "Defense One", time: "1d ago", impact: "low", unread: false },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX's Terafab will rely on natural gas power plants, not Tesla solar panels", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Humanoid", headline: "Mitsubishi joins the humanoid robot race ' at a 1,000 unit per month pace", source: "Electrek", time: "1d ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Waymo", headline: "Waymo Jacks Up Lobbying In Washington, DC", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Zoox", headline: "Zoox To Start Charging Passengers Next Week", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "OpenAI's new AI smart speaker will reportedly sell for between $300 and $400", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "milestone", company: "GrayMatter Robotics", headline: "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics", source: "The Robot Report", time: "1d ago", impact: "medium", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "ICE's DNA Collection Increases, SpaceX's Rocket Crashes Into the Moon, and the AI Backlash Grows", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Hadrian", headline: "Defense tech Hadrian raises $1.37B at $8B valuation", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
+  { id: 12, type: "hire", company: "SpaceX", headline: "Tesla, SpaceX confirm 'Terafab' chip fab site ' $16.8B first phase", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "contract", company: "SpaceX", headline: "Officials hedge SpaceX aircraft-tracking satellite bet with three smaller company contracts", source: "Defense One", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Deterrence", headline: "Does Latent Nuclear Deterrence Really Work?", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "hire", company: "Oklo", headline: "Nuclear startup Oklo splits its first atoms in test reactor", source: "Canary Media", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
