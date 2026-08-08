@@ -39135,13 +39135,13 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-08 10:41
+// Last updated: 2026-08-08 11:36
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "Waymo", headline: "Waymo CEO: Don't Move Fast &#038; Break Things With Physical AI", source: "CleanTechnica", time: "9h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI says it slowed Astra model development over security concerns", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Semianalysis Agrees With NextBigfuture $300B Per Year for SpaceX by End of 2027", source: "Next Big Future", time: "12h ago", impact: "high", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX's Terafab will rely on natural gas power plants, not Tesla solar panels", source: "TechCrunch", time: "20h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Humanoid", headline: "Mitsubishi joins the humanoid robot race ' at a 1,000 unit per month pace", source: "Electrek", time: "21h ago", impact: "low", unread: true },
+  { id: 1, type: "hire", company: "Waymo", headline: "Waymo CEO: Don't Move Fast &#038; Break Things With Physical AI", source: "CleanTechnica", time: "10h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI says it slowed Astra model development over security concerns", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "Semianalysis Agrees With NextBigfuture $300B Per Year for SpaceX by End of 2027", source: "Next Big Future", time: "13h ago", impact: "high", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX's Terafab will rely on natural gas power plants, not Tesla solar panels", source: "TechCrunch", time: "21h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Humanoid", headline: "Mitsubishi joins the humanoid robot race ' at a 1,000 unit per month pace", source: "Electrek", time: "22h ago", impact: "low", unread: true },
   { id: 6, type: "milestone", company: "Waymo", headline: "Waymo Jacks Up Lobbying In Washington, DC", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "milestone", company: "Zoox", headline: "Zoox To Start Charging Passengers Next Week", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
   { id: 8, type: "news", company: "OpenAI", headline: "OpenAI's new AI smart speaker will reportedly sell for between $300 and $400", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
