@@ -1,63 +1,74 @@
 // Auto-generated news signals
-// Last updated: 2026-08-08T19:36:47.414Z
+// Last updated: 2026-08-08T20:39:11.675Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1786217807414,
+    "id": 1786221551675,
+    "type": "news",
+    "company": "OpenAI",
+    "headline": "OpenAI acquires presentation startup NextSlide",
+    "source": "TechCrunch",
+    "time": "Just now",
+    "impact": "low",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/"
+  },
+  {
+    "id": 1786221551676,
     "type": "contract",
     "company": "SpaceX",
     "headline": "Microsoft Will Lease 3+ Gigawatts of AI Data Center from SpaceX in 2027",
     "source": "Next Big Future",
-    "time": "1h ago",
+    "time": "2h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/08/microsoft-will-lease-3-gigawatts-of-ai-data-center-from-spacex-in-2027.html"
   },
   {
-    "id": 1786217807415,
+    "id": 1786221551677,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Here Are the First Images of the Crater Left on the Moon by SpaceX’s Rocket",
     "source": "Wired",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/story/first-images-spacex-rocket-moon-crater/"
   },
   {
-    "id": 1786217807416,
+    "id": 1786221551678,
     "type": "hire",
     "company": "Waymo",
     "headline": "Waymo CEO: Don&#8217;t Move Fast &#038; Break Things With Physical AI",
     "source": "CleanTechnica",
-    "time": "18h ago",
+    "time": "19h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/08/07/waymo-ceo-dont-move-fast-break-things-with-physical-ai/"
   },
   {
-    "id": 1786217807417,
+    "id": 1786221551679,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI says it slowed Astra model development over security concerns",
     "source": "TechCrunch",
-    "time": "20h ago",
+    "time": "21h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/"
   },
   {
-    "id": 1786217807418,
+    "id": 1786221551680,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Semianalysis Agrees With NextBigfuture $300B Per Year for SpaceX by End of 2027",
     "source": "Next Big Future",
-    "time": "21h ago",
+    "time": "22h ago",
     "impact": "high",
-    "unread": true,
+    "unread": false,
     "link": "https://www.nextbigfuture.com/2026/08/semianalysis-agrees-with-nextbigfuture-300b-per-year-for-spacex-by-end-of-2027.html"
   },
   {
-    "id": 1786217807419,
+    "id": 1786221551681,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX&#8217;s Terafab will rely on natural gas power plants, not Tesla solar panels",
@@ -68,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/08/07/spacexs-terafab-will-rely-on-natural-gas-power-plants-not-tesla-solar-panels/"
   },
   {
-    "id": 1786217807420,
+    "id": 1786221551682,
     "type": "news",
     "company": "Humanoid",
     "headline": "Mitsubishi joins the humanoid robot race — at a 1,000 unit per month pace",
@@ -79,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/07/mitsubishi-joins-the-humanoid-robot-race-at-a-1000-unit-per-month-pace/"
   },
   {
-    "id": 1786217807421,
+    "id": 1786221551683,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Waymo Jacks Up Lobbying In Washington, DC",
@@ -90,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/08/06/waymo-jacks-up-lobbying-in-washington-dc/"
   },
   {
-    "id": 1786217807422,
+    "id": 1786221551684,
     "type": "milestone",
     "company": "Zoox",
     "headline": "Zoox To Start Charging Passengers Next Week",
@@ -101,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/08/06/zoox-to-start-charging-passengers-next-week/"
   },
   {
-    "id": 1786217807423,
+    "id": 1786221551685,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI&#8217;s new AI smart speaker will reportedly sell for between $300 and $400",
@@ -112,18 +123,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/"
   },
   {
-    "id": 1786217807424,
+    "id": 1786221551686,
     "type": "milestone",
     "company": "GrayMatter Robotics",
     "headline": "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics",
     "source": "The Robot Report",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "medium",
     "unread": false,
     "link": "https://www.therobotreport.com/hii-signs-up-to-900m-agreement-with-path-robotics-graymatter-robotics/"
   },
   {
-    "id": 1786217807425,
+    "id": 1786221551687,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "ICE’s DNA Collection Increases, SpaceX’s Rocket Crashes Into the Moon, and the AI Backlash Grows",
@@ -134,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/ice-dna-collection-increases-spacex-rocket-crashes-into-the-moon-and-the-ai-backlash-grows/"
   },
   {
-    "id": 1786217807426,
+    "id": 1786221551688,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Pays Off a Data Center in 9 Months",
@@ -145,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/08/the-math-nobody-ran-on-ai-capex.html"
   },
   {
-    "id": 1786217807427,
+    "id": 1786221551689,
     "type": "hire",
     "company": "SpaceX",
     "headline": "Tesla, SpaceX confirm ‘Terafab’ chip fab site — $16.8B first phase",
@@ -156,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/06/tesla-spacex-terafab-grimes-county-16-8-billion/"
   },
   {
-    "id": 1786217807428,
+    "id": 1786221551690,
     "type": "contract",
     "company": "SpaceX",
     "headline": "Officials hedge SpaceX aircraft-tracking satellite bet with three smaller company contracts",
@@ -167,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/defense-systems/2026/08/officials-hedge-spacex-aircraft-tracking-satellite-bet-three-smaller-company-contracts/415252/"
   },
   {
-    "id": 1786217807429,
+    "id": 1786221551691,
     "type": "news",
     "company": "Deterrence",
     "headline": "Does Latent Nuclear Deterrence Really Work?",
@@ -178,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://warontherocks.com/does-latent-nuclear-deterrence-really-work/"
   },
   {
-    "id": 1786217807430,
+    "id": 1786221551692,
     "type": "hire",
     "company": "Oklo",
     "headline": "Nuclear startup Oklo splits its first atoms in test reactor",
@@ -189,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/nuclear/nuclear-startup-oklo-splits-its-first-atoms-in-test-reactor"
   },
   {
-    "id": 1786217807431,
+    "id": 1786221551693,
     "type": "ipo",
     "company": "Rocket Lab",
     "headline": "Rocket Lab launches 8th iQPS satellite",
@@ -200,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/rocket-lab-launches-8th-iqps-satellite/"
   },
   {
-    "id": 1786217807432,
+    "id": 1786221551694,
     "type": "milestone",
     "company": "Modal",
     "headline": "New York-headquartered AI startup Modal Labs to open London office",
@@ -209,16 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://tech.eu/2026/08/06/new-york-headquartered-ai-startup-modal-labs-to-open-london-office/"
-  },
-  {
-    "id": 1786217807433,
-    "type": "hire",
-    "company": "Wayve",
-    "headline": "Wayve &#038; Uber Can Now Deploy Robotaxis in London",
-    "source": "CleanTechnica",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://cleantechnica.com/2026/08/05/wayve-uber-can-now-deploy-robotaxis-in-london/"
   }
 ];
