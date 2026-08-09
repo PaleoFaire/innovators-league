@@ -33,9 +33,9 @@
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 10.53,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 18.92,
       "count": 3
     },
     "biotech": {
@@ -86,6 +86,11 @@
   ],
   "topLosers": [
     [
+      "TSLA",
+      "Tesla",
+      5.58
+    ],
+    [
       "RIVN",
       "Rivian",
       5.12
@@ -104,12 +109,7 @@
       "AMD",
       "AMD",
       1.51
-    ],
-    [
-      "QBTS",
-      "D-Wave Quantum",
-      -10.34
     ]
   ],
-  "lastUpdated": "2026-08-09 08:04:57"
+  "lastUpdated": "2026-08-09 14:01:58"
 }
