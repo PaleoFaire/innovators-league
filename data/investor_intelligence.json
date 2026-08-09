@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-09T05:52:56+00:00",
+  "generatedAt": "2026-08-09T07:08:21+00:00",
   "stats": {
     "companies": 989,
     "vcFirms": 25,
     "uniqueClusters": 137,
-    "totalInvestments": 387
+    "totalInvestments": 388
   },
   "concentration": {
     "General Catalyst": {
@@ -239,6 +239,12 @@
         "companies": [
           "Gecko Robotics",
           "Orangewood Labs"
+        ]
+      },
+      "ai-hardware-inference": {
+        "count": 1,
+        "companies": [
+          "Zettascale"
         ]
       },
       "space-habitats-manufacturing": {
@@ -2801,6 +2807,18 @@
         "share": 0.2
       }
     ],
+    "ai-hardware-inference": [
+      {
+        "vc": "Y Combinator",
+        "count": 1,
+        "share": 0.5
+      },
+      {
+        "vc": "Valor Equity Partners",
+        "count": 1,
+        "share": 0.5
+      }
+    ],
     "space-habitats-manufacturing": [
       {
         "vc": "Y Combinator",
@@ -3744,13 +3762,6 @@
         "share": 1.0
       }
     ],
-    "ai-hardware-inference": [
-      {
-        "vc": "Valor Equity Partners",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
     "quantum-neutral-atom": [
       {
         "vc": "Valor Equity Partners",
@@ -4017,9 +4028,9 @@
     },
     {
       "vc": "Y Combinator",
-      "recentCount": 37,
-      "totalCount": 38,
-      "score": 31.976,
+      "recentCount": 38,
+      "totalCount": 39,
+      "score": 32.716,
       "topCluster": "manufacturing-reshoring",
       "recentExamples": [
         {
