@@ -16,7 +16,34 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "11h ago"
+    "time": "13h ago"
+  },
+  {
+    "title": "Microsoft Will Lease 3+ Gigawatts of AI Data Center from SpaceX in 2027",
+    "link": "https://www.nextbigfuture.com/2026/08/microsoft-will-lease-3-gigawatts-of-ai-data-center-from-spacex-in-2027.html",
+    "description": "Microsoft has already signed 10GW of AI data center contracts year-to-date for over $300B of total contract value, but those contribute to late-2027 and 2028 capacity, leaving a near-term gap to fill. Semianalysis has calculated the tokenomics of OpenAI and Anthropic at $100 billion per year per gig",
+    "pubDate": "Sat, 08 Aug 2026 18:29:09 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Anthropic",
+      "OpenAI",
+      "Astera Labs",
+      "Rebellions",
+      "Photonic Inc"
+    ],
+    "sectors": [
+      "space",
+      "ai",
+      "chips",
+      "quantum"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "14h ago"
   },
   {
     "title": "Here Are the First Images of the Crater Left on the Moon by SpaceX’s Rocket",
@@ -41,7 +68,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "19h ago"
+    "time": "20h ago"
   },
   {
     "title": "Waymo CEO: Don&#8217;t Move Fast &#038; Break Things With Physical AI",
@@ -89,6 +116,25 @@
     ],
     "type": "news",
     "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "Semianalysis Agrees With NextBigfuture $300B Per Year for SpaceX by End of 2027",
+    "link": "https://www.nextbigfuture.com/2026/08/semianalysis-agrees-with-nextbigfuture-300b-per-year-for-spacex-by-end-of-2027.html",
+    "description": "Semianalysis agrees with my analysis of SpaceX getting up to $300 Billion per year by end of 2027. Spot prices are higher. The AI lease rates make sense. Coreweave and Nebius are spreading out fixed premium GPUs annual prices but requiring 5 year lockin. 5 years for $100 billion but not available du",
+    "pubDate": "Fri, 07 Aug 2026 22:33:05 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "high",
     "time": "1d ago"
   },
   {
@@ -240,6 +286,28 @@
     "time": "2d ago"
   },
   {
+    "title": "SpaceX Pays Off a Data Center in 9 Months",
+    "link": "https://www.nextbigfuture.com/2026/08/the-math-nobody-ran-on-ai-capex.html",
+    "description": "When does revenue growth and profits overtake AI capex spending ? I have run numbers on the fastest AI data center builder. The faster you can build, then the faster you can monetize and get to profits.",
+    "pubDate": "Thu, 06 Aug 2026 18:24:46 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Astera Labs",
+      "Rebellions"
+    ],
+    "sectors": [
+      "space",
+      "chips"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "2d ago"
+  },
+  {
     "title": "Tesla, SpaceX confirm ‘Terafab’ chip fab site — $16.8B first phase",
     "link": "https://electrek.co/2026/08/06/tesla-spacex-terafab-grimes-county-16-8-billion/",
     "description": "Tesla and SpaceX have confirmed where they’ll build Terafab, the semiconductor megafactory Elon Musk first teased in March. It’s going to Grimes County, Texas, about an hour northwest of Houston.\nThe companies put the initial phase at roughly $16.8 billion and said the finished site will span more t",
@@ -360,7 +428,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Wayve &#038; Uber Can Now Deploy Robotaxis in London",
@@ -465,7 +533,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Base Power raises $1B to get big batteries into more homes",
