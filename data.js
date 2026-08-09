@@ -39136,15 +39136,15 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-09 21:40
+// Last updated: 2026-08-09 22:39
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Zoox", headline: "TechCrunch Mobility: Zoox prepares for launch and Uber's AV empire", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 1, type: "milestone", company: "Zoox", headline: "TechCrunch Mobility: Zoox prepares for launch and Uber's AV empire", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
   { id: 2, type: "news", company: "OpenAI", headline: "OpenAI acquires presentation startup NextSlide", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 3, type: "contract", company: "SpaceX", headline: "Microsoft Will Lease 3+ Gigawatts of AI Data Center from SpaceX in 2027", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "ipo", company: "SpaceX", headline: "Here Are the First Images of the Crater Left on the Moon by SpaceX's Rocket", source: "Wired", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "hire", company: "Waymo", headline: "Waymo CEO: Don't Move Fast &#038; Break Things With Physical AI", source: "CleanTechnica", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "news", company: "OpenAI", headline: "OpenAI says it slowed Astra model development over security concerns", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "Semianalysis Agrees With NextBigfuture $300B Per Year for SpaceX by End of 2027", source: "Next Big Future", time: "1d ago", impact: "high", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "Semianalysis Agrees With NextBigfuture $300B Per Year for SpaceX by End of 2027", source: "Next Big Future", time: "2d ago", impact: "high", unread: false },
   { id: 8, type: "news", company: "Humanoid", headline: "Mitsubishi joins the humanoid robot race ' at a 1,000 unit per month pace", source: "Electrek", time: "2d ago", impact: "low", unread: false },
   { id: 9, type: "milestone", company: "Waymo", headline: "Waymo Jacks Up Lobbying In Washington, DC", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
   { id: 10, type: "milestone", company: "Zoox", headline: "Zoox To Start Charging Passengers Next Week", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
