@@ -1,41 +1,41 @@
 // Auto-generated news signals
-// Last updated: 2026-08-09T04:24:03.625Z
+// Last updated: 2026-08-09T05:52:06.839Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1786249443625,
+    "id": 1786254726839,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI acquires presentation startup NextSlide",
     "source": "TechCrunch",
-    "time": "8h ago",
+    "time": "10h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/"
   },
   {
-    "id": 1786249443626,
+    "id": 1786254726840,
     "type": "contract",
     "company": "SpaceX",
     "headline": "Microsoft Will Lease 3+ Gigawatts of AI Data Center from SpaceX in 2027",
     "source": "Next Big Future",
-    "time": "9h ago",
+    "time": "11h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/08/microsoft-will-lease-3-gigawatts-of-ai-data-center-from-spacex-in-2027.html"
   },
   {
-    "id": 1786249443627,
+    "id": 1786254726841,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Here Are the First Images of the Crater Left on the Moon by SpaceX’s Rocket",
     "source": "Wired",
-    "time": "16h ago",
+    "time": "17h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/story/first-images-spacex-rocket-moon-crater/"
   },
   {
-    "id": 1786249443628,
+    "id": 1786254726842,
     "type": "hire",
     "company": "Waymo",
     "headline": "Waymo CEO: Don&#8217;t Move Fast &#038; Break Things With Physical AI",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/08/07/waymo-ceo-dont-move-fast-break-things-with-physical-ai/"
   },
   {
-    "id": 1786249443629,
+    "id": 1786254726843,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI says it slowed Astra model development over security concerns",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/"
   },
   {
-    "id": 1786249443630,
+    "id": 1786254726844,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Semianalysis Agrees With NextBigfuture $300B Per Year for SpaceX by End of 2027",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/08/semianalysis-agrees-with-nextbigfuture-300b-per-year-for-spacex-by-end-of-2027.html"
   },
   {
-    "id": 1786249443631,
+    "id": 1786254726845,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX&#8217;s Terafab will rely on natural gas power plants, not Tesla solar panels",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/08/07/spacexs-terafab-will-rely-on-natural-gas-power-plants-not-tesla-solar-panels/"
   },
   {
-    "id": 1786249443632,
+    "id": 1786254726846,
     "type": "news",
     "company": "Humanoid",
     "headline": "Mitsubishi joins the humanoid robot race — at a 1,000 unit per month pace",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/07/mitsubishi-joins-the-humanoid-robot-race-at-a-1000-unit-per-month-pace/"
   },
   {
-    "id": 1786249443633,
+    "id": 1786254726847,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Waymo Jacks Up Lobbying In Washington, DC",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/08/06/waymo-jacks-up-lobbying-in-washington-dc/"
   },
   {
-    "id": 1786249443634,
+    "id": 1786254726848,
     "type": "milestone",
     "company": "Zoox",
     "headline": "Zoox To Start Charging Passengers Next Week",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/08/06/zoox-to-start-charging-passengers-next-week/"
   },
   {
-    "id": 1786249443635,
+    "id": 1786254726849,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI&#8217;s new AI smart speaker will reportedly sell for between $300 and $400",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/"
   },
   {
-    "id": 1786249443636,
+    "id": 1786254726850,
     "type": "milestone",
     "company": "GrayMatter Robotics",
     "headline": "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/hii-signs-up-to-900m-agreement-with-path-robotics-graymatter-robotics/"
   },
   {
-    "id": 1786249443637,
+    "id": 1786254726851,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "ICE’s DNA Collection Increases, SpaceX’s Rocket Crashes Into the Moon, and the AI Backlash Grows",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/ice-dna-collection-increases-spacex-rocket-crashes-into-the-moon-and-the-ai-backlash-grows/"
   },
   {
-    "id": 1786249443638,
+    "id": 1786254726852,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Pays Off a Data Center in 9 Months",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/08/the-math-nobody-ran-on-ai-capex.html"
   },
   {
-    "id": 1786249443639,
+    "id": 1786254726853,
     "type": "hire",
     "company": "SpaceX",
     "headline": "Tesla, SpaceX confirm ‘Terafab’ chip fab site — $16.8B first phase",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/06/tesla-spacex-terafab-grimes-county-16-8-billion/"
   },
   {
-    "id": 1786249443640,
+    "id": 1786254726854,
     "type": "contract",
     "company": "SpaceX",
     "headline": "Officials hedge SpaceX aircraft-tracking satellite bet with three smaller company contracts",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/defense-systems/2026/08/officials-hedge-spacex-aircraft-tracking-satellite-bet-three-smaller-company-contracts/415252/"
   },
   {
-    "id": 1786249443641,
+    "id": 1786254726855,
     "type": "news",
     "company": "Deterrence",
     "headline": "Does Latent Nuclear Deterrence Really Work?",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://warontherocks.com/does-latent-nuclear-deterrence-really-work/"
   },
   {
-    "id": 1786249443642,
+    "id": 1786254726856,
     "type": "hire",
     "company": "Oklo",
     "headline": "Nuclear startup Oklo splits its first atoms in test reactor",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/nuclear/nuclear-startup-oklo-splits-its-first-atoms-in-test-reactor"
   },
   {
-    "id": 1786249443643,
+    "id": 1786254726857,
     "type": "ipo",
     "company": "Rocket Lab",
     "headline": "Rocket Lab launches 8th iQPS satellite",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/rocket-lab-launches-8th-iqps-satellite/"
   },
   {
-    "id": 1786249443644,
+    "id": 1786254726858,
     "type": "milestone",
     "company": "Modal",
     "headline": "New York-headquartered AI startup Modal Labs to open London office",
