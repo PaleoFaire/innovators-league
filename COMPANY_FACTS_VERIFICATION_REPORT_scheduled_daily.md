@@ -1,88 +1,54 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-08-08T05:50:57+00:00  
+**Generated:** 2026-08-09T05:53:20+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 43 companies  
+**Cohort size:** 47 companies  
 
-**New Claude extractions this run:** 43  
+**New Claude extractions this run:** 47  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 36 | 84% |
-| 🔧 Changes proposed | 7 | 16% |
+| ✅ Cleared (data matches sources) | 45 | 96% |
+| 🔧 Changes proposed | 2 | 4% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (7 companies)
+## 🔧 Proposed Changes (2 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
-
-### 1X Technologies
-
-- **`location`:** `Palo Alto, California` → `Palo Alto, California, USA`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/1X_Technologies)
-
-  **Notes:** Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Series A2 funding of $23.5M in March 2023 led by OpenAI Startup Fund. Series B funding of $100M in January 2024 led by EQT Ventures. Manufacturing operations in Hayward, California and Moss, Norway. NEO pre-orders opened October 28, 2025 at $20,000 with planned 2026 release.
-
-### Agility Robotics
-
-- **`fundingStage`:** `Series D` → `Pre-IPO`  
-  Sources: [company_website](https://agilityrobotics.com)
-
-  **Notes:** Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Company rebranded from 'Agility Robotics' to 'Agility' on March 5, 2026 (per source 2). Commercial deployments confirmed at Amazon, GXO Logistics, Toyota, and Mercado Libre (per source 1). Sources do not provide verified total funding raised, valuation, or specific investor list.
-
-### Quantum-Systems
-
-- **`totalRaised`:** `$160M` → `$1.2B`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Quantum-Systems)
-
-  **Notes:** Source [2] (SpaceNews article) is about radar-data contracts for different companies (Capella, Iceye, Umbra) and does not contain information about Quantum-Systems. Founded by former Bundeswehr officer and military helicopter pilot Florian Seibel in January 2015. In July 2026, Quantum Systems completed a $1.2B fundraising round, setting valuation at $8B according to Wikipedia.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia source indicates SpaceX completed its initial public offering on June 12, 2026, raising $86 billion. Current database entry lists IPO stage and $1.5T valuation, but no valuation figure could be verified from sources provided. Wikipedia source also notes Elon Musk's voting control as 85% (not 82% as in database entry).
-
-### Together AI
-
-- **`founder`:** `Vipul Ved Prakash, Ce Zhang, Chris Ré, Percy Liang` → `Vipul Ved Prakash, Ce Zhang, Chris Ré, Tri Dao, Percy Liang`  
-  Sources: [company_about](https://www.together.ai/about)
-- **`fundingStage`:** `Series A` → `Series C`  
-  Sources: [company_website](https://www.together.ai) · [company_about](https://www.together.ai/about)
-
-  **Notes:** Series C announced on website but no funding amount or valuation details provided in sources. Source [2] is about Mitsubishi robots and is not relevant to Together AI. Founded year not specified in provided sources despite database entry claiming 2022.
-
-### Wayve
-
-- **`totalRaised`:** `$2.8B` → `$1.5B`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Wayve)
-
-  **Notes:** Series D funding of $1.5B announced in February 2026, primarily from Mercedes-Benz, Stellantis, and Nissan alongside existing investors. Co-founder Amar Shah departed in 2020; Alex Kendall is current CEO.
+  **Notes:** SpaceX completed IPO on June 12, 2026, which was the largest IPO in history. Wikipedia source indicates Elon Musk owns 42% equity with 85% voting control (note: current database entry states 82% voting control, but Wikipedia states 85%). No valuation figure found in sources to verify the $1.65T valuation in current database entry.
 
 ### Zettascale
 
 - **`investors`:** `[]` → `['Y Combinator', 'Soma Capital', 'Olive Tree Capital']`  
   Sources: [company_website](https://zscc.ai)
 
-  **Notes:** Source [1] is about Tesla/SpaceX Terafab and contains no information about Zettascale; excluded from verification. Founder names from database entry could not be verified against provided sources. Founded year cannot be verified despite database entry stating 2024. Total raised cannot be verified despite database entry stating $3M+. YC S24 batch status inferred from 'Backed by Y Combinator' language but specific batch year not explicitly stated in sources.
+  **Notes:** Source [1] is about Tesla/SpaceX Terafab and is irrelevant to Zettascale. Database entry claims rebranding from 'Exa Laborato' and founding in 2024, but these cannot be verified from provided sources. Founder names from database entry cannot be verified from sources. Total raised amount of $3M+ from database entry cannot be verified from sources.
 
 ---
 
-## ✅ Cleared (36 companies)
+## ✅ Cleared (45 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
+- 1X Technologies
+- Agility Robotics
 - Antares
+- AnySignal
 - Apptronik
 - Astera Labs
 - Aurora Innovation
@@ -104,17 +70,14 @@ Sample (first 30):
 - ICON
 - Nano Nuclear Energy
 - Oklo
+- Orbital Composites
 - Palantir
 - Path Robotics
 - Percepto
-- PsiQuantum
-- Quaise Energy
-- Radiant
-- Rivian
-- Rocket Lab
-- *...and 6 more*
+- Photonic Inc
+- *...and 15 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-08-08T05:50:57+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-08-09T05:53:20+00:00*

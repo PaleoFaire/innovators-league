@@ -7280,7 +7280,8 @@ tags: ["eVTOL", "air taxi", "urban air mobility"],
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "ai-hardware-inference",
     techApproach: "Energy-efficient AI chips designed for massive-scale compute with novel architecture optimized for transformer workloads",
-    tags: ["AI chips", "energy efficient", "semiconductor"]
+    tags: ["AI chips", "energy efficient", "semiconductor"],
+    investors: ["Y Combinator", "Soma Capital", "Olive Tree Capital"]
   },
   {
     name: "d-Matrix",
