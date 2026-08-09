@@ -1,83 +1,83 @@
 {
-  "date": "2026-08-03",
-  "display_date": "Aug 03, 2026",
-  "generated_at": "2026-08-03T12:56:35.202833+00:00",
-  "cutoff": "2026-07-27T12:56:35.202833+00:00",
+  "date": "2026-08-09",
+  "display_date": "Aug 09, 2026",
+  "generated_at": "2026-08-09T10:00:06.214259+00:00",
+  "cutoff": "2026-08-02T10:00:06.214259+00:00",
   "section_count": 7,
-  "total_items": 284,
+  "total_items": 264,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 38,
+      "count": 29,
       "items": [
         {
-          "company": "Seasats",
-          "current": 30.0,
-          "previous": 36.0,
-          "change": -6.0,
-          "tier": "early"
-        },
-        {
-          "company": "Havoc AI",
-          "current": 30.0,
-          "previous": 36.0,
-          "change": -6.0,
-          "tier": "early"
-        },
-        {
-          "company": "Standard Subsea",
-          "current": 29.5,
-          "previous": 35.5,
-          "change": -6.0,
-          "tier": "early"
-        },
-        {
-          "company": "Albacore",
-          "current": 29.5,
-          "previous": 35.5,
-          "change": -6.0,
-          "tier": "early"
-        },
-        {
-          "company": "Odin Dynamics",
-          "current": 29.5,
-          "previous": 35.5,
-          "change": -6.0,
-          "tier": "early"
-        },
-        {
-          "company": "Shine Technologies",
-          "current": 39.5,
-          "previous": 36.5,
+          "company": "Sierra Space",
+          "current": 45.0,
+          "previous": 42.0,
           "change": 3.0,
           "tier": "early"
         },
         {
-          "company": "Span",
-          "current": 38.5,
-          "previous": 35.5,
+          "company": "HawkEye 360",
+          "current": 42.0,
+          "previous": 39.0,
           "change": 3.0,
           "tier": "early"
         },
         {
-          "company": "Alsym Energy",
-          "current": 38.5,
-          "previous": 35.5,
+          "company": "Ursa Space Systems",
+          "current": 41.5,
+          "previous": 38.5,
           "change": 3.0,
           "tier": "early"
         },
         {
-          "company": "Standard Electron",
-          "current": 38.5,
-          "previous": 35.5,
+          "company": "Besxar Space Industries",
+          "current": 41.5,
+          "previous": 38.5,
           "change": 3.0,
           "tier": "early"
         },
         {
-          "company": "Nth Cycle",
-          "current": 38.5,
-          "previous": 35.5,
+          "company": "CesiumAstro",
+          "current": 41.5,
+          "previous": 38.5,
+          "change": 3.0,
+          "tier": "early"
+        },
+        {
+          "company": "Xona Space Systems",
+          "current": 41.5,
+          "previous": 38.5,
+          "change": 3.0,
+          "tier": "early"
+        },
+        {
+          "company": "Loft Orbital",
+          "current": 41.5,
+          "previous": 38.5,
+          "change": 3.0,
+          "tier": "early"
+        },
+        {
+          "company": "Phantom Space",
+          "current": 41.5,
+          "previous": 38.5,
+          "change": 3.0,
+          "tier": "early"
+        },
+        {
+          "company": "hiringVelocity",
+          "current": 41.5,
+          "previous": 38.5,
+          "change": 3.0,
+          "tier": "early"
+        },
+        {
+          "company": "Farcast",
+          "current": 40.5,
+          "previous": 37.5,
           "change": 3.0,
           "tier": "early"
         }
@@ -86,62 +86,62 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 23,
+      "count": 21,
       "items": [
         {
-          "company": "Oklo",
+          "company": "Palantir Technologies",
           "form": "8-K",
-          "description": "oklo-20260722.htm",
-          "date": "2026-07-28",
+          "description": "pltr-20260803.htm",
+          "date": "2026-08-03",
+          "isIPO": false
+        },
+        {
+          "company": "NuScale Power",
+          "form": "8-K",
+          "description": "smr-20260805.htm",
+          "date": "2026-08-05",
+          "isIPO": false
+        },
+        {
+          "company": "Centrus Energy",
+          "form": "8-K",
+          "description": "leu-20260805.htm",
+          "date": "2026-08-05",
+          "isIPO": false
+        },
+        {
+          "company": "Upstart Holdings",
+          "form": "8-K",
+          "description": "upst-20260804.htm",
+          "date": "2026-08-04",
+          "isIPO": false
+        },
+        {
+          "company": "D-Wave Quantum",
+          "form": "8-K",
+          "description": "qbts-20260805.htm",
+          "date": "2026-08-05",
+          "isIPO": false
+        },
+        {
+          "company": "D-Wave Quantum",
+          "form": "8-K",
+          "description": "qbts-20260803.htm",
+          "date": "2026-08-03",
+          "isIPO": false
+        },
+        {
+          "company": "Recursion Pharmaceuticals",
+          "form": "8-K",
+          "description": "rxrx-20260805.htm",
+          "date": "2026-08-05",
           "isIPO": false
         },
         {
           "company": "Ginkgo Bioworks",
           "form": "8-K",
-          "description": "dna-20260730.htm",
-          "date": "2026-07-30",
-          "isIPO": false
-        },
-        {
-          "company": "Joby Aviation",
-          "form": "8-K",
-          "description": "d49031d8k.htm",
-          "date": "2026-07-31",
-          "isIPO": false
-        },
-        {
-          "company": "Joby Aviation",
-          "form": "8-K",
-          "description": "d152570d8k.htm",
-          "date": "2026-07-28",
-          "isIPO": false
-        },
-        {
-          "company": "Aurora Innovation",
-          "form": "8-K",
-          "description": "aur-20260729.htm",
-          "date": "2026-07-29",
-          "isIPO": false
-        },
-        {
-          "company": "Rivian",
-          "form": "8-K",
-          "description": "rivn-20260730.htm",
-          "date": "2026-07-30",
-          "isIPO": false
-        },
-        {
-          "company": "Aurora Innovation",
-          "form": "10-Q",
-          "description": "aur-20260630.htm",
-          "date": "2026-07-29",
-          "isIPO": false
-        },
-        {
-          "company": "Rivian",
-          "form": "10-Q",
-          "description": "rivn-20260630.htm",
-          "date": "2026-07-30",
+          "description": "dna-20260805.htm",
+          "date": "2026-08-05",
           "isIPO": false
         }
       ]
@@ -149,7 +149,7 @@
     {
       "title": "Contract Opportunities",
       "icon": "\ud83c\udfe2",
-      "count": 3,
+      "count": 2,
       "items": [
         {
           "title": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER FOR THE PURCHASE OF UNMANNED AERIAL SYSTEM (UAS)",
@@ -162,242 +162,235 @@
           "agency": "",
           "value": "",
           "date": "2026-08-03"
-        },
-        {
-          "title": "EXPLORATION EXTRAVEHICULAR ACTIVITY SERVICES (XEVAS)",
-          "agency": "",
-          "value": "",
-          "date": "2026-07-28"
         }
       ]
     },
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 44,
+      "count": 37,
       "items": [
         {
-          "title": "Wireless Emergency Alerts; The Emergency Alert System; Modernization of the Nation's Alerting Systems",
-          "type": "Proposed Rule",
-          "agencies": [
-            "Federal Communications Commission"
-          ],
-          "significant": false,
-          "date": "2026-07-31"
-        },
-        {
-          "title": "Medicare Program; FY 2027 Inpatient Psychiatric Facilities Prospective Payment System-Rate Update",
-          "type": "Rule",
-          "agencies": [
-            "Health and Human Services Department",
-            "Centers for Medicare & Medicaid Services"
-          ],
-          "significant": false,
-          "date": "2026-07-31"
-        },
-        {
-          "title": "Privacy Act of 1974; System of Records",
+          "title": "United States Department of Energy and United States Department of Defense v. Baltimore & Ohio Railroad Company, et al.;",
           "type": "Notice",
           "agencies": [
-            "Housing and Urban Development Department"
+            "Surface Transportation Board"
           ],
           "significant": false,
-          "date": "2026-07-30"
+          "date": "2026-08-05"
         },
         {
-          "title": "Privacy Act of 1974; System of Records",
-          "type": "Notice",
-          "agencies": [
-            ""
-          ],
-          "significant": false,
-          "date": "2026-07-30"
-        },
-        {
-          "title": "Energy Conservation Program: Procedures, Interpretations, and Policies for Consideration of New or Revised Energy Conser",
-          "type": "Proposed Rule",
-          "agencies": [
-            "Energy Department"
-          ],
-          "significant": false,
-          "date": "2026-07-28"
-        },
-        {
-          "title": "Advisory Committee on the Medical Uses of Isotopes: Meeting Notice",
+          "title": "Information Collection: Access Authorization",
           "type": "Notice",
           "agencies": [
             "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-08-03"
+          "date": "2026-08-05"
+        },
+        {
+          "title": "Virginia Electric and Power Company, (Doing Business as Dominion Energy Virginia); North Anna Site; Early Site Permit Re",
+          "type": "Notice",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-08-05"
+        },
+        {
+          "title": "Sunshine Act Meetings",
+          "type": "Notice",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-08-04"
+        },
+        {
+          "title": "Hazardous Materials: Reducing Recordkeeping Requirements for Domestic Carriers",
+          "type": "Rule",
+          "agencies": [
+            "Transportation Department",
+            "Pipeline and Hazardous Materials Safety Administration"
+          ],
+          "significant": false,
+          "date": "2026-08-04"
+        },
+        {
+          "title": "Hazardous Materials: Modernizing Payments To and From America's Bank Account",
+          "type": "Rule",
+          "agencies": [
+            "Transportation Department",
+            "Pipeline and Hazardous Materials Safety Administration"
+          ],
+          "significant": false,
+          "date": "2026-08-04"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 29,
+      "count": 30,
       "items": [
         {
-          "title": "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billi",
-          "source": "Crunchbase News",
-          "company": "Safe Superintelligence",
+          "title": "Base Power raises $1B to get big batteries into more homes",
+          "source": "Canary Media",
+          "company": "Base Power",
           "impact": "high",
           "type": "funding"
         },
         {
-          "title": "K2 Space raises $500 million for commercial, defense satellite expansion",
-          "source": "SpaceNews",
-          "company": "K2 Space",
+          "title": "Microreactor startup Valar Atomics raises $1B",
+          "source": "Canary Media",
+          "company": "Valar Atomics",
           "impact": "high",
           "type": "funding"
         },
         {
-          "title": "inforcer raises $50M Series C to scale AI security platform for MSPs",
-          "source": "Tech.eu",
-          "company": "Scale AI",
+          "title": "Base Power raises $1B to roll out its giant new home battery",
+          "source": "Electrek",
+          "company": "Base Power",
           "impact": "high",
           "type": "funding"
         },
         {
-          "title": "SpaceX wins $1.6 billion in launch orders for military satellite networks",
-          "source": "SpaceNews",
-          "company": "SpaceX",
-          "impact": "high",
-          "type": "ipo"
-        },
-        {
-          "title": "U.S. Air Force expands Blue Origin rocket cargo contract",
-          "source": "SpaceNews",
-          "company": "Blue Origin",
-          "impact": "low",
-          "type": "contract"
-        },
-        {
-          "title": "Twelve Hours of AI Work, Seventy Minutes You Can Trust",
-          "source": "Next Big Future",
-          "company": "Twelve",
-          "impact": "low",
-          "type": "news"
-        },
-        {
-          "title": "Space Force awards K2 Space $22.9 million for laser communications demonstration",
-          "source": "SpaceNews",
-          "company": "K2 Space",
-          "impact": "medium",
-          "type": "contract"
-        },
-        {
-          "title": "OpenAI Next Major Model Astra Solves Major Math Problems",
-          "source": "Next Big Future",
+          "title": "OpenAI acquires presentation startup NextSlide",
+          "source": "TechCrunch",
           "company": "OpenAI",
           "impact": "low",
           "type": "news"
+        },
+        {
+          "title": "Here Are the First Images of the Crater Left on the Moon by SpaceX\u2019s Rocket",
+          "source": "Wired",
+          "company": "SpaceX",
+          "impact": "low",
+          "type": "ipo"
+        },
+        {
+          "title": "Waymo CEO: Don&#8217;t Move Fast &#038; Break Things With Physical AI",
+          "source": "CleanTechnica",
+          "company": "Waymo",
+          "impact": "low",
+          "type": "hire"
+        },
+        {
+          "title": "OpenAI says it slowed Astra model development over security concerns",
+          "source": "TechCrunch",
+          "company": "OpenAI",
+          "impact": "low",
+          "type": "news"
+        },
+        {
+          "title": "SpaceX&#8217;s Terafab will rely on natural gas power plants, not Tesla solar panels",
+          "source": "TechCrunch",
+          "company": "SpaceX",
+          "impact": "low",
+          "type": "ipo"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 39,
+      "count": 48,
       "items": [
         {
-          "title": "AI financial advice is surprisingly good, especially if you ask right questions",
-          "score": 341,
-          "comments": 388,
+          "title": "AI-Generated Images Discourage Me from Reading Your Blog",
+          "score": 786,
+          "comments": 464,
           "companies": [
-            "Matter"
+            "Rigetti Computing"
           ],
-          "url": "https://news.ycombinator.com/item?id=49139102"
+          "url": "https://news.ycombinator.com/item?id=49167113"
         },
         {
-          "title": "Wikimedia Foundation refuses union recognition, hires union-busting law firm",
-          "score": 338,
-          "comments": 319,
+          "title": "Discovery Loop",
+          "score": 749,
+          "comments": 467,
           "companies": [
-            "Cognition"
+            "Cover"
           ],
-          "url": "https://news.ycombinator.com/item?id=49143414"
+          "url": "https://news.ycombinator.com/item?id=49184960"
         },
         {
-          "title": "Show HN: I'm a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built",
-          "score": 324,
-          "comments": 107,
+          "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+          "score": 657,
+          "comments": 710,
           "companies": [
-            "Built Robotics"
+            "Cover"
           ],
-          "url": "https://news.ycombinator.com/item?id=49140396"
+          "url": "https://news.ycombinator.com/item?id=49184755"
         },
         {
-          "title": "A Surveillance Treaty in Disguise: Canada Signs UN Cybercrime Convention",
-          "score": 307,
-          "comments": 161,
+          "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
+          "score": 610,
+          "comments": 99,
           "companies": [
-            "ideaForge",
-            "Ada",
-            "Vention",
-            "Asylon Robotics"
+            "Built Robotics",
+            "Agility Robotics"
           ],
-          "url": "https://news.ycombinator.com/item?id=49134694"
+          "url": "https://news.ycombinator.com/item?id=49170165"
         },
         {
-          "title": "RipGrep musl binaries occasionally segfault during very-large searches",
-          "score": 280,
-          "comments": 194,
+          "title": "Cloudflare OS: an open platform for agents, apps, and work",
+          "score": 557,
+          "comments": 267,
           "companies": [
-            "Durin"
+            "Rigetti Computing"
           ],
-          "url": "https://news.ycombinator.com/item?id=49133889"
+          "url": "https://news.ycombinator.com/item?id=49182996"
         },
         {
-          "title": "The Silicon Valley Founder Meat Grinder",
-          "score": 236,
-          "comments": 152,
+          "title": "Pi's Minimalism Is Its Advantage",
+          "score": 527,
+          "comments": 285,
           "companies": [
-            "ICON",
-            "Conductor Quantum"
+            "Databricks",
+            "Sakana AI"
           ],
-          "url": "https://news.ycombinator.com/item?id=49138045"
+          "url": "https://news.ycombinator.com/item?id=49176038"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 108,
+      "count": 97,
       "items": [
         {
-          "title": "Gogoro to Announce Second Quarter 2026 Financial Results on August 24 at 8 a.m. Eastern Time",
+          "title": "Equifax Canada Survey Shows One in Four Canadians Expect to Make Only Minimum Credit Card Payments",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "EchoStar Announces Financial Results for the Three and Six Months Ended June 30, 2026",
+          "title": "Un sondage d\u2019Equifax Canada r\u00e9v\u00e8le qu\u2019une personne sur quatre au Canada pr\u00e9voit de r\u00e9gler uniquement le minimum d\u00fb sur s",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "T1 and Clearway Execute Strategic Offtake Deal",
+          "title": "Man Group PLC : Form 8.3 - JTC Plc",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Zhihu Inc. to Report Second Quarter 2026 Financial Results on August 26, 2026",
+          "title": "Form 8.5 (EPT/RI)-Gooch & Housego plc",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Heineken Holding N.V. reports transactions under its current share buyback programme",
+          "title": "Man Group PLC : Form 8.3 - Senior plc",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Heineken N.V. reports the progress of transactions under its current share buyback programme",
+          "title": "Form 8.5 (EPT/RI)-Advanced Medical Solutions Group Plc",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-08-03-b7e77d39fa30"
+  "brief_id": "brief-2026-08-09-f908c76bf39d"
 }

@@ -77,7 +77,7 @@
     },
     {
       "id": "Plantd Materials",
-      "sector": "Materials",
+      "sector": "Housing & Construction",
       "thesisCluster": ""
     },
     {
@@ -237,12 +237,12 @@
     },
     {
       "id": "Peak Quantum",
-      "sector": "Quantum",
+      "sector": "Quantum Computing",
       "thesisCluster": "superconducting-quantum"
     },
     {
       "id": "Diraq",
-      "sector": "Quantum",
+      "sector": "Quantum Computing",
       "thesisCluster": "silicon-spin-quantum"
     },
     {
@@ -3776,7 +3776,7 @@
       "thesisCluster": "orbital-transfer"
     },
     {
-      "id": "Summit Nanotech",
+      "id": "Summit Lithium Technologies",
       "sector": "Climate & Energy",
       "thesisCluster": "dle-lithium"
     },
@@ -4412,12 +4412,12 @@
     },
     {
       "id": "Lyten",
-      "sector": "Materials",
+      "sector": "Climate & Energy",
       "thesisCluster": ""
     },
     {
       "id": "Vulcan Elements",
-      "sector": "Materials",
+      "sector": "Robotics & Manufacturing",
       "thesisCluster": ""
     },
     {
@@ -4457,7 +4457,7 @@
     },
     {
       "id": "Noveon Magnetics",
-      "sector": "Materials",
+      "sector": "Robotics & Manufacturing",
       "thesisCluster": ""
     },
     {
@@ -4817,7 +4817,7 @@
     },
     {
       "id": "Portal Biotech",
-      "sector": "Bio & Health",
+      "sector": "Biotech & Health",
       "thesisCluster": ""
     },
     {
@@ -4923,6 +4923,26 @@
     {
       "id": "Nudge",
       "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Paradromics",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Orqa",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Alif Semiconductor",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Aigen",
+      "sector": "Robotics & Manufacturing",
       "thesisCluster": ""
     },
     {
@@ -10275,16 +10295,21 @@
       "type": "alumni"
     },
     {
+      "src": "Tesla-alumni-hub",
+      "dst": "Aigen",
+      "type": "alumni"
+    },
+    {
       "src": "DeepMind-alumni-hub",
       "dst": "Generalist AI",
       "type": "alumni"
     }
   ],
   "counts": {
-    "total_nodes": 991,
-    "total_edges": 916,
+    "total_nodes": 995,
+    "total_edges": 917,
     "competitor_edges": 166,
     "thesis_edges": 742,
-    "alumni_edges": 8
+    "alumni_edges": 9
   }
 }

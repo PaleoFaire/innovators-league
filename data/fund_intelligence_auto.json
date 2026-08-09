@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-06T08:43:59.853868Z",
+  "generated_at": "2026-08-09T08:36:07.651237Z",
   "platform": {
-    "companiesTracked": 985,
-    "sectorsMonitored": 19,
-    "totalCapitalRaisedTracked": "$469.0B",
+    "companiesTracked": 989,
+    "sectorsMonitored": 16,
+    "totalCapitalRaisedTracked": "$469.9B",
     "totalValuationTracked": "$1133.6B",
     "companiesWithValuation": 111,
     "govContractsTracked": 29,
     "sbirAwardsTracked": 342,
     "dealsTracked": 320,
-    "newsItemsTracked": 38,
-    "dataPointsUpdated": "39,400+"
+    "newsItemsTracked": 39,
+    "dataPointsUpdated": "39,560+"
   },
   "topFunds": [
     {
@@ -142,6 +142,16 @@
       ]
     },
     {
+      "fund": "Lightspeed",
+      "portfolio_count": 4,
+      "companies": [
+        "Alif Semiconductor",
+        "Cartesia",
+        "Castelion",
+        "Telesat Lightspeed"
+      ]
+    },
+    {
       "fund": "In-Q-Tel",
       "portfolio_count": 4,
       "companies": [
@@ -172,18 +182,10 @@
       ]
     },
     {
-      "fund": "Lightspeed",
-      "portfolio_count": 3,
-      "companies": [
-        "Cartesia",
-        "Castelion",
-        "Telesat Lightspeed"
-      ]
-    },
-    {
       "fund": "Kleiner Perkins",
-      "portfolio_count": 3,
+      "portfolio_count": 4,
       "companies": [
+        "Alif Semiconductor",
         "Cartesia",
         "TerraFirma",
         "Together AI"
@@ -241,17 +243,17 @@
   "sectorConcentration": {
     "Space & Aerospace": 168,
     "Defense & Security": 155,
-    "Robotics & Manufacturing": 142,
-    "Climate & Energy": 141,
-    "Chips & Semiconductors": 74,
-    "Biotech & Health": 71,
+    "Robotics & Manufacturing": 145,
+    "Climate & Energy": 142,
+    "Chips & Semiconductors": 75,
+    "Biotech & Health": 73,
     "Nuclear Energy": 55,
-    "Quantum Computing": 45,
+    "Quantum Computing": 47,
     "AI & Software": 35,
-    "Drones & Autonomous": 33,
+    "Drones & Autonomous": 34,
     "Transportation": 24,
     "Ocean & Maritime": 12,
-    "Housing & Construction": 9,
+    "Housing & Construction": 10,
     "Consumer Tech": 5,
     "Infrastructure & Logistics": 5
   }

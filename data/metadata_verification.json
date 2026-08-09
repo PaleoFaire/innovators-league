@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T09:52:03Z",
-  "company_count": 978,
+  "generated_at": "2026-08-09T08:36:09Z",
+  "company_count": 989,
   "checks": {
     "acquisition_language": [
       {
@@ -19,13 +19,6 @@
         "expected_stage": "Public",
         "ticker": "NASDAQ: LUNR",
         "action": "Update fundingStage to \"Public\" and set ticker to \"NASDAQ: LUNR\""
-      },
-      {
-        "name": "Nano Nuclear Energy",
-        "current_stage": "Seed",
-        "expected_stage": "Public",
-        "ticker": "NASDAQ: NNE",
-        "action": "Update fundingStage to \"Public\" and set ticker to \"NASDAQ: NNE\""
       }
     ],
     "spac_staleness": [
@@ -75,25 +68,30 @@
         "name": "Strata Robotics",
         "sector": "Robotics & Manufacturing",
         "founder": "Eric Zhou, Alex Mason"
+      },
+      {
+        "name": "Flamefront Propulsion",
+        "sector": "Defense & Security",
+        "founder": "Matt Garcia (MIT aero; ex-founding engineer & head of propulsion, Mach Industries)"
       }
     ],
     "stage_vocabulary": {
-      "Series A": 267,
-      "Series B": 184,
-      "Seed": 171,
-      "Series C": 102,
-      "Public": 55,
+      "Series A": 268,
+      "Series B": 189,
+      "Seed": 173,
+      "Series C": 103,
+      "Public": 56,
       "Series D": 38,
       "Growth": 26,
-      "Pre-Seed": 23,
+      "Pre-Seed": 24,
       "Series E": 17,
-      "Series G": 16,
+      "Series G": 15,
       "Late Stage": 10,
-      "Private": 9,
-      "Series F": 8,
+      "Series F": 9,
+      "Private": 8,
       "SPAC": 8,
       "IPO": 6,
-      "Pre-IPO": 3,
+      "Pre-IPO": 4,
       "Bootstrapped": 3,
       "Public (KOSDAQ)": 3,
       "Stealth": 2,
@@ -237,13 +235,6 @@
       },
       {
         "kind": "rebrand_suspect",
-        "name": "Firehawk Aerospace",
-        "old_url": "https://firehawkaerospace.com",
-        "new_url": "https://firehawkdefense.com/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "rebrand_suspect",
         "name": "SkySafe",
         "old_url": "https://skysafe.com",
         "new_url": "https://www.skysafe.io/",
@@ -287,9 +278,9 @@
     ]
   },
   "summary": {
-    "p0_issues": 16,
+    "p0_issues": 14,
     "p1_issues": 15,
-    "missing_websites": 1,
+    "missing_websites": 2,
     "distinct_stages": 43
   }
 }
