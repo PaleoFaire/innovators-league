@@ -1,6 +1,6 @@
-# 🌟 ROS Frontier-Tech Scout — Week of 2026-08-02
+# 🌟 ROS Frontier-Tech Scout — Week of 2026-08-09
 
-**Roster:** 1059 companies tracked  ·  **Screened this cycle:** 288  ·  **Top picks:** 5  ·  **Runners-up:** 10
+**Roster:** 1067 companies tracked  ·  **Screened this cycle:** 284  ·  **Top picks:** 5  ·  **Runners-up:** 10
 
 ---
 
@@ -131,14 +131,14 @@ Recent episodes from the scout's podcast sources. Scan titles for company names 
 - **[TBPN]** [Robot Bans, Zuck Op-Ed, eBay Settles | Joe Weisenthal, Jameson Detweiler, Stanley Tang, Amjad Masad, Adam Cohen](https://share.transistor.fm/s/0078676f)
 - **[TBPN]** [RSI Is Closer Than People Think, Per Tae Kim](https://share.transistor.fm/s/4b521dc2)
 - **[Core Memory]** [The Manufacturing Phenomenon That Is SendCutSend - EP 79 Jim Belosic](https://www.corememory.com/p/the-manufacturing-phenomenon-sendcutsend-jim-belosic)
-- **[TBPN]** [AI Agents Hack Hugging Face, White House Promotes Science’s Golden Age | Diet TBPN](https://share.transistor.fm/s/2008e80a)
-- **[TBPN]** [Inside Travis Kalanick’s Wild New AI Company](https://share.transistor.fm/s/9736f886)
-- **[TBPN]** [HackingFace, White House $5B AI Science Bet, Travis Kalanick Joins | Veeral Patel, Lin Qiao, Jason Fried, Travis Kalanic](https://share.transistor.fm/s/e6decec8)
 - **[Core Memory]** [The Google Engineer Who Set The Skydiving Record At 58 - EP 83 Alan Eustace](https://www.corememory.com/p/the-google-engineer-who-set-the-skydiving-record-alan-eustace)
 - **[Core Memory]** [The Future Of Our Brains And Bodies - EP 77 Max Hodak Live Event](https://www.corememory.com/p/the-future-of-our-brains-and-bodies-max-hodak-science)
 - **[All-In]** [Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding](https://allinchamathjason.libsyn.com/former-intel-ceo-on-what-went-wrong-whats-next-lovable-ceo-on-the-real-promise-of-vibe-coding)
+- **[Core Memory]** [An Implant That Tracks And Treats Cancer Tumors - EP 82 Ben Woodington](https://www.corememory.com/p/an-implant-that-tracks-and-treats-cancer-coherence-ben-woodington)
+- **[All-In]** [Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner](https://allinchamathjason.libsyn.com/senators-john-fetterman-and-dave-mccormick-bipartisanship-money-in-dc-datacenters-graham-platner)
+- **[Core Memory]** [The Space Race Is So Back — EP 76 Ashlee Vance And Kylie Robison](https://www.corememory.com/p/the-space-race-is-so-back-ep-76-ashlee)
 
 ---
 
 
-*Generated 2026-08-02T10:32:12+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
+*Generated 2026-08-09T09:35:42+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
