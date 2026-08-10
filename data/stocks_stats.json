@@ -5,90 +5,90 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 41.86,
+      "avg_change": 39.46,
       "count": 1
     },
     "space": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 15.05,
+      "gainers": 7,
+      "losers": 0,
+      "avg_change": 15.79,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 7.85,
+      "avg_change": 5.8,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.63,
+      "avg_change": 5.15,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 10.94,
+      "avg_change": 11.74,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 9.42,
+      "avg_change": 6.88,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 11.87,
+      "avg_change": 11.74,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 3.38,
+      "avg_change": 4.74,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 2.29,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 0.33,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "SATL",
-      "Satellogic",
-      42.91
-    ],
-    [
       "PLTR",
       "Palantir",
-      41.86
+      39.46
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      34.77
     ],
     [
       "ACHR",
       "Archer Aviation",
-      36.59
+      29.24
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      26.17
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      23.7
-    ],
-    [
-      "JOBY",
-      "Joby Aviation",
-      22.09
+      20.46
     ]
   ],
   "topLosers": [
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      1.75
+      "QBTS",
+      "D-Wave Quantum",
+      1.05
     ],
     [
       "9348.T",
@@ -96,20 +96,20 @@
       0.0
     ],
     [
-      "AMD",
-      "AMD",
-      -1.51
+      "ALAB",
+      "Astera Labs",
+      -1.19
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      -2.96
+      "AMD",
+      "AMD",
+      -3.11
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -27.24
+      -28.66
     ]
   ],
-  "lastUpdated": "2026-08-10 14:34:29"
+  "lastUpdated": "2026-08-10 20:04:41"
 }
