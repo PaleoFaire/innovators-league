@@ -1,19 +1,19 @@
 // Auto-generated news signals
-// Last updated: 2026-08-09T23:39:05.344Z
+// Last updated: 2026-08-10T02:25:36.195Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1786318745344,
+    "id": 1786328736194,
     "type": "milestone",
     "company": "Zoox",
     "headline": "TechCrunch Mobility: Zoox prepares for launch and Uber’s AV empire",
     "source": "TechCrunch",
-    "time": "7h ago",
+    "time": "10h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/09/techcrunch-mobility-zoox-prepares-for-launch-and-ubers-av-empire/"
   },
   {
-    "id": 1786318745345,
+    "id": 1786328736195,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI acquires presentation startup NextSlide",
@@ -24,18 +24,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/"
   },
   {
-    "id": 1786318745346,
-    "type": "contract",
-    "company": "SpaceX",
-    "headline": "Microsoft Will Lease 3+ Gigawatts of AI Data Center from SpaceX in 2027",
-    "source": "Next Big Future",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": true,
-    "link": "https://www.nextbigfuture.com/2026/08/microsoft-will-lease-3-gigawatts-of-ai-data-center-from-spacex-in-2027.html"
-  },
-  {
-    "id": 1786318745347,
+    "id": 1786328736197,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Here Are the First Images of the Crater Left on the Moon by SpaceX’s Rocket",
@@ -46,40 +35,29 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/first-images-spacex-rocket-moon-crater/"
   },
   {
-    "id": 1786318745348,
+    "id": 1786328736198,
     "type": "hire",
     "company": "Waymo",
     "headline": "Waymo CEO: Don&#8217;t Move Fast &#038; Break Things With Physical AI",
     "source": "CleanTechnica",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/08/07/waymo-ceo-dont-move-fast-break-things-with-physical-ai/"
   },
   {
-    "id": 1786318745349,
+    "id": 1786328736199,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI says it slowed Astra model development over security concerns",
     "source": "TechCrunch",
     "time": "2d ago",
     "impact": "low",
-    "unread": false,
+    "unread": true,
     "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/"
   },
   {
-    "id": 1786318745350,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "Semianalysis Agrees With NextBigfuture $300B Per Year for SpaceX by End of 2027",
-    "source": "Next Big Future",
-    "time": "2d ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/08/semianalysis-agrees-with-nextbigfuture-300b-per-year-for-spacex-by-end-of-2027.html"
-  },
-  {
-    "id": 1786318745351,
+    "id": 1786328736200,
     "type": "news",
     "company": "Humanoid",
     "headline": "Mitsubishi joins the humanoid robot race — at a 1,000 unit per month pace",
@@ -90,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/07/mitsubishi-joins-the-humanoid-robot-race-at-a-1000-unit-per-month-pace/"
   },
   {
-    "id": 1786318745352,
+    "id": 1786328736201,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Waymo Jacks Up Lobbying In Washington, DC",
@@ -101,18 +79,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/08/06/waymo-jacks-up-lobbying-in-washington-dc/"
   },
   {
-    "id": 1786318745353,
+    "id": 1786328736202,
     "type": "milestone",
     "company": "Zoox",
     "headline": "Zoox To Start Charging Passengers Next Week",
     "source": "CleanTechnica",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://cleantechnica.com/2026/08/06/zoox-to-start-charging-passengers-next-week/"
   },
   {
-    "id": 1786318745354,
+    "id": 1786328736203,
     "type": "milestone",
     "company": "GrayMatter Robotics",
     "headline": "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics",
@@ -123,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/hii-signs-up-to-900m-agreement-with-path-robotics-graymatter-robotics/"
   },
   {
-    "id": 1786318745355,
+    "id": 1786328736204,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "ICE’s DNA Collection Increases, SpaceX’s Rocket Crashes Into the Moon, and the AI Backlash Grows",
@@ -134,18 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/ice-dna-collection-increases-spacex-rocket-crashes-into-the-moon-and-the-ai-backlash-grows/"
   },
   {
-    "id": 1786318745356,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "SpaceX Pays Off a Data Center in 9 Months",
-    "source": "Next Big Future",
-    "time": "3d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/08/the-math-nobody-ran-on-ai-capex.html"
-  },
-  {
-    "id": 1786318745357,
+    "id": 1786328736205,
     "type": "hire",
     "company": "SpaceX",
     "headline": "Tesla, SpaceX confirm ‘Terafab’ chip fab site — $16.8B first phase",
@@ -156,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/06/tesla-spacex-terafab-grimes-county-16-8-billion/"
   },
   {
-    "id": 1786318745358,
+    "id": 1786328736206,
     "type": "contract",
     "company": "SpaceX",
     "headline": "Officials hedge SpaceX aircraft-tracking satellite bet with three smaller company contracts",
@@ -167,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/defense-systems/2026/08/officials-hedge-spacex-aircraft-tracking-satellite-bet-three-smaller-company-contracts/415252/"
   },
   {
-    "id": 1786318745359,
+    "id": 1786328736207,
     "type": "news",
     "company": "Deterrence",
     "headline": "Does Latent Nuclear Deterrence Really Work?",
@@ -178,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://warontherocks.com/does-latent-nuclear-deterrence-really-work/"
   },
   {
-    "id": 1786318745360,
+    "id": 1786328736208,
     "type": "hire",
     "company": "Oklo",
     "headline": "Nuclear startup Oklo splits its first atoms in test reactor",
@@ -189,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/nuclear/nuclear-startup-oklo-splits-its-first-atoms-in-test-reactor"
   },
   {
-    "id": 1786318745361,
+    "id": 1786328736209,
     "type": "ipo",
     "company": "Rocket Lab",
     "headline": "Rocket Lab launches 8th iQPS satellite",
@@ -200,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/rocket-lab-launches-8th-iqps-satellite/"
   },
   {
-    "id": 1786318745362,
+    "id": 1786328736210,
     "type": "milestone",
     "company": "Modal",
     "headline": "New York-headquartered AI startup Modal Labs to open London office",
@@ -211,14 +178,47 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/08/06/new-york-headquartered-ai-startup-modal-labs-to-open-london-office/"
   },
   {
-    "id": 1786318745363,
+    "id": 1786328736211,
     "type": "hire",
     "company": "Wayve",
     "headline": "Wayve &#038; Uber Can Now Deploy Robotaxis in London",
     "source": "CleanTechnica",
-    "time": "3d ago",
+    "time": "4d ago",
     "impact": "low",
     "unread": false,
     "link": "https://cleantechnica.com/2026/08/05/wayve-uber-can-now-deploy-robotaxis-in-london/"
+  },
+  {
+    "id": 1786328736212,
+    "type": "hire",
+    "company": "Firestorm Labs",
+    "headline": "Firestorm Labs builds drones aboard USS Essex without shore resupply",
+    "source": "Defense News",
+    "time": "4d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.defensenews.com/industry/techwatch/2026/08/05/firestorm-labs-builds-drones-aboard-uss-essex-without-shore-resupply/"
+  },
+  {
+    "id": 1786328736213,
+    "type": "contract",
+    "company": "Umbra",
+    "headline": "Capella, Iceye and Umbra win NRO radar-data contracts",
+    "source": "SpaceNews",
+    "time": "4d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://spacenews.com/capella-iceye-and-umbra-win-nro-radar-data-contracts/"
+  },
+  {
+    "id": 1786328736214,
+    "type": "news",
+    "company": "Saildrone",
+    "headline": "US Navy, Saildrone to use unmanned systems in expanded counternarcotics role",
+    "source": "Defense News",
+    "time": "4d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.defensenews.com/industry/techwatch/2026/08/05/us-navy-saildrone-to-use-unmanned-systems-in-expanded-counternarcotics-role/"
   }
 ];
