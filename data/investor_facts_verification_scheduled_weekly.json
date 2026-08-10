@@ -1,22 +1,21 @@
 {
-  "generatedAt": "2026-08-03T10:42:21+00:00",
+  "generatedAt": "2026-08-10T08:33:17+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_weekly.json",
   "cohortSize": 11,
   "newExtractionsThisRun": 11,
   "summary": {
-    "cleared": 7,
-    "changesProposed": 4,
+    "cleared": 6,
+    "changesProposed": 5,
     "unverifiable": 0
   },
   "cleared": [
-    "Caffeinated Capital",
+    "DCVC",
     "Eclipse Ventures",
     "General Catalyst",
-    "Harpoon Ventures",
+    "Lightspeed Venture Partners",
     "Point72 Ventures",
-    "Shield Capital",
-    "Thrive Capital Management, LLC"
+    "Shield Capital"
   ],
   "changesProposed": [
     {
@@ -36,7 +35,7 @@
         "aum": null,
         "flagship_fund": null,
         "founded_year": null,
-        "hq": "San Francisco, CA",
+        "hq": null,
         "key_partners": null,
         "sector_focus": [
           "Energy",
@@ -45,13 +44,10 @@
           "Advanced Manufacturing",
           "Infrastructure"
         ],
-        "thesis": "Cantos provides initial capital and ongoing counsel to founders building transformative technology in abundance, resilience, and advantage. The firm invests in deeply technical founders creating novel solutions across energy, defense, space, manufacturing, and critical infrastructure.",
+        "thesis": "Cantos Ventures provides initial capital and ongoing counsel to founders building transformative technology in abundance, resilience, and advantage.",
         "website": "https://cantos.vc",
         "sources_per_field": {
           "name": [
-            0
-          ],
-          "hq": [
             0
           ],
           "sector_focus": [
@@ -64,13 +60,13 @@
             0
           ]
         },
-        "notes": "Source [1] is Wikipedia article about 'The Cantos' poem by Ezra Pound, not the venture firm. Founder/partner names, AUM, flagship fund name, and founded year cannot be verified from provided sources. Database entry claims for Ian Rountree and Grant Gregory as key partners, $100M+ AUM, Fund III, and 2016 founding year are not supported by source [0] website content provided."
+        "notes": "Source [1] is Wikipedia article about 'The Cantos' poem by Ezra Pound, not the venture capital firm. No verified founding year, AUM, flagship fund, HQ, or key partner names found in provided sources. Database entry claims (founded 2016, $100M+ AUM, Fund III, San Francisco CA, partners Ian Rountree and Grant Gregory) cannot be verified from these sources."
       },
       "changes": [
         {
           "field": "thesis",
-          "current": "Cantos provides initial capital and counsel to founders building transformative technology in abundance, resilience, and advantage. The firm invests in deeply technical founders creating novel solutions in energy, defense, space, manufacturing, and critical infrastructure.",
-          "verified": "Cantos provides initial capital and ongoing counsel to founders building transformative technology in abundance, resilience, and advantage. The firm invests in deeply technical founders creating novel solutions across energy, defense, space, manufacturing, and critical infrastructure.",
+          "current": "Cantos provides initial capital and ongoing counsel to founders building transformative technology in abundance, resilience, and advantage. The firm invests in deeply technical founders creating novel solutions across energy, defense, space, manufacturing, and critical infrastructure.",
+          "verified": "Cantos Ventures provides initial capital and ongoing counsel to founders building transformative technology in abundance, resilience, and advantage.",
           "sources": [
             0
           ]
@@ -88,148 +84,7 @@
           "url": "https://en.wikipedia.org/wiki/Cantos"
         }
       ],
-      "notes": "Source [1] is Wikipedia article about 'The Cantos' poem by Ezra Pound, not the venture firm. Founder/partner names, AUM, flagship fund name, and founded year cannot be verified from provided sources. Database entry claims for Ian Rountree and Grant Gregory as key partners, $100M+ AUM, Fund III, and 2016 founding year are not supported by source [0] website content provided."
-    },
-    {
-      "name": "DCVC",
-      "current": {
-        "name": "DCVC",
-        "shortName": "DCVC",
-        "aum": "$4B+",
-        "flagshipFund": "DCVC Fund VI",
-        "founded": 2010,
-        "hq": "Palo Alto, CA",
-        "website": "https://dcvc.com"
-      },
-      "verified": {
-        "name": "DCVC",
-        "short_name": "DCVC",
-        "aum": "$4B+",
-        "flagship_fund": null,
-        "founded_year": 2010,
-        "hq": null,
-        "key_partners": [
-          "Matthew Ocko",
-          "Zachary Bogue",
-          "Dr. John Hamer",
-          "Dr. Kiersten Stead",
-          "Spencer Punter",
-          "James Hardiman",
-          "Jason Pontin",
-          "Dr. Rachel Slaybaugh",
-          "Ali Tamaseb",
-          "Milo Werner",
-          "Dr. Justin Kern"
-        ],
-        "sector_focus": [
-          "AI",
-          "Climate",
-          "Engineering",
-          "Materials Science",
-          "Robotics",
-          "Space",
-          "Water",
-          "Biology",
-          "Defense and Security"
-        ],
-        "thesis": "DCVC backs entrepreneurs using AI to unlock potential across sectors. The firm invests in companies solving trillion-dollar problems to multiply the benefits of capitalism for everyone while reducing its costs.",
-        "website": "https://dcvc.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "short_name": [
-            0,
-            1,
-            2
-          ],
-          "aum": [
-            1
-          ],
-          "flagship_fund": [],
-          "founded_year": [
-            0,
-            1
-          ],
-          "hq": [],
-          "key_partners": [
-            2
-          ],
-          "sector_focus": [
-            1
-          ],
-          "thesis": [
-            0,
-            1
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Alan Cohen listed in database as key partner but only appears as 'Operating Partner' on team page (source 2), not as senior partner. Field excluded from key_partners per instructions to list only 'current senior partners.' HQ not found in sources despite database entry stating 'Palo Alto, CA.' Flagship fund name not identified in sources. Sources dated 2026."
-      },
-      "changes": [
-        {
-          "field": "keyPartners",
-          "current": [
-            "Matthew Ocko",
-            "Zachary Bogue",
-            "Dr. John Hamer",
-            "Dr. Kiersten Stead",
-            "Spencer Punter",
-            "Alan Cohen",
-            "James Hardiman",
-            "Jason Pontin",
-            "Dr. Rachel Slaybaugh",
-            "Ali Tamaseb",
-            "Milo Werner",
-            "Dr. Justin Kern"
-          ],
-          "verified": [
-            "Matthew Ocko",
-            "Zachary Bogue",
-            "Dr. John Hamer",
-            "Dr. Kiersten Stead",
-            "Spencer Punter",
-            "James Hardiman",
-            "Jason Pontin",
-            "Dr. Rachel Slaybaugh",
-            "Ali Tamaseb",
-            "Milo Werner",
-            "Dr. Justin Kern"
-          ],
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://dcvc.com"
-        },
-        {
-          "idx": 1,
-          "src": "firm/about",
-          "url": "https://dcvc.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "firm/team",
-          "url": "https://dcvc.com/team"
-        },
-        {
-          "idx": 3,
-          "src": "firm/companies",
-          "url": "https://dcvc.com/companies"
-        }
-      ],
-      "notes": "Alan Cohen listed in database as key partner but only appears as 'Operating Partner' on team page (source 2), not as senior partner. Field excluded from key_partners per instructions to list only 'current senior partners.' HQ not found in sources despite database entry stating 'Palo Alto, CA.' Flagship fund name not identified in sources. Sources dated 2026."
+      "notes": "Source [1] is Wikipedia article about 'The Cantos' poem by Ezra Pound, not the venture capital firm. No verified founding year, AUM, flagship fund, HQ, or key partner names found in provided sources. Database entry claims (founded 2016, $100M+ AUM, Fund III, San Francisco CA, partners Ian Rountree and Grant Gregory) cannot be verified from these sources."
     },
     {
       "name": "Engine Ventures",
@@ -267,13 +122,15 @@
           "Materials",
           "Water / Oceans"
         ],
-        "thesis": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+        "thesis": "Engine Ventures invests in early-stage Tough Tech companies developing hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
         "website": "https://engine.xyz",
         "sources_per_field": {
           "name": [
-            3
+            0,
+            1
           ],
           "founded_year": [
+            1,
             3
           ],
           "hq": [
@@ -289,7 +146,7 @@
             0
           ]
         },
-        "notes": "Engine Ventures spun out as a separate investment firm from The Engine in 2023. The Engine itself is a 501(c)(3) nonprofit incubator and accelerator founded by MIT in 2016. No current senior partners explicitly named on sources. AUM not disclosed in provided sources. No flagship fund name identified in sources."
+        "notes": "Engine Ventures spun out as a separate investment firm from The Engine nonprofit incubator/accelerator in 2023. The Engine itself was founded by MIT in 2016. Sources do not provide current AUM, flagship fund name, or key partner names for Engine Ventures specifically."
       },
       "changes": [
         {
@@ -348,73 +205,354 @@
           "idx": 3,
           "src": "wikipedia",
           "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
+        },
+        {
+          "idx": 4,
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/08/07/mitsubishi-joins-the-humanoid-robot-race-at-a-1000-unit-per-month-pace/"
         }
       ],
-      "notes": "Engine Ventures spun out as a separate investment firm from The Engine in 2023. The Engine itself is a 501(c)(3) nonprofit incubator and accelerator founded by MIT in 2016. No current senior partners explicitly named on sources. AUM not disclosed in provided sources. No flagship fund name identified in sources."
+      "notes": "Engine Ventures spun out as a separate investment firm from The Engine nonprofit incubator/accelerator in 2023. The Engine itself was founded by MIT in 2016. Sources do not provide current AUM, flagship fund name, or key partner names for Engine Ventures specifically."
     },
     {
-      "name": "Lightspeed Venture Partners",
+      "name": "Harpoon Ventures",
       "current": {
-        "name": "Lightspeed Venture Partners",
-        "shortName": "Lightspeed",
-        "aum": "$9B+ (Dec 2025 raise)",
-        "flagshipFund": "Lightspeed Fund XIV",
-        "founded": 2000,
-        "hq": "Menlo Park, CA",
-        "website": "https://lsvp.com"
+        "name": "Harpoon Ventures",
+        "shortName": "Harpoon",
+        "aum": "$300M+",
+        "flagshipFund": "Harpoon Ventures Fund IV",
+        "founded": 2018,
+        "hq": "San Diego, CA",
+        "website": "https://harpoon.vc"
       },
       "verified": {
-        "name": "Lightspeed Venture Partners",
-        "short_name": "Lightspeed",
+        "name": "Harpoon Ventures",
+        "short_name": null,
         "aum": null,
-        "flagship_fund": null,
-        "founded_year": null,
-        "hq": null,
+        "flagship_fund": "Harpoon Ventures Fund IV",
+        "founded_year": 2018,
+        "hq": "San Diego, CA",
         "key_partners": [
-          "Barry Eggers",
-          "Peter Nieh",
-          "Ravi Mhatre",
-          "Guru Chahal"
+          "Larsen Jensen"
         ],
-        "sector_focus": null,
-        "thesis": "For over twenty years Lightspeed has been the first investor and an early backer of some of the most innovative companies in the world. The firm stands behind companies with high conviction from Seed to Series F and beyond.",
-        "website": "https://lsvp.com",
+        "sector_focus": [
+          "AI",
+          "Cybersecurity",
+          "Deep Tech",
+          "Software Infrastructure",
+          "Aerospace / Defense",
+          "Energy / Materials",
+          "Biotech / Biosecurity"
+        ],
+        "thesis": "Harpoon invests in audacious founders building across AI, deep tech, software infrastructure, and cybersecurity. The firm was founded in 2018 on the belief that technology will define geopolitics.",
+        "website": "https://harpoon.vc",
         "sources_per_field": {
           "name": [
-            0,
-            1
+            0
           ],
-          "short_name": [],
+          "flagship_fund": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "hq": null,
           "key_partners": [
-            2
+            0
+          ],
+          "sector_focus": [
+            1
           ],
           "thesis": [
-            0,
-            1
+            0
           ],
           "website": [
             0
           ]
         },
-        "notes": "Founded year, AUM, flagship fund, HQ location, and sector focus could not be verified from provided sources. Key partners extracted from team page listing Co-Founders and Partners only. Arif Janmohamed listed as Venture Partner (not senior partner rank). Sources indicate LSVP and LSIP are distinct entities and LSVP maintains separate relationship with Faction Ventures."
+        "notes": "Source 2 (Wikipedia) is about the hunting instrument 'harpoon', not the venture firm, and is not applicable. HQ location cannot be verified from provided sources. AUM of $300M+ from database entry cannot be verified from sources. Larsen Jensen identified as founder/partner from testimonials and website copy."
       },
       "changes": [
         {
+          "field": "thesis",
+          "current": "Harpoon invests in audacious founders building across AI, deep tech, software infrastructure, and cybersecurity. Founded in 2018 by a two-time Olympic medalist and former Navy SEAL, the firm operates on the belief that technology will define geopolitics.",
+          "verified": "Harpoon invests in audacious founders building across AI, deep tech, software infrastructure, and cybersecurity. The firm was founded in 2018 on the belief that technology will define geopolitics.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://harpoon.vc"
+        },
+        {
+          "idx": 1,
+          "src": "firm/portfolio",
+          "url": "https://harpoon.vc/portfolio"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia (short name)",
+          "url": "https://en.wikipedia.org/wiki/Harpoon"
+        }
+      ],
+      "notes": "Source 2 (Wikipedia) is about the hunting instrument 'harpoon', not the venture firm, and is not applicable. HQ location cannot be verified from provided sources. AUM of $300M+ from database entry cannot be verified from sources. Larsen Jensen identified as founder/partner from testimonials and website copy."
+    },
+    {
+      "name": "Kleiner Perkins",
+      "current": {
+        "name": "Kleiner Perkins",
+        "shortName": "KP",
+        "aum": "Not publicly stated",
+        "flagshipFund": "KP22 ($1B early-stage) + KP Select IV ($2.5B growth), Mar 2026",
+        "founded": 1972,
+        "hq": "Menlo Park, California",
+        "website": "https://www.kleinerperkins.com"
+      },
+      "verified": {
+        "name": "Kleiner Perkins Caufield & Byers, LLC",
+        "short_name": "KP",
+        "aum": "$21B+",
+        "flagship_fund": "KP22 ($1B early-stage) and Select growth funds ($2.5B)",
+        "founded_year": 1972,
+        "hq": "Menlo Park, California",
+        "key_partners": [
+          "John Doerr",
+          "Brook Byers",
+          "Ilya Fushman",
+          "Mamoon Hamid",
+          "Ted Schlein",
+          "Leigh Marie Braswell",
+          "Josh Coyne",
+          "Aditya Naganath",
+          "Aatish Nayak",
+          "Joubin Mirzadegan",
+          "Jesse King"
+        ],
+        "sector_focus": null,
+        "thesis": "Kleiner Perkins invests in early-stage and growth companies across technology and life sciences. The firm has backed founders building companies spanning consumer, enterprise, hardtech, and fintech sectors since its founding in 1972.",
+        "website": "https://www.kleinerperkins.com",
+        "sources_per_field": {
+          "name": [
+            3
+          ],
+          "short_name": [
+            3
+          ],
+          "aum": [
+            3
+          ],
+          "flagship_fund": [
+            3
+          ],
+          "founded_year": [
+            3
+          ],
+          "hq": [
+            3
+          ],
+          "key_partners": [
+            2,
+            3
+          ],
+          "sector_focus": [],
+          "thesis": [
+            1,
+            3
+          ],
+          "website": [
+            0,
+            3
+          ]
+        },
+        "notes": "In 2026, Kleiner Perkins announced $3.5B raised for AI startups. Wikipedia lists AUM as $21B (2026). Database entry references TerraFirma, Akeana, and SpinLaunch investments but these cannot be verified in provided sources. 'Bucky Moore (alum)' listed in database is not present in current firm team listing; only current senior partners listed per instructions."
+      },
+      "changes": [
+        {
+          "field": "name",
+          "current": "Kleiner Perkins",
+          "verified": "Kleiner Perkins Caufield & Byers, LLC",
+          "sources": [
+            3
+          ]
+        },
+        {
+          "field": "aum",
+          "current": "Not publicly stated",
+          "verified": "$21B+",
+          "sources": [
+            3
+          ]
+        },
+        {
+          "field": "flagshipFund",
+          "current": "KP22 ($1B early-stage) + KP Select IV ($2.5B growth), Mar 2026",
+          "verified": "KP22 ($1B early-stage) and Select growth funds ($2.5B)",
+          "sources": [
+            3
+          ]
+        },
+        {
           "field": "keyPartners",
           "current": [
-            "Arif Janmohamed",
-            "Barry Eggers",
-            "Peter Nieh",
-            "Ravi Mhatre",
-            "Guru Chahal"
+            "Ilya Fushman",
+            "Mamoon Hamid",
+            "Bucky Moore (alum)"
           ],
           "verified": [
-            "Barry Eggers",
-            "Peter Nieh",
-            "Ravi Mhatre",
-            "Guru Chahal"
+            "John Doerr",
+            "Brook Byers",
+            "Ilya Fushman",
+            "Mamoon Hamid",
+            "Ted Schlein",
+            "Leigh Marie Braswell",
+            "Josh Coyne",
+            "Aditya Naganath",
+            "Aatish Nayak",
+            "Joubin Mirzadegan",
+            "Jesse King"
           ],
           "sources": [
+            2,
+            3
+          ]
+        },
+        {
+          "field": "thesis",
+          "current": "One of venture's founding firms, with hardtech as a named core practice and an 'AI super-cycle' frame spanning autonomy, security, and the physical economy. Led TerraFirma's $100M Series A (Jul 2026, ex-SpaceX autonomous heavy equipment) and backed Akeana's $100M+ RISC-V launch and SpinLaunch's kinetic-launch Series A \u2014 the firm that funded Genentech in 1976 is buying back into atoms.",
+          "verified": "Kleiner Perkins invests in early-stage and growth companies across technology and life sciences. The firm has backed founders building companies spanning consumer, enterprise, hardtech, and fintech sectors since its founding in 1972.",
+          "sources": [
+            1,
+            3
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://www.kleinerperkins.com"
+        },
+        {
+          "idx": 1,
+          "src": "firm/about",
+          "url": "https://www.kleinerperkins.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "firm/team",
+          "url": "https://www.kleinerperkins.com/team"
+        },
+        {
+          "idx": 3,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kleiner_Perkins"
+        }
+      ],
+      "notes": "In 2026, Kleiner Perkins announced $3.5B raised for AI startups. Wikipedia lists AUM as $21B (2026). Database entry references TerraFirma, Akeana, and SpinLaunch investments but these cannot be verified in provided sources. 'Bucky Moore (alum)' listed in database is not present in current firm team listing; only current senior partners listed per instructions."
+    },
+    {
+      "name": "Y Combinator",
+      "current": {
+        "name": "Y Combinator",
+        "shortName": "YC",
+        "aum": "Standard deal $500K/startup ($125K for 7% + $375K MFN SAFE)",
+        "flagshipFund": "Batch accelerator (4 batches/yr)",
+        "founded": 2005,
+        "hq": "San Francisco, California",
+        "website": "https://www.ycombinator.com"
+      },
+      "verified": {
+        "name": "Y Combinator",
+        "short_name": "YC",
+        "aum": null,
+        "flagship_fund": "Batch accelerator program",
+        "founded_year": 2005,
+        "hq": "San Francisco, California",
+        "key_partners": [
+          "Garry Tan",
+          "Jared Friedman",
+          "Harj Taggar",
+          "Aaron Epstein",
+          "Diana Hu",
+          "Gustaf Alstr\u00f6mer",
+          "Nicolas Dessaigne",
+          "Tom Blomfield",
+          "Brad Flora"
+        ],
+        "sector_focus": null,
+        "thesis": "Y Combinator is a startup accelerator that invests $500k per company in select cohorts four times per year. The three-month program provides intensive mentorship, office hours with partners, and community access to help startups achieve better products, user bases, and fundraising options before Demo Day.",
+        "website": "https://www.ycombinator.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            2
+          ],
+          "short_name": [
+            2
+          ],
+          "flagship_fund": [
+            0,
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "hq": [
+            0,
+            2
+          ],
+          "key_partners": [
+            0
+          ],
+          "thesis": [
+            0,
+            2
+          ]
+        },
+        "notes": "Garry Tan became President & CEO in January 2023. Jared Friedman succeeded Michael Seibel as Managing Partner in March 2024. Headquarters moved from Mountain View to San Francisco in spring 2023. Standard deal structure since January 2022: $125k for 7% equity + $375k uncapped SAFE with MFN."
+      },
+      "changes": [
+        {
+          "field": "flagshipFund",
+          "current": "Batch accelerator (4 batches/yr)",
+          "verified": "Batch accelerator program",
+          "sources": [
+            0,
+            2
+          ]
+        },
+        {
+          "field": "keyPartners",
+          "current": [
+            "Garry Tan (President & CEO)",
+            "Jared Friedman",
+            "Diana Hu"
+          ],
+          "verified": [
+            "Garry Tan",
+            "Jared Friedman",
+            "Harj Taggar",
+            "Aaron Epstein",
+            "Diana Hu",
+            "Gustaf Alstr\u00f6mer",
+            "Nicolas Dessaigne",
+            "Tom Blomfield",
+            "Brad Flora"
+          ],
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "thesis",
+          "current": "The world's largest accelerator has made a measurable hard-tech pivot: ~1 in 8 companies in the Winter 2026 batch builds something physical, and industrials & defense doubled cohort-over-cohort (17 to 35). Its Requests for Startups now call for counter-drone defense, space electronics, lunar manufacturing, and semiconductor supply chains \u2014 and its alumni already include Boom, Relativity, Astranis, and Helion.",
+          "verified": "Y Combinator is a startup accelerator that invests $500k per company in select cohorts four times per year. The three-month program provides intensive mentorship, office hours with partners, and community access to help startups achieve better products, user bases, and fundraising options before Demo Day.",
+          "sources": [
+            0,
             2
           ]
         }
@@ -423,35 +561,20 @@
         {
           "idx": 0,
           "src": "firm_website",
-          "url": "https://lsvp.com"
+          "url": "https://www.ycombinator.com"
         },
         {
           "idx": 1,
           "src": "firm/about",
-          "url": "https://lsvp.com/about"
+          "url": "https://www.ycombinator.com/about"
         },
         {
           "idx": 2,
-          "src": "firm/team",
-          "url": "https://lsvp.com/team"
-        },
-        {
-          "idx": 3,
-          "src": "firm/portfolio",
-          "url": "https://lsvp.com/portfolio"
-        },
-        {
-          "idx": 4,
-          "src": "firm/companies",
-          "url": "https://lsvp.com/companies"
-        },
-        {
-          "idx": 5,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners"
+          "url": "https://en.wikipedia.org/wiki/Y_Combinator"
         }
       ],
-      "notes": "Founded year, AUM, flagship fund, HQ location, and sector focus could not be verified from provided sources. Key partners extracted from team page listing Co-Founders and Partners only. Arif Janmohamed listed as Venture Partner (not senior partner rank). Sources indicate LSVP and LSIP are distinct entities and LSVP maintains separate relationship with Faction Ventures."
+      "notes": "Garry Tan became President & CEO in January 2023. Jared Friedman succeeded Michael Seibel as Managing Partner in March 2024. Headquarters moved from Mountain View to San Francisco in spring 2023. Standard deal structure since January 2022: $125k for 7% equity + $375k uncapped SAFE with MFN."
     }
   ],
   "unverifiable": []

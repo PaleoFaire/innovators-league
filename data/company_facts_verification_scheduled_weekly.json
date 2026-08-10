@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-03T10:40:06+00:00",
+  "generatedAt": "2026-08-10T08:30:17+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_weekly.json",
-  "cohortSize": 91,
-  "newExtractionsThisRun": 70,
+  "cohortSize": 93,
+  "newExtractionsThisRun": 87,
   "summary": {
-    "cleared": 80,
-    "changesProposed": 4,
-    "unverifiable": 7
+    "cleared": 81,
+    "changesProposed": 7,
+    "unverifiable": 5
   },
   "cleared": [
     "1X Technologies",
@@ -17,13 +17,13 @@
     "ADASI",
     "AIR",
     "ARC Clean Technology",
+    "ARX Robotics",
     "Aeon Industrial",
     "Aerospacelab",
     "Aestus Industries",
     "Aeva Technologies",
     "Agile Robots",
     "AheadComputing",
-    "AiDash",
     "AlixLabs",
     "Allen Control Systems",
     "Alsym Energy",
@@ -37,7 +37,6 @@
     "Ares Industries",
     "Ark Robotics",
     "Asimov",
-    "Astranis",
     "Atana Elements",
     "Atomic AI",
     "Atoms",
@@ -46,6 +45,7 @@
     "Aventra",
     "Axelera AI",
     "Axelspace",
+    "Ayar Labs",
     "BRINC Drones",
     "Basecamp Research",
     "Baykar",
@@ -57,7 +57,6 @@
     "Blackstar",
     "Blue Energy",
     "Blykalla",
-    "Boom Supersonic",
     "BotBuilt",
     "Built Robotics",
     "CORE POWER",
@@ -72,8 +71,9 @@
     "Chariot Defense",
     "Chef Robotics",
     "ClearSpace",
-    "Cognition",
+    "Collaborative Robotics",
     "Corintis",
+    "Creotech Instruments",
     "Cresilon",
     "Critical Energy",
     "Critical Loop",
@@ -81,6 +81,7 @@
     "CubeFabs",
     "DEEPX",
     "DIRAC",
+    "DefSecIntel",
     "Defense Unicorns",
     "Dexterity",
     "Dhruva Space",
@@ -93,36 +94,170 @@
   ],
   "changesProposed": [
     {
-      "name": "ARX Robotics",
+      "name": "AiDash",
       "current": {
-        "name": "ARX Robotics",
-        "founder": "Marc Wietfeld",
-        "location": "Munich, Germany",
-        "founded": 2022,
-        "fundingStage": "Series A",
-        "totalRaised": "$51.15M",
-        "website": "https://www.arx-robotics.com"
+        "name": "AiDash",
+        "founder": "Abhishek Singh",
+        "location": "Palo Alto, CA",
+        "founded": 2019,
+        "fundingStage": "Series C",
+        "totalRaised": "$91M+",
+        "website": "https://aidash.com"
       },
       "verified": {
-        "name": "ARX Robotics",
-        "description": "ARX develops autonomous mobile robotics and software-defined systems for modernizing legacy military fleets. The company provides mission-ready capabilities for European defense forces across reconnaissance, firepower, clearance, surveillance, and evacuation operations.",
+        "name": "AiDASH",
+        "description": "Enterprise SaaS platform using satellite imagery and AI to help utilities and critical infrastructure operators manage vegetation, assets, and climate risks. Serves 200+ customers globally across electric utilities, gas utilities, energy, water and wastewater, mining, and transportation sectors.",
+        "founders": null,
+        "location": null,
+        "founded_year": null,
+        "current_stage": "Acquired",
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://aidash.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "current_stage": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Schneider Electric announced definitive agreement to acquire AiDASH (stated on homepage as 'News Flash'). Database entry lists 185+ customers; current source states 200+ customers and earlier source states 'more than 150 customers'. No founder names, founding year, total raised, valuation, or specific location found in provided sources. Investor list from database entry could not be verified from these sources."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series C",
+          "verified": "Acquired",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://aidash.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://aidash.com/about"
+        }
+      ],
+      "notes": "Schneider Electric announced definitive agreement to acquire AiDASH (stated on homepage as 'News Flash'). Database entry lists 185+ customers; current source states 200+ customers and earlier source states 'more than 150 customers'. No founder names, founding year, total raised, valuation, or specific location found in provided sources. Investor list from database entry could not be verified from these sources."
+    },
+    {
+      "name": "Aigen",
+      "current": {
+        "name": "Aigen",
+        "founder": "Kenny Lee (CEO, ex-Weblife.io), Rich Wurden (CTO, ex-Tesla)",
+        "location": "Redmond, WA",
+        "founded": 2020,
+        "fundingStage": "Series B",
+        "totalRaised": "~$23.7M",
+        "website": "https://aigen.io"
+      },
+      "verified": {
+        "name": "Aigen",
+        "description": "Company developing fully autonomous, solar-powered robots for agricultural applications. Robots operate without chemicals or diesel fuel and are designed to work in outdoor field conditions without human input.",
         "founders": [
-          "Marc Wietfeld"
+          "Kenny Lee",
+          "Richard Wurden"
         ],
-        "location": "Munich, Germany",
-        "founded_year": 2022,
-        "current_stage": "Series A",
-        "total_raised": "\u20ac42M",
+        "location": null,
+        "founded_year": 2020,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://aigen.io",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Wikipedia source [2] is irrelevant (disambiguation page for Austrian locations). Database entry references Series B stage, $23.7M raised, Redmond WA location, and multiple investors, but none of these are explicitly stated in the provided sources. Location cannot be verified from sources provided. Investor names and funding stage/amounts require additional sources for verification."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Kenny Lee (CEO, ex-Weblife.io), Rich Wurden (CTO, ex-Tesla)",
+          "verified": "Kenny Lee, Richard Wurden",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://aigen.io"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://aigen.io/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Aigen"
+        }
+      ],
+      "notes": "Wikipedia source [2] is irrelevant (disambiguation page for Austrian locations). Database entry references Series B stage, $23.7M raised, Redmond WA location, and multiple investors, but none of these are explicitly stated in the provided sources. Location cannot be verified from sources provided. Investor names and funding stage/amounts require additional sources for verification."
+    },
+    {
+      "name": "Alif Semiconductor",
+      "current": {
+        "name": "Alif Semiconductor",
+        "founder": "Syed Ali (CEO, ex-Cavium), Reza Kazerounian (President, ex-Atmel/STMicroelectronics)",
+        "location": "Pleasanton, CA",
+        "founded": 2019,
+        "fundingStage": "Series C",
+        "totalRaised": "$185.9M",
+        "website": "https://alifsemi.com"
+      },
+      "verified": {
+        "name": "Alif Semiconductor",
+        "description": "Fabless designer of secure, AI-enabled 32-bit microcontrollers and fusion processors. Products feature Arm Cortex cores with integrated Ethos NPUs and on-chip memory for edge AI and machine learning applications.",
+        "founders": [
+          "Syed Ali",
+          "Reza Kazerounian"
+        ],
+        "location": "Pleasanton, CA",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
         "valuation": null,
         "investors": [
-          "HV Capital",
-          "Speedinvest",
-          "NATO Innovation Fund",
-          "Project A Ventures",
-          "Discovery Ventures",
-          "Omnes Capital"
+          "Kleiner Perkins"
         ],
-        "website": "https://www.arx-robotics.com",
+        "website": "https://alifsemi.com",
         "sources_per_field": {
           "name": [
             0,
@@ -139,26 +274,17 @@
             0,
             1
           ],
-          "founded_year": [
-            1
-          ],
-          "current_stage": [
-            1
-          ],
-          "total_raised": [
-            1
-          ],
           "investors": [
-            1
+            0
           ]
         },
-        "notes": "Founded as ARX Landsysteme in 2022, later rebranded to ARX Robotics. Funding timeline: \u20ac1.15M Pre-Seed (2023), \u20ac9M Seed (2024), \u20ac31M Series A (2025), \u20ac11M Series A Extension (2025). Total \u20ac42M raised across all rounds. Expanded to London office in 2025."
+        "notes": "Founded year not explicitly stated in sources despite database entry claiming 2019. Series C stage and $185.9M total raised from database entry could not be verified in provided sources. No valuation disclosed in sources."
       },
       "changes": [
         {
-          "field": "totalRaised",
-          "current": "$51.15M",
-          "verified": "\u20ac42M",
+          "field": "founder",
+          "current": "Syed Ali (CEO, ex-Cavium), Reza Kazerounian (President, ex-Atmel/STMicroelectronics)",
+          "verified": "Syed Ali, Reza Kazerounian",
           "sources": [
             1
           ]
@@ -168,84 +294,277 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://www.arx-robotics.com"
+          "url": "https://alifsemi.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://www.arx-robotics.com/about"
+          "url": "https://alifsemi.com/about"
         }
       ],
-      "notes": "Founded as ARX Landsysteme in 2022, later rebranded to ARX Robotics. Funding timeline: \u20ac1.15M Pre-Seed (2023), \u20ac9M Seed (2024), \u20ac31M Series A (2025), \u20ac11M Series A Extension (2025). Total \u20ac42M raised across all rounds. Expanded to London office in 2025."
+      "notes": "Founded year not explicitly stated in sources despite database entry claiming 2019. Series C stage and $185.9M total raised from database entry could not be verified in provided sources. No valuation disclosed in sources."
     },
     {
-      "name": "Ayar Labs",
+      "name": "Astranis",
       "current": {
-        "name": "Ayar Labs",
-        "founder": "Mark Wade, Vladimir Stojanovic",
-        "location": "San Jose, CA",
+        "name": "Astranis",
+        "founder": "John Gedmark, Ryan McLinko",
+        "location": "San Francisco, California",
         "founded": 2015,
-        "fundingStage": "Series E",
-        "totalRaised": "$870M+",
-        "website": "https://ayarlabs.com"
+        "fundingStage": "Series D",
+        "totalRaised": "$350M+",
+        "website": "https://astranis.com"
       },
       "verified": {
-        "name": "Ayar Labs",
-        "description": "Ayar Labs develops co-packaged optics (CPO) technology using silicon photonics to connect thousands of GPUs across racks via optical fabric. The company's TeraPHY optical engine enables high-bandwidth, low-latency connectivity for hyperscale AI infrastructure.",
-        "founders": null,
-        "location": "San Jose, California",
+        "name": "Astranis",
+        "description": "American company specializing in small, radiation-hardened geostationary communications satellites for high orbits. Astranis designs, manufactures, and operates MicroGEO satellites for commercial broadband connectivity and government missions.",
+        "founders": [
+          "John Gedmark",
+          "Ryan McLinko"
+        ],
+        "location": "San Francisco, California",
         "founded_year": 2015,
         "current_stage": "Series E",
-        "total_raised": "$870M+",
-        "valuation": "$3.75B",
+        "total_raised": "$1.2B+",
+        "valuation": null,
         "investors": [
-          "NVIDIA",
-          "Intel",
-          "AMD",
-          "MediaTek",
-          "HPE",
-          "GlobalFoundries"
+          "BlackRock",
+          "Venrock",
+          "Andreessen Horowitz"
         ],
-        "website": "https://ayarlabs.com",
+        "website": "https://www.astranis.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "valuation": [],
+          "investors": [
+            2
+          ],
+          "website": [
+            2
+          ]
+        },
+        "notes": "Founded October 20, 2015 per Wikipedia. Series E funding of $450M announced (source [0]), bringing total raised to more than $1.2B. Five GEO satellites in orbit as of source publication date (source [0]). Company headquarters at Historic Pier 70 in San Francisco, California (source [0])."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series D",
+          "verified": "Series E",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$350M+",
+          "verified": "$1.2B+",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://astranis.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://astranis.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Astranis"
+        }
+      ],
+      "notes": "Founded October 20, 2015 per Wikipedia. Series E funding of $450M announced (source [0]), bringing total raised to more than $1.2B. Five GEO satellites in orbit as of source publication date (source [0]). Company headquarters at Historic Pier 70 in San Francisco, California (source [0])."
+    },
+    {
+      "name": "Boom Supersonic",
+      "current": {
+        "name": "Boom Supersonic",
+        "founder": "Blake Scholl, Joe Wilding, Josh Krall",
+        "location": "Denver, Colorado",
+        "founded": 2014,
+        "fundingStage": "Series D",
+        "totalRaised": "$600M+",
+        "website": "https://boomsupersonic.com"
+      },
+      "verified": {
+        "name": "Boom Supersonic",
+        "description": "American aerospace company developing the Overture, a proposed supersonic airliner designed to achieve Mach 1.7 and accommodate 60 to 80 passengers. The company has flight-tested the XB-1 demonstrator, which broke the sound barrier on January 28, 2025.",
+        "founders": [
+          "Blake Scholl",
+          "Joe Wilding",
+          "Josh Krall"
+        ],
+        "location": "Centennial, Colorado",
+        "founded_year": 2014,
+        "current_stage": "Private",
+        "total_raised": "$600M+",
+        "valuation": null,
+        "investors": [
+          "Y Combinator",
+          "Sam Altman",
+          "Paul Graham",
+          "Alex Gerko",
+          "Michael Moritz",
+          "Bessemer Venture Partners",
+          "Seraph Group",
+          "Continuity Fund",
+          "RRE Ventures",
+          "Palm Drive Ventures",
+          "NEOM Investment Fund"
+        ],
+        "website": "https://boomsupersonic.com",
+        "sources_per_field": {
+          "name": [
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ]
+        },
+        "notes": "Wikipedia lists headquarters as Centennial, Colorado (source 2), while database entry listed Denver, Colorado. XB-1 broke sound barrier on January 28, 2025 per Wikipedia (source 2). Company also developing Superpower 42 MW natural gas turbine for AI data centers (source 2). No valuation figure found in sources."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Denver, Colorado",
+          "verified": "Centennial, Colorado",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Series D",
+          "verified": "Private",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://boomsupersonic.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://boomsupersonic.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Boom_Supersonic"
+        }
+      ],
+      "notes": "Wikipedia lists headquarters as Centennial, Colorado (source 2), while database entry listed Denver, Colorado. XB-1 broke sound barrier on January 28, 2025 per Wikipedia (source 2). Company also developing Superpower 42 MW natural gas turbine for AI data centers (source 2). No valuation figure found in sources."
+    },
+    {
+      "name": "Cognition",
+      "current": {
+        "name": "Cognition",
+        "founder": "Scott Wu, Steven Hao, Walden Yan",
+        "location": "San Francisco, CA",
+        "founded": 2023,
+        "fundingStage": "Series C",
+        "totalRaised": "$1.5B+",
+        "website": "https://cognition.com"
+      },
+      "verified": {
+        "name": "Cognition",
+        "description": "Cognition operates Devin, the first autonomous software engineer that plans, writes, tests, and ships production code on its own within existing codebases and tools.",
+        "founders": null,
+        "location": "San Francisco, CA",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": "$400M+",
+        "valuation": null,
+        "investors": [
+          "Founders Fund",
+          "Lux Capital",
+          "8VC",
+          "Bain Capital Ventures"
+        ],
+        "website": "https://cognition.com",
         "sources_per_field": {
           "name": [
             0,
             1
           ],
           "description": [
+            0,
             1
           ],
-          "founders": [],
           "location": [
             1
           ],
-          "founded_year": [
-            1
-          ],
-          "current_stage": [
-            1
-          ],
           "total_raised": [
-            1
-          ],
-          "valuation": [
             1
           ],
           "investors": [
             1
           ],
           "website": [
-            0,
-            1
+            0
           ]
         },
-        "notes": "Source [1] lists '$500M Series E; $3.75B Valuation' dated 2026. Founder names not explicitly stated as 'founder' or 'co-founder' in provided sources, so marked null per accuracy rules. Source [0] mentions valuation of '$3.8 billion' but source [1] specifies '$3.75B' for the Series E round; using more recent/specific figure from source [1]."
+        "notes": "Source [1] states 'We have raised over $400M' from named investors. Founder names (Scott Wu, Steven Hao, Walden Yan) are not explicitly identified as founders in provided sources, so cannot be verified. Founded year 2023 cannot be verified from sources. Current stage cannot be verified. Wikipedia source [2] is about cognition as a mental process, not the company."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "San Jose, CA",
-          "verified": "San Jose, California",
+          "field": "totalRaised",
+          "current": "$1.5B+",
+          "verified": "$400M+",
           "sources": [
             1
           ]
@@ -255,15 +574,20 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://ayarlabs.com"
+          "url": "https://cognition.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://ayarlabs.com/about"
+          "url": "https://cognition.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cognition"
         }
       ],
-      "notes": "Source [1] lists '$500M Series E; $3.75B Valuation' dated 2026. Founder names not explicitly stated as 'founder' or 'co-founder' in provided sources, so marked null per accuracy rules. Source [0] mentions valuation of '$3.8 billion' but source [1] specifies '$3.75B' for the Series E round; using more recent/specific figure from source [1]."
+      "notes": "Source [1] states 'We have raised over $400M' from named investors. Founder names (Scott Wu, Steven Hao, Walden Yan) are not explicitly identified as founders in provided sources, so cannot be verified. Founded year 2023 cannot be verified from sources. Current stage cannot be verified. Wikipedia source [2] is about cognition as a mental process, not the company."
     },
     {
       "name": "Core Automation",
@@ -278,7 +602,7 @@
       },
       "verified": {
         "name": "Core Automation, Inc.",
-        "description": "California-based electrical engineering firm specializing in industrial facility electrical and control system design for food and beverage, pharmaceutical, discrete, and bulk manufacturing environments.",
+        "description": "California-based electrical engineering firm specializing in industrial facility electrical and control system design for food and beverage, pharmaceutical, and manufacturing environments.",
         "founders": [
           "Gerald Depew",
           "Daniel C. Rozok"
@@ -292,7 +616,6 @@
         "website": "https://coreautomation.com",
         "sources_per_field": {
           "name": [
-            0,
             1
           ],
           "description": [
@@ -315,7 +638,7 @@
             0
           ]
         },
-        "notes": "SEC Form D filing from July 30, 2026 indicates a raise of $432,125,053. This appears to be a different company from the AI/frontier-tech firm described in the database entry provided for reference. The sources describe an industrial automation and control systems engineering firm founded in 2001, not an AI lab startup. The database entry references may refer to a different entity or be outdated/conflated information."
+        "notes": "Database entry appears to reference a different company (frontier-tech AI lab with ex-OpenAI/Anthropic researchers). Source [0] and [1] describe Core Automation, Inc. as a traditional industrial automation/electrical engineering firm founded 2001 in Sacramento, CA. Source [2] SEC Form D shows $432.125M raised filed 2026-07-30, which does not match database description of 'targeting $500M-$1B'. These are likely two different entities with similar names."
       },
       "changes": [
         {
@@ -344,83 +667,7 @@
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002148145&type=D&dateb=&owner=include&count=10"
         }
       ],
-      "notes": "SEC Form D filing from July 30, 2026 indicates a raise of $432,125,053. This appears to be a different company from the AI/frontier-tech firm described in the database entry provided for reference. The sources describe an industrial automation and control systems engineering firm founded in 2001, not an AI lab startup. The database entry references may refer to a different entity or be outdated/conflated information."
-    },
-    {
-      "name": "Creotech Instruments",
-      "current": {
-        "name": "Creotech Instruments",
-        "founder": "Grzegorz Brona",
-        "location": "Piaseczno, Poland",
-        "founded": 2008,
-        "fundingStage": "Public",
-        "totalRaised": "\u20ac52M+ contracts",
-        "website": "https://creotech.pl"
-      },
-      "verified": {
-        "name": "Creotech Instruments",
-        "description": "Poland's largest integrator and manufacturer of satellites, satellite systems, and subsystems specializing in advanced space-sector projects. The company develops the proprietary HyperSat satellite platform for Earth observation, scientific, and communication missions.",
-        "founders": [
-          "Grzegorz Brona"
-        ],
-        "location": "Piaseczno, Poland",
-        "founded_year": null,
-        "current_stage": "Public",
-        "total_raised": "\u20ac52M",
-        "valuation": null,
-        "investors": [
-          "PTE Allianz Polska S.A.",
-          "Agencja Rozwoju Przemys\u0142u S.A.",
-          "TFI PZU S.A."
-        ],
-        "website": "https://creotech.pl",
-        "sources_per_field": {
-          "name": [
-            1
-          ],
-          "description": [
-            1
-          ],
-          "founders": [],
-          "location": [],
-          "founded_year": [],
-          "current_stage": [
-            1
-          ],
-          "total_raised": [
-            0
-          ],
-          "valuation": [],
-          "investors": [],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Founded year not explicitly stated in sources. Founder Grzegorz Brona not explicitly named as founder in provided sources. Listed on Warsaw Stock Exchange Main Market since 2022. \u20ac52M ESA contract for CAMILA constellation announced April 2025. Investor list from database entry could not be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "\u20ac52M+ contracts",
-          "verified": "\u20ac52M",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://creotech.pl"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://creotech.pl/company"
-        }
-      ],
-      "notes": "Founded year not explicitly stated in sources. Founder Grzegorz Brona not explicitly named as founder in provided sources. Listed on Warsaw Stock Exchange Main Market since 2022. \u20ac52M ESA contract for CAMILA constellation announced April 2025. Investor list from database entry could not be verified from provided sources."
+      "notes": "Database entry appears to reference a different company (frontier-tech AI lab with ex-OpenAI/Anthropic researchers). Source [0] and [1] describe Core Automation, Inc. as a traditional industrial automation/electrical engineering firm founded 2001 in Sacramento, CA. Source [2] SEC Form D shows $432.125M raised filed 2026-07-30, which does not match database description of 'targeting $500M-$1B'. These are likely two different entities with similar names."
     }
   ],
   "unverifiable": [
@@ -429,15 +676,7 @@
       "reason": "no public sources accessible"
     },
     {
-      "name": "Collaborative Robotics",
-      "reason": "no public sources accessible"
-    },
-    {
       "name": "Cuby Technologies",
-      "reason": "no public sources accessible"
-    },
-    {
-      "name": "DefSecIntel",
       "reason": "no public sources accessible"
     },
     {
