@@ -1,5 +1,27 @@
 [
   {
+    "title": "STAT+: Heart failure drug from Tenax Therapeutics fails in pivotal study",
+    "link": "https://www.statnews.com/2026/08/10/tenax-heart-failure-drug-trail-failure-levosimendan-ph-hfpef/?utm_campaign=rss",
+    "description": "A Tenax Therapeutics drug designed to treat a type of heart failure associated with high blood pressure in the lungs failed in a closely watched study.",
+    "pubDate": "Mon, 10 Aug 2026 11:38:20 +0000",
+    "category": "Biotech",
+    "source": "STAT News",
+    "feedCategory": "biotech",
+    "matchedCompany": "Pivotal",
+    "matchedCompanies": [
+      "Pivotal",
+      "Asimov",
+      "Profluent"
+    ],
+    "sectors": [
+      "transportation",
+      "biotech"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
     "title": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise",
     "link": "https://sifted.eu/articles/cambridge-aerospace-fundraise-valuation/",
     "description": "",
@@ -23,7 +45,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "1h ago"
+    "time": "2h ago"
   },
   {
     "title": "Cambridge Aerospace's valuation leaps to $3.4BN as raises $300M",
@@ -49,7 +71,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "2h ago"
+    "time": "3h ago"
   },
   {
     "title": "TechCrunch Mobility: Zoox prepares for launch and Uber’s AV empire",
@@ -68,7 +90,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "18h ago"
+    "time": "19h ago"
   },
   {
     "title": "OpenAI acquires presentation startup NextSlide",
@@ -86,6 +108,33 @@
       "ai"
     ],
     "type": "news",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "Microsoft Will Lease 3+ Gigawatts of AI Data Center from SpaceX in 2027",
+    "link": "https://www.nextbigfuture.com/2026/08/microsoft-will-lease-3-gigawatts-of-ai-data-center-from-spacex-in-2027.html",
+    "description": "Microsoft has already signed 10GW of AI data center contracts year-to-date for over $300B of total contract value, but those contribute to late-2027 and 2028 capacity, leaving a near-term gap to fill. Semianalysis has calculated the tokenomics of OpenAI and Anthropic at $100 billion per year per gig",
+    "pubDate": "Sat, 08 Aug 2026 18:29:09 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Anthropic",
+      "OpenAI",
+      "Astera Labs",
+      "Rebellions",
+      "Photonic Inc"
+    ],
+    "sectors": [
+      "space",
+      "ai",
+      "chips",
+      "quantum"
+    ],
+    "type": "contract",
     "impact": "low",
     "time": "1d ago"
   },
@@ -160,6 +209,25 @@
     ],
     "type": "news",
     "impact": "low",
+    "time": "2d ago"
+  },
+  {
+    "title": "Semianalysis Agrees With NextBigfuture $300B Per Year for SpaceX by End of 2027",
+    "link": "https://www.nextbigfuture.com/2026/08/semianalysis-agrees-with-nextbigfuture-300b-per-year-for-spacex-by-end-of-2027.html",
+    "description": "Semianalysis agrees with my analysis of SpaceX getting up to $300 Billion per year by end of 2027. Spot prices are higher. The AI lease rates make sense. Coreweave and Nebius are spreading out fixed premium GPUs annual prices but requiring 5 year lockin. 5 years for $100 billion but not available du",
+    "pubDate": "Fri, 07 Aug 2026 22:33:05 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "high",
     "time": "2d ago"
   },
   {
@@ -249,6 +317,28 @@
     ],
     "type": "milestone",
     "impact": "medium",
+    "time": "3d ago"
+  },
+  {
+    "title": "SpaceX Pays Off a Data Center in 9 Months",
+    "link": "https://www.nextbigfuture.com/2026/08/the-math-nobody-ran-on-ai-capex.html",
+    "description": "When does revenue growth and profits overtake AI capex spending ? I have run numbers on the fastest AI data center builder. The faster you can build, then the faster you can monetize and get to profits.",
+    "pubDate": "Thu, 06 Aug 2026 18:24:46 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Astera Labs",
+      "Rebellions"
+    ],
+    "sectors": [
+      "space",
+      "chips"
+    ],
+    "type": "ipo",
+    "impact": "low",
     "time": "3d ago"
   },
   {
@@ -353,7 +443,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "New York-headquartered AI startup Modal Labs to open London office",
@@ -638,27 +728,6 @@
     "type": "funding",
     "impact": "high",
     "time": "6d ago"
-  },
-  {
-    "title": "The Week’s 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals",
-    "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/",
-    "description": "Another week, another bevy of big rounds. The largest round was a reported $5 billion Nvidia-backed financing for foundational AI unicorn Safe Superintelligence, followed by a $1 billion investment in Commonwealth Fusion Systems.",
-    "pubDate": "Fri, 31 Jul 2026 20:14:23 +0000",
-    "category": "Artificial intelligence",
-    "source": "Crunchbase News",
-    "feedCategory": "funding",
-    "matchedCompany": "Safe Superintelligence",
-    "matchedCompanies": [
-      "Safe Superintelligence",
-      "Commonwealth Fusion Systems"
-    ],
-    "sectors": [
-      "ai",
-      "climate"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "7/31/2026"
   },
   {
     "title": "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Mercedes GLA, and more",
