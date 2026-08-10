@@ -11251,7 +11251,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
   {
     name: "Ulysses Robotics",
     status: "active",
-    website: "https://www.theoceancompany.com",
+    website: "https://ulysses.eco",
     founder: "Akhil Voorakkara, Jamie Wedderburn, Colm O'Brien, Will O'Brien",
     sector: "Robotics & Manufacturing",
     rosLink: "https://rationaloptimistsociety.substack.com/",
