@@ -25727,10 +25727,31 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     signal: "rising",
     source: "legends-sweep-2026-08-07",
     addedDate: "2026-08"
-  }
-
-
-
+  },
+  {
+    name: "Atlas Motion",
+    founded: 2026,
+    sector: "Robotics & Manufacturing",
+    status: "active",
+    description: "BLDC motors and actuators for drones, robots, and autonomous systems (official name Atlas Motion Systems) — attacking the fact that most of the world's drones and robots run on Chinese-made motors. Its Vector AI engineering platform turns a design spec into a tested, manufacturing-ready motor in ~20 minutes vs an industry-standard ~2 months. Incorporated Feb 2026, shipped its first motor within 60 days; ~10,000 motors/month today (targeting 40,000+ by Dec 2026) for 14 customers, mostly drone programs. Out of stealth Aug 2026 with an $11.5M Greycroft-led seed.",
+    founder: "Christian Mochen (CEO, ex-Shield AI), Tom Baron (ex-Mach Industries), Carlo Dela Rosa (COO, ex-Shield AI)",
+    location: "Long Beach, CA",
+    state: "CA",
+    country: "United States",
+    lat: 33.7701,
+    lng: -118.1937,
+    fundingStage: "Seed",
+    totalRaised: "$11.5M",
+    valuation: "Undisclosed",
+    valuationType: "undisclosed",
+    investors: ["Greycroft (led seed)", "Also Capital", "Enea Capital", "Mana Ventures", "Sunflower Capital", "Ravelin", "Jai Malik (angel)", "Scott Sanders (angel)"],
+    website: "https://atlasmotion.com",
+    techApproach: "Vector, an AI-driven engineering system inspired by Tesla's Odin: ingests design specs, auto-generates simulation environments, tests candidate designs, and emits manufacturing packages with ~99% claimed sim-to-hardware confidence. Design/prototyping in Long Beach; vertically-run mass production in the Philippines, with a second Philippine line and a US facility planned.",
+    tags: ["defense", "drones", "motors", "actuators", "supply chain", "ai-driven engineering"],
+    signal: "rising",
+    source: "add-2026-08-10",
+    addedDate: "2026-08"
+  },
 ];
 
 // ─── VC FIRMS DATABASE ───
