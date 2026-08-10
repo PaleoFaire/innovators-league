@@ -39136,9 +39136,9 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-10 04:45
+// Last updated: 2026-08-10 06:16
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Zoox", headline: "TechCrunch Mobility: Zoox prepares for launch and Uber's AV empire", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
+  { id: 1, type: "milestone", company: "Zoox", headline: "TechCrunch Mobility: Zoox prepares for launch and Uber's AV empire", source: "TechCrunch", time: "14h ago", impact: "low", unread: true },
   { id: 2, type: "news", company: "OpenAI", headline: "OpenAI acquires presentation startup NextSlide", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 3, type: "contract", company: "SpaceX", headline: "Microsoft Will Lease 3+ Gigawatts of AI Data Center from SpaceX in 2027", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "ipo", company: "SpaceX", headline: "Here Are the First Images of the Crater Left on the Moon by SpaceX's Rocket", source: "Wired", time: "1d ago", impact: "low", unread: true },
@@ -39149,10 +39149,10 @@ const COMPANY_SIGNALS = [
   { id: 9, type: "milestone", company: "Waymo", headline: "Waymo Jacks Up Lobbying In Washington, DC", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
   { id: 10, type: "milestone", company: "Zoox", headline: "Zoox To Start Charging Passengers Next Week", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
   { id: 11, type: "milestone", company: "GrayMatter Robotics", headline: "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics", source: "The Robot Report", time: "3d ago", impact: "medium", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "ICE's DNA Collection Increases, SpaceX's Rocket Crashes Into the Moon, and the AI Backlash Grows", source: "Wired", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX Pays Off a Data Center in 9 Months", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
-  { id: 14, type: "hire", company: "SpaceX", headline: "Tesla, SpaceX confirm 'Terafab' chip fab site ' $16.8B first phase", source: "Electrek", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "contract", company: "SpaceX", headline: "Officials hedge SpaceX aircraft-tracking satellite bet with three smaller company contracts", source: "Defense One", time: "3d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX Pays Off a Data Center in 9 Months", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
+  { id: 13, type: "hire", company: "SpaceX", headline: "Tesla, SpaceX confirm 'Terafab' chip fab site ' $16.8B first phase", source: "Electrek", time: "3d ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "SpaceX", headline: "Officials hedge SpaceX aircraft-tracking satellite bet with three smaller company contracts", source: "Defense One", time: "3d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Deterrence", headline: "Does Latent Nuclear Deterrence Really Work?", source: "War on the Rocks", time: "3d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
