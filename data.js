@@ -39159,15 +39159,15 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-10 19:07
+// Last updated: 2026-08-10 19:58
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Isembard", headline: "Isembard founder: We're a &quot;politician's wet dream&quot;", source: "Tech.eu", time: "6h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "Isembard", headline: "Isembard founder: We're a &quot;politician's wet dream&quot;", source: "Tech.eu", time: "7h ago", impact: "low", unread: true },
   { id: 2, type: "ipo", company: "Atmos Space Cargo", headline: "Astrolight, ATMOS Space Cargo eye first in-flight laser link between reentry vehicle, satellite", source: "SpaceNews", time: "7h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Pivotal", headline: "STAT+: Heart failure drug from Tenax Therapeutics fails in pivotal study", source: "STAT News", time: "7h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Cambridge Aerospace", headline: "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise", source: "Sifted", time: "9h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Cambridge Aerospace", headline: "Cambridge Aerospace's valuation leaps to $3.4BN as raises $300M", source: "Tech.eu", time: "10h ago", impact: "high", unread: true },
+  { id: 3, type: "news", company: "Pivotal", headline: "STAT+: Heart failure drug from Tenax Therapeutics fails in pivotal study", source: "STAT News", time: "8h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Cambridge Aerospace", headline: "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise", source: "Sifted", time: "10h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Cambridge Aerospace", headline: "Cambridge Aerospace's valuation leaps to $3.4BN as raises $300M", source: "Tech.eu", time: "11h ago", impact: "high", unread: true },
   { id: 6, type: "milestone", company: "Zoox", headline: "TechCrunch Mobility: Zoox prepares for launch and Uber's AV empire", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI acquires presentation startup NextSlide", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI acquires presentation startup NextSlide", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
   { id: 8, type: "contract", company: "SpaceX", headline: "Microsoft Will Lease 3+ Gigawatts of AI Data Center from SpaceX in 2027", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
   { id: 9, type: "ipo", company: "SpaceX", headline: "Here Are the First Images of the Crater Left on the Moon by SpaceX's Rocket", source: "Wired", time: "2d ago", impact: "low", unread: false },
   { id: 10, type: "hire", company: "Waymo", headline: "Waymo CEO: Don't Move Fast &#038; Break Things With Physical AI", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
