@@ -23,7 +23,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "Just now"
+    "time": "1h ago"
   },
   {
     "title": "Cambridge Aerospace's valuation leaps to $3.4BN as raises $300M",
@@ -49,7 +49,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "Just now"
+    "time": "2h ago"
   },
   {
     "title": "TechCrunch Mobility: Zoox prepares for launch and Uber’s AV empire",
@@ -68,7 +68,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "16h ago"
+    "time": "18h ago"
   },
   {
     "title": "OpenAI acquires presentation startup NextSlide",
@@ -86,33 +86,6 @@
       "ai"
     ],
     "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Microsoft Will Lease 3+ Gigawatts of AI Data Center from SpaceX in 2027",
-    "link": "https://www.nextbigfuture.com/2026/08/microsoft-will-lease-3-gigawatts-of-ai-data-center-from-spacex-in-2027.html",
-    "description": "Microsoft has already signed 10GW of AI data center contracts year-to-date for over $300B of total contract value, but those contribute to late-2027 and 2028 capacity, leaving a near-term gap to fill. Semianalysis has calculated the tokenomics of OpenAI and Anthropic at $100 billion per year per gig",
-    "pubDate": "Sat, 08 Aug 2026 18:29:09 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Anthropic",
-      "OpenAI",
-      "Astera Labs",
-      "Rebellions",
-      "Photonic Inc"
-    ],
-    "sectors": [
-      "space",
-      "ai",
-      "chips",
-      "quantum"
-    ],
-    "type": "contract",
     "impact": "low",
     "time": "1d ago"
   },
@@ -187,25 +160,6 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Semianalysis Agrees With NextBigfuture $300B Per Year for SpaceX by End of 2027",
-    "link": "https://www.nextbigfuture.com/2026/08/semianalysis-agrees-with-nextbigfuture-300b-per-year-for-spacex-by-end-of-2027.html",
-    "description": "Semianalysis agrees with my analysis of SpaceX getting up to $300 Billion per year by end of 2027. Spot prices are higher. The AI lease rates make sense. Coreweave and Nebius are spreading out fixed premium GPUs annual prices but requiring 5 year lockin. 5 years for $100 billion but not available du",
-    "pubDate": "Fri, 07 Aug 2026 22:33:05 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "high",
     "time": "2d ago"
   },
   {
@@ -295,28 +249,6 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "3d ago"
-  },
-  {
-    "title": "SpaceX Pays Off a Data Center in 9 Months",
-    "link": "https://www.nextbigfuture.com/2026/08/the-math-nobody-ran-on-ai-capex.html",
-    "description": "When does revenue growth and profits overtake AI capex spending ? I have run numbers on the fastest AI data center builder. The faster you can build, then the faster you can monetize and get to profits.",
-    "pubDate": "Thu, 06 Aug 2026 18:24:46 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Astera Labs",
-      "Rebellions"
-    ],
-    "sectors": [
-      "space",
-      "chips"
-    ],
-    "type": "ipo",
-    "impact": "low",
     "time": "3d ago"
   },
   {
@@ -879,26 +811,5 @@
     "type": "news",
     "impact": "low",
     "time": "6/26/2026"
-  },
-  {
-    "title": "<a href=\"/cro/icon-inks-anthropic-partnership-deploy-claude-clinical-trials\" hreflang=\"en\">Icon inks Anthropic partnership to deploy Claude into clinical trials</a>",
-    "link": "https://www.fiercebiotech.com/cro/icon-inks-anthropic-partnership-deploy-claude-clinical-trials",
-    "description": "Contract research organization Icon announced a multi-year collaboration with Anthropic this week to bring Claude’s AI capabilities to clinical trials.",
-    "pubDate": "Aug 4, 2026 1:30pm",
-    "category": "",
-    "source": "FierceBiotech",
-    "feedCategory": "biotech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "ICON"
-    ],
-    "sectors": [
-      "ai",
-      "housing"
-    ],
-    "type": "contract",
-    "impact": "medium",
-    "time": "Invalid Date"
   }
 ]
