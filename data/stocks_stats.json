@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 39.78,
+      "avg_change": 41.86,
       "count": 1
     },
     "space": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 24.9,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 15.05,
       "count": 7
     },
     "autonomous": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 13.52,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 7.85,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 19.94,
+      "avg_change": 7.63,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 14.51,
+      "avg_change": 10.94,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 18.92,
+      "avg_change": 9.42,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 12.9,
+      "avg_change": 11.87,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 5.35,
+      "avg_change": 3.38,
       "count": 2
     },
     "chips": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 6.81,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 2.29,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "SATL",
       "Satellogic",
-      54.19
+      42.91
     ],
     [
       "PLTR",
       "Palantir",
-      39.78
+      41.86
+    ],
+    [
+      "ACHR",
+      "Archer Aviation",
+      36.59
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      32.9
+      23.7
     ],
     [
-      "RKLB",
-      "Rocket Lab",
-      27.53
-    ],
-    [
-      "OKLO",
-      "Oklo",
-      24.7
+      "JOBY",
+      "Joby Aviation",
+      22.09
     ]
   ],
   "topLosers": [
     [
-      "TSLA",
-      "Tesla",
-      5.58
-    ],
-    [
-      "RIVN",
-      "Rivian",
-      5.12
-    ],
-    [
       "IDEAFORGE.NS",
       "ideaForge",
-      2.91
-    ],
-    [
-      "AMD",
-      "AMD",
-      1.51
+      1.75
     ],
     [
       "9348.T",
       "ispace",
       0.0
+    ],
+    [
+      "AMD",
+      "AMD",
+      -1.51
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      -2.96
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -27.24
     ]
   ],
-  "lastUpdated": "2026-08-10 08:54:01"
+  "lastUpdated": "2026-08-10 14:34:29"
 }
