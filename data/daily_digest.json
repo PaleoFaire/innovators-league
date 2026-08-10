@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T19:58:02.316980+00:00",
+  "generatedAt": "2026-08-10T20:53:52.719244+00:00",
   "date": "2026-08-10",
   "dateDisplay": "Monday, August 10, 2026",
   "sections": {
@@ -79,60 +79,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 5.65,
-        "changePercent": 42.91,
-        "change": 1.7
-      },
-      {
         "ticker": "PLTR",
         "company": "Palantir",
-        "price": 178.25,
-        "changePercent": 41.86,
-        "change": 52.6
+        "price": 175.23,
+        "changePercent": 39.46,
+        "change": 49.58
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 5.33,
+        "changePercent": 34.77,
+        "change": 1.38
       },
       {
         "ticker": "ACHR",
         "company": "Archer Aviation",
-        "price": 6.61,
-        "changePercent": 36.59,
-        "change": 1.77
+        "price": 6.25,
+        "changePercent": 29.24,
+        "change": 1.42
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 0.92,
-        "changePercent": -27.24,
-        "change": -0.35
+        "price": 0.91,
+        "changePercent": -28.66,
+        "change": -0.36
+      },
+      {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 8.1,
+        "changePercent": 26.17,
+        "change": 1.68
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 16.2,
-        "changePercent": 23.7,
-        "change": 3.1
+        "price": 15.78,
+        "changePercent": 20.46,
+        "change": 2.68
       },
       {
         "ticker": "JOBY",
         "company": "Joby Aviation",
-        "price": 9.01,
-        "changePercent": 22.09,
-        "change": 1.63
+        "price": 8.83,
+        "changePercent": 19.65,
+        "change": 1.45
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 54.94,
-        "changePercent": 19.31,
-        "change": 8.89
-      },
-      {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 83.53,
-        "changePercent": 18.61,
-        "change": 13.1
+        "price": 55.06,
+        "changePercent": 19.57,
+        "change": 9.01
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "SATL +42.9%"
+    "topMover": "PLTR +39.5%"
   }
 }

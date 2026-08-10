@@ -39159,23 +39159,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-10 19:58
+// Last updated: 2026-08-10 20:53
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Isembard", headline: "Isembard founder: We're a &quot;politician's wet dream&quot;", source: "Tech.eu", time: "7h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Atmos Space Cargo", headline: "Astrolight, ATMOS Space Cargo eye first in-flight laser link between reentry vehicle, satellite", source: "SpaceNews", time: "7h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Pivotal", headline: "STAT+: Heart failure drug from Tenax Therapeutics fails in pivotal study", source: "STAT News", time: "8h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Cambridge Aerospace", headline: "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise", source: "Sifted", time: "10h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Cambridge Aerospace", headline: "Cambridge Aerospace's valuation leaps to $3.4BN as raises $300M", source: "Tech.eu", time: "11h ago", impact: "high", unread: true },
+  { id: 1, type: "news", company: "Isembard", headline: "Isembard founder: We're a &quot;politician's wet dream&quot;", source: "Tech.eu", time: "8h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Atmos Space Cargo", headline: "Astrolight, ATMOS Space Cargo eye first in-flight laser link between reentry vehicle, satellite", source: "SpaceNews", time: "8h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Pivotal", headline: "STAT+: Heart failure drug from Tenax Therapeutics fails in pivotal study", source: "STAT News", time: "9h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Cambridge Aerospace", headline: "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise", source: "Sifted", time: "11h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Cambridge Aerospace", headline: "Cambridge Aerospace's valuation leaps to $3.4BN as raises $300M", source: "Tech.eu", time: "12h ago", impact: "high", unread: true },
   { id: 6, type: "milestone", company: "Zoox", headline: "TechCrunch Mobility: Zoox prepares for launch and Uber's AV empire", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI acquires presentation startup NextSlide", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "SpaceX", headline: "Microsoft Will Lease 3+ Gigawatts of AI Data Center from SpaceX in 2027", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "Here Are the First Images of the Crater Left on the Moon by SpaceX's Rocket", source: "Wired", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "hire", company: "Waymo", headline: "Waymo CEO: Don't Move Fast &#038; Break Things With Physical AI", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "Semianalysis Agrees With NextBigfuture $300B Per Year for SpaceX by End of 2027", source: "Next Big Future", time: "2d ago", impact: "high", unread: false },
-  { id: 12, type: "news", company: "Humanoid", headline: "Mitsubishi joins the humanoid robot race ' at a 1,000 unit per month pace", source: "Electrek", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "Waymo", headline: "Waymo Jacks Up Lobbying In Washington, DC", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "Zoox", headline: "Zoox To Start Charging Passengers Next Week", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "GrayMatter Robotics", headline: "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics", source: "The Robot Report", time: "3d ago", impact: "medium", unread: false },
+  { id: 7, type: "contract", company: "SpaceX", headline: "Microsoft Will Lease 3+ Gigawatts of AI Data Center from SpaceX in 2027", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "Here Are the First Images of the Crater Left on the Moon by SpaceX's Rocket", source: "Wired", time: "2d ago", impact: "low", unread: false },
+  { id: 9, type: "hire", company: "Waymo", headline: "Waymo CEO: Don't Move Fast &#038; Break Things With Physical AI", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "Semianalysis Agrees With NextBigfuture $300B Per Year for SpaceX by End of 2027", source: "Next Big Future", time: "2d ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "Humanoid", headline: "Mitsubishi joins the humanoid robot race ' at a 1,000 unit per month pace", source: "Electrek", time: "3d ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Waymo", headline: "Waymo Jacks Up Lobbying In Washington, DC", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
+  { id: 13, type: "milestone", company: "Zoox", headline: "Zoox To Start Charging Passengers Next Week", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
+  { id: 14, type: "milestone", company: "GrayMatter Robotics", headline: "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics", source: "The Robot Report", time: "4d ago", impact: "medium", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX Pays Off a Data Center in 9 Months", source: "Next Big Future", time: "4d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
