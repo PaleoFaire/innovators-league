@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T05:53:46+00:00",
+  "generatedAt": "2026-08-10T06:17:27+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 2,
@@ -49,13 +49,16 @@
           "Materials",
           "Water / Oceans"
         ],
-        "thesis": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+        "thesis": "Engine Ventures invests in early-stage Tough Tech companies developing hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
         "website": "https://engine.xyz",
         "sources_per_field": {
           "name": [
             0,
             1,
             3
+          ],
+          "short_name": [
+            0
           ],
           "founded_year": [
             1,
@@ -74,10 +77,11 @@
           ],
           "website": [
             0,
-            1
+            1,
+            3
           ]
         },
-        "notes": "Engine Ventures is a separate investment firm spun out from The Engine nonprofit incubator/accelerator in 2023. The Engine was founded by MIT in 2016. Wikipedia lists Emily Knight as CEO/President of The Engine, but does not list current senior partners of Engine Ventures specifically. AUM and flagship fund name could not be verified from sources provided. Database entry lists founded year as 2023, which aligns with source [1]: 'In 2023, Engine Ventures spun out as a separate investment firm focused on Tough Tech companies.'"
+        "notes": "Engine Ventures is the investment fund that spun out from The Engine nonprofit incubator/accelerator in 2023. The Engine is a 501(c)(3) nonprofit founded by MIT in 2016. In 2023, the investment fund separated and rebranded as Engine Ventures. No current senior partners named explicitly on firm website or Wikipedia. AUM not disclosed in sources. Database entry lists founded year as 2023 which is CORRECT for Engine Ventures specifically (when it separated from The Engine). The broader organization (The Engine) was founded in 2016."
       },
       "changes": [
         {
@@ -115,6 +119,14 @@
             1,
             2
           ]
+        },
+        {
+          "field": "thesis",
+          "current": "Engine Ventures invests in early-stage deep tech companies developing hardware-based technologies across biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+          "verified": "Engine Ventures invests in early-stage Tough Tech companies developing hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+          "sources": [
+            3
+          ]
         }
       ],
       "sources": [
@@ -144,7 +156,7 @@
           "url": "https://electrek.co/2026/08/07/mitsubishi-joins-the-humanoid-robot-race-at-a-1000-unit-per-month-pace/"
         }
       ],
-      "notes": "Engine Ventures is a separate investment firm spun out from The Engine nonprofit incubator/accelerator in 2023. The Engine was founded by MIT in 2016. Wikipedia lists Emily Knight as CEO/President of The Engine, but does not list current senior partners of Engine Ventures specifically. AUM and flagship fund name could not be verified from sources provided. Database entry lists founded year as 2023, which aligns with source [1]: 'In 2023, Engine Ventures spun out as a separate investment firm focused on Tough Tech companies.'"
+      "notes": "Engine Ventures is the investment fund that spun out from The Engine nonprofit incubator/accelerator in 2023. The Engine is a 501(c)(3) nonprofit founded by MIT in 2016. In 2023, the investment fund separated and rebranded as Engine Ventures. No current senior partners named explicitly on firm website or Wikipedia. AUM not disclosed in sources. Database entry lists founded year as 2023 which is CORRECT for Engine Ventures specifically (when it separated from The Engine). The broader organization (The Engine) was founded in 2016."
     }
   ],
   "unverifiable": []

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T05:53:20+00:00",
+  "generatedAt": "2026-08-10T06:16:57+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
   "cohortSize": 47,
@@ -21,7 +21,6 @@
     "Blue Water Autonomy",
     "Cape",
     "Claros",
-    "Commonwealth Fusion Systems",
     "Delian Alliance Industries",
     "Deterrence",
     "Durin",
@@ -54,9 +53,104 @@
     "Waymo",
     "Wayve",
     "Xtend",
+    "Zettascale",
     "ideaForge"
   ],
   "changesProposed": [
+    {
+      "name": "Commonwealth Fusion Systems",
+      "current": {
+        "name": "Commonwealth Fusion Systems",
+        "founder": "Bob Mumgaard",
+        "location": "Devens, Massachusetts",
+        "founded": 2018,
+        "fundingStage": "Series B2",
+        "totalRaised": "$863M",
+        "website": "https://cfs.energy"
+      },
+      "verified": {
+        "name": "Commonwealth Fusion Systems",
+        "description": "American fusion power company that develops compact tokamak fusion reactors using high-temperature superconducting magnets. Founded as a spin-off from MIT's Plasma Science and Fusion Center.",
+        "founders": [
+          "Bob Mumgaard"
+        ],
+        "location": "Devens, Massachusetts, United States",
+        "founded_year": 2018,
+        "current_stage": "Series B2",
+        "total_raised": "$863M",
+        "valuation": null,
+        "investors": [
+          "Eni",
+          "Breakthrough Energy Ventures",
+          "Khosla Ventures",
+          "Temasek",
+          "Equinor",
+          "Devonshire Investors",
+          "Google"
+        ],
+        "website": "https://cfs.energy",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Founded in 2018 as MIT spin-off from Cambridge, Massachusetts location. Headquarters established in Devens, Massachusetts in 2021. Series B2 round of $863M announced in August 2025. Bob Mumgaard is CEO (not just founder). Company building SPARC experimental tokamak and ARC commercial power plant."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Devens, Massachusetts",
+          "verified": "Devens, Massachusetts, United States",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://cfs.energy"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Commonwealth_Fusion_Systems"
+        },
+        {
+          "idx": 2,
+          "src": "news (Crunchbase News)",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/"
+        }
+      ],
+      "notes": "Founded in 2018 as MIT spin-off from Cambridge, Massachusetts location. Headquarters established in Devens, Massachusetts in 2021. Series B2 round of $863M announced in August 2025. Bob Mumgaard is CEO (not just founder). Company building SPARC experimental tokamak and ARC commercial power plant."
+    },
     {
       "name": "SpaceX",
       "current": {
@@ -70,7 +164,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered at Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial Intelligence (Grok and data centers).",
+        "description": "An American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. The company operates three divisions: Space (conducting more orbital launches annually than any other provider), Connectivity (operating Starlink satellite communications), and Artificial Intelligence (operating Grok and data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -112,7 +206,7 @@
             0
           ]
         },
-        "notes": "SpaceX completed IPO on June 12, 2026, which was the largest IPO in history. Wikipedia source indicates Elon Musk owns 42% equity with 85% voting control (note: current database entry states 82% voting control, but Wikipedia states 85%). No valuation figure found in sources to verify the $1.65T valuation in current database entry."
+        "notes": "Wikipedia source indicates SpaceX completed its IPO on June 12, 2026, raising $86 billion (largest IPO in history). Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. Database entry claiming $1.65T valuation and 'Preparing for IPO' status contradicts source which confirms IPO already occurred in June 2026."
       },
       "changes": [
         {
@@ -146,81 +240,7 @@
           "url": "https://www.nextbigfuture.com/2026/08/semianalysis-agrees-with-nextbigfuture-300b-per-year-for-spacex-by-end-of-2027.html"
         }
       ],
-      "notes": "SpaceX completed IPO on June 12, 2026, which was the largest IPO in history. Wikipedia source indicates Elon Musk owns 42% equity with 85% voting control (note: current database entry states 82% voting control, but Wikipedia states 85%). No valuation figure found in sources to verify the $1.65T valuation in current database entry."
-    },
-    {
-      "name": "Zettascale",
-      "current": {
-        "name": "Zettascale",
-        "founder": "Elias Almqvist (CEO; self-taught engineer, Chalmers University CS/CE dropout at 21), Prithvi Raj (CTO; MEng Computational Stats + ML Cambridge; ex-Microsoft)",
-        "location": "San Francisco, CA",
-        "founded": 2024,
-        "fundingStage": "Seed",
-        "totalRaised": "$3M+",
-        "website": "https://zscc.ai"
-      },
-      "verified": {
-        "name": "Zettascale",
-        "description": "AI silicon company building XPU chips for inference and training that optimize dataflow per model. Backed by Y Combinator and focused on reducing energy consumption in AI workloads.",
-        "founders": null,
-        "location": "San Francisco, CA",
-        "founded_year": null,
-        "current_stage": "Seed",
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "Y Combinator",
-          "Soma Capital",
-          "Olive Tree Capital"
-        ],
-        "website": "https://zscc.ai",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "current_stage": [],
-          "investors": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [1] is about Tesla/SpaceX Terafab and is irrelevant to Zettascale. Database entry claims rebranding from 'Exa Laborato' and founding in 2024, but these cannot be verified from provided sources. Founder names from database entry cannot be verified from sources. Total raised amount of $3M+ from database entry cannot be verified from sources."
-      },
-      "changes": [
-        {
-          "field": "investors",
-          "current": "[]",
-          "verified": [
-            "Y Combinator",
-            "Soma Capital",
-            "Olive Tree Capital"
-          ],
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://zscc.ai"
-        },
-        {
-          "idx": 1,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/08/06/tesla-spacex-terafab-grimes-county-16-8-billion/"
-        }
-      ],
-      "notes": "Source [1] is about Tesla/SpaceX Terafab and is irrelevant to Zettascale. Database entry claims rebranding from 'Exa Laborato' and founding in 2024, but these cannot be verified from provided sources. Founder names from database entry cannot be verified from sources. Total raised amount of $3M+ from database entry cannot be verified from sources."
+      "notes": "Wikipedia source indicates SpaceX completed its IPO on June 12, 2026, raising $86 billion (largest IPO in history). Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. Database entry claiming $1.65T valuation and 'Preparing for IPO' status contradicts source which confirms IPO already occurred in June 2026."
     }
   ],
   "unverifiable": []
