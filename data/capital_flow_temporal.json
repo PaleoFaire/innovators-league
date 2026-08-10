@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T06:17:24+00:00",
+  "generatedAt": "2026-08-10T08:46:39+00:00",
   "matrix": {
     "ai-mineral-exploration": {
       "2026-Q3": {
@@ -704,7 +704,6 @@
           }
         ],
         "investors": [
-          "Kleiner Perkins",
           "Sequoia Capital"
         ]
       },
@@ -732,7 +731,6 @@
         ],
         "investors": [
           "General Catalyst",
-          "Kleiner Perkins",
           "Lux Capital"
         ]
       }
@@ -1911,24 +1909,6 @@
         }
       ]
     },
-    "Kleiner Perkins": {
-      "2026-Q1": [
-        {
-          "company": "Waymo",
-          "cluster": "ai-autonomous-driving",
-          "date": "2026-02",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q3": [
-        {
-          "company": "Applied Intuition",
-          "cluster": "ai-autonomous-driving",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Lightspeed Venture Partners": {
       "2025-Q2": [
         {
@@ -1971,7 +1951,7 @@
     "totalUSDSold": 1934492343,
     "uniqueClusters": 39,
     "uniqueQuarters": 9,
-    "uniqueVCs": 16,
+    "uniqueVCs": 15,
     "quarterRange": [
       "2024-Q1",
       "2026-Q3"

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-10T06:17:23+00:00",
+  "generatedAt": "2026-08-10T08:46:37+00:00",
   "stats": {
     "companies": 989,
     "vcFirms": 25,
     "uniqueClusters": 137,
-    "totalInvestments": 388
+    "totalInvestments": 382
   },
   "concentration": {
     "General Catalyst": {
@@ -2081,39 +2081,6 @@
         ]
       }
     },
-    "Kleiner Perkins": {
-      "ai-autonomous-driving": {
-        "count": 2,
-        "companies": [
-          "Waymo",
-          "Applied Intuition"
-        ]
-      },
-      "biotech-cell-reprogramming": {
-        "count": 1,
-        "companies": [
-          "New Limit"
-        ]
-      },
-      "ai-computer-vision-sensing": {
-        "count": 1,
-        "companies": [
-          "Flock Safety"
-        ]
-      },
-      "logistics-supply-chain": {
-        "count": 1,
-        "companies": [
-          "Dexterity"
-        ]
-      },
-      "inspection-quality-robots": {
-        "count": 1,
-        "companies": [
-          "Lumafield"
-        ]
-      }
-    },
     "Cantos Ventures": {
       "carbon-capture-utilization": {
         "count": 1,
@@ -2429,29 +2396,29 @@
     ],
     "ai-autonomous-driving": [
       {
-        "vc": "Kleiner Perkins",
-        "count": 2,
-        "share": 0.2222
-      },
-      {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.1111
+        "share": 0.1429
       },
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.1111
+        "share": 0.1429
       },
       {
         "vc": "Sequoia Capital",
         "count": 1,
-        "share": 0.1111
+        "share": 0.1429
       },
       {
         "vc": "Lightspeed Venture Partners",
         "count": 1,
-        "share": 0.1111
+        "share": 0.1429
+      },
+      {
+        "vc": "Khosla Ventures",
+        "count": 1,
+        "share": 0.1429
       }
     ],
     "fusion-inertial-laser": [
@@ -2784,27 +2751,22 @@
       {
         "vc": "Y Combinator",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Lowercarbon Capital",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.2
+        "share": 0.25
       },
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.2
-      },
-      {
-        "vc": "Kleiner Perkins",
-        "count": 1,
-        "share": 0.2
+        "share": 0.25
       }
     ],
     "ai-hardware-inference": [
@@ -3337,17 +3299,12 @@
       {
         "vc": "Bessemer Venture Partners",
         "count": 1,
-        "share": 0.3333
+        "share": 0.5
       },
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "Kleiner Perkins",
-        "count": 1,
-        "share": 0.3333
+        "share": 0.5
       }
     ],
     "battery-materials": [
@@ -3547,17 +3504,12 @@
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.3333
+        "share": 0.5
       },
       {
         "vc": "Khosla Ventures",
         "count": 1,
-        "share": 0.3333
-      },
-      {
-        "vc": "Kleiner Perkins",
-        "count": 1,
-        "share": 0.3333
+        "share": 0.5
       }
     ],
     "biotech-crispr-genomics": [
@@ -3576,27 +3528,27 @@
       {
         "vc": "8VC",
         "count": 2,
-        "share": 0.25
+        "share": 0.2857
       },
       {
         "vc": "Founders Fund",
         "count": 1,
-        "share": 0.125
+        "share": 0.1429
       },
       {
         "vc": "Valor Equity Partners",
         "count": 1,
-        "share": 0.125
+        "share": 0.1429
       },
       {
         "vc": "Riot Ventures",
         "count": 1,
-        "share": 0.125
+        "share": 0.1429
       },
       {
         "vc": "Sequoia Capital",
         "count": 1,
-        "share": 0.125
+        "share": 0.1429
       }
     ],
     "robotics-agriculture": [
@@ -4605,40 +4557,6 @@
       ]
     },
     {
-      "vc": "Kleiner Perkins",
-      "recentCount": 6,
-      "totalCount": 6,
-      "score": 5.702,
-      "topCluster": "ai-autonomous-driving",
-      "recentExamples": [
-        {
-          "company": "Applied Intuition",
-          "cluster": "ai-autonomous-driving",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Flock Safety",
-          "cluster": "ai-computer-vision-sensing",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Waymo",
-          "cluster": "ai-autonomous-driving",
-          "addedDate": "2026-02"
-        },
-        {
-          "company": "New Limit",
-          "cluster": "biotech-cell-reprogramming",
-          "addedDate": "2026-02"
-        },
-        {
-          "company": "Dexterity",
-          "cluster": "logistics-supply-chain",
-          "addedDate": "2026-02"
-        }
-      ]
-    },
-    {
       "vc": "Harpoon Ventures",
       "recentCount": 5,
       "totalCount": 5,
@@ -4952,11 +4870,6 @@
         "company": "Foundation Robotics",
         "cluster": null,
         "founder": "Sankaet Pathak, Arjun Sethi, Mike LeBlanc"
-      },
-      {
-        "company": "Aigen",
-        "cluster": null,
-        "founder": "Kenny Lee (CEO, ex-Weblife.io), Rich Wurden (CTO, ex-Tesla)"
       }
     ],
     "NASA": [
@@ -5019,16 +4932,12 @@
       "investmentCount": 9
     },
     {
-      "cluster": "ai-autonomous-driving",
-      "investmentCount": 9
-    },
-    {
       "cluster": "defense-munitions-energetics",
       "investmentCount": 8
     },
     {
-      "cluster": "logistics-supply-chain",
-      "investmentCount": 8
+      "cluster": "ai-autonomous-driving",
+      "investmentCount": 7
     },
     {
       "cluster": "supersonic-hypersonic-transport",
@@ -5040,6 +4949,10 @@
     },
     {
       "cluster": "space-satellites-buses",
+      "investmentCount": 7
+    },
+    {
+      "cluster": "logistics-supply-chain",
       "investmentCount": 7
     },
     {
@@ -5083,10 +4996,6 @@
       "investmentCount": 5
     },
     {
-      "cluster": "ai-computer-vision-sensing",
-      "investmentCount": 5
-    },
-    {
       "cluster": "biotech-lab-automation",
       "investmentCount": 5
     },
@@ -5112,6 +5021,10 @@
     },
     {
       "cluster": "green-steel-metals",
+      "investmentCount": 4
+    },
+    {
+      "cluster": "ai-computer-vision-sensing",
       "investmentCount": 4
     }
   ]
