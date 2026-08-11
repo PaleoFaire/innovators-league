@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T02:19:25.771790+00:00",
+  "generatedAt": "2026-08-11T04:26:23.861074+00:00",
   "date": "2026-08-11",
   "dateDisplay": "Tuesday, August 11, 2026",
   "sections": {
@@ -95,23 +95,23 @@
       {
         "ticker": "ACHR",
         "company": "Archer Aviation",
-        "price": 6.25,
-        "changePercent": 29.24,
+        "price": 6.26,
+        "changePercent": 29.34,
         "change": 1.42
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 0.91,
-        "changePercent": -28.66,
-        "change": -0.36
+        "price": 0.9,
+        "changePercent": -29.13,
+        "change": -0.37
       },
       {
         "ticker": "ASRHF",
         "company": "Astroscale",
-        "price": 8.1,
-        "changePercent": 26.17,
-        "change": 1.68
+        "price": 7.8,
+        "changePercent": 21.5,
+        "change": 1.38
       },
       {
         "ticker": "LUNR",
@@ -121,18 +121,18 @@
         "change": 2.68
       },
       {
-        "ticker": "JOBY",
-        "company": "Joby Aviation",
-        "price": 8.83,
-        "changePercent": 19.65,
-        "change": 1.45
-      },
-      {
         "ticker": "TEM",
         "company": "Tempus AI",
         "price": 55.06,
         "changePercent": 19.57,
         "change": 9.01
+      },
+      {
+        "ticker": "JOBY",
+        "company": "Joby Aviation",
+        "price": 8.81,
+        "changePercent": 19.38,
+        "change": 1.43
       }
     ],
     "regulatory": [
