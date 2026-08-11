@@ -39161,23 +39161,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-11 09:07
+// Last updated: 2026-08-11 10:57
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Dust", headline: "Dust and water spotted close to giant black hole", source: "ESA News", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI reportedly completed a $7 billion employee tender offer", source: "TechCrunch", time: "9h ago", impact: "high", unread: true },
-  { id: 3, type: "milestone", company: "OpenAI", headline: "As AI-led attacks multiply, OpenAI launches a new cyber model", source: "TechCrunch", time: "9h ago", impact: "medium", unread: true },
-  { id: 4, type: "funding", company: "Hadrian", headline: "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing", source: "The Robot Report", time: "10h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab builds deployable infrastructure for Electron launches", source: "SpaceNews", time: "11h ago", impact: "medium", unread: true },
-  { id: 6, type: "news", company: "Isembard", headline: "Isembard founder: We're a &quot;politician's wet dream&quot;", source: "Tech.eu", time: "20h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Atmos Space Cargo", headline: "Astrolight, ATMOS Space Cargo eye first in-flight laser link between reentry vehicle, satellite", source: "SpaceNews", time: "21h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Pivotal", headline: "STAT+: Heart failure drug from Tenax Therapeutics fails in pivotal study", source: "STAT News", time: "21h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Cambridge Aerospace", headline: "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise", source: "Sifted", time: "23h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Cambridge Aerospace", headline: "Cambridge Aerospace's valuation leaps to $3.4BN as raises $300M", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
-  { id: 11, type: "contract", company: "SpaceX", headline: "Microsoft Will Lease 3+ Gigawatts of AI Data Center from SpaceX in 2027", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "Here Are the First Images of the Crater Left on the Moon by SpaceX's Rocket", source: "Wired", time: "2d ago", impact: "low", unread: false },
-  { id: 13, type: "hire", company: "Waymo", headline: "Waymo CEO: Don't Move Fast &#038; Break Things With Physical AI", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "Semianalysis Agrees With NextBigfuture $300B Per Year for SpaceX by End of 2027", source: "Next Big Future", time: "3d ago", impact: "high", unread: false },
-  { id: 15, type: "news", company: "Humanoid", headline: "Mitsubishi joins the humanoid robot race ' at a 1,000 unit per month pace", source: "Electrek", time: "3d ago", impact: "low", unread: false },
+  { id: 1, type: "hire", company: "Proteus Space", headline: "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Dust", headline: "Dust and water spotted close to giant black hole", source: "ESA News", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI reportedly completed a $7 billion employee tender offer", source: "TechCrunch", time: "10h ago", impact: "high", unread: true },
+  { id: 4, type: "milestone", company: "OpenAI", headline: "As AI-led attacks multiply, OpenAI launches a new cyber model", source: "TechCrunch", time: "11h ago", impact: "medium", unread: true },
+  { id: 5, type: "funding", company: "Hadrian", headline: "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing", source: "The Robot Report", time: "12h ago", impact: "high", unread: true },
+  { id: 6, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab builds deployable infrastructure for Electron launches", source: "SpaceNews", time: "13h ago", impact: "medium", unread: false },
+  { id: 7, type: "news", company: "Isembard", headline: "Isembard founder: We're a &quot;politician's wet dream&quot;", source: "Tech.eu", time: "22h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Atmos Space Cargo", headline: "Astrolight, ATMOS Space Cargo eye first in-flight laser link between reentry vehicle, satellite", source: "SpaceNews", time: "22h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Pivotal", headline: "STAT+: Heart failure drug from Tenax Therapeutics fails in pivotal study", source: "STAT News", time: "23h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Cambridge Aerospace", headline: "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise", source: "Sifted", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Cambridge Aerospace", headline: "Cambridge Aerospace's valuation leaps to $3.4BN as raises $300M", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
+  { id: 12, type: "contract", company: "SpaceX", headline: "Microsoft Will Lease 3+ Gigawatts of AI Data Center from SpaceX in 2027", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "Here Are the First Images of the Crater Left on the Moon by SpaceX's Rocket", source: "Wired", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "hire", company: "Waymo", headline: "Waymo CEO: Don't Move Fast &#038; Break Things With Physical AI", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "Semianalysis Agrees With NextBigfuture $300B Per Year for SpaceX by End of 2027", source: "Next Big Future", time: "3d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
