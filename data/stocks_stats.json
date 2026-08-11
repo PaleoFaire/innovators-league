@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 8.49,
+      "avg_change": 7.55,
       "count": 1
     },
     "space": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 6.51,
+      "gainers": 7,
+      "losers": 0,
+      "avg_change": 9.33,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -0.49,
+      "avg_change": -1.29,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 3.79,
+      "avg_change": 6.49,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 5.4,
+      "avg_change": 4.87,
       "count": 3
     },
     "quantum": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -0.16,
+      "avg_change": 0.14,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 9.74,
+      "avg_change": 10.32,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 2.65,
+      "avg_change": 2.74,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -6.69,
+      "avg_change": -6.55,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "ACHR",
-      "Archer Aviation",
-      25.52
-    ],
-    [
       "SATL",
       "Satellogic",
-      20.16
+      28.06
+    ],
+    [
+      "ACHR",
+      "Archer Aviation",
+      27.5
     ],
     [
       "TEM",
       "Tempus AI",
-      16.9
+      18.36
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      14.29
+      18.05
     ],
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      11.57
+      "QS",
+      "QuantumScape",
+      11.42
     ]
   ],
   "topLosers": [
     [
       "AUR",
       "Aurora Innovation",
-      -2.84
+      -3.87
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      -7.5
+      -7.33
     ],
     [
       "AMD",
       "AMD",
-      -9.62
+      -8.53
     ],
     [
       "ALAB",
       "Astera Labs",
-      -13.87
+      -13.74
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -34.76
+      -35.72
     ]
   ],
-  "lastUpdated": "2026-08-11 14:34:33"
+  "lastUpdated": "2026-08-11 20:07:48"
 }
