@@ -39161,18 +39161,18 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-11 22:52
+// Last updated: 2026-08-11 23:51
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Cambridge Aerospace", headline: "Defense drone developer Cambridge Aerospace raises $300M", source: "The Robot Report", time: "2h ago", impact: "high", unread: true },
-  { id: 2, type: "milestone", company: "OpenAI", headline: "OpenAI launches ChatGPT desktop app for Linux", source: "TechCrunch", time: "3h ago", impact: "medium", unread: true },
-  { id: 3, type: "ipo", company: "ICEYE", headline: "What's Scaleup Europe, the $5.7B fund that just backed satellite company ICEYE?", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Joby Aviation", headline: "Joby Aviation builds out defense business with $500M acquisition", source: "TechCrunch", time: "6h ago", impact: "high", unread: true },
-  { id: 5, type: "hire", company: "Rivian", headline: "Rivian CEO RJ Scaringe is betting on EVs, robots, and autonomy all at once ' he'll'explain why at Disrupt 2026", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Kyoto Fusioneering", headline: "Kyoto Fusioneering starts work on key fusion power plant device", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 7, type: "contract", company: "SpaceX", headline: "SpaceX increasing footprint in missile defense", source: "SpaceNews", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Humanoid", headline: "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market", source: "The Robot Report", time: "8h ago", impact: "high", unread: false },
-  { id: 9, type: "hire", company: "Proteus Space", headline: "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Dust", headline: "Dust and water spotted close to giant black hole", source: "ESA News", time: "14h ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Cambridge Aerospace", headline: "Defense drone developer Cambridge Aerospace raises $300M", source: "The Robot Report", time: "3h ago", impact: "high", unread: true },
+  { id: 2, type: "milestone", company: "OpenAI", headline: "OpenAI launches ChatGPT desktop app for Linux", source: "TechCrunch", time: "4h ago", impact: "medium", unread: true },
+  { id: 3, type: "ipo", company: "ICEYE", headline: "What's Scaleup Europe, the $5.7B fund that just backed satellite company ICEYE?", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Joby Aviation", headline: "Joby Aviation builds out defense business with $500M acquisition", source: "TechCrunch", time: "7h ago", impact: "high", unread: true },
+  { id: 5, type: "hire", company: "Rivian", headline: "Rivian CEO RJ Scaringe is betting on EVs, robots, and autonomy all at once ' he'll'explain why at Disrupt 2026", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Kyoto Fusioneering", headline: "Kyoto Fusioneering starts work on key fusion power plant device", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "SpaceX", headline: "SpaceX increasing footprint in missile defense", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Humanoid", headline: "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market", source: "The Robot Report", time: "9h ago", impact: "high", unread: false },
+  { id: 9, type: "hire", company: "Proteus Space", headline: "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "Dust", headline: "Dust and water spotted close to giant black hole", source: "ESA News", time: "15h ago", impact: "low", unread: false },
   { id: 11, type: "funding", company: "Hadrian", headline: "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
   { id: 12, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab builds deployable infrastructure for Electron launches", source: "SpaceNews", time: "1d ago", impact: "medium", unread: false },
   { id: 13, type: "news", company: "Isembard", headline: "Isembard founder: We're a &quot;politician's wet dream&quot;", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
