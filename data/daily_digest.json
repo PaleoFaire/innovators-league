@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T13:23:16.808498+00:00",
+  "generatedAt": "2026-08-11T15:06:38.014881+00:00",
   "date": "2026-08-11",
   "dateDisplay": "Tuesday, August 11, 2026",
   "sections": {
@@ -79,60 +79,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "PLTR",
-        "company": "Palantir",
-        "price": 175.23,
-        "changePercent": 39.46,
-        "change": 49.58
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 5.33,
-        "changePercent": 34.77,
-        "change": 1.38
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 0.9,
+        "changePercent": -34.76,
+        "change": -0.48
       },
       {
         "ticker": "ACHR",
         "company": "Archer Aviation",
-        "price": 6.26,
-        "changePercent": 29.34,
-        "change": 1.42
+        "price": 6.67,
+        "changePercent": 25.52,
+        "change": 1.36
       },
       {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 0.9,
-        "changePercent": -29.13,
-        "change": -0.37
-      },
-      {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 7.8,
-        "changePercent": 21.5,
-        "change": 1.38
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 15.78,
-        "changePercent": 20.46,
-        "change": 2.68
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 5.39,
+        "changePercent": 20.16,
+        "change": 0.9
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 55.06,
-        "changePercent": 19.57,
-        "change": 9.01
+        "price": 55.0,
+        "changePercent": 16.9,
+        "change": 7.95
       },
       {
-        "ticker": "JOBY",
-        "company": "Joby Aviation",
-        "price": 8.81,
-        "changePercent": 19.38,
-        "change": 1.43
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 15.96,
+        "changePercent": 14.29,
+        "change": 1.99
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 311.51,
+        "changePercent": -13.87,
+        "change": -50.16
+      },
+      {
+        "ticker": "ONT.L",
+        "company": "Oxford Nanopore Technologies",
+        "price": 130.2,
+        "changePercent": 11.57,
+        "change": 13.5
+      },
+      {
+        "ticker": "QS",
+        "company": "QuantumScape",
+        "price": 6.32,
+        "changePercent": 10.98,
+        "change": 0.62
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "PLTR +39.5%"
+    "topMover": "EVTL -34.8%"
   }
 }
