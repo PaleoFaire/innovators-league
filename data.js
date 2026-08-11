@@ -39159,17 +39159,17 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-11 05:58
+// Last updated: 2026-08-11 07:19
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI reportedly completed a $7 billion employee tender offer", source: "TechCrunch", time: "5h ago", impact: "high", unread: true },
-  { id: 2, type: "milestone", company: "OpenAI", headline: "As AI-led attacks multiply, OpenAI launches a new cyber model", source: "TechCrunch", time: "6h ago", impact: "medium", unread: true },
-  { id: 3, type: "funding", company: "Hadrian", headline: "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing", source: "The Robot Report", time: "7h ago", impact: "high", unread: true },
-  { id: 4, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab builds deployable infrastructure for Electron launches", source: "SpaceNews", time: "8h ago", impact: "medium", unread: true },
-  { id: 5, type: "news", company: "Isembard", headline: "Isembard founder: We're a &quot;politician's wet dream&quot;", source: "Tech.eu", time: "17h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Atmos Space Cargo", headline: "Astrolight, ATMOS Space Cargo eye first in-flight laser link between reentry vehicle, satellite", source: "SpaceNews", time: "17h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Pivotal", headline: "STAT+: Heart failure drug from Tenax Therapeutics fails in pivotal study", source: "STAT News", time: "18h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Cambridge Aerospace", headline: "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise", source: "Sifted", time: "20h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Cambridge Aerospace", headline: "Cambridge Aerospace's valuation leaps to $3.4BN as raises $300M", source: "Tech.eu", time: "21h ago", impact: "high", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI reportedly completed a $7 billion employee tender offer", source: "TechCrunch", time: "7h ago", impact: "high", unread: true },
+  { id: 2, type: "milestone", company: "OpenAI", headline: "As AI-led attacks multiply, OpenAI launches a new cyber model", source: "TechCrunch", time: "7h ago", impact: "medium", unread: true },
+  { id: 3, type: "funding", company: "Hadrian", headline: "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing", source: "The Robot Report", time: "8h ago", impact: "high", unread: true },
+  { id: 4, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab builds deployable infrastructure for Electron launches", source: "SpaceNews", time: "9h ago", impact: "medium", unread: true },
+  { id: 5, type: "news", company: "Isembard", headline: "Isembard founder: We're a &quot;politician's wet dream&quot;", source: "Tech.eu", time: "18h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Atmos Space Cargo", headline: "Astrolight, ATMOS Space Cargo eye first in-flight laser link between reentry vehicle, satellite", source: "SpaceNews", time: "19h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Pivotal", headline: "STAT+: Heart failure drug from Tenax Therapeutics fails in pivotal study", source: "STAT News", time: "19h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Cambridge Aerospace", headline: "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise", source: "Sifted", time: "22h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Cambridge Aerospace", headline: "Cambridge Aerospace's valuation leaps to $3.4BN as raises $300M", source: "Tech.eu", time: "23h ago", impact: "high", unread: false },
   { id: 10, type: "contract", company: "SpaceX", headline: "Microsoft Will Lease 3+ Gigawatts of AI Data Center from SpaceX in 2027", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
   { id: 11, type: "ipo", company: "SpaceX", headline: "Here Are the First Images of the Crater Left on the Moon by SpaceX's Rocket", source: "Wired", time: "2d ago", impact: "low", unread: false },
   { id: 12, type: "hire", company: "Waymo", headline: "Waymo CEO: Don't Move Fast &#038; Break Things With Physical AI", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
