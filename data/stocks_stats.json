@@ -11,13 +11,13 @@
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 9.26,
+      "avg_change": 9.29,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -1.43,
+      "avg_change": -2.67,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 10.32,
+      "avg_change": 9.86,
       "count": 3
     },
     "transportation": {
@@ -86,14 +86,14 @@
   ],
   "topLosers": [
     [
-      "AUR",
-      "Aurora Innovation",
-      -3.87
-    ],
-    [
       "AMD",
       "AMD",
       -8.53
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -11.54
     ],
     [
       "ALAB",
@@ -111,5 +111,5 @@
       -35.75
     ]
   ],
-  "lastUpdated": "2026-08-12 03:32:10"
+  "lastUpdated": "2026-08-12 08:42:11"
 }
