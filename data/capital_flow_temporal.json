@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T08:25:30+00:00",
+  "generatedAt": "2026-08-12T10:15:31+00:00",
   "matrix": {
     "ai-mineral-exploration": {
       "2026-Q3": {
@@ -146,58 +146,6 @@
           }
         ],
         "investors": []
-      }
-    },
-    "nuclear-microreactor": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 319999537,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Antares",
-            "amount": 319999537,
-            "date": "2026-07-28",
-            "source": "formd",
-            "investors": [
-              "Shine Capital",
-              "Alt Capital",
-              "Caffeinated Capital",
-              "FiftyThree Stations",
-              "Industrious"
-            ]
-          }
-        ],
-        "investors": []
-      },
-      "2025-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Radiant",
-            "amount": null,
-            "date": "2025-06",
-            "source": "recentEvent",
-            "investors": [
-              "Draper Associates",
-              "Boost VC",
-              "DCVC",
-              "Founders Fund",
-              "Chevron Technology Ventures",
-              "ARK Venture Fund",
-              "Friends & Family Capital",
-              "Andreessen Horowitz",
-              "Union Square Ventures",
-              "Giant Ventures",
-              "StepStone"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund"
-        ]
       }
     },
     "autonomy-drone-military": {
@@ -403,6 +351,37 @@
           }
         ],
         "investors": []
+      }
+    },
+    "nuclear-microreactor": {
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Radiant",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": [
+              "Draper Associates",
+              "Boost VC",
+              "DCVC",
+              "Founders Fund",
+              "Chevron Technology Ventures",
+              "ARK Venture Fund",
+              "Friends & Family Capital",
+              "Andreessen Horowitz",
+              "Union Square Ventures",
+              "Giant Ventures",
+              "StepStone"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund"
+        ]
       }
     },
     "nuclear-services-fuel": {
@@ -1947,8 +1926,8 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 58,
-    "totalUSDSold": 1934492343,
+    "totalDealsTracked": 57,
+    "totalUSDSold": 1614492806,
     "uniqueClusters": 39,
     "uniqueQuarters": 9,
     "uniqueVCs": 15,
