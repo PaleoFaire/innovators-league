@@ -1,74 +1,63 @@
 // Auto-generated news signals
-// Last updated: 2026-08-12T15:05:34.805Z
+// Last updated: 2026-08-12T16:06:00.270Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1786547134804,
+    "id": 1786550760270,
     "type": "hire",
     "company": "Waymo",
     "headline": "Waymo has nearly 1,000 robotaxis waiting at its Arizona factory",
     "source": "Electrek",
-    "time": "1h ago",
+    "time": "2h ago",
     "impact": "low",
     "unread": true,
     "link": "https://electrek.co/2026/08/12/waymo-ojai-robotaxis-arizona-factory/"
   },
   {
-    "id": 1786547134806,
+    "id": 1786550760271,
     "type": "funding",
     "company": "ispace",
     "headline": "China’s iSpace raises first batch of series E funding for reusable rocketry",
     "source": "SpaceNews",
-    "time": "2h ago",
+    "time": "3h ago",
     "impact": "high",
     "unread": true,
     "link": "https://spacenews.com/chinas-ispace-raises-first-batch-of-series-e-funding-for-reusable-rocketry/"
   },
   {
-    "id": 1786547134807,
+    "id": 1786550760272,
     "type": "news",
     "company": "Einride",
     "headline": "DAF Trucks to integrate Einride Driver to scale autonomous electric freight",
     "source": "The Robot Report",
-    "time": "4h ago",
+    "time": "5h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.therobotreport.com/daf-trucks-integrates-einride-driver-scale-autonomous-electric-freight/"
   },
   {
-    "id": 1786547134808,
+    "id": 1786550760273,
     "type": "funding",
     "company": "Cambridge Aerospace",
     "headline": "Defense drone developer Cambridge Aerospace raises $300M",
     "source": "The Robot Report",
-    "time": "18h ago",
+    "time": "19h ago",
     "impact": "high",
     "unread": true,
     "link": "https://www.therobotreport.com/defense-drone-developer-cambridge-aerospace-raises-300m/"
   },
   {
-    "id": 1786547134809,
+    "id": 1786550760274,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI launches ChatGPT desktop app for Linux",
     "source": "TechCrunch",
-    "time": "19h ago",
+    "time": "20h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/"
   },
   {
-    "id": 1786547134810,
-    "type": "ipo",
-    "company": "ICEYE",
-    "headline": "What’s Scaleup Europe, the $5.7B fund that just backed satellite company ICEYE?",
-    "source": "TechCrunch",
-    "time": "21h ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/08/11/whats-scaleup-europe-the-5-7b-fund-that-just-backed-satellite-company-iceye/"
-  },
-  {
-    "id": 1786547134811,
+    "id": 1786550760275,
     "type": "contract",
     "company": "SpaceX",
     "headline": "SpaceX increasing footprint in missile defense",
@@ -79,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacex-increasing-footprint-in-missile-defense/"
   },
   {
-    "id": 1786547134812,
+    "id": 1786550760276,
     "type": "news",
     "company": "Humanoid",
     "headline": "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market",
@@ -90,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/"
   },
   {
-    "id": 1786547134813,
+    "id": 1786550760277,
     "type": "hire",
     "company": "Proteus Space",
     "headline": "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors",
@@ -101,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/proteus-space-names-maj-gen-kim-crider-usaf-ret-to-board-of-directors/"
   },
   {
-    "id": 1786547134814,
+    "id": 1786550760278,
     "type": "ipo",
     "company": "Dust",
     "headline": "Dust and water spotted close to giant black hole",
@@ -112,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole"
   },
   {
-    "id": 1786547134815,
+    "id": 1786550760279,
     "type": "funding",
     "company": "Hadrian",
     "headline": "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing",
@@ -123,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/"
   },
   {
-    "id": 1786547134816,
+    "id": 1786550760280,
     "type": "ipo",
     "company": "Rocket Lab",
     "headline": "Rocket Lab builds deployable infrastructure for Electron launches",
@@ -134,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/rocket-lab-builds-deployable-infrastructure-for-electron-launches/"
   },
   {
-    "id": 1786547134817,
+    "id": 1786550760281,
     "type": "news",
     "company": "Isembard",
     "headline": "Isembard founder: We're a &quot;politician's wet dream&quot;",
@@ -145,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/08/10/isembard-a-politicians-wet-dream-says-its-founder/"
   },
   {
-    "id": 1786547134818,
+    "id": 1786550760282,
     "type": "ipo",
     "company": "Atmos Space Cargo",
     "headline": "Astrolight, ATMOS Space Cargo eye first in-flight laser link between reentry vehicle, satellite",
@@ -156,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/astrolight-atmos-space-cargo-eye-first-in-flight-laser-link-between-reentry-vehicle-satellite/"
   },
   {
-    "id": 1786547134819,
+    "id": 1786550760283,
     "type": "funding",
     "company": "Cambridge Aerospace",
     "headline": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise",
@@ -167,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/cambridge-aerospace-fundraise-valuation/"
   },
   {
-    "id": 1786547134820,
+    "id": 1786550760284,
     "type": "funding",
     "company": "Cambridge Aerospace",
     "headline": "Cambridge Aerospace's valuation leaps to $3.4BN as raises $300M",
@@ -178,7 +167,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/08/10/cambridge-aerospaces-valuation-leaps-to-34bn-as-raised-300m/"
   },
   {
-    "id": 1786547134821,
+    "id": 1786550760285,
+    "type": "contract",
+    "company": "SpaceX",
+    "headline": "Microsoft Will Lease 3+ Gigawatts of AI Data Center from SpaceX in 2027",
+    "source": "Next Big Future",
+    "time": "3d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.nextbigfuture.com/2026/08/microsoft-will-lease-3-gigawatts-of-ai-data-center-from-spacex-in-2027.html"
+  },
+  {
+    "id": 1786550760286,
     "type": "hire",
     "company": "Waymo",
     "headline": "Waymo CEO: Don&#8217;t Move Fast &#038; Break Things With Physical AI",
@@ -189,7 +189,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/08/07/waymo-ceo-dont-move-fast-break-things-with-physical-ai/"
   },
   {
-    "id": 1786547134822,
+    "id": 1786550760287,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "Semianalysis Agrees With NextBigfuture $300B Per Year for SpaceX by End of 2027",
+    "source": "Next Big Future",
+    "time": "4d ago",
+    "impact": "high",
+    "unread": false,
+    "link": "https://www.nextbigfuture.com/2026/08/semianalysis-agrees-with-nextbigfuture-300b-per-year-for-spacex-by-end-of-2027.html"
+  },
+  {
+    "id": 1786550760288,
     "type": "news",
     "company": "Humanoid",
     "headline": "Mitsubishi joins the humanoid robot race — at a 1,000 unit per month pace",
@@ -200,25 +211,14 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/07/mitsubishi-joins-the-humanoid-robot-race-at-a-1000-unit-per-month-pace/"
   },
   {
-    "id": 1786547134823,
-    "type": "hire",
+    "id": 1786550760289,
+    "type": "ipo",
     "company": "SpaceX",
-    "headline": "Tesla, SpaceX confirm ‘Terafab’ chip fab site — $16.8B first phase",
-    "source": "Electrek",
+    "headline": "SpaceX Pays Off a Data Center in 9 Months",
+    "source": "Next Big Future",
     "time": "5d ago",
     "impact": "low",
     "unread": false,
-    "link": "https://electrek.co/2026/08/06/tesla-spacex-terafab-grimes-county-16-8-billion/"
-  },
-  {
-    "id": 1786547134824,
-    "type": "contract",
-    "company": "SpaceX",
-    "headline": "Officials hedge SpaceX aircraft-tracking satellite bet with three smaller company contracts",
-    "source": "Defense One",
-    "time": "5d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.defenseone.com/defense-systems/2026/08/officials-hedge-spacex-aircraft-tracking-satellite-bet-three-smaller-company-contracts/415252/"
+    "link": "https://www.nextbigfuture.com/2026/08/the-math-nobody-ran-on-ai-capex.html"
   }
 ];
