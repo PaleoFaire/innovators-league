@@ -39852,13 +39852,13 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-12 16:06
+// Last updated: 2026-08-12 17:07
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "Waymo", headline: "Waymo has nearly 1,000 robotaxis waiting at its Arizona factory", source: "Electrek", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "ispace", headline: "China's iSpace raises first batch of series E funding for reusable rocketry", source: "SpaceNews", time: "3h ago", impact: "high", unread: true },
-  { id: 3, type: "news", company: "Einride", headline: "DAF Trucks to integrate Einride Driver to scale autonomous electric freight", source: "The Robot Report", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Cambridge Aerospace", headline: "Defense drone developer Cambridge Aerospace raises $300M", source: "The Robot Report", time: "19h ago", impact: "high", unread: true },
-  { id: 5, type: "milestone", company: "OpenAI", headline: "OpenAI launches ChatGPT desktop app for Linux", source: "TechCrunch", time: "20h ago", impact: "medium", unread: true },
+  { id: 1, type: "funding", company: "Form Energy", headline: "Form Energy raises $750M to build more 100-hour batteries for the grid", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 2, type: "hire", company: "Waymo", headline: "Waymo has nearly 1,000 robotaxis waiting at its Arizona factory", source: "Electrek", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "ispace", headline: "China's iSpace raises first batch of series E funding for reusable rocketry", source: "SpaceNews", time: "4h ago", impact: "high", unread: true },
+  { id: 4, type: "news", company: "Einride", headline: "DAF Trucks to integrate Einride Driver to scale autonomous electric freight", source: "The Robot Report", time: "6h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Cambridge Aerospace", headline: "Defense drone developer Cambridge Aerospace raises $300M", source: "The Robot Report", time: "20h ago", impact: "high", unread: true },
   { id: 6, type: "contract", company: "SpaceX", headline: "SpaceX increasing footprint in missile defense", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "news", company: "Humanoid", headline: "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
   { id: 8, type: "hire", company: "Proteus Space", headline: "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
