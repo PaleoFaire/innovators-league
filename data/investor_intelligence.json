@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T04:55:49+00:00",
+  "generatedAt": "2026-08-12T06:21:29+00:00",
   "stats": {
     "companies": 990,
     "vcFirms": 25,
@@ -1294,9 +1294,10 @@
     },
     "Valor Equity Partners": {
       "autonomy-drone-military": {
-        "count": 1,
+        "count": 2,
         "companies": [
-          "Anduril Industries"
+          "Anduril Industries",
+          "Neros"
         ]
       },
       "autonomy-counter-drone": {
@@ -1527,102 +1528,6 @@
         "count": 1,
         "companies": [
           "Elementary Robotics"
-        ]
-      }
-    },
-    "Sequoia Capital": {
-      "autonomy-drone-military": {
-        "count": 1,
-        "companies": [
-          "Neros"
-        ]
-      },
-      "defense-munitions-energetics": {
-        "count": 1,
-        "companies": [
-          "Mach Industries"
-        ]
-      },
-      "space-solar-power": {
-        "count": 1,
-        "companies": [
-          "Reflect Orbital"
-        ]
-      },
-      "ai-robotics-embodied": {
-        "count": 2,
-        "companies": [
-          "Physical Intelligence",
-          "Skild AI"
-        ]
-      },
-      "ai-autonomous-driving": {
-        "count": 1,
-        "companies": [
-          "Waymo"
-        ]
-      },
-      "brain-computer-interface": {
-        "count": 1,
-        "companies": [
-          "Neuralink"
-        ]
-      },
-      "manufacturing-reshoring": {
-        "count": 1,
-        "companies": [
-          "Senra Systems"
-        ]
-      },
-      "autonomy-delivery-logistics": {
-        "count": 1,
-        "companies": [
-          "Zipline"
-        ]
-      },
-      "logistics-supply-chain": {
-        "count": 1,
-        "companies": [
-          "The Boring Company"
-        ]
-      },
-      "robotics-cobots-warehouse": {
-        "count": 3,
-        "companies": [
-          "AMP Robotics",
-          "RobCo",
-          "Collaborative Robotics"
-        ]
-      },
-      "defense-ew-rf-cyber": {
-        "count": 1,
-        "companies": [
-          "Kela"
-        ]
-      },
-      "quantum-sensors-software": {
-        "count": 1,
-        "companies": [
-          "Q-CTRL"
-        ]
-      },
-      "edge-ai-silicon": {
-        "count": 1,
-        "companies": [
-          "Kneron"
-        ]
-      },
-      "photonic-compute": {
-        "count": 1,
-        "companies": [
-          "Lightelligence"
-        ]
-      },
-      "ai-drug-discovery": {
-        "count": 2,
-        "companies": [
-          "Xaira Therapeutics",
-          "Iambic Therapeutics"
         ]
       }
     },
@@ -1869,6 +1774,96 @@
         "count": 1,
         "companies": [
           "Realta Fusion"
+        ]
+      }
+    },
+    "Sequoia Capital": {
+      "defense-munitions-energetics": {
+        "count": 1,
+        "companies": [
+          "Mach Industries"
+        ]
+      },
+      "space-solar-power": {
+        "count": 1,
+        "companies": [
+          "Reflect Orbital"
+        ]
+      },
+      "ai-robotics-embodied": {
+        "count": 2,
+        "companies": [
+          "Physical Intelligence",
+          "Skild AI"
+        ]
+      },
+      "ai-autonomous-driving": {
+        "count": 1,
+        "companies": [
+          "Waymo"
+        ]
+      },
+      "brain-computer-interface": {
+        "count": 1,
+        "companies": [
+          "Neuralink"
+        ]
+      },
+      "manufacturing-reshoring": {
+        "count": 1,
+        "companies": [
+          "Senra Systems"
+        ]
+      },
+      "autonomy-delivery-logistics": {
+        "count": 1,
+        "companies": [
+          "Zipline"
+        ]
+      },
+      "logistics-supply-chain": {
+        "count": 1,
+        "companies": [
+          "The Boring Company"
+        ]
+      },
+      "robotics-cobots-warehouse": {
+        "count": 3,
+        "companies": [
+          "AMP Robotics",
+          "RobCo",
+          "Collaborative Robotics"
+        ]
+      },
+      "defense-ew-rf-cyber": {
+        "count": 1,
+        "companies": [
+          "Kela"
+        ]
+      },
+      "quantum-sensors-software": {
+        "count": 1,
+        "companies": [
+          "Q-CTRL"
+        ]
+      },
+      "edge-ai-silicon": {
+        "count": 1,
+        "companies": [
+          "Kneron"
+        ]
+      },
+      "photonic-compute": {
+        "count": 1,
+        "companies": [
+          "Lightelligence"
+        ]
+      },
+      "ai-drug-discovery": {
+        "count": 2,
+        "companies": [
+          "Xaira Therapeutics",
+          "Iambic Therapeutics"
         ]
       }
     },
@@ -2161,6 +2156,11 @@
         "share": 0.2727
       },
       {
+        "vc": "Valor Equity Partners",
+        "count": 2,
+        "share": 0.1818
+      },
+      {
         "vc": "General Catalyst",
         "count": 1,
         "share": 0.0909
@@ -2172,11 +2172,6 @@
       },
       {
         "vc": "Bessemer Venture Partners",
-        "count": 1,
-        "share": 0.0909
-      },
-      {
-        "vc": "8VC",
         "count": 1,
         "share": 0.0909
       }
@@ -2406,17 +2401,17 @@
         "share": 0.1429
       },
       {
-        "vc": "Sequoia Capital",
-        "count": 1,
-        "share": 0.1429
-      },
-      {
         "vc": "Lightspeed Venture Partners",
         "count": 1,
         "share": 0.1429
       },
       {
         "vc": "Khosla Ventures",
+        "count": 1,
+        "share": 0.1429
+      },
+      {
+        "vc": "Sequoia Capital",
         "count": 1,
         "share": 0.1429
       }
@@ -2720,12 +2715,12 @@
         "share": 0.1667
       },
       {
-        "vc": "Sequoia Capital",
+        "vc": "Lightspeed Venture Partners",
         "count": 1,
         "share": 0.1667
       },
       {
-        "vc": "Lightspeed Venture Partners",
+        "vc": "Khosla Ventures",
         "count": 1,
         "share": 0.1667
       }
@@ -3546,7 +3541,7 @@
         "share": 0.1429
       },
       {
-        "vc": "Sequoia Capital",
+        "vc": "Lightspeed Venture Partners",
         "count": 1,
         "share": 0.1429
       }
@@ -3808,20 +3803,6 @@
         "share": 0.5
       }
     ],
-    "edge-ai-silicon": [
-      {
-        "vc": "Sequoia Capital",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
-    "photonic-compute": [
-      {
-        "vc": "Sequoia Capital",
-        "count": 1,
-        "share": 1.0
-      }
-    ],
     "nuclear-smr-advanced": [
       {
         "vc": "Khosla Ventures",
@@ -3875,6 +3856,20 @@
     "mirror-fusion": [
       {
         "vc": "Khosla Ventures",
+        "count": 1,
+        "share": 1.0
+      }
+    ],
+    "edge-ai-silicon": [
+      {
+        "vc": "Sequoia Capital",
+        "count": 1,
+        "share": 1.0
+      }
+    ],
+    "photonic-compute": [
+      {
+        "vc": "Sequoia Capital",
         "count": 1,
         "share": 1.0
       }
@@ -4047,6 +4042,40 @@
       ]
     },
     {
+      "vc": "Valor Equity Partners",
+      "recentCount": 28,
+      "totalCount": 29,
+      "score": 25.115,
+      "topCluster": "autonomy-drone-military",
+      "recentExamples": [
+        {
+          "company": "Terrahaptix",
+          "cluster": "african-defense",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "AMP Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "addedDate": "2026-03"
+        },
+        {
+          "company": "Bedrock Ocean",
+          "cluster": "autonomy-maritime",
+          "addedDate": "2026-03"
+        },
+        {
+          "company": "QuEra Computing",
+          "cluster": "quantum-neutral-atom",
+          "addedDate": "2026-03"
+        },
+        {
+          "company": "Pyka",
+          "cluster": "autonomous-aviation",
+          "addedDate": "2026-03"
+        }
+      ]
+    },
+    {
       "vc": "Khosla Ventures",
       "recentCount": 28,
       "totalCount": 28,
@@ -4111,40 +4140,6 @@
           "company": "Carbyon",
           "cluster": "direct-air-capture",
           "addedDate": "2026-04"
-        }
-      ]
-    },
-    {
-      "vc": "Valor Equity Partners",
-      "recentCount": 27,
-      "totalCount": 28,
-      "score": 24.328,
-      "topCluster": "autonomy-drone-military",
-      "recentExamples": [
-        {
-          "company": "Terrahaptix",
-          "cluster": "african-defense",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "AMP Robotics",
-          "cluster": "robotics-cobots-warehouse",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Bedrock Ocean",
-          "cluster": "autonomy-maritime",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "QuEra Computing",
-          "cluster": "quantum-neutral-atom",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Pyka",
-          "cluster": "autonomous-aviation",
-          "addedDate": "2026-03"
         }
       ]
     },
@@ -4252,9 +4247,9 @@
     },
     {
       "vc": "Sequoia Capital",
-      "recentCount": 18,
-      "totalCount": 19,
-      "score": 16.969,
+      "recentCount": 17,
+      "totalCount": 18,
+      "score": 16.117,
       "topCluster": "robotics-cobots-warehouse",
       "recentExamples": [
         {
