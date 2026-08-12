@@ -39852,23 +39852,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-12 18:02
+// Last updated: 2026-08-12 19:13
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "OpenAI", headline: "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "funding", company: "Form Energy", headline: "Form Energy raises $750M to build more 100-hour batteries for the grid", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
-  { id: 3, type: "hire", company: "Waymo", headline: "Waymo has nearly 1,000 robotaxis waiting at its Arizona factory", source: "Electrek", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "ispace", headline: "China's iSpace raises first batch of series E funding for reusable rocketry", source: "SpaceNews", time: "5h ago", impact: "high", unread: true },
-  { id: 5, type: "news", company: "Einride", headline: "DAF Trucks to integrate Einride Driver to scale autonomous electric freight", source: "The Robot Report", time: "7h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Cambridge Aerospace", headline: "Defense drone developer Cambridge Aerospace raises $300M", source: "The Robot Report", time: "21h ago", impact: "high", unread: false },
-  { id: 7, type: "contract", company: "SpaceX", headline: "SpaceX increasing footprint in missile defense", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Humanoid", headline: "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
-  { id: 9, type: "hire", company: "Proteus Space", headline: "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Dust", headline: "Dust and water spotted close to giant black hole", source: "ESA News", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Hadrian", headline: "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
-  { id: 12, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab builds deployable infrastructure for Electron launches", source: "SpaceNews", time: "1d ago", impact: "medium", unread: false },
-  { id: 13, type: "news", company: "Isembard", headline: "Isembard founder: We're a &quot;politician's wet dream&quot;", source: "Tech.eu", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Atmos Space Cargo", headline: "Astrolight, ATMOS Space Cargo eye first in-flight laser link between reentry vehicle, satellite", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "Cambridge Aerospace", headline: "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise", source: "Sifted", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Cognition", headline: "AI coding startup Cognition reportedly already in talks to raise at $40B valuation", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 2, type: "funding", company: "OpenAI", headline: "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
+  { id: 3, type: "funding", company: "Form Energy", headline: "Form Energy raises $750M to build more 100-hour batteries for the grid", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
+  { id: 4, type: "hire", company: "Waymo", headline: "Waymo has nearly 1,000 robotaxis waiting at its Arizona factory", source: "Electrek", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "ispace", headline: "China's iSpace raises first batch of series E funding for reusable rocketry", source: "SpaceNews", time: "6h ago", impact: "high", unread: true },
+  { id: 6, type: "news", company: "Einride", headline: "DAF Trucks to integrate Einride Driver to scale autonomous electric freight", source: "The Robot Report", time: "8h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Cambridge Aerospace", headline: "Defense drone developer Cambridge Aerospace raises $300M", source: "The Robot Report", time: "22h ago", impact: "high", unread: false },
+  { id: 8, type: "contract", company: "SpaceX", headline: "SpaceX increasing footprint in missile defense", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Humanoid", headline: "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
+  { id: 10, type: "hire", company: "Proteus Space", headline: "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Dust", headline: "Dust and water spotted close to giant black hole", source: "ESA News", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Hadrian", headline: "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
+  { id: 13, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab builds deployable infrastructure for Electron launches", source: "SpaceNews", time: "1d ago", impact: "medium", unread: false },
+  { id: 14, type: "news", company: "Isembard", headline: "Isembard founder: We're a &quot;politician's wet dream&quot;", source: "Tech.eu", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Atmos Space Cargo", headline: "Astrolight, ATMOS Space Cargo eye first in-flight laser link between reentry vehicle, satellite", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

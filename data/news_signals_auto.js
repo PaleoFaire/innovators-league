@@ -1,74 +1,85 @@
 // Auto-generated news signals
-// Last updated: 2026-08-12T18:02:49.713Z
+// Last updated: 2026-08-12T19:12:58.292Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1786557769713,
+    "id": 1786561978292,
+    "type": "funding",
+    "company": "Cognition",
+    "headline": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
+    "source": "TechCrunch",
+    "time": "Just now",
+    "impact": "high",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/"
+  },
+  {
+    "id": 1786561978293,
     "type": "funding",
     "company": "OpenAI",
     "headline": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
     "source": "TechCrunch",
-    "time": "Just now",
+    "time": "1h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"
   },
   {
-    "id": 1786557769714,
+    "id": 1786561978294,
     "type": "funding",
     "company": "Form Energy",
     "headline": "Form Energy raises $750M to build more 100-hour batteries for the grid",
     "source": "TechCrunch",
-    "time": "1h ago",
+    "time": "2h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/12/form-energy-raises-750m-to-build-more-100-hour-batteries-for-the-grid/"
   },
   {
-    "id": 1786557769715,
+    "id": 1786561978295,
     "type": "hire",
     "company": "Waymo",
     "headline": "Waymo has nearly 1,000 robotaxis waiting at its Arizona factory",
     "source": "Electrek",
-    "time": "4h ago",
+    "time": "5h ago",
     "impact": "low",
     "unread": true,
     "link": "https://electrek.co/2026/08/12/waymo-ojai-robotaxis-arizona-factory/"
   },
   {
-    "id": 1786557769716,
+    "id": 1786561978296,
     "type": "funding",
     "company": "ispace",
     "headline": "China’s iSpace raises first batch of series E funding for reusable rocketry",
     "source": "SpaceNews",
-    "time": "5h ago",
+    "time": "6h ago",
     "impact": "high",
     "unread": true,
     "link": "https://spacenews.com/chinas-ispace-raises-first-batch-of-series-e-funding-for-reusable-rocketry/"
   },
   {
-    "id": 1786557769717,
+    "id": 1786561978297,
     "type": "news",
     "company": "Einride",
     "headline": "DAF Trucks to integrate Einride Driver to scale autonomous electric freight",
     "source": "The Robot Report",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://www.therobotreport.com/daf-trucks-integrates-einride-driver-scale-autonomous-electric-freight/"
   },
   {
-    "id": 1786557769718,
+    "id": 1786561978298,
     "type": "funding",
     "company": "Cambridge Aerospace",
     "headline": "Defense drone developer Cambridge Aerospace raises $300M",
     "source": "The Robot Report",
-    "time": "21h ago",
+    "time": "22h ago",
     "impact": "high",
     "unread": false,
     "link": "https://www.therobotreport.com/defense-drone-developer-cambridge-aerospace-raises-300m/"
   },
   {
-    "id": 1786557769719,
+    "id": 1786561978299,
     "type": "contract",
     "company": "SpaceX",
     "headline": "SpaceX increasing footprint in missile defense",
@@ -79,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacex-increasing-footprint-in-missile-defense/"
   },
   {
-    "id": 1786557769720,
+    "id": 1786561978300,
     "type": "news",
     "company": "Humanoid",
     "headline": "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market",
@@ -90,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/"
   },
   {
-    "id": 1786557769721,
+    "id": 1786561978301,
     "type": "hire",
     "company": "Proteus Space",
     "headline": "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors",
@@ -101,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/proteus-space-names-maj-gen-kim-crider-usaf-ret-to-board-of-directors/"
   },
   {
-    "id": 1786557769722,
+    "id": 1786561978302,
     "type": "ipo",
     "company": "Dust",
     "headline": "Dust and water spotted close to giant black hole",
@@ -112,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole"
   },
   {
-    "id": 1786557769723,
+    "id": 1786561978303,
     "type": "funding",
     "company": "Hadrian",
     "headline": "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing",
@@ -123,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/"
   },
   {
-    "id": 1786557769724,
+    "id": 1786561978304,
     "type": "ipo",
     "company": "Rocket Lab",
     "headline": "Rocket Lab builds deployable infrastructure for Electron launches",
@@ -134,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/rocket-lab-builds-deployable-infrastructure-for-electron-launches/"
   },
   {
-    "id": 1786557769725,
+    "id": 1786561978305,
     "type": "news",
     "company": "Isembard",
     "headline": "Isembard founder: We're a &quot;politician's wet dream&quot;",
@@ -145,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/08/10/isembard-a-politicians-wet-dream-says-its-founder/"
   },
   {
-    "id": 1786557769726,
+    "id": 1786561978306,
     "type": "ipo",
     "company": "Atmos Space Cargo",
     "headline": "Astrolight, ATMOS Space Cargo eye first in-flight laser link between reentry vehicle, satellite",
@@ -156,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/astrolight-atmos-space-cargo-eye-first-in-flight-laser-link-between-reentry-vehicle-satellite/"
   },
   {
-    "id": 1786557769727,
+    "id": 1786561978307,
     "type": "funding",
     "company": "Cambridge Aerospace",
     "headline": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise",
@@ -167,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/cambridge-aerospace-fundraise-valuation/"
   },
   {
-    "id": 1786557769728,
+    "id": 1786561978308,
     "type": "funding",
     "company": "Cambridge Aerospace",
     "headline": "Cambridge Aerospace's valuation leaps to $3.4BN as raises $300M",
@@ -178,18 +189,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/08/10/cambridge-aerospaces-valuation-leaps-to-34bn-as-raised-300m/"
   },
   {
-    "id": 1786557769729,
+    "id": 1786561978309,
     "type": "contract",
     "company": "SpaceX",
     "headline": "Microsoft Will Lease 3+ Gigawatts of AI Data Center from SpaceX in 2027",
     "source": "Next Big Future",
-    "time": "3d ago",
+    "time": "4d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/08/microsoft-will-lease-3-gigawatts-of-ai-data-center-from-spacex-in-2027.html"
   },
   {
-    "id": 1786557769730,
+    "id": 1786561978310,
     "type": "hire",
     "company": "Waymo",
     "headline": "Waymo CEO: Don&#8217;t Move Fast &#038; Break Things With Physical AI",
@@ -200,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/08/07/waymo-ceo-dont-move-fast-break-things-with-physical-ai/"
   },
   {
-    "id": 1786557769731,
+    "id": 1786561978311,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Semianalysis Agrees With NextBigfuture $300B Per Year for SpaceX by End of 2027",
@@ -209,16 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "high",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/08/semianalysis-agrees-with-nextbigfuture-300b-per-year-for-spacex-by-end-of-2027.html"
-  },
-  {
-    "id": 1786557769732,
-    "type": "news",
-    "company": "Humanoid",
-    "headline": "Mitsubishi joins the humanoid robot race — at a 1,000 unit per month pace",
-    "source": "Electrek",
-    "time": "5d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://electrek.co/2026/08/07/mitsubishi-joins-the-humanoid-robot-race-at-a-1000-unit-per-month-pace/"
   }
 ];
