@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-08-07T11:20:37.096542+00:00",
+  "generated_at": "2026-08-12T08:36:25.865763+00:00",
   "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
   "candidates": [
+    {
+      "match_method": "name-candidate",
+      "company": "FuriosaAI",
+      "issuer_name": "FuriosaAI, Inc",
+      "form": "D",
+      "filed_date": "2026-08-11",
+      "cik": "2149195",
+      "accession": "0000950103-26-012140",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002149195&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0000950103-26-012140"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Latitude",
+      "issuer_name": "Latitude Health, Inc",
+      "form": "D",
+      "filed_date": "2026-08-07",
+      "cik": "2148343",
+      "accession": "0002148343-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002148343&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002148343-26-000001"
+    },
     {
       "match_method": "name-candidate",
       "company": "AIR",
@@ -34,50 +56,6 @@
       "accession": "0002136864-26-000002",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002136864&type=D&dateb=&owner=include&count=10",
       "adsh_raw": "0002136864-26-000002"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "TrustPoint",
-      "issuer_name": "TrustPoint Investors, LLC",
-      "form": "D",
-      "filed_date": "2026-07-29",
-      "cik": "2143595",
-      "accession": "0002143595-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002143595&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002143595-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Antares",
-      "issuer_name": "Antares Holdings LP",
-      "form": "D",
-      "filed_date": "2026-07-29",
-      "cik": "1652415",
-      "accession": "0002062357-26-000308",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652415&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002062357-26-000308"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Antares",
-      "issuer_name": "Antares Unitholder Investment LLC",
-      "form": "D",
-      "filed_date": "2026-07-29",
-      "cik": "1799789",
-      "accession": "0002062357-26-000306",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001799789&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002062357-26-000306"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Radiant",
-      "issuer_name": "Radiant Flux, L.P",
-      "form": "D",
-      "filed_date": "2026-07-27",
-      "cik": "2143368",
-      "accession": "0002143368-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002143368&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002143368-26-000001"
     }
   ]
 }

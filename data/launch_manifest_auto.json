@@ -1,33 +1,6 @@
 [
   {
-    "date": "2026-08-06",
-    "vehicle": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
-    "payload": "The Grain Goddess Provides (iQPS Launch 7)",
-    "pad": "Rocket Lab Launch Complex 1A, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/8b7e748c-6ed5-4681-a898-827b4a23b8d7/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-08-08",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-38",
-    "payload": "Starlink Group 17-38",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/e4316d4c-9eb8-4a18-9b0d-4307c3970ef6/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-08-10",
-    "vehicle": "Long March 7A | Unknown Payload",
-    "payload": "Unknown Payload",
-    "pad": "201, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/cff704ab-8098-4f65-899e-50adaf908e59/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-08-10",
+    "date": "2026-08-11",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 10-19",
     "payload": "Starlink Group 10-19",
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
@@ -36,21 +9,21 @@
     "trackedCompany": "SpaceX"
   },
   {
-    "date": "2026-08-10",
-    "vehicle": "Zhuque-3 | Flight 2",
-    "payload": "Flight 2",
-    "pad": "Launch Area 96B, Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "LandSpace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ef02e2cf-e617-4b38-a526-951ac9204b0a/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-08-12",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-49",
     "payload": "Starlink Group 17-49",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/6f94dbe4-1318-4ffb-a53d-351bbdcba733/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-08-15",
+    "vehicle": "Falcon 9 Block 5 | USSF-366",
+    "payload": "USSF-366",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/55b79515-ddbf-4198-8a59-29a12ed21330/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -70,6 +43,24 @@
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/b0e7d1cc-24dd-4da4-bb60-b15b6791d08e/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-08-19",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-50",
+    "payload": "Starlink Group 17-50",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f6958a77-37bb-4559-a108-40ba0ff9e34a/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-08-20",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-39",
+    "payload": "Starlink Group 10-39",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/bbdc4d47-1de3-428e-9fe1-bbf45d9b1e04/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-08-24",
@@ -100,6 +91,15 @@
   },
   {
     "date": "2026-08-31",
+    "vehicle": "Angara 1.2 | Kosmos (Unknown Payload)",
+    "payload": "Kosmos (Unknown Payload)",
+    "pad": "35/1, Plesetsk Cosmodrome, Russian Federation",
+    "provider": "Russian Space Forces",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-08-31",
     "vehicle": "Electron | LOXSAT 1",
     "payload": "LOXSAT 1",
     "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -118,12 +118,12 @@
   },
   {
     "date": "2026-08-31",
-    "vehicle": "H3-22 | Michibiki 7 (QZS-7)",
-    "payload": "Michibiki 7 (QZS-7)",
-    "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
-    "provider": "Mitsubishi Heavy Industries",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/b89ab080-66c3-4831-85a9-38d85da71d30/?format=json",
-    "trackedCompany": null
+    "vehicle": "Electron | The Lightning God Defends (iQPS Launch 8)",
+    "payload": "The Lightning God Defends (iQPS Launch 8)",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/57280454-470e-4c5d-8de1-1bbd0ea41b49/?format=json",
+    "trackedCompany": "Rocket Lab"
   },
   {
     "date": "2026-08-31",
@@ -162,6 +162,15 @@
     "trackedCompany": null
   },
   {
+    "date": "2026-08-31",
+    "vehicle": "Zhuque-3 | Flight 2",
+    "payload": "Flight 2",
+    "pad": "Launch Area 96B, Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "LandSpace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ef02e2cf-e617-4b38-a526-951ac9204b0a/?format=json",
+    "trackedCompany": null
+  },
+  {
     "date": "2026-09-09",
     "vehicle": "Soyuz 2.1b | Progress MS-35 (96P)",
     "payload": "Progress MS-35 (96P)",
@@ -192,7 +201,7 @@
     "date": "2026-09-30",
     "vehicle": "Falcon 9 Block 5 | O3b mPower 11-13",
     "payload": "O3b mPower 11-13",
-    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/ad358a4d-c541-409b-9366-9c2f2da4aeb9/?format=json",
     "trackedCompany": "SpaceX"
@@ -205,6 +214,33 @@
     "provider": "United Launch Alliance",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/ef9850ad-1096-425b-9d27-f7bbd186e61a/?format=json",
     "trackedCompany": "ULA"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Electron | 6x HawkEye 360",
+    "payload": "6x HawkEye 360",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7766f3bb-674c-4c71-b986-963bd633fcfe/?format=json",
+    "trackedCompany": "Rocket Lab"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Electron | BlackSky Gen-3 5",
+    "payload": "BlackSky Gen-3 5",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b81156da-c0b8-46c8-aebd-8af8d2be83cd/?format=json",
+    "trackedCompany": "Rocket Lab"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Electron | BlackSky Gen-3 6",
+    "payload": "BlackSky Gen-3 6",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/548df42c-ae26-4cc9-921a-f0042941911a/?format=json",
+    "trackedCompany": "Rocket Lab"
   },
   {
     "date": "2026-09-30",
@@ -262,38 +298,11 @@
   },
   {
     "date": "2026-09-30",
-    "vehicle": "Firefly Alpha Block 2 | ConnectedCosmos Launch 1",
-    "payload": "ConnectedCosmos Launch 1",
-    "pad": "Space Launch Complex 2W, Vandenberg SFB, CA, USA",
-    "provider": "Firefly Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/875ba957-be5f-42bd-8a6e-ed98254f572a/?format=json",
-    "trackedCompany": "Firefly Aerospace"
-  },
-  {
-    "date": "2026-09-30",
-    "vehicle": "Firefly Alpha Block 2 | QuickSounder",
-    "payload": "QuickSounder",
-    "pad": "Space Launch Complex 2W, Vandenberg SFB, CA, USA",
-    "provider": "Firefly Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/d1a3807e-f304-467c-a095-e08b86924347/?format=json",
-    "trackedCompany": "Firefly Aerospace"
-  },
-  {
-    "date": "2026-09-30",
     "vehicle": "GSLV Mk II | GISAT-1A (EOS-05)",
     "payload": "GISAT-1A (EOS-05)",
     "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
     "provider": "Indian Space Research Organization",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/17d0ec68-f466-4916-9dc5-16123eda6484/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-09-30",
-    "vehicle": "LVM-3 | Gaganyaan-1",
-    "payload": "Gaganyaan-1",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/dfac5ab7-7017-454f-b6cf-eeed277a97b5/?format=json",
     "trackedCompany": null
   },
   {
@@ -387,15 +396,6 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-11-30",
-    "vehicle": "Firefly Alpha Block 2 | ConnectedCosmos Launch 2",
-    "payload": "ConnectedCosmos Launch 2",
-    "pad": "Space Launch Complex 2W, Vandenberg SFB, CA, USA",
-    "provider": "Firefly Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/d47cbca4-48c1-455a-b357-f156833b189e/?format=json",
-    "trackedCompany": "Firefly Aerospace"
-  },
-  {
     "date": "2026-12-31",
     "vehicle": "Electron | StriX Launch 13",
     "payload": "StriX Launch 13",
@@ -411,6 +411,15 @@
     "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/387aadc6-68ca-4090-9be7-d57603ad7c79/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
+    "payload": "Cygnus CRS-2 NG-25",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d74afbc7-0de5-491c-be05-4e9c31f736ac/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -439,14 +448,5 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/ce1317de-ec94-4479-9b28-38ebf11f13ae/?format=json",
     "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-12-31",
-    "vehicle": "Ariane 62 | Galileo L15 (FOC FM28 & FM31)",
-    "payload": "Galileo L15 (FOC FM28 & FM31)",
-    "pad": "Ariane Launch Area 4, Guiana Space Centre, French Guiana",
-    "provider": "Arianespace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/0b85fcca-5252-48d7-9ccb-c10b1da9d183/?format=json",
-    "trackedCompany": null
   }
 ]

@@ -1,12 +1,12 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-08-07 11:20:39 UTC
-// Total: 8 filings across 8 companies
+// Last updated: 2026-08-12 08:36:27 UTC
+// Total: 7 filings across 7 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-08-07T11:20:39.190743+00:00",
+  "generated_at": "2026-08-12T08:36:27.013657+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 8,
+  "total_filings": 7,
   "filings": [
     {
       "match_method": "cik",
@@ -129,24 +129,6 @@ const FORM_D_FILINGS = {
       "offering_amount": "635249754",
       "amount_sold": "432125053",
       "amount_remaining": "203124701",
-      "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "match_method": "cik",
-      "company": "Antares",
-      "issuer_name": "Antares Nuclear, Inc",
-      "form": "D",
-      "filed_date": "2026-07-28",
-      "cik": "1998786",
-      "accession": "0001998786-26-000002",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001998786&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001998786-26-000002",
-      "offering_amount": "319999537",
-      "amount_sold": "319999537",
-      "amount_remaining": "0",
       "securities_type": "Equity",
       "exemption": "06b",
       "first_sale_date": "",
