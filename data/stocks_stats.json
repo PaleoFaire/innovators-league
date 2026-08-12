@@ -5,90 +5,100 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 7.55,
+      "avg_change": 7.09,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 9.29,
+      "avg_change": 10.8,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -2.67,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": -2.95,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 6.45,
+      "avg_change": 4.74,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 4.87,
+      "avg_change": 7.39,
       "count": 3
     },
     "quantum": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -5.98,
+      "avg_change": 3.83,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 9.86,
+      "avg_change": 9.19,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 2.74,
+      "avg_change": 2.27,
       "count": 2
     },
     "chips": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -6.55,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 2.26,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "SATL",
-      "Satellogic",
-      28.06
-    ],
-    [
       "ACHR",
       "Archer Aviation",
-      27.87
-    ],
-    [
-      "TEM",
-      "Tempus AI",
-      18.36
+      23.08
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      18.05
+      22.09
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      20.85
+    ],
+    [
+      "TEM",
+      "Tempus AI",
+      17.41
     ],
     [
       "QS",
       "QuantumScape",
-      11.42
+      14.62
     ]
   ],
   "topLosers": [
     [
-      "AMD",
-      "AMD",
-      -8.53
+      "LNZA",
+      "LanzaTech",
+      -3.91
+    ],
+    [
+      "QBTS",
+      "D-Wave Quantum",
+      -4.96
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      -5.08
     ],
     [
       "IDEAFORGE.NS",
@@ -96,20 +106,10 @@
       -11.54
     ],
     [
-      "ALAB",
-      "Astera Labs",
-      -13.74
-    ],
-    [
-      "QBTS",
-      "D-Wave Quantum",
-      -25.74
-    ],
-    [
       "EVTL",
       "Vertical Aerospace",
-      -35.75
+      -32.68
     ]
   ],
-  "lastUpdated": "2026-08-12 08:42:11"
+  "lastUpdated": "2026-08-12 14:34:46"
 }
