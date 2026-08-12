@@ -52,6 +52,19 @@ ALIASES = {
     "Summit Nanotech": "Summit Lithium Technologies",
     "Ulysses": "Ulysses Robotics", "Poseidon": "Poseidon Aerospace",
 }
+# Big public / mega-private companies that legitimately appear in bot-populated
+# signal feeds (news, patents, headcount, revenue) but are deliberately NOT in
+# COMPANIES, which tracks frontier-tech PRIVATE companies. Flagging these as
+# orphans made every daily sync fail the gate. Typos and renames are still
+# caught — this list is explicit and must be edited by hand to grow.
+KNOWN_UNTRACKED = {
+    "AMD", "NVIDIA", "Tesla", "Stripe", "OpenAI", "Anthropic",
+    "Safe Superintelligence", "ElevenLabs", "Flexport", "Watershed", "Modal",
+    "Hive AI", "Labelbox", "C3.ai", "Tempus AI", "Ginkgo Bioworks",
+    "Boston Dynamics", "Rainbow Robotics", "Kodiak Robotics", "Zoox",
+    "BlackSky", "Capella Space", "Terran Orbital",
+}
+
 ANALYTICS = [
     "GOV_CONTRACTS", "SAM_CONTRACTS", "GROWTH_SIGNALS", "ALT_DATA_SIGNALS",
     "PATENT_INTEL", "HEADCOUNT_ESTIMATES", "REVENUE_INTEL", "COMPANY_SIGNALS",
@@ -177,7 +190,7 @@ def main():
 
     # 2. referential integrity in analytics structures
     def resolves(ref):
-        if ref in name_set or ref in vc_names:
+        if ref in name_set or ref in vc_names or ref in KNOWN_UNTRACKED:
             return True
         return ALIASES.get(ref) in name_set
 

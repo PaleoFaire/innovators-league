@@ -119,12 +119,19 @@ def main():
             if deal["investor"] not in cd["lead_investors"]:
                 cd["lead_investors"].append(deal["investor"])
 
-        # Track latest round
+        # Track latest round.
+        # Only accept the round if parse_amount() also accepts it. The raw
+        # string was previously written straight through, so the $15B sanity
+        # cap guarded total_raised_m but NOT the displayed lastRoundAmount —
+        # which is how "$510B" (Amca), "$392B" (ARC Clean Technology, total
+        # raised $14M) and "$188B" (Databricks' valuation, not a round) reached
+        # FUNDING_TRACKER. A blank amount is better than a fabricated one.
         date = deal.get("date", "")
-        if date > cd["latest_date"]:
+        raw_amount = deal.get("amount", "")
+        if date > cd["latest_date"] and (amount_m > 0 or not raw_amount):
             cd["latest_date"] = date
             cd["latest_round"] = deal.get("round", "")
-            cd["latest_amount"] = deal.get("amount", "")
+            cd["latest_amount"] = raw_amount if amount_m > 0 else ""
             cd["latest_valuation"] = deal.get("valuation", "")
 
     print(f"Companies with funding data: {len(company_data)}")

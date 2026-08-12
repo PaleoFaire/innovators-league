@@ -2360,6 +2360,30 @@ def update_deal_flow_signals(data_js_content):
     return data_js_content
 
 
+
+def _comma_terminate(array_head):
+    """Make an array body safe to append a new `{...}` entry onto.
+
+    `update_*` functions that append to an array insert their new objects
+    immediately before the closing `];`. If the array's last existing entry
+    ends `}` with no trailing comma, that produces:
+
+        }
+        {
+
+    which is a JS syntax error. This broke Daily Data Sync and Comprehensive
+    Data Sync from 2026-08-11 (GOV_DEMAND_TRACKER); MA_COMPS had the same
+    latent bug. The parse guard in validate_js_syntax caught it and refused to
+    write data.js, so no data was corrupted, but no merge landed either.
+
+    Returns the head with a trailing comma guaranteed when it is needed.
+    """
+    stripped = array_head.rstrip()
+    if stripped.endswith("}") or stripped.endswith("]"):
+        return stripped + ",\n"
+    return array_head
+
+
 def update_ma_comps(data_js_content):
     """Auto-append M&A transactions to MA_COMPS from deal data and SEC 8-K filings.
     Preserves all existing curated entries. Adds new acquisitions detected from auto data.
@@ -2482,7 +2506,9 @@ def update_ma_comps(data_js_content):
     insert_pattern = r'(const MA_COMPS = \[[\s\S]*?)(];)'
     match = re.search(insert_pattern, data_js_content)
     if match:
-        data_js_content = data_js_content[:match.start(2)] + new_entries + match.group(2) + data_js_content[match.end(2):]
+        head = _comma_terminate(match.group(1))
+        data_js_content = (data_js_content[:match.start(1)] + head + new_entries
+                           + match.group(2) + data_js_content[match.end(2):])
         print(f"  Appended {len(new_comps)} entries to MA_COMPS")
     else:
         print("  MA_COMPS not found in data.js")
@@ -2644,7 +2670,9 @@ def update_gov_demand_tracker(data_js_content):
     insert_pattern = r'(const GOV_DEMAND_TRACKER = \[[\s\S]*?)(];)'
     match = re.search(insert_pattern, data_js_content)
     if match:
-        data_js_content = data_js_content[:match.start(2)] + new_js + match.group(2) + data_js_content[match.end(2):]
+        head = _comma_terminate(match.group(1))
+        data_js_content = (data_js_content[:match.start(1)] + head + new_js
+                           + match.group(2) + data_js_content[match.end(2):])
         print(f"  Appended {min(len(new_entries), 15)} entries to GOV_DEMAND_TRACKER")
     else:
         print("  GOV_DEMAND_TRACKER not found in data.js")
