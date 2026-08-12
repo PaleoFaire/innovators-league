@@ -1,0 +1,93 @@
+name: First-Party Funding Watcher
+
+# Polls each tracked company's own newsroom for funding announcements the
+# press-based feeds miss. Writes to a review queue, never to data.js.
+# Added after the Neros $250M Series C (2026-08-11) was missed by every
+# existing channel because the company announced it themselves.
+
+on:
+  schedule:
+    - cron: '40 6 * * *'      # daily, after Daily Data Sync (06:00) settles
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: 'il30 or all'
+        required: false
+        default: 'il30'
+
+concurrency:
+  group: first-party-watcher
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Poll company newsrooms
+        run: |
+          python3 scripts/fetch_company_announcements.py \
+            --scope "${{ github.event.inputs.scope || 'il30' }}"
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit and push (retry on conflict)
+        run: |
+          for attempt in 1 2 3 4 5; do
+            git stash --include-untracked 2>/dev/null || true
+            git pull --rebase origin main || git rebase --abort 2>/dev/null || true
+            if ! git stash pop 2>/dev/null; then
+              if git stash list | grep -q .; then
+                git stash drop 2>/dev/null || true
+                git diff --name-only --diff-filter=U | xargs -r git checkout HEAD --
+                python3 scripts/fetch_company_announcements.py \
+                  --scope "${{ github.event.inputs.scope || 'il30' }}"
+              fi
+            fi
+            git add data/company_announcements_auto.json \
+                    data/company_announcements_auto.js \
+                    data/funding_review_queue.json 2>/dev/null || true
+            if git diff --staged --quiet; then
+              echo "No changes to commit."; exit 0
+            fi
+            git commit -m "🔎 First-party watcher: newsroom scan $(date -u +%Y-%m-%d\ %H:%M)"
+            git push origin main && exit 0
+            git reset --soft HEAD~1
+            sleep $((attempt * 5))
+          done
+          echo "::error::push failed after 5 attempts"; exit 1
+
+      # A silent failure is what let the daily sync stay broken for a week.
+      - name: Surface new rounds in the run summary
+        if: always()
+        run: |
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, pathlib
+          q = pathlib.Path("data/funding_review_queue.json")
+          rows = json.loads(q.read_text()) if q.exists() else []
+          pending = [r for r in rows if r.get("status") == "pending"]
+          print("## First-party funding watcher\n")
+          if not pending:
+              print("No new rounds detected.")
+          else:
+              print(f"**{len(pending)} round(s) awaiting review** — not written to data.js.\n")
+              print("| Company | Round | Amount | Valuation | Recorded | Source |")
+              print("|---|---|---|---|---|---|")
+              for r in pending[:40]:
+                  print(f"| {r.get('company','')} | {r.get('round','') or '?'} "
+                        f"| {r.get('amount','')} | {r.get('valuation','')} "
+                        f"| {r.get('known_stage','')} / {r.get('known_raised','')} "
+                        f"| [link]({r.get('link','')}) |")
+          PY
