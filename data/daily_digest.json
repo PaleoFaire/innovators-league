@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T02:33:53.561820+00:00",
+  "generatedAt": "2026-08-12T04:54:35.580562+00:00",
   "date": "2026-08-12",
   "dateDisplay": "Wednesday, August 12, 2026",
   "sections": {
@@ -82,7 +82,7 @@
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
         "price": 0.89,
-        "changePercent": -35.72,
+        "changePercent": -35.75,
         "change": -0.49
       },
       {
@@ -95,9 +95,16 @@
       {
         "ticker": "ACHR",
         "company": "Archer Aviation",
-        "price": 6.77,
-        "changePercent": 27.5,
-        "change": 1.46
+        "price": 6.79,
+        "changePercent": 27.87,
+        "change": 1.48
+      },
+      {
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 16.21,
+        "changePercent": -25.74,
+        "change": -5.62
       },
       {
         "ticker": "TEM",
@@ -126,13 +133,6 @@
         "price": 6.34,
         "changePercent": 11.42,
         "change": 0.65
-      },
-      {
-        "ticker": "ONT.L",
-        "company": "Oxford Nanopore Technologies",
-        "price": 130.0,
-        "changePercent": 11.4,
-        "change": 13.3
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "EVTL -35.7%"
+    "topMover": "EVTL -35.8%"
   }
 }
