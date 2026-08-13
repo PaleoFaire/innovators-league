@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": -4.07,
+      "avg_change": -4.58,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 9.82,
+      "avg_change": 9.58,
       "count": 3
     },
     "transportation": {
@@ -98,7 +98,7 @@
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      -11.54
+      -15.21
     ],
     [
       "QBTS",
@@ -111,5 +111,5 @@
       -36.45
     ]
   ],
-  "lastUpdated": "2026-08-13 03:35:34"
+  "lastUpdated": "2026-08-13 08:46:43"
 }
