@@ -1,129 +1,162 @@
 // Auto-generated news signals
-// Last updated: 2026-08-13T19:13:16.821Z
+// Last updated: 2026-08-13T20:53:35.531Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1786648396821,
+    "id": 1786654415531,
+    "type": "funding",
+    "company": "Databricks",
+    "headline": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+    "source": "TechCrunch",
+    "time": "Just now",
+    "impact": "high",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/"
+  },
+  {
+    "id": 1786654415532,
+    "type": "milestone",
+    "company": "OpenAI",
+    "headline": "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that makes GPT-5.6 Sol work at 14x the speed",
+    "source": "TechCrunch",
+    "time": "1h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/"
+  },
+  {
+    "id": 1786654415533,
+    "type": "news",
+    "company": "OpenAI",
+    "headline": "IBM partners with OpenAI to bolster enterprise AI push",
+    "source": "TechCrunch",
+    "time": "1h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/"
+  },
+  {
+    "id": 1786654415534,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "Anthropic set AI agents loose on the same task. They started a turf war.",
     "source": "TechCrunch",
-    "time": "Just now",
+    "time": "2h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/"
   },
   {
-    "id": 1786648396822,
+    "id": 1786654415535,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "XAI Grok 4.6 is Third Place But Close to OpenAI and Anthropic",
     "source": "Next Big Future",
-    "time": "4h ago",
+    "time": "5h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/08/xai-grok-4-6-is-third-place-but-close-to-openai-and-anthropic.html"
   },
   {
-    "id": 1786648396823,
+    "id": 1786654415536,
     "type": "milestone",
     "company": "Rivian",
     "headline": "Rivian&#8217;s 2027 R1S adds captain&#8217;s chairs, its most-requested feature",
     "source": "Electrek",
-    "time": "5h ago",
+    "time": "6h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://electrek.co/2026/08/13/rivian-2027-r1s-r1t-captains-chairs-new-trims-pricing/"
   },
   {
-    "id": 1786648396824,
+    "id": 1786654415537,
     "type": "news",
     "company": "Humanoid",
     "headline": "Experts to discuss the state of humanoid robots at RoboBusiness",
     "source": "The Robot Report",
-    "time": "6h ago",
+    "time": "8h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://www.therobotreport.com/experts-discuss-state-humanoid-robots-robobusiness-2026/"
   },
   {
-    "id": 1786648396825,
+    "id": 1786654415538,
     "type": "contract",
     "company": "Palantir",
     "headline": "Pentagon hands Palantir up to $244M in no-bid work",
     "source": "Defense One",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "medium",
-    "unread": true,
+    "unread": false,
     "link": "https://www.defenseone.com/business/2026/08/pentagon-palantir-no-bid/415400/"
   },
   {
-    "id": 1786648396826,
+    "id": 1786654415539,
     "type": "hire",
     "company": "Neura Robotics",
     "headline": "NEURA Robotics acquires Bosch Rexroth’s ACTIVE Shuttle to expand Physical AI ecosystem",
     "source": "Tech.eu",
-    "time": "8h ago",
+    "time": "10h ago",
     "impact": "low",
     "unread": false,
     "link": "https://tech.eu/2026/08/13/neura-robotics-acquires-bosch-rexroths-active-shuttle-to-expand-physical-ai-ecosystem/"
   },
   {
-    "id": 1786648396827,
+    "id": 1786654415540,
     "type": "ipo",
     "company": "Astranis",
     "headline": "Astranis unveils geostationary surveillance satellite",
     "source": "SpaceNews",
-    "time": "9h ago",
+    "time": "11h ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/astranis-unveils-geostationary-surveillance-satellite/"
   },
   {
-    "id": 1786648396828,
+    "id": 1786654415541,
     "type": "news",
     "company": "Multiverse Computing",
     "headline": "Inside Multiverse Computing, the Spanish startup vying to be Europe's next AI champion",
     "source": "Sifted",
-    "time": "14h ago",
+    "time": "15h ago",
     "impact": "low",
     "unread": false,
     "link": "https://sifted.eu/articles/multiverse-computing-europe-ai-champion/"
   },
   {
-    "id": 1786648396829,
+    "id": 1786654415542,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tariffs",
     "source": "CleanTechnica",
-    "time": "18h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": false,
     "link": "https://cleantechnica.com/2026/08/12/waymo-imports-3200-zeekr-robotaxis-despite-super-high-tariffs/"
   },
   {
-    "id": 1786648396830,
+    "id": 1786654415543,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Updated SpaceX Catalysts",
     "source": "Next Big Future",
-    "time": "18h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/08/updated-spacex-catalysts.html"
   },
   {
-    "id": 1786648396831,
+    "id": 1786654415544,
     "type": "contract",
     "company": "Impulse Space",
     "headline": "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations",
     "source": "SpaceNews",
-    "time": "19h ago",
+    "time": "21h ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/space-force-orders-two-more-impulse-space-vehicles-for-maneuvering-demonstrations/"
   },
   {
-    "id": 1786648396832,
+    "id": 1786654415545,
     "type": "funding",
     "company": "Cognition",
     "headline": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
@@ -134,18 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/"
   },
   {
-    "id": 1786648396833,
-    "type": "funding",
-    "company": "OpenAI",
-    "headline": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
-    "source": "TechCrunch",
-    "time": "1d ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"
-  },
-  {
-    "id": 1786648396834,
+    "id": 1786654415546,
     "type": "hire",
     "company": "Waymo",
     "headline": "Waymo has nearly 1,000 robotaxis waiting at its Arizona factory",
@@ -156,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/12/waymo-ojai-robotaxis-arizona-factory/"
   },
   {
-    "id": 1786648396835,
+    "id": 1786654415547,
     "type": "funding",
     "company": "ispace",
     "headline": "China’s iSpace raises first batch of series E funding for reusable rocketry",
@@ -167,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/chinas-ispace-raises-first-batch-of-series-e-funding-for-reusable-rocketry/"
   },
   {
-    "id": 1786648396836,
+    "id": 1786654415548,
     "type": "news",
     "company": "Einride",
     "headline": "DAF Trucks to integrate Einride Driver to scale autonomous electric freight",
@@ -178,18 +200,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/daf-trucks-integrates-einride-driver-scale-autonomous-electric-freight/"
   },
   {
-    "id": 1786648396837,
+    "id": 1786654415549,
     "type": "funding",
     "company": "Cambridge Aerospace",
     "headline": "Defense drone developer Cambridge Aerospace raises $300M",
     "source": "The Robot Report",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "high",
     "unread": false,
     "link": "https://www.therobotreport.com/defense-drone-developer-cambridge-aerospace-raises-300m/"
   },
   {
-    "id": 1786648396838,
+    "id": 1786654415550,
     "type": "contract",
     "company": "SpaceX",
     "headline": "SpaceX increasing footprint in missile defense",
@@ -198,27 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/spacex-increasing-footprint-in-missile-defense/"
-  },
-  {
-    "id": 1786648396839,
-    "type": "news",
-    "company": "Humanoid",
-    "headline": "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market",
-    "source": "The Robot Report",
-    "time": "2d ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/"
-  },
-  {
-    "id": 1786648396840,
-    "type": "ipo",
-    "company": "Dust",
-    "headline": "Dust and water spotted close to giant black hole",
-    "source": "ESA News",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole"
   }
 ];
