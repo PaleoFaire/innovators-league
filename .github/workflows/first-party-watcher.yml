@@ -15,6 +15,12 @@ on:
         required: false
         default: 'il30'
 
+# Without this the job's GITHUB_TOKEN is read-only and every push 403s,
+# which is exactly how the first scheduled run failed. Every other workflow
+# in this repo declares the same thing.
+permissions:
+  contents: write
+
 concurrency:
   group: first-party-watcher
   cancel-in-progress: false
