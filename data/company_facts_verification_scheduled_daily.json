@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-12T06:21:49+00:00",
+  "generatedAt": "2026-08-13T06:24:04+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 45,
-  "newExtractionsThisRun": 45,
+  "cohortSize": 41,
+  "newExtractionsThisRun": 41,
   "summary": {
-    "cleared": 38,
-    "changesProposed": 7,
+    "cleared": 36,
+    "changesProposed": 5,
     "unverifiable": 0
   },
   "cleared": [
@@ -16,38 +16,36 @@
     "AnySignal",
     "Apptronik",
     "Astera Labs",
-    "Atmo",
-    "Atmos Space Cargo",
+    "Aurora Innovation",
     "Base Power",
     "Cambridge Aerospace",
-    "Cape",
+    "Cognition",
     "Dawn Aerospace",
     "Deterrence",
     "Durin",
+    "Einride",
     "Firestorm Labs",
-    "GrayMatter Robotics",
     "Hadrian",
     "Humanoid",
-    "ICEYE",
     "ICON",
-    "Kyoto Fusioneering",
+    "Isembard",
     "Oklo",
     "Orbital Composites",
-    "Path Robotics",
-    "Percepto",
+    "Parallel Systems",
     "Photonic Inc",
+    "Proteus Space",
     "PsiQuantum",
     "Quaise Energy",
     "Radiant",
     "Rebellions",
-    "Rivian",
     "Rocket Lab",
     "Saildrone",
     "Together AI",
     "Valar Atomics",
     "Waymo",
     "Xtend",
-    "ideaForge"
+    "Zettascale",
+    "ispace"
   ],
   "changesProposed": [
     {
@@ -63,7 +61,7 @@
       },
       "verified": {
         "name": "Agility Robotics",
-        "description": "A humanoid robotics and engineering company that develops and deploys Digit, a bipedal humanoid robot designed for warehouse and logistics automation tasks.",
+        "description": "A humanoid robotics company that develops and deploys Digit, a bipedal robot for warehouse and logistics automation. Digit is the first humanoid robot commercially deployed in real warehouse operations.",
         "founders": [
           "Jonathan Hurst",
           "Damion Shelton",
@@ -83,6 +81,7 @@
             2
           ],
           "description": [
+            0,
             1,
             2
           ],
@@ -100,11 +99,10 @@
           ],
           "website": [
             0,
-            1,
             2
           ]
         },
-        "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Company rebranded as 'Agility' on March 5, 2026 (per source 2). Current CEO is Peggy Johnson (per source 1). Digit has commercial deployments with Amazon, Toyota, Mercado Libre, and GXO (per source 1)."
+        "notes": "Company announced merger with Churchill Capital Corp XI to go public (Source 0, June 24, 2026). Company rebranded as 'Agility' on March 5, 2026 (Source 2). Database entry lists Series D stage and $400M+ raised, but these specific figures cannot be verified from provided sources."
       },
       "changes": [
         {
@@ -138,106 +136,47 @@
           "url": "https://electrek.co/2026/08/07/mitsubishi-joins-the-humanoid-robot-race-at-a-1000-unit-per-month-pace/"
         }
       ],
-      "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Company rebranded as 'Agility' on March 5, 2026 (per source 2). Current CEO is Peggy Johnson (per source 1). Digit has commercial deployments with Amazon, Toyota, Mercado Libre, and GXO (per source 1)."
+      "notes": "Company announced merger with Churchill Capital Corp XI to go public (Source 0, June 24, 2026). Company rebranded as 'Agility' on March 5, 2026 (Source 2). Database entry lists Series D stage and $400M+ raised, but these specific figures cannot be verified from provided sources."
     },
     {
-      "name": "Isembard",
+      "name": "Form Energy",
       "current": {
-        "name": "Isembard",
-        "founder": "Alexander Fitzgerald",
-        "location": "London, UK",
-        "founded": 2024,
-        "fundingStage": "Series A",
-        "totalRaised": "$50M",
-        "website": "https://isembard.com"
+        "name": "Form Energy",
+        "founder": "Mateo Jaramillo, Yet-Ming Chiang, Ted Wiley, William Woodford, Marco Ferrara",
+        "location": "Somerville, MA, US",
+        "founded": 2017,
+        "fundingStage": "Series G",
+        "totalRaised": "$690M+",
+        "website": "https://formenergy.com"
       },
       "verified": {
-        "name": "Isembard",
-        "description": "A distributed manufacturing company that scales production from prototype to factory-level output using precision machining and proprietary AI software called MasonOS.",
+        "name": "Form Energy",
+        "description": "Energy storage company developing iron-air batteries capable of cost-effectively storing electricity for 100 hours at a time to enable reliable year-round electric grids.",
         "founders": [
-          "Alexander Fitzgerald"
+          "Mateo Jaramillo",
+          "Yet-Ming Chiang",
+          "Ted Wiley",
+          "William Woodford",
+          "Marco Ferrara"
         ],
-        "location": "London, United Kingdom",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
+        "location": "Somerville, MA, US",
+        "founded_year": 2017,
+        "current_stage": "Series G",
+        "total_raised": "$750M",
         "valuation": null,
-        "investors": null,
-        "website": "https://isembard.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry lists Series A stage and $50M raised, but these claims cannot be verified from provided sources. Sources reference seed round of $9M (TechCrunch headline visible in source [1]) and \u00a37m mentioned (The Telegraph headline in source [1]), but full details of either round are not provided in the source text. Founded year 2024 in database cannot be verified from sources. Team members listed in source [1] include Alexander Fitzgerald (CEO), Jack Williams, Tom Hall, Zoe Hatton, Rory Rose, and Justin Baucum, but only Alexander Fitzgerald is identified as founder/CEO."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "London, UK",
-          "verified": "London, United Kingdom",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://isembard.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://isembard.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/08/10/isembard-a-politicians-wet-dream-says-its-founder/"
-        }
-      ],
-      "notes": "Database entry lists Series A stage and $50M raised, but these claims cannot be verified from provided sources. Sources reference seed round of $9M (TechCrunch headline visible in source [1]) and \u00a37m mentioned (The Telegraph headline in source [1]), but full details of either round are not provided in the source text. Founded year 2024 in database cannot be verified from sources. Team members listed in source [1] include Alexander Fitzgerald (CEO), Jack Williams, Tom Hall, Zoe Hatton, Rory Rose, and Justin Baucum, but only Alexander Fitzgerald is identified as founder/CEO."
-    },
-    {
-      "name": "Joby Aviation",
-      "current": {
-        "name": "Joby Aviation",
-        "founder": "JoeBen Bevirt",
-        "location": "Santa Cruz, CA",
-        "founded": 2009,
-        "fundingStage": "Public",
-        "totalRaised": "$2B+",
-        "website": "https://jobyaviation.com"
-      },
-      "verified": {
-        "name": "Joby Aviation",
-        "description": "American company developing an electric vertical takeoff and landing (eVTOL) aircraft intended to operate as an air taxi service. The company has received FAA Part 135 air carrier certification and is advancing toward commercial operations.",
-        "founders": [
-          "JoeBen Bevirt"
+        "investors": [
+          "Breakthrough Energy Ventures",
+          "Prelude Ventures",
+          "The Engine",
+          "Eni Next",
+          "ArcelorMittal",
+          "TPG Rise Climate",
+          "Coatue Management",
+          "Perry Creek Capital",
+          "NGP Energy Technology Partners III",
+          "Temasek"
         ],
-        "location": "Santa Cruz, California",
-        "founded_year": 2009,
-        "current_stage": "Public",
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://jobyaviation.com",
+        "website": "https://formenergy.com",
         "sources_per_field": {
           "name": [
             0,
@@ -245,9 +184,11 @@
             2
           ],
           "description": [
+            0,
             2
           ],
           "founders": [
+            1,
             2
           ],
           "location": [
@@ -255,25 +196,31 @@
             2
           ],
           "founded_year": [
+            1,
             2
           ],
           "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "investors": [
             2
           ],
           "website": [
-            0
+            2
           ]
         },
-        "notes": "Company went public via SPAC on August 11, 2021 (NYSE: JOBY). Founded as Joby Aero on September 11, 2009. Recently announced acquisition of Resonant Sciences in August 2026 for $500M. Sources conflict on total_raised and valuation specifics, so those fields set to null. Database entry lists investors but sources do not provide comprehensive investor list with verification."
+        "notes": "Most recent funding is Series G for $750M announced August 12, 2026 (per source 0 WSJ article dated August 12, 2026). Manufacturing facility in Weirton, West Virginia (not general West Virginia as in database entry). Company has nearly 1,000 employees across West Virginia, Massachusetts, and California facilities (per source 1)."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "Santa Cruz, CA",
-          "verified": "Santa Cruz, California",
+          "field": "totalRaised",
+          "current": "$690M+",
+          "verified": "$750M",
           "sources": [
-            1,
-            2
+            0
           ]
         }
       ],
@@ -281,25 +228,131 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://jobyaviation.com"
+          "url": "https://formenergy.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://jobyaviation.com/about"
+          "url": "https://formenergy.com/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Joby_Aviation"
+          "url": "https://en.wikipedia.org/wiki/Form_Energy"
         },
         {
           "idx": 3,
           "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/08/11/joby-aviation-builds-out-defense-business-with-500m-acquisition/"
+          "url": "https://techcrunch.com/2026/08/12/form-energy-raises-750m-to-build-more-100-hour-batteries-for-the-grid/"
         }
       ],
-      "notes": "Company went public via SPAC on August 11, 2021 (NYSE: JOBY). Founded as Joby Aero on September 11, 2009. Recently announced acquisition of Resonant Sciences in August 2026 for $500M. Sources conflict on total_raised and valuation specifics, so those fields set to null. Database entry lists investors but sources do not provide comprehensive investor list with verification."
+      "notes": "Most recent funding is Series G for $750M announced August 12, 2026 (per source 0 WSJ article dated August 12, 2026). Manufacturing facility in Weirton, West Virginia (not general West Virginia as in database entry). Company has nearly 1,000 employees across West Virginia, Massachusetts, and California facilities (per source 1)."
+    },
+    {
+      "name": "Impulse Space",
+      "current": {
+        "name": "Impulse Space",
+        "founder": "Tom Mueller",
+        "location": "Redondo Beach, California, United States",
+        "founded": 2021,
+        "fundingStage": "SPAC",
+        "totalRaised": "$1.525B",
+        "website": "https://impulsespace.com"
+      },
+      "verified": {
+        "name": "Impulse Space",
+        "description": "American startup developing in-space transportation technology including orbital transfer vehicles (Mira and Helios) and rocket engines for moving satellites and payloads between orbits.",
+        "founders": [
+          "Tom Mueller"
+        ],
+        "location": "Redondo Beach, California, United States",
+        "founded_year": 2021,
+        "current_stage": "Private",
+        "total_raised": "$525M",
+        "valuation": null,
+        "investors": [
+          "Founders Fund",
+          "Lux Capital",
+          "RTX Ventures",
+          "Airbus Ventures",
+          "Space Capital"
+        ],
+        "website": "https://impulsespace.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            1
+          ],
+          "investors": [
+            2
+          ]
+        },
+        "notes": "Database entry lists Series D of $500M in June 2026 and total raised of $1.525B, but sources only verify: $30M seed (2022), $45M Series A (2023), $150M Series B (2024), $300M Series C (2025) = $525M total through 2025. No Series D funding or $4.26B valuation is mentioned in provided sources. Mira has had three launches confirmed (LEO Express 1, 2, 3 / Transporter-9 and Transporter-12 missions mentioned in Wikipedia)."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "SPAC",
+          "verified": "Private",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$1.525B",
+          "verified": "$525M",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://impulsespace.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://impulsespace.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Impulse_Space"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/space-force-orders-two-more-impulse-space-vehicles-for-maneuvering-demonstrations/"
+        }
+      ],
+      "notes": "Database entry lists Series D of $500M in June 2026 and total raised of $1.525B, but sources only verify: $30M seed (2022), $45M Series A (2023), $150M Series B (2024), $300M Series C (2025) = $525M total through 2025. No Series D funding or $4.26B valuation is mentioned in provided sources. Mira has had three launches confirmed (LEO Express 1, 2, 3 / Transporter-9 and Transporter-12 missions mentioned in Wikipedia)."
     },
     {
       "name": "Nano Nuclear Energy",
@@ -314,7 +367,7 @@
       },
       "verified": {
         "name": "NANO Nuclear Energy Inc.",
-        "description": "Advanced technology-driven nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI systems, with subsidiaries in nuclear fuel fabrication, transportation, and space applications.",
+        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, with subsidiaries in fuel fabrication, fuel transportation, and space applications.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -329,6 +382,7 @@
             1
           ],
           "description": [
+            0,
             1
           ],
           "location": [
@@ -339,7 +393,7 @@
             1
           ]
         },
-        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicates of the same website content. Source [2] appears to be about a different company (Valar Atomics) and contains no information about NANO Nuclear Energy. Founder name 'Jay Jiang Yu' from database entry could not be verified in provided sources. Founded year, total raised, valuation, and investors could not be verified from sources provided."
+        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicate company website content. Source [2] appears to be about a different company (Valar Atomics) and contains no information about NANO Nuclear Energy. Database entry claims regarding founder 'Jay Jiang Yu', founding year 2022, total raised $600M+, valuation $808M, and ODIN sale to Cambridge AtomWorks could not be verified from provided sources."
       },
       "changes": [
         {
@@ -369,80 +423,7 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicates of the same website content. Source [2] appears to be about a different company (Valar Atomics) and contains no information about NANO Nuclear Energy. Founder name 'Jay Jiang Yu' from database entry could not be verified in provided sources. Founded year, total raised, valuation, and investors could not be verified from sources provided."
-    },
-    {
-      "name": "Proteus Space",
-      "current": {
-        "name": "Proteus Space",
-        "founder": "David Kervin (CEO, 20+ yrs govt contract bid/win/execution, US military vet), Andrew Shapiro (CTO, 20 yrs at NASA JPL as Manager of Technology Formulation; 3D-printed first parts for Mars Perseverance Rover)",
-        "location": "Glendale, CA",
-        "founded": 2021,
-        "fundingStage": "Series A",
-        "totalRaised": "$14.4M",
-        "website": "https://proteus-space.com"
-      },
-      "verified": {
-        "name": "Proteus Space",
-        "description": "AI-native aerospace company that designs custom satellite buses using a patent-pending, AI-enabled engineering platform that generates payload-tailored spacecraft architectures. Provides end-to-end mission support including design, testing, launch brokering, and operations.",
-        "founders": null,
-        "location": "Los Angeles, CA",
-        "founded_year": 2021,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://proteus-space.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry references 'Glendale, CA' but source [2] (SpaceNews, dated August 11, 2026) states 'LOS ANGELES'. Database entry lists founders and investors, but these cannot be verified from provided sources. Database claims Series A stage and $14.4M raised, but no supporting evidence in sources. Source [1] mentions 'patent-pending' platform and M1 spacecraft with AFRL contract; Source [0] references MERCURY platform mentioned in database description but uses different terminology ('Protean Buses' instead)."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Glendale, CA",
-          "verified": "Los Angeles, CA",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://proteus-space.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://proteus-space.com/about-us"
-        },
-        {
-          "idx": 2,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/proteus-space-names-maj-gen-kim-crider-usaf-ret-to-board-of-directors/"
-        }
-      ],
-      "notes": "Database entry references 'Glendale, CA' but source [2] (SpaceNews, dated August 11, 2026) states 'LOS ANGELES'. Database entry lists founders and investors, but these cannot be verified from provided sources. Database claims Series A stage and $14.4M raised, but no supporting evidence in sources. Source [1] mentions 'patent-pending' platform and M1 spacecraft with AFRL contract; Source [0] references MERCURY platform mentioned in database description but uses different terminology ('Protean Buses' instead)."
+      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicate company website content. Source [2] appears to be about a different company (Valar Atomics) and contains no information about NANO Nuclear Energy. Database entry claims regarding founder 'Jay Jiang Yu', founding year 2022, total raised $600M+, valuation $808M, and ODIN sale to Cambridge AtomWorks could not be verified from provided sources."
     },
     {
       "name": "SpaceX",
@@ -457,7 +438,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial intelligence (Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. The company operates orbital launches, the Starlink satellite constellation, and artificial intelligence divisions.",
         "founders": [
           "Elon Musk"
         ],
@@ -499,7 +480,7 @@
             0
           ]
         },
-        "notes": "SpaceX completed initial public offering on June 12, 2026, raising $86 billion, which was the largest IPO in history according to source [0]. Wikipedia source indicates Elon Musk controls 85% voting power via super-voting stock (source [0] states 85%, though database entry states 82%). Valuation field marked null because source [0] does not specify a current valuation figure; the database entry claims $1.65T but this is not supported by provided sources."
+        "notes": "Company completed initial public offering on June 12, 2026. Wikipedia source indicates Elon Musk controls 85% of voting power (via super-voting stock), though database entry states 82%. Valuation not verified in sources provided; database claims $1.65T but no source supports this specific figure. Current stage is Public (IPO completed), not 'IPO' as listed in database."
       },
       "changes": [
         {
@@ -519,93 +500,21 @@
         },
         {
           "idx": 1,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/08/updated-spacex-catalysts.html"
+        },
+        {
+          "idx": 2,
           "src": "news (SpaceNews)",
           "url": "https://spacenews.com/spacex-increasing-footprint-in-missile-defense/"
         },
         {
-          "idx": 2,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/08/microsoft-will-lease-3-gigawatts-of-ai-data-center-from-spacex-in-2027.html"
-        },
-        {
           "idx": 3,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/08/semianalysis-agrees-with-nextbigfuture-300b-per-year-for-spacex-by-end-of-2027.html"
+          "url": "https://www.nextbigfuture.com/2026/08/microsoft-will-lease-3-gigawatts-of-ai-data-center-from-spacex-in-2027.html"
         }
       ],
-      "notes": "SpaceX completed initial public offering on June 12, 2026, raising $86 billion, which was the largest IPO in history according to source [0]. Wikipedia source indicates Elon Musk controls 85% voting power via super-voting stock (source [0] states 85%, though database entry states 82%). Valuation field marked null because source [0] does not specify a current valuation figure; the database entry claims $1.65T but this is not supported by provided sources."
-    },
-    {
-      "name": "Zettascale",
-      "current": {
-        "name": "Zettascale",
-        "founder": "Elias Almqvist (CEO; self-taught engineer, Chalmers University CS/CE dropout at 21), Prithvi Raj (CTO; MEng Computational Stats + ML Cambridge; ex-Microsoft)",
-        "location": "San Francisco, CA",
-        "founded": 2024,
-        "fundingStage": "Seed",
-        "totalRaised": "$3M+",
-        "website": "https://zscc.ai"
-      },
-      "verified": {
-        "name": "Zettascale",
-        "description": "AI silicon company building XPU chips for inference and training that optimize dataflow per model. Part of Y Combinator S24 cohort.",
-        "founders": [
-          "Elias Almqvist",
-          "Prithvi Raj"
-        ],
-        "location": "San Francisco, CA",
-        "founded_year": null,
-        "current_stage": "Seed",
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "Y Combinator",
-          "Soma Capital",
-          "Olive Tree Capital"
-        ],
-        "website": "https://zscc.ai",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [],
-          "location": [
-            0
-          ],
-          "current_stage": [],
-          "investors": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [0] confirms company rebrand to Zettascale and mentions XPU chips for AI. Database entry claims Y Combinator S24 and founders Elias Almqvist and Prithvi Raj, but these details are not explicitly verified in provided sources. Source [1] is about Tesla/SpaceX Terafab and is not relevant to Zettascale. Founded year, total_raised, valuation, and specific founder details cannot be verified from sources provided."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Elias Almqvist (CEO; self-taught engineer, Chalmers University CS/CE dropout at 21), Prithvi Raj (CTO; MEng Computational Stats + ML Cambridge; ex-Microsoft)",
-          "verified": "Elias Almqvist, Prithvi Raj",
-          "sources": []
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://zscc.ai"
-        },
-        {
-          "idx": 1,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/08/06/tesla-spacex-terafab-grimes-county-16-8-billion/"
-        }
-      ],
-      "notes": "Source [0] confirms company rebrand to Zettascale and mentions XPU chips for AI. Database entry claims Y Combinator S24 and founders Elias Almqvist and Prithvi Raj, but these details are not explicitly verified in provided sources. Source [1] is about Tesla/SpaceX Terafab and is not relevant to Zettascale. Founded year, total_raised, valuation, and specific founder details cannot be verified from sources provided."
+      "notes": "Company completed initial public offering on June 12, 2026. Wikipedia source indicates Elon Musk controls 85% of voting power (via super-voting stock), though database entry states 82%. Valuation not verified in sources provided; database claims $1.65T but no source supports this specific figure. Current stage is Public (IPO completed), not 'IPO' as listed in database."
     }
   ],
   "unverifiable": []
