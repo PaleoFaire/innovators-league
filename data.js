@@ -40354,23 +40354,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-13 22:53
+// Last updated: 2026-08-13 23:51
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "The Safety Reckoning Inside OpenAI", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Databricks", headline: "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
-  { id: 3, type: "milestone", company: "OpenAI", headline: "OpenAI introduces 'Ultrafast,' a new mode that makes GPT-5.6 Sol work at 14x the speed", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "IBM partners with OpenAI to bolster enterprise AI push", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Anthropic", headline: "Anthropic set AI agents loose on the same task. They started a turf war.", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "Rivian", headline: "Rivian's 2027 R1S adds captain's chairs, its most-requested feature", source: "Electrek", time: "8h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Humanoid", headline: "Experts to discuss the state of humanoid robots at RoboBusiness", source: "The Robot Report", time: "10h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "Palantir", headline: "Pentagon hands Palantir up to $244M in no-bid work", source: "Defense One", time: "10h ago", impact: "medium", unread: false },
-  { id: 9, type: "hire", company: "Neura Robotics", headline: "NEURA Robotics acquires Bosch Rexroth's ACTIVE Shuttle to expand Physical AI ecosystem", source: "Tech.eu", time: "12h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Astranis", headline: "Astranis unveils geostationary surveillance satellite", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Multiverse Computing", headline: "Inside Multiverse Computing, the Spanish startup vying to be Europe's next AI champion", source: "Sifted", time: "17h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Waymo", headline: "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tariffs", source: "CleanTechnica", time: "22h ago", impact: "low", unread: false },
-  { id: 13, type: "contract", company: "Impulse Space", headline: "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations", source: "SpaceNews", time: "23h ago", impact: "low", unread: false },
-  { id: 14, type: "hire", company: "Waymo", headline: "Waymo has nearly 1,000 robotaxis waiting at its Arizona factory", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "ispace", headline: "China's iSpace raises first batch of series E funding for reusable rocketry", source: "SpaceNews", time: "1d ago", impact: "high", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "The Safety Reckoning Inside OpenAI", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Databricks", headline: "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.", source: "TechCrunch", time: "3h ago", impact: "high", unread: true },
+  { id: 3, type: "milestone", company: "OpenAI", headline: "OpenAI introduces 'Ultrafast,' a new mode that makes GPT-5.6 Sol work at 14x the speed", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "IBM partners with OpenAI to bolster enterprise AI push", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Anthropic", headline: "Anthropic set AI agents loose on the same task. They started a turf war.", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Anthropic", headline: "XAI Grok 4.6 is Third Place But Close to OpenAI and Anthropic", source: "Next Big Future", time: "8h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Rivian", headline: "Rivian's 2027 R1S adds captain's chairs, its most-requested feature", source: "Electrek", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Humanoid", headline: "Experts to discuss the state of humanoid robots at RoboBusiness", source: "The Robot Report", time: "11h ago", impact: "low", unread: false },
+  { id: 9, type: "contract", company: "Palantir", headline: "Pentagon hands Palantir up to $244M in no-bid work", source: "Defense One", time: "11h ago", impact: "medium", unread: false },
+  { id: 10, type: "hire", company: "Neura Robotics", headline: "NEURA Robotics acquires Bosch Rexroth's ACTIVE Shuttle to expand Physical AI ecosystem", source: "Tech.eu", time: "13h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Astranis", headline: "Astranis unveils geostationary surveillance satellite", source: "SpaceNews", time: "14h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Multiverse Computing", headline: "Inside Multiverse Computing, the Spanish startup vying to be Europe's next AI champion", source: "Sifted", time: "18h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Waymo", headline: "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tariffs", source: "CleanTechnica", time: "23h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "Updated SpaceX Catalysts", source: "Next Big Future", time: "23h ago", impact: "low", unread: false },
+  { id: 15, type: "contract", company: "Impulse Space", headline: "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
