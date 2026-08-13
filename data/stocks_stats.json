@@ -9,21 +9,21 @@
       "count": 1
     },
     "space": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 11.63,
+      "gainers": 7,
+      "losers": 0,
+      "avg_change": 13.6,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": -4.25,
+      "avg_change": -4.07,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.46,
+      "avg_change": 4.51,
       "count": 3
     },
     "climate": {
@@ -35,7 +35,7 @@
     "quantum": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 6.63,
+      "avg_change": -0.42,
       "count": 3
     },
     "biotech": {
@@ -64,6 +64,11 @@
       24.07
     ],
     [
+      "ASRHF",
+      "Astroscale",
+      22.21
+    ],
+    [
       "LUNR",
       "Intuitive Machines",
       21.16
@@ -71,25 +76,15 @@
     [
       "ACHR",
       "Archer Aviation",
-      20.77
+      20.96
     ],
     [
       "TEM",
       "Tempus AI",
       16.94
-    ],
-    [
-      "QS",
-      "QuantumScape",
-      15.58
     ]
   ],
   "topLosers": [
-    [
-      "QBTS",
-      "D-Wave Quantum",
-      -3.04
-    ],
     [
       "LNZA",
       "LanzaTech",
@@ -98,7 +93,7 @@
     [
       "DRSHF",
       "DroneShield",
-      -7.94
+      -7.62
     ],
     [
       "IDEAFORGE.NS",
@@ -106,10 +101,15 @@
       -11.54
     ],
     [
+      "QBTS",
+      "D-Wave Quantum",
+      -24.22
+    ],
+    [
       "EVTL",
       "Vertical Aerospace",
-      -36.82
+      -36.45
     ]
   ],
-  "lastUpdated": "2026-08-12 20:07:23"
+  "lastUpdated": "2026-08-13 03:35:34"
 }
