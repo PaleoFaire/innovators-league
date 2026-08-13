@@ -1,153 +1,6 @@
 {
-  "generatedAt": "2026-08-13T06:22:41+00:00",
+  "generatedAt": "2026-08-13T08:38:19+00:00",
   "matrix": {
-    "ai-mineral-exploration": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 310499477,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Mariana Minerals",
-            "amount": 310499477,
-            "date": "2026-08-06",
-            "source": "formd",
-            "investors": [
-              "Andreessen Horowitz",
-              "Earthshot Ventures",
-              "Pax VC",
-              "Breakthrough Energy",
-              "Khosla Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "Khosla Ventures"
-        ]
-      }
-    },
-    "energy-storage-thermal-gravity": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 457629785,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Antora Energy",
-            "amount": 457629785,
-            "date": "2026-08-04",
-            "source": "formd",
-            "investors": [
-              "BlackRock",
-              "Temasek"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "grid-flexing": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 90229639,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Emerald AI",
-            "amount": 90229639,
-            "date": "2026-08-03",
-            "source": "formd",
-            "investors": [
-              "Radical Ventures",
-              "Energy Impact Partners",
-              "NVentures (NVIDIA)",
-              "CRV",
-              "AMPLO",
-              "Neotribe Ventures",
-              "In-Q-Tel",
-              "Eaton",
-              "GE Vernova",
-              "Siemens",
-              "Salesforce Ventures",
-              "Samsung",
-              "John Doerr",
-              "Jeff Dean",
-              "John Kerry",
-              "Fei-Fei Li"
-            ]
-          }
-        ],
-        "investors": [
-          "In-Q-Tel"
-        ]
-      }
-    },
-    "advanced-manufacturing": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 14360145,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Unspun",
-            "amount": 14360145,
-            "date": "2026-08-03",
-            "source": "formd",
-            "investors": [
-              "DCVC",
-              "H&M Group",
-              "Congruent Ventures",
-              "Bold Capital Partners"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "battery-materials": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 309648707,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Sila Nanotechnologies",
-            "amount": 309648707,
-            "date": "2026-07-31",
-            "source": "formd",
-            "investors": [
-              "Sutter Hill Ventures",
-              "T. Rowe Price Associates",
-              "Bessemer Venture Partners",
-              "Coatue",
-              "Perry Creek Capital"
-            ]
-          }
-        ],
-        "investors": [
-          "Bessemer Venture Partners"
-        ]
-      }
-    },
-    "continual-learning-ai": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 432125053,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Core Automation",
-            "amount": 432125053,
-            "date": "2026-07-30",
-            "source": "formd",
-            "investors": [
-              "Active fundraise (Jan-Jun 2026)"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
     "autonomy-drone-military": {
       "2026-Q2": {
         "deals": 1,
@@ -812,7 +665,7 @@
       }
     },
     "ai-code-generation": {
-      "2026-Q2": {
+      "2026-Q3": {
         "deals": 1,
         "totalSold": null,
         "companiesWithUnknownAmount": 1,
@@ -820,7 +673,7 @@
           {
             "name": "Cognition",
             "amount": null,
-            "date": "2026-05",
+            "date": "2026-08",
             "source": "recentEvent",
             "investors": [
               "Founders Fund",
@@ -1442,104 +1295,6 @@
     }
   },
   "vcAttribution": {
-    "Khosla Ventures": {
-      "2026-Q3": [
-        {
-          "company": "Mariana Minerals",
-          "cluster": "ai-mineral-exploration",
-          "date": "2026-08-06",
-          "source": "formd"
-        },
-        {
-          "company": "Monumental",
-          "cluster": "construction-modular",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "Rocket Lab",
-          "cluster": "space-launch-large",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Hermeus",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Collaborative Robotics",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "In-Q-Tel": {
-      "2026-Q3": [
-        {
-          "company": "Emerald AI",
-          "cluster": "grid-flexing",
-          "date": "2026-08-03",
-          "source": "formd"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Hermeus",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Palantir",
-          "cluster": "ai-saas-enterprise",
-          "date": "2026-06",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Skild AI",
-          "cluster": "ai-robotics-embodied",
-          "date": "2026-01",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Bessemer Venture Partners": {
-      "2026-Q3": [
-        {
-          "company": "Sila Nanotechnologies",
-          "cluster": "battery-materials",
-          "date": "2026-07-31",
-          "source": "formd"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "Rocket Lab",
-          "cluster": "space-launch-large",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Boom Supersonic",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-04",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Founders Fund": {
       "2026-Q2": [
         {
@@ -1551,12 +1306,6 @@
         {
           "company": "Hermeus",
           "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Cognition",
-          "cluster": "ai-code-generation",
           "date": "2026-05",
           "source": "recentEvent"
         }
@@ -1578,6 +1327,12 @@
         }
       ],
       "2026-Q3": [
+        {
+          "company": "Cognition",
+          "cluster": "ai-code-generation",
+          "date": "2026-08",
+          "source": "recentEvent"
+        },
         {
           "company": "Crusoe Energy",
           "cluster": "data-center-infrastructure",
@@ -1641,12 +1396,6 @@
           "source": "recentEvent"
         },
         {
-          "company": "Cognition",
-          "cluster": "ai-code-generation",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
           "company": "Starpath Robotics",
           "cluster": "space-lunar-planetary",
           "date": "2026-06",
@@ -1672,6 +1421,14 @@
           "date": "2026-02",
           "source": "recentEvent"
         }
+      ],
+      "2026-Q3": [
+        {
+          "company": "Cognition",
+          "cluster": "ai-code-generation",
+          "date": "2026-08",
+          "source": "recentEvent"
+        }
       ]
     },
     "Lux Capital": {
@@ -1679,12 +1436,6 @@
         {
           "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Cognition",
-          "cluster": "ai-code-generation",
           "date": "2026-05",
           "source": "recentEvent"
         }
@@ -1698,6 +1449,12 @@
         }
       ],
       "2026-Q3": [
+        {
+          "company": "Cognition",
+          "cluster": "ai-code-generation",
+          "date": "2026-08",
+          "source": "recentEvent"
+        },
         {
           "company": "Applied Intuition",
           "cluster": "ai-autonomous-driving",
@@ -1770,6 +1527,58 @@
         }
       ]
     },
+    "Khosla Ventures": {
+      "2025-Q4": [
+        {
+          "company": "Rocket Lab",
+          "cluster": "space-launch-large",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q3": [
+        {
+          "company": "Monumental",
+          "cluster": "construction-modular",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Collaborative Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Bessemer Venture Partners": {
+      "2025-Q4": [
+        {
+          "company": "Rocket Lab",
+          "cluster": "space-launch-large",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Boom Supersonic",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Playground Global": {
       "2025-Q2": [
         {
@@ -1802,6 +1611,30 @@
           "company": "Orangewood Labs",
           "cluster": "robotics-cobots-warehouse",
           "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "In-Q-Tel": {
+      "2026-Q2": [
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Palantir",
+          "cluster": "ai-saas-enterprise",
+          "date": "2026-06",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Skild AI",
+          "cluster": "ai-robotics-embodied",
+          "date": "2026-01",
           "source": "recentEvent"
         }
       ]
@@ -1926,9 +1759,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 57,
-    "totalUSDSold": 1614492806,
-    "uniqueClusters": 39,
+    "totalDealsTracked": 51,
+    "totalUSDSold": 0,
+    "uniqueClusters": 33,
     "uniqueQuarters": 9,
     "uniqueVCs": 15,
     "quarterRange": [

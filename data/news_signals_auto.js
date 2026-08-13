@@ -1,8 +1,8 @@
 // Auto-generated news signals
-// Last updated: 2026-08-13T08:09:06.057Z
+// Last updated: 2026-08-13T08:37:18.367Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1786608546057,
+    "id": 1786610238367,
     "type": "news",
     "company": "Multiverse Computing",
     "headline": "Inside Multiverse Computing, the Spanish startup vying to be Europe's next AI champion",
@@ -13,51 +13,51 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/multiverse-computing-europe-ai-champion/"
   },
   {
-    "id": 1786608546058,
+    "id": 1786610238368,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tariffs",
     "source": "CleanTechnica",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/08/12/waymo-imports-3200-zeekr-robotaxis-despite-super-high-tariffs/"
   },
   {
-    "id": 1786608546059,
+    "id": 1786610238369,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Updated SpaceX Catalysts",
     "source": "Next Big Future",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/08/updated-spacex-catalysts.html"
   },
   {
-    "id": 1786608546060,
+    "id": 1786610238370,
     "type": "contract",
     "company": "Impulse Space",
     "headline": "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations",
     "source": "SpaceNews",
-    "time": "8h ago",
+    "time": "9h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/space-force-orders-two-more-impulse-space-vehicles-for-maneuvering-demonstrations/"
   },
   {
-    "id": 1786608546061,
+    "id": 1786610238371,
     "type": "funding",
     "company": "Cognition",
     "headline": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
     "source": "TechCrunch",
-    "time": "13h ago",
+    "time": "14h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/"
   },
   {
-    "id": 1786608546062,
+    "id": 1786610238372,
     "type": "funding",
     "company": "OpenAI",
     "headline": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
@@ -68,18 +68,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"
   },
   {
-    "id": 1786608546063,
+    "id": 1786610238373,
     "type": "funding",
     "company": "Form Energy",
     "headline": "Form Energy raises $750M to build more 100-hour batteries for the grid",
     "source": "TechCrunch",
-    "time": "15h ago",
+    "time": "16h ago",
     "impact": "high",
     "unread": false,
     "link": "https://techcrunch.com/2026/08/12/form-energy-raises-750m-to-build-more-100-hour-batteries-for-the-grid/"
   },
   {
-    "id": 1786608546064,
+    "id": 1786610238374,
     "type": "hire",
     "company": "Waymo",
     "headline": "Waymo has nearly 1,000 robotaxis waiting at its Arizona factory",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/12/waymo-ojai-robotaxis-arizona-factory/"
   },
   {
-    "id": 1786608546065,
+    "id": 1786610238375,
     "type": "funding",
     "company": "ispace",
     "headline": "China’s iSpace raises first batch of series E funding for reusable rocketry",
@@ -101,18 +101,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/chinas-ispace-raises-first-batch-of-series-e-funding-for-reusable-rocketry/"
   },
   {
-    "id": 1786608546066,
+    "id": 1786610238376,
     "type": "news",
     "company": "Einride",
     "headline": "DAF Trucks to integrate Einride Driver to scale autonomous electric freight",
     "source": "The Robot Report",
-    "time": "21h ago",
+    "time": "22h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.therobotreport.com/daf-trucks-integrates-einride-driver-scale-autonomous-electric-freight/"
   },
   {
-    "id": 1786608546067,
+    "id": 1786610238377,
     "type": "funding",
     "company": "Cambridge Aerospace",
     "headline": "Defense drone developer Cambridge Aerospace raises $300M",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/defense-drone-developer-cambridge-aerospace-raises-300m/"
   },
   {
-    "id": 1786608546068,
+    "id": 1786610238378,
     "type": "contract",
     "company": "SpaceX",
     "headline": "SpaceX increasing footprint in missile defense",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacex-increasing-footprint-in-missile-defense/"
   },
   {
-    "id": 1786608546069,
+    "id": 1786610238379,
     "type": "news",
     "company": "Humanoid",
     "headline": "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/"
   },
   {
-    "id": 1786608546070,
+    "id": 1786610238380,
     "type": "hire",
     "company": "Proteus Space",
     "headline": "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/proteus-space-names-maj-gen-kim-crider-usaf-ret-to-board-of-directors/"
   },
   {
-    "id": 1786608546071,
+    "id": 1786610238381,
     "type": "ipo",
     "company": "Dust",
     "headline": "Dust and water spotted close to giant black hole",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole"
   },
   {
-    "id": 1786608546072,
+    "id": 1786610238382,
     "type": "funding",
     "company": "Hadrian",
     "headline": "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/"
   },
   {
-    "id": 1786608546073,
+    "id": 1786610238383,
     "type": "ipo",
     "company": "Rocket Lab",
     "headline": "Rocket Lab builds deployable infrastructure for Electron launches",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/rocket-lab-builds-deployable-infrastructure-for-electron-launches/"
   },
   {
-    "id": 1786608546074,
+    "id": 1786610238384,
     "type": "news",
     "company": "Isembard",
     "headline": "Isembard founder: We're a &quot;politician's wet dream&quot;",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/08/10/isembard-a-politicians-wet-dream-says-its-founder/"
   },
   {
-    "id": 1786608546075,
+    "id": 1786610238385,
     "type": "funding",
     "company": "Cambridge Aerospace",
     "headline": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise",
@@ -211,14 +211,14 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/cambridge-aerospace-fundraise-valuation/"
   },
   {
-    "id": 1786608546076,
-    "type": "funding",
-    "company": "Cambridge Aerospace",
-    "headline": "Cambridge Aerospace's valuation leaps to $3.4BN as raises $300M",
-    "source": "Tech.eu",
-    "time": "2d ago",
-    "impact": "high",
+    "id": 1786610238386,
+    "type": "contract",
+    "company": "SpaceX",
+    "headline": "Microsoft Will Lease 3+ Gigawatts of AI Data Center from SpaceX in 2027",
+    "source": "Next Big Future",
+    "time": "4d ago",
+    "impact": "low",
     "unread": false,
-    "link": "https://tech.eu/2026/08/10/cambridge-aerospaces-valuation-leaps-to-34bn-as-raised-300m/"
+    "link": "https://www.nextbigfuture.com/2026/08/microsoft-will-lease-3-gigawatts-of-ai-data-center-from-spacex-in-2027.html"
   }
 ];
