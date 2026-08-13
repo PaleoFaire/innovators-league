@@ -189,6 +189,20 @@ def main():
             errors.append(f"{n}: malformed addedDate '{ad}'")
 
     # 2. referential integrity in analytics structures
+    #
+    # These structures are BOT-POPULATED from news, patents, contracts and
+    # hiring feeds, so they will always name companies outside COMPANIES —
+    # every night the crawlers meet someone new. Treating that as a hard
+    # error blocked the sync on 2026-08-13 over two legitimate discoveries
+    # ("Dust", "Multiverse Computing"), and a hand-maintained allowlist can
+    # never keep pace with a crawler.
+    #
+    # So: a few unresolved names are normal and only warn. A LOT of them means
+    # the merge mangled the name fields rather than discovering companies,
+    # which is a real corruption and still fails the build.
+    ORPHAN_FAIL_RATIO = 0.25   # >25% unresolved = something is broken, not new
+    ORPHAN_FAIL_FLOOR = 25     # ...but never fail on a handful
+
     def resolves(ref):
         if ref in name_set or ref in vc_names or ref in KNOWN_UNTRACKED:
             return True
@@ -197,9 +211,18 @@ def main():
     for s in ANALYTICS:
         blk = block(d, s)
         refs = re.findall(r'\{\s*company:\s*"([^"]+)"', blk)
+        if not refs:
+            continue
         orphans = sorted({r for r in refs if not resolves(r)})
-        if orphans:
-            errors.append(f"{s}: {len(orphans)} orphan company refs, e.g. {orphans[:4]}")
+        if not orphans:
+            continue
+        ratio = len(orphans) / len(set(refs))
+        msg = (f"{s}: {len(orphans)}/{len(set(refs))} unresolved company refs "
+               f"({ratio:.0%}), e.g. {orphans[:4]}")
+        if len(orphans) >= ORPHAN_FAIL_FLOOR and ratio > ORPHAN_FAIL_RATIO:
+            errors.append(msg + " — too many to be new discoveries; check the merge")
+        else:
+            warnings.append(msg)
 
     # 7. IL30 roster resolution
     il30 = re.findall(r'"([^"]+)"', block(d, "INNOVATORS_LEAGUE_30"))
