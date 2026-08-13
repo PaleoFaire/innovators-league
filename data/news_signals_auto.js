@@ -1,96 +1,118 @@
 // Auto-generated news signals
-// Last updated: 2026-08-13T02:35:32.485Z
+// Last updated: 2026-08-13T04:58:44.236Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1786588532485,
+    "id": 1786597124236,
+    "type": "news",
+    "company": "Multiverse Computing",
+    "headline": "Inside Multiverse Computing, the Spanish startup vying to be Europe's next AI champion",
+    "source": "Sifted",
+    "time": "Just now",
+    "impact": "low",
+    "unread": true,
+    "link": "https://sifted.eu/articles/multiverse-computing-europe-ai-champion/"
+  },
+  {
+    "id": 1786597124237,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tariffs",
     "source": "CleanTechnica",
-    "time": "2h ago",
+    "time": "4h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/08/12/waymo-imports-3200-zeekr-robotaxis-despite-super-high-tariffs/"
   },
   {
-    "id": 1786588532486,
+    "id": 1786597124238,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "Updated SpaceX Catalysts",
+    "source": "Next Big Future",
+    "time": "4h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://www.nextbigfuture.com/2026/08/updated-spacex-catalysts.html"
+  },
+  {
+    "id": 1786597124239,
     "type": "contract",
     "company": "Impulse Space",
     "headline": "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations",
     "source": "SpaceNews",
-    "time": "3h ago",
+    "time": "5h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/space-force-orders-two-more-impulse-space-vehicles-for-maneuvering-demonstrations/"
   },
   {
-    "id": 1786588532487,
+    "id": 1786597124240,
     "type": "funding",
     "company": "Cognition",
     "headline": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
     "source": "TechCrunch",
-    "time": "8h ago",
+    "time": "10h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/"
   },
   {
-    "id": 1786588532488,
+    "id": 1786597124241,
     "type": "funding",
     "company": "OpenAI",
     "headline": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
     "source": "TechCrunch",
-    "time": "8h ago",
+    "time": "11h ago",
     "impact": "high",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"
   },
   {
-    "id": 1786588532489,
+    "id": 1786597124242,
     "type": "funding",
     "company": "Form Energy",
     "headline": "Form Energy raises $750M to build more 100-hour batteries for the grid",
     "source": "TechCrunch",
-    "time": "10h ago",
+    "time": "12h ago",
     "impact": "high",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/08/12/form-energy-raises-750m-to-build-more-100-hour-batteries-for-the-grid/"
   },
   {
-    "id": 1786588532490,
+    "id": 1786597124243,
     "type": "hire",
     "company": "Waymo",
     "headline": "Waymo has nearly 1,000 robotaxis waiting at its Arizona factory",
     "source": "Electrek",
-    "time": "12h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": false,
     "link": "https://electrek.co/2026/08/12/waymo-ojai-robotaxis-arizona-factory/"
   },
   {
-    "id": 1786588532491,
+    "id": 1786597124244,
     "type": "funding",
     "company": "ispace",
     "headline": "China’s iSpace raises first batch of series E funding for reusable rocketry",
     "source": "SpaceNews",
-    "time": "13h ago",
+    "time": "16h ago",
     "impact": "high",
     "unread": false,
     "link": "https://spacenews.com/chinas-ispace-raises-first-batch-of-series-e-funding-for-reusable-rocketry/"
   },
   {
-    "id": 1786588532492,
+    "id": 1786597124245,
     "type": "news",
     "company": "Einride",
     "headline": "DAF Trucks to integrate Einride Driver to scale autonomous electric freight",
     "source": "The Robot Report",
-    "time": "16h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.therobotreport.com/daf-trucks-integrates-einride-driver-scale-autonomous-electric-freight/"
   },
   {
-    "id": 1786588532493,
+    "id": 1786597124246,
     "type": "funding",
     "company": "Cambridge Aerospace",
     "headline": "Defense drone developer Cambridge Aerospace raises $300M",
@@ -101,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/defense-drone-developer-cambridge-aerospace-raises-300m/"
   },
   {
-    "id": 1786588532494,
+    "id": 1786597124247,
     "type": "contract",
     "company": "SpaceX",
     "headline": "SpaceX increasing footprint in missile defense",
@@ -112,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacex-increasing-footprint-in-missile-defense/"
   },
   {
-    "id": 1786588532495,
+    "id": 1786597124248,
     "type": "news",
     "company": "Humanoid",
     "headline": "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market",
@@ -123,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/"
   },
   {
-    "id": 1786588532496,
+    "id": 1786597124249,
     "type": "hire",
     "company": "Proteus Space",
     "headline": "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors",
@@ -134,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/proteus-space-names-maj-gen-kim-crider-usaf-ret-to-board-of-directors/"
   },
   {
-    "id": 1786588532497,
+    "id": 1786597124250,
     "type": "ipo",
     "company": "Dust",
     "headline": "Dust and water spotted close to giant black hole",
@@ -145,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole"
   },
   {
-    "id": 1786588532498,
+    "id": 1786597124251,
     "type": "funding",
     "company": "Hadrian",
     "headline": "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing",
@@ -156,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/"
   },
   {
-    "id": 1786588532499,
+    "id": 1786597124252,
     "type": "ipo",
     "company": "Rocket Lab",
     "headline": "Rocket Lab builds deployable infrastructure for Electron launches",
@@ -167,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/rocket-lab-builds-deployable-infrastructure-for-electron-launches/"
   },
   {
-    "id": 1786588532500,
+    "id": 1786597124253,
     "type": "news",
     "company": "Isembard",
     "headline": "Isembard founder: We're a &quot;politician's wet dream&quot;",
@@ -178,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/08/10/isembard-a-politicians-wet-dream-says-its-founder/"
   },
   {
-    "id": 1786588532501,
+    "id": 1786597124254,
     "type": "funding",
     "company": "Cambridge Aerospace",
     "headline": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise",
@@ -189,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/cambridge-aerospace-fundraise-valuation/"
   },
   {
-    "id": 1786588532502,
+    "id": 1786597124255,
     "type": "funding",
     "company": "Cambridge Aerospace",
     "headline": "Cambridge Aerospace's valuation leaps to $3.4BN as raises $300M",
@@ -198,27 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "high",
     "unread": false,
     "link": "https://tech.eu/2026/08/10/cambridge-aerospaces-valuation-leaps-to-34bn-as-raised-300m/"
-  },
-  {
-    "id": 1786588532503,
-    "type": "news",
-    "company": "Humanoid",
-    "headline": "Mitsubishi joins the humanoid robot race — at a 1,000 unit per month pace",
-    "source": "Electrek",
-    "time": "5d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://electrek.co/2026/08/07/mitsubishi-joins-the-humanoid-robot-race-at-a-1000-unit-per-month-pace/"
-  },
-  {
-    "id": 1786588532504,
-    "type": "hire",
-    "company": "SpaceX",
-    "headline": "Tesla, SpaceX confirm ‘Terafab’ chip fab site — $16.8B first phase",
-    "source": "Electrek",
-    "time": "6d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://electrek.co/2026/08/06/tesla-spacex-terafab-grimes-county-16-8-billion/"
   }
 ];

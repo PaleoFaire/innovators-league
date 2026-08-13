@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T02:35:43.011158+00:00",
+  "generatedAt": "2026-08-13T04:58:54.323497+00:00",
   "date": "2026-08-13",
   "dateDisplay": "Thursday, August 13, 2026",
   "sections": {
@@ -81,9 +81,16 @@
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 0.82,
-        "changePercent": -36.82,
-        "change": -0.48
+        "price": 0.83,
+        "changePercent": -36.45,
+        "change": -0.47
+      },
+      {
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 16.21,
+        "changePercent": -24.22,
+        "change": -5.18
       },
       {
         "ticker": "SATL",
@@ -91,6 +98,13 @@
         "price": 5.98,
         "changePercent": 24.07,
         "change": 1.16
+      },
+      {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 8.75,
+        "changePercent": 22.21,
+        "change": 1.59
       },
       {
         "ticker": "LUNR",
@@ -102,9 +116,9 @@
       {
         "ticker": "ACHR",
         "company": "Archer Aviation",
-        "price": 6.28,
-        "changePercent": 20.77,
-        "change": 1.08
+        "price": 6.29,
+        "changePercent": 20.96,
+        "change": 1.09
       },
       {
         "ticker": "TEM",
@@ -119,20 +133,6 @@
         "price": 6.38,
         "changePercent": 15.58,
         "change": 0.86
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 45.18,
-        "changePercent": 13.15,
-        "change": 5.25
-      },
-      {
-        "ticker": "IDEAFORGE.NS",
-        "company": "ideaForge",
-        "price": 810.3,
-        "changePercent": -11.54,
-        "change": -105.7
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "EVTL -36.8%"
+    "topMover": "EVTL -36.5%"
   }
 }
