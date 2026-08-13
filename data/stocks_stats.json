@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 7.96,
+      "avg_change": 12.38,
       "count": 1
     },
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 13.6,
+      "avg_change": 9.73,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": -4.58,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -3.53,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.51,
+      "avg_change": 9.25,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 6.64,
+      "avg_change": 6.32,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -0.42,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 14.96,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 9.58,
+      "avg_change": 9.82,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 2.12,
+      "avg_change": 3.92,
       "count": 2
     },
     "chips": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 0.84,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.42,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "SATL",
-      "Satellogic",
-      24.07
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      22.21
-    ],
-    [
-      "LUNR",
-      "Intuitive Machines",
-      21.16
-    ],
-    [
       "ACHR",
       "Archer Aviation",
-      20.96
+      24.95
+    ],
+    [
+      "IONQ",
+      "IonQ",
+      18.91
     ],
     [
       "TEM",
       "Tempus AI",
-      16.94
+      18.78
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      16.77
+    ],
+    [
+      "RGTI",
+      "Rigetti Computing",
+      15.4
     ]
   ],
   "topLosers": [
     [
+      "JOBY",
+      "Joby Aviation",
+      -1.64
+    ],
+    [
       "LNZA",
       "LanzaTech",
-      -5.47
+      -3.07
     ],
     [
       "DRSHF",
       "DroneShield",
-      -7.62
+      -6.67
     ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      -15.21
-    ],
-    [
-      "QBTS",
-      "D-Wave Quantum",
-      -24.22
+      -14.24
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -36.45
+      -31.47
     ]
   ],
-  "lastUpdated": "2026-08-13 08:46:43"
+  "lastUpdated": "2026-08-13 14:36:01"
 }
