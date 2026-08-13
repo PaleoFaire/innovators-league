@@ -40354,23 +40354,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-13 13:35
+// Last updated: 2026-08-13 15:05
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Humanoid", headline: "Experts to discuss the state of humanoid robots at RoboBusiness", source: "The Robot Report", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "Neura Robotics", headline: "NEURA Robotics acquires Bosch Rexroth's ACTIVE Shuttle to expand Physical AI ecosystem", source: "Tech.eu", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Astranis", headline: "Astranis unveils geostationary surveillance satellite", source: "SpaceNews", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Multiverse Computing", headline: "Inside Multiverse Computing, the Spanish startup vying to be Europe's next AI champion", source: "Sifted", time: "8h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Waymo", headline: "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tariffs", source: "CleanTechnica", time: "13h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "Updated SpaceX Catalysts", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
-  { id: 7, type: "contract", company: "Impulse Space", headline: "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations", source: "SpaceNews", time: "14h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Cognition", headline: "AI coding startup Cognition reportedly already in talks to raise at $40B valuation", source: "TechCrunch", time: "19h ago", impact: "high", unread: false },
-  { id: 9, type: "funding", company: "OpenAI", headline: "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise", source: "TechCrunch", time: "19h ago", impact: "high", unread: false },
-  { id: 10, type: "funding", company: "Form Energy", headline: "Form Energy raises $750M to build more 100-hour batteries for the grid", source: "TechCrunch", time: "21h ago", impact: "high", unread: false },
-  { id: 11, type: "hire", company: "Waymo", headline: "Waymo has nearly 1,000 robotaxis waiting at its Arizona factory", source: "Electrek", time: "23h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "ispace", headline: "China's iSpace raises first batch of series E funding for reusable rocketry", source: "SpaceNews", time: "1d ago", impact: "high", unread: false },
-  { id: 13, type: "news", company: "Einride", headline: "DAF Trucks to integrate Einride Driver to scale autonomous electric freight", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Cambridge Aerospace", headline: "Defense drone developer Cambridge Aerospace raises $300M", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
-  { id: 15, type: "contract", company: "SpaceX", headline: "SpaceX increasing footprint in missile defense", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "Rivian", headline: "Rivian's 2027 R1S adds captain's chairs, its most-requested feature", source: "Electrek", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Humanoid", headline: "Experts to discuss the state of humanoid robots at RoboBusiness", source: "The Robot Report", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Neura Robotics", headline: "NEURA Robotics acquires Bosch Rexroth's ACTIVE Shuttle to expand Physical AI ecosystem", source: "Tech.eu", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Astranis", headline: "Astranis unveils geostationary surveillance satellite", source: "SpaceNews", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Multiverse Computing", headline: "Inside Multiverse Computing, the Spanish startup vying to be Europe's next AI champion", source: "Sifted", time: "10h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Waymo", headline: "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tariffs", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "Updated SpaceX Catalysts", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
+  { id: 8, type: "contract", company: "Impulse Space", headline: "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations", source: "SpaceNews", time: "15h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Cognition", headline: "AI coding startup Cognition reportedly already in talks to raise at $40B valuation", source: "TechCrunch", time: "20h ago", impact: "high", unread: false },
+  { id: 10, type: "funding", company: "OpenAI", headline: "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise", source: "TechCrunch", time: "21h ago", impact: "high", unread: false },
+  { id: 11, type: "funding", company: "Form Energy", headline: "Form Energy raises $750M to build more 100-hour batteries for the grid", source: "TechCrunch", time: "22h ago", impact: "high", unread: false },
+  { id: 12, type: "hire", company: "Waymo", headline: "Waymo has nearly 1,000 robotaxis waiting at its Arizona factory", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "ispace", headline: "China's iSpace raises first batch of series E funding for reusable rocketry", source: "SpaceNews", time: "1d ago", impact: "high", unread: false },
+  { id: 14, type: "news", company: "Einride", headline: "DAF Trucks to integrate Einride Driver to scale autonomous electric freight", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Cambridge Aerospace", headline: "Defense drone developer Cambridge Aerospace raises $300M", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

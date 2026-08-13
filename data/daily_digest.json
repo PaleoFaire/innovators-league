@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T13:35:49.315274+00:00",
+  "generatedAt": "2026-08-13T15:05:25.262602+00:00",
   "date": "2026-08-13",
   "dateDisplay": "Thursday, August 13, 2026",
   "sections": {
@@ -81,58 +81,58 @@
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 0.83,
-        "changePercent": -36.45,
-        "change": -0.47
-      },
-      {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 16.21,
-        "changePercent": -24.22,
-        "change": -5.18
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 5.98,
-        "changePercent": 24.07,
-        "change": 1.16
-      },
-      {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 8.75,
-        "changePercent": 22.21,
-        "change": 1.59
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 16.95,
-        "changePercent": 21.16,
-        "change": 2.96
+        "price": 0.86,
+        "changePercent": -31.47,
+        "change": -0.4
       },
       {
         "ticker": "ACHR",
         "company": "Archer Aviation",
-        "price": 6.29,
-        "changePercent": 20.96,
-        "change": 1.09
+        "price": 6.54,
+        "changePercent": 24.95,
+        "change": 1.3
+      },
+      {
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 47.23,
+        "changePercent": 18.91,
+        "change": 7.51
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 54.61,
-        "changePercent": 16.94,
-        "change": 7.91
+        "price": 54.78,
+        "changePercent": 18.78,
+        "change": 8.66
       },
       {
-        "ticker": "QS",
-        "company": "QuantumScape",
-        "price": 6.38,
-        "changePercent": 15.58,
-        "change": 0.86
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 5.88,
+        "changePercent": 16.77,
+        "change": 0.84
+      },
+      {
+        "ticker": "RGTI",
+        "company": "Rigetti Computing",
+        "price": 19.07,
+        "changePercent": 15.4,
+        "change": 2.54
+      },
+      {
+        "ticker": "NNE",
+        "company": "Nano Nuclear Energy",
+        "price": 20.2,
+        "changePercent": 14.72,
+        "change": 2.59
+      },
+      {
+        "ticker": "IDEAFORGE.NS",
+        "company": "ideaForge",
+        "price": 781.8,
+        "changePercent": -14.24,
+        "change": -129.85
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "EVTL -36.5%"
+    "topMover": "EVTL -31.5%"
   }
 }
