@@ -1,30 +1,30 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 78,
+    "momentum": 74,
     "trend": "accelerating",
     "catalysts": [
-      "Welp, Nobody Saw SpaceX\u2019s Falcon 9 Rocket Crash Into the Moo",
-      "LIVESTREAM &#8211; After Predicting the SpaceX Q2 Earnings-",
-      "Capella, Iceye and Umbra win NRO radar-data contracts"
+      "Updated SpaceX Catalysts",
+      "Space Force orders two more Impulse Space vehicles for maneu",
+      "China\u2019s iSpace raises first batch of series E funding for re"
     ],
     "fundingQ": "$264.3B",
     "components": {
       "funding": 100,
-      "news": 90,
+      "news": 75,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-06"
+    "lastUpdated": "2026-08-13"
   },
   {
     "sector": "Defense & Security",
     "momentum": 64,
     "trend": "steady",
     "catalysts": [
-      "Firestorm Labs builds drones aboard USS Essex without shore",
-      "US Navy, Saildrone to use unmanned systems in expanded count",
-      "U.S. Navy picks Blue Water Autonomy to use autonomous vessel"
+      "Defense drone developer Cambridge Aerospace raises $300M",
+      "SpaceX increasing footprint in missile defense",
+      "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Boa"
     ],
     "fundingQ": "$11.3B",
     "components": {
@@ -33,84 +33,50 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-06"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 60,
-    "trend": "steady",
-    "catalysts": [
-      "Microreactor startup Valar Atomics raises $1B",
-      "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence",
-      "A New Force Posture Concept for Europeanizing Extended Nucle"
-    ],
-    "fundingQ": "$10.0B",
-    "components": {
-      "funding": 100,
-      "news": 20,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-08-06"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 58,
-    "trend": "steady",
-    "catalysts": [
-      "Wayve &#038; Uber Can Now Deploy Robotaxis in London",
-      "Podcast: Tesla/SpaceX merger, Rivian R2 progress, new Merced"
-    ],
-    "fundingQ": "$20.0B",
-    "components": {
-      "funding": 100,
-      "news": 10,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-08-06"
+    "lastUpdated": "2026-08-13"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 56,
+    "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "Wayve &#038; Uber Can Now Deploy Robotaxis in London",
-      "Firestorm Labs builds drones aboard USS Essex without shore",
-      "Zoox to start charging for robotaxi rides in Las Vegas"
+      "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tarif",
+      "Form Energy raises $750M to build more 100-hour batteries fo",
+      "Waymo has nearly 1,000 robotaxis waiting at its Arizona fact"
     ],
     "fundingQ": "$27.0B",
     "components": {
       "funding": 100,
-      "news": 45,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-06"
+    "lastUpdated": "2026-08-13"
   },
   {
-    "sector": "Climate & Energy",
-    "momentum": 56,
+    "sector": "Nuclear Energy",
+    "momentum": 58,
     "trend": "steady",
     "catalysts": [
-      "Base Power raises $1B to roll out its giant new home battery",
-      "Quaise Energy raises $134M to fuel superhot geothermal ambit"
+      "Does Latent Nuclear Deterrence Really Work?",
+      "Nuclear startup Oklo splits its first atoms in test reactor",
+      "Microreactor startup Valar Atomics raises $1B"
     ],
-    "fundingQ": "$1.4B",
+    "fundingQ": "$10.0B",
     "components": {
-      "funding": 96,
-      "news": 10,
+      "funding": 100,
+      "news": 25,
       "hiring": 0,
-      "market": 100
+      "market": 86
     },
-    "lastUpdated": "2026-08-06"
+    "lastUpdated": "2026-08-13"
   },
   {
     "sector": "Biotech & Health",
     "momentum": 56,
     "trend": "steady",
     "catalysts": [
-      "<a href=\"/cro/icon-inks-anthropic-partnership-deploy-claude-"
+      "<a href=\"/biotech/abcellera-data-top-most-aggressive-upside-"
     ],
     "fundingQ": "$22.0B",
     "components": {
@@ -119,25 +85,57 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-06"
+    "lastUpdated": "2026-08-13"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 56,
+    "trend": "steady",
+    "catalysts": [
+      "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tarif"
+    ],
+    "fundingQ": "$20.0B",
+    "components": {
+      "funding": 100,
+      "news": 5,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-08-13"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 55,
+    "trend": "steady",
+    "catalysts": [
+      "Quaise Energy raises $134M to fuel superhot geothermal ambit"
+    ],
+    "fundingQ": "$1.4B",
+    "components": {
+      "funding": 96,
+      "news": 5,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-08-13"
   },
   {
     "sector": "AI & Software",
-    "momentum": 55,
-    "trend": "accelerating",
+    "momentum": 52,
+    "trend": "steady",
     "catalysts": [
-      "New York-headquartered AI startup Modal Labs to open London",
-      "OpenAI Didn\u2019t Notice Its AI Agents Using a Message Board to",
-      "OpenAI\u2019s Browser Could Be Hijacked to Spam Your WhatsApp Con"
+      "Updated SpaceX Catalysts",
+      "AI coding startup Cognition reportedly already in talks to r",
+      "OpenAI-backed Thrive Holdings raises $2B to bring AI to the"
     ],
-    "fundingQ": "$285.8B",
+    "fundingQ": "$325.8B",
     "components": {
       "funding": 100,
-      "news": 40,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-06"
+    "lastUpdated": "2026-08-13"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -153,46 +151,113 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-06"
+    "lastUpdated": "2026-08-13"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 24,
-    "trend": "rising",
+    "momentum": 20,
+    "trend": "declining",
     "catalysts": [
-      "OpenAI\u2019s Browser Could Be Hijacked to Spam Your WhatsApp Con",
-      "LIVESTREAM &#8211; After Predicting the SpaceX Q2 Earnings-",
-      "Capella, Iceye and Umbra win NRO radar-data contracts"
+      "Space Force orders two more Impulse Space vehicles for maneu",
+      "China\u2019s iSpace raises first batch of series E funding for re",
+      "DAF Trucks to integrate Einride Driver to scale autonomous e"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 55,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-06"
+    "lastUpdated": "2026-08-13"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 16,
+    "trend": "declining",
+    "catalysts": [
+      "DAF Trucks to integrate Einride Driver to scale autonomous e",
+      "Defense drone developer Cambridge Aerospace raises $300M",
+      "Cambridge Aerospace's valuation leaps to $3.4BN as raises $3"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-13"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 22,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "SpaceX Partners with Starmind AI1 Satellites for Rubin GPUs",
-      "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence"
+      "Semianalysis Agrees With NextBigfuture $300B Per Year for Sp",
+      "Tesla, SpaceX confirm \u2018Terafab\u2019 chip fab site \u2014 $16.8B first"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 10,
       "hiring": 0,
-      "market": 100
+      "market": 58
     },
-    "lastUpdated": "2026-08-06"
+    "lastUpdated": "2026-08-13"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "Form Energy raises $750M to build more 100-hour batteries fo",
+      "Rocket Lab builds deployable infrastructure for Electron lau"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-13"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Dust and water spotted close to giant black hole"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-13"
+  },
+  {
+    "sector": "Ocean & Maritime",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "US Navy, Saildrone to use unmanned systems in expanded count"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-13"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 20,
+    "momentum": 9,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -202,75 +267,8 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 100
+      "market": 46
     },
-    "lastUpdated": "2026-08-06"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 18,
-    "trend": "declining",
-    "catalysts": [
-      "Wayve &#038; Uber Can Now Deploy Robotaxis in London",
-      "Firestorm Labs builds drones aboard USS Essex without shore",
-      "US Navy, Saildrone to use unmanned systems in expanded count"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 30,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-06"
-  },
-  {
-    "sector": "Ocean & Maritime",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "US Navy, Saildrone to use unmanned systems in expanded count",
-      "U.S. Navy picks Blue Water Autonomy to use autonomous vessel"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-06"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "New York-headquartered AI startup Modal Labs to open London"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-06"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active housing & construction ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-06"
+    "lastUpdated": "2026-08-13"
   }
 ]

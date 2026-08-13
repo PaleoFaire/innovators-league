@@ -1,118 +1,118 @@
 // Auto-generated news signals
-// Last updated: 2026-08-13T06:21:47.462Z
+// Last updated: 2026-08-13T08:09:06.057Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1786602107462,
+    "id": 1786608546057,
     "type": "news",
     "company": "Multiverse Computing",
     "headline": "Inside Multiverse Computing, the Spanish startup vying to be Europe's next AI champion",
     "source": "Sifted",
-    "time": "1h ago",
+    "time": "3h ago",
     "impact": "low",
     "unread": true,
     "link": "https://sifted.eu/articles/multiverse-computing-europe-ai-champion/"
   },
   {
-    "id": 1786602107463,
+    "id": 1786608546058,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tariffs",
     "source": "CleanTechnica",
-    "time": "5h ago",
+    "time": "7h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/08/12/waymo-imports-3200-zeekr-robotaxis-despite-super-high-tariffs/"
   },
   {
-    "id": 1786602107464,
+    "id": 1786608546059,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Updated SpaceX Catalysts",
     "source": "Next Big Future",
-    "time": "5h ago",
+    "time": "7h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/08/updated-spacex-catalysts.html"
   },
   {
-    "id": 1786602107465,
+    "id": 1786608546060,
     "type": "contract",
     "company": "Impulse Space",
     "headline": "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations",
     "source": "SpaceNews",
-    "time": "6h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/space-force-orders-two-more-impulse-space-vehicles-for-maneuvering-demonstrations/"
   },
   {
-    "id": 1786602107466,
+    "id": 1786608546061,
     "type": "funding",
     "company": "Cognition",
     "headline": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
     "source": "TechCrunch",
-    "time": "12h ago",
+    "time": "13h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/"
   },
   {
-    "id": 1786602107467,
+    "id": 1786608546062,
     "type": "funding",
     "company": "OpenAI",
     "headline": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
     "source": "TechCrunch",
-    "time": "12h ago",
+    "time": "14h ago",
     "impact": "high",
     "unread": false,
     "link": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"
   },
   {
-    "id": 1786602107468,
+    "id": 1786608546063,
     "type": "funding",
     "company": "Form Energy",
     "headline": "Form Energy raises $750M to build more 100-hour batteries for the grid",
     "source": "TechCrunch",
-    "time": "14h ago",
+    "time": "15h ago",
     "impact": "high",
     "unread": false,
     "link": "https://techcrunch.com/2026/08/12/form-energy-raises-750m-to-build-more-100-hour-batteries-for-the-grid/"
   },
   {
-    "id": 1786602107469,
+    "id": 1786608546064,
     "type": "hire",
     "company": "Waymo",
     "headline": "Waymo has nearly 1,000 robotaxis waiting at its Arizona factory",
     "source": "Electrek",
-    "time": "16h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://electrek.co/2026/08/12/waymo-ojai-robotaxis-arizona-factory/"
   },
   {
-    "id": 1786602107470,
+    "id": 1786608546065,
     "type": "funding",
     "company": "ispace",
     "headline": "China’s iSpace raises first batch of series E funding for reusable rocketry",
     "source": "SpaceNews",
-    "time": "17h ago",
+    "time": "19h ago",
     "impact": "high",
     "unread": false,
     "link": "https://spacenews.com/chinas-ispace-raises-first-batch-of-series-e-funding-for-reusable-rocketry/"
   },
   {
-    "id": 1786602107471,
+    "id": 1786608546066,
     "type": "news",
     "company": "Einride",
     "headline": "DAF Trucks to integrate Einride Driver to scale autonomous electric freight",
     "source": "The Robot Report",
-    "time": "19h ago",
+    "time": "21h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.therobotreport.com/daf-trucks-integrates-einride-driver-scale-autonomous-electric-freight/"
   },
   {
-    "id": 1786602107472,
+    "id": 1786608546067,
     "type": "funding",
     "company": "Cambridge Aerospace",
     "headline": "Defense drone developer Cambridge Aerospace raises $300M",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/defense-drone-developer-cambridge-aerospace-raises-300m/"
   },
   {
-    "id": 1786602107473,
+    "id": 1786608546068,
     "type": "contract",
     "company": "SpaceX",
     "headline": "SpaceX increasing footprint in missile defense",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacex-increasing-footprint-in-missile-defense/"
   },
   {
-    "id": 1786602107474,
+    "id": 1786608546069,
     "type": "news",
     "company": "Humanoid",
     "headline": "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/"
   },
   {
-    "id": 1786602107475,
+    "id": 1786608546070,
     "type": "hire",
     "company": "Proteus Space",
     "headline": "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors",
@@ -156,18 +156,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/proteus-space-names-maj-gen-kim-crider-usaf-ret-to-board-of-directors/"
   },
   {
-    "id": 1786602107476,
+    "id": 1786608546071,
     "type": "ipo",
     "company": "Dust",
     "headline": "Dust and water spotted close to giant black hole",
     "source": "ESA News",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole"
   },
   {
-    "id": 1786602107477,
+    "id": 1786608546072,
     "type": "funding",
     "company": "Hadrian",
     "headline": "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/"
   },
   {
-    "id": 1786602107478,
+    "id": 1786608546073,
     "type": "ipo",
     "company": "Rocket Lab",
     "headline": "Rocket Lab builds deployable infrastructure for Electron launches",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/rocket-lab-builds-deployable-infrastructure-for-electron-launches/"
   },
   {
-    "id": 1786602107479,
+    "id": 1786608546074,
     "type": "news",
     "company": "Isembard",
     "headline": "Isembard founder: We're a &quot;politician's wet dream&quot;",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/08/10/isembard-a-politicians-wet-dream-says-its-founder/"
   },
   {
-    "id": 1786602107480,
+    "id": 1786608546075,
     "type": "funding",
     "company": "Cambridge Aerospace",
     "headline": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/cambridge-aerospace-fundraise-valuation/"
   },
   {
-    "id": 1786602107481,
+    "id": 1786608546076,
     "type": "funding",
     "company": "Cambridge Aerospace",
     "headline": "Cambridge Aerospace's valuation leaps to $3.4BN as raises $300M",

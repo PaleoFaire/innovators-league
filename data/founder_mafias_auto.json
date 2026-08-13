@@ -359,37 +359,6 @@
     "description": "4 companies with founding-team links to OpenAI."
   },
   {
-    "mafia": "Tesla Mafia",
-    "count": 4,
-    "companies": [
-      {
-        "company": "Slip Robotics",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$44M",
-        "valuation": ""
-      },
-      {
-        "company": "Heron Power",
-        "sector": "Climate & Energy",
-        "totalRaised": "$178M+",
-        "valuation": ""
-      },
-      {
-        "company": "Odin Dynamics",
-        "sector": "Ocean & Maritime",
-        "totalRaised": "",
-        "valuation": ""
-      },
-      {
-        "company": "Aigen",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "~$23.7M",
-        "valuation": "Undisclosed"
-      }
-    ],
-    "description": "4 companies with founding-team links to Tesla."
-  },
-  {
     "mafia": "Amazon/AWS Mafia",
     "count": 3,
     "companies": [
@@ -438,6 +407,31 @@
       }
     ],
     "description": "3 companies with founding-team links to Anduril."
+  },
+  {
+    "mafia": "Tesla Mafia",
+    "count": 3,
+    "companies": [
+      {
+        "company": "Slip Robotics",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "$44M",
+        "valuation": ""
+      },
+      {
+        "company": "Heron Power",
+        "sector": "Climate & Energy",
+        "totalRaised": "$178M+",
+        "valuation": ""
+      },
+      {
+        "company": "Odin Dynamics",
+        "sector": "Ocean & Maritime",
+        "totalRaised": "",
+        "valuation": ""
+      }
+    ],
+    "description": "3 companies with founding-team links to Tesla."
   },
   {
     "mafia": "MIT CSAIL Spinouts",

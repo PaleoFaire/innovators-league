@@ -4946,6 +4946,11 @@
       "thesisCluster": ""
     },
     {
+      "id": "Atlas Motion",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
       "id": "SpaceX-alumni-hub",
       "sector": "alumni",
       "thesisCluster": ""
@@ -5135,6 +5140,11 @@
     {
       "src": "Cerebras",
       "dst": "Etched",
+      "type": "competitor"
+    },
+    {
+      "src": "American Housing Corporation",
+      "dst": "Cuby Technologies",
       "type": "competitor"
     },
     {
@@ -10295,21 +10305,16 @@
       "type": "alumni"
     },
     {
-      "src": "Tesla-alumni-hub",
-      "dst": "Aigen",
-      "type": "alumni"
-    },
-    {
       "src": "DeepMind-alumni-hub",
       "dst": "Generalist AI",
       "type": "alumni"
     }
   ],
   "counts": {
-    "total_nodes": 995,
+    "total_nodes": 996,
     "total_edges": 917,
-    "competitor_edges": 166,
+    "competitor_edges": 167,
     "thesis_edges": 742,
-    "alumni_edges": 9
+    "alumni_edges": 8
   }
 }
