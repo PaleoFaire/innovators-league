@@ -40354,23 +40354,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-13 10:16
+// Last updated: 2026-08-13 11:54
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Astranis", headline: "Astranis unveils geostationary surveillance satellite", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Multiverse Computing", headline: "Inside Multiverse Computing, the Spanish startup vying to be Europe's next AI champion", source: "Sifted", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Waymo", headline: "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tariffs", source: "CleanTechnica", time: "9h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "Updated SpaceX Catalysts", source: "Next Big Future", time: "9h ago", impact: "low", unread: true },
-  { id: 5, type: "contract", company: "Impulse Space", headline: "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations", source: "SpaceNews", time: "10h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Cognition", headline: "AI coding startup Cognition reportedly already in talks to raise at $40B valuation", source: "TechCrunch", time: "15h ago", impact: "high", unread: false },
-  { id: 7, type: "funding", company: "OpenAI", headline: "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise", source: "TechCrunch", time: "16h ago", impact: "high", unread: false },
-  { id: 8, type: "funding", company: "Form Energy", headline: "Form Energy raises $750M to build more 100-hour batteries for the grid", source: "TechCrunch", time: "17h ago", impact: "high", unread: false },
-  { id: 9, type: "hire", company: "Waymo", headline: "Waymo has nearly 1,000 robotaxis waiting at its Arizona factory", source: "Electrek", time: "20h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "ispace", headline: "China's iSpace raises first batch of series E funding for reusable rocketry", source: "SpaceNews", time: "21h ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "Einride", headline: "DAF Trucks to integrate Einride Driver to scale autonomous electric freight", source: "The Robot Report", time: "23h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Cambridge Aerospace", headline: "Defense drone developer Cambridge Aerospace raises $300M", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
-  { id: 13, type: "contract", company: "SpaceX", headline: "SpaceX increasing footprint in missile defense", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Humanoid", headline: "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
-  { id: 15, type: "hire", company: "Proteus Space", headline: "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "hire", company: "Neura Robotics", headline: "NEURA Robotics acquires Bosch Rexroth's ACTIVE Shuttle to expand Physical AI ecosystem", source: "Tech.eu", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Astranis", headline: "Astranis unveils geostationary surveillance satellite", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Multiverse Computing", headline: "Inside Multiverse Computing, the Spanish startup vying to be Europe's next AI champion", source: "Sifted", time: "6h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Waymo", headline: "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tariffs", source: "CleanTechnica", time: "11h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "Updated SpaceX Catalysts", source: "Next Big Future", time: "11h ago", impact: "low", unread: true },
+  { id: 6, type: "contract", company: "Impulse Space", headline: "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Cognition", headline: "AI coding startup Cognition reportedly already in talks to raise at $40B valuation", source: "TechCrunch", time: "17h ago", impact: "high", unread: false },
+  { id: 8, type: "funding", company: "OpenAI", headline: "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise", source: "TechCrunch", time: "18h ago", impact: "high", unread: false },
+  { id: 9, type: "funding", company: "Form Energy", headline: "Form Energy raises $750M to build more 100-hour batteries for the grid", source: "TechCrunch", time: "19h ago", impact: "high", unread: false },
+  { id: 10, type: "hire", company: "Waymo", headline: "Waymo has nearly 1,000 robotaxis waiting at its Arizona factory", source: "Electrek", time: "21h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "ispace", headline: "China's iSpace raises first batch of series E funding for reusable rocketry", source: "SpaceNews", time: "23h ago", impact: "high", unread: false },
+  { id: 12, type: "news", company: "Einride", headline: "DAF Trucks to integrate Einride Driver to scale autonomous electric freight", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Cambridge Aerospace", headline: "Defense drone developer Cambridge Aerospace raises $300M", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
+  { id: 14, type: "contract", company: "SpaceX", headline: "SpaceX increasing footprint in missile defense", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Humanoid", headline: "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
