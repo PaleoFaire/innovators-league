@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T19:51:15.341257+00:00",
+  "generatedAt": "2026-08-14T20:37:32.120151+00:00",
   "date": "2026-08-14",
   "dateDisplay": "Friday, August 14, 2026",
   "sections": {
@@ -81,37 +81,30 @@
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 0.83,
-        "changePercent": -39.25,
-        "change": -0.53
+        "price": 0.84,
+        "changePercent": -38.14,
+        "change": -0.52
       },
       {
         "ticker": "ACHR",
         "company": "Archer Aviation",
-        "price": 6.91,
-        "changePercent": 23.52,
-        "change": 1.32
+        "price": 6.59,
+        "changePercent": 17.98,
+        "change": 1.0
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 19.76,
-        "changePercent": 20.49,
-        "change": 3.36
+        "price": 19.0,
+        "changePercent": 15.88,
+        "change": 2.61
       },
       {
         "ticker": "DRSHF",
         "company": "DroneShield",
-        "price": 1.38,
-        "changePercent": -12.1,
-        "change": -0.19
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 6.03,
-        "changePercent": 9.24,
-        "change": 0.51
+        "price": 1.4,
+        "changePercent": -10.83,
+        "change": -0.17
       },
       {
         "ticker": "IDEAFORGE.NS",
@@ -121,18 +114,25 @@
         "change": -76.9
       },
       {
+        "ticker": "JOBY",
+        "company": "Joby Aviation",
+        "price": 7.93,
+        "changePercent": -8.16,
+        "change": -0.71
+      },
+      {
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 44.48,
+        "changePercent": -8.14,
+        "change": -3.94
+      },
+      {
         "ticker": "277810.KQ",
         "company": "Rainbow Robotics",
         "price": 501000.0,
         "changePercent": 7.74,
         "change": 36000.0
-      },
-      {
-        "ticker": "NNE",
-        "company": "Nano Nuclear Energy",
-        "price": 20.28,
-        "changePercent": 7.59,
-        "change": 1.43
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "EVTL -39.2%"
+    "topMover": "EVTL -38.1%"
   }
 }
