@@ -272,6 +272,24 @@
   {
     "company": "Rocket Lab",
     "ticker": "RKLB",
+    "form": "8-K",
+    "date": "2026-08-13",
+    "description": "g085846_8k.htm",
+    "accessionNumber": "0001753926-26-001463",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
+    "form": "8-K",
+    "date": "2026-08-13",
+    "description": "g085841_8k.htm",
+    "accessionNumber": "0001753926-26-001454",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
     "form": "10-Q",
     "date": "2026-08-10",
     "description": "rklb-20260630.htm",
@@ -492,42 +510,6 @@
     "date": "2026-05-22",
     "description": "xslF345X06/edgardoc.xml",
     "accessionNumber": "0002001011-26-000058",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "4",
-    "date": "2026-05-22",
-    "description": "xslF345X06/edgardoc.xml",
-    "accessionNumber": "0002001011-26-000057",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "8-K",
-    "date": "2026-05-21",
-    "description": "rklb-20260520.htm",
-    "accessionNumber": "0001819994-26-000048",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "8-K",
-    "date": "2026-05-20",
-    "description": "rklb-20260520.htm",
-    "accessionNumber": "0001819994-26-000045",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "4",
-    "date": "2026-05-14",
-    "description": "xslF345X06/edgardoc.xml",
-    "accessionNumber": "0002001011-26-000048",
     "isIPO": false
   },
   {
@@ -960,6 +942,15 @@
     "date": "2021-02-08",
     "description": "xslF345X03/tm214473-6_4seq1.xml",
     "accessionNumber": "0001104659-21-015545",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
+    "form": "8-K",
+    "date": "2026-08-13",
+    "description": "bksy-20260807.htm",
+    "accessionNumber": "0001753539-26-000128",
     "isIPO": false
   },
   {
@@ -3242,6 +3233,15 @@
   {
     "company": "Centrus Energy",
     "ticker": "LEU",
+    "form": "4",
+    "date": "2026-08-13",
+    "description": "xslF345X06/wk-form4_1786647404.xml",
+    "accessionNumber": "0001628280-26-056649",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
     "form": "8-K",
     "date": "2026-08-06",
     "description": "leu-20260806.htm",
@@ -3519,15 +3519,6 @@
     "isIPO": false
   },
   {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "10-K",
-    "date": "2026-02-11",
-    "description": "leu-20251231.htm",
-    "accessionNumber": "0001628280-26-007117",
-    "isIPO": false
-  },
-  {
     "company": "FREYR Battery",
     "ticker": "FREY",
     "form": "4",
@@ -3786,6 +3777,15 @@
     "date": "2023-01-19",
     "description": "tm231702-2_def14a.htm",
     "accessionNumber": "0001104659-23-004758",
+    "isIPO": false
+  },
+  {
+    "company": "C3.ai",
+    "ticker": "AI",
+    "form": "4",
+    "date": "2026-08-13",
+    "description": "xslF345X06/wk-form4_1786656439.xml",
+    "accessionNumber": "0001577526-26-000098",
     "isIPO": false
   },
   {
@@ -4083,15 +4083,6 @@
     "date": "2026-02-25",
     "description": "ai-20260224.htm",
     "accessionNumber": "0001577526-26-000013",
-    "isIPO": false
-  },
-  {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "4",
-    "date": "2026-02-17",
-    "description": "xslF345X05/wk-form4_1771370963.xml",
-    "accessionNumber": "0001577526-26-000008",
     "isIPO": false
   },
   {
@@ -4713,15 +4704,6 @@
     "date": "2026-01-06",
     "description": "xslF345X05/primarydocument.xml",
     "accessionNumber": "0001543401-26-000001",
-    "isIPO": false
-  },
-  {
-    "company": "UiPath",
-    "ticker": "PATH",
-    "form": "4",
-    "date": "2026-01-06",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001855778-26-000001",
     "isIPO": false
   },
   {
@@ -5739,15 +5721,6 @@
     "date": "2026-06-05",
     "description": "xslF345X06/wk-form4_1780693375.xml",
     "accessionNumber": "0002020969-26-000004",
-    "isIPO": false
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-06-04",
-    "description": "xslF345X06/wk-form4_1780607095.xml",
-    "accessionNumber": "0002060594-26-000003",
     "isIPO": false
   },
   {
@@ -7275,6 +7248,15 @@
     "company": "Aurora Innovation",
     "ticker": "AUR",
     "form": "4",
+    "date": "2026-08-13",
+    "description": "xslF345X06/ownership.xml",
+    "accessionNumber": "0001193125-26-349383",
+    "isIPO": false
+  },
+  {
+    "company": "Aurora Innovation",
+    "ticker": "AUR",
+    "form": "4",
     "date": "2026-08-11",
     "description": "xslF345X06/ownership.xml",
     "accessionNumber": "0001193125-26-344685",
@@ -7458,15 +7440,6 @@
     "date": "2026-05-06",
     "description": "aur-20260506.htm",
     "accessionNumber": "0001828108-26-000050",
-    "isIPO": false
-  },
-  {
-    "company": "Aurora Innovation",
-    "ticker": "AUR",
-    "form": "DEF 14A",
-    "date": "2026-04-02",
-    "description": "aur-20260402.htm",
-    "accessionNumber": "0001828108-26-000044",
     "isIPO": false
   },
   {

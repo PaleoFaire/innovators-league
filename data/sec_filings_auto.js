@@ -1,6 +1,12 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-08-13 08:09:21 UTC
+// Last updated: 2026-08-14 07:37:30 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "8-K", date: "2026-08-13", description: "g085846_8k.htm", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "8-K", date: "2026-08-13", description: "g085841_8k.htm", isIPO: false, ticker: "RKLB" },
+  { company: "BlackSky Technology", form: "8-K", date: "2026-08-13", description: "bksy-20260807.htm", isIPO: false, ticker: "BKSY" },
+  { company: "Centrus Energy", form: "4", date: "2026-08-13", description: "xslF345X06/wk-form4_1786647404.xml", isIPO: false, ticker: "LEU" },
+  { company: "C3.ai", form: "4", date: "2026-08-13", description: "xslF345X06/wk-form4_1786656439.xml", isIPO: false, ticker: "AI" },
+  { company: "Aurora Innovation", form: "4", date: "2026-08-13", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "AUR" },
   { company: "Palantir Technologies", form: "4", date: "2026-08-12", description: "xslF345X06/wk-form4_1786579300.xml", isIPO: false, ticker: "PLTR" },
   { company: "Intuitive Machines", form: "4", date: "2026-08-12", description: "xslF345X06/form4-08122026_110816.xml", isIPO: false, ticker: "LUNR" },
   { company: "Intuitive Machines", form: "4", date: "2026-08-12", description: "xslF345X06/form4-08122026_060801.xml", isIPO: false, ticker: "LUNR" },
@@ -45,10 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Tempus AI", form: "10-Q", date: "2026-08-06", description: "vnt-20260703.htm", isIPO: false, ticker: "TEM" },
   { company: "Tempus AI", form: "8-K", date: "2026-08-06", description: "vnt-20260806.htm", isIPO: false, ticker: "TEM" },
   { company: "Astera Labs", form: "10-Q", date: "2026-08-06", description: "tra-20260630.htm", isIPO: false, ticker: "ALAB" },
-  { company: "NuScale Power", form: "8-K", date: "2026-08-05", description: "smr-20260805.htm", isIPO: false, ticker: "SMR" },
-  { company: "NuScale Power", form: "10-Q", date: "2026-08-05", description: "smr-20260630.htm", isIPO: false, ticker: "SMR" },
-  { company: "Oklo", form: "4", date: "2026-08-05", description: "xslF345X06/wk-form4_1785960443.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-08-05", description: "xslF345X06/wk-form4_1785960407.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-08-05", description: "xslF345X06/wk-form4_1785960370.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-08-05", description: "xslF345X06/wk-form4_1785960333.xml", isIPO: false, ticker: "OKLO" },
 ];

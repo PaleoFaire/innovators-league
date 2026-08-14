@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-13T08:10:38.692066Z",
+  "generated_at": "2026-08-14T07:39:18.040873Z",
   "platform": {
-    "companiesTracked": 990,
+    "companiesTracked": 1160,
     "sectorsMonitored": 16,
-    "totalCapitalRaisedTracked": "$472.1B",
+    "totalCapitalRaisedTracked": "$489.4B",
     "totalValuationTracked": "$1142.1B",
     "companiesWithValuation": 113,
     "govContractsTracked": 29,
     "sbirAwardsTracked": 342,
-    "dealsTracked": 335,
-    "newsItemsTracked": 36,
-    "dataPointsUpdated": "39,600+"
+    "dealsTracked": 336,
+    "newsItemsTracked": 38,
+    "dataPointsUpdated": "46,400+"
   },
   "topFunds": [
     {
@@ -241,19 +241,19 @@
     }
   ],
   "sectorConcentration": {
-    "Space & Aerospace": 168,
-    "Defense & Security": 155,
-    "Robotics & Manufacturing": 146,
-    "Climate & Energy": 142,
-    "Chips & Semiconductors": 75,
-    "Biotech & Health": 73,
+    "Robotics & Manufacturing": 195,
+    "Space & Aerospace": 190,
+    "Climate & Energy": 186,
+    "Defense & Security": 178,
+    "Chips & Semiconductors": 84,
+    "Biotech & Health": 81,
     "Nuclear Energy": 55,
     "Quantum Computing": 47,
     "AI & Software": 35,
     "Drones & Autonomous": 34,
-    "Transportation": 24,
+    "Transportation": 30,
+    "Housing & Construction": 19,
     "Ocean & Maritime": 12,
-    "Housing & Construction": 10,
     "Consumer Tech": 5,
     "Infrastructure & Logistics": 5
   }

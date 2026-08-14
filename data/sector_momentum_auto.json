@@ -4,9 +4,9 @@
     "momentum": 74,
     "trend": "accelerating",
     "catalysts": [
-      "Updated SpaceX Catalysts",
-      "Space Force orders two more Impulse Space vehicles for maneu",
-      "China\u2019s iSpace raises first batch of series E funding for re"
+      "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that m",
+      "Rivian&#8217;s 2027 R1S adds captain&#8217;s chairs, its mos",
+      "Astranis unveils geostationary surveillance satellite"
     ],
     "fundingQ": "$264.3B",
     "components": {
@@ -15,47 +15,29 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-13"
+    "lastUpdated": "2026-08-14"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 64,
+    "momentum": 61,
     "trend": "steady",
     "catalysts": [
+      "Pentagon hands Palantir up to $244M in no-bid work",
       "Defense drone developer Cambridge Aerospace raises $300M",
-      "SpaceX increasing footprint in missile defense",
-      "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Boa"
+      "SpaceX increasing footprint in missile defense"
     ],
     "fundingQ": "$11.3B",
     "components": {
       "funding": 100,
-      "news": 35,
+      "news": 25,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-13"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 60,
-    "trend": "accelerating",
-    "catalysts": [
-      "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tarif",
-      "Form Energy raises $750M to build more 100-hour batteries fo",
-      "Waymo has nearly 1,000 robotaxis waiting at its Arizona fact"
-    ],
-    "fundingQ": "$27.0B",
-    "components": {
-      "funding": 100,
-      "news": 60,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-13"
+    "lastUpdated": "2026-08-14"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 58,
+    "momentum": 61,
     "trend": "steady",
     "catalysts": [
       "Does Latent Nuclear Deterrence Really Work?",
@@ -67,41 +49,62 @@
       "funding": 100,
       "news": 25,
       "hiring": 0,
-      "market": 86
-    },
-    "lastUpdated": "2026-08-13"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 56,
-    "trend": "steady",
-    "catalysts": [
-      "<a href=\"/biotech/abcellera-data-top-most-aggressive-upside-"
-    ],
-    "fundingQ": "$22.0B",
-    "components": {
-      "funding": 100,
-      "news": 5,
-      "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-13"
+    "lastUpdated": "2026-08-14"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 60,
+    "trend": "accelerating",
+    "catalysts": [
+      "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadi",
+      "Experts to discuss the state of humanoid robots at RoboBusin",
+      "NEURA Robotics acquires Bosch Rexroth\u2019s ACTIVE Shuttle to ex"
+    ],
+    "fundingQ": "$27.0B",
+    "components": {
+      "funding": 100,
+      "news": 60,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-14"
   },
   {
     "sector": "Transportation",
-    "momentum": 56,
+    "momentum": 58,
     "trend": "steady",
     "catalysts": [
+      "Rivian&#8217;s 2027 R1S adds captain&#8217;s chairs, its mos",
       "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tarif"
     ],
     "fundingQ": "$20.0B",
     "components": {
       "funding": 100,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-13"
+    "lastUpdated": "2026-08-14"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 56,
+    "trend": "accelerating",
+    "catalysts": [
+      "The Safety Reckoning Inside OpenAI",
+      "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that m",
+      "IBM partners with OpenAI to bolster enterprise AI push"
+    ],
+    "fundingQ": "$325.8B",
+    "components": {
+      "funding": 100,
+      "news": 45,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-14"
   },
   {
     "sector": "Climate & Energy",
@@ -117,25 +120,23 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-08-13"
+    "lastUpdated": "2026-08-14"
   },
   {
-    "sector": "AI & Software",
-    "momentum": 52,
+    "sector": "Biotech & Health",
+    "momentum": 55,
     "trend": "steady",
     "catalysts": [
-      "Updated SpaceX Catalysts",
-      "AI coding startup Cognition reportedly already in talks to r",
-      "OpenAI-backed Thrive Holdings raises $2B to bring AI to the"
+      "Active biotech & health ecosystem"
     ],
-    "fundingQ": "$325.8B",
+    "fundingQ": "$22.0B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 0,
       "hiring": 0,
-      "market": 50
+      "market": 100
     },
-    "lastUpdated": "2026-08-13"
+    "lastUpdated": "2026-08-14"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -151,47 +152,63 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-13"
+    "lastUpdated": "2026-08-14"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 20,
+    "momentum": 21,
     "trend": "declining",
     "catalysts": [
-      "Space Force orders two more Impulse Space vehicles for maneu",
-      "China\u2019s iSpace raises first batch of series E funding for re",
-      "DAF Trucks to integrate Einride Driver to scale autonomous e"
+      "Experts to discuss the state of humanoid robots at RoboBusin",
+      "Astranis unveils geostationary surveillance satellite",
+      "Space Force orders two more Impulse Space vehicles for maneu"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 40,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-13"
+    "lastUpdated": "2026-08-14"
   },
   {
-    "sector": "Drones & Autonomous",
+    "sector": "Quantum Computing",
     "momentum": 16,
     "trend": "declining",
     "catalysts": [
-      "DAF Trucks to integrate Einride Driver to scale autonomous e",
-      "Defense drone developer Cambridge Aerospace raises $300M",
-      "Cambridge Aerospace's valuation leaps to $3.4BN as raises $3"
+      "Active quantum computing ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 0,
+      "hiring": 0,
+      "market": 81
+    },
+    "lastUpdated": "2026-08-14"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadi",
+      "DAF Trucks to integrate Einride Driver to scale autonomous e",
+      "Defense drone developer Cambridge Aerospace raises $300M"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-13"
+    "lastUpdated": "2026-08-14"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 14,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
       "Semianalysis Agrees With NextBigfuture $300B Per Year for Sp",
@@ -202,26 +219,9 @@
       "funding": 0,
       "news": 10,
       "hiring": 0,
-      "market": 58
+      "market": 47
     },
-    "lastUpdated": "2026-08-13"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "Form Energy raises $750M to build more 100-hour batteries fo",
-      "Rocket Lab builds deployable infrastructure for Electron lau"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-13"
+    "lastUpdated": "2026-08-14"
   },
   {
     "sector": "Housing & Construction",
@@ -237,38 +237,38 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-13"
+    "lastUpdated": "2026-08-14"
   },
   {
     "sector": "Ocean & Maritime",
-    "momentum": 11,
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "US Navy, Saildrone to use unmanned systems in expanded count"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-13"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 9,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
+      "Active ocean & maritime ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 46
+      "market": 50
     },
-    "lastUpdated": "2026-08-13"
+    "lastUpdated": "2026-08-14"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active infrastructure & logistics ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-14"
   }
 ]
