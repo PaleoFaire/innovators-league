@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T13:23:18.940058+00:00",
+  "generatedAt": "2026-08-14T15:00:03.894061+00:00",
   "date": "2026-08-14",
   "dateDisplay": "Friday, August 14, 2026",
   "sections": {
@@ -81,58 +81,58 @@
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 0.84,
-        "changePercent": -33.5,
-        "change": -0.42
+        "price": 0.83,
+        "changePercent": -39.25,
+        "change": -0.53
       },
       {
         "ticker": "ACHR",
         "company": "Archer Aviation",
-        "price": 6.97,
-        "changePercent": 33.27,
-        "change": 1.74
-      },
-      {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 54.29,
-        "changePercent": 17.71,
-        "change": 8.17
+        "price": 6.91,
+        "changePercent": 23.52,
+        "change": 1.32
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 17.56,
-        "changePercent": 17.62,
-        "change": 2.63
+        "price": 19.76,
+        "changePercent": 20.49,
+        "change": 3.36
+      },
+      {
+        "ticker": "DRSHF",
+        "company": "DroneShield",
+        "price": 1.38,
+        "changePercent": -12.1,
+        "change": -0.19
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 5.89,
-        "changePercent": 16.87,
-        "change": 0.85
+        "price": 6.03,
+        "changePercent": 9.24,
+        "change": 0.51
+      },
+      {
+        "ticker": "IDEAFORGE.NS",
+        "company": "ideaForge",
+        "price": 820.85,
+        "changePercent": -8.57,
+        "change": -76.9
+      },
+      {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 501000.0,
+        "changePercent": 7.74,
+        "change": 36000.0
       },
       {
         "ticker": "NNE",
         "company": "Nano Nuclear Energy",
-        "price": 20.52,
-        "changePercent": 16.52,
-        "change": 2.91
-      },
-      {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 16.21,
-        "changePercent": -16.46,
-        "change": -3.2
-      },
-      {
-        "ticker": "PLTR",
-        "company": "Palantir",
-        "price": 179.01,
-        "changePercent": 14.81,
-        "change": 23.09
+        "price": 20.28,
+        "changePercent": 7.59,
+        "change": 1.43
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "EVTL -33.5%"
+    "topMover": "EVTL -39.2%"
   }
 }
