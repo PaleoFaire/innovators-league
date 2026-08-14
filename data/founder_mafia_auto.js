@@ -1,0 +1,2 @@
+// Last updated: 2026-08-14 06:46:40 UTC
+window.FOUNDER_MAFIA_AUTO = {"generated_at": "2026-08-14T06:46:40.344307+00:00", "corpora": ["news_raw.json", "press_releases_raw.json", "deals_auto.json", "news_signals_auto.js", "funding_feed_auto.json", "product_launches_raw.json", "TechCrunch Startups", "TechCrunch Space", "Payload", "SpaceNews", "Defense News Air"], "alumni_graph_counts": {"spacex": 42, "anduril": 12, "palantir": 11, "tesla": 16, "blueorigin": 2, "waymo": 3, "applied": 1}, "hits": []};

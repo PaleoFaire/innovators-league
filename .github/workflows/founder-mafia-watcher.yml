@@ -1,0 +1,92 @@
+name: Founder Mafia Watcher
+
+# Finds companies founded by SpaceX/Anduril/Palantir/Tesla alumni. Provenance
+# fires EARLIER than funding: the press writes "two SpaceX alumni are betting
+# on solar" before there is a round to report. That is literally how Ambrosia
+# Energy surfaced, invisible to all four other channels.
+# Writes to a review queue, never to data.js.
+
+on:
+  schedule:
+    - cron: '50 6 * * *'        # daily, after the first-party watcher
+  workflow_dispatch:
+    inputs:
+      mafia:
+        description: 'single alma mater (spacex, anduril, palantir, tesla...)'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: founder-mafia-watcher
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Scan for founder provenance
+        run: |
+          if [ -n "${{ github.event.inputs.mafia }}" ]; then
+            python3 scripts/fetch_founder_mafia.py --mafia "${{ github.event.inputs.mafia }}"
+          else
+            python3 scripts/fetch_founder_mafia.py
+          fi
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit and push (retry on conflict)
+        run: |
+          for attempt in 1 2 3 4 5; do
+            git stash --include-untracked 2>/dev/null || true
+            git pull --rebase origin main || git rebase --abort 2>/dev/null || true
+            if ! git stash pop 2>/dev/null; then
+              if git stash list | grep -q .; then
+                git stash drop 2>/dev/null || true
+                git diff --name-only --diff-filter=U | xargs -r git checkout HEAD --
+                python3 scripts/fetch_founder_mafia.py
+              fi
+            fi
+            git add data/founder_mafia_auto.json data/founder_mafia_auto.js \
+                    data/mafia_review_queue.json data/mafia_graph_auto.json 2>/dev/null || true
+            if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+            git commit -m "🧬 Founder mafia watcher: $(date -u +%Y-%m-%d)"
+            git push origin main && exit 0
+            git reset --soft HEAD~1
+            sleep $((attempt * 5))
+          done
+          echo "::error::push failed after 5 attempts"; exit 1
+
+      - name: Surface hits in the run summary
+        if: always()
+        run: |
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, pathlib
+          p = pathlib.Path("data/founder_mafia_auto.json")
+          d = json.loads(p.read_text()) if p.exists() else {}
+          print("## Founder mafia watcher\n")
+          g = d.get("alumni_graph_counts", {})
+          if g:
+              print("Tracked companies by alma mater: "
+                    + ", ".join(f"**{k}** {v}" for k, v in sorted(g.items(), key=lambda kv: -kv[1])) + "\n")
+          hits = d.get("hits", [])
+          if not hits:
+              print("No new provenance hits.")
+          else:
+              print(f"**{len(hits)} candidate(s)** — not written to data.js.\n")
+              print("| Company | Alma mater | Conf | Source | Evidence |")
+              print("|---|---|---|---|---|")
+              for h in hits[:40]:
+                  ev = h["evidence"][:120].replace("|", "\\|")
+                  print(f"| {h['company']} | {h['mafia']} | {h.get('confidence','')} | {h['source']} | {ev} |")
+          PY
