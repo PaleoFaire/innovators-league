@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-14T06:21:30+00:00",
+  "generatedAt": "2026-08-14T08:23:27+00:00",
   "stats": {
-    "companies": 991,
+    "companies": 1143,
     "vcFirms": 25,
     "uniqueClusters": 137,
-    "totalInvestments": 382
+    "totalInvestments": 379
   },
   "concentration": {
     "General Catalyst": {
@@ -580,12 +580,6 @@
         "count": 1,
         "companies": [
           "Auterion"
-        ]
-      },
-      "ai-clinical-health": {
-        "count": 1,
-        "companies": [
-          "Abridge"
         ]
       },
       "inspection-quality-robots": {
@@ -1587,9 +1581,8 @@
         ]
       },
       "ai-clinical-health": {
-        "count": 2,
+        "count": 1,
         "companies": [
-          "Abridge",
           "Neko Health"
         ]
       },
@@ -1683,12 +1676,6 @@
         "count": 1,
         "companies": [
           "Science Corporation"
-        ]
-      },
-      "ai-clinical-health": {
-        "count": 1,
-        "companies": [
-          "Abridge"
         ]
       },
       "ai-mineral-exploration": {
@@ -3273,23 +3260,6 @@
         "share": 1.0
       }
     ],
-    "ai-clinical-health": [
-      {
-        "vc": "Lightspeed Venture Partners",
-        "count": 2,
-        "share": 0.5
-      },
-      {
-        "vc": "Bessemer Venture Partners",
-        "count": 1,
-        "share": 0.25
-      },
-      {
-        "vc": "Khosla Ventures",
-        "count": 1,
-        "share": 0.25
-      }
-    ],
     "inspection-quality-robots": [
       {
         "vc": "Bessemer Venture Partners",
@@ -3803,6 +3773,13 @@
         "share": 0.5
       }
     ],
+    "ai-clinical-health": [
+      {
+        "vc": "Lightspeed Venture Partners",
+        "count": 1,
+        "share": 1.0
+      }
+    ],
     "nuclear-smr-advanced": [
       {
         "vc": "Khosla Ventures",
@@ -4076,40 +4053,6 @@
       ]
     },
     {
-      "vc": "Khosla Ventures",
-      "recentCount": 28,
-      "totalCount": 28,
-      "score": 24.864,
-      "topCluster": "biotech-novel-biology",
-      "recentExamples": [
-        {
-          "company": "Nominal",
-          "cluster": "ai-saas-enterprise",
-          "addedDate": "2026-06-04"
-        },
-        {
-          "company": "Ultima Genomics",
-          "cluster": "genomics",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Nabla Bio",
-          "cluster": "antibody-ai",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Realta Fusion",
-          "cluster": "mirror-fusion",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Science Corporation",
-          "cluster": "brain-computer-interface",
-          "addedDate": "2026-03"
-        }
-      ]
-    },
-    {
       "vc": "Lowercarbon Capital",
       "recentCount": 27,
       "totalCount": 29,
@@ -4140,6 +4083,40 @@
           "company": "Carbyon",
           "cluster": "direct-air-capture",
           "addedDate": "2026-04"
+        }
+      ]
+    },
+    {
+      "vc": "Khosla Ventures",
+      "recentCount": 27,
+      "totalCount": 27,
+      "score": 24.074,
+      "topCluster": "biotech-novel-biology",
+      "recentExamples": [
+        {
+          "company": "Nominal",
+          "cluster": "ai-saas-enterprise",
+          "addedDate": "2026-06-04"
+        },
+        {
+          "company": "Ultima Genomics",
+          "cluster": "genomics",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Nabla Bio",
+          "cluster": "antibody-ai",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Realta Fusion",
+          "cluster": "mirror-fusion",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Science Corporation",
+          "cluster": "brain-computer-interface",
+          "addedDate": "2026-03"
         }
       ]
     },
@@ -4281,10 +4258,10 @@
     },
     {
       "vc": "Lightspeed Venture Partners",
-      "recentCount": 12,
-      "totalCount": 14,
-      "score": 12.027,
-      "topCluster": "ai-clinical-health",
+      "recentCount": 11,
+      "totalCount": 13,
+      "score": 11.125,
+      "topCluster": "defense-munitions-energetics",
       "recentExamples": [
         {
           "company": "Kodiak AI",
@@ -4416,40 +4393,6 @@
       ]
     },
     {
-      "vc": "Bessemer Venture Partners",
-      "recentCount": 8,
-      "totalCount": 8,
-      "score": 7.651,
-      "topCluster": "arctic-defense",
-      "recentExamples": [
-        {
-          "company": "Dominion Dynamics",
-          "cluster": "arctic-defense",
-          "addedDate": "2026-06"
-        },
-        {
-          "company": "Sila Nanotechnologies",
-          "cluster": "battery-materials",
-          "addedDate": "2026-04"
-        },
-        {
-          "company": "Auterion",
-          "cluster": "autonomy-drone-military",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "Abridge",
-          "cluster": "ai-clinical-health",
-          "addedDate": "2026-03"
-        },
-        {
-          "company": "ANYbotics",
-          "cluster": "inspection-quality-robots",
-          "addedDate": "2026-03"
-        }
-      ]
-    },
-    {
       "vc": "Cantos Ventures",
       "recentCount": 8,
       "totalCount": 8,
@@ -4514,6 +4457,40 @@
           "company": "CX2 Industries",
           "cluster": "defense-ew-rf-cyber",
           "addedDate": "2026-02"
+        }
+      ]
+    },
+    {
+      "vc": "Bessemer Venture Partners",
+      "recentCount": 7,
+      "totalCount": 7,
+      "score": 6.684,
+      "topCluster": "arctic-defense",
+      "recentExamples": [
+        {
+          "company": "Dominion Dynamics",
+          "cluster": "arctic-defense",
+          "addedDate": "2026-06"
+        },
+        {
+          "company": "Sila Nanotechnologies",
+          "cluster": "battery-materials",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Auterion",
+          "cluster": "autonomy-drone-military",
+          "addedDate": "2026-03"
+        },
+        {
+          "company": "ANYbotics",
+          "cluster": "inspection-quality-robots",
+          "addedDate": "2026-03"
+        },
+        {
+          "company": "Xanadu Quantum Technologies",
+          "cluster": "quantum-photonic",
+          "addedDate": "2026-03"
         }
       ]
     },
