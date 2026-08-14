@@ -40379,21 +40379,21 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-14 04:55
+// Last updated: 2026-08-14 06:20
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Waymo", headline: "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadium", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "The Safety Reckoning Inside OpenAI", source: "Wired", time: "6h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Databricks", headline: "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.", source: "TechCrunch", time: "8h ago", impact: "high", unread: true },
-  { id: 4, type: "milestone", company: "OpenAI", headline: "OpenAI introduces 'Ultrafast,' a new mode that makes GPT-5.6 Sol work at 14x the speed", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "IBM partners with OpenAI to bolster enterprise AI push", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "Anthropic", headline: "Anthropic set AI agents loose on the same task. They started a turf war.", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Anthropic", headline: "XAI Grok 4.6 is Third Place But Close to OpenAI and Anthropic", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "Rivian", headline: "Rivian's 2027 R1S adds captain's chairs, its most-requested feature", source: "Electrek", time: "14h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Humanoid", headline: "Experts to discuss the state of humanoid robots at RoboBusiness", source: "The Robot Report", time: "16h ago", impact: "low", unread: false },
-  { id: 10, type: "contract", company: "Palantir", headline: "Pentagon hands Palantir up to $244M in no-bid work", source: "Defense One", time: "16h ago", impact: "medium", unread: false },
-  { id: 11, type: "hire", company: "Neura Robotics", headline: "NEURA Robotics acquires Bosch Rexroth's ACTIVE Shuttle to expand Physical AI ecosystem", source: "Tech.eu", time: "18h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Astranis", headline: "Astranis unveils geostationary surveillance satellite", source: "SpaceNews", time: "19h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Multiverse Computing", headline: "Inside Multiverse Computing, the Spanish startup vying to be Europe's next AI champion", source: "Sifted", time: "23h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Waymo", headline: "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadium", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "The Safety Reckoning Inside OpenAI", source: "Wired", time: "7h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Databricks", headline: "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.", source: "TechCrunch", time: "10h ago", impact: "high", unread: true },
+  { id: 4, type: "milestone", company: "OpenAI", headline: "OpenAI introduces 'Ultrafast,' a new mode that makes GPT-5.6 Sol work at 14x the speed", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "IBM partners with OpenAI to bolster enterprise AI push", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Anthropic", headline: "Anthropic set AI agents loose on the same task. They started a turf war.", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Anthropic", headline: "XAI Grok 4.6 is Third Place But Close to OpenAI and Anthropic", source: "Next Big Future", time: "15h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "Rivian", headline: "Rivian's 2027 R1S adds captain's chairs, its most-requested feature", source: "Electrek", time: "16h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Humanoid", headline: "Experts to discuss the state of humanoid robots at RoboBusiness", source: "The Robot Report", time: "17h ago", impact: "low", unread: false },
+  { id: 10, type: "contract", company: "Palantir", headline: "Pentagon hands Palantir up to $244M in no-bid work", source: "Defense One", time: "18h ago", impact: "medium", unread: false },
+  { id: 11, type: "hire", company: "Neura Robotics", headline: "NEURA Robotics acquires Bosch Rexroth's ACTIVE Shuttle to expand Physical AI ecosystem", source: "Tech.eu", time: "19h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Astranis", headline: "Astranis unveils geostationary surveillance satellite", source: "SpaceNews", time: "20h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Multiverse Computing", headline: "Inside Multiverse Computing, the Spanish startup vying to be Europe's next AI champion", source: "Sifted", time: "1d ago", impact: "low", unread: false },
   { id: 14, type: "news", company: "Waymo", headline: "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tariffs", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
   { id: 15, type: "ipo", company: "SpaceX", headline: "Updated SpaceX Catalysts", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
 ];
