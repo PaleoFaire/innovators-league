@@ -44060,25 +44060,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-14 08:22
-// Auto-generated real-time signals
-// Last updated: 2026-08-14
+// Last updated: 2026-08-14 10:12
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Waymo", headline: "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadium", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "The Safety Reckoning Inside OpenAI", source: "Wired", time: "9h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Databricks", headline: "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.", source: "TechCrunch", time: "12h ago", impact: "high", unread: true },
-  { id: 4, type: "milestone", company: "OpenAI", headline: "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that makes GPT-5.6 Sol work at 14x the speed", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "IBM partners with OpenAI to bolster enterprise AI push", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "Anthropic", headline: "Anthropic set AI agents loose on the same task. They started a turf war.", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Anthropic", headline: "XAI Grok 4.6 is Third Place But Close to OpenAI and Anthropic", source: "Next Big Future", time: "17h ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "Rivian", headline: "Rivian&#8217;s 2027 R1S adds captain&#8217;s chairs, its most-requested feature", source: "Electrek", time: "18h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Humanoid", headline: "Experts to discuss the state of humanoid robots at RoboBusiness", source: "The Robot Report", time: "19h ago", impact: "low", unread: false },
-  { id: 10, type: "contract", company: "Palantir", headline: "Pentagon hands Palantir up to $244M in no-bid work", source: "Defense One", time: "20h ago", impact: "medium", unread: false },
-  { id: 11, type: "hire", company: "Neura Robotics", headline: "NEURA Robotics acquires Bosch Rexroth’s ACTIVE Shuttle to expand Physical AI ecosystem", source: "Tech.eu", time: "21h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Astranis", headline: "Astranis unveils geostationary surveillance satellite", source: "SpaceNews", time: "22h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Multiverse Computing", headline: "Inside Multiverse Computing, the Spanish startup vying to be Europe's next AI champion", source: "Sifted", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Waymo", headline: "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tariffs", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "Updated SpaceX Catalysts", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Waymo", headline: "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadium", source: "CleanTechnica", time: "9h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "The Safety Reckoning Inside OpenAI", source: "Wired", time: "11h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Databricks", headline: "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.", source: "TechCrunch", time: "13h ago", impact: "high", unread: true },
+  { id: 4, type: "milestone", company: "OpenAI", headline: "OpenAI introduces 'Ultrafast,' a new mode that makes GPT-5.6 Sol work at 14x the speed", source: "TechCrunch", time: "14h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "IBM partners with OpenAI to bolster enterprise AI push", source: "TechCrunch", time: "14h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Anthropic", headline: "Anthropic set AI agents loose on the same task. They started a turf war.", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Rivian", headline: "Rivian's 2027 R1S adds captain's chairs, its most-requested feature", source: "Electrek", time: "20h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Humanoid", headline: "Experts to discuss the state of humanoid robots at RoboBusiness", source: "The Robot Report", time: "21h ago", impact: "low", unread: false },
+  { id: 9, type: "contract", company: "Palantir", headline: "Pentagon hands Palantir up to $244M in no-bid work", source: "Defense One", time: "22h ago", impact: "medium", unread: false },
+  { id: 10, type: "hire", company: "Neura Robotics", headline: "NEURA Robotics acquires Bosch Rexroth's ACTIVE Shuttle to expand Physical AI ecosystem", source: "Tech.eu", time: "23h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Astranis", headline: "Astranis unveils geostationary surveillance satellite", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Multiverse Computing", headline: "Inside Multiverse Computing, the Spanish startup vying to be Europe's next AI champion", source: "Sifted", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Waymo", headline: "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tariffs", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "Impulse Space", headline: "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "hire", company: "Waymo", headline: "Waymo has nearly 1,000 robotaxis waiting at its Arizona factory", source: "Electrek", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
