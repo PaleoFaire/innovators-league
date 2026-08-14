@@ -1,19 +1,19 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-08-13T06:24:04+00:00  
+**Generated:** 2026-08-14T06:21:37+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 41 companies  
+**Cohort size:** 43 companies  
 
-**New Claude extractions this run:** 41  
+**New Claude extractions this run:** 43  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 36 | 88% |
+| ✅ Cleared (data matches sources) | 38 | 88% |
 | 🔧 Changes proposed | 5 | 12% |
 | ❓ Unverifiable | 0 | 0% |
 
@@ -28,79 +28,79 @@ Review each change and reply with which ones to apply. **Source-cited diffs:**
 - **`fundingStage`:** `Series D` → `Pre-IPO`  
   Sources: [company_website](https://agilityrobotics.com)
 
-  **Notes:** Company announced merger with Churchill Capital Corp XI to go public (Source 0, June 24, 2026). Company rebranded as 'Agility' on March 5, 2026 (Source 2). Database entry lists Series D stage and $400M+ raised, but these specific figures cannot be verified from provided sources.
-
-### Form Energy
-
-- **`totalRaised`:** `$690M+` → `$750M`  
-  Sources: [company_website](https://formenergy.com)
-
-  **Notes:** Most recent funding is Series G for $750M announced August 12, 2026 (per source 0 WSJ article dated August 12, 2026). Manufacturing facility in Weirton, West Virginia (not general West Virginia as in database entry). Company has nearly 1,000 employees across West Virginia, Massachusetts, and California facilities (per source 1).
-
-### Impulse Space
-
-- **`fundingStage`:** `SPAC` → `Private`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Impulse_Space)
-- **`totalRaised`:** `$1.525B` → `$525M`  
-  Sources: [company_about](https://impulsespace.com/about)
-
-  **Notes:** Database entry lists Series D of $500M in June 2026 and total raised of $1.525B, but sources only verify: $30M seed (2022), $45M Series A (2023), $150M Series B (2024), $300M Series C (2025) = $525M total through 2025. No Series D funding or $4.26B valuation is mentioned in provided sources. Mira has had three launches confirmed (LEO Express 1, 2, 3 / Transporter-9 and Transporter-12 missions mentioned in Wikipedia).
+  **Notes:** Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Company rebranded as 'Agility' on March 5, 2026 (per source 2), though official website still uses 'Agility Robotics'. Sources do not provide specific total_raised amount, valuation, or complete investor list. Current CEO is Peggy Johnson (per source 1).
 
 ### Nano Nuclear Energy
 
 - **`fundingStage`:** `Seed` → `Public`  
   Sources: [company_website](https://nanonuclearenergy.com) · [company_about](https://nanonuclearenergy.com/about)
 
-  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicate company website content. Source [2] appears to be about a different company (Valar Atomics) and contains no information about NANO Nuclear Energy. Database entry claims regarding founder 'Jay Jiang Yu', founding year 2022, total raised $600M+, valuation $808M, and ODIN sale to Cambridge AtomWorks could not be verified from provided sources.
+  **Notes:** Company is listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicative company website content. Source [2] about Valar Atomics is not relevant to NANO Nuclear Energy and was not used. Founders, founding year, total raised amount, and valuation could not be verified from provided sources. Database entry claims about Jay Jiang Yu as founder, 2022 founding year, $600M+ raised, and $808M valuation are not supported by sources provided.
+
+### Neura Robotics
+
+- **`fundingStage`:** `Series B` → `Series C`  
+  Sources: [company_about](https://www.neura-robotics.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Neura_Robotics)
+- **`totalRaised`:** `$123.3M` → `$1.4B`  
+  Sources: [company_about](https://www.neura-robotics.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Neura_Robotics)
+
+  **Notes:** Company was originally founded in March 2019 as Han's Robot Germany GmbH and rebranded to Neura Robotics in November 2020. Series C funding round of up to $1.4B was announced in June 2026 with valuation at approximately €4B according to sources 1 and 2. Wikipedia source 2 indicates Series B was €120M (US$123.3M) raised in January 2025, which differs from database entry listing Series B as $123.3M total raised.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Company completed initial public offering on June 12, 2026. Wikipedia source indicates Elon Musk controls 85% of voting power (via super-voting stock), though database entry states 82%. Valuation not verified in sources provided; database claims $1.65T but no source supports this specific figure. Current stage is Public (IPO completed), not 'IPO' as listed in database.
+  **Notes:** Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion. Current database entry claims IPO is 'preparing' with $1.5T valuation, but Wikipedia source indicates IPO has already occurred and raised $86B. No independent source corroborates $1.5T or $1.65T valuation figures; valuation field set to null.
+
+### Valar Atomics
+
+- **`totalRaised`:** `~$1.8B` → `$1B`  
+  Sources: [news (Canary Media)](https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b)
+
+  **Notes:** Database entry claims Series B stage, $130M Series A, and $6B valuation, but these cannot be verified from provided sources. Source [2] headline mentions '$1B' raise but full article text not provided. Founder Isaiah P. Taylor born 1999 per Wikipedia [1]. Location 'El Segundo, CA' in database entry cannot be verified from sources.
 
 ---
 
-## ✅ Cleared (36 companies)
+## ✅ Cleared (38 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
 - 1X Technologies
-- AbCellera
 - Antares
 - AnySignal
 - Apptronik
 - Astera Labs
+- Astranis
+- Asylon Robotics
 - Aurora Innovation
 - Base Power
 - Cambridge Aerospace
-- Cognition
 - Dawn Aerospace
 - Deterrence
 - Durin
 - Einride
-- Firestorm Labs
+- Galvanick
+- HEO
 - Hadrian
 - Humanoid
 - ICON
-- Isembard
+- Impulse Space
 - Oklo
 - Orbital Composites
+- Palantir
 - Parallel Systems
+- Persona AI
 - Photonic Inc
-- Proteus Space
 - PsiQuantum
 - Quaise Energy
 - Radiant
 - Rebellions
-- Rocket Lab
-- Saildrone
-- *...and 6 more*
+- *...and 8 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-08-13T06:24:04+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-08-14T06:21:37+00:00*

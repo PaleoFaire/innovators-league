@@ -1,50 +1,52 @@
 {
-  "generatedAt": "2026-08-13T06:24:04+00:00",
+  "generatedAt": "2026-08-14T06:21:37+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 41,
-  "newExtractionsThisRun": 41,
+  "cohortSize": 43,
+  "newExtractionsThisRun": 43,
   "summary": {
-    "cleared": 36,
+    "cleared": 38,
     "changesProposed": 5,
     "unverifiable": 0
   },
   "cleared": [
     "1X Technologies",
-    "AbCellera",
     "Antares",
     "AnySignal",
     "Apptronik",
     "Astera Labs",
+    "Astranis",
+    "Asylon Robotics",
     "Aurora Innovation",
     "Base Power",
     "Cambridge Aerospace",
-    "Cognition",
     "Dawn Aerospace",
     "Deterrence",
     "Durin",
     "Einride",
-    "Firestorm Labs",
+    "Galvanick",
+    "HEO",
     "Hadrian",
     "Humanoid",
     "ICON",
-    "Isembard",
+    "Impulse Space",
     "Oklo",
     "Orbital Composites",
+    "Palantir",
     "Parallel Systems",
+    "Persona AI",
     "Photonic Inc",
-    "Proteus Space",
     "PsiQuantum",
     "Quaise Energy",
     "Radiant",
     "Rebellions",
+    "Rivian",
     "Rocket Lab",
-    "Saildrone",
     "Together AI",
-    "Valar Atomics",
     "Waymo",
     "Xtend",
     "Zettascale",
+    "ideaForge",
     "ispace"
   ],
   "changesProposed": [
@@ -61,7 +63,7 @@
       },
       "verified": {
         "name": "Agility Robotics",
-        "description": "A humanoid robotics company that develops and deploys Digit, a bipedal robot for warehouse and logistics automation. Digit is the first humanoid robot commercially deployed in real warehouse operations.",
+        "description": "A humanoid robotics company that develops and commercially deploys Digit, a bipedal robot designed for warehouse and logistics automation tasks. Digit is the first humanoid robot deployed in real commercial operations at facilities including Amazon, GXO Logistics, and others.",
         "founders": [
           "Jonathan Hurst",
           "Damion Shelton",
@@ -89,6 +91,7 @@
             2
           ],
           "location": [
+            1,
             2
           ],
           "founded_year": [
@@ -99,10 +102,11 @@
           ],
           "website": [
             0,
+            1,
             2
           ]
         },
-        "notes": "Company announced merger with Churchill Capital Corp XI to go public (Source 0, June 24, 2026). Company rebranded as 'Agility' on March 5, 2026 (Source 2). Database entry lists Series D stage and $400M+ raised, but these specific figures cannot be verified from provided sources."
+        "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Company rebranded as 'Agility' on March 5, 2026 (per source 2), though official website still uses 'Agility Robotics'. Sources do not provide specific total_raised amount, valuation, or complete investor list. Current CEO is Peggy Johnson (per source 1)."
       },
       "changes": [
         {
@@ -136,223 +140,7 @@
           "url": "https://electrek.co/2026/08/07/mitsubishi-joins-the-humanoid-robot-race-at-a-1000-unit-per-month-pace/"
         }
       ],
-      "notes": "Company announced merger with Churchill Capital Corp XI to go public (Source 0, June 24, 2026). Company rebranded as 'Agility' on March 5, 2026 (Source 2). Database entry lists Series D stage and $400M+ raised, but these specific figures cannot be verified from provided sources."
-    },
-    {
-      "name": "Form Energy",
-      "current": {
-        "name": "Form Energy",
-        "founder": "Mateo Jaramillo, Yet-Ming Chiang, Ted Wiley, William Woodford, Marco Ferrara",
-        "location": "Somerville, MA, US",
-        "founded": 2017,
-        "fundingStage": "Series G",
-        "totalRaised": "$690M+",
-        "website": "https://formenergy.com"
-      },
-      "verified": {
-        "name": "Form Energy",
-        "description": "Energy storage company developing iron-air batteries capable of cost-effectively storing electricity for 100 hours at a time to enable reliable year-round electric grids.",
-        "founders": [
-          "Mateo Jaramillo",
-          "Yet-Ming Chiang",
-          "Ted Wiley",
-          "William Woodford",
-          "Marco Ferrara"
-        ],
-        "location": "Somerville, MA, US",
-        "founded_year": 2017,
-        "current_stage": "Series G",
-        "total_raised": "$750M",
-        "valuation": null,
-        "investors": [
-          "Breakthrough Energy Ventures",
-          "Prelude Ventures",
-          "The Engine",
-          "Eni Next",
-          "ArcelorMittal",
-          "TPG Rise Climate",
-          "Coatue Management",
-          "Perry Creek Capital",
-          "NGP Energy Technology Partners III",
-          "Temasek"
-        ],
-        "website": "https://formenergy.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "current_stage": [
-            0
-          ],
-          "total_raised": [
-            0
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            2
-          ]
-        },
-        "notes": "Most recent funding is Series G for $750M announced August 12, 2026 (per source 0 WSJ article dated August 12, 2026). Manufacturing facility in Weirton, West Virginia (not general West Virginia as in database entry). Company has nearly 1,000 employees across West Virginia, Massachusetts, and California facilities (per source 1)."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$690M+",
-          "verified": "$750M",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://formenergy.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://formenergy.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Form_Energy"
-        },
-        {
-          "idx": 3,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/08/12/form-energy-raises-750m-to-build-more-100-hour-batteries-for-the-grid/"
-        }
-      ],
-      "notes": "Most recent funding is Series G for $750M announced August 12, 2026 (per source 0 WSJ article dated August 12, 2026). Manufacturing facility in Weirton, West Virginia (not general West Virginia as in database entry). Company has nearly 1,000 employees across West Virginia, Massachusetts, and California facilities (per source 1)."
-    },
-    {
-      "name": "Impulse Space",
-      "current": {
-        "name": "Impulse Space",
-        "founder": "Tom Mueller",
-        "location": "Redondo Beach, California, United States",
-        "founded": 2021,
-        "fundingStage": "SPAC",
-        "totalRaised": "$1.525B",
-        "website": "https://impulsespace.com"
-      },
-      "verified": {
-        "name": "Impulse Space",
-        "description": "American startup developing in-space transportation technology including orbital transfer vehicles (Mira and Helios) and rocket engines for moving satellites and payloads between orbits.",
-        "founders": [
-          "Tom Mueller"
-        ],
-        "location": "Redondo Beach, California, United States",
-        "founded_year": 2021,
-        "current_stage": "Private",
-        "total_raised": "$525M",
-        "valuation": null,
-        "investors": [
-          "Founders Fund",
-          "Lux Capital",
-          "RTX Ventures",
-          "Airbus Ventures",
-          "Space Capital"
-        ],
-        "website": "https://impulsespace.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            1
-          ],
-          "investors": [
-            2
-          ]
-        },
-        "notes": "Database entry lists Series D of $500M in June 2026 and total raised of $1.525B, but sources only verify: $30M seed (2022), $45M Series A (2023), $150M Series B (2024), $300M Series C (2025) = $525M total through 2025. No Series D funding or $4.26B valuation is mentioned in provided sources. Mira has had three launches confirmed (LEO Express 1, 2, 3 / Transporter-9 and Transporter-12 missions mentioned in Wikipedia)."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "SPAC",
-          "verified": "Private",
-          "sources": [
-            2
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$1.525B",
-          "verified": "$525M",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://impulsespace.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://impulsespace.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Impulse_Space"
-        },
-        {
-          "idx": 3,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/space-force-orders-two-more-impulse-space-vehicles-for-maneuvering-demonstrations/"
-        }
-      ],
-      "notes": "Database entry lists Series D of $500M in June 2026 and total raised of $1.525B, but sources only verify: $30M seed (2022), $45M Series A (2023), $150M Series B (2024), $300M Series C (2025) = $525M total through 2025. No Series D funding or $4.26B valuation is mentioned in provided sources. Mira has had three launches confirmed (LEO Express 1, 2, 3 / Transporter-9 and Transporter-12 missions mentioned in Wikipedia)."
+      "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Company rebranded as 'Agility' on March 5, 2026 (per source 2), though official website still uses 'Agility Robotics'. Sources do not provide specific total_raised amount, valuation, or complete investor list. Current CEO is Peggy Johnson (per source 1)."
     },
     {
       "name": "Nano Nuclear Energy",
@@ -367,7 +155,7 @@
       },
       "verified": {
         "name": "NANO Nuclear Energy Inc.",
-        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, with subsidiaries in fuel fabrication, fuel transportation, and space applications.",
+        "description": "A nuclear energy company developing advanced microreactor technologies including the KRONOS MMR Energy System, ZEUS battery reactor, and LOKI MMR, along with subsidiaries focused on nuclear fuel fabrication, transportation, and space applications.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -382,7 +170,6 @@
             1
           ],
           "description": [
-            0,
             1
           ],
           "location": [
@@ -393,7 +180,7 @@
             1
           ]
         },
-        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicate company website content. Source [2] appears to be about a different company (Valar Atomics) and contains no information about NANO Nuclear Energy. Database entry claims regarding founder 'Jay Jiang Yu', founding year 2022, total raised $600M+, valuation $808M, and ODIN sale to Cambridge AtomWorks could not be verified from provided sources."
+        "notes": "Company is listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicative company website content. Source [2] about Valar Atomics is not relevant to NANO Nuclear Energy and was not used. Founders, founding year, total raised amount, and valuation could not be verified from provided sources. Database entry claims about Jay Jiang Yu as founder, 2022 founding year, $600M+ raised, and $808M valuation are not supported by sources provided."
       },
       "changes": [
         {
@@ -423,7 +210,127 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicate company website content. Source [2] appears to be about a different company (Valar Atomics) and contains no information about NANO Nuclear Energy. Database entry claims regarding founder 'Jay Jiang Yu', founding year 2022, total raised $600M+, valuation $808M, and ODIN sale to Cambridge AtomWorks could not be verified from provided sources."
+      "notes": "Company is listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicative company website content. Source [2] about Valar Atomics is not relevant to NANO Nuclear Energy and was not used. Founders, founding year, total raised amount, and valuation could not be verified from provided sources. Database entry claims about Jay Jiang Yu as founder, 2022 founding year, $600M+ raised, and $808M valuation are not supported by sources provided."
+    },
+    {
+      "name": "Neura Robotics",
+      "current": {
+        "name": "Neura Robotics",
+        "founder": "David Reger",
+        "location": "Metzingen, Germany",
+        "founded": 2019,
+        "fundingStage": "Series B",
+        "totalRaised": "$123.3M",
+        "website": "https://www.neura-robotics.com"
+      },
+      "verified": {
+        "name": "Neura Robotics",
+        "description": "German robotics company founded in 2019 that develops cognitive robots, collaborative robots, and humanoid robots designed to operate alongside humans. The company builds technologies including the 4NE1 humanoid robot and operates the Neuraverse platform and ecosystem.",
+        "founders": [
+          "David Reger"
+        ],
+        "location": "Metzingen, Germany",
+        "founded_year": 2019,
+        "current_stage": "Series C",
+        "total_raised": "$1.4B",
+        "valuation": "\u20ac4B",
+        "investors": [
+          "Tether",
+          "Qualcomm Technologies",
+          "Amazon",
+          "NVIDIA",
+          "imec.xpa"
+        ],
+        "website": "https://www.neura-robotics.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            1,
+            2
+          ],
+          "total_raised": [
+            1,
+            2
+          ],
+          "valuation": [
+            1,
+            2
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Company was originally founded in March 2019 as Han's Robot Germany GmbH and rebranded to Neura Robotics in November 2020. Series C funding round of up to $1.4B was announced in June 2026 with valuation at approximately \u20ac4B according to sources 1 and 2. Wikipedia source 2 indicates Series B was \u20ac120M (US$123.3M) raised in January 2025, which differs from database entry listing Series B as $123.3M total raised."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series B",
+          "verified": "Series C",
+          "sources": [
+            1,
+            2
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$123.3M",
+          "verified": "$1.4B",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.neura-robotics.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.neura-robotics.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neura_Robotics"
+        },
+        {
+          "idx": 3,
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/08/13/neura-robotics-acquires-bosch-rexroths-active-shuttle-to-expand-physical-ai-ecosystem/"
+        }
+      ],
+      "notes": "Company was originally founded in March 2019 as Han's Robot Germany GmbH and rebranded to Neura Robotics in November 2020. Series C funding round of up to $1.4B was announced in June 2026 with valuation at approximately \u20ac4B according to sources 1 and 2. Wikipedia source 2 indicates Series B was \u20ac120M (US$123.3M) raised in January 2025, which differs from database entry listing Series B as $123.3M total raised."
     },
     {
       "name": "SpaceX",
@@ -438,7 +345,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. The company operates orbital launches, the Starlink satellite constellation, and artificial intelligence divisions.",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. The company operates orbital launches, the Starlink satellite constellation, and artificial intelligence divisions including Grok.",
         "founders": [
           "Elon Musk"
         ],
@@ -480,7 +387,7 @@
             0
           ]
         },
-        "notes": "Company completed initial public offering on June 12, 2026. Wikipedia source indicates Elon Musk controls 85% of voting power (via super-voting stock), though database entry states 82%. Valuation not verified in sources provided; database claims $1.65T but no source supports this specific figure. Current stage is Public (IPO completed), not 'IPO' as listed in database."
+        "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion. Current database entry claims IPO is 'preparing' with $1.5T valuation, but Wikipedia source indicates IPO has already occurred and raised $86B. No independent source corroborates $1.5T or $1.65T valuation figures; valuation field set to null."
       },
       "changes": [
         {
@@ -514,7 +421,82 @@
           "url": "https://www.nextbigfuture.com/2026/08/microsoft-will-lease-3-gigawatts-of-ai-data-center-from-spacex-in-2027.html"
         }
       ],
-      "notes": "Company completed initial public offering on June 12, 2026. Wikipedia source indicates Elon Musk controls 85% of voting power (via super-voting stock), though database entry states 82%. Valuation not verified in sources provided; database claims $1.65T but no source supports this specific figure. Current stage is Public (IPO completed), not 'IPO' as listed in database."
+      "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion. Current database entry claims IPO is 'preparing' with $1.5T valuation, but Wikipedia source indicates IPO has already occurred and raised $86B. No independent source corroborates $1.5T or $1.65T valuation figures; valuation field set to null."
+    },
+    {
+      "name": "Valar Atomics",
+      "current": {
+        "name": "Valar Atomics",
+        "founder": "Isaiah P. Taylor",
+        "location": "El Segundo, CA",
+        "founded": 2023,
+        "fundingStage": "Series B",
+        "totalRaised": "~$1.8B",
+        "website": "https://valaratomics.com"
+      },
+      "verified": {
+        "name": "Valar Atomics",
+        "description": "Nuclear energy company building high-temperature gas reactors (HTGR) on gigasites to produce hydrogen, data center power, industrial power, and clean hydrocarbon fuels.",
+        "founders": [
+          "Isaiah P. Taylor"
+        ],
+        "location": null,
+        "founded_year": 2023,
+        "current_stage": null,
+        "total_raised": "$1B",
+        "valuation": null,
+        "investors": null,
+        "website": "https://valaratomics.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "total_raised": [
+            2
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Database entry claims Series B stage, $130M Series A, and $6B valuation, but these cannot be verified from provided sources. Source [2] headline mentions '$1B' raise but full article text not provided. Founder Isaiah P. Taylor born 1999 per Wikipedia [1]. Location 'El Segundo, CA' in database entry cannot be verified from sources."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "~$1.8B",
+          "verified": "$1B",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://valaratomics.com"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Valar_Atomics"
+        },
+        {
+          "idx": 2,
+          "src": "news (Canary Media)",
+          "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
+        }
+      ],
+      "notes": "Database entry claims Series B stage, $130M Series A, and $6B valuation, but these cannot be verified from provided sources. Source [2] headline mentions '$1B' raise but full article text not provided. Founder Isaiah P. Taylor born 1999 per Wikipedia [1]. Location 'El Segundo, CA' in database entry cannot be verified from sources."
     }
   ],
   "unverifiable": []
