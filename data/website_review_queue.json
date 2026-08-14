@@ -1,0 +1,52 @@
+{
+  "needs_review": [
+    {
+      "company": "Halter",
+      "suggested": "https://www.halterhq.com"
+    },
+    {
+      "company": "Ohalo Genetics",
+      "suggested": "https://www.ohalo.com"
+    },
+    {
+      "company": "Copia Automation",
+      "suggested": "https://copia.io"
+    },
+    {
+      "company": "Corvus Robotics",
+      "suggested": "https://corvus.ai"
+    },
+    {
+      "company": "Swarmbotics AI",
+      "suggested": "https://www.swarmbotics.ai"
+    },
+    {
+      "company": "Merge Labs",
+      "suggested": "https://mergelabs.tech"
+    },
+    {
+      "company": "Matter",
+      "suggested": "https://www.matter.com"
+    },
+    {
+      "company": "Aslan",
+      "suggested": "https://aslan.io",
+      "rejected_because": "aslan.com is a payroll/pay company; ours is defense cyber"
+    },
+    {
+      "company": "Kayhan Space",
+      "suggested": "https://www.kayhanspace.com",
+      "rejected_because": "resolved URL returns a 404 page"
+    },
+    {
+      "company": "Electric Air",
+      "suggested": "https://electricair.com",
+      "rejected_because": "site is Electric Air & Marine (boats); ours is heat pumps"
+    },
+    {
+      "company": "ASI",
+      "suggested": "https://asi.space",
+      "rejected_because": "empty title, nothing to corroborate"
+    }
+  ]
+}
