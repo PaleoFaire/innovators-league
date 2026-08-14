@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-08-13 08:09:00 UTC
-// Total signals: 44 | Companies matched: 189
+// Last updated: 2026-08-14 08:05:18 UTC
+// Total signals: 44 | Companies matched: 190
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -1754,6 +1754,13 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
+        "name": "Meter",
+        "score": 40,
+        "matchReasons": [
+          "name: Meter"
+        ]
+      },
+      {
         "name": "Antares",
         "score": 26,
         "matchReasons": [
@@ -1828,17 +1835,10 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: earth observation",
           "techApproach overlap"
         ]
-      },
-      {
-        "name": "Array Labs",
-        "score": 16,
-        "matchReasons": [
-          "tag: satellite",
-          "techApproach overlap"
-        ]
       }
     ],
     "relevantCompanies": [
+      "Meter",
       "Antares",
       "Albedo",
       "Andrenam",
@@ -1847,8 +1847,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Muon Space",
       "Satellogic",
       "Open Cosmos",
-      "ICEYE",
-      "Array Labs"
+      "ICEYE"
     ]
   },
   {
@@ -2368,6 +2367,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Ambrosia Energy",
+        "score": 18,
+        "matchReasons": [
+          "tag: battery storage",
+          "techApproach overlap"
+        ]
+      },
+      {
         "name": "Skeleton Technologies",
         "score": 16,
         "matchReasons": [
@@ -2399,6 +2406,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Form Energy",
       "Peak Energy",
       "Voya Energy",
+      "Ambrosia Energy",
       "Skeleton Technologies",
       "Ouros Energy",
       "Lunar Energy"
@@ -3046,6 +3054,13 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
+        "name": "Meter",
+        "score": 40,
+        "matchReasons": [
+          "name: Meter"
+        ]
+      },
+      {
         "name": "Infleqtion",
         "score": 30,
         "matchReasons": [
@@ -3122,17 +3137,10 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: quantum sensing",
           "cluster: quantum-sensing"
         ]
-      },
-      {
-        "name": "Deepnight",
-        "score": 20,
-        "matchReasons": [
-          "tag: sensors",
-          "tag: defense"
-        ]
       }
     ],
     "relevantCompanies": [
+      "Meter",
       "Infleqtion",
       "Forterra",
       "Theseus",
@@ -3141,8 +3149,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Anduril Industries",
       "Picogrid",
       "Andrenam",
-      "NVision Imaging Technologies",
-      "Deepnight"
+      "NVision Imaging Technologies"
     ]
   },
   {
@@ -5053,16 +5060,14 @@ const GOV_PULL_SCORES_AUTO = {
   },
   "Array Labs": {
     "name": "Array Labs",
-    "govPullScore": 30,
-    "matchCount": 2,
+    "govPullScore": 17,
+    "matchCount": 1,
     "topAgencies": [
-      "National Reconnaissance Office (NRO)",
       "U.S. Space Force"
     ],
     "avgRelevance": 16,
     "topSignals": [
-      "Resilient Proliferated LEO Communications",
-      "Next-Generation Earth Observation Capabilities"
+      "Resilient Proliferated LEO Communications"
     ]
   },
   "Endurosat": {
@@ -5275,6 +5280,20 @@ const GOV_PULL_SCORES_AUTO = {
     "avgRelevance": 16,
     "topSignals": [
       "In-Space Assembly and Manufacturing"
+    ]
+  },
+  "Meter": {
+    "name": "Meter",
+    "govPullScore": 34,
+    "matchCount": 2,
+    "topAgencies": [
+      "DARPA",
+      "National Reconnaissance Office (NRO)"
+    ],
+    "avgRelevance": 40,
+    "topSignals": [
+      "Next-Generation Earth Observation Capabilities",
+      "Quantum Sensing for Position, Navigation, and Timing"
     ]
   },
   "Albedo": {
@@ -5792,6 +5811,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Long-Duration Energy Storage Technologies"
     ]
   },
+  "Ambrosia Energy": {
+    "name": "Ambrosia Energy",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "Department of Energy (DOE)"
+    ],
+    "avgRelevance": 18,
+    "topSignals": [
+      "Long-Duration Energy Storage Technologies"
+    ]
+  },
   "Skeleton Technologies": {
     "name": "Skeleton Technologies",
     "govPullScore": 25,
@@ -6259,18 +6290,6 @@ const GOV_PULL_SCORES_AUTO = {
       "Quantum Sensing for Position, Navigation, and Timing"
     ]
   },
-  "Deepnight": {
-    "name": "Deepnight",
-    "govPullScore": 16,
-    "matchCount": 1,
-    "topAgencies": [
-      "DARPA"
-    ],
-    "avgRelevance": 20,
-    "topSignals": [
-      "Quantum Sensing for Position, Navigation, and Timing"
-    ]
-  },
   "Asimov": {
     "name": "Asimov",
     "govPullScore": 17,
@@ -6634,6 +6653,6 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 189,
-  "lastUpdated": "2026-08-13 08:09:00 UTC"
+  "companiesMatched": 190,
+  "lastUpdated": "2026-08-14 08:05:18 UTC"
 };

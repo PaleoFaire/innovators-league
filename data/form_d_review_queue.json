@@ -1,17 +1,5 @@
 {
-  "generated_at": "2026-08-13T08:30:16.655534+00:00",
+  "generated_at": "2026-08-14T08:29:39.427122+00:00",
   "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
-  "candidates": [
-    {
-      "match_method": "name-candidate",
-      "company": "Karman Industries",
-      "issuer_name": "Karman Industries SPV II LLC",
-      "form": "D",
-      "filed_date": "2026-08-12",
-      "cik": "2146620",
-      "accession": "0002146620-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002146620&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002146620-26-000001"
-    }
-  ]
+  "candidates": []
 }

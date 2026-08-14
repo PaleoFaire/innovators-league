@@ -2,7 +2,7 @@
   {
     "prime": "Lockheed Martin",
     "ticker": "LMT",
-    "totalCompanies": 13,
+    "totalCompanies": 14,
     "portfolio": [
       {
         "company": "Anduril",
@@ -83,6 +83,15 @@
         "evidence": "Joint AI/ML platform"
       },
       {
+        "company": "Sustainment",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$8821.4M",
+        "agency": "Department of Defense",
+        "evidence": "FOLLOW-ON AGILE SUSTAINMENT TO THE RAPTOR (FASTER)",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA861108C2897_9700_-NONE-_-NONE-"
+      },
+      {
         "company": "space",
         "relationship": "gov contract",
         "source": "USAspending.gov",
@@ -96,7 +105,7 @@
   {
     "prime": "General Dynamics",
     "ticker": "GD",
-    "totalCompanies": 10,
+    "totalCompanies": 11,
     "portfolio": [
       {
         "company": "Anduril",
@@ -150,6 +159,15 @@
         "url": "https://www.usaspending.gov/award/CONT_AWD_47QFCA20F0049_4732_47QTCK18D0003_4732"
       },
       {
+        "company": "Sustainment",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$1189.3M",
+        "agency": "Department of Defense",
+        "evidence": "PURPOSE OF THIS AWARD IS A NEW OPTION CONTRACT TO GENERAL DYNAMICS LAND SYSTEMS (GDLS) FOR 5,940,169 HOURS OF SYSTEM TECHNICAL SUPPORT (STS)/SUSTAINMENT SYSTEM TECHNICAL SUPPORT (SSTS).",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV22C0012_9700_-NONE-_-NONE-"
+      },
+      {
         "company": "Union",
         "relationship": "mentioned",
         "source": "ROS company research",
@@ -178,7 +196,7 @@
   {
     "prime": "Raytheon / RTX",
     "ticker": "RTX",
-    "totalCompanies": 8,
+    "totalCompanies": 9,
     "portfolio": [
       {
         "company": "Anduril",
@@ -226,6 +244,15 @@
         "evidence": "Autonomous maritime systems"
       },
       {
+        "company": "Sustainment",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$3648.7M",
+        "agency": "Department of Defense",
+        "evidence": "F119 ENGINE LONG TERM SUSTAINMENT PROGRAM FOR THE RAPTOR ENGINE (SPARE)",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA861108C2896_9700_-NONE-_-NONE-"
+      },
+      {
         "company": "Volund Manufacturing",
         "relationship": "mentioned",
         "source": "ROS company research",
@@ -236,7 +263,7 @@
   {
     "prime": "Northrop Grumman",
     "ticker": "NOC",
-    "totalCompanies": 8,
+    "totalCompanies": 9,
     "portfolio": [
       {
         "company": "Anduril",
@@ -284,6 +311,15 @@
         "evidence": "Autonomy integration for B-21 ecosystem"
       },
       {
+        "company": "Sustainment",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$429.0M",
+        "agency": "Department of Defense",
+        "evidence": "SUSTAINMENT- CONTRACTOR LOGISTICS SUPPORT FOR JAPAN, REPUBLIC OF KOREA (ROK), AND NORTH ATLANTIC TREATY ORGANIZATION (NATO).",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA869024CB001_9700_-NONE-_-NONE-"
+      },
+      {
         "company": "space",
         "relationship": "gov contract",
         "source": "USAspending.gov",
@@ -297,7 +333,7 @@
   {
     "prime": "BAE Systems",
     "ticker": "BAESY",
-    "totalCompanies": 6,
+    "totalCompanies": 7,
     "portfolio": [
       {
         "company": "Integrate",
@@ -330,6 +366,15 @@
         "evidence": "Cyber-operational resilience for military platforms"
       },
       {
+        "company": "Sustainment",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$633.8M",
+        "agency": "Department of Defense",
+        "evidence": "IGF::OT::IGF BRADLEY SYSTEM TECHNICAL SUPPORT AND SUSTAINMENT SYSTEM TECHNICAL SUPPORT",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV15C0099_9700_-NONE-_-NONE-"
+      },
+      {
         "company": "general",
         "relationship": "gov contract",
         "source": "USAspending.gov",
@@ -352,7 +397,7 @@
   {
     "prime": "L3Harris",
     "ticker": "LHX",
-    "totalCompanies": 5,
+    "totalCompanies": 6,
     "portfolio": [
       {
         "company": "Anduril",
@@ -376,6 +421,15 @@
         "evidence": "Autonomous systems integration"
       },
       {
+        "company": "Sustainment",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$262.1M",
+        "agency": "Department of Defense",
+        "evidence": "MET SUSTAINMENT SUPPORT UCA",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W52P1J20C0014_9700_-NONE-_-NONE-"
+      },
+      {
         "company": "True Anomaly",
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
@@ -389,6 +443,55 @@
         "agency": "Department of Commerce",
         "evidence": "THE PURPOSE OF THIS CONTRACT IS TO DEVELOP THE GROUND SYSTEM THAT WILL SUPPORT NOAA S NEXT GENERATION GEOSTATIONARY SATELLITE SERIES, GOES-R. THIS NEW SERIES OF SPACECRAFT, SET TO BEGIN LAUNCHING IN 2",
         "url": "https://www.usaspending.gov/award/CONT_AWD_DOCDG133E09CN0094_1330_-NONE-_-NONE-"
+      }
+    ]
+  },
+  {
+    "prime": "Leidos",
+    "ticker": "LDOS",
+    "totalCompanies": 6,
+    "portfolio": [
+      {
+        "company": "HawkEye 360",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Signal intelligence services"
+      },
+      {
+        "company": "Palantir",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Healthcare/defense data integration"
+      },
+      {
+        "company": "Rebellion Defense",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Defense AI platform support"
+      },
+      {
+        "company": "Sustainment",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$922.6M",
+        "agency": "General Services Administration",
+        "evidence": "THE PURPOSE OF THIS TO IS TO PROVIDE RESEARCH, DESIGN, DEVELOPMENT, INTEGRATION, T&E, INITIAL FIELDING AND OPERATION, LOGISTICS, MAINTENANCE, SUSTAINMENT, AND TRAINING FOR APPLICABLE C5ISR SYSTEMS.",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_47QFCA22F0051_4732_GS00Q14OADU122_4732"
+      },
+      {
+        "company": "Volund Manufacturing",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "leidos"
+      },
+      {
+        "company": "space",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$1306.8M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "THE FACILITIES DEVELOPMENT AND OPERATIONS CONTRACT(FDOC) SPECIFIES TECHNICAL, MANAGERIAL, AND ADMINSTRATIVE WORK NEEDED TO ENSURE THE AVAILABLITITY, INTEGRITY, AND RELIABILITY OF MISSIONOPERATIONS FAC",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNJ09HD46C_8000_-NONE-_-NONE-"
       }
     ]
   },
@@ -429,46 +532,6 @@
         "relationship": "mentioned",
         "source": "ROS company research",
         "evidence": "saic"
-      }
-    ]
-  },
-  {
-    "prime": "Leidos",
-    "ticker": "LDOS",
-    "totalCompanies": 5,
-    "portfolio": [
-      {
-        "company": "HawkEye 360",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Signal intelligence services"
-      },
-      {
-        "company": "Palantir",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Healthcare/defense data integration"
-      },
-      {
-        "company": "Rebellion Defense",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Defense AI platform support"
-      },
-      {
-        "company": "Volund Manufacturing",
-        "relationship": "mentioned",
-        "source": "ROS company research",
-        "evidence": "leidos"
-      },
-      {
-        "company": "space",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$1306.8M",
-        "agency": "National Aeronautics and Space Administration",
-        "evidence": "THE FACILITIES DEVELOPMENT AND OPERATIONS CONTRACT(FDOC) SPECIFIES TECHNICAL, MANAGERIAL, AND ADMINSTRATIVE WORK NEEDED TO ENSURE THE AVAILABLITITY, INTEGRITY, AND RELIABILITY OF MISSIONOPERATIONS FAC",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_NNJ09HD46C_8000_-NONE-_-NONE-"
       }
     ]
   },
