@@ -11,19 +11,19 @@
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 8.41,
+      "avg_change": 8.65,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": -2.1,
+      "avg_change": -1.43,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 10.25,
+      "avg_change": 10.21,
       "count": 3
     },
     "climate": {
@@ -33,9 +33,9 @@
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 11.2,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 3.14,
       "count": 3
     },
     "biotech": {
@@ -61,7 +61,7 @@
     [
       "ACHR",
       "Archer Aviation",
-      33.17
+      33.27
     ],
     [
       "TEM",
@@ -86,11 +86,6 @@
   ],
   "topLosers": [
     [
-      "AMD",
-      "AMD",
-      -1.28
-    ],
-    [
       "ALAB",
       "Astera Labs",
       -2.63
@@ -106,10 +101,15 @@
       -14.24
     ],
     [
+      "QBTS",
+      "D-Wave Quantum",
+      -16.46
+    ],
+    [
       "EVTL",
       "Vertical Aerospace",
-      -33.21
+      -33.5
     ]
   ],
-  "lastUpdated": "2026-08-13 20:03:20"
+  "lastUpdated": "2026-08-14 03:32:41"
 }
