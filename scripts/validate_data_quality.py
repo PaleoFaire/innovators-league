@@ -141,6 +141,11 @@ def main():
     objs = company_objects(d)
     names = [gv(o, "name") for o in objs]
     names = [n for n in names if n]
+    # Renamed companies keep resolving via formerNames, so a rename never
+    # strands the analytics rows that still use the old label
+    # (e.g. Atomic Semi -> fab2, Aetherflux -> Cowboy Space Corporation).
+    former_names = set(re.findall(r'formerNames:\s*\[([^\]]*)\]', d))
+    former_set = {m for blk in former_names for m in re.findall(r'"([^"]+)"', blk)}
 
     # 1. duplicates
     seen = {}
@@ -204,7 +209,8 @@ def main():
     ORPHAN_FAIL_FLOOR = 25     # ...but never fail on a handful
 
     def resolves(ref):
-        if ref in name_set or ref in vc_names or ref in KNOWN_UNTRACKED:
+        if (ref in name_set or ref in vc_names or ref in KNOWN_UNTRACKED
+                or ref in former_set):
             return True
         return ALIASES.get(ref) in name_set
 
