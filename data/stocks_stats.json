@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 14.81,
+      "avg_change": 3.1,
       "count": 1
     },
     "space": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 8.65,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 5.06,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": -0.45,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -5.77,
       "count": 7
     },
     "nuclear": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 10.21,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 1.0,
       "count": 3
     },
     "climate": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 7.28,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.14,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 3.14,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 3.85,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 7.25,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 0.01,
       "count": 3
     },
     "transportation": {
-      "gainers": 2,
-      "losers": 0,
-      "avg_change": 4.62,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": 1.59,
       "count": 2
     },
     "chips": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -0.34,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 0.01,
       "count": 3
     }
   },
@@ -61,39 +61,39 @@
     [
       "ACHR",
       "Archer Aviation",
-      33.27
-    ],
-    [
-      "TEM",
-      "Tempus AI",
-      17.71
+      23.52
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      17.62
+      20.49
     ],
     [
       "SATL",
       "Satellogic",
-      16.87
+      9.24
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      7.74
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      16.52
+      7.59
     ]
   ],
   "topLosers": [
     [
-      "ALAB",
-      "Astera Labs",
-      -2.63
+      "AUR",
+      "Aurora Innovation",
+      -4.75
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      -3.33
+      "JOBY",
+      "Joby Aviation",
+      -7.0
     ],
     [
       "IDEAFORGE.NS",
@@ -101,15 +101,15 @@
       -8.57
     ],
     [
-      "QBTS",
-      "D-Wave Quantum",
-      -16.46
+      "DRSHF",
+      "DroneShield",
+      -12.1
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -33.5
+      -39.25
     ]
   ],
-  "lastUpdated": "2026-08-14 08:40:23"
+  "lastUpdated": "2026-08-14 14:23:15"
 }
