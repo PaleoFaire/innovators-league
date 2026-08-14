@@ -43,7 +43,7 @@ NOT_DUPLICATES = [  # distinct companies that naive suffix-stripping would merge
     ("Bedrock Energy", "Bedrock Robotics"), ("Foundry Lab", "Foundry Robotics"),
     ("Reflex Aerospace", "Reflex Robotics"), ("Scout AI", "Scout Space"),
     ("Space Forge", "Forge Robotics"), ("PAVE Space", "Pave Robotics"),
-    ("Rain Industries", "Rain AI"), ("Sift Stack", "Sift"),
+    ("Rain Industries", "Rain AI"),
 ]
 ALIASES = {
     "Anduril": "Anduril Industries", "Varda Space": "Varda Space Industries",

@@ -1,0 +1,81 @@
+name: Curated List Watcher
+
+# Diffs hand-curated frontier directories (buildlist.xyz, etc.) against
+# COMPANIES weekly. High precision: the first run found 192 worth adding out
+# of 728 listed, a better hit rate than any automated feed we run.
+# Writes to a review queue, never to data.js.
+
+on:
+  schedule:
+    - cron: '20 8 * * 1'        # Mondays 08:20 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: curated-lists-watcher
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python3 scripts/fetch_curated_lists.py
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit and push (retry on conflict)
+        run: |
+          for attempt in 1 2 3 4 5; do
+            git stash --include-untracked 2>/dev/null || true
+            git pull --rebase origin main || git rebase --abort 2>/dev/null || true
+            if ! git stash pop 2>/dev/null; then
+              if git stash list | grep -q .; then
+                git stash drop 2>/dev/null || true
+                git diff --name-only --diff-filter=U | xargs -r git checkout HEAD --
+                python3 scripts/fetch_curated_lists.py
+              fi
+            fi
+            git add data/curated_lists_auto.json data/curated_lists_auto.js \
+                    data/curated_review_queue.json 2>/dev/null || true
+            if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+            git commit -m "📋 Curated list watcher: $(date -u +%Y-%m-%d)"
+            git push origin main && exit 0
+            git reset --soft HEAD~1
+            sleep $((attempt * 5))
+          done
+          echo "::error::push failed after 5 attempts"; exit 1
+
+      - name: Surface candidates in the run summary
+        if: always()
+        run: |
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, pathlib
+          p = pathlib.Path("data/curated_lists_auto.json")
+          d = json.loads(p.read_text()) if p.exists() else {"sources": {}}
+          print("## Curated list watcher\n")
+          for key, s in d.get("sources", {}).items():
+              if s.get("error"):
+                  print(f"- **{key}**: FAILED — {s['error']}"); continue
+              print(f"**{key}** — {s['listed']} listed, {s['already_tracked']} tracked "
+                    f"({s['already_tracked']/max(s['listed'],1):.0%}), "
+                    f"**{s['in_scope_candidates']} pass the bar**\n")
+              for why, n in sorted(s.get("rejected_by_bar", {}).items(), key=lambda kv: -kv[1]):
+                  print(f"  - rejected {n}: {why}")
+              if s["candidates"]:
+                  print("\n| Company | Sector | Raised | Round | What |")
+                  print("|---|---|---|---|---|")
+                  for c in s["candidates"][:50]:
+                      print(f"| {c['name']} | {c['sector']} | {c['raised']} | {c['round']} | {c['tagline'][:70]} |")
+              print()
+          PY
