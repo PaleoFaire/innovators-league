@@ -1,7 +1,7 @@
 // Auto-generated from public_multiples_auto.json
-// Last updated: 2026-08-14T03:32:41+00:00
+// Last updated: 2026-08-14T08:40:24+00:00
 const PUBLIC_MULTIPLES_AUTO = {
-  "generatedAt": "2026-08-14T03:32:41+00:00",
+  "generatedAt": "2026-08-14T08:40:24+00:00",
   "source": "Yahoo Finance \u00b7 live quoteSummary modules (summaryDetail, defaultKeyStatistics, financialData)",
   "disclaimer": "Public market multiples sourced live from Yahoo Finance. Comparable Engine applies sector-median multiples to user-supplied private revenue figures. ROS does NOT estimate private-company revenue \u2014 those inputs must be supplied. All public values are verifiable on the linked Yahoo Finance ticker page.",
   "tickerCount": 32,
@@ -15,7 +15,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "price": 179.01,
       "marketCap": "N/A",
       "marketCapRaw": 0,
-      "trailingPE": 154.31897,
+      "trailingPE": 146.7295,
       "forwardPE": 77.351524,
       "priceToSalesTTM": 69.87908,
       "enterpriseToRevenue": 68.403,
@@ -26,7 +26,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.84796,
       "operatingMarginsTTM": 0.47120997,
       "ebitdaTTM": 2662629888,
-      "lastUpdated": "2026-08-14 03:32:03",
+      "lastUpdated": "2026-08-14 08:39:47",
       "yahooUrl": "https://finance.yahoo.com/quote/PLTR",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PLTR"
     },
@@ -49,7 +49,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.37264,
       "operatingMarginsTTM": -0.24572,
       "ebitdaTTM": -150520992,
-      "lastUpdated": "2026-08-14 03:32:04",
+      "lastUpdated": "2026-08-14 08:39:48",
       "yahooUrl": "https://finance.yahoo.com/quote/RKLB",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RKLB"
     },
@@ -72,7 +72,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.34289002,
       "operatingMarginsTTM": -6.75181,
       "ebitdaTTM": -838780032,
-      "lastUpdated": "2026-08-14 03:32:05",
+      "lastUpdated": "2026-08-14 08:39:49",
       "yahooUrl": "https://finance.yahoo.com/quote/JOBY",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=JOBY"
     },
@@ -95,7 +95,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.14493,
       "operatingMarginsTTM": -55.14,
       "ebitdaTTM": -905800000,
-      "lastUpdated": "2026-08-14 03:32:06",
+      "lastUpdated": "2026-08-14 08:39:50",
       "yahooUrl": "https://finance.yahoo.com/quote/ACHR",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ACHR"
     },
@@ -118,7 +118,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.55579,
       "operatingMarginsTTM": -0.30459,
       "ebitdaTTM": -51719000,
-      "lastUpdated": "2026-08-14 03:32:07",
+      "lastUpdated": "2026-08-14 08:39:51",
       "yahooUrl": "https://finance.yahoo.com/quote/PL",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PL"
     },
@@ -141,7 +141,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.096990004,
       "operatingMarginsTTM": -0.10295,
       "ebitdaTTM": -80640000,
-      "lastUpdated": "2026-08-14 03:32:09",
+      "lastUpdated": "2026-08-14 08:39:52",
       "yahooUrl": "https://finance.yahoo.com/quote/LUNR",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LUNR"
     },
@@ -164,7 +164,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.38914,
       "operatingMarginsTTM": -5.44626,
       "ebitdaTTM": -406319008,
-      "lastUpdated": "2026-08-14 03:32:10",
+      "lastUpdated": "2026-08-14 08:39:53",
       "yahooUrl": "https://finance.yahoo.com/quote/ASTS",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ASTS"
     },
@@ -179,15 +179,15 @@ const PUBLIC_MULTIPLES_AUTO = {
       "trailingPE": null,
       "forwardPE": -160.62177,
       "priceToSalesTTM": 28.381119,
-      "enterpriseToRevenue": 27.87,
-      "enterpriseToEbitda": -57.103,
+      "enterpriseToRevenue": 28.303,
+      "enterpriseToEbitda": -57.991,
       "revenueTTM": 31906000,
       "revenueTTMFormatted": "$31.9M",
       "revenueGrowthYoY": 2.585,
       "grossMarginsTTM": 0.78929,
       "operatingMarginsTTM": 0.01671,
       "ebitdaTTM": -15572000,
-      "lastUpdated": "2026-08-14 03:32:11",
+      "lastUpdated": "2026-08-14 08:39:55",
       "yahooUrl": "https://finance.yahoo.com/quote/SATL",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SATL"
     },
@@ -210,7 +210,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.40412998,
       "operatingMarginsTTM": -60.4876,
       "ebitdaTTM": -216798000,
-      "lastUpdated": "2026-08-14 03:32:13",
+      "lastUpdated": "2026-08-14 08:39:56",
       "yahooUrl": "https://finance.yahoo.com/quote/OKLO",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=OKLO"
     },
@@ -233,7 +233,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": null,
       "operatingMarginsTTM": null,
       "ebitdaTTM": -397867008,
-      "lastUpdated": "2026-08-14 03:32:14",
+      "lastUpdated": "2026-08-14 08:39:57",
       "yahooUrl": "https://finance.yahoo.com/quote/QS",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=QS"
     },
@@ -256,7 +256,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.30854,
       "operatingMarginsTTM": -4.08174,
       "ebitdaTTM": -793051008,
-      "lastUpdated": "2026-08-14 03:32:15",
+      "lastUpdated": "2026-08-14 08:39:58",
       "yahooUrl": "https://finance.yahoo.com/quote/IONQ",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IONQ"
     },
@@ -279,7 +279,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.34614,
       "operatingMarginsTTM": -5.4616604,
       "ebitdaTTM": -87229000,
-      "lastUpdated": "2026-08-14 03:32:16",
+      "lastUpdated": "2026-08-14 08:39:59",
       "yahooUrl": "https://finance.yahoo.com/quote/RGTI",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RGTI"
     },
@@ -302,7 +302,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.64185,
       "operatingMarginsTTM": -17.32055,
       "ebitdaTTM": -161195008,
-      "lastUpdated": "2026-08-14 03:32:17",
+      "lastUpdated": "2026-08-14 08:40:00",
       "yahooUrl": "https://finance.yahoo.com/quote/QBTS",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=QBTS"
     },
@@ -325,7 +325,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": null,
       "operatingMarginsTTM": -17.59687,
       "ebitdaTTM": -471604000,
-      "lastUpdated": "2026-08-14 03:32:18",
+      "lastUpdated": "2026-08-14 08:40:01",
       "yahooUrl": "https://finance.yahoo.com/quote/RXRX",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RXRX"
     },
@@ -348,7 +348,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.63979,
       "operatingMarginsTTM": -0.19847,
       "ebitdaTTM": -202398000,
-      "lastUpdated": "2026-08-14 03:32:19",
+      "lastUpdated": "2026-08-14 08:40:02",
       "yahooUrl": "https://finance.yahoo.com/quote/TEM",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TEM"
     },
@@ -371,7 +371,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.07513,
       "operatingMarginsTTM": -0.50422,
       "ebitdaTTM": -2713999872,
-      "lastUpdated": "2026-08-14 03:32:20",
+      "lastUpdated": "2026-08-14 08:40:02",
       "yahooUrl": "https://finance.yahoo.com/quote/RIVN",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RIVN"
     },
@@ -383,7 +383,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "price": 322.78,
       "marketCap": "N/A",
       "marketCapRaw": 0,
-      "trailingPE": 158.2255,
+      "trailingPE": 155.93237,
       "forwardPE": 50.48494,
       "priceToSalesTTM": 46.590096,
       "enterpriseToRevenue": 45.585,
@@ -394,7 +394,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.75128996,
       "operatingMarginsTTM": 0.22744,
       "ebitdaTTM": 285396000,
-      "lastUpdated": "2026-08-14 03:32:21",
+      "lastUpdated": "2026-08-14 08:40:03",
       "yahooUrl": "https://finance.yahoo.com/quote/ALAB",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ALAB"
     },
@@ -406,7 +406,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "price": 225.3,
       "marketCap": "N/A",
       "marketCapRaw": 0,
-      "trailingPE": 34.344513,
+      "trailingPE": 34.555214,
       "forwardPE": 17.578917,
       "priceToSalesTTM": 21.527357,
       "enterpriseToRevenue": 21.349,
@@ -417,7 +417,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.74144995,
       "operatingMarginsTTM": 0.65596,
       "ebitdaTTM": 165514002432,
-      "lastUpdated": "2026-08-14 03:32:23",
+      "lastUpdated": "2026-08-14 08:40:04",
       "yahooUrl": "https://finance.yahoo.com/quote/NVDA",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NVDA"
     },
@@ -432,15 +432,15 @@ const PUBLIC_MULTIPLES_AUTO = {
       "trailingPE": 123.53197,
       "forwardPE": 31.242825,
       "priceToSalesTTM": 19.08974,
-      "enterpriseToRevenue": 18.876,
-      "enterpriseToEbitda": 81.538,
+      "enterpriseToRevenue": 18.873,
+      "enterpriseToEbitda": 81.524,
       "revenueTTM": 41305001984,
       "revenueTTMFormatted": "$41.31B",
       "revenueGrowthYoY": 0.501,
       "grossMarginsTTM": 0.55724,
       "operatingMarginsTTM": 0.1725,
       "ebitdaTTM": 9562000384,
-      "lastUpdated": "2026-08-14 03:32:24",
+      "lastUpdated": "2026-08-14 08:40:05",
       "yahooUrl": "https://finance.yahoo.com/quote/AMD",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMD"
     },
@@ -463,7 +463,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": null,
       "operatingMarginsTTM": -133.0,
       "ebitdaTTM": -939000000,
-      "lastUpdated": "2026-08-14 03:32:25",
+      "lastUpdated": "2026-08-14 08:40:06",
       "yahooUrl": "https://finance.yahoo.com/quote/AUR",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AUR"
     },
@@ -486,7 +486,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.4635,
       "operatingMarginsTTM": -0.81622005,
       "ebitdaTTM": -53529000,
-      "lastUpdated": "2026-08-14 03:32:27",
+      "lastUpdated": "2026-08-14 08:40:09",
       "yahooUrl": "https://finance.yahoo.com/quote/LNZA",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LNZA"
     },
@@ -509,7 +509,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": null,
       "operatingMarginsTTM": null,
       "ebitdaTTM": -44967152,
-      "lastUpdated": "2026-08-14 03:32:28",
+      "lastUpdated": "2026-08-14 08:40:10",
       "yahooUrl": "https://finance.yahoo.com/quote/NNE",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NNE"
     },
@@ -532,7 +532,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.23545,
       "operatingMarginsTTM": -853.37335,
       "ebitdaTTM": -224090000,
-      "lastUpdated": "2026-08-14 03:32:30",
+      "lastUpdated": "2026-08-14 08:40:11",
       "yahooUrl": "https://finance.yahoo.com/quote/SMR",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SMR"
     },
@@ -555,7 +555,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": -1.0505999,
       "operatingMarginsTTM": 29.78269,
       "ebitdaTTM": -88048000,
-      "lastUpdated": "2026-08-14 03:32:31",
+      "lastUpdated": "2026-08-14 08:40:12",
       "yahooUrl": "https://finance.yahoo.com/quote/SLDP",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SLDP"
     },
@@ -568,7 +568,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -0.6293165,
+      "forwardPE": -0.5607931,
       "priceToSalesTTM": null,
       "enterpriseToRevenue": null,
       "enterpriseToEbitda": -0.274,
@@ -578,7 +578,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": null,
       "operatingMarginsTTM": null,
       "ebitdaTTM": -133805000,
-      "lastUpdated": "2026-08-14 03:32:32",
+      "lastUpdated": "2026-08-14 08:40:13",
       "yahooUrl": "https://finance.yahoo.com/quote/EVTL",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EVTL"
     },
@@ -601,7 +601,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.0032,
       "operatingMarginsTTM": -5.91476,
       "ebitdaTTM": -15127000064,
-      "lastUpdated": "2026-08-14 03:32:33",
+      "lastUpdated": "2026-08-14 08:40:17",
       "yahooUrl": "https://finance.yahoo.com/quote/ASRHF",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ASRHF"
     },
@@ -624,7 +624,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.60931,
       "operatingMarginsTTM": -0.03497,
       "ebitdaTTM": 2401000,
-      "lastUpdated": "2026-08-14 03:32:35",
+      "lastUpdated": "2026-08-14 08:40:18",
       "yahooUrl": "https://finance.yahoo.com/quote/DRSHF",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DRSHF"
     },
@@ -633,12 +633,12 @@ const PUBLIC_MULTIPLES_AUTO = {
       "company": "Oxford Nanopore Technologies",
       "sector": "biotech",
       "sectorLabel": "Biotech & Health",
-      "price": 126.1,
+      "price": 124.85,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -16.094448,
-      "priceToSalesTTM": 5.4925942,
+      "forwardPE": -15.934907,
+      "priceToSalesTTM": 5.4381475,
       "enterpriseToRevenue": 4.486,
       "enterpriseToEbitda": -8.689,
       "revenueTTM": 223900000,
@@ -647,7 +647,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.6092,
       "operatingMarginsTTM": -0.48689997,
       "ebitdaTTM": -115600000,
-      "lastUpdated": "2026-08-14 03:32:36",
+      "lastUpdated": "2026-08-14 08:40:19",
       "yahooUrl": "https://finance.yahoo.com/quote/ONT.L",
       "secUrl": null
     },
@@ -656,12 +656,12 @@ const PUBLIC_MULTIPLES_AUTO = {
       "company": "Rainbow Robotics",
       "sector": "robotics",
       "sectorLabel": "Robotics",
-      "price": 495500.0,
+      "price": 501000.0,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
       "forwardPE": null,
-      "priceToSalesTTM": 246.47237,
+      "priceToSalesTTM": 249.20818,
       "enterpriseToRevenue": 245.653,
       "enterpriseToEbitda": -6275.13,
       "revenueTTM": 39000842240,
@@ -670,7 +670,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.33401,
       "operatingMarginsTTM": -0.17292,
       "ebitdaTTM": -1526769024,
-      "lastUpdated": "2026-08-14 03:32:37",
+      "lastUpdated": "2026-08-14 08:40:20",
       "yahooUrl": "https://finance.yahoo.com/quote/277810.KQ",
       "secUrl": null
     },
@@ -679,12 +679,12 @@ const PUBLIC_MULTIPLES_AUTO = {
       "company": "ideaForge",
       "sector": "defense",
       "sectorLabel": "Defense & Dual-use",
-      "price": 781.8,
+      "price": 820.85,
       "marketCap": "N/A",
       "marketCapRaw": 0,
-      "trailingPE": 909.06976,
-      "forwardPE": 23.061945,
-      "priceToSalesTTM": 13.877807,
+      "trailingPE": 954.4767,
+      "forwardPE": 24.213863,
+      "priceToSalesTTM": 14.570988,
       "enterpriseToRevenue": null,
       "enterpriseToEbitda": null,
       "revenueTTM": 2799510016,
@@ -693,7 +693,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.55334,
       "operatingMarginsTTM": -0.1407,
       "ebitdaTTM": 291835008,
-      "lastUpdated": "2026-08-14 03:32:38",
+      "lastUpdated": "2026-08-14 08:40:21",
       "yahooUrl": "https://finance.yahoo.com/quote/IDEAFORGE.NS",
       "secUrl": null
     },
@@ -716,7 +716,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": null,
       "operatingMarginsTTM": -32.7291,
       "ebitdaTTM": -15334363136,
-      "lastUpdated": "2026-08-14 03:32:39",
+      "lastUpdated": "2026-08-14 08:40:22",
       "yahooUrl": "https://finance.yahoo.com/quote/9348.T",
       "secUrl": null
     },
@@ -728,7 +728,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "price": 339.96,
       "marketCap": "N/A",
       "marketCapRaw": 0,
-      "trailingPE": 314.77777,
+      "trailingPE": 303.5357,
       "forwardPE": 155.97859,
       "priceToSalesTTM": 12.957934,
       "enterpriseToRevenue": 12.699,
@@ -739,7 +739,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       "grossMarginsTTM": 0.18852,
       "operatingMarginsTTM": 0.014099999,
       "ebitdaTTM": 10755000320,
-      "lastUpdated": "2026-08-14 03:32:40",
+      "lastUpdated": "2026-08-14 08:40:23",
       "yahooUrl": "https://finance.yahoo.com/quote/TSLA",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TSLA"
     }
@@ -771,9 +771,9 @@ const PUBLIC_MULTIPLES_AUTO = {
         "n": 1
       },
       "trailingPE": {
-        "median": 154.31897,
-        "p25": 154.31897,
-        "p75": 154.31897,
+        "median": 146.7295,
+        "p25": 146.7295,
+        "p75": 146.7295,
         "n": 1
       },
       "revenueGrowth": {
@@ -878,7 +878,7 @@ const PUBLIC_MULTIPLES_AUTO = {
       ],
       "priceToSales": {
         "median": 6.840554,
-        "p25": 6.1665741,
+        "p25": 6.13935075,
         "p75": 19.599522,
         "n": 3
       },
@@ -958,9 +958,9 @@ const PUBLIC_MULTIPLES_AUTO = {
         "IDEAFORGE.NS"
       ],
       "priceToSales": {
-        "median": 10.028980650000001,
-        "p25": 8.104567475,
-        "p75": 11.953393825000001,
+        "median": 10.375571149999999,
+        "p25": 8.277862725,
+        "p75": 12.473279575,
         "n": 2
       },
       "evRevenue": {
@@ -976,9 +976,9 @@ const PUBLIC_MULTIPLES_AUTO = {
         "n": 1
       },
       "trailingPE": {
-        "median": 909.06976,
-        "p25": 909.06976,
-        "p75": 909.06976,
+        "median": 954.4767,
+        "p25": 954.4767,
+        "p75": 954.4767,
         "n": 1
       },
       "revenueGrowth": {
@@ -1017,9 +1017,9 @@ const PUBLIC_MULTIPLES_AUTO = {
         "n": 2
       },
       "trailingPE": {
-        "median": 314.77777,
-        "p25": 314.77777,
-        "p75": 314.77777,
+        "median": 303.5357,
+        "p25": 303.5357,
+        "p75": 303.5357,
         "n": 1
       },
       "revenueGrowth": {
@@ -1164,9 +1164,9 @@ const PUBLIC_MULTIPLES_AUTO = {
         "277810.KQ"
       ],
       "priceToSales": {
-        "median": 246.47237,
-        "p25": 246.47237,
-        "p75": 246.47237,
+        "median": 249.20818,
+        "p25": 249.20818,
+        "p75": 249.20818,
         "n": 1
       },
       "evRevenue": {
@@ -1213,20 +1213,20 @@ const PUBLIC_MULTIPLES_AUTO = {
       },
       "evRevenue": {
         "median": 21.349,
-        "p25": 20.1125,
+        "p25": 20.111,
         "p75": 33.467,
         "n": 3
       },
       "evEbitda": {
-        "median": 81.538,
-        "p25": 57.117999999999995,
-        "p75": 136.7565,
+        "median": 81.524,
+        "p25": 57.111000000000004,
+        "p75": 136.7495,
         "n": 3
       },
       "trailingPE": {
         "median": 123.53197,
-        "p25": 78.9382415,
-        "p75": 140.878735,
+        "p25": 79.04359199999999,
+        "p75": 139.73217,
         "n": 3
       },
       "revenueGrowth": {
@@ -1258,14 +1258,14 @@ const PUBLIC_MULTIPLES_AUTO = {
         "n": 6
       },
       "evRevenue": {
-        "median": 27.87,
+        "median": 28.303,
         "p25": 18.776,
         "p75": 43.957499999999996,
         "n": 7
       },
       "evEbitda": {
         "median": -55.744,
-        "p25": -111.482,
+        "p25": -111.92599999999999,
         "p75": -26.996,
         "n": 7
       },
