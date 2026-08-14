@@ -47,6 +47,36 @@
       "company": "ASI",
       "suggested": "https://asi.space",
       "rejected_because": "empty title, nothing to corroborate"
+    },
+    {
+      "company": "Watoga Technologies",
+      "suggested": "https://www.watoga.io/",
+      "rejected_because": "watoga.io has no DNS; company active (Montreal, PitchBook)"
+    },
+    {
+      "company": "Stardust Solutions",
+      "suggested": "https://stardustsolutions.io",
+      "rejected_because": "stardustsolutions.io has no DNS; company active (Israel)"
+    },
+    {
+      "company": "Vermeer",
+      "suggested": "https://vermeer.tech",
+      "rejected_because": "vermeer.tech has no DNS; closed $10M Series A, active Aug 2026"
+    },
+    {
+      "company": "Elementary Robotics",
+      "suggested": "https://www.elementaryml.com/",
+      "rejected_because": "elementary.com is a for-sale parking page, not theirs"
+    },
+    {
+      "company": "Hypernova Space Technologies",
+      "suggested": "https://www.hypernovaspace.com",
+      "rejected_because": "hypernovaspace.com returns 404"
+    },
+    {
+      "company": "Spiritus",
+      "suggested": "https://spiritus.com/en",
+      "rejected_because": "spiritus.com/en returns 404"
     }
   ]
 }
