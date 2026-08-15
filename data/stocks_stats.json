@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 1.17,
+      "avg_change": 1.18,
       "count": 1
     },
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 3.86,
+      "avg_change": 3.96,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -5.83,
+      "avg_change": -5.94,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.77,
+      "avg_change": -2.81,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 2.45,
+      "avg_change": 2.15,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 3.8,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -4.3,
       "count": 3
     },
     "biotech": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -1.38,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -1.36,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.12,
+      "avg_change": 0.08,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 0.96,
+      "avg_change": 1.07,
       "count": 3
     }
   },
@@ -61,12 +61,12 @@
     [
       "ACHR",
       "Archer Aviation",
-      17.98
+      18.43
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      15.88
+      15.91
     ],
     [
       "277810.KQ",
@@ -76,7 +76,7 @@
     [
       "AMD",
       "AMD",
-      6.36
+      6.42
     ],
     [
       "ASRHF",
@@ -88,12 +88,7 @@
     [
       "OKLO",
       "Oklo",
-      -8.14
-    ],
-    [
-      "JOBY",
-      "Joby Aviation",
-      -8.16
+      -8.34
     ],
     [
       "IDEAFORGE.NS",
@@ -106,10 +101,15 @@
       -10.83
     ],
     [
+      "QBTS",
+      "D-Wave Quantum",
+      -21.92
+    ],
+    [
       "EVTL",
       "Vertical Aerospace",
-      -38.14
+      -39.01
     ]
   ],
-  "lastUpdated": "2026-08-14 19:58:49"
+  "lastUpdated": "2026-08-15 02:21:19"
 }
