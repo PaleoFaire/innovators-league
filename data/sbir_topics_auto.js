@@ -1,6 +1,6 @@
 // Auto-generated SBIR topics + full-company bid-fit scoring
 // Topics: 10  |  Matching: TF-IDF weighted
-// Last updated: 2026-08-14 08:29:42 UTC
+// Last updated: 2026-08-15 07:44:45 UTC
 const SBIR_TOPICS_AUTO = [
   {
     "id": "DOD-SBIR-2026-006",
@@ -55,7 +55,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Perennial Autonomy",
         "sector": "Defense & Security",
-        "bid_fit_score": 17.9,
+        "bid_fit_score": 17.8,
         "matched_terms": [
           "counter",
           "defense",
@@ -133,16 +133,6 @@ const SBIR_TOPICS_AUTO = [
         ]
       },
       {
-        "company": "Hypersonix Launch Systems",
-        "sector": "Defense & Security",
-        "bid_fit_score": 19.8,
-        "matched_terms": [
-          "hypersonic",
-          "flight",
-          "defense"
-        ]
-      },
-      {
         "company": "Long Wall",
         "sector": "Defense & Security",
         "bid_fit_score": 19.8,
@@ -150,6 +140,16 @@ const SBIR_TOPICS_AUTO = [
           "hypersonic",
           "defense",
           "flight"
+        ]
+      },
+      {
+        "company": "Hypersonix Launch Systems",
+        "sector": "Defense & Security",
+        "bid_fit_score": 19.8,
+        "matched_terms": [
+          "hypersonic",
+          "flight",
+          "defense"
         ]
       },
       {
@@ -173,7 +173,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Radical AI",
         "sector": "Robotics & Manufacturing",
-        "bid_fit_score": 16.4,
+        "bid_fit_score": 16.3,
         "matched_terms": [
           "materials",
           "defense"
@@ -223,7 +223,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "General Matter",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 45.6,
+        "bid_fit_score": 45.4,
         "matched_terms": [
           "nuclear",
           "haleu",
@@ -233,7 +233,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Newcleo",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 41.8,
+        "bid_fit_score": 41.7,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -243,7 +243,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Standard Nuclear",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 40.2,
+        "bid_fit_score": 40.1,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -253,7 +253,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Exodys Energy",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 36.8,
+        "bid_fit_score": 36.7,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -263,7 +263,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Project Omega",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 33.2,
+        "bid_fit_score": 33.1,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -273,7 +273,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Deep Isolation",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 30.8,
+        "bid_fit_score": 30.7,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -283,7 +283,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Curio Solutions",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 29.5,
+        "bid_fit_score": 29.4,
         "matched_terms": [
           "fuel",
           "nuclear",
@@ -293,7 +293,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Valar Atomics",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 27.6,
+        "bid_fit_score": 27.5,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -346,7 +346,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Kvertus",
         "sector": "Defense & Security",
-        "bid_fit_score": 19.5,
+        "bid_fit_score": 19.4,
         "matched_terms": [
           "electronic",
           "warfare",
@@ -428,7 +428,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Peak Quantum",
         "sector": "Quantum Computing",
-        "bid_fit_score": 42.4,
+        "bid_fit_score": 42.3,
         "matched_terms": [
           "error",
           "quantum",
@@ -438,7 +438,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Nord Quantique",
         "sector": "Quantum Computing",
-        "bid_fit_score": 40.7,
+        "bid_fit_score": 40.6,
         "matched_terms": [
           "correction",
           "quantum",
@@ -448,7 +448,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Riverlane",
         "sector": "Quantum Computing",
-        "bid_fit_score": 34.8,
+        "bid_fit_score": 34.7,
         "matched_terms": [
           "correction",
           "error",
@@ -458,7 +458,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Quantinuum",
         "sector": "Quantum Computing",
-        "bid_fit_score": 33.4,
+        "bid_fit_score": 33.3,
         "matched_terms": [
           "quantum",
           "computing",
@@ -468,7 +468,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Alice & Bob",
         "sector": "Quantum Computing",
-        "bid_fit_score": 30.9,
+        "bid_fit_score": 30.8,
         "matched_terms": [
           "quantum",
           "fault",
@@ -478,7 +478,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Oxford Quantum Circuits",
         "sector": "Quantum Computing",
-        "bid_fit_score": 30.2,
+        "bid_fit_score": 30.1,
         "matched_terms": [
           "quantum",
           "computing",
@@ -488,7 +488,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Q-CTRL",
         "sector": "Quantum Computing",
-        "bid_fit_score": 30.2,
+        "bid_fit_score": 30.1,
         "matched_terms": [
           "quantum",
           "hardware",
@@ -498,7 +498,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "QuamCore",
         "sector": "Quantum Computing",
-        "bid_fit_score": 27.9,
+        "bid_fit_score": 27.8,
         "matched_terms": [
           "fault",
           "tolerant",
@@ -530,7 +530,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Dream Security",
         "sector": "Defense & Security",
-        "bid_fit_score": 14.2,
+        "bid_fit_score": 14.1,
         "matched_terms": [
           "critical",
           "infrastructure",
@@ -578,7 +578,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Earth AI",
         "sector": "Infrastructure & Logistics",
-        "bid_fit_score": 11.4,
+        "bid_fit_score": 11.3,
         "matched_terms": [
           "critical",
           "infrastructure",
@@ -630,7 +630,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Cascade Space",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 62.3,
+        "bid_fit_score": 62.2,
         "matched_terms": [
           "deep",
           "space",
@@ -640,7 +640,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Bellatrix Aerospace",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 23.1,
+        "bid_fit_score": 23.0,
         "matched_terms": [
           "propulsion",
           "space"
@@ -649,7 +649,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Orbital Operations",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 20.5,
+        "bid_fit_score": 20.4,
         "matched_terms": [
           "space",
           "missions",
@@ -659,7 +659,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Turion Space",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 20.3,
+        "bid_fit_score": 20.2,
         "matched_terms": [
           "space",
           "operations"
@@ -668,7 +668,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Astroscale",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 20.1,
+        "bid_fit_score": 20.0,
         "matched_terms": [
           "operations",
           "space"
@@ -677,7 +677,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Rocket Lab",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 18.9,
+        "bid_fit_score": 18.8,
         "matched_terms": [
           "missions",
           "space"
@@ -686,7 +686,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Viridian Space",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 18.8,
+        "bid_fit_score": 18.7,
         "matched_terms": [
           "propulsion",
           "space"
@@ -695,7 +695,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Starpath Robotics",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 18.2,
+        "bid_fit_score": 18.1,
         "matched_terms": [
           "space",
           "deep"
@@ -726,7 +726,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Focused Energy",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 28.6,
+        "bid_fit_score": 28.5,
         "matched_terms": [
           "fusion",
           "net",
@@ -766,7 +766,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Commonwealth Fusion Systems",
         "sector": "Climate & Energy",
-        "bid_fit_score": 22.3,
+        "bid_fit_score": 22.2,
         "matched_terms": [
           "net",
           "energy",
@@ -786,7 +786,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Inertia Enterprises",
         "sector": "Climate & Energy",
-        "bid_fit_score": 20.0,
+        "bid_fit_score": 19.9,
         "matched_terms": [
           "net",
           "energy",
@@ -830,7 +830,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Thalassa Robotics",
         "sector": "Ocean & Maritime",
-        "bid_fit_score": 29.8,
+        "bid_fit_score": 29.7,
         "matched_terms": [
           "undersea",
           "maritime",
@@ -840,7 +840,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Seasats",
         "sector": "Ocean & Maritime",
-        "bid_fit_score": 28.7,
+        "bid_fit_score": 28.6,
         "matched_terms": [
           "maritime",
           "surface",
@@ -850,7 +850,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "BlackSea Technologies",
         "sector": "Defense & Security",
-        "bid_fit_score": 24.5,
+        "bid_fit_score": 24.4,
         "matched_terms": [
           "naval",
           "maritime",
@@ -860,7 +860,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Saronic",
         "sector": "Defense & Security",
-        "bid_fit_score": 20.5,
+        "bid_fit_score": 20.4,
         "matched_terms": [
           "naval",
           "autonomous",
@@ -900,7 +900,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Saildrone",
         "sector": "Defense & Security",
-        "bid_fit_score": 17.4,
+        "bid_fit_score": 17.3,
         "matched_terms": [
           "maritime",
           "defense",
@@ -970,7 +970,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "PILGRIM",
         "sector": "Defense & Security",
-        "bid_fit_score": 14.7,
+        "bid_fit_score": 14.6,
         "matched_terms": [
           "engineered",
           "air",
@@ -990,7 +990,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Epoch Biodesign",
         "sector": "Biotech & Health",
-        "bid_fit_score": 13.1,
+        "bid_fit_score": 13.0,
         "matched_terms": [
           "biotech",
           "synthetic",
@@ -1000,7 +1000,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Anthrogen",
         "sector": "Biotech & Health",
-        "bid_fit_score": 12.8,
+        "bid_fit_score": 12.7,
         "matched_terms": [
           "biology",
           "biotech",

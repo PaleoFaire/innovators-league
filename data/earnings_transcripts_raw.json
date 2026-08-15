@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-08-14 08:26:06 UTC",
+    "generated_at": "2026-08-15 07:40:46 UTC",
     "total_targets": 116,
-    "with_excerpts": 106,
+    "with_excerpts": 103,
     "sources": [
       "none",
       "sec_edgar",
@@ -164,11 +164,11 @@
       "ticker": "VST",
       "company": "Vistra",
       "quarter": "2026-Q2",
-      "date": "2026-08-07",
+      "date": "2026-05-07",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000019/0001692819-26-000019-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000014/0001692819-26-000014-index.htm",
       "source": "sec_edgar"
     },
     {
@@ -671,13 +671,11 @@
     {
       "ticker": "DLR",
       "company": "Digital Realty",
-      "quarter": "2026-Q2",
-      "date": "2026-07-31",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1297996/000110465926089296/0001104659-26-089296-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investor.digitalrealty.com/",
+      "source": "none"
     },
     {
       "ticker": "SNOW",
@@ -1024,13 +1022,11 @@
     {
       "ticker": "BWXT",
       "company": "BWX Technologies",
-      "quarter": "2026-Q2",
-      "date": "2026-08-04",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1486957/000148695726000044/0001486957-26-000044-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.bwxt.com/",
+      "source": "none"
     },
     {
       "ticker": "NEE",
@@ -1139,13 +1135,11 @@
     {
       "ticker": "GE",
       "company": "GE Aerospace",
-      "quarter": "2026-Q2",
-      "date": "2026-07-16",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000049/0000040545-26-000049-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.geaerospace.com/investor-relations",
+      "source": "none"
     },
     {
       "ticker": "GNRC",
