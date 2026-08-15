@@ -2990,6 +2990,15 @@
   {
     "company": "Oklo",
     "ticker": "OKLO",
+    "form": "4",
+    "date": "2026-08-14",
+    "description": "xslF345X06/wk-form4_1786738039.xml",
+    "accessionNumber": "0002080717-26-000009",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
     "form": "10-Q",
     "date": "2026-08-07",
     "description": "oklo-20260630.htm",
@@ -4386,6 +4395,15 @@
     "company": "UiPath",
     "ticker": "PATH",
     "form": "4",
+    "date": "2026-08-14",
+    "description": "xslF345X06/primarydocument.xml",
+    "accessionNumber": "0001855764-26-000009",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
+    "form": "4",
     "date": "2026-07-02",
     "description": "xslF345X06/primarydocument.xml",
     "accessionNumber": "0002127293-26-000005",
@@ -4698,15 +4716,6 @@
     "isIPO": false
   },
   {
-    "company": "UiPath",
-    "ticker": "PATH",
-    "form": "4",
-    "date": "2026-01-06",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001543401-26-000001",
-    "isIPO": false
-  },
-  {
     "company": "IonQ",
     "ticker": "IONQ",
     "form": "10-Q",
@@ -4965,15 +4974,6 @@
     "date": "2026-03-24",
     "description": "bakkt-20260324.htm",
     "accessionNumber": "0001628280-26-020821",
-    "isIPO": false
-  },
-  {
-    "company": "IonQ",
-    "ticker": "IONQ",
-    "form": "10-K",
-    "date": "2026-03-19",
-    "description": "bakkt-20251231.htm",
-    "accessionNumber": "0001628280-26-019870",
     "isIPO": false
   },
   {
@@ -6480,15 +6480,6 @@
     "isIPO": false
   },
   {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "8-K",
-    "date": "2026-03-26",
-    "description": "d130319d8k.htm",
-    "accessionNumber": "0001193125-26-124612",
-    "isIPO": false
-  },
-  {
     "company": "Agrify Corporation",
     "ticker": "AGFY",
     "form": "8-K",
@@ -7431,15 +7422,6 @@
     "date": "2026-05-06",
     "description": "aur-20260331.htm",
     "accessionNumber": "0001828108-26-000052",
-    "isIPO": false
-  },
-  {
-    "company": "Aurora Innovation",
-    "ticker": "AUR",
-    "form": "8-K",
-    "date": "2026-05-06",
-    "description": "aur-20260506.htm",
-    "accessionNumber": "0001828108-26-000050",
     "isIPO": false
   },
   {
@@ -9308,6 +9290,24 @@
   {
     "company": "Satellogic",
     "ticker": "SATL",
+    "form": "10-Q",
+    "date": "2026-08-14",
+    "description": "ea0300908-10q_zoomcar.htm",
+    "accessionNumber": "0001213900-26-089946",
+    "isIPO": false
+  },
+  {
+    "company": "Satellogic",
+    "ticker": "SATL",
+    "form": "8-K",
+    "date": "2026-08-14",
+    "description": "ea0302057-8k_zoomcar.htm",
+    "accessionNumber": "0001213900-26-089345",
+    "isIPO": false
+  },
+  {
+    "company": "Satellogic",
+    "ticker": "SATL",
     "form": "8-K",
     "date": "2026-07-23",
     "description": "ea0299090-8k_zoomcar.htm",
@@ -9528,24 +9528,6 @@
     "date": "2025-11-07",
     "description": "ea0264553-8k_zoomcar.htm",
     "accessionNumber": "0001213900-25-107644",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "4",
-    "date": "2025-09-04",
-    "description": "xslF345X05/ownership.xml",
-    "accessionNumber": "0001213900-25-084533",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "10-Q",
-    "date": "2025-08-14",
-    "description": "ea0252027-10q_zoomcar.htm",
-    "accessionNumber": "0001213900-25-076590",
     "isIPO": false
   }
 ]

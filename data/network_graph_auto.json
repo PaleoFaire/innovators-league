@@ -1296,11 +1296,6 @@
       "thesisCluster": "biotech-lab-automation"
     },
     {
-      "id": "Abridge",
-      "sector": "Biotech & Health",
-      "thesisCluster": "ai-clinical-health"
-    },
-    {
       "id": "Heirloom Carbon",
       "sector": "Climate & Energy",
       "thesisCluster": "carbon-capture-dac"
@@ -4332,7 +4327,7 @@
     },
     {
       "id": "Wispr AI",
-      "sector": "Biotech & Health",
+      "sector": "AI & Software",
       "thesisCluster": ""
     },
     {
@@ -5106,11 +5101,6 @@
       "thesisCluster": ""
     },
     {
-      "id": "Candid Health",
-      "sector": "Biotech & Health",
-      "thesisCluster": ""
-    },
-    {
       "id": "Stacked Energy",
       "sector": "Climate & Energy",
       "thesisCluster": ""
@@ -5121,18 +5111,8 @@
       "thesisCluster": ""
     },
     {
-      "id": "PermitFlow",
-      "sector": "Housing & Construction",
-      "thesisCluster": ""
-    },
-    {
       "id": "Copia Automation",
       "sector": "Robotics & Manufacturing",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Lightship RV",
-      "sector": "Transportation",
       "thesisCluster": ""
     },
     {
@@ -5143,11 +5123,6 @@
     {
       "id": "Verse",
       "sector": "Climate & Energy",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Wispr Flow",
-      "sector": "Biotech & Health",
       "thesisCluster": ""
     },
     {
@@ -5163,11 +5138,6 @@
     {
       "id": "Privateer",
       "sector": "Space & Aerospace",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Embodied",
-      "sector": "Robotics & Manufacturing",
       "thesisCluster": ""
     },
     {
@@ -5193,11 +5163,6 @@
     {
       "id": "ASI",
       "sector": "Space & Aerospace",
-      "thesisCluster": ""
-    },
-    {
-      "id": "SESO",
-      "sector": "Robotics & Manufacturing",
       "thesisCluster": ""
     },
     {
@@ -5243,11 +5208,6 @@
     {
       "id": "Vantage Robotics",
       "sector": "Defense & Security",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Traba",
-      "sector": "Robotics & Manufacturing",
       "thesisCluster": ""
     },
     {
@@ -5406,11 +5366,6 @@
       "thesisCluster": ""
     },
     {
-      "id": "Sustainment",
-      "sector": "Robotics & Manufacturing",
-      "thesisCluster": ""
-    },
-    {
       "id": "Teralta",
       "sector": "Climate & Energy",
       "thesisCluster": ""
@@ -5481,11 +5436,6 @@
       "thesisCluster": ""
     },
     {
-      "id": "Sol Reader",
-      "sector": "Chips & Semiconductors",
-      "thesisCluster": ""
-    },
-    {
       "id": "Olympian Motors",
       "sector": "Transportation",
       "thesisCluster": ""
@@ -5553,11 +5503,6 @@
     {
       "id": "VVater",
       "sector": "Climate & Energy",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Friend",
-      "sector": "Chips & Semiconductors",
       "thesisCluster": ""
     },
     {
@@ -5731,33 +5676,8 @@
       "thesisCluster": ""
     },
     {
-      "id": "Ad Astra Sky Supply",
-      "sector": "Defense & Security",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Blue Star NBR",
-      "sector": "Robotics & Manufacturing",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Brynhild Industries",
-      "sector": "Defense & Security",
-      "thesisCluster": ""
-    },
-    {
       "id": "CreateMe",
       "sector": "Robotics & Manufacturing",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Fill USA",
-      "sector": "Robotics & Manufacturing",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Fisica",
-      "sector": "Defense & Security",
       "thesisCluster": ""
     },
     {
@@ -5767,11 +5687,6 @@
     },
     {
       "id": "Maritime Operations Group",
-      "sector": "Defense & Security",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Nidus Technologies",
       "sector": "Defense & Security",
       "thesisCluster": ""
     },
@@ -10446,12 +10361,6 @@
       "cluster": "biotech-lab-automation"
     },
     {
-      "src": "Abridge",
-      "dst": "Neko Health",
-      "type": "thesis",
-      "cluster": "ai-clinical-health"
-    },
-    {
       "src": "Climeworks",
       "dst": "Heirloom Carbon",
       "type": "thesis",
@@ -11171,10 +11080,10 @@
     }
   ],
   "counts": {
-    "total_nodes": 1166,
-    "total_edges": 919,
+    "total_nodes": 1149,
+    "total_edges": 918,
     "competitor_edges": 169,
-    "thesis_edges": 742,
+    "thesis_edges": 741,
     "alumni_edges": 8
   }
 }

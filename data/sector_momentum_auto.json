@@ -1,43 +1,128 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 74,
+    "momentum": 69,
     "trend": "accelerating",
     "catalysts": [
-      "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that m",
-      "Rivian&#8217;s 2027 R1S adds captain&#8217;s chairs, its mos",
-      "Astranis unveils geostationary surveillance satellite"
+      "Blue Origin outlines plans for second Cape Canaveral launch",
+      "Intuitive Machines wins contract for three GEO satellites",
+      "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that m"
     ],
     "fundingQ": "$264.3B",
     "components": {
       "funding": 100,
-      "news": 75,
+      "news": 65,
       "hiring": 0,
-      "market": 100
+      "market": 87
     },
-    "lastUpdated": "2026-08-14"
+    "lastUpdated": "2026-08-15"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 58,
+    "trend": "accelerating",
+    "catalysts": [
+      "Waymo wins California approval to expand robotaxis across 18",
+      "Neros Technologies raises $250M to deploy its defense drones",
+      "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadi"
+    ],
+    "fundingQ": "$27.0B",
+    "components": {
+      "funding": 100,
+      "news": 50,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-15"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 55,
+    "trend": "accelerating",
+    "catalysts": [
+      "OpenAI and Anthropic in price war as Chinese AI rivals gain",
+      "The Safety Reckoning Inside OpenAI",
+      "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that m"
+    ],
+    "fundingQ": "$325.8B",
+    "components": {
+      "funding": 100,
+      "news": 40,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-15"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 61,
+    "momentum": 52,
     "trend": "steady",
     "catalysts": [
+      "Neros Technologies raises $250M to deploy its defense drones",
       "Pentagon hands Palantir up to $244M in no-bid work",
-      "Defense drone developer Cambridge Aerospace raises $300M",
-      "SpaceX increasing footprint in missile defense"
+      "Defense drone developer Cambridge Aerospace raises $300M"
     ],
     "fundingQ": "$11.3B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
-      "market": 100
+      "market": 62
     },
-    "lastUpdated": "2026-08-14"
+    "lastUpdated": "2026-08-15"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 52,
+    "trend": "steady",
+    "catalysts": [
+      "Rivian&#8217;s 2027 R1S adds captain&#8217;s chairs, its mos",
+      "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tarif"
+    ],
+    "fundingQ": "$20.0B",
+    "components": {
+      "funding": 100,
+      "news": 10,
+      "hiring": 0,
+      "market": 70
+    },
+    "lastUpdated": "2026-08-15"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 48,
+    "trend": "steady",
+    "catalysts": [
+      "Quaise Energy raises $134M to fuel superhot geothermal ambit"
+    ],
+    "fundingQ": "$1.4B",
+    "components": {
+      "funding": 96,
+      "news": 5,
+      "hiring": 0,
+      "market": 68
+    },
+    "lastUpdated": "2026-08-15"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 43,
+    "trend": "steady",
+    "catalysts": [
+      "Active biotech & health ecosystem"
+    ],
+    "fundingQ": "$22.0B",
+    "components": {
+      "funding": 100,
+      "news": 0,
+      "hiring": 0,
+      "market": 41
+    },
+    "lastUpdated": "2026-08-15"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 61,
+    "momentum": 41,
     "trend": "steady",
     "catalysts": [
       "Does Latent Nuclear Deterrence Really Work?",
@@ -49,195 +134,94 @@
       "funding": 100,
       "news": 25,
       "hiring": 0,
-      "market": 100
+      "market": 0
     },
-    "lastUpdated": "2026-08-14"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 60,
-    "trend": "accelerating",
-    "catalysts": [
-      "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadi",
-      "Experts to discuss the state of humanoid robots at RoboBusin",
-      "NEURA Robotics acquires Bosch Rexroth\u2019s ACTIVE Shuttle to ex"
-    ],
-    "fundingQ": "$27.0B",
-    "components": {
-      "funding": 100,
-      "news": 60,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-14"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 58,
-    "trend": "steady",
-    "catalysts": [
-      "Rivian&#8217;s 2027 R1S adds captain&#8217;s chairs, its mos",
-      "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tarif"
-    ],
-    "fundingQ": "$20.0B",
-    "components": {
-      "funding": 100,
-      "news": 10,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-08-14"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 56,
-    "trend": "accelerating",
-    "catalysts": [
-      "The Safety Reckoning Inside OpenAI",
-      "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that m",
-      "IBM partners with OpenAI to bolster enterprise AI push"
-    ],
-    "fundingQ": "$325.8B",
-    "components": {
-      "funding": 100,
-      "news": 45,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-14"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 55,
-    "trend": "steady",
-    "catalysts": [
-      "Quaise Energy raises $134M to fuel superhot geothermal ambit"
-    ],
-    "fundingQ": "$1.4B",
-    "components": {
-      "funding": 96,
-      "news": 5,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-08-14"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 55,
-    "trend": "steady",
-    "catalysts": [
-      "Active biotech & health ecosystem"
-    ],
-    "fundingQ": "$22.0B",
-    "components": {
-      "funding": 100,
-      "news": 0,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-08-14"
+    "lastUpdated": "2026-08-15"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 39,
+    "momentum": 41,
     "trend": "rising",
     "catalysts": [
-      "Active supersonic & hypersonic ecosystem"
+      "Intuitive Machines wins contract for three GEO satellites"
     ],
     "fundingQ": "$310M",
     "components": {
       "funding": 84,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-14"
+    "lastUpdated": "2026-08-15"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 21,
-    "trend": "declining",
+    "momentum": 22,
+    "trend": "rising",
     "catalysts": [
-      "Experts to discuss the state of humanoid robots at RoboBusin",
-      "Astranis unveils geostationary surveillance satellite",
-      "Space Force orders two more Impulse Space vehicles for maneu"
+      "Waymo wins California approval to expand robotaxis across 18",
+      "Neros Technologies raises $250M to deploy its defense drones",
+      "Blue Origin outlines plans for second Cape Canaveral launch"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 45,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-14"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 81
-    },
-    "lastUpdated": "2026-08-14"
+    "lastUpdated": "2026-08-15"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 14,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
+      "Neros Technologies raises $250M to deploy its defense drones",
       "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadi",
-      "DAF Trucks to integrate Einride Driver to scale autonomous e",
-      "Defense drone developer Cambridge Aerospace raises $300M"
+      "DAF Trucks to integrate Einride Driver to scale autonomous e"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-14"
+    "lastUpdated": "2026-08-15"
   },
   {
     "sector": "Chips & Semiconductors",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "Semianalysis Agrees With NextBigfuture $300B Per Year for Sp",
-      "Tesla, SpaceX confirm \u2018Terafab\u2019 chip fab site \u2014 $16.8B first"
+      "Active chips & semiconductors ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 61
+    },
+    "lastUpdated": "2026-08-15"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "Waymo wins California approval to expand robotaxis across 18",
+      "Dust and water spotted close to giant black hole"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 10,
       "hiring": 0,
-      "market": 47
-    },
-    "lastUpdated": "2026-08-14"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Dust and water spotted close to giant black hole"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-14"
+    "lastUpdated": "2026-08-15"
   },
   {
     "sector": "Ocean & Maritime",
@@ -253,7 +237,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-14"
+    "lastUpdated": "2026-08-15"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -269,6 +253,22 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-14"
+    "lastUpdated": "2026-08-15"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 1,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 7
+    },
+    "lastUpdated": "2026-08-15"
   }
 ]

@@ -1,6 +1,10 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-08-14 07:37:30 UTC
+// Last updated: 2026-08-15 06:43:34 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Oklo", form: "4", date: "2026-08-14", description: "xslF345X06/wk-form4_1786738039.xml", isIPO: false, ticker: "OKLO" },
+  { company: "UiPath", form: "4", date: "2026-08-14", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
+  { company: "Satellogic", form: "10-Q", date: "2026-08-14", description: "ea0300908-10q_zoomcar.htm", isIPO: false, ticker: "SATL" },
+  { company: "Satellogic", form: "8-K", date: "2026-08-14", description: "ea0302057-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "Rocket Lab", form: "8-K", date: "2026-08-13", description: "g085846_8k.htm", isIPO: false, ticker: "RKLB" },
   { company: "Rocket Lab", form: "8-K", date: "2026-08-13", description: "g085841_8k.htm", isIPO: false, ticker: "RKLB" },
   { company: "BlackSky Technology", form: "8-K", date: "2026-08-13", description: "bksy-20260807.htm", isIPO: false, ticker: "BKSY" },
@@ -47,8 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Recursion Pharmaceuticals", form: "4", date: "2026-08-06", description: "xslF345X06/wk-form4_1786050562.xml", isIPO: false, ticker: "RXRX" },
   { company: "Ginkgo Bioworks", form: "10-Q", date: "2026-08-06", description: "dna-20260630.htm", isIPO: false, ticker: "DNA" },
   { company: "LanzaTech", form: "10-Q", date: "2026-08-06", description: "tlsi-20260630.htm", isIPO: false, ticker: "LNZA" },
-  { company: "LanzaTech", form: "8-K", date: "2026-08-06", description: "tlsi-20260806.htm", isIPO: false, ticker: "LNZA" },
-  { company: "Tempus AI", form: "10-Q", date: "2026-08-06", description: "vnt-20260703.htm", isIPO: false, ticker: "TEM" },
-  { company: "Tempus AI", form: "8-K", date: "2026-08-06", description: "vnt-20260806.htm", isIPO: false, ticker: "TEM" },
-  { company: "Astera Labs", form: "10-Q", date: "2026-08-06", description: "tra-20260630.htm", isIPO: false, ticker: "ALAB" },
 ];
