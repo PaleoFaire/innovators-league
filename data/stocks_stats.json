@@ -33,9 +33,9 @@
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 3.67,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -4.3,
       "count": 3
     },
     "biotech": {
@@ -86,11 +86,6 @@
   ],
   "topLosers": [
     [
-      "JOBY",
-      "Joby Aviation",
-      -8.33
-    ],
-    [
       "OKLO",
       "Oklo",
       -8.34
@@ -106,10 +101,15 @@
       -10.83
     ],
     [
+      "QBTS",
+      "D-Wave Quantum",
+      -21.92
+    ],
+    [
       "EVTL",
       "Vertical Aerospace",
       -39.01
     ]
   ],
-  "lastUpdated": "2026-08-15 13:46:47"
+  "lastUpdated": "2026-08-15 19:37:17"
 }
