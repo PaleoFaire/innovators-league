@@ -1,5 +1,26 @@
 [
   {
+    "title": "SpaceX officially closes its Cursor acquisition",
+    "link": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+    "description": "AI coding startup Cursor is now officially a part of SpaceX.",
+    "pubDate": "Sat, 15 Aug 2026 16:30:00 +0000",
+    "category": "Startups",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Anysphere"
+    ],
+    "sectors": [
+      "space",
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "high",
+    "time": "Just now"
+  },
+  {
     "title": "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks",
     "link": "https://electrek.co/2026/08/15/paccar-brand-daf-to-add-level-4-einride-autonomy-to-its-electric-trucks/",
     "description": "Autonomous logistics firm Einride is partnering with heavy truck brand DAF to accelerate the deployment of autonomous electric freight assets across the company’s premium truck platforms.",
@@ -18,7 +39,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "3h ago"
   },
   {
     "title": "Waymo wins California approval to expand robotaxis across 18 counties",
@@ -41,7 +62,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "19h ago"
+    "time": "20h ago"
   },
   {
     "title": "Neros Technologies raises $250M to deploy its defense drones by the end of 2026",
@@ -67,7 +88,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "21h ago"
+    "time": "22h ago"
   },
   {
     "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
@@ -190,44 +211,6 @@
       "climate"
     ],
     "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
-    "link": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
-    "description": "AI is expensive, Ali Ghodsi tells TechCrunch. With so many investors wanting into his latest round, he said yes to more than planned.",
-    "pubDate": "Thu, 13 Aug 2026 20:14:39 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Databricks",
-    "matchedCompanies": [
-      "Databricks"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "1d ago"
-  },
-  {
-    "title": "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that makes GPT-5.6 Sol work at 14x the speed",
-    "link": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
-    "description": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
-    "pubDate": "Thu, 13 Aug 2026 19:22:40 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "milestone",
     "impact": "low",
     "time": "1d ago"
   },
