@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-08-15T07:37:34+00:00",
+  "generatedAt": "2026-08-15T08:38:57+00:00",
   "matrix": {
+    "construction-modular": {
+      "2026-Q3": {
+        "deals": 2,
+        "totalSold": 6372475,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Cuby Technologies",
+            "amount": 6372475,
+            "date": "2026-08-14",
+            "source": "formd",
+            "investors": [
+              "Vannevar Ventures",
+              "At One Ventures",
+              "GOS Capital",
+              "Type One Ventures",
+              "Not Boring Capital",
+              "H.E.N.R.Y Collective"
+            ]
+          },
+          {
+            "name": "Monumental",
+            "amount": null,
+            "date": "2026-07",
+            "source": "recentEvent",
+            "investors": [
+              "Khosla Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "Khosla Ventures"
+        ]
+      }
+    },
+    "ai-mineral-exploration": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 310499477,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Mariana Minerals",
+            "amount": 310499477,
+            "date": "2026-08-06",
+            "source": "formd",
+            "investors": [
+              "Andreessen Horowitz",
+              "Earthshot Ventures",
+              "Pax VC",
+              "Breakthrough Energy",
+              "Khosla Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "Khosla Ventures"
+        ]
+      }
+    },
+    "energy-storage-thermal-gravity": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 457629785,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Antora Energy",
+            "amount": 457629785,
+            "date": "2026-08-04",
+            "source": "formd",
+            "investors": [
+              "BlackRock",
+              "Temasek"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
     "autonomy-drone-military": {
       "2026-Q2": {
         "deals": 1,
@@ -987,27 +1067,6 @@
         "investors": []
       }
     },
-    "construction-modular": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Monumental",
-            "amount": null,
-            "date": "2026-07",
-            "source": "recentEvent",
-            "investors": [
-              "Khosla Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "Khosla Ventures"
-        ]
-      }
-    },
     "robotics-agriculture": {
       "2025-Q3": {
         "deals": 1,
@@ -1310,6 +1369,46 @@
     }
   },
   "vcAttribution": {
+    "Khosla Ventures": {
+      "2026-Q3": [
+        {
+          "company": "Mariana Minerals",
+          "cluster": "ai-mineral-exploration",
+          "date": "2026-08-06",
+          "source": "formd"
+        },
+        {
+          "company": "Monumental",
+          "cluster": "construction-modular",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "Rocket Lab",
+          "cluster": "space-launch-large",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Collaborative Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Founders Fund": {
       "2026-Q2": [
         {
@@ -1542,40 +1641,6 @@
         }
       ]
     },
-    "Khosla Ventures": {
-      "2025-Q4": [
-        {
-          "company": "Rocket Lab",
-          "cluster": "space-launch-large",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Hermeus",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q3": [
-        {
-          "company": "Monumental",
-          "cluster": "construction-modular",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Collaborative Robotics",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Bessemer Venture Partners": {
       "2025-Q4": [
         {
@@ -1774,9 +1839,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 52,
-    "totalUSDSold": 0,
-    "uniqueClusters": 33,
+    "totalDealsTracked": 55,
+    "totalUSDSold": 774501737,
+    "uniqueClusters": 35,
     "uniqueQuarters": 9,
     "uniqueVCs": 15,
     "quarterRange": [
