@@ -1,74 +1,74 @@
 // Auto-generated news signals
-// Last updated: 2026-08-15T03:46:26.061Z
+// Last updated: 2026-08-15T04:39:01.320Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1786765586061,
+    "id": 1786768741319,
     "type": "ipo",
     "company": "Waymo",
     "headline": "Waymo wins California approval to expand robotaxis across 18 counties",
     "source": "Electrek",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": true,
     "link": "https://electrek.co/2026/08/14/waymo-cpuc-approval-california-expansion-18-counties/"
   },
   {
-    "id": 1786765586062,
+    "id": 1786768741320,
     "type": "funding",
     "company": "Neros",
     "headline": "Neros Technologies raises $250M to deploy its defense drones by the end of 2026",
     "source": "The Robot Report",
-    "time": "10h ago",
+    "time": "11h ago",
     "impact": "high",
     "unread": true,
     "link": "https://www.therobotreport.com/neros-technologies-raises-250m-to-deploy-its-defense-drones-by-the-end-of-2026/"
   },
   {
-    "id": 1786765586063,
+    "id": 1786768741321,
     "type": "news",
     "company": "Anthropic",
     "headline": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
     "source": "Ars Technica",
-    "time": "13h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": true,
     "link": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
   },
   {
-    "id": 1786765586064,
+    "id": 1786768741322,
     "type": "funding",
     "company": "Isembard",
     "headline": "Lovable raises $400M, Duolingo acquires Animade, and Isembard is a politician's &quot;wet dream&quot;",
     "source": "Tech.eu",
-    "time": "13h ago",
+    "time": "14h ago",
     "impact": "high",
     "unread": true,
     "link": "https://tech.eu/2026/08/14/lovable-raises-400m-duolingo-acquires-animade-and-isembard-is-a-politician-s-wet-dream/"
   },
   {
-    "id": 1786765586065,
+    "id": 1786768741323,
     "type": "ipo",
     "company": "Blue Origin",
     "headline": "Blue Origin outlines plans for second Cape Canaveral launch pad",
     "source": "SpaceNews",
-    "time": "15h ago",
+    "time": "16h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/blue-origin-outlines-plans-for-second-cape-canaveral-launch-pad/"
   },
   {
-    "id": 1786765586066,
+    "id": 1786768741324,
     "type": "contract",
     "company": "Intuitive Machines",
     "headline": "Intuitive Machines wins contract for three GEO satellites",
     "source": "SpaceNews",
-    "time": "16h ago",
+    "time": "17h ago",
     "impact": "high",
     "unread": false,
     "link": "https://spacenews.com/intuitive-machines-wins-contract-for-three-geo-satellites/"
   },
   {
-    "id": 1786765586067,
+    "id": 1786768741326,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadium",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/08/13/waymo-partners-with-las-vegas-raiders-allegiant-stadium/"
   },
   {
-    "id": 1786765586068,
+    "id": 1786768741327,
     "type": "news",
     "company": "OpenAI",
     "headline": "The Safety Reckoning Inside OpenAI",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/"
   },
   {
-    "id": 1786765586069,
+    "id": 1786768741328,
     "type": "funding",
     "company": "Databricks",
     "headline": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/"
   },
   {
-    "id": 1786765586070,
+    "id": 1786768741329,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that makes GPT-5.6 Sol work at 14x the speed",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/"
   },
   {
-    "id": 1786765586071,
+    "id": 1786768741330,
     "type": "news",
     "company": "OpenAI",
     "headline": "IBM partners with OpenAI to bolster enterprise AI push",
@@ -123,18 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/"
   },
   {
-    "id": 1786765586072,
-    "type": "milestone",
-    "company": "Anthropic",
-    "headline": "XAI Grok 4.6 is Third Place But Close to OpenAI and Anthropic",
-    "source": "Next Big Future",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/08/xai-grok-4-6-is-third-place-but-close-to-openai-and-anthropic.html"
-  },
-  {
-    "id": 1786765586073,
+    "id": 1786768741331,
     "type": "milestone",
     "company": "Rivian",
     "headline": "Rivian&#8217;s 2027 R1S adds captain&#8217;s chairs, its most-requested feature",
@@ -145,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/13/rivian-2027-r1s-r1t-captains-chairs-new-trims-pricing/"
   },
   {
-    "id": 1786765586074,
+    "id": 1786768741332,
     "type": "news",
     "company": "Humanoid",
     "headline": "Experts to discuss the state of humanoid robots at RoboBusiness",
@@ -156,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/experts-discuss-state-humanoid-robots-robobusiness-2026/"
   },
   {
-    "id": 1786765586075,
+    "id": 1786768741333,
     "type": "contract",
     "company": "Palantir",
     "headline": "Pentagon hands Palantir up to $244M in no-bid work",
@@ -167,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/business/2026/08/pentagon-palantir-no-bid/415400/"
   },
   {
-    "id": 1786765586076,
+    "id": 1786768741334,
     "type": "hire",
     "company": "Neura Robotics",
     "headline": "NEURA Robotics acquires Bosch Rexroth’s ACTIVE Shuttle to expand Physical AI ecosystem",
@@ -178,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/08/13/neura-robotics-acquires-bosch-rexroths-active-shuttle-to-expand-physical-ai-ecosystem/"
   },
   {
-    "id": 1786765586077,
+    "id": 1786768741335,
     "type": "ipo",
     "company": "Astranis",
     "headline": "Astranis unveils geostationary surveillance satellite",
@@ -189,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/astranis-unveils-geostationary-surveillance-satellite/"
   },
   {
-    "id": 1786765586078,
+    "id": 1786768741336,
     "type": "news",
     "company": "Multiverse Computing",
     "headline": "Inside Multiverse Computing, the Spanish startup vying to be Europe's next AI champion",
@@ -200,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/multiverse-computing-europe-ai-champion/"
   },
   {
-    "id": 1786765586079,
+    "id": 1786768741337,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tariffs",
@@ -211,14 +200,25 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/08/12/waymo-imports-3200-zeekr-robotaxis-despite-super-high-tariffs/"
   },
   {
-    "id": 1786765586080,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "Updated SpaceX Catalysts",
-    "source": "Next Big Future",
+    "id": 1786768741338,
+    "type": "contract",
+    "company": "Impulse Space",
+    "headline": "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations",
+    "source": "SpaceNews",
     "time": "2d ago",
     "impact": "low",
     "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/08/updated-spacex-catalysts.html"
+    "link": "https://spacenews.com/space-force-orders-two-more-impulse-space-vehicles-for-maneuvering-demonstrations/"
+  },
+  {
+    "id": 1786768741339,
+    "type": "hire",
+    "company": "Waymo",
+    "headline": "Waymo has nearly 1,000 robotaxis waiting at its Arizona factory",
+    "source": "Electrek",
+    "time": "2d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://electrek.co/2026/08/12/waymo-ojai-robotaxis-arizona-factory/"
   }
 ];
