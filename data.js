@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-08-14";
+const LAST_UPDATED = "2026-08-15";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -44354,15 +44354,15 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-14 23:28
+// Last updated: 2026-08-15 01:42
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Waymo", headline: "Waymo wins California approval to expand robotaxis across 18 counties", source: "Electrek", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Neros", headline: "Neros Technologies raises $250M to deploy its defense drones by the end of 2026", source: "The Robot Report", time: "5h ago", impact: "high", unread: true },
-  { id: 3, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic in price war as Chinese AI rivals gain ground", source: "Ars Technica", time: "9h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Isembard", headline: "Lovable raises $400M, Duolingo acquires Animade, and Isembard is a politician's &quot;wet dream&quot;", source: "Tech.eu", time: "9h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "Blue Origin", headline: "Blue Origin outlines plans for second Cape Canaveral launch pad", source: "SpaceNews", time: "11h ago", impact: "low", unread: true },
-  { id: 6, type: "contract", company: "Intuitive Machines", headline: "Intuitive Machines wins contract for three GEO satellites", source: "SpaceNews", time: "11h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "Waymo", headline: "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadium", source: "CleanTechnica", time: "22h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Waymo", headline: "Waymo wins California approval to expand robotaxis across 18 counties", source: "Electrek", time: "5h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Neros", headline: "Neros Technologies raises $250M to deploy its defense drones by the end of 2026", source: "The Robot Report", time: "8h ago", impact: "high", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic in price war as Chinese AI rivals gain ground", source: "Ars Technica", time: "11h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Isembard", headline: "Lovable raises $400M, Duolingo acquires Animade, and Isembard is a politician's &quot;wet dream&quot;", source: "Tech.eu", time: "11h ago", impact: "high", unread: true },
+  { id: 5, type: "ipo", company: "Blue Origin", headline: "Blue Origin outlines plans for second Cape Canaveral launch pad", source: "SpaceNews", time: "13h ago", impact: "low", unread: true },
+  { id: 6, type: "contract", company: "Intuitive Machines", headline: "Intuitive Machines wins contract for three GEO satellites", source: "SpaceNews", time: "14h ago", impact: "high", unread: false },
+  { id: 7, type: "news", company: "Waymo", headline: "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadium", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
   { id: 8, type: "news", company: "OpenAI", headline: "The Safety Reckoning Inside OpenAI", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 9, type: "funding", company: "Databricks", headline: "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
   { id: 10, type: "milestone", company: "OpenAI", headline: "OpenAI introduces 'Ultrafast,' a new mode that makes GPT-5.6 Sol work at 14x the speed", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
