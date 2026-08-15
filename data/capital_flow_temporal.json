@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T05:33:20+00:00",
+  "generatedAt": "2026-08-15T06:52:09+00:00",
   "matrix": {
     "autonomy-drone-military": {
       "2026-Q2": {
@@ -76,6 +76,21 @@
               "UP.Partners",
               "Hercules Capital"
             ]
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Rhoman Aerospace",
+            "amount": null,
+            "date": "2026-08",
+            "source": "recentEvent",
+            "investors": []
           }
         ],
         "investors": []
@@ -1759,7 +1774,7 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 51,
+    "totalDealsTracked": 52,
     "totalUSDSold": 0,
     "uniqueClusters": 33,
     "uniqueQuarters": 9,
