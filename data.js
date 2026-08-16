@@ -45460,9 +45460,9 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-16 18:38
+// Last updated: 2026-08-16 19:26
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "Anthropic", headline: "Anthropic CEO says AI backlash is 'fundamentally a crisis of trust'", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 1, type: "hire", company: "Anthropic", headline: "Anthropic CEO says AI backlash is 'fundamentally a crisis of trust'", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
   { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX officially closes its Cursor acquisition", source: "TechCrunch", time: "1d ago", impact: "high", unread: true },
   { id: 3, type: "news", company: "Einride", headline: "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks", source: "Electrek", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "ipo", company: "Waymo", headline: "Waymo wins California approval to expand robotaxis across 18 counties", source: "Electrek", time: "1d ago", impact: "low", unread: true },
