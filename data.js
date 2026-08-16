@@ -45460,10 +45460,10 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-16 10:30
+// Last updated: 2026-08-16 11:27
 const COMPANY_SIGNALS = [
   { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX officially closes its Cursor acquisition", source: "TechCrunch", time: "18h ago", impact: "high", unread: true },
-  { id: 2, type: "news", company: "Einride", headline: "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks", source: "Electrek", time: "21h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Einride", headline: "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks", source: "Electrek", time: "22h ago", impact: "low", unread: true },
   { id: 3, type: "ipo", company: "Waymo", headline: "Waymo wins California approval to expand robotaxis across 18 counties", source: "Electrek", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "funding", company: "Neros", headline: "Neros Technologies raises $250M to deploy its defense drones by the end of 2026", source: "The Robot Report", time: "1d ago", impact: "high", unread: true },
   { id: 5, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic in price war as Chinese AI rivals gain ground", source: "Ars Technica", time: "1d ago", impact: "low", unread: true },
@@ -45476,7 +45476,7 @@ const COMPANY_SIGNALS = [
   { id: 12, type: "milestone", company: "Rivian", headline: "Rivian's 2027 R1S adds captain's chairs, its most-requested feature", source: "Electrek", time: "2d ago", impact: "low", unread: false },
   { id: 13, type: "news", company: "Humanoid", headline: "Experts to discuss the state of humanoid robots at RoboBusiness", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
   { id: 14, type: "contract", company: "Palantir", headline: "Pentagon hands Palantir up to $244M in no-bid work", source: "Defense One", time: "2d ago", impact: "medium", unread: false },
-  { id: 15, type: "hire", company: "Neura Robotics", headline: "NEURA Robotics acquires Bosch Rexroth's ACTIVE Shuttle to expand Physical AI ecosystem", source: "Tech.eu", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "hire", company: "Neura Robotics", headline: "NEURA Robotics acquires Bosch Rexroth's ACTIVE Shuttle to expand Physical AI ecosystem", source: "Tech.eu", time: "3d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
