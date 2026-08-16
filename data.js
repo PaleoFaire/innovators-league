@@ -2509,6 +2509,216 @@ const GOV_DEMAND_TRACKER = [
     source: "sam.gov",
     posted: "2024-12-21"
   },
+  {
+    id: "SAM-70B02C26F00000035",
+    title: "PURCHASE OF TOWERS",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "PURCHASE OF TOWERS",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-12-25"
+  },
+  {
+    id: "SAM-H9240224F0057",
+    title: "ROADRUNNER, ANVIL AND QUASAR PACKAGES",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "ROADRUNNER, ANVIL AND QUASAR PACKAGES",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-08-31"
+  },
+  {
+    id: "SAM-W9128Z26FA005",
+    title: "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED I",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED INSTALLATION, SYSTEMS INTEGRATION, SPECIALIZED TRAINING, AND TECHNICAL SUPPORT SE",
+    techAreas: [],
+    relevantCompanies: ["Anthropic", "OpenAI", "Palantir", "Scale AI"],
+    source: "sam.gov",
+    posted: "2026-03-16"
+  },
+  {
+    id: "SAM-H9240226FE027",
+    title: "SIP TO137 GHOST SHIELD",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SIP TO137 GHOST SHIELD",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2026-04-27"
+  },
+  {
+    id: "SAM-70B02C26F00000480",
+    title: "DO 23 O&S WITH SOW.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "DO 23 O&S WITH SOW.",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2026-07-21"
+  },
+  {
+    id: "SAM-70B02C25F00000926",
+    title: "AWARD",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "AWARD",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-09-19"
+  },
+  {
+    id: "SAM-70B02C25F00000422",
+    title: "S1 APPROVED AWARD FOR DELIVERY ORDER 18",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "S1 APPROVED AWARD FOR DELIVERY ORDER 18",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-08-01"
+  },
+  {
+    id: "SAM-H9240225FE017",
+    title: "THIS EFFORT IS FOR ANNUAL OPERATIONS AND SUSTAINMENT FOR COUNTER UNMANNED SYSTEMS (CUXS) HARDWARE.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "THIS EFFORT IS FOR ANNUAL OPERATIONS AND SUSTAINMENT FOR COUNTER UNMANNED SYSTEMS (CUXS) HARDWARE.",
+    techAreas: [],
+    relevantCompanies: ["Anthropic", "OpenAI", "Palantir", "Scale AI"],
+    source: "sam.gov",
+    posted: "2025-08-28"
+  },
+  {
+    id: "SAM-70B02C24F00000684",
+    title: "DO# 17",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "DO# 17",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-08-28"
+  },
+  {
+    id: "SAM-FA882321C0002",
+    title: "AWARD OF SMALL BUSINESS INNOVATIVE RESEARCH PHASE III CONTRACT",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "AWARD OF SMALL BUSINESS INNOVATIVE RESEARCH PHASE III CONTRACT",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2021-07-26"
+  },
+  {
+    id: "SAM-FA882024FB003",
+    title: "SDANET SBIR III SINGLE AWARD IDIQ TASK ORDER FOR ANDURIL INDUSTRIES TO PERFORM ADDITIONAL FIELDING INTEGRATION OF LATTIC",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SDANET SBIR III SINGLE AWARD IDIQ TASK ORDER FOR ANDURIL INDUSTRIES TO PERFORM ADDITIONAL FIELDING INTEGRATION OF LATTICED MESH NETWORK COMMUNICATIONS CAPABILITY TO SUPPORT WORLDWIDE SDANET CONNECTED ",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-09-27"
+  },
+  {
+    id: "SAM-M6785426F0032",
+    title: "PM GBAD HOME ALONE I-CSUAS HARDWARE PROCUREMENT.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "PM GBAD HOME ALONE I-CSUAS HARDWARE PROCUREMENT.",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-12-19"
+  },
+  {
+    id: "SAM-FA228025F0035",
+    title: "FALCON INTELLIGENCE, SURVEILLANCE AND RECONNAISSANCE",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "FALCON INTELLIGENCE, SURVEILLANCE AND RECONNAISSANCE",
+    techAreas: [],
+    relevantCompanies: ["Anthropic", "OpenAI", "Palantir", "Scale AI"],
+    source: "sam.gov",
+    posted: "2025-09-30"
+  },
+  {
+    id: "SAM-H9240225F0009",
+    title: "MARITIME DEFEAT",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "MARITIME DEFEAT",
+    techAreas: [],
+    relevantCompanies: ["Anduril Industries", "Saildrone", "Saronic"],
+    source: "sam.gov",
+    posted: "2025-02-10"
+  },
+  {
+    id: "SAM-H9240225F0005",
+    title: "SIP FFP SERVICES",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SIP FFP SERVICES",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-12-21"
+  },
 ];
 
 const GOV_DEMAND_SUMMARY = {
@@ -32137,6 +32347,7 @@ const FUNDING_TRACKER = [
 // Auto-updated IPO pipeline — Last updated: 2026-08-15
 // Auto-updated IPO pipeline — Last updated: 2026-08-16
 // Auto-updated IPO pipeline — Last updated: 2026-08-16
+// Auto-updated IPO pipeline — Last updated: 2026-08-16
 const IPO_PIPELINE = [
   { company: "SpaceX", status: "IPO Imminent — Targeting Mid-2026", likelihood: "high", estimatedDate: "Mid-2026", estimatedValuation: "$1.5T+", sector: "Space & Aerospace" },
   { company: "Cerebras", status: "S-1 Filed, Targeting Q2 2026", likelihood: "high", estimatedDate: "Q2 2026", estimatedValuation: "$22B+", sector: "Chips & Semiconductors" },
@@ -35120,6 +35331,8 @@ const TRL_RANKINGS = [
 // Last updated: 2026-08-16
 // Auto-updated deal flow from RSS + Crunchbase
 // Last updated: 2026-08-16
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-08-16
 const DEAL_TRACKER = [
   { company: "Base Power", investor: "Undisclosed", amount: "$1B", round: "Funding Round", date: "2026-08", valuation: "", leadOrParticipant: "lead" },
   { company: "Valar Atomics", investor: "Sequoia", amount: "$1B", round: "Series B", date: "2026-08", valuation: "", leadOrParticipant: "lead" },
@@ -36631,6 +36844,7 @@ const FOUNDER_MAFIAS = {
 // Auto-updated revenue intelligence — Last updated: 2026-08-14
 // Auto-updated revenue intelligence — Last updated: 2026-08-15
 // Auto-updated revenue intelligence — Last updated: 2026-08-15
+// Auto-updated revenue intelligence — Last updated: 2026-08-16
 // Auto-updated revenue intelligence — Last updated: 2026-08-16
 // Auto-updated revenue intelligence — Last updated: 2026-08-16
 const REVENUE_INTEL = [
@@ -39638,6 +39852,8 @@ const PREV_WEEK_SCORES = [
 // Last updated: 2026-08-16
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-08-16
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-08-16
 const GOV_CONTRACTS = [
   { company: "Anduril", totalGovValue: "$3.6B+", contractCount: 200, agencies: ["Department of Energy", "Department of Defense", "National Aeronautics and Space Administration", "Department of Homeland Security"], lastUpdated: "2026-08-16" },
   { company: "Palantir", totalGovValue: "$4.6B+", contractCount: 193, agencies: ["Department of Defense", "Department of Veterans Affairs", "Department of Homeland Security", "General Services Administration", "National Aeronautics and Space Administration"], lastUpdated: "2026-08-16" },
@@ -41352,6 +41568,8 @@ const BUDGET_SIGNALS = [
 // Last updated: 2026-08-16
 // Auto-updated patent intelligence (curated scores + USPTO data)
 // Last updated: 2026-08-16
+// Auto-updated patent intelligence (curated scores + USPTO data)
+// Last updated: 2026-08-16
 const PATENT_INTEL = [
   { company: "SpaceX", totalPatents: 120, velocity: "55-65/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Reusable Launch Systems", "Satellite Constellation (Starlink)", "Raptor Engine Design"], notablePatents: ["Rocket landing leg deployment and recovery system", "Inter-satellite optical communication link"], note: "SpaceX famously relies on trade secrets over patents (Elon Musk has stated competitors could copy patented designs). Actual IP moat is far larger than patent count suggests due to manufacturing know-how and iterative flight data." },
   { company: "Anduril Industries", totalPatents: 45, velocity: "17-27/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Autonomous Defense Systems", "Sensor Fusion & Surveillance", "Counter-UAS Systems"], notablePatents: ["Autonomous drone interception and neutralization system", "Mesh sensor network for border surveillance (Lattice)"], note: "Rapid patent growth mirrors aggressive product expansion into autonomous systems, Lattice OS, and counter-drone platforms. Acquired Dive Technologies IP in undersea autonomy." },
@@ -42619,6 +42837,8 @@ const NETWORK_GRAPH = {
 // Last updated: 2026-08-15
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-08-15
+// Auto-updated news feed (curated + auto-detected)
+// Last updated: 2026-08-16
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-08-16
 // Auto-updated news feed (curated + auto-detected)
@@ -45243,6 +45463,8 @@ const DATA_QUALITY = {
 // Last updated: 2026-08-16 07:37
 // Auto-generated real-time signals
 // Last updated: 2026-08-16
+// Auto-generated real-time signals
+// Last updated: 2026-08-16
 const COMPANY_SIGNALS = [
   { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX officially closes its Cursor acquisition", source: "TechCrunch", time: "15h ago", impact: "high", unread: true },
   { id: 2, type: "news", company: "Einride", headline: "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks", source: "Electrek", time: "18h ago", impact: "low", unread: true },
@@ -45914,6 +46136,8 @@ const EXPERT_INSIGHTS = [
 // Last updated: 2026-08-16
 // Auto-recalibrated Valley of Death stages
 // Last updated: 2026-08-16
+// Auto-recalibrated Valley of Death stages
+// Last updated: 2026-08-16
 const VALLEY_OF_DEATH = [
   { company: "Anduril Industries", stage: "production", label: "Production Contract", trl: 9, contracts: 100, detail: "Lattice OS deployed across SOCOM, Army, Navy, USMC. Multiple Programs of Record. Full-rate production." },
   { company: "SpaceX", stage: "production", label: "Production Contract", trl: 9, contracts: 150, detail: "Falcon 9 and Starlink operational at scale. Starshield classified constellation. Launch heritage unmatched." },
@@ -46540,6 +46764,8 @@ const VALLEY_OF_DEATH_STAGES = [
 // Last updated: 2026-08-15
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-08-15
+// Auto-recalibrated contractor readiness scores
+// Last updated: 2026-08-16
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-08-16
 // Auto-recalibrated contractor readiness scores
