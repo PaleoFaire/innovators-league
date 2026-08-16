@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-08-09T09:32:58+00:00",
+  "generatedAt": "2026-08-16T09:20:55+00:00",
   "lookbackDays": 14,
   "sources": [
     {
       "name": "Core Memory (Ashlee Vance)",
       "url": "https://www.corememory.com/feed",
       "totalItems": 20,
-      "recentItems": 2
+      "recentItems": 1
     },
     {
       "name": "Newcomer (Eric Newcomer)",
       "url": "https://www.newcomer.co/feed",
       "totalItems": 20,
-      "recentItems": 4
+      "recentItems": 6
     },
     {
       "name": "Latent Space (swyx)",
       "url": "https://www.latent.space/feed",
       "totalItems": 20,
-      "recentItems": 14
+      "recentItems": 13
     },
     {
       "name": "Construction Physics (Brian Potter)",
@@ -30,7 +30,7 @@
       "name": "The Generalist (Mario Gabriele)",
       "url": "https://www.generalist.com/feed",
       "totalItems": 20,
-      "recentItems": 1
+      "recentItems": 2
     },
     {
       "name": "Strange Loop Canon (Rohit Krishnan)",
@@ -42,19 +42,19 @@
       "name": "Not Boring (Packy McCormick)",
       "url": "https://www.notboring.co/feed",
       "totalItems": 20,
-      "recentItems": 2
+      "recentItems": 3
     },
     {
       "name": "Bismarck Brief (Samo Burja)",
       "url": "https://brief.bismarckanalysis.com/feed",
       "totalItems": 20,
-      "recentItems": 1
+      "recentItems": 2
     },
     {
       "name": "TechCrunch \u00b7 Venture",
       "url": "https://techcrunch.com/category/venture/feed/",
-      "totalItems": 18,
-      "recentItems": 15
+      "totalItems": 19,
+      "recentItems": 13
     },
     {
       "name": "Rest of World",
@@ -78,7 +78,7 @@
       "name": "Stratechery (Ben Thompson)",
       "url": "https://stratechery.com/feed/",
       "totalItems": 10,
-      "recentItems": 4
+      "recentItems": 8
     },
     {
       "name": "Platformer (Casey Newton)",
@@ -87,25 +87,44 @@
       "recentItems": 5
     }
   ],
-  "totalRawSignals": 32,
-  "uniqueCandidateCount": 32,
+  "totalRawSignals": 25,
+  "uniqueCandidateCount": 25,
   "candidates": [
     {
-      "name": "Solid",
-      "totalScore": 11.2,
+      "name": "UnslothAI",
+      "totalScore": 11.9,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Solid",
-          "score": 11.2,
+          "name": "UnslothAI",
+          "score": 11.9,
           "frontierTechScore": 3,
           "mentions": 1,
-          "context": "ropean startups making solid-state batteries have collectively raised over $4 billion  as of 2025 . Solid-state batteries have several potential advantages over the lithium-ion batteries with liquid e",
-          "source": "Construction Physics (Brian Potter)",
-          "sourceUrl": "https://www.construction-physics.com/feed",
-          "articleTitle": "Why Is Everyone Trying to Build a Solid-State Battery?",
-          "articleUrl": "https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a",
-          "articleDate": "Thu, 30 Jul 2026 12:04:25 GMT"
+          "context": " Unsloth Desktop, Muse Glimmer Support, and Linux Codex Unsloth Desktop expands the local stack :  @UnslothAI  launched  Unsloth Desktop , an open-source desktop app for  running and training  models ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] How to steal a Reasoning Trace",
+          "articleUrl": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
+          "articleDate": "Wed, 12 Aug 2026 07:11:08 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Unsloth Desktop",
+      "totalScore": 11.9,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Unsloth Desktop",
+          "score": 11.9,
+          "frontierTechScore": 3,
+          "mentions": 1,
+          "context": "e Glimmer Support, and Linux Codex Unsloth Desktop expands the local stack :  @UnslothAI  launched  Unsloth Desktop , an open-source desktop app for  running and training  models locally across  Mac, ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] How to steal a Reasoning Trace",
+          "articleUrl": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
+          "articleDate": "Wed, 12 Aug 2026 07:11:08 GMT"
         }
       ]
     },
@@ -186,63 +205,6 @@
       ]
     },
     {
-      "name": "Perplexity",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Perplexity",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "erated changesets. Persistent memory is becoming productized, but evidence on its value is mixed :  Perplexity  launched  Projects , evolving Spaces into hubs for ongoing work with  shared files and p",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
-          "articleUrl": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
-          "articleDate": "Fri, 31 Jul 2026 04:40:54 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Projects",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Projects",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "sistent memory is becoming productized, but evidence on its value is mixed :  Perplexity  launched  Projects , evolving Spaces into hubs for ongoing work with  shared files and persistent memory  via ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
-          "articleUrl": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
-          "articleDate": "Fri, 31 Jul 2026 04:40:54 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Spaces",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Spaces",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "coming productized, but evidence on its value is mixed :  Perplexity  launched  Projects , evolving Spaces into hubs for ongoing work with  shared files and persistent memory  via \u201cBrain,\u201d while  @Ara",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
-          "articleUrl": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
-          "articleDate": "Fri, 31 Jul 2026 04:40:54 GMT"
-        }
-      ]
-    },
-    {
       "name": "Moove",
       "totalScore": 9.5,
       "sourceCount": 1,
@@ -277,25 +239,6 @@
           "articleTitle": "[AINews] Megakernels are so dead and so back",
           "articleUrl": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
           "articleDate": "Wed, 05 Aug 2026 01:21:47 GMT"
-        }
-      ]
-    },
-    {
-      "name": "DoorDash Air",
-      "totalScore": 8.4,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "DoorDash Air",
-          "score": 8.4,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": "nnounced on Wednesday that DoorDash Labs earned FAA Part 135 air carrier certification and launched DoorDash Air, its in-house drone delivery program. Part 135 lets DoorDash operate as an air carrier,",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #204",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
-          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
         }
       ]
     },
@@ -338,59 +281,78 @@
       ]
     },
     {
-      "name": "European",
+      "name": "Anduril",
       "totalScore": 7.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "European",
+          "name": "Anduril",
           "score": 7.2,
-          "frontierTechScore": 3,
+          "frontierTechScore": 2,
           "mentions": 1,
-          "context": "nd battery manufacturers like  BYD ,  LG , and  Samsung  are also working on the technology. US and European startups making solid-state batteries have collectively raised over $4 billion  as of 2025 ",
-          "source": "Construction Physics (Brian Potter)",
-          "sourceUrl": "https://www.construction-physics.com/feed",
-          "articleTitle": "Why Is Everyone Trying to Build a Solid-State Battery?",
-          "articleUrl": "https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a",
-          "articleDate": "Thu, 30 Jul 2026 12:04:25 GMT"
+          "context": "ght it was a pretty slow week and had it all set and then new stuff just kept coming out, including Anduril announcing that they\u2019ve launched a satellite, and I had to re-jigger things, which goes to s",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #206",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-206",
+          "articleDate": "Fri, 14 Aug 2026 13:10:36 GMT"
         }
       ]
     },
     {
-      "name": "Stealth",
+      "name": "In April",
       "totalScore": 7.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Stealth",
+          "name": "In April",
           "score": 7.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "d AVs, with a little robot regulation in the Extra Doses. Let\u2019s get to it. (1)  Enigma Comes Out of Stealth with $71M & 100 Robot Online Control A company called  Enigma  is a little less enigmatic af",
+          "context": "ut recently, for the first time, being a Base Member doesn\u2019t necessarily mean installing a battery. In April, the company  launched Base Energy , \u201can energy plan with guaranteed below-market rates,\u201d f",
           "source": "Not Boring (Packy McCormick)",
           "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #204",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
-          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
+          "articleTitle": "Base Power Company: Chapter 3",
+          "articleUrl": "https://www.notboring.co/p/base-power-company-chapter-3",
+          "articleDate": "Wed, 12 Aug 2026 13:53:37 GMT"
         }
       ]
     },
     {
-      "name": "Robot Online Control",
+      "name": "Base Energy",
       "totalScore": 7.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Robot Online Control",
+          "name": "Base Energy",
           "score": 7.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "ot regulation in the Extra Doses. Let\u2019s get to it. (1)  Enigma Comes Out of Stealth with $71M & 100 Robot Online Control A company called  Enigma  is a little less enigmatic after emerging from stealt",
+          "context": " being a Base Member doesn\u2019t necessarily mean installing a battery. In April, the company  launched Base Energy , \u201can energy plan with guaranteed below-market rates,\u201d for renters, apartments, and othe",
           "source": "Not Boring (Packy McCormick)",
           "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #204",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
-          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
+          "articleTitle": "Base Power Company: Chapter 3",
+          "articleUrl": "https://www.notboring.co/p/base-power-company-chapter-3",
+          "articleDate": "Wed, 12 Aug 2026 13:53:37 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Phoebe Gates",
+      "totalScore": 6.3,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Phoebe Gates",
+          "score": 6.3,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "Aerospace  close big Series C rounds.  Brad Lightcap  becomes the latest top exec to leave  OpenAI. Phoebe Gates  faces fresh allegations of startup deception. The White House targets OpenAI policy ad",
+          "source": "Newcomer (Eric Newcomer)",
+          "sourceUrl": "https://www.newcomer.co/feed",
+          "articleTitle": "Thrive Capital Finds its Lane as a New Kind of Venture Investor",
+          "articleUrl": "https://www.newcomer.co/p/thrive-capital-finds-its-lane-as",
+          "articleDate": "Fri, 14 Aug 2026 15:23:43 GMT"
         }
       ]
     },
@@ -410,6 +372,44 @@
           "articleTitle": "SaaS Shudders After Airtable's Humbling Sale to Italian Grim Reaper Bending Spoons",
           "articleUrl": "https://www.newcomer.co/p/saas-shudders-after-airtables-humbling",
           "articleDate": "Fri, 07 Aug 2026 16:06:40 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Linux Codex Unsloth",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Linux Codex Unsloth",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "use rather than general chat prestige. Local AI Tooling: Unsloth Desktop, Muse Glimmer Support, and Linux Codex Unsloth Desktop expands the local stack :  @UnslothAI  launched  Unsloth Desktop , an op",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] How to steal a Reasoning Trace",
+          "articleUrl": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
+          "articleDate": "Wed, 12 Aug 2026 07:11:08 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Desktop",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Desktop",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "ral chat prestige. Local AI Tooling: Unsloth Desktop, Muse Glimmer Support, and Linux Codex Unsloth Desktop expands the local stack :  @UnslothAI  launched  Unsloth Desktop , an open-source desktop ap",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] How to steal a Reasoning Trace",
+          "articleUrl": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
+          "articleDate": "Wed, 12 Aug 2026 07:11:08 GMT"
         }
       ]
     },
@@ -562,139 +562,6 @@
           "articleTitle": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
           "articleUrl": "https://www.latent.space/p/inference-eng",
           "articleDate": "Mon, 03 Aug 2026 21:44:03 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Hugging Face",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Hugging Face",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "earchers can analyze the failure mode. He also asks OpenAI to commit  $100M  in compute to help the Hugging Face community build cyber-defense systems using open and closed models.  Image  Commenters ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Much ado about Open Weights",
-          "articleUrl": "https://www.latent.space/p/ainews-much-ado-about-open-weights",
-          "articleDate": "Tue, 28 Jul 2026 06:20:13 GMT"
-        }
-      ]
-    },
-    {
-      "name": "DoorDash Labs",
-      "totalScore": 5.4,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "DoorDash Labs",
-          "score": 5.4,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": "and now DoorDash is making its own flying robots, aka drones.  DoorDash announced on Wednesday that DoorDash Labs earned FAA Part 135 air carrier certification and launched DoorDash Air, its in-house ",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #204",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
-          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
-        }
-      ]
-    },
-    {
-      "name": "FAA Part",
-      "totalScore": 5.4,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "FAA Part",
-          "score": 5.4,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": "aking its own flying robots, aka drones.  DoorDash announced on Wednesday that DoorDash Labs earned FAA Part 135 air carrier certification and launched DoorDash Air, its in-house drone delivery progra",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #204",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
-          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Part",
-      "totalScore": 5.4,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Part",
-          "score": 5.4,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": " Part 135 air carrier certification and launched DoorDash Air, its in-house drone delivery program. Part 135 lets DoorDash operate as an air carrier, and the company says it is only the eighth drone o",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #204",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
-          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
-        }
-      ]
-    },
-    {
-      "name": "DoorDash",
-      "totalScore": 5.4,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "DoorDash",
-          "score": 5.4,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": "carrier certification and launched DoorDash Air, its in-house drone delivery program. Part 135 lets DoorDash operate as an air carrier, and the company says it is only the eighth drone operator to ear",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #204",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
-          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Extra Doses",
-      "totalScore": 4.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Extra Doses",
-          "score": 4.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "theme is physical AI - robots, robot brains, drones, and AVs, with a little robot regulation in the Extra Doses. Let\u2019s get to it. (1)  Enigma Comes Out of Stealth with $71M & 100 Robot Online Control ",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #204",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
-          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Let",
-      "totalScore": 4.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Let",
-          "score": 4.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "ical AI - robots, robot brains, drones, and AVs, with a little robot regulation in the Extra Doses. Let\u2019s get to it. (1)  Enigma Comes Out of Stealth with $71M & 100 Robot Online Control A company cal",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #204",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-204",
-          "articleDate": "Fri, 31 Jul 2026 12:47:27 GMT"
         }
       ]
     }

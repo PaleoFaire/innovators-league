@@ -1,12 +1,32 @@
-# 🌟 ROS Frontier-Tech Scout — Week of 2026-08-09
+# 🌟 ROS Frontier-Tech Scout — Week of 2026-08-16
 
-**Roster:** 1067 companies tracked  ·  **Screened this cycle:** 284  ·  **Top picks:** 5  ·  **Runners-up:** 10
+**Roster:** 1222 companies tracked  ·  **Screened this cycle:** 270  ·  **Top picks:** 5  ·  **Runners-up:** 10
 
 ---
 
 ## ⭐ Top 5 Picks This Week
 
-### 1. GALOIS, INC.  ·  *Score 31/70*
+### 1. Atomic Semi  ·  *Score 33/70*
+
+**Sector:** Frontier Tech
+
+**Dimensions:** Capital 15, Magnitude 0, Tech Depth 0, Frontier Fit 0, Stealth 10
+
+**Atomic Semi** — frontier tech.
+
+ Backing: AV, Greylock.
+
+Surfaced in just one source — early intel, before the rest of the market.
+
+Ask: Who's the first commercial customer, and how big is the contract?
+
+Source: VC portfolio. Score 33/70.
+
+**Verify:** [VC portfolio: AV](portfolio_page) · [VC portfolio: AV](portfolio_page) · [VC portfolio: AV](portfolio_page)
+
+---
+
+### 2. GALOIS, INC.  ·  *Score 31/70*
 
 **Sector:** Defense & Security
 
@@ -26,7 +46,27 @@ Source: DARPA. Score 32/70.
 
 ---
 
-### 2. OpenAI  ·  *Score 31/70*
+### 3. Anthropic  ·  *Score 31/70*
+
+**Sector:** Frontier Tech
+
+**Dimensions:** Capital 15, Magnitude 0, Tech Depth 6, Frontier Fit 0, Stealth 4
+
+**Anthropic** — frontier tech.
+
+ Backing: Bessemer, Greylock, Spark Capital.
+
+Tech depth signals (patents/DARPA programs) suggest real engineering substance.
+
+Ask: Who's the first commercial customer, and how big is the contract?
+
+Source: VC portfolio. Score 31/70.
+
+**Verify:** [VC portfolio: Bessemer](portfolio_page) · [VC portfolio: Greylock](portfolio_page) · [VC portfolio: Spark Capital](portfolio_page)
+
+---
+
+### 4. OpenAI  ·  *Score 31/70*
 
 **Sector:** Frontier Tech
 
@@ -46,7 +86,7 @@ Source: VC portfolio. Score 31/70.
 
 ---
 
-### 3. HRL LABORATORIES, LLC  ·  *Score 30/70*
+### 5. HRL LABORATORIES, LLC  ·  *Score 30/70*
 
 **Sector:** Defense & Security
 
@@ -66,60 +106,20 @@ Source: DARPA. Score 31/70.
 
 ---
 
-### 4. THE CHARLES STARK DRAPER LABORATORY, INC.  ·  *Score 30/70*
-
-**Sector:** Defense & Security
-
-**Dimensions:** Capital 0, Magnitude 7, Tech Depth 5, Frontier Fit 10, Stealth 4
-
-**THE CHARLES STARK DRAPER LABORATORY, INC.** — Defense & Security.
-
-DARPA contracts: $56.2M. 
-
-Worth a closer look this week.
-
-Ask: What's the dual-use commercial wedge before the gov-only deal flow takes over?
-
-Source: DARPA. Score 31/70.
-
-**Verify:** [DARPA performer](https://www.usaspending.gov/award/CONT_AWD_HR001121C0022)
-
----
-
-### 5. GEORGIA TECH APPLIED RESEARCH CORP  ·  *Score 30/70*
-
-**Sector:** Defense & Security
-
-**Dimensions:** Capital 0, Magnitude 6, Tech Depth 6, Frontier Fit 10, Stealth 4
-
-**GEORGIA TECH APPLIED RESEARCH CORP** — Defense & Security.
-
-DARPA contracts: $47.0M. 
-
-Tech depth signals (patents/DARPA programs) suggest real engineering substance.
-
-Ask: What's the dual-use commercial wedge before the gov-only deal flow takes over?
-
-Source: DARPA. Score 31/70.
-
-**Verify:** [DARPA performer](https://www.usaspending.gov/award/CONT_AWD_HR001118C0057)
-
----
-
 ## 📋 Runners-up (10)
 
 Worth a quick scan — surfaced in scout but didn't quite make the top 5.
 
+- **THE CHARLES STARK DRAPER LABORATORY, INC.** *(Defense & Security)* — DARPA — score 30/70
+- **GEORGIA TECH APPLIED RESEARCH CORP** *(Defense & Security)* — DARPA — score 30/70
 - **AEROJET ROCKETDYNE INC** *(Defense & Security)* — DARPA — score 30/70
 - **A2 LABS, LLC** *(Defense & Security)* — DARPA — score 30/70
 - **HONEYWELL INTERNATIONAL INC.** *(Defense & Security)* — DARPA — score 29/70
 - **CHARLES RIVER ANALYTICS, INC.** *(Defense & Security)* — DARPA — score 29/70
-- **Anthropic** *(—)* — VC portfolio — score 29/70
 - **KUDU DYNAMICS LLC** *(Defense & Security)* — DARPA — score 29/70
 - **RTX BBN TECHNOLOGIES, INC.** *(Defense & Security)* — DARPA — score 29/70
 - **PACMAR TECHNOLOGIES LLC** *(Defense & Security)* — DARPA — score 28/70
 - **GINKGO BIOWORKS, INC.** *(Defense & Security)* — DARPA — score 28/70
-- **GOODRICH CORPORATION** *(Defense & Security)* — DARPA — score 28/70
 
 ---
 
@@ -127,18 +127,18 @@ Worth a quick scan — surfaced in scout but didn't quite make the top 5.
 
 Recent episodes from the scout's podcast sources. Scan titles for company names the LLM may have missed.
 
-- **[TBPN]** [U.S. Bans New Chinese Humanoids, Zuck’s Op-Ed, eBay's $56M Lawsuit | Diet TBPN](https://share.transistor.fm/s/f8b6ce76)
-- **[TBPN]** [Robot Bans, Zuck Op-Ed, eBay Settles | Joe Weisenthal, Jameson Detweiler, Stanley Tang, Amjad Masad, Adam Cohen](https://share.transistor.fm/s/0078676f)
-- **[TBPN]** [RSI Is Closer Than People Think, Per Tae Kim](https://share.transistor.fm/s/4b521dc2)
 - **[Core Memory]** [The Manufacturing Phenomenon That Is SendCutSend - EP 79 Jim Belosic](https://www.corememory.com/p/the-manufacturing-phenomenon-sendcutsend-jim-belosic)
 - **[Core Memory]** [The Google Engineer Who Set The Skydiving Record At 58 - EP 83 Alan Eustace](https://www.corememory.com/p/the-google-engineer-who-set-the-skydiving-record-alan-eustace)
 - **[Core Memory]** [The Future Of Our Brains And Bodies - EP 77 Max Hodak Live Event](https://www.corememory.com/p/the-future-of-our-brains-and-bodies-max-hodak-science)
 - **[All-In]** [Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding](https://allinchamathjason.libsyn.com/former-intel-ceo-on-what-went-wrong-whats-next-lovable-ceo-on-the-real-promise-of-vibe-coding)
 - **[Core Memory]** [An Implant That Tracks And Treats Cancer Tumors - EP 82 Ben Woodington](https://www.corememory.com/p/an-implant-that-tracks-and-treats-cancer-coherence-ben-woodington)
-- **[All-In]** [Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner](https://allinchamathjason.libsyn.com/senators-john-fetterman-and-dave-mccormick-bipartisanship-money-in-dc-datacenters-graham-platner)
-- **[Core Memory]** [The Space Race Is So Back — EP 76 Ashlee Vance And Kylie Robison](https://www.corememory.com/p/the-space-race-is-so-back-ep-76-ashlee)
+- **[TBPN]** [Kushner & Iger’s $12.5B Lakers Deal, Grok 4.6 Launches, Anthropic’s Watermarking Move | Diet TBPN](https://share.transistor.fm/s/136a2805)
+- **[TBPN]** [Kushner and Iger Buy The Lakers, Grok 4.6 Launch, NVIDIA Nemotron | Darren Rovell, Patrick Whitesell, Harjot Gill, Jeff ](https://share.transistor.fm/s/05cdd0cc)
+- **[Lex Fridman Podcast]** [#500 – Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football](https://lexfridman.com/khabib-nurmagomedov/?utm_source=rss&utm_medium=rss&utm_campaign=khabib-nurmagomedov)
+- **[Core Memory]** [Quantum Everything Explained - EP 81 Prineha Narang](https://www.corememory.com/p/quantum-everything-explained-ep-81)
+- **[All-In]** [Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships](https://allinchamathjason.libsyn.com/saronic-founders-autonomous-warships-chinas-230x-advantage-swarms-of-robot-ships)
 
 ---
 
 
-*Generated 2026-08-09T09:35:42+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
+*Generated 2026-08-16T09:23:11+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*

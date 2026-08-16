@@ -1,16 +1,83 @@
 // Auto-generated from scout_briefing_auto.json
-// Last updated: 2026-08-09T09:35:42+00:00
+// Last updated: 2026-08-16T09:23:11+00:00
 const SCOUT_BRIEFING_AUTO = {
-  "generatedAt": "2026-08-09T09:35:42+00:00",
-  "weekOf": "2026-08-09",
+  "generatedAt": "2026-08-16T09:23:11+00:00",
+  "weekOf": "2026-08-16",
   "summary": {
-    "rosterSize": 1067,
-    "candidatesScreened": 284,
+    "rosterSize": 1222,
+    "candidatesScreened": 270,
     "topPicks": 5,
     "runnerUp": 10,
-    "rejected": 172
+    "rejected": 158
   },
   "topPicks": [
+    {
+      "name": "Atomic Semi",
+      "score": 33.3,
+      "signals": [
+        {
+          "name": "Atomic Semi",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-03-16",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-03-16"
+        },
+        {
+          "name": "Atomic Semi",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-04-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-04-01"
+        },
+        {
+          "name": "Atomic Semi",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-05-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-05-01"
+        },
+        {
+          "name": "Atomic Semi",
+          "source": "VC portfolio: Greylock",
+          "sourceWeight": 35,
+          "vc": "Greylock",
+          "date": "2026-08-12",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Greylock portfolio on 2026-08-12"
+        },
+        {
+          "name": "Atomic Semi",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-08-12",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-08-12"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null,
+      "dimensions": {
+        "capital_quality": 15,
+        "magnitude": 0,
+        "tech_depth": 0,
+        "frontier_fit": 0,
+        "stealth_signal": 10,
+        "founder_signal": 0,
+        "excitement": 8.3
+      },
+      "briefing": "**Atomic Semi** \u2014 frontier tech.\n\n Backing: AV, Greylock.\n\nSurfaced in just one source \u2014 early intel, before the rest of the market.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 33/70."
+    },
     {
       "name": "GALOIS, INC.",
       "score": 31.7,
@@ -42,6 +109,82 @@ const SCOUT_BRIEFING_AUTO = {
         "excitement": 4.7
       },
       "briefing": "**GALOIS, INC.** \u2014 Defense & Security.\n\nDARPA contracts: $109.1M. \n\nWorth a closer look this week.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 32/70."
+    },
+    {
+      "name": "Anthropic",
+      "score": 31.3,
+      "signals": [
+        {
+          "name": "Anthropic",
+          "source": "VC portfolio: Bessemer",
+          "sourceWeight": 35,
+          "vc": "Bessemer",
+          "date": "2026-04-27",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Bessemer portfolio on 2026-04-27"
+        },
+        {
+          "name": "Anthropic",
+          "source": "VC portfolio: Greylock",
+          "sourceWeight": 35,
+          "vc": "Greylock",
+          "date": "2026-04-27",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Greylock portfolio on 2026-04-27"
+        },
+        {
+          "name": "Anthropic",
+          "source": "VC portfolio: Spark Capital",
+          "sourceWeight": 35,
+          "vc": "Spark Capital",
+          "date": "2026-04-27",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Spark Capital portfolio on 2026-04-27"
+        },
+        {
+          "name": "Anthropic",
+          "source": "VC portfolio: Bessemer",
+          "sourceWeight": 35,
+          "vc": "Bessemer",
+          "date": "2026-05-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Bessemer portfolio on 2026-05-01"
+        },
+        {
+          "name": "Anthropic",
+          "source": "VC portfolio: Greylock",
+          "sourceWeight": 35,
+          "vc": "Greylock",
+          "date": "2026-05-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Greylock portfolio on 2026-05-01"
+        },
+        {
+          "name": "Anthropic",
+          "source": "VC portfolio: Spark Capital",
+          "sourceWeight": 35,
+          "vc": "Spark Capital",
+          "date": "2026-05-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Spark Capital portfolio on 2026-05-01"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null,
+      "dimensions": {
+        "capital_quality": 15,
+        "magnitude": 0,
+        "tech_depth": 6,
+        "frontier_fit": 0,
+        "stealth_signal": 4,
+        "founder_signal": 0,
+        "excitement": 6.3
+      },
+      "briefing": "**Anthropic** \u2014 frontier tech.\n\n Backing: Bessemer, Greylock, Spark Capital.\n\nTech depth signals (patents/DARPA programs) suggest real engineering substance.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 31/70."
     },
     {
       "name": "OpenAI",
@@ -132,13 +275,25 @@ const SCOUT_BRIEFING_AUTO = {
         "excitement": 4.7
       },
       "briefing": "**HRL LABORATORIES, LLC** \u2014 Defense & Security.\n\nDARPA contracts: $69.4M. \n\nWorth a closer look this week.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 31/70."
-    },
+    }
+  ],
+  "runnersUp": [
     {
       "name": "THE CHARLES STARK DRAPER LABORATORY, INC.",
       "score": 30.7,
+      "dimensions": {
+        "capital_quality": 0,
+        "magnitude": 7,
+        "tech_depth": 5.0,
+        "frontier_fit": 10,
+        "stealth_signal": 4,
+        "founder_signal": 0,
+        "excitement": 4.7
+      },
       "sources": [
         "DARPA"
       ],
+      "suggestedSector": "Defense & Security",
       "signals": [
         {
           "source": "DARPA performer",
@@ -152,25 +307,24 @@ const SCOUT_BRIEFING_AUTO = {
           "date": "2024-05-16",
           "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001121C0022"
         }
-      ],
-      "suggestedSector": "Defense & Security",
+      ]
+    },
+    {
+      "name": "GEORGIA TECH APPLIED RESEARCH CORP",
+      "score": 30.7,
       "dimensions": {
         "capital_quality": 0,
-        "magnitude": 7,
-        "tech_depth": 5.0,
+        "magnitude": 6,
+        "tech_depth": 6,
         "frontier_fit": 10,
         "stealth_signal": 4,
         "founder_signal": 0,
         "excitement": 4.7
       },
-      "briefing": "**THE CHARLES STARK DRAPER LABORATORY, INC.** \u2014 Defense & Security.\n\nDARPA contracts: $56.2M. \n\nWorth a closer look this week.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 31/70."
-    },
-    {
-      "name": "GEORGIA TECH APPLIED RESEARCH CORP",
-      "score": 30.7,
       "sources": [
         "DARPA"
       ],
+      "suggestedSector": "Defense & Security",
       "signals": [
         {
           "source": "DARPA performer",
@@ -186,21 +340,8 @@ const SCOUT_BRIEFING_AUTO = {
           "date": "2024-12-01",
           "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001118C0057"
         }
-      ],
-      "suggestedSector": "Defense & Security",
-      "dimensions": {
-        "capital_quality": 0,
-        "magnitude": 6,
-        "tech_depth": 6,
-        "frontier_fit": 10,
-        "stealth_signal": 4,
-        "founder_signal": 0,
-        "excitement": 4.7
-      },
-      "briefing": "**GEORGIA TECH APPLIED RESEARCH CORP** \u2014 Defense & Security.\n\nDARPA contracts: $47.0M. \n\nTech depth signals (patents/DARPA programs) suggest real engineering substance.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 31/70."
-    }
-  ],
-  "runnersUp": [
+      ]
+    },
     {
       "name": "AEROJET ROCKETDYNE INC",
       "score": 30.7,
@@ -325,43 +466,6 @@ const SCOUT_BRIEFING_AUTO = {
       ]
     },
     {
-      "name": "Anthropic",
-      "score": 29.3,
-      "dimensions": {
-        "capital_quality": 15,
-        "magnitude": 0,
-        "tech_depth": 4,
-        "frontier_fit": 0,
-        "stealth_signal": 4,
-        "founder_signal": 0,
-        "excitement": 6.3
-      },
-      "sources": [
-        "VC portfolio"
-      ],
-      "suggestedSector": null,
-      "signals": [
-        {
-          "name": "Anthropic",
-          "source": "VC portfolio: Bessemer",
-          "sourceWeight": 35,
-          "vc": "Bessemer",
-          "date": "2026-04-27",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Bessemer portfolio on 2026-04-27"
-        },
-        {
-          "name": "Anthropic",
-          "source": "VC portfolio: Greylock",
-          "sourceWeight": 35,
-          "vc": "Greylock",
-          "date": "2026-04-27",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Greylock portfolio on 2026-04-27"
-        }
-      ]
-    },
-    {
       "name": "KUDU DYNAMICS LLC",
       "score": 29.2,
       "dimensions": {
@@ -482,38 +586,8 @@ const SCOUT_BRIEFING_AUTO = {
           "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001117C0092"
         }
       ]
-    },
-    {
-      "name": "GOODRICH CORPORATION",
-      "score": 28.7,
-      "dimensions": {
-        "capital_quality": 0,
-        "magnitude": 4,
-        "tech_depth": 6,
-        "frontier_fit": 10,
-        "stealth_signal": 4,
-        "founder_signal": 0,
-        "excitement": 4.7
-      },
-      "sources": [
-        "DARPA"
-      ],
-      "suggestedSector": "Defense & Security",
-      "signals": [
-        {
-          "source": "DARPA performer",
-          "totalAwarded": 6119664.0,
-          "totalAwardedFormatted": "$6.1M",
-          "awardCount": 1,
-          "programs": [
-            "BLACKJACK"
-          ],
-          "date": "2019-02-01",
-          "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001119C0022"
-        }
-      ]
     }
   ],
-  "rejectedCount": 172
+  "rejectedCount": 158
 };
 if (typeof window !== 'undefined') window.SCOUT_BRIEFING_AUTO = SCOUT_BRIEFING_AUTO;
