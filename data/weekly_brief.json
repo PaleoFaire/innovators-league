@@ -1,84 +1,84 @@
 {
-  "date": "2026-08-10",
-  "display_date": "Aug 10, 2026",
-  "generated_at": "2026-08-10T11:12:29.378943+00:00",
-  "cutoff": "2026-08-03T11:12:29.378943+00:00",
-  "section_count": 6,
-  "total_items": 239,
+  "date": "2026-08-16",
+  "display_date": "Aug 16, 2026",
+  "generated_at": "2026-08-16T09:39:47.873278+00:00",
+  "cutoff": "2026-08-09T09:39:47.873278+00:00",
+  "section_count": 7,
+  "total_items": 283,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 29,
+      "count": 18,
       "items": [
         {
-          "company": "Sierra Space",
-          "current": 45.0,
-          "previous": 42.0,
-          "change": 3.0,
+          "company": "Diraq",
+          "current": 28.5,
+          "previous": 36.0,
+          "change": -7.5,
           "tier": "early"
         },
         {
-          "company": "HawkEye 360",
-          "current": 42.0,
+          "company": "Peak Quantum",
+          "current": 28.0,
+          "previous": 35.5,
+          "change": -7.5,
+          "tier": "early"
+        },
+        {
+          "company": "Plantd Materials",
+          "current": 30.5,
+          "previous": 36.5,
+          "change": -6.0,
+          "tier": "early"
+        },
+        {
+          "company": "Astera Labs",
+          "current": 83.5,
+          "previous": 79.5,
+          "change": 4.0,
+          "tier": "exceptional"
+        },
+        {
+          "company": "Resilience",
+          "current": 36.0,
           "previous": 39.0,
-          "change": 3.0,
+          "change": -3.0,
           "tier": "early"
         },
         {
-          "company": "Ursa Space Systems",
-          "current": 41.5,
+          "company": "Standard Electron",
+          "current": 35.5,
           "previous": 38.5,
-          "change": 3.0,
+          "change": -3.0,
           "tier": "early"
         },
         {
-          "company": "Besxar Space Industries",
-          "current": 41.5,
+          "company": "Chai Discovery",
+          "current": 35.5,
           "previous": 38.5,
-          "change": 3.0,
+          "change": -3.0,
           "tier": "early"
         },
         {
-          "company": "CesiumAstro",
-          "current": 41.5,
+          "company": "Blue Energy",
+          "current": 35.5,
           "previous": 38.5,
-          "change": 3.0,
+          "change": -3.0,
           "tier": "early"
         },
         {
-          "company": "Xona Space Systems",
-          "current": 41.5,
-          "previous": 38.5,
-          "change": 3.0,
+          "company": "ForSight Robotics",
+          "current": 35.0,
+          "previous": 38.0,
+          "change": -3.0,
           "tier": "early"
         },
         {
-          "company": "Loft Orbital",
-          "current": 41.5,
-          "previous": 38.5,
-          "change": 3.0,
-          "tier": "early"
-        },
-        {
-          "company": "Phantom Space",
-          "current": 41.5,
-          "previous": 38.5,
-          "change": 3.0,
-          "tier": "early"
-        },
-        {
-          "company": "hiringVelocity",
-          "current": 41.5,
-          "previous": 38.5,
-          "change": 3.0,
-          "tier": "early"
-        },
-        {
-          "company": "Farcast",
-          "current": 40.5,
+          "company": "Cellino",
+          "current": 34.5,
           "previous": 37.5,
-          "change": 3.0,
+          "change": -3.0,
           "tier": "early"
         }
       ]
@@ -86,187 +86,201 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 19,
+      "count": 31,
       "items": [
+        {
+          "company": "Rocket Lab",
+          "form": "8-K",
+          "description": "g085846_8k.htm",
+          "date": "2026-08-13",
+          "isIPO": false
+        },
+        {
+          "company": "Rocket Lab",
+          "form": "8-K",
+          "description": "g085841_8k.htm",
+          "date": "2026-08-13",
+          "isIPO": false
+        },
+        {
+          "company": "Rocket Lab",
+          "form": "8-K",
+          "description": "rklb-20260810.htm",
+          "date": "2026-08-10",
+          "isIPO": false
+        },
+        {
+          "company": "AST SpaceMobile",
+          "form": "8-K",
+          "description": "asts-20260810.htm",
+          "date": "2026-08-10",
+          "isIPO": false
+        },
+        {
+          "company": "BlackSky Technology",
+          "form": "8-K",
+          "description": "bksy-20260807.htm",
+          "date": "2026-08-13",
+          "isIPO": false
+        },
+        {
+          "company": "Momentus",
+          "form": "8-K",
+          "description": "apre-20260812x8k.htm",
+          "date": "2026-08-12",
+          "isIPO": false
+        },
+        {
+          "company": "Virgin Galactic",
+          "form": "8-K",
+          "description": "spce-20260812.htm",
+          "date": "2026-08-12",
+          "isIPO": false
+        },
         {
           "company": "NuScale Power",
           "form": "8-K",
-          "description": "smr-20260805.htm",
-          "date": "2026-08-05",
+          "description": "tm2622138d2_8k.htm",
+          "date": "2026-08-11",
           "isIPO": false
-        },
+        }
+      ]
+    },
+    {
+      "title": "Contract Opportunities",
+      "icon": "\ud83c\udfe2",
+      "count": 1,
+      "items": [
         {
-          "company": "Centrus Energy",
-          "form": "8-K",
-          "description": "leu-20260805.htm",
-          "date": "2026-08-05",
-          "isIPO": false
-        },
-        {
-          "company": "Upstart Holdings",
-          "form": "8-K",
-          "description": "upst-20260804.htm",
-          "date": "2026-08-04",
-          "isIPO": false
-        },
-        {
-          "company": "D-Wave Quantum",
-          "form": "8-K",
-          "description": "qbts-20260805.htm",
-          "date": "2026-08-05",
-          "isIPO": false
-        },
-        {
-          "company": "Recursion Pharmaceuticals",
-          "form": "8-K",
-          "description": "rxrx-20260805.htm",
-          "date": "2026-08-05",
-          "isIPO": false
-        },
-        {
-          "company": "Ginkgo Bioworks",
-          "form": "8-K",
-          "description": "dna-20260805.htm",
-          "date": "2026-08-05",
-          "isIPO": false
-        },
-        {
-          "company": "Agrify Corporation",
-          "form": "8-K",
-          "description": "ea0299495-8k_rythm.htm",
-          "date": "2026-08-04",
-          "isIPO": false
-        },
-        {
-          "company": "Astera Labs",
-          "form": "8-K",
-          "description": "tra-20260805.htm",
-          "date": "2026-08-05",
-          "isIPO": false
+          "title": "THE PURPOSE OF THIS DELIVERY ORDER IS TO ENTER INTO A FIRM FIXED PRICE ORDER OFF USDA CONTACT 12639525D0008 ORDERING PER",
+          "agency": "",
+          "value": "",
+          "date": "2026-08-11"
         }
       ]
     },
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 19,
+      "count": 55,
       "items": [
         {
-          "title": "United States Department of Energy and United States Department of Defense v. Baltimore & Ohio Railroad Company, et al.;",
-          "type": "Notice",
+          "title": "National Substance Use Primary Prevention Month, 2026",
+          "type": "Presidential Document",
           "agencies": [
-            "Surface Transportation Board"
+            "Executive Office of the President"
           ],
           "significant": false,
-          "date": "2026-08-05"
+          "date": "2026-08-17"
         },
         {
-          "title": "Information Collection: Access Authorization",
+          "title": "Application for Final Commitment for a Long-Term Loan or Financial Guarantee in Excess of $100 Million: AP300126XX",
           "type": "Notice",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Export-Import Bank"
           ],
           "significant": false,
-          "date": "2026-08-05"
+          "date": "2026-08-17"
         },
         {
-          "title": "Virginia Electric and Power Company, (Doing Business as Dominion Energy Virginia); North Anna Site; Early Site Permit Re",
+          "title": "Information Collection Requirement; Defense Federal Acquisition Regulation Supplement (DFARS), DoD Mentor-Prot\u00e9g\u00e9 Progra",
           "type": "Notice",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Defense Department",
+            "Defense Acquisition Regulations System"
           ],
           "significant": false,
-          "date": "2026-08-05"
+          "date": "2026-08-17"
         },
         {
-          "title": "Sunshine Act Meetings",
-          "type": "Notice",
-          "agencies": [
-            "Nuclear Regulatory Commission"
-          ],
-          "significant": false,
-          "date": "2026-08-04"
-        },
-        {
-          "title": "Hazardous Materials: Reducing Recordkeeping Requirements for Domestic Carriers",
+          "title": "Streamlining Export Controls for Drone Exports",
           "type": "Rule",
           "agencies": [
-            "Transportation Department",
-            "Pipeline and Hazardous Materials Safety Administration"
+            "Commerce Department",
+            "Industry and Security Bureau"
           ],
           "significant": false,
-          "date": "2026-08-04"
+          "date": "2026-08-14"
         },
         {
-          "title": "Hazardous Materials: Modernizing Payments To and From America's Bank Account",
-          "type": "Rule",
+          "title": "Improving Government Regulations; Unified Agenda of Federal Regulatory and Deregulatory Actions",
+          "type": "Notice",
           "agencies": [
-            "Transportation Department",
-            "Pipeline and Hazardous Materials Safety Administration"
+            ""
           ],
           "significant": false,
-          "date": "2026-08-04"
+          "date": "2026-08-14"
+        },
+        {
+          "title": "2026 Unified Agenda of Regulations",
+          "type": "Notice",
+          "agencies": [
+            "Commerce Department",
+            ""
+          ],
+          "significant": false,
+          "date": "2026-08-14"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 30,
+      "count": 26,
       "items": [
         {
-          "title": "Cambridge Aerospace's valuation leaps to $3.4BN as raises $300M",
+          "title": "SpaceX officially closes its Cursor acquisition",
+          "source": "TechCrunch",
+          "company": "SpaceX",
+          "impact": "high",
+          "type": "ipo"
+        },
+        {
+          "title": "Neros Technologies raises $250M to deploy its defense drones by the end of 2026",
+          "source": "The Robot Report",
+          "company": "Neros",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "Lovable raises $400M, Duolingo acquires Animade, and Isembard is a politician's &quot;wet dream&quot",
           "source": "Tech.eu",
+          "company": "Isembard",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "Intuitive Machines wins contract for three GEO satellites",
+          "source": "SpaceNews",
+          "company": "Intuitive Machines",
+          "impact": "high",
+          "type": "contract"
+        },
+        {
+          "title": "China\u2019s iSpace raises first batch of series E funding for reusable rocketry",
+          "source": "SpaceNews",
+          "company": "ispace",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "Defense drone developer Cambridge Aerospace raises $300M",
+          "source": "The Robot Report",
           "company": "Cambridge Aerospace",
           "impact": "high",
           "type": "funding"
         },
         {
-          "title": "Base Power raises $1B to get big batteries into more homes",
-          "source": "Canary Media",
-          "company": "Base Power",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
-          "title": "Microreactor startup Valar Atomics raises $1B",
-          "source": "Canary Media",
-          "company": "Valar Atomics",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
-          "title": "Base Power raises $1B to roll out its giant new home battery",
+          "title": "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks",
           "source": "Electrek",
-          "company": "Base Power",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
-          "title": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise",
-          "source": "Sifted",
-          "company": "Cambridge Aerospace",
-          "impact": "low",
-          "type": "funding"
-        },
-        {
-          "title": "TechCrunch Mobility: Zoox prepares for launch and Uber\u2019s AV empire",
-          "source": "TechCrunch",
-          "company": "Zoox",
-          "impact": "low",
-          "type": "milestone"
-        },
-        {
-          "title": "OpenAI acquires presentation startup NextSlide",
-          "source": "TechCrunch",
-          "company": "OpenAI",
+          "company": "Einride",
           "impact": "low",
           "type": "news"
         },
         {
-          "title": "Here Are the First Images of the Crater Left on the Moon by SpaceX\u2019s Rocket",
-          "source": "Wired",
-          "company": "SpaceX",
+          "title": "Waymo wins California approval to expand robotaxis across 18 counties",
+          "source": "Electrek",
+          "company": "Waymo",
           "impact": "low",
           "type": "ipo"
         }
@@ -278,100 +292,102 @@
       "count": 47,
       "items": [
         {
-          "title": "AI-Generated Images Discourage Me from Reading Your Blog",
-          "score": 786,
-          "comments": 464,
+          "title": "Qwen 3.8 27B",
+          "score": 1376,
+          "comments": 775,
           "companies": [
-            "Rigetti Computing"
+            "Hugging Face"
           ],
-          "url": "https://news.ycombinator.com/item?id=49167113"
+          "url": "https://news.ycombinator.com/item?id=49299605"
         },
         {
-          "title": "Discovery Loop",
-          "score": 749,
-          "comments": 467,
+          "title": "Why does Opus 5 feel worse to work with?",
+          "score": 944,
+          "comments": 836,
           "companies": [
-            "Cover"
+            "Ada"
           ],
-          "url": "https://news.ycombinator.com/item?id=49184960"
+          "url": "https://news.ycombinator.com/item?id=49296740"
         },
         {
-          "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
-          "score": 657,
-          "comments": 710,
+          "title": "Google is making private AI practical with homomorphic encryption",
+          "score": 485,
+          "comments": 282,
           "companies": [
-            "Cover"
+            "ideaForge",
+            "Percepto",
+            "Cape"
           ],
-          "url": "https://news.ycombinator.com/item?id=49184755"
+          "url": "https://news.ycombinator.com/item?id=49300314"
         },
         {
-          "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
-          "score": 610,
-          "comments": 99,
+          "title": "AI has access to a vastly larger working memory than the human brain",
+          "score": 474,
+          "comments": 407,
           "companies": [
-            "Built Robotics",
-            "Agility Robotics"
+            "Vast",
+            "Matic Robotics"
           ],
-          "url": "https://news.ycombinator.com/item?id=49170165"
+          "url": "https://news.ycombinator.com/item?id=49312845"
         },
         {
-          "title": "Cloudflare OS: an open platform for agents, apps, and work",
-          "score": 557,
-          "comments": 267,
+          "title": "Going Dark, and the era of law enforcement hacking",
+          "score": 448,
+          "comments": 242,
           "companies": [
-            "Rigetti Computing"
+            "Flock Safety",
+            "Fortera"
           ],
-          "url": "https://news.ycombinator.com/item?id=49182996"
+          "url": "https://news.ycombinator.com/item?id=49304447"
         },
         {
-          "title": "Pi's Minimalism Is Its Advantage",
-          "score": 527,
-          "comments": 285,
+          "title": "Auto-research with codex: How I achieved a 232x Faster Kernel",
+          "score": 415,
+          "comments": 91,
           "companies": [
-            "Databricks",
             "Sakana AI"
           ],
-          "url": "https://news.ycombinator.com/item?id=49176038"
+          "url": "https://news.ycombinator.com/item?id=49309549"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 95,
+      "count": 105,
       "items": [
         {
-          "title": "Equifax Canada Survey Shows One in Four Canadians Expect to Make Only Minimum Credit Card Payments",
+          "title": "HII\u2019s Newport News Shipbuilding Completes Successful Acceptance Sea Trials of John F. Kennedy (CVN 79)",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Un sondage d\u2019Equifax Canada r\u00e9v\u00e8le qu\u2019une personne sur quatre au Canada pr\u00e9voit de r\u00e9gler uniquement le minimum d\u00fb sur s",
+          "title": "Snail Games \u91cd\u9ede\u4ecb\u7d39\u904a\u6232\u7522\u54c1\u7d44\u5408\u4e2d\u7684\u591a\u9805\u91cc\u7a0b\u7891",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Man Group PLC : Form 8.3 - JTC Plc",
+          "title": "Snail Games \u516c\u5e03\u65d7\u4e0b\u6e38\u620f\u4ea7\u54c1\u7ec4\u5408\u591a\u9879\u91cc\u7a0b\u7891",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Form 8.5 (EPT/RI)-Gooch & Housego plc",
+          "title": "Davis Commodities Limited Announces Receipt of Nasdaq Final Action Letter",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Man Group PLC : Form 8.3 - Senior plc",
+          "title": "Partners Value Split Corp. Announces 2026 Semi-Annual Results",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Form 8.5 (EPT/RI)-Advanced Medical Solutions Group Plc",
+          "title": "New Earth Resources Announces Adoption of Quarterly Reporting Exemption under Coordinated Blanket Order 51-933",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-08-10-6035ade86f45"
+  "brief_id": "brief-2026-08-16-fbb321a4a220"
 }
