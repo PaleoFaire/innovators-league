@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T19:26:42.315095+00:00",
+  "generatedAt": "2026-08-16T20:31:25.619954+00:00",
   "date": "2026-08-16",
   "dateDisplay": "Sunday, August 16, 2026",
   "sections": {
@@ -86,13 +86,6 @@
         "change": -0.53
       },
       {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 16.21,
-        "changePercent": -21.92,
-        "change": -4.55
-      },
-      {
         "ticker": "ACHR",
         "company": "Archer Aviation",
         "price": 6.62,
@@ -133,6 +126,13 @@
         "price": 7.92,
         "changePercent": -8.33,
         "change": -0.72
+      },
+      {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 501000.0,
+        "changePercent": 7.74,
+        "change": 36000.0
       }
     ],
     "regulatory": [
