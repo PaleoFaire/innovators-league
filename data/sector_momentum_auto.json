@@ -4,9 +4,9 @@
     "momentum": 69,
     "trend": "accelerating",
     "catalysts": [
+      "SpaceX officially closes its Cursor acquisition",
       "Blue Origin outlines plans for second Cape Canaveral launch",
-      "Intuitive Machines wins contract for three GEO satellites",
-      "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that m"
+      "Intuitive Machines wins contract for three GEO satellites"
     ],
     "fundingQ": "$264.3B",
     "components": {
@@ -15,7 +15,7 @@
       "hiring": 0,
       "market": 87
     },
-    "lastUpdated": "2026-08-15"
+    "lastUpdated": "2026-08-16"
   },
   {
     "sector": "Robotics & Manufacturing",
@@ -33,25 +33,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-15"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 55,
-    "trend": "accelerating",
-    "catalysts": [
-      "OpenAI and Anthropic in price war as Chinese AI rivals gain",
-      "The Safety Reckoning Inside OpenAI",
-      "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that m"
-    ],
-    "fundingQ": "$325.8B",
-    "components": {
-      "funding": 100,
-      "news": 40,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-15"
+    "lastUpdated": "2026-08-16"
   },
   {
     "sector": "Defense & Security",
@@ -69,7 +51,25 @@
       "hiring": 0,
       "market": 62
     },
-    "lastUpdated": "2026-08-15"
+    "lastUpdated": "2026-08-16"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 52,
+    "trend": "steady",
+    "catalysts": [
+      "OpenAI and Anthropic in price war as Chinese AI rivals gain",
+      "The Safety Reckoning Inside OpenAI",
+      "XAI Grok 4.6 is Third Place But Close to OpenAI and Anthropi"
+    ],
+    "fundingQ": "$325.8B",
+    "components": {
+      "funding": 100,
+      "news": 30,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-16"
   },
   {
     "sector": "Transportation",
@@ -86,7 +86,7 @@
       "hiring": 0,
       "market": 70
     },
-    "lastUpdated": "2026-08-15"
+    "lastUpdated": "2026-08-16"
   },
   {
     "sector": "Climate & Energy",
@@ -102,7 +102,7 @@
       "hiring": 0,
       "market": 68
     },
-    "lastUpdated": "2026-08-15"
+    "lastUpdated": "2026-08-16"
   },
   {
     "sector": "Biotech & Health",
@@ -118,7 +118,7 @@
       "hiring": 0,
       "market": 41
     },
-    "lastUpdated": "2026-08-15"
+    "lastUpdated": "2026-08-16"
   },
   {
     "sector": "Nuclear Energy",
@@ -136,7 +136,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-08-15"
+    "lastUpdated": "2026-08-16"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -152,7 +152,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-15"
+    "lastUpdated": "2026-08-16"
   },
   {
     "sector": "Consumer Tech",
@@ -170,25 +170,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-15"
+    "lastUpdated": "2026-08-16"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 15,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
+      "PACCAR brand DAF to add Level 4 Einride autonomy to its elec",
       "Neros Technologies raises $250M to deploy its defense drones",
-      "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadi",
-      "DAF Trucks to integrate Einride Driver to scale autonomous e"
+      "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadi"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-15"
+    "lastUpdated": "2026-08-16"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -204,7 +204,7 @@
       "hiring": 0,
       "market": 61
     },
-    "lastUpdated": "2026-08-15"
+    "lastUpdated": "2026-08-16"
   },
   {
     "sector": "Housing & Construction",
@@ -221,7 +221,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-15"
+    "lastUpdated": "2026-08-16"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "PACCAR brand DAF to add Level 4 Einride autonomy to its elec"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-16"
   },
   {
     "sector": "Ocean & Maritime",
@@ -237,23 +253,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-15"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active infrastructure & logistics ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-15"
+    "lastUpdated": "2026-08-16"
   },
   {
     "sector": "Quantum Computing",
@@ -269,6 +269,6 @@
       "hiring": 0,
       "market": 7
     },
-    "lastUpdated": "2026-08-15"
+    "lastUpdated": "2026-08-16"
   }
 ]
