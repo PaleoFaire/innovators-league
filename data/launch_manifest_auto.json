@@ -1,6 +1,15 @@
 [
   {
-    "date": "2026-08-15",
+    "date": "2026-08-16",
+    "vehicle": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 8)",
+    "payload": "Globalstar 2-R Mission 1 (x 8)",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-08-16",
     "vehicle": "Falcon 9 Block 5 | USSF-366",
     "payload": "USSF-366",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -10,17 +19,8 @@
   },
   {
     "date": "2026-08-16",
-    "vehicle": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
-    "payload": "Globalstar 2-R Mission 1 (x 9)",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-08-16",
-    "vehicle": "Long March 12 | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Long March 12 | SatNet LEO Group 24",
+    "payload": "SatNet LEO Group 24",
     "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/b0e7d1cc-24dd-4da4-bb60-b15b6791d08e/?format=json",
@@ -235,6 +235,15 @@
   },
   {
     "date": "2026-09-30",
+    "vehicle": "GSLV Mk II | IRNSS-1L (NVS-03)",
+    "payload": "IRNSS-1L (NVS-03)",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/20d5676e-111b-40e3-8923-b218c3665ca2/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-09-30",
     "vehicle": "Starship | Flight 14",
     "payload": "Flight 14",
     "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
@@ -438,15 +447,6 @@
     "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/71df1dd0-d658-4762-b0bc-0fca6886aea7/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-12-31",
-    "vehicle": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer E",
-    "payload": "SDA Tranche 2 Transport Layer E",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/71ed4649-8d71-42e8-8548-d42ffa2c5a6e/?format=json",
     "trackedCompany": "SpaceX"
   }
 ]

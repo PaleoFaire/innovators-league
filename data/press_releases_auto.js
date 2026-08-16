@@ -1,5 +1,5 @@
 // Auto-updated press releases
-// Last updated: 2026-08-15 07:19:10 UTC
+// Last updated: 2026-08-16 07:20:39 UTC
 const PRESS_RELEASES = [
   { title: "Blue Origin outlines plans for second Cape Canaveral launch pad", date: "2026-08-14", companies: "Blue Origin, Cape, Figure AI", categories: "ipo", source: "spacenews" },
   { title: "Intuitive Machines wins contract for three GEO satellites", date: "2026-08-14", companies: "Intuitive Machines, Astranis, Figure AI", categories: "contract, ipo", source: "spacenews" },

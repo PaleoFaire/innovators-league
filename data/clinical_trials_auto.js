@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-08-15 07:19:19 UTC
+// Last updated: 2026-08-16 07:20:43 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT05985655", title: "Study to Assess GTAEXS617 in Participants With Advanced Solid Tumors", status: "RECRUITING", phase: "PHASE1, PHASE2", sponsor: "Exscientia AI Ltd., a wholly owned subsidiary of Recursion Pharmaceuticals, Inc.", conditions: "Head and Neck Squamous Cell Carcinoma (HNSCC), Pan", enrollment: 230, lastUpdated: "2026-08-13" },
   { nctId: "NCT06980116", title: "Dose Determining Study of EXS73565 in Participants With Relapsed or Refractory B", status: "RECRUITING", phase: "PHASE1", sponsor: "Exscientia AI Ltd., a wholly owned subsidiary of Recursion Pharmaceuticals, Inc.", conditions: "Relapsed or Refractory B-cell Malignancies, Chroni", enrollment: 85, lastUpdated: "2026-08-13" },

@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-08-15 07:19:27 UTC
+// Last updated: 2026-08-16 07:20:56 UTC
 const ARXIV_PAPERS = [
   { id: "2608.13558v1", title: "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist", category: "Artificial Intelligence", published: "2026-08-13", sectors: "ai", authors: "Bobo Li, Hao Fei, Tianjie Ju et al." },
   { id: "2608.13555v1", title: "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark", category: "Artificial Intelligence", published: "2026-08-13", sectors: "robotics", authors: "Dairu Liu, Zekun Qi, Jiayu Zeng et al." },
