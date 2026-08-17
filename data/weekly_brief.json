@@ -1,30 +1,16 @@
 {
-  "date": "2026-08-16",
-  "display_date": "Aug 16, 2026",
-  "generated_at": "2026-08-16T09:39:47.873278+00:00",
-  "cutoff": "2026-08-09T09:39:47.873278+00:00",
+  "date": "2026-08-17",
+  "display_date": "Aug 17, 2026",
+  "generated_at": "2026-08-17T10:36:35.106663+00:00",
+  "cutoff": "2026-08-10T10:36:35.106663+00:00",
   "section_count": 7,
-  "total_items": 283,
+  "total_items": 273,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 18,
+      "count": 17,
       "items": [
-        {
-          "company": "Diraq",
-          "current": 28.5,
-          "previous": 36.0,
-          "change": -7.5,
-          "tier": "early"
-        },
-        {
-          "company": "Peak Quantum",
-          "current": 28.0,
-          "previous": 35.5,
-          "change": -7.5,
-          "tier": "early"
-        },
         {
           "company": "Plantd Materials",
           "current": 30.5,
@@ -33,11 +19,32 @@
           "tier": "early"
         },
         {
+          "company": "Diraq",
+          "current": 31.5,
+          "previous": 36.0,
+          "change": -4.5,
+          "tier": "early"
+        },
+        {
+          "company": "Peak Quantum",
+          "current": 31.0,
+          "previous": 35.5,
+          "change": -4.5,
+          "tier": "early"
+        },
+        {
           "company": "Astera Labs",
           "current": 83.5,
           "previous": 79.5,
           "change": 4.0,
           "tier": "exceptional"
+        },
+        {
+          "company": "NuScale Power",
+          "current": 77.5,
+          "previous": 74.5,
+          "change": 3.0,
+          "tier": "leader"
         },
         {
           "company": "Resilience",
@@ -73,20 +80,13 @@
           "previous": 38.0,
           "change": -3.0,
           "tier": "early"
-        },
-        {
-          "company": "Cellino",
-          "current": 34.5,
-          "previous": 37.5,
-          "change": -3.0,
-          "tier": "early"
         }
       ]
     },
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 31,
+      "count": 21,
       "items": [
         {
           "company": "Rocket Lab",
@@ -100,20 +100,6 @@
           "form": "8-K",
           "description": "g085841_8k.htm",
           "date": "2026-08-13",
-          "isIPO": false
-        },
-        {
-          "company": "Rocket Lab",
-          "form": "8-K",
-          "description": "rklb-20260810.htm",
-          "date": "2026-08-10",
-          "isIPO": false
-        },
-        {
-          "company": "AST SpaceMobile",
-          "form": "8-K",
-          "description": "asts-20260810.htm",
-          "date": "2026-08-10",
           "isIPO": false
         },
         {
@@ -143,6 +129,20 @@
           "description": "tm2622138d2_8k.htm",
           "date": "2026-08-11",
           "isIPO": false
+        },
+        {
+          "company": "Agrify Corporation",
+          "form": "8-K",
+          "description": "ea0301464-8k_rythm.htm",
+          "date": "2026-08-11",
+          "isIPO": false
+        },
+        {
+          "company": "Satellogic",
+          "form": "8-K",
+          "description": "ea0302057-8k_zoomcar.htm",
+          "date": "2026-08-14",
+          "isIPO": false
         }
       ]
     },
@@ -162,71 +162,72 @@
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 55,
+      "count": 52,
       "items": [
         {
-          "title": "National Substance Use Primary Prevention Month, 2026",
-          "type": "Presidential Document",
-          "agencies": [
-            "Executive Office of the President"
-          ],
-          "significant": false,
-          "date": "2026-08-17"
-        },
-        {
-          "title": "Application for Final Commitment for a Long-Term Loan or Financial Guarantee in Excess of $100 Million: AP300126XX",
+          "title": "Unified Agenda of Federal Regulatory and Deregulatory Actions-2026",
           "type": "Notice",
           "agencies": [
-            "Export-Import Bank"
-          ],
-          "significant": false,
-          "date": "2026-08-17"
-        },
-        {
-          "title": "Information Collection Requirement; Defense Federal Acquisition Regulation Supplement (DFARS), DoD Mentor-Prot\u00e9g\u00e9 Progra",
-          "type": "Notice",
-          "agencies": [
-            "Defense Department",
-            "Defense Acquisition Regulations System"
-          ],
-          "significant": false,
-          "date": "2026-08-17"
-        },
-        {
-          "title": "Streamlining Export Controls for Drone Exports",
-          "type": "Rule",
-          "agencies": [
-            "Commerce Department",
-            "Industry and Security Bureau"
+            "Federal Communications Commission"
           ],
           "significant": false,
           "date": "2026-08-14"
         },
         {
-          "title": "Improving Government Regulations; Unified Agenda of Federal Regulatory and Deregulatory Actions",
+          "title": "Introduction to the Unified Agenda of Federal Regulatory and Deregulatory Actions-2026",
           "type": "Notice",
           "agencies": [
-            ""
+            "Regulatory Information Service Center"
           ],
           "significant": false,
           "date": "2026-08-14"
         },
         {
-          "title": "2026 Unified Agenda of Regulations",
+          "title": "Determination of Regulatory Review Period for Purposes of Patent Extension; BIZENGRI",
           "type": "Notice",
           "agencies": [
-            "Commerce Department",
-            ""
+            "Health and Human Services Department",
+            "Food and Drug Administration"
+          ],
+          "significant": false,
+          "date": "2026-08-17"
+        },
+        {
+          "title": "Type VII Veterinary Master File for Research and Development and Risk Reviews; Guidance for Industry; Availability",
+          "type": "Notice",
+          "agencies": [
+            "Health and Human Services Department",
+            "Food and Drug Administration"
+          ],
+          "significant": false,
+          "date": "2026-08-17"
+        },
+        {
+          "title": "Reauthorization of the Prescription Drug User Fee Act; Public Meeting; Request for Comments",
+          "type": "Notice",
+          "agencies": [
+            "Health and Human Services Department",
+            "Food and Drug Administration"
           ],
           "significant": false,
           "date": "2026-08-14"
+        },
+        {
+          "title": "Government Owned Invention Available for License: MC38 B2m KO Cell Line",
+          "type": "Notice",
+          "agencies": [
+            "Health and Human Services Department",
+            "National Institutes of Health"
+          ],
+          "significant": false,
+          "date": "2026-08-12"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 26,
+      "count": 24,
       "items": [
         {
           "title": "SpaceX officially closes its Cursor acquisition",
@@ -257,18 +258,18 @@
           "type": "contract"
         },
         {
-          "title": "China\u2019s iSpace raises first batch of series E funding for reusable rocketry",
-          "source": "SpaceNews",
-          "company": "ispace",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
           "title": "Defense drone developer Cambridge Aerospace raises $300M",
           "source": "The Robot Report",
           "company": "Cambridge Aerospace",
           "impact": "high",
           "type": "funding"
+        },
+        {
+          "title": "Anthropic CEO says AI backlash is \u2018fundamentally a crisis of trust\u2019",
+          "source": "TechCrunch",
+          "company": "Anthropic",
+          "impact": "low",
+          "type": "hire"
         },
         {
           "title": "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks",
@@ -289,65 +290,63 @@
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 47,
+      "count": 53,
       "items": [
         {
-          "title": "Qwen 3.8 27B",
-          "score": 1376,
-          "comments": 775,
+          "title": "Claude: System Prompts",
+          "score": 630,
+          "comments": 251,
           "companies": [
-            "Hugging Face"
+            "Anthropic"
           ],
-          "url": "https://news.ycombinator.com/item?id=49299605"
+          "url": "https://news.ycombinator.com/item?id=49319556"
         },
         {
-          "title": "Why does Opus 5 feel worse to work with?",
-          "score": 944,
-          "comments": 836,
+          "title": "AI isn\u2019t outthinking mathematicians, it\u2019s out-remembering them",
+          "score": 612,
+          "comments": 492,
           "companies": [
-            "Ada"
-          ],
-          "url": "https://news.ycombinator.com/item?id=49296740"
-        },
-        {
-          "title": "Google is making private AI practical with homomorphic encryption",
-          "score": 485,
-          "comments": 282,
-          "companies": [
-            "ideaForge",
-            "Percepto",
-            "Cape"
-          ],
-          "url": "https://news.ycombinator.com/item?id=49300314"
-        },
-        {
-          "title": "AI has access to a vastly larger working memory than the human brain",
-          "score": 474,
-          "comments": 407,
-          "companies": [
-            "Vast",
             "Matic Robotics"
           ],
           "url": "https://news.ycombinator.com/item?id=49312845"
         },
         {
-          "title": "Going Dark, and the era of law enforcement hacking",
-          "score": 448,
-          "comments": 242,
+          "title": "A third world engineer responds to \u201cRISC-V: They should have known better\u201d",
+          "score": 474,
+          "comments": 246,
           "companies": [
-            "Flock Safety",
-            "Fortera"
+            "Tenstorrent"
           ],
-          "url": "https://news.ycombinator.com/item?id=49304447"
+          "url": "https://news.ycombinator.com/item?id=49321717"
+        },
+        {
+          "title": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
+          "score": 449,
+          "comments": 115,
+          "companies": [
+            "Bear Robotics",
+            "Rigetti Computing"
+          ],
+          "url": "https://news.ycombinator.com/item?id=49322107"
         },
         {
           "title": "Auto-research with codex: How I achieved a 232x Faster Kernel",
-          "score": 415,
-          "comments": 91,
+          "score": 448,
+          "comments": 92,
           "companies": [
             "Sakana AI"
           ],
           "url": "https://news.ycombinator.com/item?id=49309549"
+        },
+        {
+          "title": "Super El Ni\u00f1o Keeps Growing as New Forecasts Reach Record Territory Ahead Winter",
+          "score": 428,
+          "comments": 327,
+          "companies": [
+            "Ada",
+            "Muon Space"
+          ],
+          "url": "https://news.ycombinator.com/item?id=49313428"
         }
       ]
     },
@@ -357,37 +356,37 @@
       "count": 105,
       "items": [
         {
-          "title": "HII\u2019s Newport News Shipbuilding Completes Successful Acceptance Sea Trials of John F. Kennedy (CVN 79)",
+          "title": "Prepayments, Realkredit Danmark A/S",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Snail Games \u91cd\u9ede\u4ecb\u7d39\u904a\u6232\u7522\u54c1\u7d44\u5408\u4e2d\u7684\u591a\u9805\u91cc\u7a0b\u7891",
+          "title": "Ekstraordin\u00e6re indfrielser, Realkredit Danmark A/S",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Snail Games \u516c\u5e03\u65d7\u4e0b\u6e38\u620f\u4ea7\u54c1\u7ec4\u5408\u591a\u9879\u91cc\u7a0b\u7891",
+          "title": "Ekstraordin\u00e6re indfrielser (CK 93)",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Davis Commodities Limited Announces Receipt of Nasdaq Final Action Letter",
+          "title": "Prepayments (CK93) - Nykredit Realkredit A/S",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Partners Value Split Corp. Announces 2026 Semi-Annual Results",
+          "title": "Ekstraordin\u00e6re indfrielser (CK93) - Nykredit Realkredit A/S",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "New Earth Resources Announces Adoption of Quarterly Reporting Exemption under Coordinated Blanket Order 51-933",
+          "title": "Prepayments (CK93) - Totalkredit A/S",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-08-16-fbb321a4a220"
+  "brief_id": "brief-2026-08-17-49be651964dc"
 }
