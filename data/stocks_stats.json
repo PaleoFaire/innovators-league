@@ -3,113 +3,113 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 1.18,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -0.26,
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 4.34,
+      "gainers": 7,
+      "losers": 0,
+      "avg_change": 10.3,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -5.7,
+      "avg_change": -4.23,
       "count": 7
     },
     "nuclear": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -2.81,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 2.57,
       "count": 3
     },
     "climate": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 2.15,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -2.43,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 3.67,
+      "avg_change": 5.78,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -1.78,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -4.93,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.08,
+      "avg_change": -3.38,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.07,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 6.56,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "ACHR",
-      "Archer Aviation",
-      18.43
-    ],
-    [
       "LUNR",
       "Intuitive Machines",
-      15.91
+      26.05
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      7.74
+      "SATL",
+      "Satellogic",
+      11.11
     ],
     [
       "AMD",
       "AMD",
-      6.42
+      9.11
     ],
     [
       "ASRHF",
       "Astroscale",
-      5.59
+      8.97
+    ],
+    [
+      "IONQ",
+      "IonQ",
+      8.31
     ]
   ],
   "topLosers": [
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -6.9
-    ],
-    [
-      "JOBY",
-      "Joby Aviation",
-      -8.33
-    ],
-    [
-      "OKLO",
-      "Oklo",
-      -8.34
+      "TEM",
+      "Tempus AI",
+      -7.01
     ],
     [
       "DRSHF",
       "DroneShield",
-      -10.83
+      -7.59
+    ],
+    [
+      "RIVN",
+      "Rivian",
+      -9.37
+    ],
+    [
+      "JOBY",
+      "Joby Aviation",
+      -11.58
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -39.01
+      -12.61
     ]
   ],
-  "lastUpdated": "2026-08-17 08:04:01"
+  "lastUpdated": "2026-08-17 13:56:34"
 }
