@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T07:09:27.076662+00:00",
+  "generatedAt": "2026-08-17T08:53:27.991621+00:00",
   "date": "2026-08-17",
   "dateDisplay": "Monday, August 17, 2026",
   "sections": {
@@ -107,13 +107,6 @@
         "change": -0.17
       },
       {
-        "ticker": "IDEAFORGE.NS",
-        "company": "ideaForge",
-        "price": 820.85,
-        "changePercent": -8.57,
-        "change": -76.9
-      },
-      {
         "ticker": "OKLO",
         "company": "Oklo",
         "price": 44.38,
@@ -133,6 +126,13 @@
         "price": 501000.0,
         "changePercent": 7.74,
         "change": 36000.0
+      },
+      {
+        "ticker": "IDEAFORGE.NS",
+        "company": "ideaForge",
+        "price": 794.05,
+        "changePercent": -6.9,
+        "change": -58.85
       }
     ],
     "regulatory": [
@@ -160,23 +160,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Application for Final Commitment for a Long-Term Loan or Financial Guarantee in ",
-        "date": "2026-08-17",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-16688"
-      },
-      {
-        "kind": "Federal Register",
-        "company": "",
-        "title": "Information Collection Requirement; Defense Federal Acquisition Regulation Suppl",
-        "date": "2026-08-17",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-16682"
-      },
-      {
-        "kind": "Federal Register",
-        "company": "",
         "title": "Determination of Regulatory Review Period for Purposes of Patent Extension; BIZE",
         "date": "2026-08-17",
         "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-16713"
+      },
+      {
+        "kind": "Federal Register",
+        "company": "",
+        "title": "Type VII Veterinary Master File for Research and Development and Risk Reviews; G",
+        "date": "2026-08-17",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-16711"
+      },
+      {
+        "kind": "Federal Register",
+        "company": "",
+        "title": "Application for Final Commitment for a Long-Term Loan or Financial Guarantee in ",
+        "date": "2026-08-17",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-16688"
       }
     ],
     "patents": [
