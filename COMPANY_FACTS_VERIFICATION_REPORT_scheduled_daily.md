@@ -1,73 +1,52 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-08-16T05:36:17+00:00  
+**Generated:** 2026-08-17T05:42:31+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 51 companies  
+**Cohort size:** 46 companies  
 
-**New Claude extractions this run:** 51  
+**New Claude extractions this run:** 46  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 45 | 88% |
-| 🔧 Changes proposed | 6 | 12% |
+| ✅ Cleared (data matches sources) | 43 | 93% |
+| 🔧 Changes proposed | 3 | 7% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (6 companies)
+## 🔧 Proposed Changes (3 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
-
-### 1X Technologies
-
-- **`totalRaised`:** `$1.1B` → `$123.5M`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/1X_Technologies)
-
-  **Notes:** Company rebranded from Halodi Robotics to 1X Technologies in 2022. Series A2 funding of $23.5M in March 2023 led by OpenAI Startup Fund. Series B funding of $100M in January 2024 led by EQT Ventures. Total raised calculated as $23.5M + $100M = $123.5M based on verified funding rounds. Wikipedia and news sources describe the robotics company; sources [0] and [1] appear to describe a different company (wire and cable distributor) also named 1X Technologies LLC based in Sheridan, WY with founding date 2015.
-
-### Agility Robotics
-
-- **`fundingStage`:** `Series D` → `Pre-IPO`  
-  Sources: [company_website](https://agilityrobotics.com)
-
-  **Notes:** Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, with confidential S-4 submission July 14, 2026). Company rebranded as 'Agility' on March 5, 2026, per Wikipedia source [2]. Source [3] is about Mitsubishi and does not contain information about Agility Robotics.
 
 ### Blue Origin
 
 - **`fundingStage`:** `SPAC` → `Private`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Blue_Origin)
 
-  **Notes:** Database entry lists stage as 'SPAC' but source [0] clearly identifies company as 'Private' with no mention of SPAC activity. Database entry cites 'Coatue Management' as investor but this cannot be verified in provided sources. Total raised amount of '$10B+' cannot be verified in provided sources.
+  **Notes:** Database entry incorrectly listed stage as 'SPAC' - Wikipedia confirms company is private. Entry listed total_raised as '$10B+' but no specific funding figures appear in provided sources. Entry did not cite Coatue Management as investor in provided sources.
 
 ### Nano Nuclear Energy
 
 - **`fundingStage`:** `Seed` → `Public`  
   Sources: [company_website](https://nanonuclearenergy.com) · [company_about](https://nanonuclearenergy.com/about)
 
-  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicates of the same website content. Source [2] appears to be about a different company (Valar Atomics) and was not used. Founder information not explicitly stated in sources. Founded year not mentioned in sources. Total raised and valuation figures from database entry could not be verified from these sources.
-
-### Rhoman Aerospace
-
-- **`founded`:** `2018` → `2015`  
-  Sources: [company_about](https://www.rhoman.aero/about)
-
-  **Notes:** Database entry lists founded year as 2018, but source [1] states 'Rhoman Aerospace began in 2015 with the filing of its first patent.' Founder names Thomas Youmans and Thomas Callen could not be verified in provided sources. Source [2] is about Neros Technologies, not Rhoman Aerospace, and is not relevant.
+  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from company's own website. Source [2] about Valar Atomics is unrelated to NANO Nuclear Energy and was not used. No founder names explicitly stated in sources as founders/co-founders. Founded year not mentioned in sources. Total raised and valuation figures from database entry could not be verified in provided sources. Current stage verified as 'Public' based on NASDAQ listing statement.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** IPO occurred June 12, 2026. Wikipedia source indicates Elon Musk controls 85% voting power (not 82% as in database entry). Database claims of '165 Falcon 9 launches in 2025' and '$1.5T valuation' could not be verified from provided sources. Valuation field set to null due to inability to verify specific current valuation.
+  **Notes:** Wikipedia source indicates SpaceX completed IPO on June 12, 2026, raising $86 billion. Current database entry claims $1.65T valuation and $1.5T IPO valuation, but these figures are not supported by provided sources. Elon Musk owns 42% equity with 85% voting control (Wikipedia notes 82% voting control in one place, 85% in another). Sources [1], [2], [3] are news articles about recent business developments but do not contain verifiable founding or core company information.
 
 ---
 
-## ✅ Cleared (45 companies)
+## ✅ Cleared (43 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -83,7 +62,6 @@ Sample (first 30):
 - Base Power
 - Cambridge Aerospace
 - Cape
-- Dawn Aerospace
 - Deterrence
 - Durin
 - Einride
@@ -103,9 +81,10 @@ Sample (first 30):
 - Orbital Composites
 - Palantir
 - Parallel Systems
-- *...and 15 more*
+- Persona AI
+- *...and 13 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-08-16T05:36:17+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-08-17T05:42:31+00:00*

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-16T05:36:17+00:00",
+  "generatedAt": "2026-08-17T05:42:31+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 51,
-  "newExtractionsThisRun": 51,
+  "cohortSize": 46,
+  "newExtractionsThisRun": 46,
   "summary": {
-    "cleared": 45,
-    "changesProposed": 6,
+    "cleared": 43,
+    "changesProposed": 3,
     "unverifiable": 0
   },
   "cleared": [
@@ -20,7 +20,6 @@
     "Base Power",
     "Cambridge Aerospace",
     "Cape",
-    "Dawn Aerospace",
     "Deterrence",
     "Durin",
     "Einride",
@@ -46,206 +45,16 @@
     "Quantum-Systems",
     "Radiant",
     "Rebellions",
+    "Rhoman Aerospace",
     "Rivian",
     "Rocket Lab",
-    "Together AI",
     "Valar Atomics",
     "Waymo",
     "WeaveGrid",
     "Xtend",
-    "ideaForge",
-    "ispace"
+    "ideaForge"
   ],
   "changesProposed": [
-    {
-      "name": "1X Technologies",
-      "current": {
-        "name": "1X Technologies",
-        "founder": "Bernt \u00d8ivind B\u00f8rnich",
-        "location": "Palo Alto, California, USA",
-        "founded": 2014,
-        "fundingStage": "Series B",
-        "totalRaised": "$1.1B",
-        "website": "https://1xtechnologies.com"
-      },
-      "verified": {
-        "name": "1X Technologies",
-        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home environments. The company manufactures humanoid robots including EVE (for industrial use) and NEO (for home use).",
-        "founders": [
-          "Bernt \u00d8ivind B\u00f8rnich"
-        ],
-        "location": "Palo Alto, California, USA",
-        "founded_year": 2014,
-        "current_stage": "Series B",
-        "total_raised": "$123.5M",
-        "valuation": null,
-        "investors": [
-          "OpenAI Startup Fund",
-          "Tiger Global",
-          "Sandwater",
-          "Alliance Ventures",
-          "Skagerak Capital",
-          "EQT Ventures",
-          "Samsung NEXT",
-          "Nistad Group"
-        ],
-        "website": "https://1x.tech",
-        "sources_per_field": {
-          "name": [
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            2
-          ]
-        },
-        "notes": "Company rebranded from Halodi Robotics to 1X Technologies in 2022. Series A2 funding of $23.5M in March 2023 led by OpenAI Startup Fund. Series B funding of $100M in January 2024 led by EQT Ventures. Total raised calculated as $23.5M + $100M = $123.5M based on verified funding rounds. Wikipedia and news sources describe the robotics company; sources [0] and [1] appear to describe a different company (wire and cable distributor) also named 1X Technologies LLC based in Sheridan, WY with founding date 2015."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$1.1B",
-          "verified": "$123.5M",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://1xtechnologies.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://1xtechnologies.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/1X_Technologies"
-        },
-        {
-          "idx": 3,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/08/07/mitsubishi-joins-the-humanoid-robot-race-at-a-1000-unit-per-month-pace/"
-        }
-      ],
-      "notes": "Company rebranded from Halodi Robotics to 1X Technologies in 2022. Series A2 funding of $23.5M in March 2023 led by OpenAI Startup Fund. Series B funding of $100M in January 2024 led by EQT Ventures. Total raised calculated as $23.5M + $100M = $123.5M based on verified funding rounds. Wikipedia and news sources describe the robotics company; sources [0] and [1] appear to describe a different company (wire and cable distributor) also named 1X Technologies LLC based in Sheridan, WY with founding date 2015."
-    },
-    {
-      "name": "Agility Robotics",
-      "current": {
-        "name": "Agility Robotics",
-        "founder": "Jonathan Hurst, Damion Shelton, Mikhail Jones",
-        "location": "Salem, Oregon",
-        "founded": 2015,
-        "fundingStage": "Series D",
-        "totalRaised": "$400M+",
-        "website": "https://agilityrobotics.com"
-      },
-      "verified": {
-        "name": "Agility Robotics",
-        "description": "A humanoid robotics company that develops and deploys Digit, a bipedal humanoid robot for warehouse and logistics automation. Digit is commercially deployed with customers including Amazon, GXO Logistics, Toyota, and Mercado Libre.",
-        "founders": [
-          "Jonathan Hurst",
-          "Damion Shelton",
-          "Mikhail Jones"
-        ],
-        "location": "Salem, Oregon",
-        "founded_year": 2015,
-        "current_stage": "Pre-IPO",
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://agilityrobotics.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            1,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            0,
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            0
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, with confidential S-4 submission July 14, 2026). Company rebranded as 'Agility' on March 5, 2026, per Wikipedia source [2]. Source [3] is about Mitsubishi and does not contain information about Agility Robotics."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "Series D",
-          "verified": "Pre-IPO",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://agilityrobotics.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://agilityrobotics.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Agility_Robotics"
-        },
-        {
-          "idx": 3,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/08/07/mitsubishi-joins-the-humanoid-robot-race-at-a-1000-unit-per-month-pace/"
-        }
-      ],
-      "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, with confidential S-4 submission July 14, 2026). Company rebranded as 'Agility' on March 5, 2026, per Wikipedia source [2]. Source [3] is about Mitsubishi and does not contain information about Agility Robotics."
-    },
     {
       "name": "Blue Origin",
       "current": {
@@ -259,7 +68,7 @@
       },
       "verified": {
         "name": "Blue Origin",
-        "description": "Private American aerospace company headquartered in Kent, Washington that operates the suborbital New Shepard rocket and heavy-lift New Glenn orbital rocket, and supplies engines for other vehicles including United Launch Alliance's Vulcan Centaur.",
+        "description": "Private American aerospace company headquartered in Kent, Washington that operates the suborbital New Shepard rocket and heavy-lift New Glenn rocket, and supplies engines for other vehicles including United Launch Alliance's Vulcan Centaur.",
         "founders": [
           "Jeff Bezos"
         ],
@@ -293,7 +102,7 @@
             0
           ]
         },
-        "notes": "Database entry lists stage as 'SPAC' but source [0] clearly identifies company as 'Private' with no mention of SPAC activity. Database entry cites 'Coatue Management' as investor but this cannot be verified in provided sources. Total raised amount of '$10B+' cannot be verified in provided sources."
+        "notes": "Database entry incorrectly listed stage as 'SPAC' - Wikipedia confirms company is private. Entry listed total_raised as '$10B+' but no specific funding figures appear in provided sources. Entry did not cite Coatue Management as investor in provided sources."
       },
       "changes": [
         {
@@ -317,7 +126,7 @@
           "url": "https://spacenews.com/blue-origin-outlines-plans-for-second-cape-canaveral-launch-pad/"
         }
       ],
-      "notes": "Database entry lists stage as 'SPAC' but source [0] clearly identifies company as 'Private' with no mention of SPAC activity. Database entry cites 'Coatue Management' as investor but this cannot be verified in provided sources. Total raised amount of '$10B+' cannot be verified in provided sources."
+      "notes": "Database entry incorrectly listed stage as 'SPAC' - Wikipedia confirms company is private. Entry listed total_raised as '$10B+' but no specific funding figures appear in provided sources. Entry did not cite Coatue Management as investor in provided sources."
     },
     {
       "name": "Nano Nuclear Energy",
@@ -331,8 +140,8 @@
         "website": "https://nanonuclearenergy.com"
       },
       "verified": {
-        "name": "NANO Nuclear Energy Inc.",
-        "description": "Advanced nuclear energy company developing portable and stationary microreactor technologies (KRONOS, ZEUS, LOKI) with subsidiaries in fuel fabrication, fuel transportation, and space applications.",
+        "name": "NANO Nuclear Energy",
+        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, with subsidiaries in fuel fabrication, transportation, and space applications.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -356,9 +165,13 @@
           "current_stage": [
             0,
             1
+          ],
+          "website": [
+            0,
+            1
           ]
         },
-        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicates of the same website content. Source [2] appears to be about a different company (Valar Atomics) and was not used. Founder information not explicitly stated in sources. Founded year not mentioned in sources. Total raised and valuation figures from database entry could not be verified from these sources."
+        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from company's own website. Source [2] about Valar Atomics is unrelated to NANO Nuclear Energy and was not used. No founder names explicitly stated in sources as founders/co-founders. Founded year not mentioned in sources. Total raised and valuation figures from database entry could not be verified in provided sources. Current stage verified as 'Public' based on NASDAQ listing statement."
       },
       "changes": [
         {
@@ -388,77 +201,7 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicates of the same website content. Source [2] appears to be about a different company (Valar Atomics) and was not used. Founder information not explicitly stated in sources. Founded year not mentioned in sources. Total raised and valuation figures from database entry could not be verified from these sources."
-    },
-    {
-      "name": "Rhoman Aerospace",
-      "current": {
-        "name": "Rhoman Aerospace",
-        "founder": "Thomas Youmans, Thomas Callen",
-        "location": "Los Angeles, CA",
-        "founded": 2018,
-        "fundingStage": "Seed",
-        "totalRaised": "",
-        "website": "https://www.rhoman.aero"
-      },
-      "verified": {
-        "name": "Rhoman Aerospace",
-        "description": "Develops vision-based flight control, autonomy, and navigation solutions for drones that enable operations without GPS using existing drone cameras.",
-        "founders": null,
-        "location": "Los Angeles, CA",
-        "founded_year": 2015,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://www.rhoman.aero",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            1
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry lists founded year as 2018, but source [1] states 'Rhoman Aerospace began in 2015 with the filing of its first patent.' Founder names Thomas Youmans and Thomas Callen could not be verified in provided sources. Source [2] is about Neros Technologies, not Rhoman Aerospace, and is not relevant."
-      },
-      "changes": [
-        {
-          "field": "founded",
-          "current": 2018,
-          "verified": 2015,
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://www.rhoman.aero"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://www.rhoman.aero/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (The Robot Report)",
-          "url": "https://www.therobotreport.com/neros-technologies-raises-250m-to-deploy-its-defense-drones-by-the-end-of-2026/"
-        }
-      ],
-      "notes": "Database entry lists founded year as 2018, but source [1] states 'Rhoman Aerospace began in 2015 with the filing of its first patent.' Founder names Thomas Youmans and Thomas Callen could not be verified in provided sources. Source [2] is about Neros Technologies, not Rhoman Aerospace, and is not relevant."
+      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from company's own website. Source [2] about Valar Atomics is unrelated to NANO Nuclear Energy and was not used. No founder names explicitly stated in sources as founders/co-founders. Founded year not mentioned in sources. Total raised and valuation figures from database entry could not be verified in provided sources. Current stage verified as 'Public' based on NASDAQ listing statement."
     },
     {
       "name": "SpaceX",
@@ -473,7 +216,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial Intelligence (Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial intelligence (Grok and data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -515,7 +258,7 @@
             0
           ]
         },
-        "notes": "IPO occurred June 12, 2026. Wikipedia source indicates Elon Musk controls 85% voting power (not 82% as in database entry). Database claims of '165 Falcon 9 launches in 2025' and '$1.5T valuation' could not be verified from provided sources. Valuation field set to null due to inability to verify specific current valuation."
+        "notes": "Wikipedia source indicates SpaceX completed IPO on June 12, 2026, raising $86 billion. Current database entry claims $1.65T valuation and $1.5T IPO valuation, but these figures are not supported by provided sources. Elon Musk owns 42% equity with 85% voting control (Wikipedia notes 82% voting control in one place, 85% in another). Sources [1], [2], [3] are news articles about recent business developments but do not contain verifiable founding or core company information."
       },
       "changes": [
         {
@@ -549,7 +292,7 @@
           "url": "https://www.nextbigfuture.com/2026/08/microsoft-will-lease-3-gigawatts-of-ai-data-center-from-spacex-in-2027.html"
         }
       ],
-      "notes": "IPO occurred June 12, 2026. Wikipedia source indicates Elon Musk controls 85% voting power (not 82% as in database entry). Database claims of '165 Falcon 9 launches in 2025' and '$1.5T valuation' could not be verified from provided sources. Valuation field set to null due to inability to verify specific current valuation."
+      "notes": "Wikipedia source indicates SpaceX completed IPO on June 12, 2026, raising $86 billion. Current database entry claims $1.65T valuation and $1.5T IPO valuation, but these figures are not supported by provided sources. Elon Musk owns 42% equity with 85% voting control (Wikipedia notes 82% voting control in one place, 85% in another). Sources [1], [2], [3] are news articles about recent business developments but do not contain verifiable founding or core company information."
     }
   ],
   "unverifiable": []
