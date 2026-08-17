@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-08-16";
+const LAST_UPDATED = "2026-08-17";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -45460,9 +45460,9 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-16 23:27
+// Last updated: 2026-08-17 01:48
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "Anthropic", headline: "Anthropic CEO says AI backlash is 'fundamentally a crisis of trust'", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
+  { id: 1, type: "hire", company: "Anthropic", headline: "Anthropic CEO says AI backlash is 'fundamentally a crisis of trust'", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
   { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX officially closes its Cursor acquisition", source: "TechCrunch", time: "1d ago", impact: "high", unread: true },
   { id: 3, type: "news", company: "Einride", headline: "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks", source: "Electrek", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "ipo", company: "Waymo", headline: "Waymo wins California approval to expand robotaxis across 18 counties", source: "Electrek", time: "2d ago", impact: "low", unread: true },
@@ -45471,12 +45471,12 @@ const COMPANY_SIGNALS = [
   { id: 7, type: "funding", company: "Isembard", headline: "Lovable raises $400M, Duolingo acquires Animade, and Isembard is a politician's &quot;wet dream&quot;", source: "Tech.eu", time: "2d ago", impact: "high", unread: false },
   { id: 8, type: "ipo", company: "Blue Origin", headline: "Blue Origin outlines plans for second Cape Canaveral launch pad", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
   { id: 9, type: "contract", company: "Intuitive Machines", headline: "Intuitive Machines wins contract for three GEO satellites", source: "SpaceNews", time: "2d ago", impact: "high", unread: false },
-  { id: 10, type: "news", company: "Waymo", headline: "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadium", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Waymo", headline: "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadium", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "OpenAI", headline: "The Safety Reckoning Inside OpenAI", source: "Wired", time: "3d ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Rivian", headline: "Rivian's 2027 R1S adds captain's chairs, its most-requested feature", source: "Electrek", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Humanoid", headline: "Experts to discuss the state of humanoid robots at RoboBusiness", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "Palantir", headline: "Pentagon hands Palantir up to $244M in no-bid work", source: "Defense One", time: "3d ago", impact: "medium", unread: false },
-  { id: 15, type: "hire", company: "Neura Robotics", headline: "NEURA Robotics acquires Bosch Rexroth's ACTIVE Shuttle to expand Physical AI ecosystem", source: "Tech.eu", time: "3d ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Anthropic", headline: "XAI Grok 4.6 is Third Place But Close to OpenAI and Anthropic", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
+  { id: 13, type: "milestone", company: "Rivian", headline: "Rivian's 2027 R1S adds captain's chairs, its most-requested feature", source: "Electrek", time: "3d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Humanoid", headline: "Experts to discuss the state of humanoid robots at RoboBusiness", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
+  { id: 15, type: "contract", company: "Palantir", headline: "Pentagon hands Palantir up to $244M in no-bid work", source: "Defense One", time: "3d ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
