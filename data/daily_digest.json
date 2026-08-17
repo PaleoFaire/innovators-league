@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T13:44:40.875577+00:00",
+  "generatedAt": "2026-08-17T14:36:03.788432+00:00",
   "date": "2026-08-17",
   "dateDisplay": "Monday, August 17, 2026",
   "sections": {
@@ -79,60 +79,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 0.83,
-        "changePercent": -39.01,
-        "change": -0.53
-      },
-      {
-        "ticker": "ACHR",
-        "company": "Archer Aviation",
-        "price": 6.62,
-        "changePercent": 18.43,
-        "change": 1.03
-      },
-      {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 19.01,
-        "changePercent": 15.91,
-        "change": 2.61
+        "price": 19.89,
+        "changePercent": 26.05,
+        "change": 4.11
       },
       {
-        "ticker": "DRSHF",
-        "company": "DroneShield",
-        "price": 1.4,
-        "changePercent": -10.83,
-        "change": -0.17
-      },
-      {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 44.38,
-        "changePercent": -8.34,
-        "change": -4.04
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 0.79,
+        "changePercent": -12.61,
+        "change": -0.11
       },
       {
         "ticker": "JOBY",
         "company": "Joby Aviation",
-        "price": 7.92,
-        "changePercent": -8.33,
-        "change": -0.72
+        "price": 7.79,
+        "changePercent": -11.58,
+        "change": -1.02
       },
       {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 501000.0,
-        "changePercent": 7.74,
-        "change": 36000.0
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 5.92,
+        "changePercent": 11.11,
+        "change": 0.59
       },
       {
-        "ticker": "IDEAFORGE.NS",
-        "company": "ideaForge",
-        "price": 794.05,
-        "changePercent": -6.9,
-        "change": -58.85
+        "ticker": "RIVN",
+        "company": "Rivian",
+        "price": 14.86,
+        "changePercent": -9.37,
+        "change": -1.54
+      },
+      {
+        "ticker": "AMD",
+        "company": "AMD",
+        "price": 512.32,
+        "changePercent": 9.11,
+        "change": 42.76
+      },
+      {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 8.5,
+        "changePercent": 8.97,
+        "change": 0.7
+      },
+      {
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 46.06,
+        "changePercent": 8.31,
+        "change": 3.53
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "EVTL -39.0%"
+    "topMover": "LUNR +26.1%"
   }
 }
