@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-08-16 07:38:47 UTC",
+    "generated_at": "2026-08-17 08:02:19 UTC",
     "total_targets": 116,
-    "with_excerpts": 106,
+    "with_excerpts": 101,
     "sources": [
       "none",
       "sec_edgar",
@@ -83,24 +83,20 @@
     {
       "ticker": "LDOS",
       "company": "Leidos",
-      "quarter": "2026-Q2",
-      "date": "2026-08-04",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000246/0001336920-26-000246-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.leidos.com/",
+      "source": "none"
     },
     {
       "ticker": "SAIC",
       "company": "Science Applications",
-      "quarter": "2026-Q2",
-      "date": "2026-06-01",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1571123/000157112326000079/0001571123-26-000079-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.saic.com/",
+      "source": "none"
     },
     {
       "ticker": "NVDA",
@@ -779,13 +775,11 @@
     {
       "ticker": "ZBRA",
       "company": "Zebra Technologies",
-      "quarter": "2026-Q2",
-      "date": "2026-08-04",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/877212/000162828026052550/0001628280-26-052550-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.zebra.com/",
+      "source": "none"
     },
     {
       "ticker": "IONQ",
@@ -1108,13 +1102,11 @@
     {
       "ticker": "BE",
       "company": "Bloom Energy",
-      "quarter": "2026-Q2",
-      "date": "2026-07-29",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026050325/0001628280-26-050325-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investor.bloomenergy.com/",
+      "source": "none"
     },
     {
       "ticker": "PWR",
@@ -1269,13 +1261,11 @@
     {
       "ticker": "CRSP",
       "company": "CRISPR Therapeutics",
-      "quarter": "2026-Q2",
-      "date": "2026-08-03",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1674416/000119312526330672/0001193125-26-330672-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://crisprtx.com/investors",
+      "source": "none"
     }
   ]
 }

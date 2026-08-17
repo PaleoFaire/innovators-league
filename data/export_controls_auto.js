@@ -1,9 +1,9 @@
 // Auto-generated Export Controls / Entity List matches
 // Source: data.trade.gov (consolidated BIS + OFAC + State)
-// Last updated: 2026-08-16 07:42:36 UTC
+// Last updated: 2026-08-17 08:07:48 UTC
 // Total matches: 0  |  New this run: 0
 const EXPORT_CONTROLS = {
-  "generated_at": "2026-08-16T07:42:36.178684+00:00",
+  "generated_at": "2026-08-17T08:07:48.717307+00:00",
   "source": "Trade.gov Consolidated Screening List (BIS + OFAC + State)",
   "total_list_entries": 25939,
   "tracked_companies": 1112,

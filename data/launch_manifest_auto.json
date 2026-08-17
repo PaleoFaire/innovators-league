@@ -1,35 +1,8 @@
 [
   {
-    "date": "2026-08-16",
-    "vehicle": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 8)",
-    "payload": "Globalstar 2-R Mission 1 (x 8)",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-08-16",
-    "vehicle": "Falcon 9 Block 5 | USSF-366",
-    "payload": "USSF-366",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/55b79515-ddbf-4198-8a59-29a12ed21330/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-08-16",
-    "vehicle": "Long March 12 | SatNet LEO Group 24",
-    "payload": "SatNet LEO Group 24",
-    "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/b0e7d1cc-24dd-4da4-bb60-b15b6791d08e/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-08-17",
-    "vehicle": "Long March 2C | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Long March 2C | Satellite for Earth Observation (SEO)",
+    "payload": "Satellite for Earth Observation (SEO)",
     "pad": "Launch Complex 9, Taiyuan Satellite Launch Center, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/cb6f4df1-c045-423b-904c-e63bf1ee5168/?format=json",
@@ -370,6 +343,15 @@
   },
   {
     "date": "2026-10-31",
+    "vehicle": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
+    "payload": "Dragon CRS-2 SpX-35",
+    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/bf2c3027-a314-403e-a416-2bfd5d165ad1/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-10-31",
     "vehicle": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
     "payload": "Transporter 18 (Dedicated SSO Rideshare)",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -447,6 +429,24 @@
     "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/71df1dd0-d658-4762-b0bc-0fca6886aea7/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer E",
+    "payload": "SDA Tranche 2 Transport Layer E",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/71ed4649-8d71-42e8-8548-d42ffa2c5a6e/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Falcon 9 Block 5 | Telesat Lightspeed 1",
+    "payload": "Telesat Lightspeed 1",
+    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ce1317de-ec94-4479-9b28-38ebf11f13ae/?format=json",
     "trackedCompany": "SpaceX"
   }
 ]
