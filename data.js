@@ -45896,9 +45896,9 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-17 10:39
+// Last updated: 2026-08-17 11:33
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "Anthropic", headline: "Anthropic CEO says AI backlash is 'fundamentally a crisis of trust'", source: "TechCrunch", time: "17h ago", impact: "low", unread: true },
+  { id: 1, type: "hire", company: "Anthropic", headline: "Anthropic CEO says AI backlash is 'fundamentally a crisis of trust'", source: "TechCrunch", time: "18h ago", impact: "low", unread: true },
   { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX officially closes its Cursor acquisition", source: "TechCrunch", time: "1d ago", impact: "high", unread: true },
   { id: 3, type: "news", company: "Einride", headline: "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks", source: "Electrek", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "ipo", company: "Waymo", headline: "Waymo wins California approval to expand robotaxis across 18 counties", source: "Electrek", time: "2d ago", impact: "low", unread: true },
@@ -45906,7 +45906,7 @@ const COMPANY_SIGNALS = [
   { id: 6, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic in price war as Chinese AI rivals gain ground", source: "Ars Technica", time: "2d ago", impact: "low", unread: false },
   { id: 7, type: "funding", company: "Isembard", headline: "Lovable raises $400M, Duolingo acquires Animade, and Isembard is a politician's &quot;wet dream&quot;", source: "Tech.eu", time: "2d ago", impact: "high", unread: false },
   { id: 8, type: "ipo", company: "Blue Origin", headline: "Blue Origin outlines plans for second Cape Canaveral launch pad", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
-  { id: 9, type: "contract", company: "Intuitive Machines", headline: "Intuitive Machines wins contract for three GEO satellites", source: "SpaceNews", time: "2d ago", impact: "high", unread: false },
+  { id: 9, type: "contract", company: "Intuitive Machines", headline: "Intuitive Machines wins contract for three GEO satellites", source: "SpaceNews", time: "3d ago", impact: "high", unread: false },
   { id: 10, type: "news", company: "Waymo", headline: "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadium", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "OpenAI", headline: "The Safety Reckoning Inside OpenAI", source: "Wired", time: "3d ago", impact: "low", unread: false },
   { id: 12, type: "milestone", company: "Anthropic", headline: "XAI Grok 4.6 is Third Place But Close to OpenAI and Anthropic", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
