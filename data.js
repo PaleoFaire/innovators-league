@@ -45896,23 +45896,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-17 15:32
+// Last updated: 2026-08-17 16:36
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Terra Industries", headline: "Terra Industries closes $52M seed round to build defense infrastructure for the Global South", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Nvidia discloses $21B stake in SpaceX", source: "Ars Technica", time: "1h ago", impact: "high", unread: true },
-  { id: 4, type: "news", company: "Zipline", headline: "Uber adds Zipline drones to its Eats delivery network", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Anthropic", headline: "Anthropic CEO says AI backlash is 'fundamentally a crisis of trust'", source: "TechCrunch", time: "22h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX officially closes its Cursor acquisition", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "Einride", headline: "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks", source: "Electrek", time: "2d ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "Waymo", headline: "Waymo wins California approval to expand robotaxis across 18 counties", source: "Electrek", time: "2d ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Neros", headline: "Neros Technologies raises $250M to deploy its defense drones by the end of 2026", source: "The Robot Report", time: "2d ago", impact: "high", unread: false },
-  { id: 10, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic in price war as Chinese AI rivals gain ground", source: "Ars Technica", time: "3d ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Isembard", headline: "Lovable raises $400M, Duolingo acquires Animade, and Isembard is a politician's &quot;wet dream&quot;", source: "Tech.eu", time: "3d ago", impact: "high", unread: false },
-  { id: 12, type: "ipo", company: "Blue Origin", headline: "Blue Origin outlines plans for second Cape Canaveral launch pad", source: "SpaceNews", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "contract", company: "Intuitive Machines", headline: "Intuitive Machines wins contract for three GEO satellites", source: "SpaceNews", time: "3d ago", impact: "high", unread: false },
-  { id: 14, type: "news", company: "Waymo", headline: "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadium", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "OpenAI", headline: "The Safety Reckoning Inside OpenAI", source: "Wired", time: "3d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Groq", headline: "Groq raises $350M to fuel its pivot from AI chips to neocloud", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Terra Industries", headline: "Terra Industries closes $52M seed round to build defense infrastructure for the Global South", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "Nvidia discloses $21B stake in SpaceX", source: "Ars Technica", time: "2h ago", impact: "high", unread: true },
+  { id: 5, type: "news", company: "Zipline", headline: "Uber adds Zipline drones to its Eats delivery network", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 6, type: "hire", company: "Anthropic", headline: "Anthropic CEO says AI backlash is 'fundamentally a crisis of trust'", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX officially closes its Cursor acquisition", source: "TechCrunch", time: "2d ago", impact: "high", unread: false },
+  { id: 8, type: "news", company: "Einride", headline: "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks", source: "Electrek", time: "2d ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Waymo", headline: "Waymo wins California approval to expand robotaxis across 18 counties", source: "Electrek", time: "2d ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Neros", headline: "Neros Technologies raises $250M to deploy its defense drones by the end of 2026", source: "The Robot Report", time: "2d ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic in price war as Chinese AI rivals gain ground", source: "Ars Technica", time: "3d ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Isembard", headline: "Lovable raises $400M, Duolingo acquires Animade, and Isembard is a politician's &quot;wet dream&quot;", source: "Tech.eu", time: "3d ago", impact: "high", unread: false },
+  { id: 13, type: "ipo", company: "Blue Origin", headline: "Blue Origin outlines plans for second Cape Canaveral launch pad", source: "SpaceNews", time: "3d ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "Intuitive Machines", headline: "Intuitive Machines wins contract for three GEO satellites", source: "SpaceNews", time: "3d ago", impact: "high", unread: false },
+  { id: 15, type: "news", company: "Waymo", headline: "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadium", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
