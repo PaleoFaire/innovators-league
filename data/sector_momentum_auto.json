@@ -1,7 +1,7 @@
 [
   {
     "sector": "Space & Aerospace",
-    "momentum": 69,
+    "momentum": 66,
     "trend": "accelerating",
     "catalysts": [
       "SpaceX officially closes its Cursor acquisition",
@@ -11,15 +11,15 @@
     "fundingQ": "$264.3B",
     "components": {
       "funding": 100,
-      "news": 65,
+      "news": 55,
       "hiring": 0,
       "market": 87
     },
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 58,
+    "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
       "Waymo wins California approval to expand robotaxis across 18",
@@ -29,11 +29,29 @@
     "fundingQ": "$27.0B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 54,
+    "trend": "steady",
+    "catalysts": [
+      "Anthropic CEO says AI backlash is \u2018fundamentally a crisis of",
+      "OpenAI and Anthropic in price war as Chinese AI rivals gain",
+      "The Safety Reckoning Inside OpenAI"
+    ],
+    "fundingQ": "$325.8B",
+    "components": {
+      "funding": 100,
+      "news": 35,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-17"
   },
   {
     "sector": "Defense & Security",
@@ -51,25 +69,7 @@
       "hiring": 0,
       "market": 62
     },
-    "lastUpdated": "2026-08-16"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 52,
-    "trend": "steady",
-    "catalysts": [
-      "OpenAI and Anthropic in price war as Chinese AI rivals gain",
-      "The Safety Reckoning Inside OpenAI",
-      "XAI Grok 4.6 is Third Place But Close to OpenAI and Anthropi"
-    ],
-    "fundingQ": "$325.8B",
-    "components": {
-      "funding": 100,
-      "news": 30,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "sector": "Transportation",
@@ -86,7 +86,7 @@
       "hiring": 0,
       "market": 70
     },
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "sector": "Climate & Energy",
@@ -102,7 +102,7 @@
       "hiring": 0,
       "market": 68
     },
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "sector": "Biotech & Health",
@@ -118,7 +118,7 @@
       "hiring": 0,
       "market": 41
     },
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "sector": "Nuclear Energy",
@@ -136,7 +136,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -152,12 +152,12 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 22,
-    "trend": "rising",
+    "momentum": 21,
+    "trend": "declining",
     "catalysts": [
       "Waymo wins California approval to expand robotaxis across 18",
       "Neros Technologies raises $250M to deploy its defense drones",
@@ -166,11 +166,27 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 50,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 17,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 87
+    },
+    "lastUpdated": "2026-08-17"
   },
   {
     "sector": "Drones & Autonomous",
@@ -188,7 +204,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -204,7 +220,7 @@
       "hiring": 0,
       "market": 61
     },
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "sector": "Housing & Construction",
@@ -221,7 +237,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -237,7 +253,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "sector": "Ocean & Maritime",
@@ -253,22 +269,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-16"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 1,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 7
-    },
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   }
 ]

@@ -1032,6 +1032,18 @@
     "note": "Waymo is the clear autonomous driving leader with the most miles driven and highest safety record. The $16B raise and $126B valuation signal Alphabet is treating this as a standalone mega-business, not a research project."
   },
   {
+    "company": "NuScale Power",
+    "techMoat": 8,
+    "momentum": 10,
+    "teamPedigree": 10,
+    "marketGravity": 6,
+    "capitalEfficiency": 7,
+    "govTraction": 5,
+    "composite": 77.5,
+    "tier": "leader",
+    "note": "VOYGR light water SMR \u2014 first SMR design to receive NRC certification, scaling proven PWR technology to smaller modules \u2014 Public \u00b7 $600M+ raised"
+  },
+  {
     "company": "Thunder Tiger",
     "techMoat": 7,
     "momentum": 8,
@@ -1390,18 +1402,6 @@
     "composite": 76.0,
     "tier": "leader",
     "note": "Cerebras' wafer-scale approach is the most radical chip architecture bet in the AI hardware race. If they IPO successfully at $22B+, it validates an entirely new computing paradigm beyond GPUs."
-  },
-  {
-    "company": "NuScale Power",
-    "techMoat": 8,
-    "momentum": 10,
-    "teamPedigree": 9,
-    "marketGravity": 6,
-    "capitalEfficiency": 7,
-    "govTraction": 5,
-    "composite": 76.0,
-    "tier": "leader",
-    "note": "VOYGR light water SMR \u2014 first SMR design to receive NRC certification, scaling proven PWR technology to smaller modules \u2014 Public \u00b7 $600M+ raised"
   },
   {
     "company": "constellr",
@@ -2736,6 +2736,18 @@
     "note": "Electric vertical takeoff and landing air taxi using tilting propellers for quiet, zero-emission urban air mobility service \u2014 Public \u00b7 $2B+ raised \u00b7 $10B+ val"
   },
   {
+    "company": "Archer Aviation",
+    "techMoat": 6,
+    "momentum": 10,
+    "teamPedigree": 10,
+    "marketGravity": 6,
+    "capitalEfficiency": 8,
+    "govTraction": 4,
+    "composite": 71.0,
+    "tier": "leader",
+    "note": "Midnight electric air taxi with 12 tilting propellers for urban air mobility, partnered with United Airlines \u2014 Public \u00b7 $1.5B+ raised \u00b7 $5B val"
+  },
+  {
     "company": "Rivian",
     "techMoat": 8,
     "momentum": 9,
@@ -3226,18 +3238,6 @@
     "composite": 69.5,
     "tier": "strong",
     "note": "AI-powered license plate readers and surveillance camera network using edge ML for public safety and law enforcement \u2014 Series E \u00b7 $500M+ raised \u00b7 $7.5B val"
-  },
-  {
-    "company": "Archer Aviation",
-    "techMoat": 6,
-    "momentum": 10,
-    "teamPedigree": 9,
-    "marketGravity": 6,
-    "capitalEfficiency": 8,
-    "govTraction": 4,
-    "composite": 69.5,
-    "tier": "strong",
-    "note": "Midnight electric air taxi with 12 tilting propellers for urban air mobility, partnered with United Airlines \u2014 Public \u00b7 $1.5B+ raised \u00b7 $5B val"
   },
   {
     "company": "Quantum-Systems",
@@ -13140,6 +13140,18 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
+    "company": "Monarch Quantum",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 32.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
     "company": "CubeFabs",
     "techMoat": 3,
     "momentum": 3,
@@ -13188,6 +13200,30 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
+    "company": "Quantum Source",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 31.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
+    "company": "Diraq",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 31.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
     "company": "Orqa",
     "techMoat": 3,
     "momentum": 3,
@@ -13198,6 +13234,18 @@
     "composite": 31.5,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
+    "company": "Peak Quantum",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 31.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 31/100."
   },
   {
     "company": "Velaura AI",
@@ -13500,18 +13548,6 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Monarch Quantum",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 0,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
     "company": "fab2",
     "techMoat": 3,
     "momentum": 3,
@@ -13678,41 +13714,5 @@
     "composite": 29.5,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Quantum Source",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 0,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 28.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 28/100."
-  },
-  {
-    "company": "Diraq",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 0,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 28.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 28/100."
-  },
-  {
-    "company": "Peak Quantum",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 0,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 28.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 28/100."
   }
 ]
