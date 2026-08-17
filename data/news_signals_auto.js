@@ -1,85 +1,85 @@
 // Auto-generated news signals
-// Last updated: 2026-08-17T22:32:06.477Z
+// Last updated: 2026-08-17T23:29:11.401Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1787005926477,
+    "id": 1787009351401,
     "type": "ipo",
     "company": "HEO",
     "headline": "HEO to use Planet satellites for non-Earth imaging",
     "source": "SpaceNews",
-    "time": "Just now",
+    "time": "1h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/heo-to-use-planet-satellites-for-non-earth-imaging/"
   },
   {
-    "id": 1787005926478,
+    "id": 1787009351402,
     "type": "news",
     "company": "Helsing",
     "headline": "German drone maker Helsing enlists Rakuten to broker Japan military deal",
     "source": "Defense News",
-    "time": "4h ago",
+    "time": "5h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.defensenews.com/industry/techwatch/2026/08/17/german-drone-maker-helsing-enlists-rakuten-to-broker-japan-military-deal/"
   },
   {
-    "id": 1787005926479,
+    "id": 1787009351403,
     "type": "funding",
     "company": "Groq",
     "headline": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
     "source": "TechCrunch",
-    "time": "6h ago",
+    "time": "7h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/"
   },
   {
-    "id": 1787005926480,
+    "id": 1787009351404,
     "type": "news",
     "company": "OpenAI",
     "headline": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
     "source": "TechCrunch",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/"
   },
   {
-    "id": 1787005926481,
+    "id": 1787009351405,
     "type": "funding",
     "company": "Terra Industries",
     "headline": "Terra Industries closes $52M seed round to build defense infrastructure for the Global South",
     "source": "TechCrunch",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/17/terra-industries-closes-52m-seed-round-to-build-defense-infrastructure-for-the-global-south/"
   },
   {
-    "id": 1787005926482,
+    "id": 1787009351406,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Nvidia discloses $21B stake in SpaceX",
     "source": "Ars Technica",
-    "time": "8h ago",
+    "time": "9h ago",
     "impact": "high",
     "unread": false,
     "link": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/"
   },
   {
-    "id": 1787005926483,
+    "id": 1787009351407,
     "type": "news",
     "company": "Zipline",
     "headline": "Uber adds Zipline drones to its Eats delivery network",
     "source": "TechCrunch",
-    "time": "9h ago",
+    "time": "10h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/08/17/uber-adds-zipline-drones-to-its-eats-delivery-network/"
   },
   {
-    "id": 1787005926484,
+    "id": 1787009351408,
     "type": "hire",
     "company": "Anthropic",
     "headline": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/"
   },
   {
-    "id": 1787005926485,
+    "id": 1787009351409,
     "type": "news",
     "company": "Einride",
     "headline": "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/15/paccar-brand-daf-to-add-level-4-einride-autonomy-to-its-electric-trucks/"
   },
   {
-    "id": 1787005926486,
+    "id": 1787009351410,
     "type": "ipo",
     "company": "Waymo",
     "headline": "Waymo wins California approval to expand robotaxis across 18 counties",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/14/waymo-cpuc-approval-california-expansion-18-counties/"
   },
   {
-    "id": 1787005926487,
+    "id": 1787009351411,
     "type": "funding",
     "company": "Neros",
     "headline": "Neros Technologies raises $250M to deploy its defense drones by the end of 2026",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/neros-technologies-raises-250m-to-deploy-its-defense-drones-by-the-end-of-2026/"
   },
   {
-    "id": 1787005926488,
+    "id": 1787009351412,
     "type": "news",
     "company": "Anthropic",
     "headline": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
   },
   {
-    "id": 1787005926489,
+    "id": 1787009351413,
     "type": "funding",
     "company": "Isembard",
     "headline": "Lovable raises $400M, Duolingo acquires Animade, and Isembard is a politician's &quot;wet dream&quot;",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/08/14/lovable-raises-400m-duolingo-acquires-animade-and-isembard-is-a-politician-s-wet-dream/"
   },
   {
-    "id": 1787005926490,
+    "id": 1787009351414,
     "type": "ipo",
     "company": "Blue Origin",
     "headline": "Blue Origin outlines plans for second Cape Canaveral launch pad",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/blue-origin-outlines-plans-for-second-cape-canaveral-launch-pad/"
   },
   {
-    "id": 1787005926491,
+    "id": 1787009351415,
     "type": "contract",
     "company": "Intuitive Machines",
     "headline": "Intuitive Machines wins contract for three GEO satellites",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/intuitive-machines-wins-contract-for-three-geo-satellites/"
   },
   {
-    "id": 1787005926492,
+    "id": 1787009351416,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadium",
@@ -178,18 +178,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/08/13/waymo-partners-with-las-vegas-raiders-allegiant-stadium/"
   },
   {
-    "id": 1787005926493,
+    "id": 1787009351417,
     "type": "news",
     "company": "OpenAI",
     "headline": "The Safety Reckoning Inside OpenAI",
     "source": "Wired",
-    "time": "3d ago",
+    "time": "4d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/"
   },
   {
-    "id": 1787005926494,
+    "id": 1787009351418,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "XAI Grok 4.6 is Third Place But Close to OpenAI and Anthropic",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/08/xai-grok-4-6-is-third-place-but-close-to-openai-and-anthropic.html"
   },
   {
-    "id": 1787005926495,
+    "id": 1787009351419,
     "type": "milestone",
     "company": "Rivian",
     "headline": "Rivian&#8217;s 2027 R1S adds captain&#8217;s chairs, its most-requested feature",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/13/rivian-2027-r1s-r1t-captains-chairs-new-trims-pricing/"
   },
   {
-    "id": 1787005926496,
+    "id": 1787009351420,
     "type": "news",
     "company": "Humanoid",
     "headline": "Experts to discuss the state of humanoid robots at RoboBusiness",
