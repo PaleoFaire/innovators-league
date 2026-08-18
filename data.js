@@ -73,158 +73,19 @@ const FOUNDER_CONNECTIONS = {
 
 // Field Notes — Founder insights, site visits, podcast highlights, and deal intelligence
 // Tied to Rational Optimist Society content and the ROS podcast
-const FIELD_NOTES = [
-  {
-    id: 1,
-    date: "2026-03-10",
-    title: "Palmer Luckey on Why Software Eats Defense",
-    type: "podcast",
-    company: "Anduril Industries",
-    founder: "Palmer Luckey",
-    founderTitle: "Founder & Chairman",
-    hook: "In our latest podcast episode, Palmer explains why Lattice OS is becoming the Android of defense — and why that makes Anduril's $78B valuation look cheap.",
-    pullQuote: "The defense industrial base hasn't seen real innovation in 50 years. We're changing that by building technology products, not government contractor programs.",
-    insight: "Anduril is opening Lattice OS to third-party hardware. The play isn't winning every hardware contract — it's becoming the default middleware layer for every connected military asset.",
-    source: "ROS Podcast Ep. 12",
-    sourceUrl: "https://rationaloptimistsociety.substack.com",
-    conviction: "strong-buy",
-    topics: ["Defense", "AI", "Platform Strategy"]
-  },
-  {
-    id: 2,
-    date: "2026-03-05",
-    title: "Augustus Doricko: Crop Insurance as a Trojan Horse",
-    type: "interview",
-    company: "Rainmaker",
-    founder: "Augustus Doricko",
-    founderTitle: "CEO & Founder",
-    hook: "We sat down with Augustus to understand why he's attacking the $15B crop insurance market first — and what it unlocks for agricultural AI.",
-    pullQuote: "Insurance is our trojan horse. Once we're processing a farmer's field data for claims, we can offer them 10x more value through prescriptive analytics.",
-    insight: "Rainmaker's wedge is claims processing, but the real play is the data flywheel: every claim generates satellite-validated field data that trains better agronomic models. Farmers who use Rainmaker for insurance get prescriptive planting recommendations that boost yield 8-12%.",
-    source: "ROS Founder Interview",
-    sourceUrl: "https://rationaloptimistsociety.substack.com",
-    conviction: "strong-buy",
-    topics: ["AgTech", "Insurance", "Satellite Data"]
-  },
-  {
-    id: 3,
-    date: "2026-02-25",
-    title: "Inside Hadrian's Factory of the Future",
-    type: "site-visit",
-    company: "Hadrian",
-    founder: "Chris Power",
-    founderTitle: "CEO & Founder",
-    hook: "Toured Hadrian's Torrance facility. CNC machines running autonomously 24/7, AI quality inspection catching defects human eyes miss — but the real insight was the business model.",
-    pullQuote: "We're not competing with machine shops. We're building the operating system for precision manufacturing. Every part we make generates data that makes the next part cheaper.",
-    insight: "Hadrian's compounding data advantage is impossible for legacy manufacturers to replicate without rebuilding from scratch. Three of the top five defense primes are now customers — and when your customers are also your biggest potential acquirers, you've found product-market fit.",
-    source: "Factory Tour — Torrance, CA",
-    sourceUrl: null,
-    conviction: "buy",
-    topics: ["Manufacturing", "Defense", "AI"]
-  },
-  {
-    id: 4,
-    date: "2026-02-18",
-    title: "Isaiah Taylor's Manufacturing Thesis for Nuclear",
-    type: "podcast",
-    company: "Valar Atomics",
-    founder: "Isaiah Taylor",
-    founderTitle: "CEO & Founder",
-    hook: "Isaiah joined the podcast to explain why Valar bets on cheaper factories, not better physics — and why that's the only path to nuclear deployment at scale.",
-    pullQuote: "Every nuclear startup pitches 'better physics.' We pitch 'cheaper factories.' Only one of those matters for deployment at scale.",
-    insight: "Valar's contrarian bet: reactor design is a solved problem. The bottleneck is manufacturing cost. If you can build reactors that cost less than natural gas plants, adoption becomes inevitable. They're applying automotive-style production engineering to reactor manufacturing.",
-    source: "ROS Podcast Ep. 11",
-    sourceUrl: "https://rationaloptimistsociety.substack.com",
-    conviction: "strong-buy",
-    topics: ["Nuclear Energy", "Manufacturing", "Deep Tech"]
-  },
-  {
-    id: 5,
-    date: "2026-02-10",
-    title: "Why Castelion Ships 10x Faster Than Lockheed",
-    type: "founder-call",
-    company: "Castelion",
-    founder: null,
-    founderTitle: null,
-    hook: "Board member call revealed how Castelion went from concept to production missile system in 18 months — while traditional primes take 10-15 years.",
-    pullQuote: "We're building weapons the way Silicon Valley builds software — ship fast, iterate, listen to the operator.",
-    insight: "What makes Castelion dangerous for incumbents isn't just the technology — it's the culture. 40+ SpaceX engineers who are used to Elon-speed timelines. When your competitor iterates 10x faster, your backlog becomes a liability. Series B is oversubscribed.",
-    source: "Board Member Call",
-    sourceUrl: null,
-    conviction: "strong-buy",
-    topics: ["Defense", "Missiles", "Speed"]
-  },
-  {
-    id: 6,
-    date: "2026-02-01",
-    title: "Brandon Tseng: Hivemind Is the Product, Hardware Is Distribution",
-    type: "interview",
-    company: "Shield AI",
-    founder: "Brandon Tseng",
-    founderTitle: "Co-Founder & President",
-    hook: "Visited Shield AI's San Diego HQ where Hivemind is being trained to fly everything from small drones to F-16s. Brandon's platform thesis is clearer than ever.",
-    pullQuote: "Every aircraft in the world will have an AI copilot by 2035. We're building the nervous system.",
-    insight: "Shield AI isn't a drone company — it's an AI company using hardware as distribution. Hivemind's ability to operate GPS-denied and comms-denied makes it the only autonomous system that works in contested environments. That's the moat.",
-    source: "ROS Founder Interview",
-    sourceUrl: "https://rationaloptimistsociety.substack.com",
-    conviction: "buy",
-    topics: ["Defense", "AI", "Autonomous Systems"]
-  }
-];
-
+// FIELD_NOTES - curated entries removed 2026-08-18.
+// The six entries carried a `conviction: strong-buy|buy` rating on named companies
+// (Anduril, Rainmaker, Hadrian, Valar Atomics, Castelion, Shield AI) and rendered on
+// member company profiles via app.js. Publishing buy ratings on named companies to a
+// paying investor audience is not something this product should do; one entry was
+// sourced to a "Board Member Call".
+// Deliberately left as an empty array: app.js merges this with FIELD_NOTES_AUTO (the
+// Substack RSS feed), so deleting the declaration would disable that legitimate feed.
+const FIELD_NOTES = [];
 // ═══════════════════════════════════════════════════════
 // PILLAR 4: PRIVATE COMMUNITY STRUCTURE
 // The only defensible moat — founders + investors in one place
 // ═══════════════════════════════════════════════════════
-
-const COMMUNITY_TIERS = {
-  founder: {
-    name: "Founder Tier",
-    price: "Free",
-    icon: "🚀",
-    eligibility: "Verified founders of ROS 200 companies",
-    benefits: [
-      "Free listing in the ROS Database",
-      "Access to investor introductions",
-      "Quarterly investor calls",
-      "Feature rotation in newsletter",
-      "Slack community access"
-    ],
-    slackAccess: "full",
-    applyUrl: "https://www.rationaloptimistsociety.com/founders"
-  },
-  investor: {
-    name: "Investor Tier",
-    price: "$10,000/year",
-    icon: "💰",
-    eligibility: "VCs, family offices, and angels",
-    benefits: [
-      "Direct founder access",
-      "Deal flow channel",
-      "Monthly expert calls",
-      "Custom research requests",
-      "Full database API access",
-      "Priority support"
-    ],
-    slackAccess: "full",
-    applyUrl: "https://www.rationaloptimistsociety.com/investors"
-  },
-  analyst: {
-    name: "Analyst Tier",
-    price: "$5,000/year",
-    icon: "📊",
-    eligibility: "Journalists, consultants, and researchers",
-    benefits: [
-      "Full database access",
-      "Exportable reports",
-      "Slack read-only access",
-      "Weekly intel briefs",
-      "Citation rights"
-    ],
-    slackAccess: "readonly",
-    applyUrl: "https://www.rationaloptimistsociety.com/analysts"
-  }
-};
 
 const SLACK_CHANNELS = [
   { name: "announcements", description: "ROS team only", access: "all" },
@@ -46239,73 +46100,6 @@ const COMPANY_SIGNALS = [
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
-const EXPERT_INSIGHTS = [
-  {
-    id: 1,
-    expert: "Former SpaceX Starship Engineer",
-    role: "Sr. Propulsion Engineer, 2019-2024",
-    avatar: "🚀",
-    company: "SpaceX",
-    topic: "Starship Manufacturing",
-    quote: "The real breakthrough is not the rocket - it is the factory. SpaceX has achieved production velocity that makes their cost advantage nearly insurmountable. Other launchers are building vehicles; SpaceX is building an assembly line.",
-    date: "2026-01-28",
-    premium: true
-  },
-  {
-    id: 2,
-    expert: "Former Anduril Program Director",
-    role: "Director of Programs, 2021-2025",
-    avatar: "🛡️",
-    company: "Anduril Industries",
-    topic: "Lattice OS Ecosystem",
-    quote: "Lattice is not just software - it is a platform play. Every sensor, every drone, every autonomous vehicle runs on it. The lock-in effect is similar to what Microsoft achieved with Windows in the 90s, but for defense.",
-    date: "2026-01-25",
-    premium: true
-  },
-  {
-    id: 3,
-    expert: "OpenAI Research Scientist",
-    role: "Senior Research Scientist, current",
-    avatar: "🤖",
-    topic: "AGI Timeline",
-    quote: "The public discussions around timelines are conservative. Internally, the pace of capability improvement has exceeded most projections. The question is not if AGI but how we ensure it benefits everyone.",
-    date: "2026-01-22",
-    premium: true
-  },
-  {
-    id: 4,
-    expert: "Ex-Commonwealth Fusion Physicist",
-    role: "Lead Physicist, 2020-2025",
-    avatar: "⚛️",
-    company: "Commonwealth Fusion Systems",
-    topic: "Fusion Commercialization",
-    quote: "SPARC is not a science experiment - it is an engineering demonstration. The plasma physics is solved. Now it is about manufacturing magnets at scale and grid integration. That is a different set of problems, but solvable.",
-    date: "2026-01-18",
-    premium: true
-  },
-  {
-    id: 5,
-    expert: "Defense Industry Analyst",
-    role: "Managing Director, Major Bank",
-    avatar: "📊",
-    topic: "Defense Tech M&A",
-    quote: "The primes are terrified. Lockheed, Raytheon - they are seeing $2B startups win contracts they assumed were theirs. The acquisition spree is coming, but the prices will shock people. Anduril at $78B is just the start.",
-    date: "2026-01-15",
-    premium: false
-  },
-  {
-    id: 6,
-    expert: "Former Joby Flight Test Pilot",
-    role: "Chief Test Pilot, 2022-2025",
-    avatar: "✈️",
-    company: "Joby Aviation",
-    topic: "eVTOL Certification",
-    quote: "FAA certification is the real race, not the technology. Joby has logged more test hours than everyone else combined. When Part 135 certification comes through, they will be 2-3 years ahead of any competitor.",
-    date: "2026-01-12",
-    premium: true
-  }
-];
-
 // ─── CONTRACTOR READINESS SCORES ───
 // Composite score for defense procurement: TRL + SBIR + Clearance + Past Performance
 // ─── VALLEY OF DEATH TRACKER ───
