@@ -53,6 +53,8 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+from html import unescape
+
 import requests
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -66,12 +68,31 @@ UA = "InnovatorsLeague-Bot/1.0 (+https://innovatorsleague.com; research)"
 
 # buildlist sector -> our SECTORS taxonomy. Anything not here is out of scope
 # (AI App, AI Research, Fintech, Public Services, Education, Supply Chain).
+# Source sector vocabulary -> our SECTORS taxonomy. Sources use different words
+# for the same thing (buildlist "Energy & Climate", Black Flag "Energy"), so both
+# vocabularies live here. Anything absent is treated as out of scope, which is how
+# AI App, Fintech, Public Services, Education and Supply Chain get filtered out.
 SECTOR_MAP = {
-    "Energy & Climate": "Climate & Energy", "Aerospace": "Space & Aerospace",
-    "Defense": "Defense & Security", "Manufacturing": "Robotics & Manufacturing",
-    "Robotics": "Robotics & Manufacturing", "Compute & Semiconductors": "Chips & Semiconductors",
-    "Bio & Health": "Biotech & Health", "Agriculture": "Robotics & Manufacturing",
-    "Construction & Housing": "Housing & Construction", "Transportation": "Transportation",
+    # buildlist.xyz
+    "Energy & Climate": "Climate & Energy",
+    "Compute & Semiconductors": "Chips & Semiconductors",
+    "Bio & Health": "Biotech & Health",
+    "Agriculture": "Robotics & Manufacturing",
+    "Construction & Housing": "Housing & Construction",
+    # blackflag.vc
+    "Cybersecurity": "Defense & Security",
+    "AI": "AI & Software",
+    "Software": "AI & Software",
+    "Materials Science": "Robotics & Manufacturing",
+    "Critical Minerals": "Robotics & Manufacturing",
+    "Health / Bio": "Biotech & Health",
+    "Energy": "Climate & Energy",
+    # shared by both
+    "Aerospace": "Space & Aerospace",
+    "Defense": "Defense & Security",
+    "Robotics": "Robotics & Manufacturing",
+    "Manufacturing": "Robotics & Manufacturing",
+    "Transportation": "Transportation",
 }
 
 # Software and services that carry a hard-tech sector label on the source list.
@@ -178,9 +199,56 @@ def extract_buildlist(html: str) -> list[dict]:
     return out
 
 
+def extract_blackflag(html: str) -> list[dict]:
+    """blackflag.vc/100-2 — a Webflow page that server-renders every company.
+
+    Each card anchors on <h3 class="company-name">, and the fields carry
+    fs-cmsfilter-field attributes (hq, region, sector, founder), so this reads
+    the real values rather than scraping label/value pairs by position — the
+    stat labels and texts are NOT adjacent siblings, which silently produced
+    empty founders on the first attempt.
+    """
+    def clean(s):
+        return re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", s))).strip()
+
+    anchors = [(m.start(), clean(m.group(1)))
+               for m in re.finditer(r'<h3[^>]*class="company-name"[^>]*>(.*?)</h3>', html, re.S)]
+    out, seen = [], set()
+    for idx, (pos, name) in enumerate(anchors):
+        end = anchors[idx + 1][0] if idx + 1 < len(anchors) else pos + 14000
+        seg = html[pos:end]
+        if not name or name in seen:
+            continue
+
+        def field(k):
+            v = re.findall(r'fs-cmsfilter-field="' + k + r'"[^>]*>(.*?)</div>', seg, re.S)
+            return [clean(x) for x in v]
+
+        desc = re.search(r'class="company-description[^"]*"[^>]*>(.*?)</div>', seg, re.S)
+        if not desc:
+            continue                       # stealth cards carry placeholder text
+        site = re.search(r'<a href="(https?://[^"]+)"[^>]*>\s*<div>Website</div>', seg)
+        yr = re.search(r'company-stat-label">Founded</div>\s*<div[^>]*class="company-stat-text"[^>]*>(.*?)</div>',
+                       seg, re.S)
+        seen.add(name)
+        out.append({
+            "name": name, "status": "active",
+            "sector": (field("sector") or [""])[0],
+            "tagline": clean(desc.group(1)),
+            "founders": ", ".join(dict.fromkeys(field("founder"))),
+            "city": (field("hq") or [""])[0],
+            "founded": clean(yr.group(1)) if yr else "",
+            "round": "", "raised": "",
+            "website": site.group(1).rstrip("/") if site else "",
+        })
+    return out
+
+
 SOURCES = {
     "buildlist": {"url": "https://buildlist.xyz", "extract": extract_buildlist,
                   "note": "Curated directory of companies building the future (Ryan & Christian)"},
+    "blackflag": {"url": "https://www.blackflag.vc/100-2", "extract": extract_blackflag,
+                  "note": "Black Flag VC's 100 — defense/frontier, high precision (57% already tracked)"},
 }
 
 

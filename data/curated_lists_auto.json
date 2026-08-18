@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-17T09:00:50.108391+00:00",
-  "total_candidates": 14,
+  "generated_at": "2026-08-18T14:26:59.470198+00:00",
+  "total_candidates": 16,
   "sources": {
     "buildlist": {
       "url": "https://buildlist.xyz",
       "note": "Curated directory of companies building the future (Ryan & Christian)",
       "listed": 728,
-      "already_tracked": 565,
-      "missing": 163,
+      "already_tracked": 567,
+      "missing": 161,
       "in_scope_candidates": 14,
       "rejected_by_bar": {
-        "sector out of scope": 123,
+        "sector out of scope": 121,
         "software or services wearing a hard-tech label": 16,
         "public company": 5,
         "founded 1960, no disclosed funding \u2014 incumbent, not frontier": 1,
@@ -123,9 +123,7 @@
           "Arbol",
           "GroundControl",
           "Ineffable Intelligence",
-          "humans&",
           "Recursive Superintelligence",
-          "Flapping Airplanes",
           "Goodfire",
           "Magic",
           "Liquid AI",
@@ -368,6 +366,52 @@
           "raised": "$99.5M",
           "our_sector": "Biotech & Health",
           "source_list": "buildlist"
+        }
+      ]
+    },
+    "blackflag": {
+      "url": "https://www.blackflag.vc/100-2",
+      "note": "Black Flag VC's 100 \u2014 defense/frontier, high precision (57% already tracked)",
+      "listed": 99,
+      "already_tracked": 96,
+      "missing": 3,
+      "in_scope_candidates": 2,
+      "rejected_by_bar": {
+        "no named founders": 1
+      },
+      "rejected_names": {
+        "no named founders": [
+          "Corridian"
+        ]
+      },
+      "candidates": [
+        {
+          "name": "Optica Industries",
+          "status": "active",
+          "sector": "Materials Science",
+          "tagline": "This is some fake text for this private startup. Couldn't have someone taking a sneak peak after all. But don't worry, we'll have this information available as soon as the startup is out of stealth.",
+          "founders": "Dylan Jin-Ngo, Sam Katz, Henry Zhou",
+          "city": "San Francisco, CA",
+          "founded": "2025",
+          "round": "",
+          "raised": "",
+          "website": "https://optica.industries",
+          "our_sector": "Robotics & Manufacturing",
+          "source_list": "blackflag"
+        },
+        {
+          "name": "Valinor",
+          "status": "active",
+          "sector": "Defense",
+          "tagline": "Valinor is a defense and government tech company using a hub-and-spoke model: centralized go-to-market infrastructure with decentralized engineering across focused subsidiaries. It solves the structural barriers that stall defense startups, like procurement complexity and compliance overhead, by spreading those fixed costs across a portfolio of mission-critical products.",
+          "founders": "Julie Bush, Paul Kwan",
+          "city": "Washington, DC",
+          "founded": "2024",
+          "round": "",
+          "raised": "",
+          "website": "https://www.valinor.co",
+          "our_sector": "Defense & Security",
+          "source_list": "blackflag"
         }
       ]
     }
