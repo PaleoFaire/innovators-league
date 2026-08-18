@@ -4,45 +4,27 @@
     "momentum": 66,
     "trend": "accelerating",
     "catalysts": [
-      "SpaceX officially closes its Cursor acquisition",
-      "Blue Origin outlines plans for second Cape Canaveral launch",
-      "Intuitive Machines wins contract for three GEO satellites"
+      "HEO to use Planet satellites for non-Earth imaging",
+      "Nvidia discloses $21B stake in SpaceX",
+      "Blue Origin outlines plans for second Cape Canaveral launch"
     ],
     "fundingQ": "$264.3B",
     "components": {
       "funding": 100,
-      "news": 55,
-      "hiring": 0,
-      "market": 87
-    },
-    "lastUpdated": "2026-08-17"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 56,
-    "trend": "accelerating",
-    "catalysts": [
-      "Waymo wins California approval to expand robotaxis across 18",
-      "Neros Technologies raises $250M to deploy its defense drones",
-      "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadi"
-    ],
-    "fundingQ": "$27.0B",
-    "components": {
-      "funding": 100,
       "news": 45,
       "hiring": 0,
-      "market": 50
+      "market": 100
     },
-    "lastUpdated": "2026-08-17"
+    "lastUpdated": "2026-08-18"
   },
   {
     "sector": "AI & Software",
     "momentum": 54,
     "trend": "steady",
     "catalysts": [
-      "Anthropic CEO says AI backlash is \u2018fundamentally a crisis of",
-      "OpenAI and Anthropic in price war as Chinese AI rivals gain",
-      "The Safety Reckoning Inside OpenAI"
+      "Groq raises $350M to fuel its pivot from AI chips to neoclou",
+      "Nvidia investing $1.5B in SoftBank data center developer beh",
+      "OpenAI and Anthropic in price war as Chinese AI rivals gain"
     ],
     "fundingQ": "$325.8B",
     "components": {
@@ -51,78 +33,47 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-17"
+    "lastUpdated": "2026-08-18"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 54,
+    "trend": "steady",
+    "catalysts": [
+      "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, a",
+      "Waymo wins California approval to expand robotaxis across 18",
+      "Neros Technologies raises $250M to deploy its defense drones"
+    ],
+    "fundingQ": "$27.0B",
+    "components": {
+      "funding": 100,
+      "news": 35,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-18"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 52,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "Neros Technologies raises $250M to deploy its defense drones",
-      "Pentagon hands Palantir up to $244M in no-bid work",
-      "Defense drone developer Cambridge Aerospace raises $300M"
+      "German drone maker Helsing enlists Rakuten to broker Japan m",
+      "Terra Industries closes $52M seed round to build defense inf",
+      "Uber adds Zipline drones to its Eats delivery network"
     ],
     "fundingQ": "$11.3B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
-      "market": 62
+      "market": 35
     },
-    "lastUpdated": "2026-08-17"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 52,
-    "trend": "steady",
-    "catalysts": [
-      "Rivian&#8217;s 2027 R1S adds captain&#8217;s chairs, its mos",
-      "Waymo Imports 3,200 Zeekr Robotaxis Despite Super High Tarif"
-    ],
-    "fundingQ": "$20.0B",
-    "components": {
-      "funding": 100,
-      "news": 10,
-      "hiring": 0,
-      "market": 70
-    },
-    "lastUpdated": "2026-08-17"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 48,
-    "trend": "steady",
-    "catalysts": [
-      "Quaise Energy raises $134M to fuel superhot geothermal ambit"
-    ],
-    "fundingQ": "$1.4B",
-    "components": {
-      "funding": 96,
-      "news": 5,
-      "hiring": 0,
-      "market": 68
-    },
-    "lastUpdated": "2026-08-17"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 43,
-    "trend": "steady",
-    "catalysts": [
-      "Active biotech & health ecosystem"
-    ],
-    "fundingQ": "$22.0B",
-    "components": {
-      "funding": 100,
-      "news": 0,
-      "hiring": 0,
-      "market": 41
-    },
-    "lastUpdated": "2026-08-17"
+    "lastUpdated": "2026-08-18"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 41,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
       "Does Latent Nuclear Deterrence Really Work?",
@@ -132,11 +83,27 @@
     "fundingQ": "$10.0B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 15,
       "hiring": 0,
-      "market": 0
+      "market": 44
     },
-    "lastUpdated": "2026-08-17"
+    "lastUpdated": "2026-08-18"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 43,
+    "trend": "steady",
+    "catalysts": [
+      "Quaise Energy raises $134M to fuel superhot geothermal ambit"
+    ],
+    "fundingQ": "$1.4B",
+    "components": {
+      "funding": 96,
+      "news": 5,
+      "hiring": 0,
+      "market": 39
+    },
+    "lastUpdated": "2026-08-18"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -152,75 +119,93 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-17"
+    "lastUpdated": "2026-08-18"
   },
   {
-    "sector": "Consumer Tech",
-    "momentum": 21,
-    "trend": "declining",
+    "sector": "Transportation",
+    "momentum": 36,
+    "trend": "steady",
     "catalysts": [
-      "Waymo wins California approval to expand robotaxis across 18",
-      "Neros Technologies raises $250M to deploy its defense drones",
-      "Blue Origin outlines plans for second Cape Canaveral launch"
+      "Rivian&#8217;s 2027 R1S adds captain&#8217;s chairs, its mos"
     ],
-    "fundingQ": "$0M",
+    "fundingQ": "$20.0B",
     "components": {
-      "funding": 0,
-      "news": 45,
+      "funding": 100,
+      "news": 5,
       "hiring": 0,
-      "market": 50
+      "market": 0
     },
-    "lastUpdated": "2026-08-17"
+    "lastUpdated": "2026-08-18"
   },
   {
-    "sector": "Quantum Computing",
-    "momentum": 17,
-    "trend": "declining",
+    "sector": "Biotech & Health",
+    "momentum": 35,
+    "trend": "steady",
     "catalysts": [
-      "Active quantum computing ecosystem"
+      "Active biotech & health ecosystem"
     ],
-    "fundingQ": "$0M",
+    "fundingQ": "$22.0B",
     "components": {
-      "funding": 0,
+      "funding": 100,
       "news": 0,
       "hiring": 0,
-      "market": 87
+      "market": 0
     },
-    "lastUpdated": "2026-08-17"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "PACCAR brand DAF to add Level 4 Einride autonomy to its elec",
-      "Neros Technologies raises $250M to deploy its defense drones",
-      "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadi"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-17"
+    "lastUpdated": "2026-08-18"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 12,
+    "momentum": 22,
     "trend": "declining",
     "catalysts": [
-      "Active chips & semiconductors ecosystem"
+      "Groq raises $350M to fuel its pivot from AI chips to neoclou",
+      "Nvidia investing $1.5B in SoftBank data center developer beh",
+      "Nvidia discloses $21B stake in SpaceX"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 15,
       "hiring": 0,
-      "market": 61
+      "market": 90
     },
-    "lastUpdated": "2026-08-17"
+    "lastUpdated": "2026-08-18"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, a",
+      "German drone maker Helsing enlists Rakuten to broker Japan m",
+      "Uber adds Zipline drones to its Eats delivery network"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 30,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-18"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "HEO to use Planet satellites for non-Earth imaging",
+      "Waymo wins California approval to expand robotaxis across 18",
+      "Neros Technologies raises $250M to deploy its defense drones"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 30,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-18"
   },
   {
     "sector": "Housing & Construction",
@@ -237,23 +222,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-17"
+    "lastUpdated": "2026-08-18"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 11,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
+      "Terra Industries closes $52M seed round to build defense inf",
       "PACCAR brand DAF to add Level 4 Einride autonomy to its elec"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-17"
+    "lastUpdated": "2026-08-18"
   },
   {
     "sector": "Ocean & Maritime",
@@ -269,6 +255,22 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-17"
+    "lastUpdated": "2026-08-18"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 7,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 37
+    },
+    "lastUpdated": "2026-08-18"
   }
 ]

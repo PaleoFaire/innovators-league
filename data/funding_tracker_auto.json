@@ -1,18 +1,18 @@
 [
   {
     "company": "Rebellions",
-    "totalRaised": "$25.5B+",
-    "totalRaisedRaw": 25491.0,
+    "totalRaised": "$29.0B+",
+    "totalRaisedRaw": 28991.0,
     "lastRound": "Funding Round",
-    "lastRoundAmount": "$10.3B",
-    "lastRoundDate": "2026-07",
+    "lastRoundAmount": "$3.5B",
+    "lastRoundDate": "2026-08",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed",
       "Founders Fund",
       "NEA"
     ],
-    "roundCount": 10
+    "roundCount": 11
   },
   {
     "company": "Galvanick",
@@ -149,6 +149,19 @@
       "Undisclosed"
     ],
     "roundCount": 2
+  },
+  {
+    "company": "Field AI",
+    "totalRaised": "$11.1B+",
+    "totalRaisedRaw": 11114.0,
+    "lastRound": "Series B",
+    "lastRoundAmount": "$5.4B",
+    "lastRoundDate": "2026-08",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 3
   },
   {
     "company": "Cerebras",
@@ -325,19 +338,6 @@
       "Undisclosed"
     ],
     "roundCount": 3
-  },
-  {
-    "company": "Field AI",
-    "totalRaised": "$5.7B+",
-    "totalRaisedRaw": 5714.0,
-    "lastRound": "IPO",
-    "lastRoundAmount": "$5.6B",
-    "lastRoundDate": "2026-05",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 2
   },
   {
     "company": "Focused Energy",
@@ -1725,6 +1725,19 @@
     "roundCount": 2
   },
   {
+    "company": "Terrahaptix",
+    "totalRaised": "$52M+",
+    "totalRaisedRaw": 52.0,
+    "lastRound": "Seed",
+    "lastRoundAmount": "$52M",
+    "lastRoundDate": "2026-08",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Starpath Robotics",
     "totalRaised": "$50M+",
     "totalRaisedRaw": 50.0,
@@ -1955,6 +1968,19 @@
     "valuation": "",
     "leadInvestors": [
       "Accel"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Chef Robotics",
+    "totalRaised": "$15M+",
+    "totalRaisedRaw": 15.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$15M",
+    "lastRoundDate": "2026-08",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   },

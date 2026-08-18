@@ -1,6 +1,10 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-08-17 07:02:06 UTC
+// Last updated: 2026-08-18 06:49:35 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Oklo", form: "4", date: "2026-08-17", description: "xslF345X06/wk-form4_1786998110.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-08-17", description: "xslF345X06/wk-form4_1786997913.xml", isIPO: false, ticker: "OKLO" },
+  { company: "IonQ", form: "8-K", date: "2026-08-17", description: "d145238d8k.htm", isIPO: false, ticker: "IONQ" },
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-08-17", description: "qbts-20260813.htm", isIPO: false, ticker: "QBTS" },
   { company: "Oklo", form: "4", date: "2026-08-14", description: "xslF345X06/wk-form4_1786738039.xml", isIPO: false, ticker: "OKLO" },
   { company: "UiPath", form: "4", date: "2026-08-14", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "Satellogic", form: "10-Q", date: "2026-08-14", description: "ea0300908-10q_zoomcar.htm", isIPO: false, ticker: "SATL" },
@@ -47,8 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Rigetti Computing", form: "10-Q", date: "2026-08-06", description: "rgti-20260630x10q.htm", isIPO: false, ticker: "RGTI" },
   { company: "Rigetti Computing", form: "8-K", date: "2026-08-06", description: "rgti-20260806x8k.htm", isIPO: false, ticker: "RGTI" },
   { company: "D-Wave Quantum", form: "10-Q", date: "2026-08-06", description: "qbts-20260630.htm", isIPO: false, ticker: "QBTS" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-08-06", description: "qbts-20260806.htm", isIPO: false, ticker: "QBTS" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-08-06", description: "xslF345X06/wk-form4_1786050562.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Ginkgo Bioworks", form: "10-Q", date: "2026-08-06", description: "dna-20260630.htm", isIPO: false, ticker: "DNA" },
-  { company: "LanzaTech", form: "10-Q", date: "2026-08-06", description: "tlsi-20260630.htm", isIPO: false, ticker: "LNZA" },
 ];
