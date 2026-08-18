@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T13:48:32.288335+00:00",
+  "generatedAt": "2026-08-18T14:41:09.231910+00:00",
   "date": "2026-08-18",
   "dateDisplay": "Tuesday, August 18, 2026",
   "sections": {
@@ -81,58 +81,58 @@
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 20.38,
-        "changePercent": 29.15,
-        "change": 4.6
-      },
-      {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 16.21,
-        "changePercent": -19.71,
-        "change": -3.98
-      },
-      {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 0.8,
-        "changePercent": -10.91,
-        "change": -0.1
-      },
-      {
-        "ticker": "JOBY",
-        "company": "Joby Aviation",
-        "price": 7.91,
-        "changePercent": -10.22,
-        "change": -0.9
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 46.84,
-        "changePercent": 10.13,
-        "change": 4.31
+        "price": 19.67,
+        "changePercent": 19.36,
+        "change": 3.19
       },
       {
         "ticker": "RIVN",
         "company": "Rivian",
-        "price": 14.87,
-        "changePercent": -9.27,
-        "change": -1.52
+        "price": 14.47,
+        "changePercent": -11.55,
+        "change": -1.89
       },
       {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 8.51,
-        "changePercent": 9.1,
-        "change": 0.71
+        "ticker": "AUR",
+        "company": "Aurora Innovation",
+        "price": 6.15,
+        "changePercent": -11.55,
+        "change": -0.8
       },
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 5.81,
-        "changePercent": 9.01,
-        "change": 0.48
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 0.79,
+        "changePercent": -11.15,
+        "change": -0.1
+      },
+      {
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 41.85,
+        "changePercent": -10.98,
+        "change": -5.16
+      },
+      {
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 3.0,
+        "changePercent": -10.6,
+        "change": -0.35
+      },
+      {
+        "ticker": "SMR",
+        "company": "NuScale Power",
+        "price": 8.9,
+        "changePercent": -10.01,
+        "change": -0.99
+      },
+      {
+        "ticker": "JOBY",
+        "company": "Joby Aviation",
+        "price": 7.61,
+        "changePercent": -9.68,
+        "change": -0.81
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LUNR +29.1%"
+    "topMover": "LUNR +19.4%"
   }
 }
