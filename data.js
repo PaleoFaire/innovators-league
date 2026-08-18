@@ -46949,15 +46949,15 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-18 14:41
+// Last updated: 2026-08-18 15:38
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "OpenAI", headline: "OpenAI launches a safer ChatGPT for teens ' years after teens started using it", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "milestone", company: "Neko Health", headline: "Daniel Ek's body-scanning startup Neko Health'opens first US office, in New York", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Humanoid", headline: "Unichem acquires Loomia to accelerate entry into the humanoid 'skin' market", source: "The Robot Report", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "Saildrone", headline: "Saildrone expands European footprint with production plans in 3 countries", source: "Breaking Defense", time: "2h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Einride", headline: "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, and China goes BIG", source: "Electrek", time: "12h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "HEO", headline: "HEO to use Planet satellites for non-Earth imaging", source: "SpaceNews", time: "16h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Helsing", headline: "German drone maker Helsing enlists Rakuten to broker Japan military deal", source: "Defense News", time: "20h ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "OpenAI", headline: "OpenAI launches a safer ChatGPT for teens ' years after teens started using it", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
+  { id: 2, type: "milestone", company: "Neko Health", headline: "Daniel Ek's body-scanning startup Neko Health'opens first US office, in New York", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Humanoid", headline: "Unichem acquires Loomia to accelerate entry into the humanoid 'skin' market", source: "The Robot Report", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "Saildrone", headline: "Saildrone expands European footprint with production plans in 3 countries", source: "Breaking Defense", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Einride", headline: "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, and China goes BIG", source: "Electrek", time: "13h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "HEO", headline: "HEO to use Planet satellites for non-Earth imaging", source: "SpaceNews", time: "17h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Helsing", headline: "German drone maker Helsing enlists Rakuten to broker Japan military deal", source: "Defense News", time: "21h ago", impact: "low", unread: false },
   { id: 8, type: "ipo", company: "SpaceX", headline: "Nvidia discloses $21B stake in SpaceX", source: "Ars Technica", time: "1d ago", impact: "high", unread: false },
   { id: 9, type: "news", company: "Einride", headline: "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks", source: "Electrek", time: "3d ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "Waymo", headline: "Waymo wins California approval to expand robotaxis across 18 counties", source: "Electrek", time: "3d ago", impact: "low", unread: false },
