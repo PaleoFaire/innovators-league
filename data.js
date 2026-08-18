@@ -4146,6 +4146,7 @@ const COMPANIES = [
     sector: "Climate & Energy",
     description: "Vertically integrated, deployable industrial power \u2014 generation, storage, and distribution delivered as a fast, reliable 'Instant Industrial Power' product. Currently in stealth.",
     location: "Austin, TX",
+    founder: "Tyler Norwood, Alex Le Roux",
     country: "United States",
     state: "TX",
     lat: 30.2672,
