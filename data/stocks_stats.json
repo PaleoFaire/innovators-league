@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -1.53,
+      "avg_change": -0.62,
       "count": 1
     },
     "space": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 9.01,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": 2.91,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -4.04,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -6.98,
       "count": 7
     },
     "nuclear": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.41,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -8.2,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -0.48,
+      "avg_change": -4.42,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -1.27,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 0.77,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.18,
+      "avg_change": -8.07,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -3.36,
+      "avg_change": -4.86,
       "count": 2
     },
     "chips": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 4.04,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -0.59,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "LUNR",
       "Intuitive Machines",
-      29.15
-    ],
-    [
-      "IONQ",
-      "IonQ",
-      10.13
+      19.36
     ],
     [
       "ASRHF",
       "Astroscale",
-      9.1
+      8.41
     ],
     [
-      "SATL",
-      "Satellogic",
-      9.01
+      "9348.T",
+      "ispace",
+      4.28
     ],
     [
-      "AMD",
-      "AMD",
-      7.76
+      "IONQ",
+      "IonQ",
+      3.89
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      3.03
     ]
   ],
   "topLosers": [
     [
-      "DRSHF",
-      "DroneShield",
-      -8.25
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -10.6
     ],
     [
-      "RIVN",
-      "Rivian",
-      -9.27
-    ],
-    [
-      "JOBY",
-      "Joby Aviation",
-      -10.22
+      "OKLO",
+      "Oklo",
+      -10.98
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -10.91
+      -11.15
     ],
     [
-      "QBTS",
-      "D-Wave Quantum",
-      -19.71
+      "RIVN",
+      "Rivian",
+      -11.55
+    ],
+    [
+      "AUR",
+      "Aurora Innovation",
+      -11.55
     ]
   ],
-  "lastUpdated": "2026-08-18 07:57:05"
+  "lastUpdated": "2026-08-18 14:00:14"
 }
