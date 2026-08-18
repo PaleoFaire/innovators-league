@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-08-17 08:02:19 UTC",
+    "generated_at": "2026-08-18 08:27:14 UTC",
     "total_targets": 116,
-    "with_excerpts": 101,
+    "with_excerpts": 102,
     "sources": [
       "none",
       "sec_edgar",
@@ -83,20 +83,24 @@
     {
       "ticker": "LDOS",
       "company": "Leidos",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.leidos.com/",
-      "source": "none"
+      "quarter": "2026-Q2",
+      "date": "2026-08-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000246/0001336920-26-000246-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "SAIC",
       "company": "Science Applications",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.saic.com/",
-      "source": "none"
+      "quarter": "2026-Q2",
+      "date": "2026-06-01",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1571123/000157112326000079/0001571123-26-000079-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "NVDA",
@@ -337,13 +341,11 @@
     {
       "ticker": "HEI",
       "company": "Heico",
-      "quarter": "2026-Q2",
-      "date": "2026-05-29",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/46619/000004661926000016/0000046619-26-000016-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://heico.com/investors/",
+      "source": "none"
     },
     {
       "ticker": "TDY",
@@ -775,11 +777,13 @@
     {
       "ticker": "ZBRA",
       "company": "Zebra Technologies",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.zebra.com/",
-      "source": "none"
+      "quarter": "2026-Q2",
+      "date": "2026-08-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/877212/000162828026052550/0001628280-26-052550-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "IONQ",
@@ -903,13 +907,11 @@
     {
       "ticker": "JOBY",
       "company": "Joby Aviation",
-      "quarter": "2026-Q2",
-      "date": "2026-08-05",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000435/0001819848-26-000435-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.jobyaviation.com/investor-relations",
+      "source": "none"
     },
     {
       "ticker": "PL",
@@ -967,13 +969,11 @@
     {
       "ticker": "RDW",
       "company": "Redwire",
-      "quarter": "2026-Q2",
-      "date": "2026-08-06",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1819810/000181981026000124/0001819810-26-000124-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.redwirespace.com/",
+      "source": "none"
     },
     {
       "ticker": "SATL",
@@ -1102,11 +1102,13 @@
     {
       "ticker": "BE",
       "company": "Bloom Energy",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investor.bloomenergy.com/",
-      "source": "none"
+      "quarter": "2026-Q2",
+      "date": "2026-07-29",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026050325/0001628280-26-050325-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "PWR",
@@ -1219,13 +1221,11 @@
     {
       "ticker": "RXRX",
       "company": "Recursion Pharma",
-      "quarter": "2026-Q2",
-      "date": "2026-08-05",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000098/0001601830-26-000098-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://ir.recursion.com/",
+      "source": "none"
     },
     {
       "ticker": "TEM",
@@ -1261,11 +1261,13 @@
     {
       "ticker": "CRSP",
       "company": "CRISPR Therapeutics",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://crisprtx.com/investors",
-      "source": "none"
+      "quarter": "2026-Q2",
+      "date": "2026-08-03",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1674416/000119312526330672/0001193125-26-330672-index.htm",
+      "source": "sec_edgar"
     }
   ]
 }

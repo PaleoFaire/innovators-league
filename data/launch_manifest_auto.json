@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-08-17",
-    "vehicle": "Long March 2C | Satellite for Earth Observation (SEO)",
-    "payload": "Satellite for Earth Observation (SEO)",
-    "pad": "Launch Complex 9, Taiyuan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/cb6f4df1-c045-423b-904c-e63bf1ee5168/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-08-18",
     "vehicle": "Zhuque-3 | Flight 2",
     "payload": "Flight 2",
@@ -375,6 +366,15 @@
     "pad": "LC-2, Naro Space Center, South Korea",
     "provider": "Korea Aerospace Research Institute",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/e0741415-6c63-4236-9736-24a6c04485bc/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-11-19",
+    "vehicle": "Soyuz 2.1a/Fregat-M | MKA Kinosputnik, KOEN and others",
+    "payload": "MKA Kinosputnik, KOEN and others",
+    "pad": "Cosmodrome Site 1S, Vostochny Cosmodrome, Siberia, Russian Federation",
+    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/bff2fc91-eddd-4dfc-af26-ac0674cfab4d/?format=json",
     "trackedCompany": null
   },
   {

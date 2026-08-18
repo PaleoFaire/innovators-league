@@ -1,13 +1,49 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-08-17 08:07:42 UTC
-// Total: 3 filings across 3 companies
+// Last updated: 2026-08-18 08:31:36 UTC
+// Total: 4 filings across 4 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-08-17T08:07:42.779613+00:00",
+  "generated_at": "2026-08-18T08:31:36.902969+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 3,
+  "total_filings": 4,
   "filings": [
+    {
+      "match_method": "cik",
+      "company": "Dexterity",
+      "issuer_name": "Dexterity, Inc",
+      "form": "D",
+      "filed_date": "2026-08-17",
+      "cik": "2137857",
+      "accession": "0002137857-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002137857&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002137857-26-000002",
+      "offering_amount": "120000000",
+      "amount_sold": "104906666",
+      "amount_remaining": "15093334",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "match_method": "cik",
+      "company": "Windborne",
+      "issuer_name": "WindBorne Systems Inc",
+      "form": "D",
+      "filed_date": "2026-08-17",
+      "cik": "1979342",
+      "accession": "0001979342-26-000003",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001979342&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001979342-26-000003",
+      "offering_amount": "37124969",
+      "amount_sold": "37124969",
+      "amount_remaining": "0",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
     {
       "match_method": "cik",
       "company": "Cuby Technologies",
@@ -39,24 +75,6 @@ const FORM_D_FILINGS = {
       "offering_amount": "310499477",
       "amount_sold": "310499477",
       "amount_remaining": "0",
-      "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "match_method": "cik",
-      "company": "Antora Energy",
-      "issuer_name": "Antora Energy, Inc",
-      "form": "D",
-      "filed_date": "2026-08-04",
-      "cik": "2082245",
-      "accession": "0002082245-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002082245&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002082245-26-000001",
-      "offering_amount": "550000000",
-      "amount_sold": "457629785",
-      "amount_remaining": "92370215",
       "securities_type": "Equity",
       "exemption": "06b",
       "first_sale_date": "",
