@@ -46198,9 +46198,7 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-18 05:36
-// Auto-generated real-time signals
-// Last updated: 2026-08-18
+// Last updated: 2026-08-18 06:56
 const COMPANY_SIGNALS = [
   { id: 1, type: "news", company: "Einride", headline: "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, and China goes BIG", source: "Electrek", time: "4h ago", impact: "low", unread: true },
   { id: 2, type: "ipo", company: "HEO", headline: "HEO to use Planet satellites for non-Earth imaging", source: "SpaceNews", time: "8h ago", impact: "low", unread: true },
