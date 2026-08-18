@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -0.62,
+      "avg_change": -1.93,
       "count": 1
     },
     "space": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 2.91,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 2.34,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -6.98,
+      "avg_change": -7.3,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.2,
+      "avg_change": -9.7,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.42,
+      "avg_change": -5.08,
       "count": 3
     },
     "quantum": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 0.77,
+      "avg_change": -1.05,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.07,
+      "avg_change": -8.93,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -4.86,
+      "avg_change": -4.38,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -0.59,
+      "avg_change": -0.32,
       "count": 3
     }
   },
@@ -61,12 +61,7 @@
     [
       "LUNR",
       "Intuitive Machines",
-      19.36
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      8.41
+      17.99
     ],
     [
       "9348.T",
@@ -74,42 +69,47 @@
       4.28
     ],
     [
-      "IONQ",
-      "IonQ",
-      3.89
+      "ASRHF",
+      "Astroscale",
+      3.31
     ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
       3.03
+    ],
+    [
+      "IONQ",
+      "IonQ",
+      1.93
     ]
   ],
   "topLosers": [
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      -10.6
-    ],
-    [
-      "OKLO",
-      "Oklo",
-      -10.98
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -11.15
-    ],
-    [
-      "RIVN",
-      "Rivian",
-      -11.55
+      "TEM",
+      "Tempus AI",
+      -11.02
     ],
     [
       "AUR",
       "Aurora Innovation",
-      -11.55
+      -11.29
+    ],
+    [
+      "OKLO",
+      "Oklo",
+      -11.78
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      -12.18
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -12.25
     ]
   ],
-  "lastUpdated": "2026-08-18 14:00:14"
+  "lastUpdated": "2026-08-18 19:43:42"
 }
