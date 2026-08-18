@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -1.22,
+      "avg_change": -1.53,
       "count": 1
     },
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 9.32,
+      "avg_change": 9.08,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -3.79,
+      "avg_change": -4.84,
       "count": 7
     },
     "nuclear": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.09,
+      "avg_change": 1.41,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -1.18,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -0.48,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 6.38,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -1.27,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.11,
+      "avg_change": -5.13,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -3.51,
+      "avg_change": -3.36,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.53,
+      "avg_change": 4.04,
       "count": 3
     }
   },
@@ -61,17 +61,12 @@
     [
       "LUNR",
       "Intuitive Machines",
-      28.8
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      10.79
+      29.15
     ],
     [
       "IONQ",
       "IonQ",
-      9.64
+      10.13
     ],
     [
       "ASRHF",
@@ -79,17 +74,17 @@
       9.1
     ],
     [
+      "SATL",
+      "Satellogic",
+      9.01
+    ],
+    [
       "AMD",
       "AMD",
-      7.85
+      7.76
     ]
   ],
   "topLosers": [
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -6.78
-    ],
     [
       "DRSHF",
       "DroneShield",
@@ -98,18 +93,23 @@
     [
       "RIVN",
       "Rivian",
-      -9.55
+      -9.27
     ],
     [
       "JOBY",
       "Joby Aviation",
-      -10.16
+      -10.22
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -10.78
+      -10.91
+    ],
+    [
+      "QBTS",
+      "D-Wave Quantum",
+      -19.71
     ]
   ],
-  "lastUpdated": "2026-08-17 19:45:13"
+  "lastUpdated": "2026-08-18 02:32:59"
 }
