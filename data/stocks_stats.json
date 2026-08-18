@@ -11,13 +11,13 @@
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 9.08,
+      "avg_change": 9.01,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -4.84,
+      "avg_change": -4.04,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.13,
+      "avg_change": -5.18,
       "count": 3
     },
     "transportation": {
@@ -88,7 +88,7 @@
     [
       "DRSHF",
       "DroneShield",
-      -8.91
+      -8.25
     ],
     [
       "RIVN",
@@ -111,5 +111,5 @@
       -19.71
     ]
   ],
-  "lastUpdated": "2026-08-18 02:32:59"
+  "lastUpdated": "2026-08-18 07:57:05"
 }
