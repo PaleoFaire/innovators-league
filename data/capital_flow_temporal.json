@@ -1,6 +1,32 @@
 {
-  "generatedAt": "2026-08-18T07:46:14+00:00",
+  "generatedAt": "2026-08-18T08:48:01+00:00",
   "matrix": {
+    "logistics-supply-chain": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 104906666,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Dexterity",
+            "amount": 104906666,
+            "date": "2026-08-17",
+            "source": "formd",
+            "investors": [
+              "Lightspeed Venture Partners",
+              "Kleiner Perkins",
+              "Sumitomo Corporation",
+              "Obvious Ventures",
+              "B37 Ventures",
+              "Presidio Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "Lightspeed Venture Partners"
+        ]
+      }
+    },
     "construction-modular": {
       "2026-Q3": {
         "deals": 2,
@@ -59,26 +85,6 @@
         "investors": [
           "Khosla Ventures"
         ]
-      }
-    },
-    "energy-storage-thermal-gravity": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 457629785,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Antora Energy",
-            "amount": 457629785,
-            "date": "2026-08-04",
-            "source": "formd",
-            "investors": [
-              "BlackRock",
-              "Temasek"
-            ]
-          }
-        ],
-        "investors": []
       }
     },
     "autonomy-drone-military": {
@@ -1369,6 +1375,38 @@
     }
   },
   "vcAttribution": {
+    "Lightspeed Venture Partners": {
+      "2026-Q3": [
+        {
+          "company": "Dexterity",
+          "cluster": "logistics-supply-chain",
+          "date": "2026-08-17",
+          "source": "formd"
+        },
+        {
+          "company": "RobCo",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Skild AI",
+          "cluster": "ai-robotics-embodied",
+          "date": "2026-01",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Khosla Ventures": {
       "2026-Q3": [
         {
@@ -1801,32 +1839,6 @@
         }
       ]
     },
-    "Lightspeed Venture Partners": {
-      "2025-Q2": [
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Skild AI",
-          "cluster": "ai-robotics-embodied",
-          "date": "2026-01",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q3": [
-        {
-          "company": "RobCo",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Eclipse Ventures": {
       "2026-Q1": [
         {
@@ -1840,7 +1852,7 @@
   },
   "stats": {
     "totalDealsTracked": 55,
-    "totalUSDSold": 774501737,
+    "totalUSDSold": 421778618,
     "uniqueClusters": 35,
     "uniqueQuarters": 9,
     "uniqueVCs": 15,
