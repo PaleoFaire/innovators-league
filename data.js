@@ -46080,23 +46080,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-18 11:32
+// Last updated: 2026-08-18 13:00
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Einride", headline: "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, and China goes BIG", source: "Electrek", time: "9h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "HEO", headline: "HEO to use Planet satellites for non-Earth imaging", source: "SpaceNews", time: "13h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Helsing", headline: "German drone maker Helsing enlists Rakuten to broker Japan military deal", source: "Defense News", time: "17h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Groq", headline: "Groq raises $350M to fuel its pivot from AI chips to neocloud", source: "TechCrunch", time: "19h ago", impact: "high", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project", source: "TechCrunch", time: "20h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Terra Industries", headline: "Terra Industries closes $52M seed round to build defense infrastructure for the Global South", source: "TechCrunch", time: "20h ago", impact: "medium", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "Nvidia discloses $21B stake in SpaceX", source: "Ars Technica", time: "21h ago", impact: "high", unread: false },
-  { id: 8, type: "news", company: "Zipline", headline: "Uber adds Zipline drones to its Eats delivery network", source: "TechCrunch", time: "22h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Einride", headline: "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks", source: "Electrek", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Waymo", headline: "Waymo wins California approval to expand robotaxis across 18 counties", source: "Electrek", time: "3d ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Neros", headline: "Neros Technologies raises $250M to deploy its defense drones by the end of 2026", source: "The Robot Report", time: "3d ago", impact: "high", unread: false },
-  { id: 12, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic in price war as Chinese AI rivals gain ground", source: "Ars Technica", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Isembard", headline: "Lovable raises $400M, Duolingo acquires Animade, and Isembard is a politician's &quot;wet dream&quot;", source: "Tech.eu", time: "3d ago", impact: "high", unread: false },
-  { id: 14, type: "ipo", company: "Blue Origin", headline: "Blue Origin outlines plans for second Cape Canaveral launch pad", source: "SpaceNews", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "contract", company: "Intuitive Machines", headline: "Intuitive Machines wins contract for three GEO satellites", source: "SpaceNews", time: "4d ago", impact: "high", unread: false },
+  { id: 1, type: "hire", company: "Saildrone", headline: "Saildrone expands European footprint with production plans in 3 countries", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Einride", headline: "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, and China goes BIG", source: "Electrek", time: "10h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "HEO", headline: "HEO to use Planet satellites for non-Earth imaging", source: "SpaceNews", time: "15h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Helsing", headline: "German drone maker Helsing enlists Rakuten to broker Japan military deal", source: "Defense News", time: "18h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Groq", headline: "Groq raises $350M to fuel its pivot from AI chips to neocloud", source: "TechCrunch", time: "20h ago", impact: "high", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Terra Industries", headline: "Terra Industries closes $52M seed round to build defense infrastructure for the Global South", source: "TechCrunch", time: "21h ago", impact: "medium", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "Nvidia discloses $21B stake in SpaceX", source: "Ars Technica", time: "22h ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "Zipline", headline: "Uber adds Zipline drones to its Eats delivery network", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Einride", headline: "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks", source: "Electrek", time: "3d ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Waymo", headline: "Waymo wins California approval to expand robotaxis across 18 counties", source: "Electrek", time: "3d ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Neros", headline: "Neros Technologies raises $250M to deploy its defense drones by the end of 2026", source: "The Robot Report", time: "3d ago", impact: "high", unread: false },
+  { id: 13, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic in price war as Chinese AI rivals gain ground", source: "Ars Technica", time: "3d ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Isembard", headline: "Lovable raises $400M, Duolingo acquires Animade, and Isembard is a politician's &quot;wet dream&quot;", source: "Tech.eu", time: "3d ago", impact: "high", unread: false },
+  { id: 15, type: "ipo", company: "Blue Origin", headline: "Blue Origin outlines plans for second Cape Canaveral launch pad", source: "SpaceNews", time: "4d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
