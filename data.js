@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-08-17";
+const LAST_UPDATED = "2026-08-18";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -45896,23 +45896,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-17 23:29
+// Last updated: 2026-08-18 01:43
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "HEO", headline: "HEO to use Planet satellites for non-Earth imaging", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Helsing", headline: "German drone maker Helsing enlists Rakuten to broker Japan military deal", source: "Defense News", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Groq", headline: "Groq raises $350M to fuel its pivot from AI chips to neocloud", source: "TechCrunch", time: "7h ago", impact: "high", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Terra Industries", headline: "Terra Industries closes $52M seed round to build defense infrastructure for the Global South", source: "TechCrunch", time: "8h ago", impact: "medium", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "Nvidia discloses $21B stake in SpaceX", source: "Ars Technica", time: "9h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "Zipline", headline: "Uber adds Zipline drones to its Eats delivery network", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 8, type: "hire", company: "Anthropic", headline: "Anthropic CEO says AI backlash is 'fundamentally a crisis of trust'", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Einride", headline: "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks", source: "Electrek", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Waymo", headline: "Waymo wins California approval to expand robotaxis across 18 counties", source: "Electrek", time: "3d ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Neros", headline: "Neros Technologies raises $250M to deploy its defense drones by the end of 2026", source: "The Robot Report", time: "3d ago", impact: "high", unread: false },
-  { id: 12, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic in price war as Chinese AI rivals gain ground", source: "Ars Technica", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Isembard", headline: "Lovable raises $400M, Duolingo acquires Animade, and Isembard is a politician's &quot;wet dream&quot;", source: "Tech.eu", time: "3d ago", impact: "high", unread: false },
-  { id: 14, type: "ipo", company: "Blue Origin", headline: "Blue Origin outlines plans for second Cape Canaveral launch pad", source: "SpaceNews", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "contract", company: "Intuitive Machines", headline: "Intuitive Machines wins contract for three GEO satellites", source: "SpaceNews", time: "3d ago", impact: "high", unread: false },
+  { id: 1, type: "ipo", company: "HEO", headline: "HEO to use Planet satellites for non-Earth imaging", source: "SpaceNews", time: "3h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Helsing", headline: "German drone maker Helsing enlists Rakuten to broker Japan military deal", source: "Defense News", time: "7h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Groq", headline: "Groq raises $350M to fuel its pivot from AI chips to neocloud", source: "TechCrunch", time: "9h ago", impact: "high", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Terra Industries", headline: "Terra Industries closes $52M seed round to build defense infrastructure for the Global South", source: "TechCrunch", time: "10h ago", impact: "medium", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "Nvidia discloses $21B stake in SpaceX", source: "Ars Technica", time: "11h ago", impact: "high", unread: false },
+  { id: 7, type: "news", company: "Zipline", headline: "Uber adds Zipline drones to its Eats delivery network", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Einride", headline: "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks", source: "Electrek", time: "2d ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Waymo", headline: "Waymo wins California approval to expand robotaxis across 18 counties", source: "Electrek", time: "3d ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Neros", headline: "Neros Technologies raises $250M to deploy its defense drones by the end of 2026", source: "The Robot Report", time: "3d ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "Anthropic", headline: "OpenAI and Anthropic in price war as Chinese AI rivals gain ground", source: "Ars Technica", time: "3d ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Isembard", headline: "Lovable raises $400M, Duolingo acquires Animade, and Isembard is a politician's &quot;wet dream&quot;", source: "Tech.eu", time: "3d ago", impact: "high", unread: false },
+  { id: 13, type: "ipo", company: "Blue Origin", headline: "Blue Origin outlines plans for second Cape Canaveral launch pad", source: "SpaceNews", time: "3d ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "Intuitive Machines", headline: "Intuitive Machines wins contract for three GEO satellites", source: "SpaceNews", time: "3d ago", impact: "high", unread: false },
+  { id: 15, type: "news", company: "Waymo", headline: "Waymo Partners with Las Vegas Raiders &#038; Allegiant Stadium", source: "CleanTechnica", time: "4d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
