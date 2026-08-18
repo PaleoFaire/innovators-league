@@ -1,46 +1,43 @@
 {
-  "generatedAt": "2026-08-17T05:42:31+00:00",
+  "generatedAt": "2026-08-18T05:38:38+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 46,
-  "newExtractionsThisRun": 46,
+  "cohortSize": 50,
+  "newExtractionsThisRun": 50,
   "summary": {
-    "cleared": 43,
-    "changesProposed": 3,
+    "cleared": 41,
+    "changesProposed": 9,
     "unverifiable": 0
   },
   "cleared": [
     "Antares",
-    "AnySignal",
     "Apptronik",
     "Astera Labs",
     "Astranis",
-    "Asylon Robotics",
     "Aurora Innovation",
     "Base Power",
-    "Cambridge Aerospace",
     "Cape",
     "Deterrence",
-    "Durin",
+    "Dragonfly Aerospace",
     "Einride",
     "FlyBy Robotics",
     "Galvanick",
     "HEO",
-    "Hadrian",
     "Harbinger",
+    "Helsing",
     "Humanoid",
+    "ICEYE",
     "Icarus",
-    "Impulse Space",
     "Intuitive Machines",
     "Isembard",
     "Neros",
     "Neura Robotics",
     "Oklo",
-    "Orbital Composites",
     "Palantir",
     "Parallel Systems",
     "Persona AI",
     "Photonic Inc",
+    "Pixxel",
     "Quaise Energy",
     "Quantum-Systems",
     "Radiant",
@@ -48,6 +45,7 @@
     "Rhoman Aerospace",
     "Rivian",
     "Rocket Lab",
+    "Terra Industries",
     "Valar Atomics",
     "Waymo",
     "WeaveGrid",
@@ -68,7 +66,7 @@
       },
       "verified": {
         "name": "Blue Origin",
-        "description": "Private American aerospace company headquartered in Kent, Washington that operates the suborbital New Shepard rocket and heavy-lift New Glenn rocket, and supplies engines for other vehicles including United Launch Alliance's Vulcan Centaur.",
+        "description": "Private American space technology company that operates the suborbital New Shepard rocket and heavy-lift New Glenn rocket, and is developing the Blue Moon lunar lander for NASA's Artemis program.",
         "founders": [
           "Jeff Bezos"
         ],
@@ -102,7 +100,7 @@
             0
           ]
         },
-        "notes": "Database entry incorrectly listed stage as 'SPAC' - Wikipedia confirms company is private. Entry listed total_raised as '$10B+' but no specific funding figures appear in provided sources. Entry did not cite Coatue Management as investor in provided sources."
+        "notes": "Database entry lists stage as 'SPAC' but Wikipedia clearly identifies company as 'Private'. Database entry cites 'Coatue Management' and 'Jeff Bezos' as investors but Wikipedia only mentions Jeff Bezos as owner/founder with no investor information provided in sources. Total raised ($10B+) and valuation listed in database entry could not be verified from provided sources."
       },
       "changes": [
         {
@@ -126,7 +124,265 @@
           "url": "https://spacenews.com/blue-origin-outlines-plans-for-second-cape-canaveral-launch-pad/"
         }
       ],
-      "notes": "Database entry incorrectly listed stage as 'SPAC' - Wikipedia confirms company is private. Entry listed total_raised as '$10B+' but no specific funding figures appear in provided sources. Entry did not cite Coatue Management as investor in provided sources."
+      "notes": "Database entry lists stage as 'SPAC' but Wikipedia clearly identifies company as 'Private'. Database entry cites 'Coatue Management' and 'Jeff Bezos' as investors but Wikipedia only mentions Jeff Bezos as owner/founder with no investor information provided in sources. Total raised ($10B+) and valuation listed in database entry could not be verified from provided sources."
+    },
+    {
+      "name": "Groq",
+      "current": {
+        "name": "Groq",
+        "founder": "Jonathan Ross, Douglas Wightman",
+        "location": "Mountain View, CA",
+        "founded": 2016,
+        "fundingStage": "Series C",
+        "totalRaised": "$3B",
+        "website": null
+      },
+      "verified": {
+        "name": "Groq",
+        "description": "American artificial intelligence company that builds Language Processing Units (LPUs) and develops AI inference hardware and software. Operates a neocloud platform for fast AI inference at scale.",
+        "founders": [
+          "Jonathan Ross",
+          "Douglas Wightman"
+        ],
+        "location": "Mountain View, California, US",
+        "founded_year": 2016,
+        "current_stage": "Private",
+        "total_raised": "$3.54B",
+        "valuation": "$3.5B",
+        "investors": [
+          "BlackRock Private Equity Partners",
+          "Tiger Global Management",
+          "D1 Capital Partners",
+          "Social Capital",
+          "Infinitum",
+          "The Spruce House Partnership",
+          "Addition",
+          "GCM Grosvenor",
+          "X\u207f",
+          "Firebolt Ventures",
+          "General Global Capital",
+          "Tru Arrow Partners",
+          "TDK Ventures",
+          "XTX Ventures",
+          "Disruptive"
+        ],
+        "website": "https://groq.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            1,
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2,
+            3
+          ],
+          "valuation": [
+            3
+          ],
+          "investors": [
+            2,
+            3
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Wikipedia (source 2) lists Jonathan Ross as current CEO as of the article date, but source 1 (company about page) indicates Adam Winter became CEO in 2026. Wikipedia also mentions a December 2025 agreement with Nvidia reportedly valued at ~$20B for licensing and executive transfers, with Groq stating it would continue as independent. Source 3 (TechCrunch, dated 2026-08-17) reports $350M raise at $3.5B valuation during pivot from chips to neocloud. Total raised represents: $640M Series D (Aug 2024) + $650M May 2026 + $350M Aug 2026 + earlier rounds, approximately $3.54B combined."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Mountain View, CA",
+          "verified": "Mountain View, California, US",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Series C",
+          "verified": "Private",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$3B",
+          "verified": "$3.54B",
+          "sources": [
+            2,
+            3
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://groq.com",
+          "sources": [
+            0,
+            1
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "BlackRock Private Equity Partners",
+            "Tiger Global Management",
+            "D1 Capital Partners",
+            "Social Capital",
+            "Infinitum",
+            "The Spruce House Partnership",
+            "Addition",
+            "GCM Grosvenor",
+            "X\u207f",
+            "Firebolt Ventures",
+            "General Global Capital",
+            "Tru Arrow Partners",
+            "TDK Ventures",
+            "XTX Ventures",
+            "Disruptive"
+          ],
+          "sources": [
+            2,
+            3
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://groq.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://groq.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Groq"
+        },
+        {
+          "idx": 3,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/"
+        }
+      ],
+      "notes": "Wikipedia (source 2) lists Jonathan Ross as current CEO as of the article date, but source 1 (company about page) indicates Adam Winter became CEO in 2026. Wikipedia also mentions a December 2025 agreement with Nvidia reportedly valued at ~$20B for licensing and executive transfers, with Groq stating it would continue as independent. Source 3 (TechCrunch, dated 2026-08-17) reports $350M raise at $3.5B valuation during pivot from chips to neocloud. Total raised represents: $640M Series D (Aug 2024) + $650M May 2026 + $350M Aug 2026 + earlier rounds, approximately $3.54B combined."
+    },
+    {
+      "name": "Muon Space",
+      "current": {
+        "name": "Muon Space",
+        "founder": "Jonny Dyer, Dan McCleese, Paul Day, Reuben Rohrschneider, Pascal Stang",
+        "location": "Mountain View, California",
+        "founded": 2021,
+        "fundingStage": "Series B",
+        "totalRaised": "$188M",
+        "website": "https://muonspace.com"
+      },
+      "verified": {
+        "name": "Muon Space",
+        "description": "American aerospace company that designs, builds, and operates satellite constellations for Earth observation, climate monitoring, and national security missions.",
+        "founders": [
+          "Jonny Dyer",
+          "Dan McCleese",
+          "Paul Day",
+          "Reuben Rohrschneider",
+          "Pascal Stang"
+        ],
+        "location": "Silicon Valley, California",
+        "founded_year": 2021,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://muonspace.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Wikipedia source [2] states approximately $35 million raised by July 2023, but more recent funding information is not verifiable from provided sources. Current stage cannot be verified from sources. Database entry lists $188M total raised and Series B stage, but these specific figures are not found in provided sources."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Mountain View, California",
+          "verified": "Silicon Valley, California",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://muonspace.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://muonspace.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Muon_Space"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/heo-to-use-planet-satellites-for-non-earth-imaging/"
+        }
+      ],
+      "notes": "Wikipedia source [2] states approximately $35 million raised by July 2023, but more recent funding information is not verifiable from provided sources. Current stage cannot be verified from sources. Database entry lists $188M total raised and Series B stage, but these specific figures are not found in provided sources."
     },
     {
       "name": "Nano Nuclear Energy",
@@ -140,8 +396,8 @@
         "website": "https://nanonuclearenergy.com"
       },
       "verified": {
-        "name": "NANO Nuclear Energy",
-        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, with subsidiaries in fuel fabrication, transportation, and space applications.",
+        "name": "NANO Nuclear Energy Inc.",
+        "description": "Advanced technology-driven nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, along with nuclear fuel fabrication, transportation, and space applications.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -156,7 +412,6 @@
             1
           ],
           "description": [
-            0,
             1
           ],
           "location": [
@@ -165,13 +420,9 @@
           "current_stage": [
             0,
             1
-          ],
-          "website": [
-            0,
-            1
           ]
         },
-        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from company's own website. Source [2] about Valar Atomics is unrelated to NANO Nuclear Energy and was not used. No founder names explicitly stated in sources as founders/co-founders. Founded year not mentioned in sources. Total raised and valuation figures from database entry could not be verified in provided sources. Current stage verified as 'Public' based on NASDAQ listing statement."
+        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are the same company website content. Source [2] (Canary Media article about Valar Atomics) is not relevant to NANO Nuclear Energy and was not used. Founders not explicitly named in provided sources. Founded year not specified in sources. Total raised, valuation, and investor names not found in sources."
       },
       "changes": [
         {
@@ -201,7 +452,189 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from company's own website. Source [2] about Valar Atomics is unrelated to NANO Nuclear Energy and was not used. No founder names explicitly stated in sources as founders/co-founders. Founded year not mentioned in sources. Total raised and valuation figures from database entry could not be verified in provided sources. Current stage verified as 'Public' based on NASDAQ listing statement."
+      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are the same company website content. Source [2] (Canary Media article about Valar Atomics) is not relevant to NANO Nuclear Energy and was not used. Founders not explicitly named in provided sources. Founded year not specified in sources. Total raised, valuation, and investor names not found in sources."
+    },
+    {
+      "name": "Planet Labs",
+      "current": {
+        "name": "Planet Labs",
+        "founder": "Chris Boshuizen, William Marshall, Robbie Schingler",
+        "location": "San Francisco, CA",
+        "founded": 2010,
+        "fundingStage": "Public",
+        "totalRaised": "$700M+",
+        "website": "https://planet.com"
+      },
+      "verified": {
+        "name": "Planet Labs PBC",
+        "description": "Publicly traded American Earth imaging company that designs and manufactures small satellites called Doves to capture Earth observation data daily. Provides satellite-based Earth imaging and analytics services for climate monitoring, agriculture, defense, and other applications.",
+        "founders": [
+          "Chris Boshuizen",
+          "William Marshall",
+          "Robbie Schingler"
+        ],
+        "location": "San Francisco, California",
+        "founded_year": 2010,
+        "current_stage": "Public",
+        "total_raised": null,
+        "valuation": "$2.8B",
+        "investors": null,
+        "website": "https://planet.com",
+        "sources_per_field": {
+          "name": [
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Company formerly known as Cosmogia, Inc. and Planet Labs, Inc. Completed SPAC merger with DMY Technology Group Inc IV on December 7, 2021, becoming publicly traded on NYSE under ticker PLN on December 8, 2021. Registered as public benefit corporation (PBC). Valuation of $2.8B refers to the merger deal announced in July 2021."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "San Francisco, CA",
+          "verified": "San Francisco, California",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://planet.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://planet.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Planet_Labs"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/heo-to-use-planet-satellites-for-non-earth-imaging/"
+        }
+      ],
+      "notes": "Company formerly known as Cosmogia, Inc. and Planet Labs, Inc. Completed SPAC merger with DMY Technology Group Inc IV on December 7, 2021, becoming publicly traded on NYSE under ticker PLN on December 8, 2021. Registered as public benefit corporation (PBC). Valuation of $2.8B refers to the merger deal announced in July 2021."
+    },
+    {
+      "name": "Satellogic",
+      "current": {
+        "name": "Satellogic",
+        "founder": "Emiliano Kargieman, Gerardo Richarte",
+        "location": "Wilmington, DE",
+        "founded": 2010,
+        "fundingStage": "Public",
+        "totalRaised": "$262M",
+        "website": "https://satellogic.com"
+      },
+      "verified": {
+        "name": "Satellogic",
+        "description": "American Earth-observation company operating a constellation of optical and hyperspectral nanosatellites; provides high-resolution satellite imagery and geospatial data services.",
+        "founders": [
+          "Emiliano Kargieman",
+          "Gerardo Richarte"
+        ],
+        "location": "Delaware, USA",
+        "founded_year": 2010,
+        "current_stage": "Public",
+        "total_raised": "$262M",
+        "valuation": null,
+        "investors": [
+          "Steven Mnuchin",
+          "Howard Lutnick",
+          "Cantor Fitzgerald"
+        ],
+        "website": "https://satellogic.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ]
+        },
+        "notes": "Company redomiciled to Delaware in 2025 and is listed on Nasdaq under ticker SATL. Went public in January 2022 via SPAC merger with CF Acquisition Corp. V. As of September 2025, has launched more than 50 \u00d1uSat satellites."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Wilmington, DE",
+          "verified": "Delaware, USA",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://satellogic.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://satellogic.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Satellogic"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/heo-to-use-planet-satellites-for-non-earth-imaging/"
+        }
+      ],
+      "notes": "Company redomiciled to Delaware in 2025 and is listed on Nasdaq under ticker SATL. Went public in January 2022 via SPAC merger with CF Acquisition Corp. V. As of September 2025, has launched more than 50 \u00d1uSat satellites."
     },
     {
       "name": "SpaceX",
@@ -216,7 +649,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial intelligence (Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered at Starbase in Texas. The company operates three divisions: Space (conducting more orbital launches annually than any other provider), Connectivity (operating Starlink satellite communications), and Artificial Intelligence (operating Grok and data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -226,7 +659,8 @@
         "total_raised": "$86B",
         "valuation": null,
         "investors": [
-          "Alphabet Inc."
+          "Alphabet Inc.",
+          "Nvidia"
         ],
         "website": "https://spacex.com",
         "sources_per_field": {
@@ -252,13 +686,14 @@
             0
           ],
           "investors": [
-            0
+            0,
+            1
           ],
           "website": [
             0
           ]
         },
-        "notes": "Wikipedia source indicates SpaceX completed IPO on June 12, 2026, raising $86 billion. Current database entry claims $1.65T valuation and $1.5T IPO valuation, but these figures are not supported by provided sources. Elon Musk owns 42% equity with 85% voting control (Wikipedia notes 82% voting control in one place, 85% in another). Sources [1], [2], [3] are news articles about recent business developments but do not contain verifiable founding or core company information."
+        "notes": "SpaceX completed initial public offering on June 12, 2026, raising $86 billion (largest IPO in history per source). Wikipedia source indicates Elon Musk controls 85% of voting power; database entry states 82%. Nvidia disclosed $21B stake per Ars Technica source [1]. No current valuation figure found in sources; database entry claims $1.65T."
       },
       "changes": [
         {
@@ -278,8 +713,8 @@
         },
         {
           "idx": 1,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/"
+          "src": "news (Ars Technica)",
+          "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/"
         },
         {
           "idx": 2,
@@ -292,7 +727,170 @@
           "url": "https://www.nextbigfuture.com/2026/08/microsoft-will-lease-3-gigawatts-of-ai-data-center-from-spacex-in-2027.html"
         }
       ],
-      "notes": "Wikipedia source indicates SpaceX completed IPO on June 12, 2026, raising $86 billion. Current database entry claims $1.65T valuation and $1.5T IPO valuation, but these figures are not supported by provided sources. Elon Musk owns 42% equity with 85% voting control (Wikipedia notes 82% voting control in one place, 85% in another). Sources [1], [2], [3] are news articles about recent business developments but do not contain verifiable founding or core company information."
+      "notes": "SpaceX completed initial public offering on June 12, 2026, raising $86 billion (largest IPO in history per source). Wikipedia source indicates Elon Musk controls 85% of voting power; database entry states 82%. Nvidia disclosed $21B stake per Ars Technica source [1]. No current valuation figure found in sources; database entry claims $1.65T."
+    },
+    {
+      "name": "Terrahaptix",
+      "current": {
+        "name": "Terrahaptix",
+        "founder": "Nathan Nwachukwu, Maxwell Maduka",
+        "location": "Abuja, Nigeria",
+        "founded": 2024,
+        "fundingStage": "Series A",
+        "totalRaised": "$34M",
+        "website": "https://terrahaptix.com"
+      },
+      "verified": {
+        "name": "Terra Industries",
+        "description": "Manufactures AI-powered autonomous drones and surveillance systems for critical infrastructure protection in Africa and the Global South, including VTOL drones, quadcopters, ground vehicles, and autonomous sentries.",
+        "founders": null,
+        "location": "Abuja, Nigeria",
+        "founded_year": null,
+        "current_stage": "Seed",
+        "total_raised": "$52M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://terrahaptix.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Company operates under the name 'Terra Industries' (not 'Terrahaptix' as in database entry). Source [1] states seed round extended to $52M with additional $18M. No founder names, founding year, valuation, or specific investor names could be verified from provided sources. Database entry lists different stage (Series A) and total_raised ($34M) than sources."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series A",
+          "verified": "Seed",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$34M",
+          "verified": "$52M",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://terrahaptix.com"
+        },
+        {
+          "idx": 1,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/08/17/terra-industries-closes-52m-seed-round-to-build-defense-infrastructure-for-the-global-south/"
+        }
+      ],
+      "notes": "Company operates under the name 'Terra Industries' (not 'Terrahaptix' as in database entry). Source [1] states seed round extended to $52M with additional $18M. No founder names, founding year, valuation, or specific investor names could be verified from provided sources. Database entry lists different stage (Series A) and total_raised ($34M) than sources."
+    },
+    {
+      "name": "Zipline",
+      "current": {
+        "name": "Zipline",
+        "founder": "Keller Rinaudo Cliffton, Keenan Wyrobek, Will Hetzler",
+        "location": "South San Francisco, CA",
+        "founded": 2014,
+        "fundingStage": "Series G",
+        "totalRaised": "$1.63B",
+        "website": "https://zipline.com"
+      },
+      "verified": {
+        "name": "Zipline",
+        "description": "Autonomous drone delivery system that delivers food, groceries, and medicine. Operates in Rwanda, Ghana, and Dallas, Texas.",
+        "founders": null,
+        "location": "South San Francisco, California",
+        "founded_year": 2016,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://zipline.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Source [1] states 'Giving more time to local communities since 2016' which differs from database entry of 2014. Source [2] is Wikipedia article about zip-line (recreational equipment), not the company Zipline. Source [3] is a TechCrunch article title but content was not provided to verify claims. Founder names could not be verified from provided sources. Series stage, total_raised, valuation, and specific investor list could not be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "South San Francisco, CA",
+          "verified": "South San Francisco, California",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "founded",
+          "current": 2014,
+          "verified": 2016,
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://zipline.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://zipline.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zipline"
+        },
+        {
+          "idx": 3,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/08/17/uber-adds-zipline-drones-to-its-eats-delivery-network/"
+        }
+      ],
+      "notes": "Source [1] states 'Giving more time to local communities since 2016' which differs from database entry of 2014. Source [2] is Wikipedia article about zip-line (recreational equipment), not the company Zipline. Source [3] is a TechCrunch article title but content was not provided to verify claims. Founder names could not be verified from provided sources. Series stage, total_raised, valuation, and specific investor list could not be verified from provided sources."
     }
   ],
   "unverifiable": []
