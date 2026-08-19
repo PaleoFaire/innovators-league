@@ -3,113 +3,113 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -1.94,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 0.06,
       "count": 1
     },
     "space": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 1.84,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -5.47,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -6.64,
+      "avg_change": -4.28,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.16,
+      "avg_change": -8.01,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -5.02,
+      "avg_change": -3.16,
       "count": 3
     },
     "quantum": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -1.33,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -7.64,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -5.73,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 2.93,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -4.22,
+      "avg_change": -0.64,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 0.14,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -5.26,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "LUNR",
-      "Intuitive Machines",
-      17.17
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      9.12
     ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      7.38
+      5.55
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      3.31
+      "LUNR",
+      "Intuitive Machines",
+      5.13
     ],
     [
-      "AMD",
-      "AMD",
-      2.12
+      "LNZA",
+      "LanzaTech",
+      5.04
     ],
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      1.95
+      "TSLA",
+      "Tesla",
+      3.21
     ]
   ],
   "topLosers": [
     [
-      "TEM",
-      "Tempus AI",
-      -11.37
-    ],
-    [
-      "AUR",
-      "Aurora Innovation",
-      -11.51
+      "ALAB",
+      "Astera Labs",
+      -9.93
     ],
     [
       "OKLO",
       "Oklo",
-      -12.02
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -12.56
+      -9.99
     ],
     [
       "SMR",
       "NuScale Power",
-      -12.64
+      -10.01
+    ],
+    [
+      "QS",
+      "QuantumScape",
+      -11.13
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -13.38
     ]
   ],
-  "lastUpdated": "2026-08-19 07:56:53"
+  "lastUpdated": "2026-08-19 14:01:10"
 }
