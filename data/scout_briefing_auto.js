@@ -1,16 +1,119 @@
 // Auto-generated from scout_briefing_auto.json
-// Last updated: 2026-08-16T09:23:11+00:00
+// Last updated: 2026-08-19T09:27:37+00:00
 const SCOUT_BRIEFING_AUTO = {
-  "generatedAt": "2026-08-16T09:23:11+00:00",
-  "weekOf": "2026-08-16",
+  "generatedAt": "2026-08-19T09:27:37+00:00",
+  "weekOf": "2026-08-19",
   "summary": {
-    "rosterSize": 1222,
-    "candidatesScreened": 270,
+    "rosterSize": 1256,
+    "candidatesScreened": 269,
     "topPicks": 5,
     "runnerUp": 10,
-    "rejected": 158
+    "rejected": 151
   },
   "topPicks": [
+    {
+      "name": "Abridge",
+      "score": 33.3,
+      "signals": [
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Bessemer",
+          "sourceWeight": 35,
+          "vc": "Bessemer",
+          "date": "2026-04-27",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Bessemer portfolio on 2026-04-27"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Spark Capital",
+          "sourceWeight": 35,
+          "vc": "Spark Capital",
+          "date": "2026-04-27",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Spark Capital portfolio on 2026-04-27"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Pillar VC",
+          "sourceWeight": 35,
+          "vc": "Pillar VC",
+          "date": "2026-04-27",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Pillar VC portfolio on 2026-04-27"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Bessemer",
+          "sourceWeight": 35,
+          "vc": "Bessemer",
+          "date": "2026-05-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Bessemer portfolio on 2026-05-01"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Spark Capital",
+          "sourceWeight": 35,
+          "vc": "Spark Capital",
+          "date": "2026-05-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Spark Capital portfolio on 2026-05-01"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Pillar VC",
+          "sourceWeight": 35,
+          "vc": "Pillar VC",
+          "date": "2026-05-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Pillar VC portfolio on 2026-05-01"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Bessemer",
+          "sourceWeight": 35,
+          "vc": "Bessemer",
+          "date": "2026-08-12",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Bessemer portfolio on 2026-08-12"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Spark Capital",
+          "sourceWeight": 35,
+          "vc": "Spark Capital",
+          "date": "2026-08-12",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Spark Capital portfolio on 2026-08-12"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Pillar VC",
+          "sourceWeight": 35,
+          "vc": "Pillar VC",
+          "date": "2026-08-12",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Pillar VC portfolio on 2026-08-12"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null,
+      "dimensions": {
+        "capital_quality": 15,
+        "magnitude": 0,
+        "tech_depth": 0,
+        "frontier_fit": 0,
+        "stealth_signal": 10,
+        "founder_signal": 0,
+        "excitement": 8.3
+      },
+      "briefing": "**Abridge** \u2014 frontier tech.\n\n Backing: Bessemer, Pillar VC, Spark Capital.\n\nSurfaced in just one source \u2014 early intel, before the rest of the market.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 33/70."
+    },
     {
       "name": "Atomic Semi",
       "score": 33.3,
@@ -87,8 +190,8 @@ const SCOUT_BRIEFING_AUTO = {
       "signals": [
         {
           "source": "DARPA performer",
-          "totalAwarded": 109061052.0,
-          "totalAwardedFormatted": "$109.1M",
+          "totalAwarded": 109461253.0,
+          "totalAwardedFormatted": "$109.5M",
           "awardCount": 14,
           "programs": [
             "CASE",
@@ -108,7 +211,7 @@ const SCOUT_BRIEFING_AUTO = {
         "founder_signal": 0,
         "excitement": 4.7
       },
-      "briefing": "**GALOIS, INC.** \u2014 Defense & Security.\n\nDARPA contracts: $109.1M. \n\nWorth a closer look this week.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 32/70."
+      "briefing": "**GALOIS, INC.** \u2014 Defense & Security.\n\nDARPA contracts: $109.5M. \n\nWorth a closer look this week.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 32/70."
     },
     {
       "name": "Anthropic",
@@ -243,28 +346,49 @@ const SCOUT_BRIEFING_AUTO = {
         "excitement": 6.3
       },
       "briefing": "**OpenAI** \u2014 frontier tech.\n\n Backing: Founders Fund, Greylock, Khosla.\n\nTech depth signals (patents/DARPA programs) suggest real engineering substance.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 31/70."
+    }
+  ],
+  "runnersUp": [
+    {
+      "name": "Founder Tier",
+      "score": 30.7,
+      "dimensions": {
+        "capital_quality": 15,
+        "magnitude": 0,
+        "tech_depth": 0,
+        "frontier_fit": 0,
+        "stealth_signal": 8,
+        "founder_signal": 0,
+        "excitement": 7.7
+      },
+      "sources": [
+        "VC portfolio"
+      ],
+      "suggestedSector": null,
+      "signals": [
+        {
+          "name": "Founder Tier",
+          "source": "VC portfolio: Founders Fund",
+          "sourceWeight": 35,
+          "vc": "Founders Fund",
+          "date": "2026-03-29",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Founders Fund portfolio on 2026-03-29"
+        },
+        {
+          "name": "Founder Tier",
+          "source": "VC portfolio: Founders Fund",
+          "sourceWeight": 35,
+          "vc": "Founders Fund",
+          "date": "2026-04-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Founders Fund portfolio on 2026-04-01"
+        }
+      ]
     },
     {
       "name": "HRL LABORATORIES, LLC",
       "score": 30.7,
-      "sources": [
-        "DARPA"
-      ],
-      "signals": [
-        {
-          "source": "DARPA performer",
-          "totalAwarded": 69386761.0,
-          "totalAwardedFormatted": "$69.4M",
-          "awardCount": 11,
-          "programs": [
-            "MASS",
-            "QUANTUM"
-          ],
-          "date": "2025-02-03",
-          "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001124C0305"
-        }
-      ],
-      "suggestedSector": "Defense & Security",
       "dimensions": {
         "capital_quality": 0,
         "magnitude": 7,
@@ -274,10 +398,25 @@ const SCOUT_BRIEFING_AUTO = {
         "founder_signal": 0,
         "excitement": 4.7
       },
-      "briefing": "**HRL LABORATORIES, LLC** \u2014 Defense & Security.\n\nDARPA contracts: $69.4M. \n\nWorth a closer look this week.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 31/70."
-    }
-  ],
-  "runnersUp": [
+      "sources": [
+        "DARPA"
+      ],
+      "suggestedSector": "Defense & Security",
+      "signals": [
+        {
+          "source": "DARPA performer",
+          "totalAwarded": 87392121.0,
+          "totalAwardedFormatted": "$87.4M",
+          "awardCount": 11,
+          "programs": [
+            "MASS",
+            "QUANTUM"
+          ],
+          "date": "2025-02-03",
+          "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001124C0399"
+        }
+      ]
+    },
     {
       "name": "THE CHARLES STARK DRAPER LABORATORY, INC.",
       "score": 30.7,
@@ -328,8 +467,8 @@ const SCOUT_BRIEFING_AUTO = {
       "signals": [
         {
           "source": "DARPA performer",
-          "totalAwarded": 47036200.26,
-          "totalAwardedFormatted": "$47.0M",
+          "totalAwarded": 47895460.26,
+          "totalAwardedFormatted": "$47.9M",
           "awardCount": 10,
           "programs": [
             "AUTONOMOUS",
@@ -422,8 +561,8 @@ const SCOUT_BRIEFING_AUTO = {
       "signals": [
         {
           "source": "DARPA performer",
-          "totalAwarded": 47622722.85,
-          "totalAwardedFormatted": "$47.6M",
+          "totalAwarded": 47201481.08,
+          "totalAwardedFormatted": "$47.2M",
           "awardCount": 7,
           "programs": [
             "QUANTUM",
@@ -514,8 +653,8 @@ const SCOUT_BRIEFING_AUTO = {
       "signals": [
         {
           "source": "DARPA performer",
-          "totalAwarded": 62574641.0,
-          "totalAwardedFormatted": "$62.6M",
+          "totalAwarded": 68713486.0,
+          "totalAwardedFormatted": "$68.7M",
           "awardCount": 13,
           "programs": [
             "QUANTUM"
@@ -524,70 +663,8 @@ const SCOUT_BRIEFING_AUTO = {
           "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001123C0071"
         }
       ]
-    },
-    {
-      "name": "PACMAR TECHNOLOGIES LLC",
-      "score": 28.7,
-      "dimensions": {
-        "capital_quality": 0,
-        "magnitude": 7,
-        "tech_depth": 3.0,
-        "frontier_fit": 10,
-        "stealth_signal": 4,
-        "founder_signal": 0,
-        "excitement": 4.7
-      },
-      "sources": [
-        "DARPA"
-      ],
-      "suggestedSector": "Defense & Security",
-      "signals": [
-        {
-          "source": "DARPA performer",
-          "totalAwarded": 75033916.1,
-          "totalAwardedFormatted": "$75.0M",
-          "awardCount": 2,
-          "programs": [
-            "AUTONOMOUS",
-            "RANGE"
-          ],
-          "date": "2021-09-29",
-          "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001121C0206"
-        }
-      ]
-    },
-    {
-      "name": "GINKGO BIOWORKS, INC.",
-      "score": 28.7,
-      "dimensions": {
-        "capital_quality": 0,
-        "magnitude": 6,
-        "tech_depth": 4,
-        "frontier_fit": 10,
-        "stealth_signal": 4,
-        "founder_signal": 0,
-        "excitement": 4.7
-      },
-      "sources": [
-        "DARPA"
-      ],
-      "suggestedSector": "Defense & Security",
-      "signals": [
-        {
-          "source": "DARPA performer",
-          "totalAwarded": 21539319.0,
-          "totalAwardedFormatted": "$21.5M",
-          "awardCount": 3,
-          "programs": [
-            "BIOLOGICAL",
-            "USE"
-          ],
-          "date": "2024-01-26",
-          "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001117C0092"
-        }
-      ]
     }
   ],
-  "rejectedCount": 158
+  "rejectedCount": 151
 };
 if (typeof window !== 'undefined') window.SCOUT_BRIEFING_AUTO = SCOUT_BRIEFING_AUTO;

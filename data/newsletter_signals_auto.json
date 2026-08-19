@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-16T09:20:55+00:00",
+  "generatedAt": "2026-08-19T09:25:39+00:00",
   "lookbackDays": 14,
   "sources": [
     {
       "name": "Core Memory (Ashlee Vance)",
       "url": "https://www.corememory.com/feed",
       "totalItems": 20,
-      "recentItems": 1
+      "recentItems": 2
     },
     {
       "name": "Newcomer (Eric Newcomer)",
@@ -36,7 +36,7 @@
       "name": "Strange Loop Canon (Rohit Krishnan)",
       "url": "https://www.strangeloopcanon.com/feed",
       "totalItems": 20,
-      "recentItems": 0
+      "recentItems": 1
     },
     {
       "name": "Not Boring (Packy McCormick)",
@@ -87,8 +87,8 @@
       "recentItems": 5
     }
   ],
-  "totalRawSignals": 25,
-  "uniqueCandidateCount": 25,
+  "totalRawSignals": 12,
+  "uniqueCandidateCount": 12,
   "candidates": [
     {
       "name": "UnslothAI",
@@ -129,78 +129,21 @@
       ]
     },
     {
-      "name": "FLUX",
+      "name": "GLM",
       "totalScore": 10.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "FLUX",
+          "name": "GLM",
           "score": 10.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "ck Forest Labs expanded from image generation into a broader multimodal stack :  @bfl_ai  launched  FLUX 3 Video  with  native audio , multilingual dialogue, text/image-to-video, continuation, and a l",
+          "context": " . GLM-5.3 looks like a post-training/infrastructure story, not a base-model story : Z.ai launched  GLM-5.3 via API  for coding, defensive cyber, and long-horizon agents, at the  same price as GLM-5.2",
           "source": "Latent Space (swyx)",
           "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Megakernels are so dead and so back",
-          "articleUrl": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-          "articleDate": "Wed, 05 Aug 2026 01:21:47 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Video",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Video",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "st Labs expanded from image generation into a broader multimodal stack :  @bfl_ai  launched  FLUX 3 Video  with  native audio , multilingual dialogue, text/image-to-video, continuation, and a lower-co",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Megakernels are so dead and so back",
-          "articleUrl": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-          "articleDate": "Wed, 05 Aug 2026 01:21:47 GMT"
-        }
-      ]
-    },
-    {
-      "name": "GoodfireAI",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "GoodfireAI",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "kflow, and New Research Platforms Goodfire\u2019s Silico was the day\u2019s breakout research-tool launch :  @GoodfireAI  publicly launched  Silico , a platform for frontier-scale interpretability and training ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Megakernels are so dead and so back",
-          "articleUrl": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-          "articleDate": "Wed, 05 Aug 2026 01:21:47 GMT"
-        }
-      ]
-    },
-    {
-      "name": "ASICs",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "ASICs",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": " of for you. So do you agree that a GPU and future GPUs are trending more and more towards becoming ASICs that just need to be launched and then they do the data operation based on your conversations ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
-          "articleUrl": "https://www.latent.space/p/inference-eng",
-          "articleDate": "Mon, 03 Aug 2026 21:44:03 GMT"
+          "articleTitle": "[AINews] Memory prices up 500% in 12 months",
+          "articleUrl": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
+          "articleDate": "Wed, 19 Aug 2026 08:44:52 GMT"
         }
       ]
     },
@@ -220,63 +163,6 @@
           "articleTitle": "Moove raises $250M to become the backbone of the robotaxi industry",
           "articleUrl": "https://techcrunch.com/2026/08/05/moove-raises-250m-to-become-the-backbone-of-the-robotaxi-industry/",
           "articleDate": "Wed, 05 Aug 2026 20:50:45 +0000"
-        }
-      ]
-    },
-    {
-      "name": "Security",
-      "totalScore": 9.35,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Security",
-          "score": 9.35,
-          "frontierTechScore": 4,
-          "mentions": 1,
-          "context": " vendor explicitly framing open models as a safety/security enabler for robotics and AV deployment. Security incidents during frontier cyber evals :  @OpenAI  disclosed two new incidents from external",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Megakernels are so dead and so back",
-          "articleUrl": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-          "articleDate": "Wed, 05 Aug 2026 01:21:47 GMT"
-        }
-      ]
-    },
-    {
-      "name": "AnthropicAI",
-      "totalScore": 7.65,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "AnthropicAI",
-          "score": 7.65,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": "ontier cyber evals :  @OpenAI  disclosed two new incidents from external cyber evaluations, while  @AnthropicAI  said AISI observed sustained harmful activity by models under deliberately permissive c",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Megakernels are so dead and so back",
-          "articleUrl": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-          "articleDate": "Wed, 05 Aug 2026 01:21:47 GMT"
-        }
-      ]
-    },
-    {
-      "name": "AISI",
-      "totalScore": 7.65,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "AISI",
-          "score": 7.65,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": " :  @OpenAI  disclosed two new incidents from external cyber evaluations, while  @AnthropicAI  said AISI observed sustained harmful activity by models under deliberately permissive conditions. This wa",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Megakernels are so dead and so back",
-          "articleUrl": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-          "articleDate": "Wed, 05 Aug 2026 01:21:47 GMT"
         }
       ]
     },
@@ -376,6 +262,25 @@
       ]
     },
     {
+      "name": "Evaluation",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Evaluation",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "he common thread is specialization plus persistent context, not generic \u201cagents talking to agents.\u201d Evaluation and harness work remains the real leverage point :  Hamel Husain\u2019s updated eval-skills pl",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Stripe buys OpenRouter for $7B",
+          "articleUrl": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+          "articleDate": "Mon, 17 Aug 2026 23:13:41 GMT"
+        }
+      ]
+    },
+    {
       "name": "Linux Codex Unsloth",
       "totalScore": 5.95,
       "sourceCount": 1,
@@ -410,158 +315,6 @@
           "articleTitle": "[AINews] How to steal a Reasoning Trace",
           "articleUrl": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
           "articleDate": "Wed, 12 Aug 2026 07:11:08 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Top",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Top",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": " loops and self-reflection scaffolds unless evaluation budgets and transfer are tightly controlled. Top tweets (by engagement) NVIDIA\u2019s open autonomous-vehicle reasoning model :  @JensenHuang  announc",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Megakernels are so dead and so back",
-          "articleUrl": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-          "articleDate": "Wed, 05 Aug 2026 01:21:47 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Multimodal",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Multimodal",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "ful reminder that a lot of \u201cself-improvement\u201d headlines still collapse if evaluation is not robust. Multimodal and video systems: MiniMax H3, world models, and local generation MiniMax H3 is the stand",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
-          "articleUrl": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
-          "articleDate": "Tue, 04 Aug 2026 03:49:14 GMT"
-        }
-      ]
-    },
-    {
-      "name": "MiniMax H3",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "MiniMax H3",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "lf-improvement\u201d headlines still collapse if evaluation is not robust. Multimodal and video systems: MiniMax H3, world models, and local generation MiniMax H3 is the standout multimodal/video release :",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
-          "articleUrl": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
-          "articleDate": "Tue, 04 Aug 2026 03:49:14 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Why",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Why",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "evolving into  programmable AI ASICs Why enormous models like Kimi K3 require  GB300-class hardware Why open-source video generation still trails  Veo, Kling, and other closed models The  quadratic at",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
-          "articleUrl": "https://www.latent.space/p/inference-eng",
-          "articleDate": "Mon, 03 Aug 2026 21:44:03 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Veo",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Veo",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "us models like Kimi K3 require  GB300-class hardware Why open-source video generation still trails  Veo, Kling, and other closed models The  quadratic attention bottleneck  behind long-form AI video A",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
-          "articleUrl": "https://www.latent.space/p/inference-eng",
-          "articleDate": "Mon, 03 Aug 2026 21:44:03 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Kling",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Kling",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "dels like Kimi K3 require  GB300-class hardware Why open-source video generation still trails  Veo, Kling, and other closed models The  quadratic attention bottleneck  behind long-form AI video Autore",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
-          "articleUrl": "https://www.latent.space/p/inference-eng",
-          "articleDate": "Mon, 03 Aug 2026 21:44:03 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Autoregressive",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Autoregressive",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": " Veo, Kling, and other closed models The  quadratic attention bottleneck  behind long-form AI video Autoregressive video, real-time generation, and  compounding quality drift Why future video systems ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
-          "articleUrl": "https://www.latent.space/p/inference-eng",
-          "articleDate": "Mon, 03 Aug 2026 21:44:03 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Continuous",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Continuous",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "bine  autoregressive and diffusion architectures Training for inference  and inference for training Continuous post-training, deployment, evaluation, and  improvement loops How GLM-5.2 helped optimize",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
-          "articleUrl": "https://www.latent.space/p/inference-eng",
-          "articleDate": "Mon, 03 Aug 2026 21:44:03 GMT"
         }
       ]
     }

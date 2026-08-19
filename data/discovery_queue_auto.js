@@ -1,17 +1,176 @@
 // Auto-generated from discovery_queue_auto.json
-// Last updated: 2026-08-16T09:23:11+00:00
+// Last updated: 2026-08-19T09:27:37+00:00
 const DISCOVERY_QUEUE_AUTO = {
-  "generatedAt": "2026-08-16T09:23:11+00:00",
-  "knownCompaniesCount": 1924,
+  "generatedAt": "2026-08-19T09:27:37+00:00",
+  "knownCompaniesCount": 1971,
   "summary": {
-    "totalCandidates": 76,
+    "totalCandidates": 63,
     "fromFormD": 0,
-    "fromVcPortfolios": 49,
-    "fromNewsletters": 25,
-    "fromLlmExtraction": 34,
-    "multiSource": 4
+    "fromVcPortfolios": 64,
+    "fromNewsletters": 12,
+    "fromLlmExtraction": 33,
+    "multiSource": 5
   },
   "candidates": [
+    {
+      "name": "Abridge",
+      "score": 315,
+      "signals": [
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Bessemer",
+          "sourceWeight": 35,
+          "vc": "Bessemer",
+          "date": "2026-04-27",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Bessemer portfolio on 2026-04-27"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Spark Capital",
+          "sourceWeight": 35,
+          "vc": "Spark Capital",
+          "date": "2026-04-27",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Spark Capital portfolio on 2026-04-27"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Pillar VC",
+          "sourceWeight": 35,
+          "vc": "Pillar VC",
+          "date": "2026-04-27",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Pillar VC portfolio on 2026-04-27"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Bessemer",
+          "sourceWeight": 35,
+          "vc": "Bessemer",
+          "date": "2026-05-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Bessemer portfolio on 2026-05-01"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Spark Capital",
+          "sourceWeight": 35,
+          "vc": "Spark Capital",
+          "date": "2026-05-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Spark Capital portfolio on 2026-05-01"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Pillar VC",
+          "sourceWeight": 35,
+          "vc": "Pillar VC",
+          "date": "2026-05-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Pillar VC portfolio on 2026-05-01"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Bessemer",
+          "sourceWeight": 35,
+          "vc": "Bessemer",
+          "date": "2026-08-12",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Bessemer portfolio on 2026-08-12"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Spark Capital",
+          "sourceWeight": 35,
+          "vc": "Spark Capital",
+          "date": "2026-08-12",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Spark Capital portfolio on 2026-08-12"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Pillar VC",
+          "sourceWeight": 35,
+          "vc": "Pillar VC",
+          "date": "2026-08-12",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Pillar VC portfolio on 2026-08-12"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Founder Tier",
+      "score": 210,
+      "signals": [
+        {
+          "name": "Founder Tier",
+          "source": "VC portfolio: Founders Fund",
+          "sourceWeight": 35,
+          "vc": "Founders Fund",
+          "date": "2026-03-29",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Founders Fund portfolio on 2026-03-29"
+        },
+        {
+          "name": "Founder Tier",
+          "source": "VC portfolio: Founders Fund",
+          "sourceWeight": 35,
+          "vc": "Founders Fund",
+          "date": "2026-04-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Founders Fund portfolio on 2026-04-01"
+        },
+        {
+          "name": "Founder Tier",
+          "source": "VC portfolio: Founders Fund",
+          "sourceWeight": 35,
+          "vc": "Founders Fund",
+          "date": "2026-05-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Founders Fund portfolio on 2026-05-01"
+        },
+        {
+          "name": "Founder Tier",
+          "source": "VC portfolio: Founders Fund",
+          "sourceWeight": 35,
+          "vc": "Founders Fund",
+          "date": "2026-06-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Founders Fund portfolio on 2026-06-01"
+        },
+        {
+          "name": "Founder Tier",
+          "source": "VC portfolio: Founders Fund",
+          "sourceWeight": 35,
+          "vc": "Founders Fund",
+          "date": "2026-07-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Founders Fund portfolio on 2026-07-01"
+        },
+        {
+          "name": "Founder Tier",
+          "source": "VC portfolio: Founders Fund",
+          "sourceWeight": 35,
+          "vc": "Founders Fund",
+          "date": "2026-08-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Founders Fund portfolio on 2026-08-01"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
     {
       "name": "Anthropic",
       "score": 210,
@@ -269,7 +428,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Fireworks",
           "source": "LLM (Invest Like the Best)",
           "sourceWeight": 30,
-          "context": "An AI inference and model serving platform that helps organizations run large language models efficiently.",
+          "context": "An AI inference and model serving platform that helps developers deploy and run large language models efficiently.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -283,7 +442,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Fireworks",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "An AI inference and model serving platform that helps organizations run large language models efficiently.",
+          "context": "An AI inference and model serving platform that helps developers deploy and run large language models efficiently.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -310,7 +469,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Sierra",
           "source": "LLM (Invest Like the Best)",
           "sourceWeight": 30,
-          "context": "Enterprise AI company that deploys forward-engineered AI agents for Fortune 50 companies, focused on automating complex business processes.",
+          "context": "Enterprise AI company providing forward-deployed AI solutions to Fortune 50 companies, recently surpassed $150M ARR.",
           "founder": "Clay Bavor",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -324,7 +483,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Sierra",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "Enterprise AI company that deploys forward-engineered AI agents for Fortune 50 companies, focused on automating complex business processes.",
+          "context": "Enterprise AI company providing forward-deployed AI solutions to Fortune 50 companies, recently surpassed $150M ARR.",
           "founder": "Clay Bavor",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -681,7 +840,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "OpenRouter",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "Unified interface platform that aggregates access to multiple large language models, allowing enterprises to switch between different LLM providers.",
+          "context": "AI routing layer platform that aggregates access to multiple frontier language models.",
           "founder": "Alex Atallah",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -695,7 +854,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "OpenRouter",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "Unified interface platform that aggregates access to multiple large language models, allowing enterprises to switch between different LLM providers.",
+          "context": "AI routing layer platform that aggregates access to multiple frontier language models.",
           "founder": "Alex Atallah",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -730,7 +889,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Moove",
           "source": "LLM (TechCrunch \u00b7 Venture)",
           "sourceWeight": 18,
-          "context": "Moove provides infrastructure and services to support the autonomous robotaxi industry.",
+          "context": "Moove provides infrastructure and services to support the autonomous robotaxi industry at scale.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -751,7 +910,7 @@ const DISCOVERY_QUEUE_AUTO = {
     },
     {
       "name": "Base Energy",
-      "score": 35.2,
+      "score": 43.2,
       "signals": [
         {
           "name": "Base Energy",
@@ -765,11 +924,11 @@ const DISCOVERY_QUEUE_AUTO = {
         {
           "name": "Base Energy",
           "source": "LLM (Not Boring (Packy McCormick))",
-          "sourceWeight": 8,
-          "context": "An energy plan company offering guaranteed below-market electricity rates to consumers.",
+          "sourceWeight": 16,
+          "context": "An energy plan service offering guaranteed below-market electricity rates to customers.",
           "founder": "",
           "fundingMentioned": null,
-          "stealthSignal": false,
+          "stealthSignal": true,
           "confidence": "low",
           "date": "Wed, 12 Aug 2026 13:53:37 GMT",
           "verifyUrl": "https://www.notboring.co/p/base-power-company-chapter-3",
@@ -784,6 +943,47 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": true,
       "confidence": "high",
       "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "Frontier Labs",
+      "score": 36,
+      "signals": [
+        {
+          "name": "Frontier Labs",
+          "source": "LLM (20VC)",
+          "sourceWeight": 8,
+          "context": "Referenced as a category of companies that large enterprises are hesitant to partner with, suggesting they are cutting-edge frontier AI/model development firms.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "low",
+          "date": "Sat, 25 Jul 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-mercor-cpo-on-revenue-concentration-from-frontier-labs-why-large-enterprise-is-scared-to-partner-with-frontier-labs-why-small-specialised-models-is-the-future-with-osvald-nitski",
+          "articleTitle": "20VC: Mercor CPO on Revenue Concentration from Frontier Labs | Why Large Enterprise is Scared to Partner with Frontier Labs | Why Small Specialised Models is the Future with Osvald Nitski",
+          "suggestedSector": "AI & Compute"
+        },
+        {
+          "name": "Frontier Labs",
+          "source": "LLM (All-In)",
+          "sourceWeight": 8,
+          "context": "Referenced as a category of companies that large enterprises are hesitant to partner with, suggesting they are cutting-edge frontier AI/model development firms.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "low",
+          "date": "Fri, 31 Jul 2026 22:23:00 +0000",
+          "verifyUrl": "https://allinchamathjason.libsyn.com/chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow-down-ai-mamdanis-grocery-stores",
+          "articleTitle": "Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores",
+          "suggestedSector": "AI & Compute"
+        }
+      ],
+      "sources": [
+        "LLM (20VC)",
+        "LLM (All-In)"
+      ],
+      "multiSource": true,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
     },
     {
       "name": "Modal",
@@ -919,7 +1119,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Arena",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "A real-world evaluation platform that benchmarks and compares global AI models, serving as a referee for the AI model race.",
+          "context": "Real-world evaluation platform serving as a leading referee for comparing and benchmarking global AI models, with 30M+ monthly users and $100M+ ARR.",
           "founder": "Anastasios Angelopoulos",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -945,7 +1145,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Coherence",
           "source": "LLM (Core Memory)",
           "sourceWeight": 30,
-          "context": "Develops implants that track and treat cancer tumors with precision monitoring and targeted intervention.",
+          "context": "Develops implantable devices that track and treat cancer tumors with precision monitoring and intervention capabilities.",
           "founder": "Ben Woodington",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -964,6 +1164,32 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
+      "name": "Curative",
+      "score": 30,
+      "signals": [
+        {
+          "name": "Curative",
+          "source": "LLM (20VC)",
+          "sourceWeight": 30,
+          "context": "A health company that scaled from COVID testing operations to a unicorn-status health insurance business.",
+          "founder": "Fred Turner",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "high",
+          "date": "Sat, 18 Jul 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-5bn-in-revenue-7-to-7000-employees-in-9-months-206000-tests-in-a-single-day-the-craziest-story-in-startups-curative-with-fred-turner",
+          "articleTitle": "20VC: $5BN in Revenue, 7 to 7,000 Employees in 9 Months, 206,000 Tests in a Single Day: The Craziest Story in Startups: Curative with Fred Turner",
+          "suggestedSector": "Biotech & Health"
+        }
+      ],
+      "sources": [
+        "LLM (20VC)"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": null
+    },
+    {
       "name": "ElevenLabs",
       "score": 30,
       "signals": [
@@ -971,7 +1197,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "ElevenLabs",
           "source": "LLM (All-In)",
           "sourceWeight": 30,
-          "context": "AI voice synthesis and generation platform that has scaled to $600M ARR with 600 employees, competing with OpenAI and Anthropic on voice capabilities.",
+          "context": "Text-to-speech and voice AI platform generating $600M ARR with 600 employees, competing in voice synthesis and celebrity voice deals.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -997,7 +1223,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Fireworks AI",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "A specialized intelligence and AI inference platform optimizing model serving and token cost reduction for enterprise applications.",
+          "context": "Specialized intelligence and AI inference platform optimizing token costs and enabling deployment of millions of specialized models.",
           "founder": "Lin Qiao",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1016,6 +1242,32 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
+      "name": "Flock",
+      "score": 30,
+      "signals": [
+        {
+          "name": "Flock",
+          "source": "LLM (All-In)",
+          "sourceWeight": 30,
+          "context": "License plate recognition and AI-powered audit platform for law enforcement that analyzes camera data to solve crimes and identify officer misconduct.",
+          "founder": "Garrett Langley",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "high",
+          "date": "Tue, 18 Aug 2026 00:47:00 +0000",
+          "verifyUrl": "https://allinchamathjason.libsyn.com/flock-ceo-garrett-langley-on-controversy-surveillance-state-claims-and-privacy-vs-safety",
+          "articleTitle": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+          "suggestedSector": "Defense & Security"
+        }
+      ],
+      "sources": [
+        "LLM (All-In)"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": "AI & Compute"
+    },
+    {
       "name": "Glean",
       "score": 30,
       "signals": [
@@ -1023,7 +1275,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Glean",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "Enterprise AI platform that helps organizations leverage AI for workplace productivity and search across company data.",
+          "context": "Enterprise AI platform that helps organizations leverage AI for knowledge work and business intelligence.",
           "founder": "Arvind Jain",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1049,7 +1301,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Legora",
           "source": "LLM (All-In)",
           "sourceWeight": 30,
-          "context": "Hypergrowth AI legal startup using narrow AI models to disrupt traditional law firms and challenge the billable hour model.",
+          "context": "Hypergrowth legal AI startup using narrow AI models to disrupt law firms and challenge the traditional billable hour model.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1075,7 +1327,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Lovable",
           "source": "LLM (All-In)",
           "sourceWeight": 30,
-          "context": "AI-powered platform for rapid application development that enables non-technical users to build apps at scale, positioning itself as a cost-efficient alternative to traditional software development.",
+          "context": "AI-powered platform enabling rapid app creation at scale, positioning itself as a cost-effective alternative to traditional software development.",
           "founder": "Anton Osika",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1101,7 +1353,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Mercor",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "AI-training and expert-data marketplace that powers frontier-model development, having crossed $2 billion in ARR.",
+          "context": "An AI-training and expert-data marketplace that powers frontier-model development, enabling companies to access curated data and expertise for training advanced AI systems.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1127,7 +1379,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Moonshot AI",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "Chinese AI company building competitive large language models that are pressuring global AI pricing.",
+          "context": "Chinese AI model company raising capital at a $35B valuation as competitive pricing pressures intensify in the AI market.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1153,7 +1405,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "NEO",
           "source": "LLM (All-In)",
           "sourceWeight": 30,
-          "context": "Builds an open robot platform shipping in 2026, with capabilities for robots to build other robots.",
+          "context": "Building an open robot platform with humanoid robots shipping in 2026, including robots that can build other robots.",
           "founder": "Bernt B\u00f8rnich",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1179,7 +1431,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Simile",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "Builds foundation models of human behavior that allow companies to simulate and test how real people think, decide, and act before making real-world decisions.",
+          "context": "AI company building foundation models of human behavior to simulate how people think, decide, and act for corporate decision-making.",
           "founder": "Joon Sung Park",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1205,7 +1457,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Astra",
           "source": "LLM (TBPN)",
           "sourceWeight": 18,
-          "context": "A space company that has made 10 mathematical advances, likely in launch or orbital mechanics.",
+          "context": "Space launch company that has achieved 10 mathematical or technical advances in their launch capability.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1231,7 +1483,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Base44",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "An AI application-building platform that was acquired by Wix, focused on enabling rapid development of AI-powered applications.",
+          "context": "An AI application-building platform that was acquired by Wix, focusing on rapid AI-powered app development.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1250,32 +1502,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Baseten",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Baseten",
-          "source": "LLM (Latent Space (swyx))",
-          "sourceWeight": 18,
-          "context": "Platform for inference engineering and GPU/ASIC optimization for AI workloads.",
-          "founder": "Philip Kiely, Ali Taha",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Mon, 03 Aug 2026 21:44:03 GMT",
-          "verifyUrl": "https://www.latent.space/p/inference-eng",
-          "articleTitle": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (Latent Space (swyx))"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
       "name": "Cere",
       "score": 18,
       "signals": [
@@ -1283,7 +1509,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Cere",
           "source": "LLM (Invest Like the Best)",
           "sourceWeight": 18,
-          "context": "A decentralized data and AI infrastructure platform.",
+          "context": "A decentralized data and AI company building infrastructure for machine learning and data management.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1302,58 +1528,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Curative",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Curative",
-          "source": "LLM (20VC)",
-          "sourceWeight": 18,
-          "context": "A health company that scaled from COVID testing operations to a unicorn-valued health insurance business.",
-          "founder": "Fred Turner",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Sat, 18 Jul 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-5bn-in-revenue-7-to-7000-employees-in-9-months-206000-tests-in-a-single-day-the-craziest-story-in-startups-curative-with-fred-turner",
-          "articleTitle": "20VC: $5BN in Revenue, 7 to 7,000 Employees in 9 Months, 206,000 Tests in a Single Day: The Craziest Story in Startups: Curative with Fred Turner",
-          "suggestedSector": "Biotech & Health"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": null
-    },
-    {
-      "name": "Discovery Loop",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Discovery Loop",
-          "source": "LLM (TBPN)",
-          "sourceWeight": 18,
-          "context": "An AI company applying machine learning to scientific research and discovery with tangible real-world outcomes.",
-          "founder": "Jeff Dean",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Fri, 07 Aug 2026 14:26:57 -0700",
-          "verifyUrl": "https://share.transistor.fm/s/a03bb8de",
-          "articleTitle": "AI Viruses, OpenAI's First Device, WSJ Mansion Section | Samir Kaul, Patrick Wendell, Grant LaFontaine",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (TBPN)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
       "name": "Intelligence",
       "score": 18,
       "signals": [
@@ -1361,7 +1535,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Intelligence",
           "source": "LLM (TBPN)",
           "sourceWeight": 18,
-          "context": "Uses human preferences to improve AI-generated designs, games, and websites through a feedback-driven intelligence system.",
+          "context": "Uses human preferences to improve AI-generated designs, games, and websites through a feedback-based intelligence system.",
           "founder": "Grace Lee",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1380,32 +1554,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Kalshi",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Kalshi",
-          "source": "LLM (20VC)",
-          "sourceWeight": 18,
-          "context": "A prediction market platform valued at $40B, positioning itself for an upcoming IPO.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Thu, 02 Jul 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-dario-and-anthropic-declare-war-on-open-source-coinbase-slash-ai-spend-by-50-kalshis-40bn-valuation-and-impending-ipo-bending-spoons-smartest-ipo-of-2026-and-the-year-for-saas-roll-ups",
-          "articleTitle": "20VC: Dario and Anthropic Declare War on Open-Source | Coinbase Slash AI Spend by 50% | Kalshi's $40BN Valuation and Impending IPO | Bending Spoons: Smartest IPO of 2026 and the Year for SaaS Roll-Ups",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": null
-    },
-    {
       "name": "Rubrik",
       "score": 18,
       "signals": [
@@ -1413,7 +1561,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Rubrik",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "Cloud infrastructure company focused on data management and protection that successfully went public.",
+          "context": "Cloud infrastructure company focused on data management and protection, now a public company.",
           "founder": "Arvind Jain",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1421,7 +1569,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "date": "Sat, 11 Jul 2026 07:07:00 +0000",
           "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-why-openai-and-anthropic-wont-win-the-app-layer-why-teams-will-get-bigger-not-smaller-in-a-world-of-ai-why-ai-removes-incumbents-advantage-of-bundling-china-vs-america-who-wins-the-ai-war-with-arvind-jain-co-founder-glean",
           "articleTitle": "20VC: Why OpenAI and Anthropic Won't Win the App Layer | Why Teams Will Get Bigger Not Smaller in a World of AI | Why AI Removes Incumbents Advantage of Bundling | China vs America: Who Wins the AI Wa",
-          "suggestedSector": "Advanced Manufacturing"
+          "suggestedSector": "AI & Compute"
         }
       ],
       "sources": [
@@ -1439,7 +1587,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Unsloth AI",
           "source": "LLM (Latent Space (swyx))",
           "sourceWeight": 18,
-          "context": "Develops open-source tools for running and training machine learning models locally on desktop hardware.",
+          "context": "Open-source desktop application for running and training machine learning models locally on consumer hardware.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1491,7 +1639,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Wispr Flow",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "An AI-powered platform that scaled to millions of users with an AI-powered marketing OS.",
+          "context": "An AI-powered platform that scaled to millions of users with automated growth capabilities.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1552,17 +1700,17 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "FLUX",
+      "name": "GLM",
       "score": 10.2,
       "signals": [
         {
-          "name": "FLUX",
+          "name": "GLM",
           "source": "Newsletter: Latent Space (swyx)",
           "sourceWeight": 10.2,
-          "context": "ck Forest Labs expanded from image generation into a broader multimodal stack :  @bfl_ai  launched  FLUX 3 Video  with  native audio , multilingual dialogue, text/image-to-video, continuation, and a l",
-          "date": "Wed, 05 Aug 2026 01:21:47 GMT",
-          "verifyUrl": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-          "articleTitle": "[AINews] Megakernels are so dead and so back"
+          "context": " . GLM-5.3 looks like a post-training/infrastructure story, not a base-model story : Z.ai launched  GLM-5.3 via API  for coding, defensive cyber, and long-horizon agents, at the  same price as GLM-5.2",
+          "date": "Wed, 19 Aug 2026 08:44:52 GMT",
+          "verifyUrl": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
+          "articleTitle": "[AINews] Memory prices up 500% in 12 months"
         }
       ],
       "sources": [
@@ -1570,90 +1718,6 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "medium",
-      "suggestedSector": "Space & Aerospace"
-    },
-    {
-      "name": "Video",
-      "score": 10.2,
-      "signals": [
-        {
-          "name": "Video",
-          "source": "Newsletter: Latent Space (swyx)",
-          "sourceWeight": 10.2,
-          "context": "st Labs expanded from image generation into a broader multimodal stack :  @bfl_ai  launched  FLUX 3 Video  with  native audio , multilingual dialogue, text/image-to-video, continuation, and a lower-co",
-          "date": "Wed, 05 Aug 2026 01:21:47 GMT",
-          "verifyUrl": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-          "articleTitle": "[AINews] Megakernels are so dead and so back"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "Space & Aerospace"
-    },
-    {
-      "name": "GoodfireAI",
-      "score": 10.2,
-      "signals": [
-        {
-          "name": "GoodfireAI",
-          "source": "Newsletter: Latent Space (swyx)",
-          "sourceWeight": 10.2,
-          "context": "kflow, and New Research Platforms Goodfire\u2019s Silico was the day\u2019s breakout research-tool launch :  @GoodfireAI  publicly launched  Silico , a platform for frontier-scale interpretability and training ",
-          "date": "Wed, 05 Aug 2026 01:21:47 GMT",
-          "verifyUrl": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-          "articleTitle": "[AINews] Megakernels are so dead and so back"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "ASICs",
-      "score": 10.2,
-      "signals": [
-        {
-          "name": "ASICs",
-          "source": "Newsletter: Latent Space (swyx)",
-          "sourceWeight": 10.2,
-          "context": " of for you. So do you agree that a GPU and future GPUs are trending more and more towards becoming ASICs that just need to be launched and then they do the data operation based on your conversations ",
-          "date": "Mon, 03 Aug 2026 21:44:03 GMT",
-          "verifyUrl": "https://www.latent.space/p/inference-eng",
-          "articleTitle": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "Space & Aerospace"
-    },
-    {
-      "name": "Security",
-      "score": 9.35,
-      "signals": [
-        {
-          "name": "Security",
-          "source": "Newsletter: Latent Space (swyx)",
-          "sourceWeight": 9.35,
-          "context": " vendor explicitly framing open models as a safety/security enabler for robotics and AV deployment. Security incidents during frontier cyber evals :  @OpenAI  disclosed two new incidents from external",
-          "date": "Wed, 05 Aug 2026 01:21:47 GMT",
-          "verifyUrl": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-          "articleTitle": "[AINews] Megakernels are so dead and so back"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "low",
       "suggestedSector": "AI & Compute"
     },
     {
@@ -1664,7 +1728,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Design Arena",
           "source": "LLM (TBPN)",
           "sourceWeight": 8,
-          "context": "Platform that leverages human preferences to enhance AI-generated creative outputs including designs, games, and websites.",
+          "context": "Platform that leverages human preferences to optimize AI-generated designs and creative outputs.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1683,32 +1747,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Frontier Labs",
-      "score": 8,
-      "signals": [
-        {
-          "name": "Frontier Labs",
-          "source": "LLM (All-In)",
-          "sourceWeight": 8,
-          "context": "An organization or collective of frontier technology labs advocating for slowing down AI development.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Fri, 31 Jul 2026 22:23:00 +0000",
-          "verifyUrl": "https://allinchamathjason.libsyn.com/chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow-down-ai-mamdanis-grocery-stores",
-          "articleTitle": "Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (All-In)"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "AI & Compute"
-    },
-    {
       "name": "Terafab",
       "score": 8,
       "signals": [
@@ -1716,7 +1754,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Terafab",
           "source": "LLM (All-In)",
           "sourceWeight": 8,
-          "context": "A manufacturing or production company mentioned alongside SpaceX's big quarter achievements.",
+          "context": "A manufacturing company mentioned in context of SpaceX's operations, likely focused on advanced production capabilities.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1733,48 +1771,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "low",
       "suggestedSector": "Space & Aerospace"
-    },
-    {
-      "name": "AnthropicAI",
-      "score": 7.65,
-      "signals": [
-        {
-          "name": "AnthropicAI",
-          "source": "Newsletter: Latent Space (swyx)",
-          "sourceWeight": 7.65,
-          "context": "ontier cyber evals :  @OpenAI  disclosed two new incidents from external cyber evaluations, while  @AnthropicAI  said AISI observed sustained harmful activity by models under deliberately permissive c",
-          "date": "Wed, 05 Aug 2026 01:21:47 GMT",
-          "verifyUrl": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-          "articleTitle": "[AINews] Megakernels are so dead and so back"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "AISI",
-      "score": 7.65,
-      "signals": [
-        {
-          "name": "AISI",
-          "source": "Newsletter: Latent Space (swyx)",
-          "sourceWeight": 7.65,
-          "context": " :  @OpenAI  disclosed two new incidents from external cyber evaluations, while  @AnthropicAI  said AISI observed sustained harmful activity by models under deliberately permissive conditions. This wa",
-          "date": "Wed, 05 Aug 2026 01:21:47 GMT",
-          "verifyUrl": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-          "articleTitle": "[AINews] Megakernels are so dead and so back"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "AI & Compute"
     },
     {
       "name": "Anduril",
@@ -1861,6 +1857,27 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
+      "name": "Evaluation",
+      "score": 5.95,
+      "signals": [
+        {
+          "name": "Evaluation",
+          "source": "Newsletter: Latent Space (swyx)",
+          "sourceWeight": 5.95,
+          "context": "he common thread is specialization plus persistent context, not generic \u201cagents talking to agents.\u201d Evaluation and harness work remains the real leverage point :  Hamel Husain\u2019s updated eval-skills pl",
+          "date": "Mon, 17 Aug 2026 23:13:41 GMT",
+          "verifyUrl": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+          "articleTitle": "[AINews] Stripe buys OpenRouter for $7B"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "AI & Compute"
+    },
+    {
       "name": "Linux Codex Unsloth",
       "score": 5.95,
       "signals": [
@@ -1901,174 +1918,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "low",
       "suggestedSector": "Space & Aerospace"
-    },
-    {
-      "name": "Top",
-      "score": 5.95,
-      "signals": [
-        {
-          "name": "Top",
-          "source": "Newsletter: Latent Space (swyx)",
-          "sourceWeight": 5.95,
-          "context": " loops and self-reflection scaffolds unless evaluation budgets and transfer are tightly controlled. Top tweets (by engagement) NVIDIA\u2019s open autonomous-vehicle reasoning model :  @JensenHuang  announc",
-          "date": "Wed, 05 Aug 2026 01:21:47 GMT",
-          "verifyUrl": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-          "articleTitle": "[AINews] Megakernels are so dead and so back"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": null
-    },
-    {
-      "name": "Multimodal",
-      "score": 5.95,
-      "signals": [
-        {
-          "name": "Multimodal",
-          "source": "Newsletter: Latent Space (swyx)",
-          "sourceWeight": 5.95,
-          "context": "ful reminder that a lot of \u201cself-improvement\u201d headlines still collapse if evaluation is not robust. Multimodal and video systems: MiniMax H3, world models, and local generation MiniMax H3 is the stand",
-          "date": "Tue, 04 Aug 2026 03:49:14 GMT",
-          "verifyUrl": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
-          "articleTitle": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "Biotech & Health"
-    },
-    {
-      "name": "MiniMax H3",
-      "score": 5.95,
-      "signals": [
-        {
-          "name": "MiniMax H3",
-          "source": "Newsletter: Latent Space (swyx)",
-          "sourceWeight": 5.95,
-          "context": "lf-improvement\u201d headlines still collapse if evaluation is not robust. Multimodal and video systems: MiniMax H3, world models, and local generation MiniMax H3 is the standout multimodal/video release :",
-          "date": "Tue, 04 Aug 2026 03:49:14 GMT",
-          "verifyUrl": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
-          "articleTitle": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "Biotech & Health"
-    },
-    {
-      "name": "Why",
-      "score": 5.95,
-      "signals": [
-        {
-          "name": "Why",
-          "source": "Newsletter: Latent Space (swyx)",
-          "sourceWeight": 5.95,
-          "context": "evolving into  programmable AI ASICs Why enormous models like Kimi K3 require  GB300-class hardware Why open-source video generation still trails  Veo, Kling, and other closed models The  quadratic at",
-          "date": "Mon, 03 Aug 2026 21:44:03 GMT",
-          "verifyUrl": "https://www.latent.space/p/inference-eng",
-          "articleTitle": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Veo",
-      "score": 5.95,
-      "signals": [
-        {
-          "name": "Veo",
-          "source": "Newsletter: Latent Space (swyx)",
-          "sourceWeight": 5.95,
-          "context": "us models like Kimi K3 require  GB300-class hardware Why open-source video generation still trails  Veo, Kling, and other closed models The  quadratic attention bottleneck  behind long-form AI video A",
-          "date": "Mon, 03 Aug 2026 21:44:03 GMT",
-          "verifyUrl": "https://www.latent.space/p/inference-eng",
-          "articleTitle": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Kling",
-      "score": 5.95,
-      "signals": [
-        {
-          "name": "Kling",
-          "source": "Newsletter: Latent Space (swyx)",
-          "sourceWeight": 5.95,
-          "context": "dels like Kimi K3 require  GB300-class hardware Why open-source video generation still trails  Veo, Kling, and other closed models The  quadratic attention bottleneck  behind long-form AI video Autore",
-          "date": "Mon, 03 Aug 2026 21:44:03 GMT",
-          "verifyUrl": "https://www.latent.space/p/inference-eng",
-          "articleTitle": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Autoregressive",
-      "score": 5.95,
-      "signals": [
-        {
-          "name": "Autoregressive",
-          "source": "Newsletter: Latent Space (swyx)",
-          "sourceWeight": 5.95,
-          "context": " Veo, Kling, and other closed models The  quadratic attention bottleneck  behind long-form AI video Autoregressive video, real-time generation, and  compounding quality drift Why future video systems ",
-          "date": "Mon, 03 Aug 2026 21:44:03 GMT",
-          "verifyUrl": "https://www.latent.space/p/inference-eng",
-          "articleTitle": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Continuous",
-      "score": 5.95,
-      "signals": [
-        {
-          "name": "Continuous",
-          "source": "Newsletter: Latent Space (swyx)",
-          "sourceWeight": 5.95,
-          "context": "bine  autoregressive and diffusion architectures Training for inference  and inference for training Continuous post-training, deployment, evaluation, and  improvement loops How GLM-5.2 helped optimize",
-          "date": "Mon, 03 Aug 2026 21:44:03 GMT",
-          "verifyUrl": "https://www.latent.space/p/inference-eng",
-          "articleTitle": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "AI & Compute"
     }
   ]
 };

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T09:21:18+00:00",
+  "generatedAt": "2026-08-19T09:25:52+00:00",
   "lookbackDays": 60,
   "sources": [
     {
@@ -7,7 +7,7 @@
       "host": "Ashlee Vance",
       "url": "https://www.corememory.com/feed/podcast/320996.rss",
       "totalItems": 85,
-      "recentItems": 8
+      "recentItems": 6
     },
     {
       "name": "Acquired",
@@ -20,21 +20,21 @@
       "name": "Invest Like the Best",
       "host": "Patrick O'Shaughnessy",
       "url": "https://feeds.megaphone.fm/investlikethebest",
-      "totalItems": 592,
-      "recentItems": 8
+      "totalItems": 593,
+      "recentItems": 9
     },
     {
       "name": "20VC",
       "host": "Harry Stebbings",
       "url": "https://thetwentyminutevc.libsyn.com/rss",
-      "totalItems": 1496,
-      "recentItems": 26
+      "totalItems": 1497,
+      "recentItems": 25
     },
     {
       "name": "All-In",
       "host": "Chamath/Jason/Sacks/Friedberg",
       "url": "https://allinchamathjason.libsyn.com/rss",
-      "totalItems": 408,
+      "totalItems": 409,
       "recentItems": 18
     },
     {
@@ -49,11 +49,11 @@
       "host": "John Coogan + Jordi Hays",
       "url": "https://feeds.transistor.fm/technology-brother",
       "totalItems": 649,
-      "recentItems": 77
+      "recentItems": 72
     }
   ],
-  "totalRawSignals": 30,
-  "uniqueCandidates": 30,
+  "totalRawSignals": 28,
+  "uniqueCandidates": 28,
   "candidates": [
     {
       "name": "Alan Eustace",
@@ -164,20 +164,6 @@
           "url": "https://www.corememory.com/p/quantum-everything-explained-ep-81",
           "date": "Wed, 08 Jul 2026 15:16:16 GMT",
           "context": "Quantum Everything Explained - EP 81 Prineha Narang"
-        }
-      ]
-    },
-    {
-      "name": "Max Hodak Live",
-      "score": 7.0,
-      "episodes": [
-        {
-          "podcast": "Core Memory",
-          "host": "Ashlee Vance",
-          "title": "The Future Of Our Brains And Bodies - EP 77 Max Hodak Live Event",
-          "url": "https://www.corememory.com/p/the-future-of-our-brains-and-bodies-max-hodak-science",
-          "date": "Wed, 17 Jun 2026 15:11:18 GMT",
-          "context": "The Future Of Our Brains And Bodies - EP 77 Max Hodak Live Event"
         }
       ]
     },
@@ -378,30 +364,16 @@
       ]
     },
     {
-      "name": "Best",
-      "score": 4.8999999999999995,
+      "name": "Flock",
+      "score": 3.5,
       "episodes": [
         {
-          "podcast": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Why Remote Work is White Collar Fraud | Why Revenge and Patriotism are the Best Founder Traits | Two Questions Every Founder Needs to Ask | The Wild Story of Raising $1BN from Masa Son in an Hou",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-why-remote-work-is-white-collar-fraud-why-revenge-and-patriotism-are-the-best-founder-traits-two-questions-every-founder-needs-to-ask-the-wild-story-of-raising-1bn-from-masa-son-in-an-hour-long-meeting-with-ryan-peterson-founder-flexport",
-          "date": "Sat, 20 Jun 2026 07:07:00 +0000",
-          "context": "20VC: Why Remote Work is White Collar Fraud | Why Revenge and Patriotism are the Best Founder Traits | Two Questions Every Founder Needs to Ask | The Wild Story of Raising $1BN from Masa Son in an Hou"
-        }
-      ]
-    },
-    {
-      "name": "Two Questions Every",
-      "score": 4.8999999999999995,
-      "episodes": [
-        {
-          "podcast": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Why Remote Work is White Collar Fraud | Why Revenge and Patriotism are the Best Founder Traits | Two Questions Every Founder Needs to Ask | The Wild Story of Raising $1BN from Masa Son in an Hou",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-why-remote-work-is-white-collar-fraud-why-revenge-and-patriotism-are-the-best-founder-traits-two-questions-every-founder-needs-to-ask-the-wild-story-of-raising-1bn-from-masa-son-in-an-hour-long-meeting-with-ryan-peterson-founder-flexport",
-          "date": "Sat, 20 Jun 2026 07:07:00 +0000",
-          "context": "20VC: Why Remote Work is White Collar Fraud | Why Revenge and Patriotism are the Best Founder Traits | Two Questions Every Founder Needs to Ask | The Wild Story of Raising $1BN from Masa Son in an Hou"
+          "podcast": "All-In",
+          "host": "Chamath/Jason/Sacks/Friedberg",
+          "title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+          "url": "https://allinchamathjason.libsyn.com/flock-ceo-garrett-langley-on-controversy-surveillance-state-claims-and-privacy-vs-safety",
+          "date": "Tue, 18 Aug 2026 00:47:00 +0000",
+          "context": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety"
         }
       ]
     },
@@ -492,14 +464,6 @@
       "url": "https://www.corememory.com/p/the-google-engineer-who-set-the-skydiving-record-alan-eustace",
       "date": "Wed, 22 Jul 2026 12:20:16 GMT",
       "summary": "Most people think that the Red Bull guy Felix Baumgartner holds the skydiving record. But this is not the case. The real record-holder is Alan Eustace. In 2014, at age 58, the Google engineer rode a helium-filled balloon into the stratosphere and then fell back to Earth from 135,890 feet. Eustace\u2019s fall lasted 4 minutes and 27 seconds, and he broke the sound barrier, reaching a max speed of 822 mp"
-    },
-    {
-      "podcast": "Core Memory",
-      "host": "Ashlee Vance",
-      "title": "The Future Of Our Brains And Bodies - EP 77 Max Hodak Live Event",
-      "url": "https://www.corememory.com/p/the-future-of-our-brains-and-bodies-max-hodak-science",
-      "date": "Wed, 17 Jun 2026 15:11:18 GMT",
-      "summary": "Max Hodak is back. The co-founder and CEO of Science Corp. joined me for our first-ever live podcast recording, which took place at the Brex headquarters in San Francisco. Thanks so much to all the Core Memory subscribers who turned up. Max walked us through Science\u2019s technology aimed at restoring vision in the blind, and the company\u2019s new product lines focused on organ transplants and extending t"
     },
     {
       "podcast": "All-In",
@@ -644,6 +608,22 @@
       "url": "https://colossus.com/episode/americas-next-energy-crisis/",
       "date": "Tue, 21 Jul 2026 08:00:00 -0000",
       "summary": "\n         My guest today is  Matthew Smith . Matthew is the founder and CIO of Chronometer Partners, which invests in energy, industrials, materials, power and utilities, and related infrastructure. \n For the last 18 months he and his team have modeled nearly every natural gas well, pipeline, and processing asset in the United States. He's reached a conclusion most of the market doesn't share.\u00a0 \n "
+    },
+    {
+      "podcast": "Invest Like the Best",
+      "host": "Patrick O'Shaughnessy",
+      "title": "Ben Thompson on Big Tech, China, and the AI Boom Running Out of Money - [Invest Like the Best, EP.487]",
+      "url": "https://colossus.com/episode/winners-losers-ai-era/",
+      "date": "Tue, 18 Aug 2026 08:00:00 -0000",
+      "summary": "\n         My guest today is  Ben Thompson , the founder and author of  Stratechery . Ben is one of my favorite business thinkers and I love talking to him about everything happening in markets and technology.\u00a0 \n We go through every important company, including OpenAI, Nvidia, Intel, Apple, Microsoft, Google, and Amazon. We also discuss why he thinks it would be dangerous for the United States to w"
+    },
+    {
+      "podcast": "All-In",
+      "host": "Chamath/Jason/Sacks/Friedberg",
+      "title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+      "url": "https://allinchamathjason.libsyn.com/flock-ceo-garrett-langley-on-controversy-surveillance-state-claims-and-privacy-vs-safety",
+      "date": "Tue, 18 Aug 2026 00:47:00 +0000",
+      "summary": "(0:00) The most controversial company in privacy right now, Flock CEO joins the show!   (7:23) License plate data retention: 7 days solves 90% of crimes   (13:00) Camera vandalism, felony charges, and privacy concerns   (18:15) Dirty cops exposed: Flock's audit tool got 9 Georgia officers fired   (28:25) AI, drones, facial recognition, and avoiding predictive policing   (39:43) Safety is a privile"
     },
     {
       "podcast": "Invest Like the Best",
@@ -806,14 +786,6 @@
       "summary": "Special Guest: Nikesh Arora, CEO @ Palo Alto Networks.\u00a0   AGENDA:   04:50 Airtable Sold to Bending Spoons for $1.285B\u00a0  17:00 Leo Aschenbrenner's Situational Awareness Blows Up as Citadel Buys His $16BN Book  22:30 Anthropic's AI Models Breach Three Companies as Cyber Threat Accelerates  33:35 Moonshot AI Raises $3.5B at $35B as Chinese Models Crush AI Prices  38:05 Valar Atomics Triples to $6B as"
     },
     {
-      "podcast": "20VC",
-      "host": "Harry Stebbings",
-      "title": "20VC: Dario and Anthropic Declare War on Open-Source | Coinbase Slash AI Spend by 50% | Kalshi's $40BN Valuation and Impending IPO | Bending Spoons: Smartest IPO of 2026 and the Year for SaaS Roll-Ups",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-dario-and-anthropic-declare-war-on-open-source-coinbase-slash-ai-spend-by-50-kalshis-40bn-valuation-and-impending-ipo-bending-spoons-smartest-ipo-of-2026-and-the-year-for-saas-roll-ups",
-      "date": "Thu, 02 Jul 2026 07:07:00 +0000",
-      "summary": "AGENDA:   00:00 Coinbase Slashes AI Spend 50%\u2014Is the AI Token Bubble Bursting?   12:55 Anthropic Warns Open Source Could Destroy the AI Business Model   18:10 Dario Escalates the AI War with China & Open-Source   22:00 Should the US Ban Chinese AI Models?   33:15 Microsoft's AI Strategy Is Breaking Down   38:00 Kalshi's $40B Valuation Signals a New Consumer Gold Rush   41:15 Has SpaceX Frozen the "
-    },
-    {
       "podcast": "Acquired",
       "host": "Ben Gilbert + David Rosenthal",
       "title": "The Walt Disney Company",
@@ -942,6 +914,14 @@
       "summary": "Lin Qiao is the Co-Founder and CEO of Fireworks AI, the leading specialized intelligence and AI inference platform that last week raised $1.5BN at a whopping $17BN valuation. With just 200 people, the company has hit $1BN in ARR and expects to hit $2BN before the end of the year. Prior to Fireworks, Lin spent several years at Meta including on the founding team of PyTorch.\u00a0   AGENDA:   00:07 \u2014 Why"
     },
     {
+      "podcast": "20VC",
+      "host": "Harry Stebbings",
+      "title": "20VC: Uber President on The Untold Uber Stories: Travis, China and Self-Driving | Why Autonomy Is Existential | How to Beat DoorDash to #1 in Food with Andrew MacDonald",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-uber-president-on-budgeting-ai-at-uber-how-ai-helps-and-hurts-uber-why-autonomy-is-existential-how-to-beat-doordash-to-1-in-food-the-untold-stories-of-travis-kalanick-dara-khosrowshahi-and-china-with-andrew-macdonald",
+      "date": "Mon, 17 Aug 2026 16:04:00 +0000",
+      "summary": "Andrew Macdonald (Mac) is the longest-serving employee at Uber. Today, he is the President and COO. No one on the planet has spent more time mastering ride-sharing than Mac. Uber now does 300M rides per week, has 200M users, and is one of the most recognised brands on the planet. Mac never does interviews and so this was a rare look behind the scenes at the Uber machine.\u00a0   AGENDA:   05:39 \u2013 How w"
+    },
+    {
       "podcast": "All-In",
       "host": "Chamath/Jason/Sacks/Friedberg",
       "title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
@@ -1036,22 +1016,6 @@
       "url": "https://allinchamathjason.libsyn.com/the-fight-over-open-source-ai-anthropics-15b-payout-nyc-socialists-evictions-violence",
       "date": "Fri, 24 Jul 2026 20:46:00 +0000",
       "summary": "(0:00) Bestie intros!   (0:18) The fight to save open source AI: Kimi K3 panic, Anthropic/OpenAI regulatory capture   (27:38) Anthropic/OpenAI historic growth rates, China's long game   (48:29) Anthropic's $1.5B piracy settlement and the great IP theft hypocrisy   (1:07:12) Google and Tesla stocks tank on surging AI capex   (1:17:19) Socialism Corner: \"Evictions = Violence\" and the threat to priva"
-    },
-    {
-      "podcast": "All-In",
-      "host": "Chamath/Jason/Sacks/Friedberg",
-      "title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
-      "url": "https://allinchamathjason.libsyn.com/worlds-first-trillionaire-anthropic-fable-banned-the-new-oligarchs-iran-peace-deal",
-      "date": "Fri, 19 Jun 2026 22:07:00 +0000",
-      "summary": "(0:00) Bestie intros!   (2:41) The New Oligarchs, America's incoming politburo, and learned helplessness   (14:18) SpaceX's record breaking IPO, $60B Cursor acquisition, and trillionaire reactions   (33:34) Behind the scenes of Anthropic's Fable ban   (1:01:18) Claude psychoanalyzes its creator, Dario Amodei   (1:14:31) Iran War MOU and the market impact   Apply for Summit 2026:   https://allin.co"
-    },
-    {
-      "podcast": "Core Memory",
-      "host": "Ashlee Vance",
-      "title": "Body Scanners, Banned Models, and DeepMind's Space Game Obsession - EP 78 Ashlee Vance And Kylie Robison",
-      "url": "https://www.corememory.com/p/body-scanners-banned-models-and-deepminds-midjourney-mri-rafa",
-      "date": "Fri, 19 Jun 2026 17:11:24 GMT",
-      "summary": "Did Kylie and I attend the Midjourney Scanner event? Yes,  we did . Did Kylie compare notes on her skincare routine with Bryan Johnson at the event? Also, yes. Meanwhile, I formed more wrinkles by downing cocktails while all this happened. Since the Midjourney pivot into medical devices and health spas is all the rage, we had no choice but to dive right in on this week\u2019s episode. We also explored "
     },
     {
       "podcast": "All-In",

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-16T09:23:11+00:00",
+  "generatedAt": "2026-08-19T09:27:37+00:00",
   "model": "claude-haiku-4-5",
-  "rosterSize": 1929,
-  "rawItemsConsidered": 88,
-  "newExtractionsThisRun": 88,
-  "uniqueCandidates": 32,
+  "rosterSize": 1976,
+  "rawItemsConsidered": 86,
+  "newExtractionsThisRun": 86,
+  "uniqueCandidates": 29,
   "candidates": [
     {
       "name": "Fireworks",
@@ -38,7 +38,7 @@
       ],
       "sourceCount": 2,
       "multiSource": true,
-      "description": "An AI inference and model serving platform that helps organizations run large language models efficiently."
+      "description": "An AI inference and model serving platform that helps developers deploy and run large language models efficiently."
     },
     {
       "name": "Sierra",
@@ -74,7 +74,41 @@
       ],
       "sourceCount": 2,
       "multiSource": true,
-      "description": "Enterprise AI company that deploys forward-engineered AI agents for Fortune 50 companies, focused on automating complex business processes."
+      "description": "Enterprise AI company providing forward-deployed AI solutions to Fortune 50 companies, recently surpassed $150M ARR."
+    },
+    {
+      "name": "Frontier Labs",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Mercor CPO on Revenue Concentration from Frontier Labs | Why Large Enterprise is Scared to Partner with Frontier Labs | Why Small Specialised Models is the Future with Osvald Nitski",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-mercor-cpo-on-revenue-concentration-from-frontier-labs-why-large-enterprise-is-scared-to-partner-with-frontier-labs-why-small-specialised-models-is-the-future-with-osvald-nitski",
+          "date": "Sat, 25 Jul 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        },
+        {
+          "source": "All-In",
+          "host": "Chamath/Jason/Sacks/Friedberg",
+          "title": "Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores",
+          "url": "https://allinchamathjason.libsyn.com/chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow-down-ai-mamdanis-grocery-stores",
+          "date": "Fri, 31 Jul 2026 22:23:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "20VC",
+        "All-In"
+      ],
+      "sourceCount": 2,
+      "multiSource": true,
+      "description": "Referenced as a category of companies that large enterprises are hesitant to partner with, suggesting they are cutting-edge frontier AI/model development firms."
     },
     {
       "name": "Arena",
@@ -101,7 +135,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A real-world evaluation platform that benchmarks and compares global AI models, serving as a referee for the AI model race."
+      "description": "Real-world evaluation platform serving as a leading referee for comparing and benchmarking global AI models, with 30M+ monthly users and $100M+ ARR."
     },
     {
       "name": "Coherence",
@@ -128,7 +162,34 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Develops implants that track and treat cancer tumors with precision monitoring and targeted intervention."
+      "description": "Develops implantable devices that track and treat cancer tumors with precision monitoring and intervention capabilities."
+    },
+    {
+      "name": "Curative",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: $5BN in Revenue, 7 to 7,000 Employees in 9 Months, 206,000 Tests in a Single Day: The Craziest Story in Startups: Curative with Fred Turner",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-5bn-in-revenue-7-to-7000-employees-in-9-months-206000-tests-in-a-single-day-the-craziest-story-in-startups-curative-with-fred-turner",
+          "date": "Sat, 18 Jul 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Biotech & Health"
+      ],
+      "founders": [
+        "Fred Turner"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "A health company that scaled from COVID testing operations to a unicorn-status health insurance business."
     },
     {
       "name": "ElevenLabs",
@@ -153,7 +214,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI voice synthesis and generation platform that has scaled to $600M ARR with 600 employees, competing with OpenAI and Anthropic on voice capabilities."
+      "description": "Text-to-speech and voice AI platform generating $600M ARR with 600 employees, competing in voice synthesis and celebrity voice deals."
     },
     {
       "name": "Fireworks AI",
@@ -180,7 +241,34 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A specialized intelligence and AI inference platform optimizing model serving and token cost reduction for enterprise applications."
+      "description": "Specialized intelligence and AI inference platform optimizing token costs and enabling deployment of millions of specialized models."
+    },
+    {
+      "name": "Flock",
+      "discoveries": [
+        {
+          "source": "All-In",
+          "host": "Chamath/Jason/Sacks/Friedberg",
+          "title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+          "url": "https://allinchamathjason.libsyn.com/flock-ceo-garrett-langley-on-controversy-surveillance-state-claims-and-privacy-vs-safety",
+          "date": "Tue, 18 Aug 2026 00:47:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Defense & Security"
+      ],
+      "founders": [
+        "Garrett Langley"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "All-In"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "License plate recognition and AI-powered audit platform for law enforcement that analyzes camera data to solve crimes and identify officer misconduct."
     },
     {
       "name": "Glean",
@@ -207,7 +295,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Enterprise AI platform that helps organizations leverage AI for workplace productivity and search across company data."
+      "description": "Enterprise AI platform that helps organizations leverage AI for knowledge work and business intelligence."
     },
     {
       "name": "Legora",
@@ -232,7 +320,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Hypergrowth AI legal startup using narrow AI models to disrupt traditional law firms and challenge the billable hour model."
+      "description": "Hypergrowth legal AI startup using narrow AI models to disrupt law firms and challenge the traditional billable hour model."
     },
     {
       "name": "Lovable",
@@ -259,7 +347,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI-powered platform for rapid application development that enables non-technical users to build apps at scale, positioning itself as a cost-efficient alternative to traditional software development."
+      "description": "AI-powered platform enabling rapid app creation at scale, positioning itself as a cost-effective alternative to traditional software development."
     },
     {
       "name": "Mercor",
@@ -284,7 +372,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI-training and expert-data marketplace that powers frontier-model development, having crossed $2 billion in ARR."
+      "description": "An AI-training and expert-data marketplace that powers frontier-model development, enabling companies to access curated data and expertise for training advanced AI systems."
     },
     {
       "name": "Moonshot AI",
@@ -309,7 +397,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Chinese AI company building competitive large language models that are pressuring global AI pricing."
+      "description": "Chinese AI model company raising capital at a $35B valuation as competitive pricing pressures intensify in the AI market."
     },
     {
       "name": "NEO",
@@ -336,7 +424,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Builds an open robot platform shipping in 2026, with capabilities for robots to build other robots."
+      "description": "Building an open robot platform with humanoid robots shipping in 2026, including robots that can build other robots."
     },
     {
       "name": "OpenRouter",
@@ -371,34 +459,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Unified interface platform that aggregates access to multiple large language models, allowing enterprises to switch between different LLM providers."
-    },
-    {
-      "name": "Science Corp",
-      "discoveries": [
-        {
-          "source": "Core Memory",
-          "host": "Ashlee Vance",
-          "title": "The Future Of Our Brains And Bodies - EP 77 Max Hodak Live Event",
-          "url": "https://www.corememory.com/p/the-future-of-our-brains-and-bodies-max-hodak-science",
-          "date": "Wed, 17 Jun 2026 15:11:18 GMT",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Biotech & Health"
-      ],
-      "founders": [
-        "Max Hodak"
-      ],
-      "stealthSignal": false,
-      "confidence": "high",
-      "sources": [
-        "Core Memory"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "Biotech company developing technology to restore vision in the blind and extending capabilities for organ transplants."
+      "description": "AI routing layer platform that aggregates access to multiple frontier language models."
     },
     {
       "name": "Simile",
@@ -425,7 +486,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Builds foundation models of human behavior that allow companies to simulate and test how real people think, decide, and act before making real-world decisions."
+      "description": "AI company building foundation models of human behavior to simulate how people think, decide, and act for corporate decision-making."
     },
     {
       "name": "Astra",
@@ -450,7 +511,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A space company that has made 10 mathematical advances, likely in launch or orbital mechanics."
+      "description": "Space launch company that has achieved 10 mathematical or technical advances in their launch capability."
     },
     {
       "name": "Base44",
@@ -475,34 +536,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "An AI application-building platform that was acquired by Wix, focused on enabling rapid development of AI-powered applications."
-    },
-    {
-      "name": "Baseten",
-      "discoveries": [
-        {
-          "source": "Latent Space (swyx)",
-          "host": "",
-          "title": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
-          "url": "https://www.latent.space/p/inference-eng",
-          "date": "Mon, 03 Aug 2026 21:44:03 GMT",
-          "kind": "newsletter_article"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [
-        "Philip Kiely, Ali Taha"
-      ],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "Latent Space (swyx)"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "Platform for inference engineering and GPU/ASIC optimization for AI workloads."
+      "description": "An AI application-building platform that was acquired by Wix, focusing on rapid AI-powered app development."
     },
     {
       "name": "Cere",
@@ -527,61 +561,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A decentralized data and AI infrastructure platform."
-    },
-    {
-      "name": "Curative",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: $5BN in Revenue, 7 to 7,000 Employees in 9 Months, 206,000 Tests in a Single Day: The Craziest Story in Startups: Curative with Fred Turner",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-5bn-in-revenue-7-to-7000-employees-in-9-months-206000-tests-in-a-single-day-the-craziest-story-in-startups-curative-with-fred-turner",
-          "date": "Sat, 18 Jul 2026 07:07:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Biotech & Health"
-      ],
-      "founders": [
-        "Fred Turner"
-      ],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A health company that scaled from COVID testing operations to a unicorn-valued health insurance business."
-    },
-    {
-      "name": "Discovery Loop",
-      "discoveries": [
-        {
-          "source": "TBPN",
-          "host": "John Coogan + Jordi Hays",
-          "title": "AI Viruses, OpenAI's First Device, WSJ Mansion Section | Samir Kaul, Patrick Wendell, Grant LaFontaine",
-          "url": "https://share.transistor.fm/s/a03bb8de",
-          "date": "Fri, 07 Aug 2026 14:26:57 -0700",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [
-        "Jeff Dean"
-      ],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "TBPN"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "An AI company applying machine learning to scientific research and discovery with tangible real-world outcomes."
+      "description": "A decentralized data and AI company building infrastructure for machine learning and data management."
     },
     {
       "name": "Intelligence",
@@ -608,32 +588,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Uses human preferences to improve AI-generated designs, games, and websites through a feedback-driven intelligence system."
-    },
-    {
-      "name": "Kalshi",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Dario and Anthropic Declare War on Open-Source | Coinbase Slash AI Spend by 50% | Kalshi's $40BN Valuation and Impending IPO | Bending Spoons: Smartest IPO of 2026 and the Year for SaaS Roll-Ups",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-dario-and-anthropic-declare-war-on-open-source-coinbase-slash-ai-spend-by-50-kalshis-40bn-valuation-and-impending-ipo-bending-spoons-smartest-ipo-of-2026-and-the-year-for-saas-roll-ups",
-          "date": "Thu, 02 Jul 2026 07:07:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A prediction market platform valued at $40B, positioning itself for an upcoming IPO."
+      "description": "Uses human preferences to improve AI-generated designs, games, and websites through a feedback-based intelligence system."
     },
     {
       "name": "Moove",
@@ -658,7 +613,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Moove provides infrastructure and services to support the autonomous robotaxi industry."
+      "description": "Moove provides infrastructure and services to support the autonomous robotaxi industry at scale."
     },
     {
       "name": "Rubrik",
@@ -673,7 +628,7 @@
         }
       ],
       "sectors": [
-        "Advanced Manufacturing"
+        "AI & Compute"
       ],
       "founders": [
         "Arvind Jain"
@@ -685,7 +640,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Cloud infrastructure company focused on data management and protection that successfully went public."
+      "description": "Cloud infrastructure company focused on data management and protection, now a public company."
     },
     {
       "name": "Unsloth AI",
@@ -710,7 +665,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Develops open-source tools for running and training machine learning models locally on desktop hardware."
+      "description": "Open-source desktop application for running and training machine learning models locally on consumer hardware."
     },
     {
       "name": "Viktor",
@@ -760,7 +715,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "An AI-powered platform that scaled to millions of users with an AI-powered marketing OS."
+      "description": "An AI-powered platform that scaled to millions of users with automated growth capabilities."
     },
     {
       "name": "Base Energy",
@@ -778,14 +733,14 @@
         "Climate & Energy"
       ],
       "founders": [],
-      "stealthSignal": false,
+      "stealthSignal": true,
       "confidence": "low",
       "sources": [
         "Not Boring (Packy McCormick)"
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "An energy plan company offering guaranteed below-market electricity rates to consumers."
+      "description": "An energy plan service offering guaranteed below-market electricity rates to customers."
     },
     {
       "name": "Design Arena",
@@ -810,32 +765,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Platform that leverages human preferences to enhance AI-generated creative outputs including designs, games, and websites."
-    },
-    {
-      "name": "Frontier Labs",
-      "discoveries": [
-        {
-          "source": "All-In",
-          "host": "Chamath/Jason/Sacks/Friedberg",
-          "title": "Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores",
-          "url": "https://allinchamathjason.libsyn.com/chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow-down-ai-mamdanis-grocery-stores",
-          "date": "Fri, 31 Jul 2026 22:23:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "low",
-      "sources": [
-        "All-In"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "An organization or collective of frontier technology labs advocating for slowing down AI development."
+      "description": "Platform that leverages human preferences to optimize AI-generated designs and creative outputs."
     },
     {
       "name": "Terafab",
@@ -860,7 +790,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A manufacturing or production company mentioned alongside SpaceX's big quarter achievements."
+      "description": "A manufacturing company mentioned in context of SpaceX's operations, likely focused on advanced production capabilities."
     }
   ]
 }
