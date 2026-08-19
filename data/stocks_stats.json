@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -1.93,
+      "avg_change": -1.94,
       "count": 1
     },
     "space": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 2.34,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": 1.87,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -7.3,
+      "avg_change": -7.33,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.7,
+      "avg_change": -10.16,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -5.08,
+      "avg_change": -5.02,
       "count": 3
     },
     "quantum": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.05,
+      "avg_change": -1.33,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.93,
+      "avg_change": -8.38,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -4.38,
+      "avg_change": -4.22,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -0.32,
+      "avg_change": 0.14,
       "count": 3
     }
   },
@@ -61,12 +61,7 @@
     [
       "LUNR",
       "Intuitive Machines",
-      17.99
-    ],
-    [
-      "9348.T",
-      "ispace",
-      4.28
+      17.17
     ],
     [
       "ASRHF",
@@ -79,37 +74,42 @@
       3.03
     ],
     [
-      "IONQ",
-      "IonQ",
-      1.93
+      "AMD",
+      "AMD",
+      2.12
+    ],
+    [
+      "9348.T",
+      "ispace",
+      1.66
     ]
   ],
   "topLosers": [
     [
       "TEM",
       "Tempus AI",
-      -11.02
+      -11.37
     ],
     [
       "AUR",
       "Aurora Innovation",
-      -11.29
+      -11.51
     ],
     [
       "OKLO",
       "Oklo",
-      -11.78
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      -12.18
+      -12.02
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -12.25
+      -12.56
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      -12.64
     ]
   ],
-  "lastUpdated": "2026-08-18 19:43:42"
+  "lastUpdated": "2026-08-19 02:34:32"
 }
