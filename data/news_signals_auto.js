@@ -1,19 +1,30 @@
 // Auto-generated news signals
-// Last updated: 2026-08-19T18:45:39.546Z
+// Last updated: 2026-08-19T19:32:14.757Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1787165139546,
+    "id": 1787167934757,
+    "type": "news",
+    "company": "OpenAI",
+    "headline": "Researchers say OpenAI revoked their access to limited cyber program",
+    "source": "TechCrunch",
+    "time": "Just now",
+    "impact": "low",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/"
+  },
+  {
+    "id": 1787167934758,
     "type": "ipo",
     "company": "Humanoid",
     "headline": "What does Unitree Robotics&#8217; IPO mean for the humanoid industry?",
     "source": "The Robot Report",
-    "time": "Just now",
+    "time": "1h ago",
     "impact": "high",
     "unread": true,
     "link": "https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/"
   },
   {
-    "id": 1787165139547,
+    "id": 1787167934759,
     "type": "hire",
     "company": "TerraPower",
     "headline": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers",
@@ -24,7 +35,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/"
   },
   {
-    "id": 1787165139548,
+    "id": 1787167934760,
     "type": "funding",
     "company": "Rivian",
     "headline": "Rivian spinout Also raises another $150M",
@@ -35,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/08/19/rivian-spinout-also-raises-another-150-million/"
   },
   {
-    "id": 1787165139549,
+    "id": 1787167934761,
     "type": "hire",
     "company": "SpaceX",
     "headline": "Ex-Tesla president: Roadster delay is about getting closer to SpaceX ahead of merger",
@@ -46,29 +57,29 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/19/ex-tesla-president-roadster-delay-spacex-thrusters/"
   },
   {
-    "id": 1787165139550,
+    "id": 1787167934762,
     "type": "ipo",
     "company": "Firefly Aerospace",
     "headline": "Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission",
     "source": "SpaceNews",
-    "time": "6h ago",
+    "time": "7h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://spacenews.com/firefly-aerospace-to-fly-zeno-power-radioisotope-heating-unit-on-lunar-lander-mission/"
   },
   {
-    "id": 1787165139551,
+    "id": 1787167934763,
     "type": "news",
     "company": "Sage Geosystems",
     "headline": "Sage Geosystems brings its first next-gen geothermal plant online",
     "source": "Canary Media",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.canarymedia.com/articles/geothermal/sage-geosystems-next-gen-geothermal-online"
   },
   {
-    "id": 1787165139552,
+    "id": 1787167934764,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI clarifies ‘acquisition’ offer for Irish teen's startup idea was a joke",
@@ -79,29 +90,29 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/openai-clarifies-acquisition-offer/"
   },
   {
-    "id": 1787165139553,
+    "id": 1787167934765,
     "type": "ipo",
     "company": "Rocket Lab",
     "headline": "Rocket Lab to test Space Force data network connection in orbit in 2027",
     "source": "SpaceNews",
-    "time": "19h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/rocket-lab-to-test-space-force-data-network-connection-in-orbit-in-2027/"
   },
   {
-    "id": 1787165139554,
+    "id": 1787167934766,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea",
     "source": "Ars Technica Space",
-    "time": "23h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/"
   },
   {
-    "id": 1787165139555,
+    "id": 1787167934767,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
@@ -112,29 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/"
   },
   {
-    "id": 1787165139556,
-    "type": "news",
-    "company": "OpenAI",
-    "headline": "OpenAI institutes new safeguards after Hugging Face breach",
-    "source": "TechCrunch",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/"
-  },
-  {
-    "id": 1787165139557,
-    "type": "funding",
-    "company": "Etched",
-    "headline": "Etched&#8217;s valuation doubles to $21B in a month",
-    "source": "TechCrunch",
-    "time": "1d ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/"
-  },
-  {
-    "id": 1787165139558,
+    "id": 1787167934768,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Your Car Could Start Paying You. SpaceX, Tesla, Grok Bot, Macrohard, Digital Optimus, Cursor HUGE",
@@ -145,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/08/your-car-could-start-paying-you-spacex-tesla-grok-bot-macrohard-digital-optimus-cursor-huge.html"
   },
   {
-    "id": 1787165139559,
+    "id": 1787167934769,
     "type": "news",
     "company": "Humanoid",
     "headline": "Unichem acquires Loomia to accelerate entry into the humanoid &#8216;skin&#8217; market",
@@ -156,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/unichem-acquires-loomia-accelerate-entry-humanoid-skin-market/"
   },
   {
-    "id": 1787165139560,
+    "id": 1787167934770,
     "type": "hire",
     "company": "Saildrone",
     "headline": "Saildrone expands European footprint with production plans in 3 countries",
@@ -167,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://breakingdefense.com/2026/08/saildrone-expands-european-footprint-with-production-plans-in-3-countries/"
   },
   {
-    "id": 1787165139561,
+    "id": 1787167934771,
     "type": "news",
     "company": "Einride",
     "headline": "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, and China goes BIG",
@@ -178,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/17/tesla-grows-robotaxi-fleet-by-50-einride-gets-a-partner-and-china-goes-big/"
   },
   {
-    "id": 1787165139562,
+    "id": 1787167934772,
     "type": "ipo",
     "company": "HEO",
     "headline": "HEO to use Planet satellites for non-Earth imaging",
@@ -189,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/heo-to-use-planet-satellites-for-non-earth-imaging/"
   },
   {
-    "id": 1787165139563,
+    "id": 1787167934773,
     "type": "news",
     "company": "Helsing",
     "headline": "German drone maker Helsing enlists Rakuten to broker Japan military deal",
@@ -200,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/industry/techwatch/2026/08/17/german-drone-maker-helsing-enlists-rakuten-to-broker-japan-military-deal/"
   },
   {
-    "id": 1787165139564,
+    "id": 1787167934774,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Nvidia discloses $21B stake in SpaceX",
@@ -211,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/"
   },
   {
-    "id": 1787165139565,
+    "id": 1787167934775,
     "type": "news",
     "company": "Einride",
     "headline": "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks",
@@ -220,5 +209,16 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://electrek.co/2026/08/15/paccar-brand-daf-to-add-level-4-einride-autonomy-to-its-electric-trucks/"
+  },
+  {
+    "id": 1787167934776,
+    "type": "ipo",
+    "company": "Waymo",
+    "headline": "Waymo wins California approval to expand robotaxis across 18 counties",
+    "source": "Electrek",
+    "time": "4d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://electrek.co/2026/08/14/waymo-cpuc-approval-california-expansion-18-counties/"
   }
 ];
