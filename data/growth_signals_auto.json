@@ -1,520 +1,527 @@
 [
   {
-    "company": "Planet Labs",
-    "type": "stock_movement",
-    "detail": "+5.5% up",
-    "strength": 4,
-    "date": "2026-08-18"
-  },
-  {
-    "company": "Planet Labs",
-    "type": "gov_traction",
-    "detail": "10 contracts",
-    "strength": 4,
-    "date": "2026-08-18"
-  },
-  {
     "company": "SpaceX",
-    "type": "news_activity",
-    "detail": "4 recent articles",
+    "type": "media_buzz",
+    "detail": "5 recent articles",
     "strength": 4,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "SpaceX",
     "type": "gov_traction",
-    "detail": "79 contracts",
+    "detail": "78 contracts",
     "strength": 4,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Intuitive Machines",
     "type": "stock_movement",
-    "detail": "+29.1% up",
+    "detail": "+17.2% up",
     "strength": 3,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Intuitive Machines",
     "type": "news_activity",
     "detail": "1 recent article",
     "strength": 3,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Neros",
     "type": "news_activity",
     "detail": "1 recent article",
     "strength": 3,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Neros",
     "type": "gov_traction",
     "detail": "17 contracts",
     "strength": 3,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Palantir",
     "type": "news_activity",
     "detail": "1 recent article",
     "strength": 3,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Palantir",
     "type": "gov_traction",
     "detail": "192 contracts",
     "strength": 3,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
-    "company": "AMD",
-    "type": "stock_movement",
-    "detail": "+7.8% up",
-    "strength": 2,
-    "date": "2026-08-18"
+    "company": "Rocket Lab",
+    "type": "news_activity",
+    "detail": "1 recent article",
+    "strength": 3,
+    "date": "2026-08-19"
+  },
+  {
+    "company": "Rocket Lab",
+    "type": "gov_traction",
+    "detail": "12 contracts",
+    "strength": 3,
+    "date": "2026-08-19"
   },
   {
     "company": "Anduril",
     "type": "gov_traction",
     "detail": "200 contracts",
     "strength": 2,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
-    "company": "Astroscale",
-    "type": "stock_movement",
-    "detail": "+9.1% up",
+    "company": "OpenAI",
+    "type": "news_activity",
+    "detail": "4 recent articles",
     "strength": 2,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
-    "company": "IonQ",
-    "type": "stock_movement",
-    "detail": "+10.1% up",
+    "company": "Planet Labs",
+    "type": "gov_traction",
+    "detail": "10 contracts",
     "strength": 2,
-    "date": "2026-08-18"
-  },
-  {
-    "company": "Nano Nuclear Energy",
-    "type": "stock_movement",
-    "detail": "+5.5% up",
-    "strength": 2,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Radiant",
     "type": "gov_traction",
     "detail": "23 contracts",
     "strength": 2,
-    "date": "2026-08-18"
-  },
-  {
-    "company": "Rigetti Computing",
-    "type": "stock_movement",
-    "detail": "+5.8% up",
-    "strength": 2,
-    "date": "2026-08-18"
-  },
-  {
-    "company": "Rocket Lab",
-    "type": "gov_traction",
-    "detail": "12 contracts",
-    "strength": 2,
-    "date": "2026-08-18"
-  },
-  {
-    "company": "Satellogic",
-    "type": "stock_movement",
-    "detail": "+9.0% up",
-    "strength": 2,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Shield AI",
     "type": "gov_traction",
     "detail": "11 contracts",
     "strength": 2,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Sierra Space",
     "type": "gov_traction",
     "detail": "10 contracts",
     "strength": 2,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Skydio",
     "type": "gov_traction",
     "detail": "41 contracts",
     "strength": 2,
-    "date": "2026-08-18"
-  },
-  {
-    "company": "Waymo",
-    "type": "news_activity",
-    "detail": "3 recent articles",
-    "strength": 2,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Anthropic",
     "type": "news_activity",
     "detail": "2 recent articles",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Anthropic",
     "type": "gov_traction",
     "detail": "1 contract",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Base Power",
     "type": "news_activity",
     "detail": "1 recent article",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Blue Origin",
     "type": "news_activity",
     "detail": "1 recent article",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Deterrence",
     "type": "news_activity",
     "detail": "1 recent article",
     "strength": 1,
-    "date": "2026-08-18"
-  },
-  {
-    "company": "Dust",
-    "type": "news_activity",
-    "detail": "1 recent article",
-    "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Einride",
     "type": "news_activity",
     "detail": "2 recent articles",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
-    "company": "Groq",
+    "company": "Etched",
     "type": "news_activity",
     "detail": "1 recent article",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "HEO",
     "type": "news_activity",
     "detail": "1 recent article",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Helsing",
     "type": "news_activity",
     "detail": "1 recent article",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Humanoid",
     "type": "news_activity",
-    "detail": "1 recent article",
+    "detail": "2 recent articles",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Isembard",
     "type": "news_activity",
     "detail": "1 recent article",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Multiverse Computing",
     "type": "news_activity",
     "detail": "1 recent article",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
+  },
+  {
+    "company": "Neko Health",
+    "type": "news_activity",
+    "detail": "1 recent article",
+    "strength": 1,
+    "date": "2026-08-19"
   },
   {
     "company": "Neura Robotics",
     "type": "news_activity",
     "detail": "1 recent article",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
+  },
+  {
+    "company": "Oklo",
+    "type": "stock_movement",
+    "detail": "-12.0% down",
+    "strength": 1,
+    "date": "2026-08-19"
   },
   {
     "company": "Oklo",
     "type": "news_activity",
     "detail": "1 recent article",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
-    "company": "OpenAI",
+    "company": "Pivotal",
     "type": "news_activity",
-    "detail": "2 recent articles",
+    "detail": "1 recent article",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Quaise Energy",
     "type": "news_activity",
     "detail": "1 recent article",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Rivian",
     "type": "stock_movement",
-    "detail": "-9.3% down",
+    "detail": "-9.7% down",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Rivian",
     "type": "news_activity",
     "detail": "1 recent article",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
-    "company": "Terra Industries",
+    "company": "Saildrone",
     "type": "news_activity",
     "detail": "1 recent article",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Valar Atomics",
     "type": "news_activity",
     "detail": "1 recent article",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
-    "company": "Zipline",
+    "company": "Waymo",
     "type": "news_activity",
-    "detail": "1 recent article",
+    "detail": "2 recent articles",
     "strength": 1,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "AST SpaceMobile",
     "type": "stock_movement",
-    "detail": "+3.5% up",
+    "detail": "-6.4% down",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Albedo",
     "type": "gov_traction",
     "detail": "1 contract",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
+  },
+  {
+    "company": "Archer Aviation",
+    "type": "stock_movement",
+    "detail": "-6.9% down",
+    "strength": 0,
+    "date": "2026-08-19"
+  },
+  {
+    "company": "Astroscale",
+    "type": "stock_movement",
+    "detail": "+3.3% up",
+    "strength": 0,
+    "date": "2026-08-19"
+  },
+  {
+    "company": "Aurora Innovation",
+    "type": "stock_movement",
+    "detail": "-11.5% down",
+    "strength": 0,
+    "date": "2026-08-19"
   },
   {
     "company": "Axiom Space",
     "type": "gov_traction",
     "detail": "7 contracts",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "BlackSky",
     "type": "gov_traction",
     "detail": "5 contracts",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Boston Dynamics",
     "type": "gov_traction",
     "detail": "3 contracts",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Capella Space",
     "type": "gov_traction",
     "detail": "4 contracts",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Castelion",
     "type": "gov_traction",
     "detail": "7 contracts",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Chaos Industries",
     "type": "gov_traction",
     "detail": "1 contract",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "D-Wave Quantum",
     "type": "stock_movement",
-    "detail": "-19.7% down",
+    "detail": "-3.5% down",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "DroneShield",
     "type": "stock_movement",
-    "detail": "-8.9% down",
+    "detail": "-9.7% down",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Epirus",
     "type": "gov_traction",
     "detail": "1 contract",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Ginkgo Bioworks",
     "type": "gov_traction",
     "detail": "4 contracts",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Hadrian",
     "type": "gov_traction",
     "detail": "1 contract",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Impulse Space",
     "type": "gov_traction",
     "detail": "4 contracts",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Joby Aviation",
     "type": "stock_movement",
-    "detail": "-10.2% down",
+    "detail": "-9.1% down",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Muon Space",
     "type": "gov_traction",
     "detail": "5 contracts",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
-    "company": "NVIDIA",
+    "company": "Nano Nuclear Energy",
     "type": "stock_movement",
-    "detail": "+3.4% up",
+    "detail": "-5.8% down",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
+  },
+  {
+    "company": "NuScale Power",
+    "type": "stock_movement",
+    "detail": "-12.6% down",
+    "strength": 0,
+    "date": "2026-08-19"
   },
   {
     "company": "Oxford Nanopore Technologies",
     "type": "stock_movement",
-    "detail": "-3.7% down",
+    "detail": "-6.0% down",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
+  },
+  {
+    "company": "QuantumScape",
+    "type": "stock_movement",
+    "detail": "-9.2% down",
+    "strength": 0,
+    "date": "2026-08-19"
+  },
+  {
+    "company": "Rainbow Robotics",
+    "type": "stock_movement",
+    "detail": "-4.5% down",
+    "strength": 0,
+    "date": "2026-08-19"
   },
   {
     "company": "Recursion Pharmaceuticals",
     "type": "stock_movement",
-    "detail": "-5.5% down",
+    "detail": "-7.8% down",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Relativity Space",
     "type": "gov_traction",
     "detail": "2 contracts",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Saronic",
     "type": "gov_traction",
     "detail": "1 contract",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Scale AI",
     "type": "gov_traction",
     "detail": "7 contracts",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Second Front Systems",
     "type": "gov_traction",
     "detail": "1 contract",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
+  },
+  {
+    "company": "Solid Power",
+    "type": "stock_movement",
+    "detail": "-6.2% down",
+    "strength": 0,
+    "date": "2026-08-19"
   },
   {
     "company": "Tempus AI",
     "type": "stock_movement",
-    "detail": "-6.2% down",
+    "detail": "-11.4% down",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Vannevar Labs",
     "type": "gov_traction",
     "detail": "2 contracts",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Varda Space Industries",
     "type": "gov_traction",
     "detail": "7 contracts",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "Vertical Aerospace",
     "type": "stock_movement",
-    "detail": "-10.9% down",
+    "detail": "-12.6% down",
     "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   },
   {
     "company": "ideaForge",
     "type": "stock_movement",
-    "detail": "-6.8% down",
+    "detail": "+3.0% up",
     "strength": 0,
-    "date": "2026-08-18"
-  },
-  {
-    "company": "ispace",
-    "type": "stock_movement",
-    "detail": "+4.8% up",
-    "strength": 0,
-    "date": "2026-08-18"
+    "date": "2026-08-19"
   }
 ]

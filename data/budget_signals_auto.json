@@ -1,5 +1,40 @@
 [
   {
+    "category": "Space & Aerospace",
+    "icon": "\ud83d\ude80",
+    "budgetLineItem": "Space & Aerospace \u2014 federal activity index",
+    "change": "+5%",
+    "changeNum": 5,
+    "fy": "FY2026",
+    "allocation": "",
+    "activityIndex": 3,
+    "billsTracked": 1,
+    "rulesTracked": 2,
+    "description": "1 bill(s) + 2 federal-register action(s) touching Space & Aerospace in the last 90 days. Activity index 3 \u2014 +5% relative trend.",
+    "examples": [
+      {
+        "type": "bill",
+        "title": "Commercial Space Launch Competitiveness Act Amendments",
+        "number": "HR3684",
+        "status": ""
+      },
+      {
+        "type": "federal_register",
+        "title": "Distribution of Satellite Royalty Funds",
+        "agency": "",
+        "date": ""
+      },
+      {
+        "type": "federal_register",
+        "title": "Distribution of Satellite Royalty Funds",
+        "agency": "",
+        "date": ""
+      }
+    ],
+    "source": "federal_register + congress_bills",
+    "lastUpdated": "2026-08-19"
+  },
+  {
     "category": "Nuclear Energy",
     "icon": "\u269b\ufe0f",
     "budgetLineItem": "Nuclear Energy \u2014 federal activity index",
@@ -26,7 +61,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-08-18"
+    "lastUpdated": "2026-08-19"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -55,7 +90,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-08-18"
+    "lastUpdated": "2026-08-19"
   },
   {
     "category": "Quantum Computing",
@@ -78,29 +113,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-08-18"
-  },
-  {
-    "category": "Space & Aerospace",
-    "icon": "\ud83d\ude80",
-    "budgetLineItem": "Space & Aerospace \u2014 federal activity index",
-    "change": "flat",
-    "changeNum": 0,
-    "fy": "FY2026",
-    "allocation": "",
-    "activityIndex": 1,
-    "billsTracked": 1,
-    "rulesTracked": 0,
-    "description": "1 bill(s) + 0 federal-register action(s) touching Space & Aerospace in the last 90 days. Activity index 1 \u2014 flat relative trend.",
-    "examples": [
-      {
-        "type": "bill",
-        "title": "Commercial Space Launch Competitiveness Act Amendments",
-        "number": "HR3684",
-        "status": ""
-      }
-    ],
-    "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-08-18"
+    "lastUpdated": "2026-08-19"
   }
 ]
