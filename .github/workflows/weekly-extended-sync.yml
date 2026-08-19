@@ -90,84 +90,6 @@ jobs:
           path: data/
           retention-days: 7
 
-  sync-product-hunt:
-    name: Sync Product Hunt Launches
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: product-hunt-data
-          path: data/
-          retention-days: 7
-
-  sync-linkedin-headcount:
-    name: Sync LinkedIn Headcount (Apify)
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: linkedin-headcount-data
-          path: data/
-          retention-days: 7
-
-  sync-trademarks:
-    name: Sync USPTO Trademarks
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: '3.11' }
-      - run: pip install requests
-      - name: Fetch USPTO trademark filings
-        # RESTORED 2026-08-19. I cut this in the API audit earlier the same day
-        # on the grounds that "nothing references TRADEMARKS". That was wrong —
-        # the global is TRADEMARK_FILINGS, and signals.js:141 renders it into a
-        # full section of the Signals page. Grepping for the wrong identifier
-        # is not evidence of a dead feed.
-        #
-        # It has never actually produced data: every run since 2026-04-23 has
-        # returned {"status": "awaiting_uspto_api_key"}, and the Signals page
-        # has been telling members "coming soon — the USPTO feed is being
-        # connected" for four months. The key is FREE at
-        # https://developer.uspto.gov/api-catalog and needs to be added as the
-        # USPTO_API_KEY repository secret. Until then this runs and writes the
-        # same placeholder, which costs nothing.
-        run: python scripts/fetch_trademarks.py
-        env:
-          USPTO_API_KEY: ${{ secrets.USPTO_API_KEY }}
-      - uses: actions/upload-artifact@v4
-        with:
-          name: trademarks-data
-          path: data/
-          retention-days: 7
-
   sync-factory-watch:
     name: Sync Factory Watch (Sentinel-2 satellite passes)
     runs-on: ubuntu-latest
@@ -302,7 +224,7 @@ jobs:
   merge-and-commit:
     name: Merge Extended Data and Commit
     runs-on: ubuntu-latest
-    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-product-hunt, sync-linkedin-headcount, sync-trademarks, sync-factory-watch, sync-exec-moves, sync-darpa-programs, sync-scout-headhunter]
+    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-factory-watch, sync-exec-moves, sync-darpa-programs, sync-scout-headhunter]
     if: always()
     steps:
       - name: Checkout repository
@@ -331,30 +253,6 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: github-releases-data
-          path: data/
-          merge-multiple: true
-        continue-on-error: true
-
-      - name: Download Product Hunt data
-        uses: actions/download-artifact@v4
-        with:
-          name: product-hunt-data
-          path: data/
-          merge-multiple: true
-        continue-on-error: true
-
-      - name: Download LinkedIn headcount data
-        uses: actions/download-artifact@v4
-        with:
-          name: linkedin-headcount-data
-          path: data/
-          merge-multiple: true
-        continue-on-error: true
-
-      - name: Download Trademarks data
-        uses: actions/download-artifact@v4
-        with:
-          name: trademarks-data
           path: data/
           merge-multiple: true
         continue-on-error: true
@@ -456,7 +354,7 @@ jobs:
   data-health-summary:
     name: Data Health Summary
     runs-on: ubuntu-latest
-    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-product-hunt, sync-darpa-programs, sync-scout-headhunter, merge-and-commit]
+    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-darpa-programs, sync-scout-headhunter, merge-and-commit]
     if: always()
     steps:
       - uses: actions/checkout@v4
@@ -471,7 +369,6 @@ jobs:
             "insider_trading": "${{ needs.sync-insider-trading.result }}",
             "fda_approvals":   "${{ needs.sync-fda-approvals.result }}",
             "github_releases": "${{ needs.sync-github-releases.result }}",
-            "product_hunt":    "${{ needs.sync-product-hunt.result }}",
             "darpa_programs":  "${{ needs.sync-darpa-programs.result }}",
             "discovery_queue": "${{ needs.sync-scout-headhunter.result }}",
             "merge_commit":    "${{ needs.merge-and-commit.result }}",

@@ -6,7 +6,7 @@
     <!-- ─── Open Graph / Twitter / Canonical (auto-managed) ─── -->
     <link rel="canonical" href="https://innovatorsleague.com/signals.html">
     <meta property="og:title" content="Proprietary Signals · The Innovators League">
-    <meta property="og:description" content="Eight signals nobody else tracks — Form D filings, USPTO trademarks, export controls, SBIR awards, factory satellite imagery, and more.">
+    <meta property="og:description" content="Seven signals nobody else tracks — Form D filings, export controls, SBIR awards, factory satellite imagery, and more.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://innovatorsleague.com/signals.html">
     <meta property="og:site_name" content="The Innovators League">
@@ -15,14 +15,14 @@
     <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Proprietary Signals · The Innovators League">
-    <meta name="twitter:description" content="Eight signals nobody else tracks — Form D filings, USPTO trademarks, export controls, SBIR awards, factory satellite imagery, and more.">
+    <meta name="twitter:description" content="Seven signals nobody else tracks — Form D filings, export controls, SBIR awards, factory satellite imagery, and more.">
     <meta name="twitter:image" content="https://innovatorsleague.com/og-default.png">
     <meta name="twitter:site" content="@rationalopt">
     <meta name="twitter:creator" content="@stephenmcb">
     <!-- ─── /Open Graph / Twitter / Canonical ─── -->
 
     <title>Proprietary Signals · The Innovators League</title>
-    <meta name="description" content="Five unique frontier-tech intelligence feeds: Form D filings, Export Controls Watch, USPTO Trademarks, SBIR bid-fit, and Factory Watch satellite monitoring.">
+    <meta name="description" content="Four unique frontier-tech intelligence feeds: Form D filings, Export Controls Watch, SBIR bid-fit, and Factory Watch satellite monitoring.">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -270,7 +270,6 @@
       }
       .fw-link:hover { text-decoration: underline; }
 
-      /* Trademarks placeholder */
       .tm-placeholder {
         padding: 28px 24px;
         text-align: center;
@@ -377,12 +376,11 @@
       <div class="signals-hero-content">
         <p class="hero-eyebrow" style="font-size:11px; letter-spacing:2px; color:#FF8C5C; text-transform:uppercase; margin-bottom:12px;">PROPRIETARY INTELLIGENCE · AUTHORITATIVE SOURCES ONLY</p>
         <h1>Eight signals nobody else tracks.</h1>
-        <p>Leading-indicator intelligence pulled daily from SEC EDGAR, US Commerce/Treasury/State sanctions, USPTO trademarks, DoD SBIR solicitations, ESA Copernicus satellite imagery, the Internet Archive Wayback Machine, corporate keynote captions, and US Customs bill-of-lading filings. Every row links to the primary source — no aggregation middlemen, no AI-summarized slop.</p>
+        <p>Leading-indicator intelligence pulled daily from SEC EDGAR, US Commerce/Treasury/State sanctions, DoD SBIR solicitations, ESA Copernicus satellite imagery, the Internet Archive Wayback Machine, corporate keynote captions, and US Customs bill-of-lading filings. Every row links to the primary source — no aggregation middlemen, no AI-summarized slop.</p>
         <div class="signals-badges">
           <span class="signals-badge">Form D Filings</span>
           <span class="signals-badge">Export Controls</span>
-          <span class="signals-badge">USPTO Trademarks</span>
-          <span class="signals-badge">SBIR Bid-Fit</span>
+                    <span class="signals-badge">SBIR Bid-Fit</span>
           <span class="signals-badge">Factory Watch</span>
           <span class="signals-badge">Website Changes</span>
           <span class="signals-badge">Corporate Mentions</span>
@@ -430,23 +428,7 @@
         <div id="ec-body"><p style="color:rgba(255,255,255,0.5); font-size:13px;">Loading Export Controls Watch…</p></div>
       </section>
 
-      <!-- ════════════════════════════════════════════════════════ -->
-      <!-- SECTION 3: USPTO Trademarks                               -->
-      <!-- ════════════════════════════════════════════════════════ -->
-      <section class="signal-section" id="trademarks">
-        <div class="signal-head">
-          <div>
-            <h2 class="signal-title">™️ USPTO Trademark Filings</h2>
-            <p class="signal-subtitle">Trademarks leak new product names 6-12 months before reveal events. "Anduril files LATTICE AEGIS" → new product coming. We scan the IL30 + priority 100 weekly.</p>
-          </div>
-          <div class="signal-meta">
-            <span class="sig-count" id="tm-count">—</span>
-            <span>filings, last 365d</span>
-            <span>Source: USPTO</span>
-          </div>
-        </div>
-        <div id="tm-body"><p style="color:rgba(255,255,255,0.5); font-size:13px;">Loading trademarks…</p></div>
-      </section>
+      
 
       <!-- ════════════════════════════════════════════════════════ -->
       <!-- SECTION 4: SBIR Bid-Fit                                   -->
@@ -551,28 +533,12 @@
     <script src="auth.js?v=20260501"></script>
     <script src="data/form_d_filings_auto.js?v=20260501"></script>
     <script src="data/export_controls_auto.js?v=20260501"></script>
-    <script src="data/trademarks_auto.js?v=20260501"></script>
     <script src="data/sbir_topics_auto.js?v=20260501"></script>
     <script src="data/factory_watch_auto.js?v=20260501"></script>
     <script src="data/website_changes_auto.js?v=20260501"></script>
     <script src="data/youtube_mentions_auto.js?v=20260501"></script>
     <script src="data/bill_of_lading_auto.js?v=20260501"></script>
     <script src="signals.js?v=20260501"></script>
-    <script>
-    // Members should never see internal setup instructions. If the trademark
-    // feed is still awaiting its API key, signals.js renders a "set
-    // USPTO_API_KEY in GitHub Actions secrets" placeholder — swap it for a
-    // graceful coming-soon note. (Runs after signals.js's DOMContentLoaded
-    // boot because listeners fire in registration order.)
-    document.addEventListener('DOMContentLoaded', function () {
-      var tmBody = document.getElementById('tm-body');
-      if (!tmBody) return;
-      var placeholder = tmBody.querySelector('.tm-placeholder');
-      if (placeholder && /API key/i.test(placeholder.textContent || '')) {
-        tmBody.innerHTML = '<div class="tm-placeholder">Trademark signal coming soon — the USPTO feed is being connected. Check back shortly.</div>';
-      }
-    });
-    </script>
     <script src="cookie-consent.js?v=20260501"></script>
 </body>
 </html>

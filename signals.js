@@ -132,51 +132,6 @@
     }).join('');
   }
 
-  // ── SECTION 3: Trademarks ─────────────────────────────────────────────────
-
-  function renderTrademarks() {
-    const body = document.getElementById('tm-body');
-    const count = document.getElementById('tm-count');
-    if (!body) return;
-    const data = (typeof TRADEMARK_FILINGS !== 'undefined') ? TRADEMARK_FILINGS : null;
-    if (!data) {
-      body.innerHTML = '<div class="tm-placeholder">Trademark data not loaded.</div>';
-      return;
-    }
-    if (data.status === 'awaiting_uspto_api_key' || data.total_hits === 0) {
-      body.innerHTML = `
-        <div class="tm-placeholder">
-          <strong>Pipeline wired, awaiting API key</strong>
-          Get a free USPTO Trademark API key at <a href="https://developer.uspto.gov/api-catalog" target="_blank" style="color:#a78bfa;">developer.uspto.gov/api-catalog</a>
-          and set <code>USPTO_API_KEY</code> in your GitHub Actions secrets. On the next weekly sync, this section populates automatically — no deploy.
-        </div>
-      `;
-      if (count) count.textContent = '—';
-      return;
-    }
-    if (count) count.textContent = data.total_hits || 0;
-
-    const trademarks = data.trademarks || [];
-    body.innerHTML = `
-      <div class="filing-grid">
-      ${trademarks.map(t => `
-        <a class="filing-card" href="${esc(t.source_url)}" target="_blank" rel="noopener">
-          <div class="filing-row-top">
-            <span class="filing-co">${t.mark ? esc(t.mark) : esc(t.company)}</span>
-            <span class="filing-amt" style="color:#a78bfa; font-size:12px;">${esc(t.company)}</span>
-          </div>
-          <div class="filing-meta-row">
-            ${t.filing_date ? `<span class="filing-pill">${esc(t.filing_date)} · ${daysAgo(t.filing_date)}</span>` : ''}
-            ${(t.nice_class_labels || []).slice(0, 2).map(l =>
-              `<span class="filing-pill">${esc(l)}</span>`).join('')}
-            ${t.status ? `<span class="filing-pill">${esc(t.status)}</span>` : ''}
-          </div>
-        </a>
-      `).join('')}
-      </div>
-    `;
-  }
-
   // ── SECTION 4: SBIR Bid-Fit ───────────────────────────────────────────────
 
   function renderSbirBidFit() {
@@ -437,7 +392,6 @@
   function boot() {
     try { renderFormD(); } catch (e) { console.error('[signals] Form D failed:', e); }
     try { renderExportControls(); } catch (e) { console.error('[signals] Export Controls failed:', e); }
-    try { renderTrademarks(); } catch (e) { console.error('[signals] Trademarks failed:', e); }
     try { renderSbirBidFit(); } catch (e) { console.error('[signals] SBIR failed:', e); }
     try { renderFactoryWatch(); } catch (e) { console.error('[signals] Factory Watch failed:', e); }
     try { renderWebsiteChanges(); } catch (e) { console.error('[signals] Website Changes failed:', e); }

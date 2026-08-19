@@ -912,14 +912,17 @@ function tr_renderEarningsSignals(industry) {
 function tr_renderTalentFlow(industry) {
   const el = document.getElementById('tr-talent-body');
   if (!el) return;
-  // We don't have verified migration data yet — render a clean pipeline placeholder.
-  el.innerHTML = `
-    <div class="tr-talent-placeholder">
-      <p><strong>Talent migration flow tracking is live in the data pipeline.</strong></p>
-      <p>This section will quantify engineer migration from legacy primes to frontier challengers using LinkedIn work-history data (<code>data/linkedin_headcount_auto.json</code>) and SEC Form 3/4 executive filings (<code>data/exec_moves_auto.json</code>).</p>
-      <p>To avoid fabricated numbers, we are publishing the aggregated flow only after we cross-verify each migration count against a second source. First cut ships with the next release.</p>
-    </div>
-  `;
+  // Hidden rather than filled with a promise.
+  //
+  // This used to render a panel saying talent-migration tracking was "live in
+  // the data pipeline" and would ship "with the next release", citing
+  // data/linkedin_headcount_auto.json. That feed stopped producing on
+  // 2026-04-15 and has now been removed, so the promise had no path to being
+  // kept. An empty section is honest; a section that says data is coming when
+  // nothing is building it is not.
+  const section = el.closest('section') || el.parentElement;
+  if (section) section.style.display = 'none';
+  el.innerHTML = '';
 }
 
 function tr_renderRegulatory(industry) {
