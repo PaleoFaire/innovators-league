@@ -1,14 +1,23 @@
 name: The Action Brief
 
-# Runs after the overnight fetchers have landed, so the digest reads fresh
-# feeds rather than yesterday's. Daily Data Sync starts at 06:00 UTC and the
-# hourly news sync runs continuously; 08:30 gives them room to finish and
-# commit. Stephen reads this at 06:00 Gulf time, which is 02:00 UTC — so the
-# digest he opens is the one built the previous morning, which is correct:
-# it covers a full 24 hours rather than a half-finished one.
+# TIMING IS THE WHOLE POINT.
+#
+# This feeds the morning dossier, which ingests from stephenmcbride92@gmail.com
+# and goes out to stephen@rationaloptimistsociety.com at 06:00 Gulf time —
+# 02:00 UTC. The brief therefore has to be BUILT AND EMAILED BEFORE THEN.
+#
+# It used to run at 08:30 UTC, which is 12:30 in Abu Dhabi: six and a half
+# hours after the dossier had already gone out. Every brief would have been a
+# day stale, every day, and the failure would have been invisible — the emails
+# arrive, they just arrive too late to be read.
+#
+# 00:30 UTC = 04:30 Gulf, leaving ~90 minutes for the build, the email and the
+# dossier's own ingestion before it sends. The feeds it reads are written by
+# the overnight and hourly syncs, so a pre-dawn build has yesterday's full day
+# in it, which is what a morning briefing should cover.
 on:
   schedule:
-    - cron: '30 8 * * *'
+    - cron: '30 0 * * *'
   workflow_dispatch:
     inputs:
       since:

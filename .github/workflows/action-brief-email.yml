@@ -1,8 +1,22 @@
 name: Email the Action Brief
 
-# The morning dossier ingests from stephenmcbride92@gmail.com, so the brief has
-# to arrive as email rather than sit in the repo. This runs after the brief is
-# built and sends it to that inbox.
+# THE ROUTE
+#
+#   this workflow  ──email──▶  stephenmcbride92@gmail.com
+#                                       │
+#                              morning dossier ingests the inbox
+#                                       │
+#                                       ▼
+#                    stephen@rationaloptimistsociety.com, 06:00 Gulf
+#
+# The brief is NOT sent to Stephen directly. It is sent INTO the inbox the
+# dossier reads, so it arrives as a section of the dossier rather than as a
+# second thing to open. MAIL_TO is therefore the gmail address, deliberately —
+# pointing it at stephen@rationaloptimistsociety.com would bypass the dossier
+# and produce exactly the extra daily email this is meant to avoid.
+#
+# Timing is load-bearing: the dossier goes out at 02:00 UTC, the brief builds at
+# 00:30 UTC and mails immediately, leaving ~90 minutes for ingestion.
 #
 # ─── ONE-TIME SETUP (Stephen) ────────────────────────────────────────────
 # Add three repository secrets under Settings → Secrets and variables →
@@ -57,15 +71,16 @@ jobs:
           fi
           N=$(python3 -c "import json;print(json.load(open('data/action_brief.json'))['new'])" 2>/dev/null || echo 0)
           echo "count=$N" >> $GITHUB_OUTPUT
-          # A "nothing happened today" email every morning trains you to ignore
-          # the sender, which costs more than the missed day. Quiet days stay
-          # quiet; the brief is still committed to the repo either way.
-          if [ "$N" -gt 0 ]; then
-            echo "send=true" >> $GITHUB_OUTPUT
-          else
-            echo "send=false" >> $GITHUB_OUTPUT
-            echo "Nothing new today — not sending."
-          fi
+          echo "send=true" >> $GITHUB_OUTPUT
+          # ALWAYS send, including on a quiet day.
+          #
+          # For a human inbox the opposite is right — a daily "nothing happened"
+          # email trains you to ignore the sender. But this is not read by a
+          # human. It is ingested by the dossier, which then decides whether the
+          # section is worth rendering. A predictable daily arrival is what an
+          # ingestion pipeline needs: a missing email is indistinguishable from
+          # a broken one, and silence would hide a failure for days.
+          echo "Brief has $N new items — sending regardless."
 
       - name: Confirm the mail secrets exist
         id: creds
@@ -108,6 +123,14 @@ jobs:
                 <div style="margin-top:7px">{chips}</div>
               </td></tr>""")
 
+          if not rows:
+              # A quiet day still sends, so it needs to render as a deliberate
+              # "nothing cleared the bar" rather than an empty table that reads
+              # like a broken template.
+              rows = ['<tr><td style="padding:14px 0;font:400 15px/1.5 -apple-system,'
+                      'Segoe UI,sans-serif;color:#3D454E">Nothing cleared the bar '
+                      'overnight. The pipeline ran and found no new routable signals.</td></tr>']
+
           body = f"""<div style="max-width:640px;margin:0 auto;padding:24px;background:#FFFFFF">
             <div style="font:600 22px/1.2 Georgia,serif;color:#14181D">The Action Brief</div>
             <div style="font:400 13px/1.5 -apple-system,Segoe UI,sans-serif;color:#6B747E;margin:6px 0 18px">
@@ -135,9 +158,10 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           to: ${{ secrets.MAIL_TO }}
           from: Innovators League <${{ secrets.MAIL_USERNAME }}>
-          # Subject leads with the count so the dossier — and you — can triage
-          # from the subject line alone without opening it.
-          subject: "Action Brief: ${{ steps.check.outputs.count }} signals"
+          # Fixed "[IL Action Brief]" prefix so the dossier can filter for it
+          # deterministically rather than pattern-matching prose, and the count
+          # follows so it can be triaged from the subject line alone.
+          subject: "[IL Action Brief] ${{ steps.check.outputs.count }} signals"
           html_body: file://brief_email.html
           convert_markdown: false
           attachments: data/action_brief.md
