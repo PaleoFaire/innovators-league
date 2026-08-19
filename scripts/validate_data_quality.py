@@ -237,9 +237,25 @@ def main():
             errors.append(f"INNOVATORS_LEAGUE_30: '{n}' does not resolve to a COMPANIES record")
 
     # 10. FUNDING_TRACKER sanity
-    for m in re.finditer(r'(?:lastRoundAmount|amount):\s*"\$([\d.]+)B"', block(d, "FUNDING_TRACKER")):
-        if float(m.group(1)) >= 50:
-            errors.append(f"FUNDING_TRACKER: implausible round amount ${m.group(1)}B")
+    #
+    # The $50B ceiling was set to catch escaping bombs and never fired. On
+    # 2026-08-19 the tracker was publishing Durin at $12B (real: $12M) and
+    # Cognition at a "$40B Series A", because fetch_deals.py preferred the
+    # first BILLIONS figure anywhere in an article — usually the market size —
+    # over the actual round. 139 of 346 deals were denominated in billions.
+    #
+    # A private round in this database above $5B does not exist; between $2B
+    # and $5B it is rare enough to be worth a human look every time. Warn low,
+    # fail high, so the same silent drift cannot recur.
+    fund_blk = block(d, "FUNDING_TRACKER")
+    for m in re.finditer(r'(?:lastRoundAmount|amount):\s*"\$([\d.]+)B"', fund_blk):
+        amt = float(m.group(1))
+        if amt >= 5:
+            errors.append(f"FUNDING_TRACKER: implausible round amount ${amt}B "
+                          f"— check for a market size or valuation misparse")
+        elif amt >= 2:
+            warnings.append(f"FUNDING_TRACKER: unusually large round ${amt}B — verify it is "
+                            f"the round and not the valuation")
 
     print(f"data-quality gate: {len(errors)} errors, {len(warnings)} warnings "
           f"({len(objs)} companies, {size:,} bytes)")

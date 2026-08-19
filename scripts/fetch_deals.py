@@ -205,42 +205,111 @@ def fetch_rss(url, source_name):
         return []
 
 
-def parse_funding_amount(text):
-    """Extract dollar amounts from text like '$600M', '$2.5B', '$30 million'."""
-    # Match patterns like $600M, $2.5B, $30 million, $1.5 billion
-    patterns = [
-        r'\$(\d+(?:\.\d+)?)\s*[Bb](?:illion)?',  # $2.5B or $2.5 billion
-        r'\$(\d+(?:\.\d+)?)\s*[Mm](?:illion)?',   # $600M or $600 million
-        r'\$(\d+(?:,\d{3})+)',                      # $1,500,000
-    ]
+# Words that mean a nearby dollar figure is NOT the size of this round.
+# "targeting the $12 billion drilling market" is a TAM; "valued at $2.5B" is a
+# valuation; "a $40B defense budget" is an appropriation. Each of these used to
+# be recorded as money the company raised.
+_NOT_A_ROUND = re.compile(
+    r"\b(market|tam|industry|sector|opportunit|budget|appropriat|programme?|"
+    r"contract|backlog|revenue|sales|valuation|valued|post-money|pre-money|"
+    r"worth|cap|capitalization|deficit|economy|spending|forecast|projected|"
+    r"expected to reach|by 20\d\d)\b", re.I)
 
-    for pattern in patterns:
-        match = re.search(pattern, text)
-        if match:
-            num = float(match.group(1).replace(',', ''))
-            if 'b' in text[match.start():match.end()].lower():
-                return f"${num}B" if num != int(num) else f"${int(num)}B"
-            elif 'm' in text[match.start():match.end()].lower():
-                return f"${int(num)}M" if num == int(num) else f"${num}M"
-            else:
-                if num >= 1e9:
-                    return f"${num/1e9:.1f}B"
-                elif num >= 1e6:
-                    return f"${int(num/1e6)}M"
-    return None
+# Words immediately around a figure that mean it IS the round.
+_IS_A_ROUND = re.compile(
+    r"\b(rais(?:e|es|ed|ing)|secur(?:e|es|ed|ing)|clos(?:e|es|ed|ing)|"
+    r"land(?:s|ed)?|bag(?:s|ged)?|nab(?:s|bed)?|round|financing|investment|"
+    r"funding|led by|oversubscribed|commitment)\b", re.I)
+
+
+def parse_funding_amount(text):
+    """Extract the size of THIS round from an article.
+
+    The old version tried the billions pattern first across the whole string
+    and returned the first hit. So "Durin raises $12 million to automate
+    drilling, targeting the $12 billion drilling market" returned $12B — the
+    market size, not the round — and Durin appeared on the site having raised
+    twelve billion dollars. 139 of 346 deals in the feed were denominated in
+    billions because of this, including "Cognition $40B Series A" and
+    "Amca $510B IPO".
+
+    Now every candidate figure is scored on the words around it: a figure
+    sitting next to "raises" or "led by" is the round; one sitting next to
+    "market", "valuation" or "budget" is disqualified outright. Ties break
+    toward the EARLIEST qualifying figure, because the round is what a funding
+    story leads with. Nothing is returned when no figure qualifies — a missing
+    amount is recoverable, a fabricated one is not.
+    """
+    if not text:
+        return None
+
+    candidates = []
+    for m in re.finditer(
+            r'\$\s?(\d+(?:[.,]\d+)?)\s*(billion|million|bn|mm|[BbMm])\b'
+            r'|\$\s?(\d{1,3}(?:,\d{3}){2,})\b', text):
+        if m.group(1):
+            num = float(m.group(1).replace(',', ''))
+            unit = m.group(2).lower()
+            millions = num * (1000 if unit in ("billion", "bn", "b") else 1)
+        else:
+            millions = float(m.group(3).replace(',', '')) / 1e6
+
+        # Disqualifiers bind TIGHTLY — a market size is named right next to its
+        # figure ("$12 billion drilling market"). A wide window here would let
+        # the market at the end of the sentence veto the round at the start,
+        # which is the same sentence-level confusion in the other direction.
+        near = text[max(0, m.start() - 45): m.end() + 32]
+        if _NOT_A_ROUND.search(near):
+            continue
+        # Qualifiers may sit further off — "raises" can lead a sentence that
+        # names the figure several clauses later.
+        wide = text[max(0, m.start() - 120): m.end() + 90]
+        if not _IS_A_ROUND.search(wide):
+            continue
+        candidates.append((m.start(), millions))
+
+    if not candidates:
+        return None
+    _, millions = min(candidates, key=lambda c: c[0])
+
+    # A private round above $15B does not exist outside OpenAI/Anthropic scale,
+    # and those are already tracked by hand. Treat it as a misparse we failed
+    # to catch rather than a discovery.
+    if millions > 15000 or millions <= 0:
+        return None
+    if millions >= 1000:
+        b = millions / 1000
+        return f"${b:.1f}B" if b != int(b) else f"${int(b)}B"
+    return f"${int(millions)}M" if millions == int(millions) else f"${millions}M"
 
 
 def parse_round_type(text):
-    """Extract funding round type."""
-    text_lower = text.lower()
+    """Extract funding round type.
+
+    The old patterns produced 61 rows claiming Series E through Series N for
+    seed-stage companies. Two causes, both plain regex slips:
+
+      "closed a series of funding rounds"  ->  Series O   ("series o|f")
+      "in a round led by NEA"              ->  Series A   (any single letter
+                                                           before "round")
+
+    So the letter now has to stand alone as a word, be a plausible round
+    letter, and not be the "of" in "a series of". Real seed-to-growth ladders
+    run A-J; anything past J in a private frontier company is a misparse, not
+    a discovery.
+    """
+    text_lower = (text or "").lower()
     patterns = [
-        (r'series\s+([a-z](?:-\d)?)', lambda m: f"Series {m.group(1).upper()}"),
-        (r'seed\s+(?:round|funding)', lambda m: "Seed"),
-        (r'pre-seed', lambda m: "Pre-Seed"),
-        (r'(?:series\s+)?([a-z])\s+(?:round|extension)', lambda m: f"Series {m.group(1).upper()}"),
-        (r'ipo', lambda m: "IPO"),
-        (r'spac', lambda m: "SPAC"),
-        (r'debt\s+(?:round|financing)', lambda m: "Debt"),
+        (r'\bpre-seed\b', lambda m: "Pre-Seed"),
+        (r'\bseed\s+(?:round|funding|financing)\b', lambda m: "Seed"),
+        # A standalone letter A-J, optionally "Series B-2". "series of" cannot
+        # match because "of" is two letters and \b forbids a partial word.
+        (r'\bseries\s+([a-j])(?:-(\d))?\b',
+         lambda m: f"Series {m.group(1).upper()}" + (f"-{m.group(2)}" if m.group(2) else "")),
+        (r'\bipo\b', lambda m: "IPO"),
+        (r'\bspac\b', lambda m: "SPAC"),
+        (r'\bdebt\s+(?:round|financing|facility)\b', lambda m: "Debt"),
+        (r'\bgrant\b', lambda m: "Grant"),
     ]
 
     for pattern, formatter in patterns:
@@ -248,7 +317,7 @@ def parse_round_type(text):
         if match:
             return formatter(match)
 
-    if 'funding' in text_lower or 'raise' in text_lower:
+    if any(w in text_lower for w in ('funding', 'raise', 'round', 'investment')):
         return "Funding Round"
     return None
 
@@ -263,11 +332,19 @@ def match_company(text):
 
 
 def match_investors(text):
-    """Try to extract investor names from text."""
-    text_lower = text.lower()
+    """Try to extract investor names from text.
+
+    This used to be a naked substring test, so every short firm alias matched
+    inside ordinary words: "nearly" and "beneath" both contain "nea", and
+    "linear accelerator" contains both "nea" and "accel". NEA was consequently
+    attached to a large share of the deal feed, including deals it had nothing
+    to do with. Aliases now have to match on word boundaries.
+    """
+    text_lower = (text or "").lower()
     found = []
     for alias, canonical in INVESTOR_ALIASES.items():
-        if alias in text_lower:
+        if re.search(rf"(?<![a-z0-9]){re.escape(alias.lower())}(?![a-z0-9])",
+                     text_lower):
             if canonical not in found:
                 found.append(canonical)
     return found

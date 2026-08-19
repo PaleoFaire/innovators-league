@@ -1,77 +1,5 @@
 [
   {
-    "sector": "Space & Aerospace",
-    "momentum": 64,
-    "trend": "accelerating",
-    "catalysts": [
-      "Rocket Lab to test Space Force data network connection in or",
-      "Against all odds, SpaceX finally tugs Starship into port aft",
-      "Your Car Could Start Paying You. SpaceX, Tesla, Grok Bot, Ma"
-    ],
-    "fundingQ": "$264.3B",
-    "components": {
-      "funding": 100,
-      "news": 60,
-      "hiring": 0,
-      "market": 71
-    },
-    "lastUpdated": "2026-08-19"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 55,
-    "trend": "accelerating",
-    "catalysts": [
-      "OpenAI Overhauls Safety Protocols After Its AI Agents Went R",
-      "OpenAI institutes new safeguards after Hugging Face breach",
-      "Etched&#8217;s valuation doubles to $21B in a month"
-    ],
-    "fundingQ": "$346.8B",
-    "components": {
-      "funding": 100,
-      "news": 40,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-19"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 54,
-    "trend": "steady",
-    "catalysts": [
-      "Unichem acquires Loomia to accelerate entry into the humanoi",
-      "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, a",
-      "Waymo wins California approval to expand robotaxis across 18"
-    ],
-    "fundingQ": "$27.0B",
-    "components": {
-      "funding": 100,
-      "news": 35,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-19"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 45,
-    "trend": "steady",
-    "catalysts": [
-      "German drone maker Helsing enlists Rakuten to broker Japan m",
-      "Neros Technologies raises $250M to deploy its defense drones",
-      "Pentagon hands Palantir up to $244M in no-bid work"
-    ],
-    "fundingQ": "$11.3B",
-    "components": {
-      "funding": 100,
-      "news": 15,
-      "hiring": 0,
-      "market": 31
-    },
-    "lastUpdated": "2026-08-19"
-  },
-  {
     "sector": "Supersonic & Hypersonic",
     "momentum": 41,
     "trend": "rising",
@@ -88,70 +16,38 @@
     "lastUpdated": "2026-08-19"
   },
   {
-    "sector": "Nuclear Energy",
-    "momentum": 39,
+    "sector": "Space & Aerospace",
+    "momentum": 40,
     "trend": "steady",
     "catalysts": [
-      "Does Latent Nuclear Deterrence Really Work?",
-      "Nuclear startup Oklo splits its first atoms in test reactor",
-      "Microreactor startup Valar Atomics raises $1B"
+      "Rocket Lab to test Space Force data network connection in or",
+      "Against all odds, SpaceX finally tugs Starship into port aft",
+      "Your Car Could Start Paying You. SpaceX, Tesla, Grok Bot, Ma"
     ],
-    "fundingQ": "$10.0B",
+    "fundingQ": "$641M",
     "components": {
-      "funding": 100,
-      "news": 15,
+      "funding": 30,
+      "news": 60,
       "hiring": 0,
-      "market": 0
+      "market": 71
     },
     "lastUpdated": "2026-08-19"
   },
   {
-    "sector": "Biotech & Health",
-    "momentum": 39,
-    "trend": "steady",
+    "sector": "AI & Software",
+    "momentum": 30,
+    "trend": "rising",
     "catalysts": [
-      "Daniel Ek&#8217;s body-scanning startup Neko Health\u00a0opens fi",
-      "Saildrone expands European footprint with production plans i",
-      "<a href=\"/biotech/kolon-tissuegene-shrinks-workforce-after-p"
-    ],
-    "fundingQ": "$22.0B",
-    "components": {
-      "funding": 100,
-      "news": 15,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-08-19"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 36,
-    "trend": "steady",
-    "catalysts": [
-      "Rivian&#8217;s 2027 R1S adds captain&#8217;s chairs, its mos"
-    ],
-    "fundingQ": "$20.0B",
-    "components": {
-      "funding": 100,
-      "news": 5,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-08-19"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 35,
-    "trend": "steady",
-    "catalysts": [
-      "Quaise Energy raises $134M to fuel superhot geothermal ambit"
+      "OpenAI Overhauls Safety Protocols After Its AI Agents Went R",
+      "OpenAI institutes new safeguards after Hugging Face breach",
+      "Etched&#8217;s valuation doubles to $21B in a month"
     ],
     "fundingQ": "$1.4B",
     "components": {
-      "funding": 96,
-      "news": 5,
+      "funding": 29,
+      "news": 40,
       "hiring": 0,
-      "market": 0
+      "market": 50
     },
     "lastUpdated": "2026-08-19"
   },
@@ -174,6 +70,24 @@
     "lastUpdated": "2026-08-19"
   },
   {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 19,
+    "trend": "declining",
+    "catalysts": [
+      "Unichem acquires Loomia to accelerate entry into the humanoi",
+      "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, a",
+      "Waymo wins California approval to expand robotaxis across 18"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 35,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-19"
+  },
+  {
     "sector": "Drones & Autonomous",
     "momentum": 16,
     "trend": "declining",
@@ -188,6 +102,24 @@
       "news": 25,
       "hiring": 0,
       "market": 50
+    },
+    "lastUpdated": "2026-08-19"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 13,
+    "trend": "declining",
+    "catalysts": [
+      "German drone maker Helsing enlists Rakuten to broker Japan m",
+      "Neros Technologies raises $250M to deploy its defense drones",
+      "Pentagon hands Palantir up to $244M in no-bid work"
+    ],
+    "fundingQ": "$300M",
+    "components": {
+      "funding": 10,
+      "news": 15,
+      "hiring": 0,
+      "market": 31
     },
     "lastUpdated": "2026-08-19"
   },
@@ -257,6 +189,24 @@
     "lastUpdated": "2026-08-19"
   },
   {
+    "sector": "Nuclear Energy",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Does Latent Nuclear Deterrence Really Work?",
+      "Nuclear startup Oklo splits its first atoms in test reactor",
+      "Microreactor startup Valar Atomics raises $1B"
+    ],
+    "fundingQ": "$157M",
+    "components": {
+      "funding": 19,
+      "news": 15,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-08-19"
+  },
+  {
     "sector": "Quantum Computing",
     "momentum": 7,
     "trend": "declining",
@@ -269,6 +219,56 @@
       "news": 0,
       "hiring": 0,
       "market": 37
+    },
+    "lastUpdated": "2026-08-19"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 5,
+    "trend": "declining",
+    "catalysts": [
+      "Quaise Energy raises $134M to fuel superhot geothermal ambit"
+    ],
+    "fundingQ": "$134M",
+    "components": {
+      "funding": 11,
+      "news": 5,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-08-19"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 4,
+    "trend": "declining",
+    "catalysts": [
+      "Daniel Ek&#8217;s body-scanning startup Neko Health\u00a0opens fi",
+      "Saildrone expands European footprint with production plans i",
+      "<a href=\"/biotech/kolon-tissuegene-shrinks-workforce-after-p"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-08-19"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 1,
+    "trend": "declining",
+    "catalysts": [
+      "Rivian&#8217;s 2027 R1S adds captain&#8217;s chairs, its mos"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 0
     },
     "lastUpdated": "2026-08-19"
   }
