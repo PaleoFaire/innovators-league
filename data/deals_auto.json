@@ -1458,6 +1458,24 @@
     "leadOrParticipant": "lead"
   },
   {
+    "company": "Skild AI",
+    "investor": "Lightspeed",
+    "amount": "$1.4B",
+    "round": "Series C",
+    "date": "2026-01",
+    "valuation": "$14B+",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Skild AI",
+    "investor": "a16z",
+    "amount": "$1.4B",
+    "round": "Series C",
+    "date": "2026-01",
+    "valuation": "$14B+",
+    "leadOrParticipant": "participant"
+  },
+  {
     "company": "Saronic",
     "investor": "a16z",
     "amount": "$600M+",
@@ -1485,6 +1503,33 @@
     "leadOrParticipant": "participant"
   },
   {
+    "company": "Anduril Industries",
+    "investor": "Founders Fund",
+    "amount": "$2.5B",
+    "round": "Series G",
+    "date": "2025-12",
+    "valuation": "$30.5B",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Anduril Industries",
+    "investor": "a16z",
+    "amount": "$2.5B",
+    "round": "Series G",
+    "date": "2025-12",
+    "valuation": "$30.5B",
+    "leadOrParticipant": "participant"
+  },
+  {
+    "company": "Figure AI",
+    "investor": "Microsoft",
+    "amount": "$1B+",
+    "round": "Series C",
+    "date": "2025-12",
+    "valuation": "$39B",
+    "leadOrParticipant": "lead"
+  },
+  {
     "company": "Physical Intelligence",
     "investor": "Bezos Expeditions",
     "amount": "$600M",
@@ -1510,6 +1555,15 @@
     "date": "2025-11",
     "valuation": "$5.6B",
     "leadOrParticipant": "participant"
+  },
+  {
+    "company": "Crusoe Energy",
+    "investor": "Valor Equity",
+    "amount": "$1.375B",
+    "round": "Series E",
+    "date": "2025-10",
+    "valuation": "$10B+",
+    "leadOrParticipant": "lead"
   },
   {
     "company": "Shield AI",

@@ -1,118 +1,13 @@
 {
-  "purged_at": "2026-08-19T08:10:12.659552+00:00",
-  "reason": "fetch_deals.py amount/round/investor parser defects, fixed same day",
-  "removed": 11,
-  "kept": 187,
-  "rows": [
+  "note": "every purge pass, appended. Nothing here is ever overwritten.",
+  "total_removed": 0,
+  "passes": [
     {
-      "company": "Venus Aerospace",
-      "investor": "Undisclosed",
-      "amount": "$91M",
-      "round": "SPAC",
-      "date": "2026-07",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
-    },
-    {
-      "company": "Impulse Space",
-      "investor": "Undisclosed",
-      "amount": "$500M",
-      "round": "SPAC",
-      "date": "2026-06",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
-    },
-    {
-      "company": "Skyrora",
-      "investor": "Undisclosed",
-      "amount": "$312M",
-      "round": "SPAC",
-      "date": "2026-06",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
-    },
-    {
-      "company": "Endurance Energy",
-      "investor": "Undisclosed",
-      "amount": "$54M",
-      "round": "SPAC",
-      "date": "2026-06",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
-    },
-    {
-      "company": "True Anomaly",
-      "investor": "Undisclosed",
-      "amount": "$90M",
-      "round": "SPAC",
-      "date": "2026-05",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
-    },
-    {
-      "company": "Orbital Composites",
-      "investor": "Undisclosed",
-      "amount": "$2.4M",
-      "round": "SPAC",
-      "date": "2026-04",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
-    },
-    {
-      "company": "X-Energy",
-      "investor": "Undisclosed",
-      "amount": "$800M",
-      "round": "IPO",
-      "date": "2026-04",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "round 'IPO' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
-    },
-    {
-      "company": "Anduril Industries",
-      "investor": "Undisclosed",
-      "amount": "$700M",
-      "round": "SPAC",
-      "date": "2026-04",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
-    },
-    {
-      "company": "PLD Space",
-      "investor": "Accel",
-      "amount": "$118M",
-      "round": "SPAC",
-      "date": "2026-03",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
-    },
-    {
-      "company": "Skyrora",
-      "investor": "NEA",
-      "amount": "$162M",
-      "round": "SPAC",
-      "date": "2026-03",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
-    },
-    {
-      "company": "Rebellions",
-      "investor": "Undisclosed",
-      "amount": "$10M",
-      "round": "SPAC",
-      "date": "2026-02",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
+      "purged_at": "2026-08-19T08:14:42.272621+00:00",
+      "reason": "fetch_deals.py amount/round/investor parser defects, fixed same day",
+      "removed": 0,
+      "kept": 193,
+      "rows": []
     }
   ]
 }

@@ -104,7 +104,30 @@ def company_status() -> dict:
 STATUS = company_status()
 
 
+def corroborated(row: dict) -> bool:
+    """Two independent fields agreeing that this is a real round.
+
+    A named lead investor AND a stated valuation is the signature the
+    misparses never have: a figure lifted out of "the $12 billion drilling
+    market" arrives with investor "Undisclosed" and valuation "". Of the 159
+    rows the first pass removed, exactly 6 cleared this bar, and they included
+    Anduril's genuine $2.5B Series G at $30.5B led by Founders Fund, Figure
+    AI's $1B+ at $39B led by Microsoft, and Crusoe's $1.375B Series E at $10B+
+    led by Valor Equity — all real rounds that a flat size threshold could not
+    tell apart from the fabrications.
+    """
+    inv = (row.get("investor") or "").strip()
+    val = (row.get("valuation") or "").strip()
+    return bool(inv) and inv.lower() != "undisclosed" and bool(val)
+
+
 def reason_to_drop(row: dict) -> str | None:
+    # A round corroborated on two independent fields survives every
+    # size-based rule below. Only the contradiction rules (an IPO/SPAC on a
+    # company we record as private) still apply, because those are our own
+    # data disagreeing with itself rather than a judgement about plausibility.
+    corr = corroborated(row)
+
     # An IPO or SPAC round on a company we record as private is not a round we
     # missed — it is the old parse_round_type matching bare "spac" with no word
     # boundary, so every article about a SPACE company matched SPAC. That is
@@ -119,11 +142,12 @@ def reason_to_drop(row: dict) -> str | None:
                     f"'spac' matched inside 'space'")
 
     amt = to_millions(row.get("amount", ""))
-    if amt >= MAX_PLAUSIBLE_M:
-        return f"amount {row.get('amount')} >= $2B — misparsed market size or valuation"
-    if amt >= VALUATION_BAND_M:
-        return (f"amount {row.get('amount')} in the $900M-$2B valuation band — "
-                f"the parser could not tell a round from a valuation")
+    if not corr:
+        if amt >= MAX_PLAUSIBLE_M:
+            return f"amount {row.get('amount')} >= $2B — misparsed market size or valuation"
+        if amt >= VALUATION_BAND_M:
+            return (f"amount {row.get('amount')} in the $900M-$2B valuation band — "
+                    f"the parser could not tell a round from a valuation")
     rnd = (row.get("round") or "").strip()
     m = re.match(r"^Series ([A-Z])", rnd)
     if m and m.group(1) >= "K":
@@ -165,10 +189,26 @@ def main() -> int:
         print("\nDRY RUN — nothing written")
         return 0
 
-    LOG.write_text(json.dumps({
+    # APPEND, never overwrite. The first version rewrote this file on every
+    # run, so a second pass erased the record of the first — 148 removals
+    # became a log of 11, and recovering what had been dropped meant digging
+    # the pre-purge file out of git. The log is the only audit trail a purge
+    # has; losing it defeats the point of writing one.
+    history = []
+    if LOG.exists():
+        try:
+            prev = json.loads(LOG.read_text())
+            history = prev.get("passes", [])
+        except Exception:
+            history = []
+    history.append({
         "purged_at": datetime.now(timezone.utc).isoformat(),
         "reason": "fetch_deals.py amount/round/investor parser defects, fixed same day",
-        "removed": len(drop), "kept": len(keep), "rows": drop}, indent=2))
+        "removed": len(drop), "kept": len(keep), "rows": drop})
+    LOG.write_text(json.dumps({
+        "note": "every purge pass, appended. Nothing here is ever overwritten.",
+        "total_removed": sum(p["removed"] for p in history),
+        "passes": history}, indent=2))
     DEALS.write_text(json.dumps(keep if isinstance(raw, list)
                                 else {**raw, "data": keep}, indent=2))
     print(f"\nwrote {DEALS.name} ({len(keep)} rows) and {LOG.name}")

@@ -1,5 +1,32 @@
 [
   {
+    "company": "Anduril Industries",
+    "totalRaised": "$2.5B+",
+    "totalRaisedRaw": 2500.0,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$2.5B",
+    "lastRoundDate": "2025-12",
+    "valuation": "$30.5B",
+    "leadInvestors": [
+      "Founders Fund"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Crusoe Energy",
+    "totalRaised": "$1.9B+",
+    "totalRaisedRaw": 1925.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$550M",
+    "lastRoundDate": "2026-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "Valor Equity"
+    ],
+    "roundCount": 2
+  },
+  {
     "company": "Rebellions",
     "totalRaised": "$1.5B+",
     "totalRaisedRaw": 1481.0,
@@ -15,6 +42,19 @@
     "roundCount": 4
   },
   {
+    "company": "Skild AI",
+    "totalRaised": "$1.4B+",
+    "totalRaisedRaw": 1400.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$1.4B",
+    "lastRoundDate": "2026-01",
+    "valuation": "$14B+",
+    "leadInvestors": [
+      "Lightspeed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Galvanick",
     "totalRaised": "$1.0B+",
     "totalRaisedRaw": 1045.0,
@@ -26,6 +66,19 @@
       "Undisclosed"
     ],
     "roundCount": 2
+  },
+  {
+    "company": "Figure AI",
+    "totalRaised": "$1.0B+",
+    "totalRaisedRaw": 1000.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$1B+",
+    "lastRoundDate": "2025-12",
+    "valuation": "$39B",
+    "leadInvestors": [
+      "Microsoft"
+    ],
+    "roundCount": 1
   },
   {
     "company": "Quantinuum",
@@ -173,19 +226,6 @@
       "Undisclosed"
     ],
     "roundCount": 2
-  },
-  {
-    "company": "Crusoe Energy",
-    "totalRaised": "$550M+",
-    "totalRaisedRaw": 550.0,
-    "lastRound": "Series C",
-    "lastRoundAmount": "$550M",
-    "lastRoundDate": "2026-07",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
   },
   {
     "company": "Epirus",
