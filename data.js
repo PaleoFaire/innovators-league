@@ -46611,19 +46611,19 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-19 16:39
+// Last updated: 2026-08-19 17:33
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "TerraPower", headline: "TerraPower's nuclear reactor has a secret weapon for powering AI data centers", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Rivian", headline: "Rivian spinout Also raises another $150 million", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 3, type: "hire", company: "SpaceX", headline: "Ex-Tesla president: Roadster delay is about getting closer to SpaceX ahead of merger", source: "Electrek", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "Firefly Aerospace", headline: "Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission", source: "SpaceNews", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Sage Geosystems", headline: "Sage Geosystems brings its first next-gen geothermal plant online", source: "Canary Media", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI clarifies 'acquisition' offer for Irish teen's startup idea was a joke", source: "Sifted", time: "5h ago", impact: "high", unread: false },
-  { id: 7, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab to test Space Force data network connection in orbit in 2027", source: "SpaceNews", time: "17h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea", source: "Ars Technica Space", time: "21h ago", impact: "low", unread: false },
+  { id: 1, type: "hire", company: "TerraPower", headline: "TerraPower's nuclear reactor has a secret weapon for powering AI data centers", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Rivian", headline: "Rivian spinout Also raises another $150M", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
+  { id: 3, type: "hire", company: "SpaceX", headline: "Ex-Tesla president: Roadster delay is about getting closer to SpaceX ahead of merger", source: "Electrek", time: "3h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Firefly Aerospace", headline: "Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission", source: "SpaceNews", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Sage Geosystems", headline: "Sage Geosystems brings its first next-gen geothermal plant online", source: "Canary Media", time: "6h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI clarifies 'acquisition' offer for Irish teen's startup idea was a joke", source: "Sifted", time: "6h ago", impact: "high", unread: false },
+  { id: 7, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab to test Space Force data network connection in orbit in 2027", source: "SpaceNews", time: "18h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea", source: "Ars Technica Space", time: "22h ago", impact: "low", unread: false },
   { id: 9, type: "news", company: "OpenAI", headline: "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue", source: "Wired", time: "22h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "OpenAI", headline: "OpenAI institutes new safeguards after Hugging Face breach", source: "TechCrunch", time: "22h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Etched", headline: "Etched's valuation doubles to $21B in a month", source: "TechCrunch", time: "23h ago", impact: "high", unread: false },
+  { id: 10, type: "news", company: "OpenAI", headline: "OpenAI institutes new safeguards after Hugging Face breach", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Etched", headline: "Etched's valuation doubles to $21B in a month", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
   { id: 12, type: "ipo", company: "SpaceX", headline: "Your Car Could Start Paying You. SpaceX, Tesla, Grok Bot, Macrohard, Digital Optimus, Cursor HUGE", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
   { id: 13, type: "news", company: "Humanoid", headline: "Unichem acquires Loomia to accelerate entry into the humanoid 'skin' market", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
   { id: 14, type: "hire", company: "Saildrone", headline: "Saildrone expands European footprint with production plans in 3 countries", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
