@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-08-19T06:57:35+00:00",
+  "generatedAt": "2026-08-19T07:47:01+00:00",
   "matrix": {
+    "nuclear-microreactor": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 59999682,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Antares",
+            "amount": 59999682,
+            "date": "2026-08-18",
+            "source": "formd",
+            "investors": [
+              "Shine Capital",
+              "Alt Capital",
+              "Caffeinated Capital",
+              "FiftyThree Stations",
+              "Industrious"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Radiant",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": [
+              "Draper Associates",
+              "Boost VC",
+              "DCVC",
+              "Founders Fund",
+              "Chevron Technology Ventures",
+              "ARK Venture Fund",
+              "Friends & Family Capital",
+              "Andreessen Horowitz",
+              "Union Square Ventures",
+              "Giant Ventures",
+              "StepStone"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund"
+        ]
+      }
+    },
+    "satellite-earth-observation": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 72999975,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Pixxel",
+            "amount": 72999975,
+            "date": "2026-08-18",
+            "source": "formd",
+            "investors": [
+              "Lightspeed India Partners",
+              "Blume Ventures",
+              "GrowX Ventures",
+              "Techstars",
+              "Omnivore VC",
+              "Radical Ventures",
+              "Seraphim Space Investment",
+              "Sparta LLC",
+              "Accenture",
+              "M&G Catalyst"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
     "logistics-supply-chain": {
       "2026-Q3": {
         "deals": 1,
@@ -305,37 +385,6 @@
           }
         ],
         "investors": []
-      }
-    },
-    "nuclear-microreactor": {
-      "2025-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Radiant",
-            "amount": null,
-            "date": "2025-06",
-            "source": "recentEvent",
-            "investors": [
-              "Draper Associates",
-              "Boost VC",
-              "DCVC",
-              "Founders Fund",
-              "Chevron Technology Ventures",
-              "ARK Venture Fund",
-              "Friends & Family Capital",
-              "Andreessen Horowitz",
-              "Union Square Ventures",
-              "Giant Ventures",
-              "StepStone"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund"
-        ]
       }
     },
     "nuclear-services-fuel": {
@@ -1851,9 +1900,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 55,
-    "totalUSDSold": 421778618,
-    "uniqueClusters": 35,
+    "totalDealsTracked": 57,
+    "totalUSDSold": 554778275,
+    "uniqueClusters": 36,
     "uniqueQuarters": 9,
     "uniqueVCs": 15,
     "quarterRange": [

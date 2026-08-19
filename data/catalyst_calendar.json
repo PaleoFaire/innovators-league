@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-19T06:56:49+00:00",
+  "generatedAt": "2026-08-19T07:46:25+00:00",
   "windowPastDays": 365,
   "windowFutureDays": 730,
   "todayUTC": "2026-08-19",
-  "totalEvents": 234,
+  "totalEvents": 236,
   "bySource": {
     "fda": 1,
     "trial": 91,
@@ -12,7 +12,7 @@
     "fcc": 12,
     "fedreg": 30,
     "doe": 12,
-    "formd": 4,
+    "formd": 6,
     "sbir": 10,
     "earnings": 24,
     "conf": 10
@@ -24,8 +24,8 @@
     "nrc": 34,
     "doe": 13,
     "fedreg": 20,
+    "formd": 6,
     "fda": 5,
-    "formd": 4,
     "sbir": 10,
     "fcc": 12,
     "earnings": 13
@@ -33,7 +33,7 @@
   "byImportance": {
     "high": 2,
     "medium": 4,
-    "low": 228
+    "low": 230
   },
   "events": [
     {
@@ -3943,6 +3943,85 @@
         "agencies": "Nuclear Regulatory Commission",
         "sectors": "defense, nuclear",
         "significant": false
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "7d6b7cfef7102b9d",
+      "date": "2026-08-18",
+      "type": "formd",
+      "title": "Antares \u2014 Form D: $59999682 sold",
+      "description": "Securities: Equity \u00b7 Exemption:  \u00b7 CIK: 1998786",
+      "companies": [
+        "Antares"
+      ],
+      "sector": "other",
+      "source": "SEC EDGAR Form D",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1998786/000199878626000005/primary_doc.xml",
+      "raw": {
+        "match_method": "cik",
+        "match_evidence": "filer CIK 1998786 == our recorded CIK",
+        "company": "Antares",
+        "issuer_name": "Antares Nuclear, Inc.",
+        "form": "D",
+        "filed_date": "2026-08-18",
+        "cik": "1998786",
+        "accession": "0001998786-26-000005",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1998786/000199878626000005/primary_doc.xml",
+        "offering_amount": "84999666",
+        "amount_sold": "59999682",
+        "amount_remaining": "24999984",
+        "securities_type": "Equity",
+        "related_persons": [
+          "Jordan Bramble",
+          "Julia DeWahl",
+          "Jack Altman",
+          "Alexander Hartz",
+          "Alana Palmedo"
+        ],
+        "is_safe": false,
+        "source": "edgar-daily-index"
+      },
+      "daysOut": -1,
+      "importance": "low"
+    },
+    {
+      "id": "9d3f2d4f53fb8dc6",
+      "date": "2026-08-18",
+      "type": "formd",
+      "title": "Pixxel \u2014 Form D: $72999975 sold",
+      "description": "Securities: Equity \u00b7 Exemption:  \u00b7 CIK: 1818777",
+      "companies": [
+        "Pixxel"
+      ],
+      "sector": "other",
+      "source": "SEC EDGAR Form D",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1818777/000181877726000004/primary_doc.xml",
+      "raw": {
+        "match_method": "cik",
+        "match_evidence": "filer CIK 1818777 == our recorded CIK",
+        "company": "Pixxel",
+        "issuer_name": "Pixxel Space Technologies, Inc.",
+        "form": "D",
+        "filed_date": "2026-08-18",
+        "cik": "1818777",
+        "accession": "0001818777-26-000004",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1818777/000181877726000004/primary_doc.xml",
+        "offering_amount": "125000000",
+        "amount_sold": "72999975",
+        "amount_remaining": "52000025",
+        "securities_type": "Equity",
+        "related_persons": [
+          "Awais Ahmed Nadeem Alduri",
+          "Kshitij Gokul Khandelwal",
+          "Eiji Yafuso",
+          "Ryan Johnson",
+          "Preston Dunlap",
+          "Gaurav Jain"
+        ],
+        "is_safe": false,
+        "source": "edgar-daily-index"
       },
       "daysOut": -1,
       "importance": "low"
