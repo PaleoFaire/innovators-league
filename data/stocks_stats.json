@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 0.06,
+      "avg_change": 2.43,
       "count": 1
     },
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -5.47,
+      "avg_change": -3.93,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -4.28,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -3.25,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -8.01,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.54,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -3.16,
+      "avg_change": -1.73,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.64,
+      "avg_change": -6.57,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 2.93,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 8.73,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -0.64,
+      "avg_change": 2.44,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.26,
+      "avg_change": -5.05,
       "count": 3
     }
   },
   "topGainers": [
     [
+      "TEM",
+      "Tempus AI",
+      11.6
+    ],
+    [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      9.12
+      9.83
+    ],
+    [
+      "LUNR",
+      "Intuitive Machines",
+      8.82
+    ],
+    [
+      "TSLA",
+      "Tesla",
+      6.43
     ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
       5.55
-    ],
-    [
-      "LUNR",
-      "Intuitive Machines",
-      5.13
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      5.04
-    ],
-    [
-      "TSLA",
-      "Tesla",
-      3.21
     ]
   ],
   "topLosers": [
     [
-      "ALAB",
-      "Astera Labs",
-      -9.93
-    ],
-    [
-      "OKLO",
-      "Oklo",
-      -9.99
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      -10.01
+      "RGTI",
+      "Rigetti Computing",
+      -8.06
     ],
     [
       "QS",
       "QuantumScape",
-      -11.13
+      -8.54
+    ],
+    [
+      "ALAB",
+      "Astera Labs",
+      -9.56
+    ],
+    [
+      "AUR",
+      "Aurora Innovation",
+      -9.97
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -13.38
+      -10.16
     ]
   ],
-  "lastUpdated": "2026-08-19 14:01:10"
+  "lastUpdated": "2026-08-19 19:44:11"
 }
