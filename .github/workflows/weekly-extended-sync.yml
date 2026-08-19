@@ -106,11 +106,6 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch Product Hunt launches
-        run: python scripts/fetch_product_hunt.py
-        env:
-          PRODUCTHUNT_API_TOKEN: ${{ secrets.PRODUCTHUNT_API_TOKEN }}
-
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -134,14 +129,6 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch LinkedIn company headcount
-        # Real LinkedIn employee counts + 90-day growth per tracked company.
-        # No-op (writes `awaiting_apify_key` placeholders) until APIFY_TOKEN
-        # is set in repo secrets.
-        run: python scripts/fetch_linkedin_headcount.py
-        env:
-          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -151,27 +138,6 @@ jobs:
 
   sync-trademarks:
     name: Sync USPTO Trademarks
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: '3.11' }
-      - run: pip install requests
-      - name: Fetch USPTO trademark filings
-        # Graceful no-op (writes placeholder) when USPTO_API_KEY is unset.
-        # Get free key at https://developer.uspto.gov/api-catalog
-        run: python scripts/fetch_trademarks.py
-        env:
-          USPTO_API_KEY: ${{ secrets.USPTO_API_KEY }}
-      - uses: actions/upload-artifact@v4
-        with:
-          name: trademarks-data
-          path: data/
-          retention-days: 7
-
-  sync-factory-watch:
-    name: Sync Factory Watch (ESA Copernicus)
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
