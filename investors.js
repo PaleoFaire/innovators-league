@@ -1187,7 +1187,15 @@ function renderPortfolioXRay() {
   if (!grid) return;
   if (typeof VC_FIRMS === 'undefined' || !VC_FIRMS.length) return;
 
-  const COMPANIES = (typeof window.COMPANIES !== 'undefined') ? window.COMPANIES : [];
+  // data.js declares `const COMPANIES`, which is script-global lexical scope
+  // and never becomes a property of `window` — so `window.COMPANIES` is
+  // undefined and this fell back to [], leaving the X-Ray with no portfolio to
+  // cross-reference. The local must NOT be named COMPANIES: a `const` of that
+  // name shadows the real global across this whole function, which is what hid
+  // the problem in the first place.
+  const ALL_COMPANIES = (typeof window.COMPANIES !== 'undefined' && window.COMPANIES)
+    ? window.COMPANIES
+    : (typeof COMPANIES !== 'undefined' && COMPANIES) ? COMPANIES : [];
   const DEAL_TRACKER_DATA = (typeof DEAL_TRACKER !== 'undefined') ? DEAL_TRACKER : [];
 
   // Helper: parse AUM string to number
@@ -1210,7 +1218,7 @@ function renderPortfolioXRay() {
     // Sector concentration analysis
     const sectorMap = {};
     (vc.portfolioCompanies || []).forEach(compName => {
-      const compData = COMPANIES.find(c => c.name === compName);
+      const compData = ALL_COMPANIES.find(c => c.name === compName);
       if (compData && compData.sector) {
         sectorMap[compData.sector] = (sectorMap[compData.sector] || 0) + 1;
       }
@@ -1251,7 +1259,7 @@ function renderPortfolioXRay() {
     // Stage distribution
     const stageMap = {};
     (vc.portfolioCompanies || []).forEach(compName => {
-      const compData = COMPANIES.find(c => c.name === compName);
+      const compData = ALL_COMPANIES.find(c => c.name === compName);
       if (compData && compData.fundingStage) {
         const stage = compData.fundingStage;
         stageMap[stage] = (stageMap[stage] || 0) + 1;

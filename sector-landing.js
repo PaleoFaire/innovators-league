@@ -36,8 +36,24 @@
     return v || '—';
   }
 
+  // The canonical field in data.js is `totalRaised`, holding a display string
+  // like "$175M", "$2.6B+" or "$17.5M". None of the four names this used to
+  // look for (totalFunding / funding / lastValuation / lastRound) exists on a
+  // single record, so every card showed no funding and the sector header read
+  // "$0 CAPITAL RAISED" across 215 defence companies.
+  //
+  // Returns a NUMBER of dollars so the callers that sum and sort actually
+  // work; they were summing a field that was always null.
   function getFunding(c) {
-    return c.totalFunding || c.funding || c.lastValuation || c.lastRound || null;
+    var raw = c.totalRaised || c.totalFunding || c.funding || null;
+    if (typeof raw === 'number') return raw;
+    if (typeof raw !== 'string') return null;
+    var m = raw.replace(/,/g, '').match(/\$?\s*([\d.]+)\s*([BMK])?/i);
+    if (!m) return null;
+    var n = parseFloat(m[1]);
+    if (isNaN(n)) return null;
+    var unit = (m[2] || '').toUpperCase();
+    return n * (unit === 'B' ? 1e9 : unit === 'M' ? 1e6 : unit === 'K' ? 1e3 : 1);
   }
 
   function getSectorColor(sector) {
@@ -103,13 +119,27 @@
       + '</a>';
   }
 
+  // data.js declares `const COMPANIES = [...]` at the top level of a classic
+  // script. A top-level `const` lives in the script-global lexical scope and
+  // is NOT a property of `window` — so `window.COMPANIES` is undefined even
+  // though `COMPANIES` resolves fine. This function tested `window.COMPANIES`
+  // and bailed, which is why defense, nuclear, space and reindustrialize all
+  // rendered "0 COMPANIES TRACKED / $0 CAPITAL RAISED / No companies in this
+  // sector yet" while the array sat right there with 1,181 records in it.
+  function allCompanies() {
+    if (typeof window.COMPANIES !== 'undefined' && window.COMPANIES) return window.COMPANIES;
+    if (typeof COMPANIES !== 'undefined' && COMPANIES) return COMPANIES;
+    return null;
+  }
+
   function filterCompanies(config) {
-    if (typeof window.COMPANIES === 'undefined') return [];
+    var all = allCompanies();
+    if (!all) return [];
     var matchSet = null;
     if (config.sectors) matchSet = new Set(config.sectors);
     else if (config.sectorWhitelist) matchSet = new Set(config.sectorWhitelist);
 
-    var out = window.COMPANIES.filter(function (c) {
+    var out = all.filter(function (c) {
       if (!c || !c.name) return false;
       if (!matchSet) return true;
       return matchSet.has(c.sector);
