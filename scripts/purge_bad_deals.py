@@ -87,7 +87,37 @@ def to_millions(amount: str) -> float:
     return n * {"B": 1000.0, "M": 1.0, "K": 0.001}[u]
 
 
+def company_status() -> dict:
+    """name -> status, read through node so we parse data.js as the browser does."""
+    js = ('const fs=require("fs"),vm=require("vm");const s={};vm.createContext(s);'
+          'vm.runInContext(fs.readFileSync(process.argv[1],"utf8")'
+          '+";globalThis.__n={};COMPANIES.forEach(c=>{globalThis.__n[c.name]=c.status||\'\'});",s);'
+          'console.log(JSON.stringify(s.__n));')
+    try:
+        out = subprocess.run(["node", "-e", js, str(ROOT / "data.js")],
+                             capture_output=True, text=True, check=True).stdout
+        return json.loads(out)
+    except Exception:
+        return {}
+
+
+STATUS = company_status()
+
+
 def reason_to_drop(row: dict) -> str | None:
+    # An IPO or SPAC round on a company we record as private is not a round we
+    # missed — it is the old parse_round_type matching bare "spac" with no word
+    # boundary, so every article about a SPACE company matched SPAC. That is
+    # why Venus Aerospace, Impulse Space, Skyrora, True Anomaly, Orbital
+    # Composites and PLD Space all carried SPAC rounds, and why Anduril showed
+    # a $700M SPAC on its cap table while still private.
+    rnd_u = (row.get("round") or "").strip().upper()
+    if rnd_u in ("IPO", "SPAC"):
+        st = STATUS.get(row.get("company", ""))
+        if st and st != "ipo":
+            return (f"round '{rnd_u}' on a company we record as '{st}' — "
+                    f"'spac' matched inside 'space'")
+
     amt = to_millions(row.get("amount", ""))
     if amt >= MAX_PLAUSIBLE_M:
         return f"amount {row.get('amount')} >= $2B — misparsed market size or valuation"
@@ -117,7 +147,11 @@ def main() -> int:
     print(f"deals: {len(rows)}   keeping {len(keep)}   removing {len(drop)}")
     by = {}
     for d in drop:
-        k = "amount >= $2B" if "amount" in d["_why"] else "Series K-Z"
+        w = d["_why"]
+        k = ("IPO/SPAC on a private company" if "matched inside" in w
+             else "valuation band $900M-$2B" if "valuation band" in w
+             else "amount >= $2B" if "amount" in w
+             else "Series K-Z")
         by[k] = by.get(k, 0) + 1
     for k, v in sorted(by.items(), key=lambda kv: -kv[1]):
         print(f"   {v:>4}  {k}")

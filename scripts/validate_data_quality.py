@@ -230,6 +230,24 @@ def main():
         else:
             warnings.append(msg)
 
+    # 10b. DEAL_TRACKER: an IPO or SPAC round on a company we record as private
+    # is a misparse, not a discovery. parse_round_type used to match a bare
+    # "spac" with no word boundary, so every article about a SPACE company
+    # produced a SPAC round — Anduril, Impulse Space, True Anomaly, Venus
+    # Aerospace and PLD Space all carried one. Fixed at source; this stops it
+    # returning by any other route.
+    status_by_name = {}
+    for o in objs:
+        n = gv(o, "name")
+        if n:
+            status_by_name[n] = gv(o, "status")
+    deal_blk = block(d, "DEAL_TRACKER")
+    for m in re.finditer(r'\{\s*company:\s*"([^"]+)"[^}]*?round:\s*"(IPO|SPAC)"', deal_blk):
+        st = status_by_name.get(m.group(1))
+        if st and st != "ipo":
+            errors.append(f"DEAL_TRACKER: '{m.group(1)}' has a {m.group(2)} round but "
+                          f"status is '{st}' — 'spac' matching inside 'space'?")
+
     # 7. IL30 roster resolution
     il30 = re.findall(r'"([^"]+)"', block(d, "INNOVATORS_LEAGUE_30"))
     for n in il30:

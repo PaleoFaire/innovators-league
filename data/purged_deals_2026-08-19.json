@@ -1,488 +1,118 @@
 {
-  "purged_at": "2026-08-19T07:25:12.789710+00:00",
+  "purged_at": "2026-08-19T08:10:12.659552+00:00",
   "reason": "fetch_deals.py amount/round/investor parser defects, fixed same day",
-  "removed": 48,
-  "kept": 198,
+  "removed": 11,
+  "kept": 187,
   "rows": [
     {
-      "company": "Base Power",
+      "company": "Venus Aerospace",
       "investor": "Undisclosed",
-      "amount": "$1B",
-      "round": "Funding Round",
-      "date": "2026-08",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Valar Atomics",
-      "investor": "Sequoia",
-      "amount": "$1B",
-      "round": "Series B",
-      "date": "2026-08",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Valar Atomics",
-      "investor": "Undisclosed",
-      "amount": "$1B",
-      "round": "Funding Round",
-      "date": "2026-08",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Space Forge",
-      "investor": "Accel",
-      "amount": "$1.37B",
-      "round": "Series G",
-      "date": "2026-08",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.37B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Galvanick",
-      "investor": "Undisclosed",
-      "amount": "$1B",
-      "round": "Series G",
-      "date": "2026-08",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "xAI",
-      "investor": "General Catalyst",
-      "amount": "$1.1B",
-      "round": "Series B",
-      "date": "2026-08",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Infleqtion",
-      "investor": "Undisclosed",
-      "amount": "$1.37B",
-      "round": "Funding Round",
-      "date": "2026-08",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.37B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Steady Energy",
-      "investor": "Undisclosed",
-      "amount": "$1.75B",
-      "round": "Series G",
+      "amount": "$91M",
+      "round": "SPAC",
       "date": "2026-07",
       "valuation": "",
       "leadOrParticipant": "lead",
-      "_why": "amount $1.75B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "SambaNova Systems",
-      "investor": "Undisclosed",
-      "amount": "$1B",
-      "round": "Series A",
-      "date": "2026-07",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Proxima Fusion",
-      "investor": "Undisclosed",
-      "amount": "$1.4B",
-      "round": "Funding Round",
-      "date": "2026-07",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.4B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Endurosat",
-      "investor": "Undisclosed",
-      "amount": "$1.8B",
-      "round": "Series E",
-      "date": "2026-07",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.8B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Helsing",
-      "investor": "Lightspeed Venture Partners",
-      "amount": "$1.8B",
-      "round": "Funding Round",
-      "date": "2026-07",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.8B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Sakana AI",
-      "investor": "Undisclosed",
-      "amount": "$1.5B",
-      "round": "Funding Round",
-      "date": "2026-07",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.5B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "New Limit",
-      "investor": "General Catalyst",
-      "amount": "$1B",
-      "round": "Funding Round",
-      "date": "2026-07",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Vayu Robotics",
-      "investor": "Undisclosed",
-      "amount": "$1.8B",
-      "round": "Series E",
-      "date": "2026-07",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.8B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Cohere",
-      "investor": "Undisclosed",
-      "amount": "$1.5B",
-      "round": "Series D",
-      "date": "2026-07",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.5B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Xtend",
-      "investor": "Undisclosed",
-      "amount": "$944M",
-      "round": "Funding Round",
-      "date": "2026-07",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $944M in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "RobCo",
-      "investor": "Undisclosed",
-      "amount": "$1.35B",
-      "round": "Series A",
-      "date": "2026-07",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.35B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "1X Technologies",
-      "investor": "Undisclosed",
-      "amount": "$1.35B",
-      "round": "Series A",
-      "date": "2026-07",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.35B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Anysphere",
-      "investor": "Undisclosed",
-      "amount": "$1.2B",
-      "round": "Funding Round",
-      "date": "2026-07",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.2B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Teralta",
-      "investor": "a16z",
-      "amount": "$1.7B",
-      "round": "Funding Round",
-      "date": "2026-07",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.7B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Commonwealth Fusion Systems",
-      "investor": "Undisclosed",
-      "amount": "$1B",
-      "round": "Funding Round",
-      "date": "2026-07",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Zoox",
-      "investor": "Undisclosed",
-      "amount": "$1.8B",
-      "round": "Funding Round",
-      "date": "2026-06",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.8B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Neura Robotics",
-      "investor": "Undisclosed",
-      "amount": "$1.4B",
-      "round": "Funding Round",
-      "date": "2026-06",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.4B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Neura Robotics",
-      "investor": "Undisclosed",
-      "amount": "$1.4B",
-      "round": "Series C",
-      "date": "2026-06",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.4B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Neura Robotics",
-      "investor": "Undisclosed",
-      "amount": "$1.4B",
-      "round": "IPO",
-      "date": "2026-06",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.4B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Nearfield Instruments",
-      "investor": "NEA",
-      "amount": "$1.6B",
-      "round": "Series D",
-      "date": "2026-06",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.6B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Palantir",
-      "investor": "Undisclosed",
-      "amount": "$1B",
-      "round": "Series E",
-      "date": "2026-06",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
+      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
     },
     {
       "company": "Impulse Space",
       "investor": "Undisclosed",
-      "amount": "$1B",
+      "amount": "$500M",
       "round": "SPAC",
       "date": "2026-06",
       "valuation": "",
       "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
+      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
     },
     {
-      "company": "Fervo Energy",
+      "company": "Skyrora",
       "investor": "Undisclosed",
-      "amount": "$1.3B",
-      "round": "IPO",
+      "amount": "$312M",
+      "round": "SPAC",
+      "date": "2026-06",
+      "valuation": "",
+      "leadOrParticipant": "lead",
+      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
+    },
+    {
+      "company": "Endurance Energy",
+      "investor": "Undisclosed",
+      "amount": "$54M",
+      "round": "SPAC",
+      "date": "2026-06",
+      "valuation": "",
+      "leadOrParticipant": "lead",
+      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
+    },
+    {
+      "company": "True Anomaly",
+      "investor": "Undisclosed",
+      "amount": "$90M",
+      "round": "SPAC",
       "date": "2026-05",
       "valuation": "",
       "leadOrParticipant": "lead",
-      "_why": "amount $1.3B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
+      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
     },
     {
-      "company": "Reveal Technology",
+      "company": "Orbital Composites",
       "investor": "Undisclosed",
-      "amount": "$1B",
-      "round": "Funding Round",
-      "date": "2026-05",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Retro Biosciences",
-      "investor": "Undisclosed",
-      "amount": "$1.8B",
-      "round": "Funding Round",
-      "date": "2026-05",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.8B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Cognition",
-      "investor": "Undisclosed",
-      "amount": "$1B",
-      "round": "Funding Round",
-      "date": "2026-05",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Saildrone",
-      "investor": "Undisclosed",
-      "amount": "$1.75B",
-      "round": "Series D",
+      "amount": "$2.4M",
+      "round": "SPAC",
       "date": "2026-04",
       "valuation": "",
       "leadOrParticipant": "lead",
-      "_why": "amount $1.75B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
+      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
     },
     {
-      "company": "Boom Supersonic",
+      "company": "X-Energy",
       "investor": "Undisclosed",
-      "amount": "$1.25B",
-      "round": "Funding Round",
-      "date": "2026-04",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.25B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Rebellions",
-      "investor": "Undisclosed",
-      "amount": "$1B",
-      "round": "Series B",
-      "date": "2026-04",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Rebellions",
-      "investor": "Undisclosed",
-      "amount": "$1B",
+      "amount": "$800M",
       "round": "IPO",
       "date": "2026-04",
       "valuation": "",
       "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
+      "_why": "round 'IPO' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
     },
     {
-      "company": "Focused Energy",
+      "company": "Anduril Industries",
       "investor": "Undisclosed",
-      "amount": "$1B",
-      "round": "Funding Round",
+      "amount": "$700M",
+      "round": "SPAC",
       "date": "2026-04",
       "valuation": "",
       "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
+      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
     },
     {
-      "company": "Infleqtion",
-      "investor": "Founders Fund",
-      "amount": "$1B",
-      "round": "Funding Round",
-      "date": "2026-03",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Retro Biosciences",
-      "investor": "Undisclosed",
-      "amount": "$1B",
-      "round": "Funding Round",
-      "date": "2026-03",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Cellares",
-      "investor": "Undisclosed",
-      "amount": "$1.2B",
-      "round": "Funding Round",
-      "date": "2026-03",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.2B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Physical Intelligence",
-      "investor": "Undisclosed",
-      "amount": "$1B",
-      "round": "Funding Round",
-      "date": "2026-03",
-      "valuation": "",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Starcloud",
+      "company": "PLD Space",
       "investor": "Accel",
-      "amount": "$1.1B",
+      "amount": "$118M",
       "round": "SPAC",
       "date": "2026-03",
       "valuation": "",
       "leadOrParticipant": "lead",
-      "_why": "amount $1.1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
+      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
     },
     {
-      "company": "Form Energy",
+      "company": "Skyrora",
+      "investor": "NEA",
+      "amount": "$162M",
+      "round": "SPAC",
+      "date": "2026-03",
+      "valuation": "",
+      "leadOrParticipant": "lead",
+      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
+    },
+    {
+      "company": "Rebellions",
       "investor": "Undisclosed",
-      "amount": "$1B",
-      "round": "Series G",
+      "amount": "$10M",
+      "round": "SPAC",
       "date": "2026-02",
       "valuation": "",
       "leadOrParticipant": "lead",
-      "_why": "amount $1B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Skild AI",
-      "investor": "Lightspeed",
-      "amount": "$1.4B",
-      "round": "Series C",
-      "date": "2026-01",
-      "valuation": "$14B+",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.4B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Skild AI",
-      "investor": "a16z",
-      "amount": "$1.4B",
-      "round": "Series C",
-      "date": "2026-01",
-      "valuation": "$14B+",
-      "leadOrParticipant": "participant",
-      "_why": "amount $1.4B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Figure AI",
-      "investor": "Microsoft",
-      "amount": "$1B+",
-      "round": "Series C",
-      "date": "2025-12",
-      "valuation": "$39B",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1B+ in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
-    },
-    {
-      "company": "Crusoe Energy",
-      "investor": "Valor Equity",
-      "amount": "$1.375B",
-      "round": "Series E",
-      "date": "2025-10",
-      "valuation": "$10B+",
-      "leadOrParticipant": "lead",
-      "_why": "amount $1.375B in the $900M-$2B valuation band \u2014 the parser could not tell a round from a valuation"
+      "_why": "round 'SPAC' on a company we record as 'active' \u2014 'spac' matched inside 'space'"
     }
   ]
 }

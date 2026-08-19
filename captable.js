@@ -133,8 +133,16 @@ function renderCapTable(company) {
   // Synthesize "rounds" from the latest round + inferred prior rounds for the timeline
   var rounds = buildRoundsTimeline(company, tracker);
 
-  var totalRaisedDisplay = (tracker && tracker.totalRaised) || company.totalRaised || 'Undisclosed';
-  var valuationDisplay = (tracker && tracker.valuation) || company.valuation || 'Undisclosed';
+  // Canonical first, tracker only as a fallback.
+  //
+  // This used to prefer FUNDING_TRACKER, which is computed from parsed news
+  // wires, over the curated company record — so Anduril's cap table read
+  // "TOTAL RAISED $700M+" against a verified $11B+, because the tracker had
+  // accumulated a single misparsed row. The company record is the one that
+  // goes through fact-checking; the tracker is a signal layer and is only
+  // useful here when we hold no canonical figure at all.
+  var totalRaisedDisplay = company.totalRaised || (tracker && tracker.totalRaised) || 'Undisclosed';
+  var valuationDisplay = company.valuation || (tracker && tracker.valuation) || 'Undisclosed';
 
   var html = '';
 

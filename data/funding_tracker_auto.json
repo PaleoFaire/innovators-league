@@ -2,7 +2,7 @@
   {
     "company": "Rebellions",
     "totalRaised": "$1.5B+",
-    "totalRaisedRaw": 1491.0,
+    "totalRaisedRaw": 1481.0,
     "lastRound": "Series A",
     "lastRoundAmount": "$31M",
     "lastRoundDate": "2026-06",
@@ -12,7 +12,7 @@
       "Founders Fund",
       "NEA"
     ],
-    "roundCount": 5
+    "roundCount": 4
   },
   {
     "company": "Galvanick",
@@ -96,19 +96,6 @@
     "roundCount": 8
   },
   {
-    "company": "X-Energy",
-    "totalRaised": "$800M+",
-    "totalRaisedRaw": 800.0,
-    "lastRound": "IPO",
-    "lastRoundAmount": "$800M",
-    "lastRoundDate": "2026-04",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
     "company": "Form Energy",
     "totalRaised": "$750M+",
     "totalRaisedRaw": 750.0,
@@ -141,19 +128,6 @@
     "lastRound": "Funding Round",
     "lastRoundAmount": "$700M",
     "lastRoundDate": "2026-07",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Anduril Industries",
-    "totalRaised": "$700M+",
-    "totalRaisedRaw": 700.0,
-    "lastRound": "SPAC",
-    "lastRoundAmount": "$700M",
-    "lastRoundDate": "2026-04",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
@@ -251,19 +225,6 @@
     "roundCount": 2
   },
   {
-    "company": "Impulse Space",
-    "totalRaised": "$500M+",
-    "totalRaisedRaw": 500.0,
-    "lastRound": "SPAC",
-    "lastRoundAmount": "$500M",
-    "lastRoundDate": "2026-06",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
     "company": "Anthropic",
     "totalRaised": "$500M+",
     "totalRaisedRaw": 500.0,
@@ -288,20 +249,6 @@
       "Undisclosed"
     ],
     "roundCount": 1
-  },
-  {
-    "company": "Skyrora",
-    "totalRaised": "$498M+",
-    "totalRaisedRaw": 498.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$24M",
-    "lastRoundDate": "2026-06",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed",
-      "NEA"
-    ],
-    "roundCount": 3
   },
   {
     "company": "Focused Energy",
@@ -464,20 +411,6 @@
     "roundCount": 2
   },
   {
-    "company": "PLD Space",
-    "totalRaised": "$327M+",
-    "totalRaisedRaw": 327.0,
-    "lastRound": "SPAC",
-    "lastRoundAmount": "$118M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Accel",
-      "Undisclosed"
-    ],
-    "roundCount": 2
-  },
-  {
     "company": "Cambridge Aerospace",
     "totalRaised": "$300M+",
     "totalRaisedRaw": 300.0,
@@ -604,6 +537,19 @@
       "Undisclosed"
     ],
     "roundCount": 3
+  },
+  {
+    "company": "PLD Space",
+    "totalRaised": "$209M+",
+    "totalRaisedRaw": 209.0,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$209M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
   },
   {
     "company": "Earth AI",
@@ -890,32 +836,6 @@
     "roundCount": 1
   },
   {
-    "company": "Venus Aerospace",
-    "totalRaised": "$91M+",
-    "totalRaisedRaw": 91.0,
-    "lastRound": "SPAC",
-    "lastRoundAmount": "$91M",
-    "lastRoundDate": "2026-07",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "True Anomaly",
-    "totalRaised": "$90M+",
-    "totalRaisedRaw": 90.0,
-    "lastRound": "SPAC",
-    "lastRoundAmount": "$90M",
-    "lastRoundDate": "2026-05",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
     "company": "1X Technologies",
     "totalRaised": "$85M+",
     "totalRaisedRaw": 85.0,
@@ -1043,19 +963,6 @@
     "valuation": "$400M+",
     "leadInvestors": [
       "Lightrock"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Endurance Energy",
-    "totalRaised": "$54M+",
-    "totalRaisedRaw": 54.0,
-    "lastRound": "SPAC",
-    "lastRoundAmount": "$54M",
-    "lastRoundDate": "2026-06",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
     ],
     "roundCount": 1
   },
@@ -1300,6 +1207,19 @@
     "totalRaisedRaw": 25.0,
     "lastRound": "SPAC",
     "lastRoundAmount": "$25M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Skyrora",
+    "totalRaised": "$24M+",
+    "totalRaisedRaw": 24.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$24M",
     "lastRoundDate": "2026-06",
     "valuation": "",
     "leadInvestors": [
@@ -1561,19 +1481,6 @@
     "lastRound": "Seed",
     "lastRoundAmount": "$4M",
     "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Orbital Composites",
-    "totalRaised": "$2M+",
-    "totalRaisedRaw": 2.4,
-    "lastRound": "SPAC",
-    "lastRoundAmount": "$2.4M",
-    "lastRoundDate": "2026-04",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
