@@ -46611,17 +46611,17 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-19 19:32
+// Last updated: 2026-08-19 20:36
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "Researchers say OpenAI revoked their access to limited cyber program", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Humanoid", headline: "What does Unitree Robotics' IPO mean for the humanoid industry?", source: "The Robot Report", time: "1h ago", impact: "high", unread: true },
-  { id: 3, type: "hire", company: "TerraPower", headline: "TerraPower's nuclear reactor has a secret weapon for powering AI data centers", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Rivian", headline: "Rivian spinout Also raises another $150M", source: "TechCrunch", time: "3h ago", impact: "medium", unread: true },
-  { id: 5, type: "hire", company: "SpaceX", headline: "Ex-Tesla president: Roadster delay is about getting closer to SpaceX ahead of merger", source: "Electrek", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Firefly Aerospace", headline: "Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission", source: "SpaceNews", time: "7h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Sage Geosystems", headline: "Sage Geosystems brings its first next-gen geothermal plant online", source: "Canary Media", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "OpenAI", headline: "OpenAI clarifies 'acquisition' offer for Irish teen's startup idea was a joke", source: "Sifted", time: "8h ago", impact: "high", unread: false },
-  { id: 9, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab to test Space Force data network connection in orbit in 2027", source: "SpaceNews", time: "20h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "Researchers say OpenAI revoked their access to limited cyber program", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Humanoid", headline: "What does Unitree Robotics' IPO mean for the humanoid industry?", source: "The Robot Report", time: "2h ago", impact: "high", unread: true },
+  { id: 3, type: "hire", company: "TerraPower", headline: "TerraPower's nuclear reactor has a secret weapon for powering AI data centers", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Rivian", headline: "Rivian spinout Also raises another $150M", source: "TechCrunch", time: "4h ago", impact: "medium", unread: true },
+  { id: 5, type: "hire", company: "SpaceX", headline: "Ex-Tesla president: Roadster delay is about getting closer to SpaceX ahead of merger", source: "Electrek", time: "6h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Firefly Aerospace", headline: "Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission", source: "SpaceNews", time: "8h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Sage Geosystems", headline: "Sage Geosystems brings its first next-gen geothermal plant online", source: "Canary Media", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "OpenAI clarifies 'acquisition' offer for Irish teen's startup idea was a joke", source: "Sifted", time: "9h ago", impact: "high", unread: false },
+  { id: 9, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab to test Space Force data network connection in orbit in 2027", source: "SpaceNews", time: "21h ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "SpaceX", headline: "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "OpenAI", headline: "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "ipo", company: "SpaceX", headline: "Your Car Could Start Paying You. SpaceX, Tesla, Grok Bot, Macrohard, Digital Optimus, Cursor HUGE", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
