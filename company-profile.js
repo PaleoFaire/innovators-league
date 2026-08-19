@@ -2108,19 +2108,25 @@
         return String(n);
       };
 
-      grid.innerHTML = matches.map(m => {
-        const handle = m.handle || (m.candidate_handles && m.candidate_handles[0]) || '';
+      // Only ever show a VERIFIED handle. The fetcher used to guess one by
+      // concatenating the founder's name (Brett Adcock -> @brettadcock, whose
+      // real handle is @adcock_brett), so the panel linked members to
+      // strangers' X accounts under our founders' names. A handle is only
+      // trustworthy if the fetch actually resolved it — which is exactly what
+      // followers being present proves. Same rule as the website resolver: a
+      // wrong link is worse than no link.
+      const verified = matches.filter(m => m.placeholder !== true && m.followers);
+      if (verified.length === 0) return;
+
+      grid.innerHTML = verified.map(m => {
+        const handle = m.handle || '';
         const cleanHandle = String(handle).replace(/^@/, '');
         const followerLabel = formatFollowers(m.followers);
-        const isPlaceholder = m.placeholder === true || !m.followers;
         const topicsHtml = (Array.isArray(m.topics) && m.topics.length > 0)
           ? `<div class="social-topics">${m.topics.slice(0, 4).map(t => `<span class="social-topic">#${escapeHtml(String(t))}</span>`).join('')}</div>`
           : '';
         const followersHtml = followerLabel
           ? `<div class="social-followers">${escapeHtml(followerLabel)} followers · ${escapeHtml(String(m.recent_posts || 0))} recent posts</div>`
-          : '';
-        const placeholderHtml = isPlaceholder
-          ? `<div class="social-placeholder-note">Handle inferred — live follower data pending</div>`
           : '';
         const xUrl = cleanHandle ? `https://x.com/${encodeURIComponent(cleanHandle)}` : '#';
 
@@ -2130,7 +2136,6 @@
             ${cleanHandle ? `<a class="social-handle" href="${xUrl}" target="_blank" rel="noopener">𝕏 @${escapeHtml(cleanHandle)}</a>` : ''}
             ${followersHtml}
             ${topicsHtml}
-            ${placeholderHtml}
           </div>
         `;
       }).join('');

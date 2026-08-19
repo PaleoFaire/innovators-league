@@ -515,29 +515,6 @@ jobs:
             data/podcast_mentions_status.json
           retention-days: 7
 
-  sync-twitter-signals:
-    name: Sync Twitter/X Signals (experimental)
-    runs-on: ubuntu-latest
-    if: github.event.inputs.sync_type != 'research-only'
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - run: pip install requests
-      - run: python scripts/fetch_twitter_signals.py
-        env:
-          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
-      - uses: actions/upload-artifact@v4
-        with:
-          name: twitter-signals-data
-          path: |
-            data/twitter_signals_auto.json
-            data/twitter_signals_status.json
-          retention-days: 7
-
   # ═══════════════════════════════════════════════════════════
   # MERGE AND COMMIT - Runs after all fetchers complete
   # (NO continue-on-error — merge / commit must succeed)
@@ -613,6 +590,17 @@ jobs:
       - name: Form D + SAFE Filings (SEC EDGAR, last 60d)
         # Leading indicator for private funding rounds. No key required.
         run: python scripts/fetch_form_d_filings.py
+        continue-on-error: true
+
+      - name: Form D via EDGAR daily index (catches the 68% with no CIK)
+        # The fetcher above joins through data/cik_map.json, which holds a real
+        # CIK for 377 of 1,181 companies — so two-thirds of the database could
+        # never produce a filing, and every newly added company started blind.
+        # This reads EDGAR's daily index instead (every Form D accepted that
+        # day) and asks which filers we recognise, so coverage no longer
+        # depends on map maintenance. Only CIK- and founder-confirmed matches
+        # go live; name-only matches land in data/form_d_daily_review.json.
+        run: python scripts/fetch_form_d_daily_index.py --days 8 --merge
         continue-on-error: true
 
       - name: Export Controls / Entity List Watch
