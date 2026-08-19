@@ -47240,20 +47240,18 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-19 05:37
-// Auto-generated real-time signals
-// Last updated: 2026-08-19
+// Last updated: 2026-08-19 06:56
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab to test Space Force data network connection in orbit in 2027", source: "SpaceNews", time: "7h ago", impact: "low", unread: true },
+  { id: 1, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab to test Space Force data network connection in orbit in 2027", source: "SpaceNews", time: "8h ago", impact: "low", unread: true },
   { id: 2, type: "ipo", company: "SpaceX", headline: "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea", source: "Ars Technica Space", time: "11h ago", impact: "low", unread: true },
   { id: 3, type: "news", company: "OpenAI", headline: "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue", source: "Wired", time: "12h ago", impact: "low", unread: true },
   { id: 4, type: "news", company: "OpenAI", headline: "OpenAI institutes new safeguards after Hugging Face breach", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Etched", headline: "Etched&#8217;s valuation doubles to $21B in a month", source: "TechCrunch", time: "13h ago", impact: "high", unread: true },
+  { id: 5, type: "funding", company: "Etched", headline: "Etched's valuation doubles to $21B in a month", source: "TechCrunch", time: "13h ago", impact: "high", unread: true },
   { id: 6, type: "ipo", company: "SpaceX", headline: "Your Car Could Start Paying You. SpaceX, Tesla, Grok Bot, Macrohard, Digital Optimus, Cursor HUGE", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "OpenAI", headline: "OpenAI launches a safer ChatGPT for teens — years after teens started using it", source: "TechCrunch", time: "16h ago", impact: "medium", unread: false },
-  { id: 8, type: "milestone", company: "Neko Health", headline: "Daniel Ek&#8217;s body-scanning startup Neko Health opens first US office, in New York", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Humanoid", headline: "Unichem acquires Loomia to accelerate entry into the humanoid &#8216;skin&#8217; market", source: "The Robot Report", time: "18h ago", impact: "low", unread: false },
-  { id: 10, type: "hire", company: "Saildrone", headline: "Saildrone expands European footprint with production plans in 3 countries", source: "Breaking Defense", time: "18h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "OpenAI", headline: "OpenAI launches a safer ChatGPT for teens ' years after teens started using it", source: "TechCrunch", time: "17h ago", impact: "medium", unread: false },
+  { id: 8, type: "milestone", company: "Neko Health", headline: "Daniel Ek's body-scanning startup Neko Health'opens first US office, in New York", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Humanoid", headline: "Unichem acquires Loomia to accelerate entry into the humanoid 'skin' market", source: "The Robot Report", time: "18h ago", impact: "low", unread: false },
+  { id: 10, type: "hire", company: "Saildrone", headline: "Saildrone expands European footprint with production plans in 3 countries", source: "Breaking Defense", time: "19h ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "Einride", headline: "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, and China goes BIG", source: "Electrek", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "ipo", company: "HEO", headline: "HEO to use Planet satellites for non-Earth imaging", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
   { id: 13, type: "news", company: "Helsing", headline: "German drone maker Helsing enlists Rakuten to broker Japan military deal", source: "Defense News", time: "1d ago", impact: "low", unread: false },
