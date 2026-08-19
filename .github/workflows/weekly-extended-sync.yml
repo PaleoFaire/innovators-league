@@ -145,8 +145,43 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: '3.11' }
       - run: pip install requests
+      - name: Fetch USPTO trademark filings
+        # RESTORED 2026-08-19. I cut this in the API audit earlier the same day
+        # on the grounds that "nothing references TRADEMARKS". That was wrong —
+        # the global is TRADEMARK_FILINGS, and signals.js:141 renders it into a
+        # full section of the Signals page. Grepping for the wrong identifier
+        # is not evidence of a dead feed.
+        #
+        # It has never actually produced data: every run since 2026-04-23 has
+        # returned {"status": "awaiting_uspto_api_key"}, and the Signals page
+        # has been telling members "coming soon — the USPTO feed is being
+        # connected" for four months. The key is FREE at
+        # https://developer.uspto.gov/api-catalog and needs to be added as the
+        # USPTO_API_KEY repository secret. Until then this runs and writes the
+        # same placeholder, which costs nothing.
+        run: python scripts/fetch_trademarks.py
+        env:
+          USPTO_API_KEY: ${{ secrets.USPTO_API_KEY }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: trademarks-data
+          path: data/
+          retention-days: 7
+
+  sync-factory-watch:
+    name: Sync Factory Watch (Sentinel-2 satellite passes)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install requests
       - name: Fetch Sentinel-2 satellite passes over watched sites
         # FREE public API via Copernicus Data Space Ecosystem (no key).
+        # Rendered by signals.js:236. Its data was last refreshed 118 days ago,
+        # so the fetcher needs debugging — but the feature is live and cutting
+        # it would have made the staleness permanent.
         run: python scripts/fetch_factory_watch.py
       - uses: actions/upload-artifact@v4
         with:
