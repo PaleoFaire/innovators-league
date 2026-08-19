@@ -1,0 +1,57 @@
+{
+  "_note": "Stephen's own relationships with companies in the database. This is the multiplier that turns a feed into a briefing: a $40M round at a company he has never heard of is news, the same round at a company whose factory he walked through in July is an action. Nothing here can be derived from the data — it has to be told. Seeded 2026-08-19 from prior work; edit freely, it is read fresh every run.",
+  "_tiers": {
+    "portfolio": "The fund holds it, or a live deal is on the table. Anything that happens here is a position update.",
+    "visited": "Stephen has been on site or interviewed the founder. He can call them, and he has first-hand detail no competitor has.",
+    "covered": "Written about or scheduled for coverage. Warm, but at arm's length.",
+    "il30": "Auto-populated from INNOVATORS_LEAGUE_30 in data.js at runtime. Do not list here."
+  },
+
+  "portfolio": [
+    "Senra Systems",
+    "Poseidon Aerospace",
+    "PILGRIM"
+  ],
+
+  "visited": [
+    "Antares",
+    "Foundry Lab",
+    "Dynamo",
+    "Rangeview",
+    "Galadyne",
+    "The Boring Company",
+    "Last Energy",
+    "Standard Electron",
+    "Terraform Industries",
+    "Chariot Defense",
+    "Xona Space Systems",
+    "Deepnight",
+    "American Turbines",
+    "AstroForge",
+    "Syntholene",
+    "Seneca",
+    "Andrenam"
+  ],
+
+  "covered": [
+    "Anduril Industries",
+    "SpaceX",
+    "Helion",
+    "Base Power",
+    "Valar Atomics",
+    "Cuby Technologies",
+    "Neros",
+    "Hermeus",
+    "Varda Space Industries",
+    "Zipline"
+  ],
+
+  "_beats": {
+    "_note": "Live editorial threads. An event that lands on an open beat is worth more than the same event in isolation, because there is somewhere for it to go this week.",
+    "reindustrialization": ["Senra Systems", "Hadrian", "Divergent", "Machina Labs", "Foundry Lab", "Rangeview", "Cuby Technologies"],
+    "time-to-power": ["Last Energy", "Base Power", "Valar Atomics", "Radiant", "Oklo", "American Turbines", "Standard Electron"],
+    "physical-ai": ["Figure AI", "Skild AI", "Apptronik", "Bedrock Robotics", "Dexterity", "Ulysses Robotics"],
+    "space-industrial": ["Varda Space Industries", "Apex Space", "Impulse Space", "Xona Space Systems", "AstroForge", "Poseidon Aerospace"],
+    "defense-primes-displaced": ["Anduril Industries", "Saronic", "Castelion", "Neros", "CX2 Industries", "Chariot Defense", "Galadyne"]
+  }
+}

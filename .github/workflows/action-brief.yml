@@ -1,0 +1,63 @@
+name: The Action Brief
+
+# Runs after the overnight fetchers have landed, so the digest reads fresh
+# feeds rather than yesterday's. Daily Data Sync starts at 06:00 UTC and the
+# hourly news sync runs continuously; 08:30 gives them room to finish and
+# commit. Stephen reads this at 06:00 Gulf time, which is 02:00 UTC — so the
+# digest he opens is the one built the previous morning, which is correct:
+# it covers a full 24 hours rather than a half-finished one.
+on:
+  schedule:
+    - cron: '30 8 * * *'
+  workflow_dispatch:
+    inputs:
+      since:
+        description: 'Days of feed history to consider (default 3)'
+        required: false
+        default: '3'
+
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    name: Build the action brief
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # No pip install: the digest reads files the other jobs already wrote and
+      # uses nothing outside the standard library. It makes no network calls,
+      # costs nothing, and cannot fail because a third party is down.
+      - name: Build digest
+        run: python scripts/build_action_brief.py --since ${{ github.event.inputs.since || '3' }}
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/action_brief.md data/action_brief.json data/action_brief_state.json
+          if git diff --cached --quiet; then
+            echo "No new items today — nothing to commit."
+            exit 0
+          fi
+          # Put the headline count in the commit message so the repo's own
+          # history reads as a log of what happened, not a wall of
+          # "Auto-update" lines.
+          N=$(python -c "import json;print(json.load(open('data/action_brief.json'))['new'])")
+          git commit -m "📰 Action Brief: $N routed signals $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Show the digest in the run summary
+        # So the whole briefing is readable from the Actions tab on a phone,
+        # without cloning anything or opening the site.
+        if: always()
+        run: cat data/action_brief.md >> $GITHUB_STEP_SUMMARY
