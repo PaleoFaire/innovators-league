@@ -1,465 +1,82 @@
 {
-  "generated_at": "2026-08-19T09:49:37.596578+00:00",
-  "scanned": 637,
-  "new": 25,
-  "fund": 7,
-  "media": 22,
-  "pod": 1,
+  "generated_at": "2026-08-19T09:58:55.378470+00:00",
+  "scanned": 641,
+  "new": 4,
+  "fund": 4,
+  "media": 0,
+  "pod": 0,
   "items": [
     {
-      "kind": "form_d",
-      "company": "Antares",
-      "headline": "filed a Form D",
-      "detail": "$85M offering; $60M already sold",
-      "date": "2026-08-18",
-      "url": "https://www.sec.gov/Archives/edgar/data/1998786/000199878626000005/primary_doc.xml",
-      "value": 84999666.0,
-      "source": "SEC EDGAR",
-      "fp": "8624183e75af97a2",
-      "tier": "visited",
-      "beat": null,
-      "tags": [
-        "FUND",
-        "MEDIA",
-        "POD"
-      ],
-      "score": 129.2,
-      "why": "you have been on site / interviewed them; size puts it in the fund's range; filed before any announcement"
-    },
-    {
-      "kind": "regulatory",
-      "company": "Last Energy",
-      "headline": "NRC: 2027 U.S. Construction Permit pathway",
-      "detail": "PWR-20 (20MWe modular reactor)",
-      "date": "2026-08-18",
-      "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "value": 0,
-      "source": "NRC",
-      "fp": "ce36f2d07d4ef97a",
-      "tier": "visited",
-      "beat": "time-to-power",
-      "tags": [
-        "MEDIA"
-      ],
-      "score": 89.9,
-      "why": "you have been on site / interviewed them; feeds the time to power thread"
-    },
-    {
-      "kind": "form_d",
-      "company": "Cuby Technologies",
-      "headline": "filed a Form D",
-      "detail": "$6M already sold",
-      "date": "2026-08-14",
-      "url": "https://www.sec.gov/Archives/edgar/data/1923686/000192368626000001/primary_doc.xml",
-      "value": 6372475.0,
-      "source": "SEC EDGAR",
-      "fp": "55e015127109e699",
+      "kind": "funding",
+      "company": "Neros",
+      "headline": "raised $250M",
+      "detail": "Funding Round",
+      "date": "2026-08-01",
+      "url": "",
+      "value": 250000000.0,
+      "source": "press",
+      "fp": "6b3638d09d2e93f1",
       "tier": "covered",
+      "beat": "defense-primes-displaced",
+      "tags": [
+        "FUND"
+      ],
+      "score": 63.1,
+      "why": "you have written about them; feeds the defense primes displaced thread; size puts it in the fund's range"
+    },
+    {
+      "kind": "funding",
+      "company": "Hadrian",
+      "headline": "raised $1.37B",
+      "detail": "Series D",
+      "date": "2026-08-01",
+      "url": "",
+      "value": 1370000000.0,
+      "source": "press",
+      "fp": "619e07655471f94f",
+      "tier": "",
       "beat": "reindustrialization",
       "tags": [
         "FUND"
       ],
-      "score": 86.3,
-      "why": "you have written about them; feeds the reindustrialization thread; filed before any announcement"
-    },
-    {
-      "kind": "form_d",
-      "company": "Dexterity",
-      "headline": "filed a Form D",
-      "detail": "$120M offering; $105M already sold",
-      "date": "2026-08-17",
-      "url": "https://www.sec.gov/Archives/edgar/data/2137857/000213785726000002/primary_doc.xml",
-      "value": 120000000.0,
-      "source": "SEC EDGAR",
-      "fp": "d64f9cb1cc27880d",
-      "tier": "",
-      "beat": "physical-ai",
-      "tags": [
-        "FUND",
-        "MEDIA"
-      ],
-      "score": 64.6,
-      "why": "feeds the physical ai thread; size puts it in the fund's range; filed before any announcement"
-    },
-    {
-      "kind": "form_d",
-      "company": "Pixxel",
-      "headline": "filed a Form D",
-      "detail": "$125M offering; $73M already sold",
-      "date": "2026-08-18",
-      "url": "https://www.sec.gov/Archives/edgar/data/1818777/000181877726000004/primary_doc.xml",
-      "value": 125000000.0,
-      "source": "SEC EDGAR",
-      "fp": "e6147db0d83fe1f1",
-      "tier": "",
-      "beat": null,
-      "tags": [
-        "FUND",
-        "MEDIA"
-      ],
-      "score": 57.9,
-      "why": "size puts it in the fund's range; filed before any announcement"
-    },
-    {
-      "kind": "grant",
-      "company": "Varda Space Industries",
-      "headline": "$60M from DOD",
-      "detail": "Reentry capsule for pharmaceutical manufacturing",
-      "date": "2026-08-18",
-      "url": "https://www.spacewerx.us/",
-      "value": 60000000.0,
-      "source": "grants.gov",
-      "fp": "a3363b7a840757df",
-      "tier": "covered",
-      "beat": "space-industrial",
-      "tags": [
-        "MEDIA"
-      ],
-      "score": 56.9,
-      "why": "you have written about them; feeds the space industrial thread"
-    },
-    {
-      "kind": "announcement",
-      "company": "Antares",
-      "headline": "posted to its newsroom",
-      "detail": "",
-      "date": "2026-08-19",
-      "url": "https://antaresindustries.com",
-      "value": 96000000.0,
-      "source": "company newsroom",
-      "fp": "010fed21853695b0",
-      "tier": "visited",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "score": 55.3,
-      "why": "you have been on site / interviewed them"
-    },
-    {
-      "kind": "form_d",
-      "company": "Windborne",
-      "headline": "filed a Form D",
-      "detail": "$37M offering; $37M already sold (fully subscribed)",
-      "date": "2026-08-17",
-      "url": "https://www.sec.gov/Archives/edgar/data/1979342/000197934226000003/primary_doc.xml",
-      "value": 37124969.0,
-      "source": "SEC EDGAR",
-      "fp": "ba2c5dff596c5be3",
-      "tier": "",
-      "beat": null,
-      "tags": [
-        "FUND"
-      ],
-      "score": 54.2,
-      "why": "size puts it in the fund's range; filed before any announcement"
-    },
-    {
-      "kind": "regulatory",
-      "company": "SpaceX",
-      "headline": "FAA: Operational Cargo Flights",
-      "detail": "Starship / Super Heavy",
-      "date": "2026-08-18",
-      "url": "",
-      "value": 0,
-      "source": "FAA",
-      "fp": "73ca01312e520a25",
-      "tier": "covered",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "score": 53.1,
-      "why": "you have written about them"
-    },
-    {
-      "kind": "regulatory",
-      "company": "Zipline",
-      "headline": "FAA: Urban Delivery Operations",
-      "detail": "Platform 2 (P2)",
-      "date": "2026-08-18",
-      "url": "",
-      "value": 0,
-      "source": "FAA",
-      "fp": "9bcf00452dfcc4cc",
-      "tier": "covered",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "score": 53.1,
-      "why": "you have written about them"
-    },
-    {
-      "kind": "regulatory",
-      "company": "Hermeus",
-      "headline": "FAA: Darkhorse Piloted Prototype",
-      "detail": "Quarterhorse / Darkhorse",
-      "date": "2026-08-18",
-      "url": "",
-      "value": 0,
-      "source": "FAA",
-      "fp": "6b018d41ee839da9",
-      "tier": "covered",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "score": 53.1,
-      "why": "you have written about them"
-    },
-    {
-      "kind": "announcement",
-      "company": "Andrenam",
-      "headline": "posted to its newsroom",
-      "detail": "",
-      "date": "2026-08-19",
-      "url": "https://andrenam.com",
-      "value": 18000000.0,
-      "source": "company newsroom",
-      "fp": "f8ebcc5652bc643a",
-      "tier": "visited",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "score": 52.0,
-      "why": "you have been on site / interviewed them"
-    },
-    {
-      "kind": "announcement",
-      "company": "Neros",
-      "headline": "posted to its newsroom",
-      "detail": "",
-      "date": "2026-08-19",
-      "url": "https://www.neros.tech",
-      "value": 250000000.0,
-      "source": "company newsroom",
-      "fp": "0b1279f442f4259f",
-      "tier": "covered",
-      "beat": "defense-primes-displaced",
-      "tags": [
-        "MEDIA"
-      ],
-      "score": 50.8,
-      "why": "you have written about them; feeds the defense primes displaced thread"
-    },
-    {
-      "kind": "grant",
-      "company": "Hermeus",
-      "headline": "$60M from USAF",
-      "detail": "Quarterhorse Mach-5 unmanned testbed",
-      "date": "2026-08-18",
-      "url": "https://afwerx.com/",
-      "value": 60000000.0,
-      "source": "grants.gov",
-      "fp": "14c1c285b88fed45",
-      "tier": "covered",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "score": 48.9,
-      "why": "you have written about them"
-    },
-    {
-      "kind": "form_d",
-      "company": "Mariana Minerals",
-      "headline": "filed a Form D",
-      "detail": "$310M offering; $310M already sold (fully subscribed)",
-      "date": "2026-08-06",
-      "url": "https://www.sec.gov/Archives/edgar/data/2123886/000212388626000004/primary_doc.xml",
-      "value": 310499477.0,
-      "source": "SEC EDGAR",
-      "fp": "9c8ccdc91e97ce1f",
-      "tier": "",
-      "beat": null,
-      "tags": [
-        "FUND",
-        "MEDIA"
-      ],
-      "score": 44.2,
-      "why": "size puts it in the fund's range; filed before any announcement"
-    },
-    {
-      "kind": "grant",
-      "company": "NuScale Power",
-      "headline": "$1.35B from DOE",
-      "detail": "Carbon Free Power Project (UAMPS) deployment",
-      "date": "2026-08-18",
-      "url": "https://www.energy.gov/ne/advanced-reactor-demonstration-program",
-      "value": 1355000000.0,
-      "source": "grants.gov",
-      "fp": "87b57dbaa15e4ee3",
-      "tier": "",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "score": 39.7,
-      "why": ""
-    },
-    {
-      "kind": "grant",
-      "company": "X-energy",
-      "headline": "$1.20B from DOE",
-      "detail": "Xe-100 reactor demo with Dow Chemical",
-      "date": "2026-08-18",
-      "url": "https://www.energy.gov/ne/advanced-reactor-demonstration-program",
-      "value": 1200000000.0,
-      "source": "grants.gov",
-      "fp": "0061b9a06ab74b25",
-      "tier": "",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "score": 39.5,
-      "why": ""
-    },
-    {
-      "kind": "regulatory",
-      "company": "Oklo",
-      "headline": "NRC: 2026-Q3 ASLB hearing / Safety Evaluation Report draft",
-      "detail": "Aurora Powerhouse (15MWe compact fast reactor)",
-      "date": "2026-08-18",
-      "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "value": 0,
-      "source": "NRC",
-      "fp": "351ca1c53d922023",
-      "tier": "",
-      "beat": "time-to-power",
-      "tags": [
-        "MEDIA"
-      ],
-      "score": 38.7,
-      "why": "feeds the time to power thread"
-    },
-    {
-      "kind": "grant",
-      "company": "Kairos Power",
-      "headline": "$303M from DOE",
-      "detail": "Hermes low-power demonstration reactor",
-      "date": "2026-08-18",
-      "url": "https://www.energy.gov/ne/advanced-reactor-demonstration-program",
-      "value": 303000000.0,
-      "source": "grants.gov",
-      "fp": "9c30a287156ce2dd",
-      "tier": "",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "score": 36.7,
-      "why": ""
-    },
-    {
-      "kind": "grant",
-      "company": "Planet Labs",
-      "headline": "$146M from NGA",
-      "detail": "Earth observation commercial layer imagery",
-      "date": "2026-08-18",
-      "url": "https://www.nga.mil/",
-      "value": 146000000.0,
-      "source": "grants.gov",
-      "fp": "3be8c9e32ff0705f",
-      "tier": "",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "score": 35.3,
-      "why": ""
-    },
-    {
-      "kind": "grant",
-      "company": "Boom Supersonic",
-      "headline": "$60M from USAF",
-      "detail": "Supersonic executive transport studies",
-      "date": "2026-08-18",
-      "url": "https://afwerx.com/",
-      "value": 60000000.0,
-      "source": "grants.gov",
-      "fp": "1d86c1b0101e3176",
-      "tier": "",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "score": 33.5,
-      "why": ""
-    },
-    {
-      "kind": "grant",
-      "company": "Commonwealth Fusion Systems",
-      "headline": "$50M from DOE",
-      "detail": "HTS magnet milestone for SPARC tokamak",
-      "date": "2026-08-18",
-      "url": "https://arpa-e.energy.gov/",
-      "value": 50000000.0,
-      "source": "grants.gov",
-      "fp": "0bdd3ad7273cc845",
-      "tier": "",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "score": 33.1,
-      "why": ""
+      "score": 42.0,
+      "why": "feeds the reindustrialization thread; size puts it in the fund's range"
     },
     {
       "kind": "funding",
-      "company": "Form Energy",
-      "headline": "raised $750M",
-      "detail": "Funding Round",
+      "company": "Heaviside",
+      "headline": "raised $60M",
+      "detail": "Funding Round, at $600M",
       "date": "2026-08-01",
       "url": "",
-      "value": 750000000.0,
+      "value": 60000000.0,
       "source": "press",
-      "fp": "661312c33c9e88b3",
+      "fp": "bf02bff28c54c6c2",
       "tier": "",
       "beat": null,
       "tags": [
         "FUND"
       ],
-      "score": 32.8,
+      "score": 27.8,
       "why": "size puts it in the fund's range"
     },
     {
-      "kind": "announcement",
-      "company": "Fortastra",
-      "headline": "posted to its newsroom",
-      "detail": "",
-      "date": "2026-08-19",
-      "url": "https://fortastra.com",
-      "value": 8000000.0,
-      "source": "company newsroom",
-      "fp": "a0fc9d1d9efd841e",
-      "tier": "il30",
+      "kind": "funding",
+      "company": "Terra Industries",
+      "headline": "raised $52M",
+      "detail": "Seed",
+      "date": "2026-08-01",
+      "url": "",
+      "value": 52000000.0,
+      "source": "press",
+      "fp": "05ea99fd6950b062",
+      "tier": "",
       "beat": null,
       "tags": [
-        "MEDIA"
+        "FUND"
       ],
-      "score": 32.8,
-      "why": "Innovators League 30"
-    },
-    {
-      "kind": "announcement",
-      "company": "Apex Space",
-      "headline": "posted to its newsroom",
-      "detail": "",
-      "date": "2026-08-19",
-      "url": "https://apexspace.com",
-      "value": 0.0,
-      "source": "company newsroom",
-      "fp": "5c7c6e1919d9e1da",
-      "tier": "il30",
-      "beat": "space-industrial",
-      "tags": [
-        "MEDIA"
-      ],
-      "score": 32.0,
-      "why": "Innovators League 30; feeds the space industrial thread"
+      "score": 27.5,
+      "why": "size puts it in the fund's range"
     }
   ]
 }
