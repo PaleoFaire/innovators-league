@@ -1,0 +1,143 @@
+name: Email the Action Brief
+
+# The morning dossier ingests from stephenmcbride92@gmail.com, so the brief has
+# to arrive as email rather than sit in the repo. This runs after the brief is
+# built and sends it to that inbox.
+#
+# ─── ONE-TIME SETUP (Stephen) ────────────────────────────────────────────
+# Add three repository secrets under Settings → Secrets and variables →
+# Actions. I cannot add these myself and should never see the password.
+#
+#   MAIL_USERNAME   the Gmail address that SENDS the mail
+#   MAIL_PASSWORD   a Google APP PASSWORD, not the account password.
+#                   Generate at https://myaccount.google.com/apppasswords
+#                   (requires 2-Step Verification to be on). An app password is
+#                   scoped to one app and revocable on its own, which is why it
+#                   is the right credential here.
+#   MAIL_TO         stephenmcbride92@gmail.com
+#
+# Until those exist the job skips cleanly rather than failing, so nothing goes
+# red in the Actions tab while it waits.
+#
+# A note on the sender: mail from your own address to your own address is the
+# simplest setup and needs no domain configuration. If you would rather it came
+# from stephen@rationaloptimistsociety.com, that works too — point
+# MAIL_USERNAME at it and use that account's app password, keeping MAIL_TO on
+# the gmail address the dossier watches.
+
+on:
+  workflow_run:
+    workflows: ["The Action Brief"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    name: Send to the dossier inbox
+    runs-on: ubuntu-latest
+    # Only mail a brief that was actually built successfully.
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Check the brief has something in it
+        id: check
+        run: |
+          if [ ! -f data/action_brief.md ]; then
+            echo "send=false" >> $GITHUB_OUTPUT
+            echo "No brief file — nothing to send."
+            exit 0
+          fi
+          N=$(python3 -c "import json;print(json.load(open('data/action_brief.json'))['new'])" 2>/dev/null || echo 0)
+          echo "count=$N" >> $GITHUB_OUTPUT
+          # A "nothing happened today" email every morning trains you to ignore
+          # the sender, which costs more than the missed day. Quiet days stay
+          # quiet; the brief is still committed to the repo either way.
+          if [ "$N" -gt 0 ]; then
+            echo "send=true" >> $GITHUB_OUTPUT
+          else
+            echo "send=false" >> $GITHUB_OUTPUT
+            echo "Nothing new today — not sending."
+          fi
+
+      - name: Confirm the mail secrets exist
+        id: creds
+        run: |
+          if [ -n "${{ secrets.MAIL_USERNAME }}" ] && [ -n "${{ secrets.MAIL_PASSWORD }}" ] && [ -n "${{ secrets.MAIL_TO }}" ]; then
+            echo "ready=true" >> $GITHUB_OUTPUT
+          else
+            echo "ready=false" >> $GITHUB_OUTPUT
+            echo "::notice::Mail secrets not set yet — see the header of this workflow file for the three needed."
+          fi
+
+      - name: Render the brief as HTML
+        if: steps.check.outputs.send == 'true' && steps.creds.outputs.ready == 'true'
+        run: |
+          python3 - <<'PY'
+          import json, html, pathlib
+          d = json.load(open("data/action_brief.json"))
+          items = d["items"]
+          COLOR = {"FUND": "#2F6B4F", "MEDIA": "#26557C", "POD": "#9A6B18"}
+
+          def chip(t):
+              c = COLOR.get(t, "#6B747E")
+              return (f'<span style="font:600 10px/1 -apple-system,Segoe UI,sans-serif;'
+                      f'letter-spacing:.08em;color:{c};border:1px solid {c};'
+                      f'border-radius:2px;padding:3px 5px;margin-right:4px">{t}</span>')
+
+          rows = []
+          for e in items:
+              chips = "".join(chip(t) for t in e["tags"])
+              url = html.escape(e.get("url") or "")
+              name = html.escape(e["company"])
+              head = f'<a href="{url}" style="color:#14181D;text-decoration:none">{name}</a>' if url else name
+              rows.append(f"""
+              <tr><td style="padding:14px 0;border-bottom:1px solid #E4E5E4">
+                <div style="font:600 16px/1.35 -apple-system,Segoe UI,sans-serif;color:#14181D">
+                  {head} <span style="font-weight:400">{html.escape(e['headline'])}</span>
+                </div>
+                {'<div style="font:400 14px/1.5 -apple-system,Segoe UI,sans-serif;color:#3D454E;margin-top:3px">'+html.escape(e['detail'])+'</div>' if e.get('detail') else ''}
+                {'<div style="font:400 13px/1.5 -apple-system,Segoe UI,sans-serif;color:#6B747E;margin-top:3px"><em>Why you:</em> '+html.escape(e['why'])+'</div>' if e.get('why') else ''}
+                <div style="margin-top:7px">{chips}</div>
+              </td></tr>""")
+
+          body = f"""<div style="max-width:640px;margin:0 auto;padding:24px;background:#FFFFFF">
+            <div style="font:600 22px/1.2 Georgia,serif;color:#14181D">The Action Brief</div>
+            <div style="font:400 13px/1.5 -apple-system,Segoe UI,sans-serif;color:#6B747E;margin:6px 0 18px">
+              {d['new']} new out of {d['scanned']} scanned &middot;
+              {d['fund']} for the fund &middot; {d['media']} story hooks &middot; {d['pod']} booking leads
+            </div>
+            <table cellpadding="0" cellspacing="0" width="100%">{''.join(rows)}</table>
+            <div style="font:400 12px/1.5 -apple-system,Segoe UI,sans-serif;color:#828C96;margin-top:20px">
+              Built from the Innovators League pipeline. Every line is a primary-source fact;
+              nothing here is model-written.
+            </div>
+          </div>"""
+          pathlib.Path("brief_email.html").write_text(body)
+          print(f"rendered {len(items)} items")
+          PY
+
+      - name: Send
+        if: steps.check.outputs.send == 'true' && steps.creds.outputs.ready == 'true'
+        uses: dawidd6/action-send-mail@v4
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          to: ${{ secrets.MAIL_TO }}
+          from: Innovators League <${{ secrets.MAIL_USERNAME }}>
+          # Subject leads with the count so the dossier — and you — can triage
+          # from the subject line alone without opening it.
+          subject: "Action Brief: ${{ steps.check.outputs.count }} signals"
+          html_body: file://brief_email.html
+          convert_markdown: false
+          attachments: data/action_brief.md
