@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T19:37:25.968478+00:00",
+  "generatedAt": "2026-08-20T20:37:38.916172+00:00",
   "date": "2026-08-20",
   "dateDisplay": "Thursday, August 20, 2026",
   "sections": {
@@ -79,60 +79,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 67.39,
-        "changePercent": 24.14,
-        "change": 13.1
-      },
-      {
         "ticker": "ONT.L",
         "company": "Oxford Nanopore Technologies",
-        "price": 150.4,
-        "changePercent": 19.27,
-        "change": 24.3
+        "price": 164.5,
+        "changePercent": 30.45,
+        "change": 38.4
       },
       {
-        "ticker": "AUR",
-        "company": "Aurora Innovation",
-        "price": 6.01,
-        "changePercent": -12.13,
-        "change": -0.83
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 285.21,
-        "changePercent": -11.64,
-        "change": -37.57
-      },
-      {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 22.01,
-        "changePercent": -11.07,
-        "change": -2.74
+        "ticker": "TEM",
+        "company": "Tempus AI",
+        "price": 66.73,
+        "changePercent": 22.92,
+        "change": 12.45
       },
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 16.59,
-        "changePercent": -10.9,
-        "change": -2.03
+        "price": 15.9,
+        "changePercent": -14.61,
+        "change": -2.72
+      },
+      {
+        "ticker": "ACHR",
+        "company": "Archer Aviation",
+        "price": 6.03,
+        "changePercent": -13.49,
+        "change": -0.94
       },
       {
         "ticker": "NNE",
         "company": "Nano Nuclear Energy",
-        "price": 18.35,
-        "changePercent": -10.58,
-        "change": -2.17
+        "price": 18.12,
+        "changePercent": -11.7,
+        "change": -2.4
       },
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 5.28,
-        "changePercent": -10.36,
-        "change": -0.61
+        "ticker": "AUR",
+        "company": "Aurora Innovation",
+        "price": 6.08,
+        "changePercent": -11.18,
+        "change": -0.76
+      },
+      {
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 22.0,
+        "changePercent": -11.11,
+        "change": -2.75
+      },
+      {
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 41.29,
+        "changePercent": -11.11,
+        "change": -5.16
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "TEM +24.1%"
+    "topMover": "ONT.L +30.4%"
   }
 }
