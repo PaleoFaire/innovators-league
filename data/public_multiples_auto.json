@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T19:44:11+00:00",
+  "generatedAt": "2026-08-20T02:33:02+00:00",
   "source": "Yahoo Finance \u00b7 live quoteSummary modules (summaryDetail, defaultKeyStatistics, financialData)",
   "disclaimer": "Public market multiples sourced live from Yahoo Finance. Comparable Engine applies sector-median multiples to user-supplied private revenue figures. ROS does NOT estimate private-company revenue \u2014 those inputs must be supplied. All public values are verifiable on the linked Yahoo Finance ticker page.",
   "tickerCount": 32,
@@ -13,18 +13,18 @@
       "price": 175.19,
       "marketCap": "N/A",
       "marketCapRaw": 0,
-      "trailingPE": 149.73933,
-      "forwardPE": 75.70304,
-      "priceToSalesTTM": 68.38985,
-      "enterpriseToRevenue": 65.487,
-      "enterpriseToEbitda": 151.404,
-      "revenueTTM": 6155940864,
-      "revenueTTMFormatted": "$6.16B",
-      "revenueGrowthYoY": 0.928,
-      "grossMarginsTTM": 0.84796,
-      "operatingMarginsTTM": 0.47120997,
-      "ebitdaTTM": 2662629888,
-      "lastUpdated": "2026-08-19 19:43:33",
+      "trailingPE": null,
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:16",
       "yahooUrl": "https://finance.yahoo.com/quote/PLTR",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PLTR"
     },
@@ -33,21 +33,21 @@
       "company": "Rocket Lab",
       "sector": "space",
       "sectorLabel": "Space & Aerospace",
-      "price": 76.34,
+      "price": 75.84,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": 1527.2,
-      "priceToSalesTTM": 63.48005,
-      "enterpriseToRevenue": 58.762,
-      "enterpriseToEbitda": -300.27,
-      "revenueTTM": 769145984,
-      "revenueTTMFormatted": "$769.1M",
-      "revenueGrowthYoY": 0.62,
-      "grossMarginsTTM": 0.37264,
-      "operatingMarginsTTM": -0.24572,
-      "ebitdaTTM": -150520992,
-      "lastUpdated": "2026-08-19 19:43:34",
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:17",
       "yahooUrl": "https://finance.yahoo.com/quote/RKLB",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RKLB"
     },
@@ -56,21 +56,21 @@
       "company": "Joby Aviation",
       "sector": "evtol",
       "sectorLabel": "Advanced Air Mobility",
-      "price": 7.75,
+      "price": 7.72,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -12.007752,
-      "priceToSalesTTM": 65.87357,
-      "enterpriseToRevenue": 52.029,
-      "enterpriseToEbitda": -7.214,
-      "revenueTTM": 116295000,
-      "revenueTTMFormatted": "$116.3M",
-      "revenueGrowthYoY": 2574.933,
-      "grossMarginsTTM": 0.34289002,
-      "operatingMarginsTTM": -6.75181,
-      "ebitdaTTM": -838780032,
-      "lastUpdated": "2026-08-19 19:43:35",
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:18",
       "yahooUrl": "https://finance.yahoo.com/quote/JOBY",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=JOBY"
     },
@@ -79,21 +79,21 @@
       "company": "Archer Aviation",
       "sector": "evtol",
       "sectorLabel": "Advanced Air Mobility",
-      "price": 6.43,
+      "price": 6.45,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -7.970619,
-      "priceToSalesTTM": 718.1337,
-      "enterpriseToRevenue": 500.703,
-      "enterpriseToEbitda": -3.814,
-      "revenueTTM": 6900000,
-      "revenueTTMFormatted": "$6.9M",
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
       "revenueGrowthYoY": null,
-      "grossMarginsTTM": 0.14493,
-      "operatingMarginsTTM": -55.14,
-      "ebitdaTTM": -905800000,
-      "lastUpdated": "2026-08-19 19:43:36",
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:19",
       "yahooUrl": "https://finance.yahoo.com/quote/ACHR",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ACHR"
     },
@@ -102,21 +102,21 @@
       "company": "Planet Labs",
       "sector": "space",
       "sectorLabel": "Space & Aerospace",
-      "price": 22.68,
+      "price": 22.62,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": 6810.811,
-      "priceToSalesTTM": 24.084982,
-      "enterpriseToRevenue": 24.084,
-      "enterpriseToEbitda": -156.282,
-      "revenueTTM": 335612000,
-      "revenueTTMFormatted": "$335.6M",
-      "revenueGrowthYoY": 0.421,
-      "grossMarginsTTM": 0.55579,
-      "operatingMarginsTTM": -0.30459,
-      "ebitdaTTM": -51719000,
-      "lastUpdated": "2026-08-19 19:43:37",
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:20",
       "yahooUrl": "https://finance.yahoo.com/quote/PL",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PL"
     },
@@ -125,21 +125,21 @@
       "company": "Intuitive Machines",
       "sector": "space",
       "sectorLabel": "Space & Aerospace",
-      "price": 18.45,
+      "price": 18.52,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -138.34096,
-      "priceToSalesTTM": 6.0384045,
-      "enterpriseToRevenue": 9.457,
-      "enterpriseToEbitda": -62.324,
-      "revenueTTM": 490120000,
-      "revenueTTMFormatted": "$490.1M",
-      "revenueGrowthYoY": 3.098,
-      "grossMarginsTTM": 0.16349001,
-      "operatingMarginsTTM": -0.18099001,
-      "ebitdaTTM": -74371000,
-      "lastUpdated": "2026-08-19 19:43:38",
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:21",
       "yahooUrl": "https://finance.yahoo.com/quote/LUNR",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LUNR"
     },
@@ -148,21 +148,21 @@
       "company": "AST SpaceMobile",
       "sector": "space",
       "sectorLabel": "Space & Aerospace",
-      "price": 66.76,
+      "price": 66.43,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -55.071606,
-      "priceToSalesTTM": 225.33432,
-      "enterpriseToRevenue": 184.875,
-      "enterpriseToEbitda": -52.461,
-      "revenueTTM": 115299000,
-      "revenueTTMFormatted": "$115.3M",
-      "revenueGrowthYoY": 26.266,
-      "grossMarginsTTM": 0.38914,
-      "operatingMarginsTTM": -5.44626,
-      "ebitdaTTM": -406319008,
-      "lastUpdated": "2026-08-19 19:43:39",
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:21",
       "yahooUrl": "https://finance.yahoo.com/quote/ASTS",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ASTS"
     },
@@ -171,21 +171,21 @@
       "company": "Satellogic",
       "sector": "space",
       "sectorLabel": "Space & Aerospace",
-      "price": 5.57,
+      "price": 5.53,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -185.5,
-      "priceToSalesTTM": 26.8151,
-      "enterpriseToRevenue": 27.147,
-      "enterpriseToEbitda": -55.622,
-      "revenueTTM": 31906000,
-      "revenueTTMFormatted": "$31.9M",
-      "revenueGrowthYoY": 2.585,
-      "grossMarginsTTM": 0.78929,
-      "operatingMarginsTTM": 0.01671,
-      "ebitdaTTM": -15572000,
-      "lastUpdated": "2026-08-19 19:43:40",
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:23",
       "yahooUrl": "https://finance.yahoo.com/quote/SATL",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SATL"
     },
@@ -194,21 +194,21 @@
       "company": "Oklo",
       "sector": "nuclear",
       "sectorLabel": "Nuclear Energy",
-      "price": 42.7,
+      "price": 42.94,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -42.521835,
-      "priceToSalesTTM": 6564.4243,
-      "enterpriseToRevenue": 4324.373,
-      "enterpriseToEbitda": -24.135,
-      "revenueTTM": 1210000,
-      "revenueTTMFormatted": "$1.2M",
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
       "revenueGrowthYoY": null,
-      "grossMarginsTTM": 0.40412998,
-      "operatingMarginsTTM": -60.4876,
-      "ebitdaTTM": -216798000,
-      "lastUpdated": "2026-08-19 19:43:41",
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:25",
       "yahooUrl": "https://finance.yahoo.com/quote/OKLO",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=OKLO"
     },
@@ -217,21 +217,21 @@
       "company": "QuantumScape",
       "sector": "battery",
       "sectorLabel": "Energy Storage",
-      "price": 5.83,
+      "price": 5.88,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -8.573822,
+      "forwardPE": null,
       "priceToSalesTTM": null,
       "enterpriseToRevenue": null,
-      "enterpriseToEbitda": -6.973,
+      "enterpriseToEbitda": null,
       "revenueTTM": null,
       "revenueTTMFormatted": null,
       "revenueGrowthYoY": null,
       "grossMarginsTTM": null,
       "operatingMarginsTTM": null,
-      "ebitdaTTM": -397867008,
-      "lastUpdated": "2026-08-19 19:43:42",
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:27",
       "yahooUrl": "https://finance.yahoo.com/quote/QS",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=QS"
     },
@@ -240,21 +240,21 @@
       "company": "IonQ",
       "sector": "quantum",
       "sectorLabel": "Quantum Computing",
-      "price": 43.03,
+      "price": 43.36,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -35.439972,
-      "priceToSalesTTM": 70.76239,
-      "enterpriseToRevenue": 59.875,
-      "enterpriseToEbitda": -18.609,
-      "revenueTTM": 246474000,
-      "revenueTTMFormatted": "$246.5M",
-      "revenueGrowthYoY": 2.868,
-      "grossMarginsTTM": 0.30854,
-      "operatingMarginsTTM": -4.08174,
-      "ebitdaTTM": -793051008,
-      "lastUpdated": "2026-08-19 19:43:43",
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:28",
       "yahooUrl": "https://finance.yahoo.com/quote/IONQ",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IONQ"
     },
@@ -263,21 +263,21 @@
       "company": "Rigetti Computing",
       "sector": "quantum",
       "sectorLabel": "Quantum Computing",
-      "price": 16.93,
+      "price": 17.0,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -82.20873,
-      "priceToSalesTTM": 423.30365,
-      "enterpriseToRevenue": 413.767,
-      "enterpriseToEbitda": -63.339,
-      "revenueTTM": 13353000,
-      "revenueTTMFormatted": "$13.4M",
-      "revenueGrowthYoY": 1.853,
-      "grossMarginsTTM": 0.34614,
-      "operatingMarginsTTM": -5.4616604,
-      "ebitdaTTM": -87229000,
-      "lastUpdated": "2026-08-19 19:43:44",
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:30",
       "yahooUrl": "https://finance.yahoo.com/quote/RGTI",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RGTI"
     },
@@ -290,17 +290,17 @@
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -52.50978,
-      "priceToSalesTTM": 579.4146,
-      "enterpriseToRevenue": 545.324,
-      "enterpriseToEbitda": -42.034,
-      "revenueTTM": 12425000,
-      "revenueTTMFormatted": "$12.4M",
-      "revenueGrowthYoY": -0.006,
-      "grossMarginsTTM": 0.64185,
-      "operatingMarginsTTM": -17.32055,
-      "ebitdaTTM": -161195008,
-      "lastUpdated": "2026-08-19 19:43:45",
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:31",
       "yahooUrl": "https://finance.yahoo.com/quote/QBTS",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=QBTS"
     },
@@ -309,21 +309,21 @@
       "company": "Recursion Pharmaceuticals",
       "sector": "biotech",
       "sectorLabel": "Biotech & Health",
-      "price": 3.45,
+      "price": 3.5,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -3.8521807,
-      "priceToSalesTTM": 33.694866,
-      "enterpriseToRevenue": 21.423,
-      "enterpriseToEbitda": -2.492,
-      "revenueTTM": 54856000,
-      "revenueTTMFormatted": "$54.9M",
-      "revenueGrowthYoY": -0.601,
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
       "grossMarginsTTM": null,
-      "operatingMarginsTTM": -17.59687,
-      "ebitdaTTM": -471604000,
-      "lastUpdated": "2026-08-19 19:43:47",
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:32",
       "yahooUrl": "https://finance.yahoo.com/quote/RXRX",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RXRX"
     },
@@ -332,21 +332,21 @@
       "company": "Tempus AI",
       "sector": "biotech",
       "sectorLabel": "Biotech & Health",
-      "price": 60.95,
+      "price": 61.25,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -4009.5393,
-      "priceToSalesTTM": 7.6790853,
-      "enterpriseToRevenue": 6.658,
-      "enterpriseToEbitda": -49.308,
-      "revenueTTM": 1432018944,
-      "revenueTTMFormatted": "$1.43B",
-      "revenueGrowthYoY": 0.216,
-      "grossMarginsTTM": 0.63979,
-      "operatingMarginsTTM": -0.20106001,
-      "ebitdaTTM": -193363008,
-      "lastUpdated": "2026-08-19 19:43:48",
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:34",
       "yahooUrl": "https://finance.yahoo.com/quote/TEM",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TEM"
     },
@@ -355,21 +355,21 @@
       "company": "Rivian",
       "sector": "ev",
       "sectorLabel": "Electric Vehicles",
-      "price": 15.69,
+      "price": 15.73,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -8.778852,
-      "priceToSalesTTM": 3.8602235,
-      "enterpriseToRevenue": 3.648,
-      "enterpriseToEbitda": -7.908,
-      "revenueTTM": 5882999808,
-      "revenueTTMFormatted": "$5.88B",
-      "revenueGrowthYoY": 0.272,
-      "grossMarginsTTM": 0.07513,
-      "operatingMarginsTTM": -0.50422,
-      "ebitdaTTM": -2713999872,
-      "lastUpdated": "2026-08-19 19:43:49",
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:36",
       "yahooUrl": "https://finance.yahoo.com/quote/RIVN",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RIVN"
     },
@@ -378,21 +378,21 @@
       "company": "Astera Labs",
       "sector": "chips",
       "sectorLabel": "Semiconductors",
-      "price": 288.33,
+      "price": 289.02,
       "marketCap": "N/A",
       "marketCapRaw": 0,
-      "trailingPE": 142.03448,
-      "forwardPE": 45.09673,
-      "priceToSalesTTM": 41.61758,
-      "enterpriseToRevenue": 42.793,
-      "enterpriseToEbitda": 180.219,
-      "revenueTTM": 1201918976,
-      "revenueTTMFormatted": "$1.20B",
-      "revenueGrowthYoY": 1.045,
-      "grossMarginsTTM": 0.75128996,
-      "operatingMarginsTTM": 0.22744,
-      "ebitdaTTM": 285396000,
-      "lastUpdated": "2026-08-19 19:43:53",
+      "trailingPE": null,
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:37",
       "yahooUrl": "https://finance.yahoo.com/quote/ALAB",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ALAB"
     },
@@ -401,21 +401,21 @@
       "company": "NVIDIA",
       "sector": "chips",
       "sectorLabel": "Semiconductors",
-      "price": 218.92,
+      "price": 217.56,
       "marketCap": "N/A",
       "marketCapRaw": 0,
-      "trailingPE": 33.525265,
-      "forwardPE": 17.057829,
-      "priceToSalesTTM": 20.91775,
-      "enterpriseToRevenue": 20.819,
-      "enterpriseToEbitda": 31.885,
-      "revenueTTM": 253491003392,
-      "revenueTTMFormatted": "$253.49B",
-      "revenueGrowthYoY": 0.852,
-      "grossMarginsTTM": 0.74144995,
-      "operatingMarginsTTM": 0.65596,
-      "ebitdaTTM": 165514002432,
-      "lastUpdated": "2026-08-19 19:43:53",
+      "trailingPE": null,
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:38",
       "yahooUrl": "https://finance.yahoo.com/quote/NVDA",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NVDA"
     },
@@ -424,21 +424,21 @@
       "company": "AMD",
       "sector": "chips",
       "sectorLabel": "Semiconductors",
-      "price": 467.07,
+      "price": 466.42,
       "marketCap": "N/A",
       "marketCapRaw": 0,
-      "trailingPE": 119.1352,
-      "forwardPE": 30.193123,
-      "priceToSalesTTM": 18.457382,
-      "enterpriseToRevenue": 18.93,
-      "enterpriseToEbitda": 81.774,
-      "revenueTTM": 41305001984,
-      "revenueTTMFormatted": "$41.31B",
-      "revenueGrowthYoY": 0.501,
-      "grossMarginsTTM": 0.55724,
-      "operatingMarginsTTM": 0.1725,
-      "ebitdaTTM": 9562000384,
-      "lastUpdated": "2026-08-19 19:43:55",
+      "trailingPE": null,
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:39",
       "yahooUrl": "https://finance.yahoo.com/quote/AMD",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMD"
     },
@@ -447,21 +447,21 @@
       "company": "Aurora Innovation",
       "sector": "autonomy",
       "sectorLabel": "Autonomous Driving",
-      "price": 6.18,
+      "price": 6.2,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -13.744445,
-      "priceToSalesTTM": 2479.1401,
-      "enterpriseToRevenue": 2238.111,
-      "enterpriseToEbitda": -11.918,
-      "revenueTTM": 5000000,
-      "revenueTTMFormatted": "$5.0M",
-      "revenueGrowthYoY": 1.0,
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
       "grossMarginsTTM": null,
-      "operatingMarginsTTM": -133.0,
-      "ebitdaTTM": -939000000,
-      "lastUpdated": "2026-08-19 19:43:56",
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:41",
       "yahooUrl": "https://finance.yahoo.com/quote/AUR",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AUR"
     },
@@ -470,21 +470,21 @@
       "company": "LanzaTech",
       "sector": "climate",
       "sectorLabel": "Climate & Bio-Manufacturing",
-      "price": 6.3,
+      "price": 6.23,
       "marketCap": "N/A",
       "marketCapRaw": 0,
-      "trailingPE": 0.32053888,
-      "forwardPE": -18.544117,
-      "priceToSalesTTM": 1.415269,
-      "enterpriseToRevenue": 1.123,
-      "enterpriseToEbitda": -2.096,
-      "revenueTTM": 58312000,
-      "revenueTTMFormatted": "$58.3M",
-      "revenueGrowthYoY": -0.008,
-      "grossMarginsTTM": 0.44601002,
-      "operatingMarginsTTM": -1.0953,
-      "ebitdaTTM": -31253000,
-      "lastUpdated": "2026-08-19 19:43:59",
+      "trailingPE": null,
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:44",
       "yahooUrl": "https://finance.yahoo.com/quote/LNZA",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LNZA"
     },
@@ -497,17 +497,17 @@
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -19.398582,
-      "priceToSalesTTM": 4801.7793,
-      "enterpriseToRevenue": 1874.352,
-      "enterpriseToEbitda": -7.782,
-      "revenueTTM": 214042,
-      "revenueTTMFormatted": "$214,042",
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
       "revenueGrowthYoY": null,
-      "grossMarginsTTM": 0.29065,
-      "operatingMarginsTTM": -73.782745,
-      "ebitdaTTM": -51555248,
-      "lastUpdated": "2026-08-19 19:44:00",
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:46",
       "yahooUrl": "https://finance.yahoo.com/quote/NNE",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NNE"
     },
@@ -516,21 +516,21 @@
       "company": "NuScale Power",
       "sector": "nuclear",
       "sectorLabel": "Nuclear Energy",
-      "price": 9.3,
+      "price": 9.29,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -14.362227,
-      "priceToSalesTTM": 357.21933,
-      "enterpriseToRevenue": 227.564,
-      "enterpriseToEbitda": -10.856,
-      "revenueTTM": 10690000,
-      "revenueTTMFormatted": "$10.7M",
-      "revenueGrowthYoY": -0.991,
-      "grossMarginsTTM": 0.23545,
-      "operatingMarginsTTM": -853.37335,
-      "ebitdaTTM": -224090000,
-      "lastUpdated": "2026-08-19 19:44:01",
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:49",
       "yahooUrl": "https://finance.yahoo.com/quote/SMR",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SMR"
     },
@@ -539,21 +539,21 @@
       "company": "Solid Power",
       "sector": "battery",
       "sectorLabel": "Energy Storage",
-      "price": 2.33,
+      "price": 2.32,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -5.177778,
-      "priceToSalesTTM": 71.924,
-      "enterpriseToRevenue": 38.009,
-      "enterpriseToEbitda": -3.191,
-      "revenueTTM": 7392000,
-      "revenueTTMFormatted": "$7.4M",
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
       "revenueGrowthYoY": null,
-      "grossMarginsTTM": -1.0505999,
-      "operatingMarginsTTM": 29.78269,
-      "ebitdaTTM": -88048000,
-      "lastUpdated": "2026-08-19 19:44:02",
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:50",
       "yahooUrl": "https://finance.yahoo.com/quote/SLDP",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SLDP"
     },
@@ -566,17 +566,17 @@
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -0.6979847,
+      "forwardPE": null,
       "priceToSalesTTM": null,
       "enterpriseToRevenue": null,
-      "enterpriseToEbitda": -0.214,
+      "enterpriseToEbitda": null,
       "revenueTTM": null,
       "revenueTTMFormatted": null,
       "revenueGrowthYoY": null,
       "grossMarginsTTM": null,
       "operatingMarginsTTM": null,
-      "ebitdaTTM": -152280992,
-      "lastUpdated": "2026-08-19 19:44:03",
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:51",
       "yahooUrl": "https://finance.yahoo.com/quote/EVTL",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EVTL"
     },
@@ -591,15 +591,15 @@
       "trailingPE": null,
       "forwardPE": null,
       "priceToSalesTTM": null,
-      "enterpriseToRevenue": 0.286,
-      "enterpriseToEbitda": -0.112,
-      "revenueTTM": 5939999744,
-      "revenueTTMFormatted": "$5.94B",
-      "revenueGrowthYoY": 0.593,
-      "grossMarginsTTM": 0.0032,
-      "operatingMarginsTTM": -5.91476,
-      "ebitdaTTM": -15127000064,
-      "lastUpdated": "2026-08-19 19:44:05",
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:53",
       "yahooUrl": "https://finance.yahoo.com/quote/ASRHF",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ASRHF"
     },
@@ -613,16 +613,16 @@
       "marketCapRaw": 0,
       "trailingPE": null,
       "forwardPE": null,
-      "priceToSalesTTM": 5.7113147,
-      "enterpriseToRevenue": 4.763,
-      "enterpriseToEbitda": 430.139,
-      "revenueTTM": 216812000,
-      "revenueTTMFormatted": "$216.8M",
-      "revenueGrowthYoY": 3.168,
-      "grossMarginsTTM": 0.60931,
-      "operatingMarginsTTM": -0.03497,
-      "ebitdaTTM": 2401000,
-      "lastUpdated": "2026-08-19 19:44:06",
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:54",
       "yahooUrl": "https://finance.yahoo.com/quote/DRSHF",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DRSHF"
     },
@@ -635,17 +635,17 @@
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -18.413074,
-      "priceToSalesTTM": 6.0849757,
-      "enterpriseToRevenue": 4.318,
-      "enterpriseToEbitda": -8.363,
-      "revenueTTM": 223900000,
-      "revenueTTMFormatted": "$223.9M",
-      "revenueGrowthYoY": 0.194,
-      "grossMarginsTTM": 0.6092,
-      "operatingMarginsTTM": -0.48689997,
-      "ebitdaTTM": -115600000,
-      "lastUpdated": "2026-08-19 19:44:07",
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:56",
       "yahooUrl": "https://finance.yahoo.com/quote/ONT.L",
       "secUrl": null
     },
@@ -654,21 +654,21 @@
       "company": "Rainbow Robotics",
       "sector": "robotics",
       "sectorLabel": "Robotics",
-      "price": 462500.0,
+      "price": 471000.0,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
       "forwardPE": null,
-      "priceToSalesTTM": 230.05745,
-      "enterpriseToRevenue": 228.492,
-      "enterpriseToEbitda": -5836.757,
-      "revenueTTM": 39000842240,
-      "revenueTTMFormatted": "$39.00B",
-      "revenueGrowthYoY": 1.166,
-      "grossMarginsTTM": 0.33401,
-      "operatingMarginsTTM": -0.17292,
-      "ebitdaTTM": -1526769024,
-      "lastUpdated": "2026-08-19 19:44:08",
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:58",
       "yahooUrl": "https://finance.yahoo.com/quote/277810.KQ",
       "secUrl": null
     },
@@ -680,18 +680,18 @@
       "price": 825.2,
       "marketCap": "N/A",
       "marketCapRaw": 0,
-      "trailingPE": 896.95654,
-      "forwardPE": 41.888325,
-      "priceToSalesTTM": 14.549157,
-      "enterpriseToRevenue": 12.758,
-      "enterpriseToEbitda": 115.401,
-      "revenueTTM": 2819369984,
-      "revenueTTMFormatted": "$2.82B",
-      "revenueGrowthYoY": 4.367,
-      "grossMarginsTTM": 0.55649,
-      "operatingMarginsTTM": -0.17316,
-      "ebitdaTTM": 311695008,
-      "lastUpdated": "2026-08-19 19:44:09",
+      "trailingPE": null,
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:32:59",
       "yahooUrl": "https://finance.yahoo.com/quote/IDEAFORGE.NS",
       "secUrl": null
     },
@@ -700,21 +700,21 @@
       "company": "ispace",
       "sector": "space",
       "sectorLabel": "Space & Aerospace",
-      "price": 427.0,
+      "price": 428.0,
       "marketCap": "N/A",
       "marketCapRaw": 0,
       "trailingPE": null,
-      "forwardPE": -6.031073,
-      "priceToSalesTTM": 27.045101,
-      "enterpriseToRevenue": 28.801,
-      "enterpriseToEbitda": -4.339,
-      "revenueTTM": 2310030080,
-      "revenueTTMFormatted": "$2.31B",
-      "revenueGrowthYoY": -0.855,
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
       "grossMarginsTTM": null,
-      "operatingMarginsTTM": -32.7291,
-      "ebitdaTTM": -15334363136,
-      "lastUpdated": "2026-08-19 19:44:10",
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:33:00",
       "yahooUrl": "https://finance.yahoo.com/quote/9348.T",
       "secUrl": null
     },
@@ -723,21 +723,21 @@
       "company": "Tesla",
       "sector": "ev",
       "sectorLabel": "Electric Vehicles",
-      "price": 348.56,
+      "price": 351.12,
       "marketCap": "N/A",
       "marketCapRaw": 0,
-      "trailingPE": 322.72684,
-      "forwardPE": 160.25206,
-      "priceToSalesTTM": 13.285161,
-      "enterpriseToRevenue": 12.582,
-      "enterpriseToEbitda": 121.218,
-      "revenueTTM": 103619002368,
-      "revenueTTMFormatted": "$103.62B",
-      "revenueGrowthYoY": 0.255,
-      "grossMarginsTTM": 0.18852,
-      "operatingMarginsTTM": 0.014099999,
-      "ebitdaTTM": 10755000320,
-      "lastUpdated": "2026-08-19 19:44:11",
+      "trailingPE": null,
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": null,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": null,
+      "lastUpdated": "2026-08-20 02:33:01",
       "yahooUrl": "https://finance.yahoo.com/quote/TSLA",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TSLA"
     }
@@ -751,36 +751,36 @@
         "PLTR"
       ],
       "priceToSales": {
-        "median": 68.38985,
-        "p25": 68.38985,
-        "p75": 68.38985,
-        "n": 1
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evRevenue": {
-        "median": 65.487,
-        "p25": 65.487,
-        "p75": 65.487,
-        "n": 1
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evEbitda": {
-        "median": 151.404,
-        "p25": 151.404,
-        "p75": 151.404,
-        "n": 1
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "trailingPE": {
-        "median": 149.73933,
-        "p25": 149.73933,
-        "p75": 149.73933,
-        "n": 1
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "revenueGrowth": {
-        "median": 0.928,
-        "n": 1
+        "median": null,
+        "n": 0
       },
       "grossMargin": {
-        "median": 0.84796,
-        "n": 1
+        "median": null,
+        "n": 0
       }
     },
     {
@@ -793,22 +793,22 @@
         "EVTL"
       ],
       "priceToSales": {
-        "median": 392.00363500000003,
-        "p25": 228.9386025,
-        "p75": 555.0686675,
-        "n": 2
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evRevenue": {
-        "median": 276.366,
-        "p25": 164.1975,
-        "p75": 388.5345,
-        "n": 2
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evEbitda": {
-        "median": -3.814,
-        "p25": -5.514,
-        "p75": -2.0140000000000002,
-        "n": 3
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "trailingPE": {
         "median": null,
@@ -817,12 +817,12 @@
         "n": 0
       },
       "revenueGrowth": {
-        "median": 2574.933,
-        "n": 1
+        "median": null,
+        "n": 0
       },
       "grossMargin": {
-        "median": 0.24391001,
-        "n": 2
+        "median": null,
+        "n": 0
       }
     },
     {
@@ -833,22 +833,22 @@
         "AUR"
       ],
       "priceToSales": {
-        "median": 2479.1401,
-        "p25": 2479.1401,
-        "p75": 2479.1401,
-        "n": 1
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evRevenue": {
-        "median": 2238.111,
-        "p25": 2238.111,
-        "p75": 2238.111,
-        "n": 1
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evEbitda": {
-        "median": -11.918,
-        "p25": -11.918,
-        "p75": -11.918,
-        "n": 1
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "trailingPE": {
         "median": null,
@@ -857,8 +857,8 @@
         "n": 0
       },
       "revenueGrowth": {
-        "median": 1.0,
-        "n": 1
+        "median": null,
+        "n": 0
       },
       "grossMargin": {
         "median": null,
@@ -875,22 +875,22 @@
         "ONT.L"
       ],
       "priceToSales": {
-        "median": 7.6790853,
-        "p25": 6.8820305,
-        "p75": 20.686975649999997,
-        "n": 3
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evRevenue": {
-        "median": 6.658,
-        "p25": 5.4879999999999995,
-        "p75": 14.040499999999998,
-        "n": 3
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evEbitda": {
-        "median": -8.363,
-        "p25": -28.8355,
-        "p75": -5.4275,
-        "n": 3
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "trailingPE": {
         "median": null,
@@ -899,12 +899,12 @@
         "n": 0
       },
       "revenueGrowth": {
-        "median": 0.194,
-        "n": 3
+        "median": null,
+        "n": 0
       },
       "grossMargin": {
-        "median": 0.624495,
-        "n": 2
+        "median": null,
+        "n": 0
       }
     },
     {
@@ -915,36 +915,36 @@
         "LNZA"
       ],
       "priceToSales": {
-        "median": 1.415269,
-        "p25": 1.415269,
-        "p75": 1.415269,
-        "n": 1
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evRevenue": {
-        "median": 1.123,
-        "p25": 1.123,
-        "p75": 1.123,
-        "n": 1
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evEbitda": {
-        "median": -2.096,
-        "p25": -2.096,
-        "p75": -2.096,
-        "n": 1
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "trailingPE": {
-        "median": 0.32053888,
-        "p25": 0.32053888,
-        "p75": 0.32053888,
-        "n": 1
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "revenueGrowth": {
-        "median": -0.008,
-        "n": 1
+        "median": null,
+        "n": 0
       },
       "grossMargin": {
-        "median": 0.44601002,
-        "n": 1
+        "median": null,
+        "n": 0
       }
     },
     {
@@ -956,104 +956,22 @@
         "IDEAFORGE.NS"
       ],
       "priceToSales": {
-        "median": 10.130235849999998,
-        "p25": 7.920775275,
-        "p75": 12.339696425,
-        "n": 2
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evRevenue": {
-        "median": 8.7605,
-        "p25": 6.761749999999999,
-        "p75": 10.75925,
-        "n": 2
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evEbitda": {
-        "median": 272.77,
-        "p25": 194.0855,
-        "p75": 351.4545,
-        "n": 2
-      },
-      "trailingPE": {
-        "median": 896.95654,
-        "p25": 896.95654,
-        "p75": 896.95654,
-        "n": 1
-      },
-      "revenueGrowth": {
-        "median": 3.7675,
-        "n": 2
-      },
-      "grossMargin": {
-        "median": 0.5829,
-        "n": 2
-      }
-    },
-    {
-      "sector": "ev",
-      "sectorLabel": "Electric Vehicles",
-      "n": 2,
-      "tickers": [
-        "RIVN",
-        "TSLA"
-      ],
-      "priceToSales": {
-        "median": 8.57269225,
-        "p25": 6.216457875,
-        "p75": 10.928926625,
-        "n": 2
-      },
-      "evRevenue": {
-        "median": 8.115,
-        "p25": 5.881500000000001,
-        "p75": 10.348500000000001,
-        "n": 2
-      },
-      "evEbitda": {
-        "median": 56.655,
-        "p25": 24.3735,
-        "p75": 88.93650000000001,
-        "n": 2
-      },
-      "trailingPE": {
-        "median": 322.72684,
-        "p25": 322.72684,
-        "p75": 322.72684,
-        "n": 1
-      },
-      "revenueGrowth": {
-        "median": 0.2635,
-        "n": 2
-      },
-      "grossMargin": {
-        "median": 0.131825,
-        "n": 2
-      }
-    },
-    {
-      "sector": "battery",
-      "sectorLabel": "Energy Storage",
-      "n": 2,
-      "tickers": [
-        "QS",
-        "SLDP"
-      ],
-      "priceToSales": {
-        "median": 71.924,
-        "p25": 71.924,
-        "p75": 71.924,
-        "n": 1
-      },
-      "evRevenue": {
-        "median": 38.009,
-        "p25": 38.009,
-        "p75": 38.009,
-        "n": 1
-      },
-      "evEbitda": {
-        "median": -5.082,
-        "p25": -6.0275,
-        "p75": -4.1365,
-        "n": 2
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "trailingPE": {
         "median": null,
@@ -1066,8 +984,90 @@
         "n": 0
       },
       "grossMargin": {
-        "median": -1.0505999,
-        "n": 1
+        "median": null,
+        "n": 0
+      }
+    },
+    {
+      "sector": "ev",
+      "sectorLabel": "Electric Vehicles",
+      "n": 2,
+      "tickers": [
+        "RIVN",
+        "TSLA"
+      ],
+      "priceToSales": {
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
+      },
+      "evRevenue": {
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
+      },
+      "evEbitda": {
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
+      },
+      "trailingPE": {
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
+      },
+      "revenueGrowth": {
+        "median": null,
+        "n": 0
+      },
+      "grossMargin": {
+        "median": null,
+        "n": 0
+      }
+    },
+    {
+      "sector": "battery",
+      "sectorLabel": "Energy Storage",
+      "n": 2,
+      "tickers": [
+        "QS",
+        "SLDP"
+      ],
+      "priceToSales": {
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
+      },
+      "evRevenue": {
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
+      },
+      "evEbitda": {
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
+      },
+      "trailingPE": {
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
+      },
+      "revenueGrowth": {
+        "median": null,
+        "n": 0
+      },
+      "grossMargin": {
+        "median": null,
+        "n": 0
       }
     },
     {
@@ -1080,22 +1080,22 @@
         "SMR"
       ],
       "priceToSales": {
-        "median": 4801.7793,
-        "p25": 2579.499315,
-        "p75": 5683.1018,
-        "n": 3
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evRevenue": {
-        "median": 1874.352,
-        "p25": 1050.958,
-        "p75": 3099.3625,
-        "n": 3
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evEbitda": {
-        "median": -10.856,
-        "p25": -17.4955,
-        "p75": -9.318999999999999,
-        "n": 3
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "trailingPE": {
         "median": null,
@@ -1104,12 +1104,12 @@
         "n": 0
       },
       "revenueGrowth": {
-        "median": -0.991,
-        "n": 1
+        "median": null,
+        "n": 0
       },
       "grossMargin": {
-        "median": 0.29065,
-        "n": 3
+        "median": null,
+        "n": 0
       }
     },
     {
@@ -1122,22 +1122,22 @@
         "QBTS"
       ],
       "priceToSales": {
-        "median": 423.30365,
-        "p25": 247.03302000000002,
-        "p75": 501.35912499999995,
-        "n": 3
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evRevenue": {
-        "median": 413.767,
-        "p25": 236.821,
-        "p75": 479.54549999999995,
-        "n": 3
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evEbitda": {
-        "median": -42.034,
-        "p25": -52.686499999999995,
-        "p75": -30.3215,
-        "n": 3
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "trailingPE": {
         "median": null,
@@ -1146,12 +1146,12 @@
         "n": 0
       },
       "revenueGrowth": {
-        "median": 1.853,
-        "n": 3
+        "median": null,
+        "n": 0
       },
       "grossMargin": {
-        "median": 0.34614,
-        "n": 3
+        "median": null,
+        "n": 0
       }
     },
     {
@@ -1162,22 +1162,22 @@
         "277810.KQ"
       ],
       "priceToSales": {
-        "median": 230.05745,
-        "p25": 230.05745,
-        "p75": 230.05745,
-        "n": 1
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evRevenue": {
-        "median": 228.492,
-        "p25": 228.492,
-        "p75": 228.492,
-        "n": 1
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evEbitda": {
-        "median": -5836.757,
-        "p25": -5836.757,
-        "p75": -5836.757,
-        "n": 1
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "trailingPE": {
         "median": null,
@@ -1186,12 +1186,12 @@
         "n": 0
       },
       "revenueGrowth": {
-        "median": 1.166,
-        "n": 1
+        "median": null,
+        "n": 0
       },
       "grossMargin": {
-        "median": 0.33401,
-        "n": 1
+        "median": null,
+        "n": 0
       }
     },
     {
@@ -1204,36 +1204,36 @@
         "AMD"
       ],
       "priceToSales": {
-        "median": 20.91775,
-        "p25": 19.687566,
-        "p75": 31.267665,
-        "n": 3
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evRevenue": {
-        "median": 20.819,
-        "p25": 19.874499999999998,
-        "p75": 31.805999999999997,
-        "n": 3
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evEbitda": {
-        "median": 81.774,
-        "p25": 56.829499999999996,
-        "p75": 130.9965,
-        "n": 3
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "trailingPE": {
-        "median": 119.1352,
-        "p25": 76.3302325,
-        "p75": 130.58483999999999,
-        "n": 3
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "revenueGrowth": {
-        "median": 0.852,
-        "n": 3
+        "median": null,
+        "n": 0
       },
       "grossMargin": {
-        "median": 0.74144995,
-        "n": 3
+        "median": null,
+        "n": 0
       }
     },
     {
@@ -1250,22 +1250,22 @@
         "9348.T"
       ],
       "priceToSales": {
-        "median": 26.9301005,
-        "p25": 24.7675115,
-        "p75": 54.37131275,
-        "n": 6
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evRevenue": {
-        "median": 27.147,
-        "p25": 16.7705,
-        "p75": 43.7815,
-        "n": 7
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "evEbitda": {
-        "median": -55.622,
-        "p25": -109.303,
-        "p75": -28.4,
-        "n": 7
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
       },
       "trailingPE": {
         "median": null,
@@ -1274,12 +1274,12 @@
         "n": 0
       },
       "revenueGrowth": {
-        "median": 0.62,
-        "n": 7
+        "median": null,
+        "n": 0
       },
       "grossMargin": {
-        "median": 0.38089,
-        "n": 6
+        "median": null,
+        "n": 0
       }
     }
   ]
