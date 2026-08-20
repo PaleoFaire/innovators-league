@@ -165,40 +165,147 @@ def split_founders(raw: str) -> list[str]:
     for p in parts:
         p = re.sub(r"[^A-Za-z.\-' ]", " ", p).strip()
         p = re.sub(r"\s+", " ", p)
+        # "Team of former SpaceX engineers", "Former SpaceX propulsion team" and
+        # friends are descriptions, not people. They must never enter the roster
+        # or they will name-match nothing and clutter the evidence panel.
+        if re.search(r"\b(team|engineers?|employees?|staff|group|alumni|"
+                     r"veterans?|founders?|unknown|undisclosed|stealth)\b", p, re.I):
+            continue
+        # "Former Meta", "Former Waymo" — an employer, not a person.
+        if re.match(r"^(former|ex|early|founding)\b", p, re.I):
+            continue
         if len(p.split()) >= 2 and len(p) <= 48:
             names.append(p)
     return names
 
 
-def build_roster(companies: list[dict]) -> tuple[dict, dict]:
-    """person_key -> record. Also returns the collision map so we can demote
-    any key that resolves to more than one human."""
+def load_founder_mafias() -> dict:
+    """Parse the curated FOUNDER_MAFIAS object out of data.js.
+
+    This is the single best pedigree source we own, and the first version of
+    this script ignored it entirely — it only grepped COMPANIES for the literal
+    string "ex-SpaceX". FOUNDER_MAFIAS is hand-curated and names people
+    directly, with their role at the parent:
+
+        "SpaceX Mafia": companies: [
+            { company: "Impulse Space",
+              founders: "Tom Mueller (Founding Employee, VP Propulsion)" }, ...
+
+    Returns {mafia_label: [(company, founders_string), ...]}.
+    """
+    try:
+        text = DATA_JS.read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        return {}
+    i = text.find("const FOUNDER_MAFIAS")
+    if i < 0:
+        return {}
+    chunk = text[i:i + 200_000]
+    end = chunk.find("\n};")
+    chunk = chunk[:end if end > 0 else len(chunk)]
+
+    out: dict[str, list] = {}
+    # Each mafia is  "Name Mafia": { ... companies: [ {...}, {...} ] }
+    for m in re.finditer(r'"([^"]+?Mafia|[^"]*?(?:Alumni|Spinouts|Fellows|Combinator)[^"]*?)"\s*:\s*\{(.*?)\n  \}',
+                         chunk, re.S):
+        label, body = m.group(1), m.group(2)
+        pairs = []
+        for cm in re.finditer(r'\{\s*company:\s*"([^"]*)"\s*,\s*founders:\s*"([^"]*)"', body):
+            pairs.append((cm.group(1), cm.group(2)))
+        if pairs:
+            out[label] = pairs
+    return out
+
+
+def load_mafia_clusters() -> dict:
+    """founder_mafias_auto.json clusters COMPANIES by mafia heritage. Every
+    founder of a clustered company inherits that pedigree — which multiplies
+    the roster well beyond the handful of people named explicitly."""
+    p = DATA / "founder_mafias_auto.json"
+    if not p.exists():
+        return {}
+    try:
+        rows = json.loads(p.read_text())
+    except (json.JSONDecodeError, OSError):
+        return {}
+    out = {}
+    for r in rows if isinstance(rows, list) else []:
+        label = r.get("mafia")
+        if not label:
+            continue
+        out[label] = [c.get("company") for c in r.get("companies", []) if c.get("company")]
+    return out
+
+
+def tidy_mafia(label: str) -> str:
+    """'SpaceX Mafia' -> 'SpaceX'."""
+    return re.sub(r"\s+(Mafia|Alumni|Spinouts)$", "", label).strip()
+
+
+def build_roster(companies: list[dict]) -> tuple[dict, set]:
+    """person_key -> record. Also returns the collision set so we can demote
+    any key that resolves to more than one human.
+
+    Pedigree comes from three sources, best first:
+      1. FOUNDER_MAFIAS — curated, names the person and their role
+      2. founder_mafias_auto.json — clusters companies; founders inherit
+      3. free-text "ex-SpaceX" mentions in founder/insight/description
+    """
     roster: dict[str, dict] = {}
     seen_names: dict[str, set] = defaultdict(set)
+    by_company = {c["name"]: c for c in companies}
 
+    def add(fname: str, company: str, employer: str | None, evidence: str | None):
+        k = person_key(fname)
+        if not k:
+            return
+        seen_names[k].add(fname.lower().strip())
+        rec = roster.setdefault(k, {
+            "name": fname.strip(), "companies": [], "employers": [], "evidence": [],
+        })
+        if company and company not in rec["companies"]:
+            rec["companies"].append(company)
+        if employer and employer not in rec["employers"]:
+            rec["employers"].append(employer)
+            if evidence:
+                rec["evidence"].append(evidence)
+
+    # ── 1. the curated roster ────────────────────────────────────────────
+    for label, pairs in load_founder_mafias().items():
+        emp = tidy_mafia(label)
+        for company, founders_str in pairs:
+            role = ""
+            rm = re.search(r"\(([^)]*)\)", founders_str)
+            if rm:
+                role = rm.group(1)
+            for fname in split_founders(founders_str):
+                add(fname, company,
+                    emp,
+                    f'FOUNDER_MAFIAS records {fname.strip()} at {company} as '
+                    f'{emp}{" — " + role if role else ""}')
+
+    # ── 2. clustered companies: founders inherit the pedigree ────────────
+    for label, comp_names in load_mafia_clusters().items():
+        emp = tidy_mafia(label)
+        for cname in comp_names:
+            c = by_company.get(cname)
+            if not c:
+                continue
+            for fname in split_founders(c["founder"]):
+                add(fname, cname, emp,
+                    f'{cname} is clustered under {label} in our database')
+
+    # ── 3. free-text pedigree, and every founder we know ─────────────────
     for c in companies:
         blob = " ".join((c["founder"], c["insight"], c["description"]))
         employers = [emp for emp, pats in PEDIGREE.items()
                      if any(re.search(p, blob, re.I) for p in pats)]
-
         for fname in split_founders(c["founder"]):
-            k = person_key(fname)
-            if not k:
-                continue
-            seen_names[k].add(fname.lower().strip())
-            rec = roster.setdefault(k, {
-                "name": fname.strip(),
-                "companies": [],
-                "employers": [],
-                "evidence": [],
-            })
-            if c["name"] not in rec["companies"]:
-                rec["companies"].append(c["name"])
+            if not employers:
+                add(fname, c["name"], None, None)
             for e in employers:
-                if e not in rec["employers"]:
-                    rec["employers"].append(e)
-                    rec["evidence"].append(
-                        f'"{e}" pedigree recorded on {c["name"]} in our database')
+                add(fname, c["name"], e,
+                    f'"{e}" pedigree recorded on {c["name"]} in our database')
 
     collisions = {k for k, v in seen_names.items() if len(v) > 1}
     return roster, collisions
@@ -326,8 +433,12 @@ def score_candidate(cand: dict, roster: dict, collisions: set,
 
     employers = sorted({e for m in matches for e in m["employers"]})
     if employers:
-        score += 12
-        reasons.append("documented pedigree: " + ", ".join(employers[:4]))
+        # This is the entire point of the tool. A documented mafia pedigree
+        # outweighs every other signal on the row.
+        score += 40
+        who = matches[0]["person"] if matches else "an officer"
+        reasons.insert(0, f"{who} carries a documented {', '.join(employers[:3])} "
+                          f"pedigree in our database")
 
     ind = (cand.get("industry") or "").strip()
     w = INDUSTRY_WEIGHT.get(ind, 0)
@@ -423,6 +534,10 @@ def write_js(rows: list[dict], meta: dict) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--min-score", type=int, default=25)
+    ap.add_argument("--include-unmatched", action="store_true",
+                    help="also publish new formations with no pedigree match. "
+                         "Off by default: they were 282 of 291 rows on the first "
+                         "run and are indistinguishable from noise.")
     ap.add_argument("--dry", action="store_true")
     args = ap.parse_args()
 
@@ -451,7 +566,8 @@ def main() -> int:
     all_scored = [score_candidate(c, roster, collisions, sector_of) for c in cands]
     known = [s for s in all_scored if s["confidence"] == "Known company"]
     scored = [s for s in all_scored
-              if s["confidence"] != "Known company" and s["score"] >= args.min_score]
+              if s["confidence"] != "Known company" and s["score"] >= args.min_score
+              and (args.include_unmatched or s.get("matches"))]
     scored.sort(key=lambda r: (-r["score"], r.get("first_sale") or ""))
 
     tiers = defaultdict(int)
