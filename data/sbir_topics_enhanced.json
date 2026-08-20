@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:31:43.321675+00:00",
+  "generated_at": "2026-08-20T07:48:00.321176+00:00",
   "total_topics": 10,
   "topics": [
     {
@@ -25,7 +25,7 @@
         {
           "company": "Alpine Eagle",
           "sector": "Defense & Security",
-          "bid_fit_score": 25.9,
+          "bid_fit_score": 25.6,
           "matched_terms": [
             "uas",
             "counter",
@@ -35,7 +35,7 @@
         {
           "company": "Zeromark",
           "sector": "Defense & Security",
-          "bid_fit_score": 23.3,
+          "bid_fit_score": 23.0,
           "matched_terms": [
             "counter",
             "uas",
@@ -45,7 +45,7 @@
         {
           "company": "SkySafe",
           "sector": "Defense & Security",
-          "bid_fit_score": 18.4,
+          "bid_fit_score": 18.3,
           "matched_terms": [
             "counter",
             "base",
@@ -55,7 +55,7 @@
         {
           "company": "Perennial Autonomy",
           "sector": "Defense & Security",
-          "bid_fit_score": 17.8,
+          "bid_fit_score": 17.6,
           "matched_terms": [
             "counter",
             "defense",
@@ -65,7 +65,7 @@
         {
           "company": "Cambridge Aerospace",
           "sector": "Defense & Security",
-          "bid_fit_score": 16.8,
+          "bid_fit_score": 16.6,
           "matched_terms": [
             "counter",
             "uas",
@@ -75,7 +75,7 @@
         {
           "company": "Chaos Industries",
           "sector": "Defense & Security",
-          "bid_fit_score": 16.3,
+          "bid_fit_score": 16.0,
           "matched_terms": [
             "counter",
             "defense"
@@ -84,7 +84,7 @@
         {
           "company": "DroneShield",
           "sector": "Defense & Security",
-          "bid_fit_score": 15.9,
+          "bid_fit_score": 15.8,
           "matched_terms": [
             "counter",
             "defense",
@@ -125,17 +125,7 @@
         {
           "company": "Venus Aerospace",
           "sector": "Supersonic & Hypersonic",
-          "bid_fit_score": 20.6,
-          "matched_terms": [
-            "hypersonic",
-            "defense",
-            "flight"
-          ]
-        },
-        {
-          "company": "Long Wall",
-          "sector": "Defense & Security",
-          "bid_fit_score": 19.8,
+          "bid_fit_score": 20.7,
           "matched_terms": [
             "hypersonic",
             "defense",
@@ -153,9 +143,19 @@
           ]
         },
         {
+          "company": "Long Wall",
+          "sector": "Defense & Security",
+          "bid_fit_score": 19.8,
+          "matched_terms": [
+            "hypersonic",
+            "defense",
+            "flight"
+          ]
+        },
+        {
           "company": "Astro Mechanica",
           "sector": "Supersonic & Hypersonic",
-          "bid_fit_score": 17.1,
+          "bid_fit_score": 17.2,
           "matched_terms": [
             "hypersonic",
             "flight"
@@ -164,7 +164,7 @@
         {
           "company": "constellr",
           "sector": "Space & Aerospace",
-          "bid_fit_score": 16.8,
+          "bid_fit_score": 16.9,
           "matched_terms": [
             "thermal",
             "defense"
@@ -173,7 +173,7 @@
         {
           "company": "Radical AI",
           "sector": "Robotics & Manufacturing",
-          "bid_fit_score": 16.3,
+          "bid_fit_score": 16.1,
           "matched_terms": [
             "materials",
             "defense"
@@ -182,7 +182,7 @@
         {
           "company": "Hermeus",
           "sector": "Supersonic & Hypersonic",
-          "bid_fit_score": 15.8,
+          "bid_fit_score": 15.9,
           "matched_terms": [
             "hypersonic"
           ]
@@ -223,7 +223,7 @@
         {
           "company": "General Matter",
           "sector": "Nuclear Energy",
-          "bid_fit_score": 45.4,
+          "bid_fit_score": 45.8,
           "matched_terms": [
             "nuclear",
             "haleu",
@@ -233,7 +233,7 @@
         {
           "company": "Newcleo",
           "sector": "Nuclear Energy",
-          "bid_fit_score": 41.7,
+          "bid_fit_score": 42.0,
           "matched_terms": [
             "nuclear",
             "fuel",
@@ -243,7 +243,7 @@
         {
           "company": "Standard Nuclear",
           "sector": "Nuclear Energy",
-          "bid_fit_score": 40.1,
+          "bid_fit_score": 40.4,
           "matched_terms": [
             "nuclear",
             "fuel",
@@ -253,7 +253,7 @@
         {
           "company": "Exodys Energy",
           "sector": "Nuclear Energy",
-          "bid_fit_score": 36.7,
+          "bid_fit_score": 37.0,
           "matched_terms": [
             "nuclear",
             "fuel",
@@ -263,7 +263,7 @@
         {
           "company": "Project Omega",
           "sector": "Nuclear Energy",
-          "bid_fit_score": 33.1,
+          "bid_fit_score": 33.4,
           "matched_terms": [
             "nuclear",
             "fuel",
@@ -273,7 +273,7 @@
         {
           "company": "Deep Isolation",
           "sector": "Nuclear Energy",
-          "bid_fit_score": 30.7,
+          "bid_fit_score": 31.0,
           "matched_terms": [
             "nuclear",
             "fuel",
@@ -283,7 +283,7 @@
         {
           "company": "Curio Solutions",
           "sector": "Nuclear Energy",
-          "bid_fit_score": 29.4,
+          "bid_fit_score": 29.6,
           "matched_terms": [
             "fuel",
             "nuclear",
@@ -293,7 +293,7 @@
         {
           "company": "Valar Atomics",
           "sector": "Nuclear Energy",
-          "bid_fit_score": 27.5,
+          "bid_fit_score": 27.7,
           "matched_terms": [
             "nuclear",
             "fuel",
@@ -336,7 +336,7 @@
         {
           "company": "Distributed Spectrum",
           "sector": "Defense & Security",
-          "bid_fit_score": 22.6,
+          "bid_fit_score": 22.4,
           "matched_terms": [
             "time",
             "real",
@@ -356,7 +356,7 @@
         {
           "company": "Modern Intelligence",
           "sector": "Defense & Security",
-          "bid_fit_score": 17.2,
+          "bid_fit_score": 17.0,
           "matched_terms": [
             "time",
             "defense",
@@ -366,7 +366,7 @@
         {
           "company": "Tenna Systems",
           "sector": "Defense & Security",
-          "bid_fit_score": 16.7,
+          "bid_fit_score": 16.6,
           "matched_terms": [
             "defense",
             "warfare",
@@ -376,7 +376,7 @@
         {
           "company": "Smack Technologies",
           "sector": "Defense & Security",
-          "bid_fit_score": 16.4,
+          "bid_fit_score": 16.2,
           "matched_terms": [
             "time",
             "real",
@@ -395,7 +395,7 @@
         {
           "company": "Helsing",
           "sector": "Defense & Security",
-          "bid_fit_score": 11.9,
+          "bid_fit_score": 11.8,
           "matched_terms": [
             "defense",
             "time",
@@ -438,7 +438,7 @@
         {
           "company": "Nord Quantique",
           "sector": "Quantum Computing",
-          "bid_fit_score": 40.6,
+          "bid_fit_score": 40.8,
           "matched_terms": [
             "correction",
             "quantum",
@@ -448,7 +448,7 @@
         {
           "company": "Riverlane",
           "sector": "Quantum Computing",
-          "bid_fit_score": 34.7,
+          "bid_fit_score": 34.8,
           "matched_terms": [
             "correction",
             "error",
@@ -458,7 +458,7 @@
         {
           "company": "Quantinuum",
           "sector": "Quantum Computing",
-          "bid_fit_score": 33.3,
+          "bid_fit_score": 33.5,
           "matched_terms": [
             "quantum",
             "computing",
@@ -468,7 +468,7 @@
         {
           "company": "Alice & Bob",
           "sector": "Quantum Computing",
-          "bid_fit_score": 30.8,
+          "bid_fit_score": 31.0,
           "matched_terms": [
             "quantum",
             "fault",
@@ -478,7 +478,7 @@
         {
           "company": "Oxford Quantum Circuits",
           "sector": "Quantum Computing",
-          "bid_fit_score": 30.1,
+          "bid_fit_score": 30.3,
           "matched_terms": [
             "quantum",
             "computing",
@@ -488,7 +488,7 @@
         {
           "company": "Q-CTRL",
           "sector": "Quantum Computing",
-          "bid_fit_score": 30.1,
+          "bid_fit_score": 30.2,
           "matched_terms": [
             "quantum",
             "hardware",
@@ -498,7 +498,7 @@
         {
           "company": "QuamCore",
           "sector": "Quantum Computing",
-          "bid_fit_score": 27.8,
+          "bid_fit_score": 28.1,
           "matched_terms": [
             "fault",
             "tolerant",
@@ -530,7 +530,7 @@
         {
           "company": "Dream Security",
           "sector": "Defense & Security",
-          "bid_fit_score": 14.1,
+          "bid_fit_score": 14.0,
           "matched_terms": [
             "critical",
             "infrastructure",
@@ -540,7 +540,7 @@
         {
           "company": "MaverickX",
           "sector": "Climate & Energy",
-          "bid_fit_score": 13.1,
+          "bid_fit_score": 13.0,
           "matched_terms": [
             "water",
             "critical",
@@ -570,7 +570,7 @@
         {
           "company": "Twenty",
           "sector": "Defense & Security",
-          "bid_fit_score": 11.6,
+          "bid_fit_score": 11.7,
           "matched_terms": [
             "cyber"
           ]
@@ -598,7 +598,7 @@
         {
           "company": "Core Automation",
           "sector": "AI & Software",
-          "bid_fit_score": 11.1,
+          "bid_fit_score": 11.0,
           "matched_terms": [
             "learning",
             "targeting"
@@ -630,7 +630,7 @@
         {
           "company": "Cascade Space",
           "sector": "Space & Aerospace",
-          "bid_fit_score": 62.2,
+          "bid_fit_score": 62.0,
           "matched_terms": [
             "deep",
             "space",
@@ -640,7 +640,7 @@
         {
           "company": "Bellatrix Aerospace",
           "sector": "Space & Aerospace",
-          "bid_fit_score": 23.0,
+          "bid_fit_score": 23.2,
           "matched_terms": [
             "propulsion",
             "space"
@@ -649,7 +649,7 @@
         {
           "company": "Orbital Operations",
           "sector": "Space & Aerospace",
-          "bid_fit_score": 20.4,
+          "bid_fit_score": 20.5,
           "matched_terms": [
             "space",
             "missions",
@@ -675,6 +675,15 @@
           ]
         },
         {
+          "company": "Viridian Space",
+          "sector": "Space & Aerospace",
+          "bid_fit_score": 18.8,
+          "matched_terms": [
+            "propulsion",
+            "space"
+          ]
+        },
+        {
           "company": "Rocket Lab",
           "sector": "Space & Aerospace",
           "bid_fit_score": 18.8,
@@ -684,18 +693,9 @@
           ]
         },
         {
-          "company": "Viridian Space",
-          "sector": "Space & Aerospace",
-          "bid_fit_score": 18.7,
-          "matched_terms": [
-            "propulsion",
-            "space"
-          ]
-        },
-        {
           "company": "Starpath Robotics",
           "sector": "Space & Aerospace",
-          "bid_fit_score": 18.1,
+          "bid_fit_score": 18.2,
           "matched_terms": [
             "space",
             "deep"
@@ -726,7 +726,7 @@
         {
           "company": "Focused Energy",
           "sector": "Nuclear Energy",
-          "bid_fit_score": 28.5,
+          "bid_fit_score": 28.8,
           "matched_terms": [
             "fusion",
             "net",
@@ -736,7 +736,7 @@
         {
           "company": "First Light Fusion",
           "sector": "Nuclear Energy",
-          "bid_fit_score": 27.6,
+          "bid_fit_score": 27.9,
           "matched_terms": [
             "fusion",
             "plant",
@@ -746,7 +746,7 @@
         {
           "company": "Fuse Energy",
           "sector": "Nuclear Energy",
-          "bid_fit_score": 23.7,
+          "bid_fit_score": 23.9,
           "matched_terms": [
             "fusion",
             "nuclear",
@@ -756,7 +756,7 @@
         {
           "company": "Kyoto Fusioneering",
           "sector": "Nuclear Energy",
-          "bid_fit_score": 22.9,
+          "bid_fit_score": 23.1,
           "matched_terms": [
             "fusion",
             "plant",
@@ -764,19 +764,9 @@
           ]
         },
         {
-          "company": "Commonwealth Fusion Systems",
-          "sector": "Climate & Energy",
-          "bid_fit_score": 22.2,
-          "matched_terms": [
-            "net",
-            "energy",
-            "fusion"
-          ]
-        },
-        {
           "company": "Marathon Fusion",
           "sector": "Nuclear Energy",
-          "bid_fit_score": 22.2,
+          "bid_fit_score": 22.4,
           "matched_terms": [
             "fusion",
             "energy",
@@ -784,9 +774,9 @@
           ]
         },
         {
-          "company": "Inertia Enterprises",
+          "company": "Commonwealth Fusion Systems",
           "sector": "Climate & Energy",
-          "bid_fit_score": 19.9,
+          "bid_fit_score": 22.3,
           "matched_terms": [
             "net",
             "energy",
@@ -794,13 +784,22 @@
           ]
         },
         {
-          "company": "Zephyr Fusion",
-          "sector": "Nuclear Energy",
-          "bid_fit_score": 19.8,
+          "company": "Inertia Enterprises",
+          "sector": "Climate & Energy",
+          "bid_fit_score": 20.1,
           "matched_terms": [
-            "fusion",
+            "net",
+            "energy",
+            "fusion"
+          ]
+        },
+        {
+          "company": "Newcleo",
+          "sector": "Nuclear Energy",
+          "bid_fit_score": 19.9,
+          "matched_terms": [
             "nuclear",
-            "plant"
+            "energy"
           ]
         }
       ],
@@ -840,7 +839,7 @@
         {
           "company": "Seasats",
           "sector": "Ocean & Maritime",
-          "bid_fit_score": 28.6,
+          "bid_fit_score": 28.3,
           "matched_terms": [
             "maritime",
             "surface",
@@ -900,7 +899,7 @@
         {
           "company": "Saildrone",
           "sector": "Defense & Security",
-          "bid_fit_score": 17.3,
+          "bid_fit_score": 17.2,
           "matched_terms": [
             "maritime",
             "defense",
@@ -951,7 +950,7 @@
         {
           "company": "Cascade Space",
           "sector": "Space & Aerospace",
-          "bid_fit_score": 15.5,
+          "bid_fit_score": 15.4,
           "matched_terms": [
             "space",
             "missions"
@@ -960,7 +959,7 @@
         {
           "company": "Trilobio",
           "sector": "Biotech & Health",
-          "bid_fit_score": 14.9,
+          "bid_fit_score": 15.0,
           "matched_terms": [
             "biology",
             "biotech",
@@ -972,15 +971,15 @@
           "sector": "Defense & Security",
           "bid_fit_score": 14.6,
           "matched_terms": [
-            "engineered",
             "air",
+            "engineered",
             "biotech"
           ]
         },
         {
           "company": "Medra",
           "sector": "Biotech & Health",
-          "bid_fit_score": 13.3,
+          "bid_fit_score": 13.4,
           "matched_terms": [
             "biology",
             "biotech",
@@ -1000,7 +999,7 @@
         {
           "company": "Anthrogen",
           "sector": "Biotech & Health",
-          "bid_fit_score": 12.7,
+          "bid_fit_score": 12.8,
           "matched_terms": [
             "biology",
             "biotech",

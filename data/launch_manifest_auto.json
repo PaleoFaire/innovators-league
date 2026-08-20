@@ -1,21 +1,12 @@
 [
   {
-    "date": "2026-08-18",
-    "vehicle": "Zhuque-3 | Flight 2",
-    "payload": "Flight 2",
-    "pad": "Launch Area 96B, Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "LandSpace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ef02e2cf-e617-4b38-a526-951ac9204b0a/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-08-19",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-50",
-    "payload": "Starlink Group 17-50",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/f6958a77-37bb-4559-a108-40ba0ff9e34a/?format=json",
-    "trackedCompany": "SpaceX"
+    "date": "2026-08-20",
+    "vehicle": "Electron | The Lightning God Defends (iQPS Launch 8)",
+    "payload": "The Lightning God Defends (iQPS Launch 8)",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/57280454-470e-4c5d-8de1-1bbd0ea41b49/?format=json",
+    "trackedCompany": "Rocket Lab"
   },
   {
     "date": "2026-08-20",
@@ -109,15 +100,6 @@
   },
   {
     "date": "2026-08-31",
-    "vehicle": "Electron | The Lightning God Defends (iQPS Launch 8)",
-    "payload": "The Lightning God Defends (iQPS Launch 8)",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/57280454-470e-4c5d-8de1-1bbd0ea41b49/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-08-31",
     "vehicle": "Long March 12A | Flight 2",
     "payload": "Flight 2",
     "pad": "Long March 12 series Pad, Jiuquan Satellite Launch Center, People's Republic of China",
@@ -141,6 +123,15 @@
     "pad": "Pallas-1 Launch Pad, Jiuquan Satellite Launch Center, People's Republic of China",
     "provider": "Galactic Energy",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/a927b2f9-f9a5-4196-9abb-2e275e4a6b96/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-08-31",
+    "vehicle": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19",
+    "payload": "Glonass-K1 No. 19",
+    "pad": "Unknown Pad, Plesetsk Cosmodrome, Russian Federation",
+    "provider": "Russian Space Forces",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/458e2e52-87b0-4707-96d8-6899f92e53ee/?format=json",
     "trackedCompany": null
   },
   {
@@ -324,6 +315,15 @@
     "trackedCompany": null
   },
   {
+    "date": "2026-10-19",
+    "vehicle": "H3-24 | Martian Moon eXplorer (MMX)",
+    "payload": "Martian Moon eXplorer (MMX)",
+    "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
+    "provider": "Mitsubishi Heavy Industries",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/69ebbcd2-b257-4070-9ef9-21e7d1f8a883/?format=json",
+    "trackedCompany": null
+  },
+  {
     "date": "2026-10-31",
     "vehicle": "Electron | StriX Launch 12",
     "payload": "StriX Launch 12",
@@ -349,15 +349,6 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/67213393-7983-4c06-8b44-b8c785a5ed79/?format=json",
     "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-10-31",
-    "vehicle": "H3-24 | Martian Moon eXplorer (MMX)",
-    "payload": "Martian Moon eXplorer (MMX)",
-    "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
-    "provider": "Mitsubishi Heavy Industries",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/69ebbcd2-b257-4070-9ef9-21e7d1f8a883/?format=json",
-    "trackedCompany": null
   },
   {
     "date": "2026-10-31",
@@ -448,5 +439,14 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/ce1317de-ec94-4479-9b28-38ebf11f13ae/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Ariane 62 | Galileo L15 (FOC FM28 & FM31)",
+    "payload": "Galileo L15 (FOC FM28 & FM31)",
+    "pad": "Ariane Launch Area 4, Guiana Space Centre, French Guiana",
+    "provider": "Arianespace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0b85fcca-5252-48d7-9ccb-c10b1da9d183/?format=json",
+    "trackedCompany": null
   }
 ]

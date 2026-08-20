@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-08-18 08:27:14 UTC",
+    "generated_at": "2026-08-20 07:43:58 UTC",
     "total_targets": 116,
-    "with_excerpts": 102,
+    "with_excerpts": 106,
     "sources": [
       "none",
       "sec_edgar",
@@ -341,11 +341,13 @@
     {
       "ticker": "HEI",
       "company": "Heico",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://heico.com/investors/",
-      "source": "none"
+      "quarter": "2026-Q2",
+      "date": "2026-05-29",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/46619/000004661926000016/0000046619-26-000016-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "TDY",
@@ -626,11 +628,11 @@
       "ticker": "ADI",
       "company": "Analog Devices",
       "quarter": "2026-Q2",
-      "date": "2026-05-20",
+      "date": "2026-08-19",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000052/0000006281-26-000052-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000073/0000006281-26-000073-index.htm",
       "source": "sec_edgar"
     },
     {
@@ -907,11 +909,13 @@
     {
       "ticker": "JOBY",
       "company": "Joby Aviation",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://www.jobyaviation.com/investor-relations",
-      "source": "none"
+      "quarter": "2026-Q2",
+      "date": "2026-08-05",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000435/0001819848-26-000435-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "PL",
@@ -969,11 +973,13 @@
     {
       "ticker": "RDW",
       "company": "Redwire",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.redwirespace.com/",
-      "source": "none"
+      "quarter": "2026-Q2",
+      "date": "2026-08-06",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819810/000181981026000124/0001819810-26-000124-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "SATL",
@@ -1221,11 +1227,13 @@
     {
       "ticker": "RXRX",
       "company": "Recursion Pharma",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://ir.recursion.com/",
-      "source": "none"
+      "quarter": "2026-Q2",
+      "date": "2026-08-05",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000098/0001601830-26-000098-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "TEM",

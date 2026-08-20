@@ -1,28 +1,25 @@
 {
-  "generated_at": "2026-08-19T05:32:43.051107+00:00",
+  "generated_at": "2026-08-20T07:47:55.911845+00:00",
   "note": "name-only matches. NOT shown to members. Confirm, then add the CIK to data/cik_map.json to promote.",
   "candidates": [
     {
       "match_method": "name-strict",
-      "match_evidence": "'FuriosaAI, Inc.' stems to 'FuriosaAI'",
-      "company": "FuriosaAI",
-      "issuer_name": "FuriosaAI, Inc.",
+      "match_evidence": "'Precision AI, CO' stems to 'Precision AI'",
+      "company": "Precision AI",
+      "issuer_name": "Precision AI, CO",
       "form": "D",
-      "filed_date": "2026-08-11",
-      "cik": "2149195",
-      "accession": "0000950103-26-012140",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/2149195/000095010326012140/primary_doc.xml",
-      "offering_amount": "4148739",
-      "amount_sold": "4148739",
-      "amount_remaining": "0",
-      "securities_type": "Equity",
+      "filed_date": "2026-08-19",
+      "cik": "2150524",
+      "accession": "0002150524-26-000001",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2150524/000215052426000001/primary_doc.xml",
+      "offering_amount": "Indefinite",
+      "amount_sold": "200000",
+      "amount_remaining": "Indefinite",
+      "securities_type": "",
       "related_persons": [
-        "Joon Ho Baek",
-        "Hanjoon Kim",
-        "Hyungil Koo",
-        "Kyungho Lee"
+        "Eduardo Sultan Gampel"
       ],
-      "is_safe": false,
+      "is_safe": true,
       "source": "edgar-daily-index"
     }
   ]

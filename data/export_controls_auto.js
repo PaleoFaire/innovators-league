@@ -1,15 +1,51 @@
 // Auto-generated Export Controls / Entity List matches
 // Source: data.trade.gov (consolidated BIS + OFAC + State)
-// Last updated: 2026-08-18 08:31:42 UTC
-// Total matches: 0  |  New this run: 0
+// Last updated: 2026-08-20 07:47:59 UTC
+// Total matches: 1  |  New this run: 1
 const EXPORT_CONTROLS = {
-  "generated_at": "2026-08-18T08:31:42.815576+00:00",
+  "generated_at": "2026-08-20T07:47:59.825312+00:00",
   "source": "Trade.gov Consolidated Screening List (BIS + OFAC + State)",
-  "total_list_entries": 25939,
-  "tracked_companies": 1112,
-  "matches_total": 0,
-  "new_this_run": 0,
-  "new_additions": [],
-  "by_list": {},
-  "matches": []
+  "total_list_entries": 25942,
+  "tracked_companies": 1150,
+  "matches_total": 1,
+  "new_this_run": 1,
+  "new_additions": [
+    {
+      "company": "GRU",
+      "sector": "Space & Aerospace",
+      "listed_name": "Main Intelligence Directorate",
+      "list_source": "BIS Entity List",
+      "list_source_raw": "Entity List (EL) - Bureau of Industry and Security",
+      "list_added": "",
+      "country": "",
+      "addresses": [
+        "RU"
+      ],
+      "federal_register_notice": "82 FR 724; 87 FR 12240; 87 FR 34136",
+      "remarks": "",
+      "source_url": "https://www.bis.gov/regulations/ear/744#supplement-4-744",
+      "match_type": "exact"
+    }
+  ],
+  "by_list": {
+    "BIS Entity List": 1
+  },
+  "matches": [
+    {
+      "company": "GRU",
+      "sector": "Space & Aerospace",
+      "listed_name": "Main Intelligence Directorate",
+      "list_source": "BIS Entity List",
+      "list_source_raw": "Entity List (EL) - Bureau of Industry and Security",
+      "list_added": "",
+      "country": "",
+      "addresses": [
+        "RU"
+      ],
+      "federal_register_notice": "82 FR 724; 87 FR 12240; 87 FR 34136",
+      "remarks": "",
+      "source_url": "https://www.bis.gov/regulations/ear/744#supplement-4-744",
+      "match_type": "exact"
+    }
+  ]
 };

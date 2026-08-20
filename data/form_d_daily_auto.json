@@ -1,9 +1,36 @@
 {
-  "generated_at": "2026-08-19T05:32:43.051107+00:00",
-  "lookback_days": 14,
-  "scanned": 2149,
+  "generated_at": "2026-08-20T07:47:55.911845+00:00",
+  "lookback_days": 8,
+  "scanned": 1223,
   "total": 6,
   "filings": [
+    {
+      "match_method": "cik",
+      "match_evidence": "filer CIK 1819848 == our recorded CIK",
+      "company": "Joby Aviation",
+      "issuer_name": "Joby Aviation, Inc.",
+      "form": "D",
+      "filed_date": "2026-08-19",
+      "cik": "1819848",
+      "accession": "0001819848-26-000440",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000440/primary_doc.xml",
+      "offering_amount": "50000000",
+      "amount_sold": "0",
+      "amount_remaining": "50000000",
+      "securities_type": "Equity",
+      "related_persons": [
+        "Kate DeHoff",
+        "JoeBen Bevirt",
+        "Rodrigo Brumana",
+        "Eric Allison",
+        "Bonny Simi",
+        "Greg Bowles",
+        "Aicha Evans",
+        "Michael Thompson"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
+    },
     {
       "match_method": "cik",
       "match_evidence": "filer CIK 1998786 == our recorded CIK",
@@ -118,30 +145,6 @@
         "Aleksandr Gampel",
         "Liang-Yu Chi",
         "Abdo Hajj"
-      ],
-      "is_safe": false,
-      "source": "edgar-daily-index"
-    },
-    {
-      "match_method": "cik",
-      "match_evidence": "filer CIK 2123886 == our recorded CIK",
-      "company": "Mariana Minerals",
-      "issuer_name": "Mariana Minerals Co.",
-      "form": "D",
-      "filed_date": "2026-08-06",
-      "cik": "2123886",
-      "accession": "0002123886-26-000004",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/2123886/000212388626000004/primary_doc.xml",
-      "offering_amount": "310499477",
-      "amount_sold": "310499477",
-      "amount_remaining": "0",
-      "securities_type": "Equity",
-      "related_persons": [
-        "Turner Caldwell",
-        "Juan Lozano Van De Ven",
-        "Schuyler (Baker) Tilney",
-        "Erin Price-Wright",
-        "Samir Kaul"
       ],
       "is_safe": false,
       "source": "edgar-daily-index"

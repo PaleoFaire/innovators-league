@@ -1,4 +1,6 @@
-// Auto-generated 2026-08-19 10:18
+// Auto-generated SBIR topics + full-company bid-fit scoring
+// Topics: 10  |  Matching: TF-IDF weighted
+// Last updated: 2026-08-20 07:48:00 UTC
 const SBIR_TOPICS_AUTO = [
   {
     "id": "DOD-SBIR-2026-006",
@@ -18,7 +20,88 @@ const SBIR_TOPICS_AUTO = [
       "Shield AI",
       "Skydio"
     ],
-    "description": "Scalable C-UAS solutions for base defense and expeditionary operations."
+    "description": "Scalable C-UAS solutions for base defense and expeditionary operations.",
+    "bidFit": [
+      {
+        "company": "Alpine Eagle",
+        "sector": "Defense & Security",
+        "bid_fit_score": 25.6,
+        "matched_terms": [
+          "uas",
+          "counter",
+          "defense"
+        ]
+      },
+      {
+        "company": "Zeromark",
+        "sector": "Defense & Security",
+        "bid_fit_score": 23.0,
+        "matched_terms": [
+          "counter",
+          "uas",
+          "defense"
+        ]
+      },
+      {
+        "company": "SkySafe",
+        "sector": "Defense & Security",
+        "bid_fit_score": 18.3,
+        "matched_terms": [
+          "counter",
+          "base",
+          "uas"
+        ]
+      },
+      {
+        "company": "Perennial Autonomy",
+        "sector": "Defense & Security",
+        "bid_fit_score": 17.6,
+        "matched_terms": [
+          "counter",
+          "defense",
+          "uas"
+        ]
+      },
+      {
+        "company": "Cambridge Aerospace",
+        "sector": "Defense & Security",
+        "bid_fit_score": 16.6,
+        "matched_terms": [
+          "counter",
+          "uas",
+          "defense"
+        ]
+      },
+      {
+        "company": "Chaos Industries",
+        "sector": "Defense & Security",
+        "bid_fit_score": 16.0,
+        "matched_terms": [
+          "counter",
+          "defense"
+        ]
+      },
+      {
+        "company": "DroneShield",
+        "sector": "Defense & Security",
+        "bid_fit_score": 15.8,
+        "matched_terms": [
+          "counter",
+          "defense",
+          "detection"
+        ]
+      },
+      {
+        "company": "Govini",
+        "sector": "Defense & Security",
+        "bid_fit_score": 15.1,
+        "matched_terms": [
+          "base",
+          "defense"
+        ]
+      }
+    ],
+    "bidFitSource": "TF-IDF across insight/description/thesisCluster"
   },
   {
     "id": "DOD-SBIR-2026-010",
@@ -37,7 +120,84 @@ const SBIR_TOPICS_AUTO = [
       "Hermeus",
       "Ursa Major"
     ],
-    "description": "Advanced materials for thermal protection systems on hypersonic flight vehicles."
+    "description": "Advanced materials for thermal protection systems on hypersonic flight vehicles.",
+    "bidFit": [
+      {
+        "company": "Venus Aerospace",
+        "sector": "Supersonic & Hypersonic",
+        "bid_fit_score": 20.7,
+        "matched_terms": [
+          "hypersonic",
+          "defense",
+          "flight"
+        ]
+      },
+      {
+        "company": "Hypersonix Launch Systems",
+        "sector": "Defense & Security",
+        "bid_fit_score": 19.8,
+        "matched_terms": [
+          "hypersonic",
+          "flight",
+          "defense"
+        ]
+      },
+      {
+        "company": "Long Wall",
+        "sector": "Defense & Security",
+        "bid_fit_score": 19.8,
+        "matched_terms": [
+          "hypersonic",
+          "defense",
+          "flight"
+        ]
+      },
+      {
+        "company": "Astro Mechanica",
+        "sector": "Supersonic & Hypersonic",
+        "bid_fit_score": 17.2,
+        "matched_terms": [
+          "hypersonic",
+          "flight"
+        ]
+      },
+      {
+        "company": "constellr",
+        "sector": "Space & Aerospace",
+        "bid_fit_score": 16.9,
+        "matched_terms": [
+          "thermal",
+          "defense"
+        ]
+      },
+      {
+        "company": "Radical AI",
+        "sector": "Robotics & Manufacturing",
+        "bid_fit_score": 16.1,
+        "matched_terms": [
+          "materials",
+          "defense"
+        ]
+      },
+      {
+        "company": "Hermeus",
+        "sector": "Supersonic & Hypersonic",
+        "bid_fit_score": 15.9,
+        "matched_terms": [
+          "hypersonic"
+        ]
+      },
+      {
+        "company": "Destinus",
+        "sector": "Defense & Security",
+        "bid_fit_score": 15.4,
+        "matched_terms": [
+          "hypersonic",
+          "defense"
+        ]
+      }
+    ],
+    "bidFitSource": "TF-IDF across insight/description/thesisCluster"
   },
   {
     "id": "DOE-SBIR-2026-003",
@@ -58,7 +218,90 @@ const SBIR_TOPICS_AUTO = [
       "TerraPower",
       "X-energy"
     ],
-    "description": "Innovative manufacturing processes for HALEU and advanced nuclear fuels."
+    "description": "Innovative manufacturing processes for HALEU and advanced nuclear fuels.",
+    "bidFit": [
+      {
+        "company": "General Matter",
+        "sector": "Nuclear Energy",
+        "bid_fit_score": 45.8,
+        "matched_terms": [
+          "nuclear",
+          "haleu",
+          "fuel"
+        ]
+      },
+      {
+        "company": "Newcleo",
+        "sector": "Nuclear Energy",
+        "bid_fit_score": 42.0,
+        "matched_terms": [
+          "nuclear",
+          "fuel",
+          "energy"
+        ]
+      },
+      {
+        "company": "Standard Nuclear",
+        "sector": "Nuclear Energy",
+        "bid_fit_score": 40.4,
+        "matched_terms": [
+          "nuclear",
+          "fuel",
+          "haleu"
+        ]
+      },
+      {
+        "company": "Exodys Energy",
+        "sector": "Nuclear Energy",
+        "bid_fit_score": 37.0,
+        "matched_terms": [
+          "nuclear",
+          "fuel",
+          "energy"
+        ]
+      },
+      {
+        "company": "Project Omega",
+        "sector": "Nuclear Energy",
+        "bid_fit_score": 33.4,
+        "matched_terms": [
+          "nuclear",
+          "fuel",
+          "energy"
+        ]
+      },
+      {
+        "company": "Deep Isolation",
+        "sector": "Nuclear Energy",
+        "bid_fit_score": 31.0,
+        "matched_terms": [
+          "nuclear",
+          "fuel",
+          "energy"
+        ]
+      },
+      {
+        "company": "Curio Solutions",
+        "sector": "Nuclear Energy",
+        "bid_fit_score": 29.6,
+        "matched_terms": [
+          "fuel",
+          "nuclear",
+          "haleu"
+        ]
+      },
+      {
+        "company": "Valar Atomics",
+        "sector": "Nuclear Energy",
+        "bid_fit_score": 27.7,
+        "matched_terms": [
+          "nuclear",
+          "fuel",
+          "energy"
+        ]
+      }
+    ],
+    "bidFitSource": "TF-IDF across insight/description/thesisCluster"
   },
   {
     "id": "DOD-SBIR-2026-001",
@@ -78,7 +321,89 @@ const SBIR_TOPICS_AUTO = [
       "Shield AI",
       "Palantir"
     ],
-    "description": "Develop AI/ML approaches for real-time electronic warfare signal classification and response."
+    "description": "Develop AI/ML approaches for real-time electronic warfare signal classification and response.",
+    "bidFit": [
+      {
+        "company": "CX2 Industries",
+        "sector": "Defense & Security",
+        "bid_fit_score": 26.8,
+        "matched_terms": [
+          "electronic",
+          "warfare",
+          "defense"
+        ]
+      },
+      {
+        "company": "Distributed Spectrum",
+        "sector": "Defense & Security",
+        "bid_fit_score": 22.4,
+        "matched_terms": [
+          "time",
+          "real",
+          "defense"
+        ]
+      },
+      {
+        "company": "Kvertus",
+        "sector": "Defense & Security",
+        "bid_fit_score": 19.4,
+        "matched_terms": [
+          "electronic",
+          "warfare",
+          "defense"
+        ]
+      },
+      {
+        "company": "Modern Intelligence",
+        "sector": "Defense & Security",
+        "bid_fit_score": 17.0,
+        "matched_terms": [
+          "time",
+          "defense",
+          "real"
+        ]
+      },
+      {
+        "company": "Tenna Systems",
+        "sector": "Defense & Security",
+        "bid_fit_score": 16.6,
+        "matched_terms": [
+          "defense",
+          "warfare",
+          "time"
+        ]
+      },
+      {
+        "company": "Smack Technologies",
+        "sector": "Defense & Security",
+        "bid_fit_score": 16.2,
+        "matched_terms": [
+          "time",
+          "real",
+          "defense"
+        ]
+      },
+      {
+        "company": "Kela",
+        "sector": "Defense & Security",
+        "bid_fit_score": 12.6,
+        "matched_terms": [
+          "defense",
+          "real"
+        ]
+      },
+      {
+        "company": "Helsing",
+        "sector": "Defense & Security",
+        "bid_fit_score": 11.8,
+        "matched_terms": [
+          "defense",
+          "time",
+          "real"
+        ]
+      }
+    ],
+    "bidFitSource": "TF-IDF across insight/description/thesisCluster"
   },
   {
     "id": "NSF-SBIR-2026-005",
@@ -98,7 +423,90 @@ const SBIR_TOPICS_AUTO = [
       "PsiQuantum",
       "Atom Computing"
     ],
-    "description": "Hardware-level quantum error correction approaches for fault-tolerant quantum computing."
+    "description": "Hardware-level quantum error correction approaches for fault-tolerant quantum computing.",
+    "bidFit": [
+      {
+        "company": "Peak Quantum",
+        "sector": "Quantum Computing",
+        "bid_fit_score": 42.3,
+        "matched_terms": [
+          "error",
+          "quantum",
+          "correction"
+        ]
+      },
+      {
+        "company": "Nord Quantique",
+        "sector": "Quantum Computing",
+        "bid_fit_score": 40.8,
+        "matched_terms": [
+          "correction",
+          "quantum",
+          "error"
+        ]
+      },
+      {
+        "company": "Riverlane",
+        "sector": "Quantum Computing",
+        "bid_fit_score": 34.8,
+        "matched_terms": [
+          "correction",
+          "error",
+          "quantum"
+        ]
+      },
+      {
+        "company": "Quantinuum",
+        "sector": "Quantum Computing",
+        "bid_fit_score": 33.5,
+        "matched_terms": [
+          "quantum",
+          "computing",
+          "correction"
+        ]
+      },
+      {
+        "company": "Alice & Bob",
+        "sector": "Quantum Computing",
+        "bid_fit_score": 31.0,
+        "matched_terms": [
+          "quantum",
+          "fault",
+          "computing"
+        ]
+      },
+      {
+        "company": "Oxford Quantum Circuits",
+        "sector": "Quantum Computing",
+        "bid_fit_score": 30.3,
+        "matched_terms": [
+          "quantum",
+          "computing",
+          "correction"
+        ]
+      },
+      {
+        "company": "Q-CTRL",
+        "sector": "Quantum Computing",
+        "bid_fit_score": 30.2,
+        "matched_terms": [
+          "quantum",
+          "hardware",
+          "error"
+        ]
+      },
+      {
+        "company": "QuamCore",
+        "sector": "Quantum Computing",
+        "bid_fit_score": 28.1,
+        "matched_terms": [
+          "fault",
+          "tolerant",
+          "quantum"
+        ]
+      }
+    ],
+    "bidFitSource": "TF-IDF across insight/description/thesisCluster"
   },
   {
     "id": "DHS-SBIR-2026-008",
@@ -117,7 +525,87 @@ const SBIR_TOPICS_AUTO = [
       "Palantir",
       "Scale AI"
     ],
-    "description": "Machine learning approaches for detecting and responding to cyber threats targeting energy and water infrastructure."
+    "description": "Machine learning approaches for detecting and responding to cyber threats targeting energy and water infrastructure.",
+    "bidFit": [
+      {
+        "company": "Dream Security",
+        "sector": "Defense & Security",
+        "bid_fit_score": 14.0,
+        "matched_terms": [
+          "critical",
+          "infrastructure",
+          "cybersecurity"
+        ]
+      },
+      {
+        "company": "MaverickX",
+        "sector": "Climate & Energy",
+        "bid_fit_score": 13.0,
+        "matched_terms": [
+          "water",
+          "critical",
+          "energy"
+        ]
+      },
+      {
+        "company": "Asterra",
+        "sector": "Space & Aerospace",
+        "bid_fit_score": 13.0,
+        "matched_terms": [
+          "detecting",
+          "water",
+          "infrastructure"
+        ]
+      },
+      {
+        "company": "Xage Security",
+        "sector": "Defense & Security",
+        "bid_fit_score": 11.9,
+        "matched_terms": [
+          "infrastructure",
+          "cyber",
+          "cybersecurity"
+        ]
+      },
+      {
+        "company": "Twenty",
+        "sector": "Defense & Security",
+        "bid_fit_score": 11.7,
+        "matched_terms": [
+          "cyber"
+        ]
+      },
+      {
+        "company": "Earth AI",
+        "sector": "Infrastructure & Logistics",
+        "bid_fit_score": 11.3,
+        "matched_terms": [
+          "critical",
+          "infrastructure",
+          "targeting"
+        ]
+      },
+      {
+        "company": "Galvanick",
+        "sector": "Defense & Security",
+        "bid_fit_score": 11.1,
+        "matched_terms": [
+          "cyber",
+          "cybersecurity",
+          "critical"
+        ]
+      },
+      {
+        "company": "Core Automation",
+        "sector": "AI & Software",
+        "bid_fit_score": 11.0,
+        "matched_terms": [
+          "learning",
+          "targeting"
+        ]
+      }
+    ],
+    "bidFitSource": "TF-IDF across insight/description/thesisCluster"
   },
   {
     "id": "NASA-STTR-2026-002",
@@ -137,7 +625,84 @@ const SBIR_TOPICS_AUTO = [
       "Relativity Space",
       "Firefly Aerospace"
     ],
-    "description": "Novel propulsion concepts for cislunar operations and deep space missions."
+    "description": "Novel propulsion concepts for cislunar operations and deep space missions.",
+    "bidFit": [
+      {
+        "company": "Cascade Space",
+        "sector": "Space & Aerospace",
+        "bid_fit_score": 62.0,
+        "matched_terms": [
+          "deep",
+          "space",
+          "missions"
+        ]
+      },
+      {
+        "company": "Bellatrix Aerospace",
+        "sector": "Space & Aerospace",
+        "bid_fit_score": 23.2,
+        "matched_terms": [
+          "propulsion",
+          "space"
+        ]
+      },
+      {
+        "company": "Orbital Operations",
+        "sector": "Space & Aerospace",
+        "bid_fit_score": 20.5,
+        "matched_terms": [
+          "space",
+          "missions",
+          "propulsion"
+        ]
+      },
+      {
+        "company": "Turion Space",
+        "sector": "Space & Aerospace",
+        "bid_fit_score": 20.2,
+        "matched_terms": [
+          "space",
+          "operations"
+        ]
+      },
+      {
+        "company": "Astroscale",
+        "sector": "Space & Aerospace",
+        "bid_fit_score": 20.0,
+        "matched_terms": [
+          "operations",
+          "space"
+        ]
+      },
+      {
+        "company": "Viridian Space",
+        "sector": "Space & Aerospace",
+        "bid_fit_score": 18.8,
+        "matched_terms": [
+          "propulsion",
+          "space"
+        ]
+      },
+      {
+        "company": "Rocket Lab",
+        "sector": "Space & Aerospace",
+        "bid_fit_score": 18.8,
+        "matched_terms": [
+          "missions",
+          "space"
+        ]
+      },
+      {
+        "company": "Starpath Robotics",
+        "sector": "Space & Aerospace",
+        "bid_fit_score": 18.2,
+        "matched_terms": [
+          "space",
+          "deep"
+        ]
+      }
+    ],
+    "bidFitSource": "TF-IDF across insight/description/thesisCluster"
   },
   {
     "id": "DOE-STTR-2026-007",
@@ -156,7 +721,89 @@ const SBIR_TOPICS_AUTO = [
       "Commonwealth Fusion",
       "TAE Technologies"
     ],
-    "description": "Component technologies for compact fusion pilot plants targeting net energy by 2030."
+    "description": "Component technologies for compact fusion pilot plants targeting net energy by 2030.",
+    "bidFit": [
+      {
+        "company": "Focused Energy",
+        "sector": "Nuclear Energy",
+        "bid_fit_score": 28.8,
+        "matched_terms": [
+          "fusion",
+          "net",
+          "energy"
+        ]
+      },
+      {
+        "company": "First Light Fusion",
+        "sector": "Nuclear Energy",
+        "bid_fit_score": 27.9,
+        "matched_terms": [
+          "fusion",
+          "plant",
+          "nuclear"
+        ]
+      },
+      {
+        "company": "Fuse Energy",
+        "sector": "Nuclear Energy",
+        "bid_fit_score": 23.9,
+        "matched_terms": [
+          "fusion",
+          "nuclear",
+          "energy"
+        ]
+      },
+      {
+        "company": "Kyoto Fusioneering",
+        "sector": "Nuclear Energy",
+        "bid_fit_score": 23.1,
+        "matched_terms": [
+          "fusion",
+          "plant",
+          "nuclear"
+        ]
+      },
+      {
+        "company": "Marathon Fusion",
+        "sector": "Nuclear Energy",
+        "bid_fit_score": 22.4,
+        "matched_terms": [
+          "fusion",
+          "energy",
+          "nuclear"
+        ]
+      },
+      {
+        "company": "Commonwealth Fusion Systems",
+        "sector": "Climate & Energy",
+        "bid_fit_score": 22.3,
+        "matched_terms": [
+          "net",
+          "energy",
+          "fusion"
+        ]
+      },
+      {
+        "company": "Inertia Enterprises",
+        "sector": "Climate & Energy",
+        "bid_fit_score": 20.1,
+        "matched_terms": [
+          "net",
+          "energy",
+          "fusion"
+        ]
+      },
+      {
+        "company": "Newcleo",
+        "sector": "Nuclear Energy",
+        "bid_fit_score": 19.9,
+        "matched_terms": [
+          "nuclear",
+          "energy"
+        ]
+      }
+    ],
+    "bidFitSource": "TF-IDF across insight/description/thesisCluster"
   },
   {
     "id": "DOD-SBIR-2026-004",
@@ -177,7 +824,90 @@ const SBIR_TOPICS_AUTO = [
       "Shield AI",
       "Anduril Industries"
     ],
-    "description": "Develop coordinated autonomous systems for naval surface and undersea operations."
+    "description": "Develop coordinated autonomous systems for naval surface and undersea operations.",
+    "bidFit": [
+      {
+        "company": "Thalassa Robotics",
+        "sector": "Ocean & Maritime",
+        "bid_fit_score": 29.7,
+        "matched_terms": [
+          "undersea",
+          "maritime",
+          "autonomous"
+        ]
+      },
+      {
+        "company": "Seasats",
+        "sector": "Ocean & Maritime",
+        "bid_fit_score": 28.3,
+        "matched_terms": [
+          "maritime",
+          "surface",
+          "autonomous"
+        ]
+      },
+      {
+        "company": "BlackSea Technologies",
+        "sector": "Defense & Security",
+        "bid_fit_score": 24.4,
+        "matched_terms": [
+          "naval",
+          "maritime",
+          "defense"
+        ]
+      },
+      {
+        "company": "Saronic",
+        "sector": "Defense & Security",
+        "bid_fit_score": 20.4,
+        "matched_terms": [
+          "naval",
+          "autonomous",
+          "maritime"
+        ]
+      },
+      {
+        "company": "Mara",
+        "sector": "Defense & Security",
+        "bid_fit_score": 20.3,
+        "matched_terms": [
+          "swarm",
+          "defense",
+          "autonomous"
+        ]
+      },
+      {
+        "company": "Delian Alliance Industries",
+        "sector": "Defense & Security",
+        "bid_fit_score": 19.5,
+        "matched_terms": [
+          "naval",
+          "defense",
+          "maritime"
+        ]
+      },
+      {
+        "company": "Vatn Systems",
+        "sector": "Defense & Security",
+        "bid_fit_score": 18.3,
+        "matched_terms": [
+          "undersea",
+          "maritime",
+          "defense"
+        ]
+      },
+      {
+        "company": "Saildrone",
+        "sector": "Defense & Security",
+        "bid_fit_score": 17.2,
+        "matched_terms": [
+          "maritime",
+          "defense",
+          "surface"
+        ]
+      }
+    ],
+    "bidFitSource": "TF-IDF across insight/description/thesisCluster"
   },
   {
     "id": "NASA-SBIR-2026-009",
@@ -195,6 +925,88 @@ const SBIR_TOPICS_AUTO = [
     "relevantCompanies": [
       "Ginkgo Bioworks"
     ],
-    "description": "Engineered biological systems for air revitalization and waste processing in long-duration space missions."
+    "description": "Engineered biological systems for air revitalization and waste processing in long-duration space missions.",
+    "bidFit": [
+      {
+        "company": "Orbital Operations",
+        "sector": "Space & Aerospace",
+        "bid_fit_score": 21.4,
+        "matched_terms": [
+          "duration",
+          "long",
+          "space"
+        ]
+      },
+      {
+        "company": "Asimov",
+        "sector": "Biotech & Health",
+        "bid_fit_score": 16.6,
+        "matched_terms": [
+          "biotech",
+          "biology",
+          "engineered"
+        ]
+      },
+      {
+        "company": "Cascade Space",
+        "sector": "Space & Aerospace",
+        "bid_fit_score": 15.4,
+        "matched_terms": [
+          "space",
+          "missions"
+        ]
+      },
+      {
+        "company": "Trilobio",
+        "sector": "Biotech & Health",
+        "bid_fit_score": 15.0,
+        "matched_terms": [
+          "biology",
+          "biotech",
+          "life"
+        ]
+      },
+      {
+        "company": "PILGRIM",
+        "sector": "Defense & Security",
+        "bid_fit_score": 14.6,
+        "matched_terms": [
+          "air",
+          "engineered",
+          "biotech"
+        ]
+      },
+      {
+        "company": "Medra",
+        "sector": "Biotech & Health",
+        "bid_fit_score": 13.4,
+        "matched_terms": [
+          "biology",
+          "biotech",
+          "biological"
+        ]
+      },
+      {
+        "company": "Epoch Biodesign",
+        "sector": "Biotech & Health",
+        "bid_fit_score": 13.0,
+        "matched_terms": [
+          "biotech",
+          "synthetic",
+          "biology"
+        ]
+      },
+      {
+        "company": "Anthrogen",
+        "sector": "Biotech & Health",
+        "bid_fit_score": 12.8,
+        "matched_terms": [
+          "biology",
+          "biotech",
+          "synthetic"
+        ]
+      }
+    ],
+    "bidFitSource": "TF-IDF across insight/description/thesisCluster"
   }
 ];

@@ -1,5 +1,5 @@
 // Auto-generated demand signals data
-// Last updated: 2026-08-18 07:26:29 UTC
+// Last updated: 2026-08-20 07:37:10 UTC
 // Total signals: 44 | Companies matched: 190
 
 const GOV_DEMAND_SIGNALS_AUTO = [
@@ -1872,6 +1872,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
+        "name": "Fabri",
+        "score": 50,
+        "matchReasons": [
+          "name: Fabri",
+          "tag: manufacturing"
+        ]
+      },
+      {
         "name": "Radiant",
         "score": 29,
         "matchReasons": [
@@ -1947,17 +1955,10 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: microreactor",
           "tag: haleu"
         ]
-      },
-      {
-        "name": "Deep Atomic",
-        "score": 21,
-        "matchReasons": [
-          "tag: nuclear",
-          "techApproach overlap"
-        ]
       }
     ],
     "relevantCompanies": [
+      "Fabri",
       "Radiant",
       "Oklo",
       "General Matter",
@@ -1966,8 +1967,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Last Energy",
       "Exodys Energy",
       "Standard Nuclear",
-      "Nano Nuclear Energy",
-      "Deep Atomic"
+      "Nano Nuclear Energy"
     ]
   },
   {
@@ -5370,6 +5370,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Next-Generation Earth Observation Capabilities"
     ]
   },
+  "Fabri": {
+    "name": "Fabri",
+    "govPullScore": 24,
+    "matchCount": 1,
+    "topAgencies": [
+      "Department of Energy (DOE)"
+    ],
+    "avgRelevance": 50,
+    "topSignals": [
+      "Advanced HALEU Fuel Fabrication Capabilities"
+    ]
+  },
   "Oklo": {
     "name": "Oklo",
     "govPullScore": 18,
@@ -5455,18 +5467,6 @@ const GOV_PULL_SCORES_AUTO = {
       "Department of Energy (DOE)"
     ],
     "avgRelevance": 22,
-    "topSignals": [
-      "Advanced HALEU Fuel Fabrication Capabilities"
-    ]
-  },
-  "Deep Atomic": {
-    "name": "Deep Atomic",
-    "govPullScore": 16,
-    "matchCount": 1,
-    "topAgencies": [
-      "Department of Energy (DOE)"
-    ],
-    "avgRelevance": 21,
     "topSignals": [
       "Advanced HALEU Fuel Fabrication Capabilities"
     ]
@@ -6654,5 +6654,5 @@ const DEMAND_SIGNALS_STATS = {
     "Environmental Protection Agency (EPA)": 1
   },
   "companiesMatched": 190,
-  "lastUpdated": "2026-08-18 07:26:29 UTC"
+  "lastUpdated": "2026-08-20 07:37:10 UTC"
 };
