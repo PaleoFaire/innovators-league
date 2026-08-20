@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ─── Open Graph / Twitter / Canonical (auto-managed) ─── -->
+    <link rel="canonical" href="https://innovatorsleague.com/exitwatch.html">
+    <meta property="og:title" content="Exit Watch · The Innovators League">
+    <meta property="og:description" content="Companies that do not exist yet. New US entities filing their first SEC Form D, matched against founders we already track — 6 to 18 months before anyone writes them up.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://innovatorsleague.com/exitwatch.html">
+    <meta property="og:site_name" content="The Innovators League">
+    <meta property="og:image" content="https://innovatorsleague.com/og-default.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Exit Watch · The Innovators League">
+    <meta name="twitter:description" content="New US entities filing their first SEC Form D, matched against founders we already track.">
+    <meta name="twitter:image" content="https://innovatorsleague.com/og-default.png">
+    <meta name="twitter:site" content="@rationalopt">
+    <meta name="twitter:creator" content="@stephenmcb">
+    <!-- ─── /Open Graph / Twitter / Canonical ─── -->
+
+    <title>Exit Watch · The Innovators League</title>
+    <meta name="description" content="Pre-company dealflow. New US entities filing their first SEC Form D in frontier-tech industries, matched against founders already in our database.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260501">
+    <link rel="stylesheet" href="exitwatch-page.css?v=20260501">
+    <script src="config.js?v=20260501"></script>
+    <script src="analytics.js?v=20260501"></script>
+    <script src="structured-data.js?v=20260501"></script>
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="nav-brand">
+            <a href="index.html" style="display:flex;align-items:center;gap:8px;text-decoration:none;">
+                <div class="nav-logo">ROS</div>
+                <span class="nav-title">THE INNOVATORS LEAGUE</span>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link" data-nav-id="index">Companies</a>
+            <a href="terminal.html" class="nav-link" data-nav-id="terminal" style="color:#86efac;">⚡ Terminal</a>
+            <a href="exitwatch.html" class="nav-link active" data-nav-id="exitwatch" style="color:#fbbf24;">🛰 Exit Watch</a>
+            <a href="investors.html" class="nav-link" data-nav-id="investors">Investors</a>
+            <a href="signals.html" class="nav-link" data-nav-id="signals">Signals</a>
+        </div>
+    </nav>
+
+    <main>
+        <header class="hero">
+            <div class="hero-content">
+                <p class="hero-eyebrow" style="color:#fbbf24;">PRE-COMPANY DEALFLOW · SEC FORM D</p>
+                <h1 class="hero-title">Exit Watch</h1>
+                <p class="hero-subtitle">
+                    Every other page here points inward, at companies we already track.
+                    This one points outward and asks the opposite question: which company
+                    is about to exist that we have never heard of?
+                </p>
+            </div>
+        </header>
+
+        <section class="ew-section">
+            <div class="ew-container">
+
+                <div class="ew-stats" id="ew-stats"></div>
+
+                <div class="ew-how">
+                    <h2>How this works</h2>
+                    <p>
+                        You cannot reliably detect the departure. LinkedIn has no lawful API and
+                        scraping it is brittle and against their terms, so we do not try. We detect
+                        the <strong>formation</strong> instead, which announces itself in public records.
+                    </p>
+                    <p>
+                        Every US private raise over $5,000 files an SEC Form D within fifteen days of
+                        first sale — weeks or months before any press release. The filing names the
+                        new entity, its industry, the year it was incorporated, the capital actually
+                        sold, and <strong>its officers, by name</strong>. We sweep the whole EDGAR
+                        firehose daily, drop the pooled funds and real-estate vehicles that make up
+                        two thirds of it, keep newly incorporated frontier-adjacent entities we do
+                        not already track, and match the officers against the founders already
+                        documented in our own database.
+                    </p>
+                    <p class="ew-honest">
+                        <strong>What a row here is, and is not.</strong> A name on a Form D matching a
+                        name in our database is a <em>hypothesis</em>, not a fact. Names collide.
+                        We never assert that a named individual did anything — we tell you what the
+                        filing says, what our database says, and how well the two corroborate. Every
+                        row links straight to the filing so you can check it in one click.
+                    </p>
+                </div>
+
+                <div class="ew-toolbar">
+                    <div class="ew-filters" id="ew-tier-filters"></div>
+                    <div class="ew-search-wrap">
+                        <input type="search" id="ew-search" class="ew-search"
+                               placeholder="Search entity, person, state…" aria-label="Search Exit Watch">
+                    </div>
+                    <select id="ew-sort" class="ew-sort" aria-label="Sort">
+                        <option value="score">Sort: lead strength</option>
+                        <option value="recent">Sort: most recent</option>
+                        <option value="amount">Sort: capital raised</option>
+                    </select>
+                </div>
+
+                <p class="ew-result-line" id="ew-result-line" role="status"></p>
+
+                <div id="ew-rows" class="ew-rows"></div>
+
+                <div class="ew-empty" id="ew-empty" hidden>
+                    <p>Nothing matches those filters.</p>
+                </div>
+
+                <div class="ew-data-note">
+                    <strong>About this data.</strong>
+                    Source is the SEC EDGAR daily index for Form D, an official US government record,
+                    swept every morning. Filings from entities already in <em>COMPANIES</em> are
+                    suppressed — a tracked company raising capital is not a new formation, and
+                    surfacing one as though it were would be the most embarrassing thing this tool
+                    could do. Coverage is US-only; a company incorporated in Delaware but operating
+                    abroad appears, a company that never raises US capital does not. Form D is filed
+                    <em>after</em> first sale, so this is early relative to press coverage, not
+                    relative to the round itself.
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="premium-footer">
+      <div class="footer-inner">
+        <p style="color:rgba(255,255,255,0.4); font-size:12px; text-align:center;">The Innovators League &middot; Exit Watch &middot; Data: SEC EDGAR Form D (official filings)</p>
+        <div class="footer-legal-row" style="display:flex;gap:18px;flex-wrap:wrap;justify-content:center;font-size:12px;color:#8b949e;margin-top:10px;text-align:center;"><a href="privacy.html" style="color:#8b949e;text-decoration:none;">Privacy</a><a href="terms.html" style="color:#8b949e;text-decoration:none;">Terms</a><a href="#" onclick="if(window.TIL_CookieConsent){window.TIL_CookieConsent.show();}return false;" style="color:#8b949e;text-decoration:none;">Manage cookies</a><a href="mailto:contact@rationaloptimistsociety.com" style="color:#8b949e;text-decoration:none;">Contact</a></div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="utils.js?v=20260501"></script>
+    <script src="auth.js?v=20260501"></script>
+    <script src="data/exit_watch_auto.js?v=20260501"></script>
+    <script src="exitwatch.js?v=20260501"></script>
+    <script src="cookie-consent.js?v=20260501"></script>
+</body>
+</html>

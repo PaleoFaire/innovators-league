@@ -1,0 +1,98 @@
+name: Exit Watch
+
+on:
+  schedule:
+    # 06:20 UTC daily — after EDGAR has published the previous day's index.
+    - cron: '20 6 * * 1-6'
+
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Calendar days of EDGAR daily index to sweep'
+        required: false
+        default: '10'
+
+permissions:
+  contents: write
+
+jobs:
+  exit-watch:
+    name: Sweep Form D formations
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Both scripts use only the standard library, so there is nothing to
+      # install. Kept explicit so a future dependency does not fail silently.
+      - name: Show Python version
+        run: python --version
+
+      # A rolling 10-day sweep covers EDGAR's own late-filing behaviour
+      # without re-walking the whole month every morning. The fetcher caches
+      # every parsed accession, so repeated days are nearly free.
+      - name: Sweep EDGAR for new formations
+        run: python scripts/fetch_exit_watch.py --days "${{ github.event.inputs.days || '10' }}"
+
+      - name: Match pedigree and score
+        run: python scripts/build_exit_watch.py
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit and push (retry on conflict)
+        run: |
+          git add data/exit_watch_auto.js data/exit_watch_auto.json data/exit_watch_raw.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          # ── CONFLICT-MARKER GUARD ──
+          if grep -RIlE '^<{7}|^>{7}|^={7}$' data/exit_watch_auto.js 2>/dev/null | head -1 | grep -q .; then
+            echo "::error::Conflict markers detected. Refusing to commit."
+            exit 1
+          fi
+          # ── JS-PARSE GUARD ──
+          # exit_watch_auto.js is loaded as a plain script by exitwatch.html.
+          # A parse error here blanks the page, so it never reaches main.
+          node --check data/exit_watch_auto.js 2>&1 | tee /tmp/ew_parse.txt | head -20
+          if grep -qE 'SyntaxError|ParseError' /tmp/ew_parse.txt; then
+            echo "::error::exit_watch_auto.js failed JS parse. Refusing to commit."
+            exit 1
+          fi
+          # ── SANITY GUARD ──
+          # A sweep that returns nothing usually means EDGAR was unreachable,
+          # not that the world stopped incorporating companies. Do not let an
+          # empty file overwrite a good one.
+          python3 - <<'PY'
+          import json, sys
+          d = json.load(open("data/exit_watch_auto.json"))
+          rows = d.get("rows", [])
+          if len(rows) == 0:
+              print("::error::Exit Watch produced zero rows — refusing to publish an empty queue.")
+              sys.exit(1)
+          print(f"rows: {len(rows)}")
+          PY
+          git commit -m "🛰 Auto-update: Exit Watch $(date +%Y-%m-%d)"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt; rebasing..."
+            git pull --rebase origin main || true
+            sleep $((attempt * 3))
+          done
+          echo "::error::Failed to push Exit Watch after 5 attempts"
+          exit 1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

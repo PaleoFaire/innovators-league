@@ -31,3 +31,6 @@ US_TRIP_*.md
 # ── Fetch caches (untracked 2026-08; workflows persist them via actions/cache) ──
 data/github_signals_etag_cache.json
 data/.company_facts_url_cache.json
+
+# Exit Watch: local accession cache, regenerated on demand
+data/.exit_watch_cache.json
