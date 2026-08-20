@@ -329,7 +329,7 @@
                     <a href="baskets.html" class="nav-dropdown-link" data-nav-id="baskets">💰 Public Baskets</a>
                     <a href="valuations.html" class="nav-dropdown-link" data-nav-id="valuations">📉 Valuations</a>
                     <a href="captable.html" class="nav-dropdown-link" data-nav-id="captable">📋 Cap Tables</a>
-                    <a href="govradar.html" class="nav-dropdown-link" data-nav-id="govradar">🎖️ Government Radar</a>
+                    <a href="govradar.html" class="nav-dropdown-link" data-nav-id="govradar">🎖️ Gov Contracts &amp; Demand</a>
                 </div>
             </div>
 
@@ -337,11 +337,10 @@
                 <button class="nav-link nav-link-main" data-nav-group="signals">🔴 Signals <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
                 <div class="nav-dropdown-content">
                     <a href="brief.html" class="nav-dropdown-link" data-nav-id="brief">📰 Frontier Daily</a>
-                    <a href="changes.html" class="nav-dropdown-link" data-nav-id="changes">🗞 This Week in the League</a>
+                    <a href="changes.html" class="nav-dropdown-link" data-nav-id="changes">🗞 Weekly Changelog</a>
                     <a href="signals.html" class="nav-dropdown-link" data-nav-id="signals" aria-current="page" style="color:var(--color-primary-bright)">🔴 Proprietary Signals</a>
                     <a href="discovery.html" class="nav-dropdown-link" data-nav-id="discovery">🌟 Discovery Queue</a>
                     <a href="power-grid.html" class="nav-dropdown-link" data-nav-id="power-grid">⚡ Power Grid</a>
-                    <a href="alerts.html" class="nav-dropdown-link" data-nav-id="alerts">🔔 Alerts</a>
                 </div>
             </div>
 
@@ -403,19 +402,18 @@
       <!-- ════════════════════════════════════════════════════════ -->
       <!-- SECTION 1: Form D Filings                                 -->
       <!-- ════════════════════════════════════════════════════════ -->
+      <!-- Form D graduated to its own flagship page (radar.html) with
+           subscription progress and last-round comparison. Rendering the same
+           filings here too meant two versions of one dataset drifting apart,
+           so this section is now a pointer, not a copy. -->
       <section class="signal-section" id="form-d">
-        <div class="signal-head">
+        <a href="radar.html" style="display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; text-decoration:none; border:1px solid rgba(74,222,128,0.35); background:rgba(74,222,128,0.05); border-radius:10px; padding:18px 22px;">
           <div>
-            <h2 class="signal-title">📄 Form D / SAFE Filings</h2>
-            <p class="signal-subtitle">Every private funding round &gt; $5K files an SEC Form D within 15 days of first sale — weeks before the press release. The leading indicator for funding activity.</p>
+            <h2 class="signal-title" style="margin-bottom:4px;">🟢 Form D filings moved to the Pre-Announcement Radar</h2>
+            <p class="signal-subtitle" style="margin:0;">Every filing matched to a tracked company — offering size, how much is already sold, and how it compares to the last round. Weeks before the press release.</p>
           </div>
-          <div class="signal-meta">
-            <span class="sig-count" id="form-d-count">—</span>
-            <span>filings, last 60 days</span>
-            <span>Source: SEC EDGAR</span>
-          </div>
-        </div>
-        <div id="form-d-grid" class="filing-grid"><p style="color:rgba(255,255,255,0.5); font-size:13px;">Loading Form D filings…</p></div>
+          <span style="font: 600 13px/1 'Space Grotesk', sans-serif; color:#4ade80; white-space:nowrap;">Open the Radar →</span>
+        </a>
       </section>
 
       <!-- ════════════════════════════════════════════════════════ -->
@@ -540,7 +538,6 @@
 
     <script src="utils.js?v=20260501"></script>
     <script src="auth.js?v=20260501"></script>
-    <script src="data/form_d_filings_auto.js?v=20260501"></script>
     <script src="data/export_controls_auto.js?v=20260501"></script>
     <script src="data/sbir_topics_auto.js?v=20260501"></script>
     <script src="data/factory_watch_auto.js?v=20260501"></script>
