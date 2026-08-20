@@ -47162,19 +47162,19 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-20 15:40
+// Last updated: 2026-08-20 16:42
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Waymo", headline: "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all", source: "Electrek", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX's orbital data centers would create a new category of e-waste", source: "Ars Technica Space", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Portal Space Systems", headline: "Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Muon Space", headline: "Muon Space raises $250 million to ramp up satellite production", source: "SpaceNews", time: "4h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "Proteus Space", headline: "Draper Selects Proteus Space for Advanced On-Orbit Mission", source: "SpaceNews", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Castelion", headline: "Hypersonic missile startup Castelion raises $1 billion", source: "SpaceNews", time: "16h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "Waymo", headline: "Waymo's cheaper, next-gen robotaxi is now open to all riders in these three cities", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "OpenAI seeks to one-up Anthropic with new customer privacy protections", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 9, type: "hire", company: "SpaceX", headline: "Cognition CEO denies report that SpaceX tried to acquire the startup", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "OpenAI", headline: "Researchers say OpenAI revoked their access to limited cyber program", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Humanoid", headline: "What does Unitree Robotics' IPO mean for the humanoid industry?", source: "The Robot Report", time: "21h ago", impact: "high", unread: false },
+  { id: 1, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches 9th satellite for iQPS", source: "SpaceNews", time: "Just now", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Waymo", headline: "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all", source: "Electrek", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX's orbital data centers would create a new category of e-waste", source: "Ars Technica Space", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Portal Space Systems", headline: "Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova", source: "SpaceNews", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Muon Space", headline: "Muon Space raises $250 million to ramp up satellite production", source: "SpaceNews", time: "5h ago", impact: "high", unread: true },
+  { id: 6, type: "ipo", company: "Proteus Space", headline: "Draper Selects Proteus Space for Advanced On-Orbit Mission", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Castelion", headline: "Hypersonic missile startup Castelion raises $1 billion", source: "SpaceNews", time: "17h ago", impact: "high", unread: false },
+  { id: 8, type: "news", company: "Waymo", headline: "Waymo's cheaper, next-gen robotaxi is now open to all riders in these three cities", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "OpenAI seeks to one-up Anthropic with new customer privacy protections", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 10, type: "hire", company: "SpaceX", headline: "Cognition CEO denies report that SpaceX tried to acquire the startup", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Humanoid", headline: "What does Unitree Robotics' IPO mean for the humanoid industry?", source: "The Robot Report", time: "22h ago", impact: "high", unread: false },
   { id: 12, type: "hire", company: "SpaceX", headline: "Ex-Tesla president: Roadster delay is about getting closer to SpaceX ahead of merger", source: "Electrek", time: "1d ago", impact: "low", unread: false },
   { id: 13, type: "ipo", company: "Firefly Aerospace", headline: "Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
   { id: 14, type: "news", company: "Sage Geosystems", headline: "Sage Geosystems brings its first next-gen geothermal plant online", source: "Canary Media", time: "1d ago", impact: "low", unread: false },
