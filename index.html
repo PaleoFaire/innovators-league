@@ -57,8 +57,9 @@
         </div>
         <div class="nav-links">
             <a href="index.html" class="nav-link" data-nav-id="index" aria-current="page" style="color:var(--color-primary-bright)">Companies</a>
+            <a href="wire.html" class="nav-link" data-nav-id="wire" style="color:#FF6B2C;">📡 The Wire</a>
             <a href="terminal.html" class="nav-link" data-nav-id="terminal" style="color:#86efac;">⚡ Terminal</a>
-            <a href="changes.html" class="nav-link" data-nav-id="changes">🗞️ Changes</a>
+            <a href="exitwatch.html" class="nav-link" data-nav-id="exitwatch" style="color:#fbbf24;">🛰 Exit Watch</a>
 
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main" data-nav-group="calendar">📅 Calendar <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
@@ -87,9 +88,10 @@
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main" data-nav-group="signals">🔴 Signals <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
                 <div class="nav-dropdown-content">
+                    <a href="radar.html" class="nav-dropdown-link" data-nav-id="radar">🟢 Pre-Announcement Radar</a>
                     <a href="brief.html" class="nav-dropdown-link" data-nav-id="brief">📰 Frontier Daily</a>
                     <a href="signals.html" class="nav-dropdown-link" data-nav-id="signals">🔴 Proprietary Signals</a>
-                    <!-- Discovery Queue unlinked from member nav (page kept at discovery.html) -->
+                    <a href="discovery.html" class="nav-dropdown-link" data-nav-id="discovery">🌟 Discovery Queue</a>
                     <a href="power-grid.html" class="nav-dropdown-link" data-nav-id="power-grid">⚡ Power Grid</a>
                     <a href="alerts.html" class="nav-dropdown-link" data-nav-id="alerts">🔔 Alerts</a>
                 </div>
@@ -169,6 +171,18 @@
         <div class="ticker-label">SIGNALS</div>
         <div class="ticker-scroll" id="ticker-scroll"></div>
     </div>
+
+    <!-- The Wire strip — the pulse, above the fold. Populated from
+         data/wire_auto.js; hides itself if the data file is absent. -->
+    <section id="wire-strip" style="display:none; border-bottom:1px solid var(--border); background:linear-gradient(180deg, rgba(255,107,44,0.04), transparent);">
+      <div class="container" style="padding:18px 24px 20px;">
+        <div style="display:flex; align-items:baseline; justify-content:space-between; gap:12px; flex-wrap:wrap;">
+          <div style="font:700 12px/1 'Space Grotesk',sans-serif; letter-spacing:.16em; color:var(--accent);">📡 THE WIRE — WHAT CHANGED</div>
+          <a href="wire.html" style="font-size:12px; color:var(--text-muted); text-decoration:none;">Full wire →</a>
+        </div>
+        <div id="wire-strip-items" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:10px; margin-top:12px;"></div>
+      </div>
+    </section>
 
     <!-- The Innovators League 30 — The Hero Credential -->
     <section class="innovator50-section" id="innovator50">
@@ -1210,6 +1224,31 @@
       }).join('');
       var section = document.getElementById('weekly-changelog-teaser');
       if (section) section.style.display = '';
+    })();
+    </script>
+    <script src="data/wire_auto.js?v=20260820"></script>
+    <script>
+    /* The Wire strip — top events from the pulse feed, above the fold. */
+    (function () {
+      try {
+        if (typeof WIRE === 'undefined' || !WIRE.top || !WIRE.top.length) return;
+        var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+          return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); };
+        var COLORS = { form_d:'#4ade80', funding:'#4ade80', contract:'#fbbf24', grant:'#fbbf24',
+                       regulatory:'#60a5fa', exec:'#a78bfa', launch:'#22d3ee' };
+        document.getElementById('wire-strip-items').innerHTML = WIRE.top.slice(0, 3).map(function (e) {
+          var c = COLORS[e.kind] || '#9ca3af';
+          return '<a href="wire.html" style="display:block; text-decoration:none; border:1px solid var(--border); ' +
+            'border-radius:8px; background:var(--bg-card); padding:11px 14px;">' +
+            '<span style="font:700 9px/1 Inter,sans-serif; letter-spacing:.1em; color:' + c + '; ' +
+              'border:1px solid ' + c + '55; background:' + c + '12; border-radius:3px; padding:3px 6px;">' + esc(e.label) + '</span>' +
+            '<div style="font-size:13.5px; color:var(--text-primary); margin-top:7px; font-weight:600;">' +
+              esc(e.company) + ' <span style="font-weight:400; color:var(--text-secondary);">' + esc(e.headline) + '</span></div>' +
+            (e.detail ? '<div style="font-size:12px; color:var(--text-muted); margin-top:3px;">' + esc(e.detail) + '</div>' : '') +
+          '</a>';
+        }).join('');
+        document.getElementById('wire-strip').style.display = 'block';
+      } catch (err) { /* strip is optional — never break the landing page */ }
     })();
     </script>
     <script src="app.js?v=20260501"></script>

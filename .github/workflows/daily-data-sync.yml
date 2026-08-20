@@ -220,6 +220,13 @@ jobs:
       - name: Build weekly changelog (data/changelog_auto.js)
         run: python3 scripts/build_changelog.py || echo "::warning::changelog build failed"
 
+      # The Wire + Pre-Announcement Radar (wire.html, radar.html, index strip).
+      # Runs AFTER merge_data.py so the joins read today's data.js. Guarded the
+      # same way — the pulse pages degrade to yesterday's file, never break
+      # the sync.
+      - name: Build the Wire + Radar (data/wire_auto.js)
+        run: python3 scripts/build_wire.py || echo "::warning::wire build failed"
+
       - name: Configure Git
         run: |
           git config user.name "TIL Data Bot"

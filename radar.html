@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://innovatorsleague.com/radar.html">
+    <meta property="og:title" content="Pre-Announcement Radar · The Innovators League">
+    <meta property="og:description" content="SEC Form D filings matched to 1,100+ frontier-tech companies — rounds caught weeks before the press release.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://innovatorsleague.com/radar.html">
+    <meta property="og:site_name" content="The Innovators League">
+    <meta property="og:image" content="https://innovatorsleague.com/og-default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pre-Announcement Radar · The Innovators League">
+    <meta name="twitter:description" content="Rounds caught at the SEC filing, weeks before the press release.">
+    <meta name="twitter:image" content="https://innovatorsleague.com/og-default.png">
+
+    <title>Pre-Announcement Radar · The Innovators League</title>
+    <meta name="description" content="Every SEC Form D matched to a tracked frontier-tech company: offering size, subscription progress, and how it compares to the company's last known round.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260501">
+    <style>
+      /* ═══ Pre-Announcement Radar ═══ */
+      .radar-hero {
+        background:
+          radial-gradient(900px 380px at 15% -20%, rgba(74,222,128,0.09), transparent 60%),
+          linear-gradient(180deg, #0a0f0c 0%, #07070c 100%);
+        border-bottom: 1px solid var(--border);
+        padding: 64px 24px 42px;
+      }
+      .radar-hero-inner { max-width: 980px; margin: 0 auto; }
+      .radar-kicker {
+        display: inline-flex; align-items: center; gap: 8px;
+        font: 600 11px/1 'Inter', sans-serif; letter-spacing: .18em;
+        color: #4ade80; text-transform: uppercase;
+      }
+      .radar-dot { width: 7px; height: 7px; border-radius: 50%; background: #4ade80;
+        box-shadow: 0 0 0 0 rgba(74,222,128,.5); animation: radar-pulse 2.2s infinite; }
+      @keyframes radar-pulse {
+        0% { box-shadow: 0 0 0 0 rgba(74,222,128,.45); }
+        70% { box-shadow: 0 0 0 9px rgba(74,222,128,0); }
+        100% { box-shadow: 0 0 0 0 rgba(74,222,128,0); }
+      }
+      @media (prefers-reduced-motion: reduce) { .radar-dot { animation: none; } }
+      .radar-hero h1 {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: clamp(30px, 4.5vw, 46px); line-height: 1.06;
+        margin: 12px 0 10px; color: var(--text-primary); letter-spacing: -0.01em;
+      }
+      .radar-sub { color: var(--text-secondary); font-size: 15.5px; max-width: 66ch; line-height: 1.6; margin: 0; }
+      .radar-sub b { color: var(--text-primary); font-weight: 600; }
+      .radar-stats { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+      .radar-stat {
+        border: 1px solid var(--border); border-radius: 8px; background: var(--bg-card);
+        padding: 10px 16px; min-width: 128px;
+      }
+      .radar-stat b {
+        display: block; font-family: 'Space Grotesk', sans-serif; font-size: 22px;
+        color: var(--text-primary); font-variant-numeric: tabular-nums;
+      }
+      .radar-stat span { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--text-muted); }
+
+      .radar-body { max-width: 980px; margin: 0 auto; padding: 30px 24px 60px; }
+
+      .radar-how { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-bottom: 30px; }
+      .radar-how-tile { border: 1px solid var(--border); border-radius: 8px; background: var(--bg-card); padding: 15px 17px; }
+      .radar-how-tile h3 { margin: 0 0 6px; font: 700 13px/1.3 'Space Grotesk', sans-serif; color: var(--text-primary); }
+      .radar-how-tile p { margin: 0; font-size: 12.5px; line-height: 1.55; color: var(--text-secondary); }
+
+      .radar-card {
+        border: 1px solid var(--border); border-radius: 10px; background: var(--bg-card);
+        padding: 18px 20px; margin-top: 14px;
+        display: grid; grid-template-columns: 1fr auto; gap: 6px 18px;
+      }
+      .radar-card.full { border-color: rgba(74,222,128,0.45); }
+      .radar-co { display: flex; align-items: baseline; flex-wrap: wrap; gap: 10px; }
+      .radar-co a {
+        font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 700;
+        color: var(--text-primary); text-decoration: none;
+      }
+      .radar-co a:hover { color: #4ade80; }
+      .radar-sector { font-size: 11px; color: var(--text-muted); letter-spacing: .06em; text-transform: uppercase; }
+      .radar-date { font-size: 12px; color: var(--text-muted); text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+      .radar-flag {
+        grid-column: 2; justify-self: end; align-self: start;
+        font: 700 9.5px/1 'Inter', sans-serif; letter-spacing: .1em;
+        color: #4ade80; border: 1px solid rgba(74,222,128,0.5); background: rgba(74,222,128,0.08);
+        border-radius: 3px; padding: 5px 8px; white-space: nowrap;
+      }
+      .radar-amounts { grid-column: 1 / -1; margin-top: 8px; }
+      .radar-amount-row {
+        display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
+        font-size: 14px; color: var(--text-secondary);
+      }
+      .radar-amount-row b { font-family: 'Space Grotesk', sans-serif; font-size: 20px; color: var(--text-primary); font-variant-numeric: tabular-nums; }
+      .radar-bar { height: 6px; border-radius: 3px; background: rgba(255,255,255,0.07); margin-top: 9px; overflow: hidden; max-width: 460px; }
+      .radar-bar-fill { height: 100%; border-radius: 3px; background: linear-gradient(90deg, #22c55e, #4ade80); }
+      .radar-vs {
+        grid-column: 1 / -1; font-size: 12.5px; color: var(--text-muted); margin-top: 9px;
+        border-left: 2px solid rgba(74,222,128,0.5); padding-left: 8px;
+      }
+      .radar-links { grid-column: 1 / -1; font-size: 12px; color: var(--text-muted); margin-top: 9px; }
+      .radar-links a { color: var(--text-muted); }
+      .radar-links a:hover { color: #4ade80; }
+      .radar-chip {
+        font: 600 10px/1 'Inter', sans-serif; letter-spacing: .06em; color: var(--text-muted);
+        border: 1px solid var(--border); border-radius: 3px; padding: 4px 7px; margin-left: 8px;
+      }
+      .radar-empty { text-align: center; color: var(--text-muted); padding: 60px 0; }
+      @media (max-width: 560px) { .radar-card { grid-template-columns: 1fr; } .radar-date, .radar-flag { justify-self: start; text-align: left; grid-column: 1; } }
+    </style>
+</head>
+<body>
+    <!-- Navigation — unified IA (auto-generated by scripts/unify_nav.py) -->
+    <nav class="nav">
+        <div class="nav-brand">
+            <a href="index.html" style="display:flex;align-items:center;gap:8px;text-decoration:none;">
+                <div class="nav-logo">ROS</div>
+                <span class="nav-title">THE INNOVATORS LEAGUE</span>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link" data-nav-id="index">Companies</a>
+            <a href="wire.html" class="nav-link" data-nav-id="wire" style="color:#FF6B2C;">📡 The Wire</a>
+            <a href="terminal.html" class="nav-link" data-nav-id="terminal" style="color:#86efac;">⚡ Terminal</a>
+            <a href="exitwatch.html" class="nav-link" data-nav-id="exitwatch" style="color:#fbbf24;">🛰 Exit Watch</a>
+
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main" data-nav-group="calendar">📅 Calendar <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="catalysts.html" class="nav-dropdown-link" data-nav-id="catalysts">🎯 Catalyst Calendar</a>
+                    <a href="calendar.html" class="nav-dropdown-link" data-nav-id="calendar">📅 Industry Events</a>
+                    <a href="launches.html" class="nav-dropdown-link" data-nav-id="launches">🛰️ Space Launches</a>
+                    <a href="earnings-signals.html" class="nav-dropdown-link" data-nav-id="earnings-signals">📈 Earnings Signals</a>
+                    <a href="regulatory.html" class="nav-dropdown-link" data-nav-id="regulatory">📋 Regulatory</a>
+                </div>
+            </div>
+
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main" data-nav-group="capital">💰 Capital <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="investors.html" class="nav-dropdown-link" data-nav-id="investors">👥 Investors</a>
+                    <a href="investor-intelligence.html" class="nav-dropdown-link" data-nav-id="investor-intelligence">🕸 Investor Intelligence</a>
+                    <a href="investor-hub.html" class="nav-dropdown-link" data-nav-id="investor-hub">💼 Investor Hub</a>
+                    <a href="baskets.html" class="nav-dropdown-link" data-nav-id="baskets">💰 Public Baskets</a>
+                    <a href="valuations.html" class="nav-dropdown-link" data-nav-id="valuations">📉 Valuations</a>
+                    <a href="captable.html" class="nav-dropdown-link" data-nav-id="captable">📋 Cap Tables</a>
+                    <a href="govradar.html" class="nav-dropdown-link" data-nav-id="govradar">🎖️ Government Radar</a>
+                </div>
+            </div>
+
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main" data-nav-group="signals">🔴 Signals <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="radar.html" class="nav-dropdown-link" data-nav-id="radar" aria-current="page" style="color:var(--color-primary-bright)">🟢 Pre-Announcement Radar</a>
+                    <a href="brief.html" class="nav-dropdown-link" data-nav-id="brief">📰 Frontier Daily</a>
+                    <a href="signals.html" class="nav-dropdown-link" data-nav-id="signals">🔴 Proprietary Signals</a>
+                    <a href="discovery.html" class="nav-dropdown-link" data-nav-id="discovery">🌟 Discovery Queue</a>
+                    <a href="power-grid.html" class="nav-dropdown-link" data-nav-id="power-grid">⚡ Power Grid</a>
+                    <a href="alerts.html" class="nav-dropdown-link" data-nav-id="alerts">🔔 Alerts</a>
+                </div>
+            </div>
+
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main" data-nav-group="research">🔬 Research <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="visualizations.html" class="nav-dropdown-link" data-nav-id="visualizations">📊 Insights &amp; Data Viz</a>
+                    <a href="sectors.html" class="nav-dropdown-link" data-nav-id="sectors">🏭 Sectors</a>
+                    <a href="jobs.html" class="nav-dropdown-link" data-nav-id="jobs">💼 Talent</a>
+                    <a href="patents.html" class="nav-dropdown-link" data-nav-id="patents">📜 Patents</a>
+                    <a href="customers.html" class="nav-dropdown-link" data-nav-id="customers">👥 Customers</a>
+                    <a href="compare.html" class="nav-dropdown-link" data-nav-id="compare">⚖️ Compare</a>
+                    <a href="transformation.html" class="nav-dropdown-link" data-nav-id="transformation">🌱 Transformation</a>
+                    <a href="research.html" class="nav-dropdown-link" data-nav-id="research">🔬 Deep Research</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-auth" id="nav-auth">
+            <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+            <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+        </div>
+        <div class="nav-user" id="nav-user" style="display:none;">
+            <span class="nav-user-email" id="nav-user-email"></span>
+            <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+
+    <header class="radar-hero">
+      <div class="radar-hero-inner">
+        <div class="radar-kicker"><span class="radar-dot"></span>Live · swept from SEC EDGAR daily</div>
+        <h1>Pre-Announcement Radar</h1>
+        <p class="radar-sub">When a private round closes, the company must file a <b>Form&nbsp;D</b> with the SEC — typically <b>weeks before any press release</b>. We sweep every filing on EDGAR daily and match them to the companies we track, so you see the round at the filing, not at the announcement.</p>
+        <div class="radar-stats" id="radar-stats"></div>
+      </div>
+    </header>
+
+    <main class="radar-body">
+      <div class="radar-how">
+        <div class="radar-how-tile">
+          <h3>Offered vs. sold</h3>
+          <p>“Offered” is the ceiling the company registered. “Sold” is what investors have already committed at filing time. A high sold ratio means the round is largely done — quietly.</p>
+        </div>
+        <div class="radar-how-tile">
+          <h3>Fully subscribed = a closed, unannounced round</h3>
+          <p>When sold equals offered, the raise is complete. Everything after that — the press release, the coverage — is choreography. You are reading it here first.</p>
+        </div>
+        <div class="radar-how-tile">
+          <h3>Versus the last round</h3>
+          <p>Each filing is compared against the company’s last round in our database. A filing several times the last round signals acceleration; a small one can signal a bridge.</p>
+        </div>
+      </div>
+
+      <div id="radar-list"><p class="radar-empty">Loading filings…</p></div>
+    </main>
+
+    <footer style="padding:40px 24px; text-align:center; border-top:1px solid rgba(255,255,255,0.06);">
+      <p style="font-size:11px; color:rgba(255,255,255,0.4); letter-spacing:0.5px;">
+        Only filings matched to a tracked company by CIK or a corroborated identity are shown — name-only guesses are held for review, never published. Every card links to the primary filing on sec.gov.<br>
+        <a href="terms.html" style="color:rgba(255,255,255,0.5);">Terms</a> · <a href="privacy.html" style="color:rgba(255,255,255,0.5);">Privacy</a> &middot; <a href="#" onclick="if(window.TIL_CookieConsent){window.TIL_CookieConsent.show();}return false;" style="color:rgba(255,255,255,0.5);">Manage cookies</a>
+      </p>
+    </footer>
+
+    <script src="utils.js?v=20260501"></script>
+    <script src="auth.js?v=20260501"></script>
+    <script src="data/wire_auto.js?v=20260820"></script>
+    <script src="radar.js?v=20260820"></script>
+    <script src="cookie-consent.js?v=20260501"></script>
+</body>
+</html>
