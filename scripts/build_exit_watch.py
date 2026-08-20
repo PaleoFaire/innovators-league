@@ -92,6 +92,12 @@ COMMON_SURNAMES = {
     "robinson", "walker", "young", "allen", "king", "wright", "scott",
     "chen", "wang", "li", "zhang", "liu", "yang", "kim", "park", "singh",
     "patel", "kumar", "nguyen", "tran",
+    # Short, very high-frequency surnames. "Jason Ma" matching a founder in
+    # our database is close to meaningless on its own.
+    "ma", "wu", "xu", "yu", "he", "gao", "lin", "zhou", "sun", "guo", "luo",
+    "shi", "cao", "deng", "feng", "peng", "tang", "wei", "xie", "zhu", "zheng",
+    "cho", "choi", "jung", "kang", "shin", "yoon", "lim", "han", "oh", "seo",
+    "das", "shah", "gupta", "rao", "reddy", "mehta", "desai", "iyer", "bose",
 }
 
 # Industry groups where a real frontier company plausibly self-classifies,
@@ -330,6 +336,10 @@ def build_roster(companies: list[dict]) -> tuple[dict, set]:
 
 # ─────────────────────────────── scoring ────────────────────────────────
 
+LEGAL_SUFFIX = {"inc", "incorporated", "llc", "ltd", "limited", "corp",
+                "corporation", "co", "company", "lp", "llp", "plc", "sa", "gmbh"}
+
+
 def name_tokens(s: str) -> set[str]:
     """Distinctive words in a company name, legal furniture removed."""
     junk = {"inc", "llc", "corp", "corporation", "co", "company", "ltd",
@@ -353,7 +363,69 @@ def is_same_company(entity: str, tracked_name: str) -> bool:
     a, b = name_tokens(entity), name_tokens(tracked_name)
     if not a or not b:
         return False
-    return a.issubset(b) or b.issubset(a)
+    if a.issubset(b) or b.issubset(a):
+        return True
+
+    # Acronyms. "Amca" in our database is "Advanced Manufacturing Co of
+    # America" on the filing — no shared token, but the same company. Caught
+    # in testing when a $244M raise was ranked a Strong lead as a brand-new
+    # formation. Build initials from the entity's own words, including the
+    # legal furniture, because acronyms usually swallow it.
+    SKIP = {"of", "and", "the", "for", "a", "an", "de", "at", "in", "on"}
+
+    def initial_forms(s):
+        """An acronym may or may not swallow the little words and the legal
+        suffix, so generate every plausible reading and try them all.
+        'Advanced Manufacturing Co of America, Inc.' yields amcoai, amcai,
+        amcoa and amca — the last of which is how the company writes it."""
+        words = [w for w in re.split(r"[^A-Za-z]+", (s or "")) if w]
+        if not words:
+            return set()
+        keep = [w for w in words if w.lower() not in SKIP]
+        forms = set()
+        for base in (words, keep):
+            if not base:
+                continue
+            init = "".join(w[0] for w in base).lower()
+            forms.add(init)
+            if base[-1].lower() in LEGAL_SUFFIX and len(base) > 1:
+                forms.add(init[:-1])
+        return forms
+
+    for src, toks in ((entity, b), (tracked_name, a)):
+        for form in initial_forms(src):
+            for tok in toks:
+                if len(tok) >= 3 and form.startswith(tok):
+                    return True
+
+    # Near-identical spellings. 'AiGent' and 'AGent Energy' differ by one
+    # character; a company that respells itself between our record and its
+    # filing is still the same company, and calling it a brand-new formation
+    # would be the most embarrassing possible error.
+    def edit1(x, y):
+        """True when x and y are within one insertion, deletion or
+        substitution of each other."""
+        if x == y:
+            return True
+        if abs(len(x) - len(y)) > 1:
+            return False
+        if len(x) == len(y):
+            return sum(1 for p, q in zip(x, y) if p != q) == 1
+        if len(x) > len(y):
+            x, y = y, x                       # y is now exactly one longer
+        i = 0
+        while i < len(x) and x[i] == y[i]:
+            i += 1
+        return x[i:] == y[i + 1:]
+
+    for ta in a:
+        for tb in b:
+            if len(ta) >= 5 and len(tb) >= 5 and edit1(ta, tb):
+                return True
+    return False
+
+
+CIK_NEW_FLOOR = 1_900_000
 
 
 def score_candidate(cand: dict, roster: dict, collisions: set,
@@ -374,6 +446,28 @@ def score_candidate(cand: dict, roster: dict, collisions: set,
             "evidence": r["evidence"][:3],
             "name_ambiguous": weak,
         })
+
+    # ── Has the SEC known this entity for years? Kill it here. ───────────
+    # yearOfInc is typed in by the filer and is routinely wrong: Payward, Inc.
+    # — Kraken, a 2011 company — filed a 2026 Form D declaring itself
+    # incorporated in 2026, and sailed through the age filter on a $354M
+    # raise. The CIK cannot lie in that direction. The SEC assigns it at an
+    # entity's first registration and never reissues it, so a low CIK is
+    # positive proof the entity predates the window no matter what the filer
+    # typed. Calibrated against this corpus: entities reporting a 2023-or-
+    # later incorporation sit at a median CIK near 2,090,000, with a 10th
+    # percentile of 1,983,000. Below 1,900,000 the entity registered with the
+    # SEC before roughly 2022.
+    cik = int(cand.get("cik") or 0)
+    if 0 < cik < CIK_NEW_FLOOR:
+        out = dict(cand)
+        out["matches"] = matches
+        out["score"] = 0
+        out["confidence"] = "Known company"
+        out["reasons"] = [f"SEC CIK {cik:,} was issued years before this "
+                          f"filing, so the entity is not a new formation "
+                          f"whatever its stated year of incorporation"]
+        return out
 
     # ── Is this just a tracked company raising? Kill it here. ────────────
     for m in matches:

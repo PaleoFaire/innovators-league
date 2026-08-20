@@ -1,252 +1,323 @@
 {
   "meta": {
-    "generated_at": "2026-08-20T12:08:43.615361+00:00",
-    "window_days": 30,
-    "filings_scanned": 3299,
-    "candidates_considered": 724,
-    "published": 10,
+    "generated_at": "2026-08-20T13:19:13.645121+00:00",
+    "window_days": 120,
+    "filings_scanned": 13590,
+    "candidates_considered": 2880,
+    "published": 19,
     "roster_size": 2465,
     "roster_with_pedigree": 189,
     "method": "SEC Form D formations, filtered to new frontier-adjacent US entities, matched against founders already documented in COMPANIES. Confidence tiers reflect what the public record supports, not what is plausible."
   },
   "rows": [
     {
-      "cik": "2149480",
-      "accession": "000214948026000001",
-      "entity": "AiGent, Inc. / DE",
-      "industry": "Other Energy",
-      "year_inc": 2025,
-      "state": "TX",
-      "amount_sold": 17454993.0,
-      "first_sale": "2026-07-28",
+      "cik": "1913669",
+      "accession": "000191366926000002",
+      "entity": "Lone Gull Holdings, Ltd.",
+      "industry": "Other Technology",
+      "year_inc": 2026,
+      "state": "OR",
+      "amount_sold": 94059630.0,
+      "first_sale": "2026-03-17",
       "persons": [
         {
-          "name": "Stephanie Hendricks",
-          "key": "stephaniehendricks",
+          "name": "Garth Sheldon-Coulson",
+          "key": "garthcoulson",
           "roles": [
             "Executive Officer",
             "Director"
           ],
-          "state": "TEXAS"
+          "state": "OREGON"
         },
         {
-          "name": "Francoise Parker",
-          "key": "francoiseparker",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "state": "TEXAS"
-        },
-        {
-          "name": "Daniel Leff",
-          "key": "danielleff",
+          "name": "Brian Moffat",
+          "key": "brianmoffat",
           "roles": [
             "Director"
           ],
-          "state": "TEXAS"
+          "state": "OREGON"
         },
         {
-          "name": "Alex Demeulenaere",
-          "key": "alexdemeulenaere",
+          "name": "Newton Eliot Mack",
+          "key": "newtonmack",
           "roles": [
             "Director"
           ],
-          "state": "TEXAS"
+          "state": "OREGON"
         },
         {
-          "name": "Christine St Pierre",
-          "key": "christinepierre",
+          "name": "Trevor Zimmerman",
+          "key": "trevorzimmerman",
+          "roles": [
+            "Director"
+          ],
+          "state": "OREGON"
+        },
+        {
+          "name": "Robert B. Williams III",
+          "key": "robertiii",
           "roles": [
             "Executive Officer"
           ],
-          "state": "TEXAS"
+          "state": "OREGON"
         }
       ],
-      "url": "https://www.sec.gov/Archives/edgar/data/2149480/000214948026000001/primary_doc.xml",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2149480&type=D&dateb=&owner=include&count=10",
-      "filed": "20260812",
+      "url": "https://www.sec.gov/Archives/edgar/data/1913669/000191366926000002/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1913669&type=D&dateb=&owner=include&count=10",
+      "filed": "20260522",
       "matches": [
         {
-          "person": "Stephanie Hendricks",
+          "person": "Garth Sheldon-Coulson",
           "roles": [
             "Executive Officer",
             "Director"
           ],
           "known_for": [
-            "AGent Energy"
+            "Panthalassa"
+          ],
+          "employers": [
+            "SpaceX"
+          ],
+          "evidence": [
+            "Panthalassa is clustered under SpaceX Mafia in our database"
+          ],
+          "name_ambiguous": false
+        },
+        {
+          "person": "Brian Moffat",
+          "roles": [
+            "Director"
+          ],
+          "known_for": [
+            "Panthalassa"
+          ],
+          "employers": [
+            "SpaceX"
+          ],
+          "evidence": [
+            "Panthalassa is clustered under SpaceX Mafia in our database"
+          ],
+          "name_ambiguous": false
+        }
+      ],
+      "score": 100,
+      "confidence": "Lead",
+      "reasons": [
+        "Garth Sheldon-Coulson carries a documented SpaceX pedigree in our database",
+        "An officer named Garth Sheldon-Coulson matches the founder of Panthalassa in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
+        "2 names on this filing match founders we track",
+        "self-classified as Other Technology",
+        "$94M already sold",
+        "incorporated this year"
+      ]
+    },
+    {
+      "cik": "2131358",
+      "accession": "000213135826000001",
+      "entity": "OpenWav Inc.",
+      "industry": "Other Technology",
+      "year_inc": 2026,
+      "state": "CA",
+      "amount_sold": 2200000.0,
+      "first_sale": "2026-03-31",
+      "persons": [
+        {
+          "name": "Eric Tu",
+          "key": "erictu",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Jason Ma",
+          "key": "jasonma",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Alan Lau",
+          "key": "alanlau",
+          "roles": [
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2131358/000213135826000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2131358&type=D&dateb=&owner=include&count=10",
+      "filed": "20260427",
+      "matches": [
+        {
+          "person": "Jason Ma",
+          "roles": [
+            "Executive Officer"
+          ],
+          "known_for": [
+            "Dyna Robotics"
+          ],
+          "employers": [
+            "Google/DeepMind",
+            "DeepMind"
+          ],
+          "evidence": [
+            "Dyna Robotics is clustered under Google/DeepMind in our database",
+            "\"DeepMind\" pedigree recorded on Dyna Robotics in our database"
+          ],
+          "name_ambiguous": true
+        }
+      ],
+      "score": 88,
+      "confidence": "Lead",
+      "reasons": [
+        "Jason Ma carries a documented DeepMind, Google/DeepMind pedigree in our database",
+        "Name match on Jason Ma, but that name is common or ambiguous in our data \u2014 verify before acting",
+        "self-classified as Other Technology",
+        "$2.2M already sold",
+        "incorporated this year"
+      ]
+    },
+    {
+      "cik": "2070703",
+      "accession": "000207070326000003",
+      "entity": "US Chemical Technologies, Inc.",
+      "industry": "Other Technology",
+      "year_inc": 2025,
+      "state": "DC",
+      "amount_sold": 29999977.0,
+      "first_sale": "2026-06-22",
+      "persons": [
+        {
+          "name": "Daniel DePaoli",
+          "key": "danieldepaoli",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "DISTRICT OF COLUMBIA"
+        },
+        {
+          "name": "Ivo Ivanov",
+          "key": "ivoivanov",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "DISTRICT OF COLUMBIA"
+        },
+        {
+          "name": "Alan Freedman",
+          "key": "alanfreedman",
+          "roles": [
+            "Director"
+          ],
+          "state": "DISTRICT OF COLUMBIA"
+        },
+        {
+          "name": "Dayna Grayson",
+          "key": "daynagrayson",
+          "roles": [
+            "Director"
+          ],
+          "state": "DISTRICT OF COLUMBIA"
+        },
+        {
+          "name": "Jonathan Crandall",
+          "key": "jonathancrandall",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "DISTRICT OF COLUMBIA"
+        },
+        {
+          "name": "Andrew Kreitz",
+          "key": "andrewkreitz",
+          "roles": [
+            "Director"
+          ],
+          "state": "DISTRICT OF COLUMBIA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2070703/000207070326000003/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2070703&type=D&dateb=&owner=include&count=10",
+      "filed": "20260707",
+      "matches": [
+        {
+          "person": "Andrew Kreitz",
+          "roles": [
+            "Director"
+          ],
+          "known_for": [
+            "Castelion"
           ],
           "employers": [],
           "evidence": [],
           "name_ambiguous": false
         }
       ],
-      "score": 82,
-      "confidence": "Strong lead",
+      "score": 69,
+      "confidence": "Lead",
       "reasons": [
-        "An officer named Stephanie Hendricks matches the founder of AGent Energy in our database, and the sector lines up",
-        "self-classified as Other Energy",
-        "$17.5M already sold",
+        "An officer named Andrew Kreitz matches the founder of Castelion in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
+        "self-classified as Other Technology",
+        "$30M already sold",
         "incorporated 2025"
       ]
     },
     {
-      "cik": "1785695",
-      "accession": "000119312526330850",
-      "entity": "Payward, Inc.",
+      "cik": "2127038",
+      "accession": "000212703826000003",
+      "entity": "Talos Devices Inc.",
       "industry": "Other Technology",
-      "year_inc": 2026,
-      "state": "WY",
-      "amount_sold": 25180789.0,
-      "first_sale": "2026-01-05",
+      "year_inc": 2025,
+      "state": "DE",
+      "amount_sold": 10999998.0,
+      "first_sale": "2026-03-09",
       "persons": [
         {
-          "name": "Jesse Powell",
-          "key": "jessepowell",
-          "roles": [
-            "Director"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Thanh Luu",
-          "key": "thanhluu",
-          "roles": [
-            "Director"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Arjun Sethi",
-          "key": "arjunsethi",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Daniel Ciporin",
-          "key": "danielciporin",
-          "roles": [
-            "Director"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Alison Davis",
-          "key": "alisondavis",
-          "roles": [
-            "Director"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "David Ripley",
-          "key": "davidripley",
+          "name": "Thomas Ronan",
+          "key": "thomasronan",
           "roles": [
             "Executive Officer"
           ],
-          "state": "WYOMING"
+          "state": "DELAWARE"
         },
         {
-          "name": "Robert Moore",
-          "key": "robertmoore",
+          "name": "Martin Feldmann",
+          "key": "martinfeldmann",
           "roles": [
             "Executive Officer"
           ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Christopher Calicott",
-          "key": "christophercalicott",
-          "roles": [
-            "Director"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Nicholas Percoco",
-          "key": "nicholaspercoco",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Benjamin Gray",
-          "key": "benjamingray",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Mayur Gupta",
-          "key": "mayurgupta",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Pranesh Anthapur",
-          "key": "praneshanthapur",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Curtis Ting",
-          "key": "curtisting",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Sivan Whiteley",
-          "key": "sivanwhiteley",
-          "roles": [
-            "Director"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Mark Greenberg",
-          "key": "markgreenberg",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "WYOMING"
+          "state": "DELAWARE"
         }
       ],
-      "url": "https://www.sec.gov/Archives/edgar/data/1785695/000119312526330850/primary_doc.xml",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1785695&type=D&dateb=&owner=include&count=10",
-      "filed": "20260803",
+      "url": "https://www.sec.gov/Archives/edgar/data/2127038/000212703826000003/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2127038&type=D&dateb=&owner=include&count=10",
+      "filed": "20260601",
       "matches": [
         {
-          "person": "Arjun Sethi",
+          "person": "Martin Feldmann",
           "roles": [
-            "Executive Officer",
-            "Director"
+            "Executive Officer"
           ],
           "known_for": [
-            "Foundation Robotics"
+            "VulcanForms"
           ],
           "employers": [],
           "evidence": [],
           "name_ambiguous": false
         }
       ],
-      "score": 70,
+      "score": 65,
       "confidence": "Lead",
       "reasons": [
-        "An officer named Arjun Sethi matches the founder of Foundation Robotics in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
+        "An officer named Martin Feldmann matches the founder of VulcanForms in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
         "self-classified as Other Technology",
-        "$25M already sold",
-        "incorporated this year"
+        "$11.0M already sold",
+        "incorporated 2025"
       ]
     },
     {
@@ -382,149 +453,213 @@
       ]
     },
     {
-      "cik": "1785695",
-      "accession": "000119312526331081",
-      "entity": "Payward, Inc.",
+      "cik": "2046169",
+      "accession": "000204616926000004",
+      "entity": "ModRetro, Inc.",
       "industry": "Other Technology",
-      "year_inc": 2026,
-      "state": "WY",
-      "amount_sold": 10757.0,
-      "first_sale": "2026-07-24",
+      "year_inc": 2023,
+      "state": "CA",
+      "amount_sold": 145199347.0,
+      "first_sale": "2026-03-06",
       "persons": [
         {
-          "name": "Jesse Powell",
-          "key": "jessepowell",
-          "roles": [
-            "Director"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Thanh Luu",
-          "key": "thanhluu",
-          "roles": [
-            "Director"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Arjun Sethi",
-          "key": "arjunsethi",
+          "name": "Torin Herndon",
+          "key": "torinherndon",
           "roles": [
             "Executive Officer",
             "Director"
           ],
-          "state": "WYOMING"
+          "state": "CALIFORNIA"
         },
         {
-          "name": "Daniel Ciporin",
-          "key": "danielciporin",
+          "name": "Palmer Luckey",
+          "key": "palmerluckey",
           "roles": [
             "Director"
           ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Alison Davis",
-          "key": "alisondavis",
-          "roles": [
-            "Director"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "David Ripley",
-          "key": "davidripley",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Robert Moore",
-          "key": "robertmoore",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Christopher Calicott",
-          "key": "christophercalicott",
-          "roles": [
-            "Director"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Nicholas Percoco",
-          "key": "nicholaspercoco",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Benjamin Gray",
-          "key": "benjamingray",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Mayur Gupta",
-          "key": "mayurgupta",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Pranesh Anthapur",
-          "key": "praneshanthapur",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Curtis Ting",
-          "key": "curtisting",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Sivan Whiteley",
-          "key": "sivanwhiteley",
-          "roles": [
-            "Director"
-          ],
-          "state": "WYOMING"
-        },
-        {
-          "name": "Mark Greenberg",
-          "key": "markgreenberg",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "WYOMING"
+          "state": "CALIFORNIA"
         }
       ],
-      "url": "https://www.sec.gov/Archives/edgar/data/1785695/000119312526331081/primary_doc.xml",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1785695&type=D&dateb=&owner=include&count=10",
-      "filed": "20260804",
+      "url": "https://www.sec.gov/Archives/edgar/data/2046169/000204616926000004/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2046169&type=D&dateb=&owner=include&count=10",
+      "filed": "20260527",
       "matches": [
         {
-          "person": "Arjun Sethi",
+          "person": "Palmer Luckey",
+          "roles": [
+            "Director"
+          ],
+          "known_for": [
+            "Anduril Industries"
+          ],
+          "employers": [],
+          "evidence": [],
+          "name_ambiguous": false
+        }
+      ],
+      "score": 61,
+      "confidence": "Lead",
+      "reasons": [
+        "An officer named Palmer Luckey matches the founder of Anduril Industries in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
+        "self-classified as Other Technology",
+        "$145M already sold"
+      ]
+    },
+    {
+      "cik": "2135307",
+      "accession": "000213530726000001",
+      "entity": "PieTech, Inc.",
+      "industry": "Other Technology",
+      "year_inc": 2024,
+      "state": "TX",
+      "amount_sold": 22219958.0,
+      "first_sale": "2026-06-15",
+      "persons": [
+        {
+          "name": "SYED ALI",
+          "key": "syedali",
+          "roles": [
+            "Executive Officer",
+            "Director",
+            "Promoter"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "AKHILESH MANTRIPRAGADA",
+          "key": "akhileshmantripragada",
+          "roles": [
+            "Executive Officer",
+            "Director",
+            "Promoter"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "AARON FRANK",
+          "key": "aaronfrank",
+          "roles": [
+            "Director"
+          ],
+          "state": "TEXAS"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2135307/000213530726000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2135307&type=D&dateb=&owner=include&count=10",
+      "filed": "20260630",
+      "matches": [
+        {
+          "person": "SYED ALI",
+          "roles": [
+            "Executive Officer",
+            "Director",
+            "Promoter"
+          ],
+          "known_for": [
+            "Alif Semiconductor"
+          ],
+          "employers": [],
+          "evidence": [],
+          "name_ambiguous": false
+        }
+      ],
+      "score": 61,
+      "confidence": "Lead",
+      "reasons": [
+        "An officer named SYED ALI matches the founder of Alif Semiconductor in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
+        "self-classified as Other Technology",
+        "$22.2M already sold"
+      ]
+    },
+    {
+      "cik": "1997846",
+      "accession": "000206075526000042",
+      "entity": "ROCKET DOCTOR AI INC.",
+      "industry": "Other Technology",
+      "year_inc": 2026,
+      "state": "A1",
+      "amount_sold": 875000.0,
+      "first_sale": "2026-07-06",
+      "persons": [
+        {
+          "name": "Essam Hamza",
+          "key": "essamhamza",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "BRITISH COLUMBIA, CANADA"
+        },
+        {
+          "name": "Richard Atkins",
+          "key": "richardatkins",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "BRITISH COLUMBIA, CANADA"
+        },
+        {
+          "name": "Kevin Peterson",
+          "key": "kevinpeterson",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "BRITISH COLUMBIA, CANADA"
+        },
+        {
+          "name": "Christopher Cherry",
+          "key": "christophercherry",
+          "roles": [
+            "Director"
+          ],
+          "state": "BRITISH COLUMBIA, CANADA"
+        },
+        {
+          "name": "Sean Clifford",
+          "key": "seanclifford",
+          "roles": [
+            "Director"
+          ],
+          "state": "BRITISH COLUMBIA, CANADA"
+        },
+        {
+          "name": "Andrew Zimmerman",
+          "key": "andrewzimmerman",
+          "roles": [
+            "Director"
+          ],
+          "state": "BRITISH COLUMBIA, CANADA"
+        },
+        {
+          "name": "Kelly Pladson",
+          "key": "kellypladson",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "BRITISH COLUMBIA, CANADA"
+        },
+        {
+          "name": "Andrew Lau",
+          "key": "andrewlau",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "BRITISH COLUMBIA, CANADA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1997846/000206075526000042/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1997846&type=D&dateb=&owner=include&count=10",
+      "filed": "20260715",
+      "matches": [
+        {
+          "person": "Kevin Peterson",
           "roles": [
             "Executive Officer",
             "Director"
           ],
           "known_for": [
-            "Foundation Robotics"
+            "Bedrock Robotics"
           ],
           "employers": [],
           "evidence": [],
@@ -534,7 +669,7 @@
       "score": 56,
       "confidence": "Lead",
       "reasons": [
-        "An officer named Arjun Sethi matches the founder of Foundation Robotics in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
+        "An officer named Kevin Peterson matches the founder of Bedrock Robotics in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
         "self-classified as Other Technology",
         "incorporated this year"
       ]
@@ -695,84 +830,78 @@
       ]
     },
     {
-      "cik": "1820156",
-      "accession": "000182015626000001",
-      "entity": "Sortera Technologies, Inc.",
-      "industry": "Other",
-      "year_inc": 2025,
-      "state": "IN",
-      "amount_sold": 86999962.0,
-      "first_sale": "2025-06-12",
+      "cik": "2011659",
+      "accession": "000201165926000001",
+      "entity": "Resource Monitor, Inc.",
+      "industry": "Other Technology",
+      "year_inc": 2023,
+      "state": "DC",
+      "amount_sold": 1130000.0,
+      "first_sale": "2026-06-24",
       "persons": [
         {
-          "name": "Michael Siemer",
-          "key": "michaelsiemer",
+          "name": "Alexander Kopco",
+          "key": "alexanderkopco",
+          "roles": [
+            "Executive Officer",
+            "Director",
+            "Promoter"
+          ],
+          "state": "DISTRICT OF COLUMBIA"
+        },
+        {
+          "name": "Dhruva Rajendra",
+          "key": "dhruvarajendra",
+          "roles": [
+            "Promoter"
+          ],
+          "state": "DISTRICT OF COLUMBIA"
+        },
+        {
+          "name": "Jordi Hays",
+          "key": "jordihays",
+          "roles": [
+            "Promoter"
+          ],
+          "state": "DISTRICT OF COLUMBIA"
+        },
+        {
+          "name": "Nakul Garg",
+          "key": "nakulgarg",
           "roles": [
             "Executive Officer",
             "Director"
           ],
-          "state": "INDIANA"
+          "state": "DISTRICT OF COLUMBIA"
         },
         {
-          "name": "Alfred Lam",
-          "key": "alfredlam",
-          "roles": [
-            "Director"
-          ],
-          "state": "INDIANA"
-        },
-        {
-          "name": "William Caesar",
-          "key": "williamcaesar",
-          "roles": [
-            "Director"
-          ],
-          "state": "INDIANA"
-        },
-        {
-          "name": "Kyle Teamey",
-          "key": "kyleteamey",
-          "roles": [
-            "Director"
-          ],
-          "state": "INDIANA"
-        },
-        {
-          "name": "Libby Wayman",
-          "key": "libbywayman",
-          "roles": [
-            "Director"
-          ],
-          "state": "INDIANA"
-        },
-        {
-          "name": "Curt Sacks",
-          "key": "curtsacks",
+          "name": "Jason M. Flynt",
+          "key": "jasonflynt",
           "roles": [
             "Executive Officer"
           ],
-          "state": "INDIANA"
+          "state": "DISTRICT OF COLUMBIA"
         },
         {
-          "name": "Benjamin Pope",
-          "key": "benjaminpope",
+          "name": "Patrick Dillingham",
+          "key": "patrickdillingham",
           "roles": [
-            "Executive Officer"
+            "Director"
           ],
-          "state": "INDIANA"
+          "state": "DISTRICT OF COLUMBIA"
         }
       ],
-      "url": "https://www.sec.gov/Archives/edgar/data/1820156/000182015626000001/primary_doc.xml",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1820156&type=D&dateb=&owner=include&count=10",
-      "filed": "20260721",
+      "url": "https://www.sec.gov/Archives/edgar/data/2011659/000201165926000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2011659&type=D&dateb=&owner=include&count=10",
+      "filed": "20260709",
       "matches": [
         {
-          "person": "Alfred Lam",
+          "person": "Dhruva Rajendra",
           "roles": [
-            "Director"
+            "Promoter"
           ],
           "known_for": [
-            "Mangrove Lithium"
+            "Deterrence"
           ],
           "employers": [],
           "evidence": [],
@@ -782,9 +911,9 @@
       "score": 52,
       "confidence": "Lead",
       "reasons": [
-        "An officer named Alfred Lam matches the founder of Mangrove Lithium in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
-        "$87M already sold",
-        "incorporated 2025"
+        "An officer named Dhruva Rajendra matches the founder of Deterrence in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
+        "self-classified as Other Technology",
+        "$1.1M already sold"
       ]
     },
     {
@@ -830,6 +959,445 @@
         "An officer named Devan Plantamura matches the founder of Ares Industries in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
         "$12.2M already sold",
         "incorporated 2025"
+      ]
+    },
+    {
+      "cik": "2042931",
+      "accession": "000204293126000005",
+      "entity": "Vapi Inc.",
+      "industry": "Other",
+      "year_inc": 2026,
+      "state": "CA",
+      "amount_sold": 49999998.0,
+      "first_sale": "2026-02-26",
+      "persons": [
+        {
+          "name": "Jordan Dearsley",
+          "key": "jordandearsley",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Nikhil Gupta",
+          "key": "nikhilgupta",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Michael Droesch",
+          "key": "michaeldroesch",
+          "roles": [
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2042931/000204293126000005/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2042931&type=D&dateb=&owner=include&count=10",
+      "filed": "20260512",
+      "matches": [
+        {
+          "person": "Nikhil Gupta",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "known_for": [
+            "Determinant Materials"
+          ],
+          "employers": [],
+          "evidence": [],
+          "name_ambiguous": true
+        }
+      ],
+      "score": 43,
+      "confidence": "Lead",
+      "reasons": [
+        "Name match on Nikhil Gupta, but that name is common or ambiguous in our data \u2014 verify before acting",
+        "$50M already sold",
+        "incorporated this year"
+      ]
+    },
+    {
+      "cik": "2109041",
+      "accession": "000210904126000001",
+      "entity": "TERRAFLOW ENERGY, INC.",
+      "industry": "Other Energy",
+      "year_inc": 2024,
+      "state": "TX",
+      "amount_sold": 20395942.0,
+      "first_sale": "2025-09-18",
+      "persons": [
+        {
+          "name": "Alex Vicente Hernandez",
+          "key": "alexhernandez",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "Jonathan Parrella",
+          "key": "jonathanparrella",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "Daniel Parrella",
+          "key": "danielparrella",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "George Michael Cammack",
+          "key": "georgecammack",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "Ian Rock",
+          "key": "ianrock",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "Jeffrey Goldberg",
+          "key": "jeffreygoldberg",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "Alexander Goldstein",
+          "key": "alexandergoldstein",
+          "roles": [
+            "Director"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "John Lee",
+          "key": "johnlee",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "Raymond Kline",
+          "key": "raymondkline",
+          "roles": [
+            "Director"
+          ],
+          "state": "TEXAS"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2109041/000210904126000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2109041&type=D&dateb=&owner=include&count=10",
+      "filed": "20260520",
+      "matches": [
+        {
+          "person": "John Lee",
+          "roles": [
+            "Executive Officer"
+          ],
+          "known_for": [
+            "Safire"
+          ],
+          "employers": [],
+          "evidence": [],
+          "name_ambiguous": true
+        }
+      ],
+      "score": 40,
+      "confidence": "Lead",
+      "reasons": [
+        "Name match on John Lee, but that name is common or ambiguous in our data \u2014 verify before acting",
+        "self-classified as Other Energy",
+        "$20.4M already sold"
+      ]
+    },
+    {
+      "cik": "1971387",
+      "accession": "000110465926075732",
+      "entity": "Liminatus Pharma, Inc.",
+      "industry": "Pharmaceuticals",
+      "year_inc": 2026,
+      "state": "CA",
+      "amount_sold": 1861920.0,
+      "first_sale": "2026-06-03",
+      "persons": [
+        {
+          "name": "Chris Kim",
+          "key": "chriskim",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Scott Dam",
+          "key": "scottdam",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Byong C. Yoo",
+          "key": "byongyoo",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Sang-jin Daniel Lee",
+          "key": "sanglee",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Beom K. Choi",
+          "key": "beomchoi",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Eun Sook Lee",
+          "key": "eunlee",
+          "roles": [
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Nicholas Fernandez",
+          "key": "nicholasfernandez",
+          "roles": [
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Ji Yeon Baek",
+          "key": "jibaek",
+          "roles": [
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1971387/000110465926075732/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1971387&type=D&dateb=&owner=include&count=10",
+      "filed": "20260618",
+      "matches": [
+        {
+          "person": "Sang-jin Daniel Lee",
+          "roles": [
+            "Executive Officer"
+          ],
+          "known_for": [
+            "ABL Bio"
+          ],
+          "employers": [],
+          "evidence": [],
+          "name_ambiguous": true
+        }
+      ],
+      "score": 40,
+      "confidence": "Lead",
+      "reasons": [
+        "Name match on Sang-jin Daniel Lee, but that name is common or ambiguous in our data \u2014 verify before acting",
+        "$1.9M already sold",
+        "incorporated this year"
+      ]
+    },
+    {
+      "cik": "2105968",
+      "accession": "000210596826000002",
+      "entity": "Land &amp; Carbon, Inc.",
+      "industry": "Other",
+      "year_inc": 2023,
+      "state": "WY",
+      "amount_sold": 1540000.0,
+      "first_sale": "2024-10-14",
+      "persons": [
+        {
+          "name": "Robert Winston Lawrence",
+          "key": "robertlawrence",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "COLORADO"
+        },
+        {
+          "name": "David Trowbridge Lawrence",
+          "key": "davidlawrence",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "James R Spaanstra",
+          "key": "jamesspaanstra",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "COLORADO"
+        },
+        {
+          "name": "Catheryn Staveley",
+          "key": "catherynstaveley",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "TEXAS"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2105968/000210596826000002/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2105968&type=D&dateb=&owner=include&count=10",
+      "filed": "20260427",
+      "matches": [
+        {
+          "person": "David Trowbridge Lawrence",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "known_for": [
+            "Quindar"
+          ],
+          "employers": [],
+          "evidence": [],
+          "name_ambiguous": false
+        }
+      ],
+      "score": 38,
+      "confidence": "Lead",
+      "reasons": [
+        "An officer named David Trowbridge Lawrence matches the founder of Quindar in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
+        "$1.5M already sold"
+      ]
+    },
+    {
+      "cik": "2006974",
+      "accession": "000200697426000001",
+      "entity": "Scales Corp Ltd",
+      "industry": "Agriculture",
+      "year_inc": 2026,
+      "state": "Q2",
+      "amount_sold": 0.0,
+      "first_sale": "2026-06-10",
+      "persons": [
+        {
+          "name": "steve kennelly",
+          "key": "stevekennelly",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "NEW ZEALAND"
+        },
+        {
+          "name": "Anthony Batterton",
+          "key": "anthonybatterton",
+          "roles": [
+            "Director"
+          ],
+          "state": "NEW ZEALAND"
+        },
+        {
+          "name": "Andrew Borland",
+          "key": "andrewborland",
+          "roles": [
+            "Director"
+          ],
+          "state": "NEW ZEALAND"
+        },
+        {
+          "name": "Miranda Burdon",
+          "key": "mirandaburdon",
+          "roles": [
+            "Director"
+          ],
+          "state": "NEW ZEALAND"
+        },
+        {
+          "name": "Nicholas Harris",
+          "key": "nicholasharris",
+          "roles": [
+            "Director"
+          ],
+          "state": "NEW ZEALAND"
+        },
+        {
+          "name": "Paul Munro",
+          "key": "paulmunro",
+          "roles": [
+            "Director"
+          ],
+          "state": "NEW ZEALAND"
+        },
+        {
+          "name": "Michael Petersen",
+          "key": "michaelpetersen",
+          "roles": [
+            "Director"
+          ],
+          "state": "NEW ZEALAND"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2006974/000200697426000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2006974&type=D&dateb=&owner=include&count=10",
+      "filed": "20260616",
+      "matches": [
+        {
+          "person": "Nicholas Harris",
+          "roles": [
+            "Director"
+          ],
+          "known_for": [
+            "Lightmatter"
+          ],
+          "employers": [],
+          "evidence": [],
+          "name_ambiguous": true
+        }
+      ],
+      "score": 28,
+      "confidence": "Lead",
+      "reasons": [
+        "Name match on Nicholas Harris, but that name is common or ambiguous in our data \u2014 verify before acting",
+        "incorporated this year"
       ]
     },
     {
