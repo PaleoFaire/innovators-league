@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-08-20T06:58:24+00:00",
+  "generatedAt": "2026-08-20T08:50:09+00:00",
   "matrix": {
+    "evtol-air-taxi": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Joby Aviation",
+            "amount": 0,
+            "date": "2026-08-19",
+            "source": "formd",
+            "investors": [
+              "Toyota Motor Corporation",
+              "Toyota AI Ventures",
+              "Uber",
+              "8VC"
+            ]
+          }
+        ],
+        "investors": [
+          "8VC"
+        ]
+      }
+    },
     "nuclear-microreactor": {
       "2026-Q3": {
         "deals": 1,
@@ -142,31 +166,6 @@
         ]
       }
     },
-    "ai-mineral-exploration": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 310499477,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Mariana Minerals",
-            "amount": 310499477,
-            "date": "2026-08-06",
-            "source": "formd",
-            "investors": [
-              "Andreessen Horowitz",
-              "Earthshot Ventures",
-              "Pax VC",
-              "Breakthrough Energy",
-              "Khosla Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "Khosla Ventures"
-        ]
-      }
-    },
     "autonomy-drone-military": {
       "2026-Q2": {
         "deals": 1,
@@ -220,6 +219,41 @@
           "Riot Ventures"
         ]
       },
+      "2026-Q3": {
+        "deals": 2,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 2,
+        "companies": [
+          {
+            "name": "Neros",
+            "amount": null,
+            "date": "2026-08",
+            "source": "recentEvent",
+            "investors": [
+              "Sequoia Capital (co-led Series C)",
+              "American Strategic Technology Fund (co-led Series C)",
+              "Founders Fund",
+              "Interlagos",
+              "Valor Equity Partners",
+              "Allen & Company",
+              "Thiel Capital",
+              "Spark Capital",
+              "Dylan Field"
+            ]
+          },
+          {
+            "name": "Rhoman Aerospace",
+            "amount": null,
+            "date": "2026-08",
+            "source": "recentEvent",
+            "investors": []
+          }
+        ],
+        "investors": [
+          "Founders Fund",
+          "Valor Equity Partners"
+        ]
+      },
       "2025-Q3": {
         "deals": 1,
         "totalSold": null,
@@ -242,21 +276,6 @@
               "UP.Partners",
               "Hercules Capital"
             ]
-          }
-        ],
-        "investors": []
-      },
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Rhoman Aerospace",
-            "amount": null,
-            "date": "2026-08",
-            "source": "recentEvent",
-            "investors": []
           }
         ],
         "investors": []
@@ -846,7 +865,7 @@
       }
     },
     "manufacturing-reshoring": {
-      "2025-Q3": {
+      "2026-Q3": {
         "deals": 1,
         "totalSold": null,
         "companiesWithUnknownAmount": 1,
@@ -854,7 +873,7 @@
           {
             "name": "Hadrian",
             "amount": null,
-            "date": "2025-08",
+            "date": "2026-08",
             "source": "recentEvent",
             "investors": [
               "137 Ventures"
@@ -1424,6 +1443,56 @@
     }
   },
   "vcAttribution": {
+    "8VC": {
+      "2026-Q3": [
+        {
+          "company": "Joby Aviation",
+          "cluster": "evtol-air-taxi",
+          "date": "2026-08-19",
+          "source": "formd"
+        },
+        {
+          "company": "Cognition",
+          "cluster": "ai-code-generation",
+          "date": "2026-08",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Starpath Robotics",
+          "cluster": "space-lunar-planetary",
+          "date": "2026-06",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Epirus",
+          "cluster": "autonomy-counter-drone",
+          "date": "2026-01",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Saronic",
+          "cluster": "autonomy-maritime",
+          "date": "2026-03",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Bedrock Robotics",
+          "cluster": "robotics-construction-mining",
+          "date": "2026-02",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Lightspeed Venture Partners": {
       "2026-Q3": [
         {
@@ -1456,46 +1525,6 @@
         }
       ]
     },
-    "Khosla Ventures": {
-      "2026-Q3": [
-        {
-          "company": "Mariana Minerals",
-          "cluster": "ai-mineral-exploration",
-          "date": "2026-08-06",
-          "source": "formd"
-        },
-        {
-          "company": "Monumental",
-          "cluster": "construction-modular",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "Rocket Lab",
-          "cluster": "space-launch-large",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Hermeus",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Collaborative Robotics",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Founders Fund": {
       "2026-Q2": [
         {
@@ -1508,6 +1537,26 @@
           "company": "Hermeus",
           "cluster": "supersonic-hypersonic-transport",
           "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q3": [
+        {
+          "company": "Neros",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-08",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Cognition",
+          "cluster": "ai-code-generation",
+          "date": "2026-08",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2026-07",
           "source": "recentEvent"
         }
       ],
@@ -1524,20 +1573,6 @@
           "company": "Neuralink",
           "cluster": "brain-computer-interface",
           "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q3": [
-        {
-          "company": "Cognition",
-          "cluster": "ai-code-generation",
-          "date": "2026-08",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2026-07",
           "source": "recentEvent"
         }
       ],
@@ -1584,50 +1619,6 @@
           "company": "Applied Intuition",
           "cluster": "ai-autonomous-driving",
           "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "8VC": {
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Starpath Robotics",
-          "cluster": "space-lunar-planetary",
-          "date": "2026-06",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Epirus",
-          "cluster": "autonomy-counter-drone",
-          "date": "2026-01",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Saronic",
-          "cluster": "autonomy-maritime",
-          "date": "2026-03",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Bedrock Robotics",
-          "cluster": "robotics-construction-mining",
-          "date": "2026-02",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q3": [
-        {
-          "company": "Cognition",
-          "cluster": "ai-code-generation",
-          "date": "2026-08",
           "source": "recentEvent"
         }
       ]
@@ -1681,6 +1672,20 @@
           "source": "recentEvent"
         }
       ],
+      "2026-Q3": [
+        {
+          "company": "Neros",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-08",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ],
       "2026-Q1": [
         {
           "company": "Neuralink",
@@ -1701,14 +1706,6 @@
           "source": "recentEvent"
         }
       ],
-      "2026-Q3": [
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
       "2025-Q2": [
         {
           "company": "Electra",
@@ -1724,6 +1721,40 @@
           "company": "Shield AI",
           "cluster": "autonomy-drone-military",
           "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Khosla Ventures": {
+      "2025-Q4": [
+        {
+          "company": "Rocket Lab",
+          "cluster": "space-launch-large",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q3": [
+        {
+          "company": "Monumental",
+          "cluster": "construction-modular",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Collaborative Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-04",
           "source": "recentEvent"
         }
       ]
@@ -1900,8 +1931,8 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 57,
-    "totalUSDSold": 554778275,
+    "totalDealsTracked": 58,
+    "totalUSDSold": 244278798,
     "uniqueClusters": 36,
     "uniqueQuarters": 9,
     "uniqueVCs": 15,
