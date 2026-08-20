@@ -44,6 +44,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import urllib.request
+import time
+import gzip
 import re
 import sys
 from collections import defaultdict
@@ -425,6 +428,97 @@ def is_same_company(entity: str, tracked_name: str) -> bool:
     return False
 
 
+# ── First-filing verification ───────────────────────────────────────────────
+# The decisive test of "is this a new company", and the only one that is
+# ground truth rather than inference.
+#
+# yearOfInc is typed by the filer and is routinely wrong — Payward, Inc.
+# (Kraken, a 2011 company) declared itself incorporated in 2026 on a $354M
+# raise. CIK is better, because the SEC issues it and never reissues it, but
+# it is still only a proxy for a date.
+#
+# EDGAR's submissions API just tells us the answer: every filing the entity
+# has ever made. An entity raising its third round has three Form Ds on file.
+# Lone Gull Holdings, Ltd. looked like our strongest hit of the entire sweep
+# — two Panthalassa co-founders, $94.1M, "incorporated 2026" — and its filing
+# history reads 2022, 2024, 2026. It is a company raising a later round, not
+# a founding. One HTTP request per shortlisted row settles it, so we spend it.
+SUBMISSIONS = "https://data.sec.gov/submissions/CIK{:010d}.json"
+
+
+def prior_form_d_count(cik: int, this_accession: str, cache: dict) -> int | None:
+    """Form Ds this entity filed *before* the one we are looking at.
+    None means EDGAR could not be reached — never treat that as 'it is new'."""
+    key = str(cik)
+    if key in cache:
+        hist = cache[key]
+    else:
+        try:
+            req = urllib.request.Request(
+                SUBMISSIONS.format(cik),
+                headers={"User-Agent": UA, "Accept-Encoding": "gzip"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                raw = r.read()
+            if r.headers.get("Content-Encoding") == "gzip":
+                raw = gzip.decompress(raw)
+            js = json.loads(raw.decode("utf-8", "replace"))
+            rec = js.get("filings", {}).get("recent", {})
+            hist = {
+                "former_names": [f.get("name") for f in js.get("formerNames") or []],
+                "filings": [
+                    {"form": f, "date": d, "accession": a}
+                    for f, d, a in zip(rec.get("form", []),
+                                       rec.get("filingDate", []),
+                                       rec.get("accessionNumber", []))
+                ],
+            }
+            cache[key] = hist
+        except Exception:
+            return None
+        time.sleep(0.12)
+
+    norm = (this_accession or "").replace("-", "")
+    prior = 0
+    for f in hist["filings"]:
+        if not str(f["form"]).startswith("D"):
+            continue
+        if str(f["accession"]).replace("-", "") == norm:
+            continue
+        prior += 1
+    return prior
+
+
+def verify_shortlist(rows: list[dict], cache: dict) -> tuple[list[dict], list[dict]]:
+    """Split the shortlist into genuine first-time registrants and the rest."""
+    keep, rejected = [], []
+    for r in rows:
+        cik = int(r.get("cik") or 0)
+        if not cik:
+            keep.append(r)
+            continue
+        n = prior_form_d_count(cik, r.get("accession", ""), cache)
+        if n is None:
+            r["reasons"] = list(r.get("reasons", [])) + [
+                "EDGAR filing history could not be checked — verify by hand "
+                "that this is a first raise"]
+            keep.append(r)
+        elif n > 0:
+            r["confidence"] = "Known company"
+            r["score"] = 0
+            r["reasons"] = [
+                f"EDGAR shows {n} earlier Form D filing"
+                f"{'s' if n != 1 else ''} by this entity, so it is an existing "
+                f"company raising another round, not a new formation"]
+            rejected.append(r)
+        else:
+            r["reasons"] = list(r.get("reasons", [])) + [
+                "EDGAR shows no earlier Form D from this entity — this is its "
+                "first disclosed raise"]
+            keep.append(r)
+    return keep, rejected
+
+UA = "Rational Optimist Society stephen@rationaloptimistsociety.com"
+
 CIK_NEW_FLOOR = 1_900_000
 
 
@@ -586,17 +680,22 @@ def score_candidate(cand: dict, roster: dict, collisions: set,
     # a Form D matching a name in our database is a hypothesis. The filing is
     # linked on every row so it can be checked in one click, and no row ever
     # asserts that a named private individual did anything.
-    if strong and adjacent:
-        confidence = "Strong lead"
+    # Tiers name what the evidence actually is, because "Strong lead" told the
+    # reader a score was high without telling them why. The product is
+    # companies founded by people out of SpaceX, Palantir, Anduril and their
+    # peers; a bare surname collision is a different and much weaker thing,
+    # and the two should never sit under one label.
+    pedigreed = [m for m in matches if m["employers"]]
+    if pedigreed:
+        confidence = ("Mafia founding" if any(not m["name_ambiguous"] for m in pedigreed)
+                      else "Possible mafia founding")
     elif strong or weak:
-        confidence = "Lead"
+        confidence = "Founder's next company"
     else:
         confidence = "New formation"
 
-    if confidence == "Strong lead" and w == 0 and amt < 250_000:
-        confidence = "Lead"
-        reasons.append("Industry group is 'Other' and little capital disclosed, "
-                       "so the corroboration is thin")
+    if confidence == "Founder's next company" and not adjacent and not strong:
+        reasons.append("Nothing beyond the name lines up — treat as a weak lead")
 
     out = dict(cand)
     out["matches"] = matches
@@ -681,6 +780,26 @@ def main() -> int:
               and (args.include_unmatched or s.get("matches"))]
     scored.sort(key=lambda r: (-r["score"], r.get("first_sale") or ""))
 
+    # Ask EDGAR whether each shortlisted entity has ever filed before. This is
+    # the check that separates a founding from a Series B, and it is worth one
+    # request per row precisely because the shortlist is short.
+    vcache_path = DATA / ".exit_watch_history.json"
+    vcache = {}
+    if vcache_path.exists():
+        try:
+            vcache = json.loads(vcache_path.read_text())
+        except Exception:
+            vcache = {}
+    if scored:
+        print(f"\nverifying first-filing status for {len(scored)} shortlisted entities...")
+        scored, repeats = verify_shortlist(scored, vcache)
+        vcache_path.write_text(json.dumps(vcache), encoding="utf-8")
+        if repeats:
+            print(f"dropped {len(repeats)} that had filed with the SEC before:")
+            for r in repeats:
+                print(f"  {r['entity'][:44]:46} {r['reasons'][0][:66]}")
+            known.extend(repeats)
+
     tiers = defaultdict(int)
     for s in scored:
         tiers[s["confidence"]] += 1
@@ -691,7 +810,8 @@ def main() -> int:
             print(f"  {k['entity'][:46]:48} {k['reasons'][0][:60]}")
 
     print(f"\nabove score {args.min_score}: {len(scored)}")
-    for t in ("Strong lead", "Lead", "New formation"):
+    for t in ("Mafia founding", "Possible mafia founding",
+              "Founder's next company", "New formation"):
         if tiers[t]:
             print(f"  {t:14} {tiers[t]}")
 

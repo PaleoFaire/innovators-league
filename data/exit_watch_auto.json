@@ -1,116 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-08-20T13:19:13.645121+00:00",
+    "generated_at": "2026-08-20T13:42:25.036352+00:00",
     "window_days": 120,
     "filings_scanned": 13590,
     "candidates_considered": 2880,
-    "published": 19,
+    "published": 8,
     "roster_size": 2465,
     "roster_with_pedigree": 189,
     "method": "SEC Form D formations, filtered to new frontier-adjacent US entities, matched against founders already documented in COMPANIES. Confidence tiers reflect what the public record supports, not what is plausible."
   },
   "rows": [
-    {
-      "cik": "1913669",
-      "accession": "000191366926000002",
-      "entity": "Lone Gull Holdings, Ltd.",
-      "industry": "Other Technology",
-      "year_inc": 2026,
-      "state": "OR",
-      "amount_sold": 94059630.0,
-      "first_sale": "2026-03-17",
-      "persons": [
-        {
-          "name": "Garth Sheldon-Coulson",
-          "key": "garthcoulson",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "state": "OREGON"
-        },
-        {
-          "name": "Brian Moffat",
-          "key": "brianmoffat",
-          "roles": [
-            "Director"
-          ],
-          "state": "OREGON"
-        },
-        {
-          "name": "Newton Eliot Mack",
-          "key": "newtonmack",
-          "roles": [
-            "Director"
-          ],
-          "state": "OREGON"
-        },
-        {
-          "name": "Trevor Zimmerman",
-          "key": "trevorzimmerman",
-          "roles": [
-            "Director"
-          ],
-          "state": "OREGON"
-        },
-        {
-          "name": "Robert B. Williams III",
-          "key": "robertiii",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "OREGON"
-        }
-      ],
-      "url": "https://www.sec.gov/Archives/edgar/data/1913669/000191366926000002/primary_doc.xml",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1913669&type=D&dateb=&owner=include&count=10",
-      "filed": "20260522",
-      "matches": [
-        {
-          "person": "Garth Sheldon-Coulson",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "known_for": [
-            "Panthalassa"
-          ],
-          "employers": [
-            "SpaceX"
-          ],
-          "evidence": [
-            "Panthalassa is clustered under SpaceX Mafia in our database"
-          ],
-          "name_ambiguous": false
-        },
-        {
-          "person": "Brian Moffat",
-          "roles": [
-            "Director"
-          ],
-          "known_for": [
-            "Panthalassa"
-          ],
-          "employers": [
-            "SpaceX"
-          ],
-          "evidence": [
-            "Panthalassa is clustered under SpaceX Mafia in our database"
-          ],
-          "name_ambiguous": false
-        }
-      ],
-      "score": 100,
-      "confidence": "Lead",
-      "reasons": [
-        "Garth Sheldon-Coulson carries a documented SpaceX pedigree in our database",
-        "An officer named Garth Sheldon-Coulson matches the founder of Panthalassa in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
-        "2 names on this filing match founders we track",
-        "self-classified as Other Technology",
-        "$94M already sold",
-        "incorporated this year"
-      ]
-    },
     {
       "cik": "2131358",
       "accession": "000213135826000001",
@@ -171,100 +70,14 @@
         }
       ],
       "score": 88,
-      "confidence": "Lead",
+      "confidence": "Possible mafia founding",
       "reasons": [
         "Jason Ma carries a documented DeepMind, Google/DeepMind pedigree in our database",
         "Name match on Jason Ma, but that name is common or ambiguous in our data \u2014 verify before acting",
         "self-classified as Other Technology",
         "$2.2M already sold",
-        "incorporated this year"
-      ]
-    },
-    {
-      "cik": "2070703",
-      "accession": "000207070326000003",
-      "entity": "US Chemical Technologies, Inc.",
-      "industry": "Other Technology",
-      "year_inc": 2025,
-      "state": "DC",
-      "amount_sold": 29999977.0,
-      "first_sale": "2026-06-22",
-      "persons": [
-        {
-          "name": "Daniel DePaoli",
-          "key": "danieldepaoli",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "state": "DISTRICT OF COLUMBIA"
-        },
-        {
-          "name": "Ivo Ivanov",
-          "key": "ivoivanov",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "DISTRICT OF COLUMBIA"
-        },
-        {
-          "name": "Alan Freedman",
-          "key": "alanfreedman",
-          "roles": [
-            "Director"
-          ],
-          "state": "DISTRICT OF COLUMBIA"
-        },
-        {
-          "name": "Dayna Grayson",
-          "key": "daynagrayson",
-          "roles": [
-            "Director"
-          ],
-          "state": "DISTRICT OF COLUMBIA"
-        },
-        {
-          "name": "Jonathan Crandall",
-          "key": "jonathancrandall",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "state": "DISTRICT OF COLUMBIA"
-        },
-        {
-          "name": "Andrew Kreitz",
-          "key": "andrewkreitz",
-          "roles": [
-            "Director"
-          ],
-          "state": "DISTRICT OF COLUMBIA"
-        }
-      ],
-      "url": "https://www.sec.gov/Archives/edgar/data/2070703/000207070326000003/primary_doc.xml",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2070703&type=D&dateb=&owner=include&count=10",
-      "filed": "20260707",
-      "matches": [
-        {
-          "person": "Andrew Kreitz",
-          "roles": [
-            "Director"
-          ],
-          "known_for": [
-            "Castelion"
-          ],
-          "employers": [],
-          "evidence": [],
-          "name_ambiguous": false
-        }
-      ],
-      "score": 69,
-      "confidence": "Lead",
-      "reasons": [
-        "An officer named Andrew Kreitz matches the founder of Castelion in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
-        "self-classified as Other Technology",
-        "$30M already sold",
-        "incorporated 2025"
+        "incorporated this year",
+        "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
       ]
     },
     {
@@ -312,197 +125,13 @@
         }
       ],
       "score": 65,
-      "confidence": "Lead",
+      "confidence": "Founder's next company",
       "reasons": [
         "An officer named Martin Feldmann matches the founder of VulcanForms in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
         "self-classified as Other Technology",
         "$11.0M already sold",
-        "incorporated 2025"
-      ]
-    },
-    {
-      "cik": "2041183",
-      "accession": "000204118326000002",
-      "entity": "Great Sky Inc.",
-      "industry": "Other Technology",
-      "year_inc": 2024,
-      "state": "CO",
-      "amount_sold": 25907182.0,
-      "first_sale": "2026-07-10",
-      "persons": [
-        {
-          "name": "Jeffrey Shainline",
-          "key": "jeffreyshainline",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "state": "COLORADO"
-        },
-        {
-          "name": "Tom Biegala",
-          "key": "tombiegala",
-          "roles": [
-            "Director"
-          ],
-          "state": "COLORADO"
-        },
-        {
-          "name": "Mark Wade",
-          "key": "markwade",
-          "roles": [
-            "Director"
-          ],
-          "state": "COLORADO"
-        }
-      ],
-      "url": "https://www.sec.gov/Archives/edgar/data/2041183/000204118326000002/primary_doc.xml",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2041183&type=D&dateb=&owner=include&count=10",
-      "filed": "20260723",
-      "matches": [
-        {
-          "person": "Mark Wade",
-          "roles": [
-            "Director"
-          ],
-          "known_for": [
-            "Ayar Labs"
-          ],
-          "employers": [],
-          "evidence": [],
-          "name_ambiguous": false
-        }
-      ],
-      "score": 65,
-      "confidence": "Lead",
-      "reasons": [
-        "An officer named Mark Wade matches the founder of Ayar Labs in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
-        "self-classified as Other Technology",
-        "$26M already sold"
-      ]
-    },
-    {
-      "cik": "2061171",
-      "accession": "000206117126000003",
-      "entity": "Silicon Derivatives Inc.",
-      "industry": "Other Technology",
-      "year_inc": 2024,
-      "state": "NY",
-      "amount_sold": 30499940.0,
-      "first_sale": "2026-07-17",
-      "persons": [
-        {
-          "name": "Rongnan Li",
-          "key": "rongnanli",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "state": "NEW YORK"
-        },
-        {
-          "name": "Spencer Powers",
-          "key": "spencerpowers",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "state": "ILLINOIS"
-        },
-        {
-          "name": "Donald R. Wilson Jr.",
-          "key": "donaldjr",
-          "roles": [
-            "Director"
-          ],
-          "state": "ILLINOIS"
-        },
-        {
-          "name": "Vivek Pattipati",
-          "key": "vivekpattipati",
-          "roles": [
-            "Director"
-          ],
-          "state": "NEW YORK"
-        }
-      ],
-      "url": "https://www.sec.gov/Archives/edgar/data/2061171/000206117126000003/primary_doc.xml",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2061171&type=D&dateb=&owner=include&count=10",
-      "filed": "20260804",
-      "matches": [
-        {
-          "person": "Spencer Powers",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "known_for": [
-            "Lightelligence"
-          ],
-          "employers": [],
-          "evidence": [],
-          "name_ambiguous": false
-        }
-      ],
-      "score": 65,
-      "confidence": "Lead",
-      "reasons": [
-        "An officer named Spencer Powers matches the founder of Lightelligence in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
-        "self-classified as Other Technology",
-        "$30M already sold"
-      ]
-    },
-    {
-      "cik": "2046169",
-      "accession": "000204616926000004",
-      "entity": "ModRetro, Inc.",
-      "industry": "Other Technology",
-      "year_inc": 2023,
-      "state": "CA",
-      "amount_sold": 145199347.0,
-      "first_sale": "2026-03-06",
-      "persons": [
-        {
-          "name": "Torin Herndon",
-          "key": "torinherndon",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "state": "CALIFORNIA"
-        },
-        {
-          "name": "Palmer Luckey",
-          "key": "palmerluckey",
-          "roles": [
-            "Director"
-          ],
-          "state": "CALIFORNIA"
-        }
-      ],
-      "url": "https://www.sec.gov/Archives/edgar/data/2046169/000204616926000004/primary_doc.xml",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2046169&type=D&dateb=&owner=include&count=10",
-      "filed": "20260527",
-      "matches": [
-        {
-          "person": "Palmer Luckey",
-          "roles": [
-            "Director"
-          ],
-          "known_for": [
-            "Anduril Industries"
-          ],
-          "employers": [],
-          "evidence": [],
-          "name_ambiguous": false
-        }
-      ],
-      "score": 61,
-      "confidence": "Lead",
-      "reasons": [
-        "An officer named Palmer Luckey matches the founder of Anduril Industries in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
-        "self-classified as Other Technology",
-        "$145M already sold"
+        "incorporated 2025",
+        "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
       ]
     },
     {
@@ -564,217 +193,12 @@
         }
       ],
       "score": 61,
-      "confidence": "Lead",
+      "confidence": "Founder's next company",
       "reasons": [
         "An officer named SYED ALI matches the founder of Alif Semiconductor in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
         "self-classified as Other Technology",
-        "$22.2M already sold"
-      ]
-    },
-    {
-      "cik": "1997846",
-      "accession": "000206075526000042",
-      "entity": "ROCKET DOCTOR AI INC.",
-      "industry": "Other Technology",
-      "year_inc": 2026,
-      "state": "A1",
-      "amount_sold": 875000.0,
-      "first_sale": "2026-07-06",
-      "persons": [
-        {
-          "name": "Essam Hamza",
-          "key": "essamhamza",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "state": "BRITISH COLUMBIA, CANADA"
-        },
-        {
-          "name": "Richard Atkins",
-          "key": "richardatkins",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "BRITISH COLUMBIA, CANADA"
-        },
-        {
-          "name": "Kevin Peterson",
-          "key": "kevinpeterson",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "state": "BRITISH COLUMBIA, CANADA"
-        },
-        {
-          "name": "Christopher Cherry",
-          "key": "christophercherry",
-          "roles": [
-            "Director"
-          ],
-          "state": "BRITISH COLUMBIA, CANADA"
-        },
-        {
-          "name": "Sean Clifford",
-          "key": "seanclifford",
-          "roles": [
-            "Director"
-          ],
-          "state": "BRITISH COLUMBIA, CANADA"
-        },
-        {
-          "name": "Andrew Zimmerman",
-          "key": "andrewzimmerman",
-          "roles": [
-            "Director"
-          ],
-          "state": "BRITISH COLUMBIA, CANADA"
-        },
-        {
-          "name": "Kelly Pladson",
-          "key": "kellypladson",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "BRITISH COLUMBIA, CANADA"
-        },
-        {
-          "name": "Andrew Lau",
-          "key": "andrewlau",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "BRITISH COLUMBIA, CANADA"
-        }
-      ],
-      "url": "https://www.sec.gov/Archives/edgar/data/1997846/000206075526000042/primary_doc.xml",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1997846&type=D&dateb=&owner=include&count=10",
-      "filed": "20260715",
-      "matches": [
-        {
-          "person": "Kevin Peterson",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "known_for": [
-            "Bedrock Robotics"
-          ],
-          "employers": [],
-          "evidence": [],
-          "name_ambiguous": false
-        }
-      ],
-      "score": 56,
-      "confidence": "Lead",
-      "reasons": [
-        "An officer named Kevin Peterson matches the founder of Bedrock Robotics in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
-        "self-classified as Other Technology",
-        "incorporated this year"
-      ]
-    },
-    {
-      "cik": "1997846",
-      "accession": "000206075526000051",
-      "entity": "ROCKET DOCTOR AI INC.",
-      "industry": "Other Technology",
-      "year_inc": 2026,
-      "state": "A1",
-      "amount_sold": 750000.0,
-      "first_sale": "2026-08-05",
-      "persons": [
-        {
-          "name": "Essam Hamza",
-          "key": "essamhamza",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "state": "BRITISH COLUMBIA, CANADA"
-        },
-        {
-          "name": "Richard Atkins",
-          "key": "richardatkins",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "BRITISH COLUMBIA, CANADA"
-        },
-        {
-          "name": "Kevin Peterson",
-          "key": "kevinpeterson",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "state": "BRITISH COLUMBIA, CANADA"
-        },
-        {
-          "name": "Christopher Cherry",
-          "key": "christophercherry",
-          "roles": [
-            "Director"
-          ],
-          "state": "BRITISH COLUMBIA, CANADA"
-        },
-        {
-          "name": "Sean Clifford",
-          "key": "seanclifford",
-          "roles": [
-            "Director"
-          ],
-          "state": "BRITISH COLUMBIA, CANADA"
-        },
-        {
-          "name": "Andrew Zimmerman",
-          "key": "andrewzimmerman",
-          "roles": [
-            "Director"
-          ],
-          "state": "BRITISH COLUMBIA, CANADA"
-        },
-        {
-          "name": "Kelly Pladson",
-          "key": "kellypladson",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "BRITISH COLUMBIA, CANADA"
-        },
-        {
-          "name": "Andrew Lau",
-          "key": "andrewlau",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "BRITISH COLUMBIA, CANADA"
-        }
-      ],
-      "url": "https://www.sec.gov/Archives/edgar/data/1997846/000206075526000051/primary_doc.xml",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1997846&type=D&dateb=&owner=include&count=10",
-      "filed": "20260818",
-      "matches": [
-        {
-          "person": "Kevin Peterson",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "known_for": [
-            "Bedrock Robotics"
-          ],
-          "employers": [],
-          "evidence": [],
-          "name_ambiguous": false
-        }
-      ],
-      "score": 56,
-      "confidence": "Lead",
-      "reasons": [
-        "An officer named Kevin Peterson matches the founder of Bedrock Robotics in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
-        "self-classified as Other Technology",
-        "incorporated this year"
+        "$22.2M already sold",
+        "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
       ]
     },
     {
@@ -822,98 +246,12 @@
         }
       ],
       "score": 54,
-      "confidence": "Lead",
+      "confidence": "Founder's next company",
       "reasons": [
         "An officer named David Edward Bell matches the founder of Remedy Robotics in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
         "self-classified as Biotechnology",
-        "incorporated 2025"
-      ]
-    },
-    {
-      "cik": "2011659",
-      "accession": "000201165926000001",
-      "entity": "Resource Monitor, Inc.",
-      "industry": "Other Technology",
-      "year_inc": 2023,
-      "state": "DC",
-      "amount_sold": 1130000.0,
-      "first_sale": "2026-06-24",
-      "persons": [
-        {
-          "name": "Alexander Kopco",
-          "key": "alexanderkopco",
-          "roles": [
-            "Executive Officer",
-            "Director",
-            "Promoter"
-          ],
-          "state": "DISTRICT OF COLUMBIA"
-        },
-        {
-          "name": "Dhruva Rajendra",
-          "key": "dhruvarajendra",
-          "roles": [
-            "Promoter"
-          ],
-          "state": "DISTRICT OF COLUMBIA"
-        },
-        {
-          "name": "Jordi Hays",
-          "key": "jordihays",
-          "roles": [
-            "Promoter"
-          ],
-          "state": "DISTRICT OF COLUMBIA"
-        },
-        {
-          "name": "Nakul Garg",
-          "key": "nakulgarg",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "state": "DISTRICT OF COLUMBIA"
-        },
-        {
-          "name": "Jason M. Flynt",
-          "key": "jasonflynt",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "DISTRICT OF COLUMBIA"
-        },
-        {
-          "name": "Patrick Dillingham",
-          "key": "patrickdillingham",
-          "roles": [
-            "Director"
-          ],
-          "state": "DISTRICT OF COLUMBIA"
-        }
-      ],
-      "url": "https://www.sec.gov/Archives/edgar/data/2011659/000201165926000001/primary_doc.xml",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2011659&type=D&dateb=&owner=include&count=10",
-      "filed": "20260709",
-      "matches": [
-        {
-          "person": "Dhruva Rajendra",
-          "roles": [
-            "Promoter"
-          ],
-          "known_for": [
-            "Deterrence"
-          ],
-          "employers": [],
-          "evidence": [],
-          "name_ambiguous": false
-        }
-      ],
-      "score": 52,
-      "confidence": "Lead",
-      "reasons": [
-        "An officer named Dhruva Rajendra matches the founder of Deterrence in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
-        "self-classified as Other Technology",
-        "$1.1M already sold"
+        "incorporated 2025",
+        "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
       ]
     },
     {
@@ -954,74 +292,12 @@
         }
       ],
       "score": 48,
-      "confidence": "Lead",
+      "confidence": "Founder's next company",
       "reasons": [
         "An officer named Devan Plantamura matches the founder of Ares Industries in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
         "$12.2M already sold",
-        "incorporated 2025"
-      ]
-    },
-    {
-      "cik": "2042931",
-      "accession": "000204293126000005",
-      "entity": "Vapi Inc.",
-      "industry": "Other",
-      "year_inc": 2026,
-      "state": "CA",
-      "amount_sold": 49999998.0,
-      "first_sale": "2026-02-26",
-      "persons": [
-        {
-          "name": "Jordan Dearsley",
-          "key": "jordandearsley",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "state": "CALIFORNIA"
-        },
-        {
-          "name": "Nikhil Gupta",
-          "key": "nikhilgupta",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "state": "CALIFORNIA"
-        },
-        {
-          "name": "Michael Droesch",
-          "key": "michaeldroesch",
-          "roles": [
-            "Director"
-          ],
-          "state": "CALIFORNIA"
-        }
-      ],
-      "url": "https://www.sec.gov/Archives/edgar/data/2042931/000204293126000005/primary_doc.xml",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2042931&type=D&dateb=&owner=include&count=10",
-      "filed": "20260512",
-      "matches": [
-        {
-          "person": "Nikhil Gupta",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "known_for": [
-            "Determinant Materials"
-          ],
-          "employers": [],
-          "evidence": [],
-          "name_ambiguous": true
-        }
-      ],
-      "score": 43,
-      "confidence": "Lead",
-      "reasons": [
-        "Name match on Nikhil Gupta, but that name is common or ambiguous in our data \u2014 verify before acting",
-        "$50M already sold",
-        "incorporated this year"
+        "incorporated 2025",
+        "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
       ]
     },
     {
@@ -1130,112 +406,12 @@
         }
       ],
       "score": 40,
-      "confidence": "Lead",
+      "confidence": "Founder's next company",
       "reasons": [
         "Name match on John Lee, but that name is common or ambiguous in our data \u2014 verify before acting",
         "self-classified as Other Energy",
-        "$20.4M already sold"
-      ]
-    },
-    {
-      "cik": "1971387",
-      "accession": "000110465926075732",
-      "entity": "Liminatus Pharma, Inc.",
-      "industry": "Pharmaceuticals",
-      "year_inc": 2026,
-      "state": "CA",
-      "amount_sold": 1861920.0,
-      "first_sale": "2026-06-03",
-      "persons": [
-        {
-          "name": "Chris Kim",
-          "key": "chriskim",
-          "roles": [
-            "Executive Officer",
-            "Director"
-          ],
-          "state": "CALIFORNIA"
-        },
-        {
-          "name": "Scott Dam",
-          "key": "scottdam",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "CALIFORNIA"
-        },
-        {
-          "name": "Byong C. Yoo",
-          "key": "byongyoo",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "CALIFORNIA"
-        },
-        {
-          "name": "Sang-jin Daniel Lee",
-          "key": "sanglee",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "CALIFORNIA"
-        },
-        {
-          "name": "Beom K. Choi",
-          "key": "beomchoi",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "CALIFORNIA"
-        },
-        {
-          "name": "Eun Sook Lee",
-          "key": "eunlee",
-          "roles": [
-            "Director"
-          ],
-          "state": "CALIFORNIA"
-        },
-        {
-          "name": "Nicholas Fernandez",
-          "key": "nicholasfernandez",
-          "roles": [
-            "Director"
-          ],
-          "state": "CALIFORNIA"
-        },
-        {
-          "name": "Ji Yeon Baek",
-          "key": "jibaek",
-          "roles": [
-            "Director"
-          ],
-          "state": "CALIFORNIA"
-        }
-      ],
-      "url": "https://www.sec.gov/Archives/edgar/data/1971387/000110465926075732/primary_doc.xml",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1971387&type=D&dateb=&owner=include&count=10",
-      "filed": "20260618",
-      "matches": [
-        {
-          "person": "Sang-jin Daniel Lee",
-          "roles": [
-            "Executive Officer"
-          ],
-          "known_for": [
-            "ABL Bio"
-          ],
-          "employers": [],
-          "evidence": [],
-          "name_ambiguous": true
-        }
-      ],
-      "score": 40,
-      "confidence": "Lead",
-      "reasons": [
-        "Name match on Sang-jin Daniel Lee, but that name is common or ambiguous in our data \u2014 verify before acting",
-        "$1.9M already sold",
-        "incorporated this year"
+        "$20.4M already sold",
+        "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
       ]
     },
     {
@@ -1303,101 +479,11 @@
         }
       ],
       "score": 38,
-      "confidence": "Lead",
+      "confidence": "Founder's next company",
       "reasons": [
         "An officer named David Trowbridge Lawrence matches the founder of Quindar in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
-        "$1.5M already sold"
-      ]
-    },
-    {
-      "cik": "2006974",
-      "accession": "000200697426000001",
-      "entity": "Scales Corp Ltd",
-      "industry": "Agriculture",
-      "year_inc": 2026,
-      "state": "Q2",
-      "amount_sold": 0.0,
-      "first_sale": "2026-06-10",
-      "persons": [
-        {
-          "name": "steve kennelly",
-          "key": "stevekennelly",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "NEW ZEALAND"
-        },
-        {
-          "name": "Anthony Batterton",
-          "key": "anthonybatterton",
-          "roles": [
-            "Director"
-          ],
-          "state": "NEW ZEALAND"
-        },
-        {
-          "name": "Andrew Borland",
-          "key": "andrewborland",
-          "roles": [
-            "Director"
-          ],
-          "state": "NEW ZEALAND"
-        },
-        {
-          "name": "Miranda Burdon",
-          "key": "mirandaburdon",
-          "roles": [
-            "Director"
-          ],
-          "state": "NEW ZEALAND"
-        },
-        {
-          "name": "Nicholas Harris",
-          "key": "nicholasharris",
-          "roles": [
-            "Director"
-          ],
-          "state": "NEW ZEALAND"
-        },
-        {
-          "name": "Paul Munro",
-          "key": "paulmunro",
-          "roles": [
-            "Director"
-          ],
-          "state": "NEW ZEALAND"
-        },
-        {
-          "name": "Michael Petersen",
-          "key": "michaelpetersen",
-          "roles": [
-            "Director"
-          ],
-          "state": "NEW ZEALAND"
-        }
-      ],
-      "url": "https://www.sec.gov/Archives/edgar/data/2006974/000200697426000001/primary_doc.xml",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2006974&type=D&dateb=&owner=include&count=10",
-      "filed": "20260616",
-      "matches": [
-        {
-          "person": "Nicholas Harris",
-          "roles": [
-            "Director"
-          ],
-          "known_for": [
-            "Lightmatter"
-          ],
-          "employers": [],
-          "evidence": [],
-          "name_ambiguous": true
-        }
-      ],
-      "score": 28,
-      "confidence": "Lead",
-      "reasons": [
-        "Name match on Nicholas Harris, but that name is common or ambiguous in our data \u2014 verify before acting",
-        "incorporated this year"
+        "$1.5M already sold",
+        "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
       ]
     },
     {
@@ -1456,10 +542,12 @@
         }
       ],
       "score": 27,
-      "confidence": "Lead",
+      "confidence": "Founder's next company",
       "reasons": [
         "Name match on Ben Johnson, but that name is common or ambiguous in our data \u2014 verify before acting",
-        "$16.3M already sold"
+        "$16.3M already sold",
+        "Nothing beyond the name lines up \u2014 treat as a weak lead",
+        "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
       ]
     }
   ]

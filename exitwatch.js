@@ -16,9 +16,10 @@
 
   var TIERS = [
     { id: 'all',           label: 'All' },
-    { id: 'Strong lead',   label: 'Strong leads' },
-    { id: 'Lead',          label: 'Leads' },
-    { id: 'New formation', label: 'New formations' }
+    { id: 'Mafia founding',          label: 'Mafia foundings' },
+    { id: 'Possible mafia founding', label: 'Possible mafia' },
+    { id: "Founder's next company",  label: "Founders' next companies" },
+    { id: 'New formation',           label: 'New formations' }
   ];
 
   var state = { tier: 'all', q: '', sort: 'score' };
@@ -50,8 +51,9 @@
   }
 
   function tierClass(t) {
-    if (t === 'Strong lead') return 'ew-tier-strong';
-    if (t === 'Lead') return 'ew-tier-lead';
+    if (t === 'Mafia founding') return 'ew-tier-strong';
+    if (t === 'Possible mafia founding') return 'ew-tier-lead';
+    if (t === "Founder's next company") return 'ew-tier-lead';
     return 'ew-tier-new';
   }
 
@@ -59,13 +61,13 @@
   function renderStats() {
     var el = document.getElementById('ew-stats');
     if (!el) return;
-    var strong = rows.filter(function (r) { return r.confidence === 'Strong lead'; }).length;
-    var lead   = rows.filter(function (r) { return r.confidence === 'Lead'; }).length;
+    var strong = rows.filter(function (r) { return r.confidence === 'Mafia founding'; }).length;
+    var lead   = rows.filter(function (r) { return r.confidence === 'Possible mafia founding'; }).length;
     var capital = rows.reduce(function (a, r) { return a + (r.amountSold || 0); }, 0);
 
     var items = [
       { v: rows.length, l: 'entities in the queue' },
-      { v: strong + lead, l: 'with a name matched to a founder we track' },
+      { v: strong + lead, l: 'traced to a SpaceX, Palantir or peer alumnus' },
       { v: money(capital), l: 'capital disclosed across the queue' },
       { v: (meta.filings_scanned || 0).toLocaleString(), l: 'Form D filings swept' }
     ];
