@@ -1,82 +1,9 @@
 {
-  "generated_at": "2026-08-19T09:58:55.378470+00:00",
-  "scanned": 641,
-  "new": 4,
-  "fund": 4,
+  "generated_at": "2026-08-20T01:58:13.318799+00:00",
+  "scanned": 464,
+  "new": 0,
+  "fund": 0,
   "media": 0,
   "pod": 0,
-  "items": [
-    {
-      "kind": "funding",
-      "company": "Neros",
-      "headline": "raised $250M",
-      "detail": "Funding Round",
-      "date": "2026-08-01",
-      "url": "",
-      "value": 250000000.0,
-      "source": "press",
-      "fp": "6b3638d09d2e93f1",
-      "tier": "covered",
-      "beat": "defense-primes-displaced",
-      "tags": [
-        "FUND"
-      ],
-      "score": 63.1,
-      "why": "you have written about them; feeds the defense primes displaced thread; size puts it in the fund's range"
-    },
-    {
-      "kind": "funding",
-      "company": "Hadrian",
-      "headline": "raised $1.37B",
-      "detail": "Series D",
-      "date": "2026-08-01",
-      "url": "",
-      "value": 1370000000.0,
-      "source": "press",
-      "fp": "619e07655471f94f",
-      "tier": "",
-      "beat": "reindustrialization",
-      "tags": [
-        "FUND"
-      ],
-      "score": 42.0,
-      "why": "feeds the reindustrialization thread; size puts it in the fund's range"
-    },
-    {
-      "kind": "funding",
-      "company": "Heaviside",
-      "headline": "raised $60M",
-      "detail": "Funding Round, at $600M",
-      "date": "2026-08-01",
-      "url": "",
-      "value": 60000000.0,
-      "source": "press",
-      "fp": "bf02bff28c54c6c2",
-      "tier": "",
-      "beat": null,
-      "tags": [
-        "FUND"
-      ],
-      "score": 27.8,
-      "why": "size puts it in the fund's range"
-    },
-    {
-      "kind": "funding",
-      "company": "Terra Industries",
-      "headline": "raised $52M",
-      "detail": "Seed",
-      "date": "2026-08-01",
-      "url": "",
-      "value": 52000000.0,
-      "source": "press",
-      "fp": "05ea99fd6950b062",
-      "tier": "",
-      "beat": null,
-      "tags": [
-        "FUND"
-      ],
-      "score": 27.5,
-      "why": "size puts it in the fund's range"
-    }
-  ]
+  "items": []
 }
