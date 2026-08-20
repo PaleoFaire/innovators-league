@@ -1,107 +1,129 @@
 // Auto-generated news signals
-// Last updated: 2026-08-20T14:43:29.694Z
+// Last updated: 2026-08-20T15:40:41.454Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1787237009694,
+    "id": 1787240441454,
+    "type": "news",
+    "company": "Waymo",
+    "headline": "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all",
+    "source": "Electrek",
+    "time": "Just now",
+    "impact": "low",
+    "unread": true,
+    "link": "https://electrek.co/2026/08/20/waymo-zeekr-ojai-chinese-ev-robotaxi-all-riders/"
+  },
+  {
+    "id": 1787240441455,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "SpaceX’s orbital data centers would create a new category of e-waste",
+    "source": "Ars Technica Space",
+    "time": "1h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
+  },
+  {
+    "id": 1787240441456,
     "type": "ipo",
     "company": "Portal Space Systems",
     "headline": "Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova",
     "source": "SpaceNews",
-    "time": "1h ago",
+    "time": "2h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/portal-space-systems-to-include-rideshare-payloads-on-falcon-9-launch-of-supernova/"
   },
   {
-    "id": 1787237009695,
+    "id": 1787240441457,
     "type": "funding",
     "company": "Muon Space",
     "headline": "Muon Space raises $250 million to ramp up satellite production",
     "source": "SpaceNews",
-    "time": "3h ago",
+    "time": "4h ago",
     "impact": "high",
     "unread": true,
     "link": "https://spacenews.com/muon-space-raises-250-million-to-ramp-up-satellite-production/"
   },
   {
-    "id": 1787237009696,
+    "id": 1787240441458,
     "type": "ipo",
     "company": "Proteus Space",
     "headline": "Draper Selects Proteus Space for Advanced On-Orbit Mission",
     "source": "SpaceNews",
-    "time": "4h ago",
+    "time": "5h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/draper-selects-proteus-space-for-advanced-on-orbit-mission/"
   },
   {
-    "id": 1787237009697,
+    "id": 1787240441459,
     "type": "funding",
     "company": "Castelion",
     "headline": "Hypersonic missile startup Castelion raises $1 billion",
     "source": "SpaceNews",
-    "time": "15h ago",
+    "time": "16h ago",
     "impact": "high",
-    "unread": true,
+    "unread": false,
     "link": "https://spacenews.com/hypersonic-missile-startup-castelion-raises-1-billion/"
   },
   {
-    "id": 1787237009698,
+    "id": 1787240441460,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo&#8217;s cheaper, next-gen robotaxi is now open to all riders in these three cities",
     "source": "TechCrunch",
-    "time": "16h ago",
+    "time": "17h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/"
   },
   {
-    "id": 1787237009699,
+    "id": 1787240441461,
     "type": "news",
     "company": "Anthropic",
     "headline": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
     "source": "TechCrunch",
-    "time": "16h ago",
+    "time": "17h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/"
   },
   {
-    "id": 1787237009700,
+    "id": 1787240441462,
     "type": "hire",
     "company": "SpaceX",
     "headline": "Cognition CEO denies report that SpaceX tried to acquire the startup",
     "source": "TechCrunch",
-    "time": "16h ago",
+    "time": "17h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/"
   },
   {
-    "id": 1787237009701,
+    "id": 1787240441463,
     "type": "news",
     "company": "OpenAI",
     "headline": "Researchers say OpenAI revoked their access to limited cyber program",
     "source": "TechCrunch",
-    "time": "19h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/"
   },
   {
-    "id": 1787237009702,
+    "id": 1787240441464,
     "type": "ipo",
     "company": "Humanoid",
     "headline": "What does Unitree Robotics&#8217; IPO mean for the humanoid industry?",
     "source": "The Robot Report",
-    "time": "20h ago",
+    "time": "21h ago",
     "impact": "high",
     "unread": false,
     "link": "https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/"
   },
   {
-    "id": 1787237009703,
+    "id": 1787240441465,
     "type": "hire",
     "company": "SpaceX",
     "headline": "Ex-Tesla president: Roadster delay is about getting closer to SpaceX ahead of merger",
@@ -112,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/19/ex-tesla-president-roadster-delay-spacex-thrusters/"
   },
   {
-    "id": 1787237009704,
+    "id": 1787240441466,
     "type": "ipo",
     "company": "Firefly Aerospace",
     "headline": "Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission",
@@ -123,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/firefly-aerospace-to-fly-zeno-power-radioisotope-heating-unit-on-lunar-lander-mission/"
   },
   {
-    "id": 1787237009705,
+    "id": 1787240441467,
     "type": "news",
     "company": "Sage Geosystems",
     "headline": "Sage Geosystems brings its first next-gen geothermal plant online",
@@ -134,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/geothermal/sage-geosystems-next-gen-geothermal-online"
   },
   {
-    "id": 1787237009706,
+    "id": 1787240441468,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI clarifies ‘acquisition’ offer for Irish teen's startup idea was a joke",
@@ -145,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/openai-clarifies-acquisition-offer/"
   },
   {
-    "id": 1787237009707,
+    "id": 1787240441469,
     "type": "ipo",
     "company": "Rocket Lab",
     "headline": "Rocket Lab to test Space Force data network connection in orbit in 2027",
@@ -156,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/rocket-lab-to-test-space-force-data-network-connection-in-orbit-in-2027/"
   },
   {
-    "id": 1787237009708,
+    "id": 1787240441470,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea",
@@ -167,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/"
   },
   {
-    "id": 1787237009709,
+    "id": 1787240441471,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
@@ -178,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/"
   },
   {
-    "id": 1787237009710,
+    "id": 1787240441472,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Your Car Could Start Paying You. SpaceX, Tesla, Grok Bot, Macrohard, Digital Optimus, Cursor HUGE",
@@ -189,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/08/your-car-could-start-paying-you-spacex-tesla-grok-bot-macrohard-digital-optimus-cursor-huge.html"
   },
   {
-    "id": 1787237009711,
+    "id": 1787240441473,
     "type": "news",
     "company": "Humanoid",
     "headline": "Unichem acquires Loomia to accelerate entry into the humanoid &#8216;skin&#8217; market",
@@ -198,27 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://www.therobotreport.com/unichem-acquires-loomia-accelerate-entry-humanoid-skin-market/"
-  },
-  {
-    "id": 1787237009712,
-    "type": "news",
-    "company": "Einride",
-    "headline": "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, and China goes BIG",
-    "source": "Electrek",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://electrek.co/2026/08/17/tesla-grows-robotaxi-fleet-by-50-einride-gets-a-partner-and-china-goes-big/"
-  },
-  {
-    "id": 1787237009713,
-    "type": "ipo",
-    "company": "HEO",
-    "headline": "HEO to use Planet satellites for non-Earth imaging",
-    "source": "SpaceNews",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/heo-to-use-planet-satellites-for-non-earth-imaging/"
   }
 ];
