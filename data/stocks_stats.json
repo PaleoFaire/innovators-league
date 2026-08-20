@@ -3,113 +3,113 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 2.43,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -2.06,
       "count": 1
     },
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -4.14,
+      "avg_change": -5.86,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -4.36,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -7.79,
       "count": 7
     },
     "nuclear": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -2.41,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -10.11,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.05,
+      "avg_change": -3.83,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.21,
+      "avg_change": -8.7,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 11.28,
+      "avg_change": 14.62,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 2.98,
+      "avg_change": 0.2,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.22,
+      "avg_change": -6.14,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      15.31
-    ],
-    [
       "TEM",
       "Tempus AI",
-      12.16
+      24.14
+    ],
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      19.27
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      9.26
+      1.68
+    ],
+    [
+      "9348.T",
+      "ispace",
+      1.65
     ],
     [
       "TSLA",
       "Tesla",
-      7.21
-    ],
-    [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      6.38
+      1.22
     ]
   ],
   "topLosers": [
     [
-      "QS",
-      "QuantumScape",
-      -7.84
+      "NNE",
+      "Nano Nuclear Energy",
+      -10.58
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      -8.25
+      "RGTI",
+      "Rigetti Computing",
+      -10.9
+    ],
+    [
+      "PL",
+      "Planet Labs",
+      -11.07
     ],
     [
       "ALAB",
       "Astera Labs",
-      -9.34
+      -11.64
     ],
     [
       "AUR",
       "Aurora Innovation",
-      -9.83
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      -10.6
+      -12.13
     ]
   ],
-  "lastUpdated": "2026-08-20 08:00:06"
+  "lastUpdated": "2026-08-20 14:03:02"
 }
