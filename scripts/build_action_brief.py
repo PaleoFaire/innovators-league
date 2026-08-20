@@ -319,26 +319,40 @@ def collect(cutoff: str) -> list:
 
 
 # ── routing ──────────────────────────────────────────────────────────────
-def route(e: dict, tier: str) -> list:
-    """Where does this go? An item that routes nowhere is dropped."""
+def route(e: dict, tier: str, beat) -> list:
+    """Where does this go? An item that routes nowhere goes below the bar.
+
+    Tightened 2026-08-20 after the first live send. The original rules let 32
+    of 40 items claim MEDIA — every regulatory row and every launch, regardless
+    of whether Stephen has any angle on the company. A tag that fires on 80% of
+    events is not routing, it is a pass-through, and the result was a briefing
+    that read like a feed. Ambient events about arm's-length companies now go
+    below the bar: still counted, still marked seen, just not asking for his
+    attention.
+    """
     tags = []
     k, v = e["kind"], e["value"]
+    related = tier in ("visited", "covered", "portfolio", "il30")
 
     if k in ("form_d", "funding"):
         tags.append("FUND")                       # a round is always dealflow
     if k == "contract" and v >= 5e6:
         tags.append("FUND")                       # real revenue changes the case
-    if tier in ("portfolio",):
+    if tier == "portfolio":
         tags.append("FUND")                       # anything at all, if we own it
 
-    if k in ("contract", "regulatory", "launch", "grant") and (v >= 2e7 or k in ("regulatory", "launch")):
-        tags.append("MEDIA")                      # milestones are story hooks
-    if k == "form_d" and v >= 5e7:
+    # A milestone is a story hook only when there is an angle: a relationship,
+    # a live editorial thread, or a figure big enough to be the angle itself.
+    if k in ("contract", "grant") and (v >= 2e7 or (related and v >= 5e6)):
         tags.append("MEDIA")
-    if k == "announcement" and tier in ("visited", "covered", "portfolio", "il30"):
+    if k in ("regulatory", "launch") and (related or beat):
+        tags.append("MEDIA")
+    if k == "form_d" and (v >= 5e7 or (related and v >= 1e7)):
+        tags.append("MEDIA")
+    if k == "announcement" and related:
         tags.append("MEDIA")
 
-    if k == "exec":
+    if k == "exec" and (related or beat):
         tags.append("POD")                        # new operator, new booking
     if k == "podcast" and tier in ("visited", "portfolio", "il30"):
         tags.append("POD")                        # they are talking; get them on ours
@@ -363,17 +377,112 @@ def score(e: dict, tier: str, beat) -> float:
     return round(s, 1)
 
 
-def why(e, tier, beat, tags) -> str:
-    parts = []
+def load_tracker() -> dict:
+    """Last-known round per company, for computing what a new filing MEANS.
+
+    "Dexterity filed a $120M Form D" is a fact; "$120M, five months after the
+    $95M Series C we have on record" is an insight. The difference is one join
+    against data the pipeline already holds, so the brief does the join instead
+    of leaving it to the reader — that was the whole complaint about v1.
+    """
+    out = {}
+    for r in rows(load("funding_tracker")):
+        n = norm(r.get("company", ""))
+        if n:
+            out[n] = {"round": r.get("lastRound", ""),
+                      "amount": money(r.get("lastRoundAmount", "")),
+                      "date": str(r.get("lastRoundDate", ""))[:10]}
+    return out
+
+
+def months_between(a: str, b: str):
+    try:
+        d1 = datetime.strptime(a[:10], "%Y-%m-%d")
+        d2 = datetime.strptime(b[:10], "%Y-%m-%d")
+        return round(abs((d2 - d1).days) / 30.4)
+    except Exception:
+        return None
+
+
+def build_group(events: list, tier: str, beat, db_rec: dict, tracker: dict) -> dict:
+    """One company, one entry. The primary event leads; the rest fold in.
+
+    v1 rendered every event as its own bullet, so Antares' Form D and Antares'
+    newsroom post were two items a reader had to connect. The reader should
+    never be the join engine.
+    """
+    events = sorted(events, key=lambda x: -x["score"])
+    prim = events[0]
+    company = prim["company"]
+
+    # ── context: what the database already knows ────────────────────────
+    ctx = []
+    tr = tracker.get(norm(company)) or {}
+    if prim["kind"] in ("form_d", "funding") and prim["value"] > 0 and tr.get("amount"):
+        gap = months_between(tr.get("date", ""), prim["date"])
+        ratio = prim["value"] / tr["amount"] if tr["amount"] else 0
+        line = f"{fmt_money(tr['amount'])} {tr['round'] or 'round'} on record"
+        if gap is not None and 0 < gap < 60:
+            line += f" {gap} months ago"
+        if 0 < ratio and abs(ratio - 1) > 0.15:
+            line += f" — this is {ratio:.1f}× that"
+        ctx.append(line)
+    elif db_rec.get("raised"):
+        stage = db_rec.get("stage") or ""
+        ctx.append(f"{stage + ' · ' if stage else ''}{db_rec['raised']} raised to date")
+
+    # ── why line: relationship + thread, no boilerplate ─────────────────
+    why_bits = []
     if tier:
-        parts.append(TIER_WHY[tier])
+        why_bits.append(TIER_WHY[tier])
     if beat:
-        parts.append(f"feeds the {beat.replace('-', ' ')} thread")
-    if "FUND" in tags and e["value"] >= 2e7:
-        parts.append("size puts it in the fund's range")
-    if e["kind"] == "form_d":
-        parts.append("filed before any announcement")
-    return "; ".join(parts[:3])
+        why_bits.append(f"your {beat.replace('-', ' ')} thread")
+
+    tags = sorted({t for e in events for t in e["tags"]})
+    extra = [e for e in events[1:]]
+
+    g = {"company": company, "tier": tier, "beat": beat, "tags": tags,
+         "kind": prim["kind"], "headline": prim["headline"],
+         "detail": prim["detail"], "date": prim["date"], "url": prim["url"],
+         "value": prim["value"], "source": prim["source"],
+         "context": " · ".join(ctx), "why": "; ".join(why_bits),
+         "also": [{"headline": e["headline"], "date": e["date"], "url": e["url"],
+                   "source": e["source"]} for e in extra[:3]],
+         "score": prim["score"] + min(10, 5 * len(extra)),
+         "momentum": len(events)}
+    return g
+
+
+KICKER = {  # subject-line verb per kind — short, factual, present tense
+    "form_d": "raising {amt}", "funding": "raised {amt}", "contract": "won {amt}",
+    "acquisition": "acquired", "grant": "won {amt}", "regulatory": "regulatory milestone",
+    "exec": "leadership change", "launch": "launch", "announcement": "news",
+    "stealth": "out of stealth", "podcast": "in the conversation",
+    "patent": "patent surge",
+}
+
+
+def kicker(g: dict) -> str:
+    k = KICKER.get(g["kind"], "update")
+    return k.replace("{amt}", fmt_money(g["value"]) if g["value"] else "capital")
+
+
+def lede_text(g: dict) -> str:
+    """Two sentences, every slot filled from data. No adjectives, no LLM."""
+    s1 = f"{g['company']} {g['headline']}"
+    if g["detail"]:
+        s1 += f" — {g['detail']}"
+    s2 = []
+    if g["context"]:
+        s2.append(g["context"])
+    if g["why"]:
+        s2.append(g["why"])
+    if g["momentum"] > 1:
+        s2.append(f"{g['momentum']} separate signals in this window")
+    # Uppercase only the first character — str.capitalize() lowercases the
+    # rest, turning "Series C · $470M" into "Series c · $470m".
+    cap = lambda x: x[0].upper() + x[1:] if x else x
+    return s1.rstrip(".") + ". " + (". ".join(cap(x) for x in s2) + "." if s2 else "")
 
 
 def fingerprint(e: dict) -> str:
@@ -383,51 +492,90 @@ def fingerprint(e: dict) -> str:
 
 
 # ── render ───────────────────────────────────────────────────────────────
-BANDS = [("Act on today", 3), ("Worth knowing", 10)]
+# Display budget. The first live send put 40 flat bullets in front of Stephen
+# and his verdict was exactly right: "a long list of stuff that I have to comb
+# through". A briefing's value is inversely related to how much of it there is,
+# so the shape is now fixed regardless of how busy the week was:
+#
+#   THE LEDE      1 story, two sentences, the single most important thing
+#   ACT ON        up to 2 more with full context
+#   ON THE RADAR  up to 7, one line each
+#   BELOW THE BAR one counting line for everything else
+#
+# Ten entries maximum, and only the top three ask for real attention. A heavy
+# news week compresses; it does not sprawl.
+LEDE_N, ACT_N, RADAR_N = 1, 2, 7
 
 
-def render_md(items, meta) -> str:
+def radar_line(g: dict) -> str:
+    bits = [g["headline"]]
+    if g["value"] and fmt_money(g["value"]) not in g["headline"]:
+        bits.append(fmt_money(g["value"]))
+    if g["context"]:
+        bits.append(g["context"])
+    elif g["why"]:
+        bits.append(g["why"])
+    if g["momentum"] > 1:
+        bits.append(f"+{g['momentum']-1} more signal{'s' if g['momentum'] > 2 else ''}")
+    return " · ".join(bits)
+
+
+def render_md(brief: dict) -> str:
     d = datetime.now(timezone.utc)
     L = [f"# The Action Brief — {d:%A %-d %B %Y}", ""]
-    if not items:
-        L += ["Nothing new cleared the bar since the last run.", "",
-              f"_{meta['scanned']} events scanned, all seen before._"]
+
+    if not brief["lede"]:
+        L += ["Nothing cleared the bar since the last run — the pipeline ran and "
+              "found no new signal worth your attention.", "",
+              f"_{brief['scanned']} events scanned._"]
         return "\n".join(L)
 
-    L += [f"**{len(items)} new** out of {meta['scanned']} events scanned. "
-          f"{meta['fund']} for the fund · {meta['media']} story hooks · {meta['pod']} booking leads.", ""]
+    lede = brief["lede"]
+    L += ["## The lede", ""]
+    L.append(lede_text(lede))
+    if lede["url"]:
+        L.append(f"[source]({lede['url']}) · " + " ".join(f"`{t}`" for t in lede["tags"]))
+    L.append("")
 
-    i = 0
-    for band, n in BANDS:
-        chunk = items[i:i + n]
-        if not chunk:
-            continue
-        L += [f"## {band}", ""]
-        for e in chunk:
-            tags = " ".join(f"`{t}`" for t in e["tags"])
-            head = f"**{e['company']}** {e['headline']}"
-            if e["url"]:
-                head += f" · [source]({e['url']})"
-            L.append(f"- {head}  {tags}")
-            if e["detail"]:
-                L.append(f"  {e['detail']}")
-            if e["why"]:
-                L.append(f"  *Why you:* {e['why']}")
+    if brief["act_on"]:
+        L += ["## Act on", ""]
+        for g in brief["act_on"]:
+            head = f"**{g['company']}** {g['headline']}"
+            if g["url"]:
+                head += f" · [source]({g['url']})"
+            L.append(f"- {head}  " + " ".join(f"`{t}`" for t in g["tags"]))
+            if g["detail"]:
+                L.append(f"  {g['detail']}")
+            sub = " · ".join(x for x in (g["context"], g["why"]) if x)
+            if sub:
+                L.append(f"  _{sub}_")
+            for a in g["also"]:
+                L.append(f"  ↳ also: {a['headline']} ({a['date']})")
             L.append("")
-        i += n
 
-    rest = items[i:]
-    if rest:
-        L += [f"## Everything else ({len(rest)})", ""]
-        for e in rest:
-            L.append(f"- {e['company']} — {e['headline']} "
-                     f"({e['date']}, {e['source']})")
+    if brief["radar"]:
+        L += ["## On the radar", ""]
+        for g in brief["radar"]:
+            L.append(f"- **{g['company']}** — {radar_line(g)}")
+        L.append("")
+
+    if brief["threads"]:
+        L.append("**Threads this week:** " +
+                 " · ".join(f"{b.replace('-', ' ')} ×{n}" for b, n in brief["threads"]))
+        L.append("")
+
+    bb = brief["below_bar"]
+    if bb:
+        total = sum(bb.values())
+        parts = ", ".join(f"{v} {k.replace('_', ' ')}" for k, v in
+                          sorted(bb.items(), key=lambda kv: -kv[1])[:5])
+        L.append(f"_Below the bar: {total} more events logged ({parts}) — "
+                 f"all in the repo, none needing you._")
         L.append("")
 
     L += ["---",
-          f"_Generated {d:%Y-%m-%d %H:%M} UTC from the Innovators League pipeline. "
-          f"Every line is a primary-source fact; nothing here is model-written. "
-          f"Relationship weighting comes from data/relationships.json._"]
+          f"_Generated {d:%Y-%m-%d %H:%M} UTC. Every line is a primary-source fact "
+          f"joined against the Innovators League database; nothing is model-written._"]
     return "\n".join(L)
 
 
@@ -450,7 +598,7 @@ def main() -> int:
     except Exception:
         seen = set()
 
-    items = []
+    items, below_bar = [], {}
     # Within-batch as well as across runs. form_d_daily merges into
     # form_d_filings, so reading both surfaces the same filing twice with
     # different filing_url values — identical to a reader, and a briefing that
@@ -468,38 +616,73 @@ def main() -> int:
             continue
         tier = rel.of(e["company"])
         beat = rel.beat(e["company"])
-        tags = route(e, tier)
-        if not tags:
-            continue
+        tags = route(e, tier, beat)
         e = {**e, "fp": fp, "tier": tier, "beat": beat, "tags": tags,
              "score": score(e, tier, beat)}
-        e["why"] = why(e, tier, beat, tags)
-        items.append(e)
+        if not tags:
+            # Real event, no angle for Stephen. Counted, marked seen, not shown.
+            below_bar[e["kind"]] = below_bar.get(e["kind"], 0) + 1
+            items.append({**e, "routed": False})
+            continue
+        items.append({**e, "routed": True})
 
-    items.sort(key=lambda x: -x["score"])
-    # Everything that qualified is now considered reported, even the tail below
-    # the cap. Remembering only the printed items would dribble the backlog out
-    # over the following days, so a fortnight-old filing would surface as
-    # "new" on Friday. The tail is low-scoring by construction; if it mattered
-    # it would have made the cut.
+    # Everything that qualified is considered reported, including the unrouted
+    # tail — otherwise the backlog dribbles out over the following days and a
+    # fortnight-old filing surfaces as "new" on Friday.
     qualified = {i["fp"] for i in items}
-    items = items[:args.max]
+    routed = [i for i in items if i["routed"]]
 
-    meta = {"scanned": len(raw), "new": len(items),
-            "fund": sum("FUND" in i["tags"] for i in items),
-            "media": sum("MEDIA" in i["tags"] for i in items),
-            "pod": sum("POD" in i["tags"] for i in items)}
+    # ── group: one company, one entry ───────────────────────────────────
+    tracker = load_tracker()
+    by_co = {}
+    for e in routed:
+        by_co.setdefault(norm(e["company"]), []).append(e)
+    groups = [build_group(evs, evs[0]["tier"], evs[0]["beat"],
+                          db["by_norm"].get(n, {}), tracker)
+              for n, evs in by_co.items()]
+    groups.sort(key=lambda g: -g["score"])
 
-    md = render_md(items, meta)
-    print("\n" + md[:1800] + ("\n…\n" if len(md) > 1800 else ""))
+    shown = groups[:LEDE_N + ACT_N + RADAR_N]
+    for g in groups[len(shown):]:
+        below_bar[g["kind"]] = below_bar.get(g["kind"], 0) + g["momentum"]
+
+    lede = shown[0] if shown else None
+    act_on = shown[LEDE_N:LEDE_N + ACT_N]
+    radar = shown[LEDE_N + ACT_N:]
+
+    # Threads: beats with more than one company shown this run.
+    beat_counts = {}
+    for g in shown:
+        if g["beat"]:
+            beat_counts[g["beat"]] = beat_counts.get(g["beat"], 0) + 1
+    threads = sorted(((b, n) for b, n in beat_counts.items() if n >= 2),
+                     key=lambda x: -x[1])
+
+    if lede:
+        n_more = len(shown) - 1
+        subject = (f"[IL Action Brief] {lede['company']} {kicker(lede)}"
+                   + (f" · {n_more} more" if n_more else ""))
+    else:
+        subject = "[IL Action Brief] quiet day — nothing cleared the bar"
+
+    brief = {"generated_at": datetime.now(timezone.utc).isoformat(),
+             "scanned": len(raw), "new": len(routed), "companies": len(groups),
+             "subject": subject,
+             "fund": sum("FUND" in g["tags"] for g in shown),
+             "media": sum("MEDIA" in g["tags"] for g in shown),
+             "pod": sum("POD" in g["tags"] for g in shown),
+             "lede": lede, "act_on": act_on, "radar": radar,
+             "threads": threads, "below_bar": below_bar}
+
+    md = render_md(brief)
+    print("\n" + md[:2200] + ("\n…\n" if len(md) > 2200 else ""))
 
     if args.dry:
         print("DRY RUN — nothing written")
         return 0
 
     OUT_MD.write_text(md)
-    OUT_JSON.write_text(json.dumps(
-        {"generated_at": datetime.now(timezone.utc).isoformat(), **meta, "items": items}, indent=2))
+    OUT_JSON.write_text(json.dumps(brief, indent=2))
     # Keep the memory bounded — six months of fingerprints is ample and stops
     # the state file growing without limit.
     STATE.write_text(json.dumps(

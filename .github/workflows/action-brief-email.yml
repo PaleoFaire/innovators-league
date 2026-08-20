@@ -70,7 +70,9 @@ jobs:
             exit 0
           fi
           N=$(python3 -c "import json;print(json.load(open('data/action_brief.json'))['new'])" 2>/dev/null || echo 0)
+          SUBJ=$(python3 -c "import json;print(json.load(open('data/action_brief.json')).get('subject','[IL Action Brief] update'))" 2>/dev/null || echo "[IL Action Brief] update")
           echo "count=$N" >> $GITHUB_OUTPUT
+          echo "subject=$SUBJ" >> $GITHUB_OUTPUT
           echo "send=true" >> $GITHUB_OUTPUT
           # ALWAYS send, including on a quiet day.
           #
@@ -98,53 +100,104 @@ jobs:
           python3 - <<'PY'
           import json, html, pathlib
           d = json.load(open("data/action_brief.json"))
-          items = d["items"]
           COLOR = {"FUND": "#2F6B4F", "MEDIA": "#26557C", "POD": "#9A6B18"}
+          SANS = "-apple-system,Segoe UI,sans-serif"
+          esc = html.escape
+
+          def E(s):
+              # escape THEN entity-encode typographic punctuation: a mislabeled
+              # charset anywhere between SMTP and the reader turns a raw "\u00b7"
+              # into mojibake, and entities are immune.
+              return esc(s).replace("\u00b7", "&middot;").replace("\u2014", "&mdash;")
 
           def chip(t):
               c = COLOR.get(t, "#6B747E")
-              return (f'<span style="font:600 10px/1 -apple-system,Segoe UI,sans-serif;'
-                      f'letter-spacing:.08em;color:{c};border:1px solid {c};'
-                      f'border-radius:2px;padding:3px 5px;margin-right:4px">{t}</span>')
+              return (f'<span style="font:600 10px/1 {SANS};letter-spacing:.08em;'
+                      f'color:{c};border:1px solid {c};border-radius:2px;'
+                      f'padding:3px 5px;margin-right:4px">{t}</span>')
 
-          rows = []
-          for e in items:
-              chips = "".join(chip(t) for t in e["tags"])
-              url = html.escape(e.get("url") or "")
-              name = html.escape(e["company"])
-              head = f'<a href="{url}" style="color:#14181D;text-decoration:none">{name}</a>' if url else name
-              rows.append(f"""
-              <tr><td style="padding:14px 0;border-bottom:1px solid #E4E5E4">
-                <div style="font:600 16px/1.35 -apple-system,Segoe UI,sans-serif;color:#14181D">
-                  {head} <span style="font-weight:400">{html.escape(e['headline'])}</span>
+          def chips(g): return "".join(chip(t) for t in g["tags"])
+
+          def linked(g, inner):
+              u = esc(g.get("url") or "")
+              return f'<a href="{u}" style="color:#14181D;text-decoration:none">{inner}</a>' if u else inner
+
+          parts = []
+          lede = d.get("lede")
+          if lede:
+              # THE LEDE — one story, sentence form, visually dominant.
+              s2 = " ".join(x[0].upper() + x[1:] + "." for x in
+                            ([lede["context"]] if lede.get("context") else []) +
+                            ([lede["why"]] if lede.get("why") else []))
+              parts.append(f"""
+              <div style="border-left:3px solid #B8860B;padding:2px 0 2px 14px;margin:4px 0 22px">
+                <div style="font:600 12px/1 {SANS};letter-spacing:.1em;color:#9A6B18">THE LEDE</div>
+                <div style="font:600 19px/1.35 Georgia,serif;color:#14181D;margin-top:8px">
+                  {linked(lede, esc(lede['company']))} <span style="font-weight:400">{E(lede['headline'])}</span>
                 </div>
-                {'<div style="font:400 14px/1.5 -apple-system,Segoe UI,sans-serif;color:#3D454E;margin-top:3px">'+html.escape(e['detail'])+'</div>' if e.get('detail') else ''}
-                {'<div style="font:400 13px/1.5 -apple-system,Segoe UI,sans-serif;color:#6B747E;margin-top:3px"><em>Why you:</em> '+html.escape(e['why'])+'</div>' if e.get('why') else ''}
-                <div style="margin-top:7px">{chips}</div>
-              </td></tr>""")
+                {'<div style="font:400 15px/1.5 '+SANS+';color:#3D454E;margin-top:5px">'+E(lede['detail'])+'</div>' if lede.get('detail') else ''}
+                {'<div style="font:400 13px/1.55 '+SANS+';color:#6B747E;margin-top:6px">'+E(s2)+'</div>' if s2 else ''}
+                <div style="margin-top:9px">{chips(lede)}</div>
+              </div>""")
 
-          if not rows:
-              # A quiet day still sends, so it needs to render as a deliberate
-              # "nothing cleared the bar" rather than an empty table that reads
-              # like a broken template.
-              rows = ['<tr><td style="padding:14px 0;font:400 15px/1.5 -apple-system,'
-                      'Segoe UI,sans-serif;color:#3D454E">Nothing cleared the bar '
-                      'overnight. The pipeline ran and found no new routable signals.</td></tr>']
+              for g in d.get("act_on", []):
+                  sub = " · ".join(x for x in (g.get("context",""), g.get("why","")) if x)
+                  also = "".join(f'<div style="font:400 12px/1.5 {SANS};color:#828C96">↳ also: {E(a["headline"])} ({esc(a["date"])})</div>'
+                                 for a in g.get("also", []))
+                  parts.append(f"""
+                  <div style="padding:13px 0;border-top:1px solid #E4E5E4">
+                    <div style="font:600 16px/1.35 {SANS};color:#14181D">
+                      {linked(g, esc(g['company']))} <span style="font-weight:400">{E(g['headline'])}</span>
+                    </div>
+                    {'<div style="font:400 14px/1.5 '+SANS+';color:#3D454E;margin-top:3px">'+E(g['detail'])+'</div>' if g.get('detail') else ''}
+                    {'<div style="font:400 13px/1.5 '+SANS+';color:#6B747E;margin-top:3px">'+E(sub)+'</div>' if sub else ''}
+                    {also}
+                    <div style="margin-top:7px">{chips(g)}</div>
+                  </div>""")
+
+              radar = d.get("radar", [])
+              if radar:
+                  rows = []
+                  for g in radar:
+                      bits = [g["headline"]]
+                      if g.get("context"): bits.append(g["context"])
+                      elif g.get("why"): bits.append(g["why"])
+                      if g.get("momentum", 1) > 1: bits.append(f"+{g['momentum']-1} more")
+                      rows.append(f'<div style="font:400 13px/1.7 {SANS};color:#3D454E">'
+                                  f'<strong>{linked(g, esc(g["company"]))}</strong> &mdash; {" &middot; ".join(E(b) for b in bits)}</div>')
+                  parts.append(f"""
+                  <div style="border-top:1px solid #E4E5E4;padding-top:12px;margin-top:2px">
+                    <div style="font:600 11px/1 {SANS};letter-spacing:.1em;color:#828C96;margin-bottom:7px">ON THE RADAR</div>
+                    {''.join(rows)}
+                  </div>""")
+
+              if d.get("threads"):
+                  th = " &middot; ".join(f"{b.replace('-', ' ')} &times;{n}" for b, n in d["threads"])
+                  parts.append(f'<div style="font:400 12px/1.5 {SANS};color:#6B747E;margin-top:14px"><strong>Threads this week:</strong> {th}</div>')
+          else:
+              parts.append(f'<div style="font:400 15px/1.5 {SANS};color:#3D454E;padding:8px 0">'
+                           'Nothing cleared the bar overnight — the pipeline ran and found '
+                           'no new signal worth your attention.</div>')
+
+          bb = d.get("below_bar") or {}
+          if bb:
+              total = sum(bb.values())
+              top = ", ".join(f"{v} {k.replace('_',' ')}" for k, v in sorted(bb.items(), key=lambda kv: -kv[1])[:4])
+              parts.append(f'<div style="font:400 12px/1.5 {SANS};color:#828C96;margin-top:14px">'
+                           f'Below the bar: {total} more events logged ({E(top)}) — none needing you.</div>')
 
           body = f"""<div style="max-width:640px;margin:0 auto;padding:24px;background:#FFFFFF">
             <div style="font:600 22px/1.2 Georgia,serif;color:#14181D">The Action Brief</div>
-            <div style="font:400 13px/1.5 -apple-system,Segoe UI,sans-serif;color:#6B747E;margin:6px 0 18px">
-              {d['new']} new out of {d['scanned']} scanned &middot;
-              {d['fund']} for the fund &middot; {d['media']} story hooks &middot; {d['pod']} booking leads
+            <div style="font:400 12px/1.5 {SANS};color:#828C96;margin:5px 0 16px">
+              {d.get('companies', 0)} companies moved &middot; {d['scanned']} events scanned &middot; only what needs you is above the line
             </div>
-            <table cellpadding="0" cellspacing="0" width="100%">{''.join(rows)}</table>
-            <div style="font:400 12px/1.5 -apple-system,Segoe UI,sans-serif;color:#828C96;margin-top:20px">
-              Built from the Innovators League pipeline. Every line is a primary-source fact;
-              nothing here is model-written.
+            {''.join(parts)}
+            <div style="font:400 11px/1.5 {SANS};color:#A0A8B0;margin-top:20px">
+              Every line is a primary-source fact joined against the Innovators League database; nothing is model-written.
             </div>
           </div>"""
           pathlib.Path("brief_email.html").write_text(body)
-          print(f"rendered {len(items)} items")
+          print("rendered:", "lede + %d act-on + %d radar" % (len(d.get("act_on",[])), len(d.get("radar",[]))) if lede else "quiet day")
           PY
 
       - name: Send
@@ -158,10 +211,10 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           to: ${{ secrets.MAIL_TO }}
           from: Innovators League <${{ secrets.MAIL_USERNAME }}>
-          # Fixed "[IL Action Brief]" prefix so the dossier can filter for it
-          # deterministically rather than pattern-matching prose, and the count
-          # follows so it can be triaged from the subject line alone.
-          subject: "[IL Action Brief] ${{ steps.check.outputs.count }} signals"
+          # The builder writes the subject: fixed "[IL Action Brief]" prefix so
+          # the dossier filters deterministically, then the lede itself —
+          # "Antares raising $85M · 9 more" says more than any count could.
+          subject: ${{ steps.check.outputs.subject }}
           html_body: file://brief_email.html
           convert_markdown: false
           attachments: data/action_brief.md
