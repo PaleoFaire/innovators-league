@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T07:26:33.180264+00:00",
+  "generated_at": "2026-08-20T07:29:35.255475+00:00",
   "corpora": [
     "news_raw.json",
     "press_releases_raw.json",
@@ -22,5 +22,13 @@
     "waymo": 3,
     "applied": 1
   },
-  "hits": []
+  "hits": [
+    {
+      "company": "Company",
+      "mafia": "spacex",
+      "source": "SpaceNews",
+      "confidence": 2,
+      "evidence": "SpaceNews https://spacenews.com/ Covering the business and politics of space Thu, 20 Aug 2026 01:35:02 +0000 en-US hourly 1 https://spacenews.com/wp-content/uploads/2024/05/cropped-SN_forza_star-32x32.png SpaceNews https://spacenews.com/ 32 32 80681979 Hypersonic missile startup Castelion raises $1 billion https://spac"
+    }
+  ]
 }
