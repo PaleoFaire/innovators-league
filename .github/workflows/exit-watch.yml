@@ -38,6 +38,13 @@ jobs:
       # A rolling 10-day sweep covers EDGAR's own late-filing behaviour
       # without re-walking the whole month every morning. The fetcher caches
       # every parsed accession, so repeated days are nearly free.
+      # No-op without the key: writes status metadata and exits 0, so the
+      # workflow keeps working until PATENTSVIEW_API_KEY is added to secrets.
+      - name: Refresh alumni roster from patent records
+        run: pip install requests -q && python scripts/build_alumni_roster.py
+        env:
+          PATENTSVIEW_API_KEY: ${{ secrets.PATENTSVIEW_API_KEY }}
+
       - name: Sweep EDGAR for new formations
         run: python scripts/fetch_exit_watch.py --days "${{ github.event.inputs.days || '10' }}"
 
@@ -51,7 +58,7 @@ jobs:
 
       - name: Commit and push (retry on conflict)
         run: |
-          git add data/exit_watch_auto.js data/exit_watch_auto.json data/exit_watch_raw.json
+          git add data/exit_watch_auto.js data/exit_watch_auto.json data/exit_watch_raw.json data/alumni_roster.json
           if git diff --staged --quiet; then
             echo "No changes to commit."
             exit 0

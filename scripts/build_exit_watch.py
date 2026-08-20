@@ -295,6 +295,23 @@ def build_roster(companies: list[dict]) -> tuple[dict, set]:
                 add(fname, cname, emp,
                     f'{cname} is clustered under {label} in our database')
 
+    # ── 2b. patent inventor records, when the key is present ─────────────
+    # build_alumni_roster.py turns granted patents into documented employment:
+    # a named inventor on a patent assigned to Palantir demonstrably worked
+    # there, and the patent number is the citation. This is the source that
+    # takes the roster from hundreds to thousands. Absent without the key.
+    ap = DATA / "alumni_roster.json"
+    if ap.exists():
+        try:
+            blob = json.loads(ap.read_text())
+        except (json.JSONDecodeError, OSError):
+            blob = {}
+        for k, rec in (blob.get("people") or {}).items():
+            name = rec.get("name", "")
+            for emp in rec.get("employers", []):
+                add(name, "", emp,
+                    (rec.get("evidence") or [f"patent inventor record at {emp}"])[0])
+
     # ── 3. free-text pedigree, and every founder we know ─────────────────
     for c in companies:
         blob = " ".join((c["founder"], c["insight"], c["description"]))
