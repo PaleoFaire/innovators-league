@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T01:49:24.052483+00:00",
+  "generatedAt": "2026-08-21T03:10:46.791483+00:00",
   "date": "2026-08-21",
   "dateDisplay": "Friday, August 21, 2026",
   "sections": {
@@ -88,51 +88,51 @@
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 66.73,
-        "changePercent": 22.92,
-        "change": 12.45
+        "price": 66.65,
+        "changePercent": 22.77,
+        "change": 12.36
       },
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 15.9,
-        "changePercent": -14.61,
-        "change": -2.72
+        "price": 16.07,
+        "changePercent": -13.72,
+        "change": -2.55
       },
       {
         "ticker": "ACHR",
         "company": "Archer Aviation",
-        "price": 6.03,
-        "changePercent": -13.49,
-        "change": -0.94
+        "price": 6.09,
+        "changePercent": -12.63,
+        "change": -0.88
       },
       {
         "ticker": "NNE",
         "company": "Nano Nuclear Energy",
-        "price": 18.12,
-        "changePercent": -11.7,
-        "change": -2.4
+        "price": 18.23,
+        "changePercent": -11.16,
+        "change": -2.29
+      },
+      {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 444000.0,
+        "changePercent": -10.66,
+        "change": -53000.0
       },
       {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 6.08,
-        "changePercent": -11.18,
-        "change": -0.76
+        "price": 6.12,
+        "changePercent": -10.53,
+        "change": -0.72
       },
       {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 22.0,
-        "changePercent": -11.11,
-        "change": -2.75
-      },
-      {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 41.29,
-        "changePercent": -11.11,
-        "change": -5.16
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 0.75,
+        "changePercent": -10.51,
+        "change": -0.09
       }
     ],
     "regulatory": [
