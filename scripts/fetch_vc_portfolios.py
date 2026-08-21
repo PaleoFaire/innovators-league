@@ -48,6 +48,7 @@ VC_PORTFOLIO_URLS = {
     "Decisive Point": ["https://decisivepoint.com/portfolio"],
     "Cantos": ["https://cantos.vc/portfolio/"],
     "Razor's Edge": ["https://www.razorsedge.vc/portfolio/"],
+    "Silent Ventures": ["https://silentvc.com/"],   # 33/45 portfolio overlap with the DB
 
     # ─── Tier 4: climate / energy / hard-physics ───
     "Lower Carbon": ["https://lowercarbon.com/companies/"],     # Backs Panthalassa

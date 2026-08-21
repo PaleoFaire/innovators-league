@@ -33908,6 +33908,21 @@ const VC_FIRMS = [
     signal: "hot",
     website: "https://www.ycombinator.com",
     insight: "The 4th most-cited investor across this entire database (48 tracked companies). YC's demo days are now a primary hard-tech dealflow source — the batch shift is real and accelerating."
+  },
+  {
+    name: "Silent Ventures",
+    shortName: "Silent",
+    aum: "Undisclosed",
+    flagshipFund: "Silent Ventures",
+    founded: 2022,
+    hq: "Dallas, Texas",
+    thesis: "Early-stage venture firm investing at concept-stage pre-seed and seed in founders building aerospace, defense, and national-security companies. Founder Jackson Moses also runs Silent Capital, a private 506(b) syndicate giving members access to multi-stage defense and deep-tech deals, and says his funds have backed 14 defense-tech unicorns from inception.",
+    keyPartners: ["Jackson Moses"],
+    sectorFocus: ["Defense", "Aerospace", "National Security", "Deep Tech"],
+    portfolioCompanies: ["Anduril Industries", "Castelion", "Saronic", "Hadrian", "Impulse Space", "Galadyne", "PILGRIM", "Chaos Industries", "Base Power", "Durin", "Pixxel", "Axiom Space", "Armada", "Starfish Space", "Terra Industries", "Allen Control Systems", "Firehawk Aerospace", "Galvanick", "Kela", "Mara", "Swan", "Swarm Aero", "Swarmbotics AI", "Deterrence", "Dominion Dynamics", "Long Wall", "Cambium", "Aeon Industrial", "Amca", "Arbor Energy", "Gallatin AI", "Privateer", "DIRAC", "Firestorm", "Erebor Bank", "Harbinger Industries", "Fulcrum Autonomy", "Supply Energetics", "Sandtable", "Ironstead", "Corridian", "Haxion AI", "Thor Dynamics", "47G"],
+    signal: "hot",
+    website: "https://silentvc.com",
+    insight: "The clearest pure-play defense-tech seed picker on the list: 33 of the 45 portfolio logos on their site are companies we already track — including Pilgrim and Galadyne, where ROS has direct deal involvement. Moses sources for 8VC, Founders Fund and a16z, which makes this portfolio a leading indicator of where the bigger checks land next."
   }
 ];
 

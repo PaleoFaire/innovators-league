@@ -128,6 +128,23 @@
             </div>
         </header>
 
+        <!-- The Diaspora — the inward half Stephen actually asked for:
+             companies IN the database founded by mother-ship alumni, mined
+             from our own founder records with quoted evidence per claim.
+             Built 2026-08-22; data from scripts/build_diaspora.py. -->
+        <section class="ew-section" id="diaspora">
+            <div class="container">
+                <h2 style="font-family:'Space Grotesk',sans-serif; font-size:26px; color:var(--text-primary); margin:0 0 6px;">🧬 The Diaspora</h2>
+                <p style="font-size:13.5px; color:var(--text-secondary); max-width:70ch; line-height:1.55; margin:0 0 18px;">
+                    Companies we track whose founders carry explicit alumni provenance — ex-SpaceX,
+                    ex-Anduril, ex-Palantir and the other mother ships. Every entry quotes the evidence
+                    from its own record; a company merely <em>mentioning</em> a mother ship does not count.
+                </p>
+                <div id="diaspora-tabs" style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px;"></div>
+                <div id="diaspora-grid" style="display:grid; grid-template-columns:repeat(auto-fill,minmax(290px,1fr)); gap:12px;"></div>
+            </div>
+        </section>
+
         <section class="ew-section">
             <div class="ew-container">
 
@@ -205,9 +222,44 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="utils.js?v=20260501"></script>
+    <script src="data/diaspora_auto.js?v=20260822"></script>
     <script src="auth.js?v=20260501"></script>
     <script src="data/exit_watch_auto.js?v=20260501"></script>
     <script src="exitwatch.js?v=20260501"></script>
     <script src="cookie-consent.js?v=20260501"></script>
+
+    <script>
+    /* Diaspora renderer — tabs per mother ship, evidence-quoting cards. */
+    (function () {
+      if (typeof FOUNDER_DIASPORA === 'undefined' || !FOUNDER_DIASPORA.origins) return;
+      var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+        return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); };
+      var tabs = document.getElementById('diaspora-tabs');
+      var grid = document.getElementById('diaspora-grid');
+      if (!tabs || !grid) return;
+      var origins = FOUNDER_DIASPORA.origins;
+      var names = Object.keys(origins);
+      function show(ship) {
+        Array.prototype.forEach.call(tabs.children, function (b) {
+          b.style.background = b.dataset.ship === ship ? '#fbbf24' : 'var(--bg-card)';
+          b.style.color = b.dataset.ship === ship ? '#0a0b0f' : 'var(--text-secondary)';
+        });
+        grid.innerHTML = origins[ship].companies.map(function (c) {
+          return '<a href="company.html?c=' + encodeURIComponent(c.name) + '" style="display:block; text-decoration:none; border:1px solid var(--border); border-radius:10px; background:var(--bg-card); padding:14px 16px;">' +
+            '<div style="font:700 15px/1.3 \'Space Grotesk\',sans-serif; color:var(--text-primary);">' + esc(c.name) + '</div>' +
+            '<div style="font-size:11px; color:var(--text-muted); margin-top:2px; text-transform:uppercase; letter-spacing:.05em;">' + esc(c.sector) + (c.raised ? ' · ' + esc(c.raised) + ' raised' : '') + '</div>' +
+            '<div style="font-size:12px; color:var(--text-secondary); margin-top:8px; border-left:2px solid rgba(251,191,36,.5); padding-left:8px; line-height:1.5;">&ldquo;&hellip;' + esc(c.evidence) + '&hellip;&rdquo;</div>' +
+          '</a>';
+        }).join('');
+      }
+      tabs.innerHTML = names.map(function (s) {
+        return '<button data-ship="' + esc(s) + '" style="font:600 12px/1 Inter,sans-serif; padding:8px 13px; border-radius:999px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-secondary); cursor:pointer;">' + esc(s) + ' (' + origins[s].count + ')</button>';
+      }).join('');
+      tabs.addEventListener('click', function (e) {
+        var b = e.target.closest('button'); if (b) show(b.dataset.ship);
+      });
+      show(names[0]);
+    })();
+    </script>
 </body>
 </html>
