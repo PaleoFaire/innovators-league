@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T13:51:05.814349+00:00",
+  "generatedAt": "2026-08-21T14:43:11.102509+00:00",
   "date": "2026-08-21",
   "dateDisplay": "Friday, August 21, 2026",
   "sections": {
@@ -81,58 +81,58 @@
       {
         "ticker": "ONT.L",
         "company": "Oxford Nanopore Technologies",
-        "price": 157.6,
-        "changePercent": 29.18,
-        "change": 35.6
+        "price": 169.0,
+        "changePercent": 38.52,
+        "change": 47.0
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 66.65,
-        "changePercent": 22.77,
-        "change": 12.36
+        "price": 67.67,
+        "changePercent": 29.88,
+        "change": 15.57
       },
       {
-        "ticker": "RGTI",
-        "company": "Rigetti Computing",
-        "price": 16.07,
-        "changePercent": -13.72,
-        "change": -2.55
-      },
-      {
-        "ticker": "ACHR",
-        "company": "Archer Aviation",
-        "price": 6.09,
-        "changePercent": -12.63,
-        "change": -0.88
-      },
-      {
-        "ticker": "NNE",
-        "company": "Nano Nuclear Energy",
-        "price": 18.23,
-        "changePercent": -11.16,
-        "change": -2.29
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 3.52,
+        "changePercent": 11.27,
+        "change": 0.36
       },
       {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 6.12,
-        "changePercent": -10.53,
-        "change": -0.72
+        "price": 6.21,
+        "changePercent": -11.09,
+        "change": -0.78
       },
       {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 0.75,
-        "changePercent": -10.51,
-        "change": -0.09
+        "ticker": "RGTI",
+        "company": "Rigetti Computing",
+        "price": 16.76,
+        "changePercent": -10.95,
+        "change": -2.06
       },
       {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 22.17,
-        "changePercent": -10.42,
-        "change": -2.58
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 289.84,
+        "changePercent": -9.88,
+        "change": -31.77
+      },
+      {
+        "ticker": "RIVN",
+        "company": "Rivian",
+        "price": 16.71,
+        "changePercent": 8.82,
+        "change": 1.36
+      },
+      {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 7.75,
+        "changePercent": -8.82,
+        "change": -0.75
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ONT.L +29.2%"
+    "topMover": "ONT.L +38.5%"
   }
 }
