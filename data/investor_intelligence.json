@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-21T05:40:20+00:00",
+  "generatedAt": "2026-08-21T06:59:42+00:00",
   "stats": {
     "companies": 1181,
-    "vcFirms": 25,
-    "uniqueClusters": 137,
-    "totalInvestments": 379
+    "vcFirms": 26,
+    "uniqueClusters": 138,
+    "totalInvestments": 384
   },
   "concentration": {
     "General Catalyst": {
@@ -2063,6 +2063,38 @@
         ]
       }
     },
+    "Silent Ventures": {
+      "data-center-infrastructure": {
+        "count": 1,
+        "companies": [
+          "Armada"
+        ]
+      },
+      "autonomy-drone-military": {
+        "count": 1,
+        "companies": [
+          "Swarm Aero"
+        ]
+      },
+      "defense-munitions": {
+        "count": 1,
+        "companies": [
+          "Aeon Industrial"
+        ]
+      },
+      "african-defense": {
+        "count": 1,
+        "companies": [
+          "Terrahaptix"
+        ]
+      },
+      "defense-autonomous-systems": {
+        "count": 1,
+        "companies": [
+          "Terra Industries"
+        ]
+      }
+    },
     "Cantos Ventures": {
       "carbon-capture-utilization": {
         "count": 1,
@@ -2140,27 +2172,27 @@
       {
         "vc": "Founders Fund",
         "count": 3,
-        "share": 0.2727
+        "share": 0.25
       },
       {
         "vc": "Valor Equity Partners",
         "count": 2,
-        "share": 0.1818
+        "share": 0.1667
       },
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.0909
+        "share": 0.0833
       },
       {
         "vc": "Y Combinator",
         "count": 1,
-        "share": 0.0909
+        "share": 0.0833
       },
       {
         "vc": "Bessemer Venture Partners",
         "count": 1,
-        "share": 0.0909
+        "share": 0.0833
       }
     ],
     "ai-defense-intelligence": [
@@ -2265,27 +2297,27 @@
       {
         "vc": "Founders Fund",
         "count": 2,
-        "share": 0.2222
+        "share": 0.2
       },
       {
         "vc": "General Catalyst",
         "count": 1,
-        "share": 0.1111
+        "share": 0.1
       },
       {
         "vc": "Y Combinator",
         "count": 1,
-        "share": 0.1111
+        "share": 0.1
       },
       {
         "vc": "Lowercarbon Capital",
         "count": 1,
-        "share": 0.1111
+        "share": 0.1
       },
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.1111
+        "share": 0.1
       }
     ],
     "semiconductor-advanced-materials": [
@@ -3604,24 +3636,34 @@
       {
         "vc": "8VC",
         "count": 1,
-        "share": 1.0
+        "share": 0.5
+      },
+      {
+        "vc": "Silent Ventures",
+        "count": 1,
+        "share": 0.5
       }
     ],
     "african-defense": [
       {
         "vc": "8VC",
         "count": 1,
-        "share": 0.3333
+        "share": 0.25
       },
       {
         "vc": "Lux Capital",
         "count": 1,
-        "share": 0.3333
+        "share": 0.25
       },
       {
         "vc": "Valor Equity Partners",
         "count": 1,
-        "share": 0.3333
+        "share": 0.25
+      },
+      {
+        "vc": "Silent Ventures",
+        "count": 1,
+        "share": 0.25
       }
     ],
     "space-solar-power": [
@@ -3896,6 +3938,13 @@
     "mrna-therapeutics": [
       {
         "vc": "Playground Global",
+        "count": 1,
+        "share": 1.0
+      }
+    ],
+    "defense-autonomous-systems": [
+      {
+        "vc": "Silent Ventures",
         "count": 1,
         "share": 1.0
       }
@@ -4563,6 +4612,40 @@
       ]
     },
     {
+      "vc": "Silent Ventures",
+      "recentCount": 5,
+      "totalCount": 5,
+      "score": 4.706,
+      "topCluster": "data-center-infrastructure",
+      "recentExamples": [
+        {
+          "company": "Terra Industries",
+          "cluster": "defense-autonomous-systems",
+          "addedDate": "2026-06-04"
+        },
+        {
+          "company": "Terrahaptix",
+          "cluster": "african-defense",
+          "addedDate": "2026-04"
+        },
+        {
+          "company": "Armada",
+          "cluster": "data-center-infrastructure",
+          "addedDate": "2026-03"
+        },
+        {
+          "company": "Aeon Industrial",
+          "cluster": "defense-munitions",
+          "addedDate": "2026-03"
+        },
+        {
+          "company": "Swarm Aero",
+          "cluster": "autonomy-drone-military",
+          "addedDate": "2026-02"
+        }
+      ]
+    },
+    {
       "vc": "Engine Ventures",
       "recentCount": 3,
       "totalCount": 3,
@@ -4889,7 +4972,7 @@
     },
     {
       "cluster": "autonomy-drone-military",
-      "investmentCount": 11
+      "investmentCount": 12
     },
     {
       "cluster": "ai-drug-discovery",
@@ -4901,7 +4984,7 @@
     },
     {
       "cluster": "data-center-infrastructure",
-      "investmentCount": 9
+      "investmentCount": 10
     },
     {
       "cluster": "defense-munitions-energetics",
