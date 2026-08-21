@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T06:58:58.945739+00:00",
+  "generatedAt": "2026-08-21T08:50:34.999845+00:00",
   "date": "2026-08-21",
   "dateDisplay": "Friday, August 21, 2026",
   "sections": {
@@ -81,9 +81,9 @@
       {
         "ticker": "ONT.L",
         "company": "Oxford Nanopore Technologies",
-        "price": 164.5,
-        "changePercent": 30.45,
-        "change": 38.4
+        "price": 157.6,
+        "changePercent": 29.18,
+        "change": 35.6
       },
       {
         "ticker": "TEM",
@@ -114,13 +114,6 @@
         "change": -2.29
       },
       {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 444000.0,
-        "changePercent": -10.66,
-        "change": -53000.0
-      },
-      {
         "ticker": "AUR",
         "company": "Aurora Innovation",
         "price": 6.12,
@@ -133,6 +126,13 @@
         "price": 0.75,
         "changePercent": -10.51,
         "change": -0.09
+      },
+      {
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 22.17,
+        "changePercent": -10.42,
+        "change": -2.58
       }
     ],
     "regulatory": [
@@ -160,9 +160,9 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Notice of Mission Authorization Pilot Program",
+        "title": "Application for Relief From Disabilities Imposed by Federal Laws With Respect to",
         "date": "2026-08-20",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17016"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-16981"
       },
       {
         "kind": "Federal Register",
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ONT.L +30.4%"
+    "topMover": "ONT.L +29.2%"
   }
 }
