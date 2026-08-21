@@ -89,9 +89,17 @@ def wire_score(e: dict) -> float:
 
 def context_for(e: dict, db_rec: dict, tracker: dict) -> str:
     """The join that turns a fact into an insight — same rule as the brief:
-    every slot is a database field, nothing is generated."""
+    every slot is a database field, nothing is generated.
+
+    Funding context ONLY on funding events. "Series C · $140M raised to date"
+    under an NRC milestone made readers unable to tell whether the news was
+    the milestone or a raise. On anything that is not a round, the line is
+    company + what happened, nothing else.
+    """
+    if e["kind"] not in ("form_d", "funding"):
+        return ""
     tr = tracker.get(norm(e["company"])) or {}
-    if e["kind"] in ("form_d", "funding") and e["value"] > 0 and tr.get("amount"):
+    if e["value"] > 0 and tr.get("amount"):
         gap = months_between(tr.get("date", ""), e["date"])
         ratio = e["value"] / tr["amount"] if tr["amount"] else 0
         line = f"{fmt_money(tr['amount'])} {tr.get('round') or 'round'} on record"

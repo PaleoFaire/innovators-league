@@ -284,9 +284,17 @@ def collect(cutoff: str) -> list:
         if d < cutoff:
             continue
         for h in (r.get("hits") or [])[:2]:
+            # The headline must BE the news. "posted to its newsroom" says an
+            # event occurred without saying what it was — which forced the
+            # reader to click through to learn if it mattered, exactly what a
+            # brief exists to prevent. Title, else summary, else skip: a hit
+            # with neither carries no information worth a line.
+            head = (h.get("title") or "").strip() or (h.get("summary") or "").strip()[:110]
+            if not head:
+                continue
             out.append(ev("announcement", r.get("company", ""),
-                          (h.get("title") or "posted to its newsroom")[:110],
-                          h.get("summary", "")[:150], d,
+                          head[:110],
+                          h.get("summary", "")[:150] if h.get("title") else "", d,
                           h.get("url") or r.get("website", ""),
                           money(h.get("amount")), "company newsroom"))
 
@@ -416,20 +424,27 @@ def build_group(events: list, tier: str, beat, db_rec: dict, tracker: dict) -> d
     company = prim["company"]
 
     # ── context: what the database already knows ────────────────────────
+    # Funding context appears ONLY on funding events. The first live sends
+    # put "Series C · $140M+ raised to date" under an NRC milestone and
+    # "Series C · $470M raised" under a newsroom post, and Stephen could not
+    # tell whether the news was the milestone or a raise. Background that
+    # reads like news is worse than no background: on anything that is not a
+    # round, the line is company + what happened, nothing else.
     ctx = []
-    tr = tracker.get(norm(company)) or {}
-    if prim["kind"] in ("form_d", "funding") and prim["value"] > 0 and tr.get("amount"):
-        gap = months_between(tr.get("date", ""), prim["date"])
-        ratio = prim["value"] / tr["amount"] if tr["amount"] else 0
-        line = f"{fmt_money(tr['amount'])} {tr['round'] or 'round'} on record"
-        if gap is not None and 0 < gap < 60:
-            line += f" {gap} months ago"
-        if 0 < ratio and abs(ratio - 1) > 0.15:
-            line += f" — this is {ratio:.1f}× that"
-        ctx.append(line)
-    elif db_rec.get("raised"):
-        stage = db_rec.get("stage") or ""
-        ctx.append(f"{stage + ' · ' if stage else ''}{db_rec['raised']} raised to date")
+    if prim["kind"] in ("form_d", "funding"):
+        tr = tracker.get(norm(company)) or {}
+        if prim["value"] > 0 and tr.get("amount"):
+            gap = months_between(tr.get("date", ""), prim["date"])
+            ratio = prim["value"] / tr["amount"] if tr["amount"] else 0
+            line = f"{fmt_money(tr['amount'])} {tr['round'] or 'round'} on record"
+            if gap is not None and 0 < gap < 60:
+                line += f" {gap} months ago"
+            if 0 < ratio and abs(ratio - 1) > 0.15:
+                line += f" — this is {ratio:.1f}× that"
+            ctx.append(line)
+        elif db_rec.get("raised"):
+            stage = db_rec.get("stage") or ""
+            ctx.append(f"{stage + ' · ' if stage else ''}{db_rec['raised']} raised to date")
 
     # ── why line: relationship + thread, no boilerplate ─────────────────
     why_bits = []
