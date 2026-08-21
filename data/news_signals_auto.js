@@ -1,74 +1,63 @@
 // Auto-generated news signals
-// Last updated: 2026-08-21T17:36:21.293Z
+// Last updated: 2026-08-21T18:48:45.214Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1787333781293,
+    "id": 1787338125214,
     "type": "funding",
     "company": "Starcloud",
     "headline": "Starcloud raises $250 million for orbital data centers as launch options dry up",
     "source": "TechCrunch",
-    "time": "3h ago",
+    "time": "4h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
   },
   {
-    "id": 1787333781294,
+    "id": 1787338125215,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
     "source": "Ars Technica",
-    "time": "4h ago",
+    "time": "5h ago",
     "impact": "low",
     "unread": true,
     "link": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/"
   },
   {
-    "id": 1787333781295,
+    "id": 1787338125216,
     "type": "ipo",
     "company": "Waymo",
     "headline": "Waymo Fully Launches Robotaxi Service in Houston",
     "source": "CleanTechnica",
-    "time": "15h ago",
+    "time": "16h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://cleantechnica.com/2026/08/20/waymo-fully-launches-robotaxi-service-in-houston/"
   },
   {
-    "id": 1787333781296,
+    "id": 1787338125217,
     "type": "news",
     "company": "Waymo",
     "headline": "Tesla, Uber, and Waymo all get the OK to operate thousands of robotaxis in Nevada",
     "source": "TechCrunch",
-    "time": "17h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada/"
   },
   {
-    "id": 1787333781297,
+    "id": 1787338125218,
     "type": "news",
     "company": "Anthropic",
     "headline": "OpenAI is gaining on Anthropic with business users, new data indicates",
     "source": "TechCrunch",
-    "time": "18h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/"
   },
   {
-    "id": 1787333781298,
-    "type": "funding",
-    "company": "Castelion",
-    "headline": "Castelion hits $13B valuation to mass-produce hypersonic missiles",
-    "source": "TechCrunch",
-    "time": "22h ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/08/20/castelion-hits-13b-valuation-to-mass-produce-hypersonic-missiles/"
-  },
-  {
-    "id": 1787333781299,
+    "id": 1787338125219,
     "type": "ipo",
     "company": "Rocket Lab",
     "headline": "Rocket Lab launches 9th satellite for iQPS",
@@ -79,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/rocket-lab-launches-9th-satellite-for-iqps/"
   },
   {
-    "id": 1787333781300,
+    "id": 1787338125220,
     "type": "news",
     "company": "Waymo",
     "headline": "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all",
@@ -90,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/20/waymo-zeekr-ojai-chinese-ev-robotaxi-all-riders/"
   },
   {
-    "id": 1787333781301,
+    "id": 1787338125221,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX’s orbital data centers would create a new category of e-waste",
@@ -101,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
   },
   {
-    "id": 1787333781302,
+    "id": 1787338125222,
     "type": "ipo",
     "company": "Portal Space Systems",
     "headline": "Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova",
@@ -112,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/portal-space-systems-to-include-rideshare-payloads-on-falcon-9-launch-of-supernova/"
   },
   {
-    "id": 1787333781303,
+    "id": 1787338125223,
     "type": "funding",
     "company": "Muon Space",
     "headline": "Muon Space raises $250 million to ramp up satellite production",
@@ -123,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/muon-space-raises-250-million-to-ramp-up-satellite-production/"
   },
   {
-    "id": 1787333781304,
+    "id": 1787338125224,
     "type": "ipo",
     "company": "Proteus Space",
     "headline": "Draper Selects Proteus Space for Advanced On-Orbit Mission",
@@ -134,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/draper-selects-proteus-space-for-advanced-on-orbit-mission/"
   },
   {
-    "id": 1787333781305,
+    "id": 1787338125225,
     "type": "funding",
     "company": "Castelion",
     "headline": "Hypersonic missile startup Castelion raises $1 billion",
@@ -145,18 +134,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/hypersonic-missile-startup-castelion-raises-1-billion/"
   },
   {
-    "id": 1787333781306,
+    "id": 1787338125226,
     "type": "ipo",
     "company": "Humanoid",
     "headline": "What does Unitree Robotics&#8217; IPO mean for the humanoid industry?",
     "source": "The Robot Report",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "high",
     "unread": false,
     "link": "https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/"
   },
   {
-    "id": 1787333781307,
+    "id": 1787338125227,
     "type": "hire",
     "company": "SpaceX",
     "headline": "Ex-Tesla president: Roadster delay is about getting closer to SpaceX ahead of merger",
@@ -167,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/19/ex-tesla-president-roadster-delay-spacex-thrusters/"
   },
   {
-    "id": 1787333781308,
+    "id": 1787338125228,
     "type": "ipo",
     "company": "Firefly Aerospace",
     "headline": "Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission",
@@ -178,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/firefly-aerospace-to-fly-zeno-power-radioisotope-heating-unit-on-lunar-lander-mission/"
   },
   {
-    "id": 1787333781309,
+    "id": 1787338125229,
     "type": "news",
     "company": "Sage Geosystems",
     "headline": "Sage Geosystems brings its first next-gen geothermal plant online",
@@ -189,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/geothermal/sage-geosystems-next-gen-geothermal-online"
   },
   {
-    "id": 1787333781310,
+    "id": 1787338125230,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI clarifies ‘acquisition’ offer for Irish teen's startup idea was a joke",
@@ -200,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/openai-clarifies-acquisition-offer/"
   },
   {
-    "id": 1787333781311,
+    "id": 1787338125231,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea",
@@ -211,7 +200,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/"
   },
   {
-    "id": 1787333781312,
+    "id": 1787338125232,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "Your Car Could Start Paying You. SpaceX, Tesla, Grok Bot, Macrohard, Digital Optimus, Cursor HUGE",
+    "source": "Next Big Future",
+    "time": "3d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.nextbigfuture.com/2026/08/your-car-could-start-paying-you-spacex-tesla-grok-bot-macrohard-digital-optimus-cursor-huge.html"
+  },
+  {
+    "id": 1787338125233,
     "type": "news",
     "company": "Humanoid",
     "headline": "Unichem acquires Loomia to accelerate entry into the humanoid &#8216;skin&#8217; market",
