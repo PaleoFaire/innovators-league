@@ -151,7 +151,7 @@
         <div class="hero-main">
           <div class="hero-badges">
             <span class="sector-badge" style="background:${sectorInfo.color}15; color:${sectorInfo.color}; border: 1px solid ${sectorInfo.color}30;">
-              ${sectorInfo.icon} ${escapeHtml(company.sector)}
+              ${sectorInfo.icon} ${escapeHtml(company.sector)}${company.subsector && company.subsector !== 'General' ? ` <span style="opacity:.55">·</span> ${escapeHtml(company.subsector)}` : ''}
             </span>
             ${company.signal ? `<span class="signal-badge-large ${company.signal}">${getSignalIcon(company.signal)} ${company.signal.toUpperCase()}</span>` : ''}
             ${(typeof renderStatusChip === 'function') ? renderStatusChip(company) : ''}

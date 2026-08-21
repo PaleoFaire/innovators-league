@@ -24,6 +24,7 @@ before a commit is allowed. Protects the Aug 2026 overhaul invariants:
 Exit 0 = clean (warnings allowed). Exit 1 = hard violations (block commit).
 """
 
+import json
 import re
 import sys
 from pathlib import Path
@@ -159,6 +160,16 @@ def main():
 
     vc_names = set(re.findall(r'name:\s*"([^"]+)"', block(d, "VC_FIRMS")))
     sectors = set(re.findall(r'\n  "([^"]+)":\s*\{', block(d, "SECTORS")))
+    # SUBSECTORS is emitted as JSON: {"Sector": ["Sub", ...], ...}
+    subsectors = {}
+    sb = block(d, "SUBSECTORS")
+    if sb:
+        m = re.search(r'const SUBSECTORS = (\{.*?\n\});', sb, re.S)
+        if m:
+            try:
+                subsectors = json.loads(m.group(1))
+            except ValueError:
+                pass
 
     for o in objs:
         n = gv(o, "name") or "?"
@@ -175,6 +186,15 @@ def main():
         sec = gv(o, "sector")
         if sec and sectors and sec not in sectors:
             errors.append(f"{n}: sector '{sec}' not in SECTORS taxonomy")
+        # 4b. subsector must belong to its sector's controlled vocabulary.
+        # Missing only warns: bot-imported companies arrive without one and
+        # default to General at the next assign_subsectors run.
+        sub = gv(o, "subsector")
+        if sub and sec and subsectors:
+            if sub not in subsectors.get(sec, ["General"]):
+                errors.append(f"{n}: subsector '{sub}' not valid for sector '{sec}'")
+        elif not sub:
+            warnings.append(f"{n}: missing subsector (defaults to General next assign run)")
         # 5. state hygiene
         st = gv(o, "state")
         ctry = gv(o, "country")

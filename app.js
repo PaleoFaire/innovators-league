@@ -3212,6 +3212,7 @@ function initFilters() {
     const sectorFilter = document.getElementById('sector-filter');
     sectorFilter.value = e.target.dataset.sector;
 
+    syncSubsectorFilter();
     applyFilters();
   });
 
@@ -3230,8 +3231,33 @@ function initFilters() {
     chipContainer.querySelectorAll('.chip').forEach(c => {
       c.classList.toggle('active', c.dataset.sector === sectorFilter.value);
     });
+    syncSubsectorFilter();
     applyFilters();
   });
+
+  // Vertical (subsector) dropdown — dependent on the sector selection.
+  // Appears only when the chosen sector has named verticals; picking a new
+  // sector resets it, so a stale vertical can never silently filter.
+  function syncSubsectorFilter() {
+    const subEl = document.getElementById('subsector-filter');
+    if (!subEl) return;
+    const sector = sectorFilter.value;
+    const vocab = (typeof SUBSECTORS !== 'undefined' && SUBSECTORS[sector]) || [];
+    const named = vocab.filter(s => s !== 'General');
+    subEl.innerHTML = '<option value="all">All Verticals</option>';
+    if (sector === 'all' || named.length === 0) {
+      subEl.style.display = 'none';
+      return;
+    }
+    vocab.forEach(s => {
+      const opt = document.createElement('option');
+      opt.value = s;
+      opt.textContent = s;
+      subEl.appendChild(opt);
+    });
+    subEl.style.display = '';
+  }
+  document.getElementById('subsector-filter')?.addEventListener('change', applyFilters);
 
   // Country dropdown
   const countryFilter = document.getElementById('country-filter');
@@ -3384,10 +3410,16 @@ function applyFilters() {
   const sortBy = sortEl?.value || 'name';
   const searchTerm = (searchEl?.value || '').toLowerCase();
 
+  const subsectorEl = document.getElementById('subsector-filter');
+  const subsector = subsectorEl?.value || 'all';
+
   let filtered = COMPANIES || [];
 
   if (sector && sector !== 'all') {
     filtered = filtered.filter(c => c.sector === sector);
+    if (subsector !== 'all') {
+      filtered = filtered.filter(c => (c.subsector || 'General') === subsector);
+    }
   }
 
   if (country && country !== 'all') {

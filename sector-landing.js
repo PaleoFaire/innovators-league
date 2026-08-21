@@ -194,7 +194,32 @@
       container.innerHTML = '<div class="sl-empty">No companies in this sector yet. Check back soon.</div>';
       return;
     }
-    container.innerHTML = companies.map(renderCard).join('');
+    // Group by subsector — the market-map view. Named shelves first (largest
+    // first), the General residual last so the page leads with its verticals
+    // ("Humanoids (24)", "Launch (28)") instead of an undifferentiated wall.
+    var groups = {};
+    companies.forEach(function (c) {
+      var k = c.subsector || 'General';
+      (groups[k] = groups[k] || []).push(c);
+    });
+    var keys = Object.keys(groups).sort(function (a, b) {
+      if (a === 'General') return 1;
+      if (b === 'General') return -1;
+      return groups[b].length - groups[a].length;
+    });
+    if (keys.length < 2) {
+      container.innerHTML = companies.map(renderCard).join('');
+      return;
+    }
+    container.innerHTML = keys.map(function (k) {
+      return '<div class="sl-subsector-head" style="grid-column:1/-1; margin:26px 0 2px; display:flex; align-items:center; gap:12px;">'
+        + '<span style="font:700 13px/1 \'Space Grotesk\',sans-serif; letter-spacing:.12em; text-transform:uppercase; color:var(--text-primary);">'
+        + escapeHTML(k) + '</span>'
+        + '<span style="font:600 11px/1 Inter,sans-serif; color:var(--text-muted);">' + groups[k].length + '</span>'
+        + '<span style="flex:1; height:1px; background:var(--border);"></span>'
+        + '</div>'
+        + groups[k].map(renderCard).join('');
+    }).join('');
   }
 
   function injectItemListJsonLd(companies, name) {
