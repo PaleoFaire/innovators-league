@@ -1,389 +1,188 @@
 {
-  "generatedAt": "2026-08-20T05:39:35+00:00",
+  "generatedAt": "2026-08-21T05:40:14+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 54,
-  "newExtractionsThisRun": 54,
+  "cohortSize": 44,
+  "newExtractionsThisRun": 44,
   "summary": {
-    "cleared": 46,
-    "changesProposed": 8,
+    "cleared": 35,
+    "changesProposed": 9,
     "unverifiable": 0
   },
   "cleared": [
     "Antares",
     "AnySignal",
+    "Astera Labs",
+    "Aurora Innovation",
     "Base Power",
-    "Cognition",
-    "Crusoe Energy",
+    "Castelion",
     "Deterrence",
     "Divergent",
-    "Dragonfly Aerospace",
     "Einride",
+    "Firefly Aerospace",
     "Firestorm Labs",
-    "FlyBy Robotics",
-    "HEO",
+    "Galvanick",
     "Hadrian",
     "Harbinger",
     "Helsing",
     "Humanoid",
-    "ICEYE",
-    "Icarus",
+    "ICON",
     "Machina Labs",
-    "Muon Space",
-    "Neros",
     "Oklo",
     "Orbital Composites",
     "Palantir",
     "Parallel Systems",
     "Pivotal",
-    "Pixxel",
-    "Planet Labs",
+    "Proteus Space",
     "Quaise Energy",
-    "Quantum-Systems",
     "Radiant",
-    "Rebellions",
-    "Rhoman Aerospace",
+    "Revel",
     "Rivian",
     "Rocket Lab",
     "Sage Geosystems",
-    "Saildrone",
-    "Satellogic",
     "Skeleton Technologies",
     "Solid Power",
-    "Together AI",
     "Valar Atomics",
     "Waymo",
-    "WeaveGrid",
-    "Xtend",
-    "ideaForge"
+    "WeaveGrid"
   ],
   "changesProposed": [
     {
-      "name": "Astera Labs",
+      "name": "Cerebras",
       "current": {
-        "name": "Astera Labs",
-        "founder": "Jitendra Mohan, Sanjay Gajendra, Casey Morrison",
-        "location": "San Jose, CA",
-        "founded": 2017,
+        "name": "Cerebras",
+        "founder": "Andrew Feldman, Gary Lauterbach, Michael James, Sean Lie, Jean-Philippe Fricker",
+        "location": "Sunnyvale, CA",
+        "founded": 2015,
         "fundingStage": "Public",
-        "totalRaised": "$713M",
-        "website": "https://asteralabs.com"
+        "totalRaised": "$6.6B+",
+        "website": "https://cerebras.ai"
       },
       "verified": {
-        "name": "Astera Labs",
-        "description": "An American fabless semiconductor manufacturer specializing in designing high-speed connectivity solutions for data centers and AI infrastructure. The company produces PCIe, CXL, Ethernet, and other semiconductor-based solutions to address data, memory, and networking bottlenecks.",
+        "name": "Cerebras Systems Inc.",
+        "description": "Cerebras develops wafer-scale AI semiconductors and supercomputer systems for artificial intelligence inference and training applications. The company's WSE-3 chips and CS-3 systems are designed to reduce latency and interconnect bottlenecks compared to GPU clusters.",
         "founders": [
-          "Jitendra Mohan",
-          "Sanjay Gajendra",
-          "Casey Morrison"
+          "Andrew Feldman",
+          "Gary Lauterbach",
+          "Michael James",
+          "Sean Lie",
+          "Jean-Philippe Fricker"
         ],
-        "location": "San Jose, California, United States",
-        "founded_year": 2017,
-        "current_stage": "Public",
-        "total_raised": "$713M",
-        "valuation": null,
-        "investors": [
-          "Intel Capital",
-          "Sutter Hill Ventures",
-          "Fidelity Investments"
-        ],
-        "website": "https://asteralabs.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            0,
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ]
-        },
-        "notes": "Company listed on Nasdaq since March 2024 under ticker symbol ALAB. Wikipedia indicates headquarters relocated to San Jose in June 2025, tripling size. Founded in 2017 in Santa Clara, California according to Wikipedia, but currently headquartered in San Jose."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "San Jose, CA",
-          "verified": "San Jose, California, United States",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://asteralabs.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://asteralabs.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Astera_Labs"
-        },
-        {
-          "idx": 3,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/"
-        }
-      ],
-      "notes": "Company listed on Nasdaq since March 2024 under ticker symbol ALAB. Wikipedia indicates headquarters relocated to San Jose in June 2025, tripling size. Founded in 2017 in Santa Clara, California according to Wikipedia, but currently headquartered in San Jose."
-    },
-    {
-      "name": "Aurora Innovation",
-      "current": {
-        "name": "Aurora Innovation",
-        "founder": "Chris Urmson, Sterling Anderson, Drew Bagnell",
-        "location": "Pittsburgh, Pennsylvania",
-        "founded": 2017,
-        "fundingStage": "Public",
-        "totalRaised": "~$2.5B",
-        "website": "https://aurora.tech"
-      },
-      "verified": {
-        "name": "Aurora Innovation",
-        "description": "Aurora develops the Aurora Driver, a self-driving technology system for autonomous freight trucks that can be integrated into commercial vehicles. The company operates driverless trucks on public roads for freight transportation between cities including Fort Worth and El Paso, Texas.",
-        "founders": [
-          "Chris Urmson",
-          "Sterling Anderson",
-          "Drew Bagnell"
-        ],
-        "location": "Pittsburgh, Pennsylvania",
-        "founded_year": 2017,
-        "current_stage": "Public",
-        "total_raised": "$2.0B",
-        "valuation": "$2.0B",
-        "investors": [
-          "Reinvent Technology Partners",
-          "Uber",
-          "Sequoia Capital",
-          "Volvo Group",
-          "Toyota",
-          "Paccar"
-        ],
-        "website": "https://aurora.tech",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Co-founder Sterling Anderson departed in May 2025 and joined General Motors in June 2025. Company went public in November 2021 via SPAC merger with Reinvent Technology Partners Y. Uber holds 26% ownership stake. Headquarters listed as both Pittsburgh, Pennsylvania and Mountain View, California."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "~$2.5B",
-          "verified": "$2.0B",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://aurora.tech"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://aurora.tech/company"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Aurora_Innovation"
-        },
-        {
-          "idx": 3,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/08/17/tesla-grows-robotaxi-fleet-by-50-einride-gets-a-partner-and-china-goes-big/"
-        }
-      ],
-      "notes": "Co-founder Sterling Anderson departed in May 2025 and joined General Motors in June 2025. Company went public in November 2021 via SPAC merger with Reinvent Technology Partners Y. Uber holds 26% ownership stake. Headquarters listed as both Pittsburgh, Pennsylvania and Mountain View, California."
-    },
-    {
-      "name": "Castelion",
-      "current": {
-        "name": "Castelion",
-        "founder": "Bryon Hargis, Sean Pitt, Andrew Kreitz",
-        "location": "Torrance, CA",
-        "founded": 2022,
-        "fundingStage": "Series B",
-        "totalRaised": "$100M",
-        "website": "https://castelion.com"
-      },
-      "verified": {
-        "name": "Castelion",
-        "description": "Castelion designs, tests, and manufactures next-generation military systems including affordable hypersonic weapons with rapid iteration and scaled manufacturing capabilities.",
-        "founders": [
-          "Bryon Hargis",
-          "Sean Pitt",
-          "Andrew Kreitz"
-        ],
-        "location": "Torrance, CA",
-        "founded_year": null,
-        "current_stage": "Series A",
-        "total_raised": "$100M",
-        "valuation": null,
-        "investors": [
-          "Lightspeed Venture Partners",
-          "a16z",
-          "Lavrock Ventures",
-          "Cantos",
-          "First In",
-          "BlueYard Capital",
-          "Interlagos",
-          "Silicon Valley Bank"
-        ],
-        "website": "https://castelion.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            0,
-            1
-          ],
-          "current_stage": [
-            1
-          ],
-          "total_raised": [
-            1
-          ],
-          "investors": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry lists Series B with $350M, but latest verified source (January 2025) indicates Series A round of $70M plus $30M in venture debt from Silicon Valley Bank totaling $100M capital raise. Founded year 2022 in database could not be verified from sources. Valuation listed as $1B+ in database but no specific valuation figure found in sources."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "Series B",
-          "verified": "Series A",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://castelion.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://castelion.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/hypersonic-missile-startup-castelion-raises-1-billion/"
-        }
-      ],
-      "notes": "Database entry lists Series B with $350M, but latest verified source (January 2025) indicates Series A round of $70M plus $30M in venture debt from Silicon Valley Bank totaling $100M capital raise. Founded year 2022 in database could not be verified from sources. Valuation listed as $1B+ in database but no specific valuation figure found in sources."
-    },
-    {
-      "name": "Firefly Aerospace",
-      "current": {
-        "name": "Firefly Aerospace",
-        "founder": "Tom Markusic",
-        "location": "Cedar Park, TX",
-        "founded": 2017,
-        "fundingStage": "Public",
-        "totalRaised": "$868M IPO",
-        "website": "https://fireflyspace.com"
-      },
-      "verified": {
-        "name": "Firefly Aerospace",
-        "description": "An American aerospace company based in Cedar Park, Texas that develops small- and medium-lift launch vehicles (Alpha and Eclipse), lunar landers (Blue Ghost), and orbital vehicles (Elytra) for commercial and government missions.",
-        "founders": [
-          "Tom Markusic"
-        ],
-        "location": "Cedar Park, Texas, United States",
-        "founded_year": 2017,
+        "location": "Sunnyvale, California, US",
+        "founded_year": 2015,
         "current_stage": "Public",
         "total_raised": null,
         "valuation": null,
         "investors": [
-          "Noosphere Ventures",
-          "DADA Holdings",
-          "AE Industrial Partners"
+          "Sam Altman",
+          "Andy Bechtolsheim",
+          "Greg Brockman",
+          "Adam D'Angelo",
+          "Mark Leslie",
+          "Nick McKeown",
+          "David Perlmutter",
+          "Saiyed Atiq Raza",
+          "Jeff Rothschild",
+          "Pradeep Sindhu",
+          "Ilya Sutskever",
+          "Lip-Bu Tan",
+          "Fred Weber"
         ],
-        "website": "https://fireflyspace.com",
+        "website": "https://cerebras.ai",
+        "sources_per_field": {
+          "name": [
+            1,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            0,
+            1,
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "investors": [
+            1
+          ]
+        },
+        "notes": "Company is publicly traded on Nasdaq under ticker CBRS. Sources do not provide specific IPO date, total amount raised, or current valuation, so these fields cannot be verified despite being mentioned in the database entry."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Sunnyvale, CA",
+          "verified": "Sunnyvale, California, US",
+          "sources": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://cerebras.ai"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://cerebras.ai/company"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cerebras"
+        },
+        {
+          "idx": 3,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/08/20/early-cerebras-investor-adit-singh-joins-mayfield-as-infrastructure-partner/"
+        }
+      ],
+      "notes": "Company is publicly traded on Nasdaq under ticker CBRS. Sources do not provide specific IPO date, total amount raised, or current valuation, so these fields cannot be verified despite being mentioned in the database entry."
+    },
+    {
+      "name": "Muon Space",
+      "current": {
+        "name": "Muon Space",
+        "founder": "Jonny Dyer, Dan McCleese, Paul Day, Reuben Rohrschneider, Pascal Stang",
+        "location": "Silicon Valley, California",
+        "founded": 2021,
+        "fundingStage": "Series B",
+        "totalRaised": "$188M",
+        "website": "https://muonspace.com"
+      },
+      "verified": {
+        "name": "Muon Space",
+        "description": "American aerospace company that designs, builds, and operates satellite constellations for climate monitoring and national security missions. The company develops vertically integrated satellite platforms and constellation production capabilities.",
+        "founders": [
+          "Jonny Dyer",
+          "Dan McCleese",
+          "Paul Day",
+          "Reuben Rohrschneider",
+          "Pascal Stang"
+        ],
+        "location": "Silicon Valley, California",
+        "founded_year": 2021,
+        "current_stage": null,
+        "total_raised": "$250M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://muonspace.com",
         "sources_per_field": {
           "name": [
             0,
@@ -396,6 +195,7 @@
             2
           ],
           "founders": [
+            1,
             2
           ],
           "location": [
@@ -403,30 +203,25 @@
             2
           ],
           "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
             1,
             2
+          ],
+          "total_raised": [
+            3
+          ],
+          "website": [
+            0
           ]
         },
-        "notes": "Wikipedia indicates founding as March 2017 when EOS Launcher acquired assets of bankrupt Firefly Space Systems. Original Firefly Space Systems was founded by Tom Markusic, P.J. King, and Michael Blum in January 2014 but ceased operations in December 2016. Current entity (Firefly Aerospace) was re-created by Noosphere Ventures purchasing the assets. Wikipedia lists 750 employees as of 2025; company website states 'more than 1,500 employees.' Jason Kim became CEO in October 2024 per company website."
+        "notes": "Wikipedia source [2] references $35M raised by July 2023, but more recent source [3] (SpaceNews) reports $250M total raised. Used most recent figure per instruction to prefer most recent and specific data. Source [3] headline states the $250M figure but full article text not provided. Founded year 2021 confirmed in multiple sources. Company has two facilities in Silicon Valley: Mountain View (18,000 sq ft payload facility) and San Jose (130,000 sq ft headquarters and production facility per source [1])."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "Cedar Park, TX",
-          "verified": "Cedar Park, Texas, United States",
+          "field": "totalRaised",
+          "current": "$188M",
+          "verified": "$250M",
           "sources": [
-            1,
-            2
+            3
           ]
         }
       ],
@@ -434,25 +229,25 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://fireflyspace.com"
+          "url": "https://muonspace.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://fireflyspace.com/about"
+          "url": "https://muonspace.com/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Firefly_Aerospace"
+          "url": "https://en.wikipedia.org/wiki/Muon_Space"
         },
         {
           "idx": 3,
           "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/firefly-aerospace-to-fly-zeno-power-radioisotope-heating-unit-on-lunar-lander-mission/"
+          "url": "https://spacenews.com/muon-space-raises-250-million-to-ramp-up-satellite-production/"
         }
       ],
-      "notes": "Wikipedia indicates founding as March 2017 when EOS Launcher acquired assets of bankrupt Firefly Space Systems. Original Firefly Space Systems was founded by Tom Markusic, P.J. King, and Michael Blum in January 2014 but ceased operations in December 2016. Current entity (Firefly Aerospace) was re-created by Noosphere Ventures purchasing the assets. Wikipedia lists 750 employees as of 2025; company website states 'more than 1,500 employees.' Jason Kim became CEO in October 2024 per company website."
+      "notes": "Wikipedia source [2] references $35M raised by July 2023, but more recent source [3] (SpaceNews) reports $250M total raised. Used most recent figure per instruction to prefer most recent and specific data. Source [3] headline states the $250M figure but full article text not provided. Founded year 2021 confirmed in multiple sources. Company has two facilities in Silicon Valley: Mountain View (18,000 sq ft payload facility) and San Jose (130,000 sq ft headquarters and production facility per source [1])."
     },
     {
       "name": "Nano Nuclear Energy",
@@ -467,7 +262,7 @@
       },
       "verified": {
         "name": "NANO Nuclear Energy Inc.",
-        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, with subsidiaries in fuel fabrication, fuel transportation, and space applications. Listed publicly on NASDAQ under ticker NNE.",
+        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI MMR systems, along with nuclear fuel fabrication, transportation, and space applications. Listed publicly on NASDAQ under ticker NNE.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -496,7 +291,7 @@
             0
           ]
         },
-        "notes": "Company is publicly listed on NASDAQ (ticker NNE). Sources [0] and [1] are from company website and contain identical content about microreactor products (KRONOS MMR, ZEUS, LOKI) and subsidiaries (AFT, HEF, NNS). Source [2] appears to be about a different company (Valar Atomics) and is not relevant. Founder name 'Jay Jiang Yu' from database entry could not be verified in provided sources. Founded year 2022, previous stage, total raised $600M+, valuation $808M, and ODIN/Cambridge AtomWorks transaction from database entry could not be verified in provided sources."
+        "notes": "Company is publicly traded on NASDAQ under ticker NNE. Sources do not contain founder information, founding year, total raised, valuation, or investor details. Source [2] appears to be about a different company (Valar Atomics) and was not used. Database entry claims about ODIN sale to Cambridge AtomWorks and specific founding year/valuation could not be verified from provided sources."
       },
       "changes": [
         {
@@ -526,40 +321,40 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly listed on NASDAQ (ticker NNE). Sources [0] and [1] are from company website and contain identical content about microreactor products (KRONOS MMR, ZEUS, LOKI) and subsidiaries (AFT, HEF, NNS). Source [2] appears to be about a different company (Valar Atomics) and is not relevant. Founder name 'Jay Jiang Yu' from database entry could not be verified in provided sources. Founded year 2022, previous stage, total raised $600M+, valuation $808M, and ODIN/Cambridge AtomWorks transaction from database entry could not be verified in provided sources."
+      "notes": "Company is publicly traded on NASDAQ under ticker NNE. Sources do not contain founder information, founding year, total raised, valuation, or investor details. Source [2] appears to be about a different company (Valar Atomics) and was not used. Database entry claims about ODIN sale to Cambridge AtomWorks and specific founding year/valuation could not be verified from provided sources."
     },
     {
-      "name": "Nuro",
+      "name": "Portal Space Systems",
       "current": {
-        "name": "Nuro",
-        "founder": "Dave Ferguson, Jiajun Zhu",
-        "location": "Mountain View, CA",
-        "founded": 2016,
-        "fundingStage": "Series G",
-        "totalRaised": "$2.2B",
-        "website": "https://nuro.ai"
+        "name": "Portal Space Systems",
+        "founder": "Jeff Thornburg, Ian Vorbach, Prashaanth Ravindran",
+        "location": "Bothell, WA",
+        "founded": 2021,
+        "fundingStage": "Series A",
+        "totalRaised": "$62.85M",
+        "website": "https://portalsystems.space"
       },
       "verified": {
-        "name": "Nuro",
-        "description": "Nuro is an autonomous vehicle technology company that licenses its proprietary Level 4 driving system, Nuro Driver, to automakers and mobility providers. The company pivoted from custom autonomous delivery vehicles to technology licensing in September 2024.",
+        "name": "Portal Space Systems",
+        "description": "American aerospace company developing maneuverable spacecraft with solar thermal propulsion technology. The company's Supernova platform delivers 6 km/s delta-v for orbital mobility missions across LEO, MEO, and cislunar space.",
         "founders": [
-          "Jiajun Zhu",
-          "Dave Ferguson"
+          "Jeff Thornburg",
+          "Ian Vorbach",
+          "Prashaanth Ravindran"
         ],
-        "location": "Mountain View, CA",
-        "founded_year": 2016,
-        "current_stage": "Series E",
-        "total_raised": "$2.54B",
-        "valuation": "$6B",
+        "location": "Bothell, Washington",
+        "founded_year": 2021,
+        "current_stage": "Series A",
+        "total_raised": "$62.85M",
+        "valuation": null,
         "investors": [
-          "Greylock Partners",
-          "Gaorong Capital",
-          "SoftBank Group",
-          "T. Rowe Price",
-          "Uber",
-          "Nvidia"
+          "U.S. Department of Defense",
+          "U.S. Space Force",
+          "AlleyCorp",
+          "Mach33",
+          "FUSE"
         ],
-        "website": "https://nuro.ai",
+        "website": "https://portalsystems.space",
         "sources_per_field": {
           "name": [
             0,
@@ -568,7 +363,6 @@
           ],
           "description": [
             0,
-            1,
             2
           ],
           "founders": [
@@ -576,7 +370,101 @@
             2
           ],
           "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ]
+        },
+        "notes": "Wikipedia source [2] lists Ian Vorbach as COO rather than President and CRO as shown on company website. Total raised of $62.85M cannot be verified from sources; source [1] states 'Over $20M in VC Funding to Date' and source [2] mentions $3M (April 2024), $17.5M seed round (2025), and $45M STRATFI (December 2025) which sum to $65.5M, plus $350K Washington State grant. Database entry claims $70M+ total but this cannot be verified. Current stage shown as 'Series A' based on source [0] press release title mentioning Series A, though source [2] describes funding as seed round and STRATFI rather than traditional Series A."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Bothell, WA",
+          "verified": "Bothell, Washington",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://portalsystems.space"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://portalsystems.space/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Portal_Space_Systems"
+        },
+        {
+          "idx": 3,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/portal-space-systems-to-include-rideshare-payloads-on-falcon-9-launch-of-supernova/"
+        }
+      ],
+      "notes": "Wikipedia source [2] lists Ian Vorbach as COO rather than President and CRO as shown on company website. Total raised of $62.85M cannot be verified from sources; source [1] states 'Over $20M in VC Funding to Date' and source [2] mentions $3M (April 2024), $17.5M seed round (2025), and $45M STRATFI (December 2025) which sum to $65.5M, plus $350K Washington State grant. Database entry claims $70M+ total but this cannot be verified. Current stage shown as 'Series A' based on source [0] press release title mentioning Series A, though source [2] describes funding as seed round and STRATFI rather than traditional Series A."
+    },
+    {
+      "name": "PsiQuantum",
+      "current": {
+        "name": "PsiQuantum",
+        "founder": "Jeremy O'Brien, Terry Rudolph, Peter Shadbolt, Mark Thompson",
+        "location": "Palo Alto, CA",
+        "founded": 2016,
+        "fundingStage": "Private",
+        "totalRaised": "$1B",
+        "website": "https://psiquantum.com"
+      },
+      "verified": {
+        "name": "PsiQuantum",
+        "description": "American quantum computing company developing utility-scale, fault-tolerant quantum computers using silicon photonics and semiconductor manufacturing processes.",
+        "founders": [
+          "Jeremy O'Brien",
+          "Terry Rudolph",
+          "Peter Shadbolt",
+          "Mark Thompson"
+        ],
+        "location": "Palo Alto, California, USA",
+        "founded_year": 2016,
+        "current_stage": "Private",
+        "total_raised": "$1B",
+        "valuation": null,
+        "investors": null,
+        "website": "https://psiquantum.com",
+        "sources_per_field": {
+          "name": [
             0,
+            1,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
             1,
             2
           ],
@@ -589,33 +477,21 @@
           "total_raised": [
             2
           ],
-          "valuation": [
-            2
-          ],
-          "investors": [
-            2
-          ],
           "website": [
             0,
-            1
+            1,
+            2
           ]
         },
-        "notes": "Company pivoted from autonomous delivery vehicles to licensing autonomy technology in September 2024. Series E funding round opened in April 2025 ($106M) and closed in August 2025 ($97M additional). August 2025 funding round valued company at $6B with Uber and Nvidia as investors. Total raised calculated from: $92M (2018) + $940M (Feb 2019) + $500M (Nov 2020) + multiple subsequent rounds totaling approximately $2.54B based on Wikipedia data through August 2025."
+        "notes": "Series E funding of $1B raised in 2025 according to Wikipedia. Database entry claims September 2025 Series E with $7B valuation and specific investors (BlackRock, NVIDIA, Temasek), but these details are not found in provided sources. Company has facilities in Palo Alto CA, Milpitas CA, Daresbury UK, Malta NY, Chicago IL, and Queensland Australia."
       },
       "changes": [
         {
-          "field": "fundingStage",
-          "current": "Series G",
-          "verified": "Series E",
+          "field": "location",
+          "current": "Palo Alto, CA",
+          "verified": "Palo Alto, California, USA",
           "sources": [
-            2
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$2.2B",
-          "verified": "$2.54B",
-          "sources": [
+            1,
             2
           ]
         }
@@ -624,25 +500,25 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://nuro.ai"
+          "url": "https://psiquantum.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://nuro.ai/company"
+          "url": "https://psiquantum.com/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nuro"
+          "url": "https://en.wikipedia.org/wiki/PsiQuantum"
         },
         {
           "idx": 3,
           "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/08/19/rivian-spinout-also-raises-another-150-million/"
+          "url": "https://techcrunch.com/2026/08/20/early-cerebras-investor-adit-singh-joins-mayfield-as-infrastructure-partner/"
         }
       ],
-      "notes": "Company pivoted from autonomous delivery vehicles to licensing autonomy technology in September 2024. Series E funding round opened in April 2025 ($106M) and closed in August 2025 ($97M additional). August 2025 funding round valued company at $6B with Uber and Nvidia as investors. Total raised calculated from: $92M (2018) + $940M (Feb 2019) + $500M (Nov 2020) + multiple subsequent rounds totaling approximately $2.54B based on Wikipedia data through August 2025."
+      "notes": "Series E funding of $1B raised in 2025 according to Wikipedia. Database entry claims September 2025 Series E with $7B valuation and specific investors (BlackRock, NVIDIA, Temasek), but these details are not found in provided sources. Company has facilities in Palo Alto CA, Milpitas CA, Daresbury UK, Malta NY, Chicago IL, and Queensland Australia."
     },
     {
       "name": "SpaceX",
@@ -657,7 +533,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "An American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. The company operates three divisions: Space (conducting more orbital launches annually than any other launch provider), Connectivity (operating Starlink satellite communications), and Artificial Intelligence (operating Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company that operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial intelligence (Grok and data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -699,7 +575,7 @@
             0
           ]
         },
-        "notes": "SpaceX completed its IPO on June 12, 2026, raising $86B, making it the largest IPO in history according to the Wikipedia source. The current database entry lists a $1.5T 'preparing for IPO' valuation and $1.65T valuation, but the Wikipedia source does not provide a current valuation figure, only that the IPO occurred. Sources [1], [2], and [3] are news articles about other companies/topics and do not contain verifiable SpaceX corporate information."
+        "notes": "IPO occurred June 12, 2026, raising $86B (largest IPO in history per source). Wikipedia shows Elon Musk controls 85% voting power via super-voting stock (database entry stated 82%). Database entry claims $1.65T valuation and 'Preparing for IPO' but source confirms IPO already completed as of June 2026. Database claims 165 Falcon 9 launches in 2025 and 81% of mass launched to orbit - not verifiable in provided sources. Database claims 9M+ Starlink customers - not verifiable in provided sources."
       },
       "changes": [
         {
@@ -719,13 +595,13 @@
         },
         {
           "idx": 1,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/hypersonic-missile-startup-castelion-raises-1-billion/"
+          "src": "news (Ars Technica Space)",
+          "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
         },
         {
           "idx": 2,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/"
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/hypersonic-missile-startup-castelion-raises-1-billion/"
         },
         {
           "idx": 3,
@@ -733,40 +609,37 @@
           "url": "https://electrek.co/2026/08/19/ex-tesla-president-roadster-delay-spacex-thrusters/"
         }
       ],
-      "notes": "SpaceX completed its IPO on June 12, 2026, raising $86B, making it the largest IPO in history according to the Wikipedia source. The current database entry lists a $1.5T 'preparing for IPO' valuation and $1.65T valuation, but the Wikipedia source does not provide a current valuation figure, only that the IPO occurred. Sources [1], [2], and [3] are news articles about other companies/topics and do not contain verifiable SpaceX corporate information."
+      "notes": "IPO occurred June 12, 2026, raising $86B (largest IPO in history per source). Wikipedia shows Elon Musk controls 85% voting power via super-voting stock (database entry stated 82%). Database entry claims $1.65T valuation and 'Preparing for IPO' but source confirms IPO already completed as of June 2026. Database claims 165 Falcon 9 launches in 2025 and 81% of mass launched to orbit - not verifiable in provided sources. Database claims 9M+ Starlink customers - not verifiable in provided sources."
     },
     {
-      "name": "TerraPower",
+      "name": "Starcloud",
       "current": {
-        "name": "TerraPower",
-        "founder": "Bill Gates",
-        "location": "Bellevue, WA",
-        "founded": 2008,
-        "fundingStage": "Late Stage",
-        "totalRaised": "$1.7B+",
-        "website": "https://www.terrapower.com"
+        "name": "Starcloud",
+        "founder": "Philip Johnston, Ezra Feilden, Adi Oltean",
+        "location": "Redmond, WA",
+        "founded": 2024,
+        "fundingStage": "Seed",
+        "totalRaised": "$170M",
+        "website": "https://www.starcloud.com"
       },
       "verified": {
-        "name": "TerraPower",
-        "description": "American nuclear reactor design and development engineering company developing fast-neutron reactors including the Natrium sodium-cooled fast reactor design, currently constructing a demonstration reactor in Kemmerer, Wyoming.",
+        "name": "Starcloud",
+        "description": "A company that designs, builds, and deploys data centers in space using proprietary technology. The company launched its first test satellite, Starcloud-1, equipped with an Nvidia H100 GPU in November 2025.",
         "founders": [
-          "Bill Gates"
+          "Philip Johnston",
+          "Ezra Feilden",
+          "Adi Oltean"
         ],
-        "location": "Bellevue, Washington",
-        "founded_year": 2006,
-        "current_stage": "Late Stage",
-        "total_raised": null,
-        "valuation": null,
+        "location": "Redmond, Washington",
+        "founded_year": 2024,
+        "current_stage": "Series A",
+        "total_raised": "$170M",
+        "valuation": "$1.1B",
         "investors": [
-          "Bill Gates (via Cascade Investment)",
-          "US Department of Energy",
-          "Charles River Ventures",
-          "Khosla Ventures",
-          "Reliance Industries",
-          "SK Group",
-          "Meta"
+          "Benchmark",
+          "EQT Ventures"
         ],
-        "website": "https://www.terrapower.com",
+        "website": "https://www.starcloud.com",
         "sources_per_field": {
           "name": [
             0,
@@ -774,15 +647,15 @@
             2
           ],
           "description": [
-            0,
             2
           ],
           "founders": [
+            0,
             1,
             2
           ],
           "location": [
-            1,
+            0,
             2
           ],
           "founded_year": [
@@ -791,32 +664,35 @@
           "current_stage": [
             2
           ],
+          "total_raised": [
+            2
+          ],
+          "valuation": [
+            2
+          ],
           "investors": [
-            1,
             2
           ],
           "website": [
-            0,
-            1,
-            2
+            0
           ]
         },
-        "notes": "Wikipedia lists founding year as 2006, not 2008 as in database entry. Sources indicate Bill Gates as founder/chairman, but source [1] states he 'founded' TerraPower and has 'been chairman since 2006'. Source [2] Wikipedia confirms 'Founded 2006' with 'Founder Bill Gates'. Meta announced funding for two Natrium reactors in January 2026 (source [2]). NRC issued construction permit for Kemmerer Unit 1 on March 4, 2026 (source [2]). No specific total_raised figure could be verified from sources provided."
+        "notes": "Originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California; rebranded to Starcloud in March 2025 after legal challenge from Lumen Technologies. Wikipedia source [2] states Series A was announced on March 30, 2026, led by Benchmark and EQT Ventures. Company achieved unicorn status 17 months after completing Y Combinator program. Starcloud-1 launched November 2025; Starcloud-2 planned for late 2026."
       },
       "changes": [
         {
           "field": "location",
-          "current": "Bellevue, WA",
-          "verified": "Bellevue, Washington",
+          "current": "Redmond, WA",
+          "verified": "Redmond, Washington",
           "sources": [
-            1,
+            0,
             2
           ]
         },
         {
-          "field": "founded",
-          "current": 2008,
-          "verified": 2006,
+          "field": "fundingStage",
+          "current": "Seed",
+          "verified": "Series A",
           "sources": [
             2
           ]
@@ -826,25 +702,179 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://www.terrapower.com"
+          "url": "https://www.starcloud.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://www.terrapower.com/about"
+          "url": "https://www.starcloud.com/about-us"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/TerraPower"
+          "url": "https://en.wikipedia.org/wiki/Starcloud"
         },
         {
           "idx": 3,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/"
+          "src": "news (Ars Technica Space)",
+          "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
         }
       ],
-      "notes": "Wikipedia lists founding year as 2006, not 2008 as in database entry. Sources indicate Bill Gates as founder/chairman, but source [1] states he 'founded' TerraPower and has 'been chairman since 2006'. Source [2] Wikipedia confirms 'Founded 2006' with 'Founder Bill Gates'. Meta announced funding for two Natrium reactors in January 2026 (source [2]). NRC issued construction permit for Kemmerer Unit 1 on March 4, 2026 (source [2]). No specific total_raised figure could be verified from sources provided."
+      "notes": "Originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California; rebranded to Starcloud in March 2025 after legal challenge from Lumen Technologies. Wikipedia source [2] states Series A was announced on March 30, 2026, led by Benchmark and EQT Ventures. Company achieved unicorn status 17 months after completing Y Combinator program. Starcloud-1 launched November 2025; Starcloud-2 planned for late 2026."
+    },
+    {
+      "name": "Together AI",
+      "current": {
+        "name": "Together AI",
+        "founder": "Vipul Ved Prakash, Ce Zhang, Chris R\u00e9, Tri Dao, Percy Liang",
+        "location": "San Francisco, CA",
+        "founded": 2022,
+        "fundingStage": "Series G",
+        "totalRaised": "$530M",
+        "website": "https://www.together.ai"
+      },
+      "verified": {
+        "name": "Together AI",
+        "description": "Full-stack AI platform for production AI with inference, compute, model fine-tuning, and pre-training capabilities powered by systems research.",
+        "founders": [
+          "Vipul Ved Prakash",
+          "Ce Zhang",
+          "Chris R\u00e9",
+          "Tri Dao",
+          "Percy Liang"
+        ],
+        "location": null,
+        "founded_year": null,
+        "current_stage": "Series C",
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://www.together.ai",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "current_stage": [
+            0,
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Series C announced on website but no funding amount, valuation, or investor details provided in sources. Sources [2] and [3] are about robotaxis and Tesla/SpaceX, not Together AI, so they were not used. Founded year and location could not be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "fundingStage",
+          "current": "Series G",
+          "verified": "Series C",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.together.ai"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.together.ai/about"
+        },
+        {
+          "idx": 2,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada/"
+        },
+        {
+          "idx": 3,
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/08/19/ex-tesla-president-roadster-delay-spacex-thrusters/"
+        }
+      ],
+      "notes": "Series C announced on website but no funding amount, valuation, or investor details provided in sources. Sources [2] and [3] are about robotaxis and Tesla/SpaceX, not Together AI, so they were not used. Founded year and location could not be verified from provided sources."
+    },
+    {
+      "name": "Zettascale",
+      "current": {
+        "name": "Zettascale",
+        "founder": "Elias Almqvist (CEO; self-taught engineer, Chalmers University CS/CE dropout at 21), Prithvi Raj (CTO; MEng Computational Stats + ML Cambridge; ex-Microsoft)",
+        "location": "San Francisco, CA",
+        "founded": 2024,
+        "fundingStage": "Seed",
+        "totalRaised": "$3M+",
+        "website": "https://zscc.ai"
+      },
+      "verified": {
+        "name": "Zettascale",
+        "description": "AI silicon company building XPU chips for inference and training that optimize dataflow per model. The company is backed by Y Combinator and operates in San Francisco.",
+        "founders": null,
+        "location": "San Francisco, CA, USA",
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "Y Combinator",
+          "Soma Capital",
+          "Olive Tree Capital"
+        ],
+        "website": "https://zscc.ai",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [0] announces 'our new name, Zettascale' indicating a rebrand, consistent with database note about rebrand/pivot of Exa Laborato. Source [1] is not relevant to Zettascale. No specific founder names, founding year, stage, or funding amount could be verified from provided sources despite database entry containing these details."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "San Francisco, CA",
+          "verified": "San Francisco, CA, USA",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://zscc.ai"
+        },
+        {
+          "idx": 1,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/08/20/early-cerebras-investor-adit-singh-joins-mayfield-as-infrastructure-partner/"
+        }
+      ],
+      "notes": "Source [0] announces 'our new name, Zettascale' indicating a rebrand, consistent with database note about rebrand/pivot of Exa Laborato. Source [1] is not relevant to Zettascale. No specific founder names, founding year, stage, or funding amount could be verified from provided sources despite database entry containing these details."
     }
   ],
   "unverifiable": []
