@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -2.54,
+      "avg_change": -2.82,
       "count": 1
     },
     "space": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -5.98,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -6.12,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -8.11,
+      "avg_change": -8.84,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.56,
+      "avg_change": -9.8,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.53,
+      "avg_change": -3.83,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.92,
+      "avg_change": -10.48,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 18.14,
+      "avg_change": 18.04,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 0.53,
+      "avg_change": 1.36,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.64,
+      "avg_change": -5.52,
       "count": 3
     }
   },
@@ -66,50 +66,50 @@
     [
       "TEM",
       "Tempus AI",
-      22.92
-    ],
-    [
-      "9348.T",
-      "ispace",
-      1.65
+      22.77
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      1.22
+      2.11
     ],
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      1.06
+      "TSLA",
+      "Tesla",
+      1.52
+    ],
+    [
+      "RIVN",
+      "Rivian",
+      1.2
     ]
   ],
   "topLosers": [
     [
-      "OKLO",
-      "Oklo",
-      -11.11
-    ],
-    [
       "AUR",
       "Aurora Innovation",
-      -11.18
+      -10.53
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -10.66
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -11.7
+      -11.16
     ],
     [
       "ACHR",
       "Archer Aviation",
-      -13.49
+      -12.63
     ],
     [
       "RGTI",
       "Rigetti Computing",
-      -14.61
+      -13.72
     ]
   ],
-  "lastUpdated": "2026-08-20 19:49:16"
+  "lastUpdated": "2026-08-21 02:39:18"
 }
