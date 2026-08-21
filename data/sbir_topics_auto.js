@@ -1,6 +1,6 @@
 // Auto-generated SBIR topics + full-company bid-fit scoring
 // Topics: 10  |  Matching: TF-IDF weighted
-// Last updated: 2026-08-20 07:48:00 UTC
+// Last updated: 2026-08-21 07:49:30 UTC
 const SBIR_TOPICS_AUTO = [
   {
     "id": "DOD-SBIR-2026-006",
@@ -75,7 +75,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Chaos Industries",
         "sector": "Defense & Security",
-        "bid_fit_score": 16.0,
+        "bid_fit_score": 16.1,
         "matched_terms": [
           "counter",
           "defense"
@@ -223,7 +223,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "General Matter",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 45.8,
+        "bid_fit_score": 45.1,
         "matched_terms": [
           "nuclear",
           "haleu",
@@ -233,7 +233,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Newcleo",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 42.0,
+        "bid_fit_score": 41.1,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -243,7 +243,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Standard Nuclear",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 40.4,
+        "bid_fit_score": 39.7,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -253,7 +253,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Exodys Energy",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 37.0,
+        "bid_fit_score": 36.1,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -263,7 +263,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Project Omega",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 33.4,
+        "bid_fit_score": 32.7,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -273,7 +273,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Deep Isolation",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 31.0,
+        "bid_fit_score": 30.3,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -283,7 +283,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Curio Solutions",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 29.6,
+        "bid_fit_score": 29.2,
         "matched_terms": [
           "fuel",
           "nuclear",
@@ -293,7 +293,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Valar Atomics",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 27.7,
+        "bid_fit_score": 27.3,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -438,7 +438,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Nord Quantique",
         "sector": "Quantum Computing",
-        "bid_fit_score": 40.8,
+        "bid_fit_score": 40.7,
         "matched_terms": [
           "correction",
           "quantum",
@@ -458,7 +458,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Quantinuum",
         "sector": "Quantum Computing",
-        "bid_fit_score": 33.5,
+        "bid_fit_score": 33.4,
         "matched_terms": [
           "quantum",
           "computing",
@@ -498,7 +498,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "QuamCore",
         "sector": "Quantum Computing",
-        "bid_fit_score": 28.1,
+        "bid_fit_score": 28.0,
         "matched_terms": [
           "fault",
           "tolerant",
@@ -630,7 +630,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Cascade Space",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 62.0,
+        "bid_fit_score": 62.1,
         "matched_terms": [
           "deep",
           "space",
@@ -659,7 +659,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Turion Space",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 20.2,
+        "bid_fit_score": 20.3,
         "matched_terms": [
           "space",
           "operations"
@@ -677,7 +677,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Viridian Space",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 18.8,
+        "bid_fit_score": 18.9,
         "matched_terms": [
           "propulsion",
           "space"
@@ -695,7 +695,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Starpath Robotics",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 18.2,
+        "bid_fit_score": 18.3,
         "matched_terms": [
           "space",
           "deep"
@@ -726,7 +726,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Focused Energy",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 28.8,
+        "bid_fit_score": 28.6,
         "matched_terms": [
           "fusion",
           "net",
@@ -736,7 +736,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "First Light Fusion",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 27.9,
+        "bid_fit_score": 27.7,
         "matched_terms": [
           "fusion",
           "plant",
@@ -744,9 +744,29 @@ const SBIR_TOPICS_AUTO = [
         ]
       },
       {
-        "company": "Fuse Energy",
+        "company": "Commonwealth Fusion Systems",
+        "sector": "Nuclear Energy",
+        "bid_fit_score": 26.1,
+        "matched_terms": [
+          "net",
+          "energy",
+          "fusion"
+        ]
+      },
+      {
+        "company": "Inertia Enterprises",
         "sector": "Nuclear Energy",
         "bid_fit_score": 23.9,
+        "matched_terms": [
+          "net",
+          "energy",
+          "fusion"
+        ]
+      },
+      {
+        "company": "Fuse Energy",
+        "sector": "Nuclear Energy",
+        "bid_fit_score": 23.5,
         "matched_terms": [
           "fusion",
           "nuclear",
@@ -756,7 +776,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Kyoto Fusioneering",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 23.1,
+        "bid_fit_score": 23.0,
         "matched_terms": [
           "fusion",
           "plant",
@@ -764,42 +784,23 @@ const SBIR_TOPICS_AUTO = [
         ]
       },
       {
-        "company": "Marathon Fusion",
+        "company": "Avalanche Energy",
         "sector": "Nuclear Energy",
         "bid_fit_score": 22.4,
         "matched_terms": [
           "fusion",
+          "nuclear",
+          "compact"
+        ]
+      },
+      {
+        "company": "Marathon Fusion",
+        "sector": "Nuclear Energy",
+        "bid_fit_score": 22.2,
+        "matched_terms": [
+          "fusion",
           "energy",
           "nuclear"
-        ]
-      },
-      {
-        "company": "Commonwealth Fusion Systems",
-        "sector": "Climate & Energy",
-        "bid_fit_score": 22.3,
-        "matched_terms": [
-          "net",
-          "energy",
-          "fusion"
-        ]
-      },
-      {
-        "company": "Inertia Enterprises",
-        "sector": "Climate & Energy",
-        "bid_fit_score": 20.1,
-        "matched_terms": [
-          "net",
-          "energy",
-          "fusion"
-        ]
-      },
-      {
-        "company": "Newcleo",
-        "sector": "Nuclear Energy",
-        "bid_fit_score": 19.9,
-        "matched_terms": [
-          "nuclear",
-          "energy"
         ]
       }
     ],
@@ -950,7 +951,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Cascade Space",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 15.4,
+        "bid_fit_score": 15.5,
         "matched_terms": [
           "space",
           "missions"
@@ -979,7 +980,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Medra",
         "sector": "Biotech & Health",
-        "bid_fit_score": 13.4,
+        "bid_fit_score": 13.3,
         "matched_terms": [
           "biology",
           "biotech",
