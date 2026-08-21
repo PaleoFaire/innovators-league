@@ -42,7 +42,7 @@ jobs:
       - name: Poll company newsrooms
         run: |
           python3 scripts/fetch_company_announcements.py \
-            --scope "${{ github.event.inputs.scope || 'il30' }}"
+            --scope "${{ github.event.inputs.scope || 'hot' }}"
 
       - name: Configure Git
         run: |
@@ -59,7 +59,7 @@ jobs:
                 git stash drop 2>/dev/null || true
                 git diff --name-only --diff-filter=U | xargs -r git checkout HEAD --
                 python3 scripts/fetch_company_announcements.py \
-                  --scope "${{ github.event.inputs.scope || 'il30' }}"
+                  --scope "${{ github.event.inputs.scope || 'hot' }}"
               fi
             fi
             git add data/company_announcements_auto.json \

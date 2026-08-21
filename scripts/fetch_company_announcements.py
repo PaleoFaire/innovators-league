@@ -128,7 +128,8 @@ def load_companies() -> tuple[list[dict], list[str]]:
         'const fs=require("fs"),vm=require("vm");const s={};vm.createContext(s);'
         'vm.runInContext(fs.readFileSync(process.argv[1],"utf8")'
         '+";globalThis.__o={c:COMPANIES.map(c=>({name:c.name,website:c.website,'
-        'fundingStage:c.fundingStage,totalRaised:c.totalRaised,valuation:c.valuation})),'
+        'fundingStage:c.fundingStage,totalRaised:c.totalRaised,valuation:c.valuation,'
+        'signal:c.signal})),'
         'i:INNOVATORS_LEAGUE_30};",s);'
         "console.log(JSON.stringify(s.__o));"
     )
@@ -364,7 +365,7 @@ def check_company(company: dict) -> dict:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--scope", choices=["il30", "all"], default="il30")
+    ap.add_argument("--scope", choices=["il30", "hot", "all"], default="hot")
     ap.add_argument("--company", help="check a single company by exact name")
     ap.add_argument("--limit", type=int, default=0, help="cap companies checked")
     args = ap.parse_args()
@@ -379,6 +380,24 @@ def main() -> int:
         targets = [by_name[args.company]]
     elif args.scope == "il30":
         targets = [by_name[n] for n in il30 if n in by_name]
+    elif args.scope == "hot":
+        # IL30 plus every company the database itself marks as running hot —
+        # signal:"hot" or a $1B+ valuation. Found the hard way: Generalist AI
+        # ($2B, signal hot) shipped GEN-1.5 on 2026-08-19 and the watcher never
+        # saw it, because a default that only reads the IL30 is blind to
+        # exactly the companies most likely to make news. This tier stays
+        # small enough for a daily sweep without watching all 1,181.
+        def is_hot(c):
+            if (c.get("signal") or "").lower() == "hot":
+                return True
+            v = str(c.get("valuation") or "")
+            return "B" in v.upper() and v.strip().startswith("$")
+        names = set(il30)
+        targets = [by_name[n] for n in il30 if n in by_name]
+        for c in companies:
+            if c["name"] not in names and c.get("website") and is_hot(c):
+                names.add(c["name"])
+                targets.append(c)
     else:
         targets = [c for c in companies if c.get("website")]
     if args.limit:
