@@ -3,113 +3,113 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -0.21,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 3.22,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -5.03,
+      "avg_change": -5.4,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -4.84,
+      "avg_change": -4.78,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.16,
+      "avg_change": -2.97,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -0.86,
+      "avg_change": -2.07,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.29,
+      "avg_change": -3.7,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 26.56,
+      "avg_change": 29.97,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 6.26,
+      "avg_change": 9.22,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.45,
+      "avg_change": -8.11,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      38.52
-    ],
-    [
       "TEM",
       "Tempus AI",
-      29.88
+      39.5
     ],
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      11.27
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      39.34
     ],
     [
       "RIVN",
       "Rivian",
-      8.82
+      11.59
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      11.08
     ],
     [
       "TSLA",
       "Tesla",
-      3.7
+      6.85
     ]
   ],
   "topLosers": [
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -8.65
-    ],
     [
       "ASRHF",
       "Astroscale",
       -8.82
     ],
     [
-      "ALAB",
-      "Astera Labs",
-      -9.88
+      "RKLB",
+      "Rocket Lab",
+      -9.02
     ],
     [
-      "RGTI",
-      "Rigetti Computing",
-      -10.95
+      "PL",
+      "Planet Labs",
+      -9.36
     ],
     [
       "AUR",
       "Aurora Innovation",
-      -11.09
+      -10.23
+    ],
+    [
+      "ALAB",
+      "Astera Labs",
+      -11.46
     ]
   ],
-  "lastUpdated": "2026-08-21 14:01:37"
+  "lastUpdated": "2026-08-21 19:41:03"
 }
