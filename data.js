@@ -48903,11 +48903,11 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-22 22:30
+// Last updated: 2026-08-22 23:27
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "Inherent, founded by DeepMind alumni, says its AI 'teammate' just outperformed Anthropic and OpenAI at repli", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI says California should strengthen its AI safety bill", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Anthropic", headline: "Anthropic's Opus 4.6 is a smut-machine", source: "TechCrunch", time: "23h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "Anthropic", headline: "Inherent, founded by DeepMind alumni, says its AI 'teammate' just outperformed Anthropic and OpenAI at repli", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI says California should strengthen its AI safety bill", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Anthropic", headline: "Anthropic's Opus 4.6 is a smut-machine", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "news", company: "Humanoid", headline: "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027", source: "The Robot Report", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "news", company: "Waymo", headline: "Waymo doubles spending on lobbying in robotaxi battle with Uber", source: "Ars Technica", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "ipo", company: "Waymo", headline: "Waymo Fully Launches Robotaxi Service in Houston", source: "CleanTechnica", time: "1d ago", impact: "medium", unread: false },
