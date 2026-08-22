@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T07:31:18.360448+00:00",
+  "generated_at": "2026-08-22T07:20:08.997989+00:00",
   "corpora": [
     "news_raw.json",
     "press_releases_raw.json",
@@ -22,13 +22,5 @@
     "waymo": 3,
     "applied": 1
   },
-  "hits": [
-    {
-      "company": "Company",
-      "mafia": "spacex",
-      "source": "SpaceNews",
-      "confidence": 2,
-      "evidence": "Proteus Space, a dual-use aerospace company delivering rapid, end-to-end access to space, today announced it has been selected by The Charles Stark Draper Laboratory, [\u2026] The post Draper Selects Proteus Space for Advanced On-Orbit Mission appeared first on SpaceNews . ]]> 611527 Hypersonic missile startup Castelion rai"
-    }
-  ]
+  "hits": []
 }
