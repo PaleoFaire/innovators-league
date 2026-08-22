@@ -48689,12 +48689,12 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-22 03:48
+// Last updated: 2026-08-22 04:40
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Anthropic", headline: "Anthropic's Opus 4.6 is a smut-machine", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Humanoid", headline: "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027", source: "The Robot Report", time: "8h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Starcloud", headline: "Starcloud raises $250 million for orbital data centers as launch options dry up", source: "TechCrunch", time: "13h ago", impact: "high", unread: true },
-  { id: 4, type: "news", company: "Waymo", headline: "Waymo doubles spending on lobbying in robotaxi battle with Uber", source: "Ars Technica", time: "14h ago", impact: "low", unread: true },
+  { id: 1, type: "funding", company: "Anthropic", headline: "Anthropic's Opus 4.6 is a smut-machine", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Humanoid", headline: "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027", source: "The Robot Report", time: "9h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Starcloud", headline: "Starcloud raises $250 million for orbital data centers as launch options dry up", source: "TechCrunch", time: "14h ago", impact: "high", unread: true },
+  { id: 4, type: "news", company: "Waymo", headline: "Waymo doubles spending on lobbying in robotaxi battle with Uber", source: "Ars Technica", time: "15h ago", impact: "low", unread: true },
   { id: 5, type: "ipo", company: "Waymo", headline: "Waymo Fully Launches Robotaxi Service in Houston", source: "CleanTechnica", time: "1d ago", impact: "medium", unread: true },
   { id: 6, type: "news", company: "Waymo", headline: "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all", source: "Electrek", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX's orbital data centers would create a new category of e-waste", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
