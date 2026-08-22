@@ -1,6 +1,132 @@
 {
-  "generatedAt": "2026-08-22T06:54:01+00:00",
+  "generatedAt": "2026-08-22T08:40:04+00:00",
   "matrix": {
+    "robotics-cobots-warehouse": {
+      "2026-Q3": {
+        "deals": 3,
+        "totalSold": 57089457,
+        "companiesWithUnknownAmount": 2,
+        "companies": [
+          {
+            "name": "Ultra Robotics",
+            "amount": 57089457,
+            "date": "2026-08-21",
+            "source": "formd",
+            "investors": []
+          },
+          {
+            "name": "RobCo",
+            "amount": null,
+            "date": "2026-07",
+            "source": "recentEvent",
+            "investors": [
+              "Sequoia Capital",
+              "Kindred Capital",
+              "Promus Ventures",
+              "Lightspeed Venture Partners",
+              "Lingotto Innovation",
+              "Greenfield Partners",
+              "Leitmotif",
+              "The Friedkin Group",
+              "Torsten Reil"
+            ]
+          },
+          {
+            "name": "Orangewood Labs",
+            "amount": null,
+            "date": "2026-07",
+            "source": "recentEvent",
+            "investors": [
+              "Y Combinator",
+              "7percent Ventures",
+              "Schox Ventures",
+              "VentureSouq",
+              "KSK Angel Fund"
+            ]
+          }
+        ],
+        "investors": [
+          "Lightspeed Venture Partners",
+          "Sequoia Capital",
+          "Y Combinator"
+        ]
+      },
+      "2025-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Gecko Robotics",
+            "amount": null,
+            "date": "2025-07",
+            "source": "recentEvent",
+            "investors": [
+              "Cox Enterprises",
+              "USIT (US Innovative Technology Fund)",
+              "XN",
+              "Founders Fund",
+              "Y Combinator"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund",
+          "Y Combinator"
+        ]
+      },
+      "2025-Q2": {
+        "deals": 2,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 2,
+        "companies": [
+          {
+            "name": "GrayMatter Robotics",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": [
+              "Wellington Management",
+              "NGP Capital",
+              "Euclidean Capital",
+              "Advance Venture Partners",
+              "SQN Venture Partners",
+              "3M Ventures",
+              "B Capital",
+              "Bow Capital",
+              "Calibrate Ventures",
+              "OCA Ventures",
+              "Swift Ventures"
+            ]
+          },
+          {
+            "name": "Collaborative Robotics",
+            "amount": null,
+            "date": "2025-04",
+            "source": "recentEvent",
+            "investors": [
+              "General Catalyst",
+              "Bison Ventures",
+              "Industry Ventures",
+              "Lux Capital",
+              "Sequoia Capital",
+              "Khosla Ventures",
+              "Mayo Clinic",
+              "Neo",
+              "1984 Ventures",
+              "MVP Ventures",
+              "Calibrate Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "General Catalyst",
+          "Khosla Ventures",
+          "Lux Capital",
+          "Sequoia Capital"
+        ]
+      }
+    },
     "evtol-air-taxi": {
       "2026-Q3": {
         "deals": 1,
@@ -1002,125 +1128,6 @@
         ]
       }
     },
-    "robotics-cobots-warehouse": {
-      "2025-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Gecko Robotics",
-            "amount": null,
-            "date": "2025-07",
-            "source": "recentEvent",
-            "investors": [
-              "Cox Enterprises",
-              "USIT (US Innovative Technology Fund)",
-              "XN",
-              "Founders Fund",
-              "Y Combinator"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund",
-          "Y Combinator"
-        ]
-      },
-      "2026-Q3": {
-        "deals": 2,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 2,
-        "companies": [
-          {
-            "name": "RobCo",
-            "amount": null,
-            "date": "2026-07",
-            "source": "recentEvent",
-            "investors": [
-              "Sequoia Capital",
-              "Kindred Capital",
-              "Promus Ventures",
-              "Lightspeed Venture Partners",
-              "Lingotto Innovation",
-              "Greenfield Partners",
-              "Leitmotif",
-              "The Friedkin Group",
-              "Torsten Reil"
-            ]
-          },
-          {
-            "name": "Orangewood Labs",
-            "amount": null,
-            "date": "2026-07",
-            "source": "recentEvent",
-            "investors": [
-              "Y Combinator",
-              "7percent Ventures",
-              "Schox Ventures",
-              "VentureSouq",
-              "KSK Angel Fund"
-            ]
-          }
-        ],
-        "investors": [
-          "Lightspeed Venture Partners",
-          "Sequoia Capital",
-          "Y Combinator"
-        ]
-      },
-      "2025-Q2": {
-        "deals": 2,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 2,
-        "companies": [
-          {
-            "name": "GrayMatter Robotics",
-            "amount": null,
-            "date": "2025-06",
-            "source": "recentEvent",
-            "investors": [
-              "Wellington Management",
-              "NGP Capital",
-              "Euclidean Capital",
-              "Advance Venture Partners",
-              "SQN Venture Partners",
-              "3M Ventures",
-              "B Capital",
-              "Bow Capital",
-              "Calibrate Ventures",
-              "OCA Ventures",
-              "Swift Ventures"
-            ]
-          },
-          {
-            "name": "Collaborative Robotics",
-            "amount": null,
-            "date": "2025-04",
-            "source": "recentEvent",
-            "investors": [
-              "General Catalyst",
-              "Bison Ventures",
-              "Industry Ventures",
-              "Lux Capital",
-              "Sequoia Capital",
-              "Khosla Ventures",
-              "Mayo Clinic",
-              "Neo",
-              "1984 Ventures",
-              "MVP Ventures",
-              "Calibrate Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "General Catalyst",
-          "Khosla Ventures",
-          "Lux Capital",
-          "Sequoia Capital"
-        ]
-      }
-    },
     "autonomy-delivery-logistics": {
       "2025-Q3": {
         "deals": 1,
@@ -1931,8 +1938,8 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 58,
-    "totalUSDSold": 244278798,
+    "totalDealsTracked": 59,
+    "totalUSDSold": 301368255,
     "uniqueClusters": 36,
     "uniqueQuarters": 9,
     "uniqueVCs": 15,
