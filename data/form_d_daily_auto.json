@@ -1,9 +1,32 @@
 {
-  "generated_at": "2026-08-21T07:49:24.235831+00:00",
+  "generated_at": "2026-08-22T07:37:25.962923+00:00",
   "lookback_days": 8,
-  "scanned": 1189,
+  "scanned": 1126,
   "total": 6,
   "filings": [
+    {
+      "match_method": "founder",
+      "match_evidence": "'Ultra Robotics Corp.' stems to 'Ultra Robotics'; Form D names Max Friefeld, a recorded founder",
+      "company": "Ultra Robotics",
+      "issuer_name": "Ultra Robotics Corp.",
+      "form": "D",
+      "filed_date": "2026-08-21",
+      "cik": "2151004",
+      "accession": "0002151004-26-000001",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2151004/000215100426000001/primary_doc.xml",
+      "offering_amount": "62089507",
+      "amount_sold": "57089457",
+      "amount_remaining": "5000050",
+      "securities_type": "Equity",
+      "related_persons": [
+        "Jonathan Schwartz",
+        "Michael Anderson",
+        "Max Friefeld",
+        "Oliver Ortlieb"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
+    },
     {
       "match_method": "cik",
       "match_evidence": "filer CIK 1819848 == our recorded CIK",
@@ -122,29 +145,6 @@
         "Jagannath Setlur",
         "Raviraj Jain",
         "Wen Hsieh"
-      ],
-      "is_safe": false,
-      "source": "edgar-daily-index"
-    },
-    {
-      "match_method": "cik",
-      "match_evidence": "filer CIK 1923686 == our recorded CIK",
-      "company": "Cuby Technologies",
-      "issuer_name": "Cuby Technologies, Inc.",
-      "form": "D/A",
-      "filed_date": "2026-08-14",
-      "cik": "1923686",
-      "accession": "0001923686-26-000001",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/1923686/000192368626000001/primary_doc.xml",
-      "offering_amount": "Indefinite",
-      "amount_sold": "6372475",
-      "amount_remaining": "Indefinite",
-      "securities_type": "",
-      "related_persons": [
-        "Aleh Kandrashou",
-        "Aleksandr Gampel",
-        "Liang-Yu Chi",
-        "Abdo Hajj"
       ],
       "is_safe": false,
       "source": "edgar-daily-index"

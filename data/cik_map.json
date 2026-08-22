@@ -6335,11 +6335,11 @@
     "note": "No EDGAR entity; rejected Ultima Hospitality fund. Raises likely under 4(a)(2)"
   },
   "Ultra Robotics": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "No EDGAR entity found"
+    "cik": "2151004",
+    "confidence": "High",
+    "edgarName": "Ultra Robotics Corp.",
+    "hasFormD": true,
+    "note": "Learned 2026-08-21 from EDGAR daily index; Form D related persons include a recorded founder."
   },
   "Ulysses Robotics": {
     "cik": "",

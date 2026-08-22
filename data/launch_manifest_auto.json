@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-08-20",
-    "vehicle": "Electron | The Lightning God Defends (iQPS Launch 8)",
-    "payload": "The Lightning God Defends (iQPS Launch 8)",
-    "pad": "Rocket Lab Launch Complex 1B, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/57280454-470e-4c5d-8de1-1bbd0ea41b49/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
     "date": "2026-08-21",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 10-39",
     "payload": "Starlink Group 10-39",
@@ -159,6 +150,15 @@
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/63181269-b125-4c36-951c-c9bd9bbc4b55/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-04",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 15-24",
+    "payload": "Starlink Group 15-24",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/153ef8ef-b12b-43f4-a4bf-05b225c0cd37/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
