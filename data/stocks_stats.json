@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 3.22,
+      "avg_change": 3.39,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -5.4,
+      "avg_change": -5.36,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -4.78,
+      "avg_change": -5.47,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.97,
+      "avg_change": -3.06,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -2.07,
+      "avg_change": -2.29,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.7,
+      "avg_change": -3.85,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 29.97,
+      "avg_change": 29.87,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 9.22,
+      "avg_change": 8.25,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.11,
+      "avg_change": -8.01,
       "count": 3
     }
   },
@@ -61,7 +61,7 @@
     [
       "TEM",
       "Tempus AI",
-      39.5
+      39.52
     ],
     [
       "ONT.L",
@@ -69,19 +69,19 @@
       39.34
     ],
     [
-      "RIVN",
-      "Rivian",
-      11.59
-    ],
-    [
       "RXRX",
       "Recursion Pharmaceuticals",
-      11.08
+      10.76
+    ],
+    [
+      "RIVN",
+      "Rivian",
+      10.48
     ],
     [
       "TSLA",
       "Tesla",
-      6.85
+      6.02
     ]
   ],
   "topLosers": [
@@ -93,23 +93,23 @@
     [
       "RKLB",
       "Rocket Lab",
-      -9.02
+      -9.57
     ],
     [
       "PL",
       "Planet Labs",
-      -9.36
+      -9.72
     ],
     [
       "AUR",
       "Aurora Innovation",
-      -10.23
+      -10.73
     ],
     [
       "ALAB",
       "Astera Labs",
-      -11.46
+      -11.39
     ]
   ],
-  "lastUpdated": "2026-08-21 19:41:03"
+  "lastUpdated": "2026-08-22 02:31:16"
 }
