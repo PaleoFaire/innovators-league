@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-21T02:07:30.797909+00:00",
-  "scanned": 1864,
-  "new": 17,
-  "companies": 16,
+  "generated_at": "2026-08-22T01:57:05.003096+00:00",
+  "scanned": 1851,
+  "new": 15,
+  "companies": 11,
   "subject": "[IL Action Brief] Last Energy regulatory milestone \u00b7 9 more",
-  "fund": 1,
+  "fund": 0,
   "media": 10,
   "pod": 0,
   "lede": {
@@ -17,107 +17,17 @@
     "kind": "regulatory",
     "headline": "NRC: 2027 U.S. Construction Permit pathway",
     "detail": "PWR-20 (20MWe modular reactor)",
-    "date": "2026-08-20",
+    "date": "2026-08-21",
     "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
     "value": 0,
     "source": "NRC",
-    "context": "Series C \u00b7 $140M+ raised to date",
+    "context": "",
     "why": "you have been on site / interviewed them; your time to power thread",
     "also": [],
     "score": 89.9,
     "momentum": 1
   },
   "act_on": [
-    {
-      "company": "Hermeus",
-      "tier": "covered",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "kind": "regulatory",
-      "headline": "FAA: Darkhorse Piloted Prototype",
-      "detail": "Quarterhorse / Darkhorse",
-      "date": "2026-08-20",
-      "url": "",
-      "value": 0,
-      "source": "FAA",
-      "context": "Series C \u00b7 $500M raised to date",
-      "why": "you have written about them",
-      "also": [
-        {
-          "headline": "$60M from USAF",
-          "date": "2026-08-20",
-          "url": "https://afwerx.com/",
-          "source": "grants.gov"
-        }
-      ],
-      "score": 58.1,
-      "momentum": 2
-    },
-    {
-      "company": "Varda Space Industries",
-      "tier": "covered",
-      "beat": "space-industrial",
-      "tags": [
-        "MEDIA"
-      ],
-      "kind": "grant",
-      "headline": "$60M from DOD",
-      "detail": "Reentry capsule for pharmaceutical manufacturing",
-      "date": "2026-08-20",
-      "url": "https://www.spacewerx.us/",
-      "value": 60000000.0,
-      "source": "grants.gov",
-      "context": "Series D \u00b7 $329M raised to date",
-      "why": "you have written about them; your space industrial thread",
-      "also": [],
-      "score": 56.9,
-      "momentum": 1
-    }
-  ],
-  "radar": [
-    {
-      "company": "Joby Aviation",
-      "tier": "",
-      "beat": null,
-      "tags": [
-        "FUND",
-        "MEDIA"
-      ],
-      "kind": "form_d",
-      "headline": "filed a Form D",
-      "detail": "$50M offering",
-      "date": "2026-08-19",
-      "url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000440/primary_doc.xml",
-      "value": 50000000.0,
-      "source": "SEC EDGAR",
-      "context": "Public \u00b7 $2B+ raised to date",
-      "why": "",
-      "also": [],
-      "score": 54.8,
-      "momentum": 1
-    },
-    {
-      "company": "Antares",
-      "tier": "visited",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "kind": "announcement",
-      "headline": "posted to its newsroom",
-      "detail": "",
-      "date": "2026-08-20",
-      "url": "https://antaresindustries.com",
-      "value": 96000000.0,
-      "source": "company newsroom",
-      "context": "Series C \u00b7 $470M raised to date",
-      "why": "you have been on site / interviewed them",
-      "also": [],
-      "score": 54.0,
-      "momentum": 1
-    },
     {
       "company": "SpaceX",
       "tier": "covered",
@@ -128,14 +38,102 @@
       "kind": "regulatory",
       "headline": "FAA: Operational Cargo Flights",
       "detail": "Starship / Super Heavy",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "url": "",
       "value": 0,
       "source": "FAA",
-      "context": "IPO \u00b7 $86B raised to date",
+      "context": "",
       "why": "you have written about them",
+      "also": [
+        {
+          "headline": "payload on Falcon 9 Block 5 | Starlink Group 15-23",
+          "date": "2026-09-01",
+          "url": "https://ll.thespacedevs.com/2.2.0/launch/63181269-b125-4c36-951c-c9bd9bbc4b55/?format=json",
+          "source": "launch manifest"
+        },
+        {
+          "headline": "payload on Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+          "date": "2026-10-31",
+          "url": "https://ll.thespacedevs.com/2.2.0/launch/3b430f81-0ff1-4d85-8a1a-cef0de326198/?format=json",
+          "source": "launch manifest"
+        },
+        {
+          "headline": "payload on Falcon 9 Block 5 | Starlink Group 10-39",
+          "date": "2026-08-21",
+          "url": "https://ll.thespacedevs.com/2.2.0/launch/bbdc4d47-1de3-428e-9fe1-bbf45d9b1e04/?format=json",
+          "source": "launch manifest"
+        }
+      ],
+      "score": 63.1,
+      "momentum": 4
+    },
+    {
+      "company": "Hermeus",
+      "tier": "covered",
+      "beat": null,
+      "tags": [
+        "MEDIA"
+      ],
+      "kind": "regulatory",
+      "headline": "FAA: Darkhorse Piloted Prototype",
+      "detail": "Quarterhorse / Darkhorse",
+      "date": "2026-08-21",
+      "url": "",
+      "value": 0,
+      "source": "FAA",
+      "context": "",
+      "why": "you have written about them",
+      "also": [
+        {
+          "headline": "$60M from USAF",
+          "date": "2026-08-21",
+          "url": "https://afwerx.com/",
+          "source": "grants.gov"
+        }
+      ],
+      "score": 58.1,
+      "momentum": 2
+    }
+  ],
+  "radar": [
+    {
+      "company": "Varda Space Industries",
+      "tier": "covered",
+      "beat": "space-industrial",
+      "tags": [
+        "MEDIA"
+      ],
+      "kind": "grant",
+      "headline": "$60M from DOD",
+      "detail": "Reentry capsule for pharmaceutical manufacturing",
+      "date": "2026-08-21",
+      "url": "https://www.spacewerx.us/",
+      "value": 60000000.0,
+      "source": "grants.gov",
+      "context": "",
+      "why": "you have written about them; your space industrial thread",
       "also": [],
-      "score": 53.1,
+      "score": 56.9,
+      "momentum": 1
+    },
+    {
+      "company": "Anduril Industries",
+      "tier": "covered",
+      "beat": "defense-primes-displaced",
+      "tags": [
+        "MEDIA"
+      ],
+      "kind": "announcement",
+      "headline": "Anduril Announces $5B Series H Raise",
+      "detail": "",
+      "date": "2026-08-21",
+      "url": "https://anduril.com",
+      "value": 5000000000.0,
+      "source": "company newsroom",
+      "context": "",
+      "why": "you have written about them; your defense primes displaced thread",
+      "also": [],
+      "score": 55.5,
       "momentum": 1
     },
     {
@@ -148,54 +146,14 @@
       "kind": "regulatory",
       "headline": "FAA: Urban Delivery Operations",
       "detail": "Platform 2 (P2)",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "url": "",
       "value": 0,
       "source": "FAA",
-      "context": "Series G \u00b7 $1.63B raised to date",
+      "context": "",
       "why": "you have written about them",
       "also": [],
       "score": 53.1,
-      "momentum": 1
-    },
-    {
-      "company": "Andrenam",
-      "tier": "visited",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "kind": "announcement",
-      "headline": "posted to its newsroom",
-      "detail": "",
-      "date": "2026-08-20",
-      "url": "https://andrenam.com",
-      "value": 18000000.0,
-      "source": "company newsroom",
-      "context": "Series A \u00b7 $18M raised to date",
-      "why": "you have been on site / interviewed them",
-      "also": [],
-      "score": 50.7,
-      "momentum": 1
-    },
-    {
-      "company": "Neros",
-      "tier": "covered",
-      "beat": "defense-primes-displaced",
-      "tags": [
-        "MEDIA"
-      ],
-      "kind": "announcement",
-      "headline": "posted to its newsroom",
-      "detail": "",
-      "date": "2026-08-20",
-      "url": "https://www.neros.tech",
-      "value": 250000000.0,
-      "source": "company newsroom",
-      "context": "Series C \u00b7 $250M raised to date",
-      "why": "you have written about them; your defense primes displaced thread",
-      "also": [],
-      "score": 49.5,
       "momentum": 1
     },
     {
@@ -208,25 +166,88 @@
       "kind": "grant",
       "headline": "$1.35B from DOE",
       "detail": "Carbon Free Power Project (UAMPS) deployment",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "url": "https://www.energy.gov/ne/advanced-reactor-demonstration-program",
       "value": 1355000000.0,
       "source": "grants.gov",
-      "context": "Public \u00b7 $600M+ raised to date",
+      "context": "",
       "why": "",
       "also": [],
       "score": 39.7,
       "momentum": 1
+    },
+    {
+      "company": "Oklo",
+      "tier": "",
+      "beat": "time-to-power",
+      "tags": [
+        "MEDIA"
+      ],
+      "kind": "regulatory",
+      "headline": "NRC: 2026-Q3 ASLB hearing / Safety Evaluation Report draft",
+      "detail": "Aurora Powerhouse (15MWe compact fast reactor)",
+      "date": "2026-08-21",
+      "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "value": 0,
+      "source": "NRC",
+      "context": "",
+      "why": "your time to power thread",
+      "also": [],
+      "score": 38.7,
+      "momentum": 1
+    },
+    {
+      "company": "Kairos Power",
+      "tier": "",
+      "beat": null,
+      "tags": [
+        "MEDIA"
+      ],
+      "kind": "grant",
+      "headline": "$303M from DOE",
+      "detail": "Hermes low-power demonstration reactor",
+      "date": "2026-08-21",
+      "url": "https://www.energy.gov/ne/advanced-reactor-demonstration-program",
+      "value": 303000000.0,
+      "source": "grants.gov",
+      "context": "",
+      "why": "",
+      "also": [],
+      "score": 36.7,
+      "momentum": 1
+    },
+    {
+      "company": "Planet Labs",
+      "tier": "",
+      "beat": null,
+      "tags": [
+        "MEDIA"
+      ],
+      "kind": "grant",
+      "headline": "$146M from NGA",
+      "detail": "Earth observation commercial layer imagery",
+      "date": "2026-08-21",
+      "url": "https://www.nga.mil/",
+      "value": 146000000.0,
+      "source": "grants.gov",
+      "context": "",
+      "why": "",
+      "also": [],
+      "score": 35.3,
+      "momentum": 1
     }
   ],
-  "threads": [],
+  "threads": [
+    [
+      "time-to-power",
+      2
+    ]
+  ],
   "below_bar": {
-    "exec": 2,
-    "regulatory": 13,
-    "grant": 79,
-    "podcast": 8,
-    "launch": 1,
-    "patent": 1,
-    "announcement": 2
+    "regulatory": 12,
+    "grant": 77,
+    "announcement": 11,
+    "podcast": 2,
+    "patent": 1
   }
 }
