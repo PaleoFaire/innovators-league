@@ -48903,23 +48903,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-22 17:27
+// Last updated: 2026-08-22 18:40
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI says California should strengthen its AI safety bill", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Anthropic", headline: "Anthropic's Opus 4.6 is a smut-machine", source: "TechCrunch", time: "18h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Humanoid", headline: "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027", source: "The Robot Report", time: "22h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI says California should strengthen its AI safety bill", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Anthropic", headline: "Anthropic's Opus 4.6 is a smut-machine", source: "TechCrunch", time: "19h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Humanoid", headline: "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027", source: "The Robot Report", time: "23h ago", impact: "low", unread: true },
   { id: 4, type: "news", company: "Waymo", headline: "Waymo doubles spending on lobbying in robotaxi battle with Uber", source: "Ars Technica", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "ipo", company: "Waymo", headline: "Waymo Fully Launches Robotaxi Service in Houston", source: "CleanTechnica", time: "1d ago", impact: "medium", unread: true },
   { id: 6, type: "news", company: "Waymo", headline: "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all", source: "Electrek", time: "2d ago", impact: "low", unread: false },
   { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX's orbital data centers would create a new category of e-waste", source: "Ars Technica Space", time: "2d ago", impact: "low", unread: false },
   { id: 8, type: "ipo", company: "Proteus Space", headline: "Draper Selects Proteus Space for Advanced On-Orbit Mission", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Humanoid", headline: "What does Unitree Robotics' IPO mean for the humanoid industry?", source: "The Robot Report", time: "2d ago", impact: "high", unread: false },
+  { id: 9, type: "ipo", company: "Humanoid", headline: "What does Unitree Robotics' IPO mean for the humanoid industry?", source: "The Robot Report", time: "3d ago", impact: "high", unread: false },
   { id: 10, type: "hire", company: "SpaceX", headline: "Ex-Tesla president: Roadster delay is about getting closer to SpaceX ahead of merger", source: "Electrek", time: "3d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "Sage Geosystems", headline: "Sage Geosystems brings its first next-gen geothermal plant online", source: "Canary Media", time: "3d ago", impact: "low", unread: false },
   { id: 12, type: "news", company: "OpenAI", headline: "OpenAI clarifies 'acquisition' offer for Irish teen's startup idea was a joke", source: "Sifted", time: "3d ago", impact: "high", unread: false },
   { id: 13, type: "ipo", company: "SpaceX", headline: "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea", source: "Ars Technica Space", time: "3d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "Your Car Could Start Paying You. SpaceX, Tesla, Grok Bot, Macrohard, Digital Optimus, Cursor HUGE", source: "Next Big Future", time: "4d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Humanoid", headline: "Unichem acquires Loomia to accelerate entry into the humanoid 'skin' market", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Humanoid", headline: "Unichem acquires Loomia to accelerate entry into the humanoid 'skin' market", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Einride", headline: "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, and China goes BIG", source: "Electrek", time: "4d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
