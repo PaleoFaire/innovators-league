@@ -48903,12 +48903,12 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-22 11:27
+// Last updated: 2026-08-22 12:53
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Anthropic", headline: "Anthropic's Opus 4.6 is a smut-machine", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Humanoid", headline: "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027", source: "The Robot Report", time: "16h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Starcloud", headline: "Starcloud raises $250 million for orbital data centers as launch options dry up", source: "TechCrunch", time: "21h ago", impact: "high", unread: true },
-  { id: 4, type: "news", company: "Waymo", headline: "Waymo doubles spending on lobbying in robotaxi battle with Uber", source: "Ars Technica", time: "22h ago", impact: "low", unread: true },
+  { id: 1, type: "funding", company: "Anthropic", headline: "Anthropic's Opus 4.6 is a smut-machine", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Humanoid", headline: "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027", source: "The Robot Report", time: "17h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Starcloud", headline: "Starcloud raises $250 million for orbital data centers as launch options dry up", source: "TechCrunch", time: "22h ago", impact: "high", unread: true },
+  { id: 4, type: "news", company: "Waymo", headline: "Waymo doubles spending on lobbying in robotaxi battle with Uber", source: "Ars Technica", time: "23h ago", impact: "low", unread: true },
   { id: 5, type: "ipo", company: "Waymo", headline: "Waymo Fully Launches Robotaxi Service in Houston", source: "CleanTechnica", time: "1d ago", impact: "medium", unread: true },
   { id: 6, type: "news", company: "Waymo", headline: "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all", source: "Electrek", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX's orbital data centers would create a new category of e-waste", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
@@ -48919,7 +48919,7 @@ const COMPANY_SIGNALS = [
   { id: 12, type: "news", company: "OpenAI", headline: "OpenAI clarifies 'acquisition' offer for Irish teen's startup idea was a joke", source: "Sifted", time: "3d ago", impact: "high", unread: false },
   { id: 13, type: "ipo", company: "SpaceX", headline: "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea", source: "Ars Technica Space", time: "3d ago", impact: "low", unread: false },
   { id: 14, type: "ipo", company: "SpaceX", headline: "Your Car Could Start Paying You. SpaceX, Tesla, Grok Bot, Macrohard, Digital Optimus, Cursor HUGE", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Humanoid", headline: "Unichem acquires Loomia to accelerate entry into the humanoid 'skin' market", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Humanoid", headline: "Unichem acquires Loomia to accelerate entry into the humanoid 'skin' market", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
