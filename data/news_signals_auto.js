@@ -1,52 +1,52 @@
 // Auto-generated news signals
-// Last updated: 2026-08-22T12:53:27.451Z
+// Last updated: 2026-08-22T13:37:36.735Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1787403207451,
+    "id": 1787405856735,
     "type": "funding",
     "company": "Anthropic",
     "headline": "Anthropic’s Opus 4.6 is a smut-machine",
     "source": "TechCrunch",
-    "time": "13h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/"
   },
   {
-    "id": 1787403207452,
+    "id": 1787405856736,
     "type": "news",
     "company": "Humanoid",
     "headline": "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027",
     "source": "The Robot Report",
-    "time": "17h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.therobotreport.com/schaeffler-plans-to-mass-manufacture-gearboxes-for-humanoids-in-2027/"
   },
   {
-    "id": 1787403207453,
+    "id": 1787405856737,
     "type": "funding",
     "company": "Starcloud",
     "headline": "Starcloud raises $250 million for orbital data centers as launch options dry up",
     "source": "TechCrunch",
-    "time": "22h ago",
+    "time": "23h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
   },
   {
-    "id": 1787403207454,
+    "id": 1787405856738,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
     "source": "Ars Technica",
-    "time": "23h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": true,
     "link": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/"
   },
   {
-    "id": 1787403207455,
+    "id": 1787405856739,
     "type": "ipo",
     "company": "Waymo",
     "headline": "Waymo Fully Launches Robotaxi Service in Houston",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/08/20/waymo-fully-launches-robotaxi-service-in-houston/"
   },
   {
-    "id": 1787403207456,
+    "id": 1787405856740,
     "type": "news",
     "company": "Waymo",
     "headline": "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/20/waymo-zeekr-ojai-chinese-ev-robotaxi-all-riders/"
   },
   {
-    "id": 1787403207457,
+    "id": 1787405856741,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX’s orbital data centers would create a new category of e-waste",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
   },
   {
-    "id": 1787403207458,
+    "id": 1787405856742,
     "type": "ipo",
     "company": "Proteus Space",
     "headline": "Draper Selects Proteus Space for Advanced On-Orbit Mission",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/draper-selects-proteus-space-for-advanced-on-orbit-mission/"
   },
   {
-    "id": 1787403207459,
+    "id": 1787405856743,
     "type": "ipo",
     "company": "Humanoid",
     "headline": "What does Unitree Robotics&#8217; IPO mean for the humanoid industry?",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/"
   },
   {
-    "id": 1787403207460,
+    "id": 1787405856744,
     "type": "hire",
     "company": "SpaceX",
     "headline": "Ex-Tesla president: Roadster delay is about getting closer to SpaceX ahead of merger",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/19/ex-tesla-president-roadster-delay-spacex-thrusters/"
   },
   {
-    "id": 1787403207461,
+    "id": 1787405856745,
     "type": "news",
     "company": "Sage Geosystems",
     "headline": "Sage Geosystems brings its first next-gen geothermal plant online",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/geothermal/sage-geosystems-next-gen-geothermal-online"
   },
   {
-    "id": 1787403207462,
+    "id": 1787405856746,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI clarifies ‘acquisition’ offer for Irish teen's startup idea was a joke",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/openai-clarifies-acquisition-offer/"
   },
   {
-    "id": 1787403207463,
+    "id": 1787405856747,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea",
@@ -145,18 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/"
   },
   {
-    "id": 1787403207464,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "Your Car Could Start Paying You. SpaceX, Tesla, Grok Bot, Macrohard, Digital Optimus, Cursor HUGE",
-    "source": "Next Big Future",
-    "time": "3d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/08/your-car-could-start-paying-you-spacex-tesla-grok-bot-macrohard-digital-optimus-cursor-huge.html"
-  },
-  {
-    "id": 1787403207465,
+    "id": 1787405856748,
     "type": "news",
     "company": "Humanoid",
     "headline": "Unichem acquires Loomia to accelerate entry into the humanoid &#8216;skin&#8217; market",
@@ -167,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/unichem-acquires-loomia-accelerate-entry-humanoid-skin-market/"
   },
   {
-    "id": 1787403207466,
+    "id": 1787405856749,
     "type": "news",
     "company": "Einride",
     "headline": "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, and China goes BIG",
@@ -178,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/17/tesla-grows-robotaxi-fleet-by-50-einride-gets-a-partner-and-china-goes-big/"
   },
   {
-    "id": 1787403207467,
+    "id": 1787405856750,
     "type": "news",
     "company": "Helsing",
     "headline": "German drone maker Helsing enlists Rakuten to broker Japan military deal",
@@ -189,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/industry/techwatch/2026/08/17/german-drone-maker-helsing-enlists-rakuten-to-broker-japan-military-deal/"
   },
   {
-    "id": 1787403207468,
+    "id": 1787405856751,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Nvidia discloses $21B stake in SpaceX",
@@ -200,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/"
   },
   {
-    "id": 1787403207469,
+    "id": 1787405856752,
     "type": "news",
     "company": "Einride",
     "headline": "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks",
@@ -211,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/15/paccar-brand-daf-to-add-level-4-einride-autonomy-to-its-electric-trucks/"
   },
   {
-    "id": 1787403207470,
+    "id": 1787405856753,
     "type": "ipo",
     "company": "Waymo",
     "headline": "Waymo wins California approval to expand robotaxis across 18 counties",
@@ -220,5 +209,16 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://electrek.co/2026/08/14/waymo-cpuc-approval-california-expansion-18-counties/"
+  },
+  {
+    "id": 1787405856754,
+    "type": "news",
+    "company": "Anthropic",
+    "headline": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+    "source": "Ars Technica",
+    "time": "8/14/2026",
+    "impact": "low",
+    "unread": false,
+    "link": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
   }
 ];
