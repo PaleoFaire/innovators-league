@@ -1,15 +1,95 @@
 {
   "meta": {
-    "generated_at": "2026-08-21T07:15:20.976481+00:00",
+    "generated_at": "2026-08-22T07:06:59.796587+00:00",
     "window_days": 10,
-    "filings_scanned": 1275,
-    "candidates_considered": 292,
-    "published": 1,
+    "filings_scanned": 1244,
+    "candidates_considered": 295,
+    "published": 2,
     "roster_size": 2465,
     "roster_with_pedigree": 189,
     "method": "SEC Form D formations, filtered to new frontier-adjacent US entities, matched against founders already documented in COMPANIES. Confidence tiers reflect what the public record supports, not what is plausible."
   },
   "rows": [
+    {
+      "cik": "2151243",
+      "accession": "000215124326000001",
+      "entity": "CSS Solutions LLC",
+      "industry": "Other Technology",
+      "year_inc": 2025,
+      "state": "CA",
+      "amount_sold": 122940961.0,
+      "first_sale": "2026-08-07",
+      "persons": [
+        {
+          "name": "Travis Kalanick",
+          "key": "traviskalanick",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Ben Horowitz",
+          "key": "benhorowitz",
+          "roles": [
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Gautam Gupta",
+          "key": "gautamgupta",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "David Tunna",
+          "key": "davidtunna",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Diego Berdakin",
+          "key": "diegoberdakin",
+          "roles": [
+            "Promoter"
+          ],
+          "state": "CALIFORNIA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2151243/000215124326000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2151243&type=D&dateb=&owner=include&count=10",
+      "filed": "20260821",
+      "matches": [
+        {
+          "person": "Travis Kalanick",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "known_for": [
+            "Atoms"
+          ],
+          "employers": [],
+          "evidence": [],
+          "name_ambiguous": false
+        }
+      ],
+      "score": 69,
+      "confidence": "Founder's next company",
+      "reasons": [
+        "An officer named Travis Kalanick matches the founder of Atoms in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
+        "self-classified as Other Technology",
+        "$123M already sold",
+        "incorporated 2025",
+        "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
+      ]
+    },
     {
       "cik": "2135340",
       "accession": "000213534026000001",
