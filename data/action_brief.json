@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-22T01:57:05.003096+00:00",
-  "scanned": 1851,
-  "new": 15,
+  "generated_at": "2026-08-23T02:08:48.272290+00:00",
+  "scanned": 1857,
+  "new": 13,
   "companies": 11,
   "subject": "[IL Action Brief] Last Energy regulatory milestone \u00b7 9 more",
-  "fund": 0,
+  "fund": 1,
   "media": 10,
   "pod": 0,
   "lede": {
@@ -17,7 +17,7 @@
     "kind": "regulatory",
     "headline": "NRC: 2027 U.S. Construction Permit pathway",
     "detail": "PWR-20 (20MWe modular reactor)",
-    "date": "2026-08-21",
+    "date": "2026-08-22",
     "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
     "value": 0,
     "source": "NRC",
@@ -38,7 +38,7 @@
       "kind": "regulatory",
       "headline": "FAA: Operational Cargo Flights",
       "detail": "Starship / Super Heavy",
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "url": "",
       "value": 0,
       "source": "FAA",
@@ -46,26 +46,14 @@
       "why": "you have written about them",
       "also": [
         {
-          "headline": "payload on Falcon 9 Block 5 | Starlink Group 15-23",
-          "date": "2026-09-01",
-          "url": "https://ll.thespacedevs.com/2.2.0/launch/63181269-b125-4c36-951c-c9bd9bbc4b55/?format=json",
-          "source": "launch manifest"
-        },
-        {
-          "headline": "payload on Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-          "date": "2026-10-31",
-          "url": "https://ll.thespacedevs.com/2.2.0/launch/3b430f81-0ff1-4d85-8a1a-cef0de326198/?format=json",
-          "source": "launch manifest"
-        },
-        {
-          "headline": "payload on Falcon 9 Block 5 | Starlink Group 10-39",
-          "date": "2026-08-21",
-          "url": "https://ll.thespacedevs.com/2.2.0/launch/bbdc4d47-1de3-428e-9fe1-bbf45d9b1e04/?format=json",
+          "headline": "payload on Falcon 9 Block 5 | Starlink Group 15-24",
+          "date": "2026-09-04",
+          "url": "https://ll.thespacedevs.com/2.2.0/launch/153ef8ef-b12b-43f4-a4bf-05b225c0cd37/?format=json",
           "source": "launch manifest"
         }
       ],
-      "score": 63.1,
-      "momentum": 4
+      "score": 58.1,
+      "momentum": 2
     },
     {
       "company": "Hermeus",
@@ -77,7 +65,7 @@
       "kind": "regulatory",
       "headline": "FAA: Darkhorse Piloted Prototype",
       "detail": "Quarterhorse / Darkhorse",
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "url": "",
       "value": 0,
       "source": "FAA",
@@ -86,7 +74,7 @@
       "also": [
         {
           "headline": "$60M from USAF",
-          "date": "2026-08-21",
+          "date": "2026-08-22",
           "url": "https://afwerx.com/",
           "source": "grants.gov"
         }
@@ -106,7 +94,7 @@
       "kind": "grant",
       "headline": "$60M from DOD",
       "detail": "Reentry capsule for pharmaceutical manufacturing",
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "url": "https://www.spacewerx.us/",
       "value": 60000000.0,
       "source": "grants.gov",
@@ -117,23 +105,24 @@
       "momentum": 1
     },
     {
-      "company": "Anduril Industries",
-      "tier": "covered",
-      "beat": "defense-primes-displaced",
+      "company": "Ultra Robotics",
+      "tier": "",
+      "beat": null,
       "tags": [
+        "FUND",
         "MEDIA"
       ],
-      "kind": "announcement",
-      "headline": "Anduril Announces $5B Series H Raise",
-      "detail": "",
+      "kind": "form_d",
+      "headline": "filed a Form D",
+      "detail": "$62M offering; $57M already sold",
       "date": "2026-08-21",
-      "url": "https://anduril.com",
-      "value": 5000000000.0,
-      "source": "company newsroom",
-      "context": "",
-      "why": "you have written about them; your defense primes displaced thread",
+      "url": "https://www.sec.gov/Archives/edgar/data/2151004/000215100426000001/primary_doc.xml",
+      "value": 62089507.0,
+      "source": "SEC EDGAR",
+      "context": "Seed \u00b7 $3M+ raised to date",
+      "why": "",
       "also": [],
-      "score": 55.5,
+      "score": 55.2,
       "momentum": 1
     },
     {
@@ -146,7 +135,7 @@
       "kind": "regulatory",
       "headline": "FAA: Urban Delivery Operations",
       "detail": "Platform 2 (P2)",
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "url": "",
       "value": 0,
       "source": "FAA",
@@ -166,7 +155,7 @@
       "kind": "grant",
       "headline": "$1.35B from DOE",
       "detail": "Carbon Free Power Project (UAMPS) deployment",
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "url": "https://www.energy.gov/ne/advanced-reactor-demonstration-program",
       "value": 1355000000.0,
       "source": "grants.gov",
@@ -186,7 +175,7 @@
       "kind": "regulatory",
       "headline": "NRC: 2026-Q3 ASLB hearing / Safety Evaluation Report draft",
       "detail": "Aurora Powerhouse (15MWe compact fast reactor)",
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
       "value": 0,
       "source": "NRC",
@@ -206,7 +195,7 @@
       "kind": "grant",
       "headline": "$303M from DOE",
       "detail": "Hermes low-power demonstration reactor",
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "url": "https://www.energy.gov/ne/advanced-reactor-demonstration-program",
       "value": 303000000.0,
       "source": "grants.gov",
@@ -226,7 +215,7 @@
       "kind": "grant",
       "headline": "$146M from NGA",
       "detail": "Earth observation commercial layer imagery",
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "url": "https://www.nga.mil/",
       "value": 146000000.0,
       "source": "grants.gov",
@@ -246,8 +235,7 @@
   "below_bar": {
     "regulatory": 12,
     "grant": 77,
-    "announcement": 11,
-    "podcast": 2,
+    "podcast": 8,
     "patent": 1
   }
 }
