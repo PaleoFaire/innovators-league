@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T07:40:56+00:00",
+  "generatedAt": "2026-08-23T08:40:34+00:00",
   "matrix": {
     "robotics-cobots-warehouse": {
       "2026-Q3": {
@@ -254,41 +254,6 @@
         ],
         "investors": [
           "Lightspeed Venture Partners"
-        ]
-      }
-    },
-    "construction-modular": {
-      "2026-Q3": {
-        "deals": 2,
-        "totalSold": 6372475,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Cuby Technologies",
-            "amount": 6372475,
-            "date": "2026-08-14",
-            "source": "formd",
-            "investors": [
-              "Vannevar Ventures",
-              "At One Ventures",
-              "GOS Capital",
-              "Type One Ventures",
-              "Not Boring Capital",
-              "H.E.N.R.Y Collective"
-            ]
-          },
-          {
-            "name": "Monumental",
-            "amount": null,
-            "date": "2026-07",
-            "source": "recentEvent",
-            "investors": [
-              "Khosla Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "Khosla Ventures"
         ]
       }
     },
@@ -1148,6 +1113,27 @@
         "investors": []
       }
     },
+    "construction-modular": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Monumental",
+            "amount": null,
+            "date": "2026-07",
+            "source": "recentEvent",
+            "investors": [
+              "Khosla Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "Khosla Ventures"
+        ]
+      }
+    },
     "robotics-agriculture": {
       "2025-Q3": {
         "deals": 1,
@@ -1938,8 +1924,8 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 59,
-    "totalUSDSold": 301368255,
+    "totalDealsTracked": 58,
+    "totalUSDSold": 294995780,
     "uniqueClusters": 36,
     "uniqueQuarters": 9,
     "uniqueVCs": 15,
