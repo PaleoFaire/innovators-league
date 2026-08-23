@@ -1,41 +1,41 @@
 // Auto-generated news signals
-// Last updated: 2026-08-23T08:39:40.728Z
+// Last updated: 2026-08-23T09:34:58.888Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1787474380728,
+    "id": 1787477698888,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starship Months for Tower Catch Schedule But 10X Launch Approvals",
     "source": "Next Big Future",
-    "time": "8h ago",
+    "time": "9h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/08/spacex-starship-months-for-tower-catch-schedule-but-10x-launch-approvals.html"
   },
   {
-    "id": 1787474380729,
+    "id": 1787477698889,
     "type": "news",
     "company": "Anthropic",
     "headline": "Inherent, founded by DeepMind alumni, says its AI &#8216;teammate&#8217; just outperformed Anthropic and OpenAI at repli",
     "source": "TechCrunch",
-    "time": "13h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/"
   },
   {
-    "id": 1787474380730,
+    "id": 1787477698890,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI says California should strengthen its AI safety bill",
     "source": "TechCrunch",
-    "time": "16h ago",
+    "time": "17h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/"
   },
   {
-    "id": 1787474380731,
+    "id": 1787477698891,
     "type": "funding",
     "company": "Anthropic",
     "headline": "Anthropic’s Opus 4.6 is a smut-machine",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/"
   },
   {
-    "id": 1787474380732,
+    "id": 1787477698892,
     "type": "news",
     "company": "Humanoid",
     "headline": "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/schaeffler-plans-to-mass-manufacture-gearboxes-for-humanoids-in-2027/"
   },
   {
-    "id": 1787474380733,
+    "id": 1787477698893,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/"
   },
   {
-    "id": 1787474380734,
+    "id": 1787477698894,
     "type": "ipo",
     "company": "Waymo",
     "headline": "Waymo Fully Launches Robotaxi Service in Houston",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/08/20/waymo-fully-launches-robotaxi-service-in-houston/"
   },
   {
-    "id": 1787474380735,
+    "id": 1787477698895,
     "type": "news",
     "company": "Waymo",
     "headline": "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/20/waymo-zeekr-ojai-chinese-ev-robotaxi-all-riders/"
   },
   {
-    "id": 1787474380736,
+    "id": 1787477698896,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX’s orbital data centers would create a new category of e-waste",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
   },
   {
-    "id": 1787474380737,
+    "id": 1787477698897,
     "type": "ipo",
     "company": "Proteus Space",
     "headline": "Draper Selects Proteus Space for Advanced On-Orbit Mission",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/draper-selects-proteus-space-for-advanced-on-orbit-mission/"
   },
   {
-    "id": 1787474380738,
+    "id": 1787477698898,
     "type": "ipo",
     "company": "Humanoid",
     "headline": "What does Unitree Robotics&#8217; IPO mean for the humanoid industry?",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/"
   },
   {
-    "id": 1787474380739,
+    "id": 1787477698899,
     "type": "hire",
     "company": "SpaceX",
     "headline": "Ex-Tesla president: Roadster delay is about getting closer to SpaceX ahead of merger",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/19/ex-tesla-president-roadster-delay-spacex-thrusters/"
   },
   {
-    "id": 1787474380740,
+    "id": 1787477698900,
     "type": "news",
     "company": "Sage Geosystems",
     "headline": "Sage Geosystems brings its first next-gen geothermal plant online",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/geothermal/sage-geosystems-next-gen-geothermal-online"
   },
   {
-    "id": 1787474380741,
+    "id": 1787477698901,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI clarifies ‘acquisition’ offer for Irish teen's startup idea was a joke",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/openai-clarifies-acquisition-offer/"
   },
   {
-    "id": 1787474380742,
+    "id": 1787477698902,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/"
   },
   {
-    "id": 1787474380743,
+    "id": 1787477698903,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Your Car Could Start Paying You. SpaceX, Tesla, Grok Bot, Macrohard, Digital Optimus, Cursor HUGE",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/08/your-car-could-start-paying-you-spacex-tesla-grok-bot-macrohard-digital-optimus-cursor-huge.html"
   },
   {
-    "id": 1787474380744,
+    "id": 1787477698904,
     "type": "news",
     "company": "Humanoid",
     "headline": "Unichem acquires Loomia to accelerate entry into the humanoid &#8216;skin&#8217; market",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/unichem-acquires-loomia-accelerate-entry-humanoid-skin-market/"
   },
   {
-    "id": 1787474380745,
+    "id": 1787477698905,
     "type": "news",
     "company": "Einride",
     "headline": "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, and China goes BIG",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/17/tesla-grows-robotaxi-fleet-by-50-einride-gets-a-partner-and-china-goes-big/"
   },
   {
-    "id": 1787474380746,
+    "id": 1787477698906,
     "type": "news",
     "company": "Helsing",
     "headline": "German drone maker Helsing enlists Rakuten to broker Japan military deal",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/industry/techwatch/2026/08/17/german-drone-maker-helsing-enlists-rakuten-to-broker-japan-military-deal/"
   },
   {
-    "id": 1787474380747,
+    "id": 1787477698907,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Nvidia discloses $21B stake in SpaceX",
