@@ -1,15 +1,25 @@
 {
-  "generated_at": "2026-08-19T06:51:49.846855Z",
+  "generated_at": "2026-08-23T08:23:32.101147Z",
   "takes": [
     {
-      "author": "TechCrunch",
+      "author": "The Robot Report",
       "role": "Industry signal",
-      "company": "Etched",
-      "text": "Etched&#8217;s valuation doubles to $21B in a month",
-      "date": "Tue, 18 Au",
+      "company": "Humanoid",
+      "text": "What does Unitree Robotics&#8217; IPO mean for the humanoid industry?",
+      "date": "Wed, 19 Au",
       "source": "news",
-      "source_url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
-      "signal_type": "funding"
+      "source_url": "https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "Sifted",
+      "role": "Industry signal",
+      "company": "OpenAI",
+      "text": "OpenAI clarifies \u2018acquisition\u2019 offer for Irish teen's startup idea was a joke",
+      "date": "Wed, 19 Au",
+      "source": "news",
+      "source_url": "https://sifted.eu/articles/openai-clarifies-acquisition-offer/",
+      "signal_type": "news"
     },
     {
       "author": "Canary Media",
@@ -50,42 +60,12 @@
       "source": "news",
       "source_url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
       "signal_type": "ipo"
-    },
-    {
-      "author": "The Robot Report",
-      "role": "Industry signal",
-      "company": "Neros",
-      "text": "Neros Technologies raises $250M to deploy its defense drones by the end of 2026",
-      "date": "Fri, 14 Au",
-      "source": "news",
-      "source_url": "https://www.therobotreport.com/neros-technologies-raises-250m-to-deploy-its-defense-drones-by-the-end-of-2026/",
-      "signal_type": "funding"
-    },
-    {
-      "author": "Tech.eu",
-      "role": "Industry signal",
-      "company": "Isembard",
-      "text": "Lovable raises $400M, Duolingo acquires Animade, and Isembard is a politician's &quot;wet dream&quot;",
-      "date": "Fri, 14 Au",
-      "source": "news",
-      "source_url": "https://tech.eu/2026/08/14/lovable-raises-400m-duolingo-acquires-animade-and-isembard-is-a-politician-s-wet-dream/",
-      "signal_type": "funding"
-    },
-    {
-      "author": "SpaceNews",
-      "role": "Industry signal",
-      "company": "Intuitive Machines",
-      "text": "Intuitive Machines wins contract for three GEO satellites",
-      "date": "Fri, 14 Au",
-      "source": "news",
-      "source_url": "https://spacenews.com/intuitive-machines-wins-contract-for-three-geo-satellites/",
-      "signal_type": "contract"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 8,
+    "from_news": 6,
     "from_press": 0
   }
 }

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-19T06:51:49.760576Z",
+  "generated_at": "2026-08-23T08:23:32.061336Z",
   "sectors": {
     "Defense & Security": {
       "icon": "\ud83d\udee1\ufe0f",
       "color": "#dc2626",
       "description": "Federal demand across defense & security.",
-      "trend": "Gov demand index 224: 8 active opportunities, 0 contract awards, 216 SBIR awards in the last 90 days.",
-      "demandIndex": 224,
+      "trend": "Gov demand index 221: 8 active opportunities, 0 contract awards, 213 SBIR awards in the last 90 days.",
+      "demandIndex": 221,
       "activeOpps": 8,
       "contractsAwarded": 0,
-      "sbirAwards": 216,
+      "sbirAwards": 213,
       "examples": [
         {
           "type": "demand_signal",

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-16T08:23:10Z",
-  "company_count": 1143,
+  "generated_at": "2026-08-23T08:23:32Z",
+  "company_count": 1181,
   "checks": {
     "acquisition_language": [
       {
         "name": "Rebellions",
-        "current_stage": "pre-ipo",
+        "current_stage": "series a",
         "pattern_hit": "\\bmerged with\\b",
         "excerpt": "…3e), now sold as full rebelrack/rebelpod inference systems. merged with sk telecom's sapeon korea in december 2024 to consolidate s…",
         "action": "Change fundingStage to \"Acquired\" and add acquiredBy field"
@@ -28,6 +28,11 @@
         "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
       },
       {
+        "name": "Matic Robotics",
+        "current_stage": "SPAC",
+        "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
+      },
+      {
         "name": "Blue Origin",
         "current_stage": "SPAC",
         "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
@@ -39,16 +44,6 @@
       },
       {
         "name": "True Anomaly",
-        "current_stage": "SPAC",
-        "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
-      },
-      {
-        "name": "PLD Space",
-        "current_stage": "SPAC",
-        "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
-      },
-      {
-        "name": "Starcloud",
         "current_stage": "SPAC",
         "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
       }
@@ -95,11 +90,6 @@
         "founder": "Matt Garcia (MIT aero; ex-founding engineer & head of propulsion, Mach Industries)"
       },
       {
-        "name": "Groq",
-        "sector": "Chips & Semiconductors",
-        "founder": "Jonathan Ross, Douglas Wightman"
-      },
-      {
         "name": "Wisk Aero",
         "sector": "Space & Aerospace",
         "founder": "Gary Gysin"
@@ -131,7 +121,7 @@
       },
       {
         "name": "Ohalo Genetics",
-        "sector": "Robotics & Manufacturing",
+        "sector": "Biotech & Health",
         "founder": "David Friedberg, Judson Ward"
       },
       {
@@ -503,29 +493,34 @@
         "name": "XENOPS",
         "sector": "Robotics & Manufacturing",
         "founder": "William I. Gibbs IV"
+      },
+      {
+        "name": "Vinci",
+        "sector": "AI & Software",
+        "founder": "Hardik Kabaria, Sarah Osentoski, Vincent Rerolle"
       }
     ],
     "stage_vocabulary": {
-      "Series A": 295,
-      "Seed": 244,
-      "Series B": 206,
-      "Series C": 133,
+      "Series A": 296,
+      "Seed": 246,
+      "Series B": 207,
+      "Series C": 131,
       "Public": 56,
+      "Undisclosed": 44,
       "Series D": 38,
       "Growth": 27,
       "Pre-Seed": 25,
       "Series E": 17,
       "Series G": 17,
+      "Private": 11,
       "Late Stage": 10,
-      "Private": 10,
       "Series F": 9,
-      "IPO": 6,
-      "SPAC": 6,
-      "Undisclosed": 6,
-      "Pre-IPO": 3,
+      "IPO": 5,
+      "SPAC": 5,
       "Bootstrapped": 3,
       "Public (KOSDAQ)": 3,
       "Series B-2": 2,
+      "Pre-IPO": 2,
       "Acquired": 2,
       "Public (Tokyo)": 2,
       "Series D+": 2,
@@ -552,6 +547,13 @@
       "Growth + Offtake": 1
     },
     "web_probes": [
+      {
+        "kind": "rebrand_suspect",
+        "name": "Applied Atomics",
+        "old_url": "https://www.applied-atomics.com",
+        "new_url": "https://www.appliedatomics.com/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
       {
         "kind": "rebrand_suspect",
         "name": "Dominion Dynamics",
@@ -586,13 +588,6 @@
         "url": "https://aaloatomics.com",
         "status": 405,
         "action": "Website returns error code. Verify company is still operating."
-      },
-      {
-        "kind": "unreachable_website",
-        "name": "Intuitive Machines",
-        "url": "https://intuitivemachines.com",
-        "error": "SSLError",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
       },
       {
         "kind": "rebrand_suspect",
@@ -686,11 +681,11 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "unreachable_website",
+        "kind": "dead_website",
         "name": "Rune Technologies",
         "url": "https://runetechnologies.co",
-        "error": "ConnectionError",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
+        "status": 405,
+        "action": "Website returns error code. Verify company is still operating."
       },
       {
         "kind": "dead_website",
@@ -716,7 +711,7 @@
     ]
   },
   "summary": {
-    "p0_issues": 15,
+    "p0_issues": 16,
     "p1_issues": 12,
     "missing_websites": 90,
     "distinct_stages": 44
