@@ -1,15 +1,15 @@
 // Auto-generated from discovery_queue_auto.json
-// Last updated: 2026-08-19T09:27:37+00:00
+// Last updated: 2026-08-23T09:20:57+00:00
 const DISCOVERY_QUEUE_AUTO = {
-  "generatedAt": "2026-08-19T09:27:37+00:00",
-  "knownCompaniesCount": 1971,
+  "generatedAt": "2026-08-23T09:20:57+00:00",
+  "knownCompaniesCount": 1973,
   "summary": {
-    "totalCandidates": 63,
+    "totalCandidates": 69,
     "fromFormD": 0,
     "fromVcPortfolios": 64,
-    "fromNewsletters": 12,
-    "fromLlmExtraction": 33,
-    "multiSource": 5
+    "fromNewsletters": 15,
+    "fromLlmExtraction": 38,
+    "multiSource": 4
   },
   "candidates": [
     {
@@ -343,6 +343,129 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
+      "name": "OpenRouter",
+      "score": 120,
+      "signals": [
+        {
+          "name": "OpenRouter",
+          "source": "LLM (20VC)",
+          "sourceWeight": 30,
+          "context": "Unified interface platform that aggregates access to multiple large language models from different providers.",
+          "founder": "Alex Atallah",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "high",
+          "date": "Thu, 23 Jul 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-openai-and-anthropic-threatened-by-kimi-should-the-us-ban-chinese-open-source-models-should-openrouter-sell-value-in-the-routing-layer-stripe-buying-paypal-what-you-need-to-know",
+          "articleTitle": "20VC: OpenAI and Anthropic Threatened by Kimi? | Should the US Ban Chinese Open-Source Models | Should Openrouter Sell & Value in the Routing Layer? | Stripe Buying Paypal: What You Need to Know",
+          "suggestedSector": "AI & Compute"
+        },
+        {
+          "name": "OpenRouter",
+          "source": "LLM (20VC)",
+          "sourceWeight": 30,
+          "context": "Unified interface platform that aggregates access to multiple large language models from different providers.",
+          "founder": "Alex Atallah",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "high",
+          "date": "Thu, 20 Aug 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-spacex-buys-cursor-for-60bn-stripes-8bn-openrouter-bet-anthropics-first-profit-the-math-behind-reaching-600bn-in-revenue-lovable-and-higgsfield-raise-mega-rounds",
+          "articleTitle": "20VC: SpaceX Buys Cursor for $60BN | Stripe's $8BN OpenRouter Bet | Anthropic's First Profit & The Math Behind Reaching $600BN in Revenue? | Lovable and Higgsfield Raise Mega Rounds",
+          "suggestedSector": "AI & Compute"
+        },
+        {
+          "name": "OpenRouter",
+          "source": "LLM (20VC)",
+          "sourceWeight": 30,
+          "context": "Unified interface platform that aggregates access to multiple large language models from different providers.",
+          "founder": "Alex Atallah",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "high",
+          "date": "Mon, 27 Jul 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-leading-anthropics-first-ever-round-will-open-source-threaten-anthropics-business-do-margins-matter-in-a-world-of-ai-why-triple-triple-double-double-is-not-good-enough-today-why-series-a-is-hard-today-with-matt-murphy-menlo",
+          "articleTitle": "20VC: Leading Anthropic's First Ever Round | Will Open Source Threaten Anthropic's Business | Do Margins Matter in a World of AI | Why Triple, Triple, Double, Double is Not Good Enough Today | Why Ser",
+          "suggestedSector": "AI & Compute"
+        },
+        {
+          "name": "OpenRouter",
+          "source": "LLM (20VC)",
+          "sourceWeight": 30,
+          "context": "Unified interface platform that aggregates access to multiple large language models from different providers.",
+          "founder": "Alex Atallah",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "high",
+          "date": "Mon, 10 Aug 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-will-openrouter-sell-for-10bn-to-stripe-why-chinese-open-models-are-beating-americaand-what-happens-next-why-enterprises-are-more-fearful-of-anthropic-and-openai-than-china-is-the-routing-layer-becoming-a-commodity-with-alex-atallah",
+          "articleTitle": "20VC: Will OpenRouter Sell for $10BN to Stripe? | Why Chinese Open Models Are Beating America\u2014and What Happens Next | Why Enterprises Are More Fearful of Anthropic and OpenAI Than China | Is the Routi",
+          "suggestedSector": "AI & Compute"
+        }
+      ],
+      "sources": [
+        "LLM (20VC)"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": null
+    },
+    {
+      "name": "Lovable",
+      "score": 110,
+      "signals": [
+        {
+          "name": "Lovable",
+          "source": "LLM (All-In)",
+          "sourceWeight": 30,
+          "context": "AI platform enabling rapid app creation with vibe coding, targeting dramatic reduction in development costs and enabling one million new apps per week.",
+          "founder": "Anton Osika",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "high",
+          "date": "Wed, 15 Jul 2026 20:55:00 +0000",
+          "verifyUrl": "https://allinchamathjason.libsyn.com/former-intel-ceo-on-what-went-wrong-whats-next-lovable-ceo-on-the-real-promise-of-vibe-coding",
+          "articleTitle": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+          "suggestedSector": "AI & Compute"
+        },
+        {
+          "name": "Lovable",
+          "source": "LLM (20VC)",
+          "sourceWeight": 30,
+          "context": "AI platform enabling rapid app creation with vibe coding, targeting dramatic reduction in development costs and enabling one million new apps per week.",
+          "founder": "Anton Osika",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "high",
+          "date": "Thu, 20 Aug 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-spacex-buys-cursor-for-60bn-stripes-8bn-openrouter-bet-anthropics-first-profit-the-math-behind-reaching-600bn-in-revenue-lovable-and-higgsfield-raise-mega-rounds",
+          "articleTitle": "20VC: SpaceX Buys Cursor for $60BN | Stripe's $8BN OpenRouter Bet | Anthropic's First Profit & The Math Behind Reaching $600BN in Revenue? | Lovable and Higgsfield Raise Mega Rounds",
+          "suggestedSector": "AI & Compute"
+        },
+        {
+          "name": "Lovable",
+          "source": "LLM (20VC)",
+          "sourceWeight": 30,
+          "context": "AI platform enabling rapid app creation with vibe coding, targeting dramatic reduction in development costs and enabling one million new apps per week.",
+          "founder": "Anton Osika",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "high",
+          "date": "Mon, 27 Jul 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-leading-anthropics-first-ever-round-will-open-source-threaten-anthropics-business-do-margins-matter-in-a-world-of-ai-why-triple-triple-double-double-is-not-good-enough-today-why-series-a-is-hard-today-with-matt-murphy-menlo",
+          "articleTitle": "20VC: Leading Anthropic's First Ever Round | Will Open Source Threaten Anthropic's Business | Do Margins Matter in a World of AI | Why Triple, Triple, Double, Double is Not Good Enough Today | Why Ser",
+          "suggestedSector": "AI & Compute"
+        }
+      ],
+      "sources": [
+        "LLM (20VC)",
+        "LLM (All-In)"
+      ],
+      "multiSource": true,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
       "name": "Anysphere",
       "score": 105,
       "signals": [
@@ -428,7 +551,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Fireworks",
           "source": "LLM (Invest Like the Best)",
           "sourceWeight": 30,
-          "context": "An AI inference and model serving platform that helps developers deploy and run large language models efficiently.",
+          "context": "AI infrastructure company that raised $1.5B, focusing on enabling AI applications through infrastructure services.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -442,7 +565,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Fireworks",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "An AI inference and model serving platform that helps developers deploy and run large language models efficiently.",
+          "context": "AI infrastructure company that raised $1.5B, focusing on enabling AI applications through infrastructure services.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -462,41 +585,41 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Sierra",
+      "name": "Legora",
       "score": 80,
       "signals": [
         {
-          "name": "Sierra",
-          "source": "LLM (Invest Like the Best)",
+          "name": "Legora",
+          "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "Enterprise AI company providing forward-deployed AI solutions to Fortune 50 companies, recently surpassed $150M ARR.",
-          "founder": "Clay Bavor",
+          "context": "Narrow AI models disrupting law firms by replacing billable-hour legal work, competing against LexisNexis incumbents.",
+          "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
           "confidence": "high",
-          "date": "Tue, 11 Aug 2026 08:00:00 -0000",
-          "verifyUrl": "https://colossus.com/episode/sandcastles-and-silicon/",
-          "articleTitle": "Eric Vishria - A Decade of Lessons Investing in Software & Hardware - [Invest Like the Best, EP.486]",
+          "date": "Mon, 27 Jul 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-leading-anthropics-first-ever-round-will-open-source-threaten-anthropics-business-do-margins-matter-in-a-world-of-ai-why-triple-triple-double-double-is-not-good-enough-today-why-series-a-is-hard-today-with-matt-murphy-menlo",
+          "articleTitle": "20VC: Leading Anthropic's First Ever Round | Will Open Source Threaten Anthropic's Business | Do Margins Matter in a World of AI | Why Triple, Triple, Double, Double is Not Good Enough Today | Why Ser",
           "suggestedSector": "AI & Compute"
         },
         {
-          "name": "Sierra",
-          "source": "LLM (20VC)",
+          "name": "Legora",
+          "source": "LLM (All-In)",
           "sourceWeight": 30,
-          "context": "Enterprise AI company providing forward-deployed AI solutions to Fortune 50 companies, recently surpassed $150M ARR.",
-          "founder": "Clay Bavor",
+          "context": "Narrow AI models disrupting law firms by replacing billable-hour legal work, competing against LexisNexis incumbents.",
+          "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
           "confidence": "high",
-          "date": "Sat, 04 Jul 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-open-models-vs-frontier-models-who-actually-wins-the-100000-token-budget-every-engineer-will-need-why-forward-deployed-engineers-are-the-future-of-enterprise-ai-with-clay-bavor-co-founder-of-sierra",
-          "articleTitle": "20VC: Open Models vs Frontier Models: Who Actually Wins? | The $100,000 Token Budget Every Engineer Will Need | Why Forward-Deployed Engineers Are the Future of Enterprise AI with Clay Bavor, Co-Found",
+          "date": "Mon, 13 Jul 2026 22:07:00 +0000",
+          "verifyUrl": "https://allinchamathjason.libsyn.com/the-trillion-dollar-industries-ai-is-disrupting-voice-law-the-end-of-the-billable-hour",
+          "articleTitle": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
           "suggestedSector": "AI & Compute"
         }
       ],
       "sources": [
         "LLM (20VC)",
-        "LLM (Invest Like the Best)"
+        "LLM (All-In)"
       ],
       "multiSource": true,
       "confidence": "high",
@@ -833,84 +956,8 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "OpenRouter",
-      "score": 60,
-      "signals": [
-        {
-          "name": "OpenRouter",
-          "source": "LLM (20VC)",
-          "sourceWeight": 30,
-          "context": "AI routing layer platform that aggregates access to multiple frontier language models.",
-          "founder": "Alex Atallah",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Thu, 23 Jul 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-openai-and-anthropic-threatened-by-kimi-should-the-us-ban-chinese-open-source-models-should-openrouter-sell-value-in-the-routing-layer-stripe-buying-paypal-what-you-need-to-know",
-          "articleTitle": "20VC: OpenAI and Anthropic Threatened by Kimi? | Should the US Ban Chinese Open-Source Models | Should Openrouter Sell & Value in the Routing Layer? | Stripe Buying Paypal: What You Need to Know",
-          "suggestedSector": "AI & Compute"
-        },
-        {
-          "name": "OpenRouter",
-          "source": "LLM (20VC)",
-          "sourceWeight": 30,
-          "context": "AI routing layer platform that aggregates access to multiple frontier language models.",
-          "founder": "Alex Atallah",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Mon, 10 Aug 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-will-openrouter-sell-for-10bn-to-stripe-why-chinese-open-models-are-beating-americaand-what-happens-next-why-enterprises-are-more-fearful-of-anthropic-and-openai-than-china-is-the-routing-layer-becoming-a-commodity-with-alex-atallah",
-          "articleTitle": "20VC: Will OpenRouter Sell for $10BN to Stripe? | Why Chinese Open Models Are Beating America\u2014and What Happens Next | Why Enterprises Are More Fearful of Anthropic and OpenAI Than China | Is the Routi",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Moove",
-      "score": 47.5,
-      "signals": [
-        {
-          "name": "Moove",
-          "source": "Newsletter: TechCrunch \u00b7 Venture",
-          "sourceWeight": 9.5,
-          "context": "Moove raises $250M to become the backbone of the robotaxi industry\nMoove is scaling up the autonomou",
-          "date": "Wed, 05 Aug 2026 20:50:45 +0000",
-          "verifyUrl": "https://techcrunch.com/2026/08/05/moove-raises-250m-to-become-the-backbone-of-the-robotaxi-industry/",
-          "articleTitle": "Moove raises $250M to become the backbone of the robotaxi industry"
-        },
-        {
-          "name": "Moove",
-          "source": "LLM (TechCrunch \u00b7 Venture)",
-          "sourceWeight": 18,
-          "context": "Moove provides infrastructure and services to support the autonomous robotaxi industry at scale.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Wed, 05 Aug 2026 20:50:45 +0000",
-          "verifyUrl": "https://techcrunch.com/2026/08/05/moove-raises-250m-to-become-the-backbone-of-the-robotaxi-industry/",
-          "articleTitle": "Moove raises $250M to become the backbone of the robotaxi industry",
-          "suggestedSector": "Robotics & Manufacturing"
-        }
-      ],
-      "sources": [
-        "LLM (TechCrunch \u00b7 Venture)",
-        "Newsletter"
-      ],
-      "multiSource": true,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
       "name": "Base Energy",
-      "score": 43.2,
+      "score": 35.2,
       "signals": [
         {
           "name": "Base Energy",
@@ -924,11 +971,11 @@ const DISCOVERY_QUEUE_AUTO = {
         {
           "name": "Base Energy",
           "source": "LLM (Not Boring (Packy McCormick))",
-          "sourceWeight": 16,
-          "context": "An energy plan service offering guaranteed below-market electricity rates to customers.",
+          "sourceWeight": 8,
+          "context": "An energy plan service offering guaranteed below-market rates to customers, launched as an expansion of Base's core offerings.",
           "founder": "",
           "fundingMentioned": null,
-          "stealthSignal": true,
+          "stealthSignal": false,
           "confidence": "low",
           "date": "Wed, 12 Aug 2026 13:53:37 GMT",
           "verifyUrl": "https://www.notboring.co/p/base-power-company-chapter-3",
@@ -943,47 +990,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": true,
       "confidence": "high",
       "suggestedSector": "Space & Aerospace"
-    },
-    {
-      "name": "Frontier Labs",
-      "score": 36,
-      "signals": [
-        {
-          "name": "Frontier Labs",
-          "source": "LLM (20VC)",
-          "sourceWeight": 8,
-          "context": "Referenced as a category of companies that large enterprises are hesitant to partner with, suggesting they are cutting-edge frontier AI/model development firms.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Sat, 25 Jul 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-mercor-cpo-on-revenue-concentration-from-frontier-labs-why-large-enterprise-is-scared-to-partner-with-frontier-labs-why-small-specialised-models-is-the-future-with-osvald-nitski",
-          "articleTitle": "20VC: Mercor CPO on Revenue Concentration from Frontier Labs | Why Large Enterprise is Scared to Partner with Frontier Labs | Why Small Specialised Models is the Future with Osvald Nitski",
-          "suggestedSector": "AI & Compute"
-        },
-        {
-          "name": "Frontier Labs",
-          "source": "LLM (All-In)",
-          "sourceWeight": 8,
-          "context": "Referenced as a category of companies that large enterprises are hesitant to partner with, suggesting they are cutting-edge frontier AI/model development firms.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Fri, 31 Jul 2026 22:23:00 +0000",
-          "verifyUrl": "https://allinchamathjason.libsyn.com/chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow-down-ai-mamdanis-grocery-stores",
-          "articleTitle": "Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)",
-        "LLM (All-In)"
-      ],
-      "multiSource": true,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
     },
     {
       "name": "Modal",
@@ -1119,7 +1125,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Arena",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "Real-world evaluation platform serving as a leading referee for comparing and benchmarking global AI models, with 30M+ monthly users and $100M+ ARR.",
+          "context": "Real-world evaluation platform that benchmarks and compares global AI models, serving as a referee for the AI model race with 30M+ monthly users and $100M+ ARR.",
           "founder": "Anastasios Angelopoulos",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1145,7 +1151,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Coherence",
           "source": "LLM (Core Memory)",
           "sourceWeight": 30,
-          "context": "Develops implantable devices that track and treat cancer tumors with precision monitoring and intervention capabilities.",
+          "context": "Develops implantable devices that track and treat cancer tumors with precision monitoring and targeted intervention.",
           "founder": "Ben Woodington",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1171,7 +1177,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Curative",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "A health company that scaled from COVID testing operations to a unicorn-status health insurance business.",
+          "context": "A health tech company that scaled from COVID testing operations to a unicorn-valued health insurance business.",
           "founder": "Fred Turner",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1197,7 +1203,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "ElevenLabs",
           "source": "LLM (All-In)",
           "sourceWeight": 30,
-          "context": "Text-to-speech and voice AI platform generating $600M ARR with 600 employees, competing in voice synthesis and celebrity voice deals.",
+          "context": "AI voice synthesis and text-to-speech platform with $600M ARR and 600 employees, competing with OpenAI and Anthropic on voice technology.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1223,7 +1229,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Fireworks AI",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "Specialized intelligence and AI inference platform optimizing token costs and enabling deployment of millions of specialized models.",
+          "context": "A specialized intelligence and AI inference platform optimized for running and serving AI models at scale with lower costs.",
           "founder": "Lin Qiao",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1249,7 +1255,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Flock",
           "source": "LLM (All-In)",
           "sourceWeight": 30,
-          "context": "License plate recognition and AI-powered audit platform for law enforcement that analyzes camera data to solve crimes and identify officer misconduct.",
+          "context": "License plate recognition and camera network platform for law enforcement that analyzes traffic data to solve crimes while managing privacy concerns.",
           "founder": "Garrett Langley",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1265,7 +1271,7 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "medium",
-      "suggestedSector": "AI & Compute"
+      "suggestedSector": null
     },
     {
       "name": "Glean",
@@ -1275,7 +1281,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Glean",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "Enterprise AI platform that helps organizations leverage AI for knowledge work and business intelligence.",
+          "context": "Enterprise AI platform that helps organizations search and extract insights from internal data and documents.",
           "founder": "Arvind Jain",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1294,58 +1300,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Legora",
-      "score": 30,
-      "signals": [
-        {
-          "name": "Legora",
-          "source": "LLM (All-In)",
-          "sourceWeight": 30,
-          "context": "Hypergrowth legal AI startup using narrow AI models to disrupt law firms and challenge the traditional billable hour model.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Mon, 13 Jul 2026 22:07:00 +0000",
-          "verifyUrl": "https://allinchamathjason.libsyn.com/the-trillion-dollar-industries-ai-is-disrupting-voice-law-the-end-of-the-billable-hour",
-          "articleTitle": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (All-In)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Lovable",
-      "score": 30,
-      "signals": [
-        {
-          "name": "Lovable",
-          "source": "LLM (All-In)",
-          "sourceWeight": 30,
-          "context": "AI-powered platform enabling rapid app creation at scale, positioning itself as a cost-effective alternative to traditional software development.",
-          "founder": "Anton Osika",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Wed, 15 Jul 2026 20:55:00 +0000",
-          "verifyUrl": "https://allinchamathjason.libsyn.com/former-intel-ceo-on-what-went-wrong-whats-next-lovable-ceo-on-the-real-promise-of-vibe-coding",
-          "articleTitle": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (All-In)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
       "name": "Mercor",
       "score": 30,
       "signals": [
@@ -1353,7 +1307,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Mercor",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "An AI-training and expert-data marketplace that powers frontier-model development, enabling companies to access curated data and expertise for training advanced AI systems.",
+          "context": "AI-training and expert-data marketplace that powers frontier-model development, with $2 billion ARR as of June.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1372,32 +1326,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Moonshot AI",
-      "score": 30,
-      "signals": [
-        {
-          "name": "Moonshot AI",
-          "source": "LLM (20VC)",
-          "sourceWeight": 30,
-          "context": "Chinese AI model company raising capital at a $35B valuation as competitive pricing pressures intensify in the AI market.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Thu, 06 Aug 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-airtable-sold-for-1285bn-leo-achenbrenners-situational-awareness-blows-up-moonshot-ai-raises-35b-at-35b-anthropic-model-breaches-three-companies-security-big-tech-earnings-why-palantir-beat-the-rest",
-          "articleTitle": "20VC: Airtable Sold for $1.285BN | Leo Achenbrenner's Situational Awareness Blows Up | Moonshot AI Raises $3.5B at $35B | Anthropic Model Breaches Three Companies' Security | Big Tech Earnings: Why Pa",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
       "name": "NEO",
       "score": 30,
       "signals": [
@@ -1405,7 +1333,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "NEO",
           "source": "LLM (All-In)",
           "sourceWeight": 30,
-          "context": "Building an open robot platform with humanoid robots shipping in 2026, including robots that can build other robots.",
+          "context": "Building an open-source robot platform shipping in 2026 capable of robots building robots.",
           "founder": "Bernt B\u00f8rnich",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1431,7 +1359,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Simile",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "AI company building foundation models of human behavior to simulate how people think, decide, and act for corporate decision-making.",
+          "context": "AI company building foundation models of human behavior to simulate how real people think, decide, and act for corporate decision-making.",
           "founder": "Joon Sung Park",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1457,7 +1385,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Astra",
           "source": "LLM (TBPN)",
           "sourceWeight": 18,
-          "context": "Space launch company that has achieved 10 mathematical or technical advances in their launch capability.",
+          "context": "Space company that has achieved 10 mathematical or technical advances, likely in launch or orbital mechanics.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1483,7 +1411,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Base44",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "An AI application-building platform that was acquired by Wix, focusing on rapid AI-powered app development.",
+          "context": "An AI application-building platform focused on no-code/low-code development, acquired by Wix.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1502,26 +1430,26 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Cere",
+      "name": "CoreWeave",
       "score": 18,
       "signals": [
         {
-          "name": "Cere",
-          "source": "LLM (Invest Like the Best)",
+          "name": "CoreWeave",
+          "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "A decentralized data and AI company building infrastructure for machine learning and data management.",
+          "context": "A compute infrastructure provider that appears to be positioned as a competitor or alternative to traditional GPU/AI compute suppliers.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
           "confidence": "medium",
-          "date": "Tue, 11 Aug 2026 08:00:00 -0000",
-          "verifyUrl": "https://colossus.com/episode/sandcastles-and-silicon/",
-          "articleTitle": "Eric Vishria - A Decade of Lessons Investing in Software & Hardware - [Invest Like the Best, EP.486]",
+          "date": "Thu, 09 Jul 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-sam-altman-offers-trump-5-of-openai-fool-or-genius-alex-karp-sounds-the-alarm-enterprises-fear-frontier-models-questionable-roi-of-ai-the-rise-of-chinese-open-source-deepseek-building-own-chips",
+          "articleTitle": "20VC: Sam Altman Offers Trump 5% of OpenAI: Fool or Genius? | Alex Karp Sounds the Alarm: Enterprises Fear Frontier Models & Questionable ROI of AI | The Rise of Chinese Open Source: Deepseek Building",
           "suggestedSector": "AI & Compute"
         }
       ],
       "sources": [
-        "LLM (Invest Like the Best)"
+        "LLM (20VC)"
       ],
       "multiSource": false,
       "confidence": "medium",
@@ -1535,7 +1463,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Intelligence",
           "source": "LLM (TBPN)",
           "sourceWeight": 18,
-          "context": "Uses human preferences to improve AI-generated designs, games, and websites through a feedback-based intelligence system.",
+          "context": "Uses human preferences to improve AI-generated designs, games, and websites through a design arena platform.",
           "founder": "Grace Lee",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1561,7 +1489,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Rubrik",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "Cloud infrastructure company focused on data management and protection, now a public company.",
+          "context": "Cloud infrastructure company focused on data management and backup solutions.",
           "founder": "Arvind Jain",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1569,7 +1497,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "date": "Sat, 11 Jul 2026 07:07:00 +0000",
           "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-why-openai-and-anthropic-wont-win-the-app-layer-why-teams-will-get-bigger-not-smaller-in-a-world-of-ai-why-ai-removes-incumbents-advantage-of-bundling-china-vs-america-who-wins-the-ai-war-with-arvind-jain-co-founder-glean",
           "articleTitle": "20VC: Why OpenAI and Anthropic Won't Win the App Layer | Why Teams Will Get Bigger Not Smaller in a World of AI | Why AI Removes Incumbents Advantage of Bundling | China vs America: Who Wins the AI Wa",
-          "suggestedSector": "AI & Compute"
+          "suggestedSector": "Advanced Manufacturing"
         }
       ],
       "sources": [
@@ -1580,6 +1508,32 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
+      "name": "Sierra",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Sierra",
+          "source": "LLM (Invest Like the Best)",
+          "sourceWeight": 18,
+          "context": "An AI company focused on customer-facing applications and intelligence.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "medium",
+          "date": "Tue, 11 Aug 2026 08:00:00 -0000",
+          "verifyUrl": "https://colossus.com/episode/sandcastles-and-silicon/",
+          "articleTitle": "Eric Vishria - A Decade of Lessons Investing in Software & Hardware - [Invest Like the Best, EP.486]",
+          "suggestedSector": "AI & Compute"
+        }
+      ],
+      "sources": [
+        "LLM (Invest Like the Best)"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": "AI & Compute"
+    },
+    {
       "name": "Unsloth AI",
       "score": 18,
       "signals": [
@@ -1587,7 +1541,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Unsloth AI",
           "source": "LLM (Latent Space (swyx))",
           "sourceWeight": 18,
-          "context": "Open-source desktop application for running and training machine learning models locally on consumer hardware.",
+          "context": "Provides open-source tools for running and training AI models locally on desktop environments.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1613,7 +1567,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Viktor",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "An AI coworker platform backed by Accel that automates workplace tasks.",
+          "context": "An AI coworker platform backed by Accel that automates work tasks.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1639,7 +1593,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Wispr Flow",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "An AI-powered platform that scaled to millions of users with automated growth capabilities.",
+          "context": "An AI-powered application that scaled from pre-launch to millions of users.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1655,7 +1609,7 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "medium",
-      "suggestedSector": "AI & Compute"
+      "suggestedSector": "Space & Aerospace"
     },
     {
       "name": "UnslothAI",
@@ -1721,6 +1675,84 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
+      "name": "Axiom",
+      "score": 8,
+      "signals": [
+        {
+          "name": "Axiom",
+          "source": "LLM (20VC)",
+          "sourceWeight": 8,
+          "context": "Likely a robotics or automation company in Menlo's portfolio.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "low",
+          "date": "Mon, 27 Jul 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-leading-anthropics-first-ever-round-will-open-source-threaten-anthropics-business-do-margins-matter-in-a-world-of-ai-why-triple-triple-double-double-is-not-good-enough-today-why-series-a-is-hard-today-with-matt-murphy-menlo",
+          "articleTitle": "20VC: Leading Anthropic's First Ever Round | Will Open Source Threaten Anthropic's Business | Do Margins Matter in a World of AI | Why Triple, Triple, Double, Double is Not Good Enough Today | Why Ser",
+          "suggestedSector": "Robotics & Manufacturing"
+        }
+      ],
+      "sources": [
+        "LLM (20VC)"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Robotics & Manufacturing"
+    },
+    {
+      "name": "Cere",
+      "score": 8,
+      "signals": [
+        {
+          "name": "Cere",
+          "source": "LLM (Invest Like the Best)",
+          "sourceWeight": 8,
+          "context": "A company working in the AI or data infrastructure space.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "low",
+          "date": "Tue, 11 Aug 2026 08:00:00 -0000",
+          "verifyUrl": "https://colossus.com/episode/sandcastles-and-silicon/",
+          "articleTitle": "Eric Vishria - A Decade of Lessons Investing in Software & Hardware - [Invest Like the Best, EP.486]",
+          "suggestedSector": "AI & Compute"
+        }
+      ],
+      "sources": [
+        "LLM (Invest Like the Best)"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "Cursor",
+      "score": 8,
+      "signals": [
+        {
+          "name": "Cursor",
+          "source": "LLM (20VC)",
+          "sourceWeight": 8,
+          "context": "AI-powered code editor that was acquired by SpaceX for $60BN according to the podcast discussion.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "low",
+          "date": "Thu, 20 Aug 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-spacex-buys-cursor-for-60bn-stripes-8bn-openrouter-bet-anthropics-first-profit-the-math-behind-reaching-600bn-in-revenue-lovable-and-higgsfield-raise-mega-rounds",
+          "articleTitle": "20VC: SpaceX Buys Cursor for $60BN | Stripe's $8BN OpenRouter Bet | Anthropic's First Profit & The Math Behind Reaching $600BN in Revenue? | Lovable and Higgsfield Raise Mega Rounds",
+          "suggestedSector": "AI & Compute"
+        }
+      ],
+      "sources": [
+        "LLM (20VC)"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
       "name": "Design Arena",
       "score": 8,
       "signals": [
@@ -1728,7 +1760,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Design Arena",
           "source": "LLM (TBPN)",
           "sourceWeight": 8,
-          "context": "Platform that leverages human preferences to optimize AI-generated designs and creative outputs.",
+          "context": "Platform that leverages human preferences to enhance AI-generated creative outputs across design, gaming, and web applications.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1747,22 +1779,22 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Terafab",
+      "name": "Frontier Labs",
       "score": 8,
       "signals": [
         {
-          "name": "Terafab",
+          "name": "Frontier Labs",
           "source": "LLM (All-In)",
           "sourceWeight": 8,
-          "context": "A manufacturing company mentioned in context of SpaceX's operations, likely focused on advanced production capabilities.",
+          "context": "An organization or collective of frontier technology labs advocating for slowing down AI development.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
           "confidence": "low",
-          "date": "Sat, 08 Aug 2026 00:32:00 +0000",
-          "verifyUrl": "https://allinchamathjason.libsyn.com/googles-ai-brain-drain-spacexs-huge-quarter-airtables-90-collapse-us-data-fuels-china-ai",
-          "articleTitle": "Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
-          "suggestedSector": "Advanced Manufacturing"
+          "date": "Fri, 31 Jul 2026 22:23:00 +0000",
+          "verifyUrl": "https://allinchamathjason.libsyn.com/chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow-down-ai-mamdanis-grocery-stores",
+          "articleTitle": "Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores",
+          "suggestedSector": "AI & Compute"
         }
       ],
       "sources": [
@@ -1770,7 +1802,59 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "low",
-      "suggestedSector": "Space & Aerospace"
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Higgsfield",
+      "score": 8,
+      "signals": [
+        {
+          "name": "Higgsfield",
+          "source": "LLM (20VC)",
+          "sourceWeight": 8,
+          "context": "Startup mentioned as raising a mega round in the episode title.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "low",
+          "date": "Thu, 20 Aug 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-spacex-buys-cursor-for-60bn-stripes-8bn-openrouter-bet-anthropics-first-profit-the-math-behind-reaching-600bn-in-revenue-lovable-and-higgsfield-raise-mega-rounds",
+          "articleTitle": "20VC: SpaceX Buys Cursor for $60BN | Stripe's $8BN OpenRouter Bet | Anthropic's First Profit & The Math Behind Reaching $600BN in Revenue? | Lovable and Higgsfield Raise Mega Rounds",
+          "suggestedSector": "Quantum Computing"
+        }
+      ],
+      "sources": [
+        "LLM (20VC)"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "OpenEvidence",
+      "score": 8,
+      "signals": [
+        {
+          "name": "OpenEvidence",
+          "source": "LLM (20VC)",
+          "sourceWeight": 8,
+          "context": "A biotech or health-tech platform focused on evidence or data.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "low",
+          "date": "Mon, 27 Jul 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-leading-anthropics-first-ever-round-will-open-source-threaten-anthropics-business-do-margins-matter-in-a-world-of-ai-why-triple-triple-double-double-is-not-good-enough-today-why-series-a-is-hard-today-with-matt-murphy-menlo",
+          "articleTitle": "20VC: Leading Anthropic's First Ever Round | Will Open Source Threaten Anthropic's Business | Do Margins Matter in a World of AI | Why Triple, Triple, Double, Double is Not Good Enough Today | Why Ser",
+          "suggestedSector": "Biotech & Health"
+        }
+      ],
+      "sources": [
+        "LLM (20VC)"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Biotech & Health"
     },
     {
       "name": "Anduril",
@@ -1836,27 +1920,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "Space & Aerospace"
     },
     {
-      "name": "Freestyle",
-      "score": 6.3,
-      "signals": [
-        {
-          "name": "Freestyle",
-          "source": "Newsletter: Newcomer (Eric Newcomer)",
-          "sourceWeight": 6.3,
-          "context": "use rule, Freestyle sells some shares of its portfolio companies once they hit a unicorn valuation. Freestyle exited a significant amount of its position in 2021 at Airtable\u2019s peak valuation of $11.7 ",
-          "date": "Fri, 07 Aug 2026 16:06:40 GMT",
-          "verifyUrl": "https://www.newcomer.co/p/saas-shudders-after-airtables-humbling",
-          "articleTitle": "SaaS Shudders After Airtable's Humbling Sale to Italian Grim Reaper Bending Spoons"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "AI & Compute"
-    },
-    {
       "name": "Evaluation",
       "score": 5.95,
       "signals": [
@@ -1918,6 +1981,111 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "low",
       "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "After",
+      "score": 4.5,
+      "signals": [
+        {
+          "name": "After",
+          "source": "Newsletter: TechCrunch \u00b7 Venture",
+          "sourceWeight": 4.5,
+          "context": "Travis Kalanick kicks off another round of VC bashing: \u20181% are helpful\u2019\nAfter raising $1.7 billion for his new robotics company Atoms, Travis Kalanick is introspective abou",
+          "date": "Wed, 19 Aug 2026 21:48:24 +0000",
+          "verifyUrl": "https://techcrunch.com/2026/08/19/travis-kalanick-kicks-off-another-round-of-vc-bashing-1-are-helpful/",
+          "articleTitle": "Travis Kalanick kicks off another round of VC bashing: \u20181% are helpful\u2019"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Travis Kalanick",
+      "score": 4.5,
+      "signals": [
+        {
+          "name": "Travis Kalanick",
+          "source": "Newsletter: TechCrunch \u00b7 Venture",
+          "sourceWeight": 4.5,
+          "context": "ound of VC bashing: \u20181% are helpful\u2019\nAfter raising $1.7 billion for his new robotics company Atoms, Travis Kalanick is introspective about the role VCs have played in his career.",
+          "date": "Wed, 19 Aug 2026 21:48:24 +0000",
+          "verifyUrl": "https://techcrunch.com/2026/08/19/travis-kalanick-kicks-off-another-round-of-vc-bashing-1-are-helpful/",
+          "articleTitle": "Travis Kalanick kicks off another round of VC bashing: \u20181% are helpful\u2019"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "DoorDash",
+      "score": 4.2,
+      "signals": [
+        {
+          "name": "DoorDash",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 4.2,
+          "context": "ivery service to reach 500 cities by the end of the year.  These announcements come on the heels of DoorDash launching its  DoorDash Air  in-house drone program.  And yesterday, a Texas woman shared a",
+          "date": "Fri, 21 Aug 2026 14:23:17 GMT",
+          "verifyUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-207",
+          "articleTitle": "Weekly Dose of Optimism #207"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Defense & Security"
+    },
+    {
+      "name": "DoorDash Air",
+      "score": 4.2,
+      "signals": [
+        {
+          "name": "DoorDash Air",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 4.2,
+          "context": "00 cities by the end of the year.  These announcements come on the heels of DoorDash launching its  DoorDash Air  in-house drone program.  And yesterday, a Texas woman shared a video of Amazon Prime A",
+          "date": "Fri, 21 Aug 2026 14:23:17 GMT",
+          "verifyUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-207",
+          "articleTitle": "Weekly Dose of Optimism #207"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Defense & Security"
+    },
+    {
+      "name": "Texas",
+      "score": 4.2,
+      "signals": [
+        {
+          "name": "Texas",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 4.2,
+          "context": "ome on the heels of DoorDash launching its  DoorDash Air  in-house drone program.  And yesterday, a Texas woman shared a video of Amazon Prime Air dropping her package in the pool.  I am incredibly bu",
+          "date": "Fri, 21 Aug 2026 14:23:17 GMT",
+          "verifyUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-207",
+          "articleTitle": "Weekly Dose of Optimism #207"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Defense & Security"
     }
   ]
 };
