@@ -1,24 +1,6 @@
 [
   {
-    "date": "2026-08-21",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 10-39",
-    "payload": "Starlink Group 10-39",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/bbdc4d47-1de3-428e-9fe1-bbf45d9b1e04/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-08-22",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 15-20",
-    "payload": "Starlink Group 15-20",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/6208f972-18ec-490f-bbe5-6f5c6cfcd48c/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-08-24",
+    "date": "2026-08-25",
     "vehicle": "Long March 5 | Chang'e 7",
     "payload": "Chang'e 7",
     "pad": "101, Wenchang Space Launch Site, People's Republic of China",
@@ -447,6 +429,24 @@
     "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/71df1dd0-d658-4762-b0bc-0fca6886aea7/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer E",
+    "payload": "SDA Tranche 2 Transport Layer E",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/71ed4649-8d71-42e8-8548-d42ffa2c5a6e/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Falcon 9 Block 5 | Telesat Lightspeed 1",
+    "payload": "Telesat Lightspeed 1",
+    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ce1317de-ec94-4479-9b28-38ebf11f13ae/?format=json",
     "trackedCompany": "SpaceX"
   }
 ]

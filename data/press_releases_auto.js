@@ -1,5 +1,5 @@
 // Auto-updated press releases
-// Last updated: 2026-08-22 07:27:37 UTC
+// Last updated: 2026-08-23 07:30:11 UTC
 const PRESS_RELEASES = [
   { title: "Draper Selects Proteus Space for Advanced On-Orbit Mission", date: "2026-08-20", companies: "Proteus Space, Figure AI", categories: "ipo", source: "spacenews" },
   { title: "German drone maker Helsing enlists Rakuten to broker Japan military deal", date: "2026-08-17", companies: "Helsing", categories: "", source: "defensenews" },

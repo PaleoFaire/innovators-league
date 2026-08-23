@@ -50,7 +50,7 @@
         "awardAmount": "$62M"
       }
     ],
-    "lastUpdated": "2026-08-22"
+    "lastUpdated": "2026-08-23"
   },
   {
     "company": "Palantir",
@@ -109,7 +109,7 @@
         "awardAmount": "$95M"
       }
     ],
-    "lastUpdated": "2026-08-22"
+    "lastUpdated": "2026-08-23"
   },
   {
     "company": "Skydio",
@@ -162,7 +162,7 @@
         "awardAmount": "$73K"
       }
     ],
-    "lastUpdated": "2026-08-22"
+    "lastUpdated": "2026-08-23"
   },
   {
     "company": "Radiant",
@@ -218,7 +218,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-08-22"
+    "lastUpdated": "2026-08-23"
   },
   {
     "company": "Shield AI",
@@ -270,7 +270,7 @@
         "awardAmount": "$5M"
       }
     ],
-    "lastUpdated": "2026-08-22"
+    "lastUpdated": "2026-08-23"
   },
   {
     "company": "Axiom Space",
@@ -321,7 +321,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-08-22"
+    "lastUpdated": "2026-08-23"
   },
   {
     "company": "Sierra Space",
@@ -373,42 +373,7 @@
         "awardAmount": "$43K"
       }
     ],
-    "lastUpdated": "2026-08-22"
-  },
-  {
-    "company": "Rocket Lab",
-    "opportunityCount": 3,
-    "agencies": [
-      "National Aeronautics and Space Administration"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2023-03-29",
-        "type": null,
-        "noticeId": "80KSC023FA107",
-        "awardAmount": "$45M"
-      },
-      {
-        "title": "DEVELOP GEOSPACE DYNAMICS CONSTELLATION (GDC) TRAILBLAZER MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE ",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2026-05-28",
-        "type": null,
-        "noticeId": "80AFRC26FA041",
-        "awardAmount": "$433K"
-      },
-      {
-        "title": "MARS END-TO-END COMMUNICATION SERVICE ARCHITECTURES: STUDIES TO ADVANCE END-TO-END COMMUNICATION SOLUTIONS FOR MARS EXPL",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2026-02-23",
-        "type": null,
-        "noticeId": "80GSFC26C0008",
-        "awardAmount": "$391K"
-      }
-    ],
-    "lastUpdated": "2026-08-22"
+    "lastUpdated": "2026-08-23"
   },
   {
     "company": "Planet Labs",
@@ -445,7 +410,7 @@
         "awardAmount": "$60K"
       }
     ],
-    "lastUpdated": "2026-08-22"
+    "lastUpdated": "2026-08-23"
   },
   {
     "company": "Scale AI",
@@ -480,7 +445,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-08-22"
+    "lastUpdated": "2026-08-23"
   },
   {
     "company": "Castelion",
@@ -507,7 +472,34 @@
         "awardAmount": "$1M"
       }
     ],
-    "lastUpdated": "2026-08-22"
+    "lastUpdated": "2026-08-23"
+  },
+  {
+    "company": "Rocket Lab",
+    "opportunityCount": 2,
+    "agencies": [
+      "National Aeronautics and Space Administration"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2023-03-29",
+        "type": null,
+        "noticeId": "80KSC023FA107",
+        "awardAmount": "$45M"
+      },
+      {
+        "title": "DEVELOP GEOSPACE DYNAMICS CONSTELLATION (GDC) TRAILBLAZER MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE ",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2026-05-28",
+        "type": null,
+        "noticeId": "80AFRC26FA041",
+        "awardAmount": "$433K"
+      }
+    ],
+    "lastUpdated": "2026-08-23"
   },
   {
     "company": "BlackSky",
@@ -534,7 +526,7 @@
         "awardAmount": "$4M"
       }
     ],
-    "lastUpdated": "2026-08-22"
+    "lastUpdated": "2026-08-23"
   },
   {
     "company": "Vannevar Labs",
@@ -553,7 +545,7 @@
         "awardAmount": "$13M"
       }
     ],
-    "lastUpdated": "2026-08-22"
+    "lastUpdated": "2026-08-23"
   },
   {
     "company": "Hadrian",
@@ -572,7 +564,7 @@
         "awardAmount": "$39M"
       }
     ],
-    "lastUpdated": "2026-08-22"
+    "lastUpdated": "2026-08-23"
   },
   {
     "company": "Relativity Space",
@@ -591,7 +583,7 @@
         "awardAmount": "$225K"
       }
     ],
-    "lastUpdated": "2026-08-22"
+    "lastUpdated": "2026-08-23"
   },
   {
     "company": "Varda Space",
@@ -610,6 +602,6 @@
         "awardAmount": "$160K"
       }
     ],
-    "lastUpdated": "2026-08-22"
+    "lastUpdated": "2026-08-23"
   }
 ]

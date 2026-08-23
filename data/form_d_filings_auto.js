@@ -1,16 +1,16 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public) — full-text search + daily index
-// Last updated: 2026-08-22 07:37:25 UTC
-// Total: 7 filings across 7 companies
+// Last updated: 2026-08-23 07:40:37 UTC
+// Total: 6 filings across 6 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-08-22T07:37:25.962923+00:00",
+  "generated_at": "2026-08-23T07:40:37.341110+00:00",
   "source": "SEC EDGAR Form D (full-text search + daily index)",
   "lookback_days": 60,
-  "total_filings": 7,
+  "total_filings": 6,
   "filings": [
     {
-      "match_method": "founder",
-      "match_evidence": "'Ultra Robotics Corp.' stems to 'Ultra Robotics'; Form D names Max Friefeld, a recorded founder",
+      "match_method": "cik",
+      "match_evidence": "filer CIK 2151004 == our recorded CIK",
       "company": "Ultra Robotics",
       "issuer_name": "Ultra Robotics Corp.",
       "form": "D",
@@ -33,111 +33,125 @@ const FORM_D_FILINGS = {
     },
     {
       "match_method": "cik",
+      "match_evidence": "filer CIK 1819848 == our recorded CIK",
       "company": "Joby Aviation",
-      "issuer_name": "Joby Aviation, Inc.  (JOBY)",
+      "issuer_name": "Joby Aviation, Inc.",
       "form": "D",
       "filed_date": "2026-08-19",
       "cik": "1819848",
       "accession": "0001819848-26-000440",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819848&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001819848-26-000440",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000440/primary_doc.xml",
       "offering_amount": "50000000",
       "amount_sold": "0",
       "amount_remaining": "50000000",
       "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
+      "related_persons": [
+        "Kate DeHoff",
+        "JoeBen Bevirt",
+        "Rodrigo Brumana",
+        "Eric Allison",
+        "Bonny Simi",
+        "Greg Bowles",
+        "Aicha Evans",
+        "Michael Thompson"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
     },
     {
       "match_method": "cik",
+      "match_evidence": "filer CIK 1998786 == our recorded CIK",
       "company": "Antares",
-      "issuer_name": "Antares Nuclear, Inc",
+      "issuer_name": "Antares Nuclear, Inc.",
       "form": "D",
       "filed_date": "2026-08-18",
       "cik": "1998786",
       "accession": "0001998786-26-000005",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001998786&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001998786-26-000005",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1998786/000199878626000005/primary_doc.xml",
       "offering_amount": "84999666",
       "amount_sold": "59999682",
       "amount_remaining": "24999984",
       "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
+      "related_persons": [
+        "Jordan Bramble",
+        "Julia DeWahl",
+        "Jack Altman",
+        "Alexander Hartz",
+        "Alana Palmedo"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
     },
     {
       "match_method": "cik",
+      "match_evidence": "filer CIK 1818777 == our recorded CIK",
       "company": "Pixxel",
-      "issuer_name": "Pixxel Space Technologies, Inc",
+      "issuer_name": "Pixxel Space Technologies, Inc.",
       "form": "D",
       "filed_date": "2026-08-18",
       "cik": "1818777",
       "accession": "0001818777-26-000004",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001818777&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001818777-26-000004",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1818777/000181877726000004/primary_doc.xml",
       "offering_amount": "125000000",
       "amount_sold": "72999975",
       "amount_remaining": "52000025",
       "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
+      "related_persons": [
+        "Awais Ahmed Nadeem Alduri",
+        "Kshitij Gokul Khandelwal",
+        "Eiji Yafuso",
+        "Ryan Johnson",
+        "Preston Dunlap",
+        "Gaurav Jain"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
     },
     {
       "match_method": "cik",
-      "company": "Dexterity",
-      "issuer_name": "Dexterity, Inc",
-      "form": "D",
-      "filed_date": "2026-08-17",
-      "cik": "2137857",
-      "accession": "0002137857-26-000002",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002137857&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002137857-26-000002",
-      "offering_amount": "120000000",
-      "amount_sold": "104906666",
-      "amount_remaining": "15093334",
-      "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "match_method": "cik",
+      "match_evidence": "filer CIK 1979342 == our recorded CIK",
       "company": "Windborne",
-      "issuer_name": "WindBorne Systems Inc",
+      "issuer_name": "WindBorne Systems Inc.",
       "form": "D",
       "filed_date": "2026-08-17",
       "cik": "1979342",
       "accession": "0001979342-26-000003",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001979342&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001979342-26-000003",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1979342/000197934226000003/primary_doc.xml",
       "offering_amount": "37124969",
       "amount_sold": "37124969",
       "amount_remaining": "0",
       "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
+      "related_persons": [
+        "ANDREY SUSHKO",
+        "JOHN DEAN",
+        "NIKHIL TRIVEDI",
+        "KAI MARSHLAND"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
     },
     {
       "match_method": "cik",
-      "company": "Cuby Technologies",
-      "issuer_name": "Cuby Technologies, Inc",
-      "form": "D",
-      "filed_date": "2026-08-14",
-      "cik": "1923686",
-      "accession": "0001923686-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001923686&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001923686-26-000001",
-      "offering_amount": "Indefinite",
-      "amount_sold": "6372475",
-      "amount_remaining": "Indefinite",
-      "securities_type": "",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
+      "match_evidence": "filer CIK 2137857 == our recorded CIK",
+      "company": "Dexterity",
+      "issuer_name": "Dexterity, Inc.",
+      "form": "D/A",
+      "filed_date": "2026-08-17",
+      "cik": "2137857",
+      "accession": "0002137857-26-000002",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2137857/000213785726000002/primary_doc.xml",
+      "offering_amount": "120000000",
+      "amount_sold": "104906666",
+      "amount_remaining": "15093334",
+      "securities_type": "Equity",
+      "related_persons": [
+        "Samir Menon",
+        "Jagannath Setlur",
+        "Raviraj Jain",
+        "Wen Hsieh"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
     }
   ]
 };

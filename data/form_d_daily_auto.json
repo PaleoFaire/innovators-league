@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-22T07:37:25.962923+00:00",
+  "generated_at": "2026-08-23T07:40:37.341110+00:00",
   "lookback_days": 8,
   "scanned": 1126,
   "total": 6,
   "filings": [
     {
-      "match_method": "founder",
-      "match_evidence": "'Ultra Robotics Corp.' stems to 'Ultra Robotics'; Form D names Max Friefeld, a recorded founder",
+      "match_method": "cik",
+      "match_evidence": "filer CIK 2151004 == our recorded CIK",
       "company": "Ultra Robotics",
       "issuer_name": "Ultra Robotics Corp.",
       "form": "D",

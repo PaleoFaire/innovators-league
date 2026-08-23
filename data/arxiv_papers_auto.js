@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-08-22 07:27:58 UTC
+// Last updated: 2026-08-23 07:30:15 UTC
 const ARXIV_PAPERS = [
   { id: "2608.20314v1", title: "MidTool: Mid-training Data Synthesis for Agentic Tool Use", category: "Artificial Intelligence", published: "2026-08-20", sectors: "ai", authors: "Fengqing Jiang, Yite Wang, Boyi Liu et al." },
   { id: "2608.20281v1", title: "Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization", category: "Artificial Intelligence", published: "2026-08-20", sectors: "ai", authors: "Qian Kou, Xiaofeng Shi, Xiaosong Qiu et al." },

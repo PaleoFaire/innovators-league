@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-08-22 07:27:41 UTC
+// Last updated: 2026-08-23 07:30:06 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT06141031", title: "Radiotherapy in Combination With TTI-101 in Borderline Resectable and Locally Ad", status: "RECRUITING", phase: "PHASE1", sponsor: "Washington University School of Medicine", conditions: "Pancreatic Cancer", enrollment: 24, lastUpdated: "2026-08-21" },
   { nctId: "NCT04258670", title: "Spontaneous Antigenemia in Loiasis", status: "COMPLETED", phase: "N/A", sponsor: "Washington University School of Medicine", conditions: "Loiasis, Lymphatic Filariasis", enrollment: 86, lastUpdated: "2026-08-21" },
