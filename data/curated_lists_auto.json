@@ -1,23 +1,24 @@
 {
-  "generated_at": "2026-08-18T14:26:59.470198+00:00",
-  "total_candidates": 16,
+  "generated_at": "2026-08-24T09:04:53.711937+00:00",
+  "total_candidates": 36,
   "sources": {
     "buildlist": {
       "url": "https://buildlist.xyz",
       "note": "Curated directory of companies building the future (Ryan & Christian)",
-      "listed": 728,
-      "already_tracked": 567,
-      "missing": 161,
-      "in_scope_candidates": 14,
+      "listed": 768,
+      "already_tracked": 581,
+      "missing": 187,
+      "in_scope_candidates": 34,
       "rejected_by_bar": {
-        "sector out of scope": 121,
+        "sector out of scope": 123,
         "software or services wearing a hard-tech label": 16,
         "public company": 5,
         "founded 1960, no disclosed funding \u2014 incumbent, not frontier": 1,
         "founded 1902, no disclosed funding \u2014 incumbent, not frontier": 1,
         "founded 1991, no disclosed funding \u2014 incumbent, not frontier": 1,
         "founded 1968, no disclosed funding \u2014 incumbent, not frontier": 1,
-        "no founding year and no funding \u2014 no evidence": 1
+        "no founding year and no funding \u2014 no evidence": 4,
+        "founded 2013, no disclosed funding \u2014 incumbent, not frontier": 1
       },
       "rejected_names": {
         "sector out of scope": [
@@ -141,7 +142,9 @@
           "EvenUp",
           "Standard Intelligence",
           "Vultron",
-          "Ambrook"
+          "Ambrook",
+          "PhysicsX",
+          "Silkline"
         ],
         "software or services wearing a hard-tech label": [
           "RigUp",
@@ -181,7 +184,13 @@
           "Rampmaster"
         ],
         "no founding year and no funding \u2014 no evidence": [
-          "Bridge Defense"
+          "Bridge Defense",
+          "Atomic Factories",
+          "RogueBeam",
+          "SpektreWorks"
+        ],
+        "founded 2013, no disclosed funding \u2014 incumbent, not frontier": [
+          "SkyCutter"
         ]
       },
       "candidates": [
@@ -365,6 +374,266 @@
           "round": "Series C+",
           "raised": "$99.5M",
           "our_sector": "Biotech & Health",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "American Terawatt",
+          "status": "active",
+          "sector": "Energy & Climate",
+          "tagline": "Builds a national direct-current power backbone for AI data centers and American industry.",
+          "founders": "Anton Troynikov, Ron Bhattacharyay, Ricky Moezinia, Rob Parker",
+          "city": "San Francisco, CA",
+          "founded": "2025",
+          "round": "Seed",
+          "raised": "$52.6M",
+          "our_sector": "Climate & Energy",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Atlas Atomics",
+          "status": "active",
+          "sector": "Energy & Climate",
+          "tagline": "Develops heavy-water nuclear reactors for power, isotopes, and spent-fuel utilization.",
+          "founders": "Kevin Gan",
+          "city": "Austin, TX",
+          "founded": "2026",
+          "round": "",
+          "raised": "",
+          "our_sector": "Climate & Energy",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Corridian",
+          "status": "active",
+          "sector": "Defense",
+          "tagline": "Builds autonomous underwater systems for defense, sensing, and electronic warfare.",
+          "founders": "Greg Barrow, Kyle Arace",
+          "city": "Boston, MA",
+          "founded": "2025",
+          "round": "",
+          "raised": "",
+          "our_sector": "Defense & Security",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Elve",
+          "status": "active",
+          "sector": "Compute & Semiconductors",
+          "tagline": "Builds high-power millimeter-wave amplifiers for communications, radar, and electronic warfare.",
+          "founders": "Diana Gamzina",
+          "city": "Davis, CA",
+          "founded": "2020",
+          "round": "Seed",
+          "raised": "$22M",
+          "our_sector": "Chips & Semiconductors",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Endeavor Optical Networks",
+          "status": "active",
+          "sector": "Aerospace",
+          "tagline": "Builds optical middle-Earth-orbit networks for high-capacity global data transport.",
+          "founders": "Charlie Horowitz, Tyler Presser",
+          "city": "Los Angeles, CA",
+          "founded": "2026",
+          "round": "Seed",
+          "raised": "$10.8M",
+          "our_sector": "Space & Aerospace",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Enhanced Radar",
+          "status": "active",
+          "sector": "Transportation",
+          "tagline": "Uses AI to modernize air traffic control and aviation operations.",
+          "founders": "Eric Button, Kristian Gaylord",
+          "city": "San Francisco, CA",
+          "founded": "2024",
+          "round": "Seed",
+          "raised": "$7.5M",
+          "our_sector": "Transportation",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Furientis",
+          "status": "active",
+          "sector": "Defense",
+          "tagline": "Builds affordable interceptor missiles for modern air defense.",
+          "founders": "Brody Franzen, Aris Simsarian",
+          "city": "Los Angeles, CA",
+          "founded": "2025",
+          "round": "Seed",
+          "raised": "$5M",
+          "our_sector": "Defense & Security",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Ironstead",
+          "status": "active",
+          "sector": "Manufacturing",
+          "tagline": "Scales American industrial production with advanced manufacturing technology and talent.",
+          "founders": "Garuth Acharya",
+          "city": "New York, NY",
+          "founded": "2025",
+          "round": "",
+          "raised": "",
+          "our_sector": "Robotics & Manufacturing",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Katalyst Space",
+          "status": "active",
+          "sector": "Aerospace",
+          "tagline": "Builds robotic spacecraft for on-orbit servicing and satellite upgrades.",
+          "founders": "Ghonhee Lee, Kaleb Beebout, Nicholas Liapis, Vanessa Clark",
+          "city": "Flagstaff, AZ",
+          "founded": "2019",
+          "round": "Series A",
+          "raised": "$12M",
+          "our_sector": "Space & Aerospace",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Lightmill",
+          "status": "active",
+          "sector": "Manufacturing",
+          "tagline": "Uses large-format laser milling to make precision metal parts.",
+          "founders": "Owen Murphy",
+          "city": "San Francisco, CA",
+          "founded": "2025",
+          "round": "",
+          "raised": "",
+          "our_sector": "Robotics & Manufacturing",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Moment Energy",
+          "status": "active",
+          "sector": "Energy & Climate",
+          "tagline": "Repurposes electric-vehicle batteries into grid-scale energy storage systems.",
+          "founders": "Gurmesh Sidhu, Gabriel Soares, Sumreen Rattan, Edward Chiang",
+          "city": "Coquitlam, Canada",
+          "founded": "2019",
+          "round": "Series B",
+          "raised": "$100M+",
+          "our_sector": "Climate & Energy",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Nine Fives",
+          "status": "active",
+          "sector": "Compute & Semiconductors",
+          "tagline": "Builds modern radio-frequency test equipment for engineers and manufacturers.",
+          "founders": "Noah Levy, Andrew Kurtz",
+          "city": "San Mateo, CA",
+          "founded": "2025",
+          "round": "Seed",
+          "raised": "$500K",
+          "our_sector": "Chips & Semiconductors",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Resurgent Industries",
+          "status": "active",
+          "sector": "Manufacturing",
+          "tagline": "Builds automated factories to restore cost-competitive American manufacturing.",
+          "founders": "Derek Stephens",
+          "city": "Austin, TX",
+          "founded": "2026",
+          "round": "Seed",
+          "raised": "$19.2M",
+          "our_sector": "Robotics & Manufacturing",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Revoy",
+          "status": "active",
+          "sector": "Transportation",
+          "tagline": "Electrifies diesel semi-trucks with a plug-in smart dolly.",
+          "founders": "Ian Rust",
+          "city": "San Mateo, CA",
+          "founded": "2020",
+          "round": "Series A",
+          "raised": "$42.8M",
+          "our_sector": "Transportation",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Stendr",
+          "status": "active",
+          "sector": "Defense",
+          "tagline": "Builds data-fusion and air-defense systems for Nordic and allied forces.",
+          "founders": "Aleksander Leonard Larsen, Robin Pedersen",
+          "city": "Oslo, Norway",
+          "founded": "2026",
+          "round": "Seed",
+          "raised": "$5.4M",
+          "our_sector": "Defense & Security",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Tiberius Aerospace",
+          "status": "active",
+          "sector": "Defense",
+          "tagline": "Develops munitions and defense capabilities through a defense-as-a-service model.",
+          "founders": "Chad Steelberg, Andy Baynes, Michael Martin, Tim Conners",
+          "city": "Newport Beach, CA",
+          "founded": "2022",
+          "round": "Seed",
+          "raised": "$4.5M",
+          "our_sector": "Defense & Security",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Uplift360",
+          "status": "active",
+          "sector": "Manufacturing",
+          "tagline": "Regenerates advanced composite materials for aerospace and defense supply chains.",
+          "founders": "Jamie Meighan, Sam Staincliffe",
+          "city": "Luxembourg",
+          "founded": "2021",
+          "round": "Seed",
+          "raised": "$11.0M",
+          "our_sector": "Robotics & Manufacturing",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Vight",
+          "status": "active",
+          "sector": "Aerospace",
+          "tagline": "Develops a compact two-seat electric vertical-takeoff aircraft for personal and rural mobility.",
+          "founders": "Tsung Xu",
+          "city": "Mountain View, CA",
+          "founded": "2025",
+          "round": "Seed",
+          "raised": "$1M+",
+          "our_sector": "Space & Aerospace",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Zenno Astronautics",
+          "status": "active",
+          "sector": "Aerospace",
+          "tagline": "Develops superconducting systems for satellite attitude control, docking, and shielding.",
+          "founders": "Max Arshavsky, Sebastian Wieczorek",
+          "city": "Auckland, New Zealand",
+          "founded": "2017",
+          "round": "Seed",
+          "raised": "",
+          "our_sector": "Space & Aerospace",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Valkryn Industries",
+          "status": "active",
+          "sector": "Defense",
+          "tagline": "Builds forward-deployable defense manufacturing systems, unmanned aircraft, and critical aerospace components.",
+          "founders": "Hugh Zabriskie, Andrew Hoff",
+          "city": "Santa Ana, CA",
+          "founded": "2025",
+          "round": "",
+          "raised": "",
+          "our_sector": "Defense & Security",
           "source_list": "buildlist"
         }
       ]
