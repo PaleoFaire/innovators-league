@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-17T07:50:33+00:00",
+  "generatedAt": "2026-08-24T07:56:30+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_weekly.json",
-  "cohortSize": 11,
-  "newExtractionsThisRun": 11,
+  "cohortSize": 12,
+  "newExtractionsThisRun": 12,
   "summary": {
     "cleared": 7,
-    "changesProposed": 4,
+    "changesProposed": 5,
     "unverifiable": 0
   },
   "cleared": [
@@ -32,7 +32,7 @@
       },
       "verified": {
         "name": "Cantos Ventures",
-        "short_name": "Cantos",
+        "short_name": null,
         "aum": null,
         "flagship_fund": null,
         "founded_year": null,
@@ -45,13 +45,10 @@
           "Advanced Manufacturing",
           "Infrastructure"
         ],
-        "thesis": "Cantos Ventures provides initial capital and ongoing counsel to founders building transformative technology in three areas: Abundance (shelter, safety, food, water, energy, health, meaningful work), Resilience (critical systems and infrastructure), and Advantage (competitiveness of the United States and democratic allies in advanced technologies).",
+        "thesis": "Cantos Ventures provides initial capital and ongoing counsel to founders building transformative technology across three areas: Abundance (shelter, safety, food, water, energy, health, meaningful work), Resilience (critical systems and infrastructure), and Advantage (competitiveness of the United States and its democratic allies in advanced technologies).",
         "website": "https://cantos.vc",
         "sources_per_field": {
           "name": [
-            0
-          ],
-          "short_name": [
             0
           ],
           "hq": [
@@ -67,13 +64,13 @@
             0
           ]
         },
-        "notes": "Source [1] is Wikipedia article about Ezra Pound's poem 'The Cantos', not the venture capital firm\u2014not usable for verification. Verified fields extracted only from firm website [0]. Key partners (Ian Rountree, Grant Gregory), founded year (2016), AUM ($100M+), and flagship fund (Cantos Fund III) from database entry could not be verified from provided sources and are therefore set to null."
+        "notes": "Wikipedia source [1] is about Ezra Pound's poem 'The Cantos' and is not relevant to the venture capital firm. Founded year, AUM, flagship fund, and key partners cannot be verified from provided sources. HQ location inferred from website domain but not explicitly stated in sources."
       },
       "changes": [
         {
           "field": "thesis",
-          "current": "Cantos Ventures provides initial capital and ongoing counsel to founders building transformative technology in abundance, resilience, and advantage.",
-          "verified": "Cantos Ventures provides initial capital and ongoing counsel to founders building transformative technology in three areas: Abundance (shelter, safety, food, water, energy, health, meaningful work), Resilience (critical systems and infrastructure), and Advantage (competitiveness of the United States and democratic allies in advanced technologies).",
+          "current": "Cantos Ventures provides initial capital and ongoing counsel to founders building transformative technology in three areas: Abundance (shelter, safety, food, water, energy, health, meaningful work), Resilience (critical systems and infrastructure), and Advantage (competitiveness of the United States and democratic allies in advanced technologies).",
+          "verified": "Cantos Ventures provides initial capital and ongoing counsel to founders building transformative technology across three areas: Abundance (shelter, safety, food, water, energy, health, meaningful work), Resilience (critical systems and infrastructure), and Advantage (competitiveness of the United States and its democratic allies in advanced technologies).",
           "sources": [
             0
           ]
@@ -91,7 +88,7 @@
           "url": "https://en.wikipedia.org/wiki/Cantos"
         }
       ],
-      "notes": "Source [1] is Wikipedia article about Ezra Pound's poem 'The Cantos', not the venture capital firm\u2014not usable for verification. Verified fields extracted only from firm website [0]. Key partners (Ian Rountree, Grant Gregory), founded year (2016), AUM ($100M+), and flagship fund (Cantos Fund III) from database entry could not be verified from provided sources and are therefore set to null."
+      "notes": "Wikipedia source [1] is about Ezra Pound's poem 'The Cantos' and is not relevant to the venture capital firm. Founded year, AUM, flagship fund, and key partners cannot be verified from provided sources. HQ location inferred from website domain but not explicitly stated in sources."
     },
     {
       "name": "Engine Ventures",
@@ -133,10 +130,9 @@
         "website": "https://engine.xyz",
         "sources_per_field": {
           "name": [
+            0,
+            1,
             3
-          ],
-          "short_name": [
-            0
           ],
           "founded_year": [
             3
@@ -145,7 +141,8 @@
             3
           ],
           "sector_focus": [
-            1
+            1,
+            2
           ],
           "thesis": [
             1,
@@ -156,7 +153,7 @@
             1
           ]
         },
-        "notes": "Engine Ventures is the investment fund that spun out from The Engine nonprofit incubator/accelerator in 2023. The Engine itself was founded by MIT in 2016. Source [3] states: 'In 2023, the investment fund separated from The Engine and rebranded as the venture capital firm Engine Ventures.' No current senior partners are explicitly named on the firm's website or Wikipedia. AUM cannot be verified from sources. Flagship fund name cannot be verified from sources."
+        "notes": "Engine Ventures is a separate investment firm that spun out from The Engine (a nonprofit incubator/accelerator founded by MIT in 2016) in 2023. The Engine and Engine Ventures are distinct entities. Key partners and AUM could not be verified from provided sources. The database entry lists 'Katie Rae' and 'Reed Sturtevant' as partners, but these names do not appear in the provided sources. Wikipedia lists Emily Knight as CEO/President of The Engine (not Engine Ventures specifically)."
       },
       "changes": [
         {
@@ -191,7 +188,8 @@
             "Water / Oceans"
           ],
           "sources": [
-            1
+            1,
+            2
           ]
         }
       ],
@@ -217,7 +215,7 @@
           "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
         }
       ],
-      "notes": "Engine Ventures is the investment fund that spun out from The Engine nonprofit incubator/accelerator in 2023. The Engine itself was founded by MIT in 2016. Source [3] states: 'In 2023, the investment fund separated from The Engine and rebranded as the venture capital firm Engine Ventures.' No current senior partners are explicitly named on the firm's website or Wikipedia. AUM cannot be verified from sources. Flagship fund name cannot be verified from sources."
+      "notes": "Engine Ventures is a separate investment firm that spun out from The Engine (a nonprofit incubator/accelerator founded by MIT in 2016) in 2023. The Engine and Engine Ventures are distinct entities. Key partners and AUM could not be verified from provided sources. The database entry lists 'Katie Rae' and 'Reed Sturtevant' as partners, but these names do not appear in the provided sources. Wikipedia lists Emily Knight as CEO/President of The Engine (not Engine Ventures specifically)."
     },
     {
       "name": "Kleiner Perkins Caufield & Byers, LLC",
@@ -240,22 +238,24 @@
         "key_partners": [
           "John Doerr",
           "Brook Byers",
-          "Leigh Marie Braswell",
-          "Josh Coyne",
           "Ilya Fushman",
           "Mamoon Hamid",
           "Aditya Naganath",
           "Aatish Nayak",
+          "Leigh Marie Braswell",
+          "Josh Coyne",
           "Jesse King",
           "Joubin Mirzadegan",
           "Ted Schlein"
         ],
         "sector_focus": null,
-        "thesis": "Kleiner Perkins partners with founders to build iconic companies across industries, investing from inception to IPO and beyond.",
+        "thesis": "Kleiner Perkins partners with founders to build iconic companies, investing from inception to IPO and beyond.",
         "website": "https://www.kleinerperkins.com",
         "sources_per_field": {
           "name": [
-            0
+            0,
+            1,
+            2
           ],
           "short_name": [],
           "key_partners": [
@@ -265,16 +265,18 @@
             1
           ],
           "website": [
-            0
+            0,
+            1,
+            2
           ]
         },
-        "notes": "Database entry claims founded 1972, AUM $21B+, flagship funds KP22 and Select growth funds, and sector focus on Hardtech/AI Infrastructure/Robotics/Defense\u2014none of these could be verified in provided sources. Sources confirm John Doerr as Chairman and Brook Byers as Founder. Ted Schlein listed as 'Partner and Advisor' in sources."
+        "notes": "AUM, flagship fund names, founded year, and HQ location could not be verified from provided sources. Sector focus list from database entry (Hardtech, AI Infrastructure, Robotics, Defense) is not explicitly stated in sources. Key partners verified from official team page [2]: John Doerr listed as Chairman, Brook Byers as Founder, and 9 partners explicitly named with Partner title."
       },
       "changes": [
         {
           "field": "thesis",
-          "current": "Kleiner Perkins invests in early-stage and growth companies across technology and life sciences. The firm has backed founders building companies spanning consumer, enterprise, hardtech, and fintech sectors since its founding in 1972.",
-          "verified": "Kleiner Perkins partners with founders to build iconic companies across industries, investing from inception to IPO and beyond.",
+          "current": "Kleiner Perkins partners with founders to build iconic companies across industries, investing from inception to IPO and beyond.",
+          "verified": "Kleiner Perkins partners with founders to build iconic companies, investing from inception to IPO and beyond.",
           "sources": [
             1
           ]
@@ -297,7 +299,98 @@
           "url": "https://www.kleinerperkins.com/team"
         }
       ],
-      "notes": "Database entry claims founded 1972, AUM $21B+, flagship funds KP22 and Select growth funds, and sector focus on Hardtech/AI Infrastructure/Robotics/Defense\u2014none of these could be verified in provided sources. Sources confirm John Doerr as Chairman and Brook Byers as Founder. Ted Schlein listed as 'Partner and Advisor' in sources."
+      "notes": "AUM, flagship fund names, founded year, and HQ location could not be verified from provided sources. Sector focus list from database entry (Hardtech, AI Infrastructure, Robotics, Defense) is not explicitly stated in sources. Key partners verified from official team page [2]: John Doerr listed as Chairman, Brook Byers as Founder, and 9 partners explicitly named with Partner title."
+    },
+    {
+      "name": "Silent Ventures",
+      "current": {
+        "name": "Silent Ventures",
+        "shortName": "Silent",
+        "aum": "Undisclosed",
+        "flagshipFund": "Silent Ventures",
+        "founded": 2022,
+        "hq": "Dallas, Texas",
+        "website": "https://silentvc.com"
+      },
+      "verified": {
+        "name": "Silent Ventures",
+        "short_name": null,
+        "aum": null,
+        "flagship_fund": "Silent Ventures",
+        "founded_year": 2022,
+        "hq": null,
+        "key_partners": [
+          "Jackson Moses"
+        ],
+        "sector_focus": [
+          "Aerospace",
+          "Defense",
+          "National Security"
+        ],
+        "thesis": "Silent Ventures is an early stage venture firm that invests in exceptional founders building unrivaled aerospace, defense, and national security companies, primarily at concept stage pre-seed and seed.",
+        "website": "https://silentvc.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "flagship_fund": [
+            0
+          ],
+          "key_partners": [
+            0
+          ],
+          "sector_focus": [
+            0
+          ],
+          "thesis": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Founded year of 2022 cannot be verified from provided sources. Wikipedia source [1] is a disambiguation page and does not contain information about Silent Ventures. Headquarters (Dallas, Texas) cannot be verified from sources. AUM is not disclosed in sources."
+      },
+      "changes": [
+        {
+          "field": "sectorFocus",
+          "current": [
+            "Defense",
+            "Aerospace",
+            "National Security",
+            "Deep Tech"
+          ],
+          "verified": [
+            "Aerospace",
+            "Defense",
+            "National Security"
+          ],
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "thesis",
+          "current": "Early-stage venture firm investing at concept-stage pre-seed and seed in founders building aerospace, defense, and national-security companies. Founder Jackson Moses also runs Silent Capital, a private 506(b) syndicate giving members access to multi-stage defense and deep-tech deals, and says his funds have backed 14 defense-tech unicorns from inception.",
+          "verified": "Silent Ventures is an early stage venture firm that invests in exceptional founders building unrivaled aerospace, defense, and national security companies, primarily at concept stage pre-seed and seed.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://silentvc.com"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia (short name)",
+          "url": "https://en.wikipedia.org/wiki/Silent"
+        }
+      ],
+      "notes": "Founded year of 2022 cannot be verified from provided sources. Wikipedia source [1] is a disambiguation page and does not contain information about Silent Ventures. Headquarters (Dallas, Texas) cannot be verified from sources. AUM is not disclosed in sources."
     },
     {
       "name": "Y Combinator",
@@ -329,7 +422,7 @@
           "Brad Flora"
         ],
         "sector_focus": null,
-        "thesis": "Y Combinator invests $500k per company ($125k for 7% equity on post-money SAFE and $375k on uncapped SAFE with MFN clause) in select batches four times per year. The three-month intensive program provides office hours, mentorship, and community access to help startups achieve better products, user bases, and fundraising outcomes before Demo Day.",
+        "thesis": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program in San Francisco provides office hours, mentorship, and community access to help startups improve their product, user base, and fundraising options.",
         "website": "https://www.ycombinator.com",
         "sources_per_field": {
           "name": [
@@ -341,9 +434,10 @@
           ],
           "flagship_fund": [
             0,
-            1
+            2
           ],
           "founded_year": [
+            0,
             2
           ],
           "hq": [
@@ -355,23 +449,18 @@
           ],
           "thesis": [
             0,
-            1,
             2
-          ],
-          "website": [
-            0
           ]
         },
-        "notes": "Garry Tan became President & CEO in January 2023. Jared Friedman succeeded Michael Seibel as Managing Partner in March 2024. Headquarters moved from Mountain View to San Francisco in spring 2023. YC Continuity growth fund was discontinued under Tan's leadership."
+        "notes": "Garry Tan became President & CEO in January 2023 (source 2). Jared Friedman became Managing Partner in March 2024, succeeding Michael Seibel (source 2). Headquarters relocated from Mountain View to San Francisco in spring 2023 (source 2). No explicit sector focus areas found on firm website or Wikipedia sources provided."
       },
       "changes": [
         {
           "field": "thesis",
-          "current": "Y Combinator is a startup accelerator that invests $500k per company in select cohorts four times per year. The three-month program provides intensive mentorship, office hours with partners, and community access to help startups achieve better products, user bases, and fundraising options before Demo Day.",
-          "verified": "Y Combinator invests $500k per company ($125k for 7% equity on post-money SAFE and $375k on uncapped SAFE with MFN clause) in select batches four times per year. The three-month intensive program provides office hours, mentorship, and community access to help startups achieve better products, user bases, and fundraising outcomes before Demo Day.",
+          "current": "Y Combinator invests $500k per company ($125k for 7% equity on post-money SAFE and $375k on uncapped SAFE with MFN clause) in select batches four times per year. The three-month intensive program provides office hours, mentorship, and community access to help startups achieve better products, user bases, and fundraising outcomes before Demo Day.",
+          "verified": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program in San Francisco provides office hours, mentorship, and community access to help startups improve their product, user base, and fundraising options.",
           "sources": [
             0,
-            1,
             2
           ]
         }
@@ -393,7 +482,7 @@
           "url": "https://en.wikipedia.org/wiki/Y_Combinator"
         }
       ],
-      "notes": "Garry Tan became President & CEO in January 2023. Jared Friedman succeeded Michael Seibel as Managing Partner in March 2024. Headquarters moved from Mountain View to San Francisco in spring 2023. YC Continuity growth fund was discontinued under Tan's leadership."
+      "notes": "Garry Tan became President & CEO in January 2023 (source 2). Jared Friedman became Managing Partner in March 2024, succeeding Michael Seibel (source 2). Headquarters relocated from Mountain View to San Francisco in spring 2023 (source 2). No explicit sector focus areas found on firm website or Wikipedia sources provided."
     }
   ],
   "unverifiable": []
