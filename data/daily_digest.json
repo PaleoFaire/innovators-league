@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T01:49:56.603061+00:00",
+  "generatedAt": "2026-08-24T03:11:35.446553+00:00",
   "date": "2026-08-24",
   "dateDisplay": "Monday, August 24, 2026",
   "sections": {
@@ -121,18 +121,18 @@
         "change": 1.61
       },
       {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 451000.0,
+        "changePercent": -9.98,
+        "change": -50000.0
+      },
+      {
         "ticker": "PL",
         "company": "Planet Labs",
         "price": 22.29,
         "changePercent": -9.72,
         "change": -2.4
-      },
-      {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 72.57,
-        "changePercent": -9.57,
-        "change": -7.68
       }
     ],
     "regulatory": [

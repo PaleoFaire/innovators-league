@@ -49345,16 +49345,16 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-24 01:49
+// Last updated: 2026-08-24 03:11
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Waymo", headline: "TechCrunch Mobility: The custom chip driving Waymo's robotaxi ambitions", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "Waymo", headline: "TechCrunch Mobility: The custom chip driving Waymo's robotaxi ambitions", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
   { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Months for Tower Catch Schedule But 10X Launch Approvals", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
   { id: 3, type: "news", company: "Anthropic", headline: "Inherent, founded by DeepMind alumni, says its AI 'teammate' just outperformed Anthropic and OpenAI at repli", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "news", company: "OpenAI", headline: "OpenAI says California should strengthen its AI safety bill", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "funding", company: "Anthropic", headline: "Anthropic's Opus 4.6 is a smut-machine", source: "TechCrunch", time: "2d ago", impact: "low", unread: true },
   { id: 6, type: "news", company: "Humanoid", headline: "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
   { id: 7, type: "news", company: "Waymo", headline: "Waymo doubles spending on lobbying in robotaxi battle with Uber", source: "Ars Technica", time: "2d ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "Waymo", headline: "Waymo Fully Launches Robotaxi Service in Houston", source: "CleanTechnica", time: "2d ago", impact: "medium", unread: false },
+  { id: 8, type: "ipo", company: "Waymo", headline: "Waymo Fully Launches Robotaxi Service in Houston", source: "CleanTechnica", time: "3d ago", impact: "medium", unread: false },
   { id: 9, type: "news", company: "Waymo", headline: "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all", source: "Electrek", time: "3d ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX's orbital data centers would create a new category of e-waste", source: "Ars Technica Space", time: "3d ago", impact: "low", unread: false },
   { id: 11, type: "ipo", company: "Proteus Space", headline: "Draper Selects Proteus Space for Advanced On-Orbit Mission", source: "SpaceNews", time: "3d ago", impact: "low", unread: false },
