@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-08-23";
+const LAST_UPDATED = "2026-08-24";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -49345,10 +49345,10 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-23 23:28
+// Last updated: 2026-08-24 01:49
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Waymo", headline: "TechCrunch Mobility: The custom chip driving Waymo's robotaxi ambitions", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Months for Tower Catch Schedule But 10X Launch Approvals", source: "Next Big Future", time: "23h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "Waymo", headline: "TechCrunch Mobility: The custom chip driving Waymo's robotaxi ambitions", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Months for Tower Catch Schedule But 10X Launch Approvals", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
   { id: 3, type: "news", company: "Anthropic", headline: "Inherent, founded by DeepMind alumni, says its AI 'teammate' just outperformed Anthropic and OpenAI at repli", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "news", company: "OpenAI", headline: "OpenAI says California should strengthen its AI safety bill", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "funding", company: "Anthropic", headline: "Anthropic's Opus 4.6 is a smut-machine", source: "TechCrunch", time: "2d ago", impact: "low", unread: true },
