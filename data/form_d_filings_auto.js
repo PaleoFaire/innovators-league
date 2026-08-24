@@ -1,35 +1,30 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public) — full-text search + daily index
-// Last updated: 2026-08-23 07:40:37 UTC
+// Last updated: 2026-08-24 08:04:17 UTC
 // Total: 6 filings across 6 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-08-23T07:40:37.341110+00:00",
+  "generated_at": "2026-08-24T08:04:17.699506+00:00",
   "source": "SEC EDGAR Form D (full-text search + daily index)",
   "lookback_days": 60,
   "total_filings": 6,
   "filings": [
     {
       "match_method": "cik",
-      "match_evidence": "filer CIK 2151004 == our recorded CIK",
       "company": "Ultra Robotics",
-      "issuer_name": "Ultra Robotics Corp.",
+      "issuer_name": "Ultra Robotics Corp",
       "form": "D",
       "filed_date": "2026-08-21",
       "cik": "2151004",
       "accession": "0002151004-26-000001",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/2151004/000215100426000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002151004&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002151004-26-000001",
       "offering_amount": "62089507",
       "amount_sold": "57089457",
       "amount_remaining": "5000050",
       "securities_type": "Equity",
-      "related_persons": [
-        "Jonathan Schwartz",
-        "Michael Anderson",
-        "Max Friefeld",
-        "Oliver Ortlieb"
-      ],
-      "is_safe": false,
-      "source": "edgar-daily-index"
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
     },
     {
       "match_method": "cik",

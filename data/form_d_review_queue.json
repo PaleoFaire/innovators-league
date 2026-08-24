@@ -1,5 +1,105 @@
 {
-  "generated_at": "2026-08-23T07:40:31.312885+00:00",
+  "generated_at": "2026-08-24T08:04:12.912013+00:00",
   "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
-  "candidates": []
+  "candidates": [
+    {
+      "match_method": "name-candidate",
+      "company": "Revere",
+      "issuer_name": "Revere Tactical Opportunities Fund IV, LP",
+      "form": "D",
+      "filed_date": "2026-08-21",
+      "cik": "1843386",
+      "accession": "0001843386-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001843386&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001843386-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Revere",
+      "issuer_name": "Revere Credit Opportunities Fund III, LP",
+      "form": "D",
+      "filed_date": "2026-08-21",
+      "cik": "1689712",
+      "accession": "0001689712-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001689712&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001689712-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "PILGRIM",
+      "issuer_name": "Pilgrim Global ICAV",
+      "form": "D",
+      "filed_date": "2026-08-21",
+      "cik": "1687806",
+      "accession": "0001231919-26-001008",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001687806&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001231919-26-001008"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Union",
+      "issuer_name": "Union Park Capital IV, L.P",
+      "form": "D",
+      "filed_date": "2026-08-21",
+      "cik": "2080074",
+      "accession": "0001012975-26-000808",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002080074&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001012975-26-000808"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Latitude",
+      "issuer_name": "Latitude Health, Inc",
+      "form": "D",
+      "filed_date": "2026-08-20",
+      "cik": "2148343",
+      "accession": "0002148343-26-000003",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002148343&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002148343-26-000003"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Latitude",
+      "issuer_name": "Latitude Health, Inc",
+      "form": "D",
+      "filed_date": "2026-08-20",
+      "cik": "2148343",
+      "accession": "0002148343-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002148343&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002148343-26-000002"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Etched",
+      "issuer_name": "Etched SPV, LLC",
+      "form": "D",
+      "filed_date": "2026-08-20",
+      "cik": "2107488",
+      "accession": "0002107488-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002107488&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002107488-26-000002"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Union",
+      "issuer_name": "Union Grove Farms, LLC",
+      "form": "D",
+      "filed_date": "2026-08-20",
+      "cik": "2106954",
+      "accession": "0002106954-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002106954&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002106954-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Precision AI",
+      "issuer_name": "Precision AI, CO",
+      "form": "D",
+      "filed_date": "2026-08-19",
+      "cik": "2150524",
+      "accession": "0002150524-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002150524&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002150524-26-000001"
+    }
+  ]
 }
