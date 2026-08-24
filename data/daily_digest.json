@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T19:35:54.051129+00:00",
+  "generatedAt": "2026-08-24T20:39:32.479745+00:00",
   "date": "2026-08-24",
   "dateDisplay": "Monday, August 24, 2026",
   "sections": {
@@ -81,23 +81,30 @@
       {
         "ticker": "ONT.L",
         "company": "Oxford Nanopore Technologies",
-        "price": 169.2,
-        "changePercent": 36.34,
-        "change": 45.1
+        "price": 166.7,
+        "changePercent": 34.33,
+        "change": 42.6
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 68.3,
-        "changePercent": 32.26,
-        "change": 16.66
+        "price": 66.64,
+        "changePercent": 29.05,
+        "change": 15.0
+      },
+      {
+        "ticker": "AUR",
+        "company": "Aurora Innovation",
+        "price": 5.66,
+        "changePercent": -18.87,
+        "change": -1.31
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 16.69,
-        "changePercent": -18.11,
-        "change": -3.69
+        "price": 16.67,
+        "changePercent": -18.2,
+        "change": -3.71
       },
       {
         "ticker": "ASRHF",
@@ -107,32 +114,25 @@
         "change": -1.51
       },
       {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 268.15,
-        "changePercent": -16.25,
-        "change": -52.02
-      },
-      {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 69.3,
-        "changePercent": -15.57,
-        "change": -12.78
+        "price": 68.49,
+        "changePercent": -16.56,
+        "change": -13.59
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 277.55,
+        "changePercent": -13.31,
+        "change": -42.62
       },
       {
         "ticker": "RIVN",
         "company": "Rivian",
-        "price": 16.96,
-        "changePercent": 14.09,
-        "change": 2.1
-      },
-      {
-        "ticker": "AUR",
-        "company": "Aurora Innovation",
-        "price": 6.09,
-        "changePercent": -12.55,
-        "change": -0.88
+        "price": 16.7,
+        "changePercent": 12.27,
+        "change": 1.83
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ONT.L +36.3%"
+    "topMover": "ONT.L +34.3%"
   }
 }

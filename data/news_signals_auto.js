@@ -1,85 +1,85 @@
 // Auto-generated news signals
-// Last updated: 2026-08-24T19:35:43.974Z
+// Last updated: 2026-08-24T20:39:21.117Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1787600143974,
+    "id": 1787603961117,
+    "type": "funding",
+    "company": "Humanoid",
+    "headline": "XPeng Motors humanoid robot unit Dogotix raises $900M",
+    "source": "The Robot Report",
+    "time": "Just now",
+    "impact": "high",
+    "unread": true,
+    "link": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/"
+  },
+  {
+    "id": 1787603961118,
+    "type": "milestone",
+    "company": "OpenAI",
+    "headline": "Alabama launches investigation into OpenAI&#8217;s hack of Hugging Face",
+    "source": "TechCrunch",
+    "time": "Just now",
+    "impact": "medium",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/08/24/alabama-launches-investigation-into-openais-hack-of-hugging-face/"
+  },
+  {
+    "id": 1787603961119,
     "type": "funding",
     "company": "Commonwealth Fusion Systems",
     "headline": "Commonwealth Fusion Systems aims to complete demonstration reactor with $1B funding round",
     "source": "Utility Dive",
-    "time": "3h ago",
+    "time": "4h ago",
     "impact": "high",
     "unread": true,
     "link": "https://www.utilitydive.com/news/what-a-billion-dollar-funding-means-for-commonwealth-fusion-systems-and-its/828515/"
   },
   {
-    "id": 1787600143975,
+    "id": 1787603961120,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI is building AI agents for everything. Will everyone use them?",
     "source": "TechCrunch",
-    "time": "4h ago",
+    "time": "5h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/"
   },
   {
-    "id": 1787600143976,
+    "id": 1787603961121,
     "type": "news",
     "company": "Neura Robotics",
     "headline": "NEURA Robotics acquires ADLATUS to bring Physical AI to autonomous cleaning",
     "source": "Tech.eu",
-    "time": "11h ago",
+    "time": "12h ago",
     "impact": "low",
     "unread": true,
     "link": "https://tech.eu/2026/08/24/neura-robotics-acquires-adlatus-to-bring-physical-ai-to-autonomous-cleaning/"
   },
   {
-    "id": 1787600143977,
+    "id": 1787603961122,
     "type": "news",
     "company": "Waymo",
     "headline": "TechCrunch Mobility: The custom chip driving Waymo’s robotaxi ambitions",
     "source": "TechCrunch",
     "time": "1d ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/08/23/techcrunch-mobility-the-custom-chip-driving-waymos-robotaxi-ambitions/"
   },
   {
-    "id": 1787600143978,
+    "id": 1787603961123,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starship Months for Tower Catch Schedule But 10X Launch Approvals",
     "source": "Next Big Future",
     "time": "1d ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://www.nextbigfuture.com/2026/08/spacex-starship-months-for-tower-catch-schedule-but-10x-launch-approvals.html"
   },
   {
-    "id": 1787600143979,
-    "type": "news",
-    "company": "Anthropic",
-    "headline": "Inherent, founded by DeepMind alumni, says its AI &#8216;teammate&#8217; just outperformed Anthropic and OpenAI at repli",
-    "source": "TechCrunch",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/"
-  },
-  {
-    "id": 1787600143980,
-    "type": "news",
-    "company": "OpenAI",
-    "headline": "OpenAI says California should strengthen its AI safety bill",
-    "source": "TechCrunch",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/"
-  },
-  {
-    "id": 1787600143981,
+    "id": 1787603961124,
     "type": "news",
     "company": "Humanoid",
     "headline": "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/schaeffler-plans-to-mass-manufacture-gearboxes-for-humanoids-in-2027/"
   },
   {
-    "id": 1787600143982,
+    "id": 1787603961125,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/"
   },
   {
-    "id": 1787600143983,
+    "id": 1787603961126,
     "type": "ipo",
     "company": "Waymo",
     "headline": "Waymo Fully Launches Robotaxi Service in Houston",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/08/20/waymo-fully-launches-robotaxi-service-in-houston/"
   },
   {
-    "id": 1787600143984,
+    "id": 1787603961127,
     "type": "news",
     "company": "Waymo",
     "headline": "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/20/waymo-zeekr-ojai-chinese-ev-robotaxi-all-riders/"
   },
   {
-    "id": 1787600143985,
+    "id": 1787603961128,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX’s orbital data centers would create a new category of e-waste",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
   },
   {
-    "id": 1787600143986,
+    "id": 1787603961129,
     "type": "ipo",
     "company": "Proteus Space",
     "headline": "Draper Selects Proteus Space for Advanced On-Orbit Mission",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/draper-selects-proteus-space-for-advanced-on-orbit-mission/"
   },
   {
-    "id": 1787600143987,
+    "id": 1787603961130,
     "type": "ipo",
     "company": "Humanoid",
     "headline": "What does Unitree Robotics&#8217; IPO mean for the humanoid industry?",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/"
   },
   {
-    "id": 1787600143988,
+    "id": 1787603961131,
     "type": "hire",
     "company": "SpaceX",
     "headline": "Ex-Tesla president: Roadster delay is about getting closer to SpaceX ahead of merger",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/19/ex-tesla-president-roadster-delay-spacex-thrusters/"
   },
   {
-    "id": 1787600143989,
+    "id": 1787603961132,
     "type": "news",
     "company": "Sage Geosystems",
     "headline": "Sage Geosystems brings its first next-gen geothermal plant online",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/geothermal/sage-geosystems-next-gen-geothermal-online"
   },
   {
-    "id": 1787600143990,
+    "id": 1787603961133,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI clarifies ‘acquisition’ offer for Irish teen's startup idea was a joke",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/openai-clarifies-acquisition-offer/"
   },
   {
-    "id": 1787600143991,
+    "id": 1787603961134,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/"
   },
   {
-    "id": 1787600143992,
+    "id": 1787603961135,
     "type": "news",
     "company": "Einride",
     "headline": "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, and China goes BIG",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/17/tesla-grows-robotaxi-fleet-by-50-einride-gets-a-partner-and-china-goes-big/"
   },
   {
-    "id": 1787600143993,
+    "id": 1787603961136,
     "type": "news",
     "company": "Helsing",
     "headline": "German drone maker Helsing enlists Rakuten to broker Japan military deal",

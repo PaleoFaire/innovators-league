@@ -49367,15 +49367,15 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-24 19:35
+// Last updated: 2026-08-24 20:39
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Commonwealth Fusion Systems", headline: "Commonwealth Fusion Systems aims to complete demonstration reactor with $1B funding round", source: "Utility Dive", time: "3h ago", impact: "high", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI is building AI agents for everything. Will everyone use them?", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Neura Robotics", headline: "NEURA Robotics acquires ADLATUS to bring Physical AI to autonomous cleaning", source: "Tech.eu", time: "11h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Waymo", headline: "TechCrunch Mobility: The custom chip driving Waymo's robotaxi ambitions", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Months for Tower Catch Schedule But 10X Launch Approvals", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "Inherent, founded by DeepMind alumni, says its AI 'teammate' just outperformed Anthropic and OpenAI at repli", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI says California should strengthen its AI safety bill", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Humanoid", headline: "XPeng Motors humanoid robot unit Dogotix raises $900M", source: "The Robot Report", time: "Just now", impact: "high", unread: true },
+  { id: 2, type: "milestone", company: "OpenAI", headline: "Alabama launches investigation into OpenAI's hack of Hugging Face", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
+  { id: 3, type: "funding", company: "Commonwealth Fusion Systems", headline: "Commonwealth Fusion Systems aims to complete demonstration reactor with $1B funding round", source: "Utility Dive", time: "4h ago", impact: "high", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI is building AI agents for everything. Will everyone use them?", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Neura Robotics", headline: "NEURA Robotics acquires ADLATUS to bring Physical AI to autonomous cleaning", source: "Tech.eu", time: "12h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Waymo", headline: "TechCrunch Mobility: The custom chip driving Waymo's robotaxi ambitions", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Months for Tower Catch Schedule But 10X Launch Approvals", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
   { id: 8, type: "news", company: "Humanoid", headline: "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
   { id: 9, type: "news", company: "Waymo", headline: "Waymo doubles spending on lobbying in robotaxi battle with Uber", source: "Ars Technica", time: "3d ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "Waymo", headline: "Waymo Fully Launches Robotaxi Service in Houston", source: "CleanTechnica", time: "3d ago", impact: "medium", unread: false },
