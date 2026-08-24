@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T05:45:50+00:00",
+  "generatedAt": "2026-08-24T07:13:50+00:00",
   "stats": {
     "companies": 1181,
     "vcFirms": 26,
@@ -4695,6 +4695,73 @@
     }
   ],
   "pedigree": {
+    "SpaceX": [
+      {
+        "company": "1872",
+        "cluster": null,
+        "founder": "Dan Summers (CEO, ex-SpaceX \u2014 led fabrication and integration of Raptor engines for Super Heavy), Brian Mongilio (ex-SpaceX), Michael Grant (ex-SpaceX)"
+      },
+      {
+        "company": "Lux Aeterna",
+        "cluster": "reusable-satellites",
+        "founder": "Brian Taylor (Founder/CEO, ex-SpaceX Starlink engineer, ex-Amazon Project Kuiper, ex-Loft Orbital)"
+      },
+      {
+        "company": "Andrenam",
+        "cluster": "autonomy-maritime",
+        "founder": "Matej Cernosek, Alex Chu"
+      },
+      {
+        "company": "Vital Lyfe",
+        "cluster": "consumer-hardware",
+        "founder": "Jonathan Criss, Andrew Harner"
+      },
+      {
+        "company": "Long Wall",
+        "cluster": "defense-munitions-energetics",
+        "founder": "Dan Piemont (CEO; ex-SpaceX, ex-Morgan Stanley), Harry O'Hanley (ex-SpaceX, ex-Morgan Stanley)"
+      },
+      {
+        "company": "Canada Rocket Company",
+        "cluster": "sovereign-launch",
+        "founder": "Hugh Kolias, David Tenny"
+      },
+      {
+        "company": "Mesh Optical Technologies",
+        "cluster": null,
+        "founder": "Travis Brashears, Cameron Ramos, Serena Grown-Haeberli"
+      },
+      {
+        "company": "Orbital Operations",
+        "cluster": null,
+        "founder": "Ben Schleuniger, Ross Doherty"
+      },
+      {
+        "company": "Sift Stack",
+        "cluster": null,
+        "founder": "Karthik Gollapudi, Austin Spiegel"
+      },
+      {
+        "company": "Perennial Autonomy",
+        "cluster": null,
+        "founder": "Eric Schmidt (backer), team from SpaceX/Google/Apple"
+      },
+      {
+        "company": "Traysar",
+        "cluster": null,
+        "founder": "Yadin Soffer (CEO), Asher Katz, Gilad Adin"
+      },
+      {
+        "company": "TerraFirma",
+        "cluster": null,
+        "founder": "Noah Schochet (CEO), Noah McGuinness (CTO)"
+      },
+      {
+        "company": "Eclipse Space",
+        "cluster": null,
+        "founder": "Derek Huerta (CEO, ex-SpaceX senior manager of satellite payload engineering), Kyle Leveque (co-founder, ex-Astro Digital/Aquila Space, Cambrian Works)"
+      }
+    ],
     "MIT": [
       {
         "company": "Radical AI",
@@ -4773,68 +4840,6 @@
         "company": "Generalist AI",
         "cluster": null,
         "founder": "Pete Florence (CEO, ex-DeepMind, co-creator of PaLM-E and RT-2), Andy Zeng (Chief Scientist, ex-DeepMind), Andrew Barry (CTO, ex-Boston Dynamics)"
-      }
-    ],
-    "SpaceX": [
-      {
-        "company": "Lux Aeterna",
-        "cluster": "reusable-satellites",
-        "founder": "Brian Taylor (Founder/CEO, ex-SpaceX Starlink engineer, ex-Amazon Project Kuiper, ex-Loft Orbital)"
-      },
-      {
-        "company": "Andrenam",
-        "cluster": "autonomy-maritime",
-        "founder": "Matej Cernosek, Alex Chu"
-      },
-      {
-        "company": "Vital Lyfe",
-        "cluster": "consumer-hardware",
-        "founder": "Jonathan Criss, Andrew Harner"
-      },
-      {
-        "company": "Long Wall",
-        "cluster": "defense-munitions-energetics",
-        "founder": "Dan Piemont (CEO; ex-SpaceX, ex-Morgan Stanley), Harry O'Hanley (ex-SpaceX, ex-Morgan Stanley)"
-      },
-      {
-        "company": "Canada Rocket Company",
-        "cluster": "sovereign-launch",
-        "founder": "Hugh Kolias, David Tenny"
-      },
-      {
-        "company": "Mesh Optical Technologies",
-        "cluster": null,
-        "founder": "Travis Brashears, Cameron Ramos, Serena Grown-Haeberli"
-      },
-      {
-        "company": "Orbital Operations",
-        "cluster": null,
-        "founder": "Ben Schleuniger, Ross Doherty"
-      },
-      {
-        "company": "Sift Stack",
-        "cluster": null,
-        "founder": "Karthik Gollapudi, Austin Spiegel"
-      },
-      {
-        "company": "Perennial Autonomy",
-        "cluster": null,
-        "founder": "Eric Schmidt (backer), team from SpaceX/Google/Apple"
-      },
-      {
-        "company": "Traysar",
-        "cluster": null,
-        "founder": "Yadin Soffer (CEO), Asher Katz, Gilad Adin"
-      },
-      {
-        "company": "TerraFirma",
-        "cluster": null,
-        "founder": "Noah Schochet (CEO), Noah McGuinness (CTO)"
-      },
-      {
-        "company": "Eclipse Space",
-        "cluster": null,
-        "founder": "Derek Huerta (CEO, ex-SpaceX senior manager of satellite payload engineering), Kyle Leveque (co-founder, ex-Astro Digital/Aquila Space, Cambrian Works)"
       }
     ],
     "Amazon": [
