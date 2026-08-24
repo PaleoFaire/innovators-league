@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T07:21:58.782338+00:00",
+  "generated_at": "2026-08-24T07:45:37.408165+00:00",
   "corpora": [
     "news_raw.json",
     "press_releases_raw.json",
@@ -14,7 +14,7 @@
     "Defense News Air"
   ],
   "alumni_graph_counts": {
-    "spacex": 42,
+    "spacex": 43,
     "anduril": 12,
     "palantir": 11,
     "tesla": 16,
@@ -28,7 +28,7 @@
       "mafia": "tesla",
       "source": "news_signals_auto.js",
       "confidence": 2,
-      "evidence": "// Auto-generated news signals // Last updated: 2026-08-23T06:53:32.539Z const COMPANY_SIGNALS_AUTO = [ { \"id\": 1787468012539, \"type\": \"ipo\", \"company\": \"SpaceX\", \"headline\": \"SpaceX Starship Months for Tower Catch Schedule But 10X Launch Approvals\", \"source\": \"Next Big Future\", \"time\": \"6h ago\", \"impact\": \"low\", \"unre"
+      "evidence": "// Auto-generated news signals // Last updated: 2026-08-24T07:12:43.684Z const COMPANY_SIGNALS_AUTO = [ { \"id\": 1787555563684, \"type\": \"news\", \"company\": \"Waymo\", \"headline\": \"TechCrunch Mobility: The custom chip driving Waymo\u2019s robotaxi ambitions\", \"source\": \"TechCrunch\", \"time\": \"15h ago\", \"impact\": \"low\", \"unread\": "
     }
   ]
 }
