@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 0.96,
+      "avg_change": 2.43,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -11.49,
+      "avg_change": -12.46,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -7.39,
+      "avg_change": -7.98,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.25,
+      "avg_change": -6.05,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.45,
+      "avg_change": -3.02,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.38,
+      "avg_change": -11.21,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 24.53,
+      "avg_change": 22.63,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 9.15,
+      "avg_change": 7.55,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.19,
+      "avg_change": -10.14,
       "count": 3
     }
   },
@@ -61,44 +61,39 @@
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      36.34
+      34.33
     ],
     [
       "TEM",
       "Tempus AI",
-      32.26
+      29.05
     ],
     [
       "RIVN",
       "Rivian",
-      14.09
+      12.27
     ],
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      4.98
+      4.5
     ],
     [
       "TSLA",
       "Tesla",
-      4.22
+      2.83
     ]
   ],
   "topLosers": [
     [
-      "AUR",
-      "Aurora Innovation",
-      -12.55
+      "ALAB",
+      "Astera Labs",
+      -13.31
     ],
     [
       "RKLB",
       "Rocket Lab",
-      -15.57
-    ],
-    [
-      "ALAB",
-      "Astera Labs",
-      -16.25
+      -16.56
     ],
     [
       "ASRHF",
@@ -108,8 +103,13 @@
     [
       "LUNR",
       "Intuitive Machines",
-      -18.11
+      -18.2
+    ],
+    [
+      "AUR",
+      "Aurora Innovation",
+      -18.87
     ]
   ],
-  "lastUpdated": "2026-08-24 14:06:03"
+  "lastUpdated": "2026-08-24 19:48:05"
 }
