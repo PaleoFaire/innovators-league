@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-23",
-  "display_date": "Aug 23, 2026",
-  "generated_at": "2026-08-23T09:40:31.695276+00:00",
-  "cutoff": "2026-08-16T09:40:31.695276+00:00",
-  "section_count": 6,
-  "total_items": 524,
+  "date": "2026-08-24",
+  "display_date": "Aug 24, 2026",
+  "generated_at": "2026-08-24T10:41:16.150509+00:00",
+  "cutoff": "2026-08-17T10:41:16.150509+00:00",
+  "section_count": 7,
+  "total_items": 535,
   "sections": [
     {
       "title": "Top Score Movers",
@@ -86,7 +86,7 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 26,
+      "count": 22,
       "items": [
         {
           "company": "Virgin Galactic",
@@ -103,24 +103,10 @@
           "isIPO": false
         },
         {
-          "company": "IonQ",
-          "form": "8-K",
-          "description": "d145238d8k.htm",
-          "date": "2026-08-17",
-          "isIPO": false
-        },
-        {
           "company": "D-Wave Quantum",
           "form": "8-K",
           "description": "qbts-20260818.htm",
           "date": "2026-08-18",
-          "isIPO": false
-        },
-        {
-          "company": "D-Wave Quantum",
-          "form": "8-K",
-          "description": "qbts-20260813.htm",
-          "date": "2026-08-17",
           "isIPO": false
         },
         {
@@ -143,73 +129,96 @@
           "description": "xslF345X06/ownership.xml",
           "date": "2026-08-18",
           "isIPO": false
+        },
+        {
+          "company": "AST SpaceMobile",
+          "form": "4",
+          "description": "xslF345X06/ownership.xml",
+          "date": "2026-08-18",
+          "isIPO": false
+        },
+        {
+          "company": "AST SpaceMobile",
+          "form": "4",
+          "description": "xslF345X06/ownership.xml",
+          "date": "2026-08-18",
+          "isIPO": false
+        }
+      ]
+    },
+    {
+      "title": "Contract Opportunities",
+      "icon": "\ud83c\udfe2",
+      "count": 1,
+      "items": [
+        {
+          "title": "DHS/HSI - SKYDIO X10D (TCIU)",
+          "agency": "",
+          "value": "",
+          "date": "2026-08-20"
         }
       ]
     },
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 37,
+      "count": 41,
       "items": [
         {
-          "title": "Advisory Committee; Oncologic Drugs Advisory Committee; Renewal",
+          "title": "Application for Final Commitment for a Long-Term Loan or Financial Guarantee in Excess of $100 Million: AP300125XX",
           "type": "Notice",
           "agencies": [
-            "Health and Human Services Department",
-            "Food and Drug Administration"
+            "Export-Import Bank"
           ],
           "significant": false,
-          "date": "2026-08-21"
+          "date": "2026-08-24"
         },
         {
-          "title": "Advisory Committee; Cardiovascular and Renal Drugs Advisory Committee; Renewal",
-          "type": "Notice",
+          "title": "Small Business Size Standards",
+          "type": "Proposed Rule",
           "agencies": [
-            "Health and Human Services Department",
-            "Food and Drug Administration"
+            "Small Business Administration"
           ],
           "significant": false,
           "date": "2026-08-20"
         },
         {
-          "title": "Advisory Committee; Endocrinologic and Metabolic Drugs Advisory Committee; Renewal",
-          "type": "Notice",
+          "title": "Small Business Size Standards: Revised Size Standards Methodology",
+          "type": "Proposed Rule",
           "agencies": [
-            "Health and Human Services Department",
-            "Food and Drug Administration"
+            "Small Business Administration"
           ],
           "significant": false,
           "date": "2026-08-20"
         },
         {
-          "title": "Potency Assessment of Active Immunotherapy Products; Draft Guidance for Industry; Availability",
+          "title": "Notice of Request for Clearance of a New Information Collection: Intermodal Freight Facilities Air-to-Truck and Mail Car",
           "type": "Notice",
           "agencies": [
-            "Health and Human Services Department",
-            "Food and Drug Administration"
+            "Transportation Department",
+            "Transportation Statistics Bureau"
           ],
           "significant": false,
           "date": "2026-08-20"
         },
         {
-          "title": "Frequently Asked Questions-Developing Potential Cellular and Gene Therapy Products; Final Guidance for Industry; Availab",
+          "title": "Information Collection Being Submitted to the Office of Management and Budget for Emergency Review and Approval",
           "type": "Notice",
           "agencies": [
-            "Health and Human Services Department",
-            "Food and Drug Administration"
+            "Federal Communications Commission"
           ],
           "significant": false,
           "date": "2026-08-20"
         },
         {
-          "title": "Determination of Regulatory Review Period for Purposes of Patent Extension; BIZENGRI",
+          "title": "Privacy Act of 1974; System of Records",
           "type": "Notice",
           "agencies": [
             "Health and Human Services Department",
-            "Food and Drug Administration"
+            "Centers for Medicare & Medicaid Services"
           ],
           "significant": false,
-          "date": "2026-08-17"
+          "date": "2026-08-20"
         }
       ]
     },
@@ -240,6 +249,20 @@
           "type": "ipo"
         },
         {
+          "title": "NEURA Robotics acquires ADLATUS to bring Physical AI to autonomous cleaning",
+          "source": "Tech.eu",
+          "company": "Neura Robotics",
+          "impact": "low",
+          "type": "news"
+        },
+        {
+          "title": "TechCrunch Mobility: The custom chip driving Waymo\u2019s robotaxi ambitions",
+          "source": "TechCrunch",
+          "company": "Waymo",
+          "impact": "low",
+          "type": "news"
+        },
+        {
           "title": "SpaceX Starship Months for Tower Catch Schedule But 10X Launch Approvals",
           "source": "Next Big Future",
           "company": "SpaceX",
@@ -259,80 +282,66 @@
           "company": "OpenAI",
           "impact": "low",
           "type": "news"
-        },
-        {
-          "title": "Anthropic\u2019s Opus 4.6 is a smut-machine",
-          "source": "TechCrunch",
-          "company": "Anthropic",
-          "impact": "low",
-          "type": "funding"
-        },
-        {
-          "title": "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027",
-          "source": "The Robot Report",
-          "company": "Humanoid",
-          "impact": "low",
-          "type": "news"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 41,
+      "count": 51,
       "items": [
         {
-          "title": "Kagi added a setting for removing paywalled links from search results",
-          "score": 1240,
-          "comments": 389,
+          "title": "Why your local LLM feels dumber than it is",
+          "score": 489,
+          "comments": 199,
           "companies": [],
-          "url": "https://news.ycombinator.com/item?id=49388154"
-        },
-        {
-          "title": "Grand jury declines to indict Ohio man charged with destroying Flock camera",
-          "score": 693,
-          "comments": 393,
-          "companies": [
-            "Flock Safety"
-          ],
-          "url": "https://news.ycombinator.com/item?id=49387497"
-        },
-        {
-          "title": "Canada will match US tariffs 'dollar for dollar' as trade talks break down",
-          "score": 608,
-          "comments": 1405,
-          "companies": [
-            "Ada",
-            "Flexport"
-          ],
-          "url": "https://news.ycombinator.com/item?id=49397074"
+          "url": "https://news.ycombinator.com/item?id=49402232"
         },
         {
           "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
-          "score": 374,
-          "comments": 114,
+          "score": 486,
+          "comments": 148,
           "companies": [
-            "ElevenLabs",
+            "Twelve",
             "Twelve Labs",
-            "Twelve"
+            "ElevenLabs"
           ],
           "url": "https://news.ycombinator.com/item?id=49400408"
         },
         {
-          "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
-          "score": 350,
-          "comments": 233,
+          "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "score": 466,
+          "comments": 404,
           "companies": [
             "Anthropic"
           ],
-          "url": "https://news.ycombinator.com/item?id=49388752"
+          "url": "https://news.ycombinator.com/item?id=49411102"
         },
         {
-          "title": "Why your local LLM feels dumber than it is",
-          "score": 292,
-          "comments": 103,
+          "title": "A website for debloated open source alternatives",
+          "score": 318,
+          "comments": 100,
+          "companies": [
+            "Xanadu Quantum Technologies",
+            "Tenstorrent"
+          ],
+          "url": "https://news.ycombinator.com/item?id=49410362"
+        },
+        {
+          "title": "My agent.md to improve LLM-assisted code quality",
+          "score": 294,
+          "comments": 118,
           "companies": [],
-          "url": "https://news.ycombinator.com/item?id=49402232"
+          "url": "https://news.ycombinator.com/item?id=49410932"
+        },
+        {
+          "title": "Over 170k Nonprofits Lost All Their Data. Is Microsoft to Blame?",
+          "score": 242,
+          "comments": 121,
+          "companies": [
+            "Photonic Inc"
+          ],
+          "url": "https://news.ycombinator.com/item?id=49411395"
         }
       ]
     },
@@ -342,37 +351,37 @@
       "count": 89,
       "items": [
         {
-          "title": "F\u00f6rsta slutliga utdelningen f\u00f6r r\u00e4kenskaps\u00e5ret 2026 har fastst\u00e4llts och \u00e5terk\u00f6p av egna aktier p\u00e5 marknaden har godk\u00e4nts",
+          "title": "Transactions in connection with share buyback programme",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Orum Therapeutics Announces U.S. FDA Clearance of an IND Application for ORM-1153, a Novel CD123-GSPT1 Degrader-Antibody",
+          "title": "Debitormassens sammens\u00e6tning (CK92)",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Green Thumb Opens Its 24th Florida Location, RISE Dispensary Port St. Lucie, on August 22",
+          "title": "Ekstraordin\u00e6re indfrielser (CK 93)",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Report on transactions with ALK-Abell\u00f3 A/S B shares and associated securities by managerial staff",
+          "title": "Correction: Notice of the public offering of Hepsor AS bonds",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Indberetning af ledelsens transaktioner med ALK-Abell\u00f3 A/S' B-aktier og tilknyttede v\u00e6rdipapirer",
+          "title": "Parandusteade: Hepsor AS-i v\u00f5lakirjade avaliku pakkumise teade",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "No. 9/2026 - CeMat A/S raises its financial guidance for 2026",
+          "title": "Share buyback programme \u2013 week 34",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-08-23-8e438252b5e2"
+  "brief_id": "brief-2026-08-24-72e7833c796d"
 }
