@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-08-22T07:06:59.796587+00:00",
+    "generated_at": "2026-08-24T07:35:15.163143+00:00",
     "window_days": 10,
-    "filings_scanned": 1244,
-    "candidates_considered": 295,
-    "published": 2,
-    "roster_size": 2465,
-    "roster_with_pedigree": 189,
+    "filings_scanned": 876,
+    "candidates_considered": 218,
+    "published": 1,
+    "roster_size": 2467,
+    "roster_with_pedigree": 192,
     "method": "SEC Form D formations, filtered to new frontier-adjacent US entities, matched against founders already documented in COMPANIES. Confidence tiers reflect what the public record supports, not what is plausible."
   },
   "rows": [
@@ -86,52 +86,6 @@
         "An officer named Travis Kalanick matches the founder of Atoms in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
         "self-classified as Other Technology",
         "$123M already sold",
-        "incorporated 2025",
-        "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
-      ]
-    },
-    {
-      "cik": "2135340",
-      "accession": "000213534026000001",
-      "entity": "Apex Energetics Inc.",
-      "industry": "Other",
-      "year_inc": 2025,
-      "state": "TX",
-      "amount_sold": 12175000.0,
-      "first_sale": "2025-04-03",
-      "persons": [
-        {
-          "name": "Devan Plantamura",
-          "key": "devanplantamura",
-          "roles": [
-            "Executive Officer"
-          ],
-          "state": "TEXAS"
-        }
-      ],
-      "url": "https://www.sec.gov/Archives/edgar/data/2135340/000213534026000001/primary_doc.xml",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2135340&type=D&dateb=&owner=include&count=10",
-      "filed": "20260812",
-      "matches": [
-        {
-          "person": "Devan Plantamura",
-          "roles": [
-            "Executive Officer"
-          ],
-          "known_for": [
-            "Ares Industries",
-            "Bravo Ordnance"
-          ],
-          "employers": [],
-          "evidence": [],
-          "name_ambiguous": false
-        }
-      ],
-      "score": 48,
-      "confidence": "Founder's next company",
-      "reasons": [
-        "An officer named Devan Plantamura matches the founder of Ares Industries in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
-        "$12.2M already sold",
         "incorporated 2025",
         "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
       ]
