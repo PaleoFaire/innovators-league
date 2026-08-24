@@ -11,13 +11,13 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -5.04,
+      "avg_change": -5.33,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -5.79,
+      "avg_change": -5.98,
       "count": 7
     },
     "nuclear": {
@@ -86,11 +86,6 @@
   ],
   "topLosers": [
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -8.65
-    ],
-    [
       "RKLB",
       "Rocket Lab",
       -9.57
@@ -99,6 +94,11 @@
       "PL",
       "Planet Labs",
       -9.72
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -9.98
     ],
     [
       "AUR",
@@ -111,5 +111,5 @@
       -11.39
     ]
   ],
-  "lastUpdated": "2026-08-23 19:39:08"
+  "lastUpdated": "2026-08-24 02:39:51"
 }
