@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T13:57:39.427847+00:00",
+  "generatedAt": "2026-08-24T14:51:08.104968+00:00",
   "date": "2026-08-24",
   "dateDisplay": "Monday, August 24, 2026",
   "sections": {
@@ -79,60 +79,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 72.69,
-        "changePercent": 39.52,
-        "change": 20.59
-      },
-      {
         "ticker": "ONT.L",
         "company": "Oxford Nanopore Technologies",
-        "price": 167.2,
-        "changePercent": 34.73,
-        "change": 43.1
+        "price": 169.2,
+        "changePercent": 36.34,
+        "change": 45.1
+      },
+      {
+        "ticker": "TEM",
+        "company": "Tempus AI",
+        "price": 68.3,
+        "changePercent": 32.26,
+        "change": 16.66
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 16.69,
+        "changePercent": -18.11,
+        "change": -3.69
+      },
+      {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 7.0,
+        "changePercent": -17.74,
+        "change": -1.51
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 284.97,
-        "changePercent": -11.39,
-        "change": -36.64
+        "price": 268.15,
+        "changePercent": -16.25,
+        "change": -52.02
       },
       {
-        "ticker": "277810.KQ",
-        "company": "Rainbow Robotics",
-        "price": 444500.0,
-        "changePercent": -11.28,
-        "change": -56500.0
-      },
-      {
-        "ticker": "RXRX",
-        "company": "Recursion Pharmaceuticals",
-        "price": 3.5,
-        "changePercent": 10.76,
-        "change": 0.34
-      },
-      {
-        "ticker": "AUR",
-        "company": "Aurora Innovation",
-        "price": 6.24,
-        "changePercent": -10.73,
-        "change": -0.75
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 69.3,
+        "changePercent": -15.57,
+        "change": -12.78
       },
       {
         "ticker": "RIVN",
         "company": "Rivian",
-        "price": 16.97,
-        "changePercent": 10.48,
-        "change": 1.61
+        "price": 16.96,
+        "changePercent": 14.09,
+        "change": 2.1
       },
       {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 22.29,
-        "changePercent": -9.72,
-        "change": -2.4
+        "ticker": "AUR",
+        "company": "Aurora Innovation",
+        "price": 6.09,
+        "changePercent": -12.55,
+        "change": -0.88
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "TEM +39.5%"
+    "topMover": "ONT.L +36.3%"
   }
 }
