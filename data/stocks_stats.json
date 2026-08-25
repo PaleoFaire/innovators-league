@@ -9,15 +9,15 @@
       "count": 1
     },
     "space": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -12.36,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -12.08,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -7.19,
+      "avg_change": -6.97,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 22.32,
+      "avg_change": 23.21,
       "count": 3
     },
     "transportation": {
@@ -61,7 +61,7 @@
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      34.33
+      36.99
     ],
     [
       "TEM",
@@ -91,14 +91,14 @@
       -13.32
     ],
     [
+      "ASRHF",
+      "Astroscale",
+      -16.75
+    ],
+    [
       "RKLB",
       "Rocket Lab",
       -16.81
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      -17.74
     ],
     [
       "LUNR",
@@ -111,5 +111,5 @@
       -18.36
     ]
   ],
-  "lastUpdated": "2026-08-25 02:33:28"
+  "lastUpdated": "2026-08-25 08:02:11"
 }
