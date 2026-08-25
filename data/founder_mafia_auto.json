@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T07:45:37.408165+00:00",
+  "generated_at": "2026-08-25T07:33:07.957163+00:00",
   "corpora": [
     "news_raw.json",
     "press_releases_raw.json",
@@ -22,13 +22,5 @@
     "waymo": 3,
     "applied": 1
   },
-  "hits": [
-    {
-      "company": "Inherent",
-      "mafia": "tesla",
-      "source": "news_signals_auto.js",
-      "confidence": 2,
-      "evidence": "// Auto-generated news signals // Last updated: 2026-08-24T07:12:43.684Z const COMPANY_SIGNALS_AUTO = [ { \"id\": 1787555563684, \"type\": \"news\", \"company\": \"Waymo\", \"headline\": \"TechCrunch Mobility: The custom chip driving Waymo\u2019s robotaxi ambitions\", \"source\": \"TechCrunch\", \"time\": \"15h ago\", \"impact\": \"low\", \"unread\": "
-    }
-  ]
+  "hits": []
 }
