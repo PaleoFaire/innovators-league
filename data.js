@@ -49627,18 +49627,18 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-25 11:35
+// Last updated: 2026-08-25 13:02
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Destinus", headline: "Dutch Navy to equip fleet with Destinus C-UAS interceptor drones", source: "Defense News", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Anthropic", headline: "Unreleased Anthropic Mythos 2 and Mythos 3 and OpenAI Astra", source: "Next Big Future", time: "8h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Semianalysis Deep Dive on the SpaceX 10 GW 2027 AI Data Center Build", source: "Next Big Future", time: "9h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "Trump bought SpaceX shares two weeks after blockbuster IPO", source: "TechCrunch", time: "14h ago", impact: "high", unread: true },
-  { id: 5, type: "funding", company: "Humanoid", headline: "XPeng Motors humanoid robot unit Dogotix raises $900M", source: "The Robot Report", time: "15h ago", impact: "high", unread: true },
-  { id: 6, type: "milestone", company: "OpenAI", headline: "Alabama launches investigation into OpenAI's hack of Hugging Face", source: "TechCrunch", time: "15h ago", impact: "medium", unread: false },
-  { id: 7, type: "funding", company: "Commonwealth Fusion Systems", headline: "Commonwealth Fusion Systems aims to complete demonstration reactor with $1B funding round", source: "Utility Dive", time: "19h ago", impact: "high", unread: false },
-  { id: 8, type: "news", company: "OpenAI", headline: "OpenAI is building AI agents for everything. Will everyone use them?", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Neura Robotics", headline: "NEURA Robotics acquires ADLATUS to bring Physical AI to autonomous cleaning", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Waymo", headline: "TechCrunch Mobility: The custom chip driving Waymo's robotaxi ambitions", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "'The world seems to be ready': An interview with OpenAI head of product Thibault Sottiaux", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Destinus", headline: "Dutch Navy to equip fleet with Destinus C-UAS interceptor drones", source: "Defense News", time: "4h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "Unreleased Anthropic Mythos 2 and Mythos 3 and OpenAI Astra", source: "Next Big Future", time: "9h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "Semianalysis Deep Dive on the SpaceX 10 GW 2027 AI Data Center Build", source: "Next Big Future", time: "11h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "Trump bought SpaceX shares two weeks after blockbuster IPO", source: "TechCrunch", time: "15h ago", impact: "high", unread: true },
+  { id: 6, type: "funding", company: "Humanoid", headline: "XPeng Motors humanoid robot unit Dogotix raises $900M", source: "The Robot Report", time: "16h ago", impact: "high", unread: false },
+  { id: 7, type: "milestone", company: "OpenAI", headline: "Alabama launches investigation into OpenAI's hack of Hugging Face", source: "TechCrunch", time: "17h ago", impact: "medium", unread: false },
+  { id: 8, type: "funding", company: "Commonwealth Fusion Systems", headline: "Commonwealth Fusion Systems aims to complete demonstration reactor with $1B funding round", source: "Utility Dive", time: "21h ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "OpenAI", headline: "OpenAI is building AI agents for everything. Will everyone use them?", source: "TechCrunch", time: "22h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Neura Robotics", headline: "NEURA Robotics acquires ADLATUS to bring Physical AI to autonomous cleaning", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "Humanoid", headline: "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
   { id: 12, type: "news", company: "Waymo", headline: "Waymo doubles spending on lobbying in robotaxi battle with Uber", source: "Ars Technica", time: "3d ago", impact: "low", unread: false },
   { id: 13, type: "ipo", company: "Waymo", headline: "Waymo Fully Launches Robotaxi Service in Houston", source: "CleanTechnica", time: "4d ago", impact: "medium", unread: false },
