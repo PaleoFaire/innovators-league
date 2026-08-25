@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-08-24";
+const LAST_UPDATED = "2026-08-25";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -49367,16 +49367,16 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-24 23:28
+// Last updated: 2026-08-25 01:44
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "Trump bought SpaceX shares two weeks after blockbuster IPO", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
-  { id: 2, type: "funding", company: "Humanoid", headline: "XPeng Motors humanoid robot unit Dogotix raises $900M", source: "The Robot Report", time: "3h ago", impact: "high", unread: true },
-  { id: 3, type: "milestone", company: "OpenAI", headline: "Alabama launches investigation into OpenAI's hack of Hugging Face", source: "TechCrunch", time: "3h ago", impact: "medium", unread: true },
-  { id: 4, type: "funding", company: "Commonwealth Fusion Systems", headline: "Commonwealth Fusion Systems aims to complete demonstration reactor with $1B funding round", source: "Utility Dive", time: "7h ago", impact: "high", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI is building AI agents for everything. Will everyone use them?", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Neura Robotics", headline: "NEURA Robotics acquires ADLATUS to bring Physical AI to autonomous cleaning", source: "Tech.eu", time: "15h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "Trump bought SpaceX shares two weeks after blockbuster IPO", source: "TechCrunch", time: "4h ago", impact: "high", unread: true },
+  { id: 2, type: "funding", company: "Humanoid", headline: "XPeng Motors humanoid robot unit Dogotix raises $900M", source: "The Robot Report", time: "5h ago", impact: "high", unread: true },
+  { id: 3, type: "milestone", company: "OpenAI", headline: "Alabama launches investigation into OpenAI's hack of Hugging Face", source: "TechCrunch", time: "5h ago", impact: "medium", unread: true },
+  { id: 4, type: "funding", company: "Commonwealth Fusion Systems", headline: "Commonwealth Fusion Systems aims to complete demonstration reactor with $1B funding round", source: "Utility Dive", time: "10h ago", impact: "high", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI is building AI agents for everything. Will everyone use them?", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Neura Robotics", headline: "NEURA Robotics acquires ADLATUS to bring Physical AI to autonomous cleaning", source: "Tech.eu", time: "17h ago", impact: "low", unread: false },
   { id: 7, type: "news", company: "Waymo", headline: "TechCrunch Mobility: The custom chip driving Waymo's robotaxi ambitions", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Months for Tower Catch Schedule But 10X Launch Approvals", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Months for Tower Catch Schedule But 10X Launch Approvals", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
   { id: 9, type: "news", company: "Humanoid", headline: "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
   { id: 10, type: "news", company: "Waymo", headline: "Waymo doubles spending on lobbying in robotaxi battle with Uber", source: "Ars Technica", time: "3d ago", impact: "low", unread: false },
   { id: 11, type: "ipo", company: "Waymo", headline: "Waymo Fully Launches Robotaxi Service in Houston", source: "CleanTechnica", time: "3d ago", impact: "medium", unread: false },
