@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-08-24 07:54:57 UTC
+// Last updated: 2026-08-25 07:40:32 UTC
 // Total grants: 633 | Known companies: 24 | SBIR: 27
-// Total funding tracked: $386,571,455
+// Total funding tracked: $387,959,902
 const NIH_GRANTS_AUTO = [
   {
     title: "PROVIDENT:  Prepositioning Optimized Strategies for Vaccines and Immunotherapeutics against Diverse Emerging Infectious ",
@@ -534,6 +534,19 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "PROJECT SUMMARY The HIV pandemic has been raging for nearly forty years, and despite immense effort we have yet to discover a vaccine that can induce durable, protective immunity. HIV remains an urgen",
     terms: ["Acceleration", "Acquired Immunodeficiency Syndrome", "Adjuvant", "Affect", "Affinity", "Agreement", "Anti-Retroviral Agents", "Antibodies"],
+    isKnownCompany: false,
+  },
+  {
+    title: "Mechanisms and dynamics of cis preference in LINE-1 replication",
+    organization: "ROCKEFELLER UNIVERSITY",
+    orgState: "NY",
+    piName: "William Matthew Schneider",
+    fiscalYear: 2026,
+    awardAmount: 1356000,
+    activityCode: "R01",
+    isSbir: false,
+    abstract: "Project Summary Mobile genetic elements use strategies that closely resemble those of viruses to replicate, spread, and persist. The long interspersed element-1 (LINE-1, L1) retrotransposon is the onl",
+    terms: ["Address", "Alpha Virus", "Bar Codes", "Binding", "Biological Assay", "Biology", "Biotechnology", "Complex"],
     isKnownCompany: false,
   },
   {
@@ -2591,6 +2604,19 @@ const NIH_GRANTS_AUTO = [
     isKnownCompany: false,
   },
   {
+    title: "Novel approach to modulate the TME on-demand with therapeutic peptides and proteins.",
+    organization: "UNIVERSITY OF CALIFORNIA AT DAVIS",
+    orgState: "CA",
+    piName: "KIT S LAM",
+    fiscalYear: 2026,
+    awardAmount: 626031,
+    activityCode: "R01",
+    isSbir: false,
+    abstract: "Abstract We have developed a transformable nanoparticle (TNP) platform capable of transforming its morphology from nanoparticles to nanofibrils when interact with receptors (e.g., EGFR or α3β1 integri",
+    terms: ["4T1", "A549", "Acids", "Alder plant", "Antibodies", "Biochemical Process", "Biodistribution", "Blood"],
+    isKnownCompany: false,
+  },
+  {
     title: "Integration of CSF Proteogenomics in the Diagnosis and Management of Diffuse Gliomas",
     organization: "PENNSYLVANIA STATE UNIV HERSHEY MED CTR",
     orgState: "PA",
@@ -3423,19 +3449,6 @@ const NIH_GRANTS_AUTO = [
     isKnownCompany: false,
   },
   {
-    title: "Generation of human skin organoids from pluripotency",
-    organization: "BOSTON CHILDREN'S HOSPITAL",
-    orgState: "MA",
-    piName: "Karl Russell Koehler",
-    fiscalYear: 2026,
-    awardAmount: 538470,
-    activityCode: "R01",
-    isSbir: false,
-    abstract: "ABSTRACT Skin formation involves the precise assembly of diverse cell types derived from multiple embryonic lineages, yet recreating anatomically accurate and functionally complete human skin in vitro",
-    terms: ["Abdomen", "Acceleration", "Affect", "Alopecia", "Anatomy", "Architecture", "Autologous", "BMP2 gene"],
-    isKnownCompany: false,
-  },
-  {
     title: "Targeting SMARCA2 as a therapeutic strategy in SMARCA4 mutant lung cancer",
     organization: "UNIVERSITY OF TX MD ANDERSON CAN CTR",
     orgState: "TX",
@@ -3888,19 +3901,6 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "Sensory processing is a way to understand the nervous system in action. Behavioral context strongly affects sensory processing. For example, a brief visual stimulus is easier to detect if it appears i",
     terms: ["Address", "Affect", "Anatomy", "Anterior", "Area", "Attention", "Attentional deficit", "Behavior"],
-    isKnownCompany: false,
-  },
-  {
-    title: "Organization of neural coding and plasticity in L2/3 of mouse S1 cortex",
-    organization: "UNIVERSITY OF CALIFORNIA BERKELEY",
-    orgState: "CA",
-    piName: "Daniel  Feldman",
-    fiscalYear: 2026,
-    awardAmount: 465071,
-    activityCode: "R01",
-    isSbir: false,
-    abstract: "Summary Non-topographic, intermixed representations (salt-and-pepper maps) of sensory information are common in cerebral cortex, but how neural coding and plasticity are organized within them is uncle",
-    terms: ["Anatomy", "Attention", "Attention deficit hyperactivity disorder", "Basic Science", "Biological Models", "Calcium", "Capsicum", "Cells"],
     isKnownCompany: false,
   },
 ];

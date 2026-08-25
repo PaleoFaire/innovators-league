@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-08-24 07:59:21 UTC",
+    "generated_at": "2026-08-25 07:46:06 UTC",
     "total_targets": 116,
-    "with_excerpts": 106,
+    "with_excerpts": 105,
     "sources": [
       "none",
       "sec_edgar",
@@ -724,13 +724,11 @@
     {
       "ticker": "ROK",
       "company": "Rockwell Automation",
-      "quarter": "2026-Q2",
-      "date": "2026-08-04",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000030/0001024478-26-000030-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.rockwellautomation.com/en-us/company/investor-relations.html",
+      "source": "none"
     },
     {
       "ticker": "EMR",

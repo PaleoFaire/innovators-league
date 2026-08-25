@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-08-24T08:04:12.912013+00:00",
+  "generated_at": "2026-08-25T07:50:47.291014+00:00",
   "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
   "candidates": [
+    {
+      "match_method": "name-candidate",
+      "company": "Helios",
+      "issuer_name": "Helios Strategic Ltd",
+      "form": "D",
+      "filed_date": "2026-08-24",
+      "cik": "1435858",
+      "accession": "0000905148-26-003877",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001435858&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0000905148-26-003877"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Helios",
+      "issuer_name": "HELIOS STRATEGIC FUND, LLC",
+      "form": "D",
+      "filed_date": "2026-08-24",
+      "cik": "1426359",
+      "accession": "0000905148-26-003876",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001426359&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0000905148-26-003876"
+    },
     {
       "match_method": "name-candidate",
       "company": "Revere",
@@ -100,6 +122,116 @@
       "accession": "0002150524-26-000001",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002150524&type=D&dateb=&owner=include&count=10",
       "adsh_raw": "0002150524-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Halo",
+      "issuer_name": "Halo Partners I-Exec, L.P",
+      "form": "D",
+      "filed_date": "2026-08-19",
+      "cik": "2147367",
+      "accession": "0002147367-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002147367&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002147367-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Singularity",
+      "issuer_name": "SINGULARITY OPPORTUNITY FUND II LLC",
+      "form": "D",
+      "filed_date": "2026-08-19",
+      "cik": "2117214",
+      "accession": "0002117214-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002117214&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002117214-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Halo",
+      "issuer_name": "HALO Partners I, L.P",
+      "form": "D",
+      "filed_date": "2026-08-19",
+      "cik": "2107339",
+      "accession": "0002107339-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002107339&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002107339-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Halo",
+      "issuer_name": "HALO Partners I-A, L.P",
+      "form": "D",
+      "filed_date": "2026-08-19",
+      "cik": "2107337",
+      "accession": "0002107337-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002107337&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002107337-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Icarus",
+      "issuer_name": "Icarus Ventures LLC",
+      "form": "D",
+      "filed_date": "2026-08-17",
+      "cik": "2150161",
+      "accession": "0002150161-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002150161&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002150161-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Valstad",
+      "issuer_name": "Valstad Shipworks Inc",
+      "form": "D",
+      "filed_date": "2026-08-14",
+      "cik": "2149540",
+      "accession": "0002149540-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002149540&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002149540-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Core Automation",
+      "issuer_name": "Core Automation Opportunity Fund, a series of Second Wave Venture, LP",
+      "form": "D",
+      "filed_date": "2026-08-14",
+      "cik": "2143737",
+      "accession": "0002143737-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002143737&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002143737-26-000002"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "AIR",
+      "issuer_name": "Air Control Concepts Holdings, L.P",
+      "form": "D",
+      "filed_date": "2026-08-14",
+      "cik": "2123322",
+      "accession": "0000906791-26-000153",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002123322&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0000906791-26-000153"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Vast",
+      "issuer_name": "Vast Resources PLC",
+      "form": "D",
+      "filed_date": "2026-08-13",
+      "cik": "2107569",
+      "accession": "0001012975-26-000754",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002107569&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001012975-26-000754"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Karman Industries",
+      "issuer_name": "Karman Industries SPV II LLC",
+      "form": "D",
+      "filed_date": "2026-08-12",
+      "cik": "2146620",
+      "accession": "0002146620-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002146620&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002146620-26-000001"
     }
   ]
 }

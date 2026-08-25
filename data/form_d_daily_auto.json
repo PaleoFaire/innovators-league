@@ -1,9 +1,60 @@
 {
-  "generated_at": "2026-08-24T08:04:17.699506+00:00",
+  "generated_at": "2026-08-25T07:50:59.551922+00:00",
   "lookback_days": 8,
-  "scanned": 1126,
+  "scanned": 1131,
   "total": 6,
   "filings": [
+    {
+      "match_method": "cik",
+      "match_evidence": "filer CIK 2137708 == our recorded CIK",
+      "company": "Generalist AI",
+      "issuer_name": "Generalist AI, Inc.",
+      "form": "D",
+      "filed_date": "2026-08-24",
+      "cik": "2137708",
+      "accession": "0002137708-26-000004",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2137708/000213770826000004/primary_doc.xml",
+      "offering_amount": "208224570",
+      "amount_sold": "198224662",
+      "amount_remaining": "9999908",
+      "securities_type": "Equity",
+      "related_persons": [
+        "Peter Florence",
+        "Andrew Barry",
+        "Andy Zeng",
+        "Ellen Chisa",
+        "Fraser Kelton",
+        "Robert Toews"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
+    },
+    {
+      "match_method": "cik",
+      "match_evidence": "filer CIK 1676668 == our recorded CIK",
+      "company": "Locus Robotics",
+      "issuer_name": "Locus Robotics Corp.",
+      "form": "D",
+      "filed_date": "2026-08-24",
+      "cik": "1676668",
+      "accession": "0001676668-26-000004",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1676668/000167666826000004/primary_doc.xml",
+      "offering_amount": "41599804",
+      "amount_sold": "41599804",
+      "amount_remaining": "0",
+      "securities_type": "Equity",
+      "related_persons": [
+        "Michael Johnson",
+        "Ralph Faulk",
+        "John Hayes",
+        "Christopher Gaffney",
+        "Rory O'Driscoll",
+        "Zach Barasz",
+        "Ben Fife"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
+    },
     {
       "match_method": "cik",
       "match_evidence": "filer CIK 2151004 == our recorded CIK",
@@ -99,52 +150,6 @@
         "Ryan Johnson",
         "Preston Dunlap",
         "Gaurav Jain"
-      ],
-      "is_safe": false,
-      "source": "edgar-daily-index"
-    },
-    {
-      "match_method": "cik",
-      "match_evidence": "filer CIK 1979342 == our recorded CIK",
-      "company": "Windborne",
-      "issuer_name": "WindBorne Systems Inc.",
-      "form": "D",
-      "filed_date": "2026-08-17",
-      "cik": "1979342",
-      "accession": "0001979342-26-000003",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/1979342/000197934226000003/primary_doc.xml",
-      "offering_amount": "37124969",
-      "amount_sold": "37124969",
-      "amount_remaining": "0",
-      "securities_type": "Equity",
-      "related_persons": [
-        "ANDREY SUSHKO",
-        "JOHN DEAN",
-        "NIKHIL TRIVEDI",
-        "KAI MARSHLAND"
-      ],
-      "is_safe": false,
-      "source": "edgar-daily-index"
-    },
-    {
-      "match_method": "cik",
-      "match_evidence": "filer CIK 2137857 == our recorded CIK",
-      "company": "Dexterity",
-      "issuer_name": "Dexterity, Inc.",
-      "form": "D/A",
-      "filed_date": "2026-08-17",
-      "cik": "2137857",
-      "accession": "0002137857-26-000002",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/2137857/000213785726000002/primary_doc.xml",
-      "offering_amount": "120000000",
-      "amount_sold": "104906666",
-      "amount_remaining": "15093334",
-      "securities_type": "Equity",
-      "related_persons": [
-        "Samir Menon",
-        "Jagannath Setlur",
-        "Raviraj Jain",
-        "Wen Hsieh"
       ],
       "is_safe": false,
       "source": "edgar-daily-index"
