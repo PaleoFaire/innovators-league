@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T07:50:20.375700+00:00",
+  "generatedAt": "2026-08-25T08:52:14.999571+00:00",
   "date": "2026-08-25",
   "dateDisplay": "Tuesday, August 25, 2026",
   "sections": {
@@ -72,9 +72,9 @@
       {
         "ticker": "ONT.L",
         "company": "Oxford Nanopore Technologies",
-        "price": 166.7,
-        "changePercent": 34.33,
-        "change": 42.6
+        "price": 167.4,
+        "changePercent": 36.99,
+        "change": 45.2
       },
       {
         "ticker": "TEM",
@@ -98,18 +98,18 @@
         "change": -3.72
       },
       {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 7.0,
-        "changePercent": -17.74,
-        "change": -1.51
-      },
-      {
         "ticker": "RKLB",
         "company": "Rocket Lab",
         "price": 68.28,
         "changePercent": -16.81,
         "change": -13.8
+      },
+      {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 7.08,
+        "changePercent": -16.75,
+        "change": -1.42
       },
       {
         "ticker": "ALAB",
@@ -151,23 +151,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Arizona Public Service Company; Palo Verde Nuclear Generating Station, Units 1, ",
-        "date": "2026-08-24",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17244"
+        "title": "Agency Information Collection Activities; Submission to the Office of Management",
+        "date": "2026-08-25",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17323"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Withdrawal of International Airport Designation of Chalk Seaplane Base",
-        "date": "2026-08-21",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17108"
+        "title": "Siting New Spaceports and Use of Priority Airspace for Critical Space Launch Cor",
+        "date": "2026-08-25",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17290"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Advisory Committee; Oncologic Drugs Advisory Committee; Renewal",
-        "date": "2026-08-21",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17084"
+        "title": "Privacy Act of 1974; System of Records",
+        "date": "2026-08-25",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17278"
       }
     ],
     "patents": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ONT.L +34.3%"
+    "topMover": "ONT.L +37.0%"
   }
 }
