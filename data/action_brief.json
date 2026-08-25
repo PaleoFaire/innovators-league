@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T02:07:03.260111+00:00",
-  "scanned": 1861,
-  "new": 11,
-  "companies": 10,
+  "generated_at": "2026-08-25T01:59:58.905201+00:00",
+  "scanned": 444,
+  "new": 16,
+  "companies": 14,
   "subject": "[IL Action Brief] Last Energy regulatory milestone \u00b7 9 more",
   "fund": 0,
   "media": 10,
@@ -17,7 +17,7 @@
     "kind": "regulatory",
     "headline": "NRC: 2027 U.S. Construction Permit pathway",
     "detail": "PWR-20 (20MWe modular reactor)",
-    "date": "2026-08-23",
+    "date": "2026-08-24",
     "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
     "value": 0,
     "source": "NRC",
@@ -29,6 +29,33 @@
   },
   "act_on": [
     {
+      "company": "SpaceX",
+      "tier": "covered",
+      "beat": null,
+      "tags": [
+        "MEDIA"
+      ],
+      "kind": "regulatory",
+      "headline": "FAA: Operational Cargo Flights",
+      "detail": "Starship / Super Heavy",
+      "date": "2026-08-24",
+      "url": "",
+      "value": 0,
+      "source": "FAA",
+      "context": "",
+      "why": "you have written about them",
+      "also": [
+        {
+          "headline": "payload on Falcon 9 Block 5 | Starlink Group 15-22",
+          "date": "2026-08-26",
+          "url": "https://ll.thespacedevs.com/2.2.0/launch/95653d52-bb77-4860-a815-dd7141778d17/?format=json",
+          "source": "launch manifest"
+        }
+      ],
+      "score": 58.1,
+      "momentum": 2
+    },
+    {
       "company": "Hermeus",
       "tier": "covered",
       "beat": null,
@@ -38,7 +65,7 @@
       "kind": "regulatory",
       "headline": "FAA: Darkhorse Piloted Prototype",
       "detail": "Quarterhorse / Darkhorse",
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "url": "",
       "value": 0,
       "source": "FAA",
@@ -47,14 +74,16 @@
       "also": [
         {
           "headline": "$60M from USAF",
-          "date": "2026-08-23",
+          "date": "2026-08-24",
           "url": "https://afwerx.com/",
           "source": "grants.gov"
         }
       ],
       "score": 58.1,
       "momentum": 2
-    },
+    }
+  ],
+  "radar": [
     {
       "company": "Varda Space Industries",
       "tier": "covered",
@@ -65,7 +94,7 @@
       "kind": "grant",
       "headline": "$60M from DOD",
       "detail": "Reentry capsule for pharmaceutical manufacturing",
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "url": "https://www.spacewerx.us/",
       "value": 60000000.0,
       "source": "grants.gov",
@@ -74,27 +103,25 @@
       "also": [],
       "score": 56.9,
       "momentum": 1
-    }
-  ],
-  "radar": [
+    },
     {
-      "company": "SpaceX",
+      "company": "Anduril Industries",
       "tier": "covered",
-      "beat": null,
+      "beat": "defense-primes-displaced",
       "tags": [
         "MEDIA"
       ],
-      "kind": "regulatory",
-      "headline": "FAA: Operational Cargo Flights",
-      "detail": "Starship / Super Heavy",
-      "date": "2026-08-23",
-      "url": "",
-      "value": 0,
-      "source": "FAA",
+      "kind": "announcement",
+      "headline": "Anduril Announces $5B Series H Raise",
+      "detail": "",
+      "date": "2026-08-24",
+      "url": "https://anduril.com",
+      "value": 5000000000.0,
+      "source": "company newsroom",
       "context": "",
-      "why": "you have written about them",
+      "why": "you have written about them; your defense primes displaced thread",
       "also": [],
-      "score": 53.1,
+      "score": 55.5,
       "momentum": 1
     },
     {
@@ -107,7 +134,7 @@
       "kind": "regulatory",
       "headline": "FAA: Urban Delivery Operations",
       "detail": "Platform 2 (P2)",
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "url": "",
       "value": 0,
       "source": "FAA",
@@ -127,7 +154,7 @@
       "kind": "grant",
       "headline": "$1.35B from DOE",
       "detail": "Carbon Free Power Project (UAMPS) deployment",
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "url": "https://www.energy.gov/ne/advanced-reactor-demonstration-program",
       "value": 1355000000.0,
       "source": "grants.gov",
@@ -135,6 +162,26 @@
       "why": "",
       "also": [],
       "score": 39.7,
+      "momentum": 1
+    },
+    {
+      "company": "X-energy",
+      "tier": "",
+      "beat": null,
+      "tags": [
+        "MEDIA"
+      ],
+      "kind": "grant",
+      "headline": "$1.20B from DOE",
+      "detail": "Xe-100 reactor demo with Dow Chemical",
+      "date": "2026-08-24",
+      "url": "https://www.energy.gov/ne/advanced-reactor-demonstration-program",
+      "value": 1200000000.0,
+      "source": "grants.gov",
+      "context": "",
+      "why": "",
+      "also": [],
+      "score": 39.5,
       "momentum": 1
     },
     {
@@ -147,7 +194,7 @@
       "kind": "regulatory",
       "headline": "NRC: 2026-Q3 ASLB hearing / Safety Evaluation Report draft",
       "detail": "Aurora Powerhouse (15MWe compact fast reactor)",
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
       "value": 0,
       "source": "NRC",
@@ -167,7 +214,7 @@
       "kind": "grant",
       "headline": "$303M from DOE",
       "detail": "Hermes low-power demonstration reactor",
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "url": "https://www.energy.gov/ne/advanced-reactor-demonstration-program",
       "value": 303000000.0,
       "source": "grants.gov",
@@ -175,46 +222,6 @@
       "why": "",
       "also": [],
       "score": 36.7,
-      "momentum": 1
-    },
-    {
-      "company": "Planet Labs",
-      "tier": "",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "kind": "grant",
-      "headline": "$146M from NGA",
-      "detail": "Earth observation commercial layer imagery",
-      "date": "2026-08-23",
-      "url": "https://www.nga.mil/",
-      "value": 146000000.0,
-      "source": "grants.gov",
-      "context": "",
-      "why": "",
-      "also": [],
-      "score": 35.3,
-      "momentum": 1
-    },
-    {
-      "company": "Boom Supersonic",
-      "tier": "",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "kind": "grant",
-      "headline": "$60M from USAF",
-      "detail": "Supersonic executive transport studies",
-      "date": "2026-08-23",
-      "url": "https://afwerx.com/",
-      "value": 60000000.0,
-      "source": "grants.gov",
-      "context": "",
-      "why": "",
-      "also": [],
-      "score": 33.5,
       "momentum": 1
     }
   ],
@@ -226,8 +233,9 @@
   ],
   "below_bar": {
     "regulatory": 12,
-    "grant": 76,
-    "podcast": 6,
+    "grant": 47,
+    "announcement": 11,
+    "launch": 2,
     "patent": 1
   }
 }
