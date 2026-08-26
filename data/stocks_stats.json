@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 1.11,
+      "avg_change": 0.69,
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -9.41,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -9.54,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -2.85,
+      "avg_change": -2.06,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.24,
+      "avg_change": 8.67,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 2.68,
+      "avg_change": 3.77,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.78,
+      "avg_change": -3.32,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 34.48,
+      "avg_change": 34.73,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 9.1,
+      "avg_change": 8.62,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.95,
+      "avg_change": -3.66,
       "count": 3
     }
   },
@@ -66,34 +66,34 @@
     [
       "TEM",
       "Tempus AI",
-      38.65
+      39.24
     ],
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      15.05
-    ],
-    [
-      "RIVN",
-      "Rivian",
-      13.9
+      15.21
     ],
     [
       "SMR",
       "NuScale Power",
-      12.67
+      13.54
+    ],
+    [
+      "RIVN",
+      "Rivian",
+      13.26
     ]
   ],
   "topLosers": [
     [
-      "SATL",
-      "Satellogic",
-      -7.58
+      "ASTS",
+      "AST SpaceMobile",
+      -7.54
     ],
     [
       "PL",
       "Planet Labs",
-      -8.24
+      -7.75
     ],
     [
       "ASRHF",
@@ -103,13 +103,13 @@
     [
       "LUNR",
       "Intuitive Machines",
-      -14.42
+      -14.03
     ],
     [
       "RKLB",
       "Rocket Lab",
-      -15.45
+      -15.47
     ]
   ],
-  "lastUpdated": "2026-08-25 19:48:41"
+  "lastUpdated": "2026-08-26 02:41:37"
 }
