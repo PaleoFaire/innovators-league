@@ -49895,23 +49895,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-26 09:50
+// Last updated: 2026-08-26 10:42
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI loses a top data center exec as stream of high-profile departures continues", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX will build a second, $100B 'Starbase' spaceport in Louisiana", source: "TechCrunch", time: "15h ago", impact: "high", unread: true },
-  { id: 3, type: "milestone", company: "Waymo", headline: "Waymo robotaxis are headed to Munich", source: "TechCrunch", time: "16h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Matter", headline: "Hydrogen Is Still A Tonnes Market, No Matter How Many MWh We Assign To It", source: "CleanTechnica", time: "18h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Pacific Fusion", headline: "Pacific Fusion's next fusion machine could clear a key hurdle to commercial power", source: "TechCrunch", time: "18h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Destinus", headline: "Dutch Navy to equip fleet with Destinus C-UAS interceptor drones", source: "Defense News", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Humanoid", headline: "XPeng Motors humanoid robot unit Dogotix raises $900M", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
-  { id: 8, type: "funding", company: "Commonwealth Fusion Systems", headline: "Commonwealth Fusion Systems aims to complete demonstration reactor with $1B funding round", source: "Utility Dive", time: "1d ago", impact: "high", unread: false },
-  { id: 9, type: "news", company: "Neura Robotics", headline: "NEURA Robotics acquires ADLATUS to bring Physical AI to autonomous cleaning", source: "Tech.eu", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Humanoid", headline: "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Waymo", headline: "Waymo doubles spending on lobbying in robotaxi battle with Uber", source: "Ars Technica", time: "4d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Waymo", headline: "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all", source: "Electrek", time: "5d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX's orbital data centers would create a new category of e-waste", source: "Ars Technica Space", time: "5d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Proteus Space", headline: "Draper Selects Proteus Space for Advanced On-Orbit Mission", source: "SpaceNews", time: "5d ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "SpaceX", headline: "Ex-Tesla president: Roadster delay is about getting closer to SpaceX ahead of merger", source: "Electrek", time: "6d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI loses a top data center exec as stream of high-profile departures continues", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Has 17 Starship Launch Pads Under Development", source: "Next Big Future", time: "13h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI Jalape'o Inference Chip just announced at Hot Chips", source: "Next Big Future", time: "13h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX will build a second, $100B 'Starbase' spaceport in Louisiana", source: "TechCrunch", time: "16h ago", impact: "high", unread: true },
+  { id: 5, type: "milestone", company: "Waymo", headline: "Waymo robotaxis are headed to Munich", source: "TechCrunch", time: "17h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Matter", headline: "Hydrogen Is Still A Tonnes Market, No Matter How Many MWh We Assign To It", source: "CleanTechnica", time: "19h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Pacific Fusion", headline: "Pacific Fusion's next fusion machine could clear a key hurdle to commercial power", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Destinus", headline: "Dutch Navy to equip fleet with Destinus C-UAS interceptor drones", source: "Defense News", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "Unreleased Anthropic Mythos 2 and Mythos 3 and OpenAI Astra", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "Semianalysis Deep Dive on the SpaceX 10 GW 2027 AI Data Center Build", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Humanoid", headline: "XPeng Motors humanoid robot unit Dogotix raises $900M", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
+  { id: 12, type: "funding", company: "Commonwealth Fusion Systems", headline: "Commonwealth Fusion Systems aims to complete demonstration reactor with $1B funding round", source: "Utility Dive", time: "1d ago", impact: "high", unread: false },
+  { id: 13, type: "news", company: "Neura Robotics", headline: "NEURA Robotics acquires ADLATUS to bring Physical AI to autonomous cleaning", source: "Tech.eu", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Humanoid", headline: "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Waymo", headline: "Waymo doubles spending on lobbying in robotaxi battle with Uber", source: "Ars Technica", time: "4d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
