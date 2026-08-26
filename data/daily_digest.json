@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T14:00:27.125693+00:00",
+  "generatedAt": "2026-08-26T14:52:33.013385+00:00",
   "date": "2026-08-26",
   "dateDisplay": "Wednesday, August 26, 2026",
   "sections": {
@@ -52,60 +52,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 68.73,
-        "changePercent": 39.24,
-        "change": 19.37
-      },
-      {
         "ticker": "ONT.L",
         "company": "Oxford Nanopore Technologies",
-        "price": 177.5,
-        "changePercent": 27.06,
-        "change": 37.8
-      },
-      {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 66.91,
-        "changePercent": -15.47,
-        "change": -12.25
-      },
-      {
-        "ticker": "RXRX",
-        "company": "Recursion Pharmaceuticals",
-        "price": 3.56,
-        "changePercent": 15.21,
-        "change": 0.47
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 16.6,
-        "changePercent": -14.03,
-        "change": -2.71
+        "price": 181.7,
+        "changePercent": 30.06,
+        "change": 42.0
       },
       {
         "ticker": "ASRHF",
         "company": "Astroscale",
         "price": 7.0,
-        "changePercent": -13.69,
-        "change": -1.11
+        "changePercent": -13.47,
+        "change": -1.09
+      },
+      {
+        "ticker": "TEM",
+        "company": "Tempus AI",
+        "price": 68.38,
+        "changePercent": 11.63,
+        "change": 7.12
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 67.49,
+        "changePercent": -11.01,
+        "change": -8.35
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 16.66,
+        "changePercent": -10.05,
+        "change": -1.86
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 61.6,
+        "changePercent": -7.27,
+        "change": -4.83
       },
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 9.81,
-        "changePercent": 13.54,
-        "change": 1.17
+        "price": 9.85,
+        "changePercent": 5.97,
+        "change": 0.56
       },
       {
-        "ticker": "RIVN",
-        "company": "Rivian",
-        "price": 16.74,
-        "changePercent": 13.26,
-        "change": 1.96
+        "ticker": "ACHR",
+        "company": "Archer Aviation",
+        "price": 6.08,
+        "changePercent": -5.78,
+        "change": -0.37
       }
     ],
     "regulatory": [
@@ -196,6 +196,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "TEM +39.2%"
+    "topMover": "ONT.L +30.1%"
   }
 }
