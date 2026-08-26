@@ -1,15 +1,6 @@
 [
   {
     "date": "2026-08-25",
-    "vehicle": "Long March 6C | 7 satellites",
-    "payload": "7 satellites",
-    "pad": "Launch Complex 9A, Taiyuan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/48c449c2-3c09-4d36-9c2a-d853b3a39289/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-08-25",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 10-49",
     "payload": "Starlink Group 10-49",
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
@@ -168,15 +159,6 @@
     "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
     "provider": "Indian Space Research Organization",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/20d5676e-111b-40e3-8923-b218c3665ca2/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-09-30",
-    "vehicle": "Long March 5 | Chang'e 7",
-    "payload": "Chang'e 7",
-    "pad": "101, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/9d402fb6-9115-424d-b6f0-bd3b13ee310e/?format=json",
     "trackedCompany": null
   },
   {
@@ -448,5 +430,23 @@
     "provider": "Arianespace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/0b85fcca-5252-48d7-9ccb-c10b1da9d183/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Falcon 9 Block 5 | CHORUS",
+    "payload": "CHORUS",
+    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8bf5f61e-a7e1-41e6-aede-7b87e4beebab/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Falcon 9 Block 5 | Inmarsat-7 F1 (GX-7)",
+    "payload": "Inmarsat-7 F1 (GX-7)",
+    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/01ca3653-126a-4c01-94fb-a9467b39cdac/?format=json",
+    "trackedCompany": "SpaceX"
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T07:50:59.551922+00:00",
+  "generated_at": "2026-08-26T07:51:46.018313+00:00",
   "lookback_days": 8,
-  "scanned": 1131,
-  "total": 6,
+  "scanned": 1098,
+  "total": 4,
   "filings": [
     {
       "match_method": "cik",
@@ -101,55 +101,6 @@
         "Greg Bowles",
         "Aicha Evans",
         "Michael Thompson"
-      ],
-      "is_safe": false,
-      "source": "edgar-daily-index"
-    },
-    {
-      "match_method": "cik",
-      "match_evidence": "filer CIK 1998786 == our recorded CIK",
-      "company": "Antares",
-      "issuer_name": "Antares Nuclear, Inc.",
-      "form": "D",
-      "filed_date": "2026-08-18",
-      "cik": "1998786",
-      "accession": "0001998786-26-000005",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/1998786/000199878626000005/primary_doc.xml",
-      "offering_amount": "84999666",
-      "amount_sold": "59999682",
-      "amount_remaining": "24999984",
-      "securities_type": "Equity",
-      "related_persons": [
-        "Jordan Bramble",
-        "Julia DeWahl",
-        "Jack Altman",
-        "Alexander Hartz",
-        "Alana Palmedo"
-      ],
-      "is_safe": false,
-      "source": "edgar-daily-index"
-    },
-    {
-      "match_method": "cik",
-      "match_evidence": "filer CIK 1818777 == our recorded CIK",
-      "company": "Pixxel",
-      "issuer_name": "Pixxel Space Technologies, Inc.",
-      "form": "D",
-      "filed_date": "2026-08-18",
-      "cik": "1818777",
-      "accession": "0001818777-26-000004",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/1818777/000181877726000004/primary_doc.xml",
-      "offering_amount": "125000000",
-      "amount_sold": "72999975",
-      "amount_remaining": "52000025",
-      "securities_type": "Equity",
-      "related_persons": [
-        "Awais Ahmed Nadeem Alduri",
-        "Kshitij Gokul Khandelwal",
-        "Eiji Yafuso",
-        "Ryan Johnson",
-        "Preston Dunlap",
-        "Gaurav Jain"
       ],
       "is_safe": false,
       "source": "edgar-daily-index"

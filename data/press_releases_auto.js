@@ -1,10 +1,10 @@
 // Auto-updated press releases
-// Last updated: 2026-08-25 07:40:31 UTC
+// Last updated: 2026-08-26 07:42:04 UTC
 const PRESS_RELEASES = [
+  { title: "Dutch Navy to equip fleet with Destinus C-UAS interceptor drones", date: "2026-08-25", companies: "Destinus, DroneShield, Fortem Technologies", categories: "", source: "defensenews" },
+  { title: "SpaceX Introduces New Louisiana Starbase", date: "2026-08-25", companies: "SpaceX", categories: "product, ipo", source: "spacepolicyonline" },
+  { title: "Overland AI nabs $14 million breaching contract with Navy", date: "2026-08-25", companies: "Overland AI, Field AI", categories: "funding, contract", source: "insidedefense" },
   { title: "Cellares, a cell therapy manufacturing specialist, to lay off 100 employees", date: "2026-08-24", companies: "Cellares, Multiply Labs", categories: "contract, hiring", source: "biopharmadive" },
-  { title: "Shield AI tests Hivemind autonomy in space for first time", date: "2026-08-24", companies: "Shield AI, Field AI", categories: "milestone, ipo", source: "insidedefense" },
   { title: "Draper Selects Proteus Space for Advanced On-Orbit Mission", date: "2026-08-20", companies: "Proteus Space, Figure AI", categories: "ipo", source: "spacenews" },
-  { title: "German drone maker Helsing enlists Rakuten to broker Japan military deal", date: "2026-08-17", companies: "Helsing", categories: "", source: "defensenews" },
-  { title: "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors", date: "2026-08-11", companies: "Proteus Space, Figure AI", categories: "ipo, hiring", source: "spacenews" },
-  { title: "Einride Scales Electric Freight Operations with Lidl in Sweden", date: "", companies: "Einride, Flexport, Parallel Systems", categories: "", source: "globenewswire_all" },
+  { title: "Nxera Pharma’s Partner Neurocrine Biosciences Receives IND Acceptance from the FDA for Phase 2 Study", date: "", companies: "Cognition", categories: "partnership, product", source: "globenewswire_all" },
 ];
