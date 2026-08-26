@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T01:50:07.756069+00:00",
+  "generatedAt": "2026-08-26T03:13:11.469271+00:00",
   "date": "2026-08-26",
   "dateDisplay": "Wednesday, August 26, 2026",
   "sections": {
@@ -61,37 +61,30 @@
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 68.44,
-        "changePercent": 38.65,
-        "change": 19.08
+        "price": 68.73,
+        "changePercent": 39.24,
+        "change": 19.37
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 66.93,
-        "changePercent": -15.45,
-        "change": -12.23
+        "price": 66.91,
+        "changePercent": -15.47,
+        "change": -12.25
       },
       {
         "ticker": "RXRX",
         "company": "Recursion Pharmaceuticals",
         "price": 3.56,
-        "changePercent": 15.05,
+        "changePercent": 15.21,
         "change": 0.47
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 16.52,
-        "changePercent": -14.42,
-        "change": -2.79
-      },
-      {
-        "ticker": "RIVN",
-        "company": "Rivian",
-        "price": 16.84,
-        "changePercent": 13.9,
-        "change": 2.06
+        "price": 16.6,
+        "changePercent": -14.03,
+        "change": -2.71
       },
       {
         "ticker": "ASRHF",
@@ -103,9 +96,16 @@
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 9.73,
-        "changePercent": 12.67,
-        "change": 1.09
+        "price": 9.81,
+        "changePercent": 13.54,
+        "change": 1.17
+      },
+      {
+        "ticker": "RIVN",
+        "company": "Rivian",
+        "price": 16.74,
+        "changePercent": 13.26,
+        "change": 1.96
       }
     ],
     "regulatory": [
