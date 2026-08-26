@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T07:01:08.825120+00:00",
+  "generatedAt": "2026-08-26T08:53:42.951989+00:00",
   "date": "2026-08-26",
   "dateDisplay": "Wednesday, August 26, 2026",
   "sections": {
@@ -52,18 +52,18 @@
     ],
     "marketMovers": [
       {
-        "ticker": "ONT.L",
-        "company": "Oxford Nanopore Technologies",
-        "price": 183.0,
-        "changePercent": 49.75,
-        "change": 60.8
-      },
-      {
         "ticker": "TEM",
         "company": "Tempus AI",
         "price": 68.73,
         "changePercent": 39.24,
         "change": 19.37
+      },
+      {
+        "ticker": "ONT.L",
+        "company": "Oxford Nanopore Technologies",
+        "price": 177.5,
+        "changePercent": 27.06,
+        "change": 37.8
       },
       {
         "ticker": "RKLB",
@@ -133,9 +133,16 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Agency Information Collection Activities; Submission to the Office of Management",
+        "title": "SMR, LLC; Palisades SMR, LLC; Pioneer Units 1 and 2; Environmental Assessment an",
         "date": "2026-08-25",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17323"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17253"
+      },
+      {
+        "kind": "Federal Register",
+        "company": "",
+        "title": "The National Space Transportation Policy",
+        "date": "2026-08-25",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17372"
       },
       {
         "kind": "Federal Register",
@@ -143,13 +150,6 @@
         "title": "Siting New Spaceports and Use of Priority Airspace for Critical Space Launch Cor",
         "date": "2026-08-25",
         "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17290"
-      },
-      {
-        "kind": "Federal Register",
-        "company": "",
-        "title": "Privacy Act of 1974; System of Records",
-        "date": "2026-08-25",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17278"
       }
     ],
     "patents": [
@@ -196,6 +196,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ONT.L +49.8%"
+    "topMover": "TEM +39.2%"
   }
 }
