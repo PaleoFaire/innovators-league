@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -0.71,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 1.32,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -6.99,
+      "avg_change": -9.13,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -1.81,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -4.13,
       "count": 7
     },
     "nuclear": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 3.55,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -2.24,
       "count": 3
     },
     "climate": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 1.77,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -0.77,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.77,
+      "avg_change": -7.76,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 13.75,
+      "avg_change": 13.88,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 2.32,
+      "avg_change": 1.15,
       "count": 2
     },
     "chips": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": 0.06,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -0.03,
       "count": 3
     }
   },
@@ -61,49 +61,49 @@
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      30.06
+      30.14
     ],
     [
       "TEM",
       "Tempus AI",
-      11.63
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      5.97
+      11.8
     ],
     [
       "RIVN",
       "Rivian",
-      5.47
+      3.81
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      4.87
+      "AMD",
+      "AMD",
+      3.11
+    ],
+    [
+      "PLTR",
+      "Palantir",
+      1.32
     ]
   ],
   "topLosers": [
     [
-      "ACHR",
-      "Archer Aviation",
-      -5.78
+      "QBTS",
+      "D-Wave Quantum",
+      -9.37
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -7.27
-    ],
-    [
-      "LUNR",
-      "Intuitive Machines",
-      -10.05
+      -9.86
     ],
     [
       "RKLB",
       "Rocket Lab",
-      -11.01
+      -12.74
+    ],
+    [
+      "LUNR",
+      "Intuitive Machines",
+      -13.01
     ],
     [
       "ASRHF",
@@ -111,5 +111,5 @@
       -13.47
     ]
   ],
-  "lastUpdated": "2026-08-26 14:07:09"
+  "lastUpdated": "2026-08-26 22:14:47"
 }
