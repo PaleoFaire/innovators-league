@@ -1,96 +1,96 @@
 // Auto-generated news signals
-// Last updated: 2026-08-26T04:48:42.773Z
+// Last updated: 2026-08-26T05:40:46.727Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1787719722773,
+    "id": 1787722846726,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI loses a top data center exec, as stream of high-profile departures continues",
     "source": "TechCrunch",
-    "time": "4h ago",
+    "time": "5h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/"
   },
   {
-    "id": 1787719722774,
+    "id": 1787722846728,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Has 17 Starship Launch Pads Under Development",
     "source": "Next Big Future",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/08/spacex-has-17-starship-launch-pads-under-development.html"
   },
   {
-    "id": 1787719722775,
+    "id": 1787722846729,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Jalapeño Inference Chip just announced at Hot Chips",
     "source": "Next Big Future",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/08/openai-jalapeno-inference-chip-just-announced-at-hot-chips.html"
   },
   {
-    "id": 1787719722776,
+    "id": 1787722846730,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX will build a second, $100B &#8216;Starbase&#8217; spaceport in Louisiana",
     "source": "TechCrunch",
-    "time": "10h ago",
+    "time": "11h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/25/spacex-will-build-a-second-100b-starbase-spaceport-in-louisiana/"
   },
   {
-    "id": 1787719722777,
+    "id": 1787722846731,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Waymo robotaxis are headed to Munich",
     "source": "TechCrunch",
-    "time": "11h ago",
+    "time": "12h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/25/waymo-robotaxis-are-headed-to-munich/"
   },
   {
-    "id": 1787719722778,
+    "id": 1787722846732,
     "type": "news",
     "company": "Matter",
     "headline": "Hydrogen Is Still A Tonnes Market, No Matter How Many MWh We Assign To It",
     "source": "CleanTechnica",
-    "time": "13h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": false,
     "link": "https://cleantechnica.com/2026/08/25/hydrogen-demand-tonnes-not-twh/"
   },
   {
-    "id": 1787719722779,
+    "id": 1787722846733,
     "type": "news",
     "company": "Pacific Fusion",
     "headline": "Pacific Fusion’s next fusion machine could clear a key hurdle to commercial power",
     "source": "TechCrunch",
-    "time": "13h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/08/25/pacific-fusion-next-fusion-machine-could-clear-key-hurdle-to-commercial-power/"
   },
   {
-    "id": 1787719722780,
+    "id": 1787722846734,
     "type": "news",
     "company": "Destinus",
     "headline": "Dutch Navy to equip fleet with Destinus C-UAS interceptor drones",
     "source": "Defense News",
-    "time": "19h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.defensenews.com/global/europe/2026/08/25/dutch-navy-to-equip-fleet-with-destinus-c-uas-interceptor-drones/"
   },
   {
-    "id": 1787719722781,
+    "id": 1787722846735,
     "type": "news",
     "company": "Anthropic",
     "headline": "Unreleased Anthropic Mythos 2 and Mythos 3 and OpenAI Astra",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/08/unreleased-anthropic-mythos-2-and-mythos-3-and-openai-astra.html"
   },
   {
-    "id": 1787719722782,
+    "id": 1787722846736,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Semianalysis Deep Dive on the SpaceX 10 GW 2027 AI Data Center Build",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/08/semianalysis-deep-dive.html"
   },
   {
-    "id": 1787719722783,
+    "id": 1787722846737,
     "type": "funding",
     "company": "Humanoid",
     "headline": "XPeng Motors humanoid robot unit Dogotix raises $900M",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/"
   },
   {
-    "id": 1787719722784,
+    "id": 1787722846738,
     "type": "funding",
     "company": "Commonwealth Fusion Systems",
     "headline": "Commonwealth Fusion Systems aims to complete demonstration reactor with $1B funding round",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.utilitydive.com/news/what-a-billion-dollar-funding-means-for-commonwealth-fusion-systems-and-its/828515/"
   },
   {
-    "id": 1787719722785,
+    "id": 1787722846739,
     "type": "news",
     "company": "Neura Robotics",
     "headline": "NEURA Robotics acquires ADLATUS to bring Physical AI to autonomous cleaning",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/08/24/neura-robotics-acquires-adlatus-to-bring-physical-ai-to-autonomous-cleaning/"
   },
   {
-    "id": 1787719722786,
+    "id": 1787722846740,
     "type": "news",
     "company": "Humanoid",
     "headline": "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/schaeffler-plans-to-mass-manufacture-gearboxes-for-humanoids-in-2027/"
   },
   {
-    "id": 1787719722787,
+    "id": 1787722846741,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/"
   },
   {
-    "id": 1787719722788,
+    "id": 1787722846742,
     "type": "news",
     "company": "Waymo",
     "headline": "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/20/waymo-zeekr-ojai-chinese-ev-robotaxi-all-riders/"
   },
   {
-    "id": 1787719722789,
+    "id": 1787722846743,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX’s orbital data centers would create a new category of e-waste",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
   },
   {
-    "id": 1787719722790,
+    "id": 1787722846744,
     "type": "ipo",
     "company": "Proteus Space",
     "headline": "Draper Selects Proteus Space for Advanced On-Orbit Mission",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/draper-selects-proteus-space-for-advanced-on-orbit-mission/"
   },
   {
-    "id": 1787719722791,
+    "id": 1787722846745,
     "type": "hire",
     "company": "SpaceX",
     "headline": "Ex-Tesla president: Roadster delay is about getting closer to SpaceX ahead of merger",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/19/ex-tesla-president-roadster-delay-spacex-thrusters/"
   },
   {
-    "id": 1787719722792,
+    "id": 1787722846746,
     "type": "news",
     "company": "Sage Geosystems",
     "headline": "Sage Geosystems brings its first next-gen geothermal plant online",
