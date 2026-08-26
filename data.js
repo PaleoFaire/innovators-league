@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-08-25";
+const LAST_UPDATED = "2026-08-26";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -49627,23 +49627,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-25 23:31
+// Last updated: 2026-08-26 01:50
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Has 17 Starship Launch Pads Under Development", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI Jalape'o Inference Chip just announced at Hot Chips", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX will build a second, $100B 'Starbase' spaceport in Louisiana", source: "TechCrunch", time: "5h ago", impact: "high", unread: true },
-  { id: 4, type: "milestone", company: "Waymo", headline: "Waymo robotaxis are headed to Munich", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Matter", headline: "Hydrogen Is Still A Tonnes Market, No Matter How Many MWh We Assign To It", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Pacific Fusion", headline: "Pacific Fusion's next fusion machine could clear a key hurdle to commercial power", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Destinus", headline: "Dutch Navy to equip fleet with Destinus C-UAS interceptor drones", source: "Defense News", time: "14h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "Unreleased Anthropic Mythos 2 and Mythos 3 and OpenAI Astra", source: "Next Big Future", time: "20h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "Semianalysis Deep Dive on the SpaceX 10 GW 2027 AI Data Center Build", source: "Next Big Future", time: "21h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Humanoid", headline: "XPeng Motors humanoid robot unit Dogotix raises $900M", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
-  { id: 11, type: "funding", company: "Commonwealth Fusion Systems", headline: "Commonwealth Fusion Systems aims to complete demonstration reactor with $1B funding round", source: "Utility Dive", time: "1d ago", impact: "high", unread: false },
-  { id: 12, type: "news", company: "Neura Robotics", headline: "NEURA Robotics acquires ADLATUS to bring Physical AI to autonomous cleaning", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Humanoid", headline: "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Waymo", headline: "Waymo doubles spending on lobbying in robotaxi battle with Uber", source: "Ars Technica", time: "4d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Waymo", headline: "Waymo Fully Launches Robotaxi Service in Houston", source: "CleanTechnica", time: "4d ago", impact: "medium", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI loses a top data center exec, as stream of high-profile departures continues", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Has 17 Starship Launch Pads Under Development", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI Jalape'o Inference Chip just announced at Hot Chips", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX will build a second, $100B 'Starbase' spaceport in Louisiana", source: "TechCrunch", time: "7h ago", impact: "high", unread: true },
+  { id: 5, type: "milestone", company: "Waymo", headline: "Waymo robotaxis are headed to Munich", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Matter", headline: "Hydrogen Is Still A Tonnes Market, No Matter How Many MWh We Assign To It", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Pacific Fusion", headline: "Pacific Fusion's next fusion machine could clear a key hurdle to commercial power", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Destinus", headline: "Dutch Navy to equip fleet with Destinus C-UAS interceptor drones", source: "Defense News", time: "16h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "Unreleased Anthropic Mythos 2 and Mythos 3 and OpenAI Astra", source: "Next Big Future", time: "22h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "Semianalysis Deep Dive on the SpaceX 10 GW 2027 AI Data Center Build", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Humanoid", headline: "XPeng Motors humanoid robot unit Dogotix raises $900M", source: "The Robot Report", time: "1d ago", impact: "high", unread: false },
+  { id: 12, type: "funding", company: "Commonwealth Fusion Systems", headline: "Commonwealth Fusion Systems aims to complete demonstration reactor with $1B funding round", source: "Utility Dive", time: "1d ago", impact: "high", unread: false },
+  { id: 13, type: "news", company: "Neura Robotics", headline: "NEURA Robotics acquires ADLATUS to bring Physical AI to autonomous cleaning", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Humanoid", headline: "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Waymo", headline: "Waymo doubles spending on lobbying in robotaxi battle with Uber", source: "Ars Technica", time: "4d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
