@@ -1,5 +1,25 @@
 [
   {
+    "title": "What We Still Don’t Know About OpenAI’s Hugging Face Hack",
+    "link": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
+    "description": "The AI giant acknowledges that it could have done far more to prevent its AI agents from going rogue. But it still fails to explain why it didn't see this fiasco coming.",
+    "pubDate": "Wed, 26 Aug 2026 19:16:42 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Hugging Face"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "4h ago"
+  },
+  {
     "title": "OpenAI releases its official report on the Hugging Face breach",
     "link": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
     "description": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
@@ -19,26 +39,29 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
-    "title": "Roman Space Telescope Travels to SpaceX Hangar",
-    "link": "https://www.nasa.gov/image-article/roman-space-telescope-travels-to-spacex-hangar/",
-    "description": "NASA’s Nancy Grace Roman Space Telescope, encapsulated in its payload fairing, travels from the Payload Hazardous Servicing Facility to the SpaceX hangar at Launch Complex 39A at NASA’s Kennedy Space Center on Tuesday, Aug. 25, 2026, ahead of mating to a SpaceX Falcon Heavy rocket. Roman’s science i",
-    "pubDate": "Wed, 26 Aug 2026 18:40:19 +0000",
-    "category": "Kennedy Space Center",
-    "source": "NASA Breaking News",
-    "feedCategory": "space",
-    "matchedCompany": "SpaceX",
+    "title": "The inside story on why OpenAI agents hacked Hugging Face",
+    "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+    "description": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were",
+    "pubDate": "Wed, 26 Aug 2026 19:00:00 +0000",
+    "category": "Artificial intelligence",
+    "source": "MIT Tech Review",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
     "matchedCompanies": [
-      "SpaceX"
+      "OpenAI",
+      "Galvanick",
+      "Hugging Face"
     ],
     "sectors": [
-      "space"
+      "ai",
+      "defense"
     ],
-    "type": "ipo",
+    "type": "milestone",
     "impact": "low",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "Bedrock Robotics&#8217; first operator-free excavator deployments take off",
@@ -57,7 +80,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "9h ago"
   },
   {
     "title": "Einride founders launch venture firm, targeting €450M European deep tech investments",
@@ -78,10 +101,10 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "6h ago"
+    "time": "10h ago"
   },
   {
-    "title": "SpaceX Has 17 Starship Launch Pads Under Development",
+    "title": "SpaceX Has 15-17 Starship Launch Pads Under Development",
     "link": "https://www.nextbigfuture.com/2026/08/spacex-has-17-starship-launch-pads-under-development.html",
     "description": "The $100B Starbase Louisiana will have 10 pads (5 complexes × 2) and will start building in 2027 with a first launch targeted 2029. The new launch facilities will not have a positive revenue impact until 2029 and only if the work stays on schedule. SpaceX now has 17 Starship launch pads under develo",
     "pubDate": "Tue, 25 Aug 2026 21:28:04 +0000",
@@ -97,7 +120,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "OpenAI Jalapeño Inference Chip just announced at Hot Chips",
@@ -116,7 +139,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Hydrogen Is Still A Tonnes Market, No Matter How Many MWh We Assign To It",
@@ -225,7 +248,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Commonwealth Fusion Systems aims to complete demonstration reactor with $1B funding round",
@@ -282,7 +305,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
@@ -435,7 +458,7 @@
   {
     "title": "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, and China goes BIG",
     "link": "https://electrek.co/2026/08/17/tesla-grows-robotaxi-fleet-by-50-einride-gets-a-partner-and-china-goes-big/",
-    "description": "On this second consecutive self-steering episode of Quick Charge, we take a look at how Tesla increased its national self-driving Robotaxi fleet by half with the stroke of a pen, and see how the company’s autonomous deployments compare to the rest of the world’s.",
+    "description": "On this second consecutive self-steering episode of Quick Charge, we take a look at how Tesla increased its national self-driving Robotaxi fleet by half with the stroke of a pen, and see how the company’s autonomous deployments compare to the rest of the world���s.",
     "pubDate": "Tue, 18 Aug 2026 02:06:48 +0000",
     "category": "News",
     "source": "Electrek",
@@ -474,27 +497,6 @@
     "type": "ipo",
     "impact": "high",
     "time": "8/17/2026"
-  },
-  {
-    "title": "PACCAR brand DAF to add Level 4 Einride autonomy to its electric trucks",
-    "link": "https://electrek.co/2026/08/15/paccar-brand-daf-to-add-level-4-einride-autonomy-to-its-electric-trucks/",
-    "description": "Autonomous logistics firm Einride is partnering with heavy truck brand DAF to accelerate the deployment of autonomous electric freight assets across the company’s premium truck platforms.",
-    "pubDate": "Sat, 15 Aug 2026 12:40:29 +0000",
-    "category": "News",
-    "source": "Electrek",
-    "feedCategory": "autonomous",
-    "matchedCompany": "Einride",
-    "matchedCompanies": [
-      "Einride",
-      "Harbinger",
-      "Parallel Systems"
-    ],
-    "sectors": [
-      "transportation"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "8/15/2026"
   },
   {
     "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
