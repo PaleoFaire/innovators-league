@@ -11,13 +11,13 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -9.54,
+      "avg_change": -9.48,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -2.06,
+      "avg_change": -1.5,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 34.73,
+      "avg_change": 27.17,
       "count": 3
     },
     "transportation": {
@@ -59,14 +59,14 @@
   },
   "topGainers": [
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      49.75
-    ],
-    [
       "TEM",
       "Tempus AI",
       39.24
+    ],
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      27.06
     ],
     [
       "RXRX",
@@ -111,5 +111,5 @@
       -15.47
     ]
   ],
-  "lastUpdated": "2026-08-26 02:41:37"
+  "lastUpdated": "2026-08-26 08:03:08"
 }
