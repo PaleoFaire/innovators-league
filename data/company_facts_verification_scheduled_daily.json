@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-25T05:38:44+00:00",
+  "generatedAt": "2026-08-26T05:41:13+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 35,
-  "newExtractionsThisRun": 35,
+  "cohortSize": 33,
+  "newExtractionsThisRun": 33,
   "summary": {
-    "cleared": 29,
-    "changesProposed": 6,
+    "cleared": 25,
+    "changesProposed": 8,
     "unverifiable": 0
   },
   "cleared": [
@@ -16,22 +16,18 @@
     "Astera Labs",
     "Aurora Innovation",
     "Base Power",
+    "Commonwealth Fusion Systems",
+    "Destinus",
     "Deterrence",
     "Einride",
-    "Galvanick",
     "Hadrian",
     "Harbinger",
-    "Helsing",
     "Humanoid",
     "Neura Robotics",
     "Oklo",
     "Orbital Composites",
-    "Palantir",
     "Parallel Systems",
     "Photonic Inc",
-    "Pivotal",
-    "Proteus Space",
-    "Quaise Energy",
     "Radiant",
     "Rebellions",
     "Sage Geosystems",
@@ -54,7 +50,7 @@
       },
       "verified": {
         "name": "1X Technologies",
-        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home environments. The company manufactures humanoid robots including EVE (for industrial use) and NEO (for home use).",
+        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home and industrial environments. The company produces bipedal robots including EVE and NEO models.",
         "founders": [
           "Bernt \u00d8ivind B\u00f8rnich"
         ],
@@ -103,7 +99,7 @@
             2
           ]
         },
-        "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Source [0] and [1] refer to a completely different company (1X Technologies LLC, a wire and cable distributor founded in 2015, located in Sheridan, WY) - not the robotics company. Total raised calculated from Series A2 ($23.5M in March 2023) + Series B ($100M in January 2024) = $123.5M verified from source [2]. Wikipedia source includes reference to September 2025 report of seeking $1B in new funding but this is not confirmed as raised."
+        "notes": "Company was founded as Halodi Robotics in 2014 and rebranded to 1X Technologies in 2022. Series A2 funding of $23.5M raised in March 2023; Series B funding of $100M raised in January 2024. Total verified raised is $123.5M ($23.5M + $100M). Source [0] and [1] describe a completely different company (wire and cable distributor founded in 2015, located in Sheridan, WY) and should not be used for this robotics company profile."
       },
       "changes": [
         {
@@ -145,14 +141,14 @@
           "url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/"
         }
       ],
-      "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Source [0] and [1] refer to a completely different company (1X Technologies LLC, a wire and cable distributor founded in 2015, located in Sheridan, WY) - not the robotics company. Total raised calculated from Series A2 ($23.5M in March 2023) + Series B ($100M in January 2024) = $123.5M verified from source [2]. Wikipedia source includes reference to September 2025 report of seeking $1B in new funding but this is not confirmed as raised."
+      "notes": "Company was founded as Halodi Robotics in 2014 and rebranded to 1X Technologies in 2022. Series A2 funding of $23.5M raised in March 2023; Series B funding of $100M raised in January 2024. Total verified raised is $123.5M ($23.5M + $100M). Source [0] and [1] describe a completely different company (wire and cable distributor founded in 2015, located in Sheridan, WY) and should not be used for this robotics company profile."
     },
     {
       "name": "Agility Robotics",
       "current": {
         "name": "Agility Robotics",
         "founder": "Jonathan Hurst, Damion Shelton, Mikhail Jones",
-        "location": "Salem, OR",
+        "location": "Salem, Oregon",
         "founded": 2015,
         "fundingStage": "Series E",
         "totalRaised": "$400M+",
@@ -160,7 +156,7 @@
       },
       "verified": {
         "name": "Agility Robotics",
-        "description": "A humanoid robotics company that develops and deploys Digit, a bipedal humanoid robot for warehouse and logistics automation. Digit is commercially deployed with customers including Amazon, GXO Logistics, Toyota, and Mercado Libre.",
+        "description": "A humanoid robotics company that develops and deploys Digit, a bipedal robot for warehouse and logistics automation. Digit is commercially deployed with customers including Amazon, GXO Logistics, and Toyota.",
         "founders": [
           "Jonathan Hurst",
           "Damion Shelton",
@@ -180,6 +176,7 @@
             2
           ],
           "description": [
+            0,
             1,
             2
           ],
@@ -187,6 +184,7 @@
             2
           ],
           "location": [
+            1,
             2
           ],
           "founded_year": [
@@ -201,17 +199,9 @@
             2
           ]
         },
-        "notes": "Company announced merger with Churchill Capital Corp XI on June 24, 2026 to go public (source 0). On March 5, 2026, company rebranded from 'Agility Robotics' to 'Agility' (source 2). Database entry lists $400M+ total raised and specific investors, but these claims are not verifiable in provided sources; sources do not contain funding or investor information."
+        "notes": "Company announced merger with Churchill Capital Corp XI to go public (source 0, June 24, 2026). Company rebranded as 'Agility' on March 5, 2026 (source 2). Database entry lists Series E stage and $400M+ raised, but these figures could not be verified from provided sources."
       },
       "changes": [
-        {
-          "field": "location",
-          "current": "Salem, OR",
-          "verified": "Salem, Oregon",
-          "sources": [
-            2
-          ]
-        },
         {
           "field": "fundingStage",
           "current": "Series E",
@@ -243,79 +233,81 @@
           "url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/"
         }
       ],
-      "notes": "Company announced merger with Churchill Capital Corp XI on June 24, 2026 to go public (source 0). On March 5, 2026, company rebranded from 'Agility Robotics' to 'Agility' (source 2). Database entry lists $400M+ total raised and specific investors, but these claims are not verifiable in provided sources; sources do not contain funding or investor information."
+      "notes": "Company announced merger with Churchill Capital Corp XI to go public (source 0, June 24, 2026). Company rebranded as 'Agility' on March 5, 2026 (source 2). Database entry lists Series E stage and $400M+ raised, but these figures could not be verified from provided sources."
     },
     {
-      "name": "Commonwealth Fusion Systems",
+      "name": "Matter",
       "current": {
-        "name": "Commonwealth Fusion Systems",
-        "founder": "Bob Mumgaard",
-        "location": "Devens, MA",
-        "founded": 2018,
-        "fundingStage": "Series B2",
-        "totalRaised": "$863M",
-        "website": "https://cfs.energy"
+        "name": "Matter",
+        "founder": "Adi Prasad, Charly Mwangi, Aish Varadhan, Aditya Ranjan",
+        "location": "Sunnyvale, CA",
+        "founded": 2025,
+        "fundingStage": "Seed",
+        "totalRaised": "$21M",
+        "website": null
       },
       "verified": {
-        "name": "Commonwealth Fusion Systems",
-        "description": "American fusion power company developing compact tokamak fusion reactors using high-temperature superconducting magnets. Founded as a spin-off from MIT, the company is building the SPARC demonstration tokamak and plans to construct a commercial fusion power plant.",
-        "founders": [
-          "Bob Mumgaard"
-        ],
-        "location": "Devens, Massachusetts",
-        "founded_year": 2018,
-        "current_stage": "Series B2",
-        "total_raised": "$863M",
+        "name": "Matter Intelligence",
+        "description": "Develops ultraspectral sensor technology paired with a foundational model to enable vision systems that understand physical matter at a molecular level, rather than just detecting shapes and colors.",
+        "founders": null,
+        "location": null,
+        "founded_year": null,
+        "current_stage": null,
+        "total_raised": null,
         "valuation": null,
         "investors": [
-          "Eni",
-          "Breakthrough Energy Ventures",
-          "Khosla Ventures",
-          "Temasek",
-          "Equinor",
-          "Devonshire Investors",
-          "Google"
+          "Lowercarbon Capital",
+          "Bezos Expeditions",
+          "Mark Cuban",
+          "Toyota Ventures",
+          "B-Squared Capital",
+          "Pear VC",
+          "State Farm Ventures",
+          "E2MC Ventures",
+          "Cubit Capital",
+          "Terra Nova Ventures"
         ],
-        "website": "https://cfs.energy",
+        "website": "https://matter.com",
         "sources_per_field": {
           "name": [
-            0,
-            1
+            0
           ],
           "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "current_stage": [
-            1
-          ],
-          "total_raised": [
-            1
+            0
           ],
           "investors": [
             1
           ],
           "website": [
-            0,
-            1
+            0
           ]
         },
-        "notes": "Founded in 2018 as spin-off from MIT Plasma Science and Fusion Center. Series B2 funding of $863M announced in August 2025. Multiple rounds of funding documented: $50M (2018), $115M Series A (2019), $84M Series A2 (2020), $1.8B Series B (November 2021). Bob Mumgaard is CEO. SPARC tokamak construction began December 2021 in Devens, MA. Company plans first commercial fusion power plant in Virginia by early 2030s."
+        "notes": "Database entry lists founders (Adi Prasad, Charly Mwangi, Aish Varadhan, Aditya Ranjan) and location (Sunnyvale, CA) but these cannot be verified in provided sources. CEO listed as Vishnu Sridhar in source [1]. Founded year 2025 and Seed stage from database cannot be verified in sources. Sources [2] and [3] are not relevant to this company."
       },
       "changes": [
         {
-          "field": "location",
-          "current": "Devens, MA",
-          "verified": "Devens, Massachusetts",
+          "field": "website",
+          "current": "",
+          "verified": "https://matter.com",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "investors",
+          "current": "[]",
+          "verified": [
+            "Lowercarbon Capital",
+            "Bezos Expeditions",
+            "Mark Cuban",
+            "Toyota Ventures",
+            "B-Squared Capital",
+            "Pear VC",
+            "State Farm Ventures",
+            "E2MC Ventures",
+            "Cubit Capital",
+            "Terra Nova Ventures"
+          ],
           "sources": [
             1
           ]
@@ -325,20 +317,25 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://cfs.energy"
+          "url": "https://matter.com"
         },
         {
           "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Commonwealth_Fusion_Systems"
+          "src": "company_about",
+          "url": "https://matter.com/team"
         },
         {
           "idx": 2,
-          "src": "news (Utility Dive)",
-          "url": "https://www.utilitydive.com/news/what-a-billion-dollar-funding-means-for-commonwealth-fusion-systems-and-its/828515/"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Matter"
+        },
+        {
+          "idx": 3,
+          "src": "news (CleanTechnica)",
+          "url": "https://cleantechnica.com/2026/08/25/hydrogen-demand-tonnes-not-twh/"
         }
       ],
-      "notes": "Founded in 2018 as spin-off from MIT Plasma Science and Fusion Center. Series B2 funding of $863M announced in August 2025. Multiple rounds of funding documented: $50M (2018), $115M Series A (2019), $84M Series A2 (2020), $1.8B Series B (November 2021). Bob Mumgaard is CEO. SPARC tokamak construction began December 2021 in Devens, MA. Company plans first commercial fusion power plant in Virginia by early 2030s."
+      "notes": "Database entry lists founders (Adi Prasad, Charly Mwangi, Aish Varadhan, Aditya Ranjan) and location (Sunnyvale, CA) but these cannot be verified in provided sources. CEO listed as Vishnu Sridhar in source [1]. Founded year 2025 and Seed stage from database cannot be verified in sources. Sources [2] and [3] are not relevant to this company."
     },
     {
       "name": "Nano Nuclear Energy",
@@ -353,7 +350,7 @@
       },
       "verified": {
         "name": "NANO Nuclear Energy Inc.",
-        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, with subsidiaries in fuel transportation, fuel fabrication, and space applications.",
+        "description": "Advanced technology-driven nuclear energy company developing microreactor technologies (KRONOS MMR, ZEUS, LOKI) and operating subsidiaries in nuclear fuel fabrication, transportation, space applications, and consulting services.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -372,15 +369,14 @@
             1
           ],
           "location": [
-            0,
-            1
+            0
           ],
           "current_stage": [
             0,
             1
           ]
         },
-        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources do not provide founder names, founding year, total raised amount, or valuation. Source [2] appears to be about a different company (Valar Atomics) and was not used. Database entry references 'Jay Jiang Yu' as founder and 2022 founding year, but these cannot be verified from provided sources."
+        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources confirm three reactor designs (KRONOS MMR, ZEUS, LOKI) in development. Source [2] appears to be about a different company (Valar Atomics) and is not relevant. Founder name 'Jay Jiang Yu' from database entry is not mentioned in provided sources. Founded year 2022, total raised $600M+, valuation $808M, and acquisition of ODIN to Cambridge AtomWorks from database entry could not be verified from sources provided."
       },
       "changes": [
         {
@@ -410,7 +406,192 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources do not provide founder names, founding year, total raised amount, or valuation. Source [2] appears to be about a different company (Valar Atomics) and was not used. Database entry references 'Jay Jiang Yu' as founder and 2022 founding year, but these cannot be verified from provided sources."
+      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources confirm three reactor designs (KRONOS MMR, ZEUS, LOKI) in development. Source [2] appears to be about a different company (Valar Atomics) and is not relevant. Founder name 'Jay Jiang Yu' from database entry is not mentioned in provided sources. Founded year 2022, total raised $600M+, valuation $808M, and acquisition of ODIN to Cambridge AtomWorks from database entry could not be verified from sources provided."
+    },
+    {
+      "name": "Pacific Fusion",
+      "current": {
+        "name": "Pacific Fusion",
+        "founder": "Eric Lander, Will Regan",
+        "location": "Fremont, CA",
+        "founded": 2023,
+        "fundingStage": "Series A",
+        "totalRaised": "$900M",
+        "website": "https://pacificfusion.com"
+      },
+      "verified": {
+        "name": "Pacific Fusion",
+        "description": "American energy company developing fusion-based power sources using pulser-driven inertial confinement fusion with pulsed magnetic drivers.",
+        "founders": [
+          "Will Regan",
+          "Keith LeChien",
+          "Eric Lander",
+          "Carrie von Muench",
+          "Leland Ellison"
+        ],
+        "location": "Fremont, California, United States",
+        "founded_year": 2023,
+        "current_stage": "Series A",
+        "total_raised": "$900M",
+        "valuation": null,
+        "investors": [
+          "General Catalyst",
+          "Breakthrough Energy Ventures",
+          "Ken Griffin",
+          "Patrick Collison",
+          "John Doerr",
+          "Mustafa Suleyman",
+          "Eric Schmidt"
+        ],
+        "website": "https://pacificfusion.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Wikipedia lists five co-founders (Will Regan, Keith LeChien, Eric Lander, Carrie von Muench, Leland Ellison), while database entry lists only Eric Lander and Will Regan. Series A funding of $900M raised in 2024, led by General Catalyst. Eric Lander is founding CEO. In September 2025, company selected Mesa del Sol in Albuquerque, New Mexico for $1 billion research and manufacturing facility. In December 2025, opened first build center in Los Lunas, New Mexico."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Eric Lander, Will Regan",
+          "verified": "Will Regan, Keith LeChien, Eric Lander, Carrie von Muench, Leland Ellison",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "location",
+          "current": "Fremont, CA",
+          "verified": "Fremont, California, United States",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://pacificfusion.com"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pacific_Fusion"
+        },
+        {
+          "idx": 2,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/08/25/pacific-fusion-next-fusion-machine-could-clear-key-hurdle-to-commercial-power/"
+        }
+      ],
+      "notes": "Wikipedia lists five co-founders (Will Regan, Keith LeChien, Eric Lander, Carrie von Muench, Leland Ellison), while database entry lists only Eric Lander and Will Regan. Series A funding of $900M raised in 2024, led by General Catalyst. Eric Lander is founding CEO. In September 2025, company selected Mesa del Sol in Albuquerque, New Mexico for $1 billion research and manufacturing facility. In December 2025, opened first build center in Los Lunas, New Mexico."
+    },
+    {
+      "name": "Proteus Space",
+      "current": {
+        "name": "Proteus Space",
+        "founder": "David Kervin (CEO, 20+ yrs govt contract bid/win/execution, US military vet), Andrew Shapiro (CTO, 20 yrs at NASA JPL as Manager of Technology Formulation; 3D-printed first parts for Mars Perseverance Rover)",
+        "location": "Los Angeles, CA",
+        "founded": 2021,
+        "fundingStage": "Series A",
+        "totalRaised": "$14.4M",
+        "website": "https://proteus-space.com"
+      },
+      "verified": {
+        "name": "Proteus Space",
+        "description": "AI-enabled aerospace company that designs custom satellite buses and spacecraft using a patent-pending generative design platform. Delivers payload-tailored satellite solutions with full lifecycle support from design through launch and operations.",
+        "founders": [
+          "David Kervin",
+          "Andrew Shapiro"
+        ],
+        "location": "Los Angeles, CA",
+        "founded_year": 2021,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://proteus-space.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            1
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Database entry references founders David Kervin and Andrew Shapiro with detailed backgrounds, but these names are not explicitly mentioned in provided sources as founders. Sources only confirm company founded 2021 in Los Angeles. Current stage, total raised, valuation, and investor list from database entry cannot be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "David Kervin (CEO, 20+ yrs govt contract bid/win/execution, US military vet), Andrew Shapiro (CTO, 20 yrs at NASA JPL as Manager of Technology Formulation; 3D-printed first parts for Mars Perseverance Rover)",
+          "verified": "David Kervin, Andrew Shapiro",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://proteus-space.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://proteus-space.com/about-us"
+        },
+        {
+          "idx": 2,
+          "src": "news (SpaceNews)",
+          "url": "https://spacenews.com/draper-selects-proteus-space-for-advanced-on-orbit-mission/"
+        }
+      ],
+      "notes": "Database entry references founders David Kervin and Andrew Shapiro with detailed backgrounds, but these names are not explicitly mentioned in provided sources as founders. Sources only confirm company founded 2021 in Los Angeles. Current stage, total raised, valuation, and investor list from database entry cannot be verified from provided sources."
     },
     {
       "name": "SpaceX",
@@ -425,7 +606,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial intelligence (Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered at Starbase in Texas. The company operates orbital launches, Starlink satellite communications, and artificial intelligence divisions.",
         "founders": [
           "Elon Musk"
         ],
@@ -467,7 +648,7 @@
             0
           ]
         },
-        "notes": "Wikipedia source indicates SpaceX completed initial public offering on June 12, 2026, raising $86 billion (largest IPO in history). Company is traded on Nasdaq as SPCX (Class A). Founded March 14, 2002 in El Segundo, California; later headquartered in Starbase, Texas. Current database entry claims 'Preparing for IPO at $1.5T valuation' is inaccurate\u2014IPO already occurred as of Wikipedia update date (May 2026). Valuation field left null as no specific current valuation found in sources."
+        "notes": "SpaceX completed IPO on June 12, 2026, raising $86 billion (largest IPO in history per source). Wikipedia source indicates Elon Musk owns 42% equity and controls 85% voting power (note: database entry states 82% voting control, but Wikipedia states 85%). Valuation field set to null as sources do not provide current valuation figure; database entry claims $1.65T but this is not supported by provided sources."
       },
       "changes": [
         {
@@ -488,20 +669,20 @@
         {
           "idx": 1,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/08/semianalysis-deep-dive.html"
+          "url": "https://www.nextbigfuture.com/2026/08/spacex-has-17-starship-launch-pads-under-development.html"
         },
         {
           "idx": 2,
           "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/"
+          "url": "https://techcrunch.com/2026/08/25/spacex-will-build-a-second-100b-starbase-spaceport-in-louisiana/"
         },
         {
           "idx": 3,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/08/spacex-starship-months-for-tower-catch-schedule-but-10x-launch-approvals.html"
+          "url": "https://www.nextbigfuture.com/2026/08/semianalysis-deep-dive.html"
         }
       ],
-      "notes": "Wikipedia source indicates SpaceX completed initial public offering on June 12, 2026, raising $86 billion (largest IPO in history). Company is traded on Nasdaq as SPCX (Class A). Founded March 14, 2002 in El Segundo, California; later headquartered in Starbase, Texas. Current database entry claims 'Preparing for IPO at $1.5T valuation' is inaccurate\u2014IPO already occurred as of Wikipedia update date (May 2026). Valuation field left null as no specific current valuation found in sources."
+      "notes": "SpaceX completed IPO on June 12, 2026, raising $86 billion (largest IPO in history per source). Wikipedia source indicates Elon Musk owns 42% equity and controls 85% voting power (note: database entry states 82% voting control, but Wikipedia states 85%). Valuation field set to null as sources do not provide current valuation figure; database entry claims $1.65T but this is not supported by provided sources."
     },
     {
       "name": "Starcloud",
@@ -516,13 +697,13 @@
       },
       "verified": {
         "name": "Starcloud",
-        "description": "A United States-based company that designs, builds, and deploys data centers in space using proprietary technology. The company launched its first test satellite, Starcloud-1, in November 2025 equipped with an Nvidia H100 GPU.",
+        "description": "A United States-based company that designs, builds, and deploys data centers in space using proprietary technology. The company launched its first test satellite, Starcloud-1, in November 2025, equipped with an Nvidia H100 GPU.",
         "founders": [
           "Philip Johnston",
           "Ezra Feilden",
           "Adi Oltean"
         ],
-        "location": "Redmond, Washington",
+        "location": "Redmond, Washington, US",
         "founded_year": 2024,
         "current_stage": "Series A",
         "total_raised": "$170M",
@@ -571,9 +752,18 @@
             2
           ]
         },
-        "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, then rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Series A round announced March 30, 2026. Fastest Y Combinator unicorn: 17 months from demo day to $1.1B valuation."
+        "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Wikipedia source indicates the company became the fastest unicorn in Y Combinator history at 17 months post-program completion. Series A funding round announced March 30, 2026."
       },
       "changes": [
+        {
+          "field": "location",
+          "current": "Redmond, Washington",
+          "verified": "Redmond, Washington, US",
+          "sources": [
+            0,
+            2
+          ]
+        },
         {
           "field": "fundingStage",
           "current": "Seed",
@@ -605,7 +795,7 @@
           "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
         }
       ],
-      "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, then rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Series A round announced March 30, 2026. Fastest Y Combinator unicorn: 17 months from demo day to $1.1B valuation."
+      "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Wikipedia source indicates the company became the fastest unicorn in Y Combinator history at 17 months post-program completion. Series A funding round announced March 30, 2026."
     }
   ],
   "unverifiable": []

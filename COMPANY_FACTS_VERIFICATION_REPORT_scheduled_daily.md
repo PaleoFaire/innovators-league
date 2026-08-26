@@ -1,25 +1,25 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-08-25T05:38:44+00:00  
+**Generated:** 2026-08-26T05:41:13+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 35 companies  
+**Cohort size:** 33 companies  
 
-**New Claude extractions this run:** 35  
+**New Claude extractions this run:** 33  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 29 | 83% |
-| 🔧 Changes proposed | 6 | 17% |
+| ✅ Cleared (data matches sources) | 25 | 76% |
+| 🔧 Changes proposed | 8 | 24% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (6 companies)
+## 🔧 Proposed Changes (8 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
@@ -30,48 +30,66 @@ Review each change and reply with which ones to apply. **Source-cited diffs:**
 - **`totalRaised`:** `$1.1B` → `$123.5M`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/1X_Technologies)
 
-  **Notes:** Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Source [0] and [1] refer to a completely different company (1X Technologies LLC, a wire and cable distributor founded in 2015, located in Sheridan, WY) - not the robotics company. Total raised calculated from Series A2 ($23.5M in March 2023) + Series B ($100M in January 2024) = $123.5M verified from source [2]. Wikipedia source includes reference to September 2025 report of seeking $1B in new funding but this is not confirmed as raised.
+  **Notes:** Company was founded as Halodi Robotics in 2014 and rebranded to 1X Technologies in 2022. Series A2 funding of $23.5M raised in March 2023; Series B funding of $100M raised in January 2024. Total verified raised is $123.5M ($23.5M + $100M). Source [0] and [1] describe a completely different company (wire and cable distributor founded in 2015, located in Sheridan, WY) and should not be used for this robotics company profile.
 
 ### Agility Robotics
 
-- **`location`:** `Salem, OR` → `Salem, Oregon`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Agility_Robotics)
 - **`fundingStage`:** `Series E` → `Pre-IPO`  
   Sources: [company_website](https://agilityrobotics.com)
 
-  **Notes:** Company announced merger with Churchill Capital Corp XI on June 24, 2026 to go public (source 0). On March 5, 2026, company rebranded from 'Agility Robotics' to 'Agility' (source 2). Database entry lists $400M+ total raised and specific investors, but these claims are not verifiable in provided sources; sources do not contain funding or investor information.
+  **Notes:** Company announced merger with Churchill Capital Corp XI to go public (source 0, June 24, 2026). Company rebranded as 'Agility' on March 5, 2026 (source 2). Database entry lists Series E stage and $400M+ raised, but these figures could not be verified from provided sources.
 
-### Commonwealth Fusion Systems
+### Matter
 
-- **`location`:** `Devens, MA` → `Devens, Massachusetts`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Commonwealth_Fusion_Systems)
+- **`website`:** `*(empty)*` → `https://matter.com`  
+  Sources: [company_website](https://matter.com)
+- **`investors`:** `[]` → `['Lowercarbon Capital', 'Bezos Expeditions', 'Mark Cuban', '`  
+  Sources: [company_about](https://matter.com/team)
 
-  **Notes:** Founded in 2018 as spin-off from MIT Plasma Science and Fusion Center. Series B2 funding of $863M announced in August 2025. Multiple rounds of funding documented: $50M (2018), $115M Series A (2019), $84M Series A2 (2020), $1.8B Series B (November 2021). Bob Mumgaard is CEO. SPARC tokamak construction began December 2021 in Devens, MA. Company plans first commercial fusion power plant in Virginia by early 2030s.
+  **Notes:** Database entry lists founders (Adi Prasad, Charly Mwangi, Aish Varadhan, Aditya Ranjan) and location (Sunnyvale, CA) but these cannot be verified in provided sources. CEO listed as Vishnu Sridhar in source [1]. Founded year 2025 and Seed stage from database cannot be verified in sources. Sources [2] and [3] are not relevant to this company.
 
 ### Nano Nuclear Energy
 
 - **`fundingStage`:** `Seed` → `Public`  
   Sources: [company_website](https://nanonuclearenergy.com) · [company_about](https://nanonuclearenergy.com/about)
 
-  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Sources do not provide founder names, founding year, total raised amount, or valuation. Source [2] appears to be about a different company (Valar Atomics) and was not used. Database entry references 'Jay Jiang Yu' as founder and 2022 founding year, but these cannot be verified from provided sources.
+  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Sources confirm three reactor designs (KRONOS MMR, ZEUS, LOKI) in development. Source [2] appears to be about a different company (Valar Atomics) and is not relevant. Founder name 'Jay Jiang Yu' from database entry is not mentioned in provided sources. Founded year 2022, total raised $600M+, valuation $808M, and acquisition of ODIN to Cambridge AtomWorks from database entry could not be verified from sources provided.
+
+### Pacific Fusion
+
+- **`founder`:** `Eric Lander, Will Regan` → `Will Regan, Keith LeChien, Eric Lander, Carrie von Muench, L`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Pacific_Fusion)
+- **`location`:** `Fremont, CA` → `Fremont, California, United States`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Pacific_Fusion)
+
+  **Notes:** Wikipedia lists five co-founders (Will Regan, Keith LeChien, Eric Lander, Carrie von Muench, Leland Ellison), while database entry lists only Eric Lander and Will Regan. Series A funding of $900M raised in 2024, led by General Catalyst. Eric Lander is founding CEO. In September 2025, company selected Mesa del Sol in Albuquerque, New Mexico for $1 billion research and manufacturing facility. In December 2025, opened first build center in Los Lunas, New Mexico.
+
+### Proteus Space
+
+- **`founder`:** `David Kervin (CEO, 20+ yrs govt contract bid/win/execution, ` → `David Kervin, Andrew Shapiro`  
+  Sources: [company_about](https://proteus-space.com/about-us)
+
+  **Notes:** Database entry references founders David Kervin and Andrew Shapiro with detailed backgrounds, but these names are not explicitly mentioned in provided sources as founders. Sources only confirm company founded 2021 in Los Angeles. Current stage, total raised, valuation, and investor list from database entry cannot be verified from provided sources.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia source indicates SpaceX completed initial public offering on June 12, 2026, raising $86 billion (largest IPO in history). Company is traded on Nasdaq as SPCX (Class A). Founded March 14, 2002 in El Segundo, California; later headquartered in Starbase, Texas. Current database entry claims 'Preparing for IPO at $1.5T valuation' is inaccurate—IPO already occurred as of Wikipedia update date (May 2026). Valuation field left null as no specific current valuation found in sources.
+  **Notes:** SpaceX completed IPO on June 12, 2026, raising $86 billion (largest IPO in history per source). Wikipedia source indicates Elon Musk owns 42% equity and controls 85% voting power (note: database entry states 82% voting control, but Wikipedia states 85%). Valuation field set to null as sources do not provide current valuation figure; database entry claims $1.65T but this is not supported by provided sources.
 
 ### Starcloud
 
+- **`location`:** `Redmond, Washington` → `Redmond, Washington, US`  
+  Sources: [company_website](https://www.starcloud.com) · [wikipedia](https://en.wikipedia.org/wiki/Starcloud)
 - **`fundingStage`:** `Seed` → `Series A`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Starcloud)
 
-  **Notes:** Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, then rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Series A round announced March 30, 2026. Fastest Y Combinator unicorn: 17 months from demo day to $1.1B valuation.
+  **Notes:** Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Wikipedia source indicates the company became the fastest unicorn in Y Combinator history at 17 months post-program completion. Series A funding round announced March 30, 2026.
 
 ---
 
-## ✅ Cleared (29 companies)
+## ✅ Cleared (25 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -83,22 +101,18 @@ Sample (first 30):
 - Astera Labs
 - Aurora Innovation
 - Base Power
+- Commonwealth Fusion Systems
+- Destinus
 - Deterrence
 - Einride
-- Galvanick
 - Hadrian
 - Harbinger
-- Helsing
 - Humanoid
 - Neura Robotics
 - Oklo
 - Orbital Composites
-- Palantir
 - Parallel Systems
 - Photonic Inc
-- Pivotal
-- Proteus Space
-- Quaise Energy
 - Radiant
 - Rebellions
 - Sage Geosystems
@@ -110,4 +124,4 @@ Sample (first 30):
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-08-25T05:38:44+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-08-26T05:41:13+00:00*
