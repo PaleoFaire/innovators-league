@@ -1,9 +1,36 @@
 {
-  "generated_at": "2026-08-26T07:51:46.018313+00:00",
+  "generated_at": "2026-08-27T18:26:05.068285+00:00",
   "lookback_days": 8,
-  "scanned": 1098,
+  "scanned": 1130,
   "total": 4,
   "filings": [
+    {
+      "match_method": "cik",
+      "match_evidence": "filer CIK 1751463 == our recorded CIK",
+      "company": "ICON",
+      "issuer_name": "ICON Technology, Inc.",
+      "form": "D",
+      "filed_date": "2026-08-26",
+      "cik": "1751463",
+      "accession": "0001751463-26-000003",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1751463/000175146326000003/primary_doc.xml",
+      "offering_amount": "200000000",
+      "amount_sold": "114887843",
+      "amount_remaining": "85112157",
+      "securities_type": "Equity",
+      "related_persons": [
+        "Jason Ballard",
+        "Francisco Velasquez",
+        "Justina Martynaityte",
+        "Jason Portnoy",
+        "Constance Freedman",
+        "Evan Loomis",
+        "Khan Tasinga",
+        "William Hurd"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
+    },
     {
       "match_method": "cik",
       "match_evidence": "filer CIK 2137708 == our recorded CIK",
@@ -74,33 +101,6 @@
         "Michael Anderson",
         "Max Friefeld",
         "Oliver Ortlieb"
-      ],
-      "is_safe": false,
-      "source": "edgar-daily-index"
-    },
-    {
-      "match_method": "cik",
-      "match_evidence": "filer CIK 1819848 == our recorded CIK",
-      "company": "Joby Aviation",
-      "issuer_name": "Joby Aviation, Inc.",
-      "form": "D",
-      "filed_date": "2026-08-19",
-      "cik": "1819848",
-      "accession": "0001819848-26-000440",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000440/primary_doc.xml",
-      "offering_amount": "50000000",
-      "amount_sold": "0",
-      "amount_remaining": "50000000",
-      "securities_type": "Equity",
-      "related_persons": [
-        "Kate DeHoff",
-        "JoeBen Bevirt",
-        "Rodrigo Brumana",
-        "Eric Allison",
-        "Bonny Simi",
-        "Greg Bowles",
-        "Aicha Evans",
-        "Michael Thompson"
       ],
       "is_safe": false,
       "source": "edgar-daily-index"

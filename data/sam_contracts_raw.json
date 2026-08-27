@@ -33,7 +33,7 @@
     "subtierAgency": "Department of the Army",
     "type": null,
     "postedDate": "2026-03-16",
-    "_awardAmount": 87713060.0,
+    "_awardAmount": 142039256.09,
     "_recipientName": "ANDURIL INDUSTRIES, INC.",
     "_source": "usaspending_fallback",
     "_matchedCompany": "Anduril"
@@ -85,7 +85,7 @@
     "subtierAgency": "U.S. Customs and Border Protection",
     "type": null,
     "postedDate": "2025-08-01",
-    "_awardAmount": 41865735.56,
+    "_awardAmount": 41852694.56,
     "_recipientName": "ANDURIL INDUSTRIES, INC.",
     "_source": "usaspending_fallback",
     "_matchedCompany": "Anduril"
@@ -819,6 +819,19 @@
     "_matchedCompany": "Skydio"
   },
   {
+    "noticeId": "12639526F0784",
+    "title": "THE PURPOSE OF THIS DELIVERY ORDER IS TO ENTER INTO A FIRM FIXED PRICE ORDER OFF USDA CONTACT 12639525D0008 ORDERING PERIOD TWO FOR UAS AND ASSOCIATED ACCESSORIES FOR SITES IN AZ AND UT.",
+    "description": "THE PURPOSE OF THIS DELIVERY ORDER IS TO ENTER INTO A FIRM FIXED PRICE ORDER OFF USDA CONTACT 12639525D0008 ORDERING PERIOD TWO FOR UAS AND ASSOCIATED ACCESSORIES FOR SITES IN AZ AND UT.",
+    "departmentName": "Department of Agriculture",
+    "subtierAgency": "Animal and Plant Health Inspection Service",
+    "type": null,
+    "postedDate": "2026-08-17",
+    "_awardAmount": 54106.5,
+    "_recipientName": "SKYDIO, INC",
+    "_source": "usaspending_fallback",
+    "_matchedCompany": "Skydio"
+  },
+  {
     "noticeId": "12639526F0665",
     "title": "PROCUREMENT OF SKYDIO X10 DRONES AND ASSOCIATED EQUIPMENT.",
     "description": "PROCUREMENT OF SKYDIO X10 DRONES AND ASSOCIATED EQUIPMENT.",
@@ -1229,7 +1242,7 @@
     "subtierAgency": "National Aeronautics and Space Administration",
     "type": null,
     "postedDate": "2025-12-18",
-    "_awardAmount": 6484761.2,
+    "_awardAmount": 9184761.2,
     "_recipientName": "SIERRA SPACE CORP",
     "_source": "usaspending_fallback",
     "_matchedCompany": "Sierra Space"
@@ -1413,19 +1426,6 @@
     "postedDate": "2024-09-23",
     "_awardAmount": 2004643.46,
     "_recipientName": "RADIANT INFOTECH, LLC",
-    "_source": "usaspending_fallback",
-    "_matchedCompany": "Radiant"
-  },
-  {
-    "noticeId": "HR001126CE004",
-    "title": "HYBRID ALN PZT PIEZOMEMS PDK",
-    "description": "HYBRID ALN PZT PIEZOMEMS PDK",
-    "departmentName": "Department of Defense",
-    "subtierAgency": "Defense Advanced Research Projects Agency",
-    "type": null,
-    "postedDate": "2025-10-24",
-    "_awardAmount": 1328352.0,
-    "_recipientName": "RADIANT TECHNOLOGIES, INC.",
     "_source": "usaspending_fallback",
     "_matchedCompany": "Radiant"
   },

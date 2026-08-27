@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-08-26 07:47:17 UTC",
+    "generated_at": "2026-08-27 18:21:27 UTC",
     "total_targets": 116,
-    "with_excerpts": 106,
+    "with_excerpts": 98,
     "sources": [
       "none",
       "sec_edgar",
@@ -61,13 +61,11 @@
     {
       "ticker": "GD",
       "company": "General Dynamics",
-      "quarter": "2026-Q2",
-      "date": "2026-07-29",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/40533/000004053326000032/0000040533-26-000032-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investorrelations.gd.com/",
+      "source": "none"
     },
     {
       "ticker": "LHX",
@@ -185,13 +183,11 @@
     {
       "ticker": "EXC",
       "company": "Exelon",
-      "quarter": "2026-Q2",
-      "date": "2026-07-30",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1109357/000110935726000080/0001109357-26-000080-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.exeloncorp.com/",
+      "source": "none"
     },
     {
       "ticker": "CCJ",
@@ -227,13 +223,11 @@
     {
       "ticker": "GM",
       "company": "General Motors",
-      "quarter": "2026-Q2",
-      "date": "2026-07-21",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000051/0001467858-26-000051-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investor.gm.com/",
+      "source": "none"
     },
     {
       "ticker": "TSLA",
@@ -429,13 +423,11 @@
     {
       "ticker": "HWM",
       "company": "Howmet Aerospace",
-      "quarter": "2026-Q2",
-      "date": "2026-08-06",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/4281/000000428126000025/0000004281-26-000025-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.howmet.com/investors",
+      "source": "none"
     },
     {
       "ticker": "VSAT",
@@ -463,11 +455,11 @@
       "ticker": "CRWD",
       "company": "CrowdStrike",
       "quarter": "2026-Q2",
-      "date": "2026-06-03",
+      "date": "2026-08-26",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000025/0001535527-26-000025-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000031/0001535527-26-000031-index.htm",
       "source": "sec_edgar"
     },
     {
@@ -539,13 +531,11 @@
     {
       "ticker": "TER",
       "company": "Teradyne",
-      "quarter": "2026-Q2",
-      "date": "2026-07-31",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526327715/0001193125-26-327715-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.teradyne.com/",
+      "source": "none"
     },
     {
       "ticker": "ENTG",
@@ -584,11 +574,11 @@
       "ticker": "SNPS",
       "company": "Synopsys",
       "quarter": "2026-Q2",
-      "date": "2026-05-27",
+      "date": "2026-08-26",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000018/0000883241-26-000018-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/0000883241-26-000025-index.htm",
       "source": "sec_edgar"
     },
     {
@@ -605,13 +595,11 @@
     {
       "ticker": "WOLF",
       "company": "Wolfspeed",
-      "quarter": "2026-Q2",
-      "date": "2026-05-07",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/895419/000089541926000030/0000895419-26-000030-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investor.wolfspeed.com/",
+      "source": "none"
     },
     {
       "ticker": "MCHP",
@@ -801,13 +789,11 @@
     {
       "ticker": "QBTS",
       "company": "D-Wave Quantum",
-      "quarter": "2026-Q2",
-      "date": "2026-08-06",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000129/0001907982-26-000129-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://ir.dwavesys.com/",
+      "source": "none"
     },
     {
       "ticker": "RGTI",
@@ -1004,13 +990,11 @@
     {
       "ticker": "SMR",
       "company": "NuScale Power",
-      "quarter": "2026-Q2",
-      "date": "2026-08-05",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1822966/000182296626000085/0001822966-26-000085-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.nuscalepower.com/en/investors",
+      "source": "none"
     },
     {
       "ticker": "NNE",

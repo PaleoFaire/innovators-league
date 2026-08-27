@@ -1,7 +1,7 @@
 {
   "script": "fetch_podcast_mentions.py",
-  "started_at": "2026-08-26T07:41:50.701317+00:00",
-  "finished_at": "2026-08-26T07:42:13.896267+00:00",
+  "started_at": "2026-08-27T18:03:08.051008+00:00",
+  "finished_at": "2026-08-27T18:03:29.261760+00:00",
   "lookback_days": 30,
   "podcasts": [
     {
@@ -13,7 +13,7 @@
     {
       "podcast": "All-In",
       "url": "https://allinchamathjason.libsyn.com/rss",
-      "episodes_fetched": 411,
+      "episodes_fetched": 412,
       "error": null
     },
     {
@@ -25,7 +25,7 @@
     {
       "podcast": "Lex Fridman",
       "url": "https://lexfridman.com/feed/podcast/",
-      "episodes_fetched": 501,
+      "episodes_fetched": 502,
       "error": null
     },
     {
@@ -71,7 +71,7 @@
       "error": "all retries failed"
     }
   ],
-  "total_episodes": 2148,
-  "total_mentions": 302,
+  "total_episodes": 2150,
+  "total_mentions": 305,
   "ok": true
 }
