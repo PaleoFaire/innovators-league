@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-26T02:08:12.567557+00:00",
-  "scanned": 448,
+  "generated_at": "2026-08-27T10:06:32.262821+00:00",
+  "scanned": 506,
   "new": 17,
-  "companies": 16,
+  "companies": 14,
   "subject": "[IL Action Brief] Last Energy regulatory milestone \u00b7 9 more",
-  "fund": 2,
-  "media": 9,
+  "fund": 0,
+  "media": 10,
   "pod": 0,
   "lede": {
     "company": "Last Energy",
@@ -17,7 +17,7 @@
     "kind": "regulatory",
     "headline": "NRC: 2027 U.S. Construction Permit pathway",
     "detail": "PWR-20 (20MWe modular reactor)",
-    "date": "2026-08-25",
+    "date": "2026-08-26",
     "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
     "value": 0,
     "source": "NRC",
@@ -29,25 +29,37 @@
   },
   "act_on": [
     {
-      "company": "Generalist AI",
-      "tier": "",
-      "beat": "physical-ai",
+      "company": "SpaceX",
+      "tier": "covered",
+      "beat": null,
       "tags": [
-        "FUND",
         "MEDIA"
       ],
-      "kind": "form_d",
-      "headline": "filed a Form D",
-      "detail": "$208M offering; $198M already sold",
-      "date": "2026-08-24",
-      "url": "https://www.sec.gov/Archives/edgar/data/2137708/000213770826000004/primary_doc.xml",
-      "value": 208224570.0,
-      "source": "SEC EDGAR",
-      "context": "Series B \u00b7 $500M+ raised to date",
-      "why": "your physical ai thread",
-      "also": [],
-      "score": 65.7,
-      "momentum": 1
+      "kind": "regulatory",
+      "headline": "FAA: Operational Cargo Flights",
+      "detail": "Starship / Super Heavy",
+      "date": "2026-08-26",
+      "url": "",
+      "value": 0,
+      "source": "FAA",
+      "context": "",
+      "why": "you have written about them",
+      "also": [
+        {
+          "headline": "payload on Falcon 9 Block 5 | CHORUS",
+          "date": "2026-12-31",
+          "url": "https://ll.thespacedevs.com/2.2.0/launch/8bf5f61e-a7e1-41e6-aede-7b87e4beebab/?format=json",
+          "source": "launch manifest"
+        },
+        {
+          "headline": "payload on Falcon 9 Block 5 | Inmarsat-7 F1 (GX-7)",
+          "date": "2026-12-31",
+          "url": "https://ll.thespacedevs.com/2.2.0/launch/01ca3653-126a-4c01-94fb-a9467b39cdac/?format=json",
+          "source": "launch manifest"
+        }
+      ],
+      "score": 63.1,
+      "momentum": 3
     },
     {
       "company": "Hermeus",
@@ -59,7 +71,7 @@
       "kind": "regulatory",
       "headline": "FAA: Darkhorse Piloted Prototype",
       "detail": "Quarterhorse / Darkhorse",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "url": "",
       "value": 0,
       "source": "FAA",
@@ -68,7 +80,7 @@
       "also": [
         {
           "headline": "$60M from USAF",
-          "date": "2026-08-25",
+          "date": "2026-08-26",
           "url": "https://afwerx.com/",
           "source": "grants.gov"
         }
@@ -88,7 +100,7 @@
       "kind": "grant",
       "headline": "$60M from DOD",
       "detail": "Reentry capsule for pharmaceutical manufacturing",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "url": "https://www.spacewerx.us/",
       "value": 60000000.0,
       "source": "grants.gov",
@@ -108,7 +120,7 @@
       "kind": "announcement",
       "headline": "Anduril Announces $5B Series H Raise",
       "detail": "",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "url": "https://anduril.com",
       "value": 5000000000.0,
       "source": "company newsroom",
@@ -116,46 +128,6 @@
       "why": "you have written about them; your defense primes displaced thread",
       "also": [],
       "score": 55.5,
-      "momentum": 1
-    },
-    {
-      "company": "Locus Robotics",
-      "tier": "",
-      "beat": null,
-      "tags": [
-        "FUND"
-      ],
-      "kind": "form_d",
-      "headline": "filed a Form D",
-      "detail": "$42M offering; $42M already sold (fully subscribed)",
-      "date": "2026-08-24",
-      "url": "https://www.sec.gov/Archives/edgar/data/1676668/000167666826000004/primary_doc.xml",
-      "value": 41599804.0,
-      "source": "SEC EDGAR",
-      "context": "Series F \u00b7 $438M raised to date",
-      "why": "",
-      "also": [],
-      "score": 54.4,
-      "momentum": 1
-    },
-    {
-      "company": "SpaceX",
-      "tier": "covered",
-      "beat": null,
-      "tags": [
-        "MEDIA"
-      ],
-      "kind": "regulatory",
-      "headline": "FAA: Operational Cargo Flights",
-      "detail": "Starship / Super Heavy",
-      "date": "2026-08-25",
-      "url": "",
-      "value": 0,
-      "source": "FAA",
-      "context": "",
-      "why": "you have written about them",
-      "also": [],
-      "score": 53.1,
       "momentum": 1
     },
     {
@@ -168,7 +140,7 @@
       "kind": "regulatory",
       "headline": "FAA: Urban Delivery Operations",
       "detail": "Platform 2 (P2)",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "url": "",
       "value": 0,
       "source": "FAA",
@@ -188,7 +160,7 @@
       "kind": "grant",
       "headline": "$1.35B from DOE",
       "detail": "Carbon Free Power Project (UAMPS) deployment",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "url": "https://www.energy.gov/ne/advanced-reactor-demonstration-program",
       "value": 1355000000.0,
       "source": "grants.gov",
@@ -208,7 +180,7 @@
       "kind": "grant",
       "headline": "$1.20B from DOE",
       "detail": "Xe-100 reactor demo with Dow Chemical",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "url": "https://www.energy.gov/ne/advanced-reactor-demonstration-program",
       "value": 1200000000.0,
       "source": "grants.gov",
@@ -217,14 +189,59 @@
       "also": [],
       "score": 39.5,
       "momentum": 1
+    },
+    {
+      "company": "Oklo",
+      "tier": "",
+      "beat": "time-to-power",
+      "tags": [
+        "MEDIA"
+      ],
+      "kind": "regulatory",
+      "headline": "NRC: 2026-Q3 ASLB hearing / Safety Evaluation Report draft",
+      "detail": "Aurora Powerhouse (15MWe compact fast reactor)",
+      "date": "2026-08-26",
+      "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
+      "value": 0,
+      "source": "NRC",
+      "context": "",
+      "why": "your time to power thread",
+      "also": [],
+      "score": 38.7,
+      "momentum": 1
+    },
+    {
+      "company": "Kairos Power",
+      "tier": "",
+      "beat": null,
+      "tags": [
+        "MEDIA"
+      ],
+      "kind": "grant",
+      "headline": "$303M from DOE",
+      "detail": "Hermes low-power demonstration reactor",
+      "date": "2026-08-26",
+      "url": "https://www.energy.gov/ne/advanced-reactor-demonstration-program",
+      "value": 303000000.0,
+      "source": "grants.gov",
+      "context": "",
+      "why": "",
+      "also": [],
+      "score": 36.7,
+      "momentum": 1
     }
   ],
-  "threads": [],
+  "threads": [
+    [
+      "time-to-power",
+      2
+    ]
+  ],
   "below_bar": {
-    "regulatory": 13,
-    "grant": 48,
-    "announcement": 9,
-    "podcast": 4,
+    "regulatory": 12,
+    "grant": 49,
+    "announcement": 11,
+    "podcast": 2,
     "patent": 1
   }
 }

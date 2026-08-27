@@ -1,4 +1,4 @@
-# The Action Brief — Wednesday 26 August 2026
+# The Action Brief — Thursday 27 August 2026
 
 ## The lede
 
@@ -7,26 +7,30 @@ Last Energy NRC: 2027 U.S. Construction Permit pathway — PWR-20 (20MWe modular
 
 ## Act on
 
-- **Generalist AI** filed a Form D · [source](https://www.sec.gov/Archives/edgar/data/2137708/000213770826000004/primary_doc.xml)  `FUND` `MEDIA`
-  $208M offering; $198M already sold
-  _Series B · $500M+ raised to date · your physical ai thread_
+- **SpaceX** FAA: Operational Cargo Flights  `MEDIA`
+  Starship / Super Heavy
+  _you have written about them_
+  ↳ also: payload on Falcon 9 Block 5 | CHORUS (2026-12-31)
+  ↳ also: payload on Falcon 9 Block 5 | Inmarsat-7 F1 (GX-7) (2026-12-31)
 
 - **Hermeus** FAA: Darkhorse Piloted Prototype  `MEDIA`
   Quarterhorse / Darkhorse
   _you have written about them_
-  ↳ also: $60M from USAF (2026-08-25)
+  ↳ also: $60M from USAF (2026-08-26)
 
 ## On the radar
 
 - **Varda Space Industries** — $60M from DOD · you have written about them; your space industrial thread
 - **Anduril Industries** — Anduril Announces $5B Series H Raise · you have written about them; your defense primes displaced thread
-- **Locus Robotics** — filed a Form D · $42M · Series F · $438M raised to date
-- **SpaceX** — FAA: Operational Cargo Flights · you have written about them
 - **Zipline** — FAA: Urban Delivery Operations · you have written about them
 - **NuScale Power** — $1.35B from DOE
 - **X-energy** — $1.20B from DOE
+- **Oklo** — NRC: 2026-Q3 ASLB hearing / Safety Evaluation Report draft · your time to power thread
+- **Kairos Power** — $303M from DOE
 
-_Below the bar: 75 more events logged (48 grant, 13 regulatory, 9 announcement, 4 podcast, 1 patent) — all in the repo, none needing you._
+**Threads this week:** time to power ×2
+
+_Below the bar: 75 more events logged (49 grant, 12 regulatory, 11 announcement, 2 podcast, 1 patent) — all in the repo, none needing you._
 
 ---
-_Generated 2026-08-26 02:08 UTC. Every line is a primary-source fact joined against the Innovators League database; nothing is model-written._
+_Generated 2026-08-27 10:06 UTC. Every line is a primary-source fact joined against the Innovators League database; nothing is model-written._
