@@ -11230,6 +11230,11 @@
     },
     {
       "src": "SpaceX-alumni-hub",
+      "dst": "1872",
+      "type": "alumni"
+    },
+    {
+      "src": "SpaceX-alumni-hub",
       "dst": "Lux Aeterna",
       "type": "alumni"
     },
@@ -11271,9 +11276,9 @@
   ],
   "counts": {
     "total_nodes": 1187,
-    "total_edges": 918,
+    "total_edges": 919,
     "competitor_edges": 169,
     "thesis_edges": 741,
-    "alumni_edges": 8
+    "alumni_edges": 9
   }
 }

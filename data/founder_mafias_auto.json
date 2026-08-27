@@ -1,7 +1,7 @@
 [
   {
     "mafia": "SpaceX Mafia",
-    "count": 18,
+    "count": 19,
     "companies": [
       {
         "company": "Plantd Materials",
@@ -13,6 +13,12 @@
         "company": "Critical Energy",
         "sector": "Climate & Energy",
         "totalRaised": "$22M",
+        "valuation": ""
+      },
+      {
+        "company": "1872",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "$15M",
         "valuation": ""
       },
       {
@@ -112,7 +118,7 @@
         "valuation": "Undisclosed"
       }
     ],
-    "description": "18 companies with founding-team links to SpaceX."
+    "description": "19 companies with founding-team links to SpaceX."
   },
   {
     "mafia": "Y Combinator",

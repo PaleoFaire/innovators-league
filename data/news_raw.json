@@ -1,5 +1,147 @@
 [
   {
+    "title": "OpenAI Is Developing a ‘Persistent’ AI Agent",
+    "link": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent/",
+    "description": "Code reviewed by WIRED reveals the company is developing a feature that enables Codex to continue working proactively until it is “put to sleep.”",
+    "pubDate": "Thu, 27 Aug 2026 16:52:42 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Sprains, pain, and whiplash: Waymo and Zoox test drivers are getting hurt as robotaxis scale",
+    "link": "https://techcrunch.com/2026/08/27/sprains-pain-and-whiplash-waymo-and-zoox-test-drivers-are-getting-hurt-as-robotaxis-scale/",
+    "description": "Test drivers for Waymo and Zoox sustained more than two dozen injuries in 2024 and 2025 from hard braking or other sudden movements made by the autonomous vehicles, according to a TechCrunch review of data submitted to OSHA.",
+    "pubDate": "Thu, 27 Aug 2026 14:36:37 +0000",
+    "category": "Transportation",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Forterra",
+      "Wayve",
+      "Zoox"
+    ],
+    "sectors": [
+      "ai",
+      "defense",
+      "transportation"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s a &#8216;false summit&#8217;",
+    "link": "https://electrek.co/2026/08/27/waymo-tesla-self-driving-false-summit/",
+    "description": "Waymo published a list of “10 AI lessons” from driving more than 200 million fully autonomous miles, and several of them read as a direct rebuke of Tesla’s self-driving strategy — without ever naming Tesla.\nThe sharpest: trying to turn a driver-assist system into full autonomy is a “false summit,” a",
+    "pubDate": "Thu, 27 Aug 2026 13:49:25 +0000",
+    "category": "News",
+    "source": "Electrek",
+    "feedCategory": "autonomous",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Aurora Innovation"
+    ],
+    "sectors": [
+      "ai",
+      "autonomous"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
+    "title": "Carbon Robotics partners with iMerit to power instant in-field AI customization",
+    "link": "https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/",
+    "description": "Carbon Robotics introduced a plant foundation AI model and tractor kit, enabling farmers to customize laser weeding.\nThe post Carbon Robotics partners with iMerit to power instant in-field AI customization appeared first on The Robot Report.",
+    "pubDate": "Thu, 27 Aug 2026 13:27:58 +0000",
+    "category": "Agriculture",
+    "source": "The Robot Report",
+    "feedCategory": "robotics",
+    "matchedCompany": "Carbon Robotics",
+    "matchedCompanies": [
+      "Carbon Robotics"
+    ],
+    "sectors": [
+      "robotics"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "4h ago"
+  },
+  {
+    "title": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
+    "link": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/",
+    "description": "",
+    "pubDate": "Thu, 27 Aug 2026 12:58:59 +0000",
+    "category": "AI",
+    "source": "Ars Technica",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Hugging Face"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "4h ago"
+  },
+  {
+    "title": "The Download: inside OpenAI&#8217;s Hugging Face hack, and a new EV takes on the US",
+    "link": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/",
+    "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The inside story on why OpenAI agents hacked Hugging Face The models responsible for last month’s agent hack of Hugging Face had been inadvertently tr",
+    "pubDate": "Thu, 27 Aug 2026 12:10:00 +0000",
+    "category": "The Download",
+    "source": "MIT Tech Review",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Hugging Face"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "5h ago"
+  },
+  {
+    "title": "OpenAI to start showing ads on ChatGPT&#8217;s free and Go tiers in India",
+    "link": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
+    "description": "OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers.",
+    "pubDate": "Thu, 27 Aug 2026 11:35:59 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "5h ago"
+  },
+  {
     "title": "Human must not surrender cognition to AI",
     "link": "https://tech.eu/2026/08/27/human-must-not-surrender-cognition-to-ai/",
     "description": "There is a revealing moment in the maybe-apocalyptic 2023 film Leave the World Behind when Ethan Hawke's character, George, finds himself driving around in unfamiliar territory after getting in his ca...",
@@ -16,7 +158,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "8h ago"
   },
   {
     "title": "Nvidia agrees to buy Hugging Face for $12.9BN, says report",
@@ -35,7 +177,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "9h ago"
   },
   {
     "title": "Motion lands $2M to expand humanoid robot deployments across Europe",
@@ -65,26 +207,30 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "2h ago"
+    "time": "10h ago"
   },
   {
     "title": "Nvidia closes in on Hugging Face acquisition",
     "link": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
-    "description": "Nvidia has reportedly agreed to buy Hugging Face, the popular open-source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
+    "description": "Nvidia has reportedly agreed to buy Hugging Face, the popular open source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
     "pubDate": "Thu, 27 Aug 2026 06:32:51 +0000",
     "category": "AI",
     "source": "TechCrunch",
     "feedCategory": "tech",
     "matchedCompany": "Hugging Face",
     "matchedCompanies": [
-      "Hugging Face"
+      "Hugging Face",
+      "Xanadu Quantum Technologies",
+      "Tenstorrent"
     ],
     "sectors": [
-      "ai"
+      "ai",
+      "quantum",
+      "chips"
     ],
     "type": "news",
     "impact": "high",
-    "time": "2h ago"
+    "time": "10h ago"
   },
   {
     "title": "What We Still Don’t Know About OpenAI’s Hugging Face Hack",
@@ -104,29 +250,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "14h ago"
-  },
-  {
-    "title": "OpenAI releases its official report on the Hugging Face breach",
-    "link": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
-    "description": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
-    "pubDate": "Wed, 26 Aug 2026 19:05:22 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "Galvanick",
-      "Hugging Face"
-    ],
-    "sectors": [
-      "ai",
-      "defense"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "14h ago"
+    "time": "22h ago"
   },
   {
     "title": "The inside story on why OpenAI agents hacked Hugging Face",
@@ -148,7 +272,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "14h ago"
+    "time": "22h ago"
   },
   {
     "title": "Bedrock Robotics&#8217; first operator-free excavator deployments take off",
@@ -167,7 +291,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "19h ago"
+    "time": "1d ago"
   },
   {
     "title": "Einride founders launch venture firm, targeting €450M European deep tech investments",
@@ -187,44 +311,6 @@
       "quantum"
     ],
     "type": "milestone",
-    "impact": "low",
-    "time": "20h ago"
-  },
-  {
-    "title": "SpaceX Has 15-17 Starship Launch Pads Under Development",
-    "link": "https://www.nextbigfuture.com/2026/08/spacex-has-17-starship-launch-pads-under-development.html",
-    "description": "The $100B Starbase Louisiana will have 10 pads (5 complexes × 2) and will start building in 2027 with a first launch targeted 2029. The new launch facilities will not have a positive revenue impact until 2029 and only if the work stays on schedule. SpaceX now has 17 Starship launch pads under develo",
-    "pubDate": "Tue, 25 Aug 2026 21:28:04 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "OpenAI Jalapeño Inference Chip just announced at Hot Chips",
-    "link": "https://www.nextbigfuture.com/2026/08/openai-jalapeno-inference-chip-just-announced-at-hot-chips.html",
-    "description": "OpenAI Jalapeño chip delivered 1.5 to 1.9 times more AI work per watt at peak throughput and 1.7 to 3.6 times lower end-to-end latency than the comparison systems. For highly interactive workloads, it delivered 2.1 to 4.1 times higher performance. In June, OpenAI unveiled the chip program in partner",
-    "pubDate": "Tue, 25 Aug 2026 21:05:56 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "1d ago"
   },
@@ -247,7 +333,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Dutch Navy to equip fleet with Destinus C-UAS interceptor drones",
@@ -269,53 +355,6 @@
     "time": "2d ago"
   },
   {
-    "title": "Unreleased Anthropic Mythos 2 and Mythos 3 and OpenAI Astra",
-    "link": "https://www.nextbigfuture.com/2026/08/unreleased-anthropic-mythos-2-and-mythos-3-and-openai-astra.html",
-    "description": "Semianalysis reports Mythos 2 is done training and Anthropic are not releasing the model. Anthropic&#8217;s August 2026 Risk Report describes an unreleased internal model it calls Model 2. It is more capable than Mythos 5, with no current plan to release it externally and the normal external-release",
-    "pubDate": "Tue, 25 Aug 2026 03:23:13 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Semianalysis Deep Dive on the SpaceX 10 GW 2027 AI Data Center Build",
-    "link": "https://www.nextbigfuture.com/2026/08/semianalysis-deep-dive.html",
-    "description": "SemiAnalysis talk about SpaceX’s 10 GW AI compute ambitions. SpaceX can fund the build, they have the power for it, they have the sites and they will get the chips. The Frontier labs [Anthropic, OpenAI and Microsoft] can generate ~$100 million of revenue per megawatt per year today on API inference ",
-    "pubDate": "Tue, 25 Aug 2026 01:46:43 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Anthropic",
-      "OpenAI",
-      "Astera Labs",
-      "Rebellions",
-      "Photonic Inc"
-    ],
-    "sectors": [
-      "space",
-      "ai",
-      "chips",
-      "quantum"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
     "title": "XPeng Motors humanoid robot unit Dogotix raises $900M",
     "link": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
     "description": "Dogotix, the humanoid unit of XPeng Motors, has attained a valuation of $6.3 billion as it plans to produce robots at scale.\nThe post XPeng Motors humanoid robot unit Dogotix raises $900M appeared first on The Robot Report.",
@@ -332,25 +371,6 @@
     ],
     "sectors": [
       "robotics"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "2d ago"
-  },
-  {
-    "title": "Commonwealth Fusion Systems aims to complete demonstration reactor with $1B funding round",
-    "link": "https://www.utilitydive.com/news/what-a-billion-dollar-funding-means-for-commonwealth-fusion-systems-and-its/828515/",
-    "description": "&lt;p&gt;CEO Bob Mumgaard said the reactor, SPARC, is now &amp;ldquo;about 80% complete.&amp;rdquo; Experts remain divided over how soon they believe fusion technology could be commercialized.&lt;/p&gt;",
-    "pubDate": "Mon, 24 Aug 2026 11:40:24 -0400",
-    "category": "",
-    "source": "Utility Dive",
-    "feedCategory": "energy",
-    "matchedCompany": "Commonwealth Fusion Systems",
-    "matchedCompanies": [
-      "Commonwealth Fusion Systems"
-    ],
-    "sectors": [
-      "climate"
     ],
     "type": "funding",
     "impact": "high",
@@ -413,7 +433,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all",
@@ -434,7 +454,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6d ago"
+    "time": "8/20/2026"
   },
   {
     "title": "SpaceX’s orbital data centers would create a new category of e-waste",
@@ -454,7 +474,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "6d ago"
+    "time": "8/20/2026"
   },
   {
     "title": "Draper Selects Proteus Space for Advanced On-Orbit Mission",
@@ -481,7 +501,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "6d ago"
+    "time": "8/20/2026"
   },
   {
     "title": "Ex-Tesla president: Roadster delay is about getting closer to SpaceX ahead of merger",
@@ -545,7 +565,7 @@
   {
     "title": "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, and China goes BIG",
     "link": "https://electrek.co/2026/08/17/tesla-grows-robotaxi-fleet-by-50-einride-gets-a-partner-and-china-goes-big/",
-    "description": "On this second consecutive self-steering episode of Quick Charge, we take a look at how Tesla increased its national self-driving Robotaxi fleet by half with the stroke of a pen, and see how the company’s autonomous deployments compare to the rest of the world���s.",
+    "description": "On this second consecutive self-steering episode of Quick Charge, we take a look at how Tesla increased its national self-driving Robotaxi fleet by half with the stroke of a pen, and see how the company’s autonomous deployments compare to the rest of the world’s.",
     "pubDate": "Tue, 18 Aug 2026 02:06:48 +0000",
     "category": "News",
     "source": "Electrek",
@@ -684,25 +704,5 @@
     "type": "funding",
     "impact": "high",
     "time": "8/4/2026"
-  },
-  {
-    "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
-    "link": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
-    "description": "",
-    "pubDate": "Tue, 28 Jul 2026 21:36:39 +0000",
-    "category": "AI",
-    "source": "Ars Technica",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "Hugging Face"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "7/28/2026"
   }
 ]

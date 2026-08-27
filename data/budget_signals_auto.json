@@ -26,19 +26,48 @@
       },
       {
         "type": "federal_register",
-        "title": "Arizona Public Service Company; Palo Verde Nuclear Generating Station, Units 1, ",
+        "title": "SMR, LLC; Palisades SMR, LLC; Pioneer Units 1 and 2; Environmental Assessment an",
         "agency": "",
         "date": ""
       },
       {
         "type": "federal_register",
-        "title": "Palisades Energy, LLC; Palisades Nuclear Plant; Exemption",
+        "title": "Arizona Public Service Company; Palo Verde Nuclear Generating Station, Units 1, ",
         "agency": "",
         "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-08-23"
+    "lastUpdated": "2026-08-27"
+  },
+  {
+    "category": "Space & Aerospace",
+    "icon": "\ud83d\ude80",
+    "budgetLineItem": "Space & Aerospace \u2014 federal activity index",
+    "change": "+5%",
+    "changeNum": 5,
+    "fy": "FY2026",
+    "allocation": "",
+    "activityIndex": 2,
+    "billsTracked": 1,
+    "rulesTracked": 1,
+    "description": "1 bill(s) + 1 federal-register action(s) touching Space & Aerospace in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
+    "examples": [
+      {
+        "type": "bill",
+        "title": "Commercial Space Launch Competitiveness Act Amendments",
+        "number": "HR3684",
+        "status": ""
+      },
+      {
+        "type": "federal_register",
+        "title": "Siting New Spaceports and Use of Priority Airspace for Critical Space Launch Cor",
+        "agency": "",
+        "date": ""
+      }
+    ],
+    "source": "federal_register + congress_bills",
+    "lastUpdated": "2026-08-27"
   },
   {
     "category": "Quantum Computing",
@@ -61,7 +90,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-08-23"
+    "lastUpdated": "2026-08-27"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -84,29 +113,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-08-23"
-  },
-  {
-    "category": "Space & Aerospace",
-    "icon": "\ud83d\ude80",
-    "budgetLineItem": "Space & Aerospace \u2014 federal activity index",
-    "change": "flat",
-    "changeNum": 0,
-    "fy": "FY2026",
-    "allocation": "",
-    "activityIndex": 1,
-    "billsTracked": 1,
-    "rulesTracked": 0,
-    "description": "1 bill(s) + 0 federal-register action(s) touching Space & Aerospace in the last 90 days. Activity index 1 \u2014 flat relative trend.",
-    "examples": [
-      {
-        "type": "bill",
-        "title": "Commercial Space Launch Competitiveness Act Amendments",
-        "number": "HR3684",
-        "status": ""
-      }
-    ],
-    "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-08-23"
+    "lastUpdated": "2026-08-27"
   }
 ]

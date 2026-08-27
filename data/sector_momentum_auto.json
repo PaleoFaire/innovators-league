@@ -1,10 +1,28 @@
 [
   {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 49,
+    "trend": "steady",
+    "catalysts": [
+      "Sprains, pain, and whiplash: Waymo and Zoox test drivers are",
+      "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s",
+      "Carbon Robotics partners with iMerit to power instant in-fie"
+    ],
+    "fundingQ": "$1.4B",
+    "components": {
+      "funding": 72,
+      "news": 55,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-27"
+  },
+  {
     "sector": "Supersonic & Hypersonic",
     "momentum": 32,
     "trend": "rising",
     "catalysts": [
-      "Intuitive Machines wins contract for three GEO satellites"
+      "Bedrock Robotics&#8217; first operator-free excavator deploy"
     ],
     "fundingQ": "$219M",
     "components": {
@@ -13,34 +31,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-19"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 31,
-    "trend": "rising",
-    "catalysts": [
-      "Rocket Lab to test Space Force data network connection in or",
-      "Against all odds, SpaceX finally tugs Starship into port aft",
-      "Your Car Could Start Paying You. SpaceX, Tesla, Grok Bot, Ma"
-    ],
-    "fundingQ": "$50M",
-    "components": {
-      "funding": 5,
-      "news": 60,
-      "hiring": 0,
-      "market": 71
-    },
-    "lastUpdated": "2026-08-19"
+    "lastUpdated": "2026-08-27"
   },
   {
     "sector": "AI & Software",
     "momentum": 30,
     "trend": "rising",
     "catalysts": [
-      "OpenAI Overhauls Safety Protocols After Its AI Agents Went R",
-      "OpenAI institutes new safeguards after Hugging Face breach",
-      "Etched&#8217;s valuation doubles to $21B in a month"
+      "OpenAI Is Developing a \u2018Persistent\u2019 AI Agent",
+      "How OpenAI let a mob of LLM agents game a test and ransack H",
+      "The Download: inside OpenAI&#8217;s Hugging Face hack, and a"
     ],
     "fundingQ": "$1.4B",
     "components": {
@@ -49,34 +49,49 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-19"
+    "lastUpdated": "2026-08-27"
   },
   {
-    "sector": "Consumer Tech",
+    "sector": "Biotech & Health",
     "momentum": 22,
-    "trend": "rising",
+    "trend": "declining",
     "catalysts": [
-      "Rocket Lab to test Space Force data network connection in or",
-      "OpenAI launches a safer ChatGPT for teens \u2014 years after teen",
-      "Unichem acquires Loomia to accelerate entry into the humanoi"
+      "You can now ride a Chinese EV in the US as Waymo opens Zeekr",
+      "Ex-Tesla president: Roadster delay is about getting closer t"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 50,
+      "news": 10,
       "hiring": 0,
-      "market": 50
+      "market": 100
     },
-    "lastUpdated": "2026-08-19"
+    "lastUpdated": "2026-08-27"
   },
   {
-    "sector": "Robotics & Manufacturing",
+    "sector": "Defense & Security",
+    "momentum": 21,
+    "trend": "declining",
+    "catalysts": [
+      "Dutch Navy to equip fleet with Destinus C-UAS interceptor dr"
+    ],
+    "fundingQ": "$550M",
+    "components": {
+      "funding": 20,
+      "news": 5,
+      "hiring": 0,
+      "market": 63
+    },
+    "lastUpdated": "2026-08-27"
+  },
+  {
+    "sector": "Drones & Autonomous",
     "momentum": 19,
     "trend": "declining",
     "catalysts": [
-      "Unichem acquires Loomia to accelerate entry into the humanoi",
-      "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, a",
-      "Waymo wins California approval to expand robotaxis across 18"
+      "Sprains, pain, and whiplash: Waymo and Zoox test drivers are",
+      "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s",
+      "Bedrock Robotics&#8217; first operator-free excavator deploy"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -85,112 +100,29 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-19"
+    "lastUpdated": "2026-08-27"
   },
   {
-    "sector": "Drones & Autonomous",
-    "momentum": 16,
+    "sector": "Consumer Tech",
+    "momentum": 18,
     "trend": "declining",
     "catalysts": [
-      "Saildrone expands European footprint with production plans i",
-      "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, a",
-      "German drone maker Helsing enlists Rakuten to broker Japan m"
+      "Carbon Robotics partners with iMerit to power instant in-fie",
+      "Bedrock Robotics&#8217; first operator-free excavator deploy",
+      "XPeng Motors humanoid robot unit Dogotix raises $900M"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-19"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 13,
-    "trend": "declining",
-    "catalysts": [
-      "German drone maker Helsing enlists Rakuten to broker Japan m",
-      "Neros Technologies raises $250M to deploy its defense drones",
-      "Pentagon hands Palantir up to $244M in no-bid work"
-    ],
-    "fundingQ": "$300M",
-    "components": {
-      "funding": 10,
-      "news": 15,
-      "hiring": 0,
-      "market": 31
-    },
-    "lastUpdated": "2026-08-19"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "Rocket Lab to test Space Force data network connection in or",
-      "PACCAR brand DAF to add Level 4 Einride autonomy to its elec"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-19"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Nvidia discloses $21B stake in SpaceX"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 51
-    },
-    "lastUpdated": "2026-08-19"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Waymo wins California approval to expand robotaxis across 18"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-19"
-  },
-  {
-    "sector": "Ocean & Maritime",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Saildrone expands European footprint with production plans i"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-19"
+    "lastUpdated": "2026-08-27"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 10,
+    "momentum": 17,
     "trend": "declining",
     "catalysts": [
       "Does Latent Nuclear Deterrence Really Work?",
@@ -202,13 +134,131 @@
       "funding": 19,
       "news": 15,
       "hiring": 0,
+      "market": 33
+    },
+    "lastUpdated": "2026-08-27"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "Nvidia agrees to buy Hugging Face for $12.9BN, says report",
+      "Nvidia closes in on Hugging Face acquisition",
+      "Nvidia discloses $21B stake in SpaceX"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-27"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 13,
+    "trend": "declining",
+    "catalysts": [
+      "Carbon Robotics partners with iMerit to power instant in-fie",
+      "Hydrogen Is Still A Tonnes Market, No Matter How Many MWh We",
+      "Sage Geosystems brings its first next-gen geothermal plant o"
+    ],
+    "fundingQ": "$134M",
+    "components": {
+      "funding": 11,
+      "news": 15,
+      "hiring": 0,
+      "market": 26
+    },
+    "lastUpdated": "2026-08-27"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Bedrock Robotics&#8217; first operator-free excavator deploy"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-27"
+  },
+  {
+    "sector": "Ocean & Maritime",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active ocean & maritime ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-27"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active infrastructure & logistics ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-27"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 9,
+    "trend": "declining",
+    "catalysts": [
+      "Einride founders launch venture firm, targeting \u20ac450M Europe",
+      "SpaceX\u2019s orbital data centers would create a new category of",
+      "Draper Selects Proteus Space for Advanced On-Orbit Mission"
+    ],
+    "fundingQ": "$50M",
+    "components": {
+      "funding": 5,
+      "news": 30,
+      "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-08-19"
+    "lastUpdated": "2026-08-27"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 2,
+    "trend": "declining",
+    "catalysts": [
+      "Active transportation ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 9
+    },
+    "lastUpdated": "2026-08-27"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 7,
+    "momentum": 0,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -218,58 +268,8 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 37
-    },
-    "lastUpdated": "2026-08-19"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 5,
-    "trend": "declining",
-    "catalysts": [
-      "Quaise Energy raises $134M to fuel superhot geothermal ambit"
-    ],
-    "fundingQ": "$134M",
-    "components": {
-      "funding": 11,
-      "news": 5,
-      "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-08-19"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 4,
-    "trend": "declining",
-    "catalysts": [
-      "Daniel Ek&#8217;s body-scanning startup Neko Health\u00a0opens fi",
-      "Saildrone expands European footprint with production plans i",
-      "<a href=\"/biotech/kolon-tissuegene-shrinks-workforce-after-p"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-08-19"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 1,
-    "trend": "declining",
-    "catalysts": [
-      "Rivian&#8217;s 2027 R1S adds captain&#8217;s chairs, its mos"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-08-19"
+    "lastUpdated": "2026-08-27"
   }
 ]
