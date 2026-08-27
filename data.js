@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-08-26";
+const LAST_UPDATED = "2026-08-27";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -49895,23 +49895,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-26 23:19
+// Last updated: 2026-08-27 09:23
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "What We Still Don't Know About OpenAI's Hugging Face Hack", source: "Wired", time: "4h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI releases its official report on the Hugging Face breach", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "OpenAI", headline: "The inside story on why OpenAI agents hacked Hugging Face", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Bedrock Robotics", headline: "Bedrock Robotics' first operator-free excavator deployments take off", source: "The Robot Report", time: "9h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Einride", headline: "Einride founders launch venture firm, targeting '450M European deep tech investments", source: "Tech.eu", time: "10h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX Has 15-17 Starship Launch Pads Under Development", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI Jalape'o Inference Chip just announced at Hot Chips", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Matter", headline: "Hydrogen Is Still A Tonnes Market, No Matter How Many MWh We Assign To It", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Destinus", headline: "Dutch Navy to equip fleet with Destinus C-UAS interceptor drones", source: "Defense News", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Anthropic", headline: "Unreleased Anthropic Mythos 2 and Mythos 3 and OpenAI Astra", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "Semianalysis Deep Dive on the SpaceX 10 GW 2027 AI Data Center Build", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Humanoid", headline: "XPeng Motors humanoid robot unit Dogotix raises $900M", source: "The Robot Report", time: "2d ago", impact: "high", unread: false },
-  { id: 13, type: "funding", company: "Commonwealth Fusion Systems", headline: "Commonwealth Fusion Systems aims to complete demonstration reactor with $1B funding round", source: "Utility Dive", time: "2d ago", impact: "high", unread: false },
-  { id: 14, type: "news", company: "Neura Robotics", headline: "NEURA Robotics acquires ADLATUS to bring Physical AI to autonomous cleaning", source: "Tech.eu", time: "2d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Humanoid", headline: "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027", source: "The Robot Report", time: "5d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Cognition", headline: "Human must not surrender cognition to AI", source: "Tech.eu", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Hugging Face", headline: "Nvidia agrees to buy Hugging Face for $12.9BN, says report", source: "Tech.eu", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Humanoid", headline: "Motion lands $2M to expand humanoid robot deployments across Europe", source: "Tech.eu", time: "2h ago", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "Hugging Face", headline: "Nvidia closes in on Hugging Face acquisition", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "What We Still Don't Know About OpenAI's Hugging Face Hack", source: "Wired", time: "14h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI releases its official report on the Hugging Face breach", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "OpenAI", headline: "The inside story on why OpenAI agents hacked Hugging Face", source: "MIT Tech Review", time: "14h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Bedrock Robotics", headline: "Bedrock Robotics' first operator-free excavator deployments take off", source: "The Robot Report", time: "19h ago", impact: "low", unread: false },
+  { id: 9, type: "milestone", company: "Einride", headline: "Einride founders launch venture firm, targeting '450M European deep tech investments", source: "Tech.eu", time: "20h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Has 15-17 Starship Launch Pads Under Development", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI Jalape'o Inference Chip just announced at Hot Chips", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Matter", headline: "Hydrogen Is Still A Tonnes Market, No Matter How Many MWh We Assign To It", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Destinus", headline: "Dutch Navy to equip fleet with Destinus C-UAS interceptor drones", source: "Defense News", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Anthropic", headline: "Unreleased Anthropic Mythos 2 and Mythos 3 and OpenAI Astra", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "Semianalysis Deep Dive on the SpaceX 10 GW 2027 AI Data Center Build", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

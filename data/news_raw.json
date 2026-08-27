@@ -1,5 +1,92 @@
 [
   {
+    "title": "Human must not surrender cognition to AI",
+    "link": "https://tech.eu/2026/08/27/human-must-not-surrender-cognition-to-ai/",
+    "description": "There is a revealing moment in the maybe-apocalyptic 2023 film Leave the World Behind when Ethan Hawke's character, George, finds himself driving around in unfamiliar territory after getting in his ca...",
+    "pubDate": "Thu, 27 Aug 2026 09:00:00 +0000",
+    "category": "Artificial Intelligence",
+    "source": "Tech.eu",
+    "feedCategory": "startups",
+    "matchedCompany": "Cognition",
+    "matchedCompanies": [
+      "Cognition"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Nvidia agrees to buy Hugging Face for $12.9BN, says report",
+    "link": "https://tech.eu/2026/08/27/nvidia-agrees-to-buy-hugging-face-for-12-9bn-says-report/",
+    "description": "Nvidia has agreed to buy Hugging Face, the AI platform and open-source AI model repository, for $12.9bn, according to a report in US tech title The Information, which cited a person with knowledge of ...",
+    "pubDate": "Thu, 27 Aug 2026 08:28:00 +0000",
+    "category": "Artificial Intelligence",
+    "source": "Tech.eu",
+    "feedCategory": "startups",
+    "matchedCompany": "Hugging Face",
+    "matchedCompanies": [
+      "Hugging Face"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Motion lands $2M to expand humanoid robot deployments across Europe",
+    "link": "https://tech.eu/2026/08/27/motion-lands-2m-to-expand-humanoid-robot-deployments-across-europe/",
+    "description": "Brussels-basedrobotics company Motion has raised $2 million in pre-seed funding to expand itsHumanoids-as-a-Service (HaaS) platform and move its existing industrial pilotsinto commercial deployment. T...",
+    "pubDate": "Thu, 27 Aug 2026 06:45:42 +0000",
+    "category": "Robotics",
+    "source": "Tech.eu",
+    "feedCategory": "startups",
+    "matchedCompany": "Humanoid",
+    "matchedCompanies": [
+      "Humanoid",
+      "Karman Industries",
+      "Agility Robotics",
+      "Apptronik",
+      "1X Technologies",
+      "Solugen",
+      "Gecko Robotics",
+      "Teralta",
+      "Dust"
+    ],
+    "sectors": [
+      "robotics",
+      "climate",
+      "infrastructure",
+      "ai"
+    ],
+    "type": "funding",
+    "impact": "medium",
+    "time": "2h ago"
+  },
+  {
+    "title": "Nvidia closes in on Hugging Face acquisition",
+    "link": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
+    "description": "Nvidia has reportedly agreed to buy Hugging Face, the popular open-source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
+    "pubDate": "Thu, 27 Aug 2026 06:32:51 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Hugging Face",
+    "matchedCompanies": [
+      "Hugging Face"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "high",
+    "time": "2h ago"
+  },
+  {
     "title": "What We Still Don’t Know About OpenAI’s Hugging Face Hack",
     "link": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
     "description": "The AI giant acknowledges that it could have done far more to prevent its AI agents from going rogue. But it still fails to explain why it didn't see this fiasco coming.",
@@ -17,7 +104,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4h ago"
+    "time": "14h ago"
   },
   {
     "title": "OpenAI releases its official report on the Hugging Face breach",
@@ -39,7 +126,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4h ago"
+    "time": "14h ago"
   },
   {
     "title": "The inside story on why OpenAI agents hacked Hugging Face",
@@ -61,7 +148,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "4h ago"
+    "time": "14h ago"
   },
   {
     "title": "Bedrock Robotics&#8217; first operator-free excavator deployments take off",
@@ -80,7 +167,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
+    "time": "19h ago"
   },
   {
     "title": "Einride founders launch venture firm, targeting €450M European deep tech investments",
@@ -101,7 +188,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "10h ago"
+    "time": "20h ago"
   },
   {
     "title": "SpaceX Has 15-17 Starship Launch Pads Under Development",
@@ -179,7 +266,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Unreleased Anthropic Mythos 2 and Mythos 3 and OpenAI Astra",
@@ -199,7 +286,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Semianalysis Deep Dive on the SpaceX 10 GW 2027 AI Data Center Build",
@@ -226,7 +313,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "XPeng Motors humanoid robot unit Dogotix raises $900M",
@@ -286,7 +373,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027",
