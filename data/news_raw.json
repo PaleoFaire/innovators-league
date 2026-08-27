@@ -1,5 +1,67 @@
 [
   {
+    "title": "Barret Zoph, the Thinking Machines co-founder who defected to OpenAI, is now at Google",
+    "link": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+    "description": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
+    "pubDate": "Thu, 27 Aug 2026 19:52:52 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Thinking Machines Lab"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World",
+    "link": "https://www.wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world/",
+    "description": "The potential for AI to automate scientific research and manufacturing must be balanced with new risks, Anthropic says.",
+    "pubDate": "Thu, 27 Aug 2026 18:06:52 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+    "link": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+    "description": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
+    "pubDate": "Thu, 27 Aug 2026 17:43:24 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Galvanick",
+      "OpenAI",
+      "Together AI"
+    ],
+    "sectors": [
+      "ai",
+      "defense"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
     "title": "OpenAI Is Developing a ‘Persistent’ AI Agent",
     "link": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent/",
     "description": "Code reviewed by WIRED reveals the company is developing a feature that enables Codex to continue working proactively until it is “put to sleep.”",
@@ -16,7 +78,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
     "title": "Sprains, pain, and whiplash: Waymo and Zoox test drivers are getting hurt as robotaxis scale",
@@ -40,7 +102,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "2h ago"
+    "time": "5h ago"
   },
   {
     "title": "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s a &#8216;false summit&#8217;",
@@ -61,7 +123,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "6h ago"
   },
   {
     "title": "Carbon Robotics partners with iMerit to power instant in-field AI customization",
@@ -80,7 +142,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "4h ago"
+    "time": "6h ago"
   },
   {
     "title": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
@@ -100,7 +162,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "4h ago"
+    "time": "7h ago"
   },
   {
     "title": "The Download: inside OpenAI&#8217;s Hugging Face hack, and a new EV takes on the US",
@@ -120,7 +182,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "8h ago"
   },
   {
     "title": "OpenAI to start showing ads on ChatGPT&#8217;s free and Go tiers in India",
@@ -139,7 +201,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "8h ago"
   },
   {
     "title": "Human must not surrender cognition to AI",
@@ -158,7 +220,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "8h ago"
+    "time": "11h ago"
   },
   {
     "title": "Nvidia agrees to buy Hugging Face for $12.9BN, says report",
@@ -177,7 +239,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
+    "time": "11h ago"
   },
   {
     "title": "Motion lands $2M to expand humanoid robot deployments across Europe",
@@ -207,7 +269,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "10h ago"
+    "time": "13h ago"
   },
   {
     "title": "Nvidia closes in on Hugging Face acquisition",
@@ -230,7 +292,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "10h ago"
+    "time": "13h ago"
   },
   {
     "title": "What We Still Don’t Know About OpenAI’s Hugging Face Hack",
@@ -250,7 +312,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "The inside story on why OpenAI agents hacked Hugging Face",
@@ -272,7 +334,26 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
+  },
+  {
+    "title": "Roman Space Telescope Travels to SpaceX Hangar",
+    "link": "https://www.nasa.gov/image-article/roman-space-telescope-travels-to-spacex-hangar/",
+    "description": "NASA’s Nancy Grace Roman Space Telescope, encapsulated in its payload fairing, travels from the Payload Hazardous Servicing Facility to the SpaceX hangar at Launch Complex 39A at NASA’s Kennedy Space Center on Tuesday, Aug. 25, 2026, ahead of mating to a SpaceX Falcon Heavy rocket. Roman’s science i",
+    "pubDate": "Wed, 26 Aug 2026 18:40:19 +0000",
+    "category": "Kennedy Space Center",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1d ago"
   },
   {
     "title": "Bedrock Robotics&#8217; first operator-free excavator deployments take off",
@@ -311,6 +392,44 @@
       "quantum"
     ],
     "type": "milestone",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "SpaceX Has 15-17 Starship Launch Pads Under Development",
+    "link": "https://www.nextbigfuture.com/2026/08/spacex-has-17-starship-launch-pads-under-development.html",
+    "description": "The $100B Starbase Louisiana will have 10 pads (5 complexes × 2) and will start building in 2027 with a first launch targeted 2029. The new launch facilities will not have a positive revenue impact until 2029 and only if the work stays on schedule. SpaceX now has 17 Starship launch pads under develo",
+    "pubDate": "Tue, 25 Aug 2026 21:28:04 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "OpenAI Jalapeño Inference Chip just announced at Hot Chips",
+    "link": "https://www.nextbigfuture.com/2026/08/openai-jalapeno-inference-chip-just-announced-at-hot-chips.html",
+    "description": "OpenAI Jalapeño chip delivered 1.5 to 1.9 times more AI work per watt at peak throughput and 1.7 to 3.6 times lower end-to-end latency than the comparison systems. For highly interactive workloads, it delivered 2.1 to 4.1 times higher performance. In June, OpenAI unveiled the chip program in partner",
+    "pubDate": "Tue, 25 Aug 2026 21:05:56 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
     "impact": "low",
     "time": "1d ago"
   },
@@ -355,6 +474,53 @@
     "time": "2d ago"
   },
   {
+    "title": "Unreleased Anthropic Mythos 2 and Mythos 3 and OpenAI Astra",
+    "link": "https://www.nextbigfuture.com/2026/08/unreleased-anthropic-mythos-2-and-mythos-3-and-openai-astra.html",
+    "description": "Semianalysis reports Mythos 2 is done training and Anthropic are not releasing the model. Anthropic&#8217;s August 2026 Risk Report describes an unreleased internal model it calls Model 2. It is more capable than Mythos 5, with no current plan to release it externally and the normal external-release",
+    "pubDate": "Tue, 25 Aug 2026 03:23:13 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2d ago"
+  },
+  {
+    "title": "Semianalysis Deep Dive on the SpaceX 10 GW 2027 AI Data Center Build",
+    "link": "https://www.nextbigfuture.com/2026/08/semianalysis-deep-dive.html",
+    "description": "SemiAnalysis talk about SpaceX’s 10 GW AI compute ambitions. SpaceX can fund the build, they have the power for it, they have the sites and they will get the chips. The Frontier labs [Anthropic, OpenAI and Microsoft] can generate ~$100 million of revenue per megawatt per year today on API inference ",
+    "pubDate": "Tue, 25 Aug 2026 01:46:43 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Anthropic",
+      "OpenAI",
+      "Astera Labs",
+      "Rebellions",
+      "Photonic Inc"
+    ],
+    "sectors": [
+      "space",
+      "ai",
+      "chips",
+      "quantum"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "2d ago"
+  },
+  {
     "title": "XPeng Motors humanoid robot unit Dogotix raises $900M",
     "link": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
     "description": "Dogotix, the humanoid unit of XPeng Motors, has attained a valuation of $6.3 billion as it plans to produce robots at scale.\nThe post XPeng Motors humanoid robot unit Dogotix raises $900M appeared first on The Robot Report.",
@@ -374,7 +540,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "NEURA Robotics acquires ADLATUS to bring Physical AI to autonomous cleaning",
@@ -394,25 +560,6 @@
     "type": "news",
     "impact": "low",
     "time": "3d ago"
-  },
-  {
-    "title": "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027",
-    "link": "https://www.therobotreport.com/schaeffler-plans-to-mass-manufacture-gearboxes-for-humanoids-in-2027/",
-    "description": "Schaeffler is creating its strain wave gearboxes with a forming technology that will enable mass production of the components. \nThe post Schaeffler plans to mass produce gearboxes for humanoid robots in 2027 appeared first on The Robot Report.",
-    "pubDate": "Fri, 21 Aug 2026 19:27:22 +0000",
-    "category": "Actuators / Motors / Servos",
-    "source": "The Robot Report",
-    "feedCategory": "robotics",
-    "matchedCompany": "Humanoid",
-    "matchedCompanies": [
-      "Humanoid"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "5d ago"
   },
   {
     "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",

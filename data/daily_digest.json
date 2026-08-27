@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T09:23:14.704324+00:00",
+  "generatedAt": "2026-08-27T20:17:21.747454+00:00",
   "date": "2026-08-27",
   "dateDisplay": "Thursday, August 27, 2026",
   "sections": {
@@ -43,18 +43,11 @@
     ],
     "marketMovers": [
       {
-        "ticker": "ONT.L",
-        "company": "Oxford Nanopore Technologies",
-        "price": 181.8,
-        "changePercent": 30.14,
-        "change": 42.1
-      },
-      {
         "ticker": "ASRHF",
         "company": "Astroscale",
-        "price": 7.0,
-        "changePercent": -13.47,
-        "change": -1.09
+        "price": 6.88,
+        "changePercent": -14.96,
+        "change": -1.21
       },
       {
         "ticker": "LUNR",
@@ -76,6 +69,13 @@
         "price": 68.48,
         "changePercent": 11.8,
         "change": 7.23
+      },
+      {
+        "ticker": "ONT.L",
+        "company": "Oxford Nanopore Technologies",
+        "price": 183.5,
+        "changePercent": 11.55,
+        "change": 19.0
       },
       {
         "ticker": "ASTS",
@@ -124,23 +124,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "SMR, LLC; Palisades SMR, LLC; Pioneer Units 1 and 2; Environmental Assessment an",
-        "date": "2026-08-25",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17253"
+        "title": "NextEra Energy, Inc.; Dominion Energy, Inc.; Virginia Electric and Power Company",
+        "date": "2026-08-27",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17529"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "The National Space Transportation Policy",
-        "date": "2026-08-25",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17372"
+        "title": "List of Approved Spent Fuel Storage Casks: TN Americas, LLC Standardized NUHOMS\u00ae",
+        "date": "2026-08-26",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17446"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Siting New Spaceports and Use of Priority Airspace for Critical Space Launch Cor",
-        "date": "2026-08-25",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17290"
+        "title": "List of Approved Spent Fuel Storage Casks: TN Americas, LLC Standardized NUHOMS\u00ae",
+        "date": "2026-08-26",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17445"
       }
     ],
     "patents": [
@@ -187,6 +187,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ONT.L +30.1%"
+    "topMover": "ASRHF -15.0%"
   }
 }

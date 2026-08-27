@@ -50537,27 +50537,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-27 09:23
-// Auto-generated real-time signals
-// Last updated: 2026-08-27
-// Auto-generated real-time signals
-// Last updated: 2026-08-27
+// Last updated: 2026-08-27 20:17
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI Is Developing a ‘Persistent’ AI Agent", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "Waymo", headline: "Sprains, pain, and whiplash: Waymo and Zoox test drivers are getting hurt as robotaxis scale", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Waymo", headline: "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s a &#8216;false summit&#8217;", source: "Electrek", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "Carbon Robotics", headline: "Carbon Robotics partners with iMerit to power instant in-field AI customization", source: "The Robot Report", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "OpenAI", headline: "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face", source: "Ars Technica", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "The Download: inside OpenAI&#8217;s Hugging Face hack, and a new EV takes on the US", source: "MIT Tech Review", time: "5h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI to start showing ads on ChatGPT&#8217;s free and Go tiers in India", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Cognition", headline: "Human must not surrender cognition to AI", source: "Tech.eu", time: "8h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Hugging Face", headline: "Nvidia agrees to buy Hugging Face for $12.9BN, says report", source: "Tech.eu", time: "9h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Humanoid", headline: "Motion lands $2M to expand humanoid robot deployments across Europe", source: "Tech.eu", time: "10h ago", impact: "medium", unread: false },
-  { id: 11, type: "news", company: "Hugging Face", headline: "Nvidia closes in on Hugging Face acquisition", source: "TechCrunch", time: "10h ago", impact: "high", unread: false },
-  { id: 12, type: "news", company: "OpenAI", headline: "What We Still Don’t Know About OpenAI’s Hugging Face Hack", source: "Wired", time: "22h ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "OpenAI", headline: "The inside story on why OpenAI agents hacked Hugging Face", source: "MIT Tech Review", time: "22h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Bedrock Robotics", headline: "Bedrock Robotics&#8217; first operator-free excavator deployments take off", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Einride", headline: "Einride founders launch venture firm, targeting €450M European deep tech investments", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "hire", company: "OpenAI", headline: "Barret Zoph, the Thinking Machines co-founder who defected to OpenAI, is now at Google", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Anthropic", headline: "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World", source: "Wired", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI Is Developing a 'Persistent' AI Agent", source: "Wired", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Waymo", headline: "Sprains, pain, and whiplash: Waymo and Zoox test drivers are getting hurt as robotaxis scale", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Waymo", headline: "Waymo takes a shot at Tesla's self-driving: it's a 'false summit'", source: "Electrek", time: "6h ago", impact: "low", unread: false },
+  { id: 7, type: "hire", company: "Carbon Robotics", headline: "Carbon Robotics partners with iMerit to power instant in-field AI customization", source: "The Robot Report", time: "6h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "OpenAI", headline: "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face", source: "Ars Technica", time: "7h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "OpenAI", headline: "The Download: inside OpenAI's Hugging Face hack, and a new EV takes on the US", source: "MIT Tech Review", time: "8h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "OpenAI", headline: "OpenAI to start showing ads on ChatGPT's free and Go tiers in India", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Cognition", headline: "Human must not surrender cognition to AI", source: "Tech.eu", time: "11h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Hugging Face", headline: "Nvidia agrees to buy Hugging Face for $12.9BN, says report", source: "Tech.eu", time: "11h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Humanoid", headline: "Motion lands $2M to expand humanoid robot deployments across Europe", source: "Tech.eu", time: "13h ago", impact: "medium", unread: false },
+  { id: 14, type: "news", company: "Hugging Face", headline: "Nvidia closes in on Hugging Face acquisition", source: "TechCrunch", time: "13h ago", impact: "high", unread: false },
+  { id: 15, type: "news", company: "OpenAI", headline: "What We Still Don't Know About OpenAI's Hugging Face Hack", source: "Wired", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
