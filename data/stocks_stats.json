@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 1.32,
+      "avg_change": 6.88,
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -8.95,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -5.25,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -3.74,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -3.11,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -2.24,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 5.01,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -0.77,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 2.41,
       "count": 3
     },
     "quantum": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -7.76,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -0.07,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 7.69,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 6.4,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": 1.15,
+      "gainers": 2,
+      "losers": 0,
+      "avg_change": 3.86,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -0.03,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 3.78,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "TEM",
-      "Tempus AI",
-      11.8
-    ],
-    [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      11.55
+      10.15
     ],
     [
-      "RIVN",
-      "Rivian",
-      3.81
+      "SMR",
+      "NuScale Power",
+      7.39
     ],
     [
-      "AMD",
-      "AMD",
-      3.11
+      "PLTR",
+      "Palantir",
+      6.88
     ],
     [
-      "9348.T",
-      "ispace",
-      1.63
+      "TEM",
+      "Tempus AI",
+      6.06
+    ],
+    [
+      "NNE",
+      "Nano Nuclear Energy",
+      5.54
     ]
   ],
   "topLosers": [
     [
-      "QBTS",
-      "D-Wave Quantum",
-      -9.37
+      "JOBY",
+      "Joby Aviation",
+      -5.67
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      -9.86
+      "AUR",
+      "Aurora Innovation",
+      -7.03
     ],
     [
       "RKLB",
       "Rocket Lab",
-      -12.74
+      -7.43
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -13.01
+      -9.76
     ],
     [
       "ASRHF",
       "Astroscale",
-      -14.96
+      -11.23
     ]
   ],
-  "lastUpdated": "2026-08-27 11:14:35"
+  "lastUpdated": "2026-08-27 22:59:57"
 }
