@@ -3,14 +3,14 @@
     "category": "Nuclear Energy",
     "icon": "\u269b\ufe0f",
     "budgetLineItem": "Nuclear Energy \u2014 federal activity index",
-    "change": "+5%",
-    "changeNum": 5,
+    "change": "+15%",
+    "changeNum": 15,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 4,
+    "activityIndex": 5,
     "billsTracked": 2,
-    "rulesTracked": 2,
-    "description": "2 bill(s) + 2 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 4 \u2014 +5% relative trend.",
+    "rulesTracked": 3,
+    "description": "2 bill(s) + 3 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 5 \u2014 +15% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -26,6 +26,12 @@
       },
       {
         "type": "federal_register",
+        "title": "STP Nuclear Operating Company; South Texas Project, Unit 1; License Amendment Ap",
+        "agency": "",
+        "date": ""
+      },
+      {
+        "type": "federal_register",
         "title": "SMR, LLC; Palisades SMR, LLC; Pioneer Units 1 and 2; Environmental Assessment an",
         "agency": "",
         "date": ""
@@ -38,7 +44,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-08-27"
+    "lastUpdated": "2026-08-28"
   },
   {
     "category": "Space & Aerospace",
@@ -67,7 +73,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-08-27"
+    "lastUpdated": "2026-08-28"
   },
   {
     "category": "Quantum Computing",
@@ -90,7 +96,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-08-27"
+    "lastUpdated": "2026-08-28"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -113,6 +119,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-08-27"
+    "lastUpdated": "2026-08-28"
   }
 ]

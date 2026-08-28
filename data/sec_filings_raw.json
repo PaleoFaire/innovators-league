@@ -513,15 +513,6 @@
     "isIPO": false
   },
   {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "4",
-    "date": "2026-05-28",
-    "description": "xslF345X06/edgardoc.xml",
-    "accessionNumber": "0002001011-26-000072",
-    "isIPO": false
-  },
-  {
     "company": "AST SpaceMobile",
     "ticker": "ASTS",
     "form": "4",
@@ -1946,6 +1937,15 @@
   {
     "company": "Momentus",
     "ticker": "MNTS",
+    "form": "8-K",
+    "date": "2026-08-28",
+    "description": "apre-20260828x8k.htm",
+    "accessionNumber": "0001104659-26-102795",
+    "isIPO": false
+  },
+  {
+    "company": "Momentus",
+    "ticker": "MNTS",
     "form": "10-Q",
     "date": "2026-08-12",
     "description": "apre-20260630x10q.htm",
@@ -2193,15 +2193,6 @@
     "date": "2026-01-23",
     "description": "tm263963d1_8k.htm",
     "accessionNumber": "0001104659-26-006267",
-    "isIPO": false
-  },
-  {
-    "company": "Momentus",
-    "ticker": "MNTS",
-    "form": "8-K",
-    "date": "2026-01-09",
-    "description": "apre-20260109x8k.htm",
-    "accessionNumber": "0001104659-26-002490",
     "isIPO": false
   },
   {
@@ -3015,12 +3006,12 @@
     "isIPO": false
   },
   {
-    "company": "NuScale Power",
-    "ticker": "SMR",
+    "company": "Oklo",
+    "ticker": "OKLO",
     "form": "4",
-    "date": "2026-03-03",
-    "description": "xslF345X05/wk-form4_1772583849.xml",
-    "accessionNumber": "0001822966-26-000025",
+    "date": "2026-08-27",
+    "description": "xslF345X06/wk-form4_1787862889.xml",
+    "accessionNumber": "0002146790-26-000006",
     "isIPO": false
   },
   {
@@ -3273,15 +3264,6 @@
     "date": "2026-06-02",
     "description": "xslF345X06/wk-form4_1780434549.xml",
     "accessionNumber": "0002021786-26-000013",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-05-21",
-    "description": "xslF345X06/wk-form4_1779395833.xml",
-    "accessionNumber": "0002080717-26-000007",
     "isIPO": false
   },
   {
@@ -3836,6 +3818,33 @@
   {
     "company": "C3.ai",
     "ticker": "AI",
+    "form": "DEF 14A",
+    "date": "2026-08-28",
+    "description": "ai-20260827.htm",
+    "accessionNumber": "0001577526-26-000110",
+    "isIPO": false
+  },
+  {
+    "company": "C3.ai",
+    "ticker": "AI",
+    "form": "4",
+    "date": "2026-08-27",
+    "description": "xslF345X06/wk-form4_1787870125.xml",
+    "accessionNumber": "0001577526-26-000108",
+    "isIPO": false
+  },
+  {
+    "company": "C3.ai",
+    "ticker": "AI",
+    "form": "8-K",
+    "date": "2026-08-27",
+    "description": "ai-20260825.htm",
+    "accessionNumber": "0001577526-26-000103",
+    "isIPO": false
+  },
+  {
+    "company": "C3.ai",
+    "ticker": "AI",
     "form": "4",
     "date": "2026-08-13",
     "description": "xslF345X06/wk-form4_1786656439.xml",
@@ -4086,57 +4095,12 @@
     "isIPO": false
   },
   {
-    "company": "C3.ai",
-    "ticker": "AI",
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
     "form": "4",
-    "date": "2026-03-13",
-    "description": "xslF345X05/wk-form4_1773441169.xml",
-    "accessionNumber": "0001577526-26-000026",
-    "isIPO": false
-  },
-  {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "10-Q",
-    "date": "2026-03-11",
-    "description": "ai-20260131.htm",
-    "accessionNumber": "0001577526-26-000024",
-    "isIPO": false
-  },
-  {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "4",
-    "date": "2026-03-10",
-    "description": "xslF345X05/wk-form4_1773182469.xml",
-    "accessionNumber": "0001577526-26-000022",
-    "isIPO": false
-  },
-  {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "4",
-    "date": "2026-03-04",
-    "description": "xslF345X05/wk-form4_1772665505.xml",
-    "accessionNumber": "0001577526-26-000019",
-    "isIPO": false
-  },
-  {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "4",
-    "date": "2026-03-03",
-    "description": "xslF345X05/wk-form4_1772572843.xml",
-    "accessionNumber": "0001577526-26-000015",
-    "isIPO": false
-  },
-  {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "8-K",
-    "date": "2026-02-25",
-    "description": "ai-20260224.htm",
-    "accessionNumber": "0001577526-26-000013",
+    "date": "2026-08-27",
+    "description": "xslF345X06/wk-form4_1787868021.xml",
+    "accessionNumber": "0001833851-26-000020",
     "isIPO": false
   },
   {
@@ -4398,15 +4362,6 @@
     "date": "2026-05-05",
     "description": "upst-20260331.htm",
     "accessionNumber": "0001647639-26-000046",
-    "isIPO": false
-  },
-  {
-    "company": "Upstart Holdings",
-    "ticker": "UPST",
-    "form": "8-K",
-    "date": "2026-05-05",
-    "description": "upst-20260505.htm",
-    "accessionNumber": "0001647639-26-000045",
     "isIPO": false
   },
   {
@@ -6180,15 +6135,6 @@
     "date": "2026-05-14",
     "description": "achr-20260514.htm",
     "accessionNumber": "0001824502-26-000042",
-    "isIPO": false
-  },
-  {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "10-Q",
-    "date": "2026-05-11",
-    "description": "achr-20260331.htm",
-    "accessionNumber": "0001824502-26-000038",
     "isIPO": false
   },
   {
@@ -8606,6 +8552,15 @@
   {
     "company": "Rivian",
     "ticker": "RIVN",
+    "form": "8-K",
+    "date": "2026-08-27",
+    "description": "tm2624125d1_8k.htm",
+    "accessionNumber": "0001104659-26-102435",
+    "isIPO": false
+  },
+  {
+    "company": "Rivian",
+    "ticker": "RIVN",
     "form": "4",
     "date": "2026-08-21",
     "description": "xslF345X06/wk-form4_1787361845.xml",
@@ -8916,15 +8871,6 @@
     "date": "2026-05-04",
     "description": "xslF345X06/tm2613313-1_4seq1.xml",
     "accessionNumber": "0001104659-26-054722",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "10-Q",
-    "date": "2026-04-30",
-    "description": "rivn-20260331.htm",
-    "accessionNumber": "0001874178-26-000035",
     "isIPO": false
   },
   {

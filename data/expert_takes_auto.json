@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T17:40:53.595369Z",
+  "generated_at": "2026-08-28T18:35:19.566978Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -20,16 +20,6 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b",
       "signal_type": "funding"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Hugging Face",
-      "text": "Nvidia closes in on Hugging Face acquisition",
-      "date": "Thu, 27 Au",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
-      "signal_type": "news"
     },
     {
       "author": "The Robot Report",
@@ -55,7 +45,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 5,
+    "from_news": 4,
     "from_press": 0
   }
 }

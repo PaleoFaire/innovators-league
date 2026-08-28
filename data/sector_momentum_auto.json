@@ -1,128 +1,78 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 49,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "Sprains, pain, and whiplash: Waymo and Zoox test drivers are",
-      "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s",
-      "Carbon Robotics partners with iMerit to power instant in-fie"
+      "PsiQuantum\u2019s Ice Cream Factory",
+      "This Is How Anthropic Thinks AI Agents Should Navigate the P",
+      "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 55,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-27"
+    "lastUpdated": "2026-08-28"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 43,
+    "trend": "steady",
+    "catalysts": [
+      "Anthropic gets its first court win over the Pentagon\u2019s suppl",
+      "Meta executive leaves for OpenAI as the social media giant f",
+      "A Judge Has Blocked the Pentagon\u2019s Attempt to Blacklist Anth"
+    ],
+    "fundingQ": "$1.4B",
+    "components": {
+      "funding": 29,
+      "news": 90,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-28"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 32,
+    "momentum": 33,
     "trend": "rising",
     "catalysts": [
+      "Barret Zoph, the Thinking Machines co-founder ousted before",
       "Bedrock Robotics&#8217; first operator-free excavator deploy"
     ],
     "fundingQ": "$219M",
     "components": {
       "funding": 58,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-27"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 30,
-    "trend": "rising",
-    "catalysts": [
-      "OpenAI Is Developing a \u2018Persistent\u2019 AI Agent",
-      "How OpenAI let a mob of LLM agents game a test and ransack H",
-      "The Download: inside OpenAI&#8217;s Hugging Face hack, and a"
-    ],
-    "fundingQ": "$1.4B",
-    "components": {
-      "funding": 29,
-      "news": 40,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-27"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 22,
-    "trend": "declining",
-    "catalysts": [
-      "You can now ride a Chinese EV in the US as Waymo opens Zeekr",
-      "Ex-Tesla president: Roadster delay is about getting closer t"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
       "news": 10,
       "hiring": 0,
-      "market": 100
+      "market": 50
     },
-    "lastUpdated": "2026-08-27"
+    "lastUpdated": "2026-08-28"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 21,
+    "momentum": 31,
     "trend": "declining",
     "catalysts": [
+      "Anthropic gets its first court win over the Pentagon\u2019s suppl",
+      "A Judge Has Blocked the Pentagon\u2019s Attempt to Blacklist Anth",
       "Dutch Navy to equip fleet with Destinus C-UAS interceptor dr"
     ],
     "fundingQ": "$550M",
     "components": {
       "funding": 20,
-      "news": 5,
+      "news": 15,
       "hiring": 0,
-      "market": 63
+      "market": 100
     },
-    "lastUpdated": "2026-08-27"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 19,
-    "trend": "declining",
-    "catalysts": [
-      "Sprains, pain, and whiplash: Waymo and Zoox test drivers are",
-      "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s",
-      "Bedrock Robotics&#8217; first operator-free excavator deploy"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 35,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-27"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 18,
-    "trend": "declining",
-    "catalysts": [
-      "Carbon Robotics partners with iMerit to power instant in-fie",
-      "Bedrock Robotics&#8217; first operator-free excavator deploy",
-      "XPeng Motors humanoid robot unit Dogotix raises $900M"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 30,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-27"
+    "lastUpdated": "2026-08-28"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 17,
+    "momentum": 30,
     "trend": "declining",
     "catalysts": [
       "Does Latent Nuclear Deterrence Really Work?",
@@ -134,31 +84,13 @@
       "funding": 19,
       "news": 15,
       "hiring": 0,
-      "market": 33
+      "market": 97
     },
-    "lastUpdated": "2026-08-27"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Nvidia agrees to buy Hugging Face for $12.9BN, says report",
-      "Nvidia closes in on Hugging Face acquisition",
-      "Nvidia discloses $21B stake in SpaceX"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-27"
+    "lastUpdated": "2026-08-28"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 13,
+    "momentum": 25,
     "trend": "declining",
     "catalysts": [
       "Carbon Robotics partners with iMerit to power instant in-fie",
@@ -170,9 +102,115 @@
       "funding": 11,
       "news": 15,
       "hiring": 0,
-      "market": 26
+      "market": 85
     },
-    "lastUpdated": "2026-08-27"
+    "lastUpdated": "2026-08-28"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 25,
+    "trend": "declining",
+    "catalysts": [
+      "OpenAI, Anthropic, Google, and 100 other companies call for",
+      "Semianalysis Deep Dive on the SpaceX 10 GW 2027 AI Data Cent",
+      "You can now ride a Chinese EV in the US as Waymo opens Zeekr"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 95
+    },
+    "lastUpdated": "2026-08-28"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 24,
+    "trend": "declining",
+    "catalysts": [
+      "NVIDIA to buy Hugging Face, Einride launches VC firm, and fi",
+      "Nvidia agrees to buy Hugging Face for $12.9BN, says report",
+      "OpenAI Jalape\u00f1o Inference Chip just announced at Hot Chips"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 88
+    },
+    "lastUpdated": "2026-08-28"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 19,
+    "trend": "declining",
+    "catalysts": [
+      "PsiQuantum\u2019s Ice Cream Factory",
+      "Meta executive leaves for OpenAI as the social media giant f",
+      "Georgia PSC Approves Secret OpenAI Contract"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 35,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-28"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s",
+      "Bedrock Robotics&#8217; first operator-free excavator deploy",
+      "Einride founders launch venture firm, targeting \u20ac450M Europe"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-28"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 14,
+    "trend": "rising",
+    "catalysts": [
+      "NVIDIA to buy Hugging Face, Einride launches VC firm, and fi",
+      "Elon Projects SpaceX $3.5 Trillion Revenue in 2033",
+      "Einride founders launch venture firm, targeting \u20ac450M Europe"
+    ],
+    "fundingQ": "$50M",
+    "components": {
+      "funding": 5,
+      "news": 50,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-08-28"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "PsiQuantum\u2019s Ice Cream Factory"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 49
+    },
+    "lastUpdated": "2026-08-28"
   },
   {
     "sector": "Housing & Construction",
@@ -188,7 +226,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-27"
+    "lastUpdated": "2026-08-28"
   },
   {
     "sector": "Ocean & Maritime",
@@ -204,7 +242,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-27"
+    "lastUpdated": "2026-08-28"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -220,29 +258,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-27"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 9,
-    "trend": "declining",
-    "catalysts": [
-      "Einride founders launch venture firm, targeting \u20ac450M Europe",
-      "SpaceX\u2019s orbital data centers would create a new category of",
-      "Draper Selects Proteus Space for Advanced On-Orbit Mission"
-    ],
-    "fundingQ": "$50M",
-    "components": {
-      "funding": 5,
-      "news": 30,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-08-27"
+    "lastUpdated": "2026-08-28"
   },
   {
     "sector": "Transportation",
-    "momentum": 2,
+    "momentum": 8,
     "trend": "declining",
     "catalysts": [
       "Active transportation ecosystem"
@@ -252,24 +272,8 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 9
+      "market": 39
     },
-    "lastUpdated": "2026-08-27"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 0,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-08-27"
+    "lastUpdated": "2026-08-28"
   }
 ]
