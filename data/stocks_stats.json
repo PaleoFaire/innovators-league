@@ -11,13 +11,13 @@
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -5.25,
+      "avg_change": -5.24,
       "count": 7
     },
     "autonomous": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -3.11,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -2.7,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 6.4,
+      "avg_change": 4.57,
       "count": 3
     },
     "transportation": {
@@ -58,11 +58,6 @@
     }
   },
   "topGainers": [
-    [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      10.15
-    ],
     [
       "SMR",
       "NuScale Power",
@@ -82,6 +77,11 @@
       "NNE",
       "Nano Nuclear Energy",
       5.54
+    ],
+    [
+      "NVDA",
+      "NVIDIA",
+      5.13
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -11.23
     ]
   ],
-  "lastUpdated": "2026-08-27 22:59:57"
+  "lastUpdated": "2026-08-28 12:50:02"
 }
