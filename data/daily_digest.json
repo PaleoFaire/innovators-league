@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T05:13:31.126130+00:00",
+  "generatedAt": "2026-08-28T18:32:25.833368+00:00",
   "date": "2026-08-28",
   "dateDisplay": "Friday, August 28, 2026",
   "sections": {
@@ -50,13 +50,6 @@
         "change": -0.87
       },
       {
-        "ticker": "ONT.L",
-        "company": "Oxford Nanopore Technologies",
-        "price": 181.2,
-        "changePercent": 10.15,
-        "change": 16.7
-      },
-      {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
         "price": 16.18,
@@ -97,6 +90,13 @@
         "price": 70.69,
         "changePercent": 6.06,
         "change": 4.04
+      },
+      {
+        "ticker": "JOBY",
+        "company": "Joby Aviation",
+        "price": 7.15,
+        "changePercent": -5.67,
+        "change": -0.43
       }
     ],
     "regulatory": [
