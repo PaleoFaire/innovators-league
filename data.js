@@ -5940,6 +5940,216 @@ const GOV_DEMAND_TRACKER = [
     source: "sam.gov",
     posted: "2024-12-21"
   },
+  {
+    id: "SAM-70B02C26F00000035",
+    title: "PURCHASE OF TOWERS",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "PURCHASE OF TOWERS",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-12-25"
+  },
+  {
+    id: "SAM-H9240224F0057",
+    title: "ROADRUNNER, ANVIL AND QUASAR PACKAGES",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "ROADRUNNER, ANVIL AND QUASAR PACKAGES",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-08-31"
+  },
+  {
+    id: "SAM-W9128Z26FA005",
+    title: "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED I",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED INSTALLATION, SYSTEMS INTEGRATION, SPECIALIZED TRAINING, AND TECHNICAL SUPPORT SE",
+    techAreas: [],
+    relevantCompanies: ["Scale AI", "Palantir", "OpenAI", "Anthropic"],
+    source: "sam.gov",
+    posted: "2026-03-16"
+  },
+  {
+    id: "SAM-H9240226FE027",
+    title: "SIP TO137 GHOST SHIELD",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SIP TO137 GHOST SHIELD",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2026-04-27"
+  },
+  {
+    id: "SAM-70B02C26F00000480",
+    title: "DO 23 O&S WITH SOW.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "DO 23 O&S WITH SOW.",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2026-07-21"
+  },
+  {
+    id: "SAM-70B02C25F00000926",
+    title: "AWARD",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "AWARD",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-09-19"
+  },
+  {
+    id: "SAM-70B02C25F00000422",
+    title: "S1 APPROVED AWARD FOR DELIVERY ORDER 18",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "S1 APPROVED AWARD FOR DELIVERY ORDER 18",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-08-01"
+  },
+  {
+    id: "SAM-H9240225FE017",
+    title: "THIS EFFORT IS FOR ANNUAL OPERATIONS AND SUSTAINMENT FOR COUNTER UNMANNED SYSTEMS (CUXS) HARDWARE.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "THIS EFFORT IS FOR ANNUAL OPERATIONS AND SUSTAINMENT FOR COUNTER UNMANNED SYSTEMS (CUXS) HARDWARE.",
+    techAreas: [],
+    relevantCompanies: ["Scale AI", "Palantir", "OpenAI", "Anthropic"],
+    source: "sam.gov",
+    posted: "2025-08-28"
+  },
+  {
+    id: "SAM-70B02C24F00000684",
+    title: "DO# 17",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "DO# 17",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-08-28"
+  },
+  {
+    id: "SAM-FA882321C0002",
+    title: "AWARD OF SMALL BUSINESS INNOVATIVE RESEARCH PHASE III CONTRACT",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "AWARD OF SMALL BUSINESS INNOVATIVE RESEARCH PHASE III CONTRACT",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2021-07-26"
+  },
+  {
+    id: "SAM-FA882024FB003",
+    title: "SDANET SBIR III SINGLE AWARD IDIQ TASK ORDER FOR ANDURIL INDUSTRIES TO PERFORM ADDITIONAL FIELDING INTEGRATION OF LATTIC",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SDANET SBIR III SINGLE AWARD IDIQ TASK ORDER FOR ANDURIL INDUSTRIES TO PERFORM ADDITIONAL FIELDING INTEGRATION OF LATTICED MESH NETWORK COMMUNICATIONS CAPABILITY TO SUPPORT WORLDWIDE SDANET CONNECTED ",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-09-27"
+  },
+  {
+    id: "SAM-M6785426F1012",
+    title: "LOITERING MUNITION -ALL UP ROUNDS",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "LOITERING MUNITION -ALL UP ROUNDS",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-12-11"
+  },
+  {
+    id: "SAM-M6785426F0032",
+    title: "PM GBAD HOME ALONE I-CSUAS HARDWARE PROCUREMENT.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "PM GBAD HOME ALONE I-CSUAS HARDWARE PROCUREMENT.",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-12-19"
+  },
+  {
+    id: "SAM-FA228025F0035",
+    title: "FALCON INTELLIGENCE, SURVEILLANCE AND RECONNAISSANCE",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "FALCON INTELLIGENCE, SURVEILLANCE AND RECONNAISSANCE",
+    techAreas: [],
+    relevantCompanies: ["Scale AI", "Palantir", "OpenAI", "Anthropic"],
+    source: "sam.gov",
+    posted: "2025-09-30"
+  },
+  {
+    id: "SAM-H9240225F0005",
+    title: "SIP FFP SERVICES",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SIP FFP SERVICES",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-12-21"
+  },
 ];
 
 const GOV_DEMAND_SUMMARY = {
@@ -37790,6 +38000,7 @@ const FUNDING_TRACKER = [
 // Auto-updated IPO pipeline — Last updated: 2026-08-27
 // Auto-updated IPO pipeline — Last updated: 2026-08-27
 // Auto-updated IPO pipeline — Last updated: 2026-08-28
+// Auto-updated IPO pipeline — Last updated: 2026-08-28
 const IPO_PIPELINE = [
   { company: "SpaceX", status: "IPO Imminent — Targeting Mid-2026", likelihood: "high", estimatedDate: "Mid-2026", estimatedValuation: "$1.5T+", sector: "Space & Aerospace" },
   { company: "Cerebras", status: "S-1 Filed, Targeting Q2 2026", likelihood: "high", estimatedDate: "Q2 2026", estimatedValuation: "$22B+", sector: "Chips & Semiconductors" },
@@ -40813,6 +41024,8 @@ const TRL_RANKINGS = [
 // Last updated: 2026-08-27
 // Auto-updated deal flow from RSS + Crunchbase
 // Last updated: 2026-08-28
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-08-28
 const DEAL_TRACKER = [
   { company: "Phospho", investor: "Undisclosed", amount: "$7.9M", round: "Funding Round", date: "2026-08", valuation: "", leadOrParticipant: "lead" },
   { company: "Scale AI", investor: "Undisclosed", amount: "$37M", round: "Series B", date: "2026-08", valuation: "", leadOrParticipant: "lead" },
@@ -41806,6 +42019,7 @@ const FOUNDER_MAFIAS = {
 // Auto-updated revenue intelligence — Last updated: 2026-08-26
 // Auto-updated revenue intelligence — Last updated: 2026-08-27
 // Auto-updated revenue intelligence — Last updated: 2026-08-27
+// Auto-updated revenue intelligence — Last updated: 2026-08-28
 // Auto-updated revenue intelligence — Last updated: 2026-08-28
 const REVENUE_INTEL = [
   { company: "NVIDIA", revenue: "$215.9B", period: "2026 Annual", growth: "+65% YoY", source: "SEC 10-K (NVDA)" },
@@ -44960,6 +45174,8 @@ const PREV_WEEK_SCORES = [
 // Last updated: 2026-08-27
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-08-28
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-08-28
 const GOV_CONTRACTS = [
   { company: "Anduril", totalGovValue: "$3.7B+", contractCount: 200, agencies: ["Department of Energy", "Department of Commerce", "Department of Homeland Security", "Department of Defense", "National Aeronautics and Space Administration"], lastUpdated: "2026-08-28" },
   { company: "Palantir", totalGovValue: "$1.6B+", contractCount: 85, agencies: ["Department of Transportation", "Department of Agriculture", "Department of Veterans Affairs", "General Services Administration", "Department of the Treasury"], lastUpdated: "2026-08-28" },
@@ -45124,22 +45340,22 @@ const GOV_CONTRACTS = [
 // Auto-updated SAM.gov contract opportunities
 // Last updated: 2026-08-28
 const SAM_CONTRACTS = [
-  { company: "Anduril", opportunityCount: 25, agencies: ["Department of Defense", "Department of Energy", "Department of Homeland Security"], types: [], recentOpportunities: [{"title": "PURCHASE OF TOWERS", "agency": "Department of Homeland Security", "postedDate": "2025-12-25", "type": null, "noticeId": "70B02C26F00000035", "awardAmount": "$363M"}, {"title": "ROADRUNNER, ANVIL AND QUASAR PACKAGES", "agency": "Department of Defense", "postedDate": "2024-08-31", "type": null, "noticeId": "H9240224F0057", "awardAmount": "$250M"}, {"title": "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED I", "agency": "Department of Defense", "postedDate": "2026-03-16", "type": null, "noticeId": "W9128Z26FA005", "awardAmount": "$142M"}], lastUpdated: "2026-08-27" },
-  { company: "Palantir", opportunityCount: 25, agencies: ["Department of Agriculture", "Department of Defense", "Department of Health and Human Services", "Department of Homeland Security", "Department of State"], types: [], recentOpportunities: [{"title": "CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039", "agency": "Department of Defense", "postedDate": "2025-10-15", "type": null, "noticeId": "W9128Z26FA001", "awardAmount": "$546M"}, {"title": "INVESTIGATIVE CASE MANAGEMENT (ICM) OPERATIONS AND MAINTENANCE (O&M) SUPPORT SERVICES AND CUSTOM ENHANCEMENTS", "agency": "Department of Homeland Security", "postedDate": "2022-09-26", "type": null, "noticeId": "70CTD022FR0000170", "awardAmount": "$151M"}, {"title": "ARMY VANTAGE DATA ANALYTICS PLATFORM.", "agency": "Department of Defense", "postedDate": "2025-12-11", "type": null, "noticeId": "W519TC26F0012", "awardAmount": "$145M"}], lastUpdated: "2026-08-27" },
-  { company: "Skydio", opportunityCount: 25, agencies: ["Department of Agriculture", "Department of State", "Department of the Interior"], types: [], recentOpportunities: [{"title": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL", "agency": "Department of the Interior", "postedDate": "2026-02-04", "type": null, "noticeId": "140D0426F0169", "awardAmount": "$251K"}, {"title": "DELIVERY ORDER FOR UAS AND ACCESSORIES", "agency": "Department of Agriculture", "postedDate": "2026-04-12", "type": null, "noticeId": "12639526F0393", "awardAmount": "$224K"}, {"title": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL ORDER", "agency": "Department of the Interior", "postedDate": "2026-03-25", "type": null, "noticeId": "140D0426F0309", "awardAmount": "$147K"}], lastUpdated: "2026-08-27" },
-  { company: "Radiant", opportunityCount: 10, agencies: ["Department of Defense", "Department of Health and Human Services", "Department of Labor", "Department of the Interior", "Department of the Treasury"], types: [], recentOpportunities: [{"title": "CLOUD RESOURCES MANAGEMENT SUPPORT", "agency": "Department of Health and Human Services", "postedDate": "2020-11-13", "type": null, "noticeId": "75FCMC20F0077", "awardAmount": "$13M"}, {"title": "ASHEPS CONTRACT", "agency": "Department of Health and Human Services", "postedDate": "2024-03-08", "type": null, "noticeId": "75FCMC24F0057", "awardAmount": "$10M"}, {"title": "DEVELOPMENT AND REPLACEMENT OF THE AGING, INDEPENDENCE, AND DISABILITY PROGRAM DATA PORTAL (AGID 2.0", "agency": "Department of Health and Human Services", "postedDate": "2022-09-30", "type": null, "noticeId": "75P00122F80229", "awardAmount": "$3M"}], lastUpdated: "2026-08-27" },
-  { company: "Shield AI", opportunityCount: 6, agencies: ["Department of Defense", "Department of Homeland Security"], types: [], recentOpportunities: [{"title": "VBAT SHORE BASED SERVICES. TASK ORDER FOR PUERTO RICO.", "agency": "Department of Homeland Security", "postedDate": "2026-02-27", "type": null, "noticeId": "70Z02326F93130005", "awardAmount": "$16M"}, {"title": "V-BAT VTOL UNMANNED AIRCRAFT", "agency": "Department of Defense", "postedDate": "2025-09-03", "type": null, "noticeId": "N0001925F0971", "awardAmount": "$11M"}, {"title": "TASK ORDER FOR MR-UAS GUAM SHORE EXPANSION.", "agency": "Department of Homeland Security", "postedDate": "2026-05-27", "type": null, "noticeId": "70Z02326F93130008", "awardAmount": "$8M"}], lastUpdated: "2026-08-27" },
-  { company: "Axiom Space", opportunityCount: 6, agencies: ["National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "EXPLORATION EXTRAVEHICULAR ACTIVITY SERVICE (XEVAS) ARTEMIS PROGRAM", "agency": "National Aeronautics and Space Administration", "postedDate": "2022-09-08", "type": null, "noticeId": "80JSC022FA103", "awardAmount": "$414M"}, {"title": "EXTRAVEHICULAR ACTIVITY (EVA) DEMONSTRATION", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-06-23", "type": null, "noticeId": "80JSC023FA154", "awardAmount": "$131M"}, {"title": "SPECIAL STUDIES", "agency": "National Aeronautics and Space Administration", "postedDate": "2024-09-27", "type": null, "noticeId": "80JSC024FA196", "awardAmount": "$40M"}], lastUpdated: "2026-08-27" },
-  { company: "Sierra Space", opportunityCount: 5, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "BAA R&D - THE NEXT SPACE TECHNOLOGIES FOR EXPLORATION PARTNERSHIPS -2 (NEXTSTEP-2) APPENDIX F: LOGISTICS REDUCTION (LR) ", "agency": "National Aeronautics and Space Administration", "postedDate": "2019-05-02", "type": null, "noticeId": "80HQTR19C0019", "awardAmount": "$12M"}, {"title": "ADVANCED SPACESUIT REGULATOR (ASR)", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-12-18", "type": null, "noticeId": "80JSC026C0002", "awardAmount": "$9M"}, {"title": "NEXT SPACE TECHNOLOGIES EXPLORATION PARTNERSHIP-2 APPENDIX R: LUNAR LOGISTICS & MOBILITY STUDIES. GOALS ARE TO SUPPORT M", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-04-30", "type": null, "noticeId": "80HQTR25CA008", "awardAmount": "$4M"}], lastUpdated: "2026-08-27" },
-  { company: "Planet Labs", opportunityCount: 3, agencies: ["Department of Commerce", "Department of Defense", "Department of the Interior"], types: [], recentOpportunities: [{"title": "SATELLITE IMAGERY DATA SUBSCRIPTION", "agency": "Department of Defense", "postedDate": "2026-03-18", "type": null, "noticeId": "N6600126P6067", "awardAmount": "$7M"}, {"title": "SATELLITE IMAGERY FOR THE SATELLITE ANALYSIS BRANCH", "agency": "Department of Commerce", "postedDate": "2024-08-12", "type": null, "noticeId": "1332KP24P0044", "awardAmount": "$186K"}, {"title": "EO 14398 - THIS REQUIREMENT IS FOR SUPPORT SERVICES FOR VOLCANO SCIENCE CENTER. SATELLITE IMAGERY SUBSCRIPTION", "agency": "Department of the Interior", "postedDate": "2026-05-07", "type": null, "noticeId": "140G0326P0132", "awardAmount": "$60K"}], lastUpdated: "2026-08-27" },
-  { company: "Castelion", opportunityCount: 2, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "PER SOW, G/R LIST, AND TECHNICAL PROPOSAL", "agency": "Department of Defense", "postedDate": "2026-02-25", "type": null, "noticeId": "N6833526F1022", "awardAmount": "$155M"}, {"title": "NEW PHASE II - EFFORT ENTITLED, HYPERSONIC EQUIPAGE FROM TWENTY FOOT EQUIVALENT UNIT CONTAINER, PROPOSAL F2D-11201. CAST", "agency": "Department of Defense", "postedDate": "2025-03-11", "type": null, "noticeId": "W912CG25C0009", "awardAmount": "$1M"}], lastUpdated: "2026-08-27" },
-  { company: "Rocket Lab", opportunityCount: 2, agencies: ["National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-03-29", "type": null, "noticeId": "80KSC023FA107", "awardAmount": "$45M"}, {"title": "DEVELOP GEOSPACE DYNAMICS CONSTELLATION (GDC) TRAILBLAZER MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE ", "agency": "National Aeronautics and Space Administration", "postedDate": "2026-05-28", "type": null, "noticeId": "80AFRC26FA041", "awardAmount": "$433K"}], lastUpdated: "2026-08-27" },
-  { company: "BlackSky", opportunityCount: 2, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "BLACKSKY DIRECT TO PHASE 2", "agency": "Department of Defense", "postedDate": "2024-10-01", "type": null, "noticeId": "FA238524CB039", "awardAmount": "$4M"}, {"title": "SEGMENTED LARGE OPTICAL IMAGER DESIGN AND RISK ASSESSMENT", "agency": "Department of Defense", "postedDate": "2026-03-06", "type": null, "noticeId": "FA238526FB002", "awardAmount": "$4M"}], lastUpdated: "2026-08-27" },
-  { company: "Scale AI", opportunityCount: 2, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "BASE YEAR TASK ORDER AWARDED TO SCALE AI UNDER THEIR INDEFINITE DELIVERY INDEFINITE QUANTITY IDIQ FOR EMERGENT IVBAA0001", "agency": "Department of Defense", "postedDate": "2024-09-27", "type": null, "noticeId": "SP470124F0355", "awardAmount": "$2M"}, {"title": "ARTIFICIAL INTELLIGENCE SUPPORT FOR BASIC AND APPLIED RESEARCH OF THE ARMY RESEARCH LABORATORY", "agency": "Department of Defense", "postedDate": "2025-08-26", "type": null, "noticeId": "W911QX25FA054", "awardAmount": "$2M"}], lastUpdated: "2026-08-27" },
-  { company: "Vannevar Labs", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SBIR STRATFI - VELOCITY", "agency": "Department of Defense", "postedDate": "2025-01-06", "type": null, "noticeId": "FA860425CB008", "awardAmount": "$13M"}], lastUpdated: "2026-08-27" },
-  { company: "Hadrian", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "DATA RIGHTS AND INTELLECTUAL PROPERTY", "agency": "Department of Defense", "postedDate": "2026-03-17", "type": null, "noticeId": "W911RQ26CA011", "awardAmount": "$39M"}], lastUpdated: "2026-08-27" },
-  { company: "Relativity Space", opportunityCount: 1, agencies: ["National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER.", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-03-29", "type": null, "noticeId": "80KSC023FA106", "awardAmount": "$225K"}], lastUpdated: "2026-08-27" },
-  { company: "Varda Space", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "THIS TASK ORDER IS FOR THE ORDER OF ELEVEN (11) MONTHLY REPORTS TO PROVIDE STATUS UPDATES FROM 30 NOV 2025 THROUGH 30 SE", "agency": "Department of Defense", "postedDate": "2025-11-25", "type": null, "noticeId": "FA945326FX002", "awardAmount": "$160K"}], lastUpdated: "2026-08-27" },
+  { company: "Anduril", opportunityCount: 25, agencies: ["Department of Defense", "Department of Energy", "Department of Homeland Security"], types: [], recentOpportunities: [{"title": "PURCHASE OF TOWERS", "agency": "Department of Homeland Security", "postedDate": "2025-12-25", "type": null, "noticeId": "70B02C26F00000035", "awardAmount": "$363M"}, {"title": "ROADRUNNER, ANVIL AND QUASAR PACKAGES", "agency": "Department of Defense", "postedDate": "2024-08-31", "type": null, "noticeId": "H9240224F0057", "awardAmount": "$250M"}, {"title": "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED I", "agency": "Department of Defense", "postedDate": "2026-03-16", "type": null, "noticeId": "W9128Z26FA005", "awardAmount": "$142M"}], lastUpdated: "2026-08-28" },
+  { company: "Palantir", opportunityCount: 25, agencies: ["Department of Agriculture", "Department of Defense", "Department of Health and Human Services", "Department of Homeland Security", "Department of State"], types: [], recentOpportunities: [{"title": "CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039", "agency": "Department of Defense", "postedDate": "2025-10-15", "type": null, "noticeId": "W9128Z26FA001", "awardAmount": "$546M"}, {"title": "INVESTIGATIVE CASE MANAGEMENT (ICM) OPERATIONS AND MAINTENANCE (O&M) SUPPORT SERVICES AND CUSTOM ENHANCEMENTS", "agency": "Department of Homeland Security", "postedDate": "2022-09-26", "type": null, "noticeId": "70CTD022FR0000170", "awardAmount": "$151M"}, {"title": "ARMY VANTAGE DATA ANALYTICS PLATFORM.", "agency": "Department of Defense", "postedDate": "2025-12-11", "type": null, "noticeId": "W519TC26F0012", "awardAmount": "$145M"}], lastUpdated: "2026-08-28" },
+  { company: "Skydio", opportunityCount: 25, agencies: ["Department of Agriculture", "Department of State", "Department of the Interior"], types: [], recentOpportunities: [{"title": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL", "agency": "Department of the Interior", "postedDate": "2026-02-04", "type": null, "noticeId": "140D0426F0169", "awardAmount": "$251K"}, {"title": "DELIVERY ORDER FOR UAS AND ACCESSORIES", "agency": "Department of Agriculture", "postedDate": "2026-04-12", "type": null, "noticeId": "12639526F0393", "awardAmount": "$224K"}, {"title": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL ORDER", "agency": "Department of the Interior", "postedDate": "2026-03-25", "type": null, "noticeId": "140D0426F0309", "awardAmount": "$147K"}], lastUpdated: "2026-08-28" },
+  { company: "Radiant", opportunityCount: 10, agencies: ["Department of Defense", "Department of Health and Human Services", "Department of Labor", "Department of the Interior", "Department of the Treasury"], types: [], recentOpportunities: [{"title": "CLOUD RESOURCES MANAGEMENT SUPPORT", "agency": "Department of Health and Human Services", "postedDate": "2020-11-13", "type": null, "noticeId": "75FCMC20F0077", "awardAmount": "$13M"}, {"title": "ASHEPS CONTRACT", "agency": "Department of Health and Human Services", "postedDate": "2024-03-08", "type": null, "noticeId": "75FCMC24F0057", "awardAmount": "$10M"}, {"title": "DEVELOPMENT AND REPLACEMENT OF THE AGING, INDEPENDENCE, AND DISABILITY PROGRAM DATA PORTAL (AGID 2.0", "agency": "Department of Health and Human Services", "postedDate": "2022-09-30", "type": null, "noticeId": "75P00122F80229", "awardAmount": "$3M"}], lastUpdated: "2026-08-28" },
+  { company: "Shield AI", opportunityCount: 6, agencies: ["Department of Defense", "Department of Homeland Security"], types: [], recentOpportunities: [{"title": "VBAT SHORE BASED SERVICES. TASK ORDER FOR PUERTO RICO.", "agency": "Department of Homeland Security", "postedDate": "2026-02-27", "type": null, "noticeId": "70Z02326F93130005", "awardAmount": "$16M"}, {"title": "V-BAT VTOL UNMANNED AIRCRAFT", "agency": "Department of Defense", "postedDate": "2025-09-03", "type": null, "noticeId": "N0001925F0971", "awardAmount": "$11M"}, {"title": "TASK ORDER FOR MR-UAS GUAM SHORE EXPANSION.", "agency": "Department of Homeland Security", "postedDate": "2026-05-27", "type": null, "noticeId": "70Z02326F93130008", "awardAmount": "$8M"}], lastUpdated: "2026-08-28" },
+  { company: "Axiom Space", opportunityCount: 6, agencies: ["National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "EXPLORATION EXTRAVEHICULAR ACTIVITY SERVICE (XEVAS) ARTEMIS PROGRAM", "agency": "National Aeronautics and Space Administration", "postedDate": "2022-09-08", "type": null, "noticeId": "80JSC022FA103", "awardAmount": "$414M"}, {"title": "EXTRAVEHICULAR ACTIVITY (EVA) DEMONSTRATION", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-06-23", "type": null, "noticeId": "80JSC023FA154", "awardAmount": "$131M"}, {"title": "SPECIAL STUDIES", "agency": "National Aeronautics and Space Administration", "postedDate": "2024-09-27", "type": null, "noticeId": "80JSC024FA196", "awardAmount": "$40M"}], lastUpdated: "2026-08-28" },
+  { company: "Sierra Space", opportunityCount: 5, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "BAA R&D - THE NEXT SPACE TECHNOLOGIES FOR EXPLORATION PARTNERSHIPS -2 (NEXTSTEP-2) APPENDIX F: LOGISTICS REDUCTION (LR) ", "agency": "National Aeronautics and Space Administration", "postedDate": "2019-05-02", "type": null, "noticeId": "80HQTR19C0019", "awardAmount": "$12M"}, {"title": "ADVANCED SPACESUIT REGULATOR (ASR)", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-12-18", "type": null, "noticeId": "80JSC026C0002", "awardAmount": "$9M"}, {"title": "NEXT SPACE TECHNOLOGIES EXPLORATION PARTNERSHIP-2 APPENDIX R: LUNAR LOGISTICS & MOBILITY STUDIES. GOALS ARE TO SUPPORT M", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-04-30", "type": null, "noticeId": "80HQTR25CA008", "awardAmount": "$4M"}], lastUpdated: "2026-08-28" },
+  { company: "Planet Labs", opportunityCount: 3, agencies: ["Department of Commerce", "Department of Defense", "Department of the Interior"], types: [], recentOpportunities: [{"title": "SATELLITE IMAGERY DATA SUBSCRIPTION", "agency": "Department of Defense", "postedDate": "2026-03-18", "type": null, "noticeId": "N6600126P6067", "awardAmount": "$7M"}, {"title": "SATELLITE IMAGERY FOR THE SATELLITE ANALYSIS BRANCH", "agency": "Department of Commerce", "postedDate": "2024-08-12", "type": null, "noticeId": "1332KP24P0044", "awardAmount": "$186K"}, {"title": "EO 14398 - THIS REQUIREMENT IS FOR SUPPORT SERVICES FOR VOLCANO SCIENCE CENTER. SATELLITE IMAGERY SUBSCRIPTION", "agency": "Department of the Interior", "postedDate": "2026-05-07", "type": null, "noticeId": "140G0326P0132", "awardAmount": "$60K"}], lastUpdated: "2026-08-28" },
+  { company: "Castelion", opportunityCount: 2, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "PER SOW, G/R LIST, AND TECHNICAL PROPOSAL", "agency": "Department of Defense", "postedDate": "2026-02-25", "type": null, "noticeId": "N6833526F1022", "awardAmount": "$155M"}, {"title": "NEW PHASE II - EFFORT ENTITLED, HYPERSONIC EQUIPAGE FROM TWENTY FOOT EQUIVALENT UNIT CONTAINER, PROPOSAL F2D-11201. CAST", "agency": "Department of Defense", "postedDate": "2025-03-11", "type": null, "noticeId": "W912CG25C0009", "awardAmount": "$1M"}], lastUpdated: "2026-08-28" },
+  { company: "Rocket Lab", opportunityCount: 2, agencies: ["National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-03-29", "type": null, "noticeId": "80KSC023FA107", "awardAmount": "$45M"}, {"title": "DEVELOP GEOSPACE DYNAMICS CONSTELLATION (GDC) TRAILBLAZER MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE ", "agency": "National Aeronautics and Space Administration", "postedDate": "2026-05-28", "type": null, "noticeId": "80AFRC26FA041", "awardAmount": "$433K"}], lastUpdated: "2026-08-28" },
+  { company: "Varda Space", opportunityCount: 2, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "TASK ORDER 3 - TWO NOMINAL SCHEDULE INTERIOR PAYLOAD LAUNCHES FOR OCTOBER 2025.", "agency": "Department of Defense", "postedDate": "2024-12-30", "type": null, "noticeId": "FA945325FX010", "awardAmount": "$10M"}, {"title": "THIS TASK ORDER IS FOR THE ORDER OF ELEVEN (11) MONTHLY REPORTS TO PROVIDE STATUS UPDATES FROM 30 NOV 2025 THROUGH 30 SE", "agency": "Department of Defense", "postedDate": "2025-11-25", "type": null, "noticeId": "FA945326FX002", "awardAmount": "$160K"}], lastUpdated: "2026-08-28" },
+  { company: "BlackSky", opportunityCount: 2, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "BLACKSKY DIRECT TO PHASE 2", "agency": "Department of Defense", "postedDate": "2024-10-01", "type": null, "noticeId": "FA238524CB039", "awardAmount": "$4M"}, {"title": "SEGMENTED LARGE OPTICAL IMAGER DESIGN AND RISK ASSESSMENT", "agency": "Department of Defense", "postedDate": "2026-03-06", "type": null, "noticeId": "FA238526FB002", "awardAmount": "$4M"}], lastUpdated: "2026-08-28" },
+  { company: "Scale AI", opportunityCount: 2, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "BASE YEAR TASK ORDER AWARDED TO SCALE AI UNDER THEIR INDEFINITE DELIVERY INDEFINITE QUANTITY IDIQ FOR EMERGENT IVBAA0001", "agency": "Department of Defense", "postedDate": "2024-09-27", "type": null, "noticeId": "SP470124F0355", "awardAmount": "$2M"}, {"title": "ARTIFICIAL INTELLIGENCE SUPPORT FOR BASIC AND APPLIED RESEARCH OF THE ARMY RESEARCH LABORATORY", "agency": "Department of Defense", "postedDate": "2025-08-26", "type": null, "noticeId": "W911QX25FA054", "awardAmount": "$2M"}], lastUpdated: "2026-08-28" },
+  { company: "Vannevar Labs", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SBIR STRATFI - VELOCITY", "agency": "Department of Defense", "postedDate": "2025-01-06", "type": null, "noticeId": "FA860425CB008", "awardAmount": "$13M"}], lastUpdated: "2026-08-28" },
+  { company: "Hadrian", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "DATA RIGHTS AND INTELLECTUAL PROPERTY", "agency": "Department of Defense", "postedDate": "2026-03-17", "type": null, "noticeId": "W911RQ26CA011", "awardAmount": "$39M"}], lastUpdated: "2026-08-28" },
+  { company: "Relativity Space", opportunityCount: 1, agencies: ["National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER.", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-03-29", "type": null, "noticeId": "80KSC023FA106", "awardAmount": "$225K"}], lastUpdated: "2026-08-28" },
 ];
 
 // Auto-updated SBIR/STTR government grant awards
@@ -45352,7 +45568,6 @@ const NIH_GRANTS = [
   { orgName: "", title: "The alternative complement pathway and hemocompatibility of nanosurfaces", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["Adverse reactions", "Affect", "Alternative Complement Pathway", "Animal Model", "Antibodies"], isKnownCompany: false },
   { orgName: "", title: "Phase I/II clinical trial of in-house BCMA CAR T-cell therapy and opaganib in ultrahigh risk multipl", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["Accounting", "Algorithms", "Alleles", "Antigens", "Apoptosis"], isKnownCompany: false },
   { orgName: "", title: "Endoscopic Fine-Needle Light Scattering Spectroscopy for Pancreatic Cyst Diagnosis and Evaluation of", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["Address", "Adopted", "American", "Articulation", "Award"], isKnownCompany: false },
-  { orgName: "", title: "Novel approach to modulate the TME on-demand with therapeutic peptides and proteins.", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["4T1", "A549", "Acids", "Alder plant", "Antibodies"], isKnownCompany: false },
   { orgName: "", title: "Integration of CSF Proteogenomics in the Diagnosis and Management of Diffuse Gliomas", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["Address", "Adjuvant Therapy", "Adult", "Affect", "Biological Assay"], isKnownCompany: false },
   { orgName: "", title: "Establishing a bioelectronics-integrated mesoscale organ-on-a-chip for neuromuscular disease modelin", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["Acceleration", "Address", "Allografting", "Animal Model", "Architecture"], isKnownCompany: false },
   { orgName: "", title: "Ultrasound-Controlled in Vivo Gene Editing with Photoswitchable CRISPR-CasMINI", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["BCAR1 gene", "Basic Science", "Biological", "Brain", "Brain region"], isKnownCompany: false },
@@ -45417,6 +45632,7 @@ const NIH_GRANTS = [
   { orgName: "", title: "Joint decomposition of SCORCH mulit-omic data to explore the impact of SUD and HIV on reward circuit", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["ATAC-seq", "Bioinformatics", "Biologic Characteristic", "Biological", "Biological Process"], isKnownCompany: false },
   { orgName: "", title: "Deuterium metabolic imaging (DMI) of neurological disease", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["3-Dimensional", "Acceleration", "Address", "Adoption", "Alzheimer's Disease"], isKnownCompany: false },
   { orgName: "", title: "Development of 3D Multi-cellular Cardiac Tissues for Modeling Delayed Radiation-induced Injury", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "U01", isSbir: false, terms: ["3-Dimensional", "Acceleration", "Accidents", "Address", "Animal Model"], isKnownCompany: false },
+  { orgName: "", title: "Generation of human skin organoids from pluripotency", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["Abdomen", "Acceleration", "Affect", "Alopecia", "Anatomy"], isKnownCompany: false },
   { orgName: "", title: "Targeting SMARCA2 as a therapeutic strategy in SMARCA4 mutant lung cancer", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["ARID1A gene", "Ablation", "Biological", "Biological Models", "Biology"], isKnownCompany: false },
   { orgName: "", title: "Novel Glucose dendrimers for targeting injured neurons", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["Acute", "Address", "Affect", "Affinity", "Antibodies"], isKnownCompany: false },
   { orgName: "", title: "Genetics and Functional Studies of Autosomal Recessive Neurological Disorders", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["Adaptive Behaviors", "Alleles", "Biochemistry", "Bioinformatics", "Biological Assay"], isKnownCompany: false },
@@ -45657,7 +45873,7 @@ const NIH_GRANTS = [
 
 // Auto-updated ARPA-E project data
 // Last updated: 2026-08-28
-// Total projects: 1710 | Private companies: 679
+// Total projects: 1721 | Private companies: 681
 const ARPA_E_PROJECTS = [
   { title: "SAFERBAT: Solid-state Approach for Future Energy-dense Renewable Batteries and Advanced-manufacturing Technologies", organization: "Ion Storage Systems, Inc.", orgType: "Private Company", status: "Active", state: "MD", awardAmount: 20000000, awardFormatted: "20,000,000", programAcronym: "None", technologyAreas: ["Batteries", "Transportation"], isKnownCompany: false, isPrivateCompany: true },
   { title: "Carbon Sequestration and Climate Resiliency via Super Wood", organization: "Inventwood LLC", orgType: "Private Company", status: "Alumni", state: "MD", awardAmount: 20000000, awardFormatted: "20,000,000", programAcronym: "None", technologyAreas: ["Building Materials", "Buildings", "Manufacturing", "Industrial Efficiency", "Other - Buildings"], isKnownCompany: false, isPrivateCompany: true },
@@ -45743,6 +45959,7 @@ const ARPA_E_PROJECTS = [
   { title: "Ammonothermal Growth of GaN Substrates for LEDs", organization: "Soraa", orgType: "Private Company", status: "Alumni", state: "CA", awardAmount: 6319259, awardFormatted: "6,319,259", programAcronym: "Open Funding Solicitation", technologyAreas: ["Lighting", "Buildings"], isKnownCompany: false, isPrivateCompany: true },
   { title: "On-Vehicle Engine-Compressor System", organization: "OnBoard Dynamics", orgType: "Private Company", status: "Alumni", state: "OR", awardAmount: 6268430, awardFormatted: "6,268,430", programAcronym: "Methane Opportunities for Vehicular Energy", technologyAreas: ["Other - Transportation", "Transportation"], isKnownCompany: false, isPrivateCompany: true },
   { title: "Backscatter X-Ray Phenotyping", organization: "University of Florida", orgType: "University", status: "Alumni", state: "FL", awardAmount: 6223353, awardFormatted: "6,223,353", programAcronym: "Rhizosphere Observations Optimizing Terrestrial Sequestration", technologyAreas: ["Other - Resources", "Resources"], isKnownCompany: false, isPrivateCompany: false },
+  { title: "SLEUTH: Spectroscopy of Oceanic Liquid Environments Using Towed Optical Sensor Heads", organization: "University of Colorado, Boulder (CU-Boulder)  ", orgType: "University", status: "Cancelled", state: "CO", awardAmount: 6204233, awardFormatted: "6,204,233", programAcronym: "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ", technologyAreas: ["Other - Resources", "Resources"], isKnownCompany: false, isPrivateCompany: false },
   { title: "Measuring Phase Angle Change in Power Lines", organization: "University of California, Berkeley (UC Berkeley)", orgType: "University", status: "Alumni", state: "CA", awardAmount: 6179623, awardFormatted: "6,179,623", programAcronym: "Open Funding Solicitation", technologyAreas: ["Transmission & Distribution", "Grid"], isKnownCompany: false, isPrivateCompany: false },
   { title: "Enhancing Neutral-atom Computers for Optimizing Delivery of Energy (ENCODE)", organization: "Infleqtion", orgType: "Private Company", status: "Active", state: "CO", awardAmount: 6165189, awardFormatted: "6,165,189", programAcronym: "Vision OPEN 2024", technologyAreas: ["Transmission & Distribution", "Grid"], isKnownCompany: true, isPrivateCompany: true },
   { title: "Breeding High Yielding Bioenergy Sorghum", organization: "Clemson University", orgType: "University", status: "Alumni", state: "SC", awardAmount: 6149998, awardFormatted: "6,149,998", programAcronym: "Transportation Energy Resources from Renewable Agriculture", technologyAreas: ["Biomass", "Agriculture & Bioenergy"], isKnownCompany: false, isPrivateCompany: false },
@@ -45832,6 +46049,7 @@ const ARPA_E_PROJECTS = [
   { title: "Microgrid Control/Coordination Co-Design (MicroC3)", organization: "North Carolina State University (NC State)", orgType: "University", status: "Active", state: "NC", awardAmount: 4828980, awardFormatted: "4,828,980", programAcronym: "Open Funding Solicitation", technologyAreas: ["Transmission & Distribution", "Grid"], isKnownCompany: false, isPrivateCompany: false },
   { title: "Frequency Combs for Methane Detection", organization: "University of Colorado, Boulder (CU-Boulder)", orgType: "University", status: "Alumni", state: "CO", awardAmount: 4814624, awardFormatted: "4,814,624", programAcronym: "Methane Observation Networks with Innovative Technology to Obtain Reductions", technologyAreas: ["Other - Resources", "Resources"], isKnownCompany: false, isPrivateCompany: false },
   { title: "Direct Titanium Production from Titanium Slag", organization: "University of Utah", orgType: "University", status: "Alumni", state: "UT", awardAmount: 4813207, awardFormatted: "4,813,207", programAcronym: "Modern Electro/Thermochemical Advances in Light Metals Systems", technologyAreas: ["Other - Industrial Efficiency", "Industrial Efficiency"], isKnownCompany: false, isPrivateCompany: false },
+  { title: "Quantification of Atmospheric Carbon Dioxide Removal Using an Autonomous Ocean Sensor that Measures Sinking Particulate ", organization: "Woods Hole Oceanographic Institution", orgType: "Non-Profit", status: "Alumni", state: "MA", awardAmount: 4802197, awardFormatted: "4,802,197", programAcronym: "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ", technologyAreas: ["Other - Resources", "Resources"], isKnownCompany: false, isPrivateCompany: false },
   { title: "Pioneering a Cermet Waste Form for Disposal of Waste Streams from Advanced Reactors (PACE-FORWARD)", organization: "Rutgers University", orgType: "University", status: "Active", state: "NJ", awardAmount: 4799595, awardFormatted: "4,799,595", programAcronym: "Optimizing Nuclear Waste and Advanced Reactor Disposal Systems", technologyAreas: ["Nuclear Fission", "Power Generation"], isKnownCompany: false, isPrivateCompany: false },
   { title: "Vertical GaN Photoconductive Semiconductor Switch for HVDC Breakers", organization: "SixPoint Materials", orgType: "Private Company", status: "Active", state: "CA", awardAmount: 4782000, awardFormatted: "4,782,000", programAcronym: "Open Funding Solicitation", technologyAreas: ["Materials", "Resources", "Transmission & Distribution", "Grid"], isKnownCompany: true, isPrivateCompany: true },
   { title: "Embedded Fiber Optic Sensing System for Battery Packs", organization: "Palo Alto Research Center (PARC)", orgType: "Private Company", status: "Alumni", state: "CA", awardAmount: 4773952, awardFormatted: "4,773,952", programAcronym: "Advanced Management and Protection of Energy Storage Devices", technologyAreas: ["Other - Transportation", "Transportation", "Storage", "Grid"], isKnownCompany: false, isPrivateCompany: true },
@@ -45875,6 +46093,7 @@ const ARPA_E_PROJECTS = [
   { title: "Lithium-Sulfur Batteries", organization: "Sion Power", orgType: "Private Company", status: "Alumni", state: "AZ", awardAmount: 4305005, awardFormatted: "4,305,005", programAcronym: "Batteries for Electrical Energy Storage in Transportation", technologyAreas: ["Batteries", "Transportation"], isKnownCompany: false, isPrivateCompany: true },
   { title: "Low Temperature Membraneless Carbon Dioxide Electrolyzers for Low-Cost Production of Ethanol Under Dynamic Conditions", organization: "Columbia University", orgType: "University", status: "Active", state: "NY", awardAmount: 4275642, awardFormatted: "4,275,642", programAcronym: "Optimized Flexible Fuels using Grid-free Reactors with Intermittent Delivery ", technologyAreas: ["Fuels", "Transportation"], isKnownCompany: false, isPrivateCompany: false },
   { title: "Small Mirrors for Solar Power Tower Plants", organization: "Otherlab", orgType: "Private Company", status: "Alumni", state: "CA", awardAmount: 4275412, awardFormatted: "4,275,412", programAcronym: "Open Funding Solicitation", technologyAreas: ["Renewables", "Power Generation"], isKnownCompany: false, isPrivateCompany: true },
+  { title: "Spatially Resolved Multi-Parameter Sensing Of Ocean Carbon Dynamics Utilizing Fiber Optic Time-Of-Flight Sensors", organization: "General Electric (GE) Global Research", orgType: "Private Company", status: "Cancelled", state: "NY", awardAmount: 4274658, awardFormatted: "4,274,658", programAcronym: "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ", technologyAreas: ["Other - Resources", "Resources"], isKnownCompany: true, isPrivateCompany: true },
   { title: "Aluminum Electrolytic Cell with Heat Recovery", organization: "Alcoa", orgType: "Private Company", status: "Alumni", state: "PA", awardAmount: 4267218, awardFormatted: "4,267,218", programAcronym: "Modern Electro/Thermochemical Advances in Light Metals Systems", technologyAreas: ["Other - Industrial Efficiency", "Industrial Efficiency"], isKnownCompany: false, isPrivateCompany: true },
   { title: "High Speed Installation of Buried Medium Voltage Electrical Distribution Lines Using a Single Pass System", organization: "Arizona State University (ASU)", orgType: "University", status: "Active", state: "AZ", awardAmount: 4263082, awardFormatted: "4,263,082", programAcronym: "Grid Overhaul with Proactive, High-Speed Undergrounding for Reliability, Resilience, and Security", technologyAreas: ["Transmission & Distribution", "Grid"], isKnownCompany: false, isPrivateCompany: false },
   { title: "High-Efficiency Air Conditioner", organization: "American Superconductor (AMSC)", orgType: "Private Company", status: "Alumni", state: "MA", awardAmount: 4256448, awardFormatted: "4,256,448", programAcronym: "Building Energy Efficiency Through Innovative Thermodevices", technologyAreas: ["Heating & Cooling", "Buildings"], isKnownCompany: false, isPrivateCompany: true },
@@ -45948,6 +46167,7 @@ const ARPA_E_PROJECTS = [
   { title: "RAFT: Reconfigurable Array of High-Efficiency Ducted Turbines for Hydrokinetic Energy Harvesting", organization: "University of Michigan", orgType: "University", status: "Alumni", state: "MI", awardAmount: 3899226, awardFormatted: "3,899,226", programAcronym: "Submarine Hydrokinetic And Riverine Kilo-megawatt Systems", technologyAreas: ["Renewables", "Power Generation"], isKnownCompany: false, isPrivateCompany: false },
   { title: "Robust Metal Alloys", organization: "Oak Ridge National Laboratory (ORNL)", orgType: "National Laboratory", status: "Alumni", state: "TN", awardAmount: 3896796, awardFormatted: "3,896,796", programAcronym: "Open Funding Solicitation", technologyAreas: ["Other - Industrial Efficiency", "Industrial Efficiency"], isKnownCompany: false, isPrivateCompany: false },
   { title: "Active Aerodynamic Load Control for Wind Turbines", organization: "Aquanis", orgType: "Private Company", status: "Alumni", state: "RI", awardAmount: 3893082, awardFormatted: "3,893,082", programAcronym: "Open Funding Solicitation", technologyAreas: ["Renewables", "Power Generation"], isKnownCompany: false, isPrivateCompany: true },
+  { title: "Computational Systems for Tracking Ocean Carbon (C-Star)", organization: "[C]Worthy", orgType: "Non-Profit", status: "Alumni", state: "CO", awardAmount: 3884825, awardFormatted: "3,884,825", programAcronym: "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ", technologyAreas: ["Other - Resources", "Resources"], isKnownCompany: false, isPrivateCompany: false },
   { title: "Resilient Energy Storage for Extreme Fast Charging and Cold-Climate Operation", organization: "The Ohio State University", orgType: "University", status: "Active", state: "OH", awardAmount: 3876210, awardFormatted: "3,876,210", programAcronym: "Jumpstart Opportunities to Unleash Leadership in Energy Storage", technologyAreas: ["Batteries", "Transportation"], isKnownCompany: false, isPrivateCompany: false },
   { title: "Radar for Bioenergy Crop Imaging", organization: "Texas A&M AgriLife Research", orgType: "University", status: "Alumni", state: "TX", awardAmount: 3871413, awardFormatted: "3,871,413", programAcronym: "Open Funding Solicitation", technologyAreas: ["Biomass", "Agriculture & Bioenergy"], isKnownCompany: false, isPrivateCompany: false },
   { title: "Millimeter-Wave Technology Demonstration for Geothermal Direct Energy Drilling", organization: "AltaRock Energy", orgType: "Private Company", status: "Alumni", state: "WA", awardAmount: 3870748, awardFormatted: "3,870,748", programAcronym: "Open Funding Solicitation", technologyAreas: ["Renewables", "Power Generation"], isKnownCompany: false, isPrivateCompany: true },
@@ -45975,6 +46195,7 @@ const ARPA_E_PROJECTS = [
   { title: "Hempcrete 3D Printed Buildings for Sustainability and Resilience", organization: "Texas A&M University", orgType: "University", status: "Alumni", state: "TX", awardAmount: 3742496, awardFormatted: "3,742,496", programAcronym: "Harnessing Emissions into Structures Taking Inputs from the Atmosphere", technologyAreas: ["Building Materials", "Buildings"], isKnownCompany: false, isPrivateCompany: false },
   { title: "Enhanced Carbon Concentration in Camelina", organization: "University of Massachusetts at Amherst (UMass Amherst)", orgType: "University", status: "Alumni", state: "MA", awardAmount: 3740296, awardFormatted: "3,740,296", programAcronym: "Plants Engineered to Replace Oil", technologyAreas: ["Biofuels", "Agriculture & Bioenergy"], isKnownCompany: false, isPrivateCompany: false },
   { title: "ARC-SAFE: Accelerated Response semiconducting Contactors and Surge Attenuation For DC Electrical systems", organization: "Sandia National Laboratories", orgType: "National Laboratory", status: "Alumni", state: "NM", awardAmount: 3739011, awardFormatted: "3,739,011", programAcronym: "Building Reliable Electronics to Achieve Kilovolt Effective Ratings Safely", technologyAreas: ["Power Electronics", "Industrial Efficiency", "Transmission & Distribution", "Grid"], isKnownCompany: false, isPrivateCompany: false },
+  { title: "Multiparameter Chips for Scalable Underwater Sensing ", organization: "Woods Hole Oceanographic Institution", orgType: "Non-Profit", status: "Active", state: "MA", awardAmount: 3738960, awardFormatted: "3,738,960", programAcronym: "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ", technologyAreas: ["Other - Resources", "Resources"], isKnownCompany: false, isPrivateCompany: false },
   { title: "CarbonHouse", organization: "Massachusetts Institute of Technology (MIT)", orgType: "University", status: "Alumni", state: "MA", awardAmount: 3726606, awardFormatted: "3,726,606", programAcronym: "Open Funding Solicitation", technologyAreas: ["Materials", "Resources"], isKnownCompany: false, isPrivateCompany: false },
   { title: "Spalling GaN Transistors", organization: "Columbia University", orgType: "University", status: "Alumni", state: "NY", awardAmount: 3724999, awardFormatted: "3,724,999", programAcronym: "Strategies for Wide Bandgap, Inexpensive Transistors for Controlling High-Efficiency Systems", technologyAreas: ["Materials", "Resources"], isKnownCompany: false, isPrivateCompany: false },
   { title: "Risk-Aware Market Clearing for Power Systems (RAMC)", organization: "Georgia Tech Research Corporation", orgType: "University", status: "Alumni", state: "GA", awardAmount: 3723878, awardFormatted: "3,723,878", programAcronym: "Performance-based Energy Resource Feedback, Optimization, and Risk Management", technologyAreas: ["Transmission & Distribution", "Grid"], isKnownCompany: false, isPrivateCompany: false },
@@ -46154,11 +46375,6 @@ const ARPA_E_PROJECTS = [
   { title: "Biofuels from Pyrolysis", organization: "Research Triangle Institute (RTI)", orgType: "Non-Profit", status: "Alumni", state: "NC", awardAmount: 3100769, awardFormatted: "3,100,769", programAcronym: "Open Funding Solicitation", technologyAreas: ["Biofuels", "Agriculture & Bioenergy"], isKnownCompany: false, isPrivateCompany: false },
   { title: "3D-Printed 1000 degrees Celsius Silicon-Carbide Thermocatalytic CO2 Reactor with High Carbon Conversion and Energy Effic", organization: "Dimensional Energy", orgType: "Private Company", status: "Cancelled", state: "NY", awardAmount: 3100104, awardFormatted: "3,100,104", programAcronym: "Open Funding Solicitation", technologyAreas: ["Fuels", "Transportation", "Other - Resources", "Resources"], isKnownCompany: true, isPrivateCompany: true },
   { title: "Rapid Adaptive Pre-Screening and Integrated Downhole Sensing for Rare Earth Elements (RAPID-REE) ", organization: "South Dakota School of Mines and Technology", orgType: "University", status: "Selected", state: "SD", awardAmount: 3100000, awardFormatted: "3,100,000", programAcronym: "Reliable Ore Characterization with Keystone Sensing", technologyAreas: ["Resources"], isKnownCompany: false, isPrivateCompany: false },
-  { title: "Photonic Project Evaluation", organization: "University of Southern California (USC)", orgType: "University", status: "Alumni", state: "CA", awardAmount: 3100000, awardFormatted: "3,100,000", programAcronym: "ENergy-efficient Light-wave Integrated Technology Enabling Networks that Enhance Dataprocessing", technologyAreas: ["Computing", "Industrial Efficiency"], isKnownCompany: false, isPrivateCompany: false },
-  { title: "Wind Energy to Ammonia Synthesis", organization: "University of Minnesota (UMN)", orgType: "University", status: "Alumni", state: "MN", awardAmount: 3098000, awardFormatted: "3,098,000", programAcronym: "Renewable Energy to Fuels Through Utilization of Energy-Dense Liquids", technologyAreas: ["Fuels", "Transportation"], isKnownCompany: false, isPrivateCompany: false },
-  { title: "Control Co-design and Co-optimization of a Lightweight 12 MW Wind Turbine on an Actuated Tension Leg Platform", organization: "General Electric (GE) Global Research", orgType: "Private Company", status: "Alumni", state: "NY", awardAmount: 3092918, awardFormatted: "3,092,918", programAcronym: "Aerodynamic Turbines Lighter and Afloat with Nautical Technologies and Integrated Servo-control", technologyAreas: ["Renewables", "Power Generation"], isKnownCompany: true, isPrivateCompany: true },
-  { title: "Ultra-Precise Battery Tester", organization: "Ford Motor Company", orgType: "Private Company", status: "Alumni", state: "MI", awardAmount: 3092109, awardFormatted: "3,092,109", programAcronym: "Advanced Management and Protection of Energy Storage Devices", technologyAreas: ["Other - Transportation", "Transportation", "Storage", "Grid"], isKnownCompany: false, isPrivateCompany: true },
-  { title: "Complexion Engineered Nanocrystalline Tungsten Alloy Plasma Facing Materials for Long-Pulse Tokamak Operation", organization: "Johns Hopkins University", orgType: "University", status: "Active", state: "MD", awardAmount: 3090000, awardFormatted: "3,090,000", programAcronym: "Creating Hardened And Durable fusion first Wall Incorporating Centralized Knowledge", technologyAreas: ["Nuclear Fission", "Power Generation", "Nuclear Fusion"], isKnownCompany: false, isPrivateCompany: false },
 ];
 
 const BUDGET_SIGNALS = [
@@ -46835,6 +47051,8 @@ const BUDGET_SIGNALS = [
 // Last updated: 2026-08-27
 // Auto-updated patent intelligence (curated scores + USPTO data)
 // Last updated: 2026-08-27
+// Auto-updated patent intelligence (curated scores + USPTO data)
+// Last updated: 2026-08-28
 // Auto-updated patent intelligence (curated scores + USPTO data)
 // Last updated: 2026-08-28
 const PATENT_INTEL = [
@@ -48140,6 +48358,8 @@ const NETWORK_GRAPH = {
 // Last updated: 2026-08-27
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-08-27
+// Auto-updated news feed (curated + auto-detected)
+// Last updated: 2026-08-28
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-08-28
 const NEWS_FEED = [
@@ -50769,6 +50989,8 @@ const DATA_QUALITY = {
 // Last updated: 2026-08-28 18:32
 // Auto-generated real-time signals
 // Last updated: 2026-08-28
+// Auto-generated real-time signals
+// Last updated: 2026-08-28
 const COMPANY_SIGNALS = [
   { id: 1, type: "funding", company: "Einride", headline: "NVIDIA to buy Hugging Face, Einride launches VC firm, and fixing COPD diagnosis", source: "Tech.eu", time: "4h ago", impact: "medium", unread: true },
   { id: 2, type: "hire", company: "PsiQuantum", headline: "PsiQuantum’s Ice Cream Factory", source: "Inside Quantum Technology", time: "5h ago", impact: "low", unread: true },
@@ -51405,6 +51627,8 @@ const COMPANY_SIGNALS = [
 // Last updated: 2026-08-27
 // Auto-recalibrated Valley of Death stages
 // Last updated: 2026-08-27
+// Auto-recalibrated Valley of Death stages
+// Last updated: 2026-08-28
 // Auto-recalibrated Valley of Death stages
 // Last updated: 2026-08-28
 const VALLEY_OF_DEATH = [
@@ -52069,6 +52293,8 @@ const VALLEY_OF_DEATH_STAGES = [
 // Last updated: 2026-08-27
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-08-27
+// Auto-recalibrated contractor readiness scores
+// Last updated: 2026-08-28
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-08-28
 const CONTRACTOR_READINESS = [

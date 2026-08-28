@@ -19,15 +19,6 @@
   },
   {
     "date": "2026-08-31",
-    "vehicle": "Angara 1.2 | Kosmos (Unknown Payload)",
-    "payload": "Kosmos (Unknown Payload)",
-    "pad": "35/1, Plesetsk Cosmodrome, Russian Federation",
-    "provider": "Russian Space Forces",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-08-31",
     "vehicle": "Electron | Owl Around The World (StriX Launch 11)",
     "payload": "Owl Around The World (StriX Launch 11)",
     "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -72,7 +63,7 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-09-05",
+    "date": "2026-09-06",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 15-24",
     "payload": "Starlink Group 15-24",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -447,6 +438,15 @@
     "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
     "provider": "Indian Space Research Organization",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/dfac5ab7-7017-454f-b6cf-eeed277a97b5/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Spectrum | 1 x Pelican satellite",
+    "payload": "1 x Pelican satellite",
+    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
+    "provider": "Isar Aerospace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/60f4ba6c-4201-4727-94aa-0015a5a0023f/?format=json",
     "trackedCompany": null
   }
 ]
