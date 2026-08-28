@@ -1,162 +1,173 @@
 // Auto-generated news signals
-// Last updated: 2026-08-27T20:17:11.300Z
+// Last updated: 2026-08-28T05:13:21.058Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1787861831299,
+    "id": 1787894001058,
+    "type": "contract",
+    "company": "Anthropic",
+    "headline": "A Judge Has Blocked the Pentagon’s Attempt to Blacklist Anthropic",
+    "source": "Wired",
+    "time": "2h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://www.wired.com/story/a-judge-has-blocked-the-pentagons-attempt-to-blacklist-anthropic/"
+  },
+  {
+    "id": 1787894001059,
+    "type": "contract",
+    "company": "OpenAI",
+    "headline": "Georgia PSC Approves Secret OpenAI Contract",
+    "source": "CleanTechnica",
+    "time": "4h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://cleantechnica.com/2026/08/27/georgia-psc-approves-secret-openai-contract/"
+  },
+  {
+    "id": 1787894001060,
+    "type": "milestone",
+    "company": "Anthropic",
+    "headline": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+    "source": "TechCrunch",
+    "time": "5h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+  },
+  {
+    "id": 1787894001061,
     "type": "hire",
     "company": "OpenAI",
-    "headline": "Barret Zoph, the Thinking Machines co-founder who defected to OpenAI, is now at Google",
+    "headline": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
     "source": "TechCrunch",
-    "time": "Just now",
+    "time": "9h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/"
   },
   {
-    "id": 1787861831300,
+    "id": 1787894001062,
     "type": "news",
     "company": "Anthropic",
     "headline": "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World",
     "source": "Wired",
-    "time": "2h ago",
+    "time": "11h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world/"
   },
   {
-    "id": 1787861831301,
+    "id": 1787894001063,
     "type": "news",
     "company": "Anthropic",
     "headline": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
     "source": "TechCrunch",
-    "time": "2h ago",
+    "time": "11h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/"
   },
   {
-    "id": 1787861831302,
+    "id": 1787894001064,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Is Developing a ‘Persistent’ AI Agent",
     "source": "Wired",
-    "time": "3h ago",
+    "time": "12h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent/"
   },
   {
-    "id": 1787861831303,
+    "id": 1787894001065,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Sprains, pain, and whiplash: Waymo and Zoox test drivers are getting hurt as robotaxis scale",
     "source": "TechCrunch",
-    "time": "5h ago",
+    "time": "14h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/08/27/sprains-pain-and-whiplash-waymo-and-zoox-test-drivers-are-getting-hurt-as-robotaxis-scale/"
   },
   {
-    "id": 1787861831304,
+    "id": 1787894001066,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s a &#8216;false summit&#8217;",
     "source": "Electrek",
-    "time": "6h ago",
+    "time": "15h ago",
     "impact": "low",
     "unread": false,
     "link": "https://electrek.co/2026/08/27/waymo-tesla-self-driving-false-summit/"
   },
   {
-    "id": 1787861831305,
+    "id": 1787894001067,
     "type": "hire",
     "company": "Carbon Robotics",
     "headline": "Carbon Robotics partners with iMerit to power instant in-field AI customization",
     "source": "The Robot Report",
-    "time": "6h ago",
+    "time": "15h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/"
   },
   {
-    "id": 1787861831306,
+    "id": 1787894001068,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
     "source": "Ars Technica",
-    "time": "7h ago",
+    "time": "16h ago",
     "impact": "low",
     "unread": false,
     "link": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/"
   },
   {
-    "id": 1787861831307,
+    "id": 1787894001069,
     "type": "news",
     "company": "OpenAI",
     "headline": "The Download: inside OpenAI&#8217;s Hugging Face hack, and a new EV takes on the US",
     "source": "MIT Tech Review",
-    "time": "8h ago",
+    "time": "17h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/"
   },
   {
-    "id": 1787861831308,
-    "type": "news",
-    "company": "OpenAI",
-    "headline": "OpenAI to start showing ads on ChatGPT&#8217;s free and Go tiers in India",
-    "source": "TechCrunch",
-    "time": "8h ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/"
-  },
-  {
-    "id": 1787861831309,
+    "id": 1787894001070,
     "type": "news",
     "company": "Cognition",
     "headline": "Human must not surrender cognition to AI",
     "source": "Tech.eu",
-    "time": "11h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": false,
     "link": "https://tech.eu/2026/08/27/human-must-not-surrender-cognition-to-ai/"
   },
   {
-    "id": 1787861831310,
+    "id": 1787894001071,
     "type": "news",
     "company": "Hugging Face",
     "headline": "Nvidia agrees to buy Hugging Face for $12.9BN, says report",
     "source": "Tech.eu",
-    "time": "11h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": false,
     "link": "https://tech.eu/2026/08/27/nvidia-agrees-to-buy-hugging-face-for-12-9bn-says-report/"
   },
   {
-    "id": 1787861831311,
+    "id": 1787894001072,
     "type": "funding",
     "company": "Humanoid",
     "headline": "Motion lands $2M to expand humanoid robot deployments across Europe",
     "source": "Tech.eu",
-    "time": "13h ago",
+    "time": "22h ago",
     "impact": "medium",
     "unread": false,
     "link": "https://tech.eu/2026/08/27/motion-lands-2m-to-expand-humanoid-robot-deployments-across-europe/"
   },
   {
-    "id": 1787861831312,
-    "type": "news",
-    "company": "Hugging Face",
-    "headline": "Nvidia closes in on Hugging Face acquisition",
-    "source": "TechCrunch",
-    "time": "13h ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/"
-  },
-  {
-    "id": 1787861831313,
+    "id": 1787894001073,
     "type": "news",
     "company": "OpenAI",
     "headline": "What We Still Don’t Know About OpenAI’s Hugging Face Hack",
@@ -167,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/"
   },
   {
-    "id": 1787861831314,
+    "id": 1787894001074,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "The inside story on why OpenAI agents hacked Hugging Face",
@@ -178,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/"
   },
   {
-    "id": 1787861831316,
+    "id": 1787894001075,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Roman Space Telescope Travels to SpaceX Hangar",
@@ -189,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nasa.gov/image-article/roman-space-telescope-travels-to-spacex-hangar/"
   },
   {
-    "id": 1787861831317,
+    "id": 1787894001076,
     "type": "news",
     "company": "Bedrock Robotics",
     "headline": "Bedrock Robotics&#8217; first operator-free excavator deployments take off",
@@ -200,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/"
   },
   {
-    "id": 1787861831318,
+    "id": 1787894001077,
     "type": "milestone",
     "company": "Einride",
     "headline": "Einride founders launch venture firm, targeting €450M European deep tech investments",
@@ -209,16 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://tech.eu/2026/08/26/einride-founders-launch-venture-firm-targeting-450m-european-deep-tech-investments/"
-  },
-  {
-    "id": 1787861831319,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "SpaceX Has 15-17 Starship Launch Pads Under Development",
-    "source": "Next Big Future",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/08/spacex-has-17-starship-launch-pads-under-development.html"
   }
 ];

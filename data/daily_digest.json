@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-27T20:17:21.747454+00:00",
-  "date": "2026-08-27",
-  "dateDisplay": "Thursday, August 27, 2026",
+  "generatedAt": "2026-08-28T05:13:31.126130+00:00",
+  "date": "2026-08-28",
+  "dateDisplay": "Friday, August 28, 2026",
   "sections": {
     "govActivity": [
       {
@@ -46,57 +46,57 @@
         "ticker": "ASRHF",
         "company": "Astroscale",
         "price": 6.88,
-        "changePercent": -14.96,
-        "change": -1.21
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 16.11,
-        "changePercent": -13.01,
-        "change": -2.41
-      },
-      {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 66.18,
-        "changePercent": -12.74,
-        "change": -9.66
-      },
-      {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 68.48,
-        "changePercent": 11.8,
-        "change": 7.23
+        "changePercent": -11.23,
+        "change": -0.87
       },
       {
         "ticker": "ONT.L",
         "company": "Oxford Nanopore Technologies",
-        "price": 183.5,
-        "changePercent": 11.55,
-        "change": 19.0
+        "price": 181.2,
+        "changePercent": 10.15,
+        "change": 16.7
       },
       {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 59.88,
-        "changePercent": -9.86,
-        "change": -6.55
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 16.18,
+        "changePercent": -9.76,
+        "change": -1.75
       },
       {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 17.51,
-        "changePercent": -9.37,
-        "change": -1.81
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 67.53,
+        "changePercent": -7.43,
+        "change": -5.42
       },
       {
-        "ticker": "ACHR",
-        "company": "Archer Aviation",
-        "price": 5.9,
-        "changePercent": -8.53,
-        "change": -0.55
+        "ticker": "SMR",
+        "company": "NuScale Power",
+        "price": 9.74,
+        "changePercent": 7.39,
+        "change": 0.67
+      },
+      {
+        "ticker": "AUR",
+        "company": "Aurora Innovation",
+        "price": 5.69,
+        "changePercent": -7.03,
+        "change": -0.43
+      },
+      {
+        "ticker": "PLTR",
+        "company": "Palantir",
+        "price": 185.93,
+        "changePercent": 6.88,
+        "change": 11.97
+      },
+      {
+        "ticker": "TEM",
+        "company": "Tempus AI",
+        "price": 70.69,
+        "changePercent": 6.06,
+        "change": 4.04
       }
     ],
     "regulatory": [
@@ -187,6 +187,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ASRHF -15.0%"
+    "topMover": "ASRHF -11.2%"
   }
 }

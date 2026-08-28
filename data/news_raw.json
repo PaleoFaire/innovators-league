@@ -1,6 +1,72 @@
 [
   {
-    "title": "Barret Zoph, the Thinking Machines co-founder who defected to OpenAI, is now at Google",
+    "title": "A Judge Has Blocked the Pentagon’s Attempt to Blacklist Anthropic",
+    "link": "https://www.wired.com/story/a-judge-has-blocked-the-pentagons-attempt-to-blacklist-anthropic/",
+    "description": "A federal judge has called the Department of Defense’s designation of Anthropic as a national security supply-chain risk “illegal and baseless.”",
+    "pubDate": "Fri, 28 Aug 2026 03:04:14 +0000",
+    "category": "Politics",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Cape",
+      "Percepto",
+      "ideaForge"
+    ],
+    "sectors": [
+      "ai",
+      "climate",
+      "autonomous"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "Georgia PSC Approves Secret OpenAI Contract",
+    "link": "https://cleantechnica.com/2026/08/27/georgia-psc-approves-secret-openai-contract/",
+    "description": "ATLANTA — After a tumultuous and secretive process, the Georgia Public Service Commission staff approved the contract between Georgia Power and OpenAI to power a 3.2 gigawatt hyperscale data center planned for Effingham County — without a direct vote from the commission itself. In response, Sierra C",
+    "pubDate": "Fri, 28 Aug 2026 00:43:15 +0000",
+    "category": "Policy & Politics",
+    "source": "CleanTechnica",
+    "feedCategory": "energy",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Astera Labs",
+      "Rebellions"
+    ],
+    "sectors": [
+      "ai",
+      "chips"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "4h ago"
+  },
+  {
+    "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+    "link": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+    "description": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+    "pubDate": "Thu, 27 Aug 2026 23:16:45 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "5h ago"
+  },
+  {
+    "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
     "link": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
     "description": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
     "pubDate": "Thu, 27 Aug 2026 19:52:52 +0000",
@@ -17,7 +83,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "Just now"
+    "time": "9h ago"
   },
   {
     "title": "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World",
@@ -36,7 +102,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "11h ago"
   },
   {
     "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
@@ -59,7 +125,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "11h ago"
   },
   {
     "title": "OpenAI Is Developing a ‘Persistent’ AI Agent",
@@ -78,7 +144,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "12h ago"
   },
   {
     "title": "Sprains, pain, and whiplash: Waymo and Zoox test drivers are getting hurt as robotaxis scale",
@@ -102,7 +168,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "5h ago"
+    "time": "14h ago"
   },
   {
     "title": "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s a &#8216;false summit&#8217;",
@@ -123,7 +189,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
+    "time": "15h ago"
   },
   {
     "title": "Carbon Robotics partners with iMerit to power instant in-field AI customization",
@@ -142,7 +208,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "6h ago"
+    "time": "15h ago"
   },
   {
     "title": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
@@ -162,7 +228,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "7h ago"
+    "time": "16h ago"
   },
   {
     "title": "The Download: inside OpenAI&#8217;s Hugging Face hack, and a new EV takes on the US",
@@ -182,26 +248,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "8h ago"
-  },
-  {
-    "title": "OpenAI to start showing ads on ChatGPT&#8217;s free and Go tiers in India",
-    "link": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
-    "description": "OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers.",
-    "pubDate": "Thu, 27 Aug 2026 11:35:59 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "8h ago"
+    "time": "17h ago"
   },
   {
     "title": "Human must not surrender cognition to AI",
@@ -220,7 +267,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "11h ago"
+    "time": "20h ago"
   },
   {
     "title": "Nvidia agrees to buy Hugging Face for $12.9BN, says report",
@@ -239,7 +286,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "11h ago"
+    "time": "20h ago"
   },
   {
     "title": "Motion lands $2M to expand humanoid robot deployments across Europe",
@@ -269,30 +316,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "13h ago"
-  },
-  {
-    "title": "Nvidia closes in on Hugging Face acquisition",
-    "link": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
-    "description": "Nvidia has reportedly agreed to buy Hugging Face, the popular open source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
-    "pubDate": "Thu, 27 Aug 2026 06:32:51 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Hugging Face",
-    "matchedCompanies": [
-      "Hugging Face",
-      "Xanadu Quantum Technologies",
-      "Tenstorrent"
-    ],
-    "sectors": [
-      "ai",
-      "quantum",
-      "chips"
-    ],
-    "type": "news",
-    "impact": "high",
-    "time": "13h ago"
+    "time": "22h ago"
   },
   {
     "title": "What We Still Don’t Know About OpenAI’s Hugging Face Hack",
@@ -412,7 +436,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "OpenAI Jalapeño Inference Chip just announced at Hot Chips",
@@ -431,7 +455,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Hydrogen Is Still A Tonnes Market, No Matter How Many MWh We Assign To It",
@@ -491,7 +515,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Semianalysis Deep Dive on the SpaceX 10 GW 2027 AI Data Center Build",
@@ -518,7 +542,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "XPeng Motors humanoid robot unit Dogotix raises $900M",
