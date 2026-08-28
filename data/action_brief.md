@@ -1,4 +1,4 @@
-# The Action Brief — Thursday 27 August 2026
+# The Action Brief — Friday 28 August 2026
 
 ## The lede
 
@@ -7,30 +7,27 @@ Last Energy NRC: 2027 U.S. Construction Permit pathway — PWR-20 (20MWe modular
 
 ## Act on
 
-- **SpaceX** FAA: Operational Cargo Flights  `MEDIA`
-  Starship / Super Heavy
-  _you have written about them_
-  ↳ also: payload on Falcon 9 Block 5 | CHORUS (2026-12-31)
-  ↳ also: payload on Falcon 9 Block 5 | Inmarsat-7 F1 (GX-7) (2026-12-31)
+- **Base Power** raised $1B  `FUND`
+  Funding Round
+  _$1B Funding Round on record · you have written about them; your time to power thread_
 
-- **Hermeus** FAA: Darkhorse Piloted Prototype  `MEDIA`
-  Quarterhorse / Darkhorse
-  _you have written about them_
-  ↳ also: $60M from USAF (2026-08-26)
+- **Valar Atomics** raised $1B  `FUND`
+  Funding Round
+  _$1B Funding Round on record · you have written about them; your time to power thread_
 
 ## On the radar
 
+- **SpaceX** — FAA: Operational Cargo Flights · you have written about them · +6 more signals
+- **ICON** — filed a Form D · $200M · $100M Funding Round on record — this is 2.0× that · +1 more signal
+- **Hermeus** — FAA: Darkhorse Piloted Prototype · you have written about them · +1 more signal
 - **Varda Space Industries** — $60M from DOD · you have written about them; your space industrial thread
 - **Anduril Industries** — Anduril Announces $5B Series H Raise · you have written about them; your defense primes displaced thread
 - **Zipline** — FAA: Urban Delivery Operations · you have written about them
 - **NuScale Power** — $1.35B from DOE
-- **X-energy** — $1.20B from DOE
-- **Oklo** — NRC: 2026-Q3 ASLB hearing / Safety Evaluation Report draft · your time to power thread
-- **Kairos Power** — $303M from DOE
 
-**Threads this week:** time to power ×2
+**Threads this week:** time to power ×3
 
-_Below the bar: 75 more events logged (49 grant, 12 regulatory, 11 announcement, 2 podcast, 1 patent) — all in the repo, none needing you._
+_Below the bar: 133 more events logged (79 grant, 18 podcast, 13 regulatory, 10 announcement, 9 funding) — all in the repo, none needing you._
 
 ---
-_Generated 2026-08-27 10:06 UTC. Every line is a primary-source fact joined against the Innovators League database; nothing is model-written._
+_Generated 2026-08-28 11:37 UTC. Every line is a primary-source fact joined against the Innovators League database; nothing is model-written._
