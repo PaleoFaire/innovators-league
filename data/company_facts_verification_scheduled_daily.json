@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-27T16:20:30+00:00",
+  "generatedAt": "2026-08-28T17:16:53+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 37,
-  "newExtractionsThisRun": 37,
+  "cohortSize": 42,
+  "newExtractionsThisRun": 42,
   "summary": {
-    "cleared": 29,
-    "changesProposed": 8,
+    "cleared": 35,
+    "changesProposed": 7,
     "unverifiable": 0
   },
   "cleared": [
@@ -17,11 +17,12 @@
     "Aurora Innovation",
     "Base Power",
     "Bedrock Robotics",
+    "Cape",
     "Cognition",
-    "Commonwealth Fusion Systems",
     "Destinus",
     "Deterrence",
     "Einride",
+    "Forterra",
     "Galvanick",
     "Gecko Robotics",
     "Hadrian",
@@ -31,14 +32,19 @@
     "Neura Robotics",
     "Oklo",
     "Orbital Composites",
+    "Percepto",
     "Photonic Inc",
+    "Proteus Space",
     "Radiant",
     "Rebellions",
     "Sage Geosystems",
     "Solugen",
+    "Teralta",
     "Together AI",
     "Valar Atomics",
-    "Waymo"
+    "Waymo",
+    "Wayve",
+    "ideaForge"
   ],
   "changesProposed": [
     {
@@ -48,19 +54,19 @@
         "founder": "Bernt \u00d8ivind B\u00f8rnich",
         "location": "Palo Alto, CA",
         "founded": 2014,
-        "fundingStage": "Series B",
+        "fundingStage": "Pre-Seed",
         "totalRaised": "$1.1B",
         "website": "https://1xtechnologies.com"
       },
       "verified": {
         "name": "1X Technologies",
-        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home environments. The company develops bipedal robots including the NEO model designed for private home use.",
+        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home environments. The company manufactures bipedal robots including the EVE model for industrial use and the NEO model for private homes.",
         "founders": [
           "Bernt \u00d8ivind B\u00f8rnich"
         ],
         "location": "Palo Alto, California, USA",
         "founded_year": 2014,
-        "current_stage": "Series B",
+        "current_stage": "Pre-IPO",
         "total_raised": "$123.5M",
         "valuation": null,
         "investors": [
@@ -103,13 +109,21 @@
             2
           ]
         },
-        "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded to 1X Technologies in 2022. Series A2 funding of $23.5M in March 2023 led by OpenAI Startup Fund. Series B funding of $100M in January 2024 led by EQT Ventures. Total raised calculation: $23.5M + $100M = $123.5M. Wikipedia indicates main manufacturing in Hayward, California with additional operations in Moss, Norway. NEO pre-orders opened October 28, 2025 at $20,000 price point. Note: Source [0] and [1] appear to be for a different company (1X Technologies LLC, a wire and cable distributor in Sheridan, Wyoming founded in 2015) and are not relevant to the robotics company."
+        "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Wikipedia states Series A2 funding of $23.5M in March 2023 and Series B funding of $100M in January 2024, totaling $123.5M verified. Wikipedia also reports the company was seeking $1B in new funding as of September 2025, but this is not confirmed as raised. Sources 0 and 1 appear to be for a different company (1X Technologies LLC, an electrical wire and cable distributor in Wyoming, founded 2015) and are not relevant to the robotics company."
       },
       "changes": [
         {
           "field": "location",
           "current": "Palo Alto, CA",
           "verified": "Palo Alto, California, USA",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Pre-Seed",
+          "verified": "Pre-IPO",
           "sources": [
             2
           ]
@@ -150,7 +164,7 @@
           "url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/"
         }
       ],
-      "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded to 1X Technologies in 2022. Series A2 funding of $23.5M in March 2023 led by OpenAI Startup Fund. Series B funding of $100M in January 2024 led by EQT Ventures. Total raised calculation: $23.5M + $100M = $123.5M. Wikipedia indicates main manufacturing in Hayward, California with additional operations in Moss, Norway. NEO pre-orders opened October 28, 2025 at $20,000 price point. Note: Source [0] and [1] appear to be for a different company (1X Technologies LLC, a wire and cable distributor in Sheridan, Wyoming founded in 2015) and are not relevant to the robotics company."
+      "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Wikipedia states Series A2 funding of $23.5M in March 2023 and Series B funding of $100M in January 2024, totaling $123.5M verified. Wikipedia also reports the company was seeking $1B in new funding as of September 2025, but this is not confirmed as raised. Sources 0 and 1 appear to be for a different company (1X Technologies LLC, an electrical wire and cable distributor in Wyoming, founded 2015) and are not relevant to the robotics company."
     },
     {
       "name": "Agility Robotics",
@@ -165,7 +179,7 @@
       },
       "verified": {
         "name": "Agility Robotics",
-        "description": "American humanoid robotics company that develops and deploys Digit, a bipedal humanoid robot for warehouse and logistics automation. Digit is the first humanoid robot commercially deployed in real warehouse operations.",
+        "description": "A humanoid robotics company that develops and commercially deploys Digit, a bipedal humanoid robot for warehouse and logistics automation. Digit is the first humanoid robot deployed in real commercial operations with customers including Amazon, GXO Logistics, Toyota, and Mercado Libre.",
         "founders": [
           "Jonathan Hurst",
           "Damion Shelton",
@@ -193,6 +207,7 @@
             2
           ],
           "location": [
+            1,
             2
           ],
           "founded_year": [
@@ -207,7 +222,7 @@
             2
           ]
         },
-        "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Company rebranded as 'Agility' on March 5, 2026 (per source 2). Database entry lists multiple investors and $400M+ raised, but these specific figures could not be verified in provided sources."
+        "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026). On March 5, 2026, the company announced a rebrand as 'Agility' per Wikipedia source [2], though official sources still use 'Agility Robotics' as of July 2026. Database entry lists Series E stage and $400M+ raised, but these specific figures could not be verified from provided sources."
       },
       "changes": [
         {
@@ -246,7 +261,86 @@
           "url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/"
         }
       ],
-      "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Company rebranded as 'Agility' on March 5, 2026 (per source 2). Database entry lists multiple investors and $400M+ raised, but these specific figures could not be verified in provided sources."
+      "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026). On March 5, 2026, the company announced a rebrand as 'Agility' per Wikipedia source [2], though official sources still use 'Agility Robotics' as of July 2026. Database entry lists Series E stage and $400M+ raised, but these specific figures could not be verified from provided sources."
+    },
+    {
+      "name": "Carbon Robotics",
+      "current": {
+        "name": "Carbon Robotics",
+        "founder": "Paul Mikesell",
+        "location": "Seattle, WA",
+        "founded": 2018,
+        "fundingStage": "Series C",
+        "totalRaised": "$177M",
+        "website": "https://carbonrobotics.com"
+      },
+      "verified": {
+        "name": "Carbon Robotics",
+        "description": "AI-powered company developing LaserWeeder G2 for weed control using lasers and computer vision, and Carbon Autonomy for tractor automation in agriculture.",
+        "founders": [
+          "Paul Mikesell"
+        ],
+        "location": "Seattle, Washington",
+        "founded_year": 2018,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://carbonrobotics.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Source [1] confirms founded 2018 and headquarters in Seattle, Washington. Source [1] states 'over $100M in annual revenue' but this is revenue, not funding raised. Series C stage and $177M total raised from database entry could not be verified in provided sources. Investor list from database could not be verified in provided sources."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Seattle, WA",
+          "verified": "Seattle, Washington",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://carbonrobotics.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://carbonrobotics.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/"
+        }
+      ],
+      "notes": "Source [1] confirms founded 2018 and headquarters in Seattle, Washington. Source [1] states 'over $100M in annual revenue' but this is revenue, not funding raised. Series C stage and $177M total raised from database entry could not be verified in provided sources. Investor list from database could not be verified in provided sources."
     },
     {
       "name": "Nano Nuclear Energy",
@@ -261,7 +355,7 @@
       },
       "verified": {
         "name": "NANO Nuclear Energy Inc.",
-        "description": "An advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, with subsidiaries focused on nuclear fuel fabrication, transportation, and space applications.",
+        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, with subsidiaries focused on nuclear fuel fabrication, transportation, and space applications.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -285,9 +379,12 @@
           "current_stage": [
             0,
             1
+          ],
+          "website": [
+            0
           ]
         },
-        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from company website only. Source [2] appears to be about a different company (Valar Atomics) and contains no information about NANO Nuclear Energy. Database entry claims about founder 'Jay Jiang Yu', founding year 2022, total raised $600M+, valuation $808M, and acquisition of ODIN to Cambridge AtomWorks could not be verified from provided sources."
+        "notes": "Company is listed on NASDAQ under ticker NNE. Sources describe it as 'the first nuclear microreactor company to be listed publicly in the U.S.' Database entry references ODIN sale to Cambridge AtomWorks and market cap of ~$1.2B (June 2026), but these claims cannot be verified from provided sources. Founder name 'Jay Jiang Yu' from database entry not found in sources. Founded year 2022 and fundraising amounts from database entry cannot be verified from provided sources."
       },
       "changes": [
         {
@@ -317,86 +414,7 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from company website only. Source [2] appears to be about a different company (Valar Atomics) and contains no information about NANO Nuclear Energy. Database entry claims about founder 'Jay Jiang Yu', founding year 2022, total raised $600M+, valuation $808M, and acquisition of ODIN to Cambridge AtomWorks could not be verified from provided sources."
-    },
-    {
-      "name": "Proteus Space",
-      "current": {
-        "name": "Proteus Space",
-        "founder": "David Kervin (CEO, 20+ yrs govt contract bid/win/execution, US military vet), Andrew Shapiro (CTO, 20 yrs at NASA JPL as Manager of Technology Formulation; 3D-printed first parts for Mars Perseverance Rover)",
-        "location": "Los Angeles, CA",
-        "founded": 2021,
-        "fundingStage": "Series A",
-        "totalRaised": "$14.4M",
-        "website": "https://proteus-space.com"
-      },
-      "verified": {
-        "name": "Proteus Space",
-        "description": "Designs custom satellite buses and provides end-to-end spacecraft solutions using an AI-enabled computational platform that generates payload-tailored architectures. Operates with full lifecycle capabilities including design, assembly, integration, testing, launch brokering, and operations.",
-        "founders": [
-          "David Kervin",
-          "Andrew Shapiro"
-        ],
-        "location": "Los Angeles, CA",
-        "founded_year": 2021,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://proteus-space.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry references founders with detailed backgrounds (David Kervin as CEO with 20+ years government contract experience and military veteran status; Andrew Shapiro as CTO with 20 years at NASA JPL and involvement in Mars Perseverance Rover), but these details are not present in provided sources. Stage (Series A), total_raised ($14.4M), investors list, and valuation from database entry cannot be verified from sources provided. Source [2] is dated September 8th, 2026, which is a future date\u2014likely a data error or placeholder."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "David Kervin (CEO, 20+ yrs govt contract bid/win/execution, US military vet), Andrew Shapiro (CTO, 20 yrs at NASA JPL as Manager of Technology Formulation; 3D-printed first parts for Mars Perseverance Rover)",
-          "verified": "David Kervin, Andrew Shapiro",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://proteus-space.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://proteus-space.com/about-us"
-        },
-        {
-          "idx": 2,
-          "src": "news (SpaceNews)",
-          "url": "https://spacenews.com/draper-selects-proteus-space-for-advanced-on-orbit-mission/"
-        }
-      ],
-      "notes": "Database entry references founders with detailed backgrounds (David Kervin as CEO with 20+ years government contract experience and military veteran status; Andrew Shapiro as CTO with 20 years at NASA JPL and involvement in Mars Perseverance Rover), but these details are not present in provided sources. Stage (Series A), total_raised ($14.4M), investors list, and valuation from database entry cannot be verified from sources provided. Source [2] is dated September 8th, 2026, which is a future date\u2014likely a data error or placeholder."
+      "notes": "Company is listed on NASDAQ under ticker NNE. Sources describe it as 'the first nuclear microreactor company to be listed publicly in the U.S.' Database entry references ODIN sale to Cambridge AtomWorks and market cap of ~$1.2B (June 2026), but these claims cannot be verified from provided sources. Founder name 'Jay Jiang Yu' from database entry not found in sources. Founded year 2022 and fundraising amounts from database entry cannot be verified from provided sources."
     },
     {
       "name": "Q-CTRL",
@@ -411,12 +429,12 @@
       },
       "verified": {
         "name": "Q-CTRL",
-        "description": "Develops AI-powered infrastructure software for quantum computing and quantum sensing that improves performance and reduces errors. Products include Fire Opal, Boulder Opal, and Black Opal for enterprise, government, and educational customers.",
+        "description": "Develops AI-powered infrastructure software for quantum computing and quantum sensing that improves performance by reducing hardware error and instability. Products include Fire Opal for error reduction on quantum computers and solutions for GPS-free quantum navigation.",
         "founders": [
           "Michael J. Biercuk"
         ],
         "location": "Sydney, Australia",
-        "founded_year": null,
+        "founded_year": 2017,
         "current_stage": null,
         "total_raised": null,
         "valuation": null,
@@ -434,11 +452,12 @@
             1
           ],
           "location": null,
+          "founded_year": null,
           "website": [
             0
           ]
         },
-        "notes": "Founded year (2017) and location (Sydney, Australia) from database entry cannot be verified from provided sources. Source [2] is about Einride founders and is not relevant to Q-CTRL. Board of directors and advisory board members listed in source [1] but not classified as founders. No funding stage or total raised information found in provided sources."
+        "notes": "Location (Sydney, Australia) and founded year (2017) are from database reference but NOT verified in provided sources. Current stage, total_raised, valuation, and investors cannot be verified from provided sources. Source [2] is about Einride and does not contain Q-CTRL information."
       },
       "changes": [
         {
@@ -467,7 +486,7 @@
           "url": "https://tech.eu/2026/08/26/einride-founders-launch-venture-firm-targeting-450m-european-deep-tech-investments/"
         }
       ],
-      "notes": "Founded year (2017) and location (Sydney, Australia) from database entry cannot be verified from provided sources. Source [2] is about Einride founders and is not relevant to Q-CTRL. Board of directors and advisory board members listed in source [1] but not classified as founders. No funding stage or total raised information found in provided sources."
+      "notes": "Location (Sydney, Australia) and founded year (2017) are from database reference but NOT verified in provided sources. Current stage, total_raised, valuation, and investors cannot be verified from provided sources. Source [2] is about Einride and does not contain Q-CTRL information."
     },
     {
       "name": "SpaceX",
@@ -482,7 +501,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered at Starbase in Texas. The company operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial Intelligence (Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial Intelligence (Grok and data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -524,7 +543,7 @@
             0
           ]
         },
-        "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion. Source 0 lists Elon Musk with 42% equity and 82% voting control (article text shows 85% voting power via super-voting stock in one section, 82% in infobox). Alphabet Inc. listed as 4.19% equity holder. Database entry valuation of $1.65T and claim of 'preparing for IPO' are inconsistent with verified source stating IPO already occurred in June 2026."
+        "notes": "Wikipedia source indicates SpaceX completed initial public offering on June 12, 2026, raising $86 billion, which was the largest IPO in history. The current database entry lists 'IPO' as stage and valuation of $1.65T, but no source provided supports the $1.65T valuation figure or confirms 'Preparing for IPO' status. Per sources, IPO has already occurred. Valuation field set to null as no specific valuation is cited in sources."
       },
       "changes": [
         {
@@ -544,21 +563,21 @@
         },
         {
           "idx": 1,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/08/spacex-has-17-starship-launch-pads-under-development.html"
+          "src": "news (NASA Breaking News)",
+          "url": "https://www.nasa.gov/image-article/roman-space-telescope-travels-to-spacex-hangar/"
         },
         {
           "idx": 2,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/08/semianalysis-deep-dive.html"
+          "url": "https://www.nextbigfuture.com/2026/08/spacex-has-17-starship-launch-pads-under-development.html"
         },
         {
           "idx": 3,
-          "src": "news (Ars Technica Space)",
-          "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/08/semianalysis-deep-dive.html"
         }
       ],
-      "notes": "Wikipedia source indicates IPO occurred on June 12, 2026, raising $86 billion. Source 0 lists Elon Musk with 42% equity and 82% voting control (article text shows 85% voting power via super-voting stock in one section, 82% in infobox). Alphabet Inc. listed as 4.19% equity holder. Database entry valuation of $1.65T and claim of 'preparing for IPO' are inconsistent with verified source stating IPO already occurred in June 2026."
+      "notes": "Wikipedia source indicates SpaceX completed initial public offering on June 12, 2026, raising $86 billion, which was the largest IPO in history. The current database entry lists 'IPO' as stage and valuation of $1.65T, but no source provided supports the $1.65T valuation figure or confirms 'Preparing for IPO' status. Per sources, IPO has already occurred. Valuation field set to null as no specific valuation is cited in sources."
     },
     {
       "name": "Starcloud",
@@ -573,7 +592,7 @@
       },
       "verified": {
         "name": "Starcloud",
-        "description": "A United States-based company that designs, builds, and deploys data centers in space using proprietary technology. The company launched its first test satellite, Starcloud-1, equipped with an Nvidia H100 GPU in November 2025.",
+        "description": "A United States-based company that designs, builds, and deploys data centers in space using proprietary technology. The company launched Starcloud-1 in November 2025 equipped with an Nvidia H100 GPU.",
         "founders": [
           "Philip Johnston",
           "Ezra Feilden",
@@ -628,7 +647,7 @@
             2
           ]
         },
-        "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California and rebranded to Starcloud in March 2025 after a legal challenge from Lumen Technologies. Series A was announced on March 30, 2026, making it the fastest Y Combinator company to reach unicorn status (17 months after completing the program)."
+        "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, then rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Wikipedia source indicates Series A was announced on March 30, 2026, led by Benchmark and EQT Ventures. Became fastest unicorn in Y Combinator history at 17 months post-program completion."
       },
       "changes": [
         {
@@ -662,85 +681,7 @@
           "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
         }
       ],
-      "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California and rebranded to Starcloud in March 2025 after a legal challenge from Lumen Technologies. Series A was announced on March 30, 2026, making it the fastest Y Combinator company to reach unicorn status (17 months after completing the program)."
-    },
-    {
-      "name": "Teralta",
-      "current": {
-        "name": "Teralta",
-        "founder": "Simon Pickup",
-        "location": "Burnaby, Canada",
-        "founded": 2021,
-        "fundingStage": "Undisclosed",
-        "totalRaised": "$15.8M",
-        "website": "https://teralta.com"
-      },
-      "verified": {
-        "name": "Teralta",
-        "description": "Teralta produces synthetic natural gas (e-NG) from by-product hydrogen and recycled CO2, reducing carbon intensity by up to 95% versus fossil natural gas. The company develops and operates e-NG projects within North America.",
-        "founders": [
-          "Simon Pickup"
-        ],
-        "location": "Burnaby, BC, Canada",
-        "founded_year": 2021,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://teralta.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Source [2] is about Motion (a robotics company) and is not relevant to Teralta. Only sources [0] and [1] contain verified information about Teralta. No co-founders beyond Simon Pickup are explicitly named as founders. Total raised ($15.8M) and valuation from database entry cannot be verified from provided sources. Current stage not disclosed in sources."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Burnaby, Canada",
-          "verified": "Burnaby, BC, Canada",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://teralta.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://teralta.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/08/27/motion-lands-2m-to-expand-humanoid-robot-deployments-across-europe/"
-        }
-      ],
-      "notes": "Source [2] is about Motion (a robotics company) and is not relevant to Teralta. Only sources [0] and [1] contain verified information about Teralta. No co-founders beyond Simon Pickup are explicitly named as founders. Total raised ($15.8M) and valuation from database entry cannot be verified from provided sources. Current stage not disclosed in sources."
+      "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California, then rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Wikipedia source indicates Series A was announced on March 30, 2026, led by Benchmark and EQT Ventures. Became fastest unicorn in Y Combinator history at 17 months post-program completion."
     }
   ],
   "unverifiable": []
