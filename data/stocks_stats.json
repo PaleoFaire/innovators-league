@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 6.88,
+      "avg_change": 3.53,
       "count": 1
     },
     "space": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -5.24,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -11.44,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -2.7,
+      "avg_change": -4.9,
       "count": 7
     },
     "nuclear": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 5.01,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -3.49,
       "count": 3
     },
     "climate": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 2.41,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -3.05,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -0.07,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -14.08,
       "count": 3
     },
     "biotech": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 4.57,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -4.29,
       "count": 3
     },
     "transportation": {
-      "gainers": 2,
-      "losers": 0,
-      "avg_change": 3.86,
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -4.59,
       "count": 2
     },
     "chips": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 3.78,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 0.43,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "SMR",
-      "NuScale Power",
-      7.39
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      3.59
     ],
     [
       "PLTR",
       "Palantir",
-      6.88
+      3.53
     ],
     [
-      "TEM",
-      "Tempus AI",
-      6.06
+      "9348.T",
+      "ispace",
+      1.65
     ],
     [
-      "NNE",
-      "Nano Nuclear Energy",
-      5.54
+      "ALAB",
+      "Astera Labs",
+      1.58
     ],
     [
-      "NVDA",
-      "NVIDIA",
-      5.13
+      "IDEAFORGE.NS",
+      "ideaForge",
+      1.41
     ]
   ],
   "topLosers": [
     [
-      "JOBY",
-      "Joby Aviation",
-      -5.67
+      "ASRHF",
+      "Astroscale",
+      -13.38
     ],
     [
-      "AUR",
-      "Aurora Innovation",
-      -7.03
+      "SATL",
+      "Satellogic",
+      -15.21
     ],
     [
-      "RKLB",
-      "Rocket Lab",
-      -7.43
+      "ASTS",
+      "AST SpaceMobile",
+      -15.44
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -9.76
+      -16.1
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      -11.23
+      "QBTS",
+      "D-Wave Quantum",
+      -16.67
     ]
   ],
-  "lastUpdated": "2026-08-28 12:50:02"
+  "lastUpdated": "2026-08-28 23:05:19"
 }
