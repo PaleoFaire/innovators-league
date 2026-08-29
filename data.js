@@ -51423,27 +51423,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-29 08:56
-// Auto-generated real-time signals
-// Last updated: 2026-08-29
-// Auto-generated real-time signals
-// Last updated: 2026-08-29
+// Last updated: 2026-08-29 14:23
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "An Anthropic researcher just gave us a peek at self-improving AI", source: "TechCrunch", time: "16h ago", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Einride", headline: "NVIDIA to buy Hugging Face, Einride launches VC firm, and fixing COPD diagnosis", source: "Tech.eu", time: "22h ago", impact: "medium", unread: true },
-  { id: 3, type: "hire", company: "PsiQuantum", headline: "PsiQuantum’s Ice Cream Factory", source: "Inside Quantum Technology", time: "23h ago", impact: "low", unread: true },
-  { id: 4, type: "contract", company: "Anthropic", headline: "Anthropic gets its first court win over the Pentagon’s supply-chain risk label", source: "TechCrunch", time: "23h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "Anthropic", headline: "An Anthropic researcher just gave us a peek at self-improving AI", source: "TechCrunch", time: "18h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Einride", headline: "NVIDIA to buy Hugging Face, Einride launches VC firm, and fixing COPD diagnosis", source: "Tech.eu", time: "1d ago", impact: "medium", unread: true },
+  { id: 3, type: "hire", company: "PsiQuantum", headline: "PsiQuantum's Ice Cream Factory", source: "Inside Quantum Technology", time: "1d ago", impact: "low", unread: true },
+  { id: 4, type: "contract", company: "Anthropic", headline: "Anthropic gets its first court win over the Pentagon's supply-chain risk label", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "news", company: "OpenAI", headline: "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "ipo", company: "SpaceX", headline: "Elon Projects SpaceX $3.5 Trillion Revenue in 2033", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "contract", company: "Anthropic", headline: "A Judge Has Blocked the Pentagon’s Attempt to Blacklist Anthropic", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "Anthropic", headline: "A Judge Has Blocked the Pentagon's Attempt to Blacklist Anthropic", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 8, type: "contract", company: "OpenAI", headline: "Georgia PSC Approves Secret OpenAI Contract", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
   { id: 9, type: "milestone", company: "Anthropic", headline: "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "news", company: "Anthropic", headline: "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI Is Developing a ‘Persistent’ AI Agent", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Waymo", headline: "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s a &#8216;false summit&#8217;", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "hire", company: "Carbon Robotics", headline: "Carbon Robotics partners with iMerit to power instant in-field AI customization", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "OpenAI", headline: "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face", source: "Ars Technica", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "OpenAI", headline: "The Download: inside OpenAI&#8217;s Hugging Face hack, and a new EV takes on the US", source: "MIT Tech Review", time: "2d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI Is Developing a 'Persistent' AI Agent", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Waymo", headline: "Waymo takes a shot at Tesla's self-driving: it's a 'false summit'", source: "Electrek", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "hire", company: "Carbon Robotics", headline: "Carbon Robotics partners with iMerit to power instant in-field AI customization", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "milestone", company: "OpenAI", headline: "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face", source: "Ars Technica", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "OpenAI", headline: "The Download: inside OpenAI's Hugging Face hack, and a new EV takes on the US", source: "MIT Tech Review", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

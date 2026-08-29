@@ -1,6 +1,54 @@
 {
-  "generatedAt": "2026-08-29T08:57:35+00:00",
+  "generatedAt": "2026-08-29T14:23:46+00:00",
   "matrix": {
+    "defense-munitions-energetics": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 647000679,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Castelion",
+            "amount": 647000679,
+            "date": "2026-08-28",
+            "source": "formd",
+            "investors": [
+              "Lightspeed Venture Partners",
+              "a16z",
+              "Lavrock Ventures",
+              "Cantos",
+              "First In",
+              "BlueYard Capital",
+              "Interlagos",
+              "Silicon Valley Bank"
+            ]
+          }
+        ],
+        "investors": [
+          "Lightspeed Venture Partners"
+        ]
+      },
+      "2025-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Allen Control Systems",
+            "amount": null,
+            "date": "2025-03",
+            "source": "recentEvent",
+            "investors": [
+              "Craft Ventures",
+              "Inspired Capital",
+              "Rally Ventures",
+              "State of Wisconsin Investment Board"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
     "construction-3d-printing": {
       "2026-Q3": {
         "deals": 1,
@@ -193,86 +241,6 @@
         "investors": [
           "8VC"
         ]
-      }
-    },
-    "nuclear-microreactor": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 59999682,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Antares",
-            "amount": 59999682,
-            "date": "2026-08-18",
-            "source": "formd",
-            "investors": [
-              "Shine Capital",
-              "Alt Capital",
-              "Caffeinated Capital",
-              "FiftyThree Stations",
-              "Industrious"
-            ]
-          }
-        ],
-        "investors": []
-      },
-      "2025-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Radiant",
-            "amount": null,
-            "date": "2025-06",
-            "source": "recentEvent",
-            "investors": [
-              "Draper Associates",
-              "Boost VC",
-              "DCVC",
-              "Founders Fund",
-              "Chevron Technology Ventures",
-              "ARK Venture Fund",
-              "Friends & Family Capital",
-              "Andreessen Horowitz",
-              "Union Square Ventures",
-              "Giant Ventures",
-              "StepStone"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund"
-        ]
-      }
-    },
-    "satellite-earth-observation": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 72999975,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Pixxel",
-            "amount": 72999975,
-            "date": "2026-08-18",
-            "source": "formd",
-            "investors": [
-              "Lightspeed India Partners",
-              "Blume Ventures",
-              "GrowX Ventures",
-              "Techstars",
-              "Omnivore VC",
-              "Radical Ventures",
-              "Seraphim Space Investment",
-              "Sparta LLC",
-              "Accenture",
-              "M&G Catalyst"
-            ]
-          }
-        ],
-        "investors": []
       }
     },
     "autonomy-drone-military": {
@@ -493,26 +461,35 @@
         ]
       }
     },
-    "defense-munitions-energetics": {
-      "2025-Q1": {
+    "nuclear-microreactor": {
+      "2025-Q2": {
         "deals": 1,
         "totalSold": null,
         "companiesWithUnknownAmount": 1,
         "companies": [
           {
-            "name": "Allen Control Systems",
+            "name": "Radiant",
             "amount": null,
-            "date": "2025-03",
+            "date": "2025-06",
             "source": "recentEvent",
             "investors": [
-              "Craft Ventures",
-              "Inspired Capital",
-              "Rally Ventures",
-              "State of Wisconsin Investment Board"
+              "Draper Associates",
+              "Boost VC",
+              "DCVC",
+              "Founders Fund",
+              "Chevron Technology Ventures",
+              "ARK Venture Fund",
+              "Friends & Family Capital",
+              "Andreessen Horowitz",
+              "Union Square Ventures",
+              "Giant Ventures",
+              "StepStone"
             ]
           }
         ],
-        "investors": []
+        "investors": [
+          "Founders Fund"
+        ]
       }
     },
     "nuclear-services-fuel": {
@@ -1484,6 +1461,38 @@
     }
   },
   "vcAttribution": {
+    "Lightspeed Venture Partners": {
+      "2026-Q3": [
+        {
+          "company": "Castelion",
+          "cluster": "defense-munitions-energetics",
+          "date": "2026-08-28",
+          "source": "formd"
+        },
+        {
+          "company": "RobCo",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Skild AI",
+          "cluster": "ai-robotics-embodied",
+          "date": "2026-01",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Founders Fund": {
       "2026-Q3": [
         {
@@ -1942,32 +1951,6 @@
         }
       ]
     },
-    "Lightspeed Venture Partners": {
-      "2025-Q2": [
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Skild AI",
-          "cluster": "ai-robotics-embodied",
-          "date": "2026-01",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q3": [
-        {
-          "company": "RobCo",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Eclipse Ventures": {
       "2026-Q1": [
         {
@@ -1980,9 +1963,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 60,
-    "totalUSDSold": 346576761,
-    "uniqueClusters": 37,
+    "totalDealsTracked": 59,
+    "totalUSDSold": 860577783,
+    "uniqueClusters": 36,
     "uniqueQuarters": 9,
     "uniqueVCs": 15,
     "quarterRange": [
