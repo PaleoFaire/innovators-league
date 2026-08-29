@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-28T18:32:25.833368+00:00",
-  "date": "2026-08-28",
-  "dateDisplay": "Friday, August 28, 2026",
+  "generatedAt": "2026-08-29T02:03:56.708224+00:00",
+  "date": "2026-08-29",
+  "dateDisplay": "Saturday, August 29, 2026",
   "sections": {
     "govActivity": [
       {
@@ -43,60 +43,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 6.88,
-        "changePercent": -11.23,
-        "change": -0.87
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 16.99,
+        "changePercent": -16.67,
+        "change": -3.4
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 16.18,
-        "changePercent": -9.76,
-        "change": -1.75
+        "price": 15.37,
+        "changePercent": -16.1,
+        "change": -2.95
       },
       {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 67.53,
-        "changePercent": -7.43,
-        "change": -5.42
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 58.05,
+        "changePercent": -15.44,
+        "change": -10.6
       },
       {
-        "ticker": "SMR",
-        "company": "NuScale Power",
-        "price": 9.74,
-        "changePercent": 7.39,
-        "change": 0.67
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 4.85,
+        "changePercent": -15.21,
+        "change": -0.87
       },
       {
-        "ticker": "AUR",
-        "company": "Aurora Innovation",
-        "price": 5.69,
-        "changePercent": -7.03,
-        "change": -0.43
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 6.88,
+        "changePercent": -13.38,
+        "change": -1.06
       },
       {
-        "ticker": "PLTR",
-        "company": "Palantir",
-        "price": 185.93,
-        "changePercent": 6.88,
-        "change": 11.97
+        "ticker": "RGTI",
+        "company": "Rigetti Computing",
+        "price": 15.59,
+        "changePercent": -12.95,
+        "change": -2.32
+      },
+      {
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 39.2,
+        "changePercent": -12.62,
+        "change": -5.66
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 70.69,
-        "changePercent": 6.06,
-        "change": 4.04
-      },
-      {
-        "ticker": "JOBY",
-        "company": "Joby Aviation",
-        "price": 7.15,
-        "changePercent": -5.67,
-        "change": -0.43
+        "price": 64.04,
+        "changePercent": -11.9,
+        "change": -8.65
       }
     ],
     "regulatory": [
@@ -124,23 +124,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "NextEra Energy, Inc.; Dominion Energy, Inc.; Virginia Electric and Power Company",
-        "date": "2026-08-27",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17529"
+        "title": "International Traffic in Arms Regulations: Modification of Civil Aircraft To Inc",
+        "date": "2026-08-28",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17660"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "List of Approved Spent Fuel Storage Casks: TN Americas, LLC Standardized NUHOMS\u00ae",
-        "date": "2026-08-26",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17446"
+        "title": "Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammal",
+        "date": "2026-08-28",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17614"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "List of Approved Spent Fuel Storage Casks: TN Americas, LLC Standardized NUHOMS\u00ae",
-        "date": "2026-08-26",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17445"
+        "title": "International Traffic in Arms Regulations: Extension of Temporary Modification o",
+        "date": "2026-08-28",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17576"
       }
     ],
     "patents": [
@@ -187,6 +187,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ASRHF -11.2%"
+    "topMover": "QBTS -16.7%"
   }
 }

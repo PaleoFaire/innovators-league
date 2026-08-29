@@ -1,5 +1,24 @@
 [
   {
+    "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+    "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+    "description": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+    "pubDate": "Fri, 28 Aug 2026 19:30:38 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "6h ago"
+  },
+  {
     "title": "NVIDIA to buy Hugging Face, Einride launches VC firm, and fixing COPD diagnosis",
     "link": "https://tech.eu/2026/08/28/nvidia-to-buy-hugging-face-einride-launches-vc-firm-and-fixing-copd-diagnosis/",
     "description": "This week, we tracked more than 35 tech funding deals worth over €475 million and over 5 exits, M&amp;A transactions, rumours, and related news stories across Europe.If email is more your thing, you c...",
@@ -18,7 +37,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "4h ago"
+    "time": "11h ago"
   },
   {
     "title": "PsiQuantum’s Ice Cream Factory",
@@ -43,7 +62,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "5h ago"
+    "time": "13h ago"
   },
   {
     "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
@@ -62,7 +81,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "5h ago"
+    "time": "13h ago"
   },
   {
     "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
@@ -81,7 +100,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
+    "time": "13h ago"
   },
   {
     "title": "Elon Projects SpaceX $3.5 Trillion Revenue in 2033",
@@ -100,7 +119,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "12h ago"
+    "time": "20h ago"
   },
   {
     "title": "A Judge Has Blocked the Pentagon’s Attempt to Blacklist Anthropic",
@@ -124,7 +143,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "15h ago"
+    "time": "22h ago"
   },
   {
     "title": "Georgia PSC Approves Secret OpenAI Contract",
@@ -146,7 +165,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "17h ago"
+    "time": "1d ago"
   },
   {
     "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
@@ -166,27 +185,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "19h ago"
-  },
-  {
-    "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
-    "link": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
-    "description": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
-    "pubDate": "Thu, 27 Aug 2026 19:52:52 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "Thinking Machines Lab"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "hire",
-    "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World",
@@ -208,30 +207,7 @@
     "time": "1d ago"
   },
   {
-    "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
-    "link": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
-    "description": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
-    "pubDate": "Thu, 27 Aug 2026 17:43:24 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "Galvanick",
-      "OpenAI",
-      "Together AI"
-    ],
-    "sectors": [
-      "ai",
-      "defense"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "OpenAI Is Developing a ‘Persistent�� AI Agent",
+    "title": "OpenAI Is Developing a ‘Persistent’ AI Agent",
     "link": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent/",
     "description": "Code reviewed by WIRED reveals the company is developing a feature that enables Codex to continue working proactively until it is “put to sleep.”",
     "pubDate": "Thu, 27 Aug 2026 16:52:42 +0000",
@@ -398,26 +374,6 @@
     "time": "1d ago"
   },
   {
-    "title": "What We Still Don’t Know About OpenAI’s Hugging Face Hack",
-    "link": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
-    "description": "The AI giant acknowledges that it could have done far more to prevent its AI agents from going rogue. But it still fails to explain why it didn't see this fiasco coming.",
-    "pubDate": "Wed, 26 Aug 2026 19:16:42 +0000",
-    "category": "Business",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "Hugging Face"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
     "title": "The inside story on why OpenAI agents hacked Hugging Face",
     "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
     "description": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were",
@@ -437,7 +393,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Bedrock Robotics&#8217; first operator-free excavator deployments take off",
@@ -496,7 +452,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "OpenAI Jalapeño Inference Chip just announced at Hot Chips",
@@ -515,7 +471,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Hydrogen Is Still A Tonnes Market, No Matter How Many MWh We Assign To It",
@@ -578,33 +534,6 @@
     "time": "3d ago"
   },
   {
-    "title": "Semianalysis Deep Dive on the SpaceX 10 GW 2027 AI Data Center Build",
-    "link": "https://www.nextbigfuture.com/2026/08/semianalysis-deep-dive.html",
-    "description": "SemiAnalysis talk about SpaceX’s 10 GW AI compute ambitions. SpaceX can fund the build, they have the power for it, they have the sites and they will get the chips. The Frontier labs [Anthropic, OpenAI and Microsoft] can generate ~$100 million of revenue per megawatt per year today on API inference ",
-    "pubDate": "Tue, 25 Aug 2026 01:46:43 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Anthropic",
-      "OpenAI",
-      "Astera Labs",
-      "Rebellions",
-      "Photonic Inc"
-    ],
-    "sectors": [
-      "space",
-      "ai",
-      "chips",
-      "quantum"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
     "title": "XPeng Motors humanoid robot unit Dogotix raises $900M",
     "link": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
     "description": "Dogotix, the humanoid unit of XPeng Motors, has attained a valuation of $6.3 billion as it plans to produce robots at scale.\nThe post XPeng Motors humanoid robot unit Dogotix raises $900M appeared first on The Robot Report.",
@@ -624,7 +553,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",

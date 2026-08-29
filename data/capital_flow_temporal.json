@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T18:33:06+00:00",
+  "generatedAt": "2026-08-29T02:04:58+00:00",
   "matrix": {
     "construction-3d-printing": {
       "2026-Q3": {
@@ -169,6 +169,110 @@
           "Lux Capital",
           "Sequoia Capital"
         ]
+      }
+    },
+    "evtol-air-taxi": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Joby Aviation",
+            "amount": 0,
+            "date": "2026-08-19",
+            "source": "formd",
+            "investors": [
+              "Toyota Motor Corporation",
+              "Toyota AI Ventures",
+              "Uber",
+              "8VC"
+            ]
+          }
+        ],
+        "investors": [
+          "8VC"
+        ]
+      }
+    },
+    "nuclear-microreactor": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 59999682,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Antares",
+            "amount": 59999682,
+            "date": "2026-08-18",
+            "source": "formd",
+            "investors": [
+              "Shine Capital",
+              "Alt Capital",
+              "Caffeinated Capital",
+              "FiftyThree Stations",
+              "Industrious"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2025-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Radiant",
+            "amount": null,
+            "date": "2025-06",
+            "source": "recentEvent",
+            "investors": [
+              "Draper Associates",
+              "Boost VC",
+              "DCVC",
+              "Founders Fund",
+              "Chevron Technology Ventures",
+              "ARK Venture Fund",
+              "Friends & Family Capital",
+              "Andreessen Horowitz",
+              "Union Square Ventures",
+              "Giant Ventures",
+              "StepStone"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund"
+        ]
+      }
+    },
+    "satellite-earth-observation": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 72999975,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Pixxel",
+            "amount": 72999975,
+            "date": "2026-08-18",
+            "source": "formd",
+            "investors": [
+              "Lightspeed India Partners",
+              "Blume Ventures",
+              "GrowX Ventures",
+              "Techstars",
+              "Omnivore VC",
+              "Radical Ventures",
+              "Seraphim Space Investment",
+              "Sparta LLC",
+              "Accenture",
+              "M&G Catalyst"
+            ]
+          }
+        ],
+        "investors": []
       }
     },
     "autonomy-drone-military": {
@@ -409,37 +513,6 @@
           }
         ],
         "investors": []
-      }
-    },
-    "nuclear-microreactor": {
-      "2025-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Radiant",
-            "amount": null,
-            "date": "2025-06",
-            "source": "recentEvent",
-            "investors": [
-              "Draper Associates",
-              "Boost VC",
-              "DCVC",
-              "Founders Fund",
-              "Chevron Technology Ventures",
-              "ARK Venture Fund",
-              "Friends & Family Capital",
-              "Andreessen Horowitz",
-              "Union Square Ventures",
-              "Giant Ventures",
-              "StepStone"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund"
-        ]
       }
     },
     "nuclear-services-fuel": {
@@ -1477,6 +1550,56 @@
         }
       ]
     },
+    "8VC": {
+      "2026-Q3": [
+        {
+          "company": "Joby Aviation",
+          "cluster": "evtol-air-taxi",
+          "date": "2026-08-19",
+          "source": "formd"
+        },
+        {
+          "company": "Cognition",
+          "cluster": "ai-code-generation",
+          "date": "2026-08",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Starpath Robotics",
+          "cluster": "space-lunar-planetary",
+          "date": "2026-06",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Epirus",
+          "cluster": "autonomy-counter-drone",
+          "date": "2026-01",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Saronic",
+          "cluster": "autonomy-maritime",
+          "date": "2026-03",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Bedrock Robotics",
+          "cluster": "robotics-construction-mining",
+          "date": "2026-02",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "General Catalyst": {
       "2026-Q2": [
         {
@@ -1511,50 +1634,6 @@
           "company": "Applied Intuition",
           "cluster": "ai-autonomous-driving",
           "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "8VC": {
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Starpath Robotics",
-          "cluster": "space-lunar-planetary",
-          "date": "2026-06",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Epirus",
-          "cluster": "autonomy-counter-drone",
-          "date": "2026-01",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Saronic",
-          "cluster": "autonomy-maritime",
-          "date": "2026-03",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Bedrock Robotics",
-          "cluster": "robotics-construction-mining",
-          "date": "2026-02",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q3": [
-        {
-          "company": "Cognition",
-          "cluster": "ai-code-generation",
-          "date": "2026-08",
           "source": "recentEvent"
         }
       ]
@@ -1901,9 +1980,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 57,
-    "totalUSDSold": 213577104,
-    "uniqueClusters": 35,
+    "totalDealsTracked": 60,
+    "totalUSDSold": 346576761,
+    "uniqueClusters": 37,
     "uniqueQuarters": 9,
     "uniqueVCs": 15,
     "quarterRange": [
