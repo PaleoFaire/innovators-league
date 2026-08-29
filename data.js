@@ -51423,9 +51423,9 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-29 18:19
+// Last updated: 2026-08-29 21:39
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "An Anthropic researcher just gave us a peek at self-improving AI", source: "TechCrunch", time: "22h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "Anthropic", headline: "An Anthropic researcher just gave us a peek at self-improving AI", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 2, type: "funding", company: "Einride", headline: "NVIDIA to buy Hugging Face, Einride launches VC firm, and fixing COPD diagnosis", source: "Tech.eu", time: "1d ago", impact: "medium", unread: true },
   { id: 3, type: "hire", company: "PsiQuantum", headline: "PsiQuantum's Ice Cream Factory", source: "Inside Quantum Technology", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "contract", company: "Anthropic", headline: "Anthropic gets its first court win over the Pentagon's supply-chain risk label", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
