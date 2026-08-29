@@ -50,66 +50,7 @@
         "awardAmount": "$62M"
       }
     ],
-    "lastUpdated": "2026-08-28"
-  },
-  {
-    "company": "Palantir",
-    "opportunityCount": 25,
-    "agencies": [
-      "Department of Agriculture",
-      "Department of Defense",
-      "Department of Health and Human Services",
-      "Department of Homeland Security",
-      "Department of State",
-      "Department of Veterans Affairs",
-      "Department of the Treasury",
-      "National Aeronautics and Space Administration",
-      "U.S. International Development Finance Corporation"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039",
-        "agency": "Department of Defense",
-        "postedDate": "2025-10-15",
-        "type": null,
-        "noticeId": "W9128Z26FA001",
-        "awardAmount": "$546M"
-      },
-      {
-        "title": "INVESTIGATIVE CASE MANAGEMENT (ICM) OPERATIONS AND MAINTENANCE (O&M) SUPPORT SERVICES AND CUSTOM ENHANCEMENTS",
-        "agency": "Department of Homeland Security",
-        "postedDate": "2022-09-26",
-        "type": null,
-        "noticeId": "70CTD022FR0000170",
-        "awardAmount": "$151M"
-      },
-      {
-        "title": "ARMY VANTAGE DATA ANALYTICS PLATFORM.",
-        "agency": "Department of Defense",
-        "postedDate": "2025-12-11",
-        "type": null,
-        "noticeId": "W519TC26F0012",
-        "awardAmount": "$145M"
-      },
-      {
-        "title": "FORSCOM TASK ORDER 1",
-        "agency": "Department of Defense",
-        "postedDate": "2025-08-20",
-        "type": null,
-        "noticeId": "W519TC25F0331",
-        "awardAmount": "$115M"
-      },
-      {
-        "title": "DATA PLATFORM",
-        "agency": "Department of Defense",
-        "postedDate": "2025-06-16",
-        "type": null,
-        "noticeId": "FA880625FB009",
-        "awardAmount": "$99M"
-      }
-    ],
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "company": "Skydio",
@@ -162,7 +103,64 @@
         "awardAmount": "$87K"
       }
     ],
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
+  },
+  {
+    "company": "Palantir",
+    "opportunityCount": 22,
+    "agencies": [
+      "Department of Agriculture",
+      "Department of Defense",
+      "Department of Health and Human Services",
+      "Department of Homeland Security",
+      "Department of State",
+      "Department of Veterans Affairs",
+      "U.S. International Development Finance Corporation"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039",
+        "agency": "Department of Defense",
+        "postedDate": "2025-10-15",
+        "type": null,
+        "noticeId": "W9128Z26FA001",
+        "awardAmount": "$546M"
+      },
+      {
+        "title": "INVESTIGATIVE CASE MANAGEMENT (ICM) OPERATIONS AND MAINTENANCE (O&M) SUPPORT SERVICES AND CUSTOM ENHANCEMENTS",
+        "agency": "Department of Homeland Security",
+        "postedDate": "2022-09-26",
+        "type": null,
+        "noticeId": "70CTD022FR0000170",
+        "awardAmount": "$151M"
+      },
+      {
+        "title": "ARMY VANTAGE DATA ANALYTICS PLATFORM.",
+        "agency": "Department of Defense",
+        "postedDate": "2025-12-11",
+        "type": null,
+        "noticeId": "W519TC26F0012",
+        "awardAmount": "$145M"
+      },
+      {
+        "title": "FORSCOM TASK ORDER 1",
+        "agency": "Department of Defense",
+        "postedDate": "2025-08-20",
+        "type": null,
+        "noticeId": "W519TC25F0331",
+        "awardAmount": "$115M"
+      },
+      {
+        "title": "DATA PLATFORM",
+        "agency": "Department of Defense",
+        "postedDate": "2025-06-16",
+        "type": null,
+        "noticeId": "FA880625FB009",
+        "awardAmount": "$99M"
+      }
+    ],
+    "lastUpdated": "2026-08-29"
   },
   {
     "company": "Radiant",
@@ -217,7 +215,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "company": "Shield AI",
@@ -269,7 +267,7 @@
         "awardAmount": "$5M"
       }
     ],
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "company": "Axiom Space",
@@ -320,11 +318,11 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "company": "Sierra Space",
-    "opportunityCount": 5,
+    "opportunityCount": 6,
     "agencies": [
       "Department of Defense",
       "National Aeronautics and Space Administration"
@@ -348,6 +346,14 @@
         "awardAmount": "$9M"
       },
       {
+        "title": "SUSTAINING ENGINEERING SERVICES FOR THE ADVANCED PLANT HABITAT (APH).",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2021-03-24",
+        "type": null,
+        "noticeId": "80JSC021F0074",
+        "awardAmount": "$8M"
+      },
+      {
         "title": "NEXT SPACE TECHNOLOGIES EXPLORATION PARTNERSHIP-2 APPENDIX R: LUNAR LOGISTICS & MOBILITY STUDIES. GOALS ARE TO SUPPORT M",
         "agency": "National Aeronautics and Space Administration",
         "postedDate": "2025-04-30",
@@ -362,17 +368,9 @@
         "type": null,
         "noticeId": "FA881926FB018",
         "awardAmount": "$100K"
-      },
-      {
-        "title": "IMPLEMENTS A SOLUTION FROM THE INITIAL TROUBLESHOOTING OF THE BIOLOGICAL RESEARCH IN CANISTER (BRIC) LIGHT EMITTING DIOD",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2026-05-26",
-        "type": null,
-        "noticeId": "80JSC026FA103",
-        "awardAmount": "$43K"
       }
     ],
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "company": "Planet Labs",
@@ -409,7 +407,7 @@
         "awardAmount": "$60K"
       }
     ],
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "company": "Castelion",
@@ -436,7 +434,7 @@
         "awardAmount": "$1M"
       }
     ],
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "company": "Rocket Lab",
@@ -463,7 +461,7 @@
         "awardAmount": "$433K"
       }
     ],
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "company": "Varda Space",
@@ -490,7 +488,7 @@
         "awardAmount": "$160K"
       }
     ],
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "company": "BlackSky",
@@ -517,7 +515,7 @@
         "awardAmount": "$4M"
       }
     ],
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "company": "Scale AI",
@@ -544,7 +542,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "company": "Vannevar Labs",
@@ -563,7 +561,7 @@
         "awardAmount": "$13M"
       }
     ],
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "company": "Hadrian",
@@ -582,7 +580,7 @@
         "awardAmount": "$39M"
       }
     ],
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "company": "Relativity Space",
@@ -601,6 +599,6 @@
         "awardAmount": "$225K"
       }
     ],
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   }
 ]

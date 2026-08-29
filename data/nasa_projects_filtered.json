@@ -190,19 +190,32 @@
     "website": ""
   },
   {
-    "id": 182273,
-    "title": "Transforming Microchannel Plate Photodetectors for Future UV Instruments through Nano-Scale Additive Manufacturing",
-    "description": "For more than 50 years, microchannel plate (MCP) photodetectors have been in use aboard space borne ultraviolet instruments and these missions have made major contributions to our understanding of many types of astronomical objects. The next generation of UV missions have outlined very ambitious scientific goals and will require significant improvements to instrument performance if they are going to be achieved. Through the concept studies initiated by the 2010 Astrophysics Decadal Survey, the L",
-    "status": "Active",
+    "id": 183274,
+    "title": "A SmallSat Lidar Concept for PBL Height Measurements",
+    "description": "The purpose of this QRS request is to manage the current subsystem contracts (telescope, laser, and electronics) and finalize mechanical design modifications to ensure the new PBL SmallSat lidar instrument meets science needs and spacecraft allocations.",
+    "status": "Completed",
     "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
+    "endDate": "Mar 2025",
     "lastUpdated": "08/20/26",
-    "center": "Southwest Research Institute - San Antonio",
+    "center": "Goddard Space Flight Center",
     "technologyArea": "Remote Sensing Instruments and Sensors",
     "partners": [
-      "Southwest Research Institute - San Antonio",
-      "Argonne National Laboratory",
-      "Robot Nose Corporation"
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182287,
+    "title": "Building the Foundations for Huge-N Lunar Radio Interferometry",
+    "description": "Observations of the highly-redshifted 21 cm line of neutral hydrogen are the only probe of the Universe's \"Dark Ages\", the period of cosmic history prior to the formation of the first stars and galaxies.  Measurements of the Universe during its Dark Ages, however, would enable unprecedented precision tests of cosmology, greatly exceeding the Cosmic Microwave Background in both information content and impact.  Addressing the challenges inherent in these hydrogen observations is therefore a key un",
+    "status": "Active",
+    "startDate": "Sep 2024",
+    "endDate": "Aug 2027",
+    "lastUpdated": "08/20/26",
+    "center": "Brown University",
+    "technologyArea": "Observatories",
+    "partners": [
+      "Brown University"
     ],
     "website": ""
   },
@@ -218,6 +231,23 @@
     "technologyArea": "Remote Sensing Instruments and Sensors",
     "partners": [
       "University of California-Santa Barbara"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182273,
+    "title": "Transforming Microchannel Plate Photodetectors for Future UV Instruments through Nano-Scale Additive Manufacturing",
+    "description": "For more than 50 years, microchannel plate (MCP) photodetectors have been in use aboard space borne ultraviolet instruments and these missions have made major contributions to our understanding of many types of astronomical objects. The next generation of UV missions have outlined very ambitious scientific goals and will require significant improvements to instrument performance if they are going to be achieved. Through the concept studies initiated by the 2010 Astrophysics Decadal Survey, the L",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2027",
+    "lastUpdated": "08/20/26",
+    "center": "Southwest Research Institute - San Antonio",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Southwest Research Institute - San Antonio",
+      "Argonne National Laboratory",
+      "Robot Nose Corporation"
     ],
     "website": ""
   },
@@ -246,208 +276,18 @@
     "website": ""
   },
   {
-    "id": 182287,
-    "title": "Building the Foundations for Huge-N Lunar Radio Interferometry",
-    "description": "Observations of the highly-redshifted 21 cm line of neutral hydrogen are the only probe of the Universe's \"Dark Ages\", the period of cosmic history prior to the formation of the first stars and galaxies.  Measurements of the Universe during its Dark Ages, however, would enable unprecedented precision tests of cosmology, greatly exceeding the Cosmic Microwave Background in both information content and impact.  Addressing the challenges inherent in these hydrogen observations is therefore a key un",
-    "status": "Active",
-    "startDate": "Sep 2024",
-    "endDate": "Aug 2027",
-    "lastUpdated": "08/20/26",
-    "center": "Brown University",
-    "technologyArea": "Observatories",
-    "partners": [
-      "Brown University"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183274,
-    "title": "A SmallSat Lidar Concept for PBL Height Measurements",
-    "description": "The purpose of this QRS request is to manage the current subsystem contracts (telescope, laser, and electronics) and finalize mechanical design modifications to ensure the new PBL SmallSat lidar instrument meets science needs and spacecraft allocations.",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Mar 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157996,
-    "title": "Ceramic Composite Nanofiber Aerogel Insulation for EVA Suits",
-    "description": "NASA\u2019s EVA suits are typically made of multiple layers: an inner bladder made of polyurethane-coated nylon for suit pressure, protected by a Dacron\u2122 restraint liner. The outer layers serve as the thermal micrometeoroid garment (TMG), with a neoprene-coated nylon liner providing thermal and micrometeoroid protection. The insulation comprises five layers of aluminized Mylar reinforced with nylon scrim spacers. While effective in vacuum and microgravity, this insulation may not suffice for Mars due",
+    "id": 158122,
+    "title": "Deployable and/or Steerable Aperture Technologies",
+    "description": "Opterus addresses the small spacecraft reflector challenge with its patent pending Spiral Wrapped Antenna Technology (SWATH). SWATH is a fully continuous, solid surface deployable parabolic reflector architecture. The continuous solid surface enables higher frequency operation than mesh systems at lower costs. SWATH leverages Opterus\u2019 high strain composite (HSC) material technologies as the primary structural element; this material innovation provides material stiffness within the reflector shel",
     "status": "Completed",
     "startDate": "Aug 2024",
     "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "Human Health, Life Support, and Habitation Systems",
-    "partners": [
-      "Johnson Space Center",
-      "Materials Modification, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 158261,
-    "title": "Metal Alloy Cryogenic Interface Seal",
-    "description": "As NASA tries to proceed for the lunar exploration missions, the need arises for innovative technologies capable of withstanding the extreme lunar environment. This solicitation focuses on the development of interface seals that can sustain in extreme low temperatures. The proposed solution involves leveraging the mechanical strength and tolerance to solar radiation of advanced metal alloys. NASA's requirements for deep space exploration emphasize the importance of maintainability and reusabilit",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
-    "partners": [
-      "Langley Research Center",
-      "Lynntech, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 158755,
-    "title": "High Energy Density Radiation Tolerant Capacitors for Cryogenic Temperature Applications",
-    "description": "The Phase II proposal addresses the development of advance high energy density capacitors, for use in Power Processing Units (PPUs) of spacecraft, probes and landers, that are designed to operate in extreme temperature environments, with particular focus on cryogenic temperatures. Operating capacitors at cryogenic temperature presents unique challenges that need to be addressed to ensure a high level of reliability and performance. Space missions to planetary bodies that are distant from the sun",
-    "status": "Completed",
-    "startDate": "Jun 2024",
-    "endDate": "Jun 2026",
-    "lastUpdated": "08/20/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Aerospace Power and Energy Storage",
-    "partners": [
-      "Jet Propulsion Laboratory",
-      "Polycharge America, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 158767,
-    "title": "Wireless Channel Simulation and Coverage Analysis for Lunar Environments",
-    "description": "In this Phase II proposal, Remcom proposes to continue and enhance our efforts to develop and deploy a complete, end-to-end modeling and simulation solution for predicting wireless propagation and network coverage for lunar scenarios. Phase I completed some of the new capabilities and demonstrated the feasibility of the others. A critical component of our solution, the ability to import lunar terrain and place objects on the terrain, was completed in Phase I.  Under the proposed Phase II effort,",
-    "status": "Completed",
-    "startDate": "Jun 2024",
-    "endDate": "Jun 2026",
-    "lastUpdated": "08/20/26",
-    "center": "Glenn Research Center",
-    "technologyArea": "Communications, Navigation, and Orbital Debris Tracking and Characterization Systems",
-    "partners": [
-      "Glenn Research Center",
-      "REMCOM, INC."
-    ],
-    "website": ""
-  },
-  {
-    "id": 154561,
-    "title": "Rotating Detonation Engine Novel Injector Design",
-    "description": "Astrobotic will design, manufacture, and test a series of flight-like rotating detonation rocket engine (RDRE) injectors using its patent-pending PermiAM technology. In addition to the further development and test of these injectors, Astrobotic will also design an annular RDRE chamber that will be compatible with the injectors.  The proposed innovation is a flight-like rotating detonation rocket engine (RDRE) injector using Astrobotic&rsquo;s patent-pending permeable additive manufacturing (Perm",
-    "status": "Completed",
-    "startDate": "Jul 2023",
-    "endDate": "Mar 2026",
-    "lastUpdated": "08/20/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Propulsion Systems",
-    "partners": [
-      "Marshall Space Flight Center",
-      "Astrobotic Technology, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 125388,
-    "title": "A Certification Means of Compliance Process for Advanced Air Mobility with Increasing Autonomy",
-    "description": "In recent years there has been a proliferation of new vertical takeoff and landing (VTOL) vehicle concepts, many featuring electric propulsion systems and advanced autonomous capabilities, designed for the urban air mobility marketplace as air taxis and personal air vehicles. The Vertical Flight Society is tracking the progress of these vehicle concepts via a web portal that currently identifies 189 vectored thrust, 90 lift plus cruise configurations, and over 150 wingless multicopters. Many of ",
-    "status": "Completed",
-    "startDate": "May 2022",
-    "endDate": "Mar 2026",
-    "lastUpdated": "08/20/26",
-    "center": "Armstrong Flight Research Center",
-    "technologyArea": "Autonomous Systems",
-    "partners": [
-      "Armstrong Flight Research Center",
-      "Systems Technology, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 158063,
-    "title": "Redeployable Solar Array Structure for Lunar Base Infrastructure",
-    "description": " Atomic-6 proposes to develop a novel redeployable structure and deployment mechanism to enable relocatable 50-kW-class lightweight solar arrays near the lunar south pole for powering second-generation lunar base infrastructure.    Atomic-6 has developed a proprietary composite manufacturing process that results in higher fiber to resin ratios and interlaminar shear strength than most pre-preg composites. The product of the Atomic-6 process is a composite part with higher specific strength and s",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
-    "partners": [
-      "Langley Research Center",
-      "Atomic-6"
-    ],
-    "website": ""
-  },
-  {
-    "id": 113120,
-    "title": "Bi-Fold Fan DragSail with Surface Area Modulation Capability",
-    "description": "A new passive reentry system is proposed for deorbiting spacecraft from low earth orbit (LEO). The proposed DragSail system is based upon a restowable and redeployable concept that allows for increase or decrease of surface area thus modulating aerodynamic drag of the system. Modulation of the drag will allow the system to guide small spacecraft to specific locations at the Von Karman altitude, which is necessary for precision reentry targeting. The primary objective of this DragSail design is t",
-    "status": "Completed",
-    "startDate": "Jul 2021",
-    "endDate": "Nov 2024",
-    "lastUpdated": "08/20/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Entry, Descent, and Landing",
-    "partners": [
-      "Marshall Space Flight Center",
-      "Nexolve Holding Company, LLC"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158217,
-    "title": "Optimized Learning for Yielding Meteorological Predictions Using Surrogates",
-    "description": "NASA\u2019s current physics-based models are the gold standard for simulating atmospheric and heliophysics variables. These models, however, require very large amounts of compute power and several hours to produce a forecast. We propose to build the Optimized Learning for Yielding Meteorological Predictions Using Surrogates (OLYMPUS), comprising machine learning-based surrogate models to dramatically reduce the computational time and resources needed to make a prediction. We do not anticipate that th",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "Goddard Space Flight Center",
-      "Aerial Vantage, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 158026,
-    "title": "Lunar Joining of Elementary Structures (LUJES)",
-    "description": "Lunar Resources proposes to NASA the Lunar Joining of Elementary Structures (LUJES) SBIR Phase I project.  The LUJES program will focus on joining aluminum truss joints on the Moon, without consumables, with new and novel advanced welding and joining technology.   ",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Exploration Destination Systems",
-    "partners": [
-      "Langley Research Center",
-      "Lunar Resources, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 157989,
-    "title": "Cs Atom Interferometer Laser",
-    "description": "Quantum sensing takes advantage of the quantum mechanical nature of matters (e.g., atoms and ions) to boost the sensitivity of various sensors critical in NASA and other government/commercial applications. A stable, high-power, narrow-linewidth laser source is essential in multiple atom-based quantum sensing. In atom-based sensing, high-power laser beams can generally increase the number of atoms, enhancing a metrology systems signal-to-noise ratio (SNR). Although the principle of operation for ",
-    "status": "Completed",
-    "startDate": "Jul 2024",
-    "endDate": "Jun 2026",
     "lastUpdated": "08/20/26",
     "center": "Jet Propulsion Laboratory",
     "technologyArea": "Sensors and Instruments",
     "partners": [
       "Jet Propulsion Laboratory",
-      "Opto-Atomics Corp."
+      "Opterus Research and Development, Inc."
     ],
     "website": ""
   },
@@ -469,28 +309,108 @@
     "website": ""
   },
   {
-    "id": 158764,
-    "title": "Compact Rydberg Atom-Based LF Transmitter",
-    "description": "NASA is interested in electromagnetic sounding of ionospheric and magnetospheric plasma density structure at radio frequencies from kilohertz to MHz region. The majority of such soundings rely on passive sensing, i.e., they use either naturally occurring radiation or using transmitters of opportunity such as global navigation satellite system or ground-based transmitters used by worlds navies to transmit commands to submarines. Active sensing using the injection of ELF/VLF (300Hz -30kHz) frequen",
+    "id": 158085,
+    "title": "Photocatalytic Water Recycling for Short Duration Missions",
+    "description": "This proposal outlines the development of an innovative Water Recovery and Management (WRM) system, designed for efficient operation in the confined spaces of early-phase lunar and Mars habitats, landers, and pressurized rovers. The current WRM system used on the International Space Station (ISS) has considerable size and complexity, primarily due to the Catalytic Reactor in the Water Processor Assembly (WPA) and the Urine Processor Assembly (UPA). Our proposed system introduces a novel photocat",
     "status": "Completed",
-    "startDate": "Jul 2024",
-    "endDate": "Jul 2026",
+    "startDate": "Aug 2024",
+    "endDate": "Feb 2025",
     "lastUpdated": "08/20/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
+    "center": "Johnson Space Center",
+    "technologyArea": "Human Health, Life Support, and Habitation Systems",
     "partners": [
-      "Goddard Space Flight Center",
-      "Cornerstone Research Group, Inc."
+      "Johnson Space Center",
+      "UMPQUA Research Company"
     ],
     "website": ""
   },
   {
-    "id": 125653,
-    "title": "Motorless Extension, Leveling, and Tracking Array System",
-    "description": "Dynovas Motorless Extension, Leveling, and Tracking (MELT) array system delivers a modular, scalable power solution for lunar missions at a mass efficiency of  100 W/kg and a volume efficiency 22 kW/m3. The MELT system will be demonstrated at TRL 6 via operation of extension/retraction and rotating caterpillar actuator systems in a simulated lunar south pole environment (- 80 C to + 130 C, under vacuum), including simulated lunar dust. Subsystem operation will be controlled by a breadboard flat ",
+    "id": 158697,
+    "title": "5G-MOSAIC: 5G Mission-Critical Sidelink for Autonomous and Interoperable Communications in Lunar Networks",
+    "description": "Communication in lunar environments requires substantial modifications to current state-of-the-art (SOTA) 5G technology. The difficult terrain and long-range requirements of lunar missions introduces critical gaps between the SOTA and requirements, including hardware, inability to communicate outside of base station range, and limited device-to-device connectivity. EpiScis solution is to provide NASA lunar missions with 3GPP-capable solutions on terrestrial SWaP-constrained platforms. This proje",
     "status": "Completed",
-    "startDate": "Jun 2022",
-    "endDate": "Jun 2025",
+    "startDate": "Jun 2024",
+    "endDate": "Jun 2026",
+    "lastUpdated": "08/20/26",
+    "center": "Glenn Research Center",
+    "technologyArea": "Communications, Navigation, and Orbital Debris Tracking and Characterization Systems",
+    "partners": [
+      "Glenn Research Center",
+      "EpiSys Science, Inc."
+    ],
+    "website": ""
+  },
+  {
+    "id": 154755,
+    "title": "High-Impulse, Scalable, Metal Plasma Thruster for Cubesat Missions",
+    "description": "This CCRPP project will be conducted as a joint effort by AASC with Benchmark, via a sub-contract to Benchmark.AASC (working with Licensing partner and subcontractor Benchmark Space Systems) will deliver 12 thrusters to NovaWurks by early 2024. One CONOPS under consideration is to array two groups of 6 thrusters each, on opposite sides of the spacecraft. This allows for a mission goal to deactivate links and separate two halves of the spacecraft by a short distance. The Xantus engines would be f",
+    "status": "Completed",
+    "startDate": "Sep 2023",
+    "endDate": "Sep 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Glenn Research Center",
+    "technologyArea": "Propulsion Systems",
+    "partners": [
+      "Glenn Research Center",
+      "Alameda Applied Sciences Corporation"
+    ],
+    "website": ""
+  },
+  {
+    "id": 154366,
+    "title": "Reusable Heatshield Additive Manufacturing",
+    "description": "NASA has a stated strategic goal to promote a commercial presence in LEO, as formalized in their Commercial LEO Destinations (CLDs) program. Given the emphasis on transitioning to CLDs, highly available thermal protection system (TPS) manufacturing has become an even more critical capability. Unfortunately, reusable TPS materials such Alumina-Enhanced Thermal Barrier (AETB or \u201cShuttle Tile\u201d) developed for the Shuttle program are still the state-of-the-art option despite high costs, long lead tim",
+    "status": "Completed",
+    "startDate": "Sep 2023",
+    "endDate": "Mar 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
+    "partners": [
+      "Johnson Space Center",
+      "Canopy Aerospace"
+    ],
+    "website": ""
+  },
+  {
+    "id": 125611,
+    "title": "Low-alpha, variable emissivity radiator (LAVER) panels for passive thermal regulation of spacecraft",
+    "description": "Physical Sciences Inc. (PSI) will produce a variable emissivity, low absorptivity radiator (LAVER) tiles to be applied to radiator panels for passive thermal regulation of spacecraft. The tiles will allow satellites, particularly SmallSats, and lunar craft, such as VIPER, to passively regulate variable thermal loads, reducing the size, weight, and complexity of their thermal control system. In a recently concluded Phase II SBIR program, PSI designed, developed, and demonstrated functionality of ",
+    "status": "Completed",
+    "startDate": "Sep 2022",
+    "endDate": "May 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Thermal Management Systems",
+    "partners": [
+      "Johnson Space Center",
+      "Physical Sciences, Inc."
+    ],
+    "website": ""
+  },
+  {
+    "id": 158281,
+    "title": "Advancing ExoCam 360\u00b0 Video Technology via In Situ Vacuum Chamber Test Relevant to Lunar Plume Surface Interaction",
+    "description": "The principal objective of this Phase I SBIR is to advance the TRL of our ExoCam 360\u00b0 camera system by operating it in a relevant vacuum environment that will accurately simulate an active PSI ground test event (a rocket engine firing into a surface of lunar regolith simulant) within NASA Langley Research Center\u2019s (LaRC) new 60-ft Vacuum Sphere Test Facility, designed to emulate conditions of an actual landing on the Moon as closely as possible.   Specifically, we will be researching and ultimat",
+    "status": "Completed",
+    "startDate": "Aug 2024",
+    "endDate": "Feb 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Marshall Space Flight Center",
+    "technologyArea": "Entry, Descent, and Landing",
+    "partners": [
+      "Marshall Space Flight Center",
+      "Zandef Deksit Inc"
+    ],
+    "website": ""
+  },
+  {
+    "id": 113378,
+    "title": "Motorless Array Deployment (MAD) Energy",
+    "description": "Dynovas Motorless Array Deployment Energy System prototype will demonstrate the deployment of a 10 kW, ~180 W/kg, ~60 kW/m3 array using entirely motorless actuation of bi-stable composite structures at TRL 6. The prototype will be prepared for a 2023 lunar demonstration with potential integration partner, Intuitive Machines. The proposed prototype will consist of two (2) bi-stable composite beams (targeted thickness of 0.66 mm). On the surface of the beams will be integrated piezoelectric or sma",
+    "status": "Completed",
+    "startDate": "Jul 2021",
+    "endDate": "Jan 2026",
     "lastUpdated": "08/20/26",
     "center": "Langley Research Center",
     "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
@@ -501,296 +421,293 @@
     "website": ""
   },
   {
-    "id": 158765,
-    "title": "Additive Insulative Layer for Thermal Protection System",
-    "description": "The Heatshield for Extreme Entry Environmental Technology (HEEET) project started as a solution to the difficult entry temperatures and conditions. Its design is robust for the extreme environments that it needs to survive. HEEET Thermal Protection Systems (TPS) is fabricated with two different layers. Recently NASA Ames Research Center (ARC) is exploring other options using this system to produce robust materials that can be scaled to environmental conditions for Mars and low earth orbit (LEO) ",
+    "id": 158226,
+    "title": "Deployable Surface Cover for Lunar Surface Operations During Launch and Landing",
+    "description": "Our proposed effort focuses on a solution for dust plume blast mitigation during landing that can be deployed in the near term temporarily for early lunar missions. Specifically, we leverage a fabric-based ultralight matting system being developed by Astroport and its team of subcontract partners for U.S. military expeditionary landing surfaces in terrestrial Point-to-Point rocket cargo remote environments landings. For this NASA Phase 1 STTR, we research modifications needed for applying our no",
+    "status": "Completed",
+    "startDate": "Aug 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Kennedy Space Center",
+    "technologyArea": "Exploration Destination Systems",
+    "partners": [
+      "Kennedy Space Center",
+      "Astroport Space Technologies, Inc.",
+      "Texas A&M Engineering Experiment Station"
+    ],
+    "website": ""
+  },
+  {
+    "id": 154616,
+    "title": "Adaptive Neuromorphic Processors for Cognitive Communications",
+    "description": "The objective of this work is to develop highly Size, Weight, and Power (SWaP) efficient neuromorphic processors that can train deep learning algorithms. The training phase for deep learning is very compute and data intensive. Being able to train a network on the satellite eliminates the need to send large volumes of data to earth for training a new network. However, this requires an extremely energy efficient deep learning training processor. We will develop resistive crossbar neuromorphic proc",
+    "status": "Completed",
+    "startDate": "Jul 2023",
+    "endDate": "Dec 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Glenn Research Center",
+    "technologyArea": "Flight Computing and Avionics",
+    "partners": [
+      "Glenn Research Center",
+      "Brisk Computing LLC"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158650,
+    "title": "Quantum Sensor for D/H Ratio Measurement in Water in Outer Planets",
+    "description": "The study of the ratio of deuterium to hydrogen (D/H) isotopes allows the determination of whether the water originated from comets and asteroids, or it was formed through processes such as solar wind implantation or outgassing from a moons interior. This information can provide insight into the early history and formation of the moon and the inner Solar System, with significant implications for future lunar exploration and the development of sustainable space exploration programs.We have design",
     "status": "Completed",
     "startDate": "Jul 2024",
     "endDate": "Jul 2026",
     "lastUpdated": "08/20/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Entry, Descent, and Landing",
-    "partners": [
-      "Langley Research Center",
-      "Bally Ribbon Mills"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158222,
-    "title": "Operationally Modulating Neurophysiological Interface for Extended Reality (OMNI Cog XR)",
-    "description": "Astronauts encounter numerous cognitive and physiological challenges from the unique environment encountered during spaceflight. These challenges can significantly impact their health and performance throughout the duration of their missions. Cognitive challenges include altered sensory perceptions, disrupted circadian rhythms, and increased cognitive workload due to the demands of managing complex mission tasks confined spacecraft environment. Additionally, microgravity can lead to physiologica",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "Johnson Space Center",
-      "The University of Texas at Austin",
-      "Tietronix Software, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 158204,
-    "title": "Volume-constrained Additive Manufactured  Polymers for Integrated Robust Electronics (VAMPIRE)",
-    "description": "Traditional manufacturing methods struggle to meet NASA's strict volume constraints for electronics. Additive manufacturing electronics (AME) offer potential for compact, conformable, and cost-effective structures, but designing space-qualified systems is challenging. Materials suitable for 2D and 3D additive manufacturing haven't been proven rugged enough for space. Nanohmics, Inc. and Dr. Maggie Chen, from Texas State University, propose Volume-constrained Additive Manufactured Polymers for In",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
-    "partners": [
-      "Jet Propulsion Laboratory",
-      "Nanohmics, Inc.",
-      "Texas State University"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158322,
-    "title": "Electrochemical Production of Polyethylene from Atmospheric Carbon Dioxide",
-    "description": "Supporting human life on long-tern space exploration missions, such as manned missions to the surface of Mars, require sustainable resource utilization with minimal support from Earth. In response to this need, NASA\u2019s in-situ resource utilization (ISRU) mission was put in place to provide a sustainable infrastructure for long-tern missions, such as exploration of extraterrestrial planets. One particular resource available on Mars is atmospheric carbon dioxide (CO2). CO2 makes up 95% of the atmos",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "08/20/26",
     "center": "Glenn Research Center",
-    "technologyArea": "Aerospace Power and Energy Storage",
+    "technologyArea": "Sensors and Instruments",
     "partners": [
       "Glenn Research Center",
-      "Faraday Technology, Inc.",
-      "The University of Texas at El Paso"
+      "QuantCAD, LLC"
     ],
     "website": ""
   },
   {
-    "id": 154765,
-    "title": "Neuromorphic chip for sensing, situational awarness, and decision making in radiative environments",
-    "description": "By a direct extension of our Phase II contract with NASA, we propose to realize a prototype of a neuromorphic chip able to withstand heavy dosage of radiations, like those encountered in the Lunar environment. The neuromorphic chip will have multiple use in a space system, from sensor data analysis to control or to system diagnosis. In particular, during our concluded Phase II we realized a test chip in silicon that has been tested on the ground. That test chip demonstrated the architecture, the",
+    "id": 158272,
+    "title": "Accelerating Space Robot Operating System for a Sustainable Lunar Future",
+    "description": "Earlier space robotics missions relied on bespoke development of hardware and software, which is expensive and does not lend itself to software interoperability or sustained collaborative operations.  Many terrestrial robots are built on the Robot Operating System (ROS). ROS provides a common software infrastructure that enables interoperability between different robot hardware components and software systems from different vendors. By providing common infrastructure and tools, robots can be bui",
     "status": "Completed",
-    "startDate": "Sep 2022",
-    "endDate": "Jan 2026",
+    "startDate": "Aug 2024",
+    "endDate": "Feb 2025",
     "lastUpdated": "08/20/26",
     "center": "Ames Research Center",
     "technologyArea": "Robotic Systems",
     "partners": [
       "Ames Research Center",
-      "Mentium Technologies Inc."
+      "PickNik, Inc."
     ],
     "website": ""
   },
   {
-    "id": 158228,
-    "title": "Repurposable Thermoplastic Composites for Lunar Use (RTCLU)",
-    "description": "Thermoplastic composites can be reformed, repaired, and welded utilizing thermal processes, providing lunar missions a means of repurposing lander components into equipment that can be used for in-situ resource utilization (ISRU) activities. By reforming spacecraft components after arriving on the Moon, equivalent system mass (ESM) is minimized, allowing for additional equipment to be transported. Lynntech and the University of Washington propose an innovative means of reforming, repairing, and ",
+    "id": 158453,
+    "title": "Automated VuLnerability Assessment and Risk Mitigation for Future Aviation Systems Safety, ALARM",
+    "description": "The integration and digital connection of the future National Airspace System (NAS) with new entrants, such as the Unmanned Aircraft Systems (UAS) and Advanced Air Mobility (AAM), provides more pathways for hackers to attack the networked aircrafts and spacecrafts. In order to maintain cyber safety of this integration, security systems and technologies are required to enable on-board monitoring, detection, assessment, and reporting of abnormal events, suspicious behaviors, and potential threats.",
+    "status": "Completed",
+    "startDate": "Jul 2024",
+    "endDate": "Nov 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Air Traffic Management and Range Tracking Systems",
+    "partners": [
+      "Ames Research Center",
+      "University Technical Services, Inc."
+    ],
+    "website": ""
+  },
+  {
+    "id": 154574,
+    "title": "GasPak: A High Output, Clean Gas Generator for Large Volume Deployable Aerodynamic Decelerators",
+    "description": "A large majority of commercial and NASA spacecraft mission types would benefit from the ability to have deployable aerodynamic decelerators. Beneficial applications include spacecraft returning to Earth from low Earth orbit, exploring other planetary bodies (e.g. descent to Mars, Venus, and Titan), and reducing the cost of access to space by enabling the recovery of launch vehicle assets.    Current deployable aerodynamic decelerators are constrained by existing blowdown system limitations inclu",
+    "status": "Completed",
+    "startDate": "Jun 2023",
+    "endDate": "Dec 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Langley Research Center",
+    "technologyArea": "Entry, Descent, and Landing",
+    "partners": [
+      "Langley Research Center",
+      "Outpost Technologies Corporation"
+    ],
+    "website": ""
+  },
+  {
+    "id": 154330,
+    "title": "Pyrometer for Regolith-Extracted Oxygen",
+    "description": "Hedgefog Research Inc. (HFR) is developing a multicolor Pyrometer for Regolith-extracted Oxygen (PyRO) for use in foundries designed to extract oxygen from lunar regolith on the surface of the Moon. The flexible design of the sensor allows for accurate temperature determination for systems with well-known emissivity values as well as accurate high-temperature measurement for systems in which the temperature- and wavelength-dependent emissivities are unknown. Crucially for this application, the s",
+    "status": "Completed",
+    "startDate": "May 2023",
+    "endDate": "May 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Jet Propulsion Laboratory",
+    "technologyArea": "Exploration Destination Systems",
+    "partners": [
+      "Jet Propulsion Laboratory",
+      "Hedgefog Research, Inc."
+    ],
+    "website": ""
+  },
+  {
+    "id": 158257,
+    "title": "In-Space Portable Multi-Functional Intelligent Evaluation Tool",
+    "description": "To support NASA needs for in-space non-destructive evaluation (NDE) tools, Intellisense Systems, Inc. (Intellisense) proposes to develop a new small-size, lightweight, and battery-powered In-Space Portable Multi-Functional Intelligent Evaluation Tool (SMIET) based on Compton imaging tomography (CIT). SMIET\u2019s innovative application of CIT for in-space in situ NDE provides three-dimensional (3D) visualization while its artificial intelligence enables true characterization of various defects/irregu",
     "status": "Completed",
     "startDate": "Aug 2024",
-    "endDate": "Sep 2025",
+    "endDate": "Feb 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Langley Research Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Langley Research Center",
+      "Intellisense Systems, Inc."
+    ],
+    "website": ""
+  },
+  {
+    "id": 158120,
+    "title": "SPATIAM DTN Network Function for 3GPP Lunar System",
+    "description": "The drive from the US government administration and NASA to have an active and permanent presence on the lunar surface will dramatically multiply the need for communications and space networking. PWC forecasts that the Lunar Data, telemetry, entertainment, and environmental markets will grow to $12B by 2040.  NASA SBIR Topic H9.08 Lunar 3GPP Technologies identifies that \u201cNASA is seeking to leverage this (3GPP) extensive development\u201d and \u201cencourage development that is needed to translate terrestr",
+    "status": "Completed",
+    "startDate": "Aug 2024",
+    "endDate": "Feb 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Glenn Research Center",
+    "technologyArea": "Communications, Navigation, and Orbital Debris Tracking and Characterization Systems",
+    "partners": [
+      "Glenn Research Center",
+      "SPATIAM CORPORATION"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158262,
+    "title": "Development of a multifunctional SolidStir manufacturing technology for lunar infrastructure",
+    "description": "As a part of the Artemis mission, building a base camp on south pole for astronauts to land, live and explore has been planned. In order to support human presence and further exploration setting up metal extraction and primary manufacturing facility is essential. The extraction plants that are developed for earth on the moon is cost prohibitive and complicated since necessary consumable are not readily available on the moon. Hence special processes are being developed. The products from these pr",
+    "status": "Completed",
+    "startDate": "Aug 2024",
+    "endDate": "Feb 2025",
     "lastUpdated": "08/20/26",
     "center": "Langley Research Center",
     "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
     "partners": [
       "Langley Research Center",
-      "Lynntech, Inc.",
-      "University of Washington-Seattle Campus"
+      "The Enabled Manufacturing LLC"
     ],
     "website": ""
   },
   {
-    "id": 158237,
-    "title": "Cognitive Systems Engineering (CSE) Methods to Support Adaptive, Integrated Anomaly Response",
-    "description": "The proposed project aims to tailor cognitive systems engineering methods to support the design of Fault Detection, Isolation, and Recovery (FDIR) capabilities intended for remote smart habitats and NASA\u2019s Moon to Mars initiative. We will adapt the Integrated Cognitive Analysis for Human-Machine Teaming (ICA-HMT) strategy, developed and exercised previously as part of the Army\u2019s Future Vertical Lift program to understand the envisioned world for future rotorcraft that leverages advanced automati",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Autonomous Systems",
-    "partners": [
-      "Ames Research Center",
-      "Applied Decision Science, LLC"
-    ],
-    "website": ""
-  },
-  {
-    "id": 154741,
-    "title": "Navigation Doppler Lidar System on Module",
-    "description": "Under this CCRPP, we leverage from pastphotonic integrated circuits (PIC)component designs in Siliconto develop a complete NDL system on module (SoM). The reduced cost and complexity of photonic integrated circuits and the increase in reliabilitymakes silicon PICsan ideal platform for a precision measurement instrument such as the NDL.The proposed development includesphotonics integration and testing, packaging, support electronics, and by using reliability standards defined by Telecordia GR-468",
-    "status": "Completed",
-    "startDate": "Aug 2023",
-    "endDate": "Aug 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Entry, Descent, and Landing",
-    "partners": [
-      "Langley Research Center",
-      "Psionic, LLC"
-    ],
-    "website": ""
-  },
-  {
-    "id": 154673,
-    "title": "REALISE - Remote Experimentation and Analysis Laboratory In SpacE",
-    "description": "We are proposing the fully autonomous science facility REALISE for suspended biological cultures that can both incubate organisms over long periods of time (30 days to 9 months) but also perform in-situ analysis of samples using bright-field and three-color fluorescence microscopy. REALISE will be based heavily on functionality, components, and experience from past Shuttle, ISS, and Orion heritage flight hardware but is intended to set new standards for in-situ scientific analysis, long-term cel",
-    "status": "Completed",
-    "startDate": "Nov 2022",
-    "endDate": "Nov 2024",
-    "lastUpdated": "08/20/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Autonomous Systems",
-    "partners": [
-      "Ames Research Center",
-      "Intelligent Imaging Innovations",
-      "University of Colorado Denver"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158328,
-    "title": "Integration of Dust Resisting Secondary Emission Engineered Passive Thermal Control Material Systems (TCMS) Coating on - Flight & Test Hardware and Its Performance Validation Testing Per NASA-STD-1008",
-    "description": "In order to support NASAs ability to land humans and support a sustainable presence on the Moon, AMSENG has prepared a Invited Sequential Phase II Proposal for the white paper (2023-1-94-W) with aim to facilitate rapid technology maturation development and assist in its insertion and to infuse key technologies to advance the objectives of the Moon to Mars campaign. AMSENG present a team with the capable candidates for further investment through a sequential Phase II Proposal invited for the whit",
-    "status": "Completed",
-    "startDate": "Sep 2023",
-    "endDate": "Sep 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Exploration Destination Systems",
-    "partners": [
-      "Goddard Space Flight Center",
-      "Applied Material Systems Engineering, Inc. (AMSENG)"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158336,
-    "title": "Benchmark Single Asset Kick Stage",
-    "description": "For large orbit transfer logistics of the 25-200kg small spacecraft size range, Benchmark will combine our flight-proven high-test peroxide (HTP) bipropellant subsystem (Halcyon Avant), our multi-technology control electronics and SmartAIMTM propulsion control technology, a partner-supplied electric propulsion subsystem, and other commercial off-the-shelf (COTS) subsystems. The new development focus area will be to specify spacecraft interface and system design to maximize breadth of standard co",
+    "id": 158160,
+    "title": "Dynamic Power Conversion",
+    "description": "This project aims to produce a small, very high performance, radhard, modular AC-DC Fission Surface Power (FSP) controller that incorporates a novel fine dust and EM mitigation solutions. The program focus is to develop a small radhard power manager for a lunar rover mounted FSP generator enabling long duration operation in dark conditions.  The solution is based on advances in radhard ASIC controller/modulator technology and radhard bidirectional wide bandgap (WBG) bidirectional converter power",
     "status": "Completed",
     "startDate": "Aug 2024",
     "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Propulsion Systems",
-    "partners": [
-      "Marshall Space Flight Center",
-      "Benchmark Space Systems, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 158236,
-    "title": "Velocity and Altitude Sensing Hybrid LiDAR ASIC with Extremely Low SWaP",
-    "description": "Radiation tolerant LiDAR systems providing accurate range information are needed for rendezvous, docking, mapping, navigation, debris removal, and dynamic missions in space. However, a challenge exists with increasing LiDAR accuracy at both long and short range without sacrificing resolution or C-SWaP. SenseICs proposes to develop a radiation tolerant \u201dHyDAR\u201d hybrid LiDAR ROIC combining the benefits of direct and indirect time of flight to achieve unprecedented range resolution at low C-SWaP to ",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Entry, Descent, and Landing",
-    "partners": [
-      "Jet Propulsion Laboratory",
-      "SenseICs Corporation"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158599,
-    "title": "Tool for Autonomous Terrain Exploration of Remote Space",
-    "description": "NASA currently has multiple missions focused on exploration of extraterrestrial bodies in our solar system, both by autonomous platforms alone, in teams, and in collaboration with long-duration human habitation, all of which require advanced levels of autonomy. TATERS will develop mission planning and high level collaborative autonomy capabilities for swarms of surface and satellite vehicles that would allow NASA and other groups to be able to deploy autonomous teams of robots into previously un",
-    "status": "Completed",
-    "startDate": "Dec 2023",
-    "endDate": "Dec 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Autonomous Systems",
-    "partners": [
-      "Jet Propulsion Laboratory",
-      "Michigan Technological University",
-      "MTRI, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 154347,
-    "title": "High-Performance, High Thrust, \u201cGreen\u201d Orbital Maneuvering Vehicle for Lunar and Deep Space Missions",
-    "description": "Flight Works is proposing to continue the development and demonstration of a high-performance Orbital Maneuvering Vehicle (OMV) which enables dedicated missions to cislunar and deep space (such as Mars rendezvous) with small launchers like Virgin Orbits Launcher One and ABLs RS-1. It features a full set of avionics flight-proven in LEO. These are to be modified for deep space missions with radiation tolerant components, additional redundancy, and upgraded communication system. The high performan",
-    "status": "Completed",
-    "startDate": "Sep 2022",
-    "endDate": "Mar 2026",
-    "lastUpdated": "08/20/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Propulsion Systems",
-    "partners": [
-      "Marshall Space Flight Center",
-      "Flight Works, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 158548,
-    "title": "Low Mass, High Voltage Cables for Long Distance Lunar Power Distribution",
-    "description": "In Phase II, Astrobotic has refined the outputs based on learnings in Phase I, and identified the following as the key outputs to achieve in the Phase II efforts:   \tRefined design requirements for a cable assembly (including connector) in a mission environment. Focus will be on the cable and connector in lieu of the reel, based on findings in Phase I. \tCable design trade study modifications. Focus will be on manufacturing methods, unique materials, radiation and thermal design analysis, and min",
-    "status": "Completed",
-    "startDate": "Jun 2024",
-    "endDate": "Jun 2026",
     "lastUpdated": "08/20/26",
     "center": "Glenn Research Center",
     "technologyArea": "Aerospace Power and Energy Storage",
     "partners": [
       "Glenn Research Center",
-      "Astrobotic Technology, Inc."
+      "QorTek, Inc."
     ],
     "website": ""
   },
   {
-    "id": 154695,
-    "title": "Adapting 100G Optical Comm to Unique NASA Small Satellite DSM Applications",
-    "description": "We proposed to expand the bandwidth of free space optical (FSO) communications to100G for lunar and Lagrange points while using available low-cost and low size, weight, and power (SWaP) technologies. We propose to develop 100G space laser transceiver technology that specifically address the unique properties of these longer-range missions and bridging the gap between terrestrial and Geo, Lunar and L1/L2 mission applications. This is in contract to LEO efforts where the range is 1000km.  This pro",
+    "id": 158575,
+    "title": "Module for Event Driven Operations on Spacecraft (MEDOS) Expanded for Multi-Agent Decision Making and Teaming",
+    "description": "Operations engineers face the task of maintaining the health and functionality of a spacecraft, based on extremely limited information. This task becomes even more complicated when considering lag time between contacts, the light-time delay of bidirectional communications, and the prospect of multiple spacecraft operating simultaneously. Simple pre-programmed time tagged commands become increasingly burdensome in multi-spacecraft missions, particularly when trying to target ephemeral events in s",
     "status": "Completed",
-    "startDate": "Jun 2023",
-    "endDate": "Dec 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Communications, Navigation, and Orbital Debris Tracking and Characterization Systems",
-    "partners": [
-      "Ames Research Center",
-      "Fibertek, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 154424,
-    "title": "Continuous Wire 3D Printed Sorbent Structures",
-    "description": "To improve size, weight, and power (SWaP) of spacecraft carbon dioxide (CO2) and water removal systems, Mainstream Engineering Corporation (Mainstream) developed the process to embed resistive wires directly into an additively manufactured (AM) sorbent bed for optimized regeneration. This process drastically reduces the thermal contact resistance compared to the current system of heating elements. In Phase I, Mainstream focused on developing the mechanism and process for embedding the resistive ",
-    "status": "Completed",
-    "startDate": "May 2023",
-    "endDate": "Dec 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Human Health, Life Support, and Habitation Systems",
-    "partners": [
-      "Ames Research Center",
-      "Mainstream Engineering Corporation"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158688,
-    "title": "Spacecraft Anomaly Resolution Knowledgebase (SPARK)",
-    "description": "The Spacecraft Anomaly Resolution Knowledgebase (SPARK) is a coupled anomaly database, space environment database from 1986-present, a powerful analytics software package, and an intuitive user interface -- all hosted in a secure cloud-native infrastructure. It builds on past, current, and new anomaly databases, employs powerful analytical techniques, and is interoperable with other spacecraft-related tools. It improves the ability of spacecraft owners, operators, and other stakeholders to under",
-    "status": "Completed",
-    "startDate": "Jun 2024",
-    "endDate": "Jun 2026",
+    "startDate": "Jan 2024",
+    "endDate": "Jan 2026",
     "lastUpdated": "08/20/26",
     "center": "Goddard Space Flight Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
+    "technologyArea": "Autonomous Systems",
     "partners": [
       "Goddard Space Flight Center",
-      "NextGen Federal Systems, LLC"
+      "Aurora Engineering",
+      "University of Colorado Boulder"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158735,
+    "title": "High-Emissivity CVD Dendritic Rhenium Coatings for NEP Radiator Panels, Phase II",
+    "description": "Nuclear-electric propulsion (NEP) can significantly reduce mission durations for space exploration by providing substantially greater propulsion efficiency over chemical propulsion. NEP development is dependent on advances in several key technology areas, one of which is the primary heat rejection subsystem, which will account for a significant portion of the total spacecraft mass. Improved radiator panels, with lighter weight and higher emissivity, are needed, enabling reduced panel size for a ",
+    "status": "Completed",
+    "startDate": "Jul 2024",
+    "endDate": "Jul 2026",
+    "lastUpdated": "08/20/26",
+    "center": "Glenn Research Center",
+    "technologyArea": "Propulsion Systems",
+    "partners": [
+      "Glenn Research Center",
+      "Ultramet"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158224,
+    "title": "Foundation Design and Seismic Protection of Lunar Infrastructure Utilizing Bulk Regolith",
+    "description": "As a part of NASA\u2019s Artemis program to establish a long-term human presence on the Moon, NASA will need to design and construct surface infrastructure to enable lunar exploration and science. Our proposed project will use the limited lunar seismicity data to develop a prediction model for seismic loading. The seismic model will be used in conjunction with analysis, testing, and engineering design to establish preliminary design criteria, procedures, and ConOps for seismic protection systems leve",
+    "status": "Completed",
+    "startDate": "Aug 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Kennedy Space Center",
+    "technologyArea": "Exploration Destination Systems",
+    "partners": [
+      "Kennedy Space Center",
+      "Slate Geotechnical Consultants, Inc."
+    ],
+    "website": ""
+  },
+  {
+    "id": 158495,
+    "title": "Design and Implementation Tools for Lunar Surface Regolith Structure Construction",
+    "description": "The proposed and executed innovation is a software analysis toolset that can inform basic structural archetype requirements and construction methods and their quantitative capabilities. This tool considers a variety of design requirements including surface flatness, obstacle mitigation, relative density (compaction), gradient, size, location/orientation, expected loads, minimal energy consumption, etc. There is an inherent need for analysis tools like this to advance the infrastructure developme",
+    "status": "Completed",
+    "startDate": "Jan 2024",
+    "endDate": "Jan 2026",
+    "lastUpdated": "08/20/26",
+    "center": "Kennedy Space Center",
+    "technologyArea": "Exploration Destination Systems",
+    "partners": [
+      "Kennedy Space Center",
+      "Lunar Outpost, Inc.",
+      "Michigan Technological University"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158060,
+    "title": "Resilient Real-Time Reasoning RISC-V Robotic Operating System (R5OS)",
+    "description": "A key element of the rapid growth autonomous systems is the availability of open, reusable frameworks and libraries of software such as the Robot Operating System (ROS). AI/ML enhanced computing systems for automated vehicle applications are rapidly advancing but may not meet spaceflight environmental requirements. Combining ROS and RISC-V based processing systems provides a pathway to rapidly evolving autonomous systems for space applications.  Secmation proposes Resilient Real-Time Reasoning R",
+    "status": "Completed",
+    "startDate": "Aug 2024",
+    "endDate": "Feb 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Flight Computing and Avionics",
+    "partners": [
+      "Johnson Space Center",
+      "Secmation, LLC"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158157,
+    "title": "(COSMOS) Compact Standoff Biomolecular Observation System",
+    "description": "Nalu Scientific LLC (Nalu) proposes to develop and fabricate \u201cCompact Standoff Biomolecular Observation System (COSMOS)\u201d, a fast standoff video imaging system for searching for evidence of life through the sensitive detection of biomolecules and polyaromatic hydrocarbons (PAHs). The COSMOS system will be suitable for deployment on Mars and planetary rovers and also will function effectively in oceanic environments. It will use a compact solid state, conductively cooled Nd:YAG nano-second pulsed ",
+    "status": "Completed",
+    "startDate": "Aug 2024",
+    "endDate": "Feb 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center",
+      "Nalu Scientific, LLC"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158752,
+    "title": "C-Tower: A scalable, deployable/retractable, and mobile truss mast to commission relocatable 50-kW class vertical solar arrays on the lunar surface",
+    "description": "Ceres C-Tower is a self-contained novel solution which includes a central mast deployed 23.5m high to commission  60kW solar arrays near lunar poles. It is capable of multiple deployment and retraction cycles, relocation, and remote operations with a long system life of at least 10 years. It has a Specific Mass  85 W/kg  Specific Packing Volume  22 kW/m3.C-Tower is adaptable to multiple launch vehicles, mission architectures, and landers. The mechanisms are robust under lunar dust and thermal en",
+    "status": "Completed",
+    "startDate": "Jul 2024",
+    "endDate": "Jul 2026",
+    "lastUpdated": "08/20/26",
+    "center": "Langley Research Center",
+    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
+    "partners": [
+      "Langley Research Center",
+      "Ceres Robotics Inc."
     ],
     "website": ""
   },
@@ -812,35 +729,51 @@
     "website": ""
   },
   {
-    "id": 158085,
-    "title": "Photocatalytic Water Recycling for Short Duration Missions",
-    "description": "This proposal outlines the development of an innovative Water Recovery and Management (WRM) system, designed for efficient operation in the confined spaces of early-phase lunar and Mars habitats, landers, and pressurized rovers. The current WRM system used on the International Space Station (ISS) has considerable size and complexity, primarily due to the Catalytic Reactor in the Water Processor Assembly (WPA) and the Urine Processor Assembly (UPA). Our proposed system introduces a novel photocat",
+    "id": 154537,
+    "title": "Solar On-Orbit Welder for Assembly, Repair, and Manufacturing",
+    "description": "Outward Technologies proposes to continue development of a Solar On-Orbit Welder for Repair, Assembly, and Manufacturing (SO-WARM) to enable In-Space Servicing, Assembly, and Manufacturing (ISAM) for commercial satellites, robotic science, and human exploration. This innovative technology utilizes concentrated solar energy as the primary heat source for welding and joining materials in space. Through continued development, SO-WARM may be used to assemble structures in space, thereby enabling the",
     "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
+    "startDate": "Jun 2023",
+    "endDate": "Dec 2025",
     "lastUpdated": "08/20/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "Human Health, Life Support, and Habitation Systems",
+    "center": "Marshall Space Flight Center",
+    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
     "partners": [
-      "Johnson Space Center",
-      "UMPQUA Research Company"
+      "Marshall Space Flight Center",
+      "Blueshift, LLC"
     ],
     "website": ""
   },
   {
-    "id": 154569,
-    "title": "Machine Learning Explainability and Uncertainty Quantification to Support Calibration of Trust in Automated Systems",
-    "description": "The Explanations in Lunar Surface Exploration (ELSE) capability applies Mosaic ATMs Explainable Basis Vectors (EBV) method for explainable machine learning (xML) and likelihood scores approach to uncertainty quantification (UQ) to lunar surface exploration. In Phase I, Mosaic ATM demonstrated the ability to generalize our EBV method from discrete numerical or binary inputs (e.g., wind speed or the presence/absence of rain) to computer vision classification problems. We demonstrated the feasibili",
+    "id": 158431,
+    "title": "Long-Range Compact Economical Lidar for Wind Profiling",
+    "description": "Beyond Photonics is developing a high-performance wind measurement lidar system, which we have named the Wind Beyond lidar, that will enable reliable wind measurements to 20+ km near-horizontal ranges in the atmospheric boundary layer. Use of in-band-pumped Er:YAG laser crystals for the Wind Beyond transmitter allows for much higher pulse energies than are possible with low-cost all-fiber transmitter architectures. The proposed Wind Beyond lidar will operate at 7.5 mJ pulse energy and 1 kHz PRF,",
     "status": "Completed",
-    "startDate": "Dec 2022",
-    "endDate": "Dec 2024",
+    "startDate": "Jul 2024",
+    "endDate": "Jul 2026",
     "lastUpdated": "08/20/26",
     "center": "Langley Research Center",
-    "technologyArea": "Autonomous Systems",
+    "technologyArea": "Sensors and Instruments",
     "partners": [
       "Langley Research Center",
-      "Mosaic ATM, Inc.",
-      "Universities Space Research Association"
+      "Beyond Photonics, LLC"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158345,
+    "title": "Autonomous Storm Detection and Tracking Using Random Finite Sets",
+    "description": "Lightning storm observations are used in advanced weather models to predict and provide warning of severe weather. Current lightning observations gathered from geostationary orbit are static and not well resolved. Observations made from Low Earth Orbit (LEO) offer improved resolution and could take advantage of decreasing LEO construction and launch costs, however challenges are introduced by rapidly changing observing location and smaller sensor field of view. Therefore, to achieve autonomous e",
+    "status": "Completed",
+    "startDate": "Aug 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Marshall Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Marshall Space Flight Center",
+      "Aster Labs, Inc.",
+      "The University of Alabama"
     ],
     "website": ""
   }

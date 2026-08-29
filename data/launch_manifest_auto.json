@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-08-27",
-    "vehicle": "Ariane 62 | MTG-I2",
-    "payload": "MTG-I2",
-    "pad": "Ariane Launch Area 4, Guiana Space Centre, French Guiana",
-    "provider": "Arianespace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/a57aed97-b94f-42e1-905e-9421dbd96ac8/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-08-30",
     "vehicle": "Falcon Heavy | Nancy Grace Roman Space Telescope",
     "payload": "Nancy Grace Roman Space Telescope",
@@ -124,15 +115,6 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5/?format=json",
     "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-09-30",
-    "vehicle": "GSLV Mk II | IRNSS-1L (NVS-03)",
-    "payload": "IRNSS-1L (NVS-03)",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/20d5676e-111b-40e3-8923-b218c3665ca2/?format=json",
-    "trackedCompany": null
   },
   {
     "date": "2026-09-30",
@@ -448,5 +430,23 @@
     "provider": "Isar Aerospace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/60f4ba6c-4201-4727-94aa-0015a5a0023f/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Spectrum | \u03a3YNDEO-3",
+    "payload": "\u03a3YNDEO-3",
+    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
+    "provider": "Isar Aerospace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b48e32c5-3776-4684-a956-5ea4df032e90/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Vulcan VC4L | Dream Chaser CRS 2 Flight 1",
+    "payload": "Dream Chaser CRS 2 Flight 1",
+    "pad": "Space Launch Complex 41, Cape Canaveral SFS, FL, USA",
+    "provider": "United Launch Alliance",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a67b40f9-cfcc-4614-a355-a156280b4bb3/?format=json",
+    "trackedCompany": "ULA"
   }
 ]

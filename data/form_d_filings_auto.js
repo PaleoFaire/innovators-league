@@ -1,13 +1,31 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public) — full-text search + daily index
-// Last updated: 2026-08-28 19:39:28 UTC
-// Total: 7 filings across 7 companies
+// Last updated: 2026-08-29 13:10:38 UTC
+// Total: 6 filings across 6 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-08-28T19:39:28.640867+00:00",
+  "generated_at": "2026-08-29T13:10:38.799172+00:00",
   "source": "SEC EDGAR Form D (full-text search + daily index)",
   "lookback_days": 60,
-  "total_filings": 7,
+  "total_filings": 6,
   "filings": [
+    {
+      "match_method": "cik",
+      "company": "Castelion",
+      "issuer_name": "Castelion Corp",
+      "form": "D",
+      "filed_date": "2026-08-28",
+      "cik": "1973707",
+      "accession": "0001973707-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001973707&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001973707-26-000001",
+      "offering_amount": "800000173",
+      "amount_sold": "647000679",
+      "amount_remaining": "152999494",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
     {
       "match_method": "cik",
       "company": "ICON",
@@ -93,42 +111,6 @@ const FORM_D_FILINGS = {
       "offering_amount": "50000000",
       "amount_sold": "0",
       "amount_remaining": "50000000",
-      "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "match_method": "cik",
-      "company": "Antares",
-      "issuer_name": "Antares Nuclear, Inc",
-      "form": "D",
-      "filed_date": "2026-08-18",
-      "cik": "1998786",
-      "accession": "0001998786-26-000005",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001998786&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001998786-26-000005",
-      "offering_amount": "84999666",
-      "amount_sold": "59999682",
-      "amount_remaining": "24999984",
-      "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "match_method": "cik",
-      "company": "Pixxel",
-      "issuer_name": "Pixxel Space Technologies, Inc",
-      "form": "D",
-      "filed_date": "2026-08-18",
-      "cik": "1818777",
-      "accession": "0001818777-26-000004",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001818777&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001818777-26-000004",
-      "offering_amount": "125000000",
-      "amount_sold": "72999975",
-      "amount_remaining": "52000025",
       "securities_type": "Equity",
       "exemption": "06b",
       "first_sale_date": "",

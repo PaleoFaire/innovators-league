@@ -96,7 +96,7 @@
   {
     "prime": "General Dynamics",
     "ticker": "GD",
-    "totalCompanies": 10,
+    "totalCompanies": 9,
     "portfolio": [
       {
         "company": "Anduril",
@@ -109,15 +109,6 @@
         "relationship": "partnership",
         "source": "ROS-curated (public press releases)",
         "evidence": "RF geolocation for intel missions"
-      },
-      {
-        "company": "Integrate",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$277.2M",
-        "agency": "Department of Defense",
-        "evidence": "DESIGN, DEVELOP, INTEGRATE NAVY SYSTEMS",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_N0002419C6407_9700_-NONE-_-NONE-"
       },
       {
         "company": "MATERIAL",

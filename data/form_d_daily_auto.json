@@ -1,9 +1,32 @@
 {
-  "generated_at": "2026-08-28T19:39:28.640867+00:00",
+  "generated_at": "2026-08-29T13:10:38.799172+00:00",
   "lookback_days": 8,
-  "scanned": 1137,
+  "scanned": 1179,
   "total": 4,
   "filings": [
+    {
+      "match_method": "cik",
+      "match_evidence": "filer CIK 1973707 == our recorded CIK",
+      "company": "Castelion",
+      "issuer_name": "Castelion Corp",
+      "form": "D",
+      "filed_date": "2026-08-28",
+      "cik": "1973707",
+      "accession": "0001973707-26-000001",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1973707/000197370726000001/primary_doc.xml",
+      "offering_amount": "800000173",
+      "amount_sold": "647000679",
+      "amount_remaining": "152999494",
+      "securities_type": "Equity",
+      "related_persons": [
+        "Charles Hargis",
+        "Sean Pitt",
+        "Andrew Kreitz",
+        "Alex Poulin"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
+    },
     {
       "match_method": "cik",
       "match_evidence": "filer CIK 1751463 == our recorded CIK",
@@ -78,29 +101,6 @@
         "Rory O'Driscoll",
         "Zach Barasz",
         "Ben Fife"
-      ],
-      "is_safe": false,
-      "source": "edgar-daily-index"
-    },
-    {
-      "match_method": "cik",
-      "match_evidence": "filer CIK 2151004 == our recorded CIK",
-      "company": "Ultra Robotics",
-      "issuer_name": "Ultra Robotics Corp.",
-      "form": "D",
-      "filed_date": "2026-08-21",
-      "cik": "2151004",
-      "accession": "0002151004-26-000001",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/2151004/000215100426000001/primary_doc.xml",
-      "offering_amount": "62089507",
-      "amount_sold": "57089457",
-      "amount_remaining": "5000050",
-      "securities_type": "Equity",
-      "related_persons": [
-        "Jonathan Schwartz",
-        "Michael Anderson",
-        "Max Friefeld",
-        "Oliver Ortlieb"
       ],
       "is_safe": false,
       "source": "edgar-daily-index"

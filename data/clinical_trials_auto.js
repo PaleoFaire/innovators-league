@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-08-28 19:13:03 UTC
+// Last updated: 2026-08-29 12:56:25 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT07792096", title: "An Adaptive Platform Trial for Evaluation of Novel Treatment Regimens in Childre", status: "NOT_YET_RECRUITING", phase: "PHASE3", sponsor: "University College, London", conditions: "HIV Infection", enrollment: 800, lastUpdated: "2026-08-28" },
   { nctId: "NCT06925542", title: "A Safety and Efficacy Study Evaluating CTX112 in Adult Subjects With Refractory ", status: "RECRUITING", phase: "PHASE1", sponsor: "CRISPR Therapeutics", conditions: "SLE (Systemic Lupus), Lupus Erythematosus, Systemi", enrollment: 80, lastUpdated: "2026-08-28" },
