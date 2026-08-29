@@ -11,13 +11,13 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -11.44,
+      "avg_change": -10.28,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -4.9,
+      "avg_change": -5.01,
       "count": 7
     },
     "nuclear": {
@@ -86,9 +86,9 @@
   ],
   "topLosers": [
     [
-      "ASRHF",
-      "Astroscale",
-      -13.38
+      "RGTI",
+      "Rigetti Computing",
+      -12.95
     ],
     [
       "SATL",
@@ -111,5 +111,5 @@
       -16.67
     ]
   ],
-  "lastUpdated": "2026-08-28 23:05:19"
+  "lastUpdated": "2026-08-29 07:55:17"
 }
