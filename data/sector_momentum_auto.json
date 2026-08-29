@@ -15,46 +15,45 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "sector": "AI & Software",
-    "momentum": 43,
+    "momentum": 39,
     "trend": "steady",
     "catalysts": [
+      "An Anthropic researcher just gave us a peek at self-improvin",
       "Anthropic gets its first court win over the Pentagon\u2019s suppl",
-      "Meta executive leaves for OpenAI as the social media giant f",
-      "A Judge Has Blocked the Pentagon\u2019s Attempt to Blacklist Anth"
+      "Meta executive leaves for OpenAI as the social media giant f"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 29,
-      "news": 90,
+      "news": 75,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 33,
+    "momentum": 32,
     "trend": "rising",
     "catalysts": [
-      "Barret Zoph, the Thinking Machines co-founder ousted before",
       "Bedrock Robotics&#8217; first operator-free excavator deploy"
     ],
     "fundingQ": "$219M",
     "components": {
       "funding": 58,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 31,
+    "momentum": 28,
     "trend": "declining",
     "catalysts": [
       "Anthropic gets its first court win over the Pentagon\u2019s suppl",
@@ -66,81 +65,9 @@
       "funding": 20,
       "news": 15,
       "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-08-28"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 30,
-    "trend": "declining",
-    "catalysts": [
-      "Does Latent Nuclear Deterrence Really Work?",
-      "Nuclear startup Oklo splits its first atoms in test reactor",
-      "Microreactor startup Valar Atomics raises $1B"
-    ],
-    "fundingQ": "$157M",
-    "components": {
-      "funding": 19,
-      "news": 15,
-      "hiring": 0,
-      "market": 97
-    },
-    "lastUpdated": "2026-08-28"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 25,
-    "trend": "declining",
-    "catalysts": [
-      "Carbon Robotics partners with iMerit to power instant in-fie",
-      "Hydrogen Is Still A Tonnes Market, No Matter How Many MWh We",
-      "Sage Geosystems brings its first next-gen geothermal plant o"
-    ],
-    "fundingQ": "$134M",
-    "components": {
-      "funding": 11,
-      "news": 15,
-      "hiring": 0,
       "market": 85
     },
-    "lastUpdated": "2026-08-28"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 25,
-    "trend": "declining",
-    "catalysts": [
-      "OpenAI, Anthropic, Google, and 100 other companies call for",
-      "Semianalysis Deep Dive on the SpaceX 10 GW 2027 AI Data Cent",
-      "You can now ride a Chinese EV in the US as Waymo opens Zeekr"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 95
-    },
-    "lastUpdated": "2026-08-28"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 24,
-    "trend": "declining",
-    "catalysts": [
-      "NVIDIA to buy Hugging Face, Einride launches VC firm, and fi",
-      "Nvidia agrees to buy Hugging Face for $12.9BN, says report",
-      "OpenAI Jalape\u00f1o Inference Chip just announced at Hot Chips"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 88
-    },
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "sector": "Consumer Tech",
@@ -158,7 +85,43 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 16,
+    "trend": "declining",
+    "catalysts": [
+      "NVIDIA to buy Hugging Face, Einride launches VC firm, and fi",
+      "Nvidia agrees to buy Hugging Face for $12.9BN, says report",
+      "OpenAI Jalape\u00f1o Inference Chip just announced at Hot Chips"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 54
+    },
+    "lastUpdated": "2026-08-29"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Does Latent Nuclear Deterrence Really Work?",
+      "Nuclear startup Oklo splits its first atoms in test reactor",
+      "Microreactor startup Valar Atomics raises $1B"
+    ],
+    "fundingQ": "$157M",
+    "components": {
+      "funding": 19,
+      "news": 15,
+      "hiring": 0,
+      "market": 21
+    },
+    "lastUpdated": "2026-08-29"
   },
   {
     "sector": "Drones & Autonomous",
@@ -176,11 +139,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 14,
+    "momentum": 13,
     "trend": "rising",
     "catalysts": [
       "NVIDIA to buy Hugging Face, Einride launches VC firm, and fi",
@@ -190,27 +153,11 @@
     "fundingQ": "$50M",
     "components": {
       "funding": 5,
-      "news": 50,
+      "news": 45,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-08-28"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "PsiQuantum\u2019s Ice Cream Factory"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 49
-    },
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "sector": "Housing & Construction",
@@ -226,7 +173,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "sector": "Ocean & Maritime",
@@ -242,7 +189,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -258,11 +205,63 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 8,
+    "trend": "declining",
+    "catalysts": [
+      "Carbon Robotics partners with iMerit to power instant in-fie",
+      "Hydrogen Is Still A Tonnes Market, No Matter How Many MWh We",
+      "Sage Geosystems brings its first next-gen geothermal plant o"
+    ],
+    "fundingQ": "$134M",
+    "components": {
+      "funding": 11,
+      "news": 15,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-08-29"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 4,
+    "trend": "declining",
+    "catalysts": [
+      "You can now ride a Chinese EV in the US as Waymo opens Zeekr",
+      "Ex-Tesla president: Roadster delay is about getting closer t",
+      "<a href=\"/biotech/chutes-ladders-vivace-adds-new-ceo-cbo-ahe"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-08-29"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 1,
+    "trend": "declining",
+    "catalysts": [
+      "PsiQuantum\u2019s Ice Cream Factory"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-08-29"
   },
   {
     "sector": "Transportation",
-    "momentum": 8,
+    "momentum": 0,
     "trend": "declining",
     "catalysts": [
       "Active transportation ecosystem"
@@ -272,8 +271,8 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 39
+      "market": 0
     },
-    "lastUpdated": "2026-08-28"
+    "lastUpdated": "2026-08-29"
   }
 ]

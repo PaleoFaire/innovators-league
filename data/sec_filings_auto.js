@@ -1,7 +1,10 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-08-28 18:22:32 UTC
+// Last updated: 2026-08-29 12:30:40 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "4", date: "2026-08-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "4", date: "2026-08-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Momentus", form: "8-K", date: "2026-08-28", description: "apre-20260828x8k.htm", isIPO: false, ticker: "MNTS" },
+  { company: "NuScale Power", form: "4", date: "2026-08-28", description: "xslF345X06/wk-form4_1787950354.xml", isIPO: false, ticker: "SMR" },
   { company: "C3.ai", form: "DEF 14A", date: "2026-08-28", description: "ai-20260827.htm", isIPO: false, ticker: "AI" },
   { company: "Oklo", form: "4", date: "2026-08-27", description: "xslF345X06/wk-form4_1787862889.xml", isIPO: false, ticker: "OKLO" },
   { company: "C3.ai", form: "4", date: "2026-08-27", description: "xslF345X06/wk-form4_1787870125.xml", isIPO: false, ticker: "AI" },
@@ -48,7 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "NuScale Power", form: "4", date: "2026-08-19", description: "xslF345X06/wk-form4_1787169657.xml", isIPO: false, ticker: "SMR" },
   { company: "Upstart Holdings", form: "4", date: "2026-08-19", description: "xslF345X06/wk-form4_1787178025.xml", isIPO: false, ticker: "UPST" },
   { company: "Upstart Holdings", form: "4", date: "2026-08-19", description: "xslF345X06/wk-form4_1787177685.xml", isIPO: false, ticker: "UPST" },
-  { company: "Upstart Holdings", form: "4", date: "2026-08-19", description: "xslF345X06/wk-form4_1787177655.xml", isIPO: false, ticker: "UPST" },
-  { company: "UiPath", form: "4", date: "2026-08-19", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "IonQ", form: "4", date: "2026-08-19", description: "xslF345X06/wk-form4_1787163725.xml", isIPO: false, ticker: "IONQ" },
 ];
