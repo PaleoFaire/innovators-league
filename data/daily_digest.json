@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T02:03:56.708224+00:00",
+  "generatedAt": "2026-08-29T08:56:57.600303+00:00",
   "date": "2026-08-29",
   "dateDisplay": "Saturday, August 29, 2026",
   "sections": {
@@ -71,13 +71,6 @@
         "change": -0.87
       },
       {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 6.88,
-        "changePercent": -13.38,
-        "change": -1.06
-      },
-      {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
         "price": 15.59,
@@ -97,6 +90,13 @@
         "price": 64.04,
         "changePercent": -11.9,
         "change": -8.65
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 64.39,
+        "changePercent": -11.27,
+        "change": -8.18
       }
     ],
     "regulatory": [
