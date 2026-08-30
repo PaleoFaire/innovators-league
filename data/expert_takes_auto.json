@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T12:41:05.898266Z",
+  "generated_at": "2026-08-30T11:47:22.387657Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -22,16 +22,6 @@
       "signal_type": "funding"
     },
     {
-      "author": "The Robot Report",
-      "role": "Industry signal",
-      "company": "Humanoid",
-      "text": "XPeng Motors humanoid robot unit Dogotix raises $900M",
-      "date": "Mon, 24 Au",
-      "source": "news",
-      "source_url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
-      "signal_type": "funding"
-    },
-    {
       "author": "Ars Technica",
       "role": "Industry signal",
       "company": "SpaceX",
@@ -45,7 +35,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 4,
+    "from_news": 3,
     "from_press": 0
   }
 }

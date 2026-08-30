@@ -4177,18 +4177,6 @@
   },
   {
     "company": "Space Exploration Technologies",
-    "awardId": "FA881125FB026",
-    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 904292.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2025-08-29",
-    "endDate": "2026-02-28",
-    "description": "NATIONAL SECURITY SPACE LAUNCH PHASE 3 LANE 2"
-  },
-  {
-    "company": "Space Exploration Technologies",
     "awardId": "15F06726F0001198",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
     "amount": 600000.0,
@@ -4258,18 +4246,6 @@
     "startDate": "2025-09-17",
     "endDate": "2026-09-14",
     "description": "STARLINK SERVICES"
-  },
-  {
-    "company": "Space Exploration Technologies",
-    "awardId": "FA254125FB018",
-    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 166609.61,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2025-09-01",
-    "endDate": "2026-08-31",
-    "description": "THE PURPOSE OF THIS REQUIREMENT IS TO ACQUIRE STARLINK LOCAL PRIORITY AND STARLINK GLOBAL PRIORITY SUBSCRIPTION SERVICES FOR DOD MISSION PARTNERS."
   },
   {
     "company": "Space Exploration Technologies",
@@ -4354,6 +4330,54 @@
     "startDate": "2025-08-01",
     "endDate": "2027-07-31",
     "description": "US COAST GUARD AIR STATION SITKA STARLINK INTERNET SERVICES"
+  },
+  {
+    "company": "Space Exploration Technologies",
+    "awardId": "19TX1026P0304",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 15450.0,
+    "agency": "Department of State",
+    "subAgency": "Department of State",
+    "awardType": null,
+    "startDate": "2026-08-14",
+    "endDate": "2026-12-30",
+    "description": "STARLINK SERVICE (NEC SDA FLOOR4) GLOBAL PRIORITY"
+  },
+  {
+    "company": "Space Exploration Technologies",
+    "awardId": "19TX1026P0303",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 15450.0,
+    "agency": "Department of State",
+    "subAgency": "Department of State",
+    "awardType": null,
+    "startDate": "2026-08-14",
+    "endDate": "2026-12-30",
+    "description": "STARLINK SERVICE (NEC SDA FLOOR1) GLOBAL PRIORITY"
+  },
+  {
+    "company": "Space Exploration Technologies",
+    "awardId": "19TX1026P0302",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 15450.0,
+    "agency": "Department of State",
+    "subAgency": "Department of State",
+    "awardType": null,
+    "startDate": "2026-08-14",
+    "endDate": "2026-10-13",
+    "description": "STARLINK SERVICE TBASHY1 RESIDENTIAL GLOBAL PRIORITY 08/26-10/26"
+  },
+  {
+    "company": "Space Exploration Technologies",
+    "awardId": "19TX1026P0301",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 15450.0,
+    "agency": "Department of State",
+    "subAgency": "Department of State",
+    "awardType": null,
+    "startDate": "2026-08-14",
+    "endDate": "2026-12-30",
+    "description": "STARLINK SERVICE 08/26-10/26"
   },
   {
     "company": "Space Exploration Technologies",
@@ -4474,18 +4498,6 @@
     "startDate": "2025-09-09",
     "endDate": "2026-03-31",
     "description": "31 SFS SKYDIO DRONES"
-  },
-  {
-    "company": "Skydio",
-    "awardId": "W911S725PA012",
-    "recipientName": "SKYDIO, INC",
-    "amount": 326218.32,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-08-19",
-    "endDate": "2025-08-28",
-    "description": "PURCHASE 18 SKYDIO X2D DRONE"
   },
   {
     "company": "Skydio",
@@ -5002,30 +5014,6 @@
     "startDate": "2024-06-12",
     "endDate": "2026-06-12",
     "description": "CUSTOM COMMAND-AND-CONTROL LINK AND PROTOTYPE TESTING: PEREGRINE HYBRID"
-  },
-  {
-    "company": "Neros",
-    "awardId": "H9224025PE045",
-    "recipientName": "NEROS, INC.",
-    "amount": 503000.0,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2025-08-28",
-    "endDate": "2025-09-26",
-    "description": "NEROS ARCHER UAS FIRST PERSON VIEW"
-  },
-  {
-    "company": "Neros",
-    "awardId": "FA485525P0060",
-    "recipientName": "NEROS, INC.",
-    "amount": 297500.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2025-08-18",
-    "endDate": "2025-09-30",
-    "description": "GROUP 1 UAS MODULAR PAYLOAD (SWAPPABLE BATTERIES, CAMERAS, ENGINES, FCG) UNDER 10 LBS QUAD ROTOR (SWAPPABLE) NO PROPRIETARY SYSTEMS THAT WILL STOP CHANGES IN FIELD CONTROLLERS SENSORS SPARE PARTS KITS"
   },
   {
     "company": "Neros",
@@ -6238,18 +6226,6 @@
     "startDate": "2025-07-23",
     "endDate": "2029-07-22",
     "description": "PICOGRID PLATFORM EXTENDING SBIR RESEARCH IN LINE WITH CONGRESSIONAL INTENT IN SUPPORT OF THE PLATFORM FOR ACTIVE PROTECTION AND RECONNAISSANCE (PAPR) PROGRAM."
-  },
-  {
-    "company": "Picogrid",
-    "awardId": "W5170125CA285",
-    "recipientName": "PICOGRID, INC.",
-    "amount": 1999958.4,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-09-19",
-    "endDate": "2027-09-19",
-    "description": "SMALL BUSINESS INNOVATION RESEARCH (SBIR), DIRECT TO PHASE II, TOPIC A254-027, LOW-ALTITUDE PASSIVE DETECTION SYSTEM."
   },
   {
     "company": "Picogrid",
@@ -8161,18 +8137,6 @@
   },
   {
     "company": "GrayMatter Robotics",
-    "awardId": "FA864925P0465",
-    "recipientName": "GRAYMATTER ROBOTICS INC.",
-    "amount": 1249610.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2025-08-29",
-    "endDate": "2027-05-28",
-    "description": "SMART ROBOTIC CANOPY SANDING"
-  },
-  {
-    "company": "GrayMatter Robotics",
     "awardId": "N6833525C0204",
     "recipientName": "GRAYMATTER ROBOTICS INC.",
     "amount": 173964.0,
@@ -8808,18 +8772,6 @@
     "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER."
   },
   {
-    "company": "Ultima Genomics",
-    "awardId": "75N92025P00333",
-    "recipientName": "ULTIMA GENOMICS, INC.",
-    "amount": 146500.0,
-    "agency": "Department of Health and Human Services",
-    "subAgency": "National Institutes of Health",
-    "awardType": null,
-    "startDate": "2025-09-01",
-    "endDate": "2026-08-31",
-    "description": "PURCHASE OF ULTIMA GENOMICS REAGENTS, NEW PO"
-  },
-  {
     "company": "Strand Therapeutics",
     "awardId": "FA864925P0501",
     "recipientName": "STRAND THERAPEUTICS INC.",
@@ -9298,18 +9250,6 @@
     "startDate": "2026-04-04",
     "endDate": "2027-04-03",
     "description": "FY26 LARC D2 EPSILON3 RENEWAL"
-  },
-  {
-    "company": "Epsilon3",
-    "awardId": "FA930025P6013",
-    "recipientName": "EPSILON3, INC.",
-    "amount": 24000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2025-09-01",
-    "endDate": "2026-08-31",
-    "description": "DIGITAL TEST PROCEDURE"
   },
   {
     "company": "Performance Drone Works",

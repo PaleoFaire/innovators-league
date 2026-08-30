@@ -1,7 +1,7 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 46,
+    "momentum": 45,
     "trend": "steady",
     "catalysts": [
       "PsiQuantum\u2019s Ice Cream Factory",
@@ -11,16 +11,16 @@
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 45,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "sector": "AI & Software",
-    "momentum": 39,
-    "trend": "steady",
+    "momentum": 35,
+    "trend": "rising",
     "catalysts": [
       "An Anthropic researcher just gave us a peek at self-improvin",
       "Anthropic gets its first court win over the Pentagon\u2019s suppl",
@@ -29,27 +29,11 @@
     "fundingQ": "$1.4B",
     "components": {
       "funding": 29,
-      "news": 75,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-29"
-  },
-  {
-    "sector": "Supersonic & Hypersonic",
-    "momentum": 32,
-    "trend": "rising",
-    "catalysts": [
-      "Bedrock Robotics&#8217; first operator-free excavator deploy"
-    ],
-    "fundingQ": "$219M",
-    "components": {
-      "funding": 58,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "sector": "Defense & Security",
@@ -67,11 +51,11 @@
       "hiring": 0,
       "market": 85
     },
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 19,
+    "momentum": 18,
     "trend": "declining",
     "catalysts": [
       "PsiQuantum\u2019s Ice Cream Factory",
@@ -81,20 +65,20 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 35,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "sector": "Chips & Semiconductors",
     "momentum": 16,
     "trend": "declining",
     "catalysts": [
+      "SpaceX Is Building the Chips AND the Rockets",
       "NVIDIA to buy Hugging Face, Einride launches VC firm, and fi",
-      "Nvidia agrees to buy Hugging Face for $12.9BN, says report",
-      "OpenAI Jalape\u00f1o Inference Chip just announced at Hot Chips"
+      "Nvidia agrees to buy Hugging Face for $12.9BN, says report"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -103,25 +87,7 @@
       "hiring": 0,
       "market": 54
     },
-    "lastUpdated": "2026-08-29"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 15,
-    "trend": "declining",
-    "catalysts": [
-      "Does Latent Nuclear Deterrence Really Work?",
-      "Nuclear startup Oklo splits its first atoms in test reactor",
-      "Microreactor startup Valar Atomics raises $1B"
-    ],
-    "fundingQ": "$157M",
-    "components": {
-      "funding": 19,
-      "news": 15,
-      "hiring": 0,
-      "market": 21
-    },
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "sector": "Drones & Autonomous",
@@ -139,25 +105,41 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 13,
+    "momentum": 14,
     "trend": "rising",
     "catalysts": [
+      "SpaceX Is Building the Chips AND the Rockets",
       "NVIDIA to buy Hugging Face, Einride launches VC firm, and fi",
-      "Elon Projects SpaceX $3.5 Trillion Revenue in 2033",
-      "Einride founders launch venture firm, targeting \u20ac450M Europe"
+      "Elon Projects SpaceX $3.5 Trillion Revenue in 2033"
     ],
     "fundingQ": "$50M",
     "components": {
       "funding": 5,
-      "news": 45,
+      "news": 50,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Bedrock Robotics&#8217; first operator-free excavator deploy"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-08-30"
   },
   {
     "sector": "Housing & Construction",
@@ -173,7 +155,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "sector": "Ocean & Maritime",
@@ -189,7 +171,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -205,25 +187,42 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
-    "sector": "Climate & Energy",
+    "sector": "Nuclear Energy",
     "momentum": 8,
     "trend": "declining",
     "catalysts": [
+      "Does Latent Nuclear Deterrence Really Work?",
+      "Nuclear startup Oklo splits its first atoms in test reactor",
+      "Microreactor startup Valar Atomics raises $1B"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 21
+    },
+    "lastUpdated": "2026-08-30"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 6,
+    "trend": "declining",
+    "catalysts": [
       "Carbon Robotics partners with iMerit to power instant in-fie",
-      "Hydrogen Is Still A Tonnes Market, No Matter How Many MWh We",
       "Sage Geosystems brings its first next-gen geothermal plant o"
     ],
     "fundingQ": "$134M",
     "components": {
       "funding": 11,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "sector": "Biotech & Health",
@@ -241,7 +240,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "sector": "Quantum Computing",
@@ -257,7 +256,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "sector": "Transportation",
@@ -273,6 +272,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   }
 ]
