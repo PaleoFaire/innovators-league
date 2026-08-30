@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -5.01,
+      "avg_change": -4.92,
       "count": 7
     },
     "nuclear": {
@@ -69,6 +69,11 @@
       3.53
     ],
     [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      2.08
+    ],
+    [
       "9348.T",
       "ispace",
       1.65
@@ -77,11 +82,6 @@
       "ALAB",
       "Astera Labs",
       1.58
-    ],
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      1.41
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -16.67
     ]
   ],
-  "lastUpdated": "2026-08-30 12:57:30"
+  "lastUpdated": "2026-08-30 17:33:35"
 }
