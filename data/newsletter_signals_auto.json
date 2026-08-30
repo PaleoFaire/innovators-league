@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-23T09:18:55+00:00",
+  "generatedAt": "2026-08-30T14:05:17+00:00",
   "lookbackDays": 14,
   "sources": [
     {
       "name": "Core Memory (Ashlee Vance)",
       "url": "https://www.corememory.com/feed",
       "totalItems": 20,
-      "recentItems": 3
+      "recentItems": 5
     },
     {
       "name": "Newcomer (Eric Newcomer)",
       "url": "https://www.newcomer.co/feed",
       "totalItems": 20,
-      "recentItems": 8
+      "recentItems": 7
     },
     {
       "name": "Latent Space (swyx)",
@@ -30,13 +30,13 @@
       "name": "The Generalist (Mario Gabriele)",
       "url": "https://www.generalist.com/feed",
       "totalItems": 20,
-      "recentItems": 2
+      "recentItems": 1
     },
     {
       "name": "Strange Loop Canon (Rohit Krishnan)",
       "url": "https://www.strangeloopcanon.com/feed",
       "totalItems": 20,
-      "recentItems": 2
+      "recentItems": 3
     },
     {
       "name": "Not Boring (Packy McCormick)",
@@ -53,8 +53,8 @@
     {
       "name": "TechCrunch \u00b7 Venture",
       "url": "https://techcrunch.com/category/venture/feed/",
-      "totalItems": 19,
-      "recentItems": 16
+      "totalItems": 18,
+      "recentItems": 18
     },
     {
       "name": "Rest of World",
@@ -87,139 +87,253 @@
       "recentItems": 4
     }
   ],
-  "totalRawSignals": 15,
-  "uniqueCandidateCount": 15,
+  "totalRawSignals": 21,
+  "uniqueCandidateCount": 20,
   "candidates": [
     {
-      "name": "UnslothAI",
-      "totalScore": 11.9,
+      "name": "Generalist",
+      "totalScore": 16.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "UnslothAI",
-          "score": 11.9,
-          "frontierTechScore": 3,
+          "name": "Generalist",
+          "score": 16.2,
+          "frontierTechScore": 5,
           "mentions": 1,
-          "context": " Unsloth Desktop, Muse Glimmer Support, and Linux Codex Unsloth Desktop expands the local stack :  @UnslothAI  launched  Unsloth Desktop , an open-source desktop app for  running and training  models ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] How to steal a Reasoning Trace",
-          "articleUrl": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
-          "articleDate": "Wed, 12 Aug 2026 07:11:08 GMT"
+          "context": "more than 20% and  dented the SaaSpocalypse story .  Space tech investing  is white hot. America\u2019s  Generalist  and China\u2019s  Dogotix  raised big rounds as investors swarm to the  robotics  sector.  Me",
+          "source": "Newcomer (Eric Newcomer)",
+          "sourceUrl": "https://www.newcomer.co/feed",
+          "articleTitle": "Nvidia Is Carrying the AI Economy. Is That a Problem?",
+          "articleUrl": "https://www.newcomer.co/p/nvidia-is-carrying-the-ai-economy",
+          "articleDate": "Fri, 28 Aug 2026 14:58:48 GMT"
         }
       ]
     },
     {
-      "name": "Unsloth Desktop",
-      "totalScore": 11.9,
+      "name": "Dogotix",
+      "totalScore": 16.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Unsloth Desktop",
-          "score": 11.9,
-          "frontierTechScore": 3,
+          "name": "Dogotix",
+          "score": 16.2,
+          "frontierTechScore": 5,
           "mentions": 1,
-          "context": "e Glimmer Support, and Linux Codex Unsloth Desktop expands the local stack :  @UnslothAI  launched  Unsloth Desktop , an open-source desktop app for  running and training  models locally across  Mac, ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] How to steal a Reasoning Trace",
-          "articleUrl": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
-          "articleDate": "Wed, 12 Aug 2026 07:11:08 GMT"
+          "context": " the SaaSpocalypse story .  Space tech investing  is white hot. America\u2019s  Generalist  and China\u2019s  Dogotix  raised big rounds as investors swarm to the  robotics  sector.  Meta  agreed to  pay up to ",
+          "source": "Newcomer (Eric Newcomer)",
+          "sourceUrl": "https://www.newcomer.co/feed",
+          "articleTitle": "Nvidia Is Carrying the AI Economy. Is That a Problem?",
+          "articleUrl": "https://www.newcomer.co/p/nvidia-is-carrying-the-ai-economy",
+          "articleDate": "Fri, 28 Aug 2026 14:58:48 GMT"
         }
       ]
     },
     {
       "name": "GLM",
-      "totalScore": 10.2,
+      "totalScore": 16.15,
       "sourceCount": 1,
       "signals": [
         {
           "name": "GLM",
+          "score": 16.15,
+          "frontierTechScore": 2,
+          "mentions": 2,
+          "context": " substantive independent evaluation in the tweet set came from Artificial Analysis. Their summary:  GLM-5.3-Flash scores 57 on the Artificial Analysis Intelligence Index . Artificial Analysis metrics ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
+          "articleUrl": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
+          "articleDate": "Thu, 27 Aug 2026 01:50:54 GMT"
+        }
+      ]
+    },
+    {
+      "name": "America",
+      "totalScore": 11.7,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "America",
+          "score": 11.7,
+          "frontierTechScore": 5,
+          "mentions": 1,
+          "context": "s stock up more than 20% and  dented the SaaSpocalypse story .  Space tech investing  is white hot. America\u2019s  Generalist  and China\u2019s  Dogotix  raised big rounds as investors swarm to the  robotics  ",
+          "source": "Newcomer (Eric Newcomer)",
+          "sourceUrl": "https://www.newcomer.co/feed",
+          "articleTitle": "Nvidia Is Carrying the AI Economy. Is That a Problem?",
+          "articleUrl": "https://www.newcomer.co/p/nvidia-is-carrying-the-ai-economy",
+          "articleDate": "Fri, 28 Aug 2026 14:58:48 GMT"
+        }
+      ]
+    },
+    {
+      "name": "H3 Max",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "H3 Max",
           "score": 10.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": " . GLM-5.3 looks like a post-training/infrastructure story, not a base-model story : Z.ai launched  GLM-5.3 via API  for coding, defensive cyber, and long-horizon agents, at the  same price as GLM-5.2",
+          "context": "ontrol stack is translating into preference data. fal + MiniMax H3 Max : In parallel, fal launched  H3 Max  with MiniMax, advertising  15s of high-quality video in 5s  and \u201c 50x faster \u201d generation th",
           "source": "Latent Space (swyx)",
           "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Memory prices up 500% in 12 months",
-          "articleUrl": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
-          "articleDate": "Wed, 19 Aug 2026 08:44:52 GMT"
+          "articleTitle": "[AINews] OpenAI to reach AGI bar by end-2026",
+          "articleUrl": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+          "articleDate": "Fri, 28 Aug 2026 07:12:10 GMT"
         }
       ]
     },
     {
-      "name": "Anduril",
-      "totalScore": 7.2,
+      "name": "MiniMax",
+      "totalScore": 10.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Anduril",
-          "score": 7.2,
+          "name": "MiniMax",
+          "score": 10.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "ght it was a pretty slow week and had it all set and then new stuff just kept coming out, including Anduril announcing that they\u2019ve launched a satellite, and I had to re-jigger things, which goes to s",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #206",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-206",
-          "articleDate": "Fri, 14 Aug 2026 13:10:36 GMT"
+          "context": "is translating into preference data. fal + MiniMax H3 Max : In parallel, fal launched  H3 Max  with MiniMax, advertising  15s of high-quality video in 5s  and \u201c 50x faster \u201d generation than other high",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] OpenAI to reach AGI bar by end-2026",
+          "articleUrl": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+          "articleDate": "Fri, 28 Aug 2026 07:12:10 GMT"
         }
       ]
     },
     {
-      "name": "In April",
-      "totalScore": 7.2,
+      "name": "Flash",
+      "totalScore": 10.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "In April",
-          "score": 7.2,
+          "name": "Flash",
+          "score": 10.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "ut recently, for the first time, being a Base Member doesn\u2019t necessarily mean installing a battery. In April, the company  launched Base Energy , \u201can energy plan with guaranteed below-market rates,\u201d f",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Base Power Company: Chapter 3",
-          "articleUrl": "https://www.notboring.co/p/base-power-company-chapter-3",
-          "articleDate": "Wed, 12 Aug 2026 13:53:37 GMT"
+          "context": "e/developer stacks. Facts vs opinions Facts / externally attributable claims Z.ai launched  GLM-5.3-Flash  as  320B total / 18B active ,  1M context ,  MIT-licensed ,  multimodal , previously previewe",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
+          "articleUrl": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
+          "articleDate": "Thu, 27 Aug 2026 01:50:54 GMT"
         }
       ]
     },
     {
-      "name": "Base Energy",
-      "totalScore": 7.2,
+      "name": "Valor",
+      "totalScore": 6.5,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Base Energy",
-          "score": 7.2,
-          "frontierTechScore": 2,
+          "name": "Valor",
+          "score": 6.5,
+          "frontierTechScore": 5,
           "mentions": 1,
-          "context": " being a Base Member doesn\u2019t necessarily mean installing a battery. In April, the company  launched Base Energy , \u201can energy plan with guaranteed below-market rates,\u201d for renters, apartments, and othe",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Base Power Company: Chapter 3",
-          "articleUrl": "https://www.notboring.co/p/base-power-company-chapter-3",
-          "articleDate": "Wed, 12 Aug 2026 13:53:37 GMT"
+          "context": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics\nGeneral In",
+          "source": "TechCrunch \u00b7 Venture",
+          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
+          "articleTitle": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
+          "articleUrl": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
+          "articleDate": "Mon, 24 Aug 2026 15:24:18 +0000"
         }
       ]
     },
     {
-      "name": "Phoebe Gates",
-      "totalScore": 6.3,
+      "name": "Point72",
+      "totalScore": 6.5,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Phoebe Gates",
-          "score": 6.3,
+          "name": "Point72",
+          "score": 6.5,
+          "frontierTechScore": 5,
+          "mentions": 1,
+          "context": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics\nGeneral Intuition",
+          "source": "TechCrunch \u00b7 Venture",
+          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
+          "articleTitle": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
+          "articleUrl": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
+          "articleDate": "Mon, 24 Aug 2026 15:24:18 +0000"
+        }
+      ]
+    },
+    {
+      "name": "MiniMax H3 Max",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "MiniMax H3 Max",
+          "score": 5.95,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "Aerospace  close big Series C rounds.  Brad Lightcap  becomes the latest top exec to leave  OpenAI. Phoebe Gates  faces fresh allegations of startup deception. The White House targets OpenAI policy ad",
-          "source": "Newcomer (Eric Newcomer)",
-          "sourceUrl": "https://www.newcomer.co/feed",
-          "articleTitle": "Thrive Capital Finds its Lane as a New Kind of Venture Investor",
-          "articleUrl": "https://www.newcomer.co/p/thrive-capital-finds-its-lane-as",
-          "articleDate": "Fri, 14 Aug 2026 15:23:43 GMT"
+          "context": "ndicates Google\u2019s latest post-training and control stack is translating into preference data. fal + MiniMax H3 Max : In parallel, fal launched  H3 Max  with MiniMax, advertising  15s of high-quality v",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] OpenAI to reach AGI bar by end-2026",
+          "articleUrl": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+          "articleDate": "Fri, 28 Aug 2026 07:12:10 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Artificial Analysis",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Artificial Analysis",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "cost/performance positioning The most substantive independent evaluation in the tweet set came from Artificial Analysis. Their summary:  GLM-5.3-Flash scores 57 on the Artificial Analysis Intelligence",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
+          "articleUrl": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
+          "articleDate": "Thu, 27 Aug 2026 01:50:54 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Local",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Local",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "ama on Jalape\u00f1o ,  @OpenAI benchmark announcement  drove the largest technical conversation by far. Local agent launch :  @perplexity_ai launching Portable Computer  was the biggest product release ou",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Hot Chips: OpenAI\u2019s Jalape\u00f1o, Cerebras CS-5, Groq 3 LPX, Apple M6",
+          "articleUrl": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
+          "articleDate": "Thu, 27 Aug 2026 01:31:22 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Portable Computer",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Portable Computer",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "nt  drove the largest technical conversation by far. Local agent launch :  @perplexity_ai launching Portable Computer  was the biggest product release outside the chip story. Developer platform / agen",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Hot Chips: OpenAI\u2019s Jalape\u00f1o, Cerebras CS-5, Groq 3 LPX, Apple M6",
+          "articleUrl": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
+          "articleDate": "Thu, 27 Aug 2026 01:31:22 GMT"
         }
       ]
     },
@@ -243,78 +357,40 @@
       ]
     },
     {
-      "name": "Linux Codex Unsloth",
-      "totalScore": 5.95,
+      "name": "Politico",
+      "totalScore": 5.4,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Linux Codex Unsloth",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "use rather than general chat prestige. Local AI Tooling: Unsloth Desktop, Muse Glimmer Support, and Linux Codex Unsloth Desktop expands the local stack :  @UnslothAI  launched  Unsloth Desktop , an op",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] How to steal a Reasoning Trace",
-          "articleUrl": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
-          "articleDate": "Wed, 12 Aug 2026 07:11:08 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Desktop",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Desktop",
-          "score": 5.95,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "ral chat prestige. Local AI Tooling: Unsloth Desktop, Muse Glimmer Support, and Linux Codex Unsloth Desktop expands the local stack :  @UnslothAI  launched  Unsloth Desktop , an open-source desktop ap",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] How to steal a Reasoning Trace",
-          "articleUrl": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
-          "articleDate": "Wed, 12 Aug 2026 07:11:08 GMT"
-        }
-      ]
-    },
-    {
-      "name": "After",
-      "totalScore": 4.5,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "After",
-          "score": 4.5,
+          "name": "Politico",
+          "score": 5.4,
           "frontierTechScore": 3,
           "mentions": 1,
-          "context": "Travis Kalanick kicks off another round of VC bashing: \u20181% are helpful\u2019\nAfter raising $1.7 billion for his new robotics company Atoms, Travis Kalanick is introspective abou",
-          "source": "TechCrunch \u00b7 Venture",
-          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
-          "articleTitle": "Travis Kalanick kicks off another round of VC bashing: \u20181% are helpful\u2019",
-          "articleUrl": "https://techcrunch.com/2026/08/19/travis-kalanick-kicks-off-another-round-of-vc-bashing-1-are-helpful/",
-          "articleDate": "Wed, 19 Aug 2026 21:48:24 +0000"
+          "context": "ank has published more than 100 articles since it launched less than a month ago.  First spotted by Politico , the Hanover Institute for Public Policy is run by the American advertising firm Piro Inc,",
+          "source": "404 Media",
+          "sourceUrl": "https://www.404media.co/feed",
+          "articleTitle": "Israel Is Running a Synthetic Think Tank to Influence AI Search Results",
+          "articleUrl": "https://www.404media.co/israel-is-running-a-synthetic-think-tank-to-influence-ai-search-results/",
+          "articleDate": "Tue, 25 Aug 2026 18:35:26 GMT"
         }
       ]
     },
     {
-      "name": "Travis Kalanick",
-      "totalScore": 4.5,
+      "name": "Hanover Institute",
+      "totalScore": 5.4,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Travis Kalanick",
-          "score": 4.5,
+          "name": "Hanover Institute",
+          "score": 5.4,
           "frontierTechScore": 3,
           "mentions": 1,
-          "context": "ound of VC bashing: \u20181% are helpful\u2019\nAfter raising $1.7 billion for his new robotics company Atoms, Travis Kalanick is introspective about the role VCs have played in his career.",
-          "source": "TechCrunch \u00b7 Venture",
-          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
-          "articleTitle": "Travis Kalanick kicks off another round of VC bashing: \u20181% are helpful\u2019",
-          "articleUrl": "https://techcrunch.com/2026/08/19/travis-kalanick-kicks-off-another-round-of-vc-bashing-1-are-helpful/",
-          "articleDate": "Wed, 19 Aug 2026 21:48:24 +0000"
+          "context": "ed more than 100 articles since it launched less than a month ago.  First spotted by Politico , the Hanover Institute for Public Policy is run by the American advertising firm Piro Inc, paid for by Is",
+          "source": "404 Media",
+          "sourceUrl": "https://www.404media.co/feed",
+          "articleTitle": "Israel Is Running a Synthetic Think Tank to Influence AI Search Results",
+          "articleUrl": "https://www.404media.co/israel-is-running-a-synthetic-think-tank-to-influence-ai-search-results/",
+          "articleDate": "Tue, 25 Aug 2026 18:35:26 GMT"
         }
       ]
     },
@@ -372,6 +448,25 @@
           "articleTitle": "Weekly Dose of Optimism #207",
           "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-207",
           "articleDate": "Fri, 21 Aug 2026 14:23:17 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Israel",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Israel",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "Israel Is Running a Synthetic Think Tank to Influence AI Search Results\n\n \n \n \n A synthetic Israel-funded think tank has published more than 100 articles since it launched less than a month ag",
+          "source": "404 Media",
+          "sourceUrl": "https://www.404media.co/feed",
+          "articleTitle": "Israel Is Running a Synthetic Think Tank to Influence AI Search Results",
+          "articleUrl": "https://www.404media.co/israel-is-running-a-synthetic-think-tank-to-influence-ai-search-results/",
+          "articleDate": "Tue, 25 Aug 2026 18:35:26 GMT"
         }
       ]
     }

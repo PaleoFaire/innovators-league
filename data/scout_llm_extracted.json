@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-23T09:20:57+00:00",
+  "generatedAt": "2026-08-30T14:07:37+00:00",
   "model": "claude-haiku-4-5",
   "rosterSize": 1978,
   "rawItemsConsidered": 85,
   "newExtractionsThisRun": 85,
-  "uniqueCandidates": 31,
+  "uniqueCandidates": 35,
   "candidates": [
     {
       "name": "Fireworks",
@@ -38,7 +38,7 @@
       ],
       "sourceCount": 2,
       "multiSource": true,
-      "description": "AI infrastructure company that raised $1.5B, focusing on enabling AI applications through infrastructure services."
+      "description": "An AI infrastructure company that raised $1.5B, positioning itself as a key player in the AI deployment and inference layer."
     },
     {
       "name": "Legora",
@@ -61,8 +61,7 @@
         }
       ],
       "sectors": [
-        "AI & Compute",
-        "Other"
+        "AI & Compute"
       ],
       "founders": [],
       "stealthSignal": false,
@@ -73,7 +72,7 @@
       ],
       "sourceCount": 2,
       "multiSource": true,
-      "description": "Narrow AI models disrupting law firms by replacing billable-hour legal work, competing against LexisNexis incumbents."
+      "description": "Narrow AI startup disrupting legal firms by automating billable hour work and competing with LexisNexis using specialized legal AI models."
     },
     {
       "name": "Lovable",
@@ -110,14 +109,14 @@
         "Anton Osika"
       ],
       "stealthSignal": false,
-      "confidence": "high",
+      "confidence": "medium",
       "sources": [
         "20VC",
         "All-In"
       ],
       "sourceCount": 2,
       "multiSource": true,
-      "description": "AI platform enabling rapid app creation with vibe coding, targeting dramatic reduction in development costs and enabling one million new apps per week."
+      "description": "AI-powered platform that enables rapid application development, claimed to support generation of one million new apps weekly through automated coding and builder cost reduction."
     },
     {
       "name": "Arena",
@@ -144,7 +143,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Real-world evaluation platform that benchmarks and compares global AI models, serving as a referee for the AI model race with 30M+ monthly users and $100M+ ARR."
+      "description": "A real-world evaluation platform that benchmarks and compares global AI models, serving as a referee in the AI model race with 30M+ monthly users."
     },
     {
       "name": "Coherence",
@@ -171,7 +170,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Develops implantable devices that track and treat cancer tumors with precision monitoring and targeted intervention."
+      "description": "Develops implantable devices that track and treat cancer tumors with precision monitoring and targeted treatment."
     },
     {
       "name": "Curative",
@@ -198,7 +197,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A health tech company that scaled from COVID testing operations to a unicorn-valued health insurance business."
+      "description": "A health insurance and diagnostic testing company that scaled from COVID testing operations to a unicorn-valued health tech platform."
     },
     {
       "name": "ElevenLabs",
@@ -223,7 +222,34 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI voice synthesis and text-to-speech platform with $600M ARR and 600 employees, competing with OpenAI and Anthropic on voice technology."
+      "description": "AI voice synthesis and text-to-speech platform generating $600M ARR with 600 employees, competing with OpenAI and Anthropic on voice technology."
+    },
+    {
+      "name": "Factory",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Is Anthropic's Coding Business Worth $2 Trillion? | Should American Enterprises Work With Open-Source Chinese Models? | Why 80\u201390% of Neo-Labs Die in the Next 18 Months? with Eno Reyes, Co-Found",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-is-anthropics-coding-business-worth-2-trillion-should-american-enterprises-work-with-open-source-chinese-models-why-8090-of-neo-labs-die-in-the-next-18-months-with-eno-reyes-co-founder-factory",
+          "date": "Sat, 29 Aug 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [
+        "Eno Reyes"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Agent-native software development platform that builds autonomous AI agents (\"Droids\") to automate enterprise engineering tasks."
     },
     {
       "name": "Fireworks AI",
@@ -250,7 +276,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A specialized intelligence and AI inference platform optimized for running and serving AI models at scale with lower costs."
+      "description": "Specialized intelligence and AI inference platform enabling efficient deployment and optimization of language models."
     },
     {
       "name": "Flock",
@@ -277,38 +303,19 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "License plate recognition and camera network platform for law enforcement that analyzes traffic data to solve crimes while managing privacy concerns."
-    },
-    {
-      "name": "Glean",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Why OpenAI and Anthropic Won't Win the App Layer | Why Teams Will Get Bigger Not Smaller in a World of AI | Why AI Removes Incumbents Advantage of Bundling | China vs America: Who Wins the AI Wa",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-why-openai-and-anthropic-wont-win-the-app-layer-why-teams-will-get-bigger-not-smaller-in-a-world-of-ai-why-ai-removes-incumbents-advantage-of-bundling-china-vs-america-who-wins-the-ai-war-with-arvind-jain-co-founder-glean",
-          "date": "Sat, 11 Jul 2026 07:07:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [
-        "Arvind Jain"
-      ],
-      "stealthSignal": false,
-      "confidence": "high",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "Enterprise AI platform that helps organizations search and extract insights from internal data and documents."
+      "description": "License plate recognition and camera network company that aggregates data for law enforcement investigations while implementing privacy controls like data retention limits."
     },
     {
       "name": "Mercor",
       "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: NVIDIA Bonanza: Buys Poolside & Invests in Mercor and Perplexity | Anthropic's $30TRN Revenue Assumption & OpenAI Confirms IPO | Why Customer Service, Defence and Robotics are Overinflated",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-bonanza-buys-poolside-invests-in-mercor-and-perplexity-anthropics-30trn-revenue-assumption-openai-confirms-ipo-why-customer-service-defence-and-robotics-are-overinflated",
+          "date": "Thu, 27 Aug 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        },
         {
           "source": "20VC",
           "host": "Harry Stebbings",
@@ -329,7 +336,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI-training and expert-data marketplace that powers frontier-model development, with $2 billion ARR as of June."
+      "description": "AI-training and expert-data marketplace that powers frontier-model development, with $2BN ARR as of June."
     },
     {
       "name": "NEO",
@@ -356,7 +363,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Building an open-source robot platform shipping in 2026 capable of robots building robots."
+      "description": "Building an open robot platform designed to ship in 2026 with capabilities for robots to build robots."
     },
     {
       "name": "OpenRouter",
@@ -407,7 +414,59 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Unified interface platform that aggregates access to multiple large language models from different providers."
+      "description": "A routing layer platform for AI models that aggregates access to multiple frontier models, positioning itself as potentially acquisition-worthy infrastructure."
+    },
+    {
+      "name": "Sail",
+      "discoveries": [
+        {
+          "source": "Invest Like the Best",
+          "host": "Patrick O'Shaughnessy",
+          "title": "Neil Movva - Making AI 10x Cheaper - [Invest Like the Best, EP.488]",
+          "url": "https://colossus.com/episode/from-transistor-to-token/",
+          "date": "Tue, 25 Aug 2026 08:00:00 -0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [
+        "Neil Movva"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "Invest Like the Best"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "An inference company optimized for long-running AI agents that operate asynchronously over hours or days, prioritizing cost reduction over latency."
+    },
+    {
+      "name": "Sierra",
+      "discoveries": [
+        {
+          "source": "Invest Like the Best",
+          "host": "Patrick O'Shaughnessy",
+          "title": "Eric Vishria - A Decade of Lessons Investing in Software & Hardware - [Invest Like the Best, EP.486]",
+          "url": "https://colossus.com/episode/sandcastles-and-silicon/",
+          "date": "Tue, 11 Aug 2026 08:00:00 -0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "Invest Like the Best"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "An AI platform focused on customer-facing applications and intelligent automation."
     },
     {
       "name": "Simile",
@@ -434,7 +493,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI company building foundation models of human behavior to simulate how real people think, decide, and act for corporate decision-making."
+      "description": "Builds foundation models of human behavior that allow companies to simulate and test how real people think, decide, and act before making real-world decisions."
     },
     {
       "name": "Astra",
@@ -459,17 +518,67 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Space company that has achieved 10 mathematical or technical advances, likely in launch or orbital mechanics."
+      "description": "Space company that has made 10 mathematical or technical advances, likely in launch or orbital mechanics."
     },
     {
-      "name": "Base44",
+      "name": "Cere",
+      "discoveries": [
+        {
+          "source": "Invest Like the Best",
+          "host": "Patrick O'Shaughnessy",
+          "title": "Eric Vishria - A Decade of Lessons Investing in Software & Hardware - [Invest Like the Best, EP.486]",
+          "url": "https://colossus.com/episode/sandcastles-and-silicon/",
+          "date": "Tue, 11 Aug 2026 08:00:00 -0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "Invest Like the Best"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "A decentralized data and AI platform for managing and monetizing data."
+    },
+    {
+      "name": "fal",
+      "discoveries": [
+        {
+          "source": "Latent Space (swyx)",
+          "host": "",
+          "title": "[AINews] OpenAI to reach AGI bar by end-2026",
+          "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+          "date": "Fri, 28 Aug 2026 07:12:10 GMT",
+          "kind": "newsletter_article"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "Latent Space (swyx)"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "AI platform enabling rapid video generation, partnering with MiniMax on H3 Max model for accelerated content creation."
+    },
+    {
+      "name": "Hugging Face",
       "discoveries": [
         {
           "source": "20VC",
           "host": "Harry Stebbings",
-          "title": "20VC: Wix's Founder on What Wall St Gets Wrong About AI and Wix | Will Base44 Win the Vibe Coding Wars | The Truth About the Economics of Vibe-Coding | The Buyback Disaster: Lessons Learned with Avish",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-wixs-founder-on-what-wall-st-gets-wrong-about-ai-and-wix-will-base44-win-the-vibe-coding-wars-the-truth-about-the-economics-of-vibe-coding-the-buyback-disaster-lessons-learned-with-avishai-abrahami",
-          "date": "Mon, 13 Jul 2026 07:07:00 +0000",
+          "title": "20VC: NVIDIA Bonanza: Buys Poolside & Invests in Mercor and Perplexity | Anthropic's $30TRN Revenue Assumption & OpenAI Confirms IPO | Why Customer Service, Defence and Robotics are Overinflated",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-bonanza-buys-poolside-invests-in-mercor-and-perplexity-anthropics-30trn-revenue-assumption-openai-confirms-ipo-why-customer-service-defence-and-robotics-are-overinflated",
+          "date": "Thu, 27 Aug 2026 07:07:00 +0000",
           "kind": "podcast_episode"
         }
       ],
@@ -484,32 +593,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "An AI application-building platform focused on no-code/low-code development, acquired by Wix."
-    },
-    {
-      "name": "CoreWeave",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Sam Altman Offers Trump 5% of OpenAI: Fool or Genius? | Alex Karp Sounds the Alarm: Enterprises Fear Frontier Models & Questionable ROI of AI | The Rise of Chinese Open Source: Deepseek Building",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-sam-altman-offers-trump-5-of-openai-fool-or-genius-alex-karp-sounds-the-alarm-enterprises-fear-frontier-models-questionable-roi-of-ai-the-rise-of-chinese-open-source-deepseek-building-own-chips",
-          "date": "Thu, 09 Jul 2026 07:07:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A compute infrastructure provider that appears to be positioned as a competitor or alternative to traditional GPU/AI compute suppliers."
+      "description": "An open-source AI models platform drawing takeover interest as open models gain traction."
     },
     {
       "name": "Intelligence",
@@ -536,69 +620,17 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Uses human preferences to improve AI-generated designs, games, and websites through a design arena platform."
+      "description": "Uses human preferences to improve AI-generated designs, games, and websites through feedback mechanisms."
     },
     {
-      "name": "Rubrik",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Why OpenAI and Anthropic Won't Win the App Layer | Why Teams Will Get Bigger Not Smaller in a World of AI | Why AI Removes Incumbents Advantage of Bundling | China vs America: Who Wins the AI Wa",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-why-openai-and-anthropic-wont-win-the-app-layer-why-teams-will-get-bigger-not-smaller-in-a-world-of-ai-why-ai-removes-incumbents-advantage-of-bundling-china-vs-america-who-wins-the-ai-war-with-arvind-jain-co-founder-glean",
-          "date": "Sat, 11 Jul 2026 07:07:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Advanced Manufacturing"
-      ],
-      "founders": [
-        "Arvind Jain"
-      ],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "Cloud infrastructure company focused on data management and backup solutions."
-    },
-    {
-      "name": "Sierra",
-      "discoveries": [
-        {
-          "source": "Invest Like the Best",
-          "host": "Patrick O'Shaughnessy",
-          "title": "Eric Vishria - A Decade of Lessons Investing in Software & Hardware - [Invest Like the Best, EP.486]",
-          "url": "https://colossus.com/episode/sandcastles-and-silicon/",
-          "date": "Tue, 11 Aug 2026 08:00:00 -0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "Invest Like the Best"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "An AI company focused on customer-facing applications and intelligence."
-    },
-    {
-      "name": "Unsloth AI",
+      "name": "MiniMax",
       "discoveries": [
         {
           "source": "Latent Space (swyx)",
           "host": "",
-          "title": "[AINews] How to steal a Reasoning Trace",
-          "url": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
-          "date": "Wed, 12 Aug 2026 07:11:08 GMT",
+          "title": "[AINews] OpenAI to reach AGI bar by end-2026",
+          "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+          "date": "Fri, 28 Aug 2026 07:12:10 GMT",
           "kind": "newsletter_article"
         }
       ],
@@ -613,7 +645,57 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Provides open-source tools for running and training AI models locally on desktop environments."
+      "description": "AI model provider developing H3 Max, a high-speed video generation model delivering 50x faster performance."
+    },
+    {
+      "name": "Perplexity",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: NVIDIA Bonanza: Buys Poolside & Invests in Mercor and Perplexity | Anthropic's $30TRN Revenue Assumption & OpenAI Confirms IPO | Why Customer Service, Defence and Robotics are Overinflated",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-bonanza-buys-poolside-invests-in-mercor-and-perplexity-anthropics-30trn-revenue-assumption-openai-confirms-ipo-why-customer-service-defence-and-robotics-are-overinflated",
+          "date": "Thu, 27 Aug 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "An AI search or research platform that NVIDIA is investing in, valued at $30BN."
+    },
+    {
+      "name": "Tacto",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Inside Sequoia's Investment Committee: Lessons from Don Valentine, Doug Leone and Alfred Lin | How the SpaceX and Citadel Deals Went Down | What Sequoia Specifically Looks for in Founders with J",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-inside-sequoias-investment-committee-lessons-from-don-valentine-doug-leone-and-alfred-lin-how-the-spacex-and-citadel-deals-went-down-what-sequoia-specifically-looks-for-in-founders-with-julien-bek",
+          "date": "Mon, 24 Aug 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Robotics & Manufacturing"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Portfolio company at Sequoia focused on robotics or manufacturing automation."
     },
     {
       "name": "Viktor",
@@ -638,7 +720,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "An AI coworker platform backed by Accel that automates work tasks."
+      "description": "An AI coworker platform backed by Accel that helps automate work tasks."
     },
     {
       "name": "Wispr Flow",
@@ -663,7 +745,32 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "An AI-powered application that scaled from pre-launch to millions of users."
+      "description": "An AI application that scaled to millions of users with a focus on growth-driven product development."
+    },
+    {
+      "name": "Auctor",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Inside Sequoia's Investment Committee: Lessons from Don Valentine, Doug Leone and Alfred Lin | How the SpaceX and Citadel Deals Went Down | What Sequoia Specifically Looks for in Founders with J",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-inside-sequoias-investment-committee-lessons-from-don-valentine-doug-leone-and-alfred-lin-how-the-spacex-and-citadel-deals-went-down-what-sequoia-specifically-looks-for-in-founders-with-julien-bek",
+          "date": "Mon, 24 Aug 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Portfolio company at Sequoia; specific business model not detailed in excerpt."
     },
     {
       "name": "Axiom",
@@ -688,57 +795,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Likely a robotics or automation company in Menlo's portfolio."
-    },
-    {
-      "name": "Base Energy",
-      "discoveries": [
-        {
-          "source": "Not Boring (Packy McCormick)",
-          "host": "",
-          "title": "Base Power Company: Chapter 3",
-          "url": "https://www.notboring.co/p/base-power-company-chapter-3",
-          "date": "Wed, 12 Aug 2026 13:53:37 GMT",
-          "kind": "newsletter_article"
-        }
-      ],
-      "sectors": [
-        "Climate & Energy"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "low",
-      "sources": [
-        "Not Boring (Packy McCormick)"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "An energy plan service offering guaranteed below-market rates to customers, launched as an expansion of Base's core offerings."
-    },
-    {
-      "name": "Cere",
-      "discoveries": [
-        {
-          "source": "Invest Like the Best",
-          "host": "Patrick O'Shaughnessy",
-          "title": "Eric Vishria - A Decade of Lessons Investing in Software & Hardware - [Invest Like the Best, EP.486]",
-          "url": "https://colossus.com/episode/sandcastles-and-silicon/",
-          "date": "Tue, 11 Aug 2026 08:00:00 -0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "low",
-      "sources": [
-        "Invest Like the Best"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A company working in the AI or data infrastructure space."
+      "description": "A company focused on robotic process automation or autonomous systems for industrial applications."
     },
     {
       "name": "Cursor",
@@ -763,7 +820,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI-powered code editor that was acquired by SpaceX for $60BN according to the podcast discussion."
+      "description": "AI-powered code editor that was acquired by SpaceX for $60BN according to the podcast headline."
     },
     {
       "name": "Design Arena",
@@ -788,7 +845,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Platform that leverages human preferences to enhance AI-generated creative outputs across design, gaming, and web applications."
+      "description": "Platform that leverages human preferences to enhance AI-generated creative outputs across design and digital products."
     },
     {
       "name": "Frontier Labs",
@@ -813,7 +870,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "An organization or collective of frontier technology labs advocating for slowing down AI development."
+      "description": "An organization or coalition of frontier technology labs advocating for slowing down AI development."
     },
     {
       "name": "Higgsfield",
@@ -828,7 +885,7 @@
         }
       ],
       "sectors": [
-        "Quantum Computing"
+        "Other"
       ],
       "founders": [],
       "stealthSignal": false,
@@ -863,7 +920,57 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A biotech or health-tech platform focused on evidence or data."
+      "description": "A platform applying AI to evidence synthesis or clinical research automation in healthcare."
+    },
+    {
+      "name": "Rillet",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Inside Sequoia's Investment Committee: Lessons from Don Valentine, Doug Leone and Alfred Lin | How the SpaceX and Citadel Deals Went Down | What Sequoia Specifically Looks for in Founders with J",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-inside-sequoias-investment-committee-lessons-from-don-valentine-doug-leone-and-alfred-lin-how-the-spacex-and-citadel-deals-went-down-what-sequoia-specifically-looks-for-in-founders-with-julien-bek",
+          "date": "Mon, 24 Aug 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Portfolio company at Sequoia that Julien Bek has partnered with; specific business model not detailed in excerpt."
+    },
+    {
+      "name": "Terafab",
+      "discoveries": [
+        {
+          "source": "All-In",
+          "host": "Chamath/Jason/Sacks/Friedberg",
+          "title": "Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
+          "url": "https://allinchamathjason.libsyn.com/googles-ai-brain-drain-spacexs-huge-quarter-airtables-90-collapse-us-data-fuels-china-ai",
+          "date": "Sat, 08 Aug 2026 00:32:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Advanced Manufacturing"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "All-In"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Advanced manufacturing company mentioned in context of SpaceX's operations and capabilities."
     }
   ]
 }

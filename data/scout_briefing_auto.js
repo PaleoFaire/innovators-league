@@ -1,186 +1,16 @@
 // Auto-generated from scout_briefing_auto.json
-// Last updated: 2026-08-23T09:20:57+00:00
+// Last updated: 2026-08-30T14:07:38+00:00
 const SCOUT_BRIEFING_AUTO = {
-  "generatedAt": "2026-08-23T09:20:57+00:00",
-  "weekOf": "2026-08-23",
+  "generatedAt": "2026-08-30T14:07:38+00:00",
+  "weekOf": "2026-08-30",
   "summary": {
     "rosterSize": 1257,
-    "candidatesScreened": 275,
+    "candidatesScreened": 284,
     "topPicks": 5,
     "runnerUp": 10,
-    "rejected": 157
+    "rejected": 166
   },
   "topPicks": [
-    {
-      "name": "Abridge",
-      "score": 33.3,
-      "signals": [
-        {
-          "name": "Abridge",
-          "source": "VC portfolio: Bessemer",
-          "sourceWeight": 35,
-          "vc": "Bessemer",
-          "date": "2026-04-27",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Bessemer portfolio on 2026-04-27"
-        },
-        {
-          "name": "Abridge",
-          "source": "VC portfolio: Spark Capital",
-          "sourceWeight": 35,
-          "vc": "Spark Capital",
-          "date": "2026-04-27",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Spark Capital portfolio on 2026-04-27"
-        },
-        {
-          "name": "Abridge",
-          "source": "VC portfolio: Pillar VC",
-          "sourceWeight": 35,
-          "vc": "Pillar VC",
-          "date": "2026-04-27",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Pillar VC portfolio on 2026-04-27"
-        },
-        {
-          "name": "Abridge",
-          "source": "VC portfolio: Bessemer",
-          "sourceWeight": 35,
-          "vc": "Bessemer",
-          "date": "2026-05-01",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Bessemer portfolio on 2026-05-01"
-        },
-        {
-          "name": "Abridge",
-          "source": "VC portfolio: Spark Capital",
-          "sourceWeight": 35,
-          "vc": "Spark Capital",
-          "date": "2026-05-01",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Spark Capital portfolio on 2026-05-01"
-        },
-        {
-          "name": "Abridge",
-          "source": "VC portfolio: Pillar VC",
-          "sourceWeight": 35,
-          "vc": "Pillar VC",
-          "date": "2026-05-01",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Pillar VC portfolio on 2026-05-01"
-        },
-        {
-          "name": "Abridge",
-          "source": "VC portfolio: Bessemer",
-          "sourceWeight": 35,
-          "vc": "Bessemer",
-          "date": "2026-08-12",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Bessemer portfolio on 2026-08-12"
-        },
-        {
-          "name": "Abridge",
-          "source": "VC portfolio: Spark Capital",
-          "sourceWeight": 35,
-          "vc": "Spark Capital",
-          "date": "2026-08-12",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Spark Capital portfolio on 2026-08-12"
-        },
-        {
-          "name": "Abridge",
-          "source": "VC portfolio: Pillar VC",
-          "sourceWeight": 35,
-          "vc": "Pillar VC",
-          "date": "2026-08-12",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Pillar VC portfolio on 2026-08-12"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null,
-      "dimensions": {
-        "capital_quality": 15,
-        "magnitude": 0,
-        "tech_depth": 0,
-        "frontier_fit": 0,
-        "stealth_signal": 10,
-        "founder_signal": 0,
-        "excitement": 8.3
-      },
-      "briefing": "**Abridge** \u2014 frontier tech.\n\n Backing: Bessemer, Pillar VC, Spark Capital.\n\nSurfaced in just one source \u2014 early intel, before the rest of the market.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 33/70."
-    },
-    {
-      "name": "Atomic Semi",
-      "score": 33.3,
-      "signals": [
-        {
-          "name": "Atomic Semi",
-          "source": "VC portfolio: AV",
-          "sourceWeight": 35,
-          "vc": "AV",
-          "date": "2026-03-16",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in AV portfolio on 2026-03-16"
-        },
-        {
-          "name": "Atomic Semi",
-          "source": "VC portfolio: AV",
-          "sourceWeight": 35,
-          "vc": "AV",
-          "date": "2026-04-01",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in AV portfolio on 2026-04-01"
-        },
-        {
-          "name": "Atomic Semi",
-          "source": "VC portfolio: AV",
-          "sourceWeight": 35,
-          "vc": "AV",
-          "date": "2026-05-01",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in AV portfolio on 2026-05-01"
-        },
-        {
-          "name": "Atomic Semi",
-          "source": "VC portfolio: Greylock",
-          "sourceWeight": 35,
-          "vc": "Greylock",
-          "date": "2026-08-12",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Greylock portfolio on 2026-08-12"
-        },
-        {
-          "name": "Atomic Semi",
-          "source": "VC portfolio: AV",
-          "sourceWeight": 35,
-          "vc": "AV",
-          "date": "2026-08-12",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in AV portfolio on 2026-08-12"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null,
-      "dimensions": {
-        "capital_quality": 15,
-        "magnitude": 0,
-        "tech_depth": 0,
-        "frontier_fit": 0,
-        "stealth_signal": 10,
-        "founder_signal": 0,
-        "excitement": 8.3
-      },
-      "briefing": "**Atomic Semi** \u2014 frontier tech.\n\n Backing: AV, Greylock.\n\nSurfaced in just one source \u2014 early intel, before the rest of the market.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 33/70."
-    },
     {
       "name": "GALOIS, INC.",
       "score": 31.7,
@@ -346,12 +176,99 @@ const SCOUT_BRIEFING_AUTO = {
         "excitement": 6.3
       },
       "briefing": "**OpenAI** \u2014 frontier tech.\n\n Backing: Founders Fund, Greylock, Khosla.\n\nTech depth signals (patents/DARPA programs) suggest real engineering substance.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 31/70."
-    }
-  ],
-  "runnersUp": [
+    },
     {
-      "name": "Founder Tier",
+      "name": "Abridge",
       "score": 30.7,
+      "signals": [
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Bessemer",
+          "sourceWeight": 35,
+          "vc": "Bessemer",
+          "date": "2026-04-27",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Bessemer portfolio on 2026-04-27"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Spark Capital",
+          "sourceWeight": 35,
+          "vc": "Spark Capital",
+          "date": "2026-04-27",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Spark Capital portfolio on 2026-04-27"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Pillar VC",
+          "sourceWeight": 35,
+          "vc": "Pillar VC",
+          "date": "2026-04-27",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Pillar VC portfolio on 2026-04-27"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Bessemer",
+          "sourceWeight": 35,
+          "vc": "Bessemer",
+          "date": "2026-05-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Bessemer portfolio on 2026-05-01"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Spark Capital",
+          "sourceWeight": 35,
+          "vc": "Spark Capital",
+          "date": "2026-05-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Spark Capital portfolio on 2026-05-01"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Pillar VC",
+          "sourceWeight": 35,
+          "vc": "Pillar VC",
+          "date": "2026-05-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Pillar VC portfolio on 2026-05-01"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Bessemer",
+          "sourceWeight": 35,
+          "vc": "Bessemer",
+          "date": "2026-08-12",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Bessemer portfolio on 2026-08-12"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Spark Capital",
+          "sourceWeight": 35,
+          "vc": "Spark Capital",
+          "date": "2026-08-12",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Spark Capital portfolio on 2026-08-12"
+        },
+        {
+          "name": "Abridge",
+          "source": "VC portfolio: Pillar VC",
+          "sourceWeight": 35,
+          "vc": "Pillar VC",
+          "date": "2026-08-12",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Pillar VC portfolio on 2026-08-12"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null,
       "dimensions": {
         "capital_quality": 15,
         "magnitude": 0,
@@ -361,10 +278,11 @@ const SCOUT_BRIEFING_AUTO = {
         "founder_signal": 0,
         "excitement": 7.7
       },
-      "sources": [
-        "VC portfolio"
-      ],
-      "suggestedSector": null,
+      "briefing": "**Abridge** \u2014 frontier tech.\n\n Backing: Bessemer, Pillar VC, Spark Capital.\n\nSurfaced in just one source \u2014 early intel, before the rest of the market.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 31/70."
+    },
+    {
+      "name": "Founder Tier",
+      "score": 30.7,
       "signals": [
         {
           "name": "Founder Tier",
@@ -383,6 +301,97 @@ const SCOUT_BRIEFING_AUTO = {
           "date": "2026-04-01",
           "verifyUrl": "portfolio_page",
           "context": "Newly listed in Founders Fund portfolio on 2026-04-01"
+        },
+        {
+          "name": "Founder Tier",
+          "source": "VC portfolio: Founders Fund",
+          "sourceWeight": 35,
+          "vc": "Founders Fund",
+          "date": "2026-05-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Founders Fund portfolio on 2026-05-01"
+        },
+        {
+          "name": "Founder Tier",
+          "source": "VC portfolio: Founders Fund",
+          "sourceWeight": 35,
+          "vc": "Founders Fund",
+          "date": "2026-06-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Founders Fund portfolio on 2026-06-01"
+        },
+        {
+          "name": "Founder Tier",
+          "source": "VC portfolio: Founders Fund",
+          "sourceWeight": 35,
+          "vc": "Founders Fund",
+          "date": "2026-07-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Founders Fund portfolio on 2026-07-01"
+        },
+        {
+          "name": "Founder Tier",
+          "source": "VC portfolio: Founders Fund",
+          "sourceWeight": 35,
+          "vc": "Founders Fund",
+          "date": "2026-08-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Founders Fund portfolio on 2026-08-01"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null,
+      "dimensions": {
+        "capital_quality": 15,
+        "magnitude": 0,
+        "tech_depth": 0,
+        "frontier_fit": 0,
+        "stealth_signal": 8,
+        "founder_signal": 0,
+        "excitement": 7.7
+      },
+      "briefing": "**Founder Tier** \u2014 frontier tech.\n\n Backing: Founders Fund.\n\nSurfaced in just one source \u2014 early intel, before the rest of the market.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 31/70."
+    }
+  ],
+  "runnersUp": [
+    {
+      "name": "Atomic Semi",
+      "score": 30.7,
+      "dimensions": {
+        "capital_quality": 15,
+        "magnitude": 0,
+        "tech_depth": 0,
+        "frontier_fit": 0,
+        "stealth_signal": 8,
+        "founder_signal": 0,
+        "excitement": 7.7
+      },
+      "sources": [
+        "VC portfolio"
+      ],
+      "suggestedSector": null,
+      "signals": [
+        {
+          "name": "Atomic Semi",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-03-16",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-03-16"
+        },
+        {
+          "name": "Atomic Semi",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-04-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-04-01"
         }
       ]
     },
@@ -665,6 +674,6 @@ const SCOUT_BRIEFING_AUTO = {
       ]
     }
   ],
-  "rejectedCount": 157
+  "rejectedCount": 166
 };
 if (typeof window !== 'undefined') window.SCOUT_BRIEFING_AUTO = SCOUT_BRIEFING_AUTO;
