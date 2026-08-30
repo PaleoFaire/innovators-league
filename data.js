@@ -51423,15 +51423,15 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-30 05:14
+// Last updated: 2026-08-30 11:46
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Is Building the Chips AND the Rockets", source: "Next Big Future", time: "6h ago", impact: "low", unread: true },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Is Building the Chips AND the Rockets", source: "Next Big Future", time: "12h ago", impact: "low", unread: true },
   { id: 2, type: "news", company: "Anthropic", headline: "An Anthropic researcher just gave us a peek at self-improving AI", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 3, type: "funding", company: "Einride", headline: "NVIDIA to buy Hugging Face, Einride launches VC firm, and fixing COPD diagnosis", source: "Tech.eu", time: "1d ago", impact: "medium", unread: true },
   { id: 4, type: "hire", company: "PsiQuantum", headline: "PsiQuantum's Ice Cream Factory", source: "Inside Quantum Technology", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "contract", company: "Anthropic", headline: "Anthropic gets its first court win over the Pentagon's supply-chain risk label", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "news", company: "OpenAI", headline: "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "Elon Projects SpaceX $3.5 Trillion Revenue in 2033", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "Elon Projects SpaceX $3.5 Trillion Revenue in 2033", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
   { id: 8, type: "contract", company: "Anthropic", headline: "A Judge Has Blocked the Pentagon's Attempt to Blacklist Anthropic", source: "Wired", time: "2d ago", impact: "low", unread: false },
   { id: 9, type: "contract", company: "OpenAI", headline: "Georgia PSC Approves Secret OpenAI Contract", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
   { id: 10, type: "news", company: "Anthropic", headline: "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World", source: "Wired", time: "2d ago", impact: "low", unread: false },
