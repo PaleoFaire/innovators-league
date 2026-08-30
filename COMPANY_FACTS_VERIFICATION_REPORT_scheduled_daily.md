@@ -1,25 +1,25 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-08-29T11:35:32+00:00  
+**Generated:** 2026-08-30T10:27:30+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 45 companies  
+**Cohort size:** 44 companies  
 
-**New Claude extractions this run:** 45  
+**New Claude extractions this run:** 44  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 38 | 84% |
-| 🔧 Changes proposed | 7 | 16% |
+| ✅ Cleared (data matches sources) | 39 | 89% |
+| 🔧 Changes proposed | 5 | 11% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (7 companies)
+## 🔧 Proposed Changes (5 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
@@ -32,53 +32,39 @@ Review each change and reply with which ones to apply. **Source-cited diffs:**
 - **`totalRaised`:** `$1.1B` → `$123.5M`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/1X_Technologies)
 
-  **Notes:** Company was originally founded as Halodi Robotics in 2014 and rebranded to 1X Technologies in 2022. Sources 0 and 1 refer to a completely different company (1X Technologies LLC, a wire and cable distributor in Wyoming, founded 2015). Wikipedia source (2) is the relevant company. Total raised calculated from Series A2 ($23.5M in March 2023) plus Series B ($100M in January 2024) = $123.5M.
+  **Notes:** Company was originally founded as Halodi Robotics in 2014 and rebranded to 1X Technologies in 2022. Series A2 funding of $23.5M raised in March 2023 (led by OpenAI Startup Fund). Series B funding of $100M raised in January 2024 (led by EQT Ventures). Total verified raised is $123.5M ($23.5M + $100M). Sources [0] and [1] describe a different company (1X Technologies LLC, a wire and cable distributor founded in 2015 based in Sheridan, WY) and are not applicable to the robotics company.
 
 ### Agility Robotics
 
 - **`fundingStage`:** `Series E` → `Pre-IPO`  
   Sources: [company_website](https://agilityrobotics.com)
 
-  **Notes:** Company announced merger with Churchill Capital Corp XI on June 24, 2026 to go public (Source 0). Company rebranded as 'Agility' on March 5, 2026 per Wikipedia (Source 2), though primary sources still reference 'Agility Robotics' as of July 2026. Database entry lists $400M+ raised and specific investors, but these details are not verifiable in provided sources.
-
-### Bedrock Robotics
-
-- **`totalRaised`:** `$350M+` → `$270M`  
-  Sources: [company_about](https://bedrockrobotics.com/about)
-
-  **Notes:** Source [1] mentions '$80M' Series A (Forbes reference) and '$270M Series B' (New York Times reference). Only the Series B figure is directly cited in provided sources. Founder names are mentioned in database entry but not explicitly listed as founders in provided sources — only described as 'founding team' with Waymo background. Founded year not specified in sources despite database entry claiming 2024.
+  **Notes:** Company announced merger with Churchill Capital Corp XI to go public on June 24, 2026 (source 0). Wikipedia notes a rebrand to 'Agility' on March 5, 2026 (source 2). Database entry lists total_raised as '$400M+' and investors, but these cannot be verified from the provided sources.
 
 ### Nano Nuclear Energy
 
 - **`fundingStage`:** `Seed` → `Public`  
   Sources: [company_website](https://nanonuclearenergy.com) · [company_about](https://nanonuclearenergy.com/about)
 
-  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Database entry references founder 'Jay Jiang Yu' and various financial metrics ($600M+ raised, $808M valuation, market cap ~$1.2B June 2026) but these cannot be verified from provided sources. Database entry also references ODIN design sale to Cambridge AtomWorks, not mentioned in sources. No founder information found in sources provided.
-
-### QuiX Quantum
-
-- **`founder`:** `Hans van den Vlekkert, Jelmer Renema` → `Jelmer Renema`  
-  Sources: [company_about](https://www.quixquantum.com/about)
-
-  **Notes:** Database entry lists 'Hans van den Vlekkert' as co-founder, but sources only explicitly name Dr. Jelmer Renema as founder (listed as Chief Scientist in C-Team). Hans van den Vlekkert not mentioned in provided sources. Database lists Series A stage and €15M raised, but current sources do not confirm this funding stage or amount. Company has expanded to offices in Amsterdam, Ulm, and Stuttgart by 2022. Carina universal photonic quantum computer delivered to DLR (German Aerospace Center) in July 2026.
+  **Notes:** Company is listed on NASDAQ under ticker NNE. Sources claim it is 'the first nuclear microreactor company to be listed publicly in the U.S.' Founder name 'Jay Jiang Yu' from database entry could not be verified in provided sources. Founded year 2022 could not be verified. Total raised $600M+ and valuation $808M from database entry could not be verified. Sources [2] is about a different company (Valar Atomics) and contains no information about NANO Nuclear Energy.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** SpaceX completed its IPO on June 12, 2026, raising $86 billion, described as the largest IPO in history. Elon Musk owns 42% equity with 85% voting control (Wikipedia states 82% voting control in one section and 85% in another; using the later more specific statement). No current valuation figure found in sources; database entry claims $1.65T but this is not verified in provided sources.
+  **Notes:** SpaceX completed IPO on June 12, 2026, raising $86 billion (largest IPO in history per source). Wikipedia source lists Elon Musk as controlling 85% voting power, not 82% as in database entry. Database valuation of $1.65T and IPO stage designation appear supported by the June 2026 IPO event, but specific valuation figure not found in provided sources.
 
 ### Starcloud
 
 - **`fundingStage`:** `Seed` → `Series A`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Starcloud)
 
-  **Notes:** Originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California; rebranded to Starcloud in March 2025 following legal challenge from Lumen Technologies. Series A announced March 30, 2026, making it the fastest Y Combinator company to reach unicorn status at 17 months post-demo day.
+  **Notes:** Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024, then relocated to Redmond, Washington in February 2024, and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Wikipedia indicates the Series A was announced March 30, 2026. The database entry lists additional investors (NVIDIA, DCVC, Khosla Ventures, Y Combinator) but Wikipedia's Series A announcement only explicitly names Benchmark and EQT Ventures as leading the $170M round.
 
 ---
 
-## ✅ Cleared (38 companies)
+## ✅ Cleared (39 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -91,6 +77,7 @@ Sample (first 30):
 - Astera Labs
 - Aurora Innovation
 - Base Power
+- Bedrock Robotics
 - Cape
 - Carbon Robotics
 - Cognition
@@ -102,7 +89,6 @@ Sample (first 30):
 - Hadrian
 - Humanoid
 - Karman Industries
-- Matter
 - Oklo
 - Orbital Composites
 - Percepto
@@ -112,11 +98,11 @@ Sample (first 30):
 - Proteus Space
 - PsiQuantum
 - Q-CTRL
+- QuiX Quantum
 - Radiant
-- Rebellions
-- *...and 8 more*
+- *...and 9 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-08-29T11:35:32+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-08-30T10:27:30+00:00*

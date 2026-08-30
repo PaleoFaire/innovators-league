@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-29T11:35:32+00:00",
+  "generatedAt": "2026-08-30T10:27:30+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 45,
-  "newExtractionsThisRun": 45,
+  "cohortSize": 44,
+  "newExtractionsThisRun": 44,
   "summary": {
-    "cleared": 38,
-    "changesProposed": 7,
+    "cleared": 39,
+    "changesProposed": 5,
     "unverifiable": 0
   },
   "cleared": [
@@ -17,6 +17,7 @@
     "Astera Labs",
     "Aurora Innovation",
     "Base Power",
+    "Bedrock Robotics",
     "Cape",
     "Carbon Robotics",
     "Cognition",
@@ -28,7 +29,6 @@
     "Hadrian",
     "Humanoid",
     "Karman Industries",
-    "Matter",
     "Oklo",
     "Orbital Composites",
     "Percepto",
@@ -38,6 +38,7 @@
     "Proteus Space",
     "PsiQuantum",
     "Q-CTRL",
+    "QuiX Quantum",
     "Radiant",
     "Rebellions",
     "Sage Geosystems",
@@ -63,7 +64,7 @@
       },
       "verified": {
         "name": "1X Technologies",
-        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home environments. The company manufactures bipedal robots including the NEO model designed for private home use.",
+        "description": "Norwegian-American robotics company developing general-purpose humanoid robots for home and industrial environments. The company manufactures bipedal robots (NEO and EVE models) and is headquartered in Palo Alto, California with manufacturing operations in Hayward and Moss, Norway.",
         "founders": [
           "Bernt \u00d8ivind B\u00f8rnich"
         ],
@@ -112,7 +113,7 @@
             2
           ]
         },
-        "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded to 1X Technologies in 2022. Sources 0 and 1 refer to a completely different company (1X Technologies LLC, a wire and cable distributor in Wyoming, founded 2015). Wikipedia source (2) is the relevant company. Total raised calculated from Series A2 ($23.5M in March 2023) plus Series B ($100M in January 2024) = $123.5M."
+        "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded to 1X Technologies in 2022. Series A2 funding of $23.5M raised in March 2023 (led by OpenAI Startup Fund). Series B funding of $100M raised in January 2024 (led by EQT Ventures). Total verified raised is $123.5M ($23.5M + $100M). Sources [0] and [1] describe a different company (1X Technologies LLC, a wire and cable distributor founded in 2015 based in Sheridan, WY) and are not applicable to the robotics company."
       },
       "changes": [
         {
@@ -160,14 +161,9 @@
           "idx": 3,
           "src": "news (Tech.eu)",
           "url": "https://tech.eu/2026/08/27/motion-lands-2m-to-expand-humanoid-robot-deployments-across-europe/"
-        },
-        {
-          "idx": 4,
-          "src": "news (The Robot Report)",
-          "url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/"
         }
       ],
-      "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded to 1X Technologies in 2022. Sources 0 and 1 refer to a completely different company (1X Technologies LLC, a wire and cable distributor in Wyoming, founded 2015). Wikipedia source (2) is the relevant company. Total raised calculated from Series A2 ($23.5M in March 2023) plus Series B ($100M in January 2024) = $123.5M."
+      "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded to 1X Technologies in 2022. Series A2 funding of $23.5M raised in March 2023 (led by OpenAI Startup Fund). Series B funding of $100M raised in January 2024 (led by EQT Ventures). Total verified raised is $123.5M ($23.5M + $100M). Sources [0] and [1] describe a different company (1X Technologies LLC, a wire and cable distributor founded in 2015 based in Sheridan, WY) and are not applicable to the robotics company."
     },
     {
       "name": "Agility Robotics",
@@ -182,7 +178,7 @@
       },
       "verified": {
         "name": "Agility Robotics",
-        "description": "A humanoid robotics company that develops and deploys Digit, a bipedal robot for warehouse and logistics automation. Digit is commercially deployed with customers including Amazon, GXO Logistics, and Mercado Libre.",
+        "description": "Agility Robotics is an American humanoid robotics company that develops and deploys Digit, a commercially deployed bipedal humanoid robot for warehouse and logistics automation. The company was spun out of Oregon State University's Dynamic Robotics Lab in 2015.",
         "founders": [
           "Jonathan Hurst",
           "Damion Shelton",
@@ -209,7 +205,6 @@
             2
           ],
           "location": [
-            1,
             2
           ],
           "founded_year": [
@@ -224,7 +219,7 @@
             2
           ]
         },
-        "notes": "Company announced merger with Churchill Capital Corp XI on June 24, 2026 to go public (Source 0). Company rebranded as 'Agility' on March 5, 2026 per Wikipedia (Source 2), though primary sources still reference 'Agility Robotics' as of July 2026. Database entry lists $400M+ raised and specific investors, but these details are not verifiable in provided sources."
+        "notes": "Company announced merger with Churchill Capital Corp XI to go public on June 24, 2026 (source 0). Wikipedia notes a rebrand to 'Agility' on March 5, 2026 (source 2). Database entry lists total_raised as '$400M+' and investors, but these cannot be verified from the provided sources."
       },
       "changes": [
         {
@@ -256,87 +251,9 @@
           "idx": 3,
           "src": "news (Tech.eu)",
           "url": "https://tech.eu/2026/08/27/motion-lands-2m-to-expand-humanoid-robot-deployments-across-europe/"
-        },
-        {
-          "idx": 4,
-          "src": "news (The Robot Report)",
-          "url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/"
         }
       ],
-      "notes": "Company announced merger with Churchill Capital Corp XI on June 24, 2026 to go public (Source 0). Company rebranded as 'Agility' on March 5, 2026 per Wikipedia (Source 2), though primary sources still reference 'Agility Robotics' as of July 2026. Database entry lists $400M+ raised and specific investors, but these details are not verifiable in provided sources."
-    },
-    {
-      "name": "Bedrock Robotics",
-      "current": {
-        "name": "Bedrock Robotics",
-        "founder": "Boris Sofman, Kevin Peterson, Ajay Gummalla, Tom Eliaz",
-        "location": "San Francisco, CA",
-        "founded": 2024,
-        "fundingStage": "Series B",
-        "totalRaised": "$350M+",
-        "website": "https://bedrockrobotics.com"
-      },
-      "verified": {
-        "name": "Bedrock Robotics",
-        "description": "Develops autonomous systems for heavy construction equipment including excavators. Founded by engineers who previously worked at Waymo on autonomous vehicle systems.",
-        "founders": null,
-        "location": "San Francisco, CA",
-        "founded_year": null,
-        "current_stage": "Series B",
-        "total_raised": "$270M",
-        "valuation": null,
-        "investors": null,
-        "website": "https://bedrockrobotics.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "current_stage": [
-            1
-          ],
-          "total_raised": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [1] mentions '$80M' Series A (Forbes reference) and '$270M Series B' (New York Times reference). Only the Series B figure is directly cited in provided sources. Founder names are mentioned in database entry but not explicitly listed as founders in provided sources \u2014 only described as 'founding team' with Waymo background. Founded year not specified in sources despite database entry claiming 2024."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$350M+",
-          "verified": "$270M",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://bedrockrobotics.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://bedrockrobotics.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (The Robot Report)",
-          "url": "https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/"
-        }
-      ],
-      "notes": "Source [1] mentions '$80M' Series A (Forbes reference) and '$270M Series B' (New York Times reference). Only the Series B figure is directly cited in provided sources. Founder names are mentioned in database entry but not explicitly listed as founders in provided sources \u2014 only described as 'founding team' with Waymo background. Founded year not specified in sources despite database entry claiming 2024."
+      "notes": "Company announced merger with Churchill Capital Corp XI to go public on June 24, 2026 (source 0). Wikipedia notes a rebrand to 'Agility' on March 5, 2026 (source 2). Database entry lists total_raised as '$400M+' and investors, but these cannot be verified from the provided sources."
     },
     {
       "name": "Nano Nuclear Energy",
@@ -351,7 +268,7 @@
       },
       "verified": {
         "name": "NANO Nuclear Energy",
-        "description": "Advanced nuclear energy company developing portable and stationary microreactor technologies (KRONOS MMR, ZEUS, LOKI) and providing nuclear fuel fabrication, transportation, and space applications.",
+        "description": "A publicly listed nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI systems, along with subsidiaries focused on nuclear fuel fabrication, transportation, and space applications.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -370,14 +287,19 @@
             1
           ],
           "location": [
-            0
+            0,
+            1
           ],
           "current_stage": [
             0,
             1
+          ],
+          "website": [
+            0,
+            1
           ]
         },
-        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Database entry references founder 'Jay Jiang Yu' and various financial metrics ($600M+ raised, $808M valuation, market cap ~$1.2B June 2026) but these cannot be verified from provided sources. Database entry also references ODIN design sale to Cambridge AtomWorks, not mentioned in sources. No founder information found in sources provided."
+        "notes": "Company is listed on NASDAQ under ticker NNE. Sources claim it is 'the first nuclear microreactor company to be listed publicly in the U.S.' Founder name 'Jay Jiang Yu' from database entry could not be verified in provided sources. Founded year 2022 could not be verified. Total raised $600M+ and valuation $808M from database entry could not be verified. Sources [2] is about a different company (Valar Atomics) and contains no information about NANO Nuclear Energy."
       },
       "changes": [
         {
@@ -407,84 +329,7 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Database entry references founder 'Jay Jiang Yu' and various financial metrics ($600M+ raised, $808M valuation, market cap ~$1.2B June 2026) but these cannot be verified from provided sources. Database entry also references ODIN design sale to Cambridge AtomWorks, not mentioned in sources. No founder information found in sources provided."
-    },
-    {
-      "name": "QuiX Quantum",
-      "current": {
-        "name": "QuiX Quantum",
-        "founder": "Hans van den Vlekkert, Jelmer Renema",
-        "location": "Enschede, Netherlands",
-        "founded": 2019,
-        "fundingStage": "Series A",
-        "totalRaised": "\u20ac15M",
-        "website": "https://www.quixquantum.com"
-      },
-      "verified": {
-        "name": "QuiX Quantum",
-        "description": "European market leader in photonic quantum computing that manufactures universal photonic quantum computers using integrated silicon nitride chips for deployment in data centers and HPC environments.",
-        "founders": [
-          "Jelmer Renema"
-        ],
-        "location": "Enschede, Netherlands",
-        "founded_year": 2019,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://www.quixquantum.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry lists 'Hans van den Vlekkert' as co-founder, but sources only explicitly name Dr. Jelmer Renema as founder (listed as Chief Scientist in C-Team). Hans van den Vlekkert not mentioned in provided sources. Database lists Series A stage and \u20ac15M raised, but current sources do not confirm this funding stage or amount. Company has expanded to offices in Amsterdam, Ulm, and Stuttgart by 2022. Carina universal photonic quantum computer delivered to DLR (German Aerospace Center) in July 2026."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Hans van den Vlekkert, Jelmer Renema",
-          "verified": "Jelmer Renema",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://www.quixquantum.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://www.quixquantum.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "news (Inside Quantum Technology)",
-          "url": "https://www.insidequantumtechnology.com/news-archive/psiquantums-ice-cream-factory/"
-        }
-      ],
-      "notes": "Database entry lists 'Hans van den Vlekkert' as co-founder, but sources only explicitly name Dr. Jelmer Renema as founder (listed as Chief Scientist in C-Team). Hans van den Vlekkert not mentioned in provided sources. Database lists Series A stage and \u20ac15M raised, but current sources do not confirm this funding stage or amount. Company has expanded to offices in Amsterdam, Ulm, and Stuttgart by 2022. Carina universal photonic quantum computer delivered to DLR (German Aerospace Center) in July 2026."
+      "notes": "Company is listed on NASDAQ under ticker NNE. Sources claim it is 'the first nuclear microreactor company to be listed publicly in the U.S.' Founder name 'Jay Jiang Yu' from database entry could not be verified in provided sources. Founded year 2022 could not be verified. Total raised $600M+ and valuation $808M from database entry could not be verified. Sources [2] is about a different company (Valar Atomics) and contains no information about NANO Nuclear Energy."
     },
     {
       "name": "SpaceX",
@@ -499,7 +344,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. The company operates three divisions: Space (conducting more orbital launches annually than any other provider), Connectivity (operating Starlink satellite communications), and Artificial intelligence (operating Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial Intelligence (Grok and data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -541,7 +386,7 @@
             0
           ]
         },
-        "notes": "SpaceX completed its IPO on June 12, 2026, raising $86 billion, described as the largest IPO in history. Elon Musk owns 42% equity with 85% voting control (Wikipedia states 82% voting control in one section and 85% in another; using the later more specific statement). No current valuation figure found in sources; database entry claims $1.65T but this is not verified in provided sources."
+        "notes": "SpaceX completed IPO on June 12, 2026, raising $86 billion (largest IPO in history per source). Wikipedia source lists Elon Musk as controlling 85% voting power, not 82% as in database entry. Database valuation of $1.65T and IPO stage designation appear supported by the June 2026 IPO event, but specific valuation figure not found in provided sources."
       },
       "changes": [
         {
@@ -562,20 +407,20 @@
         {
           "idx": 1,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/08/elon-projects-spacex-3-5-trillion-revenue-in-2033.html"
+          "url": "https://www.nextbigfuture.com/2026/08/spacex-is-building-the-chips-and-the-rockets.html"
         },
         {
           "idx": 2,
           "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/08/spacex-has-17-starship-launch-pads-under-development.html"
+          "url": "https://www.nextbigfuture.com/2026/08/elon-projects-spacex-3-5-trillion-revenue-in-2033.html"
         },
         {
           "idx": 3,
-          "src": "news (Ars Technica Space)",
-          "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/08/spacex-has-17-starship-launch-pads-under-development.html"
         }
       ],
-      "notes": "SpaceX completed its IPO on June 12, 2026, raising $86 billion, described as the largest IPO in history. Elon Musk owns 42% equity with 85% voting control (Wikipedia states 82% voting control in one section and 85% in another; using the later more specific statement). No current valuation figure found in sources; database entry claims $1.65T but this is not verified in provided sources."
+      "notes": "SpaceX completed IPO on June 12, 2026, raising $86 billion (largest IPO in history per source). Wikipedia source lists Elon Musk as controlling 85% voting power, not 82% as in database entry. Database valuation of $1.65T and IPO stage designation appear supported by the June 2026 IPO event, but specific valuation figure not found in provided sources."
     },
     {
       "name": "Starcloud",
@@ -590,7 +435,7 @@
       },
       "verified": {
         "name": "Starcloud",
-        "description": "United States-based company that designs, builds, and deploys data centers in space using proprietary technology. In November 2025, launched Starcloud-1 equipped with an Nvidia H100 GPU.",
+        "description": "A United States-based company that designs, builds, and deploys data centers in space using proprietary technology. The company launched Starcloud-1 in November 2025 equipped with an Nvidia H100 GPU.",
         "founders": [
           "Philip Johnston",
           "Ezra Feilden",
@@ -645,7 +490,7 @@
             2
           ]
         },
-        "notes": "Originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California; rebranded to Starcloud in March 2025 following legal challenge from Lumen Technologies. Series A announced March 30, 2026, making it the fastest Y Combinator company to reach unicorn status at 17 months post-demo day."
+        "notes": "Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024, then relocated to Redmond, Washington in February 2024, and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Wikipedia indicates the Series A was announced March 30, 2026. The database entry lists additional investors (NVIDIA, DCVC, Khosla Ventures, Y Combinator) but Wikipedia's Series A announcement only explicitly names Benchmark and EQT Ventures as leading the $170M round."
       },
       "changes": [
         {
@@ -679,7 +524,7 @@
           "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
         }
       ],
-      "notes": "Originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California; rebranded to Starcloud in March 2025 following legal challenge from Lumen Technologies. Series A announced March 30, 2026, making it the fastest Y Combinator company to reach unicorn status at 17 months post-demo day."
+      "notes": "Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024, then relocated to Redmond, Washington in February 2024, and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Wikipedia indicates the Series A was announced March 30, 2026. The database entry lists additional investors (NVIDIA, DCVC, Khosla Ventures, Y Combinator) but Wikipedia's Series A announcement only explicitly names Benchmark and EQT Ventures as leading the $170M round."
     }
   ],
   "unverifiable": []
