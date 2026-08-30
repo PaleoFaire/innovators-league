@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T08:23:32Z",
+  "generated_at": "2026-08-30T13:29:03Z",
   "company_count": 1181,
   "checks": {
     "acquisition_language": [
@@ -270,11 +270,6 @@
         "founder": "Max Werner, Björn Dressler, Dan Gengenbach"
       },
       {
-        "name": "Matter",
-        "sector": "Robotics & Manufacturing",
-        "founder": "Adi Prasad, Charly Mwangi, Aish Varadhan, Aditya Ranjan"
-      },
-      {
         "name": "Aslan",
         "sector": "Defense & Security",
         "founder": "Chase Reid, Ansel Tessier"
@@ -501,20 +496,20 @@
       }
     ],
     "stage_vocabulary": {
-      "Series A": 296,
+      "Series A": 297,
       "Seed": 246,
-      "Series B": 207,
+      "Series B": 206,
       "Series C": 131,
       "Public": 56,
       "Undisclosed": 44,
       "Series D": 38,
       "Growth": 27,
-      "Pre-Seed": 25,
+      "Pre-Seed": 26,
       "Series E": 17,
       "Series G": 17,
       "Private": 11,
-      "Late Stage": 10,
       "Series F": 9,
+      "Late Stage": 9,
       "IPO": 5,
       "SPAC": 5,
       "Bootstrapped": 3,
@@ -713,7 +708,7 @@
   "summary": {
     "p0_issues": 16,
     "p1_issues": 12,
-    "missing_websites": 90,
+    "missing_websites": 89,
     "distinct_stages": 44
   }
 }

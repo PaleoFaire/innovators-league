@@ -1,147 +1,147 @@
 {
-  "date": "2026-08-24",
-  "display_date": "Aug 24, 2026",
-  "generated_at": "2026-08-24T10:41:16.150509+00:00",
-  "cutoff": "2026-08-17T10:41:16.150509+00:00",
+  "date": "2026-08-30",
+  "display_date": "Aug 30, 2026",
+  "generated_at": "2026-08-30T14:31:03.049314+00:00",
+  "cutoff": "2026-08-23T14:31:03.049314+00:00",
   "section_count": 7,
-  "total_items": 535,
+  "total_items": 473,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 311,
+      "count": 231,
       "items": [
         {
-          "company": "Teralta",
-          "current": 29.5,
-          "previous": 39.5,
-          "change": -10.0,
+          "company": "Heaviside",
+          "current": 35.5,
+          "previous": 30.0,
+          "change": 5.5,
           "tier": "early"
         },
         {
-          "company": "Shine Technologies",
+          "company": "Noveon Magnetics",
+          "current": 37.5,
+          "previous": 32.5,
+          "change": 5.0,
+          "tier": "early"
+        },
+        {
+          "company": "Terra Industries",
+          "current": 35.0,
+          "previous": 30.0,
+          "change": 5.0,
+          "tier": "early"
+        },
+        {
+          "company": "Star Catcher",
+          "current": 30.0,
+          "previous": 35.0,
+          "change": -5.0,
+          "tier": "early"
+        },
+        {
+          "company": "SandboxAQ",
           "current": 30.5,
-          "previous": 38.0,
-          "change": -7.5,
+          "previous": 35.0,
+          "change": -4.5,
           "tier": "early"
         },
         {
-          "company": "Span",
-          "current": 29.5,
-          "previous": 37.0,
-          "change": -7.5,
+          "company": "Sygaldry Technologies",
+          "current": 28.5,
+          "previous": 33.0,
+          "change": -4.5,
           "tier": "early"
         },
         {
-          "company": "Alsym Energy",
-          "current": 29.5,
-          "previous": 37.0,
-          "change": -7.5,
-          "tier": "early"
+          "company": "Mythic",
+          "current": 88.0,
+          "previous": 84.0,
+          "change": 4.0,
+          "tier": "exceptional"
         },
         {
-          "company": "Slate Auto",
-          "current": 29.5,
-          "previous": 37.0,
-          "change": -7.5,
-          "tier": "early"
+          "company": "Astera Labs",
+          "current": 87.5,
+          "previous": 83.5,
+          "change": 4.0,
+          "tier": "exceptional"
         },
         {
-          "company": "Nth Cycle",
-          "current": 29.5,
-          "previous": 37.0,
-          "change": -7.5,
-          "tier": "early"
+          "company": "Planet Labs",
+          "current": 87.0,
+          "previous": 83.0,
+          "change": 4.0,
+          "tier": "exceptional"
         },
         {
-          "company": "Ambrosia Energy",
-          "current": 29.5,
-          "previous": 37.0,
-          "change": -7.5,
-          "tier": "early"
-        },
-        {
-          "company": "Ample",
-          "current": 29.5,
-          "previous": 37.0,
-          "change": -7.5,
-          "tier": "early"
-        },
-        {
-          "company": "Gatik",
-          "current": 29.5,
-          "previous": 37.0,
-          "change": -7.5,
-          "tier": "early"
-        },
-        {
-          "company": "Dandelion Energy",
-          "current": 29.5,
-          "previous": 37.0,
-          "change": -7.5,
-          "tier": "early"
+          "company": "Altos Labs",
+          "current": 79.5,
+          "previous": 75.5,
+          "change": 4.0,
+          "tier": "leader"
         }
       ]
     },
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 22,
+      "count": 25,
       "items": [
         {
-          "company": "Virgin Galactic",
+          "company": "Momentus",
           "form": "8-K",
-          "description": "spce-20260818.htm",
-          "date": "2026-08-18",
+          "description": "apre-20260828x8k.htm",
+          "date": "2026-08-28",
           "isIPO": false
         },
         {
-          "company": "Centrus Energy",
+          "company": "C3.ai",
           "form": "8-K",
-          "description": "leu-20260815.htm",
-          "date": "2026-08-18",
+          "description": "ai-20260825.htm",
+          "date": "2026-08-27",
           "isIPO": false
         },
         {
           "company": "D-Wave Quantum",
           "form": "8-K",
-          "description": "qbts-20260818.htm",
-          "date": "2026-08-18",
+          "description": "qbts-20260819.htm",
+          "date": "2026-08-25",
           "isIPO": false
         },
         {
-          "company": "Archer Aviation",
+          "company": "Rivian",
           "form": "8-K",
-          "description": "achr-20260818.htm",
-          "date": "2026-08-18",
+          "description": "tm2624125d1_8k.htm",
+          "date": "2026-08-27",
+          "isIPO": false
+        },
+        {
+          "company": "Palantir Technologies",
+          "form": "4",
+          "description": "xslF345X06/wk-form4_1787616201.xml",
+          "date": "2026-08-24",
+          "isIPO": false
+        },
+        {
+          "company": "Palantir Technologies",
+          "form": "4",
+          "description": "xslF345X06/wk-form4_1787616121.xml",
+          "date": "2026-08-24",
           "isIPO": false
         },
         {
           "company": "Rocket Lab",
           "form": "4",
           "description": "xslF345X06/edgardoc.xml",
-          "date": "2026-08-18",
+          "date": "2026-08-28",
           "isIPO": false
         },
         {
-          "company": "AST SpaceMobile",
+          "company": "Rocket Lab",
           "form": "4",
-          "description": "xslF345X06/ownership.xml",
-          "date": "2026-08-18",
-          "isIPO": false
-        },
-        {
-          "company": "AST SpaceMobile",
-          "form": "4",
-          "description": "xslF345X06/ownership.xml",
-          "date": "2026-08-18",
-          "isIPO": false
-        },
-        {
-          "company": "AST SpaceMobile",
-          "form": "4",
-          "description": "xslF345X06/ownership.xml",
-          "date": "2026-08-18",
+          "description": "xslF345X06/edgardoc.xml",
+          "date": "2026-08-28",
           "isIPO": false
         }
       ]
@@ -149,239 +149,254 @@
     {
       "title": "Contract Opportunities",
       "icon": "\ud83c\udfe2",
-      "count": 1,
+      "count": 3,
       "items": [
         {
-          "title": "DHS/HSI - SKYDIO X10D (TCIU)",
+          "title": "BPA CALL FOR ELECTRONIC HEALTH RECORD AND AXIOM",
           "agency": "",
           "value": "",
-          "date": "2026-08-20"
+          "date": "2026-09-30"
+        },
+        {
+          "title": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER FOR THE PURCHASE OF UNMANNED AERIAL SYSTEM (UAS)",
+          "agency": "",
+          "value": "",
+          "date": "2026-08-26"
+        },
+        {
+          "title": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER FOR THE PURCHASE OF UNMANNED AERIAL SYSTEM (UAS)",
+          "agency": "",
+          "value": "",
+          "date": "2026-08-26"
         }
       ]
     },
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 41,
+      "count": 50,
       "items": [
         {
-          "title": "Application for Final Commitment for a Long-Term Loan or Financial Guarantee in Excess of $100 Million: AP300125XX",
-          "type": "Notice",
+          "title": "Declaring a National Emergency To Secure the United States Bulk-Power System",
+          "type": "Presidential Document",
           "agencies": [
-            "Export-Import Bank"
+            "Executive Office of the President"
           ],
           "significant": false,
-          "date": "2026-08-24"
+          "date": "2026-08-31"
         },
         {
-          "title": "Small Business Size Standards",
+          "title": "Maximizing Efficiencies in Universal Service Administration",
           "type": "Proposed Rule",
-          "agencies": [
-            "Small Business Administration"
-          ],
-          "significant": false,
-          "date": "2026-08-20"
-        },
-        {
-          "title": "Small Business Size Standards: Revised Size Standards Methodology",
-          "type": "Proposed Rule",
-          "agencies": [
-            "Small Business Administration"
-          ],
-          "significant": false,
-          "date": "2026-08-20"
-        },
-        {
-          "title": "Notice of Request for Clearance of a New Information Collection: Intermodal Freight Facilities Air-to-Truck and Mail Car",
-          "type": "Notice",
-          "agencies": [
-            "Transportation Department",
-            "Transportation Statistics Bureau"
-          ],
-          "significant": false,
-          "date": "2026-08-20"
-        },
-        {
-          "title": "Information Collection Being Submitted to the Office of Management and Budget for Emergency Review and Approval",
-          "type": "Notice",
           "agencies": [
             "Federal Communications Commission"
           ],
           "significant": false,
-          "date": "2026-08-20"
+          "date": "2026-08-31"
         },
         {
-          "title": "Privacy Act of 1974; System of Records",
+          "title": "Agency Information Collection Activities: Request for Comments for a New Information Collection",
           "type": "Notice",
           "agencies": [
-            "Health and Human Services Department",
-            "Centers for Medicare & Medicaid Services"
+            "Transportation Department",
+            "Federal Highway Administration"
           ],
           "significant": false,
-          "date": "2026-08-20"
+          "date": "2026-08-27"
+        },
+        {
+          "title": "Critical Position Pay Authority",
+          "type": "Rule",
+          "agencies": [
+            "Personnel Management Office"
+          ],
+          "significant": false,
+          "date": "2026-08-26"
+        },
+        {
+          "title": "Fifth Anniversary of the Attack at Abbey Gate",
+          "type": "Presidential Document",
+          "agencies": [
+            "Executive Office of the President"
+          ],
+          "significant": false,
+          "date": "2026-08-31"
+        },
+        {
+          "title": "Petition for Exemption and Other Relief",
+          "type": "Notice",
+          "agencies": [
+            "Transportation Department",
+            "Federal Aviation Administration"
+          ],
+          "significant": false,
+          "date": "2026-08-31"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 20,
+      "count": 23,
       "items": [
         {
-          "title": "What does Unitree Robotics&#8217; IPO mean for the humanoid industry?",
-          "source": "The Robot Report",
-          "company": "Humanoid",
-          "impact": "high",
-          "type": "ipo"
-        },
-        {
-          "title": "OpenAI clarifies \u2018acquisition\u2019 offer for Irish teen's startup idea was a joke",
-          "source": "Sifted",
-          "company": "OpenAI",
-          "impact": "high",
-          "type": "news"
-        },
-        {
-          "title": "Nvidia discloses $21B stake in SpaceX",
-          "source": "Ars Technica",
-          "company": "SpaceX",
-          "impact": "high",
-          "type": "ipo"
-        },
-        {
-          "title": "NEURA Robotics acquires ADLATUS to bring Physical AI to autonomous cleaning",
-          "source": "Tech.eu",
-          "company": "Neura Robotics",
-          "impact": "low",
-          "type": "news"
-        },
-        {
-          "title": "TechCrunch Mobility: The custom chip driving Waymo\u2019s robotaxi ambitions",
-          "source": "TechCrunch",
-          "company": "Waymo",
-          "impact": "low",
-          "type": "news"
-        },
-        {
-          "title": "SpaceX Starship Months for Tower Catch Schedule But 10X Launch Approvals",
+          "title": "SpaceX Is Building the Chips AND the Rockets",
           "source": "Next Big Future",
           "company": "SpaceX",
           "impact": "low",
           "type": "ipo"
         },
         {
-          "title": "Inherent, founded by DeepMind alumni, says its AI &#8216;teammate&#8217; just outperformed Anthropic",
+          "title": "An Anthropic researcher just gave us a peek at self-improving AI",
           "source": "TechCrunch",
           "company": "Anthropic",
           "impact": "low",
           "type": "news"
         },
         {
-          "title": "OpenAI says California should strengthen its AI safety bill",
+          "title": "NVIDIA to buy Hugging Face, Einride launches VC firm, and fixing COPD diagnosis",
+          "source": "Tech.eu",
+          "company": "Einride",
+          "impact": "medium",
+          "type": "funding"
+        },
+        {
+          "title": "PsiQuantum\u2019s Ice Cream Factory",
+          "source": "Inside Quantum Technology",
+          "company": "PsiQuantum",
+          "impact": "low",
+          "type": "hire"
+        },
+        {
+          "title": "Anthropic gets its first court win over the Pentagon\u2019s supply-chain risk label",
+          "source": "TechCrunch",
+          "company": "Anthropic",
+          "impact": "low",
+          "type": "contract"
+        },
+        {
+          "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
           "source": "TechCrunch",
           "company": "OpenAI",
           "impact": "low",
           "type": "news"
+        },
+        {
+          "title": "Elon Projects SpaceX $3.5 Trillion Revenue in 2033",
+          "source": "Next Big Future",
+          "company": "SpaceX",
+          "impact": "low",
+          "type": "ipo"
+        },
+        {
+          "title": "A Judge Has Blocked the Pentagon\u2019s Attempt to Blacklist Anthropic",
+          "source": "Wired",
+          "company": "Anthropic",
+          "impact": "low",
+          "type": "contract"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 51,
+      "count": 50,
       "items": [
         {
-          "title": "Why your local LLM feels dumber than it is",
-          "score": 489,
-          "comments": 199,
-          "companies": [],
-          "url": "https://news.ycombinator.com/item?id=49402232"
-        },
-        {
-          "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
-          "score": 486,
-          "comments": 148,
+          "title": "Our decision on Cursor following its acquisition by SpaceX",
+          "score": 820,
+          "comments": 509,
           "companies": [
-            "Twelve",
-            "Twelve Labs",
-            "ElevenLabs"
+            "OpenAI",
+            "SpaceX"
           ],
-          "url": "https://news.ycombinator.com/item?id=49400408"
+          "url": "https://news.ycombinator.com/item?id=49486172"
         },
         {
-          "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
-          "score": 466,
-          "comments": 404,
+          "title": "Htmx 4.0",
+          "score": 808,
+          "comments": 218,
           "companies": [
-            "Anthropic"
+            "Fortera"
           ],
-          "url": "https://news.ycombinator.com/item?id=49411102"
+          "url": "https://news.ycombinator.com/item?id=49478178"
         },
         {
-          "title": "A website for debloated open source alternatives",
-          "score": 318,
+          "title": "GLM-5.3 is now open-weight",
+          "score": 795,
+          "comments": 275,
+          "companies": [
+            "Hugging Face"
+          ],
+          "url": "https://news.ycombinator.com/item?id=49479878"
+        },
+        {
+          "title": "U.S. sanctions against the A/I Collective",
+          "score": 702,
+          "comments": 760,
+          "companies": [
+            "Palantir"
+          ],
+          "url": "https://news.ycombinator.com/item?id=49477854"
+        },
+        {
+          "title": "Debian votes to allow \"responsible use of generative AI\"",
+          "score": 490,
+          "comments": 456,
+          "companies": [
+            "Labelbox",
+            "Runway"
+          ],
+          "url": "https://news.ycombinator.com/item?id=49489982"
+        },
+        {
+          "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
+          "score": 410,
           "comments": 100,
           "companies": [
-            "Xanadu Quantum Technologies",
-            "Tenstorrent"
+            "Day.ai"
           ],
-          "url": "https://news.ycombinator.com/item?id=49410362"
-        },
-        {
-          "title": "My agent.md to improve LLM-assisted code quality",
-          "score": 294,
-          "comments": 118,
-          "companies": [],
-          "url": "https://news.ycombinator.com/item?id=49410932"
-        },
-        {
-          "title": "Over 170k Nonprofits Lost All Their Data. Is Microsoft to Blame?",
-          "score": 242,
-          "comments": 121,
-          "companies": [
-            "Photonic Inc"
-          ],
-          "url": "https://news.ycombinator.com/item?id=49411395"
+          "url": "https://news.ycombinator.com/item?id=49491568"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 89,
+      "count": 91,
       "items": [
         {
-          "title": "Transactions in connection with share buyback programme",
+          "title": "ChowChow Cloud International Holdings Limited Provides Response to Unusual Market Action",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Debitormassens sammens\u00e6tning (CK92)",
+          "title": "Cytokinetics Announces Additional Results from ACACIA-HCM and MAPLE-HCM Presented in Late Breaking Clinical Trial Sessio",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Ekstraordin\u00e6re indfrielser (CK 93)",
+          "title": "Sigenergy Melancarkan \u201cSigenStor NEO\u201d di Thailand, Memperkenalkan Penyelesaian Tenaga Pintar Serba Lengkap Baharu",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Correction: Notice of the public offering of Hepsor AS bonds",
+          "title": "Sigenergy \u0e40\u0e1b\u0e34\u0e14\u0e15\u0e31\u0e27 \"SigenStor NEO\" \u0e43\u0e19\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22 \u0e19\u0e33\u0e40\u0e2a\u0e19\u0e2d\u0e42\u0e0b\u0e25\u0e39\u0e0a\u0e31\u0e19\u0e1e\u0e25\u0e31\u0e07\u0e07\u0e32\u0e19\u0e2d\u0e31\u0e08\u0e09\u0e23\u0e34\u0e22\u0e30\u0e41\u0e1a\u0e1a\u0e04\u0e23\u0e1a\u0e27\u0e07\u0e08\u0e23\u0e23\u0e38\u0e48\u0e19\u0e43\u0e2b\u0e21\u0e48",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Parandusteade: Hepsor AS-i v\u00f5lakirjade avaliku pakkumise teade",
+          "title": "Sigenergy ra m\u1eaft \"SigenStor NEO\" t\u1ea1i Th\u00e1i Lan, Gi\u1edbi thi\u1ec7u gi\u1ea3i ph\u00e1p n\u0103ng l\u01b0\u1ee3ng th\u00f4ng minh t\u00edch h\u1ee3p m\u1edbi",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Share buyback programme \u2013 week 34",
+          "title": "Tenax Therapeutics Announces Presentation of Phase 3 LEVEL Results in Late-Breaking Scientific Sessions at ESC Congress ",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-08-24-72e7833c796d"
+  "brief_id": "brief-2026-08-30-dd3b5fa7918b"
 }
