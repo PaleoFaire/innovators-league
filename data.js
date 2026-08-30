@@ -51878,9 +51878,9 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-30 19:43
+// Last updated: 2026-08-30 22:38
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Is Building the Chips AND the Rockets", source: "Next Big Future", time: "20h ago", impact: "low", unread: true },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Is Building the Chips AND the Rockets", source: "Next Big Future", time: "23h ago", impact: "low", unread: true },
   { id: 2, type: "news", company: "Anthropic", headline: "An Anthropic researcher just gave us a peek at self-improving AI", source: "TechCrunch", time: "2d ago", impact: "low", unread: true },
   { id: 3, type: "funding", company: "Einride", headline: "NVIDIA to buy Hugging Face, Einride launches VC firm, and fixing COPD diagnosis", source: "Tech.eu", time: "2d ago", impact: "medium", unread: true },
   { id: 4, type: "hire", company: "PsiQuantum", headline: "PsiQuantum's Ice Cream Factory", source: "Inside Quantum Technology", time: "2d ago", impact: "low", unread: true },
