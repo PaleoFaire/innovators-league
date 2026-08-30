@@ -1,5 +1,24 @@
 [
   {
+    "title": "SpaceX Is Building the Chips AND the Rockets",
+    "link": "https://www.nextbigfuture.com/2026/08/spacex-is-building-the-chips-and-the-rockets.html",
+    "description": "SpaceX already lifts about 85% of everything humanity puts in orbit — roughly 2,400 tons a year versus a few hundred for the rest of Earth combined, including China. The next Starship flights start stacking V3 satellites that add on the order of 20 Falcon 9 Starlink missions of capacity per launch. ",
+    "pubDate": "Sat, 29 Aug 2026 23:09:57 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
     "title": "An Anthropic researcher just gave us a peek at self-improving AI",
     "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
     "description": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
@@ -431,25 +450,6 @@
       "space"
     ],
     "type": "ipo",
-    "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "OpenAI Jalapeño Inference Chip just announced at Hot Chips",
-    "link": "https://www.nextbigfuture.com/2026/08/openai-jalapeno-inference-chip-just-announced-at-hot-chips.html",
-    "description": "OpenAI Jalapeño chip delivered 1.5 to 1.9 times more AI work per watt at peak throughput and 1.7 to 3.6 times lower end-to-end latency than the comparison systems. For highly interactive workloads, it delivered 2.1 to 4.1 times higher performance. In June, OpenAI unveiled the chip program in partner",
-    "pubDate": "Tue, 25 Aug 2026 21:05:56 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "4d ago"
   },
