@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-08-29 13:06:16 UTC",
+    "generated_at": "2026-08-30 12:40:57 UTC",
     "total_targets": 116,
-    "with_excerpts": 102,
+    "with_excerpts": 104,
     "sources": [
       "none",
       "sec_edgar",
@@ -385,11 +385,13 @@
     {
       "ticker": "AVAV",
       "company": "AeroVironment",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investor.avinc.com/",
-      "source": "none"
+      "quarter": "2026-Q2",
+      "date": "2026-06-22",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926076141/0001104659-26-076141-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "MRCY",
@@ -416,13 +418,11 @@
     {
       "ticker": "MOG-A",
       "company": "Moog",
-      "quarter": "2026-Q2",
-      "date": "2026-07-31",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026051294/0001628280-26-051294-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.moog.com/",
+      "source": "none"
     },
     {
       "ticker": "HWM",
@@ -570,13 +570,11 @@
     {
       "ticker": "TXN",
       "company": "Texas Instruments",
-      "quarter": "2026-Q2",
-      "date": "2026-07-24",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000152/0000097476-26-000152-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.ti.com/about-ti/investor-relations.html",
+      "source": "none"
     },
     {
       "ticker": "SNPS",
@@ -1053,11 +1051,13 @@
     {
       "ticker": "QS",
       "company": "QuantumScape",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://ir.quantumscape.com/",
-      "source": "none"
+      "quarter": "2026-Q2",
+      "date": "2026-07-24",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1811414/000119312526316073/0001193125-26-316073-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "MP",
@@ -1201,11 +1201,13 @@
     {
       "ticker": "TWST",
       "company": "Twist Bioscience",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.twistbioscience.com/",
-      "source": "none"
+      "quarter": "2026-Q2",
+      "date": "2026-08-03",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1581280/000158128026000047/0001581280-26-000047-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "DNA",
@@ -1241,11 +1243,13 @@
     {
       "ticker": "NTLA",
       "company": "Intellia Therapeutics",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://ir.intelliatx.com/",
-      "source": "none"
+      "quarter": "2026-Q2",
+      "date": "2026-08-06",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652130/000119312526337952/0001193125-26-337952-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "BEAM",

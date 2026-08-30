@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-08-29 12:56:57 UTC
+// Last updated: 2026-08-30 12:33:19 UTC
 const ARXIV_PAPERS = [
   { id: "2608.27449v1", title: "SWE-Prime: Fewer Trajectories, Better Performance", category: "Artificial Intelligence", published: "2026-08-27", sectors: "ai", authors: "Dewu Zheng, Ruizhe Ye, Yanlin Wang et al." },
   { id: "2608.27442v1", title: "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench", category: "Artificial Intelligence", published: "2026-08-27", sectors: "ai", authors: "Dewu Zheng, Yanlin Wang, Xiwen Wang et al." },

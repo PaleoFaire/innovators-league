@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-08-29 12:56:17 UTC
+// Last updated: 2026-08-30 12:32:58 UTC
 // Total grants: 633 | Known companies: 24 | SBIR: 27
-// Total funding tracked: $386,659,016
+// Total funding tracked: $386,571,455
 const NIH_GRANTS_AUTO = [
   {
     title: "PROVIDENT:  Prepositioning Optimized Strategies for Vaccines and Immunotherapeutics against Diverse Emerging Infectious ",
@@ -2591,19 +2591,6 @@ const NIH_GRANTS_AUTO = [
     isKnownCompany: false,
   },
   {
-    title: "Novel approach to modulate the TME on-demand with therapeutic peptides and proteins.",
-    organization: "UNIVERSITY OF CALIFORNIA AT DAVIS",
-    orgState: "CA",
-    piName: "KIT S LAM",
-    fiscalYear: 2026,
-    awardAmount: 626031,
-    activityCode: "R01",
-    isSbir: false,
-    abstract: "Abstract We have developed a transformable nanoparticle (TNP) platform capable of transforming its morphology from nanoparticles to nanofibrils when interact with receptors (e.g., EGFR or α3β1 integri",
-    terms: ["4T1", "A549", "Acids", "Alder plant", "Antibodies", "Biochemical Process", "Biodistribution", "Blood"],
-    isKnownCompany: false,
-  },
-  {
     title: "Integration of CSF Proteogenomics in the Diagnosis and Management of Diffuse Gliomas",
     organization: "PENNSYLVANIA STATE UNIV HERSHEY MED CTR",
     orgState: "PA",
@@ -3433,6 +3420,19 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "Project Summary Accidental exposure to ionizing radiation (IR) poses a significant risk for cardiovascular morbidity, a leading cause of mortality among irradiated populations. However, the mechanisms",
     terms: ["3-Dimensional", "Acceleration", "Accidents", "Address", "Animal Model", "Anti-Inflammatory Agents", "Artificial Intelligence", "Automobile Driving"],
+    isKnownCompany: false,
+  },
+  {
+    title: "Generation of human skin organoids from pluripotency",
+    organization: "BOSTON CHILDREN'S HOSPITAL",
+    orgState: "MA",
+    piName: "Karl Russell Koehler",
+    fiscalYear: 2026,
+    awardAmount: 538470,
+    activityCode: "R01",
+    isSbir: false,
+    abstract: "ABSTRACT Skin formation involves the precise assembly of diverse cell types derived from multiple embryonic lineages, yet recreating anatomically accurate and functionally complete human skin in vitro",
+    terms: ["Abdomen", "Acceleration", "Affect", "Alopecia", "Anatomy", "Architecture", "Autologous", "BMP2 gene"],
     isKnownCompany: false,
   },
   {

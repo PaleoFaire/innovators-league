@@ -72,13 +72,13 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-09-12",
-    "vehicle": "Falcon 9 Block 5 | Crew-13",
-    "payload": "Crew-13",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/?format=json",
-    "trackedCompany": "SpaceX"
+    "date": "2026-09-11",
+    "vehicle": "Long March 8A | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Commercial LC-1, Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/63063b9d-ade9-4448-8717-6f910aa81188/?format=json",
+    "trackedCompany": null
   },
   {
     "date": "2026-09-15",
@@ -97,6 +97,15 @@
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/599ba2df-7483-4b2f-a083-2b5ddc06e069/?format=json",
     "trackedCompany": "Rocket Lab"
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Falcon 9 Block 5 | Crew-13",
+    "payload": "Crew-13",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-09-30",
@@ -439,14 +448,5 @@
     "provider": "Isar Aerospace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/b48e32c5-3776-4684-a956-5ea4df032e90/?format=json",
     "trackedCompany": null
-  },
-  {
-    "date": "2026-12-31",
-    "vehicle": "Vulcan VC4L | Dream Chaser CRS 2 Flight 1",
-    "payload": "Dream Chaser CRS 2 Flight 1",
-    "pad": "Space Launch Complex 41, Cape Canaveral SFS, FL, USA",
-    "provider": "United Launch Alliance",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/a67b40f9-cfcc-4614-a355-a156280b4bb3/?format=json",
-    "trackedCompany": "ULA"
   }
 ]
