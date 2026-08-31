@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-24T09:04:53.711937+00:00",
-  "total_candidates": 36,
+  "generated_at": "2026-08-31T16:09:48.286216+00:00",
+  "total_candidates": 41,
   "sources": {
     "buildlist": {
       "url": "https://buildlist.xyz",
       "note": "Curated directory of companies building the future (Ryan & Christian)",
-      "listed": 768,
-      "already_tracked": 581,
-      "missing": 187,
-      "in_scope_candidates": 34,
+      "listed": 784,
+      "already_tracked": 591,
+      "missing": 193,
+      "in_scope_candidates": 39,
       "rejected_by_bar": {
-        "sector out of scope": 123,
+        "sector out of scope": 124,
         "software or services wearing a hard-tech label": 16,
         "public company": 5,
         "founded 1960, no disclosed funding \u2014 incumbent, not frontier": 1,
@@ -144,7 +144,8 @@
           "Vultron",
           "Ambrook",
           "PhysicsX",
-          "Silkline"
+          "Silkline",
+          "Tandem"
         ],
         "software or services wearing a hard-tech label": [
           "RigUp",
@@ -489,7 +490,7 @@
           "city": "Flagstaff, AZ",
           "founded": "2019",
           "round": "Series A",
-          "raised": "$12M",
+          "raised": "$15.0M",
           "our_sector": "Space & Aerospace",
           "source_list": "buildlist"
         },
@@ -514,8 +515,8 @@
           "founders": "Gurmesh Sidhu, Gabriel Soares, Sumreen Rattan, Edward Chiang",
           "city": "Coquitlam, Canada",
           "founded": "2019",
-          "round": "Series B",
-          "raised": "$100M+",
+          "round": "Series C+",
+          "raised": "$124.8M",
           "our_sector": "Climate & Energy",
           "source_list": "buildlist"
         },
@@ -528,7 +529,7 @@
           "city": "San Mateo, CA",
           "founded": "2025",
           "round": "Seed",
-          "raised": "$500K",
+          "raised": "$0.5M",
           "our_sector": "Chips & Semiconductors",
           "source_list": "buildlist"
         },
@@ -634,6 +635,71 @@
           "round": "",
           "raised": "",
           "our_sector": "Defense & Security",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Skylo",
+          "status": "active",
+          "sector": "Aerospace",
+          "tagline": "Connects phones and devices directly to satellites.",
+          "founders": "Parthsarathi Trivedi, Andrew Nuttall, Andrew Kalman, Tarun Gupta",
+          "city": "Mountain View, CA",
+          "founded": "2017",
+          "round": "Series C+",
+          "raised": "$183M",
+          "our_sector": "Space & Aerospace",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Sphinx Defense",
+          "status": "active",
+          "sector": "Defense",
+          "tagline": "Builds secure software for space ground systems.",
+          "founders": "Hunter Price, Sebastien Diebler",
+          "city": "Arlington, VA",
+          "founded": "2020",
+          "round": "",
+          "raised": "",
+          "our_sector": "Defense & Security",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Weave Robotics",
+          "status": "active",
+          "sector": "Robotics",
+          "tagline": "Builds personal robots for household tasks.",
+          "founders": "Kaan Dogrusoz, Evan Wineland",
+          "city": "San Francisco, CA",
+          "founded": "2024",
+          "round": "Seed",
+          "raised": "$500K",
+          "our_sector": "Robotics & Manufacturing",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Orb Aerospace",
+          "status": "active",
+          "sector": "Aerospace",
+          "tagline": "Builds autonomous aircraft and resilient field communications.",
+          "founders": "Alex Taylor",
+          "city": "Lowell, MI",
+          "founded": "2019",
+          "round": "",
+          "raised": "$14.5M+",
+          "our_sector": "Space & Aerospace",
+          "source_list": "buildlist"
+        },
+        {
+          "name": "Cambridge GaN Devices",
+          "status": "active",
+          "sector": "Compute & Semiconductors",
+          "tagline": "Develops energy-efficient gallium nitride power semiconductors.",
+          "founders": "Giorgia Longobardi, Florin Udrea",
+          "city": "Cambridge, United Kingdom",
+          "founded": "2016",
+          "round": "Series C+",
+          "raised": "$63M+",
+          "our_sector": "Chips & Semiconductors",
           "source_list": "buildlist"
         }
       ]
