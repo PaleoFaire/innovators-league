@@ -51878,14 +51878,14 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-31 01:20
+// Last updated: 2026-08-31 08:34
 const COMPANY_SIGNALS = [
   { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Is Building the Chips AND the Rockets", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
   { id: 2, type: "news", company: "Anthropic", headline: "An Anthropic researcher just gave us a peek at self-improving AI", source: "TechCrunch", time: "2d ago", impact: "low", unread: true },
   { id: 3, type: "funding", company: "Einride", headline: "NVIDIA to buy Hugging Face, Einride launches VC firm, and fixing COPD diagnosis", source: "Tech.eu", time: "2d ago", impact: "medium", unread: true },
   { id: 4, type: "hire", company: "PsiQuantum", headline: "PsiQuantum's Ice Cream Factory", source: "Inside Quantum Technology", time: "2d ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "Elon Projects SpaceX $3.5 Trillion Revenue in 2033", source: "Next Big Future", time: "2d ago", impact: "low", unread: true },
-  { id: 6, type: "contract", company: "Anthropic", headline: "A Judge Has Blocked the Pentagon's Attempt to Blacklist Anthropic", source: "Wired", time: "2d ago", impact: "low", unread: false },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "Elon Projects SpaceX $3.5 Trillion Revenue in 2033", source: "Next Big Future", time: "3d ago", impact: "low", unread: true },
+  { id: 6, type: "contract", company: "Anthropic", headline: "A Judge Has Blocked the Pentagon's Attempt to Blacklist Anthropic", source: "Wired", time: "3d ago", impact: "low", unread: false },
   { id: 7, type: "contract", company: "OpenAI", headline: "Georgia PSC Approves Secret OpenAI Contract", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
   { id: 8, type: "news", company: "Anthropic", headline: "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World", source: "Wired", time: "3d ago", impact: "low", unread: false },
   { id: 9, type: "news", company: "OpenAI", headline: "OpenAI Is Developing a 'Persistent' AI Agent", source: "Wired", time: "3d ago", impact: "low", unread: false },
@@ -51894,7 +51894,7 @@ const COMPANY_SIGNALS = [
   { id: 12, type: "milestone", company: "OpenAI", headline: "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face", source: "Ars Technica", time: "3d ago", impact: "low", unread: false },
   { id: 13, type: "news", company: "OpenAI", headline: "The Download: inside OpenAI's Hugging Face hack, and a new EV takes on the US", source: "MIT Tech Review", time: "3d ago", impact: "low", unread: false },
   { id: 14, type: "news", company: "Cognition", headline: "Human must not surrender cognition to AI", source: "Tech.eu", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Hugging Face", headline: "Nvidia agrees to buy Hugging Face for $12.9BN, says report", source: "Tech.eu", time: "3d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Hugging Face", headline: "Nvidia agrees to buy Hugging Face for $12.9BN, says report", source: "Tech.eu", time: "4d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
