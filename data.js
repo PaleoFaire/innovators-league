@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-08-30";
+const LAST_UPDATED = "2026-08-31";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -51878,15 +51878,15 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-08-30 22:38
+// Last updated: 2026-08-31 01:20
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Is Building the Chips AND the Rockets", source: "Next Big Future", time: "23h ago", impact: "low", unread: true },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Is Building the Chips AND the Rockets", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
   { id: 2, type: "news", company: "Anthropic", headline: "An Anthropic researcher just gave us a peek at self-improving AI", source: "TechCrunch", time: "2d ago", impact: "low", unread: true },
   { id: 3, type: "funding", company: "Einride", headline: "NVIDIA to buy Hugging Face, Einride launches VC firm, and fixing COPD diagnosis", source: "Tech.eu", time: "2d ago", impact: "medium", unread: true },
   { id: 4, type: "hire", company: "PsiQuantum", headline: "PsiQuantum's Ice Cream Factory", source: "Inside Quantum Technology", time: "2d ago", impact: "low", unread: true },
   { id: 5, type: "ipo", company: "SpaceX", headline: "Elon Projects SpaceX $3.5 Trillion Revenue in 2033", source: "Next Big Future", time: "2d ago", impact: "low", unread: true },
   { id: 6, type: "contract", company: "Anthropic", headline: "A Judge Has Blocked the Pentagon's Attempt to Blacklist Anthropic", source: "Wired", time: "2d ago", impact: "low", unread: false },
-  { id: 7, type: "contract", company: "OpenAI", headline: "Georgia PSC Approves Secret OpenAI Contract", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "OpenAI", headline: "Georgia PSC Approves Secret OpenAI Contract", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
   { id: 8, type: "news", company: "Anthropic", headline: "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World", source: "Wired", time: "3d ago", impact: "low", unread: false },
   { id: 9, type: "news", company: "OpenAI", headline: "OpenAI Is Developing a 'Persistent' AI Agent", source: "Wired", time: "3d ago", impact: "low", unread: false },
   { id: 10, type: "news", company: "Waymo", headline: "Waymo takes a shot at Tesla's self-driving: it's a 'false summit'", source: "Electrek", time: "3d ago", impact: "low", unread: false },

@@ -1,19 +1,19 @@
 // Auto-generated news signals
-// Last updated: 2026-08-30T22:38:28.139Z
+// Last updated: 2026-08-31T01:20:09.160Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1788129508139,
+    "id": 1788139209160,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Is Building the Chips AND the Rockets",
     "source": "Next Big Future",
-    "time": "23h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/08/spacex-is-building-the-chips-and-the-rockets.html"
   },
   {
-    "id": 1788129508140,
+    "id": 1788139209161,
     "type": "news",
     "company": "Anthropic",
     "headline": "An Anthropic researcher just gave us a peek at self-improving AI",
@@ -24,7 +24,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/"
   },
   {
-    "id": 1788129508141,
+    "id": 1788139209162,
     "type": "funding",
     "company": "Einride",
     "headline": "NVIDIA to buy Hugging Face, Einride launches VC firm, and fixing COPD diagnosis",
@@ -35,7 +35,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/08/28/nvidia-to-buy-hugging-face-einride-launches-vc-firm-and-fixing-copd-diagnosis/"
   },
   {
-    "id": 1788129508142,
+    "id": 1788139209163,
     "type": "hire",
     "company": "PsiQuantum",
     "headline": "PsiQuantum’s Ice Cream Factory",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.insidequantumtechnology.com/news-archive/psiquantums-ice-cream-factory/"
   },
   {
-    "id": 1788129508143,
+    "id": 1788139209164,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Elon Projects SpaceX $3.5 Trillion Revenue in 2033",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/08/elon-projects-spacex-3-5-trillion-revenue-in-2033.html"
   },
   {
-    "id": 1788129508144,
+    "id": 1788139209165,
     "type": "contract",
     "company": "Anthropic",
     "headline": "A Judge Has Blocked the Pentagon’s Attempt to Blacklist Anthropic",
@@ -68,18 +68,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/a-judge-has-blocked-the-pentagons-attempt-to-blacklist-anthropic/"
   },
   {
-    "id": 1788129508145,
+    "id": 1788139209166,
     "type": "contract",
     "company": "OpenAI",
     "headline": "Georgia PSC Approves Secret OpenAI Contract",
     "source": "CleanTechnica",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://cleantechnica.com/2026/08/27/georgia-psc-approves-secret-openai-contract/"
   },
   {
-    "id": 1788129508146,
+    "id": 1788139209167,
     "type": "news",
     "company": "Anthropic",
     "headline": "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world/"
   },
   {
-    "id": 1788129508147,
+    "id": 1788139209168,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Is Developing a ‘Persistent’ AI Agent",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent/"
   },
   {
-    "id": 1788129508148,
+    "id": 1788139209169,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s a &#8216;false summit&#8217;",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/08/27/waymo-tesla-self-driving-false-summit/"
   },
   {
-    "id": 1788129508149,
+    "id": 1788139209170,
     "type": "hire",
     "company": "Carbon Robotics",
     "headline": "Carbon Robotics partners with iMerit to power instant in-field AI customization",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/"
   },
   {
-    "id": 1788129508150,
+    "id": 1788139209171,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/"
   },
   {
-    "id": 1788129508151,
+    "id": 1788139209172,
     "type": "news",
     "company": "OpenAI",
     "headline": "The Download: inside OpenAI&#8217;s Hugging Face hack, and a new EV takes on the US",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/"
   },
   {
-    "id": 1788129508152,
+    "id": 1788139209173,
     "type": "news",
     "company": "Cognition",
     "headline": "Human must not surrender cognition to AI",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/08/27/human-must-not-surrender-cognition-to-ai/"
   },
   {
-    "id": 1788129508153,
+    "id": 1788139209174,
     "type": "news",
     "company": "Hugging Face",
     "headline": "Nvidia agrees to buy Hugging Face for $12.9BN, says report",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/08/27/nvidia-agrees-to-buy-hugging-face-for-12-9bn-says-report/"
   },
   {
-    "id": 1788129508154,
+    "id": 1788139209175,
     "type": "funding",
     "company": "Humanoid",
     "headline": "Motion lands $2M to expand humanoid robot deployments across Europe",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/08/27/motion-lands-2m-to-expand-humanoid-robot-deployments-across-europe/"
   },
   {
-    "id": 1788129508155,
+    "id": 1788139209176,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "The inside story on why OpenAI agents hacked Hugging Face",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/"
   },
   {
-    "id": 1788129508156,
+    "id": 1788139209177,
     "type": "news",
     "company": "Bedrock Robotics",
     "headline": "Bedrock Robotics&#8217; first operator-free excavator deployments take off",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/"
   },
   {
-    "id": 1788129508157,
+    "id": 1788139209178,
     "type": "milestone",
     "company": "Einride",
     "headline": "Einride founders launch venture firm, targeting €450M European deep tech investments",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/08/26/einride-founders-launch-venture-firm-targeting-450m-european-deep-tech-investments/"
   },
   {
-    "id": 1788129508158,
+    "id": 1788139209179,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Has 15-17 Starship Launch Pads Under Development",
