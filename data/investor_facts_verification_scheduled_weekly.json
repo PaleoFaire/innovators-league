@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T07:56:30+00:00",
+  "generatedAt": "2026-08-31T14:40:29+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_weekly.json",
   "cohortSize": 12,
@@ -10,86 +10,15 @@
     "unverifiable": 0
   },
   "cleared": [
+    "Cantos Ventures",
     "DCVC",
     "Eclipse Ventures",
-    "General Catalyst",
-    "Harpoon Ventures",
+    "Kleiner Perkins Caufield & Byers, LLC",
     "Lightspeed Venture Partners",
     "Point72 Ventures",
     "Shield Capital"
   ],
   "changesProposed": [
-    {
-      "name": "Cantos Ventures",
-      "current": {
-        "name": "Cantos Ventures",
-        "shortName": "Cantos",
-        "aum": "$100M+",
-        "flagshipFund": "Cantos Fund III",
-        "founded": 2016,
-        "hq": "San Francisco, CA",
-        "website": "https://cantos.vc"
-      },
-      "verified": {
-        "name": "Cantos Ventures",
-        "short_name": null,
-        "aum": null,
-        "flagship_fund": null,
-        "founded_year": null,
-        "hq": "San Francisco, CA",
-        "key_partners": null,
-        "sector_focus": [
-          "Energy",
-          "Defense",
-          "Space",
-          "Advanced Manufacturing",
-          "Infrastructure"
-        ],
-        "thesis": "Cantos Ventures provides initial capital and ongoing counsel to founders building transformative technology across three areas: Abundance (shelter, safety, food, water, energy, health, meaningful work), Resilience (critical systems and infrastructure), and Advantage (competitiveness of the United States and its democratic allies in advanced technologies).",
-        "website": "https://cantos.vc",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "hq": [
-            0
-          ],
-          "sector_focus": [
-            0
-          ],
-          "thesis": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Wikipedia source [1] is about Ezra Pound's poem 'The Cantos' and is not relevant to the venture capital firm. Founded year, AUM, flagship fund, and key partners cannot be verified from provided sources. HQ location inferred from website domain but not explicitly stated in sources."
-      },
-      "changes": [
-        {
-          "field": "thesis",
-          "current": "Cantos Ventures provides initial capital and ongoing counsel to founders building transformative technology in three areas: Abundance (shelter, safety, food, water, energy, health, meaningful work), Resilience (critical systems and infrastructure), and Advantage (competitiveness of the United States and democratic allies in advanced technologies).",
-          "verified": "Cantos Ventures provides initial capital and ongoing counsel to founders building transformative technology across three areas: Abundance (shelter, safety, food, water, energy, health, meaningful work), Resilience (critical systems and infrastructure), and Advantage (competitiveness of the United States and its democratic allies in advanced technologies).",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://cantos.vc"
-        },
-        {
-          "idx": 1,
-          "src": "wikipedia (short name)",
-          "url": "https://en.wikipedia.org/wiki/Cantos"
-        }
-      ],
-      "notes": "Wikipedia source [1] is about Ezra Pound's poem 'The Cantos' and is not relevant to the venture capital firm. Founded year, AUM, flagship fund, and key partners cannot be verified from provided sources. HQ location inferred from website domain but not explicitly stated in sources."
-    },
     {
       "name": "Engine Ventures",
       "current": {
@@ -130,8 +59,9 @@
         "website": "https://engine.xyz",
         "sources_per_field": {
           "name": [
-            0,
-            1,
+            3
+          ],
+          "short_name": [
             3
           ],
           "founded_year": [
@@ -141,19 +71,16 @@
             3
           ],
           "sector_focus": [
-            1,
-            2
+            1
           ],
           "thesis": [
-            1,
             3
           ],
           "website": [
-            0,
-            1
+            0
           ]
         },
-        "notes": "Engine Ventures is a separate investment firm that spun out from The Engine (a nonprofit incubator/accelerator founded by MIT in 2016) in 2023. The Engine and Engine Ventures are distinct entities. Key partners and AUM could not be verified from provided sources. The database entry lists 'Katie Rae' and 'Reed Sturtevant' as partners, but these names do not appear in the provided sources. Wikipedia lists Emily Knight as CEO/President of The Engine (not Engine Ventures specifically)."
+        "notes": "Engine Ventures is a separate investment firm that spun out from The Engine (a nonprofit incubator/accelerator founded by MIT in 2016) in 2023. The Engine is a 501(c)(3) nonprofit as of 2025. Key distinction: Engine Ventures is the VC fund; The Engine is the nonprofit accelerator/incubator. Wikipedia article is titled 'The Engine (organization)' but covers both entities. No current senior partners explicitly named on firm website or Wikipedia for Engine Ventures specifically. AUM not verified in sources."
       },
       "changes": [
         {
@@ -188,8 +115,7 @@
             "Water / Oceans"
           ],
           "sources": [
-            1,
-            2
+            1
           ]
         }
       ],
@@ -215,69 +141,78 @@
           "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
         }
       ],
-      "notes": "Engine Ventures is a separate investment firm that spun out from The Engine (a nonprofit incubator/accelerator founded by MIT in 2016) in 2023. The Engine and Engine Ventures are distinct entities. Key partners and AUM could not be verified from provided sources. The database entry lists 'Katie Rae' and 'Reed Sturtevant' as partners, but these names do not appear in the provided sources. Wikipedia lists Emily Knight as CEO/President of The Engine (not Engine Ventures specifically)."
+      "notes": "Engine Ventures is a separate investment firm that spun out from The Engine (a nonprofit incubator/accelerator founded by MIT in 2016) in 2023. The Engine is a 501(c)(3) nonprofit as of 2025. Key distinction: Engine Ventures is the VC fund; The Engine is the nonprofit accelerator/incubator. Wikipedia article is titled 'The Engine (organization)' but covers both entities. No current senior partners explicitly named on firm website or Wikipedia for Engine Ventures specifically. AUM not verified in sources."
     },
     {
-      "name": "Kleiner Perkins Caufield & Byers, LLC",
+      "name": "General Catalyst",
       "current": {
-        "name": "Kleiner Perkins Caufield & Byers, LLC",
-        "shortName": "KP",
-        "aum": "$21B+",
-        "flagshipFund": "KP22 ($1B early-stage) and Select growth funds ($2.5B)",
-        "founded": 1972,
-        "hq": "Menlo Park, California",
-        "website": "https://www.kleinerperkins.com"
+        "name": "General Catalyst",
+        "shortName": "GC",
+        "aum": "$43B+",
+        "flagshipFund": "General Catalyst Group XII, L.P.",
+        "founded": 2000,
+        "hq": "Cambridge, Massachusetts",
+        "website": "https://generalcatalyst.com"
       },
       "verified": {
-        "name": "Kleiner Perkins Caufield & Byers, LLC",
-        "short_name": "KP",
-        "aum": null,
-        "flagship_fund": null,
-        "founded_year": null,
-        "hq": null,
+        "name": "General Catalyst",
+        "short_name": "GC",
+        "aum": "$43B+",
+        "flagship_fund": "General Catalyst Group XII, L.P.",
+        "founded_year": 2000,
+        "hq": "Cambridge, Massachusetts",
         "key_partners": [
-          "John Doerr",
-          "Brook Byers",
-          "Ilya Fushman",
-          "Mamoon Hamid",
-          "Aditya Naganath",
-          "Aatish Nayak",
-          "Leigh Marie Braswell",
-          "Josh Coyne",
-          "Jesse King",
-          "Joubin Mirzadegan",
-          "Ted Schlein"
+          "Hemant Taneja",
+          "Ken Chenault",
+          "Jeannette zu F\u00fcrstenberg"
         ],
         "sector_focus": null,
-        "thesis": "Kleiner Perkins partners with founders to build iconic companies, investing from inception to IPO and beyond.",
-        "website": "https://www.kleinerperkins.com",
+        "thesis": "General Catalyst invests across seed, venture, and growth stages. The firm focuses on transforming critical institutions with applied AI, particularly in healthcare and defense.",
+        "website": "https://generalcatalyst.com",
         "sources_per_field": {
           "name": [
             0,
-            1,
-            2
+            1
           ],
-          "short_name": [],
+          "short_name": [
+            1
+          ],
+          "aum": [
+            0,
+            1
+          ],
+          "flagship_fund": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "hq": [
+            0,
+            1
+          ],
           "key_partners": [
-            2
+            1
           ],
+          "sector_focus": [],
           "thesis": [
+            0,
             1
           ],
           "website": [
             0,
-            1,
-            2
+            1
           ]
         },
-        "notes": "AUM, flagship fund names, founded year, and HQ location could not be verified from provided sources. Sector focus list from database entry (Hardtech, AI Infrastructure, Robotics, Defense) is not explicitly stated in sources. Key partners verified from official team page [2]: John Doerr listed as Chairman, Brook Byers as Founder, and 9 partners explicitly named with Partner title."
+        "notes": "In June 2024, General Catalyst acquired La Famiglia (German VC firm) and Venture Highway (New Delhi-based early-stage investor). In October 2024, firm raised $8B in new funds. In December 2025, agreed to acquire Janus Henderson for ~$7.4B (later increased offer to $52/share in March 2026). In May 2025, launched \u00a330M NHS MedTech venture fund. Jeannette zu F\u00fcrstenberg became managing director overseeing European business following La Famiglia acquisition."
       },
       "changes": [
         {
           "field": "thesis",
-          "current": "Kleiner Perkins partners with founders to build iconic companies across industries, investing from inception to IPO and beyond.",
-          "verified": "Kleiner Perkins partners with founders to build iconic companies, investing from inception to IPO and beyond.",
+          "current": "General Catalyst invests across seed, venture, and growth stages. The firm focuses on transforming critical institutions with applied AI.",
+          "verified": "General Catalyst invests across seed, venture, and growth stages. The firm focuses on transforming critical institutions with applied AI, particularly in healthcare and defense.",
           "sources": [
+            0,
             1
           ]
         }
@@ -286,20 +221,102 @@
         {
           "idx": 0,
           "src": "firm_website",
-          "url": "https://www.kleinerperkins.com"
+          "url": "https://generalcatalyst.com"
         },
         {
           "idx": 1,
-          "src": "firm/about",
-          "url": "https://www.kleinerperkins.com/about"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_Catalyst"
+        }
+      ],
+      "notes": "In June 2024, General Catalyst acquired La Famiglia (German VC firm) and Venture Highway (New Delhi-based early-stage investor). In October 2024, firm raised $8B in new funds. In December 2025, agreed to acquire Janus Henderson for ~$7.4B (later increased offer to $52/share in March 2026). In May 2025, launched \u00a330M NHS MedTech venture fund. Jeannette zu F\u00fcrstenberg became managing director overseeing European business following La Famiglia acquisition."
+    },
+    {
+      "name": "Harpoon Ventures",
+      "current": {
+        "name": "Harpoon Ventures",
+        "shortName": "Harpoon",
+        "aum": "$300M+",
+        "flagshipFund": "Harpoon Ventures Fund IV",
+        "founded": 2018,
+        "hq": "San Diego, CA",
+        "website": "https://harpoon.vc"
+      },
+      "verified": {
+        "name": "Harpoon Ventures",
+        "short_name": null,
+        "aum": null,
+        "flagship_fund": "Harpoon Ventures Fund IV",
+        "founded_year": 2018,
+        "hq": null,
+        "key_partners": [
+          "Larsen Jensen"
+        ],
+        "sector_focus": [
+          "AI",
+          "Cybersecurity",
+          "Deep Tech",
+          "Software Infrastructure",
+          "Aerospace / Defense",
+          "Energy / Materials",
+          "Biotech / Biosecurity"
+        ],
+        "thesis": "Harpoon invests in audacious founders building across AI, deep tech, software infrastructure, and cybersecurity. The firm was founded on the belief that technology will define geopolitics.",
+        "website": "https://harpoon.vc",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "flagship_fund": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "key_partners": [
+            0
+          ],
+          "sector_focus": [
+            0,
+            1
+          ],
+          "thesis": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Source [2] (Wikipedia) is about the fishing instrument 'harpoon', not the venture capital firm, and therefore provides no verified information about Harpoon Ventures. AUM cannot be verified from provided sources. HQ location cannot be verified from provided sources. Short name abbreviation cannot be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "thesis",
+          "current": "Harpoon invests in audacious founders building across AI, deep tech, software infrastructure, and cybersecurity. The firm was founded in 2018 on the belief that technology will define geopolitics.",
+          "verified": "Harpoon invests in audacious founders building across AI, deep tech, software infrastructure, and cybersecurity. The firm was founded on the belief that technology will define geopolitics.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://harpoon.vc"
+        },
+        {
+          "idx": 1,
+          "src": "firm/portfolio",
+          "url": "https://harpoon.vc/portfolio"
         },
         {
           "idx": 2,
-          "src": "firm/team",
-          "url": "https://www.kleinerperkins.com/team"
+          "src": "wikipedia (short name)",
+          "url": "https://en.wikipedia.org/wiki/Harpoon"
         }
       ],
-      "notes": "AUM, flagship fund names, founded year, and HQ location could not be verified from provided sources. Sector focus list from database entry (Hardtech, AI Infrastructure, Robotics, Defense) is not explicitly stated in sources. Key partners verified from official team page [2]: John Doerr listed as Chairman, Brook Byers as Founder, and 9 partners explicitly named with Partner title."
+      "notes": "Source [2] (Wikipedia) is about the fishing instrument 'harpoon', not the venture capital firm, and therefore provides no verified information about Harpoon Ventures. AUM cannot be verified from provided sources. HQ location cannot be verified from provided sources. Short name abbreviation cannot be verified from provided sources."
     },
     {
       "name": "Silent Ventures",
@@ -316,8 +333,8 @@
         "name": "Silent Ventures",
         "short_name": null,
         "aum": null,
-        "flagship_fund": "Silent Ventures",
-        "founded_year": 2022,
+        "flagship_fund": "Silent Ventures Fund II",
+        "founded_year": null,
         "hq": null,
         "key_partners": [
           "Jackson Moses"
@@ -349,30 +366,13 @@
             0
           ]
         },
-        "notes": "Founded year of 2022 cannot be verified from provided sources. Wikipedia source [1] is a disambiguation page and does not contain information about Silent Ventures. Headquarters (Dallas, Texas) cannot be verified from sources. AUM is not disclosed in sources."
+        "notes": "Source [1] is a Wikipedia disambiguation page for the word 'Silent' and provides no information about Silent Ventures. Founded year could not be verified from sources (database entry states 2022). HQ location could not be verified from sources (database entry states Dallas, Texas). AUM is not disclosed in sources. Fund II mentioned in source [0] as '$85M Fund II'."
       },
       "changes": [
         {
-          "field": "sectorFocus",
-          "current": [
-            "Defense",
-            "Aerospace",
-            "National Security",
-            "Deep Tech"
-          ],
-          "verified": [
-            "Aerospace",
-            "Defense",
-            "National Security"
-          ],
-          "sources": [
-            0
-          ]
-        },
-        {
-          "field": "thesis",
-          "current": "Early-stage venture firm investing at concept-stage pre-seed and seed in founders building aerospace, defense, and national-security companies. Founder Jackson Moses also runs Silent Capital, a private 506(b) syndicate giving members access to multi-stage defense and deep-tech deals, and says his funds have backed 14 defense-tech unicorns from inception.",
-          "verified": "Silent Ventures is an early stage venture firm that invests in exceptional founders building unrivaled aerospace, defense, and national security companies, primarily at concept stage pre-seed and seed.",
+          "field": "flagshipFund",
+          "current": "Silent Ventures",
+          "verified": "Silent Ventures Fund II",
           "sources": [
             0
           ]
@@ -390,7 +390,7 @@
           "url": "https://en.wikipedia.org/wiki/Silent"
         }
       ],
-      "notes": "Founded year of 2022 cannot be verified from provided sources. Wikipedia source [1] is a disambiguation page and does not contain information about Silent Ventures. Headquarters (Dallas, Texas) cannot be verified from sources. AUM is not disclosed in sources."
+      "notes": "Source [1] is a Wikipedia disambiguation page for the word 'Silent' and provides no information about Silent Ventures. Founded year could not be verified from sources (database entry states 2022). HQ location could not be verified from sources (database entry states Dallas, Texas). AUM is not disclosed in sources. Fund II mentioned in source [0] as '$85M Fund II'."
     },
     {
       "name": "Y Combinator",
@@ -417,12 +417,10 @@
           "Aaron Epstein",
           "Diana Hu",
           "Gustaf Alstr\u00f6mer",
-          "Nicolas Dessaigne",
-          "Tom Blomfield",
-          "Brad Flora"
+          "Nicolas Dessaigne"
         ],
         "sector_focus": null,
-        "thesis": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program in San Francisco provides office hours, mentorship, and community access to help startups improve their product, user base, and fundraising options.",
+        "thesis": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support to help startups achieve product-market fit and better shape for fundraising.",
         "website": "https://www.ycombinator.com",
         "sources_per_field": {
           "name": [
@@ -434,10 +432,9 @@
           ],
           "flagship_fund": [
             0,
-            2
+            1
           ],
           "founded_year": [
-            0,
             2
           ],
           "hq": [
@@ -449,19 +446,45 @@
           ],
           "thesis": [
             0,
-            2
+            1
           ]
         },
-        "notes": "Garry Tan became President & CEO in January 2023 (source 2). Jared Friedman became Managing Partner in March 2024, succeeding Michael Seibel (source 2). Headquarters relocated from Mountain View to San Francisco in spring 2023 (source 2). No explicit sector focus areas found on firm website or Wikipedia sources provided."
+        "notes": "Garry Tan became President & CEO in January 2023. Jared Friedman succeeded Michael Seibel as Managing Partner in March 2024. Headquarters relocated from Mountain View to San Francisco in spring 2023. Tom Blomfield and Brad Flora listed in database entry but not found in current source materials."
       },
       "changes": [
         {
+          "field": "keyPartners",
+          "current": [
+            "Garry Tan",
+            "Jared Friedman",
+            "Harj Taggar",
+            "Aaron Epstein",
+            "Diana Hu",
+            "Gustaf Alstr\u00f6mer",
+            "Nicolas Dessaigne",
+            "Tom Blomfield",
+            "Brad Flora"
+          ],
+          "verified": [
+            "Garry Tan",
+            "Jared Friedman",
+            "Harj Taggar",
+            "Aaron Epstein",
+            "Diana Hu",
+            "Gustaf Alstr\u00f6mer",
+            "Nicolas Dessaigne"
+          ],
+          "sources": [
+            0
+          ]
+        },
+        {
           "field": "thesis",
-          "current": "Y Combinator invests $500k per company ($125k for 7% equity on post-money SAFE and $375k on uncapped SAFE with MFN clause) in select batches four times per year. The three-month intensive program provides office hours, mentorship, and community access to help startups achieve better products, user bases, and fundraising outcomes before Demo Day.",
-          "verified": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program in San Francisco provides office hours, mentorship, and community access to help startups improve their product, user base, and fundraising options.",
+          "current": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program in San Francisco provides office hours, mentorship, and community access to help startups improve their product, user base, and fundraising options.",
+          "verified": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support to help startups achieve product-market fit and better shape for fundraising.",
           "sources": [
             0,
-            2
+            1
           ]
         }
       ],
@@ -482,7 +505,7 @@
           "url": "https://en.wikipedia.org/wiki/Y_Combinator"
         }
       ],
-      "notes": "Garry Tan became President & CEO in January 2023 (source 2). Jared Friedman became Managing Partner in March 2024, succeeding Michael Seibel (source 2). Headquarters relocated from Mountain View to San Francisco in spring 2023 (source 2). No explicit sector focus areas found on firm website or Wikipedia sources provided."
+      "notes": "Garry Tan became President & CEO in January 2023. Jared Friedman succeeded Michael Seibel as Managing Partner in March 2024. Headquarters relocated from Mountain View to San Francisco in spring 2023. Tom Blomfield and Brad Flora listed in database entry but not found in current source materials."
     }
   ],
   "unverifiable": []

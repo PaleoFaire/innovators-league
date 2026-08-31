@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-24T07:54:29+00:00",
+  "generatedAt": "2026-08-31T14:38:25+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_weekly.json",
   "cohortSize": 93,
   "newExtractionsThisRun": 87,
   "summary": {
-    "cleared": 80,
-    "changesProposed": 8,
+    "cleared": 85,
+    "changesProposed": 3,
     "unverifiable": 5
   },
   "cleared": [
@@ -22,17 +22,19 @@
     "Aestus Industries",
     "Aeva Technologies",
     "Agile Robots",
-    "AheadComputing",
     "AiDash",
     "Aigen",
+    "Alif Semiconductor",
     "AlixLabs",
     "Allen Control Systems",
     "Alsym Energy",
     "Amber Bio",
     "Ambrosia Energy",
     "American Housing Corporation",
+    "Anduril Industries",
     "Apis Cor",
     "Applied Atomics",
+    "Applied Intuition",
     "Archer Materials",
     "Ares Industries",
     "Ark Robotics",
@@ -59,7 +61,9 @@
     "Blackstar",
     "Blue Energy",
     "Blykalla",
+    "Boom Supersonic",
     "BotBuilt",
+    "Built Robotics",
     "CORE POWER",
     "Cailabs",
     "Calogena",
@@ -85,6 +89,7 @@
     "DIRAC",
     "DefSecIntel",
     "Defense Unicorns",
+    "Dexterity",
     "Dhruva Space",
     "Diraq",
     "Dominion Dynamics",
@@ -99,13 +104,13 @@
         "founder": "Bernt \u00d8ivind B\u00f8rnich",
         "location": "Palo Alto, CA",
         "founded": 2014,
-        "fundingStage": "Series B",
+        "fundingStage": "Pre-Seed",
         "totalRaised": "$1.1B",
         "website": "https://1xtechnologies.com"
       },
       "verified": {
         "name": "1X Technologies",
-        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home environments. The company is headquartered in Palo Alto, California, with main manufacturing operations in Hayward and additional manufacturing in Moss, Norway.",
+        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home and industrial environments. The company manufactures humanoid robots including EVE for industrial use and NEO for home environments.",
         "founders": [
           "Bernt \u00d8ivind B\u00f8rnich"
         ],
@@ -154,13 +159,21 @@
             2
           ]
         },
-        "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Total raised figure represents verified funding: $23.5M Series A2 (March 2023) + $100M Series B (January 2024). Sources [0] and [1] describe a different company (wire/cable manufacturer located in Sheridan, Wyoming) that is unrelated to the robotics company described in source [2]."
+        "notes": "Company was founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Series A2 funding of $23.5M in March 2023 (source 2); Series B funding of $100M in January 2024 (source 2). Total raised figure of $123.5M calculated from disclosed funding rounds. Sources 0 and 1 refer to a different company (1X Technologies LLC - a wire and cable distributor founded in 2015, based in Sheridan, Wyoming) and are not applicable to this robotics company."
       },
       "changes": [
         {
           "field": "location",
           "current": "Palo Alto, CA",
           "verified": "Palo Alto, California, USA",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Pre-Seed",
+          "verified": "Series B",
           "sources": [
             2
           ]
@@ -189,154 +202,89 @@
           "idx": 2,
           "src": "wikipedia",
           "url": "https://en.wikipedia.org/wiki/1X_Technologies"
+        },
+        {
+          "idx": 3,
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/08/27/motion-lands-2m-to-expand-humanoid-robot-deployments-across-europe/"
         }
       ],
-      "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Total raised figure represents verified funding: $23.5M Series A2 (March 2023) + $100M Series B (January 2024). Sources [0] and [1] describe a different company (wire/cable manufacturer located in Sheridan, Wyoming) that is unrelated to the robotics company described in source [2]."
+      "notes": "Company was founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Series A2 funding of $23.5M in March 2023 (source 2); Series B funding of $100M in January 2024 (source 2). Total raised figure of $123.5M calculated from disclosed funding rounds. Sources 0 and 1 refer to a different company (1X Technologies LLC - a wire and cable distributor founded in 2015, based in Sheridan, Wyoming) and are not applicable to this robotics company."
     },
     {
-      "name": "Alif Semiconductor",
+      "name": "AheadComputing",
       "current": {
-        "name": "Alif Semiconductor",
-        "founder": "Syed Ali, Reza Kazerounian",
-        "location": "Pleasanton, CA",
-        "founded": 2019,
-        "fundingStage": "Series C",
-        "totalRaised": "$185.9M",
-        "website": "https://alifsemi.com"
+        "name": "AheadComputing",
+        "founder": "Debbie Marr, Mark Dechene, Jonathan Pearce, Srikanth Srinivasan",
+        "location": "Portland, OR",
+        "founded": 2024,
+        "fundingStage": "Seed",
+        "totalRaised": "$51.5M",
+        "website": "https://www.aheadcomputing.com"
       },
       "verified": {
-        "name": "Alif Semiconductor",
-        "description": "Fabless designer of AI-enabled 32-bit microcontrollers and fusion processors that integrate Arm Cortex cores with Ethos neural processing units for edge AI applications.",
+        "name": "AheadComputing",
+        "description": "Designs high-performance 64-bit RISC-V application processor cores for AI, data center, cloud, client, mobile, and edge workloads. Founded by former Intel CPU architects, the company licenses CPU core IP rather than fabricating chips.",
         "founders": [
-          "Syed Ali",
-          "Reza Kazerounian"
+          "Debbie Marr",
+          "Jonathan Pearce",
+          "Srikanth Srinivasan",
+          "Mark Dechene"
         ],
-        "location": "Pleasanton, California",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
+        "location": "Portland, Oregon, USA",
+        "founded_year": 2024,
+        "current_stage": "Seed",
+        "total_raised": "$51.5M",
         "valuation": null,
         "investors": [
-          "Kleiner Perkins"
+          "Eclipse Ventures",
+          "Toyota Ventures",
+          "Cambium",
+          "Maverick Capital",
+          "EPIQ Capital Group",
+          "Jim Keller",
+          "Corner",
+          "Trousdale Ventures"
         ],
-        "website": "https://alifsemi.com",
+        "website": "https://www.aheadcomputing.com",
         "sources_per_field": {
           "name": [
             0
           ],
           "description": [
-            0,
-            1
+            0
           ],
           "founders": [
             1
           ],
           "location": [
-            0,
-            1
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
           ],
           "investors": [
             0
-          ]
-        },
-        "notes": "Sources confirm Syed Ali as CEO & Co-Founder and Reza Kazerounian as President & Co-Founder. Kleiner Perkins explicitly mentioned as lead investor. Founded year, current stage, total raised, and valuation cannot be verified from provided sources. Location confirmed as Pleasanton, California from both website and about page."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Pleasanton, CA",
-          "verified": "Pleasanton, California",
-          "sources": [
-            0,
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://alifsemi.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://alifsemi.com/about"
-        }
-      ],
-      "notes": "Sources confirm Syed Ali as CEO & Co-Founder and Reza Kazerounian as President & Co-Founder. Kleiner Perkins explicitly mentioned as lead investor. Founded year, current stage, total raised, and valuation cannot be verified from provided sources. Location confirmed as Pleasanton, California from both website and about page."
-    },
-    {
-      "name": "Anduril Industries",
-      "current": {
-        "name": "Anduril Industries",
-        "founder": "Palmer Luckey, Brian Schimpf, Trae Stephens, Matt Grimm, Joe Chen",
-        "location": "Costa Mesa, CA",
-        "founded": 2017,
-        "fundingStage": "Series H",
-        "totalRaised": "$11B+",
-        "website": "https://anduril.com"
-      },
-      "verified": {
-        "name": "Anduril Industries",
-        "description": "American military technology company specializing in advanced autonomous systems, unmanned aerial systems, counter-UAS, and networked command and control software for the U.S. Department of Defense.",
-        "founders": [
-          "Palmer Luckey",
-          "Trae Stephens",
-          "Matt Grimm",
-          "Joe Chen",
-          "Brian Schimpf"
-        ],
-        "location": "Costa Mesa, California, U.S.",
-        "founded_year": 2017,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": "$61B",
-        "investors": [
-          "Founders Fund",
-          "Andreessen Horowitz",
-          "General Catalyst",
-          "8VC",
-          "Lux Capital",
-          "Valor Equity Partners",
-          "D1 Capital Partners"
-        ],
-        "website": "https://anduril.com",
-        "sources_per_field": {
-          "name": [
-            1
-          ],
-          "description": [
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "valuation": [
-            1
-          ],
-          "investors": [
-            1
           ],
           "website": [
-            1
+            0
           ]
         },
-        "notes": "Wikipedia states company was incorporated April 20, 2017. Valuation of $61B as of May 2026 per Wikipedia. Website source [0] appears to be under construction and provides no verifiable content. Current stage (Series H) and total_raised ($11B+) from database entry could not be verified in provided sources."
+        "notes": "Founded year verified via website blog post dated July 31, 2026 stating 'AheadComputing celebrates 2 years' (indicating 2024 founding). Total raised of $51.5M appears to be sum of multiple rounds ($21.5M and $30M Seed2 rounds mentioned on website)."
       },
       "changes": [
         {
           "field": "location",
-          "current": "Costa Mesa, CA",
-          "verified": "Costa Mesa, California, U.S.",
+          "current": "Portland, OR",
+          "verified": "Portland, Oregon, USA",
           "sources": [
-            1
+            0
           ]
         }
       ],
@@ -344,311 +292,15 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://anduril-industries.com"
-        },
-        {
-          "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Anduril_Industries"
-        }
-      ],
-      "notes": "Wikipedia states company was incorporated April 20, 2017. Valuation of $61B as of May 2026 per Wikipedia. Website source [0] appears to be under construction and provides no verifiable content. Current stage (Series H) and total_raised ($11B+) from database entry could not be verified in provided sources."
-    },
-    {
-      "name": "Applied Intuition",
-      "current": {
-        "name": "Applied Intuition",
-        "founder": "Qasar Younis, Peter Ludwig",
-        "location": "Sunnyvale, CA",
-        "founded": 2017,
-        "fundingStage": "Series F",
-        "totalRaised": "$600M+",
-        "website": "https://appliedintuition.com"
-      },
-      "verified": {
-        "name": "Applied Intuition",
-        "description": "Develops software platforms and simulation tools for physical AI across autonomous vehicles, industrial machines, and defense systems. As of 2025, the company employed approximately 1,300 people working on applications ranging from automotive driver-assistance features to military vehicles and robotics.",
-        "founders": [
-          "Qasar Younis",
-          "Peter Ludwig"
-        ],
-        "location": "Sunnyvale, California",
-        "founded_year": 2017,
-        "current_stage": "Series F",
-        "total_raised": "$600M",
-        "valuation": "$15B",
-        "investors": [
-          "Andreessen Horowitz",
-          "Fidelity Investments",
-          "Lux Capital",
-          "General Catalyst",
-          "BlackRock-managed funds",
-          "Kleiner Perkins",
-          "Franklin Templeton",
-          "Qatar Investment Authority"
-        ],
-        "website": "https://appliedintuition.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            1,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Founded in January 2017 by Qasar Younis and Peter Ludwig. Series F funding of $600M announced in June 2025, increasing valuation from $6B (2024) to $15B. Marc Andreessen joined as board member in 2017. Wikipedia notes Ray Dalio, Henry Kravis, Mary Meeker, Reid Hoffman, and Mustafa Suleyman as investors alongside the listed firms."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Sunnyvale, CA",
-          "verified": "Sunnyvale, California",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://appliedintuition.com"
+          "url": "https://www.aheadcomputing.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://appliedintuition.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Applied_Intuition"
+          "url": "https://www.aheadcomputing.com/team"
         }
       ],
-      "notes": "Founded in January 2017 by Qasar Younis and Peter Ludwig. Series F funding of $600M announced in June 2025, increasing valuation from $6B (2024) to $15B. Marc Andreessen joined as board member in 2017. Wikipedia notes Ray Dalio, Henry Kravis, Mary Meeker, Reid Hoffman, and Mustafa Suleyman as investors alongside the listed firms."
-    },
-    {
-      "name": "Boom Supersonic",
-      "current": {
-        "name": "Boom Supersonic",
-        "founder": "Blake Scholl, Joe Wilding, Josh Krall",
-        "location": "Centennial, CO",
-        "founded": 2014,
-        "fundingStage": "Private",
-        "totalRaised": "$600M+",
-        "website": "https://boomsupersonic.com"
-      },
-      "verified": {
-        "name": "Boom Supersonic",
-        "description": "American aerospace company developing Overture, a proposed supersonic airliner designed to carry 60-80 passengers at Mach 1.7. The company has successfully flight-tested the XB-1 demonstrator, which broke the sound barrier on January 28, 2025.",
-        "founders": [
-          "Blake Scholl",
-          "Joe Wilding",
-          "Josh Krall"
-        ],
-        "location": "Centennial, Colorado",
-        "founded_year": 2014,
-        "current_stage": "Private",
-        "total_raised": "$600M+",
-        "valuation": null,
-        "investors": [
-          "Y Combinator",
-          "Sam Altman",
-          "Paul Graham",
-          "Alex Gerko",
-          "Michael Moritz",
-          "Bessemer Venture Partners",
-          "Seraph Group",
-          "Continuity Fund",
-          "RRE Ventures",
-          "Palm Drive Ventures",
-          "NEOM Investment Fund"
-        ],
-        "website": "https://boomsupersonic.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            2
-          ],
-          "description": [
-            0,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            0,
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ]
-        },
-        "notes": "Company legally named 'Boom Technology, Inc.' but trades as 'Boom Supersonic'. XB-1 broke sound barrier on January 28, 2025, becoming first privately-funded aircraft to do so. Introduced 42MW Superpower natural gas turbine in December 2025 for AI data center power applications. Orders total 130 aircraft from United Airlines, American Airlines, and Japan Airlines."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Centennial, CO",
-          "verified": "Centennial, Colorado",
-          "sources": [
-            0,
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://boomsupersonic.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://boomsupersonic.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Boom_Supersonic"
-        }
-      ],
-      "notes": "Company legally named 'Boom Technology, Inc.' but trades as 'Boom Supersonic'. XB-1 broke sound barrier on January 28, 2025, becoming first privately-funded aircraft to do so. Introduced 42MW Superpower natural gas turbine in December 2025 for AI data center power applications. Orders total 130 aircraft from United Airlines, American Airlines, and Japan Airlines."
-    },
-    {
-      "name": "Built Robotics",
-      "current": {
-        "name": "Built Robotics",
-        "founder": "Noah Ready-Campbell, Andrew Liang",
-        "location": "San Francisco, CA",
-        "founded": 2016,
-        "fundingStage": "Series C",
-        "totalRaised": "$112M+",
-        "website": "https://builtrobotics.com"
-      },
-      "verified": {
-        "name": "Built Robotics",
-        "description": "San Francisco-based company that develops software and hardware to automate construction equipment, including the Exosystem retrofit kit and RPD 35 robotic pile driver for utility-scale solar projects.",
-        "founders": [
-          "Noah Ready-Campbell",
-          "Andrew Liang"
-        ],
-        "location": "San Francisco, California",
-        "founded_year": 2016,
-        "current_stage": "Series C",
-        "total_raised": "$112M",
-        "valuation": null,
-        "investors": [
-          "Tiger Global",
-          "Next47",
-          "NEA",
-          "Founders Fund",
-          "Building Ventures",
-          "Presidio Ventures",
-          "Lemnos"
-        ],
-        "website": "https://builtrobotics.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            2
-          ]
-        },
-        "notes": "Wikipedia source uses spelling 'Andrew Liang' while database entry shows 'Andrew Lian' \u2014 Wikipedia is authoritative. Company acquired Roin Technologies in 2023."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "San Francisco, CA",
-          "verified": "San Francisco, California",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://builtrobotics.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://builtrobotics.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Built_Robotics"
-        }
-      ],
-      "notes": "Wikipedia source uses spelling 'Andrew Liang' while database entry shows 'Andrew Lian' \u2014 Wikipedia is authoritative. Company acquired Roin Technologies in 2023."
+      "notes": "Founded year verified via website blog post dated July 31, 2026 stating 'AheadComputing celebrates 2 years' (indicating 2024 founding). Total raised of $51.5M appears to be sum of multiple rounds ($21.5M and $30M Seed2 rounds mentioned on website)."
     },
     {
       "name": "Core Automation",
@@ -662,13 +314,13 @@
         "website": "https://coreautomation.ai"
       },
       "verified": {
-        "name": "Core Automation Inc.",
-        "description": "California-based electrical engineering firm specializing in industrial facility electrical and control design for food and beverage, pharmaceutical, and manufacturing environments.",
+        "name": "Core Automation, Inc.",
+        "description": "California-based electrical engineering firm specializing in industrial facility electrical and control system design for food and beverage, pharmaceutical, and manufacturing environments.",
         "founders": [
           "Gerald Depew",
           "Daniel C. Rozok"
         ],
-        "location": "California, USA",
+        "location": "Sacramento, California",
         "founded_year": 2001,
         "current_stage": null,
         "total_raised": null,
@@ -686,6 +338,7 @@
             1
           ],
           "location": [
+            0,
             1
           ],
           "founded_year": [
@@ -695,14 +348,15 @@
             0
           ]
         },
-        "notes": "The sources describe an established industrial automation engineering firm founded in 2001, NOT the frontier-tech AI company described in the database entry. This appears to be a completely different company with the same name. The database entry references Ceres, continual learning, ex-OpenAI/Anthropic/DeepMind researchers, and AI lab automation - none of which are mentioned in these sources. No information available to verify the frontier-tech company claims."
+        "notes": "This Core Automation, Inc. is a traditional industrial automation/electrical engineering firm founded in 2001, NOT the AI/machine learning company described in the database entry. The database entry appears to reference a different company (possibly a stealth startup). The sources provided contain no information about AI labs, Ceres project, ex-OpenAI/Anthropic/DeepMind researchers, or any fundraising activity. This is a complete mismatch."
       },
       "changes": [
         {
           "field": "location",
           "current": "California",
-          "verified": "California, USA",
+          "verified": "Sacramento, California",
           "sources": [
+            0,
             1
           ]
         }
@@ -719,105 +373,7 @@
           "url": "https://coreautomation.com/company"
         }
       ],
-      "notes": "The sources describe an established industrial automation engineering firm founded in 2001, NOT the frontier-tech AI company described in the database entry. This appears to be a completely different company with the same name. The database entry references Ceres, continual learning, ex-OpenAI/Anthropic/DeepMind researchers, and AI lab automation - none of which are mentioned in these sources. No information available to verify the frontier-tech company claims."
-    },
-    {
-      "name": "Dexterity",
-      "current": {
-        "name": "Dexterity",
-        "founder": "Samir Menon, Robert Sun, Kevin Chavez, Ben Varkey Benjamin, Talbot Morris-Downing, Cuthbert Sun",
-        "location": "Redwood City, CA",
-        "founded": 2017,
-        "fundingStage": "Series B",
-        "totalRaised": "$291M",
-        "website": "https://dexterity.com"
-      },
-      "verified": {
-        "name": "Dexterity",
-        "description": "AI-powered robotics company that develops physical AI systems for autonomous handling and logistics operations. The company deploys robots in production at enterprise customer facilities for tasks such as autonomous truck loading and parcel handling.",
-        "founders": [
-          "Samir Menon",
-          "Robert Sun",
-          "Kevin Chavez",
-          "Ben Varkey Benjamin",
-          "Talbot Morris-Downing",
-          "Cuthbert Sun"
-        ],
-        "location": "Redwood City, California",
-        "founded_year": 2017,
-        "current_stage": null,
-        "total_raised": "$104.9M",
-        "valuation": null,
-        "investors": null,
-        "website": "https://dexterity.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "total_raised": [
-            3
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry lists Series B stage and $291M total raised, but most recent SEC Form D filing from 2026-08-17 shows only $104.9M raised in that filing. Current stage cannot be verified from sources. Company reached 100 million autonomous actions in production as of 2025 per website."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Redwood City, CA",
-          "verified": "Redwood City, California",
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$291M",
-          "verified": "$104.9M",
-          "sources": [
-            3
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://dexterity.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://dexterity.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Dexterity"
-        },
-        {
-          "idx": 3,
-          "src": "sec_form_d",
-          "url": "https://www.sec.gov/Archives/edgar/data/2137857/000213785726000002/primary_doc.xml"
-        }
-      ],
-      "notes": "Database entry lists Series B stage and $291M total raised, but most recent SEC Form D filing from 2026-08-17 shows only $104.9M raised in that filing. Current stage cannot be verified from sources. Company reached 100 million autonomous actions in production as of 2025 per website."
+      "notes": "This Core Automation, Inc. is a traditional industrial automation/electrical engineering firm founded in 2001, NOT the AI/machine learning company described in the database entry. The database entry appears to reference a different company (possibly a stealth startup). The sources provided contain no information about AI labs, Ceres project, ex-OpenAI/Anthropic/DeepMind researchers, or any fundraising activity. This is a complete mismatch."
     }
   ],
   "unverifiable": [
