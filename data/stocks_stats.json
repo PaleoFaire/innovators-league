@@ -9,15 +9,15 @@
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -10.28,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -10.62,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -4.92,
+      "avg_change": -4.44,
       "count": 7
     },
     "nuclear": {
@@ -59,6 +59,11 @@
   },
   "topGainers": [
     [
+      "277810.KQ",
+      "Rainbow Robotics",
+      3.6
+    ],
+    [
       "ONT.L",
       "Oxford Nanopore Technologies",
       3.59
@@ -71,12 +76,7 @@
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      2.08
-    ],
-    [
-      "9348.T",
-      "ispace",
-      1.65
+      2.25
     ],
     [
       "ALAB",
@@ -111,5 +111,5 @@
       -16.67
     ]
   ],
-  "lastUpdated": "2026-08-30 21:56:43"
+  "lastUpdated": "2026-08-31 07:04:40"
 }
