@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T08:34:15.177483+00:00",
+  "generatedAt": "2026-08-31T17:00:54.599246+00:00",
   "date": "2026-08-31",
   "dateDisplay": "Monday, August 31, 2026",
   "sections": {
@@ -43,60 +43,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 16.99,
-        "changePercent": -16.67,
-        "change": -3.4
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 15.37,
-        "changePercent": -16.1,
-        "change": -2.95
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 58.05,
-        "changePercent": -15.44,
-        "change": -10.6
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 0.65,
+        "changePercent": -17.71,
+        "change": -0.14
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 4.85,
-        "changePercent": -15.21,
-        "change": -0.87
+        "price": 4.82,
+        "changePercent": -8.71,
+        "change": -0.46
       },
       {
-        "ticker": "RGTI",
-        "company": "Rigetti Computing",
-        "price": 15.59,
-        "changePercent": -12.95,
-        "change": -2.32
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 15.26,
+        "changePercent": -8.43,
+        "change": -1.4
       },
       {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 39.2,
-        "changePercent": -12.62,
-        "change": -5.66
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 19.78,
+        "changePercent": -8.3,
+        "change": -1.79
       },
       {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 64.04,
-        "changePercent": -11.9,
-        "change": -8.65
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 17.16,
+        "changePercent": -8.14,
+        "change": -1.52
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 57.33,
+        "changePercent": -8.05,
+        "change": -5.02
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 64.39,
-        "changePercent": -11.27,
-        "change": -8.18
+        "price": 63.05,
+        "changePercent": -7.65,
+        "change": -5.23
+      },
+      {
+        "ticker": "PLTR",
+        "company": "Palantir",
+        "price": 186.14,
+        "changePercent": 5.83,
+        "change": 10.25
       }
     ],
     "regulatory": [
@@ -124,23 +124,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "30-Day Notice of Proposed Information Collection: Application for Permanent/Temp",
+        "title": "Information Collection: DOE/NRC Form 740M, Concise Note; DOE/NRC Form 741, Nucle",
         "date": "2026-08-31",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17748"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17736"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Submission for OMB Review; Comment Request",
-        "date": "2026-08-31",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17683"
+        "title": "SMR, LLC; Palisades SMR, LLC; Pioneer Units 1 and 2; Exemption",
+        "date": "2026-08-28",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17626"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Submission for OMB Review; Comment Request",
-        "date": "2026-08-31",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17682"
+        "title": "Southern Nuclear Operating Company; Vogtle Electric Generating Plant Units 1 & 2",
+        "date": "2026-08-28",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17577"
       }
     ],
     "patents": [
@@ -187,6 +187,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "QBTS -16.7%"
+    "topMover": "EVTL -17.7%"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T08:35:26+00:00",
+  "generatedAt": "2026-08-31T17:02:04+00:00",
   "matrix": {
     "defense-munitions-energetics": {
       "2026-Q3": {
@@ -216,30 +216,6 @@
           "Khosla Ventures",
           "Lux Capital",
           "Sequoia Capital"
-        ]
-      }
-    },
-    "evtol-air-taxi": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Joby Aviation",
-            "amount": 0,
-            "date": "2026-08-19",
-            "source": "formd",
-            "investors": [
-              "Toyota Motor Corporation",
-              "Toyota AI Ventures",
-              "Uber",
-              "8VC"
-            ]
-          }
-        ],
-        "investors": [
-          "8VC"
         ]
       }
     },
@@ -1559,56 +1535,6 @@
         }
       ]
     },
-    "8VC": {
-      "2026-Q3": [
-        {
-          "company": "Joby Aviation",
-          "cluster": "evtol-air-taxi",
-          "date": "2026-08-19",
-          "source": "formd"
-        },
-        {
-          "company": "Cognition",
-          "cluster": "ai-code-generation",
-          "date": "2026-08",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Starpath Robotics",
-          "cluster": "space-lunar-planetary",
-          "date": "2026-06",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Epirus",
-          "cluster": "autonomy-counter-drone",
-          "date": "2026-01",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Saronic",
-          "cluster": "autonomy-maritime",
-          "date": "2026-03",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Bedrock Robotics",
-          "cluster": "robotics-construction-mining",
-          "date": "2026-02",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "General Catalyst": {
       "2026-Q2": [
         {
@@ -1643,6 +1569,50 @@
           "company": "Applied Intuition",
           "cluster": "ai-autonomous-driving",
           "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "8VC": {
+      "2026-Q2": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Starpath Robotics",
+          "cluster": "space-lunar-planetary",
+          "date": "2026-06",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Epirus",
+          "cluster": "autonomy-counter-drone",
+          "date": "2026-01",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Saronic",
+          "cluster": "autonomy-maritime",
+          "date": "2026-03",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Bedrock Robotics",
+          "cluster": "robotics-construction-mining",
+          "date": "2026-02",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q3": [
+        {
+          "company": "Cognition",
+          "cluster": "ai-code-generation",
+          "date": "2026-08",
           "source": "recentEvent"
         }
       ]
@@ -1963,9 +1933,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 59,
+    "totalDealsTracked": 58,
     "totalUSDSold": 860577783,
-    "uniqueClusters": 36,
+    "uniqueClusters": 35,
     "uniqueQuarters": 9,
     "uniqueVCs": 15,
     "quarterRange": [
