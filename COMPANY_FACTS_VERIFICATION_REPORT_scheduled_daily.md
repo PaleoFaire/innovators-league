@@ -1,20 +1,20 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-08-30T10:27:30+00:00  
+**Generated:** 2026-08-31T11:31:58+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 44 companies  
+**Cohort size:** 43 companies  
 
-**New Claude extractions this run:** 44  
+**New Claude extractions this run:** 43  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 39 | 89% |
-| 🔧 Changes proposed | 5 | 11% |
+| ✅ Cleared (data matches sources) | 38 | 88% |
+| 🔧 Changes proposed | 5 | 12% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
@@ -32,39 +32,39 @@ Review each change and reply with which ones to apply. **Source-cited diffs:**
 - **`totalRaised`:** `$1.1B` → `$123.5M`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/1X_Technologies)
 
-  **Notes:** Company was originally founded as Halodi Robotics in 2014 and rebranded to 1X Technologies in 2022. Series A2 funding of $23.5M raised in March 2023 (led by OpenAI Startup Fund). Series B funding of $100M raised in January 2024 (led by EQT Ventures). Total verified raised is $123.5M ($23.5M + $100M). Sources [0] and [1] describe a different company (1X Technologies LLC, a wire and cable distributor founded in 2015 based in Sheridan, WY) and are not applicable to the robotics company.
+  **Notes:** Company was founded as Halodi Robotics in 2014 and rebranded to 1X Technologies in 2022. Wikipedia source indicates Series A2 funding of $23.5M in March 2023 and Series B funding of $100M in January 2024, totaling $123.5M verified. Sources [0] and [1] describe a different company (1X Technologies LLC, a wire and cable manufacturer in Sheridan, WY founded 2015) and should not be used for this robotics company.
 
 ### Agility Robotics
 
 - **`fundingStage`:** `Series E` → `Pre-IPO`  
   Sources: [company_website](https://agilityrobotics.com)
 
-  **Notes:** Company announced merger with Churchill Capital Corp XI to go public on June 24, 2026 (source 0). Wikipedia notes a rebrand to 'Agility' on March 5, 2026 (source 2). Database entry lists total_raised as '$400M+' and investors, but these cannot be verified from the provided sources.
+  **Notes:** Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026). Company rebranded as 'Agility' on March 5, 2026 per source [2]. Database entry lists Series E and $400M+ raised, but these claims cannot be verified in provided sources.
 
 ### Nano Nuclear Energy
 
 - **`fundingStage`:** `Seed` → `Public`  
   Sources: [company_website](https://nanonuclearenergy.com) · [company_about](https://nanonuclearenergy.com/about)
 
-  **Notes:** Company is listed on NASDAQ under ticker NNE. Sources claim it is 'the first nuclear microreactor company to be listed publicly in the U.S.' Founder name 'Jay Jiang Yu' from database entry could not be verified in provided sources. Founded year 2022 could not be verified. Total raised $600M+ and valuation $808M from database entry could not be verified. Sources [2] is about a different company (Valar Atomics) and contains no information about NANO Nuclear Energy.
+  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Sources do not contain information about founders, founding year, total capital raised, valuation, or investors. Source [2] is about Valar Atomics (different company) and was not used. Database entry references ODIN sale to Cambridge AtomWorks and specific valuation/funding figures, but these are not supported by provided sources.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** SpaceX completed IPO on June 12, 2026, raising $86 billion (largest IPO in history per source). Wikipedia source lists Elon Musk as controlling 85% voting power, not 82% as in database entry. Database valuation of $1.65T and IPO stage designation appear supported by the June 2026 IPO event, but specific valuation figure not found in provided sources.
+  **Notes:** IPO occurred June 12, 2026, which raised $86B and was the largest IPO in history. Wikipedia source indicates Elon Musk controls 85% voting power (not 82% as in database entry). Valuation cannot be verified from sources—database entry claims $1.65T but no source confirms this specific valuation.
 
 ### Starcloud
 
 - **`fundingStage`:** `Seed` → `Series A`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Starcloud)
 
-  **Notes:** Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024, then relocated to Redmond, Washington in February 2024, and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Wikipedia indicates the Series A was announced March 30, 2026. The database entry lists additional investors (NVIDIA, DCVC, Khosla Ventures, Y Combinator) but Wikipedia's Series A announcement only explicitly names Benchmark and EQT Ventures as leading the $170M round.
+  **Notes:** Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024, then relocated to Redmond, Washington in February 2024, and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Starcloud-1 launched November 2025. Series A announced March 30, 2026, making it the fastest company to reach unicorn status in Y Combinator history at 17 months after completing the program.
 
 ---
 
-## ✅ Cleared (39 companies)
+## ✅ Cleared (38 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -100,9 +100,9 @@ Sample (first 30):
 - Q-CTRL
 - QuiX Quantum
 - Radiant
-- *...and 9 more*
+- *...and 8 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-08-30T10:27:30+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-08-31T11:31:59+00:00*
