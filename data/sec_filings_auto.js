@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-08-30 11:34:25 UTC
+// Last updated: 2026-08-31 13:08:43 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Rocket Lab", form: "4", date: "2026-08-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Rocket Lab", form: "4", date: "2026-08-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
