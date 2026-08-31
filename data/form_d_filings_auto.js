@@ -1,12 +1,12 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public) — full-text search + daily index
-// Last updated: 2026-08-30 12:44:49 UTC
-// Total: 6 filings across 6 companies
+// Last updated: 2026-08-31 15:11:58 UTC
+// Total: 5 filings across 5 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-08-30T12:44:49.048008+00:00",
+  "generated_at": "2026-08-31T15:11:58.375386+00:00",
   "source": "SEC EDGAR Form D (full-text search + daily index)",
   "lookback_days": 60,
-  "total_filings": 6,
+  "total_filings": 5,
   "filings": [
     {
       "match_method": "cik",
@@ -93,24 +93,6 @@ const FORM_D_FILINGS = {
       "offering_amount": "62089507",
       "amount_sold": "57089457",
       "amount_remaining": "5000050",
-      "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "match_method": "cik",
-      "company": "Joby Aviation",
-      "issuer_name": "Joby Aviation, Inc.  (JOBY)",
-      "form": "D",
-      "filed_date": "2026-08-19",
-      "cik": "1819848",
-      "accession": "0001819848-26-000440",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819848&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001819848-26-000440",
-      "offering_amount": "50000000",
-      "amount_sold": "0",
-      "amount_remaining": "50000000",
       "securities_type": "Equity",
       "exemption": "06b",
       "first_sale_date": "",
