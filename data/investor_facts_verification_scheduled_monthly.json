@@ -1,134 +1,31 @@
 {
-  "generatedAt": "2026-08-01T10:17:36+00:00",
+  "generatedAt": "2026-09-01T13:31:35+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_monthly.json",
-  "cohortSize": 27,
-  "newExtractionsThisRun": 27,
+  "cohortSize": 26,
+  "newExtractionsThisRun": 26,
   "summary": {
-    "cleared": 10,
-    "changesProposed": 17,
+    "cleared": 14,
+    "changesProposed": 12,
     "unverifiable": 0
   },
   "cleared": [
-    "Caffeinated Capital",
+    "8VC",
+    "Cantos Ventures",
     "DCVC",
-    "Engine Ventures",
-    "Founders Fund",
-    "Future Ventures",
+    "Eclipse Ventures",
+    "General Catalyst",
     "Harpoon Ventures",
+    "In-Q-Tel",
+    "Kleiner Perkins Caufield & Byers, LLC",
     "Lightspeed Venture Partners",
     "Point72 Ventures",
+    "Prime Movers Lab",
+    "Sequoia Capital",
     "Shield Capital",
-    "Thrive Capital Management, LLC"
+    "Silent Ventures"
   ],
   "changesProposed": [
-    {
-      "name": "8VC",
-      "current": {
-        "name": "8VC",
-        "shortName": "8VC",
-        "aum": "$6B+",
-        "flagshipFund": "8VC Fund VI",
-        "founded": 2015,
-        "hq": "Austin, TX",
-        "website": "https://8vc.com"
-      },
-      "verified": {
-        "name": "8VC",
-        "short_name": "8VC",
-        "aum": "$6B+",
-        "flagship_fund": null,
-        "founded_year": 2015,
-        "hq": "Austin, TX",
-        "key_partners": [
-          "Joe Lonsdale",
-          "Drew Oetting",
-          "Jake Medwell"
-        ],
-        "sector_focus": [
-          "Infrastructure IT",
-          "Biology",
-          "Healthcare",
-          "Government & Defense",
-          "Logistics"
-        ],
-        "thesis": "8VC partners with leading entrepreneurs and innovators to build technology platforms that create lasting economic and societal value. The firm invests in companies transforming industries across life sciences, healthcare, manufacturing, enterprise, logistics, and defense.",
-        "website": "https://8vc.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            4
-          ],
-          "short_name": [
-            0,
-            4
-          ],
-          "aum": [
-            4
-          ],
-          "flagship_fund": [],
-          "founded_year": [
-            4
-          ],
-          "hq": [
-            4
-          ],
-          "key_partners": [
-            2
-          ],
-          "sector_focus": [
-            1
-          ],
-          "thesis": [
-            0,
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Headquarters relocated from San Francisco to Austin, Texas in 2020. Originally called '8 Partners' when founded in 2015. Founded by Joe Lonsdale with 15 of 25 employees from predecessor firm Formation 8."
-      },
-      "changes": [
-        {
-          "field": "thesis",
-          "current": "8VC invests in technology platforms that transform industries across infrastructure, biology, healthcare, government & defense, and logistics. The firm partners with entrepreneurs to build technologies that create lasting economic and societal value.",
-          "verified": "8VC partners with leading entrepreneurs and innovators to build technology platforms that create lasting economic and societal value. The firm invests in companies transforming industries across life sciences, healthcare, manufacturing, enterprise, logistics, and defense.",
-          "sources": [
-            0,
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://8vc.com"
-        },
-        {
-          "idx": 1,
-          "src": "firm/about",
-          "url": "https://8vc.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "firm/team",
-          "url": "https://8vc.com/team"
-        },
-        {
-          "idx": 3,
-          "src": "firm/companies",
-          "url": "https://8vc.com/companies"
-        },
-        {
-          "idx": 4,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/8VC"
-        }
-      ],
-      "notes": "Headquarters relocated from San Francisco to Austin, Texas in 2020. Originally called '8 Partners' when founded in 2015. Founded by Joe Lonsdale with 15 of 25 employees from predecessor firm Formation 8."
-    },
     {
       "name": "Andreessen Horowitz",
       "current": {
@@ -143,7 +40,7 @@
       "verified": {
         "name": "Andreessen Horowitz",
         "short_name": "a16z",
-        "aum": "$90B+",
+        "aum": "$100B+",
         "flagship_fund": "American Dynamism",
         "founded_year": 2009,
         "hq": "Menlo Park, California",
@@ -170,11 +67,10 @@
           "Infrastructure",
           "American Dynamism"
         ],
-        "thesis": "Andreessen Horowitz invests in seed to venture to growth-stage technology companies across AI, bio + healthcare, consumer, crypto, enterprise, fintech, games, infrastructure, and companies building toward American dynamism. The firm focuses on investing in innovators where outcomes are asymmetric, prioritizing the magnitude of the idea and team strength over elimination of weaknesses.",
+        "thesis": "a16z invests in seed to venture to growth-stage technology companies across AI, bio + healthcare, consumer, crypto, enterprise, fintech, games, infrastructure, and companies building toward American Dynamism. The firm focuses on asymmetric outcomes where the magnitude of success if a deal succeeds is weighted more heavily than failure scenarios. a16z pioneered the platform model with operators in marketing, talent, legal, and policy dedicated to supporting founders at every stage.",
         "website": "https://a16z.com",
         "sources_per_field": {
           "name": [
-            0,
             1,
             5
           ],
@@ -183,11 +79,11 @@
             5
           ],
           "aum": [
-            1,
-            5
+            1
           ],
           "flagship_fund": [
-            1
+            1,
+            5
           ],
           "founded_year": [
             1,
@@ -198,52 +94,38 @@
             5
           ],
           "key_partners": [
+            1,
             5
           ],
           "sector_focus": [
             1
           ],
           "thesis": [
-            1
+            1,
+            2
           ],
           "website": [
-            0,
             1
           ]
         },
-        "notes": "AUM figure of $90B+ as of April 30, 2026 (per source 1) and January 2026 (per source 5). American Dynamism fund managed by Katherine Boyle, David Ulevitch, and Erin Price-Wright per Wikipedia source. Raghu Raghuram joined as general partner in October 2025. Margit Wennmachers transitioned to partner emeritus in July 2025."
+        "notes": "AUM updated to $100B+ as of April 30, 2026 per source 1. Raghu Raghuram joined as general partner in October 2025 (source 5). Margit Wennmachers transitioned to partner emeritus in July 2025 (source 5). American Dynamism fund raised $1.8B total across two funds as of source 5."
       },
       "changes": [
         {
-          "field": "keyPartners",
-          "current": [
-            "Marc Andreessen",
-            "Ben Horowitz",
-            "Katherine Boyle",
-            "David Ulevitch"
-          ],
-          "verified": [
-            "Marc Andreessen",
-            "Ben Horowitz",
-            "Jeff Jordan",
-            "Chris Dixon",
-            "Martin Casado",
-            "Andrew Chen",
-            "Katherine Boyle",
-            "David Ulevitch",
-            "Erin Price-Wright",
-            "Raghu Raghuram"
-          ],
+          "field": "aum",
+          "current": "$90B+",
+          "verified": "$100B+",
           "sources": [
-            5
+            1
           ]
         },
         {
           "field": "thesis",
-          "current": "a16z invests in seed to venture to growth-stage technology companies across multiple sectors including AI, bio + healthcare, consumer, crypto, enterprise, fintech, games, infrastructure, and companies building toward American dynamism. The American Dynamism fund supports companies building in hard tech sectors including space, defense, manufacturing, and robotics to serve national interest.",
-          "verified": "Andreessen Horowitz invests in seed to venture to growth-stage technology companies across AI, bio + healthcare, consumer, crypto, enterprise, fintech, games, infrastructure, and companies building toward American dynamism. The firm focuses on investing in innovators where outcomes are asymmetric, prioritizing the magnitude of the idea and team strength over elimination of weaknesses.",
+          "current": "Andreessen Horowitz invests in seed to venture to growth-stage technology companies across AI, bio + healthcare, consumer, crypto, enterprise, fintech, games, infrastructure, and companies building toward American dynamism. The firm focuses on investing in innovators where outcomes are asymmetric, prioritizing the magnitude of the idea and team strength over elimination of weaknesses.",
+          "verified": "a16z invests in seed to venture to growth-stage technology companies across AI, bio + healthcare, consumer, crypto, enterprise, fintech, games, infrastructure, and companies building toward American Dynamism. The firm focuses on asymmetric outcomes where the magnitude of success if a deal succeeds is weighted more heavily than failure scenarios. a16z pioneered the platform model with operators in marketing, talent, legal, and policy dedicated to supporting founders at every stage.",
           "sources": [
-            1
+            1,
+            2
           ]
         }
       ],
@@ -279,17 +161,17 @@
           "url": "https://en.wikipedia.org/wiki/Andreessen_Horowitz"
         }
       ],
-      "notes": "AUM figure of $90B+ as of April 30, 2026 (per source 1) and January 2026 (per source 5). American Dynamism fund managed by Katherine Boyle, David Ulevitch, and Erin Price-Wright per Wikipedia source. Raghu Raghuram joined as general partner in October 2025. Margit Wennmachers transitioned to partner emeritus in July 2025."
+      "notes": "AUM updated to $100B+ as of April 30, 2026 per source 1. Raghu Raghuram joined as general partner in October 2025 (source 5). Margit Wennmachers transitioned to partner emeritus in July 2025 (source 5). American Dynamism fund raised $1.8B total across two funds as of source 5."
     },
     {
       "name": "Bessemer Venture Partners",
       "current": {
         "name": "Bessemer Venture Partners",
-        "shortName": "Bessemer",
-        "aum": "$25B+",
+        "shortName": "BVP",
+        "aum": "$20B+",
         "flagshipFund": "Bessemer Venture Partners XII",
         "founded": 1911,
-        "hq": "Larchmont, NY / Menlo Park, CA",
+        "hq": "San Francisco, California",
         "website": "https://www.bvp.com"
       },
       "verified": {
@@ -303,10 +185,30 @@
           "Byron Deeter",
           "David Cowan",
           "Alex Ferrara",
-          "Tess Hatch",
-          "Lori Garver",
-          "Ray Johnson",
-          "Mary D'Onofrio"
+          "Brian Feinstein",
+          "Bob Goodman",
+          "Felda Hardymon",
+          "Jeremy Levine",
+          "Rob Stavis",
+          "Charles Birnbaum",
+          "Sameer Dholakia",
+          "Mike Droesch",
+          "Adam Fisher",
+          "Talia Goldberg",
+          "Sandy Grippo",
+          "Sofia Guerra",
+          "Vishal Gupta",
+          "Andrew Hedin",
+          "Nithin Kaimal",
+          "Amit Karp",
+          "Steve Kraus",
+          "Pankaj Mitra",
+          "Lauri Moore",
+          "Elliott Robinson",
+          "Ariel Sterman",
+          "Janelle Teng Wade",
+          "Anant Vidur Puri",
+          "Bryan Wu"
         ],
         "sector_focus": [
           "AI & ML",
@@ -318,18 +220,14 @@
           "Crypto",
           "Enterprise",
           "Developer",
-          "Fintech",
-          "Vertical software",
-          "Deep tech",
-          "Healthcare"
+          "Fintech"
         ],
-        "thesis": "Bessemer invests across multiple sectors including AI & ML, cloud, cybersecurity, consumer, and biotech, supporting entrepreneurs from early stages through growth. The firm has one of the largest cloud portfolios in venture capital and invests in emerging technology and business models that have revolutionized horizontal and vertical industries.",
+        "thesis": "Bessemer partners with entrepreneurs from early stages through growth across multiple sectors including AI & ML, cloud, cybersecurity, consumer, and biotech. The firm has one of the largest cloud portfolios in venture capital and supports emerging technology and business models.",
         "website": "https://www.bvp.com",
         "sources_per_field": {
           "name": [
             0,
             1,
-            2,
             5
           ],
           "short_name": [
@@ -338,6 +236,7 @@
           "aum": [
             5
           ],
+          "flagship_fund": [],
           "founded_year": [
             5
           ],
@@ -351,78 +250,67 @@
             0
           ],
           "thesis": [
-            0
+            0,
+            1
           ],
           "website": [
-            0,
-            1,
-            2,
-            5
+            0
           ]
         },
-        "notes": "Wikipedia lists headquarters as San Francisco, California (source 5), while the database entry references both Larchmont, NY and Menlo Park, CA. Sources confirm San Francisco as current HQ. AUM verified as $20B from 2022 per Wikipedia (source 5). Founded year 1911 confirmed by Wikipedia and firm website (sources 0, 5). Sector focus extracted from explicit roadmaps and investment categories listed on firm website (source 0). Partner list extracted from Team page (source 2) - all partners listed appear to be current senior partners with no designation as 'former'."
+        "notes": "Founded in 1911 by Henry Phipps Jr. as Bessemer Trust/Securities; venture capital operation spun out separately as Bessemer Venture Partners. Wikipedia lists 151 employees (2022). Sources show 150+ IPOs/deSPACs and 420+ portfolio companies. Database entry lists 'Tess Hatch' and 'Lori Garver' as key partners, but these names do not appear on the current team page (source 2)."
       },
       "changes": [
         {
-          "field": "shortName",
-          "current": "Bessemer",
-          "verified": "BVP",
-          "sources": [
-            5
-          ]
-        },
-        {
-          "field": "aum",
-          "current": "$25B+",
-          "verified": "$20B+",
-          "sources": [
-            5
-          ]
-        },
-        {
-          "field": "hq",
-          "current": "Larchmont, NY / Menlo Park, CA",
-          "verified": "San Francisco, California",
-          "sources": [
-            5
-          ]
-        },
-        {
-          "field": "sectorFocus",
+          "field": "keyPartners",
           "current": [
-            "Deep Tech & Defense",
-            "Aerospace",
-            "Robotics & Physical AI",
-            "Fusion Energy",
-            "AI Infrastructure",
-            "Cybersecurity",
-            "Industrial OT"
+            "Byron Deeter",
+            "David Cowan",
+            "Alex Ferrara",
+            "Tess Hatch",
+            "Lori Garver",
+            "Ray Johnson",
+            "Mary D'Onofrio"
           ],
           "verified": [
-            "AI & ML",
-            "Cloud",
-            "Cybersecurity",
-            "Consumer",
-            "Biotech",
-            "Data",
-            "Crypto",
-            "Enterprise",
-            "Developer",
-            "Fintech",
-            "Vertical software",
-            "Deep tech",
-            "Healthcare"
+            "Byron Deeter",
+            "David Cowan",
+            "Alex Ferrara",
+            "Brian Feinstein",
+            "Bob Goodman",
+            "Felda Hardymon",
+            "Jeremy Levine",
+            "Rob Stavis",
+            "Charles Birnbaum",
+            "Sameer Dholakia",
+            "Mike Droesch",
+            "Adam Fisher",
+            "Talia Goldberg",
+            "Sandy Grippo",
+            "Sofia Guerra",
+            "Vishal Gupta",
+            "Andrew Hedin",
+            "Nithin Kaimal",
+            "Amit Karp",
+            "Steve Kraus",
+            "Pankaj Mitra",
+            "Lauri Moore",
+            "Elliott Robinson",
+            "Ariel Sterman",
+            "Janelle Teng Wade",
+            "Anant Vidur Puri",
+            "Bryan Wu"
           ],
           "sources": [
-            0
+            2
           ]
         },
         {
           "field": "thesis",
-          "current": "Bessemer invests across deep tech, defense, aerospace, AI, healthcare, and consumer. The dedicated Deep Tech & Defense roadmap is led by partners with named operational pedigree \u2014 Lori Garver (ex-NASA Deputy Administrator), Tess Hatch (ex-SpaceX), Dr. Ray Johnson (ex-Lockheed CTO) \u2014 making Bessemer the only Tier-1 generalist with a publicly named space-engineering bench. Active in physical AI, robotics infrastructure, defense autonomy, and fusion energy.",
-          "verified": "Bessemer invests across multiple sectors including AI & ML, cloud, cybersecurity, consumer, and biotech, supporting entrepreneurs from early stages through growth. The firm has one of the largest cloud portfolios in venture capital and invests in emerging technology and business models that have revolutionized horizontal and vertical industries.",
+          "current": "Bessemer invests across multiple sectors including AI & ML, cloud, cybersecurity, consumer, and biotech, supporting entrepreneurs from early stages through growth. The firm has one of the largest cloud portfolios in venture capital and invests in emerging technology and business models that have revolutionized horizontal and vertical industries.",
+          "verified": "Bessemer partners with entrepreneurs from early stages through growth across multiple sectors including AI & ML, cloud, cybersecurity, consumer, and biotech. The firm has one of the largest cloud portfolios in venture capital and supports emerging technology and business models.",
           "sources": [
-            0
+            0,
+            1
           ]
         }
       ],
@@ -458,7 +346,7 @@
           "url": "https://en.wikipedia.org/wiki/Bessemer_Venture_Partners"
         }
       ],
-      "notes": "Wikipedia lists headquarters as San Francisco, California (source 5), while the database entry references both Larchmont, NY and Menlo Park, CA. Sources confirm San Francisco as current HQ. AUM verified as $20B from 2022 per Wikipedia (source 5). Founded year 1911 confirmed by Wikipedia and firm website (sources 0, 5). Sector focus extracted from explicit roadmaps and investment categories listed on firm website (source 0). Partner list extracted from Team page (source 2) - all partners listed appear to be current senior partners with no designation as 'former'."
+      "notes": "Founded in 1911 by Henry Phipps Jr. as Bessemer Trust/Securities; venture capital operation spun out separately as Bessemer Venture Partners. Wikipedia lists 151 employees (2022). Sources show 150+ IPOs/deSPACs and 420+ portfolio companies. Database entry lists 'Tess Hatch' and 'Lori Garver' as key partners, but these names do not appear on the current team page (source 2)."
     },
     {
       "name": "Breakthrough Energy",
@@ -488,7 +376,7 @@
           "Transportation",
           "Building"
         ],
-        "thesis": "Breakthrough Energy invests in clean energy innovation across five sectors of the global economy. The platform targets businesses with high failure risk and 20-year investment timeframes, prioritizing technologies that are affordable and reliable to reach global scale.",
+        "thesis": "Breakthrough Energy invests primarily in businesses where the risk of failure is high and the timeframe for return on investment is 20 years. Clean technologies must be affordable and reliable to reach global scale.",
         "website": "https://breakthroughenergy.org",
         "sources_per_field": {
           "name": [
@@ -506,7 +394,6 @@
             5
           ],
           "key_partners": [
-            0,
             1,
             5
           ],
@@ -527,29 +414,13 @@
             5
           ]
         },
-        "notes": "Founded by Bill Gates in 2015. Wikipedia lists members/investors including Jeff Bezos, Marc Benioff, Michael Bloomberg, Richard Branson, Ray Dalio, Reid Hoffman, Jack Ma, George Soros, Tom Steyer, Meg Whitman, Mark Zuckerberg, UC, Nat Simons, and Mukesh Ambani. In March 2025, Bill Gates dissolved policy units in Europe and US, shifting strategy to focus on clean energy technology companies through Breakthrough Energy Catalyst and Breakthrough Energy Ventures. Carmichael Roberts and Eric Toone not explicitly named as current senior partners in provided sources."
+        "notes": "Wikipedia lists Bill Gates as sole founder and leader. Sources identify Breakthrough Energy as an umbrella organization with multiple entities including Breakthrough Energy Ventures fund (announced December 2016 as $1 billion fund). In March 2025, Bill Gates dissolved public policy units in Europe and US. AUM and specific current senior partner names beyond Bill Gates not explicitly verified in provided sources."
       },
       "changes": [
         {
-          "field": "keyPartners",
-          "current": [
-            "Bill Gates",
-            "Carmichael Roberts",
-            "Eric Toone"
-          ],
-          "verified": [
-            "Bill Gates"
-          ],
-          "sources": [
-            0,
-            1,
-            5
-          ]
-        },
-        {
           "field": "thesis",
-          "current": "Breakthrough Energy invests in clean energy innovation across multiple sectors including manufacturing, electricity, agriculture, transportation, and building. The platform supports technologies with high failure risk and 20-year investment timeframes, prioritizing affordability and reliability to achieve global scale.",
-          "verified": "Breakthrough Energy invests in clean energy innovation across five sectors of the global economy. The platform targets businesses with high failure risk and 20-year investment timeframes, prioritizing technologies that are affordable and reliable to reach global scale.",
+          "current": "Breakthrough Energy invests in businesses where the risk of failure is high and the timeframe for return on investment is 20 years. Clean technologies must be affordable and reliable to reach global scale.",
+          "verified": "Breakthrough Energy invests primarily in businesses where the risk of failure is high and the timeframe for return on investment is 20 years. Clean technologies must be affordable and reliable to reach global scale.",
           "sources": [
             0,
             1,
@@ -587,165 +458,109 @@
           "idx": 5,
           "src": "wikipedia",
           "url": "https://en.wikipedia.org/wiki/Breakthrough_Energy"
-        },
-        {
-          "idx": 6,
-          "src": "news (Crunchbase News)",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/"
         }
       ],
-      "notes": "Founded by Bill Gates in 2015. Wikipedia lists members/investors including Jeff Bezos, Marc Benioff, Michael Bloomberg, Richard Branson, Ray Dalio, Reid Hoffman, Jack Ma, George Soros, Tom Steyer, Meg Whitman, Mark Zuckerberg, UC, Nat Simons, and Mukesh Ambani. In March 2025, Bill Gates dissolved policy units in Europe and US, shifting strategy to focus on clean energy technology companies through Breakthrough Energy Catalyst and Breakthrough Energy Ventures. Carmichael Roberts and Eric Toone not explicitly named as current senior partners in provided sources."
+      "notes": "Wikipedia lists Bill Gates as sole founder and leader. Sources identify Breakthrough Energy as an umbrella organization with multiple entities including Breakthrough Energy Ventures fund (announced December 2016 as $1 billion fund). In March 2025, Bill Gates dissolved public policy units in Europe and US. AUM and specific current senior partner names beyond Bill Gates not explicitly verified in provided sources."
     },
     {
-      "name": "Cantos Ventures",
+      "name": "Engine Ventures",
       "current": {
-        "name": "Cantos Ventures",
-        "shortName": "Cantos",
-        "aum": "$100M+",
-        "flagshipFund": "Cantos Fund III",
-        "founded": 2016,
-        "hq": "San Francisco, CA",
-        "website": "https://cantos.vc"
+        "name": "Engine Ventures",
+        "shortName": "Engine",
+        "aum": "$1B+",
+        "flagshipFund": "Engine Ventures Fund III",
+        "founded": 2023,
+        "hq": "Cambridge, Massachusetts",
+        "website": "https://engine.xyz"
       },
       "verified": {
-        "name": "Cantos Ventures",
-        "short_name": null,
+        "name": "Engine Ventures",
+        "short_name": "Engine",
         "aum": null,
         "flagship_fund": null,
-        "founded_year": null,
-        "hq": "San Francisco, CA",
+        "founded_year": 2023,
+        "hq": "Cambridge, Massachusetts",
         "key_partners": null,
         "sector_focus": [
+          "Applied AI & ML",
+          "Computing",
+          "Mobility",
+          "Autonomous Systems / Robotics",
           "Energy",
-          "Defense",
+          "Natural Resources",
+          "Biotech / Life Sciences",
+          "Food / Agriculture",
+          "Quantum Computing",
+          "Carbon Capture / CCUS",
+          "Manufacturing",
           "Space",
-          "Advanced Manufacturing",
-          "Infrastructure"
+          "Climate",
+          "Materials",
+          "Water / Oceans"
         ],
-        "thesis": "Cantos provides initial capital and counsel to founders building transformative technology in abundance, resilience, and advantage. The firm invests in deeply technical founders creating novel solutions in energy, defense, space, manufacturing, and critical infrastructure.",
-        "website": "https://cantos.vc",
+        "thesis": "Engine Ventures invests in early-stage Tough Tech companies developing hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+        "website": "https://engine.xyz",
         "sources_per_field": {
           "name": [
-            0
+            3
+          ],
+          "short_name": [
+            0,
+            1
+          ],
+          "founded_year": [
+            3
           ],
           "hq": [
-            0
+            3
           ],
           "sector_focus": [
-            0
+            1
           ],
           "thesis": [
-            0
+            1,
+            3
           ],
           "website": [
             0
           ]
         },
-        "notes": "Source [1] is Wikipedia article about Ezra Pound's poem 'The Cantos', not about Cantos Ventures VC firm\u2014not a valid source for this entity. Database entry fields (aum, flagship_fund, founded_year, key_partners) cannot be verified from provided sources. Source [0] website does not explicitly state AUM, flagship fund name, founding year, or current partner names."
+        "notes": "Engine Ventures separated from The Engine nonprofit organization in 2023. The Engine itself, founded by MIT in 2016, remains a nonprofit incubator and accelerator. Wikipedia lists no current senior partners for Engine Ventures; AUM not disclosed in sources provided."
       },
       "changes": [
         {
           "field": "sectorFocus",
           "current": [
-            "Climate & Energy",
-            "Defense & Security",
-            "Space & Aerospace"
-          ],
-          "verified": [
+            "Applied AI & ML",
+            "Computing",
+            "Mobility",
+            "Autonomous Systems / Robotics",
             "Energy",
-            "Defense",
-            "Space",
-            "Advanced Manufacturing",
-            "Infrastructure"
-          ],
-          "sources": [
-            0
-          ]
-        },
-        {
-          "field": "thesis",
-          "current": "First money in for 'near frontier' companies \u2014 deeply technical founders transforming the physical world in energy, defense, infrastructure, space, and advanced manufacturing. Willing to take technical risk that other VCs won't touch at the earliest stages.",
-          "verified": "Cantos provides initial capital and counsel to founders building transformative technology in abundance, resilience, and advantage. The firm invests in deeply technical founders creating novel solutions in energy, defense, space, manufacturing, and critical infrastructure.",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://cantos.vc"
-        },
-        {
-          "idx": 1,
-          "src": "wikipedia (short name)",
-          "url": "https://en.wikipedia.org/wiki/Cantos"
-        }
-      ],
-      "notes": "Source [1] is Wikipedia article about Ezra Pound's poem 'The Cantos', not about Cantos Ventures VC firm\u2014not a valid source for this entity. Database entry fields (aum, flagship_fund, founded_year, key_partners) cannot be verified from provided sources. Source [0] website does not explicitly state AUM, flagship fund name, founding year, or current partner names."
-    },
-    {
-      "name": "Eclipse Ventures",
-      "current": {
-        "name": "Eclipse Ventures",
-        "shortName": "Eclipse",
-        "aum": "$4B+",
-        "flagshipFund": "Eclipse Fund IV",
-        "founded": 2015,
-        "hq": "Palo Alto, CA",
-        "website": "https://eclipse.capital"
-      },
-      "verified": {
-        "name": "Eclipse Ventures",
-        "short_name": null,
-        "aum": null,
-        "flagship_fund": null,
-        "founded_year": null,
-        "hq": null,
-        "key_partners": [
-          "Aidan Madigan-Curtis",
-          "Charly Mwangi"
-        ],
-        "sector_focus": null,
-        "thesis": "Eclipse invests in entrepreneurs building the next generation of companies in the physical economy \u2014 the industries that determine resilience, competitiveness, and security.",
-        "website": "https://eclipse.capital",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "key_partners": [
-            2
-          ],
-          "thesis": [
-            1
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Wikipedia source [4] is about astronomical eclipses and not relevant to Eclipse Ventures VC firm. Only two partners explicitly named on firm's team page (sources 0-3); database lists five partners but sources [0-3] only verify Aidan Madigan-Curtis and Charly Mwangi. AUM, flagship fund, founded year, and HQ cannot be verified from provided sources. Sector focus cannot be verified from explicit sector lists in sources."
-      },
-      "changes": [
-        {
-          "field": "keyPartners",
-          "current": [
-            "Aidan Madigan-Curtis",
-            "Charly Mwangi",
-            "Angela Hayward",
-            "Greg Reichow",
-            "Joe Fath"
+            "Natural Resources",
+            "Biotech / Life Sciences",
+            "Food / Agriculture",
+            "Quantum Computing",
+            "Carbon Capture / CCUS"
           ],
           "verified": [
-            "Aidan Madigan-Curtis",
-            "Charly Mwangi"
+            "Applied AI & ML",
+            "Computing",
+            "Mobility",
+            "Autonomous Systems / Robotics",
+            "Energy",
+            "Natural Resources",
+            "Biotech / Life Sciences",
+            "Food / Agriculture",
+            "Quantum Computing",
+            "Carbon Capture / CCUS",
+            "Manufacturing",
+            "Space",
+            "Climate",
+            "Materials",
+            "Water / Oceans"
           ],
           "sources": [
-            2
+            1
           ]
         }
       ],
@@ -753,192 +568,106 @@
         {
           "idx": 0,
           "src": "firm_website",
-          "url": "https://eclipse.capital"
+          "url": "https://engine.xyz"
         },
         {
           "idx": 1,
           "src": "firm/about",
-          "url": "https://eclipse.capital/about"
+          "url": "https://engine.xyz/about"
         },
         {
           "idx": 2,
-          "src": "firm/team",
-          "url": "https://eclipse.capital/team"
+          "src": "firm/companies",
+          "url": "https://engine.xyz/companies"
         },
         {
           "idx": 3,
-          "src": "firm/companies",
-          "url": "https://eclipse.capital/companies"
-        },
-        {
-          "idx": 4,
-          "src": "wikipedia (short name)",
-          "url": "https://en.wikipedia.org/wiki/Eclipse"
-        }
-      ],
-      "notes": "Wikipedia source [4] is about astronomical eclipses and not relevant to Eclipse Ventures VC firm. Only two partners explicitly named on firm's team page (sources 0-3); database lists five partners but sources [0-3] only verify Aidan Madigan-Curtis and Charly Mwangi. AUM, flagship fund, founded year, and HQ cannot be verified from provided sources. Sector focus cannot be verified from explicit sector lists in sources."
-    },
-    {
-      "name": "General Catalyst",
-      "current": {
-        "name": "General Catalyst",
-        "shortName": "GC",
-        "aum": "$43B+",
-        "flagshipFund": "General Catalyst Group XII, L.P.",
-        "founded": 2000,
-        "hq": "Cambridge, Massachusetts",
-        "website": "https://generalcatalyst.com"
-      },
-      "verified": {
-        "name": "General Catalyst",
-        "short_name": "GC",
-        "aum": "$43B+",
-        "flagship_fund": "General Catalyst Group XII, L.P.",
-        "founded_year": 2000,
-        "hq": "Cambridge, Massachusetts",
-        "key_partners": [
-          "Hemant Taneja",
-          "Ken Chenault",
-          "Jeannette zu F\u00fcrstenberg"
-        ],
-        "sector_focus": null,
-        "thesis": "General Catalyst invests across seed, venture, and growth stages. The firm focuses on transforming critical institutions with applied AI.",
-        "website": "https://generalcatalyst.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "short_name": [
-            1
-          ],
-          "aum": [
-            0,
-            1
-          ],
-          "flagship_fund": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "hq": [
-            1
-          ],
-          "key_partners": [
-            1
-          ],
-          "thesis": [
-            0,
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "In June 2024, General Catalyst acquired La Famiglia (German VC firm) and Venture Highway (New Delhi-based early-stage investor). In October 2024, firm raised $8 billion in new funds. In December 2025, General Catalyst agreed with Trian Partners to acquire Janus Henderson for approximately $7.4 billion, with offer increased to $52 per share ($8 billion valuation) in March 2026."
-      },
-      "changes": [
-        {
-          "field": "thesis",
-          "current": "General Catalyst invests across seed, venture, and growth stages. The firm focuses on transforming critical institutions with applied AI and backing founders globally.",
-          "verified": "General Catalyst invests across seed, venture, and growth stages. The firm focuses on transforming critical institutions with applied AI.",
-          "sources": [
-            0,
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://generalcatalyst.com"
-        },
-        {
-          "idx": 1,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_Catalyst"
+          "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
         }
       ],
-      "notes": "In June 2024, General Catalyst acquired La Famiglia (German VC firm) and Venture Highway (New Delhi-based early-stage investor). In October 2024, firm raised $8 billion in new funds. In December 2025, General Catalyst agreed with Trian Partners to acquire Janus Henderson for approximately $7.4 billion, with offer increased to $52 per share ($8 billion valuation) in March 2026."
+      "notes": "Engine Ventures separated from The Engine nonprofit organization in 2023. The Engine itself, founded by MIT in 2016, remains a nonprofit incubator and accelerator. Wikipedia lists no current senior partners for Engine Ventures; AUM not disclosed in sources provided."
     },
     {
-      "name": "In-Q-Tel",
+      "name": "Founders Fund",
       "current": {
-        "name": "In-Q-Tel",
-        "shortName": "IQT",
-        "aum": "~$1B",
-        "flagshipFund": "Strategic Investment Fund",
-        "founded": 1999,
-        "hq": "Tysons, VA",
-        "website": "https://www.iqt.org"
+        "name": "Founders Fund",
+        "shortName": "Founders Fund",
+        "aum": "$17B+",
+        "flagshipFund": "Founders Fund Growth III",
+        "founded": 2005,
+        "hq": "San Francisco, California",
+        "website": "https://foundersfund.com"
       },
       "verified": {
-        "name": "In-Q-Tel",
-        "short_name": "IQT",
-        "aum": null,
-        "flagship_fund": null,
-        "founded_year": 1999,
-        "hq": "Tysons, VA",
+        "name": "Founders Fund",
+        "short_name": "Founders Fund",
+        "aum": "$17B+",
+        "flagship_fund": "Founders Fund Growth III",
+        "founded_year": 2005,
+        "hq": "San Francisco, California",
         "key_partners": [
-          "Steve Bowsher"
+          "Peter Thiel",
+          "Luke Nosek",
+          "Mike Solana",
+          "Trae Stephens",
+          "Lauren Gross",
+          "Scott Nolan",
+          "Napoleon Ta"
         ],
         "sector_focus": [
-          "Space",
-          "Biotechnology",
-          "Microelectronics",
-          "Energy",
-          "AI",
-          "Cyber",
-          "Life Sciences",
-          "Hardware"
+          "Hard Tech",
+          "Defense Technology",
+          "Space Technology",
+          "Artificial Intelligence",
+          "Biotech"
         ],
-        "thesis": "In-Q-Tel identifies and invests in companies developing cutting-edge technologies that serve United States national security interests. The firm bridges the gap between technology needs of intelligence and defense communities and innovative capabilities of the private sector through technology development agreements and equity investments.",
-        "website": "https://www.iqt.org",
+        "thesis": "Founders Fund has gradually developed into a primary backer of hard tech and defense technology. The firm focuses on ambitious projects that resolve real challenges and create transformative technology, with a portfolio spanning space technology, artificial intelligence, and biotech.",
+        "website": "https://foundersfund.com",
         "sources_per_field": {
           "name": [
             0,
-            1,
-            3
+            2
           ],
           "short_name": [
-            3
+            0,
+            2
+          ],
+          "aum": [
+            2
+          ],
+          "flagship_fund": [
+            2
           ],
           "founded_year": [
-            1,
-            3
+            2
           ],
           "hq": [
-            1,
-            3
+            2
           ],
           "key_partners": [
-            3
+            2
           ],
           "sector_focus": [
-            0
+            2
           ],
           "thesis": [
-            1,
-            3
+            2
           ],
           "website": [
             0,
-            1
+            2
           ]
         },
-        "notes": "Steve Bowsher appointed CEO on December 14, 2023, succeeding Christopher A. Darby. Firm is a not-for-profit 501(c)(3) corporation, not a government entity. Has offices in Tysons VA, Menlo Park CA, Cambridge MA, London, Sydney, Singapore, and Munich. Sources indicate 50+ portfolio companies valued over $1B but do not provide specific current AUM figure."
+        "notes": "Founded July 2005 by Peter Thiel, Ken Howery, and Luke Nosek. Most recent flagship fund is Founders Fund Growth III at $4.6 billion, raised in 2025. Total AUM as of 2025 is $17 billion. Headquarters located at Letterman Digital Arts Center, San Francisco, California."
       },
       "changes": [
         {
           "field": "thesis",
-          "current": "In-Q-Tel identifies and invests in startups developing cutting-edge technologies to serve United States national security interests. The firm bridges the gap between technology needs of intelligence and defense communities and innovative capabilities of the private sector through technology development agreements and equity investments.",
-          "verified": "In-Q-Tel identifies and invests in companies developing cutting-edge technologies that serve United States national security interests. The firm bridges the gap between technology needs of intelligence and defense communities and innovative capabilities of the private sector through technology development agreements and equity investments.",
+          "current": "Founders Fund has gradually developed into a primary backer of hard tech, defense technology, space technology, artificial intelligence, and biotech. The firm focuses on ambitious projects that resolve real challenges and create transformative technology.",
+          "verified": "Founders Fund has gradually developed into a primary backer of hard tech and defense technology. The firm focuses on ambitious projects that resolve real challenges and create transformative technology, with a portfolio spanning space technology, artificial intelligence, and biotech.",
           "sources": [
-            1,
-            3
+            2
           ]
         }
       ],
@@ -946,25 +675,20 @@
         {
           "idx": 0,
           "src": "firm_website",
-          "url": "https://www.iqt.org"
+          "url": "https://foundersfund.com"
         },
         {
           "idx": 1,
-          "src": "firm/about",
-          "url": "https://www.iqt.org/about"
+          "src": "firm/portfolio",
+          "url": "https://foundersfund.com/portfolio"
         },
         {
           "idx": 2,
-          "src": "firm/portfolio",
-          "url": "https://www.iqt.org/portfolio"
-        },
-        {
-          "idx": 3,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/In-Q-Tel"
+          "url": "https://en.wikipedia.org/wiki/Founders_Fund"
         }
       ],
-      "notes": "Steve Bowsher appointed CEO on December 14, 2023, succeeding Christopher A. Darby. Firm is a not-for-profit 501(c)(3) corporation, not a government entity. Has offices in Tysons VA, Menlo Park CA, Cambridge MA, London, Sydney, Singapore, and Munich. Sources indicate 50+ portfolio companies valued over $1B but do not provide specific current AUM figure."
+      "notes": "Founded July 2005 by Peter Thiel, Ken Howery, and Luke Nosek. Most recent flagship fund is Founders Fund Growth III at $4.6 billion, raised in 2025. Total AUM as of 2025 is $17 billion. Headquarters located at Letterman Digital Arts Center, San Francisco, California."
     },
     {
       "name": "Khosla Ventures",
@@ -983,7 +707,7 @@
         "aum": "$15B+",
         "flagship_fund": null,
         "founded_year": 2004,
-        "hq": "Menlo Park, CA",
+        "hq": "Menlo Park, California",
         "key_partners": [
           "Vinod Khosla",
           "Samir Kaul",
@@ -1021,9 +745,6 @@
             4
           ],
           "hq": [
-            0,
-            1,
-            2,
             4
           ],
           "key_partners": [
@@ -1039,19 +760,18 @@
             0,
             1,
             2,
-            3,
             4
           ]
         },
-        "notes": "Keith Rabois returned to firm as managing director in February 2024 (source 4). Most recent AUM figure from October 2021 per Wikipedia (source 4). No current flagship fund name explicitly stated in sources; Wikipedia notes firm closed $3.1B across three funds as of November 2023 including eighth flagship fund, but fund name not provided."
+        "notes": "Keith Rabois returned to the firm as a managing director in February 2024 (source 4). Most recent flagship fund information not explicitly stated in sources; database reference to 'Khosla Ventures IX' cannot be verified from provided sources."
       },
       "changes": [
         {
-          "field": "thesis",
-          "current": "Khosla Ventures is passionate about technology-based economic disruption in many industries. The firm seeks unfair advantages through proprietary and protected technological advances, business model innovations, and unique approaches to markets. The firm believes AI has the power to disrupt numerous economic models and change the way people lead their daily lives.",
-          "verified": "Khosla Ventures is passionate about technology-based economic disruption in many industries. The firm seeks unfair advantages through proprietary and protected technological advances, business model innovations, and unique approaches to markets. The firm believes AI has the power to disrupt numerous economic models and change the way we lead our daily lives.",
+          "field": "hq",
+          "current": "Menlo Park, CA",
+          "verified": "Menlo Park, California",
           "sources": [
-            1
+            4
           ]
         }
       ],
@@ -1082,7 +802,7 @@
           "url": "https://en.wikipedia.org/wiki/Khosla_Ventures"
         }
       ],
-      "notes": "Keith Rabois returned to firm as managing director in February 2024 (source 4). Most recent AUM figure from October 2021 per Wikipedia (source 4). No current flagship fund name explicitly stated in sources; Wikipedia notes firm closed $3.1B across three funds as of November 2023 including eighth flagship fund, but fund name not provided."
+      "notes": "Keith Rabois returned to the firm as a managing director in February 2024 (source 4). Most recent flagship fund information not explicitly stated in sources; database reference to 'Khosla Ventures IX' cannot be verified from provided sources."
     },
     {
       "name": "Lowercarbon Capital",
@@ -1116,14 +836,12 @@
           "Carbon Removal",
           "Clean Energy"
         ],
-        "thesis": "Lowercarbon backs companies that slash CO2 emissions, suck carbon out of the atmosphere, and buy time to address climate change. The firm funds three investment buckets: slashing new CO2 emissions across energy, transportation, industrial materials and agriculture; removing carbon from the atmosphere; and cooling the planet to buy time for people, plants, and animals on the front lines.",
+        "thesis": "Lowercarbon Capital backs companies that slash CO2 emissions, suck carbon out of the atmosphere, and buy time to address climate change. The firm funds technologies that reduce sources of carbon dioxide, methane, and other greenhouse gases across energy, transportation, industrial materials and agriculture, and invests in carbon removal solutions.",
         "website": "https://lowercarbon.com",
         "sources_per_field": {
           "name": [
-            0
-          ],
-          "short_name": [
-            0
+            0,
+            1
           ],
           "key_partners": [
             1
@@ -1135,41 +853,17 @@
             0
           ],
           "website": [
-            0
-          ]
-        },
-        "notes": "Founded year, AUM, headquarters location, and flagship fund name could not be verified from provided sources. Database entry lists founded year as 2018, HQ as Jackson, WY, AUM as $2B+, and flagship fund as Lowercarbon Fusion Fund II, but these are not present in sources provided."
-      },
-      "changes": [
-        {
-          "field": "keyPartners",
-          "current": [
-            "Chris Sacca",
-            "Crystal Sacca",
-            "Clay Dumas",
-            "Ryan Orbuch",
-            "Shuo Yang",
-            "Shawn Xu",
-            "Caie Kelley",
-            "Lauren Faber O'Connor"
-          ],
-          "verified": [
-            "Chris Sacca",
-            "Crystal Sacca",
-            "Clay Dumas",
-            "Caie Kelley",
-            "Ryan Orbuch",
-            "Shawn Xu",
-            "Lauren Faber O'Connor"
-          ],
-          "sources": [
+            0,
             1
           ]
         },
+        "notes": "AUM, flagship fund name, founded year, and headquarters location could not be verified from provided sources. Database entry claims $2B+ AUM, Lowercarbon Fusion Fund II, founded 2018, and Jackson, WY headquarters but these are not found in current source materials."
+      },
+      "changes": [
         {
           "field": "thesis",
-          "current": "Lowercarbon backs companies that slash CO2 emissions, remove carbon from the atmosphere, and buy time to address climate change. The firm funds three investment buckets: slashing new CO2 emissions across energy, transportation, industrial materials and agriculture; sucking up carbon from the atmosphere; and technologies to cool the planet.",
-          "verified": "Lowercarbon backs companies that slash CO2 emissions, suck carbon out of the atmosphere, and buy time to address climate change. The firm funds three investment buckets: slashing new CO2 emissions across energy, transportation, industrial materials and agriculture; removing carbon from the atmosphere; and cooling the planet to buy time for people, plants, and animals on the front lines.",
+          "current": "Lowercarbon backs companies that slash CO2 emissions, suck carbon out of the atmosphere, and buy time to address climate change. The firm funds three investment buckets: slashing new CO2 emissions across energy, transportation, industrial materials and agriculture; removing carbon from the atmosphere; and cooling the planet to buy time for people, plants, and animals on the front lines.",
+          "verified": "Lowercarbon Capital backs companies that slash CO2 emissions, suck carbon out of the atmosphere, and buy time to address climate change. The firm funds technologies that reduce sources of carbon dioxide, methane, and other greenhouse gases across energy, transportation, industrial materials and agriculture, and invests in carbon removal solutions.",
           "sources": [
             0
           ]
@@ -1192,14 +886,14 @@
           "url": "https://lowercarbon.com/companies"
         }
       ],
-      "notes": "Founded year, AUM, headquarters location, and flagship fund name could not be verified from provided sources. Database entry lists founded year as 2018, HQ as Jackson, WY, AUM as $2B+, and flagship fund as Lowercarbon Fusion Fund II, but these are not present in sources provided."
+      "notes": "AUM, flagship fund name, founded year, and headquarters location could not be verified from provided sources. Database entry claims $2B+ AUM, Lowercarbon Fusion Fund II, founded 2018, and Jackson, WY headquarters but these are not found in current source materials."
     },
     {
       "name": "Lux Capital",
       "current": {
         "name": "Lux Capital",
         "shortName": "Lux",
-        "aum": "$7B+",
+        "aum": "$7.0B+",
         "flagshipFund": "Lux Ventures IX",
         "founded": 2000,
         "hq": "New York, NY",
@@ -1208,7 +902,7 @@
       "verified": {
         "name": "Lux Capital",
         "short_name": "Lux",
-        "aum": "$7B+",
+        "aum": "$7.0B+",
         "flagship_fund": "Lux Ventures IX",
         "founded_year": 2000,
         "hq": "New York, NY",
@@ -1226,16 +920,16 @@
         ],
         "sector_focus": [
           "Artificial Intelligence",
+          "Life Sciences",
           "Defense",
           "Manufacturing",
           "Aerospace",
-          "Life Sciences",
           "Engineering",
           "Electronics",
           "Infrastructure",
           "Computer Science"
         ],
-        "thesis": "Lux invests in emerging science and technology ventures. The firm focuses on early-stage technology companies in the areas of life sciences, defense, manufacturing, aerospace, and artificial intelligence.",
+        "thesis": "Lux Capital invests in emerging science and technology ventures. The firm focuses on early-stage technology companies in areas including life sciences, defense, manufacturing, aerospace, and artificial intelligence.",
         "website": "https://luxcapital.com",
         "sources_per_field": {
           "name": [
@@ -1243,7 +937,7 @@
             4
           ],
           "short_name": [
-            4
+            0
           ],
           "aum": [
             4
@@ -1261,54 +955,22 @@
             2
           ],
           "sector_focus": [
-            3,
             4
           ],
           "thesis": [
             4
           ],
           "website": [
-            0,
-            1,
             2
           ]
         },
-        "notes": "Fund IX ($1.5B) closed in January 2026, making it the firm's largest fund to date. Robert Paull is listed as co-founder on Wikipedia but marked as 'Co-Founder and Venture Partner' on current team page, so included only as co-founder per schema. Recent additions: Brett McGurk joined as Venture Partner in 2025; Zach Iscol joined as Venture Partner in April 2026."
+        "notes": "In January 2026, Lux closed Lux Ventures IX at $1.5 billion, their largest fund to date (source 4). Robert Paull is listed as co-founder on Wikipedia (source 4) but appears only as 'Co-Founder and Venture Partner' in advisors section (source 2), not as current senior partner. Brett McGurk joined as Venture Partner in 2025 (source 4) but is listed under advisors, not core partners (source 2)."
       },
       "changes": [
         {
-          "field": "sectorFocus",
-          "current": [
-            "Artificial Intelligence",
-            "Data & AI",
-            "Defense",
-            "Biology",
-            "Neuroscience",
-            "Manufacturing",
-            "Robotics",
-            "Space",
-            "Sensing"
-          ],
-          "verified": [
-            "Artificial Intelligence",
-            "Defense",
-            "Manufacturing",
-            "Aerospace",
-            "Life Sciences",
-            "Engineering",
-            "Electronics",
-            "Infrastructure",
-            "Computer Science"
-          ],
-          "sources": [
-            3,
-            4
-          ]
-        },
-        {
           "field": "thesis",
-          "current": "Lux invests in emerging science and technology ventures at the outermost edges of what is possible. The firm backs founders building transformative companies in atoms, not just bits, working at the intersection of new and not-yet-imagined technologies decades into the future.",
-          "verified": "Lux invests in emerging science and technology ventures. The firm focuses on early-stage technology companies in the areas of life sciences, defense, manufacturing, aerospace, and artificial intelligence.",
+          "current": "Lux Capital invests in emerging science and technology ventures, focusing on early-stage technology companies in the areas of life sciences, defense, manufacturing, aerospace, and artificial intelligence. The firm backs companies that turn sci-fi into sci-fact.",
+          "verified": "Lux Capital invests in emerging science and technology ventures. The firm focuses on early-stage technology companies in areas including life sciences, defense, manufacturing, aerospace, and artificial intelligence.",
           "sources": [
             4
           ]
@@ -1339,21 +1001,16 @@
           "idx": 4,
           "src": "wikipedia",
           "url": "https://en.wikipedia.org/wiki/Lux_Capital"
-        },
-        {
-          "idx": 5,
-          "src": "sec_form_d",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002143368&type=D&dateb=&owner=include&count=10"
         }
       ],
-      "notes": "Fund IX ($1.5B) closed in January 2026, making it the firm's largest fund to date. Robert Paull is listed as co-founder on Wikipedia but marked as 'Co-Founder and Venture Partner' on current team page, so included only as co-founder per schema. Recent additions: Brett McGurk joined as Venture Partner in 2025; Zach Iscol joined as Venture Partner in April 2026."
+      "notes": "In January 2026, Lux closed Lux Ventures IX at $1.5 billion, their largest fund to date (source 4). Robert Paull is listed as co-founder on Wikipedia (source 4) but appears only as 'Co-Founder and Venture Partner' in advisors section (source 2), not as current senior partner. Brett McGurk joined as Venture Partner in 2025 (source 4) but is listed under advisors, not core partners (source 2)."
     },
     {
       "name": "Playground Global",
       "current": {
         "name": "Playground Global",
         "shortName": "Playground",
-        "aum": "$1.2B",
+        "aum": "$1.7B",
         "flagshipFund": "Playground Global Fund III",
         "founded": 2015,
         "hq": "Palo Alto, CA",
@@ -1379,7 +1036,7 @@
           "Energy Transition",
           "Engineered Biology"
         ],
-        "thesis": "Playground invests in early-stage deep tech startups tackling the world's hardest problems at the intersection of AI, engineered biology, next-gen compute, and hard science. The firm backs technical founders working at the earliest stages of company formation, often before there is a product or even a name.",
+        "thesis": "Playground invests in early-stage deep tech startups tackling the world's hardest problems at the intersection of AI, engineered biology, next-gen compute, and hard science. The firm backs technical founders working at the earliest stages of company formation, often before there is a product or established company.",
         "website": "https://playground.global",
         "sources_per_field": {
           "name": [
@@ -1389,7 +1046,8 @@
             4
           ],
           "short_name": [
-            0
+            0,
+            1
           ],
           "aum": [
             1
@@ -1399,6 +1057,7 @@
             4
           ],
           "hq": [
+            0,
             1,
             4
           ],
@@ -1418,41 +1077,13 @@
             0
           ]
         },
-        "notes": "AUM updated to $1.7B per source [1] (most recent). Pat Gelsinger listed as General Partner on firm website [2] but not on Wikipedia [4] key people list; included based on explicit naming on official firm site. Wikipedia lists Andy Rubin as founder but he is not listed as current partner on firm website team page, so excluded from key_partners."
+        "notes": "Wikipedia lists Andy Rubin as co-founder, but current firm website (source 0-2) does not list him as current partner. Only current partners from firm's team page are included in key_partners field. No current flagship fund name found in sources."
       },
       "changes": [
         {
-          "field": "aum",
-          "current": "$1.2B",
-          "verified": "$1.7B",
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "keyPartners",
-          "current": [
-            "Peter Barrett",
-            "Bruce Leak",
-            "Jory Bell",
-            "Pat Gelsinger"
-          ],
-          "verified": [
-            "Peter Barrett",
-            "Jory Bell",
-            "Bruce Leak",
-            "Matt Hershenson",
-            "Laurie Yoler"
-          ],
-          "sources": [
-            2,
-            4
-          ]
-        },
-        {
           "field": "thesis",
-          "current": "Playground invests in early-stage deep tech startups at the intersection of AI, engineered biology, next-gen compute, and hard science. The firm backs technical founders working on breakthrough innovations in computing, automation, energy transition, and synthetic biology.",
-          "verified": "Playground invests in early-stage deep tech startups tackling the world's hardest problems at the intersection of AI, engineered biology, next-gen compute, and hard science. The firm backs technical founders working at the earliest stages of company formation, often before there is a product or even a name.",
+          "current": "Playground invests in early-stage deep tech startups tackling the world's hardest problems at the intersection of AI, engineered biology, next-gen compute, and hard science. The firm backs technical founders working at the earliest stages of company formation, often before there is a product or even a name.",
+          "verified": "Playground invests in early-stage deep tech startups tackling the world's hardest problems at the intersection of AI, engineered biology, next-gen compute, and hard science. The firm backs technical founders working at the earliest stages of company formation, often before there is a product or established company.",
           "sources": [
             0,
             1
@@ -1486,243 +1117,7 @@
           "url": "https://en.wikipedia.org/wiki/Playground_Global"
         }
       ],
-      "notes": "AUM updated to $1.7B per source [1] (most recent). Pat Gelsinger listed as General Partner on firm website [2] but not on Wikipedia [4] key people list; included based on explicit naming on official firm site. Wikipedia lists Andy Rubin as founder but he is not listed as current partner on firm website team page, so excluded from key_partners."
-    },
-    {
-      "name": "Prime Movers Lab",
-      "current": {
-        "name": "Prime Movers Lab",
-        "shortName": "Prime Movers Lab",
-        "aum": "$1B+",
-        "flagshipFund": "Prime Movers Lab Fund III",
-        "founded": 2018,
-        "hq": "Jackson Hole, WY",
-        "website": "https://primemoverslab.com"
-      },
-      "verified": {
-        "name": "Prime Movers Lab",
-        "short_name": "Prime Movers Lab",
-        "aum": null,
-        "flagship_fund": null,
-        "founded_year": null,
-        "hq": null,
-        "key_partners": [
-          "Dakin Sloss",
-          "Zia Huque",
-          "Tony Robbins",
-          "Andre Jabban"
-        ],
-        "sector_focus": [
-          "Energy",
-          "Transportation",
-          "Infrastructure",
-          "Manufacturing",
-          "Human Augmentation",
-          "Agriculture"
-        ],
-        "thesis": "Prime Movers Lab invests in breakthrough scientific startups founded by inventors who transform billions of lives. The firm invests in startups reinventing energy, transportation, infrastructure, manufacturing, human augmentation, and agriculture.",
-        "website": "https://www.primemoverslab.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "short_name": [
-            0,
-            1
-          ],
-          "key_partners": [
-            2
-          ],
-          "sector_focus": [
-            1
-          ],
-          "thesis": [
-            1
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "AUM and flagship_fund cannot be verified from provided sources. Founded year cannot be verified despite database entry claiming 2018. HQ cannot be verified despite database entry claiming Jackson Hole, WY. Andre Jabban listed as Partner and Head of Capital Formation on team page (source 2)."
-      },
-      "changes": [
-        {
-          "field": "keyPartners",
-          "current": [
-            "Dakin Sloss",
-            "Zia Huque",
-            "Tony Robbins",
-            "Justin Briggs"
-          ],
-          "verified": [
-            "Dakin Sloss",
-            "Zia Huque",
-            "Tony Robbins",
-            "Andre Jabban"
-          ],
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://www.primemoverslab.com"
-        },
-        {
-          "idx": 1,
-          "src": "firm/about",
-          "url": "https://www.primemoverslab.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "firm/team",
-          "url": "https://www.primemoverslab.com/team"
-        },
-        {
-          "idx": 3,
-          "src": "firm/portfolio",
-          "url": "https://www.primemoverslab.com/portfolio"
-        }
-      ],
-      "notes": "AUM and flagship_fund cannot be verified from provided sources. Founded year cannot be verified despite database entry claiming 2018. HQ cannot be verified despite database entry claiming Jackson Hole, WY. Andre Jabban listed as Partner and Head of Capital Formation on team page (source 2)."
-    },
-    {
-      "name": "Razor's Edge Ventures",
-      "current": {
-        "name": "Razor's Edge Ventures",
-        "shortName": "Razor's Edge",
-        "aum": "$1.25B+",
-        "flagshipFund": "Razor's Edge Fund IV ($560M, Sep 2025)",
-        "founded": 2011,
-        "hq": "Reston, VA",
-        "website": "https://www.razorsvc.com"
-      },
-      "verified": {
-        "name": "Razor's Edge Ventures",
-        "short_name": null,
-        "aum": null,
-        "flagship_fund": null,
-        "founded_year": null,
-        "hq": null,
-        "key_partners": [
-          "Peggy Styer",
-          "Steve Pann",
-          "Richard Moxley",
-          "Mark Spoto",
-          "Jack Kerrigan"
-        ],
-        "sector_focus": [
-          "Cybersecurity",
-          "Data science and data infrastructure",
-          "Emerging device and sensor technologies",
-          "Space technologies",
-          "Earth observation",
-          "Critical resources and services"
-        ],
-        "thesis": "Razor's Edge seeks to find, fund and foster technology companies that solve significant challenges in national security and high-growth commercial markets. The firm invests in national security platform companies and dual-use growth and early-stage companies addressing major technology gaps, leveraging proprietary sector intelligence and deep networks with national security decision-makers.",
-        "website": "https://www.razorsvc.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "key_partners": [
-            1
-          ],
-          "sector_focus": [
-            1
-          ],
-          "thesis": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Wikipedia source [3] is a disambiguation page and does not contain information about the VC firm. AUM, flagship fund details, founded year, and HQ location could not be verified from provided sources. Database entry claims could not be substantiated from these sources."
-      },
-      "changes": [
-        {
-          "field": "keyPartners",
-          "current": [
-            "Mark Spoto",
-            "Steve Bowsher (board advisor)",
-            "Brett Tucker",
-            "Mark D'Aria"
-          ],
-          "verified": [
-            "Peggy Styer",
-            "Steve Pann",
-            "Richard Moxley",
-            "Mark Spoto",
-            "Jack Kerrigan"
-          ],
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "sectorFocus",
-          "current": [
-            "Defense Autonomy",
-            "Space / RF SIGINT",
-            "Cybersecurity",
-            "AI for Defense",
-            "Naval Autonomy",
-            "Maritime Domain Awareness",
-            "Government-grade IT"
-          ],
-          "verified": [
-            "Cybersecurity",
-            "Data science and data infrastructure",
-            "Emerging device and sensor technologies",
-            "Space technologies",
-            "Earth observation",
-            "Critical resources and services"
-          ],
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "thesis",
-          "current": "Razor's Edge is the longest-tenured pure defense / national-security specialist VC. Mandate is mission-critical capabilities for DoD and the intelligence community \u2014 space, autonomy, cyber, AI, RF/SIGINT, energy for defense, and a distinctive 'platform incubation' model where the fund builds vertically integrated defense primes from scratch (BlackSea Technologies, BlackVe).",
-          "verified": "Razor's Edge seeks to find, fund and foster technology companies that solve significant challenges in national security and high-growth commercial markets. The firm invests in national security platform companies and dual-use growth and early-stage companies addressing major technology gaps, leveraging proprietary sector intelligence and deep networks with national security decision-makers.",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://www.razorsvc.com"
-        },
-        {
-          "idx": 1,
-          "src": "firm/about",
-          "url": "https://www.razorsvc.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "firm/investments",
-          "url": "https://www.razorsvc.com/investments"
-        },
-        {
-          "idx": 3,
-          "src": "wikipedia (short name)",
-          "url": "https://en.wikipedia.org/wiki/Razor%27s_Edge"
-        }
-      ],
-      "notes": "Wikipedia source [3] is a disambiguation page and does not contain information about the VC firm. AUM, flagship fund details, founded year, and HQ location could not be verified from provided sources. Database entry claims could not be substantiated from these sources."
+      "notes": "Wikipedia lists Andy Rubin as co-founder, but current firm website (source 0-2) does not list him as current partner. Only current partners from firm's team page are included in key_partners field. No current flagship fund name found in sources."
     },
     {
       "name": "Riot Ventures",
@@ -1754,7 +1149,7 @@
           "Halston McMurray"
         ],
         "sector_focus": null,
-        "thesis": null,
+        "thesis": "The firm is devoted to a select group of iconic companies with checks up to $200m and is dedicated to modernizing critical industries.",
         "website": "https://riot.vc",
         "sources_per_field": {
           "name": [
@@ -1766,30 +1161,20 @@
           "key_partners": [
             0
           ],
+          "thesis": [
+            0
+          ],
           "website": [
             0
           ]
         },
-        "notes": "Wikipedia source [1] is about the general concept of 'riot' (civil disorder), not the VC firm, and is therefore not usable for verification. AUM, flagship fund, founded year, sector focus, and thesis cannot be verified from provided sources. The firm website does not explicitly state these details in the provided excerpt."
+        "notes": "Source 1 (Wikipedia) is about the general definition of 'riot' as a public disturbance and is not relevant to the VC firm. AUM, flagship fund, founded year, and sector focus could not be verified from provided sources. Database entry claims of $1B+ AUM, Riot Fund III, founded 2017, and specific sector focus cannot be supported by the sources provided."
       },
       "changes": [
         {
-          "field": "keyPartners",
-          "current": [
-            "Will Coffield",
-            "Stephen Marcus"
-          ],
-          "verified": [
-            "Stephen Marcus",
-            "Will Coffield",
-            "Collier Bern",
-            "Meghan Moreland",
-            "Nolan Van Nortwick",
-            "Sarang Shah",
-            "Pauline Kress",
-            "Olivia Caldwell",
-            "Halston McMurray"
-          ],
+          "field": "thesis",
+          "current": "Backing founders building critical infrastructure for the physical world \u2014 defense, space, robotics, and industrial technology. Early-stage conviction in companies where atoms meet bits.",
+          "verified": "The firm is devoted to a select group of iconic companies with checks up to $200m and is dedicated to modernizing critical industries.",
           "sources": [
             0
           ]
@@ -1807,137 +1192,7 @@
           "url": "https://en.wikipedia.org/wiki/Riot"
         }
       ],
-      "notes": "Wikipedia source [1] is about the general concept of 'riot' (civil disorder), not the VC firm, and is therefore not usable for verification. AUM, flagship fund, founded year, sector focus, and thesis cannot be verified from provided sources. The firm website does not explicitly state these details in the provided excerpt."
-    },
-    {
-      "name": "Sequoia Capital",
-      "current": {
-        "name": "Sequoia Capital",
-        "shortName": "Sequoia",
-        "aum": "$56.3B+",
-        "flagshipFund": "Sequoia Capital Fund",
-        "founded": 1972,
-        "hq": "Menlo Park, California",
-        "website": "https://sequoiacap.com"
-      },
-      "verified": {
-        "name": "Sequoia Capital",
-        "short_name": "Sequoia",
-        "aum": "$56.3B+",
-        "flagship_fund": "Sequoia Capital Fund",
-        "founded_year": 1972,
-        "hq": "Menlo Park, California",
-        "key_partners": [
-          "Michael Moritz",
-          "Douglas Leone",
-          "Jim Goetz",
-          "Alfred Lin",
-          "Pat Grady"
-        ],
-        "sector_focus": [
-          "seed stage",
-          "early stage",
-          "growth stage",
-          "clean tech",
-          "consumer internet",
-          "crypto",
-          "financial services",
-          "healthcare",
-          "mobile",
-          "robotics"
-        ],
-        "thesis": "Sequoia specializes in seed stage, early stage, and growth stage investments in private technology companies. The firm invests across clean tech, consumer internet, crypto, financial services, healthcare, mobile, and robotics sectors. In October 2021, Sequoia announced the Sequoia Capital Fund, an evergreen fund structure for its U.S. and European business that allows continued involvement with companies after public market debuts.",
-        "website": "https://sequoiacap.com",
-        "sources_per_field": {
-          "name": [
-            3
-          ],
-          "short_name": [
-            3
-          ],
-          "aum": [
-            3
-          ],
-          "flagship_fund": [
-            3
-          ],
-          "founded_year": [
-            3
-          ],
-          "hq": [
-            3
-          ],
-          "key_partners": [
-            1,
-            3
-          ],
-          "sector_focus": [
-            3
-          ],
-          "thesis": [
-            3
-          ],
-          "website": [
-            0,
-            3
-          ]
-        },
-        "notes": "In November 2025, Alfred Lin and Pat Grady became joint managing partners succeeding Roelof Botha. Sequoia split into three independent entities in 2024: Sequoia (U.S. and Europe), Peak XV Partners (India and Southeast Asia), and HongShan (China). In August 2025, COO Sumaiya Balbale resigned following controversy over partner Shaun Maguire's social media posts."
-      },
-      "changes": [
-        {
-          "field": "keyPartners",
-          "current": [
-            "Michael Moritz",
-            "Douglas Leone",
-            "Jim Goetz",
-            "Alfred Lin",
-            "Roelof Botha"
-          ],
-          "verified": [
-            "Michael Moritz",
-            "Douglas Leone",
-            "Jim Goetz",
-            "Alfred Lin",
-            "Pat Grady"
-          ],
-          "sources": [
-            1,
-            3
-          ]
-        },
-        {
-          "field": "thesis",
-          "current": "Sequoia specializes in seed stage, early stage, and growth stage investments in private technology companies across clean tech, consumer internet, crypto, financial services, healthcare, mobile, and robotics sectors. The firm operates an evergreen fund structure for its U.S. and European business that allows it to remain involved with companies after their public market debuts.",
-          "verified": "Sequoia specializes in seed stage, early stage, and growth stage investments in private technology companies. The firm invests across clean tech, consumer internet, crypto, financial services, healthcare, mobile, and robotics sectors. In October 2021, Sequoia announced the Sequoia Capital Fund, an evergreen fund structure for its U.S. and European business that allows continued involvement with companies after public market debuts.",
-          "sources": [
-            3
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://sequoiacap.com"
-        },
-        {
-          "idx": 1,
-          "src": "firm/team",
-          "url": "https://sequoiacap.com/team"
-        },
-        {
-          "idx": 2,
-          "src": "firm/companies",
-          "url": "https://sequoiacap.com/companies"
-        },
-        {
-          "idx": 3,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Sequoia_Capital"
-        }
-      ],
-      "notes": "In November 2025, Alfred Lin and Pat Grady became joint managing partners succeeding Roelof Botha. Sequoia split into three independent entities in 2024: Sequoia (U.S. and Europe), Peak XV Partners (India and Southeast Asia), and HongShan (China). In August 2025, COO Sumaiya Balbale resigned following controversy over partner Shaun Maguire's social media posts."
+      "notes": "Source 1 (Wikipedia) is about the general definition of 'riot' as a public disturbance and is not relevant to the VC firm. AUM, flagship fund, founded year, and sector focus could not be verified from provided sources. Database entry claims of $1B+ AUM, Riot Fund III, founded 2017, and specific sector focus cannot be supported by the sources provided."
     },
     {
       "name": "Valor Equity Partners",
@@ -1967,46 +1222,31 @@
           "Bradley Sheftel"
         ],
         "sector_focus": null,
-        "thesis": "Valor invests in technology and technology-enabled companies that innovate and disrupt existing industries. The firm applies operational growth methodology, working alongside management teams to optimize supply chains, processes, and business operations from seed through IPO.",
+        "thesis": "Valor invests in technology and technology-enabled companies that innovate and disrupt existing industries. The firm applies operational growth methodology, working alongside management teams to optimize supply chains, processes, and business operations.",
         "website": "https://valorep.com",
         "sources_per_field": {
           "name": [
             0,
             2
           ],
-          "short_name": [],
           "key_partners": [
             2
           ],
           "thesis": [
             0,
             1
-          ],
-          "website": [
-            0
           ]
         },
-        "notes": "Founded year cannot be verified as specific year not stated in sources (Wikipedia references 'More than 20 years ago' and 1995 as founding of predecessor MG Capital, but not explicit Valor founding year). AUM not stated in sources. HQ location not stated in sources. Flagship fund name not stated in sources. Sector focus list from database entry cannot be verified against explicit sector lists in sources. Sources confirm Antonio Gracias as Founder, CEO & CIO; Juan Sabater as Partner and Co-President; Jonathan Shulkin as Partner and Co-President; plus four additional Partners (Cavoli, Murphy, Pattipati, Sheftel) from team page."
+        "notes": "Founded year cannot be verified from sources (Wikipedia states Gracias founded MG Capital in 1995 and later founded Valor, but exact founding year of Valor not explicitly stated). AUM of $17.5B+ cannot be verified from provided sources. Flagship fund name cannot be verified. HQ location cannot be verified from provided sources. Sector focus list cannot be verified from provided sources (portfolio companies are listed but no explicit sector focus statement found). Database entry lists Energy & Climate, Space & Aerospace, Autonomous Vehicles & Drones, and Defense & Security as sector focus, but these are inferred from portfolio rather than stated on firm website."
       },
       "changes": [
         {
-          "field": "keyPartners",
-          "current": [
-            "Antonio Gracias",
-            "Jon Shulkin",
-            "Juan Sabater"
-          ],
-          "verified": [
-            "Antonio Gracias",
-            "Juan Sabater",
-            "Jonathan Shulkin",
-            "Christopher Cavoli",
-            "Christopher Murphy",
-            "Vivek K. Pattipati",
-            "Bradley Sheftel"
-          ],
+          "field": "thesis",
+          "current": "Valor invests in technology and technology-enabled companies that innovate and disrupt existing industries. The firm applies operational growth methodology, working alongside management teams to optimize supply chains, processes, and business operations from seed through IPO.",
+          "verified": "Valor invests in technology and technology-enabled companies that innovate and disrupt existing industries. The firm applies operational growth methodology, working alongside management teams to optimize supply chains, processes, and business operations.",
           "sources": [
-            2
+            0,
+            1
           ]
         }
       ],
@@ -2037,7 +1277,106 @@
           "url": "https://en.wikipedia.org/wiki/Valor_Equity_Partners"
         }
       ],
-      "notes": "Founded year cannot be verified as specific year not stated in sources (Wikipedia references 'More than 20 years ago' and 1995 as founding of predecessor MG Capital, but not explicit Valor founding year). AUM not stated in sources. HQ location not stated in sources. Flagship fund name not stated in sources. Sector focus list from database entry cannot be verified against explicit sector lists in sources. Sources confirm Antonio Gracias as Founder, CEO & CIO; Juan Sabater as Partner and Co-President; Jonathan Shulkin as Partner and Co-President; plus four additional Partners (Cavoli, Murphy, Pattipati, Sheftel) from team page."
+      "notes": "Founded year cannot be verified from sources (Wikipedia states Gracias founded MG Capital in 1995 and later founded Valor, but exact founding year of Valor not explicitly stated). AUM of $17.5B+ cannot be verified from provided sources. Flagship fund name cannot be verified. HQ location cannot be verified from provided sources. Sector focus list cannot be verified from provided sources (portfolio companies are listed but no explicit sector focus statement found). Database entry lists Energy & Climate, Space & Aerospace, Autonomous Vehicles & Drones, and Defense & Security as sector focus, but these are inferred from portfolio rather than stated on firm website."
+    },
+    {
+      "name": "Y Combinator",
+      "current": {
+        "name": "Y Combinator",
+        "shortName": "YC",
+        "aum": "Standard deal $500K/startup ($125K for 7% + $375K MFN SAFE)",
+        "flagshipFund": "Batch accelerator program",
+        "founded": 2005,
+        "hq": "San Francisco, California",
+        "website": "https://www.ycombinator.com"
+      },
+      "verified": {
+        "name": "Y Combinator",
+        "short_name": "YC",
+        "aum": null,
+        "flagship_fund": "Batch accelerator program",
+        "founded_year": 2005,
+        "hq": "San Francisco, California",
+        "key_partners": [
+          "Garry Tan",
+          "Jared Friedman",
+          "Harj Taggar",
+          "Aaron Epstein",
+          "Diana Hu",
+          "Gustaf Alstr\u00f6mer",
+          "Nicolas Dessaigne"
+        ],
+        "sector_focus": null,
+        "thesis": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support. YC continues to help founders after the program ends through its alumni network.",
+        "website": "https://www.ycombinator.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            2
+          ],
+          "short_name": [
+            2
+          ],
+          "flagship_fund": [
+            0,
+            1
+          ],
+          "founded_year": [
+            2
+          ],
+          "hq": [
+            0,
+            2
+          ],
+          "key_partners": [
+            0
+          ],
+          "thesis": [
+            0,
+            1
+          ]
+        },
+        "notes": "Garry Tan became President and CEO in January 2023 (source 2). Jared Friedman succeeded Michael Seibel as Managing Partner in March 2024 (source 2). Headquarters moved from Mountain View to San Francisco in spring 2023 (source 2). No current sector focus list found in sources. AUM field cannot be verified\u2014sources describe individual deal structure, not total assets under management."
+      },
+      "changes": [
+        {
+          "field": "thesis",
+          "current": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support to help startups improve their product, gain users, and prepare for fundraising.",
+          "verified": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support. YC continues to help founders after the program ends through its alumni network.",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://www.ycombinator.com"
+        },
+        {
+          "idx": 1,
+          "src": "firm/about",
+          "url": "https://www.ycombinator.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Y_Combinator"
+        },
+        {
+          "idx": 3,
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/09/01/photoroom-co-founder-quits-executive-role/"
+        },
+        {
+          "idx": 4,
+          "src": "news (Utility Dive)",
+          "url": "https://www.utilitydive.com/news/pjm-oklo-advanced-nuclear-ferc-interconnection/829150/"
+        }
+      ],
+      "notes": "Garry Tan became President and CEO in January 2023 (source 2). Jared Friedman succeeded Michael Seibel as Managing Partner in March 2024 (source 2). Headquarters moved from Mountain View to San Francisco in spring 2023 (source 2). No current sector focus list found in sources. AUM field cannot be verified\u2014sources describe individual deal structure, not total assets under management."
     }
   ],
   "unverifiable": []
