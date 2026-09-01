@@ -1,6 +1,9 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-08-31 13:08:43 UTC
+// Last updated: 2026-09-01 11:21:59 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "BlackSky Technology", form: "4", date: "2026-08-31", description: "xslF345X06/wk-form4_1788213568.xml", isIPO: false, ticker: "BKSY" },
+  { company: "Astera Labs", form: "4", date: "2026-08-31", description: "xslF345X06/wk-form4_1788217911.xml", isIPO: false, ticker: "ALAB" },
+  { company: "Satellogic", form: "8-K", date: "2026-08-31", description: "ea0304018-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "Rocket Lab", form: "4", date: "2026-08-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Rocket Lab", form: "4", date: "2026-08-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Momentus", form: "8-K", date: "2026-08-28", description: "apre-20260828x8k.htm", isIPO: false, ticker: "MNTS" },
@@ -48,7 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "AST SpaceMobile", form: "4", date: "2026-08-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "AST SpaceMobile", form: "4", date: "2026-08-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "AST SpaceMobile", form: "4", date: "2026-08-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "NuScale Power", form: "4", date: "2026-08-19", description: "xslF345X06/wk-form4_1787169657.xml", isIPO: false, ticker: "SMR" },
-  { company: "Upstart Holdings", form: "4", date: "2026-08-19", description: "xslF345X06/wk-form4_1787178025.xml", isIPO: false, ticker: "UPST" },
-  { company: "Upstart Holdings", form: "4", date: "2026-08-19", description: "xslF345X06/wk-form4_1787177685.xml", isIPO: false, ticker: "UPST" },
 ];

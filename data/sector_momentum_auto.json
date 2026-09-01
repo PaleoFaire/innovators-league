@@ -1,59 +1,59 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 45,
+    "momentum": 44,
     "trend": "steady",
     "catalysts": [
-      "PsiQuantum\u2019s Ice Cream Factory",
-      "This Is How Anthropic Thinks AI Agents Should Navigate the P",
-      "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s"
+      "Skild AI unveils S1 flagship robot foundation model",
+      "How Locus Robotics is getting a grasp on one of robotics big",
+      "PsiQuantum\u2019s Ice Cream Factory"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 40,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-31"
+    "lastUpdated": "2026-09-01"
   },
   {
     "sector": "AI & Software",
-    "momentum": 33,
+    "momentum": 30,
     "trend": "rising",
     "catalysts": [
-      "An Anthropic researcher just gave us a peek at self-improvin",
-      "A Judge Has Blocked the Pentagon\u2019s Attempt to Blacklist Anth",
+      "Apple shares &#8216;shocking evidence&#8217; against former",
+      "The Hugging Face hack could indicate cultural issues at Open",
       "Georgia PSC Approves Secret OpenAI Contract"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 29,
-      "news": 50,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-31"
+    "lastUpdated": "2026-09-01"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 25,
+    "momentum": 27,
     "trend": "declining",
     "catalysts": [
-      "A Judge Has Blocked the Pentagon\u2019s Attempt to Blacklist Anth"
+      "Active defense & security ecosystem"
     ],
     "fundingQ": "$550M",
     "components": {
       "funding": 20,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
-      "market": 85
+      "market": 100
     },
-    "lastUpdated": "2026-08-31"
+    "lastUpdated": "2026-09-01"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 16,
+    "momentum": 25,
     "trend": "declining",
     "catalysts": [
       "SpaceX Is Building the Chips AND the Rockets",
@@ -65,95 +65,145 @@
       "funding": 0,
       "news": 20,
       "hiring": 0,
-      "market": 54
+      "market": 100
     },
-    "lastUpdated": "2026-08-31"
+    "lastUpdated": "2026-09-01"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 16,
+    "momentum": 21,
     "trend": "declining",
     "catalysts": [
-      "PsiQuantum\u2019s Ice Cream Factory",
-      "Georgia PSC Approves Secret OpenAI Contract",
-      "Carbon Robotics partners with iMerit to power instant in-fie"
+      "Photoroom co-founder quits executive role",
+      "Apple shares &#8216;shocking evidence&#8217; against former",
+      "Skild AI unveils S1 flagship robot foundation model"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-31"
+    "lastUpdated": "2026-09-01"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "PJM drops Oklo advanced nuclear project from interconnection",
+      "Does Latent Nuclear Deterrence Really Work?",
+      "Nuclear startup Oklo splits its first atoms in test reactor"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 73
+    },
+    "lastUpdated": "2026-09-01"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 14,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
       "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s",
-      "Bedrock Robotics&#8217; first operator-free excavator deploy",
       "Einride founders launch venture firm, targeting \u20ac450M Europe"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-31"
+    "lastUpdated": "2026-09-01"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "Carbon Robotics partners with iMerit to power instant in-fie",
+      "Sage Geosystems brings its first next-gen geothermal plant o"
+    ],
+    "fundingQ": "$134M",
+    "components": {
+      "funding": 11,
+      "news": 10,
+      "hiring": 0,
+      "market": 27
+    },
+    "lastUpdated": "2026-09-01"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "<a href=\"/biotech/chutes-ladders-vivace-adds-new-ceo-cbo-ahe"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-01"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 12,
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
       "SpaceX Is Building the Chips AND the Rockets",
       "NVIDIA to buy Hugging Face, Einride launches VC firm, and fi",
-      "Elon Projects SpaceX $3.5 Trillion Revenue in 2033"
+      "Einride founders launch venture firm, targeting \u20ac450M Europe"
     ],
     "fundingQ": "$50M",
     "components": {
       "funding": 5,
-      "news": 40,
+      "news": 35,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-08-31"
+    "lastUpdated": "2026-09-01"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 11,
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "Bedrock Robotics&#8217; first operator-free excavator deploy"
+      "Active supersonic & hypersonic ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-31"
+    "lastUpdated": "2026-09-01"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 11,
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "Bedrock Robotics&#8217; first operator-free excavator deploy"
+      "Active housing & construction ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-31"
+    "lastUpdated": "2026-09-01"
   },
   {
     "sector": "Ocean & Maritime",
@@ -169,7 +219,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-31"
+    "lastUpdated": "2026-09-01"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -185,59 +235,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-08-31"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 8,
-    "trend": "declining",
-    "catalysts": [
-      "Does Latent Nuclear Deterrence Really Work?",
-      "Nuclear startup Oklo splits its first atoms in test reactor",
-      "Microreactor startup Valar Atomics raises $1B"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 21
-    },
-    "lastUpdated": "2026-08-31"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 6,
-    "trend": "declining",
-    "catalysts": [
-      "Carbon Robotics partners with iMerit to power instant in-fie",
-      "Sage Geosystems brings its first next-gen geothermal plant o"
-    ],
-    "fundingQ": "$134M",
-    "components": {
-      "funding": 11,
-      "news": 10,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-08-31"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 2,
-    "trend": "declining",
-    "catalysts": [
-      "You can now ride a Chinese EV in the US as Waymo opens Zeekr",
-      "<a href=\"/biotech/chutes-ladders-vivace-adds-new-ceo-cbo-ahe"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-08-31"
+    "lastUpdated": "2026-09-01"
   },
   {
     "sector": "Quantum Computing",
@@ -253,11 +251,11 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-08-31"
+    "lastUpdated": "2026-09-01"
   },
   {
     "sector": "Transportation",
-    "momentum": 0,
+    "momentum": 1,
     "trend": "declining",
     "catalysts": [
       "Active transportation ecosystem"
@@ -267,8 +265,8 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 0
+      "market": 7
     },
-    "lastUpdated": "2026-08-31"
+    "lastUpdated": "2026-09-01"
   }
 ]

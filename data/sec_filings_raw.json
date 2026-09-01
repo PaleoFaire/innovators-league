@@ -992,6 +992,15 @@
   {
     "company": "BlackSky Technology",
     "ticker": "BKSY",
+    "form": "4",
+    "date": "2026-08-31",
+    "description": "xslF345X06/wk-form4_1788213568.xml",
+    "accessionNumber": "0001349983-26-000005",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
     "form": "8-K",
     "date": "2026-08-13",
     "description": "bksy-20260807.htm",
@@ -1230,15 +1239,6 @@
     "date": "2026-01-02",
     "description": "xslF345X05/wk-form4_1767377364.xml",
     "accessionNumber": "0001400956-26-000003",
-    "isIPO": false
-  },
-  {
-    "company": "BlackSky Technology",
-    "ticker": "BKSY",
-    "form": "4",
-    "date": "2026-01-02",
-    "description": "xslF345X05/wk-form4_1767377312.xml",
-    "accessionNumber": "0001217124-26-000003",
     "isIPO": false
   },
   {
@@ -8867,6 +8867,15 @@
   {
     "company": "Astera Labs",
     "ticker": "ALAB",
+    "form": "4",
+    "date": "2026-08-31",
+    "description": "xslF345X06/wk-form4_1788217911.xml",
+    "accessionNumber": "0001628280-26-059667",
+    "isIPO": false
+  },
+  {
+    "company": "Astera Labs",
+    "ticker": "ALAB",
     "form": "10-Q",
     "date": "2026-08-06",
     "description": "tra-20260630.htm",
@@ -9216,12 +9225,12 @@
     "isIPO": false
   },
   {
-    "company": "Astera Labs",
-    "ticker": "ALAB",
-    "form": "4",
-    "date": "2025-06-04",
-    "description": "xslF345X05/wk-form4_1749080064.xml",
-    "accessionNumber": "0001857853-25-000082",
+    "company": "Satellogic",
+    "ticker": "SATL",
+    "form": "8-K",
+    "date": "2026-08-31",
+    "description": "ea0304018-8k_zoomcar.htm",
+    "accessionNumber": "0001213900-26-095700",
     "isIPO": false
   },
   {
@@ -9447,24 +9456,6 @@
     "date": "2025-12-16",
     "description": "ea0269955-8k_zoomcar.htm",
     "accessionNumber": "0001213900-25-122278",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "10-Q",
-    "date": "2025-11-14",
-    "description": "ea0263586-10q_zoomcar.htm",
-    "accessionNumber": "0001213900-25-110391",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "8-K",
-    "date": "2025-11-07",
-    "description": "ea0264553-8k_zoomcar.htm",
-    "accessionNumber": "0001213900-25-107644",
     "isIPO": false
   }
 ]

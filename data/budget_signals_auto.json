@@ -7,10 +7,10 @@
     "changeNum": 15,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 5,
+    "activityIndex": 8,
     "billsTracked": 2,
-    "rulesTracked": 3,
-    "description": "2 bill(s) + 3 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 5 \u2014 +15% relative trend.",
+    "rulesTracked": 6,
+    "description": "2 bill(s) + 6 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 8 \u2014 +15% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -44,7 +44,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-08-31"
+    "lastUpdated": "2026-09-01"
   },
   {
     "category": "Quantum Computing",
@@ -67,7 +67,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-08-31"
+    "lastUpdated": "2026-09-01"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -90,7 +90,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-08-31"
+    "lastUpdated": "2026-09-01"
   },
   {
     "category": "Space & Aerospace",
@@ -113,6 +113,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-08-31"
+    "lastUpdated": "2026-09-01"
   }
 ]
