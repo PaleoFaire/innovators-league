@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-31T21:51:53.953297+00:00",
-  "date": "2026-08-31",
-  "dateDisplay": "Monday, August 31, 2026",
+  "generatedAt": "2026-09-01T01:11:46.475295+00:00",
+  "date": "2026-09-01",
+  "dateDisplay": "Tuesday, September 01, 2026",
   "sections": {
     "govActivity": [
       {
@@ -45,58 +45,58 @@
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 0.65,
-        "changePercent": -17.71,
-        "change": -0.14
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 4.82,
-        "changePercent": -8.71,
-        "change": -0.46
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 15.26,
-        "changePercent": -8.43,
-        "change": -1.4
+        "price": 0.68,
+        "changePercent": -13.72,
+        "change": -0.11
       },
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 19.78,
-        "changePercent": -8.3,
-        "change": -1.79
+        "price": 19.85,
+        "changePercent": -7.97,
+        "change": -1.72
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 17.16,
-        "changePercent": -8.14,
-        "change": -1.52
+        "price": 17.2,
+        "changePercent": -7.92,
+        "change": -1.48
       },
       {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 57.33,
-        "changePercent": -8.05,
-        "change": -5.02
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 15.36,
+        "changePercent": -7.8,
+        "change": -1.3
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 4.87,
+        "changePercent": -7.77,
+        "change": -0.41
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 296.98,
+        "changePercent": 7.01,
+        "change": 19.45
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 63.05,
-        "changePercent": -7.65,
-        "change": -5.23
+        "price": 63.92,
+        "changePercent": -6.39,
+        "change": -4.36
       },
       {
         "ticker": "PLTR",
         "company": "Palantir",
-        "price": 186.14,
-        "changePercent": 5.83,
-        "change": 10.25
+        "price": 186.38,
+        "changePercent": 5.96,
+        "change": 10.49
       }
     ],
     "regulatory": [
@@ -187,6 +187,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "EVTL -17.7%"
+    "topMover": "EVTL -13.7%"
   }
 }
