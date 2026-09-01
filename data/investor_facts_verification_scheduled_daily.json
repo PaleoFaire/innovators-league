@@ -1,17 +1,110 @@
 {
-  "generatedAt": "2026-08-25T05:39:01+00:00",
+  "generatedAt": "2026-09-01T09:54:40+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 1,
   "newExtractionsThisRun": 1,
   "summary": {
-    "cleared": 1,
-    "changesProposed": 0,
+    "cleared": 0,
+    "changesProposed": 1,
     "unverifiable": 0
   },
-  "cleared": [
-    "Engine Ventures"
+  "cleared": [],
+  "changesProposed": [
+    {
+      "name": "Y Combinator",
+      "current": {
+        "name": "Y Combinator",
+        "shortName": "YC",
+        "aum": "Standard deal $500K/startup ($125K for 7% + $375K MFN SAFE)",
+        "flagshipFund": "Batch accelerator program",
+        "founded": 2005,
+        "hq": "San Francisco, California",
+        "website": "https://www.ycombinator.com"
+      },
+      "verified": {
+        "name": "Y Combinator",
+        "short_name": "YC",
+        "aum": null,
+        "flagship_fund": "Batch accelerator program",
+        "founded_year": 2005,
+        "hq": "San Francisco, California",
+        "key_partners": [
+          "Garry Tan",
+          "Jared Friedman",
+          "Harj Taggar",
+          "Aaron Epstein",
+          "Diana Hu",
+          "Gustaf Alstr\u00f6mer",
+          "Nicolas Dessaigne"
+        ],
+        "sector_focus": null,
+        "thesis": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support to help startups improve their product, gain users, and prepare for fundraising.",
+        "website": "https://www.ycombinator.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            2
+          ],
+          "short_name": [
+            2
+          ],
+          "flagship_fund": [
+            0,
+            1
+          ],
+          "founded_year": [
+            2
+          ],
+          "hq": [
+            0,
+            2
+          ],
+          "key_partners": [
+            0
+          ],
+          "thesis": [
+            0,
+            1
+          ]
+        },
+        "notes": "Garry Tan became President and CEO in January 2023. Headquarters moved from Mountain View to San Francisco in spring 2023. Program structure changed to four annual batches with standardized $500K investment as of January 2022."
+      },
+      "changes": [
+        {
+          "field": "thesis",
+          "current": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support to help startups achieve product-market fit and better shape for fundraising.",
+          "verified": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support to help startups improve their product, gain users, and prepare for fundraising.",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "firm_website",
+          "url": "https://www.ycombinator.com"
+        },
+        {
+          "idx": 1,
+          "src": "firm/about",
+          "url": "https://www.ycombinator.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Y_Combinator"
+        },
+        {
+          "idx": 3,
+          "src": "news (Utility Dive)",
+          "url": "https://www.utilitydive.com/news/pjm-oklo-advanced-nuclear-ferc-interconnection/829150/"
+        }
+      ],
+      "notes": "Garry Tan became President and CEO in January 2023. Headquarters moved from Mountain View to San Francisco in spring 2023. Program structure changed to four annual batches with standardized $500K investment as of January 2022."
+    }
   ],
-  "changesProposed": [],
   "unverifiable": []
 }
