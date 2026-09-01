@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 5.69,
+      "avg_change": 4.16,
       "count": 1
     },
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -6.94,
+      "avg_change": -7.27,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -7.89,
+      "avg_change": -8.34,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.61,
+      "avg_change": -9.43,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.41,
+      "avg_change": -4.0,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.08,
+      "avg_change": -12.06,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.41,
+      "avg_change": -6.63,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -2.56,
+      "avg_change": -2.77,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.35,
+      "avg_change": -1.0,
       "count": 3
     }
   },
@@ -61,22 +61,22 @@
     [
       "PLTR",
       "Palantir",
-      5.69
+      4.16
     ],
     [
       "NVDA",
       "NVIDIA",
-      2.42
-    ],
-    [
-      "TSLA",
-      "Tesla",
-      1.89
+      2.06
     ],
     [
       "ASRHF",
       "Astroscale",
       1.74
+    ],
+    [
+      "TSLA",
+      "Tesla",
+      1.67
     ],
     [
       "9348.T",
@@ -93,23 +93,23 @@
     [
       "OKLO",
       "Oklo",
-      -13.1
+      -12.97
     ],
     [
       "SATL",
       "Satellogic",
-      -13.35
+      -14.1
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      -14.37
+      -14.52
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -20.19
+      -22.37
     ]
   ],
-  "lastUpdated": "2026-09-01 17:22:09"
+  "lastUpdated": "2026-09-01 21:50:34"
 }
