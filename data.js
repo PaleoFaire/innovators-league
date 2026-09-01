@@ -52707,23 +52707,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-01 17:46
+// Last updated: 2026-09-01 20:56
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Waymo", headline: "Waymo goes on offense ahead of Tesla's Cybercab launch", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Waymo", headline: "Waymo opens robotaxi rides to the public in 3 new cities, now 14 total", source: "Electrek", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Waymo", headline: "Waymo accelerates robotaxi expansion with launches in Denver, San Diego, and Tampa", source: "TechCrunch", time: "3h ago", impact: "medium", unread: true },
-  { id: 4, type: "funding", company: "Scale AI", headline: "Italian obesity digital clinic Holifya raises '2M to scale AI-supported GLP-1 care", source: "Tech.eu", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Anthropic", headline: "Cambridge University spinout launches AI model &quot;competitive&quot; with OpenAI and Anthropic", source: "Tech.eu", time: "6h ago", impact: "medium", unread: true },
-  { id: 6, type: "hire", company: "Photoroom", headline: "Photoroom co-founder quits executive role", source: "Tech.eu", time: "9h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "Apple shares 'shocking evidence' against former employee accused of stealing company data for OpenAI", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Skild AI", headline: "Skild AI unveils S1 flagship robot foundation model", source: "The Robot Report", time: "20h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "OpenAI", headline: "The Hugging Face hack could indicate cultural issues at OpenAI", source: "MIT Tech Review", time: "23h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Oklo", headline: "PJM drops Oklo advanced nuclear project from interconnection study cycle", source: "Utility Dive", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Einride", headline: "NVIDIA to buy Hugging Face, Einride launches VC firm, and fixing COPD diagnosis", source: "Tech.eu", time: "4d ago", impact: "medium", unread: false },
-  { id: 12, type: "news", company: "Locus Robotics", headline: "How Locus Robotics is getting a grasp on one of robotics biggest challenges: manipulation", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
-  { id: 13, type: "hire", company: "PsiQuantum", headline: "PsiQuantum's Ice Cream Factory", source: "Inside Quantum Technology", time: "4d ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "OpenAI", headline: "Georgia PSC Approves Secret OpenAI Contract", source: "CleanTechnica", time: "4d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Waymo", headline: "Waymo takes a shot at Tesla's self-driving: it's a 'false summit'", source: "Electrek", time: "5d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI Is About to Release Its First AI Model With 'Critical' Cyber Abilities", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Waymo", headline: "Waymo goes on offense ahead of Tesla's Cybercab launch", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Waymo", headline: "Waymo opens robotaxi rides to the public in 3 new cities, now 14 total", source: "Electrek", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Waymo", headline: "Waymo accelerates robotaxi expansion with launches in Denver, San Diego, and Tampa", source: "TechCrunch", time: "6h ago", impact: "medium", unread: true },
+  { id: 6, type: "funding", company: "Scale AI", headline: "Italian obesity digital clinic Holifya raises '2M to scale AI-supported GLP-1 care", source: "Tech.eu", time: "7h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Anthropic", headline: "Cambridge University spinout launches AI model &quot;competitive&quot; with OpenAI and Anthropic", source: "Tech.eu", time: "9h ago", impact: "medium", unread: false },
+  { id: 8, type: "hire", company: "Photoroom", headline: "Photoroom co-founder quits executive role", source: "Tech.eu", time: "12h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Skild AI", headline: "Skild AI unveils S1 flagship robot foundation model", source: "The Robot Report", time: "23h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "OpenAI", headline: "The Hugging Face hack could indicate cultural issues at OpenAI", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Oklo", headline: "PJM drops Oklo advanced nuclear project from interconnection study cycle", source: "Utility Dive", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX Is Building the Chips AND the Rockets", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Einride", headline: "NVIDIA to buy Hugging Face, Einride launches VC firm, and fixing COPD diagnosis", source: "Tech.eu", time: "4d ago", impact: "medium", unread: false },
+  { id: 14, type: "hire", company: "PsiQuantum", headline: "PsiQuantum's Ice Cream Factory", source: "Inside Quantum Technology", time: "4d ago", impact: "low", unread: false },
+  { id: 15, type: "contract", company: "OpenAI", headline: "Georgia PSC Approves Secret OpenAI Contract", source: "CleanTechnica", time: "4d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
