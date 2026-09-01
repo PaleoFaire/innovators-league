@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-08-31 15:07:15 UTC",
+    "generated_at": "2026-09-01 12:31:15 UTC",
     "total_targets": 116,
-    "with_excerpts": 95,
+    "with_excerpts": 98,
     "sources": [
       "none",
       "sec_edgar",
@@ -61,7 +61,7 @@
     {
       "ticker": "GD",
       "company": "General Dynamics",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-29",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -72,34 +72,30 @@
     {
       "ticker": "LHX",
       "company": "L3Harris Technologies",
-      "quarter": "2026-Q2",
-      "date": "2026-07-30",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/202058/000020205826000058/0000202058-26-000058-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.l3harris.com/",
+      "source": "none"
     },
     {
       "ticker": "LDOS",
       "company": "Leidos",
-      "quarter": "2026-Q2",
-      "date": "2026-08-04",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000246/0001336920-26-000246-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.leidos.com/",
+      "source": "none"
     },
     {
       "ticker": "SAIC",
       "company": "Science Applications",
-      "quarter": "2026-Q2",
-      "date": "2026-06-01",
+      "quarter": "2026-Q3",
+      "date": "2026-08-31",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1571123/000157112326000079/0001571123-26-000079-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1571123/000157112326000133/0001571123-26-000133-index.htm",
       "source": "sec_edgar"
     },
     {
@@ -130,7 +126,7 @@
     {
       "ticker": "AMAT",
       "company": "Applied Materials",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-20",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -141,7 +137,7 @@
     {
       "ticker": "KLAC",
       "company": "KLA",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-04-29",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -152,7 +148,7 @@
     {
       "ticker": "INTC",
       "company": "Intel",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-23",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -163,7 +159,7 @@
     {
       "ticker": "VST",
       "company": "Vistra",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-07",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -185,7 +181,7 @@
     {
       "ticker": "EXC",
       "company": "Exelon",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-30",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -205,7 +201,7 @@
     {
       "ticker": "LEU",
       "company": "Centrus Energy",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-06",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -216,7 +212,7 @@
     {
       "ticker": "F",
       "company": "Ford",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-28",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -227,7 +223,7 @@
     {
       "ticker": "GM",
       "company": "General Motors",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-21",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -275,7 +271,7 @@
     {
       "ticker": "MSFT",
       "company": "Microsoft",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-04-29",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -286,7 +282,7 @@
     {
       "ticker": "AMZN",
       "company": "Amazon",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-30",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -297,7 +293,7 @@
     {
       "ticker": "GOOGL",
       "company": "Alphabet",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-22",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -308,7 +304,7 @@
     {
       "ticker": "HII",
       "company": "Huntington Ingalls",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-30",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -319,7 +315,7 @@
     {
       "ticker": "TXT",
       "company": "Textron",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-28",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -330,7 +326,7 @@
     {
       "ticker": "TDG",
       "company": "TransDigm",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-04",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -341,7 +337,7 @@
     {
       "ticker": "HEI",
       "company": "Heico",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-27",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -352,7 +348,7 @@
     {
       "ticker": "TDY",
       "company": "Teledyne Technologies",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-24",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -363,7 +359,7 @@
     {
       "ticker": "AXON",
       "company": "Axon Enterprise",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-05",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -374,7 +370,7 @@
     {
       "ticker": "KTOS",
       "company": "Kratos Defense",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-04",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -385,7 +381,7 @@
     {
       "ticker": "AVAV",
       "company": "AeroVironment",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-06-22",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -396,7 +392,7 @@
     {
       "ticker": "MRCY",
       "company": "Mercury Systems",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-05-05",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -407,7 +403,7 @@
     {
       "ticker": "CW",
       "company": "Curtiss-Wright",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-06",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -418,7 +414,7 @@
     {
       "ticker": "MOG-A",
       "company": "Moog",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-31",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -429,18 +425,16 @@
     {
       "ticker": "HWM",
       "company": "Howmet Aerospace",
-      "quarter": "2026-Q2",
-      "date": "2026-08-06",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/4281/000000428126000025/0000004281-26-000025-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.howmet.com/investors",
+      "source": "none"
     },
     {
       "ticker": "VSAT",
       "company": "Viasat",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-06",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -451,7 +445,7 @@
     {
       "ticker": "PSN",
       "company": "Parsons Corp",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-29",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -462,16 +456,18 @@
     {
       "ticker": "CRWD",
       "company": "CrowdStrike",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://ir.crowdstrike.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-26",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000031/0001535527-26-000031-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "PANW",
       "company": "Palo Alto Networks",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-06-02",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -482,7 +478,7 @@
     {
       "ticker": "MU",
       "company": "Micron Technology",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-06-24",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -493,7 +489,7 @@
     {
       "ticker": "QCOM",
       "company": "Qualcomm",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-29",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -504,7 +500,7 @@
     {
       "ticker": "AVGO",
       "company": "Broadcom",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-06-09",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -515,7 +511,7 @@
     {
       "ticker": "MRVL",
       "company": "Marvell Technology",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-28",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -526,7 +522,7 @@
     {
       "ticker": "LRCX",
       "company": "Lam Research",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-04-23",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -537,7 +533,7 @@
     {
       "ticker": "TER",
       "company": "Teradyne",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-31",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -548,7 +544,7 @@
     {
       "ticker": "ENTG",
       "company": "Entegris",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-04",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -559,7 +555,7 @@
     {
       "ticker": "ON",
       "company": "ON Semiconductor",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-03",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -570,7 +566,7 @@
     {
       "ticker": "TXN",
       "company": "Texas Instruments",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-24",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -581,7 +577,7 @@
     {
       "ticker": "SNPS",
       "company": "Synopsys",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-26",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -601,18 +597,16 @@
     {
       "ticker": "WOLF",
       "company": "Wolfspeed",
-      "quarter": "2026-Q2",
-      "date": "2026-05-07",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/895419/000089541926000030/0000895419-26-000030-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investor.wolfspeed.com/",
+      "source": "none"
     },
     {
       "ticker": "MCHP",
       "company": "Microchip Technology",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-06",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -623,16 +617,18 @@
     {
       "ticker": "ADI",
       "company": "Analog Devices",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investor.analog.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-19",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000073/0000006281-26-000073-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "ORCL",
       "company": "Oracle",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-03-11",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -643,7 +639,7 @@
     {
       "ticker": "NET",
       "company": "Cloudflare",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-06",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -654,18 +650,16 @@
     {
       "ticker": "EQIX",
       "company": "Equinix",
-      "quarter": "2026-Q2",
-      "date": "2026-07-29",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000147/0001101239-26-000147-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investor.equinix.com/",
+      "source": "none"
     },
     {
       "ticker": "DLR",
       "company": "Digital Realty",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-31",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -676,16 +670,18 @@
     {
       "ticker": "SNOW",
       "company": "Snowflake",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.snowflake.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-05-29",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000030/0001640147-26-000030-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "DDOG",
       "company": "Datadog",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-06",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -705,7 +701,7 @@
     {
       "ticker": "MDB",
       "company": "MongoDB",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-05-29",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -716,16 +712,18 @@
     {
       "ticker": "ROK",
       "company": "Rockwell Automation",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://www.rockwellautomation.com/en-us/company/investor-relations.html",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000030/0001024478-26-000030-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "EMR",
       "company": "Emerson Electric",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-04",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -736,7 +734,7 @@
     {
       "ticker": "ETN",
       "company": "Eaton",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-31",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -747,7 +745,7 @@
     {
       "ticker": "PH",
       "company": "Parker Hannifin",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-05-01",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -758,7 +756,7 @@
     {
       "ticker": "HON",
       "company": "Honeywell",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-23",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -769,7 +767,7 @@
     {
       "ticker": "ZBRA",
       "company": "Zebra Technologies",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-04",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -780,7 +778,7 @@
     {
       "ticker": "IONQ",
       "company": "IonQ",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-10",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -791,29 +789,27 @@
     {
       "ticker": "QBTS",
       "company": "D-Wave Quantum",
-      "quarter": "2026-Q2",
-      "date": "2026-05-12",
+      "quarter": "2026-Q3",
+      "date": "2026-08-06",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000059/0001907982-26-000059-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000129/0001907982-26-000129-index.htm",
       "source": "sec_edgar"
     },
     {
       "ticker": "RGTI",
       "company": "Rigetti Computing",
-      "quarter": "2026-Q2",
-      "date": "2026-08-06",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926091993/0001104659-26-091993-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.rigetti.com/",
+      "source": "none"
     },
     {
       "ticker": "DDD",
       "company": "3D Systems",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-03",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -824,7 +820,7 @@
     {
       "ticker": "VLD",
       "company": "Velo3D",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-11",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -835,7 +831,7 @@
     {
       "ticker": "DM",
       "company": "Desktop Metal",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2024-10-31",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -846,7 +842,7 @@
     {
       "ticker": "RIVN",
       "company": "Rivian Automotive",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-30",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -857,7 +853,7 @@
     {
       "ticker": "AUR",
       "company": "Aurora Innovation",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-29",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -877,7 +873,7 @@
     {
       "ticker": "RKLB",
       "company": "Rocket Lab",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-10",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -888,16 +884,18 @@
     {
       "ticker": "ACHR",
       "company": "Archer Aviation",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.archer.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-10",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000059/0001824502-26-000059-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "JOBY",
       "company": "Joby Aviation",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-05",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -908,16 +906,18 @@
     {
       "ticker": "PL",
       "company": "Planet Labs",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.planet.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-06-05",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526258304/0001193125-26-258304-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "IRDM",
       "company": "Iridium Communications",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-22",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -928,12 +928,12 @@
     {
       "ticker": "ASTS",
       "company": "AST SpaceMobile",
-      "quarter": "2026-Q2",
-      "date": "2026-08-10",
+      "quarter": "2026-Q3",
+      "date": "2026-05-11",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526342550/0001193125-26-342550-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526216950/0001193125-26-216950-index.htm",
       "source": "sec_edgar"
     },
     {
@@ -948,7 +948,7 @@
     {
       "ticker": "SPIR",
       "company": "Spire Global",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-13",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -959,7 +959,7 @@
     {
       "ticker": "RDW",
       "company": "Redwire",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-06",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -970,7 +970,7 @@
     {
       "ticker": "SATL",
       "company": "Satellogic",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-06",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -990,7 +990,7 @@
     {
       "ticker": "SMR",
       "company": "NuScale Power",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-05",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -1010,7 +1010,7 @@
     {
       "ticker": "BWXT",
       "company": "BWX Technologies",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-04",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -1021,11 +1021,13 @@
     {
       "ticker": "NEE",
       "company": "NextEra Energy",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://www.investor.nexteraenergy.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-07-24",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/753308/000075330826000060/0000753308-26-000060-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "TLN",
@@ -1039,16 +1041,18 @@
     {
       "ticker": "QS",
       "company": "QuantumScape",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://ir.quantumscape.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-07-24",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1811414/000119312526316073/0001193125-26-316073-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "MP",
       "company": "MP Materials",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-06",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -1068,18 +1072,16 @@
     {
       "ticker": "ALB",
       "company": "Albemarle",
-      "quarter": "2026-Q2",
-      "date": "2026-08-05",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000102/0000915913-26-000102-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.albemarle.com/",
+      "source": "none"
     },
     {
       "ticker": "ENVX",
       "company": "Enovix",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-12",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -1090,7 +1092,7 @@
     {
       "ticker": "BE",
       "company": "Bloom Energy",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-29",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -1101,7 +1103,7 @@
     {
       "ticker": "PWR",
       "company": "Quanta Services",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-30",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -1121,7 +1123,7 @@
     {
       "ticker": "GE",
       "company": "GE Aerospace",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-16",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -1132,7 +1134,7 @@
     {
       "ticker": "GNRC",
       "company": "Generac",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-04",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -1143,7 +1145,7 @@
     {
       "ticker": "MTZ",
       "company": "MasTec",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-30",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -1154,7 +1156,7 @@
     {
       "ticker": "ISRG",
       "company": "Intuitive Surgical",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-21",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -1165,7 +1167,7 @@
     {
       "ticker": "ILMN",
       "company": "Illumina",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-07-31",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -1176,7 +1178,7 @@
     {
       "ticker": "TXG",
       "company": "10x Genomics",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-06",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -1187,16 +1189,18 @@
     {
       "ticker": "TWST",
       "company": "Twist Bioscience",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.twistbioscience.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-03",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1581280/000158128026000047/0001581280-26-000047-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "DNA",
       "company": "Ginkgo Bioworks",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-06",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -1207,7 +1211,7 @@
     {
       "ticker": "RXRX",
       "company": "Recursion Pharma",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-05",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -1227,7 +1231,7 @@
     {
       "ticker": "NTLA",
       "company": "Intellia Therapeutics",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-06",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
@@ -1238,16 +1242,18 @@
     {
       "ticker": "BEAM",
       "company": "Beam Therapeutics",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.beamtx.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1745999/000119312526331541/0001193125-26-331541-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "CRSP",
       "company": "CRISPR Therapeutics",
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "date": "2026-08-03",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."

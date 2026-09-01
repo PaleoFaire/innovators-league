@@ -1,26 +1,27 @@
 {
   "_meta": {
-    "generated_at": "2026-08-31 15:09:43 UTC",
-    "total_signals": 25,
+    "generated_at": "2026-09-01 12:33:48 UTC",
+    "total_signals": 24,
     "by_vertical": {
       "space": 3,
-      "defense": 5,
-      "ai_compute": 7,
+      "defense": 4,
       "autonomy": 5,
+      "ai_compute": 7,
       "humanoid": 2,
       "quantum": 2,
       "hypersonics": 1
     },
     "by_signal_type": {
-      "forward_guidance": 10,
-      "rd_investment": 8,
+      "rd_investment": 6,
+      "forward_guidance": 11,
       "capital_shift": 3,
       "partnership": 3,
       "supply_chain": 1
     },
     "by_significance": {
-      "high": 20,
-      "medium": 5
+      "high": 17,
+      "medium": 6,
+      "low": 1
     },
     "source": "llm_extraction"
   },
@@ -30,14 +31,14 @@
       "ticker": "LMT",
       "quarter": "2025-Q4",
       "date": "2026-01-29",
-      "signal_type": "forward_guidance",
+      "signal_type": "rd_investment",
       "target_vertical": "space",
       "frontier_companies_mentioned": [],
       "quote": "We're building an operable space-based interceptor that we wanna fly in space by 2028.",
       "implications": [
-        "Space-based missile defense capability delivery by 2028",
-        "Expansion of space defense infrastructure",
-        "Strategic positioning in orbital defense systems"
+        "Active development of space-based defense systems",
+        "Near-term deployment timeline (2028)",
+        "Expansion of orbital defense capabilities"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -53,9 +54,9 @@
       "frontier_companies_mentioned": [],
       "quote": "We successfully used the shipboard laser system, Lockheed Martin's Helios, to knock an incoming UAV right out of the sky.",
       "implications": [
-        "Operational validation of directed energy weapons",
-        "Advanced defense against drone threats",
-        "Transition from development to demonstrated capability"
+        "Successful directed energy weapons demonstration",
+        "Operational laser defense capability achieved",
+        "Anti-UAV defense systems proven"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -66,52 +67,18 @@
       "ticker": "LMT",
       "quarter": "2025-Q4",
       "date": "2026-01-29",
-      "signal_type": "rd_investment",
+      "signal_type": "forward_guidance",
       "target_vertical": "defense",
       "frontier_companies_mentioned": [],
       "quote": "Capital and IRAD investment is expected to approach $5 billion in 2026.",
       "implications": [
-        "Significant internal R&D funding commitment",
-        "Sustained innovation investment across defense technologies",
-        "Long-term technology development prioritization"
+        "Significant R&D capital allocation for 2026",
+        "Sustained investment in internal research and development",
+        "Strong commitment to technology advancement"
       ],
       "significance": "high",
       "sentiment": "bullish",
       "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/29/lockheed-martin-lmt-q4-2025-earnings-transcript/"
-    },
-    {
-      "incumbent": "RTX",
-      "ticker": "RTX",
-      "quarter": "2025-Q4",
-      "date": "2026-01-27",
-      "signal_type": "rd_investment",
-      "target_vertical": "ai_compute",
-      "frontier_companies_mentioned": [],
-      "quote": "We've deployed our proprietary data analytics and AI tools across our factories.",
-      "implications": [
-        "RTX investing in AI tooling for manufacturing operations",
-        "Focus on operational efficiency through AI deployment"
-      ],
-      "significance": "medium",
-      "sentiment": "bullish",
-      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/rtx-rtx-q4-2025-earnings-call-transcript/"
-    },
-    {
-      "incumbent": "RTX",
-      "ticker": "RTX",
-      "quarter": "2025-Q4",
-      "date": "2026-01-27",
-      "signal_type": "forward_guidance",
-      "target_vertical": "defense",
-      "frontier_companies_mentioned": [],
-      "quote": "Other key awards in the quarter included over $900 million of classified bookings.",
-      "implications": [
-        "Significant classified defense contract wins",
-        "Potential advanced technology programs in portfolio"
-      ],
-      "significance": "high",
-      "sentiment": "bullish",
-      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/rtx-rtx-q4-2025-earnings-call-transcript/"
     },
     {
       "incumbent": "Northrop Grumman",
@@ -123,9 +90,9 @@
       "frontier_companies_mentioned": [],
       "quote": "Since 2021, we have successfully doubled our production capacity for tactical solid rocket motors at our ABL facility in West Virginia and are now advancing efforts to further increase that capacity by another 50%.",
       "implications": [
-        "Significant expansion in tactical rocket motor production capacity",
-        "Continued investment in defense manufacturing infrastructure",
-        "Anticipating increased demand for tactical solid rocket motors"
+        "Significant capacity expansion in tactical rocket motors production",
+        "Continued capital allocation to defense manufacturing infrastructure",
+        "150% total capacity increase from 2021 baseline planned"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -141,9 +108,9 @@
       "frontier_companies_mentioned": [],
       "quote": "Space security or capabilities to protect space assets represent a tremendous growth opportunity for our company given our proven technology and experience in this domain.",
       "implications": [
-        "Space security identified as key growth vertical",
-        "Leveraging existing technology and domain expertise",
-        "Positioning for increased space defense spending"
+        "Space security identified as key growth area",
+        "Leveraging existing technology and domain experience",
+        "Positioning for space asset protection market expansion"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -159,16 +126,16 @@
       "frontier_companies_mentioned": [],
       "quote": "The US Navy's MQ-25 successfully completed its inaugural engine run, moving it closer to first flight.",
       "implications": [
-        "Boeing progressing on autonomous aerial refueling platform for Navy",
-        "MQ-25 program milestone indicates near-term flight testing phase",
-        "Defense autonomy capabilities advancing toward operational deployment"
+        "MQ-25 autonomous refueling drone program progressing toward operational capability",
+        "Potential revenue milestone approaching with first flight",
+        "Defense autonomy portfolio advancement"
       ],
-      "significance": "high",
+      "significance": "medium",
       "sentiment": "bullish",
       "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/boeing-ba-q4-2025-earnings-call-transcript/"
     },
     {
-      "incumbent": "NVIDIA",
+      "incumbent": "NVIDIA Corporation",
       "ticker": "NVDA",
       "quarter": "2026-Q4",
       "date": "2026-02-25",
@@ -177,27 +144,27 @@
       "frontier_companies_mentioned": [],
       "quote": "Physical AI is here, having already contributed north of $6,000,000,000 in NVIDIA Corporation revenue in fiscal year 2026.",
       "implications": [
-        "Physical AI (autonomy/robotics) represents significant revenue stream at $6B+ annually",
-        "NVIDIA has established market position in physical AI compute infrastructure",
-        "Physical AI workloads are scaling commercially beyond pilot phase"
+        "Physical AI (robotics/autonomy) reached $6B+ revenue for NVIDIA in FY2026",
+        "Significant commercial traction in robotics and autonomous systems",
+        "Physical AI emerging as major revenue stream beyond datacenter AI"
       ],
       "significance": "high",
       "sentiment": "bullish",
       "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/25/nvidia-nvda-q4-2026-earnings-call-transcript/"
     },
     {
-      "incumbent": "NVIDIA",
+      "incumbent": "NVIDIA Corporation",
       "ticker": "NVDA",
       "quarter": "2026-Q4",
       "date": "2026-02-25",
-      "signal_type": "rd_investment",
+      "signal_type": "forward_guidance",
       "target_vertical": "ai_compute",
       "frontier_companies_mentioned": [],
       "quote": "Rubin will deliver improved resiliency and serviceability relative to Blackwell.",
       "implications": [
-        "Next-generation Rubin platform under development with enhanced reliability features",
-        "NVIDIA investing in post-Blackwell architecture improvements",
-        "Focus on operational efficiency and uptime for AI infrastructure"
+        "Next-generation Rubin platform announced as Blackwell successor",
+        "Focus on reliability improvements for AI infrastructure",
+        "Continued roadmap execution in AI accelerator chips"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -215,9 +182,9 @@
       ],
       "quote": "In addition to our multi-generation partnership with OpenAI to deploy six gigawatts of Instinct GPUs, we are in active discussions with other customers on at-scale multi-year deployments.",
       "implications": [
-        "Major long-term GPU deployment commitment with OpenAI",
-        "AMD expanding footprint in AI inference/training infrastructure",
-        "Multi-gigawatt scale deployments becoming standard for frontier AI"
+        "Major long-term AI infrastructure commitment with OpenAI",
+        "Six gigawatt GPU deployment represents massive scale",
+        "Active pipeline for additional multi-year hyperscale deployments"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -233,8 +200,8 @@
       "frontier_companies_mentioned": [],
       "quote": "With the MI350 series, we are entering the next phase of Instinct adoption.",
       "implications": [
-        "Next-generation Instinct GPUs expected to drive broader adoption",
-        "Product roadmap advancing to compete in AI accelerator market"
+        "New MI350 product generation signals continued AI GPU roadmap execution",
+        "Anticipating expanded Instinct market penetration"
       ],
       "significance": "medium",
       "sentiment": "bullish",
@@ -252,9 +219,9 @@
       ],
       "quote": "Constellation's subsidiary Calpine LLC signed a new 380-megawatt agreement with Dallas-based CyrusOne to connect and serve a new data center adjacent to the Freestone Energy Center in Freestone County, Texas.",
       "implications": [
-        "Constellation expanding energy supply partnerships with data center operators",
-        "380-megawatt capacity dedicated to data center infrastructure",
-        "Co-location strategy pairing nuclear/energy assets with compute facilities"
+        "Constellation expanding power supply agreements for data center infrastructure",
+        "380-megawatt capacity deployment for AI/compute workloads",
+        "Strategic positioning adjacent to existing energy infrastructure"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -270,9 +237,9 @@
       "frontier_companies_mentioned": [],
       "quote": "We are going to take the Model S and X production space in our Fremont factory and convert that into an Optimus factory with a long-term goal of having a million units a year of Optimus robots.",
       "implications": [
-        "Major capital reallocation from legacy automotive to humanoid robotics",
-        "Signals Tesla's strategic pivot toward robotics as core growth driver",
-        "Displaces existing vehicle production capacity for robotics manufacturing"
+        "Tesla reallocating manufacturing capacity from legacy vehicle lines to humanoid robotics",
+        "Signals commitment to scale humanoid production to 1M units annually",
+        "Represents major strategic pivot in capital allocation toward robotics"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -288,8 +255,8 @@
       "frontier_companies_mentioned": [],
       "quote": "We expect to start production in April.",
       "implications": [
-        "Near-term production timeline for Optimus humanoid robots",
-        "Accelerated commercialization of humanoid robotics within months"
+        "Optimus humanoid robot production timeline set for Q2 2026",
+        "Near-term commercialization of humanoid robotics platform"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -303,29 +270,11 @@
       "signal_type": "rd_investment",
       "target_vertical": "autonomy",
       "frontier_companies_mentioned": [],
-      "quote": "We completed a live-fire exercise with Maven coordinating with UAV assets through our new Maven Edge agent called MAGE.",
-      "implications": [
-        "Palantir advancing autonomous coordination capabilities for UAVs",
-        "Maven Edge agent (MAGE) operational in live-fire scenarios",
-        "Integration of AI with autonomous military assets"
-      ],
-      "significance": "high",
-      "sentiment": "bullish",
-      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/02/palantir-pltr-q4-2025-earnings-call-transcript/"
-    },
-    {
-      "incumbent": "Palantir Technologies",
-      "ticker": "PLTR",
-      "quarter": "2025-Q4",
-      "date": "2026-02-02",
-      "signal_type": "rd_investment",
-      "target_vertical": "defense",
-      "frontier_companies_mentioned": [],
       "quote": "Maven is also pushing to the edge. We completed a live-fire exercise with Maven coordinating with UAV assets through our new Maven Edge agent called MAGE.",
       "implications": [
-        "Edge deployment of Maven platform for tactical military operations",
-        "Real-world validation of AI coordination in combat scenarios",
-        "Expansion of defense AI capabilities to field operations"
+        "Active R&D in autonomous UAV coordination systems",
+        "Development of edge-deployed AI agents for military autonomy",
+        "Live operational testing of autonomous defense systems"
       ],
       "significance": "high",
       "sentiment": "bullish",
@@ -347,6 +296,38 @@
       "significance": "medium",
       "sentiment": "bullish",
       "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/29/lockheed-martin-lmt-q4-2025-earnings-transcript/"
+    },
+    {
+      "incumbent": "RTX",
+      "ticker": "RTX",
+      "quarter": "2025-Q4",
+      "date": "2026-01-27",
+      "signal_type": "forward_guidance",
+      "target_vertical": "defense",
+      "frontier_companies_mentioned": [],
+      "quote": "Other key awards in the quarter included over $900 million of classified bookings.",
+      "implications": [
+        "Classified portfolio continues to scale \u2014 signal that black-budget programs (Golden Dome, space, hypersonics) are funding at pace."
+      ],
+      "significance": "medium",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/rtx-rtx-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "incumbent": "RTX",
+      "ticker": "RTX",
+      "quarter": "2025-Q4",
+      "date": "2026-01-27",
+      "signal_type": "rd_investment",
+      "target_vertical": "ai_compute",
+      "frontier_companies_mentioned": [],
+      "quote": "We've deployed our proprietary data analytics and AI tools across our factories.",
+      "implications": [
+        "Factory AI is table-stakes for primes; vendors of industrial AI (Palantir, C3, Cognite) likely beneficiaries."
+      ],
+      "significance": "low",
+      "sentiment": "neutral",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/rtx-rtx-q4-2025-earnings-call-transcript/"
     },
     {
       "incumbent": "Palantir Technologies",

@@ -1,5 +1,5 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-08-31 14:49:02 UTC
+// Last updated: 2026-09-01 12:20:19 UTC
 const NASA_PROJECTS = [
   { id: 158181, title: "Biomanufacturing PLA for Surface System In-Space Construction", status: "Completed", center: "Kennedy Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "08/27/26" },
   { id: 185982, title: "Autonomy, Fault Tolerance, Human-Machine interface for Mars", status: "Active", center: "Langley Research Center", techArea: "", lastUpdated: "08/26/26" },
@@ -18,17 +18,17 @@ const NASA_PROJECTS = [
   { id: 183274, title: "A SmallSat Lidar Concept for PBL Height Measurements", status: "Completed", center: "Goddard Space Flight Center", techArea: "Remote Sensing Instruments and Sensors", lastUpdated: "08/20/26" },
   { id: 182288, title: "Frequency Programmable Resonators", status: "Active", center: "University of California-Santa Barbara", techArea: "Remote Sensing Instruments and Sensors", lastUpdated: "08/20/26" },
   { id: 182273, title: "Transforming Microchannel Plate Photodetectors for Future UV Instruments through", status: "Active", center: "Southwest Research Institute - San Antonio", techArea: "Remote Sensing Instruments and Sensors", lastUpdated: "08/20/26" },
-  { id: 158281, title: "Advancing ExoCam 360° Video Technology via In Situ Vacuum Chamber Test Relevant ", status: "Completed", center: "Marshall Space Flight Center", techArea: "Entry, Descent, and Landing", lastUpdated: "08/20/26" },
-  { id: 158678, title: "Localized 3-D Fiber Reinforcement in Carbon and Ceramic Composites", status: "Completed", center: "Marshall Space Flight Center", techArea: "Materials, Structures, Mechanical Systems, and Manufacturing", lastUpdated: "08/20/26" },
-  { id: 158044, title: "Adaptive Sampling LIDAR for High Speed, High Resolution Hazard Detection", status: "Completed", center: "Johnson Space Center", techArea: "Entry, Descent, and Landing", lastUpdated: "08/20/26" },
-  { id: 158034, title: "CETACEAN: Autonomous and Modular Onboard Relative Navigation Software for On-Orb", status: "Completed", center: "Johnson Space Center", techArea: "GN&C", lastUpdated: "08/20/26" },
-  { id: 158672, title: "Ozone Lidar Utilizing 308 nm and 355 nm Compact Fiber-Based Lasers", status: "Completed", center: "Goddard Space Flight Center", techArea: "Sensors and Instruments", lastUpdated: "08/20/26" },
-  { id: 158763, title: "3D Printed Loop Heat Pipe", status: "Completed", center: "Marshall Space Flight Center", techArea: "Thermal Management Systems", lastUpdated: "08/20/26" },
-  { id: 113120, title: "Bi-Fold Fan DragSail with Surface Area Modulation Capability", status: "Completed", center: "Marshall Space Flight Center", techArea: "Entry, Descent, and Landing", lastUpdated: "08/20/26" },
-  { id: 158327, title: "Waveguide Integrated SNSPDs on Foundry Silicon PICs", status: "Completed", center: "Glenn Research Center", techArea: "Sensors and Instruments", lastUpdated: "08/20/26" },
-  { id: 158764, title: "Compact Rydberg Atom-Based LF Transmitter", status: "Completed", center: "Goddard Space Flight Center", techArea: "Sensors and Instruments", lastUpdated: "08/20/26" },
-  { id: 158117, title: "Advancing Lunar Communication Infrastructure Using Flexible Software Defined Rad", status: "Completed", center: "Glenn Research Center", techArea: "Communications, Navigation, and Orbital Debris Tracking and Characterization Systems", lastUpdated: "08/20/26" },
-  { id: 158345, title: "Autonomous Storm Detection and Tracking Using Random Finite Sets", status: "Completed", center: "Marshall Space Flight Center", techArea: "Sensors and Instruments", lastUpdated: "08/20/26" },
-  { id: 158431, title: "Long-Range Compact Economical Lidar for Wind Profiling", status: "Completed", center: "Langley Research Center", techArea: "Sensors and Instruments", lastUpdated: "08/20/26" },
+  { id: 158106, title: "Weaved distributed fiber optic sensor (WevFOS) inflatable habitab structural hea", status: "Completed", center: "Marshall Space Flight Center", techArea: "Materials, Structures, Mechanical Systems, and Manufacturing", lastUpdated: "08/20/26" },
+  { id: 158201, title: "AI-Powered XR Health Application for Diagnostics and Health Management", status: "Completed", center: "Johnson Space Center", techArea: "Software, Modeling, Simulation, and Information Processing", lastUpdated: "08/20/26" },
+  { id: 158754, title: "Advanced Multipollutant Trace Contaminant Sorbents for the Exploration Portable ", status: "Completed", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "08/20/26" },
   { id: 154692, title: "3D Printing of High Temperature Thermoset Foams for Space Vehicular Thermal Prot", status: "Completed", center: "Johnson Space Center", techArea: "Materials, Structures, Mechanical Systems, and Manufacturing", lastUpdated: "08/20/26" },
+  { id: 125586, title: "In-Space Inductive Foundry: Recycling, Sorting and Casting", status: "Completed", center: "Marshall Space Flight Center", techArea: "Materials, Structures, Mechanical Systems, and Manufacturing", lastUpdated: "08/20/26" },
+  { id: 154575, title: "A Smart Spectral Polarimetric Imager for Autonomous Plant Health Monitoring", status: "Completed", center: "Kennedy Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "08/20/26" },
+  { id: 158043, title: "Robotic, Efficient Arm for Cargo Handling", status: "Completed", center: "Johnson Space Center", techArea: "Robotic Systems", lastUpdated: "08/20/26" },
+  { id: 158051, title: "Radiation Hardened Power Efficient Artificial Intelligence and Machine Learning ", status: "Completed", center: "Ames Research Center", techArea: "Flight Computing and Avionics", lastUpdated: "08/20/26" },
+  { id: 154345, title: "Low-Energy Additive Construction for the Moon and Mars", status: "Completed", center: "Kennedy Space Center", techArea: "Exploration Destination Systems", lastUpdated: "08/20/26" },
+  { id: 125585, title: "In Situ Isotope Analyzer for Lunar and Planetary Science", status: "Completed", center: "Goddard Space Flight Center", techArea: "Sensors and Instruments", lastUpdated: "08/20/26" },
+  { id: 158609, title: "Novel Ultraviolet Laser Source for Ozone Differential Absorption Lidar", status: "Completed", center: "Langley Research Center", techArea: "Sensors and Instruments", lastUpdated: "08/20/26" },
+  { id: 158059, title: "Electrochemical Detection of Salts Using MOF-Composite Electrodes for Space Appl", status: "Completed", center: "Glenn Research Center", techArea: "Sensors and Instruments", lastUpdated: "08/20/26" },
+  { id: 158243, title: "Advancing Modular Conveying System: Modular Static Auger Systems for Bulk materi", status: "Completed", center: "Kennedy Space Center", techArea: "Exploration Destination Systems", lastUpdated: "08/20/26" },
 ];
