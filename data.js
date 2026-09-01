@@ -52706,27 +52706,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-01 07:40
-// Auto-generated real-time signals
-// Last updated: 2026-09-01
-// Auto-generated real-time signals
-// Last updated: 2026-09-01
+// Last updated: 2026-09-01 13:26
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "Photoroom", headline: "Photoroom co-founder quits executive role", source: "Tech.eu", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "Apple shares &#8216;shocking evidence&#8217; against former employee accused of stealing company data for OpenAI", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Skild AI", headline: "Skild AI unveils S1 flagship robot foundation model", source: "The Robot Report", time: "14h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "The Hugging Face hack could indicate cultural issues at OpenAI", source: "MIT Tech Review", time: "17h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Oklo", headline: "PJM drops Oklo advanced nuclear project from interconnection study cycle", source: "Utility Dive", time: "22h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX Is Building the Chips AND the Rockets", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Einride", headline: "NVIDIA to buy Hugging Face, Einride launches VC firm, and fixing COPD diagnosis", source: "Tech.eu", time: "3d ago", impact: "medium", unread: false },
-  { id: 8, type: "news", company: "Locus Robotics", headline: "How Locus Robotics is getting a grasp on one of robotics biggest challenges: manipulation", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
-  { id: 9, type: "hire", company: "PsiQuantum", headline: "PsiQuantum’s Ice Cream Factory", source: "Inside Quantum Technology", time: "3d ago", impact: "low", unread: false },
-  { id: 10, type: "contract", company: "OpenAI", headline: "Georgia PSC Approves Secret OpenAI Contract", source: "CleanTechnica", time: "4d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Waymo", headline: "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s a &#8216;false summit&#8217;", source: "Electrek", time: "4d ago", impact: "low", unread: false },
-  { id: 12, type: "hire", company: "Carbon Robotics", headline: "Carbon Robotics partners with iMerit to power instant in-field AI customization", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "OpenAI", headline: "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face", source: "Ars Technica", time: "4d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "The Download: inside OpenAI&#8217;s Hugging Face hack, and a new EV takes on the US", source: "MIT Tech Review", time: "4d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Cognition", headline: "Human must not surrender cognition to AI", source: "Tech.eu", time: "5d ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "Anthropic", headline: "Cambridge University spinout launches AI model &quot;competitive&quot; with OpenAI and Anthropic", source: "Tech.eu", time: "1h ago", impact: "medium", unread: true },
+  { id: 2, type: "hire", company: "Photoroom", headline: "Photoroom co-founder quits executive role", source: "Tech.eu", time: "4h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "Apple shares 'shocking evidence' against former employee accused of stealing company data for OpenAI", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Skild AI", headline: "Skild AI unveils S1 flagship robot foundation model", source: "The Robot Report", time: "16h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "The Hugging Face hack could indicate cultural issues at OpenAI", source: "MIT Tech Review", time: "19h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Oklo", headline: "PJM drops Oklo advanced nuclear project from interconnection study cycle", source: "Utility Dive", time: "1d ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX Is Building the Chips AND the Rockets", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Einride", headline: "NVIDIA to buy Hugging Face, Einride launches VC firm, and fixing COPD diagnosis", source: "Tech.eu", time: "3d ago", impact: "medium", unread: false },
+  { id: 9, type: "news", company: "Locus Robotics", headline: "How Locus Robotics is getting a grasp on one of robotics biggest challenges: manipulation", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
+  { id: 10, type: "hire", company: "PsiQuantum", headline: "PsiQuantum's Ice Cream Factory", source: "Inside Quantum Technology", time: "4d ago", impact: "low", unread: false },
+  { id: 11, type: "contract", company: "OpenAI", headline: "Georgia PSC Approves Secret OpenAI Contract", source: "CleanTechnica", time: "4d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Waymo", headline: "Waymo takes a shot at Tesla's self-driving: it's a 'false summit'", source: "Electrek", time: "4d ago", impact: "low", unread: false },
+  { id: 13, type: "hire", company: "Carbon Robotics", headline: "Carbon Robotics partners with iMerit to power instant in-field AI customization", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
+  { id: 14, type: "milestone", company: "OpenAI", headline: "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face", source: "Ars Technica", time: "5d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "OpenAI", headline: "The Download: inside OpenAI's Hugging Face hack, and a new EV takes on the US", source: "MIT Tech Review", time: "5d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

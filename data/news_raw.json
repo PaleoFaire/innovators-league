@@ -1,5 +1,25 @@
 [
   {
+    "title": "Cambridge University spinout launches AI model &quot;competitive&quot; with OpenAI and Anthropic",
+    "link": "https://tech.eu/2026/09/01/cambridge-university-spinout-launches-ai-model-competitive-with-openai-and-anthropic/",
+    "description": "A Cambridge University spinout has today launched a “frontier-class” generalist AI model which it says is competitive with OpenAI and Anthropic's leading models and can be deployed locally. Flower Lab...",
+    "pubDate": "Tue, 01 Sep 2026 11:38:00 +0000",
+    "category": "Artificial Intelligence",
+    "source": "Tech.eu",
+    "feedCategory": "startups",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "medium",
+    "time": "1h ago"
+  },
+  {
     "title": "Photoroom co-founder quits executive role",
     "link": "https://tech.eu/2026/09/01/photoroom-co-founder-quits-executive-role/",
     "description": "One of the co-founders of French AI photo editing app Photoroom is standing down from his executive role at the Y Combinator alumni startup. Eliot Andres founded Paris-based Photoroom with CEO Matthie...",
@@ -18,7 +38,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "2h ago"
+    "time": "4h ago"
   },
   {
     "title": "Apple shares &#8216;shocking evidence&#8217; against former employee accused of stealing company data for OpenAI",
@@ -37,7 +57,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "11h ago"
+    "time": "13h ago"
   },
   {
     "title": "Skild AI unveils S1 flagship robot foundation model",
@@ -59,7 +79,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "14h ago"
+    "time": "16h ago"
   },
   {
     "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
@@ -84,7 +104,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "17h ago"
+    "time": "19h ago"
   },
   {
     "title": "PJM drops Oklo advanced nuclear project from interconnection study cycle",
@@ -103,7 +123,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "SpaceX Is Building the Chips AND the Rockets",
@@ -188,7 +208,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Georgia PSC Approves Secret OpenAI Contract",
@@ -270,7 +290,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "The Download: inside OpenAI&#8217;s Hugging Face hack, and a new EV takes on the US",
@@ -290,7 +310,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Human must not surrender cognition to AI",
@@ -312,55 +332,6 @@
     "time": "5d ago"
   },
   {
-    "title": "Nvidia agrees to buy Hugging Face for $12.9BN, says report",
-    "link": "https://tech.eu/2026/08/27/nvidia-agrees-to-buy-hugging-face-for-12-9bn-says-report/",
-    "description": "Nvidia has agreed to buy Hugging Face, the AI platform and open-source AI model repository, for $12.9bn, according to a report in US tech title The Information, which cited a person with knowledge of ...",
-    "pubDate": "Thu, 27 Aug 2026 08:28:00 +0000",
-    "category": "Artificial Intelligence",
-    "source": "Tech.eu",
-    "feedCategory": "startups",
-    "matchedCompany": "Hugging Face",
-    "matchedCompanies": [
-      "Hugging Face"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "5d ago"
-  },
-  {
-    "title": "Motion lands $2M to expand humanoid robot deployments across Europe",
-    "link": "https://tech.eu/2026/08/27/motion-lands-2m-to-expand-humanoid-robot-deployments-across-europe/",
-    "description": "Brussels-basedrobotics company Motion has raised $2 million in pre-seed funding to expand itsHumanoids-as-a-Service (HaaS) platform and move its existing industrial pilotsinto commercial deployment. T...",
-    "pubDate": "Thu, 27 Aug 2026 06:45:42 +0000",
-    "category": "Robotics",
-    "source": "Tech.eu",
-    "feedCategory": "startups",
-    "matchedCompany": "Humanoid",
-    "matchedCompanies": [
-      "Humanoid",
-      "Karman Industries",
-      "Agility Robotics",
-      "Apptronik",
-      "1X Technologies",
-      "Solugen",
-      "Gecko Robotics",
-      "Teralta",
-      "Dust"
-    ],
-    "sectors": [
-      "robotics",
-      "climate",
-      "infrastructure",
-      "ai"
-    ],
-    "type": "funding",
-    "impact": "medium",
-    "time": "5d ago"
-  },
-  {
     "title": "The inside story on why OpenAI agents hacked Hugging Face",
     "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
     "description": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were",
@@ -377,27 +348,6 @@
     "sectors": [
       "ai",
       "defense"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "5d ago"
-  },
-  {
-    "title": "Einride founders launch venture firm, targeting €450M European deep tech investments",
-    "link": "https://tech.eu/2026/08/26/einride-founders-launch-venture-firm-targeting-450m-european-deep-tech-investments/",
-    "description": "Two of the co-founders of Swedish autonomous truck startup Einride have launched a venture firm, which is targeting around €450m to invest into European startups over the next three years. Called Navi...",
-    "pubDate": "Wed, 26 Aug 2026 13:00:43 +0000",
-    "category": "VC Fund",
-    "source": "Tech.eu",
-    "feedCategory": "startups",
-    "matchedCompany": "Einride",
-    "matchedCompanies": [
-      "Einride",
-      "Q-CTRL"
-    ],
-    "sectors": [
-      "transportation",
-      "quantum"
     ],
     "type": "milestone",
     "impact": "low",
@@ -439,33 +389,6 @@
     ],
     "sectors": [
       "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "8/20/2026"
-  },
-  {
-    "title": "Draper Selects Proteus Space for Advanced On-Orbit Mission",
-    "link": "https://spacenews.com/draper-selects-proteus-space-for-advanced-on-orbit-mission/",
-    "description": "\nLOS ANGELES, CA, September 8th, 2026. Proteus Space, a dual-use aerospace company delivering rapid, end-to-end access to space, today announced it has been selected by The Charles Stark Draper Laboratory, [&#8230;]\nThe post Draper Selects Proteus Space for Advanced On-Orbit Mission appeared first o",
-    "pubDate": "Thu, 20 Aug 2026 10:00:00 +0000",
-    "category": "Press Release",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Proteus Space",
-    "matchedCompanies": [
-      "Proteus Space",
-      "Hadrian",
-      "AnySignal",
-      "Elodin",
-      "Kodiak Robotics",
-      "Orbital Composites"
-    ],
-    "sectors": [
-      "space",
-      "robotics",
-      "infrastructure",
-      "defense"
     ],
     "type": "ipo",
     "impact": "low",
