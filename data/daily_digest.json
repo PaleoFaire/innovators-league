@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T20:56:46.715464+00:00",
+  "generatedAt": "2026-09-01T23:14:03.018439+00:00",
   "date": "2026-09-01",
   "dateDisplay": "Tuesday, September 01, 2026",
   "sections": {
@@ -45,30 +45,30 @@
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 0.62,
-        "changePercent": -20.19,
-        "change": -0.16
+        "price": 0.6,
+        "changePercent": -22.37,
+        "change": -0.17
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 16.57,
-        "changePercent": -14.37,
-        "change": -2.78
+        "price": 16.54,
+        "changePercent": -14.52,
+        "change": -2.81
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 4.64,
-        "changePercent": -13.35,
-        "change": -0.72
+        "price": 4.6,
+        "changePercent": -14.1,
+        "change": -0.76
       },
       {
         "ticker": "OKLO",
         "company": "Oklo",
-        "price": 38.47,
-        "changePercent": -13.1,
-        "change": -5.8
+        "price": 38.53,
+        "changePercent": -12.97,
+        "change": -5.74
       },
       {
         "ticker": "DRSHF",
@@ -80,23 +80,23 @@
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 14.93,
-        "changePercent": -11.87,
-        "change": -2.01
+        "price": 14.99,
+        "changePercent": -11.51,
+        "change": -1.95
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 14.73,
-        "changePercent": -11.23,
-        "change": -1.87
+        "price": 14.72,
+        "changePercent": -11.33,
+        "change": -1.88
       },
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 19.3,
-        "changePercent": -10.46,
-        "change": -2.25
+        "price": 19.26,
+        "changePercent": -10.63,
+        "change": -2.29
       }
     ],
     "regulatory": [
@@ -187,6 +187,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "EVTL -20.2%"
+    "topMover": "EVTL -22.4%"
   }
 }
