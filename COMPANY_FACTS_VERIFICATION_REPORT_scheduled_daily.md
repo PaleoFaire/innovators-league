@@ -1,108 +1,113 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-09-01T09:54:31+00:00  
+**Generated:** 2026-09-02T09:26:19+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 45 companies  
+**Cohort size:** 38 companies  
 
-**New Claude extractions this run:** 45  
+**New Claude extractions this run:** 38  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 40 | 89% |
-| 🔧 Changes proposed | 5 | 11% |
+| ✅ Cleared (data matches sources) | 32 | 84% |
+| 🔧 Changes proposed | 6 | 16% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (5 companies)
+## 🔧 Proposed Changes (6 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
-### 1X Technologies
+### Mammoth Biosciences
 
-- **`location`:** `Palo Alto, CA` → `Palo Alto, California, USA`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/1X_Technologies)
-- **`fundingStage`:** `Pre-Seed` → `Series B`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/1X_Technologies)
-- **`totalRaised`:** `$1.1B` → `$123.5M`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/1X_Technologies)
+- **`totalRaised`:** `$600M+` → `$465M+`  
+  Sources: [company_about](https://mammoth.bio/about)
 
-  **Notes:** Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Series A2 funding of $23.5M raised in March 2023; Series B funding of $100M raised in January 2024. Total verified raised: $23.5M + $100M = $123.5M. Sources [0] and [1] describe a different company (wire and cable distributor) also named 1X Technologies LLC based in Sheridan, Wyoming - not the robotics company. Wikipedia source [2] is the authoritative source for the humanoid robotics company.
-
-### Agility Robotics
-
-- **`fundingStage`:** `Series E` → `Pre-IPO`  
-  Sources: [company_website](https://agilityrobotics.com)
-
-  **Notes:** Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Wikipedia notes rebrand to 'Agility' announced March 5, 2026 (source 2). Database entry lists total_raised as $400M+ and multiple investors, but these specific figures cannot be verified from provided sources.
+  **Notes:** Source 3 (Holifya news article) is unrelated to Mammoth Biosciences and was not used. Current stage could not be verified from sources. Valuation not found in sources. Investor list not independently verifiable from provided sources (database entry lists investors but sources do not provide comprehensive list). Database entry mentions 2025 layoffs and de-emphasis of diagnostics, but these details are not in provided sources.
 
 ### Nano Nuclear Energy
 
 - **`fundingStage`:** `Seed` → `Public`  
   Sources: [company_website](https://nanonuclearenergy.com) · [company_about](https://nanonuclearenergy.com/about)
 
-  **Notes:** Company is listed on NASDAQ under ticker NNE. Source [2] (Canary Media article about Valar Atomics) does not contain information about Nano Nuclear Energy and was not used. Current database entry contains unverified claims: founder 'Jay Jiang Yu' not found in sources; founded year 2022 not in sources; total_raised '$600M+' not in sources; valuation '$808M' not in sources; ODIN sale to Cambridge AtomWorks not in sources; market cap ~$1.2B not in sources. Only public status can be verified from sources.
+  **Notes:** Company is publicly traded on NASDAQ under ticker NNE. Sources [0] and [1] are from company website and contain identical content. Source [2] appears to be about a different company (Valar Atomics) and was not used. No founder names, founding year, funding amounts, or valuation data could be verified from provided sources. Database entry claims about ODIN sale, Jay Jiang Yu as founder, 2022 founding, Seed stage, $600M+ raised, and $808M valuation could not be verified.
+
+### Oxford Nanopore Technologies
+
+- **`location`:** `Oxford, UK` → `Oxford, United Kingdom`  
+  Sources: [company_about](https://nanoporetech.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Oxford_Nanopore_Technologies)
+
+  **Notes:** Company is listed on London Stock Exchange (ticker ONT) and is a FTSE 250 constituent. Francis Van Parys became CEO in December 2025, succeeding Gordon Sanghera. Source [3] is about a different company (Holifya) and contains no information about Oxford Nanopore Technologies.
+
+### Scale AI
+
+- **`location`:** `San Francisco, CA` → `San Francisco, California`  
+  Sources: [company_about](https://scale.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Scale_AI)
+- **`fundingStage`:** `Series B` → `Private`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Scale_AI)
+
+  **Notes:** In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang left to join Meta and was replaced as CEO by Jason Droege. The company remains independent from Meta. Wikipedia notes CEO as Francis deSouza (appointed based on source [0] and [1] news); however, source [2] indicates Jason Droege replaced Wang in June 2025, suggesting a subsequent change.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** SpaceX conducted initial public offering on June 12, 2026. Wikipedia source [0] indicates Elon Musk controls 85% of voting power, though database entry states 82%. Source [3] (Nvidia disclosure) indicates $21B stake in SpaceX as of August 2026, but no confirmation of investor status in provided sources. Valuation field set to null as sources do not provide current verified valuation figure despite database entry claiming $1.65T.
+  **Notes:** SpaceX completed initial public offering on June 12, 2026. Wikipedia source shows Elon Musk controls 85% voting power (not 82% as in database entry). Nvidia's stake ($21B) disclosed per source [3] but equity percentage not provided in sources, so added as investor based on ownership disclosure.
 
 ### Starcloud
 
 - **`fundingStage`:** `Seed` → `Series A`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Starcloud)
 
-  **Notes:** Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California and rebranded to Starcloud in March 2025 following a legal challenge. Became fastest unicorn in Y Combinator history, reaching $1.1B valuation 17 months after completing Y Combinator program.
+  **Notes:** Originally founded as Lumen Orbit in January 2024 in El Segundo, California; rebranded to Starcloud in March 2025 following legal challenge from Lumen Technologies. Series A announced March 30, 2026, making Starcloud the fastest Y Combinator company to reach unicorn status (17 months after completing the program).
 
 ---
 
-## ✅ Cleared (40 companies)
+## ✅ Cleared (32 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
 - Antares
-- AnySignal
-- Apptronik
 - Asimov
 - Astera Labs
 - Aurora Innovation
 - Base Power
 - Cape
-- Carbon Robotics
 - Cognition
 - Deterrence
-- Dexterity
 - Einride
+- Forterra
 - Galvanick
-- Gecko Robotics
-- Hadrian
-- Humanoid
-- Karman Industries
-- Locus Robotics
+- Hailo
+- Neko Health
 - Oklo
-- Orbital Composites
+- Orangewood Labs
+- Palantir
 - Percepto
 - Photonic Inc
 - Physical Intelligence
 - Pivotal
 - Profluent
-- Proteus Space
 - PsiQuantum
-- Q-CTRL
 - QuiX Quantum
-- *...and 10 more*
+- Radiant
+- Rebellions
+- Sage Geosystems
+- Skild AI
+- Valar Atomics
+- Waymo
+- Wayve
+- *...and 2 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-09-01T09:54:31+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-09-02T09:26:19+00:00*
