@@ -53402,27 +53402,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-02 09:27
-// Auto-generated real-time signals
-// Last updated: 2026-09-02
-// Auto-generated real-time signals
-// Last updated: 2026-09-02
+// Last updated: 2026-09-02 14:18
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Zoox", headline: "The Zoox Safety Case Framework", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Waymo", headline: "Waymo Invites Riders in 3 New Cities! Now In 14", source: "CleanTechnica", time: "8h ago", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "Palantir", headline: "Ousted Ukrainian defense chief lands Palantir CEO as first investor in new venture", source: "Defense News", time: "11h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI Astra Releasing in a Few Days, Grok 4.7 and Fable 5.2 Also in September", source: "Next Big Future", time: "11h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI&#8217;s Astra model is on the way — and very good at breaking into computer systems", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities", source: "Wired", time: "14h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "16h ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "Waymo", headline: "Waymo goes on offense ahead of Tesla&#8217;s Cybercab launch", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Waymo", headline: "Waymo opens robotaxi rides to the public in 3 new cities, now 14 total", source: "Electrek", time: "19h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Scale AI", headline: "Italian obesity digital clinic Holifya raises €2M to scale AI-supported GLP-1 care", source: "Tech.eu", time: "21h ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Anthropic", headline: "Cambridge University spinout launches AI model &quot;competitive&quot; with OpenAI and Anthropic", source: "Tech.eu", time: "23h ago", impact: "medium", unread: false },
-  { id: 12, type: "hire", company: "Photoroom", headline: "Photoroom co-founder quits executive role", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Skild AI", headline: "Skild AI unveils S1 flagship robot foundation model", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "The Hugging Face hack could indicate cultural issues at OpenAI", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Oklo", headline: "PJM drops Oklo advanced nuclear project from interconnection study cycle", source: "Utility Dive", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Zoox", headline: "The Zoox Safety Case Framework", source: "CleanTechnica", time: "10h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Waymo", headline: "Waymo Invites Riders in 3 New Cities! Now In 14", source: "CleanTechnica", time: "12h ago", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "Palantir", headline: "Ousted Ukrainian defense chief lands Palantir CEO as first investor in new venture", source: "Defense News", time: "14h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI Astra Releasing in a Few Days, Grok 4.7 and Fable 5.2 Also in September", source: "Next Big Future", time: "15h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI's Astra model is on the way ' and very good at breaking into computer systems", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI Is About to Release Its First AI Model With 'Critical' Cyber Abilities", source: "Wired", time: "18h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "19h ago", impact: "low", unread: false },
+  { id: 9, type: "milestone", company: "Waymo", headline: "Waymo goes on offense ahead of Tesla's Cybercab launch", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "Waymo", headline: "Waymo opens robotaxi rides to the public in 3 new cities, now 14 total", source: "Electrek", time: "22h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Scale AI", headline: "Italian obesity digital clinic Holifya raises '2M to scale AI-supported GLP-1 care", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Anthropic", headline: "Cambridge University spinout launches AI model &quot;competitive&quot; with OpenAI and Anthropic", source: "Tech.eu", time: "1d ago", impact: "medium", unread: false },
+  { id: 13, type: "hire", company: "Photoroom", headline: "Photoroom co-founder quits executive role", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Skild AI", headline: "Skild AI unveils S1 flagship robot foundation model", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "OpenAI", headline: "The Hugging Face hack could indicate cultural issues at OpenAI", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
