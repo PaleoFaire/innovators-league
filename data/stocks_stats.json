@@ -3,113 +3,113 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 4.16,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -5.35,
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -8.0,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -4.62,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -9.15,
+      "avg_change": -6.93,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -9.43,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -4.1,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -4.0,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 0.29,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.06,
+      "avg_change": -7.02,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.25,
+      "avg_change": -7.96,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -2.77,
+      "avg_change": -1.44,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.0,
+      "avg_change": -1.51,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "PLTR",
-      "Palantir",
-      4.16
-    ],
-    [
       "NVDA",
       "NVIDIA",
-      2.06
+      7.35
     ],
     [
-      "TSLA",
-      "Tesla",
-      1.67
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      0.94
+      "LNZA",
+      "LanzaTech",
+      3.56
     ],
     [
       "SLDP",
       "Solid Power",
-      -0.43
+      2.35
+    ],
+    [
+      "TSLA",
+      "Tesla",
+      2.12
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      1.7
     ]
   ],
   "topLosers": [
     [
-      "OKLO",
-      "Oklo",
-      -12.97
+      "DRSHF",
+      "DroneShield",
+      -7.87
+    ],
+    [
+      "LUNR",
+      "Intuitive Machines",
+      -8.19
     ],
     [
       "SATL",
       "Satellogic",
-      -14.1
+      -8.87
     ],
     [
-      "QBTS",
-      "D-Wave Quantum",
-      -14.52
-    ],
-    [
-      "DRSHF",
-      "DroneShield",
-      -14.77
+      "TEM",
+      "Tempus AI",
+      -11.93
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -22.37
+      -20.83
     ]
   ],
-  "lastUpdated": "2026-09-02 12:09:27"
+  "lastUpdated": "2026-09-02 17:13:18"
 }
