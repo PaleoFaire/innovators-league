@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-09-01 12:31:15 UTC",
+    "generated_at": "2026-09-02 12:12:28 UTC",
     "total_targets": 116,
-    "with_excerpts": 98,
+    "with_excerpts": 101,
     "sources": [
       "none",
       "sec_edgar",
@@ -72,20 +72,24 @@
     {
       "ticker": "LHX",
       "company": "L3Harris Technologies",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.l3harris.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-07-30",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/202058/000020205826000058/0000202058-26-000058-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "LDOS",
       "company": "Leidos",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.leidos.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000246/0001336920-26-000246-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "SAIC",
@@ -137,13 +141,11 @@
     {
       "ticker": "KLAC",
       "company": "KLA",
-      "quarter": "2026-Q3",
-      "date": "2026-04-29",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000016/0000319201-26-000016-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://ir.kla.com/",
+      "source": "none"
     },
     {
       "ticker": "INTC",
@@ -370,13 +372,11 @@
     {
       "ticker": "KTOS",
       "company": "Kratos Defense",
-      "quarter": "2026-Q3",
-      "date": "2026-08-04",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000077/0001069258-26-000077-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://ir.kratosdefense.com/",
+      "source": "none"
     },
     {
       "ticker": "AVAV",
@@ -425,11 +425,13 @@
     {
       "ticker": "HWM",
       "company": "Howmet Aerospace",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://www.howmet.com/investors",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-06",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/4281/000000428126000025/0000004281-26-000025-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "VSAT",
@@ -588,20 +590,24 @@
     {
       "ticker": "CDNS",
       "company": "Cadence Design",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://www.cadence.com/en_US/home/company/investor-relations.html",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-07-28",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000092/0000813672-26-000092-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "WOLF",
       "company": "Wolfspeed",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investor.wolfspeed.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-05-07",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/895419/000089541926000030/0000895419-26-000030-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "MCHP",
@@ -650,11 +656,13 @@
     {
       "ticker": "EQIX",
       "company": "Equinix",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investor.equinix.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-07-29",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000147/0001101239-26-000147-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "DLR",
@@ -702,11 +710,11 @@
       "ticker": "MDB",
       "company": "MongoDB",
       "quarter": "2026-Q3",
-      "date": "2026-05-29",
+      "date": "2026-09-01",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026039150/0001628280-26-039150-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026059830/0001628280-26-059830-index.htm",
       "source": "sec_edgar"
     },
     {
@@ -756,13 +764,11 @@
     {
       "ticker": "HON",
       "company": "Honeywell",
-      "quarter": "2026-Q3",
-      "date": "2026-07-23",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000127/0000773840-26-000127-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investor.honeywell.com/",
+      "source": "none"
     },
     {
       "ticker": "ZBRA",
@@ -800,11 +806,13 @@
     {
       "ticker": "RGTI",
       "company": "Rigetti Computing",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.rigetti.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-06",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926091993/0001104659-26-091993-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "DDD",
@@ -853,13 +861,11 @@
     {
       "ticker": "AUR",
       "company": "Aurora Innovation",
-      "quarter": "2026-Q3",
-      "date": "2026-07-29",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1828108/000182810826000077/0001828108-26-000077-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://aurora.tech/investors",
+      "source": "none"
     },
     {
       "ticker": "MBLY",
@@ -929,11 +935,11 @@
       "ticker": "ASTS",
       "company": "AST SpaceMobile",
       "quarter": "2026-Q3",
-      "date": "2026-05-11",
+      "date": "2026-08-10",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526216950/0001193125-26-216950-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526342550/0001193125-26-342550-index.htm",
       "source": "sec_edgar"
     },
     {

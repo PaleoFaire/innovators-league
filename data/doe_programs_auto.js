@@ -1,5 +1,5 @@
 // Auto-updated DOE nuclear/energy programs
-// Last updated: 2026-09-01 12:18:59 UTC
+// Last updated: 2026-09-02 11:55:32 UTC
 const DOE_PROGRAMS = [
   {
     program: "Advanced Reactor Demonstration Program (ARDP)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T12:35:37.111253+00:00",
+  "generated_at": "2026-09-02T12:19:26.116841+00:00",
   "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
   "candidates": [
     {
@@ -144,61 +144,6 @@
       "accession": "0002106954-26-000001",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002106954&type=D&dateb=&owner=include&count=10",
       "adsh_raw": "0002106954-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Precision AI",
-      "issuer_name": "Precision AI, CO",
-      "form": "D",
-      "filed_date": "2026-08-19",
-      "cik": "2150524",
-      "accession": "0002150524-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002150524&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002150524-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Halo",
-      "issuer_name": "Halo Partners I-Exec, L.P",
-      "form": "D",
-      "filed_date": "2026-08-19",
-      "cik": "2147367",
-      "accession": "0002147367-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002147367&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002147367-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Singularity",
-      "issuer_name": "SINGULARITY OPPORTUNITY FUND II LLC",
-      "form": "D",
-      "filed_date": "2026-08-19",
-      "cik": "2117214",
-      "accession": "0002117214-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002117214&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002117214-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Halo",
-      "issuer_name": "HALO Partners I, L.P",
-      "form": "D",
-      "filed_date": "2026-08-19",
-      "cik": "2107339",
-      "accession": "0002107339-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002107339&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002107339-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Halo",
-      "issuer_name": "HALO Partners I-A, L.P",
-      "form": "D",
-      "filed_date": "2026-08-19",
-      "cik": "2107337",
-      "accession": "0002107337-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002107337&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002107337-26-000001"
     }
   ]
 }

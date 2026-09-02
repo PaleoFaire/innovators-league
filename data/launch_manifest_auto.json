@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-09-01",
-    "vehicle": "Pallas-1 | Demo Flight",
-    "payload": "Demo Flight",
-    "pad": "Pallas-1 Launch Pad, Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "Galactic Energy",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/a927b2f9-f9a5-4196-9abb-2e275e4a6b96/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-09-02",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 15-23",
     "payload": "Starlink Group 15-23",
@@ -21,7 +12,7 @@
     "date": "2026-09-02",
     "vehicle": "Electron | Owl Around The World (StriX Launch 11)",
     "payload": "Owl Around The World (StriX Launch 11)",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "pad": "Rocket Lab Launch Complex 1B, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/9f5a4cb6-63f9-47e1-9512-b468bae2a8e6/?format=json",
     "trackedCompany": "Rocket Lab"
@@ -61,6 +52,15 @@
     "provider": "Russian Federal Space Agency (ROSCOSMOS)",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d793ba47-faf5-4bab-a386-39a9ccc49c90/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-09-10",
+    "vehicle": "Falcon 9 Block 5 | USSF-xxx (\"R-2\")",
+    "payload": "USSF-xxx (\"R-2\")",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/3e0456da-14b1-4ac3-b59e-35fefb1d1530/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-09-11",

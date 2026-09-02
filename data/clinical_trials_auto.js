@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-09-01 12:19:05 UTC
+// Last updated: 2026-09-02 11:55:40 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT01132937", title: "Evaluation, Pathogenesis, and Outcome of Subjects With or Suspected Traumatic Br", status: "COMPLETED", phase: "N/A", sponsor: "National Institute of Neurological Disorders and Stroke (NINDS)", conditions: "Traumatic Brain Injury", enrollment: 886, lastUpdated: "2026-09-01" },
   { nctId: "NCT07748403", title: "A Study of the Safety and Efficacy of Prime Editing (PM577) in Participants With", status: "RECRUITING", phase: "PHASE1, PHASE2", sponsor: "Prime Medicine, Inc.", conditions: "Wilson Disease, Wilson's Disease, Wilsons Disease", enrollment: 42, lastUpdated: "2026-09-01" },
