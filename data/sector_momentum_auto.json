@@ -1,168 +1,136 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 44,
+    "momentum": 45,
     "trend": "steady",
     "catalysts": [
-      "Skild AI unveils S1 flagship robot foundation model",
-      "How Locus Robotics is getting a grasp on one of robotics big",
-      "PsiQuantum\u2019s Ice Cream Factory"
+      "The Zoox Safety Case Framework",
+      "Waymo Invites Riders in 3 New Cities! Now In 14",
+      "Waymo goes on offense ahead of Tesla&#8217;s Cybercab launch"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 35,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-01"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 30,
-    "trend": "rising",
-    "catalysts": [
-      "Apple shares &#8216;shocking evidence&#8217; against former",
-      "The Hugging Face hack could indicate cultural issues at Open",
-      "Georgia PSC Approves Secret OpenAI Contract"
-    ],
-    "fundingQ": "$1.4B",
-    "components": {
-      "funding": 29,
       "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-01"
+    "lastUpdated": "2026-09-02"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 31,
+    "trend": "rising",
+    "catalysts": [
+      "OpenAI Astra Releasing in a Few Days, Grok 4.7 and Fable 5.2",
+      "OpenAI&#8217;s Astra model is on the way \u2014 and very good at",
+      "OpenAI Is About to Release Its First AI Model With \u2018Critical"
+    ],
+    "fundingQ": "$1.4B",
+    "components": {
+      "funding": 29,
+      "news": 45,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-02"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 27,
+    "momentum": 29,
     "trend": "declining",
     "catalysts": [
-      "Active defense & security ecosystem"
+      "Ousted Ukrainian defense chief lands Palantir CEO as first i",
+      "OpenAI Is About to Release Its First AI Model With \u2018Critical",
+      "The Atlantic Brief: U.S. and European Perspectives on Nuclea"
     ],
     "fundingQ": "$550M",
     "components": {
       "funding": 20,
-      "news": 0,
+      "news": 15,
       "hiring": 0,
-      "market": 100
+      "market": 92
     },
-    "lastUpdated": "2026-09-01"
+    "lastUpdated": "2026-09-02"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 25,
+    "sector": "Housing & Construction",
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
-      "SpaceX Is Building the Chips AND the Rockets",
-      "NVIDIA to buy Hugging Face, Einride launches VC firm, and fi",
-      "Nvidia agrees to buy Hugging Face for $12.9BN, says report"
+      "Active housing & construction ecosystem"
     ],
-    "fundingQ": "$0M",
+    "fundingQ": "$50M",
     "components": {
-      "funding": 0,
-      "news": 20,
+      "funding": 16,
+      "news": 0,
       "hiring": 0,
-      "market": 100
+      "market": 50
     },
-    "lastUpdated": "2026-09-01"
+    "lastUpdated": "2026-09-02"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 21,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
+      "The Zoox Safety Case Framework",
       "Photoroom co-founder quits executive role",
-      "Apple shares &#8216;shocking evidence&#8217; against former",
       "Skild AI unveils S1 flagship robot foundation model"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 45,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-01"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "PJM drops Oklo advanced nuclear project from interconnection",
-      "Does Latent Nuclear Deterrence Really Work?",
-      "Nuclear startup Oklo splits its first atoms in test reactor"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 73
-    },
-    "lastUpdated": "2026-09-01"
+    "lastUpdated": "2026-09-02"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 12,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s",
-      "Einride founders launch venture firm, targeting \u20ac450M Europe"
+      "The Zoox Safety Case Framework",
+      "Waymo goes on offense ahead of Tesla&#8217;s Cybercab launch",
+      "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-01"
+    "lastUpdated": "2026-09-02"
   },
   {
-    "sector": "Climate & Energy",
+    "sector": "Chips & Semiconductors",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "Carbon Robotics partners with iMerit to power instant in-fie",
-      "Sage Geosystems brings its first next-gen geothermal plant o"
-    ],
-    "fundingQ": "$134M",
-    "components": {
-      "funding": 11,
-      "news": 10,
-      "hiring": 0,
-      "market": 27
-    },
-    "lastUpdated": "2026-09-01"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "<a href=\"/biotech/chutes-ladders-vivace-adds-new-ceo-cbo-ahe"
+      "OpenAI Astra Releasing in a Few Days, Grok 4.7 and Fable 5.2",
+      "NVIDIA to buy Hugging Face, Einride launches VC firm, and fi",
+      "Nvidia discloses $21B stake in SpaceX"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 15,
       "hiring": 0,
-      "market": 50
+      "market": 40
     },
-    "lastUpdated": "2026-09-01"
+    "lastUpdated": "2026-09-02"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "SpaceX Is Building the Chips AND the Rockets",
-      "NVIDIA to buy Hugging Face, Einride launches VC firm, and fi",
-      "Einride founders launch venture firm, targeting \u20ac450M Europe"
+      "Ousted Ukrainian defense chief lands Palantir CEO as first i",
+      "Waymo goes on offense ahead of Tesla&#8217;s Cybercab launch",
+      "Cambridge University spinout launches AI model &quot;competi"
     ],
     "fundingQ": "$50M",
     "components": {
@@ -171,7 +139,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-01"
+    "lastUpdated": "2026-09-02"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -187,23 +155,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-01"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active housing & construction ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-01"
+    "lastUpdated": "2026-09-02"
   },
   {
     "sector": "Ocean & Maritime",
@@ -219,7 +171,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-01"
+    "lastUpdated": "2026-09-02"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -235,7 +187,59 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-01"
+    "lastUpdated": "2026-09-02"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 6,
+    "trend": "declining",
+    "catalysts": [
+      "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
+      "PJM drops Oklo advanced nuclear project from interconnection",
+      "Does Latent Nuclear Deterrence Really Work?"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-09-02"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 5,
+    "trend": "declining",
+    "catalysts": [
+      "Sage Geosystems brings its first next-gen geothermal plant o"
+    ],
+    "fundingQ": "$134M",
+    "components": {
+      "funding": 11,
+      "news": 5,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-09-02"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 5,
+    "trend": "declining",
+    "catalysts": [
+      "Waymo opens robotaxi rides to the public in 3 new cities, no",
+      "Italian obesity digital clinic Holifya raises \u20ac2M to scale A",
+      "Cambridge University spinout launches AI model &quot;competi"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-09-02"
   },
   {
     "sector": "Quantum Computing",
@@ -251,11 +255,11 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-01"
+    "lastUpdated": "2026-09-02"
   },
   {
     "sector": "Transportation",
-    "momentum": 1,
+    "momentum": 0,
     "trend": "declining",
     "catalysts": [
       "Active transportation ecosystem"
@@ -265,8 +269,8 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 7
+      "market": 0
     },
-    "lastUpdated": "2026-09-01"
+    "lastUpdated": "2026-09-02"
   }
 ]

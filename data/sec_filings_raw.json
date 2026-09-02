@@ -261,15 +261,6 @@
     "isIPO": false
   },
   {
-    "company": "Palantir Technologies",
-    "ticker": "PLTR",
-    "form": "DEF 14A",
-    "date": "2026-04-24",
-    "description": "pltr-20260423.htm",
-    "accessionNumber": "0001321655-26-000019",
-    "isIPO": false
-  },
-  {
     "company": "Rocket Lab",
     "ticker": "RKLB",
     "form": "4",
@@ -510,6 +501,15 @@
     "date": "2026-05-28",
     "description": "xslF345X06/edgardoc.xml",
     "accessionNumber": "0002001011-26-000076",
+    "isIPO": false
+  },
+  {
+    "company": "AST SpaceMobile",
+    "ticker": "ASTS",
+    "form": "4",
+    "date": "2026-09-01",
+    "description": "xslF345X06/tm2624604-1_4seq1.xml",
+    "accessionNumber": "0001104659-26-104326",
     "isIPO": false
   },
   {
@@ -843,15 +843,6 @@
     "date": "2026-05-11",
     "description": "asts-20260331.htm",
     "accessionNumber": "0001193125-26-216950",
-    "isIPO": false
-  },
-  {
-    "company": "AST SpaceMobile",
-    "ticker": "ASTS",
-    "form": "8-K",
-    "date": "2026-05-11",
-    "description": "asts-20260511.htm",
-    "accessionNumber": "0001193125-26-216946",
     "isIPO": false
   },
   {
@@ -2994,6 +2985,15 @@
     "date": "2026-03-03",
     "description": "xslF345X05/wk-form4_1772584012.xml",
     "accessionNumber": "0001822966-26-000029",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
+    "date": "2026-09-01",
+    "description": "xslF345X06/wk-form4_1788294918.xml",
+    "accessionNumber": "0002147680-26-000004",
     "isIPO": false
   },
   {

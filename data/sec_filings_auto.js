@@ -1,6 +1,8 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-01 11:21:59 UTC
+// Last updated: 2026-09-02 10:56:01 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "AST SpaceMobile", form: "4", date: "2026-09-01", description: "xslF345X06/tm2624604-1_4seq1.xml", isIPO: false, ticker: "ASTS" },
+  { company: "Oklo", form: "4", date: "2026-09-01", description: "xslF345X06/wk-form4_1788294918.xml", isIPO: false, ticker: "OKLO" },
   { company: "BlackSky Technology", form: "4", date: "2026-08-31", description: "xslF345X06/wk-form4_1788213568.xml", isIPO: false, ticker: "BKSY" },
   { company: "Astera Labs", form: "4", date: "2026-08-31", description: "xslF345X06/wk-form4_1788217911.xml", isIPO: false, ticker: "ALAB" },
   { company: "Satellogic", form: "8-K", date: "2026-08-31", description: "ea0304018-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
@@ -44,8 +46,6 @@ const SEC_FILINGS_LIVE = [
   { company: "Rigetti Computing", form: "8-K", date: "2026-08-20", description: "tm2623611d2_8k.htm", isIPO: false, ticker: "RGTI" },
   { company: "Rigetti Computing", form: "8-K", date: "2026-08-20", description: "tm2623611d1_8k.htm", isIPO: false, ticker: "RGTI" },
   { company: "Palantir Technologies", form: "4", date: "2026-08-19", description: "xslF345X06/wk-form4_1787184083.xml", isIPO: false, ticker: "PLTR" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-08-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-08-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "AST SpaceMobile", form: "4", date: "2026-08-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "AST SpaceMobile", form: "4", date: "2026-08-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "AST SpaceMobile", form: "4", date: "2026-08-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
