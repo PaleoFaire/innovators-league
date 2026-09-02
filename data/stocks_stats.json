@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -5.35,
+      "avg_change": -4.53,
       "count": 1
     },
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -4.62,
+      "avg_change": -3.56,
       "count": 7
     },
     "autonomous": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -6.93,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -6.36,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.1,
+      "avg_change": -2.26,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 0.29,
+      "avg_change": 1.86,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.02,
+      "avg_change": -6.17,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.96,
+      "avg_change": -6.6,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -1.44,
+      "avg_change": -0.58,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.51,
+      "avg_change": -1.16,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "NVDA",
       "NVIDIA",
-      7.35
+      7.04
     ],
     [
       "LNZA",
       "LanzaTech",
-      3.56
+      5.5
     ],
     [
       "SLDP",
       "Solid Power",
-      2.35
-    ],
-    [
-      "TSLA",
-      "Tesla",
-      2.12
+      5.13
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      1.7
+      4.21
+    ],
+    [
+      "TSLA",
+      "Tesla",
+      3.24
     ]
   ],
   "topLosers": [
+    [
+      "LUNR",
+      "Intuitive Machines",
+      -7.76
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      -7.8
+    ],
     [
       "DRSHF",
       "DroneShield",
       -7.87
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      -8.19
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      -8.87
-    ],
-    [
       "TEM",
       "Tempus AI",
-      -11.93
+      -9.55
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -20.83
+      -22.03
     ]
   ],
-  "lastUpdated": "2026-09-02 17:13:18"
+  "lastUpdated": "2026-09-02 21:52:49"
 }
