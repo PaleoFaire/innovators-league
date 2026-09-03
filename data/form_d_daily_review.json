@@ -1,5 +1,29 @@
 {
-  "generated_at": "2026-09-02T12:19:54.177317+00:00",
+  "generated_at": "2026-09-03T12:10:43.799691+00:00",
   "note": "name-only matches. NOT shown to members. Confirm, then add the CIK to data/cik_map.json to promote.",
-  "candidates": []
+  "candidates": [
+    {
+      "match_method": "name-strict",
+      "match_evidence": "'Radian Forge Inc.' stems to 'Radian Forge'",
+      "company": "Radian Forge",
+      "issuer_name": "Radian Forge Inc.",
+      "form": "D",
+      "filed_date": "2026-09-02",
+      "cik": "2146282",
+      "accession": "0002146282-26-000002",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2146282/000214628226000002/primary_doc.xml",
+      "offering_amount": "3000000",
+      "amount_sold": "2301750",
+      "amount_remaining": "698250",
+      "securities_type": "Equity",
+      "related_persons": [
+        "Jeffrey Yeager",
+        "Jerry Miller",
+        "Steven McSweeney",
+        "Joshua Weed"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
+    }
+  ]
 }

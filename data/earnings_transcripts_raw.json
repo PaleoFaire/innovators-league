@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-09-02 12:12:28 UTC",
+    "generated_at": "2026-09-03 12:06:40 UTC",
     "total_targets": 116,
-    "with_excerpts": 101,
+    "with_excerpts": 102,
     "sources": [
       "none",
       "sec_edgar",
@@ -141,11 +141,13 @@
     {
       "ticker": "KLAC",
       "company": "KLA",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://ir.kla.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-04-29",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000016/0000319201-26-000016-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "INTC",
@@ -295,13 +297,11 @@
     {
       "ticker": "GOOGL",
       "company": "Alphabet",
-      "quarter": "2026-Q3",
-      "date": "2026-07-22",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/0001652044-26-000071-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://abc.xyz/investor/",
+      "source": "none"
     },
     {
       "ticker": "HII",
@@ -372,11 +372,13 @@
     {
       "ticker": "KTOS",
       "company": "Kratos Defense",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://ir.kratosdefense.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000077/0001069258-26-000077-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "AVAV",
@@ -764,11 +766,13 @@
     {
       "ticker": "HON",
       "company": "Honeywell",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investor.honeywell.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-07-23",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000127/0000773840-26-000127-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "ZBRA",
@@ -828,13 +832,11 @@
     {
       "ticker": "VLD",
       "company": "Velo3D",
-      "quarter": "2026-Q3",
-      "date": "2026-08-11",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1825079/000119312526344560/0001193125-26-344560-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.velo3d.com/",
+      "source": "none"
     },
     {
       "ticker": "DM",
@@ -861,11 +863,13 @@
     {
       "ticker": "AUR",
       "company": "Aurora Innovation",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://aurora.tech/investors",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-07-29",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1828108/000182810826000077/0001828108-26-000077-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "MBLY",
@@ -923,13 +927,11 @@
     {
       "ticker": "IRDM",
       "company": "Iridium Communications",
-      "quarter": "2026-Q3",
-      "date": "2026-07-22",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000045/0001418819-26-000045-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investor.iridium.com/",
+      "source": "none"
     },
     {
       "ticker": "ASTS",
@@ -954,13 +956,11 @@
     {
       "ticker": "SPIR",
       "company": "Spire Global",
-      "quarter": "2026-Q3",
-      "date": "2026-08-13",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1816017/000119312526347865/0001193125-26-347865-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://ir.spire.com/",
+      "source": "none"
     },
     {
       "ticker": "RDW",
@@ -1078,11 +1078,13 @@
     {
       "ticker": "ALB",
       "company": "Albemarle",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.albemarle.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-05",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000102/0000915913-26-000102-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "ENVX",

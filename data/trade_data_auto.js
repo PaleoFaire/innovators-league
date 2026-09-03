@@ -1,5 +1,5 @@
 // Auto-generated Census Bureau trade data
-// Last updated: 2026-09-02 11:55:57 UTC
+// Last updated: 2026-09-03 11:54:23 UTC
 // Tracking 10 HS codes across manufacturing sectors
 const TRADE_DATA_AUTO = [
 ];

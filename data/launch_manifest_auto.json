@@ -1,15 +1,6 @@
 [
   {
     "date": "2026-09-02",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 15-23",
-    "payload": "Starlink Group 15-23",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/63181269-b125-4c36-951c-c9bd9bbc4b55/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-09-02",
     "vehicle": "Electron | Owl Around The World (StriX Launch 11)",
     "payload": "Owl Around The World (StriX Launch 11)",
     "pad": "Rocket Lab Launch Complex 1B, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -46,6 +37,15 @@
   },
   {
     "date": "2026-09-09",
+    "vehicle": "Long March 2D/YZ-3 | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Launch Area 94 (SLS-2 / 603), Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/95eb9265-bdbe-43ad-b08c-6be7eb4e58f4/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-09-09",
     "vehicle": "Soyuz 2.1b | Progress MS-35 (96P)",
     "payload": "Progress MS-35 (96P)",
     "pad": "31/6, Baikonur Cosmodrome, Republic of Kazakhstan",
@@ -55,8 +55,8 @@
   },
   {
     "date": "2026-09-10",
-    "vehicle": "Falcon 9 Block 5 | USSF-xxx (\"R-2\")",
-    "payload": "USSF-xxx (\"R-2\")",
+    "vehicle": "Falcon 9 Block 5 | USSF-153",
+    "payload": "USSF-153",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/3e0456da-14b1-4ac3-b59e-35fefb1d1530/?format=json",

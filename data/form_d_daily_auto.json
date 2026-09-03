@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T12:19:54.177317+00:00",
+  "generated_at": "2026-09-03T12:10:43.799691+00:00",
   "lookback_days": 8,
-  "scanned": 1190,
-  "total": 2,
+  "scanned": 1150,
+  "total": 1,
   "filings": [
     {
       "match_method": "cik",
@@ -23,33 +23,6 @@
         "Sean Pitt",
         "Andrew Kreitz",
         "Alex Poulin"
-      ],
-      "is_safe": false,
-      "source": "edgar-daily-index"
-    },
-    {
-      "match_method": "cik",
-      "match_evidence": "filer CIK 1751463 == our recorded CIK",
-      "company": "ICON",
-      "issuer_name": "ICON Technology, Inc.",
-      "form": "D",
-      "filed_date": "2026-08-26",
-      "cik": "1751463",
-      "accession": "0001751463-26-000003",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/1751463/000175146326000003/primary_doc.xml",
-      "offering_amount": "200000000",
-      "amount_sold": "114887843",
-      "amount_remaining": "85112157",
-      "securities_type": "Equity",
-      "related_persons": [
-        "Jason Ballard",
-        "Francisco Velasquez",
-        "Justina Martynaityte",
-        "Jason Portnoy",
-        "Constance Freedman",
-        "Evan Loomis",
-        "Khan Tasinga",
-        "William Hurd"
       ],
       "is_safe": false,
       "source": "edgar-daily-index"
