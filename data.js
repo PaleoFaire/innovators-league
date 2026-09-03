@@ -39839,6 +39839,21 @@ const VC_FIRMS = [
     signal: "hot",
     website: "https://silentvc.com",
     insight: "The clearest pure-play defense-tech seed picker on the list: 33 of the 45 portfolio logos on their site are companies we already track — including Pilgrim and Galadyne, where ROS has direct deal involvement. Moses sources for 8VC, Founders Fund and a16z, which makes this portfolio a leading indicator of where the bigger checks land next."
+  },
+  {
+    name: "Reservoir",
+    shortName: "Reservoir",
+    aum: "Undisclosed",
+    flagshipFund: "Reservoir VC",
+    founded: 2025,
+    hq: "Salinas Valley, California",
+    thesis: "A 501(c)(3) nonprofit building on-farm technology incubators, paired with Reservoir VC — a pre-seed vehicle launched Oct 2025 writing ~$500K checks into automation, robotics and precision agriculture. The 40-acre Reservoir Farms site in the Salinas Valley lets portfolio and resident startups test rugged AI in commercial crop fields; further sites in California wine country, the Central Valley and Yuma, AZ. Partners include John Deere, Driscoll\'s, Netafim, Nutrien, Taylor Farms, Tanimura & Antle, Western Growers and the City of Salinas.",
+    keyPartners: ["Danny Bernstein (CEO, The Reservoir)", "Matthew Hoffman (Managing Partner, Reservoir VC — sixth-generation farmer, ex-Driscoll\'s global R&D)"],
+    sectorFocus: ["Agriculture Robotics", "Rugged AI", "Precision Agriculture", "Automation"],
+    portfolioCompanies: ["Farm-ng", "Bonsai Robotics", "TerraBlaster", "Agriful Software", "Nexstera Tech"],
+    signal: "emerging",
+    website: "https://reservoir.co",
+    insight: "Not a fund with a testbed attached — a testbed that grew a fund. The 40-acre working farm is the moat: Reservoir can watch a robot fail in real dirt before writing the cheque, which is diligence no Sand Hill firm can replicate. Worth watching as the deal source for the ag-robotics vertical we track 19 companies in."
   }
 ];
 
