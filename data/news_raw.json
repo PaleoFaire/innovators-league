@@ -1,5 +1,84 @@
 [
   {
+    "title": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era",
+    "link": "https://www.wired.com/story/openai-says-gpt-6-can-use-a-computer-better-than-a-human/",
+    "description": "OpenAI leaders think the company’s next generation model, which excels at computer use and coding, may mark a major milestone in AI development.",
+    "pubDate": "Thu, 03 Sep 2026 18:06:24 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+    "link": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+    "description": "OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
+    "pubDate": "Thu, 03 Sep 2026 18:01:45 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "medium",
+    "time": "Just now"
+  },
+  {
+    "title": "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk",
+    "link": "https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue/",
+    "description": "OpenAI recently estimated its Cursor partnership would make more than $1 billion in revenue a year, WIRED has learned. It still walked away after Elon Musk’s SpaceX acquired the AI coding startup.",
+    "pubDate": "Thu, 03 Sep 2026 16:42:40 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "SpaceX",
+      "Anysphere"
+    ],
+    "sectors": [
+      "ai",
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "high",
+    "time": "1h ago"
+  },
+  {
+    "title": "NVIDIA plans to acquire Hugging Face and keep AI development platform open",
+    "link": "https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/",
+    "description": "NVIDIA is already a major model contributor to Hugging Face, which recently surpassed 1 million datasets.\nThe post NVIDIA plans to acquire Hugging Face and keep AI development platform open appeared first on The Robot Report.",
+    "pubDate": "Thu, 03 Sep 2026 15:28:02 +0000",
+    "category": "Artificial Intelligence",
+    "source": "The Robot Report",
+    "feedCategory": "robotics",
+    "matchedCompany": "Hugging Face",
+    "matchedCompanies": [
+      "Hugging Face"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
     "title": "Rivian’s futuristic ALSO e-bike may be at its ultimate delay",
     "link": "https://electrek.co/2026/09/03/rivians-futuristic-also-e-bike-may-be-at-its-ultimate-delay/",
     "description": "Rivian spin-off ALSO is pushing back the delivery timeline for its highly anticipated TM-B electric bike yet again, with reservation holders for the flagship Launch Edition now being told to expect their bikes to arrive by early November at the latest.\n\n\n\n more…",
@@ -16,7 +95,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "Hermeus picks Anduril autonomy for Quarterhorse drone",
@@ -35,7 +114,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "Amazon&#8217;s Zoox expands its robotaxi service to Las Vegas airport",
@@ -56,7 +135,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "6h ago"
   },
   {
     "title": "Londoners can now hail Wayve autonomous vehicles through Uber",
@@ -80,7 +159,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "7h ago"
+    "time": "12h ago"
   },
   {
     "title": "Tesla Robotaxi Fleet Hits 420 Texas Registered Vehicles, Passing Waymo Soon",
@@ -101,7 +180,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "11h ago"
+    "time": "15h ago"
   },
   {
     "title": "OpenAI’s new reasoning technique alarms AI safety experts",
@@ -122,7 +201,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "18h ago"
+    "time": "22h ago"
   },
   {
     "title": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
@@ -142,7 +221,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "19h ago"
+    "time": "23h ago"
   },
   {
     "title": "Waymo racked up 8,300+ SF parking tickets and nearly $1M in fines",
@@ -161,28 +240,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "20h ago"
-  },
-  {
-    "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-    "link": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
-    "description": "\"The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use\nglobally,\" the brief reads.",
-    "pubDate": "Wed, 02 Sep 2026 17:09:06 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "Palantir",
-      "Dust"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "The Zoox Safety Case Framework",
@@ -306,7 +364,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Italian obesity digital clinic Holifya raises €2M to scale AI-supported GLP-1 care",
@@ -394,25 +452,6 @@
       "ai",
       "climate",
       "autonomous"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "PJM drops Oklo advanced nuclear project from interconnection study cycle",
-    "link": "https://www.utilitydive.com/news/pjm-oklo-advanced-nuclear-ferc-interconnection/829150/",
-    "description": "&lt;figure&gt;&lt;div&gt;&lt;img src=\"https://imgproxy.divecdn.com/k4GPj2f6hI3M5oD75noqRMQRiAV_d0cJrxg1K_5yAEk/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNTU1OTg1MTUyLmpwZw==.webp\"/&gt;&lt;/div&gt;&lt;/figure&gt;&lt;p&gt;Oklo asked the Federal Energy Regulato",
-    "pubDate": "Mon, 31 Aug 2026 09:20:51 -0400",
-    "category": "",
-    "source": "Utility Dive",
-    "feedCategory": "energy",
-    "matchedCompany": "Oklo",
-    "matchedCompanies": [
-      "Oklo"
-    ],
-    "sectors": [
-      "nuclear"
     ],
     "type": "news",
     "impact": "low",
@@ -543,25 +582,6 @@
     "type": "news",
     "impact": "low",
     "time": "8/19/2026"
-  },
-  {
-    "title": "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea",
-    "link": "https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/",
-    "description": "",
-    "pubDate": "Tue, 18 Aug 2026 19:01:09 +0000",
-    "category": "Science",
-    "source": "Ars Technica Space",
-    "feedCategory": "space",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "8/18/2026"
   },
   {
     "title": "Nvidia discloses $21B stake in SpaceX",
