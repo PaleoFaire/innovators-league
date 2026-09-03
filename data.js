@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-09-02";
+const LAST_UPDATED = "2026-09-03";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -53402,23 +53402,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-02 21:43
+// Last updated: 2026-09-03 00:00
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI's new reasoning technique alarms AI safety experts", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit", source: "Wired", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Waymo", headline: "Waymo racked up 8,300+ SF parking tickets and nearly $1M in fines", source: "Electrek", time: "3h ago", impact: "medium", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "US government sides with OpenAI on issue of training LLMs on copyrighted material", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Zoox", headline: "The Zoox Safety Case Framework", source: "CleanTechnica", time: "18h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Waymo", headline: "Waymo Invites Riders in 3 New Cities! Now In 14", source: "CleanTechnica", time: "19h ago", impact: "low", unread: false },
-  { id: 8, type: "hire", company: "Palantir", headline: "Ousted Ukrainian defense chief lands Palantir CEO as first investor in new venture", source: "Defense News", time: "22h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "OpenAI", headline: "OpenAI Astra Releasing in a Few Days, Grok 4.7 and Fable 5.2 Also in September", source: "Next Big Future", time: "22h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "OpenAI", headline: "OpenAI Is About to Release Its First AI Model With 'Critical' Cyber Abilities", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Waymo", headline: "Waymo opens robotaxi rides to the public in 3 new cities, now 14 total", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Scale AI", headline: "Italian obesity digital clinic Holifya raises '2M to scale AI-supported GLP-1 care", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "Anthropic", headline: "Cambridge University spinout launches AI model &quot;competitive&quot; with OpenAI and Anthropic", source: "Tech.eu", time: "1d ago", impact: "medium", unread: false },
-  { id: 15, type: "hire", company: "Photoroom", headline: "Photoroom co-founder quits executive role", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI's new reasoning technique alarms AI safety experts", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit", source: "Wired", time: "5h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Waymo", headline: "Waymo racked up 8,300+ SF parking tickets and nearly $1M in fines", source: "Electrek", time: "6h ago", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "US government sides with OpenAI on issue of training LLMs on copyrighted material", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Zoox", headline: "The Zoox Safety Case Framework", source: "CleanTechnica", time: "20h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Waymo", headline: "Waymo Invites Riders in 3 New Cities! Now In 14", source: "CleanTechnica", time: "21h ago", impact: "low", unread: false },
+  { id: 7, type: "hire", company: "Palantir", headline: "Ousted Ukrainian defense chief lands Palantir CEO as first investor in new venture", source: "Defense News", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "OpenAI Astra Releasing in a Few Days, Grok 4.7 and Fable 5.2 Also in September", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "OpenAI", headline: "OpenAI Is About to Release Its First AI Model With 'Critical' Cyber Abilities", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Waymo", headline: "Waymo opens robotaxi rides to the public in 3 new cities, now 14 total", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Scale AI", headline: "Italian obesity digital clinic Holifya raises '2M to scale AI-supported GLP-1 care", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "milestone", company: "Anthropic", headline: "Cambridge University spinout launches AI model &quot;competitive&quot; with OpenAI and Anthropic", source: "Tech.eu", time: "1d ago", impact: "medium", unread: false },
+  { id: 14, type: "hire", company: "Photoroom", headline: "Photoroom co-founder quits executive role", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Skild AI", headline: "Skild AI unveils S1 flagship robot foundation model", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

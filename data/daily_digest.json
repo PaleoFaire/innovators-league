@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-02T21:43:54.063269+00:00",
-  "date": "2026-09-02",
-  "dateDisplay": "Wednesday, September 02, 2026",
+  "generatedAt": "2026-09-03T00:00:59.492472+00:00",
+  "date": "2026-09-03",
+  "dateDisplay": "Thursday, September 03, 2026",
   "sections": {
     "govActivity": [
       {
@@ -45,30 +45,16 @@
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 0.59,
-        "changePercent": -20.83,
-        "change": -0.16
+        "price": 0.58,
+        "changePercent": -22.03,
+        "change": -0.17
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 60.31,
-        "changePercent": -11.93,
-        "change": -8.17
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 4.67,
-        "changePercent": -8.87,
-        "change": -0.46
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 14.79,
-        "changePercent": -8.19,
-        "change": -1.32
+        "price": 61.94,
+        "changePercent": -9.55,
+        "change": -6.54
       },
       {
         "ticker": "DRSHF",
@@ -78,25 +64,39 @@
         "change": -0.1
       },
       {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 37.07,
-        "changePercent": -7.39,
-        "change": -2.96
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 4.73,
+        "changePercent": -7.8,
+        "change": -0.4
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 14.86,
+        "changePercent": -7.76,
+        "change": -1.25
+      },
+      {
+        "ticker": "ONT.L",
+        "company": "Oxford Nanopore Technologies",
+        "price": 170.0,
+        "changePercent": -7.1,
+        "change": -13.0
       },
       {
         "ticker": "NVDA",
         "company": "NVIDIA",
-        "price": 225.06,
-        "changePercent": 7.35,
-        "change": 15.4
+        "price": 224.41,
+        "changePercent": 7.04,
+        "change": 14.75
       },
       {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 19.62,
-        "changePercent": -7.28,
-        "change": -1.54
+        "ticker": "RGTI",
+        "company": "Rigetti Computing",
+        "price": 14.87,
+        "changePercent": -6.71,
+        "change": -1.07
       }
     ],
     "regulatory": [
@@ -187,6 +187,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "EVTL -20.8%"
+    "topMover": "EVTL -22.0%"
   }
 }
