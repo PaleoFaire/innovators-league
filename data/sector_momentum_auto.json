@@ -1,57 +1,39 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 45,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "The Zoox Safety Case Framework",
-      "Waymo Invites Riders in 3 New Cities! Now In 14",
-      "Waymo goes on offense ahead of Tesla&#8217;s Cybercab launch"
+      "Tesla Robotaxi Fleet Hits 420 Texas Registered Vehicles, Pas",
+      "Waymo racked up 8,300+ SF parking tickets and nearly $1M in",
+      "The Zoox Safety Case Framework"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 40,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-02"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 31,
-    "trend": "rising",
-    "catalysts": [
-      "OpenAI Astra Releasing in a Few Days, Grok 4.7 and Fable 5.2",
-      "OpenAI&#8217;s Astra model is on the way \u2014 and very good at",
-      "OpenAI Is About to Release Its First AI Model With \u2018Critical"
-    ],
-    "fundingQ": "$1.4B",
-    "components": {
-      "funding": 29,
       "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-02"
+    "lastUpdated": "2026-09-03"
   },
   {
-    "sector": "Defense & Security",
-    "momentum": 29,
-    "trend": "declining",
+    "sector": "AI & Software",
+    "momentum": 33,
+    "trend": "rising",
     "catalysts": [
-      "Ousted Ukrainian defense chief lands Palantir CEO as first i",
-      "OpenAI Is About to Release Its First AI Model With \u2018Critical",
-      "The Atlantic Brief: U.S. and European Perspectives on Nuclea"
+      "OpenAI\u2019s new reasoning technique alarms AI safety experts",
+      "Trump Administration Sides With OpenAI in New York Times Cop",
+      "US government sides with OpenAI on issue of training LLMs on"
     ],
-    "fundingQ": "$550M",
+    "fundingQ": "$1.4B",
     "components": {
-      "funding": 20,
-      "news": 15,
+      "funding": 29,
+      "news": 50,
       "hiring": 0,
-      "market": 92
+      "market": 50
     },
-    "lastUpdated": "2026-09-02"
+    "lastUpdated": "2026-09-03"
   },
   {
     "sector": "Housing & Construction",
@@ -67,7 +49,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-02"
+    "lastUpdated": "2026-09-03"
   },
   {
     "sector": "Consumer Tech",
@@ -85,61 +67,96 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-02"
+    "lastUpdated": "2026-09-03"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 14,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
-      "The Zoox Safety Case Framework",
-      "Waymo goes on offense ahead of Tesla&#8217;s Cybercab launch",
-      "Waymo takes a shot at Tesla&#8217;s self-driving: it&#8217;s"
+      "Londoners can now hail Wayve autonomous vehicles through Ube",
+      "Tesla Robotaxi Fleet Hits 420 Texas Registered Vehicles, Pas",
+      "The Zoox Safety Case Framework"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-02"
+    "lastUpdated": "2026-09-03"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 12,
+    "sector": "Nuclear Energy",
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "OpenAI Astra Releasing in a Few Days, Grok 4.7 and Fable 5.2",
-      "NVIDIA to buy Hugging Face, Einride launches VC firm, and fi",
-      "Nvidia discloses $21B stake in SpaceX"
+      "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
+      "PJM drops Oklo advanced nuclear project from interconnection",
+      "Does Latent Nuclear Deterrence Really Work?"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 25,
       "hiring": 0,
-      "market": 40
+      "market": 41
     },
-    "lastUpdated": "2026-09-02"
+    "lastUpdated": "2026-09-03"
   },
   {
-    "sector": "Space & Aerospace",
-    "momentum": 10,
+    "sector": "Defense & Security",
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
       "Ousted Ukrainian defense chief lands Palantir CEO as first i",
-      "Waymo goes on offense ahead of Tesla&#8217;s Cybercab launch",
+      "OpenAI Is About to Release Its First AI Model With \u2018Critical",
+      "The Atlantic Brief: U.S. and European Perspectives on Nuclea"
+    ],
+    "fundingQ": "$550M",
+    "components": {
+      "funding": 20,
+      "news": 15,
+      "hiring": 0,
+      "market": 5
+    },
+    "lastUpdated": "2026-09-03"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "Londoners can now hail Wayve autonomous vehicles through Ube",
+      "Ousted Ukrainian defense chief lands Palantir CEO as first i",
       "Cambridge University spinout launches AI model &quot;competi"
     ],
     "fundingQ": "$50M",
     "components": {
       "funding": 5,
-      "news": 35,
+      "news": 30,
       "hiring": 0,
-      "market": 0
+      "market": 16
     },
-    "lastUpdated": "2026-09-02"
+    "lastUpdated": "2026-09-03"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "OpenAI Astra Releasing in a Few Days, Grok 4.7 and Fable 5.2",
+      "Nvidia discloses $21B stake in SpaceX"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 38
+    },
+    "lastUpdated": "2026-09-03"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -155,7 +172,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-02"
+    "lastUpdated": "2026-09-03"
   },
   {
     "sector": "Ocean & Maritime",
@@ -171,7 +188,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-02"
+    "lastUpdated": "2026-09-03"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -187,25 +204,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-02"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 6,
-    "trend": "declining",
-    "catalysts": [
-      "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
-      "PJM drops Oklo advanced nuclear project from interconnection",
-      "Does Latent Nuclear Deterrence Really Work?"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-09-02"
+    "lastUpdated": "2026-09-03"
   },
   {
     "sector": "Climate & Energy",
@@ -221,11 +220,11 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-02"
+    "lastUpdated": "2026-09-03"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 5,
+    "momentum": 4,
     "trend": "declining",
     "catalysts": [
       "Waymo opens robotaxi rides to the public in 3 new cities, no",
@@ -235,11 +234,11 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-02"
+    "lastUpdated": "2026-09-03"
   },
   {
     "sector": "Quantum Computing",
@@ -255,11 +254,11 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-02"
+    "lastUpdated": "2026-09-03"
   },
   {
     "sector": "Transportation",
-    "momentum": 0,
+    "momentum": 1,
     "trend": "declining",
     "catalysts": [
       "Active transportation ecosystem"
@@ -269,8 +268,8 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 0
+      "market": 6
     },
-    "lastUpdated": "2026-09-02"
+    "lastUpdated": "2026-09-03"
   }
 ]

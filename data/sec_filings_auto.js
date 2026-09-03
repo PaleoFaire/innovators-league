@@ -1,6 +1,12 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-02 10:56:01 UTC
+// Last updated: 2026-09-03 10:55:20 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "4", date: "2026-09-02", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Oklo", form: "4", date: "2026-09-02", description: "xslF345X06/wk-form4_1788381083.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-09-02", description: "xslF345X06/wk-form4_1788380984.xml", isIPO: false, ticker: "OKLO" },
+  { company: "C3.ai", form: "8-K", date: "2026-09-02", description: "ai-20260902.htm", isIPO: false, ticker: "AI" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-09-02", description: "xslF345X06/wk-form4_1788386512.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Astera Labs", form: "4", date: "2026-09-02", description: "xslF345X06/wk-form4_1788381533.xml", isIPO: false, ticker: "ALAB" },
   { company: "AST SpaceMobile", form: "4", date: "2026-09-01", description: "xslF345X06/tm2624604-1_4seq1.xml", isIPO: false, ticker: "ASTS" },
   { company: "Oklo", form: "4", date: "2026-09-01", description: "xslF345X06/wk-form4_1788294918.xml", isIPO: false, ticker: "OKLO" },
   { company: "BlackSky Technology", form: "4", date: "2026-08-31", description: "xslF345X06/wk-form4_1788213568.xml", isIPO: false, ticker: "BKSY" },
@@ -45,10 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Rigetti Computing", form: "4", date: "2026-08-20", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
   { company: "Rigetti Computing", form: "8-K", date: "2026-08-20", description: "tm2623611d2_8k.htm", isIPO: false, ticker: "RGTI" },
   { company: "Rigetti Computing", form: "8-K", date: "2026-08-20", description: "tm2623611d1_8k.htm", isIPO: false, ticker: "RGTI" },
-  { company: "Palantir Technologies", form: "4", date: "2026-08-19", description: "xslF345X06/wk-form4_1787184083.xml", isIPO: false, ticker: "PLTR" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-08-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-08-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-08-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-08-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-08-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
 ];

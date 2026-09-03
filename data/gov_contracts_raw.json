@@ -800,7 +800,7 @@
     "subAgency": "U.S. Special Operations Command",
     "awardType": null,
     "startDate": "2024-09-30",
-    "endDate": "2026-04-01",
+    "endDate": "2026-06-10",
     "description": "ELM-PFCR"
   },
   {
@@ -898,18 +898,6 @@
     "startDate": "2025-09-22",
     "endDate": "2026-09-21",
     "description": "SIP TO 111 FSR AND TRAINING SUPPORT"
-  },
-  {
-    "company": "Anduril",
-    "awardId": "W911W624F0031",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 2532332.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2024-09-24",
-    "endDate": "2026-08-31",
-    "description": "873AUTHORITY"
   },
   {
     "company": "Anduril",
@@ -1198,6 +1186,18 @@
     "startDate": "2026-04-30",
     "endDate": "2027-07-31",
     "description": "AUSTERE COMMS TOWER M&S"
+  },
+  {
+    "company": "Anduril",
+    "awardId": "H9240225FE028",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 412413.63,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2025-09-09",
+    "endDate": "2026-05-30",
+    "description": "SIP TO112 - LOW SWAP SENSOR STUDY"
   },
   {
     "company": "Anduril Industries",
@@ -2000,7 +2000,7 @@
     "subAgency": "U.S. Special Operations Command",
     "awardType": null,
     "startDate": "2024-09-30",
-    "endDate": "2026-04-01",
+    "endDate": "2026-06-10",
     "description": "ELM-PFCR"
   },
   {
@@ -2098,18 +2098,6 @@
     "startDate": "2025-09-22",
     "endDate": "2026-09-21",
     "description": "SIP TO 111 FSR AND TRAINING SUPPORT"
-  },
-  {
-    "company": "Anduril Industries",
-    "awardId": "W911W624F0031",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 2532332.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2024-09-24",
-    "endDate": "2026-08-31",
-    "description": "873AUTHORITY"
   },
   {
     "company": "Anduril Industries",
@@ -2398,6 +2386,18 @@
     "startDate": "2026-04-30",
     "endDate": "2027-07-31",
     "description": "AUSTERE COMMS TOWER M&S"
+  },
+  {
+    "company": "Anduril Industries",
+    "awardId": "H9240225FE028",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 412413.63,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2025-09-09",
+    "endDate": "2026-05-30",
+    "description": "SIP TO112 - LOW SWAP SENSOR STUDY"
   },
   {
     "company": "Shield AI",
@@ -3399,12 +3399,12 @@
     "company": "Palantir Technologies",
     "awardId": "86615526F00002",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 400000.0,
+    "amount": 500000.0,
     "agency": "Department of Housing and Urban Development",
     "subAgency": "Department of Housing and Urban Development",
     "awardType": null,
     "startDate": "2025-12-31",
-    "endDate": "2026-08-31",
+    "endDate": "2026-10-30",
     "description": "PALANTIR PLATFORM DEMONSTRATION AND EVALUATION LICENSE INCLUSIVE OF ANALYTICS SERVICE AND SUPPORT FOR HUGS TO MODERNIZE ITS FINANCIAL AND GRANTS MANAGEMENT SYSTEMS TO IMPROVE EFFICIENCY, DATA QUALITY,"
   },
   {
@@ -4561,42 +4561,6 @@
   },
   {
     "company": "Skydio",
-    "awardId": "140D0425F0850",
-    "recipientName": "SKYDIO, INC",
-    "amount": 166272.15,
-    "agency": "Department of the Interior",
-    "subAgency": "Departmental Offices",
-    "awardType": null,
-    "startDate": "2025-09-02",
-    "endDate": "2026-05-02",
-    "description": "SKYDIO X2E AND NEXT GENERATION UNMANNED AIRCRAFT SYSTEM BLANKET PURCHASE AGREEMENT CALL"
-  },
-  {
-    "company": "Skydio",
-    "awardId": "140D0425F0847",
-    "recipientName": "SKYDIO, INC",
-    "amount": 166272.15,
-    "agency": "Department of the Interior",
-    "subAgency": "Departmental Offices",
-    "awardType": null,
-    "startDate": "2025-09-02",
-    "endDate": "2026-05-02",
-    "description": "SKYDIO X2E AND NEXT GENERATION UNMANNED AIRCRAFT SYSTEM BLANKET PURCHASE AGREEMENT CALL"
-  },
-  {
-    "company": "Skydio",
-    "awardId": "140D0425F0845",
-    "recipientName": "SKYDIO, INC",
-    "amount": 166272.15,
-    "agency": "Department of the Interior",
-    "subAgency": "Departmental Offices",
-    "awardType": null,
-    "startDate": "2025-09-02",
-    "endDate": "2026-05-02",
-    "description": "SKYDIO X2E AND NEXT GENERATION UNMANNED AIRCRAFT SYSTEM BLANKET PURCHASE AGREEMENT CALL"
-  },
-  {
-    "company": "Skydio",
     "awardId": "140D0426F0309",
     "recipientName": "SKYDIO, INC",
     "amount": 147387.25,
@@ -4774,18 +4738,6 @@
     "startDate": "2025-05-30",
     "endDate": "2026-02-27",
     "description": "DRONE - SKYDIO X10D PLUS 3D SCAN"
-  },
-  {
-    "company": "Skydio",
-    "awardId": "140D0425F0861",
-    "recipientName": "SKYDIO, INC",
-    "amount": 41011.8,
-    "agency": "Department of the Interior",
-    "subAgency": "Departmental Offices",
-    "awardType": null,
-    "startDate": "2025-09-02",
-    "endDate": "2026-07-01",
-    "description": "SKYDIO X2E AND NEXT GENERATION UNMANNED AIRCRAFT SYSTEM BLANKET PURCHASE AGREEMENT CALL"
   },
   {
     "company": "Skydio",
@@ -5182,6 +5134,18 @@
     "startDate": "2026-04-02",
     "endDate": "2026-05-02",
     "description": "DRONE"
+  },
+  {
+    "company": "Neros",
+    "awardId": "70LGLY26PSSB00030",
+    "recipientName": "NEROS, INC.",
+    "amount": 13494.5,
+    "agency": "Department of Homeland Security",
+    "subAgency": "Federal Law Enforcement Training Center",
+    "awardType": null,
+    "startDate": "2026-08-25",
+    "endDate": "2026-10-12",
+    "description": "ARCHER 8 DRONES FOR THE FEDERAL LAW ENFORCEMENT TRAINING CENTERS (FLETC) FIRM FIXED-PRICE"
   },
   {
     "company": "Chaos Industries",
@@ -5739,7 +5703,7 @@
     "company": "Impulse Space",
     "awardId": "80NSSC26C0008",
     "recipientName": "IMPULSE SPACE, INC.",
-    "amount": 1300000.0,
+    "amount": 1400000.0,
     "agency": "National Aeronautics and Space Administration",
     "subAgency": "National Aeronautics and Space Administration",
     "awardType": null,
@@ -6202,18 +6166,6 @@
     "startDate": "2025-04-10",
     "endDate": "2026-08-31",
     "description": "LASER SYSTEM"
-  },
-  {
-    "company": "Besxar Space Industries",
-    "awardId": "N6426725C7092",
-    "recipientName": "BESXAR SPACE INDUSTRIES, INC.",
-    "amount": 139545.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Navy",
-    "awardType": null,
-    "startDate": "2025-08-01",
-    "endDate": "2026-01-28",
-    "description": "873AUTHORITY"
   },
   {
     "company": "Twenty",
@@ -8852,7 +8804,7 @@
     "subAgency": "National Aeronautics and Space Administration",
     "awardType": null,
     "startDate": "2026-08-05",
-    "endDate": "2026-09-04",
+    "endDate": "2026-09-15",
     "description": "SBIR PHASE III - LRO REPOSITIONING BASELINE PHASE"
   },
   {

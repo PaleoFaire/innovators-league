@@ -1,74 +1,74 @@
 // Auto-generated news signals
-// Last updated: 2026-09-03T09:36:53.568Z
+// Last updated: 2026-09-03T10:55:12.072Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1788428213568,
+    "id": 1788432912072,
     "type": "milestone",
     "company": "Wayve",
     "headline": "Londoners can now hail Wayve autonomous vehicles through Uber",
     "source": "Tech.eu",
-    "time": "3h ago",
+    "time": "4h ago",
     "impact": "low",
     "unread": true,
     "link": "https://tech.eu/2026/09/03/londoners-can-now-hail-wayve-autonomous-vehicles-through-uber/"
   },
   {
-    "id": 1788428213569,
+    "id": 1788432912073,
     "type": "news",
     "company": "Waymo",
     "headline": "Tesla Robotaxi Fleet Hits 420 Texas Registered Vehicles, Passing Waymo Soon",
     "source": "Next Big Future",
-    "time": "6h ago",
+    "time": "7h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/09/tesla-robotaxi-fleet-hits-420-texas-registered-vehicles.html"
   },
   {
-    "id": 1788428213570,
+    "id": 1788432912074,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI’s new reasoning technique alarms AI safety experts",
     "source": "TechCrunch",
-    "time": "13h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/"
   },
   {
-    "id": 1788428213571,
+    "id": 1788432912075,
     "type": "news",
     "company": "OpenAI",
     "headline": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
     "source": "Wired",
-    "time": "14h ago",
+    "time": "16h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/"
   },
   {
-    "id": 1788428213572,
+    "id": 1788432912076,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo racked up 8,300+ SF parking tickets and nearly $1M in fines",
     "source": "Electrek",
-    "time": "15h ago",
+    "time": "16h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://electrek.co/2026/09/02/waymo-san-francisco-parking-tickets/"
   },
   {
-    "id": 1788428213573,
+    "id": 1788432912077,
     "type": "news",
     "company": "OpenAI",
     "headline": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
     "source": "TechCrunch",
-    "time": "16h ago",
+    "time": "17h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/"
   },
   {
-    "id": 1788428213574,
+    "id": 1788432912078,
     "type": "news",
     "company": "Zoox",
     "headline": "The Zoox Safety Case Framework",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/09/01/the-zoox-safety-case-framework/"
   },
   {
-    "id": 1788428213575,
+    "id": 1788432912079,
     "type": "ipo",
     "company": "Waymo",
     "headline": "Waymo Invites Riders in 3 New Cities! Now In 14",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/09/01/waymo-invites-riders-in-3-new-cities/"
   },
   {
-    "id": 1788428213576,
+    "id": 1788432912080,
     "type": "hire",
     "company": "Palantir",
     "headline": "Ousted Ukrainian defense chief lands Palantir CEO as first investor in new venture",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/global/europe/2026/09/01/ousted-ukrainian-defense-chief-lands-palantir-ceo-as-first-investor-in-new-venture/"
   },
   {
-    "id": 1788428213577,
+    "id": 1788432912081,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Astra Releasing in a Few Days, Grok 4.7 and Fable 5.2 Also in September",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/09/openai-astra-releasing-in-a-few-days-grok-4-7-and-fable-5-2-also-in-september.html"
   },
   {
-    "id": 1788428213578,
+    "id": 1788432912082,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/"
   },
   {
-    "id": 1788428213579,
+    "id": 1788432912083,
     "type": "ipo",
     "company": "Deterrence",
     "headline": "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://warontherocks.com/the-atlantic-brief-u-s-and-european-perspectives-on-nuclear-deterrence/"
   },
   {
-    "id": 1788428213580,
+    "id": 1788432912084,
     "type": "ipo",
     "company": "Waymo",
     "headline": "Waymo opens robotaxi rides to the public in 3 new cities, now 14 total",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/09/01/waymo-public-robotaxi-denver-san-diego-tampa/"
   },
   {
-    "id": 1788428213581,
+    "id": 1788432912085,
     "type": "funding",
     "company": "Scale AI",
     "headline": "Italian obesity digital clinic Holifya raises €2M to scale AI-supported GLP-1 care",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/09/01/italian-obesity-digital-clinic-holifya-raises-eur2m-to-scale-ai-supported-glp-1-care/"
   },
   {
-    "id": 1788428213582,
+    "id": 1788432912086,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "Cambridge University spinout launches AI model &quot;competitive&quot; with OpenAI and Anthropic",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/09/01/cambridge-university-spinout-launches-ai-model-competitive-with-openai-and-anthropic/"
   },
   {
-    "id": 1788428213583,
+    "id": 1788432912087,
     "type": "hire",
     "company": "Photoroom",
     "headline": "Photoroom co-founder quits executive role",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/09/01/photoroom-co-founder-quits-executive-role/"
   },
   {
-    "id": 1788428213584,
+    "id": 1788432912088,
     "type": "news",
     "company": "Skild AI",
     "headline": "Skild AI unveils S1 flagship robot foundation model",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/"
   },
   {
-    "id": 1788428213585,
+    "id": 1788432912089,
     "type": "news",
     "company": "OpenAI",
     "headline": "The Hugging Face hack could indicate cultural issues at OpenAI",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/"
   },
   {
-    "id": 1788428213586,
+    "id": 1788432912090,
     "type": "news",
     "company": "Oklo",
     "headline": "PJM drops Oklo advanced nuclear project from interconnection study cycle",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.utilitydive.com/news/pjm-oklo-advanced-nuclear-ferc-interconnection/829150/"
   },
   {
-    "id": 1788428213587,
+    "id": 1788432912091,
     "type": "hire",
     "company": "PsiQuantum",
     "headline": "PsiQuantum’s Ice Cream Factory",
