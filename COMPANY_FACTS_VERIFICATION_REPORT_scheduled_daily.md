@@ -1,92 +1,73 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-09-02T09:26:19+00:00  
+**Generated:** 2026-09-03T09:35:27+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 38 companies  
+**Cohort size:** 31 companies  
 
-**New Claude extractions this run:** 38  
+**New Claude extractions this run:** 31  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 32 | 84% |
-| 🔧 Changes proposed | 6 | 16% |
+| ✅ Cleared (data matches sources) | 27 | 87% |
+| 🔧 Changes proposed | 4 | 13% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (6 companies)
+## 🔧 Proposed Changes (4 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
-
-### Mammoth Biosciences
-
-- **`totalRaised`:** `$600M+` → `$465M+`  
-  Sources: [company_about](https://mammoth.bio/about)
-
-  **Notes:** Source 3 (Holifya news article) is unrelated to Mammoth Biosciences and was not used. Current stage could not be verified from sources. Valuation not found in sources. Investor list not independently verifiable from provided sources (database entry lists investors but sources do not provide comprehensive list). Database entry mentions 2025 layoffs and de-emphasis of diagnostics, but these details are not in provided sources.
 
 ### Nano Nuclear Energy
 
 - **`fundingStage`:** `Seed` → `Public`  
   Sources: [company_website](https://nanonuclearenergy.com) · [company_about](https://nanonuclearenergy.com/about)
 
-  **Notes:** Company is publicly traded on NASDAQ under ticker NNE. Sources [0] and [1] are from company website and contain identical content. Source [2] appears to be about a different company (Valar Atomics) and was not used. No founder names, founding year, funding amounts, or valuation data could be verified from provided sources. Database entry claims about ODIN sale, Jay Jiang Yu as founder, 2022 founding, Seed stage, $600M+ raised, and $808M valuation could not be verified.
+  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicates of the same company website content. Source [2] (Canary Media article about Valar Atomics) is unrelated to Nano Nuclear Energy and provides no verifiable information about this company. Founded year, founders, total_raised, valuation, and investors cannot be verified from provided sources. Database entry claims about ODIN sale to Cambridge AtomWorks, $600M+ raised, $808M valuation, and founder Jay Jiang Yu cannot be verified from these sources.
 
 ### Oxford Nanopore Technologies
 
 - **`location`:** `Oxford, UK` → `Oxford, United Kingdom`  
   Sources: [company_about](https://nanoporetech.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Oxford_Nanopore_Technologies)
 
-  **Notes:** Company is listed on London Stock Exchange (ticker ONT) and is a FTSE 250 constituent. Francis Van Parys became CEO in December 2025, succeeding Gordon Sanghera. Source [3] is about a different company (Holifya) and contains no information about Oxford Nanopore Technologies.
-
-### Scale AI
-
-- **`location`:** `San Francisco, CA` → `San Francisco, California`  
-  Sources: [company_about](https://scale.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Scale_AI)
-- **`fundingStage`:** `Series B` → `Private`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Scale_AI)
-
-  **Notes:** In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang left to join Meta and was replaced as CEO by Jason Droege. The company remains independent from Meta. Wikipedia notes CEO as Francis deSouza (appointed based on source [0] and [1] news); however, source [2] indicates Jason Droege replaced Wang in June 2025, suggesting a subsequent change.
+  **Notes:** Company listed on London Stock Exchange (LSE: ONT) as of 30 September 2021. Francis Van Parys appointed CEO in December 2025, succeeding Gordon Sanghera. Gordon Sanghera was previously listed as founder and later served as CEO.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** SpaceX completed initial public offering on June 12, 2026. Wikipedia source shows Elon Musk controls 85% voting power (not 82% as in database entry). Nvidia's stake ($21B) disclosed per source [3] but equity percentage not provided in sources, so added as investor based on ownership disclosure.
+  **Notes:** Company completed IPO on June 12, 2026, raising $86B (largest IPO in history per source). Wikipedia source indicates Elon Musk owns 42% equity with 85% voting control (source states 82% in one place, 85% in another - noted discrepancy). Alphabet Inc. holds 4.19% equity per Wikipedia. Nvidia disclosed $21B stake per Ars Technica (source 3).
 
 ### Starcloud
 
 - **`fundingStage`:** `Seed` → `Series A`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Starcloud)
 
-  **Notes:** Originally founded as Lumen Orbit in January 2024 in El Segundo, California; rebranded to Starcloud in March 2025 following legal challenge from Lumen Technologies. Series A announced March 30, 2026, making Starcloud the fastest Y Combinator company to reach unicorn status (17 months after completing the program).
+  **Notes:** Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Series A round announced March 30, 2026. Wikipedia source indicates company became fastest unicorn in Y Combinator history at 17 months after completing program. Starcloud-1 launched November 2, 2025.
 
 ---
 
-## ✅ Cleared (32 companies)
+## ✅ Cleared (27 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
 - Antares
-- Asimov
 - Astera Labs
 - Aurora Innovation
 - Base Power
 - Cape
-- Cognition
 - Deterrence
-- Einride
-- Forterra
 - Galvanick
 - Hailo
+- Mammoth Biosciences
 - Neko Health
 - Oklo
 - Orangewood Labs
@@ -94,20 +75,19 @@ Sample (first 30):
 - Percepto
 - Photonic Inc
 - Physical Intelligence
-- Pivotal
-- Profluent
 - PsiQuantum
 - QuiX Quantum
 - Radiant
 - Rebellions
 - Sage Geosystems
+- Scale AI
 - Skild AI
 - Valar Atomics
 - Waymo
-- Wayve
-- *...and 2 more*
+- Xanadu Quantum Technologies
+- ideaForge
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-09-02T09:26:19+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-09-03T09:35:28+00:00*

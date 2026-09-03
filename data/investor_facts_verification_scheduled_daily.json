@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T09:26:27+00:00",
+  "generatedAt": "2026-09-03T09:35:35+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 1,
@@ -39,7 +39,7 @@
           "Nicolas Dessaigne"
         ],
         "sector_focus": null,
-        "thesis": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support to help startups achieve product-market fit and improve their business models.",
+        "thesis": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support. Companies are helped to achieve better products with more users and more options for raising money.",
         "website": "https://www.ycombinator.com",
         "sources_per_field": {
           "name": [
@@ -50,13 +50,13 @@
             2
           ],
           "flagship_fund": [
-            0
+            0,
+            1
           ],
           "founded_year": [
             2
           ],
           "hq": [
-            0,
             2
           ],
           "key_partners": [
@@ -65,18 +65,15 @@
           "thesis": [
             0,
             1
-          ],
-          "website": [
-            0
           ]
         },
-        "notes": "Founded March 2005 by Paul Graham, Jessica Livingston, Robert Tappan Morris, and Trevor Blackwell. Garry Tan became President and CEO in January 2023. Moved headquarters from Mountain View to San Francisco in spring 2023. Jared Friedman succeeded Michael Seibel as Managing Partner in March 2024."
+        "notes": "Garry Tan became President and CEO in January 2023 (source 2). YC relocated headquarters from Mountain View to San Francisco in spring 2023 (source 2). Four batches per year confirmed (sources 0, 1, 2). Sector focus cannot be verified from sources provided."
       },
       "changes": [
         {
           "field": "thesis",
-          "current": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support. YC continues to help founders after the program ends through its alumni network.",
-          "verified": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support to help startups achieve product-market fit and improve their business models.",
+          "current": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support to help startups achieve product-market fit and improve their business models.",
+          "verified": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support. Companies are helped to achieve better products with more users and more options for raising money.",
           "sources": [
             0,
             1
@@ -110,7 +107,7 @@
           "url": "https://www.utilitydive.com/news/pjm-oklo-advanced-nuclear-ferc-interconnection/829150/"
         }
       ],
-      "notes": "Founded March 2005 by Paul Graham, Jessica Livingston, Robert Tappan Morris, and Trevor Blackwell. Garry Tan became President and CEO in January 2023. Moved headquarters from Mountain View to San Francisco in spring 2023. Jared Friedman succeeded Michael Seibel as Managing Partner in March 2024."
+      "notes": "Garry Tan became President and CEO in January 2023 (source 2). YC relocated headquarters from Mountain View to San Francisco in spring 2023 (source 2). Four batches per year confirmed (sources 0, 1, 2). Sector focus cannot be verified from sources provided."
     }
   ],
   "unverifiable": []

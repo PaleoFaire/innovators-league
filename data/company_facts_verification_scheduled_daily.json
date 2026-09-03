@@ -1,27 +1,24 @@
 {
-  "generatedAt": "2026-09-02T09:26:19+00:00",
+  "generatedAt": "2026-09-03T09:35:27+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 38,
-  "newExtractionsThisRun": 38,
+  "cohortSize": 31,
+  "newExtractionsThisRun": 31,
   "summary": {
-    "cleared": 32,
-    "changesProposed": 6,
+    "cleared": 27,
+    "changesProposed": 4,
     "unverifiable": 0
   },
   "cleared": [
     "Antares",
-    "Asimov",
     "Astera Labs",
     "Aurora Innovation",
     "Base Power",
     "Cape",
-    "Cognition",
     "Deterrence",
-    "Einride",
-    "Forterra",
     "Galvanick",
     "Hailo",
+    "Mammoth Biosciences",
     "Neko Health",
     "Oklo",
     "Orangewood Labs",
@@ -29,109 +26,19 @@
     "Percepto",
     "Photonic Inc",
     "Physical Intelligence",
-    "Pivotal",
-    "Profluent",
     "PsiQuantum",
     "QuiX Quantum",
     "Radiant",
     "Rebellions",
     "Sage Geosystems",
+    "Scale AI",
     "Skild AI",
     "Valar Atomics",
     "Waymo",
-    "Wayve",
     "Xanadu Quantum Technologies",
     "ideaForge"
   ],
   "changesProposed": [
-    {
-      "name": "Mammoth Biosciences",
-      "current": {
-        "name": "Mammoth Biosciences",
-        "founder": "Jennifer Doudna, Trevor Martin, Janice Chen, Lucas Harrington",
-        "location": "Brisbane, CA",
-        "founded": 2017,
-        "fundingStage": "Series D",
-        "totalRaised": "$600M+",
-        "website": "https://mammoth.bio"
-      },
-      "verified": {
-        "name": "Mammoth Biosciences",
-        "description": "Biotechnology company developing in vivo gene editing therapeutics using proprietary ultracompact CRISPR systems. The company focuses on CRISPR-based precision editing for life-threatening and debilitating diseases.",
-        "founders": [
-          "Jennifer Doudna",
-          "Trevor Martin",
-          "Janice Chen",
-          "Lucas Harrington"
-        ],
-        "location": "Brisbane, CA",
-        "founded_year": 2017,
-        "current_stage": null,
-        "total_raised": "$465M+",
-        "valuation": null,
-        "investors": null,
-        "website": "https://mammoth.bio",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            1,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "total_raised": [
-            1
-          ]
-        },
-        "notes": "Source 3 (Holifya news article) is unrelated to Mammoth Biosciences and was not used. Current stage could not be verified from sources. Valuation not found in sources. Investor list not independently verifiable from provided sources (database entry lists investors but sources do not provide comprehensive list). Database entry mentions 2025 layoffs and de-emphasis of diagnostics, but these details are not in provided sources."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$600M+",
-          "verified": "$465M+",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://mammoth.bio"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://mammoth.bio/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mammoth_Biosciences"
-        },
-        {
-          "idx": 3,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/09/01/italian-obesity-digital-clinic-holifya-raises-eur2m-to-scale-ai-supported-glp-1-care/"
-        }
-      ],
-      "notes": "Source 3 (Holifya news article) is unrelated to Mammoth Biosciences and was not used. Current stage could not be verified from sources. Valuation not found in sources. Investor list not independently verifiable from provided sources (database entry lists investors but sources do not provide comprehensive list). Database entry mentions 2025 layoffs and de-emphasis of diagnostics, but these details are not in provided sources."
-    },
     {
       "name": "Nano Nuclear Energy",
       "current": {
@@ -144,8 +51,8 @@
         "website": "https://nanonuclearenergy.com"
       },
       "verified": {
-        "name": "NANO Nuclear Energy Inc.",
-        "description": "An advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, along with nuclear fuel fabrication, transportation, and space applications. The company is listed publicly on NASDAQ (NNE).",
+        "name": "Nano Nuclear Energy Inc.",
+        "description": "Advanced technology-driven nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI MMR systems, along with nuclear fuel fabrication, transportation, space applications, and consulting services.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -160,7 +67,6 @@
             1
           ],
           "description": [
-            0,
             1
           ],
           "location": [
@@ -169,13 +75,9 @@
           "current_stage": [
             0,
             1
-          ],
-          "website": [
-            0,
-            1
           ]
         },
-        "notes": "Company is publicly traded on NASDAQ under ticker NNE. Sources [0] and [1] are from company website and contain identical content. Source [2] appears to be about a different company (Valar Atomics) and was not used. No founder names, founding year, funding amounts, or valuation data could be verified from provided sources. Database entry claims about ODIN sale, Jay Jiang Yu as founder, 2022 founding, Seed stage, $600M+ raised, and $808M valuation could not be verified."
+        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicates of the same company website content. Source [2] (Canary Media article about Valar Atomics) is unrelated to Nano Nuclear Energy and provides no verifiable information about this company. Founded year, founders, total_raised, valuation, and investors cannot be verified from provided sources. Database entry claims about ODIN sale to Cambridge AtomWorks, $600M+ raised, $808M valuation, and founder Jay Jiang Yu cannot be verified from these sources."
       },
       "changes": [
         {
@@ -205,7 +107,7 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly traded on NASDAQ under ticker NNE. Sources [0] and [1] are from company website and contain identical content. Source [2] appears to be about a different company (Valar Atomics) and was not used. No founder names, founding year, funding amounts, or valuation data could be verified from provided sources. Database entry claims about ODIN sale, Jay Jiang Yu as founder, 2022 founding, Seed stage, $600M+ raised, and $808M valuation could not be verified."
+      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicates of the same company website content. Source [2] (Canary Media article about Valar Atomics) is unrelated to Nano Nuclear Energy and provides no verifiable information about this company. Founded year, founders, total_raised, valuation, and investors cannot be verified from provided sources. Database entry claims about ODIN sale to Cambridge AtomWorks, $600M+ raised, $808M valuation, and founder Jay Jiang Yu cannot be verified from these sources."
     },
     {
       "name": "Oxford Nanopore Technologies",
@@ -262,7 +164,7 @@
             2
           ]
         },
-        "notes": "Company is listed on London Stock Exchange (ticker ONT) and is a FTSE 250 constituent. Francis Van Parys became CEO in December 2025, succeeding Gordon Sanghera. Source [3] is about a different company (Holifya) and contains no information about Oxford Nanopore Technologies."
+        "notes": "Company listed on London Stock Exchange (LSE: ONT) as of 30 September 2021. Francis Van Parys appointed CEO in December 2025, succeeding Gordon Sanghera. Gordon Sanghera was previously listed as founder and later served as CEO."
       },
       "changes": [
         {
@@ -297,128 +199,7 @@
           "url": "https://tech.eu/2026/09/01/italian-obesity-digital-clinic-holifya-raises-eur2m-to-scale-ai-supported-glp-1-care/"
         }
       ],
-      "notes": "Company is listed on London Stock Exchange (ticker ONT) and is a FTSE 250 constituent. Francis Van Parys became CEO in December 2025, succeeding Gordon Sanghera. Source [3] is about a different company (Holifya) and contains no information about Oxford Nanopore Technologies."
-    },
-    {
-      "name": "Scale AI",
-      "current": {
-        "name": "Scale AI",
-        "founder": "Alexandr Wang, Lucy Guo",
-        "location": "San Francisco, CA",
-        "founded": 2016,
-        "fundingStage": "Series B",
-        "totalRaised": "$14.8B",
-        "website": "https://scale.com"
-      },
-      "verified": {
-        "name": "Scale AI",
-        "description": "An artificial intelligence infrastructure and software company that provides high-quality training data, RLHF services, LLM evaluation, and full-stack AI systems for enterprises and governments. The company powers frontier AI models and deploys AI applications for critical decisions.",
-        "founders": [
-          "Alexandr Wang",
-          "Lucy Guo"
-        ],
-        "location": "San Francisco, California",
-        "founded_year": 2016,
-        "current_stage": "Private",
-        "total_raised": "$14.8B",
-        "valuation": "$29B",
-        "investors": [
-          "Meta Platforms",
-          "Accel",
-          "Founders Fund",
-          "Index Ventures",
-          "Tiger Global",
-          "Coatue",
-          "Dragoneer",
-          "Greenoaks",
-          "Amazon"
-        ],
-        "website": "https://scale.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
-            1,
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang left to join Meta and was replaced as CEO by Jason Droege. The company remains independent from Meta. Wikipedia notes CEO as Francis deSouza (appointed based on source [0] and [1] news); however, source [2] indicates Jason Droege replaced Wang in June 2025, suggesting a subsequent change."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "San Francisco, CA",
-          "verified": "San Francisco, California",
-          "sources": [
-            1,
-            2
-          ]
-        },
-        {
-          "field": "fundingStage",
-          "current": "Series B",
-          "verified": "Private",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://scale.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://scale.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Scale_AI"
-        },
-        {
-          "idx": 3,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/09/01/italian-obesity-digital-clinic-holifya-raises-eur2m-to-scale-ai-supported-glp-1-care/"
-        }
-      ],
-      "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang left to join Meta and was replaced as CEO by Jason Droege. The company remains independent from Meta. Wikipedia notes CEO as Francis deSouza (appointed based on source [0] and [1] news); however, source [2] indicates Jason Droege replaced Wang in June 2025, suggesting a subsequent change."
+      "notes": "Company listed on London Stock Exchange (LSE: ONT) as of 30 September 2021. Francis Van Parys appointed CEO in December 2025, succeeding Gordon Sanghera. Gordon Sanghera was previously listed as founder and later served as CEO."
     },
     {
       "name": "SpaceX",
@@ -474,7 +255,7 @@
             3
           ]
         },
-        "notes": "SpaceX completed initial public offering on June 12, 2026. Wikipedia source shows Elon Musk controls 85% voting power (not 82% as in database entry). Nvidia's stake ($21B) disclosed per source [3] but equity percentage not provided in sources, so added as investor based on ownership disclosure."
+        "notes": "Company completed IPO on June 12, 2026, raising $86B (largest IPO in history per source). Wikipedia source indicates Elon Musk owns 42% equity with 85% voting control (source states 82% in one place, 85% in another - noted discrepancy). Alphabet Inc. holds 4.19% equity per Wikipedia. Nvidia disclosed $21B stake per Ars Technica (source 3)."
       },
       "changes": [
         {
@@ -508,7 +289,7 @@
           "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/"
         }
       ],
-      "notes": "SpaceX completed initial public offering on June 12, 2026. Wikipedia source shows Elon Musk controls 85% voting power (not 82% as in database entry). Nvidia's stake ($21B) disclosed per source [3] but equity percentage not provided in sources, so added as investor based on ownership disclosure."
+      "notes": "Company completed IPO on June 12, 2026, raising $86B (largest IPO in history per source). Wikipedia source indicates Elon Musk owns 42% equity with 85% voting control (source states 82% in one place, 85% in another - noted discrepancy). Alphabet Inc. holds 4.19% equity per Wikipedia. Nvidia disclosed $21B stake per Ars Technica (source 3)."
     },
     {
       "name": "Starcloud",
@@ -523,7 +304,7 @@
       },
       "verified": {
         "name": "Starcloud",
-        "description": "A United States-based company that designs, builds, and deploys data centers in space using proprietary technology. The company launched its first test satellite, Starcloud-1, equipped with an Nvidia H100 GPU in November 2025.",
+        "description": "A company that designs, builds, and deploys data centers in space using proprietary technology. Starcloud launched its first test satellite, Starcloud-1, in November 2025 equipped with an Nvidia H100 GPU.",
         "founders": [
           "Philip Johnston",
           "Ezra Feilden",
@@ -542,6 +323,7 @@
         "sources_per_field": {
           "name": [
             0,
+            1,
             2
           ],
           "description": [
@@ -573,10 +355,11 @@
           ],
           "website": [
             0,
+            1,
             2
           ]
         },
-        "notes": "Originally founded as Lumen Orbit in January 2024 in El Segundo, California; rebranded to Starcloud in March 2025 following legal challenge from Lumen Technologies. Series A announced March 30, 2026, making Starcloud the fastest Y Combinator company to reach unicorn status (17 months after completing the program)."
+        "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Series A round announced March 30, 2026. Wikipedia source indicates company became fastest unicorn in Y Combinator history at 17 months after completing program. Starcloud-1 launched November 2, 2025."
       },
       "changes": [
         {
@@ -610,7 +393,7 @@
           "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
         }
       ],
-      "notes": "Originally founded as Lumen Orbit in January 2024 in El Segundo, California; rebranded to Starcloud in March 2025 following legal challenge from Lumen Technologies. Series A announced March 30, 2026, making Starcloud the fastest Y Combinator company to reach unicorn status (17 months after completing the program)."
+      "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Series A round announced March 30, 2026. Wikipedia source indicates company became fastest unicorn in Y Combinator history at 17 months after completing program. Starcloud-1 launched November 2, 2025."
     }
   ],
   "unverifiable": []
