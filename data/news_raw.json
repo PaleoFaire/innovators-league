@@ -1,5 +1,48 @@
 [
   {
+    "title": "Utilities are racing to link up with fusion startups, with Realta Fusion the latest to benefit",
+    "link": "https://techcrunch.com/2026/09/03/utilities-are-racing-to-link-up-with-fusion-startups-with-realta-fusion-the-latest-to-benefit/",
+    "description": "The grid has been straining under the weight of new AI data centers, and that has utilities courting fusion startups.",
+    "pubDate": "Thu, 03 Sep 2026 19:29:16 +0000",
+    "category": "Climate",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Realta Fusion",
+    "matchedCompanies": [
+      "Realta Fusion",
+      "Crusoe Energy",
+      "WeaveGrid"
+    ],
+    "sectors": [
+      "nuclear",
+      "ai",
+      "climate"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "OpenAI GPT 6 Astra Limited Release that Beats Anthropic Fable 5.1 on Benchmarks",
+    "link": "https://www.nextbigfuture.com/2026/09/openai-gpt-6-astra-limited-release-that-beats-anthropic-fable-5-1-on-benchmarks.html",
+    "description": "GPT-6 Astra leads every comparable benchmark against Claude Fable 5.1, Claude Fable 5, and Claude Opus 5. Clear wins (large gaps) ARC-AGI-3: Astra 98.6% vs Opus 5 30.2% (high). No scores for the Fable models. FrontierMath Tier 4 (v2): Astra 97.6% vs Fable 5.1 / Fable 5 87.8% and Opus 5 73.2%. Automa",
+    "pubDate": "Thu, 03 Sep 2026 19:00:17 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
     "title": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era",
     "link": "https://www.wired.com/story/openai-says-gpt-6-can-use-a-computer-better-than-a-human/",
     "description": "OpenAI leaders think the company’s next generation model, which excels at computer use and coding, may mark a major milestone in AI development.",
@@ -16,7 +59,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
     "title": "OpenAI launches Astra, its powerful (and controversial) new model",
@@ -35,7 +78,31 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "Just now"
+    "time": "3h ago"
+  },
+  {
+    "title": "NASA to Cover Progress 96 Spacecraft Launch, Docking",
+    "link": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/",
+    "description": "NASA will provide live coverage of the launch and docking of a Roscosmos cargo spacecraft carrying about three tons of food, fuel, and supplies for the crew aboard the International Space Station. The unpiloted Progress 96 resupply spacecraft is scheduled to launch at 12:15 p.m. EDT (9:15 p.m. Baiko",
+    "pubDate": "Thu, 03 Sep 2026 17:06:00 +0000",
+    "category": "International Space Station (ISS)",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "Cover",
+    "matchedCompanies": [
+      "Cover",
+      "Vast",
+      "Axiom Space",
+      "Osmo"
+    ],
+    "sectors": [
+      "construction",
+      "space",
+      "consumer"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "4h ago"
   },
   {
     "title": "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk",
@@ -57,7 +124,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "1h ago"
+    "time": "4h ago"
   },
   {
     "title": "NVIDIA plans to acquire Hugging Face and keep AI development platform open",
@@ -76,7 +143,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "6h ago"
   },
   {
     "title": "Rivian’s futuristic ALSO e-bike may be at its ultimate delay",
@@ -95,7 +162,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "4h ago"
+    "time": "7h ago"
   },
   {
     "title": "Hermeus picks Anduril autonomy for Quarterhorse drone",
@@ -114,7 +181,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "8h ago"
   },
   {
     "title": "Amazon&#8217;s Zoox expands its robotaxi service to Las Vegas airport",
@@ -135,7 +202,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
+    "time": "9h ago"
   },
   {
     "title": "Londoners can now hail Wayve autonomous vehicles through Uber",
@@ -159,7 +226,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "12h ago"
+    "time": "15h ago"
   },
   {
     "title": "Tesla Robotaxi Fleet Hits 420 Texas Registered Vehicles, Passing Waymo Soon",
@@ -180,28 +247,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "15h ago"
-  },
-  {
-    "title": "OpenAI’s new reasoning technique alarms AI safety experts",
-    "link": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
-    "description": "OpenAI’s new Astra model will use “recurrent depth,” a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models.",
-    "pubDate": "Wed, 02 Sep 2026 20:19:14 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "Anthropic",
-      "Kolena"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "22h ago"
+    "time": "18h ago"
   },
   {
     "title": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
@@ -221,7 +267,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "Waymo racked up 8,300+ SF parking tickets and nearly $1M in fines",
@@ -306,27 +352,6 @@
     "time": "1d ago"
   },
   {
-    "title": "OpenAI Astra Releasing in a Few Days, Grok 4.7 and Fable 5.2 Also in September",
-    "link": "https://www.nextbigfuture.com/2026/09/openai-astra-releasing-in-a-few-days-grok-4-7-and-fable-5-2-also-in-september.html",
-    "description": "OpenAI Astra is getting cybersecurity safeguards but will be released soon. It will like release before the end of the week. OpenAI said it might reach a critical level of cybersecurity capability. Astra meets the Critical cybersecurity capability threshold under the OpenAI Preparedness Framework. I",
-    "pubDate": "Tue, 01 Sep 2026 23:11:56 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "Galvanick"
-    ],
-    "sectors": [
-      "ai",
-      "defense"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
     "title": "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence",
     "link": "https://warontherocks.com/the-atlantic-brief-u-s-and-european-perspectives-on-nuclear-deterrence/",
     "description": "Date: Wednesday, Sept. 23, 2026Time: 12:00-1:00 PM ETThe second joint webinar by RUSI and War on the Rocks: Two leading defense publications from both sides of the Atlantic present their expert panel.&#160;OverviewFor this edition of The Atlantic Brief, the Royal United Services Institute and War on",
@@ -343,7 +368,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Waymo opens robotaxi rides to the public in 3 new cities, now 14 total",
@@ -430,7 +455,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
