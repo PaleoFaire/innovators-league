@@ -1,15 +1,126 @@
 {
   "meta": {
-    "generated_at": "2026-09-02T11:29:00.022777+00:00",
+    "generated_at": "2026-09-03T11:27:10.592875+00:00",
     "window_days": 10,
-    "filings_scanned": 1048,
-    "candidates_considered": 245,
-    "published": 1,
+    "filings_scanned": 1195,
+    "candidates_considered": 276,
+    "published": 3,
     "roster_size": 2467,
     "roster_with_pedigree": 192,
     "method": "SEC Form D formations, filtered to new frontier-adjacent US entities, matched against founders already documented in COMPANIES. Confidence tiers reflect what the public record supports, not what is plausible."
   },
   "rows": [
+    {
+      "cik": "2152356",
+      "accession": "000215235626000001",
+      "entity": "DISA Uranium Corporaiton",
+      "industry": "Other Energy",
+      "year_inc": 2026,
+      "state": "WY",
+      "amount_sold": 105136747.0,
+      "first_sale": "2026-08-19",
+      "persons": [
+        {
+          "name": "Greyson Buckingham",
+          "key": "greysonbuckingham",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "John Lee",
+          "key": "johnlee",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Ryan Lance",
+          "key": "ryanlance",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "George Pyper",
+          "key": "georgepyper",
+          "roles": [
+            "Director"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Scott Saxberg",
+          "key": "scottsaxberg",
+          "roles": [
+            "Director"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Martin Reed",
+          "key": "martinreed",
+          "roles": [
+            "Director"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Jeffrey Merrifield",
+          "key": "jeffreymerrifield",
+          "roles": [
+            "Director"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Richard Patricio",
+          "key": "richardpatricio",
+          "roles": [
+            "Director"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Phillip Williams",
+          "key": "phillipwilliams",
+          "roles": [
+            "Director"
+          ],
+          "state": "WYOMING"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2152356/000215235626000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152356&type=D&dateb=&owner=include&count=10",
+      "filed": "20260902",
+      "matches": [
+        {
+          "person": "John Lee",
+          "roles": [
+            "Executive Officer"
+          ],
+          "known_for": [
+            "Safire"
+          ],
+          "employers": [],
+          "evidence": [],
+          "name_ambiguous": true
+        }
+      ],
+      "score": 52,
+      "confidence": "Founder's next company",
+      "reasons": [
+        "Name match on John Lee, but that name is common or ambiguous in our data \u2014 verify before acting",
+        "self-classified as Other Energy",
+        "$105M already sold",
+        "incorporated this year",
+        "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
+      ]
+    },
     {
       "cik": "2151281",
       "accession": "000215128126000001",
@@ -72,6 +183,101 @@
         "$4.5M already sold",
         "incorporated 2025",
         "Nothing beyond the name lines up \u2014 treat as a weak lead",
+        "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
+      ]
+    },
+    {
+      "cik": "2152731",
+      "accession": "000215273126000001",
+      "entity": "DISA Tech, Inc.",
+      "industry": "Other Energy",
+      "year_inc": 2026,
+      "state": "WY",
+      "amount_sold": 2960.0,
+      "first_sale": "2026-08-19",
+      "persons": [
+        {
+          "name": "Milan Sjaus",
+          "key": "milansjaus",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "John Lee",
+          "key": "johnlee",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Jose Rico",
+          "key": "joserico",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Ryan Lance",
+          "key": "ryanlance",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Greyson Buckingham",
+          "key": "greysonbuckingham",
+          "roles": [
+            "Director"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Ricardo Garib",
+          "key": "ricardogarib",
+          "roles": [
+            "Director"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Martin Reed",
+          "key": "martinreed",
+          "roles": [
+            "Director"
+          ],
+          "state": "WYOMING"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2152731/000215273126000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152731&type=D&dateb=&owner=include&count=10",
+      "filed": "20260902",
+      "matches": [
+        {
+          "person": "John Lee",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "known_for": [
+            "Safire"
+          ],
+          "employers": [],
+          "evidence": [],
+          "name_ambiguous": true
+        }
+      ],
+      "score": 38,
+      "confidence": "Founder's next company",
+      "reasons": [
+        "Name match on John Lee, but that name is common or ambiguous in our data \u2014 verify before acting",
+        "self-classified as Other Energy",
+        "incorporated this year",
         "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
       ]
     }
