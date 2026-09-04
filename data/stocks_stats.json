@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -1.83,
+      "avg_change": -5.97,
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -6.77,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -2.34,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -3.21,
+      "avg_change": -1.81,
       "count": 7
     },
     "nuclear": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -4.83,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.23,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -1.02,
+      "avg_change": 2.49,
       "count": 3
     },
     "quantum": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -7.26,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -1.59,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -5.81,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -0.56,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.39,
+      "avg_change": -0.77,
       "count": 2
     },
     "chips": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -3.69,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 6.01,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "AUR",
-      "Aurora Innovation",
-      11.07
-    ],
-    [
-      "TSLA",
-      "Tesla",
-      6.08
+      "ALAB",
+      "Astera Labs",
+      9.23
     ],
     [
       "SLDP",
       "Solid Power",
-      4.42
+      8.58
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      8.53
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      1.12
+      7.81
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      0.66
+      "AUR",
+      "Aurora Innovation",
+      7.55
     ]
   ],
   "topLosers": [
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -8.89
+      "ASRHF",
+      "Astroscale",
+      -5.65
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      -9.15
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      -12.81
+      "PLTR",
+      "Palantir",
+      -5.97
     ],
     [
       "PL",
       "Planet Labs",
-      -13.28
+      -8.88
+    ],
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -10.93
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -18.92
+      -12.3
     ]
   ],
-  "lastUpdated": "2026-09-04 12:10:33"
+  "lastUpdated": "2026-09-04 16:54:46"
 }
