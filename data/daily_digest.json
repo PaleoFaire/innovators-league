@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T21:21:39.509988+00:00",
+  "generatedAt": "2026-09-04T23:55:09.318964+00:00",
   "date": "2026-09-04",
   "dateDisplay": "Friday, September 04, 2026",
   "sections": {
@@ -55,8 +55,8 @@
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
         "price": 0.6,
-        "changePercent": -12.3,
-        "change": -0.08
+        "changePercent": -12.45,
+        "change": -0.09
       },
       {
         "ticker": "ONT.L",
@@ -66,46 +66,46 @@
         "change": -19.8
       },
       {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 316.2,
-        "changePercent": 9.23,
-        "change": 26.73
-      },
-      {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 18.2,
-        "changePercent": -8.88,
-        "change": -1.78
-      },
-      {
-        "ticker": "SLDP",
-        "company": "Solid Power",
-        "price": 2.53,
-        "changePercent": 8.58,
-        "change": 0.2
-      },
-      {
-        "ticker": "RXRX",
-        "company": "Recursion Pharmaceuticals",
-        "price": 3.62,
-        "changePercent": 8.53,
-        "change": 0.29
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 62.59,
-        "changePercent": 7.81,
-        "change": 4.54
+        "price": 18.12,
+        "changePercent": -9.31,
+        "change": -1.86
       },
       {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 6.27,
-        "changePercent": 7.55,
-        "change": 0.44
+        "price": 6.34,
+        "changePercent": 8.75,
+        "change": 0.51
+      },
+      {
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 3.63,
+        "changePercent": 8.68,
+        "change": 0.29
+      },
+      {
+        "ticker": "SLDP",
+        "company": "Solid Power",
+        "price": 2.52,
+        "changePercent": 7.94,
+        "change": 0.19
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 62.31,
+        "changePercent": 7.34,
+        "change": 4.26
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 310.4,
+        "changePercent": 7.23,
+        "change": 20.93
       }
     ],
     "regulatory": [
@@ -196,6 +196,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "EVTL -12.3%"
+    "topMover": "EVTL -12.4%"
   }
 }
