@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T14:11:02.612863+00:00",
+  "generatedAt": "2026-09-04T18:16:08.543174+00:00",
   "date": "2026-09-04",
   "dateDisplay": "Friday, September 04, 2026",
   "sections": {
@@ -55,57 +55,57 @@
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
         "price": 0.6,
-        "changePercent": -18.92,
-        "change": -0.14
-      },
-      {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 18.35,
-        "changePercent": -13.28,
-        "change": -2.81
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 4.63,
-        "changePercent": -12.81,
-        "change": -0.68
-      },
-      {
-        "ticker": "AUR",
-        "company": "Aurora Innovation",
-        "price": 6.32,
-        "changePercent": 11.07,
-        "change": 0.63
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 14.7,
-        "changePercent": -9.15,
-        "change": -1.48
+        "changePercent": -12.3,
+        "change": -0.08
       },
       {
         "ticker": "ONT.L",
         "company": "Oxford Nanopore Technologies",
-        "price": 165.1,
-        "changePercent": -8.89,
-        "change": -16.1
+        "price": 161.4,
+        "changePercent": -10.93,
+        "change": -19.8
       },
       {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 64.66,
-        "changePercent": -8.53,
-        "change": -6.03
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 316.2,
+        "changePercent": 9.23,
+        "change": 26.73
       },
       {
-        "ticker": "NNE",
-        "company": "Nano Nuclear Energy",
-        "price": 17.65,
-        "changePercent": -8.26,
-        "change": -1.59
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 18.2,
+        "changePercent": -8.88,
+        "change": -1.78
+      },
+      {
+        "ticker": "SLDP",
+        "company": "Solid Power",
+        "price": 2.53,
+        "changePercent": 8.58,
+        "change": 0.2
+      },
+      {
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 3.62,
+        "changePercent": 8.53,
+        "change": 0.29
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 62.59,
+        "changePercent": 7.81,
+        "change": 4.54
+      },
+      {
+        "ticker": "AUR",
+        "company": "Aurora Innovation",
+        "price": 6.27,
+        "changePercent": 7.55,
+        "change": 0.44
       }
     ],
     "regulatory": [
@@ -196,6 +196,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "EVTL -18.9%"
+    "topMover": "EVTL -12.3%"
   }
 }
