@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T11:07:46.314322Z",
+  "generated_at": "2026-09-04T11:07:42.616509Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -22,6 +22,16 @@
       "signal_type": "funding"
     },
     {
+      "author": "Wired",
+      "role": "Industry signal",
+      "company": "OpenAI",
+      "text": "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk",
+      "date": "Thu, 03 Se",
+      "source": "news",
+      "source_url": "https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue/",
+      "signal_type": "ipo"
+    },
+    {
       "author": "Ars Technica",
       "role": "Industry signal",
       "company": "SpaceX",
@@ -35,7 +45,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 3,
+    "from_news": 4,
     "from_press": 0
   }
 }

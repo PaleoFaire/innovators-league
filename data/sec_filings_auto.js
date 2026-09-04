@@ -1,6 +1,17 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-03 10:55:20 UTC
+// Last updated: 2026-09-04 10:55:12 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "4", date: "2026-09-03", description: "xslF345X06/wk-form4_1788480144.xml", isIPO: false, ticker: "PLTR" },
+  { company: "Oklo", form: "4", date: "2026-09-03", description: "xslF345X06/wk-form4_1788467088.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-09-03", description: "xslF345X06/wk-form4_1788467003.xml", isIPO: false, ticker: "OKLO" },
+  { company: "C3.ai", form: "4", date: "2026-09-03", description: "xslF345X06/wk-form4_1788475629.xml", isIPO: false, ticker: "AI" },
+  { company: "UiPath", form: "4", date: "2026-09-03", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
+  { company: "UiPath", form: "4", date: "2026-09-03", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
+  { company: "UiPath", form: "4", date: "2026-09-03", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
+  { company: "UiPath", form: "4", date: "2026-09-03", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
+  { company: "UiPath", form: "4", date: "2026-09-03", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
+  { company: "UiPath", form: "8-K", date: "2026-09-03", description: "path-20260901.htm", isIPO: false, ticker: "PATH" },
+  { company: "Agrify Corporation", form: "4", date: "2026-09-03", description: "xslF345X06/form4-09032026_050901.xml", isIPO: false, ticker: "AGFY" },
   { company: "Rocket Lab", form: "4", date: "2026-09-02", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Oklo", form: "4", date: "2026-09-02", description: "xslF345X06/wk-form4_1788381083.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-09-02", description: "xslF345X06/wk-form4_1788380984.xml", isIPO: false, ticker: "OKLO" },
@@ -40,15 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Upstart Holdings", form: "4", date: "2026-08-21", description: "xslF345X06/wk-form4_1787351032.xml", isIPO: false, ticker: "UPST" },
   { company: "Upstart Holdings", form: "4", date: "2026-08-21", description: "xslF345X06/wk-form4_1787351013.xml", isIPO: false, ticker: "UPST" },
   { company: "Upstart Holdings", form: "4", date: "2026-08-21", description: "xslF345X06/wk-form4_1787350993.xml", isIPO: false, ticker: "UPST" },
-  { company: "Archer Aviation", form: "4", date: "2026-08-21", description: "xslF345X06/form4-08222026_120840.xml", isIPO: false, ticker: "ACHR" },
-  { company: "Aurora Innovation", form: "4", date: "2026-08-21", description: "xslF345X06/wk-form4_1787346989.xml", isIPO: false, ticker: "AUR" },
-  { company: "Aurora Innovation", form: "4", date: "2026-08-21", description: "xslF345X06/wk-form4_1787346896.xml", isIPO: false, ticker: "AUR" },
-  { company: "Aurora Innovation", form: "4", date: "2026-08-21", description: "xslF345X06/wk-form4_1787346810.xml", isIPO: false, ticker: "AUR" },
-  { company: "Rivian", form: "4", date: "2026-08-21", description: "xslF345X06/wk-form4_1787361845.xml", isIPO: false, ticker: "RIVN" },
-  { company: "NuScale Power", form: "4", date: "2026-08-20", description: "xslF345X06/wk-form4_1787258468.xml", isIPO: false, ticker: "SMR" },
-  { company: "Rigetti Computing", form: "4", date: "2026-08-20", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
-  { company: "Rigetti Computing", form: "4", date: "2026-08-20", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
-  { company: "Rigetti Computing", form: "4", date: "2026-08-20", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
-  { company: "Rigetti Computing", form: "8-K", date: "2026-08-20", description: "tm2623611d2_8k.htm", isIPO: false, ticker: "RGTI" },
-  { company: "Rigetti Computing", form: "8-K", date: "2026-08-20", description: "tm2623611d1_8k.htm", isIPO: false, ticker: "RGTI" },
 ];

@@ -1,64 +1,82 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 46,
+    "momentum": 49,
     "trend": "steady",
     "catalysts": [
-      "Tesla Robotaxi Fleet Hits 420 Texas Registered Vehicles, Pas",
-      "Waymo racked up 8,300+ SF parking tickets and nearly $1M in",
-      "The Zoox Safety Case Framework"
+      "Back to life: How Shield AI\u2019s future unmanned fighter made d",
+      "NVIDIA plans to acquire Hugging Face and keep AI development",
+      "Amazon&#8217;s Zoox expands its robotaxi service to Las Vega"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 45,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "sector": "AI & Software",
-    "momentum": 33,
+    "momentum": 30,
     "trend": "rising",
     "catalysts": [
-      "OpenAI\u2019s new reasoning technique alarms AI safety experts",
-      "Trump Administration Sides With OpenAI in New York Times Cop",
-      "US government sides with OpenAI on issue of training LLMs on"
+      "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today",
+      "OpenAI GPT 6 Astra Limited Release that Beats Anthropic Fabl",
+      "GPT-6 Astra Is Here\u2014and OpenAI Thinks It May Kick Off the AG"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 29,
-      "news": 50,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "Back to life: How Shield AI\u2019s future unmanned fighter made d",
+      "Hermeus picks Anduril autonomy for Quarterhorse drone",
+      "Ousted Ukrainian defense chief lands Palantir CEO as first i"
+    ],
+    "fundingQ": "$550M",
+    "components": {
+      "funding": 20,
+      "news": 20,
+      "hiring": 0,
+      "market": 32
+    },
+    "lastUpdated": "2026-09-04"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 16,
+    "momentum": 17,
     "trend": "declining",
     "catalysts": [
-      "Active housing & construction ecosystem"
+      "NASA to Cover Progress 96 Spacecraft Launch, Docking"
     ],
     "fundingQ": "$50M",
     "components": {
       "funding": 16,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
-    "sector": "Consumer Tech",
+    "sector": "Drones & Autonomous",
     "momentum": 16,
     "trend": "declining",
     "catalysts": [
-      "The Zoox Safety Case Framework",
-      "Photoroom co-founder quits executive role",
-      "Skild AI unveils S1 flagship robot foundation model"
+      "Back to life: How Shield AI\u2019s future unmanned fighter made d",
+      "Hermeus picks Anduril autonomy for Quarterhorse drone",
+      "Londoners can now hail Wayve autonomous vehicles through Ube"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -67,16 +85,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
-    "sector": "Drones & Autonomous",
+    "sector": "Consumer Tech",
     "momentum": 15,
     "trend": "declining",
     "catalysts": [
-      "Londoners can now hail Wayve autonomous vehicles through Ube",
-      "Tesla Robotaxi Fleet Hits 420 Texas Registered Vehicles, Pas",
-      "The Zoox Safety Case Framework"
+      "NVIDIA plans to acquire Hugging Face and keep AI development",
+      "The Zoox Safety Case Framework",
+      "Skild AI unveils S1 flagship robot foundation model"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -85,15 +103,65 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 13,
+    "trend": "rising",
+    "catalysts": [
+      "Back to life: How Shield AI\u2019s future unmanned fighter made d",
+      "OpenAI launches Astra, its powerful (and controversial) new",
+      "NASA to Cover Progress 96 Spacecraft Launch, Docking"
+    ],
+    "fundingQ": "$50M",
+    "components": {
+      "funding": 5,
+      "news": 45,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-09-04"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Hermeus picks Anduril autonomy for Quarterhorse drone"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-04"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Utilities are racing to link up with fusion startups, with R"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-04"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 14,
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
+      "Utilities are racing to link up with fusion startups, with R",
       "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
-      "PJM drops Oklo advanced nuclear project from interconnection",
       "Does Latent Nuclear Deterrence Really Work?"
     ],
     "fundingQ": "$0M",
@@ -101,78 +169,9 @@
       "funding": 0,
       "news": 25,
       "hiring": 0,
-      "market": 41
+      "market": 19
     },
-    "lastUpdated": "2026-09-03"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "Ousted Ukrainian defense chief lands Palantir CEO as first i",
-      "OpenAI Is About to Release Its First AI Model With \u2018Critical",
-      "The Atlantic Brief: U.S. and European Perspectives on Nuclea"
-    ],
-    "fundingQ": "$550M",
-    "components": {
-      "funding": 20,
-      "news": 15,
-      "hiring": 0,
-      "market": 5
-    },
-    "lastUpdated": "2026-09-03"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "Londoners can now hail Wayve autonomous vehicles through Ube",
-      "Ousted Ukrainian defense chief lands Palantir CEO as first i",
-      "Cambridge University spinout launches AI model &quot;competi"
-    ],
-    "fundingQ": "$50M",
-    "components": {
-      "funding": 5,
-      "news": 30,
-      "hiring": 0,
-      "market": 16
-    },
-    "lastUpdated": "2026-09-03"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "OpenAI Astra Releasing in a Few Days, Grok 4.7 and Fable 5.2",
-      "Nvidia discloses $21B stake in SpaceX"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 38
-    },
-    "lastUpdated": "2026-09-03"
-  },
-  {
-    "sector": "Supersonic & Hypersonic",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active supersonic & hypersonic ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "sector": "Ocean & Maritime",
@@ -188,23 +187,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 10,
+    "sector": "Chips & Semiconductors",
+    "momentum": 6,
     "trend": "declining",
     "catalysts": [
-      "Active infrastructure & logistics ecosystem"
+      "OpenAI GPT 6 Astra Limited Release that Beats Anthropic Fabl",
+      "NVIDIA plans to acquire Hugging Face and keep AI development",
+      "Nvidia discloses $21B stake in SpaceX"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 15,
       "hiring": 0,
-      "market": 50
+      "market": 13
     },
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "sector": "Climate & Energy",
@@ -220,25 +221,41 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 4,
+    "momentum": 5,
     "trend": "declining",
     "catalysts": [
+      "GPT-6 Astra Is Here\u2014and OpenAI Thinks It May Kick Off the AG",
       "Waymo opens robotaxi rides to the public in 3 new cities, no",
-      "Italian obesity digital clinic Holifya raises \u20ac2M to scale A",
-      "Cambridge University spinout launches AI model &quot;competi"
+      "Italian obesity digital clinic Holifya raises \u20ac2M to scale A"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 0
+      "market": 7
     },
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 3,
+    "trend": "declining",
+    "catalysts": [
+      "Rivian\u2019s futuristic ALSO e-bike may be at its ultimate delay"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 10
+    },
+    "lastUpdated": "2026-09-04"
   },
   {
     "sector": "Quantum Computing",
@@ -254,22 +271,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-03"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 1,
-    "trend": "declining",
-    "catalysts": [
-      "Active transportation ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 6
-    },
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   }
 ]

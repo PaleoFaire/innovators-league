@@ -3,14 +3,14 @@
     "category": "Nuclear Energy",
     "icon": "\u269b\ufe0f",
     "budgetLineItem": "Nuclear Energy \u2014 federal activity index",
-    "change": "+5%",
-    "changeNum": 5,
+    "change": "+15%",
+    "changeNum": 15,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 2,
+    "activityIndex": 5,
     "billsTracked": 2,
-    "rulesTracked": 0,
-    "description": "2 bill(s) + 0 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
+    "rulesTracked": 3,
+    "description": "2 bill(s) + 3 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 5 \u2014 +15% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -23,10 +23,28 @@
         "title": "ADVANCE Act \u2014 Accelerating Deployment of Versatile, Advanced Nuclear for Clean Energy",
         "number": "S2226",
         "status": ""
+      },
+      {
+        "type": "federal_register",
+        "title": "Information Collection: DOE/NRC Form 740M, Concise Note; DOE/NRC Form 741, Nucle",
+        "agency": "",
+        "date": ""
+      },
+      {
+        "type": "federal_register",
+        "title": "SMR, LLC; Palisades SMR, LLC; Pioneer Units 1 and 2; Exemption",
+        "agency": "",
+        "date": ""
+      },
+      {
+        "type": "federal_register",
+        "title": "Southern Nuclear Operating Company; Vogtle Electric Generating Plant Units 1 & 2",
+        "agency": "",
+        "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "category": "Quantum Computing",
@@ -49,7 +67,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -72,7 +90,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "category": "Space & Aerospace",
@@ -95,6 +113,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   }
 ]
