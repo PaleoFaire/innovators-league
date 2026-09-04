@@ -1,59 +1,75 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-09-03T09:35:27+00:00  
+**Generated:** 2026-09-04T09:28:24+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 31 companies  
+**Cohort size:** 39 companies  
 
-**New Claude extractions this run:** 31  
+**New Claude extractions this run:** 39  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 27 | 87% |
-| 🔧 Changes proposed | 4 | 13% |
+| ✅ Cleared (data matches sources) | 33 | 85% |
+| 🔧 Changes proposed | 6 | 15% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (4 companies)
+## 🔧 Proposed Changes (6 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
+
+### Axiom Space
+
+- **`location`:** `Houston, TX` → `Houston, Texas, United States`  
+  Sources: [company_about](https://axiomspace.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Axiom_Space)
+
+  **Notes:** Michael Suffredini served as CEO and President until 2024; Dr. Jonathan W. Cirtain is current CEO as of July 2026. In December 2025, 4iG Group signed a $100 million equity investment agreement with two tranches through March 2026 (per Wikipedia source). Company completed first private crewed mission to ISS in April 2022.
+
+### Hermeus
+
+- **`founder`:** `AJ Piplica, Skyler Shuford, Glenn Case, Mike Smayda` → `AJ Piplica, Glenn Case, Skyler Shuford, Michael Smayda`  
+  Sources: [company_about](https://hermeus.com/company) · [wikipedia](https://en.wikipedia.org/wiki/Hermeus)
+- **`location`:** `Atlanta, GA` → `Atlanta, Georgia`  
+  Sources: [company_about](https://hermeus.com/company) · [wikipedia](https://en.wikipedia.org/wiki/Hermeus)
+
+  **Notes:** Source [0] mentions $350M Series C funding on July 17, 2026 and $219M DIU contract modification. Source [1] identifies founders as 'AJ Piplica, Glenn Case, Skyler Shuford, and Michael Smayda' and confirms 2018 founding. Source [2] Wikipedia lists slightly different founder presentation but confirms same four individuals. Company achieved supersonic flight in May 2026 per source [1].
 
 ### Nano Nuclear Energy
 
 - **`fundingStage`:** `Seed` → `Public`  
   Sources: [company_website](https://nanonuclearenergy.com) · [company_about](https://nanonuclearenergy.com/about)
 
-  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicates of the same company website content. Source [2] (Canary Media article about Valar Atomics) is unrelated to Nano Nuclear Energy and provides no verifiable information about this company. Founded year, founders, total_raised, valuation, and investors cannot be verified from provided sources. Database entry claims about ODIN sale to Cambridge AtomWorks, $600M+ raised, $808M valuation, and founder Jay Jiang Yu cannot be verified from these sources.
+  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from company website and contain identical or near-identical content. Source [2] appears to be about a different company (Valar Atomics) and was not used. Database entry claims include founder name (Jay Jiang Yu), founding year (2022), stage (Seed), total raised ($600M+), and valuation ($808M) — none of which are supported by provided sources, so marked as null.
 
-### Oxford Nanopore Technologies
+### Osmo
 
-- **`location`:** `Oxford, UK` → `Oxford, United Kingdom`  
-  Sources: [company_about](https://nanoporetech.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Oxford_Nanopore_Technologies)
+- **`location`:** `Elizabeth, NJ` → `Elizabeth, New Jersey`  
+  Sources: [company_about](https://www.osmo.ai/about)
 
-  **Notes:** Company listed on London Stock Exchange (LSE: ONT) as of 30 September 2021. Francis Van Parys appointed CEO in December 2025, succeeding Gordon Sanghera. Gordon Sanghera was previously listed as founder and later served as CEO.
+  **Notes:** Source [1] specifies Series A raised $60M in 2022 backed by Lux Capital, GV, and The Alexa Fund. Series B of $70M was raised in 2026 according to source [1]. Total raised of $130M matches $60M + $70M. Source [2] is Wikipedia disambiguation page for the name 'Osmo' and is not relevant to the company. Source [3] is NASA news unrelated to Osmo company.
 
 ### SpaceX
 
 - **`fundingStage`:** `IPO` → `Public`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Company completed IPO on June 12, 2026, raising $86B (largest IPO in history per source). Wikipedia source indicates Elon Musk owns 42% equity with 85% voting control (source states 82% in one place, 85% in another - noted discrepancy). Alphabet Inc. holds 4.19% equity per Wikipedia. Nvidia disclosed $21B stake per Ars Technica (source 3).
+  **Notes:** Wikipedia source indicates SpaceX went public on June 12, 2026 via IPO that raised $86B (largest IPO in history). Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. Source 3 (Ars Technica) reports Nvidia disclosed $21B stake in SpaceX as of August 2026.
 
 ### Starcloud
 
 - **`fundingStage`:** `Seed` → `Series A`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/Starcloud)
 
-  **Notes:** Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Series A round announced March 30, 2026. Wikipedia source indicates company became fastest unicorn in Y Combinator history at 17 months after completing program. Starcloud-1 launched November 2, 2025.
+  **Notes:** Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024, then relocated to Redmond, Washington in February 2024, and rebranded to 'Starcloud' in March 2025 after a legal challenge from Lumen Technologies. Series A funding announced March 30, 2026. Became fastest Y Combinator unicorn at 17 months after completing the program.
 
 ---
 
-## ✅ Cleared (27 companies)
+## ✅ Cleared (33 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -61,16 +77,17 @@ Sample (first 30):
 
 - Antares
 - Astera Labs
-- Aurora Innovation
 - Base Power
 - Cape
+- Cover
+- Crusoe Energy
 - Deterrence
-- Galvanick
+- Forterra
 - Hailo
 - Mammoth Biosciences
 - Neko Health
 - Oklo
-- Orangewood Labs
+- Oxford Nanopore Technologies
 - Palantir
 - Percepto
 - Photonic Inc
@@ -78,16 +95,19 @@ Sample (first 30):
 - PsiQuantum
 - QuiX Quantum
 - Radiant
+- Realta Fusion
 - Rebellions
+- Rivian
 - Sage Geosystems
 - Scale AI
 - Skild AI
 - Valar Atomics
+- Vast
 - Waymo
-- Xanadu Quantum Technologies
-- ideaForge
+- Wayve
+- *...and 3 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-09-03T09:35:28+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-09-04T09:28:24+00:00*

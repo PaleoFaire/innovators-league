@@ -1,27 +1,28 @@
 {
-  "generatedAt": "2026-09-03T09:35:27+00:00",
+  "generatedAt": "2026-09-04T09:28:24+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 31,
-  "newExtractionsThisRun": 31,
+  "cohortSize": 39,
+  "newExtractionsThisRun": 39,
   "summary": {
-    "cleared": 27,
-    "changesProposed": 4,
+    "cleared": 33,
+    "changesProposed": 6,
     "unverifiable": 0
   },
   "cleared": [
     "Antares",
     "Astera Labs",
-    "Aurora Innovation",
     "Base Power",
     "Cape",
+    "Cover",
+    "Crusoe Energy",
     "Deterrence",
-    "Galvanick",
+    "Forterra",
     "Hailo",
     "Mammoth Biosciences",
     "Neko Health",
     "Oklo",
-    "Orangewood Labs",
+    "Oxford Nanopore Technologies",
     "Palantir",
     "Percepto",
     "Photonic Inc",
@@ -29,16 +30,232 @@
     "PsiQuantum",
     "QuiX Quantum",
     "Radiant",
+    "Realta Fusion",
     "Rebellions",
+    "Rivian",
     "Sage Geosystems",
     "Scale AI",
     "Skild AI",
     "Valar Atomics",
+    "Vast",
     "Waymo",
+    "Wayve",
+    "WeaveGrid",
     "Xanadu Quantum Technologies",
     "ideaForge"
   ],
   "changesProposed": [
+    {
+      "name": "Axiom Space",
+      "current": {
+        "name": "Axiom Space",
+        "founder": "Michael T. Suffredini, Kam Ghaffarian",
+        "location": "Houston, TX",
+        "founded": 2016,
+        "fundingStage": "Series G",
+        "totalRaised": "$350M",
+        "website": "https://axiomspace.com"
+      },
+      "verified": {
+        "name": "Axiom Space",
+        "description": "American private aerospace company providing human spaceflight services to the ISS and developing Axiom Station, a modular commercial space station planned for the late 2020s.",
+        "founders": [
+          "Michael T. Suffredini",
+          "Kam Ghaffarian"
+        ],
+        "location": "Houston, Texas, United States",
+        "founded_year": 2016,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "4iG Group"
+        ],
+        "website": "https://axiomspace.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "investors": [
+            2
+          ]
+        },
+        "notes": "Michael Suffredini served as CEO and President until 2024; Dr. Jonathan W. Cirtain is current CEO as of July 2026. In December 2025, 4iG Group signed a $100 million equity investment agreement with two tranches through March 2026 (per Wikipedia source). Company completed first private crewed mission to ISS in April 2022."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Houston, TX",
+          "verified": "Houston, Texas, United States",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://axiomspace.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://axiomspace.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Axiom_Space"
+        },
+        {
+          "idx": 3,
+          "src": "news (NASA Breaking News)",
+          "url": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/"
+        }
+      ],
+      "notes": "Michael Suffredini served as CEO and President until 2024; Dr. Jonathan W. Cirtain is current CEO as of July 2026. In December 2025, 4iG Group signed a $100 million equity investment agreement with two tranches through March 2026 (per Wikipedia source). Company completed first private crewed mission to ISS in April 2022."
+    },
+    {
+      "name": "Hermeus",
+      "current": {
+        "name": "Hermeus",
+        "founder": "AJ Piplica, Skyler Shuford, Glenn Case, Mike Smayda",
+        "location": "Atlanta, GA",
+        "founded": 2018,
+        "fundingStage": "Series C",
+        "totalRaised": "$500M",
+        "website": "https://hermeus.com"
+      },
+      "verified": {
+        "name": "Hermeus",
+        "description": "American aerospace company designing hypersonic aircraft. Founded in 2018, Hermeus developed the Quarterhorse uncrewed supersonic aircraft and is building the Darkhorse hypersonic military jet.",
+        "founders": [
+          "AJ Piplica",
+          "Glenn Case",
+          "Skyler Shuford",
+          "Michael Smayda"
+        ],
+        "location": "Atlanta, Georgia",
+        "founded_year": 2018,
+        "current_stage": "Series C",
+        "total_raised": "$500M+",
+        "valuation": "$1B",
+        "investors": [
+          "Khosla Ventures",
+          "Sam Altman",
+          "Founders Fund",
+          "In-Q-Tel",
+          "Canaan Partners",
+          "Bling Capital"
+        ],
+        "website": "https://hermeus.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            1,
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "valuation": [
+            0
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Source [0] mentions $350M Series C funding on July 17, 2026 and $219M DIU contract modification. Source [1] identifies founders as 'AJ Piplica, Glenn Case, Skyler Shuford, and Michael Smayda' and confirms 2018 founding. Source [2] Wikipedia lists slightly different founder presentation but confirms same four individuals. Company achieved supersonic flight in May 2026 per source [1]."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "AJ Piplica, Skyler Shuford, Glenn Case, Mike Smayda",
+          "verified": "AJ Piplica, Glenn Case, Skyler Shuford, Michael Smayda",
+          "sources": [
+            1,
+            2
+          ]
+        },
+        {
+          "field": "location",
+          "current": "Atlanta, GA",
+          "verified": "Atlanta, Georgia",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://hermeus.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://hermeus.com/company"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hermeus"
+        },
+        {
+          "idx": 3,
+          "src": "news (Breaking Defense)",
+          "url": "https://breakingdefense.com/2026/09/hermeus-picks-anduril-autonomy-for-quarterhorse-drone/"
+        }
+      ],
+      "notes": "Source [0] mentions $350M Series C funding on July 17, 2026 and $219M DIU contract modification. Source [1] identifies founders as 'AJ Piplica, Glenn Case, Skyler Shuford, and Michael Smayda' and confirms 2018 founding. Source [2] Wikipedia lists slightly different founder presentation but confirms same four individuals. Company achieved supersonic flight in May 2026 per source [1]."
+    },
     {
       "name": "Nano Nuclear Energy",
       "current": {
@@ -51,8 +268,8 @@
         "website": "https://nanonuclearenergy.com"
       },
       "verified": {
-        "name": "Nano Nuclear Energy Inc.",
-        "description": "Advanced technology-driven nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI MMR systems, along with nuclear fuel fabrication, transportation, space applications, and consulting services.",
+        "name": "NANO Nuclear Energy Inc.",
+        "description": "An advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, with subsidiaries focused on nuclear fuel fabrication, transportation, and space applications.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -77,7 +294,7 @@
             1
           ]
         },
-        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicates of the same company website content. Source [2] (Canary Media article about Valar Atomics) is unrelated to Nano Nuclear Energy and provides no verifiable information about this company. Founded year, founders, total_raised, valuation, and investors cannot be verified from provided sources. Database entry claims about ODIN sale to Cambridge AtomWorks, $600M+ raised, $808M valuation, and founder Jay Jiang Yu cannot be verified from these sources."
+        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from company website and contain identical or near-identical content. Source [2] appears to be about a different company (Valar Atomics) and was not used. Database entry claims include founder name (Jay Jiang Yu), founding year (2022), stage (Seed), total raised ($600M+), and valuation ($808M) \u2014 none of which are supported by provided sources, so marked as null."
       },
       "changes": [
         {
@@ -107,73 +324,77 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicates of the same company website content. Source [2] (Canary Media article about Valar Atomics) is unrelated to Nano Nuclear Energy and provides no verifiable information about this company. Founded year, founders, total_raised, valuation, and investors cannot be verified from provided sources. Database entry claims about ODIN sale to Cambridge AtomWorks, $600M+ raised, $808M valuation, and founder Jay Jiang Yu cannot be verified from these sources."
+      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from company website and contain identical or near-identical content. Source [2] appears to be about a different company (Valar Atomics) and was not used. Database entry claims include founder name (Jay Jiang Yu), founding year (2022), stage (Seed), total raised ($600M+), and valuation ($808M) \u2014 none of which are supported by provided sources, so marked as null."
     },
     {
-      "name": "Oxford Nanopore Technologies",
+      "name": "Osmo",
       "current": {
-        "name": "Oxford Nanopore Technologies",
-        "founder": "Hagan Bayley, Gordon Sanghera, Spike Willcocks",
-        "location": "Oxford, UK",
-        "founded": 2005,
-        "fundingStage": "Public",
-        "totalRaised": "$1B+",
-        "website": "https://nanoporetech.com"
+        "name": "Osmo",
+        "founder": "Alex Wiltschko",
+        "location": "Elizabeth, NJ",
+        "founded": 2022,
+        "fundingStage": "Series B",
+        "totalRaised": "$130M",
+        "website": "https://www.osmo.ai"
       },
       "verified": {
-        "name": "Oxford Nanopore Technologies",
-        "description": "UK-based company that develops and sells nanopore-based molecular sensing technology for real-time analysis of DNA and RNA. The platform includes sequencing devices, consumables and software used across research, applied and clinical markets.",
+        "name": "Osmo",
+        "description": "Company developing artificial intelligence models for digital olfaction to understand, digitize, and recreate scents. The company combines AI, neuroscience, and perfumery expertise to create custom fragrances through its Olfactory Intelligence platform.",
         "founders": [
-          "Hagan Bayley",
-          "Gordon Sanghera",
-          "Spike Willcocks"
+          "Alex Wiltschko"
         ],
-        "location": "Oxford, United Kingdom",
-        "founded_year": 2005,
-        "current_stage": "Public",
-        "total_raised": null,
+        "location": "Elizabeth, New Jersey",
+        "founded_year": 2022,
+        "current_stage": "Series B",
+        "total_raised": "$130M",
         "valuation": null,
         "investors": [
-          "IP Group"
+          "Lux Capital",
+          "Google Ventures",
+          "The Alexa Fund"
         ],
-        "website": "https://nanoporetech.com",
+        "website": "https://www.osmo.ai",
         "sources_per_field": {
           "name": [
             0,
-            1,
-            2
+            1
           ],
           "description": [
-            2
+            0,
+            1
           ],
           "founders": [
-            2
+            1
           ],
           "location": [
-            1,
-            2
+            1
           ],
           "founded_year": [
-            1,
-            2
+            1
           ],
           "current_stage": [
-            2
+            1
+          ],
+          "total_raised": [
+            1
           ],
           "investors": [
-            2
+            1
+          ],
+          "website": [
+            0,
+            1
           ]
         },
-        "notes": "Company listed on London Stock Exchange (LSE: ONT) as of 30 September 2021. Francis Van Parys appointed CEO in December 2025, succeeding Gordon Sanghera. Gordon Sanghera was previously listed as founder and later served as CEO."
+        "notes": "Source [1] specifies Series A raised $60M in 2022 backed by Lux Capital, GV, and The Alexa Fund. Series B of $70M was raised in 2026 according to source [1]. Total raised of $130M matches $60M + $70M. Source [2] is Wikipedia disambiguation page for the name 'Osmo' and is not relevant to the company. Source [3] is NASA news unrelated to Osmo company."
       },
       "changes": [
         {
           "field": "location",
-          "current": "Oxford, UK",
-          "verified": "Oxford, United Kingdom",
+          "current": "Elizabeth, NJ",
+          "verified": "Elizabeth, New Jersey",
           "sources": [
-            1,
-            2
+            1
           ]
         }
       ],
@@ -181,25 +402,25 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://nanoporetech.com"
+          "url": "https://www.osmo.ai"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://nanoporetech.com/about"
+          "url": "https://www.osmo.ai/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Oxford_Nanopore_Technologies"
+          "url": "https://en.wikipedia.org/wiki/Osmo"
         },
         {
           "idx": 3,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/09/01/italian-obesity-digital-clinic-holifya-raises-eur2m-to-scale-ai-supported-glp-1-care/"
+          "src": "news (NASA Breaking News)",
+          "url": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/"
         }
       ],
-      "notes": "Company listed on London Stock Exchange (LSE: ONT) as of 30 September 2021. Francis Van Parys appointed CEO in December 2025, succeeding Gordon Sanghera. Gordon Sanghera was previously listed as founder and later served as CEO."
+      "notes": "Source [1] specifies Series A raised $60M in 2022 backed by Lux Capital, GV, and The Alexa Fund. Series B of $70M was raised in 2026 according to source [1]. Total raised of $130M matches $60M + $70M. Source [2] is Wikipedia disambiguation page for the name 'Osmo' and is not relevant to the company. Source [3] is NASA news unrelated to Osmo company."
     },
     {
       "name": "SpaceX",
@@ -214,7 +435,7 @@
       },
       "verified": {
         "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial Intelligence (Grok and data centers).",
+        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered at Starbase in Texas. Operates three divisions: Space (orbital launches), Connectivity (Starlink satellite communications), and Artificial Intelligence (Grok and data centers).",
         "founders": [
           "Elon Musk"
         ],
@@ -253,9 +474,12 @@
           "investors": [
             0,
             3
+          ],
+          "website": [
+            0
           ]
         },
-        "notes": "Company completed IPO on June 12, 2026, raising $86B (largest IPO in history per source). Wikipedia source indicates Elon Musk owns 42% equity with 85% voting control (source states 82% in one place, 85% in another - noted discrepancy). Alphabet Inc. holds 4.19% equity per Wikipedia. Nvidia disclosed $21B stake per Ars Technica (source 3)."
+        "notes": "Wikipedia source indicates SpaceX went public on June 12, 2026 via IPO that raised $86B (largest IPO in history). Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. Source 3 (Ars Technica) reports Nvidia disclosed $21B stake in SpaceX as of August 2026."
       },
       "changes": [
         {
@@ -275,13 +499,13 @@
         },
         {
           "idx": 1,
-          "src": "news (Ars Technica Space)",
-          "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
+          "src": "news (Wired)",
+          "url": "https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue/"
         },
         {
           "idx": 2,
           "src": "news (Ars Technica Space)",
-          "url": "https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/"
+          "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
         },
         {
           "idx": 3,
@@ -289,7 +513,7 @@
           "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/"
         }
       ],
-      "notes": "Company completed IPO on June 12, 2026, raising $86B (largest IPO in history per source). Wikipedia source indicates Elon Musk owns 42% equity with 85% voting control (source states 82% in one place, 85% in another - noted discrepancy). Alphabet Inc. holds 4.19% equity per Wikipedia. Nvidia disclosed $21B stake per Ars Technica (source 3)."
+      "notes": "Wikipedia source indicates SpaceX went public on June 12, 2026 via IPO that raised $86B (largest IPO in history). Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. Source 3 (Ars Technica) reports Nvidia disclosed $21B stake in SpaceX as of August 2026."
     },
     {
       "name": "Starcloud",
@@ -304,7 +528,7 @@
       },
       "verified": {
         "name": "Starcloud",
-        "description": "A company that designs, builds, and deploys data centers in space using proprietary technology. Starcloud launched its first test satellite, Starcloud-1, in November 2025 equipped with an Nvidia H100 GPU.",
+        "description": "A United States-based company that designs, builds, and deploys data centers in space using proprietary technology. The company launched Starcloud-1 in November 2025 equipped with an Nvidia H100 GPU.",
         "founders": [
           "Philip Johnston",
           "Ezra Feilden",
@@ -327,6 +551,7 @@
             2
           ],
           "description": [
+            0,
             2
           ],
           "founders": [
@@ -359,7 +584,7 @@
             2
           ]
         },
-        "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Series A round announced March 30, 2026. Wikipedia source indicates company became fastest unicorn in Y Combinator history at 17 months after completing program. Starcloud-1 launched November 2, 2025."
+        "notes": "Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024, then relocated to Redmond, Washington in February 2024, and rebranded to 'Starcloud' in March 2025 after a legal challenge from Lumen Technologies. Series A funding announced March 30, 2026. Became fastest Y Combinator unicorn at 17 months after completing the program."
       },
       "changes": [
         {
@@ -393,7 +618,7 @@
           "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
         }
       ],
-      "notes": "Company was originally founded as 'Lumen Orbit' in January 2024 in El Segundo, California and rebranded to Starcloud in March 2025 following a legal challenge from Lumen Technologies. Series A round announced March 30, 2026. Wikipedia source indicates company became fastest unicorn in Y Combinator history at 17 months after completing program. Starcloud-1 launched November 2, 2025."
+      "notes": "Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024, then relocated to Redmond, Washington in February 2024, and rebranded to 'Starcloud' in March 2025 after a legal challenge from Lumen Technologies. Series A funding announced March 30, 2026. Became fastest Y Combinator unicorn at 17 months after completing the program."
     }
   ],
   "unverifiable": []
