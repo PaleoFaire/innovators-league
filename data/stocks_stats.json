@@ -5,83 +5,83 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -5.97,
+      "avg_change": -6.42,
       "count": 1
     },
     "space": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -2.34,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -2.56,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -1.81,
+      "avg_change": -1.47,
       "count": 7
     },
     "nuclear": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.23,
+      "avg_change": 1.95,
       "count": 3
     },
     "climate": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 2.49,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 1.6,
       "count": 3
     },
     "quantum": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.59,
+      "avg_change": -1.36,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -0.56,
+      "avg_change": -0.45,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -0.77,
+      "avg_change": -0.26,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 6.01,
+      "avg_change": 5.23,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "ALAB",
-      "Astera Labs",
-      9.23
-    ],
-    [
-      "SLDP",
-      "Solid Power",
-      8.58
+      "AUR",
+      "Aurora Innovation",
+      8.75
     ],
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      8.53
+      8.68
+    ],
+    [
+      "SLDP",
+      "Solid Power",
+      7.94
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      7.81
+      7.34
     ],
     [
-      "AUR",
-      "Aurora Innovation",
-      7.55
+      "ALAB",
+      "Astera Labs",
+      7.23
     ]
   ],
   "topLosers": [
@@ -93,12 +93,12 @@
     [
       "PLTR",
       "Palantir",
-      -5.97
+      -6.42
     ],
     [
       "PL",
       "Planet Labs",
-      -8.88
+      -9.31
     ],
     [
       "ONT.L",
@@ -108,8 +108,8 @@
     [
       "EVTL",
       "Vertical Aerospace",
-      -12.3
+      -12.45
     ]
   ],
-  "lastUpdated": "2026-09-04 16:54:46"
+  "lastUpdated": "2026-09-04 21:32:56"
 }
