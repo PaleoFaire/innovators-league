@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-09-03T12:10:39.259691+00:00",
+  "generated_at": "2026-09-04T12:15:03.813106+00:00",
   "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
   "candidates": [
+    {
+      "match_method": "name-candidate",
+      "company": "Verse",
+      "issuer_name": "Verse Enterprises, Inc",
+      "form": "D",
+      "filed_date": "2026-09-04",
+      "cik": "2022340",
+      "accession": "0002022340-26-000005",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002022340&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002022340-26-000005"
+    },
     {
       "match_method": "name-candidate",
       "company": "FuriosaAI",
@@ -67,61 +78,6 @@
       "accession": "0002150161-26-000002",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002150161&type=D&dateb=&owner=include&count=10",
       "adsh_raw": "0002150161-26-000002"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Helios",
-      "issuer_name": "Helios Strategic Ltd",
-      "form": "D",
-      "filed_date": "2026-08-24",
-      "cik": "1435858",
-      "accession": "0000905148-26-003877",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001435858&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0000905148-26-003877"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Helios",
-      "issuer_name": "HELIOS STRATEGIC FUND, LLC",
-      "form": "D",
-      "filed_date": "2026-08-24",
-      "cik": "1426359",
-      "accession": "0000905148-26-003876",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001426359&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0000905148-26-003876"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Revere",
-      "issuer_name": "Revere Tactical Opportunities Fund IV, LP",
-      "form": "D",
-      "filed_date": "2026-08-21",
-      "cik": "1843386",
-      "accession": "0001843386-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001843386&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001843386-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Revere",
-      "issuer_name": "Revere Credit Opportunities Fund III, LP",
-      "form": "D",
-      "filed_date": "2026-08-21",
-      "cik": "1689712",
-      "accession": "0001689712-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001689712&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001689712-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "PILGRIM",
-      "issuer_name": "Pilgrim Global ICAV",
-      "form": "D",
-      "filed_date": "2026-08-21",
-      "cik": "1687806",
-      "accession": "0001231919-26-001008",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001687806&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001231919-26-001008"
     }
   ]
 }

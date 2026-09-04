@@ -1,6 +1,6 @@
 // Auto-generated SBIR topics + full-company bid-fit scoring
 // Topics: 10  |  Matching: TF-IDF weighted
-// Last updated: 2026-09-03 12:10:50 UTC
+// Last updated: 2026-09-04 12:15:22 UTC
 const SBIR_TOPICS_AUTO = [
   {
     "id": "DOD-SBIR-2026-006",
@@ -45,7 +45,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "SkySafe",
         "sector": "Defense & Security",
-        "bid_fit_score": 18.3,
+        "bid_fit_score": 18.4,
         "matched_terms": [
           "counter",
           "base",
@@ -75,7 +75,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Chaos Industries",
         "sector": "Defense & Security",
-        "bid_fit_score": 16.1,
+        "bid_fit_score": 16.0,
         "matched_terms": [
           "counter",
           "defense"
@@ -94,7 +94,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Govini",
         "sector": "Defense & Security",
-        "bid_fit_score": 15.1,
+        "bid_fit_score": 15.3,
         "matched_terms": [
           "base",
           "defense"
@@ -233,7 +233,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Newcleo",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 41.1,
+        "bid_fit_score": 41.0,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -253,7 +253,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Exodys Energy",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 36.1,
+        "bid_fit_score": 35.9,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -263,7 +263,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Project Omega",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 32.7,
+        "bid_fit_score": 32.6,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -293,7 +293,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Valar Atomics",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 27.3,
+        "bid_fit_score": 27.2,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -478,7 +478,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Oxford Quantum Circuits",
         "sector": "Quantum Computing",
-        "bid_fit_score": 30.3,
+        "bid_fit_score": 30.2,
         "matched_terms": [
           "quantum",
           "computing",
@@ -630,7 +630,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Cascade Space",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 62.1,
+        "bid_fit_score": 62.4,
         "matched_terms": [
           "deep",
           "space",
@@ -695,7 +695,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Starpath Robotics",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 18.3,
+        "bid_fit_score": 18.4,
         "matched_terms": [
           "space",
           "deep"

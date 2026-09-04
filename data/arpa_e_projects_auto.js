@@ -1,8 +1,8 @@
 // Auto-generated ARPA-E project data
-// Last updated: 2026-09-03 11:56:57 UTC
-// Total projects: 1721 | Active: 299
+// Last updated: 2026-09-04 11:59:26 UTC
+// Total projects: 1721 | Active: 296
 // Private companies: 681 | Known TIL: 150
-// Unique organizations: 729 | Total funding: $4,421,237,451
+// Unique organizations: 729 | Total funding: $4,417,983,855
 const ARPA_E_PROJECTS_AUTO = [
   {
     title: "SAFERBAT: Solid-state Approach for Future Energy-dense Renewable Batteries and Advanced-manufacturing Technologies",
@@ -2267,19 +2267,6 @@ const ARPA_E_PROJECTS_AUTO = [
     isPrivateCompany: false,
   },
   {
-    title: "Quantification of Atmospheric Carbon Dioxide Removal Using an Autonomous Ocean Sensor that Measures Sinking Particulate ",
-    organization: "Woods Hole Oceanographic Institution",
-    orgType: "Non-Profit",
-    status: "Alumni",
-    state: "MA",
-    awardAmount: 4802197,
-    awardFormatted: "4,802,197",
-    programAcronym: "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ",
-    technologyAreas: ["Other - Resources", "Resources"],
-    isKnownCompany: false,
-    isPrivateCompany: false,
-  },
-  {
     title: "Pioneering a Cermet Waste Form for Disposal of Waste Streams from Advanced Reactors (PACE-FORWARD)",
     organization: "Rutgers University",
     orgType: "University",
@@ -3749,6 +3736,19 @@ const ARPA_E_PROJECTS_AUTO = [
     isPrivateCompany: true,
   },
   {
+    title: "Multiparameter Chips for Scalable Underwater Sensing ",
+    organization: "Woods Hole Oceanographic Institution",
+    orgType: "Non-Profit",
+    status: "Active",
+    state: "MA",
+    awardAmount: 3904266,
+    awardFormatted: "3,904,266",
+    programAcronym: "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ",
+    technologyAreas: ["Other - Resources", "Resources"],
+    isKnownCompany: false,
+    isPrivateCompany: false,
+  },
+  {
     title: "High-Temperature Topping Cells from LED Materials",
     organization: "Arizona State University (ASU)",
     orgType: "University",
@@ -4161,19 +4161,6 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "3,739,011",
     programAcronym: "Building Reliable Electronics to Achieve Kilovolt Effective Ratings Safely",
     technologyAreas: ["Power Electronics", "Industrial Efficiency", "Transmission & Distribution", "Grid"],
-    isKnownCompany: false,
-    isPrivateCompany: false,
-  },
-  {
-    title: "Multiparameter Chips for Scalable Underwater Sensing ",
-    organization: "Woods Hole Oceanographic Institution",
-    orgType: "Non-Profit",
-    status: "Active",
-    state: "MA",
-    awardAmount: 3738960,
-    awardFormatted: "3,738,960",
-    programAcronym: "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ",
-    technologyAreas: ["Other - Resources", "Resources"],
     isKnownCompany: false,
     isPrivateCompany: false,
   },
@@ -6501,6 +6488,19 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "3,100,000",
     programAcronym: "Reliable Ore Characterization with Keystone Sensing",
     technologyAreas: ["Resources"],
+    isKnownCompany: false,
+    isPrivateCompany: false,
+  },
+  {
+    title: "Photonic Project Evaluation",
+    organization: "University of Southern California (USC)",
+    orgType: "University",
+    status: "Alumni",
+    state: "CA",
+    awardAmount: 3100000,
+    awardFormatted: "3,100,000",
+    programAcronym: "ENergy-efficient Light-wave Integrated Technology Enabling Networks that Enhance Dataprocessing",
+    technologyAreas: ["Computing", "Industrial Efficiency"],
     isKnownCompany: false,
     isPrivateCompany: false,
   },

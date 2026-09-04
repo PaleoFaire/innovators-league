@@ -50,7 +50,7 @@
         "awardAmount": "$62M"
       }
     ],
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "company": "Skydio",
@@ -103,7 +103,7 @@
         "awardAmount": "$87K"
       }
     ],
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "company": "Palantir",
@@ -160,7 +160,7 @@
         "awardAmount": "$99M"
       }
     ],
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "company": "Radiant",
@@ -215,11 +215,11 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "company": "Shield AI",
-    "opportunityCount": 6,
+    "opportunityCount": 7,
     "agencies": [
       "Department of Defense",
       "Department of Homeland Security"
@@ -267,12 +267,13 @@
         "awardAmount": "$5M"
       }
     ],
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "company": "Axiom Space",
-    "opportunityCount": 6,
+    "opportunityCount": 7,
     "agencies": [
+      "Department of Defense",
       "National Aeronautics and Space Administration"
     ],
     "types": [],
@@ -318,11 +319,11 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "company": "Sierra Space",
-    "opportunityCount": 6,
+    "opportunityCount": 7,
     "agencies": [
       "Department of Defense",
       "National Aeronautics and Space Administration"
@@ -370,7 +371,7 @@
         "awardAmount": "$100K"
       }
     ],
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "company": "Planet Labs",
@@ -415,11 +416,11 @@
         "awardAmount": "$49K"
       }
     ],
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "company": "Castelion",
-    "opportunityCount": 2,
+    "opportunityCount": 3,
     "agencies": [
       "Department of Defense"
     ],
@@ -440,14 +441,23 @@
         "type": null,
         "noticeId": "W912CG25C0009",
         "awardAmount": "$1M"
+      },
+      {
+        "title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
+        "agency": "Department of Defense",
+        "postedDate": "2025-12-29",
+        "type": null,
+        "noticeId": "HQ085926FF347",
+        "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "company": "Rocket Lab",
-    "opportunityCount": 2,
+    "opportunityCount": 3,
     "agencies": [
+      "Department of Defense",
       "National Aeronautics and Space Administration"
     ],
     "types": [],
@@ -467,13 +477,21 @@
         "type": null,
         "noticeId": "80AFRC26FA041",
         "awardAmount": "$433K"
+      },
+      {
+        "title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
+        "agency": "Department of Defense",
+        "postedDate": "2025-12-29",
+        "type": null,
+        "noticeId": "HQ085926FE799",
+        "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "company": "Varda Space",
-    "opportunityCount": 2,
+    "opportunityCount": 3,
     "agencies": [
       "Department of Defense"
     ],
@@ -494,9 +512,45 @@
         "type": null,
         "noticeId": "FA945326FX002",
         "awardAmount": "$160K"
+      },
+      {
+        "title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
+        "agency": "Department of Defense",
+        "postedDate": "2025-12-29",
+        "type": null,
+        "noticeId": "HQ085926FF090",
+        "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
+  },
+  {
+    "company": "Relativity Space",
+    "opportunityCount": 2,
+    "agencies": [
+      "Department of Defense",
+      "National Aeronautics and Space Administration"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER.",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2023-03-29",
+        "type": null,
+        "noticeId": "80KSC023FA106",
+        "awardAmount": "$225K"
+      },
+      {
+        "title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
+        "agency": "Department of Defense",
+        "postedDate": "2026-01-21",
+        "type": null,
+        "noticeId": "HQ085926FG337",
+        "awardAmount": "$500"
+      }
+    ],
+    "lastUpdated": "2026-09-04"
   },
   {
     "company": "BlackSky",
@@ -523,7 +577,7 @@
         "awardAmount": "$4M"
       }
     ],
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "company": "Scale AI",
@@ -550,7 +604,26 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
+  },
+  {
+    "company": "Saronic",
+    "opportunityCount": 1,
+    "agencies": [
+      "Department of Defense"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
+        "agency": "Department of Defense",
+        "postedDate": "2025-12-29",
+        "type": null,
+        "noticeId": "HQ085926FE712",
+        "awardAmount": "$500"
+      }
+    ],
+    "lastUpdated": "2026-09-04"
   },
   {
     "company": "Vannevar Labs",
@@ -569,7 +642,7 @@
         "awardAmount": "$13M"
       }
     ],
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   },
   {
     "company": "Hadrian",
@@ -588,25 +661,6 @@
         "awardAmount": "$39M"
       }
     ],
-    "lastUpdated": "2026-09-03"
-  },
-  {
-    "company": "Relativity Space",
-    "opportunityCount": 1,
-    "agencies": [
-      "National Aeronautics and Space Administration"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER.",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2023-03-29",
-        "type": null,
-        "noticeId": "80KSC023FA106",
-        "awardAmount": "$225K"
-      }
-    ],
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-04"
   }
 ]
