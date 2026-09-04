@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T09:28:55.673239+00:00",
+  "generatedAt": "2026-09-04T14:11:02.612863+00:00",
   "date": "2026-09-04",
   "dateDisplay": "Friday, September 04, 2026",
   "sections": {
@@ -87,6 +87,13 @@
         "change": -1.48
       },
       {
+        "ticker": "ONT.L",
+        "company": "Oxford Nanopore Technologies",
+        "price": 165.1,
+        "changePercent": -8.89,
+        "change": -16.1
+      },
+      {
         "ticker": "TEM",
         "company": "Tempus AI",
         "price": 64.66,
@@ -99,13 +106,6 @@
         "price": 17.65,
         "changePercent": -8.26,
         "change": -1.59
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 39.02,
-        "changePercent": -8.1,
-        "change": -3.44
       }
     ],
     "regulatory": [
@@ -133,23 +133,23 @@
       {
         "kind": "Federal Register",
         "company": "",
+        "title": "Submission for OMB Review; Comment Request",
+        "date": "2026-09-04",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18116"
+      },
+      {
+        "kind": "Federal Register",
+        "company": "",
+        "title": "Notice Soliciting Representatives for Technical Roundtables on Security of Unman",
+        "date": "2026-09-04",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18124"
+      },
+      {
+        "kind": "Federal Register",
+        "company": "",
         "title": "Emergency Use Authorization Declaration",
         "date": "2026-09-03",
         "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18008"
-      },
-      {
-        "kind": "Federal Register",
-        "company": "",
-        "title": "List of Approved Spent Fuel Storage Casks: Holtec International HI-STORM Flood/W",
-        "date": "2026-09-03",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18107"
-      },
-      {
-        "kind": "Federal Register",
-        "company": "",
-        "title": "Submission for OMB Review; Comment Request",
-        "date": "2026-09-02",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-17972"
       }
     ],
     "patents": [
