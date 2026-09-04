@@ -11,13 +11,13 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -7.26,
+      "avg_change": -6.74,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -4.57,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -2.9,
       "count": 7
     },
     "nuclear": {
@@ -74,14 +74,14 @@
       4.42
     ],
     [
+      "277810.KQ",
+      "Rainbow Robotics",
+      1.32
+    ],
+    [
       "ASTS",
       "AST SpaceMobile",
       1.12
-    ],
-    [
-      "NVDA",
-      "NVIDIA",
-      0.21
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -18.92
     ]
   ],
-  "lastUpdated": "2026-09-03 21:45:23"
+  "lastUpdated": "2026-09-04 05:57:47"
 }
