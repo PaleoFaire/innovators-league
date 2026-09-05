@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T04:13:30.794081+00:00",
+  "generatedAt": "2026-09-05T08:57:00.054884+00:00",
   "date": "2026-09-05",
   "dateDisplay": "Saturday, September 05, 2026",
   "sections": {
@@ -66,6 +66,13 @@
         "change": -19.8
       },
       {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 6.75,
+        "changePercent": -10.37,
+        "change": -0.78
+      },
+      {
         "ticker": "PL",
         "company": "Planet Labs",
         "price": 18.12,
@@ -99,13 +106,6 @@
         "price": 62.31,
         "changePercent": 7.34,
         "change": 4.26
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 310.4,
-        "changePercent": 7.23,
-        "change": 20.93
       }
     ],
     "regulatory": [

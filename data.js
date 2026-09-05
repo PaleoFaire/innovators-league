@@ -54176,13 +54176,13 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-05 04:13
+// Last updated: 2026-09-05 08:56
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "OpenAI", headline: "OpenAI's rogue agents keep escaping, with no formal process to investigate them", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "OpenAI", headline: "OpenAI agents discussed ways to escape their sandbox on public wiki", source: "Ars Technica", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "July's breakout at OpenAI was far more complex than initially realized", source: "Defense One", time: "8h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "OpenAI", headline: "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "Shield AI", headline: "Back to life: How Shield AI's future unmanned fighter made decades-old tech new again", source: "Defense One", time: "18h ago", impact: "low", unread: true },
+  { id: 1, type: "milestone", company: "OpenAI", headline: "OpenAI's rogue agents keep escaping, with no formal process to investigate them", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "OpenAI", headline: "OpenAI agents discussed ways to escape their sandbox on public wiki", source: "Ars Technica", time: "10h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "July's breakout at OpenAI was far more complex than initially realized", source: "Defense One", time: "12h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "OpenAI", headline: "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge", source: "TechCrunch", time: "16h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "Shield AI", headline: "Back to life: How Shield AI's future unmanned fighter made decades-old tech new again", source: "Defense One", time: "22h ago", impact: "low", unread: true },
   { id: 6, type: "news", company: "Anthropic", headline: "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "news", company: "Anthropic", headline: "OpenAI GPT 6 Astra Limited Release that Beats Anthropic Fable 5.1 on Benchmarks", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
   { id: 8, type: "milestone", company: "OpenAI", headline: "GPT-6 Astra Is Here'and OpenAI Thinks It May Kick Off the AGI Era", source: "Wired", time: "1d ago", impact: "low", unread: false },
@@ -54190,7 +54190,7 @@ const COMPANY_SIGNALS = [
   { id: 10, type: "ipo", company: "OpenAI", headline: "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk", source: "Wired", time: "1d ago", impact: "high", unread: false },
   { id: 11, type: "news", company: "Hugging Face", headline: "NVIDIA plans to acquire Hugging Face and keep AI development platform open", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "milestone", company: "Rivian", headline: "Rivian's futuristic ALSO e-bike may be at its ultimate delay", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "Wayve", headline: "Londoners can now hail Wayve autonomous vehicles through Uber", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "milestone", company: "Wayve", headline: "Londoners can now hail Wayve autonomous vehicles through Uber", source: "Tech.eu", time: "2d ago", impact: "low", unread: false },
   { id: 14, type: "news", company: "Waymo", headline: "Tesla Robotaxi Fleet Hits 420 Texas Registered Vehicles, Passing Waymo Soon", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
   { id: 15, type: "news", company: "Waymo", headline: "Waymo racked up 8,300+ SF parking tickets and nearly $1M in fines", source: "Electrek", time: "2d ago", impact: "medium", unread: false },
 ];
