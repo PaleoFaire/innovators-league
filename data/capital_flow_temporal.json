@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T08:57:36+00:00",
+  "generatedAt": "2026-09-05T12:35:59+00:00",
   "matrix": {
     "geothermal-next-gen": {
       "2026-Q3": {
@@ -25,87 +25,6 @@
         "investors": [
           "Engine Ventures",
           "Khosla Ventures"
-        ]
-      }
-    },
-    "defense-munitions-energetics": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 647000679,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Castelion",
-            "amount": 647000679,
-            "date": "2026-08-28",
-            "source": "formd",
-            "investors": [
-              "Lightspeed Venture Partners",
-              "a16z",
-              "Lavrock Ventures",
-              "Cantos",
-              "First In",
-              "BlueYard Capital",
-              "Interlagos",
-              "Silicon Valley Bank",
-              "General Catalyst",
-              "Harpoon Ventures",
-              "Silent Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "General Catalyst",
-          "Harpoon Ventures",
-          "Lightspeed Venture Partners",
-          "Silent Ventures"
-        ]
-      },
-      "2025-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Allen Control Systems",
-            "amount": null,
-            "date": "2025-03",
-            "source": "recentEvent",
-            "investors": [
-              "Craft Ventures",
-              "Inspired Capital",
-              "Rally Ventures",
-              "State of Wisconsin Investment Board",
-              "Silent Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "Silent Ventures"
-        ]
-      }
-    },
-    "construction-3d-printing": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 114887843,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "ICON",
-            "amount": 114887843,
-            "date": "2026-08-26",
-            "source": "formd",
-            "investors": [
-              "Founders Fund",
-              "Mark Chen",
-              "Saquon Barkley",
-              "Roman Khan"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund"
         ]
       }
     },
@@ -377,6 +296,31 @@
           "Lightspeed Venture Partners",
           "Lux Capital",
           "Point72 Ventures",
+          "Silent Ventures"
+        ]
+      }
+    },
+    "defense-munitions-energetics": {
+      "2025-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Allen Control Systems",
+            "amount": null,
+            "date": "2025-03",
+            "source": "recentEvent",
+            "investors": [
+              "Craft Ventures",
+              "Inspired Capital",
+              "Rally Ventures",
+              "State of Wisconsin Investment Board",
+              "Silent Ventures"
+            ]
+          }
+        ],
+        "investors": [
           "Silent Ventures"
         ]
       }
@@ -1649,252 +1593,6 @@
         }
       ]
     },
-    "Lightspeed Venture Partners": {
-      "2026-Q3": [
-        {
-          "company": "Castelion",
-          "cluster": "defense-munitions-energetics",
-          "date": "2026-08-28",
-          "source": "formd"
-        },
-        {
-          "company": "RobCo",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Helion",
-          "cluster": "fusion-magnetic-confinement",
-          "date": "2026-06",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Saronic",
-          "cluster": "autonomy-maritime",
-          "date": "2026-03",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Skild AI",
-          "cluster": "ai-robotics-embodied",
-          "date": "2026-01",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "General Catalyst": {
-      "2026-Q3": [
-        {
-          "company": "Castelion",
-          "cluster": "defense-munitions-energetics",
-          "date": "2026-08-28",
-          "source": "formd"
-        },
-        {
-          "company": "Applied Intuition",
-          "cluster": "ai-autonomous-driving",
-          "date": "2026-07",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Orangewood Labs",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2026-09",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Relativity Space",
-          "cluster": "space-launch-large",
-          "date": "2025-06",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Collaborative Robotics",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Harpoon Ventures": {
-      "2026-Q3": [
-        {
-          "company": "Castelion",
-          "cluster": "defense-munitions-energetics",
-          "date": "2026-08-28",
-          "source": "formd"
-        }
-      ],
-      "2025-Q3": [
-        {
-          "company": "Astranis",
-          "cluster": "space-ground-comms",
-          "date": "2025-07",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Silent Ventures": {
-      "2026-Q3": [
-        {
-          "company": "Castelion",
-          "cluster": "defense-munitions-energetics",
-          "date": "2026-08-28",
-          "source": "formd"
-        },
-        {
-          "company": "Hadrian",
-          "cluster": "manufacturing-reshoring",
-          "date": "2026-08",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Dominion Dynamics",
-          "cluster": "arctic-defense",
-          "date": "2026-06",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Saronic",
-          "cluster": "autonomy-maritime",
-          "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q1": [
-        {
-          "company": "Allen Control Systems",
-          "cluster": "defense-munitions-energetics",
-          "date": "2025-03",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Founders Fund": {
-      "2026-Q3": [
-        {
-          "company": "ICON",
-          "cluster": "construction-3d-printing",
-          "date": "2026-08-26",
-          "source": "formd"
-        },
-        {
-          "company": "Neros",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-08",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Cognition",
-          "cluster": "ai-code-generation",
-          "date": "2026-08",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Hadrian",
-          "cluster": "manufacturing-reshoring",
-          "date": "2026-08",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Hermeus",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Radiant",
-          "cluster": "nuclear-microreactor",
-          "date": "2025-06",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "Boom Supersonic",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2025-12",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Neuralink",
-          "cluster": "brain-computer-interface",
-          "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q3": [
-        {
-          "company": "Gecko Robotics",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2025-07",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Bessemer Venture Partners": {
       "2026-Q2": [
         {
@@ -1937,6 +1635,164 @@
           "company": "Deep Isolation",
           "cluster": "nuclear-services-fuel",
           "date": "2025-06",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Silent Ventures": {
+      "2026-Q2": [
+        {
+          "company": "Dominion Dynamics",
+          "cluster": "arctic-defense",
+          "date": "2026-06",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Saronic",
+          "cluster": "autonomy-maritime",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q1": [
+        {
+          "company": "Allen Control Systems",
+          "cluster": "defense-munitions-energetics",
+          "date": "2025-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q3": [
+        {
+          "company": "Hadrian",
+          "cluster": "manufacturing-reshoring",
+          "date": "2026-08",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Founders Fund": {
+      "2026-Q2": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q3": [
+        {
+          "company": "Neros",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-08",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Cognition",
+          "cluster": "ai-code-generation",
+          "date": "2026-08",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Hadrian",
+          "cluster": "manufacturing-reshoring",
+          "date": "2026-08",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Radiant",
+          "cluster": "nuclear-microreactor",
+          "date": "2025-06",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "Boom Supersonic",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2025-12",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Neuralink",
+          "cluster": "brain-computer-interface",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q3": [
+        {
+          "company": "Gecko Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-07",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "General Catalyst": {
+      "2026-Q2": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Relativity Space",
+          "cluster": "space-launch-large",
+          "date": "2025-06",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Collaborative Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q3": [
+        {
+          "company": "Applied Intuition",
+          "cluster": "ai-autonomous-driving",
+          "date": "2026-07",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Orangewood Labs",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2026-09",
           "source": "recentEvent"
         }
       ]
@@ -2167,6 +2023,52 @@
         }
       ]
     },
+    "Lightspeed Venture Partners": {
+      "2026-Q2": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Helion",
+          "cluster": "fusion-magnetic-confinement",
+          "date": "2026-06",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Saronic",
+          "cluster": "autonomy-maritime",
+          "date": "2026-03",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Skild AI",
+          "cluster": "ai-robotics-embodied",
+          "date": "2026-01",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q3": [
+        {
+          "company": "RobCo",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Riot Ventures": {
       "2026-Q1": [
         {
@@ -2297,6 +2199,16 @@
         }
       ]
     },
+    "Harpoon Ventures": {
+      "2025-Q3": [
+        {
+          "company": "Astranis",
+          "cluster": "space-ground-comms",
+          "date": "2025-07",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Y Combinator": {
       "2025-Q4": [
         {
@@ -2389,9 +2301,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 60,
-    "totalUSDSold": 941153544,
-    "uniqueClusters": 37,
+    "totalDealsTracked": 58,
+    "totalUSDSold": 179265022,
+    "uniqueClusters": 36,
     "uniqueQuarters": 9,
     "uniqueVCs": 21,
     "quarterRange": [
