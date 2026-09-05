@@ -11,7 +11,7 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -2.56,
+      "avg_change": -3.23,
       "count": 7
     },
     "autonomous": {
@@ -86,11 +86,6 @@
   ],
   "topLosers": [
     [
-      "ASRHF",
-      "Astroscale",
-      -5.65
-    ],
-    [
       "PLTR",
       "Palantir",
       -6.42
@@ -99,6 +94,11 @@
       "PL",
       "Planet Labs",
       -9.31
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      -10.37
     ],
     [
       "ONT.L",
@@ -111,5 +111,5 @@
       -12.45
     ]
   ],
-  "lastUpdated": "2026-09-04 21:32:56"
+  "lastUpdated": "2026-09-05 05:48:39"
 }
