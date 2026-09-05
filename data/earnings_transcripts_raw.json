@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-09-04 12:10:52 UTC",
+    "generated_at": "2026-09-05 11:10:57 UTC",
     "total_targets": 116,
-    "with_excerpts": 99,
+    "with_excerpts": 106,
     "sources": [
       "none",
       "sec_edgar",
@@ -341,11 +341,13 @@
     {
       "ticker": "HEI",
       "company": "Heico",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://heico.com/investors/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-27",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/46619/000004661926000020/0000046619-26-000020-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "TDY",
@@ -526,29 +528,35 @@
     {
       "ticker": "LRCX",
       "company": "Lam Research",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investor.lamresearch.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-04-23",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000022/0000707549-26-000022-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "TER",
       "company": "Teradyne",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.teradyne.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-07-31",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526327715/0001193125-26-327715-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "ENTG",
       "company": "Entegris",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investor.entegris.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130226000150/0001101302-26-000150-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "ON",
@@ -675,11 +683,11 @@
       "ticker": "SNOW",
       "company": "Snowflake",
       "quarter": "2026-Q3",
-      "date": "2026-05-29",
+      "date": "2026-09-04",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000030/0001640147-26-000030-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000037/0001640147-26-000037-index.htm",
       "source": "sec_edgar"
     },
     {
@@ -727,11 +735,13 @@
     {
       "ticker": "EMR",
       "company": "Emerson Electric",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://www.emerson.com/en-us/investors",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/32604/000003260426000043/0000032604-26-000043-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "ETN",
@@ -846,11 +856,13 @@
     {
       "ticker": "RIVN",
       "company": "Rivian Automotive",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://rivian.com/investors",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-07-30",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000054/0001874178-26-000054-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "AUR",
@@ -919,11 +931,13 @@
     {
       "ticker": "IRDM",
       "company": "Iridium Communications",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investor.iridium.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-07-22",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000045/0001418819-26-000045-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "ASTS",

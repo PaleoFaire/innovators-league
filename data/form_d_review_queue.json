@@ -1,7 +1,40 @@
 {
-  "generated_at": "2026-09-04T12:15:03.813106+00:00",
+  "generated_at": "2026-09-05T11:15:02.816873+00:00",
   "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
   "candidates": [
+    {
+      "match_method": "name-candidate",
+      "company": "Helion",
+      "issuer_name": "Helion Strategies Meridian Fund, LLC",
+      "form": "D",
+      "filed_date": "2026-09-04",
+      "cik": "2088331",
+      "accession": "0002088331-26-000004",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002088331&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002088331-26-000004"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Helion",
+      "issuer_name": "Helion Strategies Horizon Fund, LLC",
+      "form": "D",
+      "filed_date": "2026-09-04",
+      "cik": "2080582",
+      "accession": "0002080582-26-000003",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002080582&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002080582-26-000003"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Cape",
+      "issuer_name": "Cape Fear BioCapital Fund I, LP",
+      "form": "D",
+      "filed_date": "2026-09-04",
+      "cik": "2024134",
+      "accession": "0002024134-26-000003",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002024134&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002024134-26-000003"
+    },
     {
       "match_method": "name-candidate",
       "company": "Verse",
@@ -12,72 +45,6 @@
       "accession": "0002022340-26-000005",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002022340&type=D&dateb=&owner=include&count=10",
       "adsh_raw": "0002022340-26-000005"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "FuriosaAI",
-      "issuer_name": "FuriosaAI, Inc",
-      "form": "D",
-      "filed_date": "2026-09-03",
-      "cik": "2149195",
-      "accession": "0000950103-26-013534",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002149195&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0000950103-26-013534"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Aclarity",
-      "issuer_name": "Aclarity Genomics, Inc",
-      "form": "D",
-      "filed_date": "2026-09-02",
-      "cik": "2153126",
-      "accession": "0002153126-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002153126&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002153126-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Radian Forge",
-      "issuer_name": "Radian Forge Inc",
-      "form": "D",
-      "filed_date": "2026-09-02",
-      "cik": "2146282",
-      "accession": "0002146282-26-000002",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002146282&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002146282-26-000002"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Matter",
-      "issuer_name": "Matter Venture Partners Fund II, L.P",
-      "form": "D",
-      "filed_date": "2026-09-01",
-      "cik": "2102541",
-      "accession": "0002102541-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002102541&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002102541-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Mara",
-      "issuer_name": "Mara River Special Opportunities Offshore Fund Ltd",
-      "form": "D",
-      "filed_date": "2026-08-31",
-      "cik": "2152851",
-      "accession": "0002152851-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002152851&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002152851-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Icarus",
-      "issuer_name": "Icarus Ventures LLC",
-      "form": "D",
-      "filed_date": "2026-08-26",
-      "cik": "2150161",
-      "accession": "0002150161-26-000002",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002150161&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002150161-26-000002"
     }
   ]
 }

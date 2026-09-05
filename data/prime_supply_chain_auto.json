@@ -341,6 +341,55 @@
     ]
   },
   {
+    "prime": "Leidos",
+    "ticker": "LDOS",
+    "totalCompanies": 6,
+    "portfolio": [
+      {
+        "company": "Cover",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$210.2M",
+        "agency": "Department of Energy",
+        "evidence": "IGF::OT::IGF  THIS A FIXED PRICE AND FIXED UNIT RATE TASK ORDER WITH A COST REIMBURSABLE CLIN FOR EQUIPMENT AND VEHICLES FOR ENVIRONMENTAL REMEDIATION AT THE DEPARTMENT OF ENERGY'S MOAB SITE IN MOAB, ",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DEDT0011049_8900_DEEM0000842_8900"
+      },
+      {
+        "company": "HawkEye 360",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Signal intelligence services"
+      },
+      {
+        "company": "Palantir",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Healthcare/defense data integration"
+      },
+      {
+        "company": "Rebellion Defense",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Defense AI platform support"
+      },
+      {
+        "company": "Volund Manufacturing",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "leidos"
+      },
+      {
+        "company": "space",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$1306.8M",
+        "agency": "National Aeronautics and Space Administration",
+        "evidence": "THE FACILITIES DEVELOPMENT AND OPERATIONS CONTRACT(FDOC) SPECIFIES TECHNICAL, MANAGERIAL, AND ADMINSTRATIVE WORK NEEDED TO ENSURE THE AVAILABLITITY, INTEGRITY, AND RELIABILITY OF MISSIONOPERATIONS FAC",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNJ09HD46C_8000_-NONE-_-NONE-"
+      }
+    ]
+  },
+  {
     "prime": "L3Harris",
     "ticker": "LHX",
     "totalCompanies": 5,
@@ -420,46 +469,6 @@
         "relationship": "mentioned",
         "source": "ROS company research",
         "evidence": "saic"
-      }
-    ]
-  },
-  {
-    "prime": "Leidos",
-    "ticker": "LDOS",
-    "totalCompanies": 5,
-    "portfolio": [
-      {
-        "company": "HawkEye 360",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Signal intelligence services"
-      },
-      {
-        "company": "Palantir",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Healthcare/defense data integration"
-      },
-      {
-        "company": "Rebellion Defense",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Defense AI platform support"
-      },
-      {
-        "company": "Volund Manufacturing",
-        "relationship": "mentioned",
-        "source": "ROS company research",
-        "evidence": "leidos"
-      },
-      {
-        "company": "space",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$1306.8M",
-        "agency": "National Aeronautics and Space Administration",
-        "evidence": "THE FACILITIES DEVELOPMENT AND OPERATIONS CONTRACT(FDOC) SPECIFIES TECHNICAL, MANAGERIAL, AND ADMINSTRATIVE WORK NEEDED TO ENSURE THE AVAILABLITITY, INTEGRITY, AND RELIABILITY OF MISSIONOPERATIONS FAC",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_NNJ09HD46C_8000_-NONE-_-NONE-"
       }
     ]
   },

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-04T12:15:15.894032+00:00",
+  "generated_at": "2026-09-05T11:15:09.151791+00:00",
   "lookback_days": 8,
-  "scanned": 1116,
-  "total": 2,
+  "scanned": 1105,
+  "total": 1,
   "filings": [
     {
       "match_method": "cik",
@@ -26,29 +26,6 @@
         "Frohman Anderson",
         "Mark Cupta",
         "Ali Azad"
-      ],
-      "is_safe": false,
-      "source": "edgar-daily-index"
-    },
-    {
-      "match_method": "cik",
-      "match_evidence": "filer CIK 1973707 == our recorded CIK",
-      "company": "Castelion",
-      "issuer_name": "Castelion Corp",
-      "form": "D",
-      "filed_date": "2026-08-28",
-      "cik": "1973707",
-      "accession": "0001973707-26-000001",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/1973707/000197370726000001/primary_doc.xml",
-      "offering_amount": "800000173",
-      "amount_sold": "647000679",
-      "amount_remaining": "152999494",
-      "securities_type": "Equity",
-      "related_persons": [
-        "Charles Hargis",
-        "Sean Pitt",
-        "Andrew Kreitz",
-        "Alex Poulin"
       ],
       "is_safe": false,
       "source": "edgar-daily-index"

@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-09-04T12:15:15.894032+00:00",
+  "generated_at": "2026-09-05T11:15:09.151791+00:00",
   "note": "name-only matches. NOT shown to members. Confirm, then add the CIK to data/cik_map.json to promote.",
   "candidates": [
+    {
+      "match_method": "name-strict",
+      "match_evidence": "'Corvex, Inc.' stems to 'Corvex Systems'",
+      "company": "Corvex Systems",
+      "issuer_name": "Corvex, Inc.",
+      "form": "D",
+      "filed_date": "2026-09-04",
+      "cik": "1734750",
+      "accession": "0001213900-26-097675",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1734750/000121390026097675/primary_doc.xml",
+      "offering_amount": "33000027",
+      "amount_sold": "33000027",
+      "amount_remaining": "0",
+      "securities_type": "Equity",
+      "related_persons": [
+        "Seth Demsey",
+        "John Crystal",
+        "Christopher Moreland",
+        "Emily Fairbarn",
+        "Nicholas Donofrio",
+        "Patrick Fleury",
+        "Brian Cullinan"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
+    },
     {
       "match_method": "name-strict",
       "match_evidence": "'FuriosaAI, Inc.' stems to 'FuriosaAI'",

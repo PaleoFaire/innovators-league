@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-09-04 11:57:08 UTC
+// Last updated: 2026-09-05 11:06:29 UTC
 const ARXIV_PAPERS = [
   { id: "2609.04180v1", title: "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views", category: "Artificial Intelligence", published: "2026-09-03", sectors: "ai", authors: "Joseph Lee, Yidi Huang, Dokyoon Kim et al." },
   { id: "2609.04172v1", title: "Rethinking On-Policy Distillation of Large Language Models II: One Training Example", category: "Artificial Intelligence", published: "2026-09-03", sectors: "ai", authors: "Zixuan Fu, Bingxiang He, Yuxin Zuo et al." },
