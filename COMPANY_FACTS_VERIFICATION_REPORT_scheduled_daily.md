@@ -1,113 +1,141 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-09-04T09:28:24+00:00  
+**Generated:** 2026-09-05T08:56:49+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 39 companies  
+**Cohort size:** 37 companies  
 
-**New Claude extractions this run:** 39  
+**New Claude extractions this run:** 37  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 33 | 85% |
-| 🔧 Changes proposed | 6 | 15% |
+| ✅ Cleared (data matches sources) | 26 | 70% |
+| 🔧 Changes proposed | 11 | 30% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (6 companies)
+## 🔧 Proposed Changes (11 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
-### Axiom Space
+### Astera Labs
 
-- **`location`:** `Houston, TX` → `Houston, Texas, United States`  
-  Sources: [company_about](https://axiomspace.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Axiom_Space)
+- **`location`:** `San Jose, CA` → `San Jose, California, United States`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Astera_Labs)
 
-  **Notes:** Michael Suffredini served as CEO and President until 2024; Dr. Jonathan W. Cirtain is current CEO as of July 2026. In December 2025, 4iG Group signed a $100 million equity investment agreement with two tranches through March 2026 (per Wikipedia source). Company completed first private crewed mission to ISS in April 2022.
-
-### Hermeus
-
-- **`founder`:** `AJ Piplica, Skyler Shuford, Glenn Case, Mike Smayda` → `AJ Piplica, Glenn Case, Skyler Shuford, Michael Smayda`  
-  Sources: [company_about](https://hermeus.com/company) · [wikipedia](https://en.wikipedia.org/wiki/Hermeus)
-- **`location`:** `Atlanta, GA` → `Atlanta, Georgia`  
-  Sources: [company_about](https://hermeus.com/company) · [wikipedia](https://en.wikipedia.org/wiki/Hermeus)
-
-  **Notes:** Source [0] mentions $350M Series C funding on July 17, 2026 and $219M DIU contract modification. Source [1] identifies founders as 'AJ Piplica, Glenn Case, Skyler Shuford, and Michael Smayda' and confirms 2018 founding. Source [2] Wikipedia lists slightly different founder presentation but confirms same four individuals. Company achieved supersonic flight in May 2026 per source [1].
+  **Notes:** Company listed on Nasdaq under ticker ALAB since March 2024. Wikipedia source lists 2025 financial metrics (revenue US$852.5M, net income US$219.1M) but these are not historical founding/raising data. Headquarters relocated to San Jose in June 2025 from previous Santa Clara location.
 
 ### Nano Nuclear Energy
 
 - **`fundingStage`:** `Seed` → `Public`  
   Sources: [company_website](https://nanonuclearenergy.com) · [company_about](https://nanonuclearenergy.com/about)
 
-  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from company website and contain identical or near-identical content. Source [2] appears to be about a different company (Valar Atomics) and was not used. Database entry claims include founder name (Jay Jiang Yu), founding year (2022), stage (Seed), total raised ($600M+), and valuation ($808M) — none of which are supported by provided sources, so marked as null.
+  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Source [2] about Valar Atomics is not relevant to this company and was not used. No founder names explicitly stated as founders in provided sources. No founded year, total raised amount, valuation, or investor names could be verified from these sources.
 
-### Osmo
+### Palantir
 
-- **`location`:** `Elizabeth, NJ` → `Elizabeth, New Jersey`  
-  Sources: [company_about](https://www.osmo.ai/about)
+- **`location`:** `Miami, FL` → `Miami, Florida, U.S.`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Palantir)
 
-  **Notes:** Source [1] specifies Series A raised $60M in 2022 backed by Lux Capital, GV, and The Alexa Fund. Series B of $70M was raised in 2026 according to source [1]. Total raised of $130M matches $60M + $70M. Source [2] is Wikipedia disambiguation page for the name 'Osmo' and is not relevant to the company. Source [3] is NASA news unrelated to Osmo company.
+  **Notes:** Wikipedia source [0] lists former headquarters in Palo Alto, California but current headquarters as Miami, Florida. Source [0] mentions trading on Nasdaq as PLTR with 2025 revenue of $4.48 billion, but no current market cap or valuation provided in sources. Source [1] is a news article about a separate business venture and does not provide company information.
+
+### PsiQuantum
+
+- **`location`:** `Palo Alto, CA` → `Palo Alto, California, US`  
+  Sources: [company_about](https://psiquantum.com/about) · [wikipedia](https://en.wikipedia.org/wiki/PsiQuantum)
+
+  **Notes:** Series E $1B raised in 2025 per Wikipedia source [2]. Multiple facilities globally including Palo Alto HQ, Milpitas (PsiFactory), Daresbury UK (PsiLabs), Malta NY (GlobalFoundries Fab 8), Chicago IL (IQMP), and Queensland Australia (Moreton Bay Central and Brisbane Test & Validation Lab). Government partnerships with DARPA, US Air Force, and Australian Commonwealth/Queensland governments.
+
+### Rivian
+
+- **`location`:** `Irvine, CA` → `Irvine, California`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Rivian)
+
+  **Notes:** Wikipedia source [2] states company was founded in Rockledge, Florida in June 2009, later moved headquarters to Irvine, California. IPO occurred November 10, 2021 on Nasdaq. Company previously named Mainstream Motors and Avera Automotive. Manufacturing facility in Normal, Illinois.
+
+### Scale AI
+
+- **`location`:** `San Francisco, CA` → `San Francisco, California`  
+  Sources: [company_about](https://scale.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Scale_AI)
+
+  **Notes:** In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang left to join Meta and was replaced by Jason Droege as CEO. Company remains independent. Lucy Guo was fired in 2018 but is still listed as co-founder.
+
+### Shield AI
+
+- **`location`:** `San Diego, CA` → `San Diego, California, U.S.`  
+  Sources: [company_about](https://shield.ai/about) · [wikipedia](https://en.wikipedia.org/wiki/Shield_AI)
+
+  **Notes:** CEO changed from Ryan Tseng to Gary Steele in March 2025; Ryan Tseng became Chief Strategic Officer. Wikipedia indicates Series G funding of $1.5B announced March 2026 at $12.7B post-money valuation. Current database entry references Gary Steele as CEO and Ryan Tseng as President; Wikipedia sources indicate Ryan Tseng became Chief Strategic Officer, not President.
 
 ### SpaceX
 
-- **`fundingStage`:** `IPO` → `Public`  
+- **`location`:** `Starbase, TX` → `Starbase, Texas, U.S.`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
 
-  **Notes:** Wikipedia source indicates SpaceX went public on June 12, 2026 via IPO that raised $86B (largest IPO in history). Elon Musk owns 42% of outstanding shares and controls 85% of voting power via super-voting stock. Source 3 (Ars Technica) reports Nvidia disclosed $21B stake in SpaceX as of August 2026.
+  **Notes:** IPO on June 12, 2026 on Nasdaq (SPCX) raised $86 billion per source [0]. Database entry claims $85.7B including greenshoe, but source [0] states $86 billion. Elon Musk controls 85% voting power via super-voting stock per source [0], not 82% as in database entry. Sources [1] and [2] are news articles about other topics (OpenAI partnership, Nvidia stake) and do not provide verified founding information.
 
-### Starcloud
+### Vertical Aerospace
 
-- **`fundingStage`:** `Seed` → `Series A`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Starcloud)
+- **`location`:** `Bristol, UK` → `Bristol, England, UK`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Vertical_Aerospace)
 
-  **Notes:** Company was originally founded as 'Lumen Orbit' in El Segundo, California in January 2024, then relocated to Redmond, Washington in February 2024, and rebranded to 'Starcloud' in March 2025 after a legal challenge from Lumen Technologies. Series A funding announced March 30, 2026. Became fastest Y Combinator unicorn at 17 months after completing the program.
+  **Notes:** Company listed on NYSE under ticker EVTL following December 2021 SPAC merger with Broadstone Acquisition Corp. The $50M figure from 2024 represents a specific Mudrick Capital investment; Wikipedia notes this was accompanied by 70% shareholding. Database entry listed 'Valo' as successor to VX4, but sources reference VX4 as current primary aircraft in development.
+
+### Waymo
+
+- **`location`:** `Mountain View, CA` → `Mountain View, California`  
+  Sources: [company_about](https://waymo.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Waymo)
+
+  **Notes:** Wikipedia source indicates Waymo was established as an independent company in December 2016 after spinning out from Google/Alphabet. The $16B raise in February 2026 valued the company at $126B. Waymo is a subsidiary of Alphabet Inc. Co-CEOs are Tekedra Mawakana and Dmitri Dolgov (since April 2021). Operating cities include Phoenix, San Francisco, Los Angeles, Austin, Atlanta, and others; international expansion to London, UK and Tokyo, Japan noted in sources.
+
+### Xanadu Quantum Technologies
+
+- **`totalRaised`:** `$245M private + ~$302M de-SPAC` → `$245M`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Xanadu_Quantum_Technologies)
+
+  **Notes:** Company is publicly traded on TSX and Nasdaq under ticker XNDU. Database entry mentions ~$302M de-SPAC valuation, but this specific figure is not found in provided sources. Only the $245M in private venture capital funding is verified in source [0].
 
 ---
 
-## ✅ Cleared (33 companies)
+## ✅ Cleared (26 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
 - Antares
-- Astera Labs
+- AnySignal
+- Axiom Space
 - Base Power
 - Cape
 - Cover
-- Crusoe Energy
 - Deterrence
 - Forterra
+- Hadrian
 - Hailo
 - Mammoth Biosciences
 - Neko Health
 - Oklo
+- Orbital Composites
+- Osmo
 - Oxford Nanopore Technologies
-- Palantir
 - Percepto
 - Photonic Inc
-- Physical Intelligence
-- PsiQuantum
 - QuiX Quantum
 - Radiant
-- Realta Fusion
 - Rebellions
-- Rivian
 - Sage Geosystems
-- Scale AI
-- Skild AI
 - Valar Atomics
 - Vast
-- Waymo
 - Wayve
-- *...and 3 more*
+- ideaForge
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-09-04T09:28:24+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-09-05T08:56:49+00:00*

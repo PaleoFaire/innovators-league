@@ -1,82 +1,124 @@
 {
-  "generatedAt": "2026-09-03T09:35:35+00:00",
+  "generatedAt": "2026-09-05T08:57:17+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
-  "cohortSize": 1,
-  "newExtractionsThisRun": 1,
+  "cohortSize": 2,
+  "newExtractionsThisRun": 2,
   "summary": {
-    "cleared": 0,
+    "cleared": 1,
     "changesProposed": 1,
     "unverifiable": 0
   },
-  "cleared": [],
+  "cleared": [
+    "Shield Capital"
+  ],
   "changesProposed": [
     {
-      "name": "Y Combinator",
+      "name": "Engine Ventures",
       "current": {
-        "name": "Y Combinator",
-        "shortName": "YC",
-        "aum": "Standard deal $500K/startup ($125K for 7% + $375K MFN SAFE)",
-        "flagshipFund": "Batch accelerator program",
-        "founded": 2005,
-        "hq": "San Francisco, California",
-        "website": "https://www.ycombinator.com"
+        "name": "Engine Ventures",
+        "shortName": "Engine",
+        "aum": "$1B+",
+        "flagshipFund": "Engine Ventures Fund III",
+        "founded": 2023,
+        "hq": "Cambridge, Massachusetts",
+        "website": "https://engine.xyz"
       },
       "verified": {
-        "name": "Y Combinator",
-        "short_name": "YC",
+        "name": "Engine Ventures",
+        "short_name": "Engine",
         "aum": null,
-        "flagship_fund": "Batch accelerator program",
-        "founded_year": 2005,
-        "hq": "San Francisco, California",
-        "key_partners": [
-          "Garry Tan",
-          "Jared Friedman",
-          "Harj Taggar",
-          "Aaron Epstein",
-          "Diana Hu",
-          "Gustaf Alstr\u00f6mer",
-          "Nicolas Dessaigne"
+        "flagship_fund": null,
+        "founded_year": 2023,
+        "hq": "Cambridge, Massachusetts",
+        "key_partners": null,
+        "sector_focus": [
+          "Applied AI & ML",
+          "Computing",
+          "Mobility",
+          "Autonomous Systems / Robotics",
+          "Energy",
+          "Natural Resources",
+          "Biotech / Life Sciences",
+          "Food / Agriculture",
+          "Quantum Computing",
+          "Carbon Capture / CCUS",
+          "Manufacturing",
+          "Space",
+          "Climate",
+          "Materials",
+          "Water / Oceans"
         ],
-        "sector_focus": null,
-        "thesis": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support. Companies are helped to achieve better products with more users and more options for raising money.",
-        "website": "https://www.ycombinator.com",
+        "thesis": "Engine Ventures invests in early-stage Tough Tech companies developing hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+        "website": "https://engine.xyz",
         "sources_per_field": {
           "name": [
             0,
-            2
+            1,
+            2,
+            3
           ],
           "short_name": [
-            2
-          ],
-          "flagship_fund": [
-            0,
-            1
-          ],
-          "founded_year": [
-            2
-          ],
-          "hq": [
-            2
-          ],
-          "key_partners": [
             0
           ],
+          "founded_year": [
+            1,
+            3
+          ],
+          "hq": [
+            3
+          ],
+          "sector_focus": [
+            1,
+            2
+          ],
           "thesis": [
+            3
+          ],
+          "website": [
             0,
-            1
+            1,
+            2,
+            3
           ]
         },
-        "notes": "Garry Tan became President and CEO in January 2023 (source 2). YC relocated headquarters from Mountain View to San Francisco in spring 2023 (source 2). Four batches per year confirmed (sources 0, 1, 2). Sector focus cannot be verified from sources provided."
+        "notes": "Engine Ventures is a separate investment firm that spun out from The Engine (a nonprofit incubator/accelerator founded by MIT in 2016) in 2023. The Engine remains a 501(c)(3) nonprofit as of 2025, while Engine Ventures operates as the venture capital investment arm. Wikipedia and source materials describe Engine Ventures as the rebranded investment fund; sources do not provide specific AUM figure, current flagship fund name, or explicitly named senior partners for Engine Ventures specifically."
       },
       "changes": [
         {
-          "field": "thesis",
-          "current": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support to help startups achieve product-market fit and improve their business models.",
-          "verified": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support. Companies are helped to achieve better products with more users and more options for raising money.",
+          "field": "sectorFocus",
+          "current": [
+            "Applied AI & ML",
+            "Computing",
+            "Mobility",
+            "Autonomous Systems / Robotics",
+            "Energy",
+            "Natural Resources",
+            "Biotech / Life Sciences",
+            "Food / Agriculture",
+            "Quantum Computing",
+            "Carbon Capture / CCUS"
+          ],
+          "verified": [
+            "Applied AI & ML",
+            "Computing",
+            "Mobility",
+            "Autonomous Systems / Robotics",
+            "Energy",
+            "Natural Resources",
+            "Biotech / Life Sciences",
+            "Food / Agriculture",
+            "Quantum Computing",
+            "Carbon Capture / CCUS",
+            "Manufacturing",
+            "Space",
+            "Climate",
+            "Materials",
+            "Water / Oceans"
+          ],
           "sources": [
-            0,
-            1
+            1,
+            2
           ]
         }
       ],
@@ -84,30 +126,30 @@
         {
           "idx": 0,
           "src": "firm_website",
-          "url": "https://www.ycombinator.com"
+          "url": "https://engine.xyz"
         },
         {
           "idx": 1,
           "src": "firm/about",
-          "url": "https://www.ycombinator.com/about"
+          "url": "https://engine.xyz/about"
         },
         {
           "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Y_Combinator"
+          "src": "firm/companies",
+          "url": "https://engine.xyz/companies"
         },
         {
           "idx": 3,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/09/01/photoroom-co-founder-quits-executive-role/"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
         },
         {
           "idx": 4,
-          "src": "news (Utility Dive)",
-          "url": "https://www.utilitydive.com/news/pjm-oklo-advanced-nuclear-ferc-interconnection/829150/"
+          "src": "news (Defense One)",
+          "url": "https://www.defenseone.com/business/2026/09/back-life-how-shield-ais-future-unmanned-fighter-made-decades-old-tech-new-again/415821/"
         }
       ],
-      "notes": "Garry Tan became President and CEO in January 2023 (source 2). YC relocated headquarters from Mountain View to San Francisco in spring 2023 (source 2). Four batches per year confirmed (sources 0, 1, 2). Sector focus cannot be verified from sources provided."
+      "notes": "Engine Ventures is a separate investment firm that spun out from The Engine (a nonprofit incubator/accelerator founded by MIT in 2016) in 2023. The Engine remains a 501(c)(3) nonprofit as of 2025, while Engine Ventures operates as the venture capital investment arm. Wikipedia and source materials describe Engine Ventures as the rebranded investment fund; sources do not provide specific AUM figure, current flagship fund name, or explicitly named senior partners for Engine Ventures specifically."
     }
   ],
   "unverifiable": []
