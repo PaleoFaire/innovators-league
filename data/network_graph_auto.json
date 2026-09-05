@@ -2167,7 +2167,7 @@
     },
     {
       "id": "Steady Energy",
-      "sector": "Climate & Energy",
+      "sector": "Nuclear Energy",
       "thesisCluster": "nuclear-smr-advanced"
     },
     {
@@ -4672,7 +4672,7 @@
     },
     {
       "id": "Maritime Fusion",
-      "sector": "Climate & Energy",
+      "sector": "Nuclear Energy",
       "thesisCluster": ""
     },
     {
@@ -5422,11 +5422,6 @@
     },
     {
       "id": "Cognitive Space",
-      "sector": "Space & Aerospace",
-      "thesisCluster": ""
-    },
-    {
-      "id": "HEO Robotics",
       "sector": "Space & Aerospace",
       "thesisCluster": ""
     },
@@ -11270,7 +11265,7 @@
     }
   ],
   "counts": {
-    "total_nodes": 1187,
+    "total_nodes": 1186,
     "total_edges": 918,
     "competitor_edges": 169,
     "thesis_edges": 741,

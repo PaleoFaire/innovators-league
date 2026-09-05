@@ -1,6 +1,9 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-04 10:55:12 UTC
+// Last updated: 2026-09-05 10:15:15 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "4", date: "2026-09-04", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Rigetti Computing", form: "4", date: "2026-09-04", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
+  { company: "Archer Aviation", form: "8-K", date: "2026-09-04", description: "achr-20260901.htm", isIPO: false, ticker: "ACHR" },
   { company: "Palantir Technologies", form: "4", date: "2026-09-03", description: "xslF345X06/wk-form4_1788480144.xml", isIPO: false, ticker: "PLTR" },
   { company: "Oklo", form: "4", date: "2026-09-03", description: "xslF345X06/wk-form4_1788467088.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-09-03", description: "xslF345X06/wk-form4_1788467003.xml", isIPO: false, ticker: "OKLO" },
@@ -48,7 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Ginkgo Bioworks", form: "4", date: "2026-08-25", description: "xslF345X06/wk-form4_1787691673.xml", isIPO: false, ticker: "DNA" },
   { company: "Palantir Technologies", form: "4", date: "2026-08-24", description: "xslF345X06/wk-form4_1787616201.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-08-24", description: "xslF345X06/wk-form4_1787616121.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Upstart Holdings", form: "4", date: "2026-08-21", description: "xslF345X06/wk-form4_1787351032.xml", isIPO: false, ticker: "UPST" },
-  { company: "Upstart Holdings", form: "4", date: "2026-08-21", description: "xslF345X06/wk-form4_1787351013.xml", isIPO: false, ticker: "UPST" },
-  { company: "Upstart Holdings", form: "4", date: "2026-08-21", description: "xslF345X06/wk-form4_1787350993.xml", isIPO: false, ticker: "UPST" },
 ];

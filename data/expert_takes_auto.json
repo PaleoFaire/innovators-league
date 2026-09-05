@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T11:07:42.616509Z",
+  "generated_at": "2026-09-05T10:28:54.409914Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -40,12 +40,21 @@
       "source": "news",
       "source_url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
       "signal_type": "ipo"
+    },
+    {
+      "author": "insidedefense",
+      "role": "Executive commentary",
+      "company": "Anthropic",
+      "text": "DOD tech chief says Anthropic still a \u2018supply chain risk\u2019",
+      "date": "2026-09-03",
+      "source": "press",
+      "source_url": "https://insidedefense.com/ai-news-briefs/dod-tech-chief-says-anthropic-still-%E2%80%98supply-chain-risk%E2%80%99"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
     "from_news": 4,
-    "from_press": 0
+    "from_press": 1
   }
 }
