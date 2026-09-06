@@ -1,73 +1,88 @@
 {
-  "generatedAt": "2026-09-05T08:56:49+00:00",
+  "generatedAt": "2026-09-06T09:16:51+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 37,
-  "newExtractionsThisRun": 37,
+  "cohortSize": 39,
+  "newExtractionsThisRun": 39,
   "summary": {
-    "cleared": 26,
-    "changesProposed": 11,
+    "cleared": 35,
+    "changesProposed": 4,
     "unverifiable": 0
   },
   "cleared": [
     "Antares",
     "AnySignal",
+    "Astera Labs",
     "Axiom Space",
     "Base Power",
     "Cape",
     "Cover",
     "Deterrence",
     "Forterra",
+    "HEO",
     "Hadrian",
     "Hailo",
-    "Mammoth Biosciences",
     "Neko Health",
     "Oklo",
     "Orbital Composites",
     "Osmo",
     "Oxford Nanopore Technologies",
+    "Palantir",
     "Percepto",
     "Photonic Inc",
+    "PsiQuantum",
     "QuiX Quantum",
     "Radiant",
     "Rebellions",
+    "Rivian",
     "Sage Geosystems",
+    "Scale AI",
+    "Shield AI",
+    "SpaceX",
     "Valar Atomics",
     "Vast",
+    "Vertical Aerospace",
     "Wayve",
+    "Xanadu Quantum Technologies",
     "ideaForge"
   ],
   "changesProposed": [
     {
-      "name": "Astera Labs",
+      "name": "Isar Aerospace",
       "current": {
-        "name": "Astera Labs",
-        "founder": "Jitendra Mohan, Sanjay Gajendra, Casey Morrison",
-        "location": "San Jose, CA",
-        "founded": 2017,
-        "fundingStage": "Public",
-        "totalRaised": "$713M",
-        "website": "https://asteralabs.com"
+        "name": "Isar Aerospace",
+        "founder": "Daniel Metzler, Markus Brandl, Josef Peter Fleischmann",
+        "location": "Ottobrunn, Germany",
+        "founded": 2018,
+        "fundingStage": "Series C",
+        "totalRaised": "$650M+",
+        "website": "https://isaraerospace.com"
       },
       "verified": {
-        "name": "Astera Labs",
-        "description": "Fabless semiconductor manufacturer specializing in high-speed connectivity solutions for data centers and AI infrastructure. The company designs purpose-built silicon-based connectivity solutions including PCIe, CXL, Ethernet, and fabric switches for rack-scale AI systems.",
+        "name": "Isar Aerospace",
+        "description": "German aerospace company developing Spectrum, a two-stage liquid-fueled rocket designed to launch up to 1,000 kilograms to low Earth orbit. Launch service provider for small and medium-sized satellites.",
         "founders": [
-          "Jitendra Mohan",
-          "Sanjay Gajendra",
-          "Casey Morrison"
+          "Daniel Metzler",
+          "Markus Brandl",
+          "Josef Peter Fleischmann"
         ],
-        "location": "San Jose, California, United States",
-        "founded_year": 2017,
-        "current_stage": "Public",
-        "total_raised": "$713M",
+        "location": "Ottobrunn, Germany",
+        "founded_year": 2018,
+        "current_stage": null,
+        "total_raised": "\u20ac500+M",
         "valuation": null,
         "investors": [
-          "Intel Capital",
-          "Fidelity Investments",
-          "Sutter Hill Ventures"
+          "Earlybird",
+          "Airbus Ventures",
+          "Lakestar",
+          "HV Capital",
+          "Porsche SE",
+          "7-Industries Holding",
+          "Bayern Kapital",
+          "Lombard Odier",
+          "NATO Innovation Fund"
         ],
-        "website": "https://asteralabs.com",
+        "website": "https://isaraerospace.com",
         "sources_per_field": {
           "name": [
             0,
@@ -75,26 +90,23 @@
             2
           ],
           "description": [
-            1,
             2
           ],
           "founders": [
-            0,
             2
           ],
           "location": [
             2
           ],
           "founded_year": [
-            2
-          ],
-          "current_stage": [
+            1,
             2
           ],
           "total_raised": [
-            2
+            0
           ],
           "investors": [
+            1,
             2
           ],
           "website": [
@@ -103,14 +115,109 @@
             2
           ]
         },
-        "notes": "Company listed on Nasdaq under ticker ALAB since March 2024. Wikipedia source lists 2025 financial metrics (revenue US$852.5M, net income US$219.1M) but these are not historical founding/raising data. Headquarters relocated to San Jose in June 2025 from previous Santa Clara location."
+        "notes": "Wikipedia source [2] states total funding 'greater than 400 million euros' as of 2024; company website [0] states '\u20ac500+ million' in private capital raised. Founder name in database entry 'Josef Peter Fleischmann' matches Wikipedia 'Josef Peter Fleischmann' but company website lists 'Josef Fleischmann' as Chief Technical Officer. Current stage not explicitly stated in sources; Wikipedia describes as 'Privately held company' but no funding round stage specified."
+      },
+      "changes": [
+        {
+          "field": "totalRaised",
+          "current": "$650M+",
+          "verified": "\u20ac500+M",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://isaraerospace.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://isaraerospace.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Isar_Aerospace"
+        },
+        {
+          "idx": 3,
+          "src": "news (Sifted)",
+          "url": "https://sifted.eu/articles/isar-aerospace-test-flight-orbit/"
+        },
+        {
+          "idx": 4,
+          "src": "news (ESA News)",
+          "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Boost/Isar_Aerospace_achieves_first_launch_to_orbit_from_continental_Europe"
+        }
+      ],
+      "notes": "Wikipedia source [2] states total funding 'greater than 400 million euros' as of 2024; company website [0] states '\u20ac500+ million' in private capital raised. Founder name in database entry 'Josef Peter Fleischmann' matches Wikipedia 'Josef Peter Fleischmann' but company website lists 'Josef Fleischmann' as Chief Technical Officer. Current stage not explicitly stated in sources; Wikipedia describes as 'Privately held company' but no funding round stage specified."
+    },
+    {
+      "name": "Mammoth Biosciences",
+      "current": {
+        "name": "Mammoth Biosciences",
+        "founder": "Jennifer Doudna, Trevor Martin, Janice Chen, Lucas Harrington",
+        "location": "Brisbane, CA",
+        "founded": 2017,
+        "fundingStage": "Series D",
+        "totalRaised": "$465M+",
+        "website": "https://mammoth.bio"
+      },
+      "verified": {
+        "name": "Mammoth Biosciences",
+        "description": "Biotechnology company developing in vivo gene editing therapeutics using proprietary ultracompact CRISPR systems. The company focuses on leveraging ultra-small CRISPR-Cas enzymes for potential long-term curative therapies for patients with life-threatening and debilitating diseases.",
+        "founders": [
+          "Jennifer Doudna",
+          "Trevor Martin",
+          "Janice Chen",
+          "Lucas Harrington"
+        ],
+        "location": "Brisbane, California, United States",
+        "founded_year": 2017,
+        "current_stage": null,
+        "total_raised": "$465M+",
+        "valuation": null,
+        "investors": null,
+        "website": "https://mammoth.bio",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "total_raised": [
+            1
+          ]
+        },
+        "notes": "Source 3 (Tech.eu article about Holifya) is unrelated to Mammoth Biosciences and was not used. Wikipedia indicates a strategic pivot in 2023 toward therapeutics and away from diagnostics. Company has partnerships with Regeneron ($100M upfront + equity, $370M in milestone payments) and Vertex ($40M upfront + equity, up to $650M in future payments) per source 1."
       },
       "changes": [
         {
           "field": "location",
-          "current": "San Jose, CA",
-          "verified": "San Jose, California, United States",
+          "current": "Brisbane, CA",
+          "verified": "Brisbane, California, United States",
           "sources": [
+            1,
             2
           ]
         }
@@ -119,25 +226,25 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://asteralabs.com"
+          "url": "https://mammoth.bio"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://asteralabs.com/about"
+          "url": "https://mammoth.bio/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Astera_Labs"
+          "url": "https://en.wikipedia.org/wiki/Mammoth_Biosciences"
         },
         {
           "idx": 3,
-          "src": "news (Inside Quantum Technology)",
-          "url": "https://www.insidequantumtechnology.com/news-archive/psiquantums-ice-cream-factory/"
+          "src": "news (Tech.eu)",
+          "url": "https://tech.eu/2026/09/01/italian-obesity-digital-clinic-holifya-raises-eur2m-to-scale-ai-supported-glp-1-care/"
         }
       ],
-      "notes": "Company listed on Nasdaq under ticker ALAB since March 2024. Wikipedia source lists 2025 financial metrics (revenue US$852.5M, net income US$219.1M) but these are not historical founding/raising data. Headquarters relocated to San Jose in June 2025 from previous Santa Clara location."
+      "notes": "Source 3 (Tech.eu article about Holifya) is unrelated to Mammoth Biosciences and was not used. Wikipedia indicates a strategic pivot in 2023 toward therapeutics and away from diagnostics. Company has partnerships with Regeneron ($100M upfront + equity, $370M in milestone payments) and Vertex ($40M upfront + equity, up to $650M in future payments) per source 1."
     },
     {
       "name": "Nano Nuclear Energy",
@@ -151,8 +258,8 @@
         "website": "https://nanonuclearenergy.com"
       },
       "verified": {
-        "name": "Nano Nuclear Energy",
-        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, with subsidiaries in fuel fabrication, transportation, and space applications. Listed publicly on NASDAQ as NNE.",
+        "name": "NANO Nuclear Energy Inc.",
+        "description": "An advanced technology-driven nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI MMR systems, with subsidiaries in nuclear fuel fabrication, transportation, and space applications.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -171,18 +278,15 @@
             1
           ],
           "location": [
-            0
+            0,
+            1
           ],
           "current_stage": [
             0,
             1
-          ],
-          "website": [
-            0,
-            1
           ]
         },
-        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Source [2] about Valar Atomics is not relevant to this company and was not used. No founder names explicitly stated as founders in provided sources. No founded year, total raised amount, valuation, or investor names could be verified from these sources."
+        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources claim it is 'the first nuclear microreactor company to be listed publicly in the U.S.' Current database entry references founder 'Jay Jiang Yu' and founding year 2022, but these cannot be verified from provided sources. Entry also references sale of ODIN to Cambridge AtomWorks and market cap of ~$1.2B (June 2026), but sources do not contain this information. Source [2] appears to be about a different company (Valar Atomics) and contains no relevant information about NANO Nuclear Energy."
       },
       "changes": [
         {
@@ -212,694 +316,14 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Source [2] about Valar Atomics is not relevant to this company and was not used. No founder names explicitly stated as founders in provided sources. No founded year, total raised amount, valuation, or investor names could be verified from these sources."
-    },
-    {
-      "name": "Palantir",
-      "current": {
-        "name": "Palantir",
-        "founder": "Peter Thiel, Alex Karp, Stephen Cohen, Joe Lonsdale, Nathan Gettings",
-        "location": "Miami, FL",
-        "founded": 2003,
-        "fundingStage": "Public",
-        "totalRaised": "$3B+ (pre-IPO)",
-        "website": "https://palantir.com"
-      },
-      "verified": {
-        "name": "Palantir Technologies Inc.",
-        "description": "An American publicly traded company that develops data integration and analytics software. The company serves federal agencies, state and local governments, international organizations, and private companies through platforms including Gotham, Foundry, Apollo, and AIP.",
-        "founders": [
-          "Peter Thiel",
-          "Stephen Cohen",
-          "Alex Karp",
-          "Joe Lonsdale",
-          "Nathan Gettings"
-        ],
-        "location": "Miami, Florida, U.S.",
-        "founded_year": 2003,
-        "current_stage": "Public",
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "In-Q-Tel",
-          "Oakhouse Partners",
-          "REV"
-        ],
-        "website": "https://palantir.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "current_stage": [
-            0
-          ],
-          "investors": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Wikipedia source [0] lists former headquarters in Palo Alto, California but current headquarters as Miami, Florida. Source [0] mentions trading on Nasdaq as PLTR with 2025 revenue of $4.48 billion, but no current market cap or valuation provided in sources. Source [1] is a news article about a separate business venture and does not provide company information."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Miami, FL",
-          "verified": "Miami, Florida, U.S.",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Palantir"
-        },
-        {
-          "idx": 1,
-          "src": "news (Defense News)",
-          "url": "https://www.defensenews.com/global/europe/2026/09/01/ousted-ukrainian-defense-chief-lands-palantir-ceo-as-first-investor-in-new-venture/"
-        }
-      ],
-      "notes": "Wikipedia source [0] lists former headquarters in Palo Alto, California but current headquarters as Miami, Florida. Source [0] mentions trading on Nasdaq as PLTR with 2025 revenue of $4.48 billion, but no current market cap or valuation provided in sources. Source [1] is a news article about a separate business venture and does not provide company information."
-    },
-    {
-      "name": "PsiQuantum",
-      "current": {
-        "name": "PsiQuantum",
-        "founder": "Jeremy O'Brien, Terry Rudolph, Peter Shadbolt, Mark Thompson",
-        "location": "Palo Alto, CA",
-        "founded": 2016,
-        "fundingStage": "Private",
-        "totalRaised": "$1B",
-        "website": "https://psiquantum.com"
-      },
-      "verified": {
-        "name": "PsiQuantum",
-        "description": "Quantum computing company developing utility-scale, fault-tolerant quantum computers using silicon photonics and semiconductor manufacturing processes.",
-        "founders": [
-          "Jeremy O'Brien",
-          "Terry Rudolph",
-          "Peter Shadbolt",
-          "Mark Thompson"
-        ],
-        "location": "Palo Alto, California, US",
-        "founded_year": 2016,
-        "current_stage": "Private",
-        "total_raised": "$1B",
-        "valuation": null,
-        "investors": null,
-        "website": "https://psiquantum.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Series E $1B raised in 2025 per Wikipedia source [2]. Multiple facilities globally including Palo Alto HQ, Milpitas (PsiFactory), Daresbury UK (PsiLabs), Malta NY (GlobalFoundries Fab 8), Chicago IL (IQMP), and Queensland Australia (Moreton Bay Central and Brisbane Test & Validation Lab). Government partnerships with DARPA, US Air Force, and Australian Commonwealth/Queensland governments."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Palo Alto, CA",
-          "verified": "Palo Alto, California, US",
-          "sources": [
-            1,
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://psiquantum.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://psiquantum.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/PsiQuantum"
-        },
-        {
-          "idx": 3,
-          "src": "news (Inside Quantum Technology)",
-          "url": "https://www.insidequantumtechnology.com/news-archive/psiquantums-ice-cream-factory/"
-        }
-      ],
-      "notes": "Series E $1B raised in 2025 per Wikipedia source [2]. Multiple facilities globally including Palo Alto HQ, Milpitas (PsiFactory), Daresbury UK (PsiLabs), Malta NY (GlobalFoundries Fab 8), Chicago IL (IQMP), and Queensland Australia (Moreton Bay Central and Brisbane Test & Validation Lab). Government partnerships with DARPA, US Air Force, and Australian Commonwealth/Queensland governments."
-    },
-    {
-      "name": "Rivian",
-      "current": {
-        "name": "Rivian",
-        "founder": "RJ Scaringe",
-        "location": "Irvine, CA",
-        "founded": 2009,
-        "fundingStage": "Public",
-        "totalRaised": "$13.5B",
-        "website": "https://rivian.com"
-      },
-      "verified": {
-        "name": "Rivian",
-        "description": "American electric vehicle manufacturer producing electric pickup trucks (R1T), sport utility vehicles (R1S), and delivery vans on a skateboard platform. The company is publicly traded on Nasdaq under ticker RIVN.",
-        "founders": [
-          "RJ Scaringe"
-        ],
-        "location": "Irvine, California",
-        "founded_year": 2009,
-        "current_stage": "Public",
-        "total_raised": "$13.5B",
-        "valuation": null,
-        "investors": [
-          "Amazon",
-          "Volkswagen Group",
-          "Ford Motor Company"
-        ],
-        "website": "https://rivian.com",
-        "sources_per_field": {
-          "name": [
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            2
-          ]
-        },
-        "notes": "Wikipedia source [2] states company was founded in Rockledge, Florida in June 2009, later moved headquarters to Irvine, California. IPO occurred November 10, 2021 on Nasdaq. Company previously named Mainstream Motors and Avera Automotive. Manufacturing facility in Normal, Illinois."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Irvine, CA",
-          "verified": "Irvine, California",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://rivian.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://rivian.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Rivian"
-        },
-        {
-          "idx": 3,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/09/03/rivians-futuristic-also-e-bike-may-be-at-its-ultimate-delay/"
-        }
-      ],
-      "notes": "Wikipedia source [2] states company was founded in Rockledge, Florida in June 2009, later moved headquarters to Irvine, California. IPO occurred November 10, 2021 on Nasdaq. Company previously named Mainstream Motors and Avera Automotive. Manufacturing facility in Normal, Illinois."
-    },
-    {
-      "name": "Scale AI",
-      "current": {
-        "name": "Scale AI",
-        "founder": "Alexandr Wang, Lucy Guo",
-        "location": "San Francisco, CA",
-        "founded": 2016,
-        "fundingStage": "Private",
-        "totalRaised": "$14.8B",
-        "website": "https://scale.com"
-      },
-      "verified": {
-        "name": "Scale AI",
-        "description": "Artificial intelligence infrastructure and software company providing data annotation, RLHF services, LLM evaluation, and enterprise software suites to build and deploy AI applications.",
-        "founders": [
-          "Alexandr Wang",
-          "Lucy Guo"
-        ],
-        "location": "San Francisco, California",
-        "founded_year": 2016,
-        "current_stage": "Private",
-        "total_raised": "$14.8B",
-        "valuation": "$29B",
-        "investors": [
-          "Meta Platforms",
-          "Accel",
-          "Founders Fund",
-          "Index Ventures",
-          "Tiger Global",
-          "Dragoneer Investment Group",
-          "Greenoaks",
-          "Amazon"
-        ],
-        "website": "https://scale.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
-            1,
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang left to join Meta and was replaced by Jason Droege as CEO. Company remains independent. Lucy Guo was fired in 2018 but is still listed as co-founder."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "San Francisco, CA",
-          "verified": "San Francisco, California",
-          "sources": [
-            1,
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://scale.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://scale.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Scale_AI"
-        },
-        {
-          "idx": 3,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/09/01/italian-obesity-digital-clinic-holifya-raises-eur2m-to-scale-ai-supported-glp-1-care/"
-        }
-      ],
-      "notes": "In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang left to join Meta and was replaced by Jason Droege as CEO. Company remains independent. Lucy Guo was fired in 2018 but is still listed as co-founder."
-    },
-    {
-      "name": "Shield AI",
-      "current": {
-        "name": "Shield AI",
-        "founder": "Brandon Tseng, Ryan Tseng, Andrew Reiter",
-        "location": "San Diego, CA",
-        "founded": 2015,
-        "fundingStage": "Series G",
-        "totalRaised": "$1.5B+",
-        "website": "https://shield.ai"
-      },
-      "verified": {
-        "name": "Shield AI",
-        "description": "American aerospace and defense technology company that develops artificial intelligence-powered autonomous aircraft, drones, and defense technology. The company's Hivemind autonomy stack enables autonomous flight in GPS-denied environments.",
-        "founders": [
-          "Brandon Tseng",
-          "Ryan Tseng",
-          "Andrew Reiter"
-        ],
-        "location": "San Diego, California, U.S.",
-        "founded_year": 2015,
-        "current_stage": "Series G",
-        "total_raised": "$1.5B",
-        "valuation": "$12.7B",
-        "investors": [
-          "Andreessen Horowitz",
-          "Breyer Capital",
-          "Silicon Valley Bank",
-          "U.S. Innovation Technology Fund (USIT)",
-          "Riot Ventures"
-        ],
-        "website": "https://shield.ai",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "CEO changed from Ryan Tseng to Gary Steele in March 2025; Ryan Tseng became Chief Strategic Officer. Wikipedia indicates Series G funding of $1.5B announced March 2026 at $12.7B post-money valuation. Current database entry references Gary Steele as CEO and Ryan Tseng as President; Wikipedia sources indicate Ryan Tseng became Chief Strategic Officer, not President."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "San Diego, CA",
-          "verified": "San Diego, California, U.S.",
-          "sources": [
-            1,
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://shield.ai"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://shield.ai/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Shield_AI"
-        },
-        {
-          "idx": 3,
-          "src": "news (Defense One)",
-          "url": "https://www.defenseone.com/business/2026/09/back-life-how-shield-ais-future-unmanned-fighter-made-decades-old-tech-new-again/415821/"
-        }
-      ],
-      "notes": "CEO changed from Ryan Tseng to Gary Steele in March 2025; Ryan Tseng became Chief Strategic Officer. Wikipedia indicates Series G funding of $1.5B announced March 2026 at $12.7B post-money valuation. Current database entry references Gary Steele as CEO and Ryan Tseng as President; Wikipedia sources indicate Ryan Tseng became Chief Strategic Officer, not President."
-    },
-    {
-      "name": "SpaceX",
-      "current": {
-        "name": "SpaceX",
-        "founder": "Elon Musk",
-        "location": "Starbase, TX",
-        "founded": 2002,
-        "fundingStage": "Public",
-        "totalRaised": "$86B",
-        "website": "https://spacex.com"
-      },
-      "verified": {
-        "name": "SpaceX",
-        "description": "American spaceflight, telecommunications, and artificial intelligence company headquartered in Starbase, Texas. Operates launch vehicles, satellite communications through Starlink, and artificial intelligence divisions.",
-        "founders": [
-          "Elon Musk"
-        ],
-        "location": "Starbase, Texas, U.S.",
-        "founded_year": 2002,
-        "current_stage": "Public",
-        "total_raised": "$86B",
-        "valuation": null,
-        "investors": [
-          "Alphabet Inc."
-        ],
-        "website": "https://spacex.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "current_stage": [
-            0
-          ],
-          "total_raised": [
-            0
-          ],
-          "investors": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "IPO on June 12, 2026 on Nasdaq (SPCX) raised $86 billion per source [0]. Database entry claims $85.7B including greenshoe, but source [0] states $86 billion. Elon Musk controls 85% voting power via super-voting stock per source [0], not 82% as in database entry. Sources [1] and [2] are news articles about other topics (OpenAI partnership, Nvidia stake) and do not provide verified founding information."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Starbase, TX",
-          "verified": "Starbase, Texas, U.S.",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/SpaceX"
-        },
-        {
-          "idx": 1,
-          "src": "news (Wired)",
-          "url": "https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue/"
-        },
-        {
-          "idx": 2,
-          "src": "news (Ars Technica)",
-          "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/"
-        }
-      ],
-      "notes": "IPO on June 12, 2026 on Nasdaq (SPCX) raised $86 billion per source [0]. Database entry claims $85.7B including greenshoe, but source [0] states $86 billion. Elon Musk controls 85% voting power via super-voting stock per source [0], not 82% as in database entry. Sources [1] and [2] are news articles about other topics (OpenAI partnership, Nvidia stake) and do not provide verified founding information."
-    },
-    {
-      "name": "Vertical Aerospace",
-      "current": {
-        "name": "Vertical Aerospace",
-        "founder": "Stephen Fitzpatrick",
-        "location": "Bristol, UK",
-        "founded": 2016,
-        "fundingStage": "Public",
-        "totalRaised": "$50M",
-        "website": "https://vertical-aerospace.com"
-      },
-      "verified": {
-        "name": "Vertical Aerospace",
-        "description": "British aerospace manufacturer that designs and builds zero-emission, electric vertical take-off and landing (eVTOL) aircraft. The company develops the VX4 aircraft for urban air mobility with a range of over 100 miles and capacity for 4 passengers plus a pilot.",
-        "founders": [
-          "Stephen Fitzpatrick"
-        ],
-        "location": "Bristol, England, UK",
-        "founded_year": 2016,
-        "current_stage": "Public",
-        "total_raised": "$50M",
-        "valuation": null,
-        "investors": [
-          "American Airlines",
-          "Avolon",
-          "Rolls-Royce",
-          "Honeywell",
-          "Microsoft M12",
-          "Mudrick Capital"
-        ],
-        "website": "https://vertical-aerospace.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Company listed on NYSE under ticker EVTL following December 2021 SPAC merger with Broadstone Acquisition Corp. The $50M figure from 2024 represents a specific Mudrick Capital investment; Wikipedia notes this was accompanied by 70% shareholding. Database entry listed 'Valo' as successor to VX4, but sources reference VX4 as current primary aircraft in development."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Bristol, UK",
-          "verified": "Bristol, England, UK",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://vertical-aerospace.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://vertical-aerospace.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Vertical_Aerospace"
-        },
-        {
-          "idx": 3,
-          "src": "news (Defense One)",
-          "url": "https://www.defenseone.com/business/2026/09/back-life-how-shield-ais-future-unmanned-fighter-made-decades-old-tech-new-again/415821/"
-        }
-      ],
-      "notes": "Company listed on NYSE under ticker EVTL following December 2021 SPAC merger with Broadstone Acquisition Corp. The $50M figure from 2024 represents a specific Mudrick Capital investment; Wikipedia notes this was accompanied by 70% shareholding. Database entry listed 'Valo' as successor to VX4, but sources reference VX4 as current primary aircraft in development."
+      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources claim it is 'the first nuclear microreactor company to be listed publicly in the U.S.' Current database entry references founder 'Jay Jiang Yu' and founding year 2022, but these cannot be verified from provided sources. Entry also references sale of ODIN to Cambridge AtomWorks and market cap of ~$1.2B (June 2026), but sources do not contain this information. Source [2] appears to be about a different company (Valar Atomics) and contains no relevant information about NANO Nuclear Energy."
     },
     {
       "name": "Waymo",
       "current": {
         "name": "Waymo",
         "founder": "Sebastian Thrun, Anthony Levandowski",
-        "location": "Mountain View, CA",
+        "location": "Mountain View, California",
         "founded": 2016,
         "fundingStage": "Private",
         "totalRaised": "$16B+",
@@ -907,12 +331,12 @@
       },
       "verified": {
         "name": "Waymo",
-        "description": "An autonomous driving technology company that operates public commercial robotaxi services in 10 US metropolitan areas and internationally. As of June 2026, Waymo operates 3,871 robotaxis in service, provides 500,000 paid rides per week, and has logged 200 million fully autonomous miles.",
+        "description": "An autonomous driving technology company headquartered in Mountain View, California, operating public commercial robotaxi services in 10 US metropolitan areas and select international locations. As of June 2026, Waymo operates 3,871 robotaxis in service, provides 500,000 paid rides per week, and has logged 200 million fully autonomous miles.",
         "founders": [
           "Sebastian Thrun",
           "Anthony Levandowski"
         ],
-        "location": "Mountain View, California",
+        "location": "Mountain View, California, United States",
         "founded_year": 2016,
         "current_stage": "Private",
         "total_raised": "$16B",
@@ -958,13 +382,13 @@
             2
           ]
         },
-        "notes": "Wikipedia source indicates Waymo was established as an independent company in December 2016 after spinning out from Google/Alphabet. The $16B raise in February 2026 valued the company at $126B. Waymo is a subsidiary of Alphabet Inc. Co-CEOs are Tekedra Mawakana and Dmitri Dolgov (since April 2021). Operating cities include Phoenix, San Francisco, Los Angeles, Austin, Atlanta, and others; international expansion to London, UK and Tokyo, Japan noted in sources."
+        "notes": "Founded as Google Self-Driving Car Project in January 2009, renamed Waymo and spun out as independent Alphabet subsidiary in December 2016. Wikipedia states Waymo raised $16 billion as of February 2026, valuing the company at $126 billion. Company is a subsidiary of Alphabet Inc., not independently funded by multiple venture investors as the database entry suggests."
       },
       "changes": [
         {
           "field": "location",
-          "current": "Mountain View, CA",
-          "verified": "Mountain View, California",
+          "current": "Mountain View, California",
+          "verified": "Mountain View, California, United States",
           "sources": [
             1,
             2
@@ -1003,97 +427,7 @@
           "url": "https://electrek.co/2026/09/02/waymo-san-francisco-parking-tickets/"
         }
       ],
-      "notes": "Wikipedia source indicates Waymo was established as an independent company in December 2016 after spinning out from Google/Alphabet. The $16B raise in February 2026 valued the company at $126B. Waymo is a subsidiary of Alphabet Inc. Co-CEOs are Tekedra Mawakana and Dmitri Dolgov (since April 2021). Operating cities include Phoenix, San Francisco, Los Angeles, Austin, Atlanta, and others; international expansion to London, UK and Tokyo, Japan noted in sources."
-    },
-    {
-      "name": "Xanadu Quantum Technologies",
-      "current": {
-        "name": "Xanadu Quantum Technologies",
-        "founder": "Christian Weedbrook",
-        "location": "Toronto, Ontario, Canada",
-        "founded": 2016,
-        "fundingStage": "Public",
-        "totalRaised": "$245M private + ~$302M de-SPAC",
-        "website": "https://xanadu.ai"
-      },
-      "verified": {
-        "name": "Xanadu Quantum Technologies",
-        "description": "Canadian quantum computing hardware and software company that develops cloud-accessible photonic quantum computers and open-source software for quantum machine learning.",
-        "founders": [
-          "Christian Weedbrook"
-        ],
-        "location": "Toronto, Ontario, Canada",
-        "founded_year": 2016,
-        "current_stage": "Public",
-        "total_raised": "$245M",
-        "valuation": null,
-        "investors": [
-          "Bessemer Venture Partners",
-          "Capricorn Investment Group",
-          "Tiger Global Management",
-          "In-Q-Tel",
-          "Business Development Bank of Canada",
-          "OMERS Ventures",
-          "Georgian",
-          "Real Ventures",
-          "Golden Ventures",
-          "Radical Ventures"
-        ],
-        "website": "https://xanadu.ai",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "current_stage": [
-            0
-          ],
-          "total_raised": [
-            0
-          ],
-          "investors": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Company is publicly traded on TSX and Nasdaq under ticker XNDU. Database entry mentions ~$302M de-SPAC valuation, but this specific figure is not found in provided sources. Only the $245M in private venture capital funding is verified in source [0]."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$245M private + ~$302M de-SPAC",
-          "verified": "$245M",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Xanadu_Quantum_Technologies"
-        },
-        {
-          "idx": 1,
-          "src": "news (Inside Quantum Technology)",
-          "url": "https://www.insidequantumtechnology.com/news-archive/psiquantums-ice-cream-factory/"
-        }
-      ],
-      "notes": "Company is publicly traded on TSX and Nasdaq under ticker XNDU. Database entry mentions ~$302M de-SPAC valuation, but this specific figure is not found in provided sources. Only the $245M in private venture capital funding is verified in source [0]."
+      "notes": "Founded as Google Self-Driving Car Project in January 2009, renamed Waymo and spun out as independent Alphabet subsidiary in December 2016. Wikipedia states Waymo raised $16 billion as of February 2026, valuing the company at $126 billion. Company is a subsidiary of Alphabet Inc., not independently funded by multiple venture investors as the database entry suggests."
     }
   ],
   "unverifiable": []

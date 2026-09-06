@@ -1,108 +1,59 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-09-05T08:56:49+00:00  
+**Generated:** 2026-09-06T09:16:51+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 37 companies  
+**Cohort size:** 39 companies  
 
-**New Claude extractions this run:** 37  
+**New Claude extractions this run:** 39  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 26 | 70% |
-| 🔧 Changes proposed | 11 | 30% |
+| ✅ Cleared (data matches sources) | 35 | 90% |
+| 🔧 Changes proposed | 4 | 10% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (11 companies)
+## 🔧 Proposed Changes (4 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
 
-### Astera Labs
+### Isar Aerospace
 
-- **`location`:** `San Jose, CA` → `San Jose, California, United States`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Astera_Labs)
+- **`totalRaised`:** `$650M+` → `€500+M`  
+  Sources: [company_website](https://isaraerospace.com)
 
-  **Notes:** Company listed on Nasdaq under ticker ALAB since March 2024. Wikipedia source lists 2025 financial metrics (revenue US$852.5M, net income US$219.1M) but these are not historical founding/raising data. Headquarters relocated to San Jose in June 2025 from previous Santa Clara location.
+  **Notes:** Wikipedia source [2] states total funding 'greater than 400 million euros' as of 2024; company website [0] states '€500+ million' in private capital raised. Founder name in database entry 'Josef Peter Fleischmann' matches Wikipedia 'Josef Peter Fleischmann' but company website lists 'Josef Fleischmann' as Chief Technical Officer. Current stage not explicitly stated in sources; Wikipedia describes as 'Privately held company' but no funding round stage specified.
+
+### Mammoth Biosciences
+
+- **`location`:** `Brisbane, CA` → `Brisbane, California, United States`  
+  Sources: [company_about](https://mammoth.bio/about) · [wikipedia](https://en.wikipedia.org/wiki/Mammoth_Biosciences)
+
+  **Notes:** Source 3 (Tech.eu article about Holifya) is unrelated to Mammoth Biosciences and was not used. Wikipedia indicates a strategic pivot in 2023 toward therapeutics and away from diagnostics. Company has partnerships with Regeneron ($100M upfront + equity, $370M in milestone payments) and Vertex ($40M upfront + equity, up to $650M in future payments) per source 1.
 
 ### Nano Nuclear Energy
 
 - **`fundingStage`:** `Seed` → `Public`  
   Sources: [company_website](https://nanonuclearenergy.com) · [company_about](https://nanonuclearenergy.com/about)
 
-  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Source [2] about Valar Atomics is not relevant to this company and was not used. No founder names explicitly stated as founders in provided sources. No founded year, total raised amount, valuation, or investor names could be verified from these sources.
-
-### Palantir
-
-- **`location`:** `Miami, FL` → `Miami, Florida, U.S.`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Palantir)
-
-  **Notes:** Wikipedia source [0] lists former headquarters in Palo Alto, California but current headquarters as Miami, Florida. Source [0] mentions trading on Nasdaq as PLTR with 2025 revenue of $4.48 billion, but no current market cap or valuation provided in sources. Source [1] is a news article about a separate business venture and does not provide company information.
-
-### PsiQuantum
-
-- **`location`:** `Palo Alto, CA` → `Palo Alto, California, US`  
-  Sources: [company_about](https://psiquantum.com/about) · [wikipedia](https://en.wikipedia.org/wiki/PsiQuantum)
-
-  **Notes:** Series E $1B raised in 2025 per Wikipedia source [2]. Multiple facilities globally including Palo Alto HQ, Milpitas (PsiFactory), Daresbury UK (PsiLabs), Malta NY (GlobalFoundries Fab 8), Chicago IL (IQMP), and Queensland Australia (Moreton Bay Central and Brisbane Test & Validation Lab). Government partnerships with DARPA, US Air Force, and Australian Commonwealth/Queensland governments.
-
-### Rivian
-
-- **`location`:** `Irvine, CA` → `Irvine, California`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Rivian)
-
-  **Notes:** Wikipedia source [2] states company was founded in Rockledge, Florida in June 2009, later moved headquarters to Irvine, California. IPO occurred November 10, 2021 on Nasdaq. Company previously named Mainstream Motors and Avera Automotive. Manufacturing facility in Normal, Illinois.
-
-### Scale AI
-
-- **`location`:** `San Francisco, CA` → `San Francisco, California`  
-  Sources: [company_about](https://scale.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Scale_AI)
-
-  **Notes:** In June 2025, Meta Platforms acquired a 49% non-voting stake in Scale AI for $14.8 billion. Founder Alexandr Wang left to join Meta and was replaced by Jason Droege as CEO. Company remains independent. Lucy Guo was fired in 2018 but is still listed as co-founder.
-
-### Shield AI
-
-- **`location`:** `San Diego, CA` → `San Diego, California, U.S.`  
-  Sources: [company_about](https://shield.ai/about) · [wikipedia](https://en.wikipedia.org/wiki/Shield_AI)
-
-  **Notes:** CEO changed from Ryan Tseng to Gary Steele in March 2025; Ryan Tseng became Chief Strategic Officer. Wikipedia indicates Series G funding of $1.5B announced March 2026 at $12.7B post-money valuation. Current database entry references Gary Steele as CEO and Ryan Tseng as President; Wikipedia sources indicate Ryan Tseng became Chief Strategic Officer, not President.
-
-### SpaceX
-
-- **`location`:** `Starbase, TX` → `Starbase, Texas, U.S.`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/SpaceX)
-
-  **Notes:** IPO on June 12, 2026 on Nasdaq (SPCX) raised $86 billion per source [0]. Database entry claims $85.7B including greenshoe, but source [0] states $86 billion. Elon Musk controls 85% voting power via super-voting stock per source [0], not 82% as in database entry. Sources [1] and [2] are news articles about other topics (OpenAI partnership, Nvidia stake) and do not provide verified founding information.
-
-### Vertical Aerospace
-
-- **`location`:** `Bristol, UK` → `Bristol, England, UK`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Vertical_Aerospace)
-
-  **Notes:** Company listed on NYSE under ticker EVTL following December 2021 SPAC merger with Broadstone Acquisition Corp. The $50M figure from 2024 represents a specific Mudrick Capital investment; Wikipedia notes this was accompanied by 70% shareholding. Database entry listed 'Valo' as successor to VX4, but sources reference VX4 as current primary aircraft in development.
+  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Sources claim it is 'the first nuclear microreactor company to be listed publicly in the U.S.' Current database entry references founder 'Jay Jiang Yu' and founding year 2022, but these cannot be verified from provided sources. Entry also references sale of ODIN to Cambridge AtomWorks and market cap of ~$1.2B (June 2026), but sources do not contain this information. Source [2] appears to be about a different company (Valar Atomics) and contains no relevant information about NANO Nuclear Energy.
 
 ### Waymo
 
-- **`location`:** `Mountain View, CA` → `Mountain View, California`  
+- **`location`:** `Mountain View, California` → `Mountain View, California, United States`  
   Sources: [company_about](https://waymo.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Waymo)
 
-  **Notes:** Wikipedia source indicates Waymo was established as an independent company in December 2016 after spinning out from Google/Alphabet. The $16B raise in February 2026 valued the company at $126B. Waymo is a subsidiary of Alphabet Inc. Co-CEOs are Tekedra Mawakana and Dmitri Dolgov (since April 2021). Operating cities include Phoenix, San Francisco, Los Angeles, Austin, Atlanta, and others; international expansion to London, UK and Tokyo, Japan noted in sources.
-
-### Xanadu Quantum Technologies
-
-- **`totalRaised`:** `$245M private + ~$302M de-SPAC` → `$245M`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Xanadu_Quantum_Technologies)
-
-  **Notes:** Company is publicly traded on TSX and Nasdaq under ticker XNDU. Database entry mentions ~$302M de-SPAC valuation, but this specific figure is not found in provided sources. Only the $245M in private venture capital funding is verified in source [0].
+  **Notes:** Founded as Google Self-Driving Car Project in January 2009, renamed Waymo and spun out as independent Alphabet subsidiary in December 2016. Wikipedia states Waymo raised $16 billion as of February 2026, valuing the company at $126 billion. Company is a subsidiary of Alphabet Inc., not independently funded by multiple venture investors as the database entry suggests.
 
 ---
 
-## ✅ Cleared (26 companies)
+## ✅ Cleared (35 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -110,32 +61,37 @@ Sample (first 30):
 
 - Antares
 - AnySignal
+- Astera Labs
 - Axiom Space
 - Base Power
 - Cape
 - Cover
 - Deterrence
 - Forterra
+- HEO
 - Hadrian
 - Hailo
-- Mammoth Biosciences
 - Neko Health
 - Oklo
 - Orbital Composites
 - Osmo
 - Oxford Nanopore Technologies
+- Palantir
 - Percepto
 - Photonic Inc
+- PsiQuantum
 - QuiX Quantum
 - Radiant
 - Rebellions
+- Rivian
 - Sage Geosystems
+- Scale AI
+- Shield AI
+- SpaceX
 - Valar Atomics
-- Vast
-- Wayve
-- ideaForge
+- *...and 5 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-09-05T08:56:49+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-09-06T09:16:51+00:00*
