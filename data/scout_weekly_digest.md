@@ -1,12 +1,32 @@
-# 🌟 ROS Frontier-Tech Scout — Week of 2026-08-30
+# 🌟 ROS Frontier-Tech Scout — Week of 2026-09-06
 
-**Roster:** 1257 companies tracked  ·  **Screened this cycle:** 284  ·  **Top picks:** 5  ·  **Runners-up:** 10
+**Roster:** 1257 companies tracked  ·  **Screened this cycle:** 289  ·  **Top picks:** 5  ·  **Runners-up:** 10
 
 ---
 
 ## ⭐ Top 5 Picks This Week
 
-### 1. GALOIS, INC.  ·  *Score 31/70*
+### 1. Anthropic  ·  *Score 33/70*
+
+**Sector:** Frontier Tech
+
+**Dimensions:** Capital 15, Magnitude 0, Tech Depth 8, Frontier Fit 0, Stealth 4
+
+**Anthropic** — frontier tech.
+
+ Backing: Bessemer, Greylock, Spark Capital.
+
+Tech depth signals (patents/DARPA programs) suggest real engineering substance.
+
+Ask: Who's the first commercial customer, and how big is the contract?
+
+Source: VC portfolio. Score 33/70.
+
+**Verify:** [VC portfolio: Bessemer](portfolio_page) · [VC portfolio: Greylock](portfolio_page) · [VC portfolio: Spark Capital](portfolio_page)
+
+---
+
+### 2. GALOIS, INC.  ·  *Score 31/70*
 
 **Sector:** Defense & Security
 
@@ -23,26 +43,6 @@ Ask: What's the dual-use commercial wedge before the gov-only deal flow takes ov
 Source: DARPA. Score 32/70.
 
 **Verify:** [DARPA performer](https://www.usaspending.gov/award/CONT_AWD_HR001119C0073)
-
----
-
-### 2. Anthropic  ·  *Score 31/70*
-
-**Sector:** Frontier Tech
-
-**Dimensions:** Capital 15, Magnitude 0, Tech Depth 6, Frontier Fit 0, Stealth 4
-
-**Anthropic** — frontier tech.
-
- Backing: Bessemer, Greylock, Spark Capital.
-
-Tech depth signals (patents/DARPA programs) suggest real engineering substance.
-
-Ask: Who's the first commercial customer, and how big is the contract?
-
-Source: VC portfolio. Score 31/70.
-
-**Verify:** [VC portfolio: Bessemer](portfolio_page) · [VC portfolio: Greylock](portfolio_page) · [VC portfolio: Spark Capital](portfolio_page)
 
 ---
 
@@ -86,15 +86,15 @@ Source: VC portfolio. Score 31/70.
 
 ---
 
-### 5. Founder Tier  ·  *Score 30/70*
+### 5. Atomic Semi  ·  *Score 30/70*
 
 **Sector:** Frontier Tech
 
 **Dimensions:** Capital 15, Magnitude 0, Tech Depth 0, Frontier Fit 0, Stealth 8
 
-**Founder Tier** — frontier tech.
+**Atomic Semi** — frontier tech.
 
- Backing: Founders Fund.
+ Backing: AV, Greylock.
 
 Surfaced in just one source — early intel, before the rest of the market.
 
@@ -102,7 +102,7 @@ Ask: Who's the first commercial customer, and how big is the contract?
 
 Source: VC portfolio. Score 31/70.
 
-**Verify:** [VC portfolio: Founders Fund](portfolio_page) · [VC portfolio: Founders Fund](portfolio_page) · [VC portfolio: Founders Fund](portfolio_page)
+**Verify:** [VC portfolio: AV](portfolio_page) · [VC portfolio: AV](portfolio_page) · [VC portfolio: AV](portfolio_page)
 
 ---
 
@@ -110,7 +110,6 @@ Source: VC portfolio. Score 31/70.
 
 Worth a quick scan — surfaced in scout but didn't quite make the top 5.
 
-- **Atomic Semi** *(—)* — VC portfolio — score 30/70
 - **HRL LABORATORIES, LLC** *(Defense & Security)* — DARPA — score 30/70
 - **THE CHARLES STARK DRAPER LABORATORY, INC.** *(Defense & Security)* — DARPA — score 30/70
 - **GEORGIA TECH APPLIED RESEARCH CORP** *(Defense & Security)* — DARPA — score 30/70
@@ -120,6 +119,7 @@ Worth a quick scan — surfaced in scout but didn't quite make the top 5.
 - **CHARLES RIVER ANALYTICS, INC.** *(Defense & Security)* — DARPA — score 29/70
 - **KUDU DYNAMICS LLC** *(Defense & Security)* — DARPA — score 29/70
 - **RTX BBN TECHNOLOGIES, INC.** *(Defense & Security)* — DARPA — score 29/70
+- **PACMAR TECHNOLOGIES LLC** *(Defense & Security)* — DARPA — score 28/70
 
 ---
 
@@ -141,4 +141,4 @@ Recent episodes from the scout's podcast sources. Scan titles for company names 
 ---
 
 
-*Generated 2026-08-30T14:07:38+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
+*Generated 2026-09-06T12:30:49+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*

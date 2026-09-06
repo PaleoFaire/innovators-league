@@ -1,42 +1,42 @@
 {
-  "generatedAt": "2026-08-30T14:05:17+00:00",
+  "generatedAt": "2026-09-06T12:28:22+00:00",
   "lookbackDays": 14,
   "sources": [
     {
       "name": "Core Memory (Ashlee Vance)",
       "url": "https://www.corememory.com/feed",
       "totalItems": 20,
-      "recentItems": 5
+      "recentItems": 7
     },
     {
       "name": "Newcomer (Eric Newcomer)",
       "url": "https://www.newcomer.co/feed",
       "totalItems": 20,
-      "recentItems": 7
+      "recentItems": 6
     },
     {
       "name": "Latent Space (swyx)",
       "url": "https://www.latent.space/feed",
       "totalItems": 20,
-      "recentItems": 16
+      "recentItems": 14
     },
     {
       "name": "Construction Physics (Brian Potter)",
       "url": "https://www.construction-physics.com/feed",
       "totalItems": 20,
-      "recentItems": 3
+      "recentItems": 4
     },
     {
       "name": "The Generalist (Mario Gabriele)",
       "url": "https://www.generalist.com/feed",
       "totalItems": 20,
-      "recentItems": 1
+      "recentItems": 0
     },
     {
       "name": "Strange Loop Canon (Rohit Krishnan)",
       "url": "https://www.strangeloopcanon.com/feed",
       "totalItems": 20,
-      "recentItems": 3
+      "recentItems": 2
     },
     {
       "name": "Not Boring (Packy McCormick)",
@@ -53,14 +53,14 @@
     {
       "name": "TechCrunch \u00b7 Venture",
       "url": "https://techcrunch.com/category/venture/feed/",
-      "totalItems": 18,
-      "recentItems": 18
+      "totalItems": 16,
+      "recentItems": 16
     },
     {
       "name": "Rest of World",
       "url": "https://restofworld.org/feed",
       "totalItems": 12,
-      "recentItems": 9
+      "recentItems": 10
     },
     {
       "name": "404 Media",
@@ -78,7 +78,7 @@
       "name": "Stratechery (Ben Thompson)",
       "url": "https://stratechery.com/feed/",
       "totalItems": 10,
-      "recentItems": 8
+      "recentItems": 9
     },
     {
       "name": "Platformer (Casey Newton)",
@@ -87,8 +87,8 @@
       "recentItems": 4
     }
   ],
-  "totalRawSignals": 21,
-  "uniqueCandidateCount": 20,
+  "totalRawSignals": 24,
+  "uniqueCandidateCount": 22,
   "candidates": [
     {
       "name": "Generalist",
@@ -167,6 +167,25 @@
       ]
     },
     {
+      "name": "H3 Max Director",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "H3 Max Director",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "ate persistent world state from changing state via  @c_valenzuelab  and  @agermanidis fal launched  H3 Max Director , a continuous real-time action-controlled long-form video model/API, with initial  ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] GPT-6 Astra: OpenAI\u2019s biggest LLM launch of all time",
+          "articleUrl": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
+          "articleDate": "Fri, 04 Sep 2026 05:18:11 GMT"
+        }
+      ]
+    },
+    {
       "name": "H3 Max",
       "totalScore": 10.2,
       "sourceCount": 1,
@@ -182,6 +201,82 @@
           "articleTitle": "[AINews] OpenAI to reach AGI bar by end-2026",
           "articleUrl": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
           "articleDate": "Fri, 28 Aug 2026 07:12:10 GMT"
+        }
+      ]
+    },
+    {
+      "name": "After",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "After",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": " Max Director , an autoregressive continuous version of H3 Max with  up to two minutes of context . After a brief pause,  fal relaunched it  with  LLM-generated prompts  that viewers can upvote. In pa",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Fal\u2019s H3 Max Live breaks the infinite videogen barrier",
+          "articleUrl": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+          "articleDate": "Tue, 01 Sep 2026 04:36:54 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Reference",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Reference",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "elaunched it  with  LLM-generated prompts  that viewers can upvote. In parallel, fal also launched  Reference-to-Video  for  MiniMax H3 Max , reporting  up to real-time factor 1  at 768p in  early pre",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Fal\u2019s H3 Max Live breaks the infinite videogen barrier",
+          "articleUrl": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+          "articleDate": "Tue, 01 Sep 2026 04:36:54 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Video",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Video",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": " with  LLM-generated prompts  that viewers can upvote. In parallel, fal also launched  Reference-to-Video  for  MiniMax H3 Max , reporting  up to real-time factor 1  at 768p in  early preview . LeVJEP",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Fal\u2019s H3 Max Live breaks the infinite videogen barrier",
+          "articleUrl": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+          "articleDate": "Tue, 01 Sep 2026 04:36:54 GMT"
+        }
+      ]
+    },
+    {
+      "name": "MiniMax H3 Max",
+      "totalScore": 10.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "MiniMax H3 Max",
+          "score": 10.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "enerated prompts  that viewers can upvote. In parallel, fal also launched  Reference-to-Video  for  MiniMax H3 Max , reporting  up to real-time factor 1  at 768p in  early preview . LeVJEPA presents a",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Fal\u2019s H3 Max Live breaks the infinite videogen barrier",
+          "articleUrl": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+          "articleDate": "Tue, 01 Sep 2026 04:36:54 GMT"
         }
       ]
     },
@@ -224,59 +319,78 @@
       ]
     },
     {
-      "name": "Valor",
-      "totalScore": 6.5,
+      "name": "Texas",
+      "totalScore": 7.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Valor",
-          "score": 6.5,
-          "frontierTechScore": 5,
-          "mentions": 1,
-          "context": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics\nGeneral In",
-          "source": "TechCrunch \u00b7 Venture",
-          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
-          "articleTitle": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
-          "articleUrl": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
-          "articleDate": "Mon, 24 Aug 2026 15:24:18 +0000"
-        }
-      ]
-    },
-    {
-      "name": "Point72",
-      "totalScore": 6.5,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Point72",
-          "score": 6.5,
-          "frontierTechScore": 5,
-          "mentions": 1,
-          "context": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics\nGeneral Intuition",
-          "source": "TechCrunch \u00b7 Venture",
-          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
-          "articleTitle": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
-          "articleUrl": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
-          "articleDate": "Mon, 24 Aug 2026 15:24:18 +0000"
-        }
-      ]
-    },
-    {
-      "name": "MiniMax H3 Max",
-      "totalScore": 5.95,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "MiniMax H3 Max",
-          "score": 5.95,
+          "name": "Texas",
+          "score": 7.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "ndicates Google\u2019s latest post-training and control stack is translating into preference data. fal + MiniMax H3 Max : In parallel, fal launched  H3 Max  with MiniMax, advertising  15s of high-quality v",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] OpenAI to reach AGI bar by end-2026",
-          "articleUrl": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
-          "articleDate": "Fri, 28 Aug 2026 07:12:10 GMT"
+          "context": "in The future of transport is safer, more enjoyable & gives you more time back Yesterday in Austin, Texas, Tesla launched the Cybercab, and starting at 5pm today, anyone in the Austin geofence can hai",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #209",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-209",
+          "articleDate": "Fri, 04 Sep 2026 12:36:19 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Cybercab",
+      "totalScore": 7.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Cybercab",
+          "score": 7.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": " is safer, more enjoyable & gives you more time back Yesterday in Austin, Texas, Tesla launched the Cybercab, and starting at 5pm today, anyone in the Austin geofence can hail one from the Robotaxi ap",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #209",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-209",
+          "articleDate": "Fri, 04 Sep 2026 12:36:19 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Physical Superintelligence Raises",
+      "totalScore": 7.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Physical Superintelligence Raises",
+          "score": 7.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "responsibility!\u201d If Administrator Isaacson\u2019s NASA keeps this up, we may get to Mars after all.  (6) Physical Superintelligence Raises $58M to for Physics Takeoff Matthew Pines For most of human histor",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #209",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-209",
+          "articleDate": "Fri, 04 Sep 2026 12:36:19 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Physics Takeoff Matthew",
+      "totalScore": 7.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Physics Takeoff Matthew",
+          "score": 7.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "ASA keeps this up, we may get to Mars after all.  (6) Physical Superintelligence Raises $58M to for Physics Takeoff Matthew Pines For most of human history, genius was the rarest thing on Earth. The l",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #209",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-209",
+          "articleDate": "Fri, 04 Sep 2026 12:36:19 GMT"
         }
       ]
     },
@@ -338,135 +452,59 @@
       ]
     },
     {
-      "name": "Evaluation",
-      "totalScore": 5.95,
+      "name": "Yahoo",
+      "totalScore": 5.6,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Evaluation",
-          "score": 5.95,
+          "name": "Yahoo",
+          "score": 5.6,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "he common thread is specialization plus persistent context, not generic \u201cagents talking to agents.\u201d Evaluation and harness work remains the real leverage point :  Hamel Husain\u2019s updated eval-skills pl",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Stripe buys OpenRouter for $7B",
-          "articleUrl": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
-          "articleDate": "Mon, 17 Aug 2026 23:13:41 GMT"
+          "context": "ing Fervo since the IPO, and was surprised to see its stock down about 50% since it went public.) [ Yahoo ] While US shale oil output was growing steadily for many years, for most major US shale basin",
+          "source": "Construction Physics (Brian Potter)",
+          "sourceUrl": "https://www.construction-physics.com/feed",
+          "articleTitle": "Reading List - 09/05/2026",
+          "articleUrl": "https://www.construction-physics.com/p/reading-list-09052026",
+          "articleDate": "Sat, 05 Sep 2026 12:03:33 GMT"
         }
       ]
     },
     {
-      "name": "Politico",
-      "totalScore": 5.4,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Politico",
-          "score": 5.4,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": "ank has published more than 100 articles since it launched less than a month ago.  First spotted by Politico , the Hanover Institute for Public Policy is run by the American advertising firm Piro Inc,",
-          "source": "404 Media",
-          "sourceUrl": "https://www.404media.co/feed",
-          "articleTitle": "Israel Is Running a Synthetic Think Tank to Influence AI Search Results",
-          "articleUrl": "https://www.404media.co/israel-is-running-a-synthetic-think-tank-to-influence-ai-search-results/",
-          "articleDate": "Tue, 25 Aug 2026 18:35:26 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Hanover Institute",
-      "totalScore": 5.4,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Hanover Institute",
-          "score": 5.4,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": "ed more than 100 articles since it launched less than a month ago.  First spotted by Politico , the Hanover Institute for Public Policy is run by the American advertising firm Piro Inc, paid for by Is",
-          "source": "404 Media",
-          "sourceUrl": "https://www.404media.co/feed",
-          "articleTitle": "Israel Is Running a Synthetic Think Tank to Influence AI Search Results",
-          "articleUrl": "https://www.404media.co/israel-is-running-a-synthetic-think-tank-to-influence-ai-search-results/",
-          "articleDate": "Tue, 25 Aug 2026 18:35:26 GMT"
-        }
-      ]
-    },
-    {
-      "name": "DoorDash",
+      "name": "Mars",
       "totalScore": 4.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "DoorDash",
+          "name": "Mars",
           "score": 4.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "ivery service to reach 500 cities by the end of the year.  These announcements come on the heels of DoorDash launching its  DoorDash Air  in-house drone program.  And yesterday, a Texas woman shared a",
+          "context": "ots of authority and responsibility!\u201d If Administrator Isaacson\u2019s NASA keeps this up, we may get to Mars after all.  (6) Physical Superintelligence Raises $58M to for Physics Takeoff Matthew Pines For",
           "source": "Not Boring (Packy McCormick)",
           "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #207",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-207",
-          "articleDate": "Fri, 21 Aug 2026 14:23:17 GMT"
+          "articleTitle": "Weekly Dose of Optimism #209",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-209",
+          "articleDate": "Fri, 04 Sep 2026 12:36:19 GMT"
         }
       ]
     },
     {
-      "name": "DoorDash Air",
+      "name": "Pines For",
       "totalScore": 4.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "DoorDash Air",
+          "name": "Pines For",
           "score": 4.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "00 cities by the end of the year.  These announcements come on the heels of DoorDash launching its  DoorDash Air  in-house drone program.  And yesterday, a Texas woman shared a video of Amazon Prime A",
+          "context": "y get to Mars after all.  (6) Physical Superintelligence Raises $58M to for Physics Takeoff Matthew Pines For most of human history, genius was the rarest thing on Earth. The last time I heard from Ma",
           "source": "Not Boring (Packy McCormick)",
           "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #207",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-207",
-          "articleDate": "Fri, 21 Aug 2026 14:23:17 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Texas",
-      "totalScore": 4.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Texas",
-          "score": 4.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "ome on the heels of DoorDash launching its  DoorDash Air  in-house drone program.  And yesterday, a Texas woman shared a video of Amazon Prime Air dropping her package in the pool.  I am incredibly bu",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #207",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-207",
-          "articleDate": "Fri, 21 Aug 2026 14:23:17 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Israel",
-      "totalScore": 4.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Israel",
-          "score": 4.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "Israel Is Running a Synthetic Think Tank to Influence AI Search Results\n\n \n \n \n A synthetic Israel-funded think tank has published more than 100 articles since it launched less than a month ag",
-          "source": "404 Media",
-          "sourceUrl": "https://www.404media.co/feed",
-          "articleTitle": "Israel Is Running a Synthetic Think Tank to Influence AI Search Results",
-          "articleUrl": "https://www.404media.co/israel-is-running-a-synthetic-think-tank-to-influence-ai-search-results/",
-          "articleDate": "Tue, 25 Aug 2026 18:35:26 GMT"
+          "articleTitle": "Weekly Dose of Optimism #209",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-209",
+          "articleDate": "Fri, 04 Sep 2026 12:36:19 GMT"
         }
       ]
     }

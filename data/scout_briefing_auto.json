@@ -1,49 +1,17 @@
 {
-  "generatedAt": "2026-08-30T14:07:38+00:00",
-  "weekOf": "2026-08-30",
+  "generatedAt": "2026-09-06T12:30:49+00:00",
+  "weekOf": "2026-09-06",
   "summary": {
     "rosterSize": 1257,
-    "candidatesScreened": 284,
+    "candidatesScreened": 289,
     "topPicks": 5,
     "runnerUp": 10,
-    "rejected": 166
+    "rejected": 171
   },
   "topPicks": [
     {
-      "name": "GALOIS, INC.",
-      "score": 31.7,
-      "sources": [
-        "DARPA"
-      ],
-      "signals": [
-        {
-          "source": "DARPA performer",
-          "totalAwarded": 109461253.0,
-          "totalAwardedFormatted": "$109.5M",
-          "awardCount": 14,
-          "programs": [
-            "CASE",
-            "USE"
-          ],
-          "date": "2024-10-16",
-          "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001119C0073"
-        }
-      ],
-      "suggestedSector": "Defense & Security",
-      "dimensions": {
-        "capital_quality": 0,
-        "magnitude": 8,
-        "tech_depth": 5.0,
-        "frontier_fit": 10,
-        "stealth_signal": 4,
-        "founder_signal": 0,
-        "excitement": 4.7
-      },
-      "briefing": "**GALOIS, INC.** \u2014 Defense & Security.\n\nDARPA contracts: $109.5M. \n\nWorth a closer look this week.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 32/70."
-    },
-    {
       "name": "Anthropic",
-      "score": 31.3,
+      "score": 33.3,
       "signals": [
         {
           "name": "Anthropic",
@@ -109,13 +77,45 @@
       "dimensions": {
         "capital_quality": 15,
         "magnitude": 0,
-        "tech_depth": 6,
+        "tech_depth": 8,
         "frontier_fit": 0,
         "stealth_signal": 4,
         "founder_signal": 0,
         "excitement": 6.3
       },
-      "briefing": "**Anthropic** \u2014 frontier tech.\n\n Backing: Bessemer, Greylock, Spark Capital.\n\nTech depth signals (patents/DARPA programs) suggest real engineering substance.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 31/70."
+      "briefing": "**Anthropic** \u2014 frontier tech.\n\n Backing: Bessemer, Greylock, Spark Capital.\n\nTech depth signals (patents/DARPA programs) suggest real engineering substance.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 33/70."
+    },
+    {
+      "name": "GALOIS, INC.",
+      "score": 31.7,
+      "sources": [
+        "DARPA"
+      ],
+      "signals": [
+        {
+          "source": "DARPA performer",
+          "totalAwarded": 109461253.0,
+          "totalAwardedFormatted": "$109.5M",
+          "awardCount": 14,
+          "programs": [
+            "CASE",
+            "USE"
+          ],
+          "date": "2024-10-16",
+          "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001119C0073"
+        }
+      ],
+      "suggestedSector": "Defense & Security",
+      "dimensions": {
+        "capital_quality": 0,
+        "magnitude": 8,
+        "tech_depth": 5.0,
+        "frontier_fit": 10,
+        "stealth_signal": 4,
+        "founder_signal": 0,
+        "excitement": 4.7
+      },
+      "briefing": "**GALOIS, INC.** \u2014 Defense & Security.\n\nDARPA contracts: $109.5M. \n\nWorth a closer look this week.\n\nAsk: What's the dual-use commercial wedge before the gov-only deal flow takes over?\n\nSource: DARPA. Score 32/70."
     },
     {
       "name": "OpenAI",
@@ -279,99 +279,8 @@
       "briefing": "**Abridge** \u2014 frontier tech.\n\n Backing: Bessemer, Pillar VC, Spark Capital.\n\nSurfaced in just one source \u2014 early intel, before the rest of the market.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 31/70."
     },
     {
-      "name": "Founder Tier",
-      "score": 30.7,
-      "signals": [
-        {
-          "name": "Founder Tier",
-          "source": "VC portfolio: Founders Fund",
-          "sourceWeight": 35,
-          "vc": "Founders Fund",
-          "date": "2026-03-29",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Founders Fund portfolio on 2026-03-29"
-        },
-        {
-          "name": "Founder Tier",
-          "source": "VC portfolio: Founders Fund",
-          "sourceWeight": 35,
-          "vc": "Founders Fund",
-          "date": "2026-04-01",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Founders Fund portfolio on 2026-04-01"
-        },
-        {
-          "name": "Founder Tier",
-          "source": "VC portfolio: Founders Fund",
-          "sourceWeight": 35,
-          "vc": "Founders Fund",
-          "date": "2026-05-01",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Founders Fund portfolio on 2026-05-01"
-        },
-        {
-          "name": "Founder Tier",
-          "source": "VC portfolio: Founders Fund",
-          "sourceWeight": 35,
-          "vc": "Founders Fund",
-          "date": "2026-06-01",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Founders Fund portfolio on 2026-06-01"
-        },
-        {
-          "name": "Founder Tier",
-          "source": "VC portfolio: Founders Fund",
-          "sourceWeight": 35,
-          "vc": "Founders Fund",
-          "date": "2026-07-01",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Founders Fund portfolio on 2026-07-01"
-        },
-        {
-          "name": "Founder Tier",
-          "source": "VC portfolio: Founders Fund",
-          "sourceWeight": 35,
-          "vc": "Founders Fund",
-          "date": "2026-08-01",
-          "verifyUrl": "portfolio_page",
-          "context": "Newly listed in Founders Fund portfolio on 2026-08-01"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null,
-      "dimensions": {
-        "capital_quality": 15,
-        "magnitude": 0,
-        "tech_depth": 0,
-        "frontier_fit": 0,
-        "stealth_signal": 8,
-        "founder_signal": 0,
-        "excitement": 7.7
-      },
-      "briefing": "**Founder Tier** \u2014 frontier tech.\n\n Backing: Founders Fund.\n\nSurfaced in just one source \u2014 early intel, before the rest of the market.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 31/70."
-    }
-  ],
-  "runnersUp": [
-    {
       "name": "Atomic Semi",
       "score": 30.7,
-      "dimensions": {
-        "capital_quality": 15,
-        "magnitude": 0,
-        "tech_depth": 0,
-        "frontier_fit": 0,
-        "stealth_signal": 8,
-        "founder_signal": 0,
-        "excitement": 7.7
-      },
-      "sources": [
-        "VC portfolio"
-      ],
-      "suggestedSector": null,
       "signals": [
         {
           "name": "Atomic Semi",
@@ -390,9 +299,54 @@
           "date": "2026-04-01",
           "verifyUrl": "portfolio_page",
           "context": "Newly listed in AV portfolio on 2026-04-01"
+        },
+        {
+          "name": "Atomic Semi",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-05-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-05-01"
+        },
+        {
+          "name": "Atomic Semi",
+          "source": "VC portfolio: Greylock",
+          "sourceWeight": 35,
+          "vc": "Greylock",
+          "date": "2026-08-12",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Greylock portfolio on 2026-08-12"
+        },
+        {
+          "name": "Atomic Semi",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-08-12",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-08-12"
         }
-      ]
-    },
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null,
+      "dimensions": {
+        "capital_quality": 15,
+        "magnitude": 0,
+        "tech_depth": 0,
+        "frontier_fit": 0,
+        "stealth_signal": 8,
+        "founder_signal": 0,
+        "excitement": 7.7
+      },
+      "briefing": "**Atomic Semi** \u2014 frontier tech.\n\n Backing: AV, Greylock.\n\nSurfaced in just one source \u2014 early intel, before the rest of the market.\n\nAsk: Who's the first commercial customer, and how big is the contract?\n\nSource: VC portfolio. Score 31/70."
+    }
+  ],
+  "runnersUp": [
     {
       "name": "HRL LABORATORIES, LLC",
       "score": 30.7,
@@ -670,7 +624,38 @@
           "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001123C0071"
         }
       ]
+    },
+    {
+      "name": "PACMAR TECHNOLOGIES LLC",
+      "score": 28.7,
+      "dimensions": {
+        "capital_quality": 0,
+        "magnitude": 7,
+        "tech_depth": 3.0,
+        "frontier_fit": 10,
+        "stealth_signal": 4,
+        "founder_signal": 0,
+        "excitement": 4.7
+      },
+      "sources": [
+        "DARPA"
+      ],
+      "suggestedSector": "Defense & Security",
+      "signals": [
+        {
+          "source": "DARPA performer",
+          "totalAwarded": 75033916.1,
+          "totalAwardedFormatted": "$75.0M",
+          "awardCount": 2,
+          "programs": [
+            "AUTONOMOUS",
+            "RANGE"
+          ],
+          "date": "2021-09-29",
+          "verifyUrl": "https://www.usaspending.gov/award/CONT_AWD_HR001121C0206"
+        }
+      ]
     }
   ],
-  "rejectedCount": 166
+  "rejectedCount": 171
 }
