@@ -55080,29 +55080,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-06 05:46
-// Auto-generated real-time signals
-// Last updated: 2026-09-06
-// Auto-generated real-time signals
-// Last updated: 2026-09-06
-// Auto-generated real-time signals
-// Last updated: 2026-09-06
+// Last updated: 2026-09-06 14:05
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "Talking About OpenAI Astra AKA GPT 6 and AGI", source: "Next Big Future", time: "8h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "OpenAI", headline: "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Isar Aerospace", headline: "German spacetech Isar Aerospace’s second rocket launch reaches orbit in milestone", source: "Sifted", time: "12h ago", impact: "medium", unread: true },
-  { id: 4, type: "ipo", company: "Isar Aerospace", headline: "Isar Aerospace achieves first launch to orbit from continental Europe", source: "ESA News", time: "14h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure", source: "TechCrunch", time: "16h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "OpenAI", headline: "OpenAI&#8217;s rogue agents keep escaping, with no formal process to investigate them", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "Talking About OpenAI Astra AKA GPT 6 and AGI", source: "Next Big Future", time: "11h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "OpenAI", headline: "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft", source: "TechCrunch", time: "15h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Isar Aerospace", headline: "German spacetech Isar Aerospace's second rocket launch reaches orbit in milestone", source: "Sifted", time: "16h ago", impact: "medium", unread: true },
+  { id: 4, type: "ipo", company: "Isar Aerospace", headline: "Isar Aerospace achieves first launch to orbit from continental Europe", source: "ESA News", time: "17h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI confirms 'wiki incident,' says it's 'working on a framework' for more disclosure", source: "TechCrunch", time: "20h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "OpenAI", headline: "OpenAI's rogue agents keep escaping, with no formal process to investigate them", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "ipo", company: "OpenAI", headline: "OpenAI agents discussed ways to escape their sandbox on public wiki", source: "Ars Technica", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "OpenAI", headline: "July’s breakout at OpenAI was far more complex than initially realized", source: "Defense One", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "OpenAI", headline: "Another swarm of OpenAI agents reached the open internet without the frontier lab&#8217;s knowledge", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Shield AI", headline: "Back to life: How Shield AI’s future unmanned fighter made decades-old tech new again", source: "Defense One", time: "2d ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "July's breakout at OpenAI was far more complex than initially realized", source: "Defense One", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "milestone", company: "OpenAI", headline: "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "Shield AI", headline: "Back to life: How Shield AI's future unmanned fighter made decades-old tech new again", source: "Defense One", time: "2d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "Anthropic", headline: "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today", source: "Wired", time: "2d ago", impact: "low", unread: false },
   { id: 12, type: "news", company: "Anthropic", headline: "OpenAI GPT 6 Astra Limited Release that Beats Anthropic Fable 5.1 on Benchmarks", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "OpenAI", headline: "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era", source: "Wired", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Cover", headline: "NASA to Cover Progress 96 Spacecraft Launch, Docking", source: "NASA Breaking News", time: "2d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "OpenAI", headline: "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk", source: "Wired", time: "2d ago", impact: "high", unread: false },
+  { id: 13, type: "milestone", company: "OpenAI", headline: "GPT-6 Astra Is Here'and OpenAI Thinks It May Kick Off the AGI Era", source: "Wired", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "OpenAI", headline: "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk", source: "Wired", time: "2d ago", impact: "high", unread: false },
+  { id: 15, type: "news", company: "Hugging Face", headline: "NVIDIA plans to acquire Hugging Face and keep AI development platform open", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
