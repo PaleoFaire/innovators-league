@@ -55080,18 +55080,18 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-06 19:01
+// Last updated: 2026-09-06 21:12
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Zoox", headline: "Zoox Begins Robotaxi Testing in Houston", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Waymo", headline: "Jason Calcanis is Wrong About Cybercab, Waymo, and Uber ' Here's Why", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "Talking About OpenAI Astra AKA GPT 6 and AGI", source: "Next Big Future", time: "16h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "OpenAI", headline: "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft", source: "TechCrunch", time: "20h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "Isar Aerospace", headline: "German spacetech Isar Aerospace's second rocket launch reaches orbit in milestone", source: "Sifted", time: "21h ago", impact: "medium", unread: true },
-  { id: 6, type: "ipo", company: "Isar Aerospace", headline: "Isar Aerospace achieves first launch to orbit from continental Europe", source: "ESA News", time: "22h ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "Zoox", headline: "Zoox Begins Robotaxi Testing in Houston", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Waymo", headline: "Jason Calcanis is Wrong About Cybercab, Waymo, and Uber ' Here's Why", source: "Next Big Future", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "Talking About OpenAI Astra AKA GPT 6 and AGI", source: "Next Big Future", time: "18h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "OpenAI", headline: "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft", source: "TechCrunch", time: "22h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "Isar Aerospace", headline: "German spacetech Isar Aerospace's second rocket launch reaches orbit in milestone", source: "Sifted", time: "23h ago", impact: "medium", unread: true },
+  { id: 6, type: "ipo", company: "Isar Aerospace", headline: "Isar Aerospace achieves first launch to orbit from continental Europe", source: "ESA News", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "news", company: "OpenAI", headline: "OpenAI confirms 'wiki incident,' says it's 'working on a framework' for more disclosure", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 8, type: "milestone", company: "OpenAI", headline: "OpenAI's rogue agents keep escaping, with no formal process to investigate them", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 9, type: "ipo", company: "OpenAI", headline: "OpenAI agents discussed ways to escape their sandbox on public wiki", source: "Ars Technica", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "OpenAI", headline: "July's breakout at OpenAI was far more complex than initially realized", source: "Defense One", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "OpenAI", headline: "July's breakout at OpenAI was far more complex than initially realized", source: "Defense One", time: "2d ago", impact: "low", unread: false },
   { id: 11, type: "milestone", company: "OpenAI", headline: "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
   { id: 12, type: "ipo", company: "Shield AI", headline: "Back to life: How Shield AI's future unmanned fighter made decades-old tech new again", source: "Defense One", time: "2d ago", impact: "low", unread: false },
   { id: 13, type: "news", company: "Anthropic", headline: "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today", source: "Wired", time: "2d ago", impact: "low", unread: false },
