@@ -1,47 +1,55 @@
 {
-  "generated_at": "2026-08-30T13:29:00.474571+00:00",
-  "week_ending": "2026-08-30",
+  "generated_at": "2026-09-06T11:54:06.421054+00:00",
+  "week_ending": "2026-09-06",
   "window_days": 7,
-  "events_processed": 4,
-  "companies_touched": 4,
+  "events_processed": 5,
+  "companies_touched": 5,
   "companies_moved": 0,
-  "companies_unchanged": 2,
+  "companies_unchanged": 3,
   "movers_up_top20": [],
   "movers_down_top10": [],
   "tier_crossings": [],
   "first_time_elite": [],
   "top_headlines": [
     {
-      "company": "Momentus",
+      "company": "Crusoe Energy",
+      "type": "funding_mega",
+      "detail": "Funding Round $3B",
+      "date": "2026-09-04",
+      "source": "funding_feed",
+      "url": ""
+    },
+    {
+      "company": "Archer Aviation",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-08-28",
+      "date": "2026-09-04",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-102795%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001824502-26-000068%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "UiPath",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-09-03",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001734722-26-000047%22&dateRange=custom&forms=8-K"
     },
     {
       "company": "C3.ai",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-08-27",
+      "date": "2026-09-02",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001577526-26-000103%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001577526-26-000119%22&dateRange=custom&forms=8-K"
     },
     {
-      "company": "Rivian",
+      "company": "Satellogic",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-08-27",
+      "date": "2026-08-31",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-102435%22&dateRange=custom&forms=8-K"
-    },
-    {
-      "company": "D-Wave Quantum",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-08-25",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000138%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-095700%22&dateRange=custom&forms=8-K"
     }
   ],
   "methodology": {

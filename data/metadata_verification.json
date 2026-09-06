@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T13:29:03Z",
-  "company_count": 1181,
+  "generated_at": "2026-09-06T11:54:08Z",
+  "company_count": 1180,
   "checks": {
     "acquisition_language": [
       {
@@ -41,11 +41,6 @@
         "name": "Endurance Energy",
         "current_stage": "SPAC",
         "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
-      },
-      {
-        "name": "True Anomaly",
-        "current_stage": "SPAC",
-        "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
       }
     ],
     "missing_websites": [
@@ -55,9 +50,24 @@
         "founder": "Elliot Forcier-Poirier, Samuel Desjardins, Roko Baljak"
       },
       {
+        "name": "Deep Atomic",
+        "sector": "Nuclear Energy",
+        "founder": "William G.J. Theron"
+      },
+      {
         "name": "Mbodi AI",
         "sector": "Robotics & Manufacturing",
         "founder": "Xavier Chi, Sebastian Peralta"
+      },
+      {
+        "name": "Dendra Systems",
+        "sector": "Climate & Energy",
+        "founder": "Susan Graham, Irina Fedorenko"
+      },
+      {
+        "name": "Improbable Defence",
+        "sector": "Defense & Security",
+        "founder": "Joe Robinson"
       },
       {
         "name": "Hypernova Space Technologies",
@@ -188,11 +198,6 @@
         "name": "Normal Computing",
         "sector": "Chips & Semiconductors",
         "founder": "Matthias Tan, Faris Sbahi"
-      },
-      {
-        "name": "Ampaire",
-        "sector": "Space & Aerospace",
-        "founder": "Kevin Noertker, Cory Combs"
       },
       {
         "name": "Axion",
@@ -333,11 +338,6 @@
         "name": "Dark",
         "sector": "Space & Aerospace",
         "founder": "Clyde Laheyne, Guillaume Orvain"
-      },
-      {
-        "name": "HEO Robotics",
-        "sector": "Space & Aerospace",
-        "founder": "William Crowe, Hiranya Jayakody"
       },
       {
         "name": "ElectroFlow Technologies",
@@ -496,32 +496,31 @@
       }
     ],
     "stage_vocabulary": {
-      "Series A": 297,
-      "Seed": 246,
-      "Series B": 206,
-      "Series C": 131,
-      "Public": 56,
-      "Undisclosed": 44,
+      "Series A": 291,
+      "Seed": 247,
+      "Series B": 207,
+      "Series C": 132,
+      "Public": 63,
+      "Undisclosed": 43,
       "Series D": 38,
       "Growth": 27,
       "Pre-Seed": 26,
-      "Series E": 17,
+      "Series E": 19,
       "Series G": 17,
-      "Private": 11,
-      "Series F": 9,
+      "Private": 10,
       "Late Stage": 9,
-      "IPO": 5,
-      "SPAC": 5,
+      "Series F": 8,
+      "SPAC": 4,
       "Bootstrapped": 3,
       "Public (KOSDAQ)": 3,
+      "Series H": 2,
+      "IPO": 2,
       "Series B-2": 2,
       "Pre-IPO": 2,
-      "Acquired": 2,
       "Public (Tokyo)": 2,
       "Series D+": 2,
       "Stealth": 1,
       "Stealth-exit": 1,
-      "Series H": 1,
       "Series B2": 1,
       "Series A-1": 1,
       "Series A+": 1,
@@ -529,6 +528,7 @@
       "Pre-Series B": 1,
       "Public (INVZ)": 1,
       "Public (ADX)": 1,
+      "Acquired": 1,
       "Sovereign (PIF)": 1,
       "Private (Baykar-aligned)": 1,
       "Public (TSX)": 1,
@@ -543,23 +543,9 @@
     },
     "web_probes": [
       {
-        "kind": "rebrand_suspect",
-        "name": "Applied Atomics",
-        "old_url": "https://www.applied-atomics.com",
-        "new_url": "https://www.appliedatomics.com/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "rebrand_suspect",
-        "name": "Dominion Dynamics",
-        "old_url": "https://dominion-dynamics.com",
-        "new_url": "https://www.defendthedominion.com/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
         "kind": "dead_website",
-        "name": "Atana Elements",
-        "url": "https://atanaelements.com",
+        "name": "Peak Quantum",
+        "url": "https://peakquantum.de/",
         "status": 403,
         "action": "Website returns error code. Verify company is still operating."
       },
@@ -571,74 +557,11 @@
         "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
-        "kind": "rebrand_suspect",
-        "name": "Blue Water Autonomy",
-        "old_url": "https://bluewaterautonomy.com",
-        "new_url": "https://www.blw.ai/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "dead_website",
-        "name": "Aalo Atomics",
-        "url": "https://aaloatomics.com",
-        "status": 405,
-        "action": "Website returns error code. Verify company is still operating."
-      },
-      {
-        "kind": "rebrand_suspect",
-        "name": "Astro Mechanica",
-        "old_url": "https://astromechanica.com",
-        "new_url": "https://www.astromecha.co/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
         "kind": "dead_website",
         "name": "Nominal",
         "url": "https://nominal.io",
         "status": 403,
         "action": "Website returns error code. Verify company is still operating."
-      },
-      {
-        "kind": "rebrand_suspect",
-        "name": "Senra Systems",
-        "old_url": "https://senrasystems.com",
-        "new_url": "https://www.senrasystems.us/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "unreachable_website",
-        "name": "Divergent",
-        "url": "https://www.divergent3d.com",
-        "error": "ConnectTimeout",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
-      },
-      {
-        "kind": "rebrand_suspect",
-        "name": "Xcimer Energy",
-        "old_url": "https://xcimerenergy.com",
-        "new_url": "https://xcimer.energy:443/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "unreachable_website",
-        "name": "Claros",
-        "url": "https://www.claros.tech",
-        "error": "SSLError",
-        "action": "Website unreachable (network or SSL error). Re-probe next week."
-      },
-      {
-        "kind": "dead_website",
-        "name": "Extropic",
-        "url": "https://extropic.com",
-        "status": 405,
-        "action": "Website returns error code. Verify company is still operating."
-      },
-      {
-        "kind": "rebrand_suspect",
-        "name": "The Boring Company",
-        "old_url": "https://theboringcompany.com",
-        "new_url": "https://www.boringcompany.com/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       },
       {
         "kind": "dead_website",
@@ -648,67 +571,18 @@
         "action": "Website returns error code. Verify company is still operating."
       },
       {
-        "kind": "rebrand_suspect",
-        "name": "Matic Robotics",
-        "old_url": "https://maticrobotics.com",
-        "new_url": "https://maticrobots.com",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "rebrand_suspect",
-        "name": "Firehawk Aerospace",
-        "old_url": "https://firehawkaerospace.com",
-        "new_url": "https://firehawkdefense.com/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "rebrand_suspect",
-        "name": "SkySafe",
-        "old_url": "https://skysafe.com",
-        "new_url": "https://www.skysafe.io/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "rebrand_suspect",
-        "name": "Deepnight",
-        "old_url": "https://www.deepnight.ai",
-        "new_url": "https://deepnight.com/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "dead_website",
-        "name": "Rune Technologies",
-        "url": "https://runetechnologies.co",
-        "status": 405,
-        "action": "Website returns error code. Verify company is still operating."
-      },
-      {
         "kind": "dead_website",
         "name": "Blue Origin",
         "url": "https://blueorigin.com",
         "status": 429,
         "action": "Website returns error code. Verify company is still operating."
-      },
-      {
-        "kind": "rebrand_suspect",
-        "name": "AMP Robotics",
-        "old_url": "https://amprobotics.com",
-        "new_url": "https://ampsortation.com/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
-      },
-      {
-        "kind": "rebrand_suspect",
-        "name": "Antora Energy",
-        "old_url": "https://antoraenergy.com",
-        "new_url": "https://www.antora.com/",
-        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
       }
     ]
   },
   "summary": {
-    "p0_issues": 16,
-    "p1_issues": 12,
-    "missing_websites": 89,
+    "p0_issues": 3,
+    "p1_issues": 8,
+    "missing_websites": 90,
     "distinct_stages": 44
   }
 }
