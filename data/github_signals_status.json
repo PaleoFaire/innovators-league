@@ -1,11 +1,11 @@
 {
   "script": "fetch_github_signals.py",
-  "started_at": "2026-09-05T11:05:56.932720+00:00",
-  "finished_at": "2026-09-05T11:07:53.613062+00:00",
+  "started_at": "2026-09-06T11:29:21.566125+00:00",
+  "finished_at": "2026-09-06T11:30:50.204909+00:00",
   "companies_checked": 120,
   "companies_with_signal": 36,
   "skipped_no_org": 84,
   "errors": 0,
-  "rate_limit_remaining": 4672,
+  "rate_limit_remaining": 4670,
   "ok": true
 }
