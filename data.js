@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-09-06";
+const LAST_UPDATED = "2026-09-07";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -55080,11 +55080,11 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-06 23:44
+// Last updated: 2026-09-07 04:20
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Zoox", headline: "Zoox Begins Robotaxi Testing in Houston", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Waymo", headline: "Jason Calcanis is Wrong About Cybercab, Waymo, and Uber ' Here's Why", source: "Next Big Future", time: "6h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "Talking About OpenAI Astra AKA GPT 6 and AGI", source: "Next Big Future", time: "21h ago", impact: "low", unread: true },
+  { id: 1, type: "milestone", company: "Zoox", headline: "Zoox Begins Robotaxi Testing in Houston", source: "CleanTechnica", time: "9h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Waymo", headline: "Jason Calcanis is Wrong About Cybercab, Waymo, and Uber ' Here's Why", source: "Next Big Future", time: "10h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "Talking About OpenAI Astra AKA GPT 6 and AGI", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "ipo", company: "OpenAI", headline: "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "ipo", company: "Isar Aerospace", headline: "German spacetech Isar Aerospace's second rocket launch reaches orbit in milestone", source: "Sifted", time: "1d ago", impact: "medium", unread: true },
   { id: 6, type: "ipo", company: "Isar Aerospace", headline: "Isar Aerospace achieves first launch to orbit from continental Europe", source: "ESA News", time: "1d ago", impact: "low", unread: false },
