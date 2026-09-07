@@ -1,23 +1,19 @@
 {
-  "generated_at": "2026-08-31T16:09:48.286216+00:00",
-  "total_candidates": 41,
+  "generated_at": "2026-09-07T14:15:25.437916+00:00",
+  "total_candidates": 39,
   "sources": {
     "buildlist": {
       "url": "https://buildlist.xyz",
       "note": "Curated directory of companies building the future (Ryan & Christian)",
-      "listed": 784,
-      "already_tracked": 591,
-      "missing": 193,
-      "in_scope_candidates": 39,
+      "listed": 778,
+      "already_tracked": 590,
+      "missing": 188,
+      "in_scope_candidates": 37,
       "rejected_by_bar": {
-        "sector out of scope": 124,
-        "software or services wearing a hard-tech label": 16,
+        "sector out of scope": 125,
+        "software or services wearing a hard-tech label": 17,
         "public company": 5,
-        "founded 1960, no disclosed funding \u2014 incumbent, not frontier": 1,
-        "founded 1902, no disclosed funding \u2014 incumbent, not frontier": 1,
-        "founded 1991, no disclosed funding \u2014 incumbent, not frontier": 1,
-        "founded 1968, no disclosed funding \u2014 incumbent, not frontier": 1,
-        "no founding year and no funding \u2014 no evidence": 4,
+        "no founding year and no funding \u2014 no evidence": 3,
         "founded 2013, no disclosed funding \u2014 incumbent, not frontier": 1
       },
       "rejected_names": {
@@ -145,7 +141,8 @@
           "Ambrook",
           "PhysicsX",
           "Silkline",
-          "Tandem"
+          "Tandem",
+          "Gimlet Labs"
         ],
         "software or services wearing a hard-tech label": [
           "RigUp",
@@ -163,7 +160,8 @@
           "Function Health",
           "Fluidstack",
           "Nscale",
-          "Tennr"
+          "Tennr",
+          "Volta"
         ],
         "public company": [
           "Nvidia",
@@ -172,20 +170,7 @@
           "Unusual Machines",
           "Nebius"
         ],
-        "founded 1960, no disclosed funding \u2014 incumbent, not frontier": [
-          "Cooper Steel"
-        ],
-        "founded 1902, no disclosed funding \u2014 incumbent, not frontier": [
-          "DW Clark"
-        ],
-        "founded 1991, no disclosed funding \u2014 incumbent, not frontier": [
-          "Fiber Dynamics"
-        ],
-        "founded 1968, no disclosed funding \u2014 incumbent, not frontier": [
-          "Rampmaster"
-        ],
         "no founding year and no funding \u2014 no evidence": [
-          "Bridge Defense",
           "Atomic Factories",
           "RogueBeam",
           "SpektreWorks"
@@ -274,19 +259,6 @@
           "source_list": "buildlist"
         },
         {
-          "name": "Ad Astra Sky Supply",
-          "status": "active",
-          "sector": "Defense",
-          "tagline": "Domestic manufacturing dominance and supremacy through sustainment for the warfighter.",
-          "founders": "Caroline Canfield",
-          "city": "Prairie Village, KS",
-          "founded": "2025",
-          "round": "",
-          "raised": "",
-          "our_sector": "Defense & Security",
-          "source_list": "buildlist"
-        },
-        {
           "name": "Blue Star NBR",
           "status": "active",
           "sector": "Manufacturing",
@@ -310,19 +282,6 @@
           "round": "",
           "raised": "",
           "our_sector": "Defense & Security",
-          "source_list": "buildlist"
-        },
-        {
-          "name": "Fill USA",
-          "status": "active",
-          "sector": "Manufacturing",
-          "tagline": "US arm of the Austrian machine and plant engineering company serving automotive and aerospace.",
-          "founders": "Josef Fill",
-          "city": "Plymouth, MI",
-          "founded": "2021",
-          "round": "",
-          "raised": "",
-          "our_sector": "Robotics & Manufacturing",
           "source_list": "buildlist"
         },
         {
@@ -464,7 +423,7 @@
           "city": "Los Angeles, CA",
           "founded": "2025",
           "round": "Seed",
-          "raised": "$5M",
+          "raised": "$30M",
           "our_sector": "Defense & Security",
           "source_list": "buildlist"
         },
@@ -568,7 +527,7 @@
           "city": "Oslo, Norway",
           "founded": "2026",
           "round": "Seed",
-          "raised": "$5.4M",
+          "raised": "$10.8M",
           "our_sector": "Defense & Security",
           "source_list": "buildlist"
         },
@@ -684,7 +643,7 @@
           "founders": "Alex Taylor",
           "city": "Lowell, MI",
           "founded": "2019",
-          "round": "",
+          "round": "Series A",
           "raised": "$14.5M+",
           "our_sector": "Space & Aerospace",
           "source_list": "buildlist"
