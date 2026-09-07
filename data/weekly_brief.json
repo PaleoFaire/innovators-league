@@ -1,23 +1,16 @@
 {
-  "date": "2026-09-06",
-  "display_date": "Sep 06, 2026",
-  "generated_at": "2026-09-06T12:40:07.255709+00:00",
-  "cutoff": "2026-08-30T12:40:07.255709+00:00",
+  "date": "2026-09-07",
+  "display_date": "Sep 07, 2026",
+  "generated_at": "2026-09-07T15:40:50.066797+00:00",
+  "cutoff": "2026-08-31T15:40:50.066797+00:00",
   "section_count": 8,
-  "total_items": 268,
+  "total_items": 254,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 18,
+      "count": 17,
       "items": [
-        {
-          "company": "Scale AI",
-          "current": 44.0,
-          "previous": 39.5,
-          "change": 4.5,
-          "tier": "early"
-        },
         {
           "company": "Resilience",
           "current": 33.0,
@@ -76,6 +69,13 @@
         },
         {
           "company": "Paradromics",
+          "current": 32.0,
+          "previous": 29.0,
+          "change": 3.0,
+          "tier": "early"
+        },
+        {
+          "company": "Cradle",
           "current": 32.0,
           "previous": 29.0,
           "change": 3.0,
@@ -142,7 +142,7 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 25,
+      "count": 22,
       "items": [
         {
           "company": "C3.ai",
@@ -163,13 +163,6 @@
           "form": "8-K",
           "description": "achr-20260901.htm",
           "date": "2026-09-04",
-          "isIPO": false
-        },
-        {
-          "company": "Satellogic",
-          "form": "8-K",
-          "description": "ea0304018-8k_zoomcar.htm",
-          "date": "2026-08-31",
           "isIPO": false
         },
         {
@@ -198,6 +191,13 @@
           "form": "4",
           "description": "xslF345X06/tm2624604-1_4seq1.xml",
           "date": "2026-09-01",
+          "isIPO": false
+        },
+        {
+          "company": "Oklo",
+          "form": "4",
+          "description": "xslF345X06/wk-form4_1788467088.xml",
+          "date": "2026-09-03",
           "isIPO": false
         }
       ]
@@ -230,20 +230,11 @@
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 47,
+      "count": 45,
       "items": [
         {
-          "title": "Sunshine Act Meetings",
-          "type": "Notice",
-          "agencies": [
-            "Securities and Exchange Commission"
-          ],
-          "significant": false,
-          "date": "2026-09-08"
-        },
-        {
-          "title": "Federal Advisory Committee Act; Technological Advisory Council",
-          "type": "Notice",
+          "title": "Unleashing Unlicensed Spectrum for Direct-to-Device",
+          "type": "Proposed Rule",
           "agencies": [
             "Federal Communications Commission"
           ],
@@ -251,22 +242,14 @@
           "date": "2026-09-08"
         },
         {
-          "title": "Transfer Agent Rules",
+          "title": "National Petroleum Reserve in Alaska Production Site Development",
           "type": "Proposed Rule",
           "agencies": [
-            "Securities and Exchange Commission"
+            "Interior Department",
+            "Land Management Bureau"
           ],
           "significant": false,
-          "date": "2026-09-04"
-        },
-        {
-          "title": "Agency Information Collection Revision",
-          "type": "Notice",
-          "agencies": [
-            "Energy Department"
-          ],
-          "significant": false,
-          "date": "2026-09-04"
+          "date": "2026-09-08"
         },
         {
           "title": "Determining the Appropriate Penalty for Federal Employees Charged With Misconduct",
@@ -278,35 +261,46 @@
           "date": "2026-09-03"
         },
         {
-          "title": "Heightened Import Disclosures for Supply Chain Visibility",
-          "type": "Proposed Rule",
+          "title": "Rules of Practice and Procedure",
+          "type": "Notice",
           "agencies": [
-            "Homeland Security Department",
-            "U.S. Customs and Border Protection"
+            "United States Sentencing Commission"
           ],
           "significant": false,
-          "date": "2026-09-02"
+          "date": "2026-09-03"
+        },
+        {
+          "title": "Pipeline Safety: Joint Meeting of the Gas and Liquid Pipeline Advisory Committees",
+          "type": "Notice",
+          "agencies": [
+            "Transportation Department",
+            "Pipeline and Hazardous Materials Safety Administration"
+          ],
+          "significant": false,
+          "date": "2026-09-01"
+        },
+        {
+          "title": "Self-Regulatory Organizations; The Options Clearing Corporation; Notice of Filing of Proposed Rule Change by The Options",
+          "type": "Notice",
+          "agencies": [
+            "Securities and Exchange Commission"
+          ],
+          "significant": false,
+          "date": "2026-09-08"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 26,
+      "count": 19,
       "items": [
         {
-          "title": "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk",
-          "source": "Wired",
-          "company": "OpenAI",
-          "impact": "high",
-          "type": "ipo"
-        },
-        {
-          "title": "Talking About OpenAI Astra AKA GPT 6 and AGI",
-          "source": "Next Big Future",
-          "company": "OpenAI",
+          "title": "Zoox Begins Robotaxi Testing in Houston",
+          "source": "CleanTechnica",
+          "company": "Zoox",
           "impact": "low",
-          "type": "news"
+          "type": "milestone"
         },
         {
           "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
@@ -349,119 +343,116 @@
           "company": "OpenAI",
           "impact": "low",
           "type": "ipo"
+        },
+        {
+          "title": "July\u2019s breakout at OpenAI was far more complex than initially realized",
+          "source": "Defense One",
+          "company": "OpenAI",
+          "impact": "low",
+          "type": "news"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 54,
+      "count": 56,
       "items": [
         {
-          "title": "GPT-6 Astra",
-          "score": 2235,
-          "comments": 2046,
+          "title": "QBittorrent breaks out of sandbox to commit crimes",
+          "score": 1286,
+          "comments": 280,
           "companies": [
-            "Grain Weevil",
-            "Vannevar Labs",
-            "Skyryse",
-            "Beacon AI",
-            "OpenAI",
-            "Biofire"
+            "The Boring Company"
           ],
-          "url": "https://news.ycombinator.com/item?id=49554643"
+          "url": "https://news.ycombinator.com/item?id=49586171"
         },
         {
-          "title": "Discovery of a new OpenAI agent message board",
-          "score": 2194,
-          "comments": 1551,
+          "title": "Nitter and XCancel resume service after legal advice",
+          "score": 807,
+          "comments": 347,
           "companies": [
-            "Cover",
-            "OpenAI"
+            "Bear Robotics"
           ],
-          "url": "https://news.ycombinator.com/item?id=49563355"
-        },
-        {
-          "title": "Formalizing Fermat's Last Theorem",
-          "score": 757,
-          "comments": 492,
-          "companies": [
-            "Anthropic",
-            "HEO",
-            "Sakana AI"
-          ],
-          "url": "https://news.ycombinator.com/item?id=49568506"
+          "url": "https://news.ycombinator.com/item?id=49588988"
         },
         {
           "title": "Private German rocket makes history, reaches orbit from European soil",
-          "score": 634,
-          "comments": 342,
+          "score": 726,
+          "comments": 420,
           "companies": [
             "Elodin",
-            "AnySignal",
             "Hadrian",
+            "AnySignal",
             "Endurosat",
             "Orbital Composites"
           ],
           "url": "https://news.ycombinator.com/item?id=49580369"
         },
         {
-          "title": "Record-High 89% in U.S. Say Government Corruption Widespread",
-          "score": 559,
-          "comments": 525,
-          "companies": [
-            "Palantir"
-          ],
-          "url": "https://news.ycombinator.com/item?id=49570772"
+          "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
+          "score": 671,
+          "comments": 412,
+          "companies": [],
+          "url": "https://news.ycombinator.com/item?id=49585644"
         },
         {
-          "title": "Statichost.eu \u2013 European static site hosting",
-          "score": 487,
-          "comments": 228,
+          "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
+          "score": 622,
+          "comments": 306,
           "companies": [
-            "Endurosat"
+            "Rigetti Computing"
           ],
-          "url": "https://news.ycombinator.com/item?id=49569896"
+          "url": "https://news.ycombinator.com/item?id=49582000"
+        },
+        {
+          "title": "A/I shuts down",
+          "score": 595,
+          "comments": 492,
+          "companies": [
+            "Fortera"
+          ],
+          "url": "https://news.ycombinator.com/item?id=49586898"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 88,
+      "count": 85,
       "items": [
         {
-          "title": "Roivant to Present Topline Results from the Phase 2 PHocus Study of Mosliciguat in Patients with Pulmonary Hypertension ",
+          "title": "A notice of the convening of the Extraordinary General Meeting of Shareholders of AB Amber Grid",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Verizon Waives Charges for Hurricane Lowell, Prepares Network in Hawai'i",
+          "title": "Prane\u0161imas apie \u0161aukiam\u0105 AB \u201eAmber Grid\u201c neeilin\u012f visuotin\u012f akcinink\u0173 susirinkim\u0105",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "LUXEED Hosts Dedicated Brand Engagement Session with Chery International Middle East Dealer Delegation",
+          "title": "A notice of the convening of the Extraordinary General Meeting of Shareholders of AB Amber Grid",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Royalty Pharma announces update on Novartis\u2019 Phase 3 topline results for pelacarsen",
+          "title": "Prane\u0161imas apie \u0161aukiam\u0105 AB \u201eAmber Grid\u201c neeilin\u012f visuotin\u012f akcinink\u0173 susirinkim\u0105",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Grupo Aeroportuario del Pacifico Reports a Passenger Traffic Increase in August 2026 of 0.5% Compared to 2025",
+          "title": "Coop Pank AS own shares acquisition transactions",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Schedule update: Stryker to participate in the 2026 Wells Fargo Healthcare Conference",
+          "title": "Coop Pank AS oma aktsiate omandamise tehingud",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-09-06-f55612bdb7b1"
+  "brief_id": "brief-2026-09-07-9474ecd51730"
 }
