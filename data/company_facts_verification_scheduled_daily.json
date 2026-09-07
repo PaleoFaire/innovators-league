@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-06T09:16:51+00:00",
+  "generatedAt": "2026-09-07T10:05:14+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 39,
-  "newExtractionsThisRun": 39,
+  "cohortSize": 40,
+  "newExtractionsThisRun": 40,
   "summary": {
-    "cleared": 35,
-    "changesProposed": 4,
+    "cleared": 39,
+    "changesProposed": 1,
     "unverifiable": 0
   },
   "cleared": [
@@ -18,10 +18,13 @@
     "Cape",
     "Cover",
     "Deterrence",
+    "Fortastra",
     "Forterra",
     "HEO",
     "Hadrian",
     "Hailo",
+    "Isar Aerospace",
+    "Mammoth Biosciences",
     "Neko Health",
     "Oklo",
     "Orbital Composites",
@@ -42,210 +45,12 @@
     "Valar Atomics",
     "Vast",
     "Vertical Aerospace",
+    "Waymo",
     "Wayve",
     "Xanadu Quantum Technologies",
     "ideaForge"
   ],
   "changesProposed": [
-    {
-      "name": "Isar Aerospace",
-      "current": {
-        "name": "Isar Aerospace",
-        "founder": "Daniel Metzler, Markus Brandl, Josef Peter Fleischmann",
-        "location": "Ottobrunn, Germany",
-        "founded": 2018,
-        "fundingStage": "Series C",
-        "totalRaised": "$650M+",
-        "website": "https://isaraerospace.com"
-      },
-      "verified": {
-        "name": "Isar Aerospace",
-        "description": "German aerospace company developing Spectrum, a two-stage liquid-fueled rocket designed to launch up to 1,000 kilograms to low Earth orbit. Launch service provider for small and medium-sized satellites.",
-        "founders": [
-          "Daniel Metzler",
-          "Markus Brandl",
-          "Josef Peter Fleischmann"
-        ],
-        "location": "Ottobrunn, Germany",
-        "founded_year": 2018,
-        "current_stage": null,
-        "total_raised": "\u20ac500+M",
-        "valuation": null,
-        "investors": [
-          "Earlybird",
-          "Airbus Ventures",
-          "Lakestar",
-          "HV Capital",
-          "Porsche SE",
-          "7-Industries Holding",
-          "Bayern Kapital",
-          "Lombard Odier",
-          "NATO Innovation Fund"
-        ],
-        "website": "https://isaraerospace.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            2
-          ],
-          "founded_year": [
-            1,
-            2
-          ],
-          "total_raised": [
-            0
-          ],
-          "investors": [
-            1,
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Wikipedia source [2] states total funding 'greater than 400 million euros' as of 2024; company website [0] states '\u20ac500+ million' in private capital raised. Founder name in database entry 'Josef Peter Fleischmann' matches Wikipedia 'Josef Peter Fleischmann' but company website lists 'Josef Fleischmann' as Chief Technical Officer. Current stage not explicitly stated in sources; Wikipedia describes as 'Privately held company' but no funding round stage specified."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$650M+",
-          "verified": "\u20ac500+M",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://isaraerospace.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://isaraerospace.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Isar_Aerospace"
-        },
-        {
-          "idx": 3,
-          "src": "news (Sifted)",
-          "url": "https://sifted.eu/articles/isar-aerospace-test-flight-orbit/"
-        },
-        {
-          "idx": 4,
-          "src": "news (ESA News)",
-          "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Boost/Isar_Aerospace_achieves_first_launch_to_orbit_from_continental_Europe"
-        }
-      ],
-      "notes": "Wikipedia source [2] states total funding 'greater than 400 million euros' as of 2024; company website [0] states '\u20ac500+ million' in private capital raised. Founder name in database entry 'Josef Peter Fleischmann' matches Wikipedia 'Josef Peter Fleischmann' but company website lists 'Josef Fleischmann' as Chief Technical Officer. Current stage not explicitly stated in sources; Wikipedia describes as 'Privately held company' but no funding round stage specified."
-    },
-    {
-      "name": "Mammoth Biosciences",
-      "current": {
-        "name": "Mammoth Biosciences",
-        "founder": "Jennifer Doudna, Trevor Martin, Janice Chen, Lucas Harrington",
-        "location": "Brisbane, CA",
-        "founded": 2017,
-        "fundingStage": "Series D",
-        "totalRaised": "$465M+",
-        "website": "https://mammoth.bio"
-      },
-      "verified": {
-        "name": "Mammoth Biosciences",
-        "description": "Biotechnology company developing in vivo gene editing therapeutics using proprietary ultracompact CRISPR systems. The company focuses on leveraging ultra-small CRISPR-Cas enzymes for potential long-term curative therapies for patients with life-threatening and debilitating diseases.",
-        "founders": [
-          "Jennifer Doudna",
-          "Trevor Martin",
-          "Janice Chen",
-          "Lucas Harrington"
-        ],
-        "location": "Brisbane, California, United States",
-        "founded_year": 2017,
-        "current_stage": null,
-        "total_raised": "$465M+",
-        "valuation": null,
-        "investors": null,
-        "website": "https://mammoth.bio",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            0,
-            1,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "total_raised": [
-            1
-          ]
-        },
-        "notes": "Source 3 (Tech.eu article about Holifya) is unrelated to Mammoth Biosciences and was not used. Wikipedia indicates a strategic pivot in 2023 toward therapeutics and away from diagnostics. Company has partnerships with Regeneron ($100M upfront + equity, $370M in milestone payments) and Vertex ($40M upfront + equity, up to $650M in future payments) per source 1."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Brisbane, CA",
-          "verified": "Brisbane, California, United States",
-          "sources": [
-            1,
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://mammoth.bio"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://mammoth.bio/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mammoth_Biosciences"
-        },
-        {
-          "idx": 3,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/09/01/italian-obesity-digital-clinic-holifya-raises-eur2m-to-scale-ai-supported-glp-1-care/"
-        }
-      ],
-      "notes": "Source 3 (Tech.eu article about Holifya) is unrelated to Mammoth Biosciences and was not used. Wikipedia indicates a strategic pivot in 2023 toward therapeutics and away from diagnostics. Company has partnerships with Regeneron ($100M upfront + equity, $370M in milestone payments) and Vertex ($40M upfront + equity, up to $650M in future payments) per source 1."
-    },
     {
       "name": "Nano Nuclear Energy",
       "current": {
@@ -258,8 +63,8 @@
         "website": "https://nanonuclearenergy.com"
       },
       "verified": {
-        "name": "NANO Nuclear Energy Inc.",
-        "description": "An advanced technology-driven nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI MMR systems, with subsidiaries in nuclear fuel fabrication, transportation, and space applications.",
+        "name": "Nano Nuclear Energy",
+        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI systems, with subsidiaries in fuel fabrication, transportation, and space applications.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -284,9 +89,13 @@
           "current_stage": [
             0,
             1
+          ],
+          "website": [
+            0,
+            1
           ]
         },
-        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources claim it is 'the first nuclear microreactor company to be listed publicly in the U.S.' Current database entry references founder 'Jay Jiang Yu' and founding year 2022, but these cannot be verified from provided sources. Entry also references sale of ODIN to Cambridge AtomWorks and market cap of ~$1.2B (June 2026), but sources do not contain this information. Source [2] appears to be about a different company (Valar Atomics) and contains no relevant information about NANO Nuclear Energy."
+        "notes": "Company is listed publicly on NASDAQ under ticker NNE. Sources claim it is 'the first nuclear microreactor company to be listed publicly in the U.S.' Database entry references founder 'Jay Jiang Yu' and founding year 2022, but these are not verifiable from provided sources. Source [2] is about Valar Atomics (different company) and not relevant to Nano Nuclear Energy."
       },
       "changes": [
         {
@@ -316,118 +125,7 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources claim it is 'the first nuclear microreactor company to be listed publicly in the U.S.' Current database entry references founder 'Jay Jiang Yu' and founding year 2022, but these cannot be verified from provided sources. Entry also references sale of ODIN to Cambridge AtomWorks and market cap of ~$1.2B (June 2026), but sources do not contain this information. Source [2] appears to be about a different company (Valar Atomics) and contains no relevant information about NANO Nuclear Energy."
-    },
-    {
-      "name": "Waymo",
-      "current": {
-        "name": "Waymo",
-        "founder": "Sebastian Thrun, Anthony Levandowski",
-        "location": "Mountain View, California",
-        "founded": 2016,
-        "fundingStage": "Private",
-        "totalRaised": "$16B+",
-        "website": "https://waymo.com"
-      },
-      "verified": {
-        "name": "Waymo",
-        "description": "An autonomous driving technology company headquartered in Mountain View, California, operating public commercial robotaxi services in 10 US metropolitan areas and select international locations. As of June 2026, Waymo operates 3,871 robotaxis in service, provides 500,000 paid rides per week, and has logged 200 million fully autonomous miles.",
-        "founders": [
-          "Sebastian Thrun",
-          "Anthony Levandowski"
-        ],
-        "location": "Mountain View, California, United States",
-        "founded_year": 2016,
-        "current_stage": "Private",
-        "total_raised": "$16B",
-        "valuation": "$126B",
-        "investors": [
-          "Alphabet Inc."
-        ],
-        "website": "https://waymo.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "valuation": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Founded as Google Self-Driving Car Project in January 2009, renamed Waymo and spun out as independent Alphabet subsidiary in December 2016. Wikipedia states Waymo raised $16 billion as of February 2026, valuing the company at $126 billion. Company is a subsidiary of Alphabet Inc., not independently funded by multiple venture investors as the database entry suggests."
-      },
-      "changes": [
-        {
-          "field": "location",
-          "current": "Mountain View, California",
-          "verified": "Mountain View, California, United States",
-          "sources": [
-            1,
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://waymo.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://waymo.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Waymo"
-        },
-        {
-          "idx": 3,
-          "src": "news (Tech.eu)",
-          "url": "https://tech.eu/2026/09/03/londoners-can-now-hail-wayve-autonomous-vehicles-through-uber/"
-        },
-        {
-          "idx": 4,
-          "src": "news (Next Big Future)",
-          "url": "https://www.nextbigfuture.com/2026/09/tesla-robotaxi-fleet-hits-420-texas-registered-vehicles.html"
-        },
-        {
-          "idx": 5,
-          "src": "news (Electrek)",
-          "url": "https://electrek.co/2026/09/02/waymo-san-francisco-parking-tickets/"
-        }
-      ],
-      "notes": "Founded as Google Self-Driving Car Project in January 2009, renamed Waymo and spun out as independent Alphabet subsidiary in December 2016. Wikipedia states Waymo raised $16 billion as of February 2026, valuing the company at $126 billion. Company is a subsidiary of Alphabet Inc., not independently funded by multiple venture investors as the database entry suggests."
+      "notes": "Company is listed publicly on NASDAQ under ticker NNE. Sources claim it is 'the first nuclear microreactor company to be listed publicly in the U.S.' Database entry references founder 'Jay Jiang Yu' and founding year 2022, but these are not verifiable from provided sources. Source [2] is about Valar Atomics (different company) and not relevant to Nano Nuclear Energy."
     }
   ],
   "unverifiable": []
