@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-09-05",
-    "vehicle": "Spectrum | Onward and Upward",
-    "payload": "Onward and Upward",
-    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
-    "provider": "Isar Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-09-06",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 15-24",
     "payload": "Starlink Group 15-24",
@@ -448,5 +439,14 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/e61d353c-db55-4a57-8184-0fab187231e6/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Long March 2F/G | Shenzhou 24",
+    "payload": "Shenzhou 24",
+    "pad": "Launch Area 91 (SLS-1 / 921), Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c9605b67-8a53-4239-a8ae-577fe3b79799/?format=json",
+    "trackedCompany": null
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T11:38:56.595147+00:00",
+  "generated_at": "2026-09-07T13:28:50.190267+00:00",
   "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
   "candidates": [
     {
@@ -67,50 +67,6 @@
       "accession": "0002153126-26-000001",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002153126&type=D&dateb=&owner=include&count=10",
       "adsh_raw": "0002153126-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Radian Forge",
-      "issuer_name": "Radian Forge Inc",
-      "form": "D",
-      "filed_date": "2026-09-02",
-      "cik": "2146282",
-      "accession": "0002146282-26-000002",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002146282&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002146282-26-000002"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Matter",
-      "issuer_name": "Matter Venture Partners Fund II, L.P",
-      "form": "D",
-      "filed_date": "2026-09-01",
-      "cik": "2102541",
-      "accession": "0002102541-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002102541&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002102541-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Mara",
-      "issuer_name": "Mara River Special Opportunities Offshore Fund Ltd",
-      "form": "D",
-      "filed_date": "2026-08-31",
-      "cik": "2152851",
-      "accession": "0002152851-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002152851&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002152851-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Icarus",
-      "issuer_name": "Icarus Ventures LLC",
-      "form": "D",
-      "filed_date": "2026-08-26",
-      "cik": "2150161",
-      "accession": "0002150161-26-000002",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002150161&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002150161-26-000002"
     }
   ]
 }

@@ -1,5 +1,5 @@
 // Auto-updated press releases
-// Last updated: 2026-09-06 11:29:31 UTC
+// Last updated: 2026-09-07 13:14:39 UTC
 const PRESS_RELEASES = [
   { title: "DOD tech chief says Anthropic still a ‘supply chain risk’", date: "2026-09-03", companies: "Anthropic, Field AI, Bronco AI", categories: "", source: "insidedefense" },
   { title: "US Army awards $192M to Palantir, Anduril for TITAN production", date: "2026-09-02", companies: "Palantir, Anduril Industries", categories: "funding, contract", source: "defensenews" },
