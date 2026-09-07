@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T11:54:08.193268Z",
+  "generated_at": "2026-09-07T12:13:15.934066Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -20,16 +20,6 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b",
       "signal_type": "funding"
-    },
-    {
-      "author": "Wired",
-      "role": "Industry signal",
-      "company": "OpenAI",
-      "text": "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk",
-      "date": "Thu, 03 Se",
-      "source": "news",
-      "source_url": "https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue/",
-      "signal_type": "ipo"
     },
     {
       "author": "Ars Technica",
@@ -54,7 +44,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 4,
+    "from_news": 3,
     "from_press": 1
   }
 }

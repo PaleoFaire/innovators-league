@@ -1,75 +1,39 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 46,
+    "momentum": 44,
     "trend": "steady",
     "catalysts": [
+      "Zoox Begins Robotaxi Testing in Houston",
       "Back to life: How Shield AI\u2019s future unmanned fighter made d",
-      "NVIDIA plans to acquire Hugging Face and keep AI development",
-      "Tesla Robotaxi Fleet Hits 420 Texas Registered Vehicles, Pas"
+      "NVIDIA plans to acquire Hugging Face and keep AI development"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 45,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-06"
+    "lastUpdated": "2026-09-07"
   },
   {
     "sector": "AI & Software",
-    "momentum": 36,
-    "trend": "steady",
+    "momentum": 30,
+    "trend": "rising",
     "catalysts": [
-      "Talking About OpenAI Astra AKA GPT 6 and AGI",
       "Seattle Times and Newsday are the latest publications to sue",
-      "OpenAI confirms \u2018wiki incident,\u2019 says it\u2019s \u2018working on a fra"
+      "OpenAI confirms \u2018wiki incident,\u2019 says it\u2019s \u2018working on a fra",
+      "OpenAI&#8217;s rogue agents keep escaping, with no formal pr"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 29,
-      "news": 65,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-06"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 25,
-    "trend": "declining",
-    "catalysts": [
-      "Talking About OpenAI Astra AKA GPT 6 and AGI",
-      "GPT-6 Astra Is Here\u2014and OpenAI Thinks It May Kick Off the AG",
-      "Waymo opens robotaxi rides to the public in 3 new cities, no"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 98
-    },
-    "lastUpdated": "2026-09-06"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 24,
-    "trend": "declining",
-    "catalysts": [
-      "OpenAI GPT 6 Astra Limited Release that Beats Anthropic Fabl",
-      "NVIDIA plans to acquire Hugging Face and keep AI development",
-      "Nvidia discloses $21B stake in SpaceX"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-09-06"
+    "lastUpdated": "2026-09-07"
   },
   {
     "sector": "Nuclear Energy",
@@ -87,16 +51,49 @@
       "hiring": 0,
       "market": 86
     },
-    "lastUpdated": "2026-09-06"
+    "lastUpdated": "2026-09-07"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 22,
+    "trend": "declining",
+    "catalysts": [
+      "NVIDIA plans to acquire Hugging Face and keep AI development",
+      "Nvidia discloses $21B stake in SpaceX"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-09-07"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 21,
+    "trend": "declining",
+    "catalysts": [
+      "Waymo opens robotaxi rides to the public in 3 new cities, no"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 98
+    },
+    "lastUpdated": "2026-09-07"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 20,
     "trend": "rising",
     "catalysts": [
+      "Zoox Begins Robotaxi Testing in Houston",
       "German spacetech Isar Aerospace\u2019s second rocket launch reach",
-      "Isar Aerospace achieves first launch to orbit from continent",
-      "Back to life: How Shield AI\u2019s future unmanned fighter made d"
+      "Isar Aerospace achieves first launch to orbit from continent"
     ],
     "fundingQ": "$50M",
     "components": {
@@ -105,7 +102,7 @@
       "hiring": 0,
       "market": 35
     },
-    "lastUpdated": "2026-09-06"
+    "lastUpdated": "2026-09-07"
   },
   {
     "sector": "Housing & Construction",
@@ -121,43 +118,41 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-06"
+    "lastUpdated": "2026-09-07"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 15,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
       "Back to life: How Shield AI\u2019s future unmanned fighter made d",
-      "Londoners can now hail Wayve autonomous vehicles through Ube",
-      "Tesla Robotaxi Fleet Hits 420 Texas Registered Vehicles, Pas"
+      "Londoners can now hail Wayve autonomous vehicles through Ube"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-06"
+    "lastUpdated": "2026-09-07"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 14,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
       "NVIDIA plans to acquire Hugging Face and keep AI development",
-      "The Zoox Safety Case Framework",
       "PsiQuantum\u2019s Ice Cream Factory"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-06"
+    "lastUpdated": "2026-09-07"
   },
   {
     "sector": "Defense & Security",
@@ -175,7 +170,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-06"
+    "lastUpdated": "2026-09-07"
   },
   {
     "sector": "Climate & Energy",
@@ -191,7 +186,7 @@
       "hiring": 0,
       "market": 27
     },
-    "lastUpdated": "2026-09-06"
+    "lastUpdated": "2026-09-07"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -207,7 +202,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-06"
+    "lastUpdated": "2026-09-07"
   },
   {
     "sector": "Ocean & Maritime",
@@ -223,7 +218,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-06"
+    "lastUpdated": "2026-09-07"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -239,7 +234,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-06"
+    "lastUpdated": "2026-09-07"
   },
   {
     "sector": "Quantum Computing",
@@ -255,7 +250,7 @@
       "hiring": 0,
       "market": 36
     },
-    "lastUpdated": "2026-09-06"
+    "lastUpdated": "2026-09-07"
   },
   {
     "sector": "Transportation",
@@ -271,6 +266,6 @@
       "hiring": 0,
       "market": 29
     },
-    "lastUpdated": "2026-09-06"
+    "lastUpdated": "2026-09-07"
   }
 ]
