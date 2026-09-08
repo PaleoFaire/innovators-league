@@ -11,13 +11,13 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -3.07,
+      "avg_change": -3.17,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -1.15,
+      "avg_change": -1.66,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -0.32,
+      "avg_change": 2.59,
       "count": 3
     },
     "transportation": {
@@ -86,6 +86,11 @@
   ],
   "topLosers": [
     [
+      "SATL",
+      "Satellogic",
+      -4.33
+    ],
+    [
       "PLTR",
       "Palantir",
       -6.42
@@ -101,15 +106,10 @@
       -10.37
     ],
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -10.56
-    ],
-    [
       "EVTL",
       "Vertical Aerospace",
       -12.45
     ]
   ],
-  "lastUpdated": "2026-09-08 06:01:55"
+  "lastUpdated": "2026-09-08 12:11:08"
 }
