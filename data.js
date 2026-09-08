@@ -55687,25 +55687,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-08 05:53
-// Auto-generated real-time signals
-// Last updated: 2026-09-08
+// Last updated: 2026-09-08 11:06
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "SpaceX", headline: "Stoke Space raises another billion to rival SpaceX at re-flying rockets", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
+  { id: 1, type: "funding", company: "SpaceX", headline: "Stoke Space raises another billion to rival SpaceX at re-flying rockets", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
   { id: 2, type: "news", company: "Humanoid", headline: "XPeng starts IRON humanoid robot production as Tesla Optimus stalls", source: "Electrek", time: "8h ago", impact: "low", unread: true },
   { id: 3, type: "ipo", company: "Agility Robotics", headline: "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC", source: "The Robot Report", time: "21h ago", impact: "low", unread: true },
   { id: 4, type: "news", company: "OpenAI", headline: "The Download: the hunt for underground hydrogen and more rogue OpenAI agents", source: "MIT Tech Review", time: "22h ago", impact: "low", unread: true },
   { id: 5, type: "milestone", company: "Zoox", headline: "Zoox Begins Robotaxi Testing in Houston", source: "CleanTechnica", time: "1d ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Waymo", headline: "Jason Calcanis is Wrong About Cybercab, Waymo, and Uber — Here&#8217;s Why", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 6, type: "news", company: "Waymo", headline: "Jason Calcanis is Wrong About Cybercab, Waymo, and Uber ' Here's Why", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "news", company: "OpenAI", headline: "Talking About OpenAI Astra AKA GPT 6 and AGI", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
   { id: 8, type: "ipo", company: "OpenAI", headline: "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Isar Aerospace", headline: "German spacetech Isar Aerospace’s second rocket launch reaches orbit in milestone", source: "Sifted", time: "2d ago", impact: "medium", unread: false },
+  { id: 9, type: "ipo", company: "Isar Aerospace", headline: "German spacetech Isar Aerospace's second rocket launch reaches orbit in milestone", source: "Sifted", time: "2d ago", impact: "medium", unread: false },
   { id: 10, type: "ipo", company: "Isar Aerospace", headline: "Isar Aerospace achieves first launch to orbit from continental Europe", source: "ESA News", time: "2d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "OpenAI", headline: "OpenAI&#8217;s rogue agents keep escaping, with no formal process to investigate them", source: "TechCrunch", time: "3d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI confirms 'wiki incident,' says it's 'working on a framework' for more disclosure", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "OpenAI", headline: "OpenAI's rogue agents keep escaping, with no formal process to investigate them", source: "TechCrunch", time: "3d ago", impact: "low", unread: false },
   { id: 13, type: "ipo", company: "OpenAI", headline: "OpenAI agents discussed ways to escape their sandbox on public wiki", source: "Ars Technica", time: "3d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "July’s breakout at OpenAI was far more complex than initially realized", source: "Defense One", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Shield AI", headline: "Back to life: How Shield AI’s future unmanned fighter made decades-old tech new again", source: "Defense One", time: "4d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "OpenAI", headline: "July's breakout at OpenAI was far more complex than initially realized", source: "Defense One", time: "3d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Shield AI", headline: "Back to life: How Shield AI's future unmanned fighter made decades-old tech new again", source: "Defense One", time: "4d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
