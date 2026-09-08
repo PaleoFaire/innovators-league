@@ -1,35 +1,28 @@
 {
-  "generatedAt": "2026-09-07T10:05:14+00:00",
+  "generatedAt": "2026-09-08T09:30:06+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 40,
-  "newExtractionsThisRun": 40,
+  "cohortSize": 32,
+  "newExtractionsThisRun": 32,
   "summary": {
-    "cleared": 39,
-    "changesProposed": 1,
+    "cleared": 29,
+    "changesProposed": 3,
     "unverifiable": 0
   },
   "cleared": [
     "Antares",
     "AnySignal",
+    "Apptronik",
     "Astera Labs",
-    "Axiom Space",
     "Base Power",
     "Cape",
-    "Cover",
     "Deterrence",
-    "Fortastra",
-    "Forterra",
-    "HEO",
     "Hadrian",
     "Hailo",
+    "Humanoid",
     "Isar Aerospace",
-    "Mammoth Biosciences",
-    "Neko Health",
     "Oklo",
     "Orbital Composites",
-    "Osmo",
-    "Oxford Nanopore Technologies",
     "Palantir",
     "Percepto",
     "Photonic Inc",
@@ -39,18 +32,240 @@
     "Rebellions",
     "Rivian",
     "Sage Geosystems",
-    "Scale AI",
     "Shield AI",
     "SpaceX",
     "Valar Atomics",
-    "Vast",
     "Vertical Aerospace",
     "Waymo",
-    "Wayve",
     "Xanadu Quantum Technologies",
     "ideaForge"
   ],
   "changesProposed": [
+    {
+      "name": "1X Technologies",
+      "current": {
+        "name": "1X Technologies",
+        "founder": "Bernt \u00d8ivind B\u00f8rnich",
+        "location": "Palo Alto, CA",
+        "founded": 2014,
+        "fundingStage": "Pre-Seed",
+        "totalRaised": "$1.1B",
+        "website": "https://1xtechnologies.com"
+      },
+      "verified": {
+        "name": "1X Technologies",
+        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home environments. The company develops bipedal robots including NEO for home use and EVE for industrial and institutional applications.",
+        "founders": [
+          "Bernt \u00d8ivind B\u00f8rnich"
+        ],
+        "location": "Palo Alto, California, USA",
+        "founded_year": 2014,
+        "current_stage": "Pre-IPO",
+        "total_raised": "$123.5M",
+        "valuation": null,
+        "investors": [
+          "OpenAI Startup Fund",
+          "Tiger Global",
+          "Sandwater",
+          "Alliance Ventures",
+          "Skagerak Capital",
+          "EQT Ventures",
+          "Samsung NEXT",
+          "Nistad Group"
+        ],
+        "website": "https://1x.tech",
+        "sources_per_field": {
+          "name": [
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            2
+          ]
+        },
+        "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded to 1X Technologies in 2022. Series A2 funding of $23.5M raised in March 2023 led by OpenAI Startup Fund. Series B funding of $100M raised in January 2024 led by EQT Ventures. Total raised figure ($123.5M) is sum of documented Series A2 and Series B rounds. September 2025 reporting indicates company was seeking $1B in additional funding. Sources [0] and [1] describe a different company (wire and cable distributor) also named 1X Technologies, not the humanoid robotics company."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Palo Alto, CA",
+          "verified": "Palo Alto, California, USA",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Pre-Seed",
+          "verified": "Pre-IPO",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$1.1B",
+          "verified": "$123.5M",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://1xtechnologies.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://1xtechnologies.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1X_Technologies"
+        },
+        {
+          "idx": 3,
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/"
+        },
+        {
+          "idx": 4,
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/"
+        }
+      ],
+      "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded to 1X Technologies in 2022. Series A2 funding of $23.5M raised in March 2023 led by OpenAI Startup Fund. Series B funding of $100M raised in January 2024 led by EQT Ventures. Total raised figure ($123.5M) is sum of documented Series A2 and Series B rounds. September 2025 reporting indicates company was seeking $1B in additional funding. Sources [0] and [1] describe a different company (wire and cable distributor) also named 1X Technologies, not the humanoid robotics company."
+    },
+    {
+      "name": "Agility Robotics",
+      "current": {
+        "name": "Agility Robotics",
+        "founder": "Jonathan Hurst, Damion Shelton, Mikhail Jones",
+        "location": "Salem, OR",
+        "founded": 2015,
+        "fundingStage": "Series E",
+        "totalRaised": "$400M+",
+        "website": "https://agilityrobotics.com"
+      },
+      "verified": {
+        "name": "Agility Robotics",
+        "description": "A humanoid robotics company that develops and commercially deploys Digit, a bipedal humanoid robot for warehouse and logistics automation. Digit is the first humanoid robot deployed in real commercial operations.",
+        "founders": [
+          "Jonathan Hurst",
+          "Damion Shelton",
+          "Mikhail Jones"
+        ],
+        "location": "Salem, Oregon",
+        "founded_year": 2015,
+        "current_stage": "Pre-IPO",
+        "total_raised": null,
+        "valuation": null,
+        "investors": null,
+        "website": "https://agilityrobotics.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            0,
+            1,
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            0
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Company announced merger with Churchill Capital Corp XI to go public (Source 0, June 24, 2026). Wikipedia notes company announced rebrand to 'Agility' on March 5, 2026 (Source 2). Database entry lists Series E and $400M+ raised, but these specific figures cannot be verified from provided sources."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Salem, OR",
+          "verified": "Salem, Oregon",
+          "sources": [
+            1,
+            2
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Series E",
+          "verified": "Pre-IPO",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://agilityrobotics.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://agilityrobotics.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Agility_Robotics"
+        },
+        {
+          "idx": 3,
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/"
+        },
+        {
+          "idx": 4,
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/"
+        }
+      ],
+      "notes": "Company announced merger with Churchill Capital Corp XI to go public (Source 0, June 24, 2026). Wikipedia notes company announced rebrand to 'Agility' on March 5, 2026 (Source 2). Database entry lists Series E and $400M+ raised, but these specific figures cannot be verified from provided sources."
+    },
     {
       "name": "Nano Nuclear Energy",
       "current": {
@@ -63,8 +278,8 @@
         "website": "https://nanonuclearenergy.com"
       },
       "verified": {
-        "name": "Nano Nuclear Energy",
-        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI systems, with subsidiaries in fuel fabrication, transportation, and space applications.",
+        "name": "NANO Nuclear Energy Inc.",
+        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, with subsidiaries in fuel fabrication, transportation, and space applications. Listed publicly on NASDAQ (ticker: NNE).",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -83,8 +298,7 @@
             1
           ],
           "location": [
-            0,
-            1
+            0
           ],
           "current_stage": [
             0,
@@ -95,7 +309,7 @@
             1
           ]
         },
-        "notes": "Company is listed publicly on NASDAQ under ticker NNE. Sources claim it is 'the first nuclear microreactor company to be listed publicly in the U.S.' Database entry references founder 'Jay Jiang Yu' and founding year 2022, but these are not verifiable from provided sources. Source [2] is about Valar Atomics (different company) and not relevant to Nano Nuclear Energy."
+        "notes": "Company is publicly traded on NASDAQ under ticker NNE. Sources confirm reactor products in development include KRONOS MMR (lead technology, high-temperature gas-cooled, in NRC pre-application), ZEUS (solid core battery reactor), and LOKI MMR (space-capable, portable). Subsidiaries include Advanced Fuel Transportation Inc. (AFT), HALEU Energy Fuel Inc. (HEF), and NANO Nuclear Space Inc. (NNS). Database entry references founder 'Jay Jiang Yu' and sale of ODIN to Cambridge AtomWorks, but these claims are not supported by provided sources. Source [2] appears to be about Valar Atomics (unrelated company) and does not contain NANO Nuclear information."
       },
       "changes": [
         {
@@ -125,7 +339,7 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is listed publicly on NASDAQ under ticker NNE. Sources claim it is 'the first nuclear microreactor company to be listed publicly in the U.S.' Database entry references founder 'Jay Jiang Yu' and founding year 2022, but these are not verifiable from provided sources. Source [2] is about Valar Atomics (different company) and not relevant to Nano Nuclear Energy."
+      "notes": "Company is publicly traded on NASDAQ under ticker NNE. Sources confirm reactor products in development include KRONOS MMR (lead technology, high-temperature gas-cooled, in NRC pre-application), ZEUS (solid core battery reactor), and LOKI MMR (space-capable, portable). Subsidiaries include Advanced Fuel Transportation Inc. (AFT), HALEU Energy Fuel Inc. (HEF), and NANO Nuclear Space Inc. (NNS). Database entry references founder 'Jay Jiang Yu' and sale of ODIN to Cambridge AtomWorks, but these claims are not supported by provided sources. Source [2] appears to be about Valar Atomics (unrelated company) and does not contain NANO Nuclear information."
     }
   ],
   "unverifiable": []
