@@ -1,39 +1,57 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 44,
+    "momentum": 49,
     "trend": "steady",
     "catalysts": [
-      "Zoox Begins Robotaxi Testing in Houston",
-      "Back to life: How Shield AI\u2019s future unmanned fighter made d",
-      "NVIDIA plans to acquire Hugging Face and keep AI development"
+      "XPeng starts IRON humanoid robot production as Tesla Optimus",
+      "Agility Robotics reports $1.8M revenue ahead of humanoid SPA",
+      "Zoox Begins Robotaxi Testing in Houston"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 35,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-07"
+    "lastUpdated": "2026-09-08"
   },
   {
     "sector": "AI & Software",
-    "momentum": 30,
+    "momentum": 31,
     "trend": "rising",
     "catalysts": [
-      "Seattle Times and Newsday are the latest publications to sue",
-      "OpenAI confirms \u2018wiki incident,\u2019 says it\u2019s \u2018working on a fra",
-      "OpenAI&#8217;s rogue agents keep escaping, with no formal pr"
+      "The Download: the hunt for underground hydrogen and more rog",
+      "Talking About OpenAI Astra AKA GPT 6 and AGI",
+      "Seattle Times and Newsday are the latest publications to sue"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 29,
-      "news": 40,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-07"
+    "lastUpdated": "2026-09-08"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 24,
+    "trend": "declining",
+    "catalysts": [
+      "OpenAI GPT 6 Astra Limited Release that Beats Anthropic Fabl",
+      "NVIDIA plans to acquire Hugging Face and keep AI development",
+      "Nvidia discloses $21B stake in SpaceX"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-09-08"
   },
   {
     "sector": "Nuclear Energy",
@@ -51,74 +69,76 @@
       "hiring": 0,
       "market": 86
     },
-    "lastUpdated": "2026-09-07"
+    "lastUpdated": "2026-09-08"
   },
   {
-    "sector": "Chips & Semiconductors",
+    "sector": "Biotech & Health",
     "momentum": 22,
     "trend": "declining",
     "catalysts": [
-      "NVIDIA plans to acquire Hugging Face and keep AI development",
-      "Nvidia discloses $21B stake in SpaceX"
+      "Talking About OpenAI Astra AKA GPT 6 and AGI",
+      "Waymo opens robotaxi rides to the public in 3 new cities, no"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 10,
       "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-09-07"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "Waymo opens robotaxi rides to the public in 3 new cities, no"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
       "market": 98
     },
-    "lastUpdated": "2026-09-07"
+    "lastUpdated": "2026-09-08"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 20,
-    "trend": "rising",
+    "momentum": 19,
+    "trend": "declining",
     "catalysts": [
+      "Stoke Space raises another billion to rival SpaceX at re-fly",
       "Zoox Begins Robotaxi Testing in Houston",
-      "German spacetech Isar Aerospace\u2019s second rocket launch reach",
-      "Isar Aerospace achieves first launch to orbit from continent"
+      "German spacetech Isar Aerospace\u2019s second rocket launch reach"
     ],
     "fundingQ": "$50M",
     "components": {
       "funding": 5,
-      "news": 45,
+      "news": 40,
       "hiring": 0,
       "market": 35
     },
-    "lastUpdated": "2026-09-07"
+    "lastUpdated": "2026-09-08"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 17,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
-      "NASA to Cover Progress 96 Spacecraft Launch, Docking"
+      "Active housing & construction ecosystem"
     ],
     "fundingQ": "$50M",
     "components": {
       "funding": 16,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-07"
+    "lastUpdated": "2026-09-08"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "Agility Robotics reports $1.8M revenue ahead of humanoid SPA",
+      "NVIDIA plans to acquire Hugging Face and keep AI development",
+      "PsiQuantum\u2019s Ice Cream Factory"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-08"
   },
   {
     "sector": "Drones & Autonomous",
@@ -126,7 +146,7 @@
     "trend": "declining",
     "catalysts": [
       "Back to life: How Shield AI\u2019s future unmanned fighter made d",
-      "Londoners can now hail Wayve autonomous vehicles through Ube"
+      "Tesla Robotaxi Fleet Hits 420 Texas Registered Vehicles, Pas"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -135,24 +155,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-07"
+    "lastUpdated": "2026-09-08"
   },
   {
-    "sector": "Consumer Tech",
+    "sector": "Climate & Energy",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "NVIDIA plans to acquire Hugging Face and keep AI development",
-      "PsiQuantum\u2019s Ice Cream Factory"
+      "The Download: the hunt for underground hydrogen and more rog",
+      "Sage Geosystems brings its first next-gen geothermal plant o"
     ],
-    "fundingQ": "$0M",
+    "fundingQ": "$134M",
     "components": {
-      "funding": 0,
+      "funding": 11,
       "news": 10,
       "hiring": 0,
-      "market": 50
+      "market": 27
     },
-    "lastUpdated": "2026-09-07"
+    "lastUpdated": "2026-09-08"
   },
   {
     "sector": "Defense & Security",
@@ -170,23 +190,23 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-07"
+    "lastUpdated": "2026-09-08"
   },
   {
-    "sector": "Climate & Energy",
-    "momentum": 10,
+    "sector": "Infrastructure & Logistics",
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Sage Geosystems brings its first next-gen geothermal plant o"
+      "Jason Calcanis is Wrong About Cybercab, Waymo, and Uber \u2014 He"
     ],
-    "fundingQ": "$134M",
+    "fundingQ": "$0M",
     "components": {
-      "funding": 11,
+      "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 27
+      "market": 50
     },
-    "lastUpdated": "2026-09-07"
+    "lastUpdated": "2026-09-08"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -202,7 +222,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-07"
+    "lastUpdated": "2026-09-08"
   },
   {
     "sector": "Ocean & Maritime",
@@ -218,23 +238,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-07"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active infrastructure & logistics ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-07"
+    "lastUpdated": "2026-09-08"
   },
   {
     "sector": "Quantum Computing",
@@ -250,7 +254,7 @@
       "hiring": 0,
       "market": 36
     },
-    "lastUpdated": "2026-09-07"
+    "lastUpdated": "2026-09-08"
   },
   {
     "sector": "Transportation",
@@ -266,6 +270,6 @@
       "hiring": 0,
       "market": 29
     },
-    "lastUpdated": "2026-09-07"
+    "lastUpdated": "2026-09-08"
   }
 ]

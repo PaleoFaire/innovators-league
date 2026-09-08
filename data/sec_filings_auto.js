@@ -1,6 +1,7 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-07 12:00:13 UTC
+// Last updated: 2026-09-08 10:55:01 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Satellogic", form: "8-K", date: "2026-09-08", description: "ea0304744-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "Rocket Lab", form: "4", date: "2026-09-04", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Rigetti Computing", form: "4", date: "2026-09-04", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
   { company: "Archer Aviation", form: "8-K", date: "2026-09-04", description: "achr-20260901.htm", isIPO: false, ticker: "ACHR" },
@@ -50,5 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "D-Wave Quantum", form: "8-K", date: "2026-08-25", description: "qbts-20260819.htm", isIPO: false, ticker: "QBTS" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-08-25", description: "xslF345X06/wk-form4_1787691673.xml", isIPO: false, ticker: "DNA" },
   { company: "Palantir Technologies", form: "4", date: "2026-08-24", description: "xslF345X06/wk-form4_1787616201.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Palantir Technologies", form: "4", date: "2026-08-24", description: "xslF345X06/wk-form4_1787616121.xml", isIPO: false, ticker: "PLTR" },
 ];

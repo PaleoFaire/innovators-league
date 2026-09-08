@@ -1,41 +1,52 @@
 // Auto-generated news signals
-// Last updated: 2026-09-08T05:53:43.843Z
+// Last updated: 2026-09-08T10:55:13.205Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1788846823843,
+    "id": 1788864913204,
+    "type": "funding",
+    "company": "SpaceX",
+    "headline": "Stoke Space raises another billion to rival SpaceX at re-flying rockets",
+    "source": "TechCrunch",
+    "time": "1h ago",
+    "impact": "high",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/09/08/stoke-space-raises-another-billion-to-rival-spacex-at-re-flying-rockets/"
+  },
+  {
+    "id": 1788864913205,
     "type": "news",
     "company": "Humanoid",
     "headline": "XPeng starts IRON humanoid robot production as Tesla Optimus stalls",
     "source": "Electrek",
-    "time": "3h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": true,
     "link": "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/"
   },
   {
-    "id": 1788846823844,
+    "id": 1788864913206,
     "type": "ipo",
     "company": "Agility Robotics",
     "headline": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
     "source": "The Robot Report",
-    "time": "16h ago",
+    "time": "21h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/"
   },
   {
-    "id": 1788846823845,
+    "id": 1788864913207,
     "type": "news",
     "company": "OpenAI",
     "headline": "The Download: the hunt for underground hydrogen and more rogue OpenAI agents",
     "source": "MIT Tech Review",
-    "time": "17h ago",
+    "time": "22h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/"
   },
   {
-    "id": 1788846823846,
+    "id": 1788864913208,
     "type": "milestone",
     "company": "Zoox",
     "headline": "Zoox Begins Robotaxi Testing in Houston",
@@ -46,18 +57,40 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/09/06/zoox-begins-robotaxi-testing-in-houston/"
   },
   {
-    "id": 1788846823847,
+    "id": 1788864913209,
+    "type": "news",
+    "company": "Waymo",
+    "headline": "Jason Calcanis is Wrong About Cybercab, Waymo, and Uber — Here&#8217;s Why",
+    "source": "Next Big Future",
+    "time": "1d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.nextbigfuture.com/2026/09/skip-navigation-create-9-avatar-image-jason-calcanis-is-wrong-about-cybercab-waymo-and-uber-heres-why.html"
+  },
+  {
+    "id": 1788864913210,
+    "type": "news",
+    "company": "OpenAI",
+    "headline": "Talking About OpenAI Astra AKA GPT 6 and AGI",
+    "source": "Next Big Future",
+    "time": "2d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.nextbigfuture.com/2026/09/talking-about-openai-astra-aka-gpt-6-and-agi.html"
+  },
+  {
+    "id": 1788864913211,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
     "source": "TechCrunch",
     "time": "2d ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/"
   },
   {
-    "id": 1788846823848,
+    "id": 1788864913212,
     "type": "ipo",
     "company": "Isar Aerospace",
     "headline": "German spacetech Isar Aerospace’s second rocket launch reaches orbit in milestone",
@@ -68,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/isar-aerospace-test-flight-orbit/"
   },
   {
-    "id": 1788846823849,
+    "id": 1788864913214,
     "type": "ipo",
     "company": "Isar Aerospace",
     "headline": "Isar Aerospace achieves first launch to orbit from continental Europe",
@@ -79,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Boost/Isar_Aerospace_achieves_first_launch_to_orbit_from_continental_Europe"
   },
   {
-    "id": 1788846823850,
+    "id": 1788864913215,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
@@ -90,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/"
   },
   {
-    "id": 1788846823851,
+    "id": 1788864913216,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI&#8217;s rogue agents keep escaping, with no formal process to investigate them",
@@ -101,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/"
   },
   {
-    "id": 1788846823852,
+    "id": 1788864913217,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "OpenAI agents discussed ways to escape their sandbox on public wiki",
@@ -112,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/"
   },
   {
-    "id": 1788846823853,
+    "id": 1788864913218,
     "type": "news",
     "company": "OpenAI",
     "headline": "July’s breakout at OpenAI was far more complex than initially realized",
@@ -123,29 +156,29 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/threats/2026/09/AI-breakout-openai-complex/415825/"
   },
   {
-    "id": 1788846823854,
-    "type": "milestone",
-    "company": "OpenAI",
-    "headline": "Another swarm of OpenAI agents reached the open internet without the frontier lab&#8217;s knowledge",
-    "source": "TechCrunch",
-    "time": "3d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/"
-  },
-  {
-    "id": 1788846823855,
+    "id": 1788864913219,
     "type": "ipo",
     "company": "Shield AI",
     "headline": "Back to life: How Shield AI’s future unmanned fighter made decades-old tech new again",
     "source": "Defense One",
-    "time": "3d ago",
+    "time": "4d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.defenseone.com/business/2026/09/back-life-how-shield-ais-future-unmanned-fighter-made-decades-old-tech-new-again/415821/"
   },
   {
-    "id": 1788846823856,
+    "id": 1788864913220,
+    "type": "news",
+    "company": "Anthropic",
+    "headline": "OpenAI GPT 6 Astra Limited Release that Beats Anthropic Fable 5.1 on Benchmarks",
+    "source": "Next Big Future",
+    "time": "4d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.nextbigfuture.com/2026/09/openai-gpt-6-astra-limited-release-that-beats-anthropic-fable-5-1-on-benchmarks.html"
+  },
+  {
+    "id": 1788864913221,
     "type": "news",
     "company": "Hugging Face",
     "headline": "NVIDIA plans to acquire Hugging Face and keep AI development platform open",
@@ -156,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/"
   },
   {
-    "id": 1788846823857,
+    "id": 1788864913222,
     "type": "milestone",
     "company": "Rivian",
     "headline": "Rivian’s futuristic ALSO e-bike may be at its ultimate delay",
@@ -167,7 +200,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/09/03/rivians-futuristic-also-e-bike-may-be-at-its-ultimate-delay/"
   },
   {
-    "id": 1788846823858,
+    "id": 1788864913223,
+    "type": "news",
+    "company": "Waymo",
+    "headline": "Tesla Robotaxi Fleet Hits 420 Texas Registered Vehicles, Passing Waymo Soon",
+    "source": "Next Big Future",
+    "time": "5d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.nextbigfuture.com/2026/09/tesla-robotaxi-fleet-hits-420-texas-registered-vehicles.html"
+  },
+  {
+    "id": 1788864913224,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo racked up 8,300+ SF parking tickets and nearly $1M in fines",
@@ -176,49 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "medium",
     "unread": false,
     "link": "https://electrek.co/2026/09/02/waymo-san-francisco-parking-tickets/"
-  },
-  {
-    "id": 1788846823859,
-    "type": "hire",
-    "company": "Palantir",
-    "headline": "Ousted Ukrainian defense chief lands Palantir CEO as first investor in new venture",
-    "source": "Defense News",
-    "time": "6d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.defensenews.com/global/europe/2026/09/01/ousted-ukrainian-defense-chief-lands-palantir-ceo-as-first-investor-in-new-venture/"
-  },
-  {
-    "id": 1788846823860,
-    "type": "ipo",
-    "company": "Deterrence",
-    "headline": "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence",
-    "source": "War on the Rocks",
-    "time": "6d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://warontherocks.com/the-atlantic-brief-u-s-and-european-perspectives-on-nuclear-deterrence/"
-  },
-  {
-    "id": 1788846823861,
-    "type": "ipo",
-    "company": "Waymo",
-    "headline": "Waymo opens robotaxi rides to the public in 3 new cities, now 14 total",
-    "source": "Electrek",
-    "time": "6d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://electrek.co/2026/09/01/waymo-public-robotaxi-denver-san-diego-tampa/"
-  },
-  {
-    "id": 1788846823862,
-    "type": "hire",
-    "company": "PsiQuantum",
-    "headline": "PsiQuantum’s Ice Cream Factory",
-    "source": "Inside Quantum Technology",
-    "time": "8/28/2026",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.insidequantumtechnology.com/news-archive/psiquantums-ice-cream-factory/"
   }
 ];
