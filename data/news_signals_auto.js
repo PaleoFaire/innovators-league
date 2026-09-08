@@ -1,63 +1,96 @@
 // Auto-generated news signals
-// Last updated: 2026-09-08T15:02:37.448Z
+// Last updated: 2026-09-08T18:29:43.593Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1788879757448,
+    "id": 1788892183592,
+    "type": "funding",
+    "company": "Mistral AI",
+    "headline": "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round",
+    "source": "Crunchbase News",
+    "time": "Just now",
+    "impact": "high",
+    "unread": true,
+    "link": "https://news.crunchbase.com/venture/europe-record-setting-mistral-ai-raise/"
+  },
+  {
+    "id": 1788892183593,
+    "type": "news",
+    "company": "OpenAI",
+    "headline": "OpenAI fought dirty on career-making math problem, says NYU mathematician",
+    "source": "TechCrunch",
+    "time": "Just now",
+    "impact": "low",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/"
+  },
+  {
+    "id": 1788892183594,
+    "type": "news",
+    "company": "OpenAI",
+    "headline": "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul",
+    "source": "Wired",
+    "time": "1h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/"
+  },
+  {
+    "id": 1788892183595,
     "type": "ipo",
     "company": "Vertical Aerospace",
     "headline": "Vertical Aerospace’s eVTOL Can Fly. The Passenger Business Is Still Unproven",
     "source": "CleanTechnica",
-    "time": "1h ago",
+    "time": "4h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/09/08/vertical-aerospace-evtol-financing-passenger-market/"
   },
   {
-    "id": 1788879757449,
+    "id": 1788892183596,
     "type": "news",
     "company": "Rivian",
     "headline": "Rivian’s Gambit for Full Autonomy",
     "source": "IEEE Spectrum",
-    "time": "2h ago",
+    "time": "5h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spectrum.ieee.org/rivian-self-driving"
   },
   {
-    "id": 1788879757450,
+    "id": 1788892183598,
     "type": "ipo",
     "company": "Poseidon Aerospace",
     "headline": "Poseidon Aerospace lands $60M ahead of first pilotless test flight",
     "source": "TechCrunch",
-    "time": "2h ago",
+    "time": "5h ago",
     "impact": "medium",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/09/08/poseidon-aerospace-lands-60m-ahead-of-first-pilotless-test-flight/"
   },
   {
-    "id": 1788879757451,
+    "id": 1788892183599,
     "type": "funding",
     "company": "SpaceX",
     "headline": "Stoke Space raises another billion to rival SpaceX at re-flying rockets",
     "source": "TechCrunch",
-    "time": "6h ago",
+    "time": "9h ago",
     "impact": "high",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/09/08/stoke-space-raises-another-billion-to-rival-spacex-at-re-flying-rockets/"
   },
   {
-    "id": 1788879757452,
+    "id": 1788892183600,
     "type": "news",
     "company": "Humanoid",
     "headline": "XPeng starts IRON humanoid robot production as Tesla Optimus stalls",
     "source": "Electrek",
-    "time": "12h ago",
+    "time": "15h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/"
   },
   {
-    "id": 1788879757453,
+    "id": 1788892183601,
     "type": "ipo",
     "company": "Agility Robotics",
     "headline": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
@@ -68,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/"
   },
   {
-    "id": 1788879757454,
+    "id": 1788892183602,
     "type": "news",
     "company": "OpenAI",
     "headline": "The Download: the hunt for underground hydrogen and more rogue OpenAI agents",
@@ -79,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/"
   },
   {
-    "id": 1788879757455,
+    "id": 1788892183603,
     "type": "milestone",
     "company": "Zoox",
     "headline": "Zoox Begins Robotaxi Testing in Houston",
@@ -90,18 +123,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/09/06/zoox-begins-robotaxi-testing-in-houston/"
   },
   {
-    "id": 1788879757456,
+    "id": 1788892183604,
     "type": "news",
     "company": "Waymo",
     "headline": "Jason Calcanis is Wrong About Cybercab, Waymo, and Uber — Here&#8217;s Why",
     "source": "Next Big Future",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/09/skip-navigation-create-9-avatar-image-jason-calcanis-is-wrong-about-cybercab-waymo-and-uber-heres-why.html"
   },
   {
-    "id": 1788879757457,
+    "id": 1788892183605,
     "type": "news",
     "company": "OpenAI",
     "headline": "Talking About OpenAI Astra AKA GPT 6 and AGI",
@@ -112,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/09/talking-about-openai-astra-aka-gpt-6-and-agi.html"
   },
   {
-    "id": 1788879757458,
+    "id": 1788892183606,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
@@ -123,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/"
   },
   {
-    "id": 1788879757459,
+    "id": 1788892183607,
     "type": "ipo",
     "company": "Isar Aerospace",
     "headline": "German spacetech Isar Aerospace’s second rocket launch reaches orbit in milestone",
@@ -134,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/isar-aerospace-test-flight-orbit/"
   },
   {
-    "id": 1788879757460,
+    "id": 1788892183608,
     "type": "ipo",
     "company": "Isar Aerospace",
     "headline": "Isar Aerospace achieves first launch to orbit from continental Europe",
@@ -145,29 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Boost/Isar_Aerospace_achieves_first_launch_to_orbit_from_continental_Europe"
   },
   {
-    "id": 1788879757461,
-    "type": "news",
-    "company": "OpenAI",
-    "headline": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
-    "source": "TechCrunch",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/"
-  },
-  {
-    "id": 1788879757462,
-    "type": "milestone",
-    "company": "OpenAI",
-    "headline": "OpenAI&#8217;s rogue agents keep escaping, with no formal process to investigate them",
-    "source": "TechCrunch",
-    "time": "3d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/"
-  },
-  {
-    "id": 1788879757463,
+    "id": 1788892183609,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "OpenAI agents discussed ways to escape their sandbox on public wiki",
@@ -178,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/"
   },
   {
-    "id": 1788879757464,
+    "id": 1788892183610,
     "type": "news",
     "company": "OpenAI",
     "headline": "July’s breakout at OpenAI was far more complex than initially realized",
@@ -189,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/threats/2026/09/AI-breakout-openai-complex/415825/"
   },
   {
-    "id": 1788879757465,
+    "id": 1788892183611,
     "type": "ipo",
     "company": "Shield AI",
     "headline": "Back to life: How Shield AI’s future unmanned fighter made decades-old tech new again",
@@ -200,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/business/2026/09/back-life-how-shield-ais-future-unmanned-fighter-made-decades-old-tech-new-again/415821/"
   },
   {
-    "id": 1788879757466,
+    "id": 1788892183612,
     "type": "news",
     "company": "Anthropic",
     "headline": "OpenAI GPT 6 Astra Limited Release that Beats Anthropic Fable 5.1 on Benchmarks",
@@ -209,16 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/09/openai-gpt-6-astra-limited-release-that-beats-anthropic-fable-5-1-on-benchmarks.html"
-  },
-  {
-    "id": 1788879757467,
-    "type": "news",
-    "company": "Hugging Face",
-    "headline": "NVIDIA plans to acquire Hugging Face and keep AI development platform open",
-    "source": "The Robot Report",
-    "time": "4d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/"
   }
 ];
