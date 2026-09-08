@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T11:06:57.547895+00:00",
+  "generatedAt": "2026-09-08T15:02:48.257091+00:00",
   "date": "2026-09-08",
   "dateDisplay": "Tuesday, September 08, 2026",
   "sections": {
@@ -59,13 +59,6 @@
         "change": -0.09
       },
       {
-        "ticker": "ONT.L",
-        "company": "Oxford Nanopore Technologies",
-        "price": 157.5,
-        "changePercent": -10.56,
-        "change": -18.6
-      },
-      {
         "ticker": "ASRHF",
         "company": "Astroscale",
         "price": 6.75,
@@ -106,6 +99,13 @@
         "price": 62.31,
         "changePercent": 7.34,
         "change": 4.26
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 310.4,
+        "changePercent": 7.23,
+        "change": 20.93
       }
     ],
     "regulatory": [
@@ -140,16 +140,16 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Self-Regulatory Organizations; The Options Clearing Corporation; Notice of Filin",
+        "title": "Application for Amendment to Facility Operating License Involving Proposed No Si",
         "date": "2026-09-08",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18211"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18220"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Application for Amendment to Facility Operating License Involving Proposed No Si",
+        "title": "Self-Regulatory Organizations; The Options Clearing Corporation; Notice of Filin",
         "date": "2026-09-08",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18220"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18211"
       }
     ],
     "patents": [
