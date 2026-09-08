@@ -1,5 +1,67 @@
 [
   {
+    "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+    "link": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+    "description": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX.",
+    "pubDate": "Tue, 08 Sep 2026 21:04:06 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Cognition",
+    "matchedCompanies": [
+      "Cognition",
+      "SpaceX",
+      "Anysphere"
+    ],
+    "sectors": [
+      "ai",
+      "space"
+    ],
+    "type": "funding",
+    "impact": "high",
+    "time": "Just now"
+  },
+  {
+    "title": "The Exploration Company nabs $450 million to challenge SpaceX",
+    "link": "https://techcrunch.com/2026/09/08/the-exploration-company-nabs-450-million-to-challenge-spacex/",
+    "description": "The Exploration Company (TEC) has raised $450 million to build reusable spacecraft, in what it describes as “the largest-ever Series C by a European space company.”",
+    "pubDate": "Tue, 08 Sep 2026 20:47:34 +0000",
+    "category": "Fundraising",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "PLD Space",
+      "Dawn Aerospace"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "funding",
+    "impact": "medium",
+    "time": "Just now"
+  },
+  {
+    "title": "AI can’t outrun a humanoid&#8217;s hardware",
+    "link": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/",
+    "description": "The remarkable progress in AI has brought robotics closer to machines capable of determining what they should do. The next major advance may depend on whether their physical systems can execute those decisions efficiently, precisely and safely.\nThe post AI can’t outrun a humanoid&#8217;s hardware ap",
+    "pubDate": "Tue, 08 Sep 2026 19:03:09 +0000",
+    "category": "Artificial Intelligence / Cognition",
+    "source": "The Robot Report",
+    "feedCategory": "robotics",
+    "matchedCompany": "Humanoid",
+    "matchedCompanies": [
+      "Humanoid"
+    ],
+    "sectors": [
+      "robotics"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
     "title": "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round",
     "link": "https://news.crunchbase.com/venture/europe-record-setting-mistral-ai-raise/",
     "description": "Paris-based generative AI startup Mistral AI said Tuesday that it has nearly doubled its valuation to more than $24 billion with a Samsung Electronics-led $3.5 billion Series D fundraise.",
@@ -18,7 +80,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
     "title": "OpenAI fought dirty on career-making math problem, says NYU mathematician",
@@ -39,7 +101,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul",
@@ -59,7 +121,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "Vertical Aerospace’s eVTOL Can Fly. The Passenger Business Is Still Unproven",
@@ -85,7 +147,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "4h ago"
+    "time": "8h ago"
   },
   {
     "title": "Rivian’s Gambit for Full Autonomy",
@@ -106,7 +168,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "8h ago"
   },
   {
     "title": "Poseidon Aerospace lands $60M ahead of first pilotless test flight",
@@ -132,7 +194,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "5h ago"
+    "time": "8h ago"
   },
   {
     "title": "Stoke Space raises another billion to rival SpaceX at re-flying rockets",
@@ -152,7 +214,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "9h ago"
+    "time": "12h ago"
   },
   {
     "title": "XPeng starts IRON humanoid robot production as Tesla Optimus stalls",
@@ -174,7 +236,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "15h ago"
+    "time": "19h ago"
   },
   {
     "title": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
@@ -236,7 +298,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Jason Calcanis is Wrong About Cybercab, Waymo, and Uber — Here&#8217;s Why",
@@ -280,27 +342,6 @@
       "space"
     ],
     "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-    "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-    "description": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
-    "pubDate": "Sat, 05 Sep 2026 22:49:55 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "Photonic Inc"
-    ],
-    "sectors": [
-      "ai",
-      "quantum"
-    ],
-    "type": "ipo",
     "impact": "low",
     "time": "2d ago"
   },
@@ -352,7 +393,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
@@ -390,7 +431,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Back to life: How Shield AI’s future unmanned fighter made decades-old tech new again",
@@ -432,25 +473,6 @@
     "matchedCompanies": [
       "Anthropic",
       "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "NVIDIA plans to acquire Hugging Face and keep AI development platform open",
-    "link": "https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/",
-    "description": "NVIDIA is already a major model contributor to Hugging Face, which recently surpassed 1 million datasets.\nThe post NVIDIA plans to acquire Hugging Face and keep AI development platform open appeared first on The Robot Report.",
-    "pubDate": "Thu, 03 Sep 2026 15:28:02 +0000",
-    "category": "Artificial Intelligence",
-    "source": "The Robot Report",
-    "feedCategory": "robotics",
-    "matchedCompany": "Hugging Face",
-    "matchedCompanies": [
-      "Hugging Face"
     ],
     "sectors": [
       "ai"
@@ -535,7 +557,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "6d ago"
+    "time": "9/1/2026"
   },
   {
     "title": "Waymo opens robotaxi rides to the public in 3 new cities, now 14 total",

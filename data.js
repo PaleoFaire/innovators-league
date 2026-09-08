@@ -56158,23 +56158,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-08 18:29
+// Last updated: 2026-09-08 21:45
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Mistral AI", headline: "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round", source: "Crunchbase News", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI fought dirty on career-making math problem, says NYU mathematician", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "Vertical Aerospace", headline: "Vertical Aerospace's eVTOL Can Fly. The Passenger Business Is Still Unproven", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Rivian", headline: "Rivian's Gambit for Full Autonomy", source: "IEEE Spectrum", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Poseidon Aerospace", headline: "Poseidon Aerospace lands $60M ahead of first pilotless test flight", source: "TechCrunch", time: "5h ago", impact: "medium", unread: false },
-  { id: 7, type: "funding", company: "SpaceX", headline: "Stoke Space raises another billion to rival SpaceX at re-flying rockets", source: "TechCrunch", time: "9h ago", impact: "high", unread: false },
-  { id: 8, type: "news", company: "Humanoid", headline: "XPeng starts IRON humanoid robot production as Tesla Optimus stalls", source: "Electrek", time: "15h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Agility Robotics", headline: "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "OpenAI", headline: "The Download: the hunt for underground hydrogen and more rogue OpenAI agents", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Zoox", headline: "Zoox Begins Robotaxi Testing in Houston", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Waymo", headline: "Jason Calcanis is Wrong About Cybercab, Waymo, and Uber ' Here's Why", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "OpenAI", headline: "Talking About OpenAI Astra AKA GPT 6 and AGI", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "OpenAI", headline: "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Isar Aerospace", headline: "German spacetech Isar Aerospace's second rocket launch reaches orbit in milestone", source: "Sifted", time: "2d ago", impact: "medium", unread: false },
+  { id: 1, type: "funding", company: "Cognition", headline: "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 2, type: "funding", company: "SpaceX", headline: "The Exploration Company nabs $450 million to challenge SpaceX", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
+  { id: 3, type: "news", company: "Humanoid", headline: "AI can't outrun a humanoid's hardware", source: "The Robot Report", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Mistral AI", headline: "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round", source: "Crunchbase News", time: "3h ago", impact: "high", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI fought dirty on career-making math problem, says NYU mathematician", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul", source: "Wired", time: "5h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Vertical Aerospace", headline: "Vertical Aerospace's eVTOL Can Fly. The Passenger Business Is Still Unproven", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Rivian", headline: "Rivian's Gambit for Full Autonomy", source: "IEEE Spectrum", time: "8h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Poseidon Aerospace", headline: "Poseidon Aerospace lands $60M ahead of first pilotless test flight", source: "TechCrunch", time: "8h ago", impact: "medium", unread: false },
+  { id: 10, type: "funding", company: "SpaceX", headline: "Stoke Space raises another billion to rival SpaceX at re-flying rockets", source: "TechCrunch", time: "12h ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "Humanoid", headline: "XPeng starts IRON humanoid robot production as Tesla Optimus stalls", source: "Electrek", time: "19h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Agility Robotics", headline: "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "OpenAI", headline: "The Download: the hunt for underground hydrogen and more rogue OpenAI agents", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "milestone", company: "Zoox", headline: "Zoox Begins Robotaxi Testing in Houston", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Waymo", headline: "Jason Calcanis is Wrong About Cybercab, Waymo, and Uber ' Here's Why", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
