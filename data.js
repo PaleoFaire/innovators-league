@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-09-07";
+const LAST_UPDATED = "2026-09-08";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -55463,18 +55463,18 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-07 22:45
+// Last updated: 2026-09-08 01:06
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Agility Robotics", headline: "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC", source: "The Robot Report", time: "9h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "The Download: the hunt for underground hydrogen and more rogue OpenAI agents", source: "MIT Tech Review", time: "10h ago", impact: "low", unread: true },
+  { id: 1, type: "ipo", company: "Agility Robotics", headline: "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC", source: "The Robot Report", time: "11h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "The Download: the hunt for underground hydrogen and more rogue OpenAI agents", source: "MIT Tech Review", time: "12h ago", impact: "low", unread: true },
   { id: 3, type: "milestone", company: "Zoox", headline: "Zoox Begins Robotaxi Testing in Houston", source: "CleanTechnica", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "news", company: "Waymo", headline: "Jason Calcanis is Wrong About Cybercab, Waymo, and Uber ' Here's Why", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "news", company: "OpenAI", headline: "Talking About OpenAI Astra AKA GPT 6 and AGI", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "OpenAI", headline: "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 6, type: "ipo", company: "OpenAI", headline: "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
   { id: 7, type: "ipo", company: "Isar Aerospace", headline: "German spacetech Isar Aerospace's second rocket launch reaches orbit in milestone", source: "Sifted", time: "2d ago", impact: "medium", unread: false },
   { id: 8, type: "ipo", company: "Isar Aerospace", headline: "Isar Aerospace achieves first launch to orbit from continental Europe", source: "ESA News", time: "2d ago", impact: "low", unread: false },
   { id: 9, type: "news", company: "OpenAI", headline: "OpenAI confirms 'wiki incident,' says it's 'working on a framework' for more disclosure", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "OpenAI", headline: "OpenAI's rogue agents keep escaping, with no formal process to investigate them", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
+  { id: 10, type: "milestone", company: "OpenAI", headline: "OpenAI's rogue agents keep escaping, with no formal process to investigate them", source: "TechCrunch", time: "3d ago", impact: "low", unread: false },
   { id: 11, type: "ipo", company: "OpenAI", headline: "OpenAI agents discussed ways to escape their sandbox on public wiki", source: "Ars Technica", time: "3d ago", impact: "low", unread: false },
   { id: 12, type: "news", company: "OpenAI", headline: "July's breakout at OpenAI was far more complex than initially realized", source: "Defense One", time: "3d ago", impact: "low", unread: false },
   { id: 13, type: "milestone", company: "OpenAI", headline: "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge", source: "TechCrunch", time: "3d ago", impact: "low", unread: false },
