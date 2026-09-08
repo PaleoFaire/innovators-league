@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-09-07 13:14:45 UTC
+// Last updated: 2026-09-08 11:57:03 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT06484335", title: "RV630 - Approach to Control HIV With Immune Enhancement and Vaccination (ACHIEV", status: "RECRUITING", phase: "PHASE1", sponsor: "Henry M. Jackson Foundation for the Advancement of Military Medicine", conditions: "HIV Infections, PLWH, ART", enrollment: 48, lastUpdated: "2026-09-04" },
   { nctId: "NCT07804004", title: "A Safety and Efficacy Study Evaluating CTX112 in Subjects With Refractory Neurol", status: "NOT_YET_RECRUITING", phase: "PHASE1, PHASE2", sponsor: "CRISPR Therapeutics", conditions: "Progressive Multiple Sclerosis (PMS), Neuromyeliti", enrollment: 220, lastUpdated: "2026-09-04" },

@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-09-07 13:24:29 UTC",
+    "generated_at": "2026-09-08 12:09:35 UTC",
     "total_targets": 116,
-    "with_excerpts": 102,
+    "with_excerpts": 103,
     "sources": [
       "none",
       "sec_edgar",
@@ -141,11 +141,13 @@
     {
       "ticker": "KLAC",
       "company": "KLA",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://ir.kla.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-04-29",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000016/0000319201-26-000016-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "INTC",
@@ -603,11 +605,13 @@
     {
       "ticker": "WOLF",
       "company": "Wolfspeed",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investor.wolfspeed.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-05-07",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/895419/000089541926000030/0000895419-26-000030-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "MCHP",
@@ -808,13 +812,11 @@
     {
       "ticker": "RGTI",
       "company": "Rigetti Computing",
-      "quarter": "2026-Q3",
-      "date": "2026-08-06",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926091993/0001104659-26-091993-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.rigetti.com/",
+      "source": "none"
     },
     {
       "ticker": "DDD",
@@ -894,11 +896,13 @@
     {
       "ticker": "ACHR",
       "company": "Archer Aviation",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.archer.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-10",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000059/0001824502-26-000059-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "JOBY",
@@ -998,11 +1002,13 @@
     {
       "ticker": "SMR",
       "company": "NuScale Power",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://www.nuscalepower.com/en/investors",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-05",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1822966/000182296626000085/0001822966-26-000085-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "NNE",
@@ -1078,13 +1084,11 @@
     {
       "ticker": "ALB",
       "company": "Albemarle",
-      "quarter": "2026-Q3",
-      "date": "2026-08-05",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000102/0000915913-26-000102-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.albemarle.com/",
+      "source": "none"
     },
     {
       "ticker": "ENVX",
@@ -1111,13 +1115,11 @@
     {
       "ticker": "PWR",
       "company": "Quanta Services",
-      "quarter": "2026-Q3",
-      "date": "2026-07-30",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1050915/000105091526000025/0001050915-26-000025-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.quantaservices.com/",
+      "source": "none"
     },
     {
       "ticker": "GEV",

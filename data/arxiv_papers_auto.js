@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-09-07 13:15:14 UTC
+// Last updated: 2026-09-08 11:57:16 UTC
 const ARXIV_PAPERS = [
   { id: "2609.05404v1", title: "Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction", category: "Artificial Intelligence", published: "2026-09-04", sectors: "nuclear, ai", authors: "Sihwa Park" },
   { id: "2609.05382v1", title: "Reflection-aware Generative Novel View Synthesis", category: "Artificial Intelligence", published: "2026-09-04", sectors: "nuclear, ai", authors: "GeonU Kim, Shin Dong-Yeon, Tae-Hyun Oh" },
