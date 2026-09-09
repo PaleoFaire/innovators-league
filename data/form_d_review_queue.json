@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-09-08T12:13:54.409301+00:00",
+  "generated_at": "2026-09-09T12:21:37.407438+00:00",
   "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
   "candidates": [
+    {
+      "match_method": "name-candidate",
+      "company": "fab2",
+      "issuer_name": "Fab2, Inc",
+      "form": "D",
+      "filed_date": "2026-09-08",
+      "cik": "2151752",
+      "accession": "0002151752-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002151752&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002151752-26-000002"
+    },
     {
       "match_method": "name-candidate",
       "company": "Helion",
@@ -100,17 +111,6 @@
       "accession": "0002152851-26-000001",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002152851&type=D&dateb=&owner=include&count=10",
       "adsh_raw": "0002152851-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Icarus",
-      "issuer_name": "Icarus Ventures LLC",
-      "form": "D",
-      "filed_date": "2026-08-26",
-      "cik": "2150161",
-      "accession": "0002150161-26-000002",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002150161&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002150161-26-000002"
     }
   ]
 }

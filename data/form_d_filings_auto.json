@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-08T12:13:59.127959+00:00",
+  "generated_at": "2026-09-09T12:22:11.235899+00:00",
   "source": "SEC EDGAR Form D (full-text search + daily index)",
   "lookback_days": 60,
-  "total_filings": 3,
+  "total_filings": 2,
   "filings": [
     {
       "match_method": "cik",
@@ -35,24 +35,6 @@
       "offering_amount": "800000173",
       "amount_sold": "647000679",
       "amount_remaining": "152999494",
-      "securities_type": "Equity",
-      "exemption": "06b",
-      "first_sale_date": "",
-      "is_safe": false
-    },
-    {
-      "match_method": "cik",
-      "company": "ICON",
-      "issuer_name": "ICON Technology, Inc",
-      "form": "D",
-      "filed_date": "2026-08-26",
-      "cik": "1751463",
-      "accession": "0001751463-26-000003",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001751463&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001751463-26-000003",
-      "offering_amount": "200000000",
-      "amount_sold": "114887843",
-      "amount_remaining": "85112157",
       "securities_type": "Equity",
       "exemption": "06b",
       "first_sale_date": "",

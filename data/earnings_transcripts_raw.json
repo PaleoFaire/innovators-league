@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-09-08 12:09:35 UTC",
+    "generated_at": "2026-09-09 12:17:04 UTC",
     "total_targets": 116,
-    "with_excerpts": 103,
+    "with_excerpts": 102,
     "sources": [
       "none",
       "sec_edgar",
@@ -61,13 +61,11 @@
     {
       "ticker": "GD",
       "company": "General Dynamics",
-      "quarter": "2026-Q3",
-      "date": "2026-07-29",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/40533/000004053326000032/0000040533-26-000032-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investorrelations.gd.com/",
+      "source": "none"
     },
     {
       "ticker": "LHX",
@@ -216,13 +214,11 @@
     {
       "ticker": "F",
       "company": "Ford",
-      "quarter": "2026-Q3",
-      "date": "2026-07-28",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000156/0000037996-26-000156-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://shareholder.ford.com/",
+      "source": "none"
     },
     {
       "ticker": "GM",
@@ -724,13 +720,11 @@
     {
       "ticker": "ROK",
       "company": "Rockwell Automation",
-      "quarter": "2026-Q3",
-      "date": "2026-08-04",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000030/0001024478-26-000030-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.rockwellautomation.com/en-us/company/investor-relations.html",
+      "source": "none"
     },
     {
       "ticker": "EMR",
@@ -812,11 +806,13 @@
     {
       "ticker": "RGTI",
       "company": "Rigetti Computing",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.rigetti.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-06",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926091993/0001104659-26-091993-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "DDD",
@@ -1115,11 +1111,13 @@
     {
       "ticker": "PWR",
       "company": "Quanta Services",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.quantaservices.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-07-30",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1050915/000105091526000025/0001050915-26-000025-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "GEV",

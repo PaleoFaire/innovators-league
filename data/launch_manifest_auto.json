@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-09-09",
-    "vehicle": "Soyuz 2.1b | Progress MS-35 (96P)",
-    "payload": "Progress MS-35 (96P)",
-    "pad": "31/6, Baikonur Cosmodrome, Republic of Kazakhstan",
-    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/d793ba47-faf5-4bab-a386-39a9ccc49c90/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-09-10",
     "vehicle": "Long March 2D/YZ-3 | Unknown Payload",
     "payload": "Unknown Payload",
@@ -27,15 +18,6 @@
     "trackedCompany": "SpaceX"
   },
   {
-    "date": "2026-09-11",
-    "vehicle": "Long March 8A | Unknown Payload",
-    "payload": "Unknown Payload",
-    "pad": "Commercial LC-1, Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/63063b9d-ade9-4448-8717-6f910aa81188/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-09-13",
     "vehicle": "Falcon 9 Block 5 | O3b mPower 11-13",
     "payload": "O3b mPower 11-13",
@@ -46,12 +28,48 @@
   },
   {
     "date": "2026-09-15",
+    "vehicle": "Starship | Flight 14",
+    "payload": "Flight 14",
+    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7d1afb26-6f9c-429b-9ccf-29012fd1e519/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-15",
     "vehicle": "Vega-C | Sentinel-3C & FLEX",
     "payload": "Sentinel-3C & FLEX",
     "pad": "Ariane Launch Area 1 (ELV), Guiana Space Centre, French Guiana",
     "provider": "Avio S.p.A",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/8effc13a-c658-4d2e-9f15-8dba4d7fe2dd/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-09-16",
+    "vehicle": "Soyuz 2.1b | Progress MS-35 (96P)",
+    "payload": "Progress MS-35 (96P)",
+    "pad": "31/6, Baikonur Cosmodrome, Republic of Kazakhstan",
+    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d793ba47-faf5-4bab-a386-39a9ccc49c90/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-09-17",
+    "vehicle": "Long March 12 | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/898f7df0-b6ce-4a5c-80b4-67e81842124e/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-09-20",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 15-27",
+    "payload": "Starlink Group 15-27",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d1471f9d-e9d0-4146-8e97-90863e48bfc8/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-09-30",
@@ -91,12 +109,12 @@
   },
   {
     "date": "2026-09-30",
-    "vehicle": "Starship | Flight 14",
-    "payload": "Flight 14",
-    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/7d1afb26-6f9c-429b-9ccf-29012fd1e519/?format=json",
-    "trackedCompany": "SpaceX"
+    "vehicle": "Long March 8A | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Commercial LC-1, Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/63063b9d-ade9-4448-8717-6f910aa81188/?format=json",
+    "trackedCompany": null
   },
   {
     "date": "2026-09-30",
@@ -204,6 +222,15 @@
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/67213393-7983-4c06-8b44-b8c785a5ed79/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-10-31",
+    "vehicle": "Falcon Heavy | NROL-97",
+    "payload": "NROL-97",
+    "pad": "Launch Complex 39A, Kennedy Space Center, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/4651fd8a-43de-4166-bf8f-c168b3bd1d2c/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -421,32 +448,5 @@
     "provider": "United Launch Alliance",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/a67b40f9-cfcc-4614-a355-a156280b4bb3/?format=json",
     "trackedCompany": "ULA"
-  },
-  {
-    "date": "2026-12-31",
-    "vehicle": "Falcon 9 Block 5 | Globalstar 2-R Mission 2 (x 9)",
-    "payload": "Globalstar 2-R Mission 2 (x 9)",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/e61d353c-db55-4a57-8184-0fab187231e6/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-12-31",
-    "vehicle": "Long March 2F/G | Shenzhou 24",
-    "payload": "Shenzhou 24",
-    "pad": "Launch Area 91 (SLS-1 / 921), Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/c9605b67-8a53-4239-a8ae-577fe3b79799/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-12-31",
-    "vehicle": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
-    "payload": "AT-Astra and Others (Spectrum Flight 3)",
-    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
-    "provider": "Isar Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/dff42a2e-f047-48d7-b260-3888d3a4fe33/?format=json",
-    "trackedCompany": "Astra"
   }
 ]
