@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-08T21:45:57.650052+00:00",
-  "date": "2026-09-08",
-  "dateDisplay": "Tuesday, September 08, 2026",
+  "generatedAt": "2026-09-09T00:01:21.903731+00:00",
+  "date": "2026-09-09",
+  "dateDisplay": "Wednesday, September 09, 2026",
   "sections": {
     "govActivity": [
       {
@@ -21,15 +21,6 @@
         "description": "EXPLORATION EXTRAVEHICULAR ACTIVITY SERVICES (XEVAS)",
         "date": "2026-07-28",
         "url": "https://sam.gov/opp/80JSC026FA082/view"
-      },
-      {
-        "company": "Skydio",
-        "amount": "$130K",
-        "amount_raw": 130000.0,
-        "agency": "Department of State",
-        "description": "NEW DELIVER ORDER IN THE AMOUNT OF $130,498.30 FOR UAS WITH A DELIVERY DATE OF 11/7/26. THIS REQUIREMENT IS IN SUPPORT O",
-        "date": "2026-06-10",
-        "url": "https://sam.gov/opp/191NLE26F0014/view"
       },
       {
         "company": "Skydio",
@@ -54,58 +45,58 @@
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 11.22,
-        "changePercent": 21.09,
-        "change": 1.96
+        "price": 11.18,
+        "changePercent": 20.6,
+        "change": 1.91
       },
       {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 6.58,
-        "changePercent": 16.87,
-        "change": 0.95
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 66.67,
-        "changePercent": 12.81,
-        "change": 7.57
-      },
-      {
-        "ticker": "SLDP",
-        "company": "Solid Power",
-        "price": 2.62,
-        "changePercent": 12.66,
-        "change": 0.29
+        "price": 6.51,
+        "changePercent": 15.63,
+        "change": 0.88
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 0.6,
-        "changePercent": -12.09,
-        "change": -0.08
+        "price": 0.59,
+        "changePercent": -12.99,
+        "change": -0.09
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 66.12,
+        "changePercent": 11.88,
+        "change": 7.02
+      },
+      {
+        "ticker": "SLDP",
+        "company": "Solid Power",
+        "price": 2.57,
+        "changePercent": 10.3,
+        "change": 0.24
       },
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 17.91,
-        "changePercent": -9.8,
-        "change": -1.95
+        "price": 17.81,
+        "changePercent": -10.28,
+        "change": -2.04
       },
       {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 44.17,
-        "changePercent": 8.89,
-        "change": 3.6
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 5.35,
+        "changePercent": 9.86,
+        "change": 0.48
       },
       {
-        "ticker": "AMD",
-        "company": "AMD",
-        "price": 512.19,
-        "changePercent": 8.81,
-        "change": 41.47
+        "ticker": "PLTR",
+        "company": "Palantir",
+        "price": 170.3,
+        "changePercent": -8.63,
+        "change": -16.08
       }
     ],
     "regulatory": [
@@ -192,10 +183,10 @@
     ]
   },
   "stats": {
-    "contractCount": 5,
+    "contractCount": 4,
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "SMR +21.1%"
+    "topMover": "SMR +20.6%"
   }
 }
