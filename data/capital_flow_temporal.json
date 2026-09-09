@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T09:34:58+00:00",
+  "generatedAt": "2026-09-09T14:24:28+00:00",
   "matrix": {
     "geothermal-next-gen": {
       "2026-Q3": {
@@ -82,30 +82,6 @@
         ],
         "investors": [
           "Silent Ventures"
-        ]
-      }
-    },
-    "construction-3d-printing": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 114887843,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "ICON",
-            "amount": 114887843,
-            "date": "2026-08-26",
-            "source": "formd",
-            "investors": [
-              "Founders Fund",
-              "Mark Chen",
-              "Saquon Barkley",
-              "Roman Khan"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund"
         ]
       }
     },
@@ -1815,86 +1791,6 @@
         }
       ]
     },
-    "Founders Fund": {
-      "2026-Q3": [
-        {
-          "company": "ICON",
-          "cluster": "construction-3d-printing",
-          "date": "2026-08-26",
-          "source": "formd"
-        },
-        {
-          "company": "Neros",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-08",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Cognition",
-          "cluster": "ai-code-generation",
-          "date": "2026-08",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Hadrian",
-          "cluster": "manufacturing-reshoring",
-          "date": "2026-08",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Hermeus",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Radiant",
-          "cluster": "nuclear-microreactor",
-          "date": "2025-06",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "Boom Supersonic",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2025-12",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Neuralink",
-          "cluster": "brain-computer-interface",
-          "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q3": [
-        {
-          "company": "Gecko Robotics",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2025-07",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Bessemer Venture Partners": {
       "2026-Q2": [
         {
@@ -1937,6 +1833,80 @@
           "company": "Deep Isolation",
           "cluster": "nuclear-services-fuel",
           "date": "2025-06",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Founders Fund": {
+      "2026-Q2": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q3": [
+        {
+          "company": "Neros",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-08",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Cognition",
+          "cluster": "ai-code-generation",
+          "date": "2026-08",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Hadrian",
+          "cluster": "manufacturing-reshoring",
+          "date": "2026-08",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Radiant",
+          "cluster": "nuclear-microreactor",
+          "date": "2025-06",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "Boom Supersonic",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2025-12",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Neuralink",
+          "cluster": "brain-computer-interface",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q3": [
+        {
+          "company": "Gecko Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-07",
           "source": "recentEvent"
         }
       ]
@@ -2389,9 +2359,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 60,
-    "totalUSDSold": 941153544,
-    "uniqueClusters": 37,
+    "totalDealsTracked": 59,
+    "totalUSDSold": 826265701,
+    "uniqueClusters": 36,
     "uniqueQuarters": 9,
     "uniqueVCs": 21,
     "quarterRange": [

@@ -56456,26 +56456,22 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-09 09:34
-// Auto-generated real-time signals
-// Last updated: 2026-09-09
-// Auto-generated real-time signals
-// Last updated: 2026-09-09
+// Last updated: 2026-09-09 14:23
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Vast", headline: "NSA wants AI to help analysts sift vast data troves", source: "Defense One", time: "8h ago", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Cognition", headline: "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market", source: "TechCrunch", time: "13h ago", impact: "high", unread: true },
-  { id: 3, type: "funding", company: "SpaceX", headline: "The Exploration Company nabs $450 million to challenge SpaceX", source: "TechCrunch", time: "14h ago", impact: "medium", unread: true },
-  { id: 4, type: "news", company: "Humanoid", headline: "AI can’t outrun a humanoid&#8217;s hardware", source: "The Robot Report", time: "15h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Mistral AI", headline: "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round", source: "Crunchbase News", time: "16h ago", impact: "high", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI fought dirty on career-making math problem, says NYU mathematician", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul", source: "Wired", time: "18h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "Vertical Aerospace", headline: "Vertical Aerospace’s eVTOL Can Fly. The Passenger Business Is Still Unproven", source: "CleanTechnica", time: "21h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Rivian", headline: "Rivian’s Gambit for Full Autonomy", source: "IEEE Spectrum", time: "21h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Poseidon Aerospace", headline: "Poseidon Aerospace lands $60M ahead of first pilotless test flight", source: "TechCrunch", time: "21h ago", impact: "medium", unread: false },
-  { id: 11, type: "funding", company: "SpaceX", headline: "Stoke Space raises another billion to rival SpaceX at re-flying rockets", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
+  { id: 1, type: "hire", company: "SpaceX", headline: "Besxar is building an orbital semiconductor factory, one SpaceX rocket at a time", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "OpenAI", headline: "The Download: OpenAI's turning point for math and a battery record", source: "MIT Tech Review", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Vast", headline: "NSA wants AI to help analysts sift vast data troves", source: "Defense One", time: "12h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Cognition", headline: "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market", source: "TechCrunch", time: "17h ago", impact: "high", unread: true },
+  { id: 5, type: "funding", company: "SpaceX", headline: "The Exploration Company nabs $450 million to challenge SpaceX", source: "TechCrunch", time: "17h ago", impact: "medium", unread: true },
+  { id: 6, type: "news", company: "Humanoid", headline: "AI can't outrun a humanoid's hardware", source: "The Robot Report", time: "19h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Mistral AI", headline: "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round", source: "Crunchbase News", time: "20h ago", impact: "high", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "OpenAI fought dirty on career-making math problem, says NYU mathematician", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "OpenAI", headline: "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul", source: "Wired", time: "21h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "Vertical Aerospace", headline: "Vertical Aerospace's eVTOL Can Fly. The Passenger Business Is Still Unproven", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Rivian", headline: "Rivian's Gambit for Full Autonomy", source: "IEEE Spectrum", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "news", company: "Humanoid", headline: "XPeng starts IRON humanoid robot production as Tesla Optimus stalls", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Agility Robotics", headline: "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "The Download: the hunt for underground hydrogen and more rogue OpenAI agents", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Agility Robotics", headline: "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "OpenAI", headline: "The Download: the hunt for underground hydrogen and more rogue OpenAI agents", source: "MIT Tech Review", time: "2d ago", impact: "low", unread: false },
   { id: 15, type: "milestone", company: "Zoox", headline: "Zoox Begins Robotaxi Testing in Houston", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
 ];
 
