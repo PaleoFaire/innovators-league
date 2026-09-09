@@ -1,30 +1,30 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 49,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
+      "AI can\u2019t outrun a humanoid&#8217;s hardware",
       "XPeng starts IRON humanoid robot production as Tesla Optimus",
-      "Agility Robotics reports $1.8M revenue ahead of humanoid SPA",
-      "Zoox Begins Robotaxi Testing in Houston"
+      "Agility Robotics reports $1.8M revenue ahead of humanoid SPA"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 55,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-08"
+    "lastUpdated": "2026-09-09"
   },
   {
     "sector": "AI & Software",
     "momentum": 31,
     "trend": "rising",
     "catalysts": [
-      "The Download: the hunt for underground hydrogen and more rog",
-      "Talking About OpenAI Astra AKA GPT 6 and AGI",
-      "Seattle Times and Newsday are the latest publications to sue"
+      "Cognition hits $48B valuation, signaling investors believe A",
+      "OpenAI fought dirty on career-making math problem, says NYU",
+      "OpenAI Just Claimed a Huge Math Discovery. Some Academics Ar"
     ],
     "fundingQ": "$1.4B",
     "components": {
@@ -33,29 +33,29 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-08"
+    "lastUpdated": "2026-09-09"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 24,
-    "trend": "declining",
+    "sector": "Space & Aerospace",
+    "momentum": 29,
+    "trend": "rising",
     "catalysts": [
-      "OpenAI GPT 6 Astra Limited Release that Beats Anthropic Fabl",
-      "NVIDIA plans to acquire Hugging Face and keep AI development",
-      "Nvidia discloses $21B stake in SpaceX"
+      "Cognition hits $48B valuation, signaling investors believe A",
+      "The Exploration Company nabs $450 million to challenge Space",
+      "Vertical Aerospace\u2019s eVTOL Can Fly. The Passenger Business I"
     ],
-    "fundingQ": "$0M",
+    "fundingQ": "$50M",
     "components": {
-      "funding": 0,
-      "news": 15,
+      "funding": 5,
+      "news": 55,
       "hiring": 0,
-      "market": 100
+      "market": 67
     },
-    "lastUpdated": "2026-09-08"
+    "lastUpdated": "2026-09-09"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 22,
+    "momentum": 25,
     "trend": "declining",
     "catalysts": [
       "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
@@ -67,99 +67,65 @@
       "funding": 0,
       "news": 20,
       "hiring": 0,
-      "market": 86
+      "market": 100
     },
-    "lastUpdated": "2026-09-08"
+    "lastUpdated": "2026-09-09"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 22,
+    "momentum": 19,
     "trend": "declining",
     "catalysts": [
+      "Mistral AI Raises $3.5B At $24B Valuation In Another Record",
       "Talking About OpenAI Astra AKA GPT 6 and AGI",
       "Waymo opens robotaxi rides to the public in 3 new cities, no"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 25,
       "hiring": 0,
-      "market": 98
+      "market": 66
     },
-    "lastUpdated": "2026-09-08"
+    "lastUpdated": "2026-09-09"
   },
   {
-    "sector": "Space & Aerospace",
-    "momentum": 19,
+    "sector": "Chips & Semiconductors",
+    "momentum": 18,
     "trend": "declining",
     "catalysts": [
-      "Stoke Space raises another billion to rival SpaceX at re-fly",
-      "Zoox Begins Robotaxi Testing in Houston",
-      "German spacetech Isar Aerospace\u2019s second rocket launch reach"
-    ],
-    "fundingQ": "$50M",
-    "components": {
-      "funding": 5,
-      "news": 40,
-      "hiring": 0,
-      "market": 35
-    },
-    "lastUpdated": "2026-09-08"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "Active housing & construction ecosystem"
-    ],
-    "fundingQ": "$50M",
-    "components": {
-      "funding": 16,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-08"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Agility Robotics reports $1.8M revenue ahead of humanoid SPA",
-      "NVIDIA plans to acquire Hugging Face and keep AI development",
-      "PsiQuantum\u2019s Ice Cream Factory"
+      "Rivian\u2019s Gambit for Full Autonomy",
+      "OpenAI GPT 6 Astra Limited Release that Beats Anthropic Fabl",
+      "Nvidia discloses $21B stake in SpaceX"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 50
+      "market": 73
     },
-    "lastUpdated": "2026-09-08"
+    "lastUpdated": "2026-09-09"
   },
   {
-    "sector": "Drones & Autonomous",
-    "momentum": 12,
+    "sector": "Housing & Construction",
+    "momentum": 17,
     "trend": "declining",
     "catalysts": [
-      "Back to life: How Shield AI\u2019s future unmanned fighter made d",
-      "Tesla Robotaxi Fleet Hits 420 Texas Registered Vehicles, Pas"
+      "OpenAI Just Claimed a Huge Math Discovery. Some Academics Ar"
     ],
-    "fundingQ": "$0M",
+    "fundingQ": "$50M",
     "components": {
-      "funding": 0,
-      "news": 10,
+      "funding": 16,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-08"
+    "lastUpdated": "2026-09-09"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 12,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
       "The Download: the hunt for underground hydrogen and more rog",
@@ -170,27 +136,94 @@
       "funding": 11,
       "news": 10,
       "hiring": 0,
-      "market": 27
+      "market": 50
     },
-    "lastUpdated": "2026-09-08"
+    "lastUpdated": "2026-09-09"
   },
   {
-    "sector": "Defense & Security",
+    "sector": "Quantum Computing",
+    "momentum": 16,
+    "trend": "declining",
+    "catalysts": [
+      "PsiQuantum\u2019s Ice Cream Factory"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 72
+    },
+    "lastUpdated": "2026-09-09"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Vertical Aerospace\u2019s eVTOL Can Fly. The Passenger Business I",
+      "Rivian\u2019s Gambit for Full Autonomy",
+      "Rivian\u2019s futuristic ALSO e-bike may be at its ultimate delay"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 55
+    },
+    "lastUpdated": "2026-09-09"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "Vertical Aerospace\u2019s eVTOL Can Fly. The Passenger Business I",
+      "Agility Robotics reports $1.8M revenue ahead of humanoid SPA",
+      "PsiQuantum\u2019s Ice Cream Factory"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-09"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "Vertical Aerospace\u2019s eVTOL Can Fly. The Passenger Business I",
+      "Back to life: How Shield AI\u2019s future unmanned fighter made d"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-09"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Back to life: How Shield AI\u2019s future unmanned fighter made d",
-      "Ousted Ukrainian defense chief lands Palantir CEO as first i",
-      "The Atlantic Brief: U.S. and European Perspectives on Nuclea"
+      "AI can\u2019t outrun a humanoid&#8217;s hardware"
     ],
-    "fundingQ": "$550M",
+    "fundingQ": "$0M",
     "components": {
-      "funding": 20,
-      "news": 15,
+      "funding": 0,
+      "news": 5,
       "hiring": 0,
-      "market": 0
+      "market": 50
     },
-    "lastUpdated": "2026-09-08"
+    "lastUpdated": "2026-09-09"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -206,23 +239,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-08"
+    "lastUpdated": "2026-09-09"
   },
   {
-    "sector": "Supersonic & Hypersonic",
+    "sector": "Defense & Security",
     "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "Active supersonic & hypersonic ecosystem"
+      "Back to life: How Shield AI\u2019s future unmanned fighter made d",
+      "The Atlantic Brief: U.S. and European Perspectives on Nuclea"
     ],
-    "fundingQ": "$0M",
+    "fundingQ": "$550M",
     "components": {
-      "funding": 0,
-      "news": 0,
+      "funding": 20,
+      "news": 10,
       "hiring": 0,
-      "market": 50
+      "market": 0
     },
-    "lastUpdated": "2026-09-08"
+    "lastUpdated": "2026-09-09"
   },
   {
     "sector": "Ocean & Maritime",
@@ -238,38 +272,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-08"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 8,
-    "trend": "declining",
-    "catalysts": [
-      "PsiQuantum\u2019s Ice Cream Factory"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 36
-    },
-    "lastUpdated": "2026-09-08"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 7,
-    "trend": "declining",
-    "catalysts": [
-      "Rivian\u2019s futuristic ALSO e-bike may be at its ultimate delay"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 29
-    },
-    "lastUpdated": "2026-09-08"
+    "lastUpdated": "2026-09-09"
   }
 ]

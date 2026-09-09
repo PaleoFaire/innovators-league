@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-09-08T11:05:25.112300Z",
+  "generated_at": "2026-09-09T11:20:42.356092Z",
   "takes": [
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "Cognition",
+      "text": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+      "date": "Tue, 08 Se",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+      "signal_type": "funding"
+    },
+    {
+      "author": "Crunchbase News",
+      "role": "Industry signal",
+      "company": "Mistral AI",
+      "text": "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round",
+      "date": "Tue, 08 Se",
+      "source": "news",
+      "source_url": "https://news.crunchbase.com/venture/europe-record-setting-mistral-ai-raise/",
+      "signal_type": "funding"
+    },
     {
       "author": "TechCrunch",
       "role": "Industry signal",
@@ -40,21 +60,12 @@
       "source": "news",
       "source_url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
       "signal_type": "ipo"
-    },
-    {
-      "author": "insidedefense",
-      "role": "Executive commentary",
-      "company": "Anthropic",
-      "text": "DOD tech chief says Anthropic still a \u2018supply chain risk\u2019",
-      "date": "2026-09-03",
-      "source": "press",
-      "source_url": "https://insidedefense.com/ai-news-briefs/dod-tech-chief-says-anthropic-still-%E2%80%98supply-chain-risk%E2%80%99"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 4,
-    "from_press": 1
+    "from_news": 6,
+    "from_press": 0
   }
 }
