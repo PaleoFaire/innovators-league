@@ -56456,17 +56456,17 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-10 04:25
+// Last updated: 2026-09-10 09:34
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "WOW! Tesla &#038; SpaceX's Huge Unlocks'Grok 4.7 and AGI", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "OpenAI", headline: "OpenAI adds a prominent AI doomer to its board of directors", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Anthropic", headline: "The AI Researcher Who Just Quit Anthropic Says It's 'Crunch Time for Humanity'", source: "Wired", time: "6h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "7h ago", impact: "low", unread: true },
-  { id: 5, type: "contract", company: "Relativity Space", headline: "NASA Adds Relativity Space's Terran R to Launch Services Contract", source: "NASA Breaking News", time: "8h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "WB Group", headline: "Poland's WB Group unveils Warmate 30, latest in drone recon/strike system", source: "Breaking Defense", time: "9h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", time: "10h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Vention", headline: "Vention opens Physical AI Lab for manufacturing in Montreal", source: "The Robot Report", time: "12h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "OpenAI", headline: "The Download: OpenAI's turning point for math and a battery record", source: "MIT Tech Review", time: "16h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "WOW! Tesla &#038; SpaceX's Huge Unlocks'Grok 4.7 and AGI", source: "Next Big Future", time: "7h ago", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "OpenAI", headline: "OpenAI adds a prominent AI doomer to its board of directors", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "The AI Researcher Who Just Quit Anthropic Says It's 'Crunch Time for Humanity'", source: "Wired", time: "11h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "12h ago", impact: "low", unread: true },
+  { id: 5, type: "contract", company: "Relativity Space", headline: "NASA Adds Relativity Space's Terran R to Launch Services Contract", source: "NASA Breaking News", time: "13h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "WB Group", headline: "Poland's WB Group unveils Warmate 30, latest in drone recon/strike system", source: "Breaking Defense", time: "14h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", time: "16h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Vention", headline: "Vention opens Physical AI Lab for manufacturing in Montreal", source: "The Robot Report", time: "17h ago", impact: "low", unread: false },
+  { id: 9, type: "milestone", company: "OpenAI", headline: "The Download: OpenAI's turning point for math and a battery record", source: "MIT Tech Review", time: "21h ago", impact: "low", unread: false },
   { id: 10, type: "news", company: "Vast", headline: "NSA wants AI to help analysts sift vast data troves", source: "Defense One", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "Humanoid", headline: "AI can't outrun a humanoid's hardware", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "funding", company: "Mistral AI", headline: "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round", source: "Crunchbase News", time: "1d ago", impact: "high", unread: false },
