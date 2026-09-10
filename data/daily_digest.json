@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-09T21:37:30.033512+00:00",
-  "date": "2026-09-09",
-  "dateDisplay": "Wednesday, September 09, 2026",
+  "generatedAt": "2026-09-10T00:03:10.557601+00:00",
+  "date": "2026-09-10",
+  "dateDisplay": "Thursday, September 10, 2026",
   "sections": {
     "govActivity": [
       {
@@ -45,58 +45,58 @@
       {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 6.54,
-        "changePercent": 19.87,
-        "change": 1.08
+        "price": 6.5,
+        "changePercent": 19.05,
+        "change": 1.04
       },
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 10.86,
-        "changePercent": 17.92,
-        "change": 1.65
+        "price": 10.81,
+        "changePercent": 17.37,
+        "change": 1.6
       },
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 523.58,
-        "changePercent": 13.92,
-        "change": 63.97
+        "price": 521.1,
+        "changePercent": 13.38,
+        "change": 61.49
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 63.42,
-        "changePercent": 13.66,
-        "change": 7.62
-      },
-      {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 43.27,
-        "changePercent": 12.32,
-        "change": 4.74
+        "price": 62.42,
+        "changePercent": 11.86,
+        "change": 6.62
       },
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 17.36,
-        "changePercent": -9.89,
-        "change": -1.91
+        "price": 17.22,
+        "changePercent": -10.59,
+        "change": -2.04
+      },
+      {
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 42.57,
+        "changePercent": 10.49,
+        "change": 4.04
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 5.01,
-        "changePercent": 9.02,
-        "change": 0.42
+        "price": 4.99,
+        "changePercent": 8.48,
+        "change": 0.39
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 302.28,
-        "changePercent": 7.99,
-        "change": 22.37
+        "price": 300.54,
+        "changePercent": 7.37,
+        "change": 20.63
       }
     ],
     "regulatory": [
@@ -187,6 +187,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "AUR +19.9%"
+    "topMover": "AUR +19.1%"
   }
 }

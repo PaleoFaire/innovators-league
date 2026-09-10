@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-09-09";
+const LAST_UPDATED = "2026-09-10";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -56456,23 +56456,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-09 21:37
+// Last updated: 2026-09-10 00:03
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "Relativity Space", headline: "NASA Adds Relativity Space's Terran R to Launch Services Contract", source: "NASA Breaking News", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "WB Group", headline: "Poland's WB Group unveils Warmate 30, latest in drone recon/strike system", source: "Breaking Defense", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Vention", headline: "Vention opens Physical AI Lab for manufacturing in Montreal", source: "The Robot Report", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "'Gambling with our lives': Anthropic researcher quits, warns against self-improving AI", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "OpenAI", headline: "The Download: OpenAI's turning point for math and a battery record", source: "MIT Tech Review", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Vast", headline: "NSA wants AI to help analysts sift vast data troves", source: "Defense One", time: "19h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Humanoid", headline: "AI can't outrun a humanoid's hardware", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Mistral AI", headline: "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round", source: "Crunchbase News", time: "1d ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Vertical Aerospace", headline: "Vertical Aerospace's eVTOL Can Fly. The Passenger Business Is Still Unproven", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Rivian", headline: "Rivian's Gambit for Full Autonomy", source: "IEEE Spectrum", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Humanoid", headline: "XPeng starts IRON humanoid robot production as Tesla Optimus stalls", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Agility Robotics", headline: "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "hire", company: "OpenAI", headline: "OpenAI adds a prominent AI doomer to its board of directors", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Anthropic", headline: "The AI Researcher Who Just Quit Anthropic Says It's 'Crunch Time for Humanity'", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "contract", company: "Relativity Space", headline: "NASA Adds Relativity Space's Terran R to Launch Services Contract", source: "NASA Breaking News", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "WB Group", headline: "Poland's WB Group unveils Warmate 30, latest in drone recon/strike system", source: "Breaking Defense", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", time: "6h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Vention", headline: "Vention opens Physical AI Lab for manufacturing in Montreal", source: "The Robot Report", time: "8h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "OpenAI", headline: "The Download: OpenAI's turning point for math and a battery record", source: "MIT Tech Review", time: "11h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Vast", headline: "NSA wants AI to help analysts sift vast data troves", source: "Defense One", time: "21h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Humanoid", headline: "AI can't outrun a humanoid's hardware", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Mistral AI", headline: "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round", source: "Crunchbase News", time: "1d ago", impact: "high", unread: false },
+  { id: 12, type: "news", company: "OpenAI", headline: "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Vertical Aerospace", headline: "Vertical Aerospace's eVTOL Can Fly. The Passenger Business Is Still Unproven", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Rivian", headline: "Rivian's Gambit for Full Autonomy", source: "IEEE Spectrum", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Humanoid", headline: "XPeng starts IRON humanoid robot production as Tesla Optimus stalls", source: "Electrek", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
