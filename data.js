@@ -57047,23 +57047,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-10 18:17
+// Last updated: 2026-09-10 21:33
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Dust", headline: "Dust and Water in Sagittarius A*", source: "NASA Breaking News", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "The Boring Company", headline: "The Boring Company raises $3B in round led by UAE", source: "TechCrunch", time: "3h ago", impact: "high", unread: true },
-  { id: 4, type: "funding", company: "Mach Industries", headline: "Defense tech Mach Industries doubles valuation to $3.7B in 3 months", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "WOW! Tesla &#038; SpaceX's Huge Unlocks'Grok 4.7 and AGI", source: "Next Big Future", time: "16h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "OpenAI", headline: "OpenAI adds a prominent AI doomer to its board of directors", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "The AI Researcher Who Just Quit Anthropic Says It's 'Crunch Time for Humanity'", source: "Wired", time: "20h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "21h ago", impact: "low", unread: false },
-  { id: 9, type: "contract", company: "Relativity Space", headline: "NASA Adds Relativity Space's Terran R to Launch Services Contract", source: "NASA Breaking News", time: "22h ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "WB Group", headline: "Poland's WB Group unveils Warmate 30, latest in drone recon/strike system", source: "Breaking Defense", time: "23h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Vention", headline: "Vention opens Physical AI Lab for manufacturing in Montreal", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "OpenAI", headline: "The Download: OpenAI's turning point for math and a battery record", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Vast", headline: "NSA wants AI to help analysts sift vast data troves", source: "Defense One", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Humanoid", headline: "AI can't outrun a humanoid's hardware", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI puts Pro subscriptions on hold due to Astra demand", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Anthropic", headline: "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Proxima Fusion", headline: "Proxima Fusion bets '140M on a critical fusion ingredient dominated by Asian suppliers", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "Dust", headline: "Dust and Water in Sagittarius A*", source: "NASA Breaking News", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "The Boring Company", headline: "The Boring Company raises $3B in round led by UAE", source: "TechCrunch", time: "6h ago", impact: "high", unread: false },
+  { id: 7, type: "funding", company: "Mach Industries", headline: "Defense tech Mach Industries doubles valuation to $3.7B in 3 months", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "WOW! Tesla &#038; SpaceX's Huge Unlocks'Grok 4.7 and AGI", source: "Next Big Future", time: "19h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "The AI Researcher Who Just Quit Anthropic Says It's 'Crunch Time for Humanity'", source: "Wired", time: "23h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "contract", company: "Relativity Space", headline: "NASA Adds Relativity Space's Terran R to Launch Services Contract", source: "NASA Breaking News", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "WB Group", headline: "Poland's WB Group unveils Warmate 30, latest in drone recon/strike system", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Vention", headline: "Vention opens Physical AI Lab for manufacturing in Montreal", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "OpenAI", headline: "The Download: OpenAI's turning point for math and a battery record", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
