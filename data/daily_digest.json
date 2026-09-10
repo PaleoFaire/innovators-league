@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T21:33:03.405990+00:00",
+  "generatedAt": "2026-09-10T23:58:50.120034+00:00",
   "date": "2026-09-10",
   "dateDisplay": "Thursday, September 10, 2026",
   "sections": {
@@ -45,9 +45,9 @@
       {
         "ticker": "PL",
         "company": "Planet Labs",
-        "price": 17.09,
-        "changePercent": -14.52,
-        "change": -2.9
+        "price": 16.69,
+        "changePercent": -16.51,
+        "change": -3.3
       },
       {
         "ticker": "ONT.L",
@@ -57,46 +57,46 @@
         "change": -20.6
       },
       {
-        "ticker": "AUR",
-        "company": "Aurora Innovation",
-        "price": 6.51,
-        "changePercent": 11.37,
-        "change": 0.67
-      },
-      {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 506.5,
-        "changePercent": 10.82,
-        "change": 49.44
-      },
-      {
-        "ticker": "SMR",
-        "company": "NuScale Power",
-        "price": 10.31,
-        "changePercent": 7.8,
-        "change": 0.75
+        "price": 503.6,
+        "changePercent": 10.18,
+        "change": 46.54
       },
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 6.04,
-        "changePercent": -7.36,
-        "change": -0.48
+        "price": 5.88,
+        "changePercent": -9.82,
+        "change": -0.64
       },
       {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 0.54,
-        "changePercent": -6.99,
-        "change": -0.04
+        "ticker": "AUR",
+        "company": "Aurora Innovation",
+        "price": 6.33,
+        "changePercent": 8.21,
+        "change": 0.48
       },
       {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 291.82,
-        "changePercent": 6.45,
-        "change": 17.69
+        "ticker": "JOBY",
+        "company": "Joby Aviation",
+        "price": 6.31,
+        "changePercent": -7.48,
+        "change": -0.51
+      },
+      {
+        "ticker": "SMR",
+        "company": "NuScale Power",
+        "price": 10.21,
+        "changePercent": 6.8,
+        "change": 0.65
+      },
+      {
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 3.16,
+        "changePercent": -6.51,
+        "change": -0.22
       }
     ],
     "regulatory": [
@@ -187,6 +187,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "PL -14.5%"
+    "topMover": "PL -16.5%"
   }
 }

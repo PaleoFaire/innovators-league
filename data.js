@@ -57047,17 +57047,17 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-10 21:33
+// Last updated: 2026-09-10 23:58
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI puts Pro subscriptions on hold due to Astra demand", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Anthropic", headline: "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "Proxima Fusion", headline: "Proxima Fusion bets '140M on a critical fusion ingredient dominated by Asian suppliers", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "Dust", headline: "Dust and Water in Sagittarius A*", source: "NASA Breaking News", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "The Boring Company", headline: "The Boring Company raises $3B in round led by UAE", source: "TechCrunch", time: "6h ago", impact: "high", unread: false },
-  { id: 7, type: "funding", company: "Mach Industries", headline: "Defense tech Mach Industries doubles valuation to $3.7B in 3 months", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "WOW! Tesla &#038; SpaceX's Huge Unlocks'Grok 4.7 and AGI", source: "Next Big Future", time: "19h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Anthropic", headline: "The AI Researcher Who Just Quit Anthropic Says It's 'Crunch Time for Humanity'", source: "Wired", time: "23h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI puts Pro subscriptions on hold due to Astra demand", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Anthropic", headline: "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "Proxima Fusion", headline: "Proxima Fusion bets '140M on a critical fusion ingredient dominated by Asian suppliers", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Anthropic", headline: "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Dust", headline: "Dust and Water in Sagittarius A*", source: "NASA Breaking News", time: "7h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "The Boring Company", headline: "The Boring Company raises $3B in round led by UAE", source: "TechCrunch", time: "8h ago", impact: "high", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "WOW! Tesla &#038; SpaceX's Huge Unlocks'Grok 4.7 and AGI", source: "Next Big Future", time: "21h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "The AI Researcher Who Just Quit Anthropic Says It's 'Crunch Time for Humanity'", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "contract", company: "Relativity Space", headline: "NASA Adds Relativity Space's Terran R to Launch Services Contract", source: "NASA Breaking News", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "milestone", company: "WB Group", headline: "Poland's WB Group unveils Warmate 30, latest in drone recon/strike system", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
