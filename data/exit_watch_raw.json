@@ -1,8 +1,31 @@
 {
-  "generated_at": "2026-09-09T11:33:57.285319+00:00",
+  "generated_at": "2026-09-10T11:31:55.947788+00:00",
   "window_days": 10,
-  "filings_scanned": 893,
+  "filings_scanned": 1054,
   "candidates": [
+    {
+      "cik": "2153783",
+      "accession": "000215378326000001",
+      "entity": "Travelinix Inc",
+      "industry": "Other Technology",
+      "year_inc": 2026,
+      "state": "FL",
+      "amount_sold": 25000.0,
+      "first_sale": "true",
+      "persons": [
+        {
+          "name": "William Phillipson",
+          "key": "williamphillipson",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "FLORIDA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2153783/000215378326000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153783&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
     {
       "cik": "2152594",
       "accession": "000215259426000001",
@@ -25,6 +48,162 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2152594/000215259426000001/primary_doc.xml",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152594&type=D&dateb=&owner=include&count=10",
       "filed": "20260831"
+    },
+    {
+      "cik": "2154374",
+      "accession": "000215437426000001",
+      "entity": "Better Self Storage Yuma Syndication LLC",
+      "industry": "Other",
+      "year_inc": 2026,
+      "state": "UT",
+      "amount_sold": 0.0,
+      "first_sale": "true",
+      "persons": [
+        {
+          "name": "Korbin Don Smoot",
+          "key": "korbinsmoot",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "UTAH"
+        },
+        {
+          "name": "Lagrand William DeWaal",
+          "key": "lagranddewaal",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "UTAH"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2154374/000215437426000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154374&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
+      "cik": "1724688",
+      "accession": "000114036126036045",
+      "entity": "Legacy Trail Surgery Center, LLC",
+      "industry": "Other Health Care",
+      "year_inc": 2026,
+      "state": "TX",
+      "amount_sold": 0.0,
+      "first_sale": "true",
+      "persons": [
+        {
+          "name": "Ronald Chad Gilliland",
+          "key": "ronaldgilliland",
+          "roles": [
+            "Director"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "Robert Wyatt, M.D.",
+          "key": "robertwyatt",
+          "roles": [
+            "Director"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "Vanessa Walls",
+          "key": "vanessawalls",
+          "roles": [
+            "Director"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "Dustin Loveland, M.D.",
+          "key": "dustinloveland",
+          "roles": [
+            "Director"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "Dane Peterson",
+          "key": "danepeterson",
+          "roles": [
+            "Director"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "Richard Ha, M.D.",
+          "key": "richardha",
+          "roles": [
+            "Director"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "Kris Sanders",
+          "key": "krissanders",
+          "roles": [
+            "Director"
+          ],
+          "state": "TEXAS"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1724688/000114036126036045/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1724688&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
+      "cik": "2154045",
+      "accession": "000215404526000002",
+      "entity": "MTM 2027 Ltd Liability Co",
+      "industry": "Other",
+      "year_inc": 2026,
+      "state": "NY",
+      "amount_sold": 0.0,
+      "first_sale": "true",
+      "persons": [
+        {
+          "name": "LLC AF Creative Media",
+          "key": "llcmedia",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "NEW YORK"
+        },
+        {
+          "name": "Dayna Bloom",
+          "key": "daynabloom",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "NEW YORK"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2154045/000215404526000002/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154045&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
+      "cik": "2153922",
+      "accession": "000215392226000001",
+      "entity": "ZT Technology PE 1, LLC",
+      "industry": "Other Health Care",
+      "year_inc": 2025,
+      "state": "NJ",
+      "amount_sold": 0.0,
+      "first_sale": "true",
+      "persons": [
+        {
+          "name": "Albert John Nanni",
+          "key": "albertnanni",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "NEW JERSEY"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2153922/000215392226000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153922&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
     },
     {
       "cik": "2152089",
@@ -606,6 +785,94 @@
       "filed": "20260831"
     },
     {
+      "cik": "2055822",
+      "accession": "000106299326004864",
+      "entity": "EXTER GOLD CORP.",
+      "industry": "Other",
+      "year_inc": 2026,
+      "state": "A2",
+      "amount_sold": 892670.0,
+      "first_sale": "2026-09-08",
+      "persons": [
+        {
+          "name": "Jon Bridgman",
+          "key": "jonbridgman",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "ONTARIO, CANADA"
+        },
+        {
+          "name": "Melvyn Reznick",
+          "key": "melvynreznick",
+          "roles": [
+            "Director"
+          ],
+          "state": "NEVADA"
+        },
+        {
+          "name": "Gilles Lamarre",
+          "key": "gilleslamarre",
+          "roles": [
+            "Director"
+          ],
+          "state": "ONTARIO, CANADA"
+        },
+        {
+          "name": "Alan Pierrot",
+          "key": "alanpierrot",
+          "roles": [
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Rajesh Sharma",
+          "key": "rajeshsharma",
+          "roles": [
+            "Director"
+          ],
+          "state": "QUEBEC, CANADA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2055822/000106299326004864/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2055822&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
+      "cik": "2153579",
+      "accession": "000215357926000001",
+      "entity": "Melio Health Solutions Ltd",
+      "industry": "Other Health Care",
+      "year_inc": 2025,
+      "state": "X0",
+      "amount_sold": 14000.0,
+      "first_sale": "2026-09-08",
+      "persons": [
+        {
+          "name": "Jonathan Carr",
+          "key": "jonathancarr",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "UNITED KINGDOM"
+        },
+        {
+          "name": "Helena Sergent",
+          "key": "helenasergent",
+          "roles": [
+            "Promoter"
+          ],
+          "state": "UNITED KINGDOM"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2153579/000215357926000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153579&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
       "cik": "2151911",
       "accession": "000215191126000002",
       "entity": "Gilpin Health, Inc.",
@@ -740,6 +1007,30 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1727255/000168316826006980/primary_doc.xml",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1727255&type=D&dateb=&owner=include&count=10",
       "filed": "20260908"
+    },
+    {
+      "cik": "1514900",
+      "accession": "000151490026000001",
+      "entity": "IDmission LLC",
+      "industry": "Other",
+      "year_inc": 2026,
+      "state": "CO",
+      "amount_sold": 1000000.0,
+      "first_sale": "2026-09-04",
+      "persons": [
+        {
+          "name": "Ashim Banerjee",
+          "key": "ashimbanerjee",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "COLORADO"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1514900/000151490026000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1514900&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
     },
     {
       "cik": "2140565",
@@ -975,6 +1266,46 @@
       "filed": "20260908"
     },
     {
+      "cik": "2140560",
+      "accession": "000214056026000002",
+      "entity": "CLIMB GROUP, INC.",
+      "industry": "Other Technology",
+      "year_inc": 2026,
+      "state": "TX",
+      "amount_sold": 5675000.0,
+      "first_sale": "2026-09-03",
+      "persons": [
+        {
+          "name": "JP LA TORRE",
+          "key": "jptorre",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "MARK GARTNER",
+          "key": "markgartner",
+          "roles": [
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "SAMUEL MERRIAM",
+          "key": "samuelmerriam",
+          "roles": [
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2140560/000214056026000002/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2140560&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
       "cik": "1958846",
       "accession": "000195884626000001",
       "entity": "Energy Domain, LLC",
@@ -1192,6 +1523,126 @@
       "filed": "20260903"
     },
     {
+      "cik": "2153772",
+      "accession": "000215377226000001",
+      "entity": "Telos Astra LLC",
+      "industry": "Other",
+      "year_inc": 2026,
+      "state": "NY",
+      "amount_sold": 7107000.0,
+      "first_sale": "2026-09-01",
+      "persons": [
+        {
+          "name": "Weston Reynolds",
+          "key": "westonreynolds",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "NEW YORK"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2153772/000215377226000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153772&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
+      "cik": "2154239",
+      "accession": "000215423926000001",
+      "entity": "Monteforte Group, LLC",
+      "industry": "Other",
+      "year_inc": 2026,
+      "state": "GA",
+      "amount_sold": 1500000.0,
+      "first_sale": "2026-09-01",
+      "persons": [
+        {
+          "name": "Adriano Dias Maciel",
+          "key": "adrianomaciel",
+          "roles": [
+            "Executive Officer",
+            "Director",
+            "Promoter"
+          ],
+          "state": "GEORGIA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2154239/000215423926000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154239&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
+      "cik": "1672040",
+      "accession": "000167204026000001",
+      "entity": "Innovu, Inc.",
+      "industry": "Other Technology",
+      "year_inc": 2026,
+      "state": "PA",
+      "amount_sold": 411675.0,
+      "first_sale": "2026-09-01",
+      "persons": [
+        {
+          "name": "Brian Dinello",
+          "key": "briandinello",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "PENNSYLVANIA"
+        },
+        {
+          "name": "Joel Adams",
+          "key": "joeladams",
+          "roles": [
+            "Director"
+          ],
+          "state": "PENNSYLVANIA"
+        },
+        {
+          "name": "Michael Mahoney",
+          "key": "michaelmahoney",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "PENNSYLVANIA"
+        },
+        {
+          "name": "Hugh O'Toole",
+          "key": "hughtoole",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "PENNSYLVANIA"
+        },
+        {
+          "name": "Brian Gaffney",
+          "key": "briangaffney",
+          "roles": [
+            "Director"
+          ],
+          "state": "PENNSYLVANIA"
+        },
+        {
+          "name": "David Coulter",
+          "key": "davidcoulter",
+          "roles": [
+            "Director"
+          ],
+          "state": "PENNSYLVANIA"
+        },
+        {
+          "name": "Joseph Landy",
+          "key": "josephlandy",
+          "roles": [
+            "Director"
+          ],
+          "state": "PENNSYLVANIA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1672040/000167204026000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1672040&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
       "cik": "2153095",
       "accession": "000215309526000002",
       "entity": "ILLIUM AC, INC.",
@@ -1264,6 +1715,29 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2151596/000215159626000001/primary_doc.xml",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2151596&type=D&dateb=&owner=include&count=10",
       "filed": "20260902"
+    },
+    {
+      "cik": "2153864",
+      "accession": "000215386426000001",
+      "entity": "Kelleran Research &amp; Investments, Inc.",
+      "industry": "Other",
+      "year_inc": 2026,
+      "state": "ID",
+      "amount_sold": 65000.0,
+      "first_sale": "2026-09-01",
+      "persons": [
+        {
+          "name": "Benjamin Russell Kelleran",
+          "key": "benjaminkelleran",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "IDAHO"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2153864/000215386426000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153864&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
     },
     {
       "cik": "2147740",
@@ -1383,6 +1857,78 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2153650/000215365026000001/primary_doc.xml",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153650&type=D&dateb=&owner=include&count=10",
       "filed": "20260908"
+    },
+    {
+      "cik": "2153361",
+      "accession": "000215336126000001",
+      "entity": "Serendipity Ridge, LLC",
+      "industry": "Other",
+      "year_inc": 2026,
+      "state": "CO",
+      "amount_sold": 635000.0,
+      "first_sale": "2026-08-31",
+      "persons": [
+        {
+          "name": "Becca Abara-Azubuike",
+          "key": "beccaazubuike",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "COLORADO"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2153361/000215336126000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153361&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
+      "cik": "1607807",
+      "accession": "000160780726000005",
+      "entity": "NV Gold Corp",
+      "industry": "Other",
+      "year_inc": 2026,
+      "state": "A1",
+      "amount_sold": 472094.0,
+      "first_sale": "2026-08-31",
+      "persons": [
+        {
+          "name": "John Watson",
+          "key": "johnwatson",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "COLORADO"
+        },
+        {
+          "name": "Ron Schmitz",
+          "key": "ronschmitz",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "BRITISH COLUMBIA, CANADA"
+        },
+        {
+          "name": "Alfred Stewart",
+          "key": "alfredstewart",
+          "roles": [
+            "Director"
+          ],
+          "state": "BRITISH COLUMBIA, CANADA"
+        },
+        {
+          "name": "John Kerr",
+          "key": "johnkerr",
+          "roles": [
+            "Director"
+          ],
+          "state": "BRITISH COLUMBIA, CANADA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1607807/000160780726000005/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1607807&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
     },
     {
       "cik": "1706556",
@@ -1517,6 +2063,47 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1158780/000121390026097418/primary_doc.xml",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1158780&type=D&dateb=&owner=include&count=10",
       "filed": "20260904"
+    },
+    {
+      "cik": "2146918",
+      "accession": "000214691826000001",
+      "entity": "Caddis Technologies, Inc.",
+      "industry": "Other Technology",
+      "year_inc": 2024,
+      "state": "OH",
+      "amount_sold": 849450.0,
+      "first_sale": "2026-08-28",
+      "persons": [
+        {
+          "name": "Kendall Byrd",
+          "key": "kendallbyrd",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "OHIO"
+        },
+        {
+          "name": "Stephan Haynes",
+          "key": "stephanhaynes",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "OHIO"
+        },
+        {
+          "name": "Janis Mitchell",
+          "key": "janismitchell",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "OHIO"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2146918/000214691826000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2146918&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
     },
     {
       "cik": "2152362",
@@ -1701,6 +2288,109 @@
       "filed": "20260902"
     },
     {
+      "cik": "1498403",
+      "accession": "000117891326004469",
+      "entity": "BioLineRx Ltd.",
+      "industry": "Biotechnology",
+      "year_inc": 2026,
+      "state": "L3",
+      "amount_sold": 3750000.0,
+      "first_sale": "2026-08-27",
+      "persons": [
+        {
+          "name": "Philip A. Serlin",
+          "key": "philipserlin",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "ISRAEL"
+        },
+        {
+          "name": "Mali Zeevi",
+          "key": "malizeevi",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "ISRAEL"
+        },
+        {
+          "name": "Ella Sorani",
+          "key": "ellasorani",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "ISRAEL"
+        },
+        {
+          "name": "Aharon Schwartz",
+          "key": "aharonschwartz",
+          "roles": [
+            "Director"
+          ],
+          "state": "ISRAEL"
+        },
+        {
+          "name": "Rami Dar",
+          "key": "ramidar",
+          "roles": [
+            "Director"
+          ],
+          "state": "ISRAEL"
+        },
+        {
+          "name": "BJ Bormann",
+          "key": "bjbormann",
+          "roles": [
+            "Director"
+          ],
+          "state": "ISRAEL"
+        },
+        {
+          "name": "Raphael Hofstein",
+          "key": "raphaelhofstein",
+          "roles": [
+            "Director"
+          ],
+          "state": "ISRAEL"
+        },
+        {
+          "name": "Avraham Molcho",
+          "key": "avrahammolcho",
+          "roles": [
+            "Director"
+          ],
+          "state": "ISRAEL"
+        },
+        {
+          "name": "Sandra Panem",
+          "key": "sandrapanem",
+          "roles": [
+            "Director"
+          ],
+          "state": "ISRAEL"
+        },
+        {
+          "name": "Shaoyu Yan",
+          "key": "shaoyuyan",
+          "roles": [
+            "Director"
+          ],
+          "state": "ISRAEL"
+        },
+        {
+          "name": "Gal Cohen",
+          "key": "galcohen",
+          "roles": [
+            "Director"
+          ],
+          "state": "ISRAEL"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1498403/000117891326004469/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1498403&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
       "cik": "1560293",
       "accession": "000121390026097552",
       "entity": "Tenon Medical, Inc.",
@@ -1819,6 +2509,29 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2149698/000214969826000001/primary_doc.xml",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2149698&type=D&dateb=&owner=include&count=10",
       "filed": "20260908"
+    },
+    {
+      "cik": "2060763",
+      "accession": "000206076326000004",
+      "entity": "Litewave.AI, Inc",
+      "industry": "Other Technology",
+      "year_inc": 2024,
+      "state": "CA",
+      "amount_sold": 100000.0,
+      "first_sale": "2026-08-27",
+      "persons": [
+        {
+          "name": "Anil Kumar Chandrupatla",
+          "key": "anilchandrupatla",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "CALIFORNIA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2060763/000206076326000004/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2060763&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
     },
     {
       "cik": "2151024",
@@ -1949,6 +2662,38 @@
       "filed": "20260831"
     },
     {
+      "cik": "2154072",
+      "accession": "000215407226000001",
+      "entity": "General Cybernetics Corp",
+      "industry": "Other Technology",
+      "year_inc": 2024,
+      "state": "MA",
+      "amount_sold": 15306982.0,
+      "first_sale": "2026-08-26",
+      "persons": [
+        {
+          "name": "Aydin Gokce",
+          "key": "aydingokce",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "MASSACHUSETTS"
+        },
+        {
+          "name": "Viraj Chhajed",
+          "key": "virajchhajed",
+          "roles": [
+            "Director"
+          ],
+          "state": "MASSACHUSETTS"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2154072/000215407226000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154072&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
       "cik": "2152880",
       "accession": "000215288026000001",
       "entity": "OnPeak Weather Group, Inc.",
@@ -1980,6 +2725,38 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2152880/000215288026000001/primary_doc.xml",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152880&type=D&dateb=&owner=include&count=10",
       "filed": "20260902"
+    },
+    {
+      "cik": "1879928",
+      "accession": "000187992826000003",
+      "entity": "Active Learning Sciences, Inc.",
+      "industry": "Other Technology",
+      "year_inc": 2026,
+      "state": "NY",
+      "amount_sold": 1500000.0,
+      "first_sale": "2026-08-26",
+      "persons": [
+        {
+          "name": "Stephen Michael Kosslyn",
+          "key": "stephenkosslyn",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "NEW YORK"
+        },
+        {
+          "name": "Elizabeth Palm Callaghan",
+          "key": "elizabethcallaghan",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "CALIFORNIA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1879928/000187992826000003/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1879928&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
     },
     {
       "cik": "2152960",
@@ -2099,6 +2876,29 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2039072/000168316826006990/primary_doc.xml",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2039072&type=D&dateb=&owner=include&count=10",
       "filed": "20260908"
+    },
+    {
+      "cik": "2154107",
+      "accession": "000109991026000258",
+      "entity": "Pahrump Valley Aggregates LLC",
+      "industry": "Construction",
+      "year_inc": 2026,
+      "state": "NV",
+      "amount_sold": 75000.0,
+      "first_sale": "2026-08-26",
+      "persons": [
+        {
+          "name": "James Michael Bradley",
+          "key": "jamesbradley",
+          "roles": [
+            "Director"
+          ],
+          "state": "UTAH"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2154107/000109991026000258/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154107&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
     },
     {
       "cik": "2004466",
@@ -2280,6 +3080,30 @@
       "filed": "20260901"
     },
     {
+      "cik": "2154152",
+      "accession": "000215415226000001",
+      "entity": "DeepMorph.ai, Inc.",
+      "industry": "Other Technology",
+      "year_inc": 2025,
+      "state": "CA",
+      "amount_sold": 8575000.0,
+      "first_sale": "2026-08-25",
+      "persons": [
+        {
+          "name": "Bin Ni",
+          "key": "binni",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2154152/000215415226000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154152&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
       "cik": "2153841",
       "accession": "000215384126000001",
       "entity": "Eckard Corporate Growth LLC",
@@ -2341,6 +3165,53 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2149731/000214973126000001/primary_doc.xml",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2149731&type=D&dateb=&owner=include&count=10",
       "filed": "20260908"
+    },
+    {
+      "cik": "2151900",
+      "accession": "000215190026000001",
+      "entity": "OTH Holding, LLC",
+      "industry": "Other",
+      "year_inc": 2026,
+      "state": "PA",
+      "amount_sold": 805000.0,
+      "first_sale": "2026-08-25",
+      "persons": [
+        {
+          "name": "Brian Lortie",
+          "key": "brianlortie",
+          "roles": [
+            "Director"
+          ],
+          "state": "PENNSYLVANIA"
+        },
+        {
+          "name": "Roy Levitt",
+          "key": "roylevitt",
+          "roles": [
+            "Director"
+          ],
+          "state": "PENNSYLVANIA"
+        },
+        {
+          "name": "Paul Barone",
+          "key": "paulbarone",
+          "roles": [
+            "Director"
+          ],
+          "state": "PENNSYLVANIA"
+        },
+        {
+          "name": "Stephen Tullman",
+          "key": "stephentullman",
+          "roles": [
+            "Director"
+          ],
+          "state": "PENNSYLVANIA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2151900/000215190026000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2151900&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
     },
     {
       "cik": "2148357",
@@ -2492,6 +3363,62 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2152342/000215234226000001/primary_doc.xml",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152342&type=D&dateb=&owner=include&count=10",
       "filed": "20260908"
+    },
+    {
+      "cik": "2153574",
+      "accession": "000215357426000001",
+      "entity": "Cloverleaf Bio, Inc.",
+      "industry": "Biotechnology",
+      "year_inc": 2023,
+      "state": "CT",
+      "amount_sold": 14799988.0,
+      "first_sale": "2026-08-24",
+      "persons": [
+        {
+          "name": "Austin Draycott",
+          "key": "austindraycott",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "CONNECTICUT"
+        },
+        {
+          "name": "Cole Lewis",
+          "key": "colelewis",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "CONNECTICUT"
+        },
+        {
+          "name": "Dima Kuzmin",
+          "key": "dimakuzmin",
+          "roles": [
+            "Director"
+          ],
+          "state": "CONNECTICUT"
+        },
+        {
+          "name": "Christina Vorvis",
+          "key": "christinavorvis",
+          "roles": [
+            "Director"
+          ],
+          "state": "CONNECTICUT"
+        },
+        {
+          "name": "Matthias Samwer",
+          "key": "matthiassamwer",
+          "roles": [
+            "Director"
+          ],
+          "state": "CONNECTICUT"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2153574/000215357426000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153574&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
     },
     {
       "cik": "1836875",
@@ -3043,6 +3970,46 @@
       "filed": "20260904"
     },
     {
+      "cik": "2152850",
+      "accession": "000215285026000001",
+      "entity": "Radius of Self, Inc",
+      "industry": "Computers",
+      "year_inc": 2026,
+      "state": "FL",
+      "amount_sold": 3605000.0,
+      "first_sale": "2026-08-23",
+      "persons": [
+        {
+          "name": "Simon Henry Minching",
+          "key": "simonminching",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "FLORIDA"
+        },
+        {
+          "name": "Priya Mehta",
+          "key": "priyamehta",
+          "roles": [
+            "Director"
+          ],
+          "state": "NEW JERSEY"
+        },
+        {
+          "name": "Roopam Garg",
+          "key": "roopamgarg",
+          "roles": [
+            "Director"
+          ],
+          "state": "NEBRASKA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2152850/000215285026000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152850&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
       "cik": "2152544",
       "accession": "000215254426000001",
       "entity": "Studio58, Inc.",
@@ -3267,6 +4234,29 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2068517/000206851726000001/primary_doc.xml",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2068517&type=D&dateb=&owner=include&count=10",
       "filed": "20260904"
+    },
+    {
+      "cik": "2153999",
+      "accession": "000215399926000001",
+      "entity": "Definition II-E LLC",
+      "industry": "Other",
+      "year_inc": 2026,
+      "state": "NY",
+      "amount_sold": 30300000.0,
+      "first_sale": "2026-08-21",
+      "persons": [
+        {
+          "name": "Weston Reynolds",
+          "key": "westonreynolds",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "NEW YORK"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2153999/000215399926000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153999&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
     },
     {
       "cik": "2153259",
@@ -3620,6 +4610,46 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1754180/000175418026000002/primary_doc.xml",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1754180&type=D&dateb=&owner=include&count=10",
       "filed": "20260831"
+    },
+    {
+      "cik": "2150351",
+      "accession": "000165742526000006",
+      "entity": "PvP Protocol Holding Inc.",
+      "industry": "Other Technology",
+      "year_inc": 2026,
+      "state": "FL",
+      "amount_sold": 25000.0,
+      "first_sale": "2026-08-21",
+      "persons": [
+        {
+          "name": "Gabriel Meza",
+          "key": "gabrielmeza",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "FLORIDA"
+        },
+        {
+          "name": "Ramy Bekheit",
+          "key": "ramybekheit",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "FLORIDA"
+        },
+        {
+          "name": "Adrian Meza",
+          "key": "adrianmeza",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "FLORIDA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2150351/000165742526000006/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2150351&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
     },
     {
       "cik": "1728117",
@@ -5776,6 +6806,118 @@
       "filed": "20260831"
     },
     {
+      "cik": "1376277",
+      "accession": "000137627726000006",
+      "entity": "KURTOSYS SYSTEMS INC",
+      "industry": "Other Technology",
+      "year_inc": 2026,
+      "state": "NC",
+      "amount_sold": 2999999.0,
+      "first_sale": "2026-08-17",
+      "persons": [
+        {
+          "name": "Lee Godfrey",
+          "key": "leegodfrey",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "NORTH CAROLINA"
+        },
+        {
+          "name": "Justin Larsen",
+          "key": "justinlarsen",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "NORTH CAROLINA"
+        },
+        {
+          "name": "Philip Black",
+          "key": "philipblack",
+          "roles": [
+            "Director"
+          ],
+          "state": "NORTH CAROLINA"
+        },
+        {
+          "name": "Ann Roughead",
+          "key": "annroughead",
+          "roles": [
+            "Director"
+          ],
+          "state": "NORTH CAROLINA"
+        },
+        {
+          "name": "Harry Thompson",
+          "key": "harrythompson",
+          "roles": [
+            "Director"
+          ],
+          "state": "NORTH CAROLINA"
+        },
+        {
+          "name": "David Pesikoff",
+          "key": "davidpesikoff",
+          "roles": [
+            "Director"
+          ],
+          "state": "NORTH CAROLINA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1376277/000137627726000006/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1376277&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
+      "cik": "1826176",
+      "accession": "000182617626000003",
+      "entity": "Animal Biosciences, Inc.",
+      "industry": "Other",
+      "year_inc": 2026,
+      "state": "MA",
+      "amount_sold": 2320000.0,
+      "first_sale": "2026-08-17",
+      "persons": [
+        {
+          "name": "Virginia Rentko",
+          "key": "virginiarentko",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "MASSACHUSETTS"
+        },
+        {
+          "name": "Nicholas Sinclair",
+          "key": "nicholassinclair",
+          "roles": [
+            "Director"
+          ],
+          "state": "MASSACHUSETTS"
+        },
+        {
+          "name": "Petr Sramek",
+          "key": "petrsramek",
+          "roles": [
+            "Director"
+          ],
+          "state": "MASSACHUSETTS"
+        },
+        {
+          "name": "Jared Barlow",
+          "key": "jaredbarlow",
+          "roles": [
+            "Director"
+          ],
+          "state": "MASSACHUSETTS"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1826176/000182617626000003/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1826176&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
       "cik": "1618436",
       "accession": "000161843626000003",
       "entity": "Prompt.io Inc.",
@@ -6478,6 +7620,63 @@
       "filed": "20260903"
     },
     {
+      "cik": "1733867",
+      "accession": "000091406226000054",
+      "entity": "Airway Therapeutics, Inc.",
+      "industry": "Biotechnology",
+      "year_inc": 2026,
+      "state": "GA",
+      "amount_sold": 43496282.0,
+      "first_sale": "2026-08-10",
+      "persons": [
+        {
+          "name": "Marc Salzberg",
+          "key": "marcsalzberg",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "GEORGIA"
+        },
+        {
+          "name": "Alan Wolk",
+          "key": "alanwolk",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "GEORGIA"
+        },
+        {
+          "name": "Doug Loftus",
+          "key": "dougloftus",
+          "roles": [
+            "Director"
+          ],
+          "state": "GEORGIA"
+        },
+        {
+          "name": "Elise Scroggs Panayotopoulous",
+          "key": "elisepanayotopoulous",
+          "roles": [
+            "Director"
+          ],
+          "state": "GEORGIA"
+        },
+        {
+          "name": "Joe Todicsco",
+          "key": "joetodicsco",
+          "roles": [
+            "Director"
+          ],
+          "state": "GEORGIA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1733867/000091406226000054/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1733867&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
       "cik": "2154002",
       "accession": "000215400226000001",
       "entity": "Allium Mixed-Use, LLC",
@@ -6865,6 +8064,39 @@
       "filed": "20260904"
     },
     {
+      "cik": "2154257",
+      "accession": "000215425726000001",
+      "entity": "IT'S A FLEX Ltd LIABILITY Co",
+      "industry": "Other",
+      "year_inc": 2026,
+      "state": "NY",
+      "amount_sold": 10000.0,
+      "first_sale": "2026-08-03",
+      "persons": [
+        {
+          "name": "Daniel Levin",
+          "key": "daniellevin",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "NEW YORK"
+        },
+        {
+          "name": "Elizabeth Piccoli",
+          "key": "elizabethpiccoli",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "NEW YORK"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2154257/000215425726000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154257&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
       "cik": "2143529",
       "accession": "000214352926000001",
       "entity": "Approval of Strangers Ltd Liability Co",
@@ -6919,6 +8151,29 @@
       "filed": "20260904"
     },
     {
+      "cik": "2128624",
+      "accession": "000212862426000002",
+      "entity": "Whidbrew Technologies, Inc.",
+      "industry": "Other Technology",
+      "year_inc": 2026,
+      "state": "WA",
+      "amount_sold": 59641.0,
+      "first_sale": "2026-07-30",
+      "persons": [
+        {
+          "name": "William Robert Harr",
+          "key": "williamharr",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "WASHINGTON"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2128624/000212862426000002/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2128624&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
       "cik": "2149977",
       "accession": "000214997726000002",
       "entity": "Florence Corp.",
@@ -6949,6 +8204,112 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2149977/000214997726000002/primary_doc.xml",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2149977&type=D&dateb=&owner=include&count=10",
       "filed": "20260831"
+    },
+    {
+      "cik": "2019351",
+      "accession": "000201935126000001",
+      "entity": "Celero Communications, Inc.",
+      "industry": "Other Technology",
+      "year_inc": 2024,
+      "state": "CA",
+      "amount_sold": 272999932.0,
+      "first_sale": "2026-07-28",
+      "persons": [
+        {
+          "name": "Stefan Dyckerhoff",
+          "key": "stefandyckerhoff",
+          "roles": [
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "James Luo",
+          "key": "jamesluo",
+          "roles": [
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Gavin Baker",
+          "key": "gavinbaker",
+          "roles": [
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Robert Abbott",
+          "key": "robertabbott",
+          "roles": [
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Nariman Yousefi",
+          "key": "narimanyousefi",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        },
+        {
+          "name": "Oscar Agazzi",
+          "key": "oscaragazzi",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "CALIFORNIA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2019351/000201935126000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2019351&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
+      "cik": "1979890",
+      "accession": "000197989026000002",
+      "entity": "Jumplights, Inc.",
+      "industry": "Other Technology",
+      "year_inc": 2026,
+      "state": "MD",
+      "amount_sold": 308000.0,
+      "first_sale": "2026-07-28",
+      "persons": [
+        {
+          "name": "John Peeler",
+          "key": "johnpeeler",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "MARYLAND"
+        },
+        {
+          "name": "Matteo del Ninno",
+          "key": "matteoninno",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "MARYLAND"
+        },
+        {
+          "name": "Tom Scholl",
+          "key": "tomscholl",
+          "roles": [
+            "Director"
+          ],
+          "state": "MARYLAND"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1979890/000197989026000002/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1979890&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
     },
     {
       "cik": "2153670",
@@ -7320,6 +8681,64 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2127868/000212786826000002/primary_doc.xml",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2127868&type=D&dateb=&owner=include&count=10",
       "filed": "20260831"
+    },
+    {
+      "cik": "2145894",
+      "accession": "000214589426000002",
+      "entity": "Prometheus Hyperscale",
+      "industry": "Other Technology",
+      "year_inc": 2024,
+      "state": "TX",
+      "amount_sold": 30336526.0,
+      "first_sale": "2026-06-30",
+      "persons": [
+        {
+          "name": "Trenton Thornock",
+          "key": "trentonthornock",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "Trevor Neilson",
+          "key": "trevorneilson",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "Marc Chennault",
+          "key": "marcchennault",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "Bernard Looney",
+          "key": "bernardlooney",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "Matthew Wiener",
+          "key": "matthewwiener",
+          "roles": [
+            "Director"
+          ],
+          "state": "TEXAS"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2145894/000214589426000002/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2145894&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
     },
     {
       "cik": "2153260",
@@ -7937,6 +9356,46 @@
       "filed": "20260908"
     },
     {
+      "cik": "2154278",
+      "accession": "000215427826000001",
+      "entity": "Legacy AI Technologies, Inc.",
+      "industry": "Other Technology",
+      "year_inc": 2026,
+      "state": "WY",
+      "amount_sold": 600000.0,
+      "first_sale": "2026-05-12",
+      "persons": [
+        {
+          "name": "Kaleb Koslowsky",
+          "key": "kalebkoslowsky",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Tim Walls",
+          "key": "timwalls",
+          "roles": [
+            "Director"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Georgia Spicer",
+          "key": "georgiaspicer",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "WYOMING"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2154278/000215427826000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154278&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
+    },
+    {
       "cik": "1849837",
       "accession": "000184983726000006",
       "entity": "Intelligent Mapping, LLC",
@@ -8105,6 +9564,37 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2126768/000212676826000001/primary_doc.xml",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2126768&type=D&dateb=&owner=include&count=10",
       "filed": "20260903"
+    },
+    {
+      "cik": "2152238",
+      "accession": "000137647426000607",
+      "entity": "Phoenix Hipwear Corp",
+      "industry": "Other",
+      "year_inc": 2024,
+      "state": "TX",
+      "amount_sold": 30000.0,
+      "first_sale": "2026-03-27",
+      "persons": [
+        {
+          "name": "Natasha Rhea Williams",
+          "key": "natashawilliams",
+          "roles": [
+            "Director"
+          ],
+          "state": "TEXAS"
+        },
+        {
+          "name": "Christopher William Hollister",
+          "key": "christopherhollister",
+          "roles": [
+            "Director"
+          ],
+          "state": "TEXAS"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2152238/000137647426000607/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152238&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
     },
     {
       "cik": "2152948",
@@ -8389,6 +9879,39 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2115532/000211553226000001/primary_doc.xml",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2115532&type=D&dateb=&owner=include&count=10",
       "filed": "20260904"
+    },
+    {
+      "cik": "2142635",
+      "accession": "000214263526000001",
+      "entity": "noc0 Inc.",
+      "industry": "Other Technology",
+      "year_inc": 2026,
+      "state": "NY",
+      "amount_sold": 160000.0,
+      "first_sale": "2026-01-18",
+      "persons": [
+        {
+          "name": "Joseph Turian",
+          "key": "josephturian",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "NEW YORK"
+        },
+        {
+          "name": "Tenzin Wangdhen",
+          "key": "tenzinwangdhen",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "NEW YORK"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2142635/000214263526000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2142635&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
     },
     {
       "cik": "2107015",
@@ -8876,6 +10399,81 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1849837/000184983726000004/primary_doc.xml",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1849837&type=D&dateb=&owner=include&count=10",
       "filed": "20260831"
+    },
+    {
+      "cik": "1999613",
+      "accession": "000199961326000004",
+      "entity": "Faradyne Power System Corp.",
+      "industry": "Other Technology",
+      "year_inc": 2023,
+      "state": "FL",
+      "amount_sold": 2061087.0,
+      "first_sale": "2023-11-03",
+      "persons": [
+        {
+          "name": "Curtis Pohl",
+          "key": "curtispohl",
+          "roles": [
+            "Executive Officer",
+            "Director",
+            "Promoter"
+          ],
+          "state": "FLORIDA"
+        },
+        {
+          "name": "Jose Tost",
+          "key": "josetost",
+          "roles": [
+            "Executive Officer",
+            "Director",
+            "Promoter"
+          ],
+          "state": "FLORIDA"
+        },
+        {
+          "name": "Sam Weaver",
+          "key": "samweaver",
+          "roles": [
+            "Executive Officer",
+            "Director",
+            "Promoter"
+          ],
+          "state": "FLORIDA"
+        },
+        {
+          "name": "Lloyd Blain Nicholls",
+          "key": "lloydnicholls",
+          "roles": [
+            "Executive Officer",
+            "Director",
+            "Promoter"
+          ],
+          "state": "FLORIDA"
+        },
+        {
+          "name": "Paul Burke",
+          "key": "paulburke",
+          "roles": [
+            "Executive Officer",
+            "Director",
+            "Promoter"
+          ],
+          "state": "FLORIDA"
+        },
+        {
+          "name": "Carlos Tejera",
+          "key": "carlostejera",
+          "roles": [
+            "Executive Officer",
+            "Director",
+            "Promoter"
+          ],
+          "state": "FLORIDA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1999613/000199961326000004/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1999613&type=D&dateb=&owner=include&count=10",
+      "filed": "20260909"
     }
   ],
   "note": "New US entities filing their first Form D in a frontier-adjacent industry group. Pedigree matching and scoring happen in build_exit_watch.py \u2014 nothing here is yet a claim about anyone."
