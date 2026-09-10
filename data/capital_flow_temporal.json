@@ -1,6 +1,101 @@
 {
-  "generatedAt": "2026-09-10T09:35:43+00:00",
+  "generatedAt": "2026-09-10T14:16:56+00:00",
   "matrix": {
+    "ai-hardware-inference": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 1286829662,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Tenstorrent",
+            "amount": 1286829662,
+            "date": "2026-09-09",
+            "source": "formd",
+            "investors": [
+              "Samsung Securities",
+              "AFW Partners",
+              "Bezos Expeditions",
+              "Hyundai Motor Group",
+              "LG Technology Ventures",
+              "Fidelity Management & Research Company",
+              "Baillie Gifford",
+              "XTX Markets",
+              "Export Development Canada",
+              "Healthcare of Ontario Pension Plan",
+              "Corner Capital",
+              "Protagonist",
+              "MESH",
+              "Innovation Engine"
+            ]
+          }
+        ],
+        "investors": []
+      },
+      "2026-Q2": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Cerebras",
+            "amount": null,
+            "date": "2026-05",
+            "source": "recentEvent",
+            "investors": [
+              "Sam Altman",
+              "Andy Bechtolsheim",
+              "Greg Brockman",
+              "Adam D'Angelo",
+              "Mark Leslie",
+              "Nick McKeown",
+              "David Perlmutter",
+              "Saiyed Atiq Raza",
+              "Jeff Rothschild",
+              "Pradeep Sindhu",
+              "In-Q-Tel"
+            ]
+          }
+        ],
+        "investors": [
+          "In-Q-Tel"
+        ]
+      }
+    },
+    "ai-drug-discovery": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 65965000,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Iambic Therapeutics",
+            "amount": 65965000,
+            "date": "2026-09-09",
+            "source": "formd",
+            "investors": [
+              "Ascenta Capital",
+              "Abingworth",
+              "Sequoia Capital",
+              "NVIDIA",
+              "Illumina Ventures",
+              "OrbiMed",
+              "Coatue",
+              "Catalio Capital Management",
+              "Nexus Venture Partners",
+              "Qatar Investment Authority",
+              "Regeneron Ventures",
+              "Everbright Biofund",
+              "Pegasus Tech Ventures",
+              "Tao Capital"
+            ]
+          }
+        ],
+        "investors": [
+          "Sequoia Capital"
+        ]
+      }
+    },
     "geothermal-next-gen": {
       "2026-Q3": {
         "deals": 1,
@@ -25,63 +120,6 @@
         "investors": [
           "Engine Ventures",
           "Khosla Ventures"
-        ]
-      }
-    },
-    "defense-munitions-energetics": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 647000679,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Castelion",
-            "amount": 647000679,
-            "date": "2026-08-28",
-            "source": "formd",
-            "investors": [
-              "Lightspeed Venture Partners",
-              "a16z",
-              "Lavrock Ventures",
-              "Cantos",
-              "First In",
-              "BlueYard Capital",
-              "Interlagos",
-              "Silicon Valley Bank",
-              "General Catalyst",
-              "Harpoon Ventures",
-              "Silent Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "General Catalyst",
-          "Harpoon Ventures",
-          "Lightspeed Venture Partners",
-          "Silent Ventures"
-        ]
-      },
-      "2025-Q1": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Allen Control Systems",
-            "amount": null,
-            "date": "2025-03",
-            "source": "recentEvent",
-            "investors": [
-              "Craft Ventures",
-              "Inspired Capital",
-              "Rally Ventures",
-              "State of Wisconsin Investment Board",
-              "Silent Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "Silent Ventures"
         ]
       }
     },
@@ -353,6 +391,31 @@
           "Lightspeed Venture Partners",
           "Lux Capital",
           "Point72 Ventures",
+          "Silent Ventures"
+        ]
+      }
+    },
+    "defense-munitions-energetics": {
+      "2025-Q1": {
+        "deals": 1,
+        "totalSold": null,
+        "companiesWithUnknownAmount": 1,
+        "companies": [
+          {
+            "name": "Allen Control Systems",
+            "amount": null,
+            "date": "2025-03",
+            "source": "recentEvent",
+            "investors": [
+              "Craft Ventures",
+              "Inspired Capital",
+              "Rally Ventures",
+              "State of Wisconsin Investment Board",
+              "Silent Ventures"
+            ]
+          }
+        ],
+        "investors": [
           "Silent Ventures"
         ]
       }
@@ -927,37 +990,6 @@
         "investors": [
           "Khosla Ventures",
           "Lightspeed Venture Partners"
-        ]
-      }
-    },
-    "ai-hardware-inference": {
-      "2026-Q2": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Cerebras",
-            "amount": null,
-            "date": "2026-05",
-            "source": "recentEvent",
-            "investors": [
-              "Sam Altman",
-              "Andy Bechtolsheim",
-              "Greg Brockman",
-              "Adam D'Angelo",
-              "Mark Leslie",
-              "Nick McKeown",
-              "David Perlmutter",
-              "Saiyed Atiq Raza",
-              "Jeff Rothschild",
-              "Pradeep Sindhu",
-              "In-Q-Tel"
-            ]
-          }
-        ],
-        "investors": [
-          "In-Q-Tel"
         ]
       }
     },
@@ -1555,6 +1587,62 @@
     }
   },
   "vcAttribution": {
+    "Sequoia Capital": {
+      "2026-Q3": [
+        {
+          "company": "Iambic Therapeutics",
+          "cluster": "ai-drug-discovery",
+          "date": "2026-09-09",
+          "source": "formd"
+        },
+        {
+          "company": "RobCo",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Shield AI",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-03",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Physical Intelligence",
+          "cluster": "ai-robotics-embodied",
+          "date": "2026-03",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Waymo",
+          "cluster": "ai-autonomous-driving",
+          "date": "2026-02",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Neuralink",
+          "cluster": "brain-computer-interface",
+          "date": "2026-03",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Skild AI",
+          "cluster": "ai-robotics-embodied",
+          "date": "2026-01",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Collaborative Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Engine Ventures": {
       "2026-Q3": [
         {
@@ -1625,172 +1713,6 @@
         }
       ]
     },
-    "Lightspeed Venture Partners": {
-      "2026-Q3": [
-        {
-          "company": "Castelion",
-          "cluster": "defense-munitions-energetics",
-          "date": "2026-08-28",
-          "source": "formd"
-        },
-        {
-          "company": "RobCo",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Helion",
-          "cluster": "fusion-magnetic-confinement",
-          "date": "2026-06",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Saronic",
-          "cluster": "autonomy-maritime",
-          "date": "2026-03",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Skild AI",
-          "cluster": "ai-robotics-embodied",
-          "date": "2026-01",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "General Catalyst": {
-      "2026-Q3": [
-        {
-          "company": "Castelion",
-          "cluster": "defense-munitions-energetics",
-          "date": "2026-08-28",
-          "source": "formd"
-        },
-        {
-          "company": "Applied Intuition",
-          "cluster": "ai-autonomous-driving",
-          "date": "2026-07",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Orangewood Labs",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2026-09",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Relativity Space",
-          "cluster": "space-launch-large",
-          "date": "2025-06",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Collaborative Robotics",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Harpoon Ventures": {
-      "2026-Q3": [
-        {
-          "company": "Castelion",
-          "cluster": "defense-munitions-energetics",
-          "date": "2026-08-28",
-          "source": "formd"
-        }
-      ],
-      "2025-Q3": [
-        {
-          "company": "Astranis",
-          "cluster": "space-ground-comms",
-          "date": "2025-07",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Silent Ventures": {
-      "2026-Q3": [
-        {
-          "company": "Castelion",
-          "cluster": "defense-munitions-energetics",
-          "date": "2026-08-28",
-          "source": "formd"
-        },
-        {
-          "company": "Hadrian",
-          "cluster": "manufacturing-reshoring",
-          "date": "2026-08",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Dominion Dynamics",
-          "cluster": "arctic-defense",
-          "date": "2026-06",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Saronic",
-          "cluster": "autonomy-maritime",
-          "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q1": [
-        {
-          "company": "Allen Control Systems",
-          "cluster": "defense-munitions-energetics",
-          "date": "2025-03",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Bessemer Venture Partners": {
       "2026-Q2": [
         {
@@ -1833,6 +1755,46 @@
           "company": "Deep Isolation",
           "cluster": "nuclear-services-fuel",
           "date": "2025-06",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Silent Ventures": {
+      "2026-Q2": [
+        {
+          "company": "Dominion Dynamics",
+          "cluster": "arctic-defense",
+          "date": "2026-06",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Saronic",
+          "cluster": "autonomy-maritime",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q1": [
+        {
+          "company": "Allen Control Systems",
+          "cluster": "defense-munitions-energetics",
+          "date": "2025-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q3": [
+        {
+          "company": "Hadrian",
+          "cluster": "manufacturing-reshoring",
+          "date": "2026-08",
           "source": "recentEvent"
         }
       ]
@@ -1907,6 +1869,50 @@
           "company": "Gecko Robotics",
           "cluster": "robotics-cobots-warehouse",
           "date": "2025-07",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "General Catalyst": {
+      "2026-Q2": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Relativity Space",
+          "cluster": "space-launch-large",
+          "date": "2025-06",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Collaborative Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q3": [
+        {
+          "company": "Applied Intuition",
+          "cluster": "ai-autonomous-driving",
+          "date": "2026-07",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Orangewood Labs",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2026-09",
           "source": "recentEvent"
         }
       ]
@@ -2137,39 +2143,25 @@
         }
       ]
     },
-    "Riot Ventures": {
-      "2026-Q1": [
+    "Lightspeed Venture Partners": {
+      "2026-Q2": [
         {
-          "company": "Shield AI",
+          "company": "Anduril Industries",
           "cluster": "autonomy-drone-military",
-          "date": "2026-03",
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Helion",
+          "cluster": "fusion-magnetic-confinement",
+          "date": "2026-06",
           "source": "recentEvent"
         }
-      ]
-    },
-    "Sequoia Capital": {
+      ],
       "2026-Q1": [
         {
-          "company": "Shield AI",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-03",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Physical Intelligence",
-          "cluster": "ai-robotics-embodied",
-          "date": "2026-03",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Waymo",
-          "cluster": "ai-autonomous-driving",
-          "date": "2026-02",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Neuralink",
-          "cluster": "brain-computer-interface",
+          "company": "Saronic",
+          "cluster": "autonomy-maritime",
           "date": "2026-03",
           "source": "recentEvent"
         },
@@ -2180,6 +2172,14 @@
           "source": "recentEvent"
         }
       ],
+      "2025-Q2": [
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ],
       "2026-Q3": [
         {
           "company": "RobCo",
@@ -2187,12 +2187,14 @@
           "date": "2026-07",
           "source": "recentEvent"
         }
-      ],
-      "2025-Q2": [
+      ]
+    },
+    "Riot Ventures": {
+      "2026-Q1": [
         {
-          "company": "Collaborative Robotics",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2025-04",
+          "company": "Shield AI",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-03",
           "source": "recentEvent"
         }
       ]
@@ -2263,6 +2265,16 @@
           "company": "Boom Supersonic",
           "cluster": "supersonic-hypersonic-transport",
           "date": "2025-12",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Harpoon Ventures": {
+      "2025-Q3": [
+        {
+          "company": "Astranis",
+          "cluster": "space-ground-comms",
+          "date": "2025-07",
           "source": "recentEvent"
         }
       ]
@@ -2359,9 +2371,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 59,
-    "totalUSDSold": 826265701,
-    "uniqueClusters": 36,
+    "totalDealsTracked": 60,
+    "totalUSDSold": 1532059684,
+    "uniqueClusters": 37,
     "uniqueQuarters": 9,
     "uniqueVCs": 21,
     "quarterRange": [

@@ -1,107 +1,118 @@
 // Auto-generated news signals
-// Last updated: 2026-09-10T10:56:08.054Z
+// Last updated: 2026-09-10T14:15:37.378Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1789037768054,
+    "id": 1789049737378,
+    "type": "funding",
+    "company": "Mach Industries",
+    "headline": "Defense tech Mach Industries doubles valuation to $3.7B in 3 months",
+    "source": "TechCrunch",
+    "time": "1h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/09/10/defense-tech-mach-industries-doubles-valuation-to-3-7b-in-3-months/"
+  },
+  {
+    "id": 1789049737379,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "WOW! Tesla &#038; SpaceX’s Huge Unlocks—Grok 4.7 and AGI",
     "source": "Next Big Future",
-    "time": "8h ago",
+    "time": "12h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/09/wow-tesla-spacexs-huge-unlocks-grok-4-7-and-agi.html"
   },
   {
-    "id": 1789037768055,
+    "id": 1789049737380,
     "type": "hire",
     "company": "OpenAI",
     "headline": "OpenAI adds a prominent AI doomer to its board of directors",
     "source": "TechCrunch",
-    "time": "12h ago",
+    "time": "15h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/"
   },
   {
-    "id": 1789037768056,
+    "id": 1789049737381,
     "type": "news",
     "company": "Anthropic",
     "headline": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
     "source": "Wired",
-    "time": "12h ago",
+    "time": "16h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/"
   },
   {
-    "id": 1789037768057,
+    "id": 1789049737382,
     "type": "news",
     "company": "Monumental",
     "headline": "What bricklaying has taught Monumental about robots in construction",
     "source": "The Robot Report",
-    "time": "13h ago",
+    "time": "17h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/"
   },
   {
-    "id": 1789037768058,
+    "id": 1789049737383,
     "type": "contract",
     "company": "Relativity Space",
     "headline": "NASA Adds Relativity Space’s Terran R to Launch Services Contract",
     "source": "NASA Breaking News",
-    "time": "14h ago",
+    "time": "18h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://www.nasa.gov/news-release/nasa-adds-relativity-spaces-terran-r-to-launch-services-contract/"
   },
   {
-    "id": 1789037768059,
+    "id": 1789049737384,
     "type": "milestone",
     "company": "WB Group",
     "headline": "Poland&#8217;s WB Group unveils Warmate 30, latest in drone recon/strike system",
     "source": "Breaking Defense",
-    "time": "16h ago",
+    "time": "19h ago",
     "impact": "low",
     "unread": false,
     "link": "https://breakingdefense.com/2026/09/polands-wb-group-unveils-warmate-30-latest-in-drone-recon-strike-system/"
   },
   {
-    "id": 1789037768060,
+    "id": 1789049737385,
     "type": "news",
     "company": "Deterrence",
     "headline": "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture",
     "source": "War on the Rocks",
-    "time": "17h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": false,
     "link": "https://warontherocks.com/forced-into-the-right-decision-a-look-at-u-s-land-based-deterrence-posture/"
   },
   {
-    "id": 1789037768061,
+    "id": 1789049737386,
     "type": "news",
     "company": "Vention",
     "headline": "Vention opens Physical AI Lab for manufacturing in Montreal",
     "source": "The Robot Report",
-    "time": "19h ago",
+    "time": "22h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/"
   },
   {
-    "id": 1789037768062,
+    "id": 1789049737387,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "The Download: OpenAI’s turning point for math and a battery record",
     "source": "MIT Tech Review",
-    "time": "22h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/"
   },
   {
-    "id": 1789037768063,
+    "id": 1789049737388,
     "type": "news",
     "company": "Vast",
     "headline": "NSA wants AI to help analysts sift vast data troves",
@@ -112,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/technology/2026/09/nsa-ai-analysts-data/415860/"
   },
   {
-    "id": 1789037768064,
+    "id": 1789049737389,
     "type": "news",
     "company": "Humanoid",
     "headline": "AI can’t outrun a humanoid&#8217;s hardware",
@@ -123,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/"
   },
   {
-    "id": 1789037768065,
+    "id": 1789049737390,
     "type": "funding",
     "company": "Mistral AI",
     "headline": "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round",
@@ -134,40 +145,29 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://news.crunchbase.com/venture/europe-record-setting-mistral-ai-raise/"
   },
   {
-    "id": 1789037768066,
-    "type": "news",
-    "company": "OpenAI",
-    "headline": "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul",
-    "source": "Wired",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/"
-  },
-  {
-    "id": 1789037768067,
+    "id": 1789049737391,
     "type": "ipo",
     "company": "Vertical Aerospace",
     "headline": "Vertical Aerospace’s eVTOL Can Fly. The Passenger Business Is Still Unproven",
     "source": "CleanTechnica",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://cleantechnica.com/2026/09/08/vertical-aerospace-evtol-financing-passenger-market/"
   },
   {
-    "id": 1789037768068,
+    "id": 1789049737392,
     "type": "news",
     "company": "Rivian",
     "headline": "Rivian’s Gambit for Full Autonomy",
     "source": "IEEE Spectrum",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://spectrum.ieee.org/rivian-self-driving"
   },
   {
-    "id": 1789037768069,
+    "id": 1789049737393,
     "type": "news",
     "company": "Humanoid",
     "headline": "XPeng starts IRON humanoid robot production as Tesla Optimus stalls",
@@ -178,18 +178,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/"
   },
   {
-    "id": 1789037768070,
+    "id": 1789049737394,
     "type": "ipo",
     "company": "Agility Robotics",
     "headline": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
     "source": "The Robot Report",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/"
   },
   {
-    "id": 1789037768071,
+    "id": 1789049737395,
     "type": "milestone",
     "company": "Zoox",
     "headline": "Zoox Begins Robotaxi Testing in Houston",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/09/06/zoox-begins-robotaxi-testing-in-houston/"
   },
   {
-    "id": 1789037768072,
+    "id": 1789049737396,
     "type": "news",
     "company": "Waymo",
     "headline": "Jason Calcanis is Wrong About Cybercab, Waymo, and Uber — Here&#8217;s Why",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/09/skip-navigation-create-9-avatar-image-jason-calcanis-is-wrong-about-cybercab-waymo-and-uber-heres-why.html"
   },
   {
-    "id": 1789037768073,
+    "id": 1789049737397,
     "type": "news",
     "company": "OpenAI",
     "headline": "Talking About OpenAI Astra AKA GPT 6 and AGI",
