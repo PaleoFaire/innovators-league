@@ -11,13 +11,13 @@
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 1.7,
+      "avg_change": 1.77,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": 0.79,
+      "avg_change": 0.83,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.99,
+      "avg_change": -5.49,
       "count": 3
     },
     "transportation": {
@@ -101,15 +101,15 @@
       -5.88
     ],
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -6.94
-    ],
-    [
       "PL",
       "Planet Labs",
       -10.59
+    ],
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -11.43
     ]
   ],
-  "lastUpdated": "2026-09-10 06:02:13"
+  "lastUpdated": "2026-09-10 12:16:38"
 }
