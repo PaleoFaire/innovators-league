@@ -1,7 +1,11 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-09 10:59:16 UTC
+// Last updated: 2026-09-10 10:56:18 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Oklo", form: "4", date: "2026-09-09", description: "xslF345X06/wk-form4_1788985699.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Centrus Energy", form: "8-K", date: "2026-09-09", description: "leu-20260909.htm", isIPO: false, ticker: "LEU" },
   { company: "C3.ai", form: "10-Q", date: "2026-09-09", description: "ai-20260731.htm", isIPO: false, ticker: "AI" },
+  { company: "UiPath", form: "4", date: "2026-09-09", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-09-09", description: "xslF345X06/wk-form4_1788988168.xml", isIPO: false, ticker: "QBTS" },
   { company: "Oklo", form: "4", date: "2026-09-08", description: "xslF345X06/wk-form4_1788899044.xml", isIPO: false, ticker: "OKLO" },
   { company: "UiPath", form: "10-Q", date: "2026-09-08", description: "path-20260731.htm", isIPO: false, ticker: "PATH" },
   { company: "Rigetti Computing", form: "8-K", date: "2026-09-08", description: "tm2624940d1_8k.htm", isIPO: false, ticker: "RGTI" },
@@ -47,8 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Rocket Lab", form: "4", date: "2026-08-26", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Rocket Lab", form: "4", date: "2026-08-26", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Rocket Lab", form: "4", date: "2026-08-26", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2026-08-26", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Intuitive Machines", form: "4", date: "2026-08-26", description: "xslF345X06/form4-08262026_110806.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-08-26", description: "xslF345X06/form4-08262026_110822.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Oklo", form: "4", date: "2026-08-25", description: "xslF345X06/wk-form4_1787688652.xml", isIPO: false, ticker: "OKLO" },
 ];

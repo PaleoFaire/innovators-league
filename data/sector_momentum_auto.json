@@ -1,164 +1,165 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 48,
+    "momentum": 49,
     "trend": "steady",
     "catalysts": [
-      "AI can\u2019t outrun a humanoid&#8217;s hardware",
-      "XPeng starts IRON humanoid robot production as Tesla Optimus",
-      "Agility Robotics reports $1.8M revenue ahead of humanoid SPA"
+      "WOW! Tesla &#038; SpaceX\u2019s Huge Unlocks\u2014Grok 4.7 and AGI",
+      "What bricklaying has taught Monumental about robots in const",
+      "Vention opens Physical AI Lab for manufacturing in Montreal"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 50,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-09"
+    "lastUpdated": "2026-09-10"
   },
   {
     "sector": "AI & Software",
-    "momentum": 31,
+    "momentum": 30,
     "trend": "rising",
     "catalysts": [
-      "Cognition hits $48B valuation, signaling investors believe A",
-      "OpenAI fought dirty on career-making math problem, says NYU",
-      "OpenAI Just Claimed a Huge Math Discovery. Some Academics Ar"
+      "OpenAI adds a prominent AI doomer to its board of directors",
+      "The AI Researcher Who Just Quit Anthropic Says It\u2019s \u2018Crunch",
+      "The Download: OpenAI\u2019s turning point for math and a battery"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 29,
-      "news": 45,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-09"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 29,
-    "trend": "rising",
-    "catalysts": [
-      "Cognition hits $48B valuation, signaling investors believe A",
-      "The Exploration Company nabs $450 million to challenge Space",
-      "Vertical Aerospace\u2019s eVTOL Can Fly. The Passenger Business I"
-    ],
-    "fundingQ": "$50M",
-    "components": {
-      "funding": 5,
-      "news": 55,
-      "hiring": 0,
-      "market": 67
-    },
-    "lastUpdated": "2026-09-09"
+    "lastUpdated": "2026-09-10"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 25,
+    "momentum": 26,
     "trend": "declining",
     "catalysts": [
+      "Forced Into the Right Decision? A Look at U.S. Land-Based De",
       "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
-      "Does Latent Nuclear Deterrence Really Work?",
-      "Nuclear startup Oklo splits its first atoms in test reactor"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-09-09"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 19,
-    "trend": "declining",
-    "catalysts": [
-      "Mistral AI Raises $3.5B At $24B Valuation In Another Record",
-      "Talking About OpenAI Astra AKA GPT 6 and AGI",
-      "Waymo opens robotaxi rides to the public in 3 new cities, no"
+      "Does Latent Nuclear Deterrence Really Work?"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 25,
       "hiring": 0,
-      "market": 66
+      "market": 100
     },
-    "lastUpdated": "2026-09-09"
+    "lastUpdated": "2026-09-10"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 24,
+    "trend": "declining",
+    "catalysts": [
+      "WOW! Tesla &#038; SpaceX\u2019s Huge Unlocks\u2014Grok 4.7 and AGI",
+      "NASA Adds Relativity Space\u2019s Terran R to Launch Services Con",
+      "Vertical Aerospace\u2019s eVTOL Can Fly. The Passenger Business I"
+    ],
+    "fundingQ": "$50M",
+    "components": {
+      "funding": 5,
+      "news": 40,
+      "hiring": 0,
+      "market": 59
+    },
+    "lastUpdated": "2026-09-10"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 18,
+    "momentum": 22,
     "trend": "declining",
     "catalysts": [
       "Rivian\u2019s Gambit for Full Autonomy",
-      "OpenAI GPT 6 Astra Limited Release that Beats Anthropic Fabl",
       "Nvidia discloses $21B stake in SpaceX"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-09-10"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "What bricklaying has taught Monumental about robots in const",
+      "OpenAI Just Claimed a Huge Math Discovery. Some Academics Ar"
+    ],
+    "fundingQ": "$50M",
+    "components": {
+      "funding": 16,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-10"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 16,
+    "trend": "declining",
+    "catalysts": [
+      "WOW! Tesla &#038; SpaceX\u2019s Huge Unlocks\u2014Grok 4.7 and AGI",
+      "What bricklaying has taught Monumental about robots in const",
+      "Vention opens Physical AI Lab for manufacturing in Montreal"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-10"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "Poland&#8217;s WB Group unveils Warmate 30, latest in drone",
+      "Vertical Aerospace\u2019s eVTOL Can Fly. The Passenger Business I",
+      "Back to life: How Shield AI\u2019s future unmanned fighter made d"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 73
-    },
-    "lastUpdated": "2026-09-09"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 17,
-    "trend": "declining",
-    "catalysts": [
-      "OpenAI Just Claimed a Huge Math Discovery. Some Academics Ar"
-    ],
-    "fundingQ": "$50M",
-    "components": {
-      "funding": 16,
-      "news": 5,
-      "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-09"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "The Download: the hunt for underground hydrogen and more rog",
-      "Sage Geosystems brings its first next-gen geothermal plant o"
-    ],
-    "fundingQ": "$134M",
-    "components": {
-      "funding": 11,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-09"
+    "lastUpdated": "2026-09-10"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 16,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "PsiQuantum\u2019s Ice Cream Factory"
+      "Active quantum computing ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
-      "market": 72
+      "market": 70
     },
-    "lastUpdated": "2026-09-09"
+    "lastUpdated": "2026-09-10"
   },
   {
     "sector": "Transportation",
-    "momentum": 15,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
       "Vertical Aerospace\u2019s eVTOL Can Fly. The Passenger Business I",
@@ -170,44 +171,45 @@
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 55
+      "market": 43
     },
-    "lastUpdated": "2026-09-09"
+    "lastUpdated": "2026-09-10"
   },
   {
-    "sector": "Consumer Tech",
-    "momentum": 14,
+    "sector": "Defense & Security",
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Vertical Aerospace\u2019s eVTOL Can Fly. The Passenger Business I",
-      "Agility Robotics reports $1.8M revenue ahead of humanoid SPA",
-      "PsiQuantum\u2019s Ice Cream Factory"
+      "Forced Into the Right Decision? A Look at U.S. Land-Based De",
+      "Back to life: How Shield AI\u2019s future unmanned fighter made d",
+      "The Atlantic Brief: U.S. and European Perspectives on Nuclea"
     ],
-    "fundingQ": "$0M",
+    "fundingQ": "$550M",
     "components": {
-      "funding": 0,
+      "funding": 20,
       "news": 15,
       "hiring": 0,
-      "market": 50
+      "market": 0
     },
-    "lastUpdated": "2026-09-09"
+    "lastUpdated": "2026-09-10"
   },
   {
-    "sector": "Drones & Autonomous",
-    "momentum": 12,
+    "sector": "Biotech & Health",
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Vertical Aerospace\u2019s eVTOL Can Fly. The Passenger Business I",
-      "Back to life: How Shield AI\u2019s future unmanned fighter made d"
+      "Mistral AI Raises $3.5B At $24B Valuation In Another Record",
+      "Talking About OpenAI Astra AKA GPT 6 and AGI",
+      "<a href=\"/biotech/tyra-rolls-toward-pivotal-bladder-cancer-s"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 25,
       "hiring": 0,
-      "market": 50
+      "market": 25
     },
-    "lastUpdated": "2026-09-09"
+    "lastUpdated": "2026-09-10"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -223,7 +225,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-09"
+    "lastUpdated": "2026-09-10"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -239,24 +241,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-09"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Back to life: How Shield AI\u2019s future unmanned fighter made d",
-      "The Atlantic Brief: U.S. and European Perspectives on Nuclea"
-    ],
-    "fundingQ": "$550M",
-    "components": {
-      "funding": 20,
-      "news": 10,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-09-09"
+    "lastUpdated": "2026-09-10"
   },
   {
     "sector": "Ocean & Maritime",
@@ -272,6 +257,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-09"
+    "lastUpdated": "2026-09-10"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 7,
+    "trend": "declining",
+    "catalysts": [
+      "The Download: OpenAI\u2019s turning point for math and a battery",
+      "Sage Geosystems brings its first next-gen geothermal plant o"
+    ],
+    "fundingQ": "$134M",
+    "components": {
+      "funding": 11,
+      "news": 10,
+      "hiring": 0,
+      "market": 4
+    },
+    "lastUpdated": "2026-09-10"
   }
 ]
