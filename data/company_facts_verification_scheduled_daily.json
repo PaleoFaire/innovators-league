@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-09T09:32:21+00:00",
+  "generatedAt": "2026-09-10T09:31:18+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 41,
-  "newExtractionsThisRun": 41,
+  "cohortSize": 38,
+  "newExtractionsThisRun": 38,
   "summary": {
-    "cleared": 35,
-    "changesProposed": 6,
+    "cleared": 31,
+    "changesProposed": 7,
     "unverifiable": 0
   },
   "cleared": [
@@ -15,21 +15,17 @@
     "Apptronik",
     "Astera Labs",
     "Base Power",
-    "Cognition",
-    "Dawn Aerospace",
     "Deterrence",
+    "Dexterity",
     "Fortastra",
     "Galvanick",
     "HEO",
     "Hadrian",
-    "Hailo",
     "Humanoid",
     "ICON",
     "Isar Aerospace",
     "Oklo",
     "Orbital Composites",
-    "PLD Space",
-    "Palantir",
     "Photonic Inc",
     "Pivotal",
     "PsiQuantum",
@@ -60,13 +56,13 @@
       },
       "verified": {
         "name": "1X Technologies",
-        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home environments. The company develops humanoid robots including EVE (for industrial use) and NEO (for home use).",
+        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home and industrial environments. The company develops the EVE wheeled humanoid robot for logistics and healthcare, and the NEO bipedal humanoid robot designed for private home use.",
         "founders": [
           "Bernt \u00d8ivind B\u00f8rnich"
         ],
         "location": "Palo Alto, California, USA",
         "founded_year": 2014,
-        "current_stage": "Series B",
+        "current_stage": "Pre-IPO",
         "total_raised": "$123.5M",
         "valuation": null,
         "investors": [
@@ -109,7 +105,7 @@
             2
           ]
         },
-        "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Series A2 funding of $23.5M in March 2023 (source 2), Series B funding of $100M in January 2024 (source 2). Total raised calculation: $23.5M + $100M = $123.5M. Sources 0 and 1 refer to a different company (wire/cable distributor) also named 1X Technologies, not the robotics company."
+        "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Total raised is sum of Series A2 ($23.5M in March 2023) and Series B ($100M in January 2024) as documented in Wikipedia. Sources [0] and [1] refer to a different company also named '1X Technologies' (a wire and cable distributor founded in 2015, located in Sheridan, Wyoming) and are not relevant to this robotics company."
       },
       "changes": [
         {
@@ -123,7 +119,7 @@
         {
           "field": "fundingStage",
           "current": "Pre-Seed",
-          "verified": "Series B",
+          "verified": "Pre-IPO",
           "sources": [
             2
           ]
@@ -164,7 +160,7 @@
           "url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/"
         }
       ],
-      "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Series A2 funding of $23.5M in March 2023 (source 2), Series B funding of $100M in January 2024 (source 2). Total raised calculation: $23.5M + $100M = $123.5M. Sources 0 and 1 refer to a different company (wire/cable distributor) also named 1X Technologies, not the robotics company."
+      "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Total raised is sum of Series A2 ($23.5M in March 2023) and Series B ($100M in January 2024) as documented in Wikipedia. Sources [0] and [1] refer to a different company also named '1X Technologies' (a wire and cable distributor founded in 2015, located in Sheridan, Wyoming) and are not relevant to this robotics company."
     },
     {
       "name": "Agility Robotics",
@@ -179,7 +175,7 @@
       },
       "verified": {
         "name": "Agility Robotics",
-        "description": "A humanoid robotics company that develops and deploys Digit, a bipedal robot for warehouse and logistics automation. Digit is commercially deployed with supply chain partners including Amazon, Toyota, GXO Logistics, and Mercado Libre.",
+        "description": "A humanoid robotics company that develops and deploys Digit, a bipedal humanoid robot for warehouse and logistics automation. Digit is commercially deployed with customers including Amazon, GXO Logistics, Toyota, and Mercado Libre.",
         "founders": [
           "Jonathan Hurst",
           "Damion Shelton",
@@ -206,6 +202,7 @@
             2
           ],
           "location": [
+            1,
             2
           ],
           "founded_year": [
@@ -216,11 +213,10 @@
           ],
           "website": [
             0,
-            1,
             2
           ]
         },
-        "notes": "Company announced merger with Churchill Capital Corp XI to go public (June 24, 2026, per source 0). Wikipedia notes a rebrand to 'Agility' on March 5, 2026 (source 2). Founded as spinoff from Oregon State University's Dynamic Robotics Lab. 2025 revenue reported as $1.8M with $140M operating loss (source 4)."
+        "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, confidential S-4 submission July 14, 2026). Company rebranded as 'Agility' on March 5, 2026. S-4 filing (source [4]) reports $1.8M revenue in 2025 and $140M operating loss, but specific funding amounts and valuation not disclosed in provided sources."
       },
       "changes": [
         {
@@ -259,7 +255,106 @@
           "url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/"
         }
       ],
-      "notes": "Company announced merger with Churchill Capital Corp XI to go public (June 24, 2026, per source 0). Wikipedia notes a rebrand to 'Agility' on March 5, 2026 (source 2). Founded as spinoff from Oregon State University's Dynamic Robotics Lab. 2025 revenue reported as $1.8M with $140M operating loss (source 4)."
+      "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, confidential S-4 submission July 14, 2026). Company rebranded as 'Agility' on March 5, 2026. S-4 filing (source [4]) reports $1.8M revenue in 2025 and $140M operating loss, but specific funding amounts and valuation not disclosed in provided sources."
+    },
+    {
+      "name": "Monumental",
+      "current": {
+        "name": "Monumental",
+        "founder": "Salar al Khafaji, Sebastiaan Visser",
+        "location": "Amsterdam, Netherlands",
+        "founded": 2021,
+        "fundingStage": "Series B",
+        "totalRaised": "$32M",
+        "website": "https://www.monumental.co"
+      },
+      "verified": {
+        "name": "Monumental",
+        "description": "Monumental designs, builds and operates a fleet of autonomous robots that lay bricks on live construction sites. The robots are driven by Atrium, an integrated software stack.",
+        "founders": [
+          "Salar",
+          "Sebas"
+        ],
+        "location": "Amsterdam, Netherlands",
+        "founded_year": 2021,
+        "current_stage": null,
+        "total_raised": "$60M+",
+        "valuation": null,
+        "investors": [
+          "Khosla Ventures",
+          "Plural",
+          "Hummingbird",
+          "Northzone",
+          "Foundamental",
+          "NP-Hard"
+        ],
+        "website": "https://www.monumental.co",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "total_raised": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Database entry listed total_raised as $32M; source [1] states $60M+, which is more recent and specific. Founder full names are given as 'Salar' and 'Sebas' in source [1]; full surname 'al Khafaji' and 'Visser' from database entry are not explicitly confirmed in sources. Current_stage not specified in any source."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Salar al Khafaji, Sebastiaan Visser",
+          "verified": "Salar, Sebas",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$32M",
+          "verified": "$60M+",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.monumental.co"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://www.monumental.co/about"
+        },
+        {
+          "idx": 2,
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/"
+        }
+      ],
+      "notes": "Database entry listed total_raised as $32M; source [1] states $60M+, which is more recent and specific. Founder full names are given as 'Salar' and 'Sebas' in source [1]; full surname 'al Khafaji' and 'Visser' from database entry are not explicitly confirmed in sources. Current_stage not specified in any source."
     },
     {
       "name": "Nano Nuclear Energy",
@@ -273,8 +368,8 @@
         "website": "https://nanonuclearenergy.com"
       },
       "verified": {
-        "name": "Nano Nuclear Energy Inc.",
-        "description": "Advanced nuclear energy company developing microreactor technologies (KRONOS MMR, ZEUS, LOKI) and operating subsidiaries in fuel fabrication, fuel transportation, and space applications. Listed publicly on NASDAQ under ticker NNE.",
+        "name": "NANO Nuclear Energy",
+        "description": "Advanced technology-driven nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, with subsidiaries in nuclear fuel fabrication, transportation, and space applications.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -289,7 +384,6 @@
             1
           ],
           "description": [
-            0,
             1
           ],
           "location": [
@@ -298,13 +392,9 @@
           "current_stage": [
             0,
             1
-          ],
-          "website": [
-            0,
-            1
           ]
         },
-        "notes": "Company is publicly listed on NASDAQ (NNE) as of the sources provided (dated August 2026). Database entry references founder 'Jay Jiang Yu' and valuation of $808M, but these cannot be verified from provided sources. Sources do not mention ODIN sale to Cambridge AtomWorks or previous Seed stage funding of $600M+. Source [2] about Valar Atomics is unrelated to Nano Nuclear Energy."
+        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicative content from company website. Source [2] is about a different company (Valar Atomics) and contains no information about NANO Nuclear Energy. Database entry references founder 'Jay Jiang Yu', ODIN sale to Cambridge AtomWorks, founded year 2022, $600M+ raised, and $808M valuation\u2014none of which are mentioned in provided sources, so these cannot be verified."
       },
       "changes": [
         {
@@ -334,193 +424,48 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly listed on NASDAQ (NNE) as of the sources provided (dated August 2026). Database entry references founder 'Jay Jiang Yu' and valuation of $808M, but these cannot be verified from provided sources. Sources do not mention ODIN sale to Cambridge AtomWorks or previous Seed stage funding of $600M+. Source [2] about Valar Atomics is unrelated to Nano Nuclear Energy."
+      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicative content from company website. Source [2] is about a different company (Valar Atomics) and contains no information about NANO Nuclear Energy. Database entry references founder 'Jay Jiang Yu', ODIN sale to Cambridge AtomWorks, founded year 2022, $600M+ raised, and $808M valuation\u2014none of which are mentioned in provided sources, so these cannot be verified."
     },
     {
-      "name": "Navier",
+      "name": "Relativity Space",
       "current": {
-        "name": "Navier",
-        "founder": "Sampriti Bhattacharyya",
-        "location": "Alameda, CA",
-        "founded": 2019,
-        "fundingStage": "Seed",
-        "totalRaised": "$7.2M",
-        "website": "https://www.navierboat.com"
+        "name": "Relativity Space",
+        "founder": "Tim Ellis, Jordan Noone",
+        "location": "Long Beach, CA",
+        "founded": 2015,
+        "fundingStage": "Private",
+        "totalRaised": "$1.335B",
+        "website": "https://relativityspace.com"
       },
       "verified": {
-        "name": "Navier",
-        "description": "Electric hydrofoil boat manufacturer producing the N30 platform with active hydrofoils and electric propulsion for recreational, commercial, and defense applications.",
+        "name": "Relativity Space",
+        "description": "American aerospace manufacturing company developing launch vehicles and rocket engines for commercial orbital launch services. The company is developing Terran R, a partially reusable medium-to-heavy-lift launch vehicle.",
         "founders": [
-          "Sampriti Bhattacharyya"
+          "Tim Ellis",
+          "Jordan Noone"
         ],
-        "location": null,
-        "founded_year": 2021,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://www.navierboat.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Source [2] is Wikipedia article about Claude-Louis Navier (1785-1836), a French engineer/mathematician, not the boat company. Source [3] is about Navier-Stokes equations, not the company. Founded date verified as 'JAN '21' (January 2021) from company timeline. Location (Alameda, CA) from database entry cannot be verified in provided sources. Founder Sampriti Bhattacharyya confirmed as 'Founder & CEO' in source [1]. Stage progression documented: first customer delivery October 2024, first commercial delivery May 2025. No funding information found in sources."
-      },
-      "changes": [
-        {
-          "field": "founded",
-          "current": 2019,
-          "verified": 2021,
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://www.navierboat.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://www.navierboat.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Navier"
-        },
-        {
-          "idx": 3,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/"
-        }
-      ],
-      "notes": "Source [2] is Wikipedia article about Claude-Louis Navier (1785-1836), a French engineer/mathematician, not the boat company. Source [3] is about Navier-Stokes equations, not the company. Founded date verified as 'JAN '21' (January 2021) from company timeline. Location (Alameda, CA) from database entry cannot be verified in provided sources. Founder Sampriti Bhattacharyya confirmed as 'Founder & CEO' in source [1]. Stage progression documented: first customer delivery October 2024, first commercial delivery May 2025. No funding information found in sources."
-    },
-    {
-      "name": "Poseidon Aerospace",
-      "current": {
-        "name": "Poseidon Aerospace",
-        "founder": "David Zagaynov, Parker Tenney, Isaac Baumstark",
-        "location": "San Francisco, CA",
-        "founded": 2024,
-        "fundingStage": "Seed",
-        "totalRaised": "$12M+",
-        "website": "https://www.poseidonaero.com"
-      },
-      "verified": {
-        "name": "Poseidon Aerospace",
-        "description": "Poseidon Aerospace is building unmanned cargo aircraft to rethink the economics of cargo transport by removing pilots from the equation entirely.",
-        "founders": null,
-        "location": null,
-        "founded_year": null,
-        "current_stage": "Series A",
-        "total_raised": "$60M",
-        "valuation": null,
-        "investors": null,
-        "website": "https://www.poseidonaero.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            1
-          ],
-          "current_stage": [
-            0
-          ],
-          "total_raised": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry describes ground-effect vehicles and ekranoplan technology, but company website describes unmanned cargo aircraft (HERON seaplane, EGRET fixed-wing). Series A funding of $60M announced September 8, 2026 per website news section. Previous $11M funding announced November 5, 2025. Founders listed in database entry (David Zagaynov, Parker Tenney, Isaac Baumstark) and location (San Francisco, CA) could not be verified from provided sources. Founded year 2024 from database could not be verified."
-      },
-      "changes": [
-        {
-          "field": "fundingStage",
-          "current": "Seed",
-          "verified": "Series A",
-          "sources": [
-            0
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$12M+",
-          "verified": "$60M",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://www.poseidonaero.com"
-        },
-        {
-          "idx": 1,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/09/08/poseidon-aerospace-lands-60m-ahead-of-first-pilotless-test-flight/"
-        }
-      ],
-      "notes": "Database entry describes ground-effect vehicles and ekranoplan technology, but company website describes unmanned cargo aircraft (HERON seaplane, EGRET fixed-wing). Series A funding of $60M announced September 8, 2026 per website news section. Previous $11M funding announced November 5, 2025. Founders listed in database entry (David Zagaynov, Parker Tenney, Isaac Baumstark) and location (San Francisco, CA) could not be verified from provided sources. Founded year 2024 from database could not be verified."
-    },
-    {
-      "name": "Stoke Space",
-      "current": {
-        "name": "Stoke Space",
-        "founder": "Andy Lapsa, Tom Feldman",
-        "location": "Kent, WA",
-        "founded": 2019,
-        "fundingStage": "Series E",
-        "totalRaised": "$860M",
-        "website": "https://www.stokespace.com/"
-      },
-      "verified": {
-        "name": "Stoke Space",
-        "description": "American aerospace company developing Nova, a fully reusable medium-lift launch vehicle with two stages designed for rapid reusability and return-to-launch-site landings.",
-        "founders": [
-          "Andy Lapsa",
-          "Tom Feldman"
-        ],
-        "location": "Kent, Washington",
-        "founded_year": 2020,
-        "current_stage": "Series E",
-        "total_raised": "$1B+",
+        "location": "Long Beach, California, US",
+        "founded_year": 2015,
+        "current_stage": "Private",
+        "total_raised": "$1.335B",
         "valuation": null,
         "investors": [
-          "US Innovative Technology Fund",
-          "Industrious Ventures",
-          "Breakthrough Energy Ventures",
-          "NFX Guild",
-          "MaC Venture Capital",
-          "In-Q-Tel"
+          "Baillie Gifford",
+          "Blackrock",
+          "BOND",
+          "Coatue",
+          "Fidelity",
+          "General Catalyst",
+          "ICONIQ Capital",
+          "K5 Global",
+          "Mark Cuban",
+          "Playground Global",
+          "Social Capital",
+          "Tiger Global",
+          "Tribe Capital",
+          "Y Combinator"
         ],
-        "website": "https://www.stokespace.com/",
+        "website": "https://relativityspace.com",
         "sources_per_field": {
           "name": [
             0,
@@ -528,61 +473,40 @@
             2
           ],
           "description": [
-            0,
+            1,
             2
           ],
           "founders": [
             2
           ],
           "location": [
-            1,
             2
           ],
           "founded_year": [
             2
           ],
           "current_stage": [
-            3
+            2
           ],
           "total_raised": [
-            3
+            2
           ],
           "investors": [
-            2,
-            3
+            2
           ],
           "website": [
-            0,
-            1,
             2
           ]
         },
-        "notes": "Wikipedia states founded 2020, but database entry and company sources reference 2019 founding\u2014Wikipedia is more authoritative source. Series D was extended to $860M in February 2026 per Wikipedia[2]; Series E of $1B completed per TechCrunch[3]. Most recent funding round is Series E."
+        "notes": "Founded in 2015 per Wikipedia, but company About page states 'Since 2016' (discrepancy noted). Eric Schmidt replaced Tim Ellis as CEO in March 2025 per Wikipedia. Company has contract backlog of over $2.9 billion for Terran R as of March 2025 per Wikipedia. First Terran R launch targeting late 2026 per Wikipedia."
       },
       "changes": [
         {
           "field": "location",
-          "current": "Kent, WA",
-          "verified": "Kent, Washington",
-          "sources": [
-            1,
-            2
-          ]
-        },
-        {
-          "field": "founded",
-          "current": 2019,
-          "verified": 2020,
+          "current": "Long Beach, CA",
+          "verified": "Long Beach, California, US",
           "sources": [
             2
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$860M",
-          "verified": "$1B+",
-          "sources": [
-            3
           ]
         }
       ],
@@ -590,25 +514,225 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://www.stokespace.com/"
+          "url": "https://relativityspace.com"
         },
         {
           "idx": 1,
           "src": "company_about",
-          "url": "https://www.stokespace.com/about-us"
+          "url": "https://relativityspace.com/about"
         },
         {
           "idx": 2,
           "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Stoke_Space"
+          "url": "https://en.wikipedia.org/wiki/Relativity_Space"
         },
         {
           "idx": 3,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/09/08/stoke-space-raises-another-billion-to-rival-spacex-at-re-flying-rockets/"
+          "src": "news (NASA Breaking News)",
+          "url": "https://www.nasa.gov/news-release/nasa-adds-relativity-spaces-terran-r-to-launch-services-contract/"
         }
       ],
-      "notes": "Wikipedia states founded 2020, but database entry and company sources reference 2019 founding\u2014Wikipedia is more authoritative source. Series D was extended to $860M in February 2026 per Wikipedia[2]; Series E of $1B completed per TechCrunch[3]. Most recent funding round is Series E."
+      "notes": "Founded in 2015 per Wikipedia, but company About page states 'Since 2016' (discrepancy noted). Eric Schmidt replaced Tim Ellis as CEO in March 2025 per Wikipedia. Company has contract backlog of over $2.9 billion for Terran R as of March 2025 per Wikipedia. First Terran R launch targeting late 2026 per Wikipedia."
+    },
+    {
+      "name": "Vention",
+      "current": {
+        "name": "Vention",
+        "founder": "Etienne Lacroix, Max Windisch",
+        "location": "Montreal, Canada",
+        "founded": 2016,
+        "fundingStage": "Series C",
+        "totalRaised": "$95M+",
+        "website": "https://vention.com/"
+      },
+      "verified": {
+        "name": "Vention",
+        "description": "AI-powered manufacturing automation platform combining engineering software, automation hardware, and physical AI to enable manufacturers to design, deploy, and operate automated equipment and robot cells. As of 2026, Vention has deployed over 28,000 machines across 4,000+ factories worldwide.",
+        "founders": [
+          "Etienne Lacroix",
+          "Max Windisch"
+        ],
+        "location": "Montreal, Quebec, Canada",
+        "founded_year": 2016,
+        "current_stage": "Series D",
+        "total_raised": "$260M+",
+        "valuation": null,
+        "investors": [
+          "Georgian Partners",
+          "Fidelity",
+          "Bain Capital Ventures",
+          "White Star Capital",
+          "Investissement Qu\u00e9bec",
+          "Desjardins Capital",
+          "NVentures",
+          "Bolt",
+          "Real Ventures"
+        ],
+        "website": "https://vention.io",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            1,
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ]
+        },
+        "notes": "Series D funding ($110M USD) closed in January 2026, bringing total raised to over $260M USD. European headquarters relocating from Berlin to Munich in fall 2026. Wikipedia notes website as https://vention.io while company website uses https://vention.com/."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Montreal, Canada",
+          "verified": "Montreal, Quebec, Canada",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Series C",
+          "verified": "Series D",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$95M+",
+          "verified": "$260M+",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://vention.com/"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://vention.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vention"
+        },
+        {
+          "idx": 3,
+          "src": "news (The Robot Report)",
+          "url": "https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/"
+        }
+      ],
+      "notes": "Series D funding ($110M USD) closed in January 2026, bringing total raised to over $260M USD. European headquarters relocating from Berlin to Munich in fall 2026. Wikipedia notes website as https://vention.io while company website uses https://vention.com/."
+    },
+    {
+      "name": "WB Group",
+      "current": {
+        "name": "WB Group",
+        "founder": "Piotr Wojciechowski, Adam Bartosiewicz, Krzysztof Wysocki",
+        "location": "O\u017car\u00f3w Mazowiecki, Poland",
+        "founded": 1997,
+        "fundingStage": "Pre-IPO",
+        "totalRaised": "Undisclosed",
+        "website": "https://www.wbgroup.pl/en/"
+      },
+      "verified": {
+        "name": "WB Group",
+        "description": "Polish defence contractor producing military communications equipment, unmanned aerial vehicles including FlyEye UAVs, loitering munitions (Warmate), and command and control systems. One of Europe's largest private defence contractors.",
+        "founders": [
+          "Piotr Wojciechowski"
+        ],
+        "location": "O\u017car\u00f3w Mazowiecki, Poland",
+        "founded_year": 1997,
+        "current_stage": null,
+        "total_raised": null,
+        "valuation": null,
+        "investors": [
+          "Polish Development Fund"
+        ],
+        "website": "https://www.wbgroup.pl/en/",
+        "sources_per_field": {
+          "name": [
+            0,
+            1
+          ],
+          "description": [
+            0,
+            1
+          ],
+          "founders": [
+            1
+          ],
+          "location": [
+            1
+          ],
+          "founded_year": [
+            1
+          ],
+          "investors": [
+            1
+          ],
+          "website": [
+            0,
+            1
+          ]
+        },
+        "notes": "Only Piotr Wojciechowski is explicitly named as a key person in Wikipedia. Adam Bartosiewicz and Krzysztof Wysocki are not mentioned in provided sources as founders. Polish Development Fund invested PLN 128 million (EUR 30 million) in 2017 for 24% stake. Current stage (Pre-IPO, etc.) cannot be verified from sources provided."
+      },
+      "changes": [
+        {
+          "field": "founder",
+          "current": "Piotr Wojciechowski, Adam Bartosiewicz, Krzysztof Wysocki",
+          "verified": "Piotr Wojciechowski",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://www.wbgroup.pl/en/"
+        },
+        {
+          "idx": 1,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/WB_Group"
+        },
+        {
+          "idx": 2,
+          "src": "news (Breaking Defense)",
+          "url": "https://breakingdefense.com/2026/09/polands-wb-group-unveils-warmate-30-latest-in-drone-recon-strike-system/"
+        }
+      ],
+      "notes": "Only Piotr Wojciechowski is explicitly named as a key person in Wikipedia. Adam Bartosiewicz and Krzysztof Wysocki are not mentioned in provided sources as founders. Polish Development Fund invested PLN 128 million (EUR 30 million) in 2017 for 24% stake. Current stage (Pre-IPO, etc.) cannot be verified from sources provided."
     }
   ],
   "unverifiable": []
