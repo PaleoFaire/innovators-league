@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-09-09T12:21:37.407438+00:00",
+  "generated_at": "2026-09-10T12:17:18.357232+00:00",
   "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
   "candidates": [
+    {
+      "match_method": "name-candidate",
+      "company": "ASI",
+      "issuer_name": "ASI SC 2026 a Series of NEW VISTA CAPITAL INVESTMENT LLC",
+      "form": "D",
+      "filed_date": "2026-09-09",
+      "cik": "2149955",
+      "accession": "0002149955-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002149955&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002149955-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Asymm",
+      "issuer_name": "Asymm Venture Fund II LLC",
+      "form": "D",
+      "filed_date": "2026-09-09",
+      "cik": "1997013",
+      "accession": "0001997013-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001997013&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001997013-26-000002"
+    },
     {
       "match_method": "name-candidate",
       "company": "fab2",
@@ -89,28 +111,6 @@
       "accession": "0002146282-26-000002",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002146282&type=D&dateb=&owner=include&count=10",
       "adsh_raw": "0002146282-26-000002"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Matter",
-      "issuer_name": "Matter Venture Partners Fund II, L.P",
-      "form": "D",
-      "filed_date": "2026-09-01",
-      "cik": "2102541",
-      "accession": "0002102541-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002102541&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002102541-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Mara",
-      "issuer_name": "Mara River Special Opportunities Offshore Fund Ltd",
-      "form": "D",
-      "filed_date": "2026-08-31",
-      "cik": "2152851",
-      "accession": "0002152851-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002152851&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002152851-26-000001"
     }
   ]
 }

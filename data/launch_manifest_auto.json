@@ -1,8 +1,8 @@
 [
   {
     "date": "2026-09-10",
-    "vehicle": "Long March 2D/YZ-3 | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Long March 4B | Yaogan 53-01 to 03/56-01 to 03",
+    "payload": "Yaogan 53-01 to 03/56-01 to 03",
     "pad": "Launch Area 94 (SLS-2 / 603), Jiuquan Satellite Launch Center, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/95eb9265-bdbe-43ad-b08c-6be7eb4e58f4/?format=json",
@@ -43,6 +43,33 @@
     "provider": "Avio S.p.A",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/8effc13a-c658-4d2e-9f15-8dba4d7fe2dd/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-09-15",
+    "vehicle": "Zhuque-2E Block 2 | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Launch Area 96A, Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "LandSpace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/de446468-057f-4c9d-a6a1-af99c93b541e/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-09-15",
+    "vehicle": "Gravity-1 | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Yellow Sea (launch location 5), Haiyang Oriental Spaceport",
+    "provider": "Orienspace Technology",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/767f7827-53d8-4621-803b-f456a1e6b512/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-09-16",
+    "vehicle": "Falcon 9 Block 5 | USSF-259",
+    "payload": "USSF-259",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/17c71937-dd80-406f-bb47-0c9ee9a24276/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-09-16",
@@ -421,32 +448,5 @@
     "provider": "Indian Space Research Organization",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/dfac5ab7-7017-454f-b6cf-eeed277a97b5/?format=json",
     "trackedCompany": null
-  },
-  {
-    "date": "2026-12-31",
-    "vehicle": "Spectrum | 1 x Pelican satellite",
-    "payload": "1 x Pelican satellite",
-    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
-    "provider": "Isar Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/60f4ba6c-4201-4727-94aa-0015a5a0023f/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-12-31",
-    "vehicle": "Spectrum | \u03a3YNDEO-3",
-    "payload": "\u03a3YNDEO-3",
-    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
-    "provider": "Isar Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/b48e32c5-3776-4684-a956-5ea4df032e90/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-12-31",
-    "vehicle": "Vulcan VC4L | Dream Chaser CRS 2 Flight 1",
-    "payload": "Dream Chaser CRS 2 Flight 1",
-    "pad": "Space Launch Complex 41, Cape Canaveral SFS, FL, USA",
-    "provider": "United Launch Alliance",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/a67b40f9-cfcc-4614-a355-a156280b4bb3/?format=json",
-    "trackedCompany": "ULA"
   }
 ]

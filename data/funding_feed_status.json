@@ -1,15 +1,15 @@
 {
   "script": "fetch_funding_rss.py",
-  "started_at": "2026-09-09T12:07:18.181342+00:00",
-  "finished_at": "2026-09-09T12:07:21.830064+00:00",
+  "started_at": "2026-09-10T12:01:14.206345+00:00",
+  "finished_at": "2026-09-10T12:01:18.050585+00:00",
   "companies_tracked": 695,
-  "total_items_fetched": 125,
+  "total_items_fetched": 144,
   "total_deals_extracted": 1,
   "feeds": [
     {
       "source": "TechCrunch",
       "url": "https://techcrunch.com/category/venture/feed/",
-      "items_fetched": 15,
+      "items_fetched": 14,
       "error": null
     },
     {
@@ -21,8 +21,8 @@
     {
       "source": "The Information",
       "url": "https://www.theinformation.com/feed",
-      "items_fetched": 0,
-      "error": "HTTP 403"
+      "items_fetched": 20,
+      "error": null
     },
     {
       "source": "BusinessWire",
