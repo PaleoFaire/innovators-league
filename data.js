@@ -57295,27 +57295,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-11 09:31
-// Auto-generated real-time signals
-// Last updated: 2026-09-11
-// Auto-generated real-time signals
-// Last updated: 2026-09-11
+// Last updated: 2026-09-11 14:15
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal", source: "Wired", time: "11h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI puts Pro subscriptions on hold due to Astra demand", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Anthropic", headline: "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "Proxima Fusion", headline: "Proxima Fusion bets €140M on a critical fusion ingredient dominated by Asian suppliers", source: "TechCrunch", time: "16h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Anthropic", headline: "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you", source: "TechCrunch", time: "16h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Dust", headline: "Dust and Water in Sagittarius A*", source: "NASA Breaking News", time: "18h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "The Boring Company", headline: "The Boring Company raises $3B in round led by UAE", source: "TechCrunch", time: "19h ago", impact: "high", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "WOW! Tesla &#038; SpaceX’s Huge Unlocks—Grok 4.7 and AGI", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Anthropic", headline: "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "contract", company: "Relativity Space", headline: "NASA Adds Relativity Space’s Terran R to Launch Services Contract", source: "NASA Breaking News", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "WB Group", headline: "Poland&#8217;s WB Group unveils Warmate 30, latest in drone recon/strike system", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Vention", headline: "Vention opens Physical AI Lab for manufacturing in Montreal", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "OpenAI", headline: "The Download: OpenAI’s turning point for math and a battery record", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal", source: "Wired", time: "14h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI puts Pro subscriptions on hold due to Astra demand", source: "TechCrunch", time: "17h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Anthropic", headline: "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek", source: "TechCrunch", time: "17h ago", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "Proxima Fusion", headline: "Proxima Fusion bets '140M on a critical fusion ingredient dominated by Asian suppliers", source: "TechCrunch", time: "19h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Anthropic", headline: "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you", source: "TechCrunch", time: "20h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "The Boring Company", headline: "The Boring Company raises $3B in round led by UAE", source: "TechCrunch", time: "23h ago", impact: "high", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "WOW! Tesla &#038; SpaceX's Huge Unlocks'Grok 4.7 and AGI", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "The AI Researcher Who Just Quit Anthropic Says It's 'Crunch Time for Humanity'", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Vention", headline: "Vention opens Physical AI Lab for manufacturing in Montreal", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "OpenAI", headline: "The Download: OpenAI's turning point for math and a battery record", source: "MIT Tech Review", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Vast", headline: "NSA wants AI to help analysts sift vast data troves", source: "Defense One", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Humanoid", headline: "AI can't outrun a humanoid's hardware", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Mistral AI", headline: "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round", source: "Crunchbase News", time: "2d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

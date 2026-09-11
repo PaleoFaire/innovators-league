@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T09:31:05.763221+00:00",
+  "generatedAt": "2026-09-11T14:15:55.185861+00:00",
   "date": "2026-09-11",
   "dateDisplay": "Friday, September 11, 2026",
   "sections": {
@@ -50,13 +50,6 @@
         "change": -3.3
       },
       {
-        "ticker": "ONT.L",
-        "company": "Oxford Nanopore Technologies",
-        "price": 152.7,
-        "changePercent": -11.89,
-        "change": -20.6
-      },
-      {
         "ticker": "AMD",
         "company": "AMD",
         "price": 503.6,
@@ -97,6 +90,13 @@
         "price": 10.21,
         "changePercent": 6.8,
         "change": 0.65
+      },
+      {
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 3.16,
+        "changePercent": -6.51,
+        "change": -0.22
       }
     ],
     "regulatory": [
@@ -124,23 +124,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "In Situ Recovery Monitoring and Decommissioning Timeliness",
-        "date": "2026-09-10",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18504"
+        "title": "Information Collection: NRC Form 212, Qualifications Investigation Professional,",
+        "date": "2026-09-11",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18550"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Agency Information Collection Activities: State, Local, Tribal and Private Secto",
-        "date": "2026-09-10",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18477"
+        "title": "Information Collection: NRC Form 366, Licensee Event Report",
+        "date": "2026-09-11",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18544"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Updated Definition of \u201cWaters of the United States\u201d",
-        "date": "2026-09-09",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18317"
+        "title": "Information Collection: IAEA Design Information Questionnaire Forms",
+        "date": "2026-09-11",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18543"
       }
     ],
     "patents": [
