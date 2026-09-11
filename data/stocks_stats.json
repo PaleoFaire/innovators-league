@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -2.12,
+      "avg_change": -8.67,
       "count": 1
     },
     "space": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -4.7,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -2.47,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -3.2,
+      "avg_change": -4.23,
       "count": 7
     },
     "nuclear": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 2.13,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -7.46,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.79,
+      "avg_change": -1.6,
       "count": 3
     },
     "quantum": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 0.28,
+      "avg_change": -0.97,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.78,
+      "avg_change": -6.21,
       "count": 3
     },
     "transportation": {
-      "gainers": 2,
-      "losers": 0,
-      "avg_change": 2.33,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": -0.34,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 3.76,
+      "avg_change": 3.87,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "AMD",
       "AMD",
-      10.18
+      12.56
     ],
     [
-      "AUR",
-      "Aurora Innovation",
-      8.21
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      6.8
+      "SATL",
+      "Satellogic",
+      4.75
     ],
     [
       "ALAB",
       "Astera Labs",
-      3.79
+      3.14
+    ],
+    [
+      "AUR",
+      "Aurora Innovation",
+      2.61
     ],
     [
       "RIVN",
       "Rivian",
-      2.82
+      2.36
     ]
   ],
   "topLosers": [
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      -6.51
+      "TEM",
+      "Tempus AI",
+      -8.44
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      -6.9
-    ],
-    [
-      "JOBY",
-      "Joby Aviation",
-      -7.48
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      -9.82
+      "PLTR",
+      "Palantir",
+      -8.67
     ],
     [
       "PL",
       "Planet Labs",
-      -16.51
+      -8.99
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      -10.0
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -11.5
     ]
   ],
-  "lastUpdated": "2026-09-11 12:15:05"
+  "lastUpdated": "2026-09-11 17:04:32"
 }
