@@ -1,163 +1,18 @@
 {
-  "generatedAt": "2026-09-10T09:31:47+00:00",
+  "generatedAt": "2026-09-11T09:29:29+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 2,
   "newExtractionsThisRun": 2,
   "summary": {
-    "cleared": 1,
-    "changesProposed": 1,
+    "cleared": 2,
+    "changesProposed": 0,
     "unverifiable": 0
   },
   "cleared": [
+    "Engine Ventures",
     "Shield Capital"
   ],
-  "changesProposed": [
-    {
-      "name": "Engine Ventures",
-      "current": {
-        "name": "Engine Ventures",
-        "shortName": "Engine",
-        "aum": "$1.4B",
-        "flagshipFund": "Engine Ventures Fund III",
-        "founded": 2023,
-        "hq": "Cambridge, Massachusetts",
-        "website": "https://engine.xyz"
-      },
-      "verified": {
-        "name": "Engine Ventures",
-        "short_name": "Engine",
-        "aum": null,
-        "flagship_fund": null,
-        "founded_year": 2023,
-        "hq": "Cambridge, Massachusetts",
-        "key_partners": null,
-        "sector_focus": [
-          "Advanced Computing & Quantum Systems",
-          "Advanced Engineering & Manufacturing",
-          "Advanced Materials & Critical Minerals",
-          "AI-Enabled Physical Systems",
-          "Artificial Intelligence & Deep Software",
-          "Biotech, Life Sciences & TechBio",
-          "Energy & Grid Technologies",
-          "Fuels & Chemicals",
-          "Infrastructure, Mobility & the Built Environment",
-          "Robotics & Industrial Automation",
-          "Semiconductors, Photonics & Next-Generation Hardware",
-          "Space"
-        ],
-        "thesis": "Engine Ventures invests in early-stage Tough Tech companies. In 2023, Engine Ventures spun out as a separate venture capital firm focused on Tough Tech companies solving the world's most challenging problems.",
-        "website": "https://engine.xyz",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            3
-          ],
-          "short_name": [
-            0,
-            1
-          ],
-          "founded_year": [
-            1,
-            3
-          ],
-          "hq": [
-            1,
-            3
-          ],
-          "sector_focus": [
-            2
-          ],
-          "thesis": [
-            1,
-            3
-          ],
-          "website": [
-            0,
-            1,
-            3
-          ]
-        },
-        "notes": "Engine Ventures is a separate investment firm that spun out from The Engine nonprofit in 2023. The Engine nonprofit (founded 2016) and Engine Ventures (founded 2023) are distinct entities. AUM and current named key partners for Engine Ventures could not be verified from provided sources. Wikipedia lists board members and leadership of The Engine nonprofit, not Engine Ventures investment team."
-      },
-      "changes": [
-        {
-          "field": "sectorFocus",
-          "current": [
-            "Advanced Computing & Quantum Systems",
-            "Advanced Engineering & Manufacturing",
-            "Advanced Materials & Critical Minerals",
-            "AI-Enabled Physical Systems",
-            "Artificial Intelligence & Deep Software",
-            "Biotech, Life Sciences & TechBio",
-            "Energy & Grid Technologies",
-            "Fuels & Chemicals",
-            "Infrastructure, Mobility & the Built Environment",
-            "Robotics & Industrial Automation"
-          ],
-          "verified": [
-            "Advanced Computing & Quantum Systems",
-            "Advanced Engineering & Manufacturing",
-            "Advanced Materials & Critical Minerals",
-            "AI-Enabled Physical Systems",
-            "Artificial Intelligence & Deep Software",
-            "Biotech, Life Sciences & TechBio",
-            "Energy & Grid Technologies",
-            "Fuels & Chemicals",
-            "Infrastructure, Mobility & the Built Environment",
-            "Robotics & Industrial Automation",
-            "Semiconductors, Photonics & Next-Generation Hardware",
-            "Space"
-          ],
-          "sources": [
-            2
-          ]
-        },
-        {
-          "field": "thesis",
-          "current": "Engine Ventures invests in early-stage Tough Tech companies. In 2023, the investment fund separated from The Engine nonprofit and rebranded as a separate venture capital firm focused on Tough Tech companies.",
-          "verified": "Engine Ventures invests in early-stage Tough Tech companies. In 2023, Engine Ventures spun out as a separate venture capital firm focused on Tough Tech companies solving the world's most challenging problems.",
-          "sources": [
-            1,
-            3
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://engine.xyz"
-        },
-        {
-          "idx": 1,
-          "src": "firm/about",
-          "url": "https://engine.xyz/about"
-        },
-        {
-          "idx": 2,
-          "src": "firm/companies",
-          "url": "https://engine.xyz/companies"
-        },
-        {
-          "idx": 3,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
-        },
-        {
-          "idx": 4,
-          "src": "news (CleanTechnica)",
-          "url": "https://cleantechnica.com/2026/09/08/vertical-aerospace-evtol-financing-passenger-market/"
-        },
-        {
-          "idx": 5,
-          "src": "news (Defense One)",
-          "url": "https://www.defenseone.com/business/2026/09/back-life-how-shield-ais-future-unmanned-fighter-made-decades-old-tech-new-again/415821/"
-        }
-      ],
-      "notes": "Engine Ventures is a separate investment firm that spun out from The Engine nonprofit in 2023. The Engine nonprofit (founded 2016) and Engine Ventures (founded 2023) are distinct entities. AUM and current named key partners for Engine Ventures could not be verified from provided sources. Wikipedia lists board members and leadership of The Engine nonprofit, not Engine Ventures investment team."
-    }
-  ],
+  "changesProposed": [],
   "unverifiable": []
 }

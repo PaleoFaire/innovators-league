@@ -1,20 +1,20 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-09-10T09:31:18+00:00  
+**Generated:** 2026-09-11T09:29:08+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 38 companies  
+**Cohort size:** 35 companies  
 
-**New Claude extractions this run:** 38  
+**New Claude extractions this run:** 35  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 31 | 82% |
-| 🔧 Changes proposed | 7 | 18% |
+| ✅ Cleared (data matches sources) | 28 | 80% |
+| 🔧 Changes proposed | 7 | 20% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
@@ -32,59 +32,57 @@ Review each change and reply with which ones to apply. **Source-cited diffs:**
 - **`totalRaised`:** `$1.1B` → `$123.5M`  
   Sources: [wikipedia](https://en.wikipedia.org/wiki/1X_Technologies)
 
-  **Notes:** Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Total raised is sum of Series A2 ($23.5M in March 2023) and Series B ($100M in January 2024) as documented in Wikipedia. Sources [0] and [1] refer to a different company also named '1X Technologies' (a wire and cable distributor founded in 2015, located in Sheridan, Wyoming) and are not relevant to this robotics company.
+  **Notes:** Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Wikipedia states Series A2 funding of $23.5M (March 2023) and Series B funding of $100M (January 2024), totaling $123.5M in verified funding rounds. Sources 0 and 1 refer to a different company (wire and cable distributor also named 1X Technologies LLC based in Wyoming) and are not relevant to this robotics company. Wikipedia is the only source providing verified information about 1X Technologies robotics company.
 
 ### Agility Robotics
 
 - **`fundingStage`:** `Series E` → `Pre-IPO`  
   Sources: [company_website](https://agilityrobotics.com)
 
-  **Notes:** Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, confidential S-4 submission July 14, 2026). Company rebranded as 'Agility' on March 5, 2026. S-4 filing (source [4]) reports $1.8M revenue in 2025 and $140M operating loss, but specific funding amounts and valuation not disclosed in provided sources.
+  **Notes:** Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Wikipedia notes a rebrand to 'Agility' announced March 5, 2026 (source 2). S-4 filing indicates $1.8M revenue in 2025 (source 4). Database entry lists investors and $400M+ raised, but these cannot be verified from provided sources.
 
-### Monumental
+### IQM Quantum Computers
 
-- **`founder`:** `Salar al Khafaji, Sebastiaan Visser` → `Salar, Sebas`  
-  Sources: [company_about](https://www.monumental.co/about)
-- **`totalRaised`:** `$32M` → `$60M+`  
-  Sources: [company_about](https://www.monumental.co/about)
+- **`founder`:** `Jan Goetz, Mikko Möttönen, Kuan Yen Tan, Juha Vartiainen` → `Jan Goetz`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/IQM_Quantum_Computers)
+- **`fundingStage`:** `Public` → `Pre-IPO`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/IQM_Quantum_Computers)
 
-  **Notes:** Database entry listed total_raised as $32M; source [1] states $60M+, which is more recent and specific. Founder full names are given as 'Salar' and 'Sebas' in source [1]; full surname 'al Khafaji' and 'Visser' from database entry are not explicitly confirmed in sources. Current_stage not specified in any source.
+  **Notes:** Wikipedia source [2] indicates IPO announced on 23 February 2026 with initial valuation of $1.8 billion, changing status from Private to Pre-IPO. Only Jan Goetz is explicitly named as founder/CEO in Wikipedia [2]; other names in database entry (Mikko Möttönen, Kuan Yen Tan, Juha Vartiainen) are not found in these sources as founders. Source [3] is about Proxima Fusion, not IQM, and was excluded from analysis.
 
 ### Nano Nuclear Energy
 
 - **`fundingStage`:** `Seed` → `Public`  
   Sources: [company_website](https://nanonuclearenergy.com) · [company_about](https://nanonuclearenergy.com/about)
 
-  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are duplicative content from company website. Source [2] is about a different company (Valar Atomics) and contains no information about NANO Nuclear Energy. Database entry references founder 'Jay Jiang Yu', ODIN sale to Cambridge AtomWorks, founded year 2022, $600M+ raised, and $808M valuation—none of which are mentioned in provided sources, so these cannot be verified.
+  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Sources claim to be 'the first nuclear microreactor company to be listed publicly in the U.S.' Founded year, founder names, total capital raised, and valuation cannot be verified from provided sources. Source [2] (Canary Media article about Valar Atomics) does not contain information about NANO Nuclear Energy and was not used.
 
-### Relativity Space
+### Proxima Fusion
 
-- **`location`:** `Long Beach, CA` → `Long Beach, California, US`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Relativity_Space)
+- **`totalRaised`:** `€200M` → `€145M`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/Proxima_Fusion)
 
-  **Notes:** Founded in 2015 per Wikipedia, but company About page states 'Since 2016' (discrepancy noted). Eric Schmidt replaced Tim Ellis as CEO in March 2025 per Wikipedia. Company has contract backlog of over $2.9 billion for Terran R as of March 2025 per Wikipedia. First Terran R launch targeting late 2026 per Wikipedia.
+  **Notes:** Series A round: €130M in June 2025 plus €15M extension in September 2025 = €145M total. Wikipedia also mentions July 2026 investment from Alphabet Inc., but total amount not specified. Company website lists €200M total_raised in database entry, but this figure is not explicitly stated in any provided source.
 
-### Vention
+### Rigetti Computing
 
-- **`location`:** `Montreal, Canada` → `Montreal, Quebec, Canada`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Vention)
-- **`fundingStage`:** `Series C` → `Series D`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Vention)
-- **`totalRaised`:** `$95M+` → `$260M+`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Vention)
+- **`location`:** `Berkeley, CA` → `Berkeley, California, United States`  
+  Sources: [company_about](https://rigetti.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Rigetti_Computing)
 
-  **Notes:** Series D funding ($110M USD) closed in January 2026, bringing total raised to over $260M USD. European headquarters relocating from Berlin to Munich in fall 2026. Wikipedia notes website as https://vention.io while company website uses https://vention.com/.
+  **Notes:** SPAC deal closed March 2, 2022; began trading on NASDAQ under ticker RGTI. Subodh Kulkarni became President and CEO in December 2022. Valuation cited is from October 2021 SPAC announcement ($1.5B estimated); current market valuation may differ. Wikipedia source shows 2024 revenue of $10.8M and net loss of $201M.
 
-### WB Group
+### The Boring Company
 
-- **`founder`:** `Piotr Wojciechowski, Adam Bartosiewicz, Krzysztof Wysocki` → `Piotr Wojciechowski`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/WB_Group)
+- **`location`:** `Bastrop, TX` → `Bastrop, Texas, United States`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/The_Boring_Company)
+- **`totalRaised`:** `$908M` → `$3B`  
+  Sources: [news (TechCrunch)](https://techcrunch.com/2026/09/10/the-boring-company-raises-3b-in-round-led-by-uae/)
 
-  **Notes:** Only Piotr Wojciechowski is explicitly named as a key person in Wikipedia. Adam Bartosiewicz and Krzysztof Wysocki are not mentioned in provided sources as founders. Polish Development Fund invested PLN 128 million (EUR 30 million) in 2017 for 24% stake. Current stage (Pre-IPO, etc.) cannot be verified from sources provided.
+  **Notes:** Database entry states Series G and $908M raised, but most recent verified funding is $3B Series D (source 2) and April 2022 Series C valuation of $5.675B (source 1). Headquarters moved to Bastrop, Texas before April 2023 (source 1). Database entry claims 35,000 passengers daily but sources do not provide this specific metric.
 
 ---
 
-## ✅ Cleared (31 companies)
+## ✅ Cleared (28 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
@@ -93,36 +91,33 @@ Sample (first 30):
 - Antares
 - AnySignal
 - Apptronik
-- Astera Labs
 - Base Power
 - Deterrence
 - Dexterity
 - Fortastra
 - Galvanick
-- HEO
 - Hadrian
 - Humanoid
 - ICON
-- Isar Aerospace
+- Monumental
 - Oklo
 - Orbital Composites
-- Photonic Inc
+- Oxford Quantum Circuits
 - Pivotal
-- PsiQuantum
-- QuiX Quantum
+- QuantWare
 - Radiant
-- Rebellions
 - Rivian
 - Sage Geosystems
 - Shield AI
 - SpaceX
 - Valar Atomics
 - Vast
+- Vention
 - Vertical Aerospace
+- WB Group
 - Waymo
-- *...and 1 more*
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-09-10T09:31:18+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-09-11T09:29:08+00:00*
