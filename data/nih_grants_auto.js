@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-09-10 12:01:27 UTC
+// Last updated: 2026-09-11 11:59:47 UTC
 // Total grants: 633 | Known companies: 22 | SBIR: 35
-// Total funding tracked: $392,595,697
+// Total funding tracked: $390,373,344
 const NIH_GRANTS_AUTO = [
   {
     title: "PROVIDENT:  Prepositioning Optimized Strategies for Vaccines and Immunotherapeutics against Diverse Emerging Infectious ",
@@ -222,19 +222,6 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "PROJECT SUMMARY Celiac disease (CeD) is a complex T cell-mediated enteropathy induced by dietary gluten in HLA-DQ2+ and/or HLA-DQ8+ individuals, which currently affects 1% of the global population. A ",
     terms: ["Activities of Daily Living", "Address", "Adult", "Affect", "Autoimmune", "Biochemical", "Biological", "Bone Diseases"],
-    isKnownCompany: false,
-  },
-  {
-    title: "Leveraging Observational (Real World) Data to Advance Precision Oncology",
-    organization: "SLOAN-KETTERING INST CAN RESEARCH",
-    orgState: "NY",
-    piName: "CHARLES L. SAWYERS",
-    fiscalYear: 2026,
-    awardAmount: 2356788,
-    activityCode: "P01",
-    isSbir: false,
-    abstract: "Leveraging Observational (Real World) Data to Advance Precision Oncology Principal Investigator: Charles Sawyers, Memorial Sloan Kettering Cancer Center Precision oncology is a firmly established pill",
-    terms: ["Address", "American Association of Cancer Research", "Bioinformatics", "Bioinformatics core", "Biometry", "Calibration", "Cancer Center", "Cancer Patient"],
     isKnownCompany: false,
   },
   {
@@ -2019,6 +2006,19 @@ const NIH_GRANTS_AUTO = [
     isKnownCompany: false,
   },
   {
+    title: "The role of IL-5 in CART cell immunotherapy for cancer",
+    organization: "MAYO CLINIC ROCHESTER",
+    orgState: "MN",
+    piName: "Saad J. Kenderian",
+    fiscalYear: 2026,
+    awardAmount: 685116,
+    activityCode: "R01",
+    isSbir: false,
+    abstract: "PROJECT ABSTRACT Chimeric antigen receptor T (CART) cell therapy has shown remarkable clinical outcomes in relapsed/refractory hematological cancers, resulting in multiple FDA-approved CART cell produ",
+    terms: ["Adoption", "Affect", "B-Cell Acute Lymphoblastic Leukemia", "B-Cell NonHodgkins Lymphoma", "Blood - brain barrier anatomy", "CAR T cell therapy", "CD19 gene", "CD28 gene"],
+    isKnownCompany: false,
+  },
+  {
     title: "Mechanistic investigation of transcriptional and epigenome dysregulation in leiomyomas/uterine fibroids",
     organization: "NORTHWESTERN UNIVERSITY",
     orgState: "IL",
@@ -3800,19 +3800,6 @@ const NIH_GRANTS_AUTO = [
     isKnownCompany: false,
   },
   {
-    title: "Phase 0/1 trial of ONC206 - a novel imipridone for children with diffuse midline gliomas and recurrent malignant brain t",
-    organization: "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO",
-    orgState: "CA",
-    piName: "Sabine  Mueller",
-    fiscalYear: 2026,
-    awardAmount: 499535,
-    activityCode: "R01",
-    isSbir: false,
-    abstract: "Project Summary The aim of this phase 0/1 clinical trial is to assess the safety and preliminary efficacy of the novel, orally available, blood brain barrier (BBB) penetrant imipridone ONC206 in pedia",
-    terms: ["Address", "Adult", "Apoptosis", "Award", "Biological Assay", "Biological Markers", "Biological Models", "Biopsy"],
-    isKnownCompany: false,
-  },
-  {
     title: "Project 2: Spatiotemporal remodeling of multicellular communities in CRT",
     organization: "MASSACHUSETTS GENERAL HOSPITAL",
     orgState: "MA",
@@ -3901,6 +3888,19 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "ABSTRACT Project 5 (P5) will address Center Aim 2 by characterizing mediodorsal (MD) nucleus and pulvinar (PUL) circuit dysfunction in schizophrenia across levels of analysis, including functional con",
     terms: ["Affect", "Anatomy", "Animal Model", "Attention", "Behavior", "Behavioral", "Behavioral Model", "Biological Markers"],
+    isKnownCompany: false,
+  },
+  {
+    title: "Biofabrication of living vaginal grafts",
+    organization: "UNIVERSITY OF PITTSBURGH AT PITTSBURGH",
+    orgState: "PA",
+    piName: "Pamela A. Moalli",
+    fiscalYear: 2026,
+    awardAmount: 480716,
+    activityCode: "R21",
+    isSbir: false,
+    abstract: "PROJECT SUMMARY The vagina is central to an individual’s sexuality, sexual health, body image, and sense of well-being. However, biomaterials specifically engineered for reconstructing the vagina in p",
+    terms: ["3-Dimensional", "Address", "Allografting", "Architecture", "Autologous", "Autologous Transplantation", "Behavior", "Benign"],
     isKnownCompany: false,
   },
 ];

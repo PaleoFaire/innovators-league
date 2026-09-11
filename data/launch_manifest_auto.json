@@ -1,15 +1,6 @@
 [
   {
     "date": "2026-09-10",
-    "vehicle": "Long March 4B | Yaogan 53-01 to 03/56-01 to 03",
-    "payload": "Yaogan 53-01 to 03/56-01 to 03",
-    "pad": "Launch Area 94 (SLS-2 / 603), Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/95eb9265-bdbe-43ad-b08c-6be7eb4e58f4/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-09-10",
     "vehicle": "Falcon 9 Block 5 | USSF-153",
     "payload": "USSF-153",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -18,21 +9,21 @@
     "trackedCompany": "SpaceX"
   },
   {
+    "date": "2026-09-11",
+    "vehicle": "Electron | Happily Ever Faster (BlackSky Gen-3 5)",
+    "payload": "Happily Ever Faster (BlackSky Gen-3 5)",
+    "pad": "Rocket Lab Launch Complex 1A, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b81156da-c0b8-46c8-aebd-8af8d2be83cd/?format=json",
+    "trackedCompany": "Rocket Lab"
+  },
+  {
     "date": "2026-09-13",
     "vehicle": "Falcon 9 Block 5 | O3b mPower 11-13",
     "payload": "O3b mPower 11-13",
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/ad358a4d-c541-409b-9366-9c2f2da4aeb9/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-09-15",
-    "vehicle": "Starship | Flight 14",
-    "payload": "Flight 14",
-    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/7d1afb26-6f9c-429b-9ccf-29012fd1e519/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -87,6 +78,33 @@
     "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/898f7df0-b6ce-4a5c-80b4-67e81842124e/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-09-17",
+    "vehicle": "Kuaizhou 11 | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Launch Area 95A, Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "ExPace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/71aa4d56-0ce9-4c7d-a808-cc22f2ac5a84/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-09-18",
+    "vehicle": "Starship | Flight 14",
+    "payload": "Flight 14",
+    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7d1afb26-6f9c-429b-9ccf-29012fd1e519/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-19",
+    "vehicle": "Long March 2D | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Launch Complex 9, Taiyuan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a527b585-f01f-4ecc-9230-711dcef72ef1/?format=json",
     "trackedCompany": null
   },
   {
@@ -159,15 +177,6 @@
     "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/7766f3bb-674c-4c71-b986-963bd633fcfe/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-09-30",
-    "vehicle": "Electron | BlackSky Gen-3 5",
-    "payload": "BlackSky Gen-3 5",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/b81156da-c0b8-46c8-aebd-8af8d2be83cd/?format=json",
     "trackedCompany": "Rocket Lab"
   },
   {
@@ -439,14 +448,5 @@
     "provider": "Firefly Aerospace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d47cbca4-48c1-455a-b357-f156833b189e/?format=json",
     "trackedCompany": "Firefly Aerospace"
-  },
-  {
-    "date": "2026-12-31",
-    "vehicle": "LVM-3 | Gaganyaan-1",
-    "payload": "Gaganyaan-1",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/dfac5ab7-7017-454f-b6cf-eeed277a97b5/?format=json",
-    "trackedCompany": null
   }
 ]

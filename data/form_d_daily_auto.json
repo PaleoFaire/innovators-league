@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T12:17:23.533575+00:00",
+  "generated_at": "2026-09-11T12:13:28.899159+00:00",
   "lookback_days": 8,
-  "scanned": 1139,
-  "total": 3,
+  "scanned": 1240,
+  "total": 2,
   "filings": [
     {
       "match_method": "cik",
@@ -54,32 +54,6 @@
         "SUNGJAE AN",
         "JIN WOO CHOI",
         "GABRIELE PAPIEVYTE"
-      ],
-      "is_safe": false,
-      "source": "edgar-daily-index"
-    },
-    {
-      "match_method": "cik",
-      "match_evidence": "filer CIK 1813993 == our recorded CIK",
-      "company": "Quaise Energy",
-      "issuer_name": "Quaise Energy, Inc.",
-      "form": "D/A",
-      "filed_date": "2026-09-03",
-      "cik": "1813993",
-      "accession": "0001813993-26-000004",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/1813993/000181399326000004/primary_doc.xml",
-      "offering_amount": "180065017",
-      "amount_sold": "179265022",
-      "amount_remaining": "799995",
-      "securities_type": "Equity",
-      "related_persons": [
-        "Carlos Araque",
-        "Colleen Calhoun",
-        "Vinod Khosla",
-        "William Restrepo",
-        "Frohman Anderson",
-        "Mark Cupta",
-        "Ali Azad"
       ],
       "is_safe": false,
       "source": "edgar-daily-index"

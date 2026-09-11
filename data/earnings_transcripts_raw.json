@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated_at": "2026-09-10 12:12:39 UTC",
+    "generated_at": "2026-09-11 12:08:55 UTC",
     "total_targets": 116,
     "with_excerpts": 102,
     "sources": [
@@ -352,11 +352,13 @@
     {
       "ticker": "TDY",
       "company": "Teledyne Technologies",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://www.teledyne.com/en-us/investor-relations",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-07-24",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1094285/000109428526000043/0001094285-26-000043-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "AXON",
@@ -383,11 +385,13 @@
     {
       "ticker": "AVAV",
       "company": "AeroVironment",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investor.avinc.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-09-09",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926106423/0001104659-26-106423-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "MRCY",
@@ -436,11 +440,13 @@
     {
       "ticker": "VSAT",
       "company": "Viasat",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.viasat.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-06",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526337903/0001193125-26-337903-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "PSN",
@@ -632,24 +638,20 @@
     {
       "ticker": "ORCL",
       "company": "Oracle",
-      "quarter": "2026-Q3",
-      "date": "2026-03-11",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526101045/0001193125-26-101045-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investor.oracle.com/",
+      "source": "none"
     },
     {
       "ticker": "NET",
       "company": "Cloudflare",
-      "quarter": "2026-Q3",
-      "date": "2026-08-06",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000054/0001477333-26-000054-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://cloudflare.net/investors",
+      "source": "none"
     },
     {
       "ticker": "EQIX",
@@ -773,13 +775,11 @@
     {
       "ticker": "ZBRA",
       "company": "Zebra Technologies",
-      "quarter": "2026-Q3",
-      "date": "2026-08-04",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/877212/000162828026052550/0001628280-26-052550-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.zebra.com/",
+      "source": "none"
     },
     {
       "ticker": "IONQ",
@@ -806,13 +806,11 @@
     {
       "ticker": "RGTI",
       "company": "Rigetti Computing",
-      "quarter": "2026-Q3",
-      "date": "2026-08-06",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926091993/0001104659-26-091993-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.rigetti.com/",
+      "source": "none"
     },
     {
       "ticker": "DDD",
@@ -1133,11 +1131,13 @@
     {
       "ticker": "GE",
       "company": "GE Aerospace",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://www.geaerospace.com/investor-relations",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-07-16",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000049/0000040545-26-000049-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "GNRC",
