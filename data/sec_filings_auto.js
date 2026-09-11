@@ -1,6 +1,13 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-10 10:56:18 UTC
+// Last updated: 2026-09-11 10:54:40 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "BlackSky Technology", form: "4", date: "2026-09-10", description: "xslF345X06/wk-form4_1789072189.xml", isIPO: false, ticker: "BKSY" },
+  { company: "Oklo", form: "4", date: "2026-09-10", description: "xslF345X06/wk-form4_1789072444.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Upstart Holdings", form: "4", date: "2026-09-10", description: "xslF345X06/wk-form4_1789082008.xml", isIPO: false, ticker: "UPST" },
+  { company: "Upstart Holdings", form: "4", date: "2026-09-10", description: "xslF345X06/wk-form4_1789081939.xml", isIPO: false, ticker: "UPST" },
+  { company: "Rigetti Computing", form: "4", date: "2026-09-10", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-09-10", description: "qbts-20260910.htm", isIPO: false, ticker: "QBTS" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-09-10", description: "xslF345X06/wk-form4_1789077354.xml", isIPO: false, ticker: "RXRX" },
   { company: "Oklo", form: "4", date: "2026-09-09", description: "xslF345X06/wk-form4_1788985699.xml", isIPO: false, ticker: "OKLO" },
   { company: "Centrus Energy", form: "8-K", date: "2026-09-09", description: "leu-20260909.htm", isIPO: false, ticker: "LEU" },
   { company: "C3.ai", form: "10-Q", date: "2026-09-09", description: "ai-20260731.htm", isIPO: false, ticker: "AI" },
@@ -44,11 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "C3.ai", form: "DEF 14A", date: "2026-08-28", description: "ai-20260827.htm", isIPO: false, ticker: "AI" },
   { company: "Oklo", form: "4", date: "2026-08-27", description: "xslF345X06/wk-form4_1787862889.xml", isIPO: false, ticker: "OKLO" },
   { company: "C3.ai", form: "4", date: "2026-08-27", description: "xslF345X06/wk-form4_1787870125.xml", isIPO: false, ticker: "AI" },
-  { company: "C3.ai", form: "8-K", date: "2026-08-27", description: "ai-20260825.htm", isIPO: false, ticker: "AI" },
-  { company: "Upstart Holdings", form: "4", date: "2026-08-27", description: "xslF345X06/wk-form4_1787868021.xml", isIPO: false, ticker: "UPST" },
-  { company: "Rivian", form: "8-K", date: "2026-08-27", description: "tm2624125d1_8k.htm", isIPO: false, ticker: "RIVN" },
-  { company: "Rocket Lab", form: "4", date: "2026-08-26", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2026-08-26", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2026-08-26", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2026-08-26", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
 ];

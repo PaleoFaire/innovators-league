@@ -4,9 +4,9 @@
     "momentum": 49,
     "trend": "steady",
     "catalysts": [
+      "Proxima Fusion bets \u20ac140M on a critical fusion ingredient do",
       "WOW! Tesla &#038; SpaceX\u2019s Huge Unlocks\u2014Grok 4.7 and AGI",
-      "What bricklaying has taught Monumental about robots in const",
-      "Vention opens Physical AI Lab for manufacturing in Montreal"
+      "What bricklaying has taught Monumental about robots in const"
     ],
     "fundingQ": "$1.4B",
     "components": {
@@ -15,65 +15,83 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-10"
+    "lastUpdated": "2026-09-11"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 45,
+    "trend": "steady",
+    "catalysts": [
+      "The Boring Company raises $3B in round led by UAE",
+      "Vertical Aerospace\u2019s eVTOL Can Fly. The Passenger Business I",
+      "Rivian\u2019s Gambit for Full Autonomy"
+    ],
+    "fundingQ": "$3.0B",
+    "components": {
+      "funding": 100,
+      "news": 20,
+      "hiring": 0,
+      "market": 23
+    },
+    "lastUpdated": "2026-09-11"
   },
   {
     "sector": "AI & Software",
-    "momentum": 30,
+    "momentum": 31,
     "trend": "rising",
     "catalysts": [
-      "OpenAI adds a prominent AI doomer to its board of directors",
-      "The AI Researcher Who Just Quit Anthropic Says It\u2019s \u2018Crunch",
-      "The Download: OpenAI\u2019s turning point for math and a battery"
+      "OpenAI Wants to Know if an AI Industry Slowdown Would Even B",
+      "OpenAI puts Pro subscriptions on hold due to Astra demand",
+      "Anthropic details distillation campaigns from Alibaba, Moons"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 29,
-      "news": 40,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-10"
+    "lastUpdated": "2026-09-11"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 26,
+    "momentum": 25,
     "trend": "declining",
     "catalysts": [
+      "Proxima Fusion bets \u20ac140M on a critical fusion ingredient do",
       "Forced Into the Right Decision? A Look at U.S. Land-Based De",
-      "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
-      "Does Latent Nuclear Deterrence Really Work?"
+      "The Atlantic Brief: U.S. and European Perspectives on Nuclea"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 30,
       "hiring": 0,
-      "market": 100
+      "market": 89
     },
-    "lastUpdated": "2026-09-10"
+    "lastUpdated": "2026-09-11"
   },
   {
-    "sector": "Space & Aerospace",
-    "momentum": 24,
-    "trend": "declining",
+    "sector": "Defense & Security",
+    "momentum": 23,
+    "trend": "rising",
     "catalysts": [
-      "WOW! Tesla &#038; SpaceX\u2019s Huge Unlocks\u2014Grok 4.7 and AGI",
-      "NASA Adds Relativity Space\u2019s Terran R to Launch Services Con",
-      "Vertical Aerospace\u2019s eVTOL Can Fly. The Passenger Business I"
+      "Forced Into the Right Decision? A Look at U.S. Land-Based De",
+      "Back to life: How Shield AI\u2019s future unmanned fighter made d",
+      "The Atlantic Brief: U.S. and European Perspectives on Nuclea"
     ],
-    "fundingQ": "$50M",
+    "fundingQ": "$1.1B",
     "components": {
-      "funding": 5,
-      "news": 40,
+      "funding": 38,
+      "news": 15,
       "hiring": 0,
-      "market": 59
+      "market": 29
     },
-    "lastUpdated": "2026-09-10"
+    "lastUpdated": "2026-09-11"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 22,
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
       "Rivian\u2019s Gambit for Full Autonomy",
@@ -84,26 +102,25 @@
       "funding": 0,
       "news": 10,
       "hiring": 0,
-      "market": 100
+      "market": 88
     },
-    "lastUpdated": "2026-09-10"
+    "lastUpdated": "2026-09-11"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 18,
+    "momentum": 17,
     "trend": "declining",
     "catalysts": [
-      "What bricklaying has taught Monumental about robots in const",
-      "OpenAI Just Claimed a Huge Math Discovery. Some Academics Ar"
+      "What bricklaying has taught Monumental about robots in const"
     ],
     "fundingQ": "$50M",
     "components": {
       "funding": 16,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-10"
+    "lastUpdated": "2026-09-11"
   },
   {
     "sector": "Consumer Tech",
@@ -121,7 +138,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-10"
+    "lastUpdated": "2026-09-11"
   },
   {
     "sector": "Drones & Autonomous",
@@ -139,77 +156,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-10"
+    "lastUpdated": "2026-09-11"
   },
   {
-    "sector": "Quantum Computing",
-    "momentum": 14,
-    "trend": "declining",
+    "sector": "Space & Aerospace",
+    "momentum": 13,
+    "trend": "rising",
     "catalysts": [
-      "Active quantum computing ecosystem"
+      "Anthropic details distillation campaigns from Alibaba, Moons",
+      "Dust and Water in Sagittarius A*",
+      "WOW! Tesla &#038; SpaceX\u2019s Huge Unlocks\u2014Grok 4.7 and AGI"
     ],
-    "fundingQ": "$0M",
+    "fundingQ": "$50M",
     "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 70
-    },
-    "lastUpdated": "2026-09-10"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "Vertical Aerospace\u2019s eVTOL Can Fly. The Passenger Business I",
-      "Rivian\u2019s Gambit for Full Autonomy",
-      "Rivian\u2019s futuristic ALSO e-bike may be at its ultimate delay"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 43
-    },
-    "lastUpdated": "2026-09-10"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Forced Into the Right Decision? A Look at U.S. Land-Based De",
-      "Back to life: How Shield AI\u2019s future unmanned fighter made d",
-      "The Atlantic Brief: U.S. and European Perspectives on Nuclea"
-    ],
-    "fundingQ": "$550M",
-    "components": {
-      "funding": 20,
-      "news": 15,
+      "funding": 5,
+      "news": 45,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-10"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Mistral AI Raises $3.5B At $24B Valuation In Another Record",
-      "Talking About OpenAI Astra AKA GPT 6 and AGI",
-      "<a href=\"/biotech/tyra-rolls-toward-pivotal-bladder-cancer-s"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 25
-    },
-    "lastUpdated": "2026-09-10"
+    "lastUpdated": "2026-09-11"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -225,7 +190,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-10"
+    "lastUpdated": "2026-09-11"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 53
+    },
+    "lastUpdated": "2026-09-11"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -241,7 +222,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-10"
+    "lastUpdated": "2026-09-11"
   },
   {
     "sector": "Ocean & Maritime",
@@ -257,11 +238,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-10"
+    "lastUpdated": "2026-09-11"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 7,
+    "momentum": 6,
     "trend": "declining",
     "catalysts": [
       "The Download: OpenAI\u2019s turning point for math and a battery",
@@ -272,8 +253,25 @@
       "funding": 11,
       "news": 10,
       "hiring": 0,
-      "market": 4
+      "market": 0
     },
-    "lastUpdated": "2026-09-10"
+    "lastUpdated": "2026-09-11"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 2,
+    "trend": "declining",
+    "catalysts": [
+      "Mistral AI Raises $3.5B At $24B Valuation In Another Record",
+      "<a href=\"/biotech/tyra-rolls-toward-pivotal-bladder-cancer-s"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-09-11"
   }
 ]

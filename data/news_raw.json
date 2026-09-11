@@ -17,7 +17,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "10h ago"
+    "time": "11h ago"
   },
   {
     "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
@@ -36,7 +36,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "12h ago"
+    "time": "13h ago"
   },
   {
     "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
@@ -55,7 +55,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "12h ago"
+    "time": "13h ago"
   },
   {
     "title": "Proxima Fusion bets €140M on a critical fusion ingredient dominated by Asian suppliers",
@@ -79,7 +79,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "14h ago"
+    "time": "16h ago"
   },
   {
     "title": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
@@ -98,7 +98,26 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "15h ago"
+    "time": "16h ago"
+  },
+  {
+    "title": "Dust and Water in Sagittarius A*",
+    "link": "https://www.nasa.gov/image-article/dust-and-water-in-sagittarius-a/",
+    "description": "A brilliant concentration of stars takes center stage in this Aug. 11, 2026, image taken by NASA&#8217;s James Webb Space Telescope. Webb observed IRS 3, a star near the end of its life cycle, located within this starfield. Webb’s mid-infrared data revealed the clear signature of oxygen-rich silicat",
+    "pubDate": "Thu, 10 Sep 2026 16:14:03 +0000",
+    "category": "",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "Dust",
+    "matchedCompanies": [
+      "Dust"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "18h ago"
   },
   {
     "title": "The Boring Company raises $3B in round led by UAE",
@@ -117,7 +136,30 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "18h ago"
+    "time": "19h ago"
+  },
+  {
+    "title": "WOW! Tesla &#038; SpaceX’s Huge Unlocks—Grok 4.7 and AGI",
+    "link": "https://www.nextbigfuture.com/2026/09/wow-tesla-spacexs-huge-unlocks-grok-4-7-and-agi.html",
+    "description": "Tesla, SpaceX and AI could be approaching huge unlocks at the same time. Could Cybercab and worldchanging FSD 15 change Tesla’s demand? Could Starship unlock more satellite capacity—and eventually computing in orbit? And when does AI become a worker you can actually delegate to? • Tesla’s robotaxi r",
+    "pubDate": "Thu, 10 Sep 2026 02:14:19 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Waymo",
+      "Zoox"
+    ],
+    "sectors": [
+      "space",
+      "ai",
+      "transportation"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1d ago"
   },
   {
     "title": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
@@ -156,6 +198,25 @@
       "ai"
     ],
     "type": "news",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "NASA Adds Relativity Space’s Terran R to Launch Services Contract",
+    "link": "https://www.nasa.gov/news-release/nasa-adds-relativity-spaces-terran-r-to-launch-services-contract/",
+    "description": "A NASA Launch Services (NLS) II contract has been awarded by the agency to Relativity Space Inc., and its Terran R launch service in accordance with the contract’s on-ramp provision. The Terran R launch service will be available to NASA’s launch services to use for future missions. The NLS II contra",
+    "pubDate": "Wed, 09 Sep 2026 20:11:58 +0000",
+    "category": "Launch Services Program",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "Relativity Space",
+    "matchedCompanies": [
+      "Relativity Space"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "contract",
     "impact": "low",
     "time": "1d ago"
   },
@@ -410,6 +471,30 @@
     "time": "4d ago"
   },
   {
+    "title": "Jason Calcanis is Wrong About Cybercab, Waymo, and Uber — Here&#8217;s Why",
+    "link": "https://www.nextbigfuture.com/2026/09/skip-navigation-create-9-avatar-image-jason-calcanis-is-wrong-about-cybercab-waymo-and-uber-heres-why.html",
+    "description": "Jason Calcanis of the All in Pod predicted Tesla will land 40% of the future robotaxi market, Uber 40%, Waymo 15%, and everyone else splits the remaining 5%. I go through the actual supply chain, unit economics, and hardware numbers and show why we think that split is way off — and why Tesla likely ",
+    "pubDate": "Sun, 06 Sep 2026 17:22:33 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Bronco AI",
+      "Fortastra",
+      "Zoox"
+    ],
+    "sectors": [
+      "ai",
+      "infrastructure",
+      "transportation"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "4d ago"
+  },
+  {
     "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
     "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
     "description": "",
@@ -473,7 +558,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "6d ago"
+    "time": "9/4/2026"
   },
   {
     "title": "Rivian’s futuristic ALSO e-bike may be at its ultimate delay",

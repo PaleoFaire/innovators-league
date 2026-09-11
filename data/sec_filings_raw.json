@@ -993,6 +993,15 @@
     "company": "BlackSky Technology",
     "ticker": "BKSY",
     "form": "4",
+    "date": "2026-09-10",
+    "description": "xslF345X06/wk-form4_1789072189.xml",
+    "accessionNumber": "0001753539-26-000137",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
+    "form": "4",
     "date": "2026-08-31",
     "description": "xslF345X06/wk-form4_1788213568.xml",
     "accessionNumber": "0001349983-26-000005",
@@ -1212,15 +1221,6 @@
     "date": "2026-03-12",
     "description": "xslF345X05/wk-form4_1773346751.xml",
     "accessionNumber": "0001753539-26-000019",
-    "isIPO": false
-  },
-  {
-    "company": "BlackSky Technology",
-    "ticker": "BKSY",
-    "form": "8-K",
-    "date": "2026-02-26",
-    "description": "bksy-20260226.htm",
-    "accessionNumber": "0001753539-26-000009",
     "isIPO": false
   },
   {
@@ -2982,6 +2982,15 @@
     "company": "Oklo",
     "ticker": "OKLO",
     "form": "4",
+    "date": "2026-09-10",
+    "description": "xslF345X06/wk-form4_1789072444.xml",
+    "accessionNumber": "0002146790-26-000012",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
     "date": "2026-09-09",
     "description": "xslF345X06/wk-form4_1788985699.xml",
     "accessionNumber": "0002146790-26-000010",
@@ -3210,15 +3219,6 @@
     "date": "2026-06-15",
     "description": "xslF345X06/wk-form4_1781556359.xml",
     "accessionNumber": "0001058402-26-000008",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-06-15",
-    "description": "xslF345X06/wk-form4_1781556303.xml",
-    "accessionNumber": "0001445637-26-000008",
     "isIPO": false
   },
   {
@@ -3480,24 +3480,6 @@
     "date": "2026-05-05",
     "description": "leu-20260505.htm",
     "accessionNumber": "0001628280-26-030674",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "DEF 14A",
-    "date": "2026-04-24",
-    "description": "leu-20260424.htm",
-    "accessionNumber": "0001628280-26-027241",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "4",
-    "date": "2026-04-23",
-    "description": "xslF345X06/wk-form4_1776962694.xml",
-    "accessionNumber": "0001628280-26-026745",
     "isIPO": false
   },
   {
@@ -4062,6 +4044,24 @@
     "company": "Upstart Holdings",
     "ticker": "UPST",
     "form": "4",
+    "date": "2026-09-10",
+    "description": "xslF345X06/wk-form4_1789082008.xml",
+    "accessionNumber": "0001832812-26-000010",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
+    "form": "4",
+    "date": "2026-09-10",
+    "description": "xslF345X06/wk-form4_1789081939.xml",
+    "accessionNumber": "0001832808-26-000020",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
+    "form": "4",
     "date": "2026-08-27",
     "description": "xslF345X06/wk-form4_1787868021.xml",
     "accessionNumber": "0001833851-26-000020",
@@ -4299,24 +4299,6 @@
     "date": "2026-05-14",
     "description": "xslF345X06/wk-form4_1778761449.xml",
     "accessionNumber": "0001832812-26-000006",
-    "isIPO": false
-  },
-  {
-    "company": "Upstart Holdings",
-    "ticker": "UPST",
-    "form": "4",
-    "date": "2026-05-08",
-    "description": "xslF345X06/wk-form4_1778244965.xml",
-    "accessionNumber": "0001832805-26-000005",
-    "isIPO": false
-  },
-  {
-    "company": "Upstart Holdings",
-    "ticker": "UPST",
-    "form": "4",
-    "date": "2026-05-08",
-    "description": "xslF345X06/wk-form4_1778244889.xml",
-    "accessionNumber": "0001832805-26-000004",
     "isIPO": false
   },
   {
@@ -4916,6 +4898,15 @@
   {
     "company": "Rigetti Computing",
     "ticker": "RGTI",
+    "form": "4",
+    "date": "2026-09-10",
+    "description": "xslF345X06/form4.xml",
+    "accessionNumber": "0001123292-26-001272",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
     "form": "8-K",
     "date": "2026-09-08",
     "description": "tm2624940d1_8k.htm",
@@ -5148,12 +5139,12 @@
     "isIPO": false
   },
   {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
     "form": "8-K",
-    "date": "2026-04-21",
-    "description": "tm2612288d1_8k.htm",
-    "accessionNumber": "0001104659-26-045994",
+    "date": "2026-09-10",
+    "description": "qbts-20260910.htm",
+    "accessionNumber": "0001907982-26-000146",
     "isIPO": false
   },
   {
@@ -5481,21 +5472,12 @@
     "isIPO": false
   },
   {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
     "form": "4",
-    "date": "2026-06-05",
-    "description": "xslF345X06/wk-form4_1780693599.xml",
-    "accessionNumber": "0001628280-26-041318",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2026-06-04",
-    "description": "xslF345X06/wk-form4_1780608003.xml",
-    "accessionNumber": "0001453942-26-000010",
+    "date": "2026-09-10",
+    "description": "xslF345X06/wk-form4_1789077354.xml",
+    "accessionNumber": "0001601830-26-000105",
     "isIPO": false
   },
   {
@@ -5631,15 +5613,6 @@
     "date": "2026-06-22",
     "description": "xslF345X06/wk-form4_1782160331.xml",
     "accessionNumber": "0001601830-26-000084",
-    "isIPO": false
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-06-22",
-    "description": "xslF345X06/wk-form4_1782160325.xml",
-    "accessionNumber": "0001601830-26-000083",
     "isIPO": false
   },
   {

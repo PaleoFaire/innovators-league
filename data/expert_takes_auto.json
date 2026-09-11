@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T11:08:06.728179Z",
+  "generated_at": "2026-09-11T11:07:24.104506Z",
   "takes": [
     {
       "author": "Crunchbase News",
@@ -32,6 +32,16 @@
       "signal_type": "funding"
     },
     {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "The Boring Company",
+      "text": "The Boring Company raises $3B in round led by UAE",
+      "date": "Thu, 10 Se",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/09/10/the-boring-company-raises-3b-in-round-led-by-uae/",
+      "signal_type": "funding"
+    },
+    {
       "author": "Ars Technica",
       "role": "Industry signal",
       "company": "SpaceX",
@@ -45,7 +55,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 4,
+    "from_news": 5,
     "from_press": 0
   }
 }

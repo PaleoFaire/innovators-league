@@ -13,6 +13,19 @@
     "roundCount": 4
   },
   {
+    "company": "The Boring Company",
+    "totalRaised": "$3.0B+",
+    "totalRaisedRaw": 3000.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$3B",
+    "lastRoundDate": "2026-09",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Anduril Industries",
     "totalRaised": "$2.5B+",
     "totalRaisedRaw": 2500.0,
@@ -304,6 +317,19 @@
       "Undisclosed"
     ],
     "roundCount": 4
+  },
+  {
+    "company": "Mach Industries",
+    "totalRaised": "$600M+",
+    "totalRaisedRaw": 600.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$600M",
+    "lastRoundDate": "2026-09",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
   },
   {
     "company": "Saronic",
@@ -633,8 +659,8 @@
   },
   {
     "company": "ICON",
-    "totalRaised": "$265M+",
-    "totalRaisedRaw": 265.0,
+    "totalRaised": "$269M+",
+    "totalRaisedRaw": 269.0,
     "lastRound": "Series C",
     "lastRoundAmount": "$165M",
     "lastRoundDate": "2026-09",
@@ -643,7 +669,7 @@
       "Undisclosed",
       "Sequoia"
     ],
-    "roundCount": 2
+    "roundCount": 3
   },
   {
     "company": "Zoox",
