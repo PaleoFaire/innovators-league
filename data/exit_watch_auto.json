@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-09-11T11:33:11.211663+00:00",
+    "generated_at": "2026-09-12T10:59:34.154244+00:00",
     "window_days": 10,
-    "filings_scanned": 1099,
-    "candidates_considered": 253,
-    "published": 2,
+    "filings_scanned": 1192,
+    "candidates_considered": 272,
+    "published": 3,
     "roster_size": 2460,
     "roster_with_pedigree": 192,
     "method": "SEC Form D formations, filtered to new frontier-adjacent US entities, matched against founders already documented in COMPANIES. Confidence tiers reflect what the public record supports, not what is plausible."
@@ -118,6 +118,64 @@
         "self-classified as Other Energy",
         "$105M already sold",
         "incorporated this year",
+        "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
+      ]
+    },
+    {
+      "cik": "2154807",
+      "accession": "000215480726000001",
+      "entity": "Main Street World Flavors, LLC",
+      "industry": "Manufacturing",
+      "year_inc": 2026,
+      "state": "FL",
+      "amount_sold": 8225000.0,
+      "first_sale": "2026-09-01",
+      "persons": [
+        {
+          "name": "William Ryan Davis",
+          "key": "williamdavis",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "FLORIDA"
+        },
+        {
+          "name": "Dennis G. Prado",
+          "key": "dennisprado",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "FLORIDA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2154807/000215480726000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154807&type=D&dateb=&owner=include&count=10",
+      "filed": "20260911",
+      "matches": [
+        {
+          "person": "William Ryan Davis",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "known_for": [
+            "American Housing Corporation"
+          ],
+          "employers": [],
+          "evidence": [],
+          "name_ambiguous": true
+        }
+      ],
+      "score": 51,
+      "confidence": "Founder's next company",
+      "reasons": [
+        "Name match on William Ryan Davis, but that name is common or ambiguous in our data \u2014 verify before acting",
+        "self-classified as Manufacturing",
+        "$8.2M already sold",
+        "incorporated this year",
+        "Nothing beyond the name lines up \u2014 treat as a weak lead",
         "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
       ]
     },
