@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T09:10:42.253865+00:00",
+  "generatedAt": "2026-09-12T13:31:06.929243+00:00",
   "date": "2026-09-12",
   "dateDisplay": "Saturday, September 12, 2026",
   "sections": {
@@ -39,6 +39,15 @@
         "description": "MSCP SATELLITE IMAGERY ORDER 2026",
         "date": "2026-11-01",
         "url": "https://sam.gov/opp/140R3026F0077/view"
+      },
+      {
+        "company": "Relativity Space",
+        "amount": "$1",
+        "amount_raw": 1.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "NASA LAUNCH SERVICES II (NLS II)_ RELATIVITY SPACE, INC.",
+        "date": "2026-08-18",
+        "url": "https://sam.gov/opp/80KSC026C0002/view"
       }
     ],
     "marketMovers": [
@@ -124,23 +133,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Information Collection: NRC Form 212, Qualifications Investigation Professional,",
-        "date": "2026-09-11",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18550"
+        "title": "Board of Visitors, United States Military Academy (USMA BoV)",
+        "date": "2026-09-14",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18782"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Information Collection: NRC Form 366, Licensee Event Report",
-        "date": "2026-09-11",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18544"
+        "title": "Draft NIH Biosafety Policy for Research Involving Biohazards",
+        "date": "2026-09-14",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18646"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Information Collection: IAEA Design Information Questionnaire Forms",
+        "title": "Adjusting Certain Delegations Under the Defense Production Act",
         "date": "2026-09-11",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18543"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18739"
       }
     ],
     "patents": [
@@ -183,7 +192,7 @@
     ]
   },
   "stats": {
-    "contractCount": 4,
+    "contractCount": 5,
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
