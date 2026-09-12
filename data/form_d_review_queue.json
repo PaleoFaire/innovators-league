@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-09-11T12:13:24.782171+00:00",
+  "generated_at": "2026-09-12T11:34:34.644177+00:00",
   "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
   "candidates": [
+    {
+      "match_method": "name-candidate",
+      "company": "Humanoid",
+      "issuer_name": "Humanoid NP Atoms, a Series of A Master Series, LLC",
+      "form": "D",
+      "filed_date": "2026-09-11",
+      "cik": "2149291",
+      "accession": "0002149291-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002149291&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002149291-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Humanoid",
+      "issuer_name": "Humanoid Genki Series, a Series of A Master Series, LLC",
+      "form": "D",
+      "filed_date": "2026-09-11",
+      "cik": "2149255",
+      "accession": "0002149255-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002149255&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002149255-26-000001"
+    },
     {
       "match_method": "name-candidate",
       "company": "Persona AI",
@@ -12,6 +34,28 @@
       "accession": "0002114821-26-000001",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002114821&type=D&dateb=&owner=include&count=10",
       "adsh_raw": "0002114821-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Revere",
+      "issuer_name": "Revere Credit Opportunities IDF Series Interests of the SALI Multi-Series Fund, LP",
+      "form": "D",
+      "filed_date": "2026-09-11",
+      "cik": "2074023",
+      "accession": "0002074023-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002074023&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002074023-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Tempo",
+      "issuer_name": "Tempo Therapeutics, Inc",
+      "form": "D",
+      "filed_date": "2026-09-11",
+      "cik": "1813688",
+      "accession": "0001813688-26-000003",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001813688&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001813688-26-000003"
     },
     {
       "match_method": "name-candidate",
@@ -100,6 +144,28 @@
       "accession": "0000950103-26-013534",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002149195&type=D&dateb=&owner=include&count=10",
       "adsh_raw": "0000950103-26-013534"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Aclarity",
+      "issuer_name": "Aclarity Genomics, Inc",
+      "form": "D",
+      "filed_date": "2026-09-02",
+      "cik": "2153126",
+      "accession": "0002153126-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002153126&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002153126-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Radian Forge",
+      "issuer_name": "Radian Forge Inc",
+      "form": "D",
+      "filed_date": "2026-09-02",
+      "cik": "2146282",
+      "accession": "0002146282-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002146282&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002146282-26-000002"
     }
   ]
 }

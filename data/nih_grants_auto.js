@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-09-11 11:59:47 UTC
+// Last updated: 2026-09-12 11:26:22 UTC
 // Total grants: 633 | Known companies: 22 | SBIR: 35
-// Total funding tracked: $390,373,344
+// Total funding tracked: $389,871,685
 const NIH_GRANTS_AUTO = [
   {
     title: "PROVIDENT:  Prepositioning Optimized Strategies for Vaccines and Immunotherapeutics against Diverse Emerging Infectious ",
@@ -794,19 +794,6 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "ABSTRACT  Perceptually guided behavior involves a complex and dynamic interplay between external inputs and internal states that are related, for example, to alertness, motivation, expectations and at",
     terms: ["Acetylcholine", "Adaptive Behaviors", "Anatomy", "Animal Model", "Area", "Attention", "Bar Codes", "Behavior"],
-    isKnownCompany: false,
-  },
-  {
-    title: "Precision Medicine Center for Cystic Fibrosis",
-    organization: "UNIVERSITY OF IOWA",
-    orgState: "IA",
-    piName: "Amy Leanne Ryan",
-    fiscalYear: 2026,
-    awardAmount: 1166250,
-    activityCode: "P30",
-    isSbir: false,
-    abstract: "PROJECT SUMMARY/ABSTRACT (PRECISION MEDICINE CENTER FOR CF – OVERALL) For the past 25 years, the P30 Center for Gene Therapy of CF has concentrated on advancing CF treatments through enhanced understa",
-    terms: ["Acceleration", "Address", "Affect", "Age", "Aging", "Animal Model", "Area", "Biological Models"],
     isKnownCompany: false,
   },
   {
@@ -2263,6 +2250,19 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "Pregnancy is a diabetogenic state with increase in insulin resistance during later stages that returns to normal postpartum. Exact mechanisms underlying the regulation of gestational insulin resistanc",
     terms: ["Adverse effects", "Affect", "Agonist", "Aryl Hydrocarbon Receptor", "Biological Response Modifier Therapy", "Catabolism", "Cell Line", "Cells"],
+    isKnownCompany: false,
+  },
+  {
+    title: "The chemical language of human gut bacteria in healthy aging",
+    organization: "DUKE UNIVERSITY",
+    orgState: "NC",
+    piName: "Shuo  Han",
+    fiscalYear: 2026,
+    awardAmount: 664591,
+    activityCode: "R01",
+    isSbir: false,
+    abstract: "PROJECT SUMMARY/ABSTRACT With age, the gut microbiome changes in composition and becomes less diverse. Recent studies in fish and mouse models have shown that transplanting fecal bacteria from young d",
+    terms: ["Acids", "Address", "Age", "Aging", "Alzheimer's disease model", "Amides", "Amyloid beta-Protein", "Anabolism"],
     isKnownCompany: false,
   },
   {

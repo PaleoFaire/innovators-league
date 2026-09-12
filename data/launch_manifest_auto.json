@@ -1,23 +1,5 @@
 [
   {
-    "date": "2026-09-10",
-    "vehicle": "Falcon 9 Block 5 | USSF-153",
-    "payload": "USSF-153",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/3e0456da-14b1-4ac3-b59e-35fefb1d1530/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-09-11",
-    "vehicle": "Electron | Happily Ever Faster (BlackSky Gen-3 5)",
-    "payload": "Happily Ever Faster (BlackSky Gen-3 5)",
-    "pad": "Rocket Lab Launch Complex 1A, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/b81156da-c0b8-46c8-aebd-8af8d2be83cd/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
     "date": "2026-09-13",
     "vehicle": "Falcon 9 Block 5 | O3b mPower 11-13",
     "payload": "O3b mPower 11-13",
@@ -448,5 +430,23 @@
     "provider": "Firefly Aerospace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d47cbca4-48c1-455a-b357-f156833b189e/?format=json",
     "trackedCompany": "Firefly Aerospace"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "LVM-3 | Gaganyaan-1",
+    "payload": "Gaganyaan-1",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/dfac5ab7-7017-454f-b6cf-eeed277a97b5/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Spectrum | 1 x Pelican satellite",
+    "payload": "1 x Pelican satellite",
+    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
+    "provider": "Isar Aerospace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/60f4ba6c-4201-4727-94aa-0015a5a0023f/?format=json",
+    "trackedCompany": null
   }
 ]

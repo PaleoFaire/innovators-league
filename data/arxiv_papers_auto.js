@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-09-11 12:00:36 UTC
+// Last updated: 2026-09-12 11:26:44 UTC
 const ARXIV_PAPERS = [
   { id: "2609.11900v1", title: "MindTopo: Can Foundation Models Reason in Topological Space?", category: "Artificial Intelligence", published: "2026-09-10", sectors: "ai", authors: "Yunfei Ge, Anbang Liu, Qineng Wang et al." },
   { id: "2609.11878v1", title: "Domain-Specific Hallucination Detection in Large Language Models", category: "Artificial Intelligence", published: "2026-09-10", sectors: "ai", authors: "Varun Teja Chundru, Debasmita Biswas" },

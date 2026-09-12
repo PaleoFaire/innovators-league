@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-09-11 12:08:55 UTC",
+    "generated_at": "2026-09-12 11:30:41 UTC",
     "total_targets": 116,
-    "with_excerpts": 102,
+    "with_excerpts": 106,
     "sources": [
       "none",
       "sec_edgar",
@@ -638,20 +638,24 @@
     {
       "ticker": "ORCL",
       "company": "Oracle",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investor.oracle.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-09-11",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/0001193125-26-389274-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "NET",
       "company": "Cloudflare",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://cloudflare.net/investors",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-06",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000054/0001477333-26-000054-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "EQIX",
@@ -775,11 +779,13 @@
     {
       "ticker": "ZBRA",
       "company": "Zebra Technologies",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.zebra.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/877212/000162828026052550/0001628280-26-052550-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "IONQ",
@@ -806,11 +812,13 @@
     {
       "ticker": "RGTI",
       "company": "Rigetti Computing",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.rigetti.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-06",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926091993/0001104659-26-091993-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "DDD",
