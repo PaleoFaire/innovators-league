@@ -1,63 +1,63 @@
 // Auto-generated news signals
-// Last updated: 2026-09-12T16:55:43.967Z
+// Last updated: 2026-09-12T19:08:16.914Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1789232143967,
+    "id": 1789240096914,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Huge Next Flight and 150 Days to Change the World",
     "source": "Next Big Future",
-    "time": "18h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/09/spacex-huge-next-flight-and-150-days-to-change-the-world.html"
   },
   {
-    "id": 1789232143968,
+    "id": 1789240096915,
     "type": "news",
     "company": "xAI",
     "headline": "xAI has quietly built a massive battery at its Memphis data center hub",
     "source": "Canary Media",
-    "time": "18h ago",
+    "time": "21h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.canarymedia.com/articles/batteries/xai-massive-battery-memphis-data-center"
   },
   {
-    "id": 1789232143969,
+    "id": 1789240096916,
     "type": "hire",
     "company": "Monumental",
     "headline": "One brick at a time: How Monumental uses robotics to build walls",
     "source": "The Robot Report",
-    "time": "19h ago",
+    "time": "21h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/"
   },
   {
-    "id": 1789232143970,
+    "id": 1789240096917,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI&#8217;s feud with mathematicians is only escalating",
     "source": "TechCrunch",
-    "time": "19h ago",
+    "time": "22h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/"
   },
   {
-    "id": 1789232143971,
+    "id": 1789240096918,
     "type": "funding",
     "company": "Cognition",
     "headline": "The Week’s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
     "source": "Crunchbase News",
-    "time": "22h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": true,
     "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
   },
   {
-    "id": 1789232143972,
+    "id": 1789240096919,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
@@ -68,18 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/"
   },
   {
-    "id": 1789232143973,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return",
-    "source": "NASA Breaking News",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-to-discuss-station-mission-upcoming-return/"
-  },
-  {
-    "id": 1789232143974,
+    "id": 1789240096920,
     "type": "news",
     "company": "Saildrone",
     "headline": "US refutes claims that Iran captured Saildrone USV",
@@ -90,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/industry/techwatch/2026/09/11/us-refutes-claims-that-iran-captured-saildrone-usv/"
   },
   {
-    "id": 1789232143975,
+    "id": 1789240096921,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal",
@@ -101,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal/"
   },
   {
-    "id": 1789232143976,
+    "id": 1789240096922,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI puts Pro subscriptions on hold due to Astra demand",
@@ -112,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/"
   },
   {
-    "id": 1789232143977,
+    "id": 1789240096923,
     "type": "ipo",
     "company": "Anthropic",
     "headline": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
@@ -123,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/"
   },
   {
-    "id": 1789232143978,
+    "id": 1789240096924,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "WOW! Tesla &#038; SpaceX’s Huge Unlocks—Grok 4.7 and AGI",
@@ -134,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/09/wow-tesla-spacexs-huge-unlocks-grok-4-7-and-agi.html"
   },
   {
-    "id": 1789232143979,
+    "id": 1789240096925,
     "type": "news",
     "company": "Monumental",
     "headline": "What bricklaying has taught Monumental about robots in construction",
@@ -145,18 +134,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/"
   },
   {
-    "id": 1789232143980,
+    "id": 1789240096926,
     "type": "news",
     "company": "Deterrence",
     "headline": "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture",
     "source": "War on the Rocks",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://warontherocks.com/forced-into-the-right-decision-a-look-at-u-s-land-based-deterrence-posture/"
   },
   {
-    "id": 1789232143981,
+    "id": 1789240096927,
     "type": "news",
     "company": "Vention",
     "headline": "Vention opens Physical AI Lab for manufacturing in Montreal",
@@ -167,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/"
   },
   {
-    "id": 1789232143982,
+    "id": 1789240096928,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "The Download: OpenAI’s turning point for math and a battery record",
@@ -178,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/"
   },
   {
-    "id": 1789232143983,
+    "id": 1789240096929,
     "type": "news",
     "company": "Vast",
     "headline": "NSA wants AI to help analysts sift vast data troves",
@@ -189,29 +178,29 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/technology/2026/09/nsa-ai-analysts-data/415860/"
   },
   {
-    "id": 1789232143984,
+    "id": 1789240096930,
     "type": "news",
     "company": "Humanoid",
     "headline": "AI can’t outrun a humanoid&#8217;s hardware",
     "source": "The Robot Report",
-    "time": "3d ago",
+    "time": "4d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/"
   },
   {
-    "id": 1789232143985,
+    "id": 1789240096931,
     "type": "funding",
     "company": "Mistral AI",
     "headline": "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round",
     "source": "Crunchbase News",
-    "time": "3d ago",
+    "time": "4d ago",
     "impact": "high",
     "unread": false,
     "link": "https://news.crunchbase.com/venture/europe-record-setting-mistral-ai-raise/"
   },
   {
-    "id": 1789232143986,
+    "id": 1789240096932,
     "type": "news",
     "company": "Rivian",
     "headline": "Rivian’s Gambit for Full Autonomy",
@@ -220,5 +209,16 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://spectrum.ieee.org/rivian-self-driving"
+  },
+  {
+    "id": 1789240096933,
+    "type": "news",
+    "company": "Humanoid",
+    "headline": "XPeng starts IRON humanoid robot production as Tesla Optimus stalls",
+    "source": "Electrek",
+    "time": "4d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/"
   }
 ];
