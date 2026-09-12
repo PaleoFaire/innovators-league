@@ -1,79 +1,93 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 49,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
+      "One brick at a time: How Monumental uses robotics to build w",
       "Proxima Fusion bets \u20ac140M on a critical fusion ingredient do",
-      "WOW! Tesla &#038; SpaceX\u2019s Huge Unlocks\u2014Grok 4.7 and AGI",
-      "What bricklaying has taught Monumental about robots in const"
+      "WOW! Tesla &#038; SpaceX\u2019s Huge Unlocks\u2014Grok 4.7 and AGI"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 55,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-11"
+    "lastUpdated": "2026-09-12"
   },
   {
     "sector": "Transportation",
-    "momentum": 45,
+    "momentum": 41,
     "trend": "steady",
     "catalysts": [
-      "The Boring Company raises $3B in round led by UAE",
       "Vertical Aerospace\u2019s eVTOL Can Fly. The Passenger Business I",
       "Rivian\u2019s Gambit for Full Autonomy"
     ],
     "fundingQ": "$3.0B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 10,
       "hiring": 0,
-      "market": 23
+      "market": 19
     },
-    "lastUpdated": "2026-09-11"
+    "lastUpdated": "2026-09-12"
   },
   {
     "sector": "AI & Software",
-    "momentum": 31,
+    "momentum": 36,
     "trend": "rising",
     "catalysts": [
-      "OpenAI Wants to Know if an AI Industry Slowdown Would Even B",
-      "OpenAI puts Pro subscriptions on hold due to Astra demand",
-      "Anthropic details distillation campaigns from Alibaba, Moons"
+      "OpenAI&#8217;s feud with mathematicians is only escalating",
+      "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognit",
+      "Nscale adds former OpenAI exec Fidji Simo to its board ahead"
     ],
-    "fundingQ": "$1.4B",
+    "fundingQ": "$2.4B",
     "components": {
-      "funding": 29,
-      "news": 45,
+      "funding": 39,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-11"
+    "lastUpdated": "2026-09-12"
   },
   {
-    "sector": "Nuclear Energy",
-    "momentum": 25,
+    "sector": "Chips & Semiconductors",
+    "momentum": 19,
     "trend": "declining",
     "catalysts": [
-      "Proxima Fusion bets \u20ac140M on a critical fusion ingredient do",
-      "Forced Into the Right Decision? A Look at U.S. Land-Based De",
-      "The Atlantic Brief: U.S. and European Perspectives on Nuclea"
+      "Rivian\u2019s Gambit for Full Autonomy"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 30,
+      "news": 5,
       "hiring": 0,
       "market": 89
     },
-    "lastUpdated": "2026-09-11"
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "SpaceX Huge Next Flight and 150 Days to Change the World",
+      "What bricklaying has taught Monumental about robots in const"
+    ],
+    "fundingQ": "$50M",
+    "components": {
+      "funding": 16,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-12"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 23,
+    "momentum": 17,
     "trend": "rising",
     "catalysts": [
       "Forced Into the Right Decision? A Look at U.S. Land-Based De",
@@ -85,51 +99,18 @@
       "funding": 38,
       "news": 15,
       "hiring": 0,
-      "market": 29
+      "market": 0
     },
-    "lastUpdated": "2026-09-11"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "Rivian\u2019s Gambit for Full Autonomy",
-      "Nvidia discloses $21B stake in SpaceX"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 88
-    },
-    "lastUpdated": "2026-09-11"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 17,
-    "trend": "declining",
-    "catalysts": [
-      "What bricklaying has taught Monumental about robots in const"
-    ],
-    "fundingQ": "$50M",
-    "components": {
-      "funding": 16,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-11"
+    "lastUpdated": "2026-09-12"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 16,
     "trend": "declining",
     "catalysts": [
+      "One brick at a time: How Monumental uses robotics to build w",
       "WOW! Tesla &#038; SpaceX\u2019s Huge Unlocks\u2014Grok 4.7 and AGI",
-      "What bricklaying has taught Monumental about robots in const",
-      "Vention opens Physical AI Lab for manufacturing in Montreal"
+      "What bricklaying has taught Monumental about robots in const"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -138,14 +119,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-11"
+    "lastUpdated": "2026-09-12"
   },
   {
     "sector": "Drones & Autonomous",
     "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "Poland&#8217;s WB Group unveils Warmate 30, latest in drone",
+      "US refutes claims that Iran captured Saildrone USV",
       "Vertical Aerospace\u2019s eVTOL Can Fly. The Passenger Business I",
       "Back to life: How Shield AI\u2019s future unmanned fighter made d"
     ],
@@ -156,25 +137,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-11"
+    "lastUpdated": "2026-09-12"
   },
   {
-    "sector": "Space & Aerospace",
-    "momentum": 13,
-    "trend": "rising",
+    "sector": "Climate & Energy",
+    "momentum": 11,
+    "trend": "declining",
     "catalysts": [
-      "Anthropic details distillation campaigns from Alibaba, Moons",
-      "Dust and Water in Sagittarius A*",
-      "WOW! Tesla &#038; SpaceX\u2019s Huge Unlocks\u2014Grok 4.7 and AGI"
+      "xAI has quietly built a massive battery at its Memphis data",
+      "The Download: OpenAI\u2019s turning point for math and a battery",
+      "Sage Geosystems brings its first next-gen geothermal plant o"
     ],
-    "fundingQ": "$50M",
+    "fundingQ": "$134M",
     "components": {
-      "funding": 5,
-      "news": 45,
+      "funding": 11,
+      "news": 15,
       "hiring": 0,
-      "market": 0
+      "market": 19
     },
-    "lastUpdated": "2026-09-11"
+    "lastUpdated": "2026-09-12"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -190,11 +171,79 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-11"
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "sector": "Ocean & Maritime",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "US refutes claims that Iran captured Saildrone USV"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active infrastructure & logistics ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 9,
+    "trend": "declining",
+    "catalysts": [
+      "SpaceX Huge Next Flight and 150 Days to Change the World",
+      "Anthropic details distillation campaigns from Alibaba, Moons",
+      "WOW! Tesla &#038; SpaceX\u2019s Huge Unlocks\u2014Grok 4.7 and AGI"
+    ],
+    "fundingQ": "$50M",
+    "components": {
+      "funding": 5,
+      "news": 25,
+      "hiring": 0,
+      "market": 6
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 8,
+    "trend": "declining",
+    "catalysts": [
+      "Proxima Fusion bets \u20ac140M on a critical fusion ingredient do",
+      "Forced Into the Right Decision? A Look at U.S. Land-Based De",
+      "The Atlantic Brief: U.S. and European Perspectives on Nuclea"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 30,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-09-12"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 11,
+    "momentum": 6,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -204,58 +253,9 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 53
+      "market": 32
     },
-    "lastUpdated": "2026-09-11"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Jason Calcanis is Wrong About Cybercab, Waymo, and Uber \u2014 He"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-11"
-  },
-  {
-    "sector": "Ocean & Maritime",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active ocean & maritime ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-11"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 6,
-    "trend": "declining",
-    "catalysts": [
-      "The Download: OpenAI\u2019s turning point for math and a battery",
-      "Sage Geosystems brings its first next-gen geothermal plant o"
-    ],
-    "fundingQ": "$134M",
-    "components": {
-      "funding": 11,
-      "news": 10,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-09-11"
+    "lastUpdated": "2026-09-12"
   },
   {
     "sector": "Biotech & Health",
@@ -272,6 +272,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-11"
+    "lastUpdated": "2026-09-12"
   }
 ]

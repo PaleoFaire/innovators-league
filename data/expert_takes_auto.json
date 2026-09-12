@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T11:07:24.104506Z",
+  "generated_at": "2026-09-12T10:34:30.703739Z",
   "takes": [
     {
       "author": "Crunchbase News",
@@ -34,28 +34,27 @@
     {
       "author": "TechCrunch",
       "role": "Industry signal",
-      "company": "The Boring Company",
-      "text": "The Boring Company raises $3B in round led by UAE",
-      "date": "Thu, 10 Se",
+      "company": "OpenAI",
+      "text": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
+      "date": "Fri, 11 Se",
       "source": "news",
-      "source_url": "https://techcrunch.com/2026/09/10/the-boring-company-raises-3b-in-round-led-by-uae/",
-      "signal_type": "funding"
+      "source_url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
+      "signal_type": "ipo"
     },
     {
-      "author": "Ars Technica",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "Nvidia discloses $21B stake in SpaceX",
-      "date": "Mon, 17 Au",
-      "source": "news",
-      "source_url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
-      "signal_type": "ipo"
+      "author": "insidedefense",
+      "role": "Executive commentary",
+      "company": "Anthropic",
+      "text": "Anthropic technology removed from 90% of classified military AI work, Pentagon CTO says",
+      "date": "2026-09-10",
+      "source": "press",
+      "source_url": "https://insidedefense.com/ai-news/anthropic-technology-removed-90-classified-military-ai-work-pentagon-cto-says"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 5,
-    "from_press": 0
+    "from_news": 4,
+    "from_press": 1
   }
 }

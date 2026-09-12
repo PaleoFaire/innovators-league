@@ -1,6 +1,8 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-11 10:54:40 UTC
+// Last updated: 2026-09-12 10:22:05 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Oklo", form: "8-K", date: "2026-09-11", description: "tm2625056d1_8k.htm", isIPO: false, ticker: "OKLO" },
+  { company: "Centrus Energy", form: "8-K", date: "2026-09-11", description: "tm2625019d5_8k.htm", isIPO: false, ticker: "LEU" },
   { company: "BlackSky Technology", form: "4", date: "2026-09-10", description: "xslF345X06/wk-form4_1789072189.xml", isIPO: false, ticker: "BKSY" },
   { company: "Oklo", form: "4", date: "2026-09-10", description: "xslF345X06/wk-form4_1789072444.xml", isIPO: false, ticker: "OKLO" },
   { company: "Upstart Holdings", form: "4", date: "2026-09-10", description: "xslF345X06/wk-form4_1789082008.xml", isIPO: false, ticker: "UPST" },
@@ -49,6 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Momentus", form: "8-K", date: "2026-08-28", description: "apre-20260828x8k.htm", isIPO: false, ticker: "MNTS" },
   { company: "NuScale Power", form: "4", date: "2026-08-28", description: "xslF345X06/wk-form4_1787950354.xml", isIPO: false, ticker: "SMR" },
   { company: "C3.ai", form: "DEF 14A", date: "2026-08-28", description: "ai-20260827.htm", isIPO: false, ticker: "AI" },
-  { company: "Oklo", form: "4", date: "2026-08-27", description: "xslF345X06/wk-form4_1787862889.xml", isIPO: false, ticker: "OKLO" },
-  { company: "C3.ai", form: "4", date: "2026-08-27", description: "xslF345X06/wk-form4_1787870125.xml", isIPO: false, ticker: "AI" },
 ];
