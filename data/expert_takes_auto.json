@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:34:30.703739Z",
+  "generated_at": "2026-09-13T11:36:04.588112Z",
   "takes": [
     {
       "author": "Crunchbase News",
@@ -40,21 +40,12 @@
       "source": "news",
       "source_url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
       "signal_type": "ipo"
-    },
-    {
-      "author": "insidedefense",
-      "role": "Executive commentary",
-      "company": "Anthropic",
-      "text": "Anthropic technology removed from 90% of classified military AI work, Pentagon CTO says",
-      "date": "2026-09-10",
-      "source": "press",
-      "source_url": "https://insidedefense.com/ai-news/anthropic-technology-removed-90-classified-military-ai-work-pentagon-cto-says"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
     "from_news": 4,
-    "from_press": 1
+    "from_press": 0
   }
 }

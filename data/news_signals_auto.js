@@ -1,30 +1,30 @@
 // Auto-generated news signals
-// Last updated: 2026-09-13T05:55:52.856Z
+// Last updated: 2026-09-13T11:23:14.011Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1789278952856,
+    "id": 1789298594011,
     "type": "hire",
     "company": "OpenAI",
     "headline": "OpenAI’s Sam Altman says it would be &#8216;ill-advised&#8217; to go public in 2026",
     "source": "TechCrunch",
-    "time": "9h ago",
+    "time": "15h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/"
   },
   {
-    "id": 1789278952857,
+    "id": 1789298594012,
     "type": "hire",
     "company": "Anthropic",
     "headline": "Anthropic CEO outlines plan to slow AI development",
     "source": "TechCrunch",
-    "time": "10h ago",
+    "time": "15h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/"
   },
   {
-    "id": 1789278952858,
+    "id": 1789298594013,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Huge Next Flight and 150 Days to Change the World",
@@ -35,7 +35,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/09/spacex-huge-next-flight-and-150-days-to-change-the-world.html"
   },
   {
-    "id": 1789278952859,
+    "id": 1789298594014,
     "type": "news",
     "company": "xAI",
     "headline": "xAI has quietly built a massive battery at its Memphis data center hub",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/batteries/xai-massive-battery-memphis-data-center"
   },
   {
-    "id": 1789278952860,
+    "id": 1789298594015,
     "type": "hire",
     "company": "Monumental",
     "headline": "One brick at a time: How Monumental uses robotics to build walls",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/"
   },
   {
-    "id": 1789278952861,
+    "id": 1789298594016,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI&#8217;s feud with mathematicians is only escalating",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/"
   },
   {
-    "id": 1789278952862,
+    "id": 1789298594017,
     "type": "funding",
     "company": "Cognition",
     "headline": "The Week’s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
   },
   {
-    "id": 1789278952863,
+    "id": 1789298594018,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/"
   },
   {
-    "id": 1789278952864,
+    "id": 1789298594019,
     "type": "news",
     "company": "Saildrone",
     "headline": "US refutes claims that Iran captured Saildrone USV",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/industry/techwatch/2026/09/11/us-refutes-claims-that-iran-captured-saildrone-usv/"
   },
   {
-    "id": 1789278952865,
+    "id": 1789298594020,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal/"
   },
   {
-    "id": 1789278952866,
+    "id": 1789298594021,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "WOW! Tesla &#038; SpaceX’s Huge Unlocks—Grok 4.7 and AGI",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/09/wow-tesla-spacexs-huge-unlocks-grok-4-7-and-agi.html"
   },
   {
-    "id": 1789278952867,
+    "id": 1789298594022,
     "type": "news",
     "company": "Monumental",
     "headline": "What bricklaying has taught Monumental about robots in construction",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/"
   },
   {
-    "id": 1789278952868,
+    "id": 1789298594023,
     "type": "news",
     "company": "Deterrence",
     "headline": "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://warontherocks.com/forced-into-the-right-decision-a-look-at-u-s-land-based-deterrence-posture/"
   },
   {
-    "id": 1789278952869,
+    "id": 1789298594024,
     "type": "news",
     "company": "Vention",
     "headline": "Vention opens Physical AI Lab for manufacturing in Montreal",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/"
   },
   {
-    "id": 1789278952870,
+    "id": 1789298594025,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "The Download: OpenAI’s turning point for math and a battery record",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/"
   },
   {
-    "id": 1789278952871,
+    "id": 1789298594026,
     "type": "news",
     "company": "Vast",
     "headline": "NSA wants AI to help analysts sift vast data troves",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/technology/2026/09/nsa-ai-analysts-data/415860/"
   },
   {
-    "id": 1789278952872,
+    "id": 1789298594027,
     "type": "news",
     "company": "Humanoid",
     "headline": "AI can’t outrun a humanoid&#8217;s hardware",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/"
   },
   {
-    "id": 1789278952873,
+    "id": 1789298594028,
     "type": "funding",
     "company": "Mistral AI",
     "headline": "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://news.crunchbase.com/venture/europe-record-setting-mistral-ai-raise/"
   },
   {
-    "id": 1789278952874,
+    "id": 1789298594029,
     "type": "news",
     "company": "Rivian",
     "headline": "Rivian’s Gambit for Full Autonomy",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spectrum.ieee.org/rivian-self-driving"
   },
   {
-    "id": 1789278952875,
+    "id": 1789298594030,
     "type": "news",
     "company": "Humanoid",
     "headline": "XPeng starts IRON humanoid robot production as Tesla Optimus stalls",
