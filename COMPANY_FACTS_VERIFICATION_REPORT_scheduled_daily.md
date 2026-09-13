@@ -1,97 +1,91 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-09-12T09:10:47+00:00  
+**Generated:** 2026-09-13T10:07:28+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
-**Cohort size:** 40 companies  
+**Cohort size:** 31 companies  
 
-**New Claude extractions this run:** 40  
+**New Claude extractions this run:** 31  
 
 
 ## Summary
 
 | Category | Count | % |
 |---|---|---|
-| ✅ Cleared (data matches sources) | 36 | 90% |
-| 🔧 Changes proposed | 4 | 10% |
+| ✅ Cleared (data matches sources) | 28 | 90% |
+| 🔧 Changes proposed | 3 | 10% |
 | ❓ Unverifiable | 0 | 0% |
 
 ---
 
-## 🔧 Proposed Changes (4 companies)
+## 🔧 Proposed Changes (3 companies)
 
 Review each change and reply with which ones to apply. **Source-cited diffs:**
+
+### 1X Technologies
+
+- **`location`:** `Palo Alto, CA` → `Palo Alto, California, USA`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/1X_Technologies)
+- **`fundingStage`:** `Pre-Seed` → `Series B`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/1X_Technologies)
+- **`totalRaised`:** `$1.1B` → `$123.5M`  
+  Sources: [wikipedia](https://en.wikipedia.org/wiki/1X_Technologies)
+
+  **Notes:** Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Series A2 funding of $23.5M raised in March 2023 (source 2). Series B funding of $100M raised in January 2024 (source 2). Total raised calculation: $23.5M + $100M = $123.5M. Source 0 and 1 describe a different company (wire and cable distributor also named 1X Technologies LLC based in Sheridan, WY) and are not applicable to the robotics company.
 
 ### Agility Robotics
 
 - **`fundingStage`:** `Series E` → `Pre-IPO`  
   Sources: [company_website](https://agilityrobotics.com)
 
-  **Notes:** Company announced merger with Churchill Capital Corp XI to go public (Source 0, June 24, 2026). On March 5, 2026, company announced rebrand as 'Agility' (Source 2). Current CEO is Peggy Johnson (Source 1). Digit is deployed with customers including Toyota, Amazon, Mercado Libre, and GXO (Source 1).
-
-### Cognition
-
-- **`totalRaised`:** `$400M+` → `$2B`  
-  Sources: [news (Crunchbase News)](https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/)
-
-  **Notes:** Source [1] lists investors as 'Founders Fund, Lux Capital, 8VC, Bain Capital Ventures, and other leading investors' with total raised 'over $400M'. Source [3] (Crunchbase News) reports Cognition raised '$2B' in a recent funding round, which is more recent and specific. Founders not explicitly named as 'founders/co-founders' in provided sources; source [1] mentions 'founding team' but individual founder names are not listed. Founded year not provided in sources. Current stage not specified in sources.
+  **Notes:** Company announced plan to go public through merger with Churchill Capital Corp XI (announced June 24, 2026). Wikipedia notes a rebrand to 'Agility' on March 5, 2026. Sources do not provide specific total funding amount or current valuation figures to verify the database entry values.
 
 ### Nano Nuclear Energy
 
 - **`fundingStage`:** `Seed` → `Public`  
   Sources: [company_website](https://nanonuclearenergy.com) · [company_about](https://nanonuclearenergy.com/about)
 
-  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Source [2] about Valar Atomics is unrelated to NANO Nuclear Energy and was not used. No founder name, founded year, total raised, valuation, or investor information could be verified from provided sources.
-
-### Proxima Fusion
-
-- **`totalRaised`:** `€200M` → `€145M+`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Proxima_Fusion)
-
-  **Notes:** Founded April 2023. Series A funding: €130M announced June 2025 plus €15M extension September 2025 (total €145M). Additional €140M factory investment announced for HTS tape production. Alphabet Inc. invested in July 2026 round. Database entry shows €200M total raised, but Wikipedia sources document €145M+ in equity funding as of September 2025.
+  **Notes:** Company is publicly listed on NASDAQ under ticker NNE. Sources claim to be 'the first nuclear microreactor company to be listed publicly in the U.S.' Database entry references 'Jay Jiang Yu' as founder and valuation/raise figures, but these are not verified in provided sources. Source [2] is about Valar Atomics (different company) and was not used. Founded year (2022) and total_raised ($600M+) from database entry cannot be verified from these sources.
 
 ---
 
-## ✅ Cleared (36 companies)
+## ✅ Cleared (28 companies)
 
 Data matches sources for these companies — **no changes needed**.
 
 Sample (first 30):
 
-- 1X Technologies
 - Antares
 - AnySignal
 - Apptronik
 - Astera Labs
-- Axiom Space
 - Base Power
+- Cognition
 - Deterrence
 - Dexterity
-- Durin
 - Galvanick
 - Hadrian
 - Humanoid
 - ICON
-- IQM Quantum Computers
 - Monumental
 - Oklo
 - Orbital Composites
-- Osmo
-- Oxford Quantum Circuits
-- PLD Space
 - Pivotal
-- QuantWare
 - Radiant
 - Rebellions
-- Rigetti Computing
 - Rivian
 - Sage Geosystems
 - Saildrone
 - Shield AI
-- *...and 6 more*
+- SpaceX
+- Valar Atomics
+- Vast
+- Vention
+- Vertical Aerospace
+- Waymo
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-09-12T09:10:47+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-09-13T10:07:28+00:00*

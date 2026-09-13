@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T09:11:12+00:00",
+  "generatedAt": "2026-09-13T10:07:52+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
   "cohortSize": 2,
@@ -50,7 +50,13 @@
         "website": "https://engine.xyz",
         "sources_per_field": {
           "name": [
-            1
+            0,
+            1,
+            2,
+            3
+          ],
+          "short_name": [
+            0
           ],
           "founded_year": [
             1,
@@ -66,10 +72,12 @@
             1
           ],
           "website": [
-            0
+            0,
+            1,
+            2
           ]
         },
-        "notes": "Engine Ventures separated from The Engine (nonprofit incubator/accelerator) in 2023. The Engine was founded by MIT in 2016. Key partners and AUM not verifiable from provided sources. Wikipedia lists leadership for The Engine organization, not Engine Ventures separately."
+        "notes": "Engine Ventures is the investment arm that spun out from The Engine (a nonprofit incubator/accelerator founded by MIT in 2016). Sources do not provide current AUM, flagship fund name, or individual partner names for Engine Ventures specifically. Wikipedia lists The Engine's leadership (Emily Knight as CEO/President) but does not identify senior partners of Engine Ventures investment firm."
       },
       "changes": [
         {
@@ -103,14 +111,6 @@
           "sources": [
             2
           ]
-        },
-        {
-          "field": "thesis",
-          "current": "Engine Ventures invests in early-stage Tough Tech companies. In 2023, Engine Ventures spun out as a separate venture capital firm focused on Tough Tech companies solving the world's most challenging problems.",
-          "verified": "Engine Ventures invests in early-stage Tough Tech companies. In 2023, Engine Ventures spun out as a separate investment firm focused on Tough Tech companies solving the world's most challenging problems.",
-          "sources": [
-            1
-          ]
         }
       ],
       "sources": [
@@ -141,16 +141,11 @@
         },
         {
           "idx": 5,
-          "src": "news (CleanTechnica)",
-          "url": "https://cleantechnica.com/2026/09/08/vertical-aerospace-evtol-financing-passenger-market/"
-        },
-        {
-          "idx": 6,
           "src": "news (Defense One)",
           "url": "https://www.defenseone.com/business/2026/09/back-life-how-shield-ais-future-unmanned-fighter-made-decades-old-tech-new-again/415821/"
         }
       ],
-      "notes": "Engine Ventures separated from The Engine (nonprofit incubator/accelerator) in 2023. The Engine was founded by MIT in 2016. Key partners and AUM not verifiable from provided sources. Wikipedia lists leadership for The Engine organization, not Engine Ventures separately."
+      "notes": "Engine Ventures is the investment arm that spun out from The Engine (a nonprofit incubator/accelerator founded by MIT in 2016). Sources do not provide current AUM, flagship fund name, or individual partner names for Engine Ventures specifically. Wikipedia lists The Engine's leadership (Emily Knight as CEO/President) but does not identify senior partners of Engine Ventures investment firm."
     }
   ],
   "unverifiable": []

@@ -1,41 +1,33 @@
 {
-  "generatedAt": "2026-09-12T09:10:47+00:00",
+  "generatedAt": "2026-09-13T10:07:28+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 40,
-  "newExtractionsThisRun": 40,
+  "cohortSize": 31,
+  "newExtractionsThisRun": 31,
   "summary": {
-    "cleared": 36,
-    "changesProposed": 4,
+    "cleared": 28,
+    "changesProposed": 3,
     "unverifiable": 0
   },
   "cleared": [
-    "1X Technologies",
     "Antares",
     "AnySignal",
     "Apptronik",
     "Astera Labs",
-    "Axiom Space",
     "Base Power",
+    "Cognition",
     "Deterrence",
     "Dexterity",
-    "Durin",
     "Galvanick",
     "Hadrian",
     "Humanoid",
     "ICON",
-    "IQM Quantum Computers",
     "Monumental",
     "Oklo",
     "Orbital Composites",
-    "Osmo",
-    "Oxford Quantum Circuits",
-    "PLD Space",
     "Pivotal",
-    "QuantWare",
     "Radiant",
     "Rebellions",
-    "Rigetti Computing",
     "Rivian",
     "Sage Geosystems",
     "Saildrone",
@@ -49,6 +41,120 @@
   ],
   "changesProposed": [
     {
+      "name": "1X Technologies",
+      "current": {
+        "name": "1X Technologies",
+        "founder": "Bernt \u00d8ivind B\u00f8rnich",
+        "location": "Palo Alto, CA",
+        "founded": 2014,
+        "fundingStage": "Pre-Seed",
+        "totalRaised": "$1.1B",
+        "website": "https://1xtechnologies.com"
+      },
+      "verified": {
+        "name": "1X Technologies",
+        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home environments. The company manufactures humanoid robots including EVE for industrial use and NEO for domestic applications.",
+        "founders": [
+          "Bernt \u00d8ivind B\u00f8rnich"
+        ],
+        "location": "Palo Alto, California, USA",
+        "founded_year": 2014,
+        "current_stage": "Series B",
+        "total_raised": "$123.5M",
+        "valuation": null,
+        "investors": [
+          "OpenAI Startup Fund",
+          "Tiger Global",
+          "Sandwater",
+          "Alliance Ventures",
+          "Skagerak Capital",
+          "EQT Ventures",
+          "Samsung NEXT",
+          "Nistad Group"
+        ],
+        "website": "https://1x.tech",
+        "sources_per_field": {
+          "name": [
+            2
+          ],
+          "description": [
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
+          "total_raised": [
+            2
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            2
+          ]
+        },
+        "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Series A2 funding of $23.5M raised in March 2023 (source 2). Series B funding of $100M raised in January 2024 (source 2). Total raised calculation: $23.5M + $100M = $123.5M. Source 0 and 1 describe a different company (wire and cable distributor also named 1X Technologies LLC based in Sheridan, WY) and are not applicable to the robotics company."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Palo Alto, CA",
+          "verified": "Palo Alto, California, USA",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "fundingStage",
+          "current": "Pre-Seed",
+          "verified": "Series B",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$1.1B",
+          "verified": "$123.5M",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://1xtechnologies.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://1xtechnologies.com/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1X_Technologies"
+        },
+        {
+          "idx": 3,
+          "src": "news (Electrek)",
+          "url": "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/"
+        }
+      ],
+      "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Series A2 funding of $23.5M raised in March 2023 (source 2). Series B funding of $100M raised in January 2024 (source 2). Total raised calculation: $23.5M + $100M = $123.5M. Source 0 and 1 describe a different company (wire and cable distributor also named 1X Technologies LLC based in Sheridan, WY) and are not applicable to the robotics company."
+    },
+    {
       "name": "Agility Robotics",
       "current": {
         "name": "Agility Robotics",
@@ -61,7 +167,7 @@
       },
       "verified": {
         "name": "Agility Robotics",
-        "description": "American humanoid robotics company that develops and deploys Digit, a commercially deployed humanoid robot for warehouse and logistics automation. The company provides automation solutions through its Digit robot and Arc cloud platform.",
+        "description": "American humanoid robotics company that develops Digit, a commercially deployed bipedal robot for warehouse and logistics automation. The company was spun out from Oregon State University's Dynamic Robotics Lab in 2015.",
         "founders": [
           "Jonathan Hurst",
           "Damion Shelton",
@@ -81,8 +187,6 @@
             2
           ],
           "description": [
-            0,
-            1,
             2
           ],
           "founders": [
@@ -99,10 +203,12 @@
             0
           ],
           "website": [
+            0,
+            1,
             2
           ]
         },
-        "notes": "Company announced merger with Churchill Capital Corp XI to go public (Source 0, June 24, 2026). On March 5, 2026, company announced rebrand as 'Agility' (Source 2). Current CEO is Peggy Johnson (Source 1). Digit is deployed with customers including Toyota, Amazon, Mercado Libre, and GXO (Source 1)."
+        "notes": "Company announced plan to go public through merger with Churchill Capital Corp XI (announced June 24, 2026). Wikipedia notes a rebrand to 'Agility' on March 5, 2026. Sources do not provide specific total funding amount or current valuation figures to verify the database entry values."
       },
       "changes": [
         {
@@ -136,92 +242,7 @@
           "url": "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/"
         }
       ],
-      "notes": "Company announced merger with Churchill Capital Corp XI to go public (Source 0, June 24, 2026). On March 5, 2026, company announced rebrand as 'Agility' (Source 2). Current CEO is Peggy Johnson (Source 1). Digit is deployed with customers including Toyota, Amazon, Mercado Libre, and GXO (Source 1)."
-    },
-    {
-      "name": "Cognition",
-      "current": {
-        "name": "Cognition",
-        "founder": "Scott Wu, Steven Hao, Walden Yan",
-        "location": "San Francisco, CA",
-        "founded": 2023,
-        "fundingStage": "Series A",
-        "totalRaised": "$400M+",
-        "website": "https://cognition.com"
-      },
-      "verified": {
-        "name": "Cognition",
-        "description": "Cognition operates Devin, the first autonomous software engineer. Devin plans, writes, tests, and ships production code on its own, working inside codebases and existing team tools.",
-        "founders": null,
-        "location": "San Francisco, CA",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": "$2B",
-        "valuation": null,
-        "investors": [
-          "Founders Fund",
-          "Lux Capital",
-          "8VC",
-          "Bain Capital Ventures"
-        ],
-        "website": "https://cognition.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "location": [
-            1
-          ],
-          "total_raised": [
-            3
-          ],
-          "investors": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [1] lists investors as 'Founders Fund, Lux Capital, 8VC, Bain Capital Ventures, and other leading investors' with total raised 'over $400M'. Source [3] (Crunchbase News) reports Cognition raised '$2B' in a recent funding round, which is more recent and specific. Founders not explicitly named as 'founders/co-founders' in provided sources; source [1] mentions 'founding team' but individual founder names are not listed. Founded year not provided in sources. Current stage not specified in sources."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "$400M+",
-          "verified": "$2B",
-          "sources": [
-            3
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://cognition.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://cognition.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Cognition"
-        },
-        {
-          "idx": 3,
-          "src": "news (Crunchbase News)",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
-        }
-      ],
-      "notes": "Source [1] lists investors as 'Founders Fund, Lux Capital, 8VC, Bain Capital Ventures, and other leading investors' with total raised 'over $400M'. Source [3] (Crunchbase News) reports Cognition raised '$2B' in a recent funding round, which is more recent and specific. Founders not explicitly named as 'founders/co-founders' in provided sources; source [1] mentions 'founding team' but individual founder names are not listed. Founded year not provided in sources. Current stage not specified in sources."
+      "notes": "Company announced plan to go public through merger with Churchill Capital Corp XI (announced June 24, 2026). Wikipedia notes a rebrand to 'Agility' on March 5, 2026. Sources do not provide specific total funding amount or current valuation figures to verify the database entry values."
     },
     {
       "name": "Nano Nuclear Energy",
@@ -235,8 +256,8 @@
         "website": "https://nanonuclearenergy.com"
       },
       "verified": {
-        "name": "NANO Nuclear Energy Inc.",
-        "description": "An advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, with subsidiaries in fuel fabrication, fuel transportation, and space applications.",
+        "name": "NANO Nuclear Energy",
+        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, along with nuclear fuel fabrication, transportation, and space applications.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -261,7 +282,7 @@
             1
           ]
         },
-        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Source [2] about Valar Atomics is unrelated to NANO Nuclear Energy and was not used. No founder name, founded year, total raised, valuation, or investor information could be verified from provided sources."
+        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources claim to be 'the first nuclear microreactor company to be listed publicly in the U.S.' Database entry references 'Jay Jiang Yu' as founder and valuation/raise figures, but these are not verified in provided sources. Source [2] is about Valar Atomics (different company) and was not used. Founded year (2022) and total_raised ($600M+) from database entry cannot be verified from these sources."
       },
       "changes": [
         {
@@ -291,119 +312,7 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Source [2] about Valar Atomics is unrelated to NANO Nuclear Energy and was not used. No founder name, founded year, total raised, valuation, or investor information could be verified from provided sources."
-    },
-    {
-      "name": "Proxima Fusion",
-      "current": {
-        "name": "Proxima Fusion",
-        "founder": "Francesco Sciortino, Lucio Milanese, Jorrit Lion, Jonathan Schilling, Martin Kubie",
-        "location": "Munich, Germany",
-        "founded": 2023,
-        "fundingStage": "Series A",
-        "totalRaised": "\u20ac200M",
-        "website": "https://proximafusion.com"
-      },
-      "verified": {
-        "name": "Proxima Fusion",
-        "description": "European fusion energy company building stellarator fusion power plants using quasi-isodynamic optimization, spun out from the Max Planck Institute for Plasma Physics in 2023.",
-        "founders": [
-          "Francesco Sciortino",
-          "Lucio Milanese",
-          "Jorrit Lion",
-          "Jonathan Schilling",
-          "Martin Kubie"
-        ],
-        "location": "Munich, Germany",
-        "founded_year": 2023,
-        "current_stage": "Series A",
-        "total_raised": "\u20ac145M+",
-        "valuation": null,
-        "investors": [
-          "Plural Platform",
-          "UVC Partners",
-          "Visionaries Club",
-          "Wilbe",
-          "High-Tech Gr\u00fcnderfonds",
-          "redalpine",
-          "Bayern Kapital",
-          "DeepTech & Climate Fonds",
-          "Max Planck Foundation",
-          "Alphabet Inc."
-        ],
-        "website": "https://proximafusion.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            1,
-            2
-          ],
-          "founders": [
-            1,
-            2
-          ],
-          "location": [
-            0,
-            1,
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "total_raised": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Founded April 2023. Series A funding: \u20ac130M announced June 2025 plus \u20ac15M extension September 2025 (total \u20ac145M). Additional \u20ac140M factory investment announced for HTS tape production. Alphabet Inc. invested in July 2026 round. Database entry shows \u20ac200M total raised, but Wikipedia sources document \u20ac145M+ in equity funding as of September 2025."
-      },
-      "changes": [
-        {
-          "field": "totalRaised",
-          "current": "\u20ac200M",
-          "verified": "\u20ac145M+",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://proximafusion.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://proximafusion.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Proxima_Fusion"
-        },
-        {
-          "idx": 3,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/09/10/proxima-fusion-bets-e140m-on-a-critical-fusion-ingredient-dominated-by-asian-suppliers/"
-        }
-      ],
-      "notes": "Founded April 2023. Series A funding: \u20ac130M announced June 2025 plus \u20ac15M extension September 2025 (total \u20ac145M). Additional \u20ac140M factory investment announced for HTS tape production. Alphabet Inc. invested in July 2026 round. Database entry shows \u20ac200M total raised, but Wikipedia sources document \u20ac145M+ in equity funding as of September 2025."
+      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources claim to be 'the first nuclear microreactor company to be listed publicly in the U.S.' Database entry references 'Jay Jiang Yu' as founder and valuation/raise figures, but these are not verified in provided sources. Source [2] is about Valar Atomics (different company) and was not used. Founded year (2022) and total_raised ($600M+) from database entry cannot be verified from these sources."
     }
   ],
   "unverifiable": []
