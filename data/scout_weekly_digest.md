@@ -1,32 +1,12 @@
-# 🌟 ROS Frontier-Tech Scout — Week of 2026-09-06
+# 🌟 ROS Frontier-Tech Scout — Week of 2026-09-13
 
-**Roster:** 1257 companies tracked  ·  **Screened this cycle:** 289  ·  **Top picks:** 5  ·  **Runners-up:** 10
+**Roster:** 1257 companies tracked  ·  **Screened this cycle:** 285  ·  **Top picks:** 5  ·  **Runners-up:** 10
 
 ---
 
 ## ⭐ Top 5 Picks This Week
 
-### 1. Anthropic  ·  *Score 33/70*
-
-**Sector:** Frontier Tech
-
-**Dimensions:** Capital 15, Magnitude 0, Tech Depth 8, Frontier Fit 0, Stealth 4
-
-**Anthropic** — frontier tech.
-
- Backing: Bessemer, Greylock, Spark Capital.
-
-Tech depth signals (patents/DARPA programs) suggest real engineering substance.
-
-Ask: Who's the first commercial customer, and how big is the contract?
-
-Source: VC portfolio. Score 33/70.
-
-**Verify:** [VC portfolio: Bessemer](portfolio_page) · [VC portfolio: Greylock](portfolio_page) · [VC portfolio: Spark Capital](portfolio_page)
-
----
-
-### 2. GALOIS, INC.  ·  *Score 31/70*
+### 1. GALOIS, INC.  ·  *Score 31/70*
 
 **Sector:** Defense & Security
 
@@ -43,6 +23,26 @@ Ask: What's the dual-use commercial wedge before the gov-only deal flow takes ov
 Source: DARPA. Score 32/70.
 
 **Verify:** [DARPA performer](https://www.usaspending.gov/award/CONT_AWD_HR001119C0073)
+
+---
+
+### 2. Anthropic  ·  *Score 31/70*
+
+**Sector:** Frontier Tech
+
+**Dimensions:** Capital 15, Magnitude 0, Tech Depth 6, Frontier Fit 0, Stealth 4
+
+**Anthropic** — frontier tech.
+
+ Backing: Bessemer, Greylock, Spark Capital.
+
+Tech depth signals (patents/DARPA programs) suggest real engineering substance.
+
+Ask: Who's the first commercial customer, and how big is the contract?
+
+Source: VC portfolio. Score 31/70.
+
+**Verify:** [VC portfolio: Bessemer](portfolio_page) · [VC portfolio: Greylock](portfolio_page) · [VC portfolio: Spark Capital](portfolio_page)
 
 ---
 
@@ -66,43 +66,43 @@ Source: VC portfolio. Score 31/70.
 
 ---
 
-### 4. Abridge  ·  *Score 30/70*
+### 4. HRL LABORATORIES, LLC  ·  *Score 30/70*
 
-**Sector:** Frontier Tech
+**Sector:** Defense & Security
 
-**Dimensions:** Capital 15, Magnitude 0, Tech Depth 0, Frontier Fit 0, Stealth 8
+**Dimensions:** Capital 0, Magnitude 7, Tech Depth 5, Frontier Fit 10, Stealth 4
 
-**Abridge** — frontier tech.
+**HRL LABORATORIES, LLC** — Defense & Security.
 
- Backing: Bessemer, Pillar VC, Spark Capital.
+DARPA contracts: $87.4M. 
 
-Surfaced in just one source — early intel, before the rest of the market.
+Worth a closer look this week.
 
-Ask: Who's the first commercial customer, and how big is the contract?
+Ask: What's the dual-use commercial wedge before the gov-only deal flow takes over?
 
-Source: VC portfolio. Score 31/70.
+Source: DARPA. Score 31/70.
 
-**Verify:** [VC portfolio: Bessemer](portfolio_page) · [VC portfolio: Spark Capital](portfolio_page) · [VC portfolio: Pillar VC](portfolio_page)
+**Verify:** [DARPA performer](https://www.usaspending.gov/award/CONT_AWD_HR001124C0399)
 
 ---
 
-### 5. Atomic Semi  ·  *Score 30/70*
+### 5. THE CHARLES STARK DRAPER LABORATORY, INC.  ·  *Score 30/70*
 
-**Sector:** Frontier Tech
+**Sector:** Defense & Security
 
-**Dimensions:** Capital 15, Magnitude 0, Tech Depth 0, Frontier Fit 0, Stealth 8
+**Dimensions:** Capital 0, Magnitude 7, Tech Depth 5, Frontier Fit 10, Stealth 4
 
-**Atomic Semi** — frontier tech.
+**THE CHARLES STARK DRAPER LABORATORY, INC.** — Defense & Security.
 
- Backing: AV, Greylock.
+DARPA contracts: $56.2M. 
 
-Surfaced in just one source — early intel, before the rest of the market.
+Worth a closer look this week.
 
-Ask: Who's the first commercial customer, and how big is the contract?
+Ask: What's the dual-use commercial wedge before the gov-only deal flow takes over?
 
-Source: VC portfolio. Score 31/70.
+Source: DARPA. Score 31/70.
 
-**Verify:** [VC portfolio: AV](portfolio_page) · [VC portfolio: AV](portfolio_page) · [VC portfolio: AV](portfolio_page)
+**Verify:** [DARPA performer](https://www.usaspending.gov/award/CONT_AWD_HR001121C0022)
 
 ---
 
@@ -110,8 +110,6 @@ Source: VC portfolio. Score 31/70.
 
 Worth a quick scan — surfaced in scout but didn't quite make the top 5.
 
-- **HRL LABORATORIES, LLC** *(Defense & Security)* — DARPA — score 30/70
-- **THE CHARLES STARK DRAPER LABORATORY, INC.** *(Defense & Security)* — DARPA — score 30/70
 - **GEORGIA TECH APPLIED RESEARCH CORP** *(Defense & Security)* — DARPA — score 30/70
 - **AEROJET ROCKETDYNE INC** *(Defense & Security)* — DARPA — score 30/70
 - **A2 LABS, LLC** *(Defense & Security)* — DARPA — score 30/70
@@ -120,6 +118,8 @@ Worth a quick scan — surfaced in scout but didn't quite make the top 5.
 - **KUDU DYNAMICS LLC** *(Defense & Security)* — DARPA — score 29/70
 - **RTX BBN TECHNOLOGIES, INC.** *(Defense & Security)* — DARPA — score 29/70
 - **PACMAR TECHNOLOGIES LLC** *(Defense & Security)* — DARPA — score 28/70
+- **GINKGO BIOWORKS, INC.** *(Defense & Security)* — DARPA — score 28/70
+- **GOODRICH CORPORATION** *(Defense & Security)* — DARPA — score 28/70
 
 ---
 
@@ -133,12 +133,12 @@ Recent episodes from the scout's podcast sources. Scan titles for company names 
 - **[Core Memory]** [The Google Engineer Who Set The Skydiving Record At 58 - EP 83 Alan Eustace](https://www.corememory.com/p/the-google-engineer-who-set-the-skydiving-record-alan-eustace)
 - **[All-In]** [Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding](https://allinchamathjason.libsyn.com/former-intel-ceo-on-what-went-wrong-whats-next-lovable-ceo-on-the-real-promise-of-vibe-coding)
 - **[Core Memory]** [An Implant That Tracks And Treats Cancer Tumors - EP 82 Ben Woodington](https://www.corememory.com/p/an-implant-that-tracks-and-treats-cancer-coherence-ben-woodington)
-- **[TBPN]** [Kushner & Iger’s $12.5B Lakers Deal, Grok 4.6 Launches, Anthropic’s Watermarking Move | Diet TBPN](https://share.transistor.fm/s/136a2805)
-- **[TBPN]** [Kushner and Iger Buy The Lakers, Grok 4.6 Launch, NVIDIA Nemotron | Darren Rovell, Patrick Whitesell, Harjot Gill, Jeff ](https://share.transistor.fm/s/05cdd0cc)
 - **[Lex Fridman Podcast]** [#500 – Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football](https://lexfridman.com/khabib-nurmagomedov/?utm_source=rss&utm_medium=rss&utm_campaign=khabib-nurmagomedov)
-- **[Core Memory]** [Quantum Everything Explained - EP 81 Prineha Narang](https://www.corememory.com/p/quantum-everything-explained-ep-81)
+- **[TBPN]** [Apple’s iPhone Duo, Meta’s Muse AI Agent, Anthropic Researcher Quits Over AI Doom | Diet TBPN](https://share.transistor.fm/s/36b0643c)
+- **[TBPN]** [Apple Unveils iPhone Duo, Muse AI Agent, Keith Rabois Joins | David Cahn, Mikey Shulman, David Perell, Jim Reilly, Fletc](https://share.transistor.fm/s/3cda42af)
+- **[Core Memory]** [The Xbox Nearly Destroyed Him - EP 87 Seamus Blackley](https://www.corememory.com/p/seamus-blackley-xbox-microsoft-cacao-chocolate-interview)
 
 ---
 
 
-*Generated 2026-09-06T12:30:49+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
+*Generated 2026-09-13T13:34:31+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*

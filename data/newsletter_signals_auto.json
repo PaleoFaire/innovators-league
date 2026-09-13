@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T12:28:22+00:00",
+  "generatedAt": "2026-09-13T13:32:27+00:00",
   "lookbackDays": 14,
   "sources": [
     {
@@ -18,7 +18,7 @@
       "name": "Latent Space (swyx)",
       "url": "https://www.latent.space/feed",
       "totalItems": 20,
-      "recentItems": 14
+      "recentItems": 13
     },
     {
       "name": "Construction Physics (Brian Potter)",
@@ -30,19 +30,19 @@
       "name": "The Generalist (Mario Gabriele)",
       "url": "https://www.generalist.com/feed",
       "totalItems": 20,
-      "recentItems": 0
+      "recentItems": 1
     },
     {
       "name": "Strange Loop Canon (Rohit Krishnan)",
       "url": "https://www.strangeloopcanon.com/feed",
       "totalItems": 20,
-      "recentItems": 2
+      "recentItems": 1
     },
     {
       "name": "Not Boring (Packy McCormick)",
       "url": "https://www.notboring.co/feed",
       "totalItems": 20,
-      "recentItems": 3
+      "recentItems": 4
     },
     {
       "name": "Bismarck Brief (Samo Burja)",
@@ -53,14 +53,14 @@
     {
       "name": "TechCrunch \u00b7 Venture",
       "url": "https://techcrunch.com/category/venture/feed/",
-      "totalItems": 16,
-      "recentItems": 16
+      "totalItems": 15,
+      "recentItems": 15
     },
     {
       "name": "Rest of World",
       "url": "https://restofworld.org/feed",
       "totalItems": 12,
-      "recentItems": 10
+      "recentItems": 9
     },
     {
       "name": "404 Media",
@@ -88,81 +88,24 @@
     }
   ],
   "totalRawSignals": 24,
-  "uniqueCandidateCount": 22,
+  "uniqueCandidateCount": 24,
   "candidates": [
     {
-      "name": "Generalist",
-      "totalScore": 16.2,
+      "name": "MySpace",
+      "totalScore": 11.4,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Generalist",
-          "score": 16.2,
-          "frontierTechScore": 5,
-          "mentions": 1,
-          "context": "more than 20% and  dented the SaaSpocalypse story .  Space tech investing  is white hot. America\u2019s  Generalist  and China\u2019s  Dogotix  raised big rounds as investors swarm to the  robotics  sector.  Me",
-          "source": "Newcomer (Eric Newcomer)",
-          "sourceUrl": "https://www.newcomer.co/feed",
-          "articleTitle": "Nvidia Is Carrying the AI Economy. Is That a Problem?",
-          "articleUrl": "https://www.newcomer.co/p/nvidia-is-carrying-the-ai-economy",
-          "articleDate": "Fri, 28 Aug 2026 14:58:48 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Dogotix",
-      "totalScore": 16.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Dogotix",
-          "score": 16.2,
-          "frontierTechScore": 5,
-          "mentions": 1,
-          "context": " the SaaSpocalypse story .  Space tech investing  is white hot. America\u2019s  Generalist  and China\u2019s  Dogotix  raised big rounds as investors swarm to the  robotics  sector.  Meta  agreed to  pay up to ",
-          "source": "Newcomer (Eric Newcomer)",
-          "sourceUrl": "https://www.newcomer.co/feed",
-          "articleTitle": "Nvidia Is Carrying the AI Economy. Is That a Problem?",
-          "articleUrl": "https://www.newcomer.co/p/nvidia-is-carrying-the-ai-economy",
-          "articleDate": "Fri, 28 Aug 2026 14:58:48 GMT"
-        }
-      ]
-    },
-    {
-      "name": "GLM",
-      "totalScore": 16.15,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "GLM",
-          "score": 16.15,
+          "name": "MySpace",
+          "score": 11.4,
           "frontierTechScore": 2,
           "mentions": 2,
-          "context": " substantive independent evaluation in the tweet set came from Artificial Analysis. Their summary:  GLM-5.3-Flash scores 57 on the Artificial Analysis Intelligence Index . Artificial Analysis metrics ",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
-          "articleUrl": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
-          "articleDate": "Thu, 27 Aug 2026 01:50:54 GMT"
-        }
-      ]
-    },
-    {
-      "name": "America",
-      "totalScore": 11.7,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "America",
-          "score": 11.7,
-          "frontierTechScore": 5,
-          "mentions": 1,
-          "context": "s stock up more than 20% and  dented the SaaSpocalypse story .  Space tech investing  is white hot. America\u2019s  Generalist  and China\u2019s  Dogotix  raised big rounds as investors swarm to the  robotics  ",
-          "source": "Newcomer (Eric Newcomer)",
-          "sourceUrl": "https://www.newcomer.co/feed",
-          "articleTitle": "Nvidia Is Carrying the AI Economy. Is That a Problem?",
-          "articleUrl": "https://www.newcomer.co/p/nvidia-is-carrying-the-ai-economy",
-          "articleDate": "Fri, 28 Aug 2026 14:58:48 GMT"
+          "context": "rom the destruction of the incumbent\u2019s profit pool . Then there\u2019s Facebook, which faced off against MySpace and its 1 million users when it launched in 2004. MySpace is a joke now, but was a rocketshi",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "An Ode to Counter-Positioning",
+          "articleUrl": "https://www.notboring.co/p/an-ode-to-counter-positioning",
+          "articleDate": "Thu, 10 Sep 2026 12:45:19 GMT"
         }
       ]
     },
@@ -182,25 +125,6 @@
           "articleTitle": "[AINews] GPT-6 Astra: OpenAI\u2019s biggest LLM launch of all time",
           "articleUrl": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
           "articleDate": "Fri, 04 Sep 2026 05:18:11 GMT"
-        }
-      ]
-    },
-    {
-      "name": "H3 Max",
-      "totalScore": 10.2,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "H3 Max",
-          "score": 10.2,
-          "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "ontrol stack is translating into preference data. fal + MiniMax H3 Max : In parallel, fal launched  H3 Max  with MiniMax, advertising  15s of high-quality video in 5s  and \u201c 50x faster \u201d generation th",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] OpenAI to reach AGI bar by end-2026",
-          "articleUrl": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
-          "articleDate": "Fri, 28 Aug 2026 07:12:10 GMT"
         }
       ]
     },
@@ -281,40 +205,40 @@
       ]
     },
     {
-      "name": "MiniMax",
-      "totalScore": 10.2,
+      "name": "Bluecore Energy",
+      "totalScore": 9.5,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "MiniMax",
-          "score": 10.2,
+          "name": "Bluecore Energy",
+          "score": 9.5,
           "frontierTechScore": 2,
-          "mentions": 1,
-          "context": "is translating into preference data. fal + MiniMax H3 Max : In parallel, fal launched  H3 Max  with MiniMax, advertising  15s of high-quality video in 5s  and \u201c 50x faster \u201d generation than other high",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] OpenAI to reach AGI bar by end-2026",
-          "articleUrl": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
-          "articleDate": "Fri, 28 Aug 2026 07:12:10 GMT"
+          "mentions": 2,
+          "context": "Nuclear startup Bluecore Energy raises $50M seed round, just two months after launch\nBluecore Energy announced Tuesd",
+          "source": "TechCrunch \u00b7 Venture",
+          "sourceUrl": "https://techcrunch.com/category/venture/feed/",
+          "articleTitle": "Nuclear startup Bluecore Energy raises $50M seed round, just two months after launch",
+          "articleUrl": "https://techcrunch.com/2026/09/08/nuclear-startup-bluecore-energy-raises-50m-seed-round-just-two-months-after-launch/",
+          "articleDate": "Tue, 08 Sep 2026 14:10:17 +0000"
         }
       ]
     },
     {
-      "name": "Flash",
-      "totalScore": 10.2,
+      "name": "Roughly",
+      "totalScore": 7.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Flash",
-          "score": 10.2,
-          "frontierTechScore": 2,
+          "name": "Roughly",
+          "score": 7.2,
+          "frontierTechScore": 3,
           "mentions": 1,
-          "context": "e/developer stacks. Facts vs opinions Facts / externally attributable claims Z.ai launched  GLM-5.3-Flash  as  320B total / 18B active ,  1M context ,  MIT-licensed ,  multimodal , previously previewe",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
-          "articleUrl": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
-          "articleDate": "Thu, 27 Aug 2026 01:50:54 GMT"
+          "context": " are leveraging modern AI technology and are getting traction and raising large amounts of funding. Roughly half of the VC funding for construction robot startups has gone to companies founded post-20",
+          "source": "Construction Physics (Brian Potter)",
+          "sourceUrl": "https://www.construction-physics.com/feed",
+          "articleTitle": "Where Has Construction Automation Been Successful?",
+          "articleUrl": "https://www.construction-physics.com/p/where-has-construction-automation",
+          "articleDate": "Fri, 11 Sep 2026 12:04:09 GMT"
         }
       ]
     },
@@ -395,59 +319,135 @@
       ]
     },
     {
-      "name": "Artificial Analysis",
-      "totalScore": 5.95,
+      "name": "Since Israel",
+      "totalScore": 7.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Artificial Analysis",
-          "score": 5.95,
+          "name": "Since Israel",
+          "score": 7.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "cost/performance positioning The most substantive independent evaluation in the tweet set came from Artificial Analysis. Their summary:  GLM-5.3-Flash scores 57 on the Artificial Analysis Intelligence",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
-          "articleUrl": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
-          "articleDate": "Thu, 27 Aug 2026 01:50:54 GMT"
+          "context": "Google Earth\u2019s AI experiment lasted 24 hours. The damage to trust will linger\nSince Israel and the U.S. launched strikes against Iran in February, plunging the Gulf region into c",
+          "source": "Rest of World",
+          "sourceUrl": "https://restofworld.org/feed",
+          "articleTitle": "Google Earth\u2019s AI experiment lasted 24 hours. The damage to trust will linger",
+          "articleUrl": "https://restofworld.org/2026/google-earth-ai-deepfake-iran-war/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "articleDate": "Thu, 10 Sep 2026 10:00:00 +0000"
         }
       ]
     },
     {
-      "name": "Local",
-      "totalScore": 5.95,
+      "name": "Iran",
+      "totalScore": 7.2,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Local",
-          "score": 5.95,
+          "name": "Iran",
+          "score": 7.2,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "ama on Jalape\u00f1o ,  @OpenAI benchmark announcement  drove the largest technical conversation by far. Local agent launch :  @perplexity_ai launching Portable Computer  was the biggest product release ou",
-          "source": "Latent Space (swyx)",
-          "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Hot Chips: OpenAI\u2019s Jalape\u00f1o, Cerebras CS-5, Groq 3 LPX, Apple M6",
-          "articleUrl": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
-          "articleDate": "Thu, 27 Aug 2026 01:31:22 GMT"
+          "context": "lasted 24 hours. The damage to trust will linger\nSince Israel and the U.S. launched strikes against Iran in February, plunging the Gulf region into conflict, the countries have also been waging an inf",
+          "source": "Rest of World",
+          "sourceUrl": "https://restofworld.org/feed",
+          "articleTitle": "Google Earth\u2019s AI experiment lasted 24 hours. The damage to trust will linger",
+          "articleUrl": "https://restofworld.org/2026/google-earth-ai-deepfake-iran-war/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "articleDate": "Thu, 10 Sep 2026 10:00:00 +0000"
         }
       ]
     },
     {
-      "name": "Portable Computer",
+      "name": "FDE",
       "totalScore": 5.95,
       "sourceCount": 1,
       "signals": [
         {
-          "name": "Portable Computer",
+          "name": "FDE",
           "score": 5.95,
           "frontierTechScore": 2,
           "mentions": 1,
-          "context": "nt  drove the largest technical conversation by far. Local agent launch :  @perplexity_ai launching Portable Computer  was the biggest product release outside the chip story. Developer platform / agen",
+          "context": "duct rather than sales , in a domain where a plausible wrong answer is worse than no answer at all. FDE misunderstandings A few months ago,  a16z launched the  Forward Deployed Engineer Fellowship  an",
           "source": "Latent Space (swyx)",
           "sourceUrl": "https://www.latent.space/feed",
-          "articleTitle": "[AINews] Hot Chips: OpenAI\u2019s Jalape\u00f1o, Cerebras CS-5, Groq 3 LPX, Apple M6",
-          "articleUrl": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
-          "articleDate": "Thu, 27 Aug 2026 01:31:22 GMT"
+          "articleTitle": "The Rise of the Forward Deployed Engineer \u2014 and How To Do the Job Right",
+          "articleUrl": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
+          "articleDate": "Sat, 12 Sep 2026 15:01:19 GMT"
+        }
+      ]
+    },
+    {
+      "name": "H3 Max",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "H3 Max",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "n :  @fal  said  fal.live  is powered by  H3 Max Director , an autoregressive continuous version of H3 Max with  up to two minutes of context . After a brief pause,  fal relaunched it  with  LLM-gener",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] Fal\u2019s H3 Max Live breaks the infinite videogen barrier",
+          "articleUrl": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+          "articleDate": "Tue, 01 Sep 2026 04:36:54 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Parcelscope",
+      "totalScore": 5.6,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Parcelscope",
+          "score": 5.6,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "ith concrete. [ YouTube ] A cool map which shows how LA got built year by year, starting in 1880. [ Parcelscope ] Manufacturing Fab2, the semiconductor equipment startup co-founded by Sam Zeloof (who ",
+          "source": "Construction Physics (Brian Potter)",
+          "sourceUrl": "https://www.construction-physics.com/feed",
+          "articleTitle": "Reading List \u2014 09/12/2026",
+          "articleUrl": "https://www.construction-physics.com/p/reading-list-09122026",
+          "articleDate": "Sat, 12 Sep 2026 12:32:46 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Manufacturing Fab2",
+      "totalScore": 5.6,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Manufacturing Fab2",
+          "score": 5.6,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "[ YouTube ] A cool map which shows how LA got built year by year, starting in 1880. [ Parcelscope ] Manufacturing Fab2, the semiconductor equipment startup co-founded by Sam Zeloof (who famously made ",
+          "source": "Construction Physics (Brian Potter)",
+          "sourceUrl": "https://www.construction-physics.com/feed",
+          "articleTitle": "Reading List \u2014 09/12/2026",
+          "articleUrl": "https://www.construction-physics.com/p/reading-list-09122026",
+          "articleDate": "Sat, 12 Sep 2026 12:32:46 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Sam Zeloof",
+      "totalScore": 5.6,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Sam Zeloof",
+          "score": 5.6,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "ting in 1880. [ Parcelscope ] Manufacturing Fab2, the semiconductor equipment startup co-founded by Sam Zeloof (who famously made transistors in his parents garage) raised $500 million in funding at a",
+          "source": "Construction Physics (Brian Potter)",
+          "sourceUrl": "https://www.construction-physics.com/feed",
+          "articleTitle": "Reading List \u2014 09/12/2026",
+          "articleUrl": "https://www.construction-physics.com/p/reading-list-09122026",
+          "articleDate": "Sat, 12 Sep 2026 12:32:46 GMT"
         }
       ]
     },
@@ -467,6 +467,25 @@
           "articleTitle": "Reading List - 09/05/2026",
           "articleUrl": "https://www.construction-physics.com/p/reading-list-09052026",
           "articleDate": "Sat, 05 Sep 2026 12:03:33 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Friendster",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Friendster",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "ow, but was a rocketship then. It launched in 2003, got to 1 million users in February 2004, passed Friendster the next month, and quintupled to five million users by November. Facebook counter-positi",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "An Ode to Counter-Positioning",
+          "articleUrl": "https://www.notboring.co/p/an-ode-to-counter-positioning",
+          "articleDate": "Thu, 10 Sep 2026 12:45:19 GMT"
         }
       ]
     },
@@ -505,6 +524,25 @@
           "articleTitle": "Weekly Dose of Optimism #209",
           "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-209",
           "articleDate": "Fri, 04 Sep 2026 12:36:19 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Gulf",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Gulf",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "trust will linger\nSince Israel and the U.S. launched strikes against Iran in February, plunging the Gulf region into conflict, the countries have also been waging an information war using tools powere",
+          "source": "Rest of World",
+          "sourceUrl": "https://restofworld.org/feed",
+          "articleTitle": "Google Earth\u2019s AI experiment lasted 24 hours. The damage to trust will linger",
+          "articleUrl": "https://restofworld.org/2026/google-earth-ai-deepfake-iran-war/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "articleDate": "Thu, 10 Sep 2026 10:00:00 +0000"
         }
       ]
     }
