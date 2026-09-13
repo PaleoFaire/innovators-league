@@ -13080,6 +13080,216 @@ const GOV_DEMAND_TRACKER = [
     source: "sam.gov",
     posted: "2025-11-24"
   },
+  {
+    id: "SAM-70B02C26F00000035",
+    title: "PURCHASE OF TOWERS",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "PURCHASE OF TOWERS",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-12-25"
+  },
+  {
+    id: "SAM-H9240224F0057",
+    title: "ROADRUNNER, ANVIL AND QUASAR PACKAGES",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "ROADRUNNER, ANVIL AND QUASAR PACKAGES",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-08-31"
+  },
+  {
+    id: "SAM-W9128Z26FA005",
+    title: "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED I",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED INSTALLATION, SYSTEMS INTEGRATION, SPECIALIZED TRAINING, AND TECHNICAL SUPPORT SE",
+    techAreas: [],
+    relevantCompanies: ["OpenAI", "Palantir", "Anthropic", "Scale AI"],
+    source: "sam.gov",
+    posted: "2026-03-16"
+  },
+  {
+    id: "SAM-H9240226FE027",
+    title: "SIP TO137 GHOST SHIELD",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SIP TO137 GHOST SHIELD",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2026-04-27"
+  },
+  {
+    id: "SAM-70B02C26F00000480",
+    title: "DO 23 O&S WITH SOW.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "DO 23 O&S WITH SOW.",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2026-07-21"
+  },
+  {
+    id: "SAM-70B02C25F00000926",
+    title: "AWARD",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "AWARD",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-09-19"
+  },
+  {
+    id: "SAM-70B02C25F00000422",
+    title: "S1 APPROVED AWARD FOR DELIVERY ORDER 18",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "S1 APPROVED AWARD FOR DELIVERY ORDER 18",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-08-01"
+  },
+  {
+    id: "SAM-H9240225FE017",
+    title: "THIS EFFORT IS FOR ANNUAL OPERATIONS AND SUSTAINMENT FOR COUNTER UNMANNED SYSTEMS (CUXS) HARDWARE.",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "High",
+    description: "THIS EFFORT IS FOR ANNUAL OPERATIONS AND SUSTAINMENT FOR COUNTER UNMANNED SYSTEMS (CUXS) HARDWARE.",
+    techAreas: [],
+    relevantCompanies: ["OpenAI", "Palantir", "Anthropic", "Scale AI"],
+    source: "sam.gov",
+    posted: "2025-08-28"
+  },
+  {
+    id: "SAM-70B02C24F00000684",
+    title: "DO# 17",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "DO# 17",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-08-28"
+  },
+  {
+    id: "SAM-FA882321C0002",
+    title: "AWARD OF SMALL BUSINESS INNOVATIVE RESEARCH PHASE III CONTRACT",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "AWARD OF SMALL BUSINESS INNOVATIVE RESEARCH PHASE III CONTRACT",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2021-07-26"
+  },
+  {
+    id: "SAM-FA882024FB003",
+    title: "SDANET SBIR III SINGLE AWARD IDIQ TASK ORDER FOR ANDURIL INDUSTRIES TO PERFORM ADDITIONAL FIELDING INTEGRATION OF LATTIC",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SDANET SBIR III SINGLE AWARD IDIQ TASK ORDER FOR ANDURIL INDUSTRIES TO PERFORM ADDITIONAL FIELDING INTEGRATION OF LATTICED MESH NETWORK COMMUNICATIONS CAPABILITY TO SUPPORT WORLDWIDE SDANET CONNECTED ",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-09-27"
+  },
+  {
+    id: "SAM-M6785426F1012",
+    title: "LOITERING MUNITION -ALL UP ROUNDS",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "LOITERING MUNITION -ALL UP ROUNDS",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-12-11"
+  },
+  {
+    id: "SAM-H9240225F0005",
+    title: "SIP FFP SERVICES",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SIP FFP SERVICES",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2024-12-21"
+  },
+  {
+    id: "SAM-FA228023C0007",
+    title: "ANDURIL SWARMING- SWARMING DEV AND INTEGRATION EVENTS",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "ANDURIL SWARMING- SWARMING DEV AND INTEGRATION EVENTS",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2023-04-20"
+  },
+  {
+    id: "SAM-H9240226FE009",
+    title: "SIP TO119 GHOSTSHIELD",
+    agency: "",
+    type: "Solicitation",
+    deadline: "Rolling",
+    value: "TBD",
+    priority: "Medium",
+    description: "SIP TO119 GHOSTSHIELD",
+    techAreas: [],
+    relevantCompanies: [],
+    source: "sam.gov",
+    posted: "2025-11-24"
+  },
 ];
 
 const GOV_DEMAND_SUMMARY = {
@@ -44862,6 +45072,7 @@ const FUNDING_TRACKER = [
 // Auto-updated IPO pipeline — Last updated: 2026-09-12
 // Auto-updated IPO pipeline — Last updated: 2026-09-12
 // Auto-updated IPO pipeline — Last updated: 2026-09-13
+// Auto-updated IPO pipeline — Last updated: 2026-09-13
 const IPO_PIPELINE = [
   { company: "SpaceX", status: "IPO Imminent — Targeting Mid-2026", likelihood: "high", estimatedDate: "Mid-2026", estimatedValuation: "$1.5T+", sector: "Space & Aerospace" },
   { company: "Cerebras", status: "S-1 Filed, Targeting Q2 2026", likelihood: "high", estimatedDate: "Q2 2026", estimatedValuation: "$22B+", sector: "Chips & Semiconductors" },
@@ -47953,6 +48164,8 @@ const TRL_RANKINGS = [
 // Last updated: 2026-09-12
 // Auto-updated deal flow from RSS + Crunchbase
 // Last updated: 2026-09-13
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-09-13
 const DEAL_TRACKER = [
   { company: "ARC Clean Technology", investor: "Undisclosed", amount: "$35M", round: "Funding Round", date: "2026-09", valuation: "", leadOrParticipant: "lead" },
   { company: "Cover", investor: "Undisclosed", amount: "$50M", round: "Funding Round", date: "2026-09", valuation: "", leadOrParticipant: "lead" },
@@ -48998,6 +49211,7 @@ const FOUNDER_MAFIAS = {
 // Auto-updated revenue intelligence — Last updated: 2026-09-11
 // Auto-updated revenue intelligence — Last updated: 2026-09-12
 // Auto-updated revenue intelligence — Last updated: 2026-09-12
+// Auto-updated revenue intelligence — Last updated: 2026-09-13
 // Auto-updated revenue intelligence — Last updated: 2026-09-13
 const REVENUE_INTEL = [
   { company: "NVIDIA", revenue: "$215.9B", period: "2026 Annual", growth: "+65% YoY", source: "SEC 10-K (NVDA)" },
@@ -52219,6 +52433,8 @@ const PREV_WEEK_SCORES = [
 // Last updated: 2026-09-12
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-09-13
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-09-13
 const GOV_CONTRACTS = [
   { company: "Anduril", totalGovValue: "$3.6B+", contractCount: 200, agencies: ["National Aeronautics and Space Administration", "Department of Commerce", "Department of Homeland Security", "Department of Defense", "Department of Energy"], lastUpdated: "2026-09-13" },
   { company: "SpaceX", totalGovValue: "$11.9B+", contractCount: 80, agencies: ["Department of the Interior", "Department of Justice", "National Aeronautics and Space Administration", "Department of Veterans Affairs", "Department of Defense"], lastUpdated: "2026-09-13" },
@@ -52380,25 +52596,26 @@ const GOV_CONTRACTS = [
 // Auto-updated SAM.gov contract opportunities
 // Last updated: 2026-09-13
 const SAM_CONTRACTS = [
-  { company: "Anduril", opportunityCount: 25, agencies: ["Department of Defense", "Department of Energy", "Department of Homeland Security"], types: [], recentOpportunities: [{"title": "PURCHASE OF TOWERS", "agency": "Department of Homeland Security", "postedDate": "2025-12-25", "type": null, "noticeId": "70B02C26F00000035", "awardAmount": "$363M"}, {"title": "ROADRUNNER, ANVIL AND QUASAR PACKAGES", "agency": "Department of Defense", "postedDate": "2024-08-31", "type": null, "noticeId": "H9240224F0057", "awardAmount": "$250M"}, {"title": "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED I", "agency": "Department of Defense", "postedDate": "2026-03-16", "type": null, "noticeId": "W9128Z26FA005", "awardAmount": "$142M"}], lastUpdated: "2026-09-12" },
-  { company: "Skydio", opportunityCount: 25, agencies: ["Department of Agriculture", "Department of State", "Department of the Interior"], types: [], recentOpportunities: [{"title": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL", "agency": "Department of the Interior", "postedDate": "2026-02-04", "type": null, "noticeId": "140D0426F0169", "awardAmount": "$251K"}, {"title": "DELIVERY ORDER FOR UAS AND ACCESSORIES", "agency": "Department of Agriculture", "postedDate": "2026-04-12", "type": null, "noticeId": "12639526F0393", "awardAmount": "$224K"}, {"title": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL ORDER", "agency": "Department of the Interior", "postedDate": "2026-03-25", "type": null, "noticeId": "140D0426F0309", "awardAmount": "$147K"}], lastUpdated: "2026-09-12" },
-  { company: "Palantir", opportunityCount: 22, agencies: ["Department of Agriculture", "Department of Defense", "Department of Health and Human Services", "Department of Homeland Security", "Department of State"], types: [], recentOpportunities: [{"title": "CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039", "agency": "Department of Defense", "postedDate": "2025-10-15", "type": null, "noticeId": "W9128Z26FA001", "awardAmount": "$546M"}, {"title": "INVESTIGATIVE CASE MANAGEMENT (ICM) OPERATIONS AND MAINTENANCE (O&M) SUPPORT SERVICES AND CUSTOM ENHANCEMENTS", "agency": "Department of Homeland Security", "postedDate": "2022-09-26", "type": null, "noticeId": "70CTD022FR0000170", "awardAmount": "$151M"}, {"title": "ARMY VANTAGE DATA ANALYTICS PLATFORM.", "agency": "Department of Defense", "postedDate": "2025-12-11", "type": null, "noticeId": "W519TC26F0012", "awardAmount": "$145M"}], lastUpdated: "2026-09-12" },
-  { company: "Radiant", opportunityCount: 13, agencies: ["Department of Defense", "Department of Health and Human Services", "Department of Labor", "Department of the Interior", "Department of the Treasury"], types: [], recentOpportunities: [{"title": "CLOUD RESOURCES MANAGEMENT SUPPORT", "agency": "Department of Health and Human Services", "postedDate": "2020-11-13", "type": null, "noticeId": "75FCMC20F0077", "awardAmount": "$13M"}, {"title": "OLDER AMERICANS ACT PERFORMANCE SYSTEM (OAAPS) AND TECHNICAL ASSISTANCE", "agency": "Department of Health and Human Services", "postedDate": "2023-09-30", "type": null, "noticeId": "75P00123F80228", "awardAmount": "$11M"}, {"title": "ASHEPS CONTRACT", "agency": "Department of Health and Human Services", "postedDate": "2024-03-08", "type": null, "noticeId": "75FCMC24F0057", "awardAmount": "$10M"}], lastUpdated: "2026-09-12" },
-  { company: "Shield AI", opportunityCount: 7, agencies: ["Department of Defense", "Department of Homeland Security"], types: [], recentOpportunities: [{"title": "VBAT SHORE BASED SERVICES. TASK ORDER FOR PUERTO RICO.", "agency": "Department of Homeland Security", "postedDate": "2026-02-27", "type": null, "noticeId": "70Z02326F93130005", "awardAmount": "$16M"}, {"title": "V-BAT VTOL UNMANNED AIRCRAFT", "agency": "Department of Defense", "postedDate": "2025-09-03", "type": null, "noticeId": "N0001925F0971", "awardAmount": "$11M"}, {"title": "TASK ORDER FOR MR-UAS GUAM SHORE EXPANSION.", "agency": "Department of Homeland Security", "postedDate": "2026-05-27", "type": null, "noticeId": "70Z02326F93130008", "awardAmount": "$8M"}], lastUpdated: "2026-09-12" },
-  { company: "Axiom Space", opportunityCount: 7, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "EXPLORATION EXTRAVEHICULAR ACTIVITY SERVICE (XEVAS) ARTEMIS PROGRAM", "agency": "National Aeronautics and Space Administration", "postedDate": "2022-09-08", "type": null, "noticeId": "80JSC022FA103", "awardAmount": "$414M"}, {"title": "EXTRAVEHICULAR ACTIVITY (EVA) DEMONSTRATION", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-06-23", "type": null, "noticeId": "80JSC023FA154", "awardAmount": "$131M"}, {"title": "SPECIAL STUDIES", "agency": "National Aeronautics and Space Administration", "postedDate": "2024-09-27", "type": null, "noticeId": "80JSC024FA196", "awardAmount": "$40M"}], lastUpdated: "2026-09-12" },
-  { company: "Sierra Space", opportunityCount: 7, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "BAA R&D - THE NEXT SPACE TECHNOLOGIES FOR EXPLORATION PARTNERSHIPS -2 (NEXTSTEP-2) APPENDIX F: LOGISTICS REDUCTION (LR) ", "agency": "National Aeronautics and Space Administration", "postedDate": "2019-05-02", "type": null, "noticeId": "80HQTR19C0019", "awardAmount": "$12M"}, {"title": "ADVANCED SPACESUIT REGULATOR (ASR)", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-12-18", "type": null, "noticeId": "80JSC026C0002", "awardAmount": "$9M"}, {"title": "SUSTAINING ENGINEERING SERVICES FOR THE ADVANCED PLANT HABITAT (APH).", "agency": "National Aeronautics and Space Administration", "postedDate": "2021-03-24", "type": null, "noticeId": "80JSC021F0074", "awardAmount": "$8M"}], lastUpdated: "2026-09-12" },
-  { company: "Castelion", opportunityCount: 5, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "PER SOW, G/R LIST, AND TECHNICAL PROPOSAL", "agency": "Department of Defense", "postedDate": "2026-02-25", "type": null, "noticeId": "N6833526F1022", "awardAmount": "$155M"}, {"title": "PER SOW, CDRLS AND TECHNICAL PROPOSAL", "agency": "Department of Defense", "postedDate": "2026-06-11", "type": null, "noticeId": "N6833526F1138", "awardAmount": "$23M"}, {"title": "FUTURE OPERATIONAL CAPABILITIES FOR THE US (FOCUS)", "agency": "Department of Defense", "postedDate": "2023-09-11", "type": null, "noticeId": "FA238523CB007", "awardAmount": "$17M"}], lastUpdated: "2026-09-12" },
-  { company: "Planet Labs", opportunityCount: 4, agencies: ["Department of Commerce", "Department of Defense", "Department of the Interior"], types: [], recentOpportunities: [{"title": "SATELLITE IMAGERY DATA SUBSCRIPTION", "agency": "Department of Defense", "postedDate": "2026-03-18", "type": null, "noticeId": "N6600126P6067", "awardAmount": "$7M"}, {"title": "SATELLITE IMAGERY FOR THE SATELLITE ANALYSIS BRANCH", "agency": "Department of Commerce", "postedDate": "2024-08-12", "type": null, "noticeId": "1332KP24P0044", "awardAmount": "$186K"}, {"title": "EO 14398 - THIS REQUIREMENT IS FOR SUPPORT SERVICES FOR VOLCANO SCIENCE CENTER. SATELLITE IMAGERY SUBSCRIPTION", "agency": "Department of the Interior", "postedDate": "2026-05-07", "type": null, "noticeId": "140G0326P0132", "awardAmount": "$60K"}], lastUpdated: "2026-09-12" },
-  { company: "Rocket Lab", opportunityCount: 3, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-03-29", "type": null, "noticeId": "80KSC023FA107", "awardAmount": "$52M"}, {"title": "DEVELOP GEOSPACE DYNAMICS CONSTELLATION (GDC) TRAILBLAZER MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE ", "agency": "National Aeronautics and Space Administration", "postedDate": "2026-05-28", "type": null, "noticeId": "80AFRC26FA041", "awardAmount": "$433K"}, {"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FE799", "awardAmount": "$500"}], lastUpdated: "2026-09-12" },
-  { company: "Relativity Space", opportunityCount: 3, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER.", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-03-29", "type": null, "noticeId": "80KSC023FA106", "awardAmount": "$225K"}, {"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2026-01-21", "type": null, "noticeId": "HQ085926FG337", "awardAmount": "$500"}, {"title": "NASA LAUNCH SERVICES II (NLS II)_ RELATIVITY SPACE, INC.", "agency": "National Aeronautics and Space Administration", "postedDate": "2026-08-18", "type": null, "noticeId": "80KSC026C0002", "awardAmount": "$1"}], lastUpdated: "2026-09-12" },
-  { company: "Varda Space", opportunityCount: 3, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "TASK ORDER 3 - TWO NOMINAL SCHEDULE INTERIOR PAYLOAD LAUNCHES FOR OCTOBER 2025.", "agency": "Department of Defense", "postedDate": "2024-12-30", "type": null, "noticeId": "FA945325FX010", "awardAmount": "$10M"}, {"title": "THIS TASK ORDER IS FOR THE ORDER OF ELEVEN (11) MONTHLY REPORTS TO PROVIDE STATUS UPDATES FROM 30 NOV 2025 THROUGH 30 SE", "agency": "Department of Defense", "postedDate": "2025-11-25", "type": null, "noticeId": "FA945326FX002", "awardAmount": "$160K"}, {"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FF090", "awardAmount": "$500"}], lastUpdated: "2026-09-12" },
-  { company: "BlackSky", opportunityCount: 2, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "BLACKSKY DIRECT TO PHASE 2", "agency": "Department of Defense", "postedDate": "2024-10-01", "type": null, "noticeId": "FA238524CB039", "awardAmount": "$4M"}, {"title": "SEGMENTED LARGE OPTICAL IMAGER DESIGN AND RISK ASSESSMENT", "agency": "Department of Defense", "postedDate": "2026-03-06", "type": null, "noticeId": "FA238526FB002", "awardAmount": "$4M"}], lastUpdated: "2026-09-12" },
-  { company: "Scale AI", opportunityCount: 2, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "BASE YEAR TASK ORDER AWARDED TO SCALE AI UNDER THEIR INDEFINITE DELIVERY INDEFINITE QUANTITY IDIQ FOR EMERGENT IVBAA0001", "agency": "Department of Defense", "postedDate": "2024-09-27", "type": null, "noticeId": "SP470124F0355", "awardAmount": "$2M"}, {"title": "ARTIFICIAL INTELLIGENCE SUPPORT FOR BASIC AND APPLIED RESEARCH OF THE ARMY RESEARCH LABORATORY", "agency": "Department of Defense", "postedDate": "2025-08-26", "type": null, "noticeId": "W911QX25FA054", "awardAmount": "$2M"}], lastUpdated: "2026-09-12" },
-  { company: "Epirus", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FF407", "awardAmount": "$500"}], lastUpdated: "2026-09-12" },
-  { company: "Saronic", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FE712", "awardAmount": "$500"}], lastUpdated: "2026-09-12" },
-  { company: "Vannevar Labs", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SBIR STRATFI - VELOCITY", "agency": "Department of Defense", "postedDate": "2025-01-06", "type": null, "noticeId": "FA860425CB008", "awardAmount": "$13M"}], lastUpdated: "2026-09-12" },
-  { company: "Hadrian", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "DATA RIGHTS AND INTELLECTUAL PROPERTY", "agency": "Department of Defense", "postedDate": "2026-03-17", "type": null, "noticeId": "W911RQ26CA011", "awardAmount": "$39M"}], lastUpdated: "2026-09-12" },
-  { company: "Cerebras", opportunityCount: 1, agencies: ["Department of Energy"], types: [], recentOpportunities: [{"title": "PURCHASE OF WAFER SCALE ENGINE, HARDWARE AND SOFTWARE SUPPORT, & REMOTE ACCESS FROM CEREBRAS.", "agency": "Department of Energy", "postedDate": "2025-06-18", "type": null, "noticeId": "89243325PFE000889", "awardAmount": "$2M"}], lastUpdated: "2026-09-12" },
+  { company: "Anduril", opportunityCount: 25, agencies: ["Department of Defense", "Department of Energy", "Department of Homeland Security"], types: [], recentOpportunities: [{"title": "PURCHASE OF TOWERS", "agency": "Department of Homeland Security", "postedDate": "2025-12-25", "type": null, "noticeId": "70B02C26F00000035", "awardAmount": "$363M"}, {"title": "ROADRUNNER, ANVIL AND QUASAR PACKAGES", "agency": "Department of Defense", "postedDate": "2024-08-31", "type": null, "noticeId": "H9240224F0057", "awardAmount": "$250M"}, {"title": "THE ORDER IS IN SUPPORT OF JIATF 401 AND WILL PROVIDE ANDURIL LATTICE PLATFORM LICENSES AND SHALL INCLUDE INTERRELATED I", "agency": "Department of Defense", "postedDate": "2026-03-16", "type": null, "noticeId": "W9128Z26FA005", "awardAmount": "$142M"}], lastUpdated: "2026-09-13" },
+  { company: "Skydio", opportunityCount: 25, agencies: ["Department of Agriculture", "Department of State", "Department of the Interior"], types: [], recentOpportunities: [{"title": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL", "agency": "Department of the Interior", "postedDate": "2026-02-04", "type": null, "noticeId": "140D0426F0169", "awardAmount": "$251K"}, {"title": "DELIVERY ORDER FOR UAS AND ACCESSORIES", "agency": "Department of Agriculture", "postedDate": "2026-04-12", "type": null, "noticeId": "12639526F0393", "awardAmount": "$224K"}, {"title": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL ORDER", "agency": "Department of the Interior", "postedDate": "2026-03-25", "type": null, "noticeId": "140D0426F0309", "awardAmount": "$147K"}], lastUpdated: "2026-09-13" },
+  { company: "Palantir", opportunityCount: 22, agencies: ["Department of Agriculture", "Department of Defense", "Department of Health and Human Services", "Department of Homeland Security", "Department of State"], types: [], recentOpportunities: [{"title": "CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039", "agency": "Department of Defense", "postedDate": "2025-10-15", "type": null, "noticeId": "W9128Z26FA001", "awardAmount": "$546M"}, {"title": "INVESTIGATIVE CASE MANAGEMENT (ICM) OPERATIONS AND MAINTENANCE (O&M) SUPPORT SERVICES AND CUSTOM ENHANCEMENTS", "agency": "Department of Homeland Security", "postedDate": "2022-09-26", "type": null, "noticeId": "70CTD022FR0000170", "awardAmount": "$151M"}, {"title": "ARMY VANTAGE DATA ANALYTICS PLATFORM.", "agency": "Department of Defense", "postedDate": "2025-12-11", "type": null, "noticeId": "W519TC26F0012", "awardAmount": "$145M"}], lastUpdated: "2026-09-13" },
+  { company: "Radiant", opportunityCount: 13, agencies: ["Department of Defense", "Department of Health and Human Services", "Department of Labor", "Department of the Interior", "Department of the Treasury"], types: [], recentOpportunities: [{"title": "CLOUD RESOURCES MANAGEMENT SUPPORT", "agency": "Department of Health and Human Services", "postedDate": "2020-11-13", "type": null, "noticeId": "75FCMC20F0077", "awardAmount": "$13M"}, {"title": "OLDER AMERICANS ACT PERFORMANCE SYSTEM (OAAPS) AND TECHNICAL ASSISTANCE", "agency": "Department of Health and Human Services", "postedDate": "2023-09-30", "type": null, "noticeId": "75P00123F80228", "awardAmount": "$11M"}, {"title": "ASHEPS CONTRACT", "agency": "Department of Health and Human Services", "postedDate": "2024-03-08", "type": null, "noticeId": "75FCMC24F0057", "awardAmount": "$10M"}], lastUpdated: "2026-09-13" },
+  { company: "Shield AI", opportunityCount: 7, agencies: ["Department of Defense", "Department of Homeland Security"], types: [], recentOpportunities: [{"title": "VBAT SHORE BASED SERVICES. TASK ORDER FOR PUERTO RICO.", "agency": "Department of Homeland Security", "postedDate": "2026-02-27", "type": null, "noticeId": "70Z02326F93130005", "awardAmount": "$16M"}, {"title": "V-BAT VTOL UNMANNED AIRCRAFT", "agency": "Department of Defense", "postedDate": "2025-09-03", "type": null, "noticeId": "N0001925F0971", "awardAmount": "$11M"}, {"title": "TASK ORDER FOR MR-UAS GUAM SHORE EXPANSION.", "agency": "Department of Homeland Security", "postedDate": "2026-05-27", "type": null, "noticeId": "70Z02326F93130008", "awardAmount": "$8M"}], lastUpdated: "2026-09-13" },
+  { company: "Axiom Space", opportunityCount: 7, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "EXPLORATION EXTRAVEHICULAR ACTIVITY SERVICE (XEVAS) ARTEMIS PROGRAM", "agency": "National Aeronautics and Space Administration", "postedDate": "2022-09-08", "type": null, "noticeId": "80JSC022FA103", "awardAmount": "$414M"}, {"title": "EXTRAVEHICULAR ACTIVITY (EVA) DEMONSTRATION", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-06-23", "type": null, "noticeId": "80JSC023FA154", "awardAmount": "$131M"}, {"title": "SPECIAL STUDIES", "agency": "National Aeronautics and Space Administration", "postedDate": "2024-09-27", "type": null, "noticeId": "80JSC024FA196", "awardAmount": "$40M"}], lastUpdated: "2026-09-13" },
+  { company: "Sierra Space", opportunityCount: 7, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "BAA R&D - THE NEXT SPACE TECHNOLOGIES FOR EXPLORATION PARTNERSHIPS -2 (NEXTSTEP-2) APPENDIX F: LOGISTICS REDUCTION (LR) ", "agency": "National Aeronautics and Space Administration", "postedDate": "2019-05-02", "type": null, "noticeId": "80HQTR19C0019", "awardAmount": "$12M"}, {"title": "ADVANCED SPACESUIT REGULATOR (ASR)", "agency": "National Aeronautics and Space Administration", "postedDate": "2025-12-18", "type": null, "noticeId": "80JSC026C0002", "awardAmount": "$9M"}, {"title": "SUSTAINING ENGINEERING SERVICES FOR THE ADVANCED PLANT HABITAT (APH).", "agency": "National Aeronautics and Space Administration", "postedDate": "2021-03-24", "type": null, "noticeId": "80JSC021F0074", "awardAmount": "$8M"}], lastUpdated: "2026-09-13" },
+  { company: "Castelion", opportunityCount: 5, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "PER SOW, G/R LIST, AND TECHNICAL PROPOSAL", "agency": "Department of Defense", "postedDate": "2026-02-25", "type": null, "noticeId": "N6833526F1022", "awardAmount": "$155M"}, {"title": "PER SOW, CDRLS AND TECHNICAL PROPOSAL", "agency": "Department of Defense", "postedDate": "2026-06-11", "type": null, "noticeId": "N6833526F1138", "awardAmount": "$23M"}, {"title": "FUTURE OPERATIONAL CAPABILITIES FOR THE US (FOCUS)", "agency": "Department of Defense", "postedDate": "2023-09-11", "type": null, "noticeId": "FA238523CB007", "awardAmount": "$17M"}], lastUpdated: "2026-09-13" },
+  { company: "Planet Labs", opportunityCount: 4, agencies: ["Department of Commerce", "Department of Defense", "Department of the Interior"], types: [], recentOpportunities: [{"title": "SATELLITE IMAGERY DATA SUBSCRIPTION", "agency": "Department of Defense", "postedDate": "2026-03-18", "type": null, "noticeId": "N6600126P6067", "awardAmount": "$7M"}, {"title": "SATELLITE IMAGERY FOR THE SATELLITE ANALYSIS BRANCH", "agency": "Department of Commerce", "postedDate": "2024-08-12", "type": null, "noticeId": "1332KP24P0044", "awardAmount": "$186K"}, {"title": "EO 14398 - THIS REQUIREMENT IS FOR SUPPORT SERVICES FOR VOLCANO SCIENCE CENTER. SATELLITE IMAGERY SUBSCRIPTION", "agency": "Department of the Interior", "postedDate": "2026-05-07", "type": null, "noticeId": "140G0326P0132", "awardAmount": "$60K"}], lastUpdated: "2026-09-13" },
+  { company: "Rocket Lab", opportunityCount: 3, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-03-29", "type": null, "noticeId": "80KSC023FA107", "awardAmount": "$52M"}, {"title": "DEVELOP GEOSPACE DYNAMICS CONSTELLATION (GDC) TRAILBLAZER MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE ", "agency": "National Aeronautics and Space Administration", "postedDate": "2026-05-28", "type": null, "noticeId": "80AFRC26FA041", "awardAmount": "$433K"}, {"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FE799", "awardAmount": "$500"}], lastUpdated: "2026-09-13" },
+  { company: "Relativity Space", opportunityCount: 3, agencies: ["Department of Defense", "National Aeronautics and Space Administration"], types: [], recentOpportunities: [{"title": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER.", "agency": "National Aeronautics and Space Administration", "postedDate": "2023-03-29", "type": null, "noticeId": "80KSC023FA106", "awardAmount": "$225K"}, {"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2026-01-21", "type": null, "noticeId": "HQ085926FG337", "awardAmount": "$500"}, {"title": "NASA LAUNCH SERVICES II (NLS II)_ RELATIVITY SPACE, INC.", "agency": "National Aeronautics and Space Administration", "postedDate": "2026-08-18", "type": null, "noticeId": "80KSC026C0002", "awardAmount": "$1"}], lastUpdated: "2026-09-13" },
+  { company: "Varda Space", opportunityCount: 3, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "TASK ORDER 3 - TWO NOMINAL SCHEDULE INTERIOR PAYLOAD LAUNCHES FOR OCTOBER 2025.", "agency": "Department of Defense", "postedDate": "2024-12-30", "type": null, "noticeId": "FA945325FX010", "awardAmount": "$10M"}, {"title": "THIS TASK ORDER IS FOR THE ORDER OF ELEVEN (11) MONTHLY REPORTS TO PROVIDE STATUS UPDATES FROM 30 NOV 2025 THROUGH 30 SE", "agency": "Department of Defense", "postedDate": "2025-11-25", "type": null, "noticeId": "FA945326FX002", "awardAmount": "$160K"}, {"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FF090", "awardAmount": "$500"}], lastUpdated: "2026-09-13" },
+  { company: "Scale AI", opportunityCount: 3, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "BASE YEAR TASK ORDER AWARDED TO SCALE AI UNDER THEIR INDEFINITE DELIVERY INDEFINITE QUANTITY IDIQ FOR EMERGENT IVBAA0001", "agency": "Department of Defense", "postedDate": "2024-09-27", "type": null, "noticeId": "SP470124F0355", "awardAmount": "$2M"}, {"title": "ARTIFICIAL INTELLIGENCE SUPPORT FOR BASIC AND APPLIED RESEARCH OF THE ARMY RESEARCH LABORATORY", "agency": "Department of Defense", "postedDate": "2025-08-26", "type": null, "noticeId": "W911QX25FA054", "awardAmount": "$2M"}, {"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FF523", "awardAmount": "$500"}], lastUpdated: "2026-09-13" },
+  { company: "BlackSky", opportunityCount: 2, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "BLACKSKY DIRECT TO PHASE 2", "agency": "Department of Defense", "postedDate": "2024-10-01", "type": null, "noticeId": "FA238524CB039", "awardAmount": "$4M"}, {"title": "SEGMENTED LARGE OPTICAL IMAGER DESIGN AND RISK ASSESSMENT", "agency": "Department of Defense", "postedDate": "2026-03-06", "type": null, "noticeId": "FA238526FB002", "awardAmount": "$4M"}], lastUpdated: "2026-09-13" },
+  { company: "Epirus", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FF407", "awardAmount": "$500"}], lastUpdated: "2026-09-13" },
+  { company: "Saronic", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FE712", "awardAmount": "$500"}], lastUpdated: "2026-09-13" },
+  { company: "Vannevar Labs", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SBIR STRATFI - VELOCITY", "agency": "Department of Defense", "postedDate": "2025-01-06", "type": null, "noticeId": "FA860425CB008", "awardAmount": "$13M"}], lastUpdated: "2026-09-13" },
+  { company: "Hadrian", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "DATA RIGHTS AND INTELLECTUAL PROPERTY", "agency": "Department of Defense", "postedDate": "2026-03-17", "type": null, "noticeId": "W911RQ26CA011", "awardAmount": "$39M"}], lastUpdated: "2026-09-13" },
+  { company: "Capella Space", opportunityCount: 1, agencies: ["Department of Defense"], types: [], recentOpportunities: [{"title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.", "agency": "Department of Defense", "postedDate": "2025-12-29", "type": null, "noticeId": "HQ085926FF496", "awardAmount": "$500"}], lastUpdated: "2026-09-13" },
+  { company: "Cerebras", opportunityCount: 1, agencies: ["Department of Energy"], types: [], recentOpportunities: [{"title": "PURCHASE OF WAFER SCALE ENGINE, HARDWARE AND SOFTWARE SUPPORT, & REMOTE ACCESS FROM CEREBRAS.", "agency": "Department of Energy", "postedDate": "2025-06-18", "type": null, "noticeId": "89243325PFE000889", "awardAmount": "$2M"}], lastUpdated: "2026-09-13" },
 ];
 
 // Auto-updated SBIR/STTR government grant awards
@@ -52473,6 +52690,7 @@ const NIH_GRANTS = [
   { orgName: "", title: "Induction of Protective B and T Cell Immunity against HIV Using DNA/LION Platform", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["AIDS vaccine development", "Adjuvant", "Antibodies", "Antibody titer measurement", "Antigens"], isKnownCompany: false },
   { orgName: "", title: "Using microgravity to model inflammaging in complex organ chip models of heart, gut, and brain", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "UG3", isSbir: false, terms: ["3-Dimensional", "Acceleration", "Age related pathologies", "Aging", "Biological Assay"], isKnownCompany: false },
   { orgName: "", title: "An optical-genetic toolbox for monitoring and controlling diverse neuromodulatory circuits governing", agency: "", fiscalYear: 2025, totalCost: 0, totalCostFormatted: "$0", activityCode: "UG3", isSbir: false, terms: ["Acetylcholine", "Adaptive Behaviors", "Anatomy", "Animal Model", "Area"], isKnownCompany: false },
+  { orgName: "", title: "Precision Medicine Center for Cystic Fibrosis", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "P30", isSbir: false, terms: ["Acceleration", "Address", "Affect", "Age", "Aging"], isKnownCompany: false },
   { orgName: "", title: "Generating phosphobodies to activated protein kinases", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R44", isSbir: true, terms: ["70-kDa Ribosomal Protein S6 Kinases", "Acetylation", "Achievement", "Affinity", "Animals"], isKnownCompany: false },
   { orgName: "", title: "Development of a new combination therapy for pancreatic ductal adenocarcinoma treatment", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R44", isSbir: true, terms: ["Abraxane", "Aftercare", "Animal Cancer Model", "Animal Model", "Binding"], isKnownCompany: false },
   { orgName: "", title: "A Phase 2 multi-center trial of CD5 CAR T-cell therapy in patients with T-cell lymphoma", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R44", isSbir: true, terms: ["Ablation", "Acceleration", "Accounting", "Address", "Antigens"], isKnownCompany: false },
@@ -52585,7 +52803,6 @@ const NIH_GRANTS = [
   { orgName: "", title: "Role of sensory nerves in the regulation of anti-tumor immunity", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["Ablation", "Acceleration", "Adjuvant", "Affect", "Afferent Neurons"], isKnownCompany: false },
   { orgName: "", title: "Long term radiation treatment planning in brain tumors in the pediatric population", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R44", isSbir: true, terms: ["Address", "Adult", "Affect", "Age", "Algorithms"], isKnownCompany: false },
   { orgName: "", title: "Gut microbiota-aryl hydrocarbon receptor cross talk in pregnancy", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["Adverse effects", "Affect", "Agonist", "Aryl Hydrocarbon Receptor", "Biological Response Modifier Therapy"], isKnownCompany: false },
-  { orgName: "", title: "The chemical language of human gut bacteria in healthy aging", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["Acids", "Address", "Age", "Aging", "Alzheimer's disease model"], isKnownCompany: false },
   { orgName: "", title: "Extracellular Vesicles of iPSC-derived Brain Organoids as Therapeutic Targets for Alzheimer’s Diseas", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["3-Dimensional", "Accounting", "Address", "Aging", "Alzheimer's Disease"], isKnownCompany: false },
   { orgName: "", title: "Exploiting dynamic in vivo interactions of peptide amphiphiles with lipid-containing biomolecules to", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["Address", "Affect", "Antibody-drug conjugates", "Antigen Targeting", "Antigens"], isKnownCompany: false },
   { orgName: "", title: "Label-Free Optical Redox Imaging for Pretreatment Prognosis of Early-Stage Triple Negative Breast Ca", agency: "", fiscalYear: 2026, totalCost: 0, totalCostFormatted: "$0", activityCode: "R01", isSbir: false, terms: ["3-Dimensional", "Adjuvant Therapy", "Affect", "Archives", "Biological Markers"], isKnownCompany: false },
@@ -54014,6 +54231,8 @@ const BUDGET_SIGNALS = [
 // Last updated: 2026-09-12
 // Auto-updated patent intelligence (curated scores + USPTO data)
 // Last updated: 2026-09-13
+// Auto-updated patent intelligence (curated scores + USPTO data)
+// Last updated: 2026-09-13
 const PATENT_INTEL = [
   { company: "SpaceX", totalPatents: 120, velocity: "55-65/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Reusable Launch Systems", "Satellite Constellation (Starlink)", "Raptor Engine Design"], notablePatents: ["Rocket landing leg deployment and recovery system", "Inter-satellite optical communication link"], note: "SpaceX famously relies on trade secrets over patents (Elon Musk has stated competitors could copy patented designs). Actual IP moat is far larger than patent count suggests due to manufacturing know-how and iterative flight data." },
   { company: "Anduril Industries", totalPatents: 45, velocity: "17-27/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Autonomous Defense Systems", "Sensor Fusion & Surveillance", "Counter-UAS Systems"], notablePatents: ["Autonomous drone interception and neutralization system", "Mesh sensor network for border surveillance (Lattice)"], note: "Rapid patent growth mirrors aggressive product expansion into autonomous systems, Lattice OS, and counter-drone platforms. Acquired Dive Technologies IP in undersea autonomy." },
@@ -54156,7 +54375,7 @@ const ALT_DATA_METHODOLOGY = {
 // Last updated: 2026-09-13
 // Sources: headcount estimates, growth signals, news sentiment
 const ALT_DATA_SIGNALS = [
-  { company: "SpaceX", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "34K+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 7, keySignal: "2 recent articles" },
+  { company: "SpaceX", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "34K+", webTraffic: "up", newsSentiment: "positive", githubPresence: null, signalStrength: 7, keySignal: "2 recent articles" },
   { company: "OpenAI", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "8 recent articles" },
   { company: "Vast", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "2,786+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 5, keySignal: "1 recent article" },
   { company: "Stripe", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "7,657+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 4, keySignal: "Hiring velocity: surging. Est. headcount: 7,657+" },
@@ -55387,6 +55606,8 @@ const NETWORK_GRAPH = {
 // Last updated: 2026-09-12
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-09-13
+// Auto-updated news feed (curated + auto-detected)
+// Last updated: 2026-09-13
 const NEWS_FEED = [
   // ─── CURATED (Editorial Analysis) ───
   {
@@ -55426,30 +55647,31 @@ const NEWS_FEED = [
   { id: 8, company: "OpenAI", headline: "OpenAI's feud with mathematicians is only escalating", source: "TechCrunch", category: "news", date: "2026-09-11", summary: "Twenty-five leading mathematicians signed an open letter arguing that AI labs are threatening their intellectual work.", impact: "low", sector: "General", url: "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/" },
   { id: 9, company: "Cognition", headline: "The Week’s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week", source: "Crunchbase News", category: "funding", date: "2026-09-11", summary: "It was a monster week for U.S. startup funding, with four companies each raising $1 billion or more. The Boring Co. led with a $3 billion Series D, followed by AI coding startup Cognition at $2 billio", impact: "low", sector: "General", url: "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/" },
   { id: 10, company: "OpenAI", headline: "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO", source: "TechCrunch", category: "ipo", date: "2026-09-11", summary: "The No. 2 exec at OpenAI also led Instacart through its IPO in 2023.", impact: "high", sector: "General", url: "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/" },
-  { id: 11, company: "Saildrone", headline: "US refutes claims that Iran captured Saildrone USV", source: "Defense News", category: "news", date: "2026-09-11", summary: "A U.S. official denied the video shared by Iran purported to show an American Saildrone USV near the Strait of Hormuz in flames.", impact: "low", sector: "General", url: "https://www.defensenews.com/industry/techwatch/2026/09/11/us-refutes-claims-that-iran-captured-saildrone-usv/" },
-  { id: 12, company: "OpenAI", headline: "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal", source: "Wired", category: "news", date: "2026-09-10", summary: "AI leaders worry antitrust law could stand in the way of what they view as an increasingly urgent push to coordinate a slowdown in AI development.", impact: "low", sector: "General", url: "https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal/" },
-  { id: 13, company: "SpaceX", headline: "WOW! Tesla &#038; SpaceX’s Huge Unlocks—Grok 4.7 and AGI", source: "Next Big Future", category: "ipo", date: "2026-09-10", summary: "Tesla, SpaceX and AI could be approaching huge unlocks at the same time. Could Cybercab and worldchanging FSD 15 change Tesla’s demand? Could Starship unlock more satellite capacity—and eventually com", impact: "low", sector: "General", url: "https://www.nextbigfuture.com/2026/09/wow-tesla-spacexs-huge-unlocks-grok-4-7-and-agi.html" },
-  { id: 14, company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", category: "news", date: "2026-09-09", summary: "The construction industry is rife with opportunity for robotics, but the technology hasn't broken in at scale yet. The post What bricklaying has taught Monumental about robots in construction appeare", impact: "low", sector: "General", url: "https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/" },
-  { id: 15, company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", category: "news", date: "2026-09-09", summary: "In 2019, Steve Fetter wrote &#8220;A Cheaper Nuclear Sponge,&#8221; in which he argued that building a new intercontinental ballistic missile (ICBM) was unnecessary for strengthening U.S. land-based d", impact: "low", sector: "General", url: "https://warontherocks.com/forced-into-the-right-decision-a-look-at-u-s-land-based-deterrence-posture/" },
-  { id: 16, company: "Vention", headline: "Vention opens Physical AI Lab for manufacturing in Montreal", source: "The Robot Report", category: "news", date: "2026-09-09", summary: "Vention's new Physical AI Lab will focus on advancing robotic manipulation from research to scalable production-line deployment. The post Vention opens Physical AI Lab for manufacturing in Montreal ap", impact: "low", sector: "General", url: "https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/" },
-  { id: 17, company: "OpenAI", headline: "The Download: OpenAI’s turning point for math and a battery record", source: "MIT Tech Review", category: "news", date: "2026-09-09", summary: "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What OpenAI’s latest controversy tells us about th", impact: "low", sector: "General", url: "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/" },
-  { id: 18, company: "Vast", headline: "NSA wants AI to help analysts sift vast data troves", source: "Defense One", category: "news", date: "2026-09-08", summary: "Tasks that take days or weeks will be done 'much faster,' says the agency’s cybersecurity chief.", impact: "low", sector: "General", url: "https://www.defenseone.com/technology/2026/09/nsa-ai-analysts-data/415860/" },
-  { id: 19, company: "Humanoid", headline: "AI can’t outrun a humanoid's hardware", source: "The Robot Report", category: "news", date: "2026-09-08", summary: "The remarkable progress in AI has brought robotics closer to machines capable of determining what they should do. The next major advance may depend on whether their physical systems can execute those", impact: "low", sector: "General", url: "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/" },
-  { id: 20, company: "Mistral AI", headline: "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round", source: "Crunchbase News", category: "funding", date: "2026-09-08", summary: "Paris-based generative AI startup Mistral AI said Tuesday that it has nearly doubled its valuation to more than $24 billion with a Samsung Electronics-led $3.5 billion Series D fundraise.", impact: "low", sector: "General", url: "https://news.crunchbase.com/venture/europe-record-setting-mistral-ai-raise/" },
-  { id: 21, company: "Rivian", headline: "Rivian’s Gambit for Full Autonomy", source: "IEEE Spectrum", category: "news", date: "2026-09-08", summary: "I’m sitting in a Rivian R1S SUV as it drives itself down the leafy streets of Palo Alto, Calif., through areas crowded with touchstones of tech history. We cruise near the landmark HP Garage, the one-", impact: "low", sector: "General", url: "https://spectrum.ieee.org/rivian-self-driving" },
-  { id: 22, company: "Humanoid", headline: "XPeng starts IRON humanoid robot production as Tesla Optimus stalls", source: "Electrek", category: "news", date: "2026-09-08", summary: "XPeng has switched on what it calls the world’s first automated production line for advanced humanoid robots, and its IRON robot walked off that line under its own power. The Chinese automaker says th", impact: "low", sector: "General", url: "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/" },
-  { id: 23, company: "OpenAI", headline: "OpenAI agents discussed ways to escape their sandbox on public wiki", source: "Ars Technica", category: "ipo", date: "2026-09-04", summary: "", impact: "low", sector: "General", url: "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/" },
-  { id: 24, company: "OpenAI", headline: "July’s breakout at OpenAI was far more complex than initially realized", source: "Defense One", category: "news", date: "2026-09-04", summary: "Hundreds of AI agents collaborated to escape their containers, disguising their actions and even sacrificing themselves.", impact: "low", sector: "General", url: "https://www.defenseone.com/threats/2026/09/AI-breakout-openai-complex/415825/" },
-  { id: 25, company: "Shield AI", headline: "Back to life: How Shield AI’s future unmanned fighter made decades-old tech new again", source: "Defense One", category: "news", date: "2026-09-04", summary: "The original GE Aerospace engine nozzle, designed for the F-16, is key to building a vertical takeoff robotic jet prototype.", impact: "low", sector: "General", url: "https://www.defenseone.com/business/2026/09/back-life-how-shield-ais-future-unmanned-fighter-made-decades-old-tech-new-again/415821/" },
-  { id: 26, company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", category: "news", date: "2026-09-01", summary: "Date: Wednesday, Sept. 23, 2026Time: 12:00-1:00 PM ETThe second joint webinar by RUSI and War on the Rocks: Two leading defense publications from both sides of the Atlantic present their expert panel.", impact: "low", sector: "General", url: "https://warontherocks.com/the-atlantic-brief-u-s-and-european-perspectives-on-nuclear-deterrence/" },
-  { id: 27, company: "OpenAI", headline: "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face", source: "Ars Technica", category: "milestone", date: "2026-08-27", summary: "", impact: "low", sector: "General", url: "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/" },
-  { id: 28, company: "Waymo", headline: "Waymo doubles spending on lobbying in robotaxi battle with Uber", source: "Ars Technica", category: "contract", date: "2026-08-21", summary: "", impact: "low", sector: "General", url: "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/" },
-  { id: 29, company: "Sage Geosystems", headline: "Sage Geosystems brings its first next-gen geothermal plant online", source: "Canary Media", category: "news", date: "2026-08-19", summary: "", impact: "low", sector: "General", url: "https://www.canarymedia.com/articles/geothermal/sage-geosystems-next-gen-geothermal-online" },
-  { id: 30, company: "Deterrence", headline: "Does Latent Nuclear Deterrence Really Work?", source: "War on the Rocks", category: "news", date: "2026-08-06", summary: "In 2025, Matthew Fuhrmann wrote, &#8220;U.S. Allies and Adversaries Are Attempting Nuclear Deterrence Without Weapons &#8211; Will It Work?,&#8221; where he argued countries don&#8217;t always need to", impact: "low", sector: "General", url: "https://warontherocks.com/does-latent-nuclear-deterrence-really-work/" },
-  { id: 31, company: "Oklo", headline: "Nuclear startup Oklo splits its first atoms in test reactor", source: "Canary Media", category: "milestone", date: "2026-08-06", summary: "", impact: "low", sector: "General", url: "https://www.canarymedia.com/articles/nuclear/nuclear-startup-oklo-splits-its-first-atoms-in-test-reactor" },
-  { id: 32, company: "Base Power", headline: "Base Power raises $1B to get big batteries into more homes", source: "Canary Media", category: "funding", date: "2026-08-04", summary: "", impact: "high", sector: "General", url: "https://www.canarymedia.com/articles/batteries/base-power-raises-1b-to-get-big-batteries-into-more-homes" },
-  { id: 33, company: "Valar Atomics", headline: "Microreactor startup Valar Atomics raises $1B", source: "Canary Media", category: "funding", date: "2026-08-04", summary: "", impact: "high", sector: "General", url: "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b" },
-  { id: 34, company: "Pivotal", headline: "Tyra rolls toward pivotal bladder cancer study even as midphase data deflates stock", source: "FierceBiotech", category: "contract", date: "", summary: "Tyra Biosciences has reported initial phase 2 data on dabogratinib in bladder cancer, putting the biotech on course to start a registrational study next year. But the biotech’s stock fell in premarket", impact: "low", sector: "General", url: "https://www.fiercebiotech.com/biotech/tyra-rolls-toward-pivotal-bladder-cancer-study-even-midphase-data-deflates-stock" },
+  { id: 11, company: "SpaceX", headline: "NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return", source: "NASA Breaking News", category: "ipo", date: "2026-09-11", summary: "Media are invited to hear from NASA’s SpaceX Crew-12 astronauts during a news conference beginning at 2:45 p.m. EDT, Wednesday, Sept. 16, from the International Space Station. NASA astronauts Jessica", impact: "low", sector: "General", url: "https://www.nasa.gov/news-release/nasas-spacex-crew-12-to-discuss-station-mission-upcoming-return/" },
+  { id: 12, company: "Saildrone", headline: "US refutes claims that Iran captured Saildrone USV", source: "Defense News", category: "news", date: "2026-09-11", summary: "A U.S. official denied the video shared by Iran purported to show an American Saildrone USV near the Strait of Hormuz in flames.", impact: "low", sector: "General", url: "https://www.defensenews.com/industry/techwatch/2026/09/11/us-refutes-claims-that-iran-captured-saildrone-usv/" },
+  { id: 13, company: "OpenAI", headline: "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal", source: "Wired", category: "news", date: "2026-09-10", summary: "AI leaders worry antitrust law could stand in the way of what they view as an increasingly urgent push to coordinate a slowdown in AI development.", impact: "low", sector: "General", url: "https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal/" },
+  { id: 14, company: "SpaceX", headline: "WOW! Tesla &#038; SpaceX’s Huge Unlocks—Grok 4.7 and AGI", source: "Next Big Future", category: "ipo", date: "2026-09-10", summary: "Tesla, SpaceX and AI could be approaching huge unlocks at the same time. Could Cybercab and worldchanging FSD 15 change Tesla’s demand? Could Starship unlock more satellite capacity—and eventually com", impact: "low", sector: "General", url: "https://www.nextbigfuture.com/2026/09/wow-tesla-spacexs-huge-unlocks-grok-4-7-and-agi.html" },
+  { id: 15, company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", category: "news", date: "2026-09-09", summary: "The construction industry is rife with opportunity for robotics, but the technology hasn't broken in at scale yet. The post What bricklaying has taught Monumental about robots in construction appeare", impact: "low", sector: "General", url: "https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/" },
+  { id: 16, company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", category: "news", date: "2026-09-09", summary: "In 2019, Steve Fetter wrote &#8220;A Cheaper Nuclear Sponge,&#8221; in which he argued that building a new intercontinental ballistic missile (ICBM) was unnecessary for strengthening U.S. land-based d", impact: "low", sector: "General", url: "https://warontherocks.com/forced-into-the-right-decision-a-look-at-u-s-land-based-deterrence-posture/" },
+  { id: 17, company: "Vention", headline: "Vention opens Physical AI Lab for manufacturing in Montreal", source: "The Robot Report", category: "news", date: "2026-09-09", summary: "Vention's new Physical AI Lab will focus on advancing robotic manipulation from research to scalable production-line deployment. The post Vention opens Physical AI Lab for manufacturing in Montreal ap", impact: "low", sector: "General", url: "https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/" },
+  { id: 18, company: "OpenAI", headline: "The Download: OpenAI’s turning point for math and a battery record", source: "MIT Tech Review", category: "news", date: "2026-09-09", summary: "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What OpenAI’s latest controversy tells us about th", impact: "low", sector: "General", url: "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/" },
+  { id: 19, company: "Vast", headline: "NSA wants AI to help analysts sift vast data troves", source: "Defense One", category: "news", date: "2026-09-08", summary: "Tasks that take days or weeks will be done 'much faster,' says the agency’s cybersecurity chief.", impact: "low", sector: "General", url: "https://www.defenseone.com/technology/2026/09/nsa-ai-analysts-data/415860/" },
+  { id: 20, company: "Humanoid", headline: "AI can’t outrun a humanoid's hardware", source: "The Robot Report", category: "news", date: "2026-09-08", summary: "The remarkable progress in AI has brought robotics closer to machines capable of determining what they should do. The next major advance may depend on whether their physical systems can execute those", impact: "low", sector: "General", url: "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/" },
+  { id: 21, company: "Mistral AI", headline: "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round", source: "Crunchbase News", category: "funding", date: "2026-09-08", summary: "Paris-based generative AI startup Mistral AI said Tuesday that it has nearly doubled its valuation to more than $24 billion with a Samsung Electronics-led $3.5 billion Series D fundraise.", impact: "low", sector: "General", url: "https://news.crunchbase.com/venture/europe-record-setting-mistral-ai-raise/" },
+  { id: 22, company: "Rivian", headline: "Rivian’s Gambit for Full Autonomy", source: "IEEE Spectrum", category: "news", date: "2026-09-08", summary: "I’m sitting in a Rivian R1S SUV as it drives itself down the leafy streets of Palo Alto, Calif., through areas crowded with touchstones of tech history. We cruise near the landmark HP Garage, the one-", impact: "low", sector: "General", url: "https://spectrum.ieee.org/rivian-self-driving" },
+  { id: 23, company: "Humanoid", headline: "XPeng starts IRON humanoid robot production as Tesla Optimus stalls", source: "Electrek", category: "news", date: "2026-09-08", summary: "XPeng has switched on what it calls the world’s first automated production line for advanced humanoid robots, and its IRON robot walked off that line under its own power. The Chinese automaker says th", impact: "low", sector: "General", url: "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/" },
+  { id: 24, company: "OpenAI", headline: "OpenAI agents discussed ways to escape their sandbox on public wiki", source: "Ars Technica", category: "ipo", date: "2026-09-04", summary: "", impact: "low", sector: "General", url: "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/" },
+  { id: 25, company: "OpenAI", headline: "July’s breakout at OpenAI was far more complex than initially realized", source: "Defense One", category: "news", date: "2026-09-04", summary: "Hundreds of AI agents collaborated to escape their containers, disguising their actions and even sacrificing themselves.", impact: "low", sector: "General", url: "https://www.defenseone.com/threats/2026/09/AI-breakout-openai-complex/415825/" },
+  { id: 26, company: "Shield AI", headline: "Back to life: How Shield AI’s future unmanned fighter made decades-old tech new again", source: "Defense One", category: "news", date: "2026-09-04", summary: "The original GE Aerospace engine nozzle, designed for the F-16, is key to building a vertical takeoff robotic jet prototype.", impact: "low", sector: "General", url: "https://www.defenseone.com/business/2026/09/back-life-how-shield-ais-future-unmanned-fighter-made-decades-old-tech-new-again/415821/" },
+  { id: 27, company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", category: "news", date: "2026-09-01", summary: "Date: Wednesday, Sept. 23, 2026Time: 12:00-1:00 PM ETThe second joint webinar by RUSI and War on the Rocks: Two leading defense publications from both sides of the Atlantic present their expert panel.", impact: "low", sector: "General", url: "https://warontherocks.com/the-atlantic-brief-u-s-and-european-perspectives-on-nuclear-deterrence/" },
+  { id: 28, company: "OpenAI", headline: "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face", source: "Ars Technica", category: "milestone", date: "2026-08-27", summary: "", impact: "low", sector: "General", url: "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/" },
+  { id: 29, company: "Waymo", headline: "Waymo doubles spending on lobbying in robotaxi battle with Uber", source: "Ars Technica", category: "contract", date: "2026-08-21", summary: "", impact: "low", sector: "General", url: "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/" },
+  { id: 30, company: "Sage Geosystems", headline: "Sage Geosystems brings its first next-gen geothermal plant online", source: "Canary Media", category: "news", date: "2026-08-19", summary: "", impact: "low", sector: "General", url: "https://www.canarymedia.com/articles/geothermal/sage-geosystems-next-gen-geothermal-online" },
+  { id: 31, company: "Deterrence", headline: "Does Latent Nuclear Deterrence Really Work?", source: "War on the Rocks", category: "news", date: "2026-08-06", summary: "In 2025, Matthew Fuhrmann wrote, &#8220;U.S. Allies and Adversaries Are Attempting Nuclear Deterrence Without Weapons &#8211; Will It Work?,&#8221; where he argued countries don&#8217;t always need to", impact: "low", sector: "General", url: "https://warontherocks.com/does-latent-nuclear-deterrence-really-work/" },
+  { id: 32, company: "Oklo", headline: "Nuclear startup Oklo splits its first atoms in test reactor", source: "Canary Media", category: "milestone", date: "2026-08-06", summary: "", impact: "low", sector: "General", url: "https://www.canarymedia.com/articles/nuclear/nuclear-startup-oklo-splits-its-first-atoms-in-test-reactor" },
+  { id: 33, company: "Base Power", headline: "Base Power raises $1B to get big batteries into more homes", source: "Canary Media", category: "funding", date: "2026-08-04", summary: "", impact: "high", sector: "General", url: "https://www.canarymedia.com/articles/batteries/base-power-raises-1b-to-get-big-batteries-into-more-homes" },
+  { id: 34, company: "Valar Atomics", headline: "Microreactor startup Valar Atomics raises $1B", source: "Canary Media", category: "funding", date: "2026-08-04", summary: "", impact: "high", sector: "General", url: "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b" },
+  { id: 35, company: "Pivotal", headline: "Tyra rolls toward pivotal bladder cancer study even as midphase data deflates stock", source: "FierceBiotech", category: "contract", date: "", summary: "Tyra Biosciences has reported initial phase 2 data on dabogratinib in bladder cancer, putting the biotech on course to start a registrational study next year. But the biotech’s stock fell in premarket", impact: "low", sector: "General", url: "https://www.fiercebiotech.com/biotech/tyra-rolls-toward-pivotal-bladder-cancer-study-even-midphase-data-deflates-stock" },
 ];
 
 const STORY_LEADS = [
@@ -58000,19 +58222,21 @@ const DATA_QUALITY = {
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
 // Last updated: 2026-09-13 11:38
+// Auto-generated real-time signals
+// Last updated: 2026-09-13
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "OpenAI", headline: "OpenAI's Sam Altman says it would be 'ill-advised' to go public in 2026", source: "TechCrunch", time: "15h ago", impact: "low", unread: true },
+  { id: 1, type: "hire", company: "OpenAI", headline: "OpenAI’s Sam Altman says it would be &#8216;ill-advised&#8217; to go public in 2026", source: "TechCrunch", time: "15h ago", impact: "low", unread: true },
   { id: 2, type: "hire", company: "Anthropic", headline: "Anthropic CEO outlines plan to slow AI development", source: "TechCrunch", time: "16h ago", impact: "low", unread: true },
   { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Huge Next Flight and 150 Days to Change the World", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "news", company: "xAI", headline: "xAI has quietly built a massive battery at its Memphis data center hub", source: "Canary Media", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "hire", company: "Monumental", headline: "One brick at a time: How Monumental uses robotics to build walls", source: "The Robot Report", time: "1d ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI's feud with mathematicians is only escalating", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Cognition", headline: "The Week's 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
+  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI&#8217;s feud with mathematicians is only escalating", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Cognition", headline: "The Week’s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
   { id: 8, type: "ipo", company: "OpenAI", headline: "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "NASA's SpaceX Crew-12 to Discuss Station Mission, Upcoming Return", source: "NASA Breaking News", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return", source: "NASA Breaking News", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "news", company: "Saildrone", headline: "US refutes claims that Iran captured Saildrone USV", source: "Defense News", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "OpenAI", headline: "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal", source: "Wired", time: "2d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "WOW! Tesla &#038; SpaceX's Huge Unlocks'Grok 4.7 and AGI", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "WOW! Tesla &#038; SpaceX’s Huge Unlocks—Grok 4.7 and AGI", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
   { id: 13, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
   { id: 14, type: "news", company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", time: "3d ago", impact: "low", unread: false },
   { id: 15, type: "news", company: "Vention", headline: "Vention opens Physical AI Lab for manufacturing in Montreal", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
@@ -58704,6 +58928,8 @@ const COMPANY_SIGNALS = [
 // Last updated: 2026-09-12
 // Auto-recalibrated Valley of Death stages
 // Last updated: 2026-09-12
+// Auto-recalibrated Valley of Death stages
+// Last updated: 2026-09-13
 // Auto-recalibrated Valley of Death stages
 // Last updated: 2026-09-13
 const VALLEY_OF_DEATH = [
@@ -59436,6 +59662,8 @@ const VALLEY_OF_DEATH_STAGES = [
 // Last updated: 2026-09-12
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-09-12
+// Auto-recalibrated contractor readiness scores
+// Last updated: 2026-09-13
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-09-13
 const CONTRACTOR_READINESS = [

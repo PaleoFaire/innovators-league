@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-09-12 11:26:25 UTC
+// Last updated: 2026-09-13 12:31:03 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT06589310", title: "Falcon Real World Evidence Registry", status: "RECRUITING", phase: "N/A", sponsor: "Exact Sciences Corporation", conditions: "Cancer", enrollment: 25000, lastUpdated: "2026-09-11" },
   { nctId: "NCT05935384", title: "SIBYL: obServation of Therapy Response With lIquid BiopsY evaLuation", status: "RECRUITING", phase: "N/A", sponsor: "Guardant Health, Inc.", conditions: "Non-small Cell Lung Cancer, Colorectal Cancer, Bre", enrollment: 470, lastUpdated: "2026-09-11" },
