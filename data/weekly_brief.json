@@ -1,203 +1,147 @@
 {
-  "date": "2026-09-07",
-  "display_date": "Sep 07, 2026",
-  "generated_at": "2026-09-07T15:40:50.066797+00:00",
-  "cutoff": "2026-08-31T15:40:50.066797+00:00",
-  "section_count": 8,
-  "total_items": 254,
+  "date": "2026-09-13",
+  "display_date": "Sep 13, 2026",
+  "generated_at": "2026-09-13T14:16:52.267118+00:00",
+  "cutoff": "2026-09-06T14:16:52.267118+00:00",
+  "section_count": 7,
+  "total_items": 246,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 17,
+      "count": 28,
       "items": [
         {
-          "company": "Resilience",
-          "current": 33.0,
-          "previous": 30.0,
-          "change": 3.0,
+          "company": "Slate Auto",
+          "current": 35.5,
+          "previous": 31.0,
+          "change": 4.5,
           "tier": "early"
         },
         {
-          "company": "Chai Discovery",
-          "current": 32.5,
+          "company": "Gatik",
+          "current": 35.5,
+          "previous": 31.0,
+          "change": 4.5,
+          "tier": "early"
+        },
+        {
+          "company": "TerraDepth",
+          "current": 35.5,
+          "previous": 31.0,
+          "change": 4.5,
+          "tier": "early"
+        },
+        {
+          "company": "Float Cargo",
+          "current": 35.5,
+          "previous": 31.0,
+          "change": 4.5,
+          "tier": "early"
+        },
+        {
+          "company": "Humble Robotics",
+          "current": 35.5,
+          "previous": 31.0,
+          "change": 4.5,
+          "tier": "early"
+        },
+        {
+          "company": "JetZero",
+          "current": 35.0,
+          "previous": 30.5,
+          "change": 4.5,
+          "tier": "early"
+        },
+        {
+          "company": "Electra.aero",
+          "current": 35.0,
+          "previous": 30.5,
+          "change": 4.5,
+          "tier": "early"
+        },
+        {
+          "company": "EarthGrid",
+          "current": 34.0,
           "previous": 29.5,
-          "change": 3.0,
+          "change": 4.5,
           "tier": "early"
         },
         {
-          "company": "Loyal",
-          "current": 32.5,
+          "company": "Olympian Motors",
+          "current": 34.0,
           "previous": 29.5,
-          "change": 3.0,
+          "change": 4.5,
           "tier": "early"
         },
         {
-          "company": "Ohalo Genetics",
-          "current": 32.5,
+          "company": "Infinite Machine",
+          "current": 34.0,
           "previous": 29.5,
-          "change": 3.0,
+          "change": 4.5,
           "tier": "early"
-        },
-        {
-          "company": "Modular Genetics",
-          "current": 32.5,
-          "previous": 29.5,
-          "change": 3.0,
-          "tier": "early"
-        },
-        {
-          "company": "Becoming",
-          "current": 32.5,
-          "previous": 29.5,
-          "change": 3.0,
-          "tier": "early"
-        },
-        {
-          "company": "Mendra",
-          "current": 32.5,
-          "previous": 29.5,
-          "change": 3.0,
-          "tier": "early"
-        },
-        {
-          "company": "ForSight Robotics",
-          "current": 32.0,
-          "previous": 29.0,
-          "change": 3.0,
-          "tier": "early"
-        },
-        {
-          "company": "Paradromics",
-          "current": 32.0,
-          "previous": 29.0,
-          "change": 3.0,
-          "tier": "early"
-        },
-        {
-          "company": "Cradle",
-          "current": 32.0,
-          "previous": 29.0,
-          "change": 3.0,
-          "tier": "early"
-        }
-      ]
-    },
-    {
-      "title": "New Funding Rounds",
-      "icon": "\ud83d\udcb0",
-      "count": 7,
-      "items": [
-        {
-          "company": "ICON",
-          "amount": "$165M",
-          "round": "Series C",
-          "investor": "Undisclosed",
-          "date": "2026-09"
-        },
-        {
-          "company": "Daylight Computer",
-          "amount": "$70M",
-          "round": "Funding Round",
-          "investor": "Undisclosed",
-          "date": "2026-09"
-        },
-        {
-          "company": "Cover",
-          "amount": "$50M",
-          "round": "Funding Round",
-          "investor": "Undisclosed",
-          "date": "2026-09"
-        },
-        {
-          "company": "ARC Clean Technology",
-          "amount": "$35M",
-          "round": "Funding Round",
-          "investor": "Undisclosed",
-          "date": "2026-09"
-        },
-        {
-          "company": "Orangewood Labs",
-          "amount": "$30M",
-          "round": "Series A",
-          "investor": "Undisclosed",
-          "date": "2026-09"
-        },
-        {
-          "company": "Mainspring Energy",
-          "amount": "$9M",
-          "round": "Seed",
-          "investor": "Undisclosed",
-          "date": "2026-09"
-        },
-        {
-          "company": "Together AI",
-          "amount": "$3B",
-          "round": "Funding Round",
-          "investor": "Undisclosed",
-          "date": "2026-09"
         }
       ]
     },
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 22,
+      "count": 20,
       "items": [
         {
-          "company": "C3.ai",
-          "form": "8-K",
-          "description": "ai-20260902.htm",
-          "date": "2026-09-02",
-          "isIPO": false
-        },
-        {
-          "company": "UiPath",
-          "form": "8-K",
-          "description": "path-20260901.htm",
-          "date": "2026-09-03",
-          "isIPO": false
-        },
-        {
-          "company": "Archer Aviation",
-          "form": "8-K",
-          "description": "achr-20260901.htm",
-          "date": "2026-09-04",
-          "isIPO": false
-        },
-        {
-          "company": "Palantir Technologies",
-          "form": "4",
-          "description": "xslF345X06/wk-form4_1788480144.xml",
-          "date": "2026-09-03",
-          "isIPO": false
-        },
-        {
-          "company": "Rocket Lab",
-          "form": "4",
-          "description": "xslF345X06/edgardoc.xml",
-          "date": "2026-09-04",
-          "isIPO": false
-        },
-        {
-          "company": "Rocket Lab",
-          "form": "4",
-          "description": "xslF345X06/edgardoc.xml",
-          "date": "2026-09-02",
-          "isIPO": false
-        },
-        {
-          "company": "AST SpaceMobile",
-          "form": "4",
-          "description": "xslF345X06/tm2624604-1_4seq1.xml",
-          "date": "2026-09-01",
-          "isIPO": false
-        },
-        {
           "company": "Oklo",
-          "form": "4",
-          "description": "xslF345X06/wk-form4_1788467088.xml",
-          "date": "2026-09-03",
+          "form": "8-K",
+          "description": "tm2625056d1_8k.htm",
+          "date": "2026-09-11",
+          "isIPO": false
+        },
+        {
+          "company": "Centrus Energy",
+          "form": "8-K",
+          "description": "tm2625019d5_8k.htm",
+          "date": "2026-09-11",
+          "isIPO": false
+        },
+        {
+          "company": "Centrus Energy",
+          "form": "8-K",
+          "description": "leu-20260909.htm",
+          "date": "2026-09-09",
+          "isIPO": false
+        },
+        {
+          "company": "Rigetti Computing",
+          "form": "8-K",
+          "description": "tm2624940d1_8k.htm",
+          "date": "2026-09-08",
+          "isIPO": false
+        },
+        {
+          "company": "D-Wave Quantum",
+          "form": "8-K",
+          "description": "qbts-20260910.htm",
+          "date": "2026-09-10",
+          "isIPO": false
+        },
+        {
+          "company": "D-Wave Quantum",
+          "form": "8-K",
+          "description": "qbts-20260904.htm",
+          "date": "2026-09-08",
+          "isIPO": false
+        },
+        {
+          "company": "Satellogic",
+          "form": "8-K",
+          "description": "ea0304744-8k_zoomcar.htm",
+          "date": "2026-09-08",
+          "isIPO": false
+        },
+        {
+          "company": "C3.ai",
+          "form": "10-Q",
+          "description": "ai-20260731.htm",
+          "date": "2026-09-09",
           "isIPO": false
         }
       ]
@@ -233,6 +177,33 @@
       "count": 45,
       "items": [
         {
+          "title": "Review of the Commission's Assessment and Collection of Regulatory Fees for Fiscal Year 2026",
+          "type": "Rule",
+          "agencies": [
+            "Federal Communications Commission"
+          ],
+          "significant": false,
+          "date": "2026-09-14"
+        },
+        {
+          "title": "Information Collection Being Reviewed by the Federal Communications Commission",
+          "type": "Notice",
+          "agencies": [
+            "Federal Communications Commission"
+          ],
+          "significant": false,
+          "date": "2026-09-10"
+        },
+        {
+          "title": "Improving the Effectiveness of the Robocall Mitigation Database; Call Authentication Trust Anchor; Advanced Methods To T",
+          "type": "Proposed Rule",
+          "agencies": [
+            "Federal Communications Commission"
+          ],
+          "significant": false,
+          "date": "2026-09-09"
+        },
+        {
           "title": "Unleashing Unlicensed Spectrum for Direct-to-Device",
           "type": "Proposed Rule",
           "agencies": [
@@ -252,101 +223,73 @@
           "date": "2026-09-08"
         },
         {
-          "title": "Determining the Appropriate Penalty for Federal Employees Charged With Misconduct",
-          "type": "Rule",
-          "agencies": [
-            "Merit Systems Protection Board"
-          ],
-          "significant": false,
-          "date": "2026-09-03"
-        },
-        {
-          "title": "Rules of Practice and Procedure",
+          "title": "Sunshine Act Meetings",
           "type": "Notice",
           "agencies": [
-            "United States Sentencing Commission"
+            "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-09-03"
-        },
-        {
-          "title": "Pipeline Safety: Joint Meeting of the Gas and Liquid Pipeline Advisory Committees",
-          "type": "Notice",
-          "agencies": [
-            "Transportation Department",
-            "Pipeline and Hazardous Materials Safety Administration"
-          ],
-          "significant": false,
-          "date": "2026-09-01"
-        },
-        {
-          "title": "Self-Regulatory Organizations; The Options Clearing Corporation; Notice of Filing of Proposed Rule Change by The Options",
-          "type": "Notice",
-          "agencies": [
-            "Securities and Exchange Commission"
-          ],
-          "significant": false,
-          "date": "2026-09-08"
+          "date": "2026-09-14"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 19,
+      "count": 21,
       "items": [
         {
-          "title": "Zoox Begins Robotaxi Testing in Houston",
-          "source": "CleanTechnica",
-          "company": "Zoox",
-          "impact": "low",
-          "type": "milestone"
+          "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
+          "source": "TechCrunch",
+          "company": "OpenAI",
+          "impact": "high",
+          "type": "ipo"
         },
         {
-          "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+          "title": "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round",
+          "source": "Crunchbase News",
+          "company": "Mistral AI",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "OpenAI\u2019s Sam Altman says it would be &#8216;ill-advised&#8217; to go public in 2026",
           "source": "TechCrunch",
           "company": "OpenAI",
           "impact": "low",
-          "type": "ipo"
+          "type": "hire"
         },
         {
-          "title": "German spacetech Isar Aerospace\u2019s second rocket launch reaches orbit in milestone",
-          "source": "Sifted",
-          "company": "Isar Aerospace",
-          "impact": "medium",
-          "type": "ipo"
+          "title": "Anthropic CEO outlines plan to slow AI development",
+          "source": "TechCrunch",
+          "company": "Anthropic",
+          "impact": "low",
+          "type": "hire"
         },
         {
-          "title": "Isar Aerospace achieves first launch to orbit from continental Europe",
-          "source": "ESA News",
-          "company": "Isar Aerospace",
+          "title": "SpaceX Huge Next Flight and 150 Days to Change the World",
+          "source": "Next Big Future",
+          "company": "SpaceX",
           "impact": "low",
           "type": "ipo"
         },
         {
-          "title": "OpenAI confirms \u2018wiki incident,\u2019 says it\u2019s \u2018working on a framework\u2019 for more disclosure",
-          "source": "TechCrunch",
-          "company": "OpenAI",
+          "title": "xAI has quietly built a massive battery at its Memphis data center hub",
+          "source": "Canary Media",
+          "company": "xAI",
           "impact": "low",
           "type": "news"
         },
         {
-          "title": "OpenAI&#8217;s rogue agents keep escaping, with no formal process to investigate them",
+          "title": "One brick at a time: How Monumental uses robotics to build walls",
+          "source": "The Robot Report",
+          "company": "Monumental",
+          "impact": "low",
+          "type": "hire"
+        },
+        {
+          "title": "OpenAI&#8217;s feud with mathematicians is only escalating",
           "source": "TechCrunch",
-          "company": "OpenAI",
-          "impact": "low",
-          "type": "milestone"
-        },
-        {
-          "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
-          "source": "Ars Technica",
-          "company": "OpenAI",
-          "impact": "low",
-          "type": "ipo"
-        },
-        {
-          "title": "July\u2019s breakout at OpenAI was far more complex than initially realized",
-          "source": "Defense One",
           "company": "OpenAI",
           "impact": "low",
           "type": "news"
@@ -356,103 +299,121 @@
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 56,
+      "count": 46,
       "items": [
         {
-          "title": "QBittorrent breaks out of sandbox to commit crimes",
-          "score": 1286,
-          "comments": 280,
+          "title": "A misalignment of AI in mathematics",
+          "score": 1199,
+          "comments": 1184,
           "companies": [
-            "The Boring Company"
+            "Matic Robotics",
+            "OpenAI"
           ],
-          "url": "https://news.ycombinator.com/item?id=49586171"
+          "url": "https://news.ycombinator.com/item?id=49662371"
         },
         {
-          "title": "Nitter and XCancel resume service after legal advice",
-          "score": 807,
-          "comments": 347,
+          "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+          "score": 935,
+          "comments": 584,
           "companies": [
-            "Bear Robotics"
+            "OpenAI"
           ],
-          "url": "https://news.ycombinator.com/item?id=49588988"
+          "url": "https://news.ycombinator.com/item?id=49666735"
         },
         {
-          "title": "Private German rocket makes history, reaches orbit from European soil",
-          "score": 726,
-          "comments": 420,
+          "title": "Ask HN: Can we please limit the AI news flood?",
+          "score": 836,
+          "comments": 387,
           "companies": [
-            "Elodin",
-            "Hadrian",
-            "AnySignal",
-            "Endurosat",
-            "Orbital Composites"
+            "Dust",
+            "Base Power",
+            "NetworkOcean",
+            "QuantumScape",
+            "FREYR Battery",
+            "Verkor",
+            "Arc Boats",
+            "Cuby",
+            "Swan",
+            "Avalanche Energy",
+            "Copenhagen Atomics"
           ],
-          "url": "https://news.ycombinator.com/item?id=49580369"
+          "url": "https://news.ycombinator.com/item?id=49657850"
         },
         {
-          "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
-          "score": 671,
-          "comments": 412,
-          "companies": [],
-          "url": "https://news.ycombinator.com/item?id=49585644"
+          "title": "IKEA made a mod for Skyrim [video]",
+          "score": 576,
+          "comments": 157,
+          "companies": [
+            "Runway"
+          ],
+          "url": "https://news.ycombinator.com/item?id=49639647"
         },
         {
-          "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
-          "score": 622,
-          "comments": 306,
+          "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'",
+          "score": 557,
+          "comments": 426,
           "companies": [
-            "Rigetti Computing"
+            "Cape",
+            "Dust",
+            "Humane",
+            "ideaForge",
+            "Diode",
+            "QuantWare",
+            "Percepto",
+            "ElevenLabs",
+            "Quilter"
           ],
-          "url": "https://news.ycombinator.com/item?id=49582000"
+          "url": "https://news.ycombinator.com/item?id=49645480"
         },
         {
-          "title": "A/I shuts down",
-          "score": 595,
-          "comments": 492,
+          "title": "The EPA is planning to scrap public review rules for data center pollution",
+          "score": 499,
+          "comments": 391,
           "companies": [
-            "Fortera"
+            "Rebellions",
+            "Astera Labs"
           ],
-          "url": "https://news.ycombinator.com/item?id=49586898"
+          "url": "https://news.ycombinator.com/item?id=49662672"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 85,
+      "count": 83,
       "items": [
         {
-          "title": "A notice of the convening of the Extraordinary General Meeting of Shareholders of AB Amber Grid",
+          "title": "Roche\u2019s collaborator MediLink announces phase III data for Tam-Peli showing significantly improved overall survival in C",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Prane\u0161imas apie \u0161aukiam\u0105 AB \u201eAmber Grid\u201c neeilin\u012f visuotin\u012f akcinink\u0173 susirinkim\u0105",
+          "title": "Capgemini signe un accord d\u00e9finitif de vente de Capgemini Government Solutions",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "A notice of the convening of the Extraordinary General Meeting of Shareholders of AB Amber Grid",
+          "title": "Capgemini signs a definitive agreement to sell Capgemini Government Solutions",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Prane\u0161imas apie \u0161aukiam\u0105 AB \u201eAmber Grid\u201c neeilin\u012f visuotin\u012f akcinink\u0173 susirinkim\u0105",
+          "title": "Computer Modelling Group Announces Annual General Meeting Voting Results",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Coop Pank AS own shares acquisition transactions",
+          "title": "Skyworks Announces Extension of Expiration Date of Exchange Offers for Qorvo\u2019s Senior Notes due 2029 and 2031",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Coop Pank AS oma aktsiate omandamise tehingud",
+          "title": "Axe Compute Announces Inducement Grant Under Nasdaq Listing Rule 5635(c)(4)",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-09-07-9474ecd51730"
+  "brief_id": "brief-2026-09-13-efc8fdfa561e"
 }

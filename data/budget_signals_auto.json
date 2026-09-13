@@ -7,10 +7,10 @@
     "changeNum": 5,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 2,
+    "activityIndex": 4,
     "billsTracked": 2,
-    "rulesTracked": 0,
-    "description": "2 bill(s) + 0 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
+    "rulesTracked": 2,
+    "description": "2 bill(s) + 2 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 4 \u2014 +5% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -23,6 +23,18 @@
         "title": "ADVANCE Act \u2014 Accelerating Deployment of Versatile, Advanced Nuclear for Clean Energy",
         "number": "S2226",
         "status": ""
+      },
+      {
+        "type": "federal_register",
+        "title": "Information Collection: NRC Form 212, Qualifications Investigation Professional,",
+        "agency": "",
+        "date": ""
+      },
+      {
+        "type": "federal_register",
+        "title": "Information Collection: NRC Form 366, Licensee Event Report",
+        "agency": "",
+        "date": ""
       }
     ],
     "source": "federal_register + congress_bills",

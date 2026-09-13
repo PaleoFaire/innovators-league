@@ -1,55 +1,119 @@
 {
-  "generated_at": "2026-09-06T11:54:06.421054+00:00",
-  "week_ending": "2026-09-06",
+  "generated_at": "2026-09-13T13:03:59.265723+00:00",
+  "week_ending": "2026-09-13",
   "window_days": 7,
-  "events_processed": 5,
-  "companies_touched": 5,
-  "companies_moved": 0,
-  "companies_unchanged": 3,
-  "movers_up_top20": [],
+  "events_processed": 9,
+  "companies_touched": 7,
+  "companies_moved": 2,
+  "companies_unchanged": 4,
+  "movers_up_top20": [
+    {
+      "company": "Cognition",
+      "delta": 4.0,
+      "new_composite": 69.0,
+      "old_composite": 65.0,
+      "new_tier": "strong",
+      "reasons": [
+        "[funding_mega] Series D $1B"
+      ]
+    },
+    {
+      "company": "Focused Energy",
+      "delta": 4.0,
+      "new_composite": 70.0,
+      "old_composite": 66.0,
+      "new_tier": "leader",
+      "reasons": [
+        "[funding_mega] Funding Round $950M"
+      ]
+    }
+  ],
   "movers_down_top10": [],
-  "tier_crossings": [],
+  "tier_crossings": [
+    {
+      "company": "Focused Energy",
+      "from_tier": "strong",
+      "to_tier": "leader",
+      "new_composite": 70.0,
+      "reasons": [
+        "[funding_mega] Funding Round $950M"
+      ],
+      "first_time_elite": false
+    }
+  ],
   "first_time_elite": [],
   "top_headlines": [
     {
-      "company": "Crusoe Energy",
+      "company": "Focused Energy",
       "type": "funding_mega",
-      "detail": "Funding Round $3B",
-      "date": "2026-09-04",
+      "detail": "Funding Round $950M",
+      "date": "2026-09-10",
       "source": "funding_feed",
       "url": ""
     },
     {
-      "company": "Archer Aviation",
-      "type": "exec_hire_star",
-      "detail": "",
-      "date": "2026-09-04",
-      "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001824502-26-000068%22&dateRange=custom&forms=8-K"
+      "company": "Cognition",
+      "type": "funding_mega",
+      "detail": "Series D $1B",
+      "date": "2026-09-11",
+      "source": "funding_feed",
+      "url": ""
     },
     {
-      "company": "UiPath",
+      "company": "Oklo",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-09-03",
+      "date": "2026-09-11",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001734722-26-000047%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-106897%22&dateRange=custom&forms=8-K"
     },
     {
-      "company": "C3.ai",
+      "company": "Centrus Energy",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-09-02",
+      "date": "2026-09-11",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001577526-26-000119%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-107103%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "D-Wave Quantum",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-09-10",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000146%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Centrus Energy",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-09-09",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001628280-26-061036%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "Rigetti Computing",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-09-08",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001104659-26-105662%22&dateRange=custom&forms=8-K"
+    },
+    {
+      "company": "D-Wave Quantum",
+      "type": "exec_hire_star",
+      "detail": "",
+      "date": "2026-09-08",
+      "source": "exec_moves",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-26-000141%22&dateRange=custom&forms=8-K"
     },
     {
       "company": "Satellogic",
       "type": "exec_hire_star",
       "detail": "",
-      "date": "2026-08-31",
+      "date": "2026-09-08",
       "source": "exec_moves",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-095700%22&dateRange=custom&forms=8-K"
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-097804%22&dateRange=custom&forms=8-K"
     }
   ],
   "methodology": {

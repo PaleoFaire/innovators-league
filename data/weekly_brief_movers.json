@@ -1,15 +1,24 @@
 {
-  "week_ending": "2026-09-06",
-  "generated_at": "2026-09-06T11:54:06.421054+00:00",
-  "lede": "Quiet week \u2014 5 events tracked across the Frontier Index",
-  "top_3_up": [],
+  "week_ending": "2026-09-13",
+  "generated_at": "2026-09-13T13:03:59.265723+00:00",
+  "lede": "2 companies moved up, 0 reached elite tier, 0 major contract wins",
+  "top_3_up": [
+    "Cognition: 65.0 \u2192 69.0 (+4.0) \u2014 [funding_mega] Series D $1B",
+    "Focused Energy: 66.0 \u2192 70.0 (+4.0) \u2014 [funding_mega] Funding Round $950M"
+  ],
   "first_time_elite": [],
-  "tier_upgrades": [],
+  "tier_upgrades": [
+    "Focused Energy: strong \u2192 leader"
+  ],
   "notable_headlines": [
-    "[funding_mega] Crusoe Energy: Funding Round $3B",
-    "[exec_hire_star] Archer Aviation: ",
-    "[exec_hire_star] UiPath: ",
-    "[exec_hire_star] C3.ai: ",
+    "[funding_mega] Focused Energy: Funding Round $950M",
+    "[funding_mega] Cognition: Series D $1B",
+    "[exec_hire_star] Oklo: ",
+    "[exec_hire_star] Centrus Energy: ",
+    "[exec_hire_star] D-Wave Quantum: ",
+    "[exec_hire_star] Centrus Energy: ",
+    "[exec_hire_star] Rigetti Computing: ",
+    "[exec_hire_star] D-Wave Quantum: ",
     "[exec_hire_star] Satellogic: "
   ]
 }
