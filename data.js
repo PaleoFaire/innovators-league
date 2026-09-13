@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-09-12";
+const LAST_UPDATED = "2026-09-13";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -57780,19 +57780,19 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-12 22:10
+// Last updated: 2026-09-13 00:48
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "OpenAI", headline: "OpenAI's Sam Altman says it would be 'ill-advised' to go public in 2026", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "Anthropic", headline: "Anthropic CEO outlines plan to slow AI development", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Huge Next Flight and 150 Days to Change the World", source: "Next Big Future", time: "23h ago", impact: "low", unread: true },
+  { id: 1, type: "hire", company: "OpenAI", headline: "OpenAI's Sam Altman says it would be 'ill-advised' to go public in 2026", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "Anthropic", headline: "Anthropic CEO outlines plan to slow AI development", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Huge Next Flight and 150 Days to Change the World", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "news", company: "xAI", headline: "xAI has quietly built a massive battery at its Memphis data center hub", source: "Canary Media", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "hire", company: "Monumental", headline: "One brick at a time: How Monumental uses robotics to build walls", source: "The Robot Report", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "news", company: "OpenAI", headline: "OpenAI's feud with mathematicians is only escalating", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "funding", company: "Cognition", headline: "The Week's 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
   { id: 8, type: "ipo", company: "OpenAI", headline: "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
-  { id: 9, type: "news", company: "Saildrone", headline: "US refutes claims that Iran captured Saildrone USV", source: "Defense News", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "OpenAI", headline: "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI puts Pro subscriptions on hold due to Astra demand", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "NASA's SpaceX Crew-12 to Discuss Station Mission, Upcoming Return", source: "NASA Breaking News", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Saildrone", headline: "US refutes claims that Iran captured Saildrone USV", source: "Defense News", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal", source: "Wired", time: "2d ago", impact: "low", unread: false },
   { id: 12, type: "ipo", company: "SpaceX", headline: "WOW! Tesla &#038; SpaceX's Huge Unlocks'Grok 4.7 and AGI", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
   { id: 13, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
   { id: 14, type: "news", company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", time: "3d ago", impact: "low", unread: false },
