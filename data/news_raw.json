@@ -16,7 +16,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Anthropic CEO outlines plan to slow AI development",
@@ -36,7 +36,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "SpaceX Huge Next Flight and 150 Days to Change the World",
@@ -96,7 +96,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "OpenAI&#8217;s feud with mathematicians is only escalating",
@@ -115,7 +115,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "The Week’s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
@@ -138,22 +138,29 @@
     "time": "2d ago"
   },
   {
-    "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
-    "link": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
-    "description": "The No. 2 exec at OpenAI also led Instacart through its IPO in 2023.",
-    "pubDate": "Fri, 11 Sep 2026 16:46:25 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
+    "title": "NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return",
+    "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-to-discuss-station-mission-upcoming-return/",
+    "description": "Media are invited to hear from NASA’s SpaceX Crew-12 astronauts during a news conference beginning at 2:45 p.m. EDT, Wednesday, Sept. 16, from the International Space Station. NASA astronauts Jessica Meir and Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut",
+    "pubDate": "Fri, 11 Sep 2026 15:05:20 +0000",
+    "category": "Humans in Space",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
     "matchedCompanies": [
-      "OpenAI"
+      "SpaceX",
+      "Vast",
+      "Axiom Space",
+      "Durin",
+      "PLD Space",
+      "Osmo"
     ],
     "sectors": [
-      "ai"
+      "space",
+      "infrastructure",
+      "consumer"
     ],
     "type": "ipo",
-    "impact": "high",
+    "impact": "low",
     "time": "2d ago"
   },
   {
@@ -237,7 +244,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture",
@@ -335,7 +342,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round",
