@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T13:04:01.656554Z",
+  "generated_at": "2026-09-14T13:42:32.535588Z",
   "takes": [
     {
       "author": "Crunchbase News",
@@ -30,22 +30,12 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b",
       "signal_type": "funding"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "OpenAI",
-      "text": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
-      "date": "Fri, 11 Se",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
-      "signal_type": "ipo"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 4,
+    "from_news": 3,
     "from_press": 0
   }
 }
