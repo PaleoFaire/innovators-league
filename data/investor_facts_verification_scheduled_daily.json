@@ -1,15 +1,16 @@
 {
-  "generatedAt": "2026-09-13T10:07:52+00:00",
+  "generatedAt": "2026-09-14T10:29:43+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
-  "cohortSize": 2,
-  "newExtractionsThisRun": 2,
+  "cohortSize": 3,
+  "newExtractionsThisRun": 3,
   "summary": {
-    "cleared": 1,
+    "cleared": 2,
     "changesProposed": 1,
     "unverifiable": 0
   },
   "cleared": [
+    "General Catalyst",
     "Shield Capital"
   ],
   "changesProposed": [
@@ -46,14 +47,11 @@
           "Semiconductors, Photonics & Next-Generation Hardware",
           "Space"
         ],
-        "thesis": "Engine Ventures invests in early-stage Tough Tech companies. In 2023, Engine Ventures spun out as a separate investment firm focused on Tough Tech companies solving the world's most challenging problems.",
+        "thesis": "Engine Ventures is a venture capital firm focused on early-stage Tough Tech companies. In 2023, Engine Ventures spun out as a separate investment firm from The Engine nonprofit incubator, focusing on companies solving the world's most challenging problems through transformational science and engineering.",
         "website": "https://engine.xyz",
         "sources_per_field": {
           "name": [
-            0,
-            1,
-            2,
-            3
+            1
           ],
           "short_name": [
             0
@@ -72,12 +70,10 @@
             1
           ],
           "website": [
-            0,
-            1,
-            2
+            0
           ]
         },
-        "notes": "Engine Ventures is the investment arm that spun out from The Engine (a nonprofit incubator/accelerator founded by MIT in 2016). Sources do not provide current AUM, flagship fund name, or individual partner names for Engine Ventures specifically. Wikipedia lists The Engine's leadership (Emily Knight as CEO/President) but does not identify senior partners of Engine Ventures investment firm."
+        "notes": "Engine Ventures is the investment/venture capital arm that spun out in 2023 from The Engine, which is a nonprofit incubator and accelerator founded by MIT in 2016. The sources do not provide current AUM, flagship fund name, or verified current senior partner names for Engine Ventures specifically. Sources [4] and [5] are not relevant to Engine Ventures and were excluded from analysis."
       },
       "changes": [
         {
@@ -110,6 +106,14 @@
           ],
           "sources": [
             2
+          ]
+        },
+        {
+          "field": "thesis",
+          "current": "Engine Ventures invests in early-stage Tough Tech companies. In 2023, Engine Ventures spun out as a separate investment firm focused on Tough Tech companies solving the world's most challenging problems.",
+          "verified": "Engine Ventures is a venture capital firm focused on early-stage Tough Tech companies. In 2023, Engine Ventures spun out as a separate investment firm from The Engine nonprofit incubator, focusing on companies solving the world's most challenging problems through transformational science and engineering.",
+          "sources": [
+            1
           ]
         }
       ],
@@ -145,7 +149,7 @@
           "url": "https://www.defenseone.com/business/2026/09/back-life-how-shield-ais-future-unmanned-fighter-made-decades-old-tech-new-again/415821/"
         }
       ],
-      "notes": "Engine Ventures is the investment arm that spun out from The Engine (a nonprofit incubator/accelerator founded by MIT in 2016). Sources do not provide current AUM, flagship fund name, or individual partner names for Engine Ventures specifically. Wikipedia lists The Engine's leadership (Emily Knight as CEO/President) but does not identify senior partners of Engine Ventures investment firm."
+      "notes": "Engine Ventures is the investment/venture capital arm that spun out in 2023 from The Engine, which is a nonprofit incubator and accelerator founded by MIT in 2016. The sources do not provide current AUM, flagship fund name, or verified current senior partner names for Engine Ventures specifically. Sources [4] and [5] are not relevant to Engine Ventures and were excluded from analysis."
     }
   ],
   "unverifiable": []

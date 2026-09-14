@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T10:07:28+00:00",
+  "generatedAt": "2026-09-14T10:29:10+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
   "cohortSize": 31,
@@ -53,7 +53,7 @@
       },
       "verified": {
         "name": "1X Technologies",
-        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home environments. The company manufactures humanoid robots including EVE for industrial use and NEO for domestic applications.",
+        "description": "Norwegian-American robotics and artificial intelligence company developing general-purpose humanoid robots for home and industrial environments, including the EVE wheeled humanoid robot and the NEO bipedal humanoid robot.",
         "founders": [
           "Bernt \u00d8ivind B\u00f8rnich"
         ],
@@ -102,7 +102,7 @@
             2
           ]
         },
-        "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Series A2 funding of $23.5M raised in March 2023 (source 2). Series B funding of $100M raised in January 2024 (source 2). Total raised calculation: $23.5M + $100M = $123.5M. Source 0 and 1 describe a different company (wire and cable distributor also named 1X Technologies LLC based in Sheridan, WY) and are not applicable to the robotics company."
+        "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Series A2 funding of $23.5M in March 2023 led by OpenAI Startup Fund. Series B funding of $100M in January 2024 led by EQT Ventures. Total raised calculation: $23.5M + $100M = $123.5M. Source [0] and [1] refer to a different company (wire and cable distributor also named 1X Technologies LLC based in Wyoming) and are not relevant to this robotics company."
       },
       "changes": [
         {
@@ -152,7 +152,7 @@
           "url": "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/"
         }
       ],
-      "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Series A2 funding of $23.5M raised in March 2023 (source 2). Series B funding of $100M raised in January 2024 (source 2). Total raised calculation: $23.5M + $100M = $123.5M. Source 0 and 1 describe a different company (wire and cable distributor also named 1X Technologies LLC based in Sheridan, WY) and are not applicable to the robotics company."
+      "notes": "Company was originally founded as Halodi Robotics in 2014 and rebranded as 1X Technologies in 2022. Series A2 funding of $23.5M in March 2023 led by OpenAI Startup Fund. Series B funding of $100M in January 2024 led by EQT Ventures. Total raised calculation: $23.5M + $100M = $123.5M. Source [0] and [1] refer to a different company (wire and cable distributor also named 1X Technologies LLC based in Wyoming) and are not relevant to this robotics company."
     },
     {
       "name": "Agility Robotics",
@@ -167,7 +167,7 @@
       },
       "verified": {
         "name": "Agility Robotics",
-        "description": "American humanoid robotics company that develops Digit, a commercially deployed bipedal robot for warehouse and logistics automation. The company was spun out from Oregon State University's Dynamic Robotics Lab in 2015.",
+        "description": "A privately held American humanoid robotics company that develops and deploys Digit, a commercially deployed humanoid robot designed for warehouse and logistics automation tasks.",
         "founders": [
           "Jonathan Hurst",
           "Damion Shelton",
@@ -187,13 +187,13 @@
             2
           ],
           "description": [
+            1,
             2
           ],
           "founders": [
             2
           ],
           "location": [
-            1,
             2
           ],
           "founded_year": [
@@ -201,14 +201,9 @@
           ],
           "current_stage": [
             0
-          ],
-          "website": [
-            0,
-            1,
-            2
           ]
         },
-        "notes": "Company announced plan to go public through merger with Churchill Capital Corp XI (announced June 24, 2026). Wikipedia notes a rebrand to 'Agility' on March 5, 2026. Sources do not provide specific total funding amount or current valuation figures to verify the database entry values."
+        "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026). Wikipedia indicates company rebranded to 'Agility' on March 5, 2026, though sources still refer to it as 'Agility Robotics.' Sources do not provide verified total raised amount or current valuation despite database entry showing $400M+ and Series E."
       },
       "changes": [
         {
@@ -242,7 +237,7 @@
           "url": "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/"
         }
       ],
-      "notes": "Company announced plan to go public through merger with Churchill Capital Corp XI (announced June 24, 2026). Wikipedia notes a rebrand to 'Agility' on March 5, 2026. Sources do not provide specific total funding amount or current valuation figures to verify the database entry values."
+      "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026). Wikipedia indicates company rebranded to 'Agility' on March 5, 2026, though sources still refer to it as 'Agility Robotics.' Sources do not provide verified total raised amount or current valuation despite database entry showing $400M+ and Series E."
     },
     {
       "name": "Nano Nuclear Energy",
@@ -256,8 +251,8 @@
         "website": "https://nanonuclearenergy.com"
       },
       "verified": {
-        "name": "NANO Nuclear Energy",
-        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, along with nuclear fuel fabrication, transportation, and space applications.",
+        "name": "NANO Nuclear Energy Inc.",
+        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, with subsidiaries in fuel fabrication, transportation, and space applications. Listed publicly on NASDAQ under ticker NNE.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -272,6 +267,7 @@
             1
           ],
           "description": [
+            0,
             1
           ],
           "location": [
@@ -280,9 +276,12 @@
           "current_stage": [
             0,
             1
+          ],
+          "website": [
+            0
           ]
         },
-        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources claim to be 'the first nuclear microreactor company to be listed publicly in the U.S.' Database entry references 'Jay Jiang Yu' as founder and valuation/raise figures, but these are not verified in provided sources. Source [2] is about Valar Atomics (different company) and was not used. Founded year (2022) and total_raised ($600M+) from database entry cannot be verified from these sources."
+        "notes": "Company is publicly traded on NASDAQ under ticker NNE. Database entry references ODIN sale to Cambridge AtomWorks and specific financial figures ($600M+, $808M, $1.2B market cap) which cannot be verified from provided sources. Founder name 'Jay Jiang Yu' not mentioned in sources. Founded year 2022 and Seed stage designation from database entry cannot be verified from provided sources."
       },
       "changes": [
         {
@@ -312,7 +311,7 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources claim to be 'the first nuclear microreactor company to be listed publicly in the U.S.' Database entry references 'Jay Jiang Yu' as founder and valuation/raise figures, but these are not verified in provided sources. Source [2] is about Valar Atomics (different company) and was not used. Founded year (2022) and total_raised ($600M+) from database entry cannot be verified from these sources."
+      "notes": "Company is publicly traded on NASDAQ under ticker NNE. Database entry references ODIN sale to Cambridge AtomWorks and specific financial figures ($600M+, $808M, $1.2B market cap) which cannot be verified from provided sources. Founder name 'Jay Jiang Yu' not mentioned in sources. Founded year 2022 and Seed stage designation from database entry cannot be verified from provided sources."
     }
   ],
   "unverifiable": []
