@@ -58441,9 +58441,9 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-14 04:42
+// Last updated: 2026-09-14 10:31
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "Insight Partners' Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Ant", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "Anthropic", headline: "Insight Partners' Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Ant", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
   { id: 2, type: "hire", company: "OpenAI", headline: "OpenAI's Sam Altman says it would be 'ill-advised' to go public in 2026", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 3, type: "hire", company: "Anthropic", headline: "Anthropic CEO outlines plan to slow AI development", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX Huge Next Flight and 150 Days to Change the World", source: "Next Big Future", time: "2d ago", impact: "low", unread: true },
