@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -8.38,
+      "avg_change": -3.75,
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -3.06,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -1.91,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -4.3,
+      "avg_change": -4.27,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.27,
+      "avg_change": -11.44,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -1.01,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -2.42,
       "count": 3
     },
     "quantum": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.78,
+      "avg_change": -1.46,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.17,
+      "avg_change": -6.91,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": -1.07,
+      "gainers": 2,
+      "losers": 0,
+      "avg_change": 1.94,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 3.89,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -6.41,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "AMD",
-      "AMD",
-      13.15
-    ],
-    [
       "SATL",
       "Satellogic",
-      3.46
+      6.14
     ],
     [
-      "ALAB",
-      "Astera Labs",
-      2.97
-    ],
-    [
-      "SLDP",
-      "Solid Power",
-      2.02
+      "ASRHF",
+      "Astroscale",
+      3.78
     ],
     [
       "AUR",
       "Aurora Innovation",
-      1.74
+      2.27
+    ],
+    [
+      "AMD",
+      "AMD",
+      2.18
+    ],
+    [
+      "TSLA",
+      "Tesla",
+      2.03
     ]
   ],
   "topLosers": [
     [
-      "TEM",
-      "Tempus AI",
-      -8.74
+      "PL",
+      "Planet Labs",
+      -10.71
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -10.74
     ],
     [
       "OKLO",
       "Oklo",
-      -9.09
+      -12.04
     ],
     [
-      "PL",
-      "Planet Labs",
-      -10.35
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -10.67
+      "ALAB",
+      "Astera Labs",
+      -13.13
     ],
     [
       "SMR",
       "NuScale Power",
-      -11.69
+      -13.35
     ]
   ],
-  "lastUpdated": "2026-09-14 06:22:43"
+  "lastUpdated": "2026-09-14 14:09:28"
 }
