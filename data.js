@@ -58441,9 +58441,9 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-14 00:03
+// Last updated: 2026-09-14 04:42
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "Insight Partners' Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Ant", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "Anthropic", headline: "Insight Partners' Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Ant", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
   { id: 2, type: "hire", company: "OpenAI", headline: "OpenAI's Sam Altman says it would be 'ill-advised' to go public in 2026", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 3, type: "hire", company: "Anthropic", headline: "Anthropic CEO outlines plan to slow AI development", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX Huge Next Flight and 150 Days to Change the World", source: "Next Big Future", time: "2d ago", impact: "low", unread: true },
@@ -58451,13 +58451,13 @@ const COMPANY_SIGNALS = [
   { id: 6, type: "hire", company: "Monumental", headline: "One brick at a time: How Monumental uses robotics to build walls", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
   { id: 7, type: "news", company: "OpenAI", headline: "OpenAI's feud with mathematicians is only escalating", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
   { id: 8, type: "funding", company: "Cognition", headline: "The Week's 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week", source: "Crunchbase News", time: "2d ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "NASA's SpaceX Crew-12 to Discuss Station Mission, Upcoming Return", source: "NASA Breaking News", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Saildrone", headline: "US refutes claims that Iran captured Saildrone USV", source: "Defense News", time: "2d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal", source: "Wired", time: "3d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "WOW! Tesla &#038; SpaceX's Huge Unlocks'Grok 4.7 and AGI", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", time: "4d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Vention", headline: "Vention opens Physical AI Lab for manufacturing in Montreal", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Saildrone", headline: "US refutes claims that Iran captured Saildrone USV", source: "Defense News", time: "2d ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "OpenAI", headline: "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal", source: "Wired", time: "3d ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "WOW! Tesla &#038; SpaceX's Huge Unlocks'Grok 4.7 and AGI", source: "Next Big Future", time: "4d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", time: "4d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Vention", headline: "Vention opens Physical AI Lab for manufacturing in Montreal", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "OpenAI", headline: "The Download: OpenAI's turning point for math and a battery record", source: "MIT Tech Review", time: "4d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
