@@ -3084,6 +3084,18 @@
     "note": "Engineering observability platform for hardware testing and reliability, replacing spreadsheets with real-time test data analytics \u2014 Series B \u00b7 $155M raised \u00b7 $1B val"
   },
   {
+    "company": "Focused Energy",
+    "techMoat": 9,
+    "momentum": 9,
+    "teamPedigree": 6,
+    "marketGravity": 7,
+    "capitalEfficiency": 5,
+    "govTraction": 5,
+    "composite": 70.0,
+    "tier": "leader",
+    "note": "Laser-driven inertial fusion building on NIF ignition breakthrough with improved target physics and laser efficiency \u2014 Series A \u00b7 $80M+ raised"
+  },
+  {
     "company": "Pasqal",
     "techMoat": 8,
     "momentum": 8,
@@ -3454,6 +3466,18 @@
     "composite": 69.0,
     "tier": "strong",
     "note": "The Nuclear Company's thesis is that reactor technology isn't the bottleneck \u2014 execution is. By using proven AP1000 designs and taking a developer approach, they can deploy faster than anyone designing new reactors. \u00b7 $50M+"
+  },
+  {
+    "company": "Cognition",
+    "techMoat": 7,
+    "momentum": 10,
+    "teamPedigree": 9,
+    "marketGravity": 10,
+    "capitalEfficiency": 7,
+    "govTraction": 1,
+    "composite": 69.0,
+    "tier": "strong",
+    "note": "Devin represents the frontier of AI agents \u2014 not just generating code but planning, debugging, and deploying autonomously. If this works at scale, every software team becomes 10x more productive. \u00b7 $175M+"
   },
   {
     "company": "Newcleo",
@@ -4524,18 +4548,6 @@
     "note": "Transformer-specific ASIC with architecture burned into silicon, delivering 10x performance per watt vs. GPUs for inference \u2014 Series A \u00b7 $125M+ raised \u00b7 $5B val"
   },
   {
-    "company": "Focused Energy",
-    "techMoat": 9,
-    "momentum": 7,
-    "teamPedigree": 6,
-    "marketGravity": 6,
-    "capitalEfficiency": 4,
-    "govTraction": 5,
-    "composite": 66.0,
-    "tier": "strong",
-    "note": "Laser-driven inertial fusion building on NIF ignition breakthrough with improved target physics and laser efficiency \u2014 Series A \u00b7 $80M+ raised"
-  },
-  {
     "company": "PsiQuantum",
     "techMoat": 7,
     "momentum": 10,
@@ -4822,18 +4834,6 @@
     "composite": 65.5,
     "tier": "strong",
     "note": "AI data center demand is destabilizing grids. Emerald AI turns that demand into dispatchable flexibility. \u00b7 $24.5M"
-  },
-  {
-    "company": "Cognition",
-    "techMoat": 7,
-    "momentum": 8,
-    "teamPedigree": 9,
-    "marketGravity": 10,
-    "capitalEfficiency": 6,
-    "govTraction": 1,
-    "composite": 65.0,
-    "tier": "strong",
-    "note": "Devin represents the frontier of AI agents \u2014 not just generating code but planning, debugging, and deploying autonomously. If this works at scale, every software team becomes 10x more productive. \u00b7 $175M+"
   },
   {
     "company": "Galvanick",
@@ -9412,12 +9412,24 @@
     "techMoat": 3,
     "momentum": 4,
     "teamPedigree": 6,
-    "marketGravity": 3,
+    "marketGravity": 4,
     "capitalEfficiency": 5,
     "govTraction": 4,
-    "composite": 40.0,
+    "composite": 41.5,
     "tier": "early",
-    "note": "Notable team pedigree. Composite: 40/100."
+    "note": "Notable team pedigree. Composite: 42/100."
+  },
+  {
+    "company": "Together AI",
+    "techMoat": 3,
+    "momentum": 4,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 38.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 38/100."
   },
   {
     "company": "Noveon Magnetics",
@@ -9468,16 +9480,16 @@
     "note": "Notable team pedigree. Composite: 36/100."
   },
   {
-    "company": "Together AI",
+    "company": "Lambda",
     "techMoat": 3,
-    "momentum": 4,
+    "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 6,
     "govTraction": 2,
     "composite": 36.5,
     "tier": "early",
-    "note": "Notable team pedigree. Composite: 36/100."
+    "note": "Capital efficient. Composite: 36/100."
   },
   {
     "company": "Matter",
@@ -9492,12 +9504,12 @@
     "note": "Notable team pedigree. Composite: 36/100."
   },
   {
-    "company": "Sierra Space",
+    "company": "Radical AI",
     "techMoat": 3,
     "momentum": 3,
-    "teamPedigree": 6,
-    "marketGravity": 2,
-    "capitalEfficiency": 5,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 3.5,
     "govTraction": 4,
     "composite": 36.0,
     "tier": "early",
@@ -9526,6 +9538,30 @@
     "composite": 35.5,
     "tier": "early",
     "note": "Capital efficient. Composite: 36/100."
+  },
+  {
+    "company": "Slate Auto",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 35.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 36/100."
+  },
+  {
+    "company": "Core Automation",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 35.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 36/100."
   },
   {
     "company": "Atoms",
@@ -9577,6 +9613,18 @@
   },
   {
     "company": "Oishii",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 35.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 36/100."
+  },
+  {
+    "company": "Gatik",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -9660,6 +9708,18 @@
     "note": "Notable team pedigree. Composite: 36/100."
   },
   {
+    "company": "TerraDepth",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 35.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 36/100."
+  },
+  {
     "company": "Corvus Robotics",
     "techMoat": 3,
     "momentum": 3,
@@ -9720,7 +9780,43 @@
     "note": "Notable team pedigree. Composite: 36/100."
   },
   {
+    "company": "Altara",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 35.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 36/100."
+  },
+  {
+    "company": "Atalanta",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 35.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 36/100."
+  },
+  {
     "company": "Athanor",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 35.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 36/100."
+  },
+  {
+    "company": "BootLoop",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -9744,7 +9840,91 @@
     "note": "Notable team pedigree. Composite: 36/100."
   },
   {
+    "company": "Callosum",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 35.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 36/100."
+  },
+  {
+    "company": "Eon Systems",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 35.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 36/100."
+  },
+  {
     "company": "Fabri",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 35.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 36/100."
+  },
+  {
+    "company": "Flapping Airplanes",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 35.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 36/100."
+  },
+  {
+    "company": "Float Cargo",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 35.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 36/100."
+  },
+  {
+    "company": "General Intuition",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 35.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 36/100."
+  },
+  {
+    "company": "Humans&",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 35.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 36/100."
+  },
+  {
+    "company": "Humble Robotics",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -9828,6 +10008,18 @@
     "note": "Notable team pedigree. Composite: 36/100."
   },
   {
+    "company": "Vinci",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 35.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 36/100."
+  },
+  {
     "company": "The Bot Company",
     "techMoat": 3,
     "momentum": 3,
@@ -9841,6 +10033,18 @@
   },
   {
     "company": "Kinetic Automation",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
+    "composite": 35.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 35/100."
+  },
+  {
+    "company": "Phaidra",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -9876,6 +10080,30 @@
     "note": "Notable team pedigree. Composite: 35/100."
   },
   {
+    "company": "JetZero",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
+    "composite": 35.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 35/100."
+  },
+  {
+    "company": "Electra.aero",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
+    "composite": 35.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 35/100."
+  },
+  {
     "company": "Foxglove",
     "techMoat": 3,
     "momentum": 3,
@@ -9888,7 +10116,19 @@
     "note": "Notable team pedigree. Composite: 35/100."
   },
   {
-    "company": "HawkEye 360",
+    "company": "Sift Stack",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
+    "composite": 35.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 35/100."
+  },
+  {
+    "company": "Onebrief",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -9900,16 +10140,28 @@
     "note": "Capital efficient. Composite: 35/100."
   },
   {
-    "company": "Lambda",
+    "company": "Black Forest Labs",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 6,
+    "marketGravity": 4,
+    "capitalEfficiency": 4.5,
     "govTraction": 2,
     "composite": 35.0,
     "tier": "early",
-    "note": "Capital efficient. Composite: 35/100."
+    "note": "Notable team pedigree. Composite: 35/100."
+  },
+  {
+    "company": "Cartesia",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
+    "composite": 35.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 35/100."
   },
   {
     "company": "Sereact",
@@ -10008,7 +10260,31 @@
     "note": "Notable team pedigree. Composite: 35/100."
   },
   {
-    "company": "Ursa Space Systems",
+    "company": "SendCutSend",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 34.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Kodiak AI",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 7,
+    "govTraction": 2,
+    "composite": 34.5,
+    "tier": "early",
+    "note": "Capital efficient. Composite: 34/100."
+  },
+  {
+    "company": "BRINC Drones",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -10020,7 +10296,19 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
-    "company": "SendCutSend",
+    "company": "Echodyne",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 5,
+    "govTraction": 4,
+    "composite": 34.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Wispr AI",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -10044,11 +10332,23 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
-    "company": "CesiumAstro",
+    "company": "Alpha School",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 2,
+    "marketGravity": 4,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 34.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Sierra Space",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 6,
+    "marketGravity": 1,
     "capitalEfficiency": 5,
     "govTraction": 4,
     "composite": 34.5,
@@ -10056,7 +10356,7 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
-    "company": "Xona Space Systems",
+    "company": "Viken Detection",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -10069,6 +10369,54 @@
   },
   {
     "company": "Mind Robotics",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 34.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "World Labs",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 34.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "CuspAI",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 34.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Atmo",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 34.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Reflection AI",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -10104,6 +10452,18 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
+    "company": "Archetype AI",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 34.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
     "company": "TerraFirma",
     "techMoat": 3,
     "momentum": 3,
@@ -10123,6 +10483,18 @@
     "marketGravity": 4,
     "capitalEfficiency": 4,
     "govTraction": 2,
+    "composite": 34.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Shift5",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 5,
+    "govTraction": 4,
     "composite": 34.5,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 34/100."
@@ -10152,7 +10524,7 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
-    "company": "Orbital Sidekick",
+    "company": "Vantage Robotics",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -10236,18 +10608,6 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
-    "company": "Specter Aerospace",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 5,
-    "govTraction": 4,
-    "composite": 34.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
     "company": "Laminar",
     "techMoat": 3,
     "momentum": 3,
@@ -10255,18 +10615,6 @@
     "marketGravity": 4,
     "capitalEfficiency": 4,
     "govTraction": 2,
-    "composite": 34.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "EraDrive",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 5,
-    "govTraction": 4,
     "composite": 34.5,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 34/100."
@@ -10284,7 +10632,19 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
-    "company": "Radical AI",
+    "company": "Teradar",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 4.5,
+    "govTraction": 4,
+    "composite": 34.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Blackstar",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -10296,13 +10656,13 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
-    "company": "Core Automation",
+    "company": "Twenty",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
+    "marketGravity": 2,
+    "capitalEfficiency": 4.5,
+    "govTraction": 4,
     "composite": 34.0,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 34/100."
@@ -10315,6 +10675,18 @@
     "marketGravity": 4,
     "capitalEfficiency": 3.5,
     "govTraction": 2,
+    "composite": 34.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Performance Drone Works",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 4.5,
+    "govTraction": 4,
     "composite": 34.0,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 34/100."
@@ -10344,7 +10716,43 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
+    "company": "Code Metal",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 4.5,
+    "govTraction": 4,
+    "composite": 34.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Heaviside",
+    "techMoat": 3,
+    "momentum": 4,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 34.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
     "company": "Maglut Heavy Industries",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 34.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Periodic Labs",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -10387,6 +10795,18 @@
     "marketGravity": 4,
     "capitalEfficiency": 3.5,
     "govTraction": 2,
+    "composite": 34.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Anello Photonics",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 4.5,
+    "govTraction": 4,
     "composite": 34.0,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 34/100."
@@ -10452,6 +10872,18 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
+    "company": "EarthGrid",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 34.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
     "company": "Zoo",
     "techMoat": 3,
     "momentum": 3,
@@ -10465,6 +10897,30 @@
   },
   {
     "company": "SirenOpt",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 34.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Olympian Motors",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 34.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 34/100."
+  },
+  {
+    "company": "Infinite Machine",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -10584,120 +11040,12 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
-    "company": "Altara",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 34.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
     "company": "Anvil Robotics",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
     "marketGravity": 4,
     "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 34.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "Atalanta",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 34.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "BootLoop",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 34.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "Callosum",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 34.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "Eon Systems",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 34.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "Flapping Airplanes",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 34.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "General Intuition",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 34.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "Humans&",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 34.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "Vinci",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 5,
     "govTraction": 2,
     "composite": 34.0,
     "tier": "early",
@@ -10716,7 +11064,7 @@
     "note": "Capital efficient. Composite: 34/100."
   },
   {
-    "company": "Farcast",
+    "company": "EdgeRunner AI",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -10728,31 +11076,19 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
-    "company": "Auriga Space",
+    "company": "Terra Industries",
     "techMoat": 3,
-    "momentum": 3,
+    "momentum": 4,
     "teamPedigree": 5,
     "marketGravity": 2,
-    "capitalEfficiency": 4,
-    "govTraction": 4,
-    "composite": 33.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "Phaidra",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4.5,
+    "capitalEfficiency": 3.5,
     "govTraction": 2,
     "composite": 33.5,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
-    "company": "Epsilon3",
+    "company": "Vector Defense",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -10764,19 +11100,7 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
-    "company": "Sift Stack",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 33.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "Onebrief",
+    "company": "HawkEye 360",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -10788,43 +11112,7 @@
     "note": "Capital efficient. Composite: 34/100."
   },
   {
-    "company": "Black Forest Labs",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 33.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "Cartesia",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 33.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "Shine Technologies",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 6,
-    "govTraction": 2,
-    "composite": 33.5,
-    "tier": "early",
-    "note": "Capital efficient. Composite: 34/100."
-  },
-  {
-    "company": "Ampaire",
+    "company": "NODA AI",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -10836,7 +11124,7 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
-    "company": "Privateer",
+    "company": "Integrate",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -10848,60 +11136,12 @@
     "note": "Notable team pedigree. Composite: 34/100."
   },
   {
-    "company": "Solestial",
+    "company": "Ursa Space Systems",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 4,
-    "govTraction": 4,
-    "composite": 33.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "Quindar",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 4,
-    "govTraction": 4,
-    "composite": 33.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "Beacon AI",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 4,
-    "govTraction": 4,
-    "composite": 33.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 34/100."
-  },
-  {
-    "company": "Resilience",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 5.5,
-    "govTraction": 2,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Capital efficient. Composite: 33/100."
-  },
-  {
-    "company": "Reditus Space",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 3.5,
+    "marketGravity": 1,
+    "capitalEfficiency": 5,
     "govTraction": 4,
     "composite": 33.0,
     "tier": "early",
@@ -10920,61 +11160,13 @@
     "note": "Notable team pedigree. Composite: 33/100."
   },
   {
-    "company": "Kodiak AI",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 7,
-    "govTraction": 2,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Capital efficient. Composite: 33/100."
-  },
-  {
-    "company": "BRINC Drones",
+    "company": "CesiumAstro",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
     "marketGravity": 1,
     "capitalEfficiency": 5,
     "govTraction": 4,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "Echodyne",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 5,
-    "govTraction": 4,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "Wispr AI",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "Alpha School",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
     "composite": 33.0,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 33/100."
@@ -10992,127 +11184,7 @@
     "note": "Notable team pedigree. Composite: 33/100."
   },
   {
-    "company": "ThinkOrbital",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 3.5,
-    "govTraction": 4,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "Viken Detection",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 5,
-    "govTraction": 4,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "World Labs",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "CuspAI",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "Atmo",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "Reflection AI",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "Interlune",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 3.5,
-    "govTraction": 4,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "Ethos Space",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 3.5,
-    "govTraction": 4,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "Archetype AI",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "TrustPoint",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 3.5,
-    "govTraction": 4,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "Shift5",
+    "company": "Xona Space Systems",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11136,7 +11208,7 @@
     "note": "Notable team pedigree. Composite: 33/100."
   },
   {
-    "company": "Vantage Robotics",
+    "company": "Orbital Sidekick",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11148,7 +11220,7 @@
     "note": "Notable team pedigree. Composite: 33/100."
   },
   {
-    "company": "Argo Space",
+    "company": "Swarmbotics AI",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11160,88 +11232,64 @@
     "note": "Notable team pedigree. Composite: 33/100."
   },
   {
-    "company": "Kayhan Space",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 3.5,
-    "govTraction": 4,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "Cognitive Space",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 3.5,
-    "govTraction": 4,
-    "composite": 33.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 33/100."
-  },
-  {
-    "company": "Chai Discovery",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 32.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
-    "company": "Teradar",
+    "company": "Specter Aerospace",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
     "marketGravity": 1,
-    "capitalEfficiency": 4.5,
+    "capitalEfficiency": 5,
     "govTraction": 4,
-    "composite": 32.5,
+    "composite": 33.0,
     "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
+    "note": "Notable team pedigree. Composite: 33/100."
   },
   {
-    "company": "Blackstar",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 32.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
-    "company": "Besxar Space Industries",
+    "company": "Pryzm",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
     "marketGravity": 2,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 32.5,
+    "capitalEfficiency": 3.5,
+    "govTraction": 4,
+    "composite": 33.0,
     "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
+    "note": "Notable team pedigree. Composite: 33/100."
   },
   {
-    "company": "Twenty",
+    "company": "Gambit",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 3.5,
+    "govTraction": 4,
+    "composite": 33.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 33/100."
+  },
+  {
+    "company": "Ghost Robotics",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 3.5,
+    "govTraction": 4,
+    "composite": 33.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 33/100."
+  },
+  {
+    "company": "EraDrive",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
     "marketGravity": 1,
-    "capitalEfficiency": 4.5,
+    "capitalEfficiency": 5,
     "govTraction": 4,
-    "composite": 32.5,
+    "composite": 33.0,
     "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
+    "note": "Notable team pedigree. Composite: 33/100."
   },
   {
     "company": "Velaura AI",
@@ -11256,19 +11304,7 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Performance Drone Works",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 4.5,
-    "govTraction": 4,
-    "composite": 32.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
-    "company": "Loft Orbital",
+    "company": "BlackSea Technologies",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11280,55 +11316,7 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Code Metal",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 4.5,
-    "govTraction": 4,
-    "composite": 32.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
-    "company": "Heaviside",
-    "techMoat": 3,
-    "momentum": 4,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 32.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
-    "company": "Periodic Labs",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 32.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
-    "company": "Anello Photonics",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 4.5,
-    "govTraction": 4,
-    "composite": 32.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
-    "company": "Phantom Space",
+    "company": "Cape",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11340,7 +11328,19 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Blue Energy",
+    "company": "Govini",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 32.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
+    "company": "Perennial Autonomy",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11400,18 +11400,6 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Wisk Aero",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 32.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
     "company": "Enfabrica",
     "techMoat": 3,
     "momentum": 3,
@@ -11436,30 +11424,6 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Loyal",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 32.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
-    "company": "Ohalo Genetics",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 32.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
     "company": "Runpod",
     "techMoat": 3,
     "momentum": 3,
@@ -11472,7 +11436,7 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Modular Genetics",
+    "company": "Armadin",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11484,7 +11448,7 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Azora",
+    "company": "Askari Defense",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11496,7 +11460,7 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Becoming",
+    "company": "Atropos",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11508,7 +11472,7 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Dispatch Space",
+    "company": "Dispatcher",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11520,7 +11484,7 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "GRU",
+    "company": "Kestrel",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11532,7 +11496,7 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Mendra",
+    "company": "Perseus Defense",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11544,7 +11508,7 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Rendezvous Robotics",
+    "company": "Revere",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11568,13 +11532,37 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "EdgeRunner AI",
+    "company": "Farcast",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
     "marketGravity": 1,
     "capitalEfficiency": 4,
     "govTraction": 4,
+    "composite": 32.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
+    "company": "Auriga Space",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 4,
+    "govTraction": 4,
+    "composite": 32.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
+    "company": "Arena AI",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
     "composite": 32.0,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 32/100."
@@ -11604,12 +11592,24 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Terra Industries",
+    "company": "Epsilon3",
     "techMoat": 3,
-    "momentum": 4,
+    "momentum": 3,
     "teamPedigree": 5,
     "marketGravity": 1,
-    "capitalEfficiency": 3.5,
+    "capitalEfficiency": 4,
+    "govTraction": 4,
+    "composite": 32.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
+    "company": "Deep Sentinel",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 4.5,
     "govTraction": 2,
     "composite": 32.0,
     "tier": "early",
@@ -11640,40 +11640,40 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Vector Defense",
+    "company": "X-Bow Systems",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 4,
-    "govTraction": 4,
+    "marketGravity": 2,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
     "composite": 32.0,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "NODA AI",
+    "company": "TurbineOne",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 4,
-    "govTraction": 4,
+    "marketGravity": 2,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
     "composite": 32.0,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Integrate",
+    "company": "Shine Technologies",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
     "marketGravity": 1,
-    "capitalEfficiency": 4,
-    "govTraction": 4,
+    "capitalEfficiency": 6,
+    "govTraction": 2,
     "composite": 32.0,
     "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
+    "note": "Capital efficient. Composite: 32/100."
   },
   {
     "company": "SandboxAQ",
@@ -11688,43 +11688,7 @@
     "note": "Capital efficient. Composite: 32/100."
   },
   {
-    "company": "ForSight Robotics",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 32.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
-    "company": "Paradromics",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 32.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
     "company": "Somos",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 32.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
-    "company": "Cradle",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11748,25 +11712,37 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "ASI",
+    "company": "Ampaire",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
+    "marketGravity": 1,
+    "capitalEfficiency": 4,
+    "govTraction": 4,
     "composite": 32.0,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Urban Sky",
+    "company": "Privateer",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
+    "marketGravity": 1,
+    "capitalEfficiency": 4,
+    "govTraction": 4,
+    "composite": 32.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
+    "company": "Solestial",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 4,
+    "govTraction": 4,
     "composite": 32.0,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 32/100."
@@ -11784,6 +11760,42 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
+    "company": "Toka",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
+    "composite": 32.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
+    "company": "Quindar",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 4,
+    "govTraction": 4,
+    "composite": 32.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
+    "company": "Beacon AI",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 4,
+    "govTraction": 4,
+    "composite": 32.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
     "company": "Eridu",
     "techMoat": 3,
     "momentum": 3,
@@ -11796,7 +11808,31 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Cellino",
+    "company": "Resilience",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 5.5,
+    "govTraction": 2,
+    "composite": 31.5,
+    "tier": "early",
+    "note": "Capital efficient. Composite: 32/100."
+  },
+  {
+    "company": "Reditus Space",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 3.5,
+    "govTraction": 4,
+    "composite": 31.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
+    "company": "Smack Technologies",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11808,7 +11844,7 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Until",
+    "company": "Dominion Dynamics",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11844,6 +11880,18 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
+    "company": "ThinkOrbital",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 3.5,
+    "govTraction": 4,
+    "composite": 31.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
     "company": "Mesh Optical Technologies",
     "techMoat": 3,
     "momentum": 3,
@@ -11868,7 +11916,7 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Citra Space Corporation",
+    "company": "Kelluu",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11880,7 +11928,7 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Star Catcher",
+    "company": "Vermeer",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11892,7 +11940,31 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Inertia Enterprises",
+    "company": "Interlune",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 3.5,
+    "govTraction": 4,
+    "composite": 31.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
+    "company": "Ethos Space",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 3.5,
+    "govTraction": 4,
+    "composite": 31.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
+    "company": "Singularity",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11904,25 +11976,13 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Portal Biotech",
+    "company": "TrustPoint",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 31.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
-    "company": "Nudge",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
+    "marketGravity": 1,
+    "capitalEfficiency": 3.5,
+    "govTraction": 4,
     "composite": 31.5,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 32/100."
@@ -11952,30 +12012,6 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "H3X",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 31.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
-    "company": "Nuview",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 31.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
     "company": "Verne",
     "techMoat": 3,
     "momentum": 3,
@@ -11988,7 +12024,7 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Swarmbotics AI",
+    "company": "Argo Space",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12000,7 +12036,7 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Pryzm",
+    "company": "Kayhan Space",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12012,31 +12048,7 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "General Biological",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 31.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
-    "company": "Gambit",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 4,
-    "composite": 31.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 32/100."
-  },
-  {
-    "company": "Ghost Robotics",
+    "company": "Cognitive Space",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12084,7 +12096,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Applied Atomics",
+    "company": "Aventra",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12096,7 +12108,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Slate Auto",
+    "company": "Chai Discovery",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12120,48 +12132,12 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Beyond Reach Labs",
+    "company": "Besxar Space Industries",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 31.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 31/100."
-  },
-  {
-    "company": "Lux Aeterna",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 31.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 31/100."
-  },
-  {
-    "company": "Spaceium",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 31.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 31/100."
-  },
-  {
-    "company": "PAVE Space",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 3.5,
+    "marketGravity": 1,
+    "capitalEfficiency": 5,
     "govTraction": 2,
     "composite": 31.0,
     "tier": "early",
@@ -12169,6 +12145,18 @@
   },
   {
     "company": "fab2",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 31.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 31/100."
+  },
+  {
+    "company": "Lodge Systems",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12204,7 +12192,19 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Project Omega",
+    "company": "Loft Orbital",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 31.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 31/100."
+  },
+  {
+    "company": "9 Mothers",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12228,7 +12228,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Zephyr Fusion",
+    "company": "Bohr Systems",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12240,19 +12240,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "BlackSea Technologies",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 31.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 31/100."
-  },
-  {
-    "company": "Orbital Operations",
+    "company": "Union",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12264,7 +12252,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Orbital Inc.",
+    "company": "Swan",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12276,19 +12264,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Cape",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 31.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 31/100."
-  },
-  {
-    "company": "Maritime Fusion",
+    "company": "Volund Manufacturing",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12300,19 +12276,55 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Govini",
+    "company": "DEFCON AI",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 3.5,
     "govTraction": 2,
     "composite": 31.0,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Perennial Autonomy",
+    "company": "Breaker Industries",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 31.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 31/100."
+  },
+  {
+    "company": "Gallatin AI",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 31.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 31/100."
+  },
+  {
+    "company": "Onodrim Industries",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 31.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 31/100."
+  },
+  {
+    "company": "Phantom Space",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12336,7 +12348,43 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Eclipse Space",
+    "company": "Traysar",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 31.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 31/100."
+  },
+  {
+    "company": "Blue Energy",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 31.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 31/100."
+  },
+  {
+    "company": "UFORCE",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 31.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 31/100."
+  },
+  {
+    "company": "Skapion",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12349,6 +12397,18 @@
   },
   {
     "company": "Itera",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 31.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 31/100."
+  },
+  {
+    "company": "Flamefront Propulsion",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12384,7 +12444,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Gatik",
+    "company": "Wisk Aero",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12396,12 +12456,24 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Merge Labs",
+    "company": "Loyal",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 2,
-    "capitalEfficiency": 3.5,
+    "marketGravity": 1,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 31.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 31/100."
+  },
+  {
+    "company": "Ohalo Genetics",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 5,
     "govTraction": 2,
     "composite": 31.0,
     "tier": "early",
@@ -12432,12 +12504,12 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "TerraDepth",
+    "company": "Aslan",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 3.5,
     "govTraction": 2,
     "composite": 31.0,
     "tier": "early",
@@ -12504,7 +12576,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Dark",
+    "company": "Wraithwatch",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12516,7 +12588,19 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Danti",
+    "company": "Modular Genetics",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 31.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 31/100."
+  },
+  {
+    "company": "Airbase",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12528,7 +12612,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Asymm",
+    "company": "Guardian RF",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12540,7 +12624,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Ephemeris Net",
+    "company": "Bravo Ordnance",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12552,7 +12636,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Hextronics",
+    "company": "Rebel Space",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12564,7 +12648,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "The Spaceport Company",
+    "company": "Valstad",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12600,7 +12684,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Hedral",
+    "company": "Notus Autonomous Systems",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12612,7 +12696,19 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Aleph Surgical",
+    "company": "Airrow",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 31.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 31/100."
+  },
+  {
+    "company": "Hedral",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12636,7 +12732,43 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Armadin",
+    "company": "Maritime Operations Group",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 31.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 31/100."
+  },
+  {
+    "company": "Victus AI",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 31.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 31/100."
+  },
+  {
+    "company": "Arxlight",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 31.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 31/100."
+  },
+  {
+    "company": "Azora",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12648,7 +12780,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Askari Defense",
+    "company": "Becoming",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12660,7 +12792,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Atropos",
+    "company": "Dispatch Space",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12672,7 +12804,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Dispatcher",
+    "company": "GRU",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12684,31 +12816,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Float Cargo",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 31.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 31/100."
-  },
-  {
-    "company": "Humble Robotics",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 31.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 31/100."
-  },
-  {
-    "company": "Kestrel",
+    "company": "Mendra",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12732,19 +12840,7 @@
     "note": "Notable team pedigree. Composite: 31/100."
   },
   {
-    "company": "Perseus Defense",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 31.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 31/100."
-  },
-  {
-    "company": "Revere",
+    "company": "Rendezvous Robotics",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12816,30 +12912,6 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Arena AI",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 30.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Deep Sentinel",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 30.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
     "company": "LuxWall",
     "techMoat": 3,
     "momentum": 3,
@@ -12876,7 +12948,7 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "JetZero",
+    "company": "ForSight Robotics",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12888,31 +12960,7 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "X-Bow Systems",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 30.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Electra.aero",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 4.5,
-    "govTraction": 2,
-    "composite": 30.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "TurbineOne",
+    "company": "Paradromics",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -12948,6 +12996,18 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
+    "company": "Cradle",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
+    "composite": 30.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
     "company": "Gridware",
     "techMoat": 3,
     "momentum": 3,
@@ -12972,7 +13032,19 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Toka",
+    "company": "ASI",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 4.5,
+    "govTraction": 2,
+    "composite": 30.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
+    "company": "Urban Sky",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -13020,6 +13092,18 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
+    "company": "Cellino",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 30.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
     "company": "Critical Loop",
     "techMoat": 3,
     "momentum": 3,
@@ -13044,30 +13128,6 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Smack Technologies",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 30.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Dominion Dynamics",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 30.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
     "company": "Diraq",
     "techMoat": 3,
     "momentum": 3,
@@ -13081,6 +13141,18 @@
   },
   {
     "company": "Summit Lithium Technologies",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 30.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
+    "company": "Until",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -13152,7 +13224,31 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Kelluu",
+    "company": "Citra Space Corporation",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 30.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
+    "company": "Star Catcher",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 30.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
+    "company": "Inertia Enterprises",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -13188,18 +13284,6 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Vermeer",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 30.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
     "company": "DG Matrix",
     "techMoat": 3,
     "momentum": 3,
@@ -13224,7 +13308,19 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Singularity",
+    "company": "Portal Biotech",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 30.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
+    "company": "Nudge",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -13332,7 +13428,31 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
+    "company": "H3X",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 30.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
     "company": "Texture Energy",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 30.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
+    "company": "Nuview",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -13356,7 +13476,31 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
+    "company": "General Biological",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 30.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
     "company": "Critical Energy",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 29.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
+    "company": "Applied Atomics",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -13416,18 +13560,6 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Aventra",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
     "company": "Impossible Metals",
     "techMoat": 3,
     "momentum": 3,
@@ -13440,7 +13572,55 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
+    "company": "Beyond Reach Labs",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 29.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
+    "company": "Lux Aeterna",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 29.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
+    "company": "Spaceium",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 29.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
     "company": "Peak Quantum",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 29.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
+    "company": "PAVE Space",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -13500,19 +13680,7 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Lodge Systems",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "9 Mothers",
+    "company": "Project Omega",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -13536,18 +13704,6 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Bohr Systems",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
     "company": "Western Chemicals",
     "techMoat": 3,
     "momentum": 3,
@@ -13560,31 +13716,7 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Union",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Swan",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Volund Manufacturing",
+    "company": "Zephyr Fusion",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -13620,7 +13752,7 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "DEFCON AI",
+    "company": "Orbital Operations",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -13632,7 +13764,7 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Breaker Industries",
+    "company": "Orbital Inc.",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -13644,7 +13776,7 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Gallatin AI",
+    "company": "Maritime Fusion",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -13656,43 +13788,7 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Onodrim Industries",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Traysar",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "UFORCE",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Skapion",
+    "company": "Eclipse Space",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -13716,19 +13812,7 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Flamefront Propulsion",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "EarthGrid",
+    "company": "Merge Labs",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -13741,18 +13825,6 @@
   },
   {
     "company": "Hades Mining",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Aslan",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -13788,43 +13860,31 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
+    "company": "Dark",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 29.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
+    "company": "Danti",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 29.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
     "company": "ElectroFlow Technologies",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Olympian Motors",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Infinite Machine",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Wraithwatch",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -13872,6 +13932,18 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
+    "company": "Asymm",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 29.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
     "company": "VVater",
     "techMoat": 3,
     "momentum": 3,
@@ -13897,30 +13969,6 @@
   },
   {
     "company": "Lightcell",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Airbase",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Guardian RF",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -13968,18 +14016,6 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Bravo Ordnance",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
     "company": "Breen Energy",
     "techMoat": 3,
     "momentum": 3,
@@ -13992,19 +14028,7 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Rebel Space",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Valstad",
+    "company": "Ephemeris Net",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -14017,6 +14041,30 @@
   },
   {
     "company": "Determinant Materials",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 29.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
+    "company": "Hextronics",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 1,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 29.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
+    "company": "The Spaceport Company",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -14064,18 +14112,6 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Notus Autonomous Systems",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
     "company": "Stratum AI",
     "techMoat": 3,
     "momentum": 3,
@@ -14088,7 +14124,7 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Airrow",
+    "company": "Aleph Surgical",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -14112,43 +14148,7 @@
     "note": "Notable team pedigree. Composite: 30/100."
   },
   {
-    "company": "Maritime Operations Group",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Victus AI",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
     "company": "Firma Power",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 3.5,
-    "govTraction": 2,
-    "composite": 29.5,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Arxlight",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,

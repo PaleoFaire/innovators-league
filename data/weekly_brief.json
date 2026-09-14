@@ -1,15 +1,15 @@
 {
-  "date": "2026-09-13",
-  "display_date": "Sep 13, 2026",
-  "generated_at": "2026-09-13T14:16:52.267118+00:00",
-  "cutoff": "2026-09-06T14:16:52.267118+00:00",
+  "date": "2026-09-14",
+  "display_date": "Sep 14, 2026",
+  "generated_at": "2026-09-14T16:15:11.606503+00:00",
+  "cutoff": "2026-09-07T16:15:11.606503+00:00",
   "section_count": 7,
-  "total_items": 246,
+  "total_items": 220,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 28,
+      "count": 13,
       "items": [
         {
           "company": "Slate Auto",
@@ -149,19 +149,13 @@
     {
       "title": "Contract Opportunities",
       "icon": "\ud83c\udfe2",
-      "count": 3,
+      "count": 2,
       "items": [
         {
           "title": "BPA CALL FOR ELECTRONIC HEALTH RECORD AND AXIOM",
           "agency": "",
           "value": "",
           "date": "2026-09-30"
-        },
-        {
-          "title": "SKYDIO, LNC BLANKET PURCHASE AGREEMENT CALL ORDER FOR THE PURCHASE OF UNMANNED AERIAL SYSTEM (UAS)",
-          "agency": "",
-          "value": "",
-          "date": "2026-09-07"
         },
         {
           "title": "MSCP SATELLITE IMAGERY ORDER 2026",
@@ -174,7 +168,7 @@
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 45,
+      "count": 30,
       "items": [
         {
           "title": "Review of the Commission's Assessment and Collection of Regulatory Fees for Fiscal Year 2026",
@@ -223,10 +217,11 @@
           "date": "2026-09-08"
         },
         {
-          "title": "Sunshine Act Meetings",
-          "type": "Notice",
+          "title": "Use of Certain Restricted Category Aircraft for the Transport of Firefighters for Wildfire Suppression",
+          "type": "Proposed Rule",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Transportation Department",
+            "Federal Aviation Administration"
           ],
           "significant": false,
           "date": "2026-09-14"
@@ -236,21 +231,21 @@
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 21,
+      "count": 20,
       "items": [
-        {
-          "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
-          "source": "TechCrunch",
-          "company": "OpenAI",
-          "impact": "high",
-          "type": "ipo"
-        },
         {
           "title": "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round",
           "source": "Crunchbase News",
           "company": "Mistral AI",
           "impact": "high",
           "type": "funding"
+        },
+        {
+          "title": "Insight Partners&#8217; Deven Parekh on why the firm is diversifying while everyone else bets the fa",
+          "source": "TechCrunch",
+          "company": "Anthropic",
+          "impact": "low",
+          "type": "news"
         },
         {
           "title": "OpenAI\u2019s Sam Altman says it would be &#8216;ill-advised&#8217; to go public in 2026",
@@ -299,81 +294,65 @@
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 46,
+      "count": 52,
       "items": [
         {
-          "title": "A misalignment of AI in mathematics",
-          "score": 1199,
-          "comments": 1184,
+          "title": "Why is Google still serving dodgy ads?",
+          "score": 887,
+          "comments": 384,
           "companies": [
-            "Matic Robotics",
-            "OpenAI"
+            "Bear Robotics",
+            "Atomic Industries"
           ],
-          "url": "https://news.ycombinator.com/item?id=49662371"
+          "url": "https://news.ycombinator.com/item?id=49686445"
         },
         {
-          "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
-          "score": 935,
-          "comments": 584,
-          "companies": [
-            "OpenAI"
-          ],
-          "url": "https://news.ycombinator.com/item?id=49666735"
-        },
-        {
-          "title": "Ask HN: Can we please limit the AI news flood?",
-          "score": 836,
-          "comments": 387,
-          "companies": [
-            "Dust",
-            "Base Power",
-            "NetworkOcean",
-            "QuantumScape",
-            "FREYR Battery",
-            "Verkor",
-            "Arc Boats",
-            "Cuby",
-            "Swan",
-            "Avalanche Energy",
-            "Copenhagen Atomics"
-          ],
-          "url": "https://news.ycombinator.com/item?id=49657850"
-        },
-        {
-          "title": "IKEA made a mod for Skyrim [video]",
-          "score": 576,
-          "comments": 157,
+          "title": "LG says we're fake news [video]",
+          "score": 367,
+          "comments": 192,
           "companies": [
             "Runway"
           ],
-          "url": "https://news.ycombinator.com/item?id=49639647"
+          "url": "https://news.ycombinator.com/item?id=49676324"
         },
         {
-          "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'",
-          "score": 557,
-          "comments": 426,
+          "title": "Flock worker calls police on reporter filming public camera installation",
+          "score": 349,
+          "comments": 257,
           "companies": [
-            "Cape",
-            "Dust",
-            "Humane",
-            "ideaForge",
-            "Diode",
-            "QuantWare",
-            "Percepto",
-            "ElevenLabs",
-            "Quilter"
+            "Flock Safety"
           ],
-          "url": "https://news.ycombinator.com/item?id=49645480"
+          "url": "https://news.ycombinator.com/item?id=49683853"
         },
         {
-          "title": "The EPA is planning to scrap public review rules for data center pollution",
-          "score": 499,
-          "comments": 391,
+          "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+          "score": 311,
+          "comments": 233,
           "companies": [
-            "Rebellions",
-            "Astera Labs"
+            "Anthropic",
+            "OpenAI"
           ],
-          "url": "https://news.ycombinator.com/item?id=49662672"
+          "url": "https://news.ycombinator.com/item?id=49685991"
+        },
+        {
+          "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+          "score": 271,
+          "comments": 151,
+          "companies": [
+            "Databricks",
+            "Watershed",
+            "Ada"
+          ],
+          "url": "https://news.ycombinator.com/item?id=49676820"
+        },
+        {
+          "title": "Why is the x86 undefined instruction called ud2? Why 2?",
+          "score": 255,
+          "comments": 58,
+          "companies": [
+            "Photonic Inc"
+          ],
+          "url": "https://news.ycombinator.com/item?id=49683262"
         }
       ]
     },
@@ -383,37 +362,37 @@
       "count": 83,
       "items": [
         {
-          "title": "Roche\u2019s collaborator MediLink announces phase III data for Tam-Peli showing significantly improved overall survival in C",
+          "title": "Stewards Provides Update on Proposed PIXL and Envy Acquisitions",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Capgemini signe un accord d\u00e9finitif de vente de Capgemini Government Solutions",
+          "title": "Troilus Mining Corp. Added to VanEck Junior Gold Miners ETF (GDXJ)",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Capgemini signs a definitive agreement to sell Capgemini Government Solutions",
+          "title": "Corporation mini\u00e8re Troilus ajout\u00e9e au VanEck Junior Gold Miners ETF (GDXJ)",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Computer Modelling Group Announces Annual General Meeting Voting Results",
+          "title": "Marimekko to start acquiring the company\u2019s own shares",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Skyworks Announces Extension of Expiration Date of Exchange Offers for Qorvo\u2019s Senior Notes due 2029 and 2031",
+          "title": "Marimekko aloittaa omien osakkeiden hankinnan",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Axe Compute Announces Inducement Grant Under Nasdaq Listing Rule 5635(c)(4)",
+          "title": "Kinetic Achieves 40,000 Fiber Homes in Sugar Land",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-09-13-efc8fdfa561e"
+  "brief_id": "brief-2026-09-14-be126e693849"
 }
