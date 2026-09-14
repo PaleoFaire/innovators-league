@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-09-13 12:35:18 UTC",
+    "generated_at": "2026-09-14 13:47:47 UTC",
     "total_targets": 116,
-    "with_excerpts": 106,
+    "with_excerpts": 102,
     "sources": [
       "none",
       "sec_edgar",
@@ -507,11 +507,11 @@
       "ticker": "AVGO",
       "company": "Broadcom",
       "quarter": "2026-Q3",
-      "date": "2026-09-09",
+      "date": "2026-06-09",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/0001730168-26-000080-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/0001730168-26-000054-index.htm",
       "source": "sec_edgar"
     },
     {
@@ -627,13 +627,11 @@
     {
       "ticker": "ADI",
       "company": "Analog Devices",
-      "quarter": "2026-Q3",
-      "date": "2026-08-19",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000073/0000006281-26-000073-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investor.analog.com/",
+      "source": "none"
     },
     {
       "ticker": "ORCL",
@@ -724,13 +722,11 @@
     {
       "ticker": "ROK",
       "company": "Rockwell Automation",
-      "quarter": "2026-Q3",
-      "date": "2026-08-04",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000030/0001024478-26-000030-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.rockwellautomation.com/en-us/company/investor-relations.html",
+      "source": "none"
     },
     {
       "ticker": "EMR",
@@ -845,13 +841,11 @@
     {
       "ticker": "DM",
       "company": "Desktop Metal",
-      "quarter": "2026-Q3",
-      "date": "2024-10-31",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1754820/000155837024013999/0001558370-24-013999-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://ir.desktopmetal.com/",
+      "source": "none"
     },
     {
       "ticker": "RIVN",
@@ -1183,13 +1177,11 @@
     {
       "ticker": "ILMN",
       "company": "Illumina",
-      "quarter": "2026-Q3",
-      "date": "2026-07-31",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000160/0001110803-26-000160-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.illumina.com/company/about-us/investor-relations.html",
+      "source": "none"
     },
     {
       "ticker": "TXG",

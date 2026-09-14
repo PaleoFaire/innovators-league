@@ -252,15 +252,6 @@
     "trackedCompany": "SpaceX"
   },
   {
-    "date": "2026-11-19",
-    "vehicle": "Soyuz 2.1a/Fregat-M | MKA Kinosputnik, KOEN and others",
-    "payload": "MKA Kinosputnik, KOEN and others",
-    "pad": "Cosmodrome Site 1S, Vostochny Cosmodrome, Siberia, Russian Federation",
-    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/bff2fc91-eddd-4dfc-af26-ac0674cfab4d/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-11-24",
     "vehicle": "Soyuz 2.1b | Progress MS-36 (97P)",
     "payload": "Progress MS-36 (97P)",
@@ -447,6 +438,15 @@
     "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
     "provider": "Isar Aerospace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/60f4ba6c-4201-4727-94aa-0015a5a0023f/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Spectrum | \u03a3YNDEO-3",
+    "payload": "\u03a3YNDEO-3",
+    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
+    "provider": "Isar Aerospace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b48e32c5-3776-4684-a956-5ea4df032e90/?format=json",
     "trackedCompany": null
   }
 ]

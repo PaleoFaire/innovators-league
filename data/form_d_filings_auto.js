@@ -1,9 +1,9 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public) — full-text search + daily index
-// Last updated: 2026-09-13 12:39:07 UTC
+// Last updated: 2026-09-14 13:55:58 UTC
 // Total: 3 filings across 3 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-09-13T12:39:07.817021+00:00",
+  "generated_at": "2026-09-14T13:55:58.997681+00:00",
   "source": "SEC EDGAR Form D (full-text search + daily index)",
   "lookback_days": 60,
   "total_filings": 3,
