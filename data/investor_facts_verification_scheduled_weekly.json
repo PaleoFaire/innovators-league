@@ -1,19 +1,21 @@
 {
-  "generatedAt": "2026-09-07T13:15:18+00:00",
+  "generatedAt": "2026-09-14T13:36:00+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_weekly.json",
   "cohortSize": 12,
   "newExtractionsThisRun": 12,
   "summary": {
-    "cleared": 8,
-    "changesProposed": 4,
+    "cleared": 10,
+    "changesProposed": 2,
     "unverifiable": 0
   },
   "cleared": [
     "Cantos Ventures",
     "DCVC",
     "Eclipse Ventures",
+    "General Catalyst",
     "Harpoon Ventures",
+    "Kleiner Perkins Caufield & Byers, LLC",
     "Lightspeed Venture Partners",
     "Point72 Ventures",
     "Shield Capital",
@@ -25,7 +27,7 @@
       "current": {
         "name": "Engine Ventures",
         "shortName": "Engine",
-        "aum": "$1B+",
+        "aum": "$1.4B",
         "flagshipFund": "Engine Ventures Fund III",
         "founded": 2023,
         "hq": "Cambridge, Massachusetts",
@@ -34,14 +36,11 @@
       "verified": {
         "name": "Engine Ventures",
         "short_name": "Engine",
-        "aum": "$1.4B",
+        "aum": null,
         "flagship_fund": null,
         "founded_year": 2023,
         "hq": "Cambridge, Massachusetts",
-        "key_partners": [
-          "Katie Rae",
-          "Israel Ruiz"
-        ],
+        "key_partners": null,
         "sector_focus": [
           "Advanced Computing & Quantum Systems",
           "Advanced Engineering & Manufacturing",
@@ -56,79 +55,54 @@
           "Semiconductors, Photonics & Next-Generation Hardware",
           "Space"
         ],
-        "thesis": "Engine Ventures invests in early-stage Tough Tech founders by providing capital, operational expertise, and a powerful academic, commercial, and governmental network to build and scale companies unlocking massive opportunities in foundational industries. The firm backs companies rebuilding the systems the world depends on by solving difficult problems across energy, materials, infrastructure, computing, human health, and related sectors.",
-        "website": "https://engineventures.com",
+        "thesis": "Engine Ventures is a venture capital firm focused on early-stage Tough Tech companies that solve the world's most challenging problems through transformational science and engineering. The firm invests in companies developing hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+        "website": "https://engine.xyz",
         "sources_per_field": {
           "name": [
             0,
-            1
+            1,
+            2,
+            3
           ],
           "short_name": [
             0
-          ],
-          "aum": [
-            1
           ],
           "founded_year": [
             3
           ],
           "hq": [
-            1,
             3
-          ],
-          "key_partners": [
-            0,
-            1
           ],
           "sector_focus": [
             2
           ],
           "thesis": [
-            1
+            0,
+            1,
+            3
           ],
           "website": [
-            0
+            0,
+            1,
+            2
           ]
         },
-        "notes": "Engine Ventures is the rebranded venture capital entity that separated from The Engine nonprofit incubator in 2023. The Engine nonprofit (founded 2016) continues to operate as a separate 501(c)(3) organization. Katie Rae is CEO & Managing Partner; Israel Ruiz is President & General Partner."
+        "notes": "Engine Ventures spun out as a separate investment firm from The Engine nonprofit incubator in 2023. The Engine is a nonprofit organization founded by MIT in 2016. Sources 4 and 5 are news articles unrelated to Engine Ventures and were not used for verification."
       },
       "changes": [
         {
-          "field": "aum",
-          "current": "$1B+",
-          "verified": "$1.4B",
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "keyPartners",
-          "current": [
-            "Katie Rae",
-            "Reed Sturtevant"
-          ],
-          "verified": [
-            "Katie Rae",
-            "Israel Ruiz"
-          ],
-          "sources": [
-            0,
-            1
-          ]
-        },
-        {
           "field": "sectorFocus",
           "current": [
-            "Applied AI & ML",
-            "Computing",
-            "Mobility",
-            "Autonomous Systems / Robotics",
-            "Energy",
-            "Natural Resources",
-            "Biotech / Life Sciences",
-            "Food / Agriculture",
-            "Quantum Computing",
-            "Carbon Capture / CCUS"
+            "Advanced Computing & Quantum Systems",
+            "Advanced Engineering & Manufacturing",
+            "Advanced Materials & Critical Minerals",
+            "AI-Enabled Physical Systems",
+            "Artificial Intelligence & Deep Software",
+            "Biotech, Life Sciences & TechBio",
+            "Energy & Grid Technologies",
+            "Fuels & Chemicals",
+            "Infrastructure, Mobility & the Built Environment",
+            "Robotics & Industrial Automation"
           ],
           "verified": [
             "Advanced Computing & Quantum Systems",
@@ -150,10 +124,12 @@
         },
         {
           "field": "thesis",
-          "current": "Engine Ventures invests in early-stage Tough Tech companies developing hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
-          "verified": "Engine Ventures invests in early-stage Tough Tech founders by providing capital, operational expertise, and a powerful academic, commercial, and governmental network to build and scale companies unlocking massive opportunities in foundational industries. The firm backs companies rebuilding the systems the world depends on by solving difficult problems across energy, materials, infrastructure, computing, human health, and related sectors.",
+          "current": "Engine Ventures is a venture capital firm focused on early-stage Tough Tech companies. In 2023, Engine Ventures spun out as a separate investment firm from The Engine nonprofit incubator, focusing on companies solving the world's most challenging problems through transformational science and engineering.",
+          "verified": "Engine Ventures is a venture capital firm focused on early-stage Tough Tech companies that solve the world's most challenging problems through transformational science and engineering. The firm invests in companies developing hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
           "sources": [
-            1
+            0,
+            1,
+            3
           ]
         }
       ],
@@ -161,17 +137,17 @@
         {
           "idx": 0,
           "src": "firm_website",
-          "url": "https://engineventures.com"
+          "url": "https://engine.xyz"
         },
         {
           "idx": 1,
           "src": "firm/about",
-          "url": "https://engineventures.com/about"
+          "url": "https://engine.xyz/about"
         },
         {
           "idx": 2,
           "src": "firm/companies",
-          "url": "https://engineventures.com/companies"
+          "url": "https://engine.xyz/companies"
         },
         {
           "idx": 3,
@@ -180,179 +156,16 @@
         },
         {
           "idx": 4,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/09/spacex-huge-next-flight-and-150-days-to-change-the-world.html"
+        },
+        {
+          "idx": 5,
           "src": "news (Defense One)",
           "url": "https://www.defenseone.com/business/2026/09/back-life-how-shield-ais-future-unmanned-fighter-made-decades-old-tech-new-again/415821/"
         }
       ],
-      "notes": "Engine Ventures is the rebranded venture capital entity that separated from The Engine nonprofit incubator in 2023. The Engine nonprofit (founded 2016) continues to operate as a separate 501(c)(3) organization. Katie Rae is CEO & Managing Partner; Israel Ruiz is President & General Partner."
-    },
-    {
-      "name": "General Catalyst",
-      "current": {
-        "name": "General Catalyst",
-        "shortName": "GC",
-        "aum": "$43B+",
-        "flagshipFund": "General Catalyst Group XII, L.P.",
-        "founded": 2000,
-        "hq": "Cambridge, Massachusetts",
-        "website": "https://generalcatalyst.com"
-      },
-      "verified": {
-        "name": "General Catalyst",
-        "short_name": "GC",
-        "aum": "$43B+",
-        "flagship_fund": null,
-        "founded_year": 2000,
-        "hq": "Cambridge, Massachusetts",
-        "key_partners": [
-          "Hemant Taneja",
-          "Ken Chenault",
-          "Jeannette zu F\u00fcrstenberg"
-        ],
-        "sector_focus": null,
-        "thesis": "General Catalyst invests across seed, venture, and growth stages. The firm focuses on applying AI to transform critical institutions, particularly in healthcare and defense.",
-        "website": "https://generalcatalyst.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "short_name": [
-            1
-          ],
-          "aum": [
-            0,
-            1
-          ],
-          "flagship_fund": [],
-          "founded_year": [
-            1
-          ],
-          "hq": [
-            0,
-            1
-          ],
-          "key_partners": [
-            1
-          ],
-          "sector_focus": [],
-          "thesis": [
-            0,
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "In June 2024, General Catalyst acquired La Famiglia (German VC firm) and Venture Highway (India-based early-stage investor). In December 2025, agreed to acquire Janus Henderson for approximately $7.4 billion (increased to $8 billion in March 2026). In May 2025, launched \u00a330 million medical technology venture fund with UK NHS and Speedinvest. Founded by Joel Cutler and David Fialkow in 2000."
-      },
-      "changes": [
-        {
-          "field": "thesis",
-          "current": "General Catalyst invests across seed, venture, and growth stages. The firm focuses on transforming critical institutions with applied AI, particularly in healthcare and defense.",
-          "verified": "General Catalyst invests across seed, venture, and growth stages. The firm focuses on applying AI to transform critical institutions, particularly in healthcare and defense.",
-          "sources": [
-            0,
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://generalcatalyst.com"
-        },
-        {
-          "idx": 1,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_Catalyst"
-        }
-      ],
-      "notes": "In June 2024, General Catalyst acquired La Famiglia (German VC firm) and Venture Highway (India-based early-stage investor). In December 2025, agreed to acquire Janus Henderson for approximately $7.4 billion (increased to $8 billion in March 2026). In May 2025, launched \u00a330 million medical technology venture fund with UK NHS and Speedinvest. Founded by Joel Cutler and David Fialkow in 2000."
-    },
-    {
-      "name": "Kleiner Perkins Caufield & Byers, LLC",
-      "current": {
-        "name": "Kleiner Perkins Caufield & Byers, LLC",
-        "shortName": "KP",
-        "aum": "$21B+",
-        "flagshipFund": "KP22 ($1B early-stage) and Select growth funds ($2.5B)",
-        "founded": 1972,
-        "hq": "Menlo Park, California",
-        "website": "https://www.kleinerperkins.com"
-      },
-      "verified": {
-        "name": "Kleiner Perkins Caufield & Byers, LLC",
-        "short_name": "KP",
-        "aum": null,
-        "flagship_fund": null,
-        "founded_year": null,
-        "hq": null,
-        "key_partners": [
-          "John Doerr",
-          "Brook Byers",
-          "Leigh Marie Braswell",
-          "Josh Coyne",
-          "Ilya Fushman",
-          "Mamoon Hamid",
-          "Aditya Naganath",
-          "Aatish Nayak",
-          "Joubin Mirzadegan",
-          "Jesse King",
-          "Ted Schlein"
-        ],
-        "sector_focus": null,
-        "thesis": "Kleiner Perkins partners with founders to build iconic companies, investing from inception to IPO and beyond to maximize the potential of their ideas.",
-        "website": "https://www.kleinerperkins.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "short_name": [
-            0
-          ],
-          "key_partners": [
-            2
-          ],
-          "thesis": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Five decades of investment history confirmed in source [1]. Current team includes 11 Partners as of source [2]. John Doerr listed as Chairman, Brook Byers as Founder. Ted Schlein listed as 'Partner and Advisor'. AUM, flagship fund, founded year, and HQ location could not be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "thesis",
-          "current": "Kleiner Perkins partners with founders to build iconic companies, investing from inception to IPO and beyond.",
-          "verified": "Kleiner Perkins partners with founders to build iconic companies, investing from inception to IPO and beyond to maximize the potential of their ideas.",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "firm_website",
-          "url": "https://www.kleinerperkins.com"
-        },
-        {
-          "idx": 1,
-          "src": "firm/about",
-          "url": "https://www.kleinerperkins.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "firm/team",
-          "url": "https://www.kleinerperkins.com/team"
-        }
-      ],
-      "notes": "Five decades of investment history confirmed in source [1]. Current team includes 11 Partners as of source [2]. John Doerr listed as Chairman, Brook Byers as Founder. Ted Schlein listed as 'Partner and Advisor'. AUM, flagship fund, founded year, and HQ location could not be verified from provided sources."
+      "notes": "Engine Ventures spun out as a separate investment firm from The Engine nonprofit incubator in 2023. The Engine is a nonprofit organization founded by MIT in 2016. Sources 4 and 5 are news articles unrelated to Engine Ventures and were not used for verification."
     },
     {
       "name": "Y Combinator",
@@ -382,7 +195,7 @@
           "Nicolas Dessaigne"
         ],
         "sector_focus": null,
-        "thesis": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in startups accepted into four annual batches. Companies move to San Francisco for three months of intensive mentorship, office hours, and community support, culminating in Demo Day presentation to investors. Y Combinator and its alumni network continue supporting founders beyond the initial program.",
+        "thesis": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in startups selected four times per year. Founders move to San Francisco for three months of intensive mentorship, office hours, and community support, culminating in Demo Day where they present to investors.",
         "website": "https://www.ycombinator.com",
         "sources_per_field": {
           "name": [
@@ -400,6 +213,7 @@
             2
           ],
           "hq": [
+            0,
             2
           ],
           "key_partners": [
@@ -407,19 +221,21 @@
           ],
           "thesis": [
             0,
-            1
+            1,
+            2
           ]
         },
-        "notes": "Garry Tan became President and CEO in January 2023. Headquarters moved from Mountain View to San Francisco in spring 2023. YC has funded over 5,000 companies with over 100 unicorns."
+        "notes": "Garry Tan became President and CEO in January 2023 (source 2). Jared Friedman succeeded Michael Seibel as Managing Partner in March 2024 (source 2). Headquarters relocated from Mountain View to San Francisco in spring 2023 (source 2). No sector focus explicitly stated in sources; database entry claiming 'Hard Tech, Defense, Space, Robotics' cannot be verified."
       },
       "changes": [
         {
           "field": "thesis",
-          "current": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in a select group of startups accepted into four annual batches. The three-month intensive program provides office hours, mentorship, and community support. Companies are helped to achieve better products with more users and more options for raising money.",
-          "verified": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in startups accepted into four annual batches. Companies move to San Francisco for three months of intensive mentorship, office hours, and community support, culminating in Demo Day presentation to investors. Y Combinator and its alumni network continue supporting founders beyond the initial program.",
+          "current": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in startups accepted into four annual batches. Companies move to San Francisco for three months of intensive mentorship, office hours, and community support, culminating in Demo Day presentation to investors. Y Combinator and its alumni network continue supporting founders beyond the initial program.",
+          "verified": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in startups selected four times per year. Founders move to San Francisco for three months of intensive mentorship, office hours, and community support, culminating in Demo Day where they present to investors.",
           "sources": [
             0,
-            1
+            1,
+            2
           ]
         }
       ],
@@ -440,7 +256,7 @@
           "url": "https://en.wikipedia.org/wiki/Y_Combinator"
         }
       ],
-      "notes": "Garry Tan became President and CEO in January 2023. Headquarters moved from Mountain View to San Francisco in spring 2023. YC has funded over 5,000 companies with over 100 unicorns."
+      "notes": "Garry Tan became President and CEO in January 2023 (source 2). Jared Friedman succeeded Michael Seibel as Managing Partner in March 2024 (source 2). Headquarters relocated from Mountain View to San Francisco in spring 2023 (source 2). No sector focus explicitly stated in sources; database entry claiming 'Hard Tech, Defense, Space, Robotics' cannot be verified."
     }
   ],
   "unverifiable": []
