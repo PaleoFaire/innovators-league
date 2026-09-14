@@ -58881,27 +58881,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-14 10:31
-// Auto-generated real-time signals
-// Last updated: 2026-09-14
-// Auto-generated real-time signals
-// Last updated: 2026-09-14
+// Last updated: 2026-09-14 16:55
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "Insight Partners&#8217; Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Ant", source: "TechCrunch", time: "14h ago", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "OpenAI", headline: "OpenAI’s Sam Altman says it would be &#8216;ill-advised&#8217; to go public in 2026", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "Anthropic", headline: "Anthropic CEO outlines plan to slow AI development", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX Huge Next Flight and 150 Days to Change the World", source: "Next Big Future", time: "2d ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "xAI", headline: "xAI has quietly built a massive battery at its Memphis data center hub", source: "Canary Media", time: "2d ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "Monumental", headline: "One brick at a time: How Monumental uses robotics to build walls", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI&#8217;s feud with mathematicians is only escalating", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Cognition", headline: "The Week’s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week", source: "Crunchbase News", time: "2d ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return", source: "NASA Breaking News", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Saildrone", headline: "US refutes claims that Iran captured Saildrone USV", source: "Defense News", time: "2d ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "WOW! Tesla &#038; SpaceX’s Huge Unlocks—Grok 4.7 and AGI", source: "Next Big Future", time: "4d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", time: "4d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Vention", headline: "Vention opens Physical AI Lab for manufacturing in Montreal", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "OpenAI", headline: "The Download: OpenAI’s turning point for math and a battery record", source: "MIT Tech Review", time: "5d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Waymo", headline: "Waymo opens robotaxi service in Las Vegas", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Swarm Aero", headline: "Swarm Aero debuts Gamera drone in bid to succeed Reaper", source: "Breaking Defense", time: "3h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Insight Partners' Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Ant", source: "TechCrunch", time: "19h ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "OpenAI", headline: "OpenAI's Sam Altman says it would be 'ill-advised' to go public in 2026", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
+  { id: 6, type: "hire", company: "Anthropic", headline: "Anthropic CEO outlines plan to slow AI development", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX Huge Next Flight and 150 Days to Change the World", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "xAI", headline: "xAI has quietly built a massive battery at its Memphis data center hub", source: "Canary Media", time: "2d ago", impact: "low", unread: false },
+  { id: 9, type: "hire", company: "Monumental", headline: "One brick at a time: How Monumental uses robotics to build walls", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Cognition", headline: "The Week's 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week", source: "Crunchbase News", time: "2d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Saildrone", headline: "US refutes claims that Iran captured Saildrone USV", source: "Defense News", time: "3d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "WOW! Tesla &#038; SpaceX's Huge Unlocks'Grok 4.7 and AGI", source: "Next Big Future", time: "4d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", time: "4d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Vention", headline: "Vention opens Physical AI Lab for manufacturing in Montreal", source: "The Robot Report", time: "5d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T10:31:09.891166+00:00",
+  "generatedAt": "2026-09-14T16:55:16.308508+00:00",
   "date": "2026-09-14",
   "dateDisplay": "Monday, September 14, 2026",
   "sections": {
@@ -52,60 +52,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "AMD",
-        "company": "AMD",
-        "price": 516.13,
-        "changePercent": 13.15,
-        "change": 59.97
-      },
-      {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 8.61,
-        "changePercent": -11.69,
-        "change": -1.14
+        "price": 8.4,
+        "changePercent": -13.35,
+        "change": -1.29
       },
       {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 0.54,
-        "changePercent": -10.67,
-        "change": -0.06
-      },
-      {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 16.45,
-        "changePercent": -10.35,
-        "change": -1.9
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 269.63,
+        "changePercent": -13.13,
+        "change": -40.77
       },
       {
         "ticker": "OKLO",
         "company": "Oklo",
-        "price": 36.22,
-        "changePercent": -9.09,
-        "change": -3.62
+        "price": 36.3,
+        "changePercent": -12.04,
+        "change": -4.97
       },
       {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 59.01,
-        "changePercent": -8.74,
-        "change": -5.65
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 3.24,
+        "changePercent": -10.74,
+        "change": -0.39
       },
       {
-        "ticker": "PLTR",
-        "company": "Palantir",
-        "price": 167.23,
-        "changePercent": -8.38,
-        "change": -15.3
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 16.18,
+        "changePercent": -10.71,
+        "change": -1.94
       },
       {
         "ticker": "NNE",
         "company": "Nano Nuclear Energy",
-        "price": 16.41,
-        "changePercent": -7.03,
-        "change": -1.24
+        "price": 16.14,
+        "changePercent": -8.92,
+        "change": -1.58
+      },
+      {
+        "ticker": "TEM",
+        "company": "Tempus AI",
+        "price": 59.17,
+        "changePercent": -8.43,
+        "change": -5.45
+      },
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA",
+        "price": 211.28,
+        "changePercent": -8.28,
+        "change": -19.08
       }
     ],
     "regulatory": [
@@ -140,16 +140,16 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Draft NIH Biosafety Policy for Research Involving Biohazards",
+        "title": "Board of Visitors, United States Military Academy (USMA BoV)",
         "date": "2026-09-14",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18646"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18782"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Board of Visitors, United States Military Academy (USMA BoV)",
-        "date": "2026-09-14",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18782"
+        "title": "Information Collection: IAEA Design Information Questionnaire Forms",
+        "date": "2026-09-11",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18543"
       }
     ],
     "patents": [
@@ -196,6 +196,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "AMD +13.2%"
+    "topMover": "SMR -13.3%"
   }
 }
