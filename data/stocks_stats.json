@@ -3,113 +3,113 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -0.59,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 3.42,
       "count": 1
     },
     "space": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -2.27,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -4.89,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -3.1,
+      "avg_change": -4.3,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.62,
+      "avg_change": -19.48,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -2.76,
+      "avg_change": -4.8,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -1.05,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -5.91,
       "count": 3
     },
     "biotech": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -3.6,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -0.62,
       "count": 3
     },
     "transportation": {
-      "gainers": 2,
-      "losers": 0,
-      "avg_change": 1.07,
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -2.67,
       "count": 2
     },
     "chips": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -7.43,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -5.99,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "SATL",
-      "Satellogic",
-      4.53
-    ],
-    [
       "ASRHF",
       "Astroscale",
-      3.78
+      5.9
     ],
     [
-      "AMD",
-      "AMD",
-      3.32
+      "PLTR",
+      "Palantir",
+      3.42
     ],
     [
-      "AUR",
-      "Aurora Innovation",
-      1.89
+      "TEM",
+      "Tempus AI",
+      3.42
     ],
     [
-      "QBTS",
-      "D-Wave Quantum",
-      1.51
+      "EVTL",
+      "Vertical Aerospace",
+      0.2
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      0.12
     ]
   ],
   "topLosers": [
     [
-      "NNE",
-      "Nano Nuclear Energy",
-      -10.33
-    ],
-    [
-      "PL",
-      "Planet Labs",
-      -10.6
-    ],
-    [
-      "OKLO",
-      "Oklo",
-      -12.26
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      -12.27
+      "LUNR",
+      "Intuitive Machines",
+      -10.62
     ],
     [
       "ALAB",
       "Astera Labs",
-      -17.19
+      -11.15
+    ],
+    [
+      "OKLO",
+      "Oklo",
+      -16.4
+    ],
+    [
+      "NNE",
+      "Nano Nuclear Energy",
+      -18.53
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      -23.52
     ]
   ],
-  "lastUpdated": "2026-09-15 12:43:49"
+  "lastUpdated": "2026-09-15 17:42:48"
 }
