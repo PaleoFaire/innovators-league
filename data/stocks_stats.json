@@ -11,13 +11,13 @@
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -2.24,
+      "avg_change": -2.27,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -2.77,
+      "avg_change": -3.1,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.0,
+      "avg_change": -3.6,
       "count": 3
     },
     "transportation": {
@@ -111,5 +111,5 @@
       -17.19
     ]
   ],
-  "lastUpdated": "2026-09-15 06:13:06"
+  "lastUpdated": "2026-09-15 12:43:49"
 }
