@@ -58881,23 +58881,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-15 04:42
+// Last updated: 2026-09-15 09:58
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Waymo", headline: "Waymo Readying to Launch Robotaxis in Japan", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says", source: "TechCrunch", time: "7h ago", impact: "medium", unread: true },
-  { id: 3, type: "news", company: "Anthropic", headline: "Anthropic Fears RSI &#8211; What is RSI? What Specifically is It?", source: "Next Big Future", time: "8h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Waymo", headline: "Waymo opens robotaxi service in Las Vegas", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Swarm Aero", headline: "Swarm Aero debuts Gamera drone in bid to succeed Reaper", source: "Breaking Defense", time: "15h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "Insight Partners' Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Ant", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX Huge Next Flight and 150 Days to Change the World", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "xAI", headline: "xAI has quietly built a massive battery at its Memphis data center hub", source: "Canary Media", time: "3d ago", impact: "low", unread: false },
-  { id: 10, type: "hire", company: "Monumental", headline: "One brick at a time: How Monumental uses robotics to build walls", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Cognition", headline: "The Week's 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week", source: "Crunchbase News", time: "3d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Saildrone", headline: "US refutes claims that Iran captured Saildrone USV", source: "Defense News", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "5d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", time: "5d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Vast", headline: "NSA wants AI to help analysts sift vast data troves", source: "Defense One", time: "6d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "ICEYE", headline: "Iceye's global presence expands to address sovereign demand", source: "SpaceNews", time: "3h ago", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Waymo", headline: "Waymo Readying to Launch Robotaxis in Japan", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says", source: "TechCrunch", time: "13h ago", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic Fears RSI &#8211; What is RSI? What Specifically is It?", source: "Next Big Future", time: "13h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Waymo", headline: "Waymo opens robotaxi service in Las Vegas", source: "TechCrunch", time: "17h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Swarm Aero", headline: "Swarm Aero debuts Gamera drone in bid to succeed Reaper", source: "Breaking Defense", time: "20h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "Insight Partners' Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Ant", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX Huge Next Flight and 150 Days to Change the World", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "xAI", headline: "xAI has quietly built a massive battery at its Memphis data center hub", source: "Canary Media", time: "3d ago", impact: "low", unread: false },
+  { id: 11, type: "hire", company: "Monumental", headline: "One brick at a time: How Monumental uses robotics to build walls", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Cognition", headline: "The Week's 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week", source: "Crunchbase News", time: "3d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Saildrone", headline: "US refutes claims that Iran captured Saildrone USV", source: "Defense News", time: "3d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "5d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", time: "5d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
