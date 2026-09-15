@@ -1,15 +1,103 @@
 {
   "meta": {
-    "generated_at": "2026-09-14T13:01:43.219049+00:00",
+    "generated_at": "2026-09-15T11:54:18.731103+00:00",
     "window_days": 10,
-    "filings_scanned": 895,
-    "candidates_considered": 214,
-    "published": 1,
-    "roster_size": 2460,
+    "filings_scanned": 879,
+    "candidates_considered": 194,
+    "published": 2,
+    "roster_size": 2458,
     "roster_with_pedigree": 192,
     "method": "SEC Form D formations, filtered to new frontier-adjacent US entities, matched against founders already documented in COMPANIES. Confidence tiers reflect what the public record supports, not what is plausible."
   },
   "rows": [
+    {
+      "cik": "2150460",
+      "accession": "000215046026000001",
+      "entity": "KrateoSky LLC",
+      "industry": "Manufacturing",
+      "year_inc": 2025,
+      "state": "WY",
+      "amount_sold": 23882100.0,
+      "first_sale": "2026-05-27",
+      "persons": [
+        {
+          "name": "Krateo I SPV LLC",
+          "key": "krateollc",
+          "roles": [
+            "Promoter"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Scott W Wine",
+          "key": "scottwine",
+          "roles": [
+            "Executive Officer",
+            "Director",
+            "Promoter"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Lluis Pedragosa",
+          "key": "lluispedragosa",
+          "roles": [
+            "Director"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Jasmine Khambatta",
+          "key": "jasminekhambatta",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Ariel Avitan",
+          "key": "arielavitan",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "WYOMING"
+        },
+        {
+          "name": "Thibault Bridel-Bertomeu",
+          "key": "thibaultbertomeu",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "WYOMING"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2150460/000215046026000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2150460&type=D&dateb=&owner=include&count=10",
+      "filed": "20260914",
+      "matches": [
+        {
+          "person": "Ariel Avitan",
+          "roles": [
+            "Executive Officer"
+          ],
+          "known_for": [
+            "Percepto"
+          ],
+          "employers": [],
+          "evidence": [],
+          "name_ambiguous": false
+        }
+      ],
+      "score": 63,
+      "confidence": "Founder's next company",
+      "reasons": [
+        "An officer named Ariel Avitan matches the founder of Percepto in our database \u2014 but the sectors do not line up, so this may be a different person of the same name",
+        "self-classified as Manufacturing",
+        "$23.9M already sold",
+        "incorporated 2025",
+        "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
+      ]
+    },
     {
       "cik": "2154807",
       "accession": "000215480726000001",
