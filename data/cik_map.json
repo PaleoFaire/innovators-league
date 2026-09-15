@@ -4424,11 +4424,11 @@
     "note": "Only SPV feeder (AGC Wealt Periodic Labs I, a Series of AGC AI Nexus Fund LLC) \u2014 not the issuer"
   },
   "Persona AI": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "Only investor SPVs ('Persona AI Jan 2025 a Series of CGF2021 LLC', 'Persona AI Apr 2025 a Series of Kalea Ventures LLC'); no issuer entity."
+    "cik": "2107493",
+    "confidence": "High",
+    "edgarName": "Persona AI Inc.",
+    "hasFormD": true,
+    "note": "Learned 2026-09-14 from EDGAR daily index; Form D related persons include a recorded founder."
   },
   "Phaidra": {
     "cik": "",

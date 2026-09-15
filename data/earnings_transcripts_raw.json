@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated_at": "2026-09-14 13:47:47 UTC",
+    "generated_at": "2026-09-15 12:41:08 UTC",
     "total_targets": 116,
     "with_excerpts": 102,
     "sources": [
@@ -130,13 +130,11 @@
     {
       "ticker": "AMAT",
       "company": "Applied Materials",
-      "quarter": "2026-Q3",
-      "date": "2026-08-20",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/0001628280-26-058235-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://ir.appliedmaterials.com/",
+      "source": "none"
     },
     {
       "ticker": "KLAC",
@@ -352,13 +350,11 @@
     {
       "ticker": "TDY",
       "company": "Teledyne Technologies",
-      "quarter": "2026-Q3",
-      "date": "2026-07-24",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1094285/000109428526000043/0001094285-26-000043-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.teledyne.com/en-us/investor-relations",
+      "source": "none"
     },
     {
       "ticker": "AXON",
@@ -386,11 +382,11 @@
       "ticker": "AVAV",
       "company": "AeroVironment",
       "quarter": "2026-Q3",
-      "date": "2026-09-09",
+      "date": "2026-06-22",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926106423/0001104659-26-106423-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926076141/0001104659-26-076141-index.htm",
       "source": "sec_edgar"
     },
     {
@@ -507,11 +503,11 @@
       "ticker": "AVGO",
       "company": "Broadcom",
       "quarter": "2026-Q3",
-      "date": "2026-06-09",
+      "date": "2026-09-09",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/0001730168-26-000054-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/0001730168-26-000080-index.htm",
       "source": "sec_edgar"
     },
     {
@@ -627,11 +623,13 @@
     {
       "ticker": "ADI",
       "company": "Analog Devices",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investor.analog.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-19",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000073/0000006281-26-000073-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "ORCL",
@@ -658,13 +656,11 @@
     {
       "ticker": "EQIX",
       "company": "Equinix",
-      "quarter": "2026-Q3",
-      "date": "2026-07-29",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000147/0001101239-26-000147-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investor.equinix.com/",
+      "source": "none"
     },
     {
       "ticker": "DLR",
@@ -722,11 +718,13 @@
     {
       "ticker": "ROK",
       "company": "Rockwell Automation",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://www.rockwellautomation.com/en-us/company/investor-relations.html",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000030/0001024478-26-000030-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "EMR",
@@ -841,11 +839,13 @@
     {
       "ticker": "DM",
       "company": "Desktop Metal",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://ir.desktopmetal.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2024-10-31",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1754820/000155837024013999/0001558370-24-013999-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "RIVN",
@@ -892,13 +892,11 @@
     {
       "ticker": "ACHR",
       "company": "Archer Aviation",
-      "quarter": "2026-Q3",
-      "date": "2026-08-10",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000059/0001824502-26-000059-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.archer.com/",
+      "source": "none"
     },
     {
       "ticker": "JOBY",
@@ -1177,11 +1175,13 @@
     {
       "ticker": "ILMN",
       "company": "Illumina",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://www.illumina.com/company/about-us/investor-relations.html",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-07-31",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000160/0001110803-26-000160-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "TXG",

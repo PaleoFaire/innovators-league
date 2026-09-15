@@ -167,64 +167,6 @@
     ]
   },
   {
-    "prime": "Raytheon / RTX",
-    "ticker": "RTX",
-    "totalCompanies": 8,
-    "portfolio": [
-      {
-        "company": "Anduril",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Lattice integration partnership"
-      },
-      {
-        "company": "Divergent",
-        "relationship": "mentioned",
-        "source": "ROS company research",
-        "evidence": "raytheon"
-      },
-      {
-        "company": "Epirus",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "High-power microwave counter-drone"
-      },
-      {
-        "company": "MATERIAL",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$786.8M",
-        "agency": "Department of Defense",
-        "evidence": "MATERIAL CONSOLIDATION POINT",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_W31P4Q10C0089_9700_-NONE-_-NONE-"
-      },
-      {
-        "company": "Observable Space",
-        "relationship": "mentioned",
-        "source": "ROS company research",
-        "evidence": "raytheon"
-      },
-      {
-        "company": "Palantir",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Joint mission systems software"
-      },
-      {
-        "company": "Saronic Technologies",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Autonomous maritime systems"
-      },
-      {
-        "company": "Volund Manufacturing",
-        "relationship": "mentioned",
-        "source": "ROS company research",
-        "evidence": "raytheon"
-      }
-    ]
-  },
-  {
     "prime": "Northrop Grumman",
     "ticker": "NOC",
     "totalCompanies": 8,
@@ -286,6 +228,55 @@
     ]
   },
   {
+    "prime": "Raytheon / RTX",
+    "ticker": "RTX",
+    "totalCompanies": 7,
+    "portfolio": [
+      {
+        "company": "Anduril",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Lattice integration partnership"
+      },
+      {
+        "company": "Divergent",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "raytheon"
+      },
+      {
+        "company": "Epirus",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "High-power microwave counter-drone"
+      },
+      {
+        "company": "Observable Space",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "raytheon"
+      },
+      {
+        "company": "Palantir",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Joint mission systems software"
+      },
+      {
+        "company": "Saronic Technologies",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Autonomous maritime systems"
+      },
+      {
+        "company": "Volund Manufacturing",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "raytheon"
+      }
+    ]
+  },
+  {
     "prime": "BAE Systems",
     "ticker": "BAESY",
     "totalCompanies": 6,
@@ -341,55 +332,6 @@
     ]
   },
   {
-    "prime": "Leidos",
-    "ticker": "LDOS",
-    "totalCompanies": 6,
-    "portfolio": [
-      {
-        "company": "Cover",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$210.2M",
-        "agency": "Department of Energy",
-        "evidence": "IGF::OT::IGF  THIS A FIXED PRICE AND FIXED UNIT RATE TASK ORDER WITH A COST REIMBURSABLE CLIN FOR EQUIPMENT AND VEHICLES FOR ENVIRONMENTAL REMEDIATION AT THE DEPARTMENT OF ENERGY'S MOAB SITE IN MOAB, ",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_DEDT0011049_8900_DEEM0000842_8900"
-      },
-      {
-        "company": "HawkEye 360",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Signal intelligence services"
-      },
-      {
-        "company": "Palantir",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Healthcare/defense data integration"
-      },
-      {
-        "company": "Rebellion Defense",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Defense AI platform support"
-      },
-      {
-        "company": "Volund Manufacturing",
-        "relationship": "mentioned",
-        "source": "ROS company research",
-        "evidence": "leidos"
-      },
-      {
-        "company": "space",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$1306.8M",
-        "agency": "National Aeronautics and Space Administration",
-        "evidence": "THE FACILITIES DEVELOPMENT AND OPERATIONS CONTRACT(FDOC) SPECIFIES TECHNICAL, MANAGERIAL, AND ADMINSTRATIVE WORK NEEDED TO ENSURE THE AVAILABLITITY, INTEGRITY, AND RELIABILITY OF MISSIONOPERATIONS FAC",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_NNJ09HD46C_8000_-NONE-_-NONE-"
-      }
-    ]
-  },
-  {
     "prime": "L3Harris",
     "ticker": "LHX",
     "totalCompanies": 5,
@@ -435,22 +377,13 @@
   {
     "prime": "SAIC",
     "ticker": "SAIC",
-    "totalCompanies": 5,
+    "totalCompanies": 4,
     "portfolio": [
       {
         "company": "AIR",
         "relationship": "mentioned",
         "source": "ROS company research",
         "evidence": "saic"
-      },
-      {
-        "company": "Integrate",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$905K",
-        "agency": "Department of Transportation",
-        "evidence": "BAA CALL 004  DEVELOPMENT OF NON-SYSTEM SPECIFIC TECHNOLOGY TO INTEGRATE UNMANNED AIRCRAFT SYSTEMS (UAS) INTO THE NAS",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_697DCK23C00313_6920_-NONE-_-NONE-"
       },
       {
         "company": "Palantir",
@@ -469,6 +402,37 @@
         "relationship": "mentioned",
         "source": "ROS company research",
         "evidence": "saic"
+      }
+    ]
+  },
+  {
+    "prime": "Leidos",
+    "ticker": "LDOS",
+    "totalCompanies": 4,
+    "portfolio": [
+      {
+        "company": "HawkEye 360",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Signal intelligence services"
+      },
+      {
+        "company": "Palantir",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Healthcare/defense data integration"
+      },
+      {
+        "company": "Rebellion Defense",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Defense AI platform support"
+      },
+      {
+        "company": "Volund Manufacturing",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "leidos"
       }
     ]
   },

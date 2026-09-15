@@ -1,9 +1,31 @@
 {
-  "generated_at": "2026-09-14T13:55:58.997681+00:00",
+  "generated_at": "2026-09-15T12:45:09.088170+00:00",
   "lookback_days": 8,
-  "scanned": 1357,
-  "total": 2,
+  "scanned": 1575,
+  "total": 3,
   "filings": [
+    {
+      "match_method": "founder",
+      "match_evidence": "'Persona AI Inc.' stems to 'Persona AI'; Form D names Jerry Pratt, a recorded founder",
+      "company": "Persona AI",
+      "issuer_name": "Persona AI Inc.",
+      "form": "D",
+      "filed_date": "2026-09-14",
+      "cik": "2107493",
+      "accession": "0002107493-26-000002",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2107493/000210749326000002/primary_doc.xml",
+      "offering_amount": "141964814",
+      "amount_sold": "65363626",
+      "amount_remaining": "76601188",
+      "securities_type": "Equity",
+      "related_persons": [
+        "Nicolaus Radford",
+        "Jide Akinyode",
+        "Jerry Pratt"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
+    },
     {
       "match_method": "cik",
       "match_evidence": "filer CIK 1997038 == our recorded CIK",

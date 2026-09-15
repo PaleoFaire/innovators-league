@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-09-13",
-    "vehicle": "Falcon 9 Block 5 | O3b mPower 11-13",
-    "payload": "O3b mPower 11-13",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ad358a4d-c541-409b-9366-9c2f2da4aeb9/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-09-15",
     "vehicle": "Vega-C | Sentinel-3C & FLEX",
     "payload": "Sentinel-3C & FLEX",
@@ -19,8 +10,8 @@
   },
   {
     "date": "2026-09-15",
-    "vehicle": "Zhuque-2E Block 2 | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Zhuque-2E Block 2 | SpaceSail Polar Group #15",
+    "payload": "SpaceSail Polar Group #15",
     "pad": "Launch Area 96A, Jiuquan Satellite Launch Center, People's Republic of China",
     "provider": "LandSpace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/de446468-057f-4c9d-a6a1-af99c93b541e/?format=json",
@@ -72,15 +63,6 @@
     "trackedCompany": null
   },
   {
-    "date": "2026-09-18",
-    "vehicle": "Starship | Flight 14",
-    "payload": "Flight 14",
-    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/7d1afb26-6f9c-429b-9ccf-29012fd1e519/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-09-19",
     "vehicle": "Long March 2D | Unknown Payload",
     "payload": "Unknown Payload",
@@ -96,6 +78,15 @@
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d1471f9d-e9d0-4146-8e97-90863e48bfc8/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-22",
+    "vehicle": "Starship | Flight 14",
+    "payload": "Flight 14",
+    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7d1afb26-6f9c-429b-9ccf-29012fd1e519/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -448,5 +439,14 @@
     "provider": "Isar Aerospace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/b48e32c5-3776-4684-a956-5ea4df032e90/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Starship | Flight 15",
+    "payload": "Flight 15",
+    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0f867f0c-5422-4d44-93b8-d7faaae7019b/?format=json",
+    "trackedCompany": "SpaceX"
   }
 ]
