@@ -59322,27 +59322,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-15 09:58
-// Auto-generated real-time signals
-// Last updated: 2026-09-15
-// Auto-generated real-time signals
-// Last updated: 2026-09-15
+// Last updated: 2026-09-15 14:50
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Humanoid", headline: "Agility’s Digit 5 humanoid has new legs, batteries and safety upgrades", source: "The Robot Report", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "ICEYE", headline: "Iceye&#8217;s global presence expands to address sovereign demand", source: "SpaceNews", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Waymo", headline: "Waymo Readying to Launch Robotaxis in Japan", source: "CleanTechnica", time: "9h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says", source: "TechCrunch", time: "14h ago", impact: "medium", unread: true },
-  { id: 5, type: "news", company: "Anthropic", headline: "Anthropic Fears RSI &#8211; What is RSI? What Specifically is It?", source: "Next Big Future", time: "15h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Waymo", headline: "Waymo opens robotaxi service in Las Vegas", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Swarm Aero", headline: "Swarm Aero debuts Gamera drone in bid to succeed Reaper", source: "Breaking Defense", time: "22h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Anthropic", headline: "Insight Partners&#8217; Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Ant", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Anthropic", headline: "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "AI models need more data about biology, and OpenAI is paying to create it", source: "MIT Tech Review", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Hermeus", headline: "EXCLUSIVE: Pratt licenses Hermeus to build F100 fighter jet engine", source: "Breaking Defense", time: "3h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Einride", headline: "Einride and Lidl deploy Germany's first driverless cab-less truck on public roads", source: "Tech.eu", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Humanoid", headline: "Agility's Digit 5 humanoid has new legs, batteries and safety upgrades", source: "The Robot Report", time: "3h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "ICEYE", headline: "Iceye's global presence expands to address sovereign demand", source: "SpaceNews", time: "8h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Waymo", headline: "Waymo Readying to Launch Robotaxis in Japan", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says", source: "TechCrunch", time: "18h ago", impact: "medium", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "Anthropic Fears RSI &#8211; What is RSI? What Specifically is It?", source: "Next Big Future", time: "18h ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Huge Next Flight and 150 Days to Change the World", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "xAI", headline: "xAI has quietly built a massive battery at its Memphis data center hub", source: "Canary Media", time: "3d ago", impact: "low", unread: false },
   { id: 12, type: "hire", company: "Monumental", headline: "One brick at a time: How Monumental uses robotics to build walls", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Cognition", headline: "The Week’s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week", source: "Crunchbase News", time: "3d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Saildrone", headline: "US refutes claims that Iran captured Saildrone USV", source: "Defense News", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Monumental", headline: "What bricklaying has taught Monumental about robots in construction", source: "The Robot Report", time: "5d ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Cognition", headline: "The Week's 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week", source: "Crunchbase News", time: "3d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Saildrone", headline: "US refutes claims that Iran captured Saildrone USV", source: "Defense News", time: "4d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Deterrence", headline: "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture", source: "War on the Rocks", time: "5d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

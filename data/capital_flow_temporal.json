@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2026-09-15T09:58:58+00:00",
+  "generatedAt": "2026-09-15T14:51:07+00:00",
   "matrix": {
+    "industrial-humanoid": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 65363626,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Persona AI",
+            "amount": 65363626,
+            "date": "2026-09-14",
+            "source": "formd",
+            "investors": [
+              "Unity Growth",
+              "Tides Ventures",
+              "Mirae Asset Group",
+              "Invicta Growth",
+              "Fathom Fund",
+              "Embedded Ventures",
+              "Wave Function Ventures",
+              "Zero Infinity Partners",
+              "dConstruct Technologies",
+              "Goose Capital",
+              "K50 Ventures",
+              "Cofounder Ventures",
+              "Tola Capital",
+              "K2 Global"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "ai-drug-discovery": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 65965000,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Iambic Therapeutics",
+            "amount": 65965000,
+            "date": "2026-09-09",
+            "source": "formd",
+            "investors": [
+              "Ascenta Capital",
+              "Abingworth",
+              "Sequoia Capital",
+              "NVIDIA",
+              "Illumina Ventures",
+              "OrbiMed",
+              "Coatue",
+              "Catalio Capital Management",
+              "Nexus Venture Partners",
+              "Qatar Investment Authority",
+              "Regeneron Ventures",
+              "Everbright Biofund",
+              "Pegasus Tech Ventures",
+              "Tao Capital"
+            ]
+          }
+        ],
+        "investors": [
+          "Sequoia Capital"
+        ]
+      }
+    },
     "ai-hardware-inference": {
       "2026-Q3": {
         "deals": 1,
@@ -59,67 +125,6 @@
         ],
         "investors": [
           "In-Q-Tel"
-        ]
-      }
-    },
-    "ai-drug-discovery": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 65965000,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Iambic Therapeutics",
-            "amount": 65965000,
-            "date": "2026-09-09",
-            "source": "formd",
-            "investors": [
-              "Ascenta Capital",
-              "Abingworth",
-              "Sequoia Capital",
-              "NVIDIA",
-              "Illumina Ventures",
-              "OrbiMed",
-              "Coatue",
-              "Catalio Capital Management",
-              "Nexus Venture Partners",
-              "Qatar Investment Authority",
-              "Regeneron Ventures",
-              "Everbright Biofund",
-              "Pegasus Tech Ventures",
-              "Tao Capital"
-            ]
-          }
-        ],
-        "investors": [
-          "Sequoia Capital"
-        ]
-      }
-    },
-    "geothermal-next-gen": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 179265022,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Quaise Energy",
-            "amount": 179265022,
-            "date": "2026-09-03",
-            "source": "formd",
-            "investors": [
-              "Prelude Ventures",
-              "Safar Partners",
-              "Mitsubishi",
-              "Nabors Industries",
-              "Engine Ventures",
-              "Khosla Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "Engine Ventures",
-          "Khosla Ventures"
         ]
       }
     },
@@ -1643,76 +1648,6 @@
         }
       ]
     },
-    "Engine Ventures": {
-      "2026-Q3": [
-        {
-          "company": "Quaise Energy",
-          "cluster": "geothermal-next-gen",
-          "date": "2026-09-03",
-          "source": "formd"
-        }
-      ]
-    },
-    "Khosla Ventures": {
-      "2026-Q3": [
-        {
-          "company": "Quaise Energy",
-          "cluster": "geothermal-next-gen",
-          "date": "2026-09-03",
-          "source": "formd"
-        },
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2026-07",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Monumental",
-          "cluster": "construction-modular",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "Rocket Lab",
-          "cluster": "space-launch-large",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Hermeus",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Helion",
-          "cluster": "fusion-magnetic-confinement",
-          "date": "2026-06",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Physical Intelligence",
-          "cluster": "ai-robotics-embodied",
-          "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Collaborative Robotics",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Bessemer Venture Partners": {
       "2026-Q2": [
         {
@@ -2269,6 +2204,60 @@
         }
       ]
     },
+    "Khosla Ventures": {
+      "2025-Q4": [
+        {
+          "company": "Rocket Lab",
+          "cluster": "space-launch-large",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Helion",
+          "cluster": "fusion-magnetic-confinement",
+          "date": "2026-06",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Physical Intelligence",
+          "cluster": "ai-robotics-embodied",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q3": [
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2026-07",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Monumental",
+          "cluster": "construction-modular",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Collaborative Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Harpoon Ventures": {
       "2025-Q3": [
         {
@@ -2372,10 +2361,10 @@
   },
   "stats": {
     "totalDealsTracked": 60,
-    "totalUSDSold": 1532059684,
+    "totalUSDSold": 1418158288,
     "uniqueClusters": 37,
     "uniqueQuarters": 9,
-    "uniqueVCs": 21,
+    "uniqueVCs": 20,
     "quarterRange": [
       "2024-Q1",
       "2026-Q3"
