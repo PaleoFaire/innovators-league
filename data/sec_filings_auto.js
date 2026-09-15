@@ -1,6 +1,19 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-14 12:15:42 UTC
+// Last updated: 2026-09-15 11:24:04 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "8-K", date: "2026-09-15", description: "g085951_8k.htm", isIPO: false, ticker: "RKLB" },
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-09-15", description: "qbts-20260915.htm", isIPO: false, ticker: "QBTS" },
+  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418300.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418286.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418265.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418247.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418224.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418208.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418192.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418174.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418155.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "8-K", date: "2026-09-14", description: "bksy-20260910.htm", isIPO: false, ticker: "BKSY" },
+  { company: "UiPath", form: "4", date: "2026-09-14", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "Oklo", form: "8-K", date: "2026-09-11", description: "tm2625056d1_8k.htm", isIPO: false, ticker: "OKLO" },
   { company: "Centrus Energy", form: "8-K", date: "2026-09-11", description: "tm2625019d5_8k.htm", isIPO: false, ticker: "LEU" },
   { company: "BlackSky Technology", form: "4", date: "2026-09-10", description: "xslF345X06/wk-form4_1789072189.xml", isIPO: false, ticker: "BKSY" },
@@ -38,17 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Rocket Lab", form: "4", date: "2026-09-02", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Oklo", form: "4", date: "2026-09-02", description: "xslF345X06/wk-form4_1788381083.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-09-02", description: "xslF345X06/wk-form4_1788380984.xml", isIPO: false, ticker: "OKLO" },
-  { company: "C3.ai", form: "8-K", date: "2026-09-02", description: "ai-20260902.htm", isIPO: false, ticker: "AI" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-09-02", description: "xslF345X06/wk-form4_1788386512.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Astera Labs", form: "4", date: "2026-09-02", description: "xslF345X06/wk-form4_1788381533.xml", isIPO: false, ticker: "ALAB" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-09-01", description: "xslF345X06/tm2624604-1_4seq1.xml", isIPO: false, ticker: "ASTS" },
-  { company: "Oklo", form: "4", date: "2026-09-01", description: "xslF345X06/wk-form4_1788294918.xml", isIPO: false, ticker: "OKLO" },
-  { company: "BlackSky Technology", form: "4", date: "2026-08-31", description: "xslF345X06/wk-form4_1788213568.xml", isIPO: false, ticker: "BKSY" },
-  { company: "Astera Labs", form: "4", date: "2026-08-31", description: "xslF345X06/wk-form4_1788217911.xml", isIPO: false, ticker: "ALAB" },
-  { company: "Satellogic", form: "8-K", date: "2026-08-31", description: "ea0304018-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
-  { company: "Rocket Lab", form: "4", date: "2026-08-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2026-08-28", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Momentus", form: "8-K", date: "2026-08-28", description: "apre-20260828x8k.htm", isIPO: false, ticker: "MNTS" },
-  { company: "NuScale Power", form: "4", date: "2026-08-28", description: "xslF345X06/wk-form4_1787950354.xml", isIPO: false, ticker: "SMR" },
-  { company: "C3.ai", form: "DEF 14A", date: "2026-08-28", description: "ai-20260827.htm", isIPO: false, ticker: "AI" },
 ];

@@ -272,6 +272,15 @@
   {
     "company": "Rocket Lab",
     "ticker": "RKLB",
+    "form": "8-K",
+    "date": "2026-09-15",
+    "description": "g085951_8k.htm",
+    "accessionNumber": "0001753926-26-001769",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
     "form": "4",
     "date": "2026-09-04",
     "description": "xslF345X06/edgardoc.xml",
@@ -501,15 +510,6 @@
     "date": "2026-06-01",
     "description": "xslF345X06/edgardoc.xml",
     "accessionNumber": "0002001011-26-000080",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "4",
-    "date": "2026-06-01",
-    "description": "xslF345X06/edgardoc.xml",
-    "accessionNumber": "0002001011-26-000079",
     "isIPO": false
   },
   {
@@ -993,6 +993,96 @@
     "company": "BlackSky Technology",
     "ticker": "BKSY",
     "form": "4",
+    "date": "2026-09-14",
+    "description": "xslF345X06/wk-form4_1789418300.xml",
+    "accessionNumber": "0001217124-26-000009",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
+    "form": "4",
+    "date": "2026-09-14",
+    "description": "xslF345X06/wk-form4_1789418286.xml",
+    "accessionNumber": "0001865965-26-000008",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
+    "form": "4",
+    "date": "2026-09-14",
+    "description": "xslF345X06/wk-form4_1789418265.xml",
+    "accessionNumber": "0001878918-26-000003",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
+    "form": "4",
+    "date": "2026-09-14",
+    "description": "xslF345X06/wk-form4_1789418247.xml",
+    "accessionNumber": "0001809523-26-000012",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
+    "form": "4",
+    "date": "2026-09-14",
+    "description": "xslF345X06/wk-form4_1789418224.xml",
+    "accessionNumber": "0001791883-26-000003",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
+    "form": "4",
+    "date": "2026-09-14",
+    "description": "xslF345X06/wk-form4_1789418208.xml",
+    "accessionNumber": "0001400956-26-000011",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
+    "form": "4",
+    "date": "2026-09-14",
+    "description": "xslF345X06/wk-form4_1789418192.xml",
+    "accessionNumber": "0001753539-26-000145",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
+    "form": "4",
+    "date": "2026-09-14",
+    "description": "xslF345X06/wk-form4_1789418174.xml",
+    "accessionNumber": "0001349983-26-000009",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
+    "form": "4",
+    "date": "2026-09-14",
+    "description": "xslF345X06/wk-form4_1789418155.xml",
+    "accessionNumber": "0001400954-26-000009",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
+    "form": "8-K",
+    "date": "2026-09-14",
+    "description": "bksy-20260910.htm",
+    "accessionNumber": "0001753539-26-000143",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
+    "form": "4",
     "date": "2026-09-10",
     "description": "xslF345X06/wk-form4_1789072189.xml",
     "accessionNumber": "0001753539-26-000137",
@@ -1158,69 +1248,6 @@
     "date": "2026-04-01",
     "description": "xslF345X06/wk-form4_1775074165.xml",
     "accessionNumber": "0001217124-26-000007",
-    "isIPO": false
-  },
-  {
-    "company": "BlackSky Technology",
-    "ticker": "BKSY",
-    "form": "4",
-    "date": "2026-04-01",
-    "description": "xslF345X06/wk-form4_1775074101.xml",
-    "accessionNumber": "0001865965-26-000006",
-    "isIPO": false
-  },
-  {
-    "company": "BlackSky Technology",
-    "ticker": "BKSY",
-    "form": "4",
-    "date": "2026-04-01",
-    "description": "xslF345X06/wk-form4_1775074052.xml",
-    "accessionNumber": "0001400956-26-000007",
-    "isIPO": false
-  },
-  {
-    "company": "BlackSky Technology",
-    "ticker": "BKSY",
-    "form": "10-K",
-    "date": "2026-03-17",
-    "description": "bksy-20251231.htm",
-    "accessionNumber": "0001753539-26-000032",
-    "isIPO": false
-  },
-  {
-    "company": "BlackSky Technology",
-    "ticker": "BKSY",
-    "form": "4",
-    "date": "2026-03-12",
-    "description": "xslF345X05/wk-form4_1773347324.xml",
-    "accessionNumber": "0001753539-26-000025",
-    "isIPO": false
-  },
-  {
-    "company": "BlackSky Technology",
-    "ticker": "BKSY",
-    "form": "4",
-    "date": "2026-03-12",
-    "description": "xslF345X05/wk-form4_1773347259.xml",
-    "accessionNumber": "0001753539-26-000023",
-    "isIPO": false
-  },
-  {
-    "company": "BlackSky Technology",
-    "ticker": "BKSY",
-    "form": "4",
-    "date": "2026-03-12",
-    "description": "xslF345X05/wk-form4_1773347186.xml",
-    "accessionNumber": "0001753539-26-000021",
-    "isIPO": false
-  },
-  {
-    "company": "BlackSky Technology",
-    "ticker": "BKSY",
-    "form": "4",
-    "date": "2026-03-12",
-    "description": "xslF345X05/wk-form4_1773346751.xml",
-    "accessionNumber": "0001753539-26-000019",
     "isIPO": false
   },
   {
@@ -4296,6 +4323,15 @@
     "company": "UiPath",
     "ticker": "PATH",
     "form": "4",
+    "date": "2026-09-14",
+    "description": "xslF345X06/primarydocument.xml",
+    "accessionNumber": "0001855778-26-000007",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
+    "form": "4",
     "date": "2026-09-09",
     "description": "xslF345X06/primarydocument.xml",
     "accessionNumber": "0001855767-26-000018",
@@ -4605,15 +4641,6 @@
     "date": "2026-02-27",
     "description": "xslF345X05/primarydocument.xml",
     "accessionNumber": "0001543401-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "UiPath",
-    "ticker": "PATH",
-    "form": "4",
-    "date": "2026-02-27",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001855764-26-000004",
     "isIPO": false
   },
   {
@@ -5133,6 +5160,15 @@
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
     "form": "8-K",
+    "date": "2026-09-15",
+    "description": "qbts-20260915.htm",
+    "accessionNumber": "0001907982-26-000148",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "8-K",
     "date": "2026-09-10",
     "description": "qbts-20260910.htm",
     "accessionNumber": "0001907982-26-000146",
@@ -5451,15 +5487,6 @@
     "date": "2026-06-05",
     "description": "xslF345X06/wk-form4_1780693701.xml",
     "accessionNumber": "0002010302-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2026-06-05",
-    "description": "xslF345X06/wk-form4_1780693661.xml",
-    "accessionNumber": "0001346345-26-000004",
     "isIPO": false
   },
   {

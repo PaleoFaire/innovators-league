@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-09-14T13:42:32.535588Z",
+  "generated_at": "2026-09-15T12:51:04.284197Z",
   "takes": [
-    {
-      "author": "Crunchbase News",
-      "role": "Industry signal",
-      "company": "Mistral AI",
-      "text": "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round",
-      "date": "Tue, 08 Se",
-      "source": "news",
-      "source_url": "https://news.crunchbase.com/venture/europe-record-setting-mistral-ai-raise/",
-      "signal_type": "funding"
-    },
     {
       "author": "Canary Media",
       "role": "Industry signal",
@@ -35,7 +25,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 3,
+    "from_news": 2,
     "from_press": 0
   }
 }
