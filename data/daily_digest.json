@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T05:52:57.736228+00:00",
+  "generatedAt": "2026-09-16T11:21:54.602390+00:00",
   "date": "2026-09-16",
   "dateDisplay": "Wednesday, September 16, 2026",
   "sections": {
@@ -73,6 +73,13 @@
         "change": -7.33
       },
       {
+        "ticker": "DRSHF",
+        "company": "DroneShield",
+        "price": 1.15,
+        "changePercent": -13.53,
+        "change": -0.18
+      },
+      {
         "ticker": "ALAB",
         "company": "Astera Labs",
         "price": 252.54,
@@ -99,13 +106,6 @@
         "price": 6.13,
         "changePercent": -10.38,
         "change": -0.71
-      },
-      {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 16.02,
-        "changePercent": -10.05,
-        "change": -1.79
       }
     ],
     "regulatory": [

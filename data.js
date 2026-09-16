@@ -59322,17 +59322,17 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-16 05:52
+// Last updated: 2026-09-16 11:21
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "LeoLabs", headline: "Shifting market sands: LeoLabs moves to sell new mobile space radar directly to allies", source: "Breaking Defense", time: "7h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "11h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX will try to put Starship in orbit for the first time on September 22", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "OpenAI, Anthropic, Google have been in talks on AI safety for weeks", source: "TechCrunch", time: "14h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "AI models need more data about biology, and OpenAI is paying to create it", source: "MIT Tech Review", time: "17h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "Hermeus", headline: "EXCLUSIVE: Pratt licenses Hermeus to build F100 fighter jet engine", source: "Breaking Defense", time: "18h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Einride", headline: "Einride and Lidl deploy Germany's first driverless cab-less truck on public roads", source: "Tech.eu", time: "18h ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "Humanoid", headline: "Agility's Digit 5 humanoid has new legs, batteries, and safety upgrades", source: "The Robot Report", time: "18h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "ICEYE", headline: "Iceye's global presence expands to address sovereign demand", source: "SpaceNews", time: "23h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "LeoLabs", headline: "Shifting market sands: LeoLabs moves to sell new mobile space radar directly to allies", source: "Breaking Defense", time: "13h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "16h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX will try to put Starship in orbit for the first time on September 22", source: "TechCrunch", time: "17h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "OpenAI, Anthropic, Google have been in talks on AI safety for weeks", source: "TechCrunch", time: "19h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "AI models need more data about biology, and OpenAI is paying to create it", source: "MIT Tech Review", time: "23h ago", impact: "low", unread: true },
+  { id: 6, type: "hire", company: "Hermeus", headline: "EXCLUSIVE: Pratt licenses Hermeus to build F100 fighter jet engine", source: "Breaking Defense", time: "23h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Einride", headline: "Einride and Lidl deploy Germany's first driverless cab-less truck on public roads", source: "Tech.eu", time: "23h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "Humanoid", headline: "Agility's Digit 5 humanoid has new legs, batteries, and safety upgrades", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "ICEYE", headline: "Iceye's global presence expands to address sovereign demand", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "milestone", company: "Waymo", headline: "Waymo Readying to Launch Robotaxis in Japan", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "Anthropic", headline: "Anthropic Fears RSI &#8211; What is RSI? What Specifically is It?", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX Huge Next Flight and 150 Days to Change the World", source: "Next Big Future", time: "4d ago", impact: "low", unread: false },
