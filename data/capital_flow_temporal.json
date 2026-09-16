@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T11:22:32+00:00",
+  "generatedAt": "2026-09-16T16:43:18+00:00",
   "matrix": {
     "industrial-humanoid": {
       "2026-Q3": {
@@ -31,40 +31,6 @@
           }
         ],
         "investors": []
-      }
-    },
-    "ai-drug-discovery": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 65965000,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Iambic Therapeutics",
-            "amount": 65965000,
-            "date": "2026-09-09",
-            "source": "formd",
-            "investors": [
-              "Ascenta Capital",
-              "Abingworth",
-              "Sequoia Capital",
-              "NVIDIA",
-              "Illumina Ventures",
-              "OrbiMed",
-              "Coatue",
-              "Catalio Capital Management",
-              "Nexus Venture Partners",
-              "Qatar Investment Authority",
-              "Regeneron Ventures",
-              "Everbright Biofund",
-              "Pegasus Tech Ventures",
-              "Tao Capital"
-            ]
-          }
-        ],
-        "investors": [
-          "Sequoia Capital"
-        ]
       }
     },
     "ai-hardware-inference": {
@@ -125,6 +91,40 @@
         ],
         "investors": [
           "In-Q-Tel"
+        ]
+      }
+    },
+    "ai-drug-discovery": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 65965000,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Iambic Therapeutics",
+            "amount": 65965000,
+            "date": "2026-09-09",
+            "source": "formd",
+            "investors": [
+              "Ascenta Capital",
+              "Abingworth",
+              "Sequoia Capital",
+              "NVIDIA",
+              "Illumina Ventures",
+              "OrbiMed",
+              "Coatue",
+              "Catalio Capital Management",
+              "Nexus Venture Partners",
+              "Qatar Investment Authority",
+              "Regeneron Ventures",
+              "Everbright Biofund",
+              "Pegasus Tech Ventures",
+              "Tao Capital"
+            ]
+          }
+        ],
+        "investors": [
+          "Sequoia Capital"
         ]
       }
     },

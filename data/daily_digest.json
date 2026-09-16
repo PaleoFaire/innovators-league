@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T11:21:54.602390+00:00",
+  "generatedAt": "2026-09-16T16:42:23.622563+00:00",
   "date": "2026-09-16",
   "dateDisplay": "Wednesday, September 16, 2026",
   "sections": {
@@ -21,6 +21,15 @@
         "description": "EXPLORATION EXTRAVEHICULAR ACTIVITY SERVICES (XEVAS)",
         "date": "2026-07-28",
         "url": "https://sam.gov/opp/80JSC026FA082/view"
+      },
+      {
+        "company": "Radiant",
+        "amount": "$4M",
+        "amount_raw": 4000000.0,
+        "agency": "Department of the Treasury",
+        "description": "IT LABOR PROVIDING ENTERPRISE DATA PLATFORM INTAKE, SECURITY, TENANT, PLATFORM OPERATIONS AND GOVERNANCE SERVICES.",
+        "date": "2026-09-15",
+        "url": "https://sam.gov/opp/2032H526F00077/view"
       },
       {
         "company": "Skydio",
@@ -133,23 +142,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Proposed Third-Party Risk Management Guide for Traditional Community Banking Org",
-        "date": "2026-09-15",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18852"
+        "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-",
+        "date": "2026-09-16",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19005"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Airworthiness Directives; Airbus Defence and Space GmbH Airplanes",
-        "date": "2026-09-15",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18850"
+        "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-",
+        "date": "2026-09-16",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18998"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "739th Meeting of the Advisory Committee on Reactor Safeguards (ACRS)",
-        "date": "2026-09-15",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18898"
+        "title": "Privacy Act of 1974; System of Records",
+        "date": "2026-09-16",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18919"
       }
     ],
     "patents": [
@@ -192,7 +201,7 @@
     ]
   },
   "stats": {
-    "contractCount": 5,
+    "contractCount": 6,
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
