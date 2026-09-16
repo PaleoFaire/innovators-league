@@ -11,13 +11,13 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -6.06,
+      "avg_change": -6.03,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -5.0,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -6.18,
       "count": 7
     },
     "nuclear": {
@@ -69,11 +69,6 @@
       1.33
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      0.12
-    ],
-    [
       "ASRHF",
       "Astroscale",
       0.0
@@ -82,18 +77,23 @@
       "AMD",
       "AMD",
       -0.3
+    ],
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -0.31
     ]
   ],
   "topLosers": [
     [
-      "LUNR",
-      "Intuitive Machines",
-      -11.54
-    ],
-    [
       "ALAB",
       "Astera Labs",
       -12.57
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      -13.53
     ],
     [
       "OKLO",
@@ -111,5 +111,5 @@
       -24.6
     ]
   ],
-  "lastUpdated": "2026-09-15 22:17:40"
+  "lastUpdated": "2026-09-16 06:06:39"
 }
