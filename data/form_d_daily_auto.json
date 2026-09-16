@@ -1,12 +1,35 @@
 {
-  "generated_at": "2026-09-15T12:45:09.088170+00:00",
+  "generated_at": "2026-09-16T12:38:40.520732+00:00",
   "lookback_days": 8,
-  "scanned": 1575,
-  "total": 3,
+  "scanned": 1549,
+  "total": 4,
   "filings": [
     {
-      "match_method": "founder",
-      "match_evidence": "'Persona AI Inc.' stems to 'Persona AI'; Form D names Jerry Pratt, a recorded founder",
+      "match_method": "cik",
+      "match_evidence": "filer CIK 1942463 == our recorded CIK",
+      "company": "Interlune",
+      "issuer_name": "Interlune Corp",
+      "form": "D",
+      "filed_date": "2026-09-15",
+      "cik": "1942463",
+      "accession": "0001942463-26-000002",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1942463/000194246326000002/primary_doc.xml",
+      "offering_amount": "5000000",
+      "amount_sold": "5000000",
+      "amount_remaining": "0",
+      "securities_type": "",
+      "related_persons": [
+        "Robert Meyerson",
+        "H. Hornsby",
+        "Katelin Holloway",
+        "Prateek Lal"
+      ],
+      "is_safe": true,
+      "source": "edgar-daily-index"
+    },
+    {
+      "match_method": "cik",
+      "match_evidence": "filer CIK 2107493 == our recorded CIK",
       "company": "Persona AI",
       "issuer_name": "Persona AI Inc.",
       "form": "D",

@@ -1,6 +1,13 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-09-15 12:27:39 UTC
+// Last updated: 2026-09-16 12:24:33 UTC
 const NASA_PROJECTS = [
+  { id: 158507, title: "Thermal Control System Architecture for Exploration", status: "Completed", center: "Marshall Space Flight Center", techArea: "Thermal Management Systems", lastUpdated: "09/15/26" },
+  { id: 182465, title: "Mars Roundtrip Success enabled by Integrated Cooling through Inductively Coupled", status: "Active", center: "University of California-Los Angeles", techArea: "", lastUpdated: "09/15/26" },
+  { id: 158357, title: "Fusion-Enabled Comprehensive Exploration of the Heliosphere", status: "Completed", center: "Helicity Space LLC", techArea: "", lastUpdated: "09/15/26" },
+  { id: 158355, title: "Construction Assembly Destination", status: "Completed", center: "Thinkorbital Inc.", techArea: "", lastUpdated: "09/15/26" },
+  { id: 158293, title: "Lunar Glass Structure (LUNGS): Enabling Construction of Monolithic Habitats in L", status: "Completed", center: "Skyeports LLC", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "09/15/26" },
+  { id: 158096, title: "Thermo-Photo-Catalysis of Water for Crewed Mars Transit Spacecraft Oxygen Supply", status: "Completed", center: "Precision Combustion, Inc.", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "09/15/26" },
+  { id: 157995, title: "PULSAR: Planetary pULSe-tAkeR", status: "Completed", center: "Jet Propulsion Laboratory", techArea: "Sensors and Instruments", lastUpdated: "09/15/26" },
   { id: 185287, title: "Quantum Wind Lidar Applications for Planetary and Earth Science Missions", status: "Active", center: "Ames Research Center", techArea: "Sensors and Instruments", lastUpdated: "09/09/26" },
   { id: 185286, title: "Interworld Slingshot Resource Surveys", status: "Active", center: "", techArea: "", lastUpdated: "09/09/26" },
   { id: 185284, title: "Solid-state Propulsion for Autonomous Reconnaissance of Karst (SPARK)", status: "Active", center: "", techArea: "", lastUpdated: "09/09/26" },
@@ -24,11 +31,4 @@ const NASA_PROJECTS = [
   { id: 146561, title: "Hypersonic Inflatable Aerodynamic Decelerator Morphing Shape Guidance and Contro", status: "Completed", center: "Langley Research Center", techArea: "Hypersonic Decelerators", lastUpdated: "09/09/26" },
   { id: 106812, title: "Cis Lunar Autonomous Positioning Software", status: "Completed", center: "Advanced Space, LLC", techArea: "Revolutionary PNT Technologies", lastUpdated: "09/08/26" },
   { id: 182206, title: "Small Spacecraft Propulsion and Inspection Capability", status: "Active", center: "Starfish Space, Inc.", techArea: "Autonomous Rendezvous and Docking", lastUpdated: "09/08/26" },
-  { id: 184934, title: "Spatial Disorientation Trainer", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "09/08/26" },
-  { id: 158181, title: "Biomanufacturing PLA for Surface System In-Space Construction", status: "Completed", center: "Kennedy Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "09/02/26" },
-  { id: 97036, title: "Ohalo III, The First Operational Crop Production System and Prototype for a Mars", status: "Active", center: "Kennedy Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "09/01/26" },
-  { id: 185982, title: "Autonomy, Fault Tolerance, Human-Machine interface for Mars", status: "Active", center: "Langley Research Center", techArea: "", lastUpdated: "08/26/26" },
-  { id: 186050, title: "Scalable Implement for Lunar Trenching", status: "Completed", center: "Interlune Corporation", techArea: "Exploration Destination Systems", lastUpdated: "08/24/26" },
-  { id: 186049, title: "Cross Layer Spectrum Aware Cognitive Control Plane and Intelligent Routing Engin", status: "Active", center: "A10 Systems Inc. d/b/a AiRANACULUS", techArea: "Communications, Navigation, and Orbital Debris Tracking and Characterization Systems", lastUpdated: "08/24/26" },
-  { id: 186047, title: "Radiation Hardened Power Efficient Artificial Intelligence and Machine Learning ", status: "Active", center: "CFD Research Corporation", techArea: "Flight Computing and Avionics", lastUpdated: "08/24/26" },
 ];

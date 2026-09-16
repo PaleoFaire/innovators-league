@@ -1,39 +1,12 @@
 [
   {
     "date": "2026-09-15",
-    "vehicle": "Vega-C | Sentinel-3C & FLEX",
-    "payload": "Sentinel-3C & FLEX",
-    "pad": "Ariane Launch Area 1 (ELV), Guiana Space Centre, French Guiana",
-    "provider": "Avio S.p.A",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/8effc13a-c658-4d2e-9f15-8dba4d7fe2dd/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-09-15",
-    "vehicle": "Zhuque-2E Block 2 | SpaceSail Polar Group #15",
-    "payload": "SpaceSail Polar Group #15",
-    "pad": "Launch Area 96A, Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "LandSpace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/de446468-057f-4c9d-a6a1-af99c93b541e/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-09-15",
-    "vehicle": "Gravity-1 | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Gravity-1 | SpaceSail Polar Group #16",
+    "payload": "SpaceSail Polar Group #16",
     "pad": "Yellow Sea (launch location 5), Haiyang Oriental Spaceport",
     "provider": "Orienspace Technology",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/767f7827-53d8-4621-803b-f456a1e6b512/?format=json",
     "trackedCompany": null
-  },
-  {
-    "date": "2026-09-16",
-    "vehicle": "Falcon 9 Block 5 | USSF-259",
-    "payload": "USSF-259",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/17c71937-dd80-406f-bb47-0c9ee9a24276/?format=json",
-    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-09-16",
@@ -55,12 +28,30 @@
   },
   {
     "date": "2026-09-17",
+    "vehicle": "Falcon 9 Block 5 | USSF-259",
+    "payload": "USSF-259",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/17c71937-dd80-406f-bb47-0c9ee9a24276/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-17",
     "vehicle": "Kuaizhou 11 | Unknown Payload",
     "payload": "Unknown Payload",
     "pad": "Launch Area 95A, Jiuquan Satellite Launch Center, People's Republic of China",
     "provider": "ExPace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/71aa4d56-0ce9-4c7d-a808-cc22f2ac5a84/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-09-19",
+    "vehicle": "Electron | Owl By The Dozen (StriX Launch 12)",
+    "payload": "Owl By The Dozen (StriX Launch 12)",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f4c720ce-0cfd-43e6-b8dd-00273073bc01/?format=json",
+    "trackedCompany": "Rocket Lab"
   },
   {
     "date": "2026-09-19",
@@ -81,12 +72,30 @@
     "trackedCompany": "SpaceX"
   },
   {
+    "date": "2026-09-20",
+    "vehicle": "Kinetica 1 | Unknown Payload",
+    "payload": "Unknown Payload",
+    "pad": "Launch Area 130, Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "CAS Space",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5af31461-bce5-4cfb-a0ee-b527cf285d90/?format=json",
+    "trackedCompany": null
+  },
+  {
     "date": "2026-09-22",
     "vehicle": "Starship | Flight 14",
     "payload": "Flight 14",
     "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/7d1afb26-6f9c-429b-9ccf-29012fd1e519/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-09-27",
+    "vehicle": "Falcon 9 Block 5 | USSF-xxx (\"R-3\")",
+    "payload": "USSF-xxx (\"R-3\")",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7330d83b-c478-426c-8859-f9e3a335876d/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
@@ -196,15 +205,6 @@
     "provider": "Mitsubishi Heavy Industries",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/69ebbcd2-b257-4070-9ef9-21e7d1f8a883/?format=json",
     "trackedCompany": null
-  },
-  {
-    "date": "2026-10-31",
-    "vehicle": "Electron | StriX Launch 12",
-    "payload": "StriX Launch 12",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/f4c720ce-0cfd-43e6-b8dd-00273073bc01/?format=json",
-    "trackedCompany": "Rocket Lab"
   },
   {
     "date": "2026-10-31",

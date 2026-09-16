@@ -1,5 +1,336 @@
 [
   {
+    "id": 183927,
+    "title": "Full-Scale Trash-to-Gas System Demonstration",
+    "description": "Proposal seeks to manufacture, build, and test a full-scale, flight-forward Trash-to-Gas system for a ground demonstration. Year 1 will be designing of a full scale TtG prototype. Year 2 will be the manufacutring of the prototype for demonstration. ",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "09/15/26",
+    "center": "Kennedy Space Center",
+    "technologyArea": "Waste Management",
+    "partners": [
+      "Kennedy Space Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158507,
+    "title": "Thermal Control System Architecture for Exploration",
+    "description": "<p><strong>Project Objective</strong>\u00a0\u00a0</p><p>Develop a a breadboard Thermal Control System (TCS)\u00a0architecture utilizing an inert gas or mixture as an external heat transfer fluid.</p><p><strong>Project Description</strong>\u00a0</p><p>A Thermal Control System (TCS) architecture utilizing an inert gas (e.g.; He; Xe; N2; etc.) or mixture as an external heat transfer fluid is proposed for NASA\u2019s Moon and Cislunar-to-Mars Habitat and Spacecraft mission portfolio. Inert gases could mitigate many of the s",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Jun 2026",
+    "lastUpdated": "09/15/26",
+    "center": "Marshall Space Flight Center",
+    "technologyArea": "Thermal Management Systems",
+    "partners": [
+      "Marshall Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158022,
+    "title": "Coded Aperture Wolter Prototype Hybrid Imager",
+    "description": "<p><strong>Project Objective</strong>\u00a0\u00a0</p><p>This should be your one-sentence project description.\u00a0\u00a0</p><p><strong>Project Description</strong>\u00a0</p><p>Include long-term goals, processes, resources being invested, and technologies under development. Be sure that the language is clear, concise, and understandable to the public audience. Be sure to spell out any acronyms.\u00a0\u00a0</p><p><strong>description previously published (edit as needed):</strong> Improved angular resolution is one of the great cha",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "09/15/26",
+    "center": "Marshall Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Marshall Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183789,
+    "title": "Cascading Annular Nozzles For Extreme Thrust Densities",
+    "description": "This project proposes a new type of rocket nozzle utilizing a unique combination of contouring and clustering.  A small lab available in MSFC/B4205 will be leveraged for cold-flow aerodynamics testing at no additional cost to this project.",
+    "status": "Active",
+    "startDate": "Oct 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "09/15/26",
+    "center": "Stennis Space Center",
+    "technologyArea": "Cryogenic Propulsion",
+    "partners": [
+      "Stennis Space Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158578,
+    "title": "In Space Manufacturing of Thermoelectric Devices for Energy Harvesting",
+    "description": "<p><strong>Project Objective</strong>\u00a0\u00a0</p><p>This should be your one-sentence project description.\u00a0\u00a0</p><p><strong>Project Description</strong>\u00a0</p><p>Include long-term goals, processes, resources being invested, and technologies under development. Be sure that the language is clear, concise, and understandable to the public audience. Be sure to spell out any acronyms.\u00a0\u00a0</p><p><strong>description previously published (edit as needed):</strong> We are proposing a budget of $39.5k to support labo",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "09/15/26",
+    "center": "Marshall Space Flight Center",
+    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
+    "partners": [
+      "Marshall Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182465,
+    "title": "Mars Roundtrip Success enabled by Integrated Cooling through Inductively Coupled LED Emission (MaRS ICICLE)",
+    "description": "<p>Exploration of Mars has captivated the public in recent decades with high-profile robotic missions and the images they have acquired seeding our collective imagination. NASA is actively planning for human exploration of Mars and laid out some of the key capabilities that must be developed to execute successful, cost-effective programs that would put human beings on the surface of another planet and bring them home safely. Efficient, flexible and productive round-trip missions will be key to f",
+    "status": "Active",
+    "startDate": "Jun 2025",
+    "endDate": "Jun 2027",
+    "lastUpdated": "09/15/26",
+    "center": "University of California-Los Angeles",
+    "technologyArea": "",
+    "partners": [
+      "University of California-Los Angeles"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182464,
+    "title": "Photophoretic propulsion enabling mesosphere exploration",
+    "description": "<p>We propose to use the photophoretic levitation and propulsion mechanism to create no-moving-parts flying vehicles that can be used to explore Earth's upper atmosphere. The photophoretic force arises when a solid is heated relative to the ambient gas through illumination, inducing momentum exchange between the solid and the gas. The force creates lift in structures that absorb light on the bottom yet stay cool on the top, and we engineered our plate mechanical metamaterials to maximize this li",
+    "status": "Active",
+    "startDate": "Jun 2025",
+    "endDate": "Jun 2027",
+    "lastUpdated": "09/15/26",
+    "center": "Clinical Practices of the University of Pennsylvania",
+    "technologyArea": "",
+    "partners": [
+      "Clinical Practices of the University of Pennsylvania"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158359,
+    "title": "Beholding Black Hole Power with the Accretion Explorer Interferometer",
+    "description": "<p>The Accretion Explorer (AE) is a mission architecture that will shatter new ground by creating X-ray images at scientifically critical energies of 0.7-1.2 keV, 1.5-2.5 keV, 6-7 keV, up to 6 orders of magnitude better than Chandra, and will offer imaging at 4-5 orders of magnitude better than JWST (IR) and HST(optical/UV). The specific X-ray energy bands we are proposing to cover contain vital X-ray line signatures that can distinguish between SMBH activity and stellar processes. </p><p>Our st",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/15/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158358,
+    "title": "The Ribbon: Structure Free Sail for Solar Polar Observation",
+    "description": "<p>The ribbon sail is a film strip with diffractive grating that works with the surface-normal photonic pressure components on its two sides (originating from the incoming, reflected, and refracted light) canceled out. This occurs when the strip is straight and properly oriented with a tilt from the direction of illumination; then the thrust aligns with the ribbon and propels it toward its leading end. If the rear is restrained by the inertia of a payload, then tension builds up along the strip ",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/15/26",
+    "center": "TentGuild Engineering Company",
+    "technologyArea": "",
+    "partners": [
+      "TentGuild Engineering Company"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158357,
+    "title": "Fusion-Enabled Comprehensive Exploration of the Heliosphere",
+    "description": "<p>This proposal aims to revolutionize space exploration by developing a constellation of spacecraft powered by the Helicity Drive, a compact and scalable fusion propulsion system. This innovative technology will enable rapid, multi-directional exploration of the heliosphere and beyond, providing unprecedented insights into the Sun's vast influence on our solar system and its interaction with interstellar space.</p><p>We will conduct a comprehensive feasibility study, including advanced modeling",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/15/26",
+    "center": "Helicity Space LLC",
+    "technologyArea": "",
+    "partners": [
+      "Helicity Space LLC"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158356,
+    "title": "TOBIAS: Tethered Observatory for Balloon-based Imaging and Atmospheric Sampling",
+    "description": "<p>A basketball-sized towbody containing a camera, atmospheric sampling instruments, and support hardware is suspended on a multi-kilometer tether from a high-altitude balloon in the Venusian atmosphere, allowing it to peer beneath the dense cloud layer and image the surface at high resolution. The towbody harvests energy from the differential wind shear via an onboard wind turbine to power onboard instruments and active cooling system. Aerodynamic surfaces interacting with the relative wind she",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/15/26",
+    "center": "Jet Propulsion Laboratory",
+    "technologyArea": "",
+    "partners": [
+      "Jet Propulsion Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158355,
+    "title": "Construction Assembly Destination",
+    "description": "<p>Future human expansion into space will require bigger and more capable spacecraft than could ever feasibly be launched from Earth, to achieve this, shipyards in space are not only practical, they are required. ThinkOrbital will perform a study to identify the challenges associated with fabricating a shipyard in space using technologies and assets available today. </p>",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/15/26",
+    "center": "Thinkorbital Inc.",
+    "technologyArea": "",
+    "partners": [
+      "Thinkorbital Inc."
+    ],
+    "website": ""
+  },
+  {
+    "id": 158354,
+    "title": "Hydrogen Hybrid Power for Aviation Sustainable Systems (Hy2PASS)",
+    "description": "<p>The purpose of this program is to demonstrate the merits of hydrogen hybrid fuel cell/gas turbine engine power systems for sustainable commercial transport aircraft design and mission-optimized performance. The innovative nature of the proposed study is not in the broad concept of hybridization, but rather the specific architecture of hybridization, how it changes the fundamental elements of the aircraft integration, and how these holistic design changes can be leveraged to simultaneously res",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/15/26",
+    "center": "University of Illinois at Urbana-Champaign",
+    "technologyArea": "",
+    "partners": [
+      "University of Illinois at Urbana-Champaign"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158334,
+    "title": "LEAP - Legged Exploration Across the Plume",
+    "description": "<p>We propose Legged Exploration Across the Plume (LEAP), based on the Salto jumping robot as a novel multi-jet robotic sampling concept for Enceladus to be deployed from Enceladus Orbilander. LEAP self-deploys from the Enceladus Orbilander as a low-mass leaping \u201crover\u201d to directly measure plume gas pressure or potentially particle flux or size distribution by repeatedly leaping through jets. This enables direct measurement of plume parameters and potentially collection and return to Orbilander ",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/15/26",
+    "center": "University of Illinois at Urbana-Champaign",
+    "technologyArea": "Robotic Systems",
+    "partners": [
+      "University of Illinois at Urbana-Champaign",
+      "Jet Propulsion Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158329,
+    "title": "Exploring Venus with Electrolysis (EVE)",
+    "description": "<p>Using Solid Oxide Electrolysis, EVE enables balloon exploration of Venus with unlimited duration by replenishing the initial buoyant gas with CO and O\u2082 from the ambient CO\u2082 derived using Solid Oxide Electrolysis (SOE). CO and O\u2082 can also be used for power during the ~50 hr night-time traverse or to provide rocket propulsion. The innovation also enables large mobile future platforms capable of providing compressed fuel and oxygen to a fleet of airborne explorers. In NIAC Phase I we will model ",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/15/26",
+    "center": "Massachusetts Institute of Technology",
+    "technologyArea": "",
+    "partners": [
+      "Massachusetts Institute of Technology"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158294,
+    "title": "SUPREME-QG: Space-borne Ultra-Precise Measurement of the Equivalence Principle Signature of Quantum Gravity",
+    "description": "<p>We propose to investigate the use of a radically new method that leverages quantum entanglement to test the EP with extreme precision, at the level of Eta ~ 10^(-20), using a space-borne platform. This method is described in a recent paper by us (PRD 108, 024011, \u201923). It makes use of simultaneous Schroedinger Cat (SC) state atom interferometers (AIs) with two isotopes of Rb. Consisting of N=10^6 atoms, the SC state, which is a maximally entangled quantum state generated via spin-squeezing of",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/15/26",
+    "center": "Northwestern University",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Northwestern University"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158293,
+    "title": "Lunar Glass Structure (LUNGS): Enabling Construction of Monolithic Habitats in Low-Gravity Environments",
+    "description": "<p>As part of a NASA Innovative Advanced Concepts (NIAC) study, we proposed constructing a large-scale, monolithic lunar glass habitat in a low-gravity environment. This innovative approach involves in-situ melting of lunar glass compounds and the creation of a large spherical shell structure, representing a significant departure from current habitat construction methods.</p><p>Traditional construction methods, such as using prefabricated parts, 3-D printing, inflatable systems, and complex asse",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/15/26",
+    "center": "Skyeports LLC",
+    "technologyArea": "Human Health, Life Support, and Habitation Systems",
+    "partners": [
+      "Skyeports LLC"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158096,
+    "title": "Thermo-Photo-Catalysis of Water for Crewed Mars Transit Spacecraft Oxygen Supply",
+    "description": "<p>Precision Combustion, Inc. (PCI) proposes to develop a uniquely compact, lightweight, low-power, and durable Microlith\u00ae Thermo-Photo-Catalytic (TPC) Reactor for crewed Mars transit spacecraft O2 supply. As crewed space exploration mission destinations move from low Earth orbit to sustained lunar surface habitation toward Mars exploration, the need becomes more intense to supplant heritage physics-chemical unit operations employed for crewed spacecraft cabin CO2 removal, CO2 reduction, and O2 ",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/15/26",
+    "center": "Precision Combustion, Inc.",
+    "technologyArea": "Human Health, Life Support, and Habitation Systems",
+    "partners": [
+      "Precision Combustion, Inc."
+    ],
+    "website": ""
+  },
+  {
+    "id": 158095,
+    "title": "Dynamically Stable Large Space Structures via Architected Metamaterials",
+    "description": "<p>This study will design a starshade structure that utilizes novel dissipative and phononic metamaterials to design ultra-stable occulter structures at a fraction of the mass of traditional deployable designs. By enabling lower mass starshades with lower fuel requirements, this technology can transform our ability to discover exoplanets.</p>",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/15/26",
+    "center": "Ames Research Center",
+    "technologyArea": "",
+    "partners": [
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158091,
+    "title": "Inflatable Starshade for Earthlike Exoplanets",
+    "description": "<p>We will design the first family of ISEE's (Inflatable Starshade for Earthlike Exoplanets) with sizes from 35 to 100 m diameter. A starshade would enable any telescope to observe exoplanets, a top priority for astronomy worldwide. Compared with other starshade concepts, we aim for a lower mass, cost and complexity, while still providing high performance and science yield (>100 targets). Our starshades would be compatible with the 6 m diameter Habitable Worlds Observatory (HWO) now being planne",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/15/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157995,
+    "title": "PULSAR: Planetary pULSe-tAkeR",
+    "description": "<p>PULSAR is a stable spacecraft constellation that enables large and reconfigurable detector baselines to sense a wide range of frequencies in this coupled domain, and distributed spatial and temporal measurements on a global scale, leading to new planetary science measurements. </p>",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/15/26",
+    "center": "Jet Propulsion Laboratory",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Jet Propulsion Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 155370,
+    "title": "PTD-R - Lawrence Livermore Deep Violet Instrument",
+    "description": "The Deep Purple payload is unique in its contraction that provides for a very robust optical system capable of very stable high performance in the ultraviolet (UV) and short-wave infrared (SWIR) wavelengths while operating in the space environment.  Deep Purple will observe the UV and SWIR light from high-UV stars and the Milky Way\u2019s galactic bulge. The mission is the first flight demonstration of UV and SWIR monolithic telescopes, UV optimized CMOS sensors, a small pixel InGaAs sensor, and a ca",
+    "status": "Completed",
+    "startDate": "Jun 2022",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/15/26",
+    "center": "Lawrence Livermore National Laboratory",
+    "technologyArea": "Optical Components",
+    "partners": [
+      "Lawrence Livermore National Laboratory"
+    ],
+    "website": ""
+  },
+  {
     "id": 93358,
     "title": "A High Efficiency Cryocooler for In-Space Cryogenic Propellant Storage",
     "description": "NASA is considering multiple missions involving long-term cryogen storage in space. Liquid hydrogen and liquid oxygen are the typical cryogens as they provide the highest specific impulse of practical chemical propellants. These cryogens are stored at temperatures of nominally 20 K for hydrogen and 90 K for oxygen. Due to the large size of these tanks, refrigeration loads to maintain zero-boil-off are high, on the order of tens of watts at 20 K and hundreds of watts at 90 K. Space cryocoolers ha",
@@ -844,67 +1175,181 @@
     "website": ""
   },
   {
-    "id": 182263,
-    "title": "Replicating epoxy optical surfaces on ceramic shells to produce high-angular resolution, lightweight full-shell X-ray optics",
-    "description": "The need for high-angular resolution and high-throughput X-ray optics is strongly endorsed by the \"Astro2020, Pathways to Discovery in Astronomy and Astrophysics for the 2020s\" report.  Astro2020 highlights that this capability enables or enhances all three priority science areas:  Pathways to Habitable Worlds, New Windows on the Dynamic Universe, and Unveiling the Drivers of Galaxy Growth. In addition to enabling the science of a future flagship X-ray observatory, the astronomy community at lar",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Jul 2026",
+    "id": 183837,
+    "title": "Developing a Gamma Ray Reflectometer for 511 keV Multilayer Performance Characterization",
+    "description": "The soft-gamma-ray emission line at 511 keV is an important tracer of electron-positron annihilation in our Galaxy. Current 511 keV emission maps show an unusual concentration in the Galactic center (GC) region and along the disk, a spatial distribution that does not match that seen in other wavelengths. Due to the challenges of imaging the annihilation emission, the source of Galactic positrons remains an open question. Identifying and spatially resolving an individual source of positrons shini",
+    "status": "Active",
+    "startDate": "Oct 2025",
+    "endDate": "Sep 2028",
     "lastUpdated": "08/20/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "Observatories",
-    "partners": [
-      "NASA Headquarters",
-      "Marshall Space Flight Center",
-      "Smithsonian Astrophysical Observatory",
-      "The Aerospace Corporation"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182241,
-    "title": "Development of a Low EMI and Acoustic Background Characterization Testbed for Ultra-low Noise Transition Edge Sensor Bolometers",
-    "description": "Ultra-low noise bolometers seek to solve a number of current problems in the sensitive detection of optical thru microwave photons, ranging from background-limited astronomical detectors in Far Infrared (FIR), to the characterization and interconnection of qubits for quantum computation (QC). As advances are made in the design and fabrication of ultra-low noise bolometers, the need for platforms capable of characterizing these devices and the materials from which they are made rises. The bolomet",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "08/20/26",
-    "center": "NASA Headquarters",
+    "center": "University of Iowa",
     "technologyArea": "Remote Sensing Instruments and Sensors",
     "partners": [
-      "NASA Headquarters",
-      "Goddard Space Flight Center",
-      "National Institute of Standards and Technology"
+      "University of Iowa",
+      "Goddard Space Flight Center"
     ],
     "website": ""
   },
   {
-    "id": 182231,
-    "title": "Flat Lens Ultraviolet Optics for Astrophysics",
-    "description": "Wide field-of-view monitoring in the ultraviolet (UV; <350--400 nm) is an unexplored frontier in time-domain astrophysics, as highlighted in the most-recent Astro2020 Decadal report. Existing approaches to wide-field UV optics rely on a complex set of refractive or hybrid refractive-diffractive elements with a bulk and weight that make them costly to build and deploy in space. Compact flat-lens optics offer a novel approach that will be smaller, lighter, and potentially less expensive.  Efforts ",
+    "id": 182232,
+    "title": "FOXSI-5: A Rocket Re-flight for High Resolution Focused X-ray Observations of the Sun",
+    "description": "We propose a reflight of the Focusing Optics X-ray Solar Imager (FOXSI-5) experiment in a sounding rocket solar flare campaign to investigate particle acceleration and energy release in a large solar flare.  A sounding rocket campaign, including triggered observations of solar flares, is a new capability for NASA. Before the development of the flare campaign concept, sounding rocket experiments had limited launch windows and could only observe quiescent conditions (or small microflares if they o",
+    "status": "Completed",
+    "startDate": "Jun 2024",
+    "endDate": "May 2026",
+    "lastUpdated": "08/20/26",
+    "center": "University of California-Berkeley",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "University of California-Berkeley",
+      "Goddard Space Flight Center",
+      "Japan Aerospace Exploration Agency",
+      "Marshall Space Flight Center",
+      "Nagoya University",
+      "National Astronomical Observatory of Japan",
+      "University of Minnesota-Twin Cities",
+      "University of Tokyo"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182230,
+    "title": "The Next Stage of X-ray Speed-Reading: Developing a SiSeRO Active Pixel Matrix",
+    "description": "The most recent NASA Astrophysics Biennial Technology Report identifies \"fast, low-noise, megapixel X-ray imaging arrays\" and \"rapid readout electronics for X-ray detectors'' as high priority technology development gaps for future PCOS strategic astrophysics missions. A future X-ray flagship observatory of the type envisaged by the Astro2020 Decadal Survey, and X-ray Probe mission concepts such as AXIS, provide examples of strategic missions requiring large (megapixel) detectors capable of suppo",
+    "status": "Active",
+    "startDate": "Dec 2024",
+    "endDate": "Nov 2027",
+    "lastUpdated": "08/20/26",
+    "center": "Stanford University",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Stanford University",
+      "Massachusetts Institute of Technology",
+      "Massachusetts Institute of Technology Lincoln Laboratory",
+      "MIT Kavli Institute for Astrophysics and Space Research"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182266,
+    "title": "Far-infrared photon-counting arrays based on superconducting nanowires",
+    "description": "The 2020 decadal survey prioritized a broad range of far-infrared science related to astrochemical signatures of planet formation, buildup of galaxies, heavy elements, and interstellar dust from the first galaxies to today. Additionally, improved long wavelength observations enable instruments to peer through dusty gas, to reveal regions of high mass star formation.  The short wavelength end of this region, namely 25-120 um, is particularly lacking in detector arrays with high sensitivity. Photo",
     "status": "Active",
     "startDate": "Oct 2024",
     "endDate": "Sep 2027",
     "lastUpdated": "08/20/26",
-    "center": "Naval Research Laboratory",
-    "technologyArea": "Sensing and Perception",
+    "center": "California Institute of Technology",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
     "partners": [
-      "Naval Research Laboratory"
+      "California Institute of Technology",
+      "Jet Propulsion Laboratory",
+      "Massachusetts Institute of Technology"
     ],
     "website": ""
   },
   {
-    "id": 182268,
-    "title": "Vanadium Superconducting Heat Switch for Adiabatic Demagnetization Refrigeration",
-    "description": "Lead is the current baseline choice material for superconducting heat switches in Adiabatic Demagnetization Refrigerators at sub-1 Kelvin temperatures.   A study of the material parameters of other candidate superconducting materials has shown that Vanadium has the potential to have more than 10 times better performance than Lead when implemented in a superconducting heat switch.  However, Vanadium with very high purity is needed to realize this potential advantage.   The proposed work will incl",
+    "id": 182237,
+    "title": "STarlight Acquisition and Reflection toward Interferometry : Precision formation-flying cubesats enabling space interferometry",
+    "description": "Ground-based long-baseline interferometry provides milli-arcsecond imaging across the electromagnetic spectrum, allowing new views of the event horizon of a blackhole, surfaces of stars beyond the Sun, and high-precision spectra of exoplanets.  These breakthrough discoveries are the tip of the iceberg of the potential for interferometry and NASA has repeatedly placed space interferometry on its strategic technology roadmap needed in the fields of x-ray, optical and far-infrared astronomy.  Most ",
     "status": "Active",
-    "startDate": "Sep 2024",
-    "endDate": "Aug 2027",
+    "startDate": "Dec 2024",
+    "endDate": "Nov 2029",
     "lastUpdated": "08/20/26",
-    "center": "University of Wisconsin-Madison",
-    "technologyArea": "Cryogenic Systems",
+    "center": "University of Michigan-Ann Arbor",
+    "technologyArea": "Guidance and Targeting Algorithms",
     "partners": [
-      "University of Wisconsin-Madison",
+      "University of Michigan-Ann Arbor",
+      "Georgia Tech Research Corporation",
+      "Jet Propulsion Laboratory",
+      "Massachusetts Institute of Technology",
+      "Rensselaer Polytechnic Institute",
+      "Stanford University"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182224,
+    "title": "Development of Space Qualified Signal Processing Readout Electronics for HabWorlds and Origins Space Telescope Detector Arrays",
+    "description": "We propose to optimize the performance of low power FPGA-based readout electronics systems for use with arrays of superconducting detectors such as transition edge sensors (TES) and kinetic inductance detectors (KIDs). Future space astrophysics missions such as HabWorlds Observatory and the Origins Space Telescope (OST) will require arrays of thousands of superconducting detectors. The complexity of the instrument can be reduced by implementing a multiplexing readout electronics system with high",
+    "status": "Active",
+    "startDate": "Aug 2024",
+    "endDate": "Jul 2027",
+    "lastUpdated": "08/20/26",
+    "center": "Arizona State University-Tempe",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Arizona State University-Tempe",
+      "Goddard Space Flight Center",
+      "Jet Propulsion Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182222,
+    "title": "The EUV Snapshot Imaging Spectrograph II",
+    "description": "Magnetic reconnection is expected to play a major role in the mass and energy balance in the solar corona. One byproduct of magnetic reconnection is the acceleration of high energy electrons, frequently called electron beams, that flow down magnetic field lines and impact the transition region and chromosphere, heating and ablating plasma to form hot coronal plasma (Emslie, 1978). Recently, significant evidence of electron beams has been discovered in transition region and chromospheric images a",
+    "status": "Active",
+    "startDate": "Jun 2024",
+    "endDate": "May 2027",
+    "lastUpdated": "08/20/26",
+    "center": "NASA Headquarters",
+    "technologyArea": "Software Development, Engineering, and Integrity",
+    "partners": [
+      "NASA Headquarters",
+      "American University",
+      "Goddard Space Flight Center",
+      "Marshall Space Flight Center",
+      "Montana State University - Bozeman",
+      "Universities Space Research Association"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182223,
+    "title": "Designing and Fabricating Multilayer Optics to Enable a Future 511 keV Focusing Imager",
+    "description": "The soft-gamma ray emission line at 511 keV is an important tracer of electron-positron annihilation in our galaxy. The 511 keV emission mapped by INTEGRAL/SPI shows an unusual concentration of emission in the the Galactic center region and and along the disk, a distribution that does not match the emission distributions seen in other wavelengths. Due to the challenges of imaging the annihilation emission, the source of Galactic positrons remains an open question. While the Compton Spectrometer ",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2027",
+    "lastUpdated": "08/20/26",
+    "center": "University of Iowa",
+    "technologyArea": "Other Sensors and Instruments",
+    "partners": [
+      "University of Iowa",
+      "Goddard Space Flight Center",
+      "Marshall Space Flight Center",
+      "University of Wuerzburg"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182272,
+    "title": "Terahertz HEB mixers with the Negative Electrothermal Feedback",
+    "description": "Superconducting hot-electron bolometers (HEB) occupy a unique niche being the only suitable heterodyne detector technology for astrophysics in the 1.3-5 THz range. After their inception in 1990, the HEB mixers have become widespread and used by many research groups worldwide. The most noticeable application has been on the space-borne Herschel/HIFI instrument but also SOFIA/GREAT & upGREAT instruments, and on past and upcoming balloon instruments such as STO, STO-2, GUSTO, and ASTHROS. All these",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2027",
+    "lastUpdated": "08/20/26",
+    "center": "California Institute of Technology",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "California Institute of Technology",
+      "Jet Propulsion Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182235,
+    "title": "Thermal Kinetic Inductance Detectors for a CMB space observatory",
+    "description": "The 2020 decadal survey identified a CMB space observatory as a possible probe for the 2030s. Such an experiment would measure B-mode polarization to unprecedented levels while separating primordial and galactic components, and would test a large section of parameter space of inflationary models. This observatory would follow DOE's CMB S4 experiment with enhanced foreground control and full sky maps. However, there is considerable work to be done on instrument development to ready NASA and the C",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2027",
+    "lastUpdated": "08/20/26",
+    "center": "California Institute of Technology",
+    "technologyArea": "Sensing and Perception",
+    "partners": [
+      "California Institute of Technology",
       "Jet Propulsion Laboratory"
     ],
     "website": ""
@@ -928,82 +1373,55 @@
     "website": ""
   },
   {
-    "id": 182290,
-    "title": "The Terahertz Intensity Mapper",
-    "description": "The Terahertz Intensity Mapper (TIM) is a balloon-borne far-infrared (FIR) imaging spectrometer designed to characterize the cosmic star formation history and unveil the forces driving galaxy assembly over cosmic time.   TIM has been optimized for a new observational technique called \"line intensity mapping\" (LIM), which has the potential to access unexplored and unique cosmological and astrophysical phase space. In its Antarctic science flight, TIM will map the redshifted 158 \u03bcm line of ionized",
+    "id": 182265,
+    "title": "Technology development in UV coronagraphy to enable characterization of Earth-like exoplanets",
+    "description": "NASA's Habitable Worlds Observatory (HWO) concept and the 2020 Decadal Survey's recommendation to develop a large space telescope to \"detect and characterize Earth-like extrasolar planets\" requires new starlight suppression technologies to probe a variety of biomarkers across multiple wavelengths. Oxygen abundance in an exoplanet atmosphere is one of the key ensembles of features which suggest biological activity and constrains the evolutionary stage of an Earth-like planet atmosphere (Archean, ",
     "status": "Active",
-    "startDate": "Jul 2024",
-    "endDate": "Jun 2029",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2027",
     "lastUpdated": "08/20/26",
-    "center": "",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "center": "University of Arizona",
+    "technologyArea": "Observatories",
     "partners": [
-      "Arizona State University-Tempe",
-      "California Institute of Technology",
-      "Cardiff University",
-      "Flatiron Institute",
-      "Harvard-Smithsonian Center for Astrophysics",
-      "Jet Propulsion Laboratory",
-      "Max-Planck-Institut f\u00fcr Astronomie",
       "University of Arizona",
-      "University of British Columbia",
-      "University of Florida",
-      "University of Illinois at Urbana-Champaign",
-      "University of Pennsylvania",
-      "University of Virginia-Main Campus"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182229,
-    "title": "Single-photon counting with SiSeRO to search for Earth-like planets.",
-    "description": "This proposal is dedicated to elevating the technical readiness of the innovative fully-depleted thick p-channel CCD featuring Single Electron Sensitive ReadOut (SiSeRO). Specifically designed as a single photon counter for the Habitable Worlds Observatory (HWO), the p-channel SiSeRO has exhibited exceptional electronic performance in controlled laboratory settings, demonstrating its capability for single electron sensitivity owing to minimal readout noise. Our proposal outlines a comprehensive ",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
-    "lastUpdated": "08/20/26",
-    "center": "University of Chicago",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "University of Chicago",
-      "Fermi National Accelerator Laboratory",
-      "Goddard Space Flight Center",
-      "Lawrence Berkeley National Laboratory",
-      "Massachusetts Institute of Technology Lincoln Laboratory",
-      "Universidad Nacional de Cordoba"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182288,
-    "title": "Frequency Programmable Resonators",
-    "description": "Superconducting resonators are key building blocks of superconducting qubits and Microwave Kinetic Inductance Detectors (MKIDs). Over the last 20 years significant effort has gone in to understanding and optimizing their properties, leading to an explosion in quantum sensing science exemplified by the recent discovery of new substellar companions with MKIDs. Most of the resonator-related work in the field has focused on improving the internal quality factor (increasing qubit coherence times) of ",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
-    "lastUpdated": "08/20/26",
-    "center": "University of California-Santa Barbara",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "University of California-Santa Barbara"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182230,
-    "title": "The Next Stage of X-ray Speed-Reading: Developing a SiSeRO Active Pixel Matrix",
-    "description": "The most recent NASA Astrophysics Biennial Technology Report identifies \"fast, low-noise, megapixel X-ray imaging arrays\" and \"rapid readout electronics for X-ray detectors'' as high priority technology development gaps for future PCOS strategic astrophysics missions. A future X-ray flagship observatory of the type envisaged by the Astro2020 Decadal Survey, and X-ray Probe mission concepts such as AXIS, provide examples of strategic missions requiring large (megapixel) detectors capable of suppo",
-    "status": "Active",
-    "startDate": "Dec 2024",
-    "endDate": "Nov 2027",
-    "lastUpdated": "08/20/26",
-    "center": "Stanford University",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Stanford University",
+      "Cornell University",
+      "Laboratoire Lagrange - Observatoire de la Cote d'Azur",
       "Massachusetts Institute of Technology",
-      "Massachusetts Institute of Technology Lincoln Laboratory",
-      "MIT Kavli Institute for Astrophysics and Space Research"
+      "National Center for Atmospheric Research",
+      "Princeton University",
+      "Steward Observatory",
+      "University of California-Santa Cruz"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182277,
+    "title": "Scheduling the Unexpected: A Multi-Messenger, Multi-Mission Observation Planning Toolkit for Ground and Space Based Telescopes",
+    "description": "The adventure of multi-messenger astronomy (MMA) began with the direct detection of gravitational waves (GWs) by the Laser Interferometer Gravitational-wave Observatory (LIGO) and Virgo from the binary neutron star merger GW170817, its short gamma-ray burst (GRB) afterglow, and an optical/infrared kilonova counterpart, AT2017gfo. This kilonova is driven by the radioactive decay of r-process elements in highly neutron-rich, unbound matter that can heat the ejecta and power a thermal ultraviolet/o",
+    "status": "Active",
+    "startDate": "Sep 2024",
+    "endDate": "Aug 2027",
+    "lastUpdated": "08/20/26",
+    "center": "University of Minnesota-Twin Cities",
+    "technologyArea": "Software Development, Engineering, and Integrity",
+    "partners": [
+      "University of Minnesota-Twin Cities"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182268,
+    "title": "Vanadium Superconducting Heat Switch for Adiabatic Demagnetization Refrigeration",
+    "description": "Lead is the current baseline choice material for superconducting heat switches in Adiabatic Demagnetization Refrigerators at sub-1 Kelvin temperatures.   A study of the material parameters of other candidate superconducting materials has shown that Vanadium has the potential to have more than 10 times better performance than Lead when implemented in a superconducting heat switch.  However, Vanadium with very high purity is needed to realize this potential advantage.   The proposed work will incl",
+    "status": "Active",
+    "startDate": "Sep 2024",
+    "endDate": "Aug 2027",
+    "lastUpdated": "08/20/26",
+    "center": "University of Wisconsin-Madison",
+    "technologyArea": "Cryogenic Systems",
+    "partners": [
+      "University of Wisconsin-Madison",
+      "Jet Propulsion Laboratory"
     ],
     "website": ""
   },
@@ -1025,52 +1443,125 @@
     "website": ""
   },
   {
-    "id": 182223,
-    "title": "Designing and Fabricating Multilayer Optics to Enable a Future 511 keV Focusing Imager",
-    "description": "The soft-gamma ray emission line at 511 keV is an important tracer of electron-positron annihilation in our galaxy. The 511 keV emission mapped by INTEGRAL/SPI shows an unusual concentration of emission in the the Galactic center region and and along the disk, a distribution that does not match the emission distributions seen in other wavelengths. Due to the challenges of imaging the annihilation emission, the source of Galactic positrons remains an open question. While the Compton Spectrometer ",
+    "id": 147023,
+    "title": "Physical Science Informatics Data Repository",
+    "description": "<p>The NASA Physical Science Informatics (PSI) project provides the opportunity for researchers to utilize data and results from prior physical science flight investigations to expand on the research performed. This approach allows numerous ground-based investigations to be conducted from one flight experiment\u2019s data, dramatically increasing our body of knowledge.</p>  <p>Since 2001, microgravity physical science experiments have been conducted on the International Space Station (ISS). The ISS p",
+    "status": "Active",
+    "startDate": "Jan 2014",
+    "endDate": "Sep 2030",
+    "lastUpdated": "08/20/26",
+    "center": "Marshall Space Flight Center",
+    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
+    "partners": [
+      "Marshall Space Flight Center",
+      "Biological and Physical Sciences"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182255,
+    "title": "The Super - High Energy Replicated Optics Hard X-ray Telescope",
+    "description": "This proposal is for Super - High Energy Replicated Optics (SuperHERO), a high-angular-resolution, balloon-borne, hard-X-ray observatory. A follow-on version of NASA Marshall Space Flight Center's (MSFC's) successful HERO and HEROES missions, SuperHERO will implement recent advancements in MSFC's replicated nickel shell optics technology to achieve better than 10 arcsecond angular resolution performance in the hard X-ray (>20 keV) bandpass. This represents nearly an order of magnitude improvemen",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2029",
+    "lastUpdated": "08/20/26",
+    "center": "NASA Headquarters",
+    "technologyArea": "",
+    "partners": [
+      "NASA Headquarters",
+      "Columbia Astrophysics Laboratory",
+      "Japan Aerospace Exploration Agency",
+      "Marshall Space Flight Center",
+      "Middlebury College",
+      "Smithsonian Astrophysical Observatory",
+      "Universities Space Research Association",
+      "University of New Hampshire-Main Campus",
+      "University of Tokyo",
+      "Washington University in St Louis"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182284,
+    "title": "Advancing precision exoplanet science using single-mode fiber-fed spectroscopy",
+    "description": "High resolution spectroscopic measurements will continue to play an essential role in informing our understanding of exoplanet orbits (period, eccentricity, spin-orbit alignment), masses, and bulk compositions in the coming decades. Studying these key physical properties will help to assess the potential for habitability while also developing a more holistic understanding of planet formation and evolution. In addition to supporting transit surveys, the radial velocity (RV) method will also play ",
     "status": "Active",
     "startDate": "Oct 2024",
     "endDate": "Sep 2027",
     "lastUpdated": "08/20/26",
-    "center": "University of Iowa",
+    "center": "Ohio State University-Main Campus",
     "technologyArea": "Other Sensors and Instruments",
     "partners": [
-      "University of Iowa",
+      "Ohio State University-Main Campus",
+      "Conceptual Analytics, LLC",
       "Goddard Space Flight Center",
-      "Marshall Space Flight Center",
-      "University of Wuerzburg"
+      "Large Binocular Telescope Observatory",
+      "Macquarie University",
+      "Markury Scientific, Inc.",
+      "University of Notre Dame"
     ],
     "website": ""
   },
   {
-    "id": 182262,
-    "title": "Build and Commission a new Space Optics Laboratory (SOL) at UMass Lowell",
-    "description": "This is the Roman Technology Fellowship (RTF) funding proposal to build and commission a new Space Optics Laboratory (SOL) at UMass Lowell (UML) under the leadership of RTF fellow, Christopher Mendillo.  Dr. Mendillo is currently a research professor in the physics department at UML and the PI of the PICTURE-D mission, a balloon-borne suborbital research program to directly image several debris disks around nearby stars in reflected visible light. The new 350 sq ft. laboratory space will be equi",
+    "id": 182249,
+    "title": "Piezo-optic Phase Shifters for Integrated Astro-photonics",
+    "description": "Recently, advances in integrated photonics have opened the door to new types of solid-state astronomical instruments that can manipulate light collected by a telescope using optical microchips. Leveraging precise optical phase control across multiple photonic channels, these 'astrophotonic' devices offer potential transformative capabilities for applications such as wavefront sensing and high-contrast imaging. The potential impact of astrophotonics to practical applications is highlighted by the",
     "status": "Active",
     "startDate": "Sep 2024",
     "endDate": "Aug 2027",
     "lastUpdated": "08/20/26",
-    "center": "University of Massachusetts-Lowell",
-    "technologyArea": "Software Development, Engineering, and Integrity",
+    "center": "California Institute of Technology",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
     "partners": [
-      "University of Massachusetts-Lowell"
+      "California Institute of Technology",
+      "Jet Propulsion Laboratory"
     ],
     "website": ""
   },
   {
-    "id": 182260,
-    "title": "Demonstration of an HgCdTe Detector-Based Ultra-Stable Mid- Infrared Spectrometer for Transit Spectroscopy and Phase Curve Observations of Habitable Planets Around M-Stars",
-    "description": "Our goal is to demonstrate the performance of a new ultra-stable HgCdTe (HgCdTe) detector-based mid-infrared (MIR) spectrometer in the laboratory. An existing long-wavelength HgCdTe detector array (Cabrera et al. 2020), provided by one of our collaborators, will be integrated into the existing experiment that uses a high precision calibration scheme, which we call MIRASET (the Mid-InfraRed Array Spectrometer for Exoplanet Transits; Staguhn et al. 2019). MIRASET is currently equipped with superco",
+    "id": 182283,
+    "title": "Development of blocking filters using high throughput SiC grids",
+    "description": "Several of the proposed Astrophysics probe missions, that will be selected for Phase A in early 2025, have baselined soft X-ray imaging using cooled detectors (AXIS, LEM, and HEX-P). Past orbital missions, such as Chandra, have shown how contamination accumulation on their blocking filters can impact instrument performance. The Chandra ACIS lost 25% of its 0.66 keV signal in one year and over 95% over 19 years, with the accumulation rates being 100 times higher than pre-flight estimates. The abi",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2027",
+    "lastUpdated": "08/20/26",
+    "center": "Pennsylvania State University-Main Campus",
+    "technologyArea": "Observatories",
+    "partners": [
+      "Pennsylvania State University-Main Campus"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182238,
+    "title": "Flex Modules for manufacturable high-resolution X-ray telescope optics",
+    "description": "This proposal aims to advance PI Chalifoux's research and technology development program focused on the optomechanical challenges that must be solved for future high resolution, large-area X-ray telescopes to be successful. Current X-ray mirror module assembly processes are artisanal, but for future large high-resolution missions we must develop an unprecedented manufacturing process to rapidly produce hundreds of square meters of nanometer-accurate optical surfaces with hundreds of prescription",
     "status": "Active",
     "startDate": "Oct 2024",
     "endDate": "Sep 2026",
     "lastUpdated": "08/20/26",
-    "center": "Johns Hopkins University",
+    "center": "University of Arizona",
+    "technologyArea": "Observatories",
+    "partners": [
+      "University of Arizona"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182256,
+    "title": "High speed quantum well detectors for long baseline imaging",
+    "description": "Multi-aperture techniques common for radio frequency (RF) observations such as direct-detection (homodyne) interferometry or Very-long-baseline interferometry (VLBI) have seen limited use in the optical domain due to several technological hurdles: optical path control, phase reference stability, and detector bandwidths. Recent advances in time transfer standards and optical frequency comb physics have opened the door to measurement and control of the electromagnetic field at optical frequencies ",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2027",
+    "lastUpdated": "08/20/26",
+    "center": "California Institute of Technology",
     "technologyArea": "Remote Sensing Instruments and Sensors",
     "partners": [
-      "Johns Hopkins University",
-      "Goddard Space Flight Center",
-      "University of Rochester"
+      "California Institute of Technology",
+      "Jet Propulsion Laboratory"
     ],
     "website": ""
   },
@@ -1100,258 +1591,17 @@
     "website": ""
   },
   {
-    "id": 182287,
-    "title": "Building the Foundations for Huge-N Lunar Radio Interferometry",
-    "description": "Observations of the highly-redshifted 21 cm line of neutral hydrogen are the only probe of the Universe's \"Dark Ages\", the period of cosmic history prior to the formation of the first stars and galaxies.  Measurements of the Universe during its Dark Ages, however, would enable unprecedented precision tests of cosmology, greatly exceeding the Cosmic Microwave Background in both information content and impact.  Addressing the challenges inherent in these hydrogen observations is therefore a key un",
+    "id": 183802,
+    "title": "Technology Development for Balloon-borne and Space-Based Microwave Telescopes",
+    "description": "PI Johanna Nagy is building a research program at Case Western Reserve University (CWRU) that focuses on developing instrumentation for Cosmic Microwave Background (CMB) experiments to understand the contents and evolution of the Universe.  Her current program is centered around three major, complementary projects: SPIDER, Taurus, and CMB-S4. Nagy serves in leadership roles in all of these collaborations, which alongside other professional experiences, are enabling her to develop the skills nece",
     "status": "Active",
-    "startDate": "Sep 2024",
-    "endDate": "Aug 2027",
+    "startDate": "Nov 2025",
+    "endDate": "Oct 2028",
     "lastUpdated": "08/20/26",
-    "center": "Brown University",
-    "technologyArea": "Observatories",
-    "partners": [
-      "Brown University"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182235,
-    "title": "Thermal Kinetic Inductance Detectors for a CMB space observatory",
-    "description": "The 2020 decadal survey identified a CMB space observatory as a possible probe for the 2030s. Such an experiment would measure B-mode polarization to unprecedented levels while separating primordial and galactic components, and would test a large section of parameter space of inflationary models. This observatory would follow DOE's CMB S4 experiment with enhanced foreground control and full sky maps. However, there is considerable work to be done on instrument development to ready NASA and the C",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
-    "lastUpdated": "08/20/26",
-    "center": "California Institute of Technology",
-    "technologyArea": "Sensing and Perception",
-    "partners": [
-      "California Institute of Technology",
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182259,
-    "title": "The Off-plane Grating Rocket Experiment : Pathfinder Flight and Ultimate Mission",
-    "description": "Future X-ray astronomy missions will require large advancements in many key technologies to push sensitivity limits, obtain high spatial and spectral resolution, capture transient events, etc.  Spectroscopy remains a key tool for source analysis and current state-of-the-art telescopes are achieving finer foci on lightweight substrates while diffraction gratings are more efficient and capable of higher resolving powers than ever before.  Furthermore, detectors are more sensitive with lower noise ",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2029",
-    "lastUpdated": "08/20/26",
-    "center": "Pennsylvania State University-Main Campus",
-    "technologyArea": "Observatories",
-    "partners": [
-      "Pennsylvania State University-Main Campus",
-      "Goddard Space Flight Center",
-      "INAF - Osservatorio Astronomico di Brera",
-      "Istituto Nazionale di Astrofisica",
-      "Open University"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183274,
-    "title": "A SmallSat Lidar Concept for PBL Height Measurements",
-    "description": "The purpose of this QRS request is to manage the current subsystem contracts (telescope, laser, and electronics) and finalize mechanical design modifications to ensure the new PBL SmallSat lidar instrument meets science needs and spacecraft allocations.",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Mar 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Goddard Space Flight Center",
+    "center": "Case Western Reserve University",
     "technologyArea": "Remote Sensing Instruments and Sensors",
     "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183837,
-    "title": "Developing a Gamma Ray Reflectometer for 511 keV Multilayer Performance Characterization",
-    "description": "The soft-gamma-ray emission line at 511 keV is an important tracer of electron-positron annihilation in our Galaxy. Current 511 keV emission maps show an unusual concentration in the Galactic center (GC) region and along the disk, a spatial distribution that does not match that seen in other wavelengths. Due to the challenges of imaging the annihilation emission, the source of Galactic positrons remains an open question. Identifying and spatially resolving an individual source of positrons shini",
-    "status": "Active",
-    "startDate": "Oct 2025",
-    "endDate": "Sep 2028",
-    "lastUpdated": "08/20/26",
-    "center": "University of Iowa",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "University of Iowa",
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182253,
-    "title": "Advancing Compact, High-Resolution Spectrographs for Astrophysical Missions using Astrophotonics",
-    "description": "Science motivation: A wide variety of science cases in astronomy require high-resolution spectroscopy with resolving powers (R = lambda/delta_lambda) of the order of 50,000. Some of the most significant science cases include spectroscopy of directly imaged exoplanets to study their atmospheric chemistry and kinematics, stellar spectroscopy to precisely measure elemental abundances and to potentially infer the masses of orbiting exoplanets, and quasar spectroscopy to uncover the properties of the",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
-    "lastUpdated": "08/20/26",
-    "center": "University of California-Los Angeles",
-    "technologyArea": "Observatories",
-    "partners": [
-      "University of California-Los Angeles",
-      "California Institute of Technology",
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182272,
-    "title": "Terahertz HEB mixers with the Negative Electrothermal Feedback",
-    "description": "Superconducting hot-electron bolometers (HEB) occupy a unique niche being the only suitable heterodyne detector technology for astrophysics in the 1.3-5 THz range. After their inception in 1990, the HEB mixers have become widespread and used by many research groups worldwide. The most noticeable application has been on the space-borne Herschel/HIFI instrument but also SOFIA/GREAT & upGREAT instruments, and on past and upcoming balloon instruments such as STO, STO-2, GUSTO, and ASTHROS. All these",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
-    "lastUpdated": "08/20/26",
-    "center": "California Institute of Technology",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "California Institute of Technology",
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182282,
-    "title": "New techniques toward the nanofabrication of custom, blazed UV gratings to enable next-generation spectroscopy",
-    "description": "The report from the most recent decadal survey in astronomy and astrophysics, Pathways to Discovery in Astronomy and Astrophysics for the 2020s (ASTRO2020), had two top recommendations for the future of NASA astrophysics: the Habitable Worlds Observatory (HWO) as the next flagship mission, and the Great Observatories Maturation Program (GOMAP) to develop the technology and mission architecture necessary to realize a successful HWO. As part of GOMAP, several key technologies must be further devel",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
-    "lastUpdated": "08/20/26",
-    "center": "California Institute of Technology",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "California Institute of Technology",
-      "Pennsylvania State University-Main Campus"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182249,
-    "title": "Piezo-optic Phase Shifters for Integrated Astro-photonics",
-    "description": "Recently, advances in integrated photonics have opened the door to new types of solid-state astronomical instruments that can manipulate light collected by a telescope using optical microchips. Leveraging precise optical phase control across multiple photonic channels, these 'astrophotonic' devices offer potential transformative capabilities for applications such as wavefront sensing and high-contrast imaging. The potential impact of astrophotonics to practical applications is highlighted by the",
-    "status": "Active",
-    "startDate": "Sep 2024",
-    "endDate": "Aug 2027",
-    "lastUpdated": "08/20/26",
-    "center": "California Institute of Technology",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "California Institute of Technology",
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182226,
-    "title": "Keck Observatory as an HWO Testbed: validating wavefront sensing and control schemes on a large segmented aperture in parallel with high-contrast science",
-    "description": "The Astro2020 Decadal Survey articulated the impact of advancing high contrast imaging technologies for the detection and characterization of habitable worlds in the coming decade: \"exploring terrestrial planets outside our Solar System through direct imaging and spectroscopy will advance one of humanity's greatest quests -- the search for habitable environments and life outside of the Solar System. This transformative goal is at the scientific forefront, connecting astronomy, astrobiology, plan",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
-    "lastUpdated": "08/20/26",
-    "center": "University of California-Santa Cruz",
-    "technologyArea": "Observatories",
-    "partners": [
-      "University of California-Santa Cruz",
-      "California Institute of Technology",
-      "Jet Propulsion Laboratory",
-      "Space Telescope Science Institute"
-    ],
-    "website": ""
-  },
-  {
-    "id": 185014,
-    "title": "The Payload for Ultrahigh Energy Observations : A Long-duration Balloon-borne Instrument for Particle Astrophysics at the Highest Energies",
-    "description": "<p>KEY OBJECTIVES: We propose the newly-designed Payload for Ultrahigh Energy Observations (PUEO), which will characterize the most energetic astrophysical sources at cosmic distances. PUEO detects radio emission from interactions of extremely high energy particles, including neutrinos and cosmic rays. PUEO is especially well-suited for discovering the highest energy neutrinos and searching for transient bursts of neutrinos. By viewing the largest target volumes for neutrino interactions, balloo",
-    "status": "Completed",
-    "startDate": "Feb 2021",
-    "endDate": "Jan 2026",
-    "lastUpdated": "08/20/26",
-    "center": "University of Chicago",
-    "technologyArea": "Field and Particle Detectors",
-    "partners": [
-      "University of Chicago",
-      "Kavli Institute for Cosmological Physics"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182277,
-    "title": "Scheduling the Unexpected: A Multi-Messenger, Multi-Mission Observation Planning Toolkit for Ground and Space Based Telescopes",
-    "description": "The adventure of multi-messenger astronomy (MMA) began with the direct detection of gravitational waves (GWs) by the Laser Interferometer Gravitational-wave Observatory (LIGO) and Virgo from the binary neutron star merger GW170817, its short gamma-ray burst (GRB) afterglow, and an optical/infrared kilonova counterpart, AT2017gfo. This kilonova is driven by the radioactive decay of r-process elements in highly neutron-rich, unbound matter that can heat the ejecta and power a thermal ultraviolet/o",
-    "status": "Active",
-    "startDate": "Sep 2024",
-    "endDate": "Aug 2027",
-    "lastUpdated": "08/20/26",
-    "center": "University of Minnesota-Twin Cities",
-    "technologyArea": "Software Development, Engineering, and Integrity",
-    "partners": [
-      "University of Minnesota-Twin Cities"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182265,
-    "title": "Technology development in UV coronagraphy to enable characterization of Earth-like exoplanets",
-    "description": "NASA's Habitable Worlds Observatory (HWO) concept and the 2020 Decadal Survey's recommendation to develop a large space telescope to \"detect and characterize Earth-like extrasolar planets\" requires new starlight suppression technologies to probe a variety of biomarkers across multiple wavelengths. Oxygen abundance in an exoplanet atmosphere is one of the key ensembles of features which suggest biological activity and constrains the evolutionary stage of an Earth-like planet atmosphere (Archean, ",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
-    "lastUpdated": "08/20/26",
-    "center": "University of Arizona",
-    "technologyArea": "Observatories",
-    "partners": [
-      "University of Arizona",
-      "Cornell University",
-      "Laboratoire Lagrange - Observatoire de la Cote d'Azur",
-      "Massachusetts Institute of Technology",
-      "National Center for Atmospheric Research",
-      "Princeton University",
-      "Steward Observatory",
-      "University of California-Santa Cruz"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182232,
-    "title": "FOXSI-5: A Rocket Re-flight for High Resolution Focused X-ray Observations of the Sun",
-    "description": "We propose a reflight of the Focusing Optics X-ray Solar Imager (FOXSI-5) experiment in a sounding rocket solar flare campaign to investigate particle acceleration and energy release in a large solar flare.  A sounding rocket campaign, including triggered observations of solar flares, is a new capability for NASA. Before the development of the flare campaign concept, sounding rocket experiments had limited launch windows and could only observe quiescent conditions (or small microflares if they o",
-    "status": "Completed",
-    "startDate": "Jun 2024",
-    "endDate": "May 2026",
-    "lastUpdated": "08/20/26",
-    "center": "University of California-Berkeley",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "University of California-Berkeley",
-      "Goddard Space Flight Center",
-      "Japan Aerospace Exploration Agency",
-      "Marshall Space Flight Center",
-      "Nagoya University",
-      "National Astronomical Observatory of Japan",
-      "University of Minnesota-Twin Cities",
-      "University of Tokyo"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182285,
-    "title": "Understanding the limitations of high contrast nulling with photonic components",
-    "description": "The Habitable Worlds Observatory (HWO) will be the first observatory where the primary science focus is the detection and characterization of terrestrial planets in the habitable zones of Sun-like stars. To access the light from the exoplanet needed to conduct the spectroscopy, the HWO will utilize an advanced starlight suppression system. Although the front-runner in this race is a coronagraph, they have not reached the necessary contrast levels. In the near-infrared (J or H band), the angular ",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
-    "lastUpdated": "08/20/26",
-    "center": "California Institute of Technology",
-    "technologyArea": "In Situ Instruments and Sensors",
-    "partners": [
-      "California Institute of Technology",
-      "University of Arizona",
-      "University of California-Los Angeles"
+      "Case Western Reserve University"
     ],
     "website": ""
   },
@@ -1373,107 +1623,6 @@
     "website": ""
   },
   {
-    "id": 182264,
-    "title": "PHANTOM: Precision High-Strain-Composites (HSCs) for AstroNomical Telescope OptoMechanics",
-    "description": "The Precision High-Strain-Composites (HSCs) for AstroNomical Telescope OptoMechanics (PHANTOM) proposal intends to raise the Technology Readiness Level (TRL) of a deployable optical support structure technology that uses thin, flexible composite materials as mechanisms that replace traditional revolute hinges and latches to deploy from the stowed launch configuration to the on-orbit operational configuration. This work will raise the TRL from Level 3 to Level 5. Maturing this technology will inv",
-    "status": "Active",
-    "startDate": "Apr 2025",
-    "endDate": "Mar 2027",
-    "lastUpdated": "08/20/26",
-    "center": "Massachusetts Institute of Technology Lincoln Laboratory",
-    "technologyArea": "Materials",
-    "partners": [
-      "Massachusetts Institute of Technology Lincoln Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182266,
-    "title": "Far-infrared photon-counting arrays based on superconducting nanowires",
-    "description": "The 2020 decadal survey prioritized a broad range of far-infrared science related to astrochemical signatures of planet formation, buildup of galaxies, heavy elements, and interstellar dust from the first galaxies to today. Additionally, improved long wavelength observations enable instruments to peer through dusty gas, to reveal regions of high mass star formation.  The short wavelength end of this region, namely 25-120 um, is particularly lacking in detector arrays with high sensitivity. Photo",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
-    "lastUpdated": "08/20/26",
-    "center": "California Institute of Technology",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "California Institute of Technology",
-      "Jet Propulsion Laboratory",
-      "Massachusetts Institute of Technology"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182292,
-    "title": "The FLUID Rocket Payload: Far- and Lyman-Ultraviolet Imaging of High-Redshift Galaxy Analogs",
-    "description": "We propose a five-year suborbital research program to develop and flight-qualify ultraviolet (UV) hardware required to realize NASA's ambitious space mission objectives for the next two decades. We will utilize these advancements to study the distribution and influence of the most massive stars in local galaxies, addressing key ``Cosmic Ecosystems\" science questions from the Astro2020 Decadal Survey.  Our recent projects successfully demonstrated broadband UV-to-IR coatings and large format phot",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2029",
-    "lastUpdated": "08/20/26",
-    "center": "University of Colorado Boulder",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "University of Colorado Boulder",
-      "Consejo Superior de Investigaciones Cient\u00edficas",
-      "Jet Propulsion Laboratory",
-      "Johns Hopkins University",
-      "University of California-Berkeley"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182273,
-    "title": "Transforming Microchannel Plate Photodetectors for Future UV Instruments through Nano-Scale Additive Manufacturing",
-    "description": "For more than 50 years, microchannel plate (MCP) photodetectors have been in use aboard space borne ultraviolet instruments and these missions have made major contributions to our understanding of many types of astronomical objects. The next generation of UV missions have outlined very ambitious scientific goals and will require significant improvements to instrument performance if they are going to be achieved. Through the concept studies initiated by the 2010 Astrophysics Decadal Survey, the L",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
-    "lastUpdated": "08/20/26",
-    "center": "Southwest Research Institute - San Antonio",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Southwest Research Institute - San Antonio",
-      "Argonne National Laboratory",
-      "Robot Nose Corporation"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182257,
-    "title": "Chip-Scale Atom-stabilized MEtrology Laser for Space Telescopes",
-    "description": "Future space-based large telescopes, such as the recent Habitable Worlds Observatory concept, are prioritized in the Astro2020 Decadal Survey. Sharp scientific images require a high-performance laser metrology system (MET) to stabilize and maintain telescope pointing and wavefronts. The laser frequency noise and long-term drift of the laser are two of the main factors in the performance of the telescope and wavefront control, which also directly impact the coronagraph stability, which was listed",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
-    "lastUpdated": "08/20/26",
-    "center": "California Institute of Technology",
-    "technologyArea": "Observatories",
-    "partners": [
-      "California Institute of Technology",
-      "Jet Propulsion Laboratory",
-      "Vapor Cell Technologies, LLC"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182227,
-    "title": "Thermo-Optical Metrology for Exoplanet observatories",
-    "description": "Exoplanet exploration requires a large attenuation of starlight to observe the planets around it. To do so, telescopes include occulters, also known as coronographs. The quality of the observations depends on both the telescope and the coronograph performance, and the wavefront errors must be kept exceptionally low over long time scales. This is so because the telescope and coronograph stabilities are crucial to maintain deep contrast over long time scales (up to days) such that dim Earth-like p",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
-    "lastUpdated": "08/20/26",
-    "center": "University of Arizona",
-    "technologyArea": "In Situ Instruments and Sensors",
-    "partners": [
-      "University of Arizona",
-      "Texas A & M University-College Station"
-    ],
-    "website": ""
-  },
-  {
     "id": 182244,
     "title": "A Novel Asynchronous Integrating Latching controller for MEMS deformable mirrors",
     "description": "All coronagraphic systems under consideration for imaging extra solar planets use some form of deformable mirror to control the wavefront quality of the beam in the instrument.  The lightest and lowest power deformable mirrors are the MEMS based systems.  Unfortunately, the current state of the art controller for such a mirror is large, power inefficient, and requires an enormous interconnecting cable.  While we can produce a deformable mirror the size of a sugar cube, we require power hungry el",
@@ -1490,176 +1639,18 @@
     "website": ""
   },
   {
-    "id": 182270,
-    "title": "Development of 1D Lobster Eye Optics for a Wide-Field X-Ray Transient Monitor",
-    "description": "The Astro2020 Decadal Survey recommended investment in Time Domain and Multi-Messenger Astrophysics (TDAMM) as the top-priority sustaining activity in space for the coming decade. A key goal for TDAMM is the prompt and accurate localization of high energy transients. This would enable multiwavelength study of transients, such as those produced in binary neutron star collisions, that have provided new insights into the universe. The X-ray band is particularly appealing for the localization of hig",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2026",
-    "lastUpdated": "08/20/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "NASA Headquarters",
-      "Marshall Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182238,
-    "title": "Flex Modules for manufacturable high-resolution X-ray telescope optics",
-    "description": "This proposal aims to advance PI Chalifoux's research and technology development program focused on the optomechanical challenges that must be solved for future high resolution, large-area X-ray telescopes to be successful. Current X-ray mirror module assembly processes are artisanal, but for future large high-resolution missions we must develop an unprecedented manufacturing process to rapidly produce hundreds of square meters of nanometer-accurate optical surfaces with hundreds of prescription",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2026",
-    "lastUpdated": "08/20/26",
-    "center": "University of Arizona",
-    "technologyArea": "Observatories",
-    "partners": [
-      "University of Arizona"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182283,
-    "title": "Development of blocking filters using high throughput SiC grids",
-    "description": "Several of the proposed Astrophysics probe missions, that will be selected for Phase A in early 2025, have baselined soft X-ray imaging using cooled detectors (AXIS, LEM, and HEX-P). Past orbital missions, such as Chandra, have shown how contamination accumulation on their blocking filters can impact instrument performance. The Chandra ACIS lost 25% of its 0.66 keV signal in one year and over 95% over 19 years, with the accumulation rates being 100 times higher than pre-flight estimates. The abi",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
-    "lastUpdated": "08/20/26",
-    "center": "Pennsylvania State University-Main Campus",
-    "technologyArea": "Observatories",
-    "partners": [
-      "Pennsylvania State University-Main Campus"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182255,
-    "title": "The Super - High Energy Replicated Optics Hard X-ray Telescope",
-    "description": "This proposal is for Super - High Energy Replicated Optics (SuperHERO), a high-angular-resolution, balloon-borne, hard-X-ray observatory. A follow-on version of NASA Marshall Space Flight Center's (MSFC's) successful HERO and HEROES missions, SuperHERO will implement recent advancements in MSFC's replicated nickel shell optics technology to achieve better than 10 arcsecond angular resolution performance in the hard X-ray (>20 keV) bandpass. This represents nearly an order of magnitude improvemen",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2029",
-    "lastUpdated": "08/20/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "",
-    "partners": [
-      "NASA Headquarters",
-      "Columbia Astrophysics Laboratory",
-      "Japan Aerospace Exploration Agency",
-      "Marshall Space Flight Center",
-      "Middlebury College",
-      "Smithsonian Astrophysical Observatory",
-      "Universities Space Research Association",
-      "University of New Hampshire-Main Campus",
-      "University of Tokyo",
-      "Washington University in St Louis"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183276,
-    "title": "A Trade Study on the Temperature and Moisture Vertical Information Content from Infrared Sounding",
-    "description": "Of the candidate passive measurements highlighted in the PBL incubation study report, hyperspectral (spectral resolution <= 1 cm\u207b\u00b9 ) IR sounders have perhaps the greatest potential to provide high spatial resolution in clear sky conditions with sufficient vertical resolution within the PBL. However, current IR instruments have difficulty observing profiles with sharp thermodynamic gradients, where vertical resolution as fine as 100 meters is needed. Previous studies have shown that higher spectr",
+    "id": 117298,
+    "title": "Knowledge Transfer for Robust GeoAI Across Space, Sensors and Time via Active Deep Learning",
+    "description": "Recent advances in optical sensing technology (e.g., miniaturization and low-cost architectures for spectral imaging in the visible, near and short-wave infrared regimes) and sensing platforms from which such imagers can be deployed (e.g. handheld devices, unmanned aerial vehicles) have the potential to enable ubiquitous passive and active optical data on demand to support sensing of our environment for earth science. One can think of the current sensing environment as a vast sensor-web of multi",
     "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
+    "startDate": "Jul 2022",
+    "endDate": "Jan 2025",
     "lastUpdated": "08/20/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Microwave, Millimeter Waves, and Submillimeter Waves",
+    "center": "University of Houston",
+    "technologyArea": "Other Software, Modeling, Simulation, and Information Processing",
     "partners": [
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182284,
-    "title": "Advancing precision exoplanet science using single-mode fiber-fed spectroscopy",
-    "description": "High resolution spectroscopic measurements will continue to play an essential role in informing our understanding of exoplanet orbits (period, eccentricity, spin-orbit alignment), masses, and bulk compositions in the coming decades. Studying these key physical properties will help to assess the potential for habitability while also developing a more holistic understanding of planet formation and evolution. In addition to supporting transit surveys, the radial velocity (RV) method will also play ",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
-    "lastUpdated": "08/20/26",
-    "center": "Ohio State University-Main Campus",
-    "technologyArea": "Other Sensors and Instruments",
-    "partners": [
-      "Ohio State University-Main Campus",
-      "Conceptual Analytics, LLC",
-      "Goddard Space Flight Center",
-      "Large Binocular Telescope Observatory",
-      "Macquarie University",
-      "Markury Scientific, Inc.",
-      "University of Notre Dame"
-    ],
-    "website": ""
-  },
-  {
-    "id": 147023,
-    "title": "Physical Science Informatics Data Repository",
-    "description": "<p>The NASA Physical Science Informatics (PSI) project provides the opportunity for researchers to utilize data and results from prior physical science flight investigations to expand on the research performed. This approach allows numerous ground-based investigations to be conducted from one flight experiment\u2019s data, dramatically increasing our body of knowledge.</p>  <p>Since 2001, microgravity physical science experiments have been conducted on the International Space Station (ISS). The ISS p",
-    "status": "Active",
-    "startDate": "Jan 2014",
-    "endDate": "Sep 2030",
-    "lastUpdated": "08/20/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "Marshall Space Flight Center",
-      "Biological and Physical Sciences"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182222,
-    "title": "The EUV Snapshot Imaging Spectrograph II",
-    "description": "Magnetic reconnection is expected to play a major role in the mass and energy balance in the solar corona. One byproduct of magnetic reconnection is the acceleration of high energy electrons, frequently called electron beams, that flow down magnetic field lines and impact the transition region and chromosphere, heating and ablating plasma to form hot coronal plasma (Emslie, 1978). Recently, significant evidence of electron beams has been discovered in transition region and chromospheric images a",
-    "status": "Active",
-    "startDate": "Jun 2024",
-    "endDate": "May 2027",
-    "lastUpdated": "08/20/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "Software Development, Engineering, and Integrity",
-    "partners": [
-      "NASA Headquarters",
-      "American University",
-      "Goddard Space Flight Center",
-      "Marshall Space Flight Center",
-      "Montana State University - Bozeman",
-      "Universities Space Research Association"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183802,
-    "title": "Technology Development for Balloon-borne and Space-Based Microwave Telescopes",
-    "description": "PI Johanna Nagy is building a research program at Case Western Reserve University (CWRU) that focuses on developing instrumentation for Cosmic Microwave Background (CMB) experiments to understand the contents and evolution of the Universe.  Her current program is centered around three major, complementary projects: SPIDER, Taurus, and CMB-S4. Nagy serves in leadership roles in all of these collaborations, which alongside other professional experiences, are enabling her to develop the skills nece",
-    "status": "Active",
-    "startDate": "Nov 2025",
-    "endDate": "Oct 2028",
-    "lastUpdated": "08/20/26",
-    "center": "Case Western Reserve University",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Case Western Reserve University"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182224,
-    "title": "Development of Space Qualified Signal Processing Readout Electronics for HabWorlds and Origins Space Telescope Detector Arrays",
-    "description": "We propose to optimize the performance of low power FPGA-based readout electronics systems for use with arrays of superconducting detectors such as transition edge sensors (TES) and kinetic inductance detectors (KIDs). Future space astrophysics missions such as HabWorlds Observatory and the Origins Space Telescope (OST) will require arrays of thousands of superconducting detectors. The complexity of the instrument can be reduced by implementing a multiplexing readout electronics system with high",
-    "status": "Active",
-    "startDate": "Aug 2024",
-    "endDate": "Jul 2027",
-    "lastUpdated": "08/20/26",
-    "center": "Arizona State University-Tempe",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Arizona State University-Tempe",
-      "Goddard Space Flight Center",
-      "Jet Propulsion Laboratory"
+      "University of Houston",
+      "Purdue University-Main Campus"
     ],
     "website": ""
   },
@@ -1698,6 +1689,22 @@
     "website": ""
   },
   {
+    "id": 182227,
+    "title": "Thermo-Optical Metrology for Exoplanet observatories",
+    "description": "Exoplanet exploration requires a large attenuation of starlight to observe the planets around it. To do so, telescopes include occulters, also known as coronographs. The quality of the observations depends on both the telescope and the coronograph performance, and the wavefront errors must be kept exceptionally low over long time scales. This is so because the telescope and coronograph stabilities are crucial to maintain deep contrast over long time scales (up to days) such that dim Earth-like p",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2027",
+    "lastUpdated": "08/20/26",
+    "center": "University of Arizona",
+    "technologyArea": "In Situ Instruments and Sensors",
+    "partners": [
+      "University of Arizona",
+      "Texas A & M University-College Station"
+    ],
+    "website": ""
+  },
+  {
     "id": 182276,
     "title": "High-performance, broadband, large-area, monolithic CMOS X-ray sensors",
     "description": "Scientific CMOS active pixel sensors promise a number of advantages over conventional charge-coupled devices as X-ray sensors for high-energy astrophysics. These include substantially higher frame-rate, lower power consumption, smaller and lighter support electronics, improved radiation tolerance and higher operating temperatures. For important applications in X-ray astronomy, such as wide-field and high-throughput, high-resolution spectroscopic X-ray imaging, however, this promise has not yet b",
@@ -1715,87 +1722,61 @@
     "website": ""
   },
   {
-    "id": 182269,
-    "title": "Supporting technologies for large-scale kinetic inductance current sensor readouts",
-    "description": "Transition-edge sensor (TES) arrays optimized for visible to near-infrared (VNIR) wavelength detection have potential applications in  space astrophysics due to their broad wavelength coverage, high quantum efficiency, intrinsic energy resolution, and high maximum count rates with little to no dark counts. TES calorimeters have historically been read out with superconducting quantum interference device (SQUID) multiplexed readouts, but these systems have insufficient bandwidth to read out more t",
+    "id": 182290,
+    "title": "The Terahertz Intensity Mapper",
+    "description": "The Terahertz Intensity Mapper (TIM) is a balloon-borne far-infrared (FIR) imaging spectrometer designed to characterize the cosmic star formation history and unveil the forces driving galaxy assembly over cosmic time.   TIM has been optimized for a new observational technique called \"line intensity mapping\" (LIM), which has the potential to access unexplored and unique cosmological and astrophysical phase space. In its Antarctic science flight, TIM will map the redshifted 158 \u03bcm line of ionized",
     "status": "Active",
-    "startDate": "Jan 2025",
-    "endDate": "Dec 2027",
+    "startDate": "Jul 2024",
+    "endDate": "Jun 2029",
     "lastUpdated": "08/20/26",
-    "center": "University of Colorado Boulder",
+    "center": "",
     "technologyArea": "Remote Sensing Instruments and Sensors",
     "partners": [
-      "University of Colorado Boulder",
-      "National Institute of Standards and Technology"
+      "Arizona State University-Tempe",
+      "California Institute of Technology",
+      "Cardiff University",
+      "Flatiron Institute",
+      "Harvard-Smithsonian Center for Astrophysics",
+      "Jet Propulsion Laboratory",
+      "Max-Planck-Institut f\u00fcr Astronomie",
+      "University of Arizona",
+      "University of British Columbia",
+      "University of Florida",
+      "University of Illinois at Urbana-Champaign",
+      "University of Pennsylvania",
+      "University of Virginia-Main Campus"
     ],
     "website": ""
   },
   {
-    "id": 182258,
-    "title": "Large area ALD-protected aluminum mirror coatings for HWO",
-    "description": "We propose a follow-on effort to our prior program to continue the development of new atomic layer deposition (ALD) and atomic layer etching (ALE) processes for the fabrication of high-reflectivity broadband far-UV-to-near-IR mirror coatings. This work will continue to address a key Tier-1 NASA Astrophysics technology gap with relevance to the emerging needs of the Habitable Worlds Observatory (HWO). Our program will extend work in the previous program to include new material demonstrations in t",
+    "id": 182231,
+    "title": "Flat Lens Ultraviolet Optics for Astrophysics",
+    "description": "Wide field-of-view monitoring in the ultraviolet (UV; <350--400 nm) is an unexplored frontier in time-domain astrophysics, as highlighted in the most-recent Astro2020 Decadal report. Existing approaches to wide-field UV optics rely on a complex set of refractive or hybrid refractive-diffractive elements with a bulk and weight that make them costly to build and deploy in space. Compact flat-lens optics offer a novel approach that will be smaller, lighter, and potentially less expensive.  Efforts ",
     "status": "Active",
     "startDate": "Oct 2024",
-    "endDate": "Sep 2026",
+    "endDate": "Sep 2027",
     "lastUpdated": "08/20/26",
-    "center": "California Institute of Technology",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "center": "Naval Research Laboratory",
+    "technologyArea": "Sensing and Perception",
     "partners": [
-      "California Institute of Technology",
-      "Jet Propulsion Laboratory",
-      "University of California-Santa Cruz"
+      "Naval Research Laboratory"
     ],
     "website": ""
   },
   {
-    "id": 117298,
-    "title": "Knowledge Transfer for Robust GeoAI Across Space, Sensors and Time via Active Deep Learning",
-    "description": "Recent advances in optical sensing technology (e.g., miniaturization and low-cost architectures for spectral imaging in the visible, near and short-wave infrared regimes) and sensing platforms from which such imagers can be deployed (e.g. handheld devices, unmanned aerial vehicles) have the potential to enable ubiquitous passive and active optical data on demand to support sensing of our environment for earth science. One can think of the current sensing environment as a vast sensor-web of multi",
-    "status": "Completed",
-    "startDate": "Jul 2022",
-    "endDate": "Jan 2025",
-    "lastUpdated": "08/20/26",
-    "center": "University of Houston",
-    "technologyArea": "Other Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "University of Houston",
-      "Purdue University-Main Campus"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182237,
-    "title": "STarlight Acquisition and Reflection toward Interferometry : Precision formation-flying cubesats enabling space interferometry",
-    "description": "Ground-based long-baseline interferometry provides milli-arcsecond imaging across the electromagnetic spectrum, allowing new views of the event horizon of a blackhole, surfaces of stars beyond the Sun, and high-precision spectra of exoplanets.  These breakthrough discoveries are the tip of the iceberg of the potential for interferometry and NASA has repeatedly placed space interferometry on its strategic technology roadmap needed in the fields of x-ray, optical and far-infrared astronomy.  Most ",
-    "status": "Active",
-    "startDate": "Dec 2024",
-    "endDate": "Nov 2029",
-    "lastUpdated": "08/20/26",
-    "center": "University of Michigan-Ann Arbor",
-    "technologyArea": "Guidance and Targeting Algorithms",
-    "partners": [
-      "University of Michigan-Ann Arbor",
-      "Georgia Tech Research Corporation",
-      "Jet Propulsion Laboratory",
-      "Massachusetts Institute of Technology",
-      "Rensselaer Polytechnic Institute",
-      "Stanford University"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182256,
-    "title": "High speed quantum well detectors for long baseline imaging",
-    "description": "Multi-aperture techniques common for radio frequency (RF) observations such as direct-detection (homodyne) interferometry or Very-long-baseline interferometry (VLBI) have seen limited use in the optical domain due to several technological hurdles: optical path control, phase reference stability, and detector bandwidths. Recent advances in time transfer standards and optical frequency comb physics have opened the door to measurement and control of the electromagnetic field at optical frequencies ",
+    "id": 182257,
+    "title": "Chip-Scale Atom-stabilized MEtrology Laser for Space Telescopes",
+    "description": "Future space-based large telescopes, such as the recent Habitable Worlds Observatory concept, are prioritized in the Astro2020 Decadal Survey. Sharp scientific images require a high-performance laser metrology system (MET) to stabilize and maintain telescope pointing and wavefronts. The laser frequency noise and long-term drift of the laser are two of the main factors in the performance of the telescope and wavefront control, which also directly impact the coronagraph stability, which was listed",
     "status": "Active",
     "startDate": "Oct 2024",
     "endDate": "Sep 2027",
     "lastUpdated": "08/20/26",
     "center": "California Institute of Technology",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "technologyArea": "Observatories",
     "partners": [
       "California Institute of Technology",
-      "Jet Propulsion Laboratory"
+      "Jet Propulsion Laboratory",
+      "Vapor Cell Technologies, LLC"
     ],
     "website": ""
   },
@@ -1819,243 +1800,352 @@
     "website": ""
   },
   {
-    "id": 158002,
-    "title": "Polymer Barrier, Protection and Cleaning for UVOIR and X-Ray Mirrors",
-    "description": "Maturing vacuum ultraviolet mirror coating technology for use in UV Astrophysics is on the critical path for NASA Flagship Missions such as the Habitable Worlds Observatory (HWO). In the Lyman Ultraviolet (LUV ~90-122nm), the reflection efficiency of current telescope mirror coatings drops precipitously. The best option, bare aluminum, forms a natural oxide coating in seconds and absorbs these wavelengths. One solution would be to fabricate the telescopes and mirrors in the vacuum of space to av",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
+    "id": 182287,
+    "title": "Building the Foundations for Huge-N Lunar Radio Interferometry",
+    "description": "Observations of the highly-redshifted 21 cm line of neutral hydrogen are the only probe of the Universe's \"Dark Ages\", the period of cosmic history prior to the formation of the first stars and galaxies.  Measurements of the Universe during its Dark Ages, however, would enable unprecedented precision tests of cosmology, greatly exceeding the Cosmic Microwave Background in both information content and impact.  Addressing the challenges inherent in these hydrogen observations is therefore a key un",
+    "status": "Active",
+    "startDate": "Sep 2024",
+    "endDate": "Aug 2027",
     "lastUpdated": "08/20/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
+    "center": "Brown University",
+    "technologyArea": "Observatories",
     "partners": [
-      "Goddard Space Flight Center",
-      "Photonic Cleaning Technologies, LLC"
+      "Brown University"
     ],
     "website": ""
   },
   {
-    "id": 158051,
-    "title": "Radiation Hardened Power Efficient Artificial Intelligence and Machine Learning (AIML) Processor",
-    "description": "Radiation Hardened Artificial Intelligence and Machine Learning (AIML) processors are essential to NASA applications due to unavoidable evolution in technology that brings computational complexity. Traditional radiation hardening methods incur high size, weight, and power (SWaP) cost. We propose a radiation hardening scheme that employs intelligent analysis of vulnerabilities in the AIML processor that enables hybrid selective redundancy implementation to allow self-healing from radiation effect",
+    "id": 182241,
+    "title": "Development of a Low EMI and Acoustic Background Characterization Testbed for Ultra-low Noise Transition Edge Sensor Bolometers",
+    "description": "Ultra-low noise bolometers seek to solve a number of current problems in the sensitive detection of optical thru microwave photons, ranging from background-limited astronomical detectors in Far Infrared (FIR), to the characterization and interconnection of qubits for quantum computation (QC). As advances are made in the design and fabrication of ultra-low noise bolometers, the need for platforms capable of characterizing these devices and the materials from which they are made rises. The bolomet",
     "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Flight Computing and Avionics",
-    "partners": [
-      "Ames Research Center",
-      "CFD Research Corporation"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158056,
-    "title": "Compact Integrated Sensing and Control of Magnetic Gear for End Effectors Suitable for Extreme Environments",
-    "description": "An identified need exists for lightweight, low-volume, and low-power actuation solutions with compact integrated sensing approaches to create end-effectors capable of robust fine dexterity for human-hand-like tasks and tool/interface manipulation that are for environmental extremes.  Magnetic gear technology is recognized by NASA (through the Motors for Dusty and Extremely Cold Environments Game Changing Development project) to be capable of achieving attractive specific torque, efficiency, and ",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "Robotic Systems",
-    "partners": [
-      "Johnson Space Center",
-      "FluxWorks, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 125408,
-    "title": "Advancing and Validating Galvanic Induced Disorientation Simulation Trainer (GIST)",
-    "description": "We developed a functional laboratory disorientation trainer prototype. The end deliverable is a system that astronauts will regularly use to simulate landing and recovery type tasks and that is used to develop sensorimotor standards to gage suitability to perform tasks. We adapted an existing portable constant current stimulation design (that incorporates an in-built IMU) into a first functional version of a galvanic vestibular stimulation (GVS) disorientation trainer that fully meets the stated",
-    "status": "Completed",
-    "startDate": "May 2022",
-    "endDate": "May 2026",
-    "lastUpdated": "08/20/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "Human Health, Life Support, and Habitation Systems",
-    "partners": [
-      "Johnson Space Center",
-      "Soterix Medical, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 158152,
-    "title": "Balloon Lasercom Terminal",
-    "description": "Relative Dynamics Inc. (RD) will develop a Balloon Lasercom Terminal (BaLT) with the capabilities required in NASA Subtopic S16.04: High-Altitude Platform Systems (HAPS) Capability Demonstration and SCOPE Title: Scope Title: Free-Space Optical Communications for a Stratospheric Balloon Platform. In Phase II, RD will develop both a Balloon Lasercom Terminal (BaLT) and a low-cost compatible Ground Lasercom Terminal (GroLT). An optical communication terminal has three major subsystems: gimballed te",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Robotic Systems",
-    "partners": [
-      "Goddard Space Flight Center",
-      "Relative Dynamics, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 154607,
-    "title": "Radiation-Tolerant, Scalable Neuromorphic Energy-Efficient Accelerator for Heterogeneous Processor Systems",
-    "description": "The accelerator developed by Niobium Microsystems, Inc. (Niobium) is scalable in terms of parallelism and memory capacity, so that it can be targeted towards a variety of platforms, from small battery operated devices to large high-performance compute systems. It also has the ability to perform online learning when operating on neuromorphic workloads, drawing inspiration from the Hebbian learning paradigm. Additionally, the accelerator is designed as a memory-mapped peripheral of a larger hetero",
-    "status": "Completed",
-    "startDate": "Jul 2023",
-    "endDate": "Jul 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Flight Computing and Avionics",
-    "partners": [
-      "Ames Research Center",
-      "Niobium Microsystems"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158257,
-    "title": "In-Space Portable Multi-Functional Intelligent Evaluation Tool",
-    "description": "To support NASA needs for in-space non-destructive evaluation (NDE) tools, Intellisense Systems, Inc. (Intellisense) proposes to develop a new small-size, lightweight, and battery-powered In-Space Portable Multi-Functional Intelligent Evaluation Tool (SMIET) based on Compton imaging tomography (CIT). SMIET\u2019s innovative application of CIT for in-space in situ NDE provides three-dimensional (3D) visualization while its artificial intelligence enables true characterization of various defects/irregu",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Langley Research Center",
-      "Intellisense Systems, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 158290,
-    "title": "SAF-compatible Hybrid-Electric propulsion for a fixed-wind aircraft",
-    "description": "Rune Aero Inc. is developing a remotely piloted unmanned aircraft that incorporates cutting-edge hybrid-electric technologies that will help the U.S. to ultimately achieve net-zero carbon emissions from aviation by 2050. In this SBIR Phase I proposal and follow-on Phase II proposal, Rune Aero Inc. will partner with Auburn University to develop a hybrid-electric systems intended for cargo delivery missions that is remotely piloted. The purpose of the Phase I project,  is to conduct preliminary as",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Propulsion Systems",
-    "partners": [
-      "Ames Research Center",
-      "Rune Aero Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 158262,
-    "title": "Development of a multifunctional SolidStir manufacturing technology for lunar infrastructure",
-    "description": "As a part of the Artemis mission, building a base camp on south pole for astronauts to land, live and explore has been planned. In order to support human presence and further exploration setting up metal extraction and primary manufacturing facility is essential. The extraction plants that are developed for earth on the moon is cost prohibitive and complicated since necessary consumable are not readily available on the moon. Hence special processes are being developed. The products from these pr",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
-    "partners": [
-      "Langley Research Center",
-      "The Enabled Manufacturing LLC"
-    ],
-    "website": ""
-  },
-  {
-    "id": 154704,
-    "title": "Low Cost Radiation-Hardened Cryocooler Control Electronics for Space Missions",
-    "description": "Many NASA and commercial space science missions require high performance electronics within strict budgetary limits. Many of these missions, therefore, use commercial-grade electronic products despite significant technical risk due to lack of radiation hardness. Creare proposes to evolve our commercial\u2011grade, three-phase Brushless DC motor drive electronics to be adaptable for missions which require higher reliability, radiation-hardened cryocoolers at reasonable cost. During PhaseI, we develope",
-    "status": "Completed",
-    "startDate": "Jun 2023",
+    "startDate": "Oct 2024",
     "endDate": "Sep 2025",
     "lastUpdated": "08/20/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
+    "center": "NASA Headquarters",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
     "partners": [
+      "NASA Headquarters",
       "Goddard Space Flight Center",
-      "Creare, LLC"
+      "National Institute of Standards and Technology"
     ],
     "website": ""
   },
   {
-    "id": 158270,
-    "title": "Autonomous Perception and Manipulation of Cables and Fluid Lines for Remote Infrastructure Maintenance for Orbital and Lunar Missions",
-    "description": "NASA's Moon-to-Mars roadmap calls for robotic systems which can complement and eventually replace humans for both routine and unplanned assembly, maintenance and inspection tasks for orbital and lunar surface infrastructure. The proposed innovation is an integrated perception and planning system to enable safe and productive interaction with cables and fluid lines, a ubiquitous element in any spacecraft or ground habitat, without human oversight.    Handling cables and fluid lines involves a wid",
+    "id": 182253,
+    "title": "Advancing Compact, High-Resolution Spectrographs for Astrophysical Missions using Astrophotonics",
+    "description": "Science motivation: A wide variety of science cases in astronomy require high-resolution spectroscopy with resolving powers (R = lambda/delta_lambda) of the order of 50,000. Some of the most significant science cases include spectroscopy of directly imaged exoplanets to study their atmospheric chemistry and kinematics, stellar spectroscopy to precisely measure elemental abundances and to potentially infer the masses of orbiting exoplanets, and quasar spectroscopy to uncover the properties of the",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2027",
+    "lastUpdated": "08/20/26",
+    "center": "University of California-Los Angeles",
+    "technologyArea": "Observatories",
+    "partners": [
+      "University of California-Los Angeles",
+      "California Institute of Technology",
+      "Jet Propulsion Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182258,
+    "title": "Large area ALD-protected aluminum mirror coatings for HWO",
+    "description": "We propose a follow-on effort to our prior program to continue the development of new atomic layer deposition (ALD) and atomic layer etching (ALE) processes for the fabrication of high-reflectivity broadband far-UV-to-near-IR mirror coatings. This work will continue to address a key Tier-1 NASA Astrophysics technology gap with relevance to the emerging needs of the Habitable Worlds Observatory (HWO). Our program will extend work in the previous program to include new material demonstrations in t",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2026",
+    "lastUpdated": "08/20/26",
+    "center": "California Institute of Technology",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "California Institute of Technology",
+      "Jet Propulsion Laboratory",
+      "University of California-Santa Cruz"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182288,
+    "title": "Frequency Programmable Resonators",
+    "description": "Superconducting resonators are key building blocks of superconducting qubits and Microwave Kinetic Inductance Detectors (MKIDs). Over the last 20 years significant effort has gone in to understanding and optimizing their properties, leading to an explosion in quantum sensing science exemplified by the recent discovery of new substellar companions with MKIDs. Most of the resonator-related work in the field has focused on improving the internal quality factor (increasing qubit coherence times) of ",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2027",
+    "lastUpdated": "08/20/26",
+    "center": "University of California-Santa Barbara",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "University of California-Santa Barbara"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182263,
+    "title": "Replicating epoxy optical surfaces on ceramic shells to produce high-angular resolution, lightweight full-shell X-ray optics",
+    "description": "The need for high-angular resolution and high-throughput X-ray optics is strongly endorsed by the \"Astro2020, Pathways to Discovery in Astronomy and Astrophysics for the 2020s\" report.  Astro2020 highlights that this capability enables or enhances all three priority science areas:  Pathways to Habitable Worlds, New Windows on the Dynamic Universe, and Unveiling the Drivers of Galaxy Growth. In addition to enabling the science of a future flagship X-ray observatory, the astronomy community at lar",
     "status": "Completed",
     "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
+    "endDate": "Jul 2026",
     "lastUpdated": "08/20/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Robotic Systems",
+    "center": "NASA Headquarters",
+    "technologyArea": "Observatories",
     "partners": [
-      "Langley Research Center",
-      "L5 Automation Inc"
+      "NASA Headquarters",
+      "Marshall Space Flight Center",
+      "Smithsonian Astrophysical Observatory",
+      "The Aerospace Corporation"
     ],
     "website": ""
   },
   {
-    "id": 158014,
-    "title": "Cold Plasma Sterilization for Contamination Control",
-    "description": "This proposal offers a novel method to sterilize sensitive materials, electronics, and instruments using a Radio Frequency (RF) induced plasma. This approach does not use steam, high pressure, or harsh chemicals which are not compatible with sensitive materials and electronics. The technology will be used to sterilize spacecraft assemblies and components prior to launch. It may also be used to sterilize equipment and samples taken during planetary exploration, or from studies conducted on space ",
+    "id": 182292,
+    "title": "The FLUID Rocket Payload: Far- and Lyman-Ultraviolet Imaging of High-Redshift Galaxy Analogs",
+    "description": "We propose a five-year suborbital research program to develop and flight-qualify ultraviolet (UV) hardware required to realize NASA's ambitious space mission objectives for the next two decades. We will utilize these advancements to study the distribution and influence of the most massive stars in local galaxies, addressing key ``Cosmic Ecosystems\" science questions from the Astro2020 Decadal Survey.  Our recent projects successfully demonstrated broadband UV-to-IR coatings and large format phot",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2029",
+    "lastUpdated": "08/20/26",
+    "center": "University of Colorado Boulder",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "University of Colorado Boulder",
+      "Consejo Superior de Investigaciones Cient\u00edficas",
+      "Jet Propulsion Laboratory",
+      "Johns Hopkins University",
+      "University of California-Berkeley"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182226,
+    "title": "Keck Observatory as an HWO Testbed: validating wavefront sensing and control schemes on a large segmented aperture in parallel with high-contrast science",
+    "description": "The Astro2020 Decadal Survey articulated the impact of advancing high contrast imaging technologies for the detection and characterization of habitable worlds in the coming decade: \"exploring terrestrial planets outside our Solar System through direct imaging and spectroscopy will advance one of humanity's greatest quests -- the search for habitable environments and life outside of the Solar System. This transformative goal is at the scientific forefront, connecting astronomy, astrobiology, plan",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2027",
+    "lastUpdated": "08/20/26",
+    "center": "University of California-Santa Cruz",
+    "technologyArea": "Observatories",
+    "partners": [
+      "University of California-Santa Cruz",
+      "California Institute of Technology",
+      "Jet Propulsion Laboratory",
+      "Space Telescope Science Institute"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182282,
+    "title": "New techniques toward the nanofabrication of custom, blazed UV gratings to enable next-generation spectroscopy",
+    "description": "The report from the most recent decadal survey in astronomy and astrophysics, Pathways to Discovery in Astronomy and Astrophysics for the 2020s (ASTRO2020), had two top recommendations for the future of NASA astrophysics: the Habitable Worlds Observatory (HWO) as the next flagship mission, and the Great Observatories Maturation Program (GOMAP) to develop the technology and mission architecture necessary to realize a successful HWO. As part of GOMAP, several key technologies must be further devel",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2027",
+    "lastUpdated": "08/20/26",
+    "center": "California Institute of Technology",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "California Institute of Technology",
+      "Pennsylvania State University-Main Campus"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182269,
+    "title": "Supporting technologies for large-scale kinetic inductance current sensor readouts",
+    "description": "Transition-edge sensor (TES) arrays optimized for visible to near-infrared (VNIR) wavelength detection have potential applications in  space astrophysics due to their broad wavelength coverage, high quantum efficiency, intrinsic energy resolution, and high maximum count rates with little to no dark counts. TES calorimeters have historically been read out with superconducting quantum interference device (SQUID) multiplexed readouts, but these systems have insufficient bandwidth to read out more t",
+    "status": "Active",
+    "startDate": "Jan 2025",
+    "endDate": "Dec 2027",
+    "lastUpdated": "08/20/26",
+    "center": "University of Colorado Boulder",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "University of Colorado Boulder",
+      "National Institute of Standards and Technology"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182273,
+    "title": "Transforming Microchannel Plate Photodetectors for Future UV Instruments through Nano-Scale Additive Manufacturing",
+    "description": "For more than 50 years, microchannel plate (MCP) photodetectors have been in use aboard space borne ultraviolet instruments and these missions have made major contributions to our understanding of many types of astronomical objects. The next generation of UV missions have outlined very ambitious scientific goals and will require significant improvements to instrument performance if they are going to be achieved. Through the concept studies initiated by the 2010 Astrophysics Decadal Survey, the L",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2027",
+    "lastUpdated": "08/20/26",
+    "center": "Southwest Research Institute - San Antonio",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Southwest Research Institute - San Antonio",
+      "Argonne National Laboratory",
+      "Robot Nose Corporation"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182270,
+    "title": "Development of 1D Lobster Eye Optics for a Wide-Field X-Ray Transient Monitor",
+    "description": "The Astro2020 Decadal Survey recommended investment in Time Domain and Multi-Messenger Astrophysics (TDAMM) as the top-priority sustaining activity in space for the coming decade. A key goal for TDAMM is the prompt and accurate localization of high energy transients. This would enable multiwavelength study of transients, such as those produced in binary neutron star collisions, that have provided new insights into the universe. The X-ray band is particularly appealing for the localization of hig",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2026",
+    "lastUpdated": "08/20/26",
+    "center": "NASA Headquarters",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "NASA Headquarters",
+      "Marshall Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183274,
+    "title": "A SmallSat Lidar Concept for PBL Height Measurements",
+    "description": "The purpose of this QRS request is to manage the current subsystem contracts (telescope, laser, and electronics) and finalize mechanical design modifications to ensure the new PBL SmallSat lidar instrument meets science needs and spacecraft allocations.",
     "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
+    "startDate": "Oct 2024",
+    "endDate": "Mar 2025",
     "lastUpdated": "08/20/26",
     "center": "Goddard Space Flight Center",
-    "technologyArea": "Exploration Destination Systems",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
     "partners": [
-      "Goddard Space Flight Center",
-      "MagPlasma"
+      "Goddard Space Flight Center"
     ],
     "website": ""
   },
   {
-    "id": 158414,
-    "title": "Low-Gravity Robotic Arm System (L-GRAS)",
-    "description": "Motiv proposes to enable the continued search for lifes origins through the development of an extremely lightweight manipulation system used for scientific sampling. The L-GRAS accomplishes this by preserving precious mass required to reach remote destinations and delivering robustness to the harsh environments, which are becoming more preferential for scientific interest. Motiv intendsto leverage the lessons learned during Phase I of the L-GRAS effort to a) architect a lightweight, extreme envi",
+    "id": 182262,
+    "title": "Build and Commission a new Space Optics Laboratory (SOL) at UMass Lowell",
+    "description": "This is the Roman Technology Fellowship (RTF) funding proposal to build and commission a new Space Optics Laboratory (SOL) at UMass Lowell (UML) under the leadership of RTF fellow, Christopher Mendillo.  Dr. Mendillo is currently a research professor in the physics department at UML and the PI of the PICTURE-D mission, a balloon-borne suborbital research program to directly image several debris disks around nearby stars in reflected visible light. The new 350 sq ft. laboratory space will be equi",
+    "status": "Active",
+    "startDate": "Sep 2024",
+    "endDate": "Aug 2027",
+    "lastUpdated": "08/20/26",
+    "center": "University of Massachusetts-Lowell",
+    "technologyArea": "Software Development, Engineering, and Integrity",
+    "partners": [
+      "University of Massachusetts-Lowell"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183276,
+    "title": "A Trade Study on the Temperature and Moisture Vertical Information Content from Infrared Sounding",
+    "description": "Of the candidate passive measurements highlighted in the PBL incubation study report, hyperspectral (spectral resolution <= 1 cm\u207b\u00b9 ) IR sounders have perhaps the greatest potential to provide high spatial resolution in clear sky conditions with sufficient vertical resolution within the PBL. However, current IR instruments have difficulty observing profiles with sharp thermodynamic gradients, where vertical resolution as fine as 100 meters is needed. Previous studies have shown that higher spectr",
     "status": "Completed",
-    "startDate": "Jun 2024",
-    "endDate": "Jun 2026",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
     "lastUpdated": "08/20/26",
     "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Robotic Systems",
+    "technologyArea": "Microwave, Millimeter Waves, and Submillimeter Waves",
     "partners": [
-      "Jet Propulsion Laboratory",
-      "Motiv Space Systems, Inc."
+      "Jet Propulsion Laboratory"
     ],
     "website": ""
   },
   {
-    "id": 154718,
-    "title": "Compact All Sky Interferometric Doppler Imager (CASIDI)",
-    "description": "Proposed here is a next generation Compact All Sky Interferometric Doppler Imager (CASIDI) capable of measuring a thermospheric wind field every few minutes, with a precision of 10s of m/s. The ability to measure the wind field two dimensionally over the visible thermosphere will provide greater measurement of gravity waves, energy transport, and interaction between the ionosphere and thermosphere.    The proposed sensor addresses key science goals in the Heliophysics Decadal Survey [NRC, 2013].",
-    "status": "Completed",
-    "startDate": "May 2023",
-    "endDate": "May 2026",
+    "id": 182264,
+    "title": "PHANTOM: Precision High-Strain-Composites (HSCs) for AstroNomical Telescope OptoMechanics",
+    "description": "The Precision High-Strain-Composites (HSCs) for AstroNomical Telescope OptoMechanics (PHANTOM) proposal intends to raise the Technology Readiness Level (TRL) of a deployable optical support structure technology that uses thin, flexible composite materials as mechanisms that replace traditional revolute hinges and latches to deploy from the stowed launch configuration to the on-orbit operational configuration. This work will raise the TRL from Level 3 to Level 5. Maturing this technology will inv",
+    "status": "Active",
+    "startDate": "Apr 2025",
+    "endDate": "Mar 2027",
     "lastUpdated": "08/20/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
+    "center": "Massachusetts Institute of Technology Lincoln Laboratory",
+    "technologyArea": "Materials",
     "partners": [
+      "Massachusetts Institute of Technology Lincoln Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182229,
+    "title": "Single-photon counting with SiSeRO to search for Earth-like planets.",
+    "description": "This proposal is dedicated to elevating the technical readiness of the innovative fully-depleted thick p-channel CCD featuring Single Electron Sensitive ReadOut (SiSeRO). Specifically designed as a single photon counter for the Habitable Worlds Observatory (HWO), the p-channel SiSeRO has exhibited exceptional electronic performance in controlled laboratory settings, demonstrating its capability for single electron sensitivity owing to minimal readout noise. Our proposal outlines a comprehensive ",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2027",
+    "lastUpdated": "08/20/26",
+    "center": "University of Chicago",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "University of Chicago",
+      "Fermi National Accelerator Laboratory",
       "Goddard Space Flight Center",
-      "Atmospheric & Space Technology Research Associates, LLC"
+      "Lawrence Berkeley National Laboratory",
+      "Massachusetts Institute of Technology Lincoln Laboratory",
+      "Universidad Nacional de Cordoba"
     ],
     "website": ""
   },
   {
-    "id": 158601,
-    "title": "Solar Sail Tubular Mast",
-    "description": "Opterus and the University of Colorado, Boulder propose Solar Sail Tubular Mast (SSTM), a lightweight version of our patented High Strain Composite (HSC) Trussed Collapsible Tubular Mast. SSTM represents a paradigm shift in deployable boom technology, poised to set high standards of structural efficiency, deployment simplicity, and cost-effectiveness for deployable boom systems.  The SSTM represents a significant advancement in structural capabilities, transitioning from the modest structural ef",
-    "status": "Completed",
-    "startDate": "Dec 2023",
-    "endDate": "Dec 2025",
+    "id": 182259,
+    "title": "The Off-plane Grating Rocket Experiment : Pathfinder Flight and Ultimate Mission",
+    "description": "Future X-ray astronomy missions will require large advancements in many key technologies to push sensitivity limits, obtain high spatial and spectral resolution, capture transient events, etc.  Spectroscopy remains a key tool for source analysis and current state-of-the-art telescopes are achieving finer foci on lightweight substrates while diffraction gratings are more efficient and capable of higher resolving powers than ever before.  Furthermore, detectors are more sensitive with lower noise ",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2029",
     "lastUpdated": "08/20/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Propulsion Systems",
+    "center": "Pennsylvania State University-Main Campus",
+    "technologyArea": "Observatories",
     "partners": [
-      "Langley Research Center",
-      "Opterus Research and Development, Inc.",
-      "University of Colorado Denver"
+      "Pennsylvania State University-Main Campus",
+      "Goddard Space Flight Center",
+      "INAF - Osservatorio Astronomico di Brera",
+      "Istituto Nazionale di Astrofisica",
+      "Open University"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182260,
+    "title": "Demonstration of an HgCdTe Detector-Based Ultra-Stable Mid- Infrared Spectrometer for Transit Spectroscopy and Phase Curve Observations of Habitable Planets Around M-Stars",
+    "description": "Our goal is to demonstrate the performance of a new ultra-stable HgCdTe (HgCdTe) detector-based mid-infrared (MIR) spectrometer in the laboratory. An existing long-wavelength HgCdTe detector array (Cabrera et al. 2020), provided by one of our collaborators, will be integrated into the existing experiment that uses a high precision calibration scheme, which we call MIRASET (the Mid-InfraRed Array Spectrometer for Exoplanet Transits; Staguhn et al. 2019). MIRASET is currently equipped with superco",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2026",
+    "lastUpdated": "08/20/26",
+    "center": "Johns Hopkins University",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Johns Hopkins University",
+      "Goddard Space Flight Center",
+      "University of Rochester"
+    ],
+    "website": ""
+  },
+  {
+    "id": 185014,
+    "title": "The Payload for Ultrahigh Energy Observations : A Long-duration Balloon-borne Instrument for Particle Astrophysics at the Highest Energies",
+    "description": "<p>KEY OBJECTIVES: We propose the newly-designed Payload for Ultrahigh Energy Observations (PUEO), which will characterize the most energetic astrophysical sources at cosmic distances. PUEO detects radio emission from interactions of extremely high energy particles, including neutrinos and cosmic rays. PUEO is especially well-suited for discovering the highest energy neutrinos and searching for transient bursts of neutrinos. By viewing the largest target volumes for neutrino interactions, balloo",
+    "status": "Completed",
+    "startDate": "Feb 2021",
+    "endDate": "Jan 2026",
+    "lastUpdated": "08/20/26",
+    "center": "University of Chicago",
+    "technologyArea": "Field and Particle Detectors",
+    "partners": [
+      "University of Chicago",
+      "Kavli Institute for Cosmological Physics"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182285,
+    "title": "Understanding the limitations of high contrast nulling with photonic components",
+    "description": "The Habitable Worlds Observatory (HWO) will be the first observatory where the primary science focus is the detection and characterization of terrestrial planets in the habitable zones of Sun-like stars. To access the light from the exoplanet needed to conduct the spectroscopy, the HWO will utilize an advanced starlight suppression system. Although the front-runner in this race is a coronagraph, they have not reached the necessary contrast levels. In the near-infrared (J or H band), the angular ",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2027",
+    "lastUpdated": "08/20/26",
+    "center": "California Institute of Technology",
+    "technologyArea": "In Situ Instruments and Sensors",
+    "partners": [
+      "California Institute of Technology",
+      "University of Arizona",
+      "University of California-Los Angeles"
     ],
     "website": ""
   },
@@ -2076,6 +2166,22 @@
     "website": ""
   },
   {
+    "id": 158612,
+    "title": "Integrated Computational Materials Engineering (ICME) for In-Space and Extraterrestrial Surface Metal Welding and Joining",
+    "description": "Despite the maturity of welding and related joining processes for terrestrial applications, there is limited understanding of the effects of an in-space environment on weld quality. An Integrated Computational Materials Engineering (ICME) framework leveraging physics-based process and metallurgical models , anchored by terrestrial and flight data, is desired to predict the effects of in-space, lunar, and Martian environments on the welding process and resulting material properties. To address th",
+    "status": "Completed",
+    "startDate": "Jul 2024",
+    "endDate": "Jul 2026",
+    "lastUpdated": "08/20/26",
+    "center": "Marshall Space Flight Center",
+    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
+    "partners": [
+      "Marshall Space Flight Center",
+      "CFD Research Corporation"
+    ],
+    "website": ""
+  },
+  {
     "id": 158663,
     "title": "Multi-stage Oxygen and Regolith Resource Extractor",
     "description": "Blueshift LLC d/b/a Outward Technologies proposes to continue development of a Multi-stage Oxygen and Regolith Resource Extractor (MORRE) for the production of high purity minerals and metals in addition to oxygen from lunar regolith. The underlying method utilizes novel process and temperature control systems to extend terrestrial vacuum metallurgical extraction processes used since the 1940s to lunar regolith feedstocks not typically associated with vacuum metallurgy. MORRE requires little to ",
@@ -2092,124 +2198,76 @@
     "website": ""
   },
   {
-    "id": 182926,
-    "title": "Continuous Snow Monitoring for Improved Water Supply Management",
-    "description": "Applied Research Team, Inc. proposes an innovative decision support tool that provides continuous snow monitoring for improved water supply management. More than 40 million people in the Western US and over a billion people globally rely on water stored high in the mountains as snowpack that melts in spring and summer. This precious resource is threatened by climate change and associated extreme weather patterns, increased demands and less dependable availability. Drinking water, irrigation and ",
+    "id": 125342,
+    "title": "Novel CTE Tuning of Ultra-Stable ALLVAR Alloy Struts for Large Space Telescopes",
+    "description": "ALLVAR Alloys-30 shrinks when heated and expands when cooled, known as negative thermal expansion (NTE). This opposite effect from most materials allows Alloy-30 to compensate for positive thermal expansion (PTE) materials. We have created a new material for athermalizing optics made from any type of mirror material by joining Alloy-30 to other PTE metals to create a specified thermal expansion coefficient. Currently, achievable coefficients of thermal expansion (CTE) range between -30 ppm/K, Al",
     "status": "Completed",
-    "startDate": "Jan 2025",
-    "endDate": "Jul 2025",
+    "startDate": "Apr 2022",
+    "endDate": "Jan 2025",
     "lastUpdated": "08/20/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "Goddard Space Flight Center",
-      "Applied Research Team, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 154484,
-    "title": "Enhancement of the Geomagnetic Cutoff Models inside SIRE2 (SIRE2-Real)",
-    "description": "The Space Ionizing Radiation Environment and Effects (SIRE2) toolkit was developed to provide the space radiation environment and effects community with state-of-the-art models that can be used not just for satellites but also for arbitrary trajectories. In this Phase II effort, the SIRE2-Real capabilities will be tested and integrated into the SIRE2 toolkit. SIRE2-Real will provide benchmarking of space environments to historical measurements and spacecraft anomalies. The SIRE2-Real capabilitie",
-    "status": "Completed",
-    "startDate": "May 2023",
-    "endDate": "May 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "Marshall Space Flight Center",
-      "Fifth Gait Technologies, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 125586,
-    "title": "In-Space Inductive Foundry: Recycling, Sorting and Casting",
-    "description": "Yolo Robotics LLC proposes developing the core technology for an inductive foundry to recycle, sort, and free-cast metals in space. The system consists of electromagnetic arrays that are independently commutated to induce heat and forces to melt and manipulate metals. This technology applies well-understood phenomena in a completely novel way for a substantial technological advance. Its compact, integrated hardware has no moving parts, an infinite workspace, and scales to match material throughp",
-    "status": "Completed",
-    "startDate": "May 2022",
-    "endDate": "Dec 2024",
-    "lastUpdated": "08/20/26",
-    "center": "Marshall Space Flight Center",
+    "center": "Jet Propulsion Laboratory",
     "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
     "partners": [
-      "Marshall Space Flight Center",
-      "BUILD BEYOND, LLC"
+      "Jet Propulsion Laboratory",
+      "Thermal Expansion Solutions, Inc."
     ],
     "website": ""
   },
   {
-    "id": 158232,
-    "title": "Wireless Power Receiver Converter Systems",
-    "description": "According to the NASA Phase I subtopic Z1.05 Lunar and Planetary Surface Power Management and Distribution, there is a current need for AC-DC converter systems to support robotic operations. Ongoing developments in In-Situ Resource Utilization (ISRU) rovers and Lunar Terrain Vehicles (LTVs) present numerous challenges for reliable mechanical wired power connections due to lunar regolith, or dust storms on Mars. Wireless power transfer technology is a viable candidate that mitigates this challeng",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Glenn Research Center",
-    "technologyArea": "Aerospace Power and Energy Storage",
-    "partners": [
-      "Glenn Research Center",
-      "Yank Technologies, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 158276,
-    "title": "Advanced Thermal Protection System (TPS) to Reduce Mass, Stowed Volume and Cost of Inflatable Structures",
-    "description": "The project aims to develop and assess high-temperature thermal insulation by combining high-temperature fibers, opacifiers to block radiant heat, and high-temperature gas conduction inhibitors to minimize gas conduction in an insulating felt. By blending these materials, the insulation seeks to achieve superior thermal resistance, thereby improving efficiency in various aerospace and industrial applications.  Initial phases involve synthesizing the composite insulation material in controlled la",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Entry, Descent, and Landing",
-    "partners": [
-      "Langley Research Center",
-      "Miller Scientific, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 158764,
-    "title": "Compact Rydberg Atom-Based LF Transmitter",
-    "description": "NASA is interested in electromagnetic sounding of ionospheric and magnetospheric plasma density structure at radio frequencies from kilohertz to MHz region. The majority of such soundings rely on passive sensing, i.e., they use either naturally occurring radiation or using transmitters of opportunity such as global navigation satellite system or ground-based transmitters used by worlds navies to transmit commands to submarines. Active sensing using the injection of ELF/VLF (300Hz -30kHz) frequen",
+    "id": 158685,
+    "title": "Robust Encounter Avoidance and Conflict Resolution for Advanced Air Mobility (REACT-AAM)",
+    "description": "In Phase I, we demonstrated initial feasibility of innovative improvements of our Robust Encounter Avoidance and Conflict Resolution (REACT) Technology to handle multiple simultaneous encounters expected to arise in the dense Advanced Air Mobility airspaces. Specifically, the innovations include an efficient implementation of evolutionary algorithms to produce a multi-segment maneuver for resolving encounters that would have resulted to near-mid-air collisions. Another innovation is simultaneous",
     "status": "Completed",
     "startDate": "Jul 2024",
     "endDate": "Jul 2026",
     "lastUpdated": "08/20/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
+    "center": "Armstrong Flight Research Center",
+    "technologyArea": "Autonomous Systems",
     "partners": [
-      "Goddard Space Flight Center",
-      "Cornerstone Research Group, Inc."
+      "Armstrong Flight Research Center",
+      "Scientific Systems Company, Inc."
     ],
     "website": ""
   },
   {
-    "id": 158016,
-    "title": "Advanced Measurement Technology for Airframe Noise Source Identification",
-    "description": "The Interdisciplinary Consulting Corporation (IC2), in partnership with AVEC, Inc., proposes to develop advanced phased-array and dynamic pressure sensing instrumentation and processing capabilities for airframe noise source identification. High channel-count, high-density, low cost-per-channel microphone arrays, and ultra-small, ultra-smooth sensing surface, low-cost, instrumentation-grade, model-embedded dynamic pressure sensors, both using microelectromechanical systems (MEMS) piezoelectric s",
+    "id": 154396,
+    "title": "High-Throughput and High-Sensitivity Terahertz Scanners for Non-Destructive Evaluation of Non-Conductive Coatings and Thermal Protection Systems in Space Applications",
+    "description": "To address NASAs need for advanced non-destructive evaluation (NDE) sensors, Lookin, Inc. proposes to develop a novel multi-pixel terahertz scanner, a transformative diagnostic tool to identify and localize visually inaccessible defects and damages in non-conductive coatings and thermal protection systems with significantly higher throughputs and over significantly larger volumes compared to what can be offered by existing NDE tools.  During the Phase I SBIR program, Lookin performed feasibility",
     "status": "Completed",
-    "startDate": "Jul 2024",
-    "endDate": "Jun 2026",
+    "startDate": "Jun 2023",
+    "endDate": "Aug 2025",
     "lastUpdated": "08/20/26",
     "center": "Langley Research Center",
-    "technologyArea": "Sensors and Instruments",
+    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
     "partners": [
       "Langley Research Center",
-      "Interdisciplinary Consulting Corporation"
+      "Lookin, Inc."
     ],
     "website": ""
   },
   {
-    "id": 125585,
-    "title": "In Situ Isotope Analyzer for Lunar and Planetary Science",
-    "description": "We propose the development of a new instrumentation based on a concept for trace-gas and isotope analysis that utilizes a priority hollow fiber as a low-volume, compact gas cell. An analyte is drawn into the fiber, which has a reflective inner coating that guides a tunable laser beam to a detector. There is near unity overlap between the laser beam and the gas sample, leading to a highly sensitive system with an ultra-compact size. In Phase II, a prototype analyzer will be assembled, and measure",
+    "id": 158271,
+    "title": "EDORAS: Easing the Development of Robot Applications for Space Missions",
+    "description": "In order to address NASA's goals to establish a sustained presence in the Moon and beyond, there is the need  for closer integration between robot and flight software, in order to take advantage of the state-of-the-art robot application tools, usually available as ROS 2-based libraries, and allow them to operate on space missions.  During the last few years in particular,  bridges between ROS 2 and cFS have been created such that they enable both  frameworks to operate together.  In this project",
     "status": "Completed",
-    "startDate": "May 2022",
-    "endDate": "Nov 2025",
+    "startDate": "Aug 2024",
+    "endDate": "Feb 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Robotic Systems",
+    "partners": [
+      "Ames Research Center",
+      "TRACLabs, Inc."
+    ],
+    "website": ""
+  },
+  {
+    "id": 158699,
+    "title": "In Situ Isotope Analyzer for Lunar and Planetary Science",
+    "description": "We propose to leverage synergistic efforts to further the TRL and MRL of a new class of analytical instruments for both laboratory and field measurements. The development is based on a concept for trace-gas and isotope analysis that utilizes a priority hollow fiber as a low-volume, compact gas cell. An analyte is drawn into the fiber, which has a reflective inner coating that guides a tunable laser beam to a detector. There is near unity overlap between the laser beam and the gas sample, leading",
+    "status": "Completed",
+    "startDate": "May 2024",
+    "endDate": "May 2025",
     "lastUpdated": "08/20/26",
     "center": "Goddard Space Flight Center",
     "technologyArea": "Sensors and Instruments",
@@ -2220,212 +2278,131 @@
     "website": ""
   },
   {
-    "id": 158158,
-    "title": "Multilayered Metal Insulation (MLMI) for Radioisotope Power System Designs",
-    "description": "The Radioisotope Power Systems provide space power and energy storage that enable robotic spacecraft for exploration missions through our solar system. These systems must insulate hot parts from cold using advanced multilayered metal insulation (MLMI) that could reduce system losses. The conventional manufacturing method of MLMI suffers from poor insulative property, long lead time and high manufacturing costs due to manual position of standoffs between thin insulation layers (thickness of 100 m",
+    "id": 158690,
+    "title": "Superconducting stator that enables much lower weight 1 MW - 4 MW motors",
+    "description": "Futurehybrid and hydrogen-powered zero carbon-emissionelectric aircraft require high temperature superconducting (HTS) electric motors to achieve power densities above 10 kW/kg while operating at temperatures above 25 K. However, the AC modes of stator coils in these motors makes it impossible to use available HTS tapes due to their large AC losses, requiring instead fine HTS wires made with the HTS-2212 material with advanced loss reducing features. The Phase I program established the feasibili",
     "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
+    "startDate": "Jun 2024",
+    "endDate": "Jun 2026",
     "lastUpdated": "08/20/26",
     "center": "Glenn Research Center",
-    "technologyArea": "Aerospace Power and Energy Storage",
+    "technologyArea": "Propulsion Systems",
     "partners": [
       "Glenn Research Center",
-      "Faraday Technology, Inc."
+      "Solid Material Solutions, LLC"
     ],
     "website": ""
   },
   {
-    "id": 158383,
-    "title": "A Software Framework for Advancing Perception Capabilities for Rovers Operating in Harsh Lunar Environments",
-    "description": "University of Wisconsin-Madison (UWM) in collaboration with ProtoInnovations propose to architect, design, develop, and validate a high-fidelity modeling and sensors simulation software and perception algorithms for surface hazard detection in harsh lunar-like environments. The space robotics community currently lacks an end-to-end software suite that simulates the appearance and granular-terrain mechanics of lunar-like environments. As NASA prepares for progressively complex and longer future l",
+    "id": 157991,
+    "title": "Design of the VH-3 Powered Speedbird Hybrid AAM Demonstrator",
+    "description": "VerdeGo proposes to complete the preliminary design of a novel Speedbird Advanced Air Mobility (AAM) demonstrator aircraft with a VH-3 powered hybrid electric powertrain and conduct hardware in the loop testing to demonstrate the VH-3 performance and capability across relevant mission profiles. The results will show the benefits of hybrid electric powerplants combined with distributed electric propulsion that can be applied across a range of potential future NASA, DoD, and commercial application",
     "status": "Completed",
-    "startDate": "Dec 2023",
-    "endDate": "Dec 2025",
+    "startDate": "Sep 2024",
+    "endDate": "Mar 2026",
     "lastUpdated": "08/20/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Robotic Systems",
+    "center": "Glenn Research Center",
+    "technologyArea": "Flight Vehicle Systems",
     "partners": [
-      "Ames Research Center",
-      "Protoinnovations, LLC",
-      "University of Wisconsin-Madison"
+      "Glenn Research Center",
+      "Verdego Aero, Inc"
     ],
     "website": ""
   },
   {
-    "id": 158176,
-    "title": "HAPS Day Night Hyperspectral Imaging Demonstrator",
-    "description": "High-altitude platform systems (HAPS) are a cutting-edge technology that can provide persistent Earth observations from the stratosphere. Innovative Imaging and Research (I2R) has partnered with Aerostar to develop a versatile HAPS Day Night (DANI) Hyperspectral Imaging Demonstrator to explore how HAPS can enable persistent hyperspectral imaging under both low light and bright sunlit conditions. The project will integrate an imaging payload consisting of a hyperspectral imager, a long wave infra",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Robotic Systems",
-    "partners": [
-      "Ames Research Center",
-      "Innovative Imaging and Research Corporation"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182938,
-    "title": "Integrated System and Predictive Model to Assess Air Quality and Rapidly Pinpoint Emerging Sources",
-    "description": "Natural and anthropogenic sources of pollution, according to several studies, contribute to in excess of 6 million premature deaths per year worldwide, with more than 200,000 in the US alone. The high number of deaths caused by air pollution shows the importance of making people aware of air quality at their location. Five of the components of greatest concern are listed on the National Ambient Air Quality Standard as part of the Clean Air Act by EPA: CO, NO2, O3, SO2 and PM2.5. In addition to c",
-    "status": "Completed",
-    "startDate": "Jan 2025",
-    "endDate": "Jul 2025",
-    "lastUpdated": "08/20/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "NASA Headquarters",
-      "Interlink Electronics"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158237,
-    "title": "Cognitive Systems Engineering (CSE) Methods to Support Adaptive, Integrated Anomaly Response",
-    "description": "The proposed project aims to tailor cognitive systems engineering methods to support the design of Fault Detection, Isolation, and Recovery (FDIR) capabilities intended for remote smart habitats and NASA\u2019s Moon to Mars initiative. We will adapt the Integrated Cognitive Analysis for Human-Machine Teaming (ICA-HMT) strategy, developed and exercised previously as part of the Army\u2019s Future Vertical Lift program to understand the envisioned world for future rotorcraft that leverages advanced automati",
+    "id": 158318,
+    "title": "A Wireless, Embedded Sensor System for Rocket Propulsion Test Applications environment",
+    "description": "NASA is looking for advanced sensor technologies, especially wireless embedded sensor systems, to support rocket propulsion development. The enabling technology should provide a highly flexible instrumentation solution capable of monitoring remote or inaccessible measurement locations. This sensor system should substantially reduce operational costs and evolutionary improvements in ground, launch and flight system operational robustness. It should provide an advanced diagnostics capability to mo",
     "status": "Completed",
     "startDate": "Aug 2024",
     "endDate": "Sep 2025",
     "lastUpdated": "08/20/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Autonomous Systems",
+    "center": "Stennis Space Center",
+    "technologyArea": "Ground, Test, and Surface Systems",
     "partners": [
-      "Ames Research Center",
-      "Applied Decision Science, LLC"
+      "Stennis Space Center",
+      "New York Institute of Technology",
+      "X-wave Innovations, Inc."
     ],
     "website": ""
   },
   {
-    "id": 158336,
-    "title": "Benchmark Single Asset Kick Stage",
-    "description": "For large orbit transfer logistics of the 25-200kg small spacecraft size range, Benchmark will combine our flight-proven high-test peroxide (HTP) bipropellant subsystem (Halcyon Avant), our multi-technology control electronics and SmartAIMTM propulsion control technology, a partner-supplied electric propulsion subsystem, and other commercial off-the-shelf (COTS) subsystems. The new development focus area will be to specify spacecraft interface and system design to maximize breadth of standard co",
+    "id": 158138,
+    "title": "Multi-parameter measurements for thermal shock and thermo-mechanical loading in RDREs",
+    "description": "Traditional thermal management methods used in rocket combustion systems are not readily applicable in the RDRE framework due to the higher cooling load demands from the same propellant feed system. Therefore, significant research and development efforts are essential for RDRE thermal management. Specifically, heat-flux loads, as obtained through traditional calorimeter data, face challenges in the RDRE framework due to axial variations in reactant stratification, detonation wave riding near the",
     "status": "Completed",
     "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Propulsion Systems",
-    "partners": [
-      "Marshall Space Flight Center",
-      "Benchmark Space Systems, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 154582,
-    "title": "Tail Propulsor Generator for NASA SUSAN Sub-Scale Flight Demonstrator",
-    "description": "Hinetics performed a detailed study in Phase I to evaluate the integration of a lightweight, high efficiency 150 kW generator-drive subsystem within the SUSAN concept aircraft. Analysis on potential subsystem and system level integration strategies ensured stability and reliability were maintained across all operating conditions of the propulsion system and while maximizing the system level performance. This has set the stage for hardware development for a sub-scale SUSAN demonstration in this P",
-    "status": "Completed",
-    "startDate": "May 2023",
-    "endDate": "Aug 2025",
+    "endDate": "Sep 2025",
     "lastUpdated": "08/20/26",
     "center": "Glenn Research Center",
     "technologyArea": "Propulsion Systems",
     "partners": [
       "Glenn Research Center",
-      "Hinetics, LLC"
+      "Spectral Energies, LLC"
     ],
     "website": ""
   },
   {
-    "id": 158191,
-    "title": "Highly Photorealistic Programmable 3D Worlds",
-    "description": "Midgard AI is aiming to enhance space mission simulations with a state-of-the-art platform for generating highly realistic, programmable 3D worlds without any 3D expertise increasing the adoption and utility of simulation & modeling. This technology is designed to align with NASA's rigorous requirements for mission simulations, providing an unparalleled tool for designing, developing, and executing simulations with unmatched realism and precision. The objectives include adapting the platform\u2019s c",
+    "id": 158063,
+    "title": "Redeployable Solar Array Structure for Lunar Base Infrastructure",
+    "description": " Atomic-6 proposes to develop a novel redeployable structure and deployment mechanism to enable relocatable 50-kW-class lightweight solar arrays near the lunar south pole for powering second-generation lunar base infrastructure.    Atomic-6 has developed a proprietary composite manufacturing process that results in higher fiber to resin ratios and interlaminar shear strength than most pre-preg composites. The product of the Atomic-6 process is a composite part with higher specific strength and s",
     "status": "Completed",
     "startDate": "Aug 2024",
     "endDate": "Feb 2025",
     "lastUpdated": "08/20/26",
     "center": "Langley Research Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
+    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
     "partners": [
       "Langley Research Center",
-      "Midgard AI, INC"
+      "Atomic-6"
     ],
     "website": ""
   },
   {
-    "id": 158217,
-    "title": "Optimized Learning for Yielding Meteorological Predictions Using Surrogates",
-    "description": "NASA\u2019s current physics-based models are the gold standard for simulating atmospheric and heliophysics variables. These models, however, require very large amounts of compute power and several hours to produce a forecast. We propose to build the Optimized Learning for Yielding Meteorological Predictions Using Surrogates (OLYMPUS), comprising machine learning-based surrogate models to dramatically reduce the computational time and resources needed to make a prediction. We do not anticipate that th",
+    "id": 158433,
+    "title": "Expeditionary BVLOS Infrastructure and UTM for Airborne Wildfire Response",
+    "description": "Current aerial wildland fire management is limited by existing operational limitations imposed by regulations and manual airspace management techniques, inhibiting integration of new aircraft types such as UAS. Core issues preventing optimal use of the wildfire response airspace are:   \tLack of integrated planning and deconfliction between manned aircraft and UAS \tLack of manned aircraft situational awareness of UAS operations \tLimited range and operating conditions of UAS operations due to VLOS",
     "status": "Completed",
     "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "Goddard Space Flight Center",
-      "Aerial Vantage, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 158285,
-    "title": "OpenAirFrame: A Framework for eVTOL Multimodal Design-Space Exploration and Optimization",
-    "description": "DARcorporation and Auburn University propose the development of a design, analysis, and optimization framework OpenAirFrame, that specifically tackles the challenges associated with assessing system architectures and conceptual aircraft design in a complex, multimodal design space with both continuous and discrete design variables. The proposal responds directly to the needs identified within SBIR Topic A1.06 \u2013 Vertical Takeoff and Landing (VTOL) Vehicle Technologies \u2013 Multimodal Design Tools. T",
-    "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
+    "endDate": "Feb 2026",
     "lastUpdated": "08/20/26",
     "center": "Ames Research Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
+    "technologyArea": "Air Traffic Management and Range Tracking Systems",
     "partners": [
       "Ames Research Center",
-      "Design Analysis & Research Corporation"
+      "Anzen Unmanned LLC"
     ],
     "website": ""
   },
   {
-    "id": 113153,
-    "title": "Controlling Silver Release from Antimicrobial Surface Coatings for Biofouling Control",
-    "description": "Silver nanoparticles (Ag NPs) are used for the functionalization of surfaces in order to achieveantimicrobial properties and control biofilm growth. The antimicrobial activity of Ag NPs is attributed to therelease of Ag + ion, which means that Ag NPs need to be soluble to achieve microbial inactivation.However, because of this constant silver release, Ag NPs rapidly dissolve away from the surface, depleting the biocidal activity and limiting the use of Ag NPs for long term biofouling control.In ",
+    "id": 158742,
+    "title": "Lightweight, non-mechanical, polarization-independent LiDAR beam steering system",
+    "description": "During Phase I of this project, two approaches for achieving polarization-independent non-mechanical lidar beam steering were demonstrated, and a demonstrator system was fabricated and testing. The demonstrated technology based on spatial modulation of geometrical phase has been reduced to a well-understood method for switching the pointing direction of laser beams and receiver fields of view. The Phase II project will extend these results to allow future NASA beam steering systems to electronic",
     "status": "Completed",
-    "startDate": "Jan 2021",
-    "endDate": "Nov 2025",
+    "startDate": "Jun 2024",
+    "endDate": "Jun 2026",
     "lastUpdated": "08/20/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "Human Health, Life Support, and Habitation Systems",
+    "center": "Langley Research Center",
+    "technologyArea": "Sensors and Instruments",
     "partners": [
-      "Johnson Space Center",
-      "Arizona State University-Tempe",
-      "Cactus Materials"
+      "Langley Research Center",
+      "BEAM Engineering for Advanced Measurements"
     ],
     "website": ""
   },
   {
-    "id": 158065,
-    "title": "Payload Universal Multi-purpose Adapter (PUMA)",
-    "description": "The Payload Universal Multi-purpose Adapter or \u201cPUMA\u201d is an interface for in-space and surface science instrument servicing, assembly, upgrading & swapping. The PUMA-Surface Science Configuration (PUMA-SSC) provides dust-compliant (utilizing both dust protection strategies and dust tolerant materials) mechanical, electrical, and data interfaces for the lunar surface. Dust compliant means the interfaces must operate in a dusty surface environment and should be designed to function with contaminat",
+    "id": 125596,
+    "title": "Intelligent Network Slicing and Policy-based Routing Engine (INSPiRE)",
+    "description": "AiRANACULUS, and its partners, propose an innovativeIntelligentNetworkSplicing andPolicy-basedRoutingEngine (INSPiRE) Solution to increase mission science data return, improve resource efficiencies for NASA missions and communication networks and ensure resilience in unpredictable space environments. The proposed INSPiRE System is an add-on to the CLAIREProject, that is developing wide-band spectrum sensing, spectrum-aware routing and cognitive control plane riding on the NASA s CCSDS Bundle Pro",
     "status": "Completed",
-    "startDate": "Aug 2024",
-    "endDate": "Feb 2025",
+    "startDate": "May 2022",
+    "endDate": "Oct 2025",
     "lastUpdated": "08/20/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Propulsion Systems",
+    "center": "Glenn Research Center",
+    "technologyArea": "Communications, Navigation, and Orbital Debris Tracking and Characterization Systems",
     "partners": [
-      "Goddard Space Flight Center",
-      "Aegis Aerospace"
-    ],
-    "website": ""
-  },
-  {
-    "id": 125392,
-    "title": "ADAPtive agenT Architecture",
-    "description": "The focus of the Phase 2 effort is to expand the Intelligent Machine Learning (IML) approach taken in Phase 1 to develop a Human-Centered Intelligent Virtual Agent (IVA). IML is an approach that moves the development of machine learning models away from engineers and puts the development of the model in the hands of the end-user. A Human-Centered IVA is focused on continuously improving the Machine Learning (ML) models while also providing effective communication between the human crewmembers an",
-    "status": "Completed",
-    "startDate": "Aug 2022",
-    "endDate": "Mar 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "Johnson Space Center",
-      "TRACLabs, Inc."
+      "Glenn Research Center",
+      "AiRANACULUS"
     ],
     "website": ""
   }
