@@ -1,129 +1,118 @@
 // Auto-generated news signals
-// Last updated: 2026-09-16T00:10:54.395Z
+// Last updated: 2026-09-16T05:52:47.395Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1789517454395,
+    "id": 1789537967395,
     "type": "ipo",
     "company": "LeoLabs",
     "headline": "Shifting market sands: LeoLabs moves to sell new mobile space radar directly to allies",
     "source": "Breaking Defense",
-    "time": "2h ago",
+    "time": "7h ago",
     "impact": "low",
     "unread": true,
     "link": "https://breakingdefense.com/2026/09/shifting-market-sands-leolabs-moves-to-sell-new-mobile-space-radar-directly-to-allies/"
   },
   {
-    "id": 1789517454396,
+    "id": 1789537967396,
     "type": "ipo",
     "company": "Deterrence",
     "headline": "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence",
     "source": "War on the Rocks",
-    "time": "5h ago",
+    "time": "11h ago",
     "impact": "low",
     "unread": true,
     "link": "https://warontherocks.com/the-atlantic-brief-u-s-and-european-perspectives-on-nuclear-deterrence/"
   },
   {
-    "id": 1789517454397,
+    "id": 1789537967397,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX will try to put Starship in orbit for the first time on September 22",
     "source": "TechCrunch",
-    "time": "5h ago",
+    "time": "11h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/09/15/spacex-will-try-to-put-starship-in-orbit-for-the-first-time-on-september-22/"
   },
   {
-    "id": 1789517454398,
+    "id": 1789537967398,
     "type": "news",
     "company": "Anthropic",
     "headline": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
     "source": "TechCrunch",
-    "time": "8h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/"
   },
   {
-    "id": 1789517454399,
-    "type": "funding",
-    "company": "Anthropic",
-    "headline": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
-    "source": "TechCrunch",
-    "time": "11h ago",
-    "impact": "low",
-    "unread": true,
-    "link": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/"
-  },
-  {
-    "id": 1789517454400,
+    "id": 1789537967399,
     "type": "news",
     "company": "OpenAI",
     "headline": "AI models need more data about biology, and OpenAI is paying to create it",
     "source": "MIT Tech Review",
-    "time": "12h ago",
+    "time": "17h ago",
     "impact": "low",
-    "unread": false,
+    "unread": true,
     "link": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/"
   },
   {
-    "id": 1789517454401,
+    "id": 1789537967400,
     "type": "hire",
     "company": "Hermeus",
     "headline": "EXCLUSIVE: Pratt licenses Hermeus to build F100 fighter jet engine",
     "source": "Breaking Defense",
-    "time": "12h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://breakingdefense.com/2026/09/exclusive-pratt-licenses-hermeus-to-build-f100-fighter-jet-engine/"
   },
   {
-    "id": 1789517454402,
+    "id": 1789537967401,
     "type": "ipo",
     "company": "Einride",
     "headline": "Einride and Lidl deploy Germany’s first driverless cab-less truck on public roads",
     "source": "Tech.eu",
-    "time": "12h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://tech.eu/2026/09/15/einride-and-lidl-deploy-germanys-first-driverless-cab-less-truck-on-public-roads/"
   },
   {
-    "id": 1789517454403,
+    "id": 1789537967402,
     "type": "milestone",
     "company": "Humanoid",
-    "headline": "Agility’s Digit 5 humanoid has new legs, batteries and safety upgrades",
+    "headline": "Agility’s Digit 5 humanoid has new legs, batteries, and safety upgrades",
     "source": "The Robot Report",
-    "time": "13h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/"
   },
   {
-    "id": 1789517454404,
+    "id": 1789537967403,
     "type": "funding",
     "company": "ICEYE",
     "headline": "Iceye&#8217;s global presence expands to address sovereign demand",
     "source": "SpaceNews",
-    "time": "18h ago",
+    "time": "23h ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/iceye-rapidly-expands-global-presence-to-address-sovereign-demand/"
   },
   {
-    "id": 1789517454405,
+    "id": 1789537967404,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Waymo Readying to Launch Robotaxis in Japan",
     "source": "CleanTechnica",
-    "time": "22h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://cleantechnica.com/2026/09/14/waymo-readying-to-launch-robotaxis-in-japan/"
   },
   {
-    "id": 1789517454406,
+    "id": 1789537967405,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic Fears RSI &#8211; What is RSI? What Specifically is It?",
@@ -134,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/09/anthropic-fears-rsi-what-is-rsi-what-specifically-is-it.html"
   },
   {
-    "id": 1789517454407,
+    "id": 1789537967406,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Huge Next Flight and 150 Days to Change the World",
@@ -145,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/09/spacex-huge-next-flight-and-150-days-to-change-the-world.html"
   },
   {
-    "id": 1789517454408,
+    "id": 1789537967407,
     "type": "news",
     "company": "xAI",
     "headline": "xAI has quietly built a massive battery at its Memphis data center hub",
@@ -156,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/batteries/xai-massive-battery-memphis-data-center"
   },
   {
-    "id": 1789517454409,
+    "id": 1789537967408,
     "type": "hire",
     "company": "Monumental",
     "headline": "One brick at a time: How Monumental uses robotics to build walls",
@@ -167,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/"
   },
   {
-    "id": 1789517454410,
+    "id": 1789537967409,
     "type": "funding",
     "company": "Cognition",
     "headline": "The Week’s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
@@ -178,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
   },
   {
-    "id": 1789517454411,
+    "id": 1789537967410,
     "type": "news",
     "company": "Deterrence",
     "headline": "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture",
@@ -189,18 +178,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://warontherocks.com/forced-into-the-right-decision-a-look-at-u-s-land-based-deterrence-posture/"
   },
   {
-    "id": 1789517454412,
+    "id": 1789537967411,
     "type": "news",
     "company": "Vast",
     "headline": "NSA wants AI to help analysts sift vast data troves",
     "source": "Defense One",
-    "time": "6d ago",
+    "time": "9/9/2026",
     "impact": "low",
     "unread": false,
     "link": "https://www.defenseone.com/technology/2026/09/nsa-ai-analysts-data/415860/"
   },
   {
-    "id": 1789517454413,
+    "id": 1789537967412,
     "type": "news",
     "company": "Rivian",
     "headline": "Rivian’s Gambit for Full Autonomy",
@@ -211,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spectrum.ieee.org/rivian-self-driving"
   },
   {
-    "id": 1789517454414,
+    "id": 1789537967413,
     "type": "news",
     "company": "Humanoid",
     "headline": "XPeng starts IRON humanoid robot production as Tesla Optimus stalls",
@@ -220,5 +209,16 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/"
+  },
+  {
+    "id": 1789537967414,
+    "type": "ipo",
+    "company": "OpenAI",
+    "headline": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+    "source": "Ars Technica",
+    "time": "9/4/2026",
+    "impact": "low",
+    "unread": false,
+    "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/"
   }
 ];
