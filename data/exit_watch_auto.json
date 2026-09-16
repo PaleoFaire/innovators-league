@@ -1,15 +1,100 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T11:54:18.731103+00:00",
+    "generated_at": "2026-09-16T11:48:05.129741+00:00",
     "window_days": 10,
-    "filings_scanned": 879,
-    "candidates_considered": 194,
-    "published": 2,
-    "roster_size": 2458,
+    "filings_scanned": 1043,
+    "candidates_considered": 237,
+    "published": 3,
+    "roster_size": 2461,
     "roster_with_pedigree": 192,
     "method": "SEC Form D formations, filtered to new frontier-adjacent US entities, matched against founders already documented in COMPANIES. Confidence tiers reflect what the public record supports, not what is plausible."
   },
   "rows": [
+    {
+      "cik": "2132699",
+      "accession": "000149315226042706",
+      "entity": "213 Management Group Inc.",
+      "industry": "Other",
+      "year_inc": 2023,
+      "state": "NY",
+      "amount_sold": 5000000.0,
+      "first_sale": "2026-09-02",
+      "persons": [
+        {
+          "name": "Xing Yan Zheng",
+          "key": "xingzheng",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "NEW YORK"
+        },
+        {
+          "name": "Richard Xu",
+          "key": "richardxu",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "NEW YORK"
+        },
+        {
+          "name": "Danny Lye",
+          "key": "dannylye",
+          "roles": [
+            "Director"
+          ],
+          "state": "NEW YORK"
+        },
+        {
+          "name": "Peiling Zheng",
+          "key": "peilingzheng",
+          "roles": [
+            "Executive Officer",
+            "Director"
+          ],
+          "state": "NEW YORK"
+        },
+        {
+          "name": "Jason Michael Ma",
+          "key": "jasonma",
+          "roles": [
+            "Director"
+          ],
+          "state": "NEW YORK"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2132699/000149315226042706/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2132699&type=D&dateb=&owner=include&count=10",
+      "filed": "20260915",
+      "matches": [
+        {
+          "person": "Jason Michael Ma",
+          "roles": [
+            "Director"
+          ],
+          "known_for": [
+            "Dyna Robotics"
+          ],
+          "employers": [
+            "Google/DeepMind",
+            "DeepMind"
+          ],
+          "evidence": [
+            "Dyna Robotics is clustered under Google/DeepMind in our database",
+            "\"DeepMind\" pedigree recorded on Dyna Robotics in our database"
+          ],
+          "name_ambiguous": true
+        }
+      ],
+      "score": 67,
+      "confidence": "Possible mafia founding",
+      "reasons": [
+        "Jason Michael Ma carries a documented DeepMind, Google/DeepMind pedigree in our database",
+        "Name match on Jason Michael Ma, but that name is common or ambiguous in our data \u2014 verify before acting",
+        "$5.0M already sold",
+        "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
+      ]
+    },
     {
       "cik": "2150460",
       "accession": "000215046026000001",
