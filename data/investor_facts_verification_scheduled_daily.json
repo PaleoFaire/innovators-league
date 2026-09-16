@@ -1,16 +1,15 @@
 {
-  "generatedAt": "2026-09-15T09:55:52+00:00",
+  "generatedAt": "2026-09-16T09:50:01+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
-  "cohortSize": 4,
-  "newExtractionsThisRun": 4,
+  "cohortSize": 3,
+  "newExtractionsThisRun": 3,
   "summary": {
-    "cleared": 2,
+    "cleared": 1,
     "changesProposed": 2,
     "unverifiable": 0
   },
   "cleared": [
-    "General Catalyst",
     "Shield Capital"
   ],
   "changesProposed": [
@@ -47,19 +46,19 @@
           "Semiconductors, Photonics & Next-Generation Hardware",
           "Space"
         ],
-        "thesis": "Engine Ventures is a venture capital firm focused on early-stage Tough Tech companies that solve the world's most important challenges through breakthrough science and engineering. The firm invests in companies developing hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+        "thesis": "Engine Ventures invests in early-stage Tough Tech companies solving the world's most important challenges through breakthrough science and engineering. The firm focuses on hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
         "website": "https://engine.xyz",
         "sources_per_field": {
           "name": [
             0,
             1,
-            2,
             3
           ],
           "short_name": [
             0
           ],
           "founded_year": [
+            1,
             3
           ],
           "hq": [
@@ -75,12 +74,10 @@
           ],
           "website": [
             0,
-            1,
-            2,
-            3
+            1
           ]
         },
-        "notes": "Engine Ventures is the separate venture capital arm that spun out from The Engine in 2023. The Engine itself is a nonprofit incubator and accelerator founded by MIT in 2016. Sources [4], [5], and [6] are unrelated news articles and provide no information about Engine Ventures."
+        "notes": "Engine Ventures is a separate investment firm that spun out from The Engine (a nonprofit incubator/accelerator) in 2023. Sources do not provide current AUM or flagship fund name for Engine Ventures specifically. Key partners for Engine Ventures are not identified in provided sources. Wikipedia lists Emily Knight as CEO & President of The Engine (the parent nonprofit), not Engine Ventures directly."
       },
       "changes": [
         {
@@ -117,8 +114,8 @@
         },
         {
           "field": "thesis",
-          "current": "Engine Ventures is a venture capital firm focused on early-stage Tough Tech companies that solve the world's most challenging problems through transformational science and engineering. The firm invests in companies developing hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
-          "verified": "Engine Ventures is a venture capital firm focused on early-stage Tough Tech companies that solve the world's most important challenges through breakthrough science and engineering. The firm invests in companies developing hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+          "current": "Engine Ventures is a venture capital firm focused on early-stage Tough Tech companies that solve the world's most important challenges through breakthrough science and engineering. The firm invests in companies developing hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+          "verified": "Engine Ventures invests in early-stage Tough Tech companies solving the world's most important challenges through breakthrough science and engineering. The firm focuses on hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
           "sources": [
             1,
             3
@@ -148,8 +145,8 @@
         },
         {
           "idx": 4,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/"
+          "src": "news (Breaking Defense)",
+          "url": "https://breakingdefense.com/2026/09/exclusive-pratt-licenses-hermeus-to-build-f100-fighter-jet-engine/"
         },
         {
           "idx": 5,
@@ -162,7 +159,7 @@
           "url": "https://www.defenseone.com/business/2026/09/back-life-how-shield-ais-future-unmanned-fighter-made-decades-old-tech-new-again/415821/"
         }
       ],
-      "notes": "Engine Ventures is the separate venture capital arm that spun out from The Engine in 2023. The Engine itself is a nonprofit incubator and accelerator founded by MIT in 2016. Sources [4], [5], and [6] are unrelated news articles and provide no information about Engine Ventures."
+      "notes": "Engine Ventures is a separate investment firm that spun out from The Engine (a nonprofit incubator/accelerator) in 2023. Sources do not provide current AUM or flagship fund name for Engine Ventures specifically. Key partners for Engine Ventures are not identified in provided sources. Wikipedia lists Emily Knight as CEO & President of The Engine (the parent nonprofit), not Engine Ventures directly."
     },
     {
       "name": "Y Combinator",
@@ -192,7 +189,7 @@
           "Nicolas Dessaigne"
         ],
         "sector_focus": null,
-        "thesis": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in startups selected four times per year. Founders move to San Francisco for three months of intensive mentorship, office hours, and community support, culminating in Demo Day where companies present to investors.",
+        "thesis": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on a post-money SAFE and $375,000 on an uncapped SAFE with an MFN clause) in startups selected four times per year. Founders move to San Francisco for three months of intensive mentorship, office hours, and community support, culminating in Demo Day where they present to investors.",
         "website": "https://www.ycombinator.com",
         "sources_per_field": {
           "name": [
@@ -210,7 +207,6 @@
             2
           ],
           "hq": [
-            0,
             2
           ],
           "key_partners": [
@@ -221,13 +217,13 @@
             1
           ]
         },
-        "notes": "Garry Tan became president and CEO in January 2023. Jared Friedman became managing partner in March 2024, succeeding Michael Seibel. Headquarters relocated from Mountain View to San Francisco in spring 2023. Program runs four times per year (winter, spring, summer, fall). Source [3] is not relevant to Y Combinator firm data and was excluded."
+        "notes": "Garry Tan became President and CEO in January 2023 (source 2). Jared Friedman succeeded Michael Seibel as Managing Partner in March 2024 (source 2). Headquarters moved from Mountain View to San Francisco in spring 2023 (source 2). Source [3] is unrelated to Y Combinator (article about Definium Therapeutics) and was not used."
       },
       "changes": [
         {
           "field": "thesis",
-          "current": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in startups selected four times per year. Founders move to San Francisco for three months of intensive mentorship, office hours, and community support, culminating in Demo Day where they present to investors.",
-          "verified": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in startups selected four times per year. Founders move to San Francisco for three months of intensive mentorship, office hours, and community support, culminating in Demo Day where companies present to investors.",
+          "current": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on post-money SAFE and $375,000 on uncapped SAFE with MFN clause) in startups selected four times per year. Founders move to San Francisco for three months of intensive mentorship, office hours, and community support, culminating in Demo Day where companies present to investors.",
+          "verified": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on a post-money SAFE and $375,000 on an uncapped SAFE with an MFN clause) in startups selected four times per year. Founders move to San Francisco for three months of intensive mentorship, office hours, and community support, culminating in Demo Day where they present to investors.",
           "sources": [
             0,
             1
@@ -256,7 +252,7 @@
           "url": "https://www.fiercebiotech.com/biotech/definium-lsd-drug-goes-3-3-another-pivotal-anxiety-trial-win"
         }
       ],
-      "notes": "Garry Tan became president and CEO in January 2023. Jared Friedman became managing partner in March 2024, succeeding Michael Seibel. Headquarters relocated from Mountain View to San Francisco in spring 2023. Program runs four times per year (winter, spring, summer, fall). Source [3] is not relevant to Y Combinator firm data and was excluded."
+      "notes": "Garry Tan became President and CEO in January 2023 (source 2). Jared Friedman succeeded Michael Seibel as Managing Partner in March 2024 (source 2). Headquarters moved from Mountain View to San Francisco in spring 2023 (source 2). Source [3] is unrelated to Y Combinator (article about Definium Therapeutics) and was not used."
     }
   ],
   "unverifiable": []

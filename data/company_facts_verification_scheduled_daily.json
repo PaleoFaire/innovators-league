@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-15T09:55:13+00:00",
+  "generatedAt": "2026-09-16T09:49:28+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 35,
-  "newExtractionsThisRun": 35,
+  "cohortSize": 36,
+  "newExtractionsThisRun": 36,
   "summary": {
     "cleared": 32,
-    "changesProposed": 3,
+    "changesProposed": 4,
     "unverifiable": 0
   },
   "cleared": [
@@ -20,9 +20,11 @@
     "Base Power",
     "Cognition",
     "Deterrence",
+    "Einride",
     "Galvanick",
     "Hadrian",
     "Humanoid",
+    "ICEYE",
     "ICON",
     "LabGenius",
     "Monumental",
@@ -34,12 +36,10 @@
     "Rebellions",
     "Rivian",
     "Sage Geosystems",
-    "Saildrone",
     "Shield AI",
     "SpaceX",
     "Valar Atomics",
     "Vast",
-    "Vention",
     "Vertical Aerospace",
     "Waymo"
   ],
@@ -57,7 +57,7 @@
       },
       "verified": {
         "name": "Agility Robotics",
-        "description": "A humanoid robotics company that develops and commercially deploys Digit, a bipedal robot for warehouse and logistics automation. Digit is the first humanoid robot deployed in real commercial operations with supply chain partners including Amazon, Toyota, GXO, and Mercado Libre.",
+        "description": "A humanoid robotics company that develops and deploys Digit, a bipedal robot designed for warehouse and logistics automation. Digit is commercially deployed with customers including Amazon, GXO Logistics, Toyota, and Mercado Libre.",
         "founders": [
           "Jonathan Hurst",
           "Damion Shelton",
@@ -94,10 +94,11 @@
           ],
           "website": [
             0,
+            1,
             2
           ]
         },
-        "notes": "Company rebranded to 'Agility' on March 5, 2026 (source 2). Announced merger with Churchill Capital Corp XI to go public via SPAC on June 24, 2026 (source 0). Database entry lists '$400M+' for total_raised and specific investors, but no sources provided verification of these figures. Current stage changed from 'Series E' to 'Pre-IPO' based on recent public merger announcement."
+        "notes": "Company announced merger with Churchill Capital Corp XI to go public (source 0, dated June 24, 2026). Company rebranded as 'Agility' on March 5, 2026 (source 2). Database entry lists Series E stage and $400M+ raised, but these could not be verified in provided sources."
       },
       "changes": [
         {
@@ -131,7 +132,197 @@
           "url": "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/"
         }
       ],
-      "notes": "Company rebranded to 'Agility' on March 5, 2026 (source 2). Announced merger with Churchill Capital Corp XI to go public via SPAC on June 24, 2026 (source 0). Database entry lists '$400M+' for total_raised and specific investors, but no sources provided verification of these figures. Current stage changed from 'Series E' to 'Pre-IPO' based on recent public merger announcement."
+      "notes": "Company announced merger with Churchill Capital Corp XI to go public (source 0, dated June 24, 2026). Company rebranded as 'Agility' on March 5, 2026 (source 2). Database entry lists Series E stage and $400M+ raised, but these could not be verified in provided sources."
+    },
+    {
+      "name": "Hermeus",
+      "current": {
+        "name": "Hermeus",
+        "founder": "AJ Piplica, Glenn Case, Skyler Shuford, Michael Smayda",
+        "location": "Hawthorne, CA",
+        "founded": 2018,
+        "fundingStage": "Series C",
+        "totalRaised": "$500M",
+        "website": "https://hermeus.com"
+      },
+      "verified": {
+        "name": "Hermeus",
+        "description": "American aerospace company designing hypersonic aircraft, including the uncrewed Quarterhorse testbed. Founded in 2018, the company reached supersonic flight in 2025.",
+        "founders": [
+          "AJ Piplica",
+          "Glenn Case",
+          "Skyler Shuford",
+          "Michael Smayda"
+        ],
+        "location": "Atlanta, Georgia",
+        "founded_year": 2018,
+        "current_stage": "Series C",
+        "total_raised": "$500M+",
+        "valuation": "$1B",
+        "investors": [
+          "Khosla Ventures",
+          "Sam Altman",
+          "Founders Fund",
+          "In-Q-Tel",
+          "Canaan Partners",
+          "Bling Capital"
+        ],
+        "website": "https://hermeus.com",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            1,
+            2
+          ],
+          "founders": [
+            1,
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            1,
+            2
+          ],
+          "current_stage": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "valuation": [
+            0
+          ],
+          "investors": [
+            2
+          ],
+          "website": [
+            0,
+            1,
+            2
+          ]
+        },
+        "notes": "Source [0] references a '$350M' funding round on July 17, 2026 ('$350M to Build the Fastest Aircraft in the World for the American Warfighter'), which appears to be Series C. Wikipedia [2] lists Zach Shore as CEO; Source [1] identifies him as Executive Chairman, though Source [1] also shows him as CEO in the leadership section title. The database entry lists location as 'Hawthorne, CA' but source [2] (Wikipedia) clearly states 'Atlanta, Georgia' as headquarters."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Hawthorne, CA",
+          "verified": "Atlanta, Georgia",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://hermeus.com"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://hermeus.com/company"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hermeus"
+        },
+        {
+          "idx": 3,
+          "src": "news (Breaking Defense)",
+          "url": "https://breakingdefense.com/2026/09/exclusive-pratt-licenses-hermeus-to-build-f100-fighter-jet-engine/"
+        }
+      ],
+      "notes": "Source [0] references a '$350M' funding round on July 17, 2026 ('$350M to Build the Fastest Aircraft in the World for the American Warfighter'), which appears to be Series C. Wikipedia [2] lists Zach Shore as CEO; Source [1] identifies him as Executive Chairman, though Source [1] also shows him as CEO in the leadership section title. The database entry lists location as 'Hawthorne, CA' but source [2] (Wikipedia) clearly states 'Atlanta, Georgia' as headquarters."
+    },
+    {
+      "name": "LeoLabs",
+      "current": {
+        "name": "LeoLabs",
+        "founder": "Dan Ceperley, Ed Lu, John Buonocore",
+        "location": "Menlo Park, CA",
+        "founded": 2016,
+        "fundingStage": "Series B",
+        "totalRaised": "$94M",
+        "website": "https://leolabs.space"
+      },
+      "verified": {
+        "name": "LeoLabs",
+        "description": "American space technology company specializing in tracking satellites and space debris in low Earth orbit using a global network of ground-based phased array radars.",
+        "founders": [
+          "Dan Ceperley",
+          "Ed Lu",
+          "John Buonocore"
+        ],
+        "location": "Menlo Park, California",
+        "founded_year": 2016,
+        "current_stage": null,
+        "total_raised": "$94M",
+        "valuation": null,
+        "investors": null,
+        "website": "https://leolabs.space",
+        "sources_per_field": {
+          "name": [
+            0,
+            1,
+            2
+          ],
+          "description": [
+            2
+          ],
+          "location": [
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "total_raised": [
+            2
+          ]
+        },
+        "notes": "Wikipedia states $65M Series B in June 2021 plus $29M additional funding in February 2024, totaling $94M. Current stage cannot be verified from sources. Founders cannot be verified from provided sources (only mentioned in database reference). As of late 2025, operates 11 radar installations; source [3] mentions 12 larger radar facilities."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Menlo Park, CA",
+          "verified": "Menlo Park, California",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://leolabs.space"
+        },
+        {
+          "idx": 1,
+          "src": "company_about",
+          "url": "https://leolabs.space/about"
+        },
+        {
+          "idx": 2,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/LeoLabs"
+        },
+        {
+          "idx": 3,
+          "src": "news (Breaking Defense)",
+          "url": "https://breakingdefense.com/2026/09/shifting-market-sands-leolabs-moves-to-sell-new-mobile-space-radar-directly-to-allies/"
+        }
+      ],
+      "notes": "Wikipedia states $65M Series B in June 2021 plus $29M additional funding in February 2024, totaling $94M. Current stage cannot be verified from sources. Founders cannot be verified from provided sources (only mentioned in database reference). As of late 2025, operates 11 radar installations; source [3] mentions 12 larger radar facilities."
     },
     {
       "name": "Nano Nuclear Energy",
@@ -145,8 +336,8 @@
         "website": "https://nanonuclearenergy.com"
       },
       "verified": {
-        "name": "NANO Nuclear Energy",
-        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI systems, with subsidiaries in fuel fabrication, fuel transportation, and space applications.",
+        "name": "NANO Nuclear Energy Inc.",
+        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI systems, along with subsidiaries focused on nuclear fuel fabrication, transportation, and space applications.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -161,6 +352,7 @@
             1
           ],
           "description": [
+            0,
             1
           ],
           "location": [
@@ -171,7 +363,7 @@
             1
           ]
         },
-        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from the company website but do not contain founder names, founding year, total capital raised, valuation, or investor information. Source [2] is about a different company (Valar Atomics) and cannot be used. Database entry references ODIN sale to Cambridge AtomWorks and specific financial figures, but these cannot be verified from provided sources."
+        "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from company website only; source [2] about Valar Atomics is unrelated to NANO Nuclear. No founder names explicitly stated in provided sources. Founded year, total_raised, valuation, and investors cannot be verified from provided sources. Database entry claims about founder Jay Jiang Yu, founded 2022, $600M+ raised, and $808M valuation cannot be supported by these sources."
       },
       "changes": [
         {
@@ -201,83 +393,7 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from the company website but do not contain founder names, founding year, total capital raised, valuation, or investor information. Source [2] is about a different company (Valar Atomics) and cannot be used. Database entry references ODIN sale to Cambridge AtomWorks and specific financial figures, but these cannot be verified from provided sources."
-    },
-    {
-      "name": "Swarm Aero",
-      "current": {
-        "name": "Swarm Aero",
-        "founder": "Danny Goodman, Oliver Palmer, Peter Kalogiannis",
-        "location": "Oxnard, CA",
-        "founded": 2022,
-        "fundingStage": "Seed",
-        "totalRaised": "$8M",
-        "website": "https://www.swarm.aero/"
-      },
-      "verified": {
-        "name": "Swarm Aero",
-        "description": "Developer of unmanned aerial systems including the Gamera Group 5 UAS for long-range strike missions and Legion C2 & autonomy system for multi-domain unmanned vehicle orchestration.",
-        "founders": [
-          "Oliver Palmer"
-        ],
-        "location": "Oxnard, CA",
-        "founded_year": 2022,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://www.swarm.aero/",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0,
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry lists three founders (Danny Goodman, Oliver Palmer, Peter Kalogiannis) but only Oliver Palmer is explicitly named as co-founder in provided sources. Investors, total_raised, valuation, and current_stage could not be verified from these sources. Database entry claims $8M raised and Seed stage, but this information is not present in provided sources."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Danny Goodman, Oliver Palmer, Peter Kalogiannis",
-          "verified": "Oliver Palmer",
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://www.swarm.aero/"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://www.swarm.aero/team"
-        },
-        {
-          "idx": 2,
-          "src": "news (Breaking Defense)",
-          "url": "https://breakingdefense.com/2026/09/swarm-aero-debuts-gamera-drone-in-bid-to-succeed-reaper/"
-        }
-      ],
-      "notes": "Database entry lists three founders (Danny Goodman, Oliver Palmer, Peter Kalogiannis) but only Oliver Palmer is explicitly named as co-founder in provided sources. Investors, total_raised, valuation, and current_stage could not be verified from these sources. Database entry claims $8M raised and Seed stage, but this information is not present in provided sources."
+      "notes": "Company is publicly listed on NASDAQ under ticker NNE. Sources [0] and [1] are from company website only; source [2] about Valar Atomics is unrelated to NANO Nuclear. No founder names explicitly stated in provided sources. Founded year, total_raised, valuation, and investors cannot be verified from provided sources. Database entry claims about founder Jay Jiang Yu, founded 2022, $600M+ raised, and $808M valuation cannot be supported by these sources."
     }
   ],
   "unverifiable": []
