@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T16:42:23.622563+00:00",
+  "generatedAt": "2026-09-16T19:58:54.242657+00:00",
   "date": "2026-09-16",
   "dateDisplay": "Wednesday, September 16, 2026",
   "sections": {
@@ -63,58 +63,58 @@
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 8.43,
-        "changePercent": -24.6,
-        "change": -2.75
-      },
-      {
-        "ticker": "NNE",
-        "company": "Nano Nuclear Energy",
-        "price": 15.78,
-        "changePercent": -18.45,
-        "change": -3.57
+        "price": 8.21,
+        "changePercent": -24.01,
+        "change": -2.6
       },
       {
         "ticker": "OKLO",
         "company": "Oklo",
-        "price": 35.98,
-        "changePercent": -16.92,
-        "change": -7.33
+        "price": 35.46,
+        "changePercent": -16.7,
+        "change": -7.11
       },
       {
-        "ticker": "DRSHF",
-        "company": "DroneShield",
-        "price": 1.15,
-        "changePercent": -13.53,
-        "change": -0.18
+        "ticker": "TEM",
+        "company": "Tempus AI",
+        "price": 70.69,
+        "changePercent": 15.35,
+        "change": 9.41
+      },
+      {
+        "ticker": "NNE",
+        "company": "Nano Nuclear Energy",
+        "price": 15.47,
+        "changePercent": -14.86,
+        "change": -2.7
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 252.54,
-        "changePercent": -12.57,
-        "change": -36.31
+        "price": 265.59,
+        "changePercent": -11.63,
+        "change": -34.95
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 13.87,
-        "changePercent": -11.54,
-        "change": -1.81
+        "price": 13.79,
+        "changePercent": -7.66,
+        "change": -1.14
+      },
+      {
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 15.97,
+        "changePercent": -7.23,
+        "change": -1.24
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 58.77,
-        "changePercent": -11.12,
-        "change": -7.35
-      },
-      {
-        "ticker": "JOBY",
-        "company": "Joby Aviation",
-        "price": 6.13,
-        "changePercent": -10.38,
-        "change": -0.71
+        "price": 58.67,
+        "changePercent": -6.01,
+        "change": -3.75
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "SMR -24.6%"
+    "topMover": "SMR -24.0%"
   }
 }

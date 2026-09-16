@@ -1,5 +1,56 @@
 [
   {
+    "title": "Former Waymo CFO jumps to self-driving startup Wayve",
+    "link": "https://techcrunch.com/2026/09/16/former-waymo-cfo-jumps-to-self-driving-startup-wayve/",
+    "description": "Elisa de Martel, who left her position as chief financial officer at Alphabet's autonomous vehicle company Waymo in January, will be based out of Silicon Valley.",
+    "pubDate": "Wed, 16 Sep 2026 19:02:49 +0000",
+    "category": "Transportation",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Aurora Innovation",
+      "Wayve",
+      "ICON"
+    ],
+    "sectors": [
+      "ai",
+      "autonomous",
+      "housing"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "The evolution of Digit: Agility Robotics&#8217; journey from Cassie to Digit 5",
+    "link": "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/",
+    "description": "From Cassie, to five different versions of Digit, Agility Robotics has adapted its technology to fit industrial tasks. \nThe post The evolution of Digit: Agility Robotics&#8217; journey from Cassie to Digit 5 appeared first on The Robot Report.",
+    "pubDate": "Wed, 16 Sep 2026 17:45:50 +0000",
+    "category": "Humanoids",
+    "source": "The Robot Report",
+    "feedCategory": "robotics",
+    "matchedCompany": "Agility Robotics",
+    "matchedCompanies": [
+      "Agility Robotics",
+      "Karman Industries",
+      "Solugen",
+      "Gecko Robotics",
+      "Teralta",
+      "Dust"
+    ],
+    "sectors": [
+      "robotics",
+      "climate",
+      "infrastructure",
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
     "title": "Chipotle Is Working With Palantir to Track Food Safety Risks",
     "link": "https://www.wired.com/story/chipotle-is-working-with-palantir-on-food-safety/",
     "description": "The burrito chain has enlisted Palantir for a platform that monitors pest incidents, employee illnesses, and other factors. The partnership comes after a nightmare summer for food safety across the US.",
@@ -16,7 +67,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
     "title": "Shifting market sands: LeoLabs moves to sell new mobile space radar directly to allies",
@@ -35,7 +86,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "18h ago"
+    "time": "21h ago"
   },
   {
     "title": "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence",
@@ -54,26 +105,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "21h ago"
-  },
-  {
-    "title": "SpaceX will try to put Starship in orbit for the first time on September 22",
-    "link": "https://techcrunch.com/2026/09/15/spacex-will-try-to-put-starship-in-orbit-for-the-first-time-on-september-22/",
-    "description": "Elon Musk's company will also attempt to deploy the first V3 Starlink satellites into its orbital internet constellation.",
-    "pubDate": "Tue, 15 Sep 2026 18:16:07 +0000",
-    "category": "Space",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "AI models need more data about biology, and OpenAI is paying to create it",
@@ -269,7 +301,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture",
@@ -288,7 +320,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6d ago"
+    "time": "9/9/2026"
   },
   {
     "title": "NSA wants AI to help analysts sift vast data troves",
@@ -368,53 +400,6 @@
     ],
     "sectors": [
       "ai"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "9/4/2026"
-  },
-  {
-    "title": "July’s breakout at OpenAI was far more complex than initially realized",
-    "link": "https://www.defenseone.com/threats/2026/09/AI-breakout-openai-complex/415825/",
-    "description": "Hundreds of AI agents collaborated to escape their containers, disguising their actions and even sacrificing themselves.",
-    "pubDate": "Fri, 04 Sep 2026 16:10:55 -0400",
-    "category": "Threats",
-    "source": "Defense One",
-    "feedCategory": "defense",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "9/4/2026"
-  },
-  {
-    "title": "Back to life: How Shield AI’s future unmanned fighter made decades-old tech new again",
-    "link": "https://www.defenseone.com/business/2026/09/back-life-how-shield-ais-future-unmanned-fighter-made-decades-old-tech-new-again/415821/",
-    "description": "The original GE Aerospace engine nozzle, designed for the F-16, is key to building a vertical takeoff robotic jet prototype.",
-    "pubDate": "Fri, 04 Sep 2026 06:00:00 -0400",
-    "category": "Business",
-    "source": "Defense One",
-    "feedCategory": "defense",
-    "matchedCompany": "Shield AI",
-    "matchedCompanies": [
-      "Shield AI",
-      "Hadrian",
-      "AnySignal",
-      "Elodin",
-      "Vertical Aerospace",
-      "Orbital Composites"
-    ],
-    "sectors": [
-      "defense",
-      "robotics",
-      "space",
-      "infrastructure",
-      "transportation"
     ],
     "type": "ipo",
     "impact": "low",
