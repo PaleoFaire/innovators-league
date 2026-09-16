@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-09-15";
+const LAST_UPDATED = "2026-09-16";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -59322,21 +59322,21 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-15 22:05
+// Last updated: 2026-09-16 00:11
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "LeoLabs", headline: "Shifting market sands: LeoLabs moves to sell new mobile space radar directly to allies", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX will try to put Starship in orbit for the first time on September 22", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "OpenAI, Anthropic, Google have been in talks on AI safety for weeks", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Anthropic", headline: "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "AI models need more data about biology, and OpenAI is paying to create it", source: "MIT Tech Review", time: "10h ago", impact: "low", unread: false },
-  { id: 7, type: "hire", company: "Hermeus", headline: "EXCLUSIVE: Pratt licenses Hermeus to build F100 fighter jet engine", source: "Breaking Defense", time: "10h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "Einride", headline: "Einride and Lidl deploy Germany's first driverless cab-less truck on public roads", source: "Tech.eu", time: "10h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Humanoid", headline: "Agility's Digit 5 humanoid has new legs, batteries and safety upgrades", source: "The Robot Report", time: "11h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "ICEYE", headline: "Iceye's global presence expands to address sovereign demand", source: "SpaceNews", time: "16h ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Waymo", headline: "Waymo Readying to Launch Robotaxis in Japan", source: "CleanTechnica", time: "19h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "LeoLabs", headline: "Shifting market sands: LeoLabs moves to sell new mobile space radar directly to allies", source: "Breaking Defense", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "5h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX will try to put Starship in orbit for the first time on September 22", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "OpenAI, Anthropic, Google have been in talks on AI safety for weeks", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Anthropic", headline: "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "AI models need more data about biology, and OpenAI is paying to create it", source: "MIT Tech Review", time: "12h ago", impact: "low", unread: false },
+  { id: 7, type: "hire", company: "Hermeus", headline: "EXCLUSIVE: Pratt licenses Hermeus to build F100 fighter jet engine", source: "Breaking Defense", time: "12h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Einride", headline: "Einride and Lidl deploy Germany's first driverless cab-less truck on public roads", source: "Tech.eu", time: "12h ago", impact: "low", unread: false },
+  { id: 9, type: "milestone", company: "Humanoid", headline: "Agility's Digit 5 humanoid has new legs, batteries and safety upgrades", source: "The Robot Report", time: "13h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "ICEYE", headline: "Iceye's global presence expands to address sovereign demand", source: "SpaceNews", time: "18h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Waymo", headline: "Waymo Readying to Launch Robotaxis in Japan", source: "CleanTechnica", time: "22h ago", impact: "low", unread: false },
   { id: 12, type: "news", company: "Anthropic", headline: "Anthropic Fears RSI &#8211; What is RSI? What Specifically is It?", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX Huge Next Flight and 150 Days to Change the World", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX Huge Next Flight and 150 Days to Change the World", source: "Next Big Future", time: "4d ago", impact: "low", unread: false },
   { id: 14, type: "news", company: "xAI", headline: "xAI has quietly built a massive battery at its Memphis data center hub", source: "Canary Media", time: "4d ago", impact: "low", unread: false },
   { id: 15, type: "hire", company: "Monumental", headline: "One brick at a time: How Monumental uses robotics to build walls", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
 ];
