@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 1.96,
+      "avg_change": 2.84,
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -3.45,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -2.85,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -3.28,
+      "avg_change": -3.5,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -18.52,
+      "avg_change": -17.82,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.83,
+      "avg_change": -2.09,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.34,
+      "avg_change": -3.77,
       "count": 3
     },
     "biotech": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 6.08,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 5.12,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -3.45,
+      "avg_change": -3.75,
       "count": 2
     },
     "chips": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -5.12,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -5.48,
       "count": 3
     }
   },
@@ -61,17 +61,17 @@
     [
       "TEM",
       "Tempus AI",
-      15.35
+      14.18
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      4.8
+      4.2
     ],
     [
       "PLTR",
       "Palantir",
-      1.96
+      2.84
     ],
     [
       "ONT.L",
@@ -79,37 +79,37 @@
       1.96
     ],
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      0.93
+      "RKLB",
+      "Rocket Lab",
+      1.0
     ]
   ],
   "topLosers": [
     [
       "LUNR",
       "Intuitive Machines",
-      -7.66
+      -7.16
     ],
     [
       "ALAB",
       "Astera Labs",
-      -11.63
+      -10.43
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -14.86
+      -13.92
     ],
     [
       "OKLO",
       "Oklo",
-      -16.7
+      -16.33
     ],
     [
       "SMR",
       "NuScale Power",
-      -24.01
+      -23.22
     ]
   ],
-  "lastUpdated": "2026-09-16 17:40:02"
+  "lastUpdated": "2026-09-16 22:13:33"
 }
