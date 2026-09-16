@@ -1,7 +1,13 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-15 11:24:04 UTC
+// Last updated: 2026-09-16 11:09:04 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rivian", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789552810.xml", isIPO: false, ticker: "RIVN" },
   { company: "Rocket Lab", form: "8-K", date: "2026-09-15", description: "g085951_8k.htm", isIPO: false, ticker: "RKLB" },
+  { company: "Oklo", form: "4", date: "2026-09-15", description: "xslF345X06/wk-form4_1789504098.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-09-15", description: "xslF345X06/wk-form4_1789504046.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-09-15", description: "xslF345X06/wk-form4_1789503990.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-09-15", description: "xslF345X06/wk-form4_1789503921.xml", isIPO: false, ticker: "OKLO" },
+  { company: "C3.ai", form: "4", date: "2026-09-15", description: "xslF345X06/wk-form4_1789516923.xml", isIPO: false, ticker: "AI" },
   { company: "D-Wave Quantum", form: "8-K", date: "2026-09-15", description: "qbts-20260915.htm", isIPO: false, ticker: "QBTS" },
   { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418300.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418286.xml", isIPO: false, ticker: "BKSY" },
@@ -45,10 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "UiPath", form: "4", date: "2026-09-03", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "UiPath", form: "4", date: "2026-09-03", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "UiPath", form: "4", date: "2026-09-03", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "4", date: "2026-09-03", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "8-K", date: "2026-09-03", description: "path-20260901.htm", isIPO: false, ticker: "PATH" },
-  { company: "Agrify Corporation", form: "4", date: "2026-09-03", description: "xslF345X06/form4-09032026_050901.xml", isIPO: false, ticker: "AGFY" },
-  { company: "Rocket Lab", form: "4", date: "2026-09-02", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Oklo", form: "4", date: "2026-09-02", description: "xslF345X06/wk-form4_1788381083.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-09-02", description: "xslF345X06/wk-form4_1788380984.xml", isIPO: false, ticker: "OKLO" },
 ];

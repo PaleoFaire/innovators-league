@@ -1,25 +1,25 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 46,
+    "momentum": 45,
     "trend": "steady",
     "catalysts": [
-      "Agility\u2019s Digit 5 humanoid has new legs, batteries and safet",
-      "Waymo Readying to Launch Robotaxis in Japan",
-      "Anthropic Fears RSI &#8211; What is RSI? What Specifically i"
+      "AI models need more data about biology, and OpenAI is paying",
+      "Agility\u2019s Digit 5 humanoid has new legs, batteries, and safe",
+      "Waymo Readying to Launch Robotaxis in Japan"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 45,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-15"
+    "lastUpdated": "2026-09-16"
   },
   {
     "sector": "Transportation",
-    "momentum": 40,
+    "momentum": 36,
     "trend": "steady",
     "catalysts": [
       "Rivian\u2019s Gambit for Full Autonomy"
@@ -29,88 +29,69 @@
       "funding": 100,
       "news": 5,
       "hiring": 0,
-      "market": 19
+      "market": 0
     },
-    "lastUpdated": "2026-09-15"
+    "lastUpdated": "2026-09-16"
   },
   {
     "sector": "AI & Software",
-    "momentum": 34,
+    "momentum": 32,
     "trend": "rising",
     "catalysts": [
-      "OpenAI buys smartphone camera maker Glass Imaging for $300 m",
-      "Anthropic Fears RSI &#8211; What is RSI? What Specifically i",
-      "Only at TechCrunch Disrupt 2026: What happens when OpenAI sh"
+      "OpenAI, Anthropic, Google have been in talks on AI safety fo",
+      "AI models need more data about biology, and OpenAI is paying",
+      "Anthropic Fears RSI &#8211; What is RSI? What Specifically i"
     ],
     "fundingQ": "$2.4B",
     "components": {
       "funding": 39,
-      "news": 40,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-15"
+    "lastUpdated": "2026-09-16"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 27,
+    "momentum": 31,
     "trend": "rising",
     "catalysts": [
-      "Swarm Aero debuts Gamera drone in bid to succeed Reaper",
-      "Forced Into the Right Decision? A Look at U.S. Land-Based De",
-      "Back to life: How Shield AI\u2019s future unmanned fighter made d"
+      "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
+      "EXCLUSIVE: Pratt licenses Hermeus to build F100 fighter jet",
+      "Forced Into the Right Decision? A Look at U.S. Land-Based De"
     ],
     "fundingQ": "$1.1B",
     "components": {
       "funding": 38,
       "news": 20,
       "hiring": 0,
-      "market": 44
+      "market": 63
     },
-    "lastUpdated": "2026-09-15"
+    "lastUpdated": "2026-09-16"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 18,
+    "momentum": 17,
     "trend": "declining",
     "catalysts": [
-      "SpaceX Huge Next Flight and 150 Days to Change the World",
-      "What bricklaying has taught Monumental about robots in const"
+      "SpaceX Huge Next Flight and 150 Days to Change the World"
     ],
     "fundingQ": "$50M",
     "components": {
       "funding": 16,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-15"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 18,
-    "trend": "declining",
-    "catalysts": [
-      "Agility\u2019s Digit 5 humanoid has new legs, batteries and safet",
-      "Iceye&#8217;s global presence expands to address sovereign d",
-      "OpenAI buys smartphone camera maker Glass Imaging for $300 m"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 30,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-15"
+    "lastUpdated": "2026-09-16"
   },
   {
     "sector": "Drones & Autonomous",
     "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "Swarm Aero debuts Gamera drone in bid to succeed Reaper",
-      "US refutes claims that Iran captured Saildrone USV",
+      "EXCLUSIVE: Pratt licenses Hermeus to build F100 fighter jet",
+      "Einride and Lidl deploy Germany\u2019s first driverless cab-less",
       "Back to life: How Shield AI\u2019s future unmanned fighter made d"
     ],
     "fundingQ": "$0M",
@@ -120,14 +101,49 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-15"
+    "lastUpdated": "2026-09-16"
   },
   {
-    "sector": "Ocean & Maritime",
+    "sector": "Biotech & Health",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "AI models need more data about biology, and OpenAI is paying",
+      "<a href=\"/biotech/definium-lsd-drug-goes-3-3-another-pivotal"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 56
+    },
+    "lastUpdated": "2026-09-16"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "Agility\u2019s Digit 5 humanoid has new legs, batteries, and safe",
+      "Iceye&#8217;s global presence expands to address sovereign d",
+      "One brick at a time: How Monumental uses robotics to build w"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-16"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "US refutes claims that Iran captured Saildrone USV"
+      "EXCLUSIVE: Pratt licenses Hermeus to build F100 fighter jet"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -136,14 +152,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-15"
+    "lastUpdated": "2026-09-16"
   },
   {
-    "sector": "Supersonic & Hypersonic",
+    "sector": "Ocean & Maritime",
     "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "Active supersonic & hypersonic ecosystem"
+      "Active ocean & maritime ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -152,7 +168,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-15"
+    "lastUpdated": "2026-09-16"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -168,49 +184,33 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-15"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 8,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 40
-    },
-    "lastUpdated": "2026-09-15"
+    "lastUpdated": "2026-09-16"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 7,
+    "momentum": 9,
     "trend": "declining",
     "catalysts": [
-      "Iceye&#8217;s global presence expands to address sovereign d",
-      "Waymo Readying to Launch Robotaxis in Japan",
-      "SpaceX Huge Next Flight and 150 Days to Change the World"
+      "Shifting market sands: LeoLabs moves to sell new mobile spac",
+      "SpaceX will try to put Starship in orbit for the first time",
+      "Iceye&#8217;s global presence expands to address sovereign d"
     ],
     "fundingQ": "$50M",
     "components": {
       "funding": 5,
-      "news": 20,
+      "news": 30,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-15"
+    "lastUpdated": "2026-09-16"
   },
   {
     "sector": "Nuclear Energy",
     "momentum": 6,
     "trend": "declining",
     "catalysts": [
-      "Forced Into the Right Decision? A Look at U.S. Land-Based De",
       "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
+      "Forced Into the Right Decision? A Look at U.S. Land-Based De",
       "Does Latent Nuclear Deterrence Really Work?"
     ],
     "fundingQ": "$0M",
@@ -220,7 +220,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-15"
+    "lastUpdated": "2026-09-16"
   },
   {
     "sector": "Climate & Energy",
@@ -237,25 +237,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-15"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 4,
-    "trend": "declining",
-    "catalysts": [
-      "Insight Partners&#8217; Deven Parekh on why the firm is dive",
-      "<a href=\"/biotech/definium-lsd-drug-goes-3-3-another-pivotal",
-      "<a href=\"/biotech/biontech-sets-survival-standard-hard-treat"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 1
-    },
-    "lastUpdated": "2026-09-15"
+    "lastUpdated": "2026-09-16"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -271,6 +253,22 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-15"
+    "lastUpdated": "2026-09-16"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 0,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-09-16"
   }
 ]
