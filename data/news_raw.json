@@ -1,5 +1,44 @@
 [
   {
+    "title": "OpenAI Creates a New Framework to Disclose Bad AI Behavior",
+    "link": "https://www.wired.com/story/openai-releases-new-policy-for-reporting-incidents-of-model-misalignment/",
+    "description": "The company also disclosed previously unreported incidents in which its AI models behaved in misaligned ways, including uploading files to the internet without being asked.",
+    "pubDate": "Wed, 16 Sep 2026 22:07:24 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+    "link": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+    "description": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation.",
+    "pubDate": "Wed, 16 Sep 2026 21:07:24 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
     "title": "Former Waymo CFO jumps to self-driving startup Wayve",
     "link": "https://techcrunch.com/2026/09/16/former-waymo-cfo-jumps-to-self-driving-startup-wayve/",
     "description": "Elisa de Martel, who left her position as chief financial officer at Alphabet's autonomous vehicle company Waymo in January, will be based out of Silicon Valley.",
@@ -21,7 +60,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
     "title": "The evolution of Digit: Agility Robotics&#8217; journey from Cassie to Digit 5",
@@ -48,7 +87,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "5h ago"
   },
   {
     "title": "Chipotle Is Working With Palantir to Track Food Safety Risks",
@@ -67,7 +106,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "3h ago"
+    "time": "6h ago"
   },
   {
     "title": "Shifting market sands: LeoLabs moves to sell new mobile space radar directly to allies",
@@ -86,7 +125,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence",
@@ -221,7 +260,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "SpaceX Huge Next Flight and 150 Days to Change the World",
@@ -240,7 +279,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "xAI has quietly built a massive battery at its Memphis data center hub",
@@ -262,7 +301,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "One brick at a time: How Monumental uses robotics to build walls",
@@ -281,7 +320,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "The Week’s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
@@ -359,28 +398,6 @@
     "sectors": [
       "transportation",
       "housing"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "9/8/2026"
-  },
-  {
-    "title": "XPeng starts IRON humanoid robot production as Tesla Optimus stalls",
-    "link": "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/",
-    "description": "XPeng has switched on what it calls the world’s first automated production line for advanced humanoid robots, and its IRON robot walked off that line under its own power. The Chinese automaker says the line runs with more than 80% of its core processes automated.\n\n\n\nIt’s the clearest signal yet that",
-    "pubDate": "Tue, 08 Sep 2026 02:40:34 +0000",
-    "category": "News",
-    "source": "Electrek",
-    "feedCategory": "autonomous",
-    "matchedCompany": "Humanoid",
-    "matchedCompanies": [
-      "Humanoid",
-      "Agility Robotics",
-      "Apptronik",
-      "1X Technologies"
-    ],
-    "sectors": [
-      "robotics"
     ],
     "type": "news",
     "impact": "low",
