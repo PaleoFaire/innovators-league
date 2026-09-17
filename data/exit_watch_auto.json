@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-09-16T11:48:05.129741+00:00",
+    "generated_at": "2026-09-17T11:52:53.649004+00:00",
     "window_days": 10,
-    "filings_scanned": 1043,
-    "candidates_considered": 237,
-    "published": 3,
-    "roster_size": 2461,
+    "filings_scanned": 1215,
+    "candidates_considered": 275,
+    "published": 4,
+    "roster_size": 2462,
     "roster_with_pedigree": 192,
     "method": "SEC Form D formations, filtered to new frontier-adjacent US entities, matched against founders already documented in COMPANIES. Confidence tiers reflect what the public record supports, not what is plausible."
   },
@@ -236,6 +236,67 @@
         "Name match on William Ryan Davis, but that name is common or ambiguous in our data \u2014 verify before acting",
         "self-classified as Manufacturing",
         "$8.2M already sold",
+        "incorporated this year",
+        "Nothing beyond the name lines up \u2014 treat as a weak lead",
+        "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
+      ]
+    },
+    {
+      "cik": "2155786",
+      "accession": "000215578626000001",
+      "entity": "World Flavors Holdings, LLC",
+      "industry": "Other",
+      "year_inc": 2026,
+      "state": "FL",
+      "amount_sold": 275000.0,
+      "first_sale": "2026-09-01",
+      "persons": [
+        {
+          "name": "William Ryan Davis",
+          "key": "williamdavis",
+          "roles": [
+            "Director"
+          ],
+          "state": "FLORIDA"
+        },
+        {
+          "name": "Dennis G. Prado",
+          "key": "dennisprado",
+          "roles": [
+            "Director"
+          ],
+          "state": "FLORIDA"
+        },
+        {
+          "name": "Scott Douglas",
+          "key": "scottdouglas",
+          "roles": [
+            "Executive Officer"
+          ],
+          "state": "FLORIDA"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2155786/000215578626000001/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2155786&type=D&dateb=&owner=include&count=10",
+      "filed": "20260916",
+      "matches": [
+        {
+          "person": "William Ryan Davis",
+          "roles": [
+            "Director"
+          ],
+          "known_for": [
+            "American Housing Corporation"
+          ],
+          "employers": [],
+          "evidence": [],
+          "name_ambiguous": true
+        }
+      ],
+      "score": 29,
+      "confidence": "Founder's next company",
+      "reasons": [
+        "Name match on William Ryan Davis, but that name is common or ambiguous in our data \u2014 verify before acting",
         "incorporated this year",
         "Nothing beyond the name lines up \u2014 treat as a weak lead",
         "EDGAR shows no earlier Form D from this entity \u2014 this is its first disclosed raise"
