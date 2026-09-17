@@ -1,5 +1,47 @@
 [
   {
+    "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
+    "link": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
+    "description": "Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods for training and monitoring open models.",
+    "pubDate": "Thu, 17 Sep 2026 17:15:59 +0000",
+    "category": "TC",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Hugging Face",
+    "matchedCompanies": [
+      "Hugging Face",
+      "Anthropic",
+      "Kolena"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "medium",
+    "time": "Just now"
+  },
+  {
+    "title": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
+    "link": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/",
+    "description": "A new coalition that includes Google, Nvidia, Anthropic, and Emerald AI wants to find 100 GW of grid capacity for new data centers.",
+    "pubDate": "Thu, 17 Sep 2026 13:38:33 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Emerald AI"
+    ],
+    "sectors": [
+      "ai",
+      "energy"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "4h ago"
+  },
+  {
     "title": "Icarus Robotics tests Joy in Canada ahead of ISS flight",
     "link": "https://spacenews.com/icarus-robotics-tests-joy-in-canada-ahead-of-iss-flight/",
     "description": "\nPARIS &#8212; Icarus Robotics, the New York startup developing dexterous mobile robots for space missions, conducted tests of its free-flying platform ahead of a 2027 demonstration on the International Space [&#8230;]\nThe post Icarus Robotics tests Joy in Canada ahead of ISS flight appeared first o",
@@ -16,7 +58,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "Just now"
+    "time": "5h ago"
   },
   {
     "title": "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months",
@@ -35,7 +77,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "6h ago"
+    "time": "10h ago"
   },
   {
     "title": "Building Waymo’s Risk &#038; Insurance Foundation in Europe with Allianz Partners",
@@ -54,7 +96,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
+    "time": "14h ago"
   },
   {
     "title": "Musk&#8217;s long-time backer is giving SpaceX stock to its investors",
@@ -73,7 +115,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "13h ago"
+    "time": "18h ago"
   },
   {
     "title": "An OpenAI Agent Tried to Jailbreak Itself",
@@ -92,51 +134,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "15h ago"
-  },
-  {
-    "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
-    "link": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
-    "description": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation.",
-    "pubDate": "Wed, 16 Sep 2026 21:07:24 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "16h ago"
-  },
-  {
-    "title": "Former Waymo CFO jumps to self-driving startup Wayve",
-    "link": "https://techcrunch.com/2026/09/16/former-waymo-cfo-jumps-to-self-driving-startup-wayve/",
-    "description": "Elisa de Martel, who left her position as chief financial officer at Alphabet's autonomous vehicle company Waymo in January, will be based out of Silicon Valley.",
-    "pubDate": "Wed, 16 Sep 2026 19:02:49 +0000",
-    "category": "Transportation",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Waymo",
-    "matchedCompanies": [
-      "Waymo",
-      "Aurora Innovation",
-      "Wayve",
-      "ICON"
-    ],
-    "sectors": [
-      "ai",
-      "autonomous",
-      "housing"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "18h ago"
+    "time": "20h ago"
   },
   {
     "title": "The evolution of Digit: Agility Robotics&#8217; journey from Cassie to Digit 5",
@@ -163,7 +161,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "19h ago"
+    "time": "1d ago"
   },
   {
     "title": "Chipotle Is Working With Palantir to Track Food Safety Risks",
@@ -181,25 +179,6 @@
       "ai"
     ],
     "type": "hire",
-    "impact": "low",
-    "time": "21h ago"
-  },
-  {
-    "title": "Shifting market sands: LeoLabs moves to sell new mobile space radar directly to allies",
-    "link": "https://breakingdefense.com/2026/09/shifting-market-sands-leolabs-moves-to-sell-new-mobile-space-radar-directly-to-allies/",
-    "description": "LeoLabs also intends to deploy multiple Scout-S mobile phased array radars to fill gaps in its current network of 12 larger radar facilities around the globe. ",
-    "pubDate": "Tue, 15 Sep 2026 22:01:03 +0000",
-    "category": "Space",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "LeoLabs",
-    "matchedCompanies": [
-      "LeoLabs"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
     "impact": "low",
     "time": "1d ago"
   },
@@ -244,7 +223,7 @@
   {
     "title": "Agility’s Digit 5 humanoid has new legs, batteries, and safety upgrades",
     "link": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/",
-    "description": "The latest version of Digit includes new knees, upgraded batteries, and more comprehensive safety architecture.\nThe post Agility���s Digit 5 humanoid has new legs, batteries, and safety upgrades appeared first on The Robot Report.",
+    "description": "The latest version of Digit includes new knees, upgraded batteries, and more comprehensive safety architecture.\nThe post Agility’s Digit 5 humanoid has new legs, batteries, and safety upgrades appeared first on The Robot Report.",
     "pubDate": "Tue, 15 Sep 2026 10:55:15 +0000",
     "category": "Humanoids",
     "source": "The Robot Report",
@@ -397,7 +376,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture",
