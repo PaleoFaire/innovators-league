@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 5.47,
+      "avg_change": 6.26,
       "count": 1
     },
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 4.85,
+      "avg_change": 5.08,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": 0.71,
+      "avg_change": 1.0,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.5,
+      "avg_change": -4.76,
       "count": 3
     },
     "climate": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 3.86,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.91,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.22,
+      "avg_change": 7.05,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 19.3,
+      "avg_change": 20.23,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -0.32,
+      "avg_change": -1.66,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 3.2,
+      "avg_change": 3.95,
       "count": 3
     }
   },
@@ -61,12 +61,17 @@
     [
       "TEM",
       "Tempus AI",
-      36.09
+      36.81
     ],
     [
       "SATL",
       "Satellogic",
-      16.06
+      17.23
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      12.03
     ],
     [
       "ONT.L",
@@ -74,22 +79,12 @@
       11.85
     ],
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      9.97
-    ],
-    [
       "IONQ",
       "IonQ",
-      9.31
+      9.5
     ]
   ],
   "topLosers": [
-    [
-      "ACHR",
-      "Archer Aviation",
-      -2.02
-    ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
@@ -98,7 +93,12 @@
     [
       "NNE",
       "Nano Nuclear Energy",
-      -3.97
+      -2.25
+    ],
+    [
+      "RIVN",
+      "Rivian",
+      -4.05
     ],
     [
       "277810.KQ",
@@ -108,8 +108,8 @@
     [
       "SMR",
       "NuScale Power",
-      -12.39
+      -11.46
     ]
   ],
-  "lastUpdated": "2026-09-17 17:40:38"
+  "lastUpdated": "2026-09-17 22:14:34"
 }
