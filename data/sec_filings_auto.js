@@ -1,6 +1,14 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-16 11:09:04 UTC
+// Last updated: 2026-09-17 11:17:51 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-09-17", description: "qbts-20260916.htm", isIPO: false, ticker: "QBTS" },
+  { company: "Intuitive Machines", form: "8-K", date: "2026-09-16", description: "tm2625564d1_8k.htm", isIPO: false, ticker: "LUNR" },
+  { company: "Oklo", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789591264.xml", isIPO: false, ticker: "OKLO" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789596570.xml", isIPO: false, ticker: "QBTS" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789596512.xml", isIPO: false, ticker: "QBTS" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789596456.xml", isIPO: false, ticker: "QBTS" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789595520.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Ginkgo Bioworks", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789589178.xml", isIPO: false, ticker: "DNA" },
   { company: "Rivian", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789552810.xml", isIPO: false, ticker: "RIVN" },
   { company: "Rocket Lab", form: "8-K", date: "2026-09-15", description: "g085951_8k.htm", isIPO: false, ticker: "RKLB" },
   { company: "Oklo", form: "4", date: "2026-09-15", description: "xslF345X06/wk-form4_1789504098.xml", isIPO: false, ticker: "OKLO" },
@@ -43,12 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Rocket Lab", form: "4", date: "2026-09-04", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Rigetti Computing", form: "4", date: "2026-09-04", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
   { company: "Archer Aviation", form: "8-K", date: "2026-09-04", description: "achr-20260901.htm", isIPO: false, ticker: "ACHR" },
-  { company: "Palantir Technologies", form: "4", date: "2026-09-03", description: "xslF345X06/wk-form4_1788480144.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Oklo", form: "4", date: "2026-09-03", description: "xslF345X06/wk-form4_1788467088.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-09-03", description: "xslF345X06/wk-form4_1788467003.xml", isIPO: false, ticker: "OKLO" },
-  { company: "C3.ai", form: "4", date: "2026-09-03", description: "xslF345X06/wk-form4_1788475629.xml", isIPO: false, ticker: "AI" },
-  { company: "UiPath", form: "4", date: "2026-09-03", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "4", date: "2026-09-03", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "4", date: "2026-09-03", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "4", date: "2026-09-03", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
 ];

@@ -261,15 +261,6 @@
     "isIPO": false
   },
   {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "4",
-    "date": "2026-06-18",
-    "description": "xslF345X06/edgardoc.xml",
-    "accessionNumber": "0002001011-26-000105",
-    "isIPO": false
-  },
-  {
     "company": "AST SpaceMobile",
     "ticker": "ASTS",
     "form": "4",
@@ -605,6 +596,15 @@
   {
     "company": "Intuitive Machines",
     "ticker": "LUNR",
+    "form": "8-K",
+    "date": "2026-09-16",
+    "description": "tm2625564d1_8k.htm",
+    "accessionNumber": "0001104659-26-108302",
+    "isIPO": false
+  },
+  {
+    "company": "Intuitive Machines",
+    "ticker": "LUNR",
     "form": "4",
     "date": "2026-08-26",
     "description": "xslF345X06/form4-08262026_110806.xml",
@@ -885,6 +885,15 @@
     "company": "Oklo",
     "ticker": "OKLO",
     "form": "4",
+    "date": "2026-09-16",
+    "description": "xslF345X06/wk-form4_1789591264.xml",
+    "accessionNumber": "0002147680-26-000010",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
     "date": "2026-09-15",
     "description": "xslF345X06/wk-form4_1789504098.xml",
     "accessionNumber": "0002147680-26-000008",
@@ -1125,15 +1134,6 @@
     "isIPO": false
   },
   {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-07-06",
-    "description": "xslF345X06/wk-form4_1783368855.xml",
-    "accessionNumber": "0001855623-26-000015",
-    "isIPO": false
-  },
-  {
     "company": "Centrus Energy",
     "ticker": "LEU",
     "form": "8-K",
@@ -1356,24 +1356,6 @@
     "date": "2026-06-22",
     "description": "xslF345X06/wk-form4_1782175158.xml",
     "accessionNumber": "0001628280-26-044784",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "8-K",
-    "date": "2026-06-18",
-    "description": "leu-20260618.htm",
-    "accessionNumber": "0001628280-26-044386",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "8-K",
-    "date": "2026-06-18",
-    "description": "leu-20260618.htm",
-    "accessionNumber": "0001628280-26-044360",
     "isIPO": false
   },
   {
@@ -2037,6 +2019,42 @@
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
     "form": "8-K",
+    "date": "2026-09-17",
+    "description": "qbts-20260916.htm",
+    "accessionNumber": "0001907982-26-000150",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-09-16",
+    "description": "xslF345X06/wk-form4_1789596570.xml",
+    "accessionNumber": "0002128527-26-000004",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-09-16",
+    "description": "xslF345X06/wk-form4_1789596512.xml",
+    "accessionNumber": "0002129321-26-000015",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-09-16",
+    "description": "xslF345X06/wk-form4_1789596456.xml",
+    "accessionNumber": "0001974777-26-000018",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "8-K",
     "date": "2026-09-15",
     "description": "qbts-20260915.htm",
     "accessionNumber": "0001907982-26-000148",
@@ -2241,12 +2259,12 @@
     "isIPO": false
   },
   {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "8-K",
-    "date": "2026-06-18",
-    "description": "qbts-20260618.htm",
-    "accessionNumber": "0001907982-26-000090",
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-09-16",
+    "description": "xslF345X06/wk-form4_1789595520.xml",
+    "accessionNumber": "0001601830-26-000110",
     "isIPO": false
   },
   {
@@ -2385,12 +2403,12 @@
     "isIPO": false
   },
   {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
+    "company": "Ginkgo Bioworks",
+    "ticker": "DNA",
     "form": "4",
-    "date": "2026-06-22",
-    "description": "xslF345X06/wk-form4_1782160331.xml",
-    "accessionNumber": "0001601830-26-000084",
+    "date": "2026-09-16",
+    "description": "xslF345X06/wk-form4_1789589178.xml",
+    "accessionNumber": "0001628280-26-062239",
     "isIPO": false
   },
   {
@@ -2787,69 +2805,6 @@
     "date": "2026-07-09",
     "description": "ea0295890-02.htm",
     "accessionNumber": "0001213900-26-076533",
-    "isIPO": false
-  },
-  {
-    "company": "Agrify Corporation",
-    "ticker": "AGFY",
-    "form": "4",
-    "date": "2026-06-18",
-    "description": "xslF345X06/form4-06182026_080640.xml",
-    "accessionNumber": "0001971464-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "Agrify Corporation",
-    "ticker": "AGFY",
-    "form": "4",
-    "date": "2026-06-18",
-    "description": "xslF345X06/form4-06182026_080602.xml",
-    "accessionNumber": "0001938929-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "Agrify Corporation",
-    "ticker": "AGFY",
-    "form": "4",
-    "date": "2026-06-18",
-    "description": "xslF345X06/form4-06182026_080612.xml",
-    "accessionNumber": "0002055480-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "Agrify Corporation",
-    "ticker": "AGFY",
-    "form": "4",
-    "date": "2026-06-18",
-    "description": "xslF345X06/form4-06182026_080612.xml",
-    "accessionNumber": "0000926012-26-000004",
-    "isIPO": false
-  },
-  {
-    "company": "Agrify Corporation",
-    "ticker": "AGFY",
-    "form": "4",
-    "date": "2026-06-18",
-    "description": "xslF345X06/form4-06182026_080613.xml",
-    "accessionNumber": "0001834250-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "Agrify Corporation",
-    "ticker": "AGFY",
-    "form": "4",
-    "date": "2026-06-18",
-    "description": "xslF345X06/form4-06182026_080652.xml",
-    "accessionNumber": "0002044319-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "Agrify Corporation",
-    "ticker": "AGFY",
-    "form": "8-K",
-    "date": "2026-06-18",
-    "description": "ea0295164-8k_rythm.htm",
-    "accessionNumber": "0001213900-26-069851",
     "isIPO": false
   },
   {

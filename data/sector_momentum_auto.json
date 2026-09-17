@@ -1,46 +1,65 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 45,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "AI models need more data about biology, and OpenAI is paying",
-      "Agility\u2019s Digit 5 humanoid has new legs, batteries, and safe",
-      "Waymo Readying to Launch Robotaxis in Japan"
+      "Building Waymo\u2019s Risk &#038; Insurance Foundation in Europe",
+      "Former Waymo CFO jumps to self-driving startup Wayve",
+      "The evolution of Digit: Agility Robotics&#8217; journey from"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 40,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "sector": "Transportation",
-    "momentum": 36,
+    "momentum": 38,
     "trend": "steady",
     "catalysts": [
+      "Building Waymo\u2019s Risk &#038; Insurance Foundation in Europe",
       "Rivian\u2019s Gambit for Full Autonomy"
     ],
     "fundingQ": "$3.0B",
     "components": {
       "funding": 100,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 33,
+    "trend": "rising",
+    "catalysts": [
+      "Chipotle Is Working With Palantir to Track Food Safety Risks",
+      "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
+      "Forced Into the Right Decision? A Look at U.S. Land-Based De"
+    ],
+    "fundingQ": "$1.1B",
+    "components": {
+      "funding": 38,
+      "news": 15,
+      "hiring": 0,
+      "market": 78
+    },
+    "lastUpdated": "2026-09-17"
   },
   {
     "sector": "AI & Software",
     "momentum": 32,
     "trend": "rising",
     "catalysts": [
-      "OpenAI, Anthropic, Google have been in talks on AI safety fo",
-      "AI models need more data about biology, and OpenAI is paying",
-      "Anthropic Fears RSI &#8211; What is RSI? What Specifically i"
+      "OpenAI Creates a New Framework to Disclose Bad AI Behavior",
+      "Anthropic and OpenAI want to embed safety evaluators. Will t",
+      "AI models need more data about biology, and OpenAI is paying"
     ],
     "fundingQ": "$2.4B",
     "components": {
@@ -49,25 +68,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
-    "sector": "Defense & Security",
-    "momentum": 31,
-    "trend": "rising",
+    "sector": "Biotech & Health",
+    "momentum": 21,
+    "trend": "declining",
     "catalysts": [
-      "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
-      "EXCLUSIVE: Pratt licenses Hermeus to build F100 fighter jet",
-      "Forced Into the Right Decision? A Look at U.S. Land-Based De"
+      "AI models need more data about biology, and OpenAI is paying"
     ],
-    "fundingQ": "$1.1B",
+    "fundingQ": "$0M",
     "components": {
-      "funding": 38,
-      "news": 20,
+      "funding": 0,
+      "news": 5,
       "hiring": 0,
-      "market": 63
+      "market": 100
     },
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "sector": "Housing & Construction",
@@ -83,76 +100,76 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
-    "sector": "Drones & Autonomous",
-    "momentum": 14,
+    "sector": "Consumer Tech",
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
-      "EXCLUSIVE: Pratt licenses Hermeus to build F100 fighter jet",
-      "Einride and Lidl deploy Germany\u2019s first driverless cab-less",
-      "Back to life: How Shield AI\u2019s future unmanned fighter made d"
+      "The evolution of Digit: Agility Robotics&#8217; journey from",
+      "Agility\u2019s Digit 5 humanoid has new legs, batteries, and safe",
+      "Iceye&#8217;s global presence expands to address sovereign d"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
-    "sector": "Biotech & Health",
-    "momentum": 14,
+    "sector": "Drones & Autonomous",
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "AI models need more data about biology, and OpenAI is paying",
-      "<a href=\"/biotech/definium-lsd-drug-goes-3-3-another-pivotal"
+      "Building Waymo\u2019s Risk &#038; Insurance Foundation in Europe",
+      "Former Waymo CFO jumps to self-driving startup Wayve"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 10,
       "hiring": 0,
-      "market": 56
-    },
-    "lastUpdated": "2026-09-16"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Agility\u2019s Digit 5 humanoid has new legs, batteries, and safe",
-      "Iceye&#8217;s global presence expands to address sovereign d",
-      "One brick at a time: How Monumental uses robotics to build w"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months",
+      "Musk&#8217;s long-time backer is giving SpaceX stock to its",
+      "Shifting market sands: LeoLabs moves to sell new mobile spac"
+    ],
+    "fundingQ": "$50M",
+    "components": {
+      "funding": 5,
+      "news": 30,
+      "hiring": 0,
+      "market": 5
+    },
+    "lastUpdated": "2026-09-17"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 11,
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "EXCLUSIVE: Pratt licenses Hermeus to build F100 fighter jet"
+      "Active supersonic & hypersonic ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "sector": "Ocean & Maritime",
@@ -168,7 +185,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -184,25 +201,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
-    "sector": "Space & Aerospace",
-    "momentum": 9,
+    "sector": "Climate & Energy",
+    "momentum": 8,
     "trend": "declining",
     "catalysts": [
-      "Shifting market sands: LeoLabs moves to sell new mobile spac",
-      "SpaceX will try to put Starship in orbit for the first time",
-      "Iceye&#8217;s global presence expands to address sovereign d"
+      "xAI has quietly built a massive battery at its Memphis data",
+      "Sage Geosystems brings its first next-gen geothermal plant o"
     ],
-    "fundingQ": "$50M",
+    "fundingQ": "$134M",
     "components": {
-      "funding": 5,
-      "news": 30,
+      "funding": 11,
+      "news": 10,
       "hiring": 0,
-      "market": 0
+      "market": 8
     },
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "sector": "Nuclear Energy",
@@ -220,44 +236,29 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-16"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 6,
-    "trend": "declining",
-    "catalysts": [
-      "xAI has quietly built a massive battery at its Memphis data",
-      "Sage Geosystems brings its first next-gen geothermal plant o"
-    ],
-    "fundingQ": "$134M",
-    "components": {
-      "funding": 11,
-      "news": 10,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 1,
+    "momentum": 4,
     "trend": "declining",
     "catalysts": [
+      "Former Waymo CFO jumps to self-driving startup Wayve",
+      "Chipotle Is Working With Palantir to Track Food Safety Risks",
       "Rivian\u2019s Gambit for Full Autonomy"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 15,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 0,
+    "momentum": 2,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -267,8 +268,8 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 0
+      "market": 12
     },
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   }
 ]

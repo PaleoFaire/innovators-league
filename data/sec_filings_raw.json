@@ -846,15 +846,6 @@
     "isIPO": false
   },
   {
-    "company": "AST SpaceMobile",
-    "ticker": "ASTS",
-    "form": "10-Q",
-    "date": "2026-05-11",
-    "description": "asts-20260331.htm",
-    "accessionNumber": "0001193125-26-216950",
-    "isIPO": false
-  },
-  {
     "company": "Planet Labs",
     "ticker": "PL",
     "form": "8-K",
@@ -1536,6 +1527,15 @@
     "date": "2025-07-17",
     "description": "xslF345X05/form4-07172025_080701.xml",
     "accessionNumber": "0001415889-25-019972",
+    "isIPO": false
+  },
+  {
+    "company": "Intuitive Machines",
+    "ticker": "LUNR",
+    "form": "8-K",
+    "date": "2026-09-16",
+    "description": "tm2625564d1_8k.htm",
+    "accessionNumber": "0001104659-26-108302",
     "isIPO": false
   },
   {
@@ -3000,6 +3000,15 @@
     "company": "Oklo",
     "ticker": "OKLO",
     "form": "4",
+    "date": "2026-09-16",
+    "description": "xslF345X06/wk-form4_1789591264.xml",
+    "accessionNumber": "0002147680-26-000010",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
     "date": "2026-09-15",
     "description": "xslF345X06/wk-form4_1789504098.xml",
     "accessionNumber": "0002147680-26-000008",
@@ -3237,15 +3246,6 @@
     "date": "2026-07-28",
     "description": "oklo-20260722.htm",
     "accessionNumber": "0001849056-26-000039",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-07-06",
-    "description": "xslF345X06/wk-form4_1783368855.xml",
-    "accessionNumber": "0001855623-26-000015",
     "isIPO": false
   },
   {
@@ -4068,15 +4068,6 @@
     "isIPO": false
   },
   {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "4",
-    "date": "2026-03-19",
-    "description": "xslF345X06/wk-form4_1773950721.xml",
-    "accessionNumber": "0001577526-26-000032",
-    "isIPO": false
-  },
-  {
     "company": "Upstart Holdings",
     "ticker": "UPST",
     "form": "4",
@@ -4653,15 +4644,6 @@
     "isIPO": false
   },
   {
-    "company": "UiPath",
-    "ticker": "PATH",
-    "form": "4",
-    "date": "2026-02-27",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001543401-26-000002",
-    "isIPO": false
-  },
-  {
     "company": "IonQ",
     "ticker": "IONQ",
     "form": "4",
@@ -5178,6 +5160,42 @@
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
     "form": "8-K",
+    "date": "2026-09-17",
+    "description": "qbts-20260916.htm",
+    "accessionNumber": "0001907982-26-000150",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-09-16",
+    "description": "xslF345X06/wk-form4_1789596570.xml",
+    "accessionNumber": "0002128527-26-000004",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-09-16",
+    "description": "xslF345X06/wk-form4_1789596512.xml",
+    "accessionNumber": "0002129321-26-000015",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-09-16",
+    "description": "xslF345X06/wk-form4_1789596456.xml",
+    "accessionNumber": "0001974777-26-000018",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "8-K",
     "date": "2026-09-15",
     "description": "qbts-20260915.htm",
     "accessionNumber": "0001907982-26-000148",
@@ -5481,30 +5499,12 @@
     "isIPO": false
   },
   {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
     "form": "4",
-    "date": "2026-06-05",
-    "description": "xslF345X06/wk-form4_1780693763.xml",
-    "accessionNumber": "0001299510-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2026-06-05",
-    "description": "xslF345X06/wk-form4_1780693735.xml",
-    "accessionNumber": "0001198055-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2026-06-05",
-    "description": "xslF345X06/wk-form4_1780693701.xml",
-    "accessionNumber": "0002010302-26-000002",
+    "date": "2026-09-16",
+    "description": "xslF345X06/wk-form4_1789595520.xml",
+    "accessionNumber": "0001601830-26-000110",
     "isIPO": false
   },
   {
@@ -5643,12 +5643,12 @@
     "isIPO": false
   },
   {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
+    "company": "Ginkgo Bioworks",
+    "ticker": "DNA",
     "form": "4",
-    "date": "2026-06-22",
-    "description": "xslF345X06/wk-form4_1782160331.xml",
-    "accessionNumber": "0001601830-26-000084",
+    "date": "2026-09-16",
+    "description": "xslF345X06/wk-form4_1789589178.xml",
+    "accessionNumber": "0001628280-26-062239",
     "isIPO": false
   },
   {
@@ -5883,15 +5883,6 @@
     "date": "2026-03-18",
     "description": "xslF345X06/wk-form4_1773867620.xml",
     "accessionNumber": "0001628280-26-019475",
-    "isIPO": false
-  },
-  {
-    "company": "Ginkgo Bioworks",
-    "ticker": "DNA",
-    "form": "8-K",
-    "date": "2026-02-27",
-    "description": "dna-20260226.htm",
-    "accessionNumber": "0001628280-26-012552",
     "isIPO": false
   },
   {

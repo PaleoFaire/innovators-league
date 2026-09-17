@@ -2739,12 +2739,12 @@
     "company": "Palantir",
     "awardId": "75P00124F37005",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 10026448.0,
+    "amount": 12026448.0,
     "agency": "Department of Health and Human Services",
     "subAgency": "Office of the Assistant Secretary for Financial Resources",
     "awardType": null,
     "startDate": "2024-09-21",
-    "endDate": "2026-09-20",
+    "endDate": "2027-03-20",
     "description": "TITLE: HHS CARES - ACF UCBC EXPANSION AND SUPPORT"
   },
   {
@@ -2964,6 +2964,18 @@
     "description": "SMART - PALANTIR PURCHASE ORDER"
   },
   {
+    "company": "Palantir",
+    "awardId": "86615526F00002",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 500000.0,
+    "agency": "Department of Housing and Urban Development",
+    "subAgency": "Department of Housing and Urban Development",
+    "awardType": null,
+    "startDate": "2025-12-31",
+    "endDate": "2026-10-30",
+    "description": "PALANTIR PLATFORM DEMONSTRATION AND EVALUATION LICENSE INCLUSIVE OF ANALYTICS SERVICE AND SUPPORT FOR HUGS TO MODERNIZE ITS FINANCIAL AND GRANTS MANAGEMENT SYSTEMS TO IMPROVE EFFICIENCY, DATA QUALITY,"
+  },
+  {
     "company": "Palantir Technologies",
     "awardId": "70CTD022FR0000170",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
@@ -3171,12 +3183,12 @@
     "company": "Palantir Technologies",
     "awardId": "75P00124F37005",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 10026448.0,
+    "amount": 12026448.0,
     "agency": "Department of Health and Human Services",
     "subAgency": "Office of the Assistant Secretary for Financial Resources",
     "awardType": null,
     "startDate": "2024-09-21",
-    "endDate": "2026-09-20",
+    "endDate": "2027-03-20",
     "description": "TITLE: HHS CARES - ACF UCBC EXPANSION AND SUPPORT"
   },
   {
@@ -3841,18 +3853,6 @@
   },
   {
     "company": "Space Exploration Technologies",
-    "awardId": "FA881123F0014",
-    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 90957437.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2023-06-15",
-    "endDate": "2025-12-14",
-    "description": "NATIONAL SECURITY SPACE LAUNCH SERVICES"
-  },
-  {
-    "company": "Space Exploration Technologies",
     "awardId": "FA881124FB017",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
     "amount": 90320373.0,
@@ -4066,6 +4066,18 @@
     "startDate": "2023-03-29",
     "endDate": "2032-01-27",
     "description": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER."
+  },
+  {
+    "company": "Space Exploration Technologies",
+    "awardId": "FA254126FB066",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 23114460.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2026-03-27",
+    "endDate": "2027-10-30",
+    "description": "PROLIFERATED LOW EARTH ORBIT BEST EFFORT 05 PROGRAM"
   },
   {
     "company": "Space Exploration Technologies",
@@ -4993,18 +5005,6 @@
   },
   {
     "company": "Neros",
-    "awardId": "W911S225FA239",
-    "recipientName": "NEROS, INC.",
-    "amount": 267500.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-09-16",
-    "endDate": "2025-11-17",
-    "description": "S2P2: UAS SOLICITATION # W911S225U1782"
-  },
-  {
-    "company": "Neros",
     "awardId": "FA441726P0012",
     "recipientName": "NEROS, INC.",
     "amount": 223500.0,
@@ -5148,18 +5148,6 @@
     "description": "ARCHER 8 DRONES FOR THE FEDERAL LAW ENFORCEMENT TRAINING CENTERS (FLETC) FIRM FIXED-PRICE"
   },
   {
-    "company": "Chaos Industries",
-    "awardId": "140D0424C0003",
-    "recipientName": "CHAOS INDUSTRIES, INC.",
-    "amount": 1717503.0,
-    "agency": "Department of the Interior",
-    "subAgency": "Departmental Offices",
-    "awardType": null,
-    "startDate": "2023-12-18",
-    "endDate": "2025-04-17",
-    "description": "D2D-0578, RESPONSE TO DEUCE COUP: A FIELD TESTED MULTI-MODAL ZERO SHOT AI COMPONENT DECISION ENGINE"
-  },
-  {
     "company": "Castelion",
     "awardId": "N6833526F1022",
     "recipientName": "CASTELION CORPORATION",
@@ -5290,6 +5278,78 @@
     "startDate": "2026-03-17",
     "endDate": "2027-03-16",
     "description": "DATA RIGHTS AND INTELLECTUAL PROPERTY"
+  },
+  {
+    "company": "Rocket Lab USA",
+    "awardId": "80KSC023FA107",
+    "recipientName": "ROCKET LAB USA INC",
+    "amount": 51598522.0,
+    "agency": "National Aeronautics and Space Administration",
+    "subAgency": "National Aeronautics and Space Administration",
+    "awardType": null,
+    "startDate": "2023-03-29",
+    "endDate": "2032-01-27",
+    "description": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER"
+  },
+  {
+    "company": "Rocket Lab USA",
+    "awardId": "80AFRC25FA060",
+    "recipientName": "ROCKET LAB USA INC",
+    "amount": 546480.0,
+    "agency": "National Aeronautics and Space Administration",
+    "subAgency": "National Aeronautics and Space Administration",
+    "awardType": null,
+    "startDate": "2025-09-26",
+    "endDate": "2026-03-13",
+    "description": "THE CONTRACTOR SHALL DEVELOP GEN 1 SOLAR SAIL MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE IMPLEMENTATION PLAN IN ACCORDANCE WITH THE MANIFEST REQUIREMENTS DOCUMENT (MRD) TITLED T0412"
+  },
+  {
+    "company": "Rocket Lab USA",
+    "awardId": "80AFRC26FA041",
+    "recipientName": "ROCKET LAB USA INC",
+    "amount": 432665.0,
+    "agency": "National Aeronautics and Space Administration",
+    "subAgency": "National Aeronautics and Space Administration",
+    "awardType": null,
+    "startDate": "2026-05-28",
+    "endDate": "2026-07-31",
+    "description": "DEVELOP GEOSPACE DYNAMICS CONSTELLATION (GDC) TRAILBLAZER MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE IMPLEMENTATION PLAN IN ACCORDANCE WITH THE MANIFEST REQUIREMENTS DOCUMENT (MRD) "
+  },
+  {
+    "company": "Rocket Lab USA",
+    "awardId": "80GSFC26C0008",
+    "recipientName": "ROCKET LAB USA INC",
+    "amount": 390936.0,
+    "agency": "National Aeronautics and Space Administration",
+    "subAgency": "National Aeronautics and Space Administration",
+    "awardType": null,
+    "startDate": "2026-02-23",
+    "endDate": "2026-05-24",
+    "description": "MARS END-TO-END COMMUNICATION SERVICE ARCHITECTURES: STUDIES TO ADVANCE END-TO-END COMMUNICATION SOLUTIONS FOR MARS EXPLORATION, IDENTIFYING PERFORMANCE NEEDS AND COMMERCIAL SERVICE OPPORTUNITIES."
+  },
+  {
+    "company": "Rocket Lab USA",
+    "awardId": "80AFRC24FA027",
+    "recipientName": "ROCKET LAB USA INC",
+    "amount": 25000.0,
+    "agency": "National Aeronautics and Space Administration",
+    "subAgency": "National Aeronautics and Space Administration",
+    "awardType": null,
+    "startDate": "2024-04-25",
+    "endDate": "2026-01-31",
+    "description": "MINIMUM GUARANTEED"
+  },
+  {
+    "company": "Rocket Lab USA",
+    "awardId": "HQ085926FE799",
+    "recipientName": "ROCKET LAB USA INC",
+    "amount": 500.0,
+    "agency": "Department of Defense",
+    "subAgency": "Missile Defense Agency",
+    "awardType": null,
+    "startDate": "2025-12-29",
+    "endDate": "2035-12-28",
+    "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER."
   },
   {
     "company": "Relativity Space",
@@ -5890,6 +5950,54 @@
     "startDate": "2026-04-19",
     "endDate": "2027-04-18",
     "description": "BOSTON DYNAMICS - TECH-2 - NEO MAINTENANCE - SECTION 2(D) EXEMPTION"
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "awardId": "75D30125C20439",
+    "recipientName": "GINKGO BIOWORKS, INC.",
+    "amount": 74725666.61,
+    "agency": "Department of Health and Human Services",
+    "subAgency": "Centers for Disease Control and Prevention",
+    "awardType": null,
+    "startDate": "2025-02-28",
+    "endDate": "2028-03-21",
+    "description": "TRAVELER-BASED GENOMIC SURVEILLANCE PROGRAM"
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "awardId": "HR001124C0378",
+    "recipientName": "GINKGO BIOWORKS, INC.",
+    "amount": 5206738.0,
+    "agency": "Department of Defense",
+    "subAgency": "Defense Advanced Research Projects Agency",
+    "awardType": null,
+    "startDate": "2024-01-26",
+    "endDate": "2026-08-19",
+    "description": "DARPA ICE CONTROL FOR COLD ENVIRONMENTS (ICE)"
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "awardId": "75D30124F00001",
+    "recipientName": "GINKGO BIOWORKS, INC.",
+    "amount": 3830427.24,
+    "agency": "Department of Health and Human Services",
+    "subAgency": "Centers for Disease Control and Prevention",
+    "awardType": null,
+    "startDate": "2024-09-06",
+    "endDate": "2027-09-05",
+    "description": "TEST SURGE AND DATA SHARING MULTIPLE AWARD IDIQ"
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "awardId": "75D30126F00004",
+    "recipientName": "GINKGO BIOWORKS, INC.",
+    "amount": 3199875.0,
+    "agency": "Department of Health and Human Services",
+    "subAgency": "Centers for Disease Control and Prevention",
+    "awardType": null,
+    "startDate": "2026-05-03",
+    "endDate": "2028-04-14",
+    "description": "METAGENOMIC NEXT-GENERATION SEQUENCING (MNGS)"
   },
   {
     "company": "Ursa Space Systems",
@@ -7704,6 +7812,30 @@
     "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER."
   },
   {
+    "company": "Gecko Robotics",
+    "awardId": "47QFCA26F0008",
+    "recipientName": "GECKO ROBOTICS, INC.",
+    "amount": 3427919.0,
+    "agency": "General Services Administration",
+    "subAgency": "Federal Acquisition Service",
+    "awardType": null,
+    "startDate": "2026-01-30",
+    "endDate": "2027-01-29",
+    "description": "GECKO ROBOTICS  CNSP TO 01"
+  },
+  {
+    "company": "Gecko Robotics",
+    "awardId": "70Z08026CPBPL0033",
+    "recipientName": "GECKO ROBOTICS, INC.",
+    "amount": 247440.0,
+    "agency": "Department of Homeland Security",
+    "subAgency": "U.S. Coast Guard",
+    "awardType": null,
+    "startDate": "2026-06-21",
+    "endDate": "2026-06-27",
+    "description": "CGC CHARLES DAVID JR UNDERWATER SIDE SCAN"
+  },
+  {
     "company": "PsiQuantum",
     "awardId": "FA875025CB030",
     "recipientName": "PSIQUANTUM, CORP.",
@@ -8113,18 +8245,6 @@
   },
   {
     "company": "Parry Labs",
-    "awardId": "W912CH25P0075",
-    "recipientName": "PARRY LABS LLC",
-    "amount": 143000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-09-16",
-    "endDate": "2026-01-20",
-    "description": "PURCHASE ORDER FOR HIGH PERFORMANCE COMPUTE SOLUTION"
-  },
-  {
-    "company": "Parry Labs",
     "awardId": "HQ085926FE807",
     "recipientName": "PARRY LABS LLC",
     "amount": 500.0,
@@ -8254,6 +8374,18 @@
     "startDate": "2026-03-13",
     "endDate": "2026-09-13",
     "description": "FIELD MANAGEMENT FOR HIGH-VOLTAGE GALLIUM OXIDE DEVICES"
+  },
+  {
+    "company": "Chariot Defense",
+    "awardId": "FA864926P0102",
+    "recipientName": "CHARIOT DEFENSE, INC.",
+    "amount": 74900.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2026-06-17",
+    "endDate": "2026-09-28",
+    "description": "AMPHORA EXPEDITIONARY MICROGRID"
   },
   {
     "company": "Pyka",
@@ -9178,18 +9310,6 @@
     "startDate": "2024-08-19",
     "endDate": "2025-09-18",
     "description": "SF241-D025 ALTERNATIVE POSITION, NAVIGATION, AND TIMING. THIS DIRECT 2 PHASE II CONTRACT FOCUSES ON PROVIDING REAL-TIME MONITORING OF CURRENT AND FUTURE GNSS TO END USERS TO ENSURE HIGH QUALITY NAVIGA"
-  },
-  {
-    "company": "Xona Space Systems",
-    "awardId": "FA254124CB013",
-    "recipientName": "XONA SPACE SYSTEMS INC",
-    "amount": 1586324.27,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2024-08-15",
-    "endDate": "2026-06-14",
-    "description": "SF241-D025. THIS DIRECT 2 PHASE II CONTRACT AIMS TO DEMONSTRATE THE ABILITY FOR THE WARFIGHTER TO TRUST THE USE OF COMMERCIAL SPACE-BASE PNT IN OPERATIONS."
   },
   {
     "company": "Compound Eye",
