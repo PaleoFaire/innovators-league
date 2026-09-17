@@ -1,10 +1,90 @@
 [
   {
+    "title": "Mazama Energy raises $135M for superhot geothermal at Oregon volcano",
+    "link": "https://www.canarymedia.com/articles/geothermal/mazama-energy-raises-135m-oregon-geothermal",
+    "description": "",
+    "pubDate": "Thu, 17 Sep 2026 17:00:00 -0400",
+    "category": "",
+    "source": "Canary Media",
+    "feedCategory": "energy",
+    "matchedCompany": "Mazama",
+    "matchedCompanies": [
+      "Mazama",
+      "Zama"
+    ],
+    "sectors": [
+      "climate",
+      "ai"
+    ],
+    "type": "funding",
+    "impact": "high",
+    "time": "1h ago"
+  },
+  {
+    "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+    "link": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
+    "description": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.",
+    "pubDate": "Thu, 17 Sep 2026 20:34:24 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station",
+    "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-35th-resupply-launch-to-space-station/",
+    "description": "Media accreditation is open for the next cargo launch that will deliver NASA science investigations, supplies, and equipment to the International Space Station. The 35th SpaceX commercial resupply services mission to the orbital laboratory for NASA will lift off on a Falcon 9 rocket. NASA and SpaceX",
+    "pubDate": "Thu, 17 Sep 2026 18:32:30 +0000",
+    "category": "SpaceX Commercial Resupply",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Vast",
+      "Axiom Space"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
+    "title": "Waymo restarts San Antonio service 5 months after flooding troubles",
+    "link": "https://techcrunch.com/2026/09/17/waymo-restarts-san-antonio-service-five-months-after-flooding-troubles/",
+    "description": "The company suspended service in the city in April after one of its robotaxis got swept away.",
+    "pubDate": "Thu, 17 Sep 2026 18:30:30 +0000",
+    "category": "Transportation",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
     "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
     "link": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
     "description": "Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods for training and monitoring open models.",
     "pubDate": "Thu, 17 Sep 2026 17:15:59 +0000",
-    "category": "TC",
+    "category": "AI",
     "source": "TechCrunch",
     "feedCategory": "tech",
     "matchedCompany": "Hugging Face",
@@ -18,7 +98,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
@@ -39,7 +119,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "4h ago"
+    "time": "8h ago"
   },
   {
     "title": "Icarus Robotics tests Joy in Canada ahead of ISS flight",
@@ -58,7 +138,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "5h ago"
+    "time": "9h ago"
   },
   {
     "title": "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months",
@@ -77,7 +157,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "10h ago"
+    "time": "14h ago"
   },
   {
     "title": "Building Waymo’s Risk &#038; Insurance Foundation in Europe with Allianz Partners",
@@ -95,25 +175,6 @@
       "ai"
     ],
     "type": "news",
-    "impact": "low",
-    "time": "14h ago"
-  },
-  {
-    "title": "Musk&#8217;s long-time backer is giving SpaceX stock to its investors",
-    "link": "https://techcrunch.com/2026/09/16/musks-long-time-backer-is-giving-spacex-stock-to-its-investors/",
-    "description": "Valor Equity Partners is handing out stock to its LPs instead of cash returns.",
-    "pubDate": "Wed, 16 Sep 2026 23:50:07 +0000",
-    "category": "Space",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
     "impact": "low",
     "time": "18h ago"
   },
@@ -134,7 +195,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "20h ago"
+    "time": "23h ago"
   },
   {
     "title": "The evolution of Digit: Agility Robotics&#8217; journey from Cassie to Digit 5",
@@ -199,7 +260,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "AI models need more data about biology, and OpenAI is paying to create it",
@@ -296,7 +357,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "SpaceX Huge Next Flight and 150 Days to Change the World",
@@ -337,7 +398,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "One brick at a time: How Monumental uses robotics to build walls",
@@ -356,7 +417,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "The Week’s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",

@@ -60354,23 +60354,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-17 18:07
+// Last updated: 2026-09-17 22:03
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Hugging Face", headline: "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "ipo", company: "Anthropic", headline: "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Icarus", headline: "Icarus Robotics tests Joy in Canada ahead of ISS flight", source: "SpaceNews", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months", source: "Next Big Future", time: "10h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Waymo", headline: "Building Waymo's Risk &#038; Insurance Foundation in Europe with Allianz Partners", source: "CleanTechnica", time: "14h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "Musk's long-time backer is giving SpaceX stock to its investors", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "An OpenAI Agent Tried to Jailbreak Itself", source: "Wired", time: "20h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Agility Robotics", headline: "The evolution of Digit: Agility Robotics' journey from Cassie to Digit 5", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "hire", company: "Palantir", headline: "Chipotle Is Working With Palantir to Track Food Safety Risks", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "AI models need more data about biology, and OpenAI is paying to create it", source: "MIT Tech Review", time: "2d ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Humanoid", headline: "Agility's Digit 5 humanoid has new legs, batteries, and safety upgrades", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "ICEYE", headline: "Iceye's global presence expands to address sovereign demand", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "Waymo", headline: "Waymo Readying to Launch Robotaxis in Japan", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Anthropic", headline: "Anthropic Fears RSI &#8211; What is RSI? What Specifically is It?", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Mazama", headline: "Mazama Energy raises $135M for superhot geothermal at Oregon volcano", source: "Canary Media", time: "1h ago", impact: "high", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI caught its models leaving notes to successors to hide bad behavior", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "NASA Invites Media to SpaceX's 35th Resupply Launch to Space Station", source: "NASA Breaking News", time: "3h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Waymo", headline: "Waymo restarts San Antonio service 5 months after flooding troubles", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Hugging Face", headline: "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire", source: "TechCrunch", time: "4h ago", impact: "medium", unread: true },
+  { id: 6, type: "ipo", company: "Anthropic", headline: "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Icarus", headline: "Icarus Robotics tests Joy in Canada ahead of ISS flight", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Waymo", headline: "Building Waymo's Risk &#038; Insurance Foundation in Europe with Allianz Partners", source: "CleanTechnica", time: "18h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "OpenAI", headline: "An OpenAI Agent Tried to Jailbreak Itself", source: "Wired", time: "23h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Agility Robotics", headline: "The evolution of Digit: Agility Robotics' journey from Cassie to Digit 5", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "hire", company: "Palantir", headline: "Chipotle Is Working With Palantir to Track Food Safety Risks", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "OpenAI", headline: "AI models need more data about biology, and OpenAI is paying to create it", source: "MIT Tech Review", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Humanoid", headline: "Agility's Digit 5 humanoid has new legs, batteries, and safety upgrades", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
