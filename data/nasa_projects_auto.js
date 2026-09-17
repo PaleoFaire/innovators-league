@@ -1,6 +1,7 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-09-16 12:24:33 UTC
+// Last updated: 2026-09-17 12:24:28 UTC
 const NASA_PROJECTS = [
+  { id: 185744, title: "Advanced Guidance & Navigation Systems", status: "Active", center: "Johnson Space Center", techArea: "GN&C", lastUpdated: "09/16/26" },
   { id: 158507, title: "Thermal Control System Architecture for Exploration", status: "Completed", center: "Marshall Space Flight Center", techArea: "Thermal Management Systems", lastUpdated: "09/15/26" },
   { id: 182465, title: "Mars Roundtrip Success enabled by Integrated Cooling through Inductively Coupled", status: "Active", center: "University of California-Los Angeles", techArea: "", lastUpdated: "09/15/26" },
   { id: 158357, title: "Fusion-Enabled Comprehensive Exploration of the Heliosphere", status: "Completed", center: "Helicity Space LLC", techArea: "", lastUpdated: "09/15/26" },
@@ -30,5 +31,4 @@ const NASA_PROJECTS = [
   { id: 10514, title: "Doppler Lidar for Measurement of High-Altitude Aircraft Wake Vortices, Year 1", status: "Completed", center: "Langley Research Center", techArea: "Lasers", lastUpdated: "09/09/26" },
   { id: 146561, title: "Hypersonic Inflatable Aerodynamic Decelerator Morphing Shape Guidance and Contro", status: "Completed", center: "Langley Research Center", techArea: "Hypersonic Decelerators", lastUpdated: "09/09/26" },
   { id: 106812, title: "Cis Lunar Autonomous Positioning Software", status: "Completed", center: "Advanced Space, LLC", techArea: "Revolutionary PNT Technologies", lastUpdated: "09/08/26" },
-  { id: 182206, title: "Small Spacecraft Propulsion and Inspection Capability", status: "Active", center: "Starfish Space, Inc.", techArea: "Autonomous Rendezvous and Docking", lastUpdated: "09/08/26" },
 ];

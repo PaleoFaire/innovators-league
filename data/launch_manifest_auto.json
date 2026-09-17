@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-09-15",
-    "vehicle": "Gravity-1 | SpaceSail Polar Group #16",
-    "payload": "SpaceSail Polar Group #16",
-    "pad": "Yellow Sea (launch location 5), Haiyang Oriental Spaceport",
-    "provider": "Orienspace Technology",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/767f7827-53d8-4621-803b-f456a1e6b512/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-09-16",
     "vehicle": "Soyuz 2.1b | Progress MS-35 (96P)",
     "payload": "Progress MS-35 (96P)",
@@ -19,8 +10,8 @@
   },
   {
     "date": "2026-09-17",
-    "vehicle": "Long March 12 | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Long March 12 | SatNet LEO Group 25",
+    "payload": "SatNet LEO Group 25",
     "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/898f7df0-b6ce-4a5c-80b4-67e81842124e/?format=json",
@@ -37,8 +28,8 @@
   },
   {
     "date": "2026-09-17",
-    "vehicle": "Kuaizhou 11 | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Kuaizhou 11 | SpaceTY-51 & 52",
+    "payload": "SpaceTY-51 & 52",
     "pad": "Launch Area 95A, Jiuquan Satellite Launch Center, People's Republic of China",
     "provider": "ExPace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/71aa4d56-0ce9-4c7d-a808-cc22f2ac5a84/?format=json",
@@ -82,17 +73,17 @@
   },
   {
     "date": "2026-09-22",
-    "vehicle": "Starship | Flight 14",
-    "payload": "Flight 14",
+    "vehicle": "Starship | Starlink Group 31-1 (Starship Flight 14)",
+    "payload": "Starlink Group 31-1 (Starship Flight 14)",
     "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/7d1afb26-6f9c-429b-9ccf-29012fd1e519/?format=json",
     "trackedCompany": "SpaceX"
   },
   {
-    "date": "2026-09-27",
-    "vehicle": "Falcon 9 Block 5 | USSF-xxx (\"R-3\")",
-    "payload": "USSF-xxx (\"R-3\")",
+    "date": "2026-09-26",
+    "vehicle": "Falcon 9 Block 5 | USSF-385",
+    "payload": "USSF-385",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/7330d83b-c478-426c-8859-f9e3a335876d/?format=json",
@@ -106,15 +97,6 @@
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/599ba2df-7483-4b2f-a083-2b5ddc06e069/?format=json",
     "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-09-30",
-    "vehicle": "Falcon 9 Block 5 | Crew-13",
-    "payload": "Crew-13",
-    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/?format=json",
-    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-09-30",
@@ -141,6 +123,15 @@
     "pad": "Commercial LC-1, Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/63063b9d-ade9-4448-8717-6f910aa81188/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-09-30",
+    "vehicle": "Soyuz 2.1b/Fregat | Kosmos (Unknown Payload)",
+    "payload": "Kosmos (Unknown Payload)",
+    "pad": "Unknown Pad, Plesetsk Cosmodrome, Russian Federation",
+    "provider": "Russian Space Forces",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb/?format=json",
     "trackedCompany": null
   },
   {
@@ -213,6 +204,15 @@
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/3b430f81-0ff1-4d85-8a1a-cef0de326198/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-10-31",
+    "vehicle": "Falcon 9 Block 5 | Crew-13",
+    "payload": "Crew-13",
+    "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/?format=json",
     "trackedCompany": "SpaceX"
   },
   {

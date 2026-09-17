@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-09-16 12:34:18 UTC",
+    "generated_at": "2026-09-17 12:35:49 UTC",
     "total_targets": 116,
-    "with_excerpts": 105,
+    "with_excerpts": 97,
     "sources": [
       "none",
       "sec_edgar",
@@ -141,13 +141,11 @@
     {
       "ticker": "KLAC",
       "company": "KLA",
-      "quarter": "2026-Q3",
-      "date": "2026-04-29",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000016/0000319201-26-000016-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://ir.kla.com/",
+      "source": "none"
     },
     {
       "ticker": "INTC",
@@ -185,13 +183,11 @@
     {
       "ticker": "EXC",
       "company": "Exelon",
-      "quarter": "2026-Q3",
-      "date": "2026-07-30",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1109357/000110935726000080/0001109357-26-000080-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.exeloncorp.com/",
+      "source": "none"
     },
     {
       "ticker": "CCJ",
@@ -205,13 +201,11 @@
     {
       "ticker": "LEU",
       "company": "Centrus Energy",
-      "quarter": "2026-Q3",
-      "date": "2026-08-06",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026053863/0001628280-26-053863-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.centrusenergy.com/",
+      "source": "none"
     },
     {
       "ticker": "F",
@@ -386,11 +380,11 @@
       "ticker": "AVAV",
       "company": "AeroVironment",
       "quarter": "2026-Q3",
-      "date": "2026-06-22",
+      "date": "2026-09-09",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926076141/0001104659-26-076141-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926106423/0001104659-26-106423-index.htm",
       "source": "sec_edgar"
     },
     {
@@ -440,13 +434,11 @@
     {
       "ticker": "VSAT",
       "company": "Viasat",
-      "quarter": "2026-Q3",
-      "date": "2026-08-06",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526337903/0001193125-26-337903-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.viasat.com/",
+      "source": "none"
     },
     {
       "ticker": "PSN",
@@ -473,22 +465,22 @@
     {
       "ticker": "PANW",
       "company": "Palo Alto Networks",
-      "quarter": "2026-Q3",
-      "date": "2026-06-02",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000015/0001327567-26-000015-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.paloaltonetworks.com/",
+      "source": "none"
     },
     {
       "ticker": "MU",
       "company": "Micron Technology",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.micron.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-06-24",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/0000723125-26-000015-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "QCOM",
@@ -722,13 +714,11 @@
     {
       "ticker": "ROK",
       "company": "Rockwell Automation",
-      "quarter": "2026-Q3",
-      "date": "2026-08-04",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000030/0001024478-26-000030-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.rockwellautomation.com/en-us/company/investor-relations.html",
+      "source": "none"
     },
     {
       "ticker": "EMR",
@@ -982,13 +972,11 @@
     {
       "ticker": "SATL",
       "company": "Satellogic",
-      "quarter": "2026-Q3",
-      "date": "2026-08-06",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1874315/000187431526000032/0001874315-26-000032-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.satellogic.com/",
+      "source": "none"
     },
     {
       "ticker": "OKLO",
@@ -1084,13 +1072,11 @@
     {
       "ticker": "ALB",
       "company": "Albemarle",
-      "quarter": "2026-Q3",
-      "date": "2026-08-05",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000102/0000915913-26-000102-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.albemarle.com/",
+      "source": "none"
     },
     {
       "ticker": "ENVX",
@@ -1170,13 +1156,11 @@
     {
       "ticker": "ISRG",
       "company": "Intuitive Surgical",
-      "quarter": "2026-Q3",
-      "date": "2026-07-21",
-      "transcript_excerpts": [
-        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000058/0001035267-26-000058-index.htm",
-      "source": "sec_edgar"
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://isrg.intuitive.com/",
+      "source": "none"
     },
     {
       "ticker": "ILMN",

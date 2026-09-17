@@ -1,9 +1,27 @@
 {
-  "generated_at": "2026-09-16T12:38:40.520732+00:00",
+  "generated_at": "2026-09-17T12:39:57.797303+00:00",
   "source": "SEC EDGAR Form D (full-text search + daily index)",
   "lookback_days": 60,
-  "total_filings": 4,
+  "total_filings": 5,
   "filings": [
+    {
+      "match_method": "cik",
+      "company": "Gravitics",
+      "issuer_name": "Gravitics, Inc",
+      "form": "D",
+      "filed_date": "2026-09-17",
+      "cik": "1957517",
+      "accession": "0001957517-26-000004",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001957517&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001957517-26-000004",
+      "offering_amount": "17019603",
+      "amount_sold": "17019603",
+      "amount_remaining": "0",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
     {
       "match_method": "cik",
       "company": "Interlune",

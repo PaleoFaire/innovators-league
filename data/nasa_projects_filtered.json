@@ -1,5 +1,22 @@
 [
   {
+    "id": 185744,
+    "title": "Advanced Guidance & Navigation Systems",
+    "description": "The Advanced Guidance and Navigation Systems (AGNS) portfolio project focuses on the development and maturation of algorithms, sensors, and related data products and tools to improve the state of the art of both precision landing and aerocapture.  The infusion targets include both Lunar and Mars missions, with an intent to develop as common a technology base for both when possible. AGNS is set up to identify, investigate, and execute research, development activities as individual elements within",
+    "status": "Active",
+    "startDate": "Mar 2026",
+    "endDate": "Sep 2028",
+    "lastUpdated": "09/16/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "GN&C",
+    "partners": [
+      "Johnson Space Center",
+      "Jet Propulsion Laboratory",
+      "Langley Research Center"
+    ],
+    "website": ""
+  },
+  {
     "id": 158507,
     "title": "Thermal Control System Architecture for Exploration",
     "description": "<p><strong>Project Objective</strong>\u00a0\u00a0</p><p>Develop a a breadboard Thermal Control System (TCS)\u00a0architecture utilizing an inert gas or mixture as an external heat transfer fluid.</p><p><strong>Project Description</strong>\u00a0</p><p>A Thermal Control System (TCS) architecture utilizing an inert gas (e.g.; He; Xe; N2; etc.) or mixture as an external heat transfer fluid is proposed for NASA\u2019s Moon and Cislunar-to-Mars Habitat and Spacecraft mission portfolio. Inert gases could mitigate many of the s",
@@ -661,30 +678,6 @@
     "website": ""
   },
   {
-    "id": 182255,
-    "title": "The Super - High Energy Replicated Optics Hard X-ray Telescope",
-    "description": "This proposal is for Super - High Energy Replicated Optics (SuperHERO), a high-angular-resolution, balloon-borne, hard-X-ray observatory. A follow-on version of NASA Marshall Space Flight Center's (MSFC's) successful HERO and HEROES missions, SuperHERO will implement recent advancements in MSFC's replicated nickel shell optics technology to achieve better than 10 arcsecond angular resolution performance in the hard X-ray (>20 keV) bandpass. This represents nearly an order of magnitude improvemen",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2029",
-    "lastUpdated": "08/20/26",
-    "center": "NASA Headquarters",
-    "technologyArea": "",
-    "partners": [
-      "NASA Headquarters",
-      "Columbia Astrophysics Laboratory",
-      "Japan Aerospace Exploration Agency",
-      "Marshall Space Flight Center",
-      "Middlebury College",
-      "Smithsonian Astrophysical Observatory",
-      "Universities Space Research Association",
-      "University of New Hampshire-Main Campus",
-      "University of Tokyo",
-      "Washington University in St Louis"
-    ],
-    "website": ""
-  },
-  {
     "id": 182287,
     "title": "Building the Foundations for Huge-N Lunar Radio Interferometry",
     "description": "Observations of the highly-redshifted 21 cm line of neutral hydrogen are the only probe of the Universe's \"Dark Ages\", the period of cosmic history prior to the formation of the first stars and galaxies.  Measurements of the Universe during its Dark Ages, however, would enable unprecedented precision tests of cosmology, greatly exceeding the Cosmic Microwave Background in both information content and impact.  Addressing the challenges inherent in these hydrogen observations is therefore a key un",
@@ -747,82 +740,122 @@
     "website": ""
   },
   {
-    "id": 158612,
-    "title": "Integrated Computational Materials Engineering (ICME) for In-Space and Extraterrestrial Surface Metal Welding and Joining",
-    "description": "Despite the maturity of welding and related joining processes for terrestrial applications, there is limited understanding of the effects of an in-space environment on weld quality. An Integrated Computational Materials Engineering (ICME) framework leveraging physics-based process and metallurgical models , anchored by terrestrial and flight data, is desired to predict the effects of in-space, lunar, and Martian environments on the welding process and resulting material properties. To address th",
-    "status": "Completed",
-    "startDate": "Jul 2024",
-    "endDate": "Jul 2026",
+    "id": 182255,
+    "title": "The Super - High Energy Replicated Optics Hard X-ray Telescope",
+    "description": "This proposal is for Super - High Energy Replicated Optics (SuperHERO), a high-angular-resolution, balloon-borne, hard-X-ray observatory. A follow-on version of NASA Marshall Space Flight Center's (MSFC's) successful HERO and HEROES missions, SuperHERO will implement recent advancements in MSFC's replicated nickel shell optics technology to achieve better than 10 arcsecond angular resolution performance in the hard X-ray (>20 keV) bandpass. This represents nearly an order of magnitude improvemen",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2029",
     "lastUpdated": "08/20/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
+    "center": "NASA Headquarters",
+    "technologyArea": "",
     "partners": [
+      "NASA Headquarters",
+      "Columbia Astrophysics Laboratory",
+      "Japan Aerospace Exploration Agency",
       "Marshall Space Flight Center",
+      "Middlebury College",
+      "Smithsonian Astrophysical Observatory",
+      "Universities Space Research Association",
+      "University of New Hampshire-Main Campus",
+      "University of Tokyo",
+      "Washington University in St Louis"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158014,
+    "title": "Cold Plasma Sterilization for Contamination Control",
+    "description": "This proposal offers a novel method to sterilize sensitive materials, electronics, and instruments using a Radio Frequency (RF) induced plasma. This approach does not use steam, high pressure, or harsh chemicals which are not compatible with sensitive materials and electronics. The technology will be used to sterilize spacecraft assemblies and components prior to launch. It may also be used to sterilize equipment and samples taken during planetary exploration, or from studies conducted on space ",
+    "status": "Completed",
+    "startDate": "Aug 2024",
+    "endDate": "Feb 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Exploration Destination Systems",
+    "partners": [
+      "Goddard Space Flight Center",
+      "MagPlasma"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158051,
+    "title": "Radiation Hardened Power Efficient Artificial Intelligence and Machine Learning (AIML) Processor",
+    "description": "Radiation Hardened Artificial Intelligence and Machine Learning (AIML) processors are essential to NASA applications due to unavoidable evolution in technology that brings computational complexity. Traditional radiation hardening methods incur high size, weight, and power (SWaP) cost. We propose a radiation hardening scheme that employs intelligent analysis of vulnerabilities in the AIML processor that enables hybrid selective redundancy implementation to allow self-healing from radiation effect",
+    "status": "Completed",
+    "startDate": "Aug 2024",
+    "endDate": "Feb 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Flight Computing and Avionics",
+    "partners": [
+      "Ames Research Center",
       "CFD Research Corporation"
     ],
     "website": ""
   },
   {
-    "id": 158663,
-    "title": "Multi-stage Oxygen and Regolith Resource Extractor",
-    "description": "Blueshift LLC d/b/a Outward Technologies proposes to continue development of a Multi-stage Oxygen and Regolith Resource Extractor (MORRE) for the production of high purity minerals and metals in addition to oxygen from lunar regolith. The underlying method utilizes novel process and temperature control systems to extend terrestrial vacuum metallurgical extraction processes used since the 1940s to lunar regolith feedstocks not typically associated with vacuum metallurgy. MORRE requires little to ",
-    "status": "Completed",
-    "startDate": "Jun 2024",
-    "endDate": "Jun 2026",
-    "lastUpdated": "08/20/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "Exploration Destination Systems",
-    "partners": [
-      "Johnson Space Center",
-      "Blueshift, LLC"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158699,
-    "title": "In Situ Isotope Analyzer for Lunar and Planetary Science",
-    "description": "We propose to leverage synergistic efforts to further the TRL and MRL of a new class of analytical instruments for both laboratory and field measurements. The development is based on a concept for trace-gas and isotope analysis that utilizes a priority hollow fiber as a low-volume, compact gas cell. An analyte is drawn into the fiber, which has a reflective inner coating that guides a tunable laser beam to a detector. There is near unity overlap between the laser beam and the gas sample, leading",
-    "status": "Completed",
-    "startDate": "May 2024",
-    "endDate": "May 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center",
-      "Opto-Knowledge Systems, Inc. (OKSI)"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158063,
-    "title": "Redeployable Solar Array Structure for Lunar Base Infrastructure",
-    "description": " Atomic-6 proposes to develop a novel redeployable structure and deployment mechanism to enable relocatable 50-kW-class lightweight solar arrays near the lunar south pole for powering second-generation lunar base infrastructure.    Atomic-6 has developed a proprietary composite manufacturing process that results in higher fiber to resin ratios and interlaminar shear strength than most pre-preg composites. The product of the Atomic-6 process is a composite part with higher specific strength and s",
+    "id": 158059,
+    "title": "Electrochemical Detection of Salts Using MOF-Composite Electrodes for Space Applications",
+    "description": "The NASA Science Mission Directorate aims to develop in situ sensors capable of detecting salts and minerals on various celestial bodies such as Mars and ocean worlds. These sensors must meet specific criteria, including enhanced sensitivity and resolution, reduced mass, power, and volume requirements, increased data transmission rates while maintaining scientific capability, resilience to the harsh conditions of space and planetary environments, and the ability to analyze and manipulate very sm",
     "status": "Completed",
     "startDate": "Aug 2024",
     "endDate": "Feb 2025",
     "lastUpdated": "08/20/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
+    "center": "Glenn Research Center",
+    "technologyArea": "Sensors and Instruments",
     "partners": [
-      "Langley Research Center",
-      "Atomic-6"
+      "Glenn Research Center",
+      "Innosense Corporation"
     ],
     "website": ""
   },
   {
-    "id": 158742,
-    "title": "Lightweight, non-mechanical, polarization-independent LiDAR beam steering system",
-    "description": "During Phase I of this project, two approaches for achieving polarization-independent non-mechanical lidar beam steering were demonstrated, and a demonstrator system was fabricated and testing. The demonstrated technology based on spatial modulation of geometrical phase has been reduced to a well-understood method for switching the pointing direction of laser beams and receiver fields of view. The Phase II project will extend these results to allow future NASA beam steering systems to electronic",
+    "id": 158106,
+    "title": "Weaved distributed fiber optic sensor (WevFOS) inflatable habitab structural health monitoring system",
+    "description": "Redondo Optics Inc. (ROI), proposes to design, build, laboratory and field test, and deliver to NASA an innovative, autonomous, lightweight, low power, wireless communication woven distributed fiber optic sensor (WevFOS\u2122) structural health monitoring and diagnosis system suitable for the in-situ, real-time, global assessment of the passive and dynamic loads/stress/strains, temperature, pressure, and acoustics state within large and entire cross-sections of the inflatable soft-goods materials and",
     "status": "Completed",
-    "startDate": "Jun 2024",
-    "endDate": "Jun 2026",
+    "startDate": "Aug 2024",
+    "endDate": "Feb 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Marshall Space Flight Center",
+    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
+    "partners": [
+      "Marshall Space Flight Center",
+      "Redondo Optics, Inc."
+    ],
+    "website": ""
+  },
+  {
+    "id": 125436,
+    "title": "Autonomous Cobots to Enhance Situational Awareness",
+    "description": "Robotic technologies are expected to support the Artemis missions in numerous ways, from lander site preparation to various construction and lander logistic tasks in orbit and on the lunar surface. Controlling these remote assets effectively confronts a longstanding problem in robotics. Teleoperatingthese robots remotely induces a high cognitive load on robot operators because they must manage 6 degrees of freedom in the mobile base, up to 7 degrees of freedom in the robotic arm, and additional ",
+    "status": "Completed",
+    "startDate": "Sep 2022",
+    "endDate": "Mar 2025",
     "lastUpdated": "08/20/26",
     "center": "Langley Research Center",
-    "technologyArea": "Sensors and Instruments",
+    "technologyArea": "Robotic Systems",
     "partners": [
       "Langley Research Center",
-      "BEAM Engineering for Advanced Measurements"
+      "TRACLabs, Inc."
+    ],
+    "website": ""
+  },
+  {
+    "id": 158280,
+    "title": "Fluffy Layer Ultra-low-Force Soil Compression ANalyser (FLUFSCAN)",
+    "description": "Cislune Inc., along with Dr. Fontes from Westmont College and Dr. Phil Metzger from the University of Central Florida, propose the Fluffy Layer Ultra-low-Force Soil Compression Analyzer (FLUFSCAN). This innovation addresses crucial gaps in understanding and mitigating plume-surface interactions (PSI) during lunar and planetary landings, aiming to significantly enhance mission safety and reliability. Leveraging a novel combination of ground-based laser instrumentation and penetrometry, FLUFSCAN m",
+    "status": "Completed",
+    "startDate": "Aug 2024",
+    "endDate": "Feb 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Kennedy Space Center",
+    "technologyArea": "Entry, Descent, and Landing",
+    "partners": [
+      "Kennedy Space Center",
+      "Cislune Inc."
     ],
     "website": ""
   }

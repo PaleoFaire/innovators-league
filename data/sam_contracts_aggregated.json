@@ -50,7 +50,7 @@
         "awardAmount": "$62M"
       }
     ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "company": "Skydio",
@@ -104,7 +104,7 @@
         "awardAmount": "$87K"
       }
     ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "company": "Palantir",
@@ -162,11 +162,11 @@
         "awardAmount": "$99M"
       }
     ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "company": "Radiant",
-    "opportunityCount": 14,
+    "opportunityCount": 13,
     "agencies": [
       "Department of Defense",
       "Department of Health and Human Services",
@@ -217,7 +217,7 @@
         "awardAmount": "$4M"
       }
     ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "company": "Axiom Space",
@@ -269,7 +269,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "company": "Sierra Space",
@@ -321,7 +321,7 @@
         "awardAmount": "$100K"
       }
     ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "company": "Shield AI",
@@ -373,7 +373,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "company": "Castelion",
@@ -424,7 +424,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "company": "Planet Labs",
@@ -477,7 +477,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "company": "Rocket Lab",
@@ -513,7 +513,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "company": "Relativity Space",
@@ -549,7 +549,7 @@
         "awardAmount": "$1"
       }
     ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "company": "Varda Space",
@@ -584,7 +584,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "company": "Scale AI",
@@ -619,7 +619,34 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
+  },
+  {
+    "company": "BlackSky",
+    "opportunityCount": 2,
+    "agencies": [
+      "Department of Defense"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "BLACKSKY DIRECT TO PHASE 2",
+        "agency": "Department of Defense",
+        "postedDate": "2024-10-01",
+        "type": null,
+        "noticeId": "FA238524CB039",
+        "awardAmount": "$4M"
+      },
+      {
+        "title": "SEGMENTED LARGE OPTICAL IMAGER DESIGN AND RISK ASSESSMENT",
+        "agency": "Department of Defense",
+        "postedDate": "2026-03-06",
+        "type": null,
+        "noticeId": "FA238526FB002",
+        "awardAmount": "$4M"
+      }
+    ],
+    "lastUpdated": "2026-09-17"
   },
   {
     "company": "Epirus",
@@ -638,7 +665,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "company": "Saronic",
@@ -657,7 +684,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "company": "Vannevar Labs",
@@ -676,7 +703,7 @@
         "awardAmount": "$13M"
       }
     ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "company": "Capella Space",
@@ -695,26 +722,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-09-16"
-  },
-  {
-    "company": "BlackSky",
-    "opportunityCount": 1,
-    "agencies": [
-      "Department of Defense"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "SEGMENTED LARGE OPTICAL IMAGER DESIGN AND RISK ASSESSMENT",
-        "agency": "Department of Defense",
-        "postedDate": "2026-03-06",
-        "type": null,
-        "noticeId": "FA238526FB002",
-        "awardAmount": "$4M"
-      }
-    ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   },
   {
     "company": "Cerebras",
@@ -733,6 +741,6 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-09-16"
+    "lastUpdated": "2026-09-17"
   }
 ]
