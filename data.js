@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-09-16";
+const LAST_UPDATED = "2026-09-17";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -59710,23 +59710,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-16 22:50
+// Last updated: 2026-09-17 01:17
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI Creates a New Framework to Disclose Bad AI Behavior", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Anthropic", headline: "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Waymo", headline: "Former Waymo CFO jumps to self-driving startup Wayve", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Agility Robotics", headline: "The evolution of Digit: Agility Robotics' journey from Cassie to Digit 5", source: "The Robot Report", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Palantir", headline: "Chipotle Is Working With Palantir to Track Food Safety Risks", source: "Wired", time: "6h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "LeoLabs", headline: "Shifting market sands: LeoLabs moves to sell new mobile space radar directly to allies", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "OpenAI", headline: "AI models need more data about biology, and OpenAI is paying to create it", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Einride", headline: "Einride and Lidl deploy Germany's first driverless cab-less truck on public roads", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "Humanoid", headline: "Agility's Digit 5 humanoid has new legs, batteries, and safety upgrades", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "ICEYE", headline: "Iceye's global presence expands to address sovereign demand", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Waymo", headline: "Waymo Readying to Launch Robotaxis in Japan", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Anthropic", headline: "Anthropic Fears RSI &#8211; What is RSI? What Specifically is It?", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX Huge Next Flight and 150 Days to Change the World", source: "Next Big Future", time: "5d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "xAI", headline: "xAI has quietly built a massive battery at its Memphis data center hub", source: "Canary Media", time: "5d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "Musk's long-time backer is giving SpaceX stock to its investors", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI Creates a New Framework to Disclose Bad AI Behavior", source: "Wired", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Waymo", headline: "Former Waymo CFO jumps to self-driving startup Wayve", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Agility Robotics", headline: "The evolution of Digit: Agility Robotics' journey from Cassie to Digit 5", source: "The Robot Report", time: "7h ago", impact: "low", unread: true },
+  { id: 6, type: "hire", company: "Palantir", headline: "Chipotle Is Working With Palantir to Track Food Safety Risks", source: "Wired", time: "9h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "LeoLabs", headline: "Shifting market sands: LeoLabs moves to sell new mobile space radar directly to allies", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "OpenAI", headline: "AI models need more data about biology, and OpenAI is paying to create it", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "Einride", headline: "Einride and Lidl deploy Germany's first driverless cab-less truck on public roads", source: "Tech.eu", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Humanoid", headline: "Agility's Digit 5 humanoid has new legs, batteries, and safety upgrades", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "ICEYE", headline: "Iceye's global presence expands to address sovereign demand", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "milestone", company: "Waymo", headline: "Waymo Readying to Launch Robotaxis in Japan", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Anthropic", headline: "Anthropic Fears RSI &#8211; What is RSI? What Specifically is It?", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX Huge Next Flight and 150 Days to Change the World", source: "Next Big Future", time: "5d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
