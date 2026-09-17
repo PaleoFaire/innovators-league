@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-09-17T07:32:52+00:00",
+  "generatedAt": "2026-09-17T13:22:12+00:00",
   "matrix": {
+    "space-stations": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 17019603,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Gravitics",
+            "amount": 17019603,
+            "date": "2026-09-17",
+            "source": "formd",
+            "investors": [
+              "Tarek Waked",
+              "Nick Shekerdemian",
+              "Tim Draper",
+              "Ryan Kriser"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
     "industrial-humanoid": {
       "2026-Q3": {
         "deals": 1,
@@ -2360,9 +2382,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 60,
-    "totalUSDSold": 1418158288,
-    "uniqueClusters": 37,
+    "totalDealsTracked": 61,
+    "totalUSDSold": 1435177891,
+    "uniqueClusters": 38,
     "uniqueQuarters": 9,
     "uniqueVCs": 20,
     "quarterRange": [

@@ -60354,27 +60354,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-17 07:32
-// Auto-generated real-time signals
-// Last updated: 2026-09-17
-// Auto-generated real-time signals
-// Last updated: 2026-09-17
+// Last updated: 2026-09-17 13:21
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Waymo", headline: "Building Waymo’s Risk &#038; Insurance Foundation in Europe with Allianz Partners", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Musk&#8217;s long-time backer is giving SpaceX stock to its investors", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI Creates a New Framework to Disclose Bad AI Behavior", source: "Wired", time: "13h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Anthropic", headline: "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?", source: "TechCrunch", time: "14h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Waymo", headline: "Former Waymo CFO jumps to self-driving startup Wayve", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Agility Robotics", headline: "The evolution of Digit: Agility Robotics&#8217; journey from Cassie to Digit 5", source: "The Robot Report", time: "17h ago", impact: "low", unread: false },
-  { id: 8, type: "hire", company: "Palantir", headline: "Chipotle Is Working With Palantir to Track Food Safety Risks", source: "Wired", time: "19h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "LeoLabs", headline: "Shifting market sands: LeoLabs moves to sell new mobile space radar directly to allies", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "AI models need more data about biology, and OpenAI is paying to create it", source: "MIT Tech Review", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Humanoid", headline: "Agility’s Digit 5 humanoid has new legs, batteries, and safety upgrades", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "ICEYE", headline: "Iceye&#8217;s global presence expands to address sovereign demand", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "Waymo", headline: "Waymo Readying to Launch Robotaxis in Japan", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Anthropic", headline: "Anthropic Fears RSI &#8211; What is RSI? What Specifically is It?", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Icarus", headline: "Icarus Robotics tests Joy in Canada ahead of ISS flight", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months", source: "Next Big Future", time: "6h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Waymo", headline: "Building Waymo's Risk &#038; Insurance Foundation in Europe with Allianz Partners", source: "CleanTechnica", time: "9h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "Musk's long-time backer is giving SpaceX stock to its investors", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "An OpenAI Agent Tried to Jailbreak Itself", source: "Wired", time: "15h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Anthropic", headline: "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Waymo", headline: "Former Waymo CFO jumps to self-driving startup Wayve", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Agility Robotics", headline: "The evolution of Digit: Agility Robotics' journey from Cassie to Digit 5", source: "The Robot Report", time: "19h ago", impact: "low", unread: false },
+  { id: 9, type: "hire", company: "Palantir", headline: "Chipotle Is Working With Palantir to Track Food Safety Risks", source: "Wired", time: "21h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "LeoLabs", headline: "Shifting market sands: LeoLabs moves to sell new mobile space radar directly to allies", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "OpenAI", headline: "AI models need more data about biology, and OpenAI is paying to create it", source: "MIT Tech Review", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "milestone", company: "Humanoid", headline: "Agility's Digit 5 humanoid has new legs, batteries, and safety upgrades", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "ICEYE", headline: "Iceye's global presence expands to address sovereign demand", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Waymo", headline: "Waymo Readying to Launch Robotaxis in Japan", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

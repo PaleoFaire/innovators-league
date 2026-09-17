@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T07:32:12.730832+00:00",
+  "generatedAt": "2026-09-17T13:21:22.681860+00:00",
   "date": "2026-09-17",
   "dateDisplay": "Thursday, September 17, 2026",
   "sections": {
@@ -96,6 +96,13 @@
         "change": -31.36
       },
       {
+        "ticker": "ONT.L",
+        "company": "Oxford Nanopore Technologies",
+        "price": 163.8,
+        "changePercent": 7.27,
+        "change": 11.1
+      },
+      {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
         "price": 13.87,
@@ -108,13 +115,6 @@
         "price": 16.02,
         "changePercent": -6.97,
         "change": -1.2
-      },
-      {
-        "ticker": "JOBY",
-        "company": "Joby Aviation",
-        "price": 6.08,
-        "changePercent": -5.3,
-        "change": -0.34
       }
     ],
     "regulatory": [
@@ -142,23 +142,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-",
-        "date": "2026-09-16",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19005"
+        "title": "Science and Technology Reinvention Laboratory (STRL) Personnel Demonstration Pro",
+        "date": "2026-09-17",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19092"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-",
-        "date": "2026-09-16",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18998"
+        "title": "Name of Information Collection: Generic Clearance for Improving Customer Experie",
+        "date": "2026-09-17",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19049"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Privacy Act of 1974; System of Records",
-        "date": "2026-09-16",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-18919"
+        "title": "Agency Information Collection Activities; Submission to the Office of Management",
+        "date": "2026-09-17",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19048"
       }
     ],
     "patents": [
