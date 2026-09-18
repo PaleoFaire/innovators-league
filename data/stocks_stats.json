@@ -11,13 +11,13 @@
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 5.08,
+      "avg_change": 5.25,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": 1.0,
+      "avg_change": 1.6,
       "count": 7
     },
     "nuclear": {
@@ -86,9 +86,9 @@
   ],
   "topLosers": [
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -2.18
+      "JOBY",
+      "Joby Aviation",
+      -1.9
     ],
     [
       "NNE",
@@ -96,14 +96,14 @@
       -2.25
     ],
     [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -2.46
+    ],
+    [
       "RIVN",
       "Rivian",
       -4.05
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -4.57
     ],
     [
       "SMR",
@@ -111,5 +111,5 @@
       -11.46
     ]
   ],
-  "lastUpdated": "2026-09-17 22:14:34"
+  "lastUpdated": "2026-09-18 05:58:48"
 }
