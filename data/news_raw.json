@@ -1,5 +1,50 @@
 [
   {
+    "title": "Khosla-backed Mazama Energy just raised $135M to drill deeper into super-hot-rock geothermal",
+    "link": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/",
+    "description": "Geothermal startup Mazama is drilling three miles underground to tap superhot rock, with one well capable of generating 15 MW of electricity 24/7.",
+    "pubDate": "Fri, 18 Sep 2026 00:02:36 +0000",
+    "category": "Climate",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Mazama",
+    "matchedCompanies": [
+      "Mazama",
+      "Fervo Energy",
+      "Deep Isolation",
+      "Zama"
+    ],
+    "sectors": [
+      "climate",
+      "nuclear",
+      "ai"
+    ],
+    "type": "funding",
+    "impact": "high",
+    "time": "Just now"
+  },
+  {
+    "title": "Amazon-owned Zoox&#8217;s 100-robotaxi limit in Nevada is about to disappear",
+    "link": "https://techcrunch.com/2026/09/17/amazon-owned-zooxs-100-robotaxi-limit-in-nevada-is-about-to-disappear/",
+    "description": "An updated permit shows the 100-cap will expire later this month just as competition in Las Vegas heats up.",
+    "pubDate": "Thu, 17 Sep 2026 23:08:24 +0000",
+    "category": "Transportation",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Zoox",
+    "matchedCompanies": [
+      "Zoox",
+      "Waymo"
+    ],
+    "sectors": [
+      "transportation",
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
     "title": "Mazama Energy raises $135M for superhot geothermal at Oregon volcano",
     "link": "https://www.canarymedia.com/articles/geothermal/mazama-energy-raises-135m-oregon-geothermal",
     "description": "",
@@ -18,7 +63,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "1h ago"
+    "time": "3h ago"
   },
   {
     "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
@@ -37,7 +82,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "3h ago"
   },
   {
     "title": "NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station",
@@ -58,7 +103,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3h ago"
+    "time": "5h ago"
   },
   {
     "title": "Waymo restarts San Antonio service 5 months after flooding troubles",
@@ -77,7 +122,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "5h ago"
   },
   {
     "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
@@ -98,28 +143,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "4h ago"
-  },
-  {
-    "title": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
-    "link": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/",
-    "description": "A new coalition that includes Google, Nvidia, Anthropic, and Emerald AI wants to find 100 GW of grid capacity for new data centers.",
-    "pubDate": "Thu, 17 Sep 2026 13:38:33 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "Emerald AI"
-    ],
-    "sectors": [
-      "ai",
-      "energy"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "8h ago"
+    "time": "6h ago"
   },
   {
     "title": "Icarus Robotics tests Joy in Canada ahead of ISS flight",
@@ -138,7 +162,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "9h ago"
+    "time": "11h ago"
   },
   {
     "title": "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months",
@@ -157,7 +181,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "14h ago"
+    "time": "16h ago"
   },
   {
     "title": "Building Waymo’s Risk &#038; Insurance Foundation in Europe with Allianz Partners",
@@ -176,7 +200,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "18h ago"
+    "time": "20h ago"
   },
   {
     "title": "An OpenAI Agent Tried to Jailbreak Itself",
@@ -195,7 +219,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "The evolution of Digit: Agility Robotics&#8217; journey from Cassie to Digit 5",
@@ -376,7 +400,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "xAI has quietly built a massive battery at its Memphis data center hub",
@@ -452,27 +476,6 @@
       "Deterrence"
     ],
     "sectors": [
-      "defense"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "9/9/2026"
-  },
-  {
-    "title": "NSA wants AI to help analysts sift vast data troves",
-    "link": "https://www.defenseone.com/technology/2026/09/nsa-ai-analysts-data/415860/",
-    "description": "Tasks that take days or weeks will be done \"much faster,\" says the agency’s cybersecurity chief.",
-    "pubDate": "Tue, 08 Sep 2026 22:20:00 -0400",
-    "category": "Science &amp; Tech",
-    "source": "Defense One",
-    "feedCategory": "defense",
-    "matchedCompany": "Vast",
-    "matchedCompanies": [
-      "Vast",
-      "Galvanick"
-    ],
-    "sectors": [
-      "space",
       "defense"
     ],
     "type": "news",

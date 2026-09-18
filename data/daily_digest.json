@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-17T22:03:38.507294+00:00",
-  "date": "2026-09-17",
-  "dateDisplay": "Thursday, September 17, 2026",
+  "generatedAt": "2026-09-18T00:04:45.571039+00:00",
+  "date": "2026-09-18",
+  "dateDisplay": "Friday, September 18, 2026",
   "sections": {
     "govActivity": [
       {
@@ -63,23 +63,23 @@
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 79.94,
-        "changePercent": 36.09,
-        "change": 21.2
+        "price": 80.36,
+        "changePercent": 36.81,
+        "change": 21.62
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 5.46,
-        "changePercent": 16.06,
-        "change": 0.75
+        "price": 5.51,
+        "changePercent": 17.23,
+        "change": 0.81
       },
       {
-        "ticker": "SMR",
-        "company": "NuScale Power",
-        "price": 8.95,
-        "changePercent": -12.39,
-        "change": -1.27
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 3.54,
+        "changePercent": 12.03,
+        "change": 0.38
       },
       {
         "ticker": "ONT.L",
@@ -89,31 +89,31 @@
         "change": 18.1
       },
       {
-        "ticker": "RXRX",
-        "company": "Recursion Pharmaceuticals",
-        "price": 3.48,
-        "changePercent": 9.97,
-        "change": 0.31
+        "ticker": "SMR",
+        "company": "NuScale Power",
+        "price": 9.04,
+        "changePercent": -11.46,
+        "change": -1.17
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 40.27,
-        "changePercent": 9.31,
-        "change": 3.43
+        "price": 40.34,
+        "changePercent": 9.5,
+        "change": 3.5
       },
       {
-        "ticker": "AMD",
-        "company": "AMD",
-        "price": 546.72,
-        "changePercent": 8.56,
-        "change": 43.12
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 67.82,
+        "changePercent": 9.46,
+        "change": 5.86
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
         "price": 0.6,
-        "changePercent": 8.39,
+        "changePercent": 9.06,
         "change": 0.05
       }
     ],
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "TEM +36.1%"
+    "topMover": "TEM +36.8%"
   }
 }
