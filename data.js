@@ -60573,23 +60573,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-18 18:17
+// Last updated: 2026-09-18 21:34
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Joby Aviation", headline: "Joby Aviation's 3,100-mile autonomous flight signals its push beyond electric air taxis", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "SpaceX", headline: "NASA Awards SpaceX Three Crew Flights to Space Station", source: "NASA Breaking News", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Waymo", headline: "Waymo's Next Target: Singapore", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Researchers used Anthropic's Claude to hack into OpenAI", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Icarus", headline: "Icarus Robotics flies ISS-bound robot in microgravity for the first time", source: "The Robot Report", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Mazama", headline: "Khosla-backed Mazama Energy just raised $135M to drill deeper into superhot-rock geothermal", source: "TechCrunch", time: "18h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "Zoox", headline: "Amazon-owned Zoox's 100-robotaxi limit in Nevada is about to disappear", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Mazama", headline: "Mazama Energy raises $135M for superhot geothermal at Oregon volcano", source: "Canary Media", time: "21h ago", impact: "high", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "NASA Invites Media to SpaceX's 35th Resupply Launch to Space Station", source: "NASA Breaking News", time: "23h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Icarus", headline: "Icarus Robotics tests Joy in Canada ahead of ISS flight", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Waymo", headline: "Building Waymo's Risk &#038; Insurance Foundation in Europe with Allianz Partners", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "OpenAI", headline: "An OpenAI Agent Tried to Jailbreak Itself", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Agility Robotics", headline: "The evolution of Digit: Agility Robotics' journey from Cassie to Digit 5", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Joby Aviation", headline: "Joby Aviation's 3,100-mile autonomous flight signals its push beyond electric air taxis", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 2, type: "contract", company: "SpaceX", headline: "NASA Awards SpaceX Three Crew Flights to Space Station", source: "NASA Breaking News", time: "5h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Waymo", headline: "Waymo's Next Target: Singapore", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Researchers used Anthropic's Claude to hack into OpenAI", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Icarus", headline: "Icarus Robotics flies ISS-bound robot in microgravity for the first time", source: "The Robot Report", time: "8h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Mazama", headline: "Khosla-backed Mazama Energy just raised $135M to drill deeper into superhot-rock geothermal", source: "TechCrunch", time: "21h ago", impact: "high", unread: false },
+  { id: 7, type: "funding", company: "Mazama", headline: "Mazama Energy raises $135M for superhot geothermal at Oregon volcano", source: "Canary Media", time: "1d ago", impact: "high", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "NASA Invites Media to SpaceX's 35th Resupply Launch to Space Station", source: "NASA Breaking News", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Icarus", headline: "Icarus Robotics tests Joy in Canada ahead of ISS flight", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Waymo", headline: "Building Waymo's Risk &#038; Insurance Foundation in Europe with Allianz Partners", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "OpenAI", headline: "An OpenAI Agent Tried to Jailbreak Itself", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Agility Robotics", headline: "The evolution of Digit: Agility Robotics' journey from Cassie to Digit 5", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "3d ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Humanoid", headline: "Agility's Digit 5 humanoid has new legs, batteries, and safety upgrades", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
