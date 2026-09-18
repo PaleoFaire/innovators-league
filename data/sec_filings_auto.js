@@ -1,7 +1,16 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-17 11:17:51 UTC
+// Last updated: 2026-09-18 10:51:40 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "4", date: "2026-09-17", description: "xslF345X06/wk-form4_1789692829.xml", isIPO: false, ticker: "PLTR" },
+  { company: "AST SpaceMobile", form: "4", date: "2026-09-17", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "AST SpaceMobile", form: "4", date: "2026-09-17", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "Centrus Energy", form: "8-K", date: "2026-09-17", description: "leu-20260917.htm", isIPO: false, ticker: "LEU" },
+  { company: "C3.ai", form: "4", date: "2026-09-17", description: "xslF345X06/wk-form4_1789685824.xml", isIPO: false, ticker: "AI" },
+  { company: "C3.ai", form: "4", date: "2026-09-17", description: "xslF345X06/wk-form4_1789685770.xml", isIPO: false, ticker: "AI" },
+  { company: "C3.ai", form: "4", date: "2026-09-17", description: "xslF345X06/wk-form4_1789685741.xml", isIPO: false, ticker: "AI" },
+  { company: "UiPath", form: "4", date: "2026-09-17", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "D-Wave Quantum", form: "8-K", date: "2026-09-17", description: "qbts-20260916.htm", isIPO: false, ticker: "QBTS" },
+  { company: "Aurora Innovation", form: "4", date: "2026-09-17", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "AUR" },
   { company: "Intuitive Machines", form: "8-K", date: "2026-09-16", description: "tm2625564d1_8k.htm", isIPO: false, ticker: "LUNR" },
   { company: "Oklo", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789591264.xml", isIPO: false, ticker: "OKLO" },
   { company: "D-Wave Quantum", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789596570.xml", isIPO: false, ticker: "QBTS" },
@@ -42,13 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "C3.ai", form: "10-Q", date: "2026-09-09", description: "ai-20260731.htm", isIPO: false, ticker: "AI" },
   { company: "UiPath", form: "4", date: "2026-09-09", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "D-Wave Quantum", form: "4", date: "2026-09-09", description: "xslF345X06/wk-form4_1788988168.xml", isIPO: false, ticker: "QBTS" },
-  { company: "Oklo", form: "4", date: "2026-09-08", description: "xslF345X06/wk-form4_1788899044.xml", isIPO: false, ticker: "OKLO" },
-  { company: "UiPath", form: "10-Q", date: "2026-09-08", description: "path-20260731.htm", isIPO: false, ticker: "PATH" },
-  { company: "Rigetti Computing", form: "8-K", date: "2026-09-08", description: "tm2624940d1_8k.htm", isIPO: false, ticker: "RGTI" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-09-08", description: "qbts-20260904.htm", isIPO: false, ticker: "QBTS" },
-  { company: "Astera Labs", form: "4", date: "2026-09-08", description: "xslF345X06/wk-form4_1788909597.xml", isIPO: false, ticker: "ALAB" },
-  { company: "Satellogic", form: "8-K", date: "2026-09-08", description: "ea0304744-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
-  { company: "Rocket Lab", form: "4", date: "2026-09-04", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rigetti Computing", form: "4", date: "2026-09-04", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
-  { company: "Archer Aviation", form: "8-K", date: "2026-09-04", description: "achr-20260901.htm", isIPO: false, ticker: "ACHR" },
 ];

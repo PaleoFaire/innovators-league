@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T11:32:02.389255Z",
+  "generated_at": "2026-09-18T11:50:07.584493Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -20,12 +20,32 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b",
       "signal_type": "funding"
+    },
+    {
+      "author": "Canary Media",
+      "role": "Industry signal",
+      "company": "Mazama",
+      "text": "Mazama Energy raises $135M for superhot geothermal at Oregon volcano",
+      "date": "Thu, 17 Se",
+      "source": "news",
+      "source_url": "https://www.canarymedia.com/articles/geothermal/mazama-energy-raises-135m-oregon-geothermal",
+      "signal_type": "funding"
+    },
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "Mazama",
+      "text": "Khosla-backed Mazama Energy just raised $135M to drill deeper into super-hot-rock geothermal",
+      "date": "Fri, 18 Se",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/",
+      "signal_type": "funding"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 2,
+    "from_news": 4,
     "from_press": 0
   }
 }

@@ -1,5 +1,20 @@
 [
   {
+    "company": "Rebellions",
+    "totalRaised": "$5.4B+",
+    "totalRaisedRaw": 5381.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$3.9B",
+    "lastRoundDate": "2026-09",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "Founders Fund",
+      "NEA"
+    ],
+    "roundCount": 5
+  },
+  {
     "company": "Together AI",
     "totalRaised": "$3.4B+",
     "totalRaisedRaw": 3440.0,
@@ -78,21 +93,6 @@
       "Undisclosed"
     ],
     "roundCount": 1
-  },
-  {
-    "company": "Rebellions",
-    "totalRaised": "$1.5B+",
-    "totalRaisedRaw": 1481.0,
-    "lastRound": "Series A",
-    "lastRoundAmount": "$31M",
-    "lastRoundDate": "2026-06",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed",
-      "Founders Fund",
-      "NEA"
-    ],
-    "roundCount": 4
   },
   {
     "company": "Skild AI",
@@ -920,6 +920,19 @@
       "General Catalyst"
     ],
     "roundCount": 5
+  },
+  {
+    "company": "Sage Geosystems",
+    "totalRaised": "$135M+",
+    "totalRaisedRaw": 135.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$135M",
+    "lastRoundDate": "2026-09",
+    "valuation": "",
+    "leadInvestors": [
+      "Khosla Ventures"
+    ],
+    "roundCount": 1
   },
   {
     "company": "Quaise Energy",

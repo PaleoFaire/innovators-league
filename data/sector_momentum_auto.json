@@ -1,25 +1,25 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 46,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "Building Waymo\u2019s Risk &#038; Insurance Foundation in Europe",
-      "Former Waymo CFO jumps to self-driving startup Wayve",
-      "The evolution of Digit: Agility Robotics&#8217; journey from"
+      "Amazon-owned Zoox&#8217;s 100-robotaxi limit in Nevada is ab",
+      "Waymo restarts San Antonio service 5 months after flooding t",
+      "Icarus Robotics tests Joy in Canada ahead of ISS flight"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 45,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-17"
+    "lastUpdated": "2026-09-18"
   },
   {
     "sector": "Transportation",
-    "momentum": 38,
+    "momentum": 43,
     "trend": "steady",
     "catalysts": [
       "Building Waymo\u2019s Risk &#038; Insurance Foundation in Europe",
@@ -30,13 +30,13 @@
       "funding": 100,
       "news": 10,
       "hiring": 0,
-      "market": 0
+      "market": 27
     },
-    "lastUpdated": "2026-09-17"
+    "lastUpdated": "2026-09-18"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 33,
+    "momentum": 37,
     "trend": "rising",
     "catalysts": [
       "Chipotle Is Working With Palantir to Track Food Safety Risks",
@@ -48,17 +48,17 @@
       "funding": 38,
       "news": 15,
       "hiring": 0,
-      "market": 78
+      "market": 100
     },
-    "lastUpdated": "2026-09-17"
+    "lastUpdated": "2026-09-18"
   },
   {
     "sector": "AI & Software",
     "momentum": 32,
     "trend": "rising",
     "catalysts": [
-      "OpenAI Creates a New Framework to Disclose Bad AI Behavior",
-      "Anthropic and OpenAI want to embed safety evaluators. Will t",
+      "OpenAI caught its models leaving notes to successors to hide",
+      "An OpenAI Agent Tried to Jailbreak Itself",
       "AI models need more data about biology, and OpenAI is paying"
     ],
     "fundingQ": "$2.4B",
@@ -68,23 +68,111 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-17"
+    "lastUpdated": "2026-09-18"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 29,
+    "trend": "declining",
+    "catalysts": [
+      "NASA Invites Media to SpaceX\u2019s 35th Resupply Launch to Space",
+      "Base Labs launches an open-weight AI safety partnership with",
+      "Icarus Robotics tests Joy in Canada ahead of ISS flight"
+    ],
+    "fundingQ": "$50M",
+    "components": {
+      "funding": 5,
+      "news": 35,
+      "hiring": 0,
+      "market": 93
+    },
+    "lastUpdated": "2026-09-18"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 21,
+    "momentum": 22,
     "trend": "declining",
     "catalysts": [
+      "Khosla-backed Mazama Energy just raised $135M to drill deepe",
       "AI models need more data about biology, and OpenAI is paying"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-17"
+    "lastUpdated": "2026-09-18"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "Chipotle Is Working With Palantir to Track Food Safety Risks",
+      "Rivian\u2019s Gambit for Full Autonomy"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 90
+    },
+    "lastUpdated": "2026-09-18"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-09-18"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "Khosla-backed Mazama Energy just raised $135M to drill deepe",
+      "Mazama Energy raises $135M for superhot geothermal at Oregon",
+      "xAI has quietly built a massive battery at its Memphis data"
+    ],
+    "fundingQ": "$134M",
+    "components": {
+      "funding": 11,
+      "news": 20,
+      "hiring": 0,
+      "market": 48
+    },
+    "lastUpdated": "2026-09-18"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "Amazon-owned Zoox&#8217;s 100-robotaxi limit in Nevada is ab",
+      "Icarus Robotics tests Joy in Canada ahead of ISS flight",
+      "The evolution of Digit: Agility Robotics&#8217; journey from"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 30,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-18"
   },
   {
     "sector": "Housing & Construction",
@@ -100,60 +188,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-17"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 15,
-    "trend": "declining",
-    "catalysts": [
-      "The evolution of Digit: Agility Robotics&#8217; journey from",
-      "Agility\u2019s Digit 5 humanoid has new legs, batteries, and safe",
-      "Iceye&#8217;s global presence expands to address sovereign d"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-17"
+    "lastUpdated": "2026-09-18"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 12,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Building Waymo\u2019s Risk &#038; Insurance Foundation in Europe",
-      "Former Waymo CFO jumps to self-driving startup Wayve"
+      "Building Waymo\u2019s Risk &#038; Insurance Foundation in Europe"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-17"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months",
-      "Musk&#8217;s long-time backer is giving SpaceX stock to its",
-      "Shifting market sands: LeoLabs moves to sell new mobile spac"
-    ],
-    "fundingQ": "$50M",
-    "components": {
-      "funding": 5,
-      "news": 30,
-      "hiring": 0,
-      "market": 5
-    },
-    "lastUpdated": "2026-09-17"
+    "lastUpdated": "2026-09-18"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -169,7 +220,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-17"
+    "lastUpdated": "2026-09-18"
   },
   {
     "sector": "Ocean & Maritime",
@@ -185,7 +236,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-17"
+    "lastUpdated": "2026-09-18"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -201,24 +252,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-17"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 8,
-    "trend": "declining",
-    "catalysts": [
-      "xAI has quietly built a massive battery at its Memphis data",
-      "Sage Geosystems brings its first next-gen geothermal plant o"
-    ],
-    "fundingQ": "$134M",
-    "components": {
-      "funding": 11,
-      "news": 10,
-      "hiring": 0,
-      "market": 8
-    },
-    "lastUpdated": "2026-09-17"
+    "lastUpdated": "2026-09-18"
   },
   {
     "sector": "Nuclear Energy",
@@ -236,40 +270,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-17"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 4,
-    "trend": "declining",
-    "catalysts": [
-      "Former Waymo CFO jumps to self-driving startup Wayve",
-      "Chipotle Is Working With Palantir to Track Food Safety Risks",
-      "Rivian\u2019s Gambit for Full Autonomy"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-09-17"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 2,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 12
-    },
-    "lastUpdated": "2026-09-17"
+    "lastUpdated": "2026-09-18"
   }
 ]
