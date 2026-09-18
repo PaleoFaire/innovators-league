@@ -1,6 +1,18 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-09-17 12:24:28 UTC
+// Last updated: 2026-09-18 12:03:49 UTC
 const NASA_PROJECTS = [
+  { id: 184658, title: "DM and Env Material Solutions", status: "Active", center: "Langley Research Center", techArea: "Materials, Structures, Mechanical Systems, and Manufacturing", lastUpdated: "09/17/26" },
+  { id: 183451, title: "Crosscutting Fission-Based Nuclear Capabilities", status: "Completed", center: "Marshall Space Flight Center", techArea: "Nuclear Thermal Propulsion", lastUpdated: "09/17/26" },
+  { id: 183422, title: "High Performance Materials for Space", status: "Completed", center: "Langley Research Center", techArea: "Lightweight Structural Materials", lastUpdated: "09/17/26" },
+  { id: 182467, title: "LUMEN: Low-light Universal Mapping for Extreme eNvironments", status: "Active", center: "Ames Research Center", techArea: "Intelligent Data Understanding", lastUpdated: "09/17/26" },
+  { id: 158561, title: "Nuclear Thermal Propulsion Technology Maturation", status: "Active", center: "Marshall Space Flight Center", techArea: "Nuclear Thermal Propulsion", lastUpdated: "09/17/26" },
+  { id: 158058, title: "Performance of Expansion-Deflection Nozzles for Rotating Detonation Rocket Engin", status: "Completed", center: "Glenn Research Center", techArea: "Propulsion Systems", lastUpdated: "09/17/26" },
+  { id: 156378, title: "Wall modeled large eddy simulation of high-enthalpy hypersonic flows", status: "Active", center: "University of Colorado Boulder", techArea: "Integrated Modeling and Simulation for EDL", lastUpdated: "09/17/26" },
+  { id: 156375, title: "High-fidelity numerical simulation and modeling of boundary layer transition and", status: "Active", center: "University of Southern California", techArea: "Integrated Modeling and Simulation for EDL", lastUpdated: "09/17/26" },
+  { id: 156318, title: "Institute for Model-Based Qualification & Certification of Additive Manufacturin", status: "Active", center: "Carnegie Mellon University", techArea: "Manufacturing Processes", lastUpdated: "09/17/26" },
+  { id: 118475, title: "Virtual Prototyping of Multifunctional Boron-Nitrogen Nanostructures and their C", status: "Completed", center: "Rice University", techArea: "Lightweight Concepts", lastUpdated: "09/17/26" },
+  { id: 116319, title: "Moon-to-Mars Planetary Autonomous Construction Technology", status: "Completed", center: "Marshall Space Flight Center", techArea: "Surface Construction and Assembly", lastUpdated: "09/17/26" },
+  { id: 116262, title: "Descent Systems Study", status: "Completed", center: "Langley Research Center", techArea: "Supersonic Retropropulsion", lastUpdated: "09/17/26" },
   { id: 185744, title: "Advanced Guidance & Navigation Systems", status: "Active", center: "Johnson Space Center", techArea: "GN&C", lastUpdated: "09/16/26" },
   { id: 158507, title: "Thermal Control System Architecture for Exploration", status: "Completed", center: "Marshall Space Flight Center", techArea: "Thermal Management Systems", lastUpdated: "09/15/26" },
   { id: 182465, title: "Mars Roundtrip Success enabled by Integrated Cooling through Inductively Coupled", status: "Active", center: "University of California-Los Angeles", techArea: "", lastUpdated: "09/15/26" },
@@ -19,16 +31,4 @@ const NASA_PROJECTS = [
   { id: 106026, title: "CubeSat Space Flight test of a Neutrino Detector", status: "Completed", center: "Wichita State University", techArea: "Sensors and Instruments", lastUpdated: "09/09/26" },
   { id: 158439, title: "Pulsed Plasma Rocket: Shielded, Fast Transits for Humans to Mars is an innovativ", status: "Completed", center: "", techArea: "", lastUpdated: "09/09/26" },
   { id: 158458, title: "FLOAT: Flexible Levitation on a Track", status: "Completed", center: "", techArea: "", lastUpdated: "09/09/26" },
-  { id: 158572, title: "The Great Observatory for Long Wavelengths (GO-LoW)", status: "Completed", center: "", techArea: "", lastUpdated: "09/09/26" },
-  { id: 182459, title: "TFINER -- Thin Film Isotope Nuclear Engine Rocket", status: "Active", center: "", techArea: "", lastUpdated: "09/09/26" },
-  { id: 182461, title: "Autonomous Tritium Micropowered Sensors", status: "Active", center: "", techArea: "", lastUpdated: "09/09/26" },
-  { id: 185270, title: "Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situati", status: "Active", center: "", techArea: "", lastUpdated: "09/09/26" },
-  { id: 185275, title: "Power-over-Fiber to Enable a Lunar Underground eXplorer (LUX)", status: "Active", center: "", techArea: "", lastUpdated: "09/09/26" },
-  { id: 185276, title: "PS2I: Transforming Submillimeter Space Interferometry with Photonic Technologies", status: "Active", center: "", techArea: "", lastUpdated: "09/09/26" },
-  { id: 185277, title: "OBLIVION: Observing Black hole LIght Via Intensity cOrrelatioN", status: "Active", center: "", techArea: "", lastUpdated: "09/09/26" },
-  { id: 14799, title: "Autonomous Navigation, Dynamic Path and Work Flow Planning in Multi-Agent Roboti", status: "Completed", center: "Kennedy Space Center", techArea: "", lastUpdated: "09/09/26" },
-  { id: 146967, title: "Measurement of Secondary Electron Yield (SEY) from Insulators Using Single-Elect", status: "Completed", center: "Marshall Space Flight Center", techArea: "Materials, Structures, Mechanical Systems, and Manufacturing", lastUpdated: "09/09/26" },
-  { id: 10514, title: "Doppler Lidar for Measurement of High-Altitude Aircraft Wake Vortices, Year 1", status: "Completed", center: "Langley Research Center", techArea: "Lasers", lastUpdated: "09/09/26" },
-  { id: 146561, title: "Hypersonic Inflatable Aerodynamic Decelerator Morphing Shape Guidance and Contro", status: "Completed", center: "Langley Research Center", techArea: "Hypersonic Decelerators", lastUpdated: "09/09/26" },
-  { id: 106812, title: "Cis Lunar Autonomous Positioning Software", status: "Completed", center: "Advanced Space, LLC", techArea: "Revolutionary PNT Technologies", lastUpdated: "09/08/26" },
 ];

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T12:39:42.608421+00:00",
+  "generated_at": "2026-09-18T12:22:39.041187+00:00",
   "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
   "candidates": [
     {
@@ -34,94 +34,6 @@
       "accession": "0002154733-26-000001",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002154733&type=D&dateb=&owner=include&count=10",
       "adsh_raw": "0002154733-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Humanoid",
-      "issuer_name": "Humanoid NP Atoms, a Series of A Master Series, LLC",
-      "form": "D",
-      "filed_date": "2026-09-11",
-      "cik": "2149291",
-      "accession": "0002149291-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002149291&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002149291-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Humanoid",
-      "issuer_name": "Humanoid Genki Series, a Series of A Master Series, LLC",
-      "form": "D",
-      "filed_date": "2026-09-11",
-      "cik": "2149255",
-      "accession": "0002149255-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002149255&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002149255-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Persona AI",
-      "issuer_name": "PERSONA AI Feb 2026 a Series of CGF2021 LLC",
-      "form": "D",
-      "filed_date": "2026-09-11",
-      "cik": "2114821",
-      "accession": "0002114821-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002114821&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002114821-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Revere",
-      "issuer_name": "Revere Credit Opportunities IDF Series Interests of the SALI Multi-Series Fund, LP",
-      "form": "D",
-      "filed_date": "2026-09-11",
-      "cik": "2074023",
-      "accession": "0002074023-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002074023&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002074023-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Tempo",
-      "issuer_name": "Tempo Therapeutics, Inc",
-      "form": "D",
-      "filed_date": "2026-09-11",
-      "cik": "1813688",
-      "accession": "0001813688-26-000003",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001813688&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001813688-26-000003"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "ASI",
-      "issuer_name": "ASI SC 2026 a Series of NEW VISTA CAPITAL INVESTMENT LLC",
-      "form": "D",
-      "filed_date": "2026-09-09",
-      "cik": "2149955",
-      "accession": "0002149955-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002149955&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002149955-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Asymm",
-      "issuer_name": "Asymm Venture Fund II LLC",
-      "form": "D",
-      "filed_date": "2026-09-09",
-      "cik": "1997013",
-      "accession": "0001997013-26-000002",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001997013&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001997013-26-000002"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "fab2",
-      "issuer_name": "Fab2, Inc",
-      "form": "D",
-      "filed_date": "2026-09-08",
-      "cik": "2151752",
-      "accession": "0002151752-26-000002",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002151752&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002151752-26-000002"
     }
   ]
 }
