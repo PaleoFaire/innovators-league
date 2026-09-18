@@ -1,85 +1,107 @@
 // Auto-generated news signals
-// Last updated: 2026-09-18T04:31:05.899Z
+// Last updated: 2026-09-18T09:34:52.350Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1789705865899,
+    "id": 1789724092350,
     "type": "funding",
     "company": "Mazama",
     "headline": "Khosla-backed Mazama Energy just raised $135M to drill deeper into super-hot-rock geothermal",
     "source": "TechCrunch",
-    "time": "4h ago",
+    "time": "9h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/"
   },
   {
-    "id": 1789705865900,
+    "id": 1789724092351,
     "type": "news",
     "company": "Zoox",
     "headline": "Amazon-owned Zoox&#8217;s 100-robotaxi limit in Nevada is about to disappear",
     "source": "TechCrunch",
-    "time": "5h ago",
+    "time": "10h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/09/17/amazon-owned-zooxs-100-robotaxi-limit-in-nevada-is-about-to-disappear/"
   },
   {
-    "id": 1789705865901,
+    "id": 1789724092352,
     "type": "funding",
     "company": "Mazama",
     "headline": "Mazama Energy raises $135M for superhot geothermal at Oregon volcano",
     "source": "Canary Media",
-    "time": "7h ago",
+    "time": "12h ago",
     "impact": "high",
     "unread": true,
     "link": "https://www.canarymedia.com/articles/geothermal/mazama-energy-raises-135m-oregon-geothermal"
   },
   {
-    "id": 1789705865902,
+    "id": 1789724092353,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI caught its models leaving notes to successors to hide bad behavior",
     "source": "TechCrunch",
-    "time": "7h ago",
+    "time": "13h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/"
   },
   {
-    "id": 1789705865903,
+    "id": 1789724092354,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station",
+    "source": "NASA Breaking News",
+    "time": "15h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-35th-resupply-launch-to-space-station/"
+  },
+  {
+    "id": 1789724092355,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo restarts San Antonio service 5 months after flooding troubles",
     "source": "TechCrunch",
-    "time": "10h ago",
+    "time": "15h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/09/17/waymo-restarts-san-antonio-service-five-months-after-flooding-troubles/"
   },
   {
-    "id": 1789705865904,
+    "id": 1789724092356,
     "type": "milestone",
     "company": "Hugging Face",
     "headline": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
     "source": "TechCrunch",
-    "time": "11h ago",
+    "time": "16h ago",
     "impact": "medium",
     "unread": false,
     "link": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/"
   },
   {
-    "id": 1789705865905,
+    "id": 1789724092357,
     "type": "ipo",
     "company": "Icarus",
     "headline": "Icarus Robotics tests Joy in Canada ahead of ISS flight",
     "source": "SpaceNews",
-    "time": "15h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/icarus-robotics-tests-joy-in-canada-ahead-of-iss-flight/"
   },
   {
-    "id": 1789705865906,
+    "id": 1789724092358,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months",
+    "source": "Next Big Future",
+    "time": "1d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.nextbigfuture.com/2026/09/spacex-could-beat-its-entire-2025-revenue-in-just-2-months.html"
+  },
+  {
+    "id": 1789724092359,
     "type": "news",
     "company": "Waymo",
     "headline": "Building Waymo’s Risk &#038; Insurance Foundation in Europe with Allianz Partners",
@@ -90,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/09/16/building-waymos-risk-insurance-foundation-in-europe-with-allianz-partners/"
   },
   {
-    "id": 1789705865907,
+    "id": 1789724092360,
     "type": "news",
     "company": "OpenAI",
     "headline": "An OpenAI Agent Tried to Jailbreak Itself",
@@ -101,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-releases-new-policy-for-reporting-incidents-of-model-misalignment/"
   },
   {
-    "id": 1789705865908,
+    "id": 1789724092361,
     "type": "news",
     "company": "Agility Robotics",
     "headline": "The evolution of Digit: Agility Robotics&#8217; journey from Cassie to Digit 5",
@@ -112,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/"
   },
   {
-    "id": 1789705865909,
+    "id": 1789724092362,
     "type": "hire",
     "company": "Palantir",
     "headline": "Chipotle Is Working With Palantir to Track Food Safety Risks",
@@ -123,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/chipotle-is-working-with-palantir-on-food-safety/"
   },
   {
-    "id": 1789705865910,
+    "id": 1789724092363,
     "type": "ipo",
     "company": "Deterrence",
     "headline": "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence",
@@ -134,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://warontherocks.com/the-atlantic-brief-u-s-and-european-perspectives-on-nuclear-deterrence/"
   },
   {
-    "id": 1789705865911,
+    "id": 1789724092364,
     "type": "news",
     "company": "OpenAI",
     "headline": "AI models need more data about biology, and OpenAI is paying to create it",
@@ -145,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/"
   },
   {
-    "id": 1789705865912,
+    "id": 1789724092365,
     "type": "milestone",
     "company": "Humanoid",
     "headline": "Agility’s Digit 5 humanoid has new legs, batteries, and safety upgrades",
@@ -156,18 +178,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/"
   },
   {
-    "id": 1789705865913,
+    "id": 1789724092366,
     "type": "funding",
     "company": "ICEYE",
     "headline": "Iceye&#8217;s global presence expands to address sovereign demand",
     "source": "SpaceNews",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/iceye-rapidly-expands-global-presence-to-address-sovereign-demand/"
   },
   {
-    "id": 1789705865914,
+    "id": 1789724092367,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Waymo Readying to Launch Robotaxis in Japan",
@@ -178,47 +200,25 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/09/14/waymo-readying-to-launch-robotaxis-in-japan/"
   },
   {
-    "id": 1789705865915,
+    "id": 1789724092368,
     "type": "news",
-    "company": "xAI",
-    "headline": "xAI has quietly built a massive battery at its Memphis data center hub",
-    "source": "Canary Media",
+    "company": "Anthropic",
+    "headline": "Anthropic Fears RSI &#8211; What is RSI? What Specifically is It?",
+    "source": "Next Big Future",
+    "time": "3d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.nextbigfuture.com/2026/09/anthropic-fears-rsi-what-is-rsi-what-specifically-is-it.html"
+  },
+  {
+    "id": 1789724092369,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "SpaceX Huge Next Flight and 150 Days to Change the World",
+    "source": "Next Big Future",
     "time": "6d ago",
     "impact": "low",
     "unread": false,
-    "link": "https://www.canarymedia.com/articles/batteries/xai-massive-battery-memphis-data-center"
-  },
-  {
-    "id": 1789705865916,
-    "type": "hire",
-    "company": "Monumental",
-    "headline": "One brick at a time: How Monumental uses robotics to build walls",
-    "source": "The Robot Report",
-    "time": "6d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/"
-  },
-  {
-    "id": 1789705865917,
-    "type": "funding",
-    "company": "Cognition",
-    "headline": "The Week’s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
-    "source": "Crunchbase News",
-    "time": "6d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
-  },
-  {
-    "id": 1789705865918,
-    "type": "news",
-    "company": "Deterrence",
-    "headline": "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture",
-    "source": "War on the Rocks",
-    "time": "9/9/2026",
-    "impact": "low",
-    "unread": false,
-    "link": "https://warontherocks.com/forced-into-the-right-decision-a-look-at-u-s-land-based-deterrence-posture/"
+    "link": "https://www.nextbigfuture.com/2026/09/spacex-huge-next-flight-and-150-days-to-change-the-world.html"
   }
 ];
