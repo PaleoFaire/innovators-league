@@ -16203,6 +16203,29 @@ const COMPANIES = [
     signal: "early"
   },
   {
+    name: "Thatch",
+    status: "active",
+    sector: "Biotech & Health",
+    subsector: "General",
+    description: "Health-benefits platform built on ICHRA (Individual Coverage Health Reimbursement Arrangements, recently rebranded CHOICE Arrangements): the employer sets a tax-free monthly health budget and each employee picks their own individual insurance from a marketplace, spending any remainder on eligible care such as GLP-1 prescriptions. Raised a $108M Series C at a $1B valuation on Sep 15, 2026 (The General Partnership, Index Ventures, General Catalyst, a16z; ADP Ventures, Paychex and Eli Lilly also participated), after a $40M Series B at $410M in Apr 2025. ARR up ~7x in twelve months; 5,000+ employers including Jersey Mike's and Smoothie King. Co-founder Adam Stevenson was a Stripe engineering executive.",
+    founder: "Chris Ellis, Adam Stevenson",
+    location: "San Francisco, CA",
+    country: "United States",
+    state: "CA",
+    lat: 37.7936,
+    lng: -122.4040,
+    founded: 2021,
+    fundingStage: "Series C",
+    totalRaised: "$192.5M",
+    website: "https://thatch.com",
+    investors: ["The General Partnership", "Index Ventures", "General Catalyst", "Andreessen Horowitz", "ADP Ventures", "Paychex", "Eli Lilly", "Scale Venture Partners", "QuantumLight", "SemperVirens", "Quiet Capital", "Avid Ventures", "GV", "Lux Capital", "Not Boring Capital"],
+    tags: ["health-benefits", "ichra", "fintech", "insurance-marketplace", "unicorn"],
+    source: "Chris Ellis (CEO) announcement on X, Sep 15 2026; TechCrunch; MedCity News",
+    addedDate: "2026-09",
+    insight: "Bets that healthcare serves whoever controls the dollar, and moves that control from the employer to the employee. The ICHRA rule has existed since 2020; Thatch is the payments-and-marketplace layer that makes it usable, which is why payroll giants ADP and Paychex are on the cap table.",
+    signal: "hot"
+  },
+  {
     name: "Applied Atomics",
     status: "active",
     sector: "Nuclear Energy",
@@ -46878,6 +46901,7 @@ const MARKET_PULSE = [
 
 // Auto-calculated funding tracker — Last updated: 2026-09-18
 const FUNDING_TRACKER = [
+  { company: "Thatch", totalRaised: "$192.5M", lastRound: "Series C", lastRoundAmount: "$108M", lastRoundDate: "2026-09", valuation: "$1B", leadInvestors: ["The General Partnership", "Index Ventures", "General Catalyst", "Andreessen Horowitz"] },
   { company: "Rebellions", totalRaised: "$5.4B+", lastRound: "Funding Round", lastRoundAmount: "$3.9B", lastRoundDate: "2026-09", valuation: "", leadInvestors: ["Undisclosed", "Founders Fund", "NEA"] },
   { company: "Together AI", totalRaised: "$3.4B+", lastRound: "Funding Round", lastRoundAmount: "$3B", lastRoundDate: "2026-09", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "The Boring Company", totalRaised: "$3.0B+", lastRound: "Funding Round", lastRoundAmount: "$3B", lastRoundDate: "2026-09", valuation: "", leadInvestors: ["Undisclosed"] },
