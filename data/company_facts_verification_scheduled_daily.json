@@ -1,45 +1,39 @@
 {
-  "generatedAt": "2026-09-17T09:56:35+00:00",
+  "generatedAt": "2026-09-18T09:32:30+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
-  "cohortSize": 32,
-  "newExtractionsThisRun": 32,
+  "cohortSize": 28,
+  "newExtractionsThisRun": 28,
   "summary": {
-    "cleared": 30,
-    "changesProposed": 2,
+    "cleared": 24,
+    "changesProposed": 4,
     "unverifiable": 0
   },
   "cleared": [
     "Antares",
-    "Asimov",
     "Astera Labs",
     "Aurora Innovation",
     "Base Power",
     "Cognition",
+    "Deep Isolation",
     "Deterrence",
-    "Galvanick",
     "Gecko Robotics",
     "Humanoid",
     "ICEYE",
     "ICON",
+    "Icarus",
     "Karman Industries",
-    "LeoLabs",
     "Monumental",
     "Oklo",
     "Palantir",
-    "Pivotal",
-    "Profluent",
     "Radiant",
     "Rebellions",
     "Rivian",
     "Sage Geosystems",
     "Solugen",
-    "SpaceX",
     "Teralta",
     "Valar Atomics",
-    "Vast",
-    "Waymo",
-    "Wayve"
+    "Waymo"
   ],
   "changesProposed": [
     {
@@ -55,7 +49,7 @@
       },
       "verified": {
         "name": "Agility Robotics",
-        "description": "American humanoid robotics company that develops and deploys Digit, a bipedal humanoid robot designed for warehouse and logistics automation. Digit is commercially deployed with supply chain partners including Amazon, GXO Logistics, Toyota, and Mercado Libre.",
+        "description": "A humanoid robotics company that develops and deploys Digit, a bipedal robot for warehouse and logistics automation. Digit is the first humanoid robot commercially deployed in real-world supply chain operations.",
         "founders": [
           "Jonathan Hurst",
           "Damion Shelton",
@@ -82,7 +76,6 @@
             2
           ],
           "location": [
-            1,
             2
           ],
           "founded_year": [
@@ -97,7 +90,7 @@
             2
           ]
         },
-        "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Company rebranded from 'Agility Robotics' to 'Agility' on March 5, 2026 (per source 2). Could not verify total funding raised ($400M+) or specific investor list from provided sources. Current CEO is Peggy Johnson (per source 1)."
+        "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Company rebranded to 'Agility' on March 5, 2026 (per source 2). Current CEO is Peggy Johnson (per source 1). Wikipedia lists founder name as 'Jonathon Hurst' but source 1 and company materials use 'Jonathan Hurst' - using verified spelling from source 1."
       },
       "changes": [
         {
@@ -131,7 +124,174 @@
           "url": "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/"
         }
       ],
-      "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Company rebranded from 'Agility Robotics' to 'Agility' on March 5, 2026 (per source 2). Could not verify total funding raised ($400M+) or specific investor list from provided sources. Current CEO is Peggy Johnson (per source 1)."
+      "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Company rebranded to 'Agility' on March 5, 2026 (per source 2). Current CEO is Peggy Johnson (per source 1). Wikipedia lists founder name as 'Jonathon Hurst' but source 1 and company materials use 'Jonathan Hurst' - using verified spelling from source 1."
+    },
+    {
+      "name": "Fervo Energy",
+      "current": {
+        "name": "Fervo Energy",
+        "founder": "Tim Latimer, Jack Norbeck",
+        "location": "Houston, TX",
+        "founded": 2017,
+        "fundingStage": "Public",
+        "totalRaised": "$1.5B+",
+        "website": "https://fervoenergy.com"
+      },
+      "verified": {
+        "name": "Fervo Energy",
+        "description": "A geothermal energy company based in Houston, Texas that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques. The company operates Project Red in Nevada and is developing Cape Station in Utah.",
+        "founders": [
+          "Tim Latimer",
+          "Jack Norbeck"
+        ],
+        "location": "Houston, Texas, U.S.",
+        "founded_year": 2017,
+        "current_stage": null,
+        "total_raised": "$1.5B+",
+        "valuation": null,
+        "investors": [
+          "B Capital",
+          "Breakthrough Energy",
+          "Centaurus Capital",
+          "Congruent Ventures"
+        ],
+        "website": "https://fervoenergy.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "founders": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "founded_year": [
+            0
+          ],
+          "total_raised": [
+            0
+          ],
+          "investors": [
+            0
+          ],
+          "website": [
+            0
+          ]
+        },
+        "notes": "Wikipedia source (index 0) lists company as 'Private' with no mention of IPO. The provided database entry claims IPO on May 13, 2026, but this cannot be verified from available sources. Source 1 is about a different company (Mazama Energy) and does not contain information about Fervo Energy. Most recent funding mentioned is Series E in November 2025 for $462M led by B Capital."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Houston, TX",
+          "verified": "Houston, Texas, U.S.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fervo_Energy"
+        },
+        {
+          "idx": 1,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/"
+        }
+      ],
+      "notes": "Wikipedia source (index 0) lists company as 'Private' with no mention of IPO. The provided database entry claims IPO on May 13, 2026, but this cannot be verified from available sources. Source 1 is about a different company (Mazama Energy) and does not contain information about Fervo Energy. Most recent funding mentioned is Series E in November 2025 for $462M led by B Capital."
+    },
+    {
+      "name": "Mazama",
+      "current": {
+        "name": "Mazama",
+        "founder": "Sriram Vasantharajan",
+        "location": "Frisco, TX",
+        "founded": 2023,
+        "fundingStage": "Series A",
+        "totalRaised": "$30M+",
+        "website": "https://mazamaenergy.com"
+      },
+      "verified": {
+        "name": "Mazama Energy",
+        "description": "Geothermal startup developing enhanced geothermal systems (EGS) technology using superhot rock. Completed a pilot demonstration reaching 629\u00b0F at Newberry Volcano in Oregon.",
+        "founders": null,
+        "location": "Oregon, USA",
+        "founded_year": null,
+        "current_stage": "Series A",
+        "total_raised": "$135M",
+        "valuation": null,
+        "investors": [
+          "Khosla Ventures"
+        ],
+        "website": "https://mazamaenergy.com",
+        "sources_per_field": {
+          "name": [
+            0
+          ],
+          "description": [
+            0
+          ],
+          "location": [
+            0
+          ],
+          "current_stage": [
+            1
+          ],
+          "total_raised": [
+            1,
+            2
+          ],
+          "investors": [
+            1
+          ]
+        },
+        "notes": "Database entry listed location as 'Frisco, TX' but sources indicate primary operations at Newberry, Oregon. Database entry founder 'Sriram Vasantharajan' could not be verified from sources provided. Database entry listed $30M+ but more recent source [1] and [2] from 2026 confirm $135M raise for Series A."
+      },
+      "changes": [
+        {
+          "field": "location",
+          "current": "Frisco, TX",
+          "verified": "Oregon, USA",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "field": "totalRaised",
+          "current": "$30M+",
+          "verified": "$135M",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "idx": 0,
+          "src": "company_website",
+          "url": "https://mazamaenergy.com"
+        },
+        {
+          "idx": 1,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/"
+        },
+        {
+          "idx": 2,
+          "src": "news (Canary Media)",
+          "url": "https://www.canarymedia.com/articles/geothermal/mazama-energy-raises-135m-oregon-geothermal"
+        }
+      ],
+      "notes": "Database entry listed location as 'Frisco, TX' but sources indicate primary operations at Newberry, Oregon. Database entry founder 'Sriram Vasantharajan' could not be verified from sources provided. Database entry listed $30M+ but more recent source [1] and [2] from 2026 confirm $135M raise for Series A."
     },
     {
       "name": "Nano Nuclear Energy",
@@ -146,7 +306,7 @@
       },
       "verified": {
         "name": "NANO Nuclear Energy Inc.",
-        "description": "An advanced nuclear energy company developing microreactor technologies (KRONOS MMR, ZEUS, LOKI) and operating subsidiaries in nuclear fuel fabrication, transportation, and space applications. The company is listed publicly on NASDAQ under ticker NNE.",
+        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, along with nuclear fuel fabrication, transportation, and space applications. The company is publicly listed on NASDAQ under ticker NNE.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -176,7 +336,7 @@
             1
           ]
         },
-        "notes": "Company is publicly traded on NASDAQ under ticker NNE. Sources [0] and [1] are from company website only; source [2] is about different company (Valar Atomics) and not used. No founder names, founding year, total raised, valuation, or investor information found in provided sources. Database entry references ODIN sale to Cambridge AtomWorks and valuation figures that cannot be verified from these sources."
+        "notes": "Company is publicly traded on NASDAQ (ticker: NNE). Source [2] about Valar Atomics is not relevant to this company and was not used. No founder names explicitly stated in sources. Founded year not mentioned in provided sources. Total raised and valuation figures from database entry could not be verified from these sources."
       },
       "changes": [
         {
@@ -206,7 +366,7 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly traded on NASDAQ under ticker NNE. Sources [0] and [1] are from company website only; source [2] is about different company (Valar Atomics) and not used. No founder names, founding year, total raised, valuation, or investor information found in provided sources. Database entry references ODIN sale to Cambridge AtomWorks and valuation figures that cannot be verified from these sources."
+      "notes": "Company is publicly traded on NASDAQ (ticker: NNE). Source [2] about Valar Atomics is not relevant to this company and was not used. No founder names explicitly stated in sources. Founded year not mentioned in provided sources. Total raised and valuation figures from database entry could not be verified from these sources."
     }
   ],
   "unverifiable": []
