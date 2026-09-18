@@ -1,5 +1,47 @@
 [
   {
+    "title": "Joby Aviation&#8217;s 3,100-mile autonomous flight signals its push beyond electric air taxis",
+    "link": "https://techcrunch.com/2026/09/18/joby-aviations-3100-mile-autonomous-flight-signals-its-push-beyond-electric-air-taxis/",
+    "description": "An aircraft equipped with Joby Aviation's autonomy technology flew across the United States without a human pilot taking control at any point.",
+    "pubDate": "Fri, 18 Sep 2026 17:26:41 +0000",
+    "category": "Transportation",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Joby Aviation",
+    "matchedCompanies": [
+      "Joby Aviation",
+      "Beacon AI"
+    ],
+    "sectors": [
+      "autonomous",
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "NASA Awards SpaceX Three Crew Flights to Space Station",
+    "link": "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/",
+    "description": "To continue regular crew transportation to the International Space Station, NASA has awarded SpaceX three additional missions through a contract modification.",
+    "pubDate": "Fri, 18 Sep 2026 16:02:31 +0000",
+    "category": "Commercial Crew",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Vast",
+      "Axiom Space"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
     "title": "Waymo&#8217;s Next Target: Singapore",
     "link": "https://cleantechnica.com/2026/09/18/waymos-next-target-singapore/",
     "description": "Waymo has expanded its robotaxi service across the United States quite significantly in 2026. It&#8217;s not yet covering a huge portion of the population, but it&#8217;s operating in more than a dozen major cities already. As it expanded further and further in the US, though, I started wondering ho",
@@ -18,7 +60,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "Researchers used Anthropic&#8217;s Claude to hack into OpenAI",
@@ -43,12 +85,12 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "Icarus Robotics flies ISS-bound robot in microgravity for the first time",
     "link": "https://www.therobotreport.com/icarus-robotics-flies-iss-bound-robot-in-microgravity-for-the-first-time/",
-    "description": "This is the last major test of the system before Icarus Robotics will be sending Joy the the ISS in early 2027.\nThe post Icarus Robotics flies ISS-bound robot in microgravity for the first time appeared first on The Robot Report.",
+    "description": "This is the last major test of the system before Icarus Robotics will be sending JOY the the ISS in early 2027.\nThe post Icarus Robotics flies ISS-bound robot in microgravity for the first time appeared first on The Robot Report.",
     "pubDate": "Fri, 18 Sep 2026 13:07:45 +0000",
     "category": "Aerospace",
     "source": "The Robot Report",
@@ -62,7 +104,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "Khosla-backed Mazama Energy just raised $135M to drill deeper into superhot-rock geothermal",
@@ -86,7 +128,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "14h ago"
+    "time": "18h ago"
   },
   {
     "title": "Amazon-owned Zoox&#8217;s 100-robotaxi limit in Nevada is about to disappear",
@@ -107,7 +149,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "15h ago"
+    "time": "19h ago"
   },
   {
     "title": "Mazama Energy raises $135M for superhot geothermal at Oregon volcano",
@@ -128,26 +170,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "17h ago"
-  },
-  {
-    "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
-    "link": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
-    "description": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.",
-    "pubDate": "Thu, 17 Sep 2026 20:34:24 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "17h ago"
+    "time": "21h ago"
   },
   {
     "title": "NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station",
@@ -168,47 +191,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "19h ago"
-  },
-  {
-    "title": "Waymo restarts San Antonio service 5 months after flooding troubles",
-    "link": "https://techcrunch.com/2026/09/17/waymo-restarts-san-antonio-service-five-months-after-flooding-troubles/",
-    "description": "The company suspended service in the city in April after one of its robotaxis got swept away.",
-    "pubDate": "Thu, 17 Sep 2026 18:30:30 +0000",
-    "category": "Transportation",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Waymo",
-    "matchedCompanies": [
-      "Waymo"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "19h ago"
-  },
-  {
-    "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
-    "link": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
-    "description": "Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods for training and monitoring open models.",
-    "pubDate": "Thu, 17 Sep 2026 17:15:59 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Hugging Face",
-    "matchedCompanies": [
-      "Hugging Face",
-      "Anthropic",
-      "Kolena"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "milestone",
-    "impact": "medium",
-    "time": "21h ago"
+    "time": "23h ago"
   },
   {
     "title": "Icarus Robotics tests Joy in Canada ahead of ISS flight",
@@ -311,7 +294,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence",
@@ -469,7 +452,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "6d ago"
+    "time": "9/11/2026"
   },
   {
     "title": "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture",
