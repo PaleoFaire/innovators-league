@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T09:35:02.482181+00:00",
+  "generatedAt": "2026-09-18T14:20:08.284292+00:00",
   "date": "2026-09-18",
   "dateDisplay": "Friday, September 18, 2026",
   "sections": {
@@ -75,18 +75,18 @@
         "change": 0.81
       },
       {
+        "ticker": "ONT.L",
+        "company": "Oxford Nanopore Technologies",
+        "price": 176.7,
+        "changePercent": 12.62,
+        "change": 19.8
+      },
+      {
         "ticker": "RXRX",
         "company": "Recursion Pharmaceuticals",
         "price": 3.54,
         "changePercent": 12.03,
         "change": 0.38
-      },
-      {
-        "ticker": "ONT.L",
-        "company": "Oxford Nanopore Technologies",
-        "price": 170.8,
-        "changePercent": 11.85,
-        "change": 18.1
       },
       {
         "ticker": "SMR",
@@ -142,6 +142,13 @@
       {
         "kind": "Federal Register",
         "company": "",
+        "title": "Aerospace Safety Advisory Panel; Meeting",
+        "date": "2026-09-18",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19188"
+      },
+      {
+        "kind": "Federal Register",
+        "company": "",
         "title": "Science and Technology Reinvention Laboratory (STRL) Personnel Demonstration Pro",
         "date": "2026-09-17",
         "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19092"
@@ -152,13 +159,6 @@
         "title": "Name of Information Collection: Generic Clearance for Improving Customer Experie",
         "date": "2026-09-17",
         "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19049"
-      },
-      {
-        "kind": "Federal Register",
-        "company": "",
-        "title": "Agency Information Collection Activities; Submission to the Office of Management",
-        "date": "2026-09-17",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19048"
       }
     ],
     "patents": [

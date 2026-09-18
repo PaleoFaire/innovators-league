@@ -1,6 +1,71 @@
 [
   {
-    "title": "Khosla-backed Mazama Energy just raised $135M to drill deeper into super-hot-rock geothermal",
+    "title": "Waymo&#8217;s Next Target: Singapore",
+    "link": "https://cleantechnica.com/2026/09/18/waymos-next-target-singapore/",
+    "description": "Waymo has expanded its robotaxi service across the United States quite significantly in 2026. It&#8217;s not yet covering a huge portion of the population, but it&#8217;s operating in more than a dozen major cities already. As it expanded further and further in the US, though, I started wondering ho",
+    "pubDate": "Fri, 18 Sep 2026 14:01:00 +0000",
+    "category": "Autonomous Vehicles",
+    "source": "CleanTechnica",
+    "feedCategory": "energy",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Zoox"
+    ],
+    "sectors": [
+      "ai",
+      "transportation"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Researchers used Anthropic&#8217;s Claude to hack into OpenAI",
+    "link": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+    "description": "Security researchers used Anthropic’s Claude to exploit vulnerabilities in OpenAI’s systems, taking over employee accounts and gaining access to an internal code repository before reporting the flaws.",
+    "pubDate": "Fri, 18 Sep 2026 14:00:14 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Cape",
+      "OpenAI",
+      "Percepto",
+      "ideaForge"
+    ],
+    "sectors": [
+      "ai",
+      "climate",
+      "autonomous"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Icarus Robotics flies ISS-bound robot in microgravity for the first time",
+    "link": "https://www.therobotreport.com/icarus-robotics-flies-iss-bound-robot-in-microgravity-for-the-first-time/",
+    "description": "This is the last major test of the system before Icarus Robotics will be sending Joy the the ISS in early 2027.\nThe post Icarus Robotics flies ISS-bound robot in microgravity for the first time appeared first on The Robot Report.",
+    "pubDate": "Fri, 18 Sep 2026 13:07:45 +0000",
+    "category": "Aerospace",
+    "source": "The Robot Report",
+    "feedCategory": "robotics",
+    "matchedCompany": "Icarus",
+    "matchedCompanies": [
+      "Icarus"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Khosla-backed Mazama Energy just raised $135M to drill deeper into superhot-rock geothermal",
     "link": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/",
     "description": "Geothermal startup Mazama is drilling three miles underground to tap superhot rock, with one well capable of generating 15 MW of electricity 24/7.",
     "pubDate": "Fri, 18 Sep 2026 00:02:36 +0000",
@@ -21,7 +86,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "10h ago"
+    "time": "14h ago"
   },
   {
     "title": "Amazon-owned Zoox&#8217;s 100-robotaxi limit in Nevada is about to disappear",
@@ -42,7 +107,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "11h ago"
+    "time": "15h ago"
   },
   {
     "title": "Mazama Energy raises $135M for superhot geothermal at Oregon volcano",
@@ -63,7 +128,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "13h ago"
+    "time": "17h ago"
   },
   {
     "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
@@ -82,7 +147,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "14h ago"
+    "time": "17h ago"
   },
   {
     "title": "NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station",
@@ -103,7 +168,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "16h ago"
+    "time": "19h ago"
   },
   {
     "title": "Waymo restarts San Antonio service 5 months after flooding troubles",
@@ -122,7 +187,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "19h ago"
   },
   {
     "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
@@ -143,7 +208,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "17h ago"
+    "time": "21h ago"
   },
   {
     "title": "Icarus Robotics tests Joy in Canada ahead of ISS flight",
@@ -162,7 +227,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months",
@@ -249,25 +314,6 @@
     "time": "1d ago"
   },
   {
-    "title": "Chipotle Is Working With Palantir to Track Food Safety Risks",
-    "link": "https://www.wired.com/story/chipotle-is-working-with-palantir-on-food-safety/",
-    "description": "The burrito chain has enlisted Palantir for a platform that monitors pest incidents, employee illnesses, and other factors. The partnership comes after a nightmare summer for food safety across the US.",
-    "pubDate": "Wed, 16 Sep 2026 16:05:14 +0000",
-    "category": "Business",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Palantir",
-    "matchedCompanies": [
-      "Palantir"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "hire",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
     "title": "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence",
     "link": "https://warontherocks.com/the-atlantic-brief-u-s-and-european-perspectives-on-nuclear-deterrence/",
     "description": "Date: Wednesday, Sept. 23, 2026Time: 12:00-1:00 PM ETThe second joint webinar by RUSI and War on the Rocks: Two leading defense publications from both sides of the Atlantic present their expert panel.&#160;OverviewFor this edition of The Atlantic Brief, the Royal United Services Institute and War on",
@@ -283,25 +329,6 @@
       "defense"
     ],
     "type": "ipo",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "AI models need more data about biology, and OpenAI is paying to create it",
-    "link": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/",
-    "description": "Last year Ruxandra Teslo, a policy analyst who focuses on clinical trials, posted an idea for supercharging medical AI systems: Use data from failed biotech companies. By bidding at their bankruptcy proceedings, she proposed, it might be possible to obtain detailed regulatory filings, manufacturing ",
-    "pubDate": "Tue, 15 Sep 2026 12:00:00 +0000",
-    "category": "Biotechnology and health",
-    "source": "MIT Tech Review",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "2d ago"
   },
@@ -322,7 +349,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Iceye&#8217;s global presence expands to address sovereign demand",
@@ -421,25 +448,6 @@
       "chips"
     ],
     "type": "news",
-    "impact": "low",
-    "time": "6d ago"
-  },
-  {
-    "title": "One brick at a time: How Monumental uses robotics to build walls",
-    "link": "https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/",
-    "description": "CEO Salar al Khafaji introduces podcast listeners to how Monumental is using robotics to build walls.\nThe post One brick at a time: How Monumental uses robotics to build walls appeared first on The Robot Report.",
-    "pubDate": "Fri, 11 Sep 2026 21:09:01 +0000",
-    "category": "Artificial Intelligence",
-    "source": "The Robot Report",
-    "feedCategory": "robotics",
-    "matchedCompany": "Monumental",
-    "matchedCompanies": [
-      "Monumental"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "hire",
     "impact": "low",
     "time": "6d ago"
   },
