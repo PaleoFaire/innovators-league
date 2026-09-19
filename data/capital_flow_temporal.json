@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-09-19T05:43:00+00:00",
+  "generatedAt": "2026-09-19T14:18:49+00:00",
   "matrix": {
+    "space-stations": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 28554354,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Gravitics",
+            "amount": 28554354,
+            "date": "2026-09-18",
+            "source": "formd",
+            "investors": [
+              "Tarek Waked",
+              "Nick Shekerdemian",
+              "Tim Draper",
+              "Ryan Kriser"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
     "consumer-hardware": {
       "2026-Q3": {
         "deals": 1,
@@ -24,28 +46,6 @@
               "Cosmos Ventures",
               "Linse Capital",
               "LaunchTN"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
-    "space-stations": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 17019603,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Gravitics",
-            "amount": 17019603,
-            "date": "2026-09-17",
-            "source": "formd",
-            "investors": [
-              "Tarek Waked",
-              "Nick Shekerdemian",
-              "Tim Draper",
-              "Ryan Kriser"
             ]
           }
         ],
@@ -2342,7 +2342,7 @@
   },
   "stats": {
     "totalDealsTracked": 60,
-    "totalUSDSold": 3237244467,
+    "totalUSDSold": 3248779218,
     "uniqueClusters": 38,
     "uniqueQuarters": 9,
     "uniqueVCs": 20,
