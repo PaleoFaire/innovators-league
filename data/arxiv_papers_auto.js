@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-09-18 12:02:56 UTC
+// Last updated: 2026-09-19 11:46:20 UTC
 const ARXIV_PAPERS = [
   { id: "2609.20822v1", title: "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation", category: "Artificial Intelligence", published: "2026-09-17", sectors: "robotics", authors: "Bingxin Xu, Yuzhang Shang, Zhen Dong et al." },
   { id: "2609.20820v1", title: "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision", category: "Artificial Intelligence", published: "2026-09-17", sectors: "robotics", authors: "Nitish Dashora, Douglas Chen, Idan Shenfeld et al." },

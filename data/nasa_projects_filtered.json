@@ -1,5 +1,193 @@
 [
   {
+    "id": 182465,
+    "title": "Mars Roundtrip Success enabled by Integrated Cooling through Inductively Coupled LED Emission (MaRS ICICLE)",
+    "description": "<p>Exploration of Mars has captivated the public in recent decades with high-profile robotic missions and the images they have acquired seeding our collective imagination. NASA is actively planning for human exploration of Mars and laid out some of the key capabilities that must be developed to execute successful, cost-effective programs that would put human beings on the surface of another planet and bring them home safely. Efficient, flexible and productive round-trip missions will be key to f",
+    "status": "Active",
+    "startDate": "Jun 2025",
+    "endDate": "Jun 2027",
+    "lastUpdated": "09/18/26",
+    "center": "University of California-Los Angeles",
+    "technologyArea": "",
+    "partners": [
+      "University of California-Los Angeles"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182463,
+    "title": "Breathing Beyond Earth: A Reliable Oxygen Generation Architecture for Human Space Exploration",
+    "description": "<p>The reliable and efficient operation of spacecraft life support systems is challenged in microgravity by the near absence of buoyancy. This impacts the electrolytic production of oxygen and hydrogen from water by forcing the adoption of complex multiphase flow management technologies. Still, water splitting plays an essential role in human spaceflight, closing the regenerative environmental control and life support loop and connecting the water and atmosphere management subsystems. Existing o",
+    "status": "Active",
+    "startDate": "Jun 2025",
+    "endDate": "Jun 2027",
+    "lastUpdated": "09/18/26",
+    "center": "Georgia Tech Research Corporation",
+    "technologyArea": "Human Health, Life Support, and Habitation Systems",
+    "partners": [
+      "Georgia Tech Research Corporation"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182462,
+    "title": "Gravity Poppers: Hopping Probes for the Interior Mapping of Small Solar System Bodies",
+    "description": "<p>The goal of this effort is to develop a robust and affordable mission architecture that enables the gravimetric density reconstruction of small body interiors to unprecedented precision. Our architecture relies on the novel concept of \"Gravity Poppers,\" which are small, minimalistic probes that are deployed to the surface of a small body and periodically \"pop\" so as to perpetuate a random hopping motion around the body. By tracking a large swarm of poppers from orbit, a mother spacecraft can ",
+    "status": "Active",
+    "startDate": "Jun 2025",
+    "endDate": "Jun 2027",
+    "lastUpdated": "09/18/26",
+    "center": "Jet Propulsion Laboratory",
+    "technologyArea": "",
+    "partners": [
+      "Jet Propulsion Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182460,
+    "title": "Addressing key challenges to mapping sub-cm orbital debris in LEO via plasma soliton detection",
+    "description": "<p>The proposed investigation will address key technological challenges associated with a previously funded NIAC Phase I award titled \"On-Orbit, Collision-Free Mapping of Small Orbital Debris\". Sub-cm orbital debris in LEO is not detectable or trackable using conventional technologies and poses a major hazard to crewed and un-crewed spacecraft. Orbital debris is a concern to NASA, as well as commercial and DoD satellite providers. In recent years, beginning with our NIAC Phase I award, we have b",
+    "status": "Active",
+    "startDate": "Jun 2025",
+    "endDate": "Jun 2027",
+    "lastUpdated": "09/18/26",
+    "center": "University of Maryland-College Park",
+    "technologyArea": "Communications, Navigation, and Orbital Debris Tracking and Characterization Systems",
+    "partners": [
+      "University of Maryland-College Park"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158360,
+    "title": "MitoMars: Targeted Mitochondria Replacement Therapy to Boost Deep Space Endurance",
+    "description": "<p>We propose to pioneer a radically new approach to mitigating radiation-induced cell damage in astronauts by transplanting new undamaged mitochondria (critical radiation-sensitive cell organelles) isolated from each individual pre-exposure. We will investigate this fundamental emerging concept in medicine in the space radiation context, study cell responses to relevant radiation levels, and design a preliminary system to extract, isolate, and shield mitochondria for therapeutic use during trav",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/18/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Human Health, Life Support, and Habitation Systems",
+    "partners": [
+      "Ames Research Center",
+      "Palo Alto Institute for Research and Education, Inc. "
+    ],
+    "website": ""
+  },
+  {
+    "id": 158357,
+    "title": "Fusion-Enabled Comprehensive Exploration of the Heliosphere",
+    "description": "<p>This proposal aims to revolutionize space exploration by developing a constellation of spacecraft powered by the Helicity Drive, a compact and scalable fusion propulsion system. This innovative technology will enable rapid, multi-directional exploration of the heliosphere and beyond, providing unprecedented insights into the Sun's vast influence on our solar system and its interaction with interstellar space.</p><p>We will conduct a comprehensive feasibility study, including advanced modeling",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/18/26",
+    "center": "Helicity Space LLC",
+    "technologyArea": "",
+    "partners": [
+      "Helicity Space LLC"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158355,
+    "title": "Construction Assembly Destination",
+    "description": "<p>Future human expansion into space will require bigger and more capable spacecraft than could ever feasibly be launched from Earth, to achieve this, shipyards in space are not only practical, they are required. ThinkOrbital will perform a study to identify the challenges associated with fabricating a shipyard in space using technologies and assets available today. </p>",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/18/26",
+    "center": "Thinkorbital Inc.",
+    "technologyArea": "",
+    "partners": [
+      "Thinkorbital Inc."
+    ],
+    "website": ""
+  },
+  {
+    "id": 158293,
+    "title": "Lunar Glass Structure (LUNGS): Enabling Construction of Monolithic Habitats in Low-Gravity Environments",
+    "description": "<p>As part of a NASA Innovative Advanced Concepts (NIAC) study, we proposed constructing a large-scale, monolithic lunar glass habitat in a low-gravity environment. This innovative approach involves in-situ melting of lunar glass compounds and the creation of a large spherical shell structure, representing a significant departure from current habitat construction methods.</p><p>Traditional construction methods, such as using prefabricated parts, 3-D printing, inflatable systems, and complex asse",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/18/26",
+    "center": "Skyeports LLC",
+    "technologyArea": "Human Health, Life Support, and Habitation Systems",
+    "partners": [
+      "Skyeports LLC"
+    ],
+    "website": ""
+  },
+  {
+    "id": 158096,
+    "title": "Thermo-Photo-Catalysis of Water for Crewed Mars Transit Spacecraft Oxygen Supply",
+    "description": "<p>Precision Combustion, Inc. (PCI) proposes to develop a uniquely compact, lightweight, low-power, and durable Microlith\u00ae Thermo-Photo-Catalytic (TPC) Reactor for crewed Mars transit spacecraft O2 supply. As crewed space exploration mission destinations move from low Earth orbit to sustained lunar surface habitation toward Mars exploration, the need becomes more intense to supplant heritage physics-chemical unit operations employed for crewed spacecraft cabin CO2 removal, CO2 reduction, and O2 ",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/18/26",
+    "center": "Precision Combustion, Inc.",
+    "technologyArea": "Human Health, Life Support, and Habitation Systems",
+    "partners": [
+      "Precision Combustion, Inc."
+    ],
+    "website": ""
+  },
+  {
+    "id": 157995,
+    "title": "PULSAR: Planetary pULSe-tAkeR",
+    "description": "<p>PULSAR is a stable spacecraft constellation that enables large and reconfigurable detector baselines to sense a wide range of frequencies in this coupled domain, and distributed spatial and temporal measurements on a global scale, leading to new planetary science measurements. </p>",
+    "status": "Completed",
+    "startDate": "Apr 2025",
+    "endDate": "Jan 2026",
+    "lastUpdated": "09/18/26",
+    "center": "Jet Propulsion Laboratory",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Jet Propulsion Laboratory"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183974,
+    "title": "Dam Mars Study: Large Scale ISRU Propellant Production",
+    "description": "Investigate the feasibility and risks of producing ISRU propellant for large-scale Mars ascent vehicles using hydroelectric power from the Martian ice caps. \u200b For this concept, flow channels will be created with components printed from regolith and fluid from sub-glacial lakes will flow thru printed turbines to produce the required power output.\u200b",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "09/18/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Resource Processing for Production of Mission Consumables",
+    "partners": [
+      "Johnson Space Center",
+      "Barber-Nichols, Inc.",
+      "ICON",
+      "Jet Propulsion Laboratory",
+      "L3 Harris Technologies, Inc",
+      "Nichols College",
+      "P3 Technologies",
+      "The University of Texas at Austin"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183934,
+    "title": "Volatile Release from Mars/Lunar Regolith by Mechanical Agitation ",
+    "description": "Proposal will investigate the extent to which mechanical agitation causes release of simulated solar wind particles implanted in lunar regolith simulant by crushing or grinding the material, or by normal surface operations such as excavation, geotechnical testing, or regolith conveying.",
+    "status": "Active",
+    "startDate": "Nov 2025",
+    "endDate": "Sep 2026",
+    "lastUpdated": "09/18/26",
+    "center": "Kennedy Space Center",
+    "technologyArea": "Resource Acquisition, Isolation, and Preparation",
+    "partners": [
+      "Kennedy Space Center"
+    ],
+    "website": ""
+  },
+  {
     "id": 184658,
     "title": "DM and Env Material Solutions",
     "description": "Lunar and Martian dust present formidable challenges for surface technologies due to sharp, abrasive, and electrostatically charged particles that degrade materials more aggressively than terrestrial dust. The Dust Mitigation and Environmental Material Solutions (DMEMS) initiative establishes a systematic framework for identifying dust-tolerant and dust-mitigating materials capable of withstanding extreme extraterrestrial environments while maintaining operational integrity throughout mission li",
@@ -266,96 +454,6 @@
     "technologyArea": "Thermal Management Systems",
     "partners": [
       "Marshall Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182465,
-    "title": "Mars Roundtrip Success enabled by Integrated Cooling through Inductively Coupled LED Emission (MaRS ICICLE)",
-    "description": "<p>Exploration of Mars has captivated the public in recent decades with high-profile robotic missions and the images they have acquired seeding our collective imagination. NASA is actively planning for human exploration of Mars and laid out some of the key capabilities that must be developed to execute successful, cost-effective programs that would put human beings on the surface of another planet and bring them home safely. Efficient, flexible and productive round-trip missions will be key to f",
-    "status": "Active",
-    "startDate": "Jun 2025",
-    "endDate": "Jun 2027",
-    "lastUpdated": "09/15/26",
-    "center": "University of California-Los Angeles",
-    "technologyArea": "",
-    "partners": [
-      "University of California-Los Angeles"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158357,
-    "title": "Fusion-Enabled Comprehensive Exploration of the Heliosphere",
-    "description": "<p>This proposal aims to revolutionize space exploration by developing a constellation of spacecraft powered by the Helicity Drive, a compact and scalable fusion propulsion system. This innovative technology will enable rapid, multi-directional exploration of the heliosphere and beyond, providing unprecedented insights into the Sun's vast influence on our solar system and its interaction with interstellar space.</p><p>We will conduct a comprehensive feasibility study, including advanced modeling",
-    "status": "Completed",
-    "startDate": "Apr 2025",
-    "endDate": "Jan 2026",
-    "lastUpdated": "09/15/26",
-    "center": "Helicity Space LLC",
-    "technologyArea": "",
-    "partners": [
-      "Helicity Space LLC"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158355,
-    "title": "Construction Assembly Destination",
-    "description": "<p>Future human expansion into space will require bigger and more capable spacecraft than could ever feasibly be launched from Earth, to achieve this, shipyards in space are not only practical, they are required. ThinkOrbital will perform a study to identify the challenges associated with fabricating a shipyard in space using technologies and assets available today. </p>",
-    "status": "Completed",
-    "startDate": "Apr 2025",
-    "endDate": "Jan 2026",
-    "lastUpdated": "09/15/26",
-    "center": "Thinkorbital Inc.",
-    "technologyArea": "",
-    "partners": [
-      "Thinkorbital Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 158293,
-    "title": "Lunar Glass Structure (LUNGS): Enabling Construction of Monolithic Habitats in Low-Gravity Environments",
-    "description": "<p>As part of a NASA Innovative Advanced Concepts (NIAC) study, we proposed constructing a large-scale, monolithic lunar glass habitat in a low-gravity environment. This innovative approach involves in-situ melting of lunar glass compounds and the creation of a large spherical shell structure, representing a significant departure from current habitat construction methods.</p><p>Traditional construction methods, such as using prefabricated parts, 3-D printing, inflatable systems, and complex asse",
-    "status": "Completed",
-    "startDate": "Apr 2025",
-    "endDate": "Jan 2026",
-    "lastUpdated": "09/15/26",
-    "center": "Skyeports LLC",
-    "technologyArea": "Human Health, Life Support, and Habitation Systems",
-    "partners": [
-      "Skyeports LLC"
-    ],
-    "website": ""
-  },
-  {
-    "id": 158096,
-    "title": "Thermo-Photo-Catalysis of Water for Crewed Mars Transit Spacecraft Oxygen Supply",
-    "description": "<p>Precision Combustion, Inc. (PCI) proposes to develop a uniquely compact, lightweight, low-power, and durable Microlith\u00ae Thermo-Photo-Catalytic (TPC) Reactor for crewed Mars transit spacecraft O2 supply. As crewed space exploration mission destinations move from low Earth orbit to sustained lunar surface habitation toward Mars exploration, the need becomes more intense to supplant heritage physics-chemical unit operations employed for crewed spacecraft cabin CO2 removal, CO2 reduction, and O2 ",
-    "status": "Completed",
-    "startDate": "Apr 2025",
-    "endDate": "Jan 2026",
-    "lastUpdated": "09/15/26",
-    "center": "Precision Combustion, Inc.",
-    "technologyArea": "Human Health, Life Support, and Habitation Systems",
-    "partners": [
-      "Precision Combustion, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 157995,
-    "title": "PULSAR: Planetary pULSe-tAkeR",
-    "description": "<p>PULSAR is a stable spacecraft constellation that enables large and reconfigurable detector baselines to sense a wide range of frequencies in this coupled domain, and distributed spatial and temporal measurements on a global scale, leading to new planetary science measurements. </p>",
-    "status": "Completed",
-    "startDate": "Apr 2025",
-    "endDate": "Jan 2026",
-    "lastUpdated": "09/15/26",
-    "center": "Jet Propulsion Laboratory",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Jet Propulsion Laboratory"
     ],
     "website": ""
   },
@@ -951,21 +1049,6 @@
     "technologyArea": "Remote Sensing Instruments and Sensors",
     "partners": [
       "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182288,
-    "title": "Frequency Programmable Resonators",
-    "description": "Superconducting resonators are key building blocks of superconducting qubits and Microwave Kinetic Inductance Detectors (MKIDs). Over the last 20 years significant effort has gone in to understanding and optimizing their properties, leading to an explosion in quantum sensing science exemplified by the recent discovery of new substellar companions with MKIDs. Most of the resonator-related work in the field has focused on improving the internal quality factor (increasing qubit coherence times) of ",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
-    "lastUpdated": "08/20/26",
-    "center": "University of California-Santa Barbara",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "University of California-Santa Barbara"
     ],
     "website": ""
   },

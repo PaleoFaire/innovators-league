@@ -1,13 +1,55 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public) — full-text search + daily index
-// Last updated: 2026-09-18 12:22:52 UTC
-// Total: 6 filings across 5 companies
+// Last updated: 2026-09-19 11:55:57 UTC
+// Total: 8 filings across 6 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-09-18T12:22:52.425413+00:00",
+  "generated_at": "2026-09-19T11:55:57.253248+00:00",
   "source": "SEC EDGAR Form D (full-text search + daily index)",
   "lookback_days": 60,
-  "total_filings": 6,
+  "total_filings": 8,
   "filings": [
+    {
+      "match_method": "cik",
+      "company": "Gravitics",
+      "issuer_name": "Gravitics, Inc",
+      "form": "D",
+      "filed_date": "2026-09-18",
+      "cik": "1957517",
+      "accession": "0001957517-26-000005",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001957517&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001957517-26-000005",
+      "offering_amount": "28554354",
+      "amount_sold": "28554354",
+      "amount_remaining": "0",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "match_method": "founder",
+      "match_evidence": "'SirenOpt Inc.' stems to 'SirenOpt'; Form D names JARED O'LEARY, a recorded founder",
+      "company": "SirenOpt",
+      "issuer_name": "SirenOpt Inc.",
+      "form": "D",
+      "filed_date": "2026-09-18",
+      "cik": "2029046",
+      "accession": "0002029046-26-000004",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2029046/000202904626000004/primary_doc.xml",
+      "offering_amount": "32411720",
+      "amount_sold": "19428895",
+      "amount_remaining": "12982825",
+      "securities_type": "Equity",
+      "related_persons": [
+        "JARED O'LEARY",
+        "ALI MESBAH",
+        "TOM CHI",
+        "MATTHEW BLAIN",
+        "PHILIP HARPER"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
+    },
     {
       "match_method": "cik",
       "company": "Whisper Aero",
@@ -82,48 +124,39 @@ const FORM_D_FILINGS = {
     },
     {
       "match_method": "cik",
-      "match_evidence": "filer CIK 1942463 == our recorded CIK",
       "company": "Interlune",
       "issuer_name": "Interlune Corp",
       "form": "D",
       "filed_date": "2026-09-15",
       "cik": "1942463",
       "accession": "0001942463-26-000002",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/1942463/000194246326000002/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001942463&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001942463-26-000002",
       "offering_amount": "5000000",
       "amount_sold": "5000000",
       "amount_remaining": "0",
       "securities_type": "",
-      "related_persons": [
-        "Robert Meyerson",
-        "H. Hornsby",
-        "Katelin Holloway",
-        "Prateek Lal"
-      ],
-      "is_safe": true,
-      "source": "edgar-daily-index"
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
     },
     {
       "match_method": "cik",
-      "match_evidence": "filer CIK 2107493 == our recorded CIK",
       "company": "Persona AI",
-      "issuer_name": "Persona AI Inc.",
+      "issuer_name": "Persona AI Inc",
       "form": "D",
       "filed_date": "2026-09-14",
       "cik": "2107493",
       "accession": "0002107493-26-000002",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/2107493/000210749326000002/primary_doc.xml",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002107493&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002107493-26-000002",
       "offering_amount": "141964814",
       "amount_sold": "65363626",
       "amount_remaining": "76601188",
       "securities_type": "Equity",
-      "related_persons": [
-        "Nicolaus Radford",
-        "Jide Akinyode",
-        "Jerry Pratt"
-      ],
-      "is_safe": false,
-      "source": "edgar-daily-index"
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
     }
   ]
 };

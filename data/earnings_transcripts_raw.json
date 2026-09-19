@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-09-18 12:19:14 UTC",
+    "generated_at": "2026-09-19 11:51:59 UTC",
     "total_targets": 116,
-    "with_excerpts": 94,
+    "with_excerpts": 106,
     "sources": [
       "none",
       "sec_edgar",
@@ -83,11 +83,13 @@
     {
       "ticker": "LDOS",
       "company": "Leidos",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.leidos.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000246/0001336920-26-000246-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "SAIC",
@@ -139,11 +141,13 @@
     {
       "ticker": "KLAC",
       "company": "KLA",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://ir.kla.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-04-29",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000016/0000319201-26-000016-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "INTC",
@@ -212,11 +216,13 @@
     {
       "ticker": "F",
       "company": "Ford",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://shareholder.ford.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-07-28",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000156/0000037996-26-000156-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "GM",
@@ -357,11 +363,13 @@
     {
       "ticker": "AXON",
       "company": "Axon Enterprise",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investor.axon.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-05",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026053646/0001628280-26-053646-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "KTOS",
@@ -421,11 +429,13 @@
     {
       "ticker": "HWM",
       "company": "Howmet Aerospace",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://www.howmet.com/investors",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-06",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/4281/000000428126000025/0000004281-26-000025-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "VSAT",
@@ -529,11 +539,13 @@
     {
       "ticker": "TER",
       "company": "Teradyne",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.teradyne.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-07-31",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526327715/0001193125-26-327715-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "ENTG",
@@ -875,11 +887,13 @@
     {
       "ticker": "RKLB",
       "company": "Rocket Lab",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://www.rocketlabusa.com/investors/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-10",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000062/0001819994-26-000062-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "ACHR",
@@ -928,11 +942,13 @@
     {
       "ticker": "ASTS",
       "company": "AST SpaceMobile",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.ast-science.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-10",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526342550/0001193125-26-342550-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "LUNR",
@@ -1178,11 +1194,13 @@
     {
       "ticker": "TXG",
       "company": "10x Genomics",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.10xgenomics.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-06",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1770787/000162828026054491/0001628280-26-054491-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "TWST",
@@ -1209,11 +1227,13 @@
     {
       "ticker": "RXRX",
       "company": "Recursion Pharma",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://ir.recursion.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-05",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000098/0001601830-26-000098-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "TEM",
@@ -1238,20 +1258,24 @@
     {
       "ticker": "BEAM",
       "company": "Beam Therapeutics",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.beamtx.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1745999/000119312526331541/0001193125-26-331541-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "CRSP",
       "company": "CRISPR Therapeutics",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://crisprtx.com/investors",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-03",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1674416/000119312526330672/0001193125-26-330672-index.htm",
+      "source": "sec_edgar"
     }
   ]
 }

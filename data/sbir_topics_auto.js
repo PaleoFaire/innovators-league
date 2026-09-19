@@ -1,6 +1,6 @@
 // Auto-generated SBIR topics + full-company bid-fit scoring
 // Topics: 10  |  Matching: TF-IDF weighted
-// Last updated: 2026-09-18 12:22:55 UTC
+// Last updated: 2026-09-19 11:56:00 UTC
 const SBIR_TOPICS_AUTO = [
   {
     "id": "DOD-SBIR-2026-006",
@@ -75,7 +75,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Chaos Industries",
         "sector": "Defense & Security",
-        "bid_fit_score": 16.0,
+        "bid_fit_score": 16.1,
         "matched_terms": [
           "counter",
           "defense"
@@ -478,7 +478,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Oxford Quantum Circuits",
         "sector": "Quantum Computing",
-        "bid_fit_score": 30.2,
+        "bid_fit_score": 30.3,
         "matched_terms": [
           "quantum",
           "computing",

@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-09-18 12:02:28 UTC
+// Last updated: 2026-09-19 11:45:54 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT07491172", title: "A Safety and Tolerability Trial Evaluating CTX310 in Participants With Refractor", status: "RECRUITING", phase: "PHASE1", sponsor: "CRISPR Therapeutics AG", conditions: "Cardiovascular, Metabolic Disease, Dyslipidemias", enrollment: 90, lastUpdated: "2026-09-18" },
   { nctId: "NCT07204275", title: "Evaluation of Efficacy, Safety, and Tolerability of Povetacicept in Participants", status: "RECRUITING", phase: "PHASE2, PHASE3", sponsor: "Vertex Pharmaceuticals Incorporated", conditions: "Primary Membranous Nephropathy", enrollment: 176, lastUpdated: "2026-09-18" },

@@ -3,12 +3,12 @@
     "company": "Palantir",
     "github_org": "palantir",
     "total_repos": 30,
-    "total_stars": 39590,
+    "total_stars": 39897,
     "contributors": 100,
     "commits_30d": 10,
     "last_release": "2026-09-17",
     "top_repo": "palantir/blueprint",
-    "top_repo_stars": 22072,
+    "top_repo_stars": 22074,
     "languages": [
       "TypeScript",
       "Python",
@@ -17,35 +17,35 @@
       "Java"
     ],
     "activity_score": 72,
-    "fetched_at": "2026-09-18T12:02:59.869085+00:00"
+    "fetched_at": "2026-09-19T11:46:34.237223+00:00"
   },
   {
     "company": "Standard Nuclear",
     "github_org": "standard",
     "total_repos": 28,
-    "total_stars": 36318,
+    "total_stars": 36320,
     "contributors": 100,
     "commits_30d": 0,
     "last_release": "2024-09-13",
     "top_repo": "standard/standard",
-    "top_repo_stars": 29432,
+    "top_repo_stars": 29434,
     "languages": [
       "JavaScript",
       "TypeScript"
     ],
     "activity_score": 60,
-    "fetched_at": "2026-09-18T12:02:21.436263+00:00"
+    "fetched_at": "2026-09-19T11:45:52.776453+00:00"
   },
   {
     "company": "Atom Bodies",
     "github_org": "atom",
     "total_repos": 30,
-    "total_stars": 78481,
+    "total_stars": 78483,
     "contributors": 100,
     "commits_30d": 0,
     "last_release": "2022-03-08",
     "top_repo": "atom/atom",
-    "top_repo_stars": 60731,
+    "top_repo_stars": 60733,
     "languages": [
       "JavaScript",
       "CoffeeScript",
@@ -53,7 +53,7 @@
       "SCSS"
     ],
     "activity_score": 60,
-    "fetched_at": "2026-09-18T12:03:11.822189+00:00"
+    "fetched_at": "2026-09-19T11:46:47.193265+00:00"
   },
   {
     "company": "Base Power",
@@ -64,7 +64,7 @@
     "commits_30d": 0,
     "last_release": null,
     "top_repo": "base/chains",
-    "top_repo_stars": 78656,
+    "top_repo_stars": 78654,
     "languages": [
       "TypeScript",
       "Go",
@@ -73,7 +73,7 @@
       "Rust"
     ],
     "activity_score": 60,
-    "fetched_at": "2026-09-18T12:03:17.147095+00:00"
+    "fetched_at": "2026-09-19T11:46:53.968312+00:00"
   },
   {
     "company": "Radiant",
@@ -90,31 +90,31 @@
       "JavaScript"
     ],
     "activity_score": 53,
-    "fetched_at": "2026-09-18T12:02:16.980621+00:00"
+    "fetched_at": "2026-09-19T11:45:47.613637+00:00"
   },
   {
     "company": "Physical Intelligence",
     "github_org": "Physical-Intelligence",
     "total_repos": 8,
-    "total_stars": 14623,
+    "total_stars": 14638,
     "contributors": 38,
     "commits_30d": 1,
     "last_release": null,
     "top_repo": "Physical-Intelligence/openpi",
-    "top_repo_stars": 13877,
+    "top_repo_stars": 13891,
     "languages": [
       "Python",
       "C++",
       "Jupyter Notebook"
     ],
     "activity_score": 51,
-    "fetched_at": "2026-09-18T12:02:30.075857+00:00"
+    "fetched_at": "2026-09-19T11:46:03.456995+00:00"
   },
   {
     "company": "Auterion",
     "github_org": "Auterion",
     "total_repos": 30,
-    "total_stars": 549,
+    "total_stars": 550,
     "contributors": 37,
     "commits_30d": 5,
     "last_release": "2026-09-16",
@@ -122,16 +122,17 @@
     "top_repo_stars": 185,
     "languages": [
       "C++",
-      "Python"
+      "Python",
+      "Rust"
     ],
     "activity_score": 51,
-    "fetched_at": "2026-09-18T12:03:32.354803+00:00"
+    "fetched_at": "2026-09-19T11:47:12.622353+00:00"
   },
   {
     "company": "Scale AI",
     "github_org": "scaleapi",
     "total_repos": 30,
-    "total_stars": 3081,
+    "total_stars": 3082,
     "contributors": 56,
     "commits_30d": 5,
     "last_release": "2024-06-04",
@@ -144,7 +145,7 @@
       "Shell"
     ],
     "activity_score": 50,
-    "fetched_at": "2026-09-18T12:03:34.063344+00:00"
+    "fetched_at": "2026-09-19T11:47:14.516788+00:00"
   },
   {
     "company": "Cerebras",
@@ -161,7 +162,7 @@
       "TypeScript"
     ],
     "activity_score": 43,
-    "fetched_at": "2026-09-18T12:03:21.795383+00:00"
+    "fetched_at": "2026-09-19T11:46:59.751664+00:00"
   },
   {
     "company": "TerraPower",
@@ -169,7 +170,7 @@
     "total_repos": 14,
     "total_stars": 313,
     "contributors": 52,
-    "commits_30d": 15,
+    "commits_30d": 13,
     "last_release": "2026-03-25",
     "top_repo": "terrapower/armi",
     "top_repo_stars": 273,
@@ -178,7 +179,7 @@
       "HTML"
     ],
     "activity_score": 42,
-    "fetched_at": "2026-09-18T12:02:19.991245+00:00"
+    "fetched_at": "2026-09-19T11:45:51.323191+00:00"
   },
   {
     "company": "Skydio",
@@ -197,7 +198,7 @@
       "TypeScript"
     ],
     "activity_score": 39,
-    "fetched_at": "2026-09-18T12:02:11.228661+00:00"
+    "fetched_at": "2026-09-19T11:45:40.203894+00:00"
   },
   {
     "company": "Joby Aviation",
@@ -205,15 +206,15 @@
     "total_repos": 2,
     "total_stars": 62,
     "contributors": 4,
-    "commits_30d": 63,
+    "commits_30d": 65,
     "last_release": null,
     "top_repo": "joby-aviation/noodles.gl",
     "top_repo_stars": 62,
     "languages": [
       "TypeScript"
     ],
-    "activity_score": 34,
-    "fetched_at": "2026-09-18T12:03:20.114411+00:00"
+    "activity_score": 35,
+    "fetched_at": "2026-09-19T11:46:57.565771+00:00"
   },
   {
     "company": "Flexport",
@@ -231,7 +232,7 @@
       "Go"
     ],
     "activity_score": 32,
-    "fetched_at": "2026-09-18T12:03:29.302548+00:00"
+    "fetched_at": "2026-09-19T11:47:09.639027+00:00"
   },
   {
     "company": "Neuralink",
@@ -248,7 +249,7 @@
       "Swift"
     ],
     "activity_score": 31,
-    "fetched_at": "2026-09-18T12:02:56.698287+00:00"
+    "fetched_at": "2026-09-19T11:46:31.001857+00:00"
   },
   {
     "company": "SkySafe",
@@ -264,7 +265,7 @@
       "C++"
     ],
     "activity_score": 31,
-    "fetched_at": "2026-09-18T12:03:36.479914+00:00"
+    "fetched_at": "2026-09-19T11:47:17.420092+00:00"
   },
   {
     "company": "Machina Labs",
@@ -280,7 +281,7 @@
       "TypeScript"
     ],
     "activity_score": 29,
-    "fetched_at": "2026-09-18T12:03:02.777237+00:00"
+    "fetched_at": "2026-09-19T11:46:35.977462+00:00"
   },
   {
     "company": "Altos Labs",
@@ -297,13 +298,13 @@
       "Python"
     ],
     "activity_score": 29,
-    "fetched_at": "2026-09-18T12:03:06.893980+00:00"
+    "fetched_at": "2026-09-19T11:46:40.974464+00:00"
   },
   {
     "company": "Reveal Technology",
     "github_org": "reveal",
     "total_repos": 3,
-    "total_stars": 324,
+    "total_stars": 325,
     "contributors": 3,
     "commits_30d": 0,
     "last_release": null,
@@ -314,7 +315,7 @@
       "JavaScript"
     ],
     "activity_score": 28,
-    "fetched_at": "2026-09-18T12:03:35.198081+00:00"
+    "fetched_at": "2026-09-19T11:47:15.891362+00:00"
   },
   {
     "company": "Picogrid",
@@ -333,7 +334,7 @@
       "Shell"
     ],
     "activity_score": 24,
-    "fetched_at": "2026-09-18T12:02:09.745070+00:00"
+    "fetched_at": "2026-09-19T11:45:38.972087+00:00"
   },
   {
     "company": "Retro Biosciences",
@@ -351,7 +352,7 @@
       "HCL"
     ],
     "activity_score": 23,
-    "fetched_at": "2026-09-18T12:03:08.263360+00:00"
+    "fetched_at": "2026-09-19T11:46:42.831607+00:00"
   },
   {
     "company": "Lightmatter",
@@ -370,7 +371,7 @@
       "Shell"
     ],
     "activity_score": 23,
-    "fetched_at": "2026-09-18T12:03:23.680416+00:00"
+    "fetched_at": "2026-09-19T11:47:02.766890+00:00"
   },
   {
     "company": "Salient Motion",
@@ -387,7 +388,7 @@
       "TypeScript"
     ],
     "activity_score": 19,
-    "fetched_at": "2026-09-18T12:03:05.566310+00:00"
+    "fetched_at": "2026-09-19T11:46:39.438275+00:00"
   },
   {
     "company": "Shield AI",
@@ -406,7 +407,7 @@
       "Shell"
     ],
     "activity_score": 18,
-    "fetched_at": "2026-09-18T12:02:07.521110+00:00"
+    "fetched_at": "2026-09-19T11:45:36.177865+00:00"
   },
   {
     "company": "Zipline",
@@ -424,7 +425,7 @@
       "Objective-C"
     ],
     "activity_score": 16,
-    "fetched_at": "2026-09-18T12:03:18.741704+00:00"
+    "fetched_at": "2026-09-19T11:46:55.926651+00:00"
   },
   {
     "company": "Vannevar Labs",
@@ -442,7 +443,7 @@
       "Jupyter Notebook"
     ],
     "activity_score": 14,
-    "fetched_at": "2026-09-18T12:02:14.017995+00:00"
+    "fetched_at": "2026-09-19T11:45:43.625726+00:00"
   },
   {
     "company": "Field AI",
@@ -459,7 +460,7 @@
       "C++"
     ],
     "activity_score": 14,
-    "fetched_at": "2026-09-18T12:02:57.977019+00:00"
+    "fetched_at": "2026-09-19T11:46:32.379920+00:00"
   },
   {
     "company": "Distributed Spectrum",
@@ -478,7 +479,7 @@
       "C++"
     ],
     "activity_score": 13,
-    "fetched_at": "2026-09-18T12:03:37.702950+00:00"
+    "fetched_at": "2026-09-19T11:47:18.693449+00:00"
   },
   {
     "company": "Arc Boats",
@@ -494,7 +495,7 @@
       "C"
     ],
     "activity_score": 11,
-    "fetched_at": "2026-09-18T12:03:26.561322+00:00"
+    "fetched_at": "2026-09-19T11:47:06.202160+00:00"
   },
   {
     "company": "New Limit",
@@ -511,7 +512,7 @@
       "Jupyter Notebook"
     ],
     "activity_score": 10,
-    "fetched_at": "2026-09-18T12:03:09.750343+00:00"
+    "fetched_at": "2026-09-19T11:46:44.492173+00:00"
   },
   {
     "company": "Allen Control Systems",
@@ -519,7 +520,7 @@
     "total_repos": 3,
     "total_stars": 1,
     "contributors": 17,
-    "commits_30d": 4,
+    "commits_30d": 3,
     "last_release": null,
     "top_repo": "allencontrolsystems/jetson-utils",
     "top_repo_stars": 1,
@@ -527,8 +528,8 @@
       "Python",
       "C++"
     ],
-    "activity_score": 8,
-    "fetched_at": "2026-09-18T12:02:12.506728+00:00"
+    "activity_score": 7,
+    "fetched_at": "2026-09-19T11:45:41.582535+00:00"
   },
   {
     "company": "Blue Water Autonomy",
@@ -547,7 +548,7 @@
       "Rust"
     ],
     "activity_score": 7,
-    "fetched_at": "2026-09-18T12:02:15.496145+00:00"
+    "fetched_at": "2026-09-19T11:45:45.053000+00:00"
   },
   {
     "company": "K2 Space",
@@ -561,7 +562,7 @@
     "top_repo_stars": 0,
     "languages": [],
     "activity_score": 3,
-    "fetched_at": "2026-09-18T12:02:26.714364+00:00"
+    "fetched_at": "2026-09-19T11:45:59.031403+00:00"
   },
   {
     "company": "Apex Space",
@@ -577,7 +578,7 @@
       "HTML"
     ],
     "activity_score": 2,
-    "fetched_at": "2026-09-18T12:02:23.613568+00:00"
+    "fetched_at": "2026-09-19T11:45:55.226696+00:00"
   },
   {
     "company": "Figure AI",
@@ -591,7 +592,7 @@
     "top_repo_stars": 0,
     "languages": [],
     "activity_score": 2,
-    "fetched_at": "2026-09-18T12:02:56.000671+00:00"
+    "fetched_at": "2026-09-19T11:46:30.022681+00:00"
   },
   {
     "company": "Impulse Space",
@@ -607,7 +608,7 @@
       "HTML"
     ],
     "activity_score": 1,
-    "fetched_at": "2026-09-18T12:02:25.610500+00:00"
+    "fetched_at": "2026-09-19T11:45:57.657807+00:00"
   },
   {
     "company": "Senra Systems",
@@ -621,6 +622,6 @@
     "top_repo_stars": 0,
     "languages": [],
     "activity_score": 1,
-    "fetched_at": "2026-09-18T12:03:04.212139+00:00"
+    "fetched_at": "2026-09-19T11:46:37.823371+00:00"
   }
 ]
