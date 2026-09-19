@@ -1,86 +1,121 @@
 {
-  "generatedAt": "2026-09-17T09:56:52+00:00",
+  "generatedAt": "2026-09-19T09:20:59+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_investors_daily.json",
-  "cohortSize": 2,
-  "newExtractionsThisRun": 2,
+  "cohortSize": 1,
+  "newExtractionsThisRun": 1,
   "summary": {
-    "cleared": 1,
+    "cleared": 0,
     "changesProposed": 1,
     "unverifiable": 0
   },
-  "cleared": [
-    "Valor Equity Partners"
-  ],
+  "cleared": [],
   "changesProposed": [
     {
-      "name": "Y Combinator",
+      "name": "Engine Ventures",
       "current": {
-        "name": "Y Combinator",
-        "shortName": "YC",
-        "aum": "Standard deal $500K/startup ($125K for 7% + $375K MFN SAFE)",
-        "flagshipFund": "Batch accelerator program",
-        "founded": 2005,
-        "hq": "San Francisco, California",
-        "website": "https://www.ycombinator.com"
+        "name": "Engine Ventures",
+        "shortName": "Engine",
+        "aum": "$1.4B",
+        "flagshipFund": "Engine Ventures Fund III",
+        "founded": 2023,
+        "hq": "Cambridge, Massachusetts",
+        "website": "https://engine.xyz"
       },
       "verified": {
-        "name": "Y Combinator",
-        "short_name": "YC",
+        "name": "Engine Ventures",
+        "short_name": "Engine",
         "aum": null,
-        "flagship_fund": "Batch accelerator program",
-        "founded_year": 2005,
-        "hq": "San Francisco, California",
-        "key_partners": [
-          "Garry Tan",
-          "Jared Friedman",
-          "Harj Taggar",
-          "Aaron Epstein",
-          "Diana Hu",
-          "Gustaf Alstr\u00f6mer",
-          "Nicolas Dessaigne"
+        "flagship_fund": null,
+        "founded_year": 2023,
+        "hq": "Cambridge, Massachusetts",
+        "key_partners": null,
+        "sector_focus": [
+          "Advanced Computing & Quantum Systems",
+          "Advanced Engineering & Manufacturing",
+          "Advanced Materials & Critical Minerals",
+          "AI-Enabled Physical Systems",
+          "Artificial Intelligence & Deep Software",
+          "Biotech, Life Sciences & TechBio",
+          "Energy & Grid Technologies",
+          "Fuels & Chemicals",
+          "Infrastructure, Mobility & the Built Environment",
+          "Robotics & Industrial Automation",
+          "Semiconductors, Photonics & Next-Generation Hardware",
+          "Space"
         ],
-        "sector_focus": null,
-        "thesis": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on a post-money SAFE and $375,000 on an uncapped SAFE with an MFN clause) in startups selected four times per year. Founders move to San Francisco for three months of intensive mentorship, office hours, and community support. The program aims to help startups achieve better products with more users and more options for raising capital.",
-        "website": "https://www.ycombinator.com",
+        "thesis": "Engine Ventures invests in early-stage Tough Tech companies solving the world's most important challenges through breakthrough science and engineering. The firm focuses on transformational technology that solves the world's most important challenges through the convergence of breakthrough science, engineering and entrepreneurship.",
+        "website": "https://engine.xyz",
         "sources_per_field": {
           "name": [
             0,
-            2
+            1,
+            3
           ],
           "short_name": [
-            2
-          ],
-          "flagship_fund": [
-            0,
-            1
-          ],
-          "founded_year": [
-            2
-          ],
-          "hq": [
-            2
-          ],
-          "key_partners": [
             0
           ],
+          "founded_year": [
+            1,
+            3
+          ],
+          "hq": [
+            3
+          ],
+          "sector_focus": [
+            2
+          ],
           "thesis": [
+            1
+          ],
+          "website": [
             0,
             1,
-            2
+            2,
+            3
           ]
         },
-        "notes": "Garry Tan became President and CEO in January 2023. Jared Friedman succeeded Michael Seibel as Managing Partner in March 2024. Headquarters relocated from Mountain View to San Francisco in spring 2023. Program runs four times per year (winter, spring, summer, fall). YC has launched more than 5,000 companies with over 400 worth more than $100M and 100 unicorns."
+        "notes": "Engine Ventures spun out as a separate investment firm from The Engine in 2023. The Engine itself is a 501(c)(3) nonprofit incubator and accelerator. Per Wikipedia: 'In 2023, the investment fund separated from The Engine and rebranded as the venture capital firm Engine Ventures.' No current senior partners explicitly named on firm's website or Wikipedia. AUM and flagship fund name not found in sources."
       },
       "changes": [
         {
-          "field": "thesis",
-          "current": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on a post-money SAFE and $375,000 on an uncapped SAFE with an MFN clause) in startups selected four times per year. Founders move to San Francisco for three months of intensive mentorship, office hours, and community support, culminating in Demo Day where they present to investors.",
-          "verified": "Y Combinator invests $500,000 per company ($125,000 for 7% equity on a post-money SAFE and $375,000 on an uncapped SAFE with an MFN clause) in startups selected four times per year. Founders move to San Francisco for three months of intensive mentorship, office hours, and community support. The program aims to help startups achieve better products with more users and more options for raising capital.",
+          "field": "sectorFocus",
+          "current": [
+            "Advanced Computing & Quantum Systems",
+            "Advanced Engineering & Manufacturing",
+            "Advanced Materials & Critical Minerals",
+            "AI-Enabled Physical Systems",
+            "Artificial Intelligence & Deep Software",
+            "Biotech, Life Sciences & TechBio",
+            "Energy & Grid Technologies",
+            "Fuels & Chemicals",
+            "Infrastructure, Mobility & the Built Environment",
+            "Robotics & Industrial Automation"
+          ],
+          "verified": [
+            "Advanced Computing & Quantum Systems",
+            "Advanced Engineering & Manufacturing",
+            "Advanced Materials & Critical Minerals",
+            "AI-Enabled Physical Systems",
+            "Artificial Intelligence & Deep Software",
+            "Biotech, Life Sciences & TechBio",
+            "Energy & Grid Technologies",
+            "Fuels & Chemicals",
+            "Infrastructure, Mobility & the Built Environment",
+            "Robotics & Industrial Automation",
+            "Semiconductors, Photonics & Next-Generation Hardware",
+            "Space"
+          ],
           "sources": [
-            0,
-            1,
             2
+          ]
+        },
+        {
+          "field": "thesis",
+          "current": "Engine Ventures invests in early-stage Tough Tech companies solving the world's most important challenges through breakthrough science and engineering. The firm focuses on hardware-based technologies across deep tech fields including biotech, robotics, green energy, agriculture, manufacturing, material science, and quantum computing.",
+          "verified": "Engine Ventures invests in early-stage Tough Tech companies solving the world's most important challenges through breakthrough science and engineering. The firm focuses on transformational technology that solves the world's most important challenges through the convergence of breakthrough science, engineering and entrepreneurship.",
+          "sources": [
+            1
           ]
         }
       ],
@@ -88,25 +123,30 @@
         {
           "idx": 0,
           "src": "firm_website",
-          "url": "https://www.ycombinator.com"
+          "url": "https://engine.xyz"
         },
         {
           "idx": 1,
           "src": "firm/about",
-          "url": "https://www.ycombinator.com/about"
+          "url": "https://engine.xyz/about"
         },
         {
           "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Y_Combinator"
+          "src": "firm/companies",
+          "url": "https://engine.xyz/companies"
         },
         {
           "idx": 3,
-          "src": "news (FierceBiotech)",
-          "url": "https://www.fiercebiotech.com/biotech/definium-lsd-drug-goes-3-3-another-pivotal-anxiety-trial-win"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Engine_Ventures"
+        },
+        {
+          "idx": 4,
+          "src": "news (Next Big Future)",
+          "url": "https://www.nextbigfuture.com/2026/09/spacex-huge-next-flight-and-150-days-to-change-the-world.html"
         }
       ],
-      "notes": "Garry Tan became President and CEO in January 2023. Jared Friedman succeeded Michael Seibel as Managing Partner in March 2024. Headquarters relocated from Mountain View to San Francisco in spring 2023. Program runs four times per year (winter, spring, summer, fall). YC has launched more than 5,000 companies with over 400 worth more than $100M and 100 unicorns."
+      "notes": "Engine Ventures spun out as a separate investment firm from The Engine in 2023. The Engine itself is a 501(c)(3) nonprofit incubator and accelerator. Per Wikipedia: 'In 2023, the investment fund separated from The Engine and rebranded as the venture capital firm Engine Ventures.' No current senior partners explicitly named on firm's website or Wikipedia. AUM and flagship fund name not found in sources."
     }
   ],
   "unverifiable": []

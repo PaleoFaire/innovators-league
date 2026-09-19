@@ -1,6 +1,6 @@
 # Company Facts Verification Report
 
-**Generated:** 2026-09-18T09:32:30+00:00  
+**Generated:** 2026-09-19T09:20:40+00:00  
 
 **Cohort:** `data/cohort_companies_daily.json`  
 
@@ -28,30 +28,30 @@ Review each change and reply with which ones to apply. **Source-cited diffs:**
 - **`fundingStage`:** `Series E` → `Pre-IPO`  
   Sources: [company_website](https://agilityrobotics.com)
 
-  **Notes:** Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Company rebranded to 'Agility' on March 5, 2026 (per source 2). Current CEO is Peggy Johnson (per source 1). Wikipedia lists founder name as 'Jonathon Hurst' but source 1 and company materials use 'Jonathan Hurst' - using verified spelling from source 1.
+  **Notes:** Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Wikipedia notes rebrand to 'Agility' announced March 5, 2026 (source 2). Sources do not provide specific total_raised amount, valuation, or complete investor list with verification.
 
-### Fervo Energy
+### Beacon AI
 
-- **`location`:** `Houston, TX` → `Houston, Texas, U.S.`  
-  Sources: [wikipedia](https://en.wikipedia.org/wiki/Fervo_Energy)
+- **`location`:** `San Carlos, CA` → `Denver, Colorado`  
+  Sources: [company_about](https://beaconai.ai/about)
+- **`website`:** `*(empty)*` → `https://beaconai.ai`  
+  Sources: [company_website](https://beaconai.ai)
 
-  **Notes:** Wikipedia source (index 0) lists company as 'Private' with no mention of IPO. The provided database entry claims IPO on May 13, 2026, but this cannot be verified from available sources. Source 1 is about a different company (Mazama Energy) and does not contain information about Fervo Energy. Most recent funding mentioned is Series E in November 2025 for $462M led by B Capital.
+  **Notes:** Database entry references 'Beacon AI' as aviation safety AI co-pilot founded 2021 with Series A funding of $26.4M. However, sources [0] and [1] describe a completely different company: BeaconAI founded by Dale Myska, an AI implementation consulting firm for SMBs based in Denver, Colorado. These appear to be two entirely different companies with the same or similar name. Source [2] is about Joby Aviation (autonomous aircraft) and is unrelated to either Beacon AI company. Cannot verify any facts from database entry against provided sources.
 
-### Mazama
+### Joby Aviation
 
-- **`location`:** `Frisco, TX` → `Oregon, USA`  
-  Sources: [company_website](https://mazamaenergy.com)
-- **`totalRaised`:** `$30M+` → `$135M`  
-  Sources: [news (TechCrunch)](https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/) · [news (Canary Media)](https://www.canarymedia.com/articles/geothermal/mazama-energy-raises-135m-oregon-geothermal)
+- **`location`:** `Santa Cruz, CA` → `Santa Cruz, California`  
+  Sources: [company_about](https://jobyaviation.com/about) · [wikipedia](https://en.wikipedia.org/wiki/Joby_Aviation)
 
-  **Notes:** Database entry listed location as 'Frisco, TX' but sources indicate primary operations at Newberry, Oregon. Database entry founder 'Sriram Vasantharajan' could not be verified from sources provided. Database entry listed $30M+ but more recent source [1] and [2] from 2026 confirm $135M raise for Series A.
+  **Notes:** Founded September 11, 2009 as Joby Aero, renamed to Joby Aviation in 2021. Went public via SPAC on August 11, 2021 (NYSE: JOBY). Acquired Uber Elevate in 2020, H2Fly in 2022, Xwing's autonomy division in 2024, and agreed to acquire Blade Air Mobility's passenger business in August 2025. Received FAA Part 135 certification in May 2022. Sources do not provide specific total funding amount or current valuation figure.
 
 ### Nano Nuclear Energy
 
 - **`fundingStage`:** `Seed` → `Public`  
   Sources: [company_website](https://nanonuclearenergy.com) · [company_about](https://nanonuclearenergy.com/about)
 
-  **Notes:** Company is publicly traded on NASDAQ (ticker: NNE). Source [2] about Valar Atomics is not relevant to this company and was not used. No founder names explicitly stated in sources. Founded year not mentioned in provided sources. Total raised and valuation figures from database entry could not be verified from these sources.
+  **Notes:** Company is publicly traded on NASDAQ (NNE). Sources [0] and [1] are from the company website and contain identical content. Source [2] is about a different company (Valar Atomics) and was not used. No founder name explicitly stated as founder/co-founder in provided sources. Founded year not stated in sources. Total raised and valuation cannot be verified from these sources.
 
 ---
 
@@ -63,10 +63,9 @@ Sample (first 30):
 
 - Antares
 - Astera Labs
-- Aurora Innovation
+- Axiom Space
 - Base Power
-- Cognition
-- Deep Isolation
+- Cape
 - Deterrence
 - Gecko Robotics
 - Humanoid
@@ -74,19 +73,20 @@ Sample (first 30):
 - ICON
 - Icarus
 - Karman Industries
-- Monumental
+- Mazama
 - Oklo
-- Palantir
 - Radiant
 - Rebellions
 - Rivian
 - Sage Geosystems
 - Solugen
+- SpaceX
 - Teralta
 - Valar Atomics
+- Vast
 - Waymo
 
 
 ---
 
-*Generated by `scripts/generate_verification_report.py` on 2026-09-18T09:32:30+00:00*
+*Generated by `scripts/generate_verification_report.py` on 2026-09-19T09:20:40+00:00*

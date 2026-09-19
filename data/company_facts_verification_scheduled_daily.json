@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T09:32:30+00:00",
+  "generatedAt": "2026-09-19T09:20:40+00:00",
   "model": "claude-haiku-4-5",
   "cohortFile": "data/cohort_companies_daily.json",
   "cohortSize": 28,
@@ -12,10 +12,9 @@
   "cleared": [
     "Antares",
     "Astera Labs",
-    "Aurora Innovation",
+    "Axiom Space",
     "Base Power",
-    "Cognition",
-    "Deep Isolation",
+    "Cape",
     "Deterrence",
     "Gecko Robotics",
     "Humanoid",
@@ -23,16 +22,17 @@
     "ICON",
     "Icarus",
     "Karman Industries",
-    "Monumental",
+    "Mazama",
     "Oklo",
-    "Palantir",
     "Radiant",
     "Rebellions",
     "Rivian",
     "Sage Geosystems",
     "Solugen",
+    "SpaceX",
     "Teralta",
     "Valar Atomics",
+    "Vast",
     "Waymo"
   ],
   "changesProposed": [
@@ -49,7 +49,7 @@
       },
       "verified": {
         "name": "Agility Robotics",
-        "description": "A humanoid robotics company that develops and deploys Digit, a bipedal robot for warehouse and logistics automation. Digit is the first humanoid robot commercially deployed in real-world supply chain operations.",
+        "description": "A humanoid robotics company that develops and deploys Digit, a bipedal humanoid robot for warehouse and logistics automation. Digit is the first humanoid robot commercially deployed in real warehouse operations.",
         "founders": [
           "Jonathan Hurst",
           "Damion Shelton",
@@ -69,6 +69,7 @@
             2
           ],
           "description": [
+            0,
             1,
             2
           ],
@@ -90,7 +91,7 @@
             2
           ]
         },
-        "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Company rebranded to 'Agility' on March 5, 2026 (per source 2). Current CEO is Peggy Johnson (per source 1). Wikipedia lists founder name as 'Jonathon Hurst' but source 1 and company materials use 'Jonathan Hurst' - using verified spelling from source 1."
+        "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Wikipedia notes rebrand to 'Agility' announced March 5, 2026 (source 2). Sources do not provide specific total_raised amount, valuation, or complete investor list with verification."
       },
       "changes": [
         {
@@ -124,71 +125,53 @@
           "url": "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/"
         }
       ],
-      "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Company rebranded to 'Agility' on March 5, 2026 (per source 2). Current CEO is Peggy Johnson (per source 1). Wikipedia lists founder name as 'Jonathon Hurst' but source 1 and company materials use 'Jonathan Hurst' - using verified spelling from source 1."
+      "notes": "Company announced merger with Churchill Capital Corp XI to go public (announced June 24, 2026, per source 0). Wikipedia notes rebrand to 'Agility' announced March 5, 2026 (source 2). Sources do not provide specific total_raised amount, valuation, or complete investor list with verification."
     },
     {
-      "name": "Fervo Energy",
+      "name": "Beacon AI",
       "current": {
-        "name": "Fervo Energy",
-        "founder": "Tim Latimer, Jack Norbeck",
-        "location": "Houston, TX",
-        "founded": 2017,
-        "fundingStage": "Public",
-        "totalRaised": "$1.5B+",
-        "website": "https://fervoenergy.com"
+        "name": "Beacon AI",
+        "founder": "Matt Cox, Avinash Nair",
+        "location": "San Carlos, CA",
+        "founded": 2021,
+        "fundingStage": "Series A",
+        "totalRaised": "$26.4M",
+        "website": null
       },
       "verified": {
-        "name": "Fervo Energy",
-        "description": "A geothermal energy company based in Houston, Texas that generates electricity through enhanced geothermal systems (EGS) using horizontal drilling techniques. The company operates Project Red in Nevada and is developing Cape Station in Utah.",
-        "founders": [
-          "Tim Latimer",
-          "Jack Norbeck"
-        ],
-        "location": "Houston, Texas, U.S.",
-        "founded_year": 2017,
+        "name": null,
+        "description": null,
+        "founders": null,
+        "location": "Denver, Colorado",
+        "founded_year": null,
         "current_stage": null,
-        "total_raised": "$1.5B+",
+        "total_raised": null,
         "valuation": null,
-        "investors": [
-          "B Capital",
-          "Breakthrough Energy",
-          "Centaurus Capital",
-          "Congruent Ventures"
-        ],
-        "website": "https://fervoenergy.com",
+        "investors": null,
+        "website": "https://beaconai.ai",
         "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            0
-          ],
           "location": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "total_raised": [
-            0
-          ],
-          "investors": [
-            0
+            1
           ],
           "website": [
             0
           ]
         },
-        "notes": "Wikipedia source (index 0) lists company as 'Private' with no mention of IPO. The provided database entry claims IPO on May 13, 2026, but this cannot be verified from available sources. Source 1 is about a different company (Mazama Energy) and does not contain information about Fervo Energy. Most recent funding mentioned is Series E in November 2025 for $462M led by B Capital."
+        "notes": "Database entry references 'Beacon AI' as aviation safety AI co-pilot founded 2021 with Series A funding of $26.4M. However, sources [0] and [1] describe a completely different company: BeaconAI founded by Dale Myska, an AI implementation consulting firm for SMBs based in Denver, Colorado. These appear to be two entirely different companies with the same or similar name. Source [2] is about Joby Aviation (autonomous aircraft) and is unrelated to either Beacon AI company. Cannot verify any facts from database entry against provided sources."
       },
       "changes": [
         {
           "field": "location",
-          "current": "Houston, TX",
-          "verified": "Houston, Texas, U.S.",
+          "current": "San Carlos, CA",
+          "verified": "Denver, Colorado",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "field": "website",
+          "current": "",
+          "verified": "https://beaconai.ai",
           "sources": [
             0
           ]
@@ -197,77 +180,87 @@
       "sources": [
         {
           "idx": 0,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Fervo_Energy"
+          "src": "company_website",
+          "url": "https://beaconai.ai"
         },
         {
           "idx": 1,
+          "src": "company_about",
+          "url": "https://beaconai.ai/about"
+        },
+        {
+          "idx": 2,
           "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/"
+          "url": "https://techcrunch.com/2026/09/18/joby-aviations-3100-mile-autonomous-flight-signals-its-push-beyond-electric-air-taxis/"
         }
       ],
-      "notes": "Wikipedia source (index 0) lists company as 'Private' with no mention of IPO. The provided database entry claims IPO on May 13, 2026, but this cannot be verified from available sources. Source 1 is about a different company (Mazama Energy) and does not contain information about Fervo Energy. Most recent funding mentioned is Series E in November 2025 for $462M led by B Capital."
+      "notes": "Database entry references 'Beacon AI' as aviation safety AI co-pilot founded 2021 with Series A funding of $26.4M. However, sources [0] and [1] describe a completely different company: BeaconAI founded by Dale Myska, an AI implementation consulting firm for SMBs based in Denver, Colorado. These appear to be two entirely different companies with the same or similar name. Source [2] is about Joby Aviation (autonomous aircraft) and is unrelated to either Beacon AI company. Cannot verify any facts from database entry against provided sources."
     },
     {
-      "name": "Mazama",
+      "name": "Joby Aviation",
       "current": {
-        "name": "Mazama",
-        "founder": "Sriram Vasantharajan",
-        "location": "Frisco, TX",
-        "founded": 2023,
-        "fundingStage": "Series A",
-        "totalRaised": "$30M+",
-        "website": "https://mazamaenergy.com"
+        "name": "Joby Aviation",
+        "founder": "JoeBen Bevirt",
+        "location": "Santa Cruz, CA",
+        "founded": 2009,
+        "fundingStage": "Public",
+        "totalRaised": "$2B+",
+        "website": "https://jobyaviation.com"
       },
       "verified": {
-        "name": "Mazama Energy",
-        "description": "Geothermal startup developing enhanced geothermal systems (EGS) technology using superhot rock. Completed a pilot demonstration reaching 629\u00b0F at Newberry Volcano in Oregon.",
-        "founders": null,
-        "location": "Oregon, USA",
-        "founded_year": null,
-        "current_stage": "Series A",
-        "total_raised": "$135M",
+        "name": "Joby Aviation",
+        "description": "American aviation company developing an electric vertical takeoff and landing (eVTOL) aircraft intended to operate as an air taxi service. The company has received FAA Part 135 air carrier certification and is pursuing certification for its S4 eVTOL aircraft.",
+        "founders": [
+          "JoeBen Bevirt"
+        ],
+        "location": "Santa Cruz, California",
+        "founded_year": 2009,
+        "current_stage": "Public",
+        "total_raised": null,
         "valuation": null,
         "investors": [
-          "Khosla Ventures"
+          "Toyota Motor Corporation",
+          "Toyota AI Ventures",
+          "Uber"
         ],
-        "website": "https://mazamaenergy.com",
+        "website": "https://jobyaviation.com",
         "sources_per_field": {
           "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "current_stage": [
-            1
-          ],
-          "total_raised": [
+            0,
             1,
             2
           ],
+          "description": [
+            2
+          ],
+          "founders": [
+            2
+          ],
+          "location": [
+            1,
+            2
+          ],
+          "founded_year": [
+            2
+          ],
+          "current_stage": [
+            2
+          ],
           "investors": [
-            1
+            1,
+            2
+          ],
+          "website": [
+            0
           ]
         },
-        "notes": "Database entry listed location as 'Frisco, TX' but sources indicate primary operations at Newberry, Oregon. Database entry founder 'Sriram Vasantharajan' could not be verified from sources provided. Database entry listed $30M+ but more recent source [1] and [2] from 2026 confirm $135M raise for Series A."
+        "notes": "Founded September 11, 2009 as Joby Aero, renamed to Joby Aviation in 2021. Went public via SPAC on August 11, 2021 (NYSE: JOBY). Acquired Uber Elevate in 2020, H2Fly in 2022, Xwing's autonomy division in 2024, and agreed to acquire Blade Air Mobility's passenger business in August 2025. Received FAA Part 135 certification in May 2022. Sources do not provide specific total funding amount or current valuation figure."
       },
       "changes": [
         {
           "field": "location",
-          "current": "Frisco, TX",
-          "verified": "Oregon, USA",
-          "sources": [
-            0
-          ]
-        },
-        {
-          "field": "totalRaised",
-          "current": "$30M+",
-          "verified": "$135M",
+          "current": "Santa Cruz, CA",
+          "verified": "Santa Cruz, California",
           "sources": [
             1,
             2
@@ -278,20 +271,25 @@
         {
           "idx": 0,
           "src": "company_website",
-          "url": "https://mazamaenergy.com"
+          "url": "https://jobyaviation.com"
         },
         {
           "idx": 1,
-          "src": "news (TechCrunch)",
-          "url": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/"
+          "src": "company_about",
+          "url": "https://jobyaviation.com/about"
         },
         {
           "idx": 2,
-          "src": "news (Canary Media)",
-          "url": "https://www.canarymedia.com/articles/geothermal/mazama-energy-raises-135m-oregon-geothermal"
+          "src": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Joby_Aviation"
+        },
+        {
+          "idx": 3,
+          "src": "news (TechCrunch)",
+          "url": "https://techcrunch.com/2026/09/18/joby-aviations-3100-mile-autonomous-flight-signals-its-push-beyond-electric-air-taxis/"
         }
       ],
-      "notes": "Database entry listed location as 'Frisco, TX' but sources indicate primary operations at Newberry, Oregon. Database entry founder 'Sriram Vasantharajan' could not be verified from sources provided. Database entry listed $30M+ but more recent source [1] and [2] from 2026 confirm $135M raise for Series A."
+      "notes": "Founded September 11, 2009 as Joby Aero, renamed to Joby Aviation in 2021. Went public via SPAC on August 11, 2021 (NYSE: JOBY). Acquired Uber Elevate in 2020, H2Fly in 2022, Xwing's autonomy division in 2024, and agreed to acquire Blade Air Mobility's passenger business in August 2025. Received FAA Part 135 certification in May 2022. Sources do not provide specific total funding amount or current valuation figure."
     },
     {
       "name": "Nano Nuclear Energy",
@@ -305,8 +303,8 @@
         "website": "https://nanonuclearenergy.com"
       },
       "verified": {
-        "name": "NANO Nuclear Energy Inc.",
-        "description": "Advanced nuclear energy company developing microreactor technologies including KRONOS MMR, ZEUS, and LOKI, along with nuclear fuel fabrication, transportation, and space applications. The company is publicly listed on NASDAQ under ticker NNE.",
+        "name": "NANO Nuclear Energy",
+        "description": "Advanced technology-driven nuclear energy company developing microreactor technologies (KRONOS, ZEUS, LOKI) and operating subsidiaries in fuel fabrication, fuel transportation, and space applications.",
         "founders": null,
         "location": "New York, NY",
         "founded_year": null,
@@ -321,7 +319,6 @@
             1
           ],
           "description": [
-            0,
             1
           ],
           "location": [
@@ -330,13 +327,9 @@
           "current_stage": [
             0,
             1
-          ],
-          "website": [
-            0,
-            1
           ]
         },
-        "notes": "Company is publicly traded on NASDAQ (ticker: NNE). Source [2] about Valar Atomics is not relevant to this company and was not used. No founder names explicitly stated in sources. Founded year not mentioned in provided sources. Total raised and valuation figures from database entry could not be verified from these sources."
+        "notes": "Company is publicly traded on NASDAQ (NNE). Sources [0] and [1] are from the company website and contain identical content. Source [2] is about a different company (Valar Atomics) and was not used. No founder name explicitly stated as founder/co-founder in provided sources. Founded year not stated in sources. Total raised and valuation cannot be verified from these sources."
       },
       "changes": [
         {
@@ -366,7 +359,7 @@
           "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
         }
       ],
-      "notes": "Company is publicly traded on NASDAQ (ticker: NNE). Source [2] about Valar Atomics is not relevant to this company and was not used. No founder names explicitly stated in sources. Founded year not mentioned in provided sources. Total raised and valuation figures from database entry could not be verified from these sources."
+      "notes": "Company is publicly traded on NASDAQ (NNE). Sources [0] and [1] are from the company website and contain identical content. Source [2] is about a different company (Valar Atomics) and was not used. No founder name explicitly stated as founder/co-founder in provided sources. Founded year not stated in sources. Total raised and valuation cannot be verified from these sources."
     }
   ],
   "unverifiable": []
