@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-18T11:50:07.915973Z",
+  "generated_at": "2026-09-19T10:46:07.746205Z",
   "platform": {
-    "companiesTracked": 1180,
+    "companiesTracked": 1181,
     "sectorsMonitored": 16,
-    "totalCapitalRaisedTracked": "$487.4B",
+    "totalCapitalRaisedTracked": "$487.6B",
     "totalValuationTracked": "$1155.6B",
     "companiesWithValuation": 117,
-    "govContractsTracked": 156,
+    "govContractsTracked": 154,
     "sbirAwardsTracked": 341,
-    "dealsTracked": 234,
-    "newsItemsTracked": 32,
-    "dataPointsUpdated": "47,200+"
+    "dealsTracked": 236,
+    "newsItemsTracked": 27,
+    "dataPointsUpdated": "47,240+"
   },
   "topFunds": [
     {
@@ -30,6 +30,22 @@
       ]
     },
     {
+      "fund": "a16z",
+      "portfolio_count": 12,
+      "companies": [
+        "Amca",
+        "Atoms",
+        "Black Forest Labs",
+        "CX2 Industries",
+        "Galadyne",
+        "Genesis Therapeutics",
+        "Mara",
+        "Periodic Labs",
+        "Senra Systems",
+        "Thatch"
+      ]
+    },
+    {
       "fund": "Founders Fund",
       "portfolio_count": 12,
       "companies": [
@@ -43,22 +59,6 @@
         "Strata Robotics",
         "Until",
         "Varda Space Industries"
-      ]
-    },
-    {
-      "fund": "a16z",
-      "portfolio_count": 11,
-      "companies": [
-        "Amca",
-        "Atoms",
-        "Black Forest Labs",
-        "CX2 Industries",
-        "Galadyne",
-        "Genesis Therapeutics",
-        "Mara",
-        "Periodic Labs",
-        "Senra Systems",
-        "Ulysses Robotics"
       ]
     },
     {
@@ -93,6 +93,19 @@
       ]
     },
     {
+      "fund": "General Catalyst",
+      "portfolio_count": 7,
+      "companies": [
+        "Alsym Energy",
+        "Collaborative Robotics",
+        "Onodrim Industries",
+        "Pacific Fusion",
+        "Thatch",
+        "Together AI",
+        "Vital Lyfe"
+      ]
+    },
+    {
       "fund": "Breakthrough Energy",
       "portfolio_count": 7,
       "companies": [
@@ -103,18 +116,6 @@
         "Planted Solar",
         "Sygaldry Technologies",
         "Tempo"
-      ]
-    },
-    {
-      "fund": "General Catalyst",
-      "portfolio_count": 6,
-      "companies": [
-        "Alsym Energy",
-        "Collaborative Robotics",
-        "Onodrim Industries",
-        "Pacific Fusion",
-        "Together AI",
-        "Vital Lyfe"
       ]
     },
     {
@@ -192,6 +193,15 @@
       ]
     },
     {
+      "fund": "Index Ventures",
+      "portfolio_count": 3,
+      "companies": [
+        "Cowboy Space Corporation",
+        "Enigma",
+        "Thatch"
+      ]
+    },
+    {
       "fund": "Craft Ventures",
       "portfolio_count": 2,
       "companies": [
@@ -224,14 +234,6 @@
       ]
     },
     {
-      "fund": "Index Ventures",
-      "portfolio_count": 2,
-      "companies": [
-        "Cowboy Space Corporation",
-        "Enigma"
-      ]
-    },
-    {
       "fund": "BlackRock",
       "portfolio_count": 2,
       "companies": [
@@ -246,7 +248,7 @@
     "Defense & Security": 185,
     "Climate & Energy": 179,
     "Chips & Semiconductors": 82,
-    "Biotech & Health": 80,
+    "Biotech & Health": 81,
     "Nuclear Energy": 66,
     "Quantum Computing": 51,
     "AI & Software": 39,

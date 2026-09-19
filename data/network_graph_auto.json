@@ -101,6 +101,11 @@
       "thesisCluster": ""
     },
     {
+      "id": "Thatch",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
       "id": "Applied Atomics",
       "sector": "Nuclear Energy",
       "thesisCluster": ""
@@ -11265,7 +11270,7 @@
     }
   ],
   "counts": {
-    "total_nodes": 1186,
+    "total_nodes": 1187,
     "total_edges": 918,
     "competitor_edges": 169,
     "thesis_edges": 741,

@@ -1,45 +1,46 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 48,
+    "momentum": 44,
     "trend": "steady",
     "catalysts": [
-      "Amazon-owned Zoox&#8217;s 100-robotaxi limit in Nevada is ab",
-      "Waymo restarts San Antonio service 5 months after flooding t",
+      "Waymo&#8217;s Next Target: Singapore",
+      "Icarus Robotics flies ISS-bound robot in microgravity for th",
       "Icarus Robotics tests Joy in Canada ahead of ISS flight"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 50,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-18"
+    "lastUpdated": "2026-09-19"
   },
   {
     "sector": "Transportation",
-    "momentum": 43,
+    "momentum": 39,
     "trend": "steady",
     "catalysts": [
+      "Joby Aviation&#8217;s 3,100-mile autonomous flight signals i",
       "Building Waymo\u2019s Risk &#038; Insurance Foundation in Europe",
       "Rivian\u2019s Gambit for Full Autonomy"
     ],
     "fundingQ": "$3.0B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
-      "market": 27
+      "market": 0
     },
-    "lastUpdated": "2026-09-18"
+    "lastUpdated": "2026-09-19"
   },
   {
     "sector": "Defense & Security",
     "momentum": 37,
     "trend": "rising",
     "catalysts": [
-      "Chipotle Is Working With Palantir to Track Food Safety Risks",
+      "Cape Canaveral is building up its counter-drone defenses, Sp",
       "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
       "Forced Into the Right Decision? A Look at U.S. Land-Based De"
     ],
@@ -50,81 +51,79 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-18"
+    "lastUpdated": "2026-09-19"
   },
   {
     "sector": "AI & Software",
-    "momentum": 32,
+    "momentum": 29,
     "trend": "rising",
     "catalysts": [
-      "OpenAI caught its models leaving notes to successors to hide",
-      "An OpenAI Agent Tried to Jailbreak Itself",
-      "AI models need more data about biology, and OpenAI is paying"
+      "Anthropic is operating a lab that conducts biology experimen",
+      "Anthropic Fears RSI &#8211; What is RSI? What Specifically i",
+      "OpenAI agents discussed ways to escape their sandbox on publ"
     ],
     "fundingQ": "$2.4B",
     "components": {
       "funding": 39,
-      "news": 35,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-18"
+    "lastUpdated": "2026-09-19"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 21,
+    "trend": "declining",
+    "catalysts": [
+      "Rivian\u2019s Gambit for Full Autonomy"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 98
+    },
+    "lastUpdated": "2026-09-19"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "Active biotech & health ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-09-19"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 29,
+    "momentum": 19,
     "trend": "declining",
     "catalysts": [
-      "NASA Invites Media to SpaceX\u2019s 35th Resupply Launch to Space",
-      "Base Labs launches an open-weight AI safety partnership with",
-      "Icarus Robotics tests Joy in Canada ahead of ISS flight"
+      "Cape Canaveral is building up its counter-drone defenses, Sp",
+      "NASA Awards SpaceX Three Crew Flights to Space Station",
+      "NASA Invites Media to SpaceX\u2019s 35th Resupply Launch to Space"
     ],
     "fundingQ": "$50M",
     "components": {
       "funding": 5,
       "news": 35,
       "hiring": 0,
-      "market": 93
+      "market": 43
     },
-    "lastUpdated": "2026-09-18"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 22,
-    "trend": "declining",
-    "catalysts": [
-      "Khosla-backed Mazama Energy just raised $135M to drill deepe",
-      "AI models need more data about biology, and OpenAI is paying"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-09-18"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "Chipotle Is Working With Palantir to Track Food Safety Risks",
-      "Rivian\u2019s Gambit for Full Autonomy"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 90
-    },
-    "lastUpdated": "2026-09-18"
+    "lastUpdated": "2026-09-19"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 20,
+    "momentum": 18,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -134,77 +133,80 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 100
+      "market": 88
     },
-    "lastUpdated": "2026-09-18"
+    "lastUpdated": "2026-09-19"
   },
   {
-    "sector": "Climate & Energy",
+    "sector": "Housing & Construction",
     "momentum": 18,
     "trend": "declining",
     "catalysts": [
-      "Khosla-backed Mazama Energy just raised $135M to drill deepe",
-      "Mazama Energy raises $135M for superhot geothermal at Oregon",
-      "xAI has quietly built a massive battery at its Memphis data"
+      "Waymo&#8217;s Next Target: Singapore",
+      "SpaceX Huge Next Flight and 150 Days to Change the World"
     ],
-    "fundingQ": "$134M",
+    "fundingQ": "$50M",
     "components": {
-      "funding": 11,
-      "news": 20,
+      "funding": 16,
+      "news": 10,
       "hiring": 0,
-      "market": 48
+      "market": 50
     },
-    "lastUpdated": "2026-09-18"
+    "lastUpdated": "2026-09-19"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 17,
+    "trend": "declining",
+    "catalysts": [
+      "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
+      "Forced Into the Right Decision? A Look at U.S. Land-Based De",
+      "Does Latent Nuclear Deterrence Really Work?"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 55
+    },
+    "lastUpdated": "2026-09-19"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 18,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
-      "Amazon-owned Zoox&#8217;s 100-robotaxi limit in Nevada is ab",
+      "Icarus Robotics flies ISS-bound robot in microgravity for th",
       "Icarus Robotics tests Joy in Canada ahead of ISS flight",
       "The evolution of Digit: Agility Robotics&#8217; journey from"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 30,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-18"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 17,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX Huge Next Flight and 150 Days to Change the World"
-    ],
-    "fundingQ": "$50M",
-    "components": {
-      "funding": 16,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-18"
+    "lastUpdated": "2026-09-19"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 11,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
+      "Cape Canaveral is building up its counter-drone defenses, Sp",
+      "Joby Aviation&#8217;s 3,100-mile autonomous flight signals i",
       "Building Waymo\u2019s Risk &#038; Insurance Foundation in Europe"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-18"
+    "lastUpdated": "2026-09-19"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -220,7 +222,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-18"
+    "lastUpdated": "2026-09-19"
   },
   {
     "sector": "Ocean & Maritime",
@@ -236,7 +238,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-18"
+    "lastUpdated": "2026-09-19"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -252,24 +254,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-18"
+    "lastUpdated": "2026-09-19"
   },
   {
-    "sector": "Nuclear Energy",
-    "momentum": 6,
+    "sector": "Climate & Energy",
+    "momentum": 8,
     "trend": "declining",
     "catalysts": [
-      "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
-      "Forced Into the Right Decision? A Look at U.S. Land-Based De",
-      "Does Latent Nuclear Deterrence Really Work?"
+      "Mazama Energy raises $135M for superhot geothermal at Oregon",
+      "xAI has quietly built a massive battery at its Memphis data",
+      "Sage Geosystems brings its first next-gen geothermal plant o"
     ],
-    "fundingQ": "$0M",
+    "fundingQ": "$134M",
     "components": {
-      "funding": 0,
-      "news": 25,
+      "funding": 11,
+      "news": 15,
       "hiring": 0,
-      "market": 0
+      "market": 2
     },
-    "lastUpdated": "2026-09-18"
+    "lastUpdated": "2026-09-19"
   }
 ]
