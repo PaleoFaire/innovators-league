@@ -115,6 +115,57 @@ STAGE_ORDER = [
     "series e", "series f", "series g", "series h", "series i", "series j",
 ]
 
+# A headline that is actually announcing a raise, as opposed to an article that
+# merely contains a dollar figure. On the 19 Sep run the un-gated heuristic
+# flagged "Industry Insights: Financial Services and Banking" as a $10B round
+# for Strider because "$10 billion" appeared in the body of a piece about a
+# banking scandal. Require the *title* to carry both a funding verb and a
+# money-ish word before anything can be called new.
+NEW_ROUND_TITLE_RE = re.compile(
+    r"\b(rais(?:e|es|ed|ing)|clos(?:e|es|ed|ing)|secur(?:e|es|ed|ing)|"
+    r"announc(?:e|es|ed|ing)|land(?:s|ed|ing)?|net(?:s|ted)?|"
+    r"surpass(?:es|ed)?|complet(?:e|es|ed|ing)|bring(?:s|ing)?)\b", re.I
+)
+# The object of that verb: a round label, or simply a sum of money. A headline
+# with a funding verb AND a dollar figure is a raise announcement; one with
+# neither is an article that happens to mention money.
+NEW_ROUND_OBJECT_RE = re.compile(
+    r"(\b(round|funding|financing|series\s+[a-k]|seed|investment)\b|\$\s?\d)", re.I
+)
+
+# How recent an announcement must be to count as news. The watcher runs daily;
+# a 2023 press release is not a new round however well it parses. Orbit Fab's
+# April 2023 Series A was still being flagged in September 2026.
+MAX_ANNOUNCEMENT_AGE_DAYS = 400
+
+# Applied only to figures with NO round label attached. A labelled round can
+# legitimately dwarf everything before it — Galadyne's $60M Series A follows a
+# $4.8M pre-seed, a 12x step that is completely normal for a hot company — so
+# capping by multiple would reject exactly the raises worth knowing about.
+# An unlabelled number that is many times total funding, though, is nearly
+# always scraped from surrounding prose: the $10B in Strider's banking blog
+# post was 85x anything they have raised.
+MAX_UNLABELLED_ROUND_MULTIPLE = 3.0
+
+
+def announcement_age_days(raw_date: str) -> float | None:
+    """RFC-822 ('Tue, 30 Jun 2026 12:40:00 GMT') and ISO dates, else None."""
+    if not raw_date:
+        return None
+    try:
+        from email.utils import parsedate_to_datetime
+        dt = parsedate_to_datetime(raw_date)
+    except Exception:
+        try:
+            dt = datetime.fromisoformat(raw_date.replace("Z", "+00:00"))
+        except Exception:
+            return None
+    if dt is None:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return (datetime.now(timezone.utc) - dt).total_seconds() / 86400
+
 
 def log(msg: str) -> None:
     print(msg, flush=True)
@@ -340,12 +391,29 @@ def check_company(company: dict) -> dict:
             continue
         amt = found.get("amount_m", 0.0)
         new_rank = stage_rank(found.get("round"))
+        age_days = announcement_age_days(it.get("date", ""))
 
         # Is this actually news to us? Either a later stage than recorded, or
         # a single round bigger than everything we have on file.
-        is_new = (new_rank > known_stage >= -1 and new_rank != -1) or (
-            amt and known_raised and amt > known_raised
-        )
+        stage_is_newer = new_rank > known_stage >= -1 and new_rank != -1
+        amount_exceeds = bool(amt and known_raised and amt > known_raised)
+
+        # ...but only if the headline is really announcing a raise, the piece
+        # is recent, and the figure is a plausible size for one round. Before
+        # these three gates, 2 of 2 flagged rounds were false positives: a
+        # banking blog post read as a $10B round, and a 2023 article restating
+        # a Series A we already held, flagged only because a journalist had
+        # rounded $28.5M up to "nearly $30 million".
+        title = it.get("title", "")
+        titled_as_raise = bool(NEW_ROUND_TITLE_RE.search(title)
+                               and NEW_ROUND_OBJECT_RE.search(title))
+        recent = age_days is None or age_days <= MAX_ANNOUNCEMENT_AGE_DAYS
+        plausible = bool(found.get("round")) or not (
+            amount_exceeds and known_raised
+            and amt > known_raised * MAX_UNLABELLED_ROUND_MULTIPLE)
+
+        is_new = ((stage_is_newer or amount_exceeds)
+                  and titled_as_raise and recent and plausible)
         record["hits"].append({
             "title": it["title"][:200],
             "date": it["date"],
@@ -356,6 +424,7 @@ def check_company(company: dict) -> dict:
             "known_stage": company.get("fundingStage", ""),
             "known_raised": company.get("totalRaised", ""),
             "looks_new": bool(is_new),
+            "age_days": round(age_days) if age_days is not None else None,
             "evidence": blob[:300],
         })
     return record

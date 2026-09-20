@@ -3,34 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="canonical" href="https://innovatorsleague.com/il30.html">
-    <meta property="og:title" content="Innovator League 30 · ROS Innovator Database">
-    <meta property="og:description" content="Our handpicked list of the 30 most important innovative companies in 2026.">
+    <link rel="canonical" href="https://innovatorsleague.com/rounds.html">
+    <meta property="og:title" content="Raised · The Innovators League">
+    <meta property="og:description" content="Funding rounds announced by frontier-tech companies themselves, read straight from their newsrooms — often before the trade press writes them up.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://innovatorsleague.com/il30.html">
-    <meta property="og:site_name" content="ROS Innovator Database">
+    <meta property="og:url" content="https://innovatorsleague.com/rounds.html">
+    <meta property="og:site_name" content="The Innovators League">
     <meta property="og:image" content="https://innovatorsleague.com/og-default.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Innovator League 30 · ROS Innovator Database">
-    <meta name="twitter:description" content="Our handpicked list of the 30 most important innovative companies in 2026.">
+    <meta name="twitter:title" content="Raised · The Innovators League">
+    <meta name="twitter:description" content="Rounds announced first-hand by the companies themselves.">
     <meta name="twitter:image" content="https://innovatorsleague.com/og-default.png">
-    <meta name="twitter:site" content="@rationalopt">
-    <meta name="twitter:creator" content="@stephenmcb">
 
-    <title>Innovator League 30 · ROS Innovator Database</title>
-    <meta name="description" content="The 30 most important innovative companies in 2026 — handpicked by the ROS team.">
+    <title>Raised · The Innovators League</title>
+    <meta name="description" content="Funding rounds announced by frontier-tech companies on their own newsrooms, checked against what the database already holds.">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css?v=20260501">
-    <script src="config.js?v=20260501"></script>
-    <script src="analytics.js?v=20260501"></script>
-    <link rel="stylesheet" href="css/_tokens.css?v=20260501" />
-    <link rel="stylesheet" href="css/_components.css?v=20260501" />
-    <script src="structured-data.js?v=20260822" defer></script>
+    <style>
+      /* ═══ Raised ═══ */
+      .rounds-hero {
+        background:
+          radial-gradient(1200px 400px at 80% -10%, rgba(74,222,128,0.10), transparent 60%),
+          linear-gradient(180deg, #0a0b12 0%, #07070c 100%);
+        border-bottom: 1px solid var(--border);
+        padding: 64px 24px 40px;
+      }
+      .rounds-hero-inner { max-width: 980px; margin: 0 auto; }
+      .rounds-kicker {
+        font: 600 11px/1 'Inter', sans-serif; letter-spacing: .18em;
+        color: #4ade80; text-transform: uppercase;
+      }
+      .rounds-hero h1 {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: clamp(30px, 4.5vw, 46px); line-height: 1.06;
+        margin: 12px 0 10px; color: var(--text-primary); letter-spacing: -0.01em;
+      }
+      .rounds-sub { color: var(--text-secondary); font-size: 15.5px; max-width: 64ch; line-height: 1.6; margin: 0; }
+      .rounds-stats { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+      .rounds-stat {
+        border: 1px solid var(--border); border-radius: 8px; background: var(--bg-card);
+        padding: 10px 16px; min-width: 128px;
+      }
+      .rounds-stat b {
+        display: block; font-family: 'Space Grotesk', sans-serif; font-size: 22px;
+        color: var(--text-primary); font-variant-numeric: tabular-nums;
+      }
+      .rounds-stat span { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--text-muted); }
+      .rounds-updated { font-size: 12px; color: var(--text-muted); margin-top: 14px; letter-spacing: .02em; }
+
+      .rounds-body { max-width: 980px; margin: 0 auto; padding: 26px 24px 60px; }
+      .rounds-filters { display: flex; flex-wrap: wrap; gap: 8px; position: sticky; top: 0;
+        background: linear-gradient(180deg, var(--bg) 82%, transparent); padding: 14px 0 12px; z-index: 5; }
+      .rounds-filter {
+        font: 600 12px/1 'Inter', sans-serif; letter-spacing: .04em;
+        color: var(--text-secondary); background: var(--bg-card);
+        border: 1px solid var(--border); border-radius: 999px;
+        padding: 8px 14px; cursor: pointer; transition: all .15s;
+      }
+      .rounds-filter:hover { border-color: var(--border-hover); color: var(--text-primary); }
+      .rounds-filter.active { color: #0a0b0f; background: #4ade80; border-color: #4ade80; }
+
+      .rounds-row {
+        display: grid; grid-template-columns: 168px 1fr; gap: 16px;
+        padding: 16px 4px; border-bottom: 1px solid rgba(255,255,255,0.05);
+      }
+      .rounds-row:hover { background: rgba(255,255,255,0.015); }
+      .rounds-left { min-width: 0; }
+      .rounds-badge {
+        display: inline-block; font: 700 9px/1.25 'Inter', sans-serif; letter-spacing: .09em;
+        padding: 5px 7px; border-radius: 3px; border: 1px solid; white-space: nowrap;
+      }
+      .rounds-badge-new { color: #4ade80; border-color: rgba(74,222,128,0.5); background: rgba(74,222,128,0.08); }
+      .rounds-badge-known { color: var(--text-muted); border-color: var(--border); }
+      .rounds-date { font-size: 12.5px; color: var(--text-secondary); margin-top: 7px; font-variant-numeric: tabular-nums; }
+      .rounds-age { font-size: 11.5px; color: var(--text-muted); margin-top: 2px; }
+      .rounds-fresh { color: #4ade80; font-weight: 600; }
+      .rounds-stale { color: #f59e0b; }
+
+      .rounds-main { min-width: 0; }
+      .rounds-co { font-size: 15px; line-height: 1.4; }
+      .rounds-co a { color: var(--text-primary); font-weight: 700; text-decoration: none; }
+      .rounds-co a:hover { color: #4ade80; }
+      .rounds-money { font-size: 13px; color: var(--text-secondary); font-weight: 400; margin-left: 6px; }
+      .rounds-title { font-size: 13.5px; color: var(--text-secondary); margin-top: 4px; line-height: 1.5; }
+      .rounds-title a { color: var(--text-secondary); text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.15); }
+      .rounds-title a:hover { color: #4ade80; border-bottom-color: #4ade80; }
+      .rounds-known {
+        font-size: 12px; color: var(--text-muted); margin-top: 6px;
+        border-left: 2px solid rgba(74,222,128,0.4); padding-left: 8px;
+      }
+
+      .rounds-empty { text-align: center; color: var(--text-muted); padding: 56px 0; max-width: 60ch; margin: 0 auto; line-height: 1.6; }
+      .rounds-note {
+        margin-top: 30px; padding: 14px 16px; border: 1px solid var(--border);
+        border-radius: 8px; background: var(--bg-card);
+        font-size: 12.5px; color: var(--text-muted); line-height: 1.6;
+      }
+      @media (max-width: 620px) {
+        .rounds-row { grid-template-columns: 1fr; gap: 8px; }
+      }
+    </style>
 </head>
 <body>
     <!-- Navigation — unified IA (auto-generated by scripts/unify_nav.py) -->
@@ -114,78 +189,38 @@
         <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
     </nav>
 
-    <div class="breadcrumb" aria-label="Breadcrumb">
-        <a href="index.html">Home</a>
-        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 2.5l3.5 3.5-3.5 3.5"/></svg>
-        <span aria-current="page">Innovator League 30</span>
-    </div>
-
-    <section class="innovator50-section" id="innovator50">
-        <div class="container">
-            <div class="innovator50-hero">
-                <div class="innovator50-badge">&#127942; CLASS OF 2026</div>
-                <h2 class="innovator50-title">The Innovator League 30</h2>
-                <p class="innovator50-subtitle">Our handpicked list of the 30 most important innovative companies in 2026.</p>
-            </div>
-            <div class="innovator50-controls">
-                <select id="i50-category" class="i50-filter">
-                    <option value="all">All Sectors</option>
-                </select>
-            </div>
-            <div class="il30-showcase-grid" id="il30-showcase-grid"></div>
-            <div class="innovator50-preview" id="innovator50-preview" style="display:none;"></div>
-            <div class="innovator50-full" id="i50-content" style="display:none;">
-                <div class="innovator50-grid" id="innovator50-grid"></div>
-            </div>
-        </div>
-    </section>
-
-    <div class="modal-overlay" id="modal-overlay">
-        <div class="modal-content" id="modal-content">
-            <button class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
-            <div class="modal-body" id="modal-body"></div>
-        </div>
-    </div>
-
-    <div class="modal-overlay" id="partner-portal-overlay">
-        <div class="modal-content partner-portal-modal">
-            <button class="modal-close" id="partner-portal-close" aria-label="Close">&times;</button>
-            <div class="partner-portal-body" id="partner-portal-body"></div>
-        </div>
-    </div>
-
-    <footer class="premium-footer">
-      <div class="footer-inner">
-        <div class="footer-bottom">
-          <p>&copy; 2026 Rational Optimist Society. All rights reserved.</p>
-          <div class="footer-legal-row" style="display:flex;gap:18px;flex-wrap:wrap;justify-content:center;font-size:12px;color:#8b949e;margin-top:6px;">
-            <a href="privacy.html" style="color:#8b949e;text-decoration:none;">Privacy</a>
-            <a href="terms.html" style="color:#8b949e;text-decoration:none;">Terms</a>
-            <a href="mailto:contact@rationaloptimistsociety.com" style="color:#8b949e;text-decoration:none;">Contact</a>
-          </div>
-        </div>
+    <header class="rounds-hero">
+      <div class="rounds-hero-inner">
+        <div class="rounds-kicker">Read from company newsrooms · every row links to the announcement</div>
+        <h1>Raised</h1>
+        <p class="rounds-sub">Funding rounds announced by the companies themselves. This watcher reads their newsrooms directly rather than waiting for the trade press, so a round can surface here before anyone writes it up — and every figure is checked against what the database already holds.</p>
+        <div class="rounds-stats" id="rounds-stats"></div>
+        <div class="rounds-updated" id="rounds-updated"></div>
       </div>
+    </header>
+
+    <main class="rounds-body">
+      <div class="rounds-filters" id="rounds-filters"></div>
+      <div id="rounds-feed"><p class="rounds-empty">Loading announcements…</p></div>
+
+      <div class="rounds-note">
+        <b style="color:var(--text-secondary);">What this covers.</b>
+        The watcher checks the <span id="rounds-scope">hot-tier</span> companies in the database and can only read the ones publishing a feed or a parseable news page. Coverage is shown above, and it is not the whole roster — a company absent from this page has not necessarily been quiet.
+        <b style="color:var(--text-secondary);">Ahead of our record</b> means the company announced something the database does not yet reflect: a later stage, or more capital than we hold. Those are the rows worth acting on.
+      </div>
+    </main>
+
+    <footer style="padding:40px 24px; text-align:center; border-top:1px solid rgba(255,255,255,0.06);">
+      <p style="font-size:11px; color:rgba(255,255,255,0.4); letter-spacing:0.5px;">
+        Every row is a company’s own announcement, linked to source. Nothing here is model-written.<br>
+        <a href="terms.html" style="color:rgba(255,255,255,0.5);">Terms</a> · <a href="privacy.html" style="color:rgba(255,255,255,0.5);">Privacy</a> &middot; <a href="#" onclick="if(window.TIL_CookieConsent){window.TIL_CookieConsent.show();}return false;" style="color:rgba(255,255,255,0.5);">Manage cookies</a>
+      </p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="utils.js?v=20260501"></script>
     <script src="auth.js?v=20260501"></script>
-    <script src="votes.js?v=20260501"></script>
-    <!-- data.js carries COMPANIES + INNOVATORS_LEAGUE_30 + the IL30 meta.
-         The member repo uses data/il30-static.js instead; loading BOTH here
-         double-declares seven consts and kills data.js evaluation entirely. -->
-    <script src="data.js?v=20260822"></script>
-    <script src="app.js?v=20260822"></script>
-    <script>
-      // GitHub-version boot. The member site fetches COMPANIES from Tim's
-      // authenticated API here; this version loads data.js directly (included
-      // above), so we go straight to rendering. Keep this divergence in mind
-      // when bundling changes back to the member repo.
-      document.addEventListener('DOMContentLoaded', function() {
-        if (typeof initInnovator50 === 'function') initInnovator50();
-        if (typeof renderIL30Showcase === 'function') renderIL30Showcase();
-      });
-    </script>
+    <script src="data/company_announcements_auto.js?v=20260920c"></script>
+    <script src="rounds.js?v=20260920"></script>
     <script src="cookie-consent.js?v=20260501"></script>
 </body>
 </html>
