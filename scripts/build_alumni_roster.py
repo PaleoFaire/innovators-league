@@ -121,6 +121,14 @@ def query_assignee(session, assignee: str, limit: int) -> list[dict]:
         js = r.json()
         batch = js.get("patents") or js.get("data", {}).get("patents") or []
         if not batch:
+            # A 200 with no patents is the failure mode that produced an empty
+            # roster for weeks without ever raising an error: every assignee
+            # returned nothing, the script reported success, and Exit Watch
+            # silently fell back to the ~190-person curated roster. Say why.
+            if page == 1:
+                print(f"    {assignee}: HTTP {r.status_code} but 0 patents "
+                      f"(total_hits={js.get('total_hits')}, count={js.get('count')}, "
+                      f"error={js.get('error')}, keys={sorted(js)[:6]})")
             break
         rows.extend(batch)
         if len(batch) < size:
@@ -215,6 +223,16 @@ def main() -> int:
     print(f"\ninventors found:            {len(people)}")
     print(f"with 2+ patents (kept):     {len(strong)}")
     print(f"wrote {OUT.relative_to(ROOT)}")
+
+    if not people:
+        print("\n" + "!" * 68)
+        print("ZERO inventors across every parent, with a working API key.")
+        print("The roster Exit Watch depends on is therefore empty, and it is")
+        print("falling back to ~190 curated names — too thin to fire. Check the")
+        print("per-assignee lines above for the HTTP status and total_hits, then")
+        print("compare the query shape against the current PatentsView v1 docs")
+        print("(the `o` option in particular: cursor pagination replaced `page`).")
+        print("!" * 68)
     return 0
 
 
