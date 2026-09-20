@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-09-19";
+const LAST_UPDATED = "2026-09-20";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -61258,23 +61258,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-19 22:52
+// Last updated: 2026-09-20 00:57
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "OpenAI", headline: "Waiting for Compute Because They Have To Not Because OpenAI Wants to", source: "Next Big Future", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Anthropic", headline: "Anthropic is operating a lab that conducts biology experiments", source: "TechCrunch", time: "23h ago", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "Cape", headline: "Cape Canaveral is building up its counter-drone defenses, Space Force says", source: "Defense One", time: "1d ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Waymo", headline: "Waymo's Next Target: Singapore", source: "CleanTechnica", time: "1d ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Icarus", headline: "Icarus Robotics flies ISS-bound robot in microgravity for the first time", source: "The Robot Report", time: "1d ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Mazama", headline: "Mazama Energy raises $135M for superhot geothermal at Oregon volcano", source: "Canary Media", time: "2d ago", impact: "high", unread: false },
-  { id: 7, type: "ipo", company: "Icarus", headline: "Icarus Robotics tests Joy in Canada ahead of ISS flight", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Waymo", headline: "Building Waymo's Risk &#038; Insurance Foundation in Europe with Allianz Partners", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Agility Robotics", headline: "The evolution of Digit: Agility Robotics' journey from Cassie to Digit 5", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "4d ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Humanoid", headline: "Agility's Digit 5 humanoid has new legs, batteries, and safety upgrades", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "ICEYE", headline: "Iceye's global presence expands to address sovereign demand", source: "SpaceNews", time: "4d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Anthropic", headline: "Anthropic Fears RSI &#8211; What is RSI? What Specifically is It?", source: "Next Big Future", time: "5d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "xAI", headline: "xAI has quietly built a massive battery at its Memphis data center hub", source: "Canary Media", time: "9/11/2026", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Plan is Less Than $1 Billion", source: "Next Big Future", time: "2h ago", impact: "high", unread: true },
+  { id: 2, type: "ipo", company: "OpenAI", headline: "Waiting for Compute Because They Have To Not Because OpenAI Wants to", source: "Next Big Future", time: "5h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "Anthropic is operating a lab that conducts biology experiments", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
+  { id: 4, type: "contract", company: "Cape", headline: "Cape Canaveral is building up its counter-drone defenses, Space Force says", source: "Defense One", time: "1d ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Waymo", headline: "Waymo's Next Target: Singapore", source: "CleanTechnica", time: "1d ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Icarus", headline: "Icarus Robotics flies ISS-bound robot in microgravity for the first time", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Mazama", headline: "Mazama Energy raises $135M for superhot geothermal at Oregon volcano", source: "Canary Media", time: "2d ago", impact: "high", unread: false },
+  { id: 8, type: "ipo", company: "Icarus", headline: "Icarus Robotics tests Joy in Canada ahead of ISS flight", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Waymo", headline: "Building Waymo's Risk &#038; Insurance Foundation in Europe with Allianz Partners", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Agility Robotics", headline: "The evolution of Digit: Agility Robotics' journey from Cassie to Digit 5", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "4d ago", impact: "low", unread: false },
+  { id: 13, type: "milestone", company: "Humanoid", headline: "Agility's Digit 5 humanoid has new legs, batteries, and safety upgrades", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "ICEYE", headline: "Iceye's global presence expands to address sovereign demand", source: "SpaceNews", time: "4d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Anthropic", headline: "Anthropic Fears RSI &#8211; What is RSI? What Specifically is It?", source: "Next Big Future", time: "5d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
