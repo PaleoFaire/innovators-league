@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-19T11:55:57.253248+00:00",
+  "generated_at": "2026-09-20T12:05:08.456511+00:00",
   "lookback_days": 8,
   "scanned": 1381,
   "total": 8,
   "filings": [
     {
-      "match_method": "founder",
-      "match_evidence": "'SirenOpt Inc.' stems to 'SirenOpt'; Form D names JARED O'LEARY, a recorded founder",
+      "match_method": "cik",
+      "match_evidence": "filer CIK 2029046 == our recorded CIK",
       "company": "SirenOpt",
       "issuer_name": "SirenOpt Inc.",
       "form": "D",

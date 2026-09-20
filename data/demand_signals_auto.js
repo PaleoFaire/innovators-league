@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-09-19 11:45:45 UTC
-// Total signals: 44 | Companies matched: 190
+// Last updated: 2026-09-20 11:59:18 UTC
+// Total signals: 44 | Companies matched: 191
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -1327,6 +1327,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "E-Space",
+        "score": 20,
+        "matchReasons": [
+          "tag: constellation",
+          "tag: leo"
+        ]
+      },
+      {
         "name": "Aerospacelab",
         "score": 20,
         "matchReasons": [
@@ -1357,14 +1365,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: satellite",
           "techApproach overlap"
         ]
-      },
-      {
-        "name": "Endurosat",
-        "score": 16,
-        "matchReasons": [
-          "tag: space",
-          "techApproach overlap"
-        ]
       }
     ],
     "relevantCompanies": [
@@ -1373,11 +1373,11 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Forterra",
       "Picogrid",
       "Synspective",
+      "E-Space",
       "Aerospacelab",
       "TrustPoint",
       "Apex Space",
-      "Array Labs",
-      "Endurosat"
+      "Array Labs"
     ]
   },
   {
@@ -5016,6 +5016,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Resilient Proliferated LEO Communications"
     ]
   },
+  "E-Space": {
+    "name": "E-Space",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "U.S. Space Force"
+    ],
+    "avgRelevance": 20,
+    "topSignals": [
+      "Resilient Proliferated LEO Communications"
+    ]
+  },
   "Aerospacelab": {
     "name": "Aerospacelab",
     "govPullScore": 40,
@@ -5067,20 +5079,6 @@ const GOV_PULL_SCORES_AUTO = {
     ],
     "avgRelevance": 16,
     "topSignals": [
-      "Resilient Proliferated LEO Communications"
-    ]
-  },
-  "Endurosat": {
-    "name": "Endurosat",
-    "govPullScore": 31,
-    "matchCount": 2,
-    "topAgencies": [
-      "Space Development Agency (SDA)",
-      "U.S. Space Force"
-    ],
-    "avgRelevance": 20,
-    "topSignals": [
-      "Missile Tracking Layer Satellites",
       "Resilient Proliferated LEO Communications"
     ]
   },
@@ -5181,6 +5179,18 @@ const GOV_PULL_SCORES_AUTO = {
     "avgRelevance": 26,
     "topSignals": [
       "Secure Communications for Contested Environments",
+      "Missile Tracking Layer Satellites"
+    ]
+  },
+  "Endurosat": {
+    "name": "Endurosat",
+    "govPullScore": 19,
+    "matchCount": 1,
+    "topAgencies": [
+      "Space Development Agency (SDA)"
+    ],
+    "avgRelevance": 24,
+    "topSignals": [
       "Missile Tracking Layer Satellites"
     ]
   },
@@ -6653,6 +6663,6 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 190,
-  "lastUpdated": "2026-09-19 11:45:45 UTC"
+  "companiesMatched": 191,
+  "lastUpdated": "2026-09-20 11:59:18 UTC"
 };

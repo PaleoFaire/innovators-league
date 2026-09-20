@@ -1,23 +1,5 @@
 [
   {
-    "date": "2026-09-19",
-    "vehicle": "Electron | Owl By The Dozen (StriX Launch 12)",
-    "payload": "Owl By The Dozen (StriX Launch 12)",
-    "pad": "Rocket Lab Launch Complex 1B, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/f4c720ce-0cfd-43e6-b8dd-00273073bc01/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-09-19",
-    "vehicle": "Long March 2D | Unknown Payload",
-    "payload": "Unknown Payload",
-    "pad": "Launch Complex 9, Taiyuan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/a527b585-f01f-4ecc-9230-711dcef72ef1/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-09-20",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 15-27",
     "payload": "Starlink Group 15-27",
@@ -28,8 +10,8 @@
   },
   {
     "date": "2026-09-20",
-    "vehicle": "Kinetica 1 | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Kinetica 1 | 9 satellites",
+    "payload": "9 satellites",
     "pad": "Launch Area 130, Jiuquan Satellite Launch Center, People's Republic of China",
     "provider": "CAS Space",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/5af31461-bce5-4cfb-a0ee-b527cf285d90/?format=json",
@@ -82,21 +64,12 @@
   },
   {
     "date": "2026-09-30",
-    "vehicle": "Long March 12A | Flight 2",
-    "payload": "Flight 2",
-    "pad": "Long March 12 series Pad, Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/dc570565-4dcf-4ab9-8174-bf88efef477f/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-09-30",
-    "vehicle": "Vulcan VC6L | Amazon Leo (LV-01)",
-    "payload": "Amazon Leo (LV-01)",
-    "pad": "Space Launch Complex 41, Cape Canaveral SFS, FL, USA",
-    "provider": "United Launch Alliance",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/ef9850ad-1096-425b-9d27-f7bbd186e61a/?format=json",
-    "trackedCompany": "ULA"
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 15-25",
+    "payload": "Starlink Group 15-25",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/97c6f5e1-299e-4652-b72d-9618ac047076/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-10-01",
@@ -178,6 +151,24 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/67213393-7983-4c06-8b44-b8c785a5ed79/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-10-31",
+    "vehicle": "Long March 12A | Flight 2",
+    "payload": "Flight 2",
+    "pad": "Long March 12 series Pad, Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/dc570565-4dcf-4ab9-8174-bf88efef477f/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-10-31",
+    "vehicle": "Vulcan VC6L | Amazon Leo (LV-01)",
+    "payload": "Amazon Leo (LV-01)",
+    "pad": "Space Launch Complex 41, Cape Canaveral SFS, FL, USA",
+    "provider": "United Launch Alliance",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ef9850ad-1096-425b-9d27-f7bbd186e61a/?format=json",
+    "trackedCompany": "ULA"
   },
   {
     "date": "2026-10-31",
@@ -447,6 +438,15 @@
     "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/7766f3bb-674c-4c71-b986-963bd633fcfe/?format=json",
+    "trackedCompany": "Rocket Lab"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Electron | BlackSky Gen-3 6",
+    "payload": "BlackSky Gen-3 6",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/548df42c-ae26-4cc9-921a-f0042941911a/?format=json",
     "trackedCompany": "Rocket Lab"
   }
 ]

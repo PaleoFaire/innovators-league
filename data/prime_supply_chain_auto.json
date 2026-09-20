@@ -96,7 +96,7 @@
   {
     "prime": "General Dynamics",
     "ticker": "GD",
-    "totalCompanies": 9,
+    "totalCompanies": 10,
     "portfolio": [
       {
         "company": "Anduril",
@@ -139,6 +139,12 @@
         "agency": "General Services Administration",
         "evidence": "THE SCOPE OF THIS REQUIREMENT INCLUDES PROGRAM MANAGEMENT SERVICES, TRANSITION SERVICES, AND A FULL RANGE OF ENTERPRISE IT-RELATED SERVICES AND TECHNICAL SOLUTIONS THAT SPAN CYBERSECURITY AND IT MANAG",
         "url": "https://www.usaspending.gov/award/CONT_AWD_47QFCA20F0049_4732_47QTCK18D0003_4732"
+      },
+      {
+        "company": "Supply Energetics",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "general dynamics"
       },
       {
         "company": "Union",

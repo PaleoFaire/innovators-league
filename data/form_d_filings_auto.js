@@ -1,13 +1,31 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public) — full-text search + daily index
-// Last updated: 2026-09-19 11:55:57 UTC
+// Last updated: 2026-09-20 12:05:08 UTC
 // Total: 8 filings across 6 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-09-19T11:55:57.253248+00:00",
+  "generated_at": "2026-09-20T12:05:08.456511+00:00",
   "source": "SEC EDGAR Form D (full-text search + daily index)",
   "lookback_days": 60,
   "total_filings": 8,
   "filings": [
+    {
+      "match_method": "cik",
+      "company": "SirenOpt",
+      "issuer_name": "SirenOpt Inc",
+      "form": "D",
+      "filed_date": "2026-09-18",
+      "cik": "2029046",
+      "accession": "0002029046-26-000004",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002029046&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002029046-26-000004",
+      "offering_amount": "32411720",
+      "amount_sold": "19428895",
+      "amount_remaining": "12982825",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
     {
       "match_method": "cik",
       "company": "Gravitics",
@@ -25,30 +43,6 @@ const FORM_D_FILINGS = {
       "exemption": "06b",
       "first_sale_date": "",
       "is_safe": false
-    },
-    {
-      "match_method": "founder",
-      "match_evidence": "'SirenOpt Inc.' stems to 'SirenOpt'; Form D names JARED O'LEARY, a recorded founder",
-      "company": "SirenOpt",
-      "issuer_name": "SirenOpt Inc.",
-      "form": "D",
-      "filed_date": "2026-09-18",
-      "cik": "2029046",
-      "accession": "0002029046-26-000004",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/2029046/000202904626000004/primary_doc.xml",
-      "offering_amount": "32411720",
-      "amount_sold": "19428895",
-      "amount_remaining": "12982825",
-      "securities_type": "Equity",
-      "related_persons": [
-        "JARED O'LEARY",
-        "ALI MESBAH",
-        "TOM CHI",
-        "MATTHEW BLAIN",
-        "PHILIP HARPER"
-      ],
-      "is_safe": false,
-      "source": "edgar-daily-index"
     },
     {
       "match_method": "cik",
