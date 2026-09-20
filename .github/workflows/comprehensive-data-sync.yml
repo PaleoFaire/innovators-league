@@ -542,12 +542,23 @@ jobs:
           EARNINGS_API_KEY: ${{ secrets.EARNINGS_API_KEY }}
         continue-on-error: true
 
-      - name: Earnings Signals (LLM extraction across ~100 frontier-adjacent global tickers)
-        run: python scripts/extract_earnings_signals.py
-        env:
-          # Stephen's repo secret is named ANTHROPIC_API_KEY2 (not ANTHROPIC_API_KEY)
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
-        continue-on-error: true
+      # Earnings Signals — DISABLED 2026-09-20 (pipeline audit).
+      #
+      # This was the single largest Anthropic line item in the whole system:
+      # the only step still calling Sonnet rather than Haiku, running daily
+      # across ~100 public tickers, at roughly $20/month. It produced 25 rows
+      # of earnings-call sentiment for companies that are already public.
+      #
+      # The site is used for one thing — deciding which private companies to
+      # visit and invest in — and an earnings transcript for a listed company
+      # serves neither. Re-enable if the public-comps view ever becomes part
+      # of the weekly routine; the script is unchanged and still works.
+      #
+      # - name: Earnings Signals (LLM extraction across ~100 frontier-adjacent global tickers)
+      #   run: python scripts/extract_earnings_signals.py
+      #   env:
+      #     ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
+      #   continue-on-error: true
 
       - name: Federal Grant Flow (NSF+NIH+ARPA-E merge)
         run: python scripts/fetch_federal_grants.py
