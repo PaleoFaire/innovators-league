@@ -58,7 +58,114 @@ VC_PORTFOLIO_URLS = {
     # ─── Tier 5: emerging / boutique ───
     "Harpoon": ["https://harpoon.vc/portfolio/"],
     "Bedrock": ["https://bedrockcap.com/portfolio/"],
+
+    # ─── Tier 6: the specialist seed funds that back this universe ───
+    #
+    # Added Sep 2026 after a manual scan. The lesson of that scan: the
+    # generalists are the wrong place to look. Point72's page returned 128
+    # companies, 111 of them not in our database and nearly all fintech —
+    # correctly absent, and pure noise to wade through. Bessemer, Greylock,
+    # Index and Spark have the same problem, which is why the discovery
+    # queue kept surfacing OpenAI, Cohere and Anysphere.
+    #
+    # The funds worth scanning are the ones whose portfolio we ALREADY
+    # mostly own, because that overlap is evidence their taste matches this
+    # universe. Silent Ventures was 36 of 47 already tracked — a 77% hit
+    # rate — and the 11 remaining produced Furientis, Supply Energetics,
+    # Sandtable, Fulcrum Autonomy and North Vector Dynamics in one pass.
+    #
+    # These are ranked by how much of the database each already backs,
+    # counted from the investors field rather than guessed at.
+    "Prime Movers Lab": ["https://www.primemoverslab.com/portfolio"],
+    "Riot Ventures": ["https://riot.vc/portfolio", "https://riotvc.com/portfolio"],
+    "Point72 Ventures": ["https://p72.vc/ventures/portfolio/"],
+    "Congruent Ventures": ["https://www.congruentvc.com/portfolio"],
+    "Breakthrough Energy": ["https://www.breakthroughenergy.org/investments/"],
+    "Valor Equity": ["https://valorep.com/portfolio/"],
+    "NVentures": ["https://www.nvidia.com/en-us/ventures/"],
+    "Washington Harbour": ["https://washingtonharbour.com/portfolio/"],
+    "Initialized": ["https://initialized.com/companies"],
+    "Draper Associates": ["https://draper.vc/companies"],
+    "Interlagos": ["https://www.interlagos.com/"],
+    "Pax Ventures": ["https://www.pax.vc/"],
+    "Caffeinated Capital": ["https://caffeinatedcapital.com/"],
+    "TenOneTen": ["https://www.tenoneten.net/portfolio"],
+    "Wave Function": ["https://www.wavefunction.vc/"],
+    "Also Capital": ["https://also.capital/"],
+    "Marque Ventures": ["https://www.marque.vc/"],
+    "8090 Industries": ["https://8090industries.com/"],
+    "Seraphim Space": ["https://seraphim.vc/portfolio"],
+    "America's Frontier Fund": ["https://www.americasfrontierfund.org/portfolio"],
 }
+
+# Portfolio pages name their CO-INVESTORS as well as their companies, and a
+# naive scrape cannot tell the two apart. The Sep 2026 scan pulled "Dauntless"
+# (a VC firm) and "Erebor Bank" off Silent Ventures' page as if they were
+# holdings. Anything matching this is a fund, not a portfolio company.
+INVESTOR_NAME_RE = re.compile(
+    r"\b(ventures?|capital|partners|fund|funds|vc|equity|holdings|"
+    r"investments?|accelerator|angels?|syndicate|lp|llp)\b$", re.I
+)
+
+# Names too generic to act on without a human look. A portfolio tile reading
+# "Edge" or "Flux" is as likely to be a heading as a company — the Sep scan
+# surfaced "Founder Tier", which is a section label on a VC's own page.
+GENERIC_TILE = {
+    "portfolio", "companies", "team", "about", "news", "contact", "founders",
+    "founder tier", "investments", "our companies", "all", "more", "next",
+    "previous", "close", "menu", "search", "edge", "flux", "core", "labs",
+    "ventures", "capital", "partners", "seed", "series a", "growth", "index",
+}
+
+
+def _norm_fund(s: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+
+
+_KNOWN_FUNDS: set[str] = set()
+
+
+def load_known_funds() -> set[str]:
+    """Every fund name the database already knows, from VC_FIRMS and from the
+    investors field on all companies.
+
+    A suffix rule cannot do this job on its own. "8090 Industries" and
+    "Prime Movers Lab" are funds while "Ares Industries" and "Foundry Lab"
+    are companies, and no pattern separates them — but we hold roughly three
+    thousand investor names, and anything on that list is a fund by
+    definition. Cheap, exact, and it improves every time an investor is
+    recorded on a company.
+    """
+    global _KNOWN_FUNDS
+    if _KNOWN_FUNDS:
+        return _KNOWN_FUNDS
+    funds = set(VC_PORTFOLIO_URLS)
+    try:
+        text = (DATA_DIR.parent / "data.js").read_text(encoding="utf-8",
+                                                       errors="replace")
+        for block in re.findall(r"investors:\s*\[(.*?)\]", text, re.S):
+            for m in re.findall(r'"((?:[^"\\]|\\.)*)"', block):
+                funds.add(m)
+        for m in re.findall(r'name:\s*"([^"]+)"[^}]*?\baum:', text, re.S):
+            funds.add(m)
+    except Exception as e:                       # never let this kill a run
+        print(f"  (could not load fund names from data.js: {e})")
+    _KNOWN_FUNDS = {_norm_fund(f) for f in funds if len(f) > 2}
+    return _KNOWN_FUNDS
+
+
+def looks_like_investor(name: str) -> bool:
+    """True when a scraped tile is a fund rather than a portfolio company."""
+    n = (name or "").strip()
+    if not n:
+        return True
+    if n.lower() in GENERIC_TILE:
+        return True
+    if INVESTOR_NAME_RE.search(n):
+        return True
+    if _norm_fund(n) in load_known_funds():
+        return True
+    return False
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
@@ -222,6 +329,12 @@ def main():
 
     all_changes = []
     total_new = 0
+    # Names a fund holds that we do NOT track. This is the discovery output,
+    # and until Sep 2026 the script threw it away: it only ever asked which
+    # KNOWN companies a fund holds, so it could enrich a VC record but could
+    # never find a company. Every one of the 247 companies added in the 60
+    # days to September came from a human doing this scan by hand.
+    candidates = []
 
     for vc_short, urls in VC_PORTFOLIO_URLS.items():
         existing = existing_portfolios.get(vc_short, set())
@@ -237,6 +350,38 @@ def main():
         # Match scraped names to tracked companies
         matched = match_to_tracked(all_scraped, tracked_companies)
         print(f"  Matched to {len(matched)} tracked companies")
+
+        # ── the discovery half ──────────────────────────────────────────
+        # Anything scraped that matched nothing is a candidate, once the
+        # co-investor names and generic page furniture are stripped out.
+        #
+        # Overlap is the quality signal. A fund whose portfolio we already
+        # mostly hold has taste that matches this universe, so its unknowns
+        # are worth reading; a fund we barely overlap with is either off-
+        # thesis or badly scraped, and its unknowns are noise either way.
+        # Silent Ventures scored 77% and yielded five real companies in one
+        # pass. Point72 scored 9% and yielded 111 fintech names.
+        unmatched = sorted(
+            n for n in all_scraped
+            if n not in matched and not looks_like_investor(n)
+            and 2 < len(n) < 46
+        )
+        overlap = len(matched) / len(all_scraped) if all_scraped else 0.0
+        if unmatched:
+            print(f"  {len(unmatched)} not in database "
+                  f"(portfolio overlap {overlap:.0%})")
+            for n in unmatched[:12]:
+                print(f"      · {n}")
+            if len(unmatched) > 12:
+                print(f"      … and {len(unmatched) - 12} more")
+        for n in unmatched:
+            candidates.append({
+                "name": n,
+                "vc": vc_short,
+                "vc_overlap": round(overlap, 3),
+                "portfolio_size": len(all_scraped),
+                "detected_date": datetime.now().strftime("%Y-%m-%d"),
+            })
 
         # Find new additions (in scraped but not in existing portfolio)
         new_companies = matched - existing
@@ -281,9 +426,42 @@ def main():
                     if c.get("detected_date", "2020-01-01") >= "2025-12-01"]
         output_path.write_text(json.dumps(combined, indent=2))
 
+    # ── write the discovery candidates ──────────────────────────────────
+    # Ranked by the overlap of the fund that holds them, so the reviewer
+    # reads the high-taste funds first and never has to wade through a
+    # generalist's fintech book to reach them.
+    cand_path = DATA_DIR / "vc_portfolio_candidates.json"
+    candidates.sort(key=lambda c: (-c["vc_overlap"], c["vc"], c["name"].lower()))
+    by_fund = {}
+    for c in candidates:
+        by_fund.setdefault(c["vc"], []).append(c["name"])
+    cand_path.write_text(json.dumps({
+        "generated_at": datetime.now().isoformat(),
+        "note": ("Portfolio names held by tracked frontier funds that are not "
+                 "in COMPANIES. Ranked by that fund's portfolio overlap with "
+                 "the database: high overlap means the fund's taste matches "
+                 "this universe, so its unknowns are worth reading. These are "
+                 "leads, not verified companies — each still needs a founder, "
+                 "a location and a round before it earns a record."),
+        "funds_scanned": len(VC_PORTFOLIO_URLS),
+        "total_candidates": len(candidates),
+        "high_overlap_candidates": sum(1 for c in candidates if c["vc_overlap"] >= 0.4),
+        "by_fund": by_fund,
+        "candidates": candidates,
+    }, indent=2))
+
     print(f"\n{'=' * 60}")
     print(f"Total new portfolio additions detected: {total_new}")
     print(f"Changes saved to: {output_path}")
+    print(f"\nDISCOVERY: {len(candidates)} names not in the database, "
+          f"{sum(1 for c in candidates if c['vc_overlap'] >= 0.4)} of them from "
+          f"funds with >=40% overlap")
+    print(f"Candidates saved to: {cand_path}")
+    top = [c for c in candidates if c["vc_overlap"] >= 0.4][:15]
+    if top:
+        print("\nread these first:")
+        for c in top:
+            print(f"  [{c['vc_overlap']:.0%} {c['vc']:<20}] {c['name']}")
     print("=" * 60)
 
 
