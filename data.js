@@ -61705,23 +61705,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-20 18:40
+// Last updated: 2026-09-20 21:25
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Humanoid", headline: "What do you do with a humanoid robot when it breaks down?", source: "The Robot Report", time: "5h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Plan is Less Than $1 Billion", source: "Next Big Future", time: "20h ago", impact: "high", unread: true },
-  { id: 3, type: "ipo", company: "OpenAI", headline: "Waiting for Compute Because They Have To Not Because OpenAI Wants to", source: "Next Big Future", time: "23h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic is operating a lab that conducts biology experiments", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Starmind AI in Space Radiator", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Humanoid", headline: "What do you do with a humanoid robot when it breaks down?", source: "The Robot Report", time: "8h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Plan is Less Than $1 Billion", source: "Next Big Future", time: "22h ago", impact: "high", unread: true },
+  { id: 4, type: "ipo", company: "OpenAI", headline: "Waiting for Compute Because They Have To Not Because OpenAI Wants to", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "contract", company: "Cape", headline: "Cape Canaveral is building up its counter-drone defenses, Space Force says", source: "Defense One", time: "1d ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Waymo", headline: "Waymo's Next Target: Singapore", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Icarus", headline: "Icarus Robotics flies ISS-bound robot in microgravity for the first time", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Mazama", headline: "Mazama Energy raises $135M for superhot geothermal at Oregon volcano", source: "Canary Media", time: "2d ago", impact: "high", unread: false },
-  { id: 9, type: "ipo", company: "Icarus", headline: "Icarus Robotics tests Joy in Canada ahead of ISS flight", source: "SpaceNews", time: "3d ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Waymo", headline: "Building Waymo's Risk &#038; Insurance Foundation in Europe with Allianz Partners", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Agility Robotics", headline: "The evolution of Digit: Agility Robotics' journey from Cassie to Digit 5", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "4d ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "Humanoid", headline: "Agility's Digit 5 humanoid has new legs, batteries, and safety upgrades", source: "The Robot Report", time: "5d ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "ICEYE", headline: "Iceye's global presence expands to address sovereign demand", source: "SpaceNews", time: "5d ago", impact: "low", unread: false },
+  { id: 6, type: "contract", company: "SpaceX", headline: "NASA Awards SpaceX Three Crew Flights to Space Station", source: "NASA Breaking News", time: "2d ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Waymo", headline: "Waymo's Next Target: Singapore", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "Icarus", headline: "Icarus Robotics flies ISS-bound robot in microgravity for the first time", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Mazama", headline: "Mazama Energy raises $135M for superhot geothermal at Oregon volcano", source: "Canary Media", time: "3d ago", impact: "high", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "NASA Invites Media to SpaceX's 35th Resupply Launch to Space Station", source: "NASA Breaking News", time: "3d ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Icarus", headline: "Icarus Robotics tests Joy in Canada ahead of ISS flight", source: "SpaceNews", time: "3d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Waymo", headline: "Building Waymo's Risk &#038; Insurance Foundation in Europe with Allianz Partners", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Agility Robotics", headline: "The evolution of Digit: Agility Robotics' journey from Cassie to Digit 5", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Deterrence", headline: "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence", source: "War on the Rocks", time: "5d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
