@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-19 10:34:39 UTC
+// Last updated: 2026-09-20 10:57:50 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Satellogic", form: "8-K", date: "2026-09-18", description: "ea0305994-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "Palantir Technologies", form: "4", date: "2026-09-17", description: "xslF345X06/wk-form4_1789692829.xml", isIPO: false, ticker: "PLTR" },

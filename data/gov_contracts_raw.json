@@ -685,18 +685,6 @@
   },
   {
     "company": "Anduril",
-    "awardId": "W911W625FA007",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 5104579.85,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-09-01",
-    "endDate": "2026-08-31",
-    "description": "SEE ATTACHMENT 0001, SOW LE - ALTIUS 700 FOR DEMONSTRATION TO 4"
-  },
-  {
-    "company": "Anduril",
     "awardId": "N0016420FJ265",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 4975154.42,
@@ -1198,6 +1186,18 @@
     "startDate": "2026-04-28",
     "endDate": "2027-04-27",
     "description": "CONCEPT DEVELOPMENT MINIMUM GUARANTEE"
+  },
+  {
+    "company": "Anduril",
+    "awardId": "M6785426F0020",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 56804.31,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Navy",
+    "awardType": null,
+    "startDate": "2025-10-30",
+    "endDate": "2026-10-29",
+    "description": "SITE SURVEY/TRAVEL FOR K-BAY I-CSUAS"
   },
   {
     "company": "Anduril Industries",
@@ -1885,18 +1885,6 @@
   },
   {
     "company": "Anduril Industries",
-    "awardId": "W911W625FA007",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 5104579.85,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-09-01",
-    "endDate": "2026-08-31",
-    "description": "SEE ATTACHMENT 0001, SOW LE - ALTIUS 700 FOR DEMONSTRATION TO 4"
-  },
-  {
-    "company": "Anduril Industries",
     "awardId": "N0016420FJ265",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 4975154.42,
@@ -2400,6 +2388,18 @@
     "description": "CONCEPT DEVELOPMENT MINIMUM GUARANTEE"
   },
   {
+    "company": "Anduril Industries",
+    "awardId": "M6785426F0020",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 56804.31,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Navy",
+    "awardType": null,
+    "startDate": "2025-10-30",
+    "endDate": "2026-10-29",
+    "description": "SITE SURVEY/TRAVEL FOR K-BAY I-CSUAS"
+  },
+  {
     "company": "Shield AI",
     "awardId": "70Z02326F93130005",
     "recipientName": "SHIELD AI INC",
@@ -2665,15 +2665,15 @@
   },
   {
     "company": "Palantir",
-    "awardId": "75P00122F37001",
+    "awardId": "15JPSS25F00000911",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 16160661.6,
-    "agency": "Department of Health and Human Services",
-    "subAgency": "Office of the Assistant Secretary for Administration",
+    "amount": 14643926.08,
+    "agency": "Department of Justice",
+    "subAgency": "Offices, Boards and Divisions",
     "awardType": null,
-    "startDate": "2022-04-21",
-    "endDate": "2025-09-20",
-    "description": "HHS SHARE BPA - BPA HOLDER'S ENTERPRISE LICENSES TASK ORDER"
+    "startDate": "2025-09-30",
+    "endDate": "2027-05-07",
+    "description": "CASE360 SOLUTIONS"
   },
   {
     "company": "Palantir",
@@ -2686,18 +2686,6 @@
     "startDate": "2025-09-24",
     "endDate": "2026-09-23",
     "description": "IT SERVICES. UNIFIED APPLICATION PROGRAMMING INTERFACE (API) MAKES IRS DATA EASILY ACCESSIBLE TO ANY APP BY PROVIDING A SEMANTIC LAYER THAT STANDARDIZES DATA ACROSS THE ENTERPRISE, ENABLING SEAMLESS A"
-  },
-  {
-    "company": "Palantir",
-    "awardId": "2032H524F00629",
-    "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 13533442.05,
-    "agency": "Department of the Treasury",
-    "subAgency": "Internal Revenue Service",
-    "awardType": null,
-    "startDate": "2024-09-11",
-    "endDate": "2026-03-24",
-    "description": "NEW SELECTION AND ANALYTICS PROGRAM (SNAP)/ NET INCOME TEST (NIT) TASK ORDER"
   },
   {
     "company": "Palantir",
@@ -2842,18 +2830,6 @@
     "startDate": "2022-09-30",
     "endDate": "2027-09-29",
     "description": "HHS SHARE BPA TASK ORDER FOR ACF DISCOVER"
-  },
-  {
-    "company": "Palantir",
-    "awardId": "15JPSS25F00000911",
-    "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 4729656.52,
-    "agency": "Department of Justice",
-    "subAgency": "Offices, Boards and Divisions",
-    "awardType": null,
-    "startDate": "2025-09-30",
-    "endDate": "2026-06-08",
-    "description": "CASE360 SOLUTIONS"
   },
   {
     "company": "Palantir",
@@ -3109,15 +3085,15 @@
   },
   {
     "company": "Palantir Technologies",
-    "awardId": "75P00122F37001",
+    "awardId": "15JPSS25F00000911",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 16160661.6,
-    "agency": "Department of Health and Human Services",
-    "subAgency": "Office of the Assistant Secretary for Administration",
+    "amount": 14643926.08,
+    "agency": "Department of Justice",
+    "subAgency": "Offices, Boards and Divisions",
     "awardType": null,
-    "startDate": "2022-04-21",
-    "endDate": "2025-09-20",
-    "description": "HHS SHARE BPA - BPA HOLDER'S ENTERPRISE LICENSES TASK ORDER"
+    "startDate": "2025-09-30",
+    "endDate": "2027-05-07",
+    "description": "CASE360 SOLUTIONS"
   },
   {
     "company": "Palantir Technologies",
@@ -3130,18 +3106,6 @@
     "startDate": "2025-09-24",
     "endDate": "2026-09-23",
     "description": "IT SERVICES. UNIFIED APPLICATION PROGRAMMING INTERFACE (API) MAKES IRS DATA EASILY ACCESSIBLE TO ANY APP BY PROVIDING A SEMANTIC LAYER THAT STANDARDIZES DATA ACROSS THE ENTERPRISE, ENABLING SEAMLESS A"
-  },
-  {
-    "company": "Palantir Technologies",
-    "awardId": "2032H524F00629",
-    "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 13533442.05,
-    "agency": "Department of the Treasury",
-    "subAgency": "Internal Revenue Service",
-    "awardType": null,
-    "startDate": "2024-09-11",
-    "endDate": "2026-03-24",
-    "description": "NEW SELECTION AND ANALYTICS PROGRAM (SNAP)/ NET INCOME TEST (NIT) TASK ORDER"
   },
   {
     "company": "Palantir Technologies",
@@ -3286,18 +3250,6 @@
     "startDate": "2022-09-30",
     "endDate": "2027-09-29",
     "description": "HHS SHARE BPA TASK ORDER FOR ACF DISCOVER"
-  },
-  {
-    "company": "Palantir Technologies",
-    "awardId": "15JPSS25F00000911",
-    "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 4729656.52,
-    "agency": "Department of Justice",
-    "subAgency": "Offices, Boards and Divisions",
-    "awardType": null,
-    "startDate": "2025-09-30",
-    "endDate": "2026-06-08",
-    "description": "CASE360 SOLUTIONS"
   },
   {
     "company": "Palantir Technologies",
@@ -4047,7 +3999,7 @@
     "company": "Space Exploration Technologies",
     "awardId": "80KSC023FA109",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 25097376.26,
+    "amount": 26097376.26,
     "agency": "National Aeronautics and Space Administration",
     "subAgency": "National Aeronautics and Space Administration",
     "awardType": null,
@@ -4645,6 +4597,18 @@
   },
   {
     "company": "Skydio",
+    "awardId": "140D0426F1201",
+    "recipientName": "SKYDIO, INC",
+    "amount": 44745.3,
+    "agency": "Department of the Interior",
+    "subAgency": "Departmental Offices",
+    "awardType": null,
+    "startDate": "2026-09-18",
+    "endDate": "2027-04-17",
+    "description": "SKYDIO UNMANNED AERIAL SYSTEMS (UASS)"
+  },
+  {
+    "company": "Skydio",
     "awardId": "140D0426F0203",
     "recipientName": "SKYDIO, INC",
     "amount": 43687.3,
@@ -4849,6 +4813,18 @@
   },
   {
     "company": "Skydio",
+    "awardId": "140D0426F1190",
+    "recipientName": "SKYDIO, INC",
+    "amount": 15282.6,
+    "agency": "Department of the Interior",
+    "subAgency": "Departmental Offices",
+    "awardType": null,
+    "startDate": "2026-09-18",
+    "endDate": "2027-04-18",
+    "description": "BPA CALL FOR SKYDIO UNMANNED AERIAL SYSTEMS (UASS)"
+  },
+  {
+    "company": "Skydio",
     "awardId": "12639526F0776",
     "recipientName": "SKYDIO, INC",
     "amount": 14533.46,
@@ -4906,18 +4882,6 @@
     "startDate": "2025-10-01",
     "endDate": "2026-09-30",
     "description": "TITLE: SKYDIO ENTERPRISE SOFTWARE FOR 4 X2E'S. REQUESTOR: DAVID D HAYUNGA POP DATES: 10/01/2025 TO 09/30/2026"
-  },
-  {
-    "company": "Skydio",
-    "awardId": "15DD0A25P00000052",
-    "recipientName": "SKYDIO, INC",
-    "amount": 720.0,
-    "agency": "Department of Justice",
-    "subAgency": "Drug Enforcement Administration",
-    "awardType": null,
-    "startDate": "2025-09-19",
-    "endDate": "2026-09-18",
-    "description": "TITLE: SKYDIO FLEET MANAGER FOR X10 REQUESTOR: DEREK  COVATCH POP DATES: 09/19/2025 TO 09/18/2026"
   },
   {
     "company": "Skydio",
@@ -5014,6 +4978,18 @@
     "startDate": "2025-09-29",
     "endDate": "2025-12-01",
     "description": "S2P2: UAS SOLICITATION # W911S225U1586 MASTER BLANKET PURCHASE AGREEMENT FOR BLUE LIST COMPLIANT UNMANNED AIRCRAFT SYSTEMS AND PARTS."
+  },
+  {
+    "company": "Neros",
+    "awardId": "N6893626P5254",
+    "recipientName": "NEROS, INC.",
+    "amount": 73850.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Navy",
+    "awardType": null,
+    "startDate": "2026-06-20",
+    "endDate": "2027-08-20",
+    "description": "NEROS HARDWARE"
   },
   {
     "company": "Neros",
@@ -5206,18 +5182,6 @@
     "startDate": "2025-01-06",
     "endDate": "2027-02-18",
     "description": "SBIR STRATFI - VELOCITY"
-  },
-  {
-    "company": "Vannevar Labs",
-    "awardId": "19MX5325P1516",
-    "recipientName": "VANNEVAR LABS INC",
-    "amount": 245000.0,
-    "agency": "Department of State",
-    "subAgency": "Department of State",
-    "awardType": null,
-    "startDate": "2025-09-19",
-    "endDate": "2025-09-30",
-    "description": "MEX-PD-RESEARCH CAMPAIGNS-FY25"
   },
   {
     "company": "Hadrian",
@@ -5463,7 +5427,7 @@
     "company": "Sierra Space",
     "awardId": "80JSC021F0074",
     "recipientName": "SIERRA SPACE CORP",
-    "amount": 8287632.07,
+    "amount": 8334427.95,
     "agency": "National Aeronautics and Space Administration",
     "subAgency": "National Aeronautics and Space Administration",
     "awardType": null,
@@ -5986,6 +5950,66 @@
     "startDate": "2024-08-22",
     "endDate": "2026-07-22",
     "description": "LOW SIZE, WEIGHT, POWER, AND COST (SWAP-C) SATELLITE COMMUNICATIONS (SATCOM) USER TERMINALS"
+  },
+  {
+    "company": "Sandtable",
+    "awardId": "W5170126CA022",
+    "recipientName": "SANDTABLE, INC.",
+    "amount": 1999495.84,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2026-01-19",
+    "endDate": "2027-07-19",
+    "description": "SMALL BUSINESS INNOVATION RESEARCH, DIRECT TO PHASE II TOPIC A254-P030, XTECHOVERWATCH OPEN TOPIC"
+  },
+  {
+    "company": "Sandtable",
+    "awardId": "W911QX25FA009",
+    "recipientName": "SANDTABLE, INC.",
+    "amount": 1101744.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2025-05-26",
+    "endDate": "2027-05-25",
+    "description": "BROAD AGENCY ANNOUNCEMENT TASK ORDER CONTRACT FOR RESEARCH AND DEVELOPMENT SERVICES INVOLVING ENHANCING SITUATION AWARENESS FOR COMMAND AND CONTROL (C2) THROUGH AGENTIC ARTIFICIAL INTELLIGENCE"
+  },
+  {
+    "company": "Noble Gas Systems",
+    "awardId": "W5170125CA265",
+    "recipientName": "NOBLE GAS SYSTEMS INC.",
+    "amount": 1899775.72,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2025-09-20",
+    "endDate": "2027-09-12",
+    "description": "TOPIC #: A234-011 - CONFORMABLE HYDROGEN STORAGE (PHASE II SEQUENTIAL)"
+  },
+  {
+    "company": "Noble Gas Systems",
+    "awardId": "W912CH24C0040",
+    "recipientName": "NOBLE GAS SYSTEMS INC.",
+    "amount": 601272.82,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2024-09-24",
+    "endDate": "2026-12-11",
+    "description": "PHASE III SBIR"
+  },
+  {
+    "company": "Noble Gas Systems",
+    "awardId": "W912CH24C0040",
+    "recipientName": "NOBLE GAS SYSTEMS INC.",
+    "amount": 551272.82,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2024-09-24",
+    "endDate": "2025-12-15",
+    "description": "PHASE III SBIR"
   },
   {
     "company": "Auriga Space",
@@ -6591,7 +6615,7 @@
     "company": "Intuitive Machines",
     "awardId": "80JSC024F0079",
     "recipientName": "INTUITIVE MACHINES, LLC",
-    "amount": 88031400.0,
+    "amount": 89934050.0,
     "agency": "National Aeronautics and Space Administration",
     "subAgency": "National Aeronautics and Space Administration",
     "awardType": null,
@@ -7882,18 +7906,6 @@
     "startDate": "2025-07-17",
     "endDate": "2027-07-16",
     "description": "PHASE II SBIR 80NSSC25C0026 - DESIGN OF AN ULTRA-LOW NOISE VENTILATION FAN FOR SPACE APPLICATIONS"
-  },
-  {
-    "company": "Whisper Aero",
-    "awardId": "80NSSC25C0403",
-    "recipientName": "WHISPER AERO INC",
-    "amount": 149996.0,
-    "agency": "National Aeronautics and Space Administration",
-    "subAgency": "National Aeronautics and Space Administration",
-    "awardType": null,
-    "startDate": "2025-09-29",
-    "endDate": "2026-03-27",
-    "description": "PHASE I SBIR 80NSSC25C0403 ULTRAQUIET JETFOIL-ENABLED V/STOL MULTI-MISSION UAS"
   },
   {
     "company": "IonQ",
@@ -9721,18 +9733,6 @@
   },
   {
     "company": "TrustPoint",
-    "awardId": "FA254124CB027",
-    "recipientName": "TRUSTPOINT, INC.",
-    "amount": 1899732.58,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2024-08-05",
-    "endDate": "2026-02-05",
-    "description": "F2D-11526 - MATURE THE PROOF-OF-POSITION (POP) SYSTEM/SERVICE, WITH ASSOCIATED SUBSYSTEMS, COMPONENTS, INTEGRATIONS, DEFENSE ADAPTATIONS, AND CONOPS, FROM TRL-2 TO TRL-5"
-  },
-  {
-    "company": "TrustPoint",
     "awardId": "N6833525C0230",
     "recipientName": "TRUSTPOINT, INC.",
     "amount": 923906.0,
@@ -10006,6 +10006,18 @@
     "startDate": "2026-01-21",
     "endDate": "2027-01-20",
     "description": "TACTICAL FUNDING INCREASE (TACFI) FOR INITIAL CONCEPT DEVELOPMENT, RISK REDUCTION AND ROCKET FLIGHT TESTS FOR LCAAM (LONG-RANGE COMPACT AIR TO AIR MISSILE), A LOW-COST, LONG-RANGE AIRBREATHING EFFECTO"
+  },
+  {
+    "company": "Specter Aerospace",
+    "awardId": "HQ086025CE016",
+    "recipientName": "SPECTER AEROSPACE INC.",
+    "amount": 1978749.0,
+    "agency": "Department of Defense",
+    "subAgency": "Missile Defense Agency",
+    "awardType": null,
+    "startDate": "2025-09-11",
+    "endDate": "2027-09-10",
+    "description": "HITMAN: HYPERSONIC INTERCEPTOR FOR MANEUVERING SYSTEMS"
   },
   {
     "company": "Pryzm",

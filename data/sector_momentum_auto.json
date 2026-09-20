@@ -15,25 +15,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-19"
+    "lastUpdated": "2026-09-20"
   },
   {
     "sector": "Transportation",
-    "momentum": 39,
+    "momentum": 38,
     "trend": "steady",
     "catalysts": [
-      "Joby Aviation&#8217;s 3,100-mile autonomous flight signals i",
       "Building Waymo\u2019s Risk &#038; Insurance Foundation in Europe",
       "Rivian\u2019s Gambit for Full Autonomy"
     ],
     "fundingQ": "$3.0B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-09-19"
+    "lastUpdated": "2026-09-20"
   },
   {
     "sector": "Defense & Security",
@@ -51,25 +50,25 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-19"
+    "lastUpdated": "2026-09-20"
   },
   {
     "sector": "AI & Software",
-    "momentum": 29,
+    "momentum": 30,
     "trend": "rising",
     "catalysts": [
+      "Waiting for Compute Because They Have To Not Because OpenAI",
       "Anthropic is operating a lab that conducts biology experimen",
-      "Anthropic Fears RSI &#8211; What is RSI? What Specifically i",
-      "OpenAI agents discussed ways to escape their sandbox on publ"
+      "Anthropic Fears RSI &#8211; What is RSI? What Specifically i"
     ],
     "fundingQ": "$2.4B",
     "components": {
       "funding": 39,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-19"
+    "lastUpdated": "2026-09-20"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -85,7 +84,25 @@
       "hiring": 0,
       "market": 98
     },
-    "lastUpdated": "2026-09-19"
+    "lastUpdated": "2026-09-20"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Pl",
+      "Waiting for Compute Because They Have To Not Because OpenAI",
+      "Cape Canaveral is building up its counter-drone defenses, Sp"
+    ],
+    "fundingQ": "$50M",
+    "components": {
+      "funding": 5,
+      "news": 40,
+      "hiring": 0,
+      "market": 43
+    },
+    "lastUpdated": "2026-09-20"
   },
   {
     "sector": "Biotech & Health",
@@ -101,25 +118,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-19"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 19,
-    "trend": "declining",
-    "catalysts": [
-      "Cape Canaveral is building up its counter-drone defenses, Sp",
-      "NASA Awards SpaceX Three Crew Flights to Space Station",
-      "NASA Invites Media to SpaceX\u2019s 35th Resupply Launch to Space"
-    ],
-    "fundingQ": "$50M",
-    "components": {
-      "funding": 5,
-      "news": 35,
-      "hiring": 0,
-      "market": 43
-    },
-    "lastUpdated": "2026-09-19"
+    "lastUpdated": "2026-09-20"
   },
   {
     "sector": "Quantum Computing",
@@ -135,24 +134,7 @@
       "hiring": 0,
       "market": 88
     },
-    "lastUpdated": "2026-09-19"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 18,
-    "trend": "declining",
-    "catalysts": [
-      "Waymo&#8217;s Next Target: Singapore",
-      "SpaceX Huge Next Flight and 150 Days to Change the World"
-    ],
-    "fundingQ": "$50M",
-    "components": {
-      "funding": 16,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-19"
+    "lastUpdated": "2026-09-20"
   },
   {
     "sector": "Nuclear Energy",
@@ -170,7 +152,23 @@
       "hiring": 0,
       "market": 55
     },
-    "lastUpdated": "2026-09-19"
+    "lastUpdated": "2026-09-20"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 17,
+    "trend": "declining",
+    "catalysts": [
+      "Waymo&#8217;s Next Target: Singapore"
+    ],
+    "fundingQ": "$50M",
+    "components": {
+      "funding": 16,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-20"
   },
   {
     "sector": "Consumer Tech",
@@ -188,25 +186,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-19"
+    "lastUpdated": "2026-09-20"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 14,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
       "Cape Canaveral is building up its counter-drone defenses, Sp",
-      "Joby Aviation&#8217;s 3,100-mile autonomous flight signals i",
       "Building Waymo\u2019s Risk &#038; Insurance Foundation in Europe"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-19"
+    "lastUpdated": "2026-09-20"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -222,7 +219,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-19"
+    "lastUpdated": "2026-09-20"
   },
   {
     "sector": "Ocean & Maritime",
@@ -238,7 +235,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-19"
+    "lastUpdated": "2026-09-20"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -254,7 +251,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-19"
+    "lastUpdated": "2026-09-20"
   },
   {
     "sector": "Climate & Energy",
@@ -272,6 +269,6 @@
       "hiring": 0,
       "market": 2
     },
-    "lastUpdated": "2026-09-19"
+    "lastUpdated": "2026-09-20"
   }
 ]

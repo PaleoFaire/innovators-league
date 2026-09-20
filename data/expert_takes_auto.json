@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T10:46:07.368916Z",
+  "generated_at": "2026-09-20T11:11:21.808289Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -30,12 +30,22 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/geothermal/mazama-energy-raises-135m-oregon-geothermal",
       "signal_type": "funding"
+    },
+    {
+      "author": "Next Big Future",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Plan is Less Than $1 Billion",
+      "date": "Sat, 19 Se",
+      "source": "news",
+      "source_url": "https://www.nextbigfuture.com/2026/09/bank-of-america-estimates-space-ai-at-160b-gw-wall-street-is-pricing-the-wrong-rocket.html",
+      "signal_type": "ipo"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 3,
+    "from_news": 4,
     "from_press": 0
   }
 }
