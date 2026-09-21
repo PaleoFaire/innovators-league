@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T04:46:52.329347+00:00",
+  "generatedAt": "2026-09-21T10:35:55.100316+00:00",
   "date": "2026-09-21",
   "dateDisplay": "Monday, September 21, 2026",
   "sections": {
@@ -96,6 +96,13 @@
         "change": 43.69
       },
       {
+        "ticker": "IDEAFORGE.NS",
+        "company": "ideaForge",
+        "price": 763.4,
+        "changePercent": 8.4,
+        "change": 59.15
+      },
+      {
         "ticker": "SATL",
         "company": "Satellogic",
         "price": 5.11,
@@ -108,13 +115,6 @@
         "price": 14.99,
         "changePercent": -6.49,
         "change": -1.04
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 39.13,
-        "changePercent": 6.48,
-        "change": 2.38
       }
     ],
     "regulatory": [
