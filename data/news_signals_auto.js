@@ -1,30 +1,30 @@
 // Auto-generated news signals
-// Last updated: 2026-09-21T00:05:53.736Z
+// Last updated: 2026-09-21T04:46:42.273Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1789949153736,
+    "id": 1789966002273,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starmind AI in Space Radiator",
     "source": "Next Big Future",
-    "time": "2h ago",
+    "time": "7h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/09/spacex-starmind-ai-in-space-radiator.html"
   },
   {
-    "id": 1789949153737,
+    "id": 1789966002274,
     "type": "news",
     "company": "Humanoid",
     "headline": "What do you do with a humanoid robot when it breaks down?",
     "source": "The Robot Report",
-    "time": "11h ago",
+    "time": "16h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/"
   },
   {
-    "id": 1789949153738,
+    "id": 1789966002275,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Plan is Less Than $1 Billion",
@@ -35,7 +35,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/09/bank-of-america-estimates-space-ai-at-160b-gw-wall-street-is-pricing-the-wrong-rocket.html"
   },
   {
-    "id": 1789949153739,
+    "id": 1789966002276,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "Waiting for Compute Because They Have To Not Because OpenAI Wants to",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/09/waiting-for-compute-because-they-have-to-not-because-openai-wants-to.html"
   },
   {
-    "id": 1789949153740,
+    "id": 1789966002277,
     "type": "contract",
     "company": "Cape",
     "headline": "Cape Canaveral is building up its counter-drone defenses, Space Force says",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/defense-systems/2026/09/cape-canaveral-building-its-counter-drone-defenses-space-force-says/416096/"
   },
   {
-    "id": 1789949153741,
+    "id": 1789966002278,
     "type": "contract",
     "company": "SpaceX",
     "headline": "NASA Awards SpaceX Three Crew Flights to Space Station",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/"
   },
   {
-    "id": 1789949153742,
+    "id": 1789966002279,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo&#8217;s Next Target: Singapore",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/09/18/waymos-next-target-singapore/"
   },
   {
-    "id": 1789949153743,
+    "id": 1789966002280,
     "type": "milestone",
     "company": "Icarus",
     "headline": "Icarus Robotics flies ISS-bound robot in microgravity for the first time",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/icarus-robotics-flies-iss-bound-robot-in-microgravity-for-the-first-time/"
   },
   {
-    "id": 1789949153744,
+    "id": 1789966002281,
     "type": "funding",
     "company": "Mazama",
     "headline": "Mazama Energy raises $135M for superhot geothermal at Oregon volcano",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/geothermal/mazama-energy-raises-135m-oregon-geothermal"
   },
   {
-    "id": 1789949153745,
+    "id": 1789966002282,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-35th-resupply-launch-to-space-station/"
   },
   {
-    "id": 1789949153746,
+    "id": 1789966002283,
     "type": "ipo",
     "company": "Icarus",
     "headline": "Icarus Robotics tests Joy in Canada ahead of ISS flight",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/icarus-robotics-tests-joy-in-canada-ahead-of-iss-flight/"
   },
   {
-    "id": 1789949153747,
+    "id": 1789966002284,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months",
@@ -134,18 +134,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/09/spacex-could-beat-its-entire-2025-revenue-in-just-2-months.html"
   },
   {
-    "id": 1789949153748,
+    "id": 1789966002285,
     "type": "news",
     "company": "Waymo",
     "headline": "Building Waymo’s Risk &#038; Insurance Foundation in Europe with Allianz Partners",
     "source": "CleanTechnica",
-    "time": "3d ago",
+    "time": "4d ago",
     "impact": "low",
     "unread": false,
     "link": "https://cleantechnica.com/2026/09/16/building-waymos-risk-insurance-foundation-in-europe-with-allianz-partners/"
   },
   {
-    "id": 1789949153749,
+    "id": 1789966002286,
     "type": "news",
     "company": "Agility Robotics",
     "headline": "The evolution of Digit: Agility Robotics&#8217; journey from Cassie to Digit 5",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/"
   },
   {
-    "id": 1789949153750,
+    "id": 1789966002287,
     "type": "ipo",
     "company": "Deterrence",
     "headline": "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://warontherocks.com/the-atlantic-brief-u-s-and-european-perspectives-on-nuclear-deterrence/"
   },
   {
-    "id": 1789949153751,
+    "id": 1789966002288,
     "type": "milestone",
     "company": "Humanoid",
     "headline": "Agility’s Digit 5 humanoid has new legs, batteries, and safety upgrades",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/"
   },
   {
-    "id": 1789949153752,
+    "id": 1789966002289,
     "type": "funding",
     "company": "ICEYE",
     "headline": "Iceye&#8217;s global presence expands to address sovereign demand",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/iceye-rapidly-expands-global-presence-to-address-sovereign-demand/"
   },
   {
-    "id": 1789949153753,
+    "id": 1789966002290,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic Fears RSI &#8211; What is RSI? What Specifically is It?",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/09/anthropic-fears-rsi-what-is-rsi-what-specifically-is-it.html"
   },
   {
-    "id": 1789949153754,
+    "id": 1789966002291,
     "type": "news",
     "company": "xAI",
     "headline": "xAI has quietly built a massive battery at its Memphis data center hub",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/batteries/xai-massive-battery-memphis-data-center"
   },
   {
-    "id": 1789949153755,
+    "id": 1789966002292,
     "type": "news",
     "company": "Deterrence",
     "headline": "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture",
