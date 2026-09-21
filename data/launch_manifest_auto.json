@@ -1,23 +1,5 @@
 [
   {
-    "date": "2026-09-20",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 15-27",
-    "payload": "Starlink Group 15-27",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/d1471f9d-e9d0-4146-8e97-90863e48bfc8/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-09-20",
-    "vehicle": "Kinetica 1 | 9 satellites",
-    "payload": "9 satellites",
-    "pad": "Launch Area 130, Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "CAS Space",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/5af31461-bce5-4cfb-a0ee-b527cf285d90/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-09-23",
     "vehicle": "Long March 8A | Unknown Payload",
     "payload": "Unknown Payload",
@@ -447,6 +429,24 @@
     "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/548df42c-ae26-4cc9-921a-f0042941911a/?format=json",
+    "trackedCompany": "Rocket Lab"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Electron | BlackSky Gen-3 7",
+    "payload": "BlackSky Gen-3 7",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5aa3575e-f3ff-48ec-969f-e7e4c669f866/?format=json",
+    "trackedCompany": "Rocket Lab"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Electron | BlackSky Gen-3 8",
+    "payload": "BlackSky Gen-3 8",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/280fba47-8e6e-4a4f-8bdd-b9687d99a9c5/?format=json",
     "trackedCompany": "Rocket Lab"
   }
 ]
