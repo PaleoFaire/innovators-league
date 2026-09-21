@@ -1,6 +1,7 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-20 10:57:50 UTC
+// Last updated: 2026-09-21 12:23:39 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-09-21", description: "qbts-20260918.htm", isIPO: false, ticker: "QBTS" },
   { company: "Satellogic", form: "8-K", date: "2026-09-18", description: "ea0305994-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "Palantir Technologies", form: "4", date: "2026-09-17", description: "xslF345X06/wk-form4_1789692829.xml", isIPO: false, ticker: "PLTR" },
   { company: "AST SpaceMobile", form: "4", date: "2026-09-17", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
@@ -50,5 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Oklo", form: "4", date: "2026-09-09", description: "xslF345X06/wk-form4_1788985699.xml", isIPO: false, ticker: "OKLO" },
   { company: "Centrus Energy", form: "8-K", date: "2026-09-09", description: "leu-20260909.htm", isIPO: false, ticker: "LEU" },
   { company: "C3.ai", form: "10-Q", date: "2026-09-09", description: "ai-20260731.htm", isIPO: false, ticker: "AI" },
-  { company: "UiPath", form: "4", date: "2026-09-09", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
 ];
