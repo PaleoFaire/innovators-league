@@ -11,13 +11,13 @@
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 7.18,
+      "avg_change": 8.94,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 4.14,
+      "avg_change": 2.7,
       "count": 7
     },
     "nuclear": {
@@ -86,14 +86,14 @@
   ],
   "topLosers": [
     [
+      "AUR",
+      "Aurora Innovation",
+      0.77
+    ],
+    [
       "LNZA",
       "LanzaTech",
       0.33
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      0.0
     ],
     [
       "ACHR",
@@ -111,5 +111,5 @@
       -3.15
     ]
   ],
-  "lastUpdated": "2026-09-21 22:37:42"
+  "lastUpdated": "2026-09-22 06:18:36"
 }
