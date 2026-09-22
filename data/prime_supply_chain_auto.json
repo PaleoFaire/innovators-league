@@ -2,7 +2,7 @@
   {
     "prime": "Lockheed Martin",
     "ticker": "LMT",
-    "totalCompanies": 13,
+    "totalCompanies": 14,
     "portfolio": [
       {
         "company": "Anduril",
@@ -18,6 +18,12 @@
       },
       {
         "company": "Divergent",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "lockheed martin"
+      },
+      {
+        "company": "Elve",
         "relationship": "mentioned",
         "source": "ROS company research",
         "evidence": "lockheed martin"

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-21T13:50:33.175665+00:00",
+  "generated_at": "2026-09-22T12:35:32.939385+00:00",
   "lookback_days": 8,
-  "scanned": 1381,
-  "total": 8,
+  "scanned": 1366,
+  "total": 7,
   "filings": [
     {
       "match_method": "cik",
@@ -178,28 +178,6 @@
         "Prateek Lal"
       ],
       "is_safe": true,
-      "source": "edgar-daily-index"
-    },
-    {
-      "match_method": "cik",
-      "match_evidence": "filer CIK 2107493 == our recorded CIK",
-      "company": "Persona AI",
-      "issuer_name": "Persona AI Inc.",
-      "form": "D",
-      "filed_date": "2026-09-14",
-      "cik": "2107493",
-      "accession": "0002107493-26-000002",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/2107493/000210749326000002/primary_doc.xml",
-      "offering_amount": "141964814",
-      "amount_sold": "65363626",
-      "amount_remaining": "76601188",
-      "securities_type": "Equity",
-      "related_persons": [
-        "Nicolaus Radford",
-        "Jide Akinyode",
-        "Jerry Pratt"
-      ],
-      "is_safe": false,
       "source": "edgar-daily-index"
     }
   ]

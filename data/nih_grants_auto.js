@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-09-21 13:34:19 UTC
+// Last updated: 2026-09-22 12:19:14 UTC
 // Total grants: 643 | Known companies: 11 | SBIR: 39
-// Total funding tracked: $404,805,205
+// Total funding tracked: $404,967,940
 const NIH_GRANTS_AUTO = [
   {
     title: "PROVIDENT:  Prepositioning Optimized Strategies for Vaccines and Immunotherapeutics against Diverse Emerging Infectious ",

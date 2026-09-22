@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-09-21 13:34:23 UTC
-// Total signals: 44 | Companies matched: 191
+// Last updated: 2026-09-22 12:19:11 UTC
+// Total signals: 44 | Companies matched: 192
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -488,18 +488,18 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Stendr",
+        "score": 20,
+        "matchReasons": [
+          "tag: counter-drone",
+          "cluster: autonomy-counter-drone"
+        ]
+      },
+      {
         "name": "Allen Control Systems",
         "score": 20,
         "matchReasons": [
           "tag: counter-drone",
-          "tag: defense"
-        ]
-      },
-      {
-        "name": "Radiant",
-        "score": 20,
-        "matchReasons": [
-          "tag: portable",
           "tag: defense"
         ]
       }
@@ -513,8 +513,8 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "SkySafe",
       "Fortem Technologies",
       "Tekever",
-      "Allen Control Systems",
-      "Radiant"
+      "Stendr",
+      "Allen Control Systems"
     ]
   },
   {
@@ -4542,8 +4542,8 @@ const GOV_PULL_SCORES_AUTO = {
       "Soldier-Portable Directed Energy for Counter-Drone"
     ]
   },
-  "Allen Control Systems": {
-    "name": "Allen Control Systems",
+  "Stendr": {
+    "name": "Stendr",
     "govPullScore": 14,
     "matchCount": 1,
     "topAgencies": [
@@ -4554,17 +4554,15 @@ const GOV_PULL_SCORES_AUTO = {
       "Soldier-Portable Directed Energy for Counter-Drone"
     ]
   },
-  "Radiant": {
-    "name": "Radiant",
-    "govPullScore": 26,
-    "matchCount": 2,
+  "Allen Control Systems": {
+    "name": "Allen Control Systems",
+    "govPullScore": 14,
+    "matchCount": 1,
     "topAgencies": [
-      "Department of Energy (DOE)",
       "U.S. Army"
     ],
-    "avgRelevance": 24,
+    "avgRelevance": 20,
     "topSignals": [
-      "Advanced HALEU Fuel Fabrication Capabilities",
       "Soldier-Portable Directed Energy for Counter-Drone"
     ]
   },
@@ -5388,6 +5386,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Department of Energy (DOE)"
     ],
     "avgRelevance": 50,
+    "topSignals": [
+      "Advanced HALEU Fuel Fabrication Capabilities"
+    ]
+  },
+  "Radiant": {
+    "name": "Radiant",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "Department of Energy (DOE)"
+    ],
+    "avgRelevance": 29,
     "topSignals": [
       "Advanced HALEU Fuel Fabrication Capabilities"
     ]
@@ -6663,6 +6673,6 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 191,
-  "lastUpdated": "2026-09-21 13:34:23 UTC"
+  "companiesMatched": 192,
+  "lastUpdated": "2026-09-22 12:19:11 UTC"
 };
