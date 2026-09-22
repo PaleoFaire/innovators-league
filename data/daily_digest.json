@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T04:38:18.755640+00:00",
+  "generatedAt": "2026-09-22T09:49:56.190152+00:00",
   "date": "2026-09-22",
   "dateDisplay": "Tuesday, September 22, 2026",
   "sections": {
@@ -103,18 +103,18 @@
         "change": 1.84
       },
       {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 7.42,
+        "changePercent": 12.33,
+        "change": 0.81
+      },
+      {
         "ticker": "ONT.L",
         "company": "Oxford Nanopore Technologies",
         "price": 172.2,
         "changePercent": 11.82,
         "change": 18.2
-      },
-      {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 69.89,
-        "changePercent": 11.73,
-        "change": 7.34
       }
     ],
     "regulatory": [

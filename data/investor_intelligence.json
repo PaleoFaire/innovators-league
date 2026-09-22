@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-22T04:38:52+00:00",
+  "generatedAt": "2026-09-22T09:50:36+00:00",
   "stats": {
-    "companies": 1211,
+    "companies": 1216,
     "vcFirms": 27,
-    "uniqueClusters": 147,
-    "totalInvestments": 520
+    "uniqueClusters": 148,
+    "totalInvestments": 522
   },
   "concentration": {
     "General Catalyst": {
@@ -176,6 +176,12 @@
         "count": 1,
         "companies": [
           "Evolv Technology"
+        ]
+      },
+      "defense-holding-company": {
+        "count": 1,
+        "companies": [
+          "Valinor Enterprises"
         ]
       },
       "indian-defense-uav": {
@@ -835,6 +841,12 @@
         "count": 1,
         "companies": [
           "Ultima Genomics"
+        ]
+      },
+      "defense-holding-company": {
+        "count": 1,
+        "companies": [
+          "Valinor Enterprises"
         ]
       },
       "ai-silicon-inference": {
@@ -3292,6 +3304,18 @@
         "share": 0.5
       }
     ],
+    "defense-holding-company": [
+      {
+        "vc": "General Catalyst",
+        "count": 1,
+        "share": 0.5
+      },
+      {
+        "vc": "Founders Fund",
+        "count": 1,
+        "share": 0.5
+      }
+    ],
     "indian-defense-uav": [
       {
         "vc": "General Catalyst",
@@ -4846,9 +4870,9 @@
   "momentum": [
     {
       "vc": "Founders Fund",
-      "recentCount": 52,
-      "totalCount": 55,
-      "score": 43.093,
+      "recentCount": 53,
+      "totalCount": 56,
+      "score": 43.78,
       "topCluster": "manufacturing-reshoring",
       "recentExamples": [
         {
@@ -4948,9 +4972,9 @@
     },
     {
       "vc": "General Catalyst",
-      "recentCount": 35,
-      "totalCount": 37,
-      "score": 30.708,
+      "recentCount": 36,
+      "totalCount": 38,
+      "score": 31.455,
       "topCluster": "autonomy-drone-military",
       "recentExamples": [
         {
