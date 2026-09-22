@@ -46,7 +46,7 @@ RULES: dict[str, list[tuple[str, str]]] = {
     "Defense & Security": [
         ("Maritime Defense", r"maritime|underwater|subsea|seabed|sonar|naval|unmanned surface|usv\b|uuv\b|vessel"),
         ("Missiles & Munitions", r"missile|munition|hypersonic|solid rocket|propellant|warhead|strike weapon|interceptor|energetics"),
-        ("Electronic Warfare & Sensing", r"electronic warfare|\bew\b|jamm|spoof|radar|rf |radio.?frequency|signals intelligence|sigint|spectrum|sensor fusion|night vision"),
+        ("Electronic Warfare & Sensing", r"electronic warfare|\bew\b|jamm|spoof|radar|\brf\b|radio.?frequency|signals intelligence|sigint|spectrum|sensor fusion|night vision"),
         ("Drones & Counter-UAS", r"counter[- ]?(?:uas|drone)|fpv|attack drone|drone swarm|loitering|quadcopter|\buas\b|\buav\b|drone"),
         ("Defense Software & Intelligence", r"software|intelligence platform|data platform|command and control|\bc2\b|osint|autonomy stack|simulation|digital twin|cyber"),
         ("Space & Air Defense", r"air defen|missile defen|space domain|orbital|satellite"),
@@ -57,7 +57,7 @@ RULES: dict[str, list[tuple[str, str]]] = {
         ("In-Space Manufacturing & Stations", r"in[- ]space (?:manufactur|production)|space station|microgravity|orbital (?:factory|manufactur|warehouse)|reentry capsule|re-entry"),
         ("Space Logistics & Servicing", r"servicing|debris|tug|last[- ]mile|orbital transfer|docking|refuel|deorbit|space logistics"),
         ("Communications & PNT", r"\bpnt\b|navigation|gps|comms constellation|communications satellite|laser comm|optical link|ground station"),
-        ("Deep Space & Resources", r"asteroid|lunar|moon|mars|deep space|helium-3|space resources|mining"),
+        ("Deep Space & Resources", r"asteroid|lunar|moon(?!shot)|\bmars\b|deep space|helium-3|space resources|mining"),
         ("Satellites & Buses", r"satellite bus|smallsat|cubesat|satellite platform|constellation|spacecraft"),
     ],
     "Robotics & Manufacturing": [
@@ -86,9 +86,9 @@ RULES: dict[str, list[tuple[str, str]]] = {
         ("Fission Reactors", r"reactor|\bsmr\b|microreactor|fission|molten salt|pebble|heat pipe"),
     ],
     "Biotech & Health": [
-        ("Agriculture & Food Bio", r"crop|agricultur|plant|seed|farm|food|protein production|precision fermentation"),
+        ("Agriculture & Food Bio", r"crop|agricultur|\bplants?\b|\bseeds?\b(?![- ](?:round|funding|stage|extension|financing|from|investment))|farm|food|protein production|precision fermentation"),
         ("Neurotech", r"neuro|brain|neural interface|bci\b"),
-        ("Longevity", r"longevity|aging|age[- ]related|rejuvenation"),
+        ("Longevity", r"longevity|\baging|age[- ]related|rejuvenation"),
         ("Biomanufacturing & Tools", r"biomanufactur|cell therapy manufactur|bioreactor|lab automation|lab[- ]in[- ]a[- ]box|dna synthesis|sequencing platform|biofoundry"),
         ("Devices & Diagnostics", r"medical device|diagnostic|imaging|wearable|prosthetic|surgical|implant|monitor"),
         ("Drug Discovery & TechBio", r"drug|therapeutic|antibody|molecule|protein design|target discovery|clinical|pharma|vaccine|oncology|gene therapy"),
@@ -97,7 +97,7 @@ RULES: dict[str, list[tuple[str, str]]] = {
         ("AI Compute", r"ai (?:chip|accelerator|compute|processor)|inference|training chip|wafer[- ]scale|\bgpu\b|\basic\b|\bnpu\b|tensor|transformer chip|hpc"),
         ("Photonics & Interconnect", r"photonic|optical (?:i/o|interconnect|computing)|silicon photonics|laser chip"),
         ("Fabs & Manufacturing Equipment", r"\bfab\b|foundry|lithograph|wafer fab|semiconductor (?:manufactur|equipment|tool)|packaging|metrology"),
-        ("Sensors & Specialty Silicon", r"sensor|lidar|radar chip|imaging chip|iot |rf chip|gps|analog|power semiconductor"),
+        ("Sensors & Specialty Silicon", r"sensor|lidar|radar chip|imaging chip|\biot\b|rf chip|gps|analog|power semiconductor"),
     ],
     "Quantum Computing": [
         ("Quantum Software & Networking", r"quantum (?:software|algorithm|network|internet|security|sensing)|post[- ]quantum|qkd"),
@@ -114,9 +114,12 @@ RULES: dict[str, list[tuple[str, str]]] = {
         ("Industrial & Engineering Software", r"engineering|simulation|cad\b|manufactur|industrial|construction software|energy software|physics"),
     ],
     "Transportation": [
-        ("Marine Vessels", r"boat|ship|vessel|ferry|hydrofoil|marine"),
-        ("Aviation & Engines", r"aircraft|aviation|jet|engine|airship|seaplane|airline"),
-        ("Rail & Freight", r"rail|train|freight|trucking|locomotive"),
+        # Word boundaries matter here: bare "ship" matched "partnerships",
+        # "airships" and "Lightship"; "rail" matched "trailer"; "train" would
+        # match "training"; "engine" would match "engineer".
+        ("Marine Vessels", r"\bboats?\b|\bships?\b|\bshipbuild|\bshipyard|vessel|ferry|ferries|hydrofoil|marine"),
+        ("Aviation & Engines", r"aircraft|aviation|\bjets?\b|\bengines?\b|airship|seaplane|airline"),
+        ("Rail & Freight", r"\brail|\btrains?\b|freight|trucking|locomotive"),
     ],
     "Housing & Construction": [
         ("Industrialized Housing", r"modular|prefab|factory[- ]built|kit[- ]of[- ]parts|offsite|industrialized"),
@@ -133,6 +136,15 @@ RULES: dict[str, list[tuple[str, str]]] = {
 OVERRIDES = {
     "Anduril Industries": "General",
     "SpaceX": "Launch",
+    # A reactor developer that also makes isotopes; "isotope" would otherwise
+    # match Fuels & Isotopes, which is checked before Fission Reactors.
+    "Atlas Atomics": "Fission Reactors",
+    # Hand-curated shelves the text rules get wrong (checked 2026-09-22):
+    "Valinor Enterprises": "General",                   # holding company, like Anduril
+    "Resilience": "Biomanufacturing & Tools",           # CDMO; "drug-product" hits Drug Discovery
+    "Lazarus Energy Systems": "Grid & Power Delivery",  # sCO2 turbines; "CO2" hits Carbon Capture
+    "E-Space": "Communications & PNT",                  # constellation; "debris" hits Servicing
+    "Fulcrum Autonomy": "Defense Software & Intelligence",
 }
 
 
