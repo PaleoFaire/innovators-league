@@ -25,6 +25,13 @@ the HTML, so a plain fetch beats a headless browser: no JS, no scrolling, no
 pagination. `buildlist` parses the Next flight payload; add new sources by
 writing a small extractor and registering it in SOURCES.
 
+Sources move. In Sept 2026 buildlist turned its homepage into a jobs board and
+moved the directory to /companies, and the extractor kept "succeeding" with
+zero rows for two weekly runs. A source that suddenly parses nothing, or under
+half of the previous run's count, is now treated as broken: its last good data
+is kept, the error is recorded, and the script exits non-zero so the Action
+goes red instead of quietly reporting "0 listed".
+
 Matching uses a suffix-stripping stem so "Varda Space" resolves to
 "Varda Space Industries" and "Helion Energy" to "Helion", and it honours
 formerNames so a rename is not reported as a discovery.
@@ -66,6 +73,10 @@ QUEUE_OUT = DATA_DIR / "curated_review_queue.json"
 
 UA = "InnovatorsLeague-Bot/1.0 (+https://innovatorsleague.com; research)"
 
+# A source that parses fewer than this share of its previous run's count is
+# treated as broken (page moved or layout changed), not as companies vanishing.
+MIN_KEEP = 0.5
+
 # buildlist sector -> our SECTORS taxonomy. Anything not here is out of scope
 # (AI App, AI Research, Fintech, Public Services, Education, Supply Chain).
 # Source sector vocabulary -> our SECTORS taxonomy. Sources use different words
@@ -100,7 +111,13 @@ SOFT = re.compile(
     r"(medicare|insurance|referral|paperwork|documentation|clinical document|"
     r"source-to-pay|marketplace|gpu cloud|serverless|ai cloud|penetration testing|"
     r"lab testing|drug trials with ai|generative ai agents|trades .*online|"
-    r"energy retail|detects emerging risks|observability|telemetry platform)", re.I)
+    r"energy retail|detects emerging risks|observability|telemetry platform|"
+    # Added after the 2026-09-22 queue review, where these slipped through as
+    # hard tech: PermitFlow, SESO, Traba, Sustainment, Candid Health, Socket,
+    # Infisical, Verse Medical, Mithril.
+    r"permitting|labor market|labor platform|software platform connecting|"
+    r"revenue cycle|claims processing|cloud gpu|gpu capacity|malware|"
+    r"managing secrets|software that coordinates)", re.I)
 
 # Public megacaps and mega-private labs we deliberately do not track.
 EXCLUDE = {
@@ -190,11 +207,18 @@ def extract_buildlist(html: str) -> list[dict]:
             r = re.search(r'"' + k + r'":"((?:[^"\\]|\\.)*)"', body)
             return r.group(1).replace("\\u0026", "&") if r else ""
 
+        # careers_url sits after "status" in the record; the job board is the most
+        # reliable place to confirm a company's real HQ during review.
+        tail = t[m.end():m.end() + 600].split("}", 1)[0]
+        careers = re.search(r'"careers_url":"((?:[^"\\]|\\.)*)"', tail)
+
         out.append({
             "name": name.replace("\\u0026", "&"), "status": status,
             "sector": f("sector"), "tagline": f("tagline"), "founders": f("founders"),
             "city": f("location_city"), "founded": f("founded_date"),
             "round": f("last_round"), "raised": re.sub(r"^\$\$", "$", f("total_raised")),
+            "last_round_date": f("last_round_date"),
+            "careers_url": careers.group(1).replace("\\u0026", "&") if careers else "",
         })
     return out
 
@@ -245,7 +269,8 @@ def extract_blackflag(html: str) -> list[dict]:
 
 
 SOURCES = {
-    "buildlist": {"url": "https://buildlist.xyz", "extract": extract_buildlist,
+    # The directory lives at /companies since Sept 2026; "/" is now a jobs board.
+    "buildlist": {"url": "https://buildlist.xyz/companies", "extract": extract_buildlist,
                   "note": "Curated directory of companies building the future (Ryan & Christian)"},
     "blackflag": {"url": "https://www.blackflag.vc/100-2", "extract": extract_blackflag,
                   "note": "Black Flag VC's 100 — defense/frontier, high precision (57% already tracked)"},
@@ -294,7 +319,16 @@ def main() -> int:
     exact, stems, people = known_names()
     targets = {args.source: SOURCES[args.source]} if args.source else SOURCES
     generated = datetime.now(timezone.utc)
-    report, all_new = {}, []
+    prev = json.loads(JSON_OUT.read_text()).get("sources", {}) if JSON_OUT.exists() else {}
+    report, all_new, broken = {}, [], []
+
+    def keep_last_good(key: str, why: str) -> None:
+        """Record the failure but keep the previous run's data for this source."""
+        print(f"   FAILED: {why}")
+        last = {k: v for k, v in (prev.get(key) or {"listed": 0}).items() if k != "error"}
+        report[key] = {**last, "error": why,
+                       "stale_since": last.get("stale_since", generated.isoformat())}
+        broken.append(key)
 
     for key, src in targets.items():
         print(f"→ {key}: {src['url']}", flush=True)
@@ -303,8 +337,13 @@ def main() -> int:
             r.raise_for_status()
             rows = src["extract"](r.text)
         except Exception as e:                                    # noqa: BLE001
-            print(f"   FAILED: {e}")
-            report[key] = {"error": str(e), "listed": 0}
+            keep_last_good(key, str(e))
+            continue
+
+        before = (prev.get(key) or {}).get("listed") or 0
+        if not rows or (before >= 50 and len(rows) < before * MIN_KEEP):
+            keep_last_good(key, f"parsed {len(rows)} companies (last run: {before}); "
+                                "the page layout or URL has probably changed")
             continue
 
         missing = []
@@ -338,8 +377,10 @@ def main() -> int:
         for why, names in sorted(rejected.items(), key=lambda kv: -len(kv[1])):
             print(f"      rejected {len(names):>3}: {why}")
 
+    # A single-source run must not wipe the other sources' last results.
+    sources = {**prev, **report} if args.source else report
     payload = {"generated_at": generated.isoformat(),
-               "total_candidates": len(all_new), "sources": report}
+               "total_candidates": len(all_new), "sources": sources}
     DATA_DIR.mkdir(exist_ok=True)
     JSON_OUT.write_text(json.dumps(payload, indent=2))
     JS_OUT.write_text(f"// Last updated: {generated.strftime('%Y-%m-%d %H:%M:%S')} UTC\n"
@@ -358,6 +399,10 @@ def main() -> int:
 
     print(f"\n{len(all_new)} in-scope candidates · {added} newly queued "
           f"· {len(queue)} total in queue")
+    if broken:
+        # "::error::" becomes an annotation on the GitHub Actions run.
+        print(f"::error::curated-list source(s) broken: {', '.join(broken)} (kept last good data)")
+        return 1
     return 0
 
 

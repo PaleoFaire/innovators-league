@@ -27,7 +27,13 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests
-      - run: python3 scripts/fetch_curated_lists.py
+      # Exits non-zero when a source breaks (fetch error, or it suddenly parses
+      # nothing / under half of last week's count). continue-on-error lets the
+      # healthy sources still commit; the final step turns the run red.
+      - name: Run watcher
+        id: watch
+        continue-on-error: true
+        run: python3 scripts/fetch_curated_lists.py
 
       - name: Configure Git
         run: |
@@ -43,7 +49,7 @@ jobs:
               if git stash list | grep -q .; then
                 git stash drop 2>/dev/null || true
                 git diff --name-only --diff-filter=U | xargs -r git checkout HEAD --
-                python3 scripts/fetch_curated_lists.py
+                python3 scripts/fetch_curated_lists.py || true
               fi
             fi
             git add data/curated_lists_auto.json data/curated_lists_auto.js \
@@ -79,3 +85,9 @@ jobs:
                       print(f"| {c['name']} | {c['sector']} | {c['raised']} | {c['round']} | {c['tagline'][:70]} |")
               print()
           PY
+
+      - name: Fail the run if a source broke
+        if: steps.watch.outcome == 'failure'
+        run: |
+          echo "::error::A curated-list source failed or parsed far fewer companies than last week. Its last good data was kept; see the summary and fix that source's extractor in scripts/fetch_curated_lists.py."
+          exit 1
