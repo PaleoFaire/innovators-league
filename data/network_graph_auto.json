@@ -151,6 +151,136 @@
       "thesisCluster": ""
     },
     {
+      "id": "Endeavor Optical Networks",
+      "sector": "Space & Aerospace",
+      "thesisCluster": "optical-satcom"
+    },
+    {
+      "id": "Skylo",
+      "sector": "Space & Aerospace",
+      "thesisCluster": "space-ground-comms"
+    },
+    {
+      "id": "Moment Energy",
+      "sector": "Climate & Energy",
+      "thesisCluster": "battery-infrastructure"
+    },
+    {
+      "id": "Cambridge GaN Devices",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": "semiconductor-advanced-materials"
+    },
+    {
+      "id": "Revoy",
+      "sector": "Transportation",
+      "thesisCluster": "transport-electric-vehicles"
+    },
+    {
+      "id": "Lightship",
+      "sector": "Transportation",
+      "thesisCluster": "transport-electric-vehicles"
+    },
+    {
+      "id": "Katalyst Space",
+      "sector": "Space & Aerospace",
+      "thesisCluster": "space-debris-servicing"
+    },
+    {
+      "id": "American Terawatt",
+      "sector": "Climate & Energy",
+      "thesisCluster": "data-center-infrastructure"
+    },
+    {
+      "id": "Elve",
+      "sector": "Space & Aerospace",
+      "thesisCluster": "space-communications"
+    },
+    {
+      "id": "Resurgent Industries",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": "manufacturing-reshoring"
+    },
+    {
+      "id": "Uplift360",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": "composite-recycling"
+    },
+    {
+      "id": "Vight",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": "evtol-air-taxi"
+    },
+    {
+      "id": "Zenno Astronautics",
+      "sector": "Space & Aerospace",
+      "thesisCluster": "space-satellites-buses"
+    },
+    {
+      "id": "Atlas Atomics",
+      "sector": "Nuclear Energy",
+      "thesisCluster": "nuclear-smr-advanced"
+    },
+    {
+      "id": "Lightmill",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": "manufacturing-reshoring"
+    },
+    {
+      "id": "Nine Fives",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": "hardware-test-equipment"
+    },
+    {
+      "id": "Weave Robotics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": "home-robotics"
+    },
+    {
+      "id": "Enhanced Radar",
+      "sector": "Transportation",
+      "thesisCluster": "aviation-ai-atc"
+    },
+    {
+      "id": "Stendr",
+      "sector": "Defense & Security",
+      "thesisCluster": "autonomy-counter-drone"
+    },
+    {
+      "id": "Tiberius Aerospace",
+      "sector": "Defense & Security",
+      "thesisCluster": "defense-munitions-energetics"
+    },
+    {
+      "id": "Orb Aerospace",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": "tactical-comms"
+    },
+    {
+      "id": "Sphinx Defense",
+      "sector": "Defense & Security",
+      "thesisCluster": "space-ground-comms"
+    },
+    {
+      "id": "Nidus",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": "manufacturing-reshoring"
+    },
+    {
+      "id": "Brynhild Industries",
+      "sector": "Defense & Security",
+      "thesisCluster": "logistics-supply-chain"
+    },
+    {
+      "id": "Ad Astra Sky Supply",
+      "sector": "Defense & Security",
+      "thesisCluster": "manufacturing-reshoring"
+    },
+    {
+      "id": "Ironstead",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": "manufacturing-reshoring"
+    },
+    {
       "id": "Applied Atomics",
       "sector": "Nuclear Energy",
       "thesisCluster": ""
@@ -2993,7 +3123,7 @@
     {
       "id": "Valinor Enterprises",
       "sector": "Defense & Security",
-      "thesisCluster": ""
+      "thesisCluster": "defense-holding-company"
     },
     {
       "id": "Rivet Industries",
@@ -5983,6 +6113,71 @@
   ],
   "edges": [
     {
+      "src": "Endeavor Optical Networks",
+      "dst": "Kepler Communications",
+      "type": "competitor"
+    },
+    {
+      "src": "Cailabs",
+      "dst": "Endeavor Optical Networks",
+      "type": "competitor"
+    },
+    {
+      "src": "AST SpaceMobile",
+      "dst": "Skylo",
+      "type": "competitor"
+    },
+    {
+      "src": "Einride",
+      "dst": "Revoy",
+      "type": "competitor"
+    },
+    {
+      "src": "Katalyst Space",
+      "dst": "Starfish Space",
+      "type": "competitor"
+    },
+    {
+      "src": "Astroscale",
+      "dst": "Katalyst Space",
+      "type": "competitor"
+    },
+    {
+      "src": "Pivotal",
+      "dst": "Vight",
+      "type": "competitor"
+    },
+    {
+      "src": "Joby Aviation",
+      "dst": "Vight",
+      "type": "competitor"
+    },
+    {
+      "src": "Figure AI",
+      "dst": "Weave Robotics",
+      "type": "competitor"
+    },
+    {
+      "src": "Matic Robotics",
+      "dst": "Weave Robotics",
+      "type": "competitor"
+    },
+    {
+      "src": "DroneShield",
+      "dst": "Stendr",
+      "type": "competitor"
+    },
+    {
+      "src": "Nordic Air Defence",
+      "dst": "Stendr",
+      "type": "competitor"
+    },
+    {
+      "src": "Ironstead",
+      "dst": "Re:Build Manufacturing",
+      "type": "competitor"
+    },
+    {
       "src": "Anduril Industries",
       "dst": "Shield AI",
       "type": "competitor"
@@ -6828,22 +7023,370 @@
       "type": "competitor"
     },
     {
-      "src": "Lux Aeterna",
-      "dst": "Reditus Space",
+      "src": "Endeavor Optical Networks",
+      "dst": "MBRYONICS",
       "type": "thesis",
-      "cluster": "reusable-satellites"
+      "cluster": "optical-satcom"
     },
     {
-      "src": "Anyon Systems",
-      "dst": "Peak Quantum",
+      "src": "Astrolight",
+      "dst": "Endeavor Optical Networks",
       "type": "thesis",
-      "cluster": "superconducting-quantum"
+      "cluster": "optical-satcom"
     },
     {
-      "src": "Diraq",
-      "dst": "Quobly",
+      "src": "Astrolight",
+      "dst": "MBRYONICS",
       "type": "thesis",
-      "cluster": "silicon-spin-quantum"
+      "cluster": "optical-satcom"
+    },
+    {
+      "src": "Base Power",
+      "dst": "Moment Energy",
+      "type": "thesis",
+      "cluster": "battery-infrastructure"
+    },
+    {
+      "src": "Moment Energy",
+      "dst": "Redwood Materials",
+      "type": "thesis",
+      "cluster": "battery-infrastructure"
+    },
+    {
+      "src": "Impulse Labs",
+      "dst": "Moment Energy",
+      "type": "thesis",
+      "cluster": "battery-infrastructure"
+    },
+    {
+      "src": "Liminal Insights",
+      "dst": "Moment Energy",
+      "type": "thesis",
+      "cluster": "battery-infrastructure"
+    },
+    {
+      "src": "Moment Energy",
+      "dst": "WeaveGrid",
+      "type": "thesis",
+      "cluster": "battery-infrastructure"
+    },
+    {
+      "src": "Base Power",
+      "dst": "Redwood Materials",
+      "type": "thesis",
+      "cluster": "battery-infrastructure"
+    },
+    {
+      "src": "Base Power",
+      "dst": "Impulse Labs",
+      "type": "thesis",
+      "cluster": "battery-infrastructure"
+    },
+    {
+      "src": "Base Power",
+      "dst": "Liminal Insights",
+      "type": "thesis",
+      "cluster": "battery-infrastructure"
+    },
+    {
+      "src": "Base Power",
+      "dst": "WeaveGrid",
+      "type": "thesis",
+      "cluster": "battery-infrastructure"
+    },
+    {
+      "src": "Impulse Labs",
+      "dst": "Redwood Materials",
+      "type": "thesis",
+      "cluster": "battery-infrastructure"
+    },
+    {
+      "src": "Liminal Insights",
+      "dst": "Redwood Materials",
+      "type": "thesis",
+      "cluster": "battery-infrastructure"
+    },
+    {
+      "src": "Redwood Materials",
+      "dst": "WeaveGrid",
+      "type": "thesis",
+      "cluster": "battery-infrastructure"
+    },
+    {
+      "src": "Impulse Labs",
+      "dst": "Liminal Insights",
+      "type": "thesis",
+      "cluster": "battery-infrastructure"
+    },
+    {
+      "src": "Impulse Labs",
+      "dst": "WeaveGrid",
+      "type": "thesis",
+      "cluster": "battery-infrastructure"
+    },
+    {
+      "src": "Liminal Insights",
+      "dst": "WeaveGrid",
+      "type": "thesis",
+      "cluster": "battery-infrastructure"
+    },
+    {
+      "src": "Lightship",
+      "dst": "Revoy",
+      "type": "thesis",
+      "cluster": "transport-electric-vehicles"
+    },
+    {
+      "src": "Lumina Vehicles",
+      "dst": "Revoy",
+      "type": "thesis",
+      "cluster": "transport-electric-vehicles"
+    },
+    {
+      "src": "Harbinger",
+      "dst": "Revoy",
+      "type": "thesis",
+      "cluster": "transport-electric-vehicles"
+    },
+    {
+      "src": "Revoy",
+      "dst": "Rivian",
+      "type": "thesis",
+      "cluster": "transport-electric-vehicles"
+    },
+    {
+      "src": "Lightship",
+      "dst": "Lumina Vehicles",
+      "type": "thesis",
+      "cluster": "transport-electric-vehicles"
+    },
+    {
+      "src": "Harbinger",
+      "dst": "Lightship",
+      "type": "thesis",
+      "cluster": "transport-electric-vehicles"
+    },
+    {
+      "src": "Lightship",
+      "dst": "Rivian",
+      "type": "thesis",
+      "cluster": "transport-electric-vehicles"
+    },
+    {
+      "src": "Harbinger",
+      "dst": "Lumina Vehicles",
+      "type": "thesis",
+      "cluster": "transport-electric-vehicles"
+    },
+    {
+      "src": "Lumina Vehicles",
+      "dst": "Rivian",
+      "type": "thesis",
+      "cluster": "transport-electric-vehicles"
+    },
+    {
+      "src": "Katalyst Space",
+      "dst": "Turion Space",
+      "type": "thesis",
+      "cluster": "space-debris-servicing"
+    },
+    {
+      "src": "D-Orbit",
+      "dst": "Katalyst Space",
+      "type": "thesis",
+      "cluster": "space-debris-servicing"
+    },
+    {
+      "src": "ClearSpace",
+      "dst": "Katalyst Space",
+      "type": "thesis",
+      "cluster": "space-debris-servicing"
+    },
+    {
+      "src": "Astroscale",
+      "dst": "Turion Space",
+      "type": "thesis",
+      "cluster": "space-debris-servicing"
+    },
+    {
+      "src": "D-Orbit",
+      "dst": "Turion Space",
+      "type": "thesis",
+      "cluster": "space-debris-servicing"
+    },
+    {
+      "src": "ClearSpace",
+      "dst": "Turion Space",
+      "type": "thesis",
+      "cluster": "space-debris-servicing"
+    },
+    {
+      "src": "Astroscale",
+      "dst": "D-Orbit",
+      "type": "thesis",
+      "cluster": "space-debris-servicing"
+    },
+    {
+      "src": "ClearSpace",
+      "dst": "D-Orbit",
+      "type": "thesis",
+      "cluster": "space-debris-servicing"
+    },
+    {
+      "src": "Akash Systems",
+      "dst": "Elve",
+      "type": "thesis",
+      "cluster": "space-communications"
+    },
+    {
+      "src": "Archer Aviation",
+      "dst": "Vight",
+      "type": "thesis",
+      "cluster": "evtol-air-taxi"
+    },
+    {
+      "src": "Vertical Aerospace",
+      "dst": "Vight",
+      "type": "thesis",
+      "cluster": "evtol-air-taxi"
+    },
+    {
+      "src": "Skyryse",
+      "dst": "Vight",
+      "type": "thesis",
+      "cluster": "evtol-air-taxi"
+    },
+    {
+      "src": "Archer Aviation",
+      "dst": "Joby Aviation",
+      "type": "thesis",
+      "cluster": "evtol-air-taxi"
+    },
+    {
+      "src": "Joby Aviation",
+      "dst": "Vertical Aerospace",
+      "type": "thesis",
+      "cluster": "evtol-air-taxi"
+    },
+    {
+      "src": "Joby Aviation",
+      "dst": "Skyryse",
+      "type": "thesis",
+      "cluster": "evtol-air-taxi"
+    },
+    {
+      "src": "Archer Aviation",
+      "dst": "Vertical Aerospace",
+      "type": "thesis",
+      "cluster": "evtol-air-taxi"
+    },
+    {
+      "src": "Archer Aviation",
+      "dst": "Skyryse",
+      "type": "thesis",
+      "cluster": "evtol-air-taxi"
+    },
+    {
+      "src": "Skyryse",
+      "dst": "Vertical Aerospace",
+      "type": "thesis",
+      "cluster": "evtol-air-taxi"
+    },
+    {
+      "src": "Apex Space",
+      "dst": "Zenno Astronautics",
+      "type": "thesis",
+      "cluster": "space-satellites-buses"
+    },
+    {
+      "src": "K2 Space",
+      "dst": "Zenno Astronautics",
+      "type": "thesis",
+      "cluster": "space-satellites-buses"
+    },
+    {
+      "src": "Ramon.Space",
+      "dst": "Zenno Astronautics",
+      "type": "thesis",
+      "cluster": "space-satellites-buses"
+    },
+    {
+      "src": "Endurosat",
+      "dst": "Zenno Astronautics",
+      "type": "thesis",
+      "cluster": "space-satellites-buses"
+    },
+    {
+      "src": "Apex Space",
+      "dst": "K2 Space",
+      "type": "thesis",
+      "cluster": "space-satellites-buses"
+    },
+    {
+      "src": "Apex Space",
+      "dst": "Ramon.Space",
+      "type": "thesis",
+      "cluster": "space-satellites-buses"
+    },
+    {
+      "src": "Apex Space",
+      "dst": "Endurosat",
+      "type": "thesis",
+      "cluster": "space-satellites-buses"
+    },
+    {
+      "src": "K2 Space",
+      "dst": "Ramon.Space",
+      "type": "thesis",
+      "cluster": "space-satellites-buses"
+    },
+    {
+      "src": "Endurosat",
+      "dst": "K2 Space",
+      "type": "thesis",
+      "cluster": "space-satellites-buses"
+    },
+    {
+      "src": "Endurosat",
+      "dst": "Ramon.Space",
+      "type": "thesis",
+      "cluster": "space-satellites-buses"
+    },
+    {
+      "src": "Epirus",
+      "dst": "Stendr",
+      "type": "thesis",
+      "cluster": "autonomy-counter-drone"
+    },
+    {
+      "src": "Chaos Industries",
+      "dst": "Stendr",
+      "type": "thesis",
+      "cluster": "autonomy-counter-drone"
+    },
+    {
+      "src": "SkySafe",
+      "dst": "Stendr",
+      "type": "thesis",
+      "cluster": "autonomy-counter-drone"
+    },
+    {
+      "src": "Aurelius Systems",
+      "dst": "Stendr",
+      "type": "thesis",
+      "cluster": "autonomy-counter-drone"
+    },
+    {
+      "src": "Stendr",
+      "dst": "Zeromark",
+      "type": "thesis",
+      "cluster": "autonomy-counter-drone"
+    },
+    {
+      "src": "Fortem Technologies",
+      "dst": "Stendr",
+      "type": "thesis",
+      "cluster": "autonomy-counter-drone"
     },
     {
       "src": "Chaos Industries",
@@ -6958,6 +7501,48 @@
       "dst": "Zeromark",
       "type": "thesis",
       "cluster": "autonomy-counter-drone"
+    },
+    {
+      "src": "Castelion",
+      "dst": "Tiberius Aerospace",
+      "type": "thesis",
+      "cluster": "defense-munitions-energetics"
+    },
+    {
+      "src": "Allen Control Systems",
+      "dst": "Tiberius Aerospace",
+      "type": "thesis",
+      "cluster": "defense-munitions-energetics"
+    },
+    {
+      "src": "Mach Industries",
+      "dst": "Tiberius Aerospace",
+      "type": "thesis",
+      "cluster": "defense-munitions-energetics"
+    },
+    {
+      "src": "Firehawk Aerospace",
+      "dst": "Tiberius Aerospace",
+      "type": "thesis",
+      "cluster": "defense-munitions-energetics"
+    },
+    {
+      "src": "Deterrence",
+      "dst": "Tiberius Aerospace",
+      "type": "thesis",
+      "cluster": "defense-munitions-energetics"
+    },
+    {
+      "src": "Long Wall",
+      "dst": "Tiberius Aerospace",
+      "type": "thesis",
+      "cluster": "defense-munitions-energetics"
+    },
+    {
+      "src": "Ares Industries",
+      "dst": "Tiberius Aerospace",
+      "type": "thesis",
+      "cluster": "defense-munitions-energetics"
     },
     {
       "src": "Allen Control Systems",
@@ -7084,6 +7669,198 @@
       "dst": "Long Wall",
       "type": "thesis",
       "cluster": "defense-munitions-energetics"
+    },
+    {
+      "src": "HIMERA",
+      "dst": "Orb Aerospace",
+      "type": "thesis",
+      "cluster": "tactical-comms"
+    },
+    {
+      "src": "Brynhild Industries",
+      "dst": "The Boring Company",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Brynhild Industries",
+      "dst": "Pipedream",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Brynhild Industries",
+      "dst": "Fortastra",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Brynhild Industries",
+      "dst": "Wardstone",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Brynhild Industries",
+      "dst": "Dexterity",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Brynhild Industries",
+      "dst": "Outrider",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Brynhild Industries",
+      "dst": "Parallel Systems",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Pipedream",
+      "dst": "The Boring Company",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Fortastra",
+      "dst": "The Boring Company",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "The Boring Company",
+      "dst": "Wardstone",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Dexterity",
+      "dst": "The Boring Company",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Outrider",
+      "dst": "The Boring Company",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Parallel Systems",
+      "dst": "The Boring Company",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Fortastra",
+      "dst": "Pipedream",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Pipedream",
+      "dst": "Wardstone",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Dexterity",
+      "dst": "Pipedream",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Outrider",
+      "dst": "Pipedream",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Parallel Systems",
+      "dst": "Pipedream",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Fortastra",
+      "dst": "Wardstone",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Dexterity",
+      "dst": "Fortastra",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Fortastra",
+      "dst": "Outrider",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Fortastra",
+      "dst": "Parallel Systems",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Dexterity",
+      "dst": "Wardstone",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Outrider",
+      "dst": "Wardstone",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Parallel Systems",
+      "dst": "Wardstone",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Dexterity",
+      "dst": "Outrider",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Dexterity",
+      "dst": "Parallel Systems",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Outrider",
+      "dst": "Parallel Systems",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Lux Aeterna",
+      "dst": "Reditus Space",
+      "type": "thesis",
+      "cluster": "reusable-satellites"
+    },
+    {
+      "src": "Anyon Systems",
+      "dst": "Peak Quantum",
+      "type": "thesis",
+      "cluster": "superconducting-quantum"
+    },
+    {
+      "src": "Diraq",
+      "dst": "Quobly",
+      "type": "thesis",
+      "cluster": "silicon-spin-quantum"
     },
     {
       "src": "Reveal Technology",
@@ -7482,162 +8259,6 @@
       "cluster": "nuclear-msr"
     },
     {
-      "src": "TerraPower",
-      "dst": "X-Energy",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "NuScale Power",
-      "dst": "X-Energy",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "Newcleo",
-      "dst": "X-Energy",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "Terrestrial Energy",
-      "dst": "X-Energy",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "Steady Energy",
-      "dst": "X-Energy",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "CORE POWER",
-      "dst": "X-Energy",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "NuScale Power",
-      "dst": "TerraPower",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "Newcleo",
-      "dst": "TerraPower",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "TerraPower",
-      "dst": "Terrestrial Energy",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "ARC Clean Technology",
-      "dst": "TerraPower",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "CORE POWER",
-      "dst": "TerraPower",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "Newcleo",
-      "dst": "NuScale Power",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "NuScale Power",
-      "dst": "Terrestrial Energy",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "ARC Clean Technology",
-      "dst": "NuScale Power",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "NuScale Power",
-      "dst": "Steady Energy",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "CORE POWER",
-      "dst": "NuScale Power",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "Newcleo",
-      "dst": "Terrestrial Energy",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "ARC Clean Technology",
-      "dst": "Newcleo",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "Newcleo",
-      "dst": "Steady Energy",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "CORE POWER",
-      "dst": "Newcleo",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "ARC Clean Technology",
-      "dst": "Terrestrial Energy",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "Steady Energy",
-      "dst": "Terrestrial Energy",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "CORE POWER",
-      "dst": "Terrestrial Energy",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "ARC Clean Technology",
-      "dst": "Steady Energy",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "ARC Clean Technology",
-      "dst": "CORE POWER",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
-      "src": "CORE POWER",
-      "dst": "Steady Energy",
-      "type": "thesis",
-      "cluster": "nuclear-smr-advanced"
-    },
-    {
       "src": "Firefly Aerospace",
       "dst": "SpaceX",
       "type": "thesis",
@@ -7702,42 +8323,6 @@
       "dst": "Stoke Space",
       "type": "thesis",
       "cluster": "space-launch-large"
-    },
-    {
-      "src": "Apex Space",
-      "dst": "K2 Space",
-      "type": "thesis",
-      "cluster": "space-satellites-buses"
-    },
-    {
-      "src": "Apex Space",
-      "dst": "Ramon.Space",
-      "type": "thesis",
-      "cluster": "space-satellites-buses"
-    },
-    {
-      "src": "Apex Space",
-      "dst": "Endurosat",
-      "type": "thesis",
-      "cluster": "space-satellites-buses"
-    },
-    {
-      "src": "K2 Space",
-      "dst": "Ramon.Space",
-      "type": "thesis",
-      "cluster": "space-satellites-buses"
-    },
-    {
-      "src": "Endurosat",
-      "dst": "K2 Space",
-      "type": "thesis",
-      "cluster": "space-satellites-buses"
-    },
-    {
-      "src": "Endurosat",
-      "dst": "Ramon.Space",
-      "type": "thesis",
-      "cluster": "space-satellites-buses"
     },
     {
       "src": "Varda Space Industries",
@@ -8694,66 +9279,6 @@
       "cluster": "carbon-capture-utilization"
     },
     {
-      "src": "Base Power",
-      "dst": "Redwood Materials",
-      "type": "thesis",
-      "cluster": "battery-infrastructure"
-    },
-    {
-      "src": "Base Power",
-      "dst": "Impulse Labs",
-      "type": "thesis",
-      "cluster": "battery-infrastructure"
-    },
-    {
-      "src": "Base Power",
-      "dst": "Liminal Insights",
-      "type": "thesis",
-      "cluster": "battery-infrastructure"
-    },
-    {
-      "src": "Base Power",
-      "dst": "WeaveGrid",
-      "type": "thesis",
-      "cluster": "battery-infrastructure"
-    },
-    {
-      "src": "Impulse Labs",
-      "dst": "Redwood Materials",
-      "type": "thesis",
-      "cluster": "battery-infrastructure"
-    },
-    {
-      "src": "Liminal Insights",
-      "dst": "Redwood Materials",
-      "type": "thesis",
-      "cluster": "battery-infrastructure"
-    },
-    {
-      "src": "Redwood Materials",
-      "dst": "WeaveGrid",
-      "type": "thesis",
-      "cluster": "battery-infrastructure"
-    },
-    {
-      "src": "Impulse Labs",
-      "dst": "Liminal Insights",
-      "type": "thesis",
-      "cluster": "battery-infrastructure"
-    },
-    {
-      "src": "Impulse Labs",
-      "dst": "WeaveGrid",
-      "type": "thesis",
-      "cluster": "battery-infrastructure"
-    },
-    {
-      "src": "Liminal Insights",
-      "dst": "WeaveGrid",
-      "type": "thesis",
-      "cluster": "battery-infrastructure"
-    },
-    {
       "src": "Karman Industries",
       "dst": "ZeroAvia",
       "type": "thesis",
@@ -8788,174 +9313,6 @@
       "dst": "Sunfire",
       "type": "thesis",
       "cluster": "electrolysis-green-hydrogen"
-    },
-    {
-      "src": "Claros",
-      "dst": "Lightmatter",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Armada",
-      "dst": "Claros",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Claros",
-      "dst": "Exowatt",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Claros",
-      "dst": "Crusoe Energy",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Astera Labs",
-      "dst": "Claros",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Claros",
-      "dst": "NetworkOcean",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Claros",
-      "dst": "Starcloud",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Armada",
-      "dst": "Lightmatter",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Exowatt",
-      "dst": "Lightmatter",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Crusoe Energy",
-      "dst": "Lightmatter",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Astera Labs",
-      "dst": "Lightmatter",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Lightmatter",
-      "dst": "NetworkOcean",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Lightmatter",
-      "dst": "Starcloud",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Armada",
-      "dst": "Exowatt",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Armada",
-      "dst": "Crusoe Energy",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Armada",
-      "dst": "Astera Labs",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Armada",
-      "dst": "NetworkOcean",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Armada",
-      "dst": "Starcloud",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Crusoe Energy",
-      "dst": "Exowatt",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Astera Labs",
-      "dst": "Exowatt",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Exowatt",
-      "dst": "NetworkOcean",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Exowatt",
-      "dst": "Starcloud",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Astera Labs",
-      "dst": "Crusoe Energy",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Crusoe Energy",
-      "dst": "NetworkOcean",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Crusoe Energy",
-      "dst": "Starcloud",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Astera Labs",
-      "dst": "NetworkOcean",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "Astera Labs",
-      "dst": "Starcloud",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
-    },
-    {
-      "src": "NetworkOcean",
-      "dst": "Starcloud",
-      "type": "thesis",
-      "cluster": "data-center-infrastructure"
     },
     {
       "src": "Rainmaker",
@@ -9070,42 +9427,6 @@
       "dst": "Rain Industries",
       "type": "thesis",
       "cluster": "autonomy-delivery-logistics"
-    },
-    {
-      "src": "Archer Aviation",
-      "dst": "Joby Aviation",
-      "type": "thesis",
-      "cluster": "evtol-air-taxi"
-    },
-    {
-      "src": "Joby Aviation",
-      "dst": "Vertical Aerospace",
-      "type": "thesis",
-      "cluster": "evtol-air-taxi"
-    },
-    {
-      "src": "Joby Aviation",
-      "dst": "Skyryse",
-      "type": "thesis",
-      "cluster": "evtol-air-taxi"
-    },
-    {
-      "src": "Archer Aviation",
-      "dst": "Vertical Aerospace",
-      "type": "thesis",
-      "cluster": "evtol-air-taxi"
-    },
-    {
-      "src": "Archer Aviation",
-      "dst": "Skyryse",
-      "type": "thesis",
-      "cluster": "evtol-air-taxi"
-    },
-    {
-      "src": "Skyryse",
-      "dst": "Vertical Aerospace",
-      "type": "thesis",
-      "cluster": "evtol-air-taxi"
     },
     {
       "src": "Cerebras",
@@ -9286,132 +9607,6 @@
       "dst": "Monumental",
       "type": "thesis",
       "cluster": "construction-modular"
-    },
-    {
-      "src": "Pipedream",
-      "dst": "The Boring Company",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Fortastra",
-      "dst": "The Boring Company",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "The Boring Company",
-      "dst": "Wardstone",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Dexterity",
-      "dst": "The Boring Company",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Outrider",
-      "dst": "The Boring Company",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Parallel Systems",
-      "dst": "The Boring Company",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Fortastra",
-      "dst": "Pipedream",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Pipedream",
-      "dst": "Wardstone",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Dexterity",
-      "dst": "Pipedream",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Outrider",
-      "dst": "Pipedream",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Parallel Systems",
-      "dst": "Pipedream",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Fortastra",
-      "dst": "Wardstone",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Dexterity",
-      "dst": "Fortastra",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Fortastra",
-      "dst": "Outrider",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Fortastra",
-      "dst": "Parallel Systems",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Dexterity",
-      "dst": "Wardstone",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Outrider",
-      "dst": "Wardstone",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Parallel Systems",
-      "dst": "Wardstone",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Dexterity",
-      "dst": "Outrider",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Dexterity",
-      "dst": "Parallel Systems",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Outrider",
-      "dst": "Parallel Systems",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
     },
     {
       "src": "Arc Boats",
@@ -9832,36 +10027,6 @@
       "dst": "Overland AI",
       "type": "thesis",
       "cluster": "autonomy-ground-vehicles"
-    },
-    {
-      "src": "Astroscale",
-      "dst": "Turion Space",
-      "type": "thesis",
-      "cluster": "space-debris-servicing"
-    },
-    {
-      "src": "D-Orbit",
-      "dst": "Turion Space",
-      "type": "thesis",
-      "cluster": "space-debris-servicing"
-    },
-    {
-      "src": "ClearSpace",
-      "dst": "Turion Space",
-      "type": "thesis",
-      "cluster": "space-debris-servicing"
-    },
-    {
-      "src": "Astroscale",
-      "dst": "D-Orbit",
-      "type": "thesis",
-      "cluster": "space-debris-servicing"
-    },
-    {
-      "src": "ClearSpace",
-      "dst": "D-Orbit",
-      "type": "thesis",
-      "cluster": "space-debris-servicing"
     },
     {
       "src": "Andromeda Surgical",
@@ -10668,18 +10833,6 @@
       "cluster": "quantum-photonic"
     },
     {
-      "src": "Harbinger",
-      "dst": "Lumina Vehicles",
-      "type": "thesis",
-      "cluster": "transport-electric-vehicles"
-    },
-    {
-      "src": "Lumina Vehicles",
-      "dst": "Rivian",
-      "type": "thesis",
-      "cluster": "transport-electric-vehicles"
-    },
-    {
       "src": "Oxford Quantum Circuits",
       "dst": "Rigetti Computing",
       "type": "thesis",
@@ -11094,12 +11247,6 @@
       "cluster": "direct-air-capture"
     },
     {
-      "src": "Astrolight",
-      "dst": "MBRYONICS",
-      "type": "thesis",
-      "cluster": "optical-satcom"
-    },
-    {
       "src": "H2Pro",
       "dst": "Hystar",
       "type": "thesis",
@@ -11315,10 +11462,10 @@
     }
   ],
   "counts": {
-    "total_nodes": 1196,
-    "total_edges": 918,
-    "competitor_edges": 169,
-    "thesis_edges": 741,
+    "total_nodes": 1222,
+    "total_edges": 923,
+    "competitor_edges": 182,
+    "thesis_edges": 733,
     "alumni_edges": 8
   }
 }

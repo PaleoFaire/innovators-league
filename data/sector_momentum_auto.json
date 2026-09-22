@@ -1,64 +1,81 @@
 [
   {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 45,
-    "trend": "steady",
-    "catalysts": [
-      "What do you do with a humanoid robot when it breaks down?",
-      "Waymo&#8217;s Next Target: Singapore",
-      "Icarus Robotics flies ISS-bound robot in microgravity for th"
-    ],
-    "fundingQ": "$1.4B",
-    "components": {
-      "funding": 72,
-      "news": 40,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-21"
-  },
-  {
     "sector": "Transportation",
-    "momentum": 38,
+    "momentum": 44,
     "trend": "steady",
     "catalysts": [
-      "Building Waymo\u2019s Risk &#038; Insurance Foundation in Europe",
       "Rivian\u2019s Gambit for Full Autonomy"
     ],
     "fundingQ": "$3.0B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
-      "market": 0
+      "market": 40
     },
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-22"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 43,
+    "trend": "steady",
+    "catalysts": [
+      "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran",
+      "What do you do with a humanoid robot when it breaks down?",
+      "Waymo&#8217;s Next Target: Singapore"
+    ],
+    "fundingQ": "$1.4B",
+    "components": {
+      "funding": 72,
+      "news": 30,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-22"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 37,
+    "momentum": 38,
     "trend": "rising",
     "catalysts": [
+      "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran",
       "Cape Canaveral is building up its counter-drone defenses, Sp",
-      "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
-      "Forced Into the Right Decision? A Look at U.S. Land-Based De"
+      "The Atlantic Brief: U.S. and European Perspectives on Nuclea"
     ],
     "fundingQ": "$1.1B",
     "components": {
       "funding": 38,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-22"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 32,
+    "trend": "declining",
+    "catalysts": [
+      "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran",
+      "SpaceX Starmind AI in Space Radiator",
+      "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Pl"
+    ],
+    "fundingQ": "$50M",
+    "components": {
+      "funding": 5,
+      "news": 40,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-09-22"
   },
   {
     "sector": "AI & Software",
     "momentum": 29,
     "trend": "rising",
     "catalysts": [
+      "OpenAI forms math advisory group as its AI resolves more tha",
       "Waiting for Compute Because They Have To Not Because OpenAI",
-      "Anthropic Fears RSI &#8211; What is RSI? What Specifically i",
       "OpenAI agents discussed ways to escape their sandbox on publ"
     ],
     "fundingQ": "$2.4B",
@@ -68,7 +85,42 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-22"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 26,
+    "trend": "declining",
+    "catalysts": [
+      "Kairos Power gets up to $100M from Samsung group to build nu",
+      "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
+      "Forced Into the Right Decision? A Look at U.S. Land-Based De"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-09-22"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 22,
+    "trend": "declining",
+    "catalysts": [
+      "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran",
+      "<a href=\"/biotech/beacon-lights-path-fda-approval-pivotal-tr"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-09-22"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -82,65 +134,13 @@
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 98
-    },
-    "lastUpdated": "2026-09-21"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "<a href=\"/biotech/beacon-lights-path-fda-approval-pivotal-tr"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-21"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX Starmind AI in Space Radiator",
-      "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Pl",
-      "Waiting for Compute Because They Have To Not Because OpenAI"
-    ],
-    "fundingQ": "$50M",
-    "components": {
-      "funding": 5,
-      "news": 40,
-      "hiring": 0,
-      "market": 43
-    },
-    "lastUpdated": "2026-09-21"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 19,
-    "trend": "declining",
-    "catalysts": [
-      "What do you do with a humanoid robot when it breaks down?",
-      "Icarus Robotics flies ISS-bound robot in microgravity for th",
-      "Icarus Robotics tests Joy in Canada ahead of ISS flight"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 35,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-22"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 18,
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -150,27 +150,27 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 88
+      "market": 100
     },
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-22"
   },
   {
-    "sector": "Nuclear Energy",
-    "momentum": 17,
+    "sector": "Consumer Tech",
+    "momentum": 18,
     "trend": "declining",
     "catalysts": [
-      "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
-      "Forced Into the Right Decision? A Look at U.S. Land-Based De",
-      "Does Latent Nuclear Deterrence Really Work?"
+      "What do you do with a humanoid robot when it breaks down?",
+      "Icarus Robotics flies ISS-bound robot in microgravity for th",
+      "Icarus Robotics tests Joy in Canada ahead of ISS flight"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 30,
       "hiring": 0,
-      "market": 55
+      "market": 50
     },
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-22"
   },
   {
     "sector": "Housing & Construction",
@@ -186,24 +186,41 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-22"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "Mazama Energy raises $135M for superhot geothermal at Oregon",
+      "xAI has quietly built a massive battery at its Memphis data",
+      "Sage Geosystems brings its first next-gen geothermal plant o"
+    ],
+    "fundingQ": "$134M",
+    "components": {
+      "funding": 11,
+      "news": 15,
+      "hiring": 0,
+      "market": 31
+    },
+    "lastUpdated": "2026-09-22"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 12,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Cape Canaveral is building up its counter-drone defenses, Sp",
-      "Building Waymo\u2019s Risk &#038; Insurance Foundation in Europe"
+      "Cape Canaveral is building up its counter-drone defenses, Sp"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-22"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -219,7 +236,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-22"
   },
   {
     "sector": "Ocean & Maritime",
@@ -235,7 +252,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-22"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -251,24 +268,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-21"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 8,
-    "trend": "declining",
-    "catalysts": [
-      "Mazama Energy raises $135M for superhot geothermal at Oregon",
-      "xAI has quietly built a massive battery at its Memphis data",
-      "Sage Geosystems brings its first next-gen geothermal plant o"
-    ],
-    "fundingQ": "$134M",
-    "components": {
-      "funding": 11,
-      "news": 15,
-      "hiring": 0,
-      "market": 2
-    },
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-22"
   }
 ]

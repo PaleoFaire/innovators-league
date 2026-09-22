@@ -432,15 +432,6 @@
     "isIPO": false
   },
   {
-    "company": "AST SpaceMobile",
-    "ticker": "ASTS",
-    "form": "4",
-    "date": "2026-06-23",
-    "description": "xslF345X06/ownership.xml",
-    "accessionNumber": "0001493152-26-029685",
-    "isIPO": false
-  },
-  {
     "company": "BlackSky Technology",
     "ticker": "BKSY",
     "form": "4",
@@ -1278,51 +1269,6 @@
     "isIPO": false
   },
   {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "4",
-    "date": "2026-06-23",
-    "description": "xslF345X06/wk-form4_1782259296.xml",
-    "accessionNumber": "0001628280-26-045020",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "4",
-    "date": "2026-06-23",
-    "description": "xslF345X06/wk-form4_1782259141.xml",
-    "accessionNumber": "0001628280-26-045018",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "4",
-    "date": "2026-06-23",
-    "description": "xslF345X06/wk-form4_1782258957.xml",
-    "accessionNumber": "0001628280-26-045015",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "4",
-    "date": "2026-06-23",
-    "description": "xslF345X06/wk-form4_1782258840.xml",
-    "accessionNumber": "0001628280-26-045013",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "4",
-    "date": "2026-06-23",
-    "description": "xslF345X06/wk-form4_1782255664.xml",
-    "accessionNumber": "0001628280-26-045010",
-    "isIPO": false
-  },
-  {
     "company": "C3.ai",
     "ticker": "AI",
     "form": "4",
@@ -1590,6 +1536,15 @@
     "date": "2026-08-04",
     "description": "upst-20260804.htm",
     "accessionNumber": "0001647639-26-000062",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
+    "form": "4",
+    "date": "2026-09-21",
+    "description": "xslF345X06/primarydocument.xml",
+    "accessionNumber": "0002127293-26-000010",
     "isIPO": false
   },
   {
@@ -2256,6 +2211,15 @@
     "date": "2026-06-30",
     "description": "qbts-20260630.htm",
     "accessionNumber": "0001907982-26-000093",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "8-K",
+    "date": "2026-09-21",
+    "description": "rxrx-20260915.htm",
+    "accessionNumber": "0001601830-26-000112",
     "isIPO": false
   },
   {
@@ -3123,60 +3087,6 @@
     "isIPO": false
   },
   {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-06-23",
-    "description": "xslF345X06/wk-form4_1782247085.xml",
-    "accessionNumber": "0001561290-26-000007",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-06-23",
-    "description": "xslF345X06/wk-form4_1782247057.xml",
-    "accessionNumber": "0001189130-26-000007",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-06-23",
-    "description": "xslF345X06/wk-form4_1782247028.xml",
-    "accessionNumber": "0001607879-26-000004",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-06-23",
-    "description": "xslF345X06/wk-form4_1782246975.xml",
-    "accessionNumber": "0001891037-26-000007",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-06-23",
-    "description": "xslF345X06/wk-form4_1782246904.xml",
-    "accessionNumber": "0001891751-26-000006",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-06-23",
-    "description": "xslF345X06/wk-form4_1782246842.xml",
-    "accessionNumber": "0002066491-26-000009",
-    "isIPO": false
-  },
-  {
     "company": "Astera Labs",
     "ticker": "ALAB",
     "form": "4",
@@ -3336,15 +3246,6 @@
     "date": "2026-06-25",
     "description": "ea0295875-8k_zoomcar.htm",
     "accessionNumber": "0001213900-26-071905",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "8-K",
-    "date": "2026-06-23",
-    "description": "ea0295693-8k_zoomcar.htm",
-    "accessionNumber": "0001213900-26-071110",
     "isIPO": false
   }
 ]
