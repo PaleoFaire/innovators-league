@@ -1,7 +1,7 @@
 [
   {
     "name": "Embodied",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Robotics",
     "tagline": "Builds educational robots for kids.",
     "founders": "Paolo Pirjanian, Maja Matari\u0107",
@@ -11,11 +11,13 @@
     "raised": "$68.8M",
     "our_sector": "Robotics & Manufacturing",
     "source_list": "buildlist",
-    "detected_at": "2026-08-17T09:00:50.108391+00:00"
+    "detected_at": "2026-08-17T09:00:50.108391+00:00",
+    "review_note": "Defunct: shut down Moxie in Dec 2024; servers switched off Jan 2025.",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Lightship RV",
-    "status": "pending",
+    "status": "added",
     "sector": "Transportation",
     "tagline": "Electrifies recreational vehicles.",
     "founders": "Ben Parker, Toby Kraus",
@@ -25,11 +27,13 @@
     "raised": "$88.0M",
     "our_sector": "Transportation",
     "source_list": "buildlist",
-    "detected_at": "2026-08-17T09:00:50.108391+00:00"
+    "detected_at": "2026-08-17T09:00:50.108391+00:00",
+    "matched_record": "Lightship",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "PermitFlow",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Construction & Housing",
     "tagline": "Manages construction permitting.",
     "founders": "Francis Thumpasery, Samuel Lam",
@@ -39,11 +43,13 @@
     "raised": "$91M",
     "our_sector": "Housing & Construction",
     "source_list": "buildlist",
-    "detected_at": "2026-08-17T09:00:50.108391+00:00"
+    "detected_at": "2026-08-17T09:00:50.108391+00:00",
+    "review_note": "Software/services: construction permitting software.",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "SESO",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Agriculture",
     "tagline": "Manages agricultural labor platforms.",
     "founders": "Michael Guirguis, Jordan Taylor",
@@ -53,7 +59,9 @@
     "raised": "$55.9M",
     "our_sector": "Robotics & Manufacturing",
     "source_list": "buildlist",
-    "detected_at": "2026-08-17T09:00:50.108391+00:00"
+    "detected_at": "2026-08-17T09:00:50.108391+00:00",
+    "review_note": "Software/services: H-2A farm labor platform.",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Friend",
@@ -67,11 +75,13 @@
     "raised": "$5.3M",
     "our_sector": "Chips & Semiconductors",
     "source_list": "buildlist",
-    "detected_at": "2026-08-17T09:00:50.108391+00:00"
+    "detected_at": "2026-08-17T09:00:50.108391+00:00",
+    "review_note": "Needs Stephen's call: consumer AI companion pendant (phone accessory running third-party LLMs); watcher mapped it to Chips & Semiconductors, which is wrong.",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Traba",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Manufacturing",
     "tagline": "Connects industrial labor markets.",
     "founders": "Akshay Buddiga, Mike Shebat",
@@ -81,11 +91,13 @@
     "raised": "$45.6M",
     "our_sector": "Robotics & Manufacturing",
     "source_list": "buildlist",
-    "detected_at": "2026-08-17T09:00:50.108391+00:00"
+    "detected_at": "2026-08-17T09:00:50.108391+00:00",
+    "review_note": "Software/services: light-industrial staffing marketplace.",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Ad Astra Sky Supply",
-    "status": "pending",
+    "status": "added",
     "sector": "Defense",
     "tagline": "Domestic manufacturing dominance and supremacy through sustainment for the warfighter.",
     "founders": "Caroline Canfield",
@@ -95,11 +107,13 @@
     "raised": "",
     "our_sector": "Defense & Security",
     "source_list": "buildlist",
-    "detected_at": "2026-08-17T09:00:50.108391+00:00"
+    "detected_at": "2026-08-17T09:00:50.108391+00:00",
+    "matched_record": "Ad Astra Sky Supply",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Blue Star NBR",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Manufacturing",
     "tagline": "American-made medical-grade nitrile butadiene rubber for domestic glove production.",
     "founders": "Ken Mosher, Scott Maier",
@@ -109,11 +123,13 @@
     "raised": "",
     "our_sector": "Robotics & Manufacturing",
     "source_list": "buildlist",
-    "detected_at": "2026-08-17T09:00:50.108391+00:00"
+    "detected_at": "2026-08-17T09:00:50.108391+00:00",
+    "review_note": "Conventional nitrile-rubber plant for gloves; project stalled since 2023 after federal loan authority lapsed.",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Brynhild Industries",
-    "status": "pending",
+    "status": "added",
     "sector": "Defense",
     "tagline": "Defense innovation, deployable infrastructure, and AI-powered operator tools to protect American sovereignty.",
     "founders": "Christian Hale",
@@ -123,11 +139,13 @@
     "raised": "",
     "our_sector": "Defense & Security",
     "source_list": "buildlist",
-    "detected_at": "2026-08-17T09:00:50.108391+00:00"
+    "detected_at": "2026-08-17T09:00:50.108391+00:00",
+    "matched_record": "Brynhild Industries",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Fill USA",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Manufacturing",
     "tagline": "US arm of the Austrian machine and plant engineering company serving automotive and aerospace.",
     "founders": "Josef Fill",
@@ -137,11 +155,13 @@
     "raised": "",
     "our_sector": "Robotics & Manufacturing",
     "source_list": "buildlist",
-    "detected_at": "2026-08-17T09:00:50.108391+00:00"
+    "detected_at": "2026-08-17T09:00:50.108391+00:00",
+    "review_note": "Not a startup: US arm of Fill GmbH, an Austrian machine builder founded in 1966.",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Fisica",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Defense",
     "tagline": "Harnessing the invisible to protect the physical through advanced antennas and electromagnetic systems.",
     "founders": "Warren B. Kanders",
@@ -151,11 +171,13 @@
     "raised": "",
     "our_sector": "Defense & Security",
     "source_list": "buildlist",
-    "detected_at": "2026-08-17T09:00:50.108391+00:00"
+    "detected_at": "2026-08-17T09:00:50.108391+00:00",
+    "review_note": "Not a startup: legacy L3Harris antenna/test units (ATI, Datron, Randtron) bought by Kanders & Co for $200M.",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Nidus Technologies",
-    "status": "pending",
+    "status": "added",
     "sector": "Defense",
     "tagline": "Applied AI for defense manufacturing at scale.",
     "founders": "Harrison Nguyen",
@@ -165,11 +187,13 @@
     "raised": "",
     "our_sector": "Defense & Security",
     "source_list": "buildlist",
-    "detected_at": "2026-08-17T09:00:50.108391+00:00"
+    "detected_at": "2026-08-17T09:00:50.108391+00:00",
+    "matched_record": "Nidus",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Sustainment",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Manufacturing",
     "tagline": "Software platform connecting the American manufacturing community.",
     "founders": "Bret Boyd, Michael Morford",
@@ -179,11 +203,13 @@
     "raised": "$15.8M",
     "our_sector": "Robotics & Manufacturing",
     "source_list": "buildlist",
-    "detected_at": "2026-08-17T09:00:50.108391+00:00"
+    "detected_at": "2026-08-17T09:00:50.108391+00:00",
+    "review_note": "Software/services: manufacturing sourcing platform.",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Candid Health",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Bio & Health",
     "tagline": "Automates healthcare revenue cycle management to make claims processing touchless.",
     "founders": "Nick Perry, Doug Proctor, Adam Reis",
@@ -193,11 +219,13 @@
     "raised": "$99.5M",
     "our_sector": "Biotech & Health",
     "source_list": "buildlist",
-    "detected_at": "2026-08-17T09:00:50.108391+00:00"
+    "detected_at": "2026-08-17T09:00:50.108391+00:00",
+    "review_note": "Software/services: healthcare revenue-cycle/claims automation.",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Optica Industries",
-    "status": "pending",
+    "status": "held",
     "sector": "Materials Science",
     "tagline": "This is some fake text for this private startup. Couldn't have someone taking a sneak peak after all. But don't worry, we'll have this information available as soon as the startup is out of stealth.",
     "founders": "Dylan Jin-Ngo, Sam Katz, Henry Zhou",
@@ -208,11 +236,13 @@
     "website": "https://optica.industries",
     "our_sector": "Robotics & Manufacturing",
     "source_list": "blackflag",
-    "detected_at": "2026-08-18T14:26:33.315798+00:00"
+    "detected_at": "2026-08-18T14:26:33.315798+00:00",
+    "review_note": "Stealth: blank site; aluminum-recycling/metals focus seen only in filings and LinkedIn.",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Valinor",
-    "status": "pending",
+    "status": "added",
     "sector": "Defense",
     "tagline": "Valinor is a defense and government tech company using a hub-and-spoke model: centralized go-to-market infrastructure with decentralized engineering across focused subsidiaries. It solves the structural barriers that stall defense startups, like procurement complexity and compliance overhead, by spreading those fixed costs across a portfolio of mission-critical products.",
     "founders": "Julie Bush, Paul Kwan",
@@ -223,11 +253,13 @@
     "website": "https://www.valinor.co",
     "our_sector": "Defense & Security",
     "source_list": "blackflag",
-    "detected_at": "2026-08-18T14:26:33.315798+00:00"
+    "detected_at": "2026-08-18T14:26:33.315798+00:00",
+    "matched_record": "Valinor Enterprises",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "American Terawatt",
-    "status": "pending",
+    "status": "added",
     "sector": "Energy & Climate",
     "tagline": "Builds a national direct-current power backbone for AI data centers and American industry.",
     "founders": "Anton Troynikov, Ron Bhattacharyay, Ricky Moezinia, Rob Parker",
@@ -237,11 +269,13 @@
     "raised": "$52.6M",
     "our_sector": "Climate & Energy",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "American Terawatt",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Atlas Atomics",
-    "status": "pending",
+    "status": "added",
     "sector": "Energy & Climate",
     "tagline": "Develops heavy-water nuclear reactors for power, isotopes, and spent-fuel utilization.",
     "founders": "Kevin Gan",
@@ -251,11 +285,13 @@
     "raised": "",
     "our_sector": "Climate & Energy",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "Atlas Atomics",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Corridian",
-    "status": "pending",
+    "status": "held",
     "sector": "Defense",
     "tagline": "Builds autonomous underwater systems for defense, sensing, and electronic warfare.",
     "founders": "Greg Barrow, Kyle Arace",
@@ -265,11 +301,13 @@
     "raised": "",
     "our_sector": "Defense & Security",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "review_note": "Stealth: site says 'launching soon'; only buildlist's tagline and a tracker investor note to go on.",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Elve",
-    "status": "pending",
+    "status": "added",
     "sector": "Compute & Semiconductors",
     "tagline": "Builds high-power millimeter-wave amplifiers for communications, radar, and electronic warfare.",
     "founders": "Diana Gamzina",
@@ -279,11 +317,13 @@
     "raised": "$22M",
     "our_sector": "Chips & Semiconductors",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "Elve",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Endeavor Optical Networks",
-    "status": "pending",
+    "status": "added",
     "sector": "Aerospace",
     "tagline": "Builds optical middle-Earth-orbit networks for high-capacity global data transport.",
     "founders": "Charlie Horowitz, Tyler Presser",
@@ -293,11 +333,13 @@
     "raised": "$10.8M",
     "our_sector": "Space & Aerospace",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "Endeavor Optical Networks",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Enhanced Radar",
-    "status": "pending",
+    "status": "added",
     "sector": "Transportation",
     "tagline": "Uses AI to modernize air traffic control and aviation operations.",
     "founders": "Eric Button, Kristian Gaylord",
@@ -307,11 +349,13 @@
     "raised": "$7.5M",
     "our_sector": "Transportation",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "Enhanced Radar",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Furientis",
-    "status": "pending",
+    "status": "added",
     "sector": "Defense",
     "tagline": "Builds affordable interceptor missiles for modern air defense.",
     "founders": "Brody Franzen, Aris Simsarian",
@@ -321,11 +365,13 @@
     "raised": "$5M",
     "our_sector": "Defense & Security",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "Furientis",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Ironstead",
-    "status": "pending",
+    "status": "added",
     "sector": "Manufacturing",
     "tagline": "Scales American industrial production with advanced manufacturing technology and talent.",
     "founders": "Garuth Acharya",
@@ -335,11 +381,13 @@
     "raised": "",
     "our_sector": "Robotics & Manufacturing",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "Ironstead",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Katalyst Space",
-    "status": "pending",
+    "status": "added",
     "sector": "Aerospace",
     "tagline": "Builds robotic spacecraft for on-orbit servicing and satellite upgrades.",
     "founders": "Ghonhee Lee, Kaleb Beebout, Nicholas Liapis, Vanessa Clark",
@@ -349,11 +397,13 @@
     "raised": "$12M",
     "our_sector": "Space & Aerospace",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "Katalyst Space",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Lightmill",
-    "status": "pending",
+    "status": "added",
     "sector": "Manufacturing",
     "tagline": "Uses large-format laser milling to make precision metal parts.",
     "founders": "Owen Murphy",
@@ -363,11 +413,13 @@
     "raised": "",
     "our_sector": "Robotics & Manufacturing",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "Lightmill",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Moment Energy",
-    "status": "pending",
+    "status": "added",
     "sector": "Energy & Climate",
     "tagline": "Repurposes electric-vehicle batteries into grid-scale energy storage systems.",
     "founders": "Gurmesh Sidhu, Gabriel Soares, Sumreen Rattan, Edward Chiang",
@@ -377,11 +429,13 @@
     "raised": "$100M+",
     "our_sector": "Climate & Energy",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "Moment Energy",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Nine Fives",
-    "status": "pending",
+    "status": "added",
     "sector": "Compute & Semiconductors",
     "tagline": "Builds modern radio-frequency test equipment for engineers and manufacturers.",
     "founders": "Noah Levy, Andrew Kurtz",
@@ -391,11 +445,13 @@
     "raised": "$500K",
     "our_sector": "Chips & Semiconductors",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "Nine Fives",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Resurgent Industries",
-    "status": "pending",
+    "status": "added",
     "sector": "Manufacturing",
     "tagline": "Builds automated factories to restore cost-competitive American manufacturing.",
     "founders": "Derek Stephens",
@@ -405,11 +461,13 @@
     "raised": "$19.2M",
     "our_sector": "Robotics & Manufacturing",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "Resurgent Industries",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Revoy",
-    "status": "pending",
+    "status": "added",
     "sector": "Transportation",
     "tagline": "Electrifies diesel semi-trucks with a plug-in smart dolly.",
     "founders": "Ian Rust",
@@ -419,11 +477,13 @@
     "raised": "$42.8M",
     "our_sector": "Transportation",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "Revoy",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Stendr",
-    "status": "pending",
+    "status": "added",
     "sector": "Defense",
     "tagline": "Builds data-fusion and air-defense systems for Nordic and allied forces.",
     "founders": "Aleksander Leonard Larsen, Robin Pedersen",
@@ -433,11 +493,13 @@
     "raised": "$5.4M",
     "our_sector": "Defense & Security",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "Stendr",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Tiberius Aerospace",
-    "status": "pending",
+    "status": "added",
     "sector": "Defense",
     "tagline": "Develops munitions and defense capabilities through a defense-as-a-service model.",
     "founders": "Chad Steelberg, Andy Baynes, Michael Martin, Tim Conners",
@@ -447,11 +509,13 @@
     "raised": "$4.5M",
     "our_sector": "Defense & Security",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "Tiberius Aerospace",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Uplift360",
-    "status": "pending",
+    "status": "added",
     "sector": "Manufacturing",
     "tagline": "Regenerates advanced composite materials for aerospace and defense supply chains.",
     "founders": "Jamie Meighan, Sam Staincliffe",
@@ -461,11 +525,13 @@
     "raised": "$11.0M",
     "our_sector": "Robotics & Manufacturing",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "Uplift360",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Vight",
-    "status": "pending",
+    "status": "added",
     "sector": "Aerospace",
     "tagline": "Develops a compact two-seat electric vertical-takeoff aircraft for personal and rural mobility.",
     "founders": "Tsung Xu",
@@ -475,11 +541,13 @@
     "raised": "$1M+",
     "our_sector": "Space & Aerospace",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "Vight",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Zenno Astronautics",
-    "status": "pending",
+    "status": "added",
     "sector": "Aerospace",
     "tagline": "Develops superconducting systems for satellite attitude control, docking, and shielding.",
     "founders": "Max Arshavsky, Sebastian Wieczorek",
@@ -489,11 +557,13 @@
     "raised": "",
     "our_sector": "Space & Aerospace",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "matched_record": "Zenno Astronautics",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Valkryn Industries",
-    "status": "pending",
+    "status": "held",
     "sector": "Defense",
     "tagline": "Builds forward-deployable defense manufacturing systems, unmanned aircraft, and critical aerospace components.",
     "founders": "Hugh Zabriskie, Andrew Hoff",
@@ -503,11 +573,13 @@
     "raised": "",
     "our_sector": "Defense & Security",
     "source_list": "buildlist",
-    "detected_at": "2026-08-24T09:04:53.711937+00:00"
+    "detected_at": "2026-08-24T09:04:53.711937+00:00",
+    "review_note": "Site returns a 404 page; HQ conflicts (DC per PitchBook vs Santa Ana per buildlist); founder link unconfirmed.",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Skylo",
-    "status": "pending",
+    "status": "added",
     "sector": "Aerospace",
     "tagline": "Connects phones and devices directly to satellites.",
     "founders": "Parthsarathi Trivedi, Andrew Nuttall, Andrew Kalman, Tarun Gupta",
@@ -517,11 +589,13 @@
     "raised": "$183M",
     "our_sector": "Space & Aerospace",
     "source_list": "buildlist",
-    "detected_at": "2026-08-31T16:09:48.286216+00:00"
+    "detected_at": "2026-08-31T16:09:48.286216+00:00",
+    "matched_record": "Skylo",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Sphinx Defense",
-    "status": "pending",
+    "status": "added",
     "sector": "Defense",
     "tagline": "Builds secure software for space ground systems.",
     "founders": "Hunter Price, Sebastien Diebler",
@@ -531,11 +605,13 @@
     "raised": "",
     "our_sector": "Defense & Security",
     "source_list": "buildlist",
-    "detected_at": "2026-08-31T16:09:48.286216+00:00"
+    "detected_at": "2026-08-31T16:09:48.286216+00:00",
+    "matched_record": "Sphinx Defense",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Weave Robotics",
-    "status": "pending",
+    "status": "added",
     "sector": "Robotics",
     "tagline": "Builds personal robots for household tasks.",
     "founders": "Kaan Dogrusoz, Evan Wineland",
@@ -545,11 +621,13 @@
     "raised": "$500K",
     "our_sector": "Robotics & Manufacturing",
     "source_list": "buildlist",
-    "detected_at": "2026-08-31T16:09:48.286216+00:00"
+    "detected_at": "2026-08-31T16:09:48.286216+00:00",
+    "matched_record": "Weave Robotics",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Orb Aerospace",
-    "status": "pending",
+    "status": "added",
     "sector": "Aerospace",
     "tagline": "Builds autonomous aircraft and resilient field communications.",
     "founders": "Alex Taylor",
@@ -559,11 +637,13 @@
     "raised": "$14.5M+",
     "our_sector": "Space & Aerospace",
     "source_list": "buildlist",
-    "detected_at": "2026-08-31T16:09:48.286216+00:00"
+    "detected_at": "2026-08-31T16:09:48.286216+00:00",
+    "matched_record": "Orb Aerospace",
+    "reviewed_at": "2026-09-22"
   },
   {
     "name": "Cambridge GaN Devices",
-    "status": "pending",
+    "status": "added",
     "sector": "Compute & Semiconductors",
     "tagline": "Develops energy-efficient gallium nitride power semiconductors.",
     "founders": "Giorgia Longobardi, Florin Udrea",
@@ -573,6 +653,8 @@
     "raised": "$63M+",
     "our_sector": "Chips & Semiconductors",
     "source_list": "buildlist",
-    "detected_at": "2026-08-31T16:09:48.286216+00:00"
+    "detected_at": "2026-08-31T16:09:48.286216+00:00",
+    "matched_record": "Cambridge GaN Devices",
+    "reviewed_at": "2026-09-22"
   }
 ]
