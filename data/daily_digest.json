@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T14:39:09.611859+00:00",
+  "generatedAt": "2026-09-22T18:44:01.655512+00:00",
   "date": "2026-09-22",
   "dateDisplay": "Tuesday, September 22, 2026",
   "sections": {
@@ -63,58 +63,58 @@
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 340.74,
-        "changePercent": 32.56,
-        "change": 83.7
-      },
-      {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 78.03,
-        "changePercent": 25.43,
-        "change": 15.82
-      },
-      {
-        "ticker": "AMD",
-        "company": "AMD",
-        "price": 615.52,
-        "changePercent": 24.75,
-        "change": 122.11
+        "price": 365.09,
+        "changePercent": 44.57,
+        "change": 112.55
       },
       {
         "ticker": "RXRX",
         "company": "Recursion Pharmaceuticals",
-        "price": 3.97,
-        "changePercent": 16.42,
-        "change": 0.56
+        "price": 4.12,
+        "changePercent": 27.01,
+        "change": 0.88
       },
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 5.58,
-        "changePercent": 15.05,
-        "change": 0.73
+        "ticker": "AMD",
+        "company": "AMD",
+        "price": 617.25,
+        "changePercent": 22.42,
+        "change": 113.06
+      },
+      {
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 0.69,
+        "changePercent": 19.76,
+        "change": 0.11
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
         "price": 15.72,
-        "changePercent": 13.26,
-        "change": 1.84
+        "changePercent": 13.37,
+        "change": 1.86
       },
       {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 7.42,
-        "changePercent": 12.33,
-        "change": 0.81
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 40.76,
+        "changePercent": 13.29,
+        "change": 4.78
       },
       {
-        "ticker": "ONT.L",
-        "company": "Oxford Nanopore Technologies",
-        "price": 177.6,
-        "changePercent": 12.19,
-        "change": 19.3
+        "ticker": "TEM",
+        "company": "Tempus AI",
+        "price": 77.75,
+        "changePercent": 12.93,
+        "change": 8.9
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 71.55,
+        "changePercent": 12.59,
+        "change": 8.0
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ALAB +32.6%"
+    "topMover": "ALAB +44.6%"
   }
 }
