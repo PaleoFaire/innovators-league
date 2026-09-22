@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-09-21";
+const LAST_UPDATED = "2026-09-22";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -62148,18 +62148,18 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-21 20:57
+// Last updated: 2026-09-21 23:59
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI forms math advisory group as its AI resolves more than 100 open problems", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "Kairos Power", headline: "Kairos Power gets up to $100M from Samsung group to build nuclear reactor for Google", source: "TechCrunch", time: "2h ago", impact: "medium", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Starmind AI in Space Radiator", source: "Next Big Future", time: "23h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI forms math advisory group as its AI resolves more than 100 open problems", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "Kairos Power", headline: "Kairos Power gets up to $100M from Samsung group to build nuclear reactor for Google", source: "TechCrunch", time: "5h ago", impact: "medium", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Starmind AI in Space Radiator", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "news", company: "Humanoid", headline: "What do you do with a humanoid robot when it breaks down?", source: "The Robot Report", time: "1d ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Plan is Less Than $1 Billion", source: "Next Big Future", time: "1d ago", impact: "high", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Plan is Less Than $1 Billion", source: "Next Big Future", time: "2d ago", impact: "high", unread: true },
   { id: 6, type: "ipo", company: "OpenAI", headline: "Waiting for Compute Because They Have To Not Because OpenAI Wants to", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 7, type: "contract", company: "Cape", headline: "Cape Canaveral is building up its counter-drone defenses, Space Force says", source: "Defense One", time: "2d ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "Cape", headline: "Cape Canaveral is building up its counter-drone defenses, Space Force says", source: "Defense One", time: "3d ago", impact: "low", unread: false },
   { id: 8, type: "news", company: "Waymo", headline: "Waymo's Next Target: Singapore", source: "CleanTechnica", time: "3d ago", impact: "low", unread: false },
   { id: 9, type: "milestone", company: "Icarus", headline: "Icarus Robotics flies ISS-bound robot in microgravity for the first time", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Mazama", headline: "Mazama Energy raises $135M for superhot geothermal at Oregon volcano", source: "Canary Media", time: "3d ago", impact: "high", unread: false },
+  { id: 10, type: "funding", company: "Mazama", headline: "Mazama Energy raises $135M for superhot geothermal at Oregon volcano", source: "Canary Media", time: "4d ago", impact: "high", unread: false },
   { id: 11, type: "ipo", company: "Icarus", headline: "Icarus Robotics tests Joy in Canada ahead of ISS flight", source: "SpaceNews", time: "4d ago", impact: "low", unread: false },
   { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX Could Beat Its Entire 2025 Revenue in Just 2 Months", source: "Next Big Future", time: "4d ago", impact: "low", unread: false },
   { id: 13, type: "news", company: "Waymo", headline: "Building Waymo's Risk &#038; Insurance Foundation in Europe with Allianz Partners", source: "CleanTechnica", time: "4d ago", impact: "low", unread: false },
