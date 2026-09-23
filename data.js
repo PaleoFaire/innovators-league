@@ -63880,23 +63880,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-23 16:44
+// Last updated: 2026-09-23 20:09
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Magic AI", headline: "Magic AI raises '8m to take its AI-powered fitness mirror to the US", source: "Sifted", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Anthropic", headline: "Anthropic and Nvidia back Basecamp Research in $140M Series C", source: "Tech.eu", time: "3h ago", impact: "high", unread: true },
-  { id: 3, type: "funding", company: "Tekever", headline: "TEKEVER raises $580M Series D at $6.4B valuation", source: "Tech.eu", time: "7h ago", impact: "high", unread: true },
-  { id: 4, type: "funding", company: "X-Energy", headline: "With federal funding windfall, X-energy advances small nuclear reactor", source: "Canary Media", time: "9h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Waymo", headline: "Autonomy, Meet Autonomous ' Waymo Teen Accounts in Nashville", source: "CleanTechnica", time: "13h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Wayve", headline: "Mercedes-Benz signs deal to put Wayve AI Driver in cars within 2 years", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "Elon Plans SPACEX FIBER KILLER Satellite. Each More Powerful than the Space Station", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "hire", company: "SpaceX", headline: "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran Warns Of 'Tourists And FOMO'", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX Starmind AI in Space Radiator", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Humanoid", headline: "What do you do with a humanoid robot when it breaks down?", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Plan is Less Than $1 Billion", source: "Next Big Future", time: "3d ago", impact: "high", unread: false },
-  { id: 12, type: "ipo", company: "OpenAI", headline: "Waiting for Compute Because They Have To Not Because OpenAI Wants to", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "contract", company: "Cape", headline: "Cape Canaveral is building up its counter-drone defenses, Space Force says", source: "Defense One", time: "4d ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Mazama", headline: "Mazama Energy raises $135M for superhot geothermal at Oregon volcano", source: "Canary Media", time: "5d ago", impact: "high", unread: false },
-  { id: 15, type: "ipo", company: "Icarus", headline: "Icarus Robotics tests Joy in Canada ahead of ISS flight", source: "SpaceNews", time: "6d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Modal", headline: "Modal Motors is trying to cut China out of electric motors entirely", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "contract", company: "SpaceX", headline: "EXCLUSIVE: SpaceX given unique access to classified DoD space tracking data, sources say", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Magic AI", headline: "Magic AI raises '8m to take its AI-powered fitness mirror to the US", source: "Sifted", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Anthropic", headline: "Anthropic and Nvidia back Basecamp Research in $140M Series C", source: "Tech.eu", time: "7h ago", impact: "high", unread: true },
+  { id: 5, type: "funding", company: "Tekever", headline: "TEKEVER raises $580M Series D at $6.4B valuation", source: "Tech.eu", time: "10h ago", impact: "high", unread: true },
+  { id: 6, type: "funding", company: "X-Energy", headline: "With federal funding windfall, X-energy advances small nuclear reactor", source: "Canary Media", time: "12h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Waymo", headline: "Autonomy, Meet Autonomous ' Waymo Teen Accounts in Nashville", source: "CleanTechnica", time: "16h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Wayve", headline: "Mercedes-Benz signs deal to put Wayve AI Driver in cars within 2 years", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "Elon Plans SPACEX FIBER KILLER Satellite. Each More Powerful than the Space Station", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "hire", company: "SpaceX", headline: "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran Warns Of 'Tourists And FOMO'", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX Starmind AI in Space Radiator", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Humanoid", headline: "What do you do with a humanoid robot when it breaks down?", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Plan is Less Than $1 Billion", source: "Next Big Future", time: "3d ago", impact: "high", unread: false },
+  { id: 14, type: "contract", company: "Cape", headline: "Cape Canaveral is building up its counter-drone defenses, Space Force says", source: "Defense One", time: "4d ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Mazama", headline: "Mazama Energy raises $135M for superhot geothermal at Oregon volcano", source: "Canary Media", time: "5d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
