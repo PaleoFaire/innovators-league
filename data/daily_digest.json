@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T20:09:41.970698+00:00",
+  "generatedAt": "2026-09-23T23:34:55.195199+00:00",
   "date": "2026-09-23",
   "dateDisplay": "Wednesday, September 23, 2026",
   "sections": {
@@ -63,58 +63,58 @@
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 361.57,
-        "changePercent": 34.32,
-        "change": 92.39
+        "price": 360.46,
+        "changePercent": 33.91,
+        "change": 91.28
       },
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 614.6,
+        "price": 614.61,
         "changePercent": 19.92,
-        "change": 102.1
+        "change": 102.11
       },
       {
         "ticker": "RXRX",
         "company": "Recursion Pharmaceuticals",
-        "price": 3.73,
-        "changePercent": 16.77,
-        "change": 0.54
+        "price": 3.7,
+        "changePercent": 15.99,
+        "change": 0.51
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 42.98,
-        "changePercent": 16.65,
-        "change": 6.13
+        "price": 42.54,
+        "changePercent": 15.47,
+        "change": 5.7
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 0.69,
-        "changePercent": 14.39,
-        "change": 0.09
+        "price": 0.68,
+        "changePercent": 13.18,
+        "change": 0.08
       },
       {
         "ticker": "SATL",
         "company": "Satellogic",
         "price": 5.51,
-        "changePercent": 11.41,
+        "changePercent": 11.31,
         "change": 0.56
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 70.85,
-        "changePercent": 11.22,
-        "change": 7.15
+        "price": 70.31,
+        "changePercent": 10.38,
+        "change": 6.61
       },
       {
-        "ticker": "NNE",
-        "company": "Nano Nuclear Energy",
-        "price": 17.21,
-        "changePercent": 10.04,
-        "change": 1.57
+        "ticker": "PLTR",
+        "company": "Palantir",
+        "price": 191.79,
+        "changePercent": 10.01,
+        "change": 17.45
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ALAB +34.3%"
+    "topMover": "ALAB +33.9%"
   }
 }
