@@ -63439,20 +63439,20 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-23 00:15
+// Last updated: 2026-09-23 05:48
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "OpenAI", headline: "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes", source: "TechCrunch", time: "6h ago", impact: "medium", unread: true },
-  { id: 2, type: "milestone", company: "Waymo", headline: "Waymo's latest expansion strategy: teenagers", source: "TechCrunch", time: "6h ago", impact: "medium", unread: true },
-  { id: 3, type: "ipo", company: "AstroForge", headline: "AstroForge is putting AI in command of its next spacecraft", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Wayve", headline: "Mercedes-Benz signs deal to put Wayve AI Driver in cars within 2 years", source: "Electrek", time: "9h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "Elon Plans SPACEX FIBER KILLER Satellite. Each More Powerful than the Space Station", source: "Next Big Future", time: "10h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "SpaceX", headline: "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran Warns Of 'Tourists And FOMO'", source: "Crunchbase News", time: "13h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX Starmind AI in Space Radiator", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Humanoid", headline: "What do you do with a humanoid robot when it breaks down?", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Plan is Less Than $1 Billion", source: "Next Big Future", time: "3d ago", impact: "high", unread: false },
-  { id: 10, type: "ipo", company: "OpenAI", headline: "Waiting for Compute Because They Have To Not Because OpenAI Wants to", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
-  { id: 11, type: "contract", company: "Cape", headline: "Cape Canaveral is building up its counter-drone defenses, Space Force says", source: "Defense One", time: "4d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Waymo", headline: "Waymo's Next Target: Singapore", source: "CleanTechnica", time: "4d ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "Waymo", headline: "Autonomy, Meet Autonomous ' Waymo Teen Accounts in Nashville", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "OpenAI", headline: "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes", source: "TechCrunch", time: "11h ago", impact: "medium", unread: true },
+  { id: 3, type: "milestone", company: "Waymo", headline: "Waymo's latest expansion strategy: teenagers", source: "TechCrunch", time: "12h ago", impact: "medium", unread: true },
+  { id: 4, type: "ipo", company: "AstroForge", headline: "AstroForge is putting AI in command of its next spacecraft", source: "TechCrunch", time: "14h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Wayve", headline: "Mercedes-Benz signs deal to put Wayve AI Driver in cars within 2 years", source: "Electrek", time: "14h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "Elon Plans SPACEX FIBER KILLER Satellite. Each More Powerful than the Space Station", source: "Next Big Future", time: "16h ago", impact: "low", unread: false },
+  { id: 7, type: "hire", company: "SpaceX", headline: "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran Warns Of 'Tourists And FOMO'", source: "Crunchbase News", time: "18h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX Starmind AI in Space Radiator", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Humanoid", headline: "What do you do with a humanoid robot when it breaks down?", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Plan is Less Than $1 Billion", source: "Next Big Future", time: "3d ago", impact: "high", unread: false },
+  { id: 11, type: "ipo", company: "OpenAI", headline: "Waiting for Compute Because They Have To Not Because OpenAI Wants to", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
+  { id: 12, type: "contract", company: "Cape", headline: "Cape Canaveral is building up its counter-drone defenses, Space Force says", source: "Defense One", time: "4d ago", impact: "low", unread: false },
   { id: 13, type: "milestone", company: "Icarus", headline: "Icarus Robotics flies ISS-bound robot in microgravity for the first time", source: "The Robot Report", time: "4d ago", impact: "low", unread: false },
   { id: 14, type: "funding", company: "Mazama", headline: "Mazama Energy raises $135M for superhot geothermal at Oregon volcano", source: "Canary Media", time: "5d ago", impact: "high", unread: false },
   { id: 15, type: "ipo", company: "Icarus", headline: "Icarus Robotics tests Joy in Canada ahead of ISS flight", source: "SpaceNews", time: "5d ago", impact: "low", unread: false },
