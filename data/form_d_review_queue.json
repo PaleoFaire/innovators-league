@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T12:35:18.653541+00:00",
+  "generated_at": "2026-09-23T12:46:28.118872+00:00",
   "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
   "candidates": [
     {
@@ -23,6 +23,17 @@
       "accession": "0002156397-26-000001",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002156397&type=D&dateb=&owner=include&count=10",
       "adsh_raw": "0002156397-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Interlune",
+      "issuer_name": "INTERLUNE II VUVP FUND LLC",
+      "form": "D",
+      "filed_date": "2026-09-22",
+      "cik": "2155123",
+      "accession": "0002155123-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002155123&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002155123-26-000001"
     },
     {
       "match_method": "name-candidate",
@@ -89,39 +100,6 @@
       "accession": "0002149255-26-000001",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002149255&type=D&dateb=&owner=include&count=10",
       "adsh_raw": "0002149255-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Persona AI",
-      "issuer_name": "PERSONA AI Feb 2026 a Series of CGF2021 LLC",
-      "form": "D",
-      "filed_date": "2026-09-11",
-      "cik": "2114821",
-      "accession": "0002114821-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002114821&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002114821-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Revere",
-      "issuer_name": "Revere Credit Opportunities IDF Series Interests of the SALI Multi-Series Fund, LP",
-      "form": "D",
-      "filed_date": "2026-09-11",
-      "cik": "2074023",
-      "accession": "0002074023-26-000001",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002074023&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0002074023-26-000001"
-    },
-    {
-      "match_method": "name-candidate",
-      "company": "Tempo",
-      "issuer_name": "Tempo Therapeutics, Inc",
-      "form": "D",
-      "filed_date": "2026-09-11",
-      "cik": "1813688",
-      "accession": "0001813688-26-000003",
-      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001813688&type=D&dateb=&owner=include&count=10",
-      "adsh_raw": "0001813688-26-000003"
     }
   ]
 }

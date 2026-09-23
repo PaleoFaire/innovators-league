@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-22T12:35:32.939385+00:00",
+  "generated_at": "2026-09-23T12:46:37.188084+00:00",
   "lookback_days": 8,
-  "scanned": 1366,
-  "total": 7,
+  "scanned": 1319,
+  "total": 6,
   "filings": [
     {
       "match_method": "cik",
@@ -155,29 +155,6 @@
         "Shawn Carolan"
       ],
       "is_safe": false,
-      "source": "edgar-daily-index"
-    },
-    {
-      "match_method": "cik",
-      "match_evidence": "filer CIK 1942463 == our recorded CIK",
-      "company": "Interlune",
-      "issuer_name": "Interlune Corp",
-      "form": "D",
-      "filed_date": "2026-09-15",
-      "cik": "1942463",
-      "accession": "0001942463-26-000002",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/1942463/000194246326000002/primary_doc.xml",
-      "offering_amount": "5000000",
-      "amount_sold": "5000000",
-      "amount_remaining": "0",
-      "securities_type": "",
-      "related_persons": [
-        "Robert Meyerson",
-        "H. Hornsby",
-        "Katelin Holloway",
-        "Prateek Lal"
-      ],
-      "is_safe": true,
       "source": "edgar-daily-index"
     }
   ]

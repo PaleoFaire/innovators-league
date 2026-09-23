@@ -99,6 +99,15 @@
     "trackedCompany": "SpaceX"
   },
   {
+    "date": "2026-10-15",
+    "vehicle": "GSLV Mk II | IRNSS-1L (NVS-03)",
+    "payload": "IRNSS-1L (NVS-03)",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/20d5676e-111b-40e3-8923-b218c3665ca2/?format=json",
+    "trackedCompany": null
+  },
+  {
     "date": "2026-10-19",
     "vehicle": "H3-24 | Martian Moon eXplorer (MMX)",
     "payload": "Martian Moon eXplorer (MMX)",
@@ -438,15 +447,6 @@
     "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/5aa3575e-f3ff-48ec-969f-e7e4c669f866/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-12-31",
-    "vehicle": "Electron | BlackSky Gen-3 8",
-    "payload": "BlackSky Gen-3 8",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/280fba47-8e6e-4a4f-8bdd-b9687d99a9c5/?format=json",
     "trackedCompany": "Rocket Lab"
   }
 ]

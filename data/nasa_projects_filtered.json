@@ -1014,21 +1014,6 @@
     "website": ""
   },
   {
-    "id": 183274,
-    "title": "A SmallSat Lidar Concept for PBL Height Measurements",
-    "description": "The purpose of this QRS request is to manage the current subsystem contracts (telescope, laser, and electronics) and finalize mechanical design modifications to ensure the new PBL SmallSat lidar instrument meets science needs and spacecraft allocations.",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Mar 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
     "id": 182287,
     "title": "Building the Foundations for Huge-N Lunar Radio Interferometry",
     "description": "Observations of the highly-redshifted 21 cm line of neutral hydrogen are the only probe of the Universe's \"Dark Ages\", the period of cosmic history prior to the formation of the first stars and galaxies.  Measurements of the Universe during its Dark Ages, however, would enable unprecedented precision tests of cosmology, greatly exceeding the Cosmic Microwave Background in both information content and impact.  Addressing the challenges inherent in these hydrogen observations is therefore a key un",
@@ -1057,6 +1042,45 @@
       "Southwest Research Institute - San Antonio",
       "Argonne National Laboratory",
       "Robot Nose Corporation"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183274,
+    "title": "A SmallSat Lidar Concept for PBL Height Measurements",
+    "description": "The purpose of this QRS request is to manage the current subsystem contracts (telescope, laser, and electronics) and finalize mechanical design modifications to ensure the new PBL SmallSat lidar instrument meets science needs and spacecraft allocations.",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Mar 2025",
+    "lastUpdated": "08/20/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182255,
+    "title": "The Super - High Energy Replicated Optics Hard X-ray Telescope",
+    "description": "This proposal is for Super - High Energy Replicated Optics (SuperHERO), a high-angular-resolution, balloon-borne, hard-X-ray observatory. A follow-on version of NASA Marshall Space Flight Center's (MSFC's) successful HERO and HEROES missions, SuperHERO will implement recent advancements in MSFC's replicated nickel shell optics technology to achieve better than 10 arcsecond angular resolution performance in the hard X-ray (>20 keV) bandpass. This represents nearly an order of magnitude improvemen",
+    "status": "Active",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2029",
+    "lastUpdated": "08/20/26",
+    "center": "NASA Headquarters",
+    "technologyArea": "",
+    "partners": [
+      "NASA Headquarters",
+      "Columbia Astrophysics Laboratory",
+      "Japan Aerospace Exploration Agency",
+      "Marshall Space Flight Center",
+      "Middlebury College",
+      "Smithsonian Astrophysical Observatory",
+      "Universities Space Research Association",
+      "University of New Hampshire-Main Campus",
+      "University of Tokyo",
+      "Washington University in St Louis"
     ],
     "website": ""
   },
