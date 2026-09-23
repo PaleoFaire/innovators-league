@@ -1,6 +1,10 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-22 11:14:12 UTC
+// Last updated: 2026-09-23 11:06:37 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "BlackSky Technology", form: "4", date: "2026-09-22", description: "xslF345X06/wk-form4_1790113165.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "4", date: "2026-09-22", description: "xslF345X06/wk-form4_1790113148.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "4", date: "2026-09-22", description: "xslF345X06/wk-form4_1790113118.xml", isIPO: false, ticker: "BKSY" },
+  { company: "LanzaTech", form: "8-K", date: "2026-09-22", description: "tlsi-20260922.htm", isIPO: false, ticker: "LNZA" },
   { company: "UiPath", form: "4", date: "2026-09-21", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "D-Wave Quantum", form: "8-K", date: "2026-09-21", description: "qbts-20260918.htm", isIPO: false, ticker: "QBTS" },
   { company: "Recursion Pharmaceuticals", form: "8-K", date: "2026-09-21", description: "rxrx-20260915.htm", isIPO: false, ticker: "RXRX" },
@@ -47,8 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Oklo", form: "4", date: "2026-09-10", description: "xslF345X06/wk-form4_1789072444.xml", isIPO: false, ticker: "OKLO" },
   { company: "Upstart Holdings", form: "4", date: "2026-09-10", description: "xslF345X06/wk-form4_1789082008.xml", isIPO: false, ticker: "UPST" },
   { company: "Upstart Holdings", form: "4", date: "2026-09-10", description: "xslF345X06/wk-form4_1789081939.xml", isIPO: false, ticker: "UPST" },
-  { company: "Rigetti Computing", form: "4", date: "2026-09-10", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-09-10", description: "qbts-20260910.htm", isIPO: false, ticker: "QBTS" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-09-10", description: "xslF345X06/wk-form4_1789077354.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Oklo", form: "4", date: "2026-09-09", description: "xslF345X06/wk-form4_1788985699.xml", isIPO: false, ticker: "OKLO" },
 ];

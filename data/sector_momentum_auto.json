@@ -1,7 +1,7 @@
 [
   {
     "sector": "Transportation",
-    "momentum": 44,
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
       "Rivian\u2019s Gambit for Full Autonomy"
@@ -11,18 +11,18 @@
       "funding": 100,
       "news": 5,
       "hiring": 0,
-      "market": 40
+      "market": 72
     },
-    "lastUpdated": "2026-09-22"
+    "lastUpdated": "2026-09-23"
   },
   {
     "sector": "Robotics & Manufacturing",
     "momentum": 43,
     "trend": "steady",
     "catalysts": [
-      "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran",
-      "What do you do with a humanoid robot when it breaks down?",
-      "Waymo&#8217;s Next Target: Singapore"
+      "Autonomy, Meet Autonomous \u2014 Waymo Teen Accounts in Nashville",
+      "Waymo&#8217;s latest expansion strategy: teenagers",
+      "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran"
     ],
     "fundingQ": "$1.4B",
     "components": {
@@ -31,7 +31,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-22"
+    "lastUpdated": "2026-09-23"
   },
   {
     "sector": "Defense & Security",
@@ -49,50 +49,50 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-22"
+    "lastUpdated": "2026-09-23"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 32,
-    "trend": "declining",
+    "momentum": 37,
+    "trend": "rising",
     "catalysts": [
-      "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran",
-      "SpaceX Starmind AI in Space Radiator",
-      "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Pl"
+      "Autonomy, Meet Autonomous \u2014 Waymo Teen Accounts in Nashville",
+      "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and",
+      "AstroForge is putting AI in command of its next spacecraft"
     ],
     "fundingQ": "$50M",
     "components": {
       "funding": 5,
-      "news": 40,
+      "news": 60,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-22"
+    "lastUpdated": "2026-09-23"
   },
   {
     "sector": "AI & Software",
     "momentum": 29,
     "trend": "rising",
     "catalysts": [
-      "OpenAI forms math advisory group as its AI resolves more tha",
+      "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and",
       "Waiting for Compute Because They Have To Not Because OpenAI",
       "OpenAI agents discussed ways to escape their sandbox on publ"
     ],
-    "fundingQ": "$2.4B",
+    "fundingQ": "$2.8B",
     "components": {
-      "funding": 39,
-      "news": 20,
+      "funding": 43,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-22"
+    "lastUpdated": "2026-09-23"
   },
   {
     "sector": "Nuclear Energy",
     "momentum": 26,
     "trend": "declining",
     "catalysts": [
-      "Kairos Power gets up to $100M from Samsung group to build nu",
+      "With federal funding windfall, X-energy advances small nucle",
       "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
       "Forced Into the Right Decision? A Look at U.S. Land-Based De"
     ],
@@ -103,7 +103,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-22"
+    "lastUpdated": "2026-09-23"
   },
   {
     "sector": "Biotech & Health",
@@ -120,7 +120,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-22"
+    "lastUpdated": "2026-09-23"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -136,7 +136,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-22"
+    "lastUpdated": "2026-09-23"
   },
   {
     "sector": "Quantum Computing",
@@ -152,11 +152,45 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-22"
+    "lastUpdated": "2026-09-23"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 19,
+    "trend": "declining",
+    "catalysts": [
+      "With federal funding windfall, X-energy advances small nucle",
+      "Mazama Energy raises $135M for superhot geothermal at Oregon",
+      "xAI has quietly built a massive battery at its Memphis data"
+    ],
+    "fundingQ": "$134M",
+    "components": {
+      "funding": 11,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-23"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 16,
+    "trend": "declining",
+    "catalysts": [
+      "Active housing & construction ecosystem"
+    ],
+    "fundingQ": "$50M",
+    "components": {
+      "funding": 16,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-23"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 18,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
       "What do you do with a humanoid robot when it breaks down?",
@@ -166,61 +200,29 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 30,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-22"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 17,
-    "trend": "declining",
-    "catalysts": [
-      "Waymo&#8217;s Next Target: Singapore"
-    ],
-    "fundingQ": "$50M",
-    "components": {
-      "funding": 16,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-22"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Mazama Energy raises $135M for superhot geothermal at Oregon",
-      "xAI has quietly built a massive battery at its Memphis data",
-      "Sage Geosystems brings its first next-gen geothermal plant o"
-    ],
-    "fundingQ": "$134M",
-    "components": {
-      "funding": 11,
-      "news": 15,
-      "hiring": 0,
-      "market": 31
-    },
-    "lastUpdated": "2026-09-22"
+    "lastUpdated": "2026-09-23"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 11,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
+      "TEKEVER raises $580M Series D at $6.4B valuation",
+      "Autonomy, Meet Autonomous \u2014 Waymo Teen Accounts in Nashville",
       "Cape Canaveral is building up its counter-drone defenses, Sp"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-22"
+    "lastUpdated": "2026-09-23"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -236,7 +238,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-22"
+    "lastUpdated": "2026-09-23"
   },
   {
     "sector": "Ocean & Maritime",
@@ -252,7 +254,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-22"
+    "lastUpdated": "2026-09-23"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -268,6 +270,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-22"
+    "lastUpdated": "2026-09-23"
   }
 ]
