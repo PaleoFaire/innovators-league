@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 10.01,
+      "avg_change": 9.28,
       "count": 1
     },
     "space": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 6.13,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 5.55,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 3.48,
+      "avg_change": 0.41,
       "count": 7
     },
     "nuclear": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 7.44,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -3.27,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -1.33,
+      "avg_change": -4.95,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 9.0,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 4.32,
       "count": 3
     },
     "biotech": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 9.17,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.26,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": 2.39,
+      "gainers": 2,
+      "losers": 0,
+      "avg_change": 1.98,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 19.75,
+      "avg_change": 13.49,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "ALAB",
       "Astera Labs",
-      33.91
+      24.67
     ],
     [
       "AMD",
       "AMD",
-      19.92
-    ],
-    [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      15.99
-    ],
-    [
-      "IONQ",
-      "IonQ",
-      15.47
+      13.7
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      13.18
+      12.65
+    ],
+    [
+      "IONQ",
+      "IonQ",
+      11.38
+    ],
+    [
+      "RKLB",
+      "Rocket Lab",
+      10.07
     ]
   ],
   "topLosers": [
     [
-      "AUR",
-      "Aurora Innovation",
-      -0.63
+      "QS",
+      "QuantumScape",
+      -5.16
     ],
     [
-      "RIVN",
-      "Rivian",
-      -1.38
+      "SMR",
+      "NuScale Power",
+      -5.64
+    ],
+    [
+      "AUR",
+      "Aurora Innovation",
+      -7.47
     ],
     [
       "SLDP",
       "Solid Power",
-      -1.67
-    ],
-    [
-      "QS",
-      "QuantumScape",
-      -1.8
+      -7.7
     ],
     [
       "DRSHF",
       "DroneShield",
-      -2.14
+      -10.59
     ]
   ],
-  "lastUpdated": "2026-09-24 12:46:22"
+  "lastUpdated": "2026-09-24 17:54:12"
 }
