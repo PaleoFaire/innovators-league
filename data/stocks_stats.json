@@ -11,13 +11,13 @@
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 6.11,
+      "avg_change": 6.16,
       "count": 7
     },
     "autonomous": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 3.66,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 3.27,
       "count": 7
     },
     "nuclear": {
@@ -86,11 +86,6 @@
   ],
   "topLosers": [
     [
-      "AUR",
-      "Aurora Innovation",
-      -0.63
-    ],
-    [
       "RIVN",
       "Rivian",
       -1.38
@@ -101,15 +96,20 @@
       -1.67
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      -1.71
-    ],
-    [
       "QS",
       "QuantumScape",
       -1.8
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -1.95
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      -2.14
     ]
   ],
-  "lastUpdated": "2026-09-23 22:20:56"
+  "lastUpdated": "2026-09-24 06:13:39"
 }
