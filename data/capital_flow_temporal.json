@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T09:53:33+00:00",
+  "generatedAt": "2026-09-24T14:53:56+00:00",
   "matrix": {
     "space-stations": {
       "2026-Q3": {
@@ -23,44 +23,15 @@
         "investors": []
       }
     },
-    "consumer-hardware": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": 46317349,
-        "companiesWithUnknownAmount": 0,
-        "companies": [
-          {
-            "name": "Whisper Aero",
-            "amount": 46317349,
-            "date": "2026-09-17",
-            "source": "formd",
-            "investors": [
-              "Menlo Ventures",
-              "Eve Atlas",
-              "Capricorn Technology Impact Fund",
-              "Connor Capital",
-              "Kindred Ventures",
-              "Abstract Ventures",
-              "Moving Capital",
-              "AeroX Ventures",
-              "Cosmos Ventures",
-              "Linse Capital",
-              "LaunchTN"
-            ]
-          }
-        ],
-        "investors": []
-      }
-    },
     "data-center-infrastructure": {
       "2026-Q3": {
         "deals": 1,
-        "totalSold": 3108543889,
+        "totalSold": 595943098,
         "companiesWithUnknownAmount": 0,
         "companies": [
           {
             "name": "Crusoe Energy",
-            "amount": 3108543889,
+            "amount": 595943098,
             "date": "2026-09-17",
             "source": "formd",
             "investors": [
@@ -89,32 +60,29 @@
         ]
       }
     },
-    "industrial-humanoid": {
+    "consumer-hardware": {
       "2026-Q3": {
         "deals": 1,
-        "totalSold": 65363626,
+        "totalSold": 46317349,
         "companiesWithUnknownAmount": 0,
         "companies": [
           {
-            "name": "Persona AI",
-            "amount": 65363626,
-            "date": "2026-09-14",
+            "name": "Whisper Aero",
+            "amount": 46317349,
+            "date": "2026-09-17",
             "source": "formd",
             "investors": [
-              "Unity Growth",
-              "Tides Ventures",
-              "Mirae Asset Group",
-              "Invicta Growth",
-              "Fathom Fund",
-              "Embedded Ventures",
-              "Wave Function Ventures",
-              "Zero Infinity Partners",
-              "dConstruct Technologies",
-              "Goose Capital",
-              "K50 Ventures",
-              "Cofounder Ventures",
-              "Tola Capital",
-              "K2 Global"
+              "Menlo Ventures",
+              "Eve Atlas",
+              "Capricorn Technology Impact Fund",
+              "Connor Capital",
+              "Kindred Ventures",
+              "Abstract Ventures",
+              "Moving Capital",
+              "AeroX Ventures",
+              "Cosmos Ventures",
+              "Linse Capital",
+              "LaunchTN"
             ]
           }
         ],
@@ -2341,9 +2309,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 60,
-    "totalUSDSold": 3248779218,
-    "uniqueClusters": 38,
+    "totalDealsTracked": 59,
+    "totalUSDSold": 670814801,
+    "uniqueClusters": 37,
     "uniqueQuarters": 9,
     "uniqueVCs": 20,
     "quarterRange": [

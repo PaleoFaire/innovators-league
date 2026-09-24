@@ -64358,27 +64358,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-24 09:52
-// Auto-generated real-time signals
-// Last updated: 2026-09-24
-// Auto-generated real-time signals
-// Last updated: 2026-09-24
+// Last updated: 2026-09-24 14:53
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "OpenAI", headline: "An OpenAI Agent Hacked Australia’s Health Service. Their Government Found Out Months Later.", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "Palantir", headline: "Army awards Palantir $48.1M to modernize ammo management", source: "Defense News", time: "10h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Modal", headline: "Modal Motors is trying to cut China out of electric motors entirely", source: "TechCrunch", time: "16h ago", impact: "low", unread: true },
-  { id: 4, type: "contract", company: "SpaceX", headline: "EXCLUSIVE: SpaceX given unique access to classified DoD space tracking data, sources say", source: "Breaking Defense", time: "16h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Magic AI", headline: "Magic AI raises £8m to take its AI-powered fitness mirror to the US", source: "Sifted", time: "20h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Anthropic", headline: "Anthropic and Nvidia back Basecamp Research in $140M Series C", source: "Tech.eu", time: "22h ago", impact: "high", unread: false },
-  { id: 7, type: "funding", company: "Tekever", headline: "TEKEVER raises $580M Series D at $6.4B valuation", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
-  { id: 8, type: "funding", company: "X-Energy", headline: "With federal funding windfall, X-energy advances small nuclear reactor", source: "Canary Media", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Waymo", headline: "Autonomy, Meet Autonomous — Waymo Teen Accounts in Nashville", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Wayve", headline: "Mercedes-Benz signs deal to put Wayve AI Driver in cars within 2 years", source: "Electrek", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "Elon Plans SPACEX FIBER KILLER Satellite. Each More Powerful than the Space Station", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "hire", company: "SpaceX", headline: "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran Warns Of ‘Tourists And FOMO’", source: "Crunchbase News", time: "2d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX Starmind AI in Space Radiator", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Humanoid", headline: "What do you do with a humanoid robot when it breaks down?", source: "The Robot Report", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Plan is Less Than $1 Billion", source: "Next Big Future", time: "4d ago", impact: "high", unread: false },
+  { id: 1, type: "milestone", company: "Saildrone", headline: "With Denmark, Saildrone logs first flag registration for naval surveillance drone", source: "Defense News", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX INSANE SPEED is more valuable than Rockets", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Humanoid", headline: "Europeans in Japan raise $1.2M to put modular humanoid robots to work", source: "Tech.eu", time: "Just now", impact: "high", unread: true },
+  { id: 4, type: "news", company: "ANYbotics", headline: "ANYbotics opens the door for inspections with ANYmal robots", source: "The Robot Report", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Waymo", headline: "Waymo says it has stopped 841 injuries in 271 million autonomous miles", source: "Electrek", time: "1h ago", impact: "medium", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "Australia to investigate if OpenAI hack of government health website broke the law", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "hire", company: "OpenAI", headline: "An OpenAI Agent Hacked Australia's Health Service. Their Government Found Out Months Later", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 8, type: "contract", company: "Palantir", headline: "Army awards Palantir $48.1M to modernize ammo management", source: "Defense News", time: "14h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Modal", headline: "Modal Motors is trying to cut China out of electric motors entirely", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
+  { id: 10, type: "contract", company: "SpaceX", headline: "EXCLUSIVE: SpaceX given unique access to classified DoD space tracking data, sources say", source: "Breaking Defense", time: "20h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Magic AI", headline: "Magic AI raises '8m to take its AI-powered fitness mirror to the US", source: "Sifted", time: "23h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Anthropic", headline: "Anthropic and Nvidia back Basecamp Research in $140M Series C", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
+  { id: 13, type: "funding", company: "Tekever", headline: "TEKEVER raises $580M Series D at $6.4B valuation", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
+  { id: 14, type: "funding", company: "X-Energy", headline: "With federal funding windfall, X-energy advances small nuclear reactor", source: "Canary Media", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Waymo", headline: "Autonomy, Meet Autonomous ' Waymo Teen Accounts in Nashville", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

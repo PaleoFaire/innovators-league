@@ -1,6 +1,136 @@
 [
   {
-    "title": "An OpenAI Agent Hacked Australia’s Health Service. Their Government Found Out Months Later.",
+    "title": "With Denmark, Saildrone logs first flag registration for naval surveillance drone",
+    "link": "https://www.defensenews.com/global/europe/2026/09/24/with-denmark-saildrone-logs-first-flag-registration-for-naval-surveillance-drone/",
+    "description": "U.S. naval drone maker Saildrone seeks to expand its footprint in Europe, with Denmark a key customer in the contested Baltic and North seas.",
+    "pubDate": "Thu, 24 Sep 2026 14:25:19 +0000",
+    "category": "/ Europe",
+    "source": "Defense News",
+    "feedCategory": "defense",
+    "matchedCompany": "Saildrone",
+    "matchedCompanies": [
+      "Saildrone",
+      "Asylon Robotics",
+      "ideaForge"
+    ],
+    "sectors": [
+      "defense",
+      "autonomous"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "SpaceX INSANE SPEED is more valuable than Rockets",
+    "link": "https://www.nextbigfuture.com/2026/09/spacex-insane-speed-is-more-valuable-than-rockets.html",
+    "description": "SpaceX’s biggest AI advantage are the months and years competitors lose waiting. Colossus was built in 122 days. Now the strategy is power waiting for chips—and that changes when tens and hundreds of billions of dollars of revenue can begin. SpaceX owns xAI. Colossus, Grok and AI infrastructure are ",
+    "pubDate": "Thu, 24 Sep 2026 14:18:26 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "xAI"
+    ],
+    "sectors": [
+      "space",
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Europeans in Japan raise $1.2M to put modular humanoid robots to work",
+    "link": "https://tech.eu/2026/09/24/brits-in-japan-raise-1m-to-put-modular-humanoid-robots-to-work/",
+    "description": "O-ID, a Tokyo-based company founded by two Europeans building one of the world’s first fully modular humanoid robots for industrial manufacturing and logistics, has raised $1.2 million in pre-seed fun...",
+    "pubDate": "Thu, 24 Sep 2026 14:17:00 +0000",
+    "category": "Robotics",
+    "source": "Tech.eu",
+    "feedCategory": "startups",
+    "matchedCompany": "Humanoid",
+    "matchedCompanies": [
+      "Humanoid",
+      "Karman Industries",
+      "Solugen",
+      "Gecko Robotics",
+      "Teralta",
+      "Dust"
+    ],
+    "sectors": [
+      "robotics",
+      "climate",
+      "infrastructure",
+      "ai"
+    ],
+    "type": "funding",
+    "impact": "high",
+    "time": "Just now"
+  },
+  {
+    "title": "ANYbotics opens the door for inspections with ANYmal robots",
+    "link": "https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/",
+    "description": "ANYbotics partnered with dormakaba and LEGIC Identsystems to enable the ANYmal quadruped to gain access like a badged employee.\nThe post ANYbotics opens the door for inspections with ANYmal robots appeared first on The Robot Report.",
+    "pubDate": "Thu, 24 Sep 2026 13:27:58 +0000",
+    "category": "Arms / Manipulators",
+    "source": "The Robot Report",
+    "feedCategory": "robotics",
+    "matchedCompany": "ANYbotics",
+    "matchedCompanies": [
+      "ANYbotics"
+    ],
+    "sectors": [
+      "robotics"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Waymo says it has stopped 841 injuries in 271 million autonomous miles",
+    "link": "https://electrek.co/2026/09/24/waymo-says-it-has-stopped-841-injuries-in-271-million-autonomous-miles/",
+    "description": "Waymo has released new crash data which claims not only an 82% reduction in crashes, but for the first time says the number of injuries that have been avoided by its robotaxi operation.\n\n\n\n more…",
+    "pubDate": "Thu, 24 Sep 2026 13:00:00 +0000",
+    "category": "News",
+    "source": "Electrek",
+    "feedCategory": "autonomous",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Zoox"
+    ],
+    "sectors": [
+      "ai",
+      "transportation"
+    ],
+    "type": "news",
+    "impact": "medium",
+    "time": "1h ago"
+  },
+  {
+    "title": "Australia to investigate if OpenAI hack of government health website broke the law",
+    "link": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
+    "description": "The incident is the first known breach to affect a government agency, and Australia's prime minister has vowed to hold OpenAI accountable.",
+    "pubDate": "Thu, 24 Sep 2026 12:54:19 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Palantir"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "An OpenAI Agent Hacked Australia’s Health Service. Their Government Found Out Months Later",
     "link": "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/",
     "description": "The country’s prime minister expressed disappointment at being informed of the hack only via email. Now Australia is investigating whether OpenAI broke the law.",
     "pubDate": "Thu, 24 Sep 2026 10:46:56 +0000",
@@ -17,7 +147,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "Army awards Palantir $48.1M to modernize ammo management",
@@ -37,7 +167,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "10h ago"
+    "time": "14h ago"
   },
   {
     "title": "Modal Motors is trying to cut China out of electric motors entirely",
@@ -56,7 +186,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "19h ago"
   },
   {
     "title": "EXCLUSIVE: SpaceX given unique access to classified DoD space tracking data, sources say",
@@ -77,7 +207,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "16h ago"
+    "time": "20h ago"
   },
   {
     "title": "Magic AI raises £8m to take its AI-powered fitness mirror to the US",
@@ -96,7 +226,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "20h ago"
+    "time": "23h ago"
   },
   {
     "title": "Anthropic and Nvidia back Basecamp Research in $140M Series C",
@@ -115,7 +245,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "TEKEVER raises $580M Series D at $6.4B valuation",
@@ -195,7 +325,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Elon Plans SPACEX FIBER KILLER Satellite. Each More Powerful than the Space Station",
@@ -216,7 +346,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran Warns Of ‘Tourists And FOMO’",
@@ -288,25 +418,6 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Plan is Less Than $1 Billion",
-    "link": "https://www.nextbigfuture.com/2026/09/bank-of-america-estimates-space-ai-at-160b-gw-wall-street-is-pricing-the-wrong-rocket.html",
-    "description": "Space-based AI costs $160 billion per gigawatt? That is an absurd and sloppy calculation. This has nothing to do with SpaceX’s plans. It is the wrong rocket and not the planned satellite. It freeze today’s technology, ignores Starship’s development, and pretend you’ve priced the future? That is slop",
-    "pubDate": "Sat, 19 Sep 2026 22:39:26 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "high",
     "time": "4d ago"
   },
   {
@@ -366,7 +477,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "6d ago"
+    "time": "9/17/2026"
   },
   {
     "title": "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence",
@@ -543,5 +654,24 @@
     "type": "hire",
     "impact": "low",
     "time": "8/6/2026"
+  },
+  {
+    "title": "<a href=\"/biotech/merck-co-uncorks-pivotal-victory-3b-eye-disease-prospect\" hreflang=\"en\">Merck sees pivotal victory for $3B eye disease prospect</a>",
+    "link": "https://www.fiercebiotech.com/biotech/merck-co-uncorks-pivotal-victory-3b-eye-disease-prospect",
+    "description": "Merck &amp;amp; Co.’s Brunello trial has hit its primary endpoint, shedding light on the effects of a trispecific diabetic macular edema (DME) drug candidate that the Big Pharma bought in a $3 billion takeover.",
+    "pubDate": "Sep 24, 2026 8:15am",
+    "category": "",
+    "source": "FierceBiotech",
+    "feedCategory": "biotech",
+    "matchedCompany": "Pivotal",
+    "matchedCompanies": [
+      "Pivotal"
+    ],
+    "sectors": [
+      "transportation"
+    ],
+    "type": "hire",
+    "impact": "high",
+    "time": "Invalid Date"
   }
 ]
