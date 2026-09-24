@@ -11,49 +11,49 @@
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 5.55,
+      "avg_change": 4.49,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 0.41,
+      "avg_change": 0.6,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -3.27,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -3.15,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.95,
+      "avg_change": -4.48,
       "count": 3
     },
     "quantum": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 4.32,
+      "avg_change": 4.5,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.26,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 4.6,
       "count": 3
     },
     "transportation": {
-      "gainers": 2,
-      "losers": 0,
-      "avg_change": 1.98,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": 1.25,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 13.49,
+      "avg_change": 13.55,
       "count": 3
     }
   },
@@ -61,49 +61,49 @@
     [
       "ALAB",
       "Astera Labs",
-      24.67
+      22.81
     ],
     [
       "AMD",
       "AMD",
-      13.7
+      15.44
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      12.65
+      12.09
     ],
     [
       "IONQ",
       "IonQ",
-      11.38
+      11.5
     ],
     [
-      "RKLB",
-      "Rocket Lab",
-      10.07
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      9.89
     ]
   ],
   "topLosers": [
     [
       "QS",
       "QuantumScape",
-      -5.16
+      -4.45
     ],
     [
       "SMR",
       "NuScale Power",
-      -5.64
+      -6.31
     ],
     [
       "AUR",
       "Aurora Innovation",
-      -7.47
+      -6.63
     ],
     [
       "SLDP",
       "Solid Power",
-      -7.7
+      -7.66
     ],
     [
       "DRSHF",
@@ -111,5 +111,5 @@
       -10.59
     ]
   ],
-  "lastUpdated": "2026-09-24 17:54:12"
+  "lastUpdated": "2026-09-24 22:28:35"
 }
