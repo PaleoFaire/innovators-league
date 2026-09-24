@@ -63911,15 +63911,15 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-24 04:31
+// Last updated: 2026-09-24 09:52
 const COMPANY_SIGNALS = [
-  { id: 1, type: "contract", company: "Palantir", headline: "Army awards Palantir $48.1M to modernize ammo management", source: "Defense News", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Modal", headline: "Modal Motors is trying to cut China out of electric motors entirely", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "SpaceX", headline: "EXCLUSIVE: SpaceX given unique access to classified DoD space tracking data, sources say", source: "Breaking Defense", time: "10h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Magic AI", headline: "Magic AI raises '8m to take its AI-powered fitness mirror to the US", source: "Sifted", time: "13h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Anthropic", headline: "Anthropic and Nvidia back Basecamp Research in $140M Series C", source: "Tech.eu", time: "15h ago", impact: "high", unread: true },
-  { id: 6, type: "funding", company: "Tekever", headline: "TEKEVER raises $580M Series D at $6.4B valuation", source: "Tech.eu", time: "19h ago", impact: "high", unread: false },
-  { id: 7, type: "funding", company: "X-Energy", headline: "With federal funding windfall, X-energy advances small nuclear reactor", source: "Canary Media", time: "21h ago", impact: "low", unread: false },
+  { id: 1, type: "contract", company: "Palantir", headline: "Army awards Palantir $48.1M to modernize ammo management", source: "Defense News", time: "9h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Modal", headline: "Modal Motors is trying to cut China out of electric motors entirely", source: "TechCrunch", time: "14h ago", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "SpaceX", headline: "EXCLUSIVE: SpaceX given unique access to classified DoD space tracking data, sources say", source: "Breaking Defense", time: "15h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Magic AI", headline: "Magic AI raises '8m to take its AI-powered fitness mirror to the US", source: "Sifted", time: "18h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Anthropic", headline: "Anthropic and Nvidia back Basecamp Research in $140M Series C", source: "Tech.eu", time: "20h ago", impact: "high", unread: true },
+  { id: 6, type: "funding", company: "Tekever", headline: "TEKEVER raises $580M Series D at $6.4B valuation", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
+  { id: 7, type: "funding", company: "X-Energy", headline: "With federal funding windfall, X-energy advances small nuclear reactor", source: "Canary Media", time: "1d ago", impact: "low", unread: false },
   { id: 8, type: "milestone", company: "Waymo", headline: "Autonomy, Meet Autonomous ' Waymo Teen Accounts in Nashville", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
   { id: 9, type: "news", company: "Wayve", headline: "Mercedes-Benz signs deal to put Wayve AI Driver in cars within 2 years", source: "Electrek", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "SpaceX", headline: "Elon Plans SPACEX FIBER KILLER Satellite. Each More Powerful than the Space Station", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
