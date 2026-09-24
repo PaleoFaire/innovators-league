@@ -148,6 +148,19 @@
     "roundCount": 3
   },
   {
+    "company": "Watershed",
+    "totalRaised": "$1.0B+",
+    "totalRaisedRaw": 1032.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$77M",
+    "lastRoundDate": "2026-09",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 6
+  },
+  {
     "company": "Cognition",
     "totalRaised": "$1.0B+",
     "totalRaisedRaw": 1004.6,
@@ -253,19 +266,6 @@
     "roundCount": 2
   },
   {
-    "company": "Watershed",
-    "totalRaised": "$955M+",
-    "totalRaisedRaw": 955.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$30M",
-    "lastRoundDate": "2026-07",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 5
-  },
-  {
     "company": "Dusty Robotics",
     "totalRaised": "$898M+",
     "totalRaisedRaw": 897.5,
@@ -329,6 +329,20 @@
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
+    ],
+    "roundCount": 2
+  },
+  {
+    "company": "Anthropic",
+    "totalRaised": "$640M+",
+    "totalRaisedRaw": 640.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$140M",
+    "lastRoundDate": "2026-09",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "NEA"
     ],
     "roundCount": 2
   },
@@ -447,19 +461,6 @@
       "Undisclosed"
     ],
     "roundCount": 2
-  },
-  {
-    "company": "Anthropic",
-    "totalRaised": "$500M+",
-    "totalRaisedRaw": 500.0,
-    "lastRound": "SPAC",
-    "lastRoundAmount": "$500M",
-    "lastRoundDate": "2026-06",
-    "valuation": "",
-    "leadInvestors": [
-      "NEA"
-    ],
-    "roundCount": 1
   },
   {
     "company": "Wandelbots",

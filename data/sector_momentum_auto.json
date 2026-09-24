@@ -1,7 +1,7 @@
 [
   {
     "sector": "Transportation",
-    "momentum": 51,
+    "momentum": 53,
     "trend": "steady",
     "catalysts": [
       "Rivian\u2019s Gambit for Full Autonomy"
@@ -11,81 +11,81 @@
       "funding": 100,
       "news": 5,
       "hiring": 0,
-      "market": 72
+      "market": 86
     },
-    "lastUpdated": "2026-09-23"
+    "lastUpdated": "2026-09-24"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 42,
+    "trend": "rising",
+    "catalysts": [
+      "Army awards Palantir $48.1M to modernize ammo management",
+      "Modal Motors is trying to cut China out of electric motors e",
+      "EXCLUSIVE: SpaceX given unique access to classified DoD spac"
+    ],
+    "fundingQ": "$1.1B",
+    "components": {
+      "funding": 38,
+      "news": 35,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-09-24"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 43,
+    "momentum": 41,
     "trend": "steady",
     "catalysts": [
+      "Modal Motors is trying to cut China out of electric motors e",
       "Autonomy, Meet Autonomous \u2014 Waymo Teen Accounts in Nashville",
-      "Waymo&#8217;s latest expansion strategy: teenagers",
       "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 30,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-23"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 38,
-    "trend": "rising",
-    "catalysts": [
-      "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran",
-      "Cape Canaveral is building up its counter-drone defenses, Sp",
-      "The Atlantic Brief: U.S. and European Perspectives on Nuclea"
-    ],
-    "fundingQ": "$1.1B",
-    "components": {
-      "funding": 38,
-      "news": 20,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-09-23"
+    "lastUpdated": "2026-09-24"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 37,
+    "momentum": 33,
     "trend": "rising",
     "catalysts": [
+      "EXCLUSIVE: SpaceX given unique access to classified DoD spac",
       "Autonomy, Meet Autonomous \u2014 Waymo Teen Accounts in Nashville",
-      "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and",
-      "AstroForge is putting AI in command of its next spacecraft"
+      "Elon Plans SPACEX FIBER KILLER Satellite. Each More Powerful"
     ],
     "fundingQ": "$50M",
     "components": {
       "funding": 5,
-      "news": 60,
+      "news": 45,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-23"
+    "lastUpdated": "2026-09-24"
   },
   {
     "sector": "AI & Software",
     "momentum": 29,
     "trend": "rising",
     "catalysts": [
-      "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and",
-      "Waiting for Compute Because They Have To Not Because OpenAI",
+      "An OpenAI Agent Hacked Australia\u2019s Health Service. Their Gov",
+      "Anthropic and Nvidia back Basecamp Research in $140M Series",
       "OpenAI agents discussed ways to escape their sandbox on publ"
     ],
-    "fundingQ": "$2.8B",
+    "fundingQ": "$2.9B",
     "components": {
-      "funding": 43,
+      "funding": 44,
       "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-23"
+    "lastUpdated": "2026-09-24"
   },
   {
     "sector": "Nuclear Energy",
@@ -103,15 +103,15 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-23"
+    "lastUpdated": "2026-09-24"
   },
   {
-    "sector": "Biotech & Health",
+    "sector": "Chips & Semiconductors",
     "momentum": 22,
     "trend": "declining",
     "catalysts": [
-      "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran",
-      "<a href=\"/biotech/beacon-lights-path-fda-approval-pivotal-tr"
+      "Anthropic and Nvidia back Basecamp Research in $140M Series",
+      "Rivian\u2019s Gambit for Full Autonomy"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -120,23 +120,24 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-23"
+    "lastUpdated": "2026-09-24"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 21,
+    "sector": "Biotech & Health",
+    "momentum": 22,
     "trend": "declining",
     "catalysts": [
-      "Rivian\u2019s Gambit for Full Autonomy"
+      "An OpenAI Agent Hacked Australia\u2019s Health Service. Their Gov",
+      "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-23"
+    "lastUpdated": "2026-09-24"
   },
   {
     "sector": "Quantum Computing",
@@ -152,25 +153,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-23"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 19,
-    "trend": "declining",
-    "catalysts": [
-      "With federal funding windfall, X-energy advances small nucle",
-      "Mazama Energy raises $135M for superhot geothermal at Oregon",
-      "xAI has quietly built a massive battery at its Memphis data"
-    ],
-    "fundingQ": "$134M",
-    "components": {
-      "funding": 11,
-      "news": 20,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-23"
+    "lastUpdated": "2026-09-24"
   },
   {
     "sector": "Housing & Construction",
@@ -186,43 +169,61 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-23"
+    "lastUpdated": "2026-09-24"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Modal Motors is trying to cut China out of electric motors e",
+      "TEKEVER raises $580M Series D at $6.4B valuation",
+      "Autonomy, Meet Autonomous \u2014 Waymo Teen Accounts in Nashville"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-24"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "With federal funding windfall, X-energy advances small nucle",
+      "Mazama Energy raises $135M for superhot geothermal at Oregon",
+      "xAI has quietly built a massive battery at its Memphis data"
+    ],
+    "fundingQ": "$134M",
+    "components": {
+      "funding": 11,
+      "news": 20,
+      "hiring": 0,
+      "market": 32
+    },
+    "lastUpdated": "2026-09-24"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 16,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
+      "An OpenAI Agent Hacked Australia\u2019s Health Service. Their Gov",
       "What do you do with a humanoid robot when it breaks down?",
-      "Icarus Robotics flies ISS-bound robot in microgravity for th",
       "Icarus Robotics tests Joy in Canada ahead of ISS flight"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-23"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "TEKEVER raises $580M Series D at $6.4B valuation",
-      "Autonomy, Meet Autonomous \u2014 Waymo Teen Accounts in Nashville",
-      "Cape Canaveral is building up its counter-drone defenses, Sp"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-23"
+    "lastUpdated": "2026-09-24"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -238,7 +239,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-23"
+    "lastUpdated": "2026-09-24"
   },
   {
     "sector": "Ocean & Maritime",
@@ -254,7 +255,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-23"
+    "lastUpdated": "2026-09-24"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -270,6 +271,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-23"
+    "lastUpdated": "2026-09-24"
   }
 ]

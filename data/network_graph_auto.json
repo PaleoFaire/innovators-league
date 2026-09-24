@@ -281,6 +281,11 @@
       "thesisCluster": "manufacturing-reshoring"
     },
     {
+      "id": "Covenant",
+      "sector": "Defense & Security",
+      "thesisCluster": "defense-munitions-energetics"
+    },
+    {
       "id": "Applied Atomics",
       "sector": "Nuclear Energy",
       "thesisCluster": ""
@@ -6178,6 +6183,11 @@
       "type": "competitor"
     },
     {
+      "src": "Castelion",
+      "dst": "Covenant",
+      "type": "competitor"
+    },
+    {
       "src": "Anduril Industries",
       "dst": "Shield AI",
       "type": "competitor"
@@ -7501,174 +7511,6 @@
       "dst": "Zeromark",
       "type": "thesis",
       "cluster": "autonomy-counter-drone"
-    },
-    {
-      "src": "Castelion",
-      "dst": "Tiberius Aerospace",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Allen Control Systems",
-      "dst": "Tiberius Aerospace",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Mach Industries",
-      "dst": "Tiberius Aerospace",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Firehawk Aerospace",
-      "dst": "Tiberius Aerospace",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Deterrence",
-      "dst": "Tiberius Aerospace",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Long Wall",
-      "dst": "Tiberius Aerospace",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Ares Industries",
-      "dst": "Tiberius Aerospace",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Allen Control Systems",
-      "dst": "Castelion",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Castelion",
-      "dst": "Mach Industries",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Castelion",
-      "dst": "Firehawk Aerospace",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Castelion",
-      "dst": "Deterrence",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Castelion",
-      "dst": "Long Wall",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Ares Industries",
-      "dst": "Castelion",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Allen Control Systems",
-      "dst": "Mach Industries",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Allen Control Systems",
-      "dst": "Firehawk Aerospace",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Allen Control Systems",
-      "dst": "Deterrence",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Allen Control Systems",
-      "dst": "Long Wall",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Allen Control Systems",
-      "dst": "Ares Industries",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Firehawk Aerospace",
-      "dst": "Mach Industries",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Deterrence",
-      "dst": "Mach Industries",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Long Wall",
-      "dst": "Mach Industries",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Ares Industries",
-      "dst": "Mach Industries",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Deterrence",
-      "dst": "Firehawk Aerospace",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Firehawk Aerospace",
-      "dst": "Long Wall",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Ares Industries",
-      "dst": "Firehawk Aerospace",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Deterrence",
-      "dst": "Long Wall",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Ares Industries",
-      "dst": "Deterrence",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
-    },
-    {
-      "src": "Ares Industries",
-      "dst": "Long Wall",
-      "type": "thesis",
-      "cluster": "defense-munitions-energetics"
     },
     {
       "src": "HIMERA",
@@ -11462,10 +11304,10 @@
     }
   ],
   "counts": {
-    "total_nodes": 1222,
-    "total_edges": 923,
-    "competitor_edges": 182,
-    "thesis_edges": 733,
+    "total_nodes": 1223,
+    "total_edges": 896,
+    "competitor_edges": 183,
+    "thesis_edges": 705,
     "alumni_edges": 8
   }
 }

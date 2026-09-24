@@ -1,6 +1,8 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-23 11:06:37 UTC
+// Last updated: 2026-09-24 11:23:35 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Archer Aviation", form: "4", date: "2026-09-23", description: "xslF345X06/form4-09242026_120929.xml", isIPO: false, ticker: "ACHR" },
+  { company: "Aurora Innovation", form: "8-K", date: "2026-09-23", description: "aur-20260923.htm", isIPO: false, ticker: "AUR" },
   { company: "BlackSky Technology", form: "4", date: "2026-09-22", description: "xslF345X06/wk-form4_1790113165.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-09-22", description: "xslF345X06/wk-form4_1790113148.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-09-22", description: "xslF345X06/wk-form4_1790113118.xml", isIPO: false, ticker: "BKSY" },
@@ -49,6 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Centrus Energy", form: "8-K", date: "2026-09-11", description: "tm2625019d5_8k.htm", isIPO: false, ticker: "LEU" },
   { company: "BlackSky Technology", form: "4", date: "2026-09-10", description: "xslF345X06/wk-form4_1789072189.xml", isIPO: false, ticker: "BKSY" },
   { company: "Oklo", form: "4", date: "2026-09-10", description: "xslF345X06/wk-form4_1789072444.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Upstart Holdings", form: "4", date: "2026-09-10", description: "xslF345X06/wk-form4_1789082008.xml", isIPO: false, ticker: "UPST" },
-  { company: "Upstart Holdings", form: "4", date: "2026-09-10", description: "xslF345X06/wk-form4_1789081939.xml", isIPO: false, ticker: "UPST" },
 ];
