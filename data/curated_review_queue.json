@@ -691,7 +691,7 @@
   },
   {
     "name": "Covenant",
-    "status": "pending",
+    "status": "added",
     "sector": "Defense",
     "tagline": "Mass-producing long-range precision strike missiles.",
     "founders": "Michael Kaufman",
@@ -703,7 +703,10 @@
     "careers_url": "https://www.comeet.com/jobs/covenantindustries/3B.00F",
     "our_sector": "Defense & Security",
     "source_list": "buildlist",
-    "detected_at": "2026-09-22T04:50:33.545847+00:00"
+    "detected_at": "2026-09-22T04:50:33.545847+00:00",
+    "matched_record": "Covenant",
+    "reviewed_at": "2026-09-24",
+    "review_note": "Added 24 Sept 2026 after checking its press release (Dallas, 9 Sep 2026), covenant.com, CTech and its Comeet jobs board: long-range cruise missile (Anthem), HQ Washington DC, plant near Dallas; $250M over three rounds."
   },
   {
     "name": "Watney Robotics",

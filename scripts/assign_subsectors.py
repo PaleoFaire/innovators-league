@@ -145,6 +145,7 @@ OVERRIDES = {
     "Lazarus Energy Systems": "Grid & Power Delivery",  # sCO2 turbines; "CO2" hits Carbon Capture
     "E-Space": "Communications & PNT",                  # constellation; "debris" hits Servicing
     "Fulcrum Autonomy": "Defense Software & Intelligence",
+    "Covenant": "Missiles & Munitions",                 # cruise missiles; its Navy "maritime" variant hits Maritime Defense
 }
 
 
