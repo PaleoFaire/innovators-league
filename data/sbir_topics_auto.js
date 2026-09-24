@@ -1,6 +1,6 @@
 // Auto-generated SBIR topics + full-company bid-fit scoring
 // Topics: 10  |  Matching: TF-IDF weighted
-// Last updated: 2026-09-23 12:46:41 UTC
+// Last updated: 2026-09-24 12:58:59 UTC
 const SBIR_TOPICS_AUTO = [
   {
     "id": "DOD-SBIR-2026-006",
@@ -263,7 +263,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Exodys Energy",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 35.9,
+        "bid_fit_score": 36.0,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -530,7 +530,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Atlas Atomics",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 15.2,
+        "bid_fit_score": 15.3,
         "matched_terms": [
           "water",
           "energy"
@@ -840,7 +840,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Seasats",
         "sector": "Ocean & Maritime",
-        "bid_fit_score": 28.5,
+        "bid_fit_score": 28.4,
         "matched_terms": [
           "maritime",
           "surface",
@@ -890,7 +890,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Vatn Systems",
         "sector": "Defense & Security",
-        "bid_fit_score": 18.4,
+        "bid_fit_score": 18.3,
         "matched_terms": [
           "undersea",
           "maritime",
@@ -900,7 +900,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Saildrone",
         "sector": "Defense & Security",
-        "bid_fit_score": 17.3,
+        "bid_fit_score": 17.2,
         "matched_terms": [
           "maritime",
           "defense",

@@ -1,6 +1,8 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-09-23 12:32:50 UTC
+// Last updated: 2026-09-24 12:31:36 UTC
 const NASA_PROJECTS = [
+  { id: 183844, title: "Deep Space Food Challenge:  Mars to Table", status: "Active", center: "Marshall Space Flight Center", techArea: "Food Production, Processing, and Preservation", lastUpdated: "09/23/26" },
+  { id: 183846, title: "LunaRecycle - Phase 2 (Luna)", status: "Completed", center: "Marshall Space Flight Center", techArea: "Waste Management", lastUpdated: "09/23/26" },
   { id: 182465, title: "Mars Roundtrip Success enabled by Integrated Cooling through Inductively Coupled", status: "Active", center: "University of California-Los Angeles", techArea: "", lastUpdated: "09/18/26" },
   { id: 182463, title: "Breathing Beyond Earth: A Reliable Oxygen Generation Architecture for Human Spac", status: "Active", center: "Georgia Tech Research Corporation", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "09/18/26" },
   { id: 182462, title: "Gravity Poppers: Hopping Probes for the Interior Mapping of Small Solar System B", status: "Active", center: "Jet Propulsion Laboratory", techArea: "", lastUpdated: "09/18/26" },
@@ -29,6 +31,4 @@ const NASA_PROJECTS = [
   { id: 158507, title: "Thermal Control System Architecture for Exploration", status: "Completed", center: "Marshall Space Flight Center", techArea: "Thermal Management Systems", lastUpdated: "09/15/26" },
   { id: 185287, title: "Quantum Wind Lidar Applications for Planetary and Earth Science Missions", status: "Active", center: "Ames Research Center", techArea: "Sensors and Instruments", lastUpdated: "09/09/26" },
   { id: 185286, title: "Interworld Slingshot Resource Surveys", status: "Active", center: "", techArea: "", lastUpdated: "09/09/26" },
-  { id: 185284, title: "Solid-state Propulsion for Autonomous Reconnaissance of Karst (SPARK)", status: "Active", center: "", techArea: "", lastUpdated: "09/09/26" },
-  { id: 185282, title: "ECLIPSE - Efficient variable Conductivity Lunar Insulator for Passive Surveyor E", status: "Active", center: "", techArea: "", lastUpdated: "09/09/26" },
 ];
