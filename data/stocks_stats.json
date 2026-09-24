@@ -11,13 +11,13 @@
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 6.16,
+      "avg_change": 6.13,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 3.27,
+      "avg_change": 3.48,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 11.42,
+      "avg_change": 9.17,
       "count": 3
     },
     "transportation": {
@@ -86,6 +86,11 @@
   ],
   "topLosers": [
     [
+      "AUR",
+      "Aurora Innovation",
+      -0.63
+    ],
+    [
       "RIVN",
       "Rivian",
       -1.38
@@ -101,15 +106,10 @@
       -1.8
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -1.95
-    ],
-    [
       "DRSHF",
       "DroneShield",
       -2.14
     ]
   ],
-  "lastUpdated": "2026-09-24 06:13:39"
+  "lastUpdated": "2026-09-24 12:46:22"
 }
