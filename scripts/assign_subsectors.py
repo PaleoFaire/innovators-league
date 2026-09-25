@@ -146,6 +146,10 @@ OVERRIDES = {
     "E-Space": "Communications & PNT",                  # constellation; "debris" hits Servicing
     "Fulcrum Autonomy": "Defense Software & Intelligence",
     "Covenant": "Missiles & Munitions",                 # cruise missiles; its Navy "maritime" variant hits Maritime Defense
+    # Added 2026-09-25 with the first VC-Portfolio-Watcher batch:
+    "Thor Dynamics": "Drones & Counter-UAS",           # laser counter-drone; "Armor"/"ammunition" hit Munitions
+    "Efficient Computer": "AI Compute",                # edge AI processor; "sensors" hits Specialty Silicon
+    "Nucleus RadioPharma": "Biomanufacturing & Tools", # radiopharma CDMO; "manufacturing plant" hits Agriculture
 }
 
 
