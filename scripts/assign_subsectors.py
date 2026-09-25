@@ -150,6 +150,7 @@ OVERRIDES = {
     "Thor Dynamics": "Drones & Counter-UAS",           # laser counter-drone; "Armor"/"ammunition" hit Munitions
     "Efficient Computer": "AI Compute",                # edge AI processor; "sensors" hits Specialty Silicon
     "Nucleus RadioPharma": "Biomanufacturing & Tools", # radiopharma CDMO; "manufacturing plant" hits Agriculture
+    "Integrate": "Defense Software & Intelligence",     # JWICS project-management software; "drone" in its copy hits Counter-UAS
 }
 
 
