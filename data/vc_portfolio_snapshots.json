@@ -1,12 +1,13 @@
 {
- "generated_at": "2026-09-25T08:36:36.235242+00:00",
+ "generated_at": "2026-09-25T08:41:55.329263+00:00",
  "funds": {
   "a16z": {
    "name": "Andreessen Horowitz",
    "url": "https://a16z.com/portfolio/",
    "kind": "a16z",
    "note": "Embedded JSON: 859 companies with first-investment dates",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 859,
    "tracked": 60,
    "overlap": 0.07,
@@ -6043,7 +6044,8 @@
    "url": "https://foundersfund.com/wp-json/wp/v2/company",
    "kind": "wp_company",
    "note": "WordPress company feed with dates and founders",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 64,
    "tracked": 16,
    "overlap": 0.25,
@@ -6514,7 +6516,8 @@
    "url": "https://lowercarbon.com/wp-json/wp/v2/company",
    "kind": "wp_company",
    "note": "WordPress company feed; HQ and founding year in the body",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 101,
    "tracked": 34,
    "overlap": 0.337,
@@ -6526,15 +6529,723 @@
     "description shows no physical product": 10,
     "software or services wearing a hard-tech label": 2
    },
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://lowercarbon.com/wp-json/wp/v2/company?per_page=100&page=1&orderby=date&order=desc",
-   "stale_since": "2026-09-25T08:18:07.332095+00:00"
+   "holdings": [
+    {
+     "id": "basepowercompany.com",
+     "name": "Base Power",
+     "domain": "basepowercompany.com",
+     "first_funded": "2026-02-06",
+     "known_as": "Base Power"
+    },
+    {
+     "id": "overviewenergy.com",
+     "name": "",
+     "domain": "overviewenergy.com",
+     "first_funded": "2026-01-12",
+     "known_as": "Overview Energy"
+    },
+    {
+     "id": "nevoya.com",
+     "name": "Nevoya",
+     "domain": "nevoya.com",
+     "first_funded": "2026-01-07",
+     "known_as": null
+    },
+    {
+     "id": "storioenergy.com",
+     "name": "Storio",
+     "domain": "storioenergy.com",
+     "first_funded": "2025-03-10",
+     "known_as": null
+    },
+    {
+     "id": "rune.energy",
+     "name": "Rune Energy",
+     "domain": "rune.energy",
+     "first_funded": "2025-03-10",
+     "known_as": null
+    },
+    {
+     "id": "pendulum.global",
+     "name": "Pendulum",
+     "domain": "pendulum.global",
+     "first_funded": "2025-03-10",
+     "known_as": null
+    },
+    {
+     "id": "biosphere.io",
+     "name": "Biosphere",
+     "domain": "biosphere.io",
+     "first_funded": "2025-03-10",
+     "known_as": null
+    },
+    {
+     "id": "panthalassa.com",
+     "name": "Panthalassa",
+     "domain": "panthalassa.com",
+     "first_funded": "2025-03-10",
+     "known_as": "Panthalassa"
+    },
+    {
+     "id": "standinsurance.com",
+     "name": "Stand",
+     "domain": "standinsurance.com",
+     "first_funded": "2025-03-06",
+     "known_as": null
+    },
+    {
+     "id": "clairitytech.com",
+     "name": "Clairity",
+     "domain": "clairitytech.com",
+     "first_funded": "2025-03-06",
+     "known_as": null
+    },
+    {
+     "id": "cargokite.com",
+     "name": "CargoKite",
+     "domain": "cargokite.com",
+     "first_funded": "2025-03-06",
+     "known_as": null
+    },
+    {
+     "id": "aircompany.com",
+     "name": "Air Co",
+     "domain": "aircompany.com",
+     "first_funded": "2025-03-06",
+     "known_as": null
+    },
+    {
+     "id": "milvusadvanced.co.uk",
+     "name": "Milvus Advanced",
+     "domain": "milvusadvanced.co.uk",
+     "first_funded": "2025-03-06",
+     "known_as": null
+    },
+    {
+     "id": "matter.com",
+     "name": "Matter",
+     "domain": "matter.com",
+     "first_funded": "2025-03-06",
+     "known_as": null
+    },
+    {
+     "id": "carbyon.com",
+     "name": "Carbyon",
+     "domain": "carbyon.com",
+     "first_funded": "2025-03-06",
+     "known_as": "Carbyon"
+    },
+    {
+     "id": "seabound.co",
+     "name": "Seabound",
+     "domain": "seabound.co",
+     "first_funded": "2025-03-06",
+     "known_as": null
+    },
+    {
+     "id": "generalbiological.com",
+     "name": "General Biological",
+     "domain": "generalbiological.com",
+     "first_funded": "2025-03-06",
+     "known_as": "General Biological"
+    },
+    {
+     "id": "ulysses.inc",
+     "name": "Ulysses",
+     "domain": "ulysses.inc",
+     "first_funded": "2025-03-06",
+     "known_as": null
+    },
+    {
+     "id": "zeno.earth",
+     "name": "Zeno",
+     "domain": "zeno.earth",
+     "first_funded": "2025-03-06",
+     "known_as": null
+    },
+    {
+     "id": "acceleron.energy",
+     "name": "Acceleron",
+     "domain": "acceleron.energy",
+     "first_funded": "2025-03-06",
+     "known_as": null
+    },
+    {
+     "id": "aepnus.com",
+     "name": "Aepnus",
+     "domain": "aepnus.com",
+     "first_funded": "2025-03-06",
+     "known_as": "Aepnus Technology"
+    },
+    {
+     "id": "xcimer.energy",
+     "name": "Xcimer",
+     "domain": "xcimer.energy",
+     "first_funded": "2025-03-06",
+     "known_as": "Xcimer Energy"
+    },
+    {
+     "id": "pacificfusion.com",
+     "name": "Pacific Fusion",
+     "domain": "pacificfusion.com",
+     "first_funded": "2025-03-06",
+     "known_as": "Pacific Fusion"
+    },
+    {
+     "id": "cloover.co",
+     "name": "Cloover",
+     "domain": "cloover.co",
+     "first_funded": "2025-03-06",
+     "known_as": null
+    },
+    {
+     "id": "lithios.xyz",
+     "name": "Lithios",
+     "domain": "lithios.xyz",
+     "first_funded": "2025-03-06",
+     "known_as": null
+    },
+    {
+     "id": "astromecha.co",
+     "name": "Astro Mechanica",
+     "domain": "astromecha.co",
+     "first_funded": "2025-03-06",
+     "known_as": "Astro Mechanica"
+    },
+    {
+     "id": "gridware.io",
+     "name": "Gridware",
+     "domain": "gridware.io",
+     "first_funded": "2025-03-06",
+     "known_as": "Gridware"
+    },
+    {
+     "id": "thea.energy",
+     "name": "Thea Energy",
+     "domain": "thea.energy",
+     "first_funded": "2025-02-06",
+     "known_as": "Thea Energy"
+    },
+    {
+     "id": "arbor.co",
+     "name": "Arbor",
+     "domain": "arbor.co",
+     "first_funded": "2024-04-11",
+     "known_as": "Arbor Energy"
+    },
+    {
+     "id": "unspun.io",
+     "name": "Unspun",
+     "domain": "unspun.io",
+     "first_funded": "2024-03-19",
+     "known_as": "Unspun"
+    },
+    {
+     "id": "eli.build",
+     "name": "Eli",
+     "domain": "eli.build",
+     "first_funded": "2024-02-14",
+     "known_as": null
+    },
+    {
+     "id": "vaulteddeep.com",
+     "name": "Vaulted",
+     "domain": "vaulteddeep.com",
+     "first_funded": "2024-01-05",
+     "known_as": null
+    },
+    {
+     "id": "breathebatteries.com",
+     "name": "Breathe",
+     "domain": "breathebatteries.com",
+     "first_funded": "2023-10-18",
+     "known_as": null
+    },
+    {
+     "id": "shipartyc.com",
+     "name": "Artyc",
+     "domain": "shipartyc.com",
+     "first_funded": "2023-10-18",
+     "known_as": null
+    },
+    {
+     "id": "woodoo.com",
+     "name": "Woodoo",
+     "domain": "woodoo.com",
+     "first_funded": "2023-08-22",
+     "known_as": null
+    },
+    {
+     "id": "carboncrusher.com",
+     "name": "Carbon Crusher",
+     "domain": "carboncrusher.com",
+     "first_funded": "2023-08-22",
+     "known_as": null
+    },
+    {
+     "id": "arcaclimate.com",
+     "name": "Arca",
+     "domain": "arcaclimate.com",
+     "first_funded": "2023-08-16",
+     "known_as": null
+    },
+    {
+     "id": "fuseenergy.com",
+     "name": "Fuse",
+     "domain": "fuseenergy.com",
+     "first_funded": "2023-07-19",
+     "known_as": null
+    },
+    {
+     "id": "isometric.com",
+     "name": "Isometric",
+     "domain": "isometric.com",
+     "first_funded": "2023-07-18",
+     "known_as": null
+    },
+    {
+     "id": "watershed.com",
+     "name": "Watershed",
+     "domain": "watershed.com",
+     "first_funded": "2023-06-29",
+     "known_as": null
+    },
+    {
+     "id": "un-do.com",
+     "name": "Undo",
+     "domain": "un-do.com",
+     "first_funded": "2023-06-22",
+     "known_as": null
+    },
+    {
+     "id": "quilt.com",
+     "name": "Quilt",
+     "domain": "quilt.com",
+     "first_funded": "2023-06-15",
+     "known_as": null
+    },
+    {
+     "id": "renfusion.eu",
+     "name": "Renaissance",
+     "domain": "renfusion.eu",
+     "first_funded": "2023-06-01",
+     "known_as": "Renaissance Fusion"
+    },
+    {
+     "id": "burnbot.com",
+     "name": "BurnBot",
+     "domain": "burnbot.com",
+     "first_funded": "2023-04-25",
+     "known_as": "BurnBot"
+    },
+    {
+     "id": "novalith.com",
+     "name": "Novalith",
+     "domain": "novalith.com",
+     "first_funded": "2023-04-17",
+     "known_as": null
+    },
+    {
+     "id": "cruxclimate.com",
+     "name": "Crux",
+     "domain": "cruxclimate.com",
+     "first_funded": "2023-04-13",
+     "known_as": null
+    },
+    {
+     "id": "musa.co",
+     "name": "Musa",
+     "domain": "musa.co",
+     "first_funded": "2023-03-16",
+     "known_as": null
+    },
+    {
+     "id": "electra.earth",
+     "name": "Electra",
+     "domain": "electra.earth",
+     "first_funded": "2022-10-06",
+     "known_as": "Electra"
+    },
+    {
+     "id": "rideriver.com",
+     "name": "River",
+     "domain": "rideriver.com",
+     "first_funded": "2022-08-02",
+     "known_as": null
+    },
+    {
+     "id": "mill.com",
+     "name": "Mill",
+     "domain": "mill.com",
+     "first_funded": "2022-06-23",
+     "known_as": null
+    },
+    {
+     "id": "solarsquare.in",
+     "name": "Solar Square",
+     "domain": "solarsquare.in",
+     "first_funded": "2022-06-10",
+     "known_as": null
+    },
+    {
+     "id": "lemon.energy",
+     "name": "Lemon",
+     "domain": "lemon.energy",
+     "first_funded": "2022-06-04",
+     "known_as": null
+    },
+    {
+     "id": "genomines.com",
+     "name": "Genomines",
+     "domain": "genomines.com",
+     "first_funded": "2022-06-03",
+     "known_as": null
+    },
+    {
+     "id": "avalanchefusion.com",
+     "name": "Avalanche",
+     "domain": "avalanchefusion.com",
+     "first_funded": "2022-06-02",
+     "known_as": "Avalanche Energy"
+    },
+    {
+     "id": "tenderfood.com",
+     "name": "Tender",
+     "domain": "tenderfood.com",
+     "first_funded": "2022-04-26",
+     "known_as": null
+    },
+    {
+     "id": "dioxycle.com",
+     "name": "Dioxycle",
+     "domain": "dioxycle.com",
+     "first_funded": "2022-03-28",
+     "known_as": null
+    },
+    {
+     "id": "verdox.com",
+     "name": "Verdox",
+     "domain": "verdox.com",
+     "first_funded": "2022-03-24",
+     "known_as": null
+    },
+    {
+     "id": "supercritical.solutions",
+     "name": "Supercritical",
+     "domain": "supercritical.solutions",
+     "first_funded": "2022-03-24",
+     "known_as": null
+    },
+    {
+     "id": "macro-oceans.com",
+     "name": "Macro Oceans",
+     "domain": "macro-oceans.com",
+     "first_funded": "2022-03-24",
+     "known_as": null
+    },
+    {
+     "id": "farmhq.com",
+     "name": "FarmHQ",
+     "domain": "farmhq.com",
+     "first_funded": "2022-03-24",
+     "known_as": null
+    },
+    {
+     "id": "safi.co",
+     "name": "Safi",
+     "domain": "safi.co",
+     "first_funded": "2022-02-15",
+     "known_as": null
+    },
+    {
+     "id": "zeroacre.com",
+     "name": "Zero Acre",
+     "domain": "zeroacre.com",
+     "first_funded": "2022-02-02",
+     "known_as": null
+    },
+    {
+     "id": "pledge.io",
+     "name": "Pledge",
+     "domain": "pledge.io",
+     "first_funded": "2021-10-21",
+     "known_as": null
+    },
+    {
+     "id": "drinkminuscoffee.com",
+     "name": "Minus",
+     "domain": "drinkminuscoffee.com",
+     "first_funded": "2021-06-16",
+     "known_as": null
+    },
+    {
+     "id": "useyardstick.com",
+     "name": "Yard Stick",
+     "domain": "useyardstick.com",
+     "first_funded": "2021-06-15",
+     "known_as": null
+    },
+    {
+     "id": "ourkettle.com",
+     "name": "Kettle",
+     "domain": "ourkettle.com",
+     "first_funded": "2021-06-15",
+     "known_as": null
+    },
+    {
+     "id": "heirloomcarbon.com",
+     "name": "Heirloom",
+     "domain": "heirloomcarbon.com",
+     "first_funded": "2021-06-15",
+     "known_as": "Heirloom Carbon"
+    },
+    {
+     "id": "sublime-systems.com",
+     "name": "Sublime",
+     "domain": "sublime-systems.com",
+     "first_funded": "2021-06-15",
+     "known_as": "Sublime Systems"
+    },
+    {
+     "id": "flair.co",
+     "name": "Flair",
+     "domain": "flair.co",
+     "first_funded": "2021-06-15",
+     "known_as": null
+    },
+    {
+     "id": "enode.com",
+     "name": "Enode",
+     "domain": "enode.com",
+     "first_funded": "2021-06-15",
+     "known_as": null
+    },
+    {
+     "id": "floodbase.com",
+     "name": "Floodbase",
+     "domain": "floodbase.com",
+     "first_funded": "2021-06-15",
+     "known_as": "Floodbase"
+    },
+    {
+     "id": "arcboats.com",
+     "name": "Arc",
+     "domain": "arcboats.com",
+     "first_funded": "2021-06-15",
+     "known_as": "Arc Boats"
+    },
+    {
+     "id": "airloom.energy",
+     "name": "Airloom",
+     "domain": "airloom.energy",
+     "first_funded": "2021-02-18",
+     "known_as": null
+    },
+    {
+     "id": "zanskar.com",
+     "name": "Zanskar",
+     "domain": "zanskar.com",
+     "first_funded": "2021-02-18",
+     "known_as": "Zanskar"
+    },
+    {
+     "id": "noya.co",
+     "name": "Noya",
+     "domain": "noya.co",
+     "first_funded": "2021-01-28",
+     "known_as": null
+    },
+    {
+     "id": "n:stealth",
+     "name": "Stealth",
+     "domain": "",
+     "first_funded": "2021-01-25",
+     "known_as": null
+    },
+    {
+     "id": "crusoe.ai",
+     "name": "Crusoe",
+     "domain": "crusoe.ai",
+     "first_funded": "2021-01-25",
+     "known_as": "Crusoe Energy"
+    },
+    {
+     "id": "epochbiodesign.com",
+     "name": "Epoch",
+     "domain": "epochbiodesign.com",
+     "first_funded": "2021-01-25",
+     "known_as": "Epoch Biodesign"
+    },
+    {
+     "id": "remoracarbon.com",
+     "name": "Remora",
+     "domain": "remoracarbon.com",
+     "first_funded": "2021-01-20",
+     "known_as": null
+    },
+    {
+     "id": "nitricity.co",
+     "name": "Nitricity",
+     "domain": "nitricity.co",
+     "first_funded": "2020-09-25",
+     "known_as": "Nitricity"
+    },
+    {
+     "id": "mosameat.com",
+     "name": "Mosa",
+     "domain": "mosameat.com",
+     "first_funded": "2020-09-25",
+     "known_as": null
+    },
+    {
+     "id": "eatformo.com",
+     "name": "Formo",
+     "domain": "eatformo.com",
+     "first_funded": "2020-09-25",
+     "known_as": null
+    },
+    {
+     "id": "kulabio.com",
+     "name": "Kula",
+     "domain": "kulabio.com",
+     "first_funded": "2020-09-25",
+     "known_as": null
+    },
+    {
+     "id": "heartaerospace.com",
+     "name": "Heart",
+     "domain": "heartaerospace.com",
+     "first_funded": "2020-09-25",
+     "known_as": "Heart Aerospace"
+    },
+    {
+     "id": "frostmethane.com",
+     "name": "Frost Methane",
+     "domain": "frostmethane.com",
+     "first_funded": "2020-09-25",
+     "known_as": null
+    },
+    {
+     "id": "cfs.energy",
+     "name": "Commonwealth Fusion Systems",
+     "domain": "cfs.energy",
+     "first_funded": "2020-09-25",
+     "known_as": "Commonwealth Fusion Systems"
+    },
+    {
+     "id": "ecosafi.com",
+     "name": "Ecosafi",
+     "domain": "ecosafi.com",
+     "first_funded": "2020-09-25",
+     "known_as": null
+    },
+    {
+     "id": "charmindustrial.com",
+     "name": "Charm",
+     "domain": "charmindustrial.com",
+     "first_funded": "2020-09-25",
+     "known_as": "Charm Industrial"
+    },
+    {
+     "id": "dendra.io",
+     "name": "Dendra",
+     "domain": "dendra.io",
+     "first_funded": "2020-09-23",
+     "known_as": null
+    },
+    {
+     "id": "zapenergy.com",
+     "name": "Zap",
+     "domain": "zapenergy.com",
+     "first_funded": "2020-09-15",
+     "known_as": "Zap Energy"
+    },
+    {
+     "id": "loambio.com",
+     "name": "Loam",
+     "domain": "loambio.com",
+     "first_funded": "2020-09-15",
+     "known_as": null
+    },
+    {
+     "id": "pachama.com",
+     "name": "Pachama",
+     "domain": "pachama.com",
+     "first_funded": "2020-09-15",
+     "known_as": null
+    },
+    {
+     "id": "twelve.co",
+     "name": "Twelve",
+     "domain": "twelve.co",
+     "first_funded": "2020-09-15",
+     "known_as": "Twelve"
+    },
+    {
+     "id": "getlumen.com",
+     "name": "Lumen",
+     "domain": "getlumen.com",
+     "first_funded": "2020-09-15",
+     "known_as": null
+    },
+    {
+     "id": "carbonengineering.com",
+     "name": "Carbon Engineering",
+     "domain": "carbonengineering.com",
+     "first_funded": "2020-09-15",
+     "known_as": null
+    },
+    {
+     "id": "inrange.io",
+     "name": "InRange",
+     "domain": "inrange.io",
+     "first_funded": "2020-09-15",
+     "known_as": null
+    },
+    {
+     "id": "lilacsolutions.com",
+     "name": "Lilac",
+     "domain": "lilacsolutions.com",
+     "first_funded": "2020-09-11",
+     "known_as": "Lilac Solutions"
+    },
+    {
+     "id": "solugen.com",
+     "name": "Solugen",
+     "domain": "solugen.com",
+     "first_funded": "2020-09-11",
+     "known_as": "Solugen"
+    },
+    {
+     "id": "livingcarbon.com",
+     "name": "Living Carbon",
+     "domain": "livingcarbon.com",
+     "first_funded": "2020-09-10",
+     "known_as": "Living Carbon"
+    },
+    {
+     "id": "antora.com",
+     "name": "Antora",
+     "domain": "antora.com",
+     "first_funded": "2020-08-29",
+     "known_as": "Antora Energy"
+    },
+    {
+     "id": "entocycle.com",
+     "name": "Entocycle",
+     "domain": "entocycle.com",
+     "first_funded": "2020-08-21",
+     "known_as": null
+    }
+   ]
   },
   "Eclipse": {
    "name": "Eclipse Ventures",
    "url": "https://5uq66tk5.api.sanity.io/v2023-01-01/data/query/production",
    "kind": "sanity",
    "note": "Public Sanity dataset: websiteURL, foundedYear, founder",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 53,
    "tracked": 30,
    "overlap": 0.566,
@@ -6925,7 +7636,8 @@
    "url": "https://8vc.com/companies",
    "kind": "cards_8vc",
    "note": "Webflow cards; company site in a hidden anchor",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 174,
    "tracked": 25,
    "overlap": 0.144,
@@ -8165,7 +8877,8 @@
    "url": "https://www.luxcapital.com/companies",
    "kind": "cards_lux",
    "note": "28 featured companies, names only",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 28,
    "tracked": 12,
    "overlap": 0.429,
@@ -8380,7 +9093,8 @@
    "url": "https://cantos.vc/",
    "kind": "links",
    "note": "Homepage grid; 11 of 13 already tracked at launch",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 13,
    "tracked": 12,
    "overlap": 0.923,
@@ -8488,7 +9202,8 @@
    "url": "https://riot.vc/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 28,
    "tracked": 14,
    "overlap": 0.5,
@@ -8704,7 +9419,8 @@
    "url": "https://silentvc.com/",
    "kind": "links",
    "note": "Squarespace; 77% overlap in the Sept 2026 hand scan",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 56,
    "tracked": 37,
    "overlap": 0.661,
@@ -9116,7 +9832,8 @@
    "url": "https://www.pax.vc/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 18,
    "tracked": 16,
    "overlap": 0.889,
@@ -9261,7 +9978,8 @@
    "url": "https://www.primemoverslab.com/portfolio",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 30,
    "tracked": 16,
    "overlap": 0.533,
@@ -9490,7 +10208,8 @@
    "url": "https://playground.global/portfolio/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 46,
    "tracked": 15,
    "overlap": 0.326,
@@ -9833,7 +10552,8 @@
    "url": "https://seraphim.vc/portfolio",
    "kind": "links",
    "note": "Space-only fund; ~100 companies",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 102,
    "tracked": 16,
    "overlap": 0.157,
@@ -10567,7 +11287,8 @@
    "url": "https://decisivepoint.com/portfolio",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 24,
    "tracked": 15,
    "overlap": 0.625,
@@ -10752,7 +11473,8 @@
    "url": "https://gigascale.com/portfolio/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 27,
    "tracked": 9,
    "overlap": 0.333,
@@ -10961,7 +11683,8 @@
    "url": "https://www.iqt.org/portfolio/",
    "kind": "links",
    "note": "Page shows the first 15 only; the rest load on click",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 15,
    "tracked": 3,
    "overlap": 0.2,
@@ -11085,7 +11808,8 @@
    "url": "https://caffeinatedcapital.com/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 14,
    "tracked": 4,
    "overlap": 0.286,
@@ -11203,7 +11927,8 @@
    "url": "https://8090industries.com/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 1,
    "tracked": 0,
    "overlap": 0.0,
@@ -11227,7 +11952,8 @@
    "url": "https://harpoon.vc/portfolio/",
    "kind": "slugs",
    "note": "Subpage slugs only",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 60,
    "tracked": 19,
    "overlap": 0.317,
@@ -11664,7 +12390,8 @@
    "url": "https://shieldcap.com/portfolio/",
    "kind": "slugs",
    "note": "Subpage slugs only",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 8,
    "tracked": 3,
    "overlap": 0.375,
@@ -11737,7 +12464,8 @@
    "url": "https://www.congruentvc.com/portfolio",
    "kind": "slugs",
    "note": "",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 29,
    "tracked": 3,
    "overlap": 0.103,
@@ -11957,7 +12685,8 @@
    "url": "https://khoslaventures.com/portfolio/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 114,
    "tracked": 29,
    "overlap": 0.254,
@@ -12774,7 +13503,8 @@
    "url": "https://valorep.com/portfolio/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 36,
    "tracked": 7,
    "overlap": 0.194,
@@ -13045,7 +13775,8 @@
    "url": "https://www.sparkcapital.com/companies",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 46,
    "tracked": 12,
    "overlap": 0.261,
@@ -13386,7 +14117,8 @@
    "url": "https://draper.vc/companies",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
+   "partial": "",
+   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
    "count": 93,
    "tracked": 8,
    "overlap": 0.086,
@@ -18704,6 +19436,560 @@
    "description": "Benefits platform for cell and gene therapies designed to provide sustainable access to life-saving medicines.",
    "fetched": "2026-09-25",
    "final_url": "https://www.aradigmhealth.com/",
+   "status": 200
+  },
+  "arcjet.com": {
+   "title": "Arcjet - AI agent runtime security",
+   "description": "Arcjet is the AI agent runtime security platform. Discover the agents running in your organization, enforce policy across every action, prompt, and tool call, and keep the evidence to prove what happened. Detect prompt injection, authorize agent tool calls, redact PII, and block bots and abuse.",
+   "fetched": "2026-09-25",
+   "final_url": "https://arcjet.com/",
+   "status": 200
+  },
+  "ardatx.com": {
+   "title": "Arda Therapeutics",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.ardatx.com/",
+   "status": 200
+  },
+  "arena.ai": {
+   "title": "Arena AI: The Official AI Ranking & LLM Leaderboard",
+   "description": "Chat, compare, vote for the world's best AI models. Join the community shaping the public leaderboard for LLMs, image, and code models through real-world evaluation.",
+   "fetched": "2026-09-25",
+   "final_url": "https://arena.ai/",
+   "status": 200
+  },
+  "arpeggi.io": {
+   "title": "Kits AI - Studio-quality AI music tools",
+   "description": "Kits streamlines and improves producer workflows with AI audio tools built for music. Clone AI voice generators. Sing in any style. Play any instrument. 100% royalty-free.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.kits.ai/",
+   "status": 200
+  },
+  "arweave.org": {
+   "title": "Arweave - A community-driven ecosystem",
+   "description": "Arweave is a global, permissionless hard drive that stores data permanently and incentivizes nodes to keep it. Learn about its unique proof of access mechanism, tokenomic endowment model, and the services and applications that sit on top of it.",
+   "fetched": "2026-09-25",
+   "final_url": "https://arweave.org/",
+   "status": 200
+  },
+  "atlys.com": {
+   "title": "Get Visas On Time to 120+ Destinations, Guaranteed | United States",
+   "description": "Atlys is the world\u2019s most delightful way to get your visas on time, guaranteed.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.atlys.com/en-US",
+   "status": 200
+  },
+  "autograph.io": {
+   "title": "Autograph: Welcome to the future of fandom.",
+   "description": "Bespoke digital collectibles from the world\u2019s most iconic figures in sports and entertainment.",
+   "fetched": "2026-09-25",
+   "final_url": "https://autograph.io/",
+   "status": 200
+  },
+  "avax.network": {
+   "title": "Technology Built for Business | Avalanche",
+   "description": "Avalanche is a high-performance blockchain platform built for business. It provides the reliability, control, and scalability required to run real financial systems, operational infrastructure, and consumer applications in production.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.avalanche.com/",
+   "status": 200
+  },
+  "axoni.com": {
+   "title": "Axoni",
+   "description": "Axoni is a real-time data replication company serving the world\u2019s largest financial institutions. Axoni\u2019s platform enables rapid, reliable deployment of critical financial networks and automated, real-time data replication across market participants.",
+   "fetched": "2026-09-25",
+   "final_url": "https://axoni.com/",
+   "status": 200
+  },
+  "azragames.com": {
+   "title": "Homepage - Azra Games",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://azragames.com/",
+   "status": 200
+  },
+  "aztec.network": {
+   "title": "The first decentralized, privacy-preserving L2 on Ethereum.",
+   "description": "Everything you can do on Ethereum - privately. Fully programmable end-to-end privacy is here with private smart contracts.",
+   "fetched": "2026-09-25",
+   "final_url": "https://aztec.network/",
+   "status": 200
+  },
+  "babylonlabs.io": {
+   "title": "Bitcoin Collateral Infrastructure | Babylon",
+   "description": "Babylon is an infrastructure company that builds Bitcoin collateral solutions on the Bitcoin network. The infrastructure makes native Bitcoin usable as collateral on any chain and in any application, supporting lending, stablecoins, protection, derivatives, and real-world assets",
+   "fetched": "2026-09-25",
+   "final_url": "https://babylonlabs.io/",
+   "status": 200
+  },
+  "backbonesystems.ai": {
+   "title": "Backbone \u2014 Clinical intelligence for healthcare payments",
+   "description": "Backbone simplifies payments so healthcare teams move faster, with more clarity, and spend their time where it matters.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.backbonesystems.ai/",
+   "status": 200
+  },
+  "backflip.ai": {
+   "title": "Backflip AI",
+   "description": "The AI copilot that CADs like a human. Backflip turbocharges your CAD and 3D modeling workflows, to help you design anything you can imagine. Spend less time on manual CAD tasks and more time building the physical world around you.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.backflip.ai/",
+   "status": 200
+  },
+  "bastion.io": {
+   "title": "Bastion | Trusted stablecoin infrastructure for enterprises",
+   "description": "The full stack, trusted stablecoin solution to securely issue, custody, move, and convert digital assets, under our licenses or your own.",
+   "fetched": "2026-09-25",
+   "final_url": "https://bastion.com/",
+   "status": 200
+  },
+  "bayesianhealth.com": {
+   "title": "Bayesian Health | Real-Time Clinical Intelligence for Proactive Care",
+   "description": "Bayesian monitors every patient continuously, surfaces only those who need attention, and gives clinicians the guidance to act \u00e2\u0080\u0094 consistently, at scale.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.bayesianhealth.com/",
+   "status": 200
+  },
+  "beacons.ai": {
+   "title": "Just a moment...",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://beacons.ai/",
+   "status": 403
+  },
+  "beeps.dev": {
+   "title": "beeps \u00c2\u00b7 on-call for agents and developers together",
+   "description": "The on-call platform built for agents and developers. Route incidents to humans and agents in parallel, manage schedules as code, and triage alerts from your editor or command line.",
+   "fetched": "2026-09-25",
+   "final_url": "https://beeps.dev/",
+   "status": 200
+  },
+  "believer.gg": {
+   "title": "Home - Believer Entertainment",
+   "description": "Join the journey We are building a world-class team to serve players for years to come. If you believe in games, we believe in you.",
+   "fetched": "2026-09-25",
+   "final_url": "https://believer.gg/",
+   "status": 200
+  },
+  "belonghome.com": {
+   "title": "Property Management Made Loveable | Belong",
+   "description": "We were fed up with old school property management. So we created Belong, a complete Home Management System that makes renting a home a breeze. Try it. We know you\u2019ll love it.",
+   "fetched": "2026-09-25",
+   "final_url": "https://belonghome.com/",
+   "status": 200
+  },
+  "benchling.com": {
+   "title": "Cloud-based platform for biotech R&D | Benchling",
+   "description": "Benchling is a cloud-based platform for biotechnology research and development and the only biology-first platform for scientific data, collaboration, and insights.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.benchling.com",
+   "status": 200
+  },
+  "bigscreenvr.com": {
+   "title": "Bigscreen Beyond 2 | The world's smallest VR headset",
+   "description": "Bigscreen Beyond 2 is the world's smallest VR headset, with advanced pancake optics, dual micro-OLED displays, adjustable IPD, and optional eyetracking.",
+   "fetched": "2026-09-25",
+   "final_url": "https://bigscreenvr.com/",
+   "status": 200
+  },
+  "biodock.ai": {
+   "title": "Home \u00b7 Biodock",
+   "description": "Biodock makes deep AI easy to train, run, and interpret on biological images, dramatically accelerating your R&D analysis.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.biodock.ai/",
+   "status": 200
+  },
+  "bitski.com": {
+   "title": "Origin DNS error | bitski.com | Cloudflare",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://bitski.com/",
+   "status": 530
+  },
+  "blackore.ai": {
+   "title": "Enterprise-Grade AI for the Tax Profession | Black Ore",
+   "description": "Black Ore's Tax Autopilot automates tax preparation for CPA firms with 99% accuracy and 98% time savings. Trusted by 40% of Top 20 firms. Request a demo today.",
+   "fetched": "2026-09-25",
+   "final_url": "https://blackore.ai/",
+   "status": 200
+  },
+  "blackbird.xyz": {
+   "title": "Blackbird",
+   "description": "Be a regular everywhere. Get the app that lets you earn status, perks, and points at world-class restaurants.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.blackbird.xyz/",
+   "status": 200
+  },
+  "agebold.com": {
+   "title": "Bold \u2013 Exercise, weight loss, and healthy aging for seniors",
+   "description": "Bold is your home for personalized, science-backed workouts shown to reduce fall risk. Assess your strength, mobility, and balance with a free 1-minute test.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.agebold.com/",
+   "status": 200
+  },
+  "boltz.com": {
+   "title": "Boltz - Build Better Molecules with AI",
+   "description": "Build better molecules with frontier AI models. With AI, we help every scientist reshape biology.",
+   "fetched": "2026-09-25",
+   "final_url": "https://boltz.com/",
+   "status": 200
+  },
+  "bonfirestudios.com": {
+   "title": "Bonfire Studios",
+   "description": "At Bonfire, our purpose is to craft games that weave pulse-pounding thrill with the warmth of belonging.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.bonfirestudios.com:443/",
+   "status": 200
+  },
+  "bounce.com": {
+   "title": "Bounce: Luggage Storage Near Me - Left Luggage & Lockers",
+   "description": "Luggage Storage Near Me 24/7 - Store your baggage in 32,000+ worldwide locations. Bounce is the BEST luggage storage app for finding and booking left luggage & lockers near you!",
+   "fetched": "2026-09-25",
+   "final_url": "https://bounce.com/",
+   "status": 200
+  },
+  "braintrust.dev": {
+   "title": "Braintrust - The active observability platform for agents",
+   "description": "Ship quality agents at scale. Braintrust is the AI observability platform for tracing production, running evals, and catching regressions before they reach users.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.braintrust.dev/",
+   "status": 200
+  },
+  "gobrightside.com": {
+   "title": "Employee Wellbeing Solutions | Brightside Financial Care",
+   "description": "Brightside goes beyond employee wellbeing solutions to provide personalized support and real solutions to support all money needs.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.gobrightside.com/",
+   "status": 200
+  },
+  "cadre.com": {
+   "title": "Cadre",
+   "description": "Created with Figma",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.cadre.com",
+   "status": 200
+  },
+  "camber.health": {
+   "title": "Camber | RCM Billing Software for Specialty Care",
+   "description": "Purpose-built billing software for specialty care clinics and group practices. Reduce claim denials, automate revenue cycle management, and get care providers paid faster.",
+   "fetched": "2026-09-25",
+   "final_url": "https://camber.health/",
+   "status": 200
+  },
+  "camu.com.br": {
+   "title": "Camu - Modern Enterprise Platform",
+   "description": "Camu - The all-in-one platform for modern enterprise resource planning",
+   "fetched": "2026-09-25",
+   "final_url": "https://camu.com.br/",
+   "status": 200
+  },
+  "shopcanal.com": {
+   "title": "Rokt Catalog (formerly Canal) | Rokt\u2019s Distributed Commerce Platform",
+   "description": "Discover how Canal has become Rokt Catalog, Rokt\u2019s third-party commerce solution for retailers and brands. Same trusted team, now with even greater scale and global reach.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.shopcanal.com/",
+   "status": 200
+  },
+  "capitolis.com": {
+   "title": "Capitolis - Homepage",
+   "description": "We\u2019re creating a better financial system for everyone. Learn how we\u2019re unlocking capital efficiency and enabling growth for banks and institutional investors.",
+   "fetched": "2026-09-25",
+   "final_url": "https://capitolis.com/",
+   "status": 200
+  },
+  "capriza.com": {
+   "title": "capriza.com Discover Top Tracking Apps, Lifestyle Tips, and Relationships Advices",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.capriza.com/",
+   "status": 200
+  },
+  "carbonated.com": {
+   "title": "carbonated.com",
+   "description": "Carbonated makes hardcore PVP multiplayer games accessible to everyone on their mobile phones and PCs, by using AI to drive moment-to moment gameplay.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.carbonated.com/",
+   "status": 200
+  },
+  "carry1st.com": {
+   "title": "Carry1st | Africa's Leading Mobile Games Publisher",
+   "description": "Carry1st is Africa's #1 mobile game and digital content publisher in Nigeria, South Africa, Kenya, Ghana, Egypt, Morocco and throughout the continent.",
+   "fetched": "2026-09-25",
+   "final_url": "https://carry1st.com/",
+   "status": 200
+  },
+  "carta.com": {
+   "title": "Carta | The End-to-End Suite Connecting Private Capital",
+   "description": "Carta\u2019s ERP for private capital combines software and services to deliver connected clarity and control across equity, fund, and portfolio management.",
+   "fetched": "2026-09-25",
+   "final_url": "https://carta.com/",
+   "status": 200
+  },
+  "catenalabs.com": {
+   "title": "Catena | How AI Agents Use Money",
+   "description": "Catena is the banking and governance platform for AI agents that supports payments, treasury, and other services.",
+   "fetched": "2026-09-25",
+   "final_url": "https://catena.com/",
+   "status": 200
+  },
+  "clabs.co": {
+   "title": "Celo Core Co.",
+   "description": "Celo Core Co. builds and stewards Celo \u00e2\u0080\u0094 the leading programmable rails for global finance and the most widely adopted blockchain for stablecoin payments",
+   "fetched": "2026-09-25",
+   "final_url": "https://clabs.co/",
+   "status": 200
+  },
+  "cfo.ai": {
+   "title": "Hire an AI CFO | Meet Ari | cfo.ai",
+   "description": "Ari is an AI CFO that keeps your financial model current. Plan hiring, review results, and test pricing decisions against your numbers.",
+   "fetched": "2026-09-25",
+   "final_url": "https://cfo.ai/",
+   "status": 200
+  },
+  "charthop.com": {
+   "title": "ChartHop | Organizational intelligence for people analytics, headcount planning and HCM",
+   "description": "ChartHop is the organizational intelligence company. We connect your people and business data from any source into a living model of your whole organization, with HCM and planning workflows, analytics and agentic AI throughout.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.charthop.com/",
+   "status": 200
+  },
+  "chestnutai.com": {
+   "title": "Chestnut | Insurance Distribution Operating System",
+   "description": "Discover a family of features purpose-built for insurance. Say goodbye to legacy architecture and functionality compromises.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.chestnutai.com/",
+   "status": 200
+  },
+  "chia.net": {
+   "title": "Home - Chia Network",
+   "description": "24/7 Global Markets Built on3rd Gen Blockchain Technology News and Newsworthy Dive into expert insights, company updates, and industry trends ... Read more",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.chia.net/",
+   "status": 200
+  },
+  "chipprofessionals.com": {
+   "title": "Just a moment...",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.chipprofessionals.com/",
+   "status": 403
+  },
+  "shopcider.com": {
+   "title": "Fashion Starts With A Feeling - Women's Fashion Clothing | Cider",
+   "description": "Cider offers stylish and trendy women's clothing and accessories globally. Shop the latest dresses, tops, jackets, and more. Enjoy worldwide shipping.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.shopcider.com/",
+   "status": 200
+  },
+  "civitai.com": {
+   "title": "Civitai | Discover and Create AI Art",
+   "description": "Explore thousands of free Stable Diffusion & Flux models, create and share AI-generated art, and join the world's largest community of generative AI creators.",
+   "fetched": "2026-09-25",
+   "final_url": "https://civitai.com/",
+   "status": 200
+  },
+  "clerk.com": {
+   "title": "Clerk | Authentication and User Management",
+   "description": "The easiest way to add authentication and user management to your application. Purpose-built for React, Next.js, Remix, and \u201cThe Modern Web\u201d.",
+   "fetched": "2026-09-25",
+   "final_url": "https://clerk.com/",
+   "status": 200
+  },
+  "clickup.com": {
+   "title": "ClickUp\u2122 | Maximize productivity \u2022 Software, AI, and humans converge",
+   "description": "Our mission is to make the world more productive. To do this, we built the everything app for work - Tasks, Docs, Goals, and Chat.",
+   "fetched": "2026-09-25",
+   "final_url": "https://clickup.com/",
+   "status": 200
+  },
+  "clubhouse.com": {
+   "title": "Clubhouse",
+   "description": "Join live voice chats",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.clubhouse.com",
+   "status": 200
+  },
+  "cluely.com": {
+   "title": "Cluely | Undetectable AI Notetaker & Meeting Assistant",
+   "description": "Undetectable AI notetaker and meeting assistant with live notes and instant answers during calls. Unlike Otter or Granola, Cluely helps you during meetings, not just after.",
+   "fetched": "2026-09-25",
+   "final_url": "https://cluely.com/",
+   "status": 200
+  },
+  "withclutch.com": {
+   "title": "Homepage | Clutch | The Leading Credit Union Digital Origination Platform",
+   "description": "INTRODUCING CLUTCH LENDING AUTOMATION SYSTEM Win on lending.Stay a credit union. Faster decisions for members. Smarter risk. Growth without adding headcount. Clutch LAS is the automation-first lending platform built for credit unions that take their mission seriously. Fintech muscle. Credit union he",
+   "fetched": "2026-09-25",
+   "final_url": "https://withclutch.com/",
+   "status": 200
+  },
+  "usecocreate.io": {
+   "title": "Home",
+   "description": "Free tattoo booking for Artists. Booking Requests, Wanna Do designs, payments \u2014 all in one place. Zero commissions. Keep 100% of what you earn",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.cocreate.ink",
+   "status": 200
+  },
+  "coactive.ai": {
+   "title": "The Contextual Intelligence Layer for Modern Media | Coactive",
+   "description": "Coactive's multimodal AI platform turns video and image into context you define. Talk to your content the way you talk to your data, at petabyte scale.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.coactive.ai/",
+   "status": 200
+  },
+  "codecombat.com": {
+   "title": "CodeCombat - Coding games to learn Python and JavaScript",
+   "description": "Learn typed code through a programming game. Learn Python, JavaScript, and HTML as you solve puzzles and learn to make your own coding games and websites.",
+   "fetched": "2026-09-25",
+   "final_url": "https://codecombat.com/",
+   "status": 200
+  },
+  "codi.com": {
+   "title": "",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.codi.com/",
+   "status": 200
+  },
+  "coinswitch.co": {
+   "title": "CoinSwitch \u2013 India's Top Crypto Exchange | Buy & Trade Crypto | India's largest Crypto Exchange.",
+   "description": "Buy Bitcoin and trade cryptocurrency with the cryptocurrency investment app and best crypto app for crypto derivatives, futures, options, and 400+ coins in India.",
+   "fetched": "2026-09-25",
+   "final_url": "https://coinswitch.co/",
+   "status": 200
+  },
+  "comma.ai": {
+   "title": "comma.ai \u2014 make driving chill",
+   "description": "Hands free driving for the car you already have",
+   "fetched": "2026-09-25",
+   "final_url": "https://comma.ai/",
+   "status": 200
+  },
+  "commandzero.ai": {
+   "title": "Command Zero \u2014 Autonomous AI SOC Investigation Platform",
+   "description": "AI SOC platform with autonomous and AI-assisted investigation modes. Run the full Tier-1 to Tier-3 lifecycle across identity, endpoint, cloud, and SaaS.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.commandzero.ai/",
+   "status": 200
+  },
+  "compound.finance": {
+   "title": "Compound Finance",
+   "description": "The global market for capital. Connecting suppliers and borrowers through secure and transparent lending markets.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.compound.xyz/redirect",
+   "status": 200
+  },
+  "concourse.ai": {
+   "title": "Concourse | AI transformation for finance.",
+   "description": "Concourse AI agents boost finance team productivity 10x by automating manual tasks, delivering insights, and creating financial reports",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.concourse.ai/",
+   "status": 200
+  },
+  "convex.dev": {
+   "title": "Convex | All gas, no breakages",
+   "description": "All gas, no breakages. Convex is the reactive backend platform that keeps up with you and your agents.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.convex.dev/",
+   "status": 200
+  },
+  "coreloop.gg": {
+   "title": "DNS points to prohibited IP | www.coreloop.gg | Cloudflare",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.coreloop.gg/",
+   "status": 403
+  },
+  "cotool.ai": {
+   "title": "Cotool - AI for the blue team.",
+   "description": "Scale detection, response, and threat hunting beyond headcount. Build AI agents across your entire security stack. Improve coverage, cut MTTR, and eliminate manual & repetitive security work.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.cotool.ai/",
+   "status": 200
+  },
+  "counselhealth.com": {
+   "title": "Chat With Medical AI and a Doctor Online | Counsel Health",
+   "description": "Chat instantly with medical AI and connect with a real doctor in one click. Get healthcare that\u2019s reliable and affordable when you need it.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.counselhealth.com/",
+   "status": 200
+  },
+  "createra.fun": {
+   "error": "ConnectionError",
+   "fetched": "2026-09-25"
+  },
+  "cresta.com": {
+   "title": "AI Agents for Every Customer Conversation | Cresta",
+   "description": "Save money, increase revenue, and build customer loyalty with the only unified platform for human and AI agents that transforms every customer experience.",
+   "fetched": "2026-09-25",
+   "final_url": "https://cresta.com/",
+   "status": 200
+  },
+  "crossriver.com": {
+   "title": "Cross River | API-Based Financial Solutions for Business",
+   "description": "Cross River is the trusted financial services organization that merges the established expertise of a bank, with the innovation and product offering of a technology company.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.crossriver.com/",
+   "status": 200
+  },
+  "crossbeam.com": {
+   "title": "The Ecosystem Revenue Platform | Crossbeam",
+   "description": "Discover how Crossbeam's Ecosystem Revenue Platform empowers sales, marketing, and partnerships to unlock new growth opportunities, close deals faster, and drive revenue with actionable ecosystem insights.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.crossbeam.com/",
+   "status": 200
+  },
+  "crux.com": {
+   "title": "Crux | Clean energy capital and tax credit transactions",
+   "description": "Crux modernizes how capital is raised and deployed for clean energy and critical infrastructure \u2013 advisory, investments, intelligence, and technology.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.crux.com/",
+   "status": 200
+  },
+  "onchainstudios.com": {
+   "title": "OnChain Studios",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.onchainstudios.com/",
+   "status": 200
+  },
+  "cuenca.com": {
+   "title": "Cuenca | Cuenca",
+   "description": "La \u00c3\u00banica cuenta que necesitas en M\u00c3\u00a9xico",
+   "fetched": "2026-09-25",
+   "final_url": "https://cuenca.com/",
+   "status": 200
+  },
+  "cultofthenorth.com": {
+   "error": "ConnectTimeout",
+   "fetched": "2026-09-25"
+  },
+  "goculturewireless.com": {
+   "title": "Culture Wireless - Reliable & Affordable Connectivity",
+   "description": "Culture Wireless is on a mission to close the digital divide. We provide affordable internet services to communities that need. Available In Clayton County, GA ...",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.culturewireless.com/",
+   "status": 200
+  },
+  "current.com": {
+   "title": "Current | Future of Banking",
+   "description": "Get paid early. Access paycheck advances up to $750. Build credit. Fee-free overdraft. Earn savings bonuses up to 4.00%. Earn cash back.",
+   "fetched": "2026-09-25",
+   "final_url": "https://current.com/",
+   "status": 200
+  },
+  "cygnvs.com": {
+   "title": "Out-of-Band Cyber Crisis Command Center | CYGNVS",
+   "description": "The out-of-band command center for cyber crisis response. Coordinate people, plans, and communications when systems go down.",
+   "fetched": "2026-09-25",
+   "final_url": "https://cygnvs.com/",
+   "status": 200
+  },
+  "cyngn.com": {
+   "title": "The Autonomous Tugger for Material Handling | Cyngn",
+   "description": "The DriveMod Autonomous Tugger takes over your back-and-forth workflows to save on labor costs, and keep things moving. Get one on your floor in 2 weeks, with no special infrastructure, or long term commitment.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.cyngn.com/",
    "status": 200
   }
  }

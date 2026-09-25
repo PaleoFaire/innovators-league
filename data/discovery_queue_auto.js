@@ -1,7 +1,7 @@
 // Auto-generated from discovery_queue_auto.json
-// Last updated: 2026-09-25T08:38:45+00:00
+// Last updated: 2026-09-25T08:43:38+00:00
 const DISCOVERY_QUEUE_AUTO = {
-  "generatedAt": "2026-09-25T08:38:45+00:00",
+  "generatedAt": "2026-09-25T08:43:38+00:00",
   "knownCompaniesCount": 2032,
   "summary": {
     "totalCandidates": 390,
@@ -285,7 +285,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "vc": "a16z",
           "date": "2024-01-30",
           "verifyUrl": "https://www.crux.com/",
-          "context": "Listed by a16z, first funded 2024-01-30"
+          "context": "Listed by a16z, first funded 2024-01-30: Crux modernizes how capital is raised and deployed for clean energy and critical infrastructure \u2013 advisory, investments, intelligence, and technology."
         }
       ],
       "sources": [
@@ -293,7 +293,7 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "high",
-      "suggestedSector": null
+      "suggestedSector": "AI & Compute"
     },
     {
       "name": "Zeno",
