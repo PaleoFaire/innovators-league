@@ -1,0 +1,127 @@
+{
+ "month": "2026-05",
+ "up": [
+  {
+   "company": "Slingshot Aerospace",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 17,
+   "roles_now": 38,
+   "change": 21,
+   "change_pct": 123.5
+  },
+  {
+   "company": "Amca",
+   "bucket": "Manufacturing & Materials",
+   "roles_prev": 15,
+   "roles_now": 30,
+   "change": 15,
+   "change_pct": 100.0
+  },
+  {
+   "company": "Arbor Energy",
+   "bucket": "Power & Grid",
+   "roles_prev": 11,
+   "roles_now": 22,
+   "change": 11,
+   "change_pct": 100.0
+  },
+  {
+   "company": "Redwood Materials",
+   "bucket": "Manufacturing & Materials",
+   "roles_prev": 44,
+   "roles_now": 82,
+   "change": 38,
+   "change_pct": 86.4
+  },
+  {
+   "company": "Epirus",
+   "bucket": "Defence",
+   "roles_prev": 25,
+   "roles_now": 38,
+   "change": 13,
+   "change_pct": 52.0
+  },
+  {
+   "company": "Apptronik",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 60,
+   "roles_now": 87,
+   "change": 27,
+   "change_pct": 45.0
+  },
+  {
+   "company": "Varda Space Industries",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 70,
+   "roles_now": 97,
+   "change": 27,
+   "change_pct": 38.6
+  },
+  {
+   "company": "Icarus",
+   "bucket": "Defence",
+   "roles_prev": 9,
+   "roles_now": 12,
+   "change": 3,
+   "change_pct": 33.3
+  },
+  {
+   "company": "Hubble Network",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 7,
+   "roles_now": 9,
+   "change": 2,
+   "change_pct": 28.6
+  },
+  {
+   "company": "Chaos Industries",
+   "bucket": "Defence",
+   "roles_prev": 119,
+   "roles_now": 148,
+   "change": 29,
+   "change_pct": 24.4
+  }
+ ],
+ "down": [
+  {
+   "company": "Carbon Robotics",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 33,
+   "roles_now": 23,
+   "change": -10,
+   "change_pct": -30.3
+  },
+  {
+   "company": "Galvanick",
+   "bucket": "Defence",
+   "roles_prev": 8,
+   "roles_now": 6,
+   "change": -2,
+   "change_pct": -25.0
+  },
+  {
+   "company": "Valar Atomics",
+   "bucket": "Nuclear",
+   "roles_prev": 40,
+   "roles_now": 33,
+   "change": -7,
+   "change_pct": -17.5
+  },
+  {
+   "company": "Focused Energy",
+   "bucket": "Nuclear",
+   "roles_prev": 16,
+   "roles_now": 14,
+   "change": -2,
+   "change_pct": -12.5
+  },
+  {
+   "company": "Marvel Fusion",
+   "bucket": "Nuclear",
+   "roles_prev": 12,
+   "roles_now": 11,
+   "change": -1,
+   "change_pct": -8.3
+  }
+ ]
+}

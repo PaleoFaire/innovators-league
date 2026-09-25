@@ -1,0 +1,56 @@
+name: Build-Out Pulse
+
+# The monthly diffusion index of the private hard-tech cohort.
+# Runs on the 1st of each month (12:00 UTC) after the daily syncs have landed,
+# recomputes the full history from git snapshots of the jobs feed plus the
+# deals/contracts feeds, and commits data/pulse/* and data/pulse_auto.js.
+# Nothing here writes to data.js.
+
+on:
+  schedule:
+    - cron: '0 12 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pulse-monthly
+  cancel-in-progress: false
+
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # full history: the backfill reads month-end snapshots of data/jobs_auto.js
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Compute the Pulse
+        run: python3 scripts/calc_pulse.py
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit and push (retry on conflict)
+        run: |
+          for attempt in 1 2 3 4 5; do
+            git stash --include-untracked 2>/dev/null || true
+            git pull --rebase origin main || git rebase --abort 2>/dev/null || true
+            git stash pop 2>/dev/null || true
+            git add data/pulse data/pulse_auto.js 2>/dev/null || true
+            if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+            git commit -m "🫀 Build-Out Pulse: $(date -u +%Y-%m)"
+            git push origin main && exit 0
+            git reset --soft HEAD~1
+            sleep $((attempt * 7))
+          done
+          echo "::error::could not push after 5 attempts"; exit 1

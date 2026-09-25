@@ -1,0 +1,127 @@
+{
+ "month": "2026-09",
+ "up": [
+  {
+   "company": "Mach Industries",
+   "bucket": "Defence",
+   "roles_prev": 20,
+   "roles_now": 124,
+   "change": 104,
+   "change_pct": 520.0
+  },
+  {
+   "company": "Astranis",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 86,
+   "roles_now": 164,
+   "change": 78,
+   "change_pct": 90.7
+  },
+  {
+   "company": "Divergent",
+   "bucket": "Manufacturing & Materials",
+   "roles_prev": 70,
+   "roles_now": 110,
+   "change": 40,
+   "change_pct": 57.1
+  },
+  {
+   "company": "Hubble Network",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 11,
+   "roles_now": 16,
+   "change": 5,
+   "change_pct": 45.5
+  },
+  {
+   "company": "Vannevar Labs",
+   "bucket": "Defence",
+   "roles_prev": 22,
+   "roles_now": 30,
+   "change": 8,
+   "change_pct": 36.4
+  },
+  {
+   "company": "Focused Energy",
+   "bucket": "Nuclear",
+   "roles_prev": 15,
+   "roles_now": 20,
+   "change": 5,
+   "change_pct": 33.3
+  },
+  {
+   "company": "Skyryse",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 13,
+   "roles_now": 17,
+   "change": 4,
+   "change_pct": 30.8
+  },
+  {
+   "company": "ClearSpace",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 33,
+   "roles_now": 43,
+   "change": 10,
+   "change_pct": 30.3
+  },
+  {
+   "company": "Kairos Power",
+   "bucket": "Nuclear",
+   "roles_prev": 22,
+   "roles_now": 28,
+   "change": 6,
+   "change_pct": 27.3
+  },
+  {
+   "company": "Extropic",
+   "bucket": "Chips & Quantum",
+   "roles_prev": 8,
+   "roles_now": 10,
+   "change": 2,
+   "change_pct": 25.0
+  }
+ ],
+ "down": [
+  {
+   "company": "Armada",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 61,
+   "roles_now": 41,
+   "change": -20,
+   "change_pct": -32.8
+  },
+  {
+   "company": "Albedo",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 10,
+   "roles_now": 7,
+   "change": -3,
+   "change_pct": -30.0
+  },
+  {
+   "company": "Locus Robotics",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 8,
+   "roles_now": 6,
+   "change": -2,
+   "change_pct": -25.0
+  },
+  {
+   "company": "Outpost Space",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 21,
+   "roles_now": 17,
+   "change": -4,
+   "change_pct": -19.0
+  },
+  {
+   "company": "Salient Motion",
+   "bucket": "Manufacturing & Materials",
+   "roles_prev": 22,
+   "roles_now": 18,
+   "change": -4,
+   "change_pct": -18.2
+  }
+ ]
+}

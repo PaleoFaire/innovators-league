@@ -1,0 +1,127 @@
+{
+ "month": "2026-07",
+ "up": [
+  {
+   "company": "Outpost Space",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 13,
+   "roles_now": 24,
+   "change": 11,
+   "change_pct": 84.6
+  },
+  {
+   "company": "The Nuclear Company",
+   "bucket": "Nuclear",
+   "roles_prev": 40,
+   "roles_now": 62,
+   "change": 22,
+   "change_pct": 55.0
+  },
+  {
+   "company": "Formic",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 25,
+   "roles_now": 38,
+   "change": 13,
+   "change_pct": 52.0
+  },
+  {
+   "company": "Redwood Materials",
+   "bucket": "Manufacturing & Materials",
+   "roles_prev": 87,
+   "roles_now": 129,
+   "change": 42,
+   "change_pct": 48.3
+  },
+  {
+   "company": "Ursa Major Technologies",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 43,
+   "roles_now": 62,
+   "change": 19,
+   "change_pct": 44.2
+  },
+  {
+   "company": "Lightmatter",
+   "bucket": "Chips & Quantum",
+   "roles_prev": 51,
+   "roles_now": 67,
+   "change": 16,
+   "change_pct": 31.4
+  },
+  {
+   "company": "Focused Energy",
+   "bucket": "Nuclear",
+   "roles_prev": 13,
+   "roles_now": 17,
+   "change": 4,
+   "change_pct": 30.8
+  },
+  {
+   "company": "Latitude",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 36,
+   "roles_now": 47,
+   "change": 11,
+   "change_pct": 30.6
+  },
+  {
+   "company": "Valar Atomics",
+   "bucket": "Nuclear",
+   "roles_prev": 40,
+   "roles_now": 52,
+   "change": 12,
+   "change_pct": 30.0
+  },
+  {
+   "company": "Icarus",
+   "bucket": "Defence",
+   "roles_prev": 24,
+   "roles_now": 29,
+   "change": 5,
+   "change_pct": 20.8
+  }
+ ],
+ "down": [
+  {
+   "company": "Slingshot Aerospace",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 35,
+   "roles_now": 3,
+   "change": -32,
+   "change_pct": -91.4
+  },
+  {
+   "company": "Locus Robotics",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 18,
+   "roles_now": 5,
+   "change": -13,
+   "change_pct": -72.2
+  },
+  {
+   "company": "Hubble Network",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 8,
+   "roles_now": 6,
+   "change": -2,
+   "change_pct": -25.0
+  },
+  {
+   "company": "Galvanick",
+   "bucket": "Defence",
+   "roles_prev": 6,
+   "roles_now": 5,
+   "change": -1,
+   "change_pct": -16.7
+  },
+  {
+   "company": "Atomic Machines",
+   "bucket": "Chips & Quantum",
+   "roles_prev": 38,
+   "roles_now": 32,
+   "change": -6,
+   "change_pct": -15.8
+  }
+ ]
+}

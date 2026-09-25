@@ -1,0 +1,127 @@
+{
+ "month": "2026-08",
+ "up": [
+  {
+   "company": "Muon Space",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 51,
+   "roles_now": 105,
+   "change": 54,
+   "change_pct": 105.9
+  },
+  {
+   "company": "Hubble Network",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 6,
+   "roles_now": 11,
+   "change": 5,
+   "change_pct": 83.3
+  },
+  {
+   "company": "Ursa Major Technologies",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 62,
+   "roles_now": 100,
+   "change": 38,
+   "change_pct": 61.3
+  },
+  {
+   "company": "Locus Robotics",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 5,
+   "roles_now": 8,
+   "change": 3,
+   "change_pct": 60.0
+  },
+  {
+   "company": "Valar Atomics",
+   "bucket": "Nuclear",
+   "roles_prev": 52,
+   "roles_now": 83,
+   "change": 31,
+   "change_pct": 59.6
+  },
+  {
+   "company": "Skyryse",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 9,
+   "roles_now": 13,
+   "change": 4,
+   "change_pct": 44.4
+  },
+  {
+   "company": "Albedo",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 7,
+   "roles_now": 10,
+   "change": 3,
+   "change_pct": 42.9
+  },
+  {
+   "company": "General Matter",
+   "bucket": "Nuclear",
+   "roles_prev": 83,
+   "roles_now": 115,
+   "change": 32,
+   "change_pct": 38.6
+  },
+  {
+   "company": "Salient Motion",
+   "bucket": "Manufacturing & Materials",
+   "roles_prev": 16,
+   "roles_now": 22,
+   "change": 6,
+   "change_pct": 37.5
+  },
+  {
+   "company": "Zipline",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 242,
+   "roles_now": 328,
+   "change": 86,
+   "change_pct": 35.5
+  }
+ ],
+ "down": [
+  {
+   "company": "Vannevar Labs",
+   "bucket": "Defence",
+   "roles_prev": 35,
+   "roles_now": 22,
+   "change": -13,
+   "change_pct": -37.1
+  },
+  {
+   "company": "Icarus",
+   "bucket": "Defence",
+   "roles_prev": 29,
+   "roles_now": 22,
+   "change": -7,
+   "change_pct": -24.1
+  },
+  {
+   "company": "Arbor Energy",
+   "bucket": "Power & Grid",
+   "roles_prev": 18,
+   "roles_now": 14,
+   "change": -4,
+   "change_pct": -22.2
+  },
+  {
+   "company": "Quaise Energy",
+   "bucket": "Power & Grid",
+   "roles_prev": 12,
+   "roles_now": 10,
+   "change": -2,
+   "change_pct": -16.7
+  },
+  {
+   "company": "Atomic Machines",
+   "bucket": "Chips & Quantum",
+   "roles_prev": 32,
+   "roles_now": 27,
+   "change": -5,
+   "change_pct": -15.6
+  }
+ ]
+}

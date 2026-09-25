@@ -600,6 +600,33 @@ def fetch_all_jobs():
     tasks.extend([("ashby", name, board) for name, board in ASHBY_COMPANIES])
     tasks.extend([("workable", name, board) for name, board in WORKABLE_COMPANIES])
 
+    # Boards found by scripts/discover_job_boards.py — high-confidence entries only
+    # (a link on the company's own careers page, or a domain-derived slug the board echoes).
+    # Medium-confidence hits stay in data/pulse/job_boards_discovered.json for review.
+    try:
+        with open(DATA_DIR / "pulse" / "job_boards_discovered.json") as _f:
+            _discovered = json.load(_f)
+        _have_company = {t[1] for t in tasks}
+        _have_slug = {(t[0], t[2]) for t in tasks}
+        _added = 0
+        for _rec in _discovered:
+            for _cand in _rec.get("candidates", []):
+                if _cand.get("confidence") != "high":
+                    continue
+                if _cand.get("platform") not in ("greenhouse", "lever", "ashby", "workable"):
+                    continue
+                if _rec["company"] in _have_company or (_cand["platform"], _cand["slug"]) in _have_slug:
+                    continue
+                tasks.append((_cand["platform"], _rec["company"], _cand["slug"]))
+                _have_company.add(_rec["company"])
+                _have_slug.add((_cand["platform"], _cand["slug"]))
+                _added += 1
+                break
+        if _added:
+            log.info(f"  + {_added} discovered boards from data/pulse/job_boards_discovered.json")
+    except (FileNotFoundError, ValueError):
+        pass
+
     log.info("=" * 60)
     log.info(f"Fetching jobs from {len(tasks)} known job boards...")
     log.info("=" * 60)
