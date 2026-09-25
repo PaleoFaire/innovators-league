@@ -1,560 +1,542 @@
 [
-  {
-    "mafia": "Y Combinator",
-    "count": 21,
-    "companies": [
-      {
-        "company": "Revoy",
-        "sector": "Transportation",
-        "totalRaised": "$41M",
-        "valuation": ""
-      },
-      {
-        "company": "Nine Fives",
-        "sector": "Chips & Semiconductors",
-        "totalRaised": "$500K",
-        "valuation": ""
-      },
-      {
-        "company": "Weave Robotics",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$500K+",
-        "valuation": ""
-      },
-      {
-        "company": "Enhanced Radar",
-        "sector": "Transportation",
-        "totalRaised": "$7M+",
-        "valuation": ""
-      },
-      {
-        "company": "Beyond Reach Labs",
-        "sector": "Space & Aerospace",
-        "totalRaised": "$500K + $175M+ LOIs",
-        "valuation": ""
-      },
-      {
-        "company": "Blackstar",
-        "sector": "AI & Software",
-        "totalRaised": "$12M",
-        "valuation": ""
-      },
-      {
-        "company": "Theseus",
-        "sector": "Defense & Security",
-        "totalRaised": "$4.3M",
-        "valuation": ""
-      },
-      {
-        "company": "Zettascale",
-        "sector": "Chips & Semiconductors",
-        "totalRaised": "$3M+",
-        "valuation": ""
-      },
-      {
-        "company": "NetworkOcean",
-        "sector": "Ocean & Maritime",
-        "totalRaised": "$1M",
-        "valuation": ""
-      },
-      {
-        "company": "Wardstone",
-        "sector": "Space & Aerospace",
-        "totalRaised": "$5M",
-        "valuation": ""
-      },
-      {
-        "company": "Orangewood Labs",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$5M+",
-        "valuation": ""
-      },
-      {
-        "company": "Axial Composites",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$1M+",
-        "valuation": ""
-      },
-      {
-        "company": "Nox Metals",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$5.1M",
-        "valuation": ""
-      },
-      {
-        "company": "Ultra Robotics",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$57M+",
-        "valuation": ""
-      },
-      {
-        "company": "Anthrogen",
-        "sector": "Biotech & Health",
-        "totalRaised": "$4M",
-        "valuation": ""
-      },
-      {
-        "company": "BurnBot",
-        "sector": "Climate & Energy",
-        "totalRaised": "$25M",
-        "valuation": ""
-      },
-      {
-        "company": "Biobot Analytics",
-        "sector": "Biotech & Health",
-        "totalRaised": "$40M",
-        "valuation": ""
-      },
-      {
-        "company": "Epic Aerospace",
-        "sector": "Space & Aerospace",
-        "totalRaised": "Undisclosed (YC/Thiel)",
-        "valuation": ""
-      },
-      {
-        "company": "Zephyr Fusion",
-        "sector": "Nuclear Energy",
-        "totalRaised": "$500K",
-        "valuation": ""
-      },
-      {
-        "company": "Maritime Fusion",
-        "sector": "Nuclear Energy",
-        "totalRaised": "$4.5M",
-        "valuation": ""
-      },
-      {
-        "company": "Atmo",
-        "sector": "AI & Software",
-        "totalRaised": "$29.1M",
-        "valuation": ""
-      }
-    ],
-    "description": "21 companies with founding-team links to Y Combinator."
-  },
-  {
-    "mafia": "SpaceX Mafia",
-    "count": 19,
-    "companies": [
-      {
-        "company": "Plantd Materials",
-        "sector": "Housing & Construction",
-        "totalRaised": "$42M",
-        "valuation": ""
-      },
-      {
-        "company": "Critical Energy",
-        "sector": "Climate & Energy",
-        "totalRaised": "$22M",
-        "valuation": ""
-      },
-      {
-        "company": "1872",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$15M",
-        "valuation": ""
-      },
-      {
-        "company": "Electric Era",
-        "sector": "Climate & Energy",
-        "totalRaised": "$11.5M",
-        "valuation": ""
-      },
-      {
-        "company": "Lux Aeterna",
-        "sector": "Space & Aerospace",
-        "totalRaised": "$14M",
-        "valuation": ""
-      },
-      {
-        "company": "Andrenam",
-        "sector": "Defense & Security",
-        "totalRaised": "$18M",
-        "valuation": ""
-      },
-      {
-        "company": "Vital Lyfe",
-        "sector": "Climate & Energy",
-        "totalRaised": "$24M",
-        "valuation": ""
-      },
-      {
-        "company": "Fortastra",
-        "sector": "Space & Aerospace",
-        "totalRaised": "$8M",
-        "valuation": ""
-      },
-      {
-        "company": "Long Wall",
-        "sector": "Defense & Security",
-        "totalRaised": "$544M",
-        "valuation": ""
-      },
-      {
-        "company": "Starpath Robotics",
-        "sector": "Space & Aerospace",
-        "totalRaised": "$14.5M+",
-        "valuation": ""
-      },
-      {
-        "company": "Freeform",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$125M+",
-        "valuation": ""
-      },
-      {
-        "company": "First Resonance",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$40.8M",
-        "valuation": ""
-      },
-      {
-        "company": "Canada Rocket Company",
-        "sector": "Space & Aerospace",
-        "totalRaised": "$6.2M",
-        "valuation": ""
-      },
-      {
-        "company": "Panthalassa",
-        "sector": "Climate & Energy",
-        "totalRaised": "$140M+",
-        "valuation": ""
-      },
-      {
-        "company": "Mesh Optical Technologies",
-        "sector": "Chips & Semiconductors",
-        "totalRaised": "$50M",
-        "valuation": ""
-      },
-      {
-        "company": "Sift Stack",
-        "sector": "AI & Software",
-        "totalRaised": "$67M",
-        "valuation": ""
-      },
-      {
-        "company": "Ethos Space",
-        "sector": "Space & Aerospace",
-        "totalRaised": "Undisclosed",
-        "valuation": ""
-      },
-      {
-        "company": "TerraFirma",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$115M",
-        "valuation": "Undisclosed"
-      },
-      {
-        "company": "Eclipse Space",
-        "sector": "Space & Aerospace",
-        "totalRaised": "Undisclosed",
-        "valuation": "Undisclosed"
-      }
-    ],
-    "description": "19 companies with founding-team links to SpaceX."
-  },
-  {
-    "mafia": "Google/DeepMind",
-    "count": 10,
-    "companies": [
-      {
-        "company": "Phaidra",
-        "sector": "AI & Software",
-        "totalRaised": "$120M",
-        "valuation": ""
-      },
-      {
-        "company": "Core Automation",
-        "sector": "AI & Software",
-        "totalRaised": "Targeting $500M-$1B at $4-5B+ val",
-        "valuation": ""
-      },
-      {
-        "company": "Built Robotics",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$112M+",
-        "valuation": ""
-      },
-      {
-        "company": "MatX",
-        "sector": "Chips & Semiconductors",
-        "totalRaised": "$500M+",
-        "valuation": ""
-      },
-      {
-        "company": "Majestic Labs",
-        "sector": "Chips & Semiconductors",
-        "totalRaised": "$100M+",
-        "valuation": ""
-      },
-      {
-        "company": "Periodic Labs",
-        "sector": "AI & Software",
-        "totalRaised": "$300M",
-        "valuation": ""
-      },
-      {
-        "company": "Reflection AI",
-        "sector": "AI & Software",
-        "totalRaised": "$2B",
-        "valuation": "$25B"
-      },
-      {
-        "company": "Dyna Robotics",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$120M",
-        "valuation": ""
-      },
-      {
-        "company": "Archetype AI",
-        "sector": "AI & Software",
-        "totalRaised": "$48M",
-        "valuation": ""
-      },
-      {
-        "company": "Generalist AI",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$500M+",
-        "valuation": "$2B"
-      }
-    ],
-    "description": "10 companies with founding-team links to Google/DeepMind."
-  },
-  {
-    "mafia": "Palantir Mafia",
-    "count": 6,
-    "companies": [
-      {
-        "company": "Endeavor Optical Networks",
-        "sector": "Space & Aerospace",
-        "totalRaised": "$10.75M",
-        "valuation": ""
-      },
-      {
-        "company": "NetworkOcean",
-        "sector": "Ocean & Maritime",
-        "totalRaised": "$1M",
-        "valuation": ""
-      },
-      {
-        "company": "Cape",
-        "sector": "Defense & Security",
-        "totalRaised": "$195M",
-        "valuation": ""
-      },
-      {
-        "company": "Gallatin AI",
-        "sector": "Defense & Security",
-        "totalRaised": "$15M",
-        "valuation": ""
-      },
-      {
-        "company": "Govini",
-        "sector": "Defense & Security",
-        "totalRaised": "$174M",
-        "valuation": ""
-      },
-      {
-        "company": "Onodrim Industries",
-        "sector": "Defense & Security",
-        "totalRaised": "\u20ac40M",
-        "valuation": ""
-      }
-    ],
-    "description": "6 companies with founding-team links to Palantir."
-  },
-  {
-    "mafia": "Tesla Mafia",
-    "count": 4,
-    "companies": [
-      {
-        "company": "Lightship",
-        "sector": "Transportation",
-        "totalRaised": "$87.8M",
-        "valuation": ""
-      },
-      {
-        "company": "Slip Robotics",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$44M",
-        "valuation": ""
-      },
-      {
-        "company": "Heron Power",
-        "sector": "Climate & Energy",
-        "totalRaised": "$178M+",
-        "valuation": ""
-      },
-      {
-        "company": "Odin Dynamics",
-        "sector": "Ocean & Maritime",
-        "totalRaised": "",
-        "valuation": ""
-      }
-    ],
-    "description": "4 companies with founding-team links to Tesla."
-  },
-  {
-    "mafia": "OpenAI Mafia",
-    "count": 4,
-    "companies": [
-      {
-        "company": "Core Automation",
-        "sector": "AI & Software",
-        "totalRaised": "Targeting $500M-$1B at $4-5B+ val",
-        "valuation": ""
-      },
-      {
-        "company": "Blackstar",
-        "sector": "AI & Software",
-        "totalRaised": "$12M",
-        "valuation": ""
-      },
-      {
-        "company": "Besxar Space Industries",
-        "sector": "Space & Aerospace",
-        "totalRaised": "Undisclosed",
-        "valuation": ""
-      },
-      {
-        "company": "Periodic Labs",
-        "sector": "AI & Software",
-        "totalRaised": "$300M",
-        "valuation": ""
-      }
-    ],
-    "description": "4 companies with founding-team links to OpenAI."
-  },
-  {
-    "mafia": "Apple Mafia",
-    "count": 3,
-    "companies": [
-      {
-        "company": "Tiberius Aerospace",
-        "sector": "Defense & Security",
-        "totalRaised": "$4.5M",
-        "valuation": ""
-      },
-      {
-        "company": "Tenstorrent",
-        "sector": "Chips & Semiconductors",
-        "totalRaised": "$1B+",
-        "valuation": "$2.7B"
-      },
-      {
-        "company": "Volund Manufacturing",
-        "sector": "Defense & Security",
-        "totalRaised": "$12M",
-        "valuation": ""
-      }
-    ],
-    "description": "3 companies with founding-team links to Apple."
-  },
-  {
-    "mafia": "Amazon/AWS Mafia",
-    "count": 3,
-    "companies": [
-      {
-        "company": "Lux Aeterna",
-        "sector": "Space & Aerospace",
-        "totalRaised": "$14M",
-        "valuation": ""
-      },
-      {
-        "company": "Dominion Dynamics",
-        "sector": "Defense & Security",
-        "totalRaised": "C$164M (~US$120M)",
-        "valuation": ""
-      },
-      {
-        "company": "Gallatin AI",
-        "sector": "Defense & Security",
-        "totalRaised": "$15M",
-        "valuation": ""
-      }
-    ],
-    "description": "3 companies with founding-team links to Amazon/AWS."
-  },
-  {
-    "mafia": "Anduril Mafia",
-    "count": 3,
-    "companies": [
-      {
-        "company": "Chariot Defense",
-        "sector": "Defense & Security",
-        "totalRaised": "$41M",
-        "valuation": ""
-      },
-      {
-        "company": "Volund Manufacturing",
-        "sector": "Defense & Security",
-        "totalRaised": "$12M",
-        "valuation": ""
-      },
-      {
-        "company": "Breaker Industries",
-        "sector": "Defense & Security",
-        "totalRaised": "$6M",
-        "valuation": ""
-      }
-    ],
-    "description": "3 companies with founding-team links to Anduril."
-  },
-  {
-    "mafia": "Thiel Fellows",
-    "count": 2,
-    "companies": [
-      {
-        "company": "Orb Aerospace",
-        "sector": "Drones & Autonomous",
-        "totalRaised": "$4.5M+",
-        "valuation": ""
-      },
-      {
-        "company": "Epic Aerospace",
-        "sector": "Space & Aerospace",
-        "totalRaised": "Undisclosed (YC/Thiel)",
-        "valuation": ""
-      }
-    ],
-    "description": "2 companies with founding-team links to Thiel Fellows."
-  },
-  {
-    "mafia": "MIT CSAIL Spinouts",
-    "count": 2,
-    "companies": [
-      {
-        "company": "QuEra Computing",
-        "sector": "Quantum Computing",
-        "totalRaised": "$230M",
-        "valuation": ""
-      },
-      {
-        "company": "Finwave Semiconductor",
-        "sector": "Chips & Semiconductors",
-        "totalRaised": "$25M+",
-        "valuation": ""
-      }
-    ],
-    "description": "2 companies with founding-team links to MIT CSAIL Spinouts."
-  },
-  {
-    "mafia": "Blue Origin Mafia",
-    "count": 2,
-    "companies": [
-      {
-        "company": "Volund Manufacturing",
-        "sector": "Defense & Security",
-        "totalRaised": "$12M",
-        "valuation": ""
-      },
-      {
-        "company": "Interlune",
-        "sector": "Space & Aerospace",
-        "totalRaised": "$23M",
-        "valuation": ""
-      }
-    ],
-    "description": "2 companies with founding-team links to Blue Origin."
-  }
+ {
+  "mafia": "Y Combinator",
+  "count": 21,
+  "companies": [
+   {
+    "company": "Revoy",
+    "sector": "Transportation",
+    "totalRaised": "$41M",
+    "valuation": ""
+   },
+   {
+    "company": "Nine Fives",
+    "sector": "Chips & Semiconductors",
+    "totalRaised": "$500K",
+    "valuation": ""
+   },
+   {
+    "company": "Weave Robotics",
+    "sector": "Robotics & Manufacturing",
+    "totalRaised": "$500K+",
+    "valuation": ""
+   },
+   {
+    "company": "Enhanced Radar",
+    "sector": "Transportation",
+    "totalRaised": "$7M+",
+    "valuation": ""
+   },
+   {
+    "company": "Beyond Reach Labs",
+    "sector": "Space & Aerospace",
+    "totalRaised": "$500K + $175M+ LOIs",
+    "valuation": ""
+   },
+   {
+    "company": "Blackstar",
+    "sector": "AI & Software",
+    "totalRaised": "$12M",
+    "valuation": ""
+   },
+   {
+    "company": "Theseus",
+    "sector": "Defense & Security",
+    "totalRaised": "$4.3M",
+    "valuation": ""
+   },
+   {
+    "company": "Zettascale",
+    "sector": "Chips & Semiconductors",
+    "totalRaised": "$3M+",
+    "valuation": ""
+   },
+   {
+    "company": "NetworkOcean",
+    "sector": "Ocean & Maritime",
+    "totalRaised": "$1M",
+    "valuation": ""
+   },
+   {
+    "company": "Wardstone",
+    "sector": "Space & Aerospace",
+    "totalRaised": "$5M",
+    "valuation": ""
+   },
+   {
+    "company": "Orangewood Labs",
+    "sector": "Robotics & Manufacturing",
+    "totalRaised": "$5M+",
+    "valuation": ""
+   },
+   {
+    "company": "Axial Composites",
+    "sector": "Robotics & Manufacturing",
+    "totalRaised": "$1M+",
+    "valuation": ""
+   },
+   {
+    "company": "Nox Metals",
+    "sector": "Robotics & Manufacturing",
+    "totalRaised": "$5.1M",
+    "valuation": ""
+   },
+   {
+    "company": "Ultra Robotics",
+    "sector": "Robotics & Manufacturing",
+    "totalRaised": "$57M+",
+    "valuation": ""
+   },
+   {
+    "company": "Anthrogen",
+    "sector": "Biotech & Health",
+    "totalRaised": "$4M",
+    "valuation": ""
+   },
+   {
+    "company": "BurnBot",
+    "sector": "Climate & Energy",
+    "totalRaised": "$25M",
+    "valuation": ""
+   },
+   {
+    "company": "Biobot Analytics",
+    "sector": "Biotech & Health",
+    "totalRaised": "$40M",
+    "valuation": ""
+   },
+   {
+    "company": "Epic Aerospace",
+    "sector": "Space & Aerospace",
+    "totalRaised": "Undisclosed (YC/Thiel)",
+    "valuation": ""
+   },
+   {
+    "company": "Zephyr Fusion",
+    "sector": "Nuclear Energy",
+    "totalRaised": "$500K",
+    "valuation": ""
+   },
+   {
+    "company": "Maritime Fusion",
+    "sector": "Nuclear Energy",
+    "totalRaised": "$4.5M",
+    "valuation": ""
+   },
+   {
+    "company": "Atmo",
+    "sector": "AI & Software",
+    "totalRaised": "$29.1M",
+    "valuation": ""
+   }
+  ],
+  "description": "21 companies with founding-team links to Y Combinator."
+ },
+ {
+  "mafia": "SpaceX Mafia",
+  "count": 19,
+  "companies": [
+   {
+    "company": "Plantd Materials",
+    "sector": "Housing & Construction",
+    "totalRaised": "$42M",
+    "valuation": ""
+   },
+   {
+    "company": "Critical Energy",
+    "sector": "Climate & Energy",
+    "totalRaised": "$22M",
+    "valuation": ""
+   },
+   {
+    "company": "1872",
+    "sector": "Robotics & Manufacturing",
+    "totalRaised": "$15M",
+    "valuation": ""
+   },
+   {
+    "company": "Electric Era",
+    "sector": "Climate & Energy",
+    "totalRaised": "$11.5M",
+    "valuation": ""
+   },
+   {
+    "company": "Lux Aeterna",
+    "sector": "Space & Aerospace",
+    "totalRaised": "$14M",
+    "valuation": ""
+   },
+   {
+    "company": "Andrenam",
+    "sector": "Defense & Security",
+    "totalRaised": "$18M",
+    "valuation": ""
+   },
+   {
+    "company": "Vital Lyfe",
+    "sector": "Climate & Energy",
+    "totalRaised": "$24M",
+    "valuation": ""
+   },
+   {
+    "company": "Fortastra",
+    "sector": "Space & Aerospace",
+    "totalRaised": "$8M",
+    "valuation": ""
+   },
+   {
+    "company": "Long Wall",
+    "sector": "Defense & Security",
+    "totalRaised": "$544M",
+    "valuation": ""
+   },
+   {
+    "company": "Starpath Robotics",
+    "sector": "Space & Aerospace",
+    "totalRaised": "$14.5M+",
+    "valuation": ""
+   },
+   {
+    "company": "Freeform",
+    "sector": "Robotics & Manufacturing",
+    "totalRaised": "$125M+",
+    "valuation": ""
+   },
+   {
+    "company": "First Resonance",
+    "sector": "Robotics & Manufacturing",
+    "totalRaised": "$40.8M",
+    "valuation": ""
+   },
+   {
+    "company": "Canada Rocket Company",
+    "sector": "Space & Aerospace",
+    "totalRaised": "$6.2M",
+    "valuation": ""
+   },
+   {
+    "company": "Panthalassa",
+    "sector": "Climate & Energy",
+    "totalRaised": "$140M+",
+    "valuation": ""
+   },
+   {
+    "company": "Mesh Optical Technologies",
+    "sector": "Chips & Semiconductors",
+    "totalRaised": "$50M",
+    "valuation": ""
+   },
+   {
+    "company": "Sift Stack",
+    "sector": "AI & Software",
+    "totalRaised": "$67M",
+    "valuation": ""
+   },
+   {
+    "company": "Ethos Space",
+    "sector": "Space & Aerospace",
+    "totalRaised": "Undisclosed",
+    "valuation": ""
+   },
+   {
+    "company": "TerraFirma",
+    "sector": "Robotics & Manufacturing",
+    "totalRaised": "$115M",
+    "valuation": "Undisclosed"
+   },
+   {
+    "company": "Eclipse Space",
+    "sector": "Space & Aerospace",
+    "totalRaised": "Undisclosed",
+    "valuation": "Undisclosed"
+   }
+  ],
+  "description": "19 companies with founding-team links to SpaceX."
+ },
+ {
+  "mafia": "Google/DeepMind",
+  "count": 10,
+  "companies": [
+   {
+    "company": "Phaidra",
+    "sector": "AI & Software",
+    "totalRaised": "$120M",
+    "valuation": ""
+   },
+   {
+    "company": "Built Robotics",
+    "sector": "Robotics & Manufacturing",
+    "totalRaised": "$112M+",
+    "valuation": ""
+   },
+   {
+    "company": "MatX",
+    "sector": "Chips & Semiconductors",
+    "totalRaised": "$500M+",
+    "valuation": ""
+   },
+   {
+    "company": "Majestic Labs",
+    "sector": "Chips & Semiconductors",
+    "totalRaised": "$100M+",
+    "valuation": ""
+   },
+   {
+    "company": "Periodic Labs",
+    "sector": "AI & Software",
+    "totalRaised": "$300M",
+    "valuation": ""
+   },
+   {
+    "company": "Dyna Robotics",
+    "sector": "Robotics & Manufacturing",
+    "totalRaised": "$120M",
+    "valuation": ""
+   },
+   {
+    "company": "Archetype AI",
+    "sector": "AI & Software",
+    "totalRaised": "$48M",
+    "valuation": ""
+   },
+   {
+    "company": "Generalist AI",
+    "sector": "Robotics & Manufacturing",
+    "totalRaised": "$500M+",
+    "valuation": "$2B"
+   }
+  ],
+  "description": "10 companies with founding-team links to Google/DeepMind."
+ },
+ {
+  "mafia": "Palantir Mafia",
+  "count": 6,
+  "companies": [
+   {
+    "company": "Endeavor Optical Networks",
+    "sector": "Space & Aerospace",
+    "totalRaised": "$10.75M",
+    "valuation": ""
+   },
+   {
+    "company": "NetworkOcean",
+    "sector": "Ocean & Maritime",
+    "totalRaised": "$1M",
+    "valuation": ""
+   },
+   {
+    "company": "Cape",
+    "sector": "Defense & Security",
+    "totalRaised": "$195M",
+    "valuation": ""
+   },
+   {
+    "company": "Gallatin AI",
+    "sector": "Defense & Security",
+    "totalRaised": "$15M",
+    "valuation": ""
+   },
+   {
+    "company": "Govini",
+    "sector": "Defense & Security",
+    "totalRaised": "$174M",
+    "valuation": ""
+   },
+   {
+    "company": "Onodrim Industries",
+    "sector": "Defense & Security",
+    "totalRaised": "€40M",
+    "valuation": ""
+   }
+  ],
+  "description": "6 companies with founding-team links to Palantir."
+ },
+ {
+  "mafia": "Tesla Mafia",
+  "count": 4,
+  "companies": [
+   {
+    "company": "Lightship",
+    "sector": "Transportation",
+    "totalRaised": "$87.8M",
+    "valuation": ""
+   },
+   {
+    "company": "Slip Robotics",
+    "sector": "Robotics & Manufacturing",
+    "totalRaised": "$44M",
+    "valuation": ""
+   },
+   {
+    "company": "Heron Power",
+    "sector": "Climate & Energy",
+    "totalRaised": "$178M+",
+    "valuation": ""
+   },
+   {
+    "company": "Odin Dynamics",
+    "sector": "Ocean & Maritime",
+    "totalRaised": "",
+    "valuation": ""
+   }
+  ],
+  "description": "4 companies with founding-team links to Tesla."
+ },
+ {
+  "mafia": "OpenAI Mafia",
+  "count": 4,
+  "companies": [
+   {
+    "company": "Blackstar",
+    "sector": "AI & Software",
+    "totalRaised": "$12M",
+    "valuation": ""
+   },
+   {
+    "company": "Besxar Space Industries",
+    "sector": "Space & Aerospace",
+    "totalRaised": "Undisclosed",
+    "valuation": ""
+   },
+   {
+    "company": "Periodic Labs",
+    "sector": "AI & Software",
+    "totalRaised": "$300M",
+    "valuation": ""
+   }
+  ],
+  "description": "4 companies with founding-team links to OpenAI."
+ },
+ {
+  "mafia": "Apple Mafia",
+  "count": 3,
+  "companies": [
+   {
+    "company": "Tiberius Aerospace",
+    "sector": "Defense & Security",
+    "totalRaised": "$4.5M",
+    "valuation": ""
+   },
+   {
+    "company": "Tenstorrent",
+    "sector": "Chips & Semiconductors",
+    "totalRaised": "$1B+",
+    "valuation": "$2.7B"
+   },
+   {
+    "company": "Volund Manufacturing",
+    "sector": "Defense & Security",
+    "totalRaised": "$12M",
+    "valuation": ""
+   }
+  ],
+  "description": "3 companies with founding-team links to Apple."
+ },
+ {
+  "mafia": "Amazon/AWS Mafia",
+  "count": 3,
+  "companies": [
+   {
+    "company": "Lux Aeterna",
+    "sector": "Space & Aerospace",
+    "totalRaised": "$14M",
+    "valuation": ""
+   },
+   {
+    "company": "Dominion Dynamics",
+    "sector": "Defense & Security",
+    "totalRaised": "C$164M (~US$120M)",
+    "valuation": ""
+   },
+   {
+    "company": "Gallatin AI",
+    "sector": "Defense & Security",
+    "totalRaised": "$15M",
+    "valuation": ""
+   }
+  ],
+  "description": "3 companies with founding-team links to Amazon/AWS."
+ },
+ {
+  "mafia": "Anduril Mafia",
+  "count": 3,
+  "companies": [
+   {
+    "company": "Chariot Defense",
+    "sector": "Defense & Security",
+    "totalRaised": "$41M",
+    "valuation": ""
+   },
+   {
+    "company": "Volund Manufacturing",
+    "sector": "Defense & Security",
+    "totalRaised": "$12M",
+    "valuation": ""
+   },
+   {
+    "company": "Breaker Industries",
+    "sector": "Defense & Security",
+    "totalRaised": "$6M",
+    "valuation": ""
+   }
+  ],
+  "description": "3 companies with founding-team links to Anduril."
+ },
+ {
+  "mafia": "Thiel Fellows",
+  "count": 2,
+  "companies": [
+   {
+    "company": "Orb Aerospace",
+    "sector": "Drones & Autonomous",
+    "totalRaised": "$4.5M+",
+    "valuation": ""
+   },
+   {
+    "company": "Epic Aerospace",
+    "sector": "Space & Aerospace",
+    "totalRaised": "Undisclosed (YC/Thiel)",
+    "valuation": ""
+   }
+  ],
+  "description": "2 companies with founding-team links to Thiel Fellows."
+ },
+ {
+  "mafia": "MIT CSAIL Spinouts",
+  "count": 2,
+  "companies": [
+   {
+    "company": "QuEra Computing",
+    "sector": "Quantum Computing",
+    "totalRaised": "$230M",
+    "valuation": ""
+   },
+   {
+    "company": "Finwave Semiconductor",
+    "sector": "Chips & Semiconductors",
+    "totalRaised": "$25M+",
+    "valuation": ""
+   }
+  ],
+  "description": "2 companies with founding-team links to MIT CSAIL Spinouts."
+ },
+ {
+  "mafia": "Blue Origin Mafia",
+  "count": 2,
+  "companies": [
+   {
+    "company": "Volund Manufacturing",
+    "sector": "Defense & Security",
+    "totalRaised": "$12M",
+    "valuation": ""
+   },
+   {
+    "company": "Interlune",
+    "sector": "Space & Aerospace",
+    "totalRaised": "$23M",
+    "valuation": ""
+   }
+  ],
+  "description": "2 companies with founding-team links to Blue Origin."
+ }
 ]

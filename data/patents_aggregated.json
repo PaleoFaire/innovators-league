@@ -1,466 +1,453 @@
 [
-  {
-    "company": "Tesla",
-    "patentCount": 3200,
-    "recentPatents": 523,
-    "technologyAreas": [
-      "Battery cells",
-      "Autopilot/FSD",
-      "Electric motors",
-      "Charging networks",
-      "Dojo"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Ginkgo Bioworks",
-    "patentCount": 680,
-    "recentPatents": 171,
-    "technologyAreas": [
-      "Cell programming",
-      "Organism design",
-      "Enzyme engineering",
-      "Biosecurity"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Waymo",
-    "patentCount": 450,
-    "recentPatents": 120,
-    "technologyAreas": [
-      "LiDAR perception",
-      "Motion planning",
-      "HD maps",
-      "Teleoperation"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Tempus AI",
-    "patentCount": 320,
-    "recentPatents": 117,
-    "technologyAreas": [
-      "Clinical genomics",
-      "Multi-modal data",
-      "AI diagnostics",
-      "Oncology"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Rivian",
-    "patentCount": 280,
-    "recentPatents": 87,
-    "technologyAreas": [
-      "Skateboard platform",
-      "Tank-turn",
-      "Off-road EV",
-      "R2 platform"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Aurora Innovation",
-    "patentCount": 280,
-    "recentPatents": 67,
-    "technologyAreas": [
-      "Trucking autonomy",
-      "FirstLight LiDAR",
-      "Driver platform"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "patentCount": 260,
-    "recentPatents": 70,
-    "technologyAreas": [
-      "Phenotypic drug discovery",
-      "BioHive supercomputing",
-      "ML-driven biology"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Joby Aviation",
-    "patentCount": 220,
-    "recentPatents": 81,
-    "technologyAreas": [
-      "Tilt-rotor eVTOL",
-      "Electric propulsion",
-      "Battery systems",
-      "Flight controls"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "D-Wave Quantum",
-    "patentCount": 220,
-    "recentPatents": 63,
-    "technologyAreas": [
-      "Quantum annealing",
-      "Advantage system",
-      "Hybrid solvers"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Palantir Technologies",
-    "patentCount": 180,
-    "recentPatents": 56,
-    "technologyAreas": [
-      "Data integration",
-      "Ontology modeling",
-      "Graph analytics",
-      "AIP platform"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "NuScale Power",
-    "patentCount": 180,
-    "recentPatents": 49,
-    "technologyAreas": [
-      "Small modular reactor",
-      "VOYGR design",
-      "Passive safety systems"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Rigetti Computing",
-    "patentCount": 180,
-    "recentPatents": 46,
-    "technologyAreas": [
-      "Superconducting qubits",
-      "Tunable couplers",
-      "Ankaa platform"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Zipline",
-    "patentCount": 165,
-    "recentPatents": 54,
-    "technologyAreas": [
-      "Delivery drones",
-      "Platform 2",
-      "Autonomous delivery",
-      "Sense-and-avoid"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Archer Aviation",
-    "patentCount": 140,
-    "recentPatents": 47,
-    "technologyAreas": [
-      "Midnight eVTOL",
-      "12-rotor design",
-      "Battery packs",
-      "Flight control systems"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "SpaceX",
-    "patentCount": 120,
-    "recentPatents": 55,
-    "technologyAreas": [
-      "Reusable launch vehicles",
-      "Satellite communications",
-      "Rocket propulsion",
-      "Staged combustion"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Skydio",
-    "patentCount": 120,
-    "recentPatents": 50,
-    "technologyAreas": [
-      "Autonomous drones",
-      "Obstacle avoidance",
-      "X10 platform",
-      "Computer vision"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Terran Orbital",
-    "patentCount": 110,
-    "recentPatents": 47,
-    "technologyAreas": [
-      "Satellite manufacturing",
-      "Tyvak buses",
-      "Earth observation"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "IonQ",
-    "patentCount": 110,
-    "recentPatents": 45,
-    "technologyAreas": [
-      "Trapped-ion quantum computing",
-      "Ion gates",
-      "Error correction"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Planet Labs",
-    "patentCount": 95,
-    "recentPatents": 34,
-    "technologyAreas": [
-      "Earth-observation CubeSats",
-      "Dove satellite",
-      "Optical imaging",
-      "SuperDove"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "AST SpaceMobile",
-    "patentCount": 85,
-    "recentPatents": 46,
-    "technologyAreas": [
-      "Space-based cellular broadband",
-      "Phased array antennas",
-      "BlueBird satellites"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "PsiQuantum",
-    "patentCount": 85,
-    "recentPatents": 41,
-    "technologyAreas": [
-      "Photonic quantum computing",
-      "Silicon photonics",
-      "Fault-tolerant QC"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Astranis",
-    "patentCount": 80,
-    "recentPatents": 35,
-    "technologyAreas": [
-      "GEO small satellites",
-      "Software-defined radio",
-      "Ka-band broadband"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Rocket Lab",
-    "patentCount": 65,
-    "recentPatents": 26,
-    "technologyAreas": [
-      "Small satellite launch",
-      "Electron rocket",
-      "3D-printed engines",
-      "Photon bus"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Astera Labs",
-    "patentCount": 55,
-    "recentPatents": 34,
-    "technologyAreas": [
-      "PCIe retimers",
-      "CXL fabric",
-      "AI interconnect",
-      "Signal integrity"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Boom Supersonic",
-    "patentCount": 55,
-    "recentPatents": 27,
-    "technologyAreas": [
-      "Supersonic aircraft",
-      "Overture airliner",
-      "Symphony engine"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Intuitive Machines",
-    "patentCount": 45,
-    "recentPatents": 27,
-    "technologyAreas": [
-      "Lunar landers",
-      "Nova-C",
-      "Lunar rovers"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Anduril Industries",
-    "patentCount": 45,
-    "recentPatents": 30,
-    "technologyAreas": [
-      "Lattice autonomy OS",
-      "Sentry Tower",
-      "Anti-drone systems",
-      "Ghost UAS"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Commonwealth Fusion Systems",
-    "patentCount": 42,
-    "recentPatents": 23,
-    "technologyAreas": [
-      "HTS magnets",
-      "SPARC tokamak",
-      "REBCO superconductors"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Shield AI",
-    "patentCount": 35,
-    "recentPatents": 18,
-    "technologyAreas": [
-      "Hivemind autonomy",
-      "V-BAT VTOL",
-      "Indoor SLAM",
-      "GPS-denied nav"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Helion Energy",
-    "patentCount": 35,
-    "recentPatents": 20,
-    "technologyAreas": [
-      "Field-reversed configuration",
-      "Deuterium-helium-3 fusion",
-      "Direct energy capture"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Hermeus",
-    "patentCount": 25,
-    "recentPatents": 14,
-    "technologyAreas": [
-      "Hypersonic aircraft",
-      "Turbine-based combined cycle",
-      "Mach 5 flight"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Figure AI",
-    "patentCount": 20,
-    "recentPatents": 16,
-    "technologyAreas": [
-      "Humanoid robotics",
-      "Figure 02",
-      "Bipedal locomotion",
-      "VLA models"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Stoke Space",
-    "patentCount": 18,
-    "recentPatents": 11,
-    "technologyAreas": [
-      "Fully reusable launch",
-      "Actively-cooled heat shields",
-      "Aerospike engines"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Oklo",
-    "patentCount": 18,
-    "recentPatents": 13,
-    "technologyAreas": [
-      "Aurora microreactor",
-      "Liquid metal cooled",
-      "Fast-spectrum reactor"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Anthropic",
-    "patentCount": 15,
-    "recentPatents": 14,
-    "technologyAreas": [
-      "Constitutional AI",
-      "RLHF variants",
-      "Interpretability",
-      "Claude model architecture"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "OpenAI",
-    "patentCount": 12,
-    "recentPatents": 14,
-    "technologyAreas": [
-      "Large language models",
-      "Reinforcement learning",
-      "Multimodal models",
-      "Tool use"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  },
-  {
-    "company": "Physical Intelligence",
-    "patentCount": 5,
-    "recentPatents": 7,
-    "technologyAreas": [
-      "Foundation models for robotics",
-      "\u03c00 VLA model",
-      "General-purpose manipulation"
-    ],
-    "latestPatentDate": "2025-Q4",
-    "lastUpdated": "2026-09-13"
-  }
+ {
+  "company": "Tesla",
+  "patentCount": 3200,
+  "recentPatents": 523,
+  "technologyAreas": [
+   "Battery cells",
+   "Autopilot/FSD",
+   "Electric motors",
+   "Charging networks",
+   "Dojo"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Ginkgo Bioworks",
+  "patentCount": 680,
+  "recentPatents": 171,
+  "technologyAreas": [
+   "Cell programming",
+   "Organism design",
+   "Enzyme engineering",
+   "Biosecurity"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Waymo",
+  "patentCount": 450,
+  "recentPatents": 120,
+  "technologyAreas": [
+   "LiDAR perception",
+   "Motion planning",
+   "HD maps",
+   "Teleoperation"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Tempus AI",
+  "patentCount": 320,
+  "recentPatents": 117,
+  "technologyAreas": [
+   "Clinical genomics",
+   "Multi-modal data",
+   "AI diagnostics",
+   "Oncology"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Aurora Innovation",
+  "patentCount": 280,
+  "recentPatents": 67,
+  "technologyAreas": [
+   "Trucking autonomy",
+   "FirstLight LiDAR",
+   "Driver platform"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Recursion Pharmaceuticals",
+  "patentCount": 260,
+  "recentPatents": 70,
+  "technologyAreas": [
+   "Phenotypic drug discovery",
+   "BioHive supercomputing",
+   "ML-driven biology"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Joby Aviation",
+  "patentCount": 220,
+  "recentPatents": 81,
+  "technologyAreas": [
+   "Tilt-rotor eVTOL",
+   "Electric propulsion",
+   "Battery systems",
+   "Flight controls"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "D-Wave Quantum",
+  "patentCount": 220,
+  "recentPatents": 63,
+  "technologyAreas": [
+   "Quantum annealing",
+   "Advantage system",
+   "Hybrid solvers"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Palantir Technologies",
+  "patentCount": 180,
+  "recentPatents": 56,
+  "technologyAreas": [
+   "Data integration",
+   "Ontology modeling",
+   "Graph analytics",
+   "AIP platform"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "NuScale Power",
+  "patentCount": 180,
+  "recentPatents": 49,
+  "technologyAreas": [
+   "Small modular reactor",
+   "VOYGR design",
+   "Passive safety systems"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Rigetti Computing",
+  "patentCount": 180,
+  "recentPatents": 46,
+  "technologyAreas": [
+   "Superconducting qubits",
+   "Tunable couplers",
+   "Ankaa platform"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Zipline",
+  "patentCount": 165,
+  "recentPatents": 54,
+  "technologyAreas": [
+   "Delivery drones",
+   "Platform 2",
+   "Autonomous delivery",
+   "Sense-and-avoid"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Archer Aviation",
+  "patentCount": 140,
+  "recentPatents": 47,
+  "technologyAreas": [
+   "Midnight eVTOL",
+   "12-rotor design",
+   "Battery packs",
+   "Flight control systems"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "SpaceX",
+  "patentCount": 120,
+  "recentPatents": 55,
+  "technologyAreas": [
+   "Reusable launch vehicles",
+   "Satellite communications",
+   "Rocket propulsion",
+   "Staged combustion"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Skydio",
+  "patentCount": 120,
+  "recentPatents": 50,
+  "technologyAreas": [
+   "Autonomous drones",
+   "Obstacle avoidance",
+   "X10 platform",
+   "Computer vision"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Terran Orbital",
+  "patentCount": 110,
+  "recentPatents": 47,
+  "technologyAreas": [
+   "Satellite manufacturing",
+   "Tyvak buses",
+   "Earth observation"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "IonQ",
+  "patentCount": 110,
+  "recentPatents": 45,
+  "technologyAreas": [
+   "Trapped-ion quantum computing",
+   "Ion gates",
+   "Error correction"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Planet Labs",
+  "patentCount": 95,
+  "recentPatents": 34,
+  "technologyAreas": [
+   "Earth-observation CubeSats",
+   "Dove satellite",
+   "Optical imaging",
+   "SuperDove"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "AST SpaceMobile",
+  "patentCount": 85,
+  "recentPatents": 46,
+  "technologyAreas": [
+   "Space-based cellular broadband",
+   "Phased array antennas",
+   "BlueBird satellites"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "PsiQuantum",
+  "patentCount": 85,
+  "recentPatents": 41,
+  "technologyAreas": [
+   "Photonic quantum computing",
+   "Silicon photonics",
+   "Fault-tolerant QC"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Astranis",
+  "patentCount": 80,
+  "recentPatents": 35,
+  "technologyAreas": [
+   "GEO small satellites",
+   "Software-defined radio",
+   "Ka-band broadband"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Rocket Lab",
+  "patentCount": 65,
+  "recentPatents": 26,
+  "technologyAreas": [
+   "Small satellite launch",
+   "Electron rocket",
+   "3D-printed engines",
+   "Photon bus"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Astera Labs",
+  "patentCount": 55,
+  "recentPatents": 34,
+  "technologyAreas": [
+   "PCIe retimers",
+   "CXL fabric",
+   "AI interconnect",
+   "Signal integrity"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Boom Supersonic",
+  "patentCount": 55,
+  "recentPatents": 27,
+  "technologyAreas": [
+   "Supersonic aircraft",
+   "Overture airliner",
+   "Symphony engine"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Intuitive Machines",
+  "patentCount": 45,
+  "recentPatents": 27,
+  "technologyAreas": [
+   "Lunar landers",
+   "Nova-C",
+   "Lunar rovers"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Anduril Industries",
+  "patentCount": 45,
+  "recentPatents": 30,
+  "technologyAreas": [
+   "Lattice autonomy OS",
+   "Sentry Tower",
+   "Anti-drone systems",
+   "Ghost UAS"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Commonwealth Fusion Systems",
+  "patentCount": 42,
+  "recentPatents": 23,
+  "technologyAreas": [
+   "HTS magnets",
+   "SPARC tokamak",
+   "REBCO superconductors"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Shield AI",
+  "patentCount": 35,
+  "recentPatents": 18,
+  "technologyAreas": [
+   "Hivemind autonomy",
+   "V-BAT VTOL",
+   "Indoor SLAM",
+   "GPS-denied nav"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Helion Energy",
+  "patentCount": 35,
+  "recentPatents": 20,
+  "technologyAreas": [
+   "Field-reversed configuration",
+   "Deuterium-helium-3 fusion",
+   "Direct energy capture"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Hermeus",
+  "patentCount": 25,
+  "recentPatents": 14,
+  "technologyAreas": [
+   "Hypersonic aircraft",
+   "Turbine-based combined cycle",
+   "Mach 5 flight"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Figure AI",
+  "patentCount": 20,
+  "recentPatents": 16,
+  "technologyAreas": [
+   "Humanoid robotics",
+   "Figure 02",
+   "Bipedal locomotion",
+   "VLA models"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Stoke Space",
+  "patentCount": 18,
+  "recentPatents": 11,
+  "technologyAreas": [
+   "Fully reusable launch",
+   "Actively-cooled heat shields",
+   "Aerospike engines"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Oklo",
+  "patentCount": 18,
+  "recentPatents": 13,
+  "technologyAreas": [
+   "Aurora microreactor",
+   "Liquid metal cooled",
+   "Fast-spectrum reactor"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Anthropic",
+  "patentCount": 15,
+  "recentPatents": 14,
+  "technologyAreas": [
+   "Constitutional AI",
+   "RLHF variants",
+   "Interpretability",
+   "Claude model architecture"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "OpenAI",
+  "patentCount": 12,
+  "recentPatents": 14,
+  "technologyAreas": [
+   "Large language models",
+   "Reinforcement learning",
+   "Multimodal models",
+   "Tool use"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ },
+ {
+  "company": "Physical Intelligence",
+  "patentCount": 5,
+  "recentPatents": 7,
+  "technologyAreas": [
+   "Foundation models for robotics",
+   "π0 VLA model",
+   "General-purpose manipulation"
+  ],
+  "latestPatentDate": "2025-Q4",
+  "lastUpdated": "2026-09-13"
+ }
 ]
