@@ -64469,23 +64469,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-25 18:28
+// Last updated: 2026-09-25 22:12
 const COMPANY_SIGNALS = [
-  { id: 1, type: "contract", company: "Anthropic", headline: "Appeals Court Lets the Pentagon Designate Anthropic a Supply-Chain Risk", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Anthropic", headline: "Anthropic's founders seek voting control ahead of IPO", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Beating Bull Case- Adding 880,000 chips in four month, 500MW Per Month (Elon Confirmed)", source: "Next Big Future", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Tekever", headline: "TEKEVER raises $580M Series D, DTCP closes '455M defence fund, and the challenge to reinvent chip design", source: "Tech.eu", time: "3h ago", impact: "high", unread: true },
-  { id: 5, type: "hire", company: "Agility Robotics", headline: "Agility Robotics, maker of Digit humanoid, exploring wheeled robots", source: "The Robot Report", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Waymo", headline: "Waymo ' Nearly 1,000 Avoided Injuries", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Saildrone", headline: "With Denmark, Saildrone logs first flag registration for naval surveillance drone", source: "Defense News", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX INSANE SPEED is more valuable than Rockets", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Humanoid", headline: "Europeans in Japan raise $1.2M to put modular humanoid robots to work", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
-  { id: 10, type: "news", company: "ANYbotics", headline: "ANYbotics opens the door for inspections with ANYmal robots", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Waymo", headline: "Waymo says it has stopped 841 injuries in 271 million autonomous miles", source: "Electrek", time: "1d ago", impact: "medium", unread: false },
-  { id: 12, type: "hire", company: "OpenAI", headline: "An OpenAI Agent Hacked Australia's Health Service. Their Government Found Out Months Later", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "contract", company: "Palantir", headline: "Army awards Palantir $48.1M to modernize ammo management", source: "Defense News", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "SpaceX", headline: "EXCLUSIVE: SpaceX given unique access to classified DoD space tracking data, sources say", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "Magic AI", headline: "Magic AI raises '8m to take its AI-powered fitness mirror to the US", source: "Sifted", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "contract", company: "Anthropic", headline: "DC Circuit panel upholds Pentagon's ban on Anthropic &#8211; so what comes next?", source: "Breaking Defense", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "contract", company: "Anthropic", headline: "US appeals court upholds Pentagon's blacklisting of Anthropic", source: "Defense News", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
+  { id: 4, type: "contract", company: "Anthropic", headline: "Appeals Court Lets the Pentagon Designate Anthropic a Supply-Chain Risk", source: "Wired", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "Anthropic", headline: "Anthropic's founders seek voting control ahead of IPO", source: "TechCrunch", time: "6h ago", impact: "high", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX Beating Bull Case- Adding 880,000 chips in four month, 500MW Per Month (Elon Confirmed)", source: "Next Big Future", time: "7h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Tekever", headline: "TEKEVER raises $580M Series D, DTCP closes '455M defence fund, and the challenge to reinvent chip design", source: "Tech.eu", time: "7h ago", impact: "high", unread: false },
+  { id: 8, type: "hire", company: "Agility Robotics", headline: "Agility Robotics, maker of Digit humanoid, exploring wheeled robots", source: "The Robot Report", time: "8h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Waymo", headline: "Waymo ' Nearly 1,000 Avoided Injuries", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "NASA Shares SpaceX Crew-14 Assignments for Space Station Mission", source: "NASA Breaking News", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Saildrone", headline: "With Denmark, Saildrone logs first flag registration for naval surveillance drone", source: "Defense News", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX INSANE SPEED is more valuable than Rockets", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Humanoid", headline: "Europeans in Japan raise $1.2M to put modular humanoid robots to work", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
+  { id: 14, type: "news", company: "ANYbotics", headline: "ANYbotics opens the door for inspections with ANYmal robots", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Waymo", headline: "Waymo says it has stopped 841 injuries in 271 million autonomous miles", source: "Electrek", time: "1d ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
