@@ -5,90 +5,95 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 8.02,
+      "avg_change": 6.77,
       "count": 1
     },
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 10.14,
+      "avg_change": 9.61,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 2.67,
+      "avg_change": 2.34,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 3.13,
+      "avg_change": 3.31,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 0.22,
+      "avg_change": -0.04,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.55,
+      "avg_change": 7.9,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 3.93,
+      "avg_change": 3.66,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 2.75,
+      "avg_change": 2.67,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 12.13,
+      "avg_change": 11.38,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "ALAB",
-      "Astera Labs",
-      22.8
-    ],
-    [
       "SATL",
       "Satellogic",
-      21.62
+      20.74
+    ],
+    [
+      "ALAB",
+      "Astera Labs",
+      20.24
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      18.48
+      16.75
     ],
     [
       "IONQ",
       "IonQ",
-      16.33
+      16.23
     ],
     [
       "RKLB",
       "Rocket Lab",
-      15.1
+      14.53
     ]
   ],
   "topLosers": [
     [
-      "QS",
-      "QuantumScape",
-      -1.79
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -2.35
+    ],
+    [
+      "SLDP",
+      "Solid Power",
+      -3.24
     ],
     [
       "DRSHF",
@@ -96,14 +101,9 @@
       -3.54
     ],
     [
-      "SLDP",
-      "Solid Power",
-      -3.85
-    ],
-    [
       "AUR",
       "Aurora Innovation",
-      -3.88
+      -4.28
     ],
     [
       "IDEAFORGE.NS",
@@ -111,5 +111,5 @@
       -4.73
     ]
   ],
-  "lastUpdated": "2026-09-25 17:59:35"
+  "lastUpdated": "2026-09-25 22:25:38"
 }
