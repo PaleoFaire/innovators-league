@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-09-24 12:30:24 UTC
-// Total signals: 44 | Companies matched: 192
+// Last updated: 2026-09-25 12:31:36 UTC
+// Total signals: 44 | Companies matched: 190
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -496,10 +496,10 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Allen Control Systems",
+        "name": "Thor Dynamics",
         "score": 20,
         "matchReasons": [
-          "tag: counter-drone",
+          "tag: directed energy",
           "tag: defense"
         ]
       }
@@ -514,7 +514,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Fortem Technologies",
       "Tekever",
       "Stendr",
-      "Allen Control Systems"
+      "Thor Dynamics"
     ]
   },
   {
@@ -1335,6 +1335,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Quantum Space",
+        "score": 20,
+        "matchReasons": [
+          "tag: space defense",
+          "tag: spac"
+        ]
+      },
+      {
         "name": "Aerospacelab",
         "score": 20,
         "matchReasons": [
@@ -1357,14 +1365,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: space",
           "techApproach overlap"
         ]
-      },
-      {
-        "name": "Array Labs",
-        "score": 16,
-        "matchReasons": [
-          "tag: satellite",
-          "techApproach overlap"
-        ]
       }
     ],
     "relevantCompanies": [
@@ -1374,10 +1374,10 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Picogrid",
       "Synspective",
       "E-Space",
+      "Quantum Space",
       "Aerospacelab",
       "TrustPoint",
-      "Apex Space",
-      "Array Labs"
+      "Apex Space"
     ]
   },
   {
@@ -1470,6 +1470,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Quantum Space",
+        "score": 20,
+        "matchReasons": [
+          "tag: cislunar",
+          "tag: spac"
+        ]
+      },
+      {
         "name": "The Exploration Company",
         "score": 20,
         "matchReasons": [
@@ -1513,6 +1521,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "relevantCompanies": [
       "PAVE Space",
       "Antares",
+      "Quantum Space",
       "The Exploration Company",
       "Portal Space Systems",
       "Proteus Space",
@@ -1612,19 +1621,19 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Quantum Space",
+        "score": 20,
+        "matchReasons": [
+          "tag: space defense",
+          "tag: spac"
+        ]
+      },
+      {
         "name": "SpaceX",
         "score": 20,
         "matchReasons": [
           "tag: satellites",
           "tag: space"
-        ]
-      },
-      {
-        "name": "Aerospacelab",
-        "score": 20,
-        "matchReasons": [
-          "tag: space",
-          "tag: satellites"
         ]
       }
     ],
@@ -1637,8 +1646,8 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Endurosat",
       "Reflect Orbital",
       "Viridian Space",
-      "SpaceX",
-      "Aerospacelab"
+      "Quantum Space",
+      "SpaceX"
     ]
   },
   {
@@ -1797,6 +1806,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Quantum Space",
+        "score": 20,
+        "matchReasons": [
+          "tag: space defense",
+          "tag: spac"
+        ]
+      },
+      {
         "name": "Umbra",
         "score": 20,
         "matchReasons": [
@@ -1827,14 +1844,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: space",
           "tag: earth observation"
         ]
-      },
-      {
-        "name": "ICEYE",
-        "score": 18,
-        "matchReasons": [
-          "tag: earth observation",
-          "techApproach overlap"
-        ]
       }
     ],
     "relevantCompanies": [
@@ -1843,11 +1852,11 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Albedo",
       "Andrenam",
       "ideaForge",
+      "Quantum Space",
       "Umbra",
       "Muon Space",
       "Satellogic",
-      "Open Cosmos",
-      "ICEYE"
+      "Open Cosmos"
     ]
   },
   {
@@ -2566,15 +2575,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
-        "name": "Cognition",
-        "score": 24,
-        "matchReasons": [
-          "tag: ai",
-          "tag: autonomous agent",
-          "techApproach overlap"
-        ]
-      },
-      {
         "name": "Mujin",
         "score": 24,
         "matchReasons": [
@@ -2642,10 +2642,16 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         "matchReasons": [
           "tag: autonomous"
         ]
+      },
+      {
+        "name": "Swift Beat",
+        "score": 17,
+        "matchReasons": [
+          "tag: ai"
+        ]
       }
     ],
     "relevantCompanies": [
-      "Cognition",
       "Mujin",
       "Applied Intuition",
       "Darkhive",
@@ -2654,7 +2660,8 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Anduril Industries",
       "Shield AI",
       "Firestorm Labs",
-      "Quantum-Systems"
+      "Quantum-Systems",
+      "Swift Beat"
     ]
   },
   {
@@ -4366,8 +4373,8 @@ const GOV_PULL_SCORES_AUTO = {
   },
   "Swift Beat": {
     "name": "Swift Beat",
-    "govPullScore": 70,
-    "matchCount": 7,
+    "govPullScore": 76,
+    "matchCount": 8,
     "topAgencies": [
       "Chief Digital and AI Office (CDAO)",
       "DARPA",
@@ -4375,7 +4382,7 @@ const GOV_PULL_SCORES_AUTO = {
       "Department of Defense",
       "National Science Foundation (NSF)"
     ],
-    "avgRelevance": 24,
+    "avgRelevance": 23,
     "topSignals": [
       "AI-Enabled Autonomous Naval Surface Vessels",
       "Autonomous Logistics Resupply Vehicles",
@@ -4554,8 +4561,8 @@ const GOV_PULL_SCORES_AUTO = {
       "Soldier-Portable Directed Energy for Counter-Drone"
     ]
   },
-  "Allen Control Systems": {
-    "name": "Allen Control Systems",
+  "Thor Dynamics": {
+    "name": "Thor Dynamics",
     "govPullScore": 14,
     "matchCount": 1,
     "topAgencies": [
@@ -5026,19 +5033,34 @@ const GOV_PULL_SCORES_AUTO = {
       "Resilient Proliferated LEO Communications"
     ]
   },
-  "Aerospacelab": {
-    "name": "Aerospacelab",
-    "govPullScore": 40,
-    "matchCount": 3,
+  "Quantum Space": {
+    "name": "Quantum Space",
+    "govPullScore": 52,
+    "matchCount": 4,
     "topAgencies": [
       "NASA",
+      "National Reconnaissance Office (NRO)",
       "Space Development Agency (SDA)",
       "U.S. Space Force"
     ],
     "avgRelevance": 20,
     "topSignals": [
       "Resilient Proliferated LEO Communications",
-      "Missile Tracking Layer Satellites",
+      "Advanced In-Space Propulsion Technologies",
+      "Missile Tracking Layer Satellites"
+    ]
+  },
+  "Aerospacelab": {
+    "name": "Aerospacelab",
+    "govPullScore": 27,
+    "matchCount": 2,
+    "topAgencies": [
+      "NASA",
+      "U.S. Space Force"
+    ],
+    "avgRelevance": 20,
+    "topSignals": [
+      "Resilient Proliferated LEO Communications",
       "In-Space Assembly and Manufacturing"
     ]
   },
@@ -5065,18 +5087,6 @@ const GOV_PULL_SCORES_AUTO = {
     "avgRelevance": 20,
     "topSignals": [
       "In-Space Assembly and Manufacturing",
-      "Resilient Proliferated LEO Communications"
-    ]
-  },
-  "Array Labs": {
-    "name": "Array Labs",
-    "govPullScore": 17,
-    "matchCount": 1,
-    "topAgencies": [
-      "U.S. Space Force"
-    ],
-    "avgRelevance": 16,
-    "topSignals": [
       "Resilient Proliferated LEO Communications"
     ]
   },
@@ -5362,18 +5372,6 @@ const GOV_PULL_SCORES_AUTO = {
       "National Reconnaissance Office (NRO)"
     ],
     "avgRelevance": 20,
-    "topSignals": [
-      "Next-Generation Earth Observation Capabilities"
-    ]
-  },
-  "ICEYE": {
-    "name": "ICEYE",
-    "govPullScore": 18,
-    "matchCount": 1,
-    "topAgencies": [
-      "National Reconnaissance Office (NRO)"
-    ],
-    "avgRelevance": 18,
     "topSignals": [
       "Next-Generation Earth Observation Capabilities"
     ]
@@ -5974,18 +5972,6 @@ const GOV_PULL_SCORES_AUTO = {
     "avgRelevance": 20,
     "topSignals": [
       "Trustworthy AI Systems for Critical Infrastructure"
-    ]
-  },
-  "Cognition": {
-    "name": "Cognition",
-    "govPullScore": 17,
-    "matchCount": 1,
-    "topAgencies": [
-      "DARPA"
-    ],
-    "avgRelevance": 24,
-    "topSignals": [
-      "Autonomous AI Agents for Complex Decision Making"
     ]
   },
   "Mujin": {
@@ -6673,6 +6659,6 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 192,
-  "lastUpdated": "2026-09-24 12:30:24 UTC"
+  "companiesMatched": 190,
+  "lastUpdated": "2026-09-25 12:31:36 UTC"
 };

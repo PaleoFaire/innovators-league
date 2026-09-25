@@ -2123,7 +2123,8 @@ const PREDICTIVE_SCORES = {
       "Sphinx Defense": { score: 49, trend: "stable", analysis: "Auto-scored: Defense & Security, Undisclosed, 0 patents.", lastUpdated: "2026-09-24" },
       "Nidus": { score: 53, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Undisclosed, 0 patents.", lastUpdated: "2026-09-24" },
       "Ironstead": { score: 53, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Undisclosed, 0 patents.", lastUpdated: "2026-09-24" },
-      "Covenant": { score: 51, trend: "stable", analysis: "Auto-scored: Defense & Security, Undisclosed, 0 patents.", lastUpdated: "2026-09-24" }
+      "Covenant": { score: 51, trend: "stable", analysis: "Auto-scored: Defense & Security, Undisclosed, 0 patents.", lastUpdated: "2026-09-24" },
+      "VICTUS Technologies": { score: 46, trend: "stable", analysis: "Auto-scored: Defense & Security, Seed, 0 patents.", lastUpdated: "2026-09-24" }
     }
   },
 
@@ -3489,7 +3490,8 @@ const PREDICTIVE_SCORES = {
       "Sphinx Defense": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, Undisclosed.", lastUpdated: "2026-09-24" },
       "Nidus": { score: 60, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, Undisclosed.", lastUpdated: "2026-09-24" },
       "Ironstead": { score: 60, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, Undisclosed.", lastUpdated: "2026-09-24" },
-      "Covenant": { score: 48, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $250M raised, 0 jobs, Undisclosed.", lastUpdated: "2026-09-24" }
+      "Covenant": { score: 48, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $250M raised, 0 jobs, Undisclosed.", lastUpdated: "2026-09-24" },
+      "VICTUS Technologies": { score: 59, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, Seed.", lastUpdated: "2026-09-24" }
     }
   },
 

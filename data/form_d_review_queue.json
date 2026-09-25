@@ -1,5 +1,83 @@
 {
-  "generated_at": "2026-09-24T12:58:07.596235+00:00",
+  "generated_at": "2026-09-25T12:51:57.660399+00:00",
   "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
-  "candidates": []
+  "candidates": [
+    {
+      "match_method": "name-candidate",
+      "company": "Path Power",
+      "issuer_name": "Path Power, Inc",
+      "form": "D",
+      "filed_date": "2026-09-24",
+      "cik": "2156622",
+      "accession": "0002156622-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002156622&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002156622-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Occam",
+      "issuer_name": "Occam Crest Offshore Fund Ltd",
+      "form": "D",
+      "filed_date": "2026-09-24",
+      "cik": "2148898",
+      "accession": "0000919574-26-006455",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002148898&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0000919574-26-006455"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Cambium",
+      "issuer_name": "Cambium Capital Retama LP",
+      "form": "D",
+      "filed_date": "2026-09-23",
+      "cik": "2150821",
+      "accession": "0002150821-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002150821&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002150821-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Aalo Atomics",
+      "issuer_name": "Aalo Atomics BBVC X, a Series of A Master Series, LLC",
+      "form": "D",
+      "filed_date": "2026-09-22",
+      "cik": "2156442",
+      "accession": "0002156442-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002156442&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002156442-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Atoms",
+      "issuer_name": "Atoms & Bits Capital V, a Series of A Master Series, LLC",
+      "form": "D",
+      "filed_date": "2026-09-22",
+      "cik": "2156397",
+      "accession": "0002156397-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002156397&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002156397-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Interlune",
+      "issuer_name": "INTERLUNE II VUVP FUND LLC",
+      "form": "D",
+      "filed_date": "2026-09-22",
+      "cik": "2155123",
+      "accession": "0002155123-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002155123&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002155123-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Latitude",
+      "issuer_name": "Latitude Ventures Kalshi II a series of Allocations 2026 Master, LLC",
+      "form": "D",
+      "filed_date": "2026-09-18",
+      "cik": "2135113",
+      "accession": "0002135113-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002135113&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002135113-26-000002"
+    }
+  ]
 }

@@ -1,5 +1,27 @@
 {
-  "generated_at": "2026-09-24T12:58:53.777456+00:00",
+  "generated_at": "2026-09-25T12:52:01.043510+00:00",
   "note": "name-only matches. NOT shown to members. Confirm, then add the CIK to data/cik_map.json to promote.",
-  "candidates": []
+  "candidates": [
+    {
+      "match_method": "name-strict",
+      "match_evidence": "'Path Power, Inc.' stems to 'Path Power'",
+      "company": "Path Power",
+      "issuer_name": "Path Power, Inc.",
+      "form": "D",
+      "filed_date": "2026-09-24",
+      "cik": "2156622",
+      "accession": "0002156622-26-000001",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2156622/000215662226000001/primary_doc.xml",
+      "offering_amount": "11681997",
+      "amount_sold": "11681997",
+      "amount_remaining": "0",
+      "securities_type": "Equity",
+      "related_persons": [
+        "Zachary Judkins",
+        "Jack Peurach"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
+    }
+  ]
 }
