@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T07:37:09.451923+00:00",
+  "generatedAt": "2026-09-25T13:36:37.684251+00:00",
   "date": "2026-09-25",
   "dateDisplay": "Friday, September 25, 2026",
   "sections": {
@@ -23,13 +23,13 @@
         "url": "https://sam.gov/opp/80JSC026FA082/view"
       },
       {
-        "company": "Radiant",
-        "amount": "$4M",
-        "amount_raw": 4000000.0,
-        "agency": "Department of the Treasury",
-        "description": "IT LABOR PROVIDING ENTERPRISE DATA PLATFORM INTAKE, SECURITY, TENANT, PLATFORM OPERATIONS AND GOVERNANCE SERVICES.",
-        "date": "2026-09-15",
-        "url": "https://sam.gov/opp/2032H526F00077/view"
+        "company": "Skydio",
+        "amount": "$1M",
+        "amount_raw": 1000000.0,
+        "agency": "Department of Labor",
+        "description": "SKYDIO DRONES",
+        "date": "2026-09-25",
+        "url": "https://sam.gov/opp/1605C126P00014/view"
       },
       {
         "company": "Skydio",
@@ -142,23 +142,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Flight Operations: Pilot requirements; Use of oxygen",
-        "date": "2026-09-24",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19584"
+        "title": "Proposed Collection; Comment Request",
+        "date": "2026-09-25",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19611"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Regulatory Enhancements for Reactor Licensing, Decommissioning, and Operational ",
-        "date": "2026-09-24",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19568"
+        "title": "Submission for OMB Review; Comment Request",
+        "date": "2026-09-25",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19610"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "In the Matter of the Department of the Air Force; Confirmatory Order Modifying L",
-        "date": "2026-09-24",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19549"
+        "title": "Submission for OMB Review; Comment Request",
+        "date": "2026-09-25",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19624"
       }
     ],
     "patents": [
@@ -187,16 +187,16 @@
         "url": "https://patents.google.com/?assignee=Tempus+AI"
       },
       {
-        "company": "Rivian",
-        "title": "87 patents granted recently \u00b7 focus: Skateboard platform, Tank-turn, Off-road EV",
-        "date": "2025-Q4",
-        "url": "https://patents.google.com/?assignee=Rivian"
-      },
-      {
         "company": "Joby Aviation",
         "title": "81 patents granted recently \u00b7 focus: Tilt-rotor eVTOL, Electric propulsion, Battery systems",
         "date": "2025-Q4",
         "url": "https://patents.google.com/?assignee=Joby+Aviation"
+      },
+      {
+        "company": "Recursion Pharmaceuticals",
+        "title": "70 patents granted recently \u00b7 focus: Phenotypic drug discovery, BioHive supercomputing, ML-driven biology",
+        "date": "2025-Q4",
+        "url": "https://patents.google.com/?assignee=Recursion+Pharmaceuticals"
       }
     ]
   },

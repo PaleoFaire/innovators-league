@@ -64252,25 +64252,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-25 07:37
-// Auto-generated real-time signals
-// Last updated: 2026-09-25
+// Last updated: 2026-09-25 13:36
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "NASA Shares SpaceX Crew-14 Assignments for Space Station Mission", source: "NASA Breaking News", time: "10h ago", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "ElevenLabs", headline: "ElevenLabs&#8217; CEO on margins, IPO timing, and telling customers they&#8217;re talking to a bot", source: "TechCrunch", time: "15h ago", impact: "high", unread: true },
-  { id: 3, type: "news", company: "Shield AI", headline: "Shield AI, Waabi, and General Motors on building AI when failure is not an option at TechCrunch Disrupt 2026", source: "TechCrunch", time: "16h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "Saildrone", headline: "With Denmark, Saildrone logs first flag registration for naval surveillance drone", source: "Defense News", time: "17h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX INSANE SPEED is more valuable than Rockets", source: "Next Big Future", time: "17h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Humanoid", headline: "Europeans in Japan raise $1.2M to put modular humanoid robots to work", source: "Tech.eu", time: "17h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "ANYbotics", headline: "ANYbotics opens the door for inspections with ANYmal robots", source: "The Robot Report", time: "18h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Waymo", headline: "Waymo says it has stopped 841 injuries in 271 million autonomous miles", source: "Electrek", time: "18h ago", impact: "medium", unread: false },
-  { id: 9, type: "news", company: "OpenAI", headline: "Australia to investigate if OpenAI hack of government health website broke the law", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
-  { id: 10, type: "hire", company: "OpenAI", headline: "An OpenAI Agent Hacked Australia’s Health Service. Their Government Found Out Months Later", source: "Wired", time: "20h ago", impact: "low", unread: false },
-  { id: 11, type: "contract", company: "Palantir", headline: "Army awards Palantir $48.1M to modernize ammo management", source: "Defense News", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "contract", company: "SpaceX", headline: "EXCLUSIVE: SpaceX given unique access to classified DoD space tracking data, sources say", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Magic AI", headline: "Magic AI raises £8m to take its AI-powered fitness mirror to the US", source: "Sifted", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Anthropic", headline: "Anthropic and Nvidia back Basecamp Research in $140M Series C", source: "Tech.eu", time: "1d ago", impact: "high", unread: false },
-  { id: 15, type: "funding", company: "X-Energy", headline: "With federal funding windfall, X-energy advances small nuclear reactor", source: "Canary Media", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Beating Bull Case- Adding 880,000 chips in four month, 500MW Per Month (Elon Confirmed)", source: "Next Big Future", time: "5h ago", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "ElevenLabs", headline: "ElevenLabs' CEO on margins, IPO timing, and telling customers they're talking to a bot", source: "TechCrunch", time: "21h ago", impact: "high", unread: true },
+  { id: 3, type: "news", company: "Shield AI", headline: "Shield AI, Waabi, and General Motors on building AI when failure is not an option at TechCrunch Disrupt 2026", source: "TechCrunch", time: "22h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Saildrone", headline: "With Denmark, Saildrone logs first flag registration for naval surveillance drone", source: "Defense News", time: "23h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX INSANE SPEED is more valuable than Rockets", source: "Next Big Future", time: "23h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Humanoid", headline: "Europeans in Japan raise $1.2M to put modular humanoid robots to work", source: "Tech.eu", time: "23h ago", impact: "high", unread: false },
+  { id: 7, type: "news", company: "ANYbotics", headline: "ANYbotics opens the door for inspections with ANYmal robots", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Waymo", headline: "Waymo says it has stopped 841 injuries in 271 million autonomous miles", source: "Electrek", time: "1d ago", impact: "medium", unread: false },
+  { id: 9, type: "hire", company: "OpenAI", headline: "An OpenAI Agent Hacked Australia's Health Service. Their Government Found Out Months Later", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "contract", company: "Palantir", headline: "Army awards Palantir $48.1M to modernize ammo management", source: "Defense News", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "contract", company: "SpaceX", headline: "EXCLUSIVE: SpaceX given unique access to classified DoD space tracking data, sources say", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Magic AI", headline: "Magic AI raises '8m to take its AI-powered fitness mirror to the US", source: "Sifted", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Anthropic", headline: "Anthropic and Nvidia back Basecamp Research in $140M Series C", source: "Tech.eu", time: "2d ago", impact: "high", unread: false },
+  { id: 14, type: "funding", company: "X-Energy", headline: "With federal funding windfall, X-energy advances small nuclear reactor", source: "Canary Media", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Waymo", headline: "Autonomy, Meet Autonomous ' Waymo Teen Accounts in Nashville", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
