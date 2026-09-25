@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-25T08:18:07.332095+00:00",
+ "generated_at": "2026-09-25T08:36:36.235242+00:00",
  "funds": {
   "a16z": {
    "name": "Andreessen Horowitz",
    "url": "https://a16z.com/portfolio/",
    "kind": "a16z",
    "note": "Embedded JSON: 859 companies with first-investment dates",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 859,
    "tracked": 60,
    "overlap": 0.07,
@@ -6043,7 +6043,7 @@
    "url": "https://foundersfund.com/wp-json/wp/v2/company",
    "kind": "wp_company",
    "note": "WordPress company feed with dates and founders",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 64,
    "tracked": 16,
    "overlap": 0.25,
@@ -6526,7 +6526,7 @@
     "description shows no physical product": 10,
     "software or services wearing a hard-tech label": 2
    },
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://lowercarbon.com/wp-json/wp/v2/company?per_page=100&page=2&orderby=date&order=desc",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://lowercarbon.com/wp-json/wp/v2/company?per_page=100&page=1&orderby=date&order=desc",
    "stale_since": "2026-09-25T08:18:07.332095+00:00"
   },
   "Eclipse": {
@@ -6534,7 +6534,7 @@
    "url": "https://5uq66tk5.api.sanity.io/v2023-01-01/data/query/production",
    "kind": "sanity",
    "note": "Public Sanity dataset: websiteURL, foundedYear, founder",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 53,
    "tracked": 30,
    "overlap": 0.566,
@@ -6925,7 +6925,7 @@
    "url": "https://8vc.com/companies",
    "kind": "cards_8vc",
    "note": "Webflow cards; company site in a hidden anchor",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 174,
    "tracked": 25,
    "overlap": 0.144,
@@ -8165,7 +8165,7 @@
    "url": "https://www.luxcapital.com/companies",
    "kind": "cards_lux",
    "note": "28 featured companies, names only",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 28,
    "tracked": 12,
    "overlap": 0.429,
@@ -8380,7 +8380,7 @@
    "url": "https://cantos.vc/",
    "kind": "links",
    "note": "Homepage grid; 11 of 13 already tracked at launch",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 13,
    "tracked": 12,
    "overlap": 0.923,
@@ -8488,7 +8488,7 @@
    "url": "https://riot.vc/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 28,
    "tracked": 14,
    "overlap": 0.5,
@@ -8704,7 +8704,7 @@
    "url": "https://silentvc.com/",
    "kind": "links",
    "note": "Squarespace; 77% overlap in the Sept 2026 hand scan",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 56,
    "tracked": 37,
    "overlap": 0.661,
@@ -9116,7 +9116,7 @@
    "url": "https://www.pax.vc/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 18,
    "tracked": 16,
    "overlap": 0.889,
@@ -9261,7 +9261,7 @@
    "url": "https://www.primemoverslab.com/portfolio",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 30,
    "tracked": 16,
    "overlap": 0.533,
@@ -9490,7 +9490,7 @@
    "url": "https://playground.global/portfolio/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 46,
    "tracked": 15,
    "overlap": 0.326,
@@ -9833,7 +9833,7 @@
    "url": "https://seraphim.vc/portfolio",
    "kind": "links",
    "note": "Space-only fund; ~100 companies",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 102,
    "tracked": 16,
    "overlap": 0.157,
@@ -10567,7 +10567,7 @@
    "url": "https://decisivepoint.com/portfolio",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 24,
    "tracked": 15,
    "overlap": 0.625,
@@ -10752,7 +10752,7 @@
    "url": "https://gigascale.com/portfolio/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 27,
    "tracked": 9,
    "overlap": 0.333,
@@ -10961,7 +10961,7 @@
    "url": "https://www.iqt.org/portfolio/",
    "kind": "links",
    "note": "Page shows the first 15 only; the rest load on click",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 15,
    "tracked": 3,
    "overlap": 0.2,
@@ -11085,7 +11085,7 @@
    "url": "https://caffeinatedcapital.com/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 14,
    "tracked": 4,
    "overlap": 0.286,
@@ -11203,7 +11203,7 @@
    "url": "https://8090industries.com/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 1,
    "tracked": 0,
    "overlap": 0.0,
@@ -11227,7 +11227,7 @@
    "url": "https://harpoon.vc/portfolio/",
    "kind": "slugs",
    "note": "Subpage slugs only",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 60,
    "tracked": 19,
    "overlap": 0.317,
@@ -11664,7 +11664,7 @@
    "url": "https://shieldcap.com/portfolio/",
    "kind": "slugs",
    "note": "Subpage slugs only",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 8,
    "tracked": 3,
    "overlap": 0.375,
@@ -11737,7 +11737,7 @@
    "url": "https://www.congruentvc.com/portfolio",
    "kind": "slugs",
    "note": "",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 29,
    "tracked": 3,
    "overlap": 0.103,
@@ -11957,7 +11957,7 @@
    "url": "https://khoslaventures.com/portfolio/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 114,
    "tracked": 29,
    "overlap": 0.254,
@@ -12774,7 +12774,7 @@
    "url": "https://valorep.com/portfolio/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 36,
    "tracked": 7,
    "overlap": 0.194,
@@ -13045,7 +13045,7 @@
    "url": "https://www.sparkcapital.com/companies",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 46,
    "tracked": 12,
    "overlap": 0.261,
@@ -13386,7 +13386,7 @@
    "url": "https://draper.vc/companies",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
+   "fetched_at": "2026-09-25T08:36:36.235242+00:00",
    "count": 93,
    "tracked": 8,
    "overlap": 0.086,
@@ -18186,6 +18186,524 @@
    "description": "Reforge connects you with insights from vetted operators that will drive impact for your team.",
    "fetched": "2026-09-25",
    "final_url": "https://www.reforge.com/",
+   "status": 200
+  },
+  "regrello.com": {
+   "title": "Home | Regrello",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.regrello.com/",
+   "status": 200
+  },
+  "replicate.com": {
+   "title": "Replicate - Run AI with an API",
+   "description": "Run open-source machine learning models with a cloud API",
+   "fetched": "2026-09-25",
+   "final_url": "https://replicate.com/",
+   "status": 200
+  },
+  "resourcely.io": {
+   "error": "SSLError",
+   "fetched": "2026-09-25"
+  },
+  "ribbonhealth.com": {
+   "title": "Site Not Configured | 404 Not Found",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.ribbonhealth.com/",
+   "status": 404
+  },
+  "rival.co": {
+   "error": "ConnectionError",
+   "fetched": "2026-09-25"
+  },
+  "robinhood.com": {
+   "title": "Robinhood: 24/5 Commission-Free Stock Trading & Investing",
+   "description": "Trade stocks on Robinhood with commission-free investing & advanced trading tools. Access fractional shares, real-time market data, and more. Terms and fees may apply.",
+   "fetched": "2026-09-25",
+   "final_url": "https://robinhood.com/us/en/",
+   "status": 200
+  },
+  "corp.roblox.com": {
+   "title": "",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://d3kmd4famnmhh.cloudfront.net/",
+   "status": 403
+  },
+  "rtfkt.com": {
+   "title": "RTFKT",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://rtfkt.com/",
+   "status": 200
+  },
+  "samsara.com": {
+   "title": "Samsara | The Connected Operations Platform",
+   "description": "Samsara's connected operations platform helps 20,000+ operations improve safety, cut costs, and run smarter \u2014 built with operators.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.samsara.com/",
+   "status": 200
+  },
+  "scribetx.com": {
+   "title": "Scribe",
+   "description": "We\u2019re unlocking the future of medicine with CRISPR-based therapeutics that are safe and effective enough to transform everyone's lifetime risk for disease.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.scribetx.com/",
+   "status": 200
+  },
+  "seasonhealth.com": {
+   "title": "Season Health",
+   "description": "Season Health is the leading food-as-medicine platform that enables people with chronic conditions to eat well and live well.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.seasonhealth.com/",
+   "status": 200
+  },
+  "seedfi.com": {
+   "error": "SSLError",
+   "fetched": "2026-09-25"
+  },
+  "shapeways.com": {
+   "title": "403 Forbidden",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.shapeways.com/",
+   "status": 403
+  },
+  "shoedazzle.com": {
+   "title": "ShoeDazzle",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.shoedazzle.com/",
+   "status": 403
+  },
+  "signalfx.com": {
+   "error": "SSLError",
+   "fetched": "2026-09-25"
+  },
+  "sigopt.com": {
+   "title": "Access Denied",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://corpredirect.intel.com/Redirector/404Redirector.aspx?404;https://sigopt.com/",
+   "status": 403
+  },
+  "rsa.com": {
+   "title": "RSA Tokens & Authenticators for Identity Security Teams",
+   "description": "Explore RSA tokens and authenticators as part of a unified identity platform: MFA, SSO, access, governance, and lifecycle capabilities.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.rsa.com/products/",
+   "status": 200
+  },
+  "skout.com": {
+   "title": "Discover new people nearby and make real connections - Skout",
+   "description": "Connect with people nearby or worldwide on Skout. Join now and chat, make friends, or meet authentic matches.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.skout.com/en/",
+   "status": 200
+  },
+  "skype.com": {
+   "title": "Free Online Meetings & Video Calls | Microsoft Teams",
+   "description": "Start free Teams video calls instantly! Connect, collaborate, and communicate effortlessly. Enjoy features like video calls, chat, file sharing, and more. Perfect for personal use, freelancers, solopreneurs, PTAs, teachers, small businesses and social events. Get started today!",
+   "fetched": "2026-09-25",
+   "final_url": "https://teams.live.com/free?source=skype",
+   "status": 200
+  },
+  "slack.com": {
+   "title": "Slack | AI Work Platform & Productivity Tools",
+   "description": "Boost productivity and save time with Slack\u200c \u2014 \u200cthe AI work platform for managing projects, automating workflows, and connecting teams securely. Start working smarter today.",
+   "fetched": "2026-09-25",
+   "final_url": "https://slack.com/",
+   "status": 200
+  },
+  "soylent.com": {
+   "title": "Soylent Let us take a few things off your plate.",
+   "description": "Soylent products turn a full meal into a one-step process with everything the body needs to thrive. Complete nutrition science-backed and sustainable.",
+   "fetched": "2026-09-25",
+   "final_url": "https://soylent.com/",
+   "status": 200
+  },
+  "stackoverflowbusiness.com": {
+   "title": "Stack Internal \u2013 knowledge engine (formerly Stack Overflow for Teams) - Stack Overflow",
+   "description": "Stop losing knowledge in Slack threads and wikis. Stack Internal keeps your team's expertise organized and easy to find.",
+   "fetched": "2026-09-25",
+   "final_url": "https://stackoverflow.co/internal/",
+   "status": 200
+  },
+  "stainless.com": {
+   "title": "Stainless - Best-in-class developer interfaces for your API",
+   "description": "Stainless helps you deliver robust and idiomatic SDKs, documentation that keeps up with your API, and token-efficient MCP servers.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.stainless.com/",
+   "status": 200
+  },
+  "swell.life": {
+   "title": "Swell - Discontinued",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.swell.life",
+   "status": 200
+  },
+  "swiftype.com": {
+   "error": "ConnectTimeout",
+   "fetched": "2026-09-25"
+  },
+  "tabular.io": {
+   "error": "ConnectionError",
+   "fetched": "2026-09-25"
+  },
+  "tackle.io": {
+   "title": "Tackle: Your Platform for Cloud GTM | Tackle.io",
+   "description": "Tackle helps you identify the right buyers, co-sell with your Cloud Partners, and transact through the Marketplaces with a platform built for Cloud GTM success.",
+   "fetched": "2026-09-25",
+   "final_url": "https://tackle.io/",
+   "status": 200
+  },
+  "tecton.ai": {
+   "title": "",
+   "description": "Databricks offers a unified platform for data, analytics and AI. Build better AI with a data-centric approach. Simplify ETL, data warehousing, governance and AI on the Data + AI Platform.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.databricks.com",
+   "status": 200
+  },
+  "teleport.org": {
+   "title": "",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://teleport.org/",
+   "status": 200
+  },
+  "tenex.ai": {
+   "title": "AI-Native SOC & Managed Detection Response | TENEX.AI",
+   "description": "TENEX.AI the Fully-Agentic, Human-Led SecOps delivers an AI-native, human-led SOC built to triage alerts, detect threats faster, and strengthen security operations at scale.",
+   "fetched": "2026-09-25",
+   "final_url": "https://tenex.ai/",
+   "status": 200
+  },
+  "tenfold.com": {
+   "error": "SSLError",
+   "fetched": "2026-09-25"
+  },
+  "insightsoftware.com": {
+   "title": "Tidemark | Enterprise Financial & Operational Planning Tool",
+   "description": "Tidemark is a flexible financial planning software for workflow management that saves time & improves collaboration across the organization. Learn more here.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.insightsoftware.com/tidemark/",
+   "status": 200
+  },
+  "tilt.com": {
+   "title": "Cash Advances & Credit Cards\u00e2\u0080\u0094Powered by Your Potential | Tilt",
+   "description": "Tilt helps you access cash and credit by looking at your income and spending, not just your credit score. 3 in 4 customers approved for cash or credit today.",
+   "fetched": "2026-09-25",
+   "final_url": "https://tilt.com/",
+   "status": 200
+  },
+  "tinyco.com": {
+   "error": "SSLError",
+   "fetched": "2026-09-25"
+  },
+  "tmunity.com": {
+   "error": "ConnectionError",
+   "fetched": "2026-09-25"
+  },
+  "tomfoolery.com": {
+   "error": "ConnectionError",
+   "fetched": "2026-09-25"
+  },
+  "wise.com": {
+   "title": "Wise: The international account | Money without borders | Wise United States",
+   "description": "Banks charge a lot for overseas transfers. We don't. Transfer money abroad easily and quickly with our low cost money transfers.",
+   "fetched": "2026-09-25",
+   "final_url": "https://wise.com/",
+   "status": 200
+  },
+  "navan.com": {
+   "title": "Navan: The #1 Corporate Travel Management Platform",
+   "description": "Streamline your corporate travel management and expense processes in one app. Save time, gain efficiency, and reduce costs with this powerful, all-in-one solution.",
+   "fetched": "2026-09-25",
+   "final_url": "https://navan.com/",
+   "status": 200
+  },
+  "txn.com": {
+   "error": "SSLError",
+   "fetched": "2026-09-25"
+  },
+  "udacity.com": {
+   "title": "Learn the Latest Tech Skills; Advance Your Career | Udacity",
+   "description": "Learn online and advance your career with courses in programming, data science, artificial intelligence, digital marketing, and more. Gain in-demand technical skills. Join today!",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.udacity.com/",
+   "status": 200
+  },
+  "usermind.com": {
+   "error": "ConnectionError",
+   "fetched": "2026-09-25"
+  },
+  "viki.com": {
+   "title": "Watch K-Dramas, Korean Shows & Chinese Dramas | Rakuten Viki",
+   "description": "Stream FREE Asian Dramas & Movies with English subtitles: Korean, Chinese, Japanese Dramas & more. From romance to action, find it on Viki!",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.viki.com/",
+   "status": 200
+  },
+  "walkerandcompany.com": {
+   "title": "BEVEL",
+   "description": "Shop premium grooming, shaving, and skincare products. Explore the Bevel difference here.",
+   "fetched": "2026-09-25",
+   "final_url": "https://getbevel.com/",
+   "status": 200
+  },
+  "waveforms.ai": {
+   "title": "",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.waveforms.ai/",
+   "status": 200
+  },
+  "wit.ai": {
+   "title": "Error",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://wit.ai/",
+   "status": 400
+  },
+  "getsupernatural.com": {
+   "title": "Supernatural: VR Fitness App on Meta Quest",
+   "description": "Supernatural VR Fitness offers fun and competitive full-body workouts. From boxing to stretching to meditation sessions, Supernatural brings daily fitness to a whole new level.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.getsupernatural.com/",
+   "status": 200
+  },
+  "wiz.io": {
+   "title": "Wiz: AI Cybersecurity for All Your Cloud and AI Applications",
+   "description": "Wiz connects code, cloud, and runtime into one agentic cybersecurity platform. Prevent risk, detect threats, and start secure \u2013 across every cloud and AI layer.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.wiz.io/",
+   "status": 200
+  },
+  "x.ai": {
+   "title": "SpaceXAI",
+   "description": "SpaceXAI builds Grok \u2014 frontier AI models for reasoning, voice, image generation, and more. Build with the Grok API.",
+   "fetched": "2026-09-25",
+   "final_url": "https://x.ai/",
+   "status": 200
+  },
+  "zulily.com": {
+   "title": "Zulily | Daily Deals on Fashion, Home, Kids\u2019 Items & More",
+   "description": "Shop Zulily for daily deals on clothing, home d\u00e9cor, toys, beauty, and more. Discover top brands and unique finds at up to 90% off.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.zulily.com/",
+   "status": 200
+  },
+  "zynga.com": {
+   "title": "Free Mobile & Online Games | Free Mobile Games | Zynga",
+   "description": "Free online games & mobile games offer limitless fun! Play the most popular free mobile games by Zynga - Farmville, Hit it Rich, Zynga Poker and many more!",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.zynga.com/",
+   "status": 200
+  },
+  "11x.ai": {
+   "title": "11x \u2013 Digital workers, Human results",
+   "description": "For Sales, RevOps, and GTM Leaders. Transform your revenue team with digital AI workers that execute, learn, and optimize across all customer touchpoints.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.11x.ai/",
+   "status": 200
+  },
+  "untitled.stream": {
+   "title": "Just a moment...",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://untitled.stream/",
+   "status": 403
+  },
+  "abridge.com": {
+   "title": "Generative AI for Clinical Conversations | Abridge",
+   "description": "Discover how Abridge transforms documentation for clinical conversations powered by generative AI, enhancing healthcare understanding and improving patient care.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.abridge.com/",
+   "status": 200
+  },
+  "adaptive.build": {
+   "title": "Adaptive | Agentic Financial Operations for Construction",
+   "description": "AI agents handle job costing, AP, billing, and WIP for construction companies. Works with QuickBooks, Foundation, and Sage. No ERP migration needed.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.adaptive.build/",
+   "status": 200
+  },
+  "adaptivesecurity.com": {
+   "title": "Protect Against Deepfakes and AI-Powered Attacks | Adaptive Security",
+   "description": "Human security for the AI era. Adaptive unifies security awareness training, phishing simulations, agentic email security, and AI governance.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.adaptivesecurity.com/",
+   "status": 200
+  },
+  "addi.com": {
+   "title": "Paga a cuotas sin papeleos ni tarjeta de cr\u00c3\u00a9dito con Addi",
+   "description": "Compra lo que quieras a cuotas y sin enredos. Paga con Addi en tus tiendas favoritas f\u00c3\u00adsicas, online o en nuestro Marketplace.",
+   "fetched": "2026-09-25",
+   "final_url": "https://co.addi.com:443/",
+   "status": 200
+  },
+  "aerodome.com": {
+   "title": "Flock DFR \u2014 Drone as First Responder | Flock Safety",
+   "description": "Flock Alpha is an automated drone system for public safety: 86s average response time, 78% of calls responded to by drone first, for faster emergency response.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.flocksafety.com/products/flock-dfr",
+   "status": 200
+  },
+  "airspace-intelligence.com": {
+   "title": "Air Space Intelligence | AI for Mission-Critical Operations",
+   "description": "We serve critical industries, the U.S. Government, and its allies by predicting, simulating, and optimizing their most complex operations.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.airspace-intelligence.com/",
+   "status": 200
+  },
+  "airgarage.com": {
+   "title": "AirGarage | Parking Management Solutions For Property Owners",
+   "description": "AirGarage provides full-service parking management for property owners, streamlining operations and maximizing revenue. Get a free parking analysis today.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.airgarage.com/",
+   "status": 200
+  },
+  "akasa.com": {
+   "title": "Generative AI for Healthcare and Revenue Cycle",
+   "description": "AKASA provides generative AI (GenAI) solutions for the healthcare revenue cycle, from prior auth to CDI to coding to claims management.",
+   "fetched": "2026-09-25",
+   "final_url": "https://akasa.com/",
+   "status": 200
+  },
+  "alchemy.com": {
+   "title": "Alchemy | Blockchain infrastructure for developers",
+   "description": "Build and scale apps onchain with Alchemy's RPC APIs, data APIs, and developer tools across 100+ blockchains. Get started for free.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.alchemy.com/",
+   "status": 200
+  },
+  "alchemyhealth.com": {
+   "error": "SSLError",
+   "fetched": "2026-09-25"
+  },
+  "provable.com": {
+   "title": "Provable",
+   "description": "Provable equips developers to build secure, private applications on Aleo, redefining trust and empowering digital privacy.",
+   "fetched": "2026-09-25",
+   "final_url": "https://provable.com/",
+   "status": 200
+  },
+  "alleviatehealth.care": {
+   "title": "Alleviate Health",
+   "description": "The AI Recruiter for Clinical Research",
+   "fetched": "2026-09-25",
+   "final_url": "https://alleviatehealth.care/",
+   "status": 200
+  },
+  "alluxio.io": {
+   "title": "Alluxio | Home",
+   "description": "Alluxio is a high-performance distributed caching layer built for large-scale AI workloads. Alluxio maximizes I/O throughput and minimizes I/O latency for model training, model deployment, inference cold starts, feature store queries and more \u2014 all without replacing your existing storage.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.alluxio.io/",
+   "status": 200
+  },
+  "a9oncology.com": {
+   "title": "Alpha-9 Oncology | Radiopharmaceuticals | Cancer Therapy",
+   "description": "Through peptide engineering and iterative design, Alpha9 Oncology creates highly selective, potent radiopharmaceuticals for cancer patients.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.a9oncology.com/",
+   "status": 200
+  },
+  "nobellfoods.com": {
+   "error": "ConnectionError",
+   "fetched": "2026-09-25"
+  },
+  "altavr.io": {
+   "title": "Alta - Crafting Virtual Worlds",
+   "description": "We build vibrant communities that bring incredible experiences to our players as we innovate with new technology to find new ways to play.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.altavr.io/",
+   "status": 200
+  },
+  "altitudelearning.com": {
+   "title": "403 - Forbidden",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.guidepostmontessori.com/",
+   "status": 403
+  },
+  "ambiencehealthcare.com": {
+   "title": "Ambience Healthcare",
+   "description": "The AI partner built for clinicians, backed by 3x ROI. Turn frontier intelligence into measurable clinical, quality, and financial outcomes.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.ambiencehealthcare.com/",
+   "status": 200
+  },
+  "ambient.ai": {
+   "title": "Prevent security incidents with computer vision intelligence | Ambient.ai",
+   "description": "Ambient.ai is transforming physical security with computer vision intelligence, empowering security teams with automated threat detection and visual verification.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.ambient.ai/",
+   "status": 200
+  },
+  "aminochain.io": {
+   "title": "AminoChain",
+   "description": "A new era in patient-centric research",
+   "fetched": "2026-09-25",
+   "final_url": "https://aminochain.io/",
+   "status": 200
+  },
+  "anchorage.com": {
+   "title": "Crypto bank for institutions | Anchorage Digital",
+   "description": "Anchorage Digital is a premier institutional crypto platform and home to the first federally chartered digital asset bank in the United States.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.anchorage.com/",
+   "status": 200
+  },
+  "angle.money": {
+   "title": "USD Stablecoin & Euro Stablecoin | Angle Protocol",
+   "description": "Angle offers secure & decentralized stablecoins that generate yield for users, accessible to everyone.",
+   "fetched": "2026-09-25",
+   "final_url": "https://angle.money/",
+   "status": 200
+  },
+  "anyroad.com": {
+   "title": "Just a moment...",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.anyroad.com/",
+   "status": 403
+  },
+  "anyscale.com": {
+   "title": "Production-scale AI with Ray | Anyscale",
+   "description": "Powered by Ray, Anyscale helps AI builders run data-intensive workloads to build and deploy Foundation Models and AI at scale on any cloud.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.anyscale.com/",
+   "status": 200
+  },
+  "apeel.com": {
+   "title": "Plant-Based Protection Inspired by Nature",
+   "description": "How does Apeel's plant-based protection make produce last longer? By mimicking plants' cuticle layer, Apeel creates a little extra \"peel\". Learn more!",
+   "fetched": "2026-09-25",
+   "final_url": "https://apeel.com/",
+   "status": 200
+  },
+  "apollographql.com": {
+   "title": "The API Orchestration Platform for AI Agents, Web, and Mobile Apps",
+   "description": "Connect agents and apps to GraphQL and REST APIs with proven infrastructure trusted by enterprise leaders.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.apollographql.com/",
+   "status": 200
+  },
+  "aptoslabs.com": {
+   "title": "Aptos Labs | Accelerating the Future of Web3",
+   "description": "Building products, applications, and tooling on the Aptos blockchain. Bringing the benefits of decentralization to the masses.",
+   "fetched": "2026-09-25",
+   "final_url": "https://aptoslabs.com/",
+   "status": 200
+  },
+  "aradigmhealth.com": {
+   "title": "Aradigm | Creating sustainable access to life-saving medicines",
+   "description": "Benefits platform for cell and gene therapies designed to provide sustainable access to life-saving medicines.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.aradigmhealth.com/",
    "status": 200
   }
  }
