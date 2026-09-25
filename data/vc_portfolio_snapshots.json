@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-25T07:59:45.838940+00:00",
+ "generated_at": "2026-09-25T08:18:07.332095+00:00",
  "funds": {
   "a16z": {
    "name": "Andreessen Horowitz",
    "url": "https://a16z.com/portfolio/",
    "kind": "a16z",
    "note": "Embedded JSON: 859 companies with first-investment dates",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 859,
    "tracked": 60,
    "overlap": 0.07,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 9,
    "rejected_by_bar": {
@@ -6043,12 +6043,12 @@
    "url": "https://foundersfund.com/wp-json/wp/v2/company",
    "kind": "wp_company",
    "note": "WordPress company feed with dates and founders",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 64,
    "tracked": 16,
    "overlap": 0.25,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 3,
    "rejected_by_bar": {
@@ -6526,727 +6526,20 @@
     "description shows no physical product": 10,
     "software or services wearing a hard-tech label": 2
    },
-   "holdings": [
-    {
-     "id": "basepowercompany.com",
-     "name": "Base Power",
-     "domain": "basepowercompany.com",
-     "first_funded": "2026-02-06",
-     "known_as": "Base Power"
-    },
-    {
-     "id": "overviewenergy.com",
-     "name": "",
-     "domain": "overviewenergy.com",
-     "first_funded": "2026-01-12",
-     "known_as": "Overview Energy"
-    },
-    {
-     "id": "nevoya.com",
-     "name": "Nevoya",
-     "domain": "nevoya.com",
-     "first_funded": "2026-01-07",
-     "known_as": null
-    },
-    {
-     "id": "storioenergy.com",
-     "name": "Storio",
-     "domain": "storioenergy.com",
-     "first_funded": "2025-03-10",
-     "known_as": null
-    },
-    {
-     "id": "rune.energy",
-     "name": "Rune Energy",
-     "domain": "rune.energy",
-     "first_funded": "2025-03-10",
-     "known_as": null
-    },
-    {
-     "id": "pendulum.global",
-     "name": "Pendulum",
-     "domain": "pendulum.global",
-     "first_funded": "2025-03-10",
-     "known_as": null
-    },
-    {
-     "id": "biosphere.io",
-     "name": "Biosphere",
-     "domain": "biosphere.io",
-     "first_funded": "2025-03-10",
-     "known_as": null
-    },
-    {
-     "id": "panthalassa.com",
-     "name": "Panthalassa",
-     "domain": "panthalassa.com",
-     "first_funded": "2025-03-10",
-     "known_as": "Panthalassa"
-    },
-    {
-     "id": "standinsurance.com",
-     "name": "Stand",
-     "domain": "standinsurance.com",
-     "first_funded": "2025-03-06",
-     "known_as": null
-    },
-    {
-     "id": "clairitytech.com",
-     "name": "Clairity",
-     "domain": "clairitytech.com",
-     "first_funded": "2025-03-06",
-     "known_as": null
-    },
-    {
-     "id": "cargokite.com",
-     "name": "CargoKite",
-     "domain": "cargokite.com",
-     "first_funded": "2025-03-06",
-     "known_as": null
-    },
-    {
-     "id": "aircompany.com",
-     "name": "Air Co",
-     "domain": "aircompany.com",
-     "first_funded": "2025-03-06",
-     "known_as": null
-    },
-    {
-     "id": "milvusadvanced.co.uk",
-     "name": "Milvus Advanced",
-     "domain": "milvusadvanced.co.uk",
-     "first_funded": "2025-03-06",
-     "known_as": null
-    },
-    {
-     "id": "matter.com",
-     "name": "Matter",
-     "domain": "matter.com",
-     "first_funded": "2025-03-06",
-     "known_as": null
-    },
-    {
-     "id": "carbyon.com",
-     "name": "Carbyon",
-     "domain": "carbyon.com",
-     "first_funded": "2025-03-06",
-     "known_as": "Carbyon"
-    },
-    {
-     "id": "seabound.co",
-     "name": "Seabound",
-     "domain": "seabound.co",
-     "first_funded": "2025-03-06",
-     "known_as": null
-    },
-    {
-     "id": "generalbiological.com",
-     "name": "General Biological",
-     "domain": "generalbiological.com",
-     "first_funded": "2025-03-06",
-     "known_as": "General Biological"
-    },
-    {
-     "id": "ulysses.inc",
-     "name": "Ulysses",
-     "domain": "ulysses.inc",
-     "first_funded": "2025-03-06",
-     "known_as": null
-    },
-    {
-     "id": "zeno.earth",
-     "name": "Zeno",
-     "domain": "zeno.earth",
-     "first_funded": "2025-03-06",
-     "known_as": null
-    },
-    {
-     "id": "acceleron.energy",
-     "name": "Acceleron",
-     "domain": "acceleron.energy",
-     "first_funded": "2025-03-06",
-     "known_as": null
-    },
-    {
-     "id": "aepnus.com",
-     "name": "Aepnus",
-     "domain": "aepnus.com",
-     "first_funded": "2025-03-06",
-     "known_as": "Aepnus Technology"
-    },
-    {
-     "id": "xcimer.energy",
-     "name": "Xcimer",
-     "domain": "xcimer.energy",
-     "first_funded": "2025-03-06",
-     "known_as": "Xcimer Energy"
-    },
-    {
-     "id": "pacificfusion.com",
-     "name": "Pacific Fusion",
-     "domain": "pacificfusion.com",
-     "first_funded": "2025-03-06",
-     "known_as": "Pacific Fusion"
-    },
-    {
-     "id": "cloover.co",
-     "name": "Cloover",
-     "domain": "cloover.co",
-     "first_funded": "2025-03-06",
-     "known_as": null
-    },
-    {
-     "id": "lithios.xyz",
-     "name": "Lithios",
-     "domain": "lithios.xyz",
-     "first_funded": "2025-03-06",
-     "known_as": null
-    },
-    {
-     "id": "astromecha.co",
-     "name": "Astro Mechanica",
-     "domain": "astromecha.co",
-     "first_funded": "2025-03-06",
-     "known_as": "Astro Mechanica"
-    },
-    {
-     "id": "gridware.io",
-     "name": "Gridware",
-     "domain": "gridware.io",
-     "first_funded": "2025-03-06",
-     "known_as": "Gridware"
-    },
-    {
-     "id": "thea.energy",
-     "name": "Thea Energy",
-     "domain": "thea.energy",
-     "first_funded": "2025-02-06",
-     "known_as": "Thea Energy"
-    },
-    {
-     "id": "arbor.co",
-     "name": "Arbor",
-     "domain": "arbor.co",
-     "first_funded": "2024-04-11",
-     "known_as": "Arbor Energy"
-    },
-    {
-     "id": "unspun.io",
-     "name": "Unspun",
-     "domain": "unspun.io",
-     "first_funded": "2024-03-19",
-     "known_as": "Unspun"
-    },
-    {
-     "id": "eli.build",
-     "name": "Eli",
-     "domain": "eli.build",
-     "first_funded": "2024-02-14",
-     "known_as": null
-    },
-    {
-     "id": "vaulteddeep.com",
-     "name": "Vaulted",
-     "domain": "vaulteddeep.com",
-     "first_funded": "2024-01-05",
-     "known_as": null
-    },
-    {
-     "id": "breathebatteries.com",
-     "name": "Breathe",
-     "domain": "breathebatteries.com",
-     "first_funded": "2023-10-18",
-     "known_as": null
-    },
-    {
-     "id": "shipartyc.com",
-     "name": "Artyc",
-     "domain": "shipartyc.com",
-     "first_funded": "2023-10-18",
-     "known_as": null
-    },
-    {
-     "id": "woodoo.com",
-     "name": "Woodoo",
-     "domain": "woodoo.com",
-     "first_funded": "2023-08-22",
-     "known_as": null
-    },
-    {
-     "id": "carboncrusher.com",
-     "name": "Carbon Crusher",
-     "domain": "carboncrusher.com",
-     "first_funded": "2023-08-22",
-     "known_as": null
-    },
-    {
-     "id": "arcaclimate.com",
-     "name": "Arca",
-     "domain": "arcaclimate.com",
-     "first_funded": "2023-08-16",
-     "known_as": null
-    },
-    {
-     "id": "fuseenergy.com",
-     "name": "Fuse",
-     "domain": "fuseenergy.com",
-     "first_funded": "2023-07-19",
-     "known_as": null
-    },
-    {
-     "id": "isometric.com",
-     "name": "Isometric",
-     "domain": "isometric.com",
-     "first_funded": "2023-07-18",
-     "known_as": null
-    },
-    {
-     "id": "watershed.com",
-     "name": "Watershed",
-     "domain": "watershed.com",
-     "first_funded": "2023-06-29",
-     "known_as": null
-    },
-    {
-     "id": "un-do.com",
-     "name": "Undo",
-     "domain": "un-do.com",
-     "first_funded": "2023-06-22",
-     "known_as": null
-    },
-    {
-     "id": "quilt.com",
-     "name": "Quilt",
-     "domain": "quilt.com",
-     "first_funded": "2023-06-15",
-     "known_as": null
-    },
-    {
-     "id": "renfusion.eu",
-     "name": "Renaissance",
-     "domain": "renfusion.eu",
-     "first_funded": "2023-06-01",
-     "known_as": "Renaissance Fusion"
-    },
-    {
-     "id": "burnbot.com",
-     "name": "BurnBot",
-     "domain": "burnbot.com",
-     "first_funded": "2023-04-25",
-     "known_as": "BurnBot"
-    },
-    {
-     "id": "novalith.com",
-     "name": "Novalith",
-     "domain": "novalith.com",
-     "first_funded": "2023-04-17",
-     "known_as": null
-    },
-    {
-     "id": "cruxclimate.com",
-     "name": "Crux",
-     "domain": "cruxclimate.com",
-     "first_funded": "2023-04-13",
-     "known_as": null
-    },
-    {
-     "id": "musa.co",
-     "name": "Musa",
-     "domain": "musa.co",
-     "first_funded": "2023-03-16",
-     "known_as": null
-    },
-    {
-     "id": "electra.earth",
-     "name": "Electra",
-     "domain": "electra.earth",
-     "first_funded": "2022-10-06",
-     "known_as": "Electra"
-    },
-    {
-     "id": "rideriver.com",
-     "name": "River",
-     "domain": "rideriver.com",
-     "first_funded": "2022-08-02",
-     "known_as": null
-    },
-    {
-     "id": "mill.com",
-     "name": "Mill",
-     "domain": "mill.com",
-     "first_funded": "2022-06-23",
-     "known_as": null
-    },
-    {
-     "id": "solarsquare.in",
-     "name": "Solar Square",
-     "domain": "solarsquare.in",
-     "first_funded": "2022-06-10",
-     "known_as": null
-    },
-    {
-     "id": "lemon.energy",
-     "name": "Lemon",
-     "domain": "lemon.energy",
-     "first_funded": "2022-06-04",
-     "known_as": null
-    },
-    {
-     "id": "genomines.com",
-     "name": "Genomines",
-     "domain": "genomines.com",
-     "first_funded": "2022-06-03",
-     "known_as": null
-    },
-    {
-     "id": "avalanchefusion.com",
-     "name": "Avalanche",
-     "domain": "avalanchefusion.com",
-     "first_funded": "2022-06-02",
-     "known_as": "Avalanche Energy"
-    },
-    {
-     "id": "tenderfood.com",
-     "name": "Tender",
-     "domain": "tenderfood.com",
-     "first_funded": "2022-04-26",
-     "known_as": null
-    },
-    {
-     "id": "dioxycle.com",
-     "name": "Dioxycle",
-     "domain": "dioxycle.com",
-     "first_funded": "2022-03-28",
-     "known_as": null
-    },
-    {
-     "id": "verdox.com",
-     "name": "Verdox",
-     "domain": "verdox.com",
-     "first_funded": "2022-03-24",
-     "known_as": null
-    },
-    {
-     "id": "supercritical.solutions",
-     "name": "Supercritical",
-     "domain": "supercritical.solutions",
-     "first_funded": "2022-03-24",
-     "known_as": null
-    },
-    {
-     "id": "macro-oceans.com",
-     "name": "Macro Oceans",
-     "domain": "macro-oceans.com",
-     "first_funded": "2022-03-24",
-     "known_as": null
-    },
-    {
-     "id": "farmhq.com",
-     "name": "FarmHQ",
-     "domain": "farmhq.com",
-     "first_funded": "2022-03-24",
-     "known_as": null
-    },
-    {
-     "id": "safi.co",
-     "name": "Safi",
-     "domain": "safi.co",
-     "first_funded": "2022-02-15",
-     "known_as": null
-    },
-    {
-     "id": "zeroacre.com",
-     "name": "Zero Acre",
-     "domain": "zeroacre.com",
-     "first_funded": "2022-02-02",
-     "known_as": null
-    },
-    {
-     "id": "pledge.io",
-     "name": "Pledge",
-     "domain": "pledge.io",
-     "first_funded": "2021-10-21",
-     "known_as": null
-    },
-    {
-     "id": "drinkminuscoffee.com",
-     "name": "Minus",
-     "domain": "drinkminuscoffee.com",
-     "first_funded": "2021-06-16",
-     "known_as": null
-    },
-    {
-     "id": "useyardstick.com",
-     "name": "Yard Stick",
-     "domain": "useyardstick.com",
-     "first_funded": "2021-06-15",
-     "known_as": null
-    },
-    {
-     "id": "ourkettle.com",
-     "name": "Kettle",
-     "domain": "ourkettle.com",
-     "first_funded": "2021-06-15",
-     "known_as": null
-    },
-    {
-     "id": "heirloomcarbon.com",
-     "name": "Heirloom",
-     "domain": "heirloomcarbon.com",
-     "first_funded": "2021-06-15",
-     "known_as": "Heirloom Carbon"
-    },
-    {
-     "id": "sublime-systems.com",
-     "name": "Sublime",
-     "domain": "sublime-systems.com",
-     "first_funded": "2021-06-15",
-     "known_as": "Sublime Systems"
-    },
-    {
-     "id": "flair.co",
-     "name": "Flair",
-     "domain": "flair.co",
-     "first_funded": "2021-06-15",
-     "known_as": null
-    },
-    {
-     "id": "enode.com",
-     "name": "Enode",
-     "domain": "enode.com",
-     "first_funded": "2021-06-15",
-     "known_as": null
-    },
-    {
-     "id": "floodbase.com",
-     "name": "Floodbase",
-     "domain": "floodbase.com",
-     "first_funded": "2021-06-15",
-     "known_as": "Floodbase"
-    },
-    {
-     "id": "arcboats.com",
-     "name": "Arc",
-     "domain": "arcboats.com",
-     "first_funded": "2021-06-15",
-     "known_as": "Arc Boats"
-    },
-    {
-     "id": "airloom.energy",
-     "name": "Airloom",
-     "domain": "airloom.energy",
-     "first_funded": "2021-02-18",
-     "known_as": null
-    },
-    {
-     "id": "zanskar.com",
-     "name": "Zanskar",
-     "domain": "zanskar.com",
-     "first_funded": "2021-02-18",
-     "known_as": "Zanskar"
-    },
-    {
-     "id": "noya.co",
-     "name": "Noya",
-     "domain": "noya.co",
-     "first_funded": "2021-01-28",
-     "known_as": null
-    },
-    {
-     "id": "n:stealth",
-     "name": "Stealth",
-     "domain": "",
-     "first_funded": "2021-01-25",
-     "known_as": null
-    },
-    {
-     "id": "crusoe.ai",
-     "name": "Crusoe",
-     "domain": "crusoe.ai",
-     "first_funded": "2021-01-25",
-     "known_as": "Crusoe Energy"
-    },
-    {
-     "id": "epochbiodesign.com",
-     "name": "Epoch",
-     "domain": "epochbiodesign.com",
-     "first_funded": "2021-01-25",
-     "known_as": "Epoch Biodesign"
-    },
-    {
-     "id": "remoracarbon.com",
-     "name": "Remora",
-     "domain": "remoracarbon.com",
-     "first_funded": "2021-01-20",
-     "known_as": null
-    },
-    {
-     "id": "nitricity.co",
-     "name": "Nitricity",
-     "domain": "nitricity.co",
-     "first_funded": "2020-09-25",
-     "known_as": "Nitricity"
-    },
-    {
-     "id": "mosameat.com",
-     "name": "Mosa",
-     "domain": "mosameat.com",
-     "first_funded": "2020-09-25",
-     "known_as": null
-    },
-    {
-     "id": "eatformo.com",
-     "name": "Formo",
-     "domain": "eatformo.com",
-     "first_funded": "2020-09-25",
-     "known_as": null
-    },
-    {
-     "id": "kulabio.com",
-     "name": "Kula",
-     "domain": "kulabio.com",
-     "first_funded": "2020-09-25",
-     "known_as": null
-    },
-    {
-     "id": "heartaerospace.com",
-     "name": "Heart",
-     "domain": "heartaerospace.com",
-     "first_funded": "2020-09-25",
-     "known_as": "Heart Aerospace"
-    },
-    {
-     "id": "frostmethane.com",
-     "name": "Frost Methane",
-     "domain": "frostmethane.com",
-     "first_funded": "2020-09-25",
-     "known_as": null
-    },
-    {
-     "id": "cfs.energy",
-     "name": "Commonwealth Fusion Systems",
-     "domain": "cfs.energy",
-     "first_funded": "2020-09-25",
-     "known_as": "Commonwealth Fusion Systems"
-    },
-    {
-     "id": "ecosafi.com",
-     "name": "Ecosafi",
-     "domain": "ecosafi.com",
-     "first_funded": "2020-09-25",
-     "known_as": null
-    },
-    {
-     "id": "charmindustrial.com",
-     "name": "Charm",
-     "domain": "charmindustrial.com",
-     "first_funded": "2020-09-25",
-     "known_as": "Charm Industrial"
-    },
-    {
-     "id": "dendra.io",
-     "name": "Dendra",
-     "domain": "dendra.io",
-     "first_funded": "2020-09-23",
-     "known_as": null
-    },
-    {
-     "id": "zapenergy.com",
-     "name": "Zap",
-     "domain": "zapenergy.com",
-     "first_funded": "2020-09-15",
-     "known_as": "Zap Energy"
-    },
-    {
-     "id": "loambio.com",
-     "name": "Loam",
-     "domain": "loambio.com",
-     "first_funded": "2020-09-15",
-     "known_as": null
-    },
-    {
-     "id": "pachama.com",
-     "name": "Pachama",
-     "domain": "pachama.com",
-     "first_funded": "2020-09-15",
-     "known_as": null
-    },
-    {
-     "id": "twelve.co",
-     "name": "Twelve",
-     "domain": "twelve.co",
-     "first_funded": "2020-09-15",
-     "known_as": "Twelve"
-    },
-    {
-     "id": "getlumen.com",
-     "name": "Lumen",
-     "domain": "getlumen.com",
-     "first_funded": "2020-09-15",
-     "known_as": null
-    },
-    {
-     "id": "carbonengineering.com",
-     "name": "Carbon Engineering",
-     "domain": "carbonengineering.com",
-     "first_funded": "2020-09-15",
-     "known_as": null
-    },
-    {
-     "id": "inrange.io",
-     "name": "InRange",
-     "domain": "inrange.io",
-     "first_funded": "2020-09-15",
-     "known_as": null
-    },
-    {
-     "id": "lilacsolutions.com",
-     "name": "Lilac",
-     "domain": "lilacsolutions.com",
-     "first_funded": "2020-09-11",
-     "known_as": "Lilac Solutions"
-    },
-    {
-     "id": "solugen.com",
-     "name": "Solugen",
-     "domain": "solugen.com",
-     "first_funded": "2020-09-11",
-     "known_as": "Solugen"
-    },
-    {
-     "id": "livingcarbon.com",
-     "name": "Living Carbon",
-     "domain": "livingcarbon.com",
-     "first_funded": "2020-09-10",
-     "known_as": "Living Carbon"
-    },
-    {
-     "id": "antora.com",
-     "name": "Antora",
-     "domain": "antora.com",
-     "first_funded": "2020-08-29",
-     "known_as": "Antora Energy"
-    },
-    {
-     "id": "entocycle.com",
-     "name": "Entocycle",
-     "domain": "entocycle.com",
-     "first_funded": "2020-08-21",
-     "known_as": null
-    }
-   ]
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://lowercarbon.com/wp-json/wp/v2/company?per_page=100&page=2&orderby=date&order=desc",
+   "stale_since": "2026-09-25T08:18:07.332095+00:00"
   },
   "Eclipse": {
    "name": "Eclipse Ventures",
    "url": "https://5uq66tk5.api.sanity.io/v2023-01-01/data/query/production",
    "kind": "sanity",
    "note": "Public Sanity dataset: websiteURL, foundedYear, founder",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 53,
    "tracked": 30,
    "overlap": 0.566,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 9,
    "rejected_by_bar": {
@@ -7632,12 +6925,12 @@
    "url": "https://8vc.com/companies",
    "kind": "cards_8vc",
    "note": "Webflow cards; company site in a hidden anchor",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 174,
    "tracked": 25,
    "overlap": 0.144,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 46,
    "rejected_by_bar": {
@@ -8872,12 +8165,12 @@
    "url": "https://www.luxcapital.com/companies",
    "kind": "cards_lux",
    "note": "28 featured companies, names only",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 28,
    "tracked": 12,
    "overlap": 0.429,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 13,
    "rejected_by_bar": {
@@ -9087,12 +8380,12 @@
    "url": "https://cantos.vc/",
    "kind": "links",
    "note": "Homepage grid; 11 of 13 already tracked at launch",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 13,
    "tracked": 12,
    "overlap": 0.923,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 1,
    "rejected_by_bar": {},
@@ -9195,12 +8488,12 @@
    "url": "https://riot.vc/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 28,
    "tracked": 14,
    "overlap": 0.5,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 7,
    "rejected_by_bar": {
@@ -9411,12 +8704,12 @@
    "url": "https://silentvc.com/",
    "kind": "links",
    "note": "Squarespace; 77% overlap in the Sept 2026 hand scan",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 56,
    "tracked": 37,
    "overlap": 0.661,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 6,
    "rejected_by_bar": {
@@ -9823,12 +9116,12 @@
    "url": "https://www.pax.vc/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 18,
    "tracked": 16,
    "overlap": 0.889,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 0,
    "rejected_by_bar": {
@@ -9968,12 +9261,12 @@
    "url": "https://www.primemoverslab.com/portfolio",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 30,
    "tracked": 16,
    "overlap": 0.533,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 12,
    "rejected_by_bar": {
@@ -10197,12 +9490,12 @@
    "url": "https://playground.global/portfolio/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 46,
    "tracked": 15,
    "overlap": 0.326,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 21,
    "rejected_by_bar": {
@@ -10540,12 +9833,12 @@
    "url": "https://seraphim.vc/portfolio",
    "kind": "links",
    "note": "Space-only fund; ~100 companies",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 102,
    "tracked": 16,
    "overlap": 0.157,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 68,
    "rejected_by_bar": {
@@ -11274,12 +10567,12 @@
    "url": "https://decisivepoint.com/portfolio",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 24,
    "tracked": 15,
    "overlap": 0.625,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 9,
    "rejected_by_bar": {},
@@ -11459,12 +10752,12 @@
    "url": "https://gigascale.com/portfolio/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 27,
    "tracked": 9,
    "overlap": 0.333,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 12,
    "rejected_by_bar": {
@@ -11668,12 +10961,12 @@
    "url": "https://www.iqt.org/portfolio/",
    "kind": "links",
    "note": "Page shows the first 15 only; the rest load on click",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 15,
    "tracked": 3,
    "overlap": 0.2,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 6,
    "rejected_by_bar": {
@@ -11792,12 +11085,12 @@
    "url": "https://caffeinatedcapital.com/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 14,
    "tracked": 4,
    "overlap": 0.286,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 5,
    "rejected_by_bar": {
@@ -11910,12 +11203,12 @@
    "url": "https://8090industries.com/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 1,
    "tracked": 0,
    "overlap": 0.0,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 1,
    "rejected_by_bar": {},
@@ -11934,12 +11227,12 @@
    "url": "https://harpoon.vc/portfolio/",
    "kind": "slugs",
    "note": "Subpage slugs only",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 60,
    "tracked": 19,
    "overlap": 0.317,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 41,
    "rejected_by_bar": {},
@@ -12371,12 +11664,12 @@
    "url": "https://shieldcap.com/portfolio/",
    "kind": "slugs",
    "note": "Subpage slugs only",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 8,
    "tracked": 3,
    "overlap": 0.375,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 5,
    "rejected_by_bar": {},
@@ -12444,12 +11737,12 @@
    "url": "https://www.congruentvc.com/portfolio",
    "kind": "slugs",
    "note": "",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 29,
    "tracked": 3,
    "overlap": 0.103,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 26,
    "rejected_by_bar": {},
@@ -12664,12 +11957,12 @@
    "url": "https://khoslaventures.com/portfolio/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 114,
    "tracked": 29,
    "overlap": 0.254,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 0,
    "rejected_by_bar": {
@@ -13481,12 +12774,12 @@
    "url": "https://valorep.com/portfolio/",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 36,
    "tracked": 7,
    "overlap": 0.194,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 0,
    "rejected_by_bar": {
@@ -13752,12 +13045,12 @@
    "url": "https://www.sparkcapital.com/companies",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 46,
    "tracked": 12,
    "overlap": 0.261,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 0,
    "rejected_by_bar": {
@@ -14093,12 +13386,12 @@
    "url": "https://draper.vc/companies",
    "kind": "links",
    "note": "",
-   "fetched_at": "2026-09-25T07:59:45.838940+00:00",
+   "fetched_at": "2026-09-25T08:18:07.332095+00:00",
    "count": 93,
    "tracked": 8,
    "overlap": 0.086,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
    "candidates": 0,
    "rejected_by_bar": {
@@ -18385,6 +17678,515 @@
   "clearstorydata.com": {
    "error": "ReadTimeout",
    "fetched": "2026-09-25"
+  },
+  "clover.com": {
+   "title": "POS System & Credit Card Readers | Clover",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.clover.com/",
+   "status": 200
+  },
+  "coinbase.com": {
+   "title": "Coinbase - Buy and Sell Bitcoin, Ethereum, and more with trust",
+   "description": "Coinbase is a secure online platform for buying, selling, transferring, and storing cryptocurrency.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.coinbase.com/",
+   "status": 200
+  },
+  "cumulusnetworks.com": {
+   "title": "Ethernet Switching for AI and the Cloud | NVIDIA",
+   "description": "NVIDIA combines the benefits of NVIDIA Spectrum switches, based on industry-leading application-specific integrated circuit (ASIC) technology.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.nvidia.com/en-us/networking/ethernet-switching/",
+   "status": 200
+  },
+  "cursor.com": {
+   "title": "AI Coding Agent for Building Ambitious Software | Cursor",
+   "description": "Built to make you extraordinarily productive, agents turn ideas into code. Accelerate development by handing off tasks to Cursor.",
+   "fetched": "2026-09-25",
+   "final_url": "https://cursor.com/",
+   "status": 200
+  },
+  "getdbt.com": {
+   "title": "Deliver trusted data with dbt | dbt Labs",
+   "description": "dbt Labs empowers data teams to build reliable, governed data pipelines\u2014accelerating analytics and AI initiatives with speed and confidence.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.getdbt.com/",
+   "status": 200
+  },
+  "deepmap.ai": {
+   "title": "Robotaxis, Autonomous Vehicles & Self-Driving Cars | NVIDIA",
+   "description": "Accelerate Robotaxi and Autonomous Vehicle Development with NVIDIA\u2019s end-to-end platform for Level 4 autonomy and AI-defined mobility. Explore our full-stack solutions.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.nvidia.com/en-us/solutions/autonomous-vehicles/",
+   "status": 200
+  },
+  "delphix.com": {
+   "title": "Perforce Delphix | Intelligent Data Automation Platform",
+   "description": "Unify data delivery, governance, and compliance in one intelligent data automation platform. Perforce Delphix delivers fast, compliant, AI-ready data \u2014 anywhere.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.perforce.com/products/delphix",
+   "status": 200
+  },
+  "digitalocean.com": {
+   "title": "AI-Native Cloud | DigitalOcean",
+   "description": "Run AI products in production with a unified stack for agents, inference, and cloud\u2014built for control, performance, and economics at scale.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.digitalocean.com/",
+   "status": 200
+  },
+  "dishpatch.co.uk": {
+   "title": "The Best Restaurant Meal Kits, Delivered Nationwide | Dishpatch",
+   "description": "We deliver the dishes you can't get. Anywhere. Dishpatch: exclusive menus prepared by chefs & delivered nationwide, ready for you to finish and serve.",
+   "fetched": "2026-09-25",
+   "final_url": "https://dishpatch.co.uk/",
+   "status": 200
+  },
+  "dollarshaveclub.com": {
+   "title": "Razors, Handles & Grooming Goodness | Dollar Shave Club",
+   "description": "Explore Dollar Shave Club\u2019s full range of grooming products. Discover high-quality razors, skincare, and more for a complete grooming experience.",
+   "fetched": "2026-09-25",
+   "final_url": "https://us.dollarshaveclub.com/",
+   "status": 200
+  },
+  "earn.com": {
+   "title": "Coinbase Earn: Put your crypto to work and earn rewards",
+   "description": "With Coinbase Earn, we'll help you put your assets to work in the cryptoeconomy so you can grow your crypto holdings with little effort.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.coinbase.com/earn?claim=true",
+   "status": 200
+  },
+  "eqrx.com": {
+   "error": "ConnectionError",
+   "fetched": "2026-09-25"
+  },
+  "erasca.com": {
+   "title": "Home - Erasca",
+   "description": "Erasca is a clinical-stage precision oncology company driven by a bold mission\u2014to erase cancer. We are on a journey to shut down one of cancer\u2019s most commonly mutated signaling cascades, the RAS/MAPK pathway, which affects approximately 5.5 million lives each year worldwide. Our promising pipeline t",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.erasca.com/",
+   "status": 200
+  },
+  "factual.com": {
+   "error": "SSLError",
+   "fetched": "2026-09-25"
+  },
+  "fiftythree.com": {
+   "error": "ConnectionError",
+   "fetched": "2026-09-25"
+  },
+  "firefly.health": {
+   "title": "Health Plans & Primary Care | Firefly Health",
+   "description": "Firefly is a refreshingly convenient healthcare experience delivered through comprehensive care and an affordable employer-sponsored health plan.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.fireflyhealth.com/?redirected=true",
+   "status": 200
+  },
+  "firstbasehq.com": {
+   "title": "Firstbase - A Single Platform to Equip Teams and Manage Assets Globally",
+   "description": "Equip remote and hybrid workers for success across the entire employee journey with the Firstbase platform. Firstbase powers a complete equipment lifecycle, fusing SaaS automation with world-class physical operations. Simplify onboarding, streamline offboarding, centralize and simplify asset managem",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.firstbase.com/",
+   "status": 200
+  },
+  "flutter.dev": {
+   "title": "Flutter - Build apps for any screen",
+   "description": "Flutter transforms the entire app development process. Build, test, and deploy beautiful mobile, web, desktop, and embedded apps from a single codebase.",
+   "fetched": "2026-09-25",
+   "final_url": "https://flutter.dev/",
+   "status": 200
+  },
+  "fusionio.com": {
+   "error": "ConnectionError",
+   "fetched": "2026-09-25"
+  },
+  "gainspeed.com": {
+   "error": "ConnectionError",
+   "fetched": "2026-09-25"
+  },
+  "genius.com": {
+   "title": "Genius",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://genius.com/",
+   "status": 403
+  },
+  "github.com": {
+   "title": "GitHub \u00b7 Change is constant. GitHub keeps you ahead. \u00b7 GitHub",
+   "description": "Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.",
+   "fetched": "2026-09-25",
+   "final_url": "https://github.com/",
+   "status": 200
+  },
+  "gobble.com": {
+   "title": "Gobble: 15-Minute Meal Kits Delivered to Your Doorstep",
+   "description": "Gobble delivers freshly prepped meal kits that transform into delicious dinners in 15 minutes. Enjoy chef-designed recipes & flexible plans.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.gobble.com/",
+   "status": 200
+  },
+  "golden.com": {
+   "title": "Golden \u00e2\u0080\u0094 the knowledge graph now part of ComplyAdvantage",
+   "description": "Golden built one of the world's largest self-constructing knowledge graphs. Founded in 2017 by Jude Gomila and backed by a16z, Founders Fund and Gigafund, Golden was acquired by ComplyAdvantage in 2024.",
+   "fetched": "2026-09-25",
+   "final_url": "https://golden.com/",
+   "status": 200
+  },
+  "granular.ag": {
+   "title": "Granular Insights",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://us.app.granular.ag",
+   "status": 200
+  },
+  "graphite.dev": {
+   "title": "Graphite - Code review for the age of AI",
+   "description": "Graphite helps teams on GitHub deliver higher quality software, faster.",
+   "fetched": "2026-09-25",
+   "final_url": "https://graphite.com/",
+   "status": 200
+  },
+  "grep.ly": {
+   "title": "Grep.ly - Search Creators and Brand NFT Digital Assets",
+   "description": "Grep.ly is a search engine to find artists, creators and brands with NFT digital asset ownership",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.grep.ly/",
+   "status": 200
+  },
+  "groupon.com": {
+   "title": "Just a moment...",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.groupon.com/",
+   "status": 403
+  },
+  "stuzo.com": {
+   "title": "Fuel Your Growth - Par-Retail",
+   "description": "Create a profit center for your brand with convenience store loyalty programs that maximize visits, transactions, and in-store spend.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.parretail.com:443/",
+   "status": 200
+  },
+  "hopin.com": {
+   "title": "Hopin is now RingCentral Events",
+   "description": "Run engaging webinar and event experiences that reflect your brand, build community, and create a lasting impression on your audience.",
+   "fetched": "2026-09-25",
+   "final_url": "https://hopin.com/",
+   "status": 200
+  },
+  "humanapi.co": {
+   "title": "Just a moment...",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://risk.lexisnexis.com/products/health-intelligence-ehr",
+   "status": 403
+  },
+  "icracked.com": {
+   "title": "iCracked.com",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://icracked.com/",
+   "status": 500
+  },
+  "idrx.com": {
+   "title": "Home | GSK",
+   "description": "At GSK, we unite science, technology and talent to get ahead of disease together",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.gsk.com/en-gb/",
+   "status": 200
+  },
+  "imgur.com": {
+   "title": "Imgur: The magic of the Internet",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://imgur.com/",
+   "status": 200
+  },
+  "instacart.com": {
+   "title": "Instacart | Grocery Delivery or Pickup from Local Stores Near You",
+   "description": "Order same-day delivery or pickup from more than 300 retailers and grocers. Download the Instacart app or start shopping online now with Instacart to get groceries, alcohol, home essentials, and more delivered to you <b>in as fast as 1 hour</b> or select curbside pickup from your favorite local stor",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.instacart.com/",
+   "status": 200
+  },
+  "instagram.com": {
+   "title": "Instagram",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.instagram.com/",
+   "status": 200
+  },
+  "intrinsic.com": {
+   "error": "ConnectTimeout",
+   "fetched": "2026-09-25"
+  },
+  "isovalent.com": {
+   "title": "Isovalent | eBPF-Powered Kubernetes Networking and Security",
+   "description": "Isovalent delivers Cilium-based, eBPF-powered solutions for secure, observable, and scalable Kubernetes networking, trusted by top enterprises.",
+   "fetched": "2026-09-25",
+   "final_url": "https://isovalent.com/",
+   "status": 200
+  },
+  "jopwell.com": {
+   "title": "Talent Management and Executive Search: Globally Trusted \u2014 True",
+   "description": "Data-driven executive search and talent management, refined. True combines global reach and deep insight to help you find the right leaders\u2014fast. Learn more.",
+   "fetched": "2026-09-25",
+   "final_url": "https://trueplatform.com/",
+   "status": 200
+  },
+  "julep.com": {
+   "title": "Eyeshadow, Beauty Products & Skincare \u2013 Julep",
+   "description": "We are Julep, creators of innovative makeup, skincare, nail polish & sets. Every day is a chance to Brave Pretty.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.julep.com/",
+   "status": 200
+  },
+  "keybase.io": {
+   "title": "Keybase",
+   "description": "Keybase is for keeping everyone's chats and files safe, from families to communities to companies. MacOS, Windows, Linux, iPhone, and Android.",
+   "fetched": "2026-09-25",
+   "final_url": "https://keybase.io/",
+   "status": 200
+  },
+  "knowable.fyi": {
+   "title": "Knowable",
+   "description": "Comprehensive, podcast-style audio courses for curious minds.",
+   "fetched": "2026-09-25",
+   "final_url": "https://knowable.fyi/",
+   "status": 200
+  },
+  "li.me": {
+   "title": "Just a moment...",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.li.me/",
+   "status": 403
+  },
+  "limitless.ai": {
+   "title": "Limitless",
+   "description": "Go beyond your mind\u2019s limitations: Personalized AI powered by what you\u2019ve seen, said, and heard.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.limitless.ai/",
+   "status": 200
+  },
+  "getlocalmotion.com": {
+   "error": "ConnectionError",
+   "fetched": "2026-09-25"
+  },
+  "loom.com": {
+   "title": "Free screen recorder for Mac and PC | Loom",
+   "description": "Best free online screen recording tool with advanced video editing and video storage trusted by over 22 million people and easy sharing from Loom.com.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.loom.com/",
+   "status": 200
+  },
+  "lowkey.gg": {
+   "error": "ConnectTimeout",
+   "fetched": "2026-09-25"
+  },
+  "judgeholdings.com": {
+   "error": "SSLError",
+   "fetched": "2026-09-25"
+  },
+  "lyrebird.ai": {
+   "title": "Research",
+   "description": "We develop our own AI models for audio and video generation, editing, and understanding. They power Descript's video editing workflows.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.descript.com/research",
+   "status": 200
+  },
+  "lytro.com": {
+   "title": "Raytrix | 3D light field camera technology",
+   "description": "The Raytrix Light Field Technology provides 3D capture and high resolution with different one shot cameras. 3D camera | Light field camera",
+   "fetched": "2026-09-25",
+   "final_url": "https://raytrix.de/",
+   "status": 404
+  },
+  "mediachain.io": {
+   "error": "SSLError",
+   "fetched": "2026-09-25"
+  },
+  "memorahealth.com": {
+   "title": "Digitize & Automate Care Programs | Memora Health",
+   "description": "Simplify how patients and clinicians navigate complex care delivery.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.memorahealth.com/",
+   "status": 200
+  },
+  "metronome.com": {
+   "title": "Metronome | Usage-Based Billing Platform",
+   "description": "Metronome is the usage-based billing platform that helps you launch products faster. Easily model your pricing today, iterate confidently tomorrow.",
+   "fetched": "2026-09-25",
+   "final_url": "https://metronome.com/",
+   "status": 200
+  },
+  "nautilus.bio": {
+   "title": "Unlocking the proteome to fuel a new era of scientific discovery",
+   "description": "Groundbreaking but painstaking work with traditional proteomics platforms has made it clear that full knowledge of the proteome is necessary for true breakthroughs in basic biology, medicine, biotechnology, and more.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.nautilus.bio/",
+   "status": 200
+  },
+  "vmware.com": {
+   "title": "VMware Cloud Foundation Networking (NSX)",
+   "description": "Explore how VCF networking delivers high-performance connectivity, network services, and agile operations for workloads.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.vmware.com/products/cloud-infrastructure/vcf-networking",
+   "status": 200
+  },
+  "store.facebook.com": {
+   "title": "Error | Meta Store",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.meta.com/quest/",
+   "status": 400
+  },
+  "okta.com": {
+   "title": "Secure Identity for Employees, Customers, and AI | Okta",
+   "description": "The Okta and Auth0 Platforms enable secure access, authentication, and automation \u2014 putting identity at the heart of business security and growth.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.okta.com/",
+   "status": 200
+  },
+  "omadahealth.com": {
+   "title": "Manage Chronic Conditions & Embrace Your Health | Omada Health",
+   "description": "Omada is a virtual care solution with personalized chronic disease management programs designed to adapt to every member. Check your eligibility today!",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.omadahealth.com/",
+   "status": 200
+  },
+  "onshape.com": {
+   "title": "Onshape | Product Development Platform",
+   "description": "Onshape is a product development platform that brings together all the tools needed to develop a product from conception to production.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.onshape.com/en/",
+   "status": 200
+  },
+  "opendoor.com": {
+   "title": "Opendoor | Sell your home the minute you\u2019re ready.",
+   "description": "Opendoor is the new way to sell your home. Skip the hassle of listing, showings and months of stress, and close on your own timeline. Get a free offer today!",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.opendoor.com/",
+   "status": 200
+  },
+  "openinvest.com": {
+   "error": "SSLError",
+   "fetched": "2026-09-25"
+  },
+  "optimizely.com": {
+   "title": "Optimizely - AI to create and optimize digital experiences",
+   "description": "Everything marketing and digital teams need to create content fast, test and personalize, and prove business impact.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.optimizely.com/",
+   "status": 200
+  },
+  "optimyze.cloud": {
+   "error": "ConnectionError",
+   "fetched": "2026-09-25"
+  },
+  "orbitaltx.com": {
+   "title": "Bristol Myers Squibb - Global Biopharmaceutical Company",
+   "description": "Bristol Myers Squibb is a global biopharmaceutical company committed to discovering, developing and delivering innovative medicines to patients with serious diseases.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.bms.com",
+   "status": 200
+  },
+  "pagerduty.com": {
+   "title": "PagerDuty: The AI-First Operations Platform",
+   "description": "Turn incidents into intelligence. PagerDuty's AI-first Operations Platform helps you automate, resolve, and prevent critical issues \u2014 from detection to resolution.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.pagerduty.com/",
+   "status": 200
+  },
+  "parsecgaming.com": {
+   "title": "Connect to Work or Games from Anywhere | Parsec",
+   "description": "Parsec is a remote desktop you'll actually love. Connect to work, games, or projects wherever you are, whenever you want.",
+   "fetched": "2026-09-25",
+   "final_url": "https://parsec.app/",
+   "status": 200
+  },
+  "patch.bio": {
+   "title": "",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.patch.bio/",
+   "status": 200
+  },
+  "patientping.com": {
+   "title": "Bamboo Health",
+   "description": "Bamboo Health delivers actionable insights across physical, behavioral & social health to improve care coordination, reduce risk and drive stronger patient outcomes nationwide.",
+   "fetched": "2026-09-25",
+   "final_url": "https://bamboohealth.com/",
+   "status": 200
+  },
+  "pinterest.com": {
+   "title": "Pinterest",
+   "description": "Discover recipes, home ideas, style inspiration and other ideas to try.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.pinterest.com/",
+   "status": 200
+  },
+  "pixate.com": {
+   "title": "Pixate",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "http://pixate.com/",
+   "status": 200
+  },
+  "platfora.com": {
+   "error": "ConnectionError",
+   "fetched": "2026-09-25"
+  },
+  "prepared911.com": {
+   "title": "AI-powered solutions for emergency response",
+   "description": "The end-to-end assistive AI platform for emergency response. Seamless AI assistance integrated into every stage of the emergency response process.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.prepared911.com/",
+   "status": 200
+  },
+  "producthunt.com": {
+   "title": "Just a moment...",
+   "description": "",
+   "fetched": "2026-09-25",
+   "final_url": "https://producthunt.com/",
+   "status": 403
+  },
+  "promptfoo.dev": {
+   "title": "Build Secure AI Applications | Promptfoo",
+   "description": "The AI Security Platform that catches vulnerabilities in development. Trusted by 156 of the Fortune 500 and 300,000+ developers worldwide.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.promptfoo.dev/",
+   "status": 200
+  },
+  "quantopian.com": {
+   "error": "ConnectTimeout",
+   "fetched": "2026-09-25"
+  },
+  "readyplayer.me": {
+   "error": "ConnectionError",
+   "fetched": "2026-09-25"
+  },
+  "redhotlabs.com": {
+   "error": "SSLError",
+   "fetched": "2026-09-25"
+  },
+  "redditinc.com": {
+   "title": "Reddit Inc Homepage",
+   "description": "Homepage - Reddit",
+   "fetched": "2026-09-25",
+   "final_url": "https://redditinc.com/",
+   "status": 200
+  },
+  "reflektive.com": {
+   "error": "TooManyRedirects",
+   "fetched": "2026-09-25"
+  },
+  "reforge.com": {
+   "title": "Reforge | Product Management Courses for Individuals & Teams",
+   "description": "Reforge connects you with insights from vetted operators that will drive impact for your team.",
+   "fetched": "2026-09-25",
+   "final_url": "https://www.reforge.com/",
+   "status": 200
   }
  }
 }
