@@ -1,0 +1,130 @@
+name: VC Portfolio Watcher
+
+# Reads the portfolio pages of the funds whose taste matches this database
+# (a16z's embedded JSON, Founders Fund's and Lowercarbon's WordPress feeds,
+# Eclipse's Sanity dataset, and the link grids of the specialist seed funds),
+# diffs each fund's holdings against last week's snapshot, and queues the
+# holdings we do not track, ranked by how much of that fund we already hold.
+# Writes to a review queue, never to data.js.
+#
+# Replaces the sync-vc-portfolios job of comprehensive-data-sync.yml, which
+# ran green daily for six months while matching fund pages against 17 names.
+
+on:
+  schedule:
+    - cron: '40 7 * * 1'        # Mondays 07:40 UTC, after the curated-list watcher
+  workflow_dispatch:
+    inputs:
+      fund:
+        description: 'One fund key from FUNDS in scripts/fetch_vc_portfolio_watcher.py (blank = all)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vc-portfolio-watcher
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+
+      # Exits non-zero when a fund breaks (fetch error, or it suddenly parses
+      # nothing / under half of last week's count). continue-on-error lets the
+      # healthy funds still commit; the final step turns the run red.
+      - name: Run watcher
+        id: watch
+        continue-on-error: true
+        env:
+          FUND: ${{ github.event.inputs.fund }}
+        run: |
+          if [ -n "$FUND" ]; then
+            python3 scripts/fetch_vc_portfolio_watcher.py --max-resolve 80 --fund "$FUND"
+          else
+            python3 scripts/fetch_vc_portfolio_watcher.py --max-resolve 80
+          fi
+
+      - name: Rebuild the discovery queue members see
+        run: python3 scripts/build_discovery_queue.py || true
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit and push (retry on conflict)
+        run: |
+          FILES="data/vc_portfolio_snapshots.json data/vc_portfolio_watch_auto.json \
+                 data/vc_portfolio_watch_auto.js data/vc_portfolio_review_queue.json \
+                 data/vc_portfolio_changes.json data/vc_portfolio_investor_backfill.json \
+                 data/discovery_queue_auto.json data/discovery_queue_auto.js"
+          for attempt in 1 2 3 4 5; do
+            git stash --include-untracked 2>/dev/null || true
+            git pull --rebase origin main || git rebase --abort 2>/dev/null || true
+            if ! git stash pop 2>/dev/null; then
+              if git stash list | grep -q .; then
+                git stash drop 2>/dev/null || true
+                git diff --name-only --diff-filter=U | xargs -r git checkout HEAD --
+                python3 scripts/fetch_vc_portfolio_watcher.py --max-resolve 40 || true
+                python3 scripts/build_discovery_queue.py || true
+              fi
+            fi
+            git add $FILES 2>/dev/null || true
+            if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+            git commit -m "🏦 VC portfolio watcher: $(date -u +%Y-%m-%d)"
+            git push origin main && exit 0
+            git reset --soft HEAD~1
+            sleep $((attempt * 5))
+          done
+          echo "::error::push failed after 5 attempts"; exit 1
+
+      - name: Surface new holdings and candidates in the run summary
+        if: always()
+        run: |
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, pathlib
+          rep = pathlib.Path("data/vc_portfolio_watch_auto.json")
+          d = json.loads(rep.read_text()) if rep.exists() else {"funds": {}}
+          print("## VC portfolio watcher\n")
+          print("| Fund | Holdings | Tracked | Overlap | New this run | Candidates | Status |")
+          print("|---|---|---|---|---|---|---|")
+          for key, f in sorted(d.get("funds", {}).items(), key=lambda kv: -(kv[1].get("overlap") or 0)):
+              status = f"FAILED: {f['error'][:60]}" if f.get("error") else ("baseline" if f.get("baseline") else "ok")
+              print(f"| {key} | {f.get('count','')} | {f.get('tracked','')} | "
+                    f"{(f.get('overlap') or 0):.0%} | {f.get('new_this_run','')} | {f.get('candidates','')} | {status} |")
+          new = [(k, n) for k, f in d.get("funds", {}).items() for n in (f.get("new_names") or [])]
+          if new:
+              print(f"\n**{len(new)} holdings first seen this run:** " + ", ".join(f"{n} ({k})" for k, n in new[:60]))
+          q = pathlib.Path("data/vc_portfolio_review_queue.json")
+          rows = json.loads(q.read_text()) if q.exists() else []
+          pending = [r for r in rows if r.get("status") == "pending"]
+          pending.sort(key=lambda r: (-(r.get("fund_overlap") or 0), -(r.get("listed_by") or 0)))
+          print(f"\n**{len(pending)} candidates awaiting review** — not written to data.js.\n")
+          print("| Candidate | Listed by | Fund overlap | First funded | What |")
+          print("|---|---|---|---|---|")
+          for r in pending[:40]:
+              funds = ", ".join(f["fund"] for f in r.get("funds", []))
+              maybe = (" · **maybe already tracked as " + ", ".join(r["possible_match"]) + "**") if r.get("possible_match") else ""
+              print(f"| [{r.get('name','')}]({r.get('website') or r['funds'][0].get('source_url','')}) | {funds} | "
+                    f"{(r.get('fund_overlap') or 0):.0%} | {r.get('since','')} | {(r.get('tagline') or '')[:90]}{maybe} |")
+          b = pathlib.Path("data/vc_portfolio_investor_backfill.json")
+          if b.exists():
+              bf = json.loads(b.read_text())
+              print(f"\n**{bf.get('count', 0)} investor back-fills suggested** "
+                    "(apply with `python3 scripts/apply_investor_backfill.py --apply`).")
+          PY
+
+      - name: Fail the run if a fund broke
+        if: steps.watch.outcome == 'failure'
+        run: |
+          echo "::error::A fund page failed or parsed far fewer holdings than last week. Its last good data was kept; see the summary and fix that fund's adapter in scripts/fetch_vc_portfolio_watcher.py."
+          exit 1

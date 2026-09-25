@@ -10,9 +10,11 @@ that should be added to the ROS database:
        — Filter: company NOT in COMPANIES, optionally with frontier-tech
          investor lead.
 
-  2. VC portfolio diffs    (data/vc_portfolio_changes.json)
-       — Weekly diff of 16 elite VC portfolio pages (a16z, Founders Fund,
-         Lux, Sequoia, etc.). New entries = high-conviction signal.
+  2. VC portfolio watcher  (data/vc_portfolio_review_queue.json)
+       — Weekly read of ~25 fund portfolio pages and feeds (a16z's embedded
+         JSON, Founders Fund's WordPress feed, Eclipse's CMS, the specialist
+         seed funds' link grids). Holdings we don't track, ranked by how much
+         of that fund we already hold.
 
   3. Newsletter mentions   (data/newsletter_signals_auto.json)
        — RSS pull from 8 elite frontier-tech newsletters with NER-lite
@@ -182,30 +184,44 @@ def collect_form_d_signals(known):
 
 
 def collect_vc_portfolio_signals(known):
-    """VC portfolio diffs → candidate dicts."""
-    fp = DATA_DIR / "vc_portfolio_changes.json"
+    """VC Portfolio Watcher candidates → candidate dicts, one signal per fund listing.
+
+    Reads data/vc_portfolio_review_queue.json (scripts/fetch_vc_portfolio_watcher.py).
+    Until 2026-09-25 this read vc_portfolio_changes.json, which by construction
+    holds only companies we already track, so after the is_known filter the VC
+    source contributed nothing real — the junk it did contribute ("Founder
+    Tier", OpenAI) came from a scraper matching against 17 names.
+
+    Weight follows the fund's overlap with the database rather than a fixed
+    list of famous names: a holding of a fund we already 40%+ agree with is a
+    strong signal; a generalist's is not.
+    """
+    fp = DATA_DIR / "vc_portfolio_review_queue.json"
     if not fp.exists():
         return []
-    changes = json.load(open(fp))
     out = []
-    for c in changes:
-        company = (c.get("company") or "").strip()
-        vc = (c.get("vc") or "").strip()
-        if not company or not vc:
+    for q in json.load(open(fp)):
+        if q.get("status") != "pending":
             continue
-        if is_known(company, known):
+        name = (q.get("name") or "").strip()
+        if not name or is_known(name, known):
             continue
-        # Higher weight if added to a frontier-tech VC's portfolio
-        weight = 35 if vc.lower() in FRONTIER_TECH_VCS else 18
-        out.append({
-            "name": company,
-            "source": f"VC portfolio: {vc}",
-            "sourceWeight": weight,
-            "vc": vc,
-            "date": c.get("detected_date"),
-            "verifyUrl": c.get("source"),
-            "context": f"Newly listed in {vc} portfolio on {c.get('detected_date','?')}",
-        })
+        overlap = q.get("fund_overlap") or 0
+        weight = 35 if overlap >= 0.4 else (25 if overlap >= 0.25 else 18)
+        tagline = (q.get("tagline") or "")[:200]
+        for f in q.get("funds", []):
+            vc = f.get("fund", "")
+            when = f.get("first_funded") or q.get("since") or (q.get("detected_at") or "")[:10]
+            ctx = f"Listed by {vc}" + (f", first funded {f['first_funded']}" if f.get("first_funded") else "")
+            out.append({
+                "name": name,
+                "source": f"VC portfolio: {vc}",
+                "sourceWeight": weight,
+                "vc": vc,
+                "date": when,
+                "verifyUrl": q.get("website") or f.get("source_url"),
+                "context": ctx + (f": {tagline}" if tagline else ""),
+            })
     return out
 
 

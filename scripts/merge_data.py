@@ -1086,9 +1086,13 @@ def update_vc_portfolios(data_js_content):
     # Use a more targeted regex: find the COMPANIES array and extract names from it
     companies_match = re.search(r'const COMPANIES = \[', data_js_content)
     if companies_match:
-        # Extract names only from the COMPANIES section (first ~500K chars after the array start)
+        # Extract names only from the COMPANIES section. It ends at the next
+        # top-level `const`; the old fixed 600K window stopped a third of the
+        # way through once the array passed 3MB, so most companies were
+        # "untracked" here and never added to a fund's portfolioCompanies.
         companies_start = companies_match.start()
-        companies_section = data_js_content[companies_start:companies_start + 600000]
+        companies_end = data_js_content.find("\nconst ", companies_start + 20)
+        companies_section = data_js_content[companies_start:companies_end if companies_end > 0 else None]
         tracked_companies = set(re.findall(r'name:\s*"([^"]+)"', companies_section))
     else:
         tracked_companies = set(re.findall(r'name:\s*"([^"]+)"', data_js_content[:500000]))

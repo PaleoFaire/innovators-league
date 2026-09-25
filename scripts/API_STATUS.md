@@ -153,7 +153,7 @@ These scripts exist in `scripts/` and should be audited on a future pass. Listed
 | `fetch_sec_filings.py` | sec.gov EDGAR | No |
 | `fetch_stocks.py` | yfinance / mixed | No |
 | `fetch_usaspending.py` | api.usaspending.gov | No |
-| `fetch_vc_portfolios.py` | mixed scraping | No |
+| `fetch_vc_portfolio_watcher.py` | fund feeds + pages (a16z JSON, WP, Sanity, links) | No |
 
 ---
 

@@ -85,7 +85,7 @@ SOURCES = [
     ("sector_momentum", "Sector Momentum", "sector_momentum_auto.json"),
     ("valuation_benchmarks", "Valuation Benchmarks", "valuation_benchmarks_auto.json"),
     ("revenue_intel", "Revenue Intel", "revenue_intel_auto.json"),
-    ("vc_portfolios", "VC Portfolios", "vc_portfolio_changes.json"),
+    ("vc_portfolios", "VC Portfolio Watcher", "vc_portfolio_watch_auto.json"),
     ("twitter", "Twitter Signals", "twitter_signals_auto.json"),
     ("podcasts", "Podcast Mentions", "podcast_mentions_auto.json"),
     # New sources added in this pass
