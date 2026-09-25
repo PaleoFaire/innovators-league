@@ -312,8 +312,18 @@ def looks_like_fund(name: str, blurb: str = "") -> bool:
 
 
 def get(url: str, **kw) -> requests.Response:
-    r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True, **kw)
-    r.raise_for_status()
+    """GET with a polite retry: a 429 or 5xx is a busy server, not a broken fund.
+    Lowercarbon's WordPress feed answered 429 on page 2 from a GitHub runner
+    on the first CI run and the guard marked the fund broken."""
+    for attempt, pause in enumerate((0, 4, 10, 20)):
+        if pause:
+            time.sleep(pause)
+        r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True, **kw)
+        if r.status_code in (429, 502, 503, 504) and attempt < 3:
+            continue
+        r.raise_for_status()
+        return r
+    r.raise_for_status()                                   # pragma: no cover
     return r
 
 
@@ -456,11 +466,14 @@ def extract_wp_company(fund: dict) -> list[dict]:
     site = dom(base)
     out, page = [], 1
     while True:
-        r = requests.get(f"{base}?per_page=100&page={page}&orderby=date&order=desc",
-                         headers=HEADERS, timeout=TIMEOUT)
-        if r.status_code == 400:            # past the last page
-            break
-        r.raise_for_status()
+        if page > 1:
+            time.sleep(2)                    # WordPress rate-limits fast page turns
+        try:
+            r = get(f"{base}?per_page=100&page={page}&orderby=date&order=desc")
+        except requests.HTTPError as e:
+            if e.response is not None and e.response.status_code == 400:
+                break                        # past the last page
+            raise
         rows = r.json()
         if not rows:
             break
