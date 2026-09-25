@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-24T22:12:13.142542+00:00",
-  "date": "2026-09-24",
-  "dateDisplay": "Thursday, September 24, 2026",
+  "generatedAt": "2026-09-25T01:22:45.793368+00:00",
+  "date": "2026-09-25",
+  "dateDisplay": "Friday, September 25, 2026",
   "sections": {
     "govActivity": [
       {
@@ -63,30 +63,30 @@
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 365.99,
-        "changePercent": 24.67,
-        "change": 72.43
+        "price": 360.51,
+        "changePercent": 22.81,
+        "change": 66.95
       },
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 619.79,
-        "changePercent": 13.7,
-        "change": 74.7
+        "price": 629.26,
+        "changePercent": 15.44,
+        "change": 84.17
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
         "price": 0.68,
-        "changePercent": 12.65,
-        "change": 0.08
+        "changePercent": 12.09,
+        "change": 0.07
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 44.93,
-        "changePercent": 11.38,
-        "change": 4.59
+        "price": 44.98,
+        "changePercent": 11.5,
+        "change": 4.64
       },
       {
         "ticker": "DRSHF",
@@ -96,11 +96,11 @@
         "change": -0.14
       },
       {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 74.65,
-        "changePercent": 10.07,
-        "change": 6.83
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals",
+        "price": 3.89,
+        "changePercent": 9.89,
+        "change": 0.35
       },
       {
         "ticker": "PLTR",
@@ -110,11 +110,11 @@
         "change": 16.35
       },
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 6.02,
-        "changePercent": 9.26,
-        "change": 0.51
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 73.61,
+        "changePercent": 8.54,
+        "change": 5.79
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ALAB +24.7%"
+    "topMover": "ALAB +22.8%"
   }
 }
