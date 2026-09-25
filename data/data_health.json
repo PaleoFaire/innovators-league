@@ -1,6 +1,6 @@
 {
   "workflow": "comprehensive-data-sync",
-  "generated_at": "2026-09-24T13:00:45.876391+00:00",
+  "generated_at": "2026-09-25T12:53:23.037142+00:00",
   "steps": {
     "hackernews": "success",
     "press_releases": "success",
@@ -20,15 +20,14 @@
     "sbir_awards": "success",
     "nih_grants": "success",
     "arpa_e": "success",
-    "vc_portfolios": "success",
     "funding_rss": "success",
     "github_signals": "success",
     "podcast_mentions": "success",
     "merge_all_data": "success"
   },
   "summary": {
-    "total": 23,
-    "succeeded": 23,
+    "total": 22,
+    "succeeded": 22,
     "failed": 0,
     "skipped": 0
   },
@@ -51,7 +50,6 @@
     "sbir_awards",
     "nih_grants",
     "arpa_e",
-    "vc_portfolios",
     "funding_rss",
     "github_signals",
     "podcast_mentions",
