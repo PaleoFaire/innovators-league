@@ -772,9 +772,17 @@ def main() -> int:
     # ── second pass: a name learnt from the company's site may match after all ──
     rematched = 0
     for key, fund, overlap, h, is_new in raw_cands:
-        if h.get("known_as") or not h["name"]:
+        if h.get("known_as"):
             continue
-        known, how = resolve_known(h, db)
+        known, how = (None, "")
+        # A fund often links an old domain that now redirects to the one we
+        # hold (firehawkaerospace.com -> firehawkdefense.com). The homepage
+        # fetch recorded where it landed; match on that first.
+        final = dom((site_meta.get(h["domain"]) or {}).get("final_url", "")) if h["domain"] else ""
+        if final and final != h["domain"] and final in db["by_domain"]:
+            known, how = db["by_domain"][final], "domain"
+        elif h["name"]:
+            known, how = resolve_known(h, db)
         if not known:
             continue
         h["known_as"] = known
