@@ -289,18 +289,6 @@
   },
   {
     "company": "Anduril",
-    "awardId": "H9240225FE031",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 13278763.7,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2025-09-22",
-    "endDate": "2026-04-20",
-    "description": "TO 116 - HEIMDALL PROCUREMENT AND CL BUY OUT"
-  },
-  {
-    "company": "Anduril",
     "awardId": "H9240226FE002",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 12846190.82,
@@ -793,18 +781,6 @@
   },
   {
     "company": "Anduril",
-    "awardId": "70B02C23F00000795",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 3110438.0,
-    "agency": "Department of Homeland Security",
-    "subAgency": "U.S. Customs and Border Protection",
-    "awardType": null,
-    "startDate": "2023-08-02",
-    "endDate": "2025-03-31",
-    "description": "DO 14-PURCHASE OF TOWERS"
-  },
-  {
-    "company": "Anduril",
     "awardId": "H9240226FE013",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 3106921.0,
@@ -1198,6 +1174,30 @@
     "startDate": "2025-09-16",
     "endDate": "2025-12-15",
     "description": "SIP TO 121 - GENERATORS"
+  },
+  {
+    "company": "Anduril",
+    "awardId": "H9240226FE025",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 134345.12,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2026-06-09",
+    "endDate": "2026-09-09",
+    "description": "SIP TO135 EXPEDITIONARY FIXED SITE GENERATORS"
+  },
+  {
+    "company": "Anduril",
+    "awardId": "FA881926FB020",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 100000.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2026-04-28",
+    "endDate": "2027-04-27",
+    "description": "CONCEPT DEVELOPMENT MINIMUM GUARANTEE"
   },
   {
     "company": "Anduril Industries",
@@ -1489,18 +1489,6 @@
   },
   {
     "company": "Anduril Industries",
-    "awardId": "H9240225FE031",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 13278763.7,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2025-09-22",
-    "endDate": "2026-04-20",
-    "description": "TO 116 - HEIMDALL PROCUREMENT AND CL BUY OUT"
-  },
-  {
-    "company": "Anduril Industries",
     "awardId": "H9240226FE002",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 12846190.82,
@@ -1993,18 +1981,6 @@
   },
   {
     "company": "Anduril Industries",
-    "awardId": "70B02C23F00000795",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 3110438.0,
-    "agency": "Department of Homeland Security",
-    "subAgency": "U.S. Customs and Border Protection",
-    "awardType": null,
-    "startDate": "2023-08-02",
-    "endDate": "2025-03-31",
-    "description": "DO 14-PURCHASE OF TOWERS"
-  },
-  {
-    "company": "Anduril Industries",
     "awardId": "H9240226FE013",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 3106921.0,
@@ -2400,136 +2376,28 @@
     "description": "SIP TO 121 - GENERATORS"
   },
   {
-    "company": "Shield AI",
-    "awardId": "70Z02326F93130005",
-    "recipientName": "SHIELD AI INC",
-    "amount": 16033703.0,
-    "agency": "Department of Homeland Security",
-    "subAgency": "U.S. Coast Guard",
-    "awardType": null,
-    "startDate": "2026-02-27",
-    "endDate": "2026-12-31",
-    "description": "VBAT SHORE BASED SERVICES. TASK ORDER FOR PUERTO RICO."
-  },
-  {
-    "company": "Shield AI",
-    "awardId": "N0001925F0971",
-    "recipientName": "SHIELD AI INC",
-    "amount": 11322584.92,
+    "company": "Anduril Industries",
+    "awardId": "H9240226FE025",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 134345.12,
     "agency": "Department of Defense",
-    "subAgency": "Department of the Navy",
+    "subAgency": "U.S. Special Operations Command",
     "awardType": null,
-    "startDate": "2025-09-03",
-    "endDate": "2027-04-30",
-    "description": "V-BAT VTOL UNMANNED AIRCRAFT"
+    "startDate": "2026-06-09",
+    "endDate": "2026-09-09",
+    "description": "SIP TO135 EXPEDITIONARY FIXED SITE GENERATORS"
   },
   {
-    "company": "Shield AI",
-    "awardId": "70Z02326F93130008",
-    "recipientName": "SHIELD AI INC",
-    "amount": 8440414.45,
-    "agency": "Department of Homeland Security",
-    "subAgency": "U.S. Coast Guard",
-    "awardType": null,
-    "startDate": "2026-05-27",
-    "endDate": "2026-12-31",
-    "description": "TASK ORDER FOR MR-UAS GUAM SHORE EXPANSION."
-  },
-  {
-    "company": "Shield AI",
-    "awardId": "70Z02325F93130002",
-    "recipientName": "SHIELD AI INC",
-    "amount": 5891843.0,
-    "agency": "Department of Homeland Security",
-    "subAgency": "U.S. Coast Guard",
-    "awardType": null,
-    "startDate": "2025-10-01",
-    "endDate": "2026-09-30",
-    "description": "TO#3 FOR SHORE-BASED VBAT DEPLOYMENTS"
-  },
-  {
-    "company": "Shield AI",
-    "awardId": "70Z02326F93130007",
-    "recipientName": "SHIELD AI INC",
-    "amount": 4732197.19,
-    "agency": "Department of Homeland Security",
-    "subAgency": "U.S. Coast Guard",
-    "awardType": null,
-    "startDate": "2026-05-27",
-    "endDate": "2027-05-01",
-    "description": "TASK ORDER FOR MR-UAS INSTALLATION AND DEPLOYMENT SERVICES FOR COAST GUARD NATIONAL SECURITY CUTTERS."
-  },
-  {
-    "company": "Shield AI",
-    "awardId": "70Z02326F93130002",
-    "recipientName": "SHIELD AI INC",
-    "amount": 3452883.28,
-    "agency": "Department of Homeland Security",
-    "subAgency": "U.S. Coast Guard",
-    "awardType": null,
-    "startDate": "2025-12-08",
-    "endDate": "2026-06-26",
-    "description": "TASK ORDER FOR MR-UAS DEPLOYMENT SERVICES FOR CG NATIONAL SECURITY CUTTERS."
-  },
-  {
-    "company": "Shield AI",
-    "awardId": "70Z02326F93130004",
-    "recipientName": "SHIELD AI INC",
-    "amount": 2447083.48,
-    "agency": "Department of Homeland Security",
-    "subAgency": "U.S. Coast Guard",
-    "awardType": null,
-    "startDate": "2026-02-11",
-    "endDate": "2026-09-30",
-    "description": "TASK ORDER FOR MR-UAS DEPLOYMENT SERVICES FOR CG NATIONAL SECURITY CUTTERS."
-  },
-  {
-    "company": "Shield AI",
-    "awardId": "70Z02326F93130006",
-    "recipientName": "SHIELD AI INC",
-    "amount": 1778940.39,
-    "agency": "Department of Homeland Security",
-    "subAgency": "U.S. Coast Guard",
-    "awardType": null,
-    "startDate": "2026-03-25",
-    "endDate": "2026-09-30",
-    "description": "TASK ORDER FOR MR-UAS DEPLOYMENT SERVICES FOR CG NATIONAL SECURITY CUTTERS KIMBALL AND JAMES."
-  },
-  {
-    "company": "Shield AI",
-    "awardId": "70Z02326F93130003",
-    "recipientName": "SHIELD AI INC",
-    "amount": 895567.46,
-    "agency": "Department of Homeland Security",
-    "subAgency": "U.S. Coast Guard",
-    "awardType": null,
-    "startDate": "2026-02-04",
-    "endDate": "2026-06-26",
-    "description": "TASK ORDER FOR MR-UAS DEPLOYMENT SERVICES FOR CG NATIONAL SECURITY CUTTERS."
-  },
-  {
-    "company": "Shield AI",
-    "awardId": "70Z02325F93130003",
-    "recipientName": "SHIELD AI INC",
-    "amount": 104892.18,
-    "agency": "Department of Homeland Security",
-    "subAgency": "U.S. Coast Guard",
-    "awardType": null,
-    "startDate": "2025-10-01",
-    "endDate": "2026-09-30",
-    "description": "TASK ORDER #4 UAS VBAT OP2"
-  },
-  {
-    "company": "Shield AI",
-    "awardId": "HQ085926FE608",
-    "recipientName": "SHIELD AI INC",
-    "amount": 500.0,
+    "company": "Anduril Industries",
+    "awardId": "FA881926FB020",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 100000.0,
     "agency": "Department of Defense",
-    "subAgency": "Missile Defense Agency",
+    "subAgency": "Department of the Air Force",
     "awardType": null,
-    "startDate": "2025-12-29",
-    "endDate": "2035-12-28",
-    "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER."
+    "startDate": "2026-04-28",
+    "endDate": "2027-04-27",
+    "description": "CONCEPT DEVELOPMENT MINIMUM GUARANTEE"
   },
   {
     "company": "Palantir",
@@ -2614,6 +2482,18 @@
     "startDate": "2026-06-22",
     "endDate": "2027-06-21",
     "description": "PALANTIR SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM (SNAP) SECURE NETWORK STARLIGHT PLATFORM IN SUPPORT OF USDA FOOD AND NUTRITION ADMINISTRATION"
+  },
+  {
+    "company": "Palantir",
+    "awardId": "205AE926F00100",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 21707685.05,
+    "agency": "Department of the Treasury",
+    "subAgency": "Internal Revenue Service",
+    "awardType": null,
+    "startDate": "2026-09-23",
+    "endDate": "2027-08-23",
+    "description": "COMPLIANCE HUB IRS CASE SELECTION. SOFTWARE LICENSES PLUS OPERATIONS AND MAINTENANCE"
   },
   {
     "company": "Palantir",
@@ -2830,6 +2710,18 @@
     "startDate": "2025-02-13",
     "endDate": "2027-02-12",
     "description": "REQUIREMENTS SOURCING TOOL (RST) + DATA ONTOLOGY SUSTAINMENT AND MAINTENANCE SUPPORT IN SUPPORT OF AIR FORCE PERSONNEL CENTER (AFPC) FORCE GENERATION OPERATIONS AND READINESS DIVISION (AFPC/DPMW) IAW "
+  },
+  {
+    "company": "Palantir",
+    "awardId": "2023H226F00063",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 6114197.71,
+    "agency": "Department of the Treasury",
+    "subAgency": "Internal Revenue Service",
+    "awardType": null,
+    "startDate": "2026-09-24",
+    "endDate": "2027-09-23",
+    "description": "CASE MANAGEMENT TASK ORDER"
   },
   {
     "company": "Palantir",
@@ -3024,18 +2916,6 @@
     "description": "THIS FOLLOW-ON PHASE 1 VOWS TASK ORDER IS DESIGNED TO SUPPORT USCIS IN ACHIEVING ITS OBJECTIVE OF IMPLEMENTING THE VETTING OF WEDDING-BASED SCHEMES (VOWS) PLATFORM. THESE EFFORTS WILL ENABLE USCIS TO "
   },
   {
-    "company": "Palantir",
-    "awardId": "75FCMC25FJ159",
-    "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 1.0,
-    "agency": "Department of Health and Human Services",
-    "subAgency": "Centers for Medicare and Medicaid Services",
-    "awardType": null,
-    "startDate": "2025-09-30",
-    "endDate": "2026-01-30",
-    "description": "NATIONAL PROVIDER DIRECTORY - PROOF OF CONCEPT - GSA MAS"
-  },
-  {
     "company": "Palantir Technologies",
     "awardId": "70CTD022FR0000170",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
@@ -3118,6 +2998,18 @@
     "startDate": "2026-06-22",
     "endDate": "2027-06-21",
     "description": "PALANTIR SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM (SNAP) SECURE NETWORK STARLIGHT PLATFORM IN SUPPORT OF USDA FOOD AND NUTRITION ADMINISTRATION"
+  },
+  {
+    "company": "Palantir Technologies",
+    "awardId": "205AE926F00100",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 21707685.05,
+    "agency": "Department of the Treasury",
+    "subAgency": "Internal Revenue Service",
+    "awardType": null,
+    "startDate": "2026-09-23",
+    "endDate": "2027-08-23",
+    "description": "COMPLIANCE HUB IRS CASE SELECTION. SOFTWARE LICENSES PLUS OPERATIONS AND MAINTENANCE"
   },
   {
     "company": "Palantir Technologies",
@@ -3334,6 +3226,18 @@
     "startDate": "2025-02-13",
     "endDate": "2027-02-12",
     "description": "REQUIREMENTS SOURCING TOOL (RST) + DATA ONTOLOGY SUSTAINMENT AND MAINTENANCE SUPPORT IN SUPPORT OF AIR FORCE PERSONNEL CENTER (AFPC) FORCE GENERATION OPERATIONS AND READINESS DIVISION (AFPC/DPMW) IAW "
+  },
+  {
+    "company": "Palantir Technologies",
+    "awardId": "2023H226F00063",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 6114197.71,
+    "agency": "Department of the Treasury",
+    "subAgency": "Internal Revenue Service",
+    "awardType": null,
+    "startDate": "2026-09-24",
+    "endDate": "2027-09-23",
+    "description": "CASE MANAGEMENT TASK ORDER"
   },
   {
     "company": "Palantir Technologies",
@@ -3793,18 +3697,6 @@
   },
   {
     "company": "Space Exploration Technologies",
-    "awardId": "FA881124FB021",
-    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 105264779.85,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2024-07-02",
-    "endDate": "2025-09-30",
-    "description": "NATIONAL SECURITY SPACE LAUNCH PHASE 2"
-  },
-  {
-    "company": "Space Exploration Technologies",
     "awardId": "FA881123F0017",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
     "amount": 101117437.0,
@@ -4069,6 +3961,18 @@
   },
   {
     "company": "Space Exploration Technologies",
+    "awardId": "80KSC023FA109",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 33097376.26,
+    "agency": "National Aeronautics and Space Administration",
+    "subAgency": "National Aeronautics and Space Administration",
+    "awardType": null,
+    "startDate": "2023-03-29",
+    "endDate": "2032-01-27",
+    "description": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER."
+  },
+  {
+    "company": "Space Exploration Technologies",
     "awardId": "FA254126FB022",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
     "amount": 29235000.0,
@@ -4090,18 +3994,6 @@
     "startDate": "2025-05-01",
     "endDate": "2027-04-29",
     "description": "AERO USER TERMINAL - TILE ANTENNA & SERVICE"
-  },
-  {
-    "company": "Space Exploration Technologies",
-    "awardId": "80KSC023FA109",
-    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 26097376.26,
-    "agency": "National Aeronautics and Space Administration",
-    "subAgency": "National Aeronautics and Space Administration",
-    "awardType": null,
-    "startDate": "2023-03-29",
-    "endDate": "2032-01-27",
-    "description": "VENTURE-CLASS ACQUISITION OF DEDICATED AND RIDESHARE (VADR) UMBRELLA TASK ORDER."
   },
   {
     "company": "Space Exploration Technologies",
@@ -4333,6 +4225,18 @@
   },
   {
     "company": "Space Exploration Technologies",
+    "awardId": "HC106426F0032",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 56131.2,
+    "agency": "Department of Defense",
+    "subAgency": "Defense Information Systems Agency",
+    "awardType": null,
+    "startDate": "2026-06-26",
+    "endDate": "2026-07-26",
+    "description": "STARSHIELD - LOW EARTH ORBIT COMSATCOM ("
+  },
+  {
+    "company": "Space Exploration Technologies",
     "awardId": "HC106426F0026",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
     "amount": 37397.44,
@@ -4534,6 +4438,18 @@
     "startDate": "2025-12-29",
     "endDate": "2035-12-28",
     "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER."
+  },
+  {
+    "company": "Skydio",
+    "awardId": "1605C126P00014",
+    "recipientName": "SKYDIO, INC",
+    "amount": 1114985.91,
+    "agency": "Department of Labor",
+    "subAgency": "Office of the Assistant Secretary for Administration and Management",
+    "awardType": null,
+    "startDate": "2026-09-25",
+    "endDate": "2026-12-25",
+    "description": "SKYDIO DRONES"
   },
   {
     "company": "Skydio",
@@ -5029,6 +4945,18 @@
   },
   {
     "company": "Skydio",
+    "awardId": "140D0426F1255",
+    "recipientName": "SKYDIO, INC",
+    "amount": 3000.0,
+    "agency": "Department of the Interior",
+    "subAgency": "Departmental Offices",
+    "awardType": null,
+    "startDate": "2026-09-23",
+    "endDate": "2027-05-31",
+    "description": "SKYDIO UNMANNED AERIAL SYSTEMS (UASS) REPAIR SERVICES"
+  },
+  {
+    "company": "Skydio",
     "awardId": "HQ085926FF205",
     "recipientName": "SKYDIO, INC",
     "amount": 500.0,
@@ -5194,6 +5122,18 @@
     "startDate": "2026-03-19",
     "endDate": "2026-05-18",
     "description": "MASTER BLANKET PURCHASE AGREEMENT FOR BLUE LIST COMPLIANT UNMANNED AIRCRAFT SYSTEMS AND PARTS."
+  },
+  {
+    "company": "Neros",
+    "awardId": "W58RGZ26F0349",
+    "recipientName": "NEROS, INC.",
+    "amount": 17600.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "awardType": null,
+    "startDate": "2026-06-25",
+    "endDate": "2026-08-06",
+    "description": "IN ACCORDANCE WITH THE DIRECTIVES ESTABLISHED IN THE DEPARTMENT OF WAR MEMORANDUM DATED 10 JULY 2025, IN SUPPORT OF EXECUTIVE ORDER 14307-UNLEASHING U.S. MILITARY DRONE DOMINANCE."
   },
   {
     "company": "Neros",
@@ -5917,18 +5857,6 @@
   },
   {
     "company": "Scale AI",
-    "awardId": "SP470125F0273",
-    "recipientName": "SCALE AI, INC.",
-    "amount": 2511830.0,
-    "agency": "Department of Defense",
-    "subAgency": "Defense Logistics Agency",
-    "awardType": null,
-    "startDate": "2025-09-24",
-    "endDate": "2026-09-23",
-    "description": "SCALE AI TO FOR PIEE TRANSITION USE CASE DEVELOPMENT SHORT TERM PROJECT (STP) UNDER IDIQ SP4701-24-D-0004 UNDER HACKATHON - EMERGENT IV BAA0001-22"
-  },
-  {
-    "company": "Scale AI",
     "awardId": "SP470124F0355",
     "recipientName": "SCALE AI, INC.",
     "amount": 2473818.0,
@@ -5998,54 +5926,6 @@
     "startDate": "2026-04-19",
     "endDate": "2027-04-18",
     "description": "BOSTON DYNAMICS - TECH-2 - NEO MAINTENANCE - SECTION 2(D) EXEMPTION"
-  },
-  {
-    "company": "Ginkgo Bioworks",
-    "awardId": "75D30125C20439",
-    "recipientName": "GINKGO BIOWORKS, INC.",
-    "amount": 74725666.61,
-    "agency": "Department of Health and Human Services",
-    "subAgency": "Centers for Disease Control and Prevention",
-    "awardType": null,
-    "startDate": "2025-02-28",
-    "endDate": "2028-03-21",
-    "description": "TRAVELER-BASED GENOMIC SURVEILLANCE PROGRAM"
-  },
-  {
-    "company": "Ginkgo Bioworks",
-    "awardId": "HR001124C0378",
-    "recipientName": "GINKGO BIOWORKS, INC.",
-    "amount": 5206738.0,
-    "agency": "Department of Defense",
-    "subAgency": "Defense Advanced Research Projects Agency",
-    "awardType": null,
-    "startDate": "2024-01-26",
-    "endDate": "2026-08-19",
-    "description": "DARPA ICE CONTROL FOR COLD ENVIRONMENTS (ICE)"
-  },
-  {
-    "company": "Ginkgo Bioworks",
-    "awardId": "75D30124F00001",
-    "recipientName": "GINKGO BIOWORKS, INC.",
-    "amount": 3830427.24,
-    "agency": "Department of Health and Human Services",
-    "subAgency": "Centers for Disease Control and Prevention",
-    "awardType": null,
-    "startDate": "2024-09-06",
-    "endDate": "2027-09-05",
-    "description": "TEST SURGE AND DATA SHARING MULTIPLE AWARD IDIQ"
-  },
-  {
-    "company": "Ginkgo Bioworks",
-    "awardId": "75D30126F00004",
-    "recipientName": "GINKGO BIOWORKS, INC.",
-    "amount": 3199875.0,
-    "agency": "Department of Health and Human Services",
-    "subAgency": "Centers for Disease Control and Prevention",
-    "awardType": null,
-    "startDate": "2026-05-03",
-    "endDate": "2028-04-14",
-    "description": "METAGENOMIC NEXT-GENERATION SEQUENCING (MNGS)"
   },
   {
     "company": "Ursa Space Systems",
@@ -6171,6 +6051,78 @@
     "company": "Sphinx Defense",
     "awardId": "HQ085926FF701",
     "recipientName": "SPHINX DEFENSE INC",
+    "amount": 500.0,
+    "agency": "Department of Defense",
+    "subAgency": "Missile Defense Agency",
+    "awardType": null,
+    "startDate": "2025-12-29",
+    "endDate": "2035-12-28",
+    "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER."
+  },
+  {
+    "company": "Maybell Quantum",
+    "awardId": "FA875122C0007",
+    "recipientName": "MAYBELL QUANTUM INDUSTRIES, INC.",
+    "amount": 1538795.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2022-08-01",
+    "endDate": "2026-06-30",
+    "description": "REFRIGERATION DILUTION"
+  },
+  {
+    "company": "Quantum Space",
+    "awardId": "FA930025C6010",
+    "recipientName": "QUANTUM SPACE LLC",
+    "amount": 1799997.04,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2025-04-07",
+    "endDate": "2026-12-07",
+    "description": "DEVELOPMENT OF PROPULSION"
+  },
+  {
+    "company": "Quantum Space",
+    "awardId": "FA930025C6024",
+    "recipientName": "QUANTUM SPACE LLC",
+    "amount": 1799119.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2025-09-18",
+    "endDate": "2027-10-19",
+    "description": "FLIGHT DEVELOPMENT OF AN ASCENT PROPELLANT."
+  },
+  {
+    "company": "Quantum Space",
+    "awardId": "FA930023C6025",
+    "recipientName": "QUANTUM SPACE LLC",
+    "amount": 1783628.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2023-09-13",
+    "endDate": "2025-12-30",
+    "description": "SEQUENTIAL STRATFI-TACFI PHASE II - CATALYTIC PROPELLANT DECOMPOSITION CHAMBER FOR MULTI-MODE PROPULSION"
+  },
+  {
+    "company": "Quantum Space",
+    "awardId": "FA881926FB021",
+    "recipientName": "QUANTUM SPACE LLC",
+    "amount": 100000.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2026-04-28",
+    "endDate": "2027-04-27",
+    "description": "CONCEPT DEVELOPMENT MINIMUM GUARANTEE"
+  },
+  {
+    "company": "Quantum Space",
+    "awardId": "HQ085926FF319",
+    "recipientName": "QUANTUM SPACE LLC",
     "amount": 500.0,
     "agency": "Department of Defense",
     "subAgency": "Missile Defense Agency",
@@ -6711,7 +6663,7 @@
     "company": "Firefly Aerospace",
     "awardId": "80KSC023FA112",
     "recipientName": "FIREFLY AEROSPACE INC.",
-    "amount": 29174004.65,
+    "amount": 31311531.0,
     "agency": "National Aeronautics and Space Administration",
     "subAgency": "National Aeronautics and Space Administration",
     "awardType": null,
@@ -6934,6 +6886,18 @@
     "startDate": "2025-12-29",
     "endDate": "2035-12-28",
     "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER."
+  },
+  {
+    "company": "Machina Labs",
+    "awardId": "FA857124C0032",
+    "recipientName": "MACHINA LABS INC",
+    "amount": 1799115.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2024-06-27",
+    "endDate": "2026-11-30",
+    "description": "SBIR DIRECT-TO-PHASE II ROBOTIC INCREMENTAL METAL FORMING"
   },
   {
     "company": "Machina Labs",
@@ -7294,6 +7258,18 @@
     "startDate": "2025-09-29",
     "endDate": "2026-09-28",
     "description": "RUNE TECH, TYROS SUSTAINMENT PREDICTIVE SOFTWARE"
+  },
+  {
+    "company": "Rune Technologies",
+    "awardId": "FA864926P0077",
+    "recipientName": "RUNE TECHNOLOGIES INC.",
+    "amount": 74293.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2026-06-25",
+    "endDate": "2026-09-28",
+    "description": "AI ENABLED PREDICTIVE LOGISTICS IN SUPPORT OF AGILE COMBAT EMPLOYMENT OPERATIONS"
   },
   {
     "company": "Rune Technologies",
@@ -8532,18 +8508,6 @@
     "description": "SMALL BUSINESS INNOVATION RESEARCH(SBIR) PROGRAM: DEVELOP AND DEMONSTRATE AN OMNI-DIRECTIONAL AIRCRAFT MOVER DESIGNED SPECIFICALLY FOR THE F-16 FIGHTING FALCON."
   },
   {
-    "company": "Aeon Industrial",
-    "awardId": "W911NF25PA007",
-    "recipientName": "AEON INDUSTRIAL INC.",
-    "amount": 249772.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-04-07",
-    "endDate": "2026-02-06",
-    "description": "RESEARCH PROJECT FOCUSED ON DEVELOPING ZEUS, A NEXT-GENERATION ANTI-TANK PRECISION MISSILE SYSTEM FOR THE MODERN AND FUTURE BATTLEFIELD AT AN AFFORDABLE PRICE."
-  },
-  {
     "company": "BurnBot",
     "awardId": "12363N23C4024",
     "recipientName": "BURNBOT INC",
@@ -8773,6 +8737,18 @@
   },
   {
     "company": "Gravitics",
+    "awardId": "80NSSC26C0246",
+    "recipientName": "GRAVITICS, INC.",
+    "amount": 224969.0,
+    "agency": "National Aeronautics and Space Administration",
+    "subAgency": "National Aeronautics and Space Administration",
+    "awardType": null,
+    "startDate": "2026-09-30",
+    "endDate": "2027-03-30",
+    "description": "SBIR PHASE I - MULTIPLE-DOWNMASS HANGAR FOR AFFORDABLE AND FREQUENT COMMERCIAL SAMPLE RETURN"
+  },
+  {
+    "company": "Gravitics",
     "awardId": "HQ085926FG255",
     "recipientName": "GRAVITICS, INC.",
     "amount": 500.0,
@@ -8938,30 +8914,6 @@
     "startDate": "2025-08-26",
     "endDate": "2027-02-28",
     "description": "SBIR PHASE III ENTITLED UAS OPERATIONAL FLIGHTS DEMONSTRATING AIRCRAFT AGNOSTIC AUTOMATION SOLUTIONS"
-  },
-  {
-    "company": "Scout AI",
-    "awardId": "W5170125CA057",
-    "recipientName": "SCOUT AI INC.",
-    "amount": 2000000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-04-18",
-    "endDate": "2027-04-18",
-    "description": "AUTONOMOUS GROUND VEHICLE SYSTEM WITH INTEGRATED VISION LANGUAGE MODELS AND RETRIEVAL AUGMENTED GENERATION TECHNOLOGIES TO DELIVER MISSION-COMPLETE SOLUTIONS FOR A VARIETY OF PAYLOADS, BEGINNING WITH "
-  },
-  {
-    "company": "Scout AI",
-    "awardId": "W5170126CA024",
-    "recipientName": "SCOUT AI INC.",
-    "amount": 1999698.9,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2026-01-19",
-    "endDate": "2027-07-19",
-    "description": "SMALL BUSINESS INNOVATION RESEARCH, DIRECT TO PHASE II TOPIC A254-P030, XTECHOVERWATCH OPEN TOPIC"
   },
   {
     "company": "Portal Space Systems",
@@ -9336,66 +9288,6 @@
     "description": "S2P2: UAS - SOLICITATION# W911S225U1585"
   },
   {
-    "company": "AIM Intelligent Machines",
-    "awardId": "FA805125C0001",
-    "recipientName": "AIM INTELLIGENT MACHINES, INC.",
-    "amount": 4990237.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2025-09-25",
-    "endDate": "2026-09-26",
-    "description": "THIS CONTRACT IS A RESULT OF PROPOSAL SENT UNDER AUTOMATED HEAVY MACHINERY CALL #2 RELATED TO BAA: FA8051-24-S-0001. AIM ENABLED MACHINES IN ACCORDANCE WITH ATTACHMENT 1 STATEMENT OF WORK (SOW), DATED"
-  },
-  {
-    "company": "CesiumAstro",
-    "awardId": "FA945324CX053",
-    "recipientName": "CESIUMASTRO INC",
-    "amount": 2564035.92,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2024-09-17",
-    "endDate": "2026-07-17",
-    "description": "PROVIDE THE AIR FORCE RESEARCH LABORATORY (AFRL) WITH THE DESIGN AND CONSTRUCTION OF A MEDIUM SIZED KA-BAND ACTIVE PHASED ARRAY (APA) SATCOM TERMINAL FROM CESIUM ASTRO."
-  },
-  {
-    "company": "CesiumAstro",
-    "awardId": "80NSSC25CA009",
-    "recipientName": "CESIUMASTRO INC",
-    "amount": 646702.0,
-    "agency": "National Aeronautics and Space Administration",
-    "subAgency": "National Aeronautics and Space Administration",
-    "awardType": null,
-    "startDate": "2024-10-22",
-    "endDate": "2026-03-31",
-    "description": "SBIR PHASE III - RADIO RANGING FIRMWARE MODIFICATIONS FOR STARLING EXTENDED MISSION"
-  },
-  {
-    "company": "CesiumAstro",
-    "awardId": "80NSSC25C0425",
-    "recipientName": "CESIUMASTRO INC",
-    "amount": 195139.0,
-    "agency": "National Aeronautics and Space Administration",
-    "subAgency": "National Aeronautics and Space Administration",
-    "awardType": null,
-    "startDate": "2025-08-11",
-    "endDate": "2026-02-20",
-    "description": "PHASE III - OPP001096-1 CESIUMASTRO - KASTLE SBIR PHASE 3"
-  },
-  {
-    "company": "CesiumAstro",
-    "awardId": "HQ085926FF501",
-    "recipientName": "CESIUMASTRO INC",
-    "amount": 500.0,
-    "agency": "Department of Defense",
-    "subAgency": "Missile Defense Agency",
-    "awardType": null,
-    "startDate": "2025-12-29",
-    "endDate": "2035-12-28",
-    "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER."
-  },
-  {
     "company": "Lyten",
     "awardId": "FA254124CB037",
     "recipientName": "LYTEN, INC.",
@@ -9514,18 +9406,6 @@
     "startDate": "2025-08-25",
     "endDate": "2026-12-15",
     "description": "NEW CONTRACT IN THE AMOUNT OF $2,019,100.00 FOR MOBILE SCANNERS, WARRANTY, MAINTENANCE, AND TRAINING, WITH A PERFORMANCE PERIOD OF 08/25/2025 THROUGH 08/24/2026. THIS REQUIREMENT IS IN SUPPORT OF THE "
-  },
-  {
-    "company": "Viken Detection",
-    "awardId": "FA461325P0004",
-    "recipientName": "VIKEN DETECTION CORPORATION",
-    "amount": 1895000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2024-10-31",
-    "endDate": "2025-11-14",
-    "description": "THE SUPPLY AND INSTALL OF THE VEHICLE AND CARGO X-RAY INSP SYSTEM IAW THE PWS."
   },
   {
     "company": "Viken Detection",
@@ -9658,6 +9538,18 @@
     "startDate": "2026-05-15",
     "endDate": "2027-05-14",
     "description": "SUAS COURSES OF INSTRUCTION FOR NLEAD"
+  },
+  {
+    "company": "Voya Energy",
+    "awardId": "FA864926P0254",
+    "recipientName": "VOYA ENERGY INC",
+    "amount": 108742.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2026-06-26",
+    "endDate": "2026-09-28",
+    "description": "TRANSFORMATIVE ALUMINUM-BASED POWER GENERATION FOR ALL ENVIRONMENTS"
   },
   {
     "company": "HawkEye 360",
@@ -9994,18 +9886,6 @@
     "startDate": "2025-05-23",
     "endDate": "2027-05-24",
     "description": "MULTI-ORBITAL AND FAST TO MANUFACTURE SOLAR ARRAY WING FOR TACTICAL RESPONSE SATELLITES"
-  },
-  {
-    "company": "Orbital Sidekick",
-    "awardId": "80HQTR26F0003",
-    "recipientName": "ORBITAL SIDEKICK INC",
-    "amount": 500.0,
-    "agency": "National Aeronautics and Space Administration",
-    "subAgency": "National Aeronautics and Space Administration",
-    "awardType": null,
-    "startDate": "2026-07-09",
-    "endDate": "2026-08-04",
-    "description": "DELIVERY OF METADATA FOR ARCHIVE, IN ACCORDANCE WITH THE  INSTRUCTIONS SPECIFIED RFP NO. 80HQTR25R7003  SECTION 111.10 OFFER VOLUME."
   },
   {
     "company": "Vantage Robotics",

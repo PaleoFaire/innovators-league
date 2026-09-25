@@ -1,345 +1,353 @@
 [
- {
-  "company": "NVIDIA",
-  "revenue": "$215.9B",
-  "period": "2026 Annual",
-  "growth": "+65% YoY",
-  "source": "SEC 10-K (NVDA)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "Tesla",
-  "revenue": "$94.8B",
-  "period": "2025 Annual",
-  "growth": "-3% YoY",
-  "source": "SEC 10-K (TSLA)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "AMD",
-  "revenue": "$34.6B",
-  "period": "2025 Annual",
-  "growth": "+34% YoY",
-  "source": "SEC 10-K (AMD)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "SpaceX",
-  "revenue": "$14B+",
-  "period": "2025 Est.",
-  "growth": "+40% YoY",
-  "source": "Starlink + launch revenue estimates"
- },
- {
-  "company": "Palantir",
-  "revenue": "$4.5B",
-  "period": "2025 Annual",
-  "growth": "+56% YoY",
-  "source": "SEC 10-K (PLTR)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "Tempus AI",
-  "revenue": "$3.1B",
-  "period": "2025 Annual",
-  "growth": "+3% YoY",
-  "source": "SEC 10-K (TEM)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "IonQ",
-  "revenue": "$2.3B",
-  "period": "2025 Annual",
-  "growth": "-33% YoY",
-  "source": "SEC 10-K (IONQ)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "Intuitive Machines",
-  "revenue": "$1.9B",
-  "period": "2025 Annual",
-  "growth": "-11% YoY",
-  "source": "SEC 10-K (LUNR)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "Astera Labs",
-  "revenue": "$1.8B",
-  "period": "2025 Annual",
-  "growth": "+2% YoY",
-  "source": "SEC 10-K (ALAB)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "Anduril Industries",
-  "revenue": "$1.5B+",
-  "period": "2025 Est.",
-  "growth": "+100% YoY",
-  "source": "Reported estimates"
- },
- {
-  "company": "Crusoe Energy",
-  "revenue": "$1B+",
-  "period": "2025 Est.",
-  "growth": "+300% YoY",
-  "source": "Reported estimates"
- },
- {
-  "company": "Waymo",
-  "revenue": "$1B+",
-  "period": "2025 Est.",
-  "growth": "+300% YoY",
-  "source": "Reported estimates"
- },
- {
-  "company": "Rocket Lab",
-  "revenue": "$602M",
-  "period": "2025 Annual",
-  "growth": "+38% YoY",
-  "source": "SEC 10-K (RKLB)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "Shield AI",
-  "revenue": "$500M+",
-  "period": "2025 Est.",
-  "growth": "+100% YoY",
-  "source": "Reported estimates"
- },
- {
-  "company": "Joby Aviation",
-  "revenue": "$442M",
-  "period": "2025 Annual",
-  "growth": "+29% YoY",
-  "source": "SEC 10-K (JOBY)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "NuScale Power",
-  "revenue": "$349M",
-  "period": "2026 Annual",
-  "growth": "+23% YoY",
-  "source": "SEC 10-K (SMR)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "Zipline",
-  "revenue": "$300M+",
-  "period": "2025 Est.",
-  "growth": "+50% YoY",
-  "source": "Reported estimates"
- },
- {
-  "company": "Skydio",
-  "revenue": "$300M+",
-  "period": "2025 Est.",
-  "growth": "+80% YoY",
-  "source": "Reported estimates"
- },
- {
-  "company": "Oxford Nanopore Technologies",
-  "revenue": "$290M",
-  "period": "FY2025 Est.",
-  "growth": "+22% YoY",
-  "source": "Public filings (LSE: ONT)"
- },
- {
-  "company": "C3.ai",
-  "revenue": "$250M",
-  "period": "2026 Annual",
-  "growth": "-36% YoY",
-  "source": "SEC 10-K (AI)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "Planet Labs",
-  "revenue": "$244M",
-  "period": "FY2025",
-  "growth": "+11% YoY",
-  "source": "Public filings (NYSE: PL)"
- },
- {
-  "company": "Cerebras",
-  "revenue": "$200M+",
-  "period": "2025 Est.",
-  "growth": "+150% YoY",
-  "source": "Reported estimates"
- },
- {
-  "company": "DroneShield",
-  "revenue": "A$200M+",
-  "period": "FY2025 Est.",
-  "growth": "+300% YoY",
-  "source": "Public filings (ASX: DRO)"
- },
- {
-  "company": "Firefly Aerospace",
-  "revenue": "$133M–$145M",
-  "period": "FY2025 Est.",
-  "growth": "+100% YoY",
-  "source": "Public filings (NASDAQ: FLY)"
- },
- {
-  "company": "Pano AI",
-  "revenue": "$100M+",
-  "period": "Booked Revenue",
-  "growth": "+100% YoY",
-  "source": "Company announcement"
- },
- {
-  "company": "Hadrian",
-  "revenue": "$100M+",
-  "period": "2025 Est.",
-  "growth": "+200% YoY",
-  "source": "Reported estimates"
- },
- {
-  "company": "Recursion Pharmaceuticals",
-  "revenue": "$75M",
-  "period": "2025 Annual",
-  "growth": "+27% YoY",
-  "source": "SEC 10-K (RXRX)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "AiDash",
-  "revenue": "$50M+",
-  "period": "2025 ARR Est.",
-  "growth": "+100% YoY",
-  "source": "Company announcement"
- },
- {
-  "company": "Saronic",
-  "revenue": "$50M+",
-  "period": "2025 Est.",
-  "growth": "+500% YoY",
-  "source": "Early revenue stage"
- },
- {
-  "company": "QuantumScape",
-  "revenue": "$48M",
-  "period": "2025 Annual",
-  "growth": "-58% YoY",
-  "source": "SEC 10-K (QS)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "LanzaTech",
-  "revenue": "$41M",
-  "period": "2025 TTM",
-  "growth": "-40% YoY",
-  "source": "Public filings (NASDAQ: LNZA)"
- },
- {
-  "company": "ispace",
-  "revenue": "$32M",
-  "period": "FY2025",
-  "growth": "+101% YoY",
-  "source": "Public filings (TYO: 9348)"
- },
- {
-  "company": "Astroscale",
-  "revenue": "$29M",
-  "period": "2025 TTM",
-  "growth": "+50% YoY",
-  "source": "Public filings (TYO: 186A)"
- },
- {
-  "company": "D-Wave Quantum",
-  "revenue": "$25M",
-  "period": "2025 Annual",
-  "growth": "+179% YoY",
-  "source": "SEC 10-K (QBTS)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "Solid Power",
-  "revenue": "$23M",
-  "period": "2024 Annual",
-  "growth": "+422% YoY",
-  "source": "SEC 10-K (SLDP)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "D-Orbit",
-  "revenue": "$20M+",
-  "period": "2025 Est.",
-  "growth": "+100% YoY",
-  "source": "Company estimates"
- },
- {
-  "company": "Satellogic",
-  "revenue": "$18M",
-  "period": "2025 Annual",
-  "growth": "+38% YoY",
-  "source": "SEC 10-K (SATL)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "Rigetti Computing",
-  "revenue": "$13M",
-  "period": "2022 Annual",
-  "growth": "+60% YoY",
-  "source": "SEC 10-K (RGTI)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "ideaForge",
-  "revenue": "$13M",
-  "period": "FY2025 TTM",
-  "growth": "-50% YoY",
-  "source": "Public filings (NSE: IDEAFORGE)"
- },
- {
-  "company": "AST SpaceMobile",
-  "revenue": "$4M",
-  "period": "2024 Annual",
-  "growth": "",
-  "source": "SEC 10-K (ASTS)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "Aurora Innovation",
-  "revenue": "$3M",
-  "period": "2025 Annual",
-  "growth": "",
-  "source": "SEC 10-K (AUR)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "Archer Aviation",
-  "revenue": "$300K",
-  "period": "2025 Annual",
-  "growth": "",
-  "source": "SEC 10-K (ACHR)",
-  "lastUpdated": "2026-09-24"
- },
- {
-  "company": "Boom Supersonic",
-  "revenue": "Pre-Revenue",
-  "period": "2025",
-  "growth": "N/A",
-  "source": "Pre-certification"
- },
- {
-  "company": "Oklo",
-  "revenue": "Pre-Revenue",
-  "period": "2025",
-  "growth": "N/A",
-  "source": "Public filings (NYSE: OKLO)"
- },
- {
-  "company": "Nano Nuclear Energy",
-  "revenue": "Pre-Revenue",
-  "period": "2025",
-  "growth": "N/A",
-  "source": "Public filings (NASDAQ: NNE)"
- },
- {
-  "company": "Vertical Aerospace",
-  "revenue": "Pre-Revenue",
-  "period": "2025",
-  "growth": "N/A",
-  "source": "Public filings (NYSE: EVTL)"
- }
+  {
+    "company": "NVIDIA",
+    "revenue": "$215.9B",
+    "period": "2026 Annual",
+    "growth": "+65% YoY",
+    "source": "SEC 10-K (NVDA)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "Tesla",
+    "revenue": "$94.8B",
+    "period": "2025 Annual",
+    "growth": "-3% YoY",
+    "source": "SEC 10-K (TSLA)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "AMD",
+    "revenue": "$34.6B",
+    "period": "2025 Annual",
+    "growth": "+34% YoY",
+    "source": "SEC 10-K (AMD)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "SpaceX",
+    "revenue": "$14B+",
+    "period": "2025 Est.",
+    "growth": "+40% YoY",
+    "source": "Starlink + launch revenue estimates"
+  },
+  {
+    "company": "Rivian",
+    "revenue": "$5.4B",
+    "period": "2025 Annual",
+    "growth": "+8% YoY",
+    "source": "SEC 10-K (RIVN)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "Palantir",
+    "revenue": "$4.5B",
+    "period": "2025 Annual",
+    "growth": "+56% YoY",
+    "source": "SEC 10-K (PLTR)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "Tempus AI",
+    "revenue": "$3.1B",
+    "period": "2025 Annual",
+    "growth": "+3% YoY",
+    "source": "SEC 10-K (TEM)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "IonQ",
+    "revenue": "$2.3B",
+    "period": "2025 Annual",
+    "growth": "-33% YoY",
+    "source": "SEC 10-K (IONQ)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "Intuitive Machines",
+    "revenue": "$1.9B",
+    "period": "2025 Annual",
+    "growth": "-11% YoY",
+    "source": "SEC 10-K (LUNR)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "Astera Labs",
+    "revenue": "$1.8B",
+    "period": "2025 Annual",
+    "growth": "+2% YoY",
+    "source": "SEC 10-K (ALAB)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "Anduril Industries",
+    "revenue": "$1.5B+",
+    "period": "2025 Est.",
+    "growth": "+100% YoY",
+    "source": "Reported estimates"
+  },
+  {
+    "company": "Crusoe Energy",
+    "revenue": "$1B+",
+    "period": "2025 Est.",
+    "growth": "+300% YoY",
+    "source": "Reported estimates"
+  },
+  {
+    "company": "Waymo",
+    "revenue": "$1B+",
+    "period": "2025 Est.",
+    "growth": "+300% YoY",
+    "source": "Reported estimates"
+  },
+  {
+    "company": "Rocket Lab",
+    "revenue": "$602M",
+    "period": "2025 Annual",
+    "growth": "+38% YoY",
+    "source": "SEC 10-K (RKLB)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "Shield AI",
+    "revenue": "$500M+",
+    "period": "2025 Est.",
+    "growth": "+100% YoY",
+    "source": "Reported estimates"
+  },
+  {
+    "company": "Joby Aviation",
+    "revenue": "$442M",
+    "period": "2025 Annual",
+    "growth": "+29% YoY",
+    "source": "SEC 10-K (JOBY)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "NuScale Power",
+    "revenue": "$349M",
+    "period": "2026 Annual",
+    "growth": "+23% YoY",
+    "source": "SEC 10-K (SMR)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "Zipline",
+    "revenue": "$300M+",
+    "period": "2025 Est.",
+    "growth": "+50% YoY",
+    "source": "Reported estimates"
+  },
+  {
+    "company": "Skydio",
+    "revenue": "$300M+",
+    "period": "2025 Est.",
+    "growth": "+80% YoY",
+    "source": "Reported estimates"
+  },
+  {
+    "company": "Oxford Nanopore Technologies",
+    "revenue": "$290M",
+    "period": "FY2025 Est.",
+    "growth": "+22% YoY",
+    "source": "Public filings (LSE: ONT)"
+  },
+  {
+    "company": "C3.ai",
+    "revenue": "$250M",
+    "period": "2026 Annual",
+    "growth": "-36% YoY",
+    "source": "SEC 10-K (AI)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "Planet Labs",
+    "revenue": "$244M",
+    "period": "FY2025",
+    "growth": "+11% YoY",
+    "source": "Public filings (NYSE: PL)"
+  },
+  {
+    "company": "Cerebras",
+    "revenue": "$200M+",
+    "period": "2025 Est.",
+    "growth": "+150% YoY",
+    "source": "Reported estimates"
+  },
+  {
+    "company": "DroneShield",
+    "revenue": "A$200M+",
+    "period": "FY2025 Est.",
+    "growth": "+300% YoY",
+    "source": "Public filings (ASX: DRO)"
+  },
+  {
+    "company": "Firefly Aerospace",
+    "revenue": "$133M\u2013$145M",
+    "period": "FY2025 Est.",
+    "growth": "+100% YoY",
+    "source": "Public filings (NASDAQ: FLY)"
+  },
+  {
+    "company": "Pano AI",
+    "revenue": "$100M+",
+    "period": "Booked Revenue",
+    "growth": "+100% YoY",
+    "source": "Company announcement"
+  },
+  {
+    "company": "Hadrian",
+    "revenue": "$100M+",
+    "period": "2025 Est.",
+    "growth": "+200% YoY",
+    "source": "Reported estimates"
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "revenue": "$75M",
+    "period": "2025 Annual",
+    "growth": "+27% YoY",
+    "source": "SEC 10-K (RXRX)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "AiDash",
+    "revenue": "$50M+",
+    "period": "2025 ARR Est.",
+    "growth": "+100% YoY",
+    "source": "Company announcement"
+  },
+  {
+    "company": "Saronic",
+    "revenue": "$50M+",
+    "period": "2025 Est.",
+    "growth": "+500% YoY",
+    "source": "Early revenue stage"
+  },
+  {
+    "company": "QuantumScape",
+    "revenue": "$48M",
+    "period": "2025 Annual",
+    "growth": "-58% YoY",
+    "source": "SEC 10-K (QS)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "LanzaTech",
+    "revenue": "$41M",
+    "period": "2025 TTM",
+    "growth": "-40% YoY",
+    "source": "Public filings (NASDAQ: LNZA)"
+  },
+  {
+    "company": "ispace",
+    "revenue": "$32M",
+    "period": "FY2025",
+    "growth": "+101% YoY",
+    "source": "Public filings (TYO: 9348)"
+  },
+  {
+    "company": "Astroscale",
+    "revenue": "$29M",
+    "period": "2025 TTM",
+    "growth": "+50% YoY",
+    "source": "Public filings (TYO: 186A)"
+  },
+  {
+    "company": "D-Wave Quantum",
+    "revenue": "$25M",
+    "period": "2025 Annual",
+    "growth": "+179% YoY",
+    "source": "SEC 10-K (QBTS)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "Solid Power",
+    "revenue": "$23M",
+    "period": "2024 Annual",
+    "growth": "+422% YoY",
+    "source": "SEC 10-K (SLDP)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "D-Orbit",
+    "revenue": "$20M+",
+    "period": "2025 Est.",
+    "growth": "+100% YoY",
+    "source": "Company estimates"
+  },
+  {
+    "company": "Satellogic",
+    "revenue": "$18M",
+    "period": "2025 Annual",
+    "growth": "+38% YoY",
+    "source": "SEC 10-K (SATL)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "Rigetti Computing",
+    "revenue": "$13M",
+    "period": "2022 Annual",
+    "growth": "+60% YoY",
+    "source": "SEC 10-K (RGTI)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "ideaForge",
+    "revenue": "$13M",
+    "period": "FY2025 TTM",
+    "growth": "-50% YoY",
+    "source": "Public filings (NSE: IDEAFORGE)"
+  },
+  {
+    "company": "AST SpaceMobile",
+    "revenue": "$4M",
+    "period": "2024 Annual",
+    "growth": "",
+    "source": "SEC 10-K (ASTS)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "Aurora Innovation",
+    "revenue": "$3M",
+    "period": "2025 Annual",
+    "growth": "",
+    "source": "SEC 10-K (AUR)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "Archer Aviation",
+    "revenue": "$300K",
+    "period": "2025 Annual",
+    "growth": "",
+    "source": "SEC 10-K (ACHR)",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "company": "Boom Supersonic",
+    "revenue": "Pre-Revenue",
+    "period": "2025",
+    "growth": "N/A",
+    "source": "Pre-certification"
+  },
+  {
+    "company": "Oklo",
+    "revenue": "Pre-Revenue",
+    "period": "2025",
+    "growth": "N/A",
+    "source": "Public filings (NYSE: OKLO)"
+  },
+  {
+    "company": "Nano Nuclear Energy",
+    "revenue": "Pre-Revenue",
+    "period": "2025",
+    "growth": "N/A",
+    "source": "Public filings (NASDAQ: NNE)"
+  },
+  {
+    "company": "Vertical Aerospace",
+    "revenue": "Pre-Revenue",
+    "period": "2025",
+    "growth": "N/A",
+    "source": "Public filings (NYSE: EVTL)"
+  }
 ]

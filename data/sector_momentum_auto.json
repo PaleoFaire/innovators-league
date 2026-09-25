@@ -1,27 +1,45 @@
 [
   {
     "sector": "Transportation",
-    "momentum": 53,
+    "momentum": 50,
     "trend": "steady",
     "catalysts": [
-      "Rivian\u2019s Gambit for Full Autonomy"
+      "Active transportation ecosystem"
     ],
     "fundingQ": "$3.0B",
     "components": {
       "funding": 100,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
-      "market": 86
+      "market": 73
     },
-    "lastUpdated": "2026-09-24"
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 44,
+    "trend": "steady",
+    "catalysts": [
+      "Europeans in Japan raise $1.2M to put modular humanoid robot",
+      "ANYbotics opens the door for inspections with ANYmal robots",
+      "Waymo says it has stopped 841 injuries in 271 million autono"
+    ],
+    "fundingQ": "$1.4B",
+    "components": {
+      "funding": 72,
+      "news": 35,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-25"
   },
   {
     "sector": "Defense & Security",
     "momentum": 42,
     "trend": "rising",
     "catalysts": [
+      "Shield AI, Waabi, and General Motors on building AI when fai",
       "Army awards Palantir $48.1M to modernize ammo management",
-      "Modal Motors is trying to cut China out of electric motors e",
       "EXCLUSIVE: SpaceX given unique access to classified DoD spac"
     ],
     "fundingQ": "$1.1B",
@@ -31,70 +49,34 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-24"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 41,
-    "trend": "steady",
-    "catalysts": [
-      "Modal Motors is trying to cut China out of electric motors e",
-      "Autonomy, Meet Autonomous \u2014 Waymo Teen Accounts in Nashville",
-      "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran"
-    ],
-    "fundingQ": "$1.4B",
-    "components": {
-      "funding": 72,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-24"
+    "lastUpdated": "2026-09-25"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 33,
+    "momentum": 31,
     "trend": "rising",
     "catalysts": [
-      "EXCLUSIVE: SpaceX given unique access to classified DoD spac",
-      "Autonomy, Meet Autonomous \u2014 Waymo Teen Accounts in Nashville",
-      "Elon Plans SPACEX FIBER KILLER Satellite. Each More Powerful"
+      "SpaceX Beating Bull Case- Adding 880,000 chips in four month",
+      "SpaceX INSANE SPEED is more valuable than Rockets",
+      "EXCLUSIVE: SpaceX given unique access to classified DoD spac"
     ],
     "fundingQ": "$50M",
     "components": {
       "funding": 5,
       "news": 45,
       "hiring": 0,
-      "market": 100
+      "market": 89
     },
-    "lastUpdated": "2026-09-24"
+    "lastUpdated": "2026-09-25"
   },
   {
-    "sector": "AI & Software",
-    "momentum": 29,
-    "trend": "rising",
-    "catalysts": [
-      "An OpenAI Agent Hacked Australia\u2019s Health Service. Their Gov",
-      "Anthropic and Nvidia back Basecamp Research in $140M Series",
-      "OpenAI agents discussed ways to escape their sandbox on publ"
-    ],
-    "fundingQ": "$2.9B",
-    "components": {
-      "funding": 44,
-      "news": 15,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-24"
-  },
-  {
-    "sector": "Nuclear Energy",
+    "sector": "Biotech & Health",
     "momentum": 26,
     "trend": "declining",
     "catalysts": [
-      "With federal funding windfall, X-energy advances small nucle",
-      "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
-      "Forced Into the Right Decision? A Look at U.S. Land-Based De"
+      "Shield AI, Waabi, and General Motors on building AI when fai",
+      "Australia to investigate if OpenAI hack of government health",
+      "An OpenAI Agent Hacked Australia\u2019s Health Service. Their Gov"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -103,45 +85,47 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-24"
+    "lastUpdated": "2026-09-25"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 22,
+    "momentum": 24,
     "trend": "declining",
     "catalysts": [
-      "Anthropic and Nvidia back Basecamp Research in $140M Series",
-      "Rivian\u2019s Gambit for Full Autonomy"
+      "SpaceX Beating Bull Case- Adding 880,000 chips in four month",
+      "SpaceX INSANE SPEED is more valuable than Rockets",
+      "Anthropic and Nvidia back Basecamp Research in $140M Series"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-09-24"
+    "lastUpdated": "2026-09-25"
   },
   {
-    "sector": "Biotech & Health",
-    "momentum": 22,
+    "sector": "AI & Software",
+    "momentum": 23,
     "trend": "declining",
     "catalysts": [
-      "An OpenAI Agent Hacked Australia\u2019s Health Service. Their Gov",
-      "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran"
+      "SpaceX INSANE SPEED is more valuable than Rockets",
+      "Australia to investigate if OpenAI hack of government health",
+      "An OpenAI Agent Hacked Australia\u2019s Health Service. Their Gov"
     ],
-    "fundingQ": "$0M",
+    "fundingQ": "$720M",
     "components": {
-      "funding": 0,
-      "news": 10,
+      "funding": 19,
+      "news": 25,
       "hiring": 0,
-      "market": 100
+      "market": 50
     },
-    "lastUpdated": "2026-09-24"
+    "lastUpdated": "2026-09-25"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 20,
+    "momentum": 19,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -151,9 +135,27 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 100
+      "market": 95
     },
-    "lastUpdated": "2026-09-24"
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 16,
+    "trend": "declining",
+    "catalysts": [
+      "Shield AI, Waabi, and General Motors on building AI when fai",
+      "With Denmark, Saildrone logs first flag registration for nav",
+      "Waymo says it has stopped 841 injuries in 271 million autono"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-25"
   },
   {
     "sector": "Housing & Construction",
@@ -169,29 +171,78 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-24"
+    "lastUpdated": "2026-09-25"
   },
   {
-    "sector": "Drones & Autonomous",
-    "momentum": 15,
+    "sector": "Consumer Tech",
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
-      "Modal Motors is trying to cut China out of electric motors e",
-      "TEKEVER raises $580M Series D at $6.4B valuation",
-      "Autonomy, Meet Autonomous \u2014 Waymo Teen Accounts in Nashville"
+      "ANYbotics opens the door for inspections with ANYmal robots",
+      "An OpenAI Agent Hacked Australia\u2019s Health Service. Their Gov",
+      "What do you do with a humanoid robot when it breaks down?"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-24"
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "SpaceX INSANE SPEED is more valuable than Rockets",
+      "Europeans in Japan raise $1.2M to put modular humanoid robot"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "ElevenLabs&#8217; CEO on margins, IPO timing, and telling cu"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "sector": "Ocean & Maritime",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "With Denmark, Saildrone logs first flag registration for nav"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-25"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 15,
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
       "With federal funding windfall, X-energy advances small nucle",
@@ -203,74 +254,26 @@
       "funding": 11,
       "news": 20,
       "hiring": 0,
-      "market": 32
+      "market": 6
     },
-    "lastUpdated": "2026-09-24"
+    "lastUpdated": "2026-09-25"
   },
   {
-    "sector": "Consumer Tech",
-    "momentum": 15,
+    "sector": "Nuclear Energy",
+    "momentum": 5,
     "trend": "declining",
     "catalysts": [
-      "An OpenAI Agent Hacked Australia\u2019s Health Service. Their Gov",
-      "What do you do with a humanoid robot when it breaks down?",
-      "Icarus Robotics tests Joy in Canada ahead of ISS flight"
+      "With federal funding windfall, X-energy advances small nucle",
+      "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
+      "Forced Into the Right Decision? A Look at U.S. Land-Based De"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 20,
       "hiring": 0,
-      "market": 50
+      "market": 1
     },
-    "lastUpdated": "2026-09-24"
-  },
-  {
-    "sector": "Supersonic & Hypersonic",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active supersonic & hypersonic ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-24"
-  },
-  {
-    "sector": "Ocean & Maritime",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active ocean & maritime ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-24"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active infrastructure & logistics ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-24"
+    "lastUpdated": "2026-09-25"
   }
 ]

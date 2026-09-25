@@ -729,15 +729,6 @@
     "isIPO": false
   },
   {
-    "company": "Intuitive Machines",
-    "ticker": "LUNR",
-    "form": "4",
-    "date": "2026-06-26",
-    "description": "xslF345X06/form4-06262026_050631.xml",
-    "accessionNumber": "0001641794-26-000002",
-    "isIPO": false
-  },
-  {
     "company": "Momentus",
     "ticker": "MNTS",
     "form": "8-K",
@@ -1881,15 +1872,6 @@
     "isIPO": false
   },
   {
-    "company": "IonQ",
-    "ticker": "IONQ",
-    "form": "8-K",
-    "date": "2026-06-26",
-    "description": "bakkt-20260625.htm",
-    "accessionNumber": "0001628280-26-045627",
-    "isIPO": false
-  },
-  {
     "company": "Rigetti Computing",
     "ticker": "RGTI",
     "form": "4",
@@ -1977,6 +1959,15 @@
     "date": "2026-08-06",
     "description": "rgti-20260806x8k.htm",
     "accessionNumber": "0001104659-26-091979",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-09-24",
+    "description": "xslF345X06/wk-form4_1790283736.xml",
+    "accessionNumber": "0002156505-26-000004",
     "isIPO": false
   },
   {
@@ -2427,6 +2418,15 @@
     "date": "2026-07-20",
     "description": "xslF345X06/wk-form4_1784581219.xml",
     "accessionNumber": "0001628280-26-048832",
+    "isIPO": false
+  },
+  {
+    "company": "Archer Aviation",
+    "ticker": "ACHR",
+    "form": "8-K",
+    "date": "2026-09-24",
+    "description": "achr-20260924.htm",
+    "accessionNumber": "0001824502-26-000075",
     "isIPO": false
   },
   {
@@ -3123,15 +3123,6 @@
     "isIPO": false
   },
   {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "8-K",
-    "date": "2026-06-26",
-    "description": "rivn-20260622.htm",
-    "accessionNumber": "0001874178-26-000045",
-    "isIPO": false
-  },
-  {
     "company": "Astera Labs",
     "ticker": "ALAB",
     "form": "4",
@@ -3273,15 +3264,6 @@
     "date": "2026-07-06",
     "description": "ea0297007-8k_zoomcar.htm",
     "accessionNumber": "0001213900-26-075561",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "DEF 14A",
-    "date": "2026-06-26",
-    "description": "ea0296034-def14a_zoomcar.htm",
-    "accessionNumber": "0001213900-26-072668",
     "isIPO": false
   }
 ]

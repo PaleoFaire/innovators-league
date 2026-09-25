@@ -1,259 +1,263 @@
 {
- "generated_at": "2026-09-24T12:45:55.814998Z",
- "platform": {
-  "companiesTracked": 1217,
-  "sectorsMonitored": 16,
-  "totalCapitalRaisedTracked": "$489.1B",
-  "totalValuationTracked": "$1158.6B",
-  "companiesWithValuation": 119,
-  "govContractsTracked": 161,
-  "sbirAwardsTracked": 341,
-  "dealsTracked": 240,
-  "newsItemsTracked": 27,
-  "dataPointsUpdated": "48,680+"
- },
- "topFunds": [
-  {
-   "fund": "NVIDIA",
-   "portfolio_count": 28,
-   "companies": [
-    "Ayar Labs",
-    "Crusoe Energy",
-    "Emerald AI",
-    "Etched",
-    "Figure AI",
-    "Foxglove",
-    "Freeform",
-    "Genesis Therapeutics"
-   ]
+  "generated_at": "2026-09-25T15:04:06.745800Z",
+  "platform": {
+    "companiesTracked": 1208,
+    "sectorsMonitored": 16,
+    "totalCapitalRaisedTracked": "$409.9B",
+    "totalValuationTracked": "$1070.8B",
+    "companiesWithValuation": 116,
+    "govContractsTracked": 157,
+    "sbirAwardsTracked": 341,
+    "dealsTracked": 224,
+    "newsItemsTracked": 31,
+    "dataPointsUpdated": "48,320+"
   },
-  {
-   "fund": "Founders Fund",
-   "portfolio_count": 14,
-   "companies": [
-    "Amca",
-    "American Terawatt",
-    "Crusoe Energy",
-    "General Matter",
-    "Nominal",
-    "Onodrim Industries",
-    "Senra Systems",
-    "Shinkei",
-    "Strata Robotics",
-    "Until"
-   ]
-  },
-  {
-   "fund": "a16z",
-   "portfolio_count": 12,
-   "companies": [
-    "Amca",
-    "Atoms",
-    "CX2 Industries",
-    "Galadyne",
-    "Genesis Therapeutics",
-    "Mara",
-    "Periodic Labs",
-    "Senra Systems",
-    "Thatch"
-   ]
-  },
-  {
-   "fund": "Lux Capital",
-   "portfolio_count": 11,
-   "companies": [
-    "Cognichip",
-    "Deep Sentinel",
-    "Echodyne",
-    "Epsilon3",
-    "Looking Glass",
-    "Lumaril",
-    "Performance Drone Works",
-    "Resurgent Industries",
-    "Terra Industries",
-    "Terrahaptix"
-   ]
-  },
-  {
-   "fund": "General Catalyst",
-   "portfolio_count": 9,
-   "companies": [
-    "Alsym Energy",
-    "Collaborative Robotics",
-    "Endeavor Optical Networks",
-    "Onodrim Industries",
-    "Pacific Fusion",
-    "Thatch",
-    "Valinor Enterprises",
-    "Vital Lyfe"
-   ]
-  },
-  {
-   "fund": "Khosla Ventures",
-   "portfolio_count": 9,
-   "companies": [
-    "Caelux",
-    "Foundry Robotics",
-    "Nomagic",
-    "Sagence",
-    "Singularity",
-    "Skapion",
-    "Spiritus",
-    "Varda Space Industries",
-    "Windborne"
-   ]
-  },
-  {
-   "fund": "NATO Innovation Fund",
-   "portfolio_count": 7,
-   "companies": [
-    "ARX Robotics",
-    "Frankenburg Technologies",
-    "Isar Aerospace",
-    "Kelluu",
-    "Portal Biotech",
-    "Stark Defence",
-    "Uplift360"
-   ]
-  },
-  {
-   "fund": "Breakthrough Energy",
-   "portfolio_count": 7,
-   "companies": [
-    "H2Pro",
-    "LuxWall",
-    "Mission Zero Technologies",
-    "Pacific Fusion",
-    "Planted Solar",
-    "Sygaldry Technologies",
-    "Tempo"
-   ]
-  },
-  {
-   "fund": "8VC",
-   "portfolio_count": 6,
-   "companies": [
-    "Cambium",
-    "Gallatin AI",
-    "Generalist AI",
-    "Stark Defence",
-    "Terra Industries",
-    "Terrahaptix"
-   ]
-  },
-  {
-   "fund": "Accel",
-   "portfolio_count": 5,
-   "companies": [
-    "Blackshark.ai",
-    "Diode",
-    "Lazarus Energy Systems",
-    "Photonium",
-    "True Anomaly"
-   ]
-  },
-  {
-   "fund": "In-Q-Tel",
-   "portfolio_count": 5,
-   "companies": [
-    "Anello Photonics",
-    "Elve",
-    "Stark Defence",
-    "Vast"
-   ]
-  },
-  {
-   "fund": "Lightspeed",
-   "portfolio_count": 4,
-   "companies": [
-    "Alif Semiconductor",
-    "Castelion",
-    "Telesat Lightspeed"
-   ]
-  },
-  {
-   "fund": "Sequoia Capital",
-   "portfolio_count": 4,
-   "companies": [
-    "JITX",
-    "Keen Technologies",
-    "Nuvacore",
-    "Sunflower Labs"
-   ]
-  },
-  {
-   "fund": "Kleiner Perkins",
-   "portfolio_count": 4,
-   "companies": [
-    "Alif Semiconductor",
-    "TerraFirma"
-   ]
-  },
-  {
-   "fund": "Index Ventures",
-   "portfolio_count": 3,
-   "companies": [
-    "Cowboy Space Corporation",
-    "Enigma",
-    "Thatch"
-   ]
-  },
-  {
-   "fund": "Craft Ventures",
-   "portfolio_count": 2,
-   "companies": [
-    "Allen Control Systems",
-    "Hyfix"
-   ]
-  },
-  {
-   "fund": "Thrive Capital",
-   "portfolio_count": 2,
-   "companies": [
-    "Isomorphic Labs",
-    "Physical Intelligence"
-   ]
-  },
-  {
-   "fund": "Peter Thiel",
-   "portfolio_count": 2,
-   "companies": [
-    "New Limit",
-    "Panthalassa"
-   ]
-  },
-  {
-   "fund": "NEA",
-   "portfolio_count": 2,
-   "companies": [
-    "Built Robotics",
-    "Firestorm Labs"
-   ]
-  },
-  {
-   "fund": "BlackRock",
-   "portfolio_count": 2,
-   "companies": [
-    "Genesis Therapeutics",
-    "PsiQuantum"
-   ]
+  "topFunds": [
+    {
+      "fund": "NVIDIA",
+      "portfolio_count": 21,
+      "companies": [
+        "Ayar Labs",
+        "Crusoe Energy",
+        "Emerald AI",
+        "Etched",
+        "Figure AI",
+        "Foxglove",
+        "Freeform",
+        "Genesis Therapeutics",
+        "Humanoid",
+        "Iambic Therapeutics"
+      ]
+    },
+    {
+      "fund": "Founders Fund",
+      "portfolio_count": 14,
+      "companies": [
+        "Amca",
+        "American Terawatt",
+        "Crusoe Energy",
+        "General Matter",
+        "Nominal",
+        "Onodrim Industries",
+        "Senra Systems",
+        "Shinkei",
+        "Strata Robotics",
+        "Until"
+      ]
+    },
+    {
+      "fund": "a16z",
+      "portfolio_count": 12,
+      "companies": [
+        "Amca",
+        "Atoms",
+        "CX2 Industries",
+        "Galadyne",
+        "Genesis Therapeutics",
+        "Mara",
+        "Periodic Labs",
+        "Senra Systems",
+        "Thatch",
+        "Ulysses Robotics"
+      ]
+    },
+    {
+      "fund": "Lux Capital",
+      "portfolio_count": 10,
+      "companies": [
+        "Cognichip",
+        "Deep Sentinel",
+        "Echodyne",
+        "Epsilon3",
+        "Looking Glass",
+        "Lumaril",
+        "Performance Drone Works",
+        "Resurgent Industries",
+        "Terra Industries",
+        "Traysar"
+      ]
+    },
+    {
+      "fund": "Khosla Ventures",
+      "portfolio_count": 9,
+      "companies": [
+        "Caelux",
+        "Foundry Robotics",
+        "Nomagic",
+        "Sagence",
+        "Singularity",
+        "Skapion",
+        "Spiritus",
+        "Varda Space Industries",
+        "Windborne"
+      ]
+    },
+    {
+      "fund": "General Catalyst",
+      "portfolio_count": 8,
+      "companies": [
+        "Alsym Energy",
+        "Collaborative Robotics",
+        "Endeavor Optical Networks",
+        "Onodrim Industries",
+        "Pacific Fusion",
+        "Thatch",
+        "Valinor Enterprises",
+        "Vital Lyfe"
+      ]
+    },
+    {
+      "fund": "Breakthrough Energy",
+      "portfolio_count": 8,
+      "companies": [
+        "Dioxycle",
+        "H2Pro",
+        "LuxWall",
+        "Mission Zero Technologies",
+        "Pacific Fusion",
+        "Planted Solar",
+        "Sygaldry Technologies",
+        "Tempo"
+      ]
+    },
+    {
+      "fund": "NATO Innovation Fund",
+      "portfolio_count": 7,
+      "companies": [
+        "ARX Robotics",
+        "Frankenburg Technologies",
+        "Isar Aerospace",
+        "Kelluu",
+        "Portal Biotech",
+        "Stark Defence",
+        "Uplift360"
+      ]
+    },
+    {
+      "fund": "Accel",
+      "portfolio_count": 5,
+      "companies": [
+        "Blackshark.ai",
+        "Diode",
+        "Lazarus Energy Systems",
+        "Photonium",
+        "True Anomaly"
+      ]
+    },
+    {
+      "fund": "In-Q-Tel",
+      "portfolio_count": 5,
+      "companies": [
+        "Anello Photonics",
+        "Elve",
+        "Maybell Quantum",
+        "Stark Defence",
+        "Vast"
+      ]
+    },
+    {
+      "fund": "8VC",
+      "portfolio_count": 5,
+      "companies": [
+        "Cambium",
+        "Gallatin AI",
+        "Generalist AI",
+        "Stark Defence",
+        "Terra Industries"
+      ]
+    },
+    {
+      "fund": "Sequoia Capital",
+      "portfolio_count": 4,
+      "companies": [
+        "JITX",
+        "Keen Technologies",
+        "Nuvacore",
+        "Sunflower Labs"
+      ]
+    },
+    {
+      "fund": "Index Ventures",
+      "portfolio_count": 3,
+      "companies": [
+        "Cowboy Space Corporation",
+        "Enigma",
+        "Thatch"
+      ]
+    },
+    {
+      "fund": "Lightspeed",
+      "portfolio_count": 3,
+      "companies": [
+        "Alif Semiconductor",
+        "Castelion",
+        "Telesat Lightspeed"
+      ]
+    },
+    {
+      "fund": "Valor Equity",
+      "portfolio_count": 2,
+      "companies": [
+        "Magrathea Metals",
+        "Uplift"
+      ]
+    },
+    {
+      "fund": "Craft Ventures",
+      "portfolio_count": 2,
+      "companies": [
+        "Allen Control Systems",
+        "Hyfix"
+      ]
+    },
+    {
+      "fund": "Thrive Capital",
+      "portfolio_count": 2,
+      "companies": [
+        "Isomorphic Labs",
+        "Physical Intelligence"
+      ]
+    },
+    {
+      "fund": "Peter Thiel",
+      "portfolio_count": 2,
+      "companies": [
+        "New Limit",
+        "Panthalassa"
+      ]
+    },
+    {
+      "fund": "NEA",
+      "portfolio_count": 2,
+      "companies": [
+        "Built Robotics",
+        "Firestorm Labs"
+      ]
+    },
+    {
+      "fund": "BlackRock",
+      "portfolio_count": 2,
+      "companies": [
+        "Genesis Therapeutics",
+        "PsiQuantum"
+      ]
+    }
+  ],
+  "sectorConcentration": {
+    "Robotics & Manufacturing": 203,
+    "Space & Aerospace": 199,
+    "Defense & Security": 195,
+    "Climate & Energy": 186,
+    "Chips & Semiconductors": 85,
+    "Biotech & Health": 84,
+    "Nuclear Energy": 67,
+    "Quantum Computing": 52,
+    "Drones & Autonomous": 40,
+    "Transportation": 27,
+    "AI & Software": 24,
+    "Housing & Construction": 18,
+    "Ocean & Maritime": 12,
+    "Infrastructure & Logistics": 7,
+    "Consumer Tech": 5
   }
- ],
- "sectorConcentration": {
-  "Robotics & Manufacturing": 205,
-  "Space & Aerospace": 199,
-  "Defense & Security": 196,
-  "Climate & Energy": 183,
-  "Chips & Semiconductors": 84,
-  "Biotech & Health": 81,
-  "Nuclear Energy": 67,
-  "Quantum Computing": 51,
-  "Drones & Autonomous": 39,
-  "AI & Software": 39,
-  "Transportation": 28,
-  "Housing & Construction": 17,
-  "Ocean & Maritime": 12,
-  "Infrastructure & Logistics": 7,
-  "Consumer Tech": 5
- }
 }
