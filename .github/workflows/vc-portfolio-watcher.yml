@@ -98,7 +98,9 @@ jobs:
           print("| Fund | Holdings | Tracked | Overlap | New this run | Candidates | Status |")
           print("|---|---|---|---|---|---|---|")
           for key, f in sorted(d.get("funds", {}).items(), key=lambda kv: -(kv[1].get("overlap") or 0)):
-              status = f"FAILED: {f['error'][:60]}" if f.get("error") else ("baseline" if f.get("baseline") else "ok")
+              status = (f"FAILED: {f['error'][:60]}" if f.get("error")
+                        else f"partial: {f['partial'][:60]}" if f.get("partial")
+                        else "baseline" if f.get("baseline") else "ok")
               print(f"| {key} | {f.get('count','')} | {f.get('tracked','')} | "
                     f"{(f.get('overlap') or 0):.0%} | {f.get('new_this_run','')} | {f.get('candidates','')} | {status} |")
           new = [(k, n) for k, f in d.get("funds", {}).items() for n in (f.get("new_names") or [])]

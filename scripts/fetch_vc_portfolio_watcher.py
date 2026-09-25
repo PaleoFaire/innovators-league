@@ -471,8 +471,16 @@ def extract_wp_company(fund: dict) -> list[dict]:
         try:
             r = get(f"{base}?per_page=100&page={page}&orderby=date&order=desc")
         except requests.HTTPError as e:
-            if e.response is not None and e.response.status_code == 400:
+            code = e.response.status_code if e.response is not None else 0
+            if code == 400:
                 break                        # past the last page
+            if page > 1 and out:
+                # Lowercarbon's WAF blocks GitHub runners from page 2 onward even
+                # after 20 s back-offs. Page 1 is the 100 newest holdings, which is
+                # what the diff needs; keep it and say so rather than fail the fund.
+                fund["_note"] = f"pages after {page - 1} blocked ({code}); newest {len(out)} kept"
+                print(f"   partial: {fund['_note']}")
+                break
             raise
         rows = r.json()
         if not rows:
@@ -720,6 +728,7 @@ def main() -> int:
 
         report[key] = {
             "name": fund["name"], "url": fund["urls"][0], "kind": fund["kind"], "note": fund.get("note", ""),
+            "partial": fund.pop("_note", ""),
             "fetched_at": generated.isoformat(), "count": len(rows), "tracked": tracked,
             "overlap": round(overlap, 3), "new_this_run": len(new_ids), "baseline": not prev_ids,
             "new_names": [h["name"] or h["domain"] for h in rows if h["id"] in set(new_ids)][:40],
