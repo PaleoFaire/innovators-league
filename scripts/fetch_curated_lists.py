@@ -128,7 +128,7 @@ EXCLUDE = {
     "huggingface", "midjourney", "perplexity", "scaleai", "cohere", "mistralai",
     # Cut from the database 2026-09-25 (AI labs and clouds with no physical
     # product, plus one dormant company); never re-queue them.
-    "blackforestlabs", "cartesia", "cognition", "coreautomation", "cuspai", "flappingairplanes", "generalintuition", "humain", "humans", "hypernovaspacetechnologies", "lambda", "poolside", "reflectionai", "togetherai", "worldlabs",
+    "blackforestlabs", "breenenergy", "cartesia", "cognition", "coreautomation", "cuspai", "flappingairplanes", "generalintuition", "humain", "humans", "hypernovaspacetechnologies", "lambda", "poolside", "reflectionai", "togetherai", "worldlabs",
 }
 
 SUFFIX = re.compile(
