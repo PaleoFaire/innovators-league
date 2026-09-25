@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 0.6,
+      "avg_change": 0.01,
       "count": 7
     },
     "nuclear": {
@@ -86,9 +86,9 @@
   ],
   "topLosers": [
     [
-      "QS",
-      "QuantumScape",
-      -4.45
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -4.53
     ],
     [
       "SMR",
@@ -111,5 +111,5 @@
       -10.59
     ]
   ],
-  "lastUpdated": "2026-09-24 22:28:35"
+  "lastUpdated": "2026-09-25 06:12:28"
 }
