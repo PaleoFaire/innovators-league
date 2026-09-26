@@ -1,7 +1,7 @@
-month,is_nowcast,hiring_panel,hiring_up,hiring_down,hiring_diffusion,open_roles,open_roles_prev,roles_mom_pct,mfg_roles,sw_roles,atoms_bits_ratio,capital_diffusion_covered,capital_panel,capital_events_3m,capital_rate_per100_3m,contracts_diffusion_covered,contracts_panel,contracts_events_3m,contracts_rate_per100_3m,milestones_diffusion,milestone_events,footprint_diffusion,footprint_events,pulse_hiring,pulse_v0_composite,components_live
-2026-04,False,50,31,14,67.0,2278,2084,9.3,479,425,1.13,77.5,40,25,2.46,56.7,135,38,3.74,,0,,0,67.0,67.0,hiring+capital+contracts
-2026-05,False,50,22,5,67.0,2515,2292,9.7,530,429,1.24,72.8,46,26,2.56,54.7,137,38,3.74,,0,,0,67.0,65.2,hiring+capital+contracts
-2026-06,False,51,23,15,57.8,2642,2522,4.8,568,440,1.29,68.1,58,29,2.85,53.8,143,37,3.64,,0,,0,57.8,59.6,hiring+capital+contracts
-2026-07,False,52,24,12,61.5,2761,2646,4.3,640,441,1.45,70.0,65,35,3.44,49.7,144,26,2.56,,0,,0,61.5,60.6,hiring+capital+contracts
-2026-08,False,52,24,12,61.5,3034,2761,9.9,700,478,1.46,72.5,80,45,4.43,48.6,144,24,2.36,,0,,0,61.5,61.0,hiring+capital+contracts
-2026-09,True,53,23,12,60.4,3350,3054,9.7,813,505,1.61,70.1,92,47,4.63,41.7,145,16,1.57,,0,,0,60.4,57.8,hiring+capital+contracts
+month,is_nowcast,asof,hiring_panel,hiring_up,hiring_down,hiring_diffusion,hiring_diffusion_first_print,open_roles,open_roles_prev,roles_mom_pct,mfg_roles,sw_roles,atoms_bits_ratio,factory_flags,capital_diffusion_covered,capital_panel,capital_events_3m,capital_rate_per100_3m,contracts_diffusion_covered,contracts_panel,contracts_events_3m,contracts_rate_per100_3m,milestones_diffusion,milestone_events,footprint_diffusion,footprint_events,pulse_hiring,pulse_v0_composite,components_live
+2026-04,False,2026-04-30,50,31,14,67.0,67.0,2267,2077,9.1,490,433,1.13,6,42.7,137,39,3.84,56.7,135,38,3.74,,0,,0,67.0,57.1,hiring+capital+contracts
+2026-05,False,2026-05-31,50,22,6,66.0,66.0,2499,2279,9.7,539,437,1.23,6,41.6,143,37,3.64,54.7,137,38,3.74,,0,,0,66.0,55.8,hiring+capital+contracts
+2026-06,False,2026-06-30,51,24,15,58.8,58.8,2624,2506,4.7,583,449,1.3,3,40.3,154,33,3.25,53.8,143,37,3.64,50.0,1,,0,58.8,51.6,hiring+capital+contracts+milestones
+2026-07,False,2026-07-31,52,24,13,60.6,60.6,2730,2628,3.9,648,449,1.44,3,41.6,160,37,3.64,49.7,144,26,2.56,,0,,0,60.6,52.0,hiring+capital+contracts
+2026-08,False,2026-08-31,52,24,14,59.6,59.6,2998,2730,9.8,702,490,1.43,9,45.1,175,47,4.63,48.6,144,24,2.36,,0,,0,59.6,52.3,hiring+capital+contracts
+2026-09,True,2026-09-26,53,24,11,62.3,,3315,3018,9.8,822,523,1.57,6,45.4,186,48,4.72,41.7,145,16,1.57,,0,,0,62.3,51.6,hiring+capital+contracts

@@ -1,9 +1,12 @@
 {
- "generated": "2026-09-25",
+ "generated": "2026-09-26",
  "universe": 1016,
+ "companies_total": 1208,
  "thresholds": {
   "up_pct": 0.1,
-  "up_abs": 3
+  "up_abs": 3,
+  "stale_days": 365,
+  "min_bucket": 20
  },
  "weights": {
   "hiring": 30,
@@ -15,20 +18,23 @@
  "latest": {
   "month": "2026-09",
   "is_nowcast": true,
+  "asof": "2026-09-26",
   "hiring_panel": 53,
-  "hiring_up": 23,
-  "hiring_down": 12,
-  "hiring_diffusion": 60.4,
-  "open_roles": 3350,
-  "open_roles_prev": 3054,
-  "roles_mom_pct": 9.7,
-  "mfg_roles": 813,
-  "sw_roles": 505,
-  "atoms_bits_ratio": 1.61,
-  "capital_diffusion_covered": 70.1,
-  "capital_panel": 92,
-  "capital_events_3m": 47,
-  "capital_rate_per100_3m": 4.63,
+  "hiring_up": 24,
+  "hiring_down": 11,
+  "hiring_diffusion": 62.3,
+  "hiring_diffusion_first_print": "",
+  "open_roles": 3315,
+  "open_roles_prev": 3018,
+  "roles_mom_pct": 9.8,
+  "mfg_roles": 822,
+  "sw_roles": 523,
+  "atoms_bits_ratio": 1.57,
+  "factory_flags": 6,
+  "capital_diffusion_covered": 45.4,
+  "capital_panel": 186,
+  "capital_events_3m": 48,
+  "capital_rate_per100_3m": 4.72,
   "contracts_diffusion_covered": 41.7,
   "contracts_panel": 145,
   "contracts_events_3m": 16,
@@ -37,8 +43,8 @@
   "milestone_events": 0,
   "footprint_diffusion": "",
   "footprint_events": 0,
-  "pulse_hiring": 60.4,
-  "pulse_v0_composite": 57.8,
+  "pulse_hiring": 62.3,
+  "pulse_v0_composite": 51.6,
   "components_live": "hiring+capital+contracts"
  },
  "latest_buckets": [
@@ -46,12 +52,13 @@
    "month": "2026-09",
    "bucket": "Autonomy & Robotics",
    "panel": 10,
-   "up": 6,
+   "up": 7,
    "down": 2,
-   "hiring_diffusion": 70.0,
-   "open_roles": 831,
-   "mfg_roles": 201,
-   "sw_roles": 152,
+   "hiring_diffusion": 75.0,
+   "open_roles": 827,
+   "mfg_roles": 199,
+   "sw_roles": 160,
+   "senior_roles": 6,
    "sufficient": false
   },
   {
@@ -63,7 +70,8 @@
    "hiring_diffusion": 30.0,
    "open_roles": 294,
    "mfg_roles": 30,
-   "sw_roles": 43,
+   "sw_roles": 46,
+   "senior_roles": 2,
    "sufficient": false
   },
   {
@@ -73,9 +81,10 @@
    "up": 2,
    "down": 1,
    "hiring_diffusion": 57.1,
-   "open_roles": 413,
-   "mfg_roles": 100,
-   "sw_roles": 71,
+   "open_roles": 405,
+   "mfg_roles": 105,
+   "sw_roles": 77,
+   "senior_roles": 4,
    "sufficient": false
   },
   {
@@ -83,11 +92,12 @@
    "bucket": "Manufacturing & Materials",
    "panel": 5,
    "up": 1,
-   "down": 2,
-   "hiring_diffusion": 40.0,
-   "open_roles": 337,
-   "mfg_roles": 107,
-   "sw_roles": 37,
+   "down": 1,
+   "hiring_diffusion": 50.0,
+   "open_roles": 321,
+   "mfg_roles": 99,
+   "sw_roles": 38,
+   "senior_roles": 1,
    "sufficient": false
   },
   {
@@ -97,9 +107,10 @@
    "up": 4,
    "down": 0,
    "hiring_diffusion": 78.6,
-   "open_roles": 387,
-   "mfg_roles": 84,
+   "open_roles": 386,
+   "mfg_roles": 87,
    "sw_roles": 55,
+   "senior_roles": 4,
    "sufficient": false
   },
   {
@@ -112,6 +123,7 @@
    "open_roles": 28,
    "mfg_roles": 9,
    "sw_roles": 1,
+   "senior_roles": 0,
    "sufficient": false
   },
   {
@@ -121,9 +133,10 @@
    "up": 7,
    "down": 4,
    "hiring_diffusion": 59.4,
-   "open_roles": 1060,
-   "mfg_roles": 282,
+   "open_roles": 1054,
+   "mfg_roles": 293,
    "sw_roles": 146,
+   "senior_roles": 8,
    "sufficient": false
   }
  ],
@@ -131,20 +144,23 @@
   {
    "month": "2026-04",
    "is_nowcast": false,
+   "asof": "2026-04-30",
    "hiring_panel": 50,
    "hiring_up": 31,
    "hiring_down": 14,
    "hiring_diffusion": 67.0,
-   "open_roles": 2278,
-   "open_roles_prev": 2084,
-   "roles_mom_pct": 9.3,
-   "mfg_roles": 479,
-   "sw_roles": 425,
+   "hiring_diffusion_first_print": 67.0,
+   "open_roles": 2267,
+   "open_roles_prev": 2077,
+   "roles_mom_pct": 9.1,
+   "mfg_roles": 490,
+   "sw_roles": 433,
    "atoms_bits_ratio": 1.13,
-   "capital_diffusion_covered": 77.5,
-   "capital_panel": 40,
-   "capital_events_3m": 25,
-   "capital_rate_per100_3m": 2.46,
+   "factory_flags": 6,
+   "capital_diffusion_covered": 42.7,
+   "capital_panel": 137,
+   "capital_events_3m": 39,
+   "capital_rate_per100_3m": 3.84,
    "contracts_diffusion_covered": 56.7,
    "contracts_panel": 135,
    "contracts_events_3m": 38,
@@ -154,26 +170,29 @@
    "footprint_diffusion": "",
    "footprint_events": 0,
    "pulse_hiring": 67.0,
-   "pulse_v0_composite": 67.0,
+   "pulse_v0_composite": 57.1,
    "components_live": "hiring+capital+contracts"
   },
   {
    "month": "2026-05",
    "is_nowcast": false,
+   "asof": "2026-05-31",
    "hiring_panel": 50,
    "hiring_up": 22,
-   "hiring_down": 5,
-   "hiring_diffusion": 67.0,
-   "open_roles": 2515,
-   "open_roles_prev": 2292,
+   "hiring_down": 6,
+   "hiring_diffusion": 66.0,
+   "hiring_diffusion_first_print": 66.0,
+   "open_roles": 2499,
+   "open_roles_prev": 2279,
    "roles_mom_pct": 9.7,
-   "mfg_roles": 530,
-   "sw_roles": 429,
-   "atoms_bits_ratio": 1.24,
-   "capital_diffusion_covered": 72.8,
-   "capital_panel": 46,
-   "capital_events_3m": 26,
-   "capital_rate_per100_3m": 2.56,
+   "mfg_roles": 539,
+   "sw_roles": 437,
+   "atoms_bits_ratio": 1.23,
+   "factory_flags": 6,
+   "capital_diffusion_covered": 41.6,
+   "capital_panel": 143,
+   "capital_events_3m": 37,
+   "capital_rate_per100_3m": 3.64,
    "contracts_diffusion_covered": 54.7,
    "contracts_panel": 137,
    "contracts_events_3m": 38,
@@ -182,56 +201,62 @@
    "milestone_events": 0,
    "footprint_diffusion": "",
    "footprint_events": 0,
-   "pulse_hiring": 67.0,
-   "pulse_v0_composite": 65.2,
+   "pulse_hiring": 66.0,
+   "pulse_v0_composite": 55.8,
    "components_live": "hiring+capital+contracts"
   },
   {
    "month": "2026-06",
    "is_nowcast": false,
+   "asof": "2026-06-30",
    "hiring_panel": 51,
-   "hiring_up": 23,
+   "hiring_up": 24,
    "hiring_down": 15,
-   "hiring_diffusion": 57.8,
-   "open_roles": 2642,
-   "open_roles_prev": 2522,
-   "roles_mom_pct": 4.8,
-   "mfg_roles": 568,
-   "sw_roles": 440,
-   "atoms_bits_ratio": 1.29,
-   "capital_diffusion_covered": 68.1,
-   "capital_panel": 58,
-   "capital_events_3m": 29,
-   "capital_rate_per100_3m": 2.85,
+   "hiring_diffusion": 58.8,
+   "hiring_diffusion_first_print": 58.8,
+   "open_roles": 2624,
+   "open_roles_prev": 2506,
+   "roles_mom_pct": 4.7,
+   "mfg_roles": 583,
+   "sw_roles": 449,
+   "atoms_bits_ratio": 1.3,
+   "factory_flags": 3,
+   "capital_diffusion_covered": 40.3,
+   "capital_panel": 154,
+   "capital_events_3m": 33,
+   "capital_rate_per100_3m": 3.25,
    "contracts_diffusion_covered": 53.8,
    "contracts_panel": 143,
    "contracts_events_3m": 37,
    "contracts_rate_per100_3m": 3.64,
-   "milestones_diffusion": "",
-   "milestone_events": 0,
+   "milestones_diffusion": 50.0,
+   "milestone_events": 1,
    "footprint_diffusion": "",
    "footprint_events": 0,
-   "pulse_hiring": 57.8,
-   "pulse_v0_composite": 59.6,
-   "components_live": "hiring+capital+contracts"
+   "pulse_hiring": 58.8,
+   "pulse_v0_composite": 51.6,
+   "components_live": "hiring+capital+contracts+milestones"
   },
   {
    "month": "2026-07",
    "is_nowcast": false,
+   "asof": "2026-07-31",
    "hiring_panel": 52,
    "hiring_up": 24,
-   "hiring_down": 12,
-   "hiring_diffusion": 61.5,
-   "open_roles": 2761,
-   "open_roles_prev": 2646,
-   "roles_mom_pct": 4.3,
-   "mfg_roles": 640,
-   "sw_roles": 441,
-   "atoms_bits_ratio": 1.45,
-   "capital_diffusion_covered": 70.0,
-   "capital_panel": 65,
-   "capital_events_3m": 35,
-   "capital_rate_per100_3m": 3.44,
+   "hiring_down": 13,
+   "hiring_diffusion": 60.6,
+   "hiring_diffusion_first_print": 60.6,
+   "open_roles": 2730,
+   "open_roles_prev": 2628,
+   "roles_mom_pct": 3.9,
+   "mfg_roles": 648,
+   "sw_roles": 449,
+   "atoms_bits_ratio": 1.44,
+   "factory_flags": 3,
+   "capital_diffusion_covered": 41.6,
+   "capital_panel": 160,
+   "capital_events_3m": 37,
+   "capital_rate_per100_3m": 3.64,
    "contracts_diffusion_covered": 49.7,
    "contracts_panel": 144,
    "contracts_events_3m": 26,
@@ -240,27 +265,30 @@
    "milestone_events": 0,
    "footprint_diffusion": "",
    "footprint_events": 0,
-   "pulse_hiring": 61.5,
-   "pulse_v0_composite": 60.6,
+   "pulse_hiring": 60.6,
+   "pulse_v0_composite": 52.0,
    "components_live": "hiring+capital+contracts"
   },
   {
    "month": "2026-08",
    "is_nowcast": false,
+   "asof": "2026-08-31",
    "hiring_panel": 52,
    "hiring_up": 24,
-   "hiring_down": 12,
-   "hiring_diffusion": 61.5,
-   "open_roles": 3034,
-   "open_roles_prev": 2761,
-   "roles_mom_pct": 9.9,
-   "mfg_roles": 700,
-   "sw_roles": 478,
-   "atoms_bits_ratio": 1.46,
-   "capital_diffusion_covered": 72.5,
-   "capital_panel": 80,
-   "capital_events_3m": 45,
-   "capital_rate_per100_3m": 4.43,
+   "hiring_down": 14,
+   "hiring_diffusion": 59.6,
+   "hiring_diffusion_first_print": 59.6,
+   "open_roles": 2998,
+   "open_roles_prev": 2730,
+   "roles_mom_pct": 9.8,
+   "mfg_roles": 702,
+   "sw_roles": 490,
+   "atoms_bits_ratio": 1.43,
+   "factory_flags": 9,
+   "capital_diffusion_covered": 45.1,
+   "capital_panel": 175,
+   "capital_events_3m": 47,
+   "capital_rate_per100_3m": 4.63,
    "contracts_diffusion_covered": 48.6,
    "contracts_panel": 144,
    "contracts_events_3m": 24,
@@ -269,27 +297,30 @@
    "milestone_events": 0,
    "footprint_diffusion": "",
    "footprint_events": 0,
-   "pulse_hiring": 61.5,
-   "pulse_v0_composite": 61.0,
+   "pulse_hiring": 59.6,
+   "pulse_v0_composite": 52.3,
    "components_live": "hiring+capital+contracts"
   },
   {
    "month": "2026-09",
    "is_nowcast": true,
+   "asof": "2026-09-26",
    "hiring_panel": 53,
-   "hiring_up": 23,
-   "hiring_down": 12,
-   "hiring_diffusion": 60.4,
-   "open_roles": 3350,
-   "open_roles_prev": 3054,
-   "roles_mom_pct": 9.7,
-   "mfg_roles": 813,
-   "sw_roles": 505,
-   "atoms_bits_ratio": 1.61,
-   "capital_diffusion_covered": 70.1,
-   "capital_panel": 92,
-   "capital_events_3m": 47,
-   "capital_rate_per100_3m": 4.63,
+   "hiring_up": 24,
+   "hiring_down": 11,
+   "hiring_diffusion": 62.3,
+   "hiring_diffusion_first_print": "",
+   "open_roles": 3315,
+   "open_roles_prev": 3018,
+   "roles_mom_pct": 9.8,
+   "mfg_roles": 822,
+   "sw_roles": 523,
+   "atoms_bits_ratio": 1.57,
+   "factory_flags": 6,
+   "capital_diffusion_covered": 45.4,
+   "capital_panel": 186,
+   "capital_events_3m": 48,
+   "capital_rate_per100_3m": 4.72,
    "contracts_diffusion_covered": 41.7,
    "contracts_panel": 145,
    "contracts_events_3m": 16,
@@ -298,8 +329,8 @@
    "milestone_events": 0,
    "footprint_diffusion": "",
    "footprint_events": 0,
-   "pulse_hiring": 60.4,
-   "pulse_v0_composite": 57.8,
+   "pulse_hiring": 62.3,
+   "pulse_v0_composite": 51.6,
    "components_live": "hiring+capital+contracts"
   }
  ],
@@ -311,9 +342,10 @@
    "up": 8,
    "down": 1,
    "hiring_diffusion": 85.0,
-   "open_roles": 619,
-   "mfg_roles": 135,
-   "sw_roles": 157,
+   "open_roles": 617,
+   "mfg_roles": 136,
+   "sw_roles": 162,
+   "senior_roles": 4,
    "sufficient": false
   },
   {
@@ -324,8 +356,9 @@
    "down": 1,
    "hiring_diffusion": 75.0,
    "open_roles": 277,
-   "mfg_roles": 29,
-   "sw_roles": 56,
+   "mfg_roles": 30,
+   "sw_roles": 59,
+   "senior_roles": 4,
    "sufficient": false
   },
   {
@@ -336,8 +369,9 @@
    "down": 0,
    "hiring_diffusion": 90.0,
    "open_roles": 251,
-   "mfg_roles": 59,
-   "sw_roles": 56,
+   "mfg_roles": 64,
+   "sw_roles": 59,
+   "senior_roles": 0,
    "sufficient": false
   },
   {
@@ -347,9 +381,10 @@
    "up": 1,
    "down": 4,
    "hiring_diffusion": 20.0,
-   "open_roles": 133,
-   "mfg_roles": 34,
-   "sw_roles": 20,
+   "open_roles": 132,
+   "mfg_roles": 35,
+   "sw_roles": 19,
+   "senior_roles": 0,
    "sufficient": false
   },
   {
@@ -360,8 +395,9 @@
    "down": 3,
    "hiring_diffusion": 57.1,
    "open_roles": 222,
-   "mfg_roles": 54,
+   "mfg_roles": 56,
    "sw_roles": 19,
+   "senior_roles": 1,
    "sufficient": false
   },
   {
@@ -374,6 +410,7 @@
    "open_roles": 21,
    "mfg_roles": 4,
    "sw_roles": 0,
+   "senior_roles": 0,
    "sufficient": false
   },
   {
@@ -383,9 +420,10 @@
    "up": 10,
    "down": 3,
    "hiring_diffusion": 73.3,
-   "open_roles": 755,
-   "mfg_roles": 164,
-   "sw_roles": 117,
+   "open_roles": 747,
+   "mfg_roles": 165,
+   "sw_roles": 115,
+   "senior_roles": 4,
    "sufficient": false
   },
   {
@@ -395,9 +433,10 @@
    "up": 5,
    "down": 1,
    "hiring_diffusion": 70.0,
-   "open_roles": 646,
-   "mfg_roles": 135,
-   "sw_roles": 145,
+   "open_roles": 645,
+   "mfg_roles": 136,
+   "sw_roles": 149,
+   "senior_roles": 5,
    "sufficient": false
   },
   {
@@ -408,8 +447,9 @@
    "down": 0,
    "hiring_diffusion": 75.0,
    "open_roles": 292,
-   "mfg_roles": 34,
-   "sw_roles": 54,
+   "mfg_roles": 35,
+   "sw_roles": 57,
+   "senior_roles": 3,
    "sufficient": false
   },
   {
@@ -419,9 +459,10 @@
    "up": 3,
    "down": 1,
    "hiring_diffusion": 66.7,
-   "open_roles": 300,
-   "mfg_roles": 69,
-   "sw_roles": 59,
+   "open_roles": 297,
+   "mfg_roles": 73,
+   "sw_roles": 61,
+   "senior_roles": 2,
    "sufficient": false
   },
   {
@@ -431,9 +472,10 @@
    "up": 2,
    "down": 0,
    "hiring_diffusion": 70.0,
-   "open_roles": 195,
-   "mfg_roles": 46,
+   "open_roles": 193,
+   "mfg_roles": 45,
    "sw_roles": 25,
+   "senior_roles": 0,
    "sufficient": false
   },
   {
@@ -444,8 +486,9 @@
    "down": 2,
    "hiring_diffusion": 42.9,
    "open_roles": 220,
-   "mfg_roles": 62,
+   "mfg_roles": 64,
    "sw_roles": 19,
+   "senior_roles": 3,
    "sufficient": false
   },
   {
@@ -458,6 +501,7 @@
    "open_roles": 34,
    "mfg_roles": 8,
    "sw_roles": 3,
+   "senior_roles": 0,
    "sufficient": false
   },
   {
@@ -465,23 +509,25 @@
    "bucket": "Space & Aerospace",
    "panel": 15,
    "up": 7,
-   "down": 1,
-   "hiring_diffusion": 70.0,
-   "open_roles": 828,
-   "mfg_roles": 176,
-   "sw_roles": 124,
+   "down": 2,
+   "hiring_diffusion": 66.7,
+   "open_roles": 818,
+   "mfg_roles": 178,
+   "sw_roles": 123,
+   "senior_roles": 2,
    "sufficient": false
   },
   {
    "month": "2026-06",
    "bucket": "Autonomy & Robotics",
    "panel": 10,
-   "up": 6,
+   "up": 7,
    "down": 3,
-   "hiring_diffusion": 65.0,
-   "open_roles": 753,
-   "mfg_roles": 158,
-   "sw_roles": 155,
+   "hiring_diffusion": 70.0,
+   "open_roles": 752,
+   "mfg_roles": 162,
+   "sw_roles": 160,
+   "senior_roles": 5,
    "sufficient": false
   },
   {
@@ -491,9 +537,10 @@
    "up": 2,
    "down": 0,
    "hiring_diffusion": 70.0,
-   "open_roles": 312,
-   "mfg_roles": 30,
-   "sw_roles": 53,
+   "open_roles": 311,
+   "mfg_roles": 31,
+   "sw_roles": 56,
+   "senior_roles": 3,
    "sufficient": false
   },
   {
@@ -503,9 +550,10 @@
    "up": 3,
    "down": 0,
    "hiring_diffusion": 75.0,
-   "open_roles": 329,
-   "mfg_roles": 73,
-   "sw_roles": 59,
+   "open_roles": 325,
+   "mfg_roles": 77,
+   "sw_roles": 61,
+   "senior_roles": 2,
    "sufficient": false
   },
   {
@@ -515,9 +563,10 @@
    "up": 4,
    "down": 0,
    "hiring_diffusion": 90.0,
-   "open_roles": 220,
-   "mfg_roles": 58,
+   "open_roles": 217,
+   "mfg_roles": 56,
    "sw_roles": 33,
+   "senior_roles": 1,
    "sufficient": false
   },
   {
@@ -528,8 +577,9 @@
    "down": 0,
    "hiring_diffusion": 71.4,
    "open_roles": 232,
-   "mfg_roles": 71,
+   "mfg_roles": 73,
    "sw_roles": 24,
+   "senior_roles": 2,
    "sufficient": false
   },
   {
@@ -542,6 +592,7 @@
    "open_roles": 30,
    "mfg_roles": 5,
    "sw_roles": 3,
+   "senior_roles": 0,
    "sufficient": false
   },
   {
@@ -551,9 +602,10 @@
    "up": 4,
    "down": 10,
    "hiring_diffusion": 30.0,
-   "open_roles": 766,
-   "mfg_roles": 173,
-   "sw_roles": 113,
+   "open_roles": 757,
+   "mfg_roles": 179,
+   "sw_roles": 112,
+   "senior_roles": 2,
    "sufficient": false
   },
   {
@@ -563,9 +615,10 @@
    "up": 2,
    "down": 5,
    "hiring_diffusion": 35.0,
-   "open_roles": 700,
-   "mfg_roles": 168,
-   "sw_roles": 136,
+   "open_roles": 694,
+   "mfg_roles": 170,
+   "sw_roles": 141,
+   "senior_roles": 5,
    "sufficient": false
   },
   {
@@ -575,9 +628,10 @@
    "up": 2,
    "down": 2,
    "hiring_diffusion": 50.0,
-   "open_roles": 318,
+   "open_roles": 317,
    "mfg_roles": 33,
-   "sw_roles": 52,
+   "sw_roles": 55,
+   "senior_roles": 3,
    "sufficient": false
   },
   {
@@ -587,9 +641,10 @@
    "up": 3,
    "down": 2,
    "hiring_diffusion": 58.3,
-   "open_roles": 341,
-   "mfg_roles": 74,
-   "sw_roles": 64,
+   "open_roles": 336,
+   "mfg_roles": 78,
+   "sw_roles": 66,
+   "senior_roles": 1,
    "sufficient": false
   },
   {
@@ -599,9 +654,10 @@
    "up": 2,
    "down": 0,
    "hiring_diffusion": 70.0,
-   "open_roles": 267,
-   "mfg_roles": 76,
-   "sw_roles": 35,
+   "open_roles": 256,
+   "mfg_roles": 71,
+   "sw_roles": 36,
+   "senior_roles": 0,
    "sufficient": false
   },
   {
@@ -609,11 +665,12 @@
    "bucket": "Nuclear",
    "panel": 7,
    "up": 4,
-   "down": 0,
-   "hiring_diffusion": 78.6,
-   "open_roles": 283,
-   "mfg_roles": 76,
+   "down": 1,
+   "hiring_diffusion": 71.4,
+   "open_roles": 282,
+   "mfg_roles": 78,
    "sw_roles": 30,
+   "senior_roles": 2,
    "sufficient": false
   },
   {
@@ -626,6 +683,7 @@
    "open_roles": 31,
    "mfg_roles": 5,
    "sw_roles": 2,
+   "senior_roles": 0,
    "sufficient": false
   },
   {
@@ -635,9 +693,10 @@
    "up": 10,
    "down": 3,
    "hiring_diffusion": 71.9,
-   "open_roles": 821,
-   "mfg_roles": 208,
-   "sw_roles": 122,
+   "open_roles": 814,
+   "mfg_roles": 213,
+   "sw_roles": 119,
+   "senior_roles": 4,
    "sufficient": false
   },
   {
@@ -645,11 +704,12 @@
    "bucket": "Autonomy & Robotics",
    "panel": 10,
    "up": 4,
-   "down": 0,
-   "hiring_diffusion": 70.0,
-   "open_roles": 804,
-   "mfg_roles": 195,
-   "sw_roles": 146,
+   "down": 1,
+   "hiring_diffusion": 65.0,
+   "open_roles": 801,
+   "mfg_roles": 193,
+   "sw_roles": 153,
+   "senior_roles": 5,
    "sufficient": false
   },
   {
@@ -660,8 +720,9 @@
    "down": 2,
    "hiring_diffusion": 50.0,
    "open_roles": 312,
-   "mfg_roles": 28,
-   "sw_roles": 51,
+   "mfg_roles": 29,
+   "sw_roles": 54,
+   "senior_roles": 6,
    "sufficient": false
   },
   {
@@ -669,11 +730,12 @@
    "bucket": "Defence",
    "panel": 6,
    "up": 1,
-   "down": 3,
-   "hiring_diffusion": 33.3,
-   "open_roles": 298,
-   "mfg_roles": 67,
-   "sw_roles": 56,
+   "down": 4,
+   "hiring_diffusion": 25.0,
+   "open_roles": 291,
+   "mfg_roles": 70,
+   "sw_roles": 58,
+   "senior_roles": 1,
    "sufficient": false
   },
   {
@@ -683,9 +745,10 @@
    "up": 4,
    "down": 0,
    "hiring_diffusion": 90.0,
-   "open_roles": 305,
-   "mfg_roles": 83,
-   "sw_roles": 41,
+   "open_roles": 289,
+   "mfg_roles": 73,
+   "sw_roles": 42,
+   "senior_roles": 1,
    "sufficient": false
   },
   {
@@ -695,9 +758,10 @@
    "up": 3,
    "down": 2,
    "hiring_diffusion": 57.1,
-   "open_roles": 355,
-   "mfg_roles": 82,
+   "open_roles": 354,
+   "mfg_roles": 86,
    "sw_roles": 51,
+   "senior_roles": 3,
    "sufficient": false
   },
   {
@@ -710,6 +774,7 @@
    "open_roles": 25,
    "mfg_roles": 7,
    "sw_roles": 1,
+   "senior_roles": 0,
    "sufficient": false
   },
   {
@@ -719,21 +784,23 @@
    "up": 10,
    "down": 3,
    "hiring_diffusion": 71.9,
-   "open_roles": 935,
-   "mfg_roles": 238,
-   "sw_roles": 132,
+   "open_roles": 926,
+   "mfg_roles": 244,
+   "sw_roles": 131,
+   "senior_roles": 8,
    "sufficient": false
   },
   {
    "month": "2026-09",
    "bucket": "Autonomy & Robotics",
    "panel": 10,
-   "up": 6,
+   "up": 7,
    "down": 2,
-   "hiring_diffusion": 70.0,
-   "open_roles": 831,
-   "mfg_roles": 201,
-   "sw_roles": 152,
+   "hiring_diffusion": 75.0,
+   "open_roles": 827,
+   "mfg_roles": 199,
+   "sw_roles": 160,
+   "senior_roles": 6,
    "sufficient": false
   },
   {
@@ -745,7 +812,8 @@
    "hiring_diffusion": 30.0,
    "open_roles": 294,
    "mfg_roles": 30,
-   "sw_roles": 43,
+   "sw_roles": 46,
+   "senior_roles": 2,
    "sufficient": false
   },
   {
@@ -755,9 +823,10 @@
    "up": 2,
    "down": 1,
    "hiring_diffusion": 57.1,
-   "open_roles": 413,
-   "mfg_roles": 100,
-   "sw_roles": 71,
+   "open_roles": 405,
+   "mfg_roles": 105,
+   "sw_roles": 77,
+   "senior_roles": 4,
    "sufficient": false
   },
   {
@@ -765,11 +834,12 @@
    "bucket": "Manufacturing & Materials",
    "panel": 5,
    "up": 1,
-   "down": 2,
-   "hiring_diffusion": 40.0,
-   "open_roles": 337,
-   "mfg_roles": 107,
-   "sw_roles": 37,
+   "down": 1,
+   "hiring_diffusion": 50.0,
+   "open_roles": 321,
+   "mfg_roles": 99,
+   "sw_roles": 38,
+   "senior_roles": 1,
    "sufficient": false
   },
   {
@@ -779,9 +849,10 @@
    "up": 4,
    "down": 0,
    "hiring_diffusion": 78.6,
-   "open_roles": 387,
-   "mfg_roles": 84,
+   "open_roles": 386,
+   "mfg_roles": 87,
    "sw_roles": 55,
+   "senior_roles": 4,
    "sufficient": false
   },
   {
@@ -794,6 +865,7 @@
    "open_roles": 28,
    "mfg_roles": 9,
    "sw_roles": 1,
+   "senior_roles": 0,
    "sufficient": false
   },
   {
@@ -803,10 +875,479 @@
    "up": 7,
    "down": 4,
    "hiring_diffusion": 59.4,
-   "open_roles": 1060,
-   "mfg_roles": 282,
+   "open_roles": 1054,
+   "mfg_roles": 293,
    "sw_roles": 146,
+   "senior_roles": 8,
    "sufficient": false
   }
- ]
+ ],
+ "movers": {
+  "month": "2026-09",
+  "up": [
+   {
+    "company": "Mach Industries",
+    "bucket": "Defence",
+    "roles_prev": 20,
+    "roles_now": 124,
+    "change": 104,
+    "change_pct": 520.0
+   },
+   {
+    "company": "Astranis",
+    "bucket": "Space & Aerospace",
+    "roles_prev": 86,
+    "roles_now": 164,
+    "change": 78,
+    "change_pct": 90.7
+   },
+   {
+    "company": "Hubble Network",
+    "bucket": "Space & Aerospace",
+    "roles_prev": 10,
+    "roles_now": 16,
+    "change": 6,
+    "change_pct": 60.0
+   },
+   {
+    "company": "Divergent",
+    "bucket": "Manufacturing & Materials",
+    "roles_prev": 70,
+    "roles_now": 110,
+    "change": 40,
+    "change_pct": 57.1
+   },
+   {
+    "company": "Vannevar Labs",
+    "bucket": "Defence",
+    "roles_prev": 22,
+    "roles_now": 30,
+    "change": 8,
+    "change_pct": 36.4
+   },
+   {
+    "company": "Focused Energy",
+    "bucket": "Nuclear",
+    "roles_prev": 15,
+    "roles_now": 20,
+    "change": 5,
+    "change_pct": 33.3
+   },
+   {
+    "company": "Skyryse",
+    "bucket": "Space & Aerospace",
+    "roles_prev": 13,
+    "roles_now": 17,
+    "change": 4,
+    "change_pct": 30.8
+   },
+   {
+    "company": "ClearSpace",
+    "bucket": "Space & Aerospace",
+    "roles_prev": 33,
+    "roles_now": 43,
+    "change": 10,
+    "change_pct": 30.3
+   },
+   {
+    "company": "Kairos Power",
+    "bucket": "Nuclear",
+    "roles_prev": 22,
+    "roles_now": 28,
+    "change": 6,
+    "change_pct": 27.3
+   },
+   {
+    "company": "Extropic",
+    "bucket": "Chips & Quantum",
+    "roles_prev": 8,
+    "roles_now": 10,
+    "change": 2,
+    "change_pct": 25.0
+   }
+  ],
+  "down": [
+   {
+    "company": "Armada",
+    "bucket": "Space & Aerospace",
+    "roles_prev": 61,
+    "roles_now": 41,
+    "change": -20,
+    "change_pct": -32.8
+   },
+   {
+    "company": "Albedo",
+    "bucket": "Space & Aerospace",
+    "roles_prev": 10,
+    "roles_now": 7,
+    "change": -3,
+    "change_pct": -30.0
+   },
+   {
+    "company": "Locus Robotics",
+    "bucket": "Autonomy & Robotics",
+    "roles_prev": 8,
+    "roles_now": 6,
+    "change": -2,
+    "change_pct": -25.0
+   },
+   {
+    "company": "Outpost Space",
+    "bucket": "Space & Aerospace",
+    "roles_prev": 21,
+    "roles_now": 17,
+    "change": -4,
+    "change_pct": -19.0
+   },
+   {
+    "company": "Salient Motion",
+    "bucket": "Manufacturing & Materials",
+    "roles_prev": 22,
+    "roles_now": 18,
+    "change": -4,
+    "change_pct": -18.2
+   }
+  ],
+  "factory_flags": [
+   "Chaos Industries",
+   "Divergent",
+   "General Matter",
+   "Mach Industries",
+   "Muon Space",
+   "Nuro"
+  ]
+ },
+ "scores": [
+  {
+   "company": "Mach Industries",
+   "bucket": "Defence",
+   "score": 76.6,
+   "roles": 124,
+   "in_hiring_panel": true,
+   "last_capital": "2026-09",
+   "last_contract": "2026-05"
+  },
+  {
+   "company": "Vast",
+   "bucket": "Space & Aerospace",
+   "score": 60.3,
+   "roles": 207,
+   "in_hiring_panel": true,
+   "last_capital": "2026-08",
+   "last_contract": "2026-02"
+  },
+  {
+   "company": "Muon Space",
+   "bucket": "Space & Aerospace",
+   "score": 50.6,
+   "roles": 125,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": "2026-08"
+  },
+  {
+   "company": "Astranis",
+   "bucket": "Space & Aerospace",
+   "score": 50.1,
+   "roles": 164,
+   "in_hiring_panel": true,
+   "last_capital": "2025-03",
+   "last_contract": "2026-04"
+  },
+  {
+   "company": "Focused Energy",
+   "bucket": "Nuclear",
+   "score": 50.1,
+   "roles": 20,
+   "in_hiring_panel": true,
+   "last_capital": "2026-06",
+   "last_contract": null
+  },
+  {
+   "company": "Valar Atomics",
+   "bucket": "Nuclear",
+   "score": 49.5,
+   "roles": 89,
+   "in_hiring_panel": true,
+   "last_capital": "2026-08",
+   "last_contract": null
+  },
+  {
+   "company": "Galvanick",
+   "bucket": "Defence",
+   "score": 42.0,
+   "roles": 2,
+   "in_hiring_panel": true,
+   "last_capital": "2026-09",
+   "last_contract": null
+  },
+  {
+   "company": "Divergent",
+   "bucket": "Manufacturing & Materials",
+   "score": 40.6,
+   "roles": 110,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": "2026-01"
+  },
+  {
+   "company": "Quaise Energy",
+   "bucket": "Power & Grid",
+   "score": 40.5,
+   "roles": 10,
+   "in_hiring_panel": true,
+   "last_capital": "2026-07",
+   "last_contract": null
+  },
+  {
+   "company": "Whisper Aero",
+   "bucket": "Space & Aerospace",
+   "score": 39.7,
+   "roles": 8,
+   "in_hiring_panel": true,
+   "last_capital": "2026-09",
+   "last_contract": "2025-09"
+  },
+  {
+   "company": "Skyryse",
+   "bucket": "Space & Aerospace",
+   "score": 39.3,
+   "roles": 17,
+   "in_hiring_panel": true,
+   "last_capital": "2025-10",
+   "last_contract": null
+  },
+  {
+   "company": "Captura",
+   "bucket": "Power & Grid",
+   "score": 38.9,
+   "roles": 2,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": null
+  },
+  {
+   "company": "Hubble Network",
+   "bucket": "Space & Aerospace",
+   "score": 37.4,
+   "roles": 16,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": null
+  },
+  {
+   "company": "Neros",
+   "bucket": "Defence",
+   "score": 37.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-08",
+   "last_contract": "2026-06"
+  },
+  {
+   "company": "General Matter",
+   "bucket": "Nuclear",
+   "score": 35.8,
+   "roles": 128,
+   "in_hiring_panel": true,
+   "last_capital": "2025-11",
+   "last_contract": "2026-03"
+  },
+  {
+   "company": "Vannevar Labs",
+   "bucket": "Defence",
+   "score": 35.8,
+   "roles": 30,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": "2025-01"
+  },
+  {
+   "company": "Axiom Space",
+   "bucket": "Space & Aerospace",
+   "score": 35.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-06",
+   "last_contract": "2026-07"
+  },
+  {
+   "company": "ClearSpace",
+   "bucket": "Space & Aerospace",
+   "score": 33.6,
+   "roles": 43,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": null
+  },
+  {
+   "company": "Epirus",
+   "bucket": "Defence",
+   "score": 32.8,
+   "roles": 40,
+   "in_hiring_panel": true,
+   "last_capital": "2026-01",
+   "last_contract": "2025-12"
+  },
+  {
+   "company": "Kairos Power",
+   "bucket": "Nuclear",
+   "score": 32.8,
+   "roles": 28,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": null
+  },
+  {
+   "company": "Extropic",
+   "bucket": "Chips & Quantum",
+   "score": 32.1,
+   "roles": 10,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": null
+  },
+  {
+   "company": "Inversion Space",
+   "bucket": "Space & Aerospace",
+   "score": 31.7,
+   "roles": 73,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": "2026-08"
+  },
+  {
+   "company": "Tenstorrent",
+   "bucket": "Chips & Quantum",
+   "score": 31.4,
+   "roles": 123,
+   "in_hiring_panel": true,
+   "last_capital": "2026-07",
+   "last_contract": null
+  },
+  {
+   "company": "Ursa Major Technologies",
+   "bucket": "Space & Aerospace",
+   "score": 31.3,
+   "roles": 103,
+   "in_hiring_panel": true,
+   "last_capital": "2025-10",
+   "last_contract": "2025-12"
+  },
+  {
+   "company": "Formic",
+   "bucket": "Autonomy & Robotics",
+   "score": 29.8,
+   "roles": 42,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": null
+  }
+ ],
+ "states": [
+  {
+   "state": "CA",
+   "roles": 1844,
+   "mfg": 468,
+   "sw": 308
+  },
+  {
+   "state": "TX",
+   "roles": 177,
+   "mfg": 56,
+   "sw": 25
+  },
+  {
+   "state": "CO",
+   "roles": 142,
+   "mfg": 47,
+   "sw": 10
+  },
+  {
+   "state": "REMOTE",
+   "roles": 139,
+   "mfg": 6,
+   "sw": 35
+  },
+  {
+   "state": "NV",
+   "roles": 86,
+   "mfg": 33,
+   "sw": 5
+  },
+  {
+   "state": "NY",
+   "roles": 64,
+   "mfg": 8,
+   "sw": 17
+  },
+  {
+   "state": "WA",
+   "roles": 49,
+   "mfg": 4,
+   "sw": 6
+  },
+  {
+   "state": "SC",
+   "roles": 49,
+   "mfg": 14,
+   "sw": 0
+  },
+  {
+   "state": "MA",
+   "roles": 47,
+   "mfg": 4,
+   "sw": 11
+  },
+  {
+   "state": "PA",
+   "roles": 46,
+   "mfg": 9,
+   "sw": 20
+  },
+  {
+   "state": "DC",
+   "roles": 29,
+   "mfg": 2,
+   "sw": 13
+  },
+  {
+   "state": "IL",
+   "roles": 23,
+   "mfg": 2,
+   "sw": 2
+  },
+  {
+   "state": "AZ",
+   "roles": 21,
+   "mfg": 7,
+   "sw": 0
+  },
+  {
+   "state": "UT",
+   "roles": 20,
+   "mfg": 5,
+   "sw": 2
+  },
+  {
+   "state": "KY",
+   "roles": 17,
+   "mfg": 5,
+   "sw": 1
+  }
+ ],
+ "mortality": {
+  "db_dead_or_acquired": 13,
+  "liveness_checked": 1059,
+  "liveness_confirmed_dead_or_acquired": 21,
+  "liveness_suspects": 24,
+  "confirmed_rate_pct": 2.0
+ },
+ "capital_sources": {
+  "deals": 183,
+  "form_d": 12,
+  "vc_first_funded": 146
+ },
+ "review_queue_size": 19,
+ "discovered_boards_high": 221
 }

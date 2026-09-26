@@ -18,20 +18,20 @@
    "change_pct": 90.7
   },
   {
+   "company": "Hubble Network",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 10,
+   "roles_now": 16,
+   "change": 6,
+   "change_pct": 60.0
+  },
+  {
    "company": "Divergent",
    "bucket": "Manufacturing & Materials",
    "roles_prev": 70,
    "roles_now": 110,
    "change": 40,
    "change_pct": 57.1
-  },
-  {
-   "company": "Hubble Network",
-   "bucket": "Space & Aerospace",
-   "roles_prev": 11,
-   "roles_now": 16,
-   "change": 5,
-   "change_pct": 45.5
   },
   {
    "company": "Vannevar Labs",
@@ -123,5 +123,13 @@
    "change": -4,
    "change_pct": -18.2
   }
+ ],
+ "factory_flags": [
+  "Chaos Industries",
+  "Divergent",
+  "General Matter",
+  "Mach Industries",
+  "Muon Space",
+  "Nuro"
  ]
 }

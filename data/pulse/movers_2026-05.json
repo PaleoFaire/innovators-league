@@ -29,9 +29,9 @@
    "company": "Redwood Materials",
    "bucket": "Manufacturing & Materials",
    "roles_prev": 44,
-   "roles_now": 82,
-   "change": 38,
-   "change_pct": 86.4
+   "roles_now": 80,
+   "change": 36,
+   "change_pct": 81.8
   },
   {
    "company": "Epirus",
@@ -53,9 +53,9 @@
    "company": "Varda Space Industries",
    "bucket": "Space & Aerospace",
    "roles_prev": 70,
-   "roles_now": 97,
-   "change": 27,
-   "change_pct": 38.6
+   "roles_now": 96,
+   "change": 26,
+   "change_pct": 37.1
   },
   {
    "company": "Icarus",
@@ -77,12 +77,20 @@
    "company": "Chaos Industries",
    "bucket": "Defence",
    "roles_prev": 119,
-   "roles_now": 148,
-   "change": 29,
-   "change_pct": 24.4
+   "roles_now": 147,
+   "change": 28,
+   "change_pct": 23.5
   }
  ],
  "down": [
+  {
+   "company": "Galvanick",
+   "bucket": "Defence",
+   "roles_prev": 6,
+   "roles_now": 4,
+   "change": -2,
+   "change_pct": -33.3
+  },
   {
    "company": "Carbon Robotics",
    "bucket": "Autonomy & Robotics",
@@ -90,14 +98,6 @@
    "roles_now": 23,
    "change": -10,
    "change_pct": -30.3
-  },
-  {
-   "company": "Galvanick",
-   "bucket": "Defence",
-   "roles_prev": 8,
-   "roles_now": 6,
-   "change": -2,
-   "change_pct": -25.0
   },
   {
    "company": "Valar Atomics",
@@ -116,12 +116,20 @@
    "change_pct": -12.5
   },
   {
-   "company": "Marvel Fusion",
-   "bucket": "Nuclear",
-   "roles_prev": 12,
-   "roles_now": 11,
-   "change": -1,
-   "change_pct": -8.3
+   "company": "Outpost Space",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 17,
+   "roles_now": 15,
+   "change": -2,
+   "change_pct": -11.8
   }
+ ],
+ "factory_flags": [
+  "Chaos Industries",
+  "Icarus",
+  "Isar Aerospace",
+  "Kairos Power",
+  "Re:Build Manufacturing",
+  "The Nuclear Company"
  ]
 }

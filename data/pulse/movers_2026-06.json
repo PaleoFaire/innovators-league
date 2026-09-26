@@ -29,9 +29,9 @@
    "company": "Inversion Space",
    "bucket": "Space & Aerospace",
    "roles_prev": 38,
-   "roles_now": 57,
-   "change": 19,
-   "change_pct": 50.0
+   "roles_now": 56,
+   "change": 18,
+   "change_pct": 47.4
   },
   {
    "company": "Quaise Energy",
@@ -58,28 +58,28 @@
    "change_pct": 40.0
   },
   {
-   "company": "Muon Space",
-   "bucket": "Space & Aerospace",
-   "roles_prev": 39,
-   "roles_now": 48,
-   "change": 9,
-   "change_pct": 23.1
-  },
-  {
-   "company": "Ursa Major Technologies",
-   "bucket": "Space & Aerospace",
-   "roles_prev": 35,
-   "roles_now": 43,
-   "change": 8,
-   "change_pct": 22.9
-  },
-  {
    "company": "Senra Systems",
    "bucket": "Autonomy & Robotics",
    "roles_prev": 22,
    "roles_now": 27,
    "change": 5,
    "change_pct": 22.7
+  },
+  {
+   "company": "The Nuclear Company",
+   "bucket": "Nuclear",
+   "roles_prev": 33,
+   "roles_now": 40,
+   "change": 7,
+   "change_pct": 21.2
+  },
+  {
+   "company": "Valar Atomics",
+   "bucket": "Nuclear",
+   "roles_prev": 33,
+   "roles_now": 40,
+   "change": 7,
+   "change_pct": 21.2
   }
  ],
  "down": [
@@ -102,10 +102,10 @@
   {
    "company": "ClearSpace",
    "bucket": "Space & Aerospace",
-   "roles_prev": 59,
+   "roles_prev": 58,
    "roles_now": 38,
-   "change": -21,
-   "change_pct": -35.6
+   "change": -20,
+   "change_pct": -34.5
   },
   {
    "company": "Formic",
@@ -123,5 +123,10 @@
    "change": -2,
    "change_pct": -22.2
   }
+ ],
+ "factory_flags": [
+  "Outrider",
+  "Redwood Materials",
+  "Zipline"
  ]
 }

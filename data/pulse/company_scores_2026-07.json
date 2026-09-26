@@ -1,0 +1,455 @@
+{
+ "month": "2026-07",
+ "top": [
+  {
+   "company": "Focused Energy",
+   "bucket": "Nuclear",
+   "score": 59.2,
+   "roles": 17,
+   "in_hiring_panel": true,
+   "last_capital": "2026-06",
+   "last_contract": null
+  },
+  {
+   "company": "Quaise Energy",
+   "bucket": "Power & Grid",
+   "score": 56.2,
+   "roles": 12,
+   "in_hiring_panel": true,
+   "last_capital": "2026-07",
+   "last_contract": null
+  },
+  {
+   "company": "Amca",
+   "bucket": "Manufacturing & Materials",
+   "score": 55.4,
+   "roles": 34,
+   "in_hiring_panel": true,
+   "last_capital": "2026-06",
+   "last_contract": null
+  },
+  {
+   "company": "Redwood Materials",
+   "bucket": "Manufacturing & Materials",
+   "score": 50.8,
+   "roles": 118,
+   "in_hiring_panel": true,
+   "last_capital": "2026-03",
+   "last_contract": null
+  },
+  {
+   "company": "General Matter",
+   "bucket": "Nuclear",
+   "score": 46.6,
+   "roles": 83,
+   "in_hiring_panel": true,
+   "last_capital": "2025-11",
+   "last_contract": "2026-03"
+  },
+  {
+   "company": "Ursa Major Technologies",
+   "bucket": "Space & Aerospace",
+   "score": 45.5,
+   "roles": 62,
+   "in_hiring_panel": true,
+   "last_capital": "2025-10",
+   "last_contract": "2025-12"
+  },
+  {
+   "company": "Tenstorrent",
+   "bucket": "Chips & Quantum",
+   "score": 45.4,
+   "roles": 128,
+   "in_hiring_panel": true,
+   "last_capital": "2026-07",
+   "last_contract": null
+  },
+  {
+   "company": "Axiom Space",
+   "bucket": "Space & Aerospace",
+   "score": 45.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-06",
+   "last_contract": "2026-07"
+  },
+  {
+   "company": "Standard Bots",
+   "bucket": "Autonomy & Robotics",
+   "score": 45.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-06",
+   "last_contract": "2026-06"
+  },
+  {
+   "company": "Muon Space",
+   "bucket": "Space & Aerospace",
+   "score": 43.5,
+   "roles": 50,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": "2026-08"
+  },
+  {
+   "company": "The Nuclear Company",
+   "bucket": "Nuclear",
+   "score": 43.1,
+   "roles": 62,
+   "in_hiring_panel": true,
+   "last_capital": "2025-10",
+   "last_contract": null
+  },
+  {
+   "company": "Whisper Aero",
+   "bucket": "Space & Aerospace",
+   "score": 42.8,
+   "roles": 7,
+   "in_hiring_panel": true,
+   "last_capital": "2026-09",
+   "last_contract": "2025-09"
+  },
+  {
+   "company": "Inversion Space",
+   "bucket": "Space & Aerospace",
+   "score": 40.8,
+   "roles": 65,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": "2026-08"
+  },
+  {
+   "company": "Outpost Space",
+   "bucket": "Space & Aerospace",
+   "score": 39.6,
+   "roles": 24,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": null
+  },
+  {
+   "company": "Astranis",
+   "bucket": "Space & Aerospace",
+   "score": 38.5,
+   "roles": 92,
+   "in_hiring_panel": true,
+   "last_capital": "2025-03",
+   "last_contract": "2026-04"
+  },
+  {
+   "company": "Formic",
+   "bucket": "Autonomy & Robotics",
+   "score": 37.3,
+   "roles": 38,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": null
+  },
+  {
+   "company": "Vast",
+   "bucket": "Space & Aerospace",
+   "score": 36.2,
+   "roles": 168,
+   "in_hiring_panel": true,
+   "last_capital": "2026-08",
+   "last_contract": "2026-02"
+  },
+  {
+   "company": "Lightmatter",
+   "bucket": "Chips & Quantum",
+   "score": 35.0,
+   "roles": 67,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": null
+  },
+  {
+   "company": "Chariot Defense",
+   "bucket": "Defence",
+   "score": 35.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-02",
+   "last_contract": "2026-06"
+  },
+  {
+   "company": "Nuro",
+   "bucket": "Autonomy & Robotics",
+   "score": 33.8,
+   "roles": 99,
+   "in_hiring_panel": true,
+   "last_capital": "2026-03",
+   "last_contract": null
+  },
+  {
+   "company": "Valar Atomics",
+   "bucket": "Nuclear",
+   "score": 33.5,
+   "roles": 52,
+   "in_hiring_panel": true,
+   "last_capital": "2026-08",
+   "last_contract": null
+  },
+  {
+   "company": "Latitude",
+   "bucket": "Space & Aerospace",
+   "score": 32.7,
+   "roles": 46,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": null
+  },
+  {
+   "company": "Icarus",
+   "bucket": "Defence",
+   "score": 31.9,
+   "roles": 29,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": null
+  },
+  {
+   "company": "Fortastra",
+   "bucket": "Space & Aerospace",
+   "score": 29.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-07",
+   "last_contract": "2025-12"
+  },
+  {
+   "company": "Scout Space",
+   "bucket": "Space & Aerospace",
+   "score": 29.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-05",
+   "last_contract": "2025-12"
+  },
+  {
+   "company": "Agility Robotics",
+   "bucket": "Autonomy & Robotics",
+   "score": 28.5,
+   "roles": 56,
+   "in_hiring_panel": true,
+   "last_capital": "2026-02",
+   "last_contract": null
+  },
+  {
+   "company": "Armada",
+   "bucket": "Space & Aerospace",
+   "score": 28.1,
+   "roles": 61,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": null
+  },
+  {
+   "company": "Galvanick",
+   "bucket": "Defence",
+   "score": 27.7,
+   "roles": 3,
+   "in_hiring_panel": true,
+   "last_capital": "2026-09",
+   "last_contract": null
+  },
+  {
+   "company": "Outrider",
+   "bucket": "Autonomy & Robotics",
+   "score": 27.3,
+   "roles": 11,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": null
+  },
+  {
+   "company": "Firestorm Labs",
+   "bucket": "Defence",
+   "score": 27.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-04",
+   "last_contract": "2026-04"
+  },
+  {
+   "company": "Turion Space",
+   "bucket": "Space & Aerospace",
+   "score": 27.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-04",
+   "last_contract": "2026-04"
+  },
+  {
+   "company": "Vannevar Labs",
+   "bucket": "Defence",
+   "score": 25.8,
+   "roles": 35,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": "2025-01"
+  },
+  {
+   "company": "Marvel Fusion",
+   "bucket": "Nuclear",
+   "score": 25.0,
+   "roles": 12,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": null
+  },
+  {
+   "company": "Shield AI",
+   "bucket": "Defence",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2025-09",
+   "last_contract": "2026-05"
+  },
+  {
+   "company": "Castelion",
+   "bucket": "Defence",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2025-12",
+   "last_contract": "2026-06"
+  },
+  {
+   "company": "Hermeus",
+   "bucket": "Space & Aerospace",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-05",
+   "last_contract": null
+  },
+  {
+   "company": "AMP Robotics",
+   "bucket": "Manufacturing & Materials",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-07",
+   "last_contract": null
+  },
+  {
+   "company": "Mara",
+   "bucket": "Defence",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-06",
+   "last_contract": null
+  },
+  {
+   "company": "Earth AI",
+   "bucket": "Manufacturing & Materials",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-05",
+   "last_contract": null
+  },
+  {
+   "company": "Wardstone",
+   "bucket": "Space & Aerospace",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-05",
+   "last_contract": null
+  },
+  {
+   "company": "Oxford Quantum Circuits",
+   "bucket": "Chips & Quantum",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-06",
+   "last_contract": null
+  },
+  {
+   "company": "Monumental",
+   "bucket": "Manufacturing & Materials",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-07",
+   "last_contract": null
+  },
+  {
+   "company": "Orangewood Labs",
+   "bucket": "Autonomy & Robotics",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-09",
+   "last_contract": null
+  },
+  {
+   "company": "Starpath Robotics",
+   "bucket": "Space & Aerospace",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-06",
+   "last_contract": null
+  },
+  {
+   "company": "Built Robotics",
+   "bucket": "Manufacturing & Materials",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-08",
+   "last_contract": null
+  },
+  {
+   "company": "Dexterity",
+   "bucket": "Autonomy & Robotics",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-07",
+   "last_contract": null
+  },
+  {
+   "company": "Lumafield",
+   "bucket": "Autonomy & Robotics",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-07",
+   "last_contract": null
+  },
+  {
+   "company": "Parallel Systems",
+   "bucket": "Autonomy & Robotics",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-08",
+   "last_contract": null
+  },
+  {
+   "company": "Photonic Inc",
+   "bucket": "Chips & Quantum",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-06",
+   "last_contract": null
+  },
+  {
+   "company": "GHGSat",
+   "bucket": "Space & Aerospace",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-07",
+   "last_contract": null
+  }
+ ]
+}

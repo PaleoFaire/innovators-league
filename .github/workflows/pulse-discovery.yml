@@ -1,0 +1,55 @@
+name: Pulse — job-board discovery
+
+# Finds public job boards (Greenhouse, Lever, Ashby, Workable, SmartRecruiters…) for tracked
+# private companies that fetch_jobs.py doesn't cover yet. High-confidence finds are picked up
+# automatically by the jobs sync; medium-confidence ones wait in the same file for review.
+# Monthly on the 2nd, so the boards are in place before the 1st-of-month Pulse print.
+
+on:
+  schedule:
+    - cron: '0 3 2 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pulse-discovery
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: pip install requests
+      - name: Discover boards
+        continue-on-error: true
+        run: python3 scripts/discover_job_boards.py
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit and push (retry on conflict)
+        run: |
+          for attempt in 1 2 3 4 5; do
+            git stash --include-untracked 2>/dev/null || true
+            git pull --rebase origin main || git rebase --abort 2>/dev/null || true
+            git stash pop 2>/dev/null || true
+            git add data/pulse/job_boards_discovered.json 2>/dev/null || true
+            if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+            git commit -m "🫀 Pulse discovery: $(date -u +%Y-%m-%d)"
+            git push origin main && exit 0
+            git reset --soft HEAD~1
+            sleep $((attempt * 7))
+          done
+          echo "::error::could not push after 5 attempts"; exit 1

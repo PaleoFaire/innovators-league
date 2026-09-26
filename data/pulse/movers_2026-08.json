@@ -4,26 +4,18 @@
   {
    "company": "Muon Space",
    "bucket": "Space & Aerospace",
-   "roles_prev": 51,
+   "roles_prev": 50,
    "roles_now": 105,
-   "change": 54,
-   "change_pct": 105.9
+   "change": 55,
+   "change_pct": 110.0
   },
   {
    "company": "Hubble Network",
    "bucket": "Space & Aerospace",
-   "roles_prev": 6,
-   "roles_now": 11,
+   "roles_prev": 5,
+   "roles_now": 10,
    "change": 5,
-   "change_pct": 83.3
-  },
-  {
-   "company": "Ursa Major Technologies",
-   "bucket": "Space & Aerospace",
-   "roles_prev": 62,
-   "roles_now": 100,
-   "change": 38,
-   "change_pct": 61.3
+   "change_pct": 100.0
   },
   {
    "company": "Locus Robotics",
@@ -32,6 +24,14 @@
    "roles_now": 8,
    "change": 3,
    "change_pct": 60.0
+  },
+  {
+   "company": "Ursa Major Technologies",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 62,
+   "roles_now": 99,
+   "change": 37,
+   "change_pct": 59.7
   },
   {
    "company": "Valar Atomics",
@@ -66,20 +66,20 @@
    "change_pct": 38.6
   },
   {
+   "company": "Zipline",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 237,
+   "roles_now": 326,
+   "change": 89,
+   "change_pct": 37.6
+  },
+  {
    "company": "Salient Motion",
    "bucket": "Manufacturing & Materials",
    "roles_prev": 16,
    "roles_now": 22,
    "change": 6,
    "change_pct": 37.5
-  },
-  {
-   "company": "Zipline",
-   "bucket": "Autonomy & Robotics",
-   "roles_prev": 242,
-   "roles_now": 328,
-   "change": 86,
-   "change_pct": 35.5
   }
  ],
  "down": [
@@ -108,20 +108,31 @@
    "change_pct": -22.2
   },
   {
+   "company": "Outrider",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 11,
+   "roles_now": 9,
+   "change": -2,
+   "change_pct": -18.2
+  },
+  {
    "company": "Quaise Energy",
    "bucket": "Power & Grid",
    "roles_prev": 12,
    "roles_now": 10,
    "change": -2,
    "change_pct": -16.7
-  },
-  {
-   "company": "Atomic Machines",
-   "bucket": "Chips & Quantum",
-   "roles_prev": 32,
-   "roles_now": 27,
-   "change": -5,
-   "change_pct": -15.6
   }
+ ],
+ "factory_flags": [
+  "Agility Robotics",
+  "Amca",
+  "Armada",
+  "Muon Space",
+  "Skyryse",
+  "Tenstorrent",
+  "The Nuclear Company",
+  "Ursa Major Technologies",
+  "Zipline"
  ]
 }
