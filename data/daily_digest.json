@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-25T22:12:15.265072+00:00",
-  "date": "2026-09-25",
-  "dateDisplay": "Friday, September 25, 2026",
+  "generatedAt": "2026-09-26T01:26:09.647400+00:00",
+  "date": "2026-09-26",
+  "dateDisplay": "Saturday, September 26, 2026",
   "sections": {
     "govActivity": [
       {
@@ -61,60 +61,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 372.4,
-        "changePercent": 22.8,
-        "change": 69.15
-      },
-      {
         "ticker": "SATL",
         "company": "Satellogic",
-        "price": 6.21,
-        "changePercent": 21.62,
-        "change": 1.1
+        "price": 6.17,
+        "changePercent": 20.74,
+        "change": 1.06
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 364.62,
+        "changePercent": 20.24,
+        "change": 61.37
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 0.75,
-        "changePercent": 18.48,
-        "change": 0.12
+        "price": 0.74,
+        "changePercent": 16.75,
+        "change": 0.11
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 45.52,
-        "changePercent": 16.33,
-        "change": 6.39
+        "price": 45.48,
+        "changePercent": 16.23,
+        "change": 6.35
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 74.32,
-        "changePercent": 15.1,
-        "change": 9.75
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 15.81,
-        "changePercent": 13.58,
-        "change": 1.89
+        "price": 73.95,
+        "changePercent": 14.53,
+        "change": 9.38
       },
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 629.67,
-        "changePercent": 12.48,
-        "change": 69.85
+        "price": 630.63,
+        "changePercent": 12.65,
+        "change": 70.81
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 15.61,
+        "changePercent": 12.14,
+        "change": 1.69
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 84.4,
-        "changePercent": 8.43,
-        "change": 6.56
+        "price": 85.01,
+        "changePercent": 9.21,
+        "change": 7.17
       }
     ],
     "regulatory": [
@@ -205,6 +205,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "ALAB +22.8%"
+    "topMover": "SATL +20.7%"
   }
 }
