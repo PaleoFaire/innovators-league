@@ -63,6 +63,15 @@
     "trackedCompany": null
   },
   {
+    "date": "2026-10-05",
+    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+    "payload": "SDA Tranche 1 Transport Layer A",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
     "date": "2026-10-07",
     "vehicle": "Nuri | NeonSat-2 to 6",
     "payload": "NeonSat-2 to 6",
@@ -123,15 +132,6 @@
     "pad": "Space Launch Complex 40, Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/bf2c3027-a314-403e-a416-2bfd5d165ad1/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
-    "date": "2026-10-31",
-    "vehicle": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-    "payload": "SDA Tranche 1 Transport Layer A",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5/?format=json",
     "trackedCompany": "SpaceX"
   },
   {

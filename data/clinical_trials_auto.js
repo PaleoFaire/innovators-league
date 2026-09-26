@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-09-25 12:31:48 UTC
+// Last updated: 2026-09-26 12:01:51 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT04981119", title: "Solid Tumor Analysis for HLA Loss of Heterozygosity (LOH) and Apheresis for CAR ", status: "RECRUITING", phase: "N/A", sponsor: "A2 Biotherapeutics Inc.", conditions: "Solid Tumor, Adult, Colorectal Cancer, Non Small C", enrollment: 500, lastUpdated: "2026-09-25" },
   { nctId: "NCT07840573", title: "Feasibility and Performance of a Structured Video Telemedicine Program in Patien", status: "COMPLETED", phase: "NA", sponsor: "Baylor College of Medicine", conditions: "Systemic Lupus Erythematosus", enrollment: 100, lastUpdated: "2026-09-25" },

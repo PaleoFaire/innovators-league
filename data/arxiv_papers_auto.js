@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-09-25 12:32:00 UTC
+// Last updated: 2026-09-26 12:02:05 UTC
 const ARXIV_PAPERS = [
   { id: "2609.30247v1", title: "Rolling-WAM: World Action Models with Rolling Imagination", category: "Artificial Intelligence", published: "2026-09-24", sectors: "robotics", authors: "Yinghua Zhou, Junjie Ye, Yiqi Zhao et al." },
   { id: "2609.30226v1", title: "PoEM: Predicting RL Outcomes from Existing Policies", category: "Artificial Intelligence", published: "2026-09-24", sectors: "robotics, ai", authors: "Kimia Hamidieh, Giannis Daras, Antonio Torralba" },

@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-09-25T12:52:01.043510+00:00",
+  "generated_at": "2026-09-26T12:08:58.198073+00:00",
   "note": "name-only matches. NOT shown to members. Confirm, then add the CIK to data/cik_map.json to promote.",
   "candidates": [
+    {
+      "match_method": "name-strict",
+      "match_evidence": "'Twenty Technologies, Inc.' stems to 'Twenty'",
+      "company": "Twenty",
+      "issuer_name": "Twenty Technologies, Inc.",
+      "form": "D",
+      "filed_date": "2026-09-25",
+      "cik": "2156358",
+      "accession": "0002156358-26-000001",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2156358/000215635826000001/primary_doc.xml",
+      "offering_amount": "131499718",
+      "amount_sold": "131314503",
+      "amount_remaining": "185215",
+      "securities_type": "Equity",
+      "related_persons": [
+        "Joseph Lin",
+        "Raymond Tonsing",
+        "Larry Olson"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
+    },
     {
       "match_method": "name-strict",
       "match_evidence": "'Path Power, Inc.' stems to 'Path Power'",

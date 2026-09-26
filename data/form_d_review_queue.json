@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-09-25T12:51:57.660399+00:00",
+  "generated_at": "2026-09-26T12:08:51.547304+00:00",
   "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
   "candidates": [
+    {
+      "match_method": "name-candidate",
+      "company": "Twenty",
+      "issuer_name": "Twenty Technologies, Inc",
+      "form": "D",
+      "filed_date": "2026-09-25",
+      "cik": "2156358",
+      "accession": "0002156358-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002156358&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002156358-26-000001"
+    },
     {
       "match_method": "name-candidate",
       "company": "Path Power",
@@ -78,6 +89,39 @@
       "accession": "0002135113-26-000002",
       "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002135113&type=D&dateb=&owner=include&count=10",
       "adsh_raw": "0002135113-26-000002"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Atoms",
+      "issuer_name": "Atoms & Bits Capital II, a Series of a Master Series, LLC",
+      "form": "D",
+      "filed_date": "2026-09-17",
+      "cik": "2154885",
+      "accession": "0002154885-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002154885&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002154885-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Atoms",
+      "issuer_name": "Atoms & Bits Capital IV a Series of A Master Series, LLC",
+      "form": "D",
+      "filed_date": "2026-09-17",
+      "cik": "2154747",
+      "accession": "0002154747-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002154747&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002154747-26-000001"
+    },
+    {
+      "match_method": "name-candidate",
+      "company": "Atoms",
+      "issuer_name": "Atoms V11 SPV, A Master Series, LLC",
+      "form": "D",
+      "filed_date": "2026-09-17",
+      "cik": "2154733",
+      "accession": "0002154733-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002154733&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002154733-26-000001"
     }
   ]
 }
