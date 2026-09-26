@@ -202,6 +202,24 @@
   "candidates": []
  },
  {
+  "company": "ADMARES",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "AGent Energy",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "rippling",
+    "slug": "aigent-energy",
+    "confidence": "high",
+    "evidence": "https://www.agentenergy.com",
+    "jobs_seen": null
+   }
+  ]
+ },
+ {
   "company": "AIM Intelligent Machines",
   "checked": "2026-09-26",
   "candidates": [
@@ -254,6 +272,19 @@
   "company": "ARX Robotics",
   "checked": "2026-09-25",
   "candidates": []
+ },
+ {
+  "company": "ASI",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "asi",
+    "confidence": "medium",
+    "evidence": "https://job-boards.greenhouse.io/asi/jobs/5434513008",
+    "jobs_seen": 9
+   }
+  ]
  },
  {
   "company": "Aalo Atomics",
@@ -370,6 +401,21 @@
   "candidates": []
  },
  {
+  "company": "Aigen",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Airbase",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Airrow",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Airship Industries",
   "checked": "2026-09-25",
   "candidates": [
@@ -396,6 +442,26 @@
   "company": "Alef Aeronautics",
   "checked": "2026-09-26",
   "candidates": []
+ },
+ {
+  "company": "Aleph Surgical",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "aleph",
+    "confidence": "medium",
+    "evidence": "https://jobs.ashbyhq.com/aleph/081d568c-acbb-45de-aea3-027238f5c010",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "lever",
+    "slug": "aleph",
+    "confidence": "medium",
+    "evidence": "https://jobs.lever.co/aleph/38118f14-a3fe-4098-9700-e8e99830ab94",
+    "jobs_seen": 102
+   }
+  ]
  },
  {
   "company": "Alice & Bob",
@@ -495,6 +561,19 @@
   ]
  },
  {
+  "company": "Alif Semiconductor",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "lever",
+    "slug": "alifsemi",
+    "confidence": "high",
+    "evidence": "https://jobs.lever.co/alifsemi/cd79811b-8d7b-426f-8243-705e354ee4c7",
+    "jobs_seen": 11
+   }
+  ]
+ },
+ {
   "company": "AlixLabs",
   "checked": "2026-09-25",
   "candidates": []
@@ -523,6 +602,11 @@
   "candidates": []
  },
  {
+  "company": "Altara",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Amber Bio",
   "checked": "2026-09-25",
   "candidates": [
@@ -532,6 +616,19 @@
     "confidence": "medium",
     "evidence": "https://jobs.ashbyhq.com/amber/e6c20c7c-da52-46d4-8f31-43382eafe586",
     "jobs_seen": 19
+   }
+  ]
+ },
+ {
+  "company": "Ambrosia Energy",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "ambrosia-energy",
+    "confidence": "medium",
+    "evidence": "https://jobs.ashbyhq.com/ambrosia-energy/8ddcc4c9-1708-43ac-89e1-11b072e187f4",
+    "jobs_seen": 10
    }
   ]
  },
@@ -741,6 +838,11 @@
   "candidates": []
  },
  {
+  "company": "Ampaire",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Amperon",
   "checked": "2026-09-25",
   "candidates": [
@@ -787,6 +889,16 @@
     "jobs_seen": 2
    }
   ]
+ },
+ {
+  "company": "Ample",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Anatar",
+  "checked": "2026-09-26",
+  "candidates": []
  },
  {
   "company": "Andean",
@@ -878,6 +990,40 @@
   ]
  },
  {
+  "company": "Anthro Energy",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "workable",
+    "slug": "anthro",
+    "confidence": "high",
+    "evidence": "https://www.anthroenergy.com/careers",
+    "jobs_seen": 2
+   },
+   {
+    "platform": "workable",
+    "slug": "anthro",
+    "confidence": "high",
+    "evidence": "https://www.anthroenergy.com/careers",
+    "jobs_seen": 2
+   },
+   {
+    "platform": "workable",
+    "slug": "anthro",
+    "confidence": "high",
+    "evidence": "https://www.anthroenergy.com/careers",
+    "jobs_seen": 2
+   },
+   {
+    "platform": "workable",
+    "slug": "anthro",
+    "confidence": "high",
+    "evidence": "https://www.anthroenergy.com/careers",
+    "jobs_seen": 2
+   }
+  ]
+ },
+ {
   "company": "Anthrogen",
   "checked": "2026-09-25",
   "candidates": [
@@ -940,6 +1086,243 @@
   ]
  },
  {
+  "company": "Anvil Robotics",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   },
+   {
+    "platform": "ashby",
+    "slug": "anvil-robotics",
+    "confidence": "high",
+    "evidence": "https://anvil.bot/careers",
+    "jobs_seen": 11
+   }
+  ]
+ },
+ {
   "company": "AnySignal",
   "checked": "2026-09-25",
   "candidates": [
@@ -962,6 +1345,19 @@
     "confidence": "high",
     "evidence": "https://anyonsys.com/careers",
     "jobs_seen": null
+   }
+  ]
+ },
+ {
+  "company": "Aon3D",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "aon3d",
+    "confidence": "high",
+    "evidence": "https://job-boards.greenhouse.io/aon3d/jobs/4273488009",
+    "jobs_seen": 2
    }
   ]
  },
@@ -1034,9 +1430,27 @@
   "candidates": []
  },
  {
+  "company": "Argo Space",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Argotec",
   "checked": "2026-09-25",
   "candidates": []
+ },
+ {
+  "company": "Ark Electronics",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "ark",
+    "confidence": "medium",
+    "evidence": "https://boards.greenhouse.io/ark/jobs/4914958002?gh_jid=4914958002",
+    "jobs_seen": 4
+   }
+  ]
  },
  {
   "company": "Ark Robotics",
@@ -1052,8 +1466,26 @@
   ]
  },
  {
+  "company": "Armadin",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "armadin",
+    "confidence": "high",
+    "evidence": "https://jobs.ashbyhq.com/armadin/09a0ea03-968a-4f3e-80a3-fa4d368584eb",
+    "jobs_seen": 18
+   }
+  ]
+ },
+ {
   "company": "Artimus Robotics",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "Arxlight",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -1080,6 +1512,108 @@
     "confidence": "high",
     "evidence": "https://asimov.com",
     "jobs_seen": 5
+   }
+  ]
+ },
+ {
+  "company": "Askari Defense",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Aslan",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "aslan",
+    "confidence": "high",
+    "evidence": "https://aslanprotects.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "aslan",
+    "confidence": "high",
+    "evidence": "https://aslanprotects.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "aslan",
+    "confidence": "high",
+    "evidence": "https://aslanprotects.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "aslan",
+    "confidence": "high",
+    "evidence": "https://aslanprotects.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "aslan",
+    "confidence": "high",
+    "evidence": "https://aslanprotects.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "aslan",
+    "confidence": "high",
+    "evidence": "https://aslanprotects.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "aslan",
+    "confidence": "high",
+    "evidence": "https://aslanprotects.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "aslan",
+    "confidence": "high",
+    "evidence": "https://aslanprotects.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "aslan",
+    "confidence": "high",
+    "evidence": "https://aslanprotects.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "aslan",
+    "confidence": "high",
+    "evidence": "https://aslanprotects.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "aslan",
+    "confidence": "high",
+    "evidence": "https://aslanprotects.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "aslan",
+    "confidence": "high",
+    "evidence": "https://aslanprotects.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "aslan",
+    "confidence": "high",
+    "evidence": "https://aslanprotects.com/careers",
+    "jobs_seen": 6
    }
   ]
  },
@@ -1122,8 +1656,23 @@
   "candidates": []
  },
  {
+  "company": "Asymm",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Atalanta",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Atana Elements",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "Athanor",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -1138,6 +1687,24 @@
     "jobs_seen": 7
    }
   ]
+ },
+ {
+  "company": "Atlas Motion",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "atlas",
+    "confidence": "medium",
+    "evidence": "https://jobs.ashbyhq.com/atlas/dae00fcb-35a5-4559-8114-7553138b3ea3",
+    "jobs_seen": 7
+   }
+  ]
+ },
+ {
+  "company": "AtmoCooling",
+  "checked": "2026-09-26",
+  "candidates": []
  },
  {
   "company": "Atmos Space Cargo",
@@ -1174,6 +1741,11 @@
     "jobs_seen": 131
    }
   ]
+ },
+ {
+  "company": "Atopile",
+  "checked": "2026-09-26",
+  "candidates": []
  },
  {
   "company": "Augury",
@@ -1339,8 +1911,292 @@
   "candidates": []
  },
  {
+  "company": "Axion",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   },
+   {
+    "platform": "ashby",
+    "slug": "axion",
+    "confidence": "high",
+    "evidence": "https://www.axion.com/careers",
+    "jobs_seen": 13
+   }
+  ]
+ },
+ {
   "company": "Ayar Labs",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "Azora",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -1449,6 +2305,11 @@
  {
   "company": "Baykar",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "Becoming",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -1682,6 +2543,19 @@
   ]
  },
  {
+  "company": "Blumen Systems",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "blumen",
+    "confidence": "high",
+    "evidence": "https://jobs.ashbyhq.com/blumen/ca0ac08e-81e8-4548-a1ee-17bb7be141bc",
+    "jobs_seen": 2
+   }
+  ]
+ },
+ {
   "company": "Blykalla",
   "checked": "2026-09-25",
   "candidates": []
@@ -1692,9 +2566,40 @@
   "candidates": []
  },
  {
+  "company": "BootLoop",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "bootloop",
+    "confidence": "high",
+    "evidence": "https://bootloop.ai",
+    "jobs_seen": 1
+   }
+  ]
+ },
+ {
   "company": "BotBuilt",
   "checked": "2026-09-25",
   "candidates": []
+ },
+ {
+  "company": "Bountiful",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Bravo Ordnance",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "bravo",
+    "confidence": "medium",
+    "evidence": "https://job-boards.greenhouse.io/bravo/jobs/5384836008",
+    "jobs_seen": 6
+   }
+  ]
  },
  {
   "company": "Breaker Industries",
@@ -1728,6 +2633,19 @@
   "candidates": []
  },
  {
+  "company": "Bubble Robotics",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "bubble",
+    "confidence": "medium",
+    "evidence": "https://jobs.ashbyhq.com/bubble/80714b04-d0c7-4ecc-84b7-9e4901bfa97a",
+    "jobs_seen": 8
+   }
+  ]
+ },
+ {
   "company": "Built Robotics",
   "checked": "2026-09-25",
   "candidates": [
@@ -1743,6 +2661,11 @@
  {
   "company": "BurnBot",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "Burro",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -1938,6 +2861,269 @@
   "company": "Cailabs",
   "checked": "2026-09-25",
   "candidates": []
+ },
+ {
+  "company": "California Forever",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Callosum",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "ashby",
+    "slug": "callosum",
+    "confidence": "high",
+    "evidence": "https://www.callosum.com/join-us",
+    "jobs_seen": 12
+   }
+  ]
  },
  {
   "company": "Calogena",
@@ -2293,6 +3479,33 @@
   ]
  },
  {
+  "company": "Charge Robotics",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "charge-robotics",
+    "confidence": "high",
+    "evidence": "https://chargerobotics.com",
+    "jobs_seen": 14
+   },
+   {
+    "platform": "ashby",
+    "slug": "charge-robotics",
+    "confidence": "high",
+    "evidence": "https://chargerobotics.com",
+    "jobs_seen": 14
+   },
+   {
+    "platform": "ashby",
+    "slug": "charge-robotics",
+    "confidence": "high",
+    "evidence": "https://chargerobotics.com",
+    "jobs_seen": 14
+   }
+  ]
+ },
+ {
   "company": "Chariot Defense",
   "checked": "2026-09-25",
   "candidates": [
@@ -2333,6 +3546,11 @@
  {
   "company": "Clippership",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "Clone Robotics",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -2800,6 +4018,11 @@
   "candidates": []
  },
  {
+  "company": "Cognitive Space",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Cohesive Robotics",
   "checked": "2026-09-25",
   "candidates": []
@@ -3170,6 +4393,19 @@
   "candidates": []
  },
  {
+  "company": "Copia Automation",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "lever",
+    "slug": "copia",
+    "confidence": "high",
+    "evidence": "https://copia.io/careers",
+    "jobs_seen": 5
+   }
+  ]
+ },
+ {
   "company": "Corintis",
   "checked": "2026-09-26",
   "candidates": []
@@ -3183,6 +4419,32 @@
   "company": "Corvex Systems",
   "checked": "2026-09-25",
   "candidates": []
+ },
+ {
+  "company": "Corvus Robotics",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "corvus-robotics",
+    "confidence": "high",
+    "evidence": "https://www.corvus-robotics.com/careers",
+    "jobs_seen": 10
+   }
+  ]
+ },
+ {
+  "company": "Cosmic Robotics",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "cosmic-robotics",
+    "confidence": "high",
+    "evidence": "https://www.cosmicrobotics.com",
+    "jobs_seen": 4
+   }
+  ]
  },
  {
   "company": "Covenant",
@@ -3222,6 +4484,31 @@
     "jobs_seen": 89
    }
   ]
+ },
+ {
+  "company": "Cradle",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "cradlebio",
+    "confidence": "high",
+    "evidence": "https://www.cradle.bio/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "cradlebio",
+    "confidence": "high",
+    "evidence": "https://www.cradle.bio/careers",
+    "jobs_seen": 6
+   }
+  ]
+ },
+ {
+  "company": "CreateMe",
+  "checked": "2026-09-26",
+  "candidates": []
  },
  {
   "company": "Cresilon",
@@ -3314,6 +4601,40 @@
     "confidence": "high",
     "evidence": "https://www.criticalloop.com/careers",
     "jobs_seen": 10
+   }
+  ]
+ },
+ {
+  "company": "CruxOCM",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "lever",
+    "slug": "cruxocm",
+    "confidence": "high",
+    "evidence": "https://cruxocm.com/careers",
+    "jobs_seen": 4
+   },
+   {
+    "platform": "lever",
+    "slug": "cruxocm",
+    "confidence": "high",
+    "evidence": "https://cruxocm.com/careers",
+    "jobs_seen": 4
+   },
+   {
+    "platform": "lever",
+    "slug": "cruxocm",
+    "confidence": "high",
+    "evidence": "https://cruxocm.com/careers",
+    "jobs_seen": 4
+   },
+   {
+    "platform": "lever",
+    "slug": "cruxocm",
+    "confidence": "high",
+    "evidence": "https://cruxocm.com/careers",
+    "jobs_seen": 4
    }
   ]
  },
@@ -3415,9 +4736,40 @@
   ]
  },
  {
+  "company": "Dandelion Energy",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "dandelion",
+    "confidence": "high",
+    "evidence": "https://dandelionenergy.com/careers",
+    "jobs_seen": 10
+   }
+  ]
+ },
+ {
+  "company": "Danti",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Darkhive",
   "checked": "2026-09-25",
   "candidates": []
+ },
+ {
+  "company": "David Energy",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "davidenergy",
+    "confidence": "high",
+    "evidence": "https://davidenergy.com/careers",
+    "jobs_seen": 2
+   }
+  ]
  },
  {
   "company": "Dawn Aerospace",
@@ -3530,6 +4882,11 @@
   ]
  },
  {
+  "company": "Determinant Materials",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Deterrence",
   "checked": "2026-09-25",
   "candidates": []
@@ -3563,6 +4920,24 @@
   "candidates": []
  },
  {
+  "company": "DigiChem",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Dimensional Energy",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "dimensional",
+    "confidence": "high",
+    "evidence": "https://jobs.ashbyhq.com/dimensional/f0f64b87-3be8-4ab3-8afb-4b581437c56f",
+    "jobs_seen": 12
+   }
+  ]
+ },
+ {
   "company": "Diode",
   "checked": "2026-09-25",
   "candidates": []
@@ -3575,6 +4950,31 @@
  {
   "company": "Diraq",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "Dispatch Space",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "dispatch",
+    "confidence": "high",
+    "evidence": "https://dispatch.me/about/careers/apply-now?gh_jid=6118890004",
+    "jobs_seen": 4
+   },
+   {
+    "platform": "ashby",
+    "slug": "dispatch",
+    "confidence": "high",
+    "evidence": "https://jobs.ashbyhq.com/dispatch/b191dde0-ea97-419b-b7a0-74152f13483c",
+    "jobs_seen": 8
+   }
+  ]
+ },
+ {
+  "company": "Dispatcher",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -4196,6 +5596,11 @@
   "candidates": []
  },
  {
+  "company": "EarthGrid",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Echodyne",
   "checked": "2026-09-26",
   "candidates": [
@@ -4225,6 +5630,19 @@
     "confidence": "high",
     "evidence": "https://job-boards.greenhouse.io/eclipse/jobs/4981191008",
     "jobs_seen": 1
+   }
+  ]
+ },
+ {
+  "company": "Eden Geopower",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "workable",
+    "slug": "eden-geopower",
+    "confidence": "high",
+    "evidence": "https://www.edengeopower.com/careers",
+    "jobs_seen": 4
    }
   ]
  },
@@ -4323,6 +5741,40 @@
   ]
  },
  {
+  "company": "Electric Air",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "electricair",
+    "confidence": "high",
+    "evidence": "https://www.electricair.io/careers",
+    "jobs_seen": 5
+   },
+   {
+    "platform": "ashby",
+    "slug": "electricair",
+    "confidence": "high",
+    "evidence": "https://www.electricair.io/careers",
+    "jobs_seen": 5
+   },
+   {
+    "platform": "ashby",
+    "slug": "electricair",
+    "confidence": "high",
+    "evidence": "https://www.electricair.io/careers",
+    "jobs_seen": 5
+   },
+   {
+    "platform": "ashby",
+    "slug": "electricair",
+    "confidence": "high",
+    "evidence": "https://www.electricair.io/careers",
+    "jobs_seen": 5
+   }
+  ]
+ },
+ {
   "company": "Electric Era",
   "checked": "2026-09-25",
   "candidates": []
@@ -4339,6 +5791,11 @@
     "jobs_seen": 18
    }
   ]
+ },
+ {
+  "company": "ElectroFlow Technologies",
+  "checked": "2026-09-26",
+  "candidates": []
  },
  {
   "company": "Elementary Robotics",
@@ -4448,6 +5905,11 @@
   "candidates": []
  },
  {
+  "company": "Enfabrica",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Enhanced Radar",
   "checked": "2026-09-25",
   "candidates": []
@@ -4456,6 +5918,39 @@
   "company": "Enigma",
   "checked": "2026-09-26",
   "candidates": []
+ },
+ {
+  "company": "Eon Systems",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "eon",
+    "confidence": "high",
+    "evidence": "https://eon.systems/careers",
+    "jobs_seen": 8
+   }
+  ]
+ },
+ {
+  "company": "Ephemeris Net",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "rippling",
+    "slug": "ephemeris-net",
+    "confidence": "high",
+    "evidence": "https://ephemeris.net",
+    "jobs_seen": null
+   },
+   {
+    "platform": "rippling",
+    "slug": "ephemeris-net",
+    "confidence": "high",
+    "evidence": "https://ephemeris.net",
+    "jobs_seen": null
+   }
+  ]
  },
  {
   "company": "Ephos",
@@ -4500,6 +5995,39 @@
   ]
  },
  {
+  "company": "Equilibrium Energy",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "equilibriumenergy",
+    "confidence": "high",
+    "evidence": "https://www.equilibriumenergy.com/careers",
+    "jobs_seen": 1
+   }
+  ]
+ },
+ {
+  "company": "EraDrive",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "eradrive",
+    "confidence": "high",
+    "evidence": "https://www.eradrive.space",
+    "jobs_seen": 2
+   },
+   {
+    "platform": "ashby",
+    "slug": "eradrive",
+    "confidence": "high",
+    "evidence": "https://www.eradrive.space",
+    "jobs_seen": 2
+   }
+  ]
+ },
+ {
   "company": "Eridu",
   "checked": "2026-09-25",
   "candidates": []
@@ -4536,6 +6064,11 @@
     "jobs_seen": 64
    }
   ]
+ },
+ {
+  "company": "Fabri",
+  "checked": "2026-09-26",
+  "candidates": []
  },
  {
   "company": "Fairmat",
@@ -4586,6 +6119,11 @@
   "candidates": []
  },
  {
+  "company": "Firma Power",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "First Resonance",
   "checked": "2026-09-25",
   "candidates": [
@@ -4597,6 +6135,11 @@
     "jobs_seen": 13
    }
   ]
+ },
+ {
+  "company": "Flamefront Propulsion",
+  "checked": "2026-09-26",
+  "candidates": []
  },
  {
   "company": "Fleet Space Technologies",
@@ -4621,6 +6164,19 @@
     "confidence": "high",
     "evidence": "https://jobs.lever.co/fleetzero/05d91b4c-a563-419e-835b-dc2d693a88fc",
     "jobs_seen": 9
+   }
+  ]
+ },
+ {
+  "company": "Float Cargo",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "float",
+    "confidence": "medium",
+    "evidence": "https://jobs.ashbyhq.com/float/7495796a-7e24-4ed7-bad6-e71265ef6f50",
+    "jobs_seen": 19
    }
   ]
  },
@@ -5609,6 +7165,11 @@
   ]
  },
  {
+  "company": "GRU",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Galadyne",
   "checked": "2026-09-25",
   "candidates": []
@@ -5644,6 +7205,16 @@
   "candidates": []
  },
  {
+  "company": "Gambit",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Gatik",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Gauss Fusion",
   "checked": "2026-09-26",
   "candidates": []
@@ -5652,6 +7223,19 @@
   "company": "GenFab Co",
   "checked": "2026-09-25",
   "candidates": []
+ },
+ {
+  "company": "General Biological",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "general",
+    "confidence": "medium",
+    "evidence": "https://job-boards.greenhouse.io/general/jobs/7182645002",
+    "jobs_seen": 1
+   }
+  ]
  },
  {
   "company": "General Galactic",
@@ -5721,6 +7305,19 @@
   "company": "Gilmour Space Technologies",
   "checked": "2026-09-25",
   "candidates": []
+ },
+ {
+  "company": "Glimpse",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "glimp-se",
+    "confidence": "high",
+    "evidence": "https://glimp.se/careers",
+    "jobs_seen": 2
+   }
+  ]
  },
  {
   "company": "Glyphic Biotechnologies",
@@ -5870,6 +7467,19 @@
   ]
  },
  {
+  "company": "Gridware",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "lever",
+    "slug": "gridware",
+    "confidence": "high",
+    "evidence": "https://www.gridware.io/careers",
+    "jobs_seen": 20
+   }
+  ]
+ },
+ {
   "company": "Gritt",
   "checked": "2026-09-26",
   "candidates": [
@@ -5883,8 +7493,23 @@
   ]
  },
  {
+  "company": "Ground Control Development",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Guardian RF",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "H2Pro",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "H3X",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -5908,6 +7533,11 @@
   "candidates": []
  },
  {
+  "company": "Hades Mining",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Hailo",
   "checked": "2026-09-25",
   "candidates": []
@@ -5916,6 +7546,19 @@
   "company": "Halo",
   "checked": "2026-09-26",
   "candidates": []
+ },
+ {
+  "company": "Halter",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "halter",
+    "confidence": "high",
+    "evidence": "https://jobs.ashbyhq.com/halter/09249854-c7a2-4d8f-a680-28584b0eeff4",
+    "jobs_seen": 237
+   }
+  ]
  },
  {
   "company": "Harbinger",
@@ -6318,6 +7961,11 @@
   ]
  },
  {
+  "company": "Hedral",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Helical Fusion",
   "checked": "2026-09-25",
   "candidates": []
@@ -6326,6 +7974,19 @@
   "company": "Helios",
   "checked": "2026-09-25",
   "candidates": []
+ },
+ {
+  "company": "Heliux",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "heliux",
+    "confidence": "high",
+    "evidence": "https://jobs.ashbyhq.com/heliux/7902a54b-a95a-4d2d-bf9a-df3ffcebc178",
+    "jobs_seen": 12
+   }
+  ]
  },
  {
   "company": "Herasight",
@@ -6630,6 +8291,39 @@
     "confidence": "high",
     "evidence": "https://hexium.com",
     "jobs_seen": 2
+   }
+  ]
+ },
+ {
+  "company": "Hextronics",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "hextronics",
+    "confidence": "high",
+    "evidence": "https://jobs.ashbyhq.com/hextronics/93eb20fb-0435-4adf-adfc-76b64f97cf0e",
+    "jobs_seen": 3
+   }
+  ]
+ },
+ {
+  "company": "Hgen",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "lever",
+    "slug": "hgen",
+    "confidence": "high",
+    "evidence": "https://hgen.com",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "lever",
+    "slug": "hgen",
+    "confidence": "high",
+    "evidence": "https://hgen.com",
+    "jobs_seen": 6
    }
   ]
  },
@@ -7352,6 +9046,19 @@
   ]
  },
  {
+  "company": "Humble Robotics",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "lever",
+    "slug": "humble-robotics",
+    "confidence": "high",
+    "evidence": "https://humblerobotics.ai",
+    "jobs_seen": 21
+   }
+  ]
+ },
+ {
   "company": "HyImpulse",
   "checked": "2026-09-25",
   "candidates": []
@@ -7588,6 +9295,11 @@
   "candidates": []
  },
  {
+  "company": "Inari",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Inertia Enterprises",
   "checked": "2026-09-26",
   "candidates": [
@@ -7597,6 +9309,19 @@
     "confidence": "high",
     "evidence": "https://www.inertia.com/jobs",
     "jobs_seen": 8
+   }
+  ]
+ },
+ {
+  "company": "Infinite Machine",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "infinite-machine",
+    "confidence": "medium",
+    "evidence": "https://jobs.ashbyhq.com/infinite-machine/0406519a-ab6a-4229-ba9b-f43049083d47",
+    "jobs_seen": 2
    }
   ]
  },
@@ -7637,6 +9362,19 @@
   ]
  },
  {
+  "company": "Irradiant Technologies",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "irradianttechnologies",
+    "confidence": "medium",
+    "evidence": "https://job-boards.greenhouse.io/irradianttechnologies/jobs/4256753008",
+    "jobs_seen": 1
+   }
+  ]
+ },
+ {
   "company": "Isembard",
   "checked": "2026-09-25",
   "candidates": []
@@ -7660,6 +9398,11 @@
     "jobs_seen": 30
    }
   ]
+ },
+ {
+  "company": "Itera",
+  "checked": "2026-09-26",
+  "candidates": []
  },
  {
   "company": "JITX",
@@ -7742,6 +9485,11 @@
   ]
  },
  {
+  "company": "Kayhan Space",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Keen Technologies",
   "checked": "2026-09-26",
   "candidates": [
@@ -7800,6 +9548,40 @@
   ]
  },
  {
+  "company": "Kestrel",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "lever",
+    "slug": "kestrel-intelligence",
+    "confidence": "high",
+    "evidence": "https://www.kestrelintelligence.com",
+    "jobs_seen": 4
+   },
+   {
+    "platform": "lever",
+    "slug": "kestrel-intelligence",
+    "confidence": "high",
+    "evidence": "https://www.kestrelintelligence.com",
+    "jobs_seen": 4
+   },
+   {
+    "platform": "lever",
+    "slug": "kestrel-intelligence",
+    "confidence": "high",
+    "evidence": "https://www.kestrelintelligence.com",
+    "jobs_seen": 4
+   },
+   {
+    "platform": "lever",
+    "slug": "kestrel-intelligence",
+    "confidence": "high",
+    "evidence": "https://www.kestrelintelligence.com",
+    "jobs_seen": 4
+   }
+  ]
+ },
+ {
   "company": "Kinetic Automation",
   "checked": "2026-09-25",
   "candidates": [
@@ -7853,6 +9635,24 @@
   "candidates": []
  },
  {
+  "company": "Kula Bio",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Kunin",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "kunin",
+    "confidence": "high",
+    "evidence": "https://jobs.ashbyhq.com/kunin/600e4fc3-690e-4a14-91a0-691e440b9052",
+    "jobs_seen": 4
+   }
+  ]
+ },
+ {
   "company": "Kvertus",
   "checked": "2026-09-25",
   "candidates": []
@@ -7876,6 +9676,19 @@
   "company": "Lace Lithography",
   "checked": "2026-09-26",
   "candidates": []
+ },
+ {
+  "company": "Laminar",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "lever",
+    "slug": "runlaminar",
+    "confidence": "high",
+    "evidence": "https://jobs.lever.co/runlaminar/8257cb80-ec9a-4ff9-80a4-35d5ab4a7050",
+    "jobs_seen": 12
+   }
+  ]
  },
  {
   "company": "Last Energy",
@@ -7923,6 +9736,11 @@
  {
   "company": "LeydenJar Technologies",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "Lightcell",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -8083,6 +9901,65 @@
   "candidates": []
  },
  {
+  "company": "Loombotic",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Loyal",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "loyal36",
+    "confidence": "high",
+    "evidence": "https://loyal.com/careers",
+    "jobs_seen": 2
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "loyal36",
+    "confidence": "high",
+    "evidence": "https://loyal.com/careers",
+    "jobs_seen": 2
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "loyal36",
+    "confidence": "high",
+    "evidence": "https://loyal.com/careers",
+    "jobs_seen": 2
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "loyal36",
+    "confidence": "high",
+    "evidence": "https://loyal.com/careers",
+    "jobs_seen": 2
+   }
+  ]
+ },
+ {
+  "company": "Lucid Bots",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "lucidbots",
+    "confidence": "high",
+    "evidence": "https://www.lucidbots.com",
+    "jobs_seen": 2
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "lucidbots",
+    "confidence": "high",
+    "evidence": "https://www.lucidbots.com",
+    "jobs_seen": 2
+   }
+  ]
+ },
+ {
   "company": "Lumafield",
   "checked": "2026-09-25",
   "candidates": [
@@ -8097,6 +9974,11 @@
  },
  {
   "company": "Lumaril",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Lumen Energy",
   "checked": "2026-09-26",
   "candidates": []
  },
@@ -8169,7 +10051,32 @@
   "candidates": []
  },
  {
+  "company": "Lydian",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "lydian",
+    "confidence": "high",
+    "evidence": "https://www.lydianlabs.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "lydian",
+    "confidence": "high",
+    "evidence": "https://www.lydianlabs.com/careers",
+    "jobs_seen": 6
+   }
+  ]
+ },
+ {
   "company": "Lyten",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "MATERIAL",
   "checked": "2026-09-26",
   "candidates": []
  },
@@ -8260,9 +10167,42 @@
   "candidates": []
  },
  {
+  "company": "Make Sunsets",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "make",
+    "confidence": "medium",
+    "evidence": "https://www.make.com/en/careers-detail?gh_jid=7778836003",
+    "jobs_seen": 12
+   }
+  ]
+ },
+ {
   "company": "Manastu Space",
   "checked": "2026-09-26",
   "candidates": []
+ },
+ {
+  "company": "Mangrove Lithium",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "bamboohr",
+    "slug": "mangrovelithium",
+    "confidence": "high",
+    "evidence": "https://www.mangrovelithium.com/careers",
+    "jobs_seen": null
+   },
+   {
+    "platform": "bamboohr",
+    "slug": "mangrovelithium",
+    "confidence": "high",
+    "evidence": "https://www.mangrovelithium.com/careers",
+    "jobs_seen": null
+   }
+  ]
  },
  {
   "company": "Manifold Bio",
@@ -8308,6 +10248,11 @@
   "candidates": []
  },
  {
+  "company": "Maritime Operations Group",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "MatX",
   "checked": "2026-09-25",
   "candidates": [
@@ -8330,6 +10275,11 @@
  {
   "company": "Material Evolution",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "Matter",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -8389,6 +10339,24 @@
   ]
  },
  {
+  "company": "Mendra",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Merge Labs",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "merge",
+    "confidence": "medium",
+    "evidence": "https://jobs.ashbyhq.com/merge/1b9bb8da-1332-45ae-8d45-346b0ee49800",
+    "jobs_seen": 18
+   }
+  ]
+ },
+ {
   "company": "Mesh Optical Technologies",
   "checked": "2026-09-26",
   "candidates": [
@@ -8405,6 +10373,19 @@
     "confidence": "high",
     "evidence": "https://www.meshoptical.com",
     "jobs_seen": 29
+   }
+  ]
+ },
+ {
+  "company": "Meter",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "meter",
+    "confidence": "high",
+    "evidence": "https://jobs.ashbyhq.com/meter/3883b996-d880-4205-87a9-7e3dce3c23fb",
+    "jobs_seen": 47
    }
   ]
  },
@@ -8481,6 +10462,19 @@
   "candidates": []
  },
  {
+  "company": "Mithril Mining",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "mithril",
+    "confidence": "medium",
+    "evidence": "https://job-boards.greenhouse.io/mithril/jobs/5117694007",
+    "jobs_seen": 3
+   }
+  ]
+ },
+ {
   "company": "Mitra Chem",
   "checked": "2026-09-26",
   "candidates": []
@@ -8491,9 +10485,27 @@
   "candidates": []
  },
  {
+  "company": "Modular Genetics",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Mojo Vision",
   "checked": "2026-09-26",
   "candidates": []
+ },
+ {
+  "company": "Molten Industries",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "lever",
+    "slug": "moltenindustries",
+    "confidence": "high",
+    "evidence": "https://www.moltenindustries.com",
+    "jobs_seen": 1
+   }
+  ]
  },
  {
   "company": "Moment Energy",
@@ -8556,6 +10568,11 @@
     "jobs_seen": 18
    }
   ]
+ },
+ {
+  "company": "Monaire",
+  "checked": "2026-09-26",
+  "candidates": []
  },
  {
   "company": "Monarch Quantum",
@@ -9966,8 +11983,26 @@
   "candidates": []
  },
  {
+  "company": "Nitricity",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "nitricity",
+    "confidence": "high",
+    "evidence": "https://www.nitricity.co/careers",
+    "jobs_seen": 1
+   }
+  ]
+ },
+ {
   "company": "Noble Gas Systems",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "Noble Machines",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -9994,6 +12029,19 @@
   "company": "Nordic Air Defence",
   "checked": "2026-09-25",
   "candidates": []
+ },
+ {
+  "company": "Normal Computing",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "normalcomputing",
+    "confidence": "high",
+    "evidence": "https://jobs.ashbyhq.com/normalcomputing/975c754f-e5dd-4137-9e3e-63c81405d84f",
+    "jobs_seen": 19
+   }
+  ]
  },
  {
   "company": "North Vector Dynamics",
@@ -11716,6 +13764,11 @@
   ]
  },
  {
+  "company": "Notus Autonomous Systems",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Noveon Magnetics",
   "checked": "2026-09-26",
   "candidates": []
@@ -11783,6 +13836,26 @@
   ]
  },
  {
+  "company": "Nudge",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "nudge",
+    "confidence": "high",
+    "evidence": "https://nudge.com/careers",
+    "jobs_seen": 25
+   },
+   {
+    "platform": "ashby",
+    "slug": "nudge",
+    "confidence": "high",
+    "evidence": "https://nudge.com/careers",
+    "jobs_seen": 25
+   }
+  ]
+ },
+ {
   "company": "Nuvacore",
   "checked": "2026-09-26",
   "candidates": [
@@ -11792,6 +13865,19 @@
     "confidence": "high",
     "evidence": "https://jobs.lever.co/nuvacore/b50d4af9-63b3-4109-8b7f-3c2abff690ef",
     "jobs_seen": 18
+   }
+  ]
+ },
+ {
+  "company": "Nuview",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "workable",
+    "slug": "nuview",
+    "confidence": "medium",
+    "evidence": "https://apply.workable.com/j/2F01643DDF",
+    "jobs_seen": 1
    }
   ]
  },
@@ -11869,6 +13955,11 @@
   "candidates": []
  },
  {
+  "company": "Octavia",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Odin Dynamics",
   "checked": "2026-09-26",
   "candidates": [
@@ -11880,6 +13971,36 @@
     "jobs_seen": 5
    }
   ]
+ },
+ {
+  "company": "Ohalo Genetics",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "ohalogenetics",
+    "confidence": "high",
+    "evidence": "https://www.ohalo.com",
+    "jobs_seen": 12
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "ohalogenetics",
+    "confidence": "high",
+    "evidence": "https://www.ohalo.com",
+    "jobs_seen": 12
+   }
+  ]
+ },
+ {
+  "company": "Oishii",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Olympian Motors",
+  "checked": "2026-09-26",
+  "candidates": []
  },
  {
   "company": "Onebrief",
@@ -12090,6 +14211,32 @@
   ]
  },
  {
+  "company": "Orbital Sidekick",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "lever",
+    "slug": "orbitalsidekick",
+    "confidence": "high",
+    "evidence": "https://jobs.lever.co/orbitalsidekick/4b790a87-4cd3-4f71-a237-46e7fd634ba4",
+    "jobs_seen": 2
+   }
+  ]
+ },
+ {
+  "company": "Orchard Robotics",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "orchard",
+    "confidence": "high",
+    "evidence": "https://www.orchard.ai/careers",
+    "jobs_seen": 25
+   }
+  ]
+ },
+ {
   "company": "Orchid",
   "checked": "2026-09-25",
   "candidates": []
@@ -12097,6 +14244,11 @@
  {
   "company": "OroraTech",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "Orqa",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -12417,6 +14569,11 @@
   ]
  },
  {
+  "company": "Paradromics",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Parallel Systems",
   "checked": "2026-09-25",
   "candidates": [
@@ -12442,6 +14599,11 @@
  {
   "company": "Pasqal",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "Path Power",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -12630,6 +14792,11 @@
   ]
  },
  {
+  "company": "Perseus Defense",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Persona AI",
   "checked": "2026-09-26",
   "candidates": [
@@ -12756,9 +14923,27 @@
   "candidates": []
  },
  {
+  "company": "Pila Energy",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Pipedream",
   "checked": "2026-09-25",
   "candidates": []
+ },
+ {
+  "company": "Pivot Bio",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "pivotbio",
+    "confidence": "high",
+    "evidence": "https://www.pivotbio.com/job-description?gh_jid=8558351002",
+    "jobs_seen": 10
+   }
+  ]
  },
  {
   "company": "Pivotal",
@@ -13046,6 +15231,124 @@
   "company": "Planted Solar",
   "checked": "2026-09-26",
   "candidates": []
+ },
+ {
+  "company": "Podium Automation",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "podium-automation",
+    "confidence": "high",
+    "evidence": "https://www.podiumautomation.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "podium-automation",
+    "confidence": "high",
+    "evidence": "https://www.podiumautomation.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "podium-automation",
+    "confidence": "high",
+    "evidence": "https://www.podiumautomation.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "podium-automation",
+    "confidence": "high",
+    "evidence": "https://www.podiumautomation.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "podium-automation",
+    "confidence": "high",
+    "evidence": "https://www.podiumautomation.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "podium-automation",
+    "confidence": "high",
+    "evidence": "https://www.podiumautomation.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "podium-automation",
+    "confidence": "high",
+    "evidence": "https://www.podiumautomation.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "podium-automation",
+    "confidence": "high",
+    "evidence": "https://www.podiumautomation.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "podium-automation",
+    "confidence": "high",
+    "evidence": "https://www.podiumautomation.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "podium-automation",
+    "confidence": "high",
+    "evidence": "https://www.podiumautomation.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "podium-automation",
+    "confidence": "high",
+    "evidence": "https://www.podiumautomation.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "podium-automation",
+    "confidence": "high",
+    "evidence": "https://www.podiumautomation.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "podium-automation",
+    "confidence": "high",
+    "evidence": "https://www.podiumautomation.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "podium-automation",
+    "confidence": "high",
+    "evidence": "https://www.podiumautomation.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "podium-automation",
+    "confidence": "high",
+    "evidence": "https://www.podiumautomation.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "podium-automation",
+    "confidence": "high",
+    "evidence": "https://www.podiumautomation.com/careers",
+    "jobs_seen": 8
+   }
+  ]
  },
  {
   "company": "Polar Semiconductor",
@@ -13398,6 +15701,19 @@
   "candidates": []
  },
  {
+  "company": "Privateer",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "privateer",
+    "confidence": "high",
+    "evidence": "https://www.privateer.com/careers",
+    "jobs_seen": 4
+   }
+  ]
+ },
+ {
   "company": "Project Omega",
   "checked": "2026-09-26",
   "candidates": []
@@ -13437,6 +15753,19 @@
   "company": "Prusa Research",
   "checked": "2026-09-25",
   "candidates": []
+ },
+ {
+  "company": "Pryzm",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "pryzm",
+    "confidence": "high",
+    "evidence": "https://pryzm.io/careers",
+    "jobs_seen": 6
+   }
+  ]
  },
  {
   "company": "Pulsar Fusion",
@@ -13621,6 +15950,19 @@
   "candidates": []
  },
  {
+  "company": "Quindar",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "quindar",
+    "confidence": "high",
+    "evidence": "https://quindar.space/careers",
+    "jobs_seen": 20
+   }
+  ]
+ },
+ {
   "company": "QunaSys",
   "checked": "2026-09-25",
   "candidates": []
@@ -13681,6 +16023,11 @@
  {
   "company": "Radical AI",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "Radify Metals",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -13768,6 +16115,11 @@
  },
  {
   "company": "Realta Fusion",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Rebel Space",
   "checked": "2026-09-26",
   "candidates": []
  },
@@ -13936,9 +16288,49 @@
   ]
  },
  {
+  "company": "Remora",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "remoracarbon",
+    "confidence": "high",
+    "evidence": "https://job-boards.greenhouse.io/remoracarbon/jobs/5247465007",
+    "jobs_seen": 6
+   }
+  ]
+ },
+ {
   "company": "Renaissance Fusion",
   "checked": "2026-09-25",
   "candidates": []
+ },
+ {
+  "company": "Rendezvous Robotics",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "rendezvousrobotics",
+    "confidence": "high",
+    "evidence": "https://www.rdvrobotics.com",
+    "jobs_seen": 24
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "rendezvousrobotics",
+    "confidence": "high",
+    "evidence": "https://www.rdvrobotics.com",
+    "jobs_seen": 24
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "rendezvousrobotics",
+    "confidence": "high",
+    "evidence": "https://www.rdvrobotics.com",
+    "jobs_seen": 24
+   }
+  ]
  },
  {
   "company": "Resilience",
@@ -13985,6 +16377,31 @@
   ]
  },
  {
+  "company": "Revel",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "revel",
+    "confidence": "high",
+    "evidence": "https://job-boards.greenhouse.io/revel/jobs/5811037004",
+    "jobs_seen": 1
+   },
+   {
+    "platform": "ashby",
+    "slug": "revel",
+    "confidence": "high",
+    "evidence": "https://jobs.ashbyhq.com/revel/949e46de-251c-4e18-a4a3-c0d920bdb983",
+    "jobs_seen": 25
+   }
+  ]
+ },
+ {
+  "company": "Revere",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Reverion",
   "checked": "2026-09-25",
   "candidates": []
@@ -13997,6 +16414,16 @@
  {
   "company": "Rhoman Aerospace",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "Ricursive Intelligence",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Rivan",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -14196,8 +16623,172 @@
   ]
  },
  {
+  "company": "Runpod",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "runpod",
+    "confidence": "high",
+    "evidence": "https://www.runpod.io/careers",
+    "jobs_seen": 26
+   }
+  ]
+ },
+ {
+  "company": "SF Compute",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "ashby",
+    "slug": "sfcompute",
+    "confidence": "high",
+    "evidence": "https://sfcompute.com",
+    "jobs_seen": 9
+   }
+  ]
+ },
+ {
   "company": "Sabanto",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "Safire",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -14230,6 +16821,19 @@
     "confidence": "medium",
     "evidence": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6146328004",
     "jobs_seen": 61
+   }
+  ]
+ },
+ {
+  "company": "Sanctuary AI",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "sanctuary",
+    "confidence": "high",
+    "evidence": "https://jobs.ashbyhq.com/sanctuary/5feed4e2-3007-43c6-8feb-d7ea0908af77",
+    "jobs_seen": 6
    }
   ]
  },
@@ -14395,6 +16999,124 @@
     "confidence": "high",
     "evidence": "https://www.seurat.com",
     "jobs_seen": 4
+   }
+  ]
+ },
+ {
+  "company": "Shift5",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "shift5",
+    "confidence": "high",
+    "evidence": "https://shift5.io/careers",
+    "jobs_seen": 15
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "shift5",
+    "confidence": "high",
+    "evidence": "https://shift5.io/careers",
+    "jobs_seen": 15
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "shift5",
+    "confidence": "high",
+    "evidence": "https://shift5.io/careers",
+    "jobs_seen": 15
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "shift5",
+    "confidence": "high",
+    "evidence": "https://shift5.io/careers",
+    "jobs_seen": 15
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "shift5",
+    "confidence": "high",
+    "evidence": "https://shift5.io/careers",
+    "jobs_seen": 15
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "shift5",
+    "confidence": "high",
+    "evidence": "https://shift5.io/careers",
+    "jobs_seen": 15
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "shift5",
+    "confidence": "high",
+    "evidence": "https://shift5.io/careers",
+    "jobs_seen": 15
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "shift5",
+    "confidence": "high",
+    "evidence": "https://shift5.io/careers",
+    "jobs_seen": 15
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "shift5",
+    "confidence": "high",
+    "evidence": "https://shift5.io/careers",
+    "jobs_seen": 15
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "shift5",
+    "confidence": "high",
+    "evidence": "https://shift5.io/careers",
+    "jobs_seen": 15
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "shift5",
+    "confidence": "high",
+    "evidence": "https://shift5.io/careers",
+    "jobs_seen": 15
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "shift5",
+    "confidence": "high",
+    "evidence": "https://shift5.io/careers",
+    "jobs_seen": 15
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "shift5",
+    "confidence": "high",
+    "evidence": "https://shift5.io/careers",
+    "jobs_seen": 15
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "shift5",
+    "confidence": "high",
+    "evidence": "https://shift5.io/careers",
+    "jobs_seen": 15
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "shift5",
+    "confidence": "high",
+    "evidence": "https://shift5.io/careers",
+    "jobs_seen": 15
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "shift5",
+    "confidence": "high",
+    "evidence": "https://shift5.io/careers",
+    "jobs_seen": 15
    }
   ]
  },
@@ -14607,6 +17329,19 @@
   ]
  },
  {
+  "company": "SirenOpt",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "sirenopt",
+    "confidence": "high",
+    "evidence": "https://job-boards.greenhouse.io/sirenopt/jobs/4002488009",
+    "jobs_seen": 5
+   }
+  ]
+ },
+ {
   "company": "Skapion",
   "checked": "2026-09-26",
   "candidates": []
@@ -14693,6 +17428,19 @@
   ]
  },
  {
+  "company": "Solestial",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "lever",
+    "slug": "solestial",
+    "confidence": "high",
+    "evidence": "https://solestial.com/careers",
+    "jobs_seen": 10
+   }
+  ]
+ },
+ {
   "company": "Solideon",
   "checked": "2026-09-25",
   "candidates": []
@@ -14700,6 +17448,11 @@
  {
   "company": "Solinftec",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "Somos",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -14955,6 +17708,67 @@
   ]
  },
  {
+  "company": "Specter",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "specter",
+    "confidence": "high",
+    "evidence": "https://specter.co",
+    "jobs_seen": 38
+   },
+   {
+    "platform": "ashby",
+    "slug": "specter",
+    "confidence": "high",
+    "evidence": "https://specter.co",
+    "jobs_seen": 38
+   },
+   {
+    "platform": "ashby",
+    "slug": "specter",
+    "confidence": "high",
+    "evidence": "https://specter.co",
+    "jobs_seen": 38
+   }
+  ]
+ },
+ {
+  "company": "Specter Aerospace",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "bamboohr",
+    "slug": "specteraerospace",
+    "confidence": "high",
+    "evidence": "https://www.specteraerospace.com/careers",
+    "jobs_seen": null
+   },
+   {
+    "platform": "bamboohr",
+    "slug": "specteraerospace",
+    "confidence": "high",
+    "evidence": "https://www.specteraerospace.com/careers",
+    "jobs_seen": null
+   },
+   {
+    "platform": "bamboohr",
+    "slug": "specteraerospace",
+    "confidence": "high",
+    "evidence": "https://www.specteraerospace.com/careers",
+    "jobs_seen": null
+   },
+   {
+    "platform": "bamboohr",
+    "slug": "specteraerospace",
+    "confidence": "high",
+    "evidence": "https://www.specteraerospace.com/careers",
+    "jobs_seen": null
+   }
+  ]
+ },
+ {
   "company": "SpectralX",
   "checked": "2026-09-25",
   "candidates": []
@@ -14991,6 +17805,19 @@
   ]
  },
  {
+  "company": "Spinor Energy",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "spinorenergy",
+    "confidence": "high",
+    "evidence": "https://jobs.ashbyhq.com/spinorenergy/0d3ab0c0-afbd-46eb-8738-edcd402db78b",
+    "jobs_seen": 5
+   }
+  ]
+ },
+ {
   "company": "Spiritus",
   "checked": "2026-09-26",
   "candidates": []
@@ -15007,6 +17834,31 @@
     "jobs_seen": 6
    }
   ]
+ },
+ {
+  "company": "Squint",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "squint.ai",
+    "confidence": "high",
+    "evidence": "https://www.squint.ai/jobs",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "squint.ai",
+    "confidence": "high",
+    "evidence": "https://www.squint.ai/jobs",
+    "jobs_seen": 6
+   }
+  ]
+ },
+ {
+  "company": "Stacked Energy",
+  "checked": "2026-09-26",
+  "candidates": []
  },
  {
   "company": "Standard Bots",
@@ -15232,6 +18084,19 @@
   "candidates": []
  },
  {
+  "company": "Still Bright",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "stillbright",
+    "confidence": "high",
+    "evidence": "https://www.stillbright.co/careers",
+    "jobs_seen": 6
+   }
+  ]
+ },
+ {
   "company": "Strand Therapeutics",
   "checked": "2026-09-25",
   "candidates": [
@@ -15278,6 +18143,19 @@
     "confidence": "high",
     "evidence": "https://job-boards.greenhouse.io/stratolaunch/jobs/5433491008",
     "jobs_seen": 56
+   }
+  ]
+ },
+ {
+  "company": "Stratum AI",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "stratum-ai",
+    "confidence": "high",
+    "evidence": "https://stratum.gs/careers",
+    "jobs_seen": 11
    }
   ]
  },
@@ -15427,9 +18305,76 @@
   "candidates": []
  },
  {
+  "company": "Swarmbotics AI",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Swift Beat",
   "checked": "2026-09-25",
   "candidates": []
+ },
+ {
+  "company": "Swift Solar",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "swiftsolar",
+    "confidence": "high",
+    "evidence": "https://www.swiftsolar.com/careers",
+    "jobs_seen": 2
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "swiftsolar",
+    "confidence": "high",
+    "evidence": "https://www.swiftsolar.com/careers",
+    "jobs_seen": 2
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "swiftsolar",
+    "confidence": "high",
+    "evidence": "https://www.swiftsolar.com/careers",
+    "jobs_seen": 2
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "swiftsolar",
+    "confidence": "high",
+    "evidence": "https://www.swiftsolar.com/careers",
+    "jobs_seen": 2
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "swiftsolar",
+    "confidence": "high",
+    "evidence": "https://www.swiftsolar.com/careers",
+    "jobs_seen": 2
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "swiftsolar",
+    "confidence": "high",
+    "evidence": "https://www.swiftsolar.com/careers",
+    "jobs_seen": 2
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "swiftsolar",
+    "confidence": "high",
+    "evidence": "https://www.swiftsolar.com/careers",
+    "jobs_seen": 2
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "swiftsolar",
+    "confidence": "high",
+    "evidence": "https://www.swiftsolar.com/careers",
+    "jobs_seen": 2
+   }
+  ]
  },
  {
   "company": "Sygaldry Technologies",
@@ -15528,6 +18473,11 @@
   "candidates": []
  },
  {
+  "company": "Teralta",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Terra Industries",
   "checked": "2026-09-26",
   "candidates": [
@@ -15539,6 +18489,11 @@
     "jobs_seen": 10
    }
   ]
+ },
+ {
+  "company": "TerraDepth",
+  "checked": "2026-09-26",
+  "candidates": []
  },
  {
   "company": "TerraFirma",
@@ -15589,6 +18544,124 @@
   "candidates": []
  },
  {
+  "company": "Texture Energy",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "texture",
+    "confidence": "high",
+    "evidence": "https://www.texturehq.com/careers",
+    "jobs_seen": 7
+   },
+   {
+    "platform": "ashby",
+    "slug": "texture",
+    "confidence": "high",
+    "evidence": "https://www.texturehq.com/careers",
+    "jobs_seen": 7
+   },
+   {
+    "platform": "ashby",
+    "slug": "texture",
+    "confidence": "high",
+    "evidence": "https://www.texturehq.com/careers",
+    "jobs_seen": 7
+   },
+   {
+    "platform": "ashby",
+    "slug": "texture",
+    "confidence": "high",
+    "evidence": "https://www.texturehq.com/careers",
+    "jobs_seen": 7
+   },
+   {
+    "platform": "ashby",
+    "slug": "texture",
+    "confidence": "high",
+    "evidence": "https://www.texturehq.com/careers",
+    "jobs_seen": 7
+   },
+   {
+    "platform": "ashby",
+    "slug": "texture",
+    "confidence": "high",
+    "evidence": "https://www.texturehq.com/careers",
+    "jobs_seen": 7
+   },
+   {
+    "platform": "ashby",
+    "slug": "texture",
+    "confidence": "high",
+    "evidence": "https://www.texturehq.com/careers",
+    "jobs_seen": 7
+   },
+   {
+    "platform": "ashby",
+    "slug": "texture",
+    "confidence": "high",
+    "evidence": "https://www.texturehq.com/careers",
+    "jobs_seen": 7
+   },
+   {
+    "platform": "ashby",
+    "slug": "texture",
+    "confidence": "high",
+    "evidence": "https://www.texturehq.com/careers",
+    "jobs_seen": 7
+   },
+   {
+    "platform": "ashby",
+    "slug": "texture",
+    "confidence": "high",
+    "evidence": "https://www.texturehq.com/careers",
+    "jobs_seen": 7
+   },
+   {
+    "platform": "ashby",
+    "slug": "texture",
+    "confidence": "high",
+    "evidence": "https://www.texturehq.com/careers",
+    "jobs_seen": 7
+   },
+   {
+    "platform": "ashby",
+    "slug": "texture",
+    "confidence": "high",
+    "evidence": "https://www.texturehq.com/careers",
+    "jobs_seen": 7
+   },
+   {
+    "platform": "ashby",
+    "slug": "texture",
+    "confidence": "high",
+    "evidence": "https://www.texturehq.com/careers",
+    "jobs_seen": 7
+   },
+   {
+    "platform": "ashby",
+    "slug": "texture",
+    "confidence": "high",
+    "evidence": "https://www.texturehq.com/careers",
+    "jobs_seen": 7
+   },
+   {
+    "platform": "ashby",
+    "slug": "texture",
+    "confidence": "high",
+    "evidence": "https://www.texturehq.com/careers",
+    "jobs_seen": 7
+   },
+   {
+    "platform": "ashby",
+    "slug": "texture",
+    "confidence": "high",
+    "evidence": "https://www.texturehq.com/careers",
+    "jobs_seen": 7
+   }
+  ]
+ },
+ {
   "company": "Thalassa Robotics",
   "checked": "2026-09-25",
   "candidates": []
@@ -15633,6 +18706,75 @@
   ]
  },
  {
+  "company": "The Lumber Manufactory",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "lumbermanufactory",
+    "confidence": "high",
+    "evidence": "https://www.lumbermanufactory.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "lumbermanufactory",
+    "confidence": "high",
+    "evidence": "https://www.lumbermanufactory.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "lumbermanufactory",
+    "confidence": "high",
+    "evidence": "https://www.lumbermanufactory.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "lumbermanufactory",
+    "confidence": "high",
+    "evidence": "https://www.lumbermanufactory.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "lumbermanufactory",
+    "confidence": "high",
+    "evidence": "https://www.lumbermanufactory.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "lumbermanufactory",
+    "confidence": "high",
+    "evidence": "https://www.lumbermanufactory.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "lumbermanufactory",
+    "confidence": "high",
+    "evidence": "https://www.lumbermanufactory.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "lumbermanufactory",
+    "confidence": "high",
+    "evidence": "https://www.lumbermanufactory.com/careers",
+    "jobs_seen": 8
+   },
+   {
+    "platform": "ashby",
+    "slug": "lumbermanufactory",
+    "confidence": "high",
+    "evidence": "https://www.lumbermanufactory.com/careers",
+    "jobs_seen": 8
+   }
+  ]
+ },
+ {
   "company": "The Red Metal Company",
   "checked": "2026-09-25",
   "candidates": [
@@ -15644,6 +18786,11 @@
     "jobs_seen": 4
    }
   ]
+ },
+ {
+  "company": "The Spaceport Company",
+  "checked": "2026-09-26",
+  "candidates": []
  },
  {
   "company": "The ePlane Company",
@@ -15835,6 +18982,11 @@
   "candidates": []
  },
  {
+  "company": "Toka",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Tomorrow.io",
   "checked": "2026-09-26",
   "candidates": [
@@ -15930,6 +19082,26 @@
     "confidence": "high",
     "evidence": "https://www.turbineone.com/company/careers",
     "jobs_seen": 11
+   }
+  ]
+ },
+ {
+  "company": "Tutor Intelligence",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "lever",
+    "slug": "tutorintelligence",
+    "confidence": "high",
+    "evidence": "https://tutorintelligence.com/careers",
+    "jobs_seen": 50
+   },
+   {
+    "platform": "lever",
+    "slug": "tutorintelligence",
+    "confidence": "high",
+    "evidence": "https://tutorintelligence.com/careers",
+    "jobs_seen": 50
    }
   ]
  },
@@ -16353,6 +19525,26 @@
   ]
  },
  {
+  "company": "Unlimited Industries",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "unlimitedindustries",
+    "confidence": "high",
+    "evidence": "https://www.unlimitedindustries.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "unlimitedindustries",
+    "confidence": "high",
+    "evidence": "https://www.unlimitedindustries.com/careers",
+    "jobs_seen": 6
+   }
+  ]
+ },
+ {
   "company": "Unseenlabs",
   "checked": "2026-09-25",
   "candidates": []
@@ -16406,6 +19598,31 @@
   "company": "Uplift360",
   "checked": "2026-09-25",
   "candidates": []
+ },
+ {
+  "company": "Uptool",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Urban Sky",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "rippling",
+    "slug": "urban-sky",
+    "confidence": "high",
+    "evidence": "https://urbansky.com/careers",
+    "jobs_seen": null
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "urbansky",
+    "confidence": "high",
+    "evidence": "https://urbansky.com/careers",
+    "jobs_seen": 2
+   }
+  ]
  },
  {
   "company": "Ursa Space Systems",
@@ -16538,6 +19755,16 @@
   ]
  },
  {
+  "company": "VICTUS Technologies",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "VVater",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Valinor Enterprises",
   "checked": "2026-09-25",
   "candidates": [
@@ -16586,6 +19813,19 @@
   ]
  },
  {
+  "company": "Valstad",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "valstad",
+    "confidence": "high",
+    "evidence": "https://jobs.ashbyhq.com/valstad/8055a89f-c9e2-4e83-b17b-effd60744303",
+    "jobs_seen": 10
+   }
+  ]
+ },
+ {
   "company": "Valthos",
   "checked": "2026-09-25",
   "candidates": [
@@ -16602,6 +19842,19 @@
     "confidence": "high",
     "evidence": "https://valthos.com",
     "jobs_seen": 8
+   }
+  ]
+ },
+ {
+  "company": "Vantage Robotics",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "vantage",
+    "confidence": "high",
+    "evidence": "https://jobs.ashbyhq.com/vantage/f734c23c-fbaf-4c90-81ab-068349b2bea8",
+    "jobs_seen": 5
    }
   ]
  },
@@ -16714,6 +19967,24 @@
   "candidates": []
  },
  {
+  "company": "Verne",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "Verse",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "verse",
+    "confidence": "high",
+    "evidence": "https://job-boards.greenhouse.io/verse/jobs/5409747008",
+    "jobs_seen": 6
+   }
+  ]
+ },
+ {
   "company": "Vertical Semiconductor",
   "checked": "2026-09-25",
   "candidates": [
@@ -16748,6 +20019,26 @@
   ]
  },
  {
+  "company": "Viam",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "viamrobotics",
+    "confidence": "high",
+    "evidence": "https://www.viam.com/careers",
+    "jobs_seen": 9
+   },
+   {
+    "platform": "greenhouse",
+    "slug": "viamrobotics",
+    "confidence": "high",
+    "evidence": "https://www.viam.com/careers",
+    "jobs_seen": 9
+   }
+  ]
+ },
+ {
   "company": "Vight",
   "checked": "2026-09-25",
   "candidates": []
@@ -16758,8 +20049,236 @@
   "candidates": []
  },
  {
+  "company": "Vinci",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   },
+   {
+    "platform": "ashby",
+    "slug": "vinci",
+    "confidence": "high",
+    "evidence": "https://getvinci.ai/careers",
+    "jobs_seen": 31
+   }
+  ]
+ },
+ {
   "company": "Viridian Space",
   "checked": "2026-09-25",
+  "candidates": []
+ },
+ {
+  "company": "Virtus Solis",
+  "checked": "2026-09-26",
   "candidates": []
  },
  {
@@ -16776,9 +20295,27 @@
   ]
  },
  {
+  "company": "Voltra",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Volund Manufacturing",
   "checked": "2026-09-26",
   "candidates": []
+ },
+ {
+  "company": "Voxel Energy",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "voxel",
+    "confidence": "high",
+    "evidence": "https://jobs.ashbyhq.com/voxel/7807a76c-d3b6-40f8-a999-c8433e6c0b9e",
+    "jobs_seen": 9
+   }
+  ]
  },
  {
   "company": "Voya Energy",
@@ -17644,6 +21181,11 @@
   ]
  },
  {
+  "company": "Wetstone",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "Wiliot",
   "checked": "2026-09-25",
   "candidates": []
@@ -17667,12 +21209,505 @@
   ]
  },
  {
+  "company": "Wraithwatch",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   },
+   {
+    "platform": "ashby",
+    "slug": "wraithwatch",
+    "confidence": "high",
+    "evidence": "https://wraithwatch.com/careers",
+    "jobs_seen": 6
+   }
+  ]
+ },
+ {
   "company": "Wyvern",
   "checked": "2026-09-25",
   "candidates": []
  },
  {
   "company": "X-Bow Systems",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
+  "company": "XDOF",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   },
+   {
+    "platform": "ashby",
+    "slug": "xdof",
+    "confidence": "high",
+    "evidence": "https://www.xdof.ai/careers",
+    "jobs_seen": 21
+   }
+  ]
+ },
+ {
+  "company": "XENOPS",
   "checked": "2026-09-26",
   "candidates": []
  },
@@ -19816,6 +23851,19 @@
   "candidates": []
  },
  {
+  "company": "Zoo",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "greenhouse",
+    "slug": "zoo",
+    "confidence": "high",
+    "evidence": "https://zoo.dev/jobs/4656033005?gh_jid=4656033005",
+    "jobs_seen": 10
+   }
+  ]
+ },
+ {
   "company": "constellr",
   "checked": "2026-09-26",
   "candidates": []
@@ -19899,8 +23947,33 @@
   ]
  },
  {
+  "company": "nTop",
+  "checked": "2026-09-26",
+  "candidates": []
+ },
+ {
   "company": "planqc",
   "checked": "2026-09-25",
   "candidates": []
+ },
+ {
+  "company": "zeroRISC",
+  "checked": "2026-09-26",
+  "candidates": [
+   {
+    "platform": "lever",
+    "slug": "zerorisc",
+    "confidence": "high",
+    "evidence": "https://www.zerorisc.com/careers",
+    "jobs_seen": 5
+   },
+   {
+    "platform": "lever",
+    "slug": "zerorisc",
+    "confidence": "high",
+    "evidence": "https://www.zerorisc.com/careers",
+    "jobs_seen": 5
+   }
+  ]
  }
 ]
