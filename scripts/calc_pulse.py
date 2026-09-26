@@ -1,28 +1,30 @@
 #!/usr/bin/env python3
 """
-The Build-Out Pulse — monthly diffusion index of the private US hard-tech cohort.
+The Build-Out Pulse — monthly diffusion index of the private US hard-tech cohort.  Method v1.1
 ─────────────────────────────────────────────────────────────────────────
 Reads only data the repo already collects and turns it into one number a month.
 
 Components:
-  hiring     open roles per company from the job-board feed (data/jobs_auto.js); month-end
-             snapshots reconstructed from git history for the backfill; constant panel;
-             diffusion = 50 + (share up − share down) × 50, up/down = ±10% or ±3 roles.
-             Also: the atoms/bits ratio (manufacturing-type vs software-type titles), the
-             roles-by-state split, and the "factory coming" flag (a senior manufacturing,
-             plant or facilities hire posted this month).
-  capital    one dated capital event per company-month, merged from the deals feed, Form D,
-             the VC portfolio watcher's first-funded dates, and company announcements.
-             Covered panel: positive = event in trailing 3 months, negative = none in 12.
-  contracts  new federal awards (USAspending/SAM), same rules on the covered panel.
+  hiring     open roles per company from the job-board feed (data/jobs_auto.js); month-end snapshots
+             reconstructed from git history for the backfill; constant panel; diffusion = 50 +
+             (share up − share down) × 50, up/down = ±10% or ±3 roles; a bootstrap 90% interval on
+             the diffusion; the breadth split (share up / flat / down); the atoms/bits ratio
+             (manufacturing + hardware-engineering titles ÷ software titles, taxonomy v1.1); roles by
+             state; the "factory coming" flag (a senior manufacturing / plant / facilities hire).
+  guard      a company whose count collapses ≥85% from ≥20 roles (or jumps the reverse way from ≤3)
+             is treated as a board change, not a contraction: excluded from that month's panel and
+             listed in board_checks_<m>.json for a human to confirm.
+  capital    one dated event per company-month merged from the deals feed, Form D, the VC portfolio
+             watcher's first-funded dates and company announcements; covered panel breadth.
+  contracts  new federal awards (USAspending/SAM); covered panel breadth.
   milestones data/pulse/milestones.json — confirmed Ladder rung changes (manual).
   footprint  data/pulse/footprint.json — confirmed facility events (manual).
              Unconfirmed extractions go to data/pulse/review_queue.json and never count.
 
 Universe: private (no ticker), status active, sectors inside the build-out.
-Outputs (data/pulse/): pulse_history.csv, pulse_buckets.csv, movers_<m>.json,
-  company_scores_<m>.json, states_<m>.json, snapshots/<m>.json, first_prints.json,
-  review_queue.json, validation.md, pulse_latest.json; plus data/pulse_auto.js for the page.
+Outputs (data/pulse/): pulse_history.csv, pulse_buckets.csv, movers_<m>.json, company_scores_<m>.json,
+  states_<m>.json, board_checks_<m>.json, composition_<m>.json, snapshots/<m>.json, first_prints.json,
+  revisions.json, review_queue.json, validation.md, pulse_latest.json; plus data/pulse_auto.js.
 
 Usage:
   python3 scripts/calc_pulse.py                 # backfill from git + nowcast for the current month
@@ -31,6 +33,7 @@ Usage:
 import csv
 import json
 import os
+import random
 import re
 import subprocess
 import sys
@@ -40,14 +43,20 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from pulse_taxonomy import classify, is_senior_manufacturing, TAXONOMY_VERSION  # noqa: E402
+
 DATA = ROOT / "data"
 OUT = DATA / "pulse"
 SNAP = OUT / "snapshots"
 OUT.mkdir(exist_ok=True)
 SNAP.mkdir(exist_ok=True)
 
+METHOD_VERSION = "1.1"
 UP_PCT, UP_ABS = 0.10, 3          # published thresholds — never tuned to make a month look better
 STALE_DAYS = 365                  # postings older than this are treated as ghosts
+COLLAPSE_FROM, COLLAPSE_TO = 20, 3   # ≥20 → ≤3 (or the reverse) is a board change until confirmed
+BOOTSTRAP_N = 2000
 WEIGHTS = {"hiring": 30, "capital": 20, "contracts": 20, "milestones": 20, "footprint": 10}
 START_MONTH = "2026-04"           # first month with a clean prior snapshot
 MIN_BUCKET = 20
@@ -74,10 +83,6 @@ ROBOTICS_SUBS = ("Humanoids", "Robot Foundation Models", "Industrial Automation"
                  "Warehouse & Logistics Robotics", "Food & Agriculture Robotics")
 MINERALS_SUB = "Critical Minerals & Mining"
 
-MFG = re.compile(r"technician|machinist|welder|weld|manufactur|production|assembl|fabricat|\bcnc\b|electrician|plant|operator|quality|supply chain|procurement|\btest\b|maintenance|facilit|logistic|tooling|composite|machining|inspector|fitter|rigger|millwright|buyer|planner", re.I)
-SW = re.compile(r"software|frontend|front-end|backend|back-end|full[- ]stack|devops|data scientist|machine learning|\bml\b|\bai\b|platform engineer|infrastructure engineer|security engineer|product manager|designer|data engineer|firmware", re.I)
-SENIOR = re.compile(r"(?:\b(?:vp|vice president|svp|head|director|chief|general manager|gm)\b.*\b(?:manufactur|production|operations|plant|facilit|supply chain|industrial)\b)|plant manager|facilities? (?:manager|lead|director)|site (?:lead|director|manager)|factory (?:lead|manager|director)", re.I)
-
 US_STATES = {
     "AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California", "CO": "Colorado",
     "CT": "Connecticut", "DE": "Delaware", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii", "ID": "Idaho",
@@ -92,6 +97,7 @@ US_STATES = {
 STATE_BY_NAME = {v.lower(): k for k, v in US_STATES.items()}
 MILESTONE_KW = re.compile(r"first (?:unit|customer|commercial|revenue|delivery|flight|launch|shipment)|criticality|went critical|achieved criticality|first light|first article|reached (?:full )?power|delivered (?:the |its )?first|production (?:begins|started|start)|commercial operation|type certificate|nrc (?:approv|permit|licen)|faa (?:approv|certif)", re.I)
 FOOTPRINT_KW = re.compile(r"break(?:s|ing)? ground|groundbreaking|new (?:factory|facility|plant|headquarters|campus)|opens? (?:a |its |new )?(?:factory|facility|plant)|square[- ]f(?:oo|ee)t|sq\.? ?ft|lease[sd]?\b|expansion of|expands? (?:its )?(?:factory|facility|manufacturing)|manufacturing (?:site|facility|plant)", re.I)
+CLASSES = ("manufacturing", "hardware", "software", "commercial", "other")
 
 
 def sh(cmd):
@@ -109,7 +115,7 @@ def load_companies():
     js = ('const fs=require("fs"),vm=require("vm");const s={};vm.createContext(s);'
           'vm.runInContext(fs.readFileSync("data.js","utf8")+";globalThis.__n=COMPANIES.map(c=>({name:c.name,'
           'sector:c.sector||\'\',subsector:c.subsector||\'\',status:c.status||\'\',ticker:c.ticker||\'\','
-          'founded:c.founded||null,state:c.state||\'\',website:c.website||\'\'}));",s);console.log(JSON.stringify(s.__n));')
+          'founded:c.founded||null,state:c.state||\'\',website:c.website||\'\',stage:c.fundingStage||\'\'}));",s);console.log(JSON.stringify(s.__n));')
     raw = subprocess.run(["node", "-e", js], capture_output=True, text=True, cwd=ROOT, check=True).stdout
     out = {}
     for c in json.loads(raw):
@@ -172,9 +178,11 @@ def clean_jobs(jobs, asof):
 
 
 def jobs_counts(jobs, companies):
-    roles, mfg, sw, senior = Counter(), Counter(), Counter(), Counter()
-    states = defaultdict(Counter)          # state -> Counter(company)
-    state_mfg, state_sw = Counter(), Counter()
+    roles = Counter()
+    cls = {k: Counter() for k in CLASSES}
+    senior = Counter()
+    states = defaultdict(Counter)
+    state_atoms, state_sw = Counter(), Counter()
     for j in jobs:
         n = j.get("company")
         c = companies.get(n)
@@ -182,23 +190,20 @@ def jobs_counts(jobs, companies):
             continue
         roles[n] += 1
         t = j.get("title", "") or ""
-        is_mfg = bool(MFG.search(t))
-        is_sw = (not is_mfg) and bool(SW.search(t))
-        if is_mfg:
-            mfg[n] += 1
-        elif is_sw:
-            sw[n] += 1
-        if SENIOR.search(t):
+        k = classify(t)
+        cls[k][n] += 1
+        if is_senior_manufacturing(t):
             senior[n] += 1
         st = parse_state(j.get("location"))
         if st:
             states[st][n] += 1
-            if is_mfg:
-                state_mfg[st] += 1
-            elif is_sw:
+            if k in ("manufacturing", "hardware"):
+                state_atoms[st] += 1
+            elif k == "software":
                 state_sw[st] += 1
-    return {"roles": roles, "mfg": mfg, "sw": sw, "senior": senior,
-            "states": {s: dict(v) for s, v in states.items()}, "state_mfg": state_mfg, "state_sw": state_sw}
+    return {"roles": roles, "mfg": cls["manufacturing"], "hw": cls["hardware"], "sw": cls["software"],
+            "ga": cls["commercial"], "other": cls["other"], "senior": senior,
+            "states": {s: dict(v) for s, v in states.items()}, "state_atoms": state_atoms, "state_sw": state_sw}
 
 
 def month_end_snapshots():
@@ -211,6 +216,13 @@ def month_end_snapshots():
         sha, d = line.split()
         snap.setdefault(d[:7], (sha, d))   # newest-first ⇒ first seen is the month's last commit
     return snap
+
+
+def snapshot_from_file(d):
+    return {"roles": Counter(d["roles"]), "mfg": Counter(d.get("mfg", {})), "hw": Counter(d.get("hw", {})),
+            "sw": Counter(d.get("sw", {})), "ga": Counter(d.get("ga", {})), "other": Counter(d.get("other", {})),
+            "senior": Counter(d.get("senior", {})), "states": d.get("states", {}),
+            "state_atoms": Counter(d.get("state_atoms", {})), "state_sw": Counter(d.get("state_sw", {}))}
 
 
 # ─── capital & contracts ─────────────────────────────────────────────────
@@ -240,7 +252,6 @@ def capital_events(companies):
                         ev[n].add(m); src["form_d"] += 1
             except Exception:
                 pass
-    # VC portfolio watcher: first-funded dates, matched by domain then exact name
     p = DATA / "vc_portfolio_snapshots.json"
     if p.exists():
         try:
@@ -258,7 +269,6 @@ def capital_events(companies):
                         ev[n].add(m); src["vc_first_funded"] += 1
         except Exception:
             pass
-    # company announcements with a round and a date
     p = DATA / "company_announcements_auto.json"
     if p.exists():
         try:
@@ -349,6 +359,28 @@ def recency_points(events, n, month, scale):
     return scale if gap < 3 else (scale * 0.6 if gap < 6 else (scale * 0.2 if gap < 12 else 0))
 
 
+def direction(a, b):
+    if b - a >= UP_ABS or (a and (b - a) / a >= UP_PCT):
+        return 1
+    if a - b >= UP_ABS or (a and (a - b) / a >= UP_PCT):
+        return -1
+    return 0
+
+
+def bootstrap_ci(dirs, n_iter=BOOTSTRAP_N, seed=20260926):
+    """90% bootstrap interval on the diffusion from the list of per-company directions (+1/0/-1)."""
+    if not dirs:
+        return None, None
+    rng = random.Random(seed)
+    n = len(dirs)
+    vals = []
+    for _ in range(n_iter):
+        s = sum(rng.choice(dirs) for _ in range(n))
+        vals.append(50 + s / n * 50)
+    vals.sort()
+    return round(vals[int(0.05 * n_iter)], 1), round(vals[int(0.95 * n_iter) - 1], 1)
+
+
 # ─── review queue: extraction that never counts until a human confirms ───
 
 def build_review_queue(companies):
@@ -390,7 +422,6 @@ def build_review_queue(companies):
                                       "source": it.get("link", ""), "snippet": text[max(0, m.start() - 120): m.end() + 120]})
         except Exception:
             pass
-    # dedupe
     seen, out = set(), []
     for x in q:
         k = (x["company"], x["type"], x["source"])
@@ -409,7 +440,6 @@ def main():
     today = date.today().isoformat()
     cur_month = today[:7]
 
-    # hiring snapshots
     snaps, snap_dates = {}, {}
     if backfill:
         for m, (sha, d) in sorted(month_end_snapshots().items()):
@@ -420,10 +450,7 @@ def main():
     else:
         for p in sorted(SNAP.glob("*.json")):
             d = json.load(open(p))
-            snaps[p.stem] = {"roles": Counter(d["roles"]), "mfg": Counter(d["mfg"]), "sw": Counter(d["sw"]),
-                             "senior": Counter(d.get("senior", {})), "states": d.get("states", {}),
-                             "state_mfg": Counter(d.get("state_mfg", {})), "state_sw": Counter(d.get("state_sw", {}))}
-            snap_dates[p.stem] = d.get("asof", "")
+            snaps[p.stem] = snapshot_from_file(d); snap_dates[p.stem] = d.get("asof", "")
     jobs_now = clean_jobs(parse_jobs_js(open(DATA / "jobs_auto.js", encoding="utf-8").read()), today)
     snaps[cur_month] = jobs_counts(jobs_now, companies); snap_dates[cur_month] = today
 
@@ -431,40 +458,65 @@ def main():
     con = contract_events(companies)
     mil = manual_events("milestones.json")
     foot = manual_events("footprint.json")
+    confirmed_checks = set()
+    p = OUT / "board_checks_confirmed.json"
+    if p.exists():
+        for r in json.load(open(p)):
+            confirmed_checks.add((r.get("company"), r.get("month")))
 
     first_prints = json.load(open(OUT / "first_prints.json")) if (OUT / "first_prints.json").exists() else {}
+    revisions = json.load(open(OUT / "revisions.json")) if (OUT / "revisions.json").exists() else []
 
     hist_rows, bucket_rows = [], []
     prev = None
     for m in sorted(snaps):
         s = snaps[m]
-        json.dump({"month": m, "asof": snap_dates.get(m, ""), "roles": s["roles"], "mfg": s["mfg"], "sw": s["sw"],
-                   "senior": s["senior"], "states": s["states"], "state_mfg": s["state_mfg"], "state_sw": s["state_sw"],
-                   "generated": today}, open(SNAP / f"{m}.json", "w"))
+        json.dump({"month": m, "asof": snap_dates.get(m, ""), "roles": s["roles"], "mfg": s["mfg"], "hw": s["hw"], "sw": s["sw"],
+                   "ga": s["ga"], "other": s["other"], "senior": s["senior"], "states": s["states"],
+                   "state_atoms": s["state_atoms"], "state_sw": s["state_sw"], "generated": today,
+                   "taxonomy": TAXONOMY_VERSION}, open(SNAP / f"{m}.json", "w"))
         if prev is None or m < START_MONTH:
             prev = m
             continue
         roles, p_roles = s["roles"], snaps[prev]["roles"]
-        panel = [n for n in roles if n in p_roles]
-        up = down = 0
+        # board-change guard
+        board_checks = []
+        panel = []
+        for n in roles:
+            if n not in p_roles:
+                continue
+            a, b = p_roles[n], roles[n]
+            if (a >= COLLAPSE_FROM and b <= COLLAPSE_TO) or (a <= COLLAPSE_TO and b >= COLLAPSE_FROM):
+                if (n, m) not in confirmed_checks:
+                    board_checks.append({"company": n, "month": m, "roles_prev": a, "roles_now": b,
+                                         "reason": "collapse" if b < a else "jump", "status": "unconfirmed — excluded from panel"})
+                    continue
+            panel.append(n)
+        up = down = flat = 0
         tot_now = tot_prev = 0
-        by_bucket = defaultdict(lambda: {"panel": 0, "up": 0, "down": 0, "roles": 0, "mfg": 0, "sw": 0, "senior": 0})
+        dirs = []
+        by_bucket = defaultdict(lambda: {"panel": 0, "up": 0, "down": 0, "roles": 0, "mfg": 0, "hw": 0, "sw": 0, "ga": 0, "senior": 0})
         movers, changes = [], {}
         for n in panel:
             a, b = p_roles[n], roles[n]
             tot_prev += a; tot_now += b
             bk = companies[n]["bucket"]
-            bb = by_bucket[bk]; bb["panel"] += 1; bb["roles"] += b; bb["mfg"] += s["mfg"][n]; bb["sw"] += s["sw"][n]; bb["senior"] += s["senior"][n]
-            if b - a >= UP_ABS or (a and (b - a) / a >= UP_PCT):
+            bb = by_bucket[bk]; bb["panel"] += 1; bb["roles"] += b
+            bb["mfg"] += s["mfg"][n]; bb["hw"] += s["hw"][n]; bb["sw"] += s["sw"][n]; bb["ga"] += s["ga"][n]; bb["senior"] += s["senior"][n]
+            d = direction(a, b); dirs.append(d)
+            if d > 0:
                 up += 1; bb["up"] += 1
-            elif a - b >= UP_ABS or (a and (a - b) / a >= UP_PCT):
+            elif d < 0:
                 down += 1; bb["down"] += 1
+            else:
+                flat += 1
             changes[n] = (b - a) / a if a else (1.0 if b else 0.0)
             if a >= 5:
                 movers.append({"company": n, "bucket": bk, "roles_prev": a, "roles_now": b,
                                "change": b - a, "change_pct": round(100 * (b - a) / a, 1)})
         n_panel = len(panel)
         h_diff = 50 + (up - down) / n_panel * 50 if n_panel else None
+        ci_lo, ci_hi = bootstrap_ci(dirs)
         c_diff, c_panel, c_ev = event_diffusion(cap, companies, m)
         k_diff, k_panel, k_ev = event_diffusion(con, companies, m)
         m_diff, m_n = manual_diffusion(mil, companies, m, n_universe)
@@ -477,23 +529,25 @@ def main():
         wsum = sum(WEIGHTS[k] for k in live)
         composite = sum(WEIGHTS[k] * v for k, v in live.items()) / wsum if wsum else None
 
-        # factory-coming flags: senior manufacturing/plant/facilities roles newly posted this month
         prev_senior = snaps[prev]["senior"]
         factory_flags = sorted([n for n in panel if s["senior"][n] > prev_senior.get(n, 0)])
 
-        # states (roles by state on the panel)
         state_tot = Counter()
         for st, per in s["states"].items():
             state_tot[st] += sum(v for n, v in per.items() if n in roles)
-        states_out = [{"state": st, "roles": v, "mfg": s["state_mfg"].get(st, 0), "sw": s["state_sw"].get(st, 0)}
+        states_out = [{"state": st, "roles": v, "atoms": s["state_atoms"].get(st, 0), "sw": s["state_sw"].get(st, 0)}
                       for st, v in state_tot.most_common(15)]
 
-        # company scores 0–100
+        # composition of the panel
+        comp = {"by_bucket": {b: bb["panel"] for b, bb in by_bucket.items()},
+                "by_stage": dict(Counter(companies[n].get("stage") or "unknown" for n in panel).most_common()),
+                "by_founded": dict(Counter(str(companies[n].get("founded") or "unknown")[:4] for n in panel).most_common(12)),
+                "by_state": dict(Counter(companies[n].get("state") or "unknown" for n in panel).most_common(10))}
+
         ranked = sorted(changes.items(), key=lambda kv: kv[1])
         pct = {n: (i + 0.5) / len(ranked) for i, (n, _) in enumerate(ranked)} if ranked else {}
         scores = []
         for n in universe:
-            # hiring momentum only counts when we can observe it; off-panel companies score on the other signals
             sc = 40 * pct.get(n, 0.0) + recency_points(cap, n, m, 25) + recency_points(con, n, m, 20)
             sc += 15 if any(mm == m for mm, _ in mil.get(n, [])) else 0
             scores.append({"company": n, "bucket": companies[n]["bucket"], "score": round(sc, 1),
@@ -501,19 +555,30 @@ def main():
                            "last_capital": (cap.get(n) or [None])[-1], "last_contract": (con.get(n) or [None])[-1]})
         scores.sort(key=lambda x: (-x["score"], -x["roles"]))
 
-        mfg_tot = sum(s["mfg"][n] for n in panel); sw_tot = sum(s["sw"][n] for n in panel)
+        mfg_tot = sum(s["mfg"][n] for n in panel); hw_tot = sum(s["hw"][n] for n in panel)
+        sw_tot = sum(s["sw"][n] for n in panel); ga_tot = sum(s["ga"][n] for n in panel)
+        atoms = mfg_tot + hw_tot
         fp = first_prints.setdefault(m, {})
         if "hiring_diffusion" not in fp and h_diff is not None and m != cur_month:
-            fp["hiring_diffusion"] = round(h_diff, 1); fp["printed"] = today
+            fp["hiring_diffusion"] = round(h_diff, 1); fp["printed"] = today; fp["method"] = METHOD_VERSION
+        elif h_diff is not None and m != cur_month and abs(fp.get("hiring_diffusion", h_diff) - h_diff) > 0.05:
+            key = f"{m}:{round(h_diff,1)}"
+            if not any(r.get("key") == key for r in revisions):
+                revisions.append({"key": key, "month": m, "first_print": fp.get("hiring_diffusion"), "revised": round(h_diff, 1),
+                                  "on": today, "method": METHOD_VERSION, "reason": "feed refresh / method version"})
         row = {
-            "month": m, "is_nowcast": m == cur_month, "asof": snap_dates.get(m, ""),
-            "hiring_panel": n_panel, "hiring_up": up, "hiring_down": down,
+            "month": m, "is_nowcast": m == cur_month, "asof": snap_dates.get(m, ""), "method": METHOD_VERSION,
+            "hiring_panel": n_panel, "hiring_up": up, "hiring_flat": flat, "hiring_down": down,
+            "share_up_pct": round(100 * up / n_panel, 1) if n_panel else "", "share_down_pct": round(100 * down / n_panel, 1) if n_panel else "",
             "hiring_diffusion": round(h_diff, 1) if h_diff is not None else "",
+            "hiring_ci_lo": ci_lo if ci_lo is not None else "", "hiring_ci_hi": ci_hi if ci_hi is not None else "",
             "hiring_diffusion_first_print": fp.get("hiring_diffusion", ""),
+            "board_checks": len(board_checks),
             "open_roles": tot_now, "open_roles_prev": tot_prev,
             "roles_mom_pct": round(100 * (tot_now / tot_prev - 1), 1) if tot_prev else "",
-            "mfg_roles": mfg_tot, "sw_roles": sw_tot,
-            "atoms_bits_ratio": round(mfg_tot / sw_tot, 2) if sw_tot else "",
+            "manufacturing_roles": mfg_tot, "hardware_roles": hw_tot, "software_roles": sw_tot, "commercial_roles": ga_tot,
+            "mfg_roles": atoms, "sw_roles": sw_tot,
+            "atoms_bits_ratio": round(atoms / sw_tot, 2) if sw_tot else "",
             "factory_flags": len(factory_flags),
             "capital_diffusion_covered": round(c_diff, 1) if c_diff is not None else "", "capital_panel": c_panel,
             "capital_events_3m": c_ev, "capital_rate_per100_3m": round(cap_rate, 2),
@@ -528,20 +593,25 @@ def main():
         hist_rows.append(row)
         for bk, bb in sorted(by_bucket.items()):
             d = 50 + (bb["up"] - bb["down"]) / bb["panel"] * 50 if bb["panel"] else None
+            at = bb["mfg"] + bb["hw"]
             bucket_rows.append({"month": m, "bucket": bk, "panel": bb["panel"], "up": bb["up"], "down": bb["down"],
                                 "hiring_diffusion": round(d, 1) if d is not None else "", "open_roles": bb["roles"],
-                                "mfg_roles": bb["mfg"], "sw_roles": bb["sw"], "senior_roles": bb["senior"],
+                                "mfg_roles": at, "sw_roles": bb["sw"], "manufacturing_roles": bb["mfg"], "hardware_roles": bb["hw"],
+                                "commercial_roles": bb["ga"], "senior_roles": bb["senior"],
+                                "atoms_bits": round(at / bb["sw"], 2) if bb["sw"] else "",
                                 "sufficient": bb["panel"] >= MIN_BUCKET})
         movers.sort(key=lambda x: -x["change_pct"])
         json.dump({"month": m, "up": movers[:10], "down": sorted(movers, key=lambda x: x["change_pct"])[:5],
                    "factory_flags": factory_flags}, open(OUT / f"movers_{m}.json", "w"), indent=1)
         json.dump({"month": m, "top": scores[:50]}, open(OUT / f"company_scores_{m}.json", "w"), indent=1)
         json.dump({"month": m, "states": states_out}, open(OUT / f"states_{m}.json", "w"), indent=1)
+        json.dump(board_checks, open(OUT / f"board_checks_{m}.json", "w"), indent=1)
+        json.dump({"month": m, **comp}, open(OUT / f"composition_{m}.json", "w"), indent=1)
         prev = m
 
     json.dump(first_prints, open(OUT / "first_prints.json", "w"), indent=1)
+    json.dump(revisions, open(OUT / "revisions.json", "w"), indent=1)
 
-    # mortality from liveness + status
     dead_status = sum(1 for c in companies.values() if c["status"] in ("dead", "zombie", "acquired"))
     conf_dead = susp = checked = 0
     p = DATA / "liveness_report.json"
@@ -570,45 +640,49 @@ def main():
     movers_latest = json.load(open(OUT / f"movers_{lm}.json"))
     scores_latest = json.load(open(OUT / f"company_scores_{lm}.json"))["top"][:25]
     states_latest = json.load(open(OUT / f"states_{lm}.json"))["states"]
+    checks_latest = json.load(open(OUT / f"board_checks_{lm}.json"))
+    comp_latest = json.load(open(OUT / f"composition_{lm}.json"))
     boards = 0
     p = OUT / "job_boards_discovered.json"
     if p.exists():
         boards = sum(1 for r in json.load(open(p)) if any(c.get("confidence") == "high" for c in r.get("candidates", [])))
-    payload = {"generated": today, "universe": n_universe, "companies_total": len(companies),
-               "thresholds": {"up_pct": UP_PCT, "up_abs": UP_ABS, "stale_days": STALE_DAYS, "min_bucket": MIN_BUCKET},
+    with_board = len([n for n in snaps[lm]["roles"]])
+    payload = {"generated": today, "method_version": METHOD_VERSION, "taxonomy_version": TAXONOMY_VERSION,
+               "universe": n_universe, "companies_total": len(companies), "companies_with_board": with_board,
+               "thresholds": {"up_pct": UP_PCT, "up_abs": UP_ABS, "stale_days": STALE_DAYS, "min_bucket": MIN_BUCKET,
+                              "collapse_from": COLLAPSE_FROM, "collapse_to": COLLAPSE_TO, "bootstrap_n": BOOTSTRAP_N},
                "weights": WEIGHTS, "latest": latest, "latest_buckets": latest_buckets, "history": hist_rows,
                "buckets": bucket_rows, "movers": movers_latest, "scores": scores_latest, "states": states_latest,
+               "board_checks": checks_latest, "composition": comp_latest, "revisions": revisions,
                "mortality": mortality, "capital_sources": cap_sources, "review_queue_size": len(review),
                "discovered_boards_high": boards}
     json.dump(payload, open(OUT / "pulse_latest.json", "w"), indent=1)
     with open(DATA / "pulse_auto.js", "w") as f:
         f.write("// Auto-generated by scripts/calc_pulse.py — The Build-Out Pulse\n")
-        f.write(f"// Generated: {today}\n")
+        f.write(f"// Generated: {today} · method v{METHOD_VERSION} · taxonomy v{TAXONOMY_VERSION}\n")
         f.write("const PULSE_DATA = " + json.dumps(payload) + ";\n")
 
-    # validation note
     nuc = [r for r in bucket_rows if r["bucket"] == "Nuclear"]
     with open(OUT / "validation.md", "w") as f:
-        f.write(f"# Pulse validation — generated {today}\n\n")
+        f.write(f"# Pulse validation — generated {today} (method v{METHOD_VERSION}, taxonomy v{TAXONOMY_VERSION})\n\n")
         f.write("Known events to reproduce: Valar critical 18 Jun 2026; Antares critical at INL Jul 2026; Oklo Groves 5 Aug 2026 (public co., outside panel).\n\n")
-        f.write("| month | nuclear panel | diffusion | roles | mfg | sw | senior |\n|---|---|---|---|---|---|---|\n")
+        f.write("| month | nuclear panel | diffusion | roles | atoms | sw | senior |\n|---|---|---|---|---|---|---|\n")
         for r in nuc:
             f.write(f"| {r['month']} | {r['panel']} | {r['hiring_diffusion']} | {r['open_roles']} | {r['mfg_roles']} | {r['sw_roles']} | {r['senior_roles']} |\n")
-        f.write(f"\nCapital sources merged: {cap_sources}\nMortality: {mortality}\nReview queue size: {len(review)}\n")
+        f.write(f"\nCapital sources merged: {cap_sources}\nMortality: {mortality}\nReview queue size: {len(review)}\nBoard checks (latest): {len(checks_latest)}\nRevisions logged: {len(revisions)}\n")
 
-    print(f"universe: {n_universe} private, active, in-lane companies of {len(companies)}; capital sources {cap_sources}")
-    print("month     nowcast panel  up  down  hiring  first  roles   mom%   mfg   sw  a/b  flags  cap_diff(n)  con_diff(n)  v0")
+    print(f"method v{METHOD_VERSION} · taxonomy v{TAXONOMY_VERSION} · universe {n_universe} of {len(companies)} · with board this month {with_board} · capital sources {cap_sources}")
+    print("month     nowcast panel  up flat down  diff   CI90        roles   mom%  mfg   hw   sw   ga  a/b  flags chk  cap(n)      con(n)     v0")
     for r in hist_rows:
-        print(f"{r['month']}   {'*' if r['is_nowcast'] else ' '}     {r['hiring_panel']:4d} {r['hiring_up']:3d}  {r['hiring_down']:3d}   "
-              f"{r['hiring_diffusion']:>5}  {str(r['hiring_diffusion_first_print']):>5}  {r['open_roles']:5d}  {str(r['roles_mom_pct']):>5}  {r['mfg_roles']:4d} {r['sw_roles']:4d}  {str(r['atoms_bits_ratio']):>4}  {r['factory_flags']:4d}   "
-              f"{str(r['capital_diffusion_covered']):>5}({r['capital_panel']:3d})   {str(r['contracts_diffusion_covered']):>5}({r['contracts_panel']:3d})  {r['pulse_v0_composite']}")
+        print(f"{r['month']}   {'*' if r['is_nowcast'] else ' '}     {r['hiring_panel']:4d} {r['hiring_up']:3d} {r['hiring_flat']:4d} {r['hiring_down']:4d}  {r['hiring_diffusion']:>5}  {r['hiring_ci_lo']!s:>5}–{r['hiring_ci_hi']!s:<5}  {r['open_roles']:5d}  {str(r['roles_mom_pct']):>5}  {r['manufacturing_roles']:4d} {r['hardware_roles']:4d} {r['software_roles']:4d} {r['commercial_roles']:4d}  {str(r['atoms_bits_ratio']):>4}  {r['factory_flags']:4d} {r['board_checks']:3d}  {str(r['capital_diffusion_covered']):>5}({r['capital_panel']:3d})  {str(r['contracts_diffusion_covered']):>5}({r['contracts_panel']:3d})  {r['pulse_v0_composite']}")
     print("\nlatest buckets:")
     for b in latest_buckets:
-        print(f"  {b['bucket']:26s} panel={b['panel']:3d} diff={b['hiring_diffusion']!s:>5} roles={b['open_roles']:5d} senior={b['senior_roles']:3d} {'' if b['sufficient'] else '(insufficient)'}")
-    print("\ntop states:", ", ".join(f"{s['state']} {s['roles']}" for s in states_latest[:8]))
+        print(f"  {b['bucket']:26s} panel={b['panel']:3d} diff={b['hiring_diffusion']!s:>5} roles={b['open_roles']:5d} a/b={b['atoms_bits']!s:>5} senior={b['senior_roles']:3d} {'' if b['sufficient'] else '(insufficient)'}")
+    print("\nboard checks:", [(c["company"], c["roles_prev"], c["roles_now"]) for c in checks_latest])
+    print("composition by stage:", comp_latest["by_stage"])
+    print("top states:", ", ".join(f"{s['state']} {s['roles']}" for s in states_latest[:8]))
     print("factory flags:", movers_latest["factory_flags"][:12])
-    print("mortality:", mortality)
-    print("review queue:", len(review), "items; discovered high-confidence boards:", boards)
+    print("mortality:", mortality, "| review queue:", len(review), "| discovered boards:", boards, "| revisions:", len(revisions))
 
 
 if __name__ == "__main__":

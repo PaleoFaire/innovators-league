@@ -102,7 +102,8 @@ def main():
             if len(on_panel) < 5:
                 continue
             d, up, down, n = diffusion([(roles_prev[x], roles_now[x]) for x in on_panel])
-            mfg = sum(snaps[cur]["mfg"].get(x, 0) for x in on_panel); sw = sum(snaps[cur]["sw"].get(x, 0) for x in on_panel)
+            # atoms = manufacturing + hardware-engineering titles (taxonomy v1.1)
+            mfg = sum(snaps[cur]["mfg"].get(x, 0) + snaps[cur].get("hw", {}).get(x, 0) for x in on_panel); sw = sum(snaps[cur]["sw"].get(x, 0) for x in on_panel)
             raised_3m = sum(1 for x in matched if last_cap(x) and months_between(last_cap(x), cur) <= 2)
             funds_out.append({"fund": fund.get("name", key), "key": key, "tracked_in_lane": len(matched), "on_hiring_panel": n,
                               "diffusion": d, "up": up, "down": down,

@@ -56,7 +56,8 @@ def main():
         if not in_universe(c):
             continue
         r = [snaps[m]["roles"].get(n) for m in months]
-        mm = [snaps[m]["mfg"].get(n, 0) if snaps[m]["roles"].get(n) is not None else None for m in months]
+        # "m" = atoms (manufacturing + hardware engineering titles), "s" = software titles — taxonomy v1.1
+        mm = [(snaps[m]["mfg"].get(n, 0) + snaps[m].get("hw", {}).get(n, 0)) if snaps[m]["roles"].get(n) is not None else None for m in months]
         ss = [snaps[m]["sw"].get(n, 0) if snaps[m]["roles"].get(n) is not None else None for m in months]
         sr = [snaps[m].get("senior", {}).get(n, 0) if snaps[m]["roles"].get(n) is not None else None for m in months]
         has_board = r[-1] is not None
@@ -75,7 +76,7 @@ def main():
         for n in names:
             now, back = cur_roles.get(n, 0), prev3.get(n)
             g = (now - back) / back * 100 if back else None
-            ab = (snaps[cur]["mfg"].get(n, 0) / snaps[cur]["sw"].get(n, 1)) if snaps[cur]["sw"].get(n, 0) else None
+            ab = ((snaps[cur]["mfg"].get(n, 0) + snaps[cur].get("hw", {}).get(n, 0)) / snaps[cur]["sw"].get(n, 1)) if snaps[cur]["sw"].get(n, 0) else None
             rows.append((n, now, g, ab))
         ranked = sorted(rows, key=lambda x: (-(x[2] if x[2] is not None else -1e9), -x[1]))
         for i, (n, *_r) in enumerate(ranked, 1):

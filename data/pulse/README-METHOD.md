@@ -1,10 +1,10 @@
-# The Build-Out Pulse — method v0 (shadow)
+# The Build-Out Pulse — method v1.1 (shadow)
 
 A monthly diffusion index of the private US hard-tech cohort tracked by The Innovators League. 50 = neutral; above 50 more companies are expanding than contracting.
 
 **Universe.** Private (no ticker), status active, sectors inside the build-out (nuclear, power and grid, defence, space and aerospace, chips and quantum, autonomy and robotics, manufacturing and materials). Biotech, pure software and consumer companies are tracked but excluded from the headline. Dead and acquired companies stay in the history and leave the panel.
 
-**Hiring (live).** Open roles per company from public job boards (Greenhouse, Lever, Ashby, Workable), month-end snapshots. Constant panel: only companies with a count in both the current and the prior month. Up = +10% or +3 roles; down = −10% or −3 roles. Diffusion = 50 + (share up − share down) × 50. Also reported: total open roles on the panel, month-on-month change, and the atoms/bits ratio — manufacturing, technician and production titles divided by software, data and product titles.
+**Hiring (live).** Open roles per company from public job boards (Greenhouse, Lever, Ashby, Workable), month-end snapshots. Constant panel: only companies with a count in both the current and the prior month. Up = +10% or +3 roles; down = −10% or −3 roles. Diffusion = 50 + (share up − share down) × 50. A 90% bootstrap interval (2,000 resamples of the panel) is printed beside the diffusion, with the breadth split (share up / flat / down). Also reported: total open roles on the panel, month-on-month change, and the **atoms/bits ratio — manufacturing plus hardware-engineering titles divided by software titles (taxonomy v1.1, five classes: software, manufacturing, commercial, hardware, other)**. **Board-change guard:** a company whose count collapses from ≥20 roles to ≤3, or jumps the reverse way, is excluded from that month's panel and listed for confirmation — a feed failure is never printed as a layoff.
 
 **Capital (live, covered panel).** Capital events from the deals feed and SEC Form D filings. On the panel of companies with any event on record: positive = an event in the trailing three months; negative = none in the trailing twelve. Also the all-cohort rate of companies with an event in the trailing three months, per 100.
 
@@ -14,7 +14,9 @@ A monthly diffusion index of the private US hard-tech cohort tracked by The Inno
 
 **Composite.** Weights hiring 30, capital 20, contracts 20, milestones 20, footprint 10, renormalised over the components that are live in a given month; `components_live` says which. The official composite starts when milestones are being logged. Until then `pulse_hiring` is the headline and `pulse_v0_composite` is for internal use.
 
-**Revisions.** The current month is a nowcast (`is_nowcast = true`) and is recomputed at month-end; earlier months are recomputed from the same git snapshots and should not change. Any change to a printed month is logged here with the reason.
+**Panel composition** (by bucket, funding stage, founding year, state) is published with every print.
+
+**Revisions.** The current month is a nowcast (`is_nowcast = true`) and is recomputed at month-end; earlier months are recomputed from the same git snapshots and should not change. Any change to a printed month is logged in `revisions.json` with the reason; method changes in `CHANGELOG.md`; the studies are pre-registered in `PREREGISTRATION.md`.
 
 **Buckets.** A bucket is marked `sufficient` only with a panel of 20 or more.
 

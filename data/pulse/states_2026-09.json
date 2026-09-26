@@ -4,92 +4,92 @@
   {
    "state": "CA",
    "roles": 2840,
-   "mfg": 708,
-   "sw": 468
+   "atoms": 1612,
+   "sw": 539
   },
   {
    "state": "REMOTE",
    "roles": 490,
-   "mfg": 45,
-   "sw": 97
+   "atoms": 156,
+   "sw": 110
   },
   {
    "state": "TX",
    "roles": 318,
-   "mfg": 93,
-   "sw": 37
+   "atoms": 187,
+   "sw": 40
   },
   {
    "state": "CO",
    "roles": 278,
-   "mfg": 70,
-   "sw": 34
+   "atoms": 183,
+   "sw": 35
   },
   {
    "state": "WA",
    "roles": 249,
-   "mfg": 47,
-   "sw": 28
+   "atoms": 119,
+   "sw": 40
   },
   {
    "state": "NY",
    "roles": 187,
-   "mfg": 23,
-   "sw": 50
+   "atoms": 59,
+   "sw": 60
   },
   {
    "state": "MA",
    "roles": 145,
-   "mfg": 24,
-   "sw": 26
+   "atoms": 69,
+   "sw": 27
   },
   {
    "state": "NV",
    "roles": 100,
-   "mfg": 34,
-   "sw": 5
+   "atoms": 69,
+   "sw": 4
   },
   {
    "state": "VA",
    "roles": 76,
-   "mfg": 10,
-   "sw": 18
+   "atoms": 21,
+   "sw": 20
   },
   {
    "state": "PA",
    "roles": 64,
-   "mfg": 13,
+   "atoms": 27,
    "sw": 23
   },
   {
    "state": "SC",
    "roles": 56,
-   "mfg": 14,
-   "sw": 0
+   "atoms": 27,
+   "sw": 1
   },
   {
    "state": "OR",
    "roles": 50,
-   "mfg": 16,
+   "atoms": 30,
    "sw": 1
   },
   {
    "state": "UT",
    "roles": 45,
-   "mfg": 19,
+   "atoms": 29,
    "sw": 2
   },
   {
    "state": "DC",
    "roles": 42,
-   "mfg": 1,
-   "sw": 10
+   "atoms": 3,
+   "sw": 11
   },
   {
    "state": "MD",
    "roles": 40,
-   "mfg": 5,
-   "sw": 4
+   "atoms": 20,
+   "sw": 5
   }
  ]
 }

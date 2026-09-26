@@ -1,0 +1,51 @@
+{
+ "month": "2026-04",
+ "by_bucket": {
+  "Manufacturing & Materials": 5,
+  "Defence": 5,
+  "Autonomy & Robotics": 10,
+  "Chips & Quantum": 4,
+  "Space & Aerospace": 15,
+  "Nuclear": 7,
+  "Power & Grid": 4
+ },
+ "by_stage": {
+  "Series A": 15,
+  "Series B": 10,
+  "Series E": 5,
+  "Series C": 5,
+  "Series D": 5,
+  "Seed": 4,
+  "Series F": 1,
+  "Series G": 1,
+  "Series H": 1,
+  "Private": 1,
+  "Late Stage": 1,
+  "Series A+": 1
+ },
+ "by_founded": {
+  "2018": 8,
+  "2016": 7,
+  "2021": 7,
+  "2023": 5,
+  "2017": 4,
+  "2019": 4,
+  "2015": 4,
+  "2020": 4,
+  "2022": 4,
+  "2014": 2,
+  "2024": 1
+ },
+ "by_state": {
+  "CA": 29,
+  "unknown": 5,
+  "MA": 3,
+  "CO": 3,
+  "WA": 2,
+  "TX": 2,
+  "NV": 1,
+  "OR": 1,
+  "IL": 1,
+  "KY": 1
+ }
+}

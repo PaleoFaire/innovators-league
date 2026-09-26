@@ -84,14 +84,6 @@
  ],
  "down": [
   {
-   "company": "Slingshot Aerospace",
-   "bucket": "Space & Aerospace",
-   "roles_prev": 35,
-   "roles_now": 3,
-   "change": -32,
-   "change_pct": -91.4
-  },
-  {
    "company": "Locus Robotics",
    "bucket": "Autonomy & Robotics",
    "roles_prev": 18,
@@ -122,6 +114,14 @@
    "roles_now": 237,
    "change": -43,
    "change_pct": -15.4
+  },
+  {
+   "company": "Epirus",
+   "bucket": "Defence",
+   "roles_prev": 40,
+   "roles_now": 35,
+   "change": -5,
+   "change_pct": -12.5
   }
  ],
  "factory_flags": [

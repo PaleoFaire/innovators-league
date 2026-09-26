@@ -575,6 +575,68 @@ def try_discover_job_board(company_name):
     return None
 
 
+def fetch_rippling_jobs(company_name, board_slug):
+    """Fetch jobs from the Rippling ATS public board API (no dates exposed)."""
+    url = f"https://api.rippling.com/platform/api/ats/v1/board/{board_slug}/jobs"
+    resp = http_get_with_retry(url)
+    if resp is None or resp.status_code != 200:
+        return []
+    try:
+        data = resp.json()
+    except ValueError:
+        return []
+    if not isinstance(data, list):
+        return []
+    jobs = []
+    for job in data:
+        loc = (job.get("workLocation") or {}).get("label") or "Remote"
+        dept = (job.get("department") or {}).get("label") or "General"
+        jobs.append({
+            "id": f"rp-{board_slug}-{job.get('uuid') or job.get('id')}",
+            "company": company_name,
+            "title": job.get("name", "") or job.get("title", ""),
+            "location": loc,
+            "department": dept,
+            "type": "Full-time",
+            "posted": "",
+            "url": job.get("url", f"https://ats.rippling.com/{board_slug}/jobs"),
+            "remote": "remote" in loc.lower(),
+            "sector": COMPANY_SECTORS.get(company_name, "tech"),
+            "source": "rippling",
+        })
+    return jobs
+
+
+def fetch_bamboohr_jobs(company_name, subdomain):
+    """Fetch jobs from a BambooHR careers page (public JSON list)."""
+    url = f"https://{subdomain}.bamboohr.com/careers/list"
+    resp = http_get_with_retry(url)
+    if resp is None or resp.status_code != 200:
+        return []
+    try:
+        data = resp.json()
+    except ValueError:
+        return []
+    jobs = []
+    for job in (data.get("result") or []):
+        loc_d = job.get("location") or {}
+        loc = ", ".join(x for x in (loc_d.get("city"), loc_d.get("state")) if x) or ("Remote" if job.get("isRemote") else "")
+        jobs.append({
+            "id": f"bh-{subdomain}-{job.get('id')}",
+            "company": company_name,
+            "title": job.get("jobOpeningName", ""),
+            "location": loc,
+            "department": job.get("departmentLabel") or "General",
+            "type": job.get("employmentStatusLabel") or "Full-time",
+            "posted": (job.get("datePosted") or "")[:10],
+            "url": f"https://{subdomain}.bamboohr.com/careers/{job.get('id')}",
+            "remote": bool(job.get("isRemote")) or "remote" in loc.lower(),
+            "sector": COMPANY_SECTORS.get(company_name, "tech"),
+            "source": "bamboohr",
+        })
+    return jobs
+
+
 def fetch_company_jobs(args):
     """Fetch jobs for a single company (used in parallel processing)."""
     platform, company_name, board_id = args
@@ -587,6 +649,10 @@ def fetch_company_jobs(args):
         return fetch_ashby_jobs(company_name, board_id)
     if platform == "workable":
         return fetch_workable_jobs(company_name, board_id)
+    if platform == "rippling":
+        return fetch_rippling_jobs(company_name, board_id)
+    if platform == "bamboohr":
+        return fetch_bamboohr_jobs(company_name, board_id)
     return []
 
 
@@ -613,7 +679,7 @@ def fetch_all_jobs():
             for _cand in _rec.get("candidates", []):
                 if _cand.get("confidence") != "high":
                     continue
-                if _cand.get("platform") not in ("greenhouse", "lever", "ashby", "workable"):
+                if _cand.get("platform") not in ("greenhouse", "lever", "ashby", "workable", "rippling", "bamboohr"):
                     continue
                 if _rec["company"] in _have_company or (_cand["platform"], _cand["slug"]) in _have_slug:
                     continue
