@@ -1,6 +1,31 @@
 {
-  "generatedAt": "2026-09-26T07:30:14+00:00",
+  "generatedAt": "2026-09-26T12:59:14+00:00",
   "matrix": {
+    "dle-lithium": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 3000000,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Summit Lithium Technologies",
+            "amount": 3000000,
+            "date": "2026-09-25",
+            "source": "formd",
+            "investors": [
+              "Evok Innovations",
+              "BDC Capital (Climate Tech Fund)",
+              "Xora Innovation",
+              "Capricorn Investment Group (Technology Impact Fund)",
+              "BHP Ventures",
+              "Mitsui Kinzoku \\u2013 SBI Material Innovation Fund",
+              "LG Technology Ventures"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
     "space-stations": {
       "2026-Q3": {
         "deals": 1,
@@ -21,6 +46,72 @@
           }
         ],
         "investors": []
+      }
+    },
+    "consumer-hardware": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 46317349,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Whisper Aero",
+            "amount": 46317349,
+            "date": "2026-09-17",
+            "source": "formd",
+            "investors": [
+              "Menlo Ventures",
+              "Eve Atlas",
+              "Capricorn Technology Impact Fund",
+              "Connor Capital",
+              "Kindred Ventures",
+              "Abstract Ventures",
+              "Moving Capital",
+              "AeroX Ventures",
+              "Cosmos Ventures",
+              "Linse Capital",
+              "LaunchTN"
+            ]
+          }
+        ],
+        "investors": []
+      }
+    },
+    "data-center-infrastructure": {
+      "2026-Q3": {
+        "deals": 1,
+        "totalSold": 3108543889,
+        "companiesWithUnknownAmount": 0,
+        "companies": [
+          {
+            "name": "Crusoe Energy",
+            "amount": 3108543889,
+            "date": "2026-09-17",
+            "source": "formd",
+            "investors": [
+              "Valor Equity Partners",
+              "Mubadala Capital",
+              "Founders Fund",
+              "Lowercarbon Capital",
+              "Spark Capital",
+              "Tiger Global Management",
+              "NVIDIA",
+              "Bain Capital Ventures",
+              "Fidelity Management",
+              "Atreides Management",
+              "1789 Capital",
+              "Salesforce Ventures",
+              "T. Rowe Price",
+              "Khosla Ventures"
+            ]
+          }
+        ],
+        "investors": [
+          "Founders Fund",
+          "Khosla Ventures",
+          "Lowercarbon Capital",
+          "Valor Equity Partners"
+        ]
       }
     },
     "arctic-defense": {
@@ -954,43 +1045,6 @@
         ]
       }
     },
-    "data-center-infrastructure": {
-      "2026-Q3": {
-        "deals": 1,
-        "totalSold": null,
-        "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Crusoe Energy",
-            "amount": null,
-            "date": "2026-07",
-            "source": "recentEvent",
-            "investors": [
-              "Valor Equity Partners",
-              "Mubadala Capital",
-              "Founders Fund",
-              "Lowercarbon Capital",
-              "Spark Capital",
-              "Tiger Global Management",
-              "NVIDIA",
-              "Bain Capital Ventures",
-              "Fidelity Management",
-              "Atreides Management",
-              "1789 Capital",
-              "Salesforce Ventures",
-              "T. Rowe Price",
-              "Khosla Ventures"
-            ]
-          }
-        ],
-        "investors": [
-          "Founders Fund",
-          "Khosla Ventures",
-          "Lowercarbon Capital",
-          "Valor Equity Partners"
-        ]
-      }
-    },
     "robotics-cobots-warehouse": {
       "2025-Q3": {
         "deals": 1,
@@ -1512,6 +1566,242 @@
     }
   },
   "vcAttribution": {
+    "Valor Equity Partners": {
+      "2026-Q3": [
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2026-09-17",
+          "source": "formd"
+        },
+        {
+          "company": "Neros",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-08",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "SpaceX",
+          "cluster": "space-launch-large",
+          "date": "2026-06",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Neuralink",
+          "cluster": "brain-computer-interface",
+          "date": "2026-03",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Bedrock Robotics",
+          "cluster": "robotics-construction-mining",
+          "date": "2026-02",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Positron AI",
+          "cluster": "ai-chips-inference",
+          "date": "2026-02",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Electra",
+          "cluster": "industrial-decarb",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Founders Fund": {
+      "2026-Q3": [
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2026-09-17",
+          "source": "formd"
+        },
+        {
+          "company": "Neros",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-08",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Hadrian",
+          "cluster": "manufacturing-reshoring",
+          "date": "2026-08",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Anduril Industries",
+          "cluster": "autonomy-drone-military",
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "SpaceX",
+          "cluster": "space-launch-large",
+          "date": "2026-06",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Palantir",
+          "cluster": "ai-saas-enterprise",
+          "date": "2026-06",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Radiant",
+          "cluster": "nuclear-microreactor",
+          "date": "2025-06",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "Boom Supersonic",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2025-12",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Neuralink",
+          "cluster": "brain-computer-interface",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q3": [
+        {
+          "company": "Gecko Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-07",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Lowercarbon Capital": {
+      "2026-Q3": [
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2026-09-17",
+          "source": "formd"
+        }
+      ],
+      "2024-Q1": [
+        {
+          "company": "Astro Mechanica",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2024-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "Pacific Fusion",
+          "cluster": "fusion-inertial-laser",
+          "date": "2025-04",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Trilobio",
+          "cluster": "biotech-lab-automation",
+          "date": "2025-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Electra",
+          "cluster": "industrial-decarb",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
+    "Khosla Ventures": {
+      "2026-Q3": [
+        {
+          "company": "Crusoe Energy",
+          "cluster": "data-center-infrastructure",
+          "date": "2026-09-17",
+          "source": "formd"
+        },
+        {
+          "company": "Monumental",
+          "cluster": "construction-modular",
+          "date": "2026-07",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q4": [
+        {
+          "company": "Rocket Lab",
+          "cluster": "space-launch-large",
+          "date": "2025-10",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q2": [
+        {
+          "company": "Hermeus",
+          "cluster": "supersonic-hypersonic-transport",
+          "date": "2026-05",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Helion",
+          "cluster": "fusion-magnetic-confinement",
+          "date": "2026-06",
+          "source": "recentEvent"
+        }
+      ],
+      "2026-Q1": [
+        {
+          "company": "Physical Intelligence",
+          "cluster": "ai-robotics-embodied",
+          "date": "2026-03",
+          "source": "recentEvent"
+        }
+      ],
+      "2025-Q2": [
+        {
+          "company": "GrayMatter Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-06",
+          "source": "recentEvent"
+        },
+        {
+          "company": "Collaborative Robotics",
+          "cluster": "robotics-cobots-warehouse",
+          "date": "2025-04",
+          "source": "recentEvent"
+        }
+      ]
+    },
     "Bessemer Venture Partners": {
       "2026-Q2": [
         {
@@ -1594,86 +1884,6 @@
           "company": "Hadrian",
           "cluster": "manufacturing-reshoring",
           "date": "2026-08",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Founders Fund": {
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "SpaceX",
-          "cluster": "space-launch-large",
-          "date": "2026-06",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Hermeus",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Palantir",
-          "cluster": "ai-saas-enterprise",
-          "date": "2026-06",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q3": [
-        {
-          "company": "Neros",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-08",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Hadrian",
-          "cluster": "manufacturing-reshoring",
-          "date": "2026-08",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Radiant",
-          "cluster": "nuclear-microreactor",
-          "date": "2025-06",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q4": [
-        {
-          "company": "Boom Supersonic",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2025-12",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Neuralink",
-          "cluster": "brain-computer-interface",
-          "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q3": [
-        {
-          "company": "Gecko Robotics",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2025-07",
           "source": "recentEvent"
         }
       ]
@@ -1833,64 +2043,6 @@
         {
           "company": "Collaborative Robotics",
           "cluster": "robotics-cobots-warehouse",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Valor Equity Partners": {
-      "2026-Q2": [
-        {
-          "company": "Anduril Industries",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "SpaceX",
-          "cluster": "space-launch-large",
-          "date": "2026-06",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q3": [
-        {
-          "company": "Neros",
-          "cluster": "autonomy-drone-military",
-          "date": "2026-08",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Neuralink",
-          "cluster": "brain-computer-interface",
-          "date": "2026-03",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Bedrock Robotics",
-          "cluster": "robotics-construction-mining",
-          "date": "2026-02",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Positron AI",
-          "cluster": "ai-chips-inference",
-          "date": "2026-02",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Electra",
-          "cluster": "industrial-decarb",
           "date": "2025-04",
           "source": "recentEvent"
         }
@@ -2148,66 +2300,6 @@
         }
       ]
     },
-    "Khosla Ventures": {
-      "2025-Q4": [
-        {
-          "company": "Rocket Lab",
-          "cluster": "space-launch-large",
-          "date": "2025-10",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q2": [
-        {
-          "company": "Hermeus",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2026-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Helion",
-          "cluster": "fusion-magnetic-confinement",
-          "date": "2026-06",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q1": [
-        {
-          "company": "Physical Intelligence",
-          "cluster": "ai-robotics-embodied",
-          "date": "2026-03",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q3": [
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2026-07",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Monumental",
-          "cluster": "construction-modular",
-          "date": "2026-07",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "GrayMatter Robotics",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2025-06",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Collaborative Robotics",
-          "cluster": "robotics-cobots-warehouse",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ]
-    },
     "Harpoon Ventures": {
       "2025-Q3": [
         {
@@ -2240,44 +2332,6 @@
           "company": "Orangewood Labs",
           "cluster": "robotics-cobots-warehouse",
           "date": "2026-09",
-          "source": "recentEvent"
-        }
-      ]
-    },
-    "Lowercarbon Capital": {
-      "2024-Q1": [
-        {
-          "company": "Astro Mechanica",
-          "cluster": "supersonic-hypersonic-transport",
-          "date": "2024-03",
-          "source": "recentEvent"
-        }
-      ],
-      "2025-Q2": [
-        {
-          "company": "Pacific Fusion",
-          "cluster": "fusion-inertial-laser",
-          "date": "2025-04",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Trilobio",
-          "cluster": "biotech-lab-automation",
-          "date": "2025-05",
-          "source": "recentEvent"
-        },
-        {
-          "company": "Electra",
-          "cluster": "industrial-decarb",
-          "date": "2025-04",
-          "source": "recentEvent"
-        }
-      ],
-      "2026-Q3": [
-        {
-          "company": "Crusoe Energy",
-          "cluster": "data-center-infrastructure",
-          "date": "2026-07",
           "source": "recentEvent"
         }
       ]
@@ -2318,9 +2372,9 @@
     }
   },
   "stats": {
-    "totalDealsTracked": 57,
-    "totalUSDSold": 28554354,
-    "uniqueClusters": 35,
+    "totalDealsTracked": 59,
+    "totalUSDSold": 3186415592,
+    "uniqueClusters": 37,
     "uniqueQuarters": 9,
     "uniqueVCs": 20,
     "quarterRange": [
