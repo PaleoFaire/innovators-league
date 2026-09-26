@@ -28,3 +28,16 @@
 #pulse-page .flag-list li span { color:rgba(255,255,255,0.45); font-size:12px; margin-left:8px; }
 #pulse-page .axis text { fill:rgba(255,255,255,0.55); font-size:11px; }
 #pulse-page .grid line { stroke:rgba(255,255,255,0.08); }
+
+/* Founder benchmark */
+#pulse-page .bench-form { display:flex; gap:10px; margin:6px 0 18px; }
+#pulse-page .bench-form input { flex:1; padding:12px 14px; border-radius:10px; border:1px solid rgba(255,255,255,0.14); background:rgba(255,255,255,0.04); color:#fff; font-size:15px; }
+#pulse-page .bench-card { margin-top:8px; }
+#pulse-page .bench-head h2 { margin:4px 0 4px; }
+#pulse-page .bench-head p { color:rgba(255,255,255,0.6); font-size:13px; margin:0 0 14px; }
+#pulse-page .bench-note { margin-top:18px; padding:16px 18px; background:rgba(74,222,128,0.06); border:1px solid rgba(74,222,128,0.2); border-radius:12px; font-size:13px; line-height:1.6; color:rgba(255,255,255,0.8); }
+#pulse-page .bench-poll { display:grid; grid-template-columns:1fr 1fr; gap:12px 18px; max-width:980px; }
+#pulse-page .bench-poll label { display:flex; flex-direction:column; gap:6px; font-size:13px; color:rgba(255,255,255,0.75); }
+#pulse-page .bench-poll input { padding:10px 12px; border-radius:8px; border:1px solid rgba(255,255,255,0.14); background:rgba(255,255,255,0.04); color:#fff; font-size:14px; }
+#pulse-page .bench-poll button, #pulse-page .bench-poll p { grid-column: 1 / -1; }
+@media (max-width: 820px) { #pulse-page .bench-poll { grid-template-columns:1fr; } #pulse-page .bench-form { flex-direction:column; } }
