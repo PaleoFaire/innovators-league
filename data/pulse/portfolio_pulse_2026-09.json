@@ -1,0 +1,49 @@
+{
+ "month": "2026-09",
+ "funds": [
+  {
+   "fund": "Andreessen Horowitz",
+   "key": "a16z",
+   "tracked_in_lane": 47,
+   "on_hiring_panel": 5,
+   "diffusion": 80.0,
+   "up": 3,
+   "down": 0,
+   "roles_now": 607,
+   "roles_prev": 509,
+   "atoms_bits": 1.93,
+   "raised_last_3m": 3,
+   "factory_flags": []
+  },
+  {
+   "fund": "Eclipse Ventures",
+   "key": "Eclipse",
+   "tracked_in_lane": 30,
+   "on_hiring_panel": 5,
+   "diffusion": 50.0,
+   "up": 2,
+   "down": 2,
+   "roles_now": 445,
+   "roles_prev": 451,
+   "atoms_bits": 1.85,
+   "raised_last_3m": 1,
+   "factory_flags": []
+  },
+  {
+   "fund": "Silent Ventures",
+   "key": "Silent",
+   "tracked_in_lane": 35,
+   "on_hiring_panel": 5,
+   "diffusion": 40.0,
+   "up": 1,
+   "down": 2,
+   "roles_now": 249,
+   "roles_prev": 284,
+   "atoms_bits": 1.12,
+   "raised_last_3m": 4,
+   "factory_flags": [
+    "Chaos Industries"
+   ]
+  }
+ ]
+}

@@ -1350,5 +1350,339 @@
   "vc_first_funded": 146
  },
  "review_queue_size": 19,
- "discovered_boards_high": 245
+ "discovered_boards_high": 245,
+ "intel": {
+  "month": "2026-09",
+  "generated": "2026-09-26",
+  "portfolio_pulse": [
+   {
+    "fund": "Andreessen Horowitz",
+    "key": "a16z",
+    "tracked_in_lane": 47,
+    "on_hiring_panel": 5,
+    "diffusion": 80.0,
+    "up": 3,
+    "down": 0,
+    "roles_now": 607,
+    "roles_prev": 509,
+    "atoms_bits": 1.93,
+    "raised_last_3m": 3,
+    "factory_flags": []
+   },
+   {
+    "fund": "Eclipse Ventures",
+    "key": "Eclipse",
+    "tracked_in_lane": 30,
+    "on_hiring_panel": 5,
+    "diffusion": 50.0,
+    "up": 2,
+    "down": 2,
+    "roles_now": 445,
+    "roles_prev": 451,
+    "atoms_bits": 1.85,
+    "raised_last_3m": 1,
+    "factory_flags": []
+   },
+   {
+    "fund": "Silent Ventures",
+    "key": "Silent",
+    "tracked_in_lane": 35,
+    "on_hiring_panel": 5,
+    "diffusion": 40.0,
+    "up": 1,
+    "down": 2,
+    "roles_now": 249,
+    "roles_prev": 284,
+    "atoms_bits": 1.12,
+    "raised_last_3m": 4,
+    "factory_flags": [
+     "Chaos Industries"
+    ]
+   }
+  ],
+  "about_to_raise": [
+   {
+    "company": "Muon Space",
+    "bucket": "Space & Aerospace",
+    "roles_3m_ago": 46,
+    "roles_now": 123,
+    "growth_pct": 167.4,
+    "last_capital_event": null,
+    "senior_mfg_hire": true
+   },
+   {
+    "company": "Astranis",
+    "bucket": "Space & Aerospace",
+    "roles_3m_ago": 84,
+    "roles_now": 166,
+    "growth_pct": 97.6,
+    "last_capital_event": "2025-03",
+    "senior_mfg_hire": false
+   },
+   {
+    "company": "Divergent",
+    "bucket": "Manufacturing & Materials",
+    "roles_3m_ago": 58,
+    "roles_now": 112,
+    "growth_pct": 93.1,
+    "last_capital_event": null,
+    "senior_mfg_hire": true
+   },
+   {
+    "company": "Hubble Network",
+    "bucket": "Space & Aerospace",
+    "roles_3m_ago": 8,
+    "roles_now": 15,
+    "growth_pct": 87.5,
+    "last_capital_event": null,
+    "senior_mfg_hire": false
+   },
+   {
+    "company": "Formic",
+    "bucket": "Autonomy & Robotics",
+    "roles_3m_ago": 25,
+    "roles_now": 42,
+    "growth_pct": 68.0,
+    "last_capital_event": null,
+    "senior_mfg_hire": false
+   },
+   {
+    "company": "Extropic",
+    "bucket": "Chips & Quantum",
+    "roles_3m_ago": 7,
+    "roles_now": 10,
+    "growth_pct": 42.9,
+    "last_capital_event": null,
+    "senior_mfg_hire": false
+   },
+   {
+    "company": "Outpost Space",
+    "bucket": "Space & Aerospace",
+    "roles_3m_ago": 13,
+    "roles_now": 17,
+    "growth_pct": 30.8,
+    "last_capital_event": null,
+    "senior_mfg_hire": true
+   },
+   {
+    "company": "Inversion Space",
+    "bucket": "Space & Aerospace",
+    "roles_3m_ago": 56,
+    "roles_now": 73,
+    "growth_pct": 30.4,
+    "last_capital_event": null,
+    "senior_mfg_hire": false
+   }
+  ],
+  "about_to_build": [
+   {
+    "company": "Zipline",
+    "bucket": "Autonomy & Robotics",
+    "state": "CA",
+    "roles_prev": 326,
+    "roles_now": 342,
+    "senior_roles_open": 3,
+    "last_capital_event": "2016-07"
+   },
+   {
+    "company": "ClearSpace",
+    "bucket": "Space & Aerospace",
+    "state": "",
+    "roles_prev": 33,
+    "roles_now": 44,
+    "senior_roles_open": 3,
+    "last_capital_event": null
+   },
+   {
+    "company": "Muon Space",
+    "bucket": "Space & Aerospace",
+    "state": "CA",
+    "roles_prev": 105,
+    "roles_now": 123,
+    "senior_roles_open": 2,
+    "last_capital_event": null
+   },
+   {
+    "company": "Mach Industries",
+    "bucket": "Defence",
+    "state": "CA",
+    "roles_prev": 20,
+    "roles_now": 128,
+    "senior_roles_open": 1,
+    "last_capital_event": "2026-09"
+   },
+   {
+    "company": "General Matter",
+    "bucket": "Nuclear",
+    "state": "CA",
+    "roles_prev": 115,
+    "roles_now": 126,
+    "senior_roles_open": 1,
+    "last_capital_event": "2025-11"
+   },
+   {
+    "company": "Divergent",
+    "bucket": "Manufacturing & Materials",
+    "state": "CA",
+    "roles_prev": 70,
+    "roles_now": 112,
+    "senior_roles_open": 1,
+    "last_capital_event": null
+   },
+   {
+    "company": "Nuro",
+    "bucket": "Autonomy & Robotics",
+    "state": "CA",
+    "roles_prev": 101,
+    "roles_now": 106,
+    "senior_roles_open": 1,
+    "last_capital_event": "2026-03"
+   },
+   {
+    "company": "Agility Robotics",
+    "bucket": "Autonomy & Robotics",
+    "state": "OR",
+    "roles_prev": 66,
+    "roles_now": 69,
+    "senior_roles_open": 1,
+    "last_capital_event": "2026-02"
+   },
+   {
+    "company": "Skyryse",
+    "bucket": "Space & Aerospace",
+    "state": "CA",
+    "roles_prev": 13,
+    "roles_now": 18,
+    "senior_roles_open": 1,
+    "last_capital_event": "2025-10"
+   },
+   {
+    "company": "Ursa Major Technologies",
+    "bucket": "Space & Aerospace",
+    "state": "CO",
+    "roles_prev": 99,
+    "roles_now": 105,
+    "senior_roles_open": 0,
+    "last_capital_event": "2025-10"
+   },
+   {
+    "company": "Amca",
+    "bucket": "Manufacturing & Materials",
+    "state": "CA",
+    "roles_prev": 36,
+    "roles_now": 36,
+    "senior_roles_open": 0,
+    "last_capital_event": "2026-06"
+   }
+  ],
+  "runway_stress_count": 2,
+  "study_hiring_before_raise": {
+   "raisers": {
+    "n": 8,
+    "median_growth_pct": 20.6,
+    "share_up_30pct": 37.5,
+    "share_down": 12.5
+   },
+   "others": {
+    "n": 185,
+    "median_growth_pct": 14.3,
+    "share_up_30pct": 37.8,
+    "share_down": 28.1
+   },
+   "window": "2026-02..2026-09",
+   "definition": "Role growth over the three months to M for companies on the panel with \u22655 roles at M-3; raisers = a capital event in M or M+1."
+  },
+  "pulse_to_ticker_v0": [
+   {
+    "bucket": "Power & Grid",
+    "panel": 3,
+    "diffusion": "83.3",
+    "open_roles": 28,
+    "listed_names_v0": [
+     "CEG",
+     "VST",
+     "TLN",
+     "GEV",
+     "CAT",
+     "CMI",
+     "BE",
+     "ETN",
+     "HUBB",
+     "POWL",
+     "VRT",
+     "NVT"
+    ],
+    "sufficient": false
+   },
+   {
+    "bucket": "Autonomy & Robotics",
+    "panel": 10,
+    "diffusion": "80.0",
+    "open_roles": 832,
+    "listed_names_v0": [],
+    "sufficient": false
+   },
+   {
+    "bucket": "Nuclear",
+    "panel": 7,
+    "diffusion": "71.4",
+    "open_roles": 380,
+    "listed_names_v0": [
+     "BWXT",
+     "CW",
+     "CCJ",
+     "MIR"
+    ],
+    "sufficient": false
+   },
+   {
+    "bucket": "Defence",
+    "panel": 7,
+    "diffusion": "64.3",
+    "open_roles": 412,
+    "listed_names_v0": [
+     "KTOS",
+     "AVAV",
+     "RKLB",
+     "IRDM"
+    ],
+    "sufficient": false
+   },
+   {
+    "bucket": "Space & Aerospace",
+    "panel": 16,
+    "diffusion": "56.2",
+    "open_roles": 1058,
+    "listed_names_v0": [],
+    "sufficient": false
+   },
+   {
+    "bucket": "Manufacturing & Materials",
+    "panel": 5,
+    "diffusion": "50.0",
+    "open_roles": 323,
+    "listed_names_v0": [
+     "PWR",
+     "EME",
+     "FIX",
+     "AGX",
+     "TTEK",
+     "HWM",
+     "ATI",
+     "CRS",
+     "MP",
+     "LECO"
+    ],
+    "sufficient": false
+   },
+   {
+    "bucket": "Chips & Quantum",
+    "panel": 5,
+    "diffusion": "40.0",
+    "open_roles": 295,
+    "listed_names_v0": [],
+    "sufficient": false
+   }
+  ]
+ }
 }
