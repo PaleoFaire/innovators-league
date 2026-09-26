@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 2.34,
+      "avg_change": 1.98,
       "count": 7
     },
     "nuclear": {
@@ -96,11 +96,6 @@
       -3.24
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      -3.54
-    ],
-    [
       "AUR",
       "Aurora Innovation",
       -4.28
@@ -109,7 +104,12 @@
       "IDEAFORGE.NS",
       "ideaForge",
       -4.73
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      -6.02
     ]
   ],
-  "lastUpdated": "2026-09-26 02:53:26"
+  "lastUpdated": "2026-09-26 06:11:59"
 }
