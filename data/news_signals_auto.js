@@ -1,41 +1,41 @@
 // Auto-generated news signals
-// Last updated: 2026-09-26T19:40:41.386Z
+// Last updated: 2026-09-26T22:38:31.443Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1790451641386,
+    "id": 1790462311443,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "Unsecured OpenAI agents posted 53 user images on the internet without the lab&#8217;s knowledge",
     "source": "TechCrunch",
-    "time": "21h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/"
   },
   {
-    "id": 1790451641387,
+    "id": 1790462311444,
     "type": "contract",
     "company": "Anthropic",
     "headline": "Anthropic loses legal fight to shed DOD's designation as a 'supply-chain risk'",
     "source": "Defense One",
-    "time": "21h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.defenseone.com/threats/2026/09/anthropic-lawsuit-supply-chain-risk/416252/"
   },
   {
-    "id": 1790451641388,
+    "id": 1790462311445,
     "type": "contract",
     "company": "Anthropic",
     "headline": "DC Circuit panel upholds Pentagon’s ban on Anthropic &#8211; so what comes next?",
     "source": "Breaking Defense",
-    "time": "23h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": true,
     "link": "https://breakingdefense.com/2026/09/dc-circuit-panel-upholds-pentagons-ban-on-anthropic-so-what-comes-next/"
   },
   {
-    "id": 1790451641389,
+    "id": 1790462311446,
     "type": "contract",
     "company": "Anthropic",
     "headline": "US appeals court upholds Pentagon’s blacklisting of Anthropic",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/"
   },
   {
-    "id": 1790451641390,
+    "id": 1790462311447,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/"
   },
   {
-    "id": 1790451641391,
+    "id": 1790462311448,
     "type": "contract",
     "company": "Anthropic",
     "headline": "Appeals Court Lets the Pentagon Designate Anthropic a Supply-Chain Risk",
@@ -68,18 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/appeals-court-lets-the-pentagon-designate-anthropic-a-supply-chain-risk/"
   },
   {
-    "id": 1790451641392,
-    "type": "ipo",
-    "company": "Anthropic",
-    "headline": "Anthropic&#8217;s founders seek voting control ahead of IPO",
-    "source": "TechCrunch",
-    "time": "1d ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/"
-  },
-  {
-    "id": 1790451641393,
+    "id": 1790462311449,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Beating Bull Case- Adding 880,000 chips in four month, 500MW Per Month (Elon Confirmed)",
@@ -90,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/09/spacex-beating-bull-case-adding-880000-chips-in-four-month-500mw-per-month-elon-confirmed.html"
   },
   {
-    "id": 1790451641394,
+    "id": 1790462311450,
     "type": "funding",
     "company": "Tekever",
     "headline": "TEKEVER raises $580M Series D, DTCP closes €455M defence fund, and the challenge to reinvent chip design",
@@ -101,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/09/25/tekever-raises-580m-series-d-dtcp-closes-455m-defence-fund-and-the-challenge-to-reinvent-chip-design/"
   },
   {
-    "id": 1790451641395,
+    "id": 1790462311451,
     "type": "hire",
     "company": "Agility Robotics",
     "headline": "Agility Robotics, maker of Digit humanoid, exploring wheeled robots",
@@ -112,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/"
   },
   {
-    "id": 1790451641396,
+    "id": 1790462311452,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo — Nearly 1,000 Avoided Injuries",
@@ -123,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/09/25/waymo-nearly-1000-avoided-injuries/"
   },
   {
-    "id": 1790451641397,
+    "id": 1790462311453,
     "type": "milestone",
     "company": "Saildrone",
     "headline": "With Denmark, Saildrone logs first flag registration for naval surveillance drone",
@@ -134,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/global/europe/2026/09/24/with-denmark-saildrone-logs-first-flag-registration-for-naval-surveillance-drone/"
   },
   {
-    "id": 1790451641398,
+    "id": 1790462311454,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX INSANE SPEED is more valuable than Rockets",
@@ -145,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/09/spacex-insane-speed-is-more-valuable-than-rockets.html"
   },
   {
-    "id": 1790451641399,
+    "id": 1790462311455,
     "type": "funding",
     "company": "Humanoid",
     "headline": "Europeans in Japan raise $1.2M to put modular humanoid robots to work",
@@ -156,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/09/24/brits-in-japan-raise-1m-to-put-modular-humanoid-robots-to-work/"
   },
   {
-    "id": 1790451641400,
+    "id": 1790462311456,
     "type": "news",
     "company": "ANYbotics",
     "headline": "ANYbotics opens the door for inspections with ANYmal robots",
@@ -167,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/"
   },
   {
-    "id": 1790451641401,
+    "id": 1790462311457,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo says it has stopped 841 injuries in 271 million autonomous miles",
@@ -178,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/09/24/waymo-says-it-has-stopped-841-injuries-in-271-million-autonomous-miles/"
   },
   {
-    "id": 1790451641402,
+    "id": 1790462311458,
     "type": "hire",
     "company": "OpenAI",
     "headline": "An OpenAI Agent Hacked Australia’s Health Service. Their Government Found Out Months Later",
@@ -189,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/"
   },
   {
-    "id": 1790451641403,
+    "id": 1790462311459,
     "type": "contract",
     "company": "Palantir",
     "headline": "Army awards Palantir $48.1M to modernize ammo management",
@@ -200,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/news/your-army/2026/09/24/army-awards-palantir-481m-to-modernize-ammo-management/"
   },
   {
-    "id": 1790451641404,
+    "id": 1790462311460,
     "type": "contract",
     "company": "SpaceX",
     "headline": "EXCLUSIVE: SpaceX given unique access to classified DoD space tracking data, sources say",
@@ -211,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://breakingdefense.com/2026/09/exclusive-spacex-given-unique-access-to-classified-dod-space-tracking-data-sources-say/"
   },
   {
-    "id": 1790451641405,
+    "id": 1790462311461,
     "type": "funding",
     "company": "Magic AI",
     "headline": "Magic AI raises £8m to take its AI-powered fitness mirror to the US",
@@ -220,5 +209,16 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://sifted.eu/articles/magic-ai-fitness-mirror-funding-round/"
+  },
+  {
+    "id": 1790462311462,
+    "type": "funding",
+    "company": "Anthropic",
+    "headline": "Anthropic with Menlo Ventures and Nvidia back Basecamp Research in $140M Series C",
+    "source": "Tech.eu",
+    "time": "3d ago",
+    "impact": "high",
+    "unread": false,
+    "link": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/"
   }
 ];
