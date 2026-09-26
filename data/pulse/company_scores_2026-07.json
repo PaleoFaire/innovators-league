@@ -106,7 +106,7 @@
    "score": 42.8,
    "roles": 7,
    "in_hiring_panel": true,
-   "last_capital": "2026-09",
+   "last_capital": null,
    "last_contract": "2025-09"
   },
   {
@@ -299,15 +299,6 @@
    "last_contract": null
   },
   {
-   "company": "Shield AI",
-   "bucket": "Defence",
-   "score": 25.0,
-   "roles": 0,
-   "in_hiring_panel": false,
-   "last_capital": "2025-09",
-   "last_contract": "2026-05"
-  },
-  {
    "company": "Castelion",
    "bucket": "Defence",
    "score": 25.0,
@@ -449,6 +440,15 @@
    "roles": 0,
    "in_hiring_panel": false,
    "last_capital": "2026-07",
+   "last_contract": null
+  },
+  {
+   "company": "Endurosat",
+   "bucket": "Space & Aerospace",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-06",
    "last_contract": null
   }
  ]

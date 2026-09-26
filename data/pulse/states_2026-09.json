@@ -3,93 +3,93 @@
  "states": [
   {
    "state": "CA",
-   "roles": 1844,
-   "mfg": 468,
-   "sw": 308
-  },
-  {
-   "state": "TX",
-   "roles": 177,
-   "mfg": 56,
-   "sw": 25
-  },
-  {
-   "state": "CO",
-   "roles": 142,
-   "mfg": 47,
-   "sw": 10
+   "roles": 2840,
+   "mfg": 708,
+   "sw": 468
   },
   {
    "state": "REMOTE",
-   "roles": 139,
-   "mfg": 6,
-   "sw": 35
+   "roles": 490,
+   "mfg": 45,
+   "sw": 97
   },
   {
-   "state": "NV",
-   "roles": 86,
-   "mfg": 33,
-   "sw": 5
+   "state": "TX",
+   "roles": 318,
+   "mfg": 93,
+   "sw": 37
   },
   {
-   "state": "NY",
-   "roles": 64,
-   "mfg": 8,
-   "sw": 17
+   "state": "CO",
+   "roles": 278,
+   "mfg": 70,
+   "sw": 34
   },
   {
    "state": "WA",
-   "roles": 49,
-   "mfg": 4,
-   "sw": 6
+   "roles": 249,
+   "mfg": 47,
+   "sw": 28
+  },
+  {
+   "state": "NY",
+   "roles": 187,
+   "mfg": 23,
+   "sw": 50
+  },
+  {
+   "state": "MA",
+   "roles": 145,
+   "mfg": 24,
+   "sw": 26
+  },
+  {
+   "state": "NV",
+   "roles": 100,
+   "mfg": 34,
+   "sw": 5
+  },
+  {
+   "state": "VA",
+   "roles": 76,
+   "mfg": 10,
+   "sw": 18
+  },
+  {
+   "state": "PA",
+   "roles": 64,
+   "mfg": 13,
+   "sw": 23
   },
   {
    "state": "SC",
-   "roles": 49,
+   "roles": 56,
    "mfg": 14,
    "sw": 0
   },
   {
-   "state": "MA",
-   "roles": 47,
-   "mfg": 4,
-   "sw": 11
-  },
-  {
-   "state": "PA",
-   "roles": 46,
-   "mfg": 9,
-   "sw": 20
-  },
-  {
-   "state": "DC",
-   "roles": 29,
-   "mfg": 2,
-   "sw": 13
-  },
-  {
-   "state": "IL",
-   "roles": 23,
-   "mfg": 2,
-   "sw": 2
-  },
-  {
-   "state": "AZ",
-   "roles": 21,
-   "mfg": 7,
-   "sw": 0
+   "state": "OR",
+   "roles": 50,
+   "mfg": 16,
+   "sw": 1
   },
   {
    "state": "UT",
-   "roles": 20,
-   "mfg": 5,
+   "roles": 45,
+   "mfg": 19,
    "sw": 2
   },
   {
-   "state": "KY",
-   "roles": 17,
+   "state": "DC",
+   "roles": 42,
+   "mfg": 1,
+   "sw": 10
+  },
+  {
+   "state": "MD",
+   "roles": 40,
    "mfg": 5,
-   "sw": 1
+   "sw": 4
   }
  ]
 }

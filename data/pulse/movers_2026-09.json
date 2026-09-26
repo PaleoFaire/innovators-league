@@ -5,41 +5,57 @@
    "company": "Mach Industries",
    "bucket": "Defence",
    "roles_prev": 20,
-   "roles_now": 124,
-   "change": 104,
-   "change_pct": 520.0
+   "roles_now": 128,
+   "change": 108,
+   "change_pct": 540.0
   },
   {
    "company": "Astranis",
    "bucket": "Space & Aerospace",
    "roles_prev": 86,
-   "roles_now": 164,
-   "change": 78,
-   "change_pct": 90.7
-  },
-  {
-   "company": "Hubble Network",
-   "bucket": "Space & Aerospace",
-   "roles_prev": 10,
-   "roles_now": 16,
-   "change": 6,
-   "change_pct": 60.0
+   "roles_now": 166,
+   "change": 80,
+   "change_pct": 93.0
   },
   {
    "company": "Divergent",
    "bucket": "Manufacturing & Materials",
    "roles_prev": 70,
-   "roles_now": 110,
-   "change": 40,
-   "change_pct": 57.1
+   "roles_now": 112,
+   "change": 42,
+   "change_pct": 60.0
+  },
+  {
+   "company": "Hubble Network",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 10,
+   "roles_now": 15,
+   "change": 5,
+   "change_pct": 50.0
   },
   {
    "company": "Vannevar Labs",
    "bucket": "Defence",
    "roles_prev": 22,
-   "roles_now": 30,
-   "change": 8,
-   "change_pct": 36.4
+   "roles_now": 31,
+   "change": 9,
+   "change_pct": 40.9
+  },
+  {
+   "company": "Skyryse",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 13,
+   "roles_now": 18,
+   "change": 5,
+   "change_pct": 38.5
+  },
+  {
+   "company": "ClearSpace",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 33,
+   "roles_now": 44,
+   "change": 11,
+   "change_pct": 33.3
   },
   {
    "company": "Focused Energy",
@@ -48,22 +64,6 @@
    "roles_now": 20,
    "change": 5,
    "change_pct": 33.3
-  },
-  {
-   "company": "Skyryse",
-   "bucket": "Space & Aerospace",
-   "roles_prev": 13,
-   "roles_now": 17,
-   "change": 4,
-   "change_pct": 30.8
-  },
-  {
-   "company": "ClearSpace",
-   "bucket": "Space & Aerospace",
-   "roles_prev": 33,
-   "roles_now": 43,
-   "change": 10,
-   "change_pct": 30.3
   },
   {
    "company": "Kairos Power",
@@ -126,6 +126,7 @@
  ],
  "factory_flags": [
   "Chaos Industries",
+  "ClearSpace",
   "Divergent",
   "General Matter",
   "Mach Industries",
