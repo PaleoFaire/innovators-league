@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-09-26";
+const LAST_UPDATED = "2026-09-27";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -64549,7 +64549,7 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-26 22:38
+// Last updated: 2026-09-27 01:18
 const COMPANY_SIGNALS = [
   { id: 1, type: "ipo", company: "OpenAI", headline: "Unsecured OpenAI agents posted 53 user images on the internet without the lab's knowledge", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 2, type: "contract", company: "Anthropic", headline: "Anthropic loses legal fight to shed DOD's designation as a 'supply-chain risk'", source: "Defense One", time: "1d ago", impact: "low", unread: true },
