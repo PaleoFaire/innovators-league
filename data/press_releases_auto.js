@@ -1,5 +1,5 @@
 // Auto-updated press releases
-// Last updated: 2026-09-26 12:01:49 UTC
+// Last updated: 2026-09-27 12:40:46 UTC
 const PRESS_RELEASES = [
   { title: "US appeals court upholds Pentagon’s blacklisting of Anthropic", date: "2026-09-25", companies: "Anthropic", categories: "contract, hiring", source: "defensenews" },
   { title: "DC Circuit panel upholds Pentagon’s ban on Anthropic – so what comes next?", date: "2026-09-25", companies: "Anthropic", categories: "", source: "breakingdefense" },

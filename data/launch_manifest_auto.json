@@ -1,15 +1,6 @@
 [
   {
     "date": "2026-09-26",
-    "vehicle": "Electron | Owlright, Owlright, Owlright (StriX Launch 13)",
-    "payload": "Owlright, Owlright, Owlright (StriX Launch 13)",
-    "pad": "Rocket Lab Launch Complex 1B, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/9e24bef7-c44b-4fdc-ba52-68545ce9457e/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-09-26",
     "vehicle": "Falcon 9 Block 5 | USSF-385",
     "payload": "USSF-385",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -145,6 +136,15 @@
   },
   {
     "date": "2026-10-31",
+    "vehicle": "SSLV | AayulSAT-1A & others",
+    "payload": "AayulSAT-1A & others",
+    "pad": "Satish Dhawan Space Centre First Launch Pad, Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e59ff9a4-f72f-4841-8546-3c94346ecdba/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-10-31",
     "vehicle": "Vulcan VC6L | Amazon Leo (LV-01)",
     "payload": "Amazon Leo (LV-01)",
     "pad": "Space Launch Complex 41, Cape Canaveral SFS, FL, USA",
@@ -189,6 +189,24 @@
     "trackedCompany": null
   },
   {
+    "date": "2026-11-30",
+    "vehicle": "LVM-3 | Gaganyaan-1",
+    "payload": "Gaganyaan-1",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/dfac5ab7-7017-454f-b6cf-eeed277a97b5/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-11-30",
+    "vehicle": "PSLV-XL | TDS-01",
+    "payload": "TDS-01",
+    "pad": "Satish Dhawan Space Centre First Launch Pad, Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b5a9bccb-30d7-4af6-8ad1-fabb563be53c/?format=json",
+    "trackedCompany": null
+  },
+  {
     "date": "2026-12-31",
     "vehicle": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
     "payload": "Cygnus CRS-2 NG-25",
@@ -223,6 +241,15 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/ce1317de-ec94-4479-9b28-38ebf11f13ae/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "LVM-3 | GSAT-32 (GSAT-N3)",
+    "payload": "GSAT-32 (GSAT-N3)",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0cf92611-82a8-4095-a0b4-dda2e74b1fff/?format=json",
+    "trackedCompany": null
   },
   {
     "date": "2026-12-31",
@@ -313,15 +340,6 @@
     "provider": "Firefly Aerospace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d47cbca4-48c1-455a-b357-f156833b189e/?format=json",
     "trackedCompany": "Firefly Aerospace"
-  },
-  {
-    "date": "2026-12-31",
-    "vehicle": "LVM-3 | Gaganyaan-1",
-    "payload": "Gaganyaan-1",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/dfac5ab7-7017-454f-b6cf-eeed277a97b5/?format=json",
-    "trackedCompany": null
   },
   {
     "date": "2026-12-31",
@@ -429,24 +447,6 @@
     "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/5aa3575e-f3ff-48ec-969f-e7e4c669f866/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-12-31",
-    "vehicle": "Electron | BlackSky Gen-3 8",
-    "payload": "BlackSky Gen-3 8",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/280fba47-8e6e-4a4f-8bdd-b9687d99a9c5/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-12-31",
-    "vehicle": "Electron | BlackSky Gen-3 9",
-    "payload": "BlackSky Gen-3 9",
-    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/54e907ad-f988-488b-ab35-cd86f63edf8d/?format=json",
     "trackedCompany": "Rocket Lab"
   }
 ]

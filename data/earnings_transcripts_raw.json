@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-09-26 12:07:21 UTC",
+    "generated_at": "2026-09-27 12:45:42 UTC",
     "total_targets": 116,
-    "with_excerpts": 105,
+    "with_excerpts": 106,
     "sources": [
       "none",
       "sec_edgar",
@@ -562,11 +562,11 @@
       "ticker": "ON",
       "company": "ON Semiconductor",
       "quarter": "2026-Q3",
-      "date": "2019-08-05",
+      "date": "2026-08-03",
       "transcript_excerpts": [
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1097864/000119312519212847/0001193125-19-212847-index.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1097864/000109786426000017/0001097864-26-000017-index.htm",
       "source": "sec_edgar"
     },
     {
@@ -1205,11 +1205,13 @@
     {
       "ticker": "TWST",
       "company": "Twist Bioscience",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://investors.twistbioscience.com/",
-      "source": "none"
+      "quarter": "2026-Q3",
+      "date": "2026-08-03",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1581280/000158128026000047/0001581280-26-000047-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "DNA",
