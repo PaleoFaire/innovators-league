@@ -64818,23 +64818,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-27 18:15
+// Last updated: 2026-09-27 21:59
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "Anthropic's Dario Amodei gets the SNL treatment", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Asimov", headline: "Asimov's laws are not enough to keep robotics and AI safe", source: "The Robot Report", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Will Pay Less than $1 billion to Launch a Gigawatt of AI  &#8211; $180 Billion Estimate is a Moronic Spreadsheet ", source: "Next Big Future", time: "15h ago", impact: "high", unread: true },
-  { id: 4, type: "ipo", company: "OpenAI", headline: "Unsecured OpenAI agents posted 53 user images on the internet without the lab's knowledge", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
-  { id: 5, type: "contract", company: "Anthropic", headline: "Anthropic loses legal fight to shed DOD's designation as a 'supply-chain risk'", source: "Defense One", time: "1d ago", impact: "low", unread: true },
-  { id: 6, type: "contract", company: "Anthropic", headline: "DC Circuit panel upholds Pentagon's ban on Anthropic &#8211; so what comes next?", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "contract", company: "Anthropic", headline: "US appeals court upholds Pentagon's blacklisting of Anthropic", source: "Defense News", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
-  { id: 9, type: "contract", company: "Anthropic", headline: "Appeals Court Lets the Pentagon Designate Anthropic a Supply-Chain Risk", source: "Wired", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Beating Bull Case- Adding 880,000 chips in four month, 500MW Per Month (Elon Confirmed)", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Tekever", headline: "TEKEVER raises $580M Series D, DTCP closes '455M defence fund, and the challenge to reinvent chip design", source: "Tech.eu", time: "2d ago", impact: "high", unread: false },
-  { id: 12, type: "hire", company: "Agility Robotics", headline: "Agility Robotics, maker of Digit humanoid, exploring wheeled robots", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Waymo", headline: "Waymo ' Nearly 1,000 Avoided Injuries", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "Saildrone", headline: "With Denmark, Saildrone logs first flag registration for naval surveillance drone", source: "Defense News", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX INSANE SPEED is more valuable than Rockets", source: "Next Big Future", time: "3d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Matter", headline: "AI in Space Must Be Over 10+ GW/Year Or It Does Not Matter", source: "Next Big Future", time: "3h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Anthropic", headline: "Anthropic's Dario Amodei gets the SNL treatment", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Asimov", headline: "Asimov's laws are not enough to keep robotics and AI safe", source: "The Robot Report", time: "9h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX Will Pay Less than $1 billion to Launch a Gigawatt of AI  &#8211; $180 Billion Estimate is a Moronic Spreadsheet ", source: "Next Big Future", time: "19h ago", impact: "high", unread: true },
+  { id: 5, type: "ipo", company: "OpenAI", headline: "Unsecured OpenAI agents posted 53 user images on the internet without the lab's knowledge", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
+  { id: 6, type: "contract", company: "Anthropic", headline: "Anthropic loses legal fight to shed DOD's designation as a 'supply-chain risk'", source: "Defense One", time: "2d ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "Anthropic", headline: "DC Circuit panel upholds Pentagon's ban on Anthropic &#8211; so what comes next?", source: "Breaking Defense", time: "2d ago", impact: "low", unread: false },
+  { id: 8, type: "contract", company: "Anthropic", headline: "US appeals court upholds Pentagon's blacklisting of Anthropic", source: "Defense News", time: "2d ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal", source: "TechCrunch", time: "2d ago", impact: "high", unread: false },
+  { id: 10, type: "contract", company: "Anthropic", headline: "Appeals Court Lets the Pentagon Designate Anthropic a Supply-Chain Risk", source: "Wired", time: "2d ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX Beating Bull Case- Adding 880,000 chips in four month, 500MW Per Month (Elon Confirmed)", source: "Next Big Future", time: "2d ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Tekever", headline: "TEKEVER raises $580M Series D, DTCP closes '455M defence fund, and the challenge to reinvent chip design", source: "Tech.eu", time: "2d ago", impact: "high", unread: false },
+  { id: 13, type: "hire", company: "Agility Robotics", headline: "Agility Robotics, maker of Digit humanoid, exploring wheeled robots", source: "The Robot Report", time: "2d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Waymo", headline: "Waymo ' Nearly 1,000 Avoided Injuries", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Saildrone", headline: "With Denmark, Saildrone logs first flag registration for naval surveillance drone", source: "Defense News", time: "3d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
