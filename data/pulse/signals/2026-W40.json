@@ -1,0 +1,129 @@
+{
+ "week": "2026-W40",
+ "generated": "2026-09-28",
+ "count": 9,
+ "by_type": {
+  "production_turn": 5,
+  "hiring_surge": 3,
+  "hiring_pullback": 1
+ },
+ "signals": [
+  {
+   "company": "Zipline",
+   "bucket": "Autonomy & Robotics",
+   "state": "CA",
+   "type": "production_turn",
+   "week": "2026-W40",
+   "evidence": {
+    "atoms_share_now_pct": 42.4,
+    "atoms_share_12w_ago_pct": 15.0,
+    "roles_now": 342
+   },
+   "last_capital_event": "2016-07"
+  },
+  {
+   "company": "Vannevar Labs",
+   "bucket": "Defence",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W40",
+   "evidence": {
+    "roles_4w_ago": 23,
+    "roles_now": 31,
+    "change_pct": 34.8
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Divergent",
+   "bucket": "Manufacturing & Materials",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W40",
+   "evidence": {
+    "roles_4w_ago": 78,
+    "roles_now": 112,
+    "change_pct": 43.6
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Divergent",
+   "bucket": "Manufacturing & Materials",
+   "state": "CA",
+   "type": "production_turn",
+   "week": "2026-W40",
+   "evidence": {
+    "atoms_share_now_pct": 65.2,
+    "atoms_share_12w_ago_pct": 43.6,
+    "roles_now": 112
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Astranis",
+   "bucket": "Space & Aerospace",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W40",
+   "evidence": {
+    "roles_4w_ago": 84,
+    "roles_now": 165,
+    "change_pct": 96.4
+   },
+   "last_capital_event": "2025-03"
+  },
+  {
+   "company": "Skyryse",
+   "bucket": "Space & Aerospace",
+   "state": "CA",
+   "type": "production_turn",
+   "week": "2026-W40",
+   "evidence": {
+    "atoms_share_now_pct": 66.7,
+    "atoms_share_12w_ago_pct": 33.3,
+    "roles_now": 18
+   },
+   "last_capital_event": "2025-10"
+  },
+  {
+   "company": "Amca",
+   "bucket": "Manufacturing & Materials",
+   "state": "CA",
+   "type": "production_turn",
+   "week": "2026-W40",
+   "evidence": {
+    "atoms_share_now_pct": 70.3,
+    "atoms_share_12w_ago_pct": 55.2,
+    "roles_now": 37
+   },
+   "last_capital_event": "2026-06"
+  },
+  {
+   "company": "Albedo",
+   "bucket": "Space & Aerospace",
+   "state": "CO",
+   "type": "hiring_pullback",
+   "week": "2026-W40",
+   "evidence": {
+    "roles_4w_ago": 10,
+    "roles_now": 7,
+    "change_pct": -30.0
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Hubble Network",
+   "bucket": "Space & Aerospace",
+   "state": "WA",
+   "type": "production_turn",
+   "week": "2026-W40",
+   "evidence": {
+    "atoms_share_now_pct": 46.7,
+    "atoms_share_12w_ago_pct": 14.3,
+    "roles_now": 15
+   },
+   "last_capital_event": null
+  }
+ ]
+}

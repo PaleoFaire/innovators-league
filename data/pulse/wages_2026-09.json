@@ -1,0 +1,171 @@
+{
+ "month": "2026-09",
+ "n_postings_with_ranges": 1171,
+ "median_midpoint_by_class": {
+  "software": 177295,
+  "commercial": 147000,
+  "other": 165864,
+  "hardware": 167500,
+  "manufacturing": 140000
+ },
+ "median_midpoint_by_state": {
+  "CA": 165100,
+  "WA": 155890,
+  "MA": 197500
+ },
+ "top_paid_titles": [
+  {
+   "title": "software engineer",
+   "n": 7,
+   "median_midpoint": 222733
+  },
+  {
+   "title": "electrical engineer",
+   "n": 15,
+   "median_midpoint": 190000
+  },
+  {
+   "title": "technical program manager",
+   "n": 7,
+   "median_midpoint": 187048
+  },
+  {
+   "title": "thermal engineer",
+   "n": 5,
+   "median_midpoint": 178560
+  },
+  {
+   "title": "electrical design engineer",
+   "n": 5,
+   "median_midpoint": 177500
+  },
+  {
+   "title": "full stack software engineer",
+   "n": 7,
+   "median_midpoint": 173465
+  },
+  {
+   "title": "fpga engineer",
+   "n": 4,
+   "median_midpoint": 165850
+  },
+  {
+   "title": "propulsion engineer",
+   "n": 4,
+   "median_midpoint": 163328
+  },
+  {
+   "title": "test engineer",
+   "n": 4,
+   "median_midpoint": 157597
+  },
+  {
+   "title": "mechanical engineer",
+   "n": 17,
+   "median_midpoint": 157500
+  },
+  {
+   "title": "mechanical design engineer",
+   "n": 6,
+   "median_midpoint": 153800
+  },
+  {
+   "title": "manufacturing engineer",
+   "n": 12,
+   "median_midpoint": 147750
+  },
+  {
+   "title": "systems engineer",
+   "n": 6,
+   "median_midpoint": 145452
+  },
+  {
+   "title": "platform engineer",
+   "n": 4,
+   "median_midpoint": 145000
+  },
+  {
+   "title": "propulsion test engineer",
+   "n": 5,
+   "median_midpoint": 140500
+  }
+ ],
+ "most_common_paid_titles": [
+  {
+   "title": "mechanical engineer",
+   "n": 17,
+   "median_midpoint": 157500
+  },
+  {
+   "title": "electrical engineer",
+   "n": 15,
+   "median_midpoint": 190000
+  },
+  {
+   "title": "manufacturing engineer",
+   "n": 12,
+   "median_midpoint": 147750
+  },
+  {
+   "title": "accountant",
+   "n": 8,
+   "median_midpoint": 106175
+  },
+  {
+   "title": "software engineer",
+   "n": 7,
+   "median_midpoint": 222733
+  },
+  {
+   "title": "full stack software engineer",
+   "n": 7,
+   "median_midpoint": 173465
+  },
+  {
+   "title": "technical program manager",
+   "n": 7,
+   "median_midpoint": 187048
+  },
+  {
+   "title": "mechanical design engineer",
+   "n": 6,
+   "median_midpoint": 153800
+  },
+  {
+   "title": "systems engineer",
+   "n": 6,
+   "median_midpoint": 145452
+  },
+  {
+   "title": "automation sales manager",
+   "n": 6,
+   "median_midpoint": 127500
+  },
+  {
+   "title": "propulsion test engineer",
+   "n": 5,
+   "median_midpoint": 140500
+  },
+  {
+   "title": "electrical design engineer",
+   "n": 5,
+   "median_midpoint": 177500
+  },
+  {
+   "title": "technical recruiter",
+   "n": 5,
+   "median_midpoint": 132500
+  },
+  {
+   "title": "thermal engineer",
+   "n": 5,
+   "median_midpoint": 178560
+  },
+  {
+   "title": "executive assistant",
+   "n": 4,
+   "median_midpoint": 113250
+  }
+ ],
+ "note": "Greenhouse postings with a published USD range (pay-transparency states over-represented: CA, CO, NY, WA). Midpoint of the range."
+}

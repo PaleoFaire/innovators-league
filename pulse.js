@@ -134,3 +134,55 @@
   if ($('pulse-exposure')) $('pulse-exposure').innerHTML = `<h3>Pulse-to-ticker (v0: bucket level)</h3><p style="font-size:12px;color:rgba(255,255,255,0.5);margin:4px 0 8px">Each bucket's private-cohort diffusion beside the listed names in that bucket of the Build-Out Index. v1 replaces buckets with the Supplier Map from the visits.</p><table class="pulse-table"><thead><tr><th>Bucket</th><th>Panel</th><th>Diffusion</th><th>Open roles</th><th>Listed names</th></tr></thead><tbody>` +
     (I.pulse_to_ticker_v0 || []).map(e => `<tr class="${e.sufficient ? '' : 'insufficient'}"><td>${esc(e.bucket)}</td><td class="num">${e.panel}</td><td class="num"><strong>${fmt(e.diffusion)}</strong></td><td class="num">${fmt(e.open_roles)}</td><td>${(e.listed_names_v0 || []).join(', ') || '—'}</td></tr>`).join('') + '</tbody></table>';
 })();
+
+// ── Signals, labour, wages, metros, primes (calc_pulse_signals.py) ──
+(function () {
+  if (typeof PULSE_DATA === 'undefined') return;
+  const D = PULSE_DATA;
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const fmt = n => (n === '' || n === null || n === undefined) ? '—' : Number(n).toLocaleString('en-US', { maximumFractionDigits: 0 });
+  const money = n => (n === null || n === undefined) ? '—' : '$' + Number(n).toLocaleString('en-US', { maximumFractionDigits: 0 });
+  const S = D.signals;
+  if (S && $('pulse-signals-table')) {
+    $('sig-week').textContent = S.week + ' · ' + S.count + ' signals';
+    const names = { production_turn: 'Production turn', first_manufacturing_hire: 'First manufacturing hire', new_location: 'New location', senior_manufacturing_hire: 'Factory coming', hiring_surge: 'Hiring surge', hiring_pullback: 'Hiring pullback', board_check: 'Board check' };
+    const evid = s => Object.entries(s.evidence || {}).filter(([k, v]) => !Array.isArray(v)).map(([k, v]) => `${k.replace(/_/g, ' ')} ${v}`).join(' · ');
+    $('pulse-signals-table').innerHTML = (S.items && S.items.length) ? `<table class="pulse-table"><thead><tr><th>Signal</th><th>Company</th><th>Bucket</th><th>Evidence</th><th>Last capital event</th></tr></thead><tbody>` +
+      S.items.map(s => `<tr><td><span class="pill ${s.type === 'board_check' ? 'warn' : 'ok'}">${esc(names[s.type] || s.type)}</span></td><td>${esc(s.company)}</td><td>${esc(s.bucket)}</td><td style="color:rgba(255,255,255,0.7)">${esc(evid(s))}</td><td>${s.last_capital_event || '<span class="pill warn">none on record</span>'}</td></tr>`).join('') +
+      `</tbody></table><p style="font-size:12px;color:rgba(255,255,255,0.5);margin-top:8px">${S.pullbacks_count || 0} hiring pullbacks this week — names for paying tiers.</p>` : '<p style="color:rgba(255,255,255,0.5)">No new signals this week.</p>';
+  }
+  const L = D.labour;
+  if (L && $('pulse-labour-table')) {
+    const cls = L.median_age_days_by_class || {};
+    $('pulse-labour-table').innerHTML = `<h3>Median days open, by role class (n=${fmt(L.n_postings_with_true_dates)})</h3><table class="pulse-table"><thead><tr><th>Class</th><th>Median days open</th></tr></thead><tbody>` +
+      Object.entries(cls).sort((a, b) => b[1] - a[1]).map(([k, v]) => `<tr><td>${esc(k)}</td><td class="num">${v}</td></tr>`).join('') + '</tbody></table>' +
+      `<h3 style="margin-top:18px">Hardest-to-fill titles</h3><table class="pulse-table"><thead><tr><th>Title</th><th>Open postings</th><th>Median days open</th></tr></thead><tbody>` +
+      (L.hardest_to_fill_titles || []).slice(0, 12).map(t => `<tr><td>${esc(t.title)}</td><td class="num">${t.n}</td><td class="num">${t.median_age_days}</td></tr>`).join('') + '</tbody></table>' +
+      `<p style="font-size:12px;color:rgba(255,255,255,0.5);margin-top:8px">${esc(L.note || '')}</p>`;
+  }
+  const W = D.wages;
+  if (W && $('pulse-wages-table')) {
+    const cls = W.median_midpoint_by_class || {}, st = W.median_midpoint_by_state || {};
+    $('pulse-wages-table').innerHTML = `<h3>Median pay-range midpoint, by role class (n=${fmt(W.n_postings_with_ranges)})</h3><table class="pulse-table"><thead><tr><th>Class</th><th>Median midpoint</th></tr></thead><tbody>` +
+      Object.entries(cls).sort((a, b) => b[1] - a[1]).map(([k, v]) => `<tr><td>${esc(k)}</td><td class="num">${money(v)}</td></tr>`).join('') + '</tbody></table>' +
+      `<h3 style="margin-top:18px">By state</h3><table class="pulse-table"><thead><tr><th>State</th><th>Median midpoint</th></tr></thead><tbody>` +
+      Object.entries(st).map(([k, v]) => `<tr><td>${esc(k)}</td><td class="num">${money(v)}</td></tr>`).join('') + '</tbody></table>' +
+      `<h3 style="margin-top:18px">Top-paid titles</h3><table class="pulse-table"><thead><tr><th>Title</th><th>n</th><th>Median midpoint</th></tr></thead><tbody>` +
+      (W.top_paid_titles || []).slice(0, 8).map(t => `<tr><td>${esc(t.title)}</td><td class="num">${t.n}</td><td class="num">${money(t.median_midpoint)}</td></tr>`).join('') + '</tbody></table>' +
+      `<p style="font-size:12px;color:rgba(255,255,255,0.5);margin-top:8px">${esc(W.note || '')}</p>`;
+  }
+  const M = D.metros;
+  if (M && $('pulse-metro-table')) {
+    $('pulse-metro-table').innerHTML = `<h3>Top metros</h3><table class="pulse-table"><thead><tr><th>Metro</th><th>Postings</th><th>Companies</th><th>12 weeks ago</th></tr></thead><tbody>` +
+      (M.top || []).slice(0, 15).map(m => `<tr><td>${esc(m.metro)}</td><td class="num">${fmt(m.postings)}</td><td class="num">${m.companies}</td><td class="num">${fmt(m.postings_12w_ago)}</td></tr>`).join('') + '</tbody></table>' +
+      `<h3 style="margin-top:18px">New this quarter (constant set of ${M.constant_set_size || '—'} companies)</h3>` + ((M.new_this_quarter || []).length ? `<table class="pulse-table"><thead><tr><th>Metro</th><th>Postings</th><th>Who</th></tr></thead><tbody>` +
+      M.new_this_quarter.slice(0, 10).map(m => `<tr><td>${esc(m.metro)}</td><td class="num">${m.postings}</td><td>${(m.companies || []).map(esc).join(', ')}</td></tr>`).join('') + '</tbody></table>' : '<p style="color:rgba(255,255,255,0.5)">None.</p>');
+  }
+  const P = D.primes;
+  if ($('pulse-primes-table')) {
+    $('pulse-primes-table').innerHTML = `<h3>Ecosystem Pulse — the primes' partner start-ups</h3><p style="font-size:12px;color:rgba(255,255,255,0.5);margin:4px 0 8px">Private companies with a documented relationship to a listed prime, run through the four-week diffusion. Small panels; printed with n.</p>` +
+      ((P && P.length) ? `<table class="pulse-table"><thead><tr><th>Prime</th><th>Ticker</th><th>Partners on panel</th><th>Diffusion (4w)</th><th>Roles</th><th>Partners</th></tr></thead><tbody>` +
+      P.map(p => `<tr><td>${esc(p.prime)}</td><td>${esc(p.ticker)}</td><td class="num">${p.on_panel} of ${p.partners_tracked}</td><td class="num"><strong>${p.diffusion_4w}</strong></td><td class="num">${p.roles_4w_ago} → ${p.roles_now}</td><td style="color:rgba(255,255,255,0.7)">${(p.partners || []).map(esc).join(', ')}</td></tr>`).join('') + '</tbody></table>' : '<p style="color:rgba(255,255,255,0.5)">Not enough partner companies on the panel yet.</p>');
+  }
+})();

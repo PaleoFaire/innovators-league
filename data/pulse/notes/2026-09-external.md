@@ -20,31 +20,6 @@
 
 *Signals, not verdicts. Confirm before acting.*
 
-**About to build** — a senior manufacturing hire plus rising roles:
-
-| Company | Bucket | Senior mfg roles open | Roles | Last capital event | Status |
-|---|---|---|---|---|---|
-| Zipline | Autonomy & Robotics | 3 | 328 → 342 | 2016-07 | UNVERIFIED |
-| Muon Space | Space & Aerospace | 2 | 105 → 123 | none on record | UNVERIFIED |
-| Mach Industries | Defence | 1 | 20 → 128 | 2026-09 | UNVERIFIED |
-| General Matter | Nuclear | 1 | 115 → 126 | 2025-11 | UNVERIFIED |
-| Divergent | Manufacturing & Materials | 1 | 70 → 112 | none on record | UNVERIFIED |
-| Nuro | Autonomy & Robotics | 1 | 101 → 106 | 2026-03 | UNVERIFIED |
-| Agility Robotics | Autonomy & Robotics | 1 | 66 → 69 | 2026-02 | UNVERIFIED |
-| Skyryse | Space & Aerospace | 1 | 13 → 18 | 2025-10 | UNVERIFIED |
-
-**About to raise** — roles up 30%+ in three months, no round on our record in twelve:
-
-| Company | Bucket | Roles 3m ago → now | Growth | Last capital event | Status |
-|---|---|---|---|---|---|
-| Muon Space | Space & Aerospace | 48 → 123 | +156.2% | none on record | UNVERIFIED |
-| Astranis | Space & Aerospace | 84 → 166 | +97.6% | 2025-03 | UNVERIFIED |
-| Divergent | Manufacturing & Materials | 59 → 112 | +89.8% | none on record | UNVERIFIED |
-| Hubble Network | Space & Aerospace | 8 → 15 | +87.5% | none on record | UNVERIFIED |
-| Formic | Autonomy & Robotics | 25 → 42 | +68.0% | none on record | UNVERIFIED |
-| Extropic | Chips & Quantum | 7 → 10 | +42.9% | none on record | UNVERIFIED |
-| Inversion Space | Space & Aerospace | 57 → 77 | +35.1% | none on record | UNVERIFIED |
-| Outpost Space | Space & Aerospace | 13 → 17 | +30.8% | none on record | UNVERIFIED |
 
 **Runway stress:** 1 companies (roles down 30%+ in three months, no round in eighteen). Names for Circle and Institutional only.
 
@@ -108,7 +83,7 @@ New this quarter on the constant set: Esparto, CA (9: Zipline), Ann Arbor, CA (8
 
 **The public-market investor.** The private-cohort demand signal is strongest in Power & Grid; the listed names in that bucket of the Build-Out Index are the exposure (Pulse-to-ticker above). Watch award breadth: at 42.3 and falling, the defence names' federal pipeline is thinner than their narrative.
 
-**The VC and the family office.** The about-to-raise table is a call list; 8 names this month, verified status in the last column. The production-turn signals (5 this week) are companies moving from prototype to rate — the moment the next round gets priced.
+**The VC and the family office.** The about-to-raise table is a call list; 0 names this month, verified status in the last column. The production-turn signals (5 this week) are companies moving from prototype to rate — the moment the next round gets priced.
 
 **The founder.** Benchmark yourself against your bucket at benchmark.html. The hardest-to-fill roles list is where your competitors are stuck too; the wage table is what they're paying for the same title in the same state.
 
@@ -120,7 +95,7 @@ New this quarter on the constant set: Esparto, CA (9: Zipline), Ann Arbor, CA (8
 |---|---|
 | DO | *[Stephen signs — the expression: sleeve or name, size, entry date]* |
 | DON'T | *[Stephen signs — the avoid list with the reason]* |
-| LOOK AT | Zipline — 3 senior manufacturing roles open, 342 roles |
+| LOOK AT | — |
 | UNDERVALUED | *[Stephen signs — the one thing the market misprices, one number]* |
 | WHO GETS DISRUPTED, BY WHEN | *[Stephen signs — incumbent, mechanism, listed name, date]* |
 | WHAT CHANGES OUR MIND | The Pulse below 50 for two consecutive prints; award breadth below 40 with capital breadth following |

@@ -1,0 +1,59 @@
+name: Pulse — weekly signals
+
+# The event-driven layer of the Build-Out Pulse: weekly snapshots from git, signals that fire once
+# (factory-coming hires, production turns, first manufacturing hires, new locations, surges,
+# pullbacks, board checks), the labour/wage/metro/prime exhibits and the Monday digest.
+# Mondays 11:00 UTC (7am ET), after the overnight syncs.
+
+on:
+  schedule:
+    - cron: '0 11 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pulse-weekly
+  cancel-in-progress: false
+
+jobs:
+  signals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Compute signals and exhibits
+        run: |
+          python3 scripts/calc_pulse.py --no-backfill
+          python3 scripts/calc_pulse_intel.py
+          python3 scripts/calc_pulse_signals.py
+          python3 scripts/build_pulse_companies.py
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit and push (retry on conflict)
+        run: |
+          for attempt in 1 2 3 4 5; do
+            git stash --include-untracked 2>/dev/null || true
+            git pull --rebase origin main || git rebase --abort 2>/dev/null || true
+            git stash pop 2>/dev/null || true
+            git add data/pulse data/pulse_auto.js data/pulse_companies_auto.js 2>/dev/null || true
+            if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+            git commit -m "🫀 Pulse signals: $(date -u +%G-W%V)"
+            git push origin main && exit 0
+            git reset --soft HEAD~1
+            sleep $((attempt * 7))
+          done
+          echo "::error::could not push after 5 attempts"; exit 1
