@@ -3,20 +3,20 @@
  "states": [
   {
    "state": "CA",
-   "roles": 3388,
-   "atoms": 1831,
-   "sw": 685
+   "roles": 3386,
+   "atoms": 1827,
+   "sw": 684
   },
   {
    "state": "REMOTE",
-   "roles": 552,
+   "roles": 551,
    "atoms": 116,
    "sw": 159
   },
   {
    "state": "TX",
-   "roles": 400,
-   "atoms": 240,
+   "roles": 395,
+   "atoms": 238,
    "sw": 48
   },
   {
@@ -33,13 +33,13 @@
   },
   {
    "state": "MA",
-   "roles": 255,
-   "atoms": 116,
+   "roles": 256,
+   "atoms": 115,
    "sw": 52
   },
   {
    "state": "NY",
-   "roles": 229,
+   "roles": 230,
    "atoms": 72,
    "sw": 68
   },
@@ -51,7 +51,7 @@
   },
   {
    "state": "NV",
-   "roles": 98,
+   "roles": 99,
    "atoms": 71,
    "sw": 4
   },

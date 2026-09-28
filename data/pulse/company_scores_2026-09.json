@@ -41,7 +41,7 @@
    "company": "Astranis",
    "bucket": "Space & Aerospace",
    "score": 49.9,
-   "roles": 166,
+   "roles": 165,
    "in_hiring_panel": true,
    "last_capital": "2025-03",
    "last_contract": "2026-04"
@@ -58,7 +58,7 @@
   {
    "company": "Galvanick",
    "bucket": "Defence",
-   "score": 42.1,
+   "score": 42.9,
    "roles": 2,
    "in_hiring_panel": true,
    "last_capital": "2026-09",
@@ -72,6 +72,15 @@
    "in_hiring_panel": true,
    "last_capital": null,
    "last_contract": "2026-01"
+  },
+  {
+   "company": "Quaise Energy",
+   "bucket": "Power & Grid",
+   "score": 40.4,
+   "roles": 10,
+   "in_hiring_panel": true,
+   "last_capital": "2026-07",
+   "last_contract": null
   },
   {
    "company": "Inversion Space",
@@ -89,15 +98,6 @@
    "roles": 18,
    "in_hiring_panel": true,
    "last_capital": "2025-10",
-   "last_contract": null
-  },
-  {
-   "company": "Quaise Energy",
-   "bucket": "Power & Grid",
-   "score": 39.6,
-   "roles": 10,
-   "in_hiring_panel": true,
-   "last_capital": "2026-07",
    "last_contract": null
   },
   {
@@ -191,21 +191,21 @@
    "last_contract": "2025-12"
   },
   {
+   "company": "Tenstorrent",
+   "bucket": "Chips & Quantum",
+   "score": 32.9,
+   "roles": 123,
+   "in_hiring_panel": true,
+   "last_capital": "2026-07",
+   "last_contract": null
+  },
+  {
    "company": "Extropic",
    "bucket": "Chips & Quantum",
    "score": 32.9,
    "roles": 10,
    "in_hiring_panel": true,
    "last_capital": null,
-   "last_contract": null
-  },
-  {
-   "company": "Tenstorrent",
-   "bucket": "Chips & Quantum",
-   "score": 32.1,
-   "roles": 123,
-   "in_hiring_panel": true,
-   "last_capital": "2026-07",
    "last_contract": null
   },
   {
