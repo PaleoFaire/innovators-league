@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-25T08:43:38+00:00",
-  "knownCompaniesCount": 2032,
+  "generatedAt": "2026-09-28T15:58:31+00:00",
+  "knownCompaniesCount": 2019,
   "summary": {
-    "totalCandidates": 390,
+    "totalCandidates": 370,
     "fromFormD": 0,
-    "fromVcPortfolios": 340,
+    "fromVcPortfolios": 319,
     "fromNewsletters": 24,
     "fromLlmExtraction": 35,
     "multiSource": 3
@@ -234,36 +234,6 @@
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Dioxycle",
-      "score": 50,
-      "signals": [
-        {
-          "name": "Dioxycle",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2022-03-28",
-          "verifyUrl": "https://dioxycle.com",
-          "context": "Listed by Lowercarbon, first funded 2022-03-28: CO\u2082 reborn. Big Picture The modern world is built on carbon. Today it comes from fossil fuels, but many have aspired to replace carbon molecules pumped out of the Earth\u2019s crust with CO\u2082 captured from "
-        },
-        {
-          "name": "Dioxycle",
-          "source": "VC portfolio: Gigascale",
-          "sourceWeight": 25,
-          "vc": "Gigascale",
-          "date": "2022-03-28",
-          "verifyUrl": "https://dioxycle.com",
-          "context": "Listed by Gigascale: CO\u2082 reborn. Big Picture The modern world is built on carbon. Today it comes from fossil fuels, but many have aspired to replace carbon molecules pumped out of the Earth\u2019s crust with CO\u2082 captured from "
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
       "name": "Crux",
       "score": 43,
       "signals": [
@@ -324,111 +294,6 @@
       "suggestedSector": null
     },
     {
-      "name": "Andean Inc",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Andean Inc",
-          "source": "VC portfolio: Cantos",
-          "sourceWeight": 35,
-          "vc": "Cantos",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.andean.systems/",
-          "context": "Listed by Cantos: Sustainable rare earth metal extraction from e-waste"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Dominion",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Dominion",
-          "source": "VC portfolio: Silent",
-          "sourceWeight": 35,
-          "vc": "Silent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.dominion-dynamics.com/",
-          "context": "Listed by Silent: Dominion Dynamics builds the autonomy stack for the Arctic \u2014 integrated sensing, communications, and command and control for defence, security, and critical infrastructure."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Thor Dynamics",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Thor Dynamics",
-          "source": "VC portfolio: Silent",
-          "sourceWeight": 35,
-          "vc": "Silent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.thordynamics.com/",
-          "context": "Listed by Silent: We\u2019re on a mission to deliver affordable drone defense at scale \u2013 protecting critical targets and infrastructure from aerial threats."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Defense & Security"
-    },
-    {
-      "name": "Voyager Technologies",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Voyager Technologies",
-          "source": "VC portfolio: Silent",
-          "sourceWeight": 35,
-          "vc": "Silent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://voyagertechnologies.com/",
-          "context": "Listed by Silent"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Youtu",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Youtu",
-          "source": "VC portfolio: Silent",
-          "sourceWeight": 35,
-          "vc": "Silent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://youtu.be/2oeUEpi_NUs/",
-          "context": "Listed by Silent"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
       "name": "Aloft",
       "score": 35,
       "signals": [
@@ -440,27 +305,6 @@
           "date": "2026-09-25",
           "verifyUrl": "https://www.aloft.ai/",
           "context": "Listed by Decisive Point: Aloft provides an FAA approved airspace and fleet management platform, powering mission-critical drone operations for public safety and the enterprise."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Defense & Security"
-    },
-    {
-      "name": "Applied Intuition Defense",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Applied Intuition Defense",
-          "source": "VC portfolio: Decisive Point",
-          "sourceWeight": 35,
-          "vc": "Decisive Point",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.episci.com/",
-          "context": "Listed by Decisive Point: Applied Intuition Defense accelerates the deployment of next-generation autonomous warfare capabilities with software infrastructure."
         }
       ],
       "sources": [
@@ -534,27 +378,6 @@
       "suggestedSector": null
     },
     {
-      "name": "Maybell",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Maybell",
-          "source": "VC portfolio: Decisive Point",
-          "sourceWeight": 35,
-          "vc": "Decisive Point",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.maybellquantum.com/",
-          "context": "Listed by Decisive Point: Maybell builds beautiful, performant dilution refrigerators obsessively designed to support more qubits in a smaller footprint."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Quantum Computing"
-    },
-    {
       "name": "Pison",
       "score": 35,
       "signals": [
@@ -576,17 +399,17 @@
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "VATN",
+      "name": "Harbinger Industries",
       "score": 35,
       "signals": [
         {
-          "name": "VATN",
-          "source": "VC portfolio: Decisive Point",
+          "name": "Harbinger Industries",
+          "source": "VC portfolio: Silent",
           "sourceWeight": 35,
-          "vc": "Decisive Point",
-          "date": "2026-09-25",
-          "verifyUrl": "http://www.vatnsystems.com",
-          "context": "Listed by Decisive Point: VATN produces modular AUVs, hydrographic systems, & swarm tech engineered for GPS denied navigation & maritime defense missions."
+          "vc": "Silent",
+          "date": "2026-09-28",
+          "verifyUrl": "https://harbinger.industries/",
+          "context": "Listed by Silent: Harbinger Industries builds electric vehicles, autonomous systems, defense platforms, energy generation, and advanced components across five integrated verticals."
         }
       ],
       "sources": [
@@ -595,6 +418,48 @@
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": "Defense & Security"
+    },
+    {
+      "name": "Voyager Technologies",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Voyager Technologies",
+          "source": "VC portfolio: Silent",
+          "sourceWeight": 35,
+          "vc": "Silent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://voyagertechnologies.com/",
+          "context": "Listed by Silent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Youtu",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Youtu",
+          "source": "VC portfolio: Silent",
+          "sourceWeight": 35,
+          "vc": "Silent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://youtu.be/2oeUEpi_NUs/",
+          "context": "Listed by Silent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
     },
     {
       "name": "6 River Systems",
@@ -618,48 +483,6 @@
       "suggestedSector": "Robotics & Manufacturing"
     },
     {
-      "name": "Anode",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Anode",
-          "source": "VC portfolio: Eclipse",
-          "sourceWeight": 35,
-          "vc": "Eclipse",
-          "date": "2026-03-23",
-          "verifyUrl": "https://anode.tech/",
-          "context": "Listed by Eclipse, first funded 2026-03-23: Anode Technology's battery-powered mobile microgrids offer a superior\u00a0alternative to power rental services that rely on generators and fuel delivery."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Biotech & Health"
-    },
-    {
-      "name": "Efficient Computer",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Efficient Computer",
-          "source": "VC portfolio: Eclipse",
-          "sourceWeight": 35,
-          "vc": "Eclipse",
-          "date": "2025-10-28",
-          "verifyUrl": "https://www.efficient.computer/",
-          "context": "Listed by Eclipse, first funded 2025-10-28: Efficient is building the world\u2019s most energy-efficient general-purpose processor and the software that makes it work."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Biotech & Health"
-    },
-    {
       "name": "Jetson",
       "score": 35,
       "signals": [
@@ -679,48 +502,6 @@
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": null
-    },
-    {
-      "name": "Nucleus Radiopharma",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Nucleus Radiopharma",
-          "source": "VC portfolio: Eclipse",
-          "sourceWeight": 35,
-          "vc": "Eclipse",
-          "date": "2025-10-28",
-          "verifyUrl": "https://nucleusrad.com/",
-          "context": "Listed by Eclipse, first funded 2025-10-28: Nucleus RadioPharma was founded in 2022 through a partnership with Mayo Clinic and Eclipse to ensure that the promise of new drugs for radioligand therapy reach the cancer patient."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Biotech & Health"
-    },
-    {
-      "name": "Reframe Systems",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Reframe Systems",
-          "source": "VC portfolio: Eclipse",
-          "sourceWeight": 35,
-          "vc": "Eclipse",
-          "date": "2025-10-28",
-          "verifyUrl": "https://www.reframe.systems/",
-          "context": "Listed by Eclipse, first funded 2025-10-28: Rethinking housing with intelligent systems and robotics that learn, adapt, and repeat, making homes more attainable and resilient for communities across the nation."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
     },
     {
       "name": "Stand",
@@ -910,27 +691,6 @@
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": null
-    },
-    {
-      "name": "Quantum Space",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Quantum Space",
-          "source": "VC portfolio: Prime Movers Lab",
-          "sourceWeight": 35,
-          "vc": "Prime Movers Lab",
-          "date": "2026-09-25",
-          "verifyUrl": "https://quantumspace.us",
-          "context": "Listed by Prime Movers Lab: Quantum Space is building the next generation of advanced maneuverable spacecraft providing orbital mobility for space defense, commercial and civil customers."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Space & Aerospace"
     },
     {
       "name": "Spartan",
@@ -1300,27 +1060,6 @@
           "vc": "Lux",
           "date": "2026-09-25",
           "verifyUrl": "https://www.luxcapital.com/companies/modal",
-          "context": "Listed by Lux"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Recursion Pharma",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Recursion Pharma",
-          "source": "VC portfolio: Lux",
-          "sourceWeight": 35,
-          "vc": "Lux",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.luxcapital.com/companies/recursion-pharma",
           "context": "Listed by Lux"
         }
       ],
@@ -1754,111 +1493,6 @@
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Airspace",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Airspace",
-          "source": "VC portfolio: Shield",
-          "sourceWeight": 25,
-          "vc": "Shield",
-          "date": "2026-09-25",
-          "verifyUrl": "https://shieldcap.com/portfolio/airspace",
-          "context": "Listed by Shield"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Authentic8",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Authentic8",
-          "source": "VC portfolio: Shield",
-          "sourceWeight": 25,
-          "vc": "Shield",
-          "date": "2026-09-25",
-          "verifyUrl": "https://shieldcap.com/portfolio/authentic8",
-          "context": "Listed by Shield"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Cogniac",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Cogniac",
-          "source": "VC portfolio: Shield",
-          "sourceWeight": 25,
-          "vc": "Shield",
-          "date": "2026-09-25",
-          "verifyUrl": "https://shieldcap.com/portfolio/cogniac",
-          "context": "Listed by Shield"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Gosecure",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Gosecure",
-          "source": "VC portfolio: Shield",
-          "sourceWeight": 25,
-          "vc": "Shield",
-          "date": "2026-09-25",
-          "verifyUrl": "https://shieldcap.com/portfolio/gosecure",
-          "context": "Listed by Shield"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Snorkel",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Snorkel",
-          "source": "VC portfolio: Shield",
-          "sourceWeight": 25,
-          "vc": "Shield",
-          "date": "2026-09-25",
-          "verifyUrl": "https://shieldcap.com/portfolio/snorkel",
-          "context": "Listed by Shield"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
       "name": "Acceleron",
       "score": 25,
       "signals": [
@@ -2174,27 +1808,6 @@
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Fuse",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Fuse",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2023-07-19",
-          "verifyUrl": "https://fuseenergy.com",
-          "context": "Listed by Lowercarbon, first funded 2023-07-19: Own your energy. Big Picture Over a quarter of Europe\u2019s power supply comes from natural gas. In the UK, the figure is closer to half. Hotter summers, colder winters, and a petro-funded land war have a"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
       "name": "Genomines",
       "score": 25,
       "signals": [
@@ -2311,27 +1924,6 @@
           "date": "2020-09-15",
           "verifyUrl": "https://loambio.com",
           "context": "Listed by Lowercarbon, first funded 2020-09-15: Farm-to-bank carbon removal. Big Picture Prevailing agricultural practices deplete soils of key nutrients, such as CO\u2082. Globally, this has resulted in an estimated 60% loss of soil organic carbon to t"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Lumen",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Lumen",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2020-09-15",
-          "verifyUrl": "https://getlumen.com",
-          "context": "Listed by Lowercarbon, first funded 2020-09-15: Go solar. Get paid. Big Picture While residential rooftop solar booms, only 3% of the 6 million commercial and industrial buildings in the US have made the switch to the cheaper, more reliable power o"
         }
       ],
       "sources": [
@@ -2720,27 +2312,6 @@
       "suggestedSector": null
     },
     {
-      "name": "Ulysses",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Ulysses",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2025-03-06",
-          "verifyUrl": "https://ulysses.inc",
-          "context": "Listed by Lowercarbon, first funded 2025-03-06: Robotics for ocean prosperity and protection. Big Picture We know shockingly little about the 70% of Earth covered in oceans. Until now, its large size has made it expensive to explore. The result is "
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Robotics & Manufacturing"
-    },
-    {
       "name": "Undo",
       "score": 25,
       "signals": [
@@ -2878,6 +2449,111 @@
           "date": "2022-02-02",
           "verifyUrl": "https://zeroacre.com",
           "context": "Listed by Lowercarbon, first funded 2022-02-02: Cooking oil that doesn\u2019t fry the planet. Big Picture Vegetable oils like soy and palm are the most consumed food products in the world after rice and wheat. The scale of consumption makes them one of "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Airspace",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Airspace",
+          "source": "VC portfolio: Shield",
+          "sourceWeight": 25,
+          "vc": "Shield",
+          "date": "2026-09-25",
+          "verifyUrl": "https://shieldcap.com/portfolio/airspace",
+          "context": "Listed by Shield"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Authentic8",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Authentic8",
+          "source": "VC portfolio: Shield",
+          "sourceWeight": 25,
+          "vc": "Shield",
+          "date": "2026-09-25",
+          "verifyUrl": "https://shieldcap.com/portfolio/authentic8",
+          "context": "Listed by Shield"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Cogniac",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Cogniac",
+          "source": "VC portfolio: Shield",
+          "sourceWeight": 25,
+          "vc": "Shield",
+          "date": "2026-09-25",
+          "verifyUrl": "https://shieldcap.com/portfolio/cogniac",
+          "context": "Listed by Shield"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Gosecure",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Gosecure",
+          "source": "VC portfolio: Shield",
+          "sourceWeight": 25,
+          "vc": "Shield",
+          "date": "2026-09-25",
+          "verifyUrl": "https://shieldcap.com/portfolio/gosecure",
+          "context": "Listed by Shield"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Snorkel",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Snorkel",
+          "source": "VC portfolio: Shield",
+          "sourceWeight": 25,
+          "vc": "Shield",
+          "date": "2026-09-25",
+          "verifyUrl": "https://shieldcap.com/portfolio/snorkel",
+          "context": "Listed by Shield"
         }
       ],
       "sources": [
@@ -3329,27 +3005,6 @@
       "suggestedSector": null
     },
     {
-      "name": "NVision",
-      "score": 25,
-      "signals": [
-        {
-          "name": "NVision",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.nvision-imaging.com/",
-          "context": "Listed by Playground: NVision Quantum leads the transformation in quantum computing and quantum-enhanced sensing by mastering quantum spin control to accelerate scientific discovery."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Quantum Computing"
-    },
-    {
       "name": "Outpace Bio",
       "score": 25,
       "signals": [
@@ -3558,6 +3213,27 @@
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": "Chips & Semiconductors"
+    },
+    {
+      "name": "Lumen",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Lumen",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 25,
+          "vc": "Lowercarbon",
+          "date": "2020-09-15",
+          "verifyUrl": "https://getlumen.com",
+          "context": "Listed by Lowercarbon, first funded 2020-09-15: Go solar. Get paid. Big Picture While residential rooftop solar booms, only 3% of the 6 million commercial and industrial buildings in the US have made the switch to the cheaper, more reliable power o"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
     },
     {
       "name": "Airplane",
@@ -3843,27 +3519,6 @@
           "vc": "Harpoon",
           "date": "2026-09-25",
           "verifyUrl": "https://harpoon.vc/portfolio/lumos",
-          "context": "Listed by Harpoon"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Material Security",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Material Security",
-          "source": "VC portfolio: Harpoon",
-          "sourceWeight": 25,
-          "vc": "Harpoon",
-          "date": "2026-09-25",
-          "verifyUrl": "https://harpoon.vc/portfolio/material-security",
           "context": "Listed by Harpoon"
         }
       ],
@@ -4610,17 +4265,17 @@
       "suggestedSector": null
     },
     {
-      "name": "Harbinger Motors",
+      "name": "Locus Lock",
       "score": 18,
       "signals": [
         {
-          "name": "Harbinger Motors",
+          "name": "Locus Lock",
           "source": "VC portfolio: IQT",
           "sourceWeight": 18,
           "vc": "IQT",
-          "date": "2026-09-25",
-          "verifyUrl": "https://harbingermotors.com/",
-          "context": "Listed by IQT: Familiar form. Revolutionary foundation. Harbinger Motors is a EV manufacturer focused on commercial vehicles."
+          "date": "2026-09-28",
+          "verifyUrl": "https://locuslock.com/",
+          "context": "Listed by IQT: Locus Lock builds software-defined GNSS technology for precise, resilient positioning in contested environments, serving aerospace, defense, and mobility companies."
         }
       ],
       "sources": [
@@ -4628,7 +4283,7 @@
       ],
       "multiSource": false,
       "confidence": "high",
-      "suggestedSector": null
+      "suggestedSector": "Space & Aerospace"
     },
     {
       "name": "Mueon",
@@ -5460,27 +5115,6 @@
           "vc": "Seraphim Space",
           "date": "2026-09-25",
           "verifyUrl": "https://www.metheraglobal.com/",
-          "context": "Listed by Seraphim Space"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Space & Aerospace"
-    },
-    {
-      "name": "Nominal Systems",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Nominal Systems",
-          "source": "VC portfolio: Seraphim Space",
-          "sourceWeight": 18,
-          "vc": "Seraphim Space",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.nominalsys.com/",
           "context": "Listed by Seraphim Space"
         }
       ],
@@ -6437,27 +6071,6 @@
       "suggestedSector": null
     },
     {
-      "name": "Materialize",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Materialize",
-          "source": "VC portfolio: 8VC",
-          "sourceWeight": 18,
-          "vc": "8VC",
-          "date": "2026-09-25",
-          "verifyUrl": "https://materialize.com/",
-          "context": "Listed by 8VC: Materialize is a streaming SQL database company that makes it easy for developers to understand streaming data, answer complex questions, and build intelligent applications using standard technology. "
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
       "name": "Mindbloom",
       "score": 18,
       "signals": [
@@ -6889,27 +6502,6 @@
           "date": "2026-09-25",
           "verifyUrl": "https://www.unlearn.ai/",
           "context": "Listed by 8VC: Unlearn is the only company using AI to create Digital Twins to populate Intelligent Control Arms in clinical studies. By leveraging historical datasets and disease-specific machine-learning models, U"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Wispr Flow",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Wispr Flow",
-          "source": "VC portfolio: 8VC",
-          "sourceWeight": 18,
-          "vc": "8VC",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.flowvoice.ai/",
-          "context": "Listed by 8VC: Wispr is reinventing personal computing for an AI-first world with neural interfaces. The company\u2019s human-centered approach lets users interact with technology in a more natural way."
         }
       ],
       "sources": [
@@ -7445,48 +7037,6 @@
       "suggestedSector": null
     },
     {
-      "name": "Aerodome",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Aerodome",
-          "source": "VC portfolio: a16z",
-          "sourceWeight": 18,
-          "vc": "a16z",
-          "date": "2023-06-06",
-          "verifyUrl": "https://www.aerodome.com/",
-          "context": "Listed by a16z, first funded 2023-06-06: Aerodome is bringing the future of air support to public safety agencies around the world. Using a fully integrated, fully remote, automated, and AI-driven software operating system, we equip agencies"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Air Space Intelligence",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Air Space Intelligence",
-          "source": "VC portfolio: a16z",
-          "sourceWeight": 18,
-          "vc": "a16z",
-          "date": "2023-11-03",
-          "verifyUrl": "https://www.airspace-intelligence.com/",
-          "context": "Listed by a16z, first funded 2023-11-03: Air Space Intelligence (ASI) is a software-first aerospace & defense company. We partner with organizations such as the world's largest airlines and US&allied government agencies to ensure the most co"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Space & Aerospace"
-    },
-    {
       "name": "Rigup",
       "score": 18,
       "signals": [
@@ -7571,17 +7121,17 @@
       "suggestedSector": null
     },
     {
-      "name": "Uplift",
+      "name": "Aerodome",
       "score": 18,
       "signals": [
         {
-          "name": "Uplift",
+          "name": "Aerodome",
           "source": "VC portfolio: a16z",
           "sourceWeight": 18,
           "vc": "a16z",
-          "date": "2026-08-12",
-          "verifyUrl": "https://uplift.us",
-          "context": "Listed by a16z, first funded 2026-08-12: Uplift manufactures self-contained microhomes for disaster response, transitional housing, and other urgent shelter needs, delivering off-grid homes that can be transported and lived in the day they a"
+          "date": "2023-06-06",
+          "verifyUrl": "https://www.aerodome.com/",
+          "context": "Listed by a16z, first funded 2023-06-06: Aerodome is bringing the future of air support to public safety agencies around the world. Using a fully integrated, fully remote, automated, and AI-driven software operating system, we equip agencies"
         }
       ],
       "sources": [
@@ -7590,6 +7140,27 @@
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Air Space Intelligence",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Air Space Intelligence",
+          "source": "VC portfolio: a16z",
+          "sourceWeight": 18,
+          "vc": "a16z",
+          "date": "2023-11-03",
+          "verifyUrl": "https://www.airspace-intelligence.com/",
+          "context": "Listed by a16z, first funded 2023-11-03: Air Space Intelligence (ASI) is a software-first aerospace & defense company. We partner with organizations such as the world's largest airlines and US&allied government agencies to ensure the most co"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Space & Aerospace"
     },
     {
       "name": "Nscale Acquires AIP\u2019s",

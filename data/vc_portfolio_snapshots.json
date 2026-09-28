@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T08:41:55.329263+00:00",
+ "generated_at": "2026-09-28T15:56:23.164438+00:00",
  "funds": {
   "a16z": {
    "name": "Andreessen Horowitz",
@@ -7,18 +7,18 @@
    "kind": "a16z",
    "note": "Embedded JSON: 859 companies with first-investment dates",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 859,
-   "tracked": 60,
-   "overlap": 0.07,
+   "tracked": 62,
+   "overlap": 0.072,
    "new_this_run": 0,
    "baseline": false,
    "new_names": [],
-   "candidates": 9,
+   "candidates": 6,
    "rejected_by_bar": {
-    "focus outside American Dynamism": 760,
+    "focus outside American Dynamism": 759,
     "exited": 6,
-    "megacap / mega-private, deliberately untracked": 9,
+    "megacap / mega-private, deliberately untracked": 11,
     "description shows no physical product": 8,
     "software or services wearing a hard-tech label": 3,
     "a co-investor, not a company": 4
@@ -1457,14 +1457,14 @@
      "name": "Aerodome",
      "domain": "aerodome.com",
      "first_funded": "2023-06-06",
-     "known_as": null
+     "known_as": "Flock Safety"
     },
     {
      "id": "airspace-intelligence.com",
      "name": "Air Space Intelligence",
      "domain": "airspace-intelligence.com",
      "first_funded": "2023-11-03",
-     "known_as": null
+     "known_as": "ASI"
     },
     {
      "id": "airbase.us",
@@ -1884,7 +1884,7 @@
      "name": "Black Forest Labs",
      "domain": "bfl.ai",
      "first_funded": "2024-04-12",
-     "known_as": "Black Forest Labs"
+     "known_as": null
     },
     {
      "id": "blackore.ai",
@@ -5545,7 +5545,7 @@
      "name": "Toka Cyber Builders",
      "domain": "tokagroup.com",
      "first_funded": "2018-06-01",
-     "known_as": null
+     "known_as": "Toka"
     },
     {
      "id": "toma.com",
@@ -5713,7 +5713,7 @@
      "name": "Uplift",
      "domain": "uplift.us",
      "first_funded": "2026-08-12",
-     "known_as": null
+     "known_as": "Uplift"
     },
     {
      "id": "upsmith.com",
@@ -5923,7 +5923,7 @@
      "name": "World Labs",
      "domain": "worldlabs.ai",
      "first_funded": "2024-02-08",
-     "known_as": "World Labs"
+     "known_as": null
     },
     {
      "id": "worldcoin.org",
@@ -6045,10 +6045,10 @@
    "kind": "wp_company",
    "note": "WordPress company feed with dates and founders",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 64,
-   "tracked": 16,
-   "overlap": 0.25,
+   "tracked": 15,
+   "overlap": 0.234,
    "new_this_run": 0,
    "baseline": false,
    "new_names": [],
@@ -6057,7 +6057,7 @@
     "description shows no physical product": 7,
     "industry 'Analytics & Software' is software or consumer": 23,
     "industry 'Consumer Internet & Media' is software or consumer": 10,
-    "megacap / mega-private, deliberately untracked": 4,
+    "megacap / mega-private, deliberately untracked": 5,
     "software or services wearing a hard-tech label": 1
    },
    "holdings": [
@@ -6332,7 +6332,7 @@
      "name": "Scale",
      "domain": "scale.com",
      "first_funded": "2019-12-19",
-     "known_as": "Scale AI"
+     "known_as": null
     },
     {
      "id": "theathletic.com",
@@ -6516,17 +6516,17 @@
    "url": "https://lowercarbon.com/wp-json/wp/v2/company",
    "kind": "wp_company",
    "note": "WordPress company feed; HQ and founding year in the body",
-   "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
-   "count": 101,
-   "tracked": 34,
-   "overlap": 0.337,
+   "partial": "pages after 1 blocked (429); newest 100 kept",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+   "count": 100,
+   "tracked": 39,
+   "overlap": 0.39,
    "new_this_run": 0,
-   "baseline": true,
+   "baseline": false,
    "new_names": [],
-   "candidates": 55,
+   "candidates": 51,
    "rejected_by_bar": {
-    "description shows no physical product": 10,
+    "description shows no physical product": 8,
     "software or services wearing a hard-tech label": 2
    },
    "holdings": [
@@ -6654,7 +6654,7 @@
      "name": "Ulysses",
      "domain": "ulysses.inc",
      "first_funded": "2025-03-06",
-     "known_as": null
+     "known_as": "Ulysses Robotics"
     },
     {
      "id": "zeno.earth",
@@ -6920,7 +6920,7 @@
      "name": "Dioxycle",
      "domain": "dioxycle.com",
      "first_funded": "2022-03-28",
-     "known_as": null
+     "known_as": "Dioxycle"
     },
     {
      "id": "verdox.com",
@@ -7081,7 +7081,7 @@
      "name": "Remora",
      "domain": "remoracarbon.com",
      "first_funded": "2021-01-20",
-     "known_as": null
+     "known_as": "Remora"
     },
     {
      "id": "nitricity.co",
@@ -7109,7 +7109,7 @@
      "name": "Kula",
      "domain": "kulabio.com",
      "first_funded": "2020-09-25",
-     "known_as": null
+     "known_as": "Kula Bio"
     },
     {
      "id": "heartaerospace.com",
@@ -7186,7 +7186,7 @@
      "name": "Lumen",
      "domain": "getlumen.com",
      "first_funded": "2020-09-15",
-     "known_as": null
+     "known_as": "Lumen Energy"
     },
     {
      "id": "carbonengineering.com",
@@ -7229,13 +7229,6 @@
      "domain": "antora.com",
      "first_funded": "2020-08-29",
      "known_as": "Antora Energy"
-    },
-    {
-     "id": "entocycle.com",
-     "name": "Entocycle",
-     "domain": "entocycle.com",
-     "first_funded": "2020-08-21",
-     "known_as": null
     }
    ]
   },
@@ -7245,14 +7238,14 @@
    "kind": "sanity",
    "note": "Public Sanity dataset: websiteURL, foundedYear, founder",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 53,
-   "tracked": 30,
-   "overlap": 0.566,
+   "tracked": 35,
+   "overlap": 0.66,
    "new_this_run": 0,
    "baseline": false,
    "new_names": [],
-   "candidates": 9,
+   "candidates": 4,
    "rejected_by_bar": {
     "software or services wearing a hard-tech label": 11,
     "description shows no physical product": 3
@@ -7326,7 +7319,7 @@
      "name": "Anode",
      "domain": "anode.tech",
      "first_funded": "2026-03-23",
-     "known_as": null
+     "known_as": "Anode"
     },
     {
      "id": "evercars.com",
@@ -7445,7 +7438,7 @@
      "name": "Nucleus Radiopharma",
      "domain": "nucleusrad.com",
      "first_funded": "2025-10-28",
-     "known_as": null
+     "known_as": "Nucleus RadioPharma"
     },
     {
      "id": "trueanomaly.space",
@@ -7501,14 +7494,14 @@
      "name": "Efficient Computer",
      "domain": "efficient.computer",
      "first_funded": "2025-10-28",
-     "known_as": null
+     "known_as": "Efficient Computer"
     },
     {
      "id": "reframe.systems",
      "name": "Reframe Systems",
      "domain": "reframe.systems",
      "first_funded": "2025-10-28",
-     "known_as": null
+     "known_as": "Reframe Systems"
     },
     {
      "id": "tandempv.com",
@@ -7627,7 +7620,7 @@
      "name": "Vinci",
      "domain": "getvinci.ai",
      "first_funded": "2026-03-24",
-     "known_as": null
+     "known_as": "Vinci"
     }
    ]
   },
@@ -7637,18 +7630,18 @@
    "kind": "cards_8vc",
    "note": "Webflow cards; company site in a hidden anchor",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 174,
-   "tracked": 25,
-   "overlap": 0.144,
+   "tracked": 26,
+   "overlap": 0.149,
    "new_this_run": 0,
    "baseline": false,
    "new_names": [],
-   "candidates": 46,
+   "candidates": 44,
    "rejected_by_bar": {
     "software or services wearing a hard-tech label": 33,
     "description shows no physical product": 68,
-    "megacap / mega-private, deliberately untracked": 1,
+    "megacap / mega-private, deliberately untracked": 2,
     "a co-investor, not a company": 1
    },
    "holdings": [
@@ -7853,7 +7846,7 @@
      "name": "Cambium",
      "domain": "cambiumglobal.com",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Cambium"
     },
     {
      "id": "joincandidhealth.com",
@@ -7923,7 +7916,7 @@
      "name": "Cognition",
      "domain": "cognition.ai",
      "first_funded": "",
-     "known_as": "Cognition"
+     "known_as": null
     },
     {
      "id": "color.com",
@@ -8749,7 +8742,7 @@
      "name": "Terra Industries",
      "domain": "terraindustries.co",
      "first_funded": "",
-     "known_as": "Terrahaptix"
+     "known_as": "Terra Industries"
     },
     {
      "id": "boringcompany.com",
@@ -8847,7 +8840,7 @@
      "name": "Wispr Flow",
      "domain": "flowvoice.ai",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Wispr AI"
     },
     {
      "id": "withcoverage.com",
@@ -8878,16 +8871,16 @@
    "kind": "cards_lux",
    "note": "28 featured companies, names only",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 28,
-   "tracked": 12,
-   "overlap": 0.429,
+   "tracked": 11,
+   "overlap": 0.393,
    "new_this_run": 0,
    "baseline": false,
    "new_names": [],
    "candidates": 13,
    "rejected_by_bar": {
-    "megacap / mega-private, deliberately untracked": 3
+    "megacap / mega-private, deliberately untracked": 4
    },
    "holdings": [
     {
@@ -8916,7 +8909,7 @@
      "name": "Cognition",
      "domain": "",
      "first_funded": "",
-     "known_as": "Cognition"
+     "known_as": null
     },
     {
      "id": "n:physicalintelligence",
@@ -9094,14 +9087,14 @@
    "kind": "links",
    "note": "Homepage grid; 11 of 13 already tracked at launch",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 13,
-   "tracked": 12,
-   "overlap": 0.923,
+   "tracked": 13,
+   "overlap": 1.0,
    "new_this_run": 0,
    "baseline": false,
    "new_names": [],
-   "candidates": 1,
+   "candidates": 0,
    "rejected_by_bar": {},
    "holdings": [
     {
@@ -9193,7 +9186,7 @@
      "name": "",
      "domain": "andean.systems",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Andean"
     }
    ]
   },
@@ -9203,14 +9196,14 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 28,
-   "tracked": 14,
-   "overlap": 0.5,
+   "tracked": 15,
+   "overlap": 0.536,
    "new_this_run": 0,
    "baseline": false,
    "new_names": [],
-   "candidates": 7,
+   "candidates": 6,
    "rejected_by_bar": {
     "software or services wearing a hard-tech label": 6,
     "description shows no physical product": 1
@@ -9354,7 +9347,7 @@
      "name": "Elementary Robotics",
      "domain": "elementaryrobotics.com",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Elementary Robotics"
     },
     {
      "id": "openenvoy.com",
@@ -9420,16 +9413,16 @@
    "kind": "links",
    "note": "Squarespace; 77% overlap in the Sept 2026 hand scan",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 56,
-   "tracked": 37,
-   "overlap": 0.661,
+   "tracked": 39,
+   "overlap": 0.696,
    "new_this_run": 0,
    "baseline": false,
    "new_names": [],
-   "candidates": 6,
+   "candidates": 5,
    "rejected_by_bar": {
-    "a co-investor, not a company": 12,
+    "a co-investor, not a company": 11,
     "description shows no physical product": 1
    },
    "holdings": [
@@ -9459,7 +9452,7 @@
      "name": "Thor Dynamics",
      "domain": "thordynamics.com",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Thor Dynamics"
     },
     {
      "id": "aeonindustrial.com",
@@ -9519,10 +9512,10 @@
     },
     {
      "id": "dominion-dynamics.com",
-     "name": "Dominion Dynamics - Silent Ventures",
+     "name": "Dominion",
      "domain": "dominion-dynamics.com",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Dominion Dynamics"
     },
     {
      "id": "erebor.bank",
@@ -9606,11 +9599,11 @@
      "name": "Swarm Aero - Silent Ventures",
      "domain": "swarmaero.com",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Swarm Aero"
     },
     {
      "id": "swarmbotics.ai",
-     "name": "Swarmbotics AI",
+     "name": "Swarmbotics AI - Silent Ventures",
      "domain": "swarmbotics.ai",
      "first_funded": "",
      "known_as": "Swarmbotics AI"
@@ -9620,7 +9613,7 @@
      "name": "Terra Industries - Silent Ventures",
      "domain": "terraindustries.co",
      "first_funded": "",
-     "known_as": "Terrahaptix"
+     "known_as": "Terra Industries"
     },
     {
      "id": "traysar.com",
@@ -9711,7 +9704,7 @@
      "name": "Harbinger Industries - Silent Ventures",
      "domain": "harbinger.industries",
      "first_funded": "",
-     "known_as": "Harbinger"
+     "known_as": null
     },
     {
      "id": "kelasys.com",
@@ -9833,7 +9826,7 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 18,
    "tracked": 16,
    "overlap": 0.889,
@@ -9979,14 +9972,14 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 30,
-   "tracked": 16,
-   "overlap": 0.533,
+   "tracked": 17,
+   "overlap": 0.567,
    "new_this_run": 0,
    "baseline": false,
    "new_names": [],
-   "candidates": 12,
+   "candidates": 11,
    "rejected_by_bar": {
     "description shows no physical product": 2
    },
@@ -10087,7 +10080,7 @@
      "name": "Quantum Space",
      "domain": "quantumspace.us",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Quantum Space"
     },
     {
      "id": "paradromics.com",
@@ -10209,14 +10202,14 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 46,
-   "tracked": 15,
-   "overlap": 0.326,
+   "tracked": 16,
+   "overlap": 0.348,
    "new_this_run": 0,
    "baseline": false,
    "new_names": [],
-   "candidates": 21,
+   "candidates": 20,
    "rejected_by_bar": {
     "description shows no physical product": 8,
     "megacap / mega-private, deliberately untracked": 1,
@@ -10386,10 +10379,10 @@
     },
     {
      "id": "nvision-imaging.com",
-     "name": "",
+     "name": "NVision",
      "domain": "nvision-imaging.com",
      "first_funded": "",
-     "known_as": null
+     "known_as": "NVision Imaging Technologies"
     },
     {
      "id": "outpacebio.com",
@@ -10553,14 +10546,14 @@
    "kind": "links",
    "note": "Space-only fund; ~100 companies",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 102,
-   "tracked": 16,
-   "overlap": 0.157,
+   "tracked": 18,
+   "overlap": 0.176,
    "new_this_run": 0,
    "baseline": false,
    "new_names": [],
-   "candidates": 68,
+   "candidates": 66,
    "rejected_by_bar": {
     "description shows no physical product": 14,
     "software or services wearing a hard-tech label": 4
@@ -10690,7 +10683,7 @@
      "name": "Astrolight",
      "domain": "astrolightspace.com",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Astrolight"
     },
     {
      "id": "atmos-space-cargo.com",
@@ -10911,10 +10904,10 @@
     },
     {
      "id": "hubblenetwork.com",
-     "name": "Developing a satellite-powered Bluetooth network.",
+     "name": "Hubblenetwork",
      "domain": "hubblenetwork.com",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Hubble Network"
     },
     {
      "id": "kallmorris.com",
@@ -11288,14 +11281,14 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 24,
-   "tracked": 15,
-   "overlap": 0.625,
+   "tracked": 17,
+   "overlap": 0.708,
    "new_this_run": 0,
    "baseline": false,
    "new_names": [],
-   "candidates": 9,
+   "candidates": 7,
    "rejected_by_bar": {},
    "holdings": [
     {
@@ -11394,7 +11387,7 @@
      "name": "",
      "domain": "maybellquantum.com",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Maybell Quantum"
     },
     {
      "id": "macro-eyes.com",
@@ -11461,10 +11454,10 @@
     },
     {
      "id": "vatnsystems.com",
-     "name": "",
+     "name": "VATN",
      "domain": "vatnsystems.com",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Vatn Systems"
     }
    ]
   },
@@ -11474,14 +11467,14 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 27,
-   "tracked": 9,
-   "overlap": 0.333,
+   "tracked": 10,
+   "overlap": 0.37,
    "new_this_run": 0,
    "baseline": false,
    "new_names": [],
-   "candidates": 12,
+   "candidates": 11,
    "rejected_by_bar": {
     "software or services wearing a hard-tech label": 2,
     "description shows no physical product": 4
@@ -11527,7 +11520,7 @@
      "name": "",
      "domain": "dioxycle.com",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Dioxycle"
     },
     {
      "id": "estes.energy",
@@ -11684,18 +11677,27 @@
    "kind": "links",
    "note": "Page shows the first 15 only; the rest load on click",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 15,
    "tracked": 3,
    "overlap": 0.2,
-   "new_this_run": 0,
+   "new_this_run": 1,
    "baseline": false,
-   "new_names": [],
+   "new_names": [
+    "Locus Lock"
+   ],
    "candidates": 6,
    "rejected_by_bar": {
     "description shows no physical product": 6
    },
    "holdings": [
+    {
+     "id": "locuslock.com",
+     "name": "Locus Lock",
+     "domain": "locuslock.com",
+     "first_funded": "",
+     "known_as": null
+    },
     {
      "id": "defendeye.com",
      "name": "DefendEye",
@@ -11729,7 +11731,7 @@
      "name": "Harbinger Motors",
      "domain": "harbingermotors.com",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Harbinger"
     },
     {
      "id": "quantware.com",
@@ -11793,13 +11795,6 @@
      "domain": "sedai.io",
      "first_funded": "",
      "known_as": null
-    },
-    {
-     "id": "noblegassystems.com",
-     "name": "Noble Gas Systems",
-     "domain": "noblegassystems.com",
-     "first_funded": "",
-     "known_as": "Noble Gas Systems"
     }
    ]
   },
@@ -11809,7 +11804,7 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 14,
    "tracked": 4,
    "overlap": 0.286,
@@ -11928,7 +11923,7 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 1,
    "tracked": 0,
    "overlap": 0.0,
@@ -11953,7 +11948,7 @@
    "kind": "slugs",
    "note": "Subpage slugs only",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 60,
    "tracked": 19,
    "overlap": 0.317,
@@ -12391,7 +12386,7 @@
    "kind": "slugs",
    "note": "Subpage slugs only",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 8,
    "tracked": 3,
    "overlap": 0.375,
@@ -12465,7 +12460,7 @@
    "kind": "slugs",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 29,
    "tracked": 3,
    "overlap": 0.103,
@@ -12686,16 +12681,16 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 114,
-   "tracked": 29,
-   "overlap": 0.254,
+   "tracked": 28,
+   "overlap": 0.246,
    "new_this_run": 0,
    "baseline": false,
    "new_names": [],
    "candidates": 0,
    "rejected_by_bar": {
-    "generalist fund: holdings only": 85
+    "generalist fund: holdings only": 86
    },
    "holdings": [
     {
@@ -12787,7 +12782,7 @@
      "name": "Cognition",
      "domain": "cognition.ai",
      "first_funded": "",
-     "known_as": "Cognition"
+     "known_as": null
     },
     {
      "id": "sakana.ai",
@@ -13025,7 +13020,7 @@
      "name": "General Intuition",
      "domain": "generalintuition.com",
      "first_funded": "",
-     "known_as": "General Intuition"
+     "known_as": null
     },
     {
      "id": "waabi.ai",
@@ -13130,7 +13125,7 @@
      "name": "Vinci",
      "domain": "getvinci.ai",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Vinci"
     },
     {
      "id": "windbornesystems.com",
@@ -13504,16 +13499,16 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 36,
-   "tracked": 7,
-   "overlap": 0.194,
+   "tracked": 8,
+   "overlap": 0.222,
    "new_this_run": 0,
    "baseline": false,
    "new_names": [],
    "candidates": 0,
    "rejected_by_bar": {
-    "generalist fund: holdings only": 29
+    "generalist fund: holdings only": 28
    },
    "holdings": [
     {
@@ -13675,7 +13670,7 @@
      "name": "Remora",
      "domain": "remoracarbon.com",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Remora"
     },
     {
      "id": "jobs.jobvite.com",
@@ -13776,16 +13771,16 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 46,
-   "tracked": 12,
-   "overlap": 0.261,
+   "tracked": 13,
+   "overlap": 0.283,
    "new_this_run": 0,
    "baseline": false,
    "new_names": [],
    "candidates": 0,
    "rejected_by_bar": {
-    "generalist fund: holdings only": 34
+    "generalist fund: holdings only": 33
    },
    "holdings": [
     {
@@ -13849,7 +13844,7 @@
      "name": "",
      "domain": "scale.com",
      "first_funded": "",
-     "known_as": "Scale AI"
+     "known_as": null
     },
     {
      "id": "tumblr.com",
@@ -14045,7 +14040,7 @@
      "name": "",
      "domain": "enfabrica.net",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Enfabrica"
     },
     {
      "id": "cyera.io",
@@ -14101,7 +14096,7 @@
      "name": "",
      "domain": "airspace-intelligence.com",
      "first_funded": "",
-     "known_as": null
+     "known_as": "ASI"
     },
     {
      "id": "mirror.co",
@@ -14118,7 +14113,7 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-09-25T08:41:55.329263+00:00",
+   "fetched_at": "2026-09-28T15:56:23.164438+00:00",
    "count": 93,
    "tracked": 8,
    "overlap": 0.086,
@@ -19990,6 +19985,560 @@
    "description": "The DriveMod Autonomous Tugger takes over your back-and-forth workflows to save on labor costs, and keep things moving. Get one on your floor in 2 weeks, with no special infrastructure, or long term commitment.",
    "fetched": "2026-09-25",
    "final_url": "https://www.cyngn.com/",
+   "status": 200
+  },
+  "cambium-usa.com": {
+   "title": "Cambium USA, Advanced Materials - Cambium",
+   "description": "",
+   "fetched": "2026-09-28",
+   "final_url": "https://cambiumglobal.com/",
+   "status": 200
+  },
+  "scale.com": {
+   "title": "Reliable AI Systems for Critical Decisions | Scale AI",
+   "description": "Scale delivers proven data, evaluations, and outcomes to AI labs, governments, and the Fortune 500.",
+   "fetched": "2026-09-28",
+   "final_url": "https://scale.com/",
+   "status": 200
+  },
+  "locuslock.com": {
+   "title": "Locus Lock",
+   "description": "Locus Lock builds software-defined GNSS technology for precise, resilient positioning in contested environments, serving aerospace, defense, and mobility companies.",
+   "fetched": "2026-09-28",
+   "final_url": "https://locuslock.com/password",
+   "status": 200
+  },
+  "cognition.ai": {
+   "title": "Cognition",
+   "description": "Cognition operates Devin, the first autonomous software engineer. Devin plans, writes, tests, and ships production code inside your existing workflows.",
+   "fetched": "2026-09-28",
+   "final_url": "https://cognition.com/",
+   "status": 200
+  },
+  "bfl.ai": {
+   "title": "Black Forest Labs - Frontier AI Lab",
+   "description": "Black Forest Labs is building visual intelligence: models that understand, reason, and act in the world. Use FLUX models via our API.",
+   "fetched": "2026-09-28",
+   "final_url": "https://bfl.ai/",
+   "status": 200
+  },
+  "dapperlabs.com": {
+   "title": "Dapper Labs: Digital Ownership & Open Infrastructure",
+   "description": "Dapper Labs is the venture studio behind NBA Top Shot, Disney Pinnacle, NFL ALL DAY, CryptoKitties, and Flow. Discover our work in digital ownership.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.dapperlabs.com/",
+   "status": 200
+  },
+  "datanomik.com": {
+   "title": "Datanomik | Real-Time Treasury and Cash Management",
+   "description": "Real-time treasury and cash management. Connect every bank, centralize liquidity and raise operational efficiency from the first day of use.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.datanomik.com/en-us",
+   "status": 200
+  },
+  "godaylight.com": {
+   "title": "Daylight",
+   "description": "Daylight is the decentralized energy company, built for the people that power it. We help homeowners lower their energy bills, keep the lights on during outages, and earn rewards for supporting a smarter energy network",
+   "fetched": "2026-09-28",
+   "final_url": "https://godaylight.com/",
+   "status": 200
+  },
+  "daze.chat": {
+   "title": "Daze",
+   "description": "Daze - Freeform Chat",
+   "fetched": "2026-09-28",
+   "final_url": "https://daze.chat/",
+   "status": 200
+  },
+  "decagon.ai": {
+   "title": "Decagon | The AI concierge for every customer",
+   "description": "Build, optimize, and scale AI agents that treat every customer like the only one.",
+   "fetched": "2026-09-28",
+   "final_url": "https://decagon.ai/",
+   "status": 200
+  },
+  "deel.com": {
+   "title": "Deel | Global Payroll, Compliance, HR Solutions | HRIS",
+   "description": "Hire, pay, and manage teams in 150+ countries with Deel. Run global payroll, ensure compliance, and streamline HR operations\u2014all on one powerful platform.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.deel.com/",
+   "status": 200
+  },
+  "deepcell.com": {
+   "title": "Deepcell",
+   "description": "",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.deepcell.com/",
+   "status": 200
+  },
+  "deeprmusic.com": {
+   "title": "Music Discovery Reimagined | Deepr\u00ae | ATL",
+   "description": "Deepr\u00ae empowers music discovery by making song credits interactive for creators, consumers, and digital media platforms.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.deeprmusic.com/",
+   "status": 200
+  },
+  "deeptune.com": {
+   "title": "Deeptune",
+   "description": "Training gyms for AI agents",
+   "fetched": "2026-09-28",
+   "final_url": "https://deeptune.com/",
+   "status": 200
+  },
+  "delv.tech": {
+   "error": "ConnectionError",
+   "fetched": "2026-09-28"
+  },
+  "descript.com": {
+   "title": "Descript: AI Video & Audio Text-based Editor \u2014 Try Free",
+   "description": "Descript is the AI video and audio editor that makes editing as easy as editing text. Record, transcribe, edit, and publish in one tool. Try it free.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.descript.com/",
+   "status": 200
+  },
+  "deso.org": {
+   "title": "DeSo - The Decentralized Social Blockchain",
+   "description": "DeSo is a new layer-1 blockchain built from the ground up to decentralize social media, and scale storage-heavy applications to billions of users.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.deso.com/",
+   "status": 200
+  },
+  "destructionlabz.com": {
+   "title": "Destruction Labz",
+   "description": "Destruction Labz - Next level E-gamming",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.destructionlabz.com/",
+   "status": 200
+  },
+  "devoted.com": {
+   "title": "",
+   "description": "Compare Medicare Advantage plans built for your health goals, with rich benefits and top-rated care. Devoted is devoted to its members. Find your plan!",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.devoted.com/",
+   "status": 200
+  },
+  "dfinity.org": {
+   "title": "The DFINITY Foundation",
+   "description": "The DFINITY Foundation develops the Internet Computer, a tamperproof frontier cloud for applications and AI agents. Founded 2016, Switzerland. 1,600+ research publications.",
+   "fetched": "2026-09-28",
+   "final_url": "https://dfinity.org/",
+   "status": 200
+  },
+  "dialpad.com": {
+   "title": "Agentic AI-powered Contact Center & Communications | Dialpad",
+   "description": "Dialpad's AI-native contact center and communications platform connects human agents with AI voice and digital agents for great CX at scale.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.dialpad.com",
+   "status": 200
+  },
+  "diode.computer": {
+   "title": "Diode",
+   "description": "Ship hardware, fast. Automate circuit board manufacturing, from design to delivery.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.diode.computer/",
+   "status": 200
+  },
+  "joindistrict.com": {
+   "title": "Welcome to District - District",
+   "description": "A Curated, Member-Owned Community for Visionary Founders and Investors.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.joindistrict.com/",
+   "status": 200
+  },
+  "divvyhomes.com": {
+   "title": "Divvy Resident Portal",
+   "description": "Divvy offers an exceptional living experience for residents. Log into your resident portal for all the information you need to manage your home!",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.divvyhomes.com/",
+   "status": 200
+  },
+  "donotpay.com": {
+   "title": "DoNotPay - Your AI Consumer Champion",
+   "description": "Continue surfing free trials, beating parking tickets, suing robocallers for cash, and more.",
+   "fetched": "2026-09-28",
+   "final_url": "https://donotpay.com/",
+   "status": 200
+  },
+  "doppel.com": {
+   "title": "Doppel | The world's first platform for Social Engineering Defense.",
+   "description": "Outpace AI-driven attacks. Unify Digital Risk Protection, Human Risk Management, and Email Security to stop digital threats before they scale, empower your teams to lead your defense, and scale your SOC with agentic AI.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.doppel.com/",
+   "status": 200
+  },
+  "doxel.ai": {
+   "title": "Doxel: Construction's most complete progress tracking",
+   "description": "Automated construction progress tracking brings actionable insights to executives and makes the job easier for the field.",
+   "fetched": "2026-09-28",
+   "final_url": "https://doxel.ai/",
+   "status": 200
+  },
+  "dwolla.com": {
+   "title": "Bank Payment Infrastructure for Platforms | Dwolla",
+   "description": "Run high-volume ACH and real-time bank payments through a single API integration. Trusted by platforms and enterprises handling 126M+ annual transactions.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.dwolla.com/",
+   "status": 200
+  },
+  "dydx.exchange": {
+   "title": "dYdX: DeFi's Pro Trading Platform",
+   "description": "dYdX offers a decentralized trading platform designed for perpetual contracts, combining deep liquidity, advanced trading tools, and low fees. The mobile and web experience provides flexible trading options, including up to 50x buying power, with a focus on transparency and self-custody.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.dydx.xyz/",
+   "status": 200
+  },
+  "dynamic.xyz": {
+   "title": "Dynamic | Wallet Infrastructure for Fintech, Crypto, and Stablecoins",
+   "description": "Dynamic combines authentication, smart wallets, and secure key management into one flexible SDK. Get the most multi-chain coverage across chains and third-party wallets.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.dynamic.xyz/",
+   "status": 200
+  },
+  "dynotx.com": {
+   "title": "Home | Dyno",
+   "description": "Building high-performance genetic technologies that transform patient lives.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.dynotx.com/",
+   "status": 200
+  },
+  "e-3.tech": {
+   "title": "E3Tech",
+   "description": "We don\u2019t simply buy into businesses \u2013 we add value by enabling entrepreneurs and their teams to do more.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.e-3.tech/",
+   "status": 200
+  },
+  "earli.com": {
+   "title": "Program Cancer Against Itself \u2122",
+   "description": "Earli\u2019s mission is to make cancer a benign experience by forcing it to reveal and kill itself.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.earli.com/",
+   "status": 200
+  },
+  "earnin.com": {
+   "title": "EarnIn | You worked today. Get paid today.",
+   "description": "EarnIn is an app that gives you access to the pay you've earned - when you want it. Get paid for the hours you've worked without waiting for payday.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.earnin.com/",
+   "status": 200
+  },
+  "easehealth.com": {
+   "title": "Ease Health | AI-Native CRM, EHR & RCM for Behavioral Health",
+   "description": "The #1 EHR and billing platform for behavioral health. $2.5B+ claims processed, 99% FPAR, AI-powered documentation, integrated telehealth.",
+   "fetched": "2026-09-28",
+   "final_url": "https://easehealth.com/",
+   "status": 200
+  },
+  "eclypsium.com": {
+   "title": "Secure Infrastructure In The Age of AI | Eclypsium",
+   "description": "Eclypsium\u2019s infrastructure assurance platform protects mission critical hardware and detects compromised devices in enterprises and government agencies.",
+   "fetched": "2026-09-28",
+   "final_url": "https://eclypsium.com/",
+   "status": 200
+  },
+  "eco.com": {
+   "title": "Eco: The Stablecoin Network That Makes Money Programmable",
+   "description": "Developers use Eco to power stablecoin flows that require seamless user experience and best-in-class execution. Money simply moves smarter with Eco.",
+   "fetched": "2026-09-28",
+   "final_url": "https://eco.com/",
+   "status": 200
+  },
+  "eigenlayer.xyz": {
+   "title": "EigenCloud \u2013 Verifiable cloud for the Agentic Era",
+   "description": "Verifiable cloud for the Agentic Era. Build apps and agents your users can trust.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.eigencloud.xyz/",
+   "status": 200
+  },
+  "elegenbio.com": {
+   "title": "ENFINIA\u2122 DNA from Elegen \u2013 Cell Free Clonal Gene Synthesis",
+   "description": "Skip cloning with the only entirely cell-free DNA synthesis provider. Sequences up to 7 kb. Error rates as low as 1:70,000/bp. Manufactured in USA, NGS-verified and shipped globally in as few business days.",
+   "fetched": "2026-09-28",
+   "final_url": "https://elegenbio.com/",
+   "status": 200
+  },
+  "elevenlabs.io": {
+   "title": "Free AI Voice Generator & Voice Agents Platform | ElevenLabs",
+   "description": "Create lifelike speech with our AI voice generator and voice agents platform. Access 5,000+ voices in 70+ languages with secure APIs and SDKs.",
+   "fetched": "2026-09-28",
+   "final_url": "https://elevenlabs.io/",
+   "status": 200
+  },
+  "eliseai.com": {
+   "title": "EliseAI - Industry Leading AI for Housing and Healthcare",
+   "description": "EliseAI is the industry-leading AI platform transforming both property management and healthcare through automation and conversational AI that help housing and healthcare organizations streamline communications and improve operational efficiency.",
+   "fetched": "2026-09-28",
+   "final_url": "https://eliseai.com/",
+   "status": 200
+  },
+  "end.gg": {
+   "title": "ENDGAME \u2014 Crafting the Next Generation of Gaming",
+   "description": "",
+   "fetched": "2026-09-28",
+   "final_url": "https://end.gg/",
+   "status": 200
+  },
+  "endra.ai": {
+   "title": "AI powered MEP Design | Endra AI",
+   "description": "Endra is a purpose-built platform for modern MEP engineering. Generate 3D models and drawings, sync with Revit and enjoy coordinated design workflows.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.endra.ai/",
+   "status": 200
+  },
+  "engflow.com": {
+   "title": "EngFlow \u2014 Faster builds and tests with Bazel, Goma, Soong",
+   "description": "Faster builds and tests, shareable build and test results, Bazel improvements: created by the Bazel experts, we deliver solutions that keep engineers in flow.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.engflow.com/",
+   "status": 200
+  },
+  "entropy.xyz": {
+   "title": "Hi. | Entropy",
+   "description": "Entropy liberates users from on-chain friction through novel cryptography to build autonomous systems.",
+   "fetched": "2026-09-28",
+   "final_url": "https://entropy.xyz/",
+   "status": 200
+  },
+  "envoy.com": {
+   "title": "Envoy | Workplace & visitor solutions platform",
+   "description": "Trusted visitor management, workplace management, and emergency management to help your company run a better and safer workplace.",
+   "fetched": "2026-09-28",
+   "final_url": "https://envoy.com/",
+   "status": 200
+  },
+  "epal.gg": {
+   "title": "Too Many Requests | E-Pal",
+   "description": "",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.epal.gg/",
+   "status": 403
+  },
+  "equal-iq.com": {
+   "title": "Know Your Worth. Access Capital.",
+   "description": "We help music businesses understand their revenue, rights, and financing options.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.equal-iq.com/",
+   "status": 200
+  },
+  "equals.com": {
+   "title": "Trusted AI analytics | Equals",
+   "description": "AI for the numbers that can't be wrong. Build expert workbooks, trust every answer, and deploy them across your company.",
+   "fetched": "2026-09-28",
+   "final_url": "https://equals.com/",
+   "status": 200
+  },
+  "espressosys.com": {
+   "title": "Espresso Systems",
+   "description": "Espresso is a high-performance blockchain designed for custom chains and financial systems that demand speed, connectivity, and full architectural control.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.espressosys.com/",
+   "status": 200
+  },
+  "agent.askethos.com": {
+   "title": "Ethos - Human intelligence, on-demand",
+   "description": "The best customers, hires, and deals come from understanding humans\u2014not blasting lists. Research people and companies to build relationships that get things done.",
+   "fetched": "2026-09-28",
+   "final_url": "https://agent.askethos.com/",
+   "status": 200
+  },
+  "eve.legal": {
+   "title": "Legal AI Software for Plaintiff Law Firms | Eve",
+   "description": "Legal AI software for plaintiff law firms: handle more cases, increase settlement values, and grow revenue without adding headcount. Trusted by 1,200+ firms.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.eve.legal/",
+   "status": 200
+  },
+  "everlaw.com": {
+   "title": "Everlaw | AI Built for Litigation and Investigations",
+   "description": "Transform your approach to litigation and investigations. Everlaw powers your legal teams and the AI tools they use.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.everlaw.com/",
+   "status": 200
+  },
+  "everyrealm.com": {
+   "title": "Everyrealm | Connecting what matters",
+   "description": "Everyrealm invests in, owns, and operates technology that connects communities and assets using cutting-edge technology infrastructure, including AI and blockchain.",
+   "fetched": "2026-09-28",
+   "final_url": "https://everyrealm.com/",
+   "status": 200
+  },
+  "exa.ai": {
+   "title": "Exa | Search API for AI Agents \u2014 Real-Time Web Data",
+   "description": "Search API for AI agents that need real-time web data, deep research, and structured content from one endpoint. Try our API for free.",
+   "fetched": "2026-09-28",
+   "final_url": "https://exa.ai/",
+   "status": 200
+  },
+  "fal.ai": {
+   "title": "Generative AI | Run Image, Video, 3D and Audio Models | fal",
+   "description": "Easiest & most cost-effective way to use Gen AI. fal.ai is how devs integrate dozens of generative media models. FLUX, Kling, Hailuo +1000 more",
+   "fetched": "2026-09-28",
+   "final_url": "https://fal.ai/",
+   "status": 200
+  },
+  "fanatics.com": {
+   "title": "Access Denied",
+   "description": "",
+   "fetched": "2026-09-28",
+   "final_url": "https://fanatics.com/",
+   "status": 403
+  },
+  "faraway.com": {
+   "title": "Faraway - Player Driven Economies",
+   "description": "Faraway is a game studio that builds and publishes open economy games including Dookey Dash: Unclogged, Serum City, Legends of the Mara, Mini Royale: Nations, and more.",
+   "fetched": "2026-09-28",
+   "final_url": "https://faraway.com/",
+   "status": 200
+  },
+  "fashivly.com": {
+   "title": "Fashivly | Personal Styling",
+   "description": "We're on a mission to help you find and refine your own personal style. From work to weekend and everything in between, we find the looks that are 100% you and deliver the link straight to your inbox - no meet ups or pressure to buy.",
+   "fetched": "2026-09-28",
+   "final_url": "https://fashivly.com/",
+   "status": 200
+  },
+  "favorited.com": {
+   "title": "Level up your social | favorited",
+   "description": "",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.favorited.com/",
+   "status": 200
+  },
+  "feedplan.com": {
+   "title": "Win Feigle - Vast.ai | LinkedIn",
+   "description": "I&#39;ve founded three companies (two exits, one a16z-backed) and now run growth at a Series\u2026 \u00b7 Experience: Vast.ai \u00b7 Education: University of Mississippi \u00b7 Location: Los Angeles \u00b7 500+ connections on LinkedIn. View Win Feigle\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.linkedin.com/in/feigle",
+   "status": 200
+  },
+  "fei.money": {
+   "error": "ConnectionError",
+   "fetched": "2026-09-28"
+  },
+  "fenris.com": {
+   "title": "Fenris Creations",
+   "description": "Fenris creates virtual worlds more meaningful than real life.",
+   "fetched": "2026-09-28",
+   "final_url": "https://fenris.com/",
+   "status": 200
+  },
+  "fidocure.com": {
+   "title": "FidoCure \u2013 Transforming canine cancer treatment through personalized medicine.",
+   "description": "",
+   "fetched": "2026-09-28",
+   "final_url": "https://fidocure.com/",
+   "status": 200
+  },
+  "filmhub.com": {
+   "title": "Filmhub is a global film and television sales and distribution company",
+   "description": "Igniting opportunity for the visionary storyteller of today and tomorrow.",
+   "fetched": "2026-09-28",
+   "final_url": "https://filmhub.com/",
+   "status": 200
+  },
+  "fingerprintsdao.xyz": {
+   "title": "Fingerprints | Home",
+   "description": "Fingerprints: the home of blockchain art.",
+   "fetched": "2026-09-28",
+   "final_url": "https://fingerprintsdao.xyz/",
+   "status": 200
+  },
+  "fivetran.com": {
+   "title": "Fivetran | Automated data movement platform",
+   "description": "Effortlessly centralize all the data you need so your team can deliver better insights, faster. Start for free.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.fivetran.com/",
+   "status": 200
+  },
+  "flashhoops.com": {
+   "title": "Home | FlashHoops \u2013 EdTech startup merging Sport and STEM",
+   "description": "Discover FlashHoops, the EdTech startup on a mission to empower youth nationwide. Our vision is to build a future where every young mind meets state test standards, achieved through our innovative blend of Sports & STEM education. Join us in shaping character, unlocking potential, and creating a bri",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.flashhoops.com/",
+   "status": 200
+  },
+  "joinfleek.com": {
+   "title": "Vintage Wholesale Marketplace - Bulk Vintage Wholesale | Fleek",
+   "description": "Fleek: #1 marketplace for verified vintage wholesalers in UK, France, Germany & US \u2713 Top-ranked platform with global reach \u2713 Connecting elite retailers & wholesalers worldwide \u2713 Curated premium brands from across the globe \u2713 Join the leading international vintage wholesale network \u00bb Start with Fleek",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.joinfleek.com/home",
+   "status": 200
+  },
+  "flockhomes.com": {
+   "title": "Flock Homes | 721 Exchange for Rental Property Owners",
+   "description": "Exchange your rentals for shares in a diversified real estate fund via a 721 exchange. Defer capital gains taxes, keep the income, retire from landlording.",
+   "fetched": "2026-09-28",
+   "final_url": "https://flockhomes.com/",
+   "status": 200
+  },
+  "flow.life": {
+   "title": "Flow | Communities designed to connect you with yourself, your neighbors, and the natural world.",
+   "description": "Flow communities are designed to connect you with yourself, your neighbors, and the natural world. This new way of living offers beautifully designed rentals, elevated hotel stays, inclusive experiences, and stories that move you. Rooted in Riyadh and Miami - Flow creates spaces that feel like home ",
+   "fetched": "2026-09-28",
+   "final_url": "https://flow.life/",
+   "status": 200
+  },
+  "flowcarbon.com": {
+   "title": "Flowcarbon - Project Finance and Bespoke Capital Solutions",
+   "description": "Project finance, private credit and tax credit specialists financing frontier industries, infrastructure, waste-to-value, and carbon markets",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.flowcarbon.com/",
+   "status": 200
+  },
+  "fly.io": {
+   "title": "Fly \u00b7 Computers for agents",
+   "description": "Sandboxes aren't enough. Give your agent a real computer and get back to building.",
+   "fetched": "2026-09-28",
+   "final_url": "https://fly.io/",
+   "status": 200
+  },
+  "flyhomes.com": {
+   "title": "Buy Before You Sell: Move Once, Stress Less | Flyhomes",
+   "description": "Buy your next home before selling, with no home sale contingency. Move once, unlock equity for a stronger offer, and sell at full market value.",
+   "fetched": "2026-09-28",
+   "final_url": "https://flyhomes.com/",
+   "status": 200
+  },
+  "foodology.com.co": {
+   "title": "Foodology",
+   "description": "Creando el grupo de restaurantes enfocado en domicilio m\u00e1s grande de Am\u00e9rica Latina. Vive una experiencia de calidad, \u00fanica y diferente con cada una de nuestras marcas.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.foodology.com.co/",
+   "status": 200
+  },
+  "formation.dev": {
+   "title": "Technical Interview Prep | Formation SWE Interview Prep | Land Your Next SWE Role",
+   "description": "Technical Interview Prep | Software Engineer Interview Prep | Formation\u2019s Software Engineering Interview Prep helps senior and staff-level engineers ace upcoming tech interviews and land dream roles.",
+   "fetched": "2026-09-28",
+   "final_url": "https://formation.dev/",
+   "status": 200
+  },
+  "formation.bio": {
+   "title": "Formation Bio",
+   "description": "Building the pharma company of the future.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.formation.bio/",
+   "status": 200
+  },
+  "forta.org": {
+   "title": "Forta",
+   "description": "Powered by the most advanced AI detection model, Forta Firewall integrates with protocols and rollups to prevent over 99% of hacks.",
+   "fetched": "2026-09-28",
+   "final_url": "https://forta.org/",
+   "status": 200
+  },
+  "forte.io": {
+   "title": "Forte - On-chain compliance and economic tools",
+   "description": "Forte Rules Engine is the premier on-chain compliance solution for blockchain projects.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.forte.io/",
+   "status": 200
+  },
+  "fortunahealth.com": {
+   "title": "Fortuna Health - Medicaid Made Easy",
+   "description": "Simplify Medicaid enrollment and renewals with Fortuna\u2019s Medicaid navigation platform. Get guided, consumer-first support and improve coverage outcomes.",
+   "fetched": "2026-09-28",
+   "final_url": "https://www.fortunahealth.com/",
    "status": 200
   }
  }
