@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T15:16:33.122844+00:00",
+  "generatedAt": "2026-09-28T21:48:19.404774+00:00",
   "date": "2026-09-28",
   "dateDisplay": "Monday, September 28, 2026",
   "sections": {
@@ -70,60 +70,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 6.17,
-        "changePercent": 20.74,
-        "change": 1.06
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 364.62,
-        "changePercent": 20.24,
-        "change": 61.37
-      },
-      {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 0.74,
-        "changePercent": 16.75,
-        "change": 0.11
+        "ticker": "AUR",
+        "company": "Aurora Innovation",
+        "price": 5.62,
+        "changePercent": -13.67,
+        "change": -0.89
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 45.48,
-        "changePercent": 16.23,
-        "change": 6.35
+        "price": 46.04,
+        "changePercent": 13.65,
+        "change": 5.53
       },
       {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 73.95,
-        "changePercent": 14.53,
-        "change": 9.38
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 6.61,
+        "changePercent": -10.98,
+        "change": -0.81
       },
       {
-        "ticker": "AMD",
-        "company": "AMD",
-        "price": 630.63,
-        "changePercent": 12.65,
-        "change": 70.81
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 6.16,
+        "changePercent": 10.39,
+        "change": 0.58
       },
       {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 15.61,
-        "changePercent": 12.14,
-        "change": 1.69
+        "ticker": "QS",
+        "company": "QuantumScape",
+        "price": 4.62,
+        "changePercent": -9.49,
+        "change": -0.48
+      },
+      {
+        "ticker": "SMR",
+        "company": "NuScale Power",
+        "price": 7.99,
+        "changePercent": -9.16,
+        "change": -0.8
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 85.01,
-        "changePercent": 9.21,
-        "change": 7.17
+        "price": 84.28,
+        "changePercent": 8.02,
+        "change": 6.25
+      },
+      {
+        "ticker": "SLDP",
+        "company": "Solid Power",
+        "price": 2.29,
+        "changePercent": -7.66,
+        "change": -0.19
       }
     ],
     "regulatory": [
@@ -151,23 +151,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Establishment, Modification, and Revocation of Class E Airspace; Alaska, AK",
+        "title": "Submission for OMB Review; Comment Request",
         "date": "2026-09-28",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19815"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19739"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Name of Information Collection: NASA Generic Clearance for Conferences, Meetings",
+        "title": "Submission for OMB Review; Comment Request",
         "date": "2026-09-28",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19790"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19738"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Notice of Availability on the Finding of No Significant Impact and Record of Dec",
+        "title": "Submission for OMB Review; Comment Request",
         "date": "2026-09-28",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19716"
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19737"
       }
     ],
     "patents": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "SATL +20.7%"
+    "topMover": "AUR -13.7%"
   }
 }
