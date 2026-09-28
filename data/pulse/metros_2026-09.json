@@ -4,13 +4,13 @@
  "top": [
   {
    "metro": "San Francisco, CA",
-   "postings": 714,
+   "postings": 713,
    "companies": 44,
    "postings_12w_ago": 142
   },
   {
    "metro": "Los Angeles, CA",
-   "postings": 474,
+   "postings": 475,
    "companies": 20,
    "postings_12w_ago": 92
   },
@@ -40,7 +40,7 @@
   },
   {
    "metro": "Long Beach, CA",
-   "postings": 237,
+   "postings": 238,
    "companies": 6,
    "postings_12w_ago": 146
   },
@@ -52,7 +52,7 @@
   },
   {
    "metro": "New York, NY",
-   "postings": 180,
+   "postings": 179,
    "companies": 27,
    "postings_12w_ago": 2
   },
@@ -141,16 +141,16 @@
    "postings_12w_ago": 3
   },
   {
-   "metro": "Santa Clara, CA",
-   "postings": 65,
-   "companies": 5,
-   "postings_12w_ago": 12
-  },
-  {
    "metro": "Gardena, CA",
    "postings": 65,
    "companies": 3,
    "postings_12w_ago": 0
+  },
+  {
+   "metro": "Santa Clara, CA",
+   "postings": 64,
+   "companies": 5,
+   "postings_12w_ago": 12
   },
   {
    "metro": "Redwood City, CA",
@@ -165,8 +165,14 @@
    "postings_12w_ago": 11
   },
   {
+   "metro": "Golden, CO",
+   "postings": 49,
+   "companies": 3,
+   "postings_12w_ago": 0
+  },
+  {
    "metro": "Kirkland, WA",
-   "postings": 50,
+   "postings": 49,
    "companies": 1,
    "postings_12w_ago": 0
   },
@@ -175,12 +181,6 @@
    "postings": 49,
    "companies": 4,
    "postings_12w_ago": 6
-  },
-  {
-   "metro": "Golden, CO",
-   "postings": 49,
-   "companies": 3,
-   "postings_12w_ago": 0
   }
  ],
  "new_this_quarter": [

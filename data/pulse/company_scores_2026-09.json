@@ -14,7 +14,7 @@
    "company": "Vast",
    "bucket": "Space & Aerospace",
    "score": 61.1,
-   "roles": 210,
+   "roles": 211,
    "in_hiring_panel": true,
    "last_capital": "2026-08",
    "last_contract": "2026-02"
@@ -191,21 +191,21 @@
    "last_contract": "2025-12"
   },
   {
+   "company": "Tenstorrent",
+   "bucket": "Chips & Quantum",
+   "score": 32.9,
+   "roles": 123,
+   "in_hiring_panel": true,
+   "last_capital": "2026-07",
+   "last_contract": null
+  },
+  {
    "company": "Extropic",
    "bucket": "Chips & Quantum",
    "score": 32.9,
    "roles": 10,
    "in_hiring_panel": true,
    "last_capital": null,
-   "last_contract": null
-  },
-  {
-   "company": "Tenstorrent",
-   "bucket": "Chips & Quantum",
-   "score": 31.2,
-   "roles": 122,
-   "in_hiring_panel": true,
-   "last_capital": "2026-07",
    "last_contract": null
   },
   {
@@ -225,6 +225,15 @@
    "in_hiring_panel": true,
    "last_capital": "2024-01",
    "last_contract": null
+  },
+  {
+   "company": "Whisper Aero",
+   "bucket": "Space & Aerospace",
+   "score": 29.6,
+   "roles": 7,
+   "in_hiring_panel": true,
+   "last_capital": "2026-09",
+   "last_contract": "2025-09"
   },
   {
    "company": "Fortastra",
@@ -272,21 +281,21 @@
    "last_contract": null
   },
   {
-   "company": "Agility Robotics",
-   "bucket": "Autonomy & Robotics",
-   "score": 27.9,
-   "roles": 69,
-   "in_hiring_panel": true,
-   "last_capital": "2026-02",
-   "last_contract": null
-  },
-  {
    "company": "Carbon Robotics",
    "bucket": "Autonomy & Robotics",
    "score": 27.9,
    "roles": 19,
    "in_hiring_panel": true,
    "last_capital": null,
+   "last_contract": null
+  },
+  {
+   "company": "Agility Robotics",
+   "bucket": "Autonomy & Robotics",
+   "score": 27.1,
+   "roles": 69,
+   "in_hiring_panel": true,
+   "last_capital": "2026-02",
    "last_contract": null
   },
   {
@@ -320,7 +329,7 @@
    "company": "Mainspring Energy",
    "bucket": "Power & Grid",
    "score": 25.0,
-   "roles": 91,
+   "roles": 90,
    "in_hiring_panel": false,
    "last_capital": "2026-09",
    "last_contract": null
@@ -356,7 +365,7 @@
    "company": "Lumafield",
    "bucket": "Autonomy & Robotics",
    "score": 25.0,
-   "roles": 17,
+   "roles": 16,
    "in_hiring_panel": false,
    "last_capital": "2026-07",
    "last_contract": null
@@ -440,15 +449,6 @@
    "roles": 0,
    "in_hiring_panel": false,
    "last_capital": "2026-09",
-   "last_contract": null
-  },
-  {
-   "company": "QuEra Computing",
-   "bucket": "Chips & Quantum",
-   "score": 25.0,
-   "roles": 0,
-   "in_hiring_panel": false,
-   "last_capital": "2026-08",
    "last_contract": null
   }
  ]

@@ -1,12 +1,12 @@
 {
  "month": "2026-09",
- "n_postings_with_true_dates": 3274,
+ "n_postings_with_true_dates": 3268,
  "median_age_days_by_class": {
   "manufacturing": 42,
   "software": 66,
-  "hardware": 53,
+  "commercial": 41,
   "other": 46,
-  "commercial": 41
+  "hardware": 53
  },
  "hardest_to_fill_titles": [
   {
@@ -213,11 +213,11 @@
   }
  ],
  "median_age_days_by_state": {
-  "CA": 52,
-  "NY": 68,
+  "CA": 51,
+  "NY": 69,
   "WA": 32,
   "TX": 59,
-  "MA": 66,
+  "MA": 67,
   "CO": 28,
   "VA": 96
  },

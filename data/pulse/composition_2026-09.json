@@ -1,10 +1,10 @@
 {
  "month": "2026-09",
  "by_bucket": {
-  "Manufacturing & Materials": 5,
   "Space & Aerospace": 13,
-  "Chips & Quantum": 5,
+  "Manufacturing & Materials": 5,
   "Autonomy & Robotics": 10,
+  "Chips & Quantum": 5,
   "Defence": 7,
   "Nuclear": 5,
   "Power & Grid": 3
@@ -13,13 +13,13 @@
   "Series A": 16,
   "Series B": 9,
   "Series E": 5,
-  "Series C": 5,
   "Series D": 5,
+  "Series C": 5,
   "Seed": 3,
   "Series H": 1,
   "Series G": 1,
-  "Late Stage": 1,
   "Private": 1,
+  "Late Stage": 1,
   "Series F": 1
  },
  "by_founded": {
@@ -28,8 +28,8 @@
   "2023": 6,
   "2022": 5,
   "2017": 4,
-  "2018": 4,
   "2020": 4,
+  "2018": 4,
   "2015": 3,
   "2019": 2,
   "2014": 2,

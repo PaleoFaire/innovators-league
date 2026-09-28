@@ -1,6 +1,10 @@
 # Pulse Signals — week 2026-W40 (generated 2026-09-28)
 
-9 new signals this week across 8 companies. Signals are events derived from public job boards; each fires once. Verify before acting.
+10 new signals this week across 9 companies. Signals are events derived from public job boards; each fires once. Verify before acting.
+
+## Factory coming — senior manufacturing / plant / facilities hires (1)
+
+- **Re:Build Manufacturing** (Autonomy & Robotics, MA) — senior_roles_now 2; no capital event on record
 
 ## Production turn — atoms share of postings up 15+ points in 12 weeks (5)
 

@@ -11,7 +11,7 @@ Known events to reproduce: Valar critical 18 Jun 2026; Antares critical at INL J
 | 2026-08 | 5 | 70.0 | 328 | 192 | 40 | 3 |
 | 2026-09 | 5 | 70.0 | 348 | 207 | 39 | 4 |
 
-Capital sources merged: {'deals': 185, 'form_d': 4, 'vc_first_funded': 146}
+Capital sources merged: {'deals': 185, 'form_d': 9, 'vc_first_funded': 146}
 Mortality: {'db_dead_or_acquired': 13, 'liveness_checked': 1059, 'liveness_confirmed_dead_or_acquired': 21, 'liveness_suspects': 24, 'confirmed_rate_pct': 2.0}
 Review queue size: 17
 Board checks (latest): 0

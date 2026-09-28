@@ -1,13 +1,25 @@
 {
  "week": "2026-W40",
  "generated": "2026-09-28",
- "count": 9,
+ "count": 10,
  "by_type": {
+  "senior_manufacturing_hire": 1,
   "production_turn": 5,
   "hiring_surge": 3,
   "hiring_pullback": 1
  },
  "signals": [
+  {
+   "company": "Re:Build Manufacturing",
+   "bucket": "Autonomy & Robotics",
+   "state": "MA",
+   "type": "senior_manufacturing_hire",
+   "week": "2026-W40",
+   "evidence": {
+    "senior_roles_now": 2
+   },
+   "last_capital_event": null
+  },
   {
    "company": "Zipline",
    "bucket": "Autonomy & Robotics",
