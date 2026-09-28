@@ -32,8 +32,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Compute the Pulse
-        run: python3 scripts/calc_pulse.py
+      - name: Compute the Pulse (index, intelligence, signals, benchmark data)
+        run: |
+          python3 scripts/calc_pulse.py
+          python3 scripts/calc_pulse_intel.py
+          python3 scripts/calc_pulse_signals.py
+          python3 scripts/build_pulse_companies.py
+          python3 scripts/build_pulse_note.py
+          python3 scripts/build_pulse_note.py --external
 
       - name: Configure Git
         run: |
@@ -46,7 +52,7 @@ jobs:
             git stash --include-untracked 2>/dev/null || true
             git pull --rebase origin main || git rebase --abort 2>/dev/null || true
             git stash pop 2>/dev/null || true
-            git add data/pulse data/pulse_auto.js 2>/dev/null || true
+            git add data/pulse data/pulse_auto.js data/pulse_companies_auto.js 2>/dev/null || true
             if git diff --staged --quiet; then echo "No changes."; exit 0; fi
             git commit -m "🫀 Build-Out Pulse: $(date -u +%Y-%m)"
             git push origin main && exit 0
