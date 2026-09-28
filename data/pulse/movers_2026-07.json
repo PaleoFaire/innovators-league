@@ -26,20 +26,20 @@
    "change_pct": 52.0
   },
   {
-   "company": "Ursa Major Technologies",
-   "bucket": "Space & Aerospace",
-   "roles_prev": 42,
-   "roles_now": 62,
-   "change": 20,
-   "change_pct": 47.6
-  },
-  {
    "company": "Redwood Materials",
    "bucket": "Manufacturing & Materials",
-   "roles_prev": 85,
-   "roles_now": 118,
-   "change": 33,
-   "change_pct": 38.8
+   "roles_prev": 87,
+   "roles_now": 129,
+   "change": 42,
+   "change_pct": 48.3
+  },
+  {
+   "company": "Ursa Major Technologies",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 43,
+   "roles_now": 62,
+   "change": 19,
+   "change_pct": 44.2
   },
   {
    "company": "Lightmatter",
@@ -50,14 +50,6 @@
    "change_pct": 31.4
   },
   {
-   "company": "Focused Energy",
-   "bucket": "Nuclear",
-   "roles_prev": 13,
-   "roles_now": 17,
-   "change": 4,
-   "change_pct": 30.8
-  },
-  {
    "company": "Valar Atomics",
    "bucket": "Nuclear",
    "roles_prev": 40,
@@ -66,20 +58,28 @@
    "change_pct": 30.0
   },
   {
-   "company": "Latitude",
-   "bucket": "Space & Aerospace",
-   "roles_prev": 36,
-   "roles_now": 46,
-   "change": 10,
-   "change_pct": 27.8
-  },
-  {
    "company": "Icarus",
    "bucket": "Defence",
    "roles_prev": 24,
    "roles_now": 29,
    "change": 5,
    "change_pct": 20.8
+  },
+  {
+   "company": "Quaise Energy",
+   "bucket": "Power & Grid",
+   "roles_prev": 10,
+   "roles_now": 12,
+   "change": 2,
+   "change_pct": 20.0
+  },
+  {
+   "company": "Inversion Space",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 57,
+   "roles_now": 67,
+   "change": 10,
+   "change_pct": 17.5
   }
  ],
  "down": [
@@ -111,9 +111,9 @@
    "company": "Zipline",
    "bucket": "Autonomy & Robotics",
    "roles_prev": 280,
-   "roles_now": 237,
-   "change": -43,
-   "change_pct": -15.4
+   "roles_now": 242,
+   "change": -38,
+   "change_pct": -13.6
   },
   {
    "company": "Epirus",
@@ -126,7 +126,6 @@
  ],
  "factory_flags": [
   "Atomic Machines",
-  "ClearSpace",
   "Outpost Space"
  ]
 }

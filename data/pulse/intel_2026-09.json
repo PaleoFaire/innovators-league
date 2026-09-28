@@ -1,47 +1,47 @@
 {
  "month": "2026-09",
- "generated": "2026-09-26",
+ "generated": "2026-09-28",
  "portfolio_pulse": [
   {
    "fund": "Andreessen Horowitz",
    "key": "a16z",
-   "tracked_in_lane": 47,
+   "tracked_in_lane": 46,
    "on_hiring_panel": 5,
    "diffusion": 80.0,
    "up": 3,
    "down": 0,
-   "roles_now": 607,
-   "roles_prev": 509,
-   "atoms_bits": 3.09,
+   "roles_now": 608,
+   "roles_prev": 511,
+   "atoms_bits": 3.1,
    "raised_last_3m": 3,
    "factory_flags": []
   },
   {
    "fund": "Eclipse Ventures",
    "key": "Eclipse",
-   "tracked_in_lane": 30,
+   "tracked_in_lane": 28,
    "on_hiring_panel": 5,
-   "diffusion": 50.0,
+   "diffusion": 40.0,
    "up": 2,
-   "down": 2,
-   "roles_now": 445,
-   "roles_prev": 451,
-   "atoms_bits": 4.08,
+   "down": 3,
+   "roles_now": 461,
+   "roles_prev": 468,
+   "atoms_bits": 4.32,
    "raised_last_3m": 1,
    "factory_flags": []
   },
   {
    "fund": "Silent Ventures",
    "key": "Silent",
-   "tracked_in_lane": 35,
+   "tracked_in_lane": 32,
    "on_hiring_panel": 5,
    "diffusion": 40.0,
    "up": 1,
    "down": 2,
-   "roles_now": 249,
-   "roles_prev": 284,
-   "atoms_bits": 2.23,
-   "raised_last_3m": 4,
+   "roles_now": 255,
+   "roles_prev": 288,
+   "atoms_bits": 2.33,
+   "raised_last_3m": 3,
    "factory_flags": [
     "Chaos Industries"
    ]
@@ -51,9 +51,9 @@
   {
    "company": "Muon Space",
    "bucket": "Space & Aerospace",
-   "roles_3m_ago": 46,
+   "roles_3m_ago": 48,
    "roles_now": 123,
-   "growth_pct": 167.4,
+   "growth_pct": 156.2,
    "last_capital_event": null,
    "senior_mfg_hire": true
   },
@@ -69,9 +69,9 @@
   {
    "company": "Divergent",
    "bucket": "Manufacturing & Materials",
-   "roles_3m_ago": 58,
+   "roles_3m_ago": 59,
    "roles_now": 112,
-   "growth_pct": 93.1,
+   "growth_pct": 89.8,
    "last_capital_event": null,
    "senior_mfg_hire": true
   },
@@ -103,6 +103,15 @@
    "senior_mfg_hire": false
   },
   {
+   "company": "Inversion Space",
+   "bucket": "Space & Aerospace",
+   "roles_3m_ago": 57,
+   "roles_now": 77,
+   "growth_pct": 35.1,
+   "last_capital_event": null,
+   "senior_mfg_hire": false
+  },
+  {
    "company": "Outpost Space",
    "bucket": "Space & Aerospace",
    "roles_3m_ago": 13,
@@ -110,15 +119,6 @@
    "growth_pct": 30.8,
    "last_capital_event": null,
    "senior_mfg_hire": true
-  },
-  {
-   "company": "Inversion Space",
-   "bucket": "Space & Aerospace",
-   "roles_3m_ago": 56,
-   "roles_now": 73,
-   "growth_pct": 30.4,
-   "last_capital_event": null,
-   "senior_mfg_hire": false
   }
  ],
  "about_to_build": [
@@ -126,19 +126,10 @@
    "company": "Zipline",
    "bucket": "Autonomy & Robotics",
    "state": "CA",
-   "roles_prev": 326,
+   "roles_prev": 328,
    "roles_now": 342,
    "senior_roles_open": 3,
    "last_capital_event": "2016-07"
-  },
-  {
-   "company": "ClearSpace",
-   "bucket": "Space & Aerospace",
-   "state": "",
-   "roles_prev": 33,
-   "roles_now": 44,
-   "senior_roles_open": 3,
-   "last_capital_event": null
   },
   {
    "company": "Muon Space",
@@ -207,8 +198,8 @@
    "company": "Ursa Major Technologies",
    "bucket": "Space & Aerospace",
    "state": "CO",
-   "roles_prev": 99,
-   "roles_now": 105,
+   "roles_prev": 100,
+   "roles_now": 106,
    "senior_roles_open": 0,
    "last_capital_event": "2025-10"
   },
@@ -217,21 +208,13 @@
    "bucket": "Manufacturing & Materials",
    "state": "CA",
    "roles_prev": 36,
-   "roles_now": 36,
+   "roles_now": 37,
    "senior_roles_open": 0,
    "last_capital_event": "2026-06"
   }
  ],
- "runway_stress_count": 2,
+ "runway_stress_count": 1,
  "runway_stress_paid": [
-  {
-   "company": "Slingshot Aerospace",
-   "bucket": "Space & Aerospace",
-   "roles_3m_ago": 35,
-   "roles_now": 3,
-   "decline_pct": 91.4,
-   "last_capital_event": null
-  },
   {
    "company": "Locus Robotics",
    "bucket": "Autonomy & Robotics",
@@ -241,18 +224,27 @@
    "last_capital_event": null
   }
  ],
+ "board_checks_3m": [
+  {
+   "company": "Slingshot Aerospace",
+   "roles_3m_ago": 35,
+   "roles_now": 3,
+   "status": "board check \u2014 verify the board before reading as contraction"
+  }
+ ],
+ "verification": "Lists are signals derived from postings and event feeds. 'None on record' means our feeds hold no dated round, not that there was none. Verify each name before external use.",
  "study_hiring_before_raise": {
   "raisers": {
-   "n": 8,
-   "median_growth_pct": 20.6,
-   "share_up_30pct": 37.5,
-   "share_down": 12.5
+   "n": 7,
+   "median_growth_pct": 23.4,
+   "share_up_30pct": 42.9,
+   "share_down": 14.3
   },
   "others": {
-   "n": 185,
-   "median_growth_pct": 14.3,
-   "share_up_30pct": 37.8,
-   "share_down": 28.1
+   "n": 166,
+   "median_growth_pct": 15.1,
+   "share_up_30pct": 42.2,
+   "share_down": 30.1
   },
   "window": "2026-02..2026-09",
   "definition": "Role growth over the three months to M for companies on the panel with \u22655 roles at M-3; raisers = a capital event in M or M+1."
@@ -282,16 +274,16 @@
   {
    "bucket": "Autonomy & Robotics",
    "panel": 10,
-   "diffusion": "80.0",
-   "open_roles": 832,
+   "diffusion": "75.0",
+   "open_roles": 834,
    "listed_names_v0": [],
    "sufficient": false
   },
   {
    "bucket": "Nuclear",
-   "panel": 7,
-   "diffusion": "71.4",
-   "open_roles": 380,
+   "panel": 5,
+   "diffusion": "70.0",
+   "open_roles": 348,
    "listed_names_v0": [
     "BWXT",
     "CW",
@@ -304,7 +296,7 @@
    "bucket": "Defence",
    "panel": 7,
    "diffusion": "64.3",
-   "open_roles": 412,
+   "open_roles": 418,
    "listed_names_v0": [
     "KTOS",
     "AVAV",
@@ -315,17 +307,25 @@
   },
   {
    "bucket": "Space & Aerospace",
-   "panel": 16,
-   "diffusion": "56.2",
-   "open_roles": 1058,
+   "panel": 13,
+   "diffusion": "57.7",
+   "open_roles": 879,
+   "listed_names_v0": [],
+   "sufficient": false
+  },
+  {
+   "bucket": "Chips & Quantum",
+   "panel": 5,
+   "diffusion": "40.0",
+   "open_roles": 295,
    "listed_names_v0": [],
    "sufficient": false
   },
   {
    "bucket": "Manufacturing & Materials",
    "panel": 5,
-   "diffusion": "50.0",
-   "open_roles": 323,
+   "diffusion": "40.0",
+   "open_roles": 339,
    "listed_names_v0": [
     "PWR",
     "EME",
@@ -338,14 +338,6 @@
     "MP",
     "LECO"
    ],
-   "sufficient": false
-  },
-  {
-   "bucket": "Chips & Quantum",
-   "panel": 5,
-   "diffusion": "40.0",
-   "open_roles": 295,
-   "listed_names_v0": [],
    "sufficient": false
   }
  ]

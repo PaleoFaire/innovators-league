@@ -3,8 +3,8 @@
  "states": [
   {
    "state": "CA",
-   "roles": 1299,
-   "atoms": 677,
+   "roles": 1304,
+   "atoms": 684,
    "sw": 262
   },
   {
@@ -15,15 +15,15 @@
   },
   {
    "state": "REMOTE",
-   "roles": 140,
+   "roles": 142,
    "atoms": 32,
-   "sw": 49
+   "sw": 50
   },
   {
    "state": "CO",
-   "roles": 79,
+   "roles": 77,
    "atoms": 50,
-   "sw": 8
+   "sw": 7
   },
   {
    "state": "WA",
@@ -33,32 +33,20 @@
   },
   {
    "state": "NV",
-   "roles": 55,
-   "atoms": 37,
+   "roles": 57,
+   "atoms": 39,
    "sw": 3
   },
   {
-   "state": "NY",
-   "roles": 53,
-   "atoms": 17,
-   "sw": 10
-  },
-  {
    "state": "MA",
-   "roles": 49,
+   "roles": 50,
    "atoms": 21,
    "sw": 8
   },
   {
-   "state": "PA",
-   "roles": 48,
-   "atoms": 22,
-   "sw": 18
-  },
-  {
    "state": "SC",
-   "roles": 29,
-   "atoms": 19,
+   "roles": 27,
+   "atoms": 18,
    "sw": 1
   },
   {
@@ -68,10 +56,16 @@
    "sw": 0
   },
   {
-   "state": "DC",
-   "roles": 17,
-   "atoms": 2,
-   "sw": 9
+   "state": "PA",
+   "roles": 21,
+   "atoms": 14,
+   "sw": 1
+  },
+  {
+   "state": "NY",
+   "roles": 18,
+   "atoms": 14,
+   "sw": 0
   },
   {
    "state": "UT",
@@ -80,16 +74,22 @@
    "sw": 0
   },
   {
-   "state": "AZ",
-   "roles": 13,
-   "atoms": 4,
+   "state": "DC",
+   "roles": 15,
+   "atoms": 2,
+   "sw": 9
+  },
+  {
+   "state": "OH",
+   "roles": 12,
+   "atoms": 8,
    "sw": 0
   },
   {
-   "state": "IL",
+   "state": "AZ",
    "roles": 12,
-   "atoms": 5,
-   "sw": 1
+   "atoms": 4,
+   "sw": 0
   }
  ]
 }

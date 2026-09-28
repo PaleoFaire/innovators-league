@@ -7,5 +7,50 @@
   "on": "2026-09-26",
   "method": "1.1",
   "reason": "feed refresh / method version"
+ },
+ {
+  "key": "2026-04:63.3",
+  "month": "2026-04",
+  "first_print": 67.0,
+  "revised": 63.3,
+  "on": "2026-09-28",
+  "method": "1.2",
+  "reason": "recomputed under method v1.2 (first print v1.0): 0 board check(s) held out; dedupe by posting id; US-only universe"
+ },
+ {
+  "key": "2026-05:67.8",
+  "month": "2026-05",
+  "first_print": 66.0,
+  "revised": 67.8,
+  "on": "2026-09-28",
+  "method": "1.2",
+  "reason": "recomputed under method v1.2 (first print v1.0): 0 board check(s) held out; dedupe by posting id; US-only universe"
+ },
+ {
+  "key": "2026-06:63.0",
+  "month": "2026-06",
+  "first_print": 58.8,
+  "revised": 63.0,
+  "on": "2026-09-28",
+  "method": "1.2",
+  "reason": "recomputed under method v1.2 (first print v1.0): 0 board check(s) held out; dedupe by posting id; US-only universe"
+ },
+ {
+  "key": "2026-07:60.9",
+  "month": "2026-07",
+  "first_print": 60.6,
+  "revised": 60.9,
+  "on": "2026-09-28",
+  "method": "1.2",
+  "reason": "recomputed under method v1.2 (first print v1.0): 1 board check(s) held out; dedupe by posting id; US-only universe"
+ },
+ {
+  "key": "2026-08:62.8",
+  "month": "2026-08",
+  "first_print": 59.6,
+  "revised": 62.8,
+  "on": "2026-09-28",
+  "method": "1.2",
+  "reason": "recomputed under method v1.2 (first print v1.0): 0 board check(s) held out; dedupe by posting id; US-only universe"
  }
 ]

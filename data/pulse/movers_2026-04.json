@@ -58,14 +58,6 @@
    "change_pct": 55.0
   },
   {
-   "company": "Chaos Industries",
-   "bucket": "Defence",
-   "roles_prev": 79,
-   "roles_now": 119,
-   "change": 40,
-   "change_pct": 50.6
-  },
-  {
    "company": "Vannevar Labs",
    "bucket": "Defence",
    "roles_prev": 20,
@@ -74,12 +66,20 @@
    "change_pct": 50.0
   },
   {
-   "company": "Focused Energy",
-   "bucket": "Nuclear",
-   "roles_prev": 11,
-   "roles_now": 16,
-   "change": 5,
-   "change_pct": 45.5
+   "company": "Chaos Industries",
+   "bucket": "Defence",
+   "roles_prev": 81,
+   "roles_now": 119,
+   "change": 38,
+   "change_pct": 46.9
+  },
+  {
+   "company": "Tenstorrent",
+   "bucket": "Chips & Quantum",
+   "roles_prev": 83,
+   "roles_now": 117,
+   "change": 34,
+   "change_pct": 41.0
   }
  ],
  "down": [
@@ -125,7 +125,6 @@
   }
  ],
  "factory_flags": [
-  "ClearSpace",
   "Lightmatter",
   "Nuro",
   "Outpost Space",

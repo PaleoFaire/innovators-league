@@ -135,9 +135,14 @@ def main():
     about_to_build.sort(key=lambda x: (-x["senior_roles_open"], -x["roles_now"]))
 
     # ── 4. Runway stress ──
-    stress = []
+    # Board-change guard over the three-month window too: a fall from ≥20 to ≤3 is a feed/board change
+    # until a human confirms it, so it is listed for checking, never as stress.
+    stress, stress_checks = [], []
     for n in panel3:
         a, b = roles_3[n], roles_now[n]
+        if a >= 20 and b <= 3:
+            stress_checks.append({"company": n, "roles_3m_ago": a, "roles_now": b, "status": "board check — verify the board before reading as contraction"})
+            continue
         if a >= 5 and (a - b) / a >= 0.30:
             lc = last_cap(n)
             if lc is None or months_between(lc, cur) >= 18:
@@ -189,6 +194,8 @@ def main():
 
     intel = {"month": cur, "generated": date.today().isoformat(), "portfolio_pulse": funds_out, "about_to_raise": about_to_raise[:25],
              "about_to_build": about_to_build[:25], "runway_stress_count": len(stress), "runway_stress_paid": stress[:25],
+             "board_checks_3m": stress_checks,
+             "verification": "Lists are signals derived from postings and event feeds. 'None on record' means our feeds hold no dated round, not that there was none. Verify each name before external use.",
              "study_hiring_before_raise": study, "pulse_to_ticker_v0": exposure}
     json.dump(intel, open(OUT / f"intel_{cur}.json", "w"), indent=1)
     json.dump({"month": cur, "funds": funds_out}, open(OUT / f"portfolio_pulse_{cur}.json", "w"), indent=1)

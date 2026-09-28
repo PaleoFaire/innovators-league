@@ -52,7 +52,8 @@ SNAP = OUT / "snapshots"
 OUT.mkdir(exist_ok=True)
 SNAP.mkdir(exist_ok=True)
 
-METHOD_VERSION = "1.1"
+METHOD_VERSION = "1.2"
+US_COUNTRY_VALUES = {"United States", "USA", "US", "United States of America"}
 UP_PCT, UP_ABS = 0.10, 3          # published thresholds — never tuned to make a month look better
 STALE_DAYS = 365                  # postings older than this are treated as ghosts
 COLLAPSE_FROM, COLLAPSE_TO = 20, 3   # ≥20 → ≤3 (or the reverse) is a board change until confirmed
@@ -115,7 +116,7 @@ def load_companies():
     js = ('const fs=require("fs"),vm=require("vm");const s={};vm.createContext(s);'
           'vm.runInContext(fs.readFileSync("data.js","utf8")+";globalThis.__n=COMPANIES.map(c=>({name:c.name,'
           'sector:c.sector||\'\',subsector:c.subsector||\'\',status:c.status||\'\',ticker:c.ticker||\'\','
-          'founded:c.founded||null,state:c.state||\'\',website:c.website||\'\',stage:c.fundingStage||\'\'}));",s);console.log(JSON.stringify(s.__n));')
+          'founded:c.founded||null,state:c.state||\'\',website:c.website||\'\',stage:c.fundingStage||\'\',country:c.country||\'\'}));",s);console.log(JSON.stringify(s.__n));')
     raw = subprocess.run(["node", "-e", js], capture_output=True, text=True, cwd=ROOT, check=True).stdout
     out = {}
     for c in json.loads(raw):
@@ -127,13 +128,15 @@ def load_companies():
         c["bucket"] = b
         c["private"] = not c["ticker"] and c["status"] not in ("ipo", "public")
         c["alive"] = c["status"] in ("active", "")
+        c["us"] = (c.get("country") or "").strip() in US_COUNTRY_VALUES
         c["domain"] = norm_domain(c["website"])
         out[c["name"]] = c
     return out
 
 
 def in_universe(c):
-    return c["private"] and c["alive"] and c["bucket"] is not None
+    """The American build-out: private, active, US-headquartered, inside the lane."""
+    return c["private"] and c["alive"] and c.get("us", False) and c["bucket"] is not None
 
 
 # ─── hiring ──────────────────────────────────────────────────────────────
@@ -162,11 +165,12 @@ def parse_state(location):
 
 
 def clean_jobs(jobs, asof):
-    """Dedupe (company, title, location) and drop postings older than STALE_DAYS."""
+    """Dedupe by posting id (each opening counts once; a company hiring five technicians shows five)
+    and drop postings older than STALE_DAYS."""
     seen, out = set(), []
     cutoff = (datetime.fromisoformat(asof) - timedelta(days=STALE_DAYS)).date().isoformat()
     for j in jobs:
-        key = (j.get("company"), (j.get("title") or "").strip().lower(), (j.get("location") or "").strip().lower())
+        key = j.get("id") or (j.get("company"), (j.get("title") or "").strip().lower(), (j.get("location") or "").strip().lower(), j.get("url"))
         if key in seen:
             continue
         seen.add(key)
@@ -565,7 +569,9 @@ def main():
             key = f"{m}:{round(h_diff,1)}"
             if not any(r.get("key") == key for r in revisions):
                 revisions.append({"key": key, "month": m, "first_print": fp.get("hiring_diffusion"), "revised": round(h_diff, 1),
-                                  "on": today, "method": METHOD_VERSION, "reason": "feed refresh / method version"})
+                                  "on": today, "method": METHOD_VERSION,
+                                  "reason": f"recomputed under method v{METHOD_VERSION} (first print v{fp.get('method', '1.0')}): "
+                                            f"{len(board_checks)} board check(s) held out; dedupe by posting id; US-only universe"})
         row = {
             "month": m, "is_nowcast": m == cur_month, "asof": snap_dates.get(m, ""), "method": METHOD_VERSION,
             "hiring_panel": n_panel, "hiring_up": up, "hiring_flat": flat, "hiring_down": down,
@@ -648,7 +654,8 @@ def main():
         boards = sum(1 for r in json.load(open(p)) if any(c.get("confidence") == "high" for c in r.get("candidates", [])))
     with_board = len([n for n in snaps[lm]["roles"]])
     payload = {"generated": today, "method_version": METHOD_VERSION, "taxonomy_version": TAXONOMY_VERSION,
-               "universe": n_universe, "companies_total": len(companies), "companies_with_board": with_board,
+               "universe": n_universe, "universe_scope": "private · active · US-headquartered · inside the build-out",
+               "companies_total": len(companies), "companies_with_board": with_board,
                "thresholds": {"up_pct": UP_PCT, "up_abs": UP_ABS, "stale_days": STALE_DAYS, "min_bucket": MIN_BUCKET,
                               "collapse_from": COLLAPSE_FROM, "collapse_to": COLLAPSE_TO, "bootstrap_n": BOOTSTRAP_N},
                "weights": WEIGHTS, "latest": latest, "latest_buckets": latest_buckets, "history": hist_rows,

@@ -50,22 +50,6 @@
    "change_pct": 38.5
   },
   {
-   "company": "ClearSpace",
-   "bucket": "Space & Aerospace",
-   "roles_prev": 33,
-   "roles_now": 44,
-   "change": 11,
-   "change_pct": 33.3
-  },
-  {
-   "company": "Focused Energy",
-   "bucket": "Nuclear",
-   "roles_prev": 15,
-   "roles_now": 20,
-   "change": 5,
-   "change_pct": 33.3
-  },
-  {
    "company": "Kairos Power",
    "bucket": "Nuclear",
    "roles_prev": 22,
@@ -80,6 +64,22 @@
    "roles_now": 10,
    "change": 2,
    "change_pct": 25.0
+  },
+  {
+   "company": "Vast",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 174,
+   "roles_now": 209,
+   "change": 35,
+   "change_pct": 20.1
+  },
+  {
+   "company": "Muon Space",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 105,
+   "roles_now": 123,
+   "change": 18,
+   "change_pct": 17.1
   }
  ],
  "down": [
@@ -126,7 +126,6 @@
  ],
  "factory_flags": [
   "Chaos Industries",
-  "ClearSpace",
   "Divergent",
   "General Matter",
   "Mach Industries",
