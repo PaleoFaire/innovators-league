@@ -1,84 +1,84 @@
 {
-  "date": "2026-09-21",
-  "display_date": "Sep 21, 2026",
-  "generated_at": "2026-09-21T16:21:06.921139+00:00",
-  "cutoff": "2026-09-14T16:21:06.921139+00:00",
+  "date": "2026-09-28",
+  "display_date": "Sep 28, 2026",
+  "generated_at": "2026-09-28T18:01:40.591261+00:00",
+  "cutoff": "2026-09-21T18:01:40.591261+00:00",
   "section_count": 7,
-  "total_items": 281,
+  "total_items": 222,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 71,
+      "count": 12,
       "items": [
         {
-          "company": "Onebrief",
-          "current": 38.0,
-          "previous": 35.0,
-          "change": 3.0,
-          "tier": "early"
+          "company": "Terra Industries",
+          "current": 77.5,
+          "previous": 36.5,
+          "change": 41.0,
+          "tier": "leader"
         },
         {
           "company": "Kodiak AI",
-          "current": 37.5,
-          "previous": 34.5,
-          "change": 3.0,
+          "current": 34.5,
+          "previous": 37.5,
+          "change": -3.0,
           "tier": "early"
         },
         {
-          "company": "BRINC Drones",
-          "current": 37.5,
-          "previous": 34.5,
-          "change": 3.0,
+          "company": "Shine Technologies",
+          "current": 30.5,
+          "previous": 33.5,
+          "change": -3.0,
           "tier": "early"
         },
         {
-          "company": "Echodyne",
-          "current": 37.5,
-          "previous": 34.5,
-          "change": 3.0,
+          "company": "Blue Energy",
+          "current": 29.5,
+          "previous": 32.5,
+          "change": -3.0,
           "tier": "early"
         },
         {
-          "company": "Viken Detection",
-          "current": 37.5,
-          "previous": 34.5,
-          "change": 3.0,
+          "company": "Inertia Enterprises",
+          "current": 28.5,
+          "previous": 31.5,
+          "change": -3.0,
           "tier": "early"
         },
         {
-          "company": "Shift5",
-          "current": 37.5,
-          "previous": 34.5,
-          "change": 3.0,
+          "company": "Applied Atomics",
+          "current": 28.0,
+          "previous": 31.0,
+          "change": -3.0,
           "tier": "early"
         },
         {
-          "company": "Vantage Robotics",
-          "current": 37.5,
-          "previous": 34.5,
-          "change": 3.0,
+          "company": "Project Omega",
+          "current": 28.0,
+          "previous": 31.0,
+          "change": -3.0,
           "tier": "early"
         },
         {
-          "company": "Teradar",
-          "current": 37.0,
-          "previous": 34.0,
-          "change": 3.0,
+          "company": "Zephyr Fusion",
+          "current": 28.0,
+          "previous": 31.0,
+          "change": -3.0,
           "tier": "early"
         },
         {
-          "company": "Twenty",
-          "current": 37.0,
-          "previous": 34.0,
-          "change": 3.0,
+          "company": "Maritime Fusion",
+          "current": 28.0,
+          "previous": 31.0,
+          "change": -3.0,
           "tier": "early"
         },
         {
-          "company": "Performance Drone Works",
-          "current": 37.0,
-          "previous": 34.0,
-          "change": 3.0,
+          "company": "AIM Intelligent Machines",
+          "current": 34.5,
+          "previous": 36.5,
+          "change": -2.0,
           "tier": "early"
         }
       ]
@@ -86,62 +86,62 @@
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 27,
+      "count": 8,
       "items": [
         {
-          "company": "Rocket Lab",
+          "company": "Archer Aviation",
           "form": "8-K",
-          "description": "g085951_8k.htm",
-          "date": "2026-09-15",
+          "description": "achr-20260924.htm",
+          "date": "2026-09-24",
           "isIPO": false
         },
         {
-          "company": "Intuitive Machines",
+          "company": "Aurora Innovation",
           "form": "8-K",
-          "description": "tm2625564d1_8k.htm",
-          "date": "2026-09-16",
+          "description": "aur-20260923.htm",
+          "date": "2026-09-23",
           "isIPO": false
         },
         {
-          "company": "Centrus Energy",
+          "company": "LanzaTech",
           "form": "8-K",
-          "description": "leu-20260917.htm",
-          "date": "2026-09-17",
+          "description": "tlsi-20260922.htm",
+          "date": "2026-09-22",
           "isIPO": false
         },
         {
-          "company": "D-Wave Quantum",
-          "form": "8-K",
-          "description": "qbts-20260918.htm",
-          "date": "2026-09-21",
-          "isIPO": false
-        },
-        {
-          "company": "D-Wave Quantum",
-          "form": "8-K",
-          "description": "qbts-20260916.htm",
-          "date": "2026-09-17",
-          "isIPO": false
-        },
-        {
-          "company": "D-Wave Quantum",
-          "form": "8-K",
-          "description": "qbts-20260915.htm",
-          "date": "2026-09-15",
-          "isIPO": false
-        },
-        {
-          "company": "Satellogic",
-          "form": "8-K",
-          "description": "ea0305994-8k_zoomcar.htm",
-          "date": "2026-09-18",
-          "isIPO": false
-        },
-        {
-          "company": "Palantir Technologies",
+          "company": "BlackSky Technology",
           "form": "4",
-          "description": "xslF345X06/wk-form4_1789692829.xml",
-          "date": "2026-09-17",
+          "description": "xslF345X06/wk-form4_1790113165.xml",
+          "date": "2026-09-22",
+          "isIPO": false
+        },
+        {
+          "company": "BlackSky Technology",
+          "form": "4",
+          "description": "xslF345X06/wk-form4_1790113148.xml",
+          "date": "2026-09-22",
+          "isIPO": false
+        },
+        {
+          "company": "BlackSky Technology",
+          "form": "4",
+          "description": "xslF345X06/wk-form4_1790113118.xml",
+          "date": "2026-09-22",
+          "isIPO": false
+        },
+        {
+          "company": "D-Wave Quantum",
+          "form": "4",
+          "description": "xslF345X06/wk-form4_1790283736.xml",
+          "date": "2026-09-24",
+          "isIPO": false
+        },
+        {
+          "company": "Archer Aviation",
+          "form": "4",
+          "description": "xslF345X06/form4-09242026_120929.xml",
+          "date": "2026-09-23",
           "isIPO": false
         }
       ]
@@ -149,8 +149,14 @@
     {
       "title": "Contract Opportunities",
       "icon": "\ud83c\udfe2",
-      "count": 4,
+      "count": 5,
       "items": [
+        {
+          "title": "COMPLIANCE HUB IRS CASE SELECTION. SOFTWARE LICENSES PLUS OPERATIONS AND MAINTENANCE",
+          "agency": "",
+          "value": "",
+          "date": "2026-09-23"
+        },
         {
           "title": "BPA CALL FOR ELECTRONIC HEALTH RECORD AND AXIOM",
           "agency": "",
@@ -158,146 +164,148 @@
           "date": "2026-09-30"
         },
         {
-          "title": "SKYDIO UNMANNED AERIAL SYSTEMS (UASS)",
+          "title": "SKYDIO DRONES",
           "agency": "",
           "value": "",
-          "date": "2026-09-18"
+          "date": "2026-09-25"
+        },
+        {
+          "title": "SKYDIO UNMANNED AERIAL SYSTEM (UAS)",
+          "agency": "",
+          "value": "",
+          "date": "2026-09-22"
         },
         {
           "title": "MSCP SATELLITE IMAGERY ORDER 2026",
           "agency": "",
           "value": "",
           "date": "2026-11-01"
-        },
-        {
-          "title": "IT LABOR PROVIDING ENTERPRISE DATA PLATFORM INTAKE, SECURITY, TENANT, PLATFORM OPERATIONS AND GOVERNANCE SERVICES.",
-          "agency": "",
-          "value": "",
-          "date": "2026-09-15"
         }
       ]
     },
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 31,
+      "count": 39,
       "items": [
         {
-          "title": "National POW/MIA Recognition Day, 2026",
-          "type": "Presidential Document",
-          "agencies": [
-            "Executive Office of the President"
-          ],
-          "significant": false,
-          "date": "2026-09-21"
-        },
-        {
-          "title": "Constitution Day, Citizenship Day, and Constitution Week, 2026",
-          "type": "Presidential Document",
-          "agencies": [
-            "Executive Office of the President"
-          ],
-          "significant": false,
-          "date": "2026-09-21"
-        },
-        {
-          "title": "Rescission of Rule 14a-8's Federal Regulation of Shareholder Proposals and Amendments to Rule 14a-4",
+          "title": "Regulatory Enhancements for Reactor Licensing, Decommissioning, and Operational Oversight",
           "type": "Proposed Rule",
           "agencies": [
-            "Securities and Exchange Commission"
+            "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-09-21"
+          "date": "2026-09-24"
         },
         {
-          "title": "Great Lakes Pilotage Rates-2027 Annual Review and Revisions to Methodology",
+          "title": "Request for Information; Medicare Part D Reasonable and Relevant Pharmacy Contracting Standards",
           "type": "Proposed Rule",
           "agencies": [
-            "Homeland Security Department",
-            "Coast Guard"
+            "Health and Human Services Department",
+            "Centers for Medicare & Medicaid Services"
           ],
           "significant": false,
-          "date": "2026-09-21"
+          "date": "2026-09-24"
         },
         {
-          "title": "President's Military Spouse Commission; Notice of Federal Advisory Committee Meeting",
+          "title": "Science and Technology Reinvention Laboratory Personnel Demonstration Project Program",
           "type": "Notice",
           "agencies": [
             "Defense Department",
             ""
           ],
           "significant": false,
-          "date": "2026-09-21"
+          "date": "2026-09-28"
         },
         {
-          "title": "Employment in the Excepted Service",
+          "title": "National Emission Standards for Hazardous Air Pollutants for Gasoline Distribution Facilities and Standards of Performan",
           "type": "Proposed Rule",
           "agencies": [
-            "Personnel Management Office"
+            "Environmental Protection Agency"
           ],
           "significant": false,
-          "date": "2026-09-18"
+          "date": "2026-09-28"
+        },
+        {
+          "title": "Privacy Act of 1974; System of Records",
+          "type": "Notice",
+          "agencies": [
+            "Defense Department",
+            ""
+          ],
+          "significant": false,
+          "date": "2026-09-28"
+        },
+        {
+          "title": "Submission for OMB Review; Comment Request",
+          "type": "Notice",
+          "agencies": [
+            "Defense Department",
+            ""
+          ],
+          "significant": false,
+          "date": "2026-09-28"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 17,
+      "count": 28,
       "items": [
         {
-          "title": "WRONG: $160 Billion Per GW for AI in Orbit. SpaceX Actual Plan is Less Than $1 Billion",
+          "title": "SpaceX Will Pay Less than $1 billion to Launch a Gigawatt of AI  &#8211; $180 Billion Estimate is a ",
           "source": "Next Big Future",
           "company": "SpaceX",
           "impact": "high",
           "type": "ipo"
         },
         {
-          "title": "Mazama Energy raises $135M for superhot geothermal at Oregon volcano",
-          "source": "Canary Media",
-          "company": "Mazama",
+          "title": "TEKEVER raises $580M Series D, DTCP closes \u20ac455M defence fund, and the challenge to reinvent chip de",
+          "source": "Tech.eu",
+          "company": "Tekever",
           "impact": "high",
           "type": "funding"
         },
         {
-          "title": "SpaceX Starmind AI in Space Radiator",
+          "title": "Europeans in Japan raise $1.2M to put modular humanoid robots to work",
+          "source": "Tech.eu",
+          "company": "Humanoid",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "SpaceX Starship Orbital, Deployed Commercial V3 Satellites, Gigawatt AI Possible With 120 Launches",
           "source": "Next Big Future",
           "company": "SpaceX",
-          "impact": "low",
+          "impact": "medium",
           "type": "ipo"
         },
         {
-          "title": "What do you do with a humanoid robot when it breaks down?",
-          "source": "The Robot Report",
-          "company": "Humanoid",
+          "title": "Commonwealth Fusion Systems\u2019 Brandon Sorbom and Helion\u2019s David Kirtley on bringing fusion to the gri",
+          "source": "TechCrunch",
+          "company": "Commonwealth Fusion Systems",
           "impact": "low",
           "type": "news"
         },
         {
-          "title": "Waiting for Compute Because They Have To Not Because OpenAI Wants to",
-          "source": "Next Big Future",
-          "company": "OpenAI",
+          "title": "SpaceX&#8217;s Starship rocket reaches orbit for the first time",
+          "source": "TechCrunch",
+          "company": "SpaceX",
           "impact": "low",
           "type": "ipo"
         },
         {
-          "title": "Cape Canaveral is building up its counter-drone defenses, Space Force says",
-          "source": "Defense One",
-          "company": "Cape",
+          "title": "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government",
+          "source": "Wired",
+          "company": "OpenAI",
           "impact": "low",
-          "type": "contract"
+          "type": "news"
         },
         {
-          "title": "NASA Awards SpaceX Three Crew Flights to Space Station",
-          "source": "NASA Breaking News",
-          "company": "SpaceX",
-          "impact": "low",
-          "type": "contract"
-        },
-        {
-          "title": "Waymo&#8217;s Next Target: Singapore",
-          "source": "CleanTechnica",
-          "company": "Waymo",
+          "title": "This Early Groq Investor Expects Half Her Bets To Fail",
+          "source": "Crunchbase News",
+          "company": "Groq",
           "impact": "low",
           "type": "news"
         }
@@ -306,99 +314,104 @@
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 39,
+      "count": 44,
       "items": [
         {
-          "title": "ChatGPT now knows what you do on other websites via ad collector",
-          "score": 731,
-          "comments": 387,
+          "title": "Unsealed Briefs in Authors\u2019 Case v. Microsoft/OpenAI",
+          "score": 621,
+          "comments": 606,
           "companies": [
-            "OpenAI"
+            "OpenAI",
+            "Photonic Inc"
           ],
-          "url": "https://news.ycombinator.com/item?id=49776729"
+          "url": "https://news.ycombinator.com/item?id=49863864"
         },
         {
-          "title": "How to Write with an LLM",
-          "score": 728,
-          "comments": 408,
-          "companies": [],
-          "url": "https://news.ycombinator.com/item?id=49747070"
-        },
-        {
-          "title": "Pirate Face Rescues LLM Models from Deletion",
-          "score": 543,
-          "comments": 144,
-          "companies": [],
-          "url": "https://news.ycombinator.com/item?id=49776699"
-        },
-        {
-          "title": "Bill to Ban Private Equity from Owning Medical Practices",
-          "score": 459,
-          "comments": 324,
+          "title": "Show HN: Reladraw \u2013 A diagram language where you decide where to place things",
+          "score": 398,
+          "comments": 118,
           "companies": [
-            "Kinova Robotics",
-            "Zipline"
+            "Anthropic",
+            "Fortera"
           ],
-          "url": "https://news.ycombinator.com/item?id=49780630"
+          "url": "https://news.ycombinator.com/item?id=49858513"
         },
         {
-          "title": "Why do we need human mathematicians anymore?",
-          "score": 238,
-          "comments": 247,
+          "title": "In an $80 motel room, a discovery to shed light on the origins of life",
+          "score": 272,
+          "comments": 103,
           "companies": [
-            "Matic Robotics"
+            "Cover"
           ],
-          "url": "https://news.ycombinator.com/item?id=49774521"
+          "url": "https://news.ycombinator.com/item?id=49866951"
         },
         {
-          "title": "Tin: full-text search for Postgres",
-          "score": 228,
-          "comments": 95,
+          "title": "SpaceX's Starship launching to orbit for first time ever today",
+          "score": 254,
+          "comments": 223,
           "companies": [
-            "Scale AI",
-            "Planet Labs"
+            "SpaceX"
           ],
-          "url": "https://news.ycombinator.com/item?id=49766611"
+          "url": "https://news.ycombinator.com/item?id=49875411"
+        },
+        {
+          "title": "Replacing the old battery on rechargeable bike lights",
+          "score": 193,
+          "comments": 110,
+          "companies": [
+            "Impulse Labs"
+          ],
+          "url": "https://news.ycombinator.com/item?id=49866515"
+        },
+        {
+          "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
+          "score": 187,
+          "comments": 100,
+          "companies": [
+            "Anthropic",
+            "Runway"
+          ],
+          "url": "https://news.ycombinator.com/item?id=49868831"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 92,
+      "count": 86,
       "items": [
         {
-          "title": "WeTouch Technology Inc. Provides Fiscal Year 2026 Financial Guidance; Expects Revenue Growth of Approximately 40% and Ne",
+          "title": "FERRARI N.V.: PERIODIC REPORT ON THE BUYBACK PROGRAM",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Greenland Mines More Than Doubles Control Position in the Sarfartoq Rare Earth Magnet District in West Greenland",
+          "title": "\u00c5rsrapport 2025-2026 Dantax A/S",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "WisdomTree Hedged Commodity Securities Limited Publication of Prospectus",
+          "title": "Davidson Kempner Capital Management LP : Form 8.3 - DCC plc",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Globalstar Completes Expansion of Greece Ground Station, Marking Key Milestone in Global Infrastructure Buildout",
+          "title": "74Software\u00a0: D\u00e9claration des transactions sur actions propres r\u00e9alis\u00e9es du 21 au 25 septembre 2026",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "EverCommerce Strengthens Leadership Team with Focus on Reacceleration of Revenue Growth and Long-Term Profitable Growth",
+          "title": "74Software: Disclosure of transactions in own shares from September 21 to 25, 2026",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Diana Shipping Inc. Announces Time Charter Contract for m/v DSI Polaris with Dai An Ocean Shipping",
+          "title": "Norsk Hydro: Hydro to receive EUR 28 million compensation following wind farm sale",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-09-21-d9bd895590e6"
+  "brief_id": "brief-2026-09-28-e403bded6668"
 }
