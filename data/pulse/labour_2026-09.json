@@ -1,12 +1,12 @@
 {
  "month": "2026-09",
- "n_postings_with_true_dates": 3282,
+ "n_postings_with_true_dates": 3274,
  "median_age_days_by_class": {
-  "commercial": 41,
+  "manufacturing": 42,
+  "software": 66,
   "hardware": 53,
   "other": 46,
-  "manufacturing": 42,
-  "software": 66
+  "commercial": 41
  },
  "hardest_to_fill_titles": [
   {

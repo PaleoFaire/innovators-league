@@ -14,7 +14,7 @@
 
 - **Vannevar Labs** (Defence, CA) — roles_4w_ago 23, roles_now 31, change_pct 34.8; no capital event on record
 - **Divergent** (Manufacturing & Materials, CA) — roles_4w_ago 78, roles_now 112, change_pct 43.6; no capital event on record
-- **Astranis** (Space & Aerospace, CA) — roles_4w_ago 84, roles_now 165, change_pct 96.4; last capital event 2025-03
+- **Astranis** (Space & Aerospace, CA) — roles_4w_ago 84, roles_now 164, change_pct 95.2; last capital event 2025-03
 
 ## Hiring pullback — open roles −30% in four weeks (1)
 

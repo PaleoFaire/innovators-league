@@ -14,7 +14,7 @@
    "company": "Vast",
    "bucket": "Space & Aerospace",
    "score": 61.1,
-   "roles": 209,
+   "roles": 210,
    "in_hiring_panel": true,
    "last_capital": "2026-08",
    "last_contract": "2026-02"
@@ -41,7 +41,7 @@
    "company": "Astranis",
    "bucket": "Space & Aerospace",
    "score": 49.9,
-   "roles": 165,
+   "roles": 164,
    "in_hiring_panel": true,
    "last_capital": "2025-03",
    "last_contract": "2026-04"
@@ -191,21 +191,21 @@
    "last_contract": "2025-12"
   },
   {
-   "company": "Tenstorrent",
-   "bucket": "Chips & Quantum",
-   "score": 32.9,
-   "roles": 123,
-   "in_hiring_panel": true,
-   "last_capital": "2026-07",
-   "last_contract": null
-  },
-  {
    "company": "Extropic",
    "bucket": "Chips & Quantum",
    "score": 32.9,
    "roles": 10,
    "in_hiring_panel": true,
    "last_capital": null,
+   "last_contract": null
+  },
+  {
+   "company": "Tenstorrent",
+   "bucket": "Chips & Quantum",
+   "score": 31.2,
+   "roles": 122,
+   "in_hiring_panel": true,
+   "last_capital": "2026-07",
    "last_contract": null
   },
   {

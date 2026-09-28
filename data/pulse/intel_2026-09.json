@@ -10,9 +10,9 @@
    "diffusion": 80.0,
    "up": 3,
    "down": 0,
-   "roles_now": 608,
+   "roles_now": 606,
    "roles_prev": 511,
-   "atoms_bits": 3.1,
+   "atoms_bits": 3.07,
    "raised_last_3m": 3,
    "factory_flags": []
   },
@@ -24,9 +24,9 @@
    "diffusion": 40.0,
    "up": 2,
    "down": 3,
-   "roles_now": 461,
+   "roles_now": 460,
    "roles_prev": 468,
-   "atoms_bits": 4.32,
+   "atoms_bits": 4.3,
    "raised_last_3m": 1,
    "factory_flags": []
   },
@@ -61,8 +61,8 @@
    "company": "Astranis",
    "bucket": "Space & Aerospace",
    "roles_3m_ago": 84,
-   "roles_now": 166,
-   "growth_pct": 97.6,
+   "roles_now": 164,
+   "growth_pct": 95.2,
    "last_capital_event": "2025-03",
    "senior_mfg_hire": false
   },
@@ -213,7 +213,7 @@
    "last_capital_event": "2026-06"
   }
  ],
- "runway_stress_count": 1,
+ "runway_stress_count": 2,
  "runway_stress_paid": [
   {
    "company": "Locus Robotics",
@@ -221,6 +221,14 @@
    "roles_3m_ago": 18,
    "roles_now": 6,
    "decline_pct": 66.7,
+   "last_capital_event": null
+  },
+  {
+   "company": "Atomic Machines",
+   "bucket": "Chips & Quantum",
+   "roles_3m_ago": 38,
+   "roles_now": 25,
+   "decline_pct": 34.2,
    "last_capital_event": null
   }
  ],
@@ -244,101 +252,10 @@
    "n": 166,
    "median_growth_pct": 15.1,
    "share_up_30pct": 42.2,
-   "share_down": 30.1
+   "share_down": 30.7
   },
   "window": "2026-02..2026-09",
   "definition": "Role growth over the three months to M for companies on the panel with \u22655 roles at M-3; raisers = a capital event in M or M+1."
  },
- "pulse_to_ticker_v0": [
-  {
-   "bucket": "Power & Grid",
-   "panel": 3,
-   "diffusion": "83.3",
-   "open_roles": 28,
-   "listed_names_v0": [
-    "CEG",
-    "VST",
-    "TLN",
-    "GEV",
-    "CAT",
-    "CMI",
-    "BE",
-    "ETN",
-    "HUBB",
-    "POWL",
-    "VRT",
-    "NVT"
-   ],
-   "sufficient": false
-  },
-  {
-   "bucket": "Autonomy & Robotics",
-   "panel": 10,
-   "diffusion": "75.0",
-   "open_roles": 834,
-   "listed_names_v0": [],
-   "sufficient": false
-  },
-  {
-   "bucket": "Nuclear",
-   "panel": 5,
-   "diffusion": "70.0",
-   "open_roles": 348,
-   "listed_names_v0": [
-    "BWXT",
-    "CW",
-    "CCJ",
-    "MIR"
-   ],
-   "sufficient": false
-  },
-  {
-   "bucket": "Defence",
-   "panel": 7,
-   "diffusion": "64.3",
-   "open_roles": 418,
-   "listed_names_v0": [
-    "KTOS",
-    "AVAV",
-    "RKLB",
-    "IRDM"
-   ],
-   "sufficient": false
-  },
-  {
-   "bucket": "Space & Aerospace",
-   "panel": 13,
-   "diffusion": "57.7",
-   "open_roles": 879,
-   "listed_names_v0": [],
-   "sufficient": false
-  },
-  {
-   "bucket": "Chips & Quantum",
-   "panel": 5,
-   "diffusion": "40.0",
-   "open_roles": 295,
-   "listed_names_v0": [],
-   "sufficient": false
-  },
-  {
-   "bucket": "Manufacturing & Materials",
-   "panel": 5,
-   "diffusion": "40.0",
-   "open_roles": 339,
-   "listed_names_v0": [
-    "PWR",
-    "EME",
-    "FIX",
-    "AGX",
-    "TTEK",
-    "HWM",
-    "ATI",
-    "CRS",
-    "MP",
-    "LECO"
-   ],
-   "sufficient": false
-  }
- ]
+ "pulse_to_ticker_v0": []
 }
