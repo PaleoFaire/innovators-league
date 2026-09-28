@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 2.94,
+      "avg_change": 2.4,
       "count": 1
     },
     "space": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 0.01,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -0.79,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -3.31,
+      "avg_change": -4.29,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.92,
+      "avg_change": -7.72,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.48,
+      "avg_change": -7.25,
       "count": 3
     },
     "quantum": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 2.52,
+      "avg_change": 0.45,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 3.02,
+      "avg_change": 2.74,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -3.34,
+      "avg_change": -4.23,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 0.12,
+      "avg_change": 0.84,
       "count": 3
     }
   },
@@ -61,44 +61,44 @@
     [
       "IONQ",
       "IonQ",
-      13.65
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      10.39
+      10.05
     ],
     [
       "TEM",
       "Tempus AI",
-      8.02
+      9.03
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      8.42
     ],
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      5.69
+      5.98
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      5.24
+      5.56
     ]
   ],
   "topLosers": [
     [
       "SLDP",
       "Solid Power",
-      -7.66
+      -8.87
     ],
     [
       "SMR",
       "NuScale Power",
-      -9.16
+      -10.01
     ],
     [
       "QS",
       "QuantumScape",
-      -9.49
+      -10.59
     ],
     [
       "ASRHF",
@@ -108,8 +108,8 @@
     [
       "AUR",
       "Aurora Innovation",
-      -13.67
+      -18.74
     ]
   ],
-  "lastUpdated": "2026-09-28 15:33:49"
+  "lastUpdated": "2026-09-28 23:51:27"
 }
