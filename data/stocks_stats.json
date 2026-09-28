@@ -11,13 +11,13 @@
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 9.61,
+      "avg_change": 9.51,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 1.9,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": 1.62,
       "count": 7
     },
     "nuclear": {
@@ -96,14 +96,14 @@
       -3.24
     ],
     [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -3.4
+    ],
+    [
       "AUR",
       "Aurora Innovation",
       -4.28
-    ],
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -5.31
     ],
     [
       "DRSHF",
@@ -111,5 +111,5 @@
       -6.02
     ]
   ],
-  "lastUpdated": "2026-09-27 22:16:04"
+  "lastUpdated": "2026-09-28 06:59:44"
 }
