@@ -65352,23 +65352,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-29 15:38
+// Last updated: 2026-09-29 20:39
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Anthropic", headline: "STAT+: Anthropic joins ARPA-H clinical AI moonshot, will hold closed-door health care event", source: "STAT News", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Humanoid", headline: "Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents", source: "The Robot Report", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI apologizes to Australia after its AI agents breached government sites", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "OpenAI", headline: "OpenAI Delays Release of Latest Model Over Safety Concerns", source: "Wired", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Anthropic", headline: "Anthropic's prospectus details losses, growth, and, yes, a warning that its AI could end humanity", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI reportedly ditches model over safety concerns", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Modal", headline: "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation", source: "TechCrunch", time: "18h ago", impact: "medium", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX AI Gameover for Rivals -Money Wise Minihard Crushes Even Money From Millions of Robotaxi", source: "Next Big Future", time: "19h ago", impact: "medium", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "Many Were Proved Completely Wrong Today About SpaceX Starship Working", source: "Next Big Future", time: "21h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Gecko Robotics", headline: "Gecko Robotics works with NVIDIA to add AI agent security and control", source: "The Robot Report", time: "21h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Orbital, Deployed Commercial V3 Satellites, Gigawatt AI Possible With 120 Launches", source: "Next Big Future", time: "1d ago", impact: "medium", unread: false },
-  { id: 12, type: "news", company: "OpenAI", headline: "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Groq", headline: "This Early Groq Investor Expects Half Her Bets To Fail", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Cohere", headline: "Cohere's chief AI officer: US and China will hold us 'by the throat' if we don't develop local capabilities", source: "Sifted", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Matter", headline: "AI in Space Must Be Over 10+ GW/Year Or It Does Not Matter", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "OpenAI", headline: "OpenAI's latest features take direct aim at the app store model", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "OpenAI", headline: "OpenAI repotedly in talks to raise $30B round at $1.4T valuation", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI Gets Sued Over the Hugging Face Hack", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Anthropic", headline: "Oura Hits Pause On IPO While Anthropic's Prospectus Reveals The Cost Of Its AI Ambitions", source: "Crunchbase News", time: "1h ago", impact: "high", unread: true },
+  { id: 5, type: "ipo", company: "OpenAI", headline: "Here's why OpenAI is absent from Nvidia's industry-wide effort to end rogue AI agents", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Anthropic", headline: "Anthropic Says It Discovered a Crispr-Like System. Now What?", source: "Wired", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "Anthropic Nearly Doubles Leasing From Spacex to over $2 Billion Per Month", source: "Next Big Future", time: "2h ago", impact: "high", unread: false },
+  { id: 8, type: "milestone", company: "OpenAI", headline: "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT's own office suite", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Terran Orbital", headline: "Terran Orbital Names Jamin Brown Chief Operating Officer", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 10, type: "milestone", company: "OpenAI", headline: "OpenAI launches Dots, its bubbly agentic avatar", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI gives Codex reusable cloud environments that work across devices", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "OpenAI", headline: "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
+  { id: 13, type: "news", company: "OpenAI", headline: "OpenAI expands ChatGPT's plugins with app-like interfaces and automations", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "OpenAI", headline: "OpenAI's Dots Are Always-On AI Agents'and Its Answer to Meta's Muse", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "Tesla (TSLA) wins SEC OK to auto-vote retail shares with board ahead of SpaceX merger", source: "Electrek", time: "3h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
