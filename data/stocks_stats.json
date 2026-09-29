@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 2.4,
+      "avg_change": 0.65,
       "count": 1
     },
     "space": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 1.2,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -1.56,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -4.81,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -7.69,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.72,
+      "avg_change": -7.69,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.25,
+      "avg_change": -7.33,
       "count": 3
     },
     "quantum": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 0.45,
+      "avg_change": -0.1,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 2.74,
+      "avg_change": 4.88,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -4.23,
+      "avg_change": -4.37,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 0.84,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -0.59,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "IONQ",
-      "IonQ",
-      10.05
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      11.46
     ],
     [
       "TEM",
       "Tempus AI",
-      9.03
+      9.11
+    ],
+    [
+      "IONQ",
+      "IonQ",
+      8.84
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      3.33
     ],
     [
       "SATL",
       "Satellogic",
-      8.42
-    ],
-    [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      5.98
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      5.56
+      2.0
     ]
   ],
   "topLosers": [
     [
-      "OKLO",
-      "Oklo",
-      -7.64
+      "ACHR",
+      "Archer Aviation",
+      -8.79
     ],
     [
       "SLDP",
       "Solid Power",
-      -8.87
+      -9.04
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -9.15
     ],
     [
       "SMR",
       "NuScale Power",
-      -10.01
-    ],
-    [
-      "QS",
-      "QuantumScape",
-      -10.59
+      -10.12
     ],
     [
       "AUR",
       "Aurora Innovation",
-      -18.74
+      -19.43
     ]
   ],
-  "lastUpdated": "2026-09-29 06:58:58"
+  "lastUpdated": "2026-09-29 14:08:08"
 }
