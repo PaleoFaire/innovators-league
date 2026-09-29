@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T08:18:47.748534+00:00",
+  "generatedAt": "2026-09-29T15:38:56.535085+00:00",
   "date": "2026-09-29",
   "dateDisplay": "Tuesday, September 29, 2026",
   "sections": {
@@ -72,58 +72,58 @@
       {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 5.29,
-        "changePercent": -18.74,
-        "change": -1.22
+        "price": 5.21,
+        "changePercent": -19.43,
+        "change": -1.25
       },
       {
-        "ticker": "QS",
-        "company": "QuantumScape",
-        "price": 4.56,
-        "changePercent": -10.59,
-        "change": -0.54
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 44.58,
-        "changePercent": 10.05,
-        "change": 4.07
+        "ticker": "ONT.L",
+        "company": "Oxford Nanopore Technologies",
+        "price": 198.4,
+        "changePercent": 11.46,
+        "change": 20.4
       },
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 7.91,
-        "changePercent": -10.01,
-        "change": -0.88
+        "price": 7.99,
+        "changePercent": -10.12,
+        "change": -0.9
+      },
+      {
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 0.67,
+        "changePercent": -9.15,
+        "change": -0.07
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 85.08,
-        "changePercent": 9.03,
-        "change": 7.05
+        "price": 84.22,
+        "changePercent": 9.11,
+        "change": 7.03
       },
       {
         "ticker": "SLDP",
         "company": "Solid Power",
-        "price": 2.26,
-        "changePercent": -8.87,
-        "change": -0.22
+        "price": 2.27,
+        "changePercent": -9.04,
+        "change": -0.23
       },
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 6.05,
-        "changePercent": 8.42,
-        "change": 0.47
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 44.34,
+        "changePercent": 8.84,
+        "change": 3.6
       },
       {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 37.11,
-        "changePercent": -7.64,
-        "change": -3.07
+        "ticker": "ACHR",
+        "company": "Archer Aviation",
+        "price": 5.19,
+        "changePercent": -8.79,
+        "change": -0.5
       }
     ],
     "regulatory": [
@@ -151,23 +151,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Submission for OMB Review; Comment Request",
-        "date": "2026-09-28",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19739"
+        "title": "Biweekly Notice; Applications and Amendments to Facility Operating Licenses and ",
+        "date": "2026-09-29",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19812"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Submission for OMB Review; Comment Request",
-        "date": "2026-09-28",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19738"
+        "title": "Sunshine Act; Open Commission Meeting Wednesday, September 30, 2026",
+        "date": "2026-09-29",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19920"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Submission for OMB Review; Comment Request",
-        "date": "2026-09-28",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19737"
+        "title": "Rescission of Title V Emergency Affirmative Defense Rule; Corrections",
+        "date": "2026-09-29",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-19889"
       }
     ],
     "patents": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "AUR -18.7%"
+    "topMover": "AUR -19.4%"
   }
 }

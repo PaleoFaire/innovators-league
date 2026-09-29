@@ -65352,24 +65352,22 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-29 08:18
-// Auto-generated real-time signals
-// Last updated: 2026-09-29
+// Last updated: 2026-09-29 15:38
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "Anthropic&#8217;s prospectus details losses, growth, and, yes, a warning that its AI could end humanity", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI reportedly ditches model over safety concerns", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Modal", headline: "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation", source: "TechCrunch", time: "10h ago", impact: "medium", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX AI Gameover for Rivals -Money Wise Minihard Crushes Even Money From Millions of Robotaxi", source: "Next Big Future", time: "12h ago", impact: "medium", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "Many Were Proved Completely Wrong Today About SpaceX Starship Working", source: "Next Big Future", time: "14h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Gecko Robotics", headline: "Gecko Robotics works with NVIDIA to add AI agent security and control", source: "The Robot Report", time: "14h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI still doesn&#8217;t seem to have a handle on all of its rogue AI activity", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "What You Need to Know About NASA’s SpaceX Crew-13 Mission", source: "NASA Breaking News", time: "16h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Anthropic", headline: "Anthropic, Gamma, and Clay share what happens when enterprises actually deploy AI at TechCrunch Disrupt 2026", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Orbital, Deployed Commercial V3 Satellites, Gigawatt AI Possible With 120 Launches", source: "Next Big Future", time: "17h ago", impact: "medium", unread: false },
-  { id: 11, type: "news", company: "Commonwealth Fusion Systems", headline: "Commonwealth Fusion Systems’ Brandon Sorbom and Helion’s David Kirtley on bringing fusion to the grid at TechCrunch Disr", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "OpenAI", headline: "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government", source: "Wired", time: "20h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Groq", headline: "This Early Groq Investor Expects Half Her Bets To Fail", source: "Crunchbase News", time: "21h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Cohere", headline: "Cohere’s chief AI officer: US and China will hold us ‘by the throat’ if we don’t develop local capabilities", source: "Sifted", time: "21h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Anthropic", headline: "STAT+: Anthropic joins ARPA-H clinical AI moonshot, will hold closed-door health care event", source: "STAT News", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Humanoid", headline: "Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents", source: "The Robot Report", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI apologizes to Australia after its AI agents breached government sites", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "OpenAI", headline: "OpenAI Delays Release of Latest Model Over Safety Concerns", source: "Wired", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Anthropic", headline: "Anthropic's prospectus details losses, growth, and, yes, a warning that its AI could end humanity", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI reportedly ditches model over safety concerns", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Modal", headline: "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation", source: "TechCrunch", time: "18h ago", impact: "medium", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX AI Gameover for Rivals -Money Wise Minihard Crushes Even Money From Millions of Robotaxi", source: "Next Big Future", time: "19h ago", impact: "medium", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "Many Were Proved Completely Wrong Today About SpaceX Starship Working", source: "Next Big Future", time: "21h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Gecko Robotics", headline: "Gecko Robotics works with NVIDIA to add AI agent security and control", source: "The Robot Report", time: "21h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Orbital, Deployed Commercial V3 Satellites, Gigawatt AI Possible With 120 Launches", source: "Next Big Future", time: "1d ago", impact: "medium", unread: false },
+  { id: 12, type: "news", company: "OpenAI", headline: "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Groq", headline: "This Early Groq Investor Expects Half Her Bets To Fail", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Cohere", headline: "Cohere's chief AI officer: US and China will hold us 'by the throat' if we don't develop local capabilities", source: "Sifted", time: "1d ago", impact: "low", unread: false },
   { id: 15, type: "ipo", company: "Matter", headline: "AI in Space Must Be Over 10+ GW/Year Or It Does Not Matter", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
 ];
 

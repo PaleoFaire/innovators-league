@@ -1,5 +1,85 @@
 [
   {
+    "title": "STAT+: Anthropic joins ARPA-H clinical AI moonshot, will hold closed-door health care event",
+    "link": "https://www.statnews.com/2026/09/29/anthropic-joins-arpa-h-clinical-ai-moonshot-health-tech/?utm_campaign=rss",
+    "description": "In this edition of STAT Health Tech: Oura delays IPO plans, Anthropic joins an clinical AI effort by ARPA-H, and MAHA's health data goals.",
+    "pubDate": "Tue, 29 Sep 2026 14:32:24 +0000",
+    "category": "Health tech",
+    "source": "STAT News",
+    "feedCategory": "biotech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Lotus Health AI"
+    ],
+    "sectors": [
+      "ai",
+      "biotech"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents",
+    "link": "https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/",
+    "description": "Flourish is releasing a $3,555 phone-trainable home robot, targeting busy parents with personalized, cloud-trained chore automation.\nThe post Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents appeared first on The Robot Report.",
+    "pubDate": "Tue, 29 Sep 2026 14:00:12 +0000",
+    "category": "Arms / Manipulators",
+    "source": "The Robot Report",
+    "feedCategory": "robotics",
+    "matchedCompany": "Humanoid",
+    "matchedCompanies": [
+      "Humanoid"
+    ],
+    "sectors": [
+      "robotics"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "OpenAI apologizes to Australia after its AI agents breached government sites",
+    "link": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
+    "description": "The company also detailed how some of those breaches had happened, and outlined additional measures it is taking to assess the impact of the events.",
+    "pubDate": "Tue, 29 Sep 2026 12:45:05 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Palantir"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "OpenAI Delays Release of Latest Model Over Safety Concerns",
+    "link": "https://www.wired.com/story/openai-delays-release-of-latest-model-over-safety-concerns/",
+    "description": "The company said its latest Astra model would undergo more work to meet safety standards, and issued an apology for the way it handled the hacking of an Australian government website.",
+    "pubDate": "Tue, 29 Sep 2026 10:36:22 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Palantir"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "5h ago"
+  },
+  {
     "title": "Anthropic&#8217;s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
     "link": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
     "description": "In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own AI might pose an existential risk to humanity.",
@@ -16,7 +96,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "10h ago"
   },
   {
     "title": "OpenAI reportedly ditches model over safety concerns",
@@ -35,7 +115,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "8h ago"
+    "time": "15h ago"
   },
   {
     "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
@@ -54,7 +134,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "10h ago"
+    "time": "18h ago"
   },
   {
     "title": "SpaceX AI Gameover for Rivals -Money Wise Minihard Crushes Even Money From Millions of Robotaxi",
@@ -80,7 +160,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "12h ago"
+    "time": "19h ago"
   },
   {
     "title": "Many Were Proved Completely Wrong Today About SpaceX Starship Working",
@@ -99,7 +179,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "14h ago"
+    "time": "21h ago"
   },
   {
     "title": "Gecko Robotics works with NVIDIA to add AI agent security and control",
@@ -123,66 +203,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "14h ago"
-  },
-  {
-    "title": "OpenAI still doesn&#8217;t seem to have a handle on all of its rogue AI activity",
-    "link": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
-    "description": "On Friday, OpenAI published a new site devoted to “misalignment reports” and the breadth of the incidents is alarming.",
-    "pubDate": "Mon, 28 Sep 2026 17:09:02 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "15h ago"
-  },
-  {
-    "title": "What You Need to Know About NASA’s SpaceX Crew-13 Mission",
-    "link": "https://www.nasa.gov/missions/station/commercial-crew/what-you-need-to-know-about-nasas-spacex-crew-13-mission/",
-    "description": "Four crew members are set to launch to the International Space Station as part of NASA’s SpaceX Crew-13 mission to perform research, technology demonstrations, and maintenance aboard the orbiting laboratory.",
-    "pubDate": "Mon, 28 Sep 2026 16:09:09 +0000",
-    "category": "Commercial Crew",
-    "source": "NASA Breaking News",
-    "feedCategory": "space",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Vast",
-      "Axiom Space"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "16h ago"
-  },
-  {
-    "title": "Anthropic, Gamma, and Clay share what happens when enterprises actually deploy AI at TechCrunch Disrupt 2026",
-    "link": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
-    "description": "Anthropic, Clay, and Gamma on what it takes for an AI product to go beyond the demo at the AI Stage at TechCrunchDisrupt 2026. Register to join and get 50% off a second pass.",
-    "pubDate": "Mon, 28 Sep 2026 15:30:00 +0000",
-    "category": "TC",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "16h ago"
+    "time": "21h ago"
   },
   {
     "title": "SpaceX Starship Orbital, Deployed Commercial V3 Satellites, Gigawatt AI Possible With 120 Launches",
@@ -201,27 +222,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "17h ago"
-  },
-  {
-    "title": "Commonwealth Fusion Systems’ Brandon Sorbom and Helion’s David Kirtley on bringing fusion to the grid at TechCrunch Disrupt 2026",
-    "link": "https://techcrunch.com/2026/09/28/commonwealth-fusion-systems-brandon-sorbom-and-helions-david-kirtley-on-bringing-fusion-to-the-grid-at-techcrunch-disrupt-2026/",
-    "description": "CFS' Brandon Sorbom and Helion's David Kirtley join the Smart Systems Stage at TechCrunch Disrupt 2026 to discuss the breakthroughs moving fusion forward, the challenges that remain, and what it will take to deliver fusion power to the grid at scale. Get your pass at regular price and get a second o",
-    "pubDate": "Mon, 28 Sep 2026 15:00:00 +0000",
-    "category": "Startups",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Commonwealth Fusion Systems",
-    "matchedCompanies": [
-      "Commonwealth Fusion Systems",
-      "Helion"
-    ],
-    "sectors": [
-      "climate"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "17h ago"
+    "time": "1d ago"
   },
   {
     "title": "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government",
@@ -246,7 +247,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "This Early Groq Investor Expects Half Her Bets To Fail",
@@ -265,7 +266,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "Cohere’s chief AI officer: US and China will hold us ‘by the throat’ if we don’t develop local capabilities",
@@ -284,7 +285,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "AI in Space Must Be Over 10+ GW/Year Or It Does Not Matter",
@@ -325,7 +326,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "SpaceX Will Pay Less than $1 billion to Launch a Gigawatt of AI  &#8211; $180 Billion Estimate is a Moronic Spreadsheet Crime",
@@ -441,7 +442,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "TEKEVER raises $580M Series D, DTCP closes €455M defence fund, and the challenge to reinvent chip design",
@@ -460,7 +461,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Agility Robotics, maker of Digit humanoid, exploring wheeled robots",
@@ -480,7 +481,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Waymo — Nearly 1,000 Avoided Injuries",
@@ -501,7 +502,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "With Denmark, Saildrone logs first flag registration for naval surveillance drone",
@@ -523,34 +524,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "Europeans in Japan raise $1.2M to put modular humanoid robots to work",
-    "link": "https://tech.eu/2026/09/24/brits-in-japan-raise-1m-to-put-modular-humanoid-robots-to-work/",
-    "description": "O-ID, a Tokyo-based company founded by two Europeans building one of the world’s first fully modular humanoid robots for industrial manufacturing and logistics, has raised $1.2 million in pre-seed fun...",
-    "pubDate": "Thu, 24 Sep 2026 14:17:00 +0000",
-    "category": "Robotics",
-    "source": "Tech.eu",
-    "feedCategory": "startups",
-    "matchedCompany": "Humanoid",
-    "matchedCompanies": [
-      "Humanoid",
-      "Karman Industries",
-      "Solugen",
-      "Gecko Robotics",
-      "Teralta",
-      "Dust"
-    ],
-    "sectors": [
-      "robotics",
-      "climate",
-      "infrastructure",
-      "ai"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "ANYbotics opens the door for inspections with ANYmal robots",
@@ -569,7 +543,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Waymo says it has stopped 841 injuries in 271 million autonomous miles",
@@ -590,7 +564,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Army awards Palantir $48.1M to modernize ammo management",
@@ -652,7 +626,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6d ago"
+    "time": "9/22/2026"
   },
   {
     "title": "As Software VCs Chase SpaceX Alumni, A Defense Tech Veteran Warns Of ‘Tourists And FOMO’",
@@ -681,7 +655,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "6d ago"
+    "time": "9/22/2026"
   },
   {
     "title": "Cape Canaveral is building up its counter-drone defenses, Space Force says",
@@ -758,25 +732,6 @@
       "defense"
     ],
     "type": "ipo",
-    "impact": "low",
-    "time": "9/15/2026"
-  },
-  {
-    "title": "Iceye&#8217;s global presence expands to address sovereign demand",
-    "link": "https://spacenews.com/iceye-rapidly-expands-global-presence-to-address-sovereign-demand/",
-    "description": "\nSince raising more than $1 billion in a Series F funding round, Iceye has moved rapidly to address growing demand for sovereign space capabilities. In quick succession, the Finnish synthetic [&#8230;]\nThe post Iceye&#8217;s global presence expands to address sovereign demand appeared first on Space",
-    "pubDate": "Tue, 15 Sep 2026 06:00:00 +0000",
-    "category": "News",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "ICEYE",
-    "matchedCompanies": [
-      "ICEYE"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "funding",
     "impact": "low",
     "time": "9/15/2026"
   },
@@ -864,25 +819,6 @@
     "link": "https://www.fiercebiotech.com/biotech/kodiak-roars-back-pivotal-victory-resurrected-eye-disease-drug",
     "description": "Two of Kodiak Sciences’ drug candidates have matched aflibercept in a phase 3 clinical trial, positioning the biotech to seek FDA approval of one of the eye disease assets this year.&lt;br&gt;",
     "pubDate": "Sep 28, 2026 8:37am",
-    "category": "",
-    "source": "FierceBiotech",
-    "feedCategory": "biotech",
-    "matchedCompany": "Pivotal",
-    "matchedCompanies": [
-      "Pivotal"
-    ],
-    "sectors": [
-      "transportation"
-    ],
-    "type": "hire",
-    "impact": "high",
-    "time": "Invalid Date"
-  },
-  {
-    "title": "<a href=\"/biotech/merck-co-uncorks-pivotal-victory-3b-eye-disease-prospect\" hreflang=\"en\">Merck sees pivotal victory for $3B eye disease prospect</a>",
-    "link": "https://www.fiercebiotech.com/biotech/merck-co-uncorks-pivotal-victory-3b-eye-disease-prospect",
-    "description": "Merck &amp;amp; Co.’s Brunello trial has hit its primary endpoint, shedding light on the effects of a trispecific diabetic macular edema (DME) drug candidate that the Big Pharma bought in a $3 billion takeover.",
-    "pubDate": "Sep 24, 2026 8:15am",
     "category": "",
     "source": "FierceBiotech",
     "feedCategory": "biotech",
