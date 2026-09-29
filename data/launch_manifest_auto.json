@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-09-28",
-    "vehicle": "Starship | Starlink Group 31-1 (Starship Flight 14)",
-    "payload": "Starlink Group 31-1 (Starship Flight 14)",
-    "pad": "Orbital Launch Pad 2, SpaceX Starbase, TX, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/7d1afb26-6f9c-429b-9ccf-29012fd1e519/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-10-01",
     "vehicle": "Falcon 9 Block 5 | Crew-13",
     "payload": "Crew-13",
@@ -72,7 +63,7 @@
     "trackedCompany": "SpaceX"
   },
   {
-    "date": "2026-10-15",
+    "date": "2026-10-13",
     "vehicle": "GSLV Mk II | IRNSS-1L (NVS-03)",
     "payload": "IRNSS-1L (NVS-03)",
     "pad": "Satish Dhawan Space Centre Second Launch Pad, Satish Dhawan Space Centre, India",
@@ -196,6 +187,15 @@
     "provider": "Indian Space Research Organization",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/b5a9bccb-30d7-4af6-8ad1-fabb563be53c/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Atlas V N22 | Starliner-1",
+    "payload": "Starliner-1",
+    "pad": "Space Launch Complex 41, Cape Canaveral SFS, FL, USA",
+    "provider": "United Launch Alliance",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/07e945c1-2ec6-4d29-a500-1afbe920440f/?format=json",
+    "trackedCompany": "ULA"
   },
   {
     "date": "2026-12-31",
@@ -406,15 +406,6 @@
   },
   {
     "date": "2026-12-31",
-    "vehicle": "Atlas V N22 | Starliner-1",
-    "payload": "Starliner-1",
-    "pad": "Space Launch Complex 41, Cape Canaveral SFS, FL, USA",
-    "provider": "United Launch Alliance",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/07e945c1-2ec6-4d29-a500-1afbe920440f/?format=json",
-    "trackedCompany": "ULA"
-  },
-  {
-    "date": "2026-12-31",
     "vehicle": "Electron | 6x HawkEye 360",
     "payload": "6x HawkEye 360",
     "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -447,6 +438,15 @@
     "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/280fba47-8e6e-4a4f-8bdd-b9687d99a9c5/?format=json",
+    "trackedCompany": "Rocket Lab"
+  },
+  {
+    "date": "2026-12-31",
+    "vehicle": "Electron | BlackSky Gen-3 9",
+    "payload": "BlackSky Gen-3 9",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/54e907ad-f988-488b-ab35-cd86f63edf8d/?format=json",
     "trackedCompany": "Rocket Lab"
   }
 ]

@@ -1,6 +1,19 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-09-28 14:54:57 UTC
+// Last updated: 2026-09-29 13:43:11 UTC
 const NASA_PROJECTS = [
+  { id: 156374, title: "Physics-based Formulation of Tailored Ionic Liquids for Spacecraft Thermal Contr", status: "Active", center: "University of Minnesota-Twin Cities", techArea: "Heat Transport", lastUpdated: "09/28/26" },
+  { id: 118313, title: "Optimization of Oscillating Heat Pipes for Cooling of Space Electronics", status: "Completed", center: "University of California-Los Angeles", techArea: "Heat Transport", lastUpdated: "09/28/26" },
+  { id: 118425, title: "Enabling Long-term Robot Autonomy through Adaptable Fault Resilience", status: "Active", center: "University of Colorado Boulder", techArea: "Fault Diagnosis and Prognosis", lastUpdated: "09/28/26" },
+  { id: 118436, title: "Stretchable Shape-sensing Skins: Closing the Loop on Shape Change in Soft Robots", status: "Active", center: "Yale University", techArea: "State Estimation", lastUpdated: "09/28/26" },
+  { id: 118464, title: "Architectural Design Framework for Providing Passive Behavioral Health Counterme", status: "Active", center: "Massachusetts Institute of Technology", techArea: "Behavioral Health and Performance", lastUpdated: "09/28/26" },
+  { id: 118479, title: "Characterization and Application of Cryogenic Power Semiconductors in Lightweigh", status: "Active", center: "Clemson University", techArea: "Management and Control", lastUpdated: "09/28/26" },
+  { id: 182203, title: "Deformable Crumpled Nano-ball Coatings with Adaptable Adhesion and Mechanical En", status: "Active", center: "University of California-Irvine", techArea: "Materials for Extreme Environments", lastUpdated: "09/28/26" },
+  { id: 183680, title: "Laser-Based Measurements of Electron Properties in Hall Effect Thrusters with No", status: "Active", center: "University of Michigan-Ann Arbor", techArea: "Electrostatic Propulsion", lastUpdated: "09/28/26" },
+  { id: 183679, title: "Towards On-Demand Planetary Landing through On-Board Autonomous Mapping and Cros", status: "Active", center: "Carnegie Mellon University", techArea: "EDL Guidance Algorithms", lastUpdated: "09/28/26" },
+  { id: 183678, title: "Dexterous Manipulation via Vision-Intent-Action Models", status: "Active", center: "Rice University", techArea: "Dexterous Manipulation", lastUpdated: "09/28/26" },
+  { id: 183677, title: "Design and Optimization of Cuttlebone-Inspired Cellular Materials Using Turing S", status: "Active", center: "Michigan Technological University", techArea: "Computational Materials", lastUpdated: "09/28/26" },
+  { id: 183670, title: "Forging the Future Lunar Settlement with In-Situ Aluminum Extraction", status: "Active", center: "Missouri University of Science and Technology", techArea: "Resource Processing for Production of Manufacturing, Construction, and Energy Storage Feedstock Materials", lastUpdated: "09/28/26" },
+  { id: 183669, title: "Development of Radiation Tolerant Additively Manufactured Refractory Composition", status: "Active", center: "University of Wisconsin-Madison", techArea: "Materials for Extreme Environments", lastUpdated: "09/28/26" },
   { id: 183844, title: "Deep Space Food Challenge:  Mars to Table", status: "Active", center: "Marshall Space Flight Center", techArea: "Food Production, Processing, and Preservation", lastUpdated: "09/23/26" },
   { id: 183846, title: "LunaRecycle - Phase 2 (Luna)", status: "Completed", center: "Marshall Space Flight Center", techArea: "Waste Management", lastUpdated: "09/23/26" },
   { id: 182465, title: "Mars Roundtrip Success enabled by Integrated Cooling through Inductively Coupled", status: "Active", center: "University of California-Los Angeles", techArea: "", lastUpdated: "09/18/26" },
@@ -18,17 +31,4 @@ const NASA_PROJECTS = [
   { id: 184658, title: "DM and Env Material Solutions", status: "Active", center: "Langley Research Center", techArea: "Materials, Structures, Mechanical Systems, and Manufacturing", lastUpdated: "09/17/26" },
   { id: 183451, title: "Crosscutting Fission-Based Nuclear Capabilities", status: "Completed", center: "Marshall Space Flight Center", techArea: "Nuclear Thermal Propulsion", lastUpdated: "09/17/26" },
   { id: 183422, title: "High Performance Materials for Space", status: "Completed", center: "Langley Research Center", techArea: "Lightweight Structural Materials", lastUpdated: "09/17/26" },
-  { id: 182467, title: "LUMEN: Low-light Universal Mapping for Extreme eNvironments", status: "Active", center: "Ames Research Center", techArea: "Intelligent Data Understanding", lastUpdated: "09/17/26" },
-  { id: 158561, title: "Nuclear Thermal Propulsion Technology Maturation", status: "Active", center: "Marshall Space Flight Center", techArea: "Nuclear Thermal Propulsion", lastUpdated: "09/17/26" },
-  { id: 158058, title: "Performance of Expansion-Deflection Nozzles for Rotating Detonation Rocket Engin", status: "Completed", center: "Glenn Research Center", techArea: "Propulsion Systems", lastUpdated: "09/17/26" },
-  { id: 156378, title: "Wall modeled large eddy simulation of high-enthalpy hypersonic flows", status: "Active", center: "University of Colorado Boulder", techArea: "Integrated Modeling and Simulation for EDL", lastUpdated: "09/17/26" },
-  { id: 156375, title: "High-fidelity numerical simulation and modeling of boundary layer transition and", status: "Active", center: "University of Southern California", techArea: "Integrated Modeling and Simulation for EDL", lastUpdated: "09/17/26" },
-  { id: 156318, title: "Institute for Model-Based Qualification & Certification of Additive Manufacturin", status: "Active", center: "Carnegie Mellon University", techArea: "Manufacturing Processes", lastUpdated: "09/17/26" },
-  { id: 118475, title: "Virtual Prototyping of Multifunctional Boron-Nitrogen Nanostructures and their C", status: "Completed", center: "Rice University", techArea: "Lightweight Concepts", lastUpdated: "09/17/26" },
-  { id: 116319, title: "Moon-to-Mars Planetary Autonomous Construction Technology", status: "Completed", center: "Marshall Space Flight Center", techArea: "Surface Construction and Assembly", lastUpdated: "09/17/26" },
-  { id: 116262, title: "Descent Systems Study", status: "Completed", center: "Langley Research Center", techArea: "Supersonic Retropropulsion", lastUpdated: "09/17/26" },
-  { id: 185744, title: "Advanced Guidance & Navigation Systems", status: "Active", center: "Johnson Space Center", techArea: "GN&C", lastUpdated: "09/16/26" },
-  { id: 158507, title: "Thermal Control System Architecture for Exploration", status: "Completed", center: "Marshall Space Flight Center", techArea: "Thermal Management Systems", lastUpdated: "09/15/26" },
-  { id: 185287, title: "Quantum Wind Lidar Applications for Planetary and Earth Science Missions", status: "Active", center: "Ames Research Center", techArea: "Sensors and Instruments", lastUpdated: "09/09/26" },
-  { id: 185286, title: "Interworld Slingshot Resource Surveys", status: "Active", center: "", techArea: "", lastUpdated: "09/09/26" },
 ];

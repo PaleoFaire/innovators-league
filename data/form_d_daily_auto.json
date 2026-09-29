@@ -1,9 +1,60 @@
 {
-  "generated_at": "2026-09-28T15:19:01.037123+00:00",
+  "generated_at": "2026-09-29T13:48:30.102687+00:00",
   "lookback_days": 8,
-  "scanned": 1221,
-  "total": 1,
+  "scanned": 1227,
+  "total": 3,
   "filings": [
+    {
+      "match_method": "cik",
+      "match_evidence": "filer CIK 1858288 == our recorded CIK",
+      "company": "Precision Neuroscience",
+      "issuer_name": "Precision Neuroscience Corp",
+      "form": "D",
+      "filed_date": "2026-09-28",
+      "cik": "1858288",
+      "accession": "0001123292-26-001327",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1858288/000112329226001327/primary_doc.xml",
+      "offering_amount": "Indefinite",
+      "amount_sold": "249999984",
+      "amount_remaining": "Indefinite",
+      "securities_type": "Equity",
+      "related_persons": [
+        "Michael Mager",
+        "Konstantinos Alataris",
+        "Craig Mermel",
+        "Benjamin Rapoport",
+        "Ravi Mehta",
+        "Howard Morgan",
+        "Michael Kaswan",
+        "Michael Goller"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
+    },
+    {
+      "match_method": "cik",
+      "match_evidence": "filer CIK 1876339 == our recorded CIK",
+      "company": "Sunflower Labs",
+      "issuer_name": "Sunflower Labs Inc.",
+      "form": "D",
+      "filed_date": "2026-09-28",
+      "cik": "1876339",
+      "accession": "0001876339-26-000003",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1876339/000187633926000003/primary_doc.xml",
+      "offering_amount": "20000000",
+      "amount_sold": "14902982",
+      "amount_remaining": "5097018",
+      "securities_type": "Equity",
+      "related_persons": [
+        "Alexander Pachikov",
+        "Christian Eheim",
+        "Philip Libin",
+        "Elian Kool",
+        "Moe Kermani"
+      ],
+      "is_safe": false,
+      "source": "edgar-daily-index"
+    },
     {
       "match_method": "cik",
       "match_evidence": "filer CIK 1811807 == our recorded CIK",

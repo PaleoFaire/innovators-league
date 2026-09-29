@@ -1,5 +1,213 @@
 [
   {
+    "id": 156374,
+    "title": "Physics-based Formulation of Tailored Ionic Liquids for Spacecraft Thermal Control",
+    "description": "A novel and versatile spacecraft coolant capable of efficient operation in various temperature extremes would be a game-changer for future space missions to challenging conditions such as frigid lunar nights, low-power intervals, extended interplanetary journeys, or high-temperature conditions near the sun. Ionic liquids, a novel category of purely ionic substances resembling salts, emerge as a favorable option for spacecraft cooling due to their potential to maintain a liquid state across a wid",
+    "status": "Active",
+    "startDate": "Oct 2023",
+    "endDate": "Oct 2026",
+    "lastUpdated": "09/28/26",
+    "center": "University of Minnesota-Twin Cities",
+    "technologyArea": "Heat Transport",
+    "partners": [
+      "University of Minnesota-Twin Cities",
+      "Marshall Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 118313,
+    "title": "Optimization of Oscillating Heat Pipes for Cooling of Space Electronics",
+    "description": "<p>Robust and flexible thermal control systems (TCS) are necessary for maintaining electronic devices within operating temperatures, especially within microgravity environments. Oscillating heat pipes (OHP) have emerged as a low-weight, highly manufacturable technology for thermal management of high heat flux sources in spacecraft. They have been shown to display performance invariance to changes in orientation or gravity and can operate under a wide range of input heat flux and under exposure t",
+    "status": "Completed",
+    "startDate": "Aug 2022",
+    "endDate": "Aug 2026",
+    "lastUpdated": "09/28/26",
+    "center": "University of California-Los Angeles",
+    "technologyArea": "Heat Transport",
+    "partners": [
+      "University of California-Los Angeles",
+      "Glenn Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 118425,
+    "title": "Enabling Long-term Robot Autonomy through Adaptable Fault Resilience",
+    "description": "<p>When robots are sent to the surface of Mars or space stations like the ISS or Gateway, they will need to act autonomously for long durations of time and be exposed to challenging environments. In these conditions, robots have a high likelihood of experiencing some form of system failure. Presently, most robotic missions require engineers to develop pre-designed failure responses, significantly increasing the preparation time and decreasing the robot\u2019s ability to continue operating if it fails",
+    "status": "Active",
+    "startDate": "Aug 2022",
+    "endDate": "Nov 2026",
+    "lastUpdated": "09/28/26",
+    "center": "University of Colorado Boulder",
+    "technologyArea": "Fault Diagnosis and Prognosis",
+    "partners": [
+      "University of Colorado Boulder",
+      "Johnson Space Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 118436,
+    "title": "Stretchable Shape-sensing Skins: Closing the Loop on Shape Change in Soft Robots",
+    "description": "<p>This proposal aims to make NASA\u2019s in-space robotic systems adaptable and multifunctional by enabling autonomous, closed-loop shape change in lightweight, compliant systems. I will do this by overcoming a fundamental issue in proprioception for shape-changing systems: current proprioceptive methods measure deformations from an initial model, rather than true global shape. They then fail when the resting or unactuated shape of the robot changes to adapt to a new task. To solve this, I present s",
+    "status": "Active",
+    "startDate": "Aug 2022",
+    "endDate": "Nov 2026",
+    "lastUpdated": "09/28/26",
+    "center": "Yale University",
+    "technologyArea": "State Estimation",
+    "partners": [
+      "Yale University",
+      "Ames Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 118464,
+    "title": "Architectural Design Framework for Providing Passive Behavioral Health Countermeasures",
+    "description": "<p>The technology proposed herein is the design and validation of a transdisciplinary framework that provides recommendations for the design of space architecture that will provide passive behavioral health countermeasures for long-duration spaceflight. The three aims associated with this proposal are 1. Extracting the design language of space architecture as informed by science fiction, historical spacecrafts, and spaceflight participants; 2. Creating a framework for providing and validating de",
+    "status": "Active",
+    "startDate": "Aug 2022",
+    "endDate": "Nov 2026",
+    "lastUpdated": "09/28/26",
+    "center": "Massachusetts Institute of Technology",
+    "technologyArea": "Behavioral Health and Performance",
+    "partners": [
+      "Massachusetts Institute of Technology",
+      "Johnson Space Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 118479,
+    "title": "Characterization and Application of Cryogenic Power Semiconductors in Lightweight, Fault-tolerant Systems for Lunar Missions",
+    "description": "<p>Solar-powered systems for lunar missions must tolerate and operate in the extreme cold of the lunar night. To ensure efficient and reliable energy conversion and control, power regulators and breakers are crucial, and their survivability at cryogenic temperatures is essential. At the heart of the power regulator and circuit breaker reside power semiconductors and corresponding power electronics technology. The fundamental research goal of the project is to holistically characterize and model ",
+    "status": "Active",
+    "startDate": "Jan 2024",
+    "endDate": "Jan 2027",
+    "lastUpdated": "09/28/26",
+    "center": "Clemson University",
+    "technologyArea": "Management and Control",
+    "partners": [
+      "Clemson University",
+      "Glenn Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182203,
+    "title": "Deformable Crumpled Nano-ball Coatings with Adaptable Adhesion and Mechanical Energy Absorption for Lunar Dust Mitigation",
+    "description": "<p>Lunar dust may seem unimposing, but it presents a significant challenge for space missions. Its abrasive and jagged particles can damage equipment, clog devices, and even pose health risks to astronauts. This project addresses such issues by developing advanced coatings composed of crumpled nano-balls made from atomically thin 2D materials such as MoS\u2082, graphene, and MXenes. By crumpling these nanosheets\u2014much like crumpling a piece of paper\u2014we create compression and aggregation resistant part",
+    "status": "Active",
+    "startDate": "Jan 2025",
+    "endDate": "Jan 2028",
+    "lastUpdated": "09/28/26",
+    "center": "University of California-Irvine",
+    "technologyArea": "Materials for Extreme Environments",
+    "partners": [
+      "University of California-Irvine",
+      "Langley Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183680,
+    "title": "Laser-Based Measurements of Electron Properties in Hall Effect Thrusters with Non-Conventional Propellants Enabling for Cis-Lunar, Mars, and Deep Space Missions",
+    "description": "I propose to apply the Incoherent Thomson Scattering (ITS) laser diagnostic to a Hall effect thruster (HET) to measure electron velocity distribution functions (EVDFs) to improve the predictive modeling of these devices when operating on non-conventional propellants. HETs are the most common in-space propulsion system and are a candidate to be the propulsion element on crewed missions to Mars and beyond. Recent studies have shown that there is an insufficient supply of the propellant these thrus",
+    "status": "Active",
+    "startDate": "Aug 2025",
+    "endDate": "Jul 2029",
+    "lastUpdated": "09/28/26",
+    "center": "University of Michigan-Ann Arbor",
+    "technologyArea": "Electrostatic Propulsion",
+    "partners": [
+      "University of Michigan-Ann Arbor",
+      "Glenn Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183679,
+    "title": "Towards On-Demand Planetary Landing through On-Board Autonomous Mapping and Cross-Modality Map Relative Localization",
+    "description": "The most scientifically interesting locations often present significant challenges for planetary landing. Current navigation methods for landing are inadequate for future planetary science ambitions at destinations including Titan, Venus, Enceladus, Europa, comet nuclei, or the Centaurs that have challenges such as low-resolution or no prior maps, poor communication or poor visibility. The current state-of-the-art in landing navigation technology applied on Mars performs Map Relative Localizatio",
+    "status": "Active",
+    "startDate": "Aug 2025",
+    "endDate": "Aug 2029",
+    "lastUpdated": "09/28/26",
+    "center": "Carnegie Mellon University",
+    "technologyArea": "EDL Guidance Algorithms",
+    "partners": [
+      "Carnegie Mellon University",
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183678,
+    "title": "Dexterous Manipulation via Vision-Intent-Action Models",
+    "description": "Autonomous robots will require human-like visual manipulation capabilities to perform experiments in situ, build space habitats, and maintain living-spaces and research equipment. However, while current object-centric approaches to learning visual affordances have led to significant advancements, robots still fall short of truly dexterous manipulation. Object-centric representations do not provide adequate information for physical reasoning about robot actions, as they only encode abstract conce",
+    "status": "Active",
+    "startDate": "Aug 2025",
+    "endDate": "Aug 2029",
+    "lastUpdated": "09/28/26",
+    "center": "Rice University",
+    "technologyArea": "Dexterous Manipulation",
+    "partners": [
+      "Rice University",
+      "Johnson Space Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183677,
+    "title": "Design and Optimization of Cuttlebone-Inspired Cellular Materials Using Turing Systems",
+    "description": "This proposal aims to develop a computational framework for designing and optimizing new materials inspired by the cuttlebone--the internal shell of the cuttlefish--for use in space exploration. These materials are intended to be lightweight yet strong, capable of absorbing impact energy, and effective at dampening sound and vibrations, addressing key challenges in spacecraft construction and astronaut safety. By mimicking the cuttlebone's unique hierarchical structure, the project seeks to crea",
+    "status": "Active",
+    "startDate": "Aug 2025",
+    "endDate": "Aug 2029",
+    "lastUpdated": "09/28/26",
+    "center": "Michigan Technological University",
+    "technologyArea": "Computational Materials",
+    "partners": [
+      "Michigan Technological University",
+      "Langley Research Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183670,
+    "title": "Forging the Future Lunar Settlement with In-Situ Aluminum Extraction",
+    "description": "This NSTGRO25 proposal builds upon the Lunar In-Situ Aluminum Production through Molten Salt Electrolysis (LISAP-MSE) process which was initially developed for the NASA BIG Idea Challenge 2023 (Lunar Forge theme). This approach seeks to electrolytically reduce aluminum oxide into metallic aluminum using molten salt electrolysis (MSE) with calcium chloride as the electrolyte. The process offers a viable path to lunar aluminum production, eliminating the need to transport large amounts of consumab",
+    "status": "Active",
+    "startDate": "Aug 2025",
+    "endDate": "Jul 2029",
+    "lastUpdated": "09/28/26",
+    "center": "Missouri University of Science and Technology",
+    "technologyArea": "Resource Processing for Production of Manufacturing, Construction, and Energy Storage Feedstock Materials",
+    "partners": [
+      "Missouri University of Science and Technology",
+      "Marshall Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183669,
+    "title": "Development of Radiation Tolerant Additively Manufactured Refractory Compositionally Complex Alloys",
+    "description": "The next generation of space exploration will see much greater involvement of nuclear technologies, such as nuclear propulsion and surface-based power reactors, which will see high neutron fluxes and operating temperatures approaching 3000 \u00b0C, requiring improved materials. Compositionally complex alloys (CCAs) are a new class of alloy that have exhibited enhanced radiation tolerance with high temperature stability and strength, while Refractory CCAs (RCCAs) possess the high melting points requir",
+    "status": "Active",
+    "startDate": "Aug 2025",
+    "endDate": "Jul 2029",
+    "lastUpdated": "09/28/26",
+    "center": "University of Wisconsin-Madison",
+    "technologyArea": "Materials for Extreme Environments",
+    "partners": [
+      "University of Wisconsin-Madison",
+      "Marshall Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
     "id": 183844,
     "title": "Deep Space Food Challenge:  Mars to Table",
     "description": "<p>Building on the success of the Deep Space Food Challenge, the next goal in NASA\u2019s efforts to transform astronaut dietary offerings is focused on incentivizing a complete space food system for a planetary surface that integrates a variety of food sources and associated technologies while meeting 100% of the crew\u2019s variable nutritional needs within the space environment.</p><p>Future sustained lunar and deep space missions pose new challenges to crew health, food production, and food preparatio",
@@ -1049,53 +1257,6 @@
     "partners": [
       "Astrobotic Technology, Inc.",
       "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182287,
-    "title": "Building the Foundations for Huge-N Lunar Radio Interferometry",
-    "description": "Observations of the highly-redshifted 21 cm line of neutral hydrogen are the only probe of the Universe's \"Dark Ages\", the period of cosmic history prior to the formation of the first stars and galaxies.  Measurements of the Universe during its Dark Ages, however, would enable unprecedented precision tests of cosmology, greatly exceeding the Cosmic Microwave Background in both information content and impact.  Addressing the challenges inherent in these hydrogen observations is therefore a key un",
-    "status": "Active",
-    "startDate": "Sep 2024",
-    "endDate": "Aug 2027",
-    "lastUpdated": "08/20/26",
-    "center": "Brown University",
-    "technologyArea": "Observatories",
-    "partners": [
-      "Brown University"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182273,
-    "title": "Transforming Microchannel Plate Photodetectors for Future UV Instruments through Nano-Scale Additive Manufacturing",
-    "description": "For more than 50 years, microchannel plate (MCP) photodetectors have been in use aboard space borne ultraviolet instruments and these missions have made major contributions to our understanding of many types of astronomical objects. The next generation of UV missions have outlined very ambitious scientific goals and will require significant improvements to instrument performance if they are going to be achieved. Through the concept studies initiated by the 2010 Astrophysics Decadal Survey, the L",
-    "status": "Active",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2027",
-    "lastUpdated": "08/20/26",
-    "center": "Southwest Research Institute - San Antonio",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Southwest Research Institute - San Antonio",
-      "Argonne National Laboratory",
-      "Robot Nose Corporation"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183274,
-    "title": "A SmallSat Lidar Concept for PBL Height Measurements",
-    "description": "The purpose of this QRS request is to manage the current subsystem contracts (telescope, laser, and electronics) and finalize mechanical design modifications to ensure the new PBL SmallSat lidar instrument meets science needs and spacecraft allocations.",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Mar 2025",
-    "lastUpdated": "08/20/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Remote Sensing Instruments and Sensors",
-    "partners": [
-      "Goddard Space Flight Center"
     ],
     "website": ""
   },

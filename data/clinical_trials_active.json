@@ -13,7 +13,7 @@
     "interventions": [
       "REC-7735"
     ],
-    "lastUpdated": "2026-09-17",
+    "lastUpdated": "2026-09-29",
     "enrollment": 90
   },
   {
@@ -383,6 +383,23 @@
     "enrollment": 1070
   },
   {
+    "nctId": "NCT05234177",
+    "title": "Tempus CRC Surveillance Study: A ctDNA Biomarker Profiling Study of Patients With CRC Using NGS Assays",
+    "status": "RECRUITING",
+    "phase": "N/A",
+    "startDate": "2022-06-21",
+    "completionDate": "2029-02",
+    "sponsor": "Tempus AI",
+    "conditions": [
+      "Colorectal Cancer"
+    ],
+    "interventions": [
+      "Observation"
+    ],
+    "lastUpdated": "2025-05-06",
+    "enrollment": 300
+  },
+  {
     "nctId": "NCT05179824",
     "title": "Tempus Priority Study: A Pan-tumor Observational Study",
     "status": "ACTIVE_NOT_RECRUITING",
@@ -400,23 +417,6 @@
     ],
     "lastUpdated": "2025-05-06",
     "enrollment": 1000
-  },
-  {
-    "nctId": "NCT05234177",
-    "title": "Tempus CRC Surveillance Study: A ctDNA Biomarker Profiling Study of Patients With CRC Using NGS Assays",
-    "status": "RECRUITING",
-    "phase": "N/A",
-    "startDate": "2022-06-21",
-    "completionDate": "2029-02",
-    "sponsor": "Tempus AI",
-    "conditions": [
-      "Colorectal Cancer"
-    ],
-    "interventions": [
-      "Observation"
-    ],
-    "lastUpdated": "2025-05-06",
-    "enrollment": 300
   },
   {
     "nctId": "NCT06193252",
@@ -1202,21 +1202,40 @@
     "enrollment": 240
   },
   {
-    "nctId": "NCT00745355",
-    "title": "Quality of Life in Patients With Bladder Cancer",
-    "status": "ACTIVE_NOT_RECRUITING",
-    "phase": "N/A",
-    "startDate": "2008-08",
-    "completionDate": "2027-08",
-    "sponsor": "Memorial Sloan Kettering Cancer Center",
+    "nctId": "NCT07052305",
+    "title": "NT-I7 (Efineptakin Alfa), a Long-acting Human IL-7, Post-Axicabtagene Ciloleucel or Post-Lisocabtagene Maraleucel in Subjects With Relapsed/Refractory Large B-cell Lymphoma",
+    "status": "RECRUITING",
+    "phase": "PHASE1",
+    "startDate": "2026-03-12",
+    "completionDate": "2028-08-31",
+    "sponsor": "Washington University School of Medicine",
     "conditions": [
-      "Bladder Cancer"
+      "Large B-cell Lymphoma"
     ],
     "interventions": [
-      "Quality Of Life questionnaires"
+      "NT-I7",
+      "CAR T-cell therapy"
     ],
-    "lastUpdated": "2026-09-25",
-    "enrollment": 550
+    "lastUpdated": "2026-09-29",
+    "enrollment": 24
+  },
+  {
+    "nctId": "NCT05539729",
+    "title": "Vancomycin Study in Multiple Sclerosis (MS)",
+    "status": "RECRUITING",
+    "phase": "PHASE1",
+    "startDate": "2023-01-31",
+    "completionDate": "2028-12",
+    "sponsor": "Icahn School of Medicine at Mount Sinai",
+    "conditions": [
+      "Multiple Sclerosis"
+    ],
+    "interventions": [
+      "Vancomycin",
+      "Placebo"
+    ],
+    "lastUpdated": "2026-09-28",
+    "enrollment": 12
   },
   {
     "nctId": "NCT07286955",
@@ -1236,6 +1255,23 @@
     ],
     "lastUpdated": "2026-09-25",
     "enrollment": 5000
+  },
+  {
+    "nctId": "NCT00745355",
+    "title": "Quality of Life in Patients With Bladder Cancer",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "phase": "N/A",
+    "startDate": "2008-08",
+    "completionDate": "2027-08",
+    "sponsor": "Memorial Sloan Kettering Cancer Center",
+    "conditions": [
+      "Bladder Cancer"
+    ],
+    "interventions": [
+      "Quality Of Life questionnaires"
+    ],
+    "lastUpdated": "2026-09-25",
+    "enrollment": 550
   },
   {
     "nctId": "NCT07483320",
@@ -1390,82 +1426,6 @@
     "enrollment": 20
   },
   {
-    "nctId": "NCT05944562",
-    "title": "Tulmimetostat (DZR123) in Patients With Mycosis Fungoides and S\u00e9zary Syndrome",
-    "status": "ACTIVE_NOT_RECRUITING",
-    "phase": "PHASE1",
-    "startDate": "2024-01-09",
-    "completionDate": "2029-01-31",
-    "sponsor": "Washington University School of Medicine",
-    "conditions": [
-      "Mycosis Fungoides",
-      "Sezary Syndrome",
-      "Mycosis Fungoides/Sezary Syndrome"
-    ],
-    "interventions": [
-      "Tulmimetostat"
-    ],
-    "lastUpdated": "2026-09-16",
-    "enrollment": 24
-  },
-  {
-    "nctId": "NCT05197322",
-    "title": "NEOadjuvant PembRolizumab In Stratified Medicine - ColoRectal Cancer",
-    "status": "ACTIVE_NOT_RECRUITING",
-    "phase": "PHASE2",
-    "startDate": "2022-07-20",
-    "completionDate": "2029-11-01",
-    "sponsor": "University College, London",
-    "conditions": [
-      "Adenocarcinoma of the Colon"
-    ],
-    "interventions": [
-      "Pembrolizumab",
-      "Pembrolizumab"
-    ],
-    "lastUpdated": "2026-09-14",
-    "enrollment": 88
-  },
-  {
-    "nctId": "NCT06994988",
-    "title": "ARPA-H Smart Band-Aid to Measure Chronic Pain in Women",
-    "status": "RECRUITING",
-    "phase": "N/A",
-    "startDate": "2026-07-06",
-    "completionDate": "2027-04-23",
-    "sponsor": "Northwestern University",
-    "conditions": [
-      "Chronic Pain"
-    ],
-    "interventions": [
-      "A-Band (Smart Band-Aid)",
-      "Empatica Smartwatch",
-      "Questionnaires: Hospital Anxiety & Depression Scale, Central Sensitization Inventory, Pain Catastrophizing Scale, Somatic Symptom Scale-8, Pain Self-Efficacy Questionnaire-10, Athens Insomnia Scale"
-    ],
-    "lastUpdated": "2026-09-14",
-    "enrollment": 115
-  },
-  {
-    "nctId": "NCT07287137",
-    "title": "Comparative Immunogenicity of Respiratory Virus Vaccines (CIRV2) Study",
-    "status": "ACTIVE_NOT_RECRUITING",
-    "phase": "PHASE4",
-    "startDate": "2025-11-12",
-    "completionDate": "2027-09",
-    "sponsor": "Henry M. Jackson Foundation for the Advancement of Military Medicine",
-    "conditions": [
-      "COVID -19",
-      "COVID - 19",
-      "COVID 19"
-    ],
-    "interventions": [
-      "Pfizer-BioNTech mRNA COVID-19 vaccine",
-      "Novavax recombinant protein vaccine"
-    ],
-    "lastUpdated": "2026-09-11",
-    "enrollment": 54
-  },
-  {
     "nctId": "NCT06339190",
     "title": "Neurofilament Light Chain And Voice Acoustic Analyses In Dementia Diagnosis",
     "status": "RECRUITING",
@@ -1591,7 +1551,7 @@
       "Glofitamab",
       "Pirtobrutinib"
     ],
-    "lastUpdated": "2026-07-24",
+    "lastUpdated": "2026-09-28",
     "enrollment": 30
   },
   {
@@ -2250,6 +2210,23 @@
     "enrollment": 120
   },
   {
+    "nctId": "NCT07836010",
+    "title": "Suzetrigine Added to Multimodal Analgesia for Women Undergoing Minimally Invasive Hysterectomy",
+    "status": "NOT_YET_RECRUITING",
+    "phase": "PHASE4",
+    "startDate": "2026-11",
+    "completionDate": "2028-02",
+    "sponsor": "Duke University",
+    "conditions": [
+      "Postoperative Pain"
+    ],
+    "interventions": [
+      "Suzetrigine"
+    ],
+    "lastUpdated": "2026-09-23",
+    "enrollment": 123
+  },
+  {
     "nctId": "NCT07437105",
     "title": "Dose Escalation Study Evaluating the Safety and Pharmacokinetics of VX-272 in Healthy Participants",
     "status": "RECRUITING",
@@ -2267,23 +2244,6 @@
     ],
     "lastUpdated": "2026-09-23",
     "enrollment": 160
-  },
-  {
-    "nctId": "NCT07836010",
-    "title": "Suzetrigine Added to Multimodal Analgesia for Women Undergoing Minimally Invasive Hysterectomy",
-    "status": "NOT_YET_RECRUITING",
-    "phase": "PHASE4",
-    "startDate": "2026-11",
-    "completionDate": "2028-02",
-    "sponsor": "Duke University",
-    "conditions": [
-      "Postoperative Pain"
-    ],
-    "interventions": [
-      "Suzetrigine"
-    ],
-    "lastUpdated": "2026-09-23",
-    "enrollment": 123
   },
   {
     "nctId": "NCT07283770",
@@ -2431,21 +2391,22 @@
     "enrollment": 16
   },
   {
-    "nctId": "NCT05444257",
-    "title": "A Study Evaluating the Long-term Safety and Efficacy of VX-121 Combination Therapy",
+    "nctId": "NCT05331183",
+    "title": "Study to Evaluate Elexacaftor/Tezacaftor/Ivacaftor (ELX/TEZ/IVA) Long-term Safety and Efficacy in Subjects Without F508del",
     "status": "ACTIVE_NOT_RECRUITING",
     "phase": "PHASE3",
-    "startDate": "2022-11-08",
-    "completionDate": "2026-10-30",
+    "startDate": "2022-11-23",
+    "completionDate": "2027-04-06",
     "sponsor": "Vertex Pharmaceuticals Incorporated",
     "conditions": [
       "Cystic Fibrosis"
     ],
     "interventions": [
-      "VX-121/TEZ/D-IVA"
+      "ELX/TEZ/IVA",
+      "IVA"
     ],
     "lastUpdated": "2026-09-10",
-    "enrollment": 822
+    "enrollment": 297
   },
   {
     "nctId": "NCT05791201",
@@ -2465,22 +2426,21 @@
     "enrollment": 7
   },
   {
-    "nctId": "NCT05331183",
-    "title": "Study to Evaluate Elexacaftor/Tezacaftor/Ivacaftor (ELX/TEZ/IVA) Long-term Safety and Efficacy in Subjects Without F508del",
+    "nctId": "NCT05444257",
+    "title": "A Study Evaluating the Long-term Safety and Efficacy of VX-121 Combination Therapy",
     "status": "ACTIVE_NOT_RECRUITING",
     "phase": "PHASE3",
-    "startDate": "2022-11-23",
-    "completionDate": "2027-04-06",
+    "startDate": "2022-11-08",
+    "completionDate": "2026-10-30",
     "sponsor": "Vertex Pharmaceuticals Incorporated",
     "conditions": [
       "Cystic Fibrosis"
     ],
     "interventions": [
-      "ELX/TEZ/IVA",
-      "IVA"
+      "VX-121/TEZ/D-IVA"
     ],
     "lastUpdated": "2026-09-10",
-    "enrollment": 297
+    "enrollment": 822
   },
   {
     "nctId": "NCT06747572",
@@ -2567,6 +2527,45 @@
     "enrollment": 455
   },
   {
+    "nctId": "NCT07798648",
+    "title": "A Study of COVID-19 Vaccine(s) in Children and Adults",
+    "status": "RECRUITING",
+    "phase": "PHASE3",
+    "startDate": "2026-08-31",
+    "completionDate": "2027-04-21",
+    "sponsor": "BioNTech SE",
+    "conditions": [
+      "COVID-19 Vaccines"
+    ],
+    "interventions": [
+      "BNT162b2",
+      "BNT162b2",
+      "BNT162b2"
+    ],
+    "lastUpdated": "2026-09-28",
+    "enrollment": 700
+  },
+  {
+    "nctId": "NCT07843940",
+    "title": "A Study to Test Obrixtamig in Combination With Pumitamig in People With Advanced Small Cell Lung Cancer (Dareon\u00ae-Rosetta35)",
+    "status": "NOT_YET_RECRUITING",
+    "phase": "PHASE1, PHASE2",
+    "startDate": "2026-09-24",
+    "completionDate": "2030-04-21",
+    "sponsor": "Boehringer Ingelheim",
+    "conditions": [
+      "Extensive-stage Small Cell Lung Carcinoma",
+      "Advanced Small Cell Lung Cancer"
+    ],
+    "interventions": [
+      "Obrixtamig",
+      "Pumitamig",
+      "Carboplatin"
+    ],
+    "lastUpdated": "2026-09-28",
+    "enrollment": 55
+  },
+  {
     "nctId": "NCT06018337",
     "title": "A Study of DB-1303/BNT323 vs Investigator's Choice Chemotherapy in HER2-Low, Hormone Receptor Positive Metastatic Breast Cancer (DYNASTY-Breast02)",
     "status": "ACTIVE_NOT_RECRUITING",
@@ -2586,22 +2585,23 @@
     "enrollment": 541
   },
   {
-    "nctId": "NCT07291076",
-    "title": "A Study to Evaluate the Safety and Tolerability of Pumitamig Alone or In Combination With Ipilimumab in Participants With First-Line Advanced or Unresectable Hepatocellular Carcinoma (HCC) (ROSETTA HCC-206)",
+    "nctId": "NCT07293351",
+    "title": "A Study to Evaluate the Safety, Tolerability, and Efficacy of Pumitamig Alone or in Combination With Other Agents in Participants With Advanced Renal Cell Carcinoma (RCC) (ROSETTA RCC-208)",
     "status": "RECRUITING",
     "phase": "PHASE1, PHASE2",
-    "startDate": "2026-03-16",
-    "completionDate": "2031-10-14",
+    "startDate": "2026-03-26",
+    "completionDate": "2031-11-26",
     "sponsor": "Bristol-Myers Squibb",
     "conditions": [
-      "Hepatocellular Carcinoma (HCC)"
+      "Advanced Renal Cell Carcinoma (RCC)"
     ],
     "interventions": [
       "Pumitamig",
-      "Ipilimumab"
+      "Ipilimumab",
+      "Cabozantinib"
     ],
     "lastUpdated": "2026-09-23",
-    "enrollment": 198
+    "enrollment": 474
   },
   {
     "nctId": "NCT07221357",
@@ -2623,23 +2623,22 @@
     "enrollment": 990
   },
   {
-    "nctId": "NCT07293351",
-    "title": "A Study to Evaluate the Safety, Tolerability, and Efficacy of Pumitamig Alone or in Combination With Other Agents in Participants With Advanced Renal Cell Carcinoma (RCC) (ROSETTA RCC-208)",
+    "nctId": "NCT07291076",
+    "title": "A Study to Evaluate the Safety and Tolerability of Pumitamig Alone or In Combination With Ipilimumab in Participants With First-Line Advanced or Unresectable Hepatocellular Carcinoma (HCC) (ROSETTA HCC-206)",
     "status": "RECRUITING",
     "phase": "PHASE1, PHASE2",
-    "startDate": "2026-03-26",
-    "completionDate": "2031-11-26",
+    "startDate": "2026-03-16",
+    "completionDate": "2031-10-14",
     "sponsor": "Bristol-Myers Squibb",
     "conditions": [
-      "Advanced Renal Cell Carcinoma (RCC)"
+      "Hepatocellular Carcinoma (HCC)"
     ],
     "interventions": [
       "Pumitamig",
-      "Ipilimumab",
-      "Cabozantinib"
+      "Ipilimumab"
     ],
     "lastUpdated": "2026-09-23",
-    "enrollment": 474
+    "enrollment": 198
   },
   {
     "nctId": "NCT06712316",
@@ -2700,25 +2699,6 @@
     "enrollment": 736
   },
   {
-    "nctId": "NCT06340568",
-    "title": "A Clinical Study of the Anti-cancer Effects of an Investigational Therapy or Chemotherapy in Patients With Recurring Uterine Cancer",
-    "status": "RECRUITING",
-    "phase": "PHASE3",
-    "startDate": "2025-06-10",
-    "completionDate": "2029-11",
-    "sponsor": "BioNTech SE",
-    "conditions": [
-      "Endometrial Cancer"
-    ],
-    "interventions": [
-      "BNT323/DB-1303",
-      "Doxorubicin",
-      "Paclitaxel"
-    ],
-    "lastUpdated": "2026-09-17",
-    "enrollment": 480
-  },
-  {
     "nctId": "NCT06827236",
     "title": "A Clinical Study to Find the Optimal Dose of an Investigational Treatment Called BNT323 When Used in Combination With Another Investigational Treatment, BNT327, and to Test if That Combination Treatment is Safe and Beneficial for Patients With Advanced Breast Cancer",
     "status": "RECRUITING",
@@ -2756,6 +2736,25 @@
     ],
     "lastUpdated": "2026-09-17",
     "enrollment": 558
+  },
+  {
+    "nctId": "NCT06340568",
+    "title": "A Clinical Study of the Anti-cancer Effects of an Investigational Therapy or Chemotherapy in Patients With Recurring Uterine Cancer",
+    "status": "RECRUITING",
+    "phase": "PHASE3",
+    "startDate": "2025-06-10",
+    "completionDate": "2029-11",
+    "sponsor": "BioNTech SE",
+    "conditions": [
+      "Endometrial Cancer"
+    ],
+    "interventions": [
+      "BNT323/DB-1303",
+      "Doxorubicin",
+      "Paclitaxel"
+    ],
+    "lastUpdated": "2026-09-17",
+    "enrollment": 480
   },
   {
     "nctId": "NCT06150183",
@@ -2814,25 +2813,6 @@
     "enrollment": 8
   },
   {
-    "nctId": "NCT06750185",
-    "title": "Safety and Preliminary Effectiveness of BNT317, an Investigational Therapy for Advanced Solid Tumors",
-    "status": "RECRUITING",
-    "phase": "PHASE1, PHASE2",
-    "startDate": "2025-01-13",
-    "completionDate": "2031-04",
-    "sponsor": "BioNTech SE",
-    "conditions": [
-      "Advanced Solid Tumor"
-    ],
-    "interventions": [
-      "BNT317 DL1",
-      "BNT317 DL2",
-      "BNT317 DL3"
-    ],
-    "lastUpdated": "2026-09-09",
-    "enrollment": 248
-  },
-  {
     "nctId": "NCT05968326",
     "title": "A Study of the Efficacy and Safety of Adjuvant Autogene Cevumeran Plus Atezolizumab and mFOLFIRINOX Versus mFOLFIRINOX Alone in Participants With Resected PDAC",
     "status": "ACTIVE_NOT_RECRUITING",
@@ -2852,23 +2832,23 @@
     "enrollment": 260
   },
   {
-    "nctId": "NCT07221149",
-    "title": "A Study to Evaluate the Safety and Efficacy of Pumitamig in Combination With Chemotherapy Versus Nivolumab in Combination With Chemotherapy in Participants With Previously Untreated Advanced or Metastatic Gastric, Gastroesophageal Junction, or Esophageal Adenocarcinoma (ROSETTA Gastric-204)",
+    "nctId": "NCT06750185",
+    "title": "Safety and Preliminary Effectiveness of BNT317, an Investigational Therapy for Advanced Solid Tumors",
     "status": "RECRUITING",
-    "phase": "PHASE2, PHASE3",
-    "startDate": "2026-03-13",
-    "completionDate": "2032-09-11",
-    "sponsor": "Bristol-Myers Squibb",
+    "phase": "PHASE1, PHASE2",
+    "startDate": "2025-01-13",
+    "completionDate": "2031-04",
+    "sponsor": "BioNTech SE",
     "conditions": [
-      "Untreated Advanced or Metastatic Gastric, Gastroesophageal Junction, or Esophageal Adenocarcinoma"
+      "Advanced Solid Tumor"
     ],
     "interventions": [
-      "Pumitamig",
-      "Folfox",
-      "Capox"
+      "BNT317 DL1",
+      "BNT317 DL2",
+      "BNT317 DL3"
     ],
-    "lastUpdated": "2026-09-08",
-    "enrollment": 690
+    "lastUpdated": "2026-09-09",
+    "enrollment": 248
   },
   {
     "nctId": "NCT07361510",
@@ -2887,24 +2867,6 @@
     ],
     "lastUpdated": "2026-09-08",
     "enrollment": 750
-  },
-  {
-    "nctId": "NCT07361497",
-    "title": "A Study to Evaluate Pumitamig Versus Durvalumab Following Concurrent Chemoradiation Therapy in Participants With Unresectable Stage III Non-small Cell Lung Cancer (NSCLC) (ROSETTA Lung-201)",
-    "status": "RECRUITING",
-    "phase": "PHASE3",
-    "startDate": "2026-03-16",
-    "completionDate": "2033-12-31",
-    "sponsor": "Bristol-Myers Squibb",
-    "conditions": [
-      "Non-small Cell Lung Cancer (NSCLC)"
-    ],
-    "interventions": [
-      "Pumitamig",
-      "Durvalumab"
-    ],
-    "lastUpdated": "2026-09-08",
-    "enrollment": 850
   },
   {
     "nctId": "NCT05371613",

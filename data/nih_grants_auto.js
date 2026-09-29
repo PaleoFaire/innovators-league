@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-09-28 14:54:09 UTC
-// Total grants: 641 | Known companies: 13 | SBIR: 37
-// Total funding tracked: $400,796,636
+// Last updated: 2026-09-29 13:42:17 UTC
+// Total grants: 642 | Known companies: 13 | SBIR: 38
+// Total funding tracked: $401,242,131
 const NIH_GRANTS_AUTO = [
   {
     title: "PROVIDENT:  Prepositioning Optimized Strategies for Vaccines and Immunotherapeutics against Diverse Emerging Infectious ",
@@ -2955,6 +2955,19 @@ const NIH_GRANTS_AUTO = [
     isKnownCompany: false,
   },
   {
+    title: "Targeting the neuronal microenvironment in glioblastoma",
+    organization: "BRIGHAM AND WOMEN'S HOSPITAL",
+    orgState: "MA",
+    piName: "Michelle  Monje-Deisseroth",
+    fiscalYear: 2026,
+    awardAmount: 572511,
+    activityCode: "U19",
+    isSbir: false,
+    abstract: "Summary An emerging body of data draws attention to the central role of the nervous system in pathogenesis of glioblastoma. In preliminary studies our own group has discovered that glioblastoma integr",
+    terms: ["AMPA Receptors", "Acute", "Adult", "Adult Glioblastoma", "Amino Acid Transporter", "Attention", "Brain", "Calcium"],
+    isKnownCompany: false,
+  },
+  {
     title: "BindingDB: An Open Knowledgebase of Protein-Small Molecule Interactions",
     organization: "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
     orgState: "CA",
@@ -3563,19 +3576,6 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "Project Summary Aging-associated urological dysfunctions (uro-aging) such as urinary incontinence (UI), recurrent urinary tract infections (rUTI), interstitial cystitis/bladder pain syndrome (IC/BPS),",
     terms: ["3-Dimensional", "Address", "Adult", "Affect", "Aging", "Animals", "Anti-Cholinergics", "Architecture"],
-    isKnownCompany: false,
-  },
-  {
-    title: "Project 1: Elucidating Mechanisms of Sensitivity and Resistance to Combination Antibody-Drug Conjugate Therapy and Immun",
-    organization: "SLOAN-KETTERING INST CAN RESEARCH",
-    orgState: "NY",
-    piName: "Jonathan Eric Rosenberg",
-    fiscalYear: 2026,
-    awardAmount: 499767,
-    activityCode: "P50",
-    isSbir: false,
-    abstract: "PROJECT ABSTRACT Antibody-drug conjugates (ADCs) have dramatically altered the standard treatment approach for patients with metastatic urothelial cancer. ADCs consist of a cytotoxic payload attached ",
-    terms: ["Aftercare", "Antibody-drug conjugates", "Antigen Presentation", "Antitumor Response", "Biological Markers", "Blood", "Blood specimen", "CD8-Positive T-Lymphocytes"],
     isKnownCompany: false,
   },
   {

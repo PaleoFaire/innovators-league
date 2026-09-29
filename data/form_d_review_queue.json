@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-09-28T15:18:55.736172+00:00",
+  "generated_at": "2026-09-29T13:48:24.319669+00:00",
   "note": "name-heuristic candidates NOT shown to members; verify then add CIK to data/cik_map.json to promote",
   "candidates": [
+    {
+      "match_method": "name-candidate",
+      "company": "Helios",
+      "issuer_name": "Helios Sports, Inc",
+      "form": "D",
+      "filed_date": "2026-09-28",
+      "cik": "1765530",
+      "accession": "0001765530-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001765530&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001765530-26-000002"
+    },
     {
       "match_method": "name-candidate",
       "company": "Twenty",
