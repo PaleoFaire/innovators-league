@@ -11,13 +11,13 @@
     "space": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -0.79,
+      "avg_change": 1.2,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -4.29,
+      "avg_change": -4.81,
       "count": 7
     },
     "nuclear": {
@@ -86,6 +86,11 @@
   ],
   "topLosers": [
     [
+      "OKLO",
+      "Oklo",
+      -7.64
+    ],
+    [
       "SLDP",
       "Solid Power",
       -8.87
@@ -101,15 +106,10 @@
       -10.59
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      -10.98
-    ],
-    [
       "AUR",
       "Aurora Innovation",
       -18.74
     ]
   ],
-  "lastUpdated": "2026-09-28 23:51:27"
+  "lastUpdated": "2026-09-29 06:58:58"
 }
