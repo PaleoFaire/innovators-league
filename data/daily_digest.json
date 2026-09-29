@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T01:45:05.823373+00:00",
+  "generatedAt": "2026-09-29T08:18:47.748534+00:00",
   "date": "2026-09-29",
   "dateDisplay": "Tuesday, September 29, 2026",
   "sections": {
@@ -77,13 +77,6 @@
         "change": -1.22
       },
       {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 6.61,
-        "changePercent": -10.98,
-        "change": -0.81
-      },
-      {
         "ticker": "QS",
         "company": "QuantumScape",
         "price": 4.56,
@@ -124,6 +117,13 @@
         "price": 6.05,
         "changePercent": 8.42,
         "change": 0.47
+      },
+      {
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 37.11,
+        "changePercent": -7.64,
+        "change": -3.07
       }
     ],
     "regulatory": [
