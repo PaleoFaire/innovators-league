@@ -22,9 +22,9 @@
     "momentum": 39,
     "trend": "steady",
     "catalysts": [
+      "\u201cWe\u2019re not going to shoot ourselves in the foot\u201d over hack f",
       "The internet is convinced Elon Musk&#8217;s xAI trolled Open",
-      "SpaceX Has More Annual Recurring Revenue than Anthropic",
-      "OpenAI&#8217;s latest features take direct aim at the app st"
+      "SpaceX Has More Annual Recurring Revenue than Anthropic"
     ],
     "fundingQ": "$220M",
     "components": {
@@ -88,6 +88,24 @@
     "lastUpdated": "2026-09-30"
   },
   {
+    "sector": "Biotech & Health",
+    "momentum": 21,
+    "trend": "declining",
+    "catalysts": [
+      "Anthropic Says It Discovered a Crispr-Like System. Now What?",
+      "STAT+: Anthropic joins ARPA-H clinical AI moonshot, will hol",
+      "<a href=\"/biotech/roche-zealand-see-phase-2-amylin-weight-lo"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 82
+    },
+    "lastUpdated": "2026-09-30"
+  },
+  {
     "sector": "Housing & Construction",
     "momentum": 21,
     "trend": "declining",
@@ -124,36 +142,18 @@
     "lastUpdated": "2026-09-30"
   },
   {
-    "sector": "Biotech & Health",
-    "momentum": 20,
+    "sector": "Drones & Autonomous",
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "Anthropic Says It Discovered a Crispr-Like System. Now What?",
-      "STAT+: Anthropic joins ARPA-H clinical AI moonshot, will hol",
-      "<a href=\"/biotech/kodiak-roars-back-pivotal-victory-resurrec"
+      "Gecko Robotics works with NVIDIA to add AI agent security an",
+      "Waymo says it has stopped 841 injuries in 271 million autono",
+      "Cape Canaveral is building up its counter-drone defenses, Sp"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 15,
-      "hiring": 0,
-      "market": 82
-    },
-    "lastUpdated": "2026-09-30"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 15,
-    "trend": "declining",
-    "catalysts": [
-      "Gecko Robotics works with NVIDIA to add AI agent security an",
-      "With Denmark, Saildrone logs first flag registration for nav",
-      "Waymo says it has stopped 841 injuries in 271 million autono"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
       "hiring": 0,
       "market": 50
     },
@@ -178,27 +178,27 @@
     "lastUpdated": "2026-09-30"
   },
   {
-    "sector": "Ocean & Maritime",
-    "momentum": 11,
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "With Denmark, Saildrone logs first flag registration for nav"
+      "Active supersonic & hypersonic ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
     "lastUpdated": "2026-09-30"
   },
   {
-    "sector": "Supersonic & Hypersonic",
+    "sector": "Ocean & Maritime",
     "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "Active supersonic & hypersonic ecosystem"
+      "Active ocean & maritime ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {

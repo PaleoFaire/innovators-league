@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-30T05:05:22.874963Z",
+  "generated_at": "2026-09-30T12:27:17.892426Z",
   "platform": {
-    "companiesTracked": 1209,
+    "companiesTracked": 1210,
     "sectorsMonitored": 16,
-    "totalCapitalRaisedTracked": "$429.8B",
-    "totalValuationTracked": "$1260.1B",
-    "companiesWithValuation": 119,
+    "totalCapitalRaisedTracked": "$430.4B",
+    "totalValuationTracked": "$1266.1B",
+    "companiesWithValuation": 120,
     "govContractsTracked": 163,
     "sbirAwardsTracked": 341,
-    "dealsTracked": 230,
-    "newsItemsTracked": 47,
-    "dataPointsUpdated": "48,360+"
+    "dealsTracked": 231,
+    "newsItemsTracked": 48,
+    "dataPointsUpdated": "48,400+"
   },
   "topFunds": [
     {
@@ -79,10 +79,11 @@
     },
     {
       "fund": "Khosla Ventures",
-      "portfolio_count": 9,
+      "portfolio_count": 10,
       "companies": [
         "Caelux",
         "Foundry Robotics",
+        "General Intuition",
         "Nomagic",
         "Sagence",
         "Singularity",
@@ -94,11 +95,12 @@
     },
     {
       "fund": "General Catalyst",
-      "portfolio_count": 8,
+      "portfolio_count": 9,
       "companies": [
         "Alsym Energy",
         "Collaborative Robotics",
         "Endeavor Optical Networks",
+        "General Intuition",
         "Onodrim Industries",
         "Pacific Fusion",
         "Thatch",
@@ -255,7 +257,7 @@
     "Quantum Computing": 52,
     "Drones & Autonomous": 40,
     "Transportation": 27,
-    "AI & Software": 25,
+    "AI & Software": 26,
     "Housing & Construction": 18,
     "Ocean & Maritime": 12,
     "Infrastructure & Logistics": 7,

@@ -86,7 +86,7 @@
   {
     "company": "OpenAI",
     "type": "media_buzz",
-    "detail": "14 recent articles",
+    "detail": "15 recent articles",
     "strength": 2,
     "date": "2026-09-30"
   },
@@ -219,7 +219,7 @@
   {
     "company": "Pivotal",
     "type": "news_activity",
-    "detail": "1 recent article",
+    "detail": "2 recent articles",
     "strength": 1,
     "date": "2026-09-30"
   },
@@ -227,20 +227,6 @@
     "company": "Sage Geosystems",
     "type": "news_activity",
     "detail": "1 recent article",
-    "strength": 1,
-    "date": "2026-09-30"
-  },
-  {
-    "company": "Saildrone",
-    "type": "news_activity",
-    "detail": "1 recent article",
-    "strength": 1,
-    "date": "2026-09-30"
-  },
-  {
-    "company": "Saildrone",
-    "type": "gov_traction",
-    "detail": "9 contracts",
     "strength": 1,
     "date": "2026-09-30"
   },
@@ -548,7 +534,7 @@
   {
     "company": "DroneShield",
     "type": "stock_movement",
-    "detail": "-6.7% down",
+    "detail": "-7.5% down",
     "strength": 0,
     "date": "2026-09-30"
   },
@@ -1052,7 +1038,7 @@
   {
     "company": "Rainbow Robotics",
     "type": "stock_movement",
-    "detail": "-4.5% down",
+    "detail": "-4.7% down",
     "strength": 0,
     "date": "2026-09-30"
   },
@@ -1144,6 +1130,13 @@
     "company": "Rune Technologies",
     "type": "gov_traction",
     "detail": "3 contracts",
+    "strength": 0,
+    "date": "2026-09-30"
+  },
+  {
+    "company": "Saildrone",
+    "type": "gov_traction",
+    "detail": "9 contracts",
     "strength": 0,
     "date": "2026-09-30"
   },

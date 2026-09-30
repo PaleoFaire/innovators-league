@@ -746,6 +746,11 @@
       "thesisCluster": "ai-robotics-embodied"
     },
     {
+      "id": "General Intuition",
+      "sector": "AI & Software",
+      "thesisCluster": ""
+    },
+    {
       "id": "Waymo",
       "sector": "Drones & Autonomous",
       "thesisCluster": "ai-autonomous-driving"
@@ -11301,7 +11306,7 @@
     }
   ],
   "counts": {
-    "total_nodes": 1215,
+    "total_nodes": 1216,
     "total_edges": 904,
     "competitor_edges": 194,
     "thesis_edges": 702,

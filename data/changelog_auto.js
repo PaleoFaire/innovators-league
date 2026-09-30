@@ -3,8 +3,8 @@
 const CHANGELOG_WEEKLY = {
   "generated": "2026-09-30",
   "windowDays": 7,
-  "baselineSha": "f2dcf397c417",
-  "companiesTracked": 1209,
+  "baselineSha": "16c16277a8a8",
+  "companiesTracked": 1210,
   "added": [
     {
       "name": "Andean",
@@ -80,7 +80,6 @@ const CHANGELOG_WEEKLY = {
     "Core Automation",
     "CuspAI",
     "Flapping Airplanes",
-    "General Intuition",
     "HUMAIN",
     "Humans&",
     "Hypernova Space Technologies",
@@ -143,6 +142,11 @@ const CHANGELOG_WEEKLY = {
       "to": "$10.3B"
     },
     {
+      "name": "General Intuition",
+      "from": "Undisclosed",
+      "to": "$6B+"
+    },
+    {
       "name": "Armada",
       "from": "",
       "to": "$2B"
@@ -163,6 +167,11 @@ const CHANGELOG_WEEKLY = {
       "name": "Etched",
       "from": "$800M",
       "to": "$1B+"
+    },
+    {
+      "name": "General Intuition",
+      "from": "Undisclosed",
+      "to": "$650M+"
     },
     {
       "name": "Armada",
@@ -222,9 +231,9 @@ const CHANGELOG_WEEKLY = {
       "to": "Series B"
     },
     {
-      "name": "Vatn Systems",
-      "from": "Series A",
-      "to": "Series D"
+      "name": "VVater",
+      "from": "Seed",
+      "to": "Undisclosed"
     },
     {
       "name": "Venus Aerospace",

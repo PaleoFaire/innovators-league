@@ -1,32 +1,32 @@
 // Auto-generated government contracts data
-// Last updated: 2026-09-30 05:04:08 UTC
+// Last updated: 2026-09-30 12:26:00 UTC
 const GOV_CONTRACTS_AUTO = [
   {
     company: "Anduril",
     totalGovValue: "$3.6B+",
     contractCount: 200,
-    agencies: ["National Aeronautics and Space Administration", "Department of Commerce", "Department of Defense", "Department of Energy", "Department of Homeland Security"],
+    agencies: ["Department of Commerce", "Department of Energy", "Department of Homeland Security", "Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
     company: "Palantir",
     totalGovValue: "$1.7B+",
     contractCount: 94,
-    agencies: ["Department of Transportation", "Department of Defense", "Department of Energy", "Department of Veterans Affairs", "Department of Housing and Urban Development"],
+    agencies: ["Department of the Treasury", "Department of Housing and Urban Development", "Department of Energy", "Department of Health and Human Services", "General Services Administration"],
     lastUpdated: "2026-09-30"
   },
   {
     company: "SpaceX",
     totalGovValue: "$12.1B+",
     contractCount: 83,
-    agencies: ["National Aeronautics and Space Administration", "Department of Transportation", "Department of Defense", "Department of Veterans Affairs", "Department of Justice"],
+    agencies: ["Department of the Interior", "Department of Justice", "Department of Transportation", "Department of Homeland Security", "Department of Defense"],
     lastUpdated: "2026-09-30"
   },
   {
     company: "Skydio",
     totalGovValue: "$4M+",
     contractCount: 44,
-    agencies: ["Department of Defense", "Department of Justice", "Department of Labor", "Department of State", "Department of Agriculture"],
+    agencies: ["Department of the Interior", "Department of Justice", "Department of State", "Department of Defense", "Department of Labor"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -40,14 +40,14 @@ const GOV_CONTRACTS_AUTO = [
     company: "Firefly Aerospace",
     totalGovValue: "$525M+",
     contractCount: 12,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
     company: "Intuitive Machines",
     totalGovValue: "$286M+",
     contractCount: 12,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -68,14 +68,14 @@ const GOV_CONTRACTS_AUTO = [
     company: "Defense Unicorns",
     totalGovValue: "$116M+",
     contractCount: 10,
-    agencies: ["Department of Defense", "General Services Administration"],
+    agencies: ["General Services Administration", "Department of Defense"],
     lastUpdated: "2026-09-30"
   },
   {
     company: "Sierra Space",
     totalGovValue: "$35M+",
     contractCount: 9,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -89,7 +89,7 @@ const GOV_CONTRACTS_AUTO = [
     company: "Saildrone",
     totalGovValue: "$44M+",
     contractCount: 9,
-    agencies: ["Department of Homeland Security", "Department of Commerce"],
+    agencies: ["Department of Commerce", "Department of Homeland Security"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -110,14 +110,14 @@ const GOV_CONTRACTS_AUTO = [
     company: "Axiom Space",
     totalGovValue: "$596M+",
     contractCount: 7,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
     company: "Umbra",
     totalGovValue: "$6M+",
     contractCount: 7,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -131,35 +131,35 @@ const GOV_CONTRACTS_AUTO = [
     company: "Viken Detection",
     totalGovValue: "$5M+",
     contractCount: 7,
-    agencies: ["Department of State", "Department of Homeland Security", "Department of Justice"],
+    agencies: ["Department of Justice", "Department of Homeland Security", "Department of State"],
     lastUpdated: "2026-09-30"
   },
   {
     company: "Rocket Lab",
     totalGovValue: "$53M+",
     contractCount: 6,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
     company: "Varda Space Industries",
     totalGovValue: "$42M+",
     contractCount: 6,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
     company: "Muon Space",
     totalGovValue: "$7M+",
     contractCount: 6,
-    agencies: ["National Aeronautics and Space Administration", "Department of Commerce", "Department of Defense"],
+    agencies: ["Department of Commerce", "Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
     company: "ThinkOrbital",
     totalGovValue: "$5M+",
     contractCount: 6,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -173,7 +173,7 @@ const GOV_CONTRACTS_AUTO = [
     company: "Boston Dynamics",
     totalGovValue: "$2M+",
     contractCount: 5,
-    agencies: ["Department of Commerce", "Department of Justice", "Department of Health and Human Services", "Department of Homeland Security", "Department of Agriculture"],
+    agencies: ["Department of Commerce", "Department of Health and Human Services", "Department of Justice", "Department of Homeland Security", "Department of Agriculture"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -201,14 +201,14 @@ const GOV_CONTRACTS_AUTO = [
     company: "Aalyria",
     totalGovValue: "$3M+",
     contractCount: 5,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
     company: "Inversion Space",
     totalGovValue: "$20M+",
     contractCount: 5,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -229,7 +229,7 @@ const GOV_CONTRACTS_AUTO = [
     company: "Starfish Space",
     totalGovValue: "$96M+",
     contractCount: 5,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -250,7 +250,7 @@ const GOV_CONTRACTS_AUTO = [
     company: "Impulse Space",
     totalGovValue: "$32M+",
     contractCount: 4,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -292,21 +292,21 @@ const GOV_CONTRACTS_AUTO = [
     company: "Gravitics",
     totalGovValue: "$9M+",
     contractCount: 4,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
     company: "Echodyne",
     totalGovValue: "$54M+",
     contractCount: 4,
-    agencies: ["Department of State", "Department of Transportation", "Department of Defense"],
+    agencies: ["Department of Transportation", "Department of State", "Department of Defense"],
     lastUpdated: "2026-09-30"
   },
   {
     company: "CesiumAstro",
     totalGovValue: "$3M+",
     contractCount: 4,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -341,14 +341,14 @@ const GOV_CONTRACTS_AUTO = [
     company: "Relativity Space",
     totalGovValue: "$226K",
     contractCount: 3,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
     company: "Capella Space",
     totalGovValue: "$10M+",
     contractCount: 3,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -376,7 +376,7 @@ const GOV_CONTRACTS_AUTO = [
     company: "Reditus Space",
     totalGovValue: "$279K",
     contractCount: 3,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -390,7 +390,7 @@ const GOV_CONTRACTS_AUTO = [
     company: "Viridian Space",
     totalGovValue: "$2M+",
     contractCount: 3,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -411,7 +411,7 @@ const GOV_CONTRACTS_AUTO = [
     company: "Reveal Technology",
     totalGovValue: "$10M+",
     contractCount: 3,
-    agencies: ["Department of Defense", "General Services Administration"],
+    agencies: ["General Services Administration", "Department of Defense"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -425,7 +425,7 @@ const GOV_CONTRACTS_AUTO = [
     company: "Proteus Space",
     totalGovValue: "$2M+",
     contractCount: 3,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -446,14 +446,14 @@ const GOV_CONTRACTS_AUTO = [
     company: "Lunar Outpost",
     totalGovValue: "$128M+",
     contractCount: 3,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
     company: "Stratolaunch",
     totalGovValue: "$30M+",
     contractCount: 3,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -495,7 +495,7 @@ const GOV_CONTRACTS_AUTO = [
     company: "Elve",
     totalGovValue: "$4M+",
     contractCount: 2,
-    agencies: ["Department of the Interior", "Department of Defense"],
+    agencies: ["Department of Defense", "Department of the Interior"],
     lastUpdated: "2026-09-30"
   },
   {
@@ -565,21 +565,21 @@ const GOV_CONTRACTS_AUTO = [
     company: "Gecko Robotics",
     totalGovValue: "$4M+",
     contractCount: 2,
-    agencies: ["Department of Homeland Security", "General Services Administration"],
+    agencies: ["General Services Administration", "Department of Homeland Security"],
     lastUpdated: "2026-09-30"
   },
   {
     company: "Whisper Aero",
     totalGovValue: "$2M+",
     contractCount: 2,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
     company: "Orbital Composites",
     totalGovValue: "$2M+",
     contractCount: 2,
-    agencies: ["National Aeronautics and Space Administration", "Department of Defense"],
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-09-30"
   },
   {
