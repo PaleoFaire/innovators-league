@@ -361,6 +361,13 @@ def is_funding_article(title, description):
     return any(kw in text for kw in funding_keywords)
 
 
+_LISTED = re.compile(
+    r"\b(pric(?:e|es|ed|ing)\s+(?:its\s+|an\s+|the\s+)?(?:ipo|shares|offering)"
+    r"|debut(?:s|ed)?|beg(?:an|ins) trading|start(?:s|ed) trading|(?:is|was|now) listed"
+    r"|went public|goes public|complet(?:e|es|ed) (?:its |an |the )?(?:ipo|listing|merger)"
+    r"|clos(?:e|es|ed) (?:its |an |the )?(?:ipo|merger))\b", re.I)
+
+
 def extract_deal_from_article(article):
     """Try to extract a deal from a news article."""
     title = article.get("title", "")
@@ -376,6 +383,15 @@ def extract_deal_from_article(article):
         return None
 
     round_type = parse_round_type(full_text) or "Funding Round"
+    # An IPO or SPAC "round" needs listing language. "Rebellions ... $3.4B IPO"
+    # was a planned offering, not a listing, and a private company carrying an
+    # IPO round fails the data-quality gate: Daily Data Sync failed 26-29 Sep
+    # 2026 on exactly that. A pre-IPO private round is kept as "Pre-IPO".
+    if round_type in ("IPO", "SPAC") and not _LISTED.search(full_text):
+        if re.search(r'\bpre-?ipo\b', full_text, re.I):
+            round_type = "Pre-IPO"
+        else:
+            return None
     investors = match_investors(full_text)
 
     # Parse date
