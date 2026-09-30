@@ -656,7 +656,8 @@ const MASTER_COMPANY_LIST = [
   { name: "Tubulis", aliases: ["TUB-040", "Tubulis ADC"], sector: "biotech", ticker: null },
   { name: "Candela", aliases: ["Candela electric boat", "Candela P-12"], sector: "transportation", ticker: null },
 
-  // ─── Round 7c: international audit additions (Apr 2026) — trackable in news pipeline ───{ name: "Calogena", aliases: ["Calogena SMR", "district heating reactor"], sector: "nuclear", ticker: null },
+  // ─── Round 7c: international audit additions (Apr 2026) — trackable in news pipeline ───
+  { name: "Calogena", aliases: ["Calogena SMR", "district heating reactor"], sector: "nuclear", ticker: null },
   { name: "Hexana", aliases: ["Hexana SMR", "sodium-cooled reactor"], sector: "nuclear", ticker: null },
   { name: "Dust", aliases: ["Dust AI", "dust.tt", "Gabriel Hubert"], sector: "ai", ticker: null },
   { name: "Photoroom", aliases: ["Photoroom AI", "on-device imaging"], sector: "ai", ticker: null },
