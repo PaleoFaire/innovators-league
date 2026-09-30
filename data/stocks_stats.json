@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -1.56,
+      "avg_change": -2.47,
       "count": 1
     },
     "space": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 2.44,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": -0.69,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -6.31,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -5.99,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.63,
+      "avg_change": -6.82,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.07,
+      "avg_change": -2.47,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.74,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 0.0,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 13.14,
+      "avg_change": 14.18,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -4.52,
+      "avg_change": -3.6,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 0.12,
+      "avg_change": -0.15,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      20.62
+      23.99
     ],
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      10.14
+      11.62
     ],
     [
       "TEM",
       "Tempus AI",
-      8.65
+      6.93
     ],
     [
-      "SATL",
-      "Satellogic",
-      6.72
+      "ASRHF",
+      "Astroscale",
+      3.33
     ],
     [
       "IONQ",
       "IonQ",
-      6.07
+      3.1
     ]
   ],
   "topLosers": [
     [
-      "TSLA",
-      "Tesla",
-      -8.74
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -9.19
+      "NNE",
+      "Nano Nuclear Energy",
+      -6.82
     ],
     [
       "SMR",
       "NuScale Power",
-      -9.74
+      -8.99
     ],
     [
-      "ACHR",
-      "Archer Aviation",
-      -10.33
+      "EVTL",
+      "Vertical Aerospace",
+      -12.25
     ],
     [
       "AUR",
       "Aurora Innovation",
-      -14.64
+      -12.34
+    ],
+    [
+      "ACHR",
+      "Archer Aviation",
+      -12.96
     ]
   ],
-  "lastUpdated": "2026-09-30 13:49:19"
+  "lastUpdated": "2026-09-30 23:03:49"
 }
