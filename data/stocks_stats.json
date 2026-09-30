@@ -9,15 +9,15 @@
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -3.39,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -3.12,
       "count": 7
     },
     "autonomous": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -8.59,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -8.53,
       "count": 7
     },
     "nuclear": {
@@ -79,9 +79,9 @@
       3.33
     ],
     [
-      "PLTR",
-      "Palantir",
-      1.07
+      "IDEAFORGE.NS",
+      "ideaForge",
+      1.32
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -16.56
     ]
   ],
-  "lastUpdated": "2026-09-29 23:00:32"
+  "lastUpdated": "2026-09-30 06:47:44"
 }
