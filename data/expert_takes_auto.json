@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-09-25T15:04:06.392927Z",
+  "generated_at": "2026-09-30T05:05:22.479424Z",
   "takes": [
-    {
-      "author": "Tech.eu",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Anthropic and Nvidia back Basecamp Research in $140M Series C",
-      "date": "Wed, 23 Se",
-      "source": "news",
-      "source_url": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/",
-      "signal_type": "funding"
-    },
     {
       "author": "TechCrunch",
       "role": "Industry signal",
-      "company": "ElevenLabs",
-      "text": "ElevenLabs&#8217; CEO on margins, IPO timing, and telling customers they&#8217;re talking to a bot",
-      "date": "Thu, 24 Se",
+      "company": "OpenAI",
+      "text": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
+      "date": "Tue, 29 Se",
       "source": "news",
-      "source_url": "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/",
-      "signal_type": "hire"
+      "source_url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+      "signal_type": "funding"
     },
     {
-      "author": "Tech.eu",
+      "author": "Crunchbase News",
       "role": "Industry signal",
-      "company": "Humanoid",
-      "text": "Europeans in Japan raise $1.2M to put modular humanoid robots to work",
-      "date": "Thu, 24 Se",
+      "company": "Anthropic",
+      "text": "Oura Hits Pause On IPO While Anthropic\u2019s Prospectus Reveals The Cost Of Its AI Ambitions",
+      "date": "Tue, 29 Se",
       "source": "news",
-      "source_url": "https://tech.eu/2026/09/24/brits-in-japan-raise-1m-to-put-modular-humanoid-robots-to-work/",
+      "source_url": "https://news.crunchbase.com/public/oura-pauses-ipo-anthropics-ai-openai/",
       "signal_type": "funding"
+    },
+    {
+      "author": "Next Big Future",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "Anthropic Nearly Doubles Leasing From Spacex to over $2 Billion Per Month",
+      "date": "Tue, 29 Se",
+      "source": "news",
+      "source_url": "https://www.nextbigfuture.com/2026/09/anthropic-nearly-doubles-leasing-from-spacex-to-over-2-billion-per-month.html",
+      "signal_type": "ipo"
     },
     {
       "author": "Canary Media",
@@ -42,20 +42,30 @@
       "signal_type": "funding"
     },
     {
+      "author": "Next Big Future",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "SpaceX Will Pay Less than $1 billion to Launch a Gigawatt of AI  &#8211; $180 Billion Estimate is a Moronic Spreadsheet Crime",
+      "date": "Sun, 27 Se",
+      "source": "news",
+      "source_url": "https://www.nextbigfuture.com/2026/09/spacex-will-pay-less-than-1-billion-to-launch-a-gigawatt-of-ai-180-billion-estimate-is-a-moronic-spreadsheet-crime.html",
+      "signal_type": "ipo"
+    },
+    {
       "author": "FierceBiotech",
       "role": "Industry signal",
       "company": "Pivotal",
-      "text": "<a href=\"/biotech/merck-co-uncorks-pivotal-victory-3b-eye-disease-prospect\" hreflang=\"en\">Merck sees pivotal victory for $3B eye disease prospect</a>",
-      "date": "Sep 24, 20",
+      "text": "<a href=\"/biotech/kodiak-roars-back-pivotal-victory-resurrected-eye-disease-drug\" hreflang=\"en\">Kodiak's stock doubles as resurrected eye disease drug matches Eylea in phase 3</a>",
+      "date": "Sep 28, 20",
       "source": "news",
-      "source_url": "https://www.fiercebiotech.com/biotech/merck-co-uncorks-pivotal-victory-3b-eye-disease-prospect",
+      "source_url": "https://www.fiercebiotech.com/biotech/kodiak-roars-back-pivotal-victory-resurrected-eye-disease-drug",
       "signal_type": "hire"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 5,
+    "from_news": 6,
     "from_press": 0
   }
 }

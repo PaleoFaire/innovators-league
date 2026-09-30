@@ -1,7 +1,43 @@
 [
   {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 45,
+    "trend": "steady",
+    "catalysts": [
+      "OpenAI expands ChatGPT&#8217;s plug-ins with app-like interf",
+      "Meet Flourish One, the Raspberry Pi-powered humanoid built f",
+      "SpaceX AI Gameover for Rivals -Money Wise Minihard Crushes E"
+    ],
+    "fundingQ": "$1.4B",
+    "components": {
+      "funding": 72,
+      "news": 40,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-30"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 39,
+    "trend": "steady",
+    "catalysts": [
+      "The internet is convinced Elon Musk&#8217;s xAI trolled Open",
+      "SpaceX Has More Annual Recurring Revenue than Anthropic",
+      "OpenAI&#8217;s latest features take direct aim at the app st"
+    ],
+    "fundingQ": "$220M",
+    "components": {
+      "funding": 11,
+      "news": 100,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-30"
+  },
+  {
     "sector": "Transportation",
-    "momentum": 50,
+    "momentum": 35,
     "trend": "steady",
     "catalysts": [
       "Active transportation ecosystem"
@@ -11,218 +47,135 @@
       "funding": 100,
       "news": 0,
       "hiring": 0,
-      "market": 73
+      "market": 0
     },
-    "lastUpdated": "2026-09-25"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 44,
-    "trend": "steady",
-    "catalysts": [
-      "Europeans in Japan raise $1.2M to put modular humanoid robot",
-      "ANYbotics opens the door for inspections with ANYmal robots",
-      "Waymo says it has stopped 841 injuries in 271 million autono"
-    ],
-    "fundingQ": "$1.4B",
-    "components": {
-      "funding": 72,
-      "news": 35,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-25"
+    "lastUpdated": "2026-09-30"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 42,
+    "momentum": 29,
     "trend": "rising",
     "catalysts": [
-      "Shield AI, Waabi, and General Motors on building AI when fai",
-      "Army awards Palantir $48.1M to modernize ammo management",
-      "EXCLUSIVE: SpaceX given unique access to classified DoD spac"
+      "Terran Orbital Names Jamin Brown Chief Operating Officer",
+      "Anthropic loses legal fight to shed DOD's designation as a '",
+      "US appeals court upholds Pentagon\u2019s blacklisting of Anthropi"
     ],
-    "fundingQ": "$1.1B",
+    "fundingQ": "$850M",
     "components": {
-      "funding": 38,
-      "news": 35,
+      "funding": 27,
+      "news": 30,
       "hiring": 0,
-      "market": 100
+      "market": 61
     },
-    "lastUpdated": "2026-09-25"
+    "lastUpdated": "2026-09-30"
   },
   {
-    "sector": "Space & Aerospace",
-    "momentum": 31,
+    "sector": "Consumer Tech",
+    "momentum": 25,
     "trend": "rising",
     "catalysts": [
-      "SpaceX Beating Bull Case- Adding 880,000 chips in four month",
-      "SpaceX INSANE SPEED is more valuable than Rockets",
-      "EXCLUSIVE: SpaceX given unique access to classified DoD spac"
-    ],
-    "fundingQ": "$50M",
-    "components": {
-      "funding": 5,
-      "news": 45,
-      "hiring": 0,
-      "market": 89
-    },
-    "lastUpdated": "2026-09-25"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 26,
-    "trend": "declining",
-    "catalysts": [
-      "Shield AI, Waabi, and General Motors on building AI when fai",
-      "Australia to investigate if OpenAI hack of government health",
-      "An OpenAI Agent Hacked Australia\u2019s Health Service. Their Gov"
+      "OpenAI&#8217;s latest features take direct aim at the app st",
+      "Terran Orbital Names Jamin Brown Chief Operating Officer",
+      "OpenAI expands ChatGPT&#8217;s plug-ins with app-like interf"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 60,
       "hiring": 0,
-      "market": 100
+      "market": 50
     },
-    "lastUpdated": "2026-09-25"
+    "lastUpdated": "2026-09-30"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 24,
+    "sector": "Housing & Construction",
+    "momentum": 21,
     "trend": "declining",
     "catalysts": [
-      "SpaceX Beating Bull Case- Adding 880,000 chips in four month",
-      "SpaceX INSANE SPEED is more valuable than Rockets",
-      "Anthropic and Nvidia back Basecamp Research in $140M Series"
+      "OpenAI&#8217;s latest features take direct aim at the app st",
+      "Anthropic Says It Discovered a Crispr-Like System. Now What?",
+      "OpenAI expands ChatGPT&#8217;s plug-ins with app-like interf"
+    ],
+    "fundingQ": "$50M",
+    "components": {
+      "funding": 16,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-30"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 20,
+    "trend": "rising",
+    "catalysts": [
+      "The internet is convinced Elon Musk&#8217;s xAI trolled Open",
+      "SpaceX Has More Annual Recurring Revenue than Anthropic",
+      "NASA Adds Blue Origin New Glenn 9&#215;4 to Launch Services"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 80,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-09-30"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "Anthropic Says It Discovered a Crispr-Like System. Now What?",
+      "STAT+: Anthropic joins ARPA-H clinical AI moonshot, will hol",
+      "<a href=\"/biotech/kodiak-roars-back-pivotal-victory-resurrec"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 100
+      "market": 82
     },
-    "lastUpdated": "2026-09-25"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 23,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX INSANE SPEED is more valuable than Rockets",
-      "Australia to investigate if OpenAI hack of government health",
-      "An OpenAI Agent Hacked Australia\u2019s Health Service. Their Gov"
-    ],
-    "fundingQ": "$720M",
-    "components": {
-      "funding": 19,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-25"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 19,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 95
-    },
-    "lastUpdated": "2026-09-25"
+    "lastUpdated": "2026-09-30"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 16,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
-      "Shield AI, Waabi, and General Motors on building AI when fai",
+      "Gecko Robotics works with NVIDIA to add AI agent security an",
       "With Denmark, Saildrone logs first flag registration for nav",
       "Waymo says it has stopped 841 injuries in 271 million autono"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-25"
+    "lastUpdated": "2026-09-30"
   },
   {
-    "sector": "Housing & Construction",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "Active housing & construction ecosystem"
-    ],
-    "fundingQ": "$50M",
-    "components": {
-      "funding": 16,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-25"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "ANYbotics opens the door for inspections with ANYmal robots",
-      "An OpenAI Agent Hacked Australia\u2019s Health Service. Their Gov",
-      "What do you do with a humanoid robot when it breaks down?"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-25"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX INSANE SPEED is more valuable than Rockets",
-      "Europeans in Japan raise $1.2M to put modular humanoid robot"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-09-25"
-  },
-  {
-    "sector": "Supersonic & Hypersonic",
+    "sector": "Chips & Semiconductors",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "ElevenLabs&#8217; CEO on margins, IPO timing, and telling cu"
+      "Here&#8217;s why OpenAI is absent from Nvidia&#8217;s indust",
+      "Anthropic Nearly Doubles Leasing From Spacex to over $2 Bill",
+      "Gecko Robotics works with NVIDIA to add AI agent security an"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 15,
       "hiring": 0,
-      "market": 50
+      "market": 34
     },
-    "lastUpdated": "2026-09-25"
+    "lastUpdated": "2026-09-30"
   },
   {
     "sector": "Ocean & Maritime",
@@ -238,11 +191,43 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-09-25"
+    "lastUpdated": "2026-09-30"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active supersonic & hypersonic ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-30"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active infrastructure & logistics ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-09-30"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 10,
+    "momentum": 9,
     "trend": "declining",
     "catalysts": [
       "With federal funding windfall, X-energy advances small nucle",
@@ -254,13 +239,29 @@
       "funding": 11,
       "news": 20,
       "hiring": 0,
-      "market": 6
+      "market": 0
     },
-    "lastUpdated": "2026-09-25"
+    "lastUpdated": "2026-09-30"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 8,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 39
+    },
+    "lastUpdated": "2026-09-30"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 5,
+    "momentum": 4,
     "trend": "declining",
     "catalysts": [
       "With federal funding windfall, X-energy advances small nucle",
@@ -270,10 +271,10 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
-      "market": 1
+      "market": 0
     },
-    "lastUpdated": "2026-09-25"
+    "lastUpdated": "2026-09-30"
   }
 ]

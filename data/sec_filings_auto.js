@@ -1,6 +1,15 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-25 11:29:03 UTC
+// Last updated: 2026-09-30 04:50:57 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713525.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713603.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713476.xml", isIPO: false, ticker: "OKLO" },
+  { company: "AST SpaceMobile", form: "8-K", date: "2026-09-28", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
+  { company: "Virgin Galactic", form: "4", date: "2026-09-28", description: "xslF345X06/wk-form4_1790625908.xml", isIPO: false, ticker: "SPCE" },
+  { company: "Tempus AI", form: "4", date: "2026-09-28", description: "xslF345X06/wk-form4_1790593517.xml", isIPO: false, ticker: "TEM" },
+  { company: "IonQ", form: "4", date: "2026-09-25", description: "xslF345X06/wk-form4_1790374280.xml", isIPO: false, ticker: "IONQ" },
+  { company: "IonQ", form: "4", date: "2026-09-25", description: "xslF345X06/wk-form4_1790374208.xml", isIPO: false, ticker: "IONQ" },
+  { company: "IonQ", form: "4", date: "2026-09-25", description: "xslF345X06/wk-form4_1790374066.xml", isIPO: false, ticker: "IONQ" },
   { company: "D-Wave Quantum", form: "4", date: "2026-09-24", description: "xslF345X06/wk-form4_1790283736.xml", isIPO: false, ticker: "QBTS" },
   { company: "Archer Aviation", form: "8-K", date: "2026-09-24", description: "achr-20260924.htm", isIPO: false, ticker: "ACHR" },
   { company: "Archer Aviation", form: "4", date: "2026-09-23", description: "xslF345X06/form4-09242026_120929.xml", isIPO: false, ticker: "ACHR" },
@@ -42,13 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418286.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418265.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418247.xml", isIPO: false, ticker: "BKSY" },
-  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418224.xml", isIPO: false, ticker: "BKSY" },
-  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418208.xml", isIPO: false, ticker: "BKSY" },
-  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418192.xml", isIPO: false, ticker: "BKSY" },
-  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418174.xml", isIPO: false, ticker: "BKSY" },
-  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418155.xml", isIPO: false, ticker: "BKSY" },
-  { company: "BlackSky Technology", form: "8-K", date: "2026-09-14", description: "bksy-20260910.htm", isIPO: false, ticker: "BKSY" },
-  { company: "UiPath", form: "4", date: "2026-09-14", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "Oklo", form: "8-K", date: "2026-09-11", description: "tm2625056d1_8k.htm", isIPO: false, ticker: "OKLO" },
-  { company: "Centrus Energy", form: "8-K", date: "2026-09-11", description: "tm2625019d5_8k.htm", isIPO: false, ticker: "LEU" },
 ];

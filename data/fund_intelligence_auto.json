@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-25T15:04:06.745800Z",
+  "generated_at": "2026-09-30T05:05:22.874963Z",
   "platform": {
-    "companiesTracked": 1208,
+    "companiesTracked": 1209,
     "sectorsMonitored": 16,
-    "totalCapitalRaisedTracked": "$409.9B",
-    "totalValuationTracked": "$1070.8B",
-    "companiesWithValuation": 116,
-    "govContractsTracked": 157,
+    "totalCapitalRaisedTracked": "$429.8B",
+    "totalValuationTracked": "$1260.1B",
+    "companiesWithValuation": 119,
+    "govContractsTracked": 163,
     "sbirAwardsTracked": 341,
-    "dealsTracked": 224,
-    "newsItemsTracked": 31,
-    "dataPointsUpdated": "48,320+"
+    "dealsTracked": 230,
+    "newsItemsTracked": 47,
+    "dataPointsUpdated": "48,360+"
   },
   "topFunds": [
     {
@@ -195,6 +195,15 @@
       ]
     },
     {
+      "fund": "BlackRock",
+      "portfolio_count": 3,
+      "companies": [
+        "Genesis Therapeutics",
+        "Project Prometheus",
+        "PsiQuantum"
+      ]
+    },
+    {
       "fund": "Valor Equity",
       "portfolio_count": 2,
       "companies": [
@@ -233,14 +242,6 @@
         "Built Robotics",
         "Firestorm Labs"
       ]
-    },
-    {
-      "fund": "BlackRock",
-      "portfolio_count": 2,
-      "companies": [
-        "Genesis Therapeutics",
-        "PsiQuantum"
-      ]
     }
   ],
   "sectorConcentration": {
@@ -254,7 +255,7 @@
     "Quantum Computing": 52,
     "Drones & Autonomous": 40,
     "Transportation": 27,
-    "AI & Software": 24,
+    "AI & Software": 25,
     "Housing & Construction": 18,
     "Ocean & Maritime": 12,
     "Infrastructure & Logistics": 7,

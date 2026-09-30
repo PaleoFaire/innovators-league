@@ -4706,6 +4706,11 @@
       "thesisCluster": ""
     },
     {
+      "id": "Project Prometheus",
+      "sector": "AI & Software",
+      "thesisCluster": "industrial-ai-manufacturing"
+    },
+    {
       "id": "Western Chemicals",
       "sector": "Climate & Energy",
       "thesisCluster": ""
@@ -10907,6 +10912,18 @@
       "cluster": "industrial-ai-manufacturing"
     },
     {
+      "src": "Augury",
+      "dst": "Project Prometheus",
+      "type": "thesis",
+      "cluster": "industrial-ai-manufacturing"
+    },
+    {
+      "src": "Elementary Robotics",
+      "dst": "Project Prometheus",
+      "type": "thesis",
+      "cluster": "industrial-ai-manufacturing"
+    },
+    {
       "src": "Furno Materials",
       "dst": "Limelight Steel",
       "type": "thesis",
@@ -11284,10 +11301,10 @@
     }
   ],
   "counts": {
-    "total_nodes": 1214,
-    "total_edges": 902,
+    "total_nodes": 1215,
+    "total_edges": 904,
     "competitor_edges": 194,
-    "thesis_edges": 700,
+    "thesis_edges": 702,
     "alumni_edges": 8
   }
 }
