@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 1.07,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -1.56,
       "count": 1
     },
     "space": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -3.12,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 2.44,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -8.53,
+      "avg_change": -6.31,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.93,
+      "avg_change": -6.63,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -7.65,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.07,
       "count": 3
     },
     "quantum": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -1.13,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.74,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 6.17,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 13.14,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -4.0,
+      "avg_change": -4.52,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -1.63,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 0.12,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      12.02
+      20.62
     ],
     [
-      "IONQ",
-      "IonQ",
-      7.78
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      10.14
     ],
     [
       "TEM",
       "Tempus AI",
-      6.98
+      8.65
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      3.33
+      "SATL",
+      "Satellogic",
+      6.72
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      1.32
+      "IONQ",
+      "IonQ",
+      6.07
     ]
   ],
   "topLosers": [
     [
-      "LUNR",
-      "Intuitive Machines",
-      -10.41
-    ],
-    [
-      "ACHR",
-      "Archer Aviation",
-      -11.07
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      -12.71
+      "TSLA",
+      "Tesla",
+      -8.74
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -14.25
+      -9.19
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      -9.74
+    ],
+    [
+      "ACHR",
+      "Archer Aviation",
+      -10.33
     ],
     [
       "AUR",
       "Aurora Innovation",
-      -16.56
+      -14.64
     ]
   ],
-  "lastUpdated": "2026-09-30 06:47:44"
+  "lastUpdated": "2026-09-30 13:49:19"
 }
