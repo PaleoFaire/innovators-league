@@ -146,6 +146,7 @@ OVERRIDES = {
     "E-Space": "Communications & PNT",                  # constellation; "debris" hits Servicing
     "Fulcrum Autonomy": "Defense Software & Intelligence",
     "Covenant": "Missiles & Munitions",                 # cruise missiles; its Navy "maritime" variant hits Maritime Defense
+    "Project Prometheus": "Industrial & Engineering Software",  # physical-economy AI lab; pinned so the Frontier Models rule never grabs it
     # Added 2026-09-25 with the first VC-Portfolio-Watcher batch:
     "Thor Dynamics": "Drones & Counter-UAS",           # laser counter-drone; "Armor"/"ammunition" hit Munitions
     "Efficient Computer": "AI Compute",                # edge AI processor; "sensors" hits Specialty Silicon
