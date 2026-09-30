@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-09-29";
+const LAST_UPDATED = "2026-09-30";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -65352,23 +65352,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-09-29 20:39
+// Last updated: 2026-09-30 00:17
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "OpenAI", headline: "OpenAI's latest features take direct aim at the app store model", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "OpenAI", headline: "OpenAI repotedly in talks to raise $30B round at $1.4T valuation", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI Gets Sued Over the Hugging Face Hack", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Anthropic", headline: "Oura Hits Pause On IPO While Anthropic's Prospectus Reveals The Cost Of Its AI Ambitions", source: "Crunchbase News", time: "1h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "OpenAI", headline: "Here's why OpenAI is absent from Nvidia's industry-wide effort to end rogue AI agents", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "Anthropic Says It Discovered a Crispr-Like System. Now What?", source: "Wired", time: "2h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "Anthropic Nearly Doubles Leasing From Spacex to over $2 Billion Per Month", source: "Next Big Future", time: "2h ago", impact: "high", unread: false },
-  { id: 8, type: "milestone", company: "OpenAI", headline: "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT's own office suite", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Terran Orbital", headline: "Terran Orbital Names Jamin Brown Chief Operating Officer", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "OpenAI", headline: "OpenAI launches Dots, its bubbly agentic avatar", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI gives Codex reusable cloud environments that work across devices", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "OpenAI", headline: "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
-  { id: 13, type: "news", company: "OpenAI", headline: "OpenAI expands ChatGPT's plugins with app-like interfaces and automations", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "OpenAI's Dots Are Always-On AI Agents'and Its Answer to Meta's Muse", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "Tesla (TSLA) wins SEC OK to auto-vote retail shares with board ahead of SpaceX merger", source: "Electrek", time: "3h ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "OpenAI", headline: "The internet is convinced Elon Musk's xAI trolled OpenAI's 'Dots' launch", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX Has More Annual Recurring Revenue than Anthropic", source: "Next Big Future", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "OpenAI", headline: "OpenAI's latest features take direct aim at the app store model", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "contract", company: "Blue Origin", headline: "NASA Adds Blue Origin New Glenn 9&#215;4 to Launch Services Contract", source: "NASA Breaking News", time: "4h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "OpenAI", headline: "OpenAI reportedly in talks to raise $30B round at $1.4T valuation", source: "TechCrunch", time: "4h ago", impact: "high", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI Gets Sued Over the Hugging Face Hack", source: "Wired", time: "5h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Anthropic", headline: "Oura Hits Pause On IPO While Anthropic's Prospectus Reveals The Cost Of Its AI Ambitions", source: "Crunchbase News", time: "5h ago", impact: "high", unread: false },
+  { id: 8, type: "ipo", company: "OpenAI", headline: "Here's why OpenAI is absent from Nvidia's industry-wide effort to end rogue AI agents", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "Anthropic Says It Discovered a Crispr-Like System. Now What?", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "Anthropic Nearly Doubles Leasing From Spacex to over $2 Billion Per Month", source: "Next Big Future", time: "6h ago", impact: "high", unread: false },
+  { id: 11, type: "milestone", company: "OpenAI", headline: "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT's own office suite", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Terran Orbital", headline: "Terran Orbital Names Jamin Brown Chief Operating Officer", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
+  { id: 13, type: "milestone", company: "OpenAI", headline: "OpenAI launches Dots, its bubbly agentic avatar", source: "TechCrunch", time: "7h ago", impact: "medium", unread: false },
+  { id: 14, type: "news", company: "OpenAI", headline: "OpenAI gives Codex reusable cloud environments that work across devices", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "OpenAI", headline: "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less", source: "TechCrunch", time: "7h ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

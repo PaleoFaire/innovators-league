@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-29T20:39:26.658843+00:00",
-  "date": "2026-09-29",
-  "dateDisplay": "Tuesday, September 29, 2026",
+  "generatedAt": "2026-09-30T00:17:39.075641+00:00",
+  "date": "2026-09-30",
+  "dateDisplay": "Wednesday, September 30, 2026",
   "sections": {
     "govActivity": [
       {
@@ -72,58 +72,58 @@
       {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 5.21,
-        "changePercent": -19.43,
-        "change": -1.25
-      },
-      {
-        "ticker": "ONT.L",
-        "company": "Oxford Nanopore Technologies",
-        "price": 198.4,
-        "changePercent": 11.46,
-        "change": 20.4
-      },
-      {
-        "ticker": "SMR",
-        "company": "NuScale Power",
-        "price": 7.99,
-        "changePercent": -10.12,
-        "change": -0.9
+        "price": 5.39,
+        "changePercent": -16.56,
+        "change": -1.07
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 0.67,
-        "changePercent": -9.15,
-        "change": -0.07
+        "price": 0.63,
+        "changePercent": -14.25,
+        "change": -0.11
       },
       {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 84.22,
-        "changePercent": 9.11,
-        "change": 7.03
+        "ticker": "SMR",
+        "company": "NuScale Power",
+        "price": 7.76,
+        "changePercent": -12.71,
+        "change": -1.13
+      },
+      {
+        "ticker": "ONT.L",
+        "company": "Oxford Nanopore Technologies",
+        "price": 199.4,
+        "changePercent": 12.02,
+        "change": 21.4
+      },
+      {
+        "ticker": "ACHR",
+        "company": "Archer Aviation",
+        "price": 5.06,
+        "changePercent": -11.07,
+        "change": -0.63
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 14.55,
+        "changePercent": -10.41,
+        "change": -1.69
+      },
+      {
+        "ticker": "QS",
+        "company": "QuantumScape",
+        "price": 4.59,
+        "changePercent": -9.11,
+        "change": -0.46
       },
       {
         "ticker": "SLDP",
         "company": "Solid Power",
         "price": 2.27,
-        "changePercent": -9.04,
-        "change": -0.23
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 44.34,
-        "changePercent": 8.84,
-        "change": 3.6
-      },
-      {
-        "ticker": "ACHR",
-        "company": "Archer Aviation",
-        "price": 5.19,
-        "changePercent": -8.79,
-        "change": -0.5
+        "changePercent": -8.84,
+        "change": -0.22
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "AUR -19.4%"
+    "topMover": "AUR -16.6%"
   }
 }
