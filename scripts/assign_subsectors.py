@@ -180,6 +180,9 @@ OVERRIDES = {
     "Lumen Energy": "Solar",                            # rooftop solar broker; "battery" hits Batteries
     "Safire": "Batteries & Storage",                    # battery-fire additive; "materials" hits Critical Minerals
     "Atropos": "Drones & Counter-UAS",                  # autonomous cargo aircraft; "software" hits Defense Software
+    "Duranium": "Critical Minerals & Mining",           # Mg/Ti/Hf/Zr metal production; "molten-salt" hits Fuels
+    "Magrathea Metals": "Critical Minerals & Mining",   # magnesium from seawater; "electrolysis" hits Fuels & Hydrogen
+    "HLabs": "General",                                 # robot parts supplier; "humanoids" (its customers) hits Humanoids
     # Added 2026-09-25 with the first VC-Portfolio-Watcher batch:
     "Thor Dynamics": "Drones & Counter-UAS",           # laser counter-drone; "Armor"/"ammunition" hit Munitions
     "Efficient Computer": "AI Compute",                # edge AI processor; "sensors" hits Specialty Silicon
