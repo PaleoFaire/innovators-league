@@ -1106,6 +1106,11 @@ def update_vc_portfolios(data_js_content):
         company = deal.get("company", "")
         if not investor or not company:
             continue
+        # Same provenance rule as update_company_funding(): legacy deal rows
+        # with no source headline put Rebellions, NuScale, Astroscale and
+        # D-Wave into Founders Fund's portfolio (none were FF investments).
+        if not deal.get("headline"):
+            continue
         if company in PORTFOLIO_BLOCKLIST:
             continue
         vc_short = INVESTOR_TO_VC.get(investor)
