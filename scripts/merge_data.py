@@ -932,7 +932,13 @@ def update_company_funding(data_js_content):
         print("No deals data found, skipping company funding updates...")
         return data_js_content
 
-    # Group deals by company, keep most recent
+    # Group deals by company, keep most recent. Only deals that carry their
+    # source headline may touch a company record: those passed the strict
+    # headline-subject matcher (Oct 2026). Legacy rows without provenance
+    # still display in DEAL_TRACKER but no longer rewrite curated stages; on
+    # 1 Oct 2026 they pushed Nuro and Earth AI to "Series G" and Vatn to
+    # "Series D" in a single run.
+    deals = [d for d in deals if d.get("headline")]
     latest_deals = {}
     for deal in deals:
         company = deal.get("company", "")
