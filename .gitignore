@@ -35,3 +35,6 @@ data/.company_facts_url_cache.json
 # Exit Watch: local accession cache, regenerated on demand
 data/.exit_watch_cache.json
 data/.exit_watch_history.json
+
+# Private, never published (GitHub Pages serves this repo): his own portfolio/visit/coverage relationships
+data/private/

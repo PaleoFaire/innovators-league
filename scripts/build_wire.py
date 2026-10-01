@@ -27,7 +27,7 @@ Relationship to build_action_brief.py
 Same collectors, same joins, imported directly — one engine, two renderings.
 The difference is deliberate and must stay: the Action Brief is Stephen's
 private morning briefing and weights events by HIS relationships (portfolio,
-visited, covered) from data/relationships.json. The Wire is member-facing, so
+visited, covered) from data/private/relationships.json (gitignored). The Wire is member-facing, so
 none of that may leak here: no tiers, no "you visited them", no beats. Events
 rank on public merits only — kind, size, recency.
 

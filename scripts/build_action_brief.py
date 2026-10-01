@@ -27,7 +27,7 @@ So this does three things a dashboard cannot:
                    news. The same round at a company whose factory Stephen
                    walked through in July is a phone call he should make today.
                    That distinction cannot be derived from the data — it comes
-                   from data/relationships.json.
+                   from data/private/relationships.json (gitignored).
   3. ROUTES TO A USE. Every item is tagged with where it goes: the fund, a
                    RiskHedge or ROS piece, or a podcast booking. An item that
                    routes nowhere is noise by definition and is dropped.
@@ -176,7 +176,9 @@ def companies_from_data_js() -> dict:
 class Relationships:
     def __init__(self, il30: set):
         try:
-            r = json.loads((DATA / "relationships.json").read_text())
+            # Private: lives in the gitignored data/private/ so it never reaches the
+            # public repo or GitHub Pages (taken off the site 1 Oct 2026).
+            r = json.loads((DATA / "private" / "relationships.json").read_text())
         except Exception:
             r = {}
         self.tier = {}
