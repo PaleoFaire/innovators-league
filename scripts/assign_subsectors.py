@@ -191,6 +191,19 @@ OVERRIDES = {
     "General Biological": "Biomanufacturing & Tools",   # industrial chemicals by fermentation; "agricultural feedstocks" hits Ag
     "Gambit": "Defense Software & Intelligence",        # multi-vehicle autonomy software; "drones" hits Counter-UAS
     "Lightcell": "General",                             # sodium-light generator; "hydrogen" hits Fuels & Hydrogen
+    "VEIR": "Grid & Power Delivery",                    # superconducting power delivery; "nitrogen" hits Critical Minerals
+    "Until": "General",                                 # organ cryopreservation; "magnetic" hits Neurotech
+    "Windborne": "General",                             # weather-balloon constellation; "battery" hits Batteries
+    "Lumaril": "Industrial Automation",                 # AI control layer for plants
+    "Tempo": "Industrial Heat & Efficiency",            # thermochemical heat batteries for industrial heat
+    "Loyal": "Longevity",                               # dog lifespan drugs; "drug" hits Drug Discovery
+    "Shift5": "Defense Software & Intelligence",        # fleet OT data/cyber platform; "RF" hits EW & Sensing
+    "Texture Energy": "Grid & Power Delivery",          # grid operations software; "batteries" hits Batteries
+    "Nuview": "Earth Observation",                      # lidar mapping constellation; "planet" hits Deep Space
+    "Swarmbotics AI": "General",                        # ground-robot swarms (no UGV shelf); "counter-drone" payload hits UAS
+    "AtmoCooling": "General",                           # field-scale evaporative cooling; "sun" hits Solar
+    "Voltra": "Grid & Power Delivery",                  # site-energy control software; "batteries" hits Batteries
+    "Wetstone": "Critical Minerals & Mining",           # offshore critical-minerals exploration
     # Added 2026-09-25 with the first VC-Portfolio-Watcher batch:
     "Thor Dynamics": "Drones & Counter-UAS",           # laser counter-drone; "Armor"/"ammunition" hit Munitions
     "Efficient Computer": "AI Compute",                # edge AI processor; "sensors" hits Specialty Silicon
