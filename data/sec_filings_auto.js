@@ -1,8 +1,8 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-09-30 12:11:16 UTC
+// Last updated: 2026-10-01 06:44:21 UTC
 const SEC_FILINGS_LIVE = [
-  { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713525.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713603.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713525.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713476.xml", isIPO: false, ticker: "OKLO" },
   { company: "AST SpaceMobile", form: "8-K", date: "2026-09-28", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
   { company: "Virgin Galactic", form: "4", date: "2026-09-28", description: "xslF345X06/wk-form4_1790625908.xml", isIPO: false, ticker: "SPCE" },

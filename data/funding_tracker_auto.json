@@ -29,12 +29,12 @@
   },
   {
     "company": "The Boring Company",
-    "totalRaised": "$3B",
-    "totalRaisedRaw": 3000.0,
+    "totalRaised": "$3.9B+",
+    "totalRaisedRaw": 3900.0,
     "lastRound": "Funding Round",
     "lastRoundAmount": "$3B",
     "lastRoundDate": "2026-09",
-    "valuation": "$5.7B",
+    "valuation": "",
     "leadInvestors": [
       "Undisclosed"
     ],
@@ -885,6 +885,19 @@
     "valuation": "",
     "leadInvestors": [
       "Khosla Ventures"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Mazama",
+    "totalRaised": "$135M",
+    "totalRaisedRaw": 135.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$135M",
+    "lastRoundDate": "2026-09",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   },

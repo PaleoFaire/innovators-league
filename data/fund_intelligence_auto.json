@@ -1,101 +1,69 @@
 {
-  "generated_at": "2026-09-30T12:27:17.892426Z",
+  "generated_at": "2026-10-01T06:58:35.219462Z",
   "platform": {
-    "companiesTracked": 1210,
+    "companiesTracked": 1254,
     "sectorsMonitored": 16,
-    "totalCapitalRaisedTracked": "$430.4B",
-    "totalValuationTracked": "$1266.1B",
-    "companiesWithValuation": 120,
-    "govContractsTracked": 163,
+    "totalCapitalRaisedTracked": "$433.2B",
+    "totalValuationTracked": "$1285.4B",
+    "companiesWithValuation": 121,
+    "govContractsTracked": 169,
     "sbirAwardsTracked": 341,
-    "dealsTracked": 231,
-    "newsItemsTracked": 48,
-    "dataPointsUpdated": "48,400+"
+    "dealsTracked": 137,
+    "newsItemsTracked": 39,
+    "dataPointsUpdated": "50,160+"
   },
   "topFunds": [
     {
       "fund": "NVIDIA",
-      "portfolio_count": 21,
+      "portfolio_count": 20,
       "companies": [
         "Ayar Labs",
         "Crusoe Energy",
-        "Emerald AI",
         "Etched",
         "Figure AI",
         "Foxglove",
         "Freeform",
         "Genesis Therapeutics",
         "Humanoid",
-        "Iambic Therapeutics"
+        "Iambic Therapeutics",
+        "Multiply Labs"
+      ]
+    },
+    {
+      "fund": "a16z",
+      "portfolio_count": 18,
+      "companies": [
+        "Amca",
+        "Atoms",
+        "CX2 Industries",
+        "Chariot Defense",
+        "Endeavor Optical Networks",
+        "Galadyne",
+        "Genesis Therapeutics",
+        "Mara",
+        "Periodic Labs",
+        "Podium Automation"
       ]
     },
     {
       "fund": "Founders Fund",
-      "portfolio_count": 14,
+      "portfolio_count": 13,
       "companies": [
         "Amca",
         "American Terawatt",
         "Crusoe Energy",
+        "Freeform",
         "General Matter",
         "Nominal",
         "Onodrim Industries",
-        "Senra Systems",
         "Shinkei",
         "Strata Robotics",
         "Until"
       ]
     },
     {
-      "fund": "a16z",
-      "portfolio_count": 12,
-      "companies": [
-        "Amca",
-        "Atoms",
-        "CX2 Industries",
-        "Galadyne",
-        "Genesis Therapeutics",
-        "Mara",
-        "Periodic Labs",
-        "Senra Systems",
-        "Thatch",
-        "Ulysses Robotics"
-      ]
-    },
-    {
-      "fund": "Lux Capital",
-      "portfolio_count": 10,
-      "companies": [
-        "Cognichip",
-        "Deep Sentinel",
-        "Echodyne",
-        "Epsilon3",
-        "Looking Glass",
-        "Lumaril",
-        "Performance Drone Works",
-        "Resurgent Industries",
-        "Terra Industries",
-        "Traysar"
-      ]
-    },
-    {
-      "fund": "Khosla Ventures",
-      "portfolio_count": 10,
-      "companies": [
-        "Caelux",
-        "Foundry Robotics",
-        "General Intuition",
-        "Nomagic",
-        "Sagence",
-        "Singularity",
-        "Skapion",
-        "Spiritus",
-        "Varda Space Industries",
-        "Windborne"
-      ]
-    },
-    {
       "fund": "General Catalyst",
-      "portfolio_count": 9,
+      "portfolio_count": 10,
       "companies": [
         "Alsym Energy",
         "Collaborative Robotics",
@@ -103,23 +71,24 @@
         "General Intuition",
         "Onodrim Industries",
         "Pacific Fusion",
+        "Raphe mPhibr",
         "Thatch",
         "Valinor Enterprises",
         "Vital Lyfe"
       ]
     },
     {
-      "fund": "Breakthrough Energy",
+      "fund": "Khosla Ventures",
       "portfolio_count": 8,
       "companies": [
-        "Dioxycle",
-        "H2Pro",
-        "LuxWall",
-        "Mission Zero Technologies",
-        "Pacific Fusion",
-        "Planted Solar",
-        "Sygaldry Technologies",
-        "Tempo"
+        "Foundry Robotics",
+        "General Intuition",
+        "Limelight Steel",
+        "Nitricity",
+        "Nomagic",
+        "Singularity",
+        "Skapion",
+        "Varda Space Industries"
       ]
     },
     {
@@ -158,24 +127,45 @@
       ]
     },
     {
-      "fund": "8VC",
+      "fund": "Lux Capital",
       "portfolio_count": 5,
       "companies": [
-        "Cambium",
+        "Lumaril",
+        "Oligo Space",
+        "Resurgent Industries",
+        "Terra Industries",
+        "Traysar"
+      ]
+    },
+    {
+      "fund": "Breakthrough Energy",
+      "portfolio_count": 5,
+      "companies": [
+        "Dioxycle",
+        "H2Pro",
+        "Mission Zero Technologies",
+        "Pacific Fusion",
+        "Sygaldry Technologies"
+      ]
+    },
+    {
+      "fund": "Lightspeed",
+      "portfolio_count": 4,
+      "companies": [
+        "Alif Semiconductor",
+        "Castelion",
+        "Telesat Lightspeed",
+        "Unconventional AI"
+      ]
+    },
+    {
+      "fund": "8VC",
+      "portfolio_count": 4,
+      "companies": [
         "Gallatin AI",
         "Generalist AI",
         "Stark Defence",
         "Terra Industries"
-      ]
-    },
-    {
-      "fund": "Sequoia Capital",
-      "portfolio_count": 4,
-      "companies": [
-        "JITX",
-        "Keen Technologies",
-        "Nuvacore",
-        "Sunflower Labs"
       ]
     },
     {
@@ -185,32 +175,6 @@
         "Cowboy Space Corporation",
         "Enigma",
         "Thatch"
-      ]
-    },
-    {
-      "fund": "Lightspeed",
-      "portfolio_count": 3,
-      "companies": [
-        "Alif Semiconductor",
-        "Castelion",
-        "Telesat Lightspeed"
-      ]
-    },
-    {
-      "fund": "BlackRock",
-      "portfolio_count": 3,
-      "companies": [
-        "Genesis Therapeutics",
-        "Project Prometheus",
-        "PsiQuantum"
-      ]
-    },
-    {
-      "fund": "Valor Equity",
-      "portfolio_count": 2,
-      "companies": [
-        "Magrathea Metals",
-        "Uplift"
       ]
     },
     {
@@ -244,22 +208,46 @@
         "Built Robotics",
         "Firestorm Labs"
       ]
+    },
+    {
+      "fund": "BlackRock",
+      "portfolio_count": 2,
+      "companies": [
+        "Genesis Therapeutics",
+        "PsiQuantum"
+      ]
+    },
+    {
+      "fund": "SoftBank",
+      "portfolio_count": 2,
+      "companies": [
+        "Agile Robots",
+        "Wayve"
+      ]
+    },
+    {
+      "fund": "Benchmark",
+      "portfolio_count": 2,
+      "companies": [
+        "Kipu Quantum",
+        "Starcloud"
+      ]
     }
   ],
   "sectorConcentration": {
-    "Robotics & Manufacturing": 203,
-    "Space & Aerospace": 199,
-    "Defense & Security": 195,
-    "Climate & Energy": 186,
-    "Chips & Semiconductors": 85,
-    "Biotech & Health": 84,
-    "Nuclear Energy": 67,
+    "Robotics & Manufacturing": 209,
+    "Space & Aerospace": 209,
+    "Defense & Security": 201,
+    "Climate & Energy": 192,
+    "Biotech & Health": 89,
+    "Chips & Semiconductors": 88,
+    "Nuclear Energy": 69,
     "Quantum Computing": 52,
-    "Drones & Autonomous": 40,
+    "Drones & Autonomous": 47,
     "Transportation": 27,
-    "AI & Software": 26,
+    "AI & Software": 23,
     "Housing & Construction": 18,
-    "Ocean & Maritime": 12,
+    "Ocean & Maritime": 14,
     "Infrastructure & Logistics": 7,
     "Consumer Tech": 5
   }

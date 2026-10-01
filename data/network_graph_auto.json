@@ -742,7 +742,7 @@
     },
     {
       "id": "Physical Intelligence",
-      "sector": "AI & Software",
+      "sector": "Robotics & Manufacturing",
       "thesisCluster": "ai-robotics-embodied"
     },
     {
@@ -757,17 +757,17 @@
     },
     {
       "id": "Figure AI",
-      "sector": "AI & Software",
+      "sector": "Robotics & Manufacturing",
       "thesisCluster": "humanoid-robotics"
     },
     {
       "id": "Neuralink",
-      "sector": "AI & Software",
+      "sector": "Biotech & Health",
       "thesisCluster": "brain-computer-interface"
     },
     {
       "id": "Field AI",
-      "sector": "AI & Software",
+      "sector": "Robotics & Manufacturing",
       "thesisCluster": "ai-robotics-embodied"
     },
     {
@@ -1472,7 +1472,7 @@
     },
     {
       "id": "Skild AI",
-      "sector": "AI & Software",
+      "sector": "Robotics & Manufacturing",
       "thesisCluster": "ai-robotics-embodied"
     },
     {
@@ -1657,7 +1657,7 @@
     },
     {
       "id": "Wardstone",
-      "sector": "Space & Aerospace",
+      "sector": "Defense & Security",
       "thesisCluster": "logistics-supply-chain"
     },
     {
@@ -2377,7 +2377,7 @@
     },
     {
       "id": "General Galactic",
-      "sector": "Climate & Energy",
+      "sector": "Space & Aerospace",
       "thesisCluster": "synfuels-solar"
     },
     {
@@ -4446,7 +4446,7 @@
       "thesisCluster": ""
     },
     {
-      "id": "Arena AI",
+      "id": "Arena Physica",
       "sector": "Defense & Security",
       "thesisCluster": ""
     },
@@ -5132,7 +5132,7 @@
     },
     {
       "id": "Pivot Bio",
-      "sector": "Robotics & Manufacturing",
+      "sector": "Biotech & Health",
       "thesisCluster": ""
     },
     {
@@ -5262,7 +5262,7 @@
     },
     {
       "id": "Nitricity",
-      "sector": "Robotics & Manufacturing",
+      "sector": "Biotech & Health",
       "thesisCluster": ""
     },
     {
@@ -5417,7 +5417,7 @@
     },
     {
       "id": "TerraDepth",
-      "sector": "Transportation",
+      "sector": "Ocean & Maritime",
       "thesisCluster": ""
     },
     {
@@ -5752,7 +5752,7 @@
     },
     {
       "id": "Hextronics",
-      "sector": "Space & Aerospace",
+      "sector": "Drones & Autonomous",
       "thesisCluster": ""
     },
     {
@@ -6051,6 +6051,226 @@
       "thesisCluster": ""
     },
     {
+      "id": "Avnos",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Ornadyne",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Frontier Aerospace",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Splash Industries",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Pacific Light & Hologram",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Framework Automation",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Stone Power",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Syntiant",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Airhart Aeronautics",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "ExLabs",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Odys Aviation",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "CarbonBuilt",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Rollup",
+      "sector": "AI & Software",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Apeel",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "DeepWater Exploration",
+      "sector": "Ocean & Maritime",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Clairity Technology",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Helicity Space",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Illuminant Surgical",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Fenix Space",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Moleaer",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Thermopylae Aerospace",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Menlo Micro",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "TRL11",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Mayman Aerospace",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Equatic",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Launchpad",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Matter Intelligence",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Roboze",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Soaring",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "SysGit",
+      "sector": "AI & Software",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Kyte Dynamics",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "TransAstra",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "PteroDynamics",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "inVia Robotics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Oligo Space",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Brelle",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "SpinLaunch",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Titan Dynamics",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Forge Atomics",
+      "sector": "Nuclear Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Space Kinetic",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Cislune",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "AIBOT",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Nooks",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Bluecore Energy",
+      "sector": "Nuclear Energy",
+      "thesisCluster": ""
+    },
+    {
       "id": "SpaceX-alumni-hub",
       "sector": "alumni",
       "thesisCluster": ""
@@ -6190,6 +6410,11 @@
     {
       "src": "Cuby Technologies",
       "dst": "Reframe Systems",
+      "type": "competitor"
+    },
+    {
+      "src": "Efficient Computer",
+      "dst": "Syntiant",
       "type": "competitor"
     },
     {
@@ -6900,6 +7125,11 @@
     {
       "src": "Hailo",
       "dst": "Mythic",
+      "type": "competitor"
+    },
+    {
+      "src": "Mythic",
+      "dst": "Syntiant",
       "type": "competitor"
     },
     {
@@ -11306,9 +11536,9 @@
     }
   ],
   "counts": {
-    "total_nodes": 1216,
-    "total_edges": 904,
-    "competitor_edges": 194,
+    "total_nodes": 1260,
+    "total_edges": 906,
+    "competitor_edges": 196,
     "thesis_edges": 702,
     "alumni_edges": 8
   }
