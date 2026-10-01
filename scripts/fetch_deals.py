@@ -356,7 +356,7 @@ def parse_round_type(text):
 # Funding verbs: the company a headline is ABOUT is named before the first one.
 _FUNDING_VERB = re.compile(
     r"\b(?:raises?|raised|raising|secures?|secured|lands?|landed|closes?|closed|bags?|bagged"
-    r"|nabs?|nabbed|gets?|scores?|snags?|grabs?|attracts?|receives?|picks up|hauls? in"
+    r"|nabs?|nabbed|nets?|netted|pockets?|banks?|gets?|scores?|snags?|grabs?|attracts?|receives?|picks up|hauls? in"
     r"|announces?|completes?|wins?|draws?|pulls in|rakes in)\b", re.I)
 # A name in these positions is context, not the subject: "ex-Palantir founders
 # raise $22M", "Palantir-backed X raises", "a rival to Anduril raises".
@@ -459,6 +459,11 @@ def extract_deal_from_article(article):
     desc = article.get("description", "")
     full_text = f"{title} {desc}"
 
+    # The headline itself must be a funding story. "Is Neko Health's body scan
+    # worth it?" and "Peak XV ups Surge seed ceiling to $5M" mention money in
+    # the summary but announce no round by the company named.
+    if not _FUNDING_VERB.search(title):
+        return None
     company = match_company(title)
     if not company:
         return None
