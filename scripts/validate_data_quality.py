@@ -282,13 +282,14 @@ def main():
     # first BILLIONS figure anywhere in an article — usually the market size —
     # over the actual round. 139 of 346 deals were denominated in billions.
     #
-    # A private round in this database above $5B does not exist; between $2B
-    # and $5B it is rare enough to be worth a human look every time. Warn low,
-    # fail high, so the same silent drift cannot recur.
+    # Fail above $10B, warn from $2B. The ceiling was $5B until Anduril's real
+    # $5B Series H (May 2026); since 1 Oct 2026 DEAL_TRACKER holds only rounds
+    # with a source (verified or strict-feed headline), so a $2B-$10B round is
+    # rare enough for a human look but no longer presumed a misparse.
     fund_blk = block(d, "FUNDING_TRACKER")
     for m in re.finditer(r'(?:lastRoundAmount|amount):\s*"\$([\d.]+)B"', fund_blk):
         amt = float(m.group(1))
-        if amt >= 5:
+        if amt > 10:
             errors.append(f"FUNDING_TRACKER: implausible round amount ${amt}B "
                           f"— check for a market size or valuation misparse")
         elif amt >= 2:
