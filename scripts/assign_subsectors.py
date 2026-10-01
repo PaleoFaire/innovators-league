@@ -148,6 +148,23 @@ OVERRIDES = {
     "Covenant": "Missiles & Munitions",                 # cruise missiles; its Navy "maritime" variant hits Maritime Defense
     "Project Prometheus": "Industrial & Engineering Software",  # physical-economy AI lab; pinned so the Frontier Models rule never grabs it
     "VVater": "Water",                                  # electroporation water treatment; "cooling"/"industrial" hit Industrial Heat first
+    # SoCal Hard Tech Landscape adds (1 Oct 2026), hand-shelved where the text rules misfire:
+    "Frontier Aerospace": "Satellites & Buses",
+    "Framework Automation": "Advanced Manufacturing",
+    "Stone Power": "Grid & Power Delivery",
+    "CarbonBuilt": "Carbon Capture & Removal",
+    "Illuminant Surgical": "Devices & Diagnostics",
+    "Moleaer": "Water",
+    "Thermopylae Aerospace": "Drones & Counter-UAS",
+    "Menlo Micro": "Sensors & Specialty Silicon",
+    "Pacific Light & Hologram": "Photonics & Interconnect",
+    "Equatic": "Carbon Capture & Removal",
+    "Brelle": "Batteries & Storage",
+    "SpinLaunch": "Communications & PNT",
+    "Space Kinetic": "Space Logistics & Servicing",
+    "Fenix Space": "Launch",
+    "Mayman Aerospace": "Cargo & Delivery Drones",
+    "Titan Dynamics": "Drones & Counter-UAS",
     # Added 2026-09-25 with the first VC-Portfolio-Watcher batch:
     "Thor Dynamics": "Drones & Counter-UAS",           # laser counter-drone; "Armor"/"ammunition" hit Munitions
     "Efficient Computer": "AI Compute",                # edge AI processor; "sensors" hits Specialty Silicon
