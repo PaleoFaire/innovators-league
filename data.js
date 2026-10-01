@@ -44451,9 +44451,9 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     lng: -97.7431,
     state: "TX",
     website: "https://alpha.school/",
-    fundingStage: "Series A",
+    fundingStage: "Private",
     techApproach: "Personalized AI tutoring covering full K-12 academic core in 2 hours/day; remaining time devoted to project-based learning of practical skills.",
-    investors: ["2 Hour Learning Foundation", "ROS Innovators League"],
+    investors: ["Joe Liemandt"],
     tags: ["education", "ai-native", "il30"],
     source: "User-restored 2026-05-21",
     addedDate: "2026-05-21"
@@ -64149,6 +64149,7 @@ const INNOVATOR_50_META = {
 // for human readers and do not affect downstream behaviour.
 const INNOVATORS_LEAGUE_30 = [
   "Airship Industries",
+  "Alpha School",
   "American Housing Corporation",
   "Andrenam",
   "Antares",
@@ -64172,7 +64173,6 @@ const INNOVATORS_LEAGUE_30 = [
   "Senra Systems",
   "Standard Electron",
   "Terraform Industries",
-  "The Boring Company",
   "Ulysses Robotics",
   "Valar Atomics",
   "Varda Space Industries",
