@@ -544,7 +544,6 @@ const MASTER_COMPANY_LIST = [
   { name: "HLabs", aliases: ["H Labs", "robotic actuators", "electric actuators"], sector: "robotics", ticker: null },
   { name: "RISE Robotics", aliases: ["RISERobotics", "Beltdraulic", "Blake Sessions", "hydraulic replacement"], sector: "robotics", ticker: null },
   { name: "Artimus Robotics", aliases: ["ArtimusRobotics", "HASEL actuators", "electrohydraulic actuators", "soft robotics actuators"], sector: "robotics", ticker: null },
-  { name: "Corvex Systems", aliases: ["CorvexSystems", "Corvex Robotics", "robotic systems integration"], sector: "robotics", ticker: null },
 
   // Forming & Casting
   { name: "Foundry Lab", aliases: ["FoundryLab", "rapid casting", "digital casting"], sector: "manufacturing", ticker: null },

@@ -177,14 +177,11 @@ OVERRIDES = {
     "Merge Labs": "Neurotech",                          # BCI; "molecules" hits Agriculture & Food Bio
     "Equilibrium Energy": "Grid & Power Delivery",      # power-market trading; "battery" hits Batteries
     "Rivan": "Fuels & Hydrogen",                        # e-methane; "gas grid" hits Grid
-    "Lumen Energy": "Solar",                            # rooftop solar broker; "battery" hits Batteries
     "Safire": "Batteries & Storage",                    # battery-fire additive; "materials" hits Critical Minerals
-    "Atropos": "Drones & Counter-UAS",                  # autonomous cargo aircraft; "software" hits Defense Software
     "Duranium": "Critical Minerals & Mining",           # Mg/Ti/Hf/Zr metal production; "molten-salt" hits Fuels
     "Magrathea Metals": "Critical Minerals & Mining",   # magnesium from seawater; "electrolysis" hits Fuels & Hydrogen
     "HLabs": "General",                                 # robot parts supplier; "humanoids" (its customers) hits Humanoids
     "Chariot Defense": "General",                       # hybrid battery/generator power for troops; "drones" hits Counter-UAS
-    "Looking Glass": "General",                         # holographic displays; "manufacturing" hits Fabs & Equipment
     "Westmag": "General",                               # BLDC motors for drones/robots; "humanoid" (customers) hits Humanoids
     "Cognitive Space": "Earth Observation",             # imaging-collection planning software; "satellite" hits Buses
     "ElectroFlow Technologies": "Batteries & Storage",  # sells LFP cathode; "lithium brine" hits Critical Minerals
@@ -201,7 +198,6 @@ OVERRIDES = {
     "Texture Energy": "Grid & Power Delivery",          # grid operations software; "batteries" hits Batteries
     "Nuview": "Earth Observation",                      # lidar mapping constellation; "planet" hits Deep Space
     "Swarmbotics AI": "General",                        # ground-robot swarms (no UGV shelf); "counter-drone" payload hits UAS
-    "AtmoCooling": "General",                           # field-scale evaporative cooling; "sun" hits Solar
     "Voltra": "Grid & Power Delivery",                  # site-energy control software; "batteries" hits Batteries
     "Wetstone": "Critical Minerals & Mining",           # offshore critical-minerals exploration
     # Added 2026-09-25 with the first VC-Portfolio-Watcher batch:

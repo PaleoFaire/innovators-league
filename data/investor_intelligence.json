@@ -2012,9 +2012,7 @@
       },
       "ecosystem-restoration": {
         "count": 1,
-        "companies": [
-          "Dendra Systems"
-        ]
+        "companies": []
       },
       "synthetic-biology": {
         "count": 1,
@@ -5266,11 +5264,6 @@
           "addedDate": "2026-06"
         },
         {
-          "company": "Dendra Systems",
-          "cluster": "ecosystem-restoration",
-          "addedDate": "2026-04"
-        },
-        {
           "company": "Epoch Biodesign",
           "cluster": "synthetic-biology",
           "addedDate": "2026-04"
@@ -5963,7 +5956,7 @@
       {
         "company": "Onodrim Industries",
         "cluster": null,
-        "founder": "Aistis \u0160imaitis, Alexander Blessing, Christian Garrett"
+        "founder": "Aistis Šimaitis, Alexander Blessing, Christian Garrett"
       }
     ],
     "Stanford": [
@@ -6132,7 +6125,7 @@
       {
         "company": "Itera",
         "cluster": null,
-        "founder": "AJ Cooper (CEO, PhD EE UVA, ex-Uber Jump/Lyft hardware), Mattis Fj\u00e4llstr\u00f6m (ex-Verkada), Alex Withrow (ex-Bridgewater/VMware)"
+        "founder": "AJ Cooper (CEO, PhD EE UVA, ex-Uber Jump/Lyft hardware), Mattis Fjällström (ex-Verkada), Alex Withrow (ex-Bridgewater/VMware)"
       }
     ]
   },

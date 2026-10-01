@@ -66,68 +66,6 @@
       ]
     },
     {
-      "company": "Flamefront Propulsion",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://flamefrontpropulsion.com",
-          "result": "http 404"
-        },
-        {
-          "url": "https://flamefrontpropulsion.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://flamefrontpropulsion.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://flamefrontpropulsion.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://flamefrontpropulsion.tech",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://flamefrontpropulsion.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://flamefrontpropulsion.energy",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://flamefrontpropulsion.xyz",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://flamefrontpropulsion.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://flamefront.com",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://flamefront.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://flamefront.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://flamefront.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://flamefront.tech",
-          "result": "ConnectionError"
-        }
-      ]
-    },
-    {
       "company": "Groq",
       "website": null,
       "attempts": [
@@ -180,12 +118,6 @@
           "result": "ConnectionError"
         }
       ]
-    },
-    {
-      "company": "California Forever",
-      "website": "https://californiaforever.com",
-      "confirmed_via": "https://californiaforever.com",
-      "attempts": []
     },
     {
       "company": "Pivot Bio",
@@ -465,66 +397,6 @@
           "result": "ConnectTimeout"
         }
       ]
-    },
-    {
-      "company": "Enfabrica",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://enfabrica.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://enfabrica.ai",
-          "result": "ConnectTimeout"
-        },
-        {
-          "url": "https://enfabrica.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://enfabrica.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://enfabrica.tech",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://enfabrica.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://enfabrica.energy",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://enfabrica.xyz",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://enfabrica.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://getenfabrica.com",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://enfabricahq.com",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://enfabricaapp.com",
-          "result": "ConnectionError"
-        }
-      ]
-    },
-    {
-      "company": "Meter",
-      "website": "https://www.meter.com",
-      "confirmed_via": "https://meter.com",
-      "attempts": []
     },
     {
       "company": "Merge Labs",
@@ -819,70 +691,10 @@
       ]
     },
     {
-      "company": "Runpod",
-      "website": "https://www.runpod.io",
-      "confirmed_via": "https://runpod.com",
-      "attempts": []
-    },
-    {
       "company": "Viam",
       "website": "https://www.viam.com",
       "confirmed_via": "https://viam.com",
       "attempts": []
-    },
-    {
-      "company": "Somos",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://somos.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://somos.ai",
-          "result": "ConnectTimeout"
-        },
-        {
-          "url": "https://somos.io",
-          "result": "http 404"
-        },
-        {
-          "url": "https://somos.co",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://somos.tech",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://somos.space",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://somos.energy",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://somos.xyz",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://somos.us",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://getsomos.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://somoshq.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://somosapp.com",
-          "result": "no name match / parked"
-        }
-      ]
     },
     {
       "company": "EarthGrid",
@@ -1009,68 +821,6 @@
         },
         {
           "url": "https://cradleapp.com",
-          "result": "no name match / parked"
-        }
-      ]
-    },
-    {
-      "company": "Stacked Energy",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://stackedenergy.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://stackedenergy.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://stackedenergy.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://stackedenergy.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://stackedenergy.tech",
-          "result": "ConnectTimeout"
-        },
-        {
-          "url": "https://stackedenergy.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://stackedenergy.energy",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://stackedenergy.xyz",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://stackedenergy.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://stacked.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://stacked.ai",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://stacked.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://stacked.co",
-          "result": "SSLError"
-        },
-        {
-          "url": "https://stacked.tech",
           "result": "no name match / parked"
         }
       ]
@@ -1419,66 +1169,6 @@
       "attempts": []
     },
     {
-      "company": "David Energy",
-      "website": "https://davidenergy.com",
-      "confirmed_via": "https://davidenergy.com",
-      "attempts": []
-    },
-    {
-      "company": "Axion",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://axion.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://axion.ai",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://axion.io",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://axion.co",
-          "result": "http 403"
-        },
-        {
-          "url": "https://axion.tech",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://axion.space",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://axion.energy",
-          "result": "ConnectTimeout"
-        },
-        {
-          "url": "https://axion.xyz",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://axion.us",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://getaxion.com",
-          "result": "ConnectTimeout"
-        },
-        {
-          "url": "https://axionhq.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://axionapp.com",
-          "result": "no name match / parked"
-        }
-      ]
-    },
-    {
       "company": "Lydian",
       "website": null,
       "attempts": [
@@ -1645,21 +1335,9 @@
       "attempts": []
     },
     {
-      "company": "SF Compute",
-      "website": "https://sfcompute.com",
-      "confirmed_via": "https://sfcompute.com",
-      "attempts": []
-    },
-    {
       "company": "Urban Sky",
       "website": "https://urbansky.com",
       "confirmed_via": "https://urbansky.com",
-      "attempts": []
-    },
-    {
-      "company": "Solestial",
-      "website": "https://solestial.com",
-      "confirmed_via": "https://solestial.com",
       "attempts": []
     },
     {
@@ -2438,68 +2116,6 @@
       ]
     },
     {
-      "company": "Eden Geopower",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://edengeopower.com",
-          "result": "SSLError"
-        },
-        {
-          "url": "https://edengeopower.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://edengeopower.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://edengeopower.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://edengeopower.tech",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://edengeopower.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://edengeopower.energy",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://edengeopower.xyz",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://edengeopower.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://eden.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://eden.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://eden.io",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://eden.co",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://eden.tech",
-          "result": "ConnectionError"
-        }
-      ]
-    },
-    {
       "company": "SirenOpt",
       "website": "https://www.sirenopt.com",
       "confirmed_via": "https://sirenopt.com",
@@ -2564,68 +2180,6 @@
         {
           "url": "https://still.tech",
           "result": "ConnectionError"
-        }
-      ]
-    },
-    {
-      "company": "Lumen Energy",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://lumenenergy.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://lumenenergy.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://lumenenergy.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://lumenenergy.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://lumenenergy.tech",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://lumenenergy.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://lumenenergy.energy",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://lumenenergy.xyz",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://lumenenergy.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://lumen.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://lumen.ai",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://lumen.io",
-          "result": "SSLError"
-        },
-        {
-          "url": "https://lumen.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://lumen.tech",
-          "result": "SSLError"
         }
       ]
     },
@@ -3068,60 +2622,6 @@
       ]
     },
     {
-      "company": "Dark",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://dark.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://dark.ai",
-          "result": "http 403"
-        },
-        {
-          "url": "https://dark.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://dark.co",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://dark.tech",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://dark.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://dark.energy",
-          "result": "http 403"
-        },
-        {
-          "url": "https://dark.xyz",
-          "result": "SSLError"
-        },
-        {
-          "url": "https://dark.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://getdark.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://darkhq.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://darkapp.com",
-          "result": "no name match / parked"
-        }
-      ]
-    },
-    {
       "company": "Danti",
       "website": "https://danti.ai",
       "confirmed_via": "https://danti.ai",
@@ -3263,74 +2763,6 @@
       ]
     },
     {
-      "company": "Olympian Motors",
-      "website": "https://olympianmotors.com",
-      "confirmed_via": "https://olympianmotors.com",
-      "attempts": []
-    },
-    {
-      "company": "Infinite Machine",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://infinitemachine.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://infinitemachine.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://infinitemachine.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://infinitemachine.co",
-          "result": "ConnectTimeout"
-        },
-        {
-          "url": "https://infinitemachine.tech",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://infinitemachine.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://infinitemachine.energy",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://infinitemachine.xyz",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://infinitemachine.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://infinite.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://infinite.ai",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://infinite.io",
-          "result": "http 403"
-        },
-        {
-          "url": "https://infinite.co",
-          "result": "http 403"
-        },
-        {
-          "url": "https://infinite.tech",
-          "result": "no name match / parked"
-        }
-      ]
-    },
-    {
       "company": "Irradiant Technologies",
       "website": null,
       "attempts": [
@@ -3391,12 +2823,6 @@
           "result": "no name match / parked"
         }
       ]
-    },
-    {
-      "company": "Wraithwatch",
-      "website": "https://wraithwatch.com",
-      "confirmed_via": "https://wraithwatch.com",
-      "attempts": []
     },
     {
       "company": "Clone Robotics",
@@ -4023,17 +3449,6 @@
       "attempts": []
     },
     {
-      "company": "Monaire",
-      "website": "https://www.monaire.ai",
-      "confirmed_via": "https://monaire.ai",
-      "attempts": [
-        {
-          "url": "https://monaire.com",
-          "result": "ConnectionError"
-        }
-      ]
-    },
-    {
       "company": "Pila Energy",
       "website": "https://www.pilaenergy.com",
       "confirmed_via": "https://pilaenergy.com",
@@ -4044,60 +3459,6 @@
       "website": "https://www.digichem.com",
       "confirmed_via": "https://digichem.com",
       "attempts": []
-    },
-    {
-      "company": "AtmoCooling",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://atmocooling.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://atmocooling.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://atmocooling.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://atmocooling.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://atmocooling.tech",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://atmocooling.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://atmocooling.energy",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://atmocooling.xyz",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://atmocooling.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://getatmocooling.com",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://atmocoolinghq.com",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://atmocoolingapp.com",
-          "result": "ConnectionError"
-        }
-      ]
     },
     {
       "company": "Bravo Ordnance",
@@ -4158,68 +3519,6 @@
         {
           "url": "https://bravo.tech",
           "result": "no name match / parked"
-        }
-      ]
-    },
-    {
-      "company": "Ephemeris Net",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://ephemerisnet.com",
-          "result": "ReadTimeout"
-        },
-        {
-          "url": "https://ephemerisnet.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://ephemerisnet.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://ephemerisnet.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://ephemerisnet.tech",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://ephemerisnet.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://ephemerisnet.energy",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://ephemerisnet.xyz",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://ephemerisnet.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://ephemeris.com",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://ephemeris.ai",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://ephemeris.io",
-          "result": "http 404"
-        },
-        {
-          "url": "https://ephemeris.co",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://ephemeris.tech",
-          "result": "ConnectionError"
         }
       ]
     },
@@ -4470,68 +3769,6 @@
       ]
     },
     {
-      "company": "Ground Control Development",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://groundcontroldevelopment.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://groundcontroldevelopment.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://groundcontroldevelopment.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://groundcontroldevelopment.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://groundcontroldevelopment.tech",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://groundcontroldevelopment.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://groundcontroldevelopment.energy",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://groundcontroldevelopment.xyz",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://groundcontroldevelopment.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://groundcontrol.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://groundcontrol.ai",
-          "result": "http 403"
-        },
-        {
-          "url": "https://groundcontrol.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://groundcontrol.co",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://groundcontrol.tech",
-          "result": "ConnectionError"
-        }
-      ]
-    },
-    {
       "company": "Ghost Robotics",
       "website": "https://www.ghostrobotics.io",
       "confirmed_via": "https://ghostrobotics.io",
@@ -4559,88 +3796,9 @@
       "attempts": []
     },
     {
-      "company": "Fid Labs",
-      "website": "https://fidlabs.ai",
-      "confirmed_via": "https://fidlabs.ai",
-      "attempts": [
-        {
-          "url": "https://fidlabs.com",
-          "result": "ConnectionError"
-        }
-      ]
-    },
-    {
-      "company": "Make Sunsets",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://makesunsets.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://makesunsets.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://makesunsets.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://makesunsets.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://makesunsets.tech",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://makesunsets.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://makesunsets.energy",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://makesunsets.xyz",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://makesunsets.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://make.com",
-          "result": "http 403"
-        },
-        {
-          "url": "https://make.ai",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://make.io",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://make.co",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://make.tech",
-          "result": "no name match / parked"
-        }
-      ]
-    },
-    {
       "company": "Atopile",
       "website": "https://atopile.io/enterprise",
       "confirmed_via": "https://atopile.com",
-      "attempts": []
-    },
-    {
-      "company": "Electric Air",
-      "website": "https://electricair.com",
-      "confirmed_via": "https://electricair.com",
       "attempts": []
     },
     {
@@ -4772,60 +3930,6 @@
       "website": "https://airrow.com",
       "confirmed_via": "https://airrow.com",
       "attempts": []
-    },
-    {
-      "company": "Hedral",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://hedral.com",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://hedral.ai",
-          "result": "SSLError"
-        },
-        {
-          "url": "https://hedral.io",
-          "result": "ConnectTimeout"
-        },
-        {
-          "url": "https://hedral.co",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://hedral.tech",
-          "result": "SSLError"
-        },
-        {
-          "url": "https://hedral.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://hedral.energy",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://hedral.xyz",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://hedral.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://gethedral.com",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://hedralhq.com",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://hedralapp.com",
-          "result": "ConnectionError"
-        }
-      ]
     },
     {
       "company": "Aleph Surgical",
@@ -5108,12 +4212,6 @@
       "company": "Firma Power",
       "website": "https://firmapower.com",
       "confirmed_via": "https://firmapower.com",
-      "attempts": []
-    },
-    {
-      "company": "Anatar",
-      "website": "https://anatar.com",
-      "confirmed_via": "https://anatar.com",
       "attempts": []
     },
     {

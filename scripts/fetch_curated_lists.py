@@ -129,6 +129,9 @@ EXCLUDE = {
     # Cut from the database 2026-09-25 (AI labs and clouds with no physical
     # product, plus one dormant company); never re-queue them.
     "blackforestlabs", "breenenergy", "cartesia", "cognition", "coreautomation", "cuspai", "flappingairplanes", "humain", "humans", "hypernovaspacetechnologies", "lambda", "poolside", "reflectionai", "togetherai", "worldlabs",
+    # Cut 2026-10-01 after the full database audit (not frontier tech, unverifiable,
+    # dormant, or exited); never re-queue them.
+    "somos", "runpod", "sfcompute", "davidenergy", "meter", "hedral", "axion", "monaire", "wisprai", "lumenenergy", "infinitemachine", "electricair", "deepsentinel", "groundcontroldevelopment", "atmocooling", "anatar", "stackedenergy", "californiaforever", "keentechnologies", "makesunsets", "lookingglass", "olympianmotors", "wraithwatch", "flamefrontpropulsion", "corvexsystems", "stratekglobal", "edengeopower", "ephemerisnet", "sagence", "fidlabs", "atropos", "solestial", "enfabrica", "dendrasystems", "dark",
 }
 
 SUFFIX = re.compile(

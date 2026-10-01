@@ -1760,13 +1760,6 @@
       "fetchDate": "2026-02-20",
       "matchedCompanies": [
         {
-          "name": "Meter",
-          "score": 40,
-          "matchReasons": [
-            "name: Meter"
-          ]
-        },
-        {
           "name": "Antares",
           "score": 26,
           "matchReasons": [
@@ -1844,7 +1837,6 @@
         }
       ],
       "relevantCompanies": [
-        "Meter",
         "Antares",
         "Albedo",
         "Andrenam",
@@ -2736,7 +2728,7 @@
     },
     {
       "id": "NSF-2026-AIINST",
-      "title": "National AI Research Institutes \u2014 Frontier AI",
+      "title": "National AI Research Institutes — Frontier AI",
       "agency": "National Science Foundation (NSF)",
       "type": "Grant",
       "deadline": "2026-06-30",
@@ -3058,13 +3050,6 @@
       "fetchDate": "2026-02-20",
       "matchedCompanies": [
         {
-          "name": "Meter",
-          "score": 40,
-          "matchReasons": [
-            "name: Meter"
-          ]
-        },
-        {
           "name": "Infleqtion",
           "score": 30,
           "matchReasons": [
@@ -3144,7 +3129,6 @@
         }
       ],
       "relevantCompanies": [
-        "Meter",
         "Infleqtion",
         "Forterra",
         "Theseus",
@@ -5296,20 +5280,6 @@
         "In-Space Assembly and Manufacturing"
       ]
     },
-    "Meter": {
-      "name": "Meter",
-      "govPullScore": 34,
-      "matchCount": 2,
-      "topAgencies": [
-        "DARPA",
-        "National Reconnaissance Office (NRO)"
-      ],
-      "avgRelevance": 40,
-      "topSignals": [
-        "Next-Generation Earth Observation Capabilities",
-        "Quantum Sensing for Position, Navigation, and Timing"
-      ]
-    },
     "Albedo": {
       "name": "Albedo",
       "govPullScore": 20,
@@ -6073,7 +6043,7 @@
       ],
       "avgRelevance": 16,
       "topSignals": [
-        "National AI Research Institutes \u2014 Frontier AI"
+        "National AI Research Institutes — Frontier AI"
       ]
     },
     "Second Front Systems": {
