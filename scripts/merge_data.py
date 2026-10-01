@@ -906,6 +906,25 @@ def _companies_span(data_js_content):
     return 0, len(data_js_content)
 
 
+def _stage_rank(stage):
+    """Order of funding stages; -1 when the label carries no order ("Private", "Undisclosed")."""
+    s = (stage or "").strip().lower()
+    if not s:
+        return -1
+    if s.startswith(("public", "ipo", "spac")):
+        return 20
+    if s.startswith(("pre-ipo", "late stage", "growth")):
+        return 15
+    m = re.match(r"series\s+([a-j])\b", s)
+    if m:
+        return 2 + "abcdefghij".index(m.group(1))
+    if s.startswith("pre-seed"):
+        return 0
+    if s.startswith("seed"):
+        return 1
+    return -1
+
+
 def update_company_funding(data_js_content):
     """Update COMPANIES funding fields from recent deals."""
     deals = load_json("deals_auto.json")
@@ -966,6 +985,20 @@ def update_company_funding(data_js_content):
                 continue  # Deal is older than existing event, skip
 
         changes_made = False
+
+        # A feed deal may only move a company's stage FORWARD, and never onto
+        # a public company. Without this, misattributed headlines rewrote
+        # curated stages: 1X Technologies went Series B -> Pre-Seed, Nano
+        # Nuclear (listed) became "Seed", Mainspring Series F -> Seed, and the
+        # daily sync flip-flopped Agility and Starcloud against the verifier
+        # 21 times each (Jun-Sep 2026).
+        cur_stage_m = re.search(r'fundingStage:\s*"([^"]*)"', entry_block)
+        cur_rank = _stage_rank(cur_stage_m.group(1) if cur_stage_m else "")
+        is_public = (re.search(r'\bstatus:\s*"ipo"', entry_block) is not None
+                     or cur_rank >= _stage_rank("IPO"))
+        if is_public or (cur_rank >= 0 and _stage_rank(deal_round) <= cur_rank):
+            deal_round = ""
+            deal_valuation = ""  # a deal that can't set the stage can't set the price either
 
         # Update fundingStage if deal round is a recognized stage
         if deal_round in valid_stages:

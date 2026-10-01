@@ -165,6 +165,21 @@ OVERRIDES = {
     "Fenix Space": "Launch",
     "Mayman Aerospace": "Cargo & Delivery Drones",
     "Titan Dynamics": "Drones & Counter-UAS",
+    # Database audit (1 Oct 2026): rewritten descriptions tripped the text rules for these.
+    "Standard Electron": "Grid & Power Delivery",       # on-site power systems; "battery storage" hits Batteries
+    "Aalo Atomics": "Fission Reactors",                 # "UO2 fuel" hits Fuels & Isotopes
+    "Claros": "Industrial Heat & Efficiency",           # chip-level power delivery; "power delivery" hits Grid
+    "General Galactic": "Space Logistics & Servicing",  # in-space logistics; "Mars" hits Deep Space
+    "Frankenburg Technologies": "Missiles & Munitions", # interceptor missiles; "maritime platforms" hits Maritime
+    "Porotech": "Photonics & Interconnect",             # GaN micro-LEDs/optical I/O; "AI compute" hits AI Compute
+    "KrattWorks": "Drones & Counter-UAS",               # military drones; "jamming-resistant" hits EW
+    "Roboneers": "General",                             # ground combat robots (no UGV shelf); "AI software" hits Software
+    "Merge Labs": "Neurotech",                          # BCI; "molecules" hits Agriculture & Food Bio
+    "Equilibrium Energy": "Grid & Power Delivery",      # power-market trading; "battery" hits Batteries
+    "Rivan": "Fuels & Hydrogen",                        # e-methane; "gas grid" hits Grid
+    "Lumen Energy": "Solar",                            # rooftop solar broker; "battery" hits Batteries
+    "Safire": "Batteries & Storage",                    # battery-fire additive; "materials" hits Critical Minerals
+    "Atropos": "Drones & Counter-UAS",                  # autonomous cargo aircraft; "software" hits Defense Software
     # Added 2026-09-25 with the first VC-Portfolio-Watcher batch:
     "Thor Dynamics": "Drones & Counter-UAS",           # laser counter-drone; "Armor"/"ammunition" hit Munitions
     "Efficient Computer": "AI Compute",                # edge AI processor; "sensors" hits Specialty Silicon
