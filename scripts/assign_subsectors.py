@@ -200,6 +200,7 @@ OVERRIDES = {
     "Swarmbotics AI": "General",                        # ground-robot swarms (no UGV shelf); "counter-drone" payload hits UAS
     "Voltra": "Grid & Power Delivery",                  # site-energy control software; "batteries" hits Batteries
     "Wetstone": "Critical Minerals & Mining",           # offshore critical-minerals exploration
+    "Oklo": "Fission Reactors",                         # Aurora reactors; "isotope test reactor" hits Fuels & Isotopes
     # Added 2026-09-25 with the first VC-Portfolio-Watcher batch:
     "Thor Dynamics": "Drones & Counter-UAS",           # laser counter-drone; "Armor"/"ammunition" hit Munitions
     "Efficient Computer": "AI Compute",                # edge AI processor; "sensors" hits Specialty Silicon
