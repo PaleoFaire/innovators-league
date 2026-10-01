@@ -1,4 +1,4 @@
-# Pulse validation — generated 2026-09-28 (method v1.2, taxonomy v1.1)
+# Pulse validation — generated 2026-10-01 (method v1.2, taxonomy v1.1)
 
 Known events to reproduce: Valar critical 18 Jun 2026; Antares critical at INL Jul 2026; Oklo Groves 5 Aug 2026 (public co., outside panel).
 
@@ -9,10 +9,11 @@ Known events to reproduce: Valar critical 18 Jun 2026; Antares critical at INL J
 | 2026-06 | 5 | 80.0 | 208 | 125 | 16 | 2 |
 | 2026-07 | 5 | 80.0 | 254 | 147 | 22 | 2 |
 | 2026-08 | 5 | 70.0 | 328 | 192 | 40 | 3 |
-| 2026-09 | 5 | 70.0 | 348 | 207 | 39 | 4 |
+| 2026-09 | 5 | 80.0 | 352 | 211 | 37 | 4 |
+| 2026-10 | 17 | 52.9 | 648 | 408 | 55 | 4 |
 
-Capital sources merged: {'deals': 185, 'form_d': 9, 'vc_first_funded': 146}
-Mortality: {'db_dead_or_acquired': 13, 'liveness_checked': 1059, 'liveness_confirmed_dead_or_acquired': 21, 'liveness_suspects': 24, 'confirmed_rate_pct': 2.0}
-Review queue size: 17
+Capital sources merged: {'deals': 63, 'form_d': 8, 'vc_first_funded': 147}
+Mortality: {'db_dead_or_acquired': 9, 'liveness_checked': 1040, 'liveness_confirmed_dead_or_acquired': 20, 'liveness_suspects': 22, 'confirmed_rate_pct': 1.9}
+Review queue size: 19
 Board checks (latest): 0
-Revisions logged: 6
+Revisions logged: 11

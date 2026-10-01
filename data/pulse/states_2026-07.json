@@ -3,9 +3,9 @@
  "states": [
   {
    "state": "CA",
-   "roles": 1369,
-   "atoms": 776,
-   "sw": 269
+   "roles": 1482,
+   "atoms": 841,
+   "sw": 295
   },
   {
    "state": "TX",
@@ -20,16 +20,16 @@
    "sw": 38
   },
   {
+   "state": "NV",
+   "roles": 95,
+   "atoms": 65,
+   "sw": 4
+  },
+  {
    "state": "CO",
    "roles": 92,
    "atoms": 62,
    "sw": 7
-  },
-  {
-   "state": "NV",
-   "roles": 91,
-   "atoms": 61,
-   "sw": 4
   },
   {
    "state": "WA",

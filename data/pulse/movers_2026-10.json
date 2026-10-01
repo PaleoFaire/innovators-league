@@ -1,0 +1,128 @@
+{
+ "month": "2026-10",
+ "up": [
+  {
+   "company": "DEFCON AI",
+   "bucket": "Defence",
+   "roles_prev": 5,
+   "roles_now": 10,
+   "change": 5,
+   "change_pct": 100.0
+  },
+  {
+   "company": "Varda Space Industries",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 89,
+   "roles_now": 100,
+   "change": 11,
+   "change_pct": 12.4
+  },
+  {
+   "company": "Ocean Infinity",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 20,
+   "roles_now": 22,
+   "change": 2,
+   "change_pct": 10.0
+  },
+  {
+   "company": "Kairos Power",
+   "bucket": "Nuclear",
+   "roles_prev": 32,
+   "roles_now": 34,
+   "change": 2,
+   "change_pct": 6.2
+  },
+  {
+   "company": "GITAI",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 17,
+   "roles_now": 18,
+   "change": 1,
+   "change_pct": 5.9
+  },
+  {
+   "company": "Orbital Inc.",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 21,
+   "roles_now": 22,
+   "change": 1,
+   "change_pct": 4.8
+  },
+  {
+   "company": "Twenty",
+   "bucket": "Defence",
+   "roles_prev": 35,
+   "roles_now": 36,
+   "change": 1,
+   "change_pct": 2.9
+  },
+  {
+   "company": "Armada",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 39,
+   "roles_now": 40,
+   "change": 1,
+   "change_pct": 2.6
+  },
+  {
+   "company": "Muon Space",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 130,
+   "roles_now": 133,
+   "change": 3,
+   "change_pct": 2.3
+  },
+  {
+   "company": "Neros",
+   "bucket": "Defence",
+   "roles_prev": 97,
+   "roles_now": 99,
+   "change": 2,
+   "change_pct": 2.1
+  }
+ ],
+ "down": [
+  {
+   "company": "Shift5",
+   "bucket": "Defence",
+   "roles_prev": 15,
+   "roles_now": 14,
+   "change": -1,
+   "change_pct": -6.7
+  },
+  {
+   "company": "Lumafield",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 17,
+   "roles_now": 16,
+   "change": -1,
+   "change_pct": -5.9
+  },
+  {
+   "company": "Skylo",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 39,
+   "roles_now": 37,
+   "change": -2,
+   "change_pct": -5.1
+  },
+  {
+   "company": "Atomic Machines",
+   "bucket": "Chips & Quantum",
+   "roles_prev": 24,
+   "roles_now": 23,
+   "change": -1,
+   "change_pct": -4.2
+  },
+  {
+   "company": "Pacific Fusion",
+   "bucket": "Nuclear",
+   "roles_prev": 29,
+   "roles_now": 28,
+   "change": -1,
+   "change_pct": -3.4
+  }
+ ],
+ "factory_flags": []
+}

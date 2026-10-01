@@ -3,7 +3,7 @@
  "by_bucket": {
   "Space & Aerospace": 13,
   "Manufacturing & Materials": 5,
-  "Autonomy & Robotics": 10,
+  "Autonomy & Robotics": 11,
   "Chips & Quantum": 5,
   "Defence": 6,
   "Nuclear": 5,
@@ -14,18 +14,18 @@
   "Series B": 9,
   "Series D": 5,
   "Series E": 5,
-  "Series C": 4,
-  "Seed": 3,
+  "Series C": 5,
+  "Late Stage": 2,
+  "Seed": 2,
   "Series F": 1,
   "Series H": 1,
   "Private": 1,
-  "Series G": 1,
-  "Late Stage": 1
+  "Pre-IPO": 1
  },
  "by_founded": {
   "2021": 9,
   "2016": 7,
-  "2022": 5,
+  "2022": 6,
   "2023": 5,
   "2017": 4,
   "2020": 4,
@@ -37,8 +37,8 @@
  },
  "by_state": {
   "CA": 32,
+  "MA": 4,
   "CO": 3,
-  "MA": 3,
   "WA": 2,
   "TX": 2,
   "NV": 1,

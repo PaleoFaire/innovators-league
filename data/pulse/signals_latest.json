@@ -1,11 +1,11 @@
 {
  "week": "2026-W40",
- "generated": "2026-09-28",
- "count": 10,
+ "generated": "2026-10-01",
+ "count": 11,
  "by_type": {
-  "senior_manufacturing_hire": 1,
-  "production_turn": 5,
+  "senior_manufacturing_hire": 2,
   "hiring_surge": 3,
+  "production_turn": 5,
   "hiring_pullback": 1
  },
  "signals": [
@@ -21,32 +21,6 @@
    "last_capital_event": null
   },
   {
-   "company": "Zipline",
-   "bucket": "Autonomy & Robotics",
-   "state": "CA",
-   "type": "production_turn",
-   "week": "2026-W40",
-   "evidence": {
-    "atoms_share_now_pct": 42.4,
-    "atoms_share_12w_ago_pct": 15.0,
-    "roles_now": 342
-   },
-   "last_capital_event": "2016-07"
-  },
-  {
-   "company": "Vannevar Labs",
-   "bucket": "Defence",
-   "state": "CA",
-   "type": "hiring_surge",
-   "week": "2026-W40",
-   "evidence": {
-    "roles_4w_ago": 23,
-    "roles_now": 31,
-    "change_pct": 34.8
-   },
-   "last_capital_event": null
-  },
-  {
    "company": "Divergent",
    "bucket": "Manufacturing & Materials",
    "state": "CA",
@@ -54,8 +28,8 @@
    "week": "2026-W40",
    "evidence": {
     "roles_4w_ago": 78,
-    "roles_now": 112,
-    "change_pct": 43.6
+    "roles_now": 114,
+    "change_pct": 46.2
    },
    "last_capital_event": null
   },
@@ -66,11 +40,24 @@
    "type": "production_turn",
    "week": "2026-W40",
    "evidence": {
-    "atoms_share_now_pct": 65.2,
+    "atoms_share_now_pct": 66.7,
     "atoms_share_12w_ago_pct": 43.6,
-    "roles_now": 112
+    "roles_now": 114
    },
    "last_capital_event": null
+  },
+  {
+   "company": "Zipline",
+   "bucket": "Autonomy & Robotics",
+   "state": "CA",
+   "type": "production_turn",
+   "week": "2026-W40",
+   "evidence": {
+    "atoms_share_now_pct": 42.2,
+    "atoms_share_12w_ago_pct": 15.0,
+    "roles_now": 351
+   },
+   "last_capital_event": "2016-07"
   },
   {
    "company": "Astranis",
@@ -80,8 +67,34 @@
    "week": "2026-W40",
    "evidence": {
     "roles_4w_ago": 84,
-    "roles_now": 164,
-    "change_pct": 95.2
+    "roles_now": 174,
+    "change_pct": 107.1
+   },
+   "last_capital_event": "2026-05"
+  },
+  {
+   "company": "Kairos Power",
+   "bucket": "Nuclear",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W40",
+   "evidence": {
+    "roles_4w_ago": 22,
+    "roles_now": 34,
+    "change_pct": 54.5
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Pacific Fusion",
+   "bucket": "Nuclear",
+   "state": "CA",
+   "type": "production_turn",
+   "week": "2026-W40",
+   "evidence": {
+    "atoms_share_now_pct": 96.4,
+    "atoms_share_12w_ago_pct": 79.3,
+    "roles_now": 28
    },
    "last_capital_event": "2025-03"
   },
@@ -99,17 +112,28 @@
    "last_capital_event": "2025-10"
   },
   {
-   "company": "Amca",
-   "bucket": "Manufacturing & Materials",
-   "state": "CA",
+   "company": "Hubble Network",
+   "bucket": "Space & Aerospace",
+   "state": "WA",
    "type": "production_turn",
    "week": "2026-W40",
    "evidence": {
-    "atoms_share_now_pct": 70.3,
-    "atoms_share_12w_ago_pct": 55.2,
-    "roles_now": 37
+    "atoms_share_now_pct": 50.0,
+    "atoms_share_12w_ago_pct": 14.3,
+    "roles_now": 16
    },
-   "last_capital_event": "2026-06"
+   "last_capital_event": null
+  },
+  {
+   "company": "VEIR",
+   "bucket": "Power & Grid",
+   "state": "MA",
+   "type": "senior_manufacturing_hire",
+   "week": "2026-W40",
+   "evidence": {
+    "senior_roles_now": 1
+   },
+   "last_capital_event": null
   },
   {
    "company": "Albedo",
@@ -119,21 +143,8 @@
    "week": "2026-W40",
    "evidence": {
     "roles_4w_ago": 10,
-    "roles_now": 7,
-    "change_pct": -30.0
-   },
-   "last_capital_event": null
-  },
-  {
-   "company": "Hubble Network",
-   "bucket": "Space & Aerospace",
-   "state": "WA",
-   "type": "production_turn",
-   "week": "2026-W40",
-   "evidence": {
-    "atoms_share_now_pct": 46.7,
-    "atoms_share_12w_ago_pct": 14.3,
-    "roles_now": 15
+    "roles_now": 6,
+    "change_pct": -40.0
    },
    "last_capital_event": null
   }
