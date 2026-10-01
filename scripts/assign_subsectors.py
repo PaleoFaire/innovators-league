@@ -183,6 +183,14 @@ OVERRIDES = {
     "Duranium": "Critical Minerals & Mining",           # Mg/Ti/Hf/Zr metal production; "molten-salt" hits Fuels
     "Magrathea Metals": "Critical Minerals & Mining",   # magnesium from seawater; "electrolysis" hits Fuels & Hydrogen
     "HLabs": "General",                                 # robot parts supplier; "humanoids" (its customers) hits Humanoids
+    "Chariot Defense": "General",                       # hybrid battery/generator power for troops; "drones" hits Counter-UAS
+    "Looking Glass": "General",                         # holographic displays; "manufacturing" hits Fabs & Equipment
+    "Westmag": "General",                               # BLDC motors for drones/robots; "humanoid" (customers) hits Humanoids
+    "Cognitive Space": "Earth Observation",             # imaging-collection planning software; "satellite" hits Buses
+    "ElectroFlow Technologies": "Batteries & Storage",  # sells LFP cathode; "lithium brine" hits Critical Minerals
+    "General Biological": "Biomanufacturing & Tools",   # industrial chemicals by fermentation; "agricultural feedstocks" hits Ag
+    "Gambit": "Defense Software & Intelligence",        # multi-vehicle autonomy software; "drones" hits Counter-UAS
+    "Lightcell": "General",                             # sodium-light generator; "hydrogen" hits Fuels & Hydrogen
     # Added 2026-09-25 with the first VC-Portfolio-Watcher batch:
     "Thor Dynamics": "Drones & Counter-UAS",           # laser counter-drone; "Armor"/"ammunition" hit Munitions
     "Efficient Computer": "AI Compute",                # edge AI processor; "sensors" hits Specialty Silicon
