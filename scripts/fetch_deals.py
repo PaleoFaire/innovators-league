@@ -83,9 +83,40 @@ def load_company_aliases():
             orig = alias_match.group(1)
             if ' ' not in alias and len(alias) < 8 and not orig[0].isupper():
                 continue
+            # The master list also carries product names and topic phrases
+            # ("shipbuilding" -> Saronic, "tunneling" -> The Boring Company,
+            # "autonomous defense" -> Mara). Fine for news tagging, wrong for
+            # crediting a funding round: "a shipbuilding startup raises $600M"
+            # is not Saronic. Only spellings of the company's own name pass.
+            if not _is_name_alias(alias, name):
+                continue
             aliases[alias] = name
 
     return aliases
+
+
+# Corporate suffixes that may follow a company's core name in a headline.
+_CORP_SUFFIX = {
+    'inc', 'corp', 'corporation', 'co', 'company', 'technologies', 'technology', 'tech',
+    'labs', 'lab', 'industries', 'systems', 'space', 'aerospace', 'robotics', 'ai', 'energy',
+    'bio', 'biosciences', 'therapeutics', 'defense', 'dynamics', 'computing', 'power',
+    'group', 'holdings', 'ltd', 'limited', 'gmbh', 'sa', 'ag', 'plc', 'llc', 'hq',
+}
+
+
+def _core_name(name):
+    words = re.sub(r'[^a-z0-9 ]', ' ', name.lower()).split()
+    if words and words[0] == 'the':
+        words = words[1:]
+    while len(words) > 1 and words[-1] in _CORP_SUFFIX:
+        words.pop()
+    return ''.join(words)
+
+
+def _is_name_alias(alias, canonical):
+    """True if `alias` is a spelling of the company's own name, not a product or topic."""
+    squash = lambda s: re.sub(r'[^a-z0-9]', '', s.lower())
+    return squash(alias) == squash(canonical) or _core_name(alias) == _core_name(canonical)
 
 
 # Patterns for extracting company names from unknown funding headlines
@@ -322,13 +353,67 @@ def parse_round_type(text):
     return None
 
 
-def match_company(text):
-    """Try to match a company name from the text."""
-    text_lower = text.lower()
-    for alias, canonical in sorted(COMPANY_ALIASES.items(), key=lambda x: -len(x[0])):
-        if alias in text_lower:
-            return canonical
-    return None
+# Funding verbs: the company a headline is ABOUT is named before the first one.
+_FUNDING_VERB = re.compile(
+    r"\b(?:raises?|raised|raising|secures?|secured|lands?|landed|closes?|closed|bags?|bagged"
+    r"|nabs?|nabbed|gets?|scores?|snags?|grabs?|attracts?|receives?|picks up|hauls? in"
+    r"|announces?|completes?|wins?|draws?|pulls in|rakes in)\b", re.I)
+# A name in these positions is context, not the subject: "ex-Palantir founders
+# raise $22M", "Palantir-backed X raises", "a rival to Anduril raises".
+_NOT_SUBJECT_BEFORE = re.compile(
+    r"(?:\bex-|\bformer\s+|\balumni\s+of\s+|\bveterans?\s+of\s+|\blike\s+|\brival(?:s)?\s+(?:to\s+)?"
+    r"|\bvs\.?\s+|\bversus\s+|\bfrom\s+|\bby\s+|\bwith\s+|\bbacked\s+by\s+|\bout\s+of\s+|\bthe\s+next\s+)$", re.I)
+_NOT_SUBJECT_AFTER = re.compile(
+    r"^(?:-?(?:backed|founded|alum(?:ni)?|veterans?|spinout|spin-?off|style|like|rival)\b"
+    r"|\s+(?:alum(?:ni)?|veterans?|spinout|spin-?off|rival|competitor)s?\b"
+    r"|['’]s\s+(?:former|ex-|rival|competitor|alum))", re.I)
+
+
+def match_company(title):
+    """Return the tracked company a funding HEADLINE is about, or None.
+
+    This used to be a bare substring test over headline + summary, taking the
+    longest alias found anywhere. That credited rounds to whichever tracked
+    company was merely mentioned, or whose name hid inside an ordinary word:
+    "invention" -> Vention, "discover" -> Cover, "Kamara" -> Mara, "no matter"
+    -> Matter, "ex-Palantir founders raise $22M" -> a Palantir Series A. By
+    Oct 2026 most of the 231-deal feed was misattributed this way.
+
+    Now the name must (1) sit in the headline on word boundaries, (2) come
+    before the funding verb, since the subject leads, (3) not be framed as
+    context ("ex-", "-backed", "rival to"), and (4) if it is a single word,
+    appear capitalised, so the common noun never matches. The earliest
+    qualifying name wins. A missed deal is recoverable; a misattributed one
+    ends up on a company profile as fact.
+    """
+    if not title:
+        return None
+    verb = _FUNDING_VERB.search(title)
+    limit = verb.start() if verb else len(title)
+    best = None
+    for alias, canonical in COMPANY_ALIASES.items():
+        for m in re.finditer(rf"(?<![A-Za-z0-9]){re.escape(alias)}(?![A-Za-z0-9])", title, re.I):
+            if m.start() >= limit:
+                break
+            if ' ' not in alias and not title[m.start()].isupper():
+                continue
+            if _NOT_SUBJECT_BEFORE.search(title[:m.start()]) or _NOT_SUBJECT_AFTER.search(title[m.end():]):
+                continue
+            # A clause break between the name and the verb means the verb has
+            # another subject: "Matter of time: Foo raises $14M".
+            if re.search(r'[:|;]|\s[–—-]\s', title[m.end():limit]):
+                continue
+            # A one-word name followed by another capitalised word is part of a
+            # longer proper noun ("Mara Kamara"), unless that word is a
+            # corporate suffix ("Saronic Technologies").
+            nxt = re.match(r"\s+([A-Z][\w'’.-]*)", title[m.end():])
+            if ' ' not in alias and nxt and nxt.group(1).lower().strip('.') not in _CORP_SUFFIX:
+                continue
+            key = (m.start(), -len(alias))
+            if best is None or key < best[0]:
+                best = (key, canonical)
+            break
+    return best[1] if best else None
 
 
 def match_investors(text):
@@ -374,7 +459,7 @@ def extract_deal_from_article(article):
     desc = article.get("description", "")
     full_text = f"{title} {desc}"
 
-    company = match_company(full_text)
+    company = match_company(title)
     if not company:
         return None
 
@@ -434,7 +519,7 @@ def load_existing_deals():
     for obj_match in obj_pattern:
         obj_str = obj_match.group(1)
         deal = {}
-        for field in ['company', 'investor', 'amount', 'round', 'date', 'valuation', 'leadOrParticipant']:
+        for field in ['company', 'investor', 'amount', 'round', 'date', 'valuation', 'leadOrParticipant', 'headline']:
             field_match = re.search(rf'{field}:\s*"([^"]*)"', obj_str)
             if field_match:
                 deal[field] = field_match.group(1)
@@ -468,7 +553,9 @@ def deduplicate_deals(existing, new_deals):
                         "round": deal["round"],
                         "date": deal["date"],
                         "valuation": "",
-                        "leadOrParticipant": "lead" if i == 0 else "participant"
+                        "leadOrParticipant": "lead" if i == 0 else "participant",
+                        # Kept so a bad attribution can be traced to its source.
+                        "headline": deal.get("headline", ""),
                     }
                     merged.append(entry)
                     added += 1
@@ -480,7 +567,8 @@ def deduplicate_deals(existing, new_deals):
                     "round": deal["round"],
                     "date": deal["date"],
                     "valuation": "",
-                    "leadOrParticipant": "lead"
+                    "leadOrParticipant": "lead",
+                    "headline": deal.get("headline", ""),
                 }
                 merged.append(entry)
                 added += 1

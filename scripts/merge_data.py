@@ -232,9 +232,13 @@ def update_deal_tracker(data_js_content):
         date = d.get("date", "")
         valuation = d.get("valuation", "").replace('"', "'")
         role = d.get("leadOrParticipant", "lead")
+        # Same escaping as the other fields; braces would break load_existing_deals().
+        headline = re.sub(r'[{}\\]', '', d.get("headline", "")).replace('"', "'")
         js_array += f'  {{ company: "{company}", investor: "{investor}", amount: "{amount}", '
         js_array += f'round: "{rnd}", date: "{date}", valuation: "{valuation}", '
-        js_array += f'leadOrParticipant: "{role}" }},\n'
+        js_array += f'leadOrParticipant: "{role}"'
+        # The source headline, so a misattributed deal can be traced and purged.
+        js_array += f', headline: "{headline}" }},\n' if headline else ' },\n'
 
     js_array += "];"
 

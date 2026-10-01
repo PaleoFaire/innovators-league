@@ -79,6 +79,32 @@ def load_deals():
     return []
 
 
+def load_curated_funding():
+    """name -> (totalRaised, valuation) from the hand-maintained COMPANIES records.
+
+    The deal feed only sees rounds that made the news since early 2025, so its
+    sum is not a company's total: it showed Anduril at "$2.5B+" raised when the
+    real figure was $11B+. The curated record is the authority for the total,
+    and for which companies belong in the tracker at all.
+    """
+    if not DATA_JS_PATH.exists():
+        return {}
+    content = DATA_JS_PATH.read_text()
+    start = content.find("const COMPANIES")
+    end = content.find("\n];", start)
+    if start < 0 or end < 0:
+        return {}
+    block = content[start:end]
+    names = list(re.finditer(r'\n    name:\s*"((?:[^"\\]|\\.)*)"', block))
+    curated = {}
+    for i, m in enumerate(names):
+        rec = block[m.end(): names[i + 1].start() if i + 1 < len(names) else len(block)]
+        tr = re.search(r'\n    totalRaised:\s*"((?:[^"\\]|\\.)*)"', rec)
+        va = re.search(r'\n    valuation:\s*"((?:[^"\\]|\\.)*)"', rec)
+        curated[m.group(1)] = (tr.group(1) if tr else "", va.group(1) if va else "")
+    return curated
+
+
 def main():
     print("=" * 60)
     print("Funding Tracker Calculator")
@@ -136,17 +162,27 @@ def main():
 
     print(f"Companies with funding data: {len(company_data)}")
 
-    # Build FUNDING_TRACKER entries
+    # Build FUNDING_TRACKER entries. Only companies in the database belong
+    # here; their total (and, failing a disclosed round valuation, their
+    # valuation) comes from the curated record, not from the news-feed sum.
+    curated = load_curated_funding()
     tracker = []
     for company, data in company_data.items():
+        if curated and company not in curated:
+            continue
+        cur_total, cur_val = curated.get(company, ("", ""))
+        total_raw = max(data["total_raised_m"], parse_amount(cur_total))
+        valuation = data["latest_valuation"]
+        if not valuation and cur_val and parse_amount(cur_val) > 0:
+            valuation = cur_val
         tracker.append({
             "company": company,
-            "totalRaised": format_amount(data["total_raised_m"]),
-            "totalRaisedRaw": data["total_raised_m"],
+            "totalRaised": cur_total if parse_amount(cur_total) > 0 else format_amount(data["total_raised_m"]),
+            "totalRaisedRaw": total_raw,
             "lastRound": data["latest_round"],
             "lastRoundAmount": data["latest_amount"],
             "lastRoundDate": data["latest_date"],
-            "valuation": data["latest_valuation"],
+            "valuation": valuation,
             "leadInvestors": data["lead_investors"][:5],
             "roundCount": len(data["rounds"]),
         })
