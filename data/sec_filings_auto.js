@@ -1,6 +1,7 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-01 06:44:21 UTC
+// Last updated: 2026-10-01 12:45:46 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-10-01", description: "qbts-20261001.htm", isIPO: false, ticker: "QBTS" },
   { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713603.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713525.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713476.xml", isIPO: false, ticker: "OKLO" },
@@ -50,5 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418300.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418286.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418265.xml", isIPO: false, ticker: "BKSY" },
-  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418247.xml", isIPO: false, ticker: "BKSY" },
 ];

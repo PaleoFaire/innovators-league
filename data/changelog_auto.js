@@ -3,8 +3,8 @@
 const CHANGELOG_WEEKLY = {
   "generated": "2026-10-01",
   "windowDays": 7,
-  "baselineSha": "b73a19de66d7",
-  "companiesTracked": 1254,
+  "baselineSha": "7199ab2ecb1d",
+  "companiesTracked": 1222,
   "added": [
     {
       "name": "AIBOT",
@@ -112,6 +112,11 @@ const CHANGELOG_WEEKLY = {
       "oneLine": "Every lunar lander needs throttleable engines, and few small suppliers can design and test them. Frontier sells the picks and shovels of the Moon programme r..."
     },
     {
+      "name": "Gridraven",
+      "sector": "Climate & Energy",
+      "oneLine": "Software for dynamic line ratings: hyper-local AI weather forecasts predict conductor temperatures so utilities can safely carry up to 30% more power on exis..."
+    },
+    {
       "name": "Helicity Space",
       "sector": "Space & Aerospace",
       "oneLine": "Fusion propulsion is a decades-long bet, but chemical rockets cap how fast we can cross the solar system. Lockheed and Airbus backing a tiny Pasadena team is..."
@@ -130,6 +135,11 @@ const CHANGELOG_WEEKLY = {
       "name": "Launchpad",
       "sector": "Robotics & Manufacturing",
       "oneLine": "Reshoring needs automation integrators, and integration is slow, bespoke work. Launchpad is trying to productize it; it is partly a services business, so wat..."
+    },
+    {
+      "name": "MIFTI Fusion",
+      "sector": "Nuclear Energy",
+      "oneLine": "Developing fusion power with a patented staged Z-pinch: a gas liner compresses hydrogen fuel in two stages, which the company says preheats and stabilizes th..."
     },
     {
       "name": "Matter Intelligence",
@@ -165,6 +175,11 @@ const CHANGELOG_WEEKLY = {
       "name": "Nucleus RadioPharma",
       "sector": "Biotech & Health",
       "oneLine": "Radioligand therapies like Pluvicto work, and the bottleneck is not discovery but logistics: an isotope with a half-life of days needs a factory network, not..."
+    },
+    {
+      "name": "Numenor Maritime",
+      "sector": "Defense & Security",
+      "oneLine": "Stealth-stage US company building undersea command, control and connectivity: links between shore operators and submerged assets, remotely managed seabed sen..."
     },
     {
       "name": "Odys Aviation",
@@ -293,34 +308,63 @@ const CHANGELOG_WEEKLY = {
     }
   ],
   "removed": [
+    "Anatar",
     "Arena AI",
+    "AtmoCooling",
+    "Atropos",
+    "Axion",
     "Black Forest Labs",
     "Breen Energy",
+    "California Forever",
     "Cartesia",
     "Cognition",
     "Core Automation",
+    "Corvex Systems",
     "CuspAI",
+    "Dark",
+    "David Energy",
+    "Deep Sentinel",
+    "Dendra Systems",
+    "Eden Geopower",
+    "Electric Air",
+    "Enfabrica",
+    "Ephemeris Net",
+    "Fid Labs",
+    "Flamefront Propulsion",
     "Flapping Airplanes",
+    "Ground Control Development",
     "HUMAIN",
+    "Hedral",
     "Humans&",
     "Hypernova Space Technologies",
+    "Infinite Machine",
+    "Keen Technologies",
     "Lambda",
+    "Looking Glass",
+    "Lumen Energy",
+    "Make Sunsets",
+    "Meter",
+    "Monaire",
+    "Olympian Motors",
     "Poolside",
     "Reflection AI",
     "Rivian",
+    "Runpod",
+    "SF Compute",
+    "Sagence",
     "Scale AI",
+    "Solestial",
+    "Somos",
+    "Stacked Energy",
+    "Stratek Global",
     "Terrahaptix",
     "Together AI",
     "Victus AI",
-    "World Labs"
+    "Wispr AI",
+    "World Labs",
+    "Wraithwatch"
   ],
   "statusChanges": [
-    {
-      "name": "Dark",
-      "from": "active",
-      "to": "dead",
-      "detail": ""
-    },
     {
       "name": "Electric Sheep",
       "from": "active",
@@ -328,19 +372,7 @@ const CHANGELOG_WEEKLY = {
       "detail": ""
     },
     {
-      "name": "Enfabrica",
-      "from": "active",
-      "to": "acquired",
-      "detail": ""
-    },
-    {
       "name": "Farm-ng",
-      "from": "active",
-      "to": "acquired",
-      "detail": ""
-    },
-    {
-      "name": "Solestial",
       "from": "active",
       "to": "acquired",
       "detail": ""
@@ -365,6 +397,11 @@ const CHANGELOG_WEEKLY = {
       "to": "$130B"
     },
     {
+      "name": "Crusoe Energy",
+      "from": "$10B+",
+      "to": "$30.9B"
+    },
+    {
       "name": "The Boring Company",
       "from": "$5.7B",
       "to": "$23B"
@@ -380,9 +417,39 @@ const CHANGELOG_WEEKLY = {
       "to": "$10.3B"
     },
     {
+      "name": "Hadrian",
+      "from": "$1.6B",
+      "to": "$7.87B"
+    },
+    {
       "name": "General Intuition",
       "from": "Undisclosed",
       "to": "$6B+"
+    },
+    {
+      "name": "Unconventional AI",
+      "from": "",
+      "to": "$4.5B"
+    },
+    {
+      "name": "Mach Industries",
+      "from": "",
+      "to": "$3.7B"
+    },
+    {
+      "name": "fab2",
+      "from": "",
+      "to": "$3.7B"
+    },
+    {
+      "name": "Astranis",
+      "from": "Undisclosed",
+      "to": "$2.8B"
+    },
+    {
+      "name": "Emerald AI",
+      "from": "",
+      "to": "$1.05B"
     },
     {
       "name": "Amca",
@@ -391,6 +458,11 @@ const CHANGELOG_WEEKLY = {
     }
   ],
   "raisedChanges": [
+    {
+      "name": "Crusoe Energy",
+      "from": "$3B+",
+      "to": "$5.9B+"
+    },
     {
       "name": "The Boring Company",
       "from": "$3B",
@@ -402,9 +474,19 @@ const CHANGELOG_WEEKLY = {
       "to": "$2.5B+"
     },
     {
+      "name": "Hadrian",
+      "from": "$1.37B",
+      "to": "$1.7B+"
+    },
+    {
       "name": "Etched",
       "from": "$800M",
       "to": "$1B+"
+    },
+    {
+      "name": "Mach Industries",
+      "from": "$185M",
+      "to": "$785M+"
     },
     {
       "name": "General Intuition",
@@ -412,14 +494,54 @@ const CHANGELOG_WEEKLY = {
       "to": "$650M+"
     },
     {
+      "name": "Varda Space Industries",
+      "from": "$329M",
+      "to": "$580M+"
+    },
+    {
+      "name": "fab2",
+      "from": "$15M+",
+      "to": "$515M+"
+    },
+    {
       "name": "Amca",
       "from": "$76.5M",
       "to": "$376.5M"
     },
     {
+      "name": "Emerald AI",
+      "from": "$68M",
+      "to": "$174M+"
+    },
+    {
       "name": "Venus Aerospace",
       "from": "$44M+",
       "to": "$135M+"
+    },
+    {
+      "name": "Northwood Space",
+      "from": "$38M+",
+      "to": "$130M+"
+    },
+    {
+      "name": "Scout AI",
+      "from": "$15M",
+      "to": "$115M+"
+    },
+    {
+      "name": "Freeform",
+      "from": "$125M+",
+      "to": "$85M+"
+    },
+    {
+      "name": "Normal Computing",
+      "from": "$75.5M",
+      "to": "$85M+"
+    },
+    {
+      "name": "NVision Imaging Technologies",
+      "from": "$20M",
+      "to": "$75M+"
     },
     {
       "name": "Windborne",
@@ -432,6 +554,16 @@ const CHANGELOG_WEEKLY = {
       "to": "$52M"
     },
     {
+      "name": "Corvus Robotics",
+      "from": "$28.2M",
+      "to": "$48M+"
+    },
+    {
+      "name": "Vinci",
+      "from": "Undisclosed",
+      "to": "$46M"
+    },
+    {
       "name": "PILGRIM",
       "from": "$4.3M",
       "to": "~$30M"
@@ -440,6 +572,16 @@ const CHANGELOG_WEEKLY = {
       "name": "Aslan",
       "from": "$20.3M",
       "to": "$20.8M"
+    },
+    {
+      "name": "Longshot Space",
+      "from": "$10M+",
+      "to": "$20M"
+    },
+    {
+      "name": "Mara",
+      "from": "$1.6M",
+      "to": "$8.6M+"
     }
   ],
   "stageChanges": [
@@ -469,6 +611,11 @@ const CHANGELOG_WEEKLY = {
       "to": "Series C"
     },
     {
+      "name": "Alpha School",
+      "from": "Series A",
+      "to": "Private"
+    },
+    {
       "name": "Amca",
       "from": "IPO",
       "to": "Series B"
@@ -496,12 +643,22 @@ const CHANGELOG_WEEKLY = {
     {
       "name": "Crusoe Energy",
       "from": "Series C",
-      "to": "Series E"
+      "to": "Series F"
     },
     {
       "name": "Dusty Robotics",
       "from": "Series A",
       "to": "Series B"
+    },
+    {
+      "name": "Earth AI",
+      "from": "Series G",
+      "to": "Series B"
+    },
+    {
+      "name": "Emerald AI",
+      "from": "Seed",
+      "to": "Series A"
     },
     {
       "name": "Endurance Energy",
@@ -512,6 +669,16 @@ const CHANGELOG_WEEKLY = {
       "name": "Etched",
       "from": "Series E",
       "to": "Series C"
+    },
+    {
+      "name": "Fortastra",
+      "from": "Series B",
+      "to": "Seed"
+    },
+    {
+      "name": "Furientis",
+      "from": "Pre-Seed",
+      "to": "Series A"
     },
     {
       "name": "LabGenius",
@@ -529,9 +696,24 @@ const CHANGELOG_WEEKLY = {
       "to": "Series B"
     },
     {
+      "name": "NVision Imaging Technologies",
+      "from": "Series A",
+      "to": "Series B"
+    },
+    {
       "name": "Nano Nuclear Energy",
       "from": "Seed",
       "to": "Public"
+    },
+    {
+      "name": "Neuralink",
+      "from": "Private",
+      "to": "Series E"
+    },
+    {
+      "name": "Nuro",
+      "from": "Series G",
+      "to": "Series E"
     },
     {
       "name": "PILGRIM",
@@ -567,6 +749,11 @@ const CHANGELOG_WEEKLY = {
       "name": "RobCo",
       "from": "Series A",
       "to": "Series C"
+    },
+    {
+      "name": "Scout AI",
+      "from": "Seed",
+      "to": "Series A"
     },
     {
       "name": "Space Forge",
@@ -614,9 +801,19 @@ const CHANGELOG_WEEKLY = {
       "to": "Late Stage"
     },
     {
+      "name": "Vatn Systems",
+      "from": "Series D",
+      "to": "Series A"
+    },
+    {
       "name": "Venus Aerospace",
       "from": "SPAC",
       "to": "Series B"
+    },
+    {
+      "name": "Vinci",
+      "from": "Undisclosed",
+      "to": "Series A"
     },
     {
       "name": "Windborne",
@@ -627,17 +824,32 @@ const CHANGELOG_WEEKLY = {
       "name": "d-Matrix",
       "from": "Series A",
       "to": "Series C"
+    },
+    {
+      "name": "fab2",
+      "from": "Seed",
+      "to": "Series A"
     }
   ],
   "il30Changes": {
-    "in": [],
-    "out": []
+    "in": [
+      "Alpha School"
+    ],
+    "out": [
+      "The Boring Company"
+    ]
   },
   "events": [
     {
       "name": "Orangewood Labs",
       "type": "funding",
       "text": "Raised $30M Series A",
+      "date": "2026-09"
+    },
+    {
+      "name": "Crusoe Energy",
+      "type": "funding",
+      "text": "Raised $3.9B Series F",
       "date": "2026-09"
     }
   ]

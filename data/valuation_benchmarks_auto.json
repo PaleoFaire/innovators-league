@@ -73,6 +73,21 @@
     "revenue": "$1B+"
   },
   {
+    "company": "Anduril Industries",
+    "valuation": "$61B",
+    "valuationRaw": 61000000000.0,
+    "source": "last_round",
+    "sourceLabel": "Latest funding round",
+    "confidence": "high",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Defense & Security",
+    "stage": "Series H",
+    "lastUpdated": "2026-10-01",
+    "revenueMultiple": "40.7x",
+    "revenue": "$1.5B+"
+  },
+  {
     "company": "Project Prometheus",
     "valuation": "$41B",
     "valuationRaw": 41000000000.0,
@@ -119,9 +134,9 @@
     "company": "Figure AI",
     "valuation": "$39B",
     "valuationRaw": 39000000000.0,
-    "source": "last_round",
-    "sourceLabel": "Latest funding round",
-    "confidence": "high",
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
     "ticker": null,
     "dayChange": null,
     "sector": "Robotics & Manufacturing",
@@ -142,27 +157,12 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Anduril Industries",
-    "valuation": "$30.5B",
-    "valuationRaw": 30500000000.0,
-    "source": "last_round",
-    "sourceLabel": "Latest funding round",
-    "confidence": "high",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Defense & Security",
-    "stage": "Series H",
-    "lastUpdated": "2026-10-01",
-    "revenueMultiple": "20.3x",
-    "revenue": "$1.5B+"
-  },
-  {
     "company": "The Boring Company",
     "valuation": "$23B",
     "valuationRaw": 23000000000.0,
-    "source": "curated",
-    "sourceLabel": "Curated from ROS research",
-    "confidence": "medium",
+    "source": "last_round",
+    "sourceLabel": "Latest funding round",
+    "confidence": "high",
     "ticker": null,
     "dayChange": null,
     "sector": "Transportation",
@@ -180,6 +180,19 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Series E",
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Helion",
+    "valuation": "$15.5B",
+    "valuationRaw": 15500000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Nuclear Energy",
+    "stage": "Series G",
     "lastUpdated": "2026-10-01"
   },
   {
@@ -212,12 +225,25 @@
     "company": "Skild AI",
     "valuation": "$14B+",
     "valuationRaw": 14000000000.0,
-    "source": "last_round",
-    "sourceLabel": "Latest funding round",
-    "confidence": "high",
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
     "ticker": null,
     "dayChange": null,
     "sector": "Robotics & Manufacturing",
+    "stage": "Series C",
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Castelion",
+    "valuation": "$13B",
+    "valuationRaw": 13000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Defense & Security",
     "stage": "Series C",
     "lastUpdated": "2026-10-01"
   },
@@ -248,6 +274,21 @@
     "lastUpdated": "2026-10-01",
     "revenueMultiple": "5.7x",
     "revenue": "$2.3B"
+  },
+  {
+    "company": "Shield AI",
+    "valuation": "$12.7B",
+    "valuationRaw": 12700000000.0,
+    "source": "last_round",
+    "sourceLabel": "Latest funding round",
+    "confidence": "high",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Defense & Security",
+    "stage": "Series G",
+    "lastUpdated": "2026-10-01",
+    "revenueMultiple": "25.4x",
+    "revenue": "$500M+"
   },
   {
     "company": "SambaNova Systems",
@@ -304,17 +345,19 @@
     "revenue": "$1B+"
   },
   {
-    "company": "Neuralink",
-    "valuation": "$9.7B",
-    "valuationRaw": 9700000000.0,
+    "company": "Saronic",
+    "valuation": "$9.25B",
+    "valuationRaw": 9250000000.0,
     "source": "last_round",
     "sourceLabel": "Latest funding round",
     "confidence": "high",
     "ticker": null,
     "dayChange": null,
-    "sector": "Biotech & Health",
-    "stage": "Private",
-    "lastUpdated": "2026-10-01"
+    "sector": "Defense & Security",
+    "stage": "Series D",
+    "lastUpdated": "2026-10-01",
+    "revenueMultiple": "185.0x",
+    "revenue": "$50M+"
   },
   {
     "company": "Wayve",
@@ -458,9 +501,9 @@
     "company": "Valar Atomics",
     "valuation": "$6B",
     "valuationRaw": 6000000000.0,
-    "source": "curated",
-    "sourceLabel": "Curated from ROS research",
-    "confidence": "medium",
+    "source": "last_round",
+    "sourceLabel": "Latest funding round",
+    "confidence": "high",
     "ticker": null,
     "dayChange": null,
     "sector": "Nuclear Energy",
@@ -546,34 +589,6 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Shield AI",
-    "valuation": "$5.6B",
-    "valuationRaw": 5600000000.0,
-    "source": "last_round",
-    "sourceLabel": "Latest funding round",
-    "confidence": "high",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Defense & Security",
-    "stage": "Series G",
-    "lastUpdated": "2026-10-01",
-    "revenueMultiple": "11.2x",
-    "revenue": "$500M+"
-  },
-  {
-    "company": "Helion",
-    "valuation": "$5.4B",
-    "valuationRaw": 5400000000.0,
-    "source": "last_round",
-    "sourceLabel": "Latest funding round",
-    "confidence": "high",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Nuclear Energy",
-    "stage": "Series G",
-    "lastUpdated": "2026-10-01"
-  },
-  {
     "company": "Kratos Defense",
     "valuation": "$5B+",
     "valuationRaw": 5000000000.0,
@@ -584,6 +599,19 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "",
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Unconventional AI",
+    "valuation": "$4.5B",
+    "valuationRaw": 4500000000.0,
+    "source": "last_round",
+    "sourceLabel": "Latest funding round",
+    "confidence": "high",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Chips & Semiconductors",
+    "stage": "Seed",
     "lastUpdated": "2026-10-01"
   },
   {
@@ -643,21 +671,6 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Saronic",
-    "valuation": "$4B",
-    "valuationRaw": 4000000000.0,
-    "source": "last_round",
-    "sourceLabel": "Latest funding round",
-    "confidence": "high",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Defense & Security",
-    "stage": "Series D",
-    "lastUpdated": "2026-10-01",
-    "revenueMultiple": "80.0x",
-    "revenue": "$50M+"
-  },
-  {
     "company": "Chai Discovery",
     "valuation": "$3.8B",
     "valuationRaw": 3800000000.0,
@@ -684,6 +697,32 @@
     "lastUpdated": "2026-10-01"
   },
   {
+    "company": "fab2",
+    "valuation": "$3.7B",
+    "valuationRaw": 3700000000.0,
+    "source": "last_round",
+    "sourceLabel": "Latest funding round",
+    "confidence": "high",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Chips & Semiconductors",
+    "stage": "Series A",
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Mach Industries",
+    "valuation": "$3.7B",
+    "valuationRaw": 3700000000.0,
+    "source": "last_round",
+    "sourceLabel": "Latest funding round",
+    "confidence": "high",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Defense & Security",
+    "stage": "Series C",
+    "lastUpdated": "2026-10-01"
+  },
+  {
     "company": "QuantumScape",
     "valuation": "$3.63B",
     "valuationRaw": 3630000000.0,
@@ -697,19 +736,6 @@
     "lastUpdated": "2026-10-01",
     "revenueMultiple": "75.6x",
     "revenue": "$48M"
-  },
-  {
-    "company": "Astranis",
-    "valuation": "$3.5B",
-    "valuationRaw": 3500000000.0,
-    "source": "last_round",
-    "sourceLabel": "Latest funding round",
-    "confidence": "high",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Space & Aerospace",
-    "stage": "Series E",
-    "lastUpdated": "2026-10-01"
   },
   {
     "company": "Archer Aviation",
@@ -781,6 +807,19 @@
     "revenue": "$133M\u2013$145M"
   },
   {
+    "company": "Astranis",
+    "valuation": "$2.8B",
+    "valuationRaw": 2800000000.0,
+    "source": "last_round",
+    "sourceLabel": "Latest funding round",
+    "confidence": "high",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Space & Aerospace",
+    "stage": "Series E",
+    "lastUpdated": "2026-10-01"
+  },
+  {
     "company": "Tenstorrent",
     "valuation": "$2.7B",
     "valuationRaw": 2700000000.0,
@@ -810,9 +849,9 @@
     "company": "Rebellions",
     "valuation": "$2.34B",
     "valuationRaw": 2340000000.0,
-    "source": "curated",
-    "sourceLabel": "Curated from ROS research",
-    "confidence": "medium",
+    "source": "last_round",
+    "sourceLabel": "Latest funding round",
+    "confidence": "high",
     "ticker": null,
     "dayChange": null,
     "sector": "Chips & Semiconductors",
@@ -862,9 +901,9 @@
     "company": "Allen Control Systems",
     "valuation": "$2.2B",
     "valuationRaw": 2200000000.0,
-    "source": "curated",
-    "sourceLabel": "Curated from ROS research",
-    "confidence": "medium",
+    "source": "last_round",
+    "sourceLabel": "Latest funding round",
+    "confidence": "high",
     "ticker": null,
     "dayChange": null,
     "sector": "Defense & Security",
@@ -1015,6 +1054,19 @@
     "lastUpdated": "2026-10-01"
   },
   {
+    "company": "Bedrock Robotics",
+    "valuation": "$1.75B",
+    "valuationRaw": 1750000000.0,
+    "source": "last_round",
+    "sourceLabel": "Latest funding round",
+    "confidence": "high",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Robotics & Manufacturing",
+    "stage": "Series B",
+    "lastUpdated": "2026-10-01"
+  },
+  {
     "company": "Dexterity",
     "valuation": "$1.65B",
     "valuationRaw": 1650000000.0,
@@ -1071,29 +1123,29 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Boom Supersonic",
-    "valuation": "$1.5B",
-    "valuationRaw": 1500000000.0,
-    "source": "last_round",
-    "sourceLabel": "Latest funding round",
-    "confidence": "high",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Supersonic & Hypersonic",
-    "stage": "Private",
-    "lastUpdated": "2026-10-01"
-  },
-  {
     "company": "Varda Space Industries",
-    "valuation": "$1.5B",
-    "valuationRaw": 1500000000.0,
-    "source": "last_round",
-    "sourceLabel": "Latest funding round",
-    "confidence": "high",
+    "valuation": "$1.58B",
+    "valuationRaw": 1580000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
     "ticker": null,
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Series D",
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Boom Supersonic",
+    "valuation": "$1.5B",
+    "valuationRaw": 1500000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Supersonic & Hypersonic",
+    "stage": "Private",
     "lastUpdated": "2026-10-01"
   },
   {
@@ -1107,19 +1159,6 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Series B",
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Epirus",
-    "valuation": "$1.35B",
-    "valuationRaw": 1350000000.0,
-    "source": "last_round",
-    "sourceLabel": "Latest funding round",
-    "confidence": "high",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Defense & Security",
-    "stage": "Series D",
     "lastUpdated": "2026-10-01"
   },
   {
@@ -1240,6 +1279,19 @@
     "lastUpdated": "2026-10-01"
   },
   {
+    "company": "Emerald AI",
+    "valuation": "$1.05B",
+    "valuationRaw": 1050000000.0,
+    "source": "last_round",
+    "sourceLabel": "Latest funding round",
+    "confidence": "high",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Climate & Energy",
+    "stage": "Series A",
+    "lastUpdated": "2026-10-01"
+  },
+  {
     "company": "Evolv Technology",
     "valuation": "$1.04B",
     "valuationRaw": 1040000000.0,
@@ -1263,19 +1315,6 @@
     "dayChange": null,
     "sector": "Biotech & Health",
     "stage": "Public",
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Castelion",
-    "valuation": "$1B+",
-    "valuationRaw": 1000000000.0,
-    "source": "last_round",
-    "sourceLabel": "Latest funding round",
-    "confidence": "high",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Defense & Security",
-    "stage": "Series C",
     "lastUpdated": "2026-10-01"
   },
   {
@@ -1515,19 +1554,6 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Heaviside",
-    "valuation": "$600M",
-    "valuationRaw": 600000000.0,
-    "source": "last_round",
-    "sourceLabel": "Latest funding round",
-    "confidence": "high",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Defense & Security",
-    "stage": "Series A",
-    "lastUpdated": "2026-10-01"
-  },
-  {
     "company": "Eikon Therapeutics",
     "valuation": "$539M",
     "valuationRaw": 539000000.0,
@@ -1569,62 +1595,6 @@
     "revenue": "$23M"
   },
   {
-    "company": "Bedrock Robotics",
-    "valuation": "$500M",
-    "valuationRaw": 500000000.0,
-    "source": "last_round",
-    "sourceLabel": "Latest funding round",
-    "confidence": "high",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Robotics & Manufacturing",
-    "stage": "Series B",
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Pano AI",
-    "valuation": "$500M+",
-    "valuationRaw": 500000000.0,
-    "source": "last_round",
-    "sourceLabel": "Latest funding round",
-    "confidence": "high",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Climate & Energy",
-    "stage": "Series B",
-    "lastUpdated": "2026-10-01",
-    "revenueMultiple": "5.0x",
-    "revenue": "$100M+"
-  },
-  {
-    "company": "Collaborative Robotics",
-    "valuation": "$500M",
-    "valuationRaw": 500000000.0,
-    "source": "last_round",
-    "sourceLabel": "Latest funding round",
-    "confidence": "high",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Robotics & Manufacturing",
-    "stage": "Series B",
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "AiDash",
-    "valuation": "$400M+",
-    "valuationRaw": 400000000.0,
-    "source": "last_round",
-    "sourceLabel": "Latest funding round",
-    "confidence": "high",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Infrastructure & Logistics",
-    "stage": "Series C",
-    "lastUpdated": "2026-10-01",
-    "revenueMultiple": "8.0x",
-    "revenue": "$50M+"
-  },
-  {
     "company": "Singularity",
     "valuation": "$400M",
     "valuationRaw": 400000000.0,
@@ -1635,19 +1605,6 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Series A",
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "GrayMatter Robotics",
-    "valuation": "$300M+",
-    "valuationRaw": 300000000.0,
-    "source": "last_round",
-    "sourceLabel": "Latest funding round",
-    "confidence": "high",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Robotics & Manufacturing",
-    "stage": "Series B",
     "lastUpdated": "2026-10-01"
   },
   {

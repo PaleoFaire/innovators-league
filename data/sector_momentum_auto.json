@@ -1,17 +1,17 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 45,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
+      "ANYbotics launches Shift to streamline robot fleet operation",
       "SHOCKING Can 20 SpaceX Minihards Out-Earn 8 MILLION Tesla Ro",
-      "Meet Flourish One, the Raspberry Pi-powered humanoid built f",
-      "SpaceX AI Gameover for Rivals -Money Wise Minihard Crushes E"
+      "Meet Flourish One, the Raspberry Pi-powered humanoid built f"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 40,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
@@ -34,26 +34,26 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "sector": "Biotech & Health",
+    "sector": "Space & Aerospace",
     "momentum": 28,
-    "trend": "declining",
+    "trend": "rising",
     "catalysts": [
-      "Is Neko Health\u2019s body scan worth it?\u00a0Spotify billionaire\u2019s\u00a0s",
-      "SHOCKING Can 20 SpaceX Minihards Out-Earn 8 MILLION Tesla Ro",
-      "Anthropic Says It Discovered a Crispr-Like System. Now What?"
+      "Satlyt, founded by a former Google and SpaceX product manage",
+      "ANYbotics launches Shift to streamline robot fleet operation",
+      "Help Overlap Zoo Reveal Cosmic Dust"
     ],
-    "fundingQ": "$0M",
+    "fundingQ": "$259M",
     "components": {
-      "funding": 0,
-      "news": 30,
+      "funding": 15,
+      "news": 70,
       "hiring": 0,
-      "market": 100
+      "market": 27
     },
     "lastUpdated": "2026-10-01"
   },
   {
     "sector": "AI & Software",
-    "momentum": 26,
+    "momentum": 25,
     "trend": "rising",
     "catalysts": [
       "\u201cWe\u2019re not going to shoot ourselves in the foot\u201d over hack f",
@@ -63,25 +63,43 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 65,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
     "lastUpdated": "2026-10-01"
   },
   {
-    "sector": "Consumer Tech",
-    "momentum": 22,
-    "trend": "rising",
+    "sector": "Biotech & Health",
+    "momentum": 25,
+    "trend": "declining",
     "catalysts": [
-      "Terran Orbital Names Jamin Brown Chief Operating Officer",
-      "OpenAI\u2019s Dots Are Always-On AI Agents\u2014and Its Answer to Meta",
-      "Meet Flourish One, the Raspberry Pi-powered humanoid built f"
+      "Is Neko Health\u2019s body scan worth it?\u00a0Spotify billionaire\u2019s\u00a0s",
+      "SHOCKING Can 20 SpaceX Minihards Out-Earn 8 MILLION Tesla Ro",
+      "Anthropic Says It Discovered a Crispr-Like System. Now What?"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 50,
+      "news": 20,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 25,
+    "trend": "rising",
+    "catalysts": [
+      "Satlyt, founded by a former Google and SpaceX product manage",
+      "ANYbotics launches Shift to streamline robot fleet operation",
+      "Help Overlap Zoo Reveal Cosmic Dust"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
@@ -89,37 +107,19 @@
   },
   {
     "sector": "Defense & Security",
-    "momentum": 21,
-    "trend": "rising",
+    "momentum": 19,
+    "trend": "declining",
     "catalysts": [
       "Terran Orbital Names Jamin Brown Chief Operating Officer",
       "Anthropic loses legal fight to shed DOD's designation as a '",
       "US appeals court upholds Pentagon\u2019s blacklisting of Anthropi"
     ],
-    "fundingQ": "$850M",
+    "fundingQ": "$607M",
     "components": {
-      "funding": 27,
+      "funding": 21,
       "news": 25,
       "hiring": 0,
       "market": 25
-    },
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 19,
-    "trend": "rising",
-    "catalysts": [
-      "SHOCKING Can 20 SpaceX Minihards Out-Earn 8 MILLION Tesla Ro",
-      "NaviGate successfully demonstrates onboard precise orbit det",
-      "H Company cofounder Charles Kantor launches new AI neocloud"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 55,
-      "hiring": 0,
-      "market": 27
     },
     "lastUpdated": "2026-10-01"
   },
@@ -138,24 +138,6 @@
       "news": 15,
       "hiring": 0,
       "market": 50
-    },
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 13,
-    "trend": "declining",
-    "catalysts": [
-      "With federal funding windfall, X-energy advances small nucle",
-      "Mazama Energy raises $135M for superhot geothermal at Oregon",
-      "xAI has quietly built a massive battery at its Memphis data"
-    ],
-    "fundingQ": "$269M",
-    "components": {
-      "funding": 23,
-      "news": 20,
-      "hiring": 0,
-      "market": 0
     },
     "lastUpdated": "2026-10-01"
   },
@@ -254,6 +236,24 @@
       "news": 0,
       "hiring": 0,
       "market": 50
+    },
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 9,
+    "trend": "declining",
+    "catalysts": [
+      "With federal funding windfall, X-energy advances small nucle",
+      "Mazama Energy raises $135M for superhot geothermal at Oregon",
+      "xAI has quietly built a massive battery at its Memphis data"
+    ],
+    "fundingQ": "$135M",
+    "components": {
+      "funding": 11,
+      "news": 20,
+      "hiring": 0,
+      "market": 0
     },
     "lastUpdated": "2026-10-01"
   },

@@ -1,8 +1,8 @@
 [
   {
     "company": "SpaceX",
-    "openPositions": 2592,
-    "estimatedHeadcount": 37029,
+    "openPositions": 2606,
+    "estimatedHeadcount": 37229,
     "headcountFormatted": "37K+",
     "vacancyRate": 0.07,
     "hiringVelocity": "surging",
@@ -13,10 +13,10 @@
   },
   {
     "company": "Stripe",
-    "openPositions": 716,
+    "openPositions": 714,
     "estimatedHeadcount": 7657,
     "headcountFormatted": "7,657+",
-    "vacancyRate": 0.094,
+    "vacancyRate": 0.093,
     "hiringVelocity": "surging",
     "sector": "unknown",
     "growthTrend": "",
@@ -25,10 +25,10 @@
   },
   {
     "company": "Anthropic",
-    "openPositions": 638,
+    "openPositions": 635,
     "estimatedHeadcount": 5971,
     "headcountFormatted": "5,971+",
-    "vacancyRate": 0.107,
+    "vacancyRate": 0.106,
     "hiringVelocity": "surging",
     "sector": "unknown",
     "growthTrend": "",
@@ -37,7 +37,7 @@
   },
   {
     "company": "Rocket Lab",
-    "openPositions": 551,
+    "openPositions": 552,
     "estimatedHeadcount": 5143,
     "headcountFormatted": "5,143+",
     "vacancyRate": 0.107,
@@ -49,10 +49,10 @@
   },
   {
     "company": "Halter",
-    "openPositions": 244,
+    "openPositions": 247,
     "estimatedHeadcount": 3514,
     "headcountFormatted": "3,514+",
-    "vacancyRate": 0.069,
+    "vacancyRate": 0.07,
     "hiringVelocity": "surging",
     "sector": "robotics & manufacturing",
     "growthTrend": "",
@@ -73,23 +73,11 @@
   },
   {
     "company": "AST SpaceMobile",
-    "openPositions": 233,
+    "openPositions": 232,
     "estimatedHeadcount": 2900,
     "headcountFormatted": "2,900+",
     "vacancyRate": 0.08,
     "hiringVelocity": "surging",
-    "sector": "space & aerospace",
-    "growthTrend": "",
-    "isCurated": true,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Sierra Space",
-    "openPositions": 194,
-    "estimatedHeadcount": 2886,
-    "headcountFormatted": "2,886+",
-    "vacancyRate": 0.067,
-    "hiringVelocity": "rapid",
     "sector": "space & aerospace",
     "growthTrend": "",
     "isCurated": true,
@@ -108,6 +96,18 @@
     "lastUpdated": "2026-10-01"
   },
   {
+    "company": "Sierra Space",
+    "openPositions": 194,
+    "estimatedHeadcount": 2771,
+    "headcountFormatted": "2,771+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "rapid",
+    "sector": "space & aerospace",
+    "growthTrend": "-4%",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
     "company": "Scale AI",
     "openPositions": 193,
     "estimatedHeadcount": 2757,
@@ -115,31 +115,31 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "unknown",
-    "growthTrend": "+1%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
   {
     "company": "ICEYE",
-    "openPositions": 183,
-    "estimatedHeadcount": 2614,
-    "headcountFormatted": "2,614+",
+    "openPositions": 182,
+    "estimatedHeadcount": 2600,
+    "headcountFormatted": "2,600+",
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "space & aerospace",
-    "growthTrend": "-2%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
   {
     "company": "Astera Labs",
-    "openPositions": 179,
-    "estimatedHeadcount": 2557,
-    "headcountFormatted": "2,557+",
+    "openPositions": 180,
+    "estimatedHeadcount": 2571,
+    "headcountFormatted": "2,571+",
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "chips & semiconductors",
-    "growthTrend": "+2%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -151,19 +151,19 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "unknown",
-    "growthTrend": "-3%",
-    "isCurated": false,
+    "growthTrend": "",
+    "isCurated": true,
     "lastUpdated": "2026-10-01"
   },
   {
     "company": "Astranis",
-    "openPositions": 172,
-    "estimatedHeadcount": 2457,
-    "headcountFormatted": "2,457+",
+    "openPositions": 174,
+    "estimatedHeadcount": 2486,
+    "headcountFormatted": "2,486+",
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "space & aerospace",
-    "growthTrend": "+5%",
+    "growthTrend": "+1%",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -175,15 +175,15 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "defense & security",
-    "growthTrend": "-2%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
   {
     "company": "Redwood Materials",
-    "openPositions": 137,
-    "estimatedHeadcount": 1957,
-    "headcountFormatted": "1,957+",
+    "openPositions": 136,
+    "estimatedHeadcount": 1943,
+    "headcountFormatted": "1,943+",
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "climate & energy",
@@ -200,6 +200,18 @@
     "hiringVelocity": "rapid",
     "sector": "robotics & manufacturing",
     "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Muon Space",
+    "openPositions": 133,
+    "estimatedHeadcount": 1900,
+    "headcountFormatted": "1,900+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "rapid",
+    "sector": "space & aerospace",
+    "growthTrend": "+2%",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -229,7 +241,7 @@
   },
   {
     "company": "Zipline",
-    "openPositions": 352,
+    "openPositions": 351,
     "estimatedHeadcount": 1871,
     "headcountFormatted": "1,871+",
     "vacancyRate": 0.188,
@@ -240,22 +252,10 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Muon Space",
+    "company": "Re:Build Manufacturing",
     "openPositions": 130,
     "estimatedHeadcount": 1857,
     "headcountFormatted": "1,857+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "rapid",
-    "sector": "space & aerospace",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Re:Build Manufacturing",
-    "openPositions": 129,
-    "estimatedHeadcount": 1843,
-    "headcountFormatted": "1,843+",
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "robotics & manufacturing",
@@ -265,25 +265,37 @@
   },
   {
     "company": "Tenstorrent",
-    "openPositions": 124,
-    "estimatedHeadcount": 1771,
-    "headcountFormatted": "1,771+",
+    "openPositions": 126,
+    "estimatedHeadcount": 1800,
+    "headcountFormatted": "1,800+",
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "chips & semiconductors",
-    "growthTrend": "-2%",
+    "growthTrend": "+2%",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
   {
     "company": "General Matter",
-    "openPositions": 123,
-    "estimatedHeadcount": 1757,
-    "headcountFormatted": "1,757+",
+    "openPositions": 124,
+    "estimatedHeadcount": 1771,
+    "headcountFormatted": "1,771+",
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "nuclear energy",
     "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "IonQ",
+    "openPositions": 122,
+    "estimatedHeadcount": 1743,
+    "headcountFormatted": "1,743+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "rapid",
+    "sector": "quantum computing",
+    "growthTrend": "+13%",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -295,44 +307,32 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "defense & security",
-    "growthTrend": "-4%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
   {
     "company": "Divergent",
-    "openPositions": 115,
-    "estimatedHeadcount": 1643,
-    "headcountFormatted": "1,643+",
+    "openPositions": 114,
+    "estimatedHeadcount": 1629,
+    "headcountFormatted": "1,629+",
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "robotics & manufacturing",
-    "growthTrend": "+3%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
   {
     "company": "Ursa Major Technologies",
-    "openPositions": 109,
-    "estimatedHeadcount": 1557,
-    "headcountFormatted": "1,557+",
+    "openPositions": 110,
+    "estimatedHeadcount": 1571,
+    "headcountFormatted": "1,571+",
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "space & aerospace",
     "growthTrend": "",
     "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "IonQ",
-    "openPositions": 122,
-    "estimatedHeadcount": 1543,
-    "headcountFormatted": "1,543+",
-    "vacancyRate": 0.079,
-    "hiringVelocity": "rapid",
-    "sector": "quantum computing",
-    "growthTrend": "",
-    "isCurated": true,
     "lastUpdated": "2026-10-01"
   },
   {
@@ -355,7 +355,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "space & aerospace",
-    "growthTrend": "+3%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -367,20 +367,20 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "space & aerospace",
-    "growthTrend": "+10%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Humanoid",
-    "openPositions": 101,
+    "company": "Varda Space Industries",
+    "openPositions": 100,
     "estimatedHeadcount": 1429,
     "headcountFormatted": "1,429+",
-    "vacancyRate": 0.071,
+    "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
-    "sector": "robotics & manufacturing",
-    "growthTrend": "",
-    "isCurated": true,
+    "sector": "space & aerospace",
+    "growthTrend": "+12%",
+    "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
   {
@@ -391,8 +391,20 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "robotics & manufacturing",
-    "growthTrend": "+1%",
+    "growthTrend": "",
     "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Humanoid",
+    "openPositions": 100,
+    "estimatedHeadcount": 1429,
+    "headcountFormatted": "1,429+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "rapid",
+    "sector": "robotics & manufacturing",
+    "growthTrend": "",
+    "isCurated": true,
     "lastUpdated": "2026-10-01"
   },
   {
@@ -403,8 +415,8 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "transportation",
-    "growthTrend": "+1%",
-    "isCurated": false,
+    "growthTrend": "",
+    "isCurated": true,
     "lastUpdated": "2026-10-01"
   },
   {
@@ -439,7 +451,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "climate & energy",
-    "growthTrend": "+1%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -451,18 +463,6 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "transportation",
-    "growthTrend": "+5%",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Varda Space Industries",
-    "openPositions": 89,
-    "estimatedHeadcount": 1271,
-    "headcountFormatted": "1,271+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "rapid",
-    "sector": "space & aerospace",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
@@ -481,13 +481,13 @@
   },
   {
     "company": "Antares",
-    "openPositions": 87,
-    "estimatedHeadcount": 1243,
-    "headcountFormatted": "1,243+",
+    "openPositions": 86,
+    "estimatedHeadcount": 1229,
+    "headcountFormatted": "1,229+",
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "nuclear energy",
-    "growthTrend": "",
+    "growthTrend": "-1%",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -511,7 +511,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "space & aerospace",
-    "growthTrend": "+4%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -540,6 +540,18 @@
     "lastUpdated": "2026-10-01"
   },
   {
+    "company": "Mariana Minerals",
+    "openPositions": 78,
+    "estimatedHeadcount": 1114,
+    "headcountFormatted": "1,114+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "rapid",
+    "sector": "climate & energy",
+    "growthTrend": "+1%",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
     "company": "Together AI",
     "openPositions": 77,
     "estimatedHeadcount": 1100,
@@ -547,18 +559,6 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "unknown",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Mariana Minerals",
-    "openPositions": 77,
-    "estimatedHeadcount": 1100,
-    "headcountFormatted": "1,100+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "rapid",
-    "sector": "climate & energy",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
@@ -583,7 +583,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "quantum computing",
-    "growthTrend": "+4%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -612,18 +612,6 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Genesis AI",
-    "openPositions": 69,
-    "estimatedHeadcount": 986,
-    "headcountFormatted": "1000+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "rapid",
-    "sector": "robotics & manufacturing",
-    "growthTrend": "+2%",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
     "company": "Lightmatter",
     "openPositions": 68,
     "estimatedHeadcount": 971,
@@ -631,7 +619,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "chips & semiconductors",
-    "growthTrend": "+5%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -648,27 +636,39 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Aalo Atomics",
+    "company": "Genesis AI",
     "openPositions": 67,
     "estimatedHeadcount": 957,
     "headcountFormatted": "950+",
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
-    "sector": "nuclear energy",
-    "growthTrend": "",
+    "sector": "robotics & manufacturing",
+    "growthTrend": "-3%",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
   {
     "company": "Agility Robotics",
-    "openPositions": 70,
+    "openPositions": 71,
     "estimatedHeadcount": 950,
     "headcountFormatted": "950+",
-    "vacancyRate": 0.074,
+    "vacancyRate": 0.075,
     "hiringVelocity": "rapid",
     "sector": "robotics & manufacturing",
     "growthTrend": "",
     "isCurated": true,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Aalo Atomics",
+    "openPositions": 65,
+    "estimatedHeadcount": 929,
+    "headcountFormatted": "950+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "rapid",
+    "sector": "nuclear energy",
+    "growthTrend": "-3%",
+    "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
   {
@@ -691,7 +691,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "space & aerospace",
-    "growthTrend": "+5%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -703,7 +703,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "space & aerospace",
-    "growthTrend": "-2%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -770,21 +770,21 @@
   {
     "company": "Xcimer Energy",
     "openPositions": 50,
-    "estimatedHeadcount": 700,
+    "estimatedHeadcount": 714,
     "headcountFormatted": "700+",
-    "vacancyRate": 0.071,
+    "vacancyRate": 0.07,
     "hiringVelocity": "rapid",
     "sector": "nuclear energy",
-    "growthTrend": "",
-    "isCurated": true,
+    "growthTrend": "+2%",
+    "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
   {
     "company": "Armada",
-    "openPositions": 39,
+    "openPositions": 40,
     "estimatedHeadcount": 700,
     "headcountFormatted": "700+",
-    "vacancyRate": 0.056,
+    "vacancyRate": 0.057,
     "hiringVelocity": "growing",
     "sector": "space & aerospace",
     "growthTrend": "",
@@ -805,10 +805,10 @@
   },
   {
     "company": "ClearSpace",
-    "openPositions": 46,
+    "openPositions": 48,
     "estimatedHeadcount": 650,
     "headcountFormatted": "650+",
-    "vacancyRate": 0.071,
+    "vacancyRate": 0.074,
     "hiringVelocity": "growing",
     "sector": "space & aerospace",
     "growthTrend": "",
@@ -823,7 +823,7 @@
     "vacancyRate": 0.071,
     "hiringVelocity": "growing",
     "sector": "robotics & manufacturing",
-    "growthTrend": "-1%",
+    "growthTrend": "",
     "isCurated": true,
     "lastUpdated": "2026-10-01"
   },
@@ -841,10 +841,10 @@
   },
   {
     "company": "Singularity",
-    "openPositions": 38,
+    "openPositions": 37,
     "estimatedHeadcount": 650,
     "headcountFormatted": "650+",
-    "vacancyRate": 0.058,
+    "vacancyRate": 0.057,
     "hiringVelocity": "growing",
     "sector": "defense & security",
     "growthTrend": "",
@@ -937,10 +937,10 @@
   },
   {
     "company": "Skylo",
-    "openPositions": 39,
+    "openPositions": 38,
     "estimatedHeadcount": 600,
     "headcountFormatted": "600+",
-    "vacancyRate": 0.065,
+    "vacancyRate": 0.063,
     "hiringVelocity": "growing",
     "sector": "space & aerospace",
     "growthTrend": "",
@@ -949,12 +949,24 @@
   },
   {
     "company": "Pacific Fusion",
-    "openPositions": 29,
+    "openPositions": 28,
     "estimatedHeadcount": 600,
     "headcountFormatted": "600+",
-    "vacancyRate": 0.048,
+    "vacancyRate": 0.047,
     "hiringVelocity": "growing",
     "sector": "nuclear energy",
+    "growthTrend": "",
+    "isCurated": true,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Osmo",
+    "openPositions": 42,
+    "estimatedHeadcount": 550,
+    "headcountFormatted": "550+",
+    "vacancyRate": 0.076,
+    "hiringVelocity": "growing",
+    "sector": "consumer tech",
     "growthTrend": "",
     "isCurated": true,
     "lastUpdated": "2026-10-01"
@@ -967,7 +979,7 @@
     "vacancyRate": 0.073,
     "hiringVelocity": "growing",
     "sector": "defense & security",
-    "growthTrend": "-4%",
+    "growthTrend": "",
     "isCurated": true,
     "lastUpdated": "2026-10-01"
   },
@@ -1008,18 +1020,6 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Osmo",
-    "openPositions": 39,
-    "estimatedHeadcount": 550,
-    "headcountFormatted": "550+",
-    "vacancyRate": 0.071,
-    "hiringVelocity": "growing",
-    "sector": "consumer tech",
-    "growthTrend": "",
-    "isCurated": true,
-    "lastUpdated": "2026-10-01"
-  },
-  {
     "company": "Sift Stack",
     "openPositions": 39,
     "estimatedHeadcount": 550,
@@ -1040,6 +1040,18 @@
     "hiringVelocity": "growing",
     "sector": "supersonic & hypersonic",
     "growthTrend": "",
+    "isCurated": true,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Nimble Robotics",
+    "openPositions": 38,
+    "estimatedHeadcount": 550,
+    "headcountFormatted": "550+",
+    "vacancyRate": 0.069,
+    "hiringVelocity": "growing",
+    "sector": "robotics & manufacturing",
+    "growthTrend": "+1%",
     "isCurated": true,
     "lastUpdated": "2026-10-01"
   },
@@ -1128,14 +1140,14 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Nimble Robotics",
-    "openPositions": 38,
-    "estimatedHeadcount": 543,
+    "company": "Fractile",
+    "openPositions": 37,
+    "estimatedHeadcount": 529,
     "headcountFormatted": "550+",
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
-    "sector": "robotics & manufacturing",
-    "growthTrend": "+9%",
+    "sector": "chips & semiconductors",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -1147,19 +1159,19 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "nuclear energy",
-    "growthTrend": "-4%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Fractile",
+    "company": "Twenty",
     "openPositions": 37,
     "estimatedHeadcount": 529,
     "headcountFormatted": "550+",
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
-    "sector": "chips & semiconductors",
-    "growthTrend": "-4%",
+    "sector": "defense & security",
+    "growthTrend": "+3%",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -1171,18 +1183,6 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "climate & energy",
-    "growthTrend": "+3%",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Twenty",
-    "openPositions": 36,
-    "estimatedHeadcount": 514,
-    "headcountFormatted": "500+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "growing",
-    "sector": "defense & security",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
@@ -1219,7 +1219,19 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "space & aerospace",
-    "growthTrend": "-3%",
+    "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Kairos Power",
+    "openPositions": 34,
+    "estimatedHeadcount": 486,
+    "headcountFormatted": "500+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "growing",
+    "sector": "nuclear energy",
+    "growthTrend": "+6%",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -1248,18 +1260,6 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Onebrief",
-    "openPositions": 34,
-    "estimatedHeadcount": 486,
-    "headcountFormatted": "500+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "growing",
-    "sector": "defense & security",
-    "growthTrend": "+3%",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
     "company": "BRINC Drones",
     "openPositions": 33,
     "estimatedHeadcount": 471,
@@ -1273,6 +1273,18 @@
   },
   {
     "company": "Code Metal",
+    "openPositions": 33,
+    "estimatedHeadcount": 471,
+    "headcountFormatted": "450+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "growing",
+    "sector": "defense & security",
+    "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Onebrief",
     "openPositions": 33,
     "estimatedHeadcount": 471,
     "headcountFormatted": "450+",
@@ -1308,14 +1320,14 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Kairos Power",
+    "company": "Iambic Therapeutics",
     "openPositions": 32,
     "estimatedHeadcount": 457,
     "headcountFormatted": "450+",
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
-    "sector": "nuclear energy",
-    "growthTrend": "+7%",
+    "sector": "biotech & health",
+    "growthTrend": "+3%",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -1332,18 +1344,6 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Iambic Therapeutics",
-    "openPositions": 31,
-    "estimatedHeadcount": 443,
-    "headcountFormatted": "450+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "growing",
-    "sector": "biotech & health",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
     "company": "Isomorphic Labs",
     "openPositions": 31,
     "estimatedHeadcount": 443,
@@ -1351,7 +1351,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "biotech & health",
-    "growthTrend": "-3%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -1380,6 +1380,18 @@
     "lastUpdated": "2026-10-01"
   },
   {
+    "company": "Periodic Labs",
+    "openPositions": 31,
+    "estimatedHeadcount": 443,
+    "headcountFormatted": "450+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "growing",
+    "sector": "ai & software",
+    "growthTrend": "+3%",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
     "company": "TerraFirma",
     "openPositions": 31,
     "estimatedHeadcount": 443,
@@ -1399,7 +1411,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "supersonic & hypersonic",
-    "growthTrend": "+3%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -1416,18 +1428,6 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Periodic Labs",
-    "openPositions": 30,
-    "estimatedHeadcount": 429,
-    "headcountFormatted": "450+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "growing",
-    "sector": "ai & software",
-    "growthTrend": "-3%",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
     "company": "Performance Drone Works",
     "openPositions": 30,
     "estimatedHeadcount": 429,
@@ -1435,7 +1435,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "defense & security",
-    "growthTrend": "+7%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -1447,7 +1447,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "quantum computing",
-    "growthTrend": "+4%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -1459,7 +1459,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "chips & semiconductors",
-    "growthTrend": "+67%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -1488,18 +1488,6 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Riverlane",
-    "openPositions": 29,
-    "estimatedHeadcount": 414,
-    "headcountFormatted": "400+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "growing",
-    "sector": "quantum computing",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
     "company": "Rivet Industries",
     "openPositions": 29,
     "estimatedHeadcount": 414,
@@ -1507,6 +1495,18 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "defense & security",
+    "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Riverlane",
+    "openPositions": 29,
+    "estimatedHeadcount": 414,
+    "headcountFormatted": "400+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "growing",
+    "sector": "quantum computing",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
@@ -1555,7 +1555,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "drones & autonomous",
-    "growthTrend": "+4%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -1591,7 +1591,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "quantum computing",
-    "growthTrend": "+4%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -1615,7 +1615,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "robotics & manufacturing",
-    "growthTrend": "-7%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -1639,30 +1639,6 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "robotics & manufacturing",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Atomic Machines",
-    "openPositions": 24,
-    "estimatedHeadcount": 343,
-    "headcountFormatted": "350+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "growing",
-    "sector": "chips & semiconductors",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Focused Energy",
-    "openPositions": 24,
-    "estimatedHeadcount": 343,
-    "headcountFormatted": "350+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "growing",
-    "sector": "nuclear energy",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
@@ -1716,6 +1692,30 @@
     "lastUpdated": "2026-10-01"
   },
   {
+    "company": "Focused Energy",
+    "openPositions": 24,
+    "estimatedHeadcount": 343,
+    "headcountFormatted": "350+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "growing",
+    "sector": "nuclear energy",
+    "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Atomic Machines",
+    "openPositions": 23,
+    "estimatedHeadcount": 329,
+    "headcountFormatted": "350+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "growing",
+    "sector": "chips & semiconductors",
+    "growthTrend": "-4%",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
     "company": "AIM Intelligent Machines",
     "openPositions": 23,
     "estimatedHeadcount": 329,
@@ -1747,7 +1747,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "climate & energy",
-    "growthTrend": "+5%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -1759,7 +1759,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "defense & security",
-    "growthTrend": "+5%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -1771,7 +1771,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "quantum computing",
-    "growthTrend": "+10%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -1783,7 +1783,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "biotech & health",
-    "growthTrend": "+5%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -1812,18 +1812,6 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Dexterity",
-    "openPositions": 22,
-    "estimatedHeadcount": 314,
-    "headcountFormatted": "300+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "growing",
-    "sector": "robotics & manufacturing",
-    "growthTrend": "+5%",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
     "company": "Gallatin AI",
     "openPositions": 22,
     "estimatedHeadcount": 314,
@@ -1831,7 +1819,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "defense & security",
-    "growthTrend": "+5%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -1860,18 +1848,6 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "XDOF",
-    "openPositions": 22,
-    "estimatedHeadcount": 314,
-    "headcountFormatted": "300+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "growing",
-    "sector": "robotics & manufacturing",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
     "company": "Uplift",
     "openPositions": 22,
     "estimatedHeadcount": 314,
@@ -1879,6 +1855,18 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "housing & construction",
+    "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "XDOF",
+    "openPositions": 22,
+    "estimatedHeadcount": 314,
+    "headcountFormatted": "300+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "growing",
+    "sector": "robotics & manufacturing",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
@@ -1893,6 +1881,18 @@
     "sector": "defense & security",
     "growthTrend": "",
     "isCurated": true,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Dexterity",
+    "openPositions": 21,
+    "estimatedHeadcount": 300,
+    "headcountFormatted": "300+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "growing",
+    "sector": "robotics & manufacturing",
+    "growthTrend": "-4%",
+    "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
   {
@@ -1956,18 +1956,6 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "ANYbotics",
-    "openPositions": 20,
-    "estimatedHeadcount": 286,
-    "headcountFormatted": "300+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "growing",
-    "sector": "robotics & manufacturing",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
     "company": "Armadin",
     "openPositions": 20,
     "estimatedHeadcount": 286,
@@ -1975,6 +1963,18 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "defense & security",
+    "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "ANYbotics",
+    "openPositions": 20,
+    "estimatedHeadcount": 286,
+    "headcountFormatted": "300+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "growing",
+    "sector": "robotics & manufacturing",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
@@ -2011,7 +2011,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "space & aerospace",
-    "growthTrend": "+6%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -2035,7 +2035,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "chips & semiconductors",
-    "growthTrend": "+11%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -2071,7 +2071,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "growing",
     "sector": "space & aerospace",
-    "growthTrend": "+6%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -2107,7 +2107,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "biotech & health",
-    "growthTrend": "+5%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -2119,7 +2119,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "robotics & manufacturing",
-    "growthTrend": "-5%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -2131,7 +2131,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "climate & energy",
-    "growthTrend": "-10%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -2263,7 +2263,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "space & aerospace",
-    "growthTrend": "+20%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -2276,6 +2276,18 @@
     "hiringVelocity": "moderate",
     "sector": "climate & energy",
     "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "GITAI",
+    "openPositions": 18,
+    "estimatedHeadcount": 257,
+    "headcountFormatted": "250+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "moderate",
+    "sector": "robotics & manufacturing",
+    "growthTrend": "+6%",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -2311,7 +2323,7 @@
     "vacancyRate": 0.076,
     "hiringVelocity": "moderate",
     "sector": "drones & autonomous",
-    "growthTrend": "-8%",
+    "growthTrend": "",
     "isCurated": true,
     "lastUpdated": "2026-10-01"
   },
@@ -2340,19 +2352,19 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "GITAI",
+    "company": "JetZero",
     "openPositions": 17,
     "estimatedHeadcount": 243,
     "headcountFormatted": "250+",
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
-    "sector": "robotics & manufacturing",
+    "sector": "transportation",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "JetZero",
+    "company": "Humble Robotics",
     "openPositions": 17,
     "estimatedHeadcount": 243,
     "headcountFormatted": "250+",
@@ -2372,30 +2384,6 @@
     "hiringVelocity": "moderate",
     "sector": "robotics & manufacturing",
     "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Humble Robotics",
-    "openPositions": 17,
-    "estimatedHeadcount": 243,
-    "headcountFormatted": "250+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "moderate",
-    "sector": "transportation",
-    "growthTrend": "-19%",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Lumafield",
-    "openPositions": 17,
-    "estimatedHeadcount": 243,
-    "headcountFormatted": "250+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "moderate",
-    "sector": "robotics & manufacturing",
-    "growthTrend": "-5%",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -2484,6 +2472,18 @@
     "lastUpdated": "2026-10-01"
   },
   {
+    "company": "Lumafield",
+    "openPositions": 16,
+    "estimatedHeadcount": 229,
+    "headcountFormatted": "250+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "moderate",
+    "sector": "robotics & manufacturing",
+    "growthTrend": "-6%",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
     "company": "Strider Technologies",
     "openPositions": 16,
     "estimatedHeadcount": 229,
@@ -2491,7 +2491,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "defense & security",
-    "growthTrend": "-6%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -2503,7 +2503,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "quantum computing",
-    "growthTrend": "-6%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -2580,18 +2580,6 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Shift5",
-    "openPositions": 15,
-    "estimatedHeadcount": 214,
-    "headcountFormatted": "200+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "moderate",
-    "sector": "defense & security",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
     "company": "Charge Robotics",
     "openPositions": 14,
     "estimatedHeadcount": 200,
@@ -2612,6 +2600,18 @@
     "hiringVelocity": "moderate",
     "sector": "biotech & health",
     "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Shift5",
+    "openPositions": 14,
+    "estimatedHeadcount": 200,
+    "headcountFormatted": "200+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "moderate",
+    "sector": "defense & security",
+    "growthTrend": "-7%",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -2671,7 +2671,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "space & aerospace",
-    "growthTrend": "+9%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -2719,7 +2719,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "biotech & health",
-    "growthTrend": "-8%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -2731,7 +2731,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "nuclear energy",
-    "growthTrend": "-8%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -2784,18 +2784,6 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Dandelion Energy",
-    "openPositions": 12,
-    "estimatedHeadcount": 171,
-    "headcountFormatted": "150+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "moderate",
-    "sector": "climate & energy",
-    "growthTrend": "+20%",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
     "company": "C12 Quantum Electronics",
     "openPositions": 12,
     "estimatedHeadcount": 171,
@@ -2803,6 +2791,18 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "quantum computing",
+    "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Dandelion Energy",
+    "openPositions": 12,
+    "estimatedHeadcount": 171,
+    "headcountFormatted": "150+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "moderate",
+    "sector": "climate & energy",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
@@ -2839,7 +2839,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "defense & security",
-    "growthTrend": "-8%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -2863,7 +2863,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "unknown",
-    "growthTrend": "+10%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -3187,7 +3187,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "defense & security",
-    "growthTrend": "+13%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -3307,7 +3307,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "biotech & health",
-    "growthTrend": "+14%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -3331,24 +3331,12 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "robotics & manufacturing",
-    "growthTrend": "-12%",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Elroy Air",
-    "openPositions": 8,
-    "estimatedHeadcount": 114,
-    "headcountFormatted": "100+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "moderate",
-    "sector": "drones & autonomous",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Orb Aerospace",
+    "company": "Elroy Air",
     "openPositions": 8,
     "estimatedHeadcount": 114,
     "headcountFormatted": "100+",
@@ -3384,6 +3372,18 @@
     "lastUpdated": "2026-10-01"
   },
   {
+    "company": "Orb Aerospace",
+    "openPositions": 8,
+    "estimatedHeadcount": 114,
+    "headcountFormatted": "100+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "moderate",
+    "sector": "drones & autonomous",
+    "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
     "company": "Phaidra",
     "openPositions": 8,
     "estimatedHeadcount": 114,
@@ -3391,18 +3391,6 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "ai & software",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Podium Automation",
-    "openPositions": 8,
-    "estimatedHeadcount": 114,
-    "headcountFormatted": "100+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "moderate",
-    "sector": "robotics & manufacturing",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
@@ -3420,6 +3408,18 @@
     "lastUpdated": "2026-10-01"
   },
   {
+    "company": "Podium Automation",
+    "openPositions": 8,
+    "estimatedHeadcount": 114,
+    "headcountFormatted": "100+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "moderate",
+    "sector": "robotics & manufacturing",
+    "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
     "company": "SpliceBio",
     "openPositions": 8,
     "estimatedHeadcount": 114,
@@ -3427,7 +3427,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "biotech & health",
-    "growthTrend": "+14%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -3463,18 +3463,6 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "defense & security",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Whisper Aero",
-    "openPositions": 7,
-    "estimatedHeadcount": 100,
-    "headcountFormatted": "100+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "moderate",
-    "sector": "space & aerospace",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
@@ -3523,7 +3511,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "nuclear energy",
-    "growthTrend": "-12%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -3571,7 +3559,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "biotech & health",
-    "growthTrend": "-12%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -3703,6 +3691,18 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "robotics & manufacturing",
+    "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Whisper Aero",
+    "openPositions": 7,
+    "estimatedHeadcount": 100,
+    "headcountFormatted": "100+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "moderate",
+    "sector": "space & aerospace",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
@@ -3864,6 +3864,18 @@
     "lastUpdated": "2026-10-01"
   },
   {
+    "company": "Multiply Labs",
+    "openPositions": 6,
+    "estimatedHeadcount": 86,
+    "headcountFormatted": "86+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "moderate",
+    "sector": "biotech & health",
+    "growthTrend": "+21%",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
     "company": "Pryzm",
     "openPositions": 6,
     "estimatedHeadcount": 86,
@@ -3931,7 +3943,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "defense & security",
-    "growthTrend": "-45%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -3972,7 +3984,7 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "DEFCON AI",
+    "company": "CX2 Industries",
     "openPositions": 5,
     "estimatedHeadcount": 71,
     "headcountFormatted": "71+",
@@ -3984,7 +3996,7 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "CX2 Industries",
+    "company": "DEFCON AI",
     "openPositions": 5,
     "estimatedHeadcount": 71,
     "headcountFormatted": "71+",
@@ -4027,7 +4039,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "climate & energy",
-    "growthTrend": "+25%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -4039,18 +4051,6 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "robotics & manufacturing",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Multiply Labs",
-    "openPositions": 5,
-    "estimatedHeadcount": 71,
-    "headcountFormatted": "71+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "moderate",
-    "sector": "biotech & health",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
@@ -4080,18 +4080,6 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Squint",
-    "openPositions": 5,
-    "estimatedHeadcount": 71,
-    "headcountFormatted": "71+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "moderate",
-    "sector": "robotics & manufacturing",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
     "company": "Spinor Energy",
     "openPositions": 5,
     "estimatedHeadcount": 71,
@@ -4099,6 +4087,18 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "climate & energy",
+    "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Squint",
+    "openPositions": 5,
+    "estimatedHeadcount": 71,
+    "headcountFormatted": "71+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "moderate",
+    "sector": "robotics & manufacturing",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
@@ -4135,7 +4135,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "moderate",
     "sector": "climate & energy",
-    "growthTrend": "-17%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -4272,6 +4272,18 @@
     "lastUpdated": "2026-10-01"
   },
   {
+    "company": "CruxOCM",
+    "openPositions": 4,
+    "estimatedHeadcount": 57,
+    "headcountFormatted": "57+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "quiet",
+    "sector": "climate & energy",
+    "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
     "company": "Epsilon3",
     "openPositions": 4,
     "estimatedHeadcount": 57,
@@ -4279,6 +4291,18 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "quiet",
     "sector": "space & aerospace",
+    "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Glyphic Biotechnologies",
+    "openPositions": 4,
+    "estimatedHeadcount": 57,
+    "headcountFormatted": "57+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "quiet",
+    "sector": "biotech & health",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
@@ -4308,18 +4332,6 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Glyphic Biotechnologies",
-    "openPositions": 4,
-    "estimatedHeadcount": 57,
-    "headcountFormatted": "57+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "quiet",
-    "sector": "biotech & health",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
     "company": "Orbit Fab",
     "openPositions": 4,
     "estimatedHeadcount": 57,
@@ -4327,18 +4339,6 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "quiet",
     "sector": "space & aerospace",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "CruxOCM",
-    "openPositions": 4,
-    "estimatedHeadcount": 57,
-    "headcountFormatted": "57+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "quiet",
-    "sector": "climate & energy",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
@@ -4356,6 +4356,18 @@
     "lastUpdated": "2026-10-01"
   },
   {
+    "company": "Reveal Technology",
+    "openPositions": 4,
+    "estimatedHeadcount": 57,
+    "headcountFormatted": "57+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "quiet",
+    "sector": "defense & security",
+    "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
     "company": "Seurat Technologies",
     "openPositions": 4,
     "estimatedHeadcount": 57,
@@ -4364,18 +4376,6 @@
     "hiringVelocity": "quiet",
     "sector": "robotics & manufacturing",
     "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Reveal Technology",
-    "openPositions": 4,
-    "estimatedHeadcount": 57,
-    "headcountFormatted": "57+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "quiet",
-    "sector": "defense & security",
-    "growthTrend": "+33%",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -4484,6 +4484,18 @@
     "hiringVelocity": "quiet",
     "sector": "space & aerospace",
     "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Hexium",
+    "openPositions": 3,
+    "estimatedHeadcount": 43,
+    "headcountFormatted": "43+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "quiet",
+    "sector": "nuclear energy",
+    "growthTrend": "+48%",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -4656,13 +4668,13 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Hexium",
+    "company": "JITX",
     "openPositions": 2,
     "estimatedHeadcount": 29,
     "headcountFormatted": "29+",
     "vacancyRate": 0.07,
     "hiringVelocity": "quiet",
-    "sector": "nuclear energy",
+    "sector": "robotics & manufacturing",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
@@ -4716,6 +4728,18 @@
     "lastUpdated": "2026-10-01"
   },
   {
+    "company": "Orbital Sidekick",
+    "openPositions": 2,
+    "estimatedHeadcount": 29,
+    "headcountFormatted": "29+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "quiet",
+    "sector": "space & aerospace",
+    "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
     "company": "Standard Subsea",
     "openPositions": 2,
     "estimatedHeadcount": 29,
@@ -4735,30 +4759,6 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "quiet",
     "sector": "climate & energy",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "JITX",
-    "openPositions": 2,
-    "estimatedHeadcount": 29,
-    "headcountFormatted": "29+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "quiet",
-    "sector": "robotics & manufacturing",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Orbital Sidekick",
-    "openPositions": 2,
-    "estimatedHeadcount": 29,
-    "headcountFormatted": "29+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "quiet",
-    "sector": "space & aerospace",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
@@ -4819,7 +4819,7 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "quiet",
     "sector": "nuclear energy",
-    "growthTrend": "-52%",
+    "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -4920,6 +4920,18 @@
     "lastUpdated": "2026-10-01"
   },
   {
+    "company": "Living Carbon",
+    "openPositions": 1,
+    "estimatedHeadcount": 14,
+    "headcountFormatted": "14+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "quiet",
+    "sector": "biotech & health",
+    "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
     "company": "Lucid Bots",
     "openPositions": 1,
     "estimatedHeadcount": 14,
@@ -4928,18 +4940,6 @@
     "hiringVelocity": "quiet",
     "sector": "robotics & manufacturing",
     "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "company": "Living Carbon",
-    "openPositions": 1,
-    "estimatedHeadcount": 14,
-    "headcountFormatted": "14+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "quiet",
-    "sector": "biotech & health",
-    "growthTrend": "-52%",
     "isCurated": false,
     "lastUpdated": "2026-10-01"
   },
@@ -5004,18 +5004,6 @@
     "lastUpdated": "2026-10-01"
   },
   {
-    "company": "Rugged Robotics",
-    "openPositions": 1,
-    "estimatedHeadcount": 14,
-    "headcountFormatted": "14+",
-    "vacancyRate": 0.07,
-    "hiringVelocity": "quiet",
-    "sector": "robotics & manufacturing",
-    "growthTrend": "",
-    "isCurated": false,
-    "lastUpdated": "2026-10-01"
-  },
-  {
     "company": "Sorcerer",
     "openPositions": 1,
     "estimatedHeadcount": 14,
@@ -5035,6 +5023,18 @@
     "vacancyRate": 0.07,
     "hiringVelocity": "quiet",
     "sector": "climate & energy",
+    "growthTrend": "",
+    "isCurated": false,
+    "lastUpdated": "2026-10-01"
+  },
+  {
+    "company": "Rugged Robotics",
+    "openPositions": 1,
+    "estimatedHeadcount": 14,
+    "headcountFormatted": "14+",
+    "vacancyRate": 0.07,
+    "hiringVelocity": "quiet",
+    "sector": "robotics & manufacturing",
     "growthTrend": "",
     "isCurated": false,
     "lastUpdated": "2026-10-01"

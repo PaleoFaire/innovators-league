@@ -2041,7 +2041,7 @@
       "thesisCluster": "robotics-agriculture"
     },
     {
-      "id": "Naïo Technologies",
+      "id": "Na\u00efo Technologies",
       "sector": "Robotics & Manufacturing",
       "thesisCluster": "robotics-agriculture"
     },
@@ -6096,6 +6096,21 @@
       "thesisCluster": ""
     },
     {
+      "id": "Numenor Maritime",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "MIFTI Fusion",
+      "sector": "Nuclear Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Gridraven",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
       "id": "SpaceX-alumni-hub",
       "sector": "alumni",
       "thesisCluster": ""
@@ -9718,7 +9733,7 @@
       "cluster": "robotics-agriculture"
     },
     {
-      "src": "Naïo Technologies",
+      "src": "Na\u00efo Technologies",
       "dst": "Shinkei",
       "type": "thesis",
       "cluster": "robotics-agriculture"
@@ -9743,7 +9758,7 @@
     },
     {
       "src": "Carbon Robotics",
-      "dst": "Naïo Technologies",
+      "dst": "Na\u00efo Technologies",
       "type": "thesis",
       "cluster": "robotics-agriculture"
     },
@@ -9760,7 +9775,7 @@
       "cluster": "robotics-agriculture"
     },
     {
-      "src": "Naïo Technologies",
+      "src": "Na\u00efo Technologies",
       "dst": "Tevel Aerobotics",
       "type": "thesis",
       "cluster": "robotics-agriculture"
@@ -9772,14 +9787,14 @@
       "cluster": "robotics-agriculture"
     },
     {
-      "src": "Naïo Technologies",
+      "src": "Na\u00efo Technologies",
       "dst": "Solinftec",
       "type": "thesis",
       "cluster": "robotics-agriculture"
     },
     {
       "src": "Grain Weevil",
-      "dst": "Naïo Technologies",
+      "dst": "Na\u00efo Technologies",
       "type": "thesis",
       "cluster": "robotics-agriculture"
     },
@@ -11361,7 +11376,7 @@
     }
   ],
   "counts": {
-    "total_nodes": 1260,
+    "total_nodes": 1228,
     "total_edges": 906,
     "competitor_edges": 196,
     "thesis_edges": 702,
