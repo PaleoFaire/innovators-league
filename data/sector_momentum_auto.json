@@ -1,21 +1,21 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 46,
+    "momentum": 45,
     "trend": "steady",
     "catalysts": [
-      "ANYbotics launches Shift to streamline robot fleet operation",
-      "SHOCKING Can 20 SpaceX Minihards Out-Earn 8 MILLION Tesla Ro",
-      "Meet Flourish One, the Raspberry Pi-powered humanoid built f"
+      "Boston Dynamics drops pinkie on new humanoid hand",
+      "Precision In Motion. Vishay Precision Group, Inc. (VPG) to S",
+      "ANYbotics launches Shift to streamline robot fleet operation"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 45,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-01"
+    "lastUpdated": "2026-10-02"
   },
   {
     "sector": "Transportation",
@@ -31,149 +31,149 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-01"
+    "lastUpdated": "2026-10-02"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 28,
-    "trend": "rising",
+    "momentum": 25,
+    "trend": "steady",
     "catalysts": [
-      "Satlyt, founded by a former Google and SpaceX product manage",
-      "ANYbotics launches Shift to streamline robot fleet operation",
-      "Help Overlap Zoo Reveal Cosmic Dust"
+      "SpaceX describes surgical intervention before launch of late",
+      "Each SpaceX 250 Kilowatt Starlink AI Satellite Is More Power",
+      "Google thinks SpaceX&#8217;s Starship has to launch 1,800 ti"
     ],
     "fundingQ": "$259M",
     "components": {
       "funding": 15,
-      "news": 70,
+      "news": 80,
       "hiring": 0,
-      "market": 27
+      "market": 0
     },
-    "lastUpdated": "2026-10-01"
+    "lastUpdated": "2026-10-02"
   },
   {
     "sector": "AI & Software",
-    "momentum": 25,
+    "momentum": 22,
     "trend": "rising",
     "catalysts": [
-      "\u201cWe\u2019re not going to shoot ourselves in the foot\u201d over hack f",
-      "SpaceX Has More Annual Recurring Revenue than Anthropic",
-      "OpenAI Gets Sued Over the Hugging Face Hack"
+      "Claude Sonnet 5.5 Versus OpenAI GPT 6.1 Sol",
+      "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+      "China-linked hackers posed as former US officials, Anthropic"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 60,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 25,
-    "trend": "declining",
-    "catalysts": [
-      "Is Neko Health\u2019s body scan worth it?\u00a0Spotify billionaire\u2019s\u00a0s",
-      "SHOCKING Can 20 SpaceX Minihards Out-Earn 8 MILLION Tesla Ro",
-      "Anthropic Says It Discovered a Crispr-Like System. Now What?"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 25,
-    "trend": "rising",
-    "catalysts": [
-      "Satlyt, founded by a former Google and SpaceX product manage",
-      "ANYbotics launches Shift to streamline robot fleet operation",
-      "Help Overlap Zoo Reveal Cosmic Dust"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 60,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-01"
+    "lastUpdated": "2026-10-02"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 19,
+    "momentum": 21,
     "trend": "declining",
     "catalysts": [
+      "Neros, Perennial Autonomy lead in Pentagon\u2019s drone competiti",
       "Terran Orbital Names Jamin Brown Chief Operating Officer",
-      "Anthropic loses legal fight to shed DOD's designation as a '",
-      "US appeals court upholds Pentagon\u2019s blacklisting of Anthropi"
+      "Anthropic loses legal fight to shed DOD's designation as a '"
     ],
     "fundingQ": "$607M",
     "components": {
       "funding": 21,
       "news": 25,
       "hiring": 0,
-      "market": 25
+      "market": 37
     },
-    "lastUpdated": "2026-10-01"
+    "lastUpdated": "2026-10-02"
   },
   {
-    "sector": "Drones & Autonomous",
-    "momentum": 14,
+    "sector": "Consumer Tech",
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
-      "NaviGate successfully demonstrates onboard precise orbit det",
-      "Gecko Robotics works with NVIDIA to add AI agent security an",
-      "Waymo says it has stopped 841 injuries in 271 million autono"
+      "Boston Dynamics drops pinkie on new humanoid hand",
+      "Precision In Motion. Vishay Precision Group, Inc. (VPG) to S",
+      "China-linked hackers posed as former US officials, Anthropic"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-01"
+    "lastUpdated": "2026-10-02"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Neros, Perennial Autonomy lead in Pentagon\u2019s drone competiti",
+      "NaviGate successfully demonstrates onboard precise orbit det",
+      "Gecko Robotics works with NVIDIA to add AI agent security an"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-02"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 12,
+    "momentum": 13,
     "trend": "declining",
     "catalysts": [
+      "Google thinks SpaceX&#8217;s Starship has to launch 1,800 ti",
       "Anthropic Nearly Doubles Leasing From Spacex to over $2 Bill",
       "Gecko Robotics works with NVIDIA to add AI agent security an"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
-      "market": 49
+      "market": 48
     },
-    "lastUpdated": "2026-10-01"
+    "lastUpdated": "2026-10-02"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Claude Sonnet 5.5 Versus OpenAI GPT 6.1 Sol",
+      "SHOCKING Can 20 SpaceX Minihards Out-Earn 8 MILLION Tesla Ro",
+      "<a href=\"/biotech/roche-zealand-see-phase-2-amylin-weight-lo"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 38
+    },
+    "lastUpdated": "2026-10-02"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 12,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Anthropic Says It Discovered a Crispr-Like System. Now What?",
       "SpaceX AI Gameover for Rivals -Money Wise Minihard Crushes E"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-01"
+    "lastUpdated": "2026-10-02"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -189,23 +189,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-01"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-01"
+    "lastUpdated": "2026-10-02"
   },
   {
     "sector": "Ocean & Maritime",
@@ -221,7 +205,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-01"
+    "lastUpdated": "2026-10-02"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -237,7 +221,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-01"
+    "lastUpdated": "2026-10-02"
   },
   {
     "sector": "Climate & Energy",
@@ -255,7 +239,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-01"
+    "lastUpdated": "2026-10-02"
   },
   {
     "sector": "Nuclear Energy",
@@ -273,6 +257,22 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-01"
+    "lastUpdated": "2026-10-02"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 1,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 7
+    },
+    "lastUpdated": "2026-10-02"
   }
 ]

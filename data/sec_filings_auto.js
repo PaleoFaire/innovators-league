@@ -1,7 +1,18 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-01 12:45:46 UTC
+// Last updated: 2026-10-02 12:09:48 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790899324.xml", isIPO: false, ticker: "PLTR" },
+  { company: "Palantir Technologies", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790899275.xml", isIPO: false, ticker: "PLTR" },
+  { company: "Palantir Technologies", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790899206.xml", isIPO: false, ticker: "PLTR" },
+  { company: "AST SpaceMobile", form: "4", date: "2026-10-01", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "BlackSky Technology", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790886898.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790886831.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790886763.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790886694.xml", isIPO: false, ticker: "BKSY" },
   { company: "D-Wave Quantum", form: "8-K", date: "2026-10-01", description: "qbts-20261001.htm", isIPO: false, ticker: "QBTS" },
+  { company: "Aurora Innovation", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790889196.xml", isIPO: false, ticker: "AUR" },
+  { company: "Aurora Innovation", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790889031.xml", isIPO: false, ticker: "AUR" },
+  { company: "Astera Labs", form: "8-K", date: "2026-10-01", description: "tra-20260928.htm", isIPO: false, ticker: "ALAB" },
   { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713603.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713525.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713476.xml", isIPO: false, ticker: "OKLO" },
@@ -40,15 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "D-Wave Quantum", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789596456.xml", isIPO: false, ticker: "QBTS" },
   { company: "Recursion Pharmaceuticals", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789595520.xml", isIPO: false, ticker: "RXRX" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789589178.xml", isIPO: false, ticker: "DNA" },
-  { company: "Rivian", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789552810.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Rocket Lab", form: "8-K", date: "2026-09-15", description: "g085951_8k.htm", isIPO: false, ticker: "RKLB" },
-  { company: "Oklo", form: "4", date: "2026-09-15", description: "xslF345X06/wk-form4_1789504098.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-09-15", description: "xslF345X06/wk-form4_1789504046.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-09-15", description: "xslF345X06/wk-form4_1789503990.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-09-15", description: "xslF345X06/wk-form4_1789503921.xml", isIPO: false, ticker: "OKLO" },
-  { company: "C3.ai", form: "4", date: "2026-09-15", description: "xslF345X06/wk-form4_1789516923.xml", isIPO: false, ticker: "AI" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-09-15", description: "qbts-20260915.htm", isIPO: false, ticker: "QBTS" },
-  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418300.xml", isIPO: false, ticker: "BKSY" },
-  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418286.xml", isIPO: false, ticker: "BKSY" },
-  { company: "BlackSky Technology", form: "4", date: "2026-09-14", description: "xslF345X06/wk-form4_1789418265.xml", isIPO: false, ticker: "BKSY" },
 ];

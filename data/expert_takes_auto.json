@@ -1,26 +1,6 @@
 {
-  "generated_at": "2026-10-01T13:04:37.783053Z",
+  "generated_at": "2026-10-02T12:25:00.635864Z",
   "takes": [
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Neko Health",
-      "text": "Is Neko Health\u2019s body scan worth it?\u00a0Spotify billionaire\u2019s\u00a0startup\u00a0has\u00a0come to America",
-      "date": "Wed, 30 Se",
-      "source": "news",
-      "source_url": "https://techcrunch.com/video/is-neko-healths-body-scan-worth-it-spotify-billionaires-startup-has-come-to-america/",
-      "signal_type": "funding"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "ElevenLabs",
-      "text": "AI voice startup ElevenLabs doubles valuation to $22B",
-      "date": "Wed, 30 Se",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
-      "signal_type": "funding"
-    },
     {
       "author": "Crunchbase News",
       "role": "Industry signal",
@@ -50,22 +30,12 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/geothermal/mazama-energy-raises-135m-oregon-geothermal",
       "signal_type": "funding"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
-      "date": "Thu, 01 Oc",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
-      "signal_type": "funding"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 6,
+    "from_news": 3,
     "from_press": 0
   }
 }
