@@ -190,6 +190,10 @@ FUNDS = {
     "Draper": dict(name="Draper Associates", short=None, investor="Draper Associates",
                    alias=r"draper", kind="links", urls=["https://draper.vc/companies"],
                    discover=False),
+    "AlleyCorp": dict(name="AlleyCorp", short="AlleyCorp", investor="AlleyCorp",
+                      alias=r"alley ?corp", kind="links", urls=["https://alleycorp.com/companies/"],
+                      discover=False,
+                      note="Kevin Ryan's NYC studio; ~140 cards (aria-label names), mostly software and healthcare"),
     # Not readable without a browser (JS-only pages), kept here so the gap is
     # on record: Sequoia, General Catalyst, DCVC, Breakthrough Energy,
     # Initialized, Interlagos, Point72 Ventures (TLS 1.0 only).

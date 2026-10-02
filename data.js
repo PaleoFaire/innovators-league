@@ -23208,7 +23208,7 @@ tags: ["maritime", "acoustic", "sensing", "defense"],
     techApproach: "First startup to split the atom with its own reactor core, building gas-cooled microreactors for distributed power",
 tags: ["SMR", "nuclear", "data centers", "energy"],
     website: "https://valaratomics.com",
-    investors: ["Riot Ventures", "Snowpoint Ventures", "Day One Ventures", "Dream Ventures", "Palmer Luckey", "Shyam Sankar", "John Donovan", "Doug Philippone", "Sequoia Capital"]
+    investors: ["Riot Ventures", "Snowpoint Ventures", "Day One Ventures", "Dream Ventures", "Palmer Luckey", "Shyam Sankar", "John Donovan", "Doug Philippone", "Sequoia Capital", "AlleyCorp"]
   },
   {
     name: "Radiant",
@@ -28504,7 +28504,7 @@ tags: ["fusion", "inertial confinement", "laser"],
     techApproach: "Midnight electric air taxi with 12 tilting propellers for urban air mobility, partnered with United Airlines",
 tags: ["eVTOL", "air taxi", "urban air mobility"],
     website: "https://archer.com/",
-    investors: ["Stellantis", "United Airlines", "Prime Movers Lab"]
+    investors: ["Stellantis", "United Airlines", "Prime Movers Lab", "AlleyCorp"]
   },
   {
     name: "PsiQuantum",
@@ -47736,7 +47736,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     totalRaised: "$117.0M",
     valuation: "Undisclosed",
     valuationType: "undisclosed",
-    investors: [],
+    investors: ["AlleyCorp"],
     tags: ["robotics"],
     signal: "watch",
     source: "buildlist-sweep-2026-08-13",
@@ -49003,7 +49003,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     totalRaised: "$14.4M",
     valuation: "Undisclosed",
     valuationType: "undisclosed",
-    investors: [],
+    investors: ["AlleyCorp"],
     tags: ["manufacturing"],
     signal: "watch",
     source: "buildlist-sweep-2026-08-13",
@@ -52640,6 +52640,21 @@ const VC_FIRMS = [
     signal: "emerging",
     website: "https://reservoir.co",
     insight: "Not a fund with a testbed attached — a testbed that grew a fund. The 40-acre working farm is the moat: Reservoir can watch a robot fail in real dirt before writing the cheque, which is diligence no Sand Hill firm can replicate. Worth watching as the deal source for the ag-robotics vertical we track 19 companies in."
+  },
+  {
+    name: "AlleyCorp",
+    shortName: "AlleyCorp",
+    aum: "$585M+",
+    flagshipFund: "AlleyCorp Fund II ($335M, Jul 2026); first outside fund $250M (Apr 2024)",
+    founded: 2008,
+    hq: "New York, NY",
+    thesis: "AlleyCorp builds and invests in transformative companies in New York, from incubation through pre-seed and seed. Founded by Kevin Ryan, it incubated MongoDB, Business Insider, Gilt and Zola, and now invests across three areas: deep tech and robotics (energy, space, industrial systems, advanced manufacturing and materials), enterprise and consumer technology, and healthcare.",
+    keyPartners: ["Kevin Ryan", "Jay Hass", "Marshall Porter", "Alexi Nazem", "Abe Murray"],
+    sectorFocus: ["Deep Tech & Robotics", "Enterprise & Consumer Technology", "Healthcare"],
+    portfolioCompanies: ["Valar Atomics", "Radical AI", "Portal Space Systems", "Transmutex", "Viam", "Archer Aviation", "Aon3D"],
+    signal: "rising",
+    website: "https://alleycorp.com",
+    insight: "Kevin Ryan's New York studio built MongoDB and Business Insider before it took any outside money. Its first outside fund ($250M, 2024) and Fund II ($335M, 2026) now push it into hard tech, which it calls an increasingly important focus. It first invested in Valar Atomics at a $20M pre-money valuation, wrote what it called its largest pre-seed check ever into Radical AI, and backs Portal Space Systems."
   }
 ];
 
