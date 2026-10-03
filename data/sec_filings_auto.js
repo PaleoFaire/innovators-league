@@ -1,6 +1,19 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-02 12:09:48 UTC
+// Last updated: 2026-10-03 11:20:21 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "4", date: "2026-10-02", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "NuScale Power", form: "4", date: "2026-10-02", description: "xslF345X06/wk-form4_1790971958.xml", isIPO: false, ticker: "SMR" },
+  { company: "NuScale Power", form: "4", date: "2026-10-02", description: "xslF345X06/wk-form4_1790971909.xml", isIPO: false, ticker: "SMR" },
+  { company: "C3.ai", form: "4", date: "2026-10-02", description: "xslF345X06/form4-10022026_101059.xml", isIPO: false, ticker: "AI" },
+  { company: "IonQ", form: "4", date: "2026-10-02", description: "xslF345X06/wk-form4_1790976860.xml", isIPO: false, ticker: "IONQ" },
+  { company: "IonQ", form: "4", date: "2026-10-02", description: "xslF345X06/wk-form4_1790976728.xml", isIPO: false, ticker: "IONQ" },
+  { company: "IonQ", form: "4", date: "2026-10-02", description: "xslF345X06/wk-form4_1790976687.xml", isIPO: false, ticker: "IONQ" },
+  { company: "IonQ", form: "4", date: "2026-10-02", description: "xslF345X06/wk-form4_1790976609.xml", isIPO: false, ticker: "IONQ" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-10-02", description: "xslF345X06/wk-form4_1790979462.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-10-02", description: "xslF345X06/wk-form4_1790979423.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Archer Aviation", form: "8-K", date: "2026-10-02", description: "achr-20260929.htm", isIPO: false, ticker: "ACHR" },
+  { company: "Rivian", form: "4", date: "2026-10-02", description: "xslF345X06/wk-form4_1790977870.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Rivian", form: "8-K", date: "2026-10-02", description: "rivn-20261002.htm", isIPO: false, ticker: "RIVN" },
   { company: "Palantir Technologies", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790899324.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790899275.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790899206.xml", isIPO: false, ticker: "PLTR" },
@@ -38,17 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "AST SpaceMobile", form: "4", date: "2026-09-17", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "AST SpaceMobile", form: "4", date: "2026-09-17", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "Centrus Energy", form: "8-K", date: "2026-09-17", description: "leu-20260917.htm", isIPO: false, ticker: "LEU" },
-  { company: "C3.ai", form: "4", date: "2026-09-17", description: "xslF345X06/wk-form4_1789685824.xml", isIPO: false, ticker: "AI" },
-  { company: "C3.ai", form: "4", date: "2026-09-17", description: "xslF345X06/wk-form4_1789685770.xml", isIPO: false, ticker: "AI" },
-  { company: "C3.ai", form: "4", date: "2026-09-17", description: "xslF345X06/wk-form4_1789685741.xml", isIPO: false, ticker: "AI" },
-  { company: "UiPath", form: "4", date: "2026-09-17", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-09-17", description: "qbts-20260916.htm", isIPO: false, ticker: "QBTS" },
-  { company: "Aurora Innovation", form: "4", date: "2026-09-17", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "AUR" },
-  { company: "Intuitive Machines", form: "8-K", date: "2026-09-16", description: "tm2625564d1_8k.htm", isIPO: false, ticker: "LUNR" },
-  { company: "Oklo", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789591264.xml", isIPO: false, ticker: "OKLO" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789596570.xml", isIPO: false, ticker: "QBTS" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789596512.xml", isIPO: false, ticker: "QBTS" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789596456.xml", isIPO: false, ticker: "QBTS" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789595520.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Ginkgo Bioworks", form: "4", date: "2026-09-16", description: "xslF345X06/wk-form4_1789589178.xml", isIPO: false, ticker: "DNA" },
 ];
