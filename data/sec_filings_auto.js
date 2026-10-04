@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-03 11:20:21 UTC
+// Last updated: 2026-10-04 12:01:16 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Rocket Lab", form: "4", date: "2026-10-02", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "NuScale Power", form: "4", date: "2026-10-02", description: "xslF345X06/wk-form4_1790971958.xml", isIPO: false, ticker: "SMR" },

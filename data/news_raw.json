@@ -1,27 +1,41 @@
 [
   {
-    "title": "Heading Home: NASA’s SpaceX Crew-12 Concludes Station Science Mission",
-    "link": "https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/",
-    "description": "NASA’s SpaceX Crew-12 mission is ending, with the crew scheduled to return in early October. NASA astronauts Jessica Meir and Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev will head home from the International Space Station after supportin",
-    "pubDate": "Fri, 02 Oct 2026 19:30:00 +0000",
-    "category": "ISS Research",
-    "source": "NASA Breaking News",
-    "feedCategory": "space",
-    "matchedCompany": "SpaceX",
+    "title": "Hasta la vista, baby – Figure F.02 humanoid robots decommissioned, T2-style",
+    "link": "https://electrek.co/2026/10/03/hasta-la-vista-baby-figure-f-02-humanoid-robots-decommissioned-t2-style/",
+    "description": "Decommissioning humanoid robots that are packed with proprietary tech is a tricky thing – you want to make sure none of the expensive raw material goes to waste, but you also need to make sure no one else gets a hold of your tech. The solution? Have your robots hurl themselves into a vat of molten s",
+    "pubDate": "Sat, 03 Oct 2026 19:31:13 +0000",
+    "category": "News",
+    "source": "Electrek",
+    "feedCategory": "autonomous",
+    "matchedCompany": "Humanoid",
     "matchedCompanies": [
-      "SpaceX",
-      "Vast",
-      "Axiom Space",
-      "PLD Space",
-      "Osmo"
+      "Humanoid"
     ],
     "sectors": [
-      "space",
-      "consumer"
+      "robotics"
     ],
-    "type": "hire",
+    "type": "news",
     "impact": "low",
-    "time": "15h ago"
+    "time": "16h ago"
+  },
+  {
+    "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+    "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+    "description": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
+    "pubDate": "Sat, 03 Oct 2026 16:30:01 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "19h ago"
   },
   {
     "title": "Runway introduces Praxis-1 world action model for robotics",
@@ -40,7 +54,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "16h ago"
+    "time": "1d ago"
   },
   {
     "title": "Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract",
@@ -60,7 +74,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "SpaceX describes surgical intervention before launch of latest crew mission",
@@ -81,7 +95,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Each SpaceX 250 Kilowatt Starlink AI Satellite Is More Power Than the Space Station",
@@ -102,7 +116,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Claude Sonnet 5.5 Versus OpenAI GPT 6.1 Sol",
@@ -121,7 +135,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Boston Dynamics drops pinkie on new humanoid hand",
@@ -140,7 +154,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Precision In Motion. Vishay Precision Group, Inc. (VPG) to Showcase Custom Sensing Capabilities for Humanoid Robotics at RoboBusiness 2026",
@@ -160,7 +174,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Neros, Perennial Autonomy lead in Pentagon’s drone competition",
@@ -184,7 +198,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "China-linked hackers posed as former US officials, Anthropic employee to target AI experts",
@@ -203,7 +217,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "ANYbotics launches Shift to streamline robot fleet operations, scale inspections",
@@ -230,7 +244,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "SHOCKING Can 20 SpaceX Minihards Out-Earn 8 MILLION Tesla Robotaxi?",
@@ -254,7 +268,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "NaviGate successfully demonstrates onboard precise orbit determination aboard D-Orbit’s ION Satellite Carrier",
@@ -273,7 +287,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "H Company cofounder Charles Kantor launches new AI neocloud startup",
@@ -292,7 +306,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
@@ -314,7 +328,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "SpaceX Has More Annual Recurring Revenue than Anthropic",
@@ -335,7 +349,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Oura Hits Pause On IPO While Anthropic’s Prospectus Reveals The Cost Of Its AI Ambitions",
@@ -354,7 +368,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Anthropic Nearly Doubles Leasing From Spacex to over $2 Billion Per Month",
@@ -375,7 +389,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Terran Orbital Names Jamin Brown Chief Operating Officer",
@@ -402,7 +416,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Tesla (TSLA) wins SEC OK to auto-vote retail shares with board ahead of SpaceX merger",
@@ -421,26 +435,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents",
-    "link": "https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/",
-    "description": "Flourish is releasing a $3,555 phone-trainable home robot, targeting busy parents with personalized, cloud-trained chore automation.\nThe post Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents appeared first on The Robot Report.",
-    "pubDate": "Tue, 29 Sep 2026 14:00:12 +0000",
-    "category": "Arms / Manipulators",
-    "source": "The Robot Report",
-    "feedCategory": "robotics",
-    "matchedCompany": "Humanoid",
-    "matchedCompanies": [
-      "Humanoid"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "SpaceX AI Gameover for Rivals -Money Wise Minihard Crushes Even Money From Millions of Robotaxi",
@@ -466,7 +461,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Anthropic loses legal fight to shed DOD's designation as a 'supply-chain risk'",
