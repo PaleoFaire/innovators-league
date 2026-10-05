@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T15:56:23.164438+00:00",
+  "generated_at": "2026-10-05T16:22:16.876017+00:00",
   "funds": {
     "a16z": {
       "name": "Andreessen Horowitz",
@@ -7,20 +7,29 @@
       "kind": "a16z",
       "note": "Embedded JSON: 859 companies with first-investment dates",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
-      "count": 859,
-      "tracked": 62,
-      "overlap": 0.072,
-      "new_this_run": 0,
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
+      "count": 863,
+      "tracked": 65,
+      "overlap": 0.075,
+      "new_this_run": 8,
       "baseline": false,
-      "new_names": [],
-      "candidates": 6,
+      "new_names": [
+        "Armadin",
+        "doxxnet",
+        "Aleph Surgical",
+        "The Horowitz Andreessen Academy (HAA)",
+        "Cognition",
+        "California Forever",
+        "Infinite Machine",
+        "Longitude Labs"
+      ],
+      "candidates": 5,
       "rejected_by_bar": {
         "focus outside American Dynamism": 759,
+        "megacap / mega-private, deliberately untracked": 14,
         "exited": 6,
-        "megacap / mega-private, deliberately untracked": 11,
         "description shows no physical product": 8,
-        "software or services wearing a hard-tech label": 3,
+        "software or services wearing a hard-tech label": 2,
         "a co-investor, not a company": 4
       }
     },
@@ -30,7 +39,7 @@
       "kind": "wp_company",
       "note": "WordPress company feed with dates and founders",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 64,
       "tracked": 15,
       "overlap": 0.234,
@@ -52,14 +61,14 @@
       "kind": "wp_company",
       "note": "WordPress company feed; HQ and founding year in the body",
       "partial": "pages after 1 blocked (429); newest 100 kept",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 100,
-      "tracked": 39,
-      "overlap": 0.39,
+      "tracked": 40,
+      "overlap": 0.4,
       "new_this_run": 0,
       "baseline": false,
       "new_names": [],
-      "candidates": 51,
+      "candidates": 50,
       "rejected_by_bar": {
         "description shows no physical product": 8,
         "software or services wearing a hard-tech label": 2
@@ -71,7 +80,7 @@
       "kind": "sanity",
       "note": "Public Sanity dataset: websiteURL, foundedYear, founder",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 53,
       "tracked": 35,
       "overlap": 0.66,
@@ -90,14 +99,14 @@
       "kind": "cards_8vc",
       "note": "Webflow cards; company site in a hidden anchor",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 174,
-      "tracked": 26,
-      "overlap": 0.149,
+      "tracked": 25,
+      "overlap": 0.144,
       "new_this_run": 0,
       "baseline": false,
       "new_names": [],
-      "candidates": 44,
+      "candidates": 45,
       "rejected_by_bar": {
         "software or services wearing a hard-tech label": 33,
         "description shows no physical product": 68,
@@ -111,7 +120,7 @@
       "kind": "cards_lux",
       "note": "28 featured companies, names only",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 28,
       "tracked": 11,
       "overlap": 0.393,
@@ -129,7 +138,7 @@
       "kind": "links",
       "note": "Homepage grid; 11 of 13 already tracked at launch",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 13,
       "tracked": 13,
       "overlap": 1.0,
@@ -145,7 +154,7 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 28,
       "tracked": 15,
       "overlap": 0.536,
@@ -164,14 +173,16 @@
       "kind": "links",
       "note": "Squarespace; 77% overlap in the Sept 2026 hand scan",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
-      "count": 56,
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
+      "count": 55,
       "tracked": 39,
-      "overlap": 0.696,
-      "new_this_run": 0,
+      "overlap": 0.709,
+      "new_this_run": 1,
       "baseline": false,
-      "new_names": [],
-      "candidates": 5,
+      "new_names": [
+        "Wired - Silent Ventures"
+      ],
+      "candidates": 4,
       "rejected_by_bar": {
         "a co-investor, not a company": 11,
         "description shows no physical product": 1
@@ -183,16 +194,25 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
-      "count": 18,
-      "tracked": 16,
-      "overlap": 0.889,
-      "new_this_run": 0,
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
+      "count": 26,
+      "tracked": 19,
+      "overlap": 0.731,
+      "new_this_run": 8,
       "baseline": false,
-      "new_names": [],
-      "candidates": 0,
+      "new_names": [
+        "Air Space Intelligence",
+        "Pontem",
+        "Oceanus",
+        "Skyband",
+        "American Housing Corp",
+        "Daro",
+        "Ephemeris",
+        "Lumaril"
+      ],
+      "candidates": 3,
       "rejected_by_bar": {
-        "description shows no physical product": 2
+        "description shows no physical product": 4
       }
     },
     "Prime Movers Lab": {
@@ -201,7 +221,7 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 30,
       "tracked": 17,
       "overlap": 0.567,
@@ -219,16 +239,16 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 46,
-      "tracked": 16,
-      "overlap": 0.348,
+      "tracked": 17,
+      "overlap": 0.37,
       "new_this_run": 0,
       "baseline": false,
       "new_names": [],
       "candidates": 20,
       "rejected_by_bar": {
-        "description shows no physical product": 8,
+        "description shows no physical product": 7,
         "megacap / mega-private, deliberately untracked": 1,
         "software or services wearing a hard-tech label": 1
       }
@@ -239,16 +259,18 @@
       "kind": "links",
       "note": "Space-only fund; ~100 companies",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
-      "count": 102,
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
+      "count": 103,
       "tracked": 18,
-      "overlap": 0.176,
-      "new_this_run": 0,
+      "overlap": 0.175,
+      "new_this_run": 1,
       "baseline": false,
-      "new_names": [],
+      "new_names": [
+        "Zenithon AI"
+      ],
       "candidates": 66,
       "rejected_by_bar": {
-        "description shows no physical product": 14,
+        "description shows no physical product": 15,
         "software or services wearing a hard-tech label": 4
       }
     },
@@ -258,7 +280,7 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 24,
       "tracked": 17,
       "overlap": 0.708,
@@ -274,7 +296,7 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 27,
       "tracked": 10,
       "overlap": 0.37,
@@ -293,15 +315,13 @@
       "kind": "links",
       "note": "Page shows the first 15 only; the rest load on click",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 15,
       "tracked": 3,
       "overlap": 0.2,
-      "new_this_run": 1,
+      "new_this_run": 0,
       "baseline": false,
-      "new_names": [
-        "Locus Lock"
-      ],
+      "new_names": [],
       "candidates": 6,
       "rejected_by_bar": {
         "description shows no physical product": 6
@@ -313,7 +333,7 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 14,
       "tracked": 4,
       "overlap": 0.286,
@@ -332,7 +352,7 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 1,
       "tracked": 0,
       "overlap": 0.0,
@@ -348,15 +368,19 @@
       "kind": "slugs",
       "note": "Subpage slugs only",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 60,
-      "tracked": 19,
-      "overlap": 0.317,
-      "new_this_run": 0,
+      "tracked": 18,
+      "overlap": 0.3,
+      "new_this_run": 1,
       "baseline": false,
-      "new_names": [],
+      "new_names": [
+        "Atropos"
+      ],
       "candidates": 41,
-      "rejected_by_bar": {}
+      "rejected_by_bar": {
+        "megacap / mega-private, deliberately untracked": 1
+      }
     },
     "Shield": {
       "name": "Shield Capital",
@@ -364,7 +388,7 @@
       "kind": "slugs",
       "note": "Subpage slugs only",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 8,
       "tracked": 3,
       "overlap": 0.375,
@@ -380,7 +404,7 @@
       "kind": "slugs",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 29,
       "tracked": 3,
       "overlap": 0.103,
@@ -396,7 +420,7 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 114,
       "tracked": 28,
       "overlap": 0.246,
@@ -414,7 +438,7 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 36,
       "tracked": 8,
       "overlap": 0.222,
@@ -432,16 +456,16 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 46,
-      "tracked": 13,
-      "overlap": 0.283,
+      "tracked": 12,
+      "overlap": 0.261,
       "new_this_run": 0,
       "baseline": false,
       "new_names": [],
       "candidates": 0,
       "rejected_by_bar": {
-        "generalist fund: holdings only": 33
+        "generalist fund: holdings only": 34
       }
     },
     "Draper": {
@@ -450,7 +474,7 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-09-28T15:56:23.164438+00:00",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
       "count": 93,
       "tracked": 8,
       "overlap": 0.086,
@@ -461,8 +485,26 @@
       "rejected_by_bar": {
         "generalist fund: holdings only": 85
       }
+    },
+    "AlleyCorp": {
+      "name": "AlleyCorp",
+      "url": "https://alleycorp.com/companies/",
+      "kind": "links",
+      "note": "Kevin Ryan's NYC studio; ~140 cards (aria-label names), mostly software and healthcare",
+      "partial": "",
+      "fetched_at": "2026-10-05T16:22:16.876017+00:00",
+      "count": 142,
+      "tracked": 7,
+      "overlap": 0.049,
+      "new_this_run": 0,
+      "baseline": true,
+      "new_names": [],
+      "candidates": 0,
+      "rejected_by_bar": {
+        "generalist fund: holdings only": 135
+      }
     }
   },
-  "total_candidates": 330,
+  "total_candidates": 331,
   "broken": []
 }

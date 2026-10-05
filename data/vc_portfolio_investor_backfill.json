@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-09-28T15:56:23.164438+00:00",
-  "count": 18,
+  "generated_at": "2026-10-05T16:22:16.876017+00:00",
+  "count": 12,
   "note": "COMPANIES whose investors field lacks a fund that lists them on its portfolio page. Domain matches are exact; name matches deserve a glance.",
   "items": [
+    {
+      "company": "Armadin",
+      "add": "Andreessen Horowitz",
+      "fund": "a16z",
+      "matched_by": "domain",
+      "evidence": "https://a16z.com/companies/armadin/",
+      "first_funded": "2026-10-01"
+    },
+    {
+      "company": "Aleph Surgical",
+      "add": "Andreessen Horowitz",
+      "fund": "a16z",
+      "matched_by": "domain",
+      "evidence": "https://a16z.com/companies/aleph-surgical/",
+      "first_funded": "2026-09-30"
+    },
     {
       "company": "ASI",
       "add": "Andreessen Horowitz",
@@ -10,14 +26,6 @@
       "matched_by": "domain",
       "evidence": "https://a16z.com/companies/air-space-intelligence/",
       "first_funded": "2023-11-03"
-    },
-    {
-      "company": "Orchid",
-      "add": "Andreessen Horowitz",
-      "fund": "a16z",
-      "matched_by": "domain",
-      "evidence": "https://a16z.com/companies/orchid-labs/",
-      "first_funded": "2017-10-02"
     },
     {
       "company": "Toka",
@@ -28,30 +36,6 @@
       "first_funded": "2018-06-01"
     },
     {
-      "company": "Remora",
-      "add": "Lowercarbon Capital",
-      "fund": "Lowercarbon",
-      "matched_by": "domain",
-      "evidence": "https://lowercarbon.com/company/remora/",
-      "first_funded": "2021-01-20"
-    },
-    {
-      "company": "Kula Bio",
-      "add": "Lowercarbon Capital",
-      "fund": "Lowercarbon",
-      "matched_by": "domain",
-      "evidence": "https://lowercarbon.com/company/kula/",
-      "first_funded": "2020-09-25"
-    },
-    {
-      "company": "Vinci",
-      "add": "Eclipse Ventures",
-      "fund": "Eclipse",
-      "matched_by": "domain",
-      "evidence": "https://eclipse.vc/portfolio/vinci",
-      "first_funded": "2026-03-24"
-    },
-    {
       "company": "Thor Dynamics",
       "add": "Silent Ventures",
       "fund": "Silent",
@@ -60,43 +44,35 @@
       "first_funded": ""
     },
     {
+      "company": "ASI",
+      "add": "Pax Ventures",
+      "fund": "Pax Ventures",
+      "matched_by": "domain",
+      "evidence": "https://www.pax.vc/",
+      "first_funded": ""
+    },
+    {
+      "company": "American Housing Corporation",
+      "add": "Pax Ventures",
+      "fund": "Pax Ventures",
+      "matched_by": "domain",
+      "evidence": "https://www.pax.vc/",
+      "first_funded": ""
+    },
+    {
+      "company": "Lumaril",
+      "add": "Pax Ventures",
+      "fund": "Pax Ventures",
+      "matched_by": "domain",
+      "evidence": "https://www.pax.vc/",
+      "first_funded": ""
+    },
+    {
       "company": "Orbital Composites",
       "add": "Seraphim Space",
       "fund": "Seraphim Space",
       "matched_by": "domain",
       "evidence": "https://seraphim.vc/portfolio",
-      "first_funded": ""
-    },
-    {
-      "company": "Harbinger",
-      "add": "In-Q-Tel",
-      "fund": "IQT",
-      "matched_by": "domain",
-      "evidence": "https://www.iqt.org/portfolio/",
-      "first_funded": ""
-    },
-    {
-      "company": "Reflex Robotics",
-      "add": "Khosla Ventures",
-      "fund": "KV",
-      "matched_by": "domain",
-      "evidence": "https://khoslaventures.com/portfolio/",
-      "first_funded": ""
-    },
-    {
-      "company": "Vinci",
-      "add": "Khosla Ventures",
-      "fund": "KV",
-      "matched_by": "domain",
-      "evidence": "https://khoslaventures.com/portfolio/",
-      "first_funded": ""
-    },
-    {
-      "company": "Remora",
-      "add": "Valor Equity Partners",
-      "fund": "Valor",
-      "matched_by": "domain",
-      "evidence": "https://valorep.com/portfolio/",
       "first_funded": ""
     },
     {
@@ -113,14 +89,6 @@
       "fund": "Decisive Point",
       "matched_by": "domain",
       "evidence": "https://decisivepoint.com/portfolio",
-      "first_funded": ""
-    },
-    {
-      "company": "NVision Imaging Technologies",
-      "add": "Playground Global",
-      "fund": "Playground",
-      "matched_by": "domain",
-      "evidence": "https://playground.global/portfolio/",
       "first_funded": ""
     },
     {

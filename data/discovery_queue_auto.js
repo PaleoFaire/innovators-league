@@ -1,53 +1,17 @@
 // Auto-generated from discovery_queue_auto.json
-// Last updated: 2026-09-28T15:58:31+00:00
+// Last updated: 2026-10-05T16:24:16+00:00
 const DISCOVERY_QUEUE_AUTO = {
-  "generatedAt": "2026-09-28T15:58:31+00:00",
-  "knownCompaniesCount": 2019,
+  "generatedAt": "2026-10-05T16:24:16+00:00",
+  "knownCompaniesCount": 2040,
   "summary": {
-    "totalCandidates": 370,
+    "totalCandidates": 372,
     "fromFormD": 0,
-    "fromVcPortfolios": 319,
-    "fromNewsletters": 24,
-    "fromLlmExtraction": 35,
-    "multiSource": 3
+    "fromVcPortfolios": 322,
+    "fromNewsletters": 23,
+    "fromLlmExtraction": 34,
+    "multiSource": 2
   },
   "candidates": [
-    {
-      "name": "Bluecore Energy",
-      "score": 67.5,
-      "signals": [
-        {
-          "name": "Bluecore Energy",
-          "source": "Newsletter: TechCrunch \u00b7 Venture",
-          "sourceWeight": 9.5,
-          "context": "Nuclear startup Bluecore Energy raises $50M seed round, just two months after launch\nBluecore Energy announced Tuesd",
-          "date": "Tue, 08 Sep 2026 14:10:17 +0000",
-          "verifyUrl": "https://techcrunch.com/2026/09/08/nuclear-startup-bluecore-energy-raises-50m-seed-round-just-two-months-after-launch/",
-          "articleTitle": "Nuclear startup Bluecore Energy raises $50M seed round, just two months after launch"
-        },
-        {
-          "name": "Bluecore Energy",
-          "source": "LLM (TechCrunch \u00b7 Venture)",
-          "sourceWeight": 38,
-          "context": "A nuclear energy startup that raised a substantial seed round just two months after launch, indicating a novel approach to nuclear power.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": true,
-          "confidence": "high",
-          "date": "Tue, 08 Sep 2026 14:10:17 +0000",
-          "verifyUrl": "https://techcrunch.com/2026/09/08/nuclear-startup-bluecore-energy-raises-50m-seed-round-just-two-months-after-launch/",
-          "articleTitle": "Nuclear startup Bluecore Energy raises $50M seed round, just two months after launch",
-          "suggestedSector": "Nuclear Energy"
-        }
-      ],
-      "sources": [
-        "LLM (TechCrunch \u00b7 Venture)",
-        "Newsletter"
-      ],
-      "multiSource": true,
-      "confidence": "high",
-      "suggestedSector": "Space & Aerospace"
-    },
     {
       "name": "American Supercritical",
       "score": 60,
@@ -237,12 +201,12 @@ const DISCOVERY_QUEUE_AUTO = {
     },
     {
       "name": "Crux",
-      "score": 43,
+      "score": 53,
       "signals": [
         {
           "name": "Crux",
           "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
+          "sourceWeight": 35,
           "vc": "Lowercarbon",
           "date": "2023-04-13",
           "verifyUrl": "https://cruxclimate.com",
@@ -267,12 +231,12 @@ const DISCOVERY_QUEUE_AUTO = {
     },
     {
       "name": "Zeno",
-      "score": 43,
+      "score": 53,
       "signals": [
         {
           "name": "Zeno",
           "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
+          "sourceWeight": 35,
           "vc": "Lowercarbon",
           "date": "2025-03-06",
           "verifyUrl": "https://zeno.earth",
@@ -286,6 +250,111 @@ const DISCOVERY_QUEUE_AUTO = {
           "date": "2026-09-25",
           "verifyUrl": "https://www.congruentvc.com/portfolio/zeno",
           "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Ephemeris",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Ephemeris",
+          "source": "VC portfolio: Pax Ventures",
+          "sourceWeight": 35,
+          "vc": "Pax Ventures",
+          "date": "2026-10-05",
+          "verifyUrl": "https://ephemeris.net/",
+          "context": "Listed by Pax Ventures: Bringing the internet to space"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "Oceanus",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Oceanus",
+          "source": "VC portfolio: Pax Ventures",
+          "sourceWeight": 35,
+          "vc": "Pax Ventures",
+          "date": "2026-10-05",
+          "verifyUrl": "https://www.oceanustechnologies.com/",
+          "context": "Listed by Pax Ventures: We build modern software and systems for the commercial maritime industry."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Skyband",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Skyband",
+          "source": "VC portfolio: Pax Ventures",
+          "sourceWeight": 35,
+          "vc": "Pax Ventures",
+          "date": "2026-10-05",
+          "verifyUrl": "https://www.skybandsystems.com/",
+          "context": "Listed by Pax Ventures"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Harbinger Industries",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Harbinger Industries",
+          "source": "VC portfolio: Silent",
+          "sourceWeight": 35,
+          "vc": "Silent",
+          "date": "2026-09-28",
+          "verifyUrl": "https://harbinger.industries/",
+          "context": "Listed by Silent: Harbinger Industries builds electric vehicles, autonomous systems, defense platforms, energy generation, and advanced components across five integrated verticals."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Defense & Security"
+    },
+    {
+      "name": "Voyager Technologies",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Voyager Technologies",
+          "source": "VC portfolio: Silent",
+          "sourceWeight": 35,
+          "vc": "Silent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://voyagertechnologies.com/",
+          "context": "Listed by Silent"
         }
       ],
       "sources": [
@@ -399,48 +468,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Harbinger Industries",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Harbinger Industries",
-          "source": "VC portfolio: Silent",
-          "sourceWeight": 35,
-          "vc": "Silent",
-          "date": "2026-09-28",
-          "verifyUrl": "https://harbinger.industries/",
-          "context": "Listed by Silent: Harbinger Industries builds electric vehicles, autonomous systems, defense platforms, energy generation, and advanced components across five integrated verticals."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Defense & Security"
-    },
-    {
-      "name": "Voyager Technologies",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Voyager Technologies",
-          "source": "VC portfolio: Silent",
-          "sourceWeight": 35,
-          "vc": "Silent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://voyagertechnologies.com/",
-          "context": "Listed by Silent"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
     },
     {
       "name": "Youtu",
@@ -1157,6 +1184,972 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
+      "name": "Acceleron",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Acceleron",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2025-03-06",
+          "verifyUrl": "https://acceleron.energy",
+          "context": "Listed by Lowercarbon, first funded 2025-03-06: Plasma-free fusion. Big Picture The science of muon-catalyzed fusion was discovered in the 1950s. But researchers abandoned it, as fusion tech wasn\u2019t powerful or efficient enough to wrangle muons \u2013 su"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Fusion Energy"
+    },
+    {
+      "name": "Airloom",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Airloom",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2021-02-18",
+          "verifyUrl": "https://airloom.energy",
+          "context": "Listed by Lowercarbon, first funded 2021-02-18: The easiest wind farm ever built. Big Picture The cost of wind power has fallen dramatically thanks in part to longer blades on taller towers generating power more efficiently. But, as those turbines "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Arca",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Arca",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2023-08-16",
+          "verifyUrl": "https://arcaclimate.com",
+          "context": "Listed by Lowercarbon, first funded 2023-08-16: Turn mine waste into climate gold. Big Picture Metals are key to a low-carbon future, but it can take 100-200 tons of rock mined to extract one ton of ore. Churning out megatons of waste each year dec"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Biosphere",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Biosphere",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2025-03-10",
+          "verifyUrl": "https://biosphere.io",
+          "context": "Listed by Lowercarbon, first funded 2025-03-10: Biotech at a planetary scale. Big Picture Today\u2019s global bioreactor capacity isn\u2019t enough to supply current, let alone future, demand for food, chemicals, and materials. Legacy bioreactors are also a "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Nuclear Energy"
+    },
+    {
+      "name": "Breathe",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Breathe",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2023-10-18",
+          "verifyUrl": "https://breathebatteries.com",
+          "context": "Listed by Lowercarbon, first funded 2023-10-18: Squeezing more juice from batteries. Big Picture Batteries now power everything from smartphones to cars, ships, and planes. The more battery performance is maximized, the fewer costs incurred and res"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Climate & Energy"
+    },
+    {
+      "name": "Carbon Crusher",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Carbon Crusher",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2023-08-22",
+          "verifyUrl": "https://carboncrusher.com",
+          "context": "Listed by Lowercarbon, first funded 2023-08-22: Literally paving the way to net-zero. Big Picture The world is covered with 40 million miles of roads. Roads are the veins of our society, but they don\u2019t come without pitfalls. Building and maintainin"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Carbon Engineering",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Carbon Engineering",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2020-09-15",
+          "verifyUrl": "https://carbonengineering.com",
+          "context": "Listed by Lowercarbon, first funded 2020-09-15: Giant carbon-sucking vacuums. Big Picture It\u2019s too late to limit global warming simply by reducing emissions. Preventing runaway temperature rise will require removing carbon from the air. One way to "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "CargoKite",
+      "score": 35,
+      "signals": [
+        {
+          "name": "CargoKite",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2025-03-06",
+          "verifyUrl": "https://cargokite.com",
+          "context": "Listed by Lowercarbon, first funded 2025-03-06: Clean kitesurfing cargo ships. Big Picture Big cargo ships come with big problems. Not only do container ships emit more than a billion tons of CO\u2082 a year, these massive vessels can only access about "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Cloover",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Cloover",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2025-03-06",
+          "verifyUrl": "https://cloover.co",
+          "context": "Listed by Lowercarbon, first funded 2025-03-06: Europe\u2019s solar financing on-switch. Big Picture By 2040, 100% of new EU buildings will be required to have rooftop solar. This will require a \u20ac550b investment in residential energy to meet new EU stan"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Climate & Energy"
+    },
+    {
+      "name": "Dendra",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Dendra",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2020-09-23",
+          "verifyUrl": "https://dendra.io",
+          "context": "Listed by Lowercarbon, first funded 2020-09-23: Forest-planting drones. The Big Idea Each year deforestation accounts for 10-15% of global emissions, as an estimated 15 billion trees are cut down around the world. Any chance of limiting temperature"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Defense & Security"
+    },
+    {
+      "name": "Ecosafi",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Ecosafi",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2020-09-25",
+          "verifyUrl": "https://ecosafi.com",
+          "context": "Listed by Lowercarbon, first funded 2020-09-25: Cleaning up Africa\u2019s cookstoves. Big Picture Over 3 billion people (40% of the world population) rely on dirty fuels like charcoal for cooking food and heating water. Usually burned indoors, these fue"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Enode",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Enode",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2021-06-15",
+          "verifyUrl": "https://enode.com",
+          "context": "Listed by Lowercarbon, first funded 2021-06-15: Universal API for EV charging. Big Picture Today\u2019s grids aren\u2019t prepared for the billions of electric vehicles, home solar systems, heat pumps, and smart appliances set to come online in the coming de"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Climate & Energy"
+    },
+    {
+      "name": "FarmHQ",
+      "score": 35,
+      "signals": [
+        {
+          "name": "FarmHQ",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2022-03-24",
+          "verifyUrl": "https://farmhq.com",
+          "context": "Listed by Lowercarbon, first funded 2022-03-24: Robots saving water and farms. Big Picture Much of the world will feel climate change primarily through water. In the Western U.S., the past 20 years were the driest in over 1,200 years. As water tabl"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Robotics & Manufacturing"
+    },
+    {
+      "name": "Flair",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Flair",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2021-06-15",
+          "verifyUrl": "https://flair.co",
+          "context": "Listed by Lowercarbon, first funded 2021-06-15: Energy autopilot for your HVAC. Big Picture Air conditioning is a vicious climate feedback loop. Rising incomes and temperatures in cities around the world are supercharging demand for cool air. This "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Genomines",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Genomines",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2022-06-03",
+          "verifyUrl": "https://genomines.com",
+          "context": "Listed by Lowercarbon, first funded 2022-06-03: Plants that mine metals. Big Picture A tension at the heart of the movement to electrify our cars, homes, and grids is that mining the materials needed is extremely slow and pollutive. As a whole, the"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "InRange",
+      "score": 35,
+      "signals": [
+        {
+          "name": "InRange",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2020-09-15",
+          "verifyUrl": "https://inrange.io",
+          "context": "Listed by Lowercarbon, first funded 2020-09-15: Growing the rooftop solar grid. Big Picture Corporate demand for clean energy outpaces the grid\u2019s ability to supply it. For many, the answer could come from roofs rather than wires. Roof-top solar pow"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Climate & Energy"
+    },
+    {
+      "name": "Isometric",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Isometric",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2023-07-18",
+          "verifyUrl": "https://isometric.com",
+          "context": "Listed by Lowercarbon, first funded 2023-07-18: CDR standards that set the standard. Big Picture The carbon offset market is broken. Many credits do little to cool the planet and can even do more harm than good. The rise of high quality carbon remo"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Lemon",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Lemon",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2022-06-04",
+          "verifyUrl": "https://lemon.energy",
+          "context": "Listed by Lowercarbon, first funded 2022-06-04: Plugging Brazil into the sun. Big Picture Latin America\u2019s largest economy relies on hydro for two-thirds of its power. Yet, 80% of that capacity is literally evaporating due to climate-fueled droughts"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Lithios",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Lithios",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2025-03-06",
+          "verifyUrl": "https://lithios.xyz",
+          "context": "Listed by Lowercarbon, first funded 2025-03-06: Batteries that mine lithium. Big Picture Lithium demand is growing 2x as fast as supply, threatening to bottleneck the \u201cinevitable\u201d transition to clean power and transportation just as it was getting "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Climate & Energy"
+    },
+    {
+      "name": "Loam",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Loam",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2020-09-15",
+          "verifyUrl": "https://loambio.com",
+          "context": "Listed by Lowercarbon, first funded 2020-09-15: Farm-to-bank carbon removal. Big Picture Prevailing agricultural practices deplete soils of key nutrients, such as CO\u2082. Globally, this has resulted in an estimated 60% loss of soil organic carbon to t"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Lumen",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Lumen",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2020-09-15",
+          "verifyUrl": "https://getlumen.com",
+          "context": "Listed by Lowercarbon, first funded 2020-09-15: Go solar. Get paid. Big Picture While residential rooftop solar booms, only 3% of the 6 million commercial and industrial buildings in the US have made the switch to the cheaper, more reliable power o"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Macro Oceans",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Macro Oceans",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2022-03-24",
+          "verifyUrl": "https://macro-oceans.com",
+          "context": "Listed by Lowercarbon, first funded 2022-03-24: Kelp as the new corn. Big Picture Kelp is the perfect industrial crop: convertible into a variety of high-value products without the ungodly amounts of land, chemicals, and fertilizers that corn or so"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Mill",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Mill",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2022-06-23",
+          "verifyUrl": "https://mill.com",
+          "context": "Listed by Lowercarbon, first funded 2022-06-23: Food waste magic. Big Picture One in four food calories ends up in a landfill. These literal mountains of food waste break down into methane \u2013 84x more potent than CO\u2082 \u2013 driving 6% of all warming. Tha"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Milvus Advanced",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Milvus Advanced",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2025-03-06",
+          "verifyUrl": "https://milvusadvanced.co.uk",
+          "context": "Listed by Lowercarbon, first funded 2025-03-06: CRISPR for metals. Big Picture Precious metals are the dirty open secret of the clean energy transition. Fast-growing clean solutions like hydrogen and EVs are turbocharging demand for scarce, costly "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Minus",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Minus",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2021-06-16",
+          "verifyUrl": "https://drinkminuscoffee.com",
+          "context": "Listed by Lowercarbon, first funded 2021-06-16: Coffee minus coffee. Big Picture Coffee is at once a contributor to climate change and in its crosshairs. Growing, shipping, roasting, and serving add up. Each of the 450 million cups consumed daily i"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Mosa",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Mosa",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2020-09-25",
+          "verifyUrl": "https://mosameat.com",
+          "context": "Listed by Lowercarbon, first funded 2020-09-25: 100% beef that never had eyes nor hooves. Big Picture Global demand for beef is expected to grow more than 70% by 2050. Under business as usual, this will be catastrophic for greenhouse gas emissions "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Nevoya",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Nevoya",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2026-01-07",
+          "verifyUrl": "https://nevoya.com",
+          "context": "Listed by Lowercarbon, first funded 2026-01-07: Freight trucking goes electric. Big Picture Shippers want the best carrying services available \u2013 reliable, cost-efficient, and increasingly, zero-emissions. The industry knows digitization and AI are "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Novalith",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Novalith",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2023-04-17",
+          "verifyUrl": "https://novalith.com",
+          "context": "Listed by Lowercarbon, first funded 2023-04-17: Hard rock, easy lithium. Big Picture Lithium deposits come in two flavors: mineral-rich waters called \u201cbrines\u201d and solid ore deposits called \u201chard rock.\u201d The latter accounts for about 40% of global re"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Climate & Energy"
+    },
+    {
+      "name": "Noya",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Noya",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2021-01-28",
+          "verifyUrl": "https://noya.co",
+          "context": "Listed by Lowercarbon, first funded 2021-01-28: Capturing carbon with carbon. Big Picture Current levels of CO\u2082 in the atmosphere are catastrophic despite making up only 0.04% of its matter. This makes capturing and removing it tricky. Enormous amo"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Pachama",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Pachama",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2020-09-15",
+          "verifyUrl": "https://pachama.com",
+          "context": "Listed by Lowercarbon, first funded 2020-09-15: Restore nature. Remove carbon. Big Picture Keeping temperatures from rising more than 1.5 \u00b0C requires aggressive restoration of nature\u2019s carbon trapping ecosystems. Forests, for example, are key for b"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Pledge",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Pledge",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2021-10-21",
+          "verifyUrl": "https://pledge.io",
+          "context": "Listed by Lowercarbon, first funded 2021-10-21: Freight-friendly carbon offsets. Big Picture Carbon removal has a chicken and egg problem. There is accelerating demand for CO\u2082 removal from corporate and government customers, yet prices are high and"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Quilt",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Quilt",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2023-06-15",
+          "verifyUrl": "https://quilt.com",
+          "context": "Listed by Lowercarbon, first funded 2023-06-15: Making heat pumps cool. Big Picture Heat pumps are no longer just for comfort. In heat waves and cold snaps, they\u2019re lifelines. A few billion will be installed as extreme weather grows more frequent. "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "River",
+      "score": 35,
+      "signals": [
+        {
+          "name": "River",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2022-08-02",
+          "verifyUrl": "https://rideriver.com",
+          "context": "Listed by Lowercarbon, first funded 2022-08-02: India\u2019s practical, badass e-moto. Big Picture India is set to add 30 million new two wheelers to the road annually by 2030, buoyed by the rise of a gig economy and home-deliveries carried out on two w"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Rune Energy",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Rune Energy",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2025-03-10",
+          "verifyUrl": "https://rune.energy",
+          "context": "Listed by Lowercarbon, first funded 2025-03-10: Compute power from clean energy leftovers. Big Picture Solar and wind farms make more energy than the grid can handle. This surplus just goes to waste, even as the energy needs of computing are blowin"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Climate & Energy"
+    },
+    {
+      "name": "Seabound",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Seabound",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2025-03-06",
+          "verifyUrl": "https://seabound.co",
+          "context": "Listed by Lowercarbon, first funded 2025-03-06: Decarbonizing shipping. Big Picture Ships are the arteries of the global economy, and bunker fuel is what flows through them. The nasty, sludgy oil byproduct powering nearly 100,000 cargo, tanker, and"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Solar Square",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Solar Square",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2022-06-10",
+          "verifyUrl": "https://solarsquare.in",
+          "context": "Listed by Lowercarbon, first funded 2022-06-10: Solarizing Indian rooftops. Big Picture India is set to add a quarter billion people in the next two decades, snagging the top spot from China. Along the way, it is projected to double its building st"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Climate & Energy"
+    },
+    {
+      "name": "Storio",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Storio",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2025-03-10",
+          "verifyUrl": "https://storioenergy.com",
+          "context": "Listed by Lowercarbon, first funded 2025-03-10: Commercial batteries that practically store cash. Big Picture Electricity prices aren\u2019t just rising, they\u2019re also unpredictable. And with intermittent renewables making up a bigger and bigger slice of"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Supercritical",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Supercritical",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2022-03-24",
+          "verifyUrl": "https://supercritical.solutions",
+          "context": "Listed by Lowercarbon, first funded 2022-03-24: Super-cheap green hydrogen. Big Idea Despite its promise as decarbonization\u2019s skeleton key, hydrogen remains one of the world\u2019s dirtiest industries. Over 95% of global hydrogen production today is fos"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Tender",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Tender",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2022-04-26",
+          "verifyUrl": "https://tenderfood.com",
+          "context": "Listed by Lowercarbon, first funded 2022-04-26: Looks like meat, tastes like meat. Big Picture Combined, pork and chicken make up more than 60% of global meat production and emit more than 1 Gt of CO 2 e annually. Multiple plant- and cell-based alt"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Undo",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Undo",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2023-06-22",
+          "verifyUrl": "https://un-do.com",
+          "context": "Listed by Lowercarbon, first funded 2023-06-22: Rocking carbon, renewing soil. Big Picture Less than 1% of Earth\u2019s carbon is found in living things. The rest is found in rocks. Over centuries, rocks suck up CO\u2082 from the air and store it stably in c"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Vaulted",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Vaulted",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2024-01-05",
+          "verifyUrl": "https://vaulteddeep.com",
+          "context": "Listed by Lowercarbon, first funded 2024-01-05: Waste disposal that trashes CO\u2082. Big Picture The U.S. produces 400M tons of solid organic waste annually. That\u2019s a whole lot of sewage, food scraps, and agricultural waste to get rid of. Where does it"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Verdox",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Verdox",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2022-03-24",
+          "verifyUrl": "https://verdox.com",
+          "context": "Listed by Lowercarbon, first funded 2022-03-24: Suck up carbon, not energy. Big Picture To date, most commercial carbon capture requires high concentrations of CO\u2082 for the physics to pencil out. Novel approaches can capture ambient CO\u2082 that makes u"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Climate & Energy"
+    },
+    {
+      "name": "Watershed",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Watershed",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2023-06-29",
+          "verifyUrl": "https://watershed.com",
+          "context": "Listed by Lowercarbon, first funded 2023-06-29: Carbon rehab for your business. Big Picture It seems everyone\u2019s got a net-zero commitment these days. Promises to zero out Scope 1, 2, and 3 emissions now cover more than 70% of global greenhouse gas "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Woodoo",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Woodoo",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2023-08-22",
+          "verifyUrl": "https://woodoo.com",
+          "context": "Listed by Lowercarbon, first funded 2023-08-22: Wood with muscles of steel. Big Picture Embodied carbon in the built environment represents 11% of energy-related CO\u2082 emissions globally, primarily driven by the use of concrete and steel. Increased f"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Yard Stick",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Yard Stick",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2021-06-15",
+          "verifyUrl": "https://useyardstick.com",
+          "context": "Listed by Lowercarbon, first funded 2021-06-15: Measure soil carbon in a snap. Big Picture In theory, soils have the capacity to suck up to three times more CO\u2082 than is currently swirling around the atmosphere. This potential has fueled hype around"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Zero Acre",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Zero Acre",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2022-02-02",
+          "verifyUrl": "https://zeroacre.com",
+          "context": "Listed by Lowercarbon, first funded 2022-02-02: Cooking oil that doesn\u2019t fry the planet. Big Picture Vegetable oils like soy and palm are the most consumed food products in the world after rice and wheat. The scale of consumption makes them one of "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
       "name": "Arena",
       "score": 30,
       "signals": [
@@ -1495,174 +2488,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Acceleron",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Acceleron",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2025-03-06",
-          "verifyUrl": "https://acceleron.energy",
-          "context": "Listed by Lowercarbon, first funded 2025-03-06: Plasma-free fusion. Big Picture The science of muon-catalyzed fusion was discovered in the 1950s. But researchers abandoned it, as fusion tech wasn\u2019t powerful or efficient enough to wrangle muons \u2013 su"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Fusion Energy"
-    },
-    {
-      "name": "Airloom",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Airloom",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2021-02-18",
-          "verifyUrl": "https://airloom.energy",
-          "context": "Listed by Lowercarbon, first funded 2021-02-18: The easiest wind farm ever built. Big Picture The cost of wind power has fallen dramatically thanks in part to longer blades on taller towers generating power more efficiently. But, as those turbines "
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Biotech & Health"
-    },
-    {
-      "name": "Arca",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Arca",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2023-08-16",
-          "verifyUrl": "https://arcaclimate.com",
-          "context": "Listed by Lowercarbon, first funded 2023-08-16: Turn mine waste into climate gold. Big Picture Metals are key to a low-carbon future, but it can take 100-200 tons of rock mined to extract one ton of ore. Churning out megatons of waste each year dec"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Biosphere",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Biosphere",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2025-03-10",
-          "verifyUrl": "https://biosphere.io",
-          "context": "Listed by Lowercarbon, first funded 2025-03-10: Biotech at a planetary scale. Big Picture Today\u2019s global bioreactor capacity isn\u2019t enough to supply current, let alone future, demand for food, chemicals, and materials. Legacy bioreactors are also a "
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Nuclear Energy"
-    },
-    {
-      "name": "Breathe",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Breathe",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2023-10-18",
-          "verifyUrl": "https://breathebatteries.com",
-          "context": "Listed by Lowercarbon, first funded 2023-10-18: Squeezing more juice from batteries. Big Picture Batteries now power everything from smartphones to cars, ships, and planes. The more battery performance is maximized, the fewer costs incurred and res"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Climate & Energy"
-    },
-    {
-      "name": "Carbon Crusher",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Carbon Crusher",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2023-08-22",
-          "verifyUrl": "https://carboncrusher.com",
-          "context": "Listed by Lowercarbon, first funded 2023-08-22: Literally paving the way to net-zero. Big Picture The world is covered with 40 million miles of roads. Roads are the veins of our society, but they don\u2019t come without pitfalls. Building and maintainin"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Carbon Engineering",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Carbon Engineering",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2020-09-15",
-          "verifyUrl": "https://carbonengineering.com",
-          "context": "Listed by Lowercarbon, first funded 2020-09-15: Giant carbon-sucking vacuums. Big Picture It\u2019s too late to limit global warming simply by reducing emissions. Preventing runaway temperature rise will require removing carbon from the air. One way to "
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "CargoKite",
-      "score": 25,
-      "signals": [
-        {
-          "name": "CargoKite",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2025-03-06",
-          "verifyUrl": "https://cargokite.com",
-          "context": "Listed by Lowercarbon, first funded 2025-03-06: Clean kitesurfing cargo ships. Big Picture Big cargo ships come with big problems. Not only do container ships emit more than a billion tons of CO\u2082 a year, these massive vessels can only access about "
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
       "name": "Clairity",
       "score": 25,
       "signals": [
@@ -1682,783 +2507,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Cloover",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Cloover",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2025-03-06",
-          "verifyUrl": "https://cloover.co",
-          "context": "Listed by Lowercarbon, first funded 2025-03-06: Europe\u2019s solar financing on-switch. Big Picture By 2040, 100% of new EU buildings will be required to have rooftop solar. This will require a \u20ac550b investment in residential energy to meet new EU stan"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Climate & Energy"
-    },
-    {
-      "name": "Dendra",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Dendra",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2020-09-23",
-          "verifyUrl": "https://dendra.io",
-          "context": "Listed by Lowercarbon, first funded 2020-09-23: Forest-planting drones. The Big Idea Each year deforestation accounts for 10-15% of global emissions, as an estimated 15 billion trees are cut down around the world. Any chance of limiting temperature"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Defense & Security"
-    },
-    {
-      "name": "Ecosafi",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Ecosafi",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2020-09-25",
-          "verifyUrl": "https://ecosafi.com",
-          "context": "Listed by Lowercarbon, first funded 2020-09-25: Cleaning up Africa\u2019s cookstoves. Big Picture Over 3 billion people (40% of the world population) rely on dirty fuels like charcoal for cooking food and heating water. Usually burned indoors, these fue"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Enode",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Enode",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2021-06-15",
-          "verifyUrl": "https://enode.com",
-          "context": "Listed by Lowercarbon, first funded 2021-06-15: Universal API for EV charging. Big Picture Today\u2019s grids aren\u2019t prepared for the billions of electric vehicles, home solar systems, heat pumps, and smart appliances set to come online in the coming de"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Climate & Energy"
-    },
-    {
-      "name": "FarmHQ",
-      "score": 25,
-      "signals": [
-        {
-          "name": "FarmHQ",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2022-03-24",
-          "verifyUrl": "https://farmhq.com",
-          "context": "Listed by Lowercarbon, first funded 2022-03-24: Robots saving water and farms. Big Picture Much of the world will feel climate change primarily through water. In the Western U.S., the past 20 years were the driest in over 1,200 years. As water tabl"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Robotics & Manufacturing"
-    },
-    {
-      "name": "Flair",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Flair",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2021-06-15",
-          "verifyUrl": "https://flair.co",
-          "context": "Listed by Lowercarbon, first funded 2021-06-15: Energy autopilot for your HVAC. Big Picture Air conditioning is a vicious climate feedback loop. Rising incomes and temperatures in cities around the world are supercharging demand for cool air. This "
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Genomines",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Genomines",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2022-06-03",
-          "verifyUrl": "https://genomines.com",
-          "context": "Listed by Lowercarbon, first funded 2022-06-03: Plants that mine metals. Big Picture A tension at the heart of the movement to electrify our cars, homes, and grids is that mining the materials needed is extremely slow and pollutive. As a whole, the"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "InRange",
-      "score": 25,
-      "signals": [
-        {
-          "name": "InRange",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2020-09-15",
-          "verifyUrl": "https://inrange.io",
-          "context": "Listed by Lowercarbon, first funded 2020-09-15: Growing the rooftop solar grid. Big Picture Corporate demand for clean energy outpaces the grid\u2019s ability to supply it. For many, the answer could come from roofs rather than wires. Roof-top solar pow"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Climate & Energy"
-    },
-    {
-      "name": "Isometric",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Isometric",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2023-07-18",
-          "verifyUrl": "https://isometric.com",
-          "context": "Listed by Lowercarbon, first funded 2023-07-18: CDR standards that set the standard. Big Picture The carbon offset market is broken. Many credits do little to cool the planet and can even do more harm than good. The rise of high quality carbon remo"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Lemon",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Lemon",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2022-06-04",
-          "verifyUrl": "https://lemon.energy",
-          "context": "Listed by Lowercarbon, first funded 2022-06-04: Plugging Brazil into the sun. Big Picture Latin America\u2019s largest economy relies on hydro for two-thirds of its power. Yet, 80% of that capacity is literally evaporating due to climate-fueled droughts"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Lithios",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Lithios",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2025-03-06",
-          "verifyUrl": "https://lithios.xyz",
-          "context": "Listed by Lowercarbon, first funded 2025-03-06: Batteries that mine lithium. Big Picture Lithium demand is growing 2x as fast as supply, threatening to bottleneck the \u201cinevitable\u201d transition to clean power and transportation just as it was getting "
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Climate & Energy"
-    },
-    {
-      "name": "Loam",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Loam",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2020-09-15",
-          "verifyUrl": "https://loambio.com",
-          "context": "Listed by Lowercarbon, first funded 2020-09-15: Farm-to-bank carbon removal. Big Picture Prevailing agricultural practices deplete soils of key nutrients, such as CO\u2082. Globally, this has resulted in an estimated 60% loss of soil organic carbon to t"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Macro Oceans",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Macro Oceans",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2022-03-24",
-          "verifyUrl": "https://macro-oceans.com",
-          "context": "Listed by Lowercarbon, first funded 2022-03-24: Kelp as the new corn. Big Picture Kelp is the perfect industrial crop: convertible into a variety of high-value products without the ungodly amounts of land, chemicals, and fertilizers that corn or so"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Mill",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Mill",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2022-06-23",
-          "verifyUrl": "https://mill.com",
-          "context": "Listed by Lowercarbon, first funded 2022-06-23: Food waste magic. Big Picture One in four food calories ends up in a landfill. These literal mountains of food waste break down into methane \u2013 84x more potent than CO\u2082 \u2013 driving 6% of all warming. Tha"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Milvus Advanced",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Milvus Advanced",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2025-03-06",
-          "verifyUrl": "https://milvusadvanced.co.uk",
-          "context": "Listed by Lowercarbon, first funded 2025-03-06: CRISPR for metals. Big Picture Precious metals are the dirty open secret of the clean energy transition. Fast-growing clean solutions like hydrogen and EVs are turbocharging demand for scarce, costly "
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Biotech & Health"
-    },
-    {
-      "name": "Minus",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Minus",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2021-06-16",
-          "verifyUrl": "https://drinkminuscoffee.com",
-          "context": "Listed by Lowercarbon, first funded 2021-06-16: Coffee minus coffee. Big Picture Coffee is at once a contributor to climate change and in its crosshairs. Growing, shipping, roasting, and serving add up. Each of the 450 million cups consumed daily i"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Mosa",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Mosa",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2020-09-25",
-          "verifyUrl": "https://mosameat.com",
-          "context": "Listed by Lowercarbon, first funded 2020-09-25: 100% beef that never had eyes nor hooves. Big Picture Global demand for beef is expected to grow more than 70% by 2050. Under business as usual, this will be catastrophic for greenhouse gas emissions "
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Nevoya",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Nevoya",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2026-01-07",
-          "verifyUrl": "https://nevoya.com",
-          "context": "Listed by Lowercarbon, first funded 2026-01-07: Freight trucking goes electric. Big Picture Shippers want the best carrying services available \u2013 reliable, cost-efficient, and increasingly, zero-emissions. The industry knows digitization and AI are "
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Novalith",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Novalith",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2023-04-17",
-          "verifyUrl": "https://novalith.com",
-          "context": "Listed by Lowercarbon, first funded 2023-04-17: Hard rock, easy lithium. Big Picture Lithium deposits come in two flavors: mineral-rich waters called \u201cbrines\u201d and solid ore deposits called \u201chard rock.\u201d The latter accounts for about 40% of global re"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Climate & Energy"
-    },
-    {
-      "name": "Noya",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Noya",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2021-01-28",
-          "verifyUrl": "https://noya.co",
-          "context": "Listed by Lowercarbon, first funded 2021-01-28: Capturing carbon with carbon. Big Picture Current levels of CO\u2082 in the atmosphere are catastrophic despite making up only 0.04% of its matter. This makes capturing and removing it tricky. Enormous amo"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Pachama",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Pachama",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2020-09-15",
-          "verifyUrl": "https://pachama.com",
-          "context": "Listed by Lowercarbon, first funded 2020-09-15: Restore nature. Remove carbon. Big Picture Keeping temperatures from rising more than 1.5 \u00b0C requires aggressive restoration of nature\u2019s carbon trapping ecosystems. Forests, for example, are key for b"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Pledge",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Pledge",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2021-10-21",
-          "verifyUrl": "https://pledge.io",
-          "context": "Listed by Lowercarbon, first funded 2021-10-21: Freight-friendly carbon offsets. Big Picture Carbon removal has a chicken and egg problem. There is accelerating demand for CO\u2082 removal from corporate and government customers, yet prices are high and"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Quilt",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Quilt",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2023-06-15",
-          "verifyUrl": "https://quilt.com",
-          "context": "Listed by Lowercarbon, first funded 2023-06-15: Making heat pumps cool. Big Picture Heat pumps are no longer just for comfort. In heat waves and cold snaps, they\u2019re lifelines. A few billion will be installed as extreme weather grows more frequent. "
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "River",
-      "score": 25,
-      "signals": [
-        {
-          "name": "River",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2022-08-02",
-          "verifyUrl": "https://rideriver.com",
-          "context": "Listed by Lowercarbon, first funded 2022-08-02: India\u2019s practical, badass e-moto. Big Picture India is set to add 30 million new two wheelers to the road annually by 2030, buoyed by the rise of a gig economy and home-deliveries carried out on two w"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Rune Energy",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Rune Energy",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2025-03-10",
-          "verifyUrl": "https://rune.energy",
-          "context": "Listed by Lowercarbon, first funded 2025-03-10: Compute power from clean energy leftovers. Big Picture Solar and wind farms make more energy than the grid can handle. This surplus just goes to waste, even as the energy needs of computing are blowin"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Climate & Energy"
-    },
-    {
-      "name": "Seabound",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Seabound",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2025-03-06",
-          "verifyUrl": "https://seabound.co",
-          "context": "Listed by Lowercarbon, first funded 2025-03-06: Decarbonizing shipping. Big Picture Ships are the arteries of the global economy, and bunker fuel is what flows through them. The nasty, sludgy oil byproduct powering nearly 100,000 cargo, tanker, and"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Solar Square",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Solar Square",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2022-06-10",
-          "verifyUrl": "https://solarsquare.in",
-          "context": "Listed by Lowercarbon, first funded 2022-06-10: Solarizing Indian rooftops. Big Picture India is set to add a quarter billion people in the next two decades, snagging the top spot from China. Along the way, it is projected to double its building st"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Climate & Energy"
-    },
-    {
-      "name": "Storio",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Storio",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2025-03-10",
-          "verifyUrl": "https://storioenergy.com",
-          "context": "Listed by Lowercarbon, first funded 2025-03-10: Commercial batteries that practically store cash. Big Picture Electricity prices aren\u2019t just rising, they\u2019re also unpredictable. And with intermittent renewables making up a bigger and bigger slice of"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Supercritical",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Supercritical",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2022-03-24",
-          "verifyUrl": "https://supercritical.solutions",
-          "context": "Listed by Lowercarbon, first funded 2022-03-24: Super-cheap green hydrogen. Big Idea Despite its promise as decarbonization\u2019s skeleton key, hydrogen remains one of the world\u2019s dirtiest industries. Over 95% of global hydrogen production today is fos"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Tender",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Tender",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2022-04-26",
-          "verifyUrl": "https://tenderfood.com",
-          "context": "Listed by Lowercarbon, first funded 2022-04-26: Looks like meat, tastes like meat. Big Picture Combined, pork and chicken make up more than 60% of global meat production and emit more than 1 Gt of CO 2 e annually. Multiple plant- and cell-based alt"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Undo",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Undo",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2023-06-22",
-          "verifyUrl": "https://un-do.com",
-          "context": "Listed by Lowercarbon, first funded 2023-06-22: Rocking carbon, renewing soil. Big Picture Less than 1% of Earth\u2019s carbon is found in living things. The rest is found in rocks. Over centuries, rocks suck up CO\u2082 from the air and store it stably in c"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Vaulted",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Vaulted",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2024-01-05",
-          "verifyUrl": "https://vaulteddeep.com",
-          "context": "Listed by Lowercarbon, first funded 2024-01-05: Waste disposal that trashes CO\u2082. Big Picture The U.S. produces 400M tons of solid organic waste annually. That\u2019s a whole lot of sewage, food scraps, and agricultural waste to get rid of. Where does it"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Verdox",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Verdox",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2022-03-24",
-          "verifyUrl": "https://verdox.com",
-          "context": "Listed by Lowercarbon, first funded 2022-03-24: Suck up carbon, not energy. Big Picture To date, most commercial carbon capture requires high concentrations of CO\u2082 for the physics to pencil out. Novel approaches can capture ambient CO\u2082 that makes u"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Climate & Energy"
-    },
-    {
-      "name": "Watershed",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Watershed",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2023-06-29",
-          "verifyUrl": "https://watershed.com",
-          "context": "Listed by Lowercarbon, first funded 2023-06-29: Carbon rehab for your business. Big Picture It seems everyone\u2019s got a net-zero commitment these days. Promises to zero out Scope 1, 2, and 3 emissions now cover more than 70% of global greenhouse gas "
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Woodoo",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Woodoo",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2023-08-22",
-          "verifyUrl": "https://woodoo.com",
-          "context": "Listed by Lowercarbon, first funded 2023-08-22: Wood with muscles of steel. Big Picture Embodied carbon in the built environment represents 11% of energy-related CO\u2082 emissions globally, primarily driven by the use of concrete and steel. Increased f"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Yard Stick",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Yard Stick",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2021-06-15",
-          "verifyUrl": "https://useyardstick.com",
-          "context": "Listed by Lowercarbon, first funded 2021-06-15: Measure soil carbon in a snap. Big Picture In theory, soils have the capacity to suck up to three times more CO\u2082 than is currently swirling around the atmosphere. This potential has fueled hype around"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Zero Acre",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Zero Acre",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2022-02-02",
-          "verifyUrl": "https://zeroacre.com",
-          "context": "Listed by Lowercarbon, first funded 2022-02-02: Cooking oil that doesn\u2019t fry the planet. Big Picture Vegetable oils like soy and palm are the most consumed food products in the world after rice and wheat. The scale of consumption makes them one of "
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
     },
     {
       "name": "Airspace",
@@ -2566,237 +2614,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Alkali",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Alkali",
-          "source": "VC portfolio: Gigascale",
-          "sourceWeight": 25,
-          "vc": "Gigascale",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.alkali.engineering/",
-          "context": "Listed by Gigascale: Alkali helps steel estimators take off beams, columns, bracing, base plates, and panels directly from PDF bid sets with AI-assisted markup and collaboration."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Arch",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Arch",
-          "source": "VC portfolio: Gigascale",
-          "sourceWeight": 25,
-          "vc": "Gigascale",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.getarch.com/",
-          "context": "Listed by Gigascale: Revenue intelligence for home services marketing and operations teams. Find opportunities, coordinate outreach, and measure outcomes with Arch."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Cocoon Carbon",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Cocoon Carbon",
-          "source": "VC portfolio: Gigascale",
-          "sourceWeight": 25,
-          "vc": "Gigascale",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.cocooncarbon.com/",
-          "context": "Listed by Gigascale: Low carbon construction materials for the builders of tomorrow."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Estes Energy",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Estes Energy",
-          "source": "VC portfolio: Gigascale",
-          "sourceWeight": 25,
-          "vc": "Gigascale",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.estes.energy/",
-          "context": "Listed by Gigascale: Magnesium-alloy battery platforms for rail, marine, aviation, and off-highway. 225 Wh/kg, US-manufactured, built for the sectors lithium can't reach."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Climate & Energy"
-    },
-    {
-      "name": "Firstelement Exploration",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Firstelement Exploration",
-          "source": "VC portfolio: Gigascale",
-          "sourceWeight": 25,
-          "vc": "Gigascale",
-          "date": "2026-09-25",
-          "verifyUrl": "https://firstelementexploration.com/",
-          "context": "Listed by Gigascale: A New Exploration Frontier. Our goal is to find and produce low-carbon geologic hydrogen at a lower cost than traditional grey and green hydrogen."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Climate & Energy"
-    },
-    {
-      "name": "HomeBoost",
-      "score": 25,
-      "signals": [
-        {
-          "name": "HomeBoost",
-          "source": "VC portfolio: Gigascale",
-          "sourceWeight": 25,
-          "vc": "Gigascale",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.homeboost.com/",
-          "context": "Listed by Gigascale: HomeBoost is the platform redefining how home energy assessments are delivered, whether you're a homeowner, a BPI-certified pro, or a utility program leader."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Rhoda AI",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Rhoda AI",
-          "source": "VC portfolio: Gigascale",
-          "sourceWeight": 25,
-          "vc": "Gigascale",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.rhoda.ai/",
-          "context": "Listed by Gigascale: Redefining Robotic Intelligence"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Robotics & Manufacturing"
-    },
-    {
-      "name": "Skouria",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Skouria",
-          "source": "VC portfolio: Gigascale",
-          "sourceWeight": 25,
-          "vc": "Gigascale",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.skouria.com/",
-          "context": "Listed by Gigascale"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Solcoa Industries",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Solcoa Industries",
-          "source": "VC portfolio: Gigascale",
-          "sourceWeight": 25,
-          "vc": "Gigascale",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.solcoaindustries.com/",
-          "context": "Listed by Gigascale: Solcoa produces NdPr (neodymium-praseodymium) rare earth metal in America \u2014 the metal behind every electric motor, generator, and speaker on Earth."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Biotech & Health"
-    },
-    {
-      "name": "Thalo Labs",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Thalo Labs",
-          "source": "VC portfolio: Gigascale",
-          "sourceWeight": 25,
-          "vc": "Gigascale",
-          "date": "2026-09-25",
-          "verifyUrl": "https://thalolabs.com/",
-          "context": "Listed by Gigascale: Thalo Labs builds sensor and AI tools for HVAC companies to increase first-time fix rates, reduce repeat visits, and win more bids."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Vor Systems",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Vor Systems",
-          "source": "VC portfolio: Gigascale",
-          "sourceWeight": 25,
-          "vc": "Gigascale",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.vorsystems.com/",
-          "context": "Listed by Gigascale: Vor is an AI-enabled transaction platform built for complex energy deals \u2013 supporting M&A, project finance, tax equity, and corporate capital raising."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
       "name": "1910Genetics",
       "score": 25,
       "signals": [
@@ -2818,6 +2635,27 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
+      "name": "Alkali",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Alkali",
+          "source": "VC portfolio: Gigascale",
+          "sourceWeight": 25,
+          "vc": "Gigascale",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.alkali.engineering/",
+          "context": "Listed by Gigascale: Alkali helps steel estimators take off beams, columns, bracing, base plates, and panels directly from PDF bid sets with AI-assisted markup and collaboration."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
       "name": "Alva Energy",
       "score": 25,
       "signals": [
@@ -2829,6 +2667,27 @@ const DISCOVERY_QUEUE_AUTO = {
           "date": "2026-09-25",
           "verifyUrl": "https://alvaenergy.io",
           "context": "Listed by Playground"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Arch",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Arch",
+          "source": "VC portfolio: Gigascale",
+          "sourceWeight": 25,
+          "vc": "Gigascale",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.getarch.com/",
+          "context": "Listed by Gigascale: Revenue intelligence for home services marketing and operations teams. Find opportunities, coordinate outreach, and measure outcomes with Arch."
         }
       ],
       "sources": [
@@ -2881,6 +2740,27 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
+      "name": "Cocoon Carbon",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Cocoon Carbon",
+          "source": "VC portfolio: Gigascale",
+          "sourceWeight": 25,
+          "vc": "Gigascale",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.cocooncarbon.com/",
+          "context": "Listed by Gigascale: Low carbon construction materials for the builders of tomorrow."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
       "name": "De-Ice",
       "score": 25,
       "signals": [
@@ -2923,6 +2803,48 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
+      "name": "Estes Energy",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Estes Energy",
+          "source": "VC portfolio: Gigascale",
+          "sourceWeight": 25,
+          "vc": "Gigascale",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.estes.energy/",
+          "context": "Listed by Gigascale: Magnesium-alloy battery platforms for rail, marine, aviation, and off-highway. 225 Wh/kg, US-manufactured, built for the sectors lithium can't reach."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Climate & Energy"
+    },
+    {
+      "name": "Firstelement Exploration",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Firstelement Exploration",
+          "source": "VC portfolio: Gigascale",
+          "sourceWeight": 25,
+          "vc": "Gigascale",
+          "date": "2026-09-25",
+          "verifyUrl": "https://firstelementexploration.com/",
+          "context": "Listed by Gigascale: A New Exploration Frontier. Our goal is to find and produce low-carbon geologic hydrogen at a lower cost than traditional grey and green hydrogen."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Climate & Energy"
+    },
+    {
       "name": "GigaCrop",
       "score": 25,
       "signals": [
@@ -2942,6 +2864,27 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "HomeBoost",
+      "score": 25,
+      "signals": [
+        {
+          "name": "HomeBoost",
+          "source": "VC portfolio: Gigascale",
+          "sourceWeight": 25,
+          "vc": "Gigascale",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.homeboost.com/",
+          "context": "Listed by Gigascale: HomeBoost is the platform redefining how home energy assessments are delivered, whether you're a homeowner, a BPI-certified pro, or a utility program leader."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
     },
     {
       "name": "Infinimmune",
@@ -3070,6 +3013,27 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
+      "name": "Rhoda AI",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Rhoda AI",
+          "source": "VC portfolio: Gigascale",
+          "sourceWeight": 25,
+          "vc": "Gigascale",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.rhoda.ai/",
+          "context": "Listed by Gigascale: Redefining Robotic Intelligence"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Robotics & Manufacturing"
+    },
+    {
       "name": "Robust AI",
       "score": 25,
       "signals": [
@@ -3112,6 +3076,27 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "Space & Aerospace"
     },
     {
+      "name": "Skouria",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Skouria",
+          "source": "VC portfolio: Gigascale",
+          "sourceWeight": 25,
+          "vc": "Gigascale",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.skouria.com/",
+          "context": "Listed by Gigascale"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
       "name": "Snowcapcompute",
       "score": 25,
       "signals": [
@@ -3131,6 +3116,27 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Solcoa Industries",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Solcoa Industries",
+          "source": "VC portfolio: Gigascale",
+          "sourceWeight": 25,
+          "vc": "Gigascale",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.solcoaindustries.com/",
+          "context": "Listed by Gigascale: Solcoa produces NdPr (neodymium-praseodymium) rare earth metal in America \u2014 the metal behind every electric motor, generator, and speaker on Earth."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
     },
     {
       "name": "Syenta",
@@ -3175,6 +3181,27 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
+      "name": "Thalo Labs",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Thalo Labs",
+          "source": "VC portfolio: Gigascale",
+          "sourceWeight": 25,
+          "vc": "Gigascale",
+          "date": "2026-09-25",
+          "verifyUrl": "https://thalolabs.com/",
+          "context": "Listed by Gigascale: Thalo Labs builds sensor and AI tools for HVAC companies to increase first-time fix rates, reduce repeat visits, and win more bids."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
       "name": "Velo3D",
       "score": 25,
       "signals": [
@@ -3196,6 +3223,27 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "Space & Aerospace"
     },
     {
+      "name": "Vor Systems",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Vor Systems",
+          "source": "VC portfolio: Gigascale",
+          "sourceWeight": 25,
+          "vc": "Gigascale",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.vorsystems.com/",
+          "context": "Listed by Gigascale: Vor is an AI-enabled transaction platform built for complex energy deals \u2013 supporting M&A, project finance, tax equity, and corporate capital raising."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
       "name": "Xlight",
       "score": 25,
       "signals": [
@@ -3215,27 +3263,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": "Chips & Semiconductors"
-    },
-    {
-      "name": "Lumen",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Lumen",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2020-09-15",
-          "verifyUrl": "https://getlumen.com",
-          "context": "Listed by Lowercarbon, first funded 2020-09-15: Go solar. Get paid. Big Picture While residential rooftop solar booms, only 3% of the 6 million commercial and industrial buildings in the US have made the switch to the cheaper, more reliable power o"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
     },
     {
       "name": "Airplane",

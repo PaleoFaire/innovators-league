@@ -1,5 +1,163 @@
 [
   {
+    "name": "Ephemeris",
+    "domain": "ephemeris.net",
+    "website": "https://ephemeris.net/",
+    "tagline": "Bringing the internet to space",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Pax Ventures",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://www.pax.vc/",
+        "new_this_run": true
+      }
+    ],
+    "fund_overlap": 0.731,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-05",
+    "detected_at": "2026-10-05T16:22:16.876017+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Oceanus",
+    "domain": "oceanustechnologies.com",
+    "website": "https://www.oceanustechnologies.com/",
+    "tagline": "We build modern software and systems for the commercial maritime industry.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Pax Ventures",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://www.pax.vc/",
+        "new_this_run": true
+      }
+    ],
+    "fund_overlap": 0.731,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-05",
+    "detected_at": "2026-10-05T16:22:16.876017+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Skyband",
+    "domain": "skybandsystems.com",
+    "website": "https://www.skybandsystems.com/",
+    "tagline": "",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Pax Ventures",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://www.pax.vc/",
+        "new_this_run": true
+      }
+    ],
+    "fund_overlap": 0.731,
+    "needs_check": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-05",
+    "detected_at": "2026-10-05T16:22:16.876017+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "American Supercritical",
+    "domain": "americansupercritical.com",
+    "website": "https://americansupercritical.com/",
+    "tagline": "",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Silent",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://silentvc.com/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.709,
+    "needs_check": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Harbinger Industries",
+    "domain": "harbinger.industries",
+    "website": "https://harbinger.industries/",
+    "tagline": "Harbinger Industries builds electric vehicles, autonomous systems, defense platforms, energy generation, and advanced components across five integrated verticals.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Silent",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://silentvc.com/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.709,
+    "needs_check": false,
+    "possible_match": [
+      "Harbinger"
+    ],
+    "listed_by": 1,
+    "since": "2026-09-28",
+    "detected_at": "2026-09-28T15:56:23.164438+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Voyager Technologies",
+    "domain": "voyagertechnologies.com",
+    "website": "https://voyagertechnologies.com/",
+    "tagline": "",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Silent",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://silentvc.com/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.709,
+    "needs_check": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
     "name": "Aloft",
     "domain": "aloft.ai",
     "website": "https://www.aloft.ai/",
@@ -122,86 +280,6 @@
     ],
     "fund_overlap": 0.708,
     "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "American Supercritical",
-    "domain": "americansupercritical.com",
-    "website": "https://americansupercritical.com/",
-    "tagline": "",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Silent",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://silentvc.com/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.696,
-    "needs_check": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Harbinger Industries",
-    "domain": "harbinger.industries",
-    "website": "https://harbinger.industries/",
-    "tagline": "Harbinger Industries builds electric vehicles, autonomous systems, defense platforms, energy generation, and advanced components across five integrated verticals.",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Silent",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://silentvc.com/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.696,
-    "needs_check": false,
-    "possible_match": [
-      "Harbinger"
-    ],
-    "listed_by": 1,
-    "since": "2026-09-28",
-    "detected_at": "2026-09-28T15:56:23.164438+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Voyager Technologies",
-    "domain": "voyagertechnologies.com",
-    "website": "https://voyagertechnologies.com/",
-    "tagline": "",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Silent",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://silentvc.com/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.696,
-    "needs_check": true,
     "possible_match": [],
     "listed_by": 1,
     "since": "2026-09-25",
@@ -1110,7 +1188,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.39,
+    "fund_overlap": 0.4,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -1136,7 +1214,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.39,
+    "fund_overlap": 0.4,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -1162,7 +1240,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.39,
+    "fund_overlap": 0.4,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -1188,7 +1266,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.39,
+    "fund_overlap": 0.4,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -1214,7 +1292,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.39,
+    "fund_overlap": 0.4,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -1240,7 +1318,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.39,
+    "fund_overlap": 0.4,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -1266,7 +1344,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.39,
+    "fund_overlap": 0.4,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -1292,7 +1370,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.39,
+    "fund_overlap": 0.4,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -1318,11 +1396,1051 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.39,
+    "fund_overlap": 0.4,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
     "since": "2025-03-06",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Cloover",
+    "domain": "cloover.co",
+    "website": "https://cloover.co",
+    "tagline": "Europe’s solar financing on-switch. Big Picture By 2040, 100% of new EU buildings will be required to have rooftop solar. This will require a €550b investment in residential energy to meet new EU standards. Expect to see a boom in installations, bolstered by favorable regulation and incentives and g",
+    "founders": "",
+    "founded": "2022",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2025-03-06",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/cloover/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2025-03-06",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Crux",
+    "domain": "cruxclimate.com",
+    "website": "https://cruxclimate.com",
+    "tagline": "Unlocking the clean economy’s trillions. Big Picture Tax credits kickstarted the US clean energy boom. Lower tax bills sparked a green feedback loop of lower costs, greater deployment, rinse and repeat. Trillions-with-a-T are flowing into clean energy, an already- exponential curve bent further by t",
+    "founders": "",
+    "founded": "2023",
+    "city": "Washington, DC",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2023-04-13",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/crux/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2023-04-13",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Dendra",
+    "domain": "dendra.io",
+    "website": "https://dendra.io",
+    "tagline": "Forest-planting drones. The Big Idea Each year deforestation accounts for 10-15% of global emissions, as an estimated 15 billion trees are cut down around the world. Any chance of limiting temperature rise to 2°C requires protecting and replanting these trees on an unprecedented scale in the decades",
+    "founders": "",
+    "founded": "2014",
+    "city": "Oxford, UK",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2020-09-23",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/dendra/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2020-09-23",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Ecosafi",
+    "domain": "ecosafi.com",
+    "website": "https://ecosafi.com",
+    "tagline": "Cleaning up Africa’s cookstoves. Big Picture Over 3 billion people (40% of the world population) rely on dirty fuels like charcoal for cooking food and heating water. Usually burned indoors, these fuels produce toxic fumes that lead to 4.3m premature deaths each year. When factoring in deforestation",
+    "founders": "",
+    "founded": "2020",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2020-09-25",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/ecosafi/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2020-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Enode",
+    "domain": "enode.com",
+    "website": "https://enode.com",
+    "tagline": "Universal API for EV charging. Big Picture Today’s grids aren’t prepared for the billions of electric vehicles, home solar systems, heat pumps, and smart appliances set to come online in the coming decades. Shifting flexible demand, like when EVs charge or air conditioners run, to when overall grid ",
+    "founders": "",
+    "founded": "2020",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2021-06-15",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/enode/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2021-06-15",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "FarmHQ",
+    "domain": "farmhq.com",
+    "website": "https://farmhq.com",
+    "tagline": "Robots saving water and farms. Big Picture Much of the world will feel climate change primarily through water. In the Western U.S., the past 20 years were the driest in over 1,200 years. As water tables plummet and droughts intensify, farms –responsible for 90% of water demand–must adapt. Yet, despi",
+    "founders": "",
+    "founded": "2020",
+    "city": "Burlington, WA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2022-03-24",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/farmhq/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2022-03-24",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Flair",
+    "domain": "flair.co",
+    "website": "https://flair.co",
+    "tagline": "Energy autopilot for your HVAC. Big Picture Air conditioning is a vicious climate feedback loop. Rising incomes and temperatures in cities around the world are supercharging demand for cool air. This increases grid strain and heat-trapping emissions, further fueling the need for AC. In the middle la",
+    "founders": "",
+    "founded": "2014",
+    "city": "San Francisco, CA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2021-06-15",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/flair-systems/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2021-06-15",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Genomines",
+    "domain": "genomines.com",
+    "website": "https://genomines.com",
+    "tagline": "Plants that mine metals. Big Picture A tension at the heart of the movement to electrify our cars, homes, and grids is that mining the materials needed is extremely slow and pollutive. As a whole, the mining sector emits 4-7% of global GHGs and results in devastating levels of water and soil contami",
+    "founders": "",
+    "founded": "2021",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2022-06-03",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/genomines/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2022-06-03",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "InRange",
+    "domain": "inrange.io",
+    "website": "https://inrange.io",
+    "tagline": "Growing the rooftop solar grid. Big Picture Corporate demand for clean energy outpaces the grid’s ability to supply it. For many, the answer could come from roofs rather than wires. Roof-top solar power – the most common type of distributed energy resource – can cut power bills and carbon footprints",
+    "founders": "",
+    "founded": "2021",
+    "city": "London, UK",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2020-09-15",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/inrange/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2020-09-15",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Isometric",
+    "domain": "isometric.com",
+    "website": "https://isometric.com",
+    "tagline": "CDR standards that set the standard. Big Picture The carbon offset market is broken. Many credits do little to cool the planet and can even do more harm than good. The rise of high quality carbon removal (CDR) is an opportunity to build a new market rooted in durability and true equivalence: where b",
+    "founders": "",
+    "founded": "2022",
+    "city": "London, UK",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2023-07-18",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/isometric/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2023-07-18",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Lemon",
+    "domain": "lemon.energy",
+    "website": "https://lemon.energy",
+    "tagline": "Plugging Brazil into the sun. Big Picture Latin America’s largest economy relies on hydro for two-thirds of its power. Yet, 80% of that capacity is literally evaporating due to climate-fueled droughts, driving price hikes, blackouts, and fossil fuel imports. Despite being sunnier than any part of so",
+    "founders": "",
+    "founded": "2019",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2022-06-04",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/lemon/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2022-06-04",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Lithios",
+    "domain": "lithios.xyz",
+    "website": "https://lithios.xyz",
+    "tagline": "Batteries that mine lithium. Big Picture Lithium demand is growing 2x as fast as supply, threatening to bottleneck the “inevitable” transition to clean power and transportation just as it was getting started. Yet, lithium is abundant globally, with known reserves 250x greater than today’s annual pro",
+    "founders": "",
+    "founded": "2022",
+    "city": "Cambridge, MA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2025-03-06",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/lithios/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2025-03-06",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Loam",
+    "domain": "loambio.com",
+    "website": "https://loambio.com",
+    "tagline": "Farm-to-bank carbon removal. Big Picture Prevailing agricultural practices deplete soils of key nutrients, such as CO₂. Globally, this has resulted in an estimated 60% loss of soil organic carbon to the atmosphere. This represents a major risk to farm fertility, as soil carbon influences the retenti",
+    "founders": "",
+    "founded": "2018",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2020-09-15",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/loam/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2020-09-15",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Lumen",
+    "domain": "getlumen.com",
+    "website": "https://getlumen.com",
+    "tagline": "Go solar. Get paid. Big Picture While residential rooftop solar booms, only 3% of the 6 million commercial and industrial buildings in the US have made the switch to the cheaper, more reliable power of on-site solar. Obstacles abound. Sales and installation cycles for C&I solar are frustratingly cum",
+    "founders": "",
+    "founded": "2020",
+    "city": "San Francisco, CA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2020-09-15",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/lumen/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2020-09-15",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Macro Oceans",
+    "domain": "macro-oceans.com",
+    "website": "https://macro-oceans.com",
+    "tagline": "Kelp as the new corn. Big Picture Kelp is the perfect industrial crop: convertible into a variety of high-value products without the ungodly amounts of land, chemicals, and fertilizers that corn or soy need. With only sunlight and seawater, kelp can produce abundant biomass while sucking up carbon, ",
+    "founders": "",
+    "founded": "2020",
+    "city": "San Francisco, CA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2022-03-24",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/macro-oceans/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2022-03-24",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Mill",
+    "domain": "mill.com",
+    "website": "https://mill.com",
+    "tagline": "Food waste magic. Big Picture One in four food calories ends up in a landfill. These literal mountains of food waste break down into methane – 84x more potent than CO₂ – driving 6% of all warming. That’s three times worse than aviation. Most food waste comes from homes and businesses where 30% of al",
+    "founders": "",
+    "founded": "2020",
+    "city": "San Bruno, CA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2022-06-23",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/mill/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2022-06-23",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Milvus Advanced",
+    "domain": "milvusadvanced.co.uk",
+    "website": "https://milvusadvanced.co.uk",
+    "tagline": "CRISPR for metals. Big Picture Precious metals are the dirty open secret of the clean energy transition. Fast-growing clean solutions like hydrogen and EVs are turbocharging demand for scarce, costly metals that risk fueling human rights abuse. And regardless of supply chain or provenance, there jus",
+    "founders": "",
+    "founded": "2022",
+    "city": "Oxford, UK",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2025-03-06",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/milvus/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2025-03-06",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Minus",
+    "domain": "drinkminuscoffee.com",
+    "website": "https://drinkminuscoffee.com",
+    "tagline": "Coffee minus coffee. Big Picture Coffee is at once a contributor to climate change and in its crosshairs. Growing, shipping, roasting, and serving add up. Each of the 450 million cups consumed daily in the US accounts for 17x its weight in CO₂ and 140x its volume in water. On the other hand, by 2050",
+    "founders": "",
+    "founded": "2020",
+    "city": "San Francisco, CA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2021-06-16",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/minus/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2021-06-16",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Mosa",
+    "domain": "mosameat.com",
+    "website": "https://mosameat.com",
+    "tagline": "100% beef that never had eyes nor hooves. Big Picture Global demand for beef is expected to grow more than 70% by 2050. Under business as usual, this will be catastrophic for greenhouse gas emissions and land-use, not to mention impacts on public health and animal welfare. That’s because the carbon ",
+    "founders": "",
+    "founded": "2015",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2020-09-25",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/mosa/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2020-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Nevoya",
+    "domain": "nevoya.com",
+    "website": "https://nevoya.com",
+    "tagline": "Freight trucking goes electric. Big Picture Shippers want the best carrying services available – reliable, cost-efficient, and increasingly, zero-emissions. The industry knows digitization and AI are the only way to get there, but struggle to integrate them. Now layer in EVs: they promise lower cost",
+    "founders": "",
+    "founded": "2023",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2026-01-07",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/nevoya/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-01-07",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Novalith",
+    "domain": "novalith.com",
+    "website": "https://novalith.com",
+    "tagline": "Hard rock, easy lithium. Big Picture Lithium deposits come in two flavors: mineral-rich waters called “brines” and solid ore deposits called “hard rock.” The latter accounts for about 40% of global reserves. But tapping hard rock for battery-grade lithium requires massive infrastructure projects tha",
+    "founders": "",
+    "founded": "2021",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2023-04-17",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/novalith/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2023-04-17",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Noya",
+    "domain": "noya.co",
+    "website": "https://noya.co",
+    "tagline": "Capturing carbon with carbon. Big Picture Current levels of CO₂ in the atmosphere are catastrophic despite making up only 0.04% of its matter. This makes capturing and removing it tricky. Enormous amounts of air must pass through chemicals that bind directly to the CO₂ molecules. Then, massive heate",
+    "founders": "",
+    "founded": "2020",
+    "city": "San Francisco, CA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2021-01-28",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/noya/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2021-01-28",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Pachama",
+    "domain": "pachama.com",
+    "website": "https://pachama.com",
+    "tagline": "Restore nature. Remove carbon. Big Picture Keeping temperatures from rising more than 1.5 °C requires aggressive restoration of nature’s carbon trapping ecosystems. Forests, for example, are key for both carbon removal and ecosystem stability, yet we lose almost 20m acres per year to fires and ranch",
+    "founders": "",
+    "founded": "2018",
+    "city": "San Francisco, CA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2020-09-15",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/pachama/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2020-09-15",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Pledge",
+    "domain": "pledge.io",
+    "website": "https://pledge.io",
+    "tagline": "Freight-friendly carbon offsets. Big Picture Carbon removal has a chicken and egg problem. There is accelerating demand for CO₂ removal from corporate and government customers, yet prices are high and purchases still require complex RFPs or brokers to navigate an opaque market. Meanwhile, removal te",
+    "founders": "",
+    "founded": "2021",
+    "city": "London, UK",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2021-10-21",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/pledge/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2021-10-21",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Quilt",
+    "domain": "quilt.com",
+    "website": "https://quilt.com",
+    "tagline": "Making heat pumps cool. Big Picture Heat pumps are no longer just for comfort. In heat waves and cold snaps, they’re lifelines. A few billion will be installed as extreme weather grows more frequent. That’s great news for public safety, but most devices are insanely power-hungry and inefficient. A h",
+    "founders": "",
+    "founded": "2022",
+    "city": "Redwood City, CA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2023-06-15",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/quilt/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2023-06-15",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "River",
+    "domain": "rideriver.com",
+    "website": "https://rideriver.com",
+    "tagline": "India’s practical, badass e-moto. Big Picture India is set to add 30 million new two wheelers to the road annually by 2030, buoyed by the rise of a gig economy and home-deliveries carried out on two wheelers. While many seek to create electric alternatives, these are consistently premium vehicles th",
+    "founders": "",
+    "founded": "2020",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2022-08-02",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/river/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2022-08-02",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Rune Energy",
+    "domain": "rune.energy",
+    "website": "https://rune.energy",
+    "tagline": "Compute power from clean energy leftovers. Big Picture Solar and wind farms make more energy than the grid can handle. This surplus just goes to waste, even as the energy needs of computing are blowing up. With the pace of AI alone, electricity demand in the US is expected to 10x by 2030. Compoundin",
+    "founders": "",
+    "founded": "2023",
+    "city": "Palo Alto, CA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2025-03-10",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/rune-energy/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2025-03-10",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Seabound",
+    "domain": "seabound.co",
+    "website": "https://seabound.co",
+    "tagline": "Decarbonizing shipping. Big Picture Ships are the arteries of the global economy, and bunker fuel is what flows through them. The nasty, sludgy oil byproduct powering nearly 100,000 cargo, tanker, and bulk carriers spews more emissions than all the world’s planes combined. Green fuels hold promise, ",
+    "founders": "",
+    "founded": "2021",
+    "city": "London, UK",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2025-03-06",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/seabound/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2025-03-06",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Solar Square",
+    "domain": "solarsquare.in",
+    "website": "https://solarsquare.in",
+    "tagline": "Solarizing Indian rooftops. Big Picture India is set to add a quarter billion people in the next two decades, snagging the top spot from China. Along the way, it is projected to double its building stock. With rapid growth and rising incomes, energy demand could soar up to 6x. Supplying this power w",
+    "founders": "",
+    "founded": "2015",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2022-06-10",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/solarsquare/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2022-06-10",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Storio",
+    "domain": "storioenergy.com",
+    "website": "https://storioenergy.com",
+    "tagline": "Commercial batteries that practically store cash. Big Picture Electricity prices aren’t just rising, they’re also unpredictable. And with intermittent renewables making up a bigger and bigger slice of the energy pie, prices are getting ever more volatile. Commercial and industrial (C+I) businesses a",
+    "founders": "",
+    "founded": "2023",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2025-03-10",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/storio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2025-03-10",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Supercritical",
+    "domain": "supercritical.solutions",
+    "website": "https://supercritical.solutions",
+    "tagline": "Super-cheap green hydrogen. Big Idea Despite its promise as decarbonization’s skeleton key, hydrogen remains one of the world’s dirtiest industries. Over 95% of global hydrogen production today is fossil-based, spewing nearly a Gt CO₂e per year. Many have long sought to produce “green” H2 from water",
+    "founders": "",
+    "founded": "2020",
+    "city": "London, UK",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2022-03-24",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/supercritical/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2022-03-24",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Tender",
+    "domain": "tenderfood.com",
+    "website": "https://tenderfood.com",
+    "tagline": "Looks like meat, tastes like meat. Big Picture Combined, pork and chicken make up more than 60% of global meat production and emit more than 1 Gt of CO 2 e annually. Multiple plant- and cell-based alternatives exist, but they struggle to expand beyond meat mush into whole cuts. Until alternative mea",
+    "founders": "",
+    "founded": "2020",
+    "city": "Boston, MA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2022-04-26",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/tender/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2022-04-26",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Undo",
+    "domain": "un-do.com",
+    "website": "https://un-do.com",
+    "tagline": "Rocking carbon, renewing soil. Big Picture Less than 1% of Earth’s carbon is found in living things. The rest is found in rocks. Over centuries, rocks suck up CO₂ from the air and store it stably in carbonate mineral form through a geochemical process called weathering; it currently removes one giga",
+    "founders": "",
+    "founded": "2020",
+    "city": "London, UK",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2023-06-22",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/undo/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2023-06-22",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Vaulted",
+    "domain": "vaulteddeep.com",
+    "website": "https://vaulteddeep.com",
+    "tagline": "Waste disposal that trashes CO₂. Big Picture The U.S. produces 400M tons of solid organic waste annually. That’s a whole lot of sewage, food scraps, and agricultural waste to get rid of. Where does it end up? Unfortunately, today that waste is dumped into landfills, waterways, and even farms, where ",
+    "founders": "",
+    "founded": "2022",
+    "city": "Houston, TX",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2024-01-05",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/vaulted/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2024-01-05",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Verdox",
+    "domain": "verdox.com",
+    "website": "https://verdox.com",
+    "tagline": "Suck up carbon, not energy. Big Picture To date, most commercial carbon capture requires high concentrations of CO₂ for the physics to pencil out. Novel approaches can capture ambient CO₂ that makes up just 0.04% of air, but require a lot of energy, heat, or pressure to do so. Verdox is pioneering a",
+    "founders": "",
+    "founded": "2019",
+    "city": "Woburn, MA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2022-03-24",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/verdox/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2022-03-24",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Watershed",
+    "domain": "watershed.com",
+    "website": "https://watershed.com",
+    "tagline": "Carbon rehab for your business. Big Picture It seems everyone’s got a net-zero commitment these days. Promises to zero out Scope 1, 2, and 3 emissions now cover more than 70% of global greenhouse gas emissions and a giant chunk of the global economy. But for every net-zero pledge and corporate press",
+    "founders": "",
+    "founded": "2019",
+    "city": "San Francisco, CA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2023-06-29",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/watershed/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2023-06-29",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Woodoo",
+    "domain": "woodoo.com",
+    "website": "https://woodoo.com",
+    "tagline": "Wood with muscles of steel. Big Picture Embodied carbon in the built environment represents 11% of energy-related CO₂ emissions globally, primarily driven by the use of concrete and steel. Increased focus on reducing embodied carbon is driving the increased use of lower-carbon products like cross-la",
+    "founders": "",
+    "founded": "2016",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2023-08-22",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/woodoo/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2023-08-22",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Yard Stick",
+    "domain": "useyardstick.com",
+    "website": "https://useyardstick.com",
+    "tagline": "Measure soil carbon in a snap. Big Picture In theory, soils have the capacity to suck up to three times more CO₂ than is currently swirling around the atmosphere. This potential has fueled hype around the idea of soils as a massive, low-cost solution to our global carbon conundrum. The primary obsta",
+    "founders": "",
+    "founded": "2020",
+    "city": "Emeryville, CA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2021-06-15",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/yard-stick/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2021-06-15",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Zeno",
+    "domain": "zeno.earth",
+    "website": "https://zeno.earth",
+    "tagline": "Juicing up the e-moto wave. Big Picture Small motors have big climate impact. In East Africa, up to 80% of vehicle emissions come from motorcycles, and moto sales are on pace to quadruple by 2050. The answer to this soon-to-be gigaton carbon problem? E-motos. Africa’s moto drivers, who clock as many",
+    "founders": "",
+    "founded": "2019",
+    "city": "San Francisco, CA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2025-03-06",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/zeno/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2025-03-06",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Zero Acre",
+    "domain": "zeroacre.com",
+    "website": "https://zeroacre.com",
+    "tagline": "Cooking oil that doesn’t fry the planet. Big Picture Vegetable oils like soy and palm are the most consumed food products in the world after rice and wheat. The scale of consumption makes them one of the primary drivers of deforestation and biodiversity loss, particularly in carbon-rich forests like",
+    "founders": "",
+    "founded": "2020",
+    "city": "San Mateo, CA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2022-02-02",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/zeroacre/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2022-02-02",
     "detected_at": "2026-09-25T07:59:45.838940+00:00",
     "status": "pending",
     "source_list": "vc-portfolio-watcher"
@@ -1349,1020 +2467,6 @@
     "possible_match": [],
     "listed_by": 1,
     "since": "2025-03-06",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Cloover",
-    "domain": "cloover.co",
-    "website": "https://cloover.co",
-    "tagline": "Europe’s solar financing on-switch. Big Picture By 2040, 100% of new EU buildings will be required to have rooftop solar. This will require a €550b investment in residential energy to meet new EU standards. Expect to see a boom in installations, bolstered by favorable regulation and incentives and g",
-    "founders": "",
-    "founded": "2022",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2025-03-06",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/cloover/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2025-03-06",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Crux",
-    "domain": "cruxclimate.com",
-    "website": "https://cruxclimate.com",
-    "tagline": "Unlocking the clean economy’s trillions. Big Picture Tax credits kickstarted the US clean energy boom. Lower tax bills sparked a green feedback loop of lower costs, greater deployment, rinse and repeat. Trillions-with-a-T are flowing into clean energy, an already- exponential curve bent further by t",
-    "founders": "",
-    "founded": "2023",
-    "city": "Washington, DC",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2023-04-13",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/crux/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2023-04-13",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Dendra",
-    "domain": "dendra.io",
-    "website": "https://dendra.io",
-    "tagline": "Forest-planting drones. The Big Idea Each year deforestation accounts for 10-15% of global emissions, as an estimated 15 billion trees are cut down around the world. Any chance of limiting temperature rise to 2°C requires protecting and replanting these trees on an unprecedented scale in the decades",
-    "founders": "",
-    "founded": "2014",
-    "city": "Oxford, UK",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2020-09-23",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/dendra/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2020-09-23",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Ecosafi",
-    "domain": "ecosafi.com",
-    "website": "https://ecosafi.com",
-    "tagline": "Cleaning up Africa’s cookstoves. Big Picture Over 3 billion people (40% of the world population) rely on dirty fuels like charcoal for cooking food and heating water. Usually burned indoors, these fuels produce toxic fumes that lead to 4.3m premature deaths each year. When factoring in deforestation",
-    "founders": "",
-    "founded": "2020",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2020-09-25",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/ecosafi/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2020-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Enode",
-    "domain": "enode.com",
-    "website": "https://enode.com",
-    "tagline": "Universal API for EV charging. Big Picture Today’s grids aren’t prepared for the billions of electric vehicles, home solar systems, heat pumps, and smart appliances set to come online in the coming decades. Shifting flexible demand, like when EVs charge or air conditioners run, to when overall grid ",
-    "founders": "",
-    "founded": "2020",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2021-06-15",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/enode/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2021-06-15",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "FarmHQ",
-    "domain": "farmhq.com",
-    "website": "https://farmhq.com",
-    "tagline": "Robots saving water and farms. Big Picture Much of the world will feel climate change primarily through water. In the Western U.S., the past 20 years were the driest in over 1,200 years. As water tables plummet and droughts intensify, farms –responsible for 90% of water demand–must adapt. Yet, despi",
-    "founders": "",
-    "founded": "2020",
-    "city": "Burlington, WA",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2022-03-24",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/farmhq/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2022-03-24",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Flair",
-    "domain": "flair.co",
-    "website": "https://flair.co",
-    "tagline": "Energy autopilot for your HVAC. Big Picture Air conditioning is a vicious climate feedback loop. Rising incomes and temperatures in cities around the world are supercharging demand for cool air. This increases grid strain and heat-trapping emissions, further fueling the need for AC. In the middle la",
-    "founders": "",
-    "founded": "2014",
-    "city": "San Francisco, CA",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2021-06-15",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/flair-systems/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2021-06-15",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Genomines",
-    "domain": "genomines.com",
-    "website": "https://genomines.com",
-    "tagline": "Plants that mine metals. Big Picture A tension at the heart of the movement to electrify our cars, homes, and grids is that mining the materials needed is extremely slow and pollutive. As a whole, the mining sector emits 4-7% of global GHGs and results in devastating levels of water and soil contami",
-    "founders": "",
-    "founded": "2021",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2022-06-03",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/genomines/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2022-06-03",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "InRange",
-    "domain": "inrange.io",
-    "website": "https://inrange.io",
-    "tagline": "Growing the rooftop solar grid. Big Picture Corporate demand for clean energy outpaces the grid’s ability to supply it. For many, the answer could come from roofs rather than wires. Roof-top solar power – the most common type of distributed energy resource – can cut power bills and carbon footprints",
-    "founders": "",
-    "founded": "2021",
-    "city": "London, UK",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2020-09-15",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/inrange/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2020-09-15",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Isometric",
-    "domain": "isometric.com",
-    "website": "https://isometric.com",
-    "tagline": "CDR standards that set the standard. Big Picture The carbon offset market is broken. Many credits do little to cool the planet and can even do more harm than good. The rise of high quality carbon removal (CDR) is an opportunity to build a new market rooted in durability and true equivalence: where b",
-    "founders": "",
-    "founded": "2022",
-    "city": "London, UK",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2023-07-18",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/isometric/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2023-07-18",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Lemon",
-    "domain": "lemon.energy",
-    "website": "https://lemon.energy",
-    "tagline": "Plugging Brazil into the sun. Big Picture Latin America’s largest economy relies on hydro for two-thirds of its power. Yet, 80% of that capacity is literally evaporating due to climate-fueled droughts, driving price hikes, blackouts, and fossil fuel imports. Despite being sunnier than any part of so",
-    "founders": "",
-    "founded": "2019",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2022-06-04",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/lemon/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2022-06-04",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Lithios",
-    "domain": "lithios.xyz",
-    "website": "https://lithios.xyz",
-    "tagline": "Batteries that mine lithium. Big Picture Lithium demand is growing 2x as fast as supply, threatening to bottleneck the “inevitable” transition to clean power and transportation just as it was getting started. Yet, lithium is abundant globally, with known reserves 250x greater than today’s annual pro",
-    "founders": "",
-    "founded": "2022",
-    "city": "Cambridge, MA",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2025-03-06",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/lithios/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2025-03-06",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Loam",
-    "domain": "loambio.com",
-    "website": "https://loambio.com",
-    "tagline": "Farm-to-bank carbon removal. Big Picture Prevailing agricultural practices deplete soils of key nutrients, such as CO₂. Globally, this has resulted in an estimated 60% loss of soil organic carbon to the atmosphere. This represents a major risk to farm fertility, as soil carbon influences the retenti",
-    "founders": "",
-    "founded": "2018",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2020-09-15",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/loam/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2020-09-15",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Macro Oceans",
-    "domain": "macro-oceans.com",
-    "website": "https://macro-oceans.com",
-    "tagline": "Kelp as the new corn. Big Picture Kelp is the perfect industrial crop: convertible into a variety of high-value products without the ungodly amounts of land, chemicals, and fertilizers that corn or soy need. With only sunlight and seawater, kelp can produce abundant biomass while sucking up carbon, ",
-    "founders": "",
-    "founded": "2020",
-    "city": "San Francisco, CA",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2022-03-24",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/macro-oceans/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2022-03-24",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Mill",
-    "domain": "mill.com",
-    "website": "https://mill.com",
-    "tagline": "Food waste magic. Big Picture One in four food calories ends up in a landfill. These literal mountains of food waste break down into methane – 84x more potent than CO₂ – driving 6% of all warming. That’s three times worse than aviation. Most food waste comes from homes and businesses where 30% of al",
-    "founders": "",
-    "founded": "2020",
-    "city": "San Bruno, CA",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2022-06-23",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/mill/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2022-06-23",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Milvus Advanced",
-    "domain": "milvusadvanced.co.uk",
-    "website": "https://milvusadvanced.co.uk",
-    "tagline": "CRISPR for metals. Big Picture Precious metals are the dirty open secret of the clean energy transition. Fast-growing clean solutions like hydrogen and EVs are turbocharging demand for scarce, costly metals that risk fueling human rights abuse. And regardless of supply chain or provenance, there jus",
-    "founders": "",
-    "founded": "2022",
-    "city": "Oxford, UK",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2025-03-06",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/milvus/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2025-03-06",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Minus",
-    "domain": "drinkminuscoffee.com",
-    "website": "https://drinkminuscoffee.com",
-    "tagline": "Coffee minus coffee. Big Picture Coffee is at once a contributor to climate change and in its crosshairs. Growing, shipping, roasting, and serving add up. Each of the 450 million cups consumed daily in the US accounts for 17x its weight in CO₂ and 140x its volume in water. On the other hand, by 2050",
-    "founders": "",
-    "founded": "2020",
-    "city": "San Francisco, CA",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2021-06-16",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/minus/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2021-06-16",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Mosa",
-    "domain": "mosameat.com",
-    "website": "https://mosameat.com",
-    "tagline": "100% beef that never had eyes nor hooves. Big Picture Global demand for beef is expected to grow more than 70% by 2050. Under business as usual, this will be catastrophic for greenhouse gas emissions and land-use, not to mention impacts on public health and animal welfare. That’s because the carbon ",
-    "founders": "",
-    "founded": "2015",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2020-09-25",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/mosa/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2020-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Nevoya",
-    "domain": "nevoya.com",
-    "website": "https://nevoya.com",
-    "tagline": "Freight trucking goes electric. Big Picture Shippers want the best carrying services available – reliable, cost-efficient, and increasingly, zero-emissions. The industry knows digitization and AI are the only way to get there, but struggle to integrate them. Now layer in EVs: they promise lower cost",
-    "founders": "",
-    "founded": "2023",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2026-01-07",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/nevoya/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-01-07",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Novalith",
-    "domain": "novalith.com",
-    "website": "https://novalith.com",
-    "tagline": "Hard rock, easy lithium. Big Picture Lithium deposits come in two flavors: mineral-rich waters called “brines” and solid ore deposits called “hard rock.” The latter accounts for about 40% of global reserves. But tapping hard rock for battery-grade lithium requires massive infrastructure projects tha",
-    "founders": "",
-    "founded": "2021",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2023-04-17",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/novalith/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2023-04-17",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Noya",
-    "domain": "noya.co",
-    "website": "https://noya.co",
-    "tagline": "Capturing carbon with carbon. Big Picture Current levels of CO₂ in the atmosphere are catastrophic despite making up only 0.04% of its matter. This makes capturing and removing it tricky. Enormous amounts of air must pass through chemicals that bind directly to the CO₂ molecules. Then, massive heate",
-    "founders": "",
-    "founded": "2020",
-    "city": "San Francisco, CA",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2021-01-28",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/noya/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2021-01-28",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Pachama",
-    "domain": "pachama.com",
-    "website": "https://pachama.com",
-    "tagline": "Restore nature. Remove carbon. Big Picture Keeping temperatures from rising more than 1.5 °C requires aggressive restoration of nature’s carbon trapping ecosystems. Forests, for example, are key for both carbon removal and ecosystem stability, yet we lose almost 20m acres per year to fires and ranch",
-    "founders": "",
-    "founded": "2018",
-    "city": "San Francisco, CA",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2020-09-15",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/pachama/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2020-09-15",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Pledge",
-    "domain": "pledge.io",
-    "website": "https://pledge.io",
-    "tagline": "Freight-friendly carbon offsets. Big Picture Carbon removal has a chicken and egg problem. There is accelerating demand for CO₂ removal from corporate and government customers, yet prices are high and purchases still require complex RFPs or brokers to navigate an opaque market. Meanwhile, removal te",
-    "founders": "",
-    "founded": "2021",
-    "city": "London, UK",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2021-10-21",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/pledge/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2021-10-21",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Quilt",
-    "domain": "quilt.com",
-    "website": "https://quilt.com",
-    "tagline": "Making heat pumps cool. Big Picture Heat pumps are no longer just for comfort. In heat waves and cold snaps, they’re lifelines. A few billion will be installed as extreme weather grows more frequent. That’s great news for public safety, but most devices are insanely power-hungry and inefficient. A h",
-    "founders": "",
-    "founded": "2022",
-    "city": "Redwood City, CA",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2023-06-15",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/quilt/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2023-06-15",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "River",
-    "domain": "rideriver.com",
-    "website": "https://rideriver.com",
-    "tagline": "India’s practical, badass e-moto. Big Picture India is set to add 30 million new two wheelers to the road annually by 2030, buoyed by the rise of a gig economy and home-deliveries carried out on two wheelers. While many seek to create electric alternatives, these are consistently premium vehicles th",
-    "founders": "",
-    "founded": "2020",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2022-08-02",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/river/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2022-08-02",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Rune Energy",
-    "domain": "rune.energy",
-    "website": "https://rune.energy",
-    "tagline": "Compute power from clean energy leftovers. Big Picture Solar and wind farms make more energy than the grid can handle. This surplus just goes to waste, even as the energy needs of computing are blowing up. With the pace of AI alone, electricity demand in the US is expected to 10x by 2030. Compoundin",
-    "founders": "",
-    "founded": "2023",
-    "city": "Palo Alto, CA",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2025-03-10",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/rune-energy/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2025-03-10",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Seabound",
-    "domain": "seabound.co",
-    "website": "https://seabound.co",
-    "tagline": "Decarbonizing shipping. Big Picture Ships are the arteries of the global economy, and bunker fuel is what flows through them. The nasty, sludgy oil byproduct powering nearly 100,000 cargo, tanker, and bulk carriers spews more emissions than all the world’s planes combined. Green fuels hold promise, ",
-    "founders": "",
-    "founded": "2021",
-    "city": "London, UK",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2025-03-06",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/seabound/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2025-03-06",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Solar Square",
-    "domain": "solarsquare.in",
-    "website": "https://solarsquare.in",
-    "tagline": "Solarizing Indian rooftops. Big Picture India is set to add a quarter billion people in the next two decades, snagging the top spot from China. Along the way, it is projected to double its building stock. With rapid growth and rising incomes, energy demand could soar up to 6x. Supplying this power w",
-    "founders": "",
-    "founded": "2015",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2022-06-10",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/solarsquare/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2022-06-10",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Storio",
-    "domain": "storioenergy.com",
-    "website": "https://storioenergy.com",
-    "tagline": "Commercial batteries that practically store cash. Big Picture Electricity prices aren’t just rising, they’re also unpredictable. And with intermittent renewables making up a bigger and bigger slice of the energy pie, prices are getting ever more volatile. Commercial and industrial (C+I) businesses a",
-    "founders": "",
-    "founded": "2023",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2025-03-10",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/storio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2025-03-10",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Supercritical",
-    "domain": "supercritical.solutions",
-    "website": "https://supercritical.solutions",
-    "tagline": "Super-cheap green hydrogen. Big Idea Despite its promise as decarbonization’s skeleton key, hydrogen remains one of the world’s dirtiest industries. Over 95% of global hydrogen production today is fossil-based, spewing nearly a Gt CO₂e per year. Many have long sought to produce “green” H2 from water",
-    "founders": "",
-    "founded": "2020",
-    "city": "London, UK",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2022-03-24",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/supercritical/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2022-03-24",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Tender",
-    "domain": "tenderfood.com",
-    "website": "https://tenderfood.com",
-    "tagline": "Looks like meat, tastes like meat. Big Picture Combined, pork and chicken make up more than 60% of global meat production and emit more than 1 Gt of CO 2 e annually. Multiple plant- and cell-based alternatives exist, but they struggle to expand beyond meat mush into whole cuts. Until alternative mea",
-    "founders": "",
-    "founded": "2020",
-    "city": "Boston, MA",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2022-04-26",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/tender/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2022-04-26",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Undo",
-    "domain": "un-do.com",
-    "website": "https://un-do.com",
-    "tagline": "Rocking carbon, renewing soil. Big Picture Less than 1% of Earth’s carbon is found in living things. The rest is found in rocks. Over centuries, rocks suck up CO₂ from the air and store it stably in carbonate mineral form through a geochemical process called weathering; it currently removes one giga",
-    "founders": "",
-    "founded": "2020",
-    "city": "London, UK",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2023-06-22",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/undo/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2023-06-22",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Vaulted",
-    "domain": "vaulteddeep.com",
-    "website": "https://vaulteddeep.com",
-    "tagline": "Waste disposal that trashes CO₂. Big Picture The U.S. produces 400M tons of solid organic waste annually. That’s a whole lot of sewage, food scraps, and agricultural waste to get rid of. Where does it end up? Unfortunately, today that waste is dumped into landfills, waterways, and even farms, where ",
-    "founders": "",
-    "founded": "2022",
-    "city": "Houston, TX",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2024-01-05",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/vaulted/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2024-01-05",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Verdox",
-    "domain": "verdox.com",
-    "website": "https://verdox.com",
-    "tagline": "Suck up carbon, not energy. Big Picture To date, most commercial carbon capture requires high concentrations of CO₂ for the physics to pencil out. Novel approaches can capture ambient CO₂ that makes up just 0.04% of air, but require a lot of energy, heat, or pressure to do so. Verdox is pioneering a",
-    "founders": "",
-    "founded": "2019",
-    "city": "Woburn, MA",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2022-03-24",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/verdox/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2022-03-24",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Watershed",
-    "domain": "watershed.com",
-    "website": "https://watershed.com",
-    "tagline": "Carbon rehab for your business. Big Picture It seems everyone’s got a net-zero commitment these days. Promises to zero out Scope 1, 2, and 3 emissions now cover more than 70% of global greenhouse gas emissions and a giant chunk of the global economy. But for every net-zero pledge and corporate press",
-    "founders": "",
-    "founded": "2019",
-    "city": "San Francisco, CA",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2023-06-29",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/watershed/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2023-06-29",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Woodoo",
-    "domain": "woodoo.com",
-    "website": "https://woodoo.com",
-    "tagline": "Wood with muscles of steel. Big Picture Embodied carbon in the built environment represents 11% of energy-related CO₂ emissions globally, primarily driven by the use of concrete and steel. Increased focus on reducing embodied carbon is driving the increased use of lower-carbon products like cross-la",
-    "founders": "",
-    "founded": "2016",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2023-08-22",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/woodoo/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2023-08-22",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Yard Stick",
-    "domain": "useyardstick.com",
-    "website": "https://useyardstick.com",
-    "tagline": "Measure soil carbon in a snap. Big Picture In theory, soils have the capacity to suck up to three times more CO₂ than is currently swirling around the atmosphere. This potential has fueled hype around the idea of soils as a massive, low-cost solution to our global carbon conundrum. The primary obsta",
-    "founders": "",
-    "founded": "2020",
-    "city": "Emeryville, CA",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2021-06-15",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/yard-stick/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2021-06-15",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Zeno",
-    "domain": "zeno.earth",
-    "website": "https://zeno.earth",
-    "tagline": "Juicing up the e-moto wave. Big Picture Small motors have big climate impact. In East Africa, up to 80% of vehicle emissions come from motorcycles, and moto sales are on pace to quadruple by 2050. The answer to this soon-to-be gigaton carbon problem? E-motos. Africa’s moto drivers, who clock as many",
-    "founders": "",
-    "founded": "2019",
-    "city": "San Francisco, CA",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2025-03-06",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/zeno/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2025-03-06",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Zero Acre",
-    "domain": "zeroacre.com",
-    "website": "https://zeroacre.com",
-    "tagline": "Cooking oil that doesn’t fry the planet. Big Picture Vegetable oils like soy and palm are the most consumed food products in the world after rice and wheat. The scale of consumption makes them one of the primary drivers of deforestation and biodiversity loss, particularly in carbon-rich forests like",
-    "founders": "",
-    "founded": "2020",
-    "city": "San Mateo, CA",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2022-02-02",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/zeroacre/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.39,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2022-02-02",
     "detected_at": "2026-09-25T07:59:45.838940+00:00",
     "status": "pending",
     "source_list": "vc-portfolio-watcher"
@@ -2498,6 +2602,32 @@
     "source_list": "vc-portfolio-watcher"
   },
   {
+    "name": "1910Genetics",
+    "domain": "1910genetics.com",
+    "website": "https://www.1910genetics.com/",
+    "tagline": "",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
     "name": "Alkali",
     "domain": "alkali.engineering",
     "website": "https://www.alkali.engineering/",
@@ -2516,6 +2646,32 @@
     ],
     "fund_overlap": 0.37,
     "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Alva Energy",
+    "domain": "alvaenergy.io",
+    "website": "https://alvaenergy.io",
+    "tagline": "",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": true,
     "possible_match": [],
     "listed_by": 1,
     "since": "2026-09-25",
@@ -2550,6 +2706,58 @@
     "source_list": "vc-portfolio-watcher"
   },
   {
+    "name": "Bodyport",
+    "domain": "bodyport.com",
+    "website": "https://www.bodyport.com/",
+    "tagline": "One simple step to care for your heart Introducing Bodyport We are a biomarker-guided digital therapeutics company that aims to address complex chronic conditions by embedding a sophisticated biomarker platform into simple, easy-to-use devices. With one simple step, every person can access comprehen",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Boxbot",
+    "domain": "boxbot.io",
+    "website": "https://www.boxbot.io/",
+    "tagline": "",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
     "name": "Cocoon Carbon",
     "domain": "cocooncarbon.com",
     "website": "https://www.cocooncarbon.com/",
@@ -2563,6 +2771,58 @@
         "first_funded": "",
         "focus": "",
         "source_url": "https://gigascale.com/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "De-Ice",
+    "domain": "deice.com",
+    "website": "https://www.deice.com/",
+    "tagline": "Novel technology that melts ice using electricity",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Element Zero",
+    "domain": "elementzero.green",
+    "website": "https://elementzero.green/",
+    "tagline": "Element Zero develops green iron and zero-emission metals technology using renewable energy and electrochemistry to cut energy use and eliminate CO₂.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
         "new_this_run": false
       }
     ],
@@ -2628,6 +2888,32 @@
     "source_list": "vc-portfolio-watcher"
   },
   {
+    "name": "GigaCrop",
+    "domain": "gigacrop.com",
+    "website": "https://www.gigacrop.com/",
+    "tagline": "Revolutionary agricultural biotechnology that doubles crop yields by rewiring photosynthesis. Delivering a century of progress in food security today.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
     "name": "HomeBoost",
     "domain": "homeboost.com",
     "website": "https://www.homeboost.com/",
@@ -2654,6 +2940,162 @@
     "source_list": "vc-portfolio-watcher"
   },
   {
+    "name": "Infinimmune",
+    "domain": "infinimmune.com",
+    "website": "https://www.infinimmune.com/",
+    "tagline": "Derived from human biology, engineered for human health. Infinimmune systematically surfaces and engineers the rare antibodies evolution has already proven in people and advances them into the clinic.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Insamo",
+    "domain": "insamo.com",
+    "website": "https://insamo.com/",
+    "tagline": "Insamo is a global biotechnology company pioneering the discovery of membrane-permeable and orally available cyclic-peptides with antibody-like binding affinity.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Intel",
+    "domain": "intel.com",
+    "website": "https://www.intel.com/content/www/us/en/artificial-intelligence/overview.html",
+    "tagline": "",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Outpace Bio",
+    "domain": "outpacebio.com",
+    "website": "https://www.outpacebio.com/",
+    "tagline": "Outpace Bio designs smarter cell therapies. OUTSPACER™, OUTSMART™, OUTLAST™, OUTSAFE™, OUTDRIVE™ and OUTMATCH™ technologies make engineered cells more effective, safer and scalable against cancer.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "PicoJool",
+    "domain": "picojool.com",
+    "website": "https://picojool.com/",
+    "tagline": "PicoJool provides high-performance, energy-efficient data transmission solutions for AI and machine learning applications. Explore how they are pushing the boundaries of what's possible.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Powerlattice",
+    "domain": "powerlatticeinc.com",
+    "website": "https://powerlatticeinc.com/",
+    "tagline": "",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
     "name": "Rhoda AI",
     "domain": "rhoda.ai",
     "website": "https://www.rhoda.ai/",
@@ -2667,6 +3109,58 @@
         "first_funded": "",
         "focus": "",
         "source_url": "https://gigascale.com/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Robust AI",
+    "domain": "robust.ai",
+    "website": "https://www.robust.ai/",
+    "tagline": "At Robust AI, we build AI-powered robots designed to work alongside people in dynamic warehouse environments.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Saltbox",
+    "domain": "saltbox.com",
+    "website": "https://www.saltbox.com/",
+    "tagline": "Saltbox offers flexible warehouse space for product-based businesses. Store, ship, & scale with month-to-month memberships. Book a tour at a location near you.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
         "new_this_run": false
       }
     ],
@@ -2706,6 +3200,32 @@
     "source_list": "vc-portfolio-watcher"
   },
   {
+    "name": "Snowcapcompute",
+    "domain": "snowcapcompute.com",
+    "website": "https://www.snowcapcompute.com/",
+    "tagline": "Discover Snowcap, the worldâs first commercial superconducting computing platform. Unleashing breakthrough efficiency and power at 4.5 Kelvin, Snowcap is redefining whatâs possible in AI and data center performance.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
     "name": "Solcoa Industries",
     "domain": "solcoaindustries.com",
     "website": "https://www.solcoaindustries.com/",
@@ -2732,6 +3252,58 @@
     "source_list": "vc-portfolio-watcher"
   },
   {
+    "name": "Syenta",
+    "domain": "syenta.com",
+    "website": "https://www.syenta.com/",
+    "tagline": "Syenta is architecting the future of AI computing through its revolutionary Localized Electrochemical Manufacturing (LEM) technology, which enables High-Resolution Interconnects -a new class of chip-to-chip connections that transcends traditional packaging to deliver wafer-level system integration a",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Synthetic Design Lab",
+    "domain": "syntheticdesignlab.com",
+    "website": "https://www.syntheticdesignlab.com/",
+    "tagline": "",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
     "name": "Thalo Labs",
     "domain": "thalolabs.com",
     "website": "https://thalolabs.com/",
@@ -2745,6 +3317,32 @@
         "first_funded": "",
         "focus": "",
         "source_url": "https://gigascale.com/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.37,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Velo3D",
+    "domain": "velo3d.com",
+    "website": "https://velo3d.com/",
+    "tagline": "Design, print and produce critical metal parts with Velo3D's advanced laser powder bed fusion technology. Trusted by aerospace, defense, and energy leaders.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
         "new_this_run": false
       }
     ],
@@ -2784,500 +3382,6 @@
     "source_list": "vc-portfolio-watcher"
   },
   {
-    "name": "1910Genetics",
-    "domain": "1910genetics.com",
-    "website": "https://www.1910genetics.com/",
-    "tagline": "",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Alva Energy",
-    "domain": "alvaenergy.io",
-    "website": "https://alvaenergy.io",
-    "tagline": "",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Bodyport",
-    "domain": "bodyport.com",
-    "website": "https://www.bodyport.com/",
-    "tagline": "One simple step to care for your heart Introducing Bodyport We are a biomarker-guided digital therapeutics company that aims to address complex chronic conditions by embedding a sophisticated biomarker platform into simple, easy-to-use devices. With one simple step, every person can access comprehen",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Boxbot",
-    "domain": "boxbot.io",
-    "website": "https://www.boxbot.io/",
-    "tagline": "",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "De-Ice",
-    "domain": "deice.com",
-    "website": "https://www.deice.com/",
-    "tagline": "Novel technology that melts ice using electricity",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Element Zero",
-    "domain": "elementzero.green",
-    "website": "https://elementzero.green/",
-    "tagline": "Element Zero develops green iron and zero-emission metals technology using renewable energy and electrochemistry to cut energy use and eliminate CO₂.",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "GigaCrop",
-    "domain": "gigacrop.com",
-    "website": "https://www.gigacrop.com/",
-    "tagline": "Revolutionary agricultural biotechnology that doubles crop yields by rewiring photosynthesis. Delivering a century of progress in food security today.",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Infinimmune",
-    "domain": "infinimmune.com",
-    "website": "https://www.infinimmune.com/",
-    "tagline": "Derived from human biology, engineered for human health. Infinimmune systematically surfaces and engineers the rare antibodies evolution has already proven in people and advances them into the clinic.",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Insamo",
-    "domain": "insamo.com",
-    "website": "https://insamo.com/",
-    "tagline": "Insamo is a global biotechnology company pioneering the discovery of membrane-permeable and orally available cyclic-peptides with antibody-like binding affinity.",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Intel",
-    "domain": "intel.com",
-    "website": "https://www.intel.com/content/www/us/en/artificial-intelligence/overview.html",
-    "tagline": "",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Outpace Bio",
-    "domain": "outpacebio.com",
-    "website": "https://www.outpacebio.com/",
-    "tagline": "Outpace Bio designs smarter cell therapies. OUTSPACER™, OUTSMART™, OUTLAST™, OUTSAFE™, OUTDRIVE™ and OUTMATCH™ technologies make engineered cells more effective, safer and scalable against cancer.",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "PicoJool",
-    "domain": "picojool.com",
-    "website": "https://picojool.com/",
-    "tagline": "PicoJool provides high-performance, energy-efficient data transmission solutions for AI and machine learning applications. Explore how they are pushing the boundaries of what's possible.",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Powerlattice",
-    "domain": "powerlatticeinc.com",
-    "website": "https://powerlatticeinc.com/",
-    "tagline": "",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Robust AI",
-    "domain": "robust.ai",
-    "website": "https://www.robust.ai/",
-    "tagline": "At Robust AI, we build AI-powered robots designed to work alongside people in dynamic warehouse environments.",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Saltbox",
-    "domain": "saltbox.com",
-    "website": "https://www.saltbox.com/",
-    "tagline": "Saltbox offers flexible warehouse space for product-based businesses. Store, ship, & scale with month-to-month memberships. Book a tour at a location near you.",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Snowcapcompute",
-    "domain": "snowcapcompute.com",
-    "website": "https://www.snowcapcompute.com/",
-    "tagline": "Discover Snowcap, the worldâs first commercial superconducting computing platform. Unleashing breakthrough efficiency and power at 4.5 Kelvin, Snowcap is redefining whatâs possible in AI and data center performance.",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Syenta",
-    "domain": "syenta.com",
-    "website": "https://www.syenta.com/",
-    "tagline": "Syenta is architecting the future of AI computing through its revolutionary Localized Electrochemical Manufacturing (LEM) technology, which enables High-Resolution Interconnects -a new class of chip-to-chip connections that transcends traditional packaging to deliver wafer-level system integration a",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Synthetic Design Lab",
-    "domain": "syntheticdesignlab.com",
-    "website": "https://www.syntheticdesignlab.com/",
-    "tagline": "",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Velo3D",
-    "domain": "velo3d.com",
-    "website": "https://velo3d.com/",
-    "tagline": "Design, print and produce critical metal parts with Velo3D's advanced laser powder bed fusion technology. Trusted by aerospace, defense, and energy leaders.",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.348,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
     "name": "Xlight",
     "domain": "xlight.com",
     "website": "https://www.xlight.com/",
@@ -3294,37 +3398,11 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.348,
+    "fund_overlap": 0.37,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
     "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Lumen",
-    "domain": "getlumen.com",
-    "website": "https://getlumen.com",
-    "tagline": "Go solar. Get paid. Big Picture While residential rooftop solar booms, only 3% of the 6 million commercial and industrial buildings in the US have made the switch to the cheaper, more reliable power of on-site solar. Obstacles abound. Sales and installation cycles for C&I solar are frustratingly cum",
-    "founders": "",
-    "founded": "2020",
-    "city": "San Francisco, CA",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2020-09-15",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/lumen/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.337,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2020-09-15",
     "detected_at": "2026-09-25T07:59:45.838940+00:00",
     "status": "pending",
     "source_list": "vc-portfolio-watcher"
@@ -8130,11 +8208,115 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.072,
+    "fund_overlap": 0.075,
     "needs_check": true,
     "possible_match": [],
     "listed_by": 1,
     "since": "2024-01-30",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Rigup",
+    "domain": "rigup.com",
+    "website": "https://www.rigup.com/",
+    "tagline": "By effectively maintaining a database of energy market workers, Rigup enables better matching of supply and demand, resulting in significantly improved time-to-hire and visibility for both independent contractors and energy companies look to fill jobs with higher quality personnel.",
+    "founders": "Xuan Yong, Mike Witte",
+    "founded": "2014",
+    "city": "",
+    "funds": [
+      {
+        "fund": "a16z",
+        "first_funded": "2019-10-04",
+        "focus": "Enterprise, American Dynamism, Growth",
+        "source_url": "https://a16z.com/companies/workrise/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.075,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2019-10-04",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Sharp Performance",
+    "domain": "sharpperformance.com",
+    "website": "https://www.sharpperformance.com/",
+    "tagline": "",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "a16z",
+        "first_funded": "2025-05-01",
+        "focus": "American Dynamism",
+        "source_url": "https://a16z.com/companies/sharp-performance/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.075,
+    "needs_check": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2025-05-01",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Smartcar",
+    "domain": "smartcar.com",
+    "website": "https://smartcar.com",
+    "tagline": "",
+    "founders": "Sahas Katta, Sanketh Katta",
+    "founded": "2015",
+    "city": "",
+    "funds": [
+      {
+        "fund": "a16z",
+        "first_funded": "2014-12-19",
+        "focus": "Enterprise, American Dynamism, Seed",
+        "source_url": "https://a16z.com/companies/smartcar/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.075,
+    "needs_check": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2014-12-19",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "TruckSmarter",
+    "domain": "trucksmarter.com",
+    "website": "https://www.trucksmarter.com/",
+    "tagline": "",
+    "founders": "Daniel Kao, Paolo Bernasconi",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "a16z",
+        "first_funded": "2021-03-26",
+        "focus": "American Dynamism",
+        "source_url": "https://a16z.com/companies/trucksmarter/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.075,
+    "needs_check": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2021-03-26",
     "detected_at": "2026-09-25T07:59:45.838940+00:00",
     "status": "pending",
     "source_list": "vc-portfolio-watcher"
@@ -8165,110 +8347,6 @@
     "status": "pending",
     "source_list": "vc-portfolio-watcher",
     "review_note": "diode.computer (a16z AD) is not our Diode (diode.io); a separate hardware-design AI company, still pending."
-  },
-  {
-    "name": "Rigup",
-    "domain": "rigup.com",
-    "website": "https://www.rigup.com/",
-    "tagline": "By effectively maintaining a database of energy market workers, Rigup enables better matching of supply and demand, resulting in significantly improved time-to-hire and visibility for both independent contractors and energy companies look to fill jobs with higher quality personnel.",
-    "founders": "Xuan Yong, Mike Witte",
-    "founded": "2014",
-    "city": "",
-    "funds": [
-      {
-        "fund": "a16z",
-        "first_funded": "2019-10-04",
-        "focus": "Enterprise, American Dynamism, Growth",
-        "source_url": "https://a16z.com/companies/workrise/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.072,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2019-10-04",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Sharp Performance",
-    "domain": "sharpperformance.com",
-    "website": "https://www.sharpperformance.com/",
-    "tagline": "",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "a16z",
-        "first_funded": "2025-05-01",
-        "focus": "American Dynamism",
-        "source_url": "https://a16z.com/companies/sharp-performance/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.072,
-    "needs_check": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2025-05-01",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Smartcar",
-    "domain": "smartcar.com",
-    "website": "https://smartcar.com",
-    "tagline": "",
-    "founders": "Sahas Katta, Sanketh Katta",
-    "founded": "2015",
-    "city": "",
-    "funds": [
-      {
-        "fund": "a16z",
-        "first_funded": "2014-12-19",
-        "focus": "Enterprise, American Dynamism, Seed",
-        "source_url": "https://a16z.com/companies/smartcar/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.072,
-    "needs_check": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2014-12-19",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "TruckSmarter",
-    "domain": "trucksmarter.com",
-    "website": "https://www.trucksmarter.com/",
-    "tagline": "",
-    "founders": "Daniel Kao, Paolo Bernasconi",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "a16z",
-        "first_funded": "2021-03-26",
-        "focus": "American Dynamism",
-        "source_url": "https://a16z.com/companies/trucksmarter/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.072,
-    "needs_check": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2021-03-26",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
   },
   {
     "name": "Aerodome",
@@ -8401,7 +8479,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.708,
+    "fund_overlap": 0.709,
     "needs_check": true,
     "possible_match": [
       "Firehawk Aerospace"
@@ -8821,7 +8899,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.39,
+    "fund_overlap": 0.4,
     "needs_check": false,
     "possible_match": [
       "Fuse Energy"
