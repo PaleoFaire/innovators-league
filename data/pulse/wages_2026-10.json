@@ -1,43 +1,43 @@
 {
  "month": "2026-10",
- "n_postings_with_ranges": 1162,
+ "n_postings_with_ranges": 1222,
  "median_midpoint_by_class": {
-  "software": 177500,
-  "commercial": 147500,
-  "other": 170000,
-  "hardware": 167942,
+  "software": 178750,
+  "commercial": 150500,
+  "other": 174750,
+  "hardware": 168000,
   "manufacturing": 140000
  },
  "median_midpoint_by_state": {
-  "CA": 166000,
-  "WA": 155890,
+  "CA": 166402,
+  "WA": 157945,
   "MA": 199000
  },
  "top_paid_titles": [
   {
-   "title": "software engineer",
+   "title": "technical program manager",
    "n": 6,
-   "median_midpoint": 201866
+   "median_midpoint": 189774
   },
   {
    "title": "electrical engineer",
-   "n": 15,
-   "median_midpoint": 190000
+   "n": 14,
+   "median_midpoint": 187500
   },
   {
-   "title": "technical program manager",
-   "n": 7,
-   "median_midpoint": 187048
-  },
-  {
-   "title": "thermal engineer",
+   "title": "software engineer",
    "n": 5,
-   "median_midpoint": 178560
+   "median_midpoint": 181000
   },
   {
    "title": "electrical design engineer",
    "n": 5,
    "median_midpoint": 177500
+  },
+  {
+   "title": "thermal engineer",
+   "n": 6,
+   "median_midpoint": 174280
   },
   {
    "title": "full stack software engineer",
@@ -52,7 +52,7 @@
   {
    "title": "mechanical engineer",
    "n": 16,
-   "median_midpoint": 160000
+   "median_midpoint": 164500
   },
   {
    "title": "test engineer",
@@ -60,19 +60,19 @@
    "median_midpoint": 157597
   },
   {
-   "title": "mechanical design engineer",
-   "n": 6,
-   "median_midpoint": 153800
+   "title": "systems engineer",
+   "n": 7,
+   "median_midpoint": 155000
+  },
+  {
+   "title": "flight software engineer",
+   "n": 5,
+   "median_midpoint": 152500
   },
   {
    "title": "manufacturing engineer",
-   "n": 12,
-   "median_midpoint": 147750
-  },
-  {
-   "title": "systems engineer",
-   "n": 6,
-   "median_midpoint": 145452
+   "n": 13,
+   "median_midpoint": 147500
   },
   {
    "title": "platform engineer",
@@ -85,36 +85,41 @@
    "median_midpoint": 140500
   },
   {
-   "title": "supplier quality engineer",
-   "n": 4,
-   "median_midpoint": 133250
+   "title": "mechanical design engineer",
+   "n": 7,
+   "median_midpoint": 140000
   }
  ],
  "most_common_paid_titles": [
   {
    "title": "mechanical engineer",
    "n": 16,
-   "median_midpoint": 160000
+   "median_midpoint": 164500
   },
   {
    "title": "electrical engineer",
-   "n": 15,
-   "median_midpoint": 190000
+   "n": 14,
+   "median_midpoint": 187500
   },
   {
    "title": "manufacturing engineer",
-   "n": 12,
-   "median_midpoint": 147750
+   "n": 13,
+   "median_midpoint": 147500
+  },
+  {
+   "title": "mechanical design engineer",
+   "n": 7,
+   "median_midpoint": 140000
   },
   {
    "title": "accountant",
-   "n": 8,
-   "median_midpoint": 106250
+   "n": 7,
+   "median_midpoint": 100000
   },
   {
-   "title": "technical program manager",
+   "title": "systems engineer",
    "n": 7,
-   "median_midpoint": 187048
+   "median_midpoint": 155000
   },
   {
    "title": "full stack software engineer",
@@ -122,24 +127,34 @@
    "median_midpoint": 173465
   },
   {
-   "title": "software engineer",
-   "n": 6,
-   "median_midpoint": 201866
-  },
-  {
-   "title": "mechanical design engineer",
-   "n": 6,
-   "median_midpoint": 153800
-  },
-  {
-   "title": "systems engineer",
-   "n": 6,
-   "median_midpoint": 145452
-  },
-  {
    "title": "automation sales manager",
    "n": 6,
    "median_midpoint": 127500
+  },
+  {
+   "title": "technical recruiter",
+   "n": 6,
+   "median_midpoint": 136250
+  },
+  {
+   "title": "thermal engineer",
+   "n": 6,
+   "median_midpoint": 174280
+  },
+  {
+   "title": "technical program manager",
+   "n": 6,
+   "median_midpoint": 189774
+  },
+  {
+   "title": "software engineer",
+   "n": 5,
+   "median_midpoint": 181000
+  },
+  {
+   "title": "flight software engineer",
+   "n": 5,
+   "median_midpoint": 152500
   },
   {
    "title": "propulsion test engineer",
@@ -150,21 +165,6 @@
    "title": "electrical design engineer",
    "n": 5,
    "median_midpoint": 177500
-  },
-  {
-   "title": "technical recruiter",
-   "n": 5,
-   "median_midpoint": 132500
-  },
-  {
-   "title": "thermal engineer",
-   "n": 5,
-   "median_midpoint": 178560
-  },
-  {
-   "title": "executive assistant",
-   "n": 4,
-   "median_midpoint": 113250
   }
  ],
  "note": "Greenhouse postings with a published USD range (pay-transparency states over-represented: CA, CO, NY, WA). Midpoint of the range."
