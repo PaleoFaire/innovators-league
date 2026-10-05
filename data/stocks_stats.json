@@ -11,13 +11,13 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -3.91,
+      "avg_change": -3.68,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -3.13,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -3.73,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 7.74,
+      "avg_change": 7.53,
       "count": 3
     },
     "transportation": {
@@ -61,7 +61,7 @@
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      22.91
+      22.3
     ],
     [
       "DRSHF",
@@ -111,5 +111,5 @@
       -19.63
     ]
   ],
-  "lastUpdated": "2026-10-04 22:22:36"
+  "lastUpdated": "2026-10-05 07:07:32"
 }
