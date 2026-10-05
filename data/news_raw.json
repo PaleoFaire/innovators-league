@@ -1,5 +1,87 @@
 [
   {
+    "title": "What are humanoid robots actually for on the battlefield?",
+    "link": "https://breakingdefense.com/2026/10/what-are-humanoid-robots-actually-for-on-the-battlefield/",
+    "description": "Despite their cinematic, sci-fi allure, humanoid robots could potentially address real manpower and survivability problems, a former Turkish general argues.",
+    "pubDate": "Mon, 05 Oct 2026 13:45:33 +0000",
+    "category": "Land Warfare",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "Humanoid",
+    "matchedCompanies": [
+      "Humanoid",
+      "PILGRIM"
+    ],
+    "sectors": [
+      "robotics",
+      "defense"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "STAT+: Divergent trial results on cancer vaccines have the field grappling with hard questions",
+    "link": "https://www.statnews.com/2026/10/05/cancer-vaccines-mrna-clinical-trials/?utm_campaign=rss",
+    "description": "A melanoma vaccine succeeded in a late-stage clinical trial. The question now is whether other cancer vaccines will work — and whether mRNA is up to the task.",
+    "pubDate": "Mon, 05 Oct 2026 08:30:00 +0000",
+    "category": "Biotech",
+    "source": "STAT News",
+    "feedCategory": "biotech",
+    "matchedCompany": "Divergent",
+    "matchedCompanies": [
+      "Divergent"
+    ],
+    "sectors": [
+      "robotics"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "5h ago"
+  },
+  {
+    "title": "ARX Robotics and Roboneers step up UGV collaboration for Ukraine’s battlefield",
+    "link": "https://tech.eu/2026/10/04/arx-robotics-and-roboneers-step-up-ugv-collaboration-for-ukraines-battlefield/",
+    "description": "German defencetech ARX Robotics has agreed to an intensive collaboration with Ukrainian defencetech company Roboneers by establishing a strategic partnership for unmanned land warfare.   Both parties ...",
+    "pubDate": "Sun, 04 Oct 2026 23:01:00 +0000",
+    "category": "Defencetech",
+    "source": "Tech.eu",
+    "feedCategory": "startups",
+    "matchedCompany": "Roboneers",
+    "matchedCompanies": [
+      "Roboneers",
+      "PILGRIM",
+      "H Company"
+    ],
+    "sectors": [
+      "defense",
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "15h ago"
+  },
+  {
+    "title": "SpaceX Falcon 9 Competitors  Might Have Flight in 2027",
+    "link": "https://www.nextbigfuture.com/2026/10/spacex-falcon-9-competitors-might-have-flight-in-2027.html",
+    "description": "SpaceX Falcon 9 is roughly 15–18 t to LEO in reusable mode and ~23 t expendable, with boosters routinely flying 20+ times and the fleet doing dozens of launches per year. Falcon 9 has had 160-170 launches per year in 2025 and likely in 2026. This is about 2500-3000 tons per year. No other rocket ...",
+    "pubDate": "Sun, 04 Oct 2026 19:08:26 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Dawn Aerospace"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "18h ago"
+  },
+  {
     "title": "Hasta la vista, baby – Figure F.02 humanoid robots decommissioned, T2-style",
     "link": "https://electrek.co/2026/10/03/hasta-la-vista-baby-figure-f-02-humanoid-robots-decommissioned-t2-style/",
     "description": "Decommissioning humanoid robots that are packed with proprietary tech is a tricky thing – you want to make sure none of the expensive raw material goes to waste, but you also need to make sure no one else gets a hold of your tech. The solution? Have your robots hurl themselves into a vat of molten s",
@@ -16,7 +98,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "1d ago"
   },
   {
     "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
@@ -35,7 +117,31 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "19h ago"
+    "time": "1d ago"
+  },
+  {
+    "title": "Heading Home: NASA’s SpaceX Crew-12 Concludes Station Science Mission",
+    "link": "https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/",
+    "description": "NASA’s SpaceX Crew-12 mission is ending, with the crew scheduled to return in early October. NASA astronauts Jessica Meir and Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev will head home from the International Space Station after supportin",
+    "pubDate": "Fri, 02 Oct 2026 19:30:00 +0000",
+    "category": "ISS Research",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Vast",
+      "Axiom Space",
+      "PLD Space",
+      "Osmo"
+    ],
+    "sectors": [
+      "space",
+      "consumer"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "2d ago"
   },
   {
     "title": "Runway introduces Praxis-1 world action model for robotics",
@@ -54,7 +160,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract",
@@ -74,7 +180,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "1d ago"
+    "time": "3d ago"
   },
   {
     "title": "SpaceX describes surgical intervention before launch of latest crew mission",
@@ -95,7 +201,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Each SpaceX 250 Kilowatt Starlink AI Satellite Is More Power Than the Space Station",
@@ -116,7 +222,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Claude Sonnet 5.5 Versus OpenAI GPT 6.1 Sol",
@@ -135,7 +241,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Boston Dynamics drops pinkie on new humanoid hand",
@@ -154,7 +260,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Precision In Motion. Vishay Precision Group, Inc. (VPG) to Showcase Custom Sensing Capabilities for Humanoid Robotics at RoboBusiness 2026",
@@ -174,7 +280,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Neros, Perennial Autonomy lead in Pentagon’s drone competition",
@@ -198,7 +304,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "2d ago"
+    "time": "4d ago"
   },
   {
     "title": "China-linked hackers posed as former US officials, Anthropic employee to target AI experts",
@@ -217,7 +323,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "ANYbotics launches Shift to streamline robot fleet operations, scale inspections",
@@ -244,7 +350,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "SHOCKING Can 20 SpaceX Minihards Out-Earn 8 MILLION Tesla Robotaxi?",
@@ -268,7 +374,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "NaviGate successfully demonstrates onboard precise orbit determination aboard D-Orbit’s ION Satellite Carrier",
@@ -287,7 +393,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "H Company cofounder Charles Kantor launches new AI neocloud startup",
@@ -306,29 +412,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "3d ago"
-  },
-  {
-    "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
-    "link": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-    "description": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised s",
-    "pubDate": "Wed, 30 Sep 2026 10:40:30 +0000",
-    "category": "Artificial intelligence",
-    "source": "MIT Tech Review",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "Daylight Computer",
-      "Hugging Face"
-    ],
-    "sectors": [
-      "ai",
-      "consumer"
-    ],
-    "type": "funding",
-    "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "SpaceX Has More Annual Recurring Revenue than Anthropic",
@@ -349,7 +433,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Oura Hits Pause On IPO While Anthropic’s Prospectus Reveals The Cost Of Its AI Ambitions",
@@ -368,28 +452,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "4d ago"
-  },
-  {
-    "title": "Anthropic Nearly Doubles Leasing From Spacex to over $2 Billion Per Month",
-    "link": "https://www.nextbigfuture.com/2026/09/anthropic-nearly-doubles-leasing-from-spacex-to-over-2-billion-per-month.html",
-    "description": "Anthropic’s confidential prospectus now lists agreements that could reach up to $84.5 billion for NVIDIA-double the earlier $45 billion figure. Most of these provisions remain cancelable with 90 days’ notice. This is likely up from $15 billion per year to $25-30 billion per year. Probably about $2.3",
-    "pubDate": "Tue, 29 Sep 2026 18:02:57 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Anthropic"
-    ],
-    "sectors": [
-      "space",
-      "ai"
-    ],
-    "type": "ipo",
-    "impact": "high",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Terran Orbital Names Jamin Brown Chief Operating Officer",
@@ -416,7 +479,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Tesla (TSLA) wins SEC OK to auto-vote retail shares with board ahead of SpaceX merger",
@@ -435,32 +498,6 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "SpaceX AI Gameover for Rivals -Money Wise Minihard Crushes Even Money From Millions of Robotaxi",
-    "link": "https://www.nextbigfuture.com/2026/09/spacex-ai-gameover-for-rivals-money-wise-minihard-crushes-even-money-from-millions-of-robotaxi.html",
-    "description": "One new AI data center every month. If SpaceX achieves that MiniHard production pace, the consequences for AI capacity, revenue, and competitors are enormous. MiniHard will become SpaceX’s most important near-term product. Repeating a proven data-center design could turn individual construction proj",
-    "pubDate": "Mon, 28 Sep 2026 20:10:28 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Waymo",
-      "Astera Labs",
-      "Rebellions",
-      "Zoox"
-    ],
-    "sectors": [
-      "space",
-      "ai",
-      "chips",
-      "transportation"
-    ],
-    "type": "ipo",
-    "impact": "medium",
     "time": "5d ago"
   },
   {
@@ -619,24 +656,5 @@
     "type": "news",
     "impact": "low",
     "time": "8/19/2026"
-  },
-  {
-    "title": "<a href=\"/biotech/roche-zealand-see-phase-2-amylin-weight-loss-peak-mid-dose-start-pivotal-program\" hreflang=\"en\">Roche, Zealand see phase 2 amylin weight loss peak at mid-dose, start pivotal program</a>",
-    "link": "https://www.fiercebiotech.com/biotech/roche-zealand-see-phase-2-amylin-weight-loss-peak-mid-dose-start-pivotal-program",
-    "description": "Zealand Pharma has shared primary endpoint data on Roche-partnered petrelintide, revealing that the middle dose of the amylin analog delivered the highest weight loss—9.8%—at Week 28.",
-    "pubDate": "Sep 30, 2026 4:57am",
-    "category": "",
-    "source": "FierceBiotech",
-    "feedCategory": "biotech",
-    "matchedCompany": "Pivotal",
-    "matchedCompanies": [
-      "Pivotal"
-    ],
-    "sectors": [
-      "transportation"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "Invalid Date"
   }
 ]
