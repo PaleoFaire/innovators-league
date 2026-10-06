@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 2.9,
+      "avg_change": 2.73,
       "count": 1
     },
     "space": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 0.24,
+      "avg_change": 2.44,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": 0.07,
+      "avg_change": 0.04,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.94,
+      "avg_change": 3.89,
       "count": 3
     },
     "climate": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 2.02,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.44,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -2.39,
+      "avg_change": -2.98,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 5.97,
+      "avg_change": 5.93,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 2.21,
+      "avg_change": 2.41,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.3,
+      "avg_change": 7.04,
       "count": 3
     }
   },
@@ -66,12 +66,12 @@
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      14.02
+      14.89
     ],
     [
       "PL",
       "Planet Labs",
-      12.52
+      13.37
     ],
     [
       "277810.KQ",
@@ -81,35 +81,35 @@
     [
       "ALAB",
       "Astera Labs",
-      8.41
+      8.93
     ]
   ],
   "topLosers": [
     [
-      "JOBY",
-      "Joby Aviation",
-      -3.67
+      "QBTS",
+      "D-Wave Quantum",
+      -3.9
     ],
     [
       "ACHR",
       "Archer Aviation",
-      -7.81
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -10.9
-    ],
-    [
-      "TEM",
-      "Tempus AI",
-      -11.86
+      -8.1
     ],
     [
       "ASRHF",
       "Astroscale",
-      -23.05
+      -9.2
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -11.53
+    ],
+    [
+      "TEM",
+      "Tempus AI",
+      -12.84
     ]
   ],
-  "lastUpdated": "2026-10-06 18:57:17"
+  "lastUpdated": "2026-10-06 23:07:17"
 }
