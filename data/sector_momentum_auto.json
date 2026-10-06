@@ -1,21 +1,21 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 45,
-    "trend": "steady",
+    "momentum": 53,
+    "trend": "accelerating",
     "catalysts": [
-      "What are humanoid robots actually for on the battlefield?",
-      "ARX Robotics and Roboneers step up UGV collaboration for Ukr",
-      "Hasta la vista, baby \u2013\u00a0Figure F.02 humanoid robots decommiss"
+      "Form Energy and its iron batteries",
+      "X-energy and its helium-cooled nuclear reactors",
+      "Brimstone and its one-stop process for making cleaner cement"
     ],
     "fundingQ": "$1.4B",
     "components": {
-      "funding": 72,
-      "news": 40,
+      "funding": 76,
+      "news": 65,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-05"
+    "lastUpdated": "2026-10-06"
   },
   {
     "sector": "Transportation",
@@ -31,29 +31,29 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-05"
+    "lastUpdated": "2026-10-06"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 26,
+    "momentum": 29,
     "trend": "rising",
     "catalysts": [
-      "SpaceX Falcon 9 Competitors  Might Have Flight in 2027",
-      "Heading Home: NASA\u2019s SpaceX Crew-12 Concludes Station Scienc",
-      "Rocket Report: SpaceX completes launch triple-header; Rocket"
+      "NASA to Stream SpaceX Crew-12 Return, Splashdown Live",
+      "SpaceX\u2019s AI Build Speed Will Make Wall Street Wrong Again",
+      "OpenAI launches visual ads that appear alongside image gener"
     ],
     "fundingQ": "$259M",
     "components": {
       "funding": 15,
       "news": 65,
       "hiring": 0,
-      "market": 23
+      "market": 36
     },
-    "lastUpdated": "2026-10-05"
+    "lastUpdated": "2026-10-06"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 23,
+    "momentum": 26,
     "trend": "declining",
     "catalysts": [
       "Neros, Perennial Autonomy lead in Pentagon\u2019s drone competiti",
@@ -65,63 +65,97 @@
       "funding": 21,
       "news": 25,
       "hiring": 0,
-      "market": 45
+      "market": 60
     },
-    "lastUpdated": "2026-10-05"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 19,
-    "trend": "declining",
-    "catalysts": [
-      "OpenAI safety employee resigns, claiming the company\u2019s \u2018cult",
-      "Claude Sonnet 5.5 Versus OpenAI GPT 6.1 Sol",
-      "China-linked hackers posed as former US officials, Anthropic"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 35,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-05"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 19,
-    "trend": "declining",
-    "catalysts": [
-      "STAT+: Divergent trial results on cancer vaccines have the f",
-      "Runway introduces Praxis-1 world action model for robotics",
-      "Boston Dynamics drops pinkie on new humanoid hand"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 35,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-05"
+    "lastUpdated": "2026-10-06"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 15,
+    "momentum": 25,
     "trend": "declining",
     "catalysts": [
+      "OpenAI launches visual ads that appear alongside image gener",
       "What are humanoid robots actually for on the battlefield?",
-      "STAT+: Divergent trial results on cancer vaccines have the f",
-      "Claude Sonnet 5.5 Versus OpenAI GPT 6.1 Sol"
+      "STAT+: Divergent trial results on cancer vaccines have the f"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 20,
       "hiring": 0,
-      "market": 52
+      "market": 100
     },
-    "lastUpdated": "2026-10-05"
+    "lastUpdated": "2026-10-06"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 24,
+    "trend": "declining",
+    "catalysts": [
+      "Form Energy and its iron batteries",
+      "X-energy and its helium-cooled nuclear reactors",
+      "With federal funding windfall, X-energy advances small nucle"
+    ],
+    "fundingQ": "$135M",
+    "components": {
+      "funding": 11,
+      "news": 30,
+      "hiring": 0,
+      "market": 63
+    },
+    "lastUpdated": "2026-10-06"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 24,
+    "trend": "rising",
+    "catalysts": [
+      "Type One Energy raised $200M to build a fusion power plant b",
+      "Teradyne invests in Bright Machines to bring robotics to AI",
+      "SpaceX\u2019s AI Build Speed Will Make Wall Street Wrong Again"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 55,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-06"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "Teradyne invests in Bright Machines to bring robotics to AI",
+      "OpenAI will start watermarking ChatGPT&#8217;s text in the E",
+      "Etched fields funding offers at $40B+ valuation, sources say"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 40,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-06"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 19,
+    "trend": "declining",
+    "catalysts": [
+      "Etched fields funding offers at $40B+ valuation, sources say"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 88
+    },
+    "lastUpdated": "2026-10-06"
   },
   {
     "sector": "Drones & Autonomous",
@@ -139,55 +173,74 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-05"
+    "lastUpdated": "2026-10-06"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 10,
+    "sector": "Infrastructure & Logistics",
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "Active chips & semiconductors ecosystem"
+      "Type One Energy raised $200M to build a fusion power plant b",
+      "Teradyne invests in Bright Machines to bring robotics to AI"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 10,
       "hiring": 0,
-      "market": 52
+      "market": 50
     },
-    "lastUpdated": "2026-10-05"
+    "lastUpdated": "2026-10-06"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 10,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Active supersonic & hypersonic ecosystem"
+      "Teradyne invests in Bright Machines to bring robotics to AI"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-05"
+    "lastUpdated": "2026-10-06"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 10,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Active housing & construction ecosystem"
+      "SpaceX\u2019s AI Build Speed Will Make Wall Street Wrong Again"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-05"
+    "lastUpdated": "2026-10-06"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Type One Energy raised $200M to build a fusion power plant b",
+      "X-energy and its helium-cooled nuclear reactors",
+      "With federal funding windfall, X-energy advances small nucle"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 20
+    },
+    "lastUpdated": "2026-10-06"
   },
   {
     "sector": "Ocean & Maritime",
@@ -203,59 +256,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-05"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active infrastructure & logistics ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-05"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 9,
-    "trend": "declining",
-    "catalysts": [
-      "With federal funding windfall, X-energy advances small nucle",
-      "Mazama Energy raises $135M for superhot geothermal at Oregon",
-      "xAI has quietly built a massive battery at its Memphis data"
-    ],
-    "fundingQ": "$135M",
-    "components": {
-      "funding": 11,
-      "news": 20,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-10-05"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 4,
-    "trend": "declining",
-    "catalysts": [
-      "With federal funding windfall, X-energy advances small nucle",
-      "The Atlantic Brief: U.S. and European Perspectives on Nuclea",
-      "Forced Into the Right Decision? A Look at U.S. Land-Based De"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-10-05"
+    "lastUpdated": "2026-10-06"
   },
   {
     "sector": "Quantum Computing",
@@ -271,6 +272,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-05"
+    "lastUpdated": "2026-10-06"
   }
 ]

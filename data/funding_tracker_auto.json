@@ -71,16 +71,16 @@
     "company": "Hadrian",
     "totalRaised": "$1.7B+",
     "totalRaisedRaw": 1700.0,
-    "lastRound": "Series D",
-    "lastRoundAmount": "$1.37B",
-    "lastRoundDate": "2026-08",
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$40M",
+    "lastRoundDate": "2026-10",
     "valuation": "$7.87B",
     "leadInvestors": [
       "Undisclosed",
       "Founders Fund",
       "Lux Capital"
     ],
-    "roundCount": 2
+    "roundCount": 3
   },
   {
     "company": "Shield AI",
@@ -266,6 +266,19 @@
     "valuation": "",
     "leadInvestors": [
       "OpenAI"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Type One Energy",
+    "totalRaised": "$100M+",
+    "totalRaisedRaw": 200.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$200M",
+    "lastRoundDate": "2026-10",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   },

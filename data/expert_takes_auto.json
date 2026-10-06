@@ -1,14 +1,34 @@
 {
-  "generated_at": "2026-10-05T14:20:15.874954Z",
+  "generated_at": "2026-10-06T13:16:44.237469Z",
   "takes": [
     {
-      "author": "Crunchbase News",
+      "author": "TechCrunch",
       "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Oura Hits Pause On IPO While Anthropic\u2019s Prospectus Reveals The Cost Of Its AI Ambitions",
-      "date": "Tue, 29 Se",
+      "company": "Type One Energy",
+      "text": "Type One Energy raised $200M to build a fusion power plant by 2034",
+      "date": "Tue, 06 Oc",
       "source": "news",
-      "source_url": "https://news.crunchbase.com/public/oura-pauses-ipo-anthropics-ai-openai/",
+      "source_url": "https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/",
+      "signal_type": "funding"
+    },
+    {
+      "author": "Tech.eu",
+      "role": "Industry signal",
+      "company": "Hadrian",
+      "text": "Hadrian raises $40M to tackle AI-driven cyber threats",
+      "date": "Tue, 06 Oc",
+      "source": "news",
+      "source_url": "https://tech.eu/2026/10/06/hadrian-raises-40m-to-tackle-ai-driven-cyber-threats/",
+      "signal_type": "funding"
+    },
+    {
+      "author": "Sifted",
+      "role": "Industry signal",
+      "company": "Hadrian",
+      "text": "Exclusive: Hadrian raises $40m as AI cyberattacks accelerate",
+      "date": "Tue, 06 Oc",
+      "source": "news",
+      "source_url": "https://sifted.eu/articles/hadrian-ai-funding-round-cyber-security/",
       "signal_type": "funding"
     },
     {
@@ -20,12 +40,22 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/geothermal/mazama-energy-raises-135m-oregon-geothermal",
       "signal_type": "funding"
+    },
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "Etched",
+      "text": "Etched fields funding offers at $40B+ valuation, sources say",
+      "date": "Mon, 05 Oc",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/",
+      "signal_type": "funding"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 2,
+    "from_news": 5,
     "from_press": 0
   }
 }
