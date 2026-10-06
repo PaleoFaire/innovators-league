@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 0.42,
+      "avg_change": 1.02,
       "count": 1
     },
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -5.21,
+      "avg_change": -4.79,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -1.12,
+      "avg_change": -0.72,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -2.23,
+      "avg_change": -3.33,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -0.36,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 0.86,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.2,
+      "avg_change": -5.14,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 14.97,
+      "avg_change": 15.98,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 1.1,
+      "avg_change": 2.33,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 3.65,
+      "avg_change": 3.82,
       "count": 3
     }
   },
@@ -61,7 +61,7 @@
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      27.76
+      29.19
     ],
     [
       "ONT.L",
@@ -71,34 +71,34 @@
     [
       "DRSHF",
       "DroneShield",
-      14.67
+      11.11
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      10.79
     ],
     [
       "AUR",
       "Aurora Innovation",
-      8.26
-    ],
-    [
-      "TSLA",
-      "Tesla",
-      5.58
+      8.7
     ]
   ],
   "topLosers": [
     [
       "QBTS",
       "D-Wave Quantum",
-      -7.15
+      -6.79
     ],
     [
       "ACHR",
       "Archer Aviation",
-      -7.98
+      -9.23
     ],
     [
       "SATL",
       "Satellogic",
-      -13.72
+      -12.07
     ],
     [
       "ASRHF",
@@ -108,8 +108,8 @@
     [
       "EVTL",
       "Vertical Aerospace",
-      -18.96
+      -18.5
     ]
   ],
-  "lastUpdated": "2026-10-05 16:05:58"
+  "lastUpdated": "2026-10-06 00:51:55"
 }
