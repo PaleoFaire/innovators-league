@@ -1,6 +1,10 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-06 13:02:40 UTC
+// Last updated: 2026-10-07 12:57:05 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Virgin Galactic", form: "4", date: "2026-10-06", description: "xslF345X06/wk-form4_1791318440.xml", isIPO: false, ticker: "SPCE" },
+  { company: "Virgin Galactic", form: "4", date: "2026-10-06", description: "xslF345X06/wk-form4_1791318382.xml", isIPO: false, ticker: "SPCE" },
+  { company: "Virgin Galactic", form: "4", date: "2026-10-06", description: "xslF345X06/wk-form4_1791318323.xml", isIPO: false, ticker: "SPCE" },
+  { company: "Oklo", form: "4", date: "2026-10-06", description: "xslF345X06/wk-form4_1791317271.xml", isIPO: false, ticker: "OKLO" },
   { company: "Palantir Technologies", form: "4", date: "2026-10-05", description: "xslF345X06/wk-form4_1791244812.xml", isIPO: false, ticker: "PLTR" },
   { company: "NuScale Power", form: "4", date: "2026-10-05", description: "xslF345X06/wk-form4_1791230618.xml", isIPO: false, ticker: "SMR" },
   { company: "Oklo", form: "4", date: "2026-10-05", description: "xslF345X06/wk-form4_1791230530.xml", isIPO: false, ticker: "OKLO" },
@@ -47,8 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "IonQ", form: "4", date: "2026-09-25", description: "xslF345X06/wk-form4_1790374066.xml", isIPO: false, ticker: "IONQ" },
   { company: "D-Wave Quantum", form: "4", date: "2026-09-24", description: "xslF345X06/wk-form4_1790283736.xml", isIPO: false, ticker: "QBTS" },
   { company: "Archer Aviation", form: "8-K", date: "2026-09-24", description: "achr-20260924.htm", isIPO: false, ticker: "ACHR" },
-  { company: "Archer Aviation", form: "4", date: "2026-09-23", description: "xslF345X06/form4-09242026_120929.xml", isIPO: false, ticker: "ACHR" },
-  { company: "Aurora Innovation", form: "8-K", date: "2026-09-23", description: "aur-20260923.htm", isIPO: false, ticker: "AUR" },
-  { company: "BlackSky Technology", form: "4", date: "2026-09-22", description: "xslF345X06/wk-form4_1790113165.xml", isIPO: false, ticker: "BKSY" },
-  { company: "BlackSky Technology", form: "4", date: "2026-09-22", description: "xslF345X06/wk-form4_1790113148.xml", isIPO: false, ticker: "BKSY" },
 ];

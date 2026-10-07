@@ -1,22 +1,140 @@
 [
   {
-    "title": "Type One Energy raised $200M to build a fusion power plant by 2034",
-    "link": "https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/",
-    "description": "Type One Energy is betting that its lean approach to fusion power will get a power plant on the grid faster, and investors have rewarded it with $200 million.",
-    "pubDate": "Tue, 06 Oct 2026 12:00:00 +0000",
-    "category": "Climate",
-    "source": "TechCrunch",
+    "title": "OpenAI Wants Its New Agent to Run Your Life. Mine Said It Loved Me",
+    "link": "https://www.wired.com/story/openai-wants-its-new-agent-to-run-your-life-mine-said-it-loved-me/",
+    "description": "Dots are designed to automate online tasks, like buying furniture. In my initial experience, the always-on agent was a bit buggy and couldn’t complete a captcha.",
+    "pubDate": "Wed, 07 Oct 2026 11:00:00 +0000",
+    "category": "Gear",
+    "source": "Wired",
     "feedCategory": "tech",
-    "matchedCompany": "Type One Energy",
+    "matchedCompany": "OpenAI",
     "matchedCompanies": [
-      "Type One Energy"
+      "OpenAI"
     ],
     "sectors": [
-      "nuclear"
+      "ai"
     ],
-    "type": "funding",
-    "impact": "high",
+    "type": "news",
+    "impact": "low",
     "time": "1h ago"
+  },
+  {
+    "title": "NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure",
+    "link": "https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-crs-24-spacecraft-departure/",
+    "description": "After delivering more than 11,000 pounds of supplies, science experiments, and other cargo to the International Space Station for NASA, Northrop Grumman’s Cygnus XL spacecraft is scheduled to depart Friday, Oct. 9, as part of the company’s Commercial Resupply Services-24 mission, or Northrop Grumman",
+    "pubDate": "Tue, 06 Oct 2026 18:31:40 +0000",
+    "category": "Northrop Grumman Commercial Resupply",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "Cover",
+    "matchedCompanies": [
+      "Cover",
+      "Vast",
+      "Axiom Space"
+    ],
+    "sectors": [
+      "construction",
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "18h ago"
+  },
+  {
+    "title": "OpenAI Is Pissing Off a Bunch of Mathematicians—Again",
+    "link": "https://www.wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again/",
+    "description": "“There’s a perception of mobster behavior” from leading AI companies, one mathematician tells WIRED as OpenAI prepares to release more than 100 new solutions to unsolved problems.",
+    "pubDate": "Tue, 06 Oct 2026 17:28:33 +0000",
+    "category": "Science",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "19h ago"
+  },
+  {
+    "title": "Furientis lands $25M from Benchmark to mass-produce low-cost missile interceptors",
+    "link": "https://techcrunch.com/2026/10/06/furientis-lands-25m-from-benchmark-to-mass-produce-low-cost-missile-interceptors/",
+    "description": "The storied Silicon Valley firm makes its first pure defense investment.",
+    "pubDate": "Tue, 06 Oct 2026 16:29:12 +0000",
+    "category": "Startups",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Furientis",
+    "matchedCompanies": [
+      "Furientis",
+      "Firestorm Labs"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "news",
+    "impact": "medium",
+    "time": "20h ago"
+  },
+  {
+    "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+    "link": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+    "description": "\"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\"",
+    "pubDate": "Tue, 06 Oct 2026 16:00:00 +0000",
+    "category": "TC",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "20h ago"
+  },
+  {
+    "title": "A New Neurotech Startup Launches to Rival Sam Altman’s Merge Labs",
+    "link": "https://www.wired.com/story/bridge-neurotech-startup-rival-sam-altman-merge-labs/",
+    "description": "Bridge Neurotech is planning to build a wearable brain-computer interface that uses ultrasound.",
+    "pubDate": "Tue, 06 Oct 2026 15:00:00 +0000",
+    "category": "Science",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Merge Labs",
+    "matchedCompanies": [
+      "Merge Labs"
+    ],
+    "sectors": [
+      "biotech"
+    ],
+    "type": "milestone",
+    "impact": "medium",
+    "time": "21h ago"
+  },
+  {
+    "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+    "link": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+    "description": "",
+    "pubDate": "Tue, 06 Oct 2026 12:21:53 +0000",
+    "category": "AI",
+    "source": "Ars Technica",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1d ago"
   },
   {
     "title": "Form Energy and its iron batteries",
@@ -35,7 +153,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "2h ago"
+    "time": "1d ago"
   },
   {
     "title": "X-energy and its helium-cooled nuclear reactors",
@@ -53,19 +171,17 @@
       "Solugen",
       "Gecko Robotics",
       "Teralta",
-      "CarbonCure Technologies",
-      "Dust"
+      "CarbonCure Technologies"
     ],
     "sectors": [
       "nuclear",
       "climate",
       "robotics",
-      "infrastructure",
-      "ai"
+      "infrastructure"
     ],
     "type": "hire",
     "impact": "low",
-    "time": "2h ago"
+    "time": "1d ago"
   },
   {
     "title": "Brimstone and its one-stop process for making cleaner cement and critical minerals",
@@ -84,57 +200,17 @@
       "Gecko Robotics",
       "KoBold Metals",
       "Mariana Minerals",
-      "Watoga Tech",
-      "Teralta",
-      "Dust"
+      "Watoga Technologies",
+      "Teralta"
     ],
     "sectors": [
       "climate",
       "robotics",
-      "infrastructure",
-      "ai"
+      "infrastructure"
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
-  },
-  {
-    "title": "Hadrian raises $40M to tackle AI-driven cyber threats",
-    "link": "https://tech.eu/2026/10/06/hadrian-raises-40m-to-tackle-ai-driven-cyber-threats/",
-    "description": "Hadrian, an agentic AI offensive securityplatform, has raised $40 million in a funding round co-led by Forgepoint Capital International and Smart Fin. Existing investors HV Capital, Motive Partners, P...",
-    "pubDate": "Tue, 06 Oct 2026 07:00:00 +0000",
-    "category": "Cybersecurity",
-    "source": "Tech.eu",
-    "feedCategory": "startups",
-    "matchedCompany": "Hadrian",
-    "matchedCompanies": [
-      "Hadrian"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "6h ago"
-  },
-  {
-    "title": "Exclusive: Hadrian raises $40m as AI cyberattacks accelerate",
-    "link": "https://sifted.eu/articles/hadrian-ai-funding-round-cyber-security/",
-    "description": "",
-    "pubDate": "Tue, 06 Oct 2026 05:00:14 GMT",
-    "category": "",
-    "source": "Sifted",
-    "feedCategory": "startups",
-    "matchedCompany": "Hadrian",
-    "matchedCompanies": [
-      "Hadrian"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "8h ago"
+    "time": "1d ago"
   },
   {
     "title": "Teradyne invests in Bright Machines to bring robotics to AI infrastructure manufacturing",
@@ -153,67 +229,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "13h ago"
-  },
-  {
-    "title": "NASA to Stream SpaceX Crew-12 Return, Splashdown Live",
-    "link": "https://www.nasa.gov/news-release/nasa-to-stream-spacex-crew-12-return-splashdown-live/",
-    "description": "NASA and SpaceX are targeting no earlier than 8:05 a.m. EDT, Wednesday, Oct. 7, for the undocking of the agency’s SpaceX Crew-12 mission from the International Space Station, pending weather conditions. An Oct. 7 undock puts NASA astronauts Jessica Meir and Jack Hathaway, ESA (European Space Agency)",
-    "pubDate": "Mon, 05 Oct 2026 21:44:40 +0000",
-    "category": "Humans in Space",
-    "source": "NASA Breaking News",
-    "feedCategory": "space",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Vast",
-      "Axiom Space",
-      "PLD Space"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "15h ago"
-  },
-  {
-    "title": "OpenAI will start watermarking ChatGPT&#8217;s text in the EU",
-    "link": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-    "description": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
-    "pubDate": "Mon, 05 Oct 2026 20:36:48 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "16h ago"
-  },
-  {
-    "title": "Etched fields funding offers at $40B+ valuation, sources say",
-    "link": "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/",
-    "description": "Just a couple of months after its last big raise, the AI chip startup is already being plied with investment offers at double or more its current value, sources tell TechCrunch.",
-    "pubDate": "Mon, 05 Oct 2026 20:24:09 +0000",
-    "category": "Startups",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Etched",
-    "matchedCompanies": [
-      "Etched"
-    ],
-    "sectors": [
-      "chips"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "16h ago"
+    "time": "1d ago"
   },
   {
     "title": "SpaceX’s AI Build Speed Will Make Wall Street Wrong Again",
@@ -233,87 +249,6 @@
       "ai"
     ],
     "type": "ipo",
-    "impact": "low",
-    "time": "19h ago"
-  },
-  {
-    "title": "OpenAI launches visual ads that appear alongside image generation results",
-    "link": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
-    "description": "The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers.",
-    "pubDate": "Mon, 05 Oct 2026 15:14:24 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "milestone",
-    "impact": "medium",
-    "time": "21h ago"
-  },
-  {
-    "title": "What are humanoid robots actually for on the battlefield?",
-    "link": "https://breakingdefense.com/2026/10/what-are-humanoid-robots-actually-for-on-the-battlefield/",
-    "description": "Despite their cinematic, sci-fi allure, humanoid robots could potentially address real manpower and survivability problems, a former Turkish general argues.",
-    "pubDate": "Mon, 05 Oct 2026 13:45:33 +0000",
-    "category": "Land Warfare",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "Humanoid",
-    "matchedCompanies": [
-      "Humanoid",
-      "PILGRIM"
-    ],
-    "sectors": [
-      "robotics",
-      "defense"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "23h ago"
-  },
-  {
-    "title": "STAT+: Divergent trial results on cancer vaccines have the field grappling with hard questions",
-    "link": "https://www.statnews.com/2026/10/05/cancer-vaccines-mrna-clinical-trials/?utm_campaign=rss",
-    "description": "A melanoma vaccine succeeded in a late-stage clinical trial. The question now is whether other cancer vaccines will work — and whether mRNA is up to the task.",
-    "pubDate": "Mon, 05 Oct 2026 08:30:00 +0000",
-    "category": "Biotech",
-    "source": "STAT News",
-    "feedCategory": "biotech",
-    "matchedCompany": "Divergent",
-    "matchedCompanies": [
-      "Divergent"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "ARX Robotics and Roboneers step up UGV collaboration for Ukraine’s battlefield",
-    "link": "https://tech.eu/2026/10/04/arx-robotics-and-roboneers-step-up-ugv-collaboration-for-ukraines-battlefield/",
-    "description": "German defencetech ARX Robotics has agreed to an intensive collaboration with Ukrainian defencetech company Roboneers by establishing a strategic partnership for unmanned land warfare.   Both parties ...",
-    "pubDate": "Sun, 04 Oct 2026 23:01:00 +0000",
-    "category": "Defencetech",
-    "source": "Tech.eu",
-    "feedCategory": "startups",
-    "matchedCompany": "Roboneers",
-    "matchedCompanies": [
-      "Roboneers",
-      "PILGRIM",
-      "H Company"
-    ],
-    "sectors": [
-      "defense",
-      "ai"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "1d ago"
   },
@@ -335,25 +270,6 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Hasta la vista, baby – Figure F.02 humanoid robots decommissioned, T2-style",
-    "link": "https://electrek.co/2026/10/03/hasta-la-vista-baby-figure-f-02-humanoid-robots-decommissioned-t2-style/",
-    "description": "Decommissioning humanoid robots that are packed with proprietary tech is a tricky thing – you want to make sure none of the expensive raw material goes to waste, but you also need to make sure no one else gets a hold of your tech. The solution? Have your robots hurl themselves into a vat of molten s",
-    "pubDate": "Sat, 03 Oct 2026 19:31:13 +0000",
-    "category": "News",
-    "source": "Electrek",
-    "feedCategory": "autonomous",
-    "matchedCompany": "Humanoid",
-    "matchedCompanies": [
-      "Humanoid"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
     "time": "2d ago"
   },
   {
@@ -373,7 +289,26 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
+  },
+  {
+    "title": "French Air Force plans loyal wingman flight in 2028 in sovereign AI push",
+    "link": "https://www.defensenews.com/global/europe/2026/10/02/french-air-force-plans-loyal-wingman-flight-in-2028-in-sovereign-ai-push/",
+    "description": "The French Air Force plans to fly crewed fighter jets in collaboration with AI-powered combat drones in 2028, under project Hypairion.",
+    "pubDate": "Fri, 02 Oct 2026 13:59:10 +0000",
+    "category": "/ Europe",
+    "source": "Defense News",
+    "feedCategory": "defense",
+    "matchedCompany": "AIR",
+    "matchedCompanies": [
+      "AIR"
+    ],
+    "sectors": [
+      "autonomous"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "4d ago"
   },
   {
     "title": "Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract",
@@ -393,7 +328,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "SpaceX describes surgical intervention before launch of latest crew mission",
@@ -405,16 +340,14 @@
     "feedCategory": "space",
     "matchedCompany": "SpaceX",
     "matchedCompanies": [
-      "SpaceX",
-      "Vention"
+      "SpaceX"
     ],
     "sectors": [
-      "space",
-      "robotics"
+      "space"
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Each SpaceX 250 Kilowatt Starlink AI Satellite Is More Power Than the Space Station",
@@ -435,7 +368,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Claude Sonnet 5.5 Versus OpenAI GPT 6.1 Sol",
@@ -454,70 +387,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "Boston Dynamics drops pinkie on new humanoid hand",
-    "link": "https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/",
-    "description": "Boston Dynamics engineers taped their pinkies and ring fingers together for a day to learn what they weren’t able to do.\nThe post Boston Dynamics drops pinkie on new humanoid hand appeared first on The Robot Report.",
-    "pubDate": "Thu, 01 Oct 2026 17:52:51 +0000",
-    "category": "Arms / Manipulators",
-    "source": "The Robot Report",
-    "feedCategory": "robotics",
-    "matchedCompany": "Humanoid",
-    "matchedCompanies": [
-      "Humanoid"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "Precision In Motion. Vishay Precision Group, Inc. (VPG) to Showcase Custom Sensing Capabilities for Humanoid Robotics at RoboBusiness 2026",
-    "link": "https://www.therobotreport.com/precision-in-motion-vishay-precision-group-inc-vpg-to-showcase-custom-sensing-capabilities-for-humanoid-robotics-at-robobusiness-2026/",
-    "description": "As humanoid robots move from research labs into factories, warehouses, homes, and other shared spaces, accurate physical feedback becomes crucial.\nThe post Precision In Motion. Vishay Precision Group, Inc. (VPG) to Showcase Custom Sensing Capabilities for Humanoid Robotics at RoboBusiness 2026 appea",
-    "pubDate": "Thu, 01 Oct 2026 15:29:55 +0000",
-    "category": "Sponsored Content",
-    "source": "The Robot Report",
-    "feedCategory": "robotics",
-    "matchedCompany": "Humanoid",
-    "matchedCompanies": [
-      "Humanoid",
-      "Atomic Industries"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "hire",
-    "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "Neros, Perennial Autonomy lead in Pentagon’s drone competition",
-    "link": "https://www.defensenews.com/unmanned/2026/10/01/neros-perennial-autonomy-lead-in-pentagons-drone-competition/",
-    "description": "Two companies scored highest during the second phase of a Pentagon competition to find companies that can produce high-quality, low-cost commercial drones.",
-    "pubDate": "Thu, 01 Oct 2026 14:02:08 +0000",
-    "category": "Unmanned",
-    "source": "Defense News",
-    "feedCategory": "defense",
-    "matchedCompany": "Neros",
-    "matchedCompanies": [
-      "Neros",
-      "Thoron",
-      "Firestorm Labs",
-      "Durin"
-    ],
-    "sectors": [
-      "defense",
-      "autonomous",
-      "infrastructure"
-    ],
-    "type": "contract",
-    "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "China-linked hackers posed as former US officials, Anthropic employee to target AI experts",
@@ -536,34 +406,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5d ago"
-  },
-  {
-    "title": "ANYbotics launches Shift to streamline robot fleet operations, scale inspections",
-    "link": "https://www.therobotreport.com/anybotics-launches-shift-streamline-robot-fleet-operations-scale-autonomous-inspections/",
-    "description": "ANYbotics designed Shift to help maintenance teams run industrial inspections, detect failing equipment, and turn data into work orders.\nThe post ANYbotics launches Shift to streamline robot fleet operations, scale inspections appeared first on The Robot Report.",
-    "pubDate": "Thu, 01 Oct 2026 07:59:59 +0000",
-    "category": "Artificial Intelligence",
-    "source": "The Robot Report",
-    "feedCategory": "robotics",
-    "matchedCompany": "ANYbotics",
-    "matchedCompanies": [
-      "ANYbotics",
-      "Karman Industries",
-      "Solugen",
-      "Gecko Robotics",
-      "Teralta",
-      "Dust"
-    ],
-    "sectors": [
-      "robotics",
-      "climate",
-      "infrastructure",
-      "ai"
-    ],
-    "type": "milestone",
-    "impact": "medium",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "NaviGate successfully demonstrates onboard precise orbit determination aboard D-Orbit’s ION Satellite Carrier",
@@ -582,26 +425,26 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
-    "title": "H Company cofounder Charles Kantor launches new AI neocloud startup",
-    "link": "https://sifted.eu/articles/h-company-cofounder-charles-kantor-new-ai-neocloud-startup/",
-    "description": "",
-    "pubDate": "Wed, 30 Sep 2026 14:00:57 GMT",
-    "category": "",
-    "source": "Sifted",
-    "feedCategory": "startups",
-    "matchedCompany": "H Company",
+    "title": "Quantum Space Executes Launch Processing Agreement with All Points Logistics for Prime Mission",
+    "link": "https://spacenews.com/quantum-space-executes-launch-processing-agreement-with-all-points-logistics-for-prime-mission/",
+    "description": "\nROCKVILLE, Md. and MERRITT ISLAND, Fla. — September 30, 2026 — Quantum Space, LLC (the “Company” or “Quantum Space”), a company developing the next generation of advanced maneuverable spacecraft for [&#8230;]\nThe post Quantum Space Executes Launch Processing Agreement with All Points Logistics for ",
+    "pubDate": "Wed, 30 Sep 2026 13:00:00 +0000",
+    "category": "Press Release",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Quantum Space",
     "matchedCompanies": [
-      "H Company"
+      "Quantum Space"
     ],
     "sectors": [
-      "ai"
+      "space"
     ],
-    "type": "milestone",
-    "impact": "medium",
-    "time": "5d ago"
+    "type": "ipo",
+    "impact": "low",
+    "time": "6d ago"
   },
   {
     "title": "Terran Orbital Names Jamin Brown Chief Operating Officer",
@@ -617,18 +460,16 @@
       "Hadrian",
       "AnySignal",
       "Elodin",
-      "Orbital Composites",
-      "Dust"
+      "Orbital Composites"
     ],
     "sectors": [
       "space",
       "robotics",
-      "infrastructure",
-      "ai"
+      "infrastructure"
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "6d ago"
+    "time": "9/29/2026"
   },
   {
     "title": "Tesla (TSLA) wins SEC OK to auto-vote retail shares with board ahead of SpaceX merger",
@@ -647,7 +488,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "6d ago"
+    "time": "9/29/2026"
   },
   {
     "title": "Anthropic loses legal fight to shed DOD's designation as a 'supply-chain risk'",
@@ -697,35 +538,14 @@
     "feedCategory": "energy",
     "matchedCompany": "Mazama",
     "matchedCompanies": [
-      "Mazama",
-      "Zama"
+      "Mazama"
     ],
     "sectors": [
-      "climate",
-      "ai"
+      "climate"
     ],
     "type": "funding",
     "impact": "high",
     "time": "9/17/2026"
-  },
-  {
-    "title": "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence",
-    "link": "https://warontherocks.com/the-atlantic-brief-u-s-and-european-perspectives-on-nuclear-deterrence/",
-    "description": "Date: Wednesday, Sept. 23, 2026Time: 12:00-1:00 PM ETThe second joint webinar by RUSI and War on the Rocks: Two leading defense publications from both sides of the Atlantic present their expert panel.&#160;OverviewFor this edition of The Atlantic Brief, the Royal United Services Institute and War on",
-    "pubDate": "Tue, 15 Sep 2026 18:45:59 +0000",
-    "category": "Members",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Deterrence",
-    "matchedCompanies": [
-      "Deterrence"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "9/15/2026"
   },
   {
     "title": "xAI has quietly built a massive battery at its Memphis data center hub",
@@ -748,62 +568,5 @@
     "type": "news",
     "impact": "low",
     "time": "9/11/2026"
-  },
-  {
-    "title": "Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture",
-    "link": "https://warontherocks.com/forced-into-the-right-decision-a-look-at-u-s-land-based-deterrence-posture/",
-    "description": "In 2019, Steve Fetter wrote &#8220;A Cheaper Nuclear Sponge,&#8221; in which he argued that building a new intercontinental ballistic missile (ICBM) was unnecessary for strengthening U.S. land-based deterrence. After several years of changing defense budgets and strategic priorities, we asked Steve ",
-    "pubDate": "Wed, 09 Sep 2026 17:30:23 +0000",
-    "category": "Members",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Deterrence",
-    "matchedCompanies": [
-      "Deterrence"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "9/9/2026"
-  },
-  {
-    "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
-    "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
-    "description": "",
-    "pubDate": "Fri, 04 Sep 2026 22:17:36 +0000",
-    "category": "AI",
-    "source": "Ars Technica",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "9/4/2026"
-  },
-  {
-    "title": "Sage Geosystems brings its first next-gen geothermal plant online",
-    "link": "https://www.canarymedia.com/articles/geothermal/sage-geosystems-next-gen-geothermal-online",
-    "description": "",
-    "pubDate": "Wed, 19 Aug 2026 07:00:00 -0400",
-    "category": "",
-    "source": "Canary Media",
-    "feedCategory": "energy",
-    "matchedCompany": "Sage Geosystems",
-    "matchedCompanies": [
-      "Sage Geosystems"
-    ],
-    "sectors": [
-      "climate"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "8/19/2026"
   }
 ]

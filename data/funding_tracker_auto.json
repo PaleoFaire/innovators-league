@@ -71,16 +71,16 @@
     "company": "Hadrian",
     "totalRaised": "$1.7B+",
     "totalRaisedRaw": 1700.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$40M",
-    "lastRoundDate": "2026-10",
+    "lastRound": "Series D",
+    "lastRoundAmount": "$1.37B",
+    "lastRoundDate": "2026-08",
     "valuation": "$7.87B",
     "leadInvestors": [
       "Undisclosed",
       "Founders Fund",
       "Lux Capital"
     ],
-    "roundCount": 3
+    "roundCount": 2
   },
   {
     "company": "Shield AI",
@@ -266,6 +266,20 @@
     "valuation": "",
     "leadInvestors": [
       "OpenAI"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Neros",
+    "totalRaised": "$250M",
+    "totalRaisedRaw": 250.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$250M",
+    "lastRoundDate": "2026-08",
+    "valuation": "$2.5B",
+    "leadInvestors": [
+      "Sequoia Capital",
+      "American Strategic Technology Fund"
     ],
     "roundCount": 1
   },
@@ -467,6 +481,20 @@
     "roundCount": 1
   },
   {
+    "company": "Furientis",
+    "totalRaised": "$30M",
+    "totalRaisedRaw": 55.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$25M",
+    "lastRoundDate": "2026-10",
+    "valuation": "",
+    "leadInvestors": [
+      "Benchmark",
+      "Silent Ventures"
+    ],
+    "roundCount": 3
+  },
+  {
     "company": "Corvus Robotics",
     "totalRaised": "$48M+",
     "totalRaisedRaw": 48.0,
@@ -519,20 +547,6 @@
     "roundCount": 1
   },
   {
-    "company": "Furientis",
-    "totalRaised": "$30M",
-    "totalRaisedRaw": 30.0,
-    "lastRound": "Series A",
-    "lastRoundAmount": "$25M",
-    "lastRoundDate": "2026-08",
-    "valuation": "",
-    "leadInvestors": [
-      "Benchmark",
-      "Silent Ventures"
-    ],
-    "roundCount": 2
-  },
-  {
     "company": "Andrenam",
     "totalRaised": "$18M",
     "totalRaisedRaw": 18.0,
@@ -580,19 +594,6 @@
     "lastRound": "Funding Round",
     "lastRoundAmount": "$7M",
     "lastRoundDate": "2026-08",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "SpaceX",
-    "totalRaised": "$8M+",
-    "totalRaisedRaw": 8.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$8M",
-    "lastRoundDate": "2026-10",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"

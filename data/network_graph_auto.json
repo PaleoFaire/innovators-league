@@ -5811,6 +5811,96 @@
       "thesisCluster": ""
     },
     {
+      "id": "Skyways",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Neurophos",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Phantom Neuro",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Scalvy",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Infinitum",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Coco Robotics",
+      "sector": "Drones & Autonomous",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Nervonik",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Maven Robotics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "APOLINK",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "EnCharge AI",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Aseon Labs",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "xLight",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "TeraWatt Technology",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Zendar",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Xscape Photonics",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Easy Aerial",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Monumental Labs",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Glacier",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
       "id": "SpaceX-alumni-hub",
       "sector": "alumni",
       "thesisCluster": ""
@@ -6984,42 +7074,6 @@
       "cluster": "space-communications"
     },
     {
-      "src": "Archer Aviation",
-      "dst": "Joby Aviation",
-      "type": "thesis",
-      "cluster": "evtol-air-taxi"
-    },
-    {
-      "src": "Joby Aviation",
-      "dst": "Vertical Aerospace",
-      "type": "thesis",
-      "cluster": "evtol-air-taxi"
-    },
-    {
-      "src": "Joby Aviation",
-      "dst": "Skyryse",
-      "type": "thesis",
-      "cluster": "evtol-air-taxi"
-    },
-    {
-      "src": "Archer Aviation",
-      "dst": "Vertical Aerospace",
-      "type": "thesis",
-      "cluster": "evtol-air-taxi"
-    },
-    {
-      "src": "Archer Aviation",
-      "dst": "Skyryse",
-      "type": "thesis",
-      "cluster": "evtol-air-taxi"
-    },
-    {
-      "src": "Skyryse",
-      "dst": "Vertical Aerospace",
-      "type": "thesis",
-      "cluster": "evtol-air-taxi"
-    },
-    {
       "src": "Apex Space",
       "dst": "Zenno Astronautics",
       "type": "thesis",
@@ -7234,132 +7288,6 @@
       "dst": "Orb Aerospace",
       "type": "thesis",
       "cluster": "tactical-comms"
-    },
-    {
-      "src": "Pipedream",
-      "dst": "The Boring Company",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Fortastra",
-      "dst": "The Boring Company",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "The Boring Company",
-      "dst": "Wardstone",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Dexterity",
-      "dst": "The Boring Company",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Outrider",
-      "dst": "The Boring Company",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Parallel Systems",
-      "dst": "The Boring Company",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Fortastra",
-      "dst": "Pipedream",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Pipedream",
-      "dst": "Wardstone",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Dexterity",
-      "dst": "Pipedream",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Outrider",
-      "dst": "Pipedream",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Parallel Systems",
-      "dst": "Pipedream",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Fortastra",
-      "dst": "Wardstone",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Dexterity",
-      "dst": "Fortastra",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Fortastra",
-      "dst": "Outrider",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Fortastra",
-      "dst": "Parallel Systems",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Dexterity",
-      "dst": "Wardstone",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Outrider",
-      "dst": "Wardstone",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Parallel Systems",
-      "dst": "Wardstone",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Dexterity",
-      "dst": "Outrider",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Dexterity",
-      "dst": "Parallel Systems",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
-    },
-    {
-      "src": "Outrider",
-      "dst": "Parallel Systems",
-      "type": "thesis",
-      "cluster": "logistics-supply-chain"
     },
     {
       "src": "Lux Aeterna",
@@ -8916,6 +8844,42 @@
       "cluster": "autonomy-delivery-logistics"
     },
     {
+      "src": "Archer Aviation",
+      "dst": "Joby Aviation",
+      "type": "thesis",
+      "cluster": "evtol-air-taxi"
+    },
+    {
+      "src": "Joby Aviation",
+      "dst": "Vertical Aerospace",
+      "type": "thesis",
+      "cluster": "evtol-air-taxi"
+    },
+    {
+      "src": "Joby Aviation",
+      "dst": "Skyryse",
+      "type": "thesis",
+      "cluster": "evtol-air-taxi"
+    },
+    {
+      "src": "Archer Aviation",
+      "dst": "Vertical Aerospace",
+      "type": "thesis",
+      "cluster": "evtol-air-taxi"
+    },
+    {
+      "src": "Archer Aviation",
+      "dst": "Skyryse",
+      "type": "thesis",
+      "cluster": "evtol-air-taxi"
+    },
+    {
+      "src": "Skyryse",
+      "dst": "Vertical Aerospace",
+      "type": "thesis",
+      "cluster": "evtol-air-taxi"
+    },
+    {
       "src": "Cerebras",
       "dst": "Extropic",
       "type": "thesis",
@@ -9094,6 +9058,132 @@
       "dst": "Monumental",
       "type": "thesis",
       "cluster": "construction-modular"
+    },
+    {
+      "src": "Pipedream",
+      "dst": "The Boring Company",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Fortastra",
+      "dst": "The Boring Company",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "The Boring Company",
+      "dst": "Wardstone",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Dexterity",
+      "dst": "The Boring Company",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Outrider",
+      "dst": "The Boring Company",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Parallel Systems",
+      "dst": "The Boring Company",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Fortastra",
+      "dst": "Pipedream",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Pipedream",
+      "dst": "Wardstone",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Dexterity",
+      "dst": "Pipedream",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Outrider",
+      "dst": "Pipedream",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Parallel Systems",
+      "dst": "Pipedream",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Fortastra",
+      "dst": "Wardstone",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Dexterity",
+      "dst": "Fortastra",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Fortastra",
+      "dst": "Outrider",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Fortastra",
+      "dst": "Parallel Systems",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Dexterity",
+      "dst": "Wardstone",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Outrider",
+      "dst": "Wardstone",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Parallel Systems",
+      "dst": "Wardstone",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Dexterity",
+      "dst": "Outrider",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Dexterity",
+      "dst": "Parallel Systems",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
+    },
+    {
+      "src": "Outrider",
+      "dst": "Parallel Systems",
+      "type": "thesis",
+      "cluster": "logistics-supply-chain"
     },
     {
       "src": "Arc Boats",
@@ -10895,10 +10985,10 @@
     }
   ],
   "counts": {
-    "total_nodes": 1228,
-    "total_edges": 906,
-    "competitor_edges": 196,
-    "thesis_edges": 702,
+    "total_nodes": 1186,
+    "total_edges": 875,
+    "competitor_edges": 191,
+    "thesis_edges": 676,
     "alumni_edges": 8
   }
 }
