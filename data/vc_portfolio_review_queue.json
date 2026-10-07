@@ -9276,17 +9276,15 @@
     ],
     "fund_overlap": 0.157,
     "needs_check": false,
-    "possible_match": [
-      "Astrolight"
-    ],
+    "possible_match": [],
     "listed_by": 1,
     "since": "2026-09-25",
     "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "duplicate",
+    "status": "rejected",
     "source_list": "vc-portfolio-watcher",
     "matched_record": "Astrolight",
     "reviewed_at": "2026-09-25",
-    "review_note": "Same company as the tracked record: the fund links an older or alternate domain that redirects to, or belongs to, ours."
+    "review_note": "Cut from the database 2026-10-07 (high-bar audit). The record is in data/cut_companies_archive.json."
   },
   {
     "name": "Hubblenetwork",

@@ -20,7 +20,6 @@
     "Q-Factor",
     "ADASI",
     "Akaer",
-    "RoboTwin",
     "Svante",
     "Scout Space"
   ],
@@ -1525,69 +1524,6 @@
       "notes": "Founded year 2024 and Seed stage from database entry could not be verified in provided sources. No funding information found in sources. Will Blyth listed as CO-FOUNDER & CEO; Rob Underhill listed as CO-FOUNDER & CTO in source [0]."
     },
     {
-      "name": "Nordic Air Defence",
-      "current": {
-        "name": "Nordic Air Defence",
-        "founder": "Karl Rosander",
-        "location": "Stockholm, Sweden",
-        "founded": 2023,
-        "fundingStage": "Seed",
-        "totalRaised": "Undisclosed",
-        "website": null
-      },
-      "verified": {
-        "name": "Nordic Air Defence",
-        "description": "A hardware-software defence technology company that develops the Kreuger 100, a dual-use drone interceptor platform designed for military and civil applications.",
-        "founders": null,
-        "location": "Stockholm, Sweden",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://nordicairdefence.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "location": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Founder name 'Karl Rosander' from database entry could not be verified in provided sources. Founded year 2023, seed stage, and funding details from database entry could not be verified in provided sources. Product name 'Kreuger 100' confirmed; described as patent-pending and made in Sweden."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://nordicairdefence.com",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://nordicairdefence.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://nordicairdefence.com/about"
-        }
-      ],
-      "notes": "Founder name 'Karl Rosander' from database entry could not be verified in provided sources. Founded year 2023, seed stage, and funding details from database entry could not be verified in provided sources. Product name 'Kreuger 100' confirmed; described as patent-pending and made in Sweden."
-    },
-    {
       "name": "Kvertus",
       "current": {
         "name": "Kvertus",
@@ -1808,63 +1744,6 @@
       "notes": "Founded 2006; company claims '20-year legacy' as of 2026. Production plant opening in Slovakia confirmed for 2024. No founder names explicitly identified in sources. Roman Knyazhenko mentioned in database entry but not verified in provided sources."
     },
     {
-      "name": "Ark Robotics",
-      "current": {
-        "name": "Ark Robotics",
-        "founder": "Achi Takagama",
-        "location": "Kyiv, Ukraine",
-        "founded": 2024,
-        "fundingStage": "Seed",
-        "totalRaised": "Undisclosed",
-        "website": null
-      },
-      "verified": {
-        "name": "Ark Robotics",
-        "description": "Infrastructure layer for mass robotics providing Frontier OS, a mission-level autonomy platform for connected robotic fleets with secure, networked command and control.",
-        "founders": null,
-        "location": "Kyiv, Ukraine",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://ark-robotics.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Founder name 'Achi Takagama' from database entry could not be verified in source. Founded year 2024 and seed stage from database entry could not be verified in source. Source [0] mentions live demonstration at DALO Expo Denmark 2025 and control range of 2,000 kilometres, but does not specify founding year, stage, or funding information. No founder names explicitly listed as founders/co-founders in source."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://ark-robotics.com",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://ark-robotics.com"
-        }
-      ],
-      "notes": "Founder name 'Achi Takagama' from database entry could not be verified in source. Founded year 2024 and seed stage from database entry could not be verified in source. Source [0] mentions live demonstration at DALO Expo Denmark 2025 and control range of 2,000 kilometres, but does not specify founding year, stage, or funding information. No founder names explicitly listed as founders/co-founders in source."
-    },
-    {
       "name": "WB Group",
       "current": {
         "name": "WB Group",
@@ -1959,63 +1838,6 @@
         }
       ],
       "notes": "Wikipedia lists founded year as 1997, not 2007 as in database entry. Key person listed as Piotr Wojciechowski but not explicitly named as founder in Wikipedia (only in Key people section). Polish Development Fund invested PLN 128 million (EUR 30 million or USD 34 million) in 2017 for 24% of shares. No IPO or Pre-IPO status verified in sources. Current stage cannot be verified."
-    },
-    {
-      "name": "Astrolight",
-      "current": {
-        "name": "Astrolight",
-        "founder": "Laurynas Mačiulis",
-        "location": "Vilnius, Lithuania",
-        "founded": 2019,
-        "fundingStage": "Seed",
-        "totalRaised": "€2.8M",
-        "website": null
-      },
-      "verified": {
-        "name": "Astrolight",
-        "description": "Developer of laser communication terminals for space-to-ground and space-to-space applications, including the ATLAS-2 terminal and optical ground stations for defense and space applications.",
-        "founders": null,
-        "location": "Vilnius, Lithuania",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://astrolight.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [0] is the company website and confirms products (ATLAS-2, optical ground stations, POLARIS) but does not contain founder names, founding year, funding stage, or investment details. Database entry mentions NATO DIANA selection and €2.8M raised, but these claims are not present in provided sources and therefore cannot be verified."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://astrolight.com",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://astrolight.com"
-        }
-      ],
-      "notes": "Source [0] is the company website and confirms products (ATLAS-2, optical ground stations, POLARIS) but does not contain founder names, founding year, funding stage, or investment details. Database entry mentions NATO DIANA selection and €2.8M raised, but these claims are not present in provided sources and therefore cannot be verified."
     },
     {
       "name": "H Company",

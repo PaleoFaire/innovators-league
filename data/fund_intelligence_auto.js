@@ -114,7 +114,6 @@ const FUND_INTELLIGENCE_AUTO = {
         "Blackshark.ai",
         "Diode",
         "Lazarus Energy Systems",
-        "Photonium",
         "True Anomaly"
       ]
     },

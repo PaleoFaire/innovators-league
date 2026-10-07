@@ -150,8 +150,6 @@ OVERRIDES = {
     "VVater": "Water",                                  # electroporation water treatment; "cooling"/"industrial" hit Industrial Heat first
     # SoCal Hard Tech Landscape adds (1 Oct 2026), hand-shelved where the text rules misfire:
     "Frontier Aerospace": "Satellites & Buses",
-    "Framework Automation": "Advanced Manufacturing",
-    "Stone Power": "Grid & Power Delivery",
     "CarbonBuilt": "Carbon Capture & Removal",
     "Illuminant Surgical": "Devices & Diagnostics",
     "Moleaer": "Water",
@@ -163,7 +161,6 @@ OVERRIDES = {
     "SpinLaunch": "Communications & PNT",
     "Space Kinetic": "Space Logistics & Servicing",
     "Fenix Space": "Launch",
-    "Mayman Aerospace": "Cargo & Delivery Drones",
     "Titan Dynamics": "Drones & Counter-UAS",
     # Database audit (1 Oct 2026): rewritten descriptions tripped the text rules for these.
     "Standard Electron": "Grid & Power Delivery",       # on-site power systems; "battery storage" hits Batteries
@@ -198,8 +195,6 @@ OVERRIDES = {
     "Texture Energy": "Grid & Power Delivery",          # grid operations software; "batteries" hits Batteries
     "Nuview": "Earth Observation",                      # lidar mapping constellation; "planet" hits Deep Space
     "Swarmbotics AI": "General",                        # ground-robot swarms (no UGV shelf); "counter-drone" payload hits UAS
-    "Voltra": "Grid & Power Delivery",                  # site-energy control software; "batteries" hits Batteries
-    "Wetstone": "Critical Minerals & Mining",           # offshore critical-minerals exploration
     "Oklo": "Fission Reactors",                         # Aurora reactors; "isotope test reactor" hits Fuels & Isotopes
     # Added 2026-09-25 with the first VC-Portfolio-Watcher batch:
     "Thor Dynamics": "Drones & Counter-UAS",           # laser counter-drone; "Armor"/"ammunition" hit Munitions

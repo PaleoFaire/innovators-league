@@ -3443,24 +3443,6 @@
       "attempts": []
     },
     {
-      "company": "Guardian RF",
-      "website": "https://www.guardianrf.com",
-      "confirmed_via": "https://guardianrf.com",
-      "attempts": []
-    },
-    {
-      "company": "Pila Energy",
-      "website": "https://www.pilaenergy.com",
-      "confirmed_via": "https://pilaenergy.com",
-      "attempts": []
-    },
-    {
-      "company": "DigiChem",
-      "website": "https://www.digichem.com",
-      "confirmed_via": "https://digichem.com",
-      "attempts": []
-    },
-    {
       "company": "Bravo Ordnance",
       "website": null,
       "attempts": [
@@ -3523,134 +3505,10 @@
       ]
     },
     {
-      "company": "Rebel Space",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://rebelspace.com",
-          "result": "SSLError"
-        },
-        {
-          "url": "https://rebelspace.ai",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://rebelspace.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://rebelspace.co",
-          "result": "SSLError"
-        },
-        {
-          "url": "https://rebelspace.tech",
-          "result": "ConnectTimeout"
-        },
-        {
-          "url": "https://rebelspace.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://rebelspace.energy",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://rebelspace.xyz",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://rebelspace.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://rebel.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://rebel.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://rebel.io",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://rebel.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://rebel.tech",
-          "result": "no name match / parked"
-        }
-      ]
-    },
-    {
       "company": "Valstad",
       "website": "https://valstad.com",
       "confirmed_via": "https://valstad.com",
       "attempts": []
-    },
-    {
-      "company": "Determinant Materials",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://determinantmaterials.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://determinantmaterials.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://determinantmaterials.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://determinantmaterials.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://determinantmaterials.tech",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://determinantmaterials.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://determinantmaterials.energy",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://determinantmaterials.xyz",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://determinantmaterials.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://determinant.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://determinant.ai",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://determinant.io",
-          "result": "ConnectTimeout"
-        },
-        {
-          "url": "https://determinant.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://determinant.tech",
-          "result": "no name match / parked"
-        }
-      ]
     },
     {
       "company": "Hextronics",
@@ -3707,68 +3565,6 @@
       ]
     },
     {
-      "company": "The Spaceport Company",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://thespaceportcompany.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://thespaceportcompany.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://thespaceportcompany.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://thespaceportcompany.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://thespaceportcompany.tech",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://thespaceportcompany.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://thespaceportcompany.energy",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://thespaceportcompany.xyz",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://thespaceportcompany.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://thespaceport.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://thespaceport.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://thespaceport.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://thespaceport.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://thespaceport.tech",
-          "result": "ConnectionError"
-        }
-      ]
-    },
-    {
       "company": "Ghost Robotics",
       "website": "https://www.ghostrobotics.io",
       "confirmed_via": "https://ghostrobotics.io",
@@ -3784,84 +3580,10 @@
       ]
     },
     {
-      "company": "Voltra",
-      "website": "https://www.voltra.com",
-      "confirmed_via": "https://voltra.com",
-      "attempts": []
-    },
-    {
       "company": "ADMARES",
       "website": "https://admares.com",
       "confirmed_via": "https://admares.com",
       "attempts": []
-    },
-    {
-      "company": "Atopile",
-      "website": "https://atopile.io/enterprise",
-      "confirmed_via": "https://atopile.com",
-      "attempts": []
-    },
-    {
-      "company": "Notus Autonomous Systems",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://notusautonomoussystems.com",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://notusautonomoussystems.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://notusautonomoussystems.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://notusautonomoussystems.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://notusautonomoussystems.tech",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://notusautonomoussystems.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://notusautonomoussystems.energy",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://notusautonomoussystems.xyz",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://notusautonomoussystems.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://notusautonomous.com",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://notusautonomous.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://notusautonomous.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://notusautonomous.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://notusautonomous.tech",
-          "result": "ConnectionError"
-        }
-      ]
     },
     {
       "company": "Stratum AI",
@@ -3924,12 +3646,6 @@
           "result": "no name match / parked"
         }
       ]
-    },
-    {
-      "company": "Airrow",
-      "website": "https://airrow.com",
-      "confirmed_via": "https://airrow.com",
-      "attempts": []
     },
     {
       "company": "Aleph Surgical",
@@ -4000,99 +3716,6 @@
       ]
     },
     {
-      "company": "Wetstone",
-      "website": "https://www.wetstone.co",
-      "confirmed_via": "https://wetstone.co",
-      "attempts": [
-        {
-          "url": "https://wetstone.com",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://wetstone.ai",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://wetstone.io",
-          "result": "ConnectionError"
-        }
-      ]
-    },
-    {
-      "company": "CreateMe",
-      "website": "https://www.createme.com",
-      "confirmed_via": "https://createme.com",
-      "attempts": []
-    },
-    {
-      "company": "Mithril Mining",
-      "website": "https://mithrilmining.com",
-      "confirmed_via": "https://mithrilmining.com",
-      "attempts": []
-    },
-    {
-      "company": "Maritime Operations Group",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://maritimeoperationsgroup.com",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://maritimeoperationsgroup.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://maritimeoperationsgroup.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://maritimeoperationsgroup.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://maritimeoperationsgroup.tech",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://maritimeoperationsgroup.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://maritimeoperationsgroup.energy",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://maritimeoperationsgroup.xyz",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://maritimeoperationsgroup.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://maritimeoperations.com",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://maritimeoperations.ai",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://maritimeoperations.io",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://maritimeoperations.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://maritimeoperations.tech",
-          "result": "ConnectionError"
-        }
-      ]
-    },
-    {
       "company": "Victus AI",
       "website": null,
       "attempts": [
@@ -4153,66 +3776,6 @@
           "result": "ConnectionError"
         }
       ]
-    },
-    {
-      "company": "XENOPS",
-      "website": null,
-      "attempts": [
-        {
-          "url": "https://xenops.com",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://xenops.ai",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://xenops.io",
-          "result": "SSLError"
-        },
-        {
-          "url": "https://xenops.co",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://xenops.tech",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://xenops.space",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://xenops.energy",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://xenops.xyz",
-          "result": "no name match / parked"
-        },
-        {
-          "url": "https://xenops.us",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://getxenops.com",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://xenopshq.com",
-          "result": "ConnectionError"
-        },
-        {
-          "url": "https://xenopsapp.com",
-          "result": "ConnectionError"
-        }
-      ]
-    },
-    {
-      "company": "Firma Power",
-      "website": "https://firmapower.com",
-      "confirmed_via": "https://firmapower.com",
-      "attempts": []
     },
     {
       "company": "Arxlight",

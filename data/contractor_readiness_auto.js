@@ -3015,22 +3015,6 @@ const CONTRACTOR_READINESS_AUTO = [
     "headcountFormatted": ""
   },
   {
-    "company": "Nordic Air Defence",
-    "sector": "Defense & Security",
-    "readinessScore": 60,
-    "govTractionScore": 6,
-    "compositeScore": 70.5,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": false,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
-  },
-  {
     "company": "Fire Point",
     "sector": "Defense & Security",
     "readinessScore": 60,
@@ -3063,43 +3047,11 @@ const CONTRACTOR_READINESS_AUTO = [
     "headcountFormatted": ""
   },
   {
-    "company": "Ark Robotics",
-    "sector": "Defense & Security",
-    "readinessScore": 60,
-    "govTractionScore": 6,
-    "compositeScore": 77.0,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": false,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
-  },
-  {
     "company": "WB Group",
     "sector": "Defense & Security",
     "readinessScore": 60,
     "govTractionScore": 6,
     "compositeScore": 75.5,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": false,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
-  },
-  {
-    "company": "Astrolight",
-    "sector": "Space & Aerospace",
-    "readinessScore": 60,
-    "govTractionScore": 6,
-    "compositeScore": 66.0,
     "contractsTracked": 0,
     "agencies": [],
     "keyIndicators": {

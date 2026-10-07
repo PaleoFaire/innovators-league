@@ -7,11 +7,6 @@ const CHANGELOG_WEEKLY = {
   "companiesTracked": 1222,
   "added": [
     {
-      "name": "AIBOT",
-      "sector": "Drones & Autonomous",
-      "oneLine": "A state-backed eVTOL player most investors haven't heard of. A $15M state grant buys runway, not certification; the 2025 flight tests are the milestone so far."
-    },
-    {
       "name": "Airhart Aeronautics",
       "sector": "Transportation",
       "oneLine": "Learning to fly is slow and expensive mostly because small planes are hard to fly. Airhart puts airliner-style computer control into a light aircraft; if it..."
@@ -57,11 +52,6 @@ const CHANGELOG_WEEKLY = {
       "oneLine": "Direct air capture's problem is cost per ton, and Clairity's pitch is cheap materials rather than exotic sorbents. One of two DAC startups on this map (with..."
     },
     {
-      "name": "DeepWater Exploration",
-      "sector": "Ocean & Maritime",
-      "oneLine": "Every underwater drone needs eyes, and a deep-rated camera is a hard engineering product. A small, profitable-looking supplier rather than a moonshot: the ki..."
-    },
-    {
       "name": "Equatic",
       "sector": "Climate & Energy",
       "oneLine": "Selling both carbon removal and hydrogen from one plant is Equatic's way around the weak economics of either alone. Same founder as CarbonBuilt: Gaurav Sant'..."
@@ -80,11 +70,6 @@ const CHANGELOG_WEEKLY = {
       "name": "Forge Atomics",
       "sector": "Nuclear Energy",
       "oneLine": "Most new reactors bet on new fuels and coolants; Forge is betting on the 70-year-old pressurized-water reactor, built in a factory. Conservative physics, agg..."
-    },
-    {
-      "name": "Framework Automation",
-      "sector": "Robotics & Manufacturing",
-      "oneLine": "Clothing left America because sewing is labour-intensive. Framework is testing whether automation plus speed-to-customer can bring a slice of it back."
     },
     {
       "name": "Frontier Aerospace",
@@ -112,11 +97,6 @@ const CHANGELOG_WEEKLY = {
       "oneLine": "Surgeons constantly look away from the patient at a screen; projecting the anatomy onto the body removes that step. Early, but a clean example of computer vi..."
     },
     {
-      "name": "Kyte Dynamics",
-      "sector": "Drones & Autonomous",
-      "oneLine": "Drone delivery's last ten metres, getting the box down without landing, is where most systems struggle. A small patent-heavy specialist rather than a full de..."
-    },
-    {
       "name": "Launchpad",
       "sector": "Robotics & Manufacturing",
       "oneLine": "Reshoring needs automation integrators, and integration is slow, bespoke work. Launchpad is trying to productize it; it is partly a services business, so wat..."
@@ -130,11 +110,6 @@ const CHANGELOG_WEEKLY = {
       "name": "Matter Intelligence",
       "sector": "Space & Aerospace",
       "oneLine": "Cameras show what things look like; hyperspectral sensors show what they are made of. If EARTH-1 works, mining, agriculture and intelligence all get a new da..."
-    },
-    {
-      "name": "Mayman Aerospace",
-      "sector": "Drones & Autonomous",
-      "oneLine": "Jet-powered VTOL is loud and thirsty but fast, which is what contested logistics needs. Its strategic backer is the UAE's Tawazun-linked Strategic Developmen..."
     },
     {
       "name": "Menlo Micro",
@@ -167,11 +142,6 @@ const CHANGELOG_WEEKLY = {
       "oneLine": "Designing a satellite still takes months of human engineering. Oligo claims software can do most of it, and Chimera-1's flight this year is the test."
     },
     {
-      "name": "Ornadyne",
-      "sector": "Defense & Security",
-      "oneLine": "A quadcopter is easy to spot and easy to jam; a bird is neither. Ornadyne is very early, but the team's JPL-and-SpaceX pedigree makes it one to watch on the..."
-    },
-    {
       "name": "Pacific Light & Hologram",
       "sector": "Chips & Semiconductors",
       "oneLine": "True holograms need pixels far smaller than any phone screen, which is a chip problem before it is a display problem. PL&H is building the silicon itself, a..."
@@ -197,11 +167,6 @@ const CHANGELOG_WEEKLY = {
       "oneLine": "Hardware teams still run requirements in spreadsheets and legacy tools; Rollup is one of a cluster of LA startups (with SysGit, Nominal and Epsilon3) rebuild..."
     },
     {
-      "name": "Soaring",
-      "sector": "Drones & Autonomous",
-      "oneLine": "Moving ammunition the last mile under fire is a job soldiers die doing. Heavy-lift resupply drones are a near-term, fundable mission; Soaring has already flo..."
-    },
-    {
       "name": "Space Kinetic",
       "sector": "Space & Aerospace",
       "oneLine": "Decoupling propulsion from the payload 'cuts through the tyranny of the rocket equation', in the company's words. It is early and opaque, and its missile-def..."
@@ -212,24 +177,9 @@ const CHANGELOG_WEEKLY = {
       "oneLine": "Famous for slinging rockets with a giant centrifuge, SpinLaunch has quietly pivoted to being a Starlink challenger. The pivot is the story: watch whether Mer..."
     },
     {
-      "name": "Splash Industries",
-      "sector": "Defense & Security",
-      "oneLine": "Ukraine showed that cheap drone boats can hold a navy at bay. Splash is a small, fast-moving entrant betting the US will want them by the thousand, not the d..."
-    },
-    {
-      "name": "Stone Power",
-      "sector": "Climate & Energy",
-      "oneLine": "Turbine lead times have become the bottleneck for AI data centers that can't wait for the grid. Stone Power is one of several new entrants trying to build th..."
-    },
-    {
       "name": "Syntiant",
       "sector": "Chips & Semiconductors",
       "oneLine": "Most AI chip startups chase the data center; Syntiant sells into devices at volume and already has real revenue. The IPO filing will put a public price on ed..."
-    },
-    {
-      "name": "SysGit",
-      "sector": "AI & Software",
-      "oneLine": "Bringing software-style version control to hardware requirements is overdue. SysGit and Rollup are attacking the same old problem from LA."
     },
     {
       "name": "TRL11",

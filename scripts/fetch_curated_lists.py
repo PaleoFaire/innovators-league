@@ -132,6 +132,9 @@ EXCLUDE = {
     # Cut 2026-10-01 after the full database audit (not frontier tech, unverifiable,
     # dormant, or exited); never re-queue them.
     "somos", "runpod", "sfcompute", "davidenergy", "meter", "hedral", "axion", "monaire", "wisprai", "lumenenergy", "infinitemachine", "electricair", "deepsentinel", "groundcontroldevelopment", "atmocooling", "anatar", "stackedenergy", "californiaforever", "keentechnologies", "makesunsets", "lookingglass", "olympianmotors", "wraithwatch", "flamefrontpropulsion", "corvexsystems", "stratekglobal", "edengeopower", "ephemerisnet", "sagence", "fidlabs", "atropos", "solestial", "enfabrica", "dendrasystems", "dark",
+    # Cut 2026-10-07 after the high-bar audit (no funding, top fund or contracts on record);
+    # never re-queue them. Restore with scripts/restore_cut_company.py.
+    "becoming", "firmapower", "mithrilmining", "pathpower", "pilaenergy", "voltra", "wetstone", "determinantmaterials", "stonepower", "adastraskysupply", "airrow", "bohrsystems", "brynhildindustries", "dispatcher", "lodgesystems", "maritimeoperationsgroup", "notusautonomoussystems", "ornadyne", "rebelspace", "revere", "victustechnologies", "vight", "deepatomic", "zephyrfusion", "deepwaterexploration", "athanor", "atopile", "axialcomposites", "digichem", "drafter", "frameworkautomation", "grainweevil", "krevera", "mbodiai", "octavia", "radianforge", "robotwin", "vuecason", "xenops", "epicaerospace", "gru", "floatcargo", "sysgit", "obsidiasemiconductor", "photonium", "guardianrf", "splashindustries", "astrolight", "thespaceportcompany", "maymanaerospace", "arkrobotics", "nordicairdefence", "rmfg", "tobeenergy", "soaring", "aibot", "kytedynamics", "createme", "parityqc", "noblemachines",
 }
 
 SUFFIX = re.compile(

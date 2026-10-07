@@ -173,13 +173,6 @@
       "evidence": ""
     },
     {
-      "company": "Tobe Energy",
-      "url": "https://www.tobeenergy.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "The Red Metal Company",
       "url": "https://www.redmetals.com",
       "status_in_db": "active",
@@ -2546,13 +2539,6 @@
       "evidence": ""
     },
     {
-      "company": "Grain Weevil",
-      "url": "https://grainweevil.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Naïo Technologies",
       "url": "https://www.naio-technologies.com",
       "status_in_db": "acquired",
@@ -2579,13 +2565,6 @@
       "status_in_db": "active",
       "verdict": "live",
       "evidence": ""
-    },
-    {
-      "company": "Deep Atomic",
-      "url": "https://deepatomic.io",
-      "status_in_db": "active",
-      "verdict": "empty_page",
-      "evidence": "window.onload=function(){window.location.href=\"/lander\"}"
     },
     {
       "company": "Rhoman Aerospace",
@@ -3281,13 +3260,6 @@
       "evidence": ""
     },
     {
-      "company": "Axial Composites",
-      "url": "https://axco.industries",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Layup Parts",
       "url": "https://layupparts.com",
       "status_in_db": "active",
@@ -3325,13 +3297,6 @@
     {
       "company": "OSH Cut",
       "url": "https://oshcut.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "RMFG",
-      "url": "https://rmfg.com",
       "status_in_db": "active",
       "verdict": "live",
       "evidence": ""
@@ -3405,20 +3370,6 @@
       "status_in_db": "active",
       "verdict": "live",
       "evidence": ""
-    },
-    {
-      "company": "Vuecason",
-      "url": "https://www.vuecason.com",
-      "status_in_db": "active",
-      "verdict": "tls_error",
-      "evidence": "HTTPSConnectionPool(host='www.vuecason.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1,"
-    },
-    {
-      "company": "Radian Forge",
-      "url": "https://radianforge.com",
-      "status_in_db": "active",
-      "verdict": "http_202",
-      "evidence": "http 202"
     },
     {
       "company": "Seurat Technologies",
@@ -3514,41 +3465,6 @@
     {
       "company": "First Resonance",
       "url": "https://firstresonance.io",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "Krevera",
-      "url": "https://www.krevera.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "Photonium",
-      "url": "https://www.photoniumoptics.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "Mbodi AI",
-      "url": "https://mbodiai.com",
-      "status_in_db": "active",
-      "verdict": "gone",
-      "evidence": "DNS/connection failed"
-    },
-    {
-      "company": "Drafter",
-      "url": "https://www.drafterinc.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "OBSIDIA Semiconductor",
-      "url": "https://www.obsidiasemi.com",
       "status_in_db": "active",
       "verdict": "live",
       "evidence": ""
@@ -4541,13 +4457,6 @@
       "evidence": ""
     },
     {
-      "company": "Nordic Air Defence",
-      "url": "https://nordicairdefence.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "KrattWorks",
       "url": "https://krattworks.com",
       "status_in_db": "active",
@@ -4597,13 +4506,6 @@
       "evidence": ""
     },
     {
-      "company": "Ark Robotics",
-      "url": "https://ark-robotics.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "WB Group",
       "url": "https://www.wbgroup.pl/en/",
       "status_in_db": "active",
@@ -4635,13 +4537,6 @@
       "company": "Primoco UAV",
       "url": "https://www.uav-stol.com",
       "status_in_db": "ipo",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "Astrolight",
-      "url": "https://astrolight.com",
-      "status_in_db": "active",
       "verdict": "live",
       "evidence": ""
     },
@@ -5276,13 +5171,6 @@
       "evidence": ""
     },
     {
-      "company": "Epic Aerospace",
-      "url": "https://epic-aerospace.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Summit Lithium Technologies",
       "url": "https://summitnanotech.com",
       "status_in_db": "active",
@@ -5379,13 +5267,6 @@
       "status_in_db": "active",
       "verdict": "live",
       "evidence": ""
-    },
-    {
-      "company": "ParityQC",
-      "url": "https://parityqc.com",
-      "status_in_db": "active",
-      "verdict": "http_202",
-      "evidence": "http 202"
     },
     {
       "company": "AQT",
@@ -5530,13 +5411,6 @@
     {
       "company": "SpaceForest",
       "url": "https://spaceforest.pl",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "RoboTwin",
-      "url": "https://robotwin.cz",
       "status_in_db": "active",
       "verdict": "live",
       "evidence": ""
@@ -5913,13 +5787,6 @@
       "evidence": ""
     },
     {
-      "company": "Lodge Systems",
-      "url": "https://www.lodge.tech",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Until",
       "url": "https://untilcryo.com",
       "status_in_db": "active",
@@ -6235,13 +6102,6 @@
       "evidence": ""
     },
     {
-      "company": "Bohr Systems",
-      "url": "https://www.bohrsystems.us/",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Heaviside",
       "url": "https://www.theheaviside.com/",
       "status_in_db": "active",
@@ -6272,13 +6132,6 @@
     {
       "company": "Western Chemicals",
       "url": "https://www.westernchemicals.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "Zephyr Fusion",
-      "url": "https://zephyrfusion.com",
       "status_in_db": "active",
       "verdict": "live",
       "evidence": ""
@@ -7194,27 +7047,6 @@
       "evidence": ""
     },
     {
-      "company": "Guardian RF",
-      "url": "https://www.guardianrf.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "Pila Energy",
-      "url": "https://www.pilaenergy.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "DigiChem",
-      "url": "https://www.digichem.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Valstad",
       "url": "https://valstad.com",
       "status_in_db": "active",
@@ -7229,13 +7061,6 @@
       "evidence": ""
     },
     {
-      "company": "Voltra",
-      "url": "https://www.voltra.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "ADMARES",
       "url": "https://admares.com",
       "status_in_db": "active",
@@ -7243,50 +7068,8 @@
       "evidence": ""
     },
     {
-      "company": "Atopile",
-      "url": "https://atopile.io/enterprise",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "Airrow",
-      "url": "https://airrow.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Aleph Surgical",
       "url": "https://alephsurgical.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "Wetstone",
-      "url": "https://www.wetstone.co",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "CreateMe",
-      "url": "https://www.createme.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "Mithril Mining",
-      "url": "https://mithrilmining.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "Firma Power",
-      "url": "https://firmapower.com",
       "status_in_db": "active",
       "verdict": "live",
       "evidence": ""

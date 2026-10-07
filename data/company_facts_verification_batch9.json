@@ -1108,63 +1108,6 @@
       "notes": "Database entry describes company as space-based missile defense/YC Fall 2025, but official website (source 0) describes entirely different product: LLM security API. No corroboration found for founders (Sebastian Fischer, Tobias Fischer), location (San Francisco, CA), founded year (2025), stage (Seed), or investor information from provided sources. Critical discrepancy between database entry and company's actual stated business."
     },
     {
-      "name": "Deep Atomic",
-      "current": {
-        "name": "Deep Atomic",
-        "founder": "William G.J. Theron",
-        "location": "Zurich, Switzerland",
-        "founded": 2024,
-        "fundingStage": "Pre-Seed",
-        "totalRaised": "",
-        "website": null
-      },
-      "verified": {
-        "name": "Deep Atomic",
-        "description": "Nuclear energy company developing solutions for data center infrastructure.",
-        "founders": null,
-        "location": "Zurich, Switzerland",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://deepatomic.io",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [0] is company website with minimal verifiable information. Founder name, founded year, funding stage, total raised, valuation, and investors cannot be verified from provided sources. Database entry claims 'William G.J. Theron' as founder and '2024' as founding year, but these are not supported by source [0]."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://deepatomic.io",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://deepatomic.io"
-        }
-      ],
-      "notes": "Source [0] is company website with minimal verifiable information. Founder name, founded year, funding stage, total raised, valuation, and investors cannot be verified from provided sources. Database entry claims 'William G.J. Theron' as founder and '2024' as founding year, but these are not supported by source [0]."
-    },
-    {
       "name": "Exolaunch",
       "current": {
         "name": "Exolaunch",
@@ -3151,73 +3094,6 @@
         }
       ],
       "notes": "Wikipedia source [2] reports NZ$20 million raised by 2024, but most recent and specific figure is the NZ$35 million government loan announced in February 2026 through the Regional Development Fund [2]. Converted to USD equivalent not provided in sources, so reported as stated. Thomas Berry explicitly identified as 'Co-founder' in sources [0] and [1]. Database entry listed $27M+ which is not verified by sources provided."
-    },
-    {
-      "name": "OBSIDIA Semiconductor",
-      "current": {
-        "name": "OBSIDIA Semiconductor",
-        "founder": "Erik Hosler",
-        "location": "Fremont, CA",
-        "founded": 2025,
-        "fundingStage": "Seed",
-        "totalRaised": "Undisclosed",
-        "website": "https://www.obsidiasemi.com"
-      },
-      "verified": {
-        "name": "OBSIDIA Semiconductors Inc.",
-        "description": "Semiconductor supply chain security company developing RF-based silicon verification technology to detect counterfeit and tampered chips. The company offers ReelScan, a non-destructive reel scanning solution that validates semiconductor authenticity and provenance.",
-        "founders": [
-          "Erik Hosler",
-          "Adam Wilson"
-        ],
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://www.obsidiasemi.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry lists 'Erik Hosler' as sole founder, but source [1] identifies both 'Erik Hosler PhD, CEO, Founder' and 'Adam Wilson, CTO, Founder.' No location, founding year, funding stage, or investor information could be verified from provided sources. Database entry claims 'Rolling Fun' as investor and 'Fremont, CA' as location, but these cannot be verified from the sources provided."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Erik Hosler",
-          "verified": "Erik Hosler, Adam Wilson",
-          "sources": [
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://www.obsidiasemi.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://www.obsidiasemi.com/about"
-        }
-      ],
-      "notes": "Database entry lists 'Erik Hosler' as sole founder, but source [1] identifies both 'Erik Hosler PhD, CEO, Founder' and 'Adam Wilson, CTO, Founder.' No location, founding year, funding stage, or investor information could be verified from provided sources. Database entry claims 'Rolling Fun' as investor and 'Fremont, CA' as location, but these cannot be verified from the sources provided."
     },
     {
       "name": "Cascade Space",

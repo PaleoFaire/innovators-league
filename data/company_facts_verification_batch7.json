@@ -15,9 +15,7 @@
     "Kyutai",
     "Electric Hydrogen",
     "Q-CTRL",
-    "ClearSpace",
-    "Photonium",
-    "Drafter"
+    "ClearSpace"
   ],
   "changesProposed": [
     {
@@ -2598,98 +2596,6 @@
       "notes": "Sources provided do not contain verifiable information about founders (despite database entry listing 'Bryan Dean'), founding year (database claims 2019), funding stage, total raised, or investors. Website and about page focus on product offerings and vision but lack funding/financing details."
     },
     {
-      "name": "Grain Weevil",
-      "current": {
-        "name": "Grain Weevil",
-        "founder": "Ben Johnson",
-        "location": "Omaha, NE",
-        "founded": 2021,
-        "fundingStage": "Seed",
-        "totalRaised": "$3.5M",
-        "website": null
-      },
-      "verified": {
-        "name": "Grain Weevil",
-        "description": "A mobile robot that uses auger-based propulsion to autonomously manage grain storage bins by controlling temperature, breaking crusts, and leveling grain while eliminating the need for manual labor in hazardous bin environments.",
-        "founders": [
-          "Chad Johnson",
-          "Ben Johnson"
-        ],
-        "location": "Omaha, Nebraska",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://grainweevil.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            1
-          ],
-          "founders": [
-            1
-          ],
-          "location": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Wikipedia source [2] is about the wheat weevil insect (Sitophilus granarius), not the company Grain Weevil, and was not used for verification. Company website lists Chad Johnson as Co-Founder & CEO and Ben Johnson as Co-Founder / Chief Innovation Officer. Founded year 2021 from database entry could not be verified in provided sources. Total raised $3.5M, current stage (Seed), and valuation from database entry could not be verified in provided sources."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Ben Johnson",
-          "verified": "Chad Johnson, Ben Johnson",
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "location",
-          "current": "Omaha, NE",
-          "verified": "Omaha, Nebraska",
-          "sources": [
-            1
-          ]
-        },
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://grainweevil.com",
-          "sources": [
-            0,
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://grainweevil.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://grainweevil.com/company"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Grain_Weevil"
-        }
-      ],
-      "notes": "Wikipedia source [2] is about the wheat weevil insect (Sitophilus granarius), not the company Grain Weevil, and was not used for verification. Company website lists Chad Johnson as Co-Founder & CEO and Ben Johnson as Co-Founder / Chief Innovation Officer. Founded year 2021 from database entry could not be verified in provided sources. Total raised $3.5M, current stage (Seed), and valuation from database entry could not be verified in provided sources."
-    },
-    {
       "name": "Prusa Research",
       "current": {
         "name": "Prusa Research",
@@ -4640,74 +4546,6 @@
       "notes": "Source [0] is company website only. No information about founders, location, founding year, funding stage, capital raised, valuation, or investors could be verified from provided sources."
     },
     {
-      "name": "RMFG",
-      "current": {
-        "name": "RMFG",
-        "founder": "Kenneth Cassel",
-        "location": "Fort Worth, TX",
-        "founded": 2021,
-        "fundingStage": "Seed",
-        "totalRaised": "$5M+",
-        "website": null
-      },
-      "verified": {
-        "name": "RMFG",
-        "description": "Custom sheet metal fabrication service providing laser cutting, CNC bending, welding, and assembly services with 2-3 day lead times for US-based orders.",
-        "founders": [
-          "Kenneth Cassel"
-        ],
-        "location": "Fort Worth, TX",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://rmfg.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founders": [
-            0
-          ],
-          "location": [
-            1
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry claims founded 2021 and Seed stage with $5M+ raised, but no evidence found in provided sources to verify these claims. Kenneth Cassel mentioned in customer testimonials (@KennethCassel) confirms founder association."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://rmfg.com",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://rmfg.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://rmfg.com/about"
-        }
-      ],
-      "notes": "Database entry claims founded 2021 and Seed stage with $5M+ raised, but no evidence found in provided sources to verify these claims. Kenneth Cassel mentioned in customer testimonials (@KennethCassel) confirms founder association."
-    },
-    {
       "name": "HLabs",
       "current": {
         "name": "HLabs",
@@ -4929,74 +4767,6 @@
         }
       ],
       "notes": "Company emerged from stealth on June 25, 2025. Seed round led by SOSV. Only Chaitanya Sharma is explicitly named as founder (CEO/Co-founder); Nan Wu and Tana Siboonruang are listed as Research Scientists, not founders. Founded year not specified in sources."
-    },
-    {
-      "name": "Radian Forge",
-      "current": {
-        "name": "Radian Forge",
-        "founder": "Jeff Yeager",
-        "location": "Portsmouth, VA",
-        "founded": 2025,
-        "fundingStage": "Seed",
-        "totalRaised": "$3M+",
-        "website": null
-      },
-      "verified": {
-        "name": "Radian Forge",
-        "description": "Large-format Wire Arc Additive Manufacturing (WAAM) company producing mission-critical metal components for naval, maritime, and defense applications. Uses industrial robotics and advanced metal deposition to manufacture certified metal parts with digital traceability.",
-        "founders": [
-          "Jeff Yeager"
-        ],
-        "location": "Portsmouth, VA",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://radianforge.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            0,
-            1
-          ],
-          "location": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Database entry lists founded year as 2025 and stage as Seed with $3M+ raised, but these cannot be verified from provided sources. Sources confirm Jeff Yeager as founder and CEO, and Portsmouth, VA location based on Governor quote referencing 'Portsmouth expansion' and company website header content."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://radianforge.com",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://radianforge.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://radianforge.com/about"
-        }
-      ],
-      "notes": "Database entry lists founded year as 2025 and stage as Seed with $3M+ raised, but these cannot be verified from provided sources. Sources confirm Jeff Yeager as founder and CEO, and Portsmouth, VA location based on Governor quote referencing 'Portsmouth expansion' and company website header content."
     },
     {
       "name": "VulcanForms",
@@ -5385,57 +5155,6 @@
         }
       ],
       "notes": "Source [0] is the company website only. Database entry references rebranding from 'Maverick Metals' in January 2026, $19M seed round, founder Eric Herrera, Austin TX location, and 2022 founding year — none of these details appear in the provided source material, so they cannot be verified."
-    },
-    {
-      "name": "Mbodi AI",
-      "current": {
-        "name": "Mbodi AI",
-        "founder": "Xavier Chi",
-        "location": "New York, NY",
-        "founded": 2024,
-        "fundingStage": "Seed",
-        "totalRaised": "$3M+",
-        "website": null
-      },
-      "verified": {
-        "name": "Mbodi AI",
-        "description": null,
-        "founders": null,
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://mbodiai.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [0] is company website but contains only placeholder 'Launching Soon' content with no verifiable company information. No facts could be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://mbodiai.com",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://mbodiai.com"
-        }
-      ],
-      "notes": "Source [0] is company website but contains only placeholder 'Launching Soon' content with no verifiable company information. No facts could be verified from provided sources."
     }
   ],
   "unverifiable": [
@@ -5496,10 +5215,6 @@
       "reason": "no public sources accessible"
     },
     {
-      "name": "Axial Composites",
-      "reason": "no public sources accessible"
-    },
-    {
       "name": "Emelody",
       "reason": "no public sources accessible"
     },
@@ -5508,19 +5223,11 @@
       "reason": "no public sources accessible"
     },
     {
-      "name": "Vuecason",
-      "reason": "no public sources accessible"
-    },
-    {
       "name": "Gallox Semiconductors",
       "reason": "no public sources accessible"
     },
     {
       "name": "Vertical Semiconductor",
-      "reason": "no public sources accessible"
-    },
-    {
-      "name": "Krevera",
       "reason": "no public sources accessible"
     }
   ]

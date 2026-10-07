@@ -370,14 +370,12 @@ const MASTER_COMPANY_LIST = [
   { name: "RobCo", aliases: ["modular robotics", "SME automation", "industrial robots", "no-code"], sector: "robotics", ticker: null },
   { name: "Gladia", aliases: ["speech AI", "transcription", "audio intelligence"], sector: "ai", ticker: null },
   { name: "Deep Isolation", aliases: ["DeepIsolation", "nuclear waste", "deep borehole", "disposal", "drilling"], sector: "nuclear", ticker: null },
-  { name: "Grain Weevil", aliases: ["GrainWeevil", "agtech", "grain storage", "agricultural robots", "safety"], sector: "robotics", ticker: null },
   { name: "Naïo Technologies", aliases: ["NaïoTechnologies", "agtech", "weeding robots", "precision agriculture", "autonomous farming"], sector: "robotics", ticker: null },
   { name: "Delian Alliance Industries", aliases: ["Delian Alliance", "DelianAllianceIndustries", "maritime defense", "autonomous systems", "European defense"], sector: "defense", ticker: null },
   { name: "Cobod", aliases: ["construction", "concrete printing", "housing"], sector: "construction", ticker: null },
   { name: "Prusa Research", aliases: ["PrusaResearch", "open-source hardware", "desktop manufacturing"], sector: "robotics", ticker: null },
   { name: "Dunia", aliases: ["multi-agent AI", "enterprise automation", "workflow", "German AI"], sector: "ai", ticker: null },
   { name: "Phospho", aliases: ["LLM observability", "AI monitoring", "evaluation"], sector: "ai", ticker: null },
-  { name: "Deep Atomic", aliases: ["DeepAtomic", "compact reactors", "clean energy", "Swiss tech"], sector: "nuclear", ticker: null },
   { name: "Rhoman Aerospace", aliases: ["Rhoman", "RhomanAerospace", "defense drones", "autonomous systems", "mission planning"], sector: "autonomous", ticker: null },
   { name: "AirMap", aliases: ["airspace management", "drone compliance"], sector: "autonomous", ticker: null },
   // Ulysses Eco merged into Ulysses Robotics (same founders, same company)
@@ -519,7 +517,6 @@ const MASTER_COMPANY_LIST = [
 
   // ── Manufacturing / Reindustrialization ("American Shenzhen") ──────────
   // Specialty Materials — Composites
-  { name: "Axial Composites", aliases: ["AxialComposites", "composite manufacturing", "Giuseppe Rapisarda"], sector: "manufacturing", ticker: null },
   { name: "Layup Parts", aliases: ["LayupParts", "composite parts", "carbon fiber parts"], sector: "manufacturing", ticker: null },
   { name: "Fiber Dynamics", aliases: ["FiberDynamics", "fiber composite", "advanced composites"], sector: "manufacturing", ticker: null },
 
@@ -536,7 +533,6 @@ const MASTER_COMPANY_LIST = [
   // Precision Machining & Fabrication
   { name: "SendCutSend", aliases: ["Send Cut Send", "laser cutting service", "Jim Belosic", "online fabrication"], sector: "manufacturing", ticker: null },
   { name: "OSH Cut", aliases: ["OSHCut", "waterjet cutting", "laser cutting marketplace"], sector: "manufacturing", ticker: null },
-  { name: "RMFG", aliases: ["rapid manufacturing", "CNC machining service"], sector: "manufacturing", ticker: null },
   { name: "Forge Automation", aliases: ["ForgeAutomation", "manufacturing automation", "CNC automation"], sector: "manufacturing", ticker: null },
   { name: "Emelody", aliases: ["Emelody manufacturing", "precision fabrication"], sector: "manufacturing", ticker: null },
 
@@ -559,8 +555,6 @@ const MASTER_COMPANY_LIST = [
 
   // Metal Additive Manufacturing
   { name: "Freeform", aliases: ["Freeform 3D", "Erik Palitsch", "autonomous foundry", "metal 3D printing"], sector: "manufacturing", ticker: null },
-  { name: "Vuecason", aliases: ["Vuecason manufacturing", "metal additive manufacturing"], sector: "manufacturing", ticker: null },
-  { name: "Radian Forge", aliases: ["RadianForge", "metal forging", "advanced forging"], sector: "manufacturing", ticker: null },
   { name: "Seurat Technologies", aliases: ["SeuratTech", "Seurat Tech", "James DeMuth", "area printing", "laser powder bed fusion"], sector: "manufacturing", ticker: null },
   { name: "VulcanForms", aliases: ["Vulcan Forms", "Martin Feldmann", "industrial metal 3D printing", "laser metal fusion"], sector: "manufacturing", ticker: null },
 
@@ -593,11 +587,7 @@ const MASTER_COMPANY_LIST = [
   { name: "Flux", aliases: ["Flux PCB", "Flux circuit design", "PCB design tool"], sector: "manufacturing", ticker: null },
   { name: "JITX", aliases: ["JITX PCB", "automated circuit board design", "programmatic PCB design"], sector: "manufacturing", ticker: null },
   { name: "Lambda Function", aliases: ["LambdaFunction", "manufacturing lambda"], sector: "manufacturing", ticker: null },
-  { name: "Krevera", aliases: ["Krevera manufacturing", "supply chain platform"], sector: "manufacturing", ticker: null },
-  { name: "Photonium", aliases: ["Photonium optics", "photonic manufacturing"], sector: "manufacturing", ticker: null },
-  { name: "Mbodi AI", aliases: ["MbodiAI", "Mbodi robotics", "embodied AI platform"], sector: "robotics", ticker: null },
   { name: "Matter", aliases: ["Matter manufacturing", "manufacturing collaboration"], sector: "manufacturing", ticker: null },
-  { name: "Drafter", aliases: ["Drafter CAD", "Drafter design", "AI-powered CAD", "manufacturing design tool"], sector: "manufacturing", ticker: null },
 
   // ─── International expansion (Round 7b, April 2026) — 40 highest-signal non-US additions ───
   // Tracked for news aggregation; full metadata in data.js COMPANIES array
@@ -670,7 +660,6 @@ const MASTER_COMPANY_LIST = [
   { name: "XMOS", aliases: ["xcore", "XMOS audio"], sector: "chips", ticker: null },
   { name: "Causaly", aliases: ["Causaly AI", "biomedical literature"], sector: "biotech", ticker: null },
   { name: "SpaceForest", aliases: ["Perun rocket", "Polish launch"], sector: "space", ticker: null },
-  { name: "RoboTwin", aliases: ["RoboTwin demo", "Czech robotics"], sector: "robotics", ticker: null },
   { name: "Ukrspecsystems", aliases: ["USS", "PD-2 Shark", "Ukrainian UAV"], sector: "defense", ticker: null },
   { name: "Roboneers", aliases: ["Shablya M2", "Ironclad UGV", "remote weapon station"], sector: "defense", ticker: null },
   { name: "Cellcolabs", aliases: ["Cellcolabs stem cells", "Karolinska"], sector: "biotech", ticker: null },

@@ -73,12 +73,6 @@ const FOUNDER_MAFIAS_AUTO = [
         "valuation": ""
       },
       {
-        "company": "Axial Composites",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$1M+",
-        "valuation": ""
-      },
-      {
         "company": "Nox Metals",
         "sector": "Robotics & Manufacturing",
         "totalRaised": "$5.1M",
@@ -121,21 +115,9 @@ const FOUNDER_MAFIAS_AUTO = [
         "valuation": ""
       },
       {
-        "company": "Epic Aerospace",
-        "sector": "Space & Aerospace",
-        "totalRaised": "Undisclosed (YC/Thiel)",
-        "valuation": ""
-      },
-      {
         "company": "JITX",
         "sector": "Robotics & Manufacturing",
         "totalRaised": "$12M",
-        "valuation": ""
-      },
-      {
-        "company": "Zephyr Fusion",
-        "sector": "Nuclear Energy",
-        "totalRaised": "$500K",
         "valuation": ""
       },
       {
@@ -155,18 +137,6 @@ const FOUNDER_MAFIAS_AUTO = [
         "sector": "Space & Aerospace",
         "totalRaised": "Undisclosed",
         "valuation": ""
-      },
-      {
-        "company": "Atopile",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$0.5M",
-        "valuation": "Undisclosed"
-      },
-      {
-        "company": "Ornadyne",
-        "sector": "Defense & Security",
-        "totalRaised": "Undisclosed",
-        "valuation": "Undisclosed"
       }
     ],
     "description": "27 companies with founding-team links to Y Combinator."
@@ -308,21 +278,9 @@ const FOUNDER_MAFIAS_AUTO = [
         "valuation": "Undisclosed"
       },
       {
-        "company": "Ornadyne",
-        "sector": "Defense & Security",
-        "totalRaised": "Undisclosed",
-        "valuation": "Undisclosed"
-      },
-      {
         "company": "Airhart Aeronautics",
         "sector": "Transportation",
         "totalRaised": "$5M+",
-        "valuation": "Undisclosed"
-      },
-      {
-        "company": "SysGit",
-        "sector": "AI & Software",
-        "totalRaised": "$4.2M",
         "valuation": "Undisclosed"
       }
     ],
@@ -462,12 +420,6 @@ const FOUNDER_MAFIAS_AUTO = [
         "valuation": ""
       },
       {
-        "company": "Ornadyne",
-        "sector": "Defense & Security",
-        "totalRaised": "Undisclosed",
-        "valuation": "Undisclosed"
-      },
-      {
         "company": "Rollup",
         "sector": "AI & Software",
         "totalRaised": "$5.6M",
@@ -565,12 +517,6 @@ const FOUNDER_MAFIAS_AUTO = [
         "company": "Orb Aerospace",
         "sector": "Drones & Autonomous",
         "totalRaised": "$4.5M+",
-        "valuation": ""
-      },
-      {
-        "company": "Epic Aerospace",
-        "sector": "Space & Aerospace",
-        "totalRaised": "Undisclosed (YC/Thiel)",
         "valuation": ""
       }
     ],

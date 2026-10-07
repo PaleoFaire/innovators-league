@@ -12,7 +12,6 @@
   "cleared": [
     "Wyvern",
     "Anyon Systems",
-    "Epic Aerospace",
     "Stark Defence",
     "AQT",
     "DeepDrive",
@@ -582,60 +581,6 @@
         }
       ],
       "notes": "Database entry lists 'Milena Roveda' as founder, but source [0] shows her as 'Senior Adviser' and 'Chief Operating Officer' \u2014 no founder names are explicitly stated in sources. Milena Roveda confirmed stepping down as CEO on April 15, 2026 per source [0]. Current leadership includes Frank Laukien (Executive Chairman), Abraham Taherivand (Chief Corporate Development Officer), and Frederick Bordry (Chief Technology Officer). No founding year explicitly stated in sources. No current stage explicitly stated. Database mentions \u20ac9M+ government funding; source [0] confirms 9 Mio. \u20ac from BMBF and additional 10 Mio. \u20ac for tritium breeding project."
-    },
-    {
-      "name": "ParityQC",
-      "current": {
-        "name": "ParityQC",
-        "founder": "Wolfgang Lechner, Magdalena Hauser",
-        "location": "Innsbruck, Austria",
-        "founded": 2020,
-        "fundingStage": "Series A",
-        "totalRaised": "Undisclosed",
-        "website": null
-      },
-      "verified": {
-        "name": "ParityQC",
-        "description": "A quantum architecture company that develops blueprints and an operating system for scalable quantum computers, with applications for optimization problems and error-corrected quantum computing.",
-        "founders": null,
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://parityqc.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [0] is the company website but does not contain founder names, location, founding year, funding stage, total raised, or investor information. Database entry lists Wolfgang Lechner and Magdalena Hauser as founders and Innsbruck, Austria as location, but these cannot be verified from the provided sources."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://parityqc.com",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://parityqc.com"
-        }
-      ],
-      "notes": "Source [0] is the company website but does not contain founder names, location, founding year, funding stage, total raised, or investor information. Database entry lists Wolfgang Lechner and Magdalena Hauser as founders and Innsbruck, Austria as location, but these cannot be verified from the provided sources."
     },
     {
       "name": "Tubulis",
