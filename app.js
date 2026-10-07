@@ -2939,8 +2939,9 @@ function initDiscoveryMap() {
     zoomControl: true
   });
 
-  // Dark tile layer
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  // Dark tile layer (CARTO basemaps need an API key; keyless tiles say "API KEY REQUIRED")
+  const CARTO_API_KEY = 'cb1_3sea_1_eae8aeaaadc19f9306a0da40';
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=' + CARTO_API_KEY, {
     attribution: '&copy; OpenStreetMap &copy; CARTO',
     maxZoom: 19
   }).addTo(discoveryMap);

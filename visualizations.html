@@ -409,7 +409,9 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
 // ─── 1. HEATMAP (global, dark tiles) ───
 (function() {
   const map = L.map('heatmap', { center:[25,0], zoom:2, minZoom:2, maxZoom:12, scrollWheelZoom:true, zoomControl:true });
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  // CARTO basemaps need an API key; keyless tiles say "API KEY REQUIRED"
+  const CARTO_API_KEY = 'cb1_3sea_1_eae8aeaaadc19f9306a0da40';
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=' + CARTO_API_KEY, {
     attribution:'&copy; OpenStreetMap &copy; CARTO', maxZoom:19
   }).addTo(map);
 
