@@ -206,6 +206,30 @@ OVERRIDES = {
     "Efficient Computer": "AI Compute",                # edge AI processor; "sensors" hits Specialty Silicon
     "Nucleus RadioPharma": "Biomanufacturing & Tools", # radiopharma CDMO; "manufacturing plant" hits Agriculture
     "Integrate": "Defense Software & Intelligence",     # JWICS project-management software; "drone" in its copy hits Counter-UAS
+    # Trip-research adds and fixes (7 Oct 2026), hand-shelved:
+    "Nano Nuclear Energy": "Fission Reactors",
+    "Hexium": "Fuels & Isotopes",
+    "Ambrosia Energy": "Grid & Power Delivery",
+    "Spinor Energy": "Grid & Power Delivery",
+    "Skyways": "Cargo & Delivery Drones",
+    "Neurophos": "AI Compute",
+    "Phantom Neuro": "Neurotech",
+    "Scalvy": "Grid & Power Delivery",
+    "Infinitum": "General",
+    "Coco Robotics": "Autonomous Vehicles",
+    "Nervonik": "Neurotech",
+    "Maven Robotics": "Warehouse & Logistics Robotics",
+    "APOLINK": "Communications & PNT",
+    "EnCharge AI": "AI Compute",
+    "Aseon Labs": "General",
+    "Bedrock Ocean Exploration": "General",
+    "xLight": "Fabs & Manufacturing Equipment",
+    "TeraWatt Technology": "Batteries & Storage",
+    "Zendar": "Sensors & Specialty Silicon",
+    "Xscape Photonics": "Photonics & Interconnect",
+    "Easy Aerial": "Drones & Counter-UAS",
+    "Monumental Labs": "Advanced Manufacturing",
+    "Glacier": "Industrial Automation",
 }
 
 
