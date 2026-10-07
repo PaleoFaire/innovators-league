@@ -23076,6 +23076,8 @@ const COMPANIES = [
   },
   {
     name: "Resolute Grid",
+    totalRaised: "$18.2M",
+    founder: "Marcus Owenby",
     status: "active",
     sector: "Climate & Energy",
     subsector: "Grid & Power Delivery",
