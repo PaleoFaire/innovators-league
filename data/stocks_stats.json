@@ -11,13 +11,13 @@
     "space": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 2.44,
+      "avg_change": 2.41,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": 0.04,
+      "avg_change": -0.85,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 5.93,
+      "avg_change": 1.05,
       "count": 3
     },
     "transportation": {
@@ -59,11 +59,6 @@
   },
   "topGainers": [
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      15.75
-    ],
-    [
       "RXRX",
       "Recursion Pharmaceuticals",
       14.89
@@ -74,21 +69,26 @@
       13.37
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      10.56
-    ],
-    [
       "ALAB",
       "Astera Labs",
       8.93
+    ],
+    [
+      "TSLA",
+      "Tesla",
+      7.89
+    ],
+    [
+      "RKLB",
+      "Rocket Lab",
+      7.69
     ]
   ],
   "topLosers": [
     [
-      "QBTS",
-      "D-Wave Quantum",
-      -3.9
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -4.5
     ],
     [
       "ACHR",
@@ -111,5 +111,5 @@
       -12.84
     ]
   ],
-  "lastUpdated": "2026-10-06 23:07:17"
+  "lastUpdated": "2026-10-07 07:18:37"
 }
