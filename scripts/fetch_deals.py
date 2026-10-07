@@ -59,6 +59,9 @@ _DB_BY_KEY = {}
 _ALIAS_BY_KEY = {}
 CONTEXT_GUARDS = {}
 DIFFERENT = {}
+# One-word names that are also ordinary words ("Built", "Union", "Vast"), from
+# common_word_names in data/name_collisions.json. See _ordinary_word_is_a_name().
+COMMON_WORDS = set()
 # Deals the guards dropped this run, printed by main() so a wrong skip can be seen.
 SKIPPED = []
 
@@ -104,8 +107,15 @@ def load_db_companies(path=DATA_JS_PATH):
             if not name:
                 continue
             raised = gv(o, "totalRaised") or ""
+            try:
+                former = json.loads(gv(o, "formerNames") or "[]")
+            except ValueError:
+                former = []
+            # "T1 Energy (formerly FREYR Battery)" keeps its old name in the name itself.
+            former += re.findall(r'\(formerly ([^)]+)\)', name)
             out[name] = {"status": (gv(o, "status") or "").lower(), "raised": raised,
-                         "raised_m": _money_millions(raised)}
+                         "raised_m": _money_millions(raised),
+                         "former": [f for f in former if isinstance(f, str) and f.strip()]}
         return out
     except Exception as e:                                   # noqa: BLE001
         print(f"  WARNING: could not read COMPANIES from data.js ({type(e).__name__}: {e}); "
@@ -116,7 +126,7 @@ def load_db_companies(path=DATA_JS_PATH):
 def load_name_collisions(path=NAME_COLLISIONS_PATH):
     """(context guards, different companies) from data/name_collisions.json.
 
-    context guards:      DB name -> (compiled not_if regex, note)
+    context guards:      DB name -> (not_if regex or None, only_if regex or None, note)
     different companies: squashed name -> {name, not: squashed DB names, note}
     A missing or unreadable file disables the guard rather than the feed.
     """
@@ -129,12 +139,13 @@ def load_name_collisions(path=NAME_COLLISIONS_PATH):
         return {}, {}
     guards = {}
     for company, g in (raw.get("context_guards") or {}).items():
-        if not isinstance(g, dict) or not g.get("not_if"):
+        if not isinstance(g, dict) or not (g.get("not_if") or g.get("only_if")):
             continue
         try:
-            guards[company] = (re.compile(g["not_if"], re.I), g.get("note", ""))
+            guards[company] = tuple(re.compile(g[k], re.I) if g.get(k) else None
+                                    for k in ("not_if", "only_if")) + (g.get("note", ""),)
         except re.error as e:
-            print(f"  WARNING: bad not_if pattern for {company}: {e}")
+            print(f"  WARNING: bad context guard pattern for {company}: {e}")
     different = {}
     for e in raw.get("different_companies") or []:
         nots = e.get("not") or []
@@ -146,14 +157,44 @@ def load_name_collisions(path=NAME_COLLISIONS_PATH):
     return guards, different
 
 
+def _guard_allows(guard, text, bare_word=True):
+    """A context guard's verdict on headline + summary: no not_if hit, and, unless
+    the headline named the company in full, an only_if hit. "Multiply Labs
+    raises" needs no proof that it is Multiply Labs; "Multiply raises" and
+    "Privateer Holdings raises" do."""
+    not_if, only_if, _ = guard
+    if not_if and not_if.search(text):
+        return False
+    return not (bare_word and only_if and not only_if.search(text))
+
+
+def load_common_words(path=NAME_COLLISIONS_PATH):
+    """Lower-cased common_word_names from data/name_collisions.json; empty if unreadable."""
+    try:
+        raw = json.loads(Path(path).read_text())
+    except (OSError, ValueError):
+        return set()
+    return {w.lower() for w in raw.get("common_word_names") or [] if isinstance(w, str)}
+
+
+def _db_key(name):
+    """Squashed name without a parenthetical: 'T1 Energy (formerly FREYR Battery)' -> 't1energy'."""
+    return _squash(re.sub(r'\s*\([^)]*\)', '', name or ''))
+
+
 def init_matcher(data_js=DATA_JS_PATH, collisions=NAME_COLLISIONS_PATH):
     """Load everything match_company() and the deal guards read."""
-    global COMPANY_ALIASES, DB_COMPANIES, _DB_BY_KEY, _ALIAS_BY_KEY, CONTEXT_GUARDS, DIFFERENT
-    COMPANY_ALIASES = load_company_aliases()
+    global COMPANY_ALIASES, DB_COMPANIES, _DB_BY_KEY, _ALIAS_BY_KEY, CONTEXT_GUARDS, DIFFERENT, COMMON_WORDS
     DB_COMPANIES = load_db_companies(data_js)
-    _DB_BY_KEY = {_squash(n): n for n in DB_COMPANIES}
+    former = {_db_key(n): {f.lower() for f in r["former"]} for n, r in DB_COMPANIES.items() if r.get("former")}
+    COMPANY_ALIASES = load_company_aliases(former)
+    _DB_BY_KEY = {}
+    for n in DB_COMPANIES:
+        _DB_BY_KEY.setdefault(_squash(n), n)
+        _DB_BY_KEY.setdefault(_db_key(n), n)
     _ALIAS_BY_KEY = {_squash(a): c for a, c in COMPANY_ALIASES.items()}
     CONTEXT_GUARDS, DIFFERENT = load_name_collisions(collisions)
+    COMMON_WORDS = load_common_words(collisions)
 
 
 def _db_record(company):
@@ -161,28 +202,37 @@ def _db_record(company):
     return DB_COMPANIES.get(company) or DB_COMPANIES.get(_DB_BY_KEY.get(_squash(company), ""))
 
 
-def load_company_aliases():
-    """Load company aliases from master company list (534 companies)."""
-    master_path = Path(__file__).parent / "company_master_list.js"
+# Common English words that shouldn't match as company names in funding headlines.
+# Also read by scripts/sync_master_list.py, which never generates one of them as an alias.
+GENERIC_WORDS = {
+    'aging', 'allies', 'arctic', 'array', 'atomic', 'audio', 'beacon',
+    'carbon', 'charge', 'condor', 'desert', 'energy', 'fabric', 'falcon',
+    'forge', 'fusion', 'garden', 'ghost', 'global', 'harbor', 'ignite',
+    'impact', 'launch', 'matter', 'merge', 'neural', 'ocean', 'orbit',
+    'radar', 'radiant', 'rocket', 'scout', 'shield', 'signal', 'solar',
+    'space', 'spark', 'target', 'terra', 'tower', 'vapor', 'vertex',
+    'blimps', 'agtech', 'quantum', 'robotics',
+    'autonomous drones', 'laser communications', 'space laser',
+    'optical inter-satellite link', 'road runner',
+}
+
+
+def load_company_aliases(former=None, master_path=None):
+    """Load company aliases from scripts/company_master_list.js.
+
+    `former` maps a company's _db_key() to the lower-cased names data.js says
+    it once traded under (formerNames): those pass as spellings of its own
+    name, so "Aetherflux raises" still reaches Cowboy Space Corporation.
+    """
+    master_path = Path(master_path or Path(__file__).parent / "company_master_list.js")
     if not master_path.exists():
         print("  WARNING: company_master_list.js not found")
         return {}
 
     content = master_path.read_text()
     aliases = {}
-
-    # Common English words that shouldn't match as company names in funding headlines
-    GENERIC_WORDS = {
-        'aging', 'allies', 'arctic', 'array', 'atomic', 'audio', 'beacon',
-        'carbon', 'charge', 'condor', 'desert', 'energy', 'fabric', 'falcon',
-        'forge', 'fusion', 'garden', 'ghost', 'global', 'harbor', 'ignite',
-        'impact', 'launch', 'matter', 'merge', 'neural', 'ocean', 'orbit',
-        'radar', 'radiant', 'rocket', 'scout', 'shield', 'signal', 'solar',
-        'space', 'spark', 'target', 'terra', 'tower', 'vapor', 'vertex',
-        'blimps', 'agtech', 'quantum', 'robotics',
-        'autonomous drones', 'laser communications', 'space laser',
-        'optical inter-satellite link', 'road runner',
-    }
+    claimed = {}           # alias -> every company that lists it
+    former = former or {}
 
     for match in re.finditer(
         r'name:\s*"([^"]+)".*?aliases:\s*\[([^\]]*)\]',
@@ -210,10 +260,16 @@ def load_company_aliases():
             # "autonomous defense" -> Mara). Fine for news tagging, wrong for
             # crediting a funding round: "a shipbuilding startup raises $600M"
             # is not Saronic. Only spellings of the company's own name pass.
-            if not _is_name_alias(alias, name):
+            if not _is_name_alias(alias, name) and alias not in former.get(_db_key(name), ()):
                 continue
-            aliases[alias] = name
+            claimed.setdefault(alias, set()).add(name)
 
+    # A company's own name is never another company's alias, and an alias two
+    # companies list names neither: "Impulse" is both Impulse Space and Impulse
+    # Labs, and the file's order used to decide which got the round.
+    for alias, owners in claimed.items():
+        if alias not in aliases and len(owners) == 1:
+            aliases[alias] = next(iter(owners))
     return aliases
 
 
@@ -222,7 +278,7 @@ _CORP_SUFFIX = {
     'inc', 'corp', 'corporation', 'co', 'company', 'technologies', 'technology', 'tech',
     'labs', 'lab', 'industries', 'systems', 'space', 'aerospace', 'robotics', 'ai', 'energy',
     'bio', 'biosciences', 'therapeutics', 'defense', 'dynamics', 'computing', 'power',
-    'group', 'holdings', 'ltd', 'limited', 'gmbh', 'sa', 'ag', 'plc', 'llc', 'hq',
+    'group', 'holdings', 'ltd', 'limited', 'gmbh', 'sa', 'ag', 'plc', 'llc', 'hq', 'heavy',
 }
 
 
@@ -236,9 +292,16 @@ def _core_name(name):
 
 
 def _is_name_alias(alias, canonical):
-    """True if `alias` is a spelling of the company's own name, not a product or topic."""
+    """True if `alias` is a spelling of the company's own name, not a product or topic.
+
+    An acronym's expansion counts too: "Air Space Intelligence" is ASI.
+    """
     squash = lambda s: re.sub(r'[^a-z0-9]', '', s.lower())
-    return squash(alias) == squash(canonical) or _core_name(alias) == _core_name(canonical)
+    if squash(alias) == squash(canonical) or _core_name(alias) == _core_name(canonical):
+        return True
+    words = re.findall(r'[a-z0-9]+', alias.lower())
+    return (len(words) > 1 and canonical.isupper() and len(canonical) > 1
+            and ''.join(w[0] for w in words) == canonical.lower())
 
 
 # Patterns for extracting company names from unknown funding headlines
@@ -400,9 +463,10 @@ def parse_funding_amount(text):
         return None
 
     candidates = []
+    # Case-insensitive: Title Case headlines write "$40 Million".
     figures = list(re.finditer(
             r'\$\s?(\d+(?:[.,]\d+)?)\s*(billion|million|bn|mm|[BbMm])\b'
-            r'|\$\s?(\d{1,3}(?:,\d{3}){2,})\b', text))
+            r'|\$\s?(\d{1,3}(?:,\d{3}){2,})\b', text, re.I))
     for i, m in enumerate(figures):
         if m.group(1):
             num = float(m.group(1).replace(',', ''))
@@ -495,7 +559,7 @@ def parse_round_type(text):
 _FUNDING_VERB = re.compile(
     r"\b(?:raises?|raised|raising|secures?|secured|lands?|landed|closes?|closed|bags?|bagged"
     r"|nabs?|nabbed|nets?|netted|pockets?|banks?|gets?|scores?|snags?|grabs?|attracts?|receives?|picks up|hauls? in"
-    r"|announces?|completes?|wins?|draws?|pulls in|rakes in)\b", re.I)
+    r"|announces?|completes?|wins?|draws?|pulls in|rakes in|locks? (?:up|in))\b", re.I)
 # A name in these positions is context, not the subject: "ex-Palantir founders
 # raise $22M", "Palantir-backed X raises", "a rival to Anduril raises".
 #
@@ -523,6 +587,9 @@ _NOT_SUBJECT_AFTER = re.compile(
     rf"|\s+{_CONTEXT_NOUN}\b"
     r"|['’]s\s+(?:former|ex-|rival|competitor|alum|founder|co-?founder))", re.I)
 
+# A headline that opens with a scene-setting phrase, up to the name.
+_FRONTED = re.compile(r"^\W*(?:(?:weeks?|days?|months?|years?)\s+)?(?:after|before|as|while|with|following"
+                      r"|despite|amid|since|once|when)\b[^,]*$", re.I)
 # The capitalised words that continue a name: "Monumental" + " Labs".
 _NEXT_PROPER = re.compile(r"\s+[A-Z0-9][\w'’.&-]*")
 # alias -> compiled word-boundary pattern, filled on first use.
@@ -551,6 +618,105 @@ def _full_name(title, start, end, limit):
         if not w or w.end() > limit:
             return re.sub(r"['’]s?$", "", title[start:end])
         end = w.end()
+
+
+def _written_as_name(word, canonical, common=False):
+    """A one-word name counts only where it is written as a name: capitalised,
+    or in the company's own casing when that is not plain lower case ("xLight",
+    "fab2"). A name with no letters ("1872", "44.01") never counts this way. An
+    ordinary-word name cased as a brand ("UpLift" for Uplift, "VerSe" for
+    Verse) is that other brand; a coined name's casing is not evidence
+    ("EnduroSat" is Endurosat)."""
+    if (common and word.lower() == canonical.lower() and word[1:] != canonical[1:]
+            and word != word.upper() and any(c.isupper() for c in word[1:])):
+        return False
+    if word[:1].isupper():
+        return True
+    return (word == canonical and any(c.isalpha() for c in word)
+            and (word != word.lower() or any(c.isdigit() for c in word)))
+
+
+# Short words a Title Case headline leaves in lower case.
+_SMALL_WORDS = {'a', 'an', 'the', 'and', 'or', 'but', 'nor', 'of', 'in', 'on', 'at', 'to', 'for',
+                'by', 'with', 'from', 'as', 'vs', 'via', 'per', 'into', 'over'}
+
+
+def _is_title_case(title):
+    """'Neros Raises $250M Series C At $2.5B Valuation': capitals carry no signal."""
+    words = [w for w in re.findall(r"(?<![\w$.])[A-Za-z][\w'’.-]*", title) if w.lower() not in _SMALL_WORDS]
+    return len(words) >= 2 and sum(w[0].isupper() for w in words) >= 0.8 * len(words)
+
+
+def _find_verb(title):
+    """The funding verb a headline turns on. Several verbs are also nouns in
+    names ("Material Bank raises", "Kestrel Land Trust raising"), so outside a
+    Title Case headline a capitalised one past the first word is part of a
+    name, and in Title Case one followed straight by another verb is. A verb
+    has an object, so one followed by a comma is a noun ("After Skyroot's Big
+    Win, Indian Space Startups Bag $871 Million")."""
+    title_case = _is_title_case(title)
+    for v in _FUNDING_VERB.finditer(title):
+        if title[v.end():v.end() + 1] == ',' and not re.search(
+                r"[$€£]\s?[\d.,]+\s*(?:[kmb]n?|million|billion)?\s*$", title[:v.start()], re.I):
+            continue                     # "$650M raise," is the deal itself
+        if v.start() and v.group(0)[:1].isupper():
+            after = v.end() + len(re.match(r"[\s,]*", title[v.end():]).group(0))
+            if not title_case or _FUNDING_VERB.match(title, after):
+                continue          # ", Material Bank, Raises $100 Million"
+        return v
+    return None
+
+
+def _opens_clause(title, start):
+    """True for the headline's first word, or the first word after 'Exclusive:' or ' - '."""
+    return re.search(r"(?:^|[:|;!?]|\s[–—-])[\s\"'“‘(\[]*$", title[:start]) is not None
+
+
+# What may stand between an ordinary-word name and its verb when capitals are no
+# evidence: nothing, an appositive or parenthesis, or an adverb or auxiliary.
+_AUX = (r"(?:reportedly|quietly|officially|finally|now|just|also|has|have|had|is|was|will|to"
+        r"|set\s+to|said\s+to|looks\s+to|seeks\s+to|aims\s+to|plans\s+to|in\s+talks\s+to|expected\s+to)")
+_DIRECT = re.compile(rf"(?:\s*,[^,]*,|\s*\([^)]*\))?(?:\s+{_AUX})*\s*,?\s*$", re.I)
+# The capitalised word right before a name, if any. A possessive ("Korea's")
+# or a hyphenated description ("U.K.-based") cannot match.
+_PREV_WORD = re.compile(r"(?<![\w'’.&-])([A-Z][\w.&]*(?:-[A-Z0-9][\w.&]*)*)\s+$")
+# Words that describe a company rather than extend its name: nationalities
+# ("Dutch Monumental", "Swedish Blykalla"; "European" is left out on purpose),
+# descriptors and headline openers.
+_DEMONYMS = {
+    'american', 'british', 'english', 'scottish', 'welsh', 'irish', 'dutch', 'german', 'french',
+    'swedish', 'danish', 'norwegian', 'finnish', 'icelandic', 'swiss', 'austrian', 'belgian',
+    'spanish', 'italian', 'portuguese', 'polish', 'czech', 'slovak', 'hungarian', 'romanian',
+    'greek', 'turkish', 'estonian', 'latvian', 'lithuanian', 'ukrainian', 'israeli', 'indian',
+    'japanese', 'korean', 'chinese', 'taiwanese', 'singaporean', 'australian', 'canadian',
+    'mexican', 'brazilian', 'chilean', 'emirati', 'saudi', 'nigerian', 'kenyan', 'uk', 'u.k',
+    'us', 'u.s', 'nz',
+    # Title Case descriptors and openers: "Nuclear Startup Radiant Raises",
+    # "AI Chip Firm Rebellions Raises", "How Monumental Builds Walls".
+    'startup', 'firm', 'company', 'maker', 'developer', 'builder', 'manufacturer', 'provider',
+    'platform', 'unicorn', 'upstart', 'specialist', 'pioneer', 'carrier', 'operator', 'supplier',
+    'designer', 'spinout', 'spinoff', 'how', 'why', 'what', 'inside', 'meet', 'exclusive', 'watch',
+}
+
+
+def _ordinary_word_is_a_name(title, start, end, limit):
+    """For a one-word name that is also an ordinary word ("Built", "Union",
+    "Vast"), a capital letter is weak evidence, so the name's position has to
+    carry it:
+      - not right after another capitalised word: "European Union raises" and
+        "Pacific Air raises" name other organisations ("Korea's Rebellions",
+        "U.K.-based Humanoid" and "Dutch Monumental" are fine);
+      - where capitals mean nothing (the headline's first word, a Title Case
+        headline) the verb must follow directly, allowing only an appositive
+        or an auxiliary: "Built for war, Foo raises $10M" is about Foo, while
+        "Vast raises $300M" and "Vast, the station builder, raises" are Vast.
+    """
+    prev = _PREV_WORD.search(title[:start])
+    if prev and prev.group(1).rstrip('.').lower() not in _DEMONYMS:
+        return False
+    if _opens_clause(title, start) or _is_title_case(title):
+        return _DIRECT.match(title, end, limit) is not None
+    return True
 
 
 def match_company(title, context="", rejected=None):
@@ -584,10 +750,17 @@ def match_company(title, context="", rejected=None):
         tackle AI-driven cyber threats" is the Dutch security firm.
     `rejected`, when a list, collects (company, reason) for matches the
     collision file vetoed, so the caller can log them.
+
+    Later in Oct 2026, when the master list grew from 675 to every data.js
+    company: a Title Case headline ("Neros Raises $250M") no longer reads its
+    capitalised verb as part of the name, and a one-word name that is also an
+    ordinary word (common_word_names in data/name_collisions.json) must stand
+    where a name stands, so "Built for war, Foo raises" is not Built Robotics
+    and "Union AI raises" is not Union. See _ordinary_word_is_a_name().
     """
     if not title:
         return None
-    verb = _FUNDING_VERB.search(title)
+    verb = _find_verb(title)
     limit = verb.start() if verb else len(title)
     best = None
     for alias, canonical in COMPANY_ALIASES.items():
@@ -597,10 +770,16 @@ def match_company(title, context="", rejected=None):
         if rx is None:
             rx = _ALIAS_RX[alias] = re.compile(
                 rf"(?<![A-Za-z0-9]){re.escape(alias)}(?![A-Za-z0-9])", re.I)
+        one_word = ' ' not in alias
+        common = one_word and alias in COMMON_WORDS
         for m in rx.finditer(title):
             if m.start() >= limit:
                 break
-            if ' ' not in alias and not title[m.start()].isupper():
+            if one_word and not _written_as_name(m.group(0), canonical, common):
+                continue
+            # Hyphenated into a longer name: "Meta-Flux", "Ocius-X".
+            if one_word and (re.match(r"-[A-Za-z0-9]", title[m.end():m.end() + 2])
+                             or re.search(r"[A-Za-z0-9]-$", title[max(0, m.start() - 2):m.start()])):
                 continue
             if _NOT_SUBJECT_BEFORE.search(title[:m.start()]) or _NOT_SUBJECT_AFTER.search(title[m.end():]):
                 continue
@@ -610,27 +789,48 @@ def match_company(title, context="", rejected=None):
                 continue
             if _inside_aside(title, m.start(), m.end(), limit):
                 continue
-            full = _squash(_full_name(title, m.start(), m.end(), limit))
+            # Scene-setting, not the subject: a fronted phrase ("After Skyroot's
+            # Big Win, Indian Space Startups Bag $871 Million") or an earlier
+            # item in a roundup ("Fractile eyes $6.5b, Rivian's spinout raises
+            # $150m"; "Cohere's search, and Tenstorrent raises"). A list inside
+            # the name's own clause ("backers such as Intel, BMW and Samsung")
+            # is not a new subject.
+            between = title[m.end():limit]
+            tail = between[between.rfind(',') + 1:]
+            if ((_FRONTED.match(title[:m.start()]) and ',' in between)
+                    or (between.count(',') % 2 and re.search(r"\b[A-Z]", tail)
+                        and (re.match(r"\s*(?:and|&)\s", tail) or not re.search(r"\s(?:and|&)\s", tail)))):
+                continue
+            full_name = _full_name(title, m.start(), m.end(), limit)
+            full = _squash(full_name)
             target = canonical
             other = _DB_BY_KEY.get(full) or _ALIAS_BY_KEY.get(full)
             if other and _squash(other) != _squash(canonical):
                 target = other                   # the longer (or exact) company named
-            else:
-                # A one-word name followed by another capitalised word is part
-                # of a longer proper noun ("Mara Kamara"), unless that word is
-                # a corporate suffix ("Saronic Technologies").
-                nxt = re.match(r"\s+([A-Z][\w'’.-]*)", title[m.end():])
-                if ' ' not in alias and nxt and nxt.group(1).lower().strip('.') not in _CORP_SUFFIX:
+            elif not other:
+                # A one-word name followed by another capitalised word before
+                # the verb is part of a longer proper noun ("Mara Kamara"),
+                # unless that word is a corporate suffix ("Saronic
+                # Technologies"). An ordinary word takes no suffix: "Union AI"
+                # is another company. The verb itself never counts, so a Title
+                # Case "Neros Raises $250M" is still Neros.
+                nxt = re.match(r"\s+([A-Z][\w'’.-]*)", title[m.end():limit])
+                if one_word and nxt and (common or nxt.group(1).lower().strip('.') not in _CORP_SUFFIX):
                     continue
+            if common and not _ordinary_word_is_a_name(
+                    title, m.start(), m.start() + len(full_name) if other else m.end(), limit):
+                continue
             diff = DIFFERENT.get(full)
             if diff and _squash(target) in diff["not"]:
                 if rejected is not None:
                     rejected.append((target, f"'{diff['name']}' is a different company: {diff['note']}"))
                 continue
             guard = CONTEXT_GUARDS.get(target)
-            if guard and guard[0].search(f"{title} {context or ''}"):
+            # only_if is skipped only for a known multi-word name ("Multiply Labs").
+            bare = not (other and ' ' in full_name.strip())
+            if guard and not _guard_allows(guard, f"{title} {context or ''}", bare):
                 if rejected is not None:
-                    rejected.append((target, f"context guard: {guard[1]}"))
+                    rejected.append((target, f"context guard: {guard[2]}"))
                 continue
             key = (m.start(), -len(alias))
             if best is None or key < best[0]:

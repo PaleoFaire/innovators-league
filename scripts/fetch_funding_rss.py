@@ -12,8 +12,11 @@ Sources:
     - BusinessWire Tech
     - Axios Pro Rata
 
-Filters to frontier tech companies by cross-referencing the master company list.
-Completely free — public RSS feeds, no API keys required.
+Filters to frontier tech companies with the deal feed's own matcher: company,
+amount, round and investors come from fetch_deals.extract_deal_from_article(),
+so a headline is credited here only when scripts/fetch_deals.py would credit
+it (subject before the verb, context and collision guards, data.js status
+and size checks). Completely free — public RSS feeds, no API keys required.
 
 Output:
     data/funding_feed_auto.json  — structured list of funding events
@@ -25,6 +28,7 @@ Run standalone:
 
 import json
 import re
+import sys
 import time
 import logging
 import xml.etree.ElementTree as ET
@@ -33,6 +37,9 @@ from html import unescape
 from pathlib import Path
 
 import requests
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import fetch_deals  # noqa: E402  (the guarded matcher and parsers)
 
 # ─────────────────────────────────────────────────────────────────
 # Logging
@@ -49,7 +56,6 @@ logger = logging.getLogger("funding_rss")
 # ─────────────────────────────────────────────────────────────────
 SCRIPT_DIR = Path(__file__).parent
 DATA_DIR = SCRIPT_DIR.parent / "data"
-MASTER_LIST_PATH = SCRIPT_DIR / "company_master_list.js"
 
 USER_AGENT = "InnovatorsLeague-FundingBot/1.0 (+https://innovatorsleague.com)"
 REQUEST_TIMEOUT = 20
@@ -64,192 +70,6 @@ FUNDING_FEEDS = [
     ("BusinessWire",     "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEVtRXw=="),
     ("Axios Pro Rata",   "https://api.axios.com/feed/"),
 ]
-
-# Generic words we must never treat as a company name
-GENERIC_ALIAS_STOPWORDS = {
-    "aging", "allies", "arctic", "array", "atomic", "audio", "beacon",
-    "carbon", "charge", "condor", "desert", "energy", "fabric", "falcon",
-    "forge", "fusion", "garden", "ghost", "global", "harbor", "ignite",
-    "impact", "launch", "matter", "merge", "neural", "ocean", "orbit",
-    "radar", "radiant", "rocket", "scout", "shield", "signal", "solar",
-    "space", "spark", "target", "terra", "tower", "vapor", "vertex",
-    "blimps", "agtech", "quantum", "robotics",
-    "autonomous drones", "laser communications", "space laser",
-    "optical inter-satellite link", "road runner",
-}
-
-# Investor normalization (lower-case alias -> canonical name)
-INVESTOR_ALIASES = {
-    "a16z": "a16z",
-    "andreessen horowitz": "a16z",
-    "founders fund": "Founders Fund",
-    "sequoia": "Sequoia",
-    "lux capital": "Lux Capital",
-    "8vc": "8VC",
-    "khosla": "Khosla Ventures",
-    "general catalyst": "General Catalyst",
-    "accel": "Accel",
-    "benchmark": "Benchmark",
-    "greylock": "Greylock",
-    "tiger global": "Tiger Global",
-    "coatue": "Coatue",
-    "softbank": "SoftBank",
-    "general atlantic": "General Atlantic",
-    "thrive": "Thrive Capital",
-    "lightspeed": "Lightspeed Venture Partners",
-    "insight partners": "Insight Partners",
-    "kleiner perkins": "Kleiner Perkins",
-    "nea": "NEA",
-    "new enterprise associates": "NEA",
-    "bessemer": "Bessemer Venture Partners",
-    "ivp": "IVP",
-    "spark capital": "Spark Capital",
-    "index ventures": "Index Ventures",
-    "gv": "GV (Google Ventures)",
-    "google ventures": "GV (Google Ventures)",
-    "eclipse ventures": "Eclipse Ventures",
-    "valor equity": "Valor Equity Partners",
-    "capitalg": "CapitalG",
-    "felicis": "Felicis Ventures",
-    "norwest": "Norwest Venture Partners",
-}
-
-# ─────────────────────────────────────────────────────────────────
-# Master company list loader
-# ─────────────────────────────────────────────────────────────────
-def load_master_companies():
-    """Load companies and their aliases from company_master_list.js."""
-    if not MASTER_LIST_PATH.exists():
-        logger.warning("company_master_list.js not found at %s", MASTER_LIST_PATH)
-        return []
-
-    content = MASTER_LIST_PATH.read_text()
-    companies = []
-    pattern = r'\{\s*name:\s*"([^"]+)",\s*aliases:\s*\[([^\]]*)\]'
-
-    for match in re.finditer(pattern, content):
-        name = match.group(1)
-        aliases_raw = match.group(2)
-        aliases = [
-            a.strip().strip('"')
-            for a in aliases_raw.split(",")
-            if a.strip()
-        ]
-        companies.append({"name": name, "aliases": aliases})
-
-    logger.info("Loaded %d companies from master list", len(companies))
-    return companies
-
-
-MASTER_COMPANIES = load_master_companies()
-
-
-# ─────────────────────────────────────────────────────────────────
-# Company matching
-# ─────────────────────────────────────────────────────────────────
-def match_company(text):
-    """
-    Try to match a known frontier tech company in free-form text.
-    Returns canonical company name or None.
-    """
-    if not text:
-        return None
-    text_lower = text.lower()
-
-    for company in MASTER_COMPANIES:
-        name_lower = company["name"].lower()
-
-        # Longer names: safe substring match
-        if len(name_lower) >= 6:
-            if name_lower in text_lower:
-                return company["name"]
-        else:
-            # Short names (e.g. "Oklo", "Vast"): word boundary match
-            if re.search(r"\b" + re.escape(name_lower) + r"\b", text_lower):
-                return company["name"]
-
-        # Aliases (skip generic stopwords and short ones)
-        for alias in company["aliases"]:
-            alias_lower = alias.lower()
-            if len(alias_lower) < 5:
-                continue
-            if alias_lower in GENERIC_ALIAS_STOPWORDS:
-                continue
-            if alias_lower in text_lower:
-                return company["name"]
-
-    return None
-
-
-# ─────────────────────────────────────────────────────────────────
-# Extraction helpers
-# ─────────────────────────────────────────────────────────────────
-AMOUNT_RE = re.compile(
-    r"\$\s*([0-9]+(?:[.,][0-9]+)?)\s*(million|M|billion|B)\b",
-    re.IGNORECASE,
-)
-
-ROUND_PATTERNS = [
-    (r"series\s+([a-i])(?:-?\d)?", lambda m: f"Series {m.group(1).upper()}"),
-    (r"pre-seed",                  lambda m: "Pre-Seed"),
-    (r"seed\s+(?:round|funding)",  lambda m: "Seed"),
-    (r"\bseed\b",                  lambda m: "Seed"),
-    (r"\bipo\b",                   lambda m: "IPO"),
-    (r"\bspac\b",                  lambda m: "SPAC"),
-    (r"debt\s+(?:round|financing)", lambda m: "Debt"),
-    (r"bridge\s+(?:round|financing)", lambda m: "Bridge"),
-    (r"growth\s+(?:round|financing)", lambda m: "Growth"),
-]
-
-
-def extract_amount(text):
-    """Extract funding amount. Returns normalized string or None."""
-    if not text:
-        return None
-    match = AMOUNT_RE.search(text)
-    if not match:
-        return None
-    num_raw = match.group(1).replace(",", "")
-    try:
-        num = float(num_raw)
-    except ValueError:
-        return None
-    unit = match.group(2).lower()
-    if unit.startswith("b"):
-        if num == int(num):
-            return f"${int(num)}B"
-        return f"${num}B"
-    # million
-    if num == int(num):
-        return f"${int(num)}M"
-    return f"${num}M"
-
-
-def extract_round(text):
-    """Extract funding round type. Returns string or None."""
-    if not text:
-        return None
-    t = text.lower()
-    for pattern, formatter in ROUND_PATTERNS:
-        m = re.search(pattern, t)
-        if m:
-            return formatter(m)
-    if "raise" in t or "funding" in t:
-        return "Funding Round"
-    return None
-
-
-def extract_investors(text):
-    """Extract lead investors from text."""
-    if not text:
-        return []
-    t = text.lower()
-    found = []
-    for alias, canonical in INVESTOR_ALIASES.items():
-        if alias in t and canonical not in found:
-            found.append(canonical)
-    return found
-
 
 # ─────────────────────────────────────────────────────────────────
 # Date parsing
@@ -390,80 +210,31 @@ def _item_to_dict(elem, source_name, is_atom, ns=None):
 # ─────────────────────────────────────────────────────────────────
 # Main extraction pipeline
 # ─────────────────────────────────────────────────────────────────
-def _is_company_subject_of_funding(company, title):
-    """
-    Critical accuracy check: the COMPANY must be the subject of the funding
-    announcement in the TITLE (not just mentioned in the body).
-
-    Good: "Anduril raises $2B at $30B valuation"
-    Bad:  "The Week's 10 Biggest Rounds: SiFive Leads..." (Hadrian mentioned in body)
-    Bad:  "No company has grown like Anthropic" (Palantir mentioned in body)
-    """
-    if not title or not company:
-        return False
-    t = title.lower()
-    c = company.lower().strip()
-    # Company name must appear in title (not just description/body)
-    if c not in t:
-        # Try first word for compound names ("Anduril Industries" → "anduril")
-        first = c.split()[0] if c.split() else c
-        if not first or len(first) < 4 or first not in t:
-            return False
-    # Title must contain a funding verb
-    funding_verbs = [
-        "raises", "raised", "secures", "secured",
-        "closes", "closed", "lands", "landed",
-        "bags", "scores", "nets",
-        "series ", "seed round", "funding round",
-        "valuation of", "valued at",
-    ]
-    if not any(v in t for v in funding_verbs):
-        return False
-    # Reject partnership/contract/acquisition headlines
-    reject = [
-        "partnership", "partners with", "joins forces",
-        "wins contract", "awarded", "contract win",
-        "acquires", "acquisition of", "to acquire",
-        "launches", "unveils",
-        "names new", "appoints", "hires",
-    ]
-    if any(r in t for r in reject):
-        return False
-    return True
-
-
 def extract_deal(item):
     """
     Try to extract a structured funding deal from an RSS item.
     Returns dict or None.
+
+    Until Oct 2026 this matched any master-list name or alias as a substring
+    of headline + summary, then checked that the name's first word appeared
+    in the headline. So a round was credited to whichever tracked company the
+    story mentioned, and the first dollar figure became its size ("targeting
+    the $12 billion market"). It now takes everything from the deal feed's
+    guarded code, so the two feeds cannot disagree about who raised what.
     """
+    if not fetch_deals.COMPANY_ALIASES:
+        fetch_deals.init_matcher()
     title = item.get("title", "") or ""
-    desc = item.get("description", "") or ""
-    full_text = f"{title} {desc}"
-
-    # 1) must mention a tracked company
-    company = match_company(full_text)
-    if not company:
+    deal = fetch_deals.extract_deal_from_article(
+        {"title": title, "description": item.get("description", "") or ""})
+    if not deal:
         return None
-
-    # 2) company must be the SUBJECT of the funding headline (critical accuracy check)
-    if not _is_company_subject_of_funding(company, title):
-        return None
-
-    # 3) must have a funding amount
-    amount = extract_amount(full_text)
-    if not amount:
-        return None
-
-    round_type = extract_round(full_text) or "Funding Round"
-    investors = extract_investors(full_text)
     pub_date = parse_pub_date(item.get("pubDate", ""))
-
     return {
-        "company": company,
-        "amount": amount,
-        "round": round_type,
-        "investors": investors,
+        "company": deal["company"],
+        "amount": deal["amount"],
+        "round": deal["round"],
+        "investors": deal["investors"],
         "date": pub_date or datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "source": item.get("source", ""),
         "url": item.get("link", ""),
@@ -508,7 +279,9 @@ def main():
     logger.info("=" * 60)
     logger.info("Funding RSS Aggregator")
     logger.info("=" * 60)
-    logger.info("Master companies: %d", len(MASTER_COMPANIES))
+    fetch_deals.init_matcher()
+    tracked = len(set(fetch_deals.COMPANY_ALIASES.values()))
+    logger.info("Companies tracked: %d", tracked)
     logger.info("Feeds: %d", len(FUNDING_FEEDS))
 
     started_at = datetime.now(timezone.utc).isoformat()
@@ -543,6 +316,9 @@ def main():
     deals.sort(key=lambda d: d.get("date", ""), reverse=True)
 
     logger.info("Extracted %d structured funding deals", len(deals))
+    skipped = {(s["company"], s["headline"]): s for s in fetch_deals.SKIPPED}
+    for s in list(skipped.values())[:40]:
+        logger.info("  SKIP %s: %s — \"%s\"", s["company"], s["reason"], s["headline"])
 
     # Write outputs
     save_json(deals, "funding_feed_auto.json")
@@ -551,7 +327,7 @@ def main():
         "script": "fetch_funding_rss.py",
         "started_at": started_at,
         "finished_at": datetime.now(timezone.utc).isoformat(),
-        "companies_tracked": len(MASTER_COMPANIES),
+        "companies_tracked": tracked,
         "total_items_fetched": len(all_items),
         "total_deals_extracted": len(deals),
         "feeds": feed_status,

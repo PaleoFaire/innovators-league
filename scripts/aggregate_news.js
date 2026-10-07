@@ -11,7 +11,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Import the master company list (450+ companies with aliases)
-const { MASTER_COMPANY_LIST, mentionsCompany, getAllSearchTerms, getStats } = require('./company_master_list.js');
+const { MASTER_COMPANY_LIST, mentionsCompany, nameAppearsIn, getAllSearchTerms, getStats } = require('./company_master_list.js');
 
 // RSS feeds to monitor — 33 feeds for global frontier tech coverage
 const RSS_FEEDS = [
@@ -324,13 +324,8 @@ async function main() {
     // Quality gate 3: the matched company must appear in the TITLE, not just body.
     // This eliminates "Durin" being matched to an Uplift Desk coupons article or
     // Abridge medical-AI article that happens to contain the word "infrastructure".
-    const titleLower = (article.title || '').toLowerCase();
-    const titleMatch = matches.find(m => {
-      const nameLower = m.name.toLowerCase();
-      // Whole-word match against the title
-      const wordRegex = new RegExp('\\b' + nameLower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'i');
-      return wordRegex.test(titleLower);
-    });
+    // Whole-word match against the title; a one-word name only as a name.
+    const titleMatch = matches.find(m => nameAppearsIn(article.title || '', m.name));
     if (!titleMatch) { bodyOnlyDropped++; continue; }
 
     // Reorder so the title-matched company is first

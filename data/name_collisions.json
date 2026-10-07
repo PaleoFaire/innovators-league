@@ -2,8 +2,9 @@
   "_about": [
     "Companies that share a name, or a name stem, with a company in data.js but are NOT that company. Edited by hand; no script writes this file.",
     "Read by scripts/fetch_deals.py (deal-feed headline matcher), scripts/fetch_curated_lists.py (BuildList / Black Flag watcher and the HQ cross-check) and scripts/fetch_vc_portfolio_watcher.py (name-only holdings).",
-    "context_guards: a funding headline credited to this data.js company is dropped when the headline or its summary matches not_if (a case-insensitive regex).",
-    "different_companies: `name` is a different company from every data.js record listed in `not`. A headline or list entry whose full name is `name` is never credited to those records. A data.js record whose own name is exactly `name` still matches normally."
+    "context_guards: a funding headline credited to this data.js company is dropped when the headline or its summary matches not_if, or fails to match only_if (case-insensitive regexes). only_if is for one-word names many companies share (Halo, Covenant, AIR): the story has to be about our company's field.",
+    "different_companies: `name` is a different company from every data.js record listed in `not`. A headline or list entry whose full name is `name` is never credited to those records. A data.js record whose own name is exactly `name` still matches normally.",
+    "common_word_names: one-word company names or name aliases that are also ordinary words or common acronyms. The deal matcher accepts one only where a name stands: not right after another capitalised word ('European Union'), never with a corporate suffix it does not own ('Union AI'), and, as a headline's first word or in a Title Case headline, only directly before the funding verb ('Built for war, Foo raises' is about Foo). scripts/sync_master_list.py prints new candidates."
   ],
   "context_guards": {
     "Hadrian": {
@@ -15,8 +16,227 @@
       "note": "Observable (observablehq.com) is a data-visualisation software company; ours is the Los Angeles space-optics company (observable.space)."
     },
     "Parallel Systems": {
-      "not_if": "\\bweb\\b|search|\\bagents?\\b|browser|parag|agrawal",
-      "note": "Parallel Web Systems (Parag Agrawal's AI web-search company) headlines as 'Parallel'; ours is the autonomous freight-rail company (moveparallel.com)."
+      "not_if": "\\bweb\\b|search|\\bagents?\\b|browser|parag|agrawal|K-12|edtech|special education|tutoring|schools?\\b|students?\\b|Edulink",
+      "only_if": "rail|freight|trains?\\b|railcars?|locomotive|cargo|autonom",
+      "note": "Parallel Web Systems (Parag Agrawal's AI web-search company) headlines as 'Parallel'; ours is the autonomous freight-rail company (moveparallel.com). A K-12 special-education company is also called Parallel."
+    },
+    "Electra": {
+      "not_if": "aircraft|aviation|airplanes?|\\bplanes?\\b|\\be?STOL\\b|blown-lift|hybrid-electric|electra\\.aero|\\bflights?\\b|\\bEL9\\b",
+      "note": "Electra.aero (Manassas, VA) builds the EL9 hybrid-electric STOL aircraft and headlines often call it 'Electra'; ours (electra.earth) refines iron ore with low-temperature electrochemistry."
+    },
+    "ASI": {
+      "not_if": "superintelligen|artificial super|italian space agency|agenzia spaziale",
+      "note": "ASI is also artificial superintelligence and the Italian Space Agency; ours is Air Space Intelligence (airspace-intelligence.com)."
+    },
+    "Tempo": {
+      "not_if": "blockchain|stablecoin|crypto|payments?\\b|stripe|paradigm",
+      "only_if": "heat|thermal|thermochem|batter|energy|storage|redoxblox|industrial",
+      "note": "Ours is the former RedoxBlox (thermochemical heat batteries, tempoenergy.com). Stripe and Paradigm's payments blockchain, also Tempo, raised $500M in 2025."
+    },
+    "Span": {
+      "not_if": "engineering teams?|engineering intelligence|developers?\\b|software engineering|AI transformation",
+      "note": "Ours is the smart electrical panel maker (span.io); span.app is engineering-analytics software."
+    },
+    "Glimpse": {
+      "only_if": "batter|cells?\\b|\\bCT\\b|X-ray|scans?\\b|inspection",
+      "note": "Ours sells X-ray CT battery inspection (glimp.se); the a16z-backed Glimpse automates retail deductions."
+    },
+    "Integrate": {
+      "not_if": "marketing|marketers|\\bB2B\\b|demand gen|lead gen|advertis",
+      "note": "Ours is the classified project-management platform (integrate.co); Integrate the B2B marketing company has its own rounds."
+    },
+    "Halo": {
+      "only_if": "wafer|silicon|\\bSiC\\b|semiconductor|laser|Halo Industries",
+      "note": "Ours is Halo Industries (laser wafering, halo-industries.com). Body-cam, rent-to-own and other Halos raise too."
+    },
+    "Helios": {
+      "only_if": "steel|iron|alumin|sodium|thermochem|metals?\\b|smelt|\\bores?\\b|Helios Cycle",
+      "note": "Ours is the Israeli metals-reduction cleantech (heliosmatters.com); Helios Technologies and several startups share the name."
+    },
+    "Uplift": {
+      "not_if": "mental|psychiatr|therap|telehealth|patients?|insurance",
+      "note": "Ours builds homes on a production line (uplift.us); UpLift the telemental-health company is another."
+    },
+    "Nominal": {
+      "not_if": "accounting|\\bERP\\b|bookkeep|finance teams?|\\bCFOs?\\b",
+      "note": "Ours is the hardware-test data platform (nominal.io); another Nominal automates accounting."
+    },
+    "Nudge": {
+      "only_if": "brain|neuro|ultrasound|Ehrsam|depress|psychiatr|mental",
+      "note": "Ours is Fred Ehrsam's non-invasive brain-interface company (nudge.com); an agentic-commerce Nudge raised a pre-seed in 2026."
+    },
+    "Covenant": {
+      "only_if": "missiles?|defen[cs]e|munitions?|weapons?|military|Anthem|cruise",
+      "note": "Ours builds the Anthem ground-launched cruise missile (covenant.com); Covenant is also a real-estate fund manager, a health system and more."
+    },
+    "Privateer": {
+      "not_if": "cannabis|marijuana|Privateer Holdings",
+      "only_if": "space|satellite|geospatial|orbit|Wozniak",
+      "note": "Ours is Privateer Space (geospatial intelligence); a Seattle cannabis investor is also Privateer."
+    },
+    "AIR": {
+      "only_if": "eVTOL|aircraft|aviation|flying|flights?\\b|cargo|drones?\\b|FAA|airev",
+      "note": "Ours is the eVTOL maker AIR (airev.aero); an AI-agent security startup called Air raised in 2026."
+    },
+    "Laminar": {
+      "only_if": "sensors?|spectral|factor(?:y|ies)|manufactur|process|H2Ok|water",
+      "note": "Ours is the former H2Ok Innovations (inline spectral sensors, runlaminar.com); an agent-debugging Laminar is another."
+    },
+    "Pivotal": {
+      "only_if": "eVTOL|aircraft|flying|aviation|Helix|ultralight|BlackFly|aero",
+      "note": "Ours is the eVTOL maker (pivotal.aero); Pivotal Metals and others share the name."
+    },
+    "Swan": {
+      "only_if": "unmanned|drones?\\b|defen[cs]e|military|navigation|robot|autonomous (?:systems?|vehicles?|platforms?|swarms?)",
+      "note": "Ours is the defense-autonomy software company (swan.tech); Gray Swan, Black Swan and an 'autonomous business' Swan are others."
+    },
+    "Albacore": {
+      "only_if": "underwater|\\bUUVs?\\b|\\bAUVs?\\b|submarin|undersea|maritime|navy|naval|Ghostfin",
+      "note": "Ours builds long-range autonomous underwater vehicles (albacore.inc); AlbaCore Capital is a credit fund."
+    },
+    "Singularity": {
+      "only_if": "interceptors?|air[- ]defen[cs]e|missiles?|drones?\\b|defen[cs]e|military",
+      "note": "Ours builds low-cost missile interceptors (singularityus.com)."
+    },
+    "Kestrel": {
+      "only_if": "sensors?|agentic|defen[cs]e|military|space|orchestrat|intelligence",
+      "note": "Ours is Kestrel Intelligence (sensor-network orchestration); Kestrel is also a land trust, a bank and more."
+    },
+    "Twenty": {
+      "not_if": "\\bCRM\\b|open[- ]source|customer relationship|startups raise",
+      "note": "Ours builds offensive cyber-operations agents (twenty.io); Twenty the open-source CRM is another."
+    },
+    "Union": {
+      "only_if": "munitions?|artillery|shells?\\b|factor(?:y|ies)|defen[cs]e|military|weapons?|forg",
+      "note": "Ours is the Dallas-area munitions manufacturer (union.tech); Union AI, credit unions and labor unions are not."
+    },
+    "Specter": {
+      "only_if": "sensors?|perception|mesh|sites?\\b|security|defen[cs]e|surveillance|physical",
+      "note": "Ours builds site-perception sensors and software (specter.co); Specter Aerospace is its own record."
+    },
+    "Resilience": {
+      "only_if": "biomanufactur|manufactur|\\bCDMO\\b|biologic|pharma|drugs?\\b|vaccine|medicine|therapeut",
+      "note": "Ours is National Resilience, the biopharma CDMO (resilience.com)."
+    },
+    "Atoms": {
+      "only_if": "Kalanick|industrial|robot|automation|CloudKitchens|factor(?:y|ies)|Uber|food",
+      "note": "Ours is Travis Kalanick's industrial-AI company (atoms.co); the shoe brand Atoms raised too."
+    },
+    "Enigma": {
+      "not_if": "public data|data company|privacy|blockchain|crypto|Bulwark",
+      "note": "Ours is the physical-AI startup Enigma AI Labs (enigma.inc); Enigma the data company and others share the name."
+    },
+    "Loyal": {
+      "not_if": "\\bCRM\\b|patient engagement|healthcare marketing|hospitals?",
+      "note": "Ours develops dog-longevity drugs (loyal.com); Loyal the healthcare CRM is another."
+    },
+    "Verse": {
+      "not_if": "Dailyhunt|\\bJosh\\b|media|news app|payments? app|Verse Medical",
+      "note": "Ours helps data centers procure grid power (verse.inc); VerSe (Dailyhunt), the Verse payments app and Verse Medical are others."
+    },
+    "Glacier": {
+      "only_if": "recycl|robot|sorting|waste|\\bMRFs?\\b",
+      "note": "Ours builds recycling-sorting robots (endwaste.io); Glacier is also a blockchain and a bank."
+    },
+    "Nooks": {
+      "only_if": "classified|secure|defen[cs]e|government|national security|accredit|\\bSCIFs?\\b|military",
+      "note": "Ours runs classified infrastructure as a service (nooks.works); Nooks the AI sales dialer is another."
+    },
+    "Claros": {
+      "not_if": "PFAS|forever chemicals|water treatment|contamina",
+      "note": "Ours builds power delivery for AI data centers (claros.tech); Claros Technologies destroys PFAS."
+    },
+    "Vinci": {
+      "not_if": "construction|concessions?|motorways?|airports?|bonds?\\b|guidance|Eurovia|Cobra",
+      "note": "Ours runs GPU engineering simulation (getvinci.ai); VINCI SA is the French construction group."
+    },
+    "Impulse Space": {
+      "only_if": "space|orbit|rocket|satellite|Mueller|launch|lander|Mira|Helios|lunar|Mars|\\bMoon\\b",
+      "note": "'Impulse' is also Impulse Labs (induction stoves, its own record) and Impulse Dynamics (heart devices)."
+    },
+    "Bedrock Robotics": {
+      "only_if": "construction|excavat|autonom|heavy equipment|robot|Waymo|retrofit|earthmov",
+      "note": "'Bedrock' is also Bedrock Ocean (seafloor mapping) and Bedrock Energy (geothermal), both their own records."
+    },
+    "Primer AI": {
+      "not_if": "payments?\\b|fintech|checkout|merchant|commerce",
+      "only_if": "defen[cs]e|intelligence|national security|military|\\bNLP\\b|analysts?|government|Pentagon|Army|Navy",
+      "note": "Primer the payments platform (London) raises under the same name."
+    },
+    "Slingshot Aerospace": {
+      "only_if": "space|satellite|orbit|situational awareness|aerospace|defen[cs]e|simulation",
+      "note": "Slingshot AI (a therapy chatbot) and a fintech Slingshot raise under the same name."
+    },
+    "Dragonfly Aerospace": {
+      "only_if": "satellite|space|imag|earth observation|aerospace|orbit",
+      "note": "Dragonfly is also a crypto venture fund."
+    },
+    "Axiom Space": {
+      "only_if": "space|station|astronaut|orbit|NASA|\\bISS\\b|spacesuit|\\bAx-",
+      "note": "Several companies called Axiom raise rounds (a zk co-processor, an AI startup)."
+    },
+    "Multiply Labs": {
+      "only_if": "robot|pharma|biomanufactur|cell therap|drugs?\\b|lab automation",
+      "note": "Multiply the B2B-ads startup raised $9.5M in 2026."
+    },
+    "Arbor Energy": {
+      "only_if": "carbon|biomass|power|energy|turbine|\\bCO2\\b|removal|sequestr",
+      "note": "Arbor Biotechnologies and other Arbors raise under the same short name."
+    },
+    "Earth AI": {
+      "only_if": "minerals?|mining|exploration|drill|metals?\\b|geolog",
+      "note": "Rare Earth, Blue Earth, Helix Earth and Another Earth all end in 'Earth'."
+    },
+    "Outpost Space": {
+      "only_if": "space|satellite|re-?entry|orbit|return",
+      "note": "Outpost Bio, Outpost Technologies and a cross-border-commerce Outpost share the name."
+    },
+    "Reveal Technology": {
+      "only_if": "defen[cs]e|military|battlefield|\\bAR\\b|augmented|mapping|soldiers?|drones?\\b",
+      "note": "Several companies called Reveal raise rounds."
+    },
+    "Figure AI": {
+      "not_if": "fintech|HELOC|mortgage|blockchain|lending|Cagney",
+      "note": "Figure Technologies, the blockchain lender, listed on Nasdaq in 2025."
+    },
+    "Chaos Industries": {
+      "not_if": "render|V-Ray|Enscape|visuali[sz]ation|architects?",
+      "note": "Chaos the rendering-software company (V-Ray) shares the short name."
+    },
+    "Relativity Space": {
+      "not_if": "e-?discovery|legal|litigation|law firms?",
+      "note": "Relativity the e-discovery software company shares the short name."
+    },
+    "Latitude": {
+      "not_if": "stablecoins?|payments?\\b|fintech",
+      "only_if": "launch|rockets?|Zephyr|satellites?|space",
+      "note": "Ours builds the Zephyr micro-launcher (latitude.eu); a stablecoin-payments Latitude raised in 2026."
+    },
+    "Airship Industries": {
+      "only_if": "airships?|cargo|freight|aircraft|aviation|flying",
+      "note": "Ours builds autonomous cargo airships; Airship the home-services software company is another."
+    },
+    "MATERIAL": {
+      "only_if": "batter|3D[- ]print|electrodes?|cells?\\b|hybrid manufactur",
+      "note": "Ours 3D-prints batteries (material.inc); Material Bank and others share the word."
+    },
+    "Sublime Systems": {
+      "not_if": "e-?mail|cyber|security",
+      "only_if": "cement|concrete|decarboni|electrochem|clinker|building materials",
+      "note": "Sublime Security (email security) raises under the short name."
+    },
+    "Vast": {
+      "not_if": "\\b3D\\b|generative|Tripo|storage",
+      "only_if": "space|station|Haven|orbit|astronaut|NASA|launch|\\bISS\\b",
+      "note": "Ours builds the Haven space stations (vastspace.com); the Chinese 3D-AI company VAST raises too."
+    },
+    "ICON": {
+      "only_if": "3D[- ]print|homes?\\b|housing|construction|build|Olympus|lunar|Vulcan",
+      "note": "Ours 3D-prints houses (iconbuild.com); ICON Health & Fitness (NordicTrack) raises under the same name."
+    },
+    "Revel": {
+      "not_if": "\\bNFTs?\\b|crypto|rideshare|mopeds?|Revel Systems|point-of-sale|\\bPOS\\b|restaurants?",
+      "note": "Ours builds hardware-test software (revel.io); Revel the NYC EV rideshare, Revel Systems (POS) and an NFT Revel are others."
     }
   },
   "different_companies": [
@@ -32,5 +252,17 @@
     {"name": "Parallel Bio", "not": ["Parallel Systems"], "note": "Immune-organoid biotech; 'Bio' is a corporate suffix to the deal matcher, so without this entry its rounds would land on Parallel Systems."},
     {"name": "Parallel Web Systems", "not": ["Parallel Systems"], "note": "Parag Agrawal's AI web-search company."},
     {"name": "Twelve Labs", "not": ["Twelve"], "note": "Video-understanding AI company; Twelve is the Berkeley CO2-to-fuels company (twelve.co). Both reduce to the stem 'twelve'."}
+  ],
+  "common_word_names": [
+    "Abridge", "Agility", "AIR", "Airship", "Ample", "Anode", "Anthropic", "Arbor", "Armada", "ASI", "Atoms", "Avalanche",
+    "Axiom", "Bedrock", "Bronco", "Built", "Cape", "Chaos", "Cohere", "Collaborative", "Colossal", "Covariant", "Covenant", "Cover",
+    "Cradle", "Deterrence", "Dexterity", "Diode", "Divergent", "Dragonfly", "Dust", "Earth", "Endurance", "Enigma", "Etched", "Field",
+    "Figure", "Firefly", "Flux", "Focused", "Gambit", "Gecko", "Glacier", "Glimpse", "Halo", "Helios", "Humane", "Humanoid",
+    "Icon", "Impulse", "Integrate", "Inversion", "Kestrel", "Latitude", "Launchpad", "Locus", "Loyal", "Mammoth", "Material", "Matter",
+    "Mistral", "Modal", "Monumental", "Multiply", "Mythic", "Nominal", "Nudge", "Observable", "Orchid", "Ouster", "Outpost", "Overland",
+    "Parallel", "Parry", "Pilgrim", "Pivotal", "Planet", "Primer", "Radiant", "Rainbow", "Rapid", "Rebellions", "Relativity", "Resilience",
+    "Reveal", "Revel", "Runway", "Sift", "Singularity", "Skeleton", "Skyways", "Slingshot", "Span", "Specter", "Steady", "Stoke",
+    "Sublime", "Substrate", "Surge", "Swan", "Synthesis", "Tempo", "Terrestrial", "Twelve", "Twenty", "Union", "Until", "Uplift",
+    "Vast", "Verse", "Vertical", "Watershed", "Zoo"
   ]
 }

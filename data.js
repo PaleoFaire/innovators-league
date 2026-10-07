@@ -44868,7 +44868,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
   },
   {
     name: "Terra Industries",
-    formerNames: ["Terra Industries"],
+    formerNames: ["Terrahaptix"],
     status: "active",
     insight: "One operating system, ArtemisOS, running drones, sentry towers, ground robots, and maritime surveillance means security scales with software instead of headcount. The moat is the mission-planning layer, not any single machine.",
     founded: 2024,
@@ -57035,14 +57035,14 @@ const FOUNDER_MAFIAS = {
   "Palantir Mafia": {
     icon: "🛡️",
     color: "#dc2626",
-    description: "Former Palantir employees who founded defense and enterprise tech companies",
+    description: "Companies with at least one co-founder who worked at Palantir (verified Oct 2026 from company sites, investor pages and founder bios; investors, interns and later hires excluded)",
     companies: [
-      { company: "Anduril Industries", founders: "Trae Stephens (Palantir, then Founders Fund)" },
-      { company: "Hadrian", founders: "Chris Power (Palantir network)" },
-      { company: "Saronic", founders: "Deans Kamen (Palantir defense network)" },
-      { company: "Vannevar Labs", founders: "Brett Granberg (Palantir)" },
-      { company: "8VC", founders: "Joe Lonsdale (Palantir Co-Founder)" },
-      { company: "Epirus", founders: "Defense network overlap with Palantir ecosystem" }
+      { company: "Anduril Industries", founders: "Trae Stephens (early Palantir employee; led intelligence and defense growth and international expansion), Brian Schimpf (Palantir director of engineering; built Foundry), Matt Grimm (6+ years at Palantir as a forward-deployed engineer, including Iraq and Afghanistan)" },
+      { company: "Epirus", founders: "Joe Lonsdale (co-founded Palantir in 2003; co-founded Epirus through 8VC Build in 2018)" },
+      { company: "Cape", founders: "John Doyle (ran Palantir's national security business; Cape founder and CEO)" },
+      { company: "Nominal", founders: "Jason Hoch (5 years at Palantir; led a team deploying Foundry)" },
+      { company: "Gallatin AI", founders: "Woody Glier (7 years at Palantir in product and delivery roles; Gallatin CEO)" },
+      { company: "Smack Technologies", founders: "Andy Markoff (operations and strategy at Palantir; Smack CEO)" }
     ]
   },
   "Google/DeepMind Alumni": {
