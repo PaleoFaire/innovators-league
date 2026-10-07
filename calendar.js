@@ -72,17 +72,6 @@ var FRONTIER_EVENTS = [
     keyAttendees: ["Base Power", "Form Energy"]
   },
   {
-    title: "ROS x Inner Circle: Abu Dhabi Summit",
-    date: "2026-11-15",
-    endDate: "2026-11-17",
-    location: "Abu Dhabi, UAE",
-    type: "ros-event",
-    description: "Flagship ROS gathering bringing top frontier tech founders to Abu Dhabi for meetings with sovereign wealth and family offices.",
-    url: "https://rationaloptimistsociety.substack.com/",
-    stephenRecommends: true,
-    keyAttendees: ["Handpicked IL30 founders", "UAE investors"]
-  },
-  {
     title: "DefenseTalk Tech Summit",
     date: "2026-06-03",
     endDate: "2026-06-05",

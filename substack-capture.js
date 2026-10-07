@@ -143,7 +143,7 @@
       'Factory visits, founder calls, and deal signals that aren’t in any LLM. Free, every Sunday.';
     var eyebrow  = el.getAttribute('data-eyebrow') || 'STEPHEN’S WEEKLY';
     var cta      = el.getAttribute('data-cta') || 'Subscribe Free';
-    var note     = el.getAttribute('data-note') || 'Join 50,000+ investors and founders. No spam — unsubscribe anytime.';
+    var note     = el.getAttribute('data-note') || 'Join 32,000+ investors and founders. No spam — unsubscribe anytime.';
 
     el.innerHTML =
       '<div class="til-capture-eyebrow">' + eyebrow + '</div>' +
