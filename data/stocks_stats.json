@@ -5,95 +5,100 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 2.73,
+      "avg_change": 3.34,
       "count": 1
     },
     "space": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 2.41,
+      "avg_change": -0.56,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -0.85,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -2.28,
       "count": 7
     },
     "nuclear": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 3.89,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -1.62,
       "count": 3
     },
     "climate": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.44,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 0.28,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -2.98,
+      "avg_change": -7.23,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.05,
+      "avg_change": -1.98,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 2.41,
+      "avg_change": 0.98,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.04,
+      "avg_change": 5.56,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      14.89
+      "ALAB",
+      "Astera Labs",
+      7.97
     ],
     [
       "PL",
       "Planet Labs",
-      13.37
+      7.93
     ],
     [
-      "ALAB",
-      "Astera Labs",
-      8.93
+      "277810.KQ",
+      "Rainbow Robotics",
+      7.32
     ],
     [
       "TSLA",
       "Tesla",
-      7.89
+      6.48
     ],
     [
-      "RKLB",
-      "Rocket Lab",
-      7.69
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      5.93
     ]
   ],
   "topLosers": [
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -4.5
+      "RGTI",
+      "Rigetti Computing",
+      -7.37
     ],
     [
-      "ACHR",
-      "Archer Aviation",
-      -8.1
+      "EVTL",
+      "Vertical Aerospace",
+      -7.85
+    ],
+    [
+      "QBTS",
+      "D-Wave Quantum",
+      -8.3
     ],
     [
       "ASRHF",
@@ -101,15 +106,10 @@
       -9.2
     ],
     [
-      "EVTL",
-      "Vertical Aerospace",
-      -11.53
-    ],
-    [
       "TEM",
       "Tempus AI",
-      -12.84
+      -13.24
     ]
   ],
-  "lastUpdated": "2026-10-07 07:18:37"
+  "lastUpdated": "2026-10-07 19:23:27"
 }
