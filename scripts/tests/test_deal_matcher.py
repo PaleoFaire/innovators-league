@@ -246,6 +246,8 @@ def test_master_list_covers_every_data_js_company():
     _, entries = sm.parse_master(sm.MASTER.read_text(encoding="utf-8"))
     renames, new, _, _ = sm.plan(companies, entries, None, None, False)
     check((len(renames), [n for _, n, _ in new]), (0, []), "data.js companies missing from the master list")
+    keys = [fd._db_key(n) for _, n, _ in entries]
+    check(sorted({n for _, n, _ in entries if keys.count(fd._db_key(n)) > 1}), [], "duplicate master-list lines")
     # ...and nothing cut from the database came back with it.
     import json
     cut = {fd._squash(c["name"]) for c in json.loads(sm.ARCHIVE.read_text())["companies"]}

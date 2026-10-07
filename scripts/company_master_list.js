@@ -2,11 +2,12 @@
  * MASTER COMPANY LIST - The Innovators League
  * ============================================
  * 
- * Complete registry of ALL 500 companies tracked in the database.
- * Used by all data fetchers for comprehensive news monitoring.
- * 
+ * Every company in data.js COMPANIES, plus about 100 outside it kept for news
+ * context. Used by the news, jobs and deal matchers. Keep it in step with
+ * python3 scripts/sync_master_list.py (--check reports drift).
+ *
  * Coverage: 100% of companies in data.js
- * Total companies: 1286
+ * Total companies: 1283
  * Last updated: 2026-10-07
  * 
  * Each company has:
@@ -111,7 +112,7 @@ const MASTER_COMPANY_LIST = [
   { name: "Lightmatter", aliases: ["photonic interconnects", "optical"], sector: "chips", ticker: null },
   { name: "Substrate", aliases: ["lithography", "X-ray", "chipmaking"], sector: "chips", ticker: null },
   { name: "Lab 91", aliases: ["Lab91", "2D materials", "semiconductors"], sector: "chips", ticker: null },
-  { name: "Cuby Technologies", aliases: ["CubyTechnologies", "modular homes", "micro-factory", "construction"], sector: "construction", ticker: null },
+  { name: "Cuby Technologies", aliases: ["CubyTechnologies", "Cuby", "modular homes", "micro-factory", "construction", "housing", "construction tech", "modular", "prefab"], sector: "construction", ticker: null },
   { name: "Cover", aliases: ["modular homes", "panel-based", "construction"], sector: "construction", ticker: null },
   { name: "The Boring Company", aliases: ["TheBoringCompany", "Boring Company", "tunneling", "transit", "infrastructure"], sector: "transportation", ticker: null },
   { name: "Pipedream", aliases: ["underground delivery", "logistics", "infrastructure"], sector: "transportation", ticker: null },
@@ -463,7 +464,6 @@ const MASTER_COMPANY_LIST = [
   { name: "Cresilon", aliases: ["medical devices", "trauma care", "hemostatic", "FDA cleared"], sector: "biotech", ticker: null },
   { name: "Ulysses Robotics", aliases: ["Ulysses", "UlyssesRobotics", "UlyssesEco", "ocean tech", "underwater autonomy", "ecosystem restoration"], sector: "robotics", ticker: null },
   { name: "Poseidon Aerospace", aliases: ["Poseidon", "PoseidonAerospace", "ekranoplan", "ground-effect vehicle"], sector: "aerospace", ticker: null },
-  { name: "Cuby Technologies", aliases: ["Cuby", "housing", "construction tech", "modular", "prefab"], sector: "construction", ticker: null },
   { name: "White Stork", aliases: ["WhiteStork", "Ukraine", "autonomous weapons"], sector: "defense", ticker: null },
   { name: "Parry Labs", aliases: ["Parry", "ParryLabs", "systems integration", "digital transformation"], sector: "defense", ticker: null },
   { name: "Fortem Technologies", aliases: ["Fortem", "FortemTechnologies", "C-UAS", "drone interceptor"], sector: "defense", ticker: null },
@@ -633,7 +633,7 @@ const MASTER_COMPANY_LIST = [
   { name: "Baykar", aliases: ["Bayraktar", "TB2", "TB3", "Kizilelma"], sector: "defense", ticker: null },
   { name: "Ranovus", aliases: ["Ranovus photonics", "copackaged optics"], sector: "chips", ticker: null },
   { name: "Summit Lithium Technologies", aliases: ["Summit Nanotech", "DLE lithium"], sector: "mining", ticker: null },
-  { name: "Terra Industries", aliases: ["TerraIndustries", "Nigerian drones", "NetHawk"], sector: "defense", ticker: null },
+  { name: "Terra Industries", aliases: ["TerraIndustries", "Terrahaptix", "Nigerian drones", "NetHawk"], sector: "defense", ticker: null },
   { name: "Stark Defence", aliases: ["Stark", "Virtus VTOL"], sector: "defense", ticker: null },
   { name: "Agile Robots", aliases: ["AgileRobots", "Agile ONE"], sector: "robotics", ticker: null },
   { name: "Reflex Aerospace", aliases: ["ReflexAerospace", "Praetora platform"], sector: "space", ticker: null },
@@ -678,7 +678,6 @@ const MASTER_COMPANY_LIST = [
   { name: "MineSense Technologies", aliases: ["MineSense", "ore sorting"], sector: "climate", ticker: null },
   { name: "Fossa Systems", aliases: ["Fossa picosats", "Spanish IoT satellite"], sector: "space", ticker: null },
   { name: "Saltfoss Energy", aliases: ["Saltfoss", "Seaborg", "molten salt reactor"], sector: "nuclear", ticker: null },
-  { name: "Terra Industries", aliases: ["Terrahaptix", "NetHawk"], sector: "defense", ticker: null },
 
   // ─── Round 7d: US audit additions (Apr 2026) ───
   { name: "xAI", aliases: ["X.ai", "Grok", "Colossus"], sector: "ai", ticker: null },
