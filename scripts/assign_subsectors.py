@@ -217,7 +217,6 @@ OVERRIDES = {
     "APOLINK": "Communications & PNT",
     "EnCharge AI": "AI Compute",
     "Aseon Labs": "General",
-    "Bedrock Ocean Exploration": "General",
     "xLight": "Fabs & Manufacturing Equipment",
     "TeraWatt Technology": "Batteries & Storage",
     "Zendar": "Sensors & Specialty Silicon",
