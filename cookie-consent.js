@@ -1,5 +1,5 @@
 /*
- * Cookie Consent Banner - The Innovators League
+ * Cookie Consent Banner - The ROS Innovators League
  *
  * Reusable consent banner injected on every page.
  *

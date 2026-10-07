@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
     body += 'From: ' + data.name + ' (' + data.email + ')\n';
     body += 'Organization: ' + (data.org || 'N/A') + '\n\n';
     body += '---\n';
-    body += 'Submitted via The Innovators League research portal.';
+    body += 'Submitted via The ROS Innovators League research portal.';
 
     var mailto = 'mailto:research@rationaloptimistsociety.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
 

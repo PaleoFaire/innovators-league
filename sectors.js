@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════════════
 // SECTOR EXPLORER — sectors.js
-// The Innovators League | Rational Optimist Society
+// The ROS Innovators League | Rational Optimist Society
 // ═══════════════════════════════════════════════════════════════════════════════
 // Top-level: grid of sector cards (one per SECTORS entry).
 // Drilldown (via ?sector=slug): hero + sub-segments + market map + companies

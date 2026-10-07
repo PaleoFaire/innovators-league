@@ -1,5 +1,5 @@
 /**
- * Exit Watch — The Innovators League
+ * Exit Watch — The ROS Innovators League
  *
  * Renders the pre-company dealflow queue from EXIT_WATCH (data/exit_watch_auto.js).
  *

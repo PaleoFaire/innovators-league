@@ -860,7 +860,7 @@ function openPartnerPortal(formType, eventName) {
     body.innerHTML = `
       <div class="partner-portal-header">
         <h2>🚀 Apply to Be Listed</h2>
-        <p>Get your company in front of investors, analysts, and defense primes on the Innovators League.</p>
+        <p>Get your company in front of investors, analysts, and defense primes on the ROS Innovators League.</p>
       </div>
       <form class="partner-form" onsubmit="submitPartnerForm(event, 'founder-apply')">
         <div class="form-row">
@@ -1002,7 +1002,7 @@ function submitPartnerForm(event, type) {
   // Show success message
   var successMsg = '';
   if (type === 'founder-apply') {
-    successMsg = 'Application received. We review every submission and will be in touch if your company is a fit for the Innovators League.';
+    successMsg = 'Application received. We review every submission and will be in touch if your company is a fit for the ROS Innovators League.';
   } else if (type === 'nomination') {
     successMsg = 'Your nomination has been submitted. Our team will review it shortly.';
   } else if (type === 'event-rsvp') {
@@ -9994,7 +9994,7 @@ function generateSectorPDF(sectorName) {
   doc.setFontSize(10);
   doc.setFont('helvetica', 'normal');
   doc.setTextColor(255, 107, 44);
-  doc.text('THE INNOVATORS LEAGUE', margin, y);
+  doc.text('ROS INNOVATORS LEAGUE', margin, y);
   doc.setTextColor(120, 120, 130);
   doc.text('Sector Intelligence Report', pageW - margin, y, { align: 'right' });
   y += 8;
@@ -10102,7 +10102,7 @@ function generateSectorPDF(sectorName) {
   doc.setFontSize(8);
   doc.setFont('helvetica', 'italic');
   doc.setTextColor(80, 80, 90);
-  doc.text('The Innovators League \u00b7 Rational Optimist Society \u00b7 For informational purposes only', pageW / 2, y, { align: 'center' });
+  doc.text('The ROS Innovators League \u00b7 Rational Optimist Society \u00b7 For informational purposes only', pageW / 2, y, { align: 'center' });
 
   // Save
   doc.save(`TIL_${sectorName.replace(/[^a-zA-Z0-9]/g, '_')}_Report.pdf`);
@@ -11646,7 +11646,7 @@ function initOpti() {
     // ─── Greetings ───
     if (/^(hi|hey|hello|sup|yo|what'?s up)/i.test(q)) {
       return {
-        text: "Hey! \ud83d\udc4b I'm <strong>Opti</strong>, your frontier tech intelligence sidekick. I know everything in the Innovators League database \u2014 " +
+        text: "Hey! \ud83d\udc4b I'm <strong>Opti</strong>, your frontier tech intelligence sidekick. I know everything in the ROS Innovators League database \u2014 " +
               (typeof COMPANIES !== 'undefined' ? COMPANIES.length : '500+') +
               " companies across defense, space, energy, biotech, and robotics. Ask me anything! What are you curious about?"
       };
@@ -11811,7 +11811,7 @@ function initOpti() {
       return { text: "The database is still loading. Give it a second and try again!" };
     }
     return {
-      text: "Here are the top-rated companies in the Innovators League right now:<br><br>" +
+      text: "Here are the top-rated companies in the ROS Innovators League right now:<br><br>" +
             top.map((c, i) => '<strong>' + (i + 1) + '. ' + c.name + '</strong> \u2014 ' + (c.sector || '') + ' (score: ' + compositeScore(c) + '/50)').join('<br>') +
             "<br><br>These scores factor in team strength, traction, tech moat, market size, and momentum. Anything catch your eye?"
     };
@@ -11874,7 +11874,7 @@ function initOpti() {
     const mafiaEntries = Object.entries(mergedSource).slice(0, 5);
     const totalMafias = Object.keys(mergedSource).length;
     return {
-      text: "The Innovators League tracks <strong>" + totalMafias + " founder mafias</strong> \u2014 alumni networks from elite companies that spawn new startups:<br><br>" +
+      text: "The ROS Innovators League tracks <strong>" + totalMafias + " founder mafias</strong> \u2014 alumni networks from elite companies that spawn new startups:<br><br>" +
             mafiaEntries.map(([name, m]) => '\u2022 <strong>' + name + '</strong> \u2014 ' + m.companies.length + ' companies (' + m.companies.slice(0, 3).map(c => c.company).join(', ') + (m.companies.length > 3 ? '...' : '') + ')').join('<br>') +
             "<br><br>The SpaceX and Palantir mafias are especially prolific. Want me to dig into any of these?"
     };
@@ -11902,7 +11902,7 @@ function initOpti() {
   function buildGeneralResponse(q) {
     const responses = [
       "Interesting question! I'm currently trained on the " + (typeof COMPANIES !== 'undefined' ? COMPANIES.length : '500+') +
-        " companies in the Innovators League database. Try asking me about a specific company, sector, or trend \u2014 like \"Tell me about Anduril\" or \"What are the top defense startups?\"",
+        " companies in the ROS Innovators League database. Try asking me about a specific company, sector, or trend \u2014 like \"Tell me about Anduril\" or \"What are the top defense startups?\"",
       "I'm Opti \u2014 I know frontier tech inside and out. Try asking me:<br>" +
         "\u2022 About a company: \"What's SpaceX's valuation?\"<br>" +
         "\u2022 About a sector: \"Top biotech companies\"<br>" +

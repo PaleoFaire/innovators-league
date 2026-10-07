@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════════════════════════════════════════════
-// THE INNOVATORS LEAGUE — Analytics & Error Reporting
+// ROS INNOVATORS LEAGUE — Analytics & Error Reporting
 // ═══════════════════════════════════════════════════════════════════════════════
 //
 // Wires up Plausible (privacy-friendly page analytics) and Sentry (JS error

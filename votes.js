@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════════════════════════════════════════════
-// THE INNOVATORS LEAGUE — Community Upvotes
+// ROS INNOVATORS LEAGUE — Community Upvotes
 // ═══════════════════════════════════════════════════════════════════════════════
 //
 // Lets logged-in users upvote any company in the database. Vote counts drive

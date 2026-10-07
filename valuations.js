@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════════════
 // VALUATION INTELLIGENCE ENGINE — valuations.js
-// The Innovators League | Rational Optimist Society
+// The ROS Innovators League | Rational Optimist Society
 // ═══════════════════════════════════════════════════════════════════════════════
 
 document.addEventListener('DOMContentLoaded', () => {

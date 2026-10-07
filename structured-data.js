@@ -1,5 +1,5 @@
 /*
- * Structured Data (JSON-LD) — The Innovators League
+ * Structured Data (JSON-LD) — The ROS Innovators League
  *
  * Injects schema.org metadata into the document head so search engines can
  * render rich results. Three layers:
@@ -46,7 +46,7 @@
   inject({
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    'name': 'The Innovators League',
+    'name': 'ROS Innovators League',
     'legalName': 'Rational Optimist Society',
     'alternateName': ['ROS', 'Innovators League'],
     'url': BASE + '/',
@@ -68,7 +68,7 @@
   inject({
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    'name': 'The Innovators League',
+    'name': 'ROS Innovators League',
     'url': BASE + '/',
     'description': 'Frontier-tech intelligence platform tracking defense, space, nuclear, semiconductors, and advanced-manufacturing companies.',
     'publisher': { '@type': 'Organization', 'name': 'Rational Optimist Society' },
@@ -85,7 +85,7 @@
   var pageObj = {
     '@context': 'https://schema.org',
     '@type': pageType,
-    'name': document.title || 'The Innovators League',
+    'name': document.title || 'The ROS Innovators League',
     'url': $canonical(),
     'description': $meta('description') || '',
     'isPartOf': { '@type': 'WebSite', 'url': BASE + '/' }

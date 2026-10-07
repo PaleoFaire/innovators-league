@@ -1,5 +1,5 @@
 /*
- * The Innovators League — runtime config
+ * The ROS Innovators League — runtime config
  *
  * Loaded BEFORE analytics.js on every page. Sets the globals that analytics.js
  * checks before activating Plausible (page analytics) and Sentry (error

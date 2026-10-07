@@ -268,7 +268,7 @@
       renderNotFound(name);
       return;
     }
-    document.title = firm.name + ' | The Innovators League';
+    document.title = firm.name + ' | The ROS Innovators League';
     const root = document.getElementById('if-root');
     if (!root) return;
     root.innerHTML = renderHero(firm) + renderSections(firm);

@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════════════════════════════════════════════
-// THE INNOVATORS LEAGUE — Authentication & Access Gating Module
+// ROS INNOVATORS LEAGUE — Authentication & Access Gating Module
 // Powered by Supabase. All pages include this file before app.js.
 // ═══════════════════════════════════════════════════════════════════════════════
 

@@ -1,6 +1,6 @@
 /**
  * Jobs Board JavaScript
- * The Innovators League
+ * The ROS Innovators League
  */
 
 // State

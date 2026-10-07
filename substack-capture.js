@@ -1,5 +1,5 @@
 /*
- * Substack Email Capture — The Innovators League
+ * Substack Email Capture — The ROS Innovators League
  *
  * Renders a custom-branded email capture form that posts directly to the
  * Substack subscription page with the email pre-filled. Validates locally
