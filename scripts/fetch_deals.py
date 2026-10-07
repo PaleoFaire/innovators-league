@@ -14,6 +14,7 @@ Free APIs only — no paid Crunchbase/PitchBook keys needed.
 
 import json
 import re
+import sys
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
@@ -21,6 +22,18 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 DATA_JS_PATH = Path(__file__).parent.parent / "data.js"
+NAME_COLLISIONS_PATH = DATA_DIR / "name_collisions.json"
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+# A feed deal is never created for a company data.js records as listed,
+# acquired or dead: "SpaceX raises" in Oct 2026 was a Satlyt round, and a
+# listed company's raises are offerings this feed cannot parse.
+INACTIVE_STATUSES = {"ipo", "acquired", "dead"}
+# A round with no stage label that is under this share of the company's
+# recorded totalRaised is almost always another company or a misparse
+# ("Hadrian raises $40M" was the Dutch security firm, not the $1.7B factory).
+MAGNITUDE_FLOOR = 0.05
 
 # RSS feeds specifically for funding news
 FUNDING_FEEDS = [
@@ -37,6 +50,115 @@ FUNDING_FEEDS = [
 
 # Company aliases — dynamically loaded from master company list
 COMPANY_ALIASES = {}
+
+# Filled by init_matcher(). data.js records (name -> status/totalRaised), the
+# squashed-name indexes used to prefer a longer company, and the hand-kept
+# collision list in data/name_collisions.json.
+DB_COMPANIES = {}
+_DB_BY_KEY = {}
+_ALIAS_BY_KEY = {}
+CONTEXT_GUARDS = {}
+DIFFERENT = {}
+# Deals the guards dropped this run, printed by main() so a wrong skip can be seen.
+SKIPPED = []
+
+
+def _squash(s):
+    return re.sub(r'[^a-z0-9]', '', (s or '').lower())
+
+
+def _money_millions(text):
+    """'$1.7B+' -> 1700.0, '~$110-111M' -> 110.0, '€30M' -> 30.0; None when no figure.
+
+    Currencies are not converted: the magnitude guard is a 5% test, and a
+    euro-for-dollar slip moves it by a few points at most.
+    """
+    m = re.search(r'[$€£]\s?(\d+(?:[.,]\d+)*)\s*(?:[-–]\s*\d+(?:\.\d+)?\s*)?'
+                  r'(K|M|B|bn|mm|thousand|million|billion)\b', text or '', re.I)
+    if not m:
+        return None
+    try:
+        num = float(m.group(1).replace(',', ''))
+    except ValueError:
+        return None
+    unit = m.group(2).lower()
+    if unit in ('b', 'bn', 'billion'):
+        return num * 1000
+    if unit in ('k', 'thousand'):
+        return num / 1000
+    return num
+
+
+def load_db_companies(path=DATA_JS_PATH):
+    """name -> {status, raised, raised_m} for every COMPANIES record in data.js.
+
+    Uses the data-quality gate's pure-Python parser, so the daily sync needs
+    no Node step. Any failure returns {} and the status and magnitude guards
+    stand down for the run instead of failing the sync.
+    """
+    try:
+        from validate_data_quality import company_objects, gv
+        out = {}
+        for o in company_objects(Path(path).read_text()):
+            name = gv(o, "name")
+            if not name:
+                continue
+            raised = gv(o, "totalRaised") or ""
+            out[name] = {"status": (gv(o, "status") or "").lower(), "raised": raised,
+                         "raised_m": _money_millions(raised)}
+        return out
+    except Exception as e:                                   # noqa: BLE001
+        print(f"  WARNING: could not read COMPANIES from data.js ({type(e).__name__}: {e}); "
+              "status and magnitude guards are off this run")
+        return {}
+
+
+def load_name_collisions(path=NAME_COLLISIONS_PATH):
+    """(context guards, different companies) from data/name_collisions.json.
+
+    context guards:      DB name -> (compiled not_if regex, note)
+    different companies: squashed name -> {name, not: squashed DB names, note}
+    A missing or unreadable file disables the guard rather than the feed.
+    """
+    try:
+        raw = json.loads(Path(path).read_text())
+    except FileNotFoundError:
+        return {}, {}
+    except (OSError, ValueError) as e:
+        print(f"  WARNING: {path} unreadable ({e}); name-collision guard is off this run")
+        return {}, {}
+    guards = {}
+    for company, g in (raw.get("context_guards") or {}).items():
+        if not isinstance(g, dict) or not g.get("not_if"):
+            continue
+        try:
+            guards[company] = (re.compile(g["not_if"], re.I), g.get("note", ""))
+        except re.error as e:
+            print(f"  WARNING: bad not_if pattern for {company}: {e}")
+    different = {}
+    for e in raw.get("different_companies") or []:
+        nots = e.get("not") or []
+        nots = [nots] if isinstance(nots, str) else nots
+        if e.get("name") and nots:
+            entry = different.setdefault(_squash(e["name"]),
+                                         {"name": e["name"], "not": set(), "note": e.get("note", "")})
+            entry["not"].update(_squash(n) for n in nots)
+    return guards, different
+
+
+def init_matcher(data_js=DATA_JS_PATH, collisions=NAME_COLLISIONS_PATH):
+    """Load everything match_company() and the deal guards read."""
+    global COMPANY_ALIASES, DB_COMPANIES, _DB_BY_KEY, _ALIAS_BY_KEY, CONTEXT_GUARDS, DIFFERENT
+    COMPANY_ALIASES = load_company_aliases()
+    DB_COMPANIES = load_db_companies(data_js)
+    _DB_BY_KEY = {_squash(n): n for n in DB_COMPANIES}
+    _ALIAS_BY_KEY = {_squash(a): c for a, c in COMPANY_ALIASES.items()}
+    CONTEXT_GUARDS, DIFFERENT = load_name_collisions(collisions)
+
+
+def _db_record(company):
+    """data.js record for a matched company, tolerating spelling variants."""
+    return DB_COMPANIES.get(company) or DB_COMPANIES.get(_DB_BY_KEY.get(_squash(company), ""))
 
 
 def load_company_aliases():
@@ -246,6 +368,9 @@ _NOT_A_ROUND = re.compile(
     r"worth|cap|capitalization|deficit|economy|spending|forecast|projected|"
     r"expected to reach|by 20\d\d)\b", re.I)
 
+# What may sit between the two ends of a range of figures.
+_RANGE_GAP = re.compile(r"^\s*(?:-|–|—|to|or|and)\s*$", re.I)
+
 # Words immediately around a figure that mean it IS the round.
 _IS_A_ROUND = re.compile(
     r"\b(rais(?:e|es|ed|ing)|secur(?:e|es|ed|ing)|clos(?:e|es|ed|ing)|"
@@ -275,9 +400,10 @@ def parse_funding_amount(text):
         return None
 
     candidates = []
-    for m in re.finditer(
+    figures = list(re.finditer(
             r'\$\s?(\d+(?:[.,]\d+)?)\s*(billion|million|bn|mm|[BbMm])\b'
-            r'|\$\s?(\d{1,3}(?:,\d{3}){2,})\b', text):
+            r'|\$\s?(\d{1,3}(?:,\d{3}){2,})\b', text))
+    for i, m in enumerate(figures):
         if m.group(1):
             num = float(m.group(1).replace(',', ''))
             unit = m.group(2).lower()
@@ -289,7 +415,19 @@ def parse_funding_amount(text):
         # figure ("$12 billion drilling market"). A wide window here would let
         # the market at the end of the sentence veto the round at the start,
         # which is the same sentence-level confusion in the other direction.
-        near = text[max(0, m.start() - 45): m.end() + 32]
+        # For the same reason the window stops at a neighbouring figure: in
+        # "raises $250M Series C at $2.5B valuation" the valuation belongs to
+        # the $2.5B, and until Oct 2026 it vetoed the round too, so the most
+        # common shape of funding headline produced no deal. A range
+        # ("the $5B-$10B market") still shares its words.
+        lo, hi = max(0, m.start() - 45), m.end() + 32
+        if i + 1 < len(figures) and figures[i + 1].start() < hi \
+                and not _RANGE_GAP.match(text[m.end():figures[i + 1].start()]):
+            hi = figures[i + 1].start()
+        if i > 0 and figures[i - 1].end() > lo \
+                and not _RANGE_GAP.match(text[figures[i - 1].end():m.start()]):
+            lo = figures[i - 1].end()
+        near = text[lo:hi]
         if _NOT_A_ROUND.search(near):
             continue
         # Qualifiers may sit further off — "raises" can lead a sentence that
@@ -360,16 +498,62 @@ _FUNDING_VERB = re.compile(
     r"|announces?|completes?|wins?|draws?|pulls in|rakes in)\b", re.I)
 # A name in these positions is context, not the subject: "ex-Palantir founders
 # raise $22M", "Palantir-backed X raises", "a rival to Anduril raises".
+#
+# Names in a list share their marker: "former Google and SpaceX product
+# manager", "ex-Google, SpaceX engineers", "SpaceX and Google alumni". Satlyt's
+# $8M round was credited to SpaceX in Oct 2026 through exactly that gap. The
+# list words must be capitalised (case-sensitive inside the otherwise
+# case-insensitive patterns), so "from scratch, Neros raises" is not a list.
+_PROPER = r"(?-i:[A-Z0-9][\w.&'’-]*)(?:\s+(?-i:[A-Z0-9][\w.&'’-]*))*"
+_JOIN = r"(?:\s+(?:and|or|&)\s+|\s*&\s*|\s*/\s*)"
+# A comma joins a list only after the people markers ("ex-Google, SpaceX");
+# after "by"/"from" it ends the phrase: "Backed by Founders Fund, Neros raises".
+_JOIN_COMMA = rf"(?:\s*,\s*(?:and\s+|or\s+)?|{_JOIN})"
 _NOT_SUBJECT_BEFORE = re.compile(
-    r"(?:\bex-|\bformer\s+|\balumni\s+of\s+|\bveterans?\s+of\s+|\blike\s+|\brival(?:s)?\s+(?:to\s+)?"
-    r"|\bvs\.?\s+|\bversus\s+|\bfrom\s+|\bby\s+|\bwith\s+|\bbacked\s+by\s+|\bout\s+of\s+|\bthe\s+next\s+)$", re.I)
+    rf"(?:(?:\bex-|\bformer\s+|\balumni\s+of\s+|\bveterans?\s+of\s+)(?:{_PROPER}{_JOIN_COMMA})*"
+    r"|(?:\blike\s+|\brival(?:s)?\s+(?:to\s+)?|\bvs\.?\s+|\bversus\s+|\bfrom\s+|\bby\s+|\bwith\s+"
+    rf"|\bbacked\s+by\s+|\bout\s+of\s+|\bthe\s+next\s+)(?:{_PROPER}{_JOIN})*)$", re.I)
+# People and offshoots of a company: "SpaceX engineers raise $10M" is not a SpaceX round.
+_CONTEXT_NOUN = (r"(?:alum(?:ni|nus|na|s)?|veterans?|engineers?|founders?|co-?founders?|execs?"
+                 r"|executives?|employees?|researchers?|scientists?|staffers?|insiders?"
+                 r"|spinouts?|spin-?offs?|rivals?|competitors?)")
 _NOT_SUBJECT_AFTER = re.compile(
-    r"^(?:-?(?:backed|founded|alum(?:ni)?|veterans?|spinout|spin-?off|style|like|rival)\b"
-    r"|\s+(?:alum(?:ni)?|veterans?|spinout|spin-?off|rival|competitor)s?\b"
-    r"|['’]s\s+(?:former|ex-|rival|competitor|alum))", re.I)
+    rf"^(?:-?{_JOIN}{_PROPER})*"
+    r"(?:-?(?:backed|founded|alum(?:ni)?|veterans?|spinout|spin-?off|style|like|rival)\b"
+    rf"|\s+{_CONTEXT_NOUN}\b"
+    r"|['’]s\s+(?:former|ex-|rival|competitor|alum|founder|co-?founder))", re.I)
+
+# The capitalised words that continue a name: "Monumental" + " Labs".
+_NEXT_PROPER = re.compile(r"\s+[A-Z0-9][\w'’.&-]*")
+# alias -> compiled word-boundary pattern, filled on first use.
+_ALIAS_RX = {}
 
 
-def match_company(title):
+def _inside_aside(title, start, end, limit):
+    """True when a name sits in a parenthetical or appositive before the verb.
+
+    "Satlyt, founded by a former Google and SpaceX product manager, raises $8M"
+    names SpaceX only to describe Satlyt. A name right after a comma is still a
+    subject ("After a record year, Neros, the drone maker, raises"), so the
+    appositive needs words between its opening comma and the name.
+    """
+    before, between = title[:start], title[end:limit]
+    if before.rfind('(') > before.rfind(')') and ')' in between:
+        return True
+    c = before.rfind(',')
+    return c >= 0 and re.search(r'\w', before[c + 1:]) is not None and ',' in between
+
+
+def _full_name(title, start, end, limit):
+    """The matched name plus the capitalised words after it, up to the verb."""
+    while True:
+        w = _NEXT_PROPER.match(title, end)
+        if not w or w.end() > limit:
+            return re.sub(r"['’]s?$", "", title[start:end])
+        end = w.end()
+
+
+def match_company(title, context="", rejected=None):
     """Return the tracked company a funding HEADLINE is about, or None.
 
     This used to be a bare substring test over headline + summary, taking the
@@ -385,6 +569,21 @@ def match_company(title):
     appear capitalised, so the common noun never matches. The earliest
     qualifying name wins. A missed deal is recoverable; a misattributed one
     ends up on a company profile as fact.
+
+    Oct 2026 additions, after two bad deals reached DEAL_TRACKER:
+      - a name inside an appositive or parenthesis, or in a list after a
+        context marker ("former Google and SpaceX product manager"), is
+        context: Satlyt's $8M round had been credited to SpaceX;
+      - the full proper noun decides between companies. If the name plus the
+        capitalised words after it is exactly another data.js company or
+        alias, that company wins ("Monumental Labs" is not Monumental); if it
+        is a known different company in data/name_collisions.json, the match
+        is dropped ("Navier AI" is not Navier);
+      - context_guards in that file veto a company when the headline or its
+        summary (`context`) gives it away: the Hadrian that "raises $40M to
+        tackle AI-driven cyber threats" is the Dutch security firm.
+    `rejected`, when a list, collects (company, reason) for matches the
+    collision file vetoed, so the caller can log them.
     """
     if not title:
         return None
@@ -392,7 +591,13 @@ def match_company(title):
     limit = verb.start() if verb else len(title)
     best = None
     for alias, canonical in COMPANY_ALIASES.items():
-        for m in re.finditer(rf"(?<![A-Za-z0-9]){re.escape(alias)}(?![A-Za-z0-9])", title, re.I):
+        # Compiled once: 1,200+ patterns overflow re's own cache, which made
+        # every headline cost ~170 ms of recompiling.
+        rx = _ALIAS_RX.get(alias)
+        if rx is None:
+            rx = _ALIAS_RX[alias] = re.compile(
+                rf"(?<![A-Za-z0-9]){re.escape(alias)}(?![A-Za-z0-9])", re.I)
+        for m in rx.finditer(title):
             if m.start() >= limit:
                 break
             if ' ' not in alias and not title[m.start()].isupper():
@@ -403,15 +608,33 @@ def match_company(title):
             # another subject: "Matter of time: Foo raises $14M".
             if re.search(r'[:|;]|\s[–—-]\s', title[m.end():limit]):
                 continue
-            # A one-word name followed by another capitalised word is part of a
-            # longer proper noun ("Mara Kamara"), unless that word is a
-            # corporate suffix ("Saronic Technologies").
-            nxt = re.match(r"\s+([A-Z][\w'’.-]*)", title[m.end():])
-            if ' ' not in alias and nxt and nxt.group(1).lower().strip('.') not in _CORP_SUFFIX:
+            if _inside_aside(title, m.start(), m.end(), limit):
+                continue
+            full = _squash(_full_name(title, m.start(), m.end(), limit))
+            target = canonical
+            other = _DB_BY_KEY.get(full) or _ALIAS_BY_KEY.get(full)
+            if other and _squash(other) != _squash(canonical):
+                target = other                   # the longer (or exact) company named
+            else:
+                # A one-word name followed by another capitalised word is part
+                # of a longer proper noun ("Mara Kamara"), unless that word is
+                # a corporate suffix ("Saronic Technologies").
+                nxt = re.match(r"\s+([A-Z][\w'’.-]*)", title[m.end():])
+                if ' ' not in alias and nxt and nxt.group(1).lower().strip('.') not in _CORP_SUFFIX:
+                    continue
+            diff = DIFFERENT.get(full)
+            if diff and _squash(target) in diff["not"]:
+                if rejected is not None:
+                    rejected.append((target, f"'{diff['name']}' is a different company: {diff['note']}"))
+                continue
+            guard = CONTEXT_GUARDS.get(target)
+            if guard and guard[0].search(f"{title} {context or ''}"):
+                if rejected is not None:
+                    rejected.append((target, f"context guard: {guard[1]}"))
                 continue
             key = (m.start(), -len(alias))
             if best is None or key < best[0]:
-                best = (key, canonical)
+                best = (key, target)
             break
     return best[1] if best else None
 
@@ -453,6 +676,12 @@ _LISTED = re.compile(
     r"|clos(?:e|es|ed) (?:its |an |the )?(?:ipo|merger))\b", re.I)
 
 
+def _skip(reason, company, headline):
+    """Record a deal a guard dropped (printed by main) and return None."""
+    SKIPPED.append({"company": company, "reason": reason, "headline": (headline or "")[:120]})
+    return None
+
+
 def extract_deal_from_article(article):
     """Try to extract a deal from a news article."""
     title = article.get("title", "")
@@ -464,8 +693,11 @@ def extract_deal_from_article(article):
     # the summary but announce no round by the company named.
     if not _FUNDING_VERB.search(title):
         return None
-    company = match_company(title)
+    rejected = []
+    company = match_company(title, desc, rejected)
     if not company:
+        for name, why in rejected:
+            _skip(why, name, title)
         return None
 
     amount = parse_funding_amount(full_text)
@@ -482,6 +714,17 @@ def extract_deal_from_article(article):
             round_type = "Pre-IPO"
         else:
             return None
+
+    # Guards that need the company's data.js record (none for companies the
+    # master list tracks but data.js does not).
+    rec = _db_record(company)
+    if rec and rec["status"] in INACTIVE_STATUSES:
+        return _skip(f"data.js status is '{rec['status']}'", company, title)
+    if round_type == "Funding Round" and rec and rec.get("raised_m"):
+        amt = _money_millions(amount)
+        if amt is not None and amt < MAGNITUDE_FLOOR * rec["raised_m"]:
+            return _skip(f"unlabelled {amount} round is under {MAGNITUDE_FLOOR:.0%} of recorded "
+                         f"totalRaised {rec['raised']}", company, title)
     investors = match_investors(full_text)
 
     # Parse date
@@ -672,17 +915,18 @@ def save_discovered_companies(articles):
 
 
 def main():
-    global COMPANY_ALIASES
-
     print("=" * 60)
     print("Deal Flow Fetcher for The Innovators League")
     print("=" * 60)
     print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
 
-    # Load company aliases from master list
-    COMPANY_ALIASES = load_company_aliases()
-    print(f"Loaded {len(COMPANY_ALIASES)} company aliases from master list")
+    # Company aliases from the master list; status/totalRaised from data.js;
+    # the hand-kept collision list from data/name_collisions.json.
+    init_matcher()
+    print(f"Loaded {len(COMPANY_ALIASES)} company aliases from master list, "
+          f"{len(DB_COMPANIES)} data.js records for the status/size guards, "
+          f"{len(CONTEXT_GUARDS)} context guards, {len(DIFFERENT)} known name collisions")
 
     all_articles = []
 
@@ -726,6 +970,11 @@ def main():
             new_deals.append(deal)
 
     print(f"Extracted {len(new_deals)} deals from articles")
+    if SKIPPED:
+        seen_skips = {(s["company"], s["headline"]): s for s in SKIPPED}
+        print(f"Dropped {len(seen_skips)} deals at the attribution guards:")
+        for s in list(seen_skips.values())[:40]:
+            print(f"  SKIP {s['company']}: {s['reason']} — \"{s['headline']}\"")
 
     # 4. Discovery pipeline — log unknown companies for manual review
     print("\nRunning discovery pipeline...")

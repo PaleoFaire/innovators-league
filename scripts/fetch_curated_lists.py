@@ -34,13 +34,25 @@ goes red instead of quietly reporting "0 listed".
 
 Matching uses a suffix-stripping stem so "Varda Space" resolves to
 "Varda Space Industries" and "Helion Energy" to "Helion", and it honours
-formerNames so a rename is not reported as a discovery.
+formerNames so a rename is not reported as a discovery. The stem never merges
+a pair that data/name_collisions.json records as different companies
+("Navier AI" is not Navier, "Monumental Labs" is not Monumental).
+
+HQ cross-check (report only)
+────────────────────────────
+BuildList carries each company's location_city and metro. Every run that reads
+BuildList also lists the COMPANIES records whose state, country or city
+disagrees with it, matched by website domain first (BuildList publishes no
+website, so the domain comes from its careers link when that is on the
+company's own site), then by exact name. Known-stale BuildList rows are in
+HQ_IGNORE. The list is for a human to check; nothing is applied.
 
 Output
 ──────
   data/curated_lists_auto.json   full diff per source, with records
   data/curated_lists_auto.js     window global for the frontend
   data/curated_review_queue.json new in-scope candidates awaiting review
+  data/hq_crosscheck_auto.json   COMPANIES whose HQ disagrees with BuildList
 
 Never writes to data.js. A human promotes candidates.
 
@@ -57,8 +69,10 @@ import json
 import re
 import subprocess
 import sys
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 from html import unescape
 
@@ -70,6 +84,38 @@ DATA_JS = ROOT / "data.js"
 JSON_OUT = DATA_DIR / "curated_lists_auto.json"
 JS_OUT = DATA_DIR / "curated_lists_auto.js"
 QUEUE_OUT = DATA_DIR / "curated_review_queue.json"
+HQ_OUT = DATA_DIR / "hq_crosscheck_auto.json"
+COLLISIONS = DATA_DIR / "name_collisions.json"
+
+sys.path.insert(0, str(ROOT / "scripts"))
+from validate_data_quality import US_STATES  # noqa: E402
+
+# BuildList rows checked by hand and known to carry a stale HQ (Oct 2026).
+# BuildList / data.js: Hermeus Atlanta / Hawthorne, SpaceX Hawthorne /
+# Starbase, Moment Energy Coquitlam / Surrey, Katalyst Space Flagstaff /
+# Broomfield. norm()-ed names; skipped instead of re-reported every week.
+HQ_IGNORE = {"hermeus", "spacex", "momentenergy", "katalystspace"}
+
+# Careers links on these hosts say nothing about the company's own domain.
+JOB_HOSTS = re.compile(
+    r"(?:^|\.)(?:greenhouse\.io|ashbyhq\.com|lever\.co|workable\.com|bamboohr\.com|rippling\.com|"
+    r"myworkdayjobs\.com|workday\.com|smartrecruiters\.com|jobvite\.com|breezy\.hr|recruitee\.com|"
+    r"teamtailor\.com|pinpointhq\.com|dover\.com|gem\.com|wellfound\.com|ycombinator\.com|"
+    r"notion\.site|paylocity\.com|icims\.com|adp\.com|ultipro\.com|paycomonline\.net|paycor\.com|"
+    r"recruitingbypaycor\.com|jazzhr\.com|applytojob\.com|personio\.(?:com|de)|join\.com|homerun\.co|"
+    r"trinethire\.com|gusto\.com|bullhornstaffing\.com|careerplug\.com|comeet\.(?:com|co)|polymer\.co|"
+    r"getro\.com|linkedin\.com|kula\.ai|deel\.com|careers-page\.com|clearcompany\.com|"
+    r"applicantpro\.com|darwinbox\.in|octbr\.ai|magneto365\.com|consider\.com)$", re.I)
+
+COUNTRY_SYNONYMS = {
+    "uk": "united kingdom", "england": "united kingdom", "scotland": "united kingdom",
+    "wales": "united kingdom", "great britain": "united kingdom", "usa": "united states",
+    "us": "united states", "u.s.": "united states", "the netherlands": "netherlands",
+    "holland": "netherlands", "korea": "south korea", "republic of korea": "south korea",
+    "uae": "united arab emirates",
+}
+CITY_SYNONYMS = {"nyc": "new york", "new york city": "new york", "sf": "san francisco",
+                 "washington dc": "washington", "washington d.c.": "washington"}
 
 UA = "InnovatorsLeague-Bot/1.0 (+https://innovatorsleague.com; research)"
 
@@ -175,8 +221,46 @@ def person_set(s: str) -> set[str]:
     return out
 
 
-def known_names() -> tuple[set[str], set[str], dict[str, str]]:
-    """Returns (exact names, stems, founder -> company name).
+def load_collisions(path: Path = COLLISIONS) -> dict[str, set[str]]:
+    """norm(name) -> norm()-ed COMPANIES names it is known NOT to be.
+
+    From the different_companies list in data/name_collisions.json, which the
+    deal feed and the VC portfolio watcher read too. A missing or broken file
+    returns {} (no guard) rather than stopping the watcher.
+    """
+    try:
+        raw = json.loads(Path(path).read_text())
+    except (OSError, ValueError):
+        return {}
+    out: dict[str, set[str]] = {}
+    for e in raw.get("different_companies") or []:
+        nots = e.get("not") or []
+        nots = [nots] if isinstance(nots, str) else nots
+        if e.get("name") and nots:
+            out.setdefault(norm(e["name"]), set()).update(norm(n) for n in nots)
+    return out
+
+
+def different_company(a: str, b: str, collisions: dict[str, set[str]]) -> bool:
+    """True when data/name_collisions.json records `a` and `b` as different companies."""
+    na, nb = norm(a), norm(b)
+    return nb in collisions.get(na, ()) or na in collisions.get(nb, ())
+
+
+def db_rows() -> list[dict]:
+    """COMPANIES from data.js (read-only): name, formerNames, founder, website,
+    location, state, country."""
+    js = ('const fs=require("fs"),vm=require("vm");const s={};vm.createContext(s);'
+          'vm.runInContext(fs.readFileSync(process.argv[1],"utf8")'
+          '+";globalThis.__n=COMPANIES.map(c=>({n:c.name,f:c.formerNames||[],p:c.founder||\'\','
+          'w:c.website||\'\',l:c.location||\'\',s:c.state||\'\',c:c.country||\'\'}));",s);'
+          "console.log(JSON.stringify(s.__n));")
+    return json.loads(subprocess.run(["node", "-e", js, str(DATA_JS)],
+                                     capture_output=True, text=True, check=True).stdout)
+
+
+def known_names(rows: list[dict] | None = None) -> tuple[set[str], dict[str, set[str]], dict[str, str]]:
+    """Returns (exact names, stem -> COMPANIES names, founder -> company name).
 
     The founder index is the decisive duplicate signal. Suffix stemming alone
     cannot collapse 'Heirloom' onto 'Heirloom Carbon', 'STARK' onto
@@ -184,19 +268,143 @@ def known_names() -> tuple[set[str], set[str], dict[str, str]]:
     list of suffix words — but all three share their full founder line with
     the record we already hold.
     """
-    js = ('const fs=require("fs"),vm=require("vm");const s={};vm.createContext(s);'
-          'vm.runInContext(fs.readFileSync(process.argv[1],"utf8")'
-          '+";globalThis.__n=COMPANIES.map(c=>({n:c.name,f:c.formerNames||[],p:c.founder||\'\'}));",s);'
-          "console.log(JSON.stringify(s.__n));")
-    rows = json.loads(subprocess.run(["node", "-e", js, str(DATA_JS)],
-                                     capture_output=True, text=True, check=True).stdout)
-    exact, stems, people = set(), set(), {}
+    rows = db_rows() if rows is None else rows
+    exact, stems, people = set(), {}, {}
     for r in rows:
         for label in [r["n"]] + r["f"]:
-            exact.add(norm(label)); stems.add(stem(label))
+            exact.add(norm(label))
+            stems.setdefault(stem(label), set()).add(r["n"])
         for p in person_set(r["p"]):
             people.setdefault(p, r["n"])
     return exact, stems, people
+
+
+def is_tracked(name: str, exact: set[str], stems: dict[str, set[str]],
+               collisions: dict[str, set[str]]) -> bool:
+    """Already in COMPANIES under this exact name or formerName, or under a
+    suffix-stripped stem — unless the record sharing the stem is on file as a
+    different company: "Varda Space" is Varda Space Industries, but "Navier AI"
+    is not Navier and "Monumental Labs" is not Monumental."""
+    if norm(name) in exact:
+        return True
+    return any(not different_company(name, held, collisions) for held in stems.get(stem(name), ()))
+
+
+# ── HQ cross-check against BuildList ─────────────────────────────────────
+
+def _host(url: str) -> str:
+    if not url:
+        return ""
+    u = url.strip() if "://" in url else "https://" + url.strip()
+    h = urlparse(u).netloc.lower().split(":")[0]
+    return h[4:] if h.startswith("www.") else h
+
+
+# Letters NFKD does not decompose into a base letter plus an accent.
+_UNFOLDABLE = str.maketrans({"ł": "l", "Ł": "L", "ø": "o", "Ø": "O", "đ": "d", "Đ": "D",
+                             "ß": "ss", "æ": "ae", "Æ": "AE", "œ": "oe", "Œ": "OE", "ı": "i"})
+
+
+def _fold(s: str) -> str:
+    s = unicodedata.normalize("NFKD", (s or "").translate(_UNFOLDABLE)).encode("ascii", "ignore").decode()
+    return re.sub(r"\s+", " ", s.strip().lower())
+
+
+def _place(location: str) -> tuple[str, str, str]:
+    """(city, US state code or '', country) from "City, ST" or "City, [Region,] Country"."""
+    parts = [p.strip() for p in (location or "").split(",") if p.strip()]
+    if not parts:
+        return "", "", ""
+    last = parts[-1]
+    code = last.replace(".", "").upper()
+    if len(parts) > 1 and code in US_STATES:
+        state, country = code, "united states"
+    else:
+        state, country = "", COUNTRY_SYNONYMS.get(_fold(last), _fold(last))
+    city = _fold(parts[0]) if len(parts) > 1 else ""
+    return CITY_SYNONYMS.get(city, city), state, country
+
+
+def hq_crosscheck(bl_rows: list[dict], rows: list[dict], collisions: dict[str, set[str]],
+                  generated: str = "") -> dict:
+    """COMPANIES records whose state, country or city disagrees with BuildList.
+
+    Domain first: BuildList publishes no website, but about a hundred of its
+    careers links sit on the company's own site, and a domain is exact (only
+    the host's subdomains are stripped; a same-name site under another TLD
+    is not assumed to be the same company, since a false match here becomes
+    a false disagreement). Then an exact name (or formerName), vetoed when
+    both sides show a domain and they differ, and never across a pair that
+    data/name_collisions.json separates.
+    """
+    by_domain, by_norm, rec = {}, {}, {}
+    for r in rows:
+        rec[r["n"]] = r
+        d = _host(r.get("w", ""))
+        if d:
+            by_domain.setdefault(d, r["n"])
+        for label in [r["n"]] + r["f"]:
+            by_norm.setdefault(norm(label), r["n"])
+
+    items, ignored, how_counts, compared = [], set(), {"domain": 0, "name": 0}, 0
+    for b in bl_rows:
+        h = _host(b.get("careers_url", ""))
+        own = h if h and not JOB_HOSTS.search(h) else ""
+        name, how = None, ""
+        if own:
+            labels = own.split(".")
+            for i in range(len(labels) - 1):                  # careers.rivian.com -> rivian.com
+                name = by_domain.get(".".join(labels[i:]))
+                if name:
+                    break
+            how = "domain" if name else ""
+        if not name:
+            cand = by_norm.get(norm(b.get("name", "")))
+            if cand and not different_company(b.get("name", ""), cand, collisions):
+                cd = _host(rec[cand].get("w", ""))
+                if not (own and cd and own != cd and not own.endswith("." + cd)):
+                    name, how = cand, "name"
+        if not name:
+            continue
+        if norm(name) in HQ_IGNORE or norm(b.get("name", "")) in HQ_IGNORE:
+            ignored.add(name)
+            continue
+        r = rec[name]
+        bl_city, bl_state, bl_country = _place(b.get("city", ""))
+        db_city, _, _ = _place(r.get("l", ""))
+        db_state = (r.get("s") or "").upper()
+        db_country = COUNTRY_SYNONYMS.get(_fold(r.get("c", "")), _fold(r.get("c", "")))
+        if not db_country and db_state:
+            db_country = "united states"
+        if not (bl_city or bl_state or bl_country) or not (db_city or db_state or db_country):
+            continue                                          # nothing to compare
+        compared += 1
+        how_counts[how] += 1
+        if bl_country and db_country and bl_country != db_country:
+            kind = "country"
+        elif bl_state and db_state and bl_state != db_state:
+            kind = "state"
+        elif bl_city and db_city and bl_city != db_city:
+            kind = "city"
+        else:
+            continue
+        items.append({
+            "company": name, "buildlist_name": b.get("name", ""), "kind": kind, "matched_by": how,
+            "db_location": r.get("l", ""), "db_state": r.get("s", ""), "db_country": r.get("c", ""),
+            "buildlist_location": b.get("city", ""), "buildlist_metro": b.get("metro", ""),
+            "evidence": b.get("careers_url", "") if how == "domain" else "",
+        })
+    order = {"country": 0, "state": 1, "city": 2}
+    items.sort(key=lambda x: (order[x["kind"]], x["company"].lower()))
+    by_kind = {k: sum(1 for x in items if x["kind"] == k) for k in order}
+    return {
+        "generated_at": generated, "source": "buildlist", "source_url": SOURCES["buildlist"]["url"],
+        "note": ("Report only, never applied to data.js. COMPANIES records whose state, country or "
+                 "city disagrees with BuildList's location_city. BuildList can be the stale side; "
+                 "check the company's own site before editing data.js."),
+        "compared": compared, "matched_by": how_counts, "ignored": sorted(ignored),
+        "count": len(items), "by_kind": by_kind, "items": items,
+    }
 
 
 # ── source extractors ────────────────────────────────────────────────────
@@ -224,7 +432,7 @@ def extract_buildlist(html: str) -> list[dict]:
         out.append({
             "name": name.replace("\\u0026", "&"), "status": status,
             "sector": f("sector"), "tagline": f("tagline"), "founders": f("founders"),
-            "city": f("location_city"), "founded": f("founded_date"),
+            "city": f("location_city"), "metro": f("metro"), "founded": f("founded_date"),
             "round": f("last_round"), "raised": re.sub(r"^\$\$", "$", f("total_raised")),
             "last_round_date": f("last_round_date"),
             "careers_url": careers.group(1).replace("\\u0026", "&") if careers else "",
@@ -325,11 +533,14 @@ def main() -> int:
     ap.add_argument("--source", choices=list(SOURCES), help="run one source only")
     args = ap.parse_args()
 
-    exact, stems, people = known_names()
+    rows_db = db_rows()
+    exact, stems, people = known_names(rows_db)
+    collisions = load_collisions()
     targets = {args.source: SOURCES[args.source]} if args.source else SOURCES
     generated = datetime.now(timezone.utc)
     prev = json.loads(JSON_OUT.read_text()).get("sources", {}) if JSON_OUT.exists() else {}
     report, all_new, broken = {}, [], []
+    buildlist_rows = None
 
     def keep_last_good(key: str, why: str) -> None:
         """Record the failure but keep the previous run's data for this source."""
@@ -355,9 +566,11 @@ def main() -> int:
                                 "the page layout or URL has probably changed")
             continue
 
+        if key == "buildlist":
+            buildlist_rows = rows
         missing = []
         for c in rows:
-            if norm(c["name"]) in exact or stem(c["name"]) in stems:
+            if is_tracked(c["name"], exact, stems, collisions):
                 continue
             shared = person_set(c.get("founders", "")) & people.keys()
             if shared:                      # same founder = same company, renamed
@@ -408,6 +621,18 @@ def main() -> int:
 
     print(f"\n{len(all_new)} in-scope candidates · {added} newly queued "
           f"· {len(queue)} total in queue")
+
+    # Report-only HQ cross-check; kept from the last good run when BuildList
+    # was not read (broken, or a --source run for another list).
+    if buildlist_rows:
+        hq = hq_crosscheck(buildlist_rows, rows_db, collisions, generated.isoformat())
+        HQ_OUT.write_text(json.dumps(hq, indent=2, ensure_ascii=False))
+        k = hq["by_kind"]
+        print(f"HQ cross-check: {hq['count']} of {hq['compared']} matched companies disagree with "
+              f"BuildList ({k['country']} country, {k['state']} state, {k['city']} city only; "
+              f"{len(hq['ignored'])} ignored) — report only, data/{HQ_OUT.name}")
+    else:
+        print("HQ cross-check: skipped, BuildList was not read this run (last report kept)")
     if broken:
         # "::error::" becomes an annotation on the GitHub Actions run.
         print(f"::error::curated-list source(s) broken: {', '.join(broken)} (kept last good data)")

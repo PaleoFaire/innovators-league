@@ -1,0 +1,36 @@
+{
+  "_about": [
+    "Companies that share a name, or a name stem, with a company in data.js but are NOT that company. Edited by hand; no script writes this file.",
+    "Read by scripts/fetch_deals.py (deal-feed headline matcher), scripts/fetch_curated_lists.py (BuildList / Black Flag watcher and the HQ cross-check) and scripts/fetch_vc_portfolio_watcher.py (name-only holdings).",
+    "context_guards: a funding headline credited to this data.js company is dropped when the headline or its summary matches not_if (a case-insensitive regex).",
+    "different_companies: `name` is a different company from every data.js record listed in `not`. A headline or list entry whose full name is `name` is never credited to those records. A data.js record whose own name is exactly `name` still matches normally."
+  ],
+  "context_guards": {
+    "Hadrian": {
+      "not_if": "\\bcyber|(?<!national )\\bsecurity\\b|\\bthreats?\\b|\\bpen-?test|penetration test|attack surface|\\bhack(?:er|ers|ing)\\b",
+      "note": "hadrian.io is a Dutch security firm; ours is the Torrance precision-parts manufacturer (hadrian.co). Its $40M round was credited to ours in Oct 2026."
+    },
+    "Observable Space": {
+      "not_if": "notebook|visuali[sz]ation|javascript|\\bd3\\b|observablehq|dashboard|data apps?\\b",
+      "note": "Observable (observablehq.com) is a data-visualisation software company; ours is the Los Angeles space-optics company (observable.space)."
+    },
+    "Parallel Systems": {
+      "not_if": "\\bweb\\b|search|\\bagents?\\b|browser|parag|agrawal",
+      "note": "Parallel Web Systems (Parag Agrawal's AI web-search company) headlines as 'Parallel'; ours is the autonomous freight-rail company (moveparallel.com)."
+    }
+  },
+  "different_companies": [
+    {"name": "Monumental Labs", "not": ["Monumental"], "note": "Its own data.js record (NYC robotic stone carving, monumentallabs.co). Monumental is the Amsterdam bricklaying-robot company (monumental.co)."},
+    {"name": "Navier AI", "not": ["Navier"], "note": "Not in data.js. Navier is the Alameda electric-hydrofoil boat maker (navierboat.com)."},
+    {"name": "Atmos Thermal", "not": ["Atmos Space Cargo"], "note": "Not in data.js. Atmos Space Cargo is the German reentry-capsule company."},
+    {"name": "Manifold Industries", "not": ["Manifold Bio"], "note": "Not in data.js. Manifold Bio is the Cambridge, MA protein-therapeutics company."},
+    {"name": "Edgerun", "not": ["EdgeRunner AI"], "note": "Not in data.js. EdgeRunner AI is the Seattle on-device AI company (edgerunnerai.com)."},
+    {"name": "Arxlight", "not": ["xLight"], "note": "Both are data.js records: Arxlight (Oakland counter-UAS, arxlight.ai) and xLight (Palo Alto EUV free-electron lasers, xlight.com)."},
+    {"name": "American Terawatt", "not": ["TeraWatt Technology"], "note": "Both are data.js records: American Terawatt (SF HVDC transmission) and TeraWatt Technology (Santa Clara lithium-metal cells)."},
+    {"name": "Inversion Semiconductor", "not": ["Inversion Space"], "note": "Not in data.js. Inversion Space is the LA orbital-logistics company (inversionspace.com)."},
+    {"name": "Bedrock Ocean Exploration", "not": ["Bedrock Robotics", "Bedrock Energy"], "note": "The seafloor-mapping company at bedrockocean.com: data.js holds it as Bedrock Ocean and, since 7 Oct 2026, also as a second record named Bedrock Ocean Exploration. Never Bedrock Robotics or Bedrock Energy."},
+    {"name": "Parallel Bio", "not": ["Parallel Systems"], "note": "Immune-organoid biotech; 'Bio' is a corporate suffix to the deal matcher, so without this entry its rounds would land on Parallel Systems."},
+    {"name": "Parallel Web Systems", "not": ["Parallel Systems"], "note": "Parag Agrawal's AI web-search company."},
+    {"name": "Twelve Labs", "not": ["Twelve"], "note": "Video-understanding AI company; Twelve is the Berkeley CO2-to-fuels company (twelve.co). Both reduce to the stem 'twelve'."}
+  ]
+}

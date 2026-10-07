@@ -53,7 +53,7 @@ jobs:
               fi
             fi
             git add data/curated_lists_auto.json data/curated_lists_auto.js \
-                    data/curated_review_queue.json 2>/dev/null || true
+                    data/curated_review_queue.json data/hq_crosscheck_auto.json 2>/dev/null || true
             if git diff --staged --quiet; then echo "No changes."; exit 0; fi
             git commit -m "📋 Curated list watcher: $(date -u +%Y-%m-%d)"
             git push origin main && exit 0
@@ -84,6 +84,13 @@ jobs:
                   for c in s["candidates"][:50]:
                       print(f"| {c['name']} | {c['sector']} | {c['raised']} | {c['round']} | {c['tagline'][:70]} |")
               print()
+          h = pathlib.Path("data/hq_crosscheck_auto.json")
+          if h.exists():
+              hq = json.loads(h.read_text()); k = hq.get("by_kind", {})
+              print(f"**HQ cross-check:** {hq.get('count', 0)} of {hq.get('compared', 0)} matched companies "
+                    f"disagree with BuildList ({k.get('country', 0)} country, {k.get('state', 0)} state, "
+                    f"{k.get('city', 0)} city only) — report only, see `data/hq_crosscheck_auto.json` "
+                    f"({hq.get('generated_at', '')[:10]}).")
           PY
 
       - name: Fail the run if a source broke

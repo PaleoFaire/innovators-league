@@ -25,6 +25,16 @@ What the funds actually publish
 Most of them hand the data over if you ask the right way, so each fund has an
 adapter and a plain fetch beats a headless browser:
 
+  getro       Cantos, Lux, 8VC and Khosla run Getro job boards whose company
+              search API lists the whole portfolio with domains and locations
+              (Oct 2026: 50, 189, 375 and 401 companies, against 13, 28, 174
+              and 114 from their own pages).
+  a16z_board  jobs.a16z.com server-renders 678 companies with domain and HQ;
+              merged with the portfolio page's JSON (below), which alone
+              carries the focus areas the American Dynamism filter needs.
+  consider    Sequoia's Consider job board: ~255 companies with domains and
+              offices. Fallback: its sitemap's /companies/<slug> pages, each
+              read for the company's own link and matched on domain only.
   a16z        the portfolio page embeds the whole book as JSON — 859 companies
               with website, focus area and the date a16z first invested.
   wp_company  Founders Fund and Lowercarbon run WordPress with a public
@@ -37,9 +47,16 @@ adapter and a plain fetch beats a headless browser:
               the company's own domain is a far better key than its name.
   slugs       Harpoon, Shield, Congruent: only /portfolio/<slug> subpages.
 
+A fund with a job-board adapter keeps its older adapter as `fallback`, used
+when the board fails or returns nothing; the run records that as `partial`.
+A run whose adapter differs from last run's is a baseline for that fund, so a
+switch of source is not reported as a wave of new holdings.
+
 Matching order: website domain → exact name → suffix-stripped stem → shared
 founder. Names alone produced 3,372 "leads" that were mostly page furniture;
 domains produced 177 confirmed holdings and 504 real leads on the same pages.
+Pairs that data/name_collisions.json records as different companies never
+match by name ("Navier AI" is not Navier).
 
 Guards (same as the curated-list watcher): a fund that parses nothing, or
 under half of last run's count, is treated as broken — last good data kept,
@@ -61,6 +78,8 @@ Usage
   python3 scripts/fetch_vc_portfolio_watcher.py
   python3 scripts/fetch_vc_portfolio_watcher.py --fund a16z
   python3 scripts/fetch_vc_portfolio_watcher.py --max-resolve 0   # no homepage fetches
+  python3 scripts/fetch_vc_portfolio_watcher.py --fund Lux --dry --max-resolve 0
+                                         # read and match, print counts, write nothing
 """
 
 from __future__ import annotations
@@ -89,7 +108,8 @@ CHANGES_OUT = DATA_DIR / "vc_portfolio_changes.json"
 BACKFILL_OUT = DATA_DIR / "vc_portfolio_investor_backfill.json"
 
 sys.path.insert(0, str(ROOT / "scripts"))
-from fetch_curated_lists import EXCLUDE, SOFT, norm, person_set, stem  # noqa: E402
+from fetch_curated_lists import (EXCLUDE, SOFT, different_company, load_collisions,  # noqa: E402
+                                 norm, person_set, stem)
 
 # Fund sites serve bot user-agents a challenge page or nothing at all.
 HEADERS = {
@@ -101,6 +121,8 @@ HEADERS = {
 TIMEOUT = 25
 MIN_KEEP = 0.5          # under half of last run's count = the page broke, not the fund
 MIN_PREV_FOR_GUARD = 12  # tiny lists swing naturally; only guard real lists
+BOARD_MAX_PAGES = 120    # Getro answers 12 a page: 120 pages = 1,440 companies
+SITEMAP_SECONDS = 360    # time budget for reading Sequoia's company pages in the fallback
 
 # ── the funds ────────────────────────────────────────────────────────────
 #
@@ -110,13 +132,21 @@ MIN_PREV_FOR_GUARD = 12  # tiny lists swing naturally; only guard real lists
 # appears in practice. `discover` says whether the fund's unknowns go to the
 # review queue at all: generalists are read for holdings and investor
 # back-fill only, because their unknowns are DoorDash and Instacart.
+#
+# `kind` is the primary adapter. A job-board fund keeps its older adapter as
+# `fallback`; `merge` names a second source unioned in by domain. Board
+# adapters read their settings from `getro` / `consider` / `board`; `urls`
+# stays the fallback's page.
 FUNDS = {
     # American Dynamism only: "Infra" is cloud software at a16z and "Bio + Health"
-    # is mostly healthtech apps; the first run queued 161 of them.
+    # is mostly healthtech apps; the first run queued 161 of them. The job board
+    # tags only 24 companies American Dynamism, so the portfolio JSON's focus
+    # areas are merged in; a board-only holding has no AD tag and is never queued.
     "a16z": dict(name="Andreessen Horowitz", short="a16z", investor="Andreessen Horowitz",
-                 alias=r"a16z|andreessen", kind="a16z", urls=["https://a16z.com/portfolio/"],
+                 alias=r"a16z|andreessen", kind="a16z_board", board="https://jobs.a16z.com/companies",
+                 fallback="a16z", merge="a16z", urls=["https://a16z.com/portfolio/"],
                  discover=True, focus_allow={"American Dynamism"},
-                 note="Embedded JSON: 859 companies with first-investment dates"),
+                 note="jobs.a16z.com (678 with domain and HQ) + portfolio JSON (focus areas, first-investment dates)"),
     "Founders Fund": dict(name="Founders Fund", short="Founders Fund", investor="Founders Fund",
                           alias=r"founders fund", kind="wp_company",
                           urls=["https://foundersfund.com/wp-json/wp/v2/company"], discover=True,
@@ -130,15 +160,18 @@ FUNDS = {
                     alias=r"eclipse", kind="sanity",
                     urls=["https://5uq66tk5.api.sanity.io/v2023-01-01/data/query/production"],
                     discover=True, note="Public Sanity dataset: websiteURL, foundedYear, founder"),
-    "8VC": dict(name="8VC", short="8VC", investor="8VC", alias=r"\b8vc\b", kind="cards_8vc",
+    "8VC": dict(name="8VC", short="8VC", investor="8VC", alias=r"\b8vc\b", kind="getro",
+                getro=dict(collection=1005, origin="https://jobs.8vc.com"), fallback="cards_8vc",
                 urls=["https://8vc.com/companies"], discover=True,
-                note="Webflow cards; company site in a hidden anchor"),
+                note="Getro job board (~375); fallback: Webflow cards with the site in a hidden anchor"),
     "Lux": dict(name="Lux Capital", short="Lux", investor="Lux Capital", alias=r"\blux\b",
-                kind="cards_lux", urls=["https://www.luxcapital.com/companies"], discover=True,
-                note="28 featured companies, names only"),
+                kind="getro", getro=dict(collection=103, origin="https://jobs.luxcapital.com"),
+                fallback="cards_lux", urls=["https://www.luxcapital.com/companies"], discover=True,
+                note="Getro job board (~189); fallback: 28 featured cards, names only"),
     "Cantos": dict(name="Cantos Ventures", short="Cantos", investor="Cantos Ventures",
-                   alias=r"cantos", kind="links", urls=["https://cantos.vc/"], discover=True,
-                   note="Homepage grid; 11 of 13 already tracked at launch"),
+                   alias=r"cantos", kind="getro", getro=dict(collection=220, origin="https://jobs.cantos.vc"),
+                   fallback="links", urls=["https://cantos.vc/"], discover=True,
+                   note="Getro job board (~50); fallback: homepage grid (13)"),
     "Riot": dict(name="Riot Ventures", short="Riot", investor="Riot Ventures", alias=r"riot",
                  kind="links", urls=["https://riot.vc/"], discover=True),
     "Silent": dict(name="Silent Ventures", short="Silent", investor="Silent Ventures",
@@ -181,7 +214,15 @@ FUNDS = {
                       urls=["https://www.congruentvc.com/portfolio"], discover=True),
     # Generalists: read for holdings and investor back-fill, never for discovery.
     "KV": dict(name="Khosla Ventures", short="KV", investor="Khosla Ventures", alias=r"khosla",
-               kind="links", urls=["https://khoslaventures.com/portfolio/"], discover=False),
+               kind="getro", getro=dict(collection=257, origin="https://jobs.khoslaventures.com"),
+               fallback="links", urls=["https://khoslaventures.com/portfolio/"], discover=False,
+               note="Getro job board (~400); fallback: portfolio page links"),
+    "Sequoia": dict(name="Sequoia Capital", short="Sequoia", investor="Sequoia Capital",
+                    alias=r"sequoia", kind="consider",
+                    consider=dict(origin="https://jobs.sequoiacap.com", board="sequoia-capital"),
+                    fallback="sequoia_sitemap", urls=["https://sequoiacap.com/sitemap.xml"],
+                    discover=False,
+                    note="Consider job board (~255 with domains); fallback: sitemap company pages, domain-only"),
     "Valor": dict(name="Valor Equity Partners", short="Valor", investor="Valor Equity Partners",
                   alias=r"valor", kind="links", urls=["https://valorep.com/portfolio/"],
                   discover=False),
@@ -195,8 +236,8 @@ FUNDS = {
                       discover=False,
                       note="Kevin Ryan's NYC studio; ~140 cards (aria-label names), mostly software and healthcare"),
     # Not readable without a browser (JS-only pages), kept here so the gap is
-    # on record: Sequoia, General Catalyst, DCVC, Breakthrough Energy,
-    # Initialized, Interlagos, Point72 Ventures (TLS 1.0 only).
+    # on record: General Catalyst, DCVC, Breakthrough Energy, Initialized,
+    # Interlagos, Point72 Ventures (TLS 1.0 only).
 }
 
 # Domains that appear on every fund page and are never a portfolio company.
@@ -242,6 +283,18 @@ SOFT2 = re.compile(
     r"control plane|inference cloud|benchmarks|local government|govtech|autonomous finance|"
     r"home care network|veterinari|dementia care|creative and communications studio|"
     r"transit agencies|energy management, helping|quoting|rate-ingestion)", re.I)
+# Getro boards tag every company. A holding none of whose tags names a
+# physical industry is software or services, whatever words its description
+# happens to contain: Nylas ("power"), Vercel ("engine"), Rocketlane, Qualia
+# ("home") all passed the description bar on the first Getro dry run.
+HARD_TAGS = re.compile(
+    r"(manufactur|industrial|aerospace|aviation|\bspace\b|satellite|defen[cs]e|robot|hardware|"
+    r"semiconductor|electronic|energy|batter|nuclear|fusion|biotech|biopharma|pharma|therapeut|"
+    r"medical device|life science|genetic|genomic|material|3d (?:printing|technology)|automotive|"
+    r"autonomous|electric vehicle|construction|agri|mining|mineral|chemic|clean ?tech|climate|"
+    r"water|transport|drone|marine|maritime|telecom|wireless|sensor|photonic|optic|quantum|laser|"
+    r"neuro|diagnos|oncolog|biolog|protein|food tech|nanotech|appliances|machinery|"
+    r"lab automation|instrument)", re.I)
 ERROR_TITLE = re.compile(r"^(4\d\d|5\d\d)\b|forbidden|access denied|just a moment|attention required|"
                          r"not found|error", re.I)
 
@@ -315,14 +368,28 @@ def looks_like_fund(name: str, blurb: str = "") -> bool:
                           r"early[- ]stage (fund|investor)|family office)\b", blurb or ""))
 
 
-def get(url: str, **kw) -> requests.Response:
+def get(url: str, session: requests.Session | None = None, **kw) -> requests.Response:
     """GET with a polite retry: a 429 or 5xx is a busy server, not a broken fund.
     Lowercarbon's WordPress feed answered 429 on page 2 from a GitHub runner
     on the first CI run and the guard marked the fund broken."""
     for attempt, pause in enumerate((0, 4, 10, 20)):
         if pause:
             time.sleep(pause)
-        r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True, **kw)
+        r = (session or requests).get(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True, **kw)
+        if r.status_code in (429, 502, 503, 504) and attempt < 3:
+            continue
+        r.raise_for_status()
+        return r
+    r.raise_for_status()                                   # pragma: no cover
+    return r
+
+
+def post(url: str, session: requests.Session | None = None, **kw) -> requests.Response:
+    """POST with the same polite retry as get(); the job-board search APIs."""
+    for attempt, pause in enumerate((0, 4, 10, 20)):
+        if pause:
+            time.sleep(pause)
+        r = (session or requests).post(url, timeout=TIMEOUT, **kw)
         if r.status_code in (429, 502, 503, 504) and attempt < 3:
             continue
         r.raise_for_status()
@@ -357,7 +424,8 @@ def load_db() -> dict:
                 by_stem.setdefault(s, r["n"])
         investors[r["n"]] = r["i"]
     return {"by_domain": by_domain, "by_norm": by_norm, "by_stem": by_stem, "by_label": by_label,
-            "domain_of": domain_of, "investors": investors, "count": len(rows)}
+            "domain_of": domain_of, "investors": investors, "count": len(rows),
+            "collisions": load_collisions()}
 
 
 def same_site(a: str, b: str) -> bool:
@@ -388,6 +456,8 @@ def resolve_known(h: dict, db: dict) -> tuple[str | None, str]:
     lab = re.sub(r"[^a-z0-9]", "", d.split(".")[0]) if d else ""
     if len(lab) >= 7 and lab in db["by_label"]:
         return db["by_label"][lab], "domain"
+    if h.get("_domain_only"):
+        return None, ""                              # a slug or title proves nothing (Sequoia's /apex)
     n = h.get("name") or ""
     cand, how = db["by_norm"].get(norm(n)) if n else None, "exact-name"
     if not cand and n and not d:
@@ -396,6 +466,8 @@ def resolve_known(h: dict, db: dict) -> tuple[str | None, str]:
             cand, how = db["by_stem"].get(s), "stem"
     if not cand:
         return None, ""
+    if different_company(n, cand, db.get("collisions") or {}):
+        return None, ""                              # data/name_collisions.json: "Navier AI" is not Navier
     cd = db["domain_of"].get(cand, "")
     if d and cd and not same_site(d, cd):
         return None, ""                              # same name, different company
@@ -418,6 +490,7 @@ def possible_matches(h: dict, db: dict) -> list[str]:
             out.append(name)
     if n and n in db["by_norm"]:                     # exact name, vetoed by domain
         out.append(db["by_norm"][n])
+    out = [x for x in out if not different_company(h.get("name") or "", x, db.get("collisions") or {})]
     return sorted(set(out))[:3]
 
 
@@ -617,9 +690,244 @@ def extract_slugs(fund: dict) -> list[dict]:
     return out
 
 
+# ── job boards: the fund's whole portfolio with each company's own domain ──
+
+def extract_getro(fund: dict) -> list[dict]:
+    """Getro job boards (Cantos, Lux, 8VC, Khosla): the board's company search.
+
+    The API returns 12 companies a page whatever hitsPerPage asks for, and
+    wants the board's own Origin and Referer. Pages run from 0 until one comes
+    back empty or adds nothing new. The fund lists itself; that entry is dropped.
+    """
+    g = fund["getro"]
+    origin = g["origin"].rstrip("/")
+    api = f"https://api.getro.com/api/v2/collections/{g['collection']}/search/companies"
+    headers = {**HEADERS, "Accept": "application/json", "Content-Type": "application/json",
+               "Origin": origin, "Referer": origin + "/companies"}
+    own = dom(fund["urls"][0]) if fund.get("urls") else ""
+    out, seen, total = [], set(), None
+    for page in range(BOARD_MAX_PAGES):
+        if page:
+            time.sleep(0.4)
+        res = post(api, headers=headers, json={"hitsPerPage": 12, "page": page}).json().get("results") or {}
+        total = res.get("count", total)
+        fresh = 0
+        for c in res.get("companies") or []:
+            key = c.get("id") or c.get("slug") or c.get("domain") or c.get("name")
+            if key in seen:
+                continue
+            seen.add(key)
+            fresh += 1
+            d = dom(c.get("domain") or "")
+            if d and (skip_domain(d) or (own and same_site(d, own))):
+                continue
+            locs = c.get("locations") or []
+            tags = c.get("visible_industry_tags") or c.get("industry_tags") or []
+            out.append(holding(name=c.get("name") or "", website=f"https://{d}" if d else "",
+                               focus=", ".join(tags[:6]), blurb=c.get("description") or "",
+                               hq=locs[0] if locs else "",
+                               source_url=f"{origin}/companies/{c['slug']}" if c.get("slug") else origin))
+            out[-1]["_tags"] = list(c.get("industry_tags") or tags)
+        if not fresh or (total is not None and len(seen) >= total):
+            break
+    return out
+
+
+def extract_a16z_board(fund: dict) -> list[dict]:
+    """jobs.a16z.com server-renders every company on the board (678 in Oct
+    2026) into its Next.js flight payload: name, domain, location, markets.
+    It no longer runs on Consider; that API path now 404s."""
+    url = fund["board"]
+    html = get(url).text
+    chunks = re.findall(r'self\.__next_f\.push\(\[1,"((?:[^"\\]|\\.)*)"\]\)', html)
+    flight = "".join(json.loads(f'"{c}"') for c in chunks)
+    i = flight.find('"companies":[')
+    if i < 0:
+        raise ValueError("no companies array in the board's page payload")
+    arr, _ = json.JSONDecoder().raw_decode(flight, i + len('"companies":'))
+    out = []
+    for c in arr:
+        if not isinstance(c, dict):
+            continue
+        markets = [m for m in (c.get("markets") or []) if isinstance(m, str)]
+        h = holding(name=c.get("name") or "", website=f"https://{c['domain']}" if c.get("domain") else "",
+                    focus=", ".join(markets), blurb=c.get("description") or "",
+                    hq=c.get("location") or "", source_url=url)
+        h["_focus_set"] = set(markets)
+        out.append(h)
+    return out
+
+
+def extract_consider(fund: dict) -> list[dict]:
+    """Consider job boards (Sequoia): a session cookie and the csrfToken from
+    the board page's serverInitialData, then the board's company search, 100
+    a page, paged by meta.sequence. The search fails without a `query` key."""
+    c = fund["consider"]
+    origin = c["origin"].rstrip("/")
+    s = requests.Session()
+    page = get(origin + "/companies", session=s)
+    m = re.search(r'"csrfToken"\s*:\s*"([^"]+)"', page.text)
+    if not m:
+        raise ValueError("no csrfToken in the board's serverInitialData")
+    headers = {**HEADERS, "Accept": "application/json", "Content-Type": "application/json",
+               "Origin": origin, "Referer": origin + "/companies", "x-csrf-token": m.group(1)}
+    out, seen, seq = [], set(), None
+    for n in range(BOARD_MAX_PAGES):
+        if n:
+            time.sleep(0.4)
+        meta = {"size": 100, **({"sequence": seq} if seq else {})}
+        j = post(origin + "/api-boards/search-companies", session=s, headers=headers,
+                 json={"meta": meta, "board": {"id": c["board"], "isParent": True}, "query": {}}).json()
+        if j.get("errors"):
+            raise ValueError(f"board search: {str(j['errors'][0].get('message', ''))[:80]}")
+        comps = j.get("companies") or []
+        fresh = 0
+        for x in comps:
+            key = x.get("id") or x.get("slug") or x.get("domain") or x.get("name")
+            if key in seen:
+                continue
+            seen.add(key)
+            fresh += 1
+            slugs = (x.get("investorSlugs") or []) + (x.get("parentSlugs") or [])
+            if slugs and c["board"] not in slugs:
+                continue                             # on the board through another investor
+            web = (x.get("website") or {}).get("url") or (f"https://{x['domain']}" if x.get("domain") else "")
+            locs = x.get("officeLocations") or []
+            out.append(holding(name=x.get("name") or "", website=web,
+                               focus=", ".join(x.get("markets") or []), blurb=x.get("description") or "",
+                               hq=locs[0] if locs else "",
+                               source_url=f"{origin}/companies/{x['slug']}" if x.get("slug") else origin))
+        seq = (j.get("meta") or {}).get("sequence")
+        total = j.get("total")
+        if not comps or not fresh or not seq or (total and len(seen) >= total):
+            break
+    return out
+
+
+def _company_link(html: str) -> str:
+    """The company's own site on a Sequoia company page: the outbound anchor
+    whose text is its domain ("apexhq.ai"), else the first outbound link that
+    is not social, press or Sequoia's own."""
+    fallback = ""
+    for m in re.finditer(r'<a\b[^>]*href="(https?://[^"#?]+)[^"]*"[^>]*>(.*?)</a>', html, re.S | re.I):
+        d = dom(m.group(1))
+        if not d or skip_domain(d) or d.endswith("sequoiacap.com") or any(d.endswith(x) for x in NEWS_HOSTS):
+            continue
+        text = clean_text(m.group(2)).lower().rstrip("/")
+        text = text[4:] if text.startswith("www.") else text
+        if text and (d == text or d.endswith("." + text)):
+            return m.group(1)
+        fallback = fallback or m.group(1)
+    return fallback
+
+
+def extract_sequoia_sitemap(fund: dict) -> list[dict]:
+    """Sequoia fallback: sequoiacap.com/sitemap.xml lists ~430 /companies/<slug>
+    pages. A slug is not an identity (/companies/apex is an AI-security firm,
+    not Apex Space; observable, parallel, ethos and sunday are other companies
+    too), so each page is read for the company's own link and these holdings
+    match on that domain only. Reads stop at SITEMAP_SECONDS (or the fund's
+    `_page_cap`, used by tests and dry runs)."""
+    xml = get(fund["urls"][0]).text
+    slugs = list(dict.fromkeys(re.findall(
+        r"<loc>https?://(?:www\.)?sequoiacap\.com/companies/([a-z0-9][a-z0-9-]*)/?</loc>", xml)))
+    if not slugs:
+        raise ValueError("no /companies/ pages in the sitemap")
+    cap = fund.get("_page_cap") or len(slugs)
+    deadline = time.time() + SITEMAP_SECONDS
+    out, read = [], 0
+    for slug in slugs[:cap]:
+        if time.time() > deadline:
+            break
+        url = f"https://sequoiacap.com/companies/{slug}"
+        try:
+            html = get(url).text
+        except requests.RequestException:
+            continue
+        read += 1
+        site = _company_link(html)
+        if site:
+            title = clean_text((re.search(r"<title[^>]*>(.*?)</title>", html, re.S | re.I) or [None, ""])[1])
+            name = re.split(r"\s+[|–—]\s+", title)[0].strip() if title else ""
+            h = holding(name=name or slug.replace("-", " ").title(), website=site, source_url=url)
+            h["_domain_only"] = True
+            out.append(h)
+        time.sleep(0.25)
+    if read < len(slugs):
+        fund["_note"] = f"sitemap fallback read {read} of {len(slugs)} company pages"
+    return out
+
+
 EXTRACTORS = {"a16z": extract_a16z, "wp_company": extract_wp_company, "sanity": extract_sanity,
               "cards_8vc": extract_cards_8vc, "cards_lux": extract_cards_lux,
-              "links": extract_links, "slugs": extract_slugs}
+              "links": extract_links, "slugs": extract_slugs, "getro": extract_getro,
+              "a16z_board": extract_a16z_board, "consider": extract_consider,
+              "sequoia_sitemap": extract_sequoia_sitemap}
+
+
+def merge_holdings(primary: list[dict], extra: list[dict]) -> list[dict]:
+    """Union by domain (else normalised name). The primary's fields win; empty
+    ones, focus areas and exit status fill in from the second source."""
+    def key(h: dict) -> str:
+        return h["domain"] or ("n:" + norm(h["name"]))
+    out, index = [], {}
+    for h in primary:
+        index.setdefault(key(h), h)
+        out.append(h)
+    for h in extra:
+        p = index.get(key(h))
+        if p is None:
+            index[key(h)] = h
+            out.append(h)
+            continue
+        for f in ("first_funded", "founders", "founded", "hq", "blurb", "status"):
+            if not p.get(f) and h.get(f):
+                p[f] = h[f]
+        if p.get("_focus_set") is not None or h.get("_focus_set") is not None:
+            p["_focus_set"] = (p.get("_focus_set") or set()) | (h.get("_focus_set") or set())
+            p["focus"] = ", ".join(sorted(p["_focus_set"]))
+    return out
+
+
+def source_url(fund: dict, used: str) -> str:
+    kind = used.split("+")[0]
+    if kind == "getro":
+        return fund["getro"]["origin"].rstrip("/") + "/companies"
+    if kind == "consider":
+        return fund["consider"]["origin"].rstrip("/") + "/companies"
+    if kind == "a16z_board":
+        return fund["board"]
+    return fund["urls"][0]
+
+
+def run_adapters(fund: dict) -> tuple[list[dict], str, str]:
+    """(holdings, adapter(s) used, note). The primary adapter first; on an
+    exception or an empty result, the fund's older adapter (a fallback with
+    far fewer rows still trips the half-of-last-run guard, as it should);
+    then any second source merged in."""
+    notes, used = [], fund["kind"]
+    try:
+        rows = [h for h in EXTRACTORS[used](fund) if h["name"] or h["domain"]]
+        if not rows:
+            raise ValueError("parsed 0 holdings")
+    except Exception as e:                                     # noqa: BLE001
+        if not fund.get("fallback"):
+            raise
+        why = f"{type(e).__name__}: {e}"[:120]
+        print(f"   {used} failed ({why}); falling back to {fund['fallback']}")
+        notes.append(f"{used} failed ({why}); used {fund['fallback']}")
+        used = fund["fallback"]
+        rows = EXTRACTORS[used](fund)
+    merge = fund.get("merge")
+    if merge and merge != used:
+        try:
+            rows = merge_holdings(rows, EXTRACTORS[merge](fund))
+            used = f"{used}+{merge}"
+        except Exception as e:                                 # noqa: BLE001
+            notes.append(f"{merge} merge failed ({type(e).__name__}); focus areas and dates missing")
+    if fund.get("_note"):
+        notes.append(fund.pop("_note"))
+    return rows, used, "; ".join(notes)
 
 
 # ── site metadata for candidates ─────────────────────────────────────────
@@ -669,6 +977,8 @@ def main() -> int:
                     help="homepages to fetch for candidate names/descriptions (0 = none)")
     ap.add_argument("--resolve-seconds", type=int, default=240,
                     help="stop fetching homepages after this many seconds")
+    ap.add_argument("--dry", action="store_true",
+                    help="read and match as usual, print per-fund counts, write no files")
     args = ap.parse_args()
     resolve_deadline = time.time() + args.resolve_seconds
 
@@ -686,10 +996,10 @@ def main() -> int:
     resolve_budget = args.max_resolve
 
     for key, fund in targets.items():
-        print(f"\n→ {key} [{fund['kind']}] {fund['urls'][0]}", flush=True)
+        print(f"\n→ {key} [{fund['kind']}] {source_url(fund, fund['kind'])}", flush=True)
         prev = prev_funds.get(key) or {}
         try:
-            rows = EXTRACTORS[fund["kind"]](fund)
+            rows, used, partial = run_adapters(fund)
         except Exception as e:                                 # noqa: BLE001
             why = f"{type(e).__name__}: {e}"[:200]
             print(f"   FAILED: {why}")
@@ -707,8 +1017,12 @@ def main() -> int:
             broken.append(key)
             continue
 
-        # identity = domain, else normalised name; diff against last run
-        prev_ids = {h.get("id") for h in prev.get("holdings", [])}
+        # identity = domain, else normalised name; diff against last run. A
+        # different source from last run's (Lux's 28 cards -> its 189-company
+        # job board, or a fallback week) is a new baseline, not 161 new holdings.
+        prev_ids = {h.get("id") for h in prev.get("holdings", [])} if prev.get("kind") == used else set()
+        if prev.get("kind") and prev.get("kind") != used:
+            print(f"   source changed ({prev.get('kind')} -> {used}): this run is the new baseline")
         tracked, new_ids, unknown = 0, [], []
         for h in rows:
             h["id"] = h["domain"] or ("n:" + norm(h["name"]))
@@ -731,8 +1045,8 @@ def main() -> int:
         overlap = tracked / len(rows) if rows else 0.0
 
         report[key] = {
-            "name": fund["name"], "url": fund["urls"][0], "kind": fund["kind"], "note": fund.get("note", ""),
-            "partial": fund.pop("_note", ""),
+            "name": fund["name"], "url": source_url(fund, used), "kind": used, "note": fund.get("note", ""),
+            "partial": partial,
             "fetched_at": generated.isoformat(), "count": len(rows), "tracked": tracked,
             "overlap": round(overlap, 3), "new_this_run": len(new_ids), "baseline": not prev_ids,
             "new_names": [h["name"] or h["domain"] for h in rows if h["id"] in set(new_ids)][:40],
@@ -757,7 +1071,10 @@ def main() -> int:
         if not d or not fund["discover"]:
             continue
         meta = site_meta.get(d)
-        if meta is None and resolve_budget > 0 and time.time() < resolve_deadline:
+        # A job board already gave name and description; the budget is for
+        # link grids that gave neither.
+        if meta is None and not (h["name"] and h["blurb"]) and resolve_budget > 0 \
+                and time.time() < resolve_deadline:
             meta = fetch_site_meta(h["website"] or f"https://{d}")
             site_meta[d] = meta
             resolve_budget -= 1
@@ -830,6 +1147,8 @@ def main() -> int:
             why = "exited"
         elif SOFT.search(h["blurb"] or "") or SOFT2.search(h["blurb"] or ""):
             why = "software or services wearing a hard-tech label"
+        elif h.get("_tags") and not HARD_TAGS.search(" | ".join(h["_tags"])):
+            why = "the board's industry tags show no physical product"
         elif h["blurb"] and not HARD.search(h["blurb"]):
             why = "description shows no physical product"
         if why:
@@ -854,6 +1173,17 @@ def main() -> int:
             rej = report[key]["rejected_by_bar"]
             print(f"   {key}: {report[key]['candidates']} candidates"
                   + (" · rejected " + ", ".join(f"{n} {w}" for w, n in sorted(rej.items(), key=lambda kv: -kv[1])) if rej else ""))
+
+    if args.dry:
+        print("\n--dry: nothing written. Per fund:")
+        for key, r in report.items():
+            status = (f"FAILED: {r['error'][:70]}" if r.get("error")
+                      else f"partial: {r['partial'][:90]}" if r.get("partial") else "ok")
+            print(f"  {key:<16} {str(r.get('kind', '')):<22} {r.get('count', 0):>5} holdings · "
+                  f"{r.get('tracked', 0):>4} tracked · {r.get('candidates', 0):>4} candidates · {status}")
+        print(f"{len(cand_by_id)} candidates this run (not queued) · {len(changes)} holding matches · "
+              f"{len(backfill)} investor back-fills (not written)")
+        return 1 if broken else 0
 
     # ── write state and report ───────────────────────────────────────────
     DATA_DIR.mkdir(exist_ok=True)
