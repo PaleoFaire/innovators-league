@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 3.78,
+      "avg_change": 3.85,
       "count": 1
     },
     "space": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": -1.04,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -2.08,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -3.08,
+      "avg_change": -3.93,
       "count": 7
     },
     "nuclear": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -0.81,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -5.45,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 0.68,
+      "avg_change": 2.57,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.07,
+      "avg_change": -11.79,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -3.66,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -6.92,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 1.23,
+      "avg_change": 0.53,
       "count": 2
     },
     "chips": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 5.64,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -1.05,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "PL",
-      "Planet Labs",
-      8.3
-    ],
-    [
-      "ALAB",
-      "Astera Labs",
-      7.38
-    ],
-    [
-      "TSLA",
-      "Tesla",
-      6.48
-    ],
-    [
-      "AMD",
-      "AMD",
-      5.57
-    ],
-    [
-      "NVDA",
-      "NVIDIA",
-      3.98
-    ]
-  ],
-  "topLosers": [
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -7.68
-    ],
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -7.92
-    ],
-    [
-      "QBTS",
-      "D-Wave Quantum",
-      -8.15
+      "LNZA",
+      "LanzaTech",
+      8.86
     ],
     [
       "ASRHF",
       "Astroscale",
-      -10.48
+      5.34
     ],
+    [
+      "TSLA",
+      "Tesla",
+      5.09
+    ],
+    [
+      "PL",
+      "Planet Labs",
+      4.18
+    ],
+    [
+      "PLTR",
+      "Palantir",
+      3.85
+    ]
+  ],
+  "topLosers": [
     [
       "TEM",
       "Tempus AI",
-      -14.1
+      -10.55
+    ],
+    [
+      "RGTI",
+      "Rigetti Computing",
+      -10.88
+    ],
+    [
+      "IONQ",
+      "IonQ",
+      -11.43
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -12.78
+    ],
+    [
+      "QBTS",
+      "D-Wave Quantum",
+      -13.07
     ]
   ],
-  "lastUpdated": "2026-10-08 07:28:54"
+  "lastUpdated": "2026-10-08 19:18:59"
 }
