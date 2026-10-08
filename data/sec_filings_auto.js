@@ -1,6 +1,15 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-07 12:57:05 UTC
+// Last updated: 2026-10-08 13:05:21 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Tempus AI", form: "8-K", date: "2026-10-08", description: "vnt-20261002.htm", isIPO: false, ticker: "TEM" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791410921.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791410900.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Ginkgo Bioworks", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791406827.xml", isIPO: false, ticker: "DNA" },
+  { company: "LanzaTech", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791403369.xml", isIPO: false, ticker: "LNZA" },
+  { company: "LanzaTech", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791403362.xml", isIPO: false, ticker: "LNZA" },
+  { company: "LanzaTech", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791403354.xml", isIPO: false, ticker: "LNZA" },
+  { company: "LanzaTech", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791403347.xml", isIPO: false, ticker: "LNZA" },
+  { company: "Rivian", form: "8-K", date: "2026-10-07", description: "rivn-20261007.htm", isIPO: false, ticker: "RIVN" },
   { company: "Virgin Galactic", form: "4", date: "2026-10-06", description: "xslF345X06/wk-form4_1791318440.xml", isIPO: false, ticker: "SPCE" },
   { company: "Virgin Galactic", form: "4", date: "2026-10-06", description: "xslF345X06/wk-form4_1791318382.xml", isIPO: false, ticker: "SPCE" },
   { company: "Virgin Galactic", form: "4", date: "2026-10-06", description: "xslF345X06/wk-form4_1791318323.xml", isIPO: false, ticker: "SPCE" },
@@ -42,13 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Astera Labs", form: "8-K", date: "2026-10-01", description: "tra-20260928.htm", isIPO: false, ticker: "ALAB" },
   { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713603.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713525.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713476.xml", isIPO: false, ticker: "OKLO" },
-  { company: "AST SpaceMobile", form: "8-K", date: "2026-09-28", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
-  { company: "Virgin Galactic", form: "4", date: "2026-09-28", description: "xslF345X06/wk-form4_1790625908.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Tempus AI", form: "4", date: "2026-09-28", description: "xslF345X06/wk-form4_1790593517.xml", isIPO: false, ticker: "TEM" },
-  { company: "IonQ", form: "4", date: "2026-09-25", description: "xslF345X06/wk-form4_1790374280.xml", isIPO: false, ticker: "IONQ" },
-  { company: "IonQ", form: "4", date: "2026-09-25", description: "xslF345X06/wk-form4_1790374208.xml", isIPO: false, ticker: "IONQ" },
-  { company: "IonQ", form: "4", date: "2026-09-25", description: "xslF345X06/wk-form4_1790374066.xml", isIPO: false, ticker: "IONQ" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-09-24", description: "xslF345X06/wk-form4_1790283736.xml", isIPO: false, ticker: "QBTS" },
-  { company: "Archer Aviation", form: "8-K", date: "2026-09-24", description: "achr-20260924.htm", isIPO: false, ticker: "ACHR" },
 ];

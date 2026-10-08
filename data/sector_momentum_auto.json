@@ -1,39 +1,38 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 41,
-    "trend": "steady",
+    "momentum": 38,
+    "trend": "rising",
     "catalysts": [
-      "Form Energy and its iron batteries",
-      "X-energy and its helium-cooled nuclear reactors",
-      "Brimstone and its one-stop process for making cleaner cement"
+      "Teradyne invests in Bright Machines to bring robotics to AI",
+      "Runway introduces Praxis-1 world action model for robotics"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 25,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 38,
+    "momentum": 35,
     "trend": "rising",
     "catalysts": [
-      "NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure",
-      "A New Neurotech Startup Launches to Rival Sam Altman\u2019s Merge",
-      "SpaceX\u2019s AI Build Speed Will Make Wall Street Wrong Again"
+      "Biggest SpaceX Product and News Ever. Mass Produced AI Data",
+      "NASA Sets Coverage for SpaceX 35th Station Resupply Launch,",
+      "NASA\u2019s SpaceX 35th Commercial Resupply Mission Overview"
     ],
     "fundingQ": "$251M",
     "components": {
       "funding": 11,
       "news": 55,
       "hiring": 0,
-      "market": 100
+      "market": 89
     },
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   {
     "sector": "Transportation",
@@ -47,52 +46,33 @@
       "funding": 100,
       "news": 0,
       "hiring": 0,
-      "market": 1
+      "market": 0
     },
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   {
     "sector": "Defense & Security",
     "momentum": 34,
     "trend": "rising",
     "catalysts": [
-      "Furientis lands $25M from Benchmark to mass-produce low-cost",
       "French Air Force plans loyal wingman flight in 2028 in sover",
       "Terran Orbital Names Jamin Brown Chief Operating Officer"
     ],
     "fundingQ": "$1.1B",
     "components": {
       "funding": 40,
-      "news": 20,
+      "news": 10,
       "hiring": 0,
-      "market": 77
+      "market": 88
     },
-    "lastUpdated": "2026-10-07"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 23,
-    "trend": "declining",
-    "catalysts": [
-      "Form Energy and its iron batteries",
-      "X-energy and its helium-cooled nuclear reactors",
-      "With federal funding windfall, X-energy advances small nucle"
-    ],
-    "fundingQ": "$135M",
-    "components": {
-      "funding": 11,
-      "news": 25,
-      "hiring": 0,
-      "market": 63
-    },
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   {
     "sector": "Chips & Semiconductors",
     "momentum": 21,
     "trend": "declining",
     "catalysts": [
-      "Furientis lands $25M from Benchmark to mass-produce low-cost"
+      "OpenAI Makes 81% of Top Math Discoveries of the Last Three Y"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -101,42 +81,25 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   {
     "sector": "AI & Software",
-    "momentum": 20,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
+      "OpenAI Makes 81% of Top Math Discoveries of the Last Three Y",
       "OpenAI Wants Its New Agent to Run Your Life. Mine Said It Lo",
-      "OpenAI Is Pissing Off a Bunch of Mathematicians\u2014Again",
-      "Anthropic is giving startups a free year of Claude Team and"
+      "OpenAI agents tried to hack Wikipedia tools and flooded it w"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 40,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-07"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "X-energy and its helium-cooled nuclear reactors",
-      "With federal funding windfall, X-energy advances small nucle"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 86
-    },
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   {
     "sector": "Consumer Tech",
@@ -154,58 +117,61 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-07"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Claude Sonnet 5.5 Versus OpenAI GPT 6.1 Sol",
-      "Quantum Space Executes Launch Processing Agreement with All"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 60
-    },
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 12,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
+      "SpaceX alumni nab $100M to rethink shipping with autonomous",
       "French Air Force plans loyal wingman flight in 2028 in sover",
       "NaviGate successfully demonstrates onboard precise orbit det"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 12,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure",
+      "OpenAI Makes 81% of Top Math Discoveries of the Last Three Y",
+      "NASA Sets Coverage for SpaceX 35th Station Resupply Launch,",
       "SpaceX\u2019s AI Build Speed Will Make Wall Street Wrong Again"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 13,
+    "trend": "declining",
+    "catalysts": [
+      "NASA Sets Coverage for SpaceX 35th Station Resupply Launch,",
+      "With federal funding windfall, X-energy advances small nucle",
+      "Mazama Energy raises $135M for superhot geothermal at Oregon"
+    ],
+    "fundingQ": "$135M",
+    "components": {
+      "funding": 11,
+      "news": 20,
+      "hiring": 0,
+      "market": 23
+    },
+    "lastUpdated": "2026-10-08"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -222,7 +188,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -238,7 +204,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   {
     "sector": "Ocean & Maritime",
@@ -254,11 +220,27 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   {
-    "sector": "Quantum Computing",
-    "momentum": 5,
+    "sector": "Nuclear Energy",
+    "momentum": 8,
+    "trend": "declining",
+    "catalysts": [
+      "With federal funding windfall, X-energy advances small nucle"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 33
+    },
+    "lastUpdated": "2026-10-08"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 1,
     "trend": "declining",
     "catalysts": [
       "Quantum Space Executes Launch Processing Agreement with All"
@@ -268,8 +250,24 @@
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 20
+      "market": 0
     },
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 1,
+    "trend": "declining",
+    "catalysts": [
+      "Quantum Space Executes Launch Processing Agreement with All"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-10-08"
   }
 ]
