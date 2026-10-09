@@ -5901,6 +5901,41 @@
       "thesisCluster": ""
     },
     {
+      "id": "Deployable Energy",
+      "sector": "Nuclear Energy",
+      "thesisCluster": "nuclear-microreactor"
+    },
+    {
+      "id": "Natura Resources",
+      "sector": "Nuclear Energy",
+      "thesisCluster": "nuclear-msr"
+    },
+    {
+      "id": "LTA Research",
+      "sector": "Transportation",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Qunnect",
+      "sector": "Quantum Computing",
+      "thesisCluster": "quantum-networking"
+    },
+    {
+      "id": "Alva Energy",
+      "sector": "Nuclear Energy",
+      "thesisCluster": "nuclear-services-fuel"
+    },
+    {
+      "id": "Standard Thermal",
+      "sector": "Climate & Energy",
+      "thesisCluster": "thermal-storage"
+    },
+    {
+      "id": "Watney Robotics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": "data-center-infrastructure"
+    },
+    {
       "id": "SpaceX-alumni-hub",
       "sector": "alumni",
       "thesisCluster": ""
@@ -7506,6 +7541,12 @@
       "cluster": "nuclear-microreactor"
     },
     {
+      "src": "Deployable Energy",
+      "dst": "Valar Atomics",
+      "type": "thesis",
+      "cluster": "nuclear-microreactor"
+    },
+    {
       "src": "Aalo Atomics",
       "dst": "Radiant",
       "type": "thesis",
@@ -7525,6 +7566,12 @@
     },
     {
       "src": "Deep Fission",
+      "dst": "Radiant",
+      "type": "thesis",
+      "cluster": "nuclear-microreactor"
+    },
+    {
+      "src": "Deployable Energy",
       "dst": "Radiant",
       "type": "thesis",
       "cluster": "nuclear-microreactor"
@@ -7554,6 +7601,12 @@
       "cluster": "nuclear-microreactor"
     },
     {
+      "src": "Aalo Atomics",
+      "dst": "Deployable Energy",
+      "type": "thesis",
+      "cluster": "nuclear-microreactor"
+    },
+    {
       "src": "Antares",
       "dst": "Oklo",
       "type": "thesis",
@@ -7572,6 +7625,12 @@
       "cluster": "nuclear-microreactor"
     },
     {
+      "src": "Antares",
+      "dst": "Deployable Energy",
+      "type": "thesis",
+      "cluster": "nuclear-microreactor"
+    },
+    {
       "src": "Last Energy",
       "dst": "Oklo",
       "type": "thesis",
@@ -7584,8 +7643,26 @@
       "cluster": "nuclear-microreactor"
     },
     {
+      "src": "Deployable Energy",
+      "dst": "Oklo",
+      "type": "thesis",
+      "cluster": "nuclear-microreactor"
+    },
+    {
       "src": "Deep Fission",
       "dst": "Last Energy",
+      "type": "thesis",
+      "cluster": "nuclear-microreactor"
+    },
+    {
+      "src": "Deployable Energy",
+      "dst": "Last Energy",
+      "type": "thesis",
+      "cluster": "nuclear-microreactor"
+    },
+    {
+      "src": "Deep Fission",
+      "dst": "Deployable Energy",
       "type": "thesis",
       "cluster": "nuclear-microreactor"
     },
@@ -7608,6 +7685,12 @@
       "cluster": "nuclear-services-fuel"
     },
     {
+      "src": "Alva Energy",
+      "dst": "General Matter",
+      "type": "thesis",
+      "cluster": "nuclear-services-fuel"
+    },
+    {
       "src": "Deep Isolation",
       "dst": "Standard Nuclear",
       "type": "thesis",
@@ -7615,6 +7698,12 @@
     },
     {
       "src": "Hexium",
+      "dst": "Standard Nuclear",
+      "type": "thesis",
+      "cluster": "nuclear-services-fuel"
+    },
+    {
+      "src": "Alva Energy",
       "dst": "Standard Nuclear",
       "type": "thesis",
       "cluster": "nuclear-services-fuel"
@@ -7632,7 +7721,25 @@
       "cluster": "nuclear-services-fuel"
     },
     {
+      "src": "Alva Energy",
+      "dst": "The Nuclear Company",
+      "type": "thesis",
+      "cluster": "nuclear-services-fuel"
+    },
+    {
       "src": "Deep Isolation",
+      "dst": "Hexium",
+      "type": "thesis",
+      "cluster": "nuclear-services-fuel"
+    },
+    {
+      "src": "Alva Energy",
+      "dst": "Deep Isolation",
+      "type": "thesis",
+      "cluster": "nuclear-services-fuel"
+    },
+    {
+      "src": "Alva Energy",
       "dst": "Hexium",
       "type": "thesis",
       "cluster": "nuclear-services-fuel"
@@ -7656,6 +7763,12 @@
       "cluster": "nuclear-msr"
     },
     {
+      "src": "Kairos Power",
+      "dst": "Natura Resources",
+      "type": "thesis",
+      "cluster": "nuclear-msr"
+    },
+    {
       "src": "Exodys Energy",
       "dst": "Saltfoss Energy",
       "type": "thesis",
@@ -7668,8 +7781,26 @@
       "cluster": "nuclear-msr"
     },
     {
+      "src": "Exodys Energy",
+      "dst": "Natura Resources",
+      "type": "thesis",
+      "cluster": "nuclear-msr"
+    },
+    {
       "src": "Copenhagen Atomics",
       "dst": "Saltfoss Energy",
+      "type": "thesis",
+      "cluster": "nuclear-msr"
+    },
+    {
+      "src": "Natura Resources",
+      "dst": "Saltfoss Energy",
+      "type": "thesis",
+      "cluster": "nuclear-msr"
+    },
+    {
+      "src": "Copenhagen Atomics",
+      "dst": "Natura Resources",
       "type": "thesis",
       "cluster": "nuclear-msr"
     },
@@ -10728,6 +10859,12 @@
       "cluster": "gene-therapy"
     },
     {
+      "src": "Nu Quantum",
+      "dst": "Qunnect",
+      "type": "thesis",
+      "cluster": "quantum-networking"
+    },
+    {
       "src": "Fractile",
       "dst": "FuriosaAI",
       "type": "thesis",
@@ -10944,6 +11081,18 @@
       "cluster": "thermal-storage"
     },
     {
+      "src": "Kraftblock",
+      "dst": "Standard Thermal",
+      "type": "thesis",
+      "cluster": "thermal-storage"
+    },
+    {
+      "src": "Rondo Energy",
+      "dst": "Standard Thermal",
+      "type": "thesis",
+      "cluster": "thermal-storage"
+    },
+    {
       "src": "SpaceX-alumni-hub",
       "dst": "Lux Aeterna",
       "type": "alumni"
@@ -10985,10 +11134,10 @@
     }
   ],
   "counts": {
-    "total_nodes": 1186,
-    "total_edges": 875,
+    "total_nodes": 1193,
+    "total_edges": 894,
     "competitor_edges": 191,
-    "thesis_edges": 676,
+    "thesis_edges": 695,
     "alumni_edges": 8
   }
 }

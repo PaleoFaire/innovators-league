@@ -1,7 +1,9 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-08 13:05:21 UTC
+// Last updated: 2026-10-09 12:51:51 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Oklo", form: "4", date: "2026-10-08", description: "xslF345X06/wk-form4_1791490531.xml", isIPO: false, ticker: "OKLO" },
   { company: "Tempus AI", form: "8-K", date: "2026-10-08", description: "vnt-20261002.htm", isIPO: false, ticker: "TEM" },
+  { company: "Satellogic", form: "8-K", date: "2026-10-08", description: "ea0308059-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "Recursion Pharmaceuticals", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791410921.xml", isIPO: false, ticker: "RXRX" },
   { company: "Recursion Pharmaceuticals", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791410900.xml", isIPO: false, ticker: "RXRX" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791406827.xml", isIPO: false, ticker: "DNA" },
@@ -49,6 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Aurora Innovation", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790889196.xml", isIPO: false, ticker: "AUR" },
   { company: "Aurora Innovation", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790889031.xml", isIPO: false, ticker: "AUR" },
   { company: "Astera Labs", form: "8-K", date: "2026-10-01", description: "tra-20260928.htm", isIPO: false, ticker: "ALAB" },
-  { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713603.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-09-29", description: "xslF345X06/wk-form4_1790713525.xml", isIPO: false, ticker: "OKLO" },
 ];

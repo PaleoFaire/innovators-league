@@ -1,7 +1,7 @@
 [
   {
     "mafia": "SpaceX Mafia",
-    "count": 23,
+    "count": 24,
     "companies": [
       {
         "company": "Plantd Materials",
@@ -40,9 +40,15 @@
         "valuation": ""
       },
       {
+        "company": "Castelion",
+        "sector": "Defense & Security",
+        "totalRaised": "$1.25B+ equity ($100M A + $350M B + $800M C) + $250M credit facility",
+        "valuation": "$13B"
+      },
+      {
         "company": "Andrenam",
         "sector": "Defense & Security",
-        "totalRaised": "$18M",
+        "totalRaised": "$30M",
         "valuation": ""
       },
       {
@@ -60,7 +66,7 @@
       {
         "company": "Fortastra",
         "sector": "Space & Aerospace",
-        "totalRaised": "$8M",
+        "totalRaised": "$38M",
         "valuation": ""
       },
       {
@@ -142,7 +148,7 @@
         "valuation": "Undisclosed"
       }
     ],
-    "description": "23 companies with founding-team links to SpaceX."
+    "description": "24 companies with founding-team links to SpaceX."
   },
   {
     "mafia": "Y Combinator",
@@ -332,8 +338,8 @@
       {
         "company": "Generalist AI",
         "sector": "Robotics & Manufacturing",
-        "totalRaised": "$500M+",
-        "valuation": "$2B"
+        "totalRaised": "$700M+",
+        "valuation": "$3B"
       }
     ],
     "description": "8 companies with founding-team links to Google/DeepMind."
@@ -394,7 +400,7 @@
       {
         "company": "Gallatin AI",
         "sector": "Defense & Security",
-        "totalRaised": "$15M",
+        "totalRaised": "$70M",
         "valuation": ""
       },
       {
@@ -425,7 +431,7 @@
       {
         "company": "Gallatin AI",
         "sector": "Defense & Security",
-        "totalRaised": "$15M",
+        "totalRaised": "$70M",
         "valuation": ""
       }
     ],
@@ -488,7 +494,7 @@
       {
         "company": "Persona AI",
         "sector": "Robotics & Manufacturing",
-        "totalRaised": "$25M",
+        "totalRaised": "$92M+",
         "valuation": ""
       },
       {

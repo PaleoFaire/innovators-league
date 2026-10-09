@@ -180,13 +180,14 @@
     "totalRaised": "$580M+",
     "totalRaisedRaw": 580.0,
     "lastRound": "Series D",
-    "lastRoundAmount": "$251M",
-    "lastRoundDate": "2026-09",
+    "lastRoundAmount": "$250M",
+    "lastRoundDate": "2026-10",
     "valuation": "$1.58B",
     "leadInvestors": [
+      "Undisclosed",
       "Lux Capital"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "Epirus",
@@ -429,6 +430,19 @@
     "roundCount": 1
   },
   {
+    "company": "Poseidon Aerospace",
+    "totalRaised": "$71M",
+    "totalRaisedRaw": 71.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$60M",
+    "lastRoundDate": "2026-09",
+    "valuation": "",
+    "leadInvestors": [
+      "TQ Ventures"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Lydian",
     "totalRaised": "$62.1M",
     "totalRaisedRaw": 62.1,
@@ -438,19 +452,6 @@
     "valuation": "",
     "leadInvestors": [
       "Breakthrough Energy Ventures"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Poseidon Aerospace",
-    "totalRaised": "$60M",
-    "totalRaisedRaw": 60.0,
-    "lastRound": "Series A",
-    "lastRoundAmount": "$60M",
-    "lastRoundDate": "2026-09",
-    "valuation": "",
-    "leadInvestors": [
-      "TQ Ventures"
     ],
     "roundCount": 1
   },
@@ -548,8 +549,8 @@
   },
   {
     "company": "Andrenam",
-    "totalRaised": "$18M",
-    "totalRaisedRaw": 18.0,
+    "totalRaised": "$30M",
+    "totalRaisedRaw": 30.0,
     "lastRound": "Series A",
     "lastRoundAmount": "$18M",
     "lastRoundDate": "2026-07",

@@ -1,42 +1,43 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 38,
+    "momentum": 39,
     "trend": "rising",
     "catalysts": [
-      "Teradyne invests in Bright Machines to bring robotics to AI",
-      "Runway introduces Praxis-1 world action model for robotics"
+      "Ex-OpenAI robotics lead\u2019s factory startup in insolvency proc",
+      "Gecko Robotics, Anduril team up for new Baltimore County shi",
+      "Teradyne invests in Bright Machines to bring robotics to AI"
     ],
     "fundingQ": "$1.4B",
     "components": {
       "funding": 72,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-08"
+    "lastUpdated": "2026-10-09"
   },
   {
-    "sector": "Space & Aerospace",
-    "momentum": 35,
+    "sector": "Defense & Security",
+    "momentum": 37,
     "trend": "rising",
     "catalysts": [
-      "Biggest SpaceX Product and News Ever. Mass Produced AI Data",
-      "NASA Sets Coverage for SpaceX 35th Station Resupply Launch,",
-      "NASA\u2019s SpaceX 35th Commercial Resupply Mission Overview"
+      "Shield AI expects to fly its unmanned fighter jet within mon",
+      "Navy, Shield AI pour big bucks into X-BAT drone development",
+      "Terran Orbital Names Jamin Brown Chief Operating Officer"
     ],
-    "fundingQ": "$251M",
+    "fundingQ": "$1.1B",
     "components": {
-      "funding": 11,
-      "news": 55,
+      "funding": 40,
+      "news": 15,
       "hiring": 0,
-      "market": 89
+      "market": 96
     },
-    "lastUpdated": "2026-10-08"
+    "lastUpdated": "2026-10-09"
   },
   {
     "sector": "Transportation",
-    "momentum": 35,
+    "momentum": 37,
     "trend": "steady",
     "catalysts": [
       "Active transportation ecosystem"
@@ -46,149 +47,134 @@
       "funding": 100,
       "news": 0,
       "hiring": 0,
-      "market": 0
+      "market": 8
     },
-    "lastUpdated": "2026-10-08"
+    "lastUpdated": "2026-10-09"
   },
   {
-    "sector": "Defense & Security",
-    "momentum": 34,
+    "sector": "Space & Aerospace",
+    "momentum": 31,
     "trend": "rising",
     "catalysts": [
-      "French Air Force plans loyal wingman flight in 2028 in sover",
-      "Terran Orbital Names Jamin Brown Chief Operating Officer"
+      "Varda Space Industries Raises $250 Million at a $1.6 Billion",
+      "NASA\u2019s SpaceX Crew\u201112 Splashes Down, Sets Briefing to Discus",
+      "Biggest SpaceX Product and News Ever. Mass Produced AI Data"
     ],
-    "fundingQ": "$1.1B",
+    "fundingQ": "$501M",
     "components": {
-      "funding": 40,
-      "news": 10,
+      "funding": 23,
+      "news": 50,
       "hiring": 0,
-      "market": 88
+      "market": 52
     },
-    "lastUpdated": "2026-10-08"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "OpenAI Makes 81% of Top Math Discoveries of the Last Three Y"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-10-08"
+    "lastUpdated": "2026-10-09"
   },
   {
     "sector": "AI & Software",
-    "momentum": 16,
+    "momentum": 21,
     "trend": "declining",
     "catalysts": [
-      "OpenAI Makes 81% of Top Math Discoveries of the Last Three Y",
-      "OpenAI Wants Its New Agent to Run Your Life. Mine Said It Lo",
-      "OpenAI agents tried to hack Wikipedia tools and flooded it w"
+      "Ex-OpenAI robotics lead\u2019s factory startup in insolvency proc",
+      "Fired OpenAI safety researchers dispute misconduct claims, w",
+      "OpenAI&#8217;s revenue is reportedly $20 billion less than p"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-08"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "Teradyne invests in Bright Machines to bring robotics to AI",
-      "SpaceX\u2019s AI Build Speed Will Make Wall Street Wrong Again",
-      "Runway introduces Praxis-1 world action model for robotics"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-08"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX alumni nab $100M to rethink shipping with autonomous",
-      "French Air Force plans loyal wingman flight in 2028 in sover",
-      "NaviGate successfully demonstrates onboard precise orbit det"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-08"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "OpenAI Makes 81% of Top Math Discoveries of the Last Three Y",
-      "NASA Sets Coverage for SpaceX 35th Station Resupply Launch,",
-      "SpaceX\u2019s AI Build Speed Will Make Wall Street Wrong Again"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-08"
+    "lastUpdated": "2026-10-09"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 13,
+    "momentum": 17,
     "trend": "declining",
     "catalysts": [
-      "NASA Sets Coverage for SpaceX 35th Station Resupply Launch,",
       "With federal funding windfall, X-energy advances small nucle",
-      "Mazama Energy raises $135M for superhot geothermal at Oregon"
+      "Mazama Energy raises $135M for superhot geothermal at Oregon",
+      "xAI has quietly built a massive battery at its Memphis data"
     ],
     "fundingQ": "$135M",
     "components": {
       "funding": 11,
+      "news": 15,
+      "hiring": 0,
+      "market": 48
+    },
+    "lastUpdated": "2026-10-09"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Estonia\u2019s KrattWorks crafting Shahed-like dummy drone for ta",
+      "Shield AI expects to fly its unmanned fighter jet within mon",
+      "Navy, Shield AI pour big bucks into X-BAT drone development"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
       "news": 20,
       "hiring": 0,
-      "market": 23
+      "market": 50
     },
-    "lastUpdated": "2026-10-08"
+    "lastUpdated": "2026-10-09"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Teradyne invests in Bright Machines to bring robotics to AI",
+      "SpaceX\u2019s AI Build Speed Will Make Wall Street Wrong Again",
+      "China-linked hackers posed as former US officials, Anthropic"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-09"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 12,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
+      "Hear from Ambrosia Energy and Bloom Energy execs on where th",
       "Teradyne invests in Bright Machines to bring robotics to AI",
       "Quantum Space Executes Launch Processing Agreement with All"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-09"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "OpenAI Makes 81% of Top Math Discoveries of the Last Three Y",
+      "SpaceX\u2019s AI Build Speed Will Make Wall Street Wrong Again"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
       "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-08"
+    "lastUpdated": "2026-10-09"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -204,27 +190,60 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-08"
+    "lastUpdated": "2026-10-09"
   },
   {
     "sector": "Ocean & Maritime",
-    "momentum": 10,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Active ocean & maritime ecosystem"
+      "NASA\u2019s SpaceX Crew\u201112 Splashes Down, Sets Briefing to Discus"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-08"
+    "lastUpdated": "2026-10-09"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "OpenAI Makes 81% of Top Math Discoveries of the Last Three Y"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 43
+    },
+    "lastUpdated": "2026-10-09"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 2,
+    "trend": "declining",
+    "catalysts": [
+      "Varda Space Industries Raises $250 Million at a $1.6 Billion",
+      "Quantum Space Executes Launch Processing Agreement with All"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-10-09"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 8,
+    "momentum": 1,
     "trend": "declining",
     "catalysts": [
       "With federal funding windfall, X-energy advances small nucle"
@@ -234,25 +253,9 @@
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 33
-    },
-    "lastUpdated": "2026-10-08"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 1,
-    "trend": "declining",
-    "catalysts": [
-      "Quantum Space Executes Launch Processing Agreement with All"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-08"
+    "lastUpdated": "2026-10-09"
   },
   {
     "sector": "Quantum Computing",
@@ -268,6 +271,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-08"
+    "lastUpdated": "2026-10-09"
   }
 ]
