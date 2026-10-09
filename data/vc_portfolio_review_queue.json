@@ -2676,8 +2676,11 @@
     "listed_by": 1,
     "since": "2026-09-25",
     "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "added",
+    "source_list": "vc-portfolio-watcher",
+    "matched_record": "Alva Energy",
+    "reviewed_at": "2026-10-09",
+    "review_note": "Added 9 Oct 2026 after primary-source checks (site, founders, HQ, round); see the record source field."
   },
   {
     "name": "Arch",

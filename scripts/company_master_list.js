@@ -7,7 +7,7 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1284
+ * Total companies: 1290
  * Last updated: 2026-10-09
  * 
  * Each company has:
@@ -1341,6 +1341,13 @@ const MASTER_COMPANY_LIST = [
   { name: "Slate Auto", aliases: ["SlateAuto"], sector: "transportation", ticker: null },
   // ─── 09 Oct 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
   { name: "Deployable Energy", aliases: ["DeployableEnergy"], sector: "nuclear", ticker: null },
+  // ─── 09 Oct 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
+  { name: "Standard Thermal", aliases: ["StandardThermal"], sector: "climate", ticker: null },
+  { name: "Alva Energy", aliases: ["AlvaEnergy"], sector: "nuclear", ticker: null },
+  { name: "Natura Resources", aliases: ["NaturaResources"], sector: "nuclear", ticker: null },
+  { name: "Qunnect", aliases: [], sector: "quantum", ticker: null },
+  { name: "Watney Robotics", aliases: ["WatneyRobotics", "Watney"], sector: "robotics", ticker: null },
+  { name: "LTA Research", aliases: ["LTAResearch"], sector: "transportation", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════

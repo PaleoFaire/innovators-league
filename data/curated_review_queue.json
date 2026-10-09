@@ -713,7 +713,7 @@
   },
   {
     "name": "Watney Robotics",
-    "status": "pending",
+    "status": "added",
     "sector": "Robotics",
     "tagline": "Builds robots that construct, operate, and maintain data centers.",
     "founders": "Sean Cheong, Ryan Gannon",
@@ -725,7 +725,10 @@
     "careers_url": "https://jobs.ashbyhq.com/watney",
     "our_sector": "Robotics & Manufacturing",
     "source_list": "buildlist",
-    "detected_at": "2026-09-22T04:50:33.545847+00:00"
+    "detected_at": "2026-09-22T04:50:33.545847+00:00",
+    "matched_record": "Watney Robotics",
+    "reviewed_at": "2026-10-09",
+    "review_note": "Added 9 Oct 2026 after primary-source checks (site, founders, HQ, round); see the record source field."
   },
   {
     "name": "Neion Bio",
