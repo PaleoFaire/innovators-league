@@ -201,6 +201,9 @@ OVERRIDES = {
     "Efficient Computer": "AI Compute",                # edge AI processor; "sensors" hits Specialty Silicon
     "Nucleus RadioPharma": "Biomanufacturing & Tools", # radiopharma CDMO; "manufacturing plant" hits Agriculture
     "Integrate": "Defense Software & Intelligence",     # JWICS project-management software; "drone" in its copy hits Counter-UAS
+    # Trip learnings applied 9 Oct 2026, hand-shelved:
+    "Voya Energy": "Fuels & Hydrogen",                 # aluminum-fuelled generator; new copy ("grid", "generator") would pull it into Grid & Power Delivery
+    "Deployable Energy": "Fission Reactors",
     # Trip-research adds and fixes (7 Oct 2026), hand-shelved:
     "Nano Nuclear Energy": "Fission Reactors",
     "Hexium": "Fuels & Isotopes",
