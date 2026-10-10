@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-09 12:51:51 UTC
+// Last updated: 2026-10-10 12:10:07 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Oklo", form: "4", date: "2026-10-08", description: "xslF345X06/wk-form4_1791490531.xml", isIPO: false, ticker: "OKLO" },
   { company: "Tempus AI", form: "8-K", date: "2026-10-08", description: "vnt-20261002.htm", isIPO: false, ticker: "TEM" },

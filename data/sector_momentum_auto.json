@@ -1,43 +1,7 @@
 [
   {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 39,
-    "trend": "rising",
-    "catalysts": [
-      "Ex-OpenAI robotics lead\u2019s factory startup in insolvency proc",
-      "Gecko Robotics, Anduril team up for new Baltimore County shi",
-      "Teradyne invests in Bright Machines to bring robotics to AI"
-    ],
-    "fundingQ": "$1.4B",
-    "components": {
-      "funding": 72,
-      "news": 15,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-09"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 37,
-    "trend": "rising",
-    "catalysts": [
-      "Shield AI expects to fly its unmanned fighter jet within mon",
-      "Navy, Shield AI pour big bucks into X-BAT drone development",
-      "Terran Orbital Names Jamin Brown Chief Operating Officer"
-    ],
-    "fundingQ": "$1.1B",
-    "components": {
-      "funding": 40,
-      "news": 15,
-      "hiring": 0,
-      "market": 96
-    },
-    "lastUpdated": "2026-10-09"
-  },
-  {
     "sector": "Transportation",
-    "momentum": 37,
+    "momentum": 39,
     "trend": "steady",
     "catalysts": [
       "Active transportation ecosystem"
@@ -47,49 +11,64 @@
       "funding": 100,
       "news": 0,
       "hiring": 0,
-      "market": 8
+      "market": 18
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 36,
+    "trend": "rising",
+    "catalysts": [
+      "Shield AI expects to fly its unmanned fighter jet within mon",
+      "Terran Orbital Names Jamin Brown Chief Operating Officer"
+    ],
+    "fundingQ": "$1.1B",
+    "components": {
+      "funding": 40,
+      "news": 10,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-10-10"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 36,
+    "trend": "rising",
+    "catalysts": [
+      "Ex-OpenAI robotics lead\u2019s factory startup in insolvency proc"
+    ],
+    "fundingQ": "$1.4B",
+    "components": {
+      "funding": 72,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-10"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 31,
+    "momentum": 19,
     "trend": "rising",
     "catalysts": [
+      "Elon&#8217;s CRAZY plan for SpaceX to Dwarf the World Econom",
       "Varda Space Industries Raises $250 Million at a $1.6 Billion",
-      "NASA\u2019s SpaceX Crew\u201112 Splashes Down, Sets Briefing to Discus",
       "Biggest SpaceX Product and News Ever. Mass Produced AI Data"
     ],
     "fundingQ": "$501M",
     "components": {
       "funding": 23,
-      "news": 50,
-      "hiring": 0,
-      "market": 52
-    },
-    "lastUpdated": "2026-10-09"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "Ex-OpenAI robotics lead\u2019s factory startup in insolvency proc",
-      "Fired OpenAI safety researchers dispute misconduct claims, w",
-      "OpenAI&#8217;s revenue is reportedly $20 billion less than p"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
       "news": 45,
       "hiring": 0,
-      "market": 50
+      "market": 0
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 17,
+    "momentum": 18,
     "trend": "declining",
     "catalysts": [
       "With federal funding windfall, X-energy advances small nucle",
@@ -101,54 +80,36 @@
       "funding": 11,
       "news": 15,
       "hiring": 0,
-      "market": 48
+      "market": 52
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 16,
+    "trend": "declining",
+    "catalysts": [
+      "Anthropic can&#8217;t reliably control its AI agents. It&#82",
+      "Ex-OpenAI robotics lead\u2019s factory startup in insolvency proc",
+      "OpenAI Makes 81% of Top Math Discoveries of the Last Three Y"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-10"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 15,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
       "Estonia\u2019s KrattWorks crafting Shahed-like dummy drone for ta",
       "Shield AI expects to fly its unmanned fighter jet within mon",
-      "Navy, Shield AI pour big bucks into X-BAT drone development"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-09"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 15,
-    "trend": "declining",
-    "catalysts": [
-      "Teradyne invests in Bright Machines to bring robotics to AI",
-      "SpaceX\u2019s AI Build Speed Will Make Wall Street Wrong Again",
-      "China-linked hackers posed as former US officials, Anthropic"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-09"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Hear from Ambrosia Energy and Bloom Energy execs on where th",
-      "Teradyne invests in Bright Machines to bring robotics to AI",
-      "Quantum Space Executes Launch Processing Agreement with All"
+      "NaviGate successfully demonstrates onboard precise orbit det"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -157,60 +118,113 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 12,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
       "OpenAI Makes 81% of Top Math Discoveries of the Last Three Y",
-      "SpaceX\u2019s AI Build Speed Will Make Wall Street Wrong Again"
+      "SpaceX\u2019s AI Build Speed Will Make Wall Street Wrong Again",
+      "<a href=\"/biotech/gsk-drinks-chai-discoverys-ai-models-after"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "SpaceX\u2019s AI Build Speed Will Make Wall Street Wrong Again",
+      "China-linked hackers posed as former US officials, Anthropic",
+      "Terran Orbital Names Jamin Brown Chief Operating Officer"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-10"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "Varda Space Industries Raises $250 Million at a $1.6 Billion",
+      "Quantum Space Executes Launch Processing Agreement with All",
+      "<a href=\"/biotech/gsk-drinks-chai-discoverys-ai-models-after"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 42
+    },
+    "lastUpdated": "2026-10-10"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Quantum Space Executes Launch Processing Agreement with All"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-10"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 11,
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "Teradyne invests in Bright Machines to bring robotics to AI"
+      "Active supersonic & hypersonic ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "sector": "Ocean & Maritime",
-    "momentum": 11,
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "NASA\u2019s SpaceX Crew\u201112 Splashes Down, Sets Briefing to Discus"
+      "Active ocean & maritime ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 10,
+    "momentum": 6,
     "trend": "declining",
     "catalysts": [
       "OpenAI Makes 81% of Top Math Discoveries of the Last Three Y"
@@ -220,26 +234,9 @@
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 43
+      "market": 22
     },
-    "lastUpdated": "2026-10-09"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 2,
-    "trend": "declining",
-    "catalysts": [
-      "Varda Space Industries Raises $250 Million at a $1.6 Billion",
-      "Quantum Space Executes Launch Processing Agreement with All"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "sector": "Nuclear Energy",
@@ -255,7 +252,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "sector": "Quantum Computing",
@@ -271,6 +268,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   }
 ]
