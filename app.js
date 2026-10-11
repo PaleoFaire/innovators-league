@@ -5432,6 +5432,13 @@ function initFundingTracker() {
 function initEvents() {
   const grid = document.getElementById('events-grid');
   if (!grid || typeof COMMUNITY_EVENTS === 'undefined') return;
+  if (!COMMUNITY_EVENTS.length) {
+    // No events scheduled (the placeholder list was removed 11 Oct 2026): hide the section and the links to it.
+    const sec = document.getElementById('events');
+    if (sec) sec.style.display = 'none';
+    document.querySelectorAll('a[href="#events"]').forEach(a => { a.style.display = 'none'; });
+    return;
+  }
 
   const typeConfig = {
     microsalon: { label: 'Micro-Salon', color: '#FF6B2C', bg: 'rgba(255,107,44,0.12)' },

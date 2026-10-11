@@ -7,8 +7,8 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1290
- * Last updated: 2026-10-09
+ * Total companies: 1303
+ * Last updated: 2026-10-11
  * 
  * Each company has:
  *   - name: Official company name
@@ -408,7 +408,7 @@ const MASTER_COMPANY_LIST = [
   { name: "Chef Robotics", aliases: ["ChefRobotics", "food robotics", "automation", "commercial kitchen"], sector: "robotics", ticker: null },
   { name: "Databricks", aliases: ["Unity Catalog", "Mosaic ML", "data platform", "Apache Spark", "enterprise"], sector: "ai", ticker: null },
   { name: "Dexterity", aliases: ["warehouse robotics", "manipulation", "logistics"], sector: "robotics", ticker: null },
-  { name: "Farm-ng", aliases: ["agricultural robotics", "farming"], sector: "robotics", ticker: null },
+  { name: "Bonsai Robotics", aliases: ["Farm-ng", "agricultural robotics", "farming"], sector: "robotics", ticker: null },
   { name: "Floodbase", aliases: ["climate tech", "flood monitoring", "parametric insurance", "satellite"], sector: "climate", ticker: null },
   { name: "Harbinger", aliases: ["electric trucks", "commercial EV", "chassis"], sector: "transportation", ticker: null },
   { name: "Hive AI", aliases: ["HiveAI", "content moderation", "AI APIs", "computer vision"], sector: "ai", ticker: null },
@@ -1033,7 +1033,7 @@ const MASTER_COMPANY_LIST = [
   { name: "Performance Drone Works", aliases: ["PerformanceDroneWorks"], sector: "defense", ticker: null },
   { name: "Perseus Defense", aliases: ["PerseusDefense"], sector: "defense", ticker: null },
   { name: "Primoco UAV", aliases: ["PrimocoUAV"], sector: "defense", ticker: "PRIMOCO" },
-  { name: "Pryzm", aliases: [], sector: "defense", ticker: null },
+  { name: "Belisar", aliases: ["Pryzm"], sector: "defense", ticker: null },
   { name: "Rivet Industries", aliases: ["RivetIndustries"], sector: "defense", ticker: null },
   { name: "Sagar Defence Engineering", aliases: ["SagarDefenceEngineering"], sector: "defense", ticker: null },
   { name: "Sandtable", aliases: [], sector: "defense", ticker: null },
@@ -1348,6 +1348,20 @@ const MASTER_COMPANY_LIST = [
   { name: "Qunnect", aliases: [], sector: "quantum", ticker: null },
   { name: "Watney Robotics", aliases: ["WatneyRobotics", "Watney"], sector: "robotics", ticker: null },
   { name: "LTA Research", aliases: ["LTAResearch"], sector: "transportation", ticker: null },
+  // ─── 11 Oct 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
+  { name: "CScale", aliases: [], sector: "chips", ticker: null },
+  { name: "Discovered Materials", aliases: ["DiscoveredMaterials"], sector: "chips", ticker: null },
+  { name: "Lumilens", aliases: [], sector: "chips", ticker: null },
+  { name: "Source Foundry", aliases: ["SourceFoundry"], sector: "chips", ticker: null },
+  { name: "Upscale AI", aliases: ["UpscaleAI"], sector: "chips", ticker: null },
+  { name: "Riven Systems", aliases: ["RivenSystems"], sector: "climate", ticker: null },
+  { name: "ZutaCore", aliases: [], sector: "climate", ticker: null },
+  { name: "Fluxnium", aliases: [], sector: "nuclear", ticker: null },
+  { name: "Avatar Robotics", aliases: ["AvatarRobotics"], sector: "robotics", ticker: null },
+  { name: "Fauna Robotics", aliases: ["FaunaRobotics"], sector: "robotics", ticker: null },
+  { name: "Proception", aliases: [], sector: "robotics", ticker: null },
+  { name: "Hop Aero", aliases: ["HopAero"], sector: "space", ticker: null },
+  { name: "Sophia Space", aliases: ["SophiaSpace"], sector: "space", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════

@@ -201,6 +201,10 @@ OVERRIDES = {
     "Efficient Computer": "AI Compute",                # edge AI processor; "sensors" hits Specialty Silicon
     "Nucleus RadioPharma": "Biomanufacturing & Tools", # radiopharma CDMO; "manufacturing plant" hits Agriculture
     "Integrate": "Defense Software & Intelligence",     # JWICS project-management software; "drone" in its copy hits Counter-UAS
+    # 11 Oct 2026 review adds, hand-shelved:
+    "CScale": "Photonics & Interconnect",             # optical interconnect; "accelerator" copy pulled it into AI Compute
+    "Avatar Robotics": "Warehouse & Logistics Robotics",  # teleoperated warehouse packers; "semi-humanoid" hit Humanoids
+    "Discovered Materials": "General",                # materials-discovery AI + lab; no clean shelf
     # Trip learnings applied 9 Oct 2026, hand-shelved:
     "Voya Energy": "Fuels & Hydrogen",                 # aluminum-fuelled generator; new copy ("grid", "generator") would pull it into Grid & Power Delivery
     "Deployable Energy": "Fission Reactors",
