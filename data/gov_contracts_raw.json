@@ -10476,6 +10476,30 @@
     "description": "SMALL BUSINESS INNOVATION RESEARCH, DIRECT TO PHASE II TOPIC A254-P030, XTECHOVERWATCH OPEN TOPIC"
   },
   {
+    "company": "Bonsai Robotics",
+    "awardId": "1232SA26P0416",
+    "recipientName": "BONSAI ROBOTICS INC",
+    "amount": 31088.85,
+    "agency": "Department of Agriculture",
+    "subAgency": "Agricultural Research Service",
+    "awardType": null,
+    "startDate": "2026-07-14",
+    "endDate": "2027-09-14",
+    "description": "PHENOTYPING ROBOTIC PLATFORM"
+  },
+  {
+    "company": "Bonsai Robotics",
+    "awardId": "1232SA26P0273",
+    "recipientName": "BONSAI ROBOTICS INC",
+    "amount": 29777.54,
+    "agency": "Department of Agriculture",
+    "subAgency": "Agricultural Research Service",
+    "awardType": null,
+    "startDate": "2026-05-21",
+    "endDate": "2026-07-18",
+    "description": "AUTONOMOUS ROBOTIC MOBILE PLATFORM.  (UNMANNED GROUND VEHICLE - UGV)"
+  },
+  {
     "company": "Specter Aerospace",
     "awardId": "N6833525C0355",
     "recipientName": "SPECTER AEROSPACE INC.",
@@ -10522,18 +10546,6 @@
     "startDate": "2025-09-11",
     "endDate": "2027-09-10",
     "description": "HITMAN: HYPERSONIC INTERCEPTOR FOR MANEUVERING SYSTEMS"
-  },
-  {
-    "company": "Pryzm",
-    "awardId": "HQ085926FE814",
-    "recipientName": "PRYZM DYNAMICS INC.",
-    "amount": 500.0,
-    "agency": "Department of Defense",
-    "subAgency": "Missile Defense Agency",
-    "awardType": null,
-    "startDate": "2025-12-29",
-    "endDate": "2035-12-28",
-    "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER."
   },
   {
     "company": "Argo Space",
@@ -10966,5 +10978,17 @@
     "startDate": "2026-09-21",
     "endDate": "2026-12-21",
     "description": "QUNNECT AUTOMATED POLARIZATION COMPENSATION SYSTEM"
+  },
+  {
+    "company": "Sophia Space",
+    "awardId": "80NSSC26C0446",
+    "recipientName": "SOPHIA SPACE, INC.",
+    "amount": 224936.0,
+    "agency": "National Aeronautics and Space Administration",
+    "subAgency": "National Aeronautics and Space Administration",
+    "awardType": null,
+    "startDate": "2026-09-30",
+    "endDate": "2027-03-30",
+    "description": "FY26 SBIR PHASE I - SOPHIA TILE FOR GPU-ACCELERATED COMPUTING WITH INTEGRATED THERMAL MANAGEMENT"
   }
 ]

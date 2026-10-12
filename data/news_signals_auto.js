@@ -1,118 +1,151 @@
 // Auto-generated news signals
-// Last updated: 2026-10-11T12:23:38.014Z
+// Last updated: 2026-10-12T14:52:32.350Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1791721418014,
+    "id": 1791816752350,
+    "type": "news",
+    "company": "Forterra",
+    "headline": "One user interface, multiple autonomous systems: Forterra debuts OASIS-OneLink technology",
+    "source": "Defense News",
+    "time": "1h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/12/one-user-interface-multiple-autonomous-systems-forterra-debuts-oasis-onelink-technology/"
+  },
+  {
+    "id": 1791816752351,
+    "type": "milestone",
+    "company": "Heaviside",
+    "headline": "US-Norwegian startup Heaviside launches Tyr loitering munition",
+    "source": "Breaking Defense",
+    "time": "2h ago",
+    "impact": "medium",
+    "unread": true,
+    "link": "https://breakingdefense.com/2026/10/us-norwegian-startup-heaviside-launches-tyr-loitering-munition/"
+  },
+  {
+    "id": 1791816752352,
+    "type": "news",
+    "company": "Humanoid",
+    "headline": "Learning to Play Like a Pro: Adaptive Motion Planning and Tracking for Humanoid Robots",
+    "source": "IEEE Spectrum",
+    "time": "4h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://content.knowledgehub.wiley.com/learning-to-play-like-a-pro-adaptive-motion-planning-and-tracking-for-humanoid-robots/"
+  },
+  {
+    "id": 1791816752353,
     "type": "funding",
     "company": "SpaceX",
     "headline": "SpaceX to $1,000 in 2027? Follow the AI Factory Math",
     "source": "Next Big Future",
-    "time": "11h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/10/spacex-to-1000-in-2027-follow-the-ai-factory-math.html"
   },
   {
-    "id": 1791721418015,
-    "type": "funding",
-    "company": "Anthropic",
-    "headline": "Anthropic can&#8217;t reliably control its AI agents. It&#8217;s cutting off its internal evals from the live internet i",
-    "source": "TechCrunch",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": true,
-    "link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
-  },
-  {
-    "id": 1791721418016,
+    "id": 1791816752354,
     "type": "hire",
     "company": "SpaceX",
     "headline": "Elon&#8217;s CRAZY plan for SpaceX to Dwarf the World Economy. Breaking it down",
     "source": "Next Big Future",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/10/elons-crazy-plan-for-spacex-to-dwarf-the-world-economy-breaking-it-down.html"
   },
   {
-    "id": 1791721418017,
+    "id": 1791816752355,
     "type": "news",
     "company": "KrattWorks",
     "headline": "Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
     "source": "Defense News",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://www.defensenews.com/global/europe/2026/10/09/estonias-krattworks-crafting-shahed-like-dummy-drone-for-target-practice/"
   },
   {
-    "id": 1791721418018,
+    "id": 1791816752356,
     "type": "hire",
     "company": "OpenAI",
     "headline": "Ex-OpenAI robotics lead’s factory startup in insolvency proceedings",
     "source": "Sifted",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://sifted.eu/articles/ex-openai-robotics-leads-factory-startup-in-insolvency-proceedings/"
   },
   {
-    "id": 1791721418019,
+    "id": 1791816752357,
+    "type": "funding",
+    "company": "Waymo",
+    "headline": "Waymo Raises $5 Billion to Expand Further",
+    "source": "CleanTechnica",
+    "time": "3d ago",
+    "impact": "high",
+    "unread": false,
+    "link": "https://cleantechnica.com/2026/10/08/waymo-raises-5-billion-to-expand-further/"
+  },
+  {
+    "id": 1791816752358,
     "type": "funding",
     "company": "Varda Space Industries",
     "headline": "Varda Space Industries Raises $250 Million at a $1.6 Billion Valuation",
     "source": "Next Big Future",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "high",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/10/varda-space-industries-raises-250-million-at-a-1-6-billion-valuation.html"
   },
   {
-    "id": 1791721418020,
+    "id": 1791816752359,
     "type": "news",
     "company": "Shield AI",
     "headline": "Shield AI expects to fly its unmanned fighter jet within months",
     "source": "Defense One",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.defenseone.com/business/2026/10/shield-ai-expects-fly-its-unmanned-fighter-jet-within-months/416510/"
   },
   {
-    "id": 1791721418021,
+    "id": 1791816752360,
     "type": "hire",
     "company": "OpenAI",
     "headline": "OpenAI Makes 81% of Top Math Discoveries of the Last Three Years &#8211; Released in one Day",
     "source": "Next Big Future",
-    "time": "3d ago",
+    "time": "4d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/10/openai-makes-81-of-top-math-discoveries-of-the-last-three-years-released-in-one-day.html"
   },
   {
-    "id": 1791721418022,
+    "id": 1791816752361,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Biggest SpaceX Product and News Ever. Mass Produced AI Data Centers",
     "source": "Next Big Future",
-    "time": "3d ago",
+    "time": "4d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/10/biggest-spacex-product-and-news-ever-mass-produced-ai-data-centers.html"
   },
   {
-    "id": 1791721418023,
+    "id": 1791816752362,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
     "source": "Ars Technica",
-    "time": "5d ago",
+    "time": "6d ago",
     "impact": "low",
     "unread": false,
     "link": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/"
   },
   {
-    "id": 1791721418024,
+    "id": 1791816752363,
     "type": "contract",
     "company": "SpaceX",
     "headline": "Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract",
@@ -123,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract/"
   },
   {
-    "id": 1791721418025,
+    "id": 1791816752364,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX describes surgical intervention before launch of latest crew mission",
@@ -134,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/"
   },
   {
-    "id": 1791721418026,
+    "id": 1791816752365,
     "type": "news",
     "company": "Anthropic",
     "headline": "China-linked hackers posed as former US officials, Anthropic employee to target AI experts",
@@ -145,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/threats/2026/10/china-linked-hackers-posed-former-us-officials-anthropic-employee-target-ai-experts/416384/"
   },
   {
-    "id": 1791721418027,
+    "id": 1791816752366,
     "type": "ipo",
     "company": "D-Orbit",
     "headline": "NaviGate successfully demonstrates onboard precise orbit determination aboard D-Orbit’s ION Satellite Carrier",
@@ -156,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/navigate-successfully-demonstrates-onboard-precise-orbit-determination-aboard-d-orbits-ion-satellite-carrier/"
   },
   {
-    "id": 1791721418028,
+    "id": 1791816752367,
     "type": "ipo",
     "company": "Quantum Space",
     "headline": "Quantum Space Executes Launch Processing Agreement with All Points Logistics for Prime Mission",
@@ -167,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/quantum-space-executes-launch-processing-agreement-with-all-points-logistics-for-prime-mission/"
   },
   {
-    "id": 1791721418029,
+    "id": 1791816752368,
     "type": "ipo",
     "company": "Terran Orbital",
     "headline": "Terran Orbital Names Jamin Brown Chief Operating Officer",
@@ -178,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/terran-orbital-names-jamin-brown-chief-operating-officer/"
   },
   {
-    "id": 1791721418030,
+    "id": 1791816752369,
     "type": "funding",
     "company": "X-Energy",
     "headline": "With federal funding windfall, X-energy advances small nuclear reactor",
@@ -187,38 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://www.canarymedia.com/articles/nuclear/federal-funding-x-energy-small-nuclear-reactor"
-  },
-  {
-    "id": 1791721418031,
-    "type": "funding",
-    "company": "Mazama",
-    "headline": "Mazama Energy raises $135M for superhot geothermal at Oregon volcano",
-    "source": "Canary Media",
-    "time": "9/17/2026",
-    "impact": "high",
-    "unread": false,
-    "link": "https://www.canarymedia.com/articles/geothermal/mazama-energy-raises-135m-oregon-geothermal"
-  },
-  {
-    "id": 1791721418032,
-    "type": "news",
-    "company": "xAI",
-    "headline": "xAI has quietly built a massive battery at its Memphis data center hub",
-    "source": "Canary Media",
-    "time": "9/11/2026",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.canarymedia.com/articles/batteries/xai-massive-battery-memphis-data-center"
-  },
-  {
-    "id": 1791721418033,
-    "type": "news",
-    "company": "Chai Discovery",
-    "headline": "<a href=\"/biotech/gsk-drinks-chai-discoverys-ai-models-after-wet-lab-validation\" hreflang=\"en\">GSK drinks in Chai Discov",
-    "source": "FierceBiotech",
-    "time": "Invalid Date",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.fiercebiotech.com/biotech/gsk-drinks-chai-discoverys-ai-models-after-wet-lab-validation"
   }
 ];

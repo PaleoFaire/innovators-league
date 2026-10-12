@@ -1,5 +1,40 @@
 [
   {
+    "sector": "Defense & Security",
+    "momentum": 58,
+    "trend": "steady",
+    "catalysts": [
+      "Shield AI expects to fly its unmanned fighter jet within mon",
+      "Terran Orbital Names Jamin Brown Chief Operating Officer"
+    ],
+    "fundingQ": "$4.1B",
+    "components": {
+      "funding": 100,
+      "news": 10,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-10-12"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 50,
+    "trend": "steady",
+    "catalysts": [
+      "Learning to Play Like a Pro: Adaptive Motion Planning and Tr",
+      "SpaceX to $1,000 in 2027? Follow the AI Factory Math",
+      "Ex-OpenAI robotics lead\u2019s factory startup in insolvency proc"
+    ],
+    "fundingQ": "$6.4B",
+    "components": {
+      "funding": 100,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-12"
+  },
+  {
     "sector": "Transportation",
     "momentum": 39,
     "trend": "steady",
@@ -13,113 +48,95 @@
       "hiring": 0,
       "market": 18
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-12"
   },
   {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 38,
-    "trend": "rising",
-    "catalysts": [
-      "SpaceX to $1,000 in 2027? Follow the AI Factory Math",
-      "Ex-OpenAI robotics lead\u2019s factory startup in insolvency proc"
-    ],
-    "fundingQ": "$1.4B",
-    "components": {
-      "funding": 72,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-11"
-  },
-  {
-    "sector": "Defense & Security",
+    "sector": "Nuclear Energy",
     "momentum": 36,
-    "trend": "rising",
+    "trend": "steady",
     "catalysts": [
-      "Shield AI expects to fly its unmanned fighter jet within mon",
-      "Terran Orbital Names Jamin Brown Chief Operating Officer"
+      "With federal funding windfall, X-energy advances small nucle"
     ],
-    "fundingQ": "$1.1B",
+    "fundingQ": "$1.0B",
     "components": {
-      "funding": 40,
-      "news": 10,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-10-11"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 19,
-    "trend": "rising",
-    "catalysts": [
-      "SpaceX to $1,000 in 2027? Follow the AI Factory Math",
-      "Elon&#8217;s CRAZY plan for SpaceX to Dwarf the World Econom",
-      "Varda Space Industries Raises $250 Million at a $1.6 Billion"
-    ],
-    "fundingQ": "$501M",
-    "components": {
-      "funding": 23,
-      "news": 45,
+      "funding": 100,
+      "news": 5,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-12"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 18,
-    "trend": "declining",
+    "momentum": 30,
+    "trend": "rising",
     "catalysts": [
       "With federal funding windfall, X-energy advances small nucle",
       "Mazama Energy raises $135M for superhot geothermal at Oregon",
       "xAI has quietly built a massive battery at its Memphis data"
     ],
-    "fundingQ": "$135M",
+    "fundingQ": "$550M",
     "components": {
-      "funding": 11,
+      "funding": 46,
       "news": 15,
       "hiring": 0,
       "market": 52
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-12"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 25,
+    "trend": "rising",
+    "catalysts": [
+      "US-Norwegian startup Heaviside launches Tyr loitering muniti",
+      "SpaceX to $1,000 in 2027? Follow the AI Factory Math",
+      "Elon&#8217;s CRAZY plan for SpaceX to Dwarf the World Econom"
+    ],
+    "fundingQ": "$809M",
+    "components": {
+      "funding": 36,
+      "news": 50,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-10-12"
   },
   {
     "sector": "AI & Software",
-    "momentum": 16,
+    "momentum": 17,
     "trend": "declining",
     "catalysts": [
-      "Anthropic can&#8217;t reliably control its AI agents. It&#82",
       "Ex-OpenAI robotics lead\u2019s factory startup in insolvency proc",
-      "OpenAI Makes 81% of Top Math Discoveries of the Last Three Y"
+      "OpenAI Makes 81% of Top Math Discoveries of the Last Three Y",
+      "OpenAI agents tried to hack Wikipedia tools and flooded it w"
     ],
-    "fundingQ": "$0M",
+    "fundingQ": "$350M",
     "components": {
-      "funding": 0,
-      "news": 25,
+      "funding": 6,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-12"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 14,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
+      "One user interface, multiple autonomous systems: Forterra de",
       "Estonia\u2019s KrattWorks crafting Shahed-like dummy drone for ta",
-      "Shield AI expects to fly its unmanned fighter jet within mon",
-      "NaviGate successfully demonstrates onboard precise orbit det"
+      "Shield AI expects to fly its unmanned fighter jet within mon"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-12"
   },
   {
     "sector": "Housing & Construction",
@@ -137,7 +154,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-12"
   },
   {
     "sector": "Biotech & Health",
@@ -155,7 +172,7 @@
       "hiring": 0,
       "market": 42
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-12"
   },
   {
     "sector": "Consumer Tech",
@@ -172,7 +189,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-12"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -188,7 +205,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-12"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -204,7 +221,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-12"
   },
   {
     "sector": "Ocean & Maritime",
@@ -220,7 +237,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-12"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -237,23 +254,7 @@
       "hiring": 0,
       "market": 22
     },
-    "lastUpdated": "2026-10-11"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 1,
-    "trend": "declining",
-    "catalysts": [
-      "With federal funding windfall, X-energy advances small nucle"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-12"
   },
   {
     "sector": "Quantum Computing",
@@ -269,6 +270,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-12"
   }
 ]

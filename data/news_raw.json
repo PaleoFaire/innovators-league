@@ -1,5 +1,62 @@
 [
   {
+    "title": "One user interface, multiple autonomous systems: Forterra debuts OASIS-OneLink technology",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/12/one-user-interface-multiple-autonomous-systems-forterra-debuts-oasis-onelink-technology/",
+    "description": "Forterra introduced its new OASIS-OneLink platform that allows operators and service members to control autonomous systems using a single user interface.",
+    "pubDate": "Mon, 12 Oct 2026 13:49:37 +0000",
+    "category": "/ MilTech",
+    "source": "Defense News",
+    "feedCategory": "defense",
+    "matchedCompany": "Forterra",
+    "matchedCompanies": [
+      "Forterra"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "US-Norwegian startup Heaviside launches Tyr loitering munition",
+    "link": "https://breakingdefense.com/2026/10/us-norwegian-startup-heaviside-launches-tyr-loitering-munition/",
+    "description": "The company is headquartered in L.A. but partners closely with Norwegian arms-maker Nammo, which provides the anti-tank warheads and a range for live-fire testing.",
+    "pubDate": "Mon, 12 Oct 2026 12:00:00 +0000",
+    "category": "Air Warfare",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "Heaviside",
+    "matchedCompanies": [
+      "Heaviside"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "milestone",
+    "impact": "medium",
+    "time": "2h ago"
+  },
+  {
+    "title": "Learning to Play Like a Pro: Adaptive Motion Planning and Tracking for Humanoid Robots",
+    "link": "https://content.knowledgehub.wiley.com/learning-to-play-like-a-pro-adaptive-motion-planning-and-tracking-for-humanoid-robots/",
+    "description": "This White Paper provides roboticists and control engineers with a comprehensive overview of how motion planning and motion tracking can be decoupled to preserve professional athletic style in humanoid robots, and why adaptive, speed-aware control is essential for closing the gap between simulation ",
+    "pubDate": "Mon, 12 Oct 2026 10:00:03 +0000",
+    "category": "Type-whitepaper",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Humanoid",
+    "matchedCompanies": [
+      "Humanoid"
+    ],
+    "sectors": [
+      "robotics"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "4h ago"
+  },
+  {
     "title": "SpaceX to $1,000 in 2027? Follow the AI Factory Math",
     "link": "https://www.nextbigfuture.com/2026/10/spacex-to-1000-in-2027-follow-the-ai-factory-math.html",
     "description": "One new AI data center per month represents $25 billion in annual revenue capacity each month and then it will triple to $75 billion per month with Rubin chips in 2027. Completing facilities at a monthly pace would make construction speed a major driver of SpaceX’s valuation. That is the core of the",
@@ -16,25 +73,6 @@
     "sectors": [
       "space",
       "chips"
-    ],
-    "type": "funding",
-    "impact": "low",
-    "time": "11h ago"
-  },
-  {
-    "title": "Anthropic can&#8217;t reliably control its AI agents. It&#8217;s cutting off its internal evals from the live internet instead",
-    "link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-    "description": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
-    "pubDate": "Sat, 10 Oct 2026 00:18:32 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic"
-    ],
-    "sectors": [
-      "ai"
     ],
     "type": "funding",
     "impact": "low",
@@ -60,7 +98,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
@@ -79,7 +117,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Ex-OpenAI robotics lead’s factory startup in insolvency proceedings",
@@ -98,7 +136,28 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
+  },
+  {
+    "title": "Waymo Raises $5 Billion to Expand Further",
+    "link": "https://cleantechnica.com/2026/10/08/waymo-raises-5-billion-to-expand-further/",
+    "description": "The following two things are no secrets: 1) Waymo has been expanding quite rapidly this year into new cities and regions. 2) Waymo isn&#8217;t yet making a profit on its self-driving vehicle business — not even close. So, it can&#8217;t come as total surprise to find out that the California   ... [c",
+    "pubDate": "Fri, 09 Oct 2026 02:41:30 +0000",
+    "category": "Autonomous Vehicles",
+    "source": "CleanTechnica",
+    "feedCategory": "energy",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Aurora Innovation"
+    ],
+    "sectors": [
+      "ai",
+      "autonomous"
+    ],
+    "type": "funding",
+    "impact": "high",
+    "time": "3d ago"
   },
   {
     "title": "Varda Space Industries Raises $250 Million at a $1.6 Billion Valuation",
@@ -118,7 +177,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Shield AI expects to fly its unmanned fighter jet within months",
@@ -137,7 +196,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "OpenAI Makes 81% of Top Math Discoveries of the Last Three Years &#8211; Released in one Day",
@@ -156,7 +215,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Biggest SpaceX Product and News Ever. Mass Produced AI Data Centers",
@@ -178,7 +237,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
@@ -197,7 +256,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract",
