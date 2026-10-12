@@ -8,7 +8,7 @@
  *
  * Coverage: 100% of companies in data.js
  * Total companies: 1303
- * Last updated: 2026-10-11
+ * Last updated: 2026-10-12
  * 
  * Each company has:
  *   - name: Official company name
