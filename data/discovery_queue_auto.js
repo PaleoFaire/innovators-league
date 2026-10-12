@@ -1,17 +1,47 @@
 // Auto-generated from discovery_queue_auto.json
-// Last updated: 2026-10-05T16:24:16+00:00
+// Last updated: 2026-10-12T17:02:16+00:00
 const DISCOVERY_QUEUE_AUTO = {
-  "generatedAt": "2026-10-05T16:24:16+00:00",
-  "knownCompaniesCount": 2040,
+  "generatedAt": "2026-10-12T17:02:16+00:00",
+  "knownCompaniesCount": 1993,
   "summary": {
-    "totalCandidates": 372,
+    "totalCandidates": 481,
     "fromFormD": 0,
-    "fromVcPortfolios": 322,
+    "fromVcPortfolios": 439,
     "fromNewsletters": 23,
     "fromLlmExtraction": 34,
     "multiSource": 2
   },
   "candidates": [
+    {
+      "name": "Spartan",
+      "score": 70,
+      "signals": [
+        {
+          "name": "Spartan",
+          "source": "VC portfolio: Prime Movers Lab",
+          "sourceWeight": 35,
+          "vc": "Prime Movers Lab",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.spartanradar.com",
+          "context": "Listed by Prime Movers Lab: Spartan Radar specializes in automotive safety solutions tailored for heavy vehicles.Explore our solutions designed to enhance safety and prevent accidents on the road."
+        },
+        {
+          "name": "Spartan",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 35,
+          "vc": "8VC",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.spartanradar.com",
+          "context": "Listed by 8VC: Spartan Radar specializes in automotive safety solutions tailored for heavy vehicles.Explore our solutions designed to enhance safety and prevent accidents on the road."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
     {
       "name": "American Supercritical",
       "score": 60,
@@ -200,6 +230,66 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
+      "name": "Benchling",
+      "score": 53,
+      "signals": [
+        {
+          "name": "Benchling",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 35,
+          "vc": "Lux",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.luxcapital.com/companies/benchling",
+          "context": "Listed by Lux"
+        },
+        {
+          "name": "Benchling",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://benchling.com",
+          "context": "Listed by Lux: Benchling is the modern software platform purpose-built for life science R&D. Hundreds of thousands of scientists using cutting-edge techniques like CRISPR, CAR-T immunotherapy, and genetic engineerin"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Kallyope",
+      "score": 53,
+      "signals": [
+        {
+          "name": "Kallyope",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 35,
+          "vc": "Lux",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.luxcapital.com/companies/kallyope",
+          "context": "Listed by Lux"
+        },
+        {
+          "name": "Kallyope",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://kallyope.com",
+          "context": "Listed by Lux: Kallyope uses the science of gut-brain biology to create medicines that transform human health."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
       "name": "Crux",
       "score": 53,
       "signals": [
@@ -258,6 +348,156 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": null
+    },
+    {
+      "name": "Avail Medsystems",
+      "score": 36,
+      "signals": [
+        {
+          "name": "Avail Medsystems",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://avail.io",
+          "context": "Listed by Lux: Avail is a digital healthcare company providing a dedicated procedure room hardware/software platform with telepresence and software hosting capabilities. The complete Avail system enables the MedTech"
+        },
+        {
+          "name": "Avail Medsystems",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://avail.io",
+          "context": "Listed by 8VC: Avail is a digital healthcare company providing a dedicated procedure room hardware/software platform with telepresence and software hosting capabilities. The complete Avail system enables the MedTech"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Octant",
+      "score": 36,
+      "signals": [
+        {
+          "name": "Octant",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.octant.bio/",
+          "context": "Listed by 8VC: Octant is a well-backed team of experienced scientists and entrepreneurs exploring new frontiers of biology. Octant is applying next-generation DNA sequencing, gene synthesis, and gene editing to revo"
+        },
+        {
+          "name": "Octant",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.octant.bio/",
+          "context": "Listed by Lux: Octant is a well-backed team of experienced scientists and entrepreneurs exploring new frontiers of biology. Octant is applying next-generation DNA sequencing, gene synthesis, and gene editing to revo"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Senti Biosciences",
+      "score": 36,
+      "signals": [
+        {
+          "name": "Senti Biosciences",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://sentibio.com",
+          "context": "Listed by Lux: Senti Biosciences Inc. is a preclinical biotechnology company developing next-generation cell and gene therapies engineered with their gene circuit platform technologies to fight challenging diseases."
+        },
+        {
+          "name": "Senti Biosciences",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://sentibio.com",
+          "context": "Listed by 8VC: Senti Biosciences Inc. is a preclinical biotechnology company developing next-generation cell and gene therapies engineered with their gene circuit platform technologies to fight challenging diseases."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Super",
+      "score": 36,
+      "signals": [
+        {
+          "name": "Super",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://hellosuper.com",
+          "context": "Listed by Lux: Super is an insurtech company that offers a subscription service for home care and repair."
+        },
+        {
+          "name": "Super",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://hellosuper.com",
+          "context": "Listed by 8VC: Super is an insurtech company that offers a subscription service for home care and repair."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Latus Bio",
+      "score": 36,
+      "signals": [
+        {
+          "name": "Latus Bio",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-09-25",
+          "verifyUrl": "https://8vc.com/companies/latus-bio",
+          "context": "Listed by 8VC: The next chapter in AAV gene therapy"
+        },
+        {
+          "name": "Latus Bio",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://latusbio.com",
+          "context": "Listed by 8VC: Latus Bio is a biotechnology company focused on developing gene therapy candidates using Adeno-Associated Virus (AAV) vectors to target diseases of the central nervous system and the periphery. The co"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
     },
     {
       "name": "Ephemeris",
@@ -617,27 +857,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Heliogen",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Heliogen",
-          "source": "VC portfolio: Prime Movers Lab",
-          "sourceWeight": 35,
-          "vc": "Prime Movers Lab",
-          "date": "2026-09-25",
-          "verifyUrl": "https://heliogen.com",
-          "context": "Listed by Prime Movers Lab: Energy on Demand. At Heliogen, we envision a world where breakthrough long-duration energy storage empowers the future. By harnessing the limitless power of natural resources and converting it into al"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
       "name": "Iviva Medical",
       "score": 35,
       "signals": [
@@ -680,27 +899,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Momentus",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Momentus",
-          "source": "VC portfolio: Prime Movers Lab",
-          "sourceWeight": 35,
-          "vc": "Prime Movers Lab",
-          "date": "2026-09-25",
-          "verifyUrl": "https://momentus.space",
-          "context": "Listed by Prime Movers Lab"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
       "name": "Nelumbo",
       "score": 35,
       "signals": [
@@ -720,27 +918,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": null
-    },
-    {
-      "name": "Spartan",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Spartan",
-          "source": "VC portfolio: Prime Movers Lab",
-          "sourceWeight": 35,
-          "vc": "Prime Movers Lab",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.spartanradar.com",
-          "context": "Listed by Prime Movers Lab: Spartan Radar specializes in automotive safety solutions tailored for heavy vehicles.Explore our solutions designed to enhance safety and prevent accidents on the road."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
     },
     {
       "name": "Tarana",
@@ -795,6 +972,321 @@ const DISCOVERY_QUEUE_AUTO = {
           "vc": "Prime Movers Lab",
           "date": "2026-09-25",
           "verifyUrl": "https://vaxxinity.com",
+          "context": "Listed by Prime Movers Lab"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Aizon",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Aizon",
+          "source": "VC portfolio: Cantos",
+          "sourceWeight": 35,
+          "vc": "Cantos",
+          "date": "2026-10-12",
+          "verifyUrl": "https://aizon.ai",
+          "context": "Listed by Cantos: Aizon is an AI software provider that transforms manufacturing operations with the use of advanced analytics, artificial intelligence, and other smart factory technologies focused on optimizing produc"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Robotics & Manufacturing"
+    },
+    {
+      "name": "ALICE Technologies",
+      "score": 35,
+      "signals": [
+        {
+          "name": "ALICE Technologies",
+          "source": "VC portfolio: Cantos",
+          "sourceWeight": 35,
+          "vc": "Cantos",
+          "date": "2026-10-12",
+          "verifyUrl": "https://alicetechnologies.com",
+          "context": "Listed by Cantos: ALICE Technologies is the developer of an AI-powered construction simulation platform. It leverages artificial intelligence to analyze a project's complex building requirements, generate efficient bui"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Anvil",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Anvil",
+          "source": "VC portfolio: Cantos",
+          "sourceWeight": 35,
+          "vc": "Cantos",
+          "date": "2026-10-12",
+          "verifyUrl": "https://anvil.co",
+          "context": "Listed by Cantos: Anvil is built for fast-moving hardware teams. We eliminate the bottlenecks between design and manufacturing, turning slow, unpredictable prototype cycles into fast, reliable, and repeatable workflows"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Robotics & Manufacturing"
+    },
+    {
+      "name": "Character Biosciences",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Character Biosciences",
+          "source": "VC portfolio: Cantos",
+          "sourceWeight": 35,
+          "vc": "Cantos",
+          "date": "2026-10-12",
+          "verifyUrl": "https://characterbio.com",
+          "context": "Listed by Cantos: Character Biosciences is a therapeutics company that uses genomics, longitudinal clinical and imaging data, machine learning, and novel experimental approaches to identify the molecular drivers of dis"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Debut Biotech",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Debut Biotech",
+          "source": "VC portfolio: Cantos",
+          "sourceWeight": 35,
+          "vc": "Cantos",
+          "date": "2026-10-12",
+          "verifyUrl": "https://debutbiotech.com",
+          "context": "Listed by Cantos: Debut Biotech develops biotechnology-based beauty ingredients and formulations in a vertically integrated manner, beginning with AI-powered discovery and continuing through biosynthesis, biomanufactur"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Eridan",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Eridan",
+          "source": "VC portfolio: Cantos",
+          "sourceWeight": 35,
+          "vc": "Cantos",
+          "date": "2026-10-12",
+          "verifyUrl": "https://eridan.io",
+          "context": "Listed by Cantos: Eridan utilizes a proprietary signal technology that enables spectral efficiency and communication for autonomous devices and broadband systems. Its hardware reduces power consumption compared to trad"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Modulo Bio",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Modulo Bio",
+          "source": "VC portfolio: Cantos",
+          "sourceWeight": 35,
+          "vc": "Cantos",
+          "date": "2026-10-12",
+          "verifyUrl": "https://modulo.bio",
+          "context": "Listed by Cantos: Modulo Bio simulates the neuroimmune system to find medication candidates that target microglia cells. The organization's proprietary neuroimmune platform combines the most recent developments in stem"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Neptune Bio",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Neptune Bio",
+          "source": "VC portfolio: Cantos",
+          "sourceWeight": 35,
+          "vc": "Cantos",
+          "date": "2026-10-12",
+          "verifyUrl": "https://neptune.bio",
+          "context": "Listed by Cantos: Neptune Bio is on a mission to find combinatorial cures by pinpointing unique conditions that drive cellular change. Our platform combines novel biological data with computational AI to model complex "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Phenomic AI",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Phenomic AI",
+          "source": "VC portfolio: Cantos",
+          "sourceWeight": 35,
+          "vc": "Cantos",
+          "date": "2026-10-12",
+          "verifyUrl": "https://phenomic.ai",
+          "context": "Listed by Cantos: Phenomic AI is a developer of a drug discovery platform designed to discover and optimize therapeutics directly against phenotypic assays. The company's platform uses artificial intelligence to analyz"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Pow.bio",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Pow.bio",
+          "source": "VC portfolio: Cantos",
+          "sourceWeight": 35,
+          "vc": "Cantos",
+          "date": "2026-10-12",
+          "verifyUrl": "https://pow.bio",
+          "context": "Listed by Cantos: Pow.bio provides intelligent fermentation services for industrial and synthetic biology, helping turn great ideas into profitable products. We combine continuous fermentation with advanced control met"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Remedy Scientific Inc.",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Remedy Scientific Inc.",
+          "source": "VC portfolio: Cantos",
+          "sourceWeight": 35,
+          "vc": "Cantos",
+          "date": "2026-10-12",
+          "verifyUrl": "https://remedyscientific.com",
+          "context": "Listed by Cantos: Remedy Scientific is a pioneering environmental remediation technology firm. It strives to revolutionize how the world combats environmental contamination. The company focuses on restoring contaminate"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Visolis",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Visolis",
+          "source": "VC portfolio: Cantos",
+          "sourceWeight": 35,
+          "vc": "Cantos",
+          "date": "2026-10-12",
+          "verifyUrl": "https://visolisbio.com",
+          "context": "Listed by Cantos: Visolis is a biotechnology company that provides biomanufacturing solutions by combining synthetic biology and chemical catalysis to produce bio-based chemicals and fuels. It develops processes that t"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Vitra Labs",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Vitra Labs",
+          "source": "VC portfolio: Cantos",
+          "sourceWeight": 35,
+          "vc": "Cantos",
+          "date": "2026-10-12",
+          "verifyUrl": "https://vitra.bio",
+          "context": "Listed by Cantos: Vitra Labs is a biotechnology company focused on developing human eggs through a process that aims to replicate oogenesis entirely in vitro, without the need for ovarian donor tissue. The company is i"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Heliogen",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Heliogen",
+          "source": "VC portfolio: Prime Movers Lab",
+          "sourceWeight": 35,
+          "vc": "Prime Movers Lab",
+          "date": "2026-09-25",
+          "verifyUrl": "https://heliogen.com",
+          "context": "Listed by Prime Movers Lab: Energy on Demand. At Heliogen, we envision a world where breakthrough long-duration energy storage empowers the future. By harnessing the limitless power of natural resources and converting it into al"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Momentus",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Momentus",
+          "source": "VC portfolio: Prime Movers Lab",
+          "sourceWeight": 35,
+          "vc": "Prime Movers Lab",
+          "date": "2026-09-25",
+          "verifyUrl": "https://momentus.space",
           "context": "Listed by Prime Movers Lab"
         }
       ],
@@ -974,27 +1466,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Benchling",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Benchling",
-          "source": "VC portfolio: Lux",
-          "sourceWeight": 35,
-          "vc": "Lux",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.luxcapital.com/companies/benchling",
-          "context": "Listed by Lux"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
       "name": "Chronosphere",
       "score": 35,
       "signals": [
@@ -1026,27 +1497,6 @@ const DISCOVERY_QUEUE_AUTO = {
           "vc": "Lux",
           "date": "2026-09-25",
           "verifyUrl": "https://www.luxcapital.com/companies/erebor",
-          "context": "Listed by Lux"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Kallyope",
-      "score": 35,
-      "signals": [
-        {
-          "name": "Kallyope",
-          "source": "VC portfolio: Lux",
-          "sourceWeight": 35,
-          "vc": "Lux",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.luxcapital.com/companies/kallyope",
           "context": "Listed by Lux"
         }
       ],
@@ -1182,6 +1632,384 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": null
+    },
+    {
+      "name": "1910Genetics",
+      "score": 35,
+      "signals": [
+        {
+          "name": "1910Genetics",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.1910genetics.com/",
+          "context": "Listed by Playground"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Bodyport",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Bodyport",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.bodyport.com/",
+          "context": "Listed by Playground: One simple step to care for your heart Introducing Bodyport We are a biomarker-guided digital therapeutics company that aims to address complex chronic conditions by embedding a sophisticated biomarke"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Boxbot",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Boxbot",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.boxbot.io/",
+          "context": "Listed by Playground"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "De-Ice",
+      "score": 35,
+      "signals": [
+        {
+          "name": "De-Ice",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.deice.com/",
+          "context": "Listed by Playground: Novel technology that melts ice using electricity"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Element Zero",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Element Zero",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://elementzero.green/",
+          "context": "Listed by Playground: Element Zero develops green iron and zero-emission metals technology using renewable energy and electrochemistry to cut energy use and eliminate CO\u2082."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "GigaCrop",
+      "score": 35,
+      "signals": [
+        {
+          "name": "GigaCrop",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.gigacrop.com/",
+          "context": "Listed by Playground: Revolutionary agricultural biotechnology that doubles crop yields by rewiring photosynthesis. Delivering a century of progress in food security today."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Infinimmune",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Infinimmune",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.infinimmune.com/",
+          "context": "Listed by Playground: Derived from human biology, engineered for human health. Infinimmune systematically surfaces and engineers the rare antibodies evolution has already proven in people and advances them into the clinic."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Insamo",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Insamo",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://insamo.com/",
+          "context": "Listed by Playground: Insamo is a global biotechnology company pioneering the discovery of membrane-permeable and orally available cyclic-peptides with antibody-like binding affinity."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Intel",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Intel",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.intel.com/content/www/us/en/artificial-intelligence/overview.html",
+          "context": "Listed by Playground"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Outpace Bio",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Outpace Bio",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.outpacebio.com/",
+          "context": "Listed by Playground: Outpace Bio designs smarter cell therapies. OUTSPACER\u2122, OUTSMART\u2122, OUTLAST\u2122, OUTSAFE\u2122, OUTDRIVE\u2122 and OUTMATCH\u2122 technologies make engineered cells more effective, safer and scalable against cancer."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "PicoJool",
+      "score": 35,
+      "signals": [
+        {
+          "name": "PicoJool",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://picojool.com/",
+          "context": "Listed by Playground: PicoJool provides high-performance, energy-efficient data transmission solutions for AI and machine learning applications. Explore how they are pushing the boundaries of what's possible."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Powerlattice",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Powerlattice",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://powerlatticeinc.com/",
+          "context": "Listed by Playground"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Robust AI",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Robust AI",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.robust.ai/",
+          "context": "Listed by Playground: At Robust AI, we build AI-powered robots designed to work alongside people in dynamic warehouse environments."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Saltbox",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Saltbox",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.saltbox.com/",
+          "context": "Listed by Playground: Saltbox offers flexible warehouse space for product-based businesses. Store, ship, & scale with month-to-month memberships. Book a tour at a location near you."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "Snowcapcompute",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Snowcapcompute",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.snowcapcompute.com/",
+          "context": "Listed by Playground: Discover Snowcap, the world\u00e2\u0080\u0099s first commercial superconducting computing platform. Unleashing breakthrough efficiency and power at 4.5 Kelvin, Snowcap is redefining what\u00e2\u0080\u0099s possible in AI and data "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Syenta",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Syenta",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.syenta.com/",
+          "context": "Listed by Playground: Syenta is architecting the future of AI computing through its revolutionary Localized Electrochemical Manufacturing (LEM) technology, which enables High-Resolution Interconnects -a new class of chip-t"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Synthetic Design Lab",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Synthetic Design Lab",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.syntheticdesignlab.com/",
+          "context": "Listed by Playground"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Velo3D",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Velo3D",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-09-25",
+          "verifyUrl": "https://velo3d.com/",
+          "context": "Listed by Playground: Design, print and produce critical metal parts with Velo3D's advanced laser powder bed fusion technology. Trusted by aerospace, defense, and energy leaders."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Space & Aerospace"
     },
     {
       "name": "Acceleron",
@@ -2614,27 +3442,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "1910Genetics",
-      "score": 25,
-      "signals": [
-        {
-          "name": "1910Genetics",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.1910genetics.com/",
-          "context": "Listed by Playground"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
       "name": "Alkali",
       "score": 25,
       "signals": [
@@ -2654,27 +3461,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Alva Energy",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Alva Energy",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://alvaenergy.io",
-          "context": "Listed by Playground"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
     },
     {
       "name": "Arch",
@@ -2698,48 +3484,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Bodyport",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Bodyport",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.bodyport.com/",
-          "context": "Listed by Playground: One simple step to care for your heart Introducing Bodyport We are a biomarker-guided digital therapeutics company that aims to address complex chronic conditions by embedding a sophisticated biomarke"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Boxbot",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Boxbot",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.boxbot.io/",
-          "context": "Listed by Playground"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
       "name": "Cocoon Carbon",
       "score": 25,
       "signals": [
@@ -2751,48 +3495,6 @@ const DISCOVERY_QUEUE_AUTO = {
           "date": "2026-09-25",
           "verifyUrl": "https://www.cocooncarbon.com/",
           "context": "Listed by Gigascale: Low carbon construction materials for the builders of tomorrow."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "De-Ice",
-      "score": 25,
-      "signals": [
-        {
-          "name": "De-Ice",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.deice.com/",
-          "context": "Listed by Playground: Novel technology that melts ice using electricity"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Element Zero",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Element Zero",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://elementzero.green/",
-          "context": "Listed by Playground: Element Zero develops green iron and zero-emission metals technology using renewable energy and electrochemistry to cut energy use and eliminate CO\u2082."
         }
       ],
       "sources": [
@@ -2845,27 +3547,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "Climate & Energy"
     },
     {
-      "name": "GigaCrop",
-      "score": 25,
-      "signals": [
-        {
-          "name": "GigaCrop",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.gigacrop.com/",
-          "context": "Listed by Playground: Revolutionary agricultural biotechnology that doubles crop yields by rewiring photosynthesis. Delivering a century of progress in food security today."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Biotech & Health"
-    },
-    {
       "name": "HomeBoost",
       "score": 25,
       "signals": [
@@ -2877,132 +3558,6 @@ const DISCOVERY_QUEUE_AUTO = {
           "date": "2026-09-25",
           "verifyUrl": "https://www.homeboost.com/",
           "context": "Listed by Gigascale: HomeBoost is the platform redefining how home energy assessments are delivered, whether you're a homeowner, a BPI-certified pro, or a utility program leader."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Infinimmune",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Infinimmune",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.infinimmune.com/",
-          "context": "Listed by Playground: Derived from human biology, engineered for human health. Infinimmune systematically surfaces and engineers the rare antibodies evolution has already proven in people and advances them into the clinic."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Biotech & Health"
-    },
-    {
-      "name": "Insamo",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Insamo",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://insamo.com/",
-          "context": "Listed by Playground: Insamo is a global biotechnology company pioneering the discovery of membrane-permeable and orally available cyclic-peptides with antibody-like binding affinity."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Intel",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Intel",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.intel.com/content/www/us/en/artificial-intelligence/overview.html",
-          "context": "Listed by Playground"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Outpace Bio",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Outpace Bio",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.outpacebio.com/",
-          "context": "Listed by Playground: Outpace Bio designs smarter cell therapies. OUTSPACER\u2122, OUTSMART\u2122, OUTLAST\u2122, OUTSAFE\u2122, OUTDRIVE\u2122 and OUTMATCH\u2122 technologies make engineered cells more effective, safer and scalable against cancer."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Space & Aerospace"
-    },
-    {
-      "name": "PicoJool",
-      "score": 25,
-      "signals": [
-        {
-          "name": "PicoJool",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://picojool.com/",
-          "context": "Listed by Playground: PicoJool provides high-performance, energy-efficient data transmission solutions for AI and machine learning applications. Explore how they are pushing the boundaries of what's possible."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Powerlattice",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Powerlattice",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://powerlatticeinc.com/",
-          "context": "Listed by Playground"
         }
       ],
       "sources": [
@@ -3034,48 +3589,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "Robotics & Manufacturing"
     },
     {
-      "name": "Robust AI",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Robust AI",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.robust.ai/",
-          "context": "Listed by Playground: At Robust AI, we build AI-powered robots designed to work alongside people in dynamic warehouse environments."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Saltbox",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Saltbox",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.saltbox.com/",
-          "context": "Listed by Playground: Saltbox offers flexible warehouse space for product-based businesses. Store, ship, & scale with month-to-month memberships. Book a tour at a location near you."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Space & Aerospace"
-    },
-    {
       "name": "Skouria",
       "score": 25,
       "signals": [
@@ -3095,27 +3608,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": null
-    },
-    {
-      "name": "Snowcapcompute",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Snowcapcompute",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.snowcapcompute.com/",
-          "context": "Listed by Playground: Discover Snowcap, the world\u00e2\u0080\u0099s first commercial superconducting computing platform. Unleashing breakthrough efficiency and power at 4.5 Kelvin, Snowcap is redefining what\u00e2\u0080\u0099s possible in AI and data "
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
     },
     {
       "name": "Solcoa Industries",
@@ -3139,48 +3631,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "Biotech & Health"
     },
     {
-      "name": "Syenta",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Syenta",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.syenta.com/",
-          "context": "Listed by Playground: Syenta is architecting the future of AI computing through its revolutionary Localized Electrochemical Manufacturing (LEM) technology, which enables High-Resolution Interconnects -a new class of chip-t"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Synthetic Design Lab",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Synthetic Design Lab",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.syntheticdesignlab.com/",
-          "context": "Listed by Playground"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
       "name": "Thalo Labs",
       "score": 25,
       "signals": [
@@ -3202,27 +3652,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Velo3D",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Velo3D",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://velo3d.com/",
-          "context": "Listed by Playground: Design, print and produce critical metal parts with Velo3D's advanced laser powder bed fusion technology. Trusted by aerospace, defense, and energy leaders."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Space & Aerospace"
-    },
-    {
       "name": "Vor Systems",
       "score": 25,
       "signals": [
@@ -3242,27 +3671,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Xlight",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Xlight",
-          "source": "VC portfolio: Playground",
-          "sourceWeight": 25,
-          "vc": "Playground",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.xlight.com/",
-          "context": "Listed by Playground: xLight builds the world's most powerful lasers for semiconductor manufacturing. 4X more EUV power, 50% lower costs, better chip quality."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Chips & Semiconductors"
     },
     {
       "name": "Airplane",
@@ -4334,6 +4742,951 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": null
+    },
+    {
+      "name": "A-Alpha Bio",
+      "score": 18,
+      "signals": [
+        {
+          "name": "A-Alpha Bio",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://aalphabio.com",
+          "context": "Listed by Lux: A-Alpha Bio is a provider of cell-based tools for quantitative and high-throughput measurements of protein interactions, accelerating target discovery, library screening, and preclinical drug characte"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Adimab, LLC",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Adimab, LLC",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://adimab.com",
+          "context": "Listed by Lux: Adimab's integrated antibody discovery and optimization platform provides unprecedented speed from antigen to purified, full-length human IgGs. Adimab offers fundamental advantages by delivering diver"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Atavistik Bio",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Atavistik Bio",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://atavistikbio.com",
+          "context": "Listed by Lux: Atavistik Bio is a biotechnology company that specializes in the discovery and development of precision allosteric small molecules aimed at treating metabolic diseases and cancer. The company aims to "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Auransa",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Auransa",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://auransa.com",
+          "context": "Listed by Lux: Auransa is a clinical stage drug development company that aims to invent high value, novel drugs for hard-to-treat diseases like cancer, auto-immune, and neurological disorders using its proprietary A"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Aurora Solar",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Aurora Solar",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://aurorasolar.com",
+          "context": "Listed by Lux: Aurora Solar develops solar industry software. It develops cloud-based software that enables solar PV engineering design, provides workflow management functionality, and facilitates sales and customer"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Climate & Energy"
+    },
+    {
+      "name": "Babylon Biosciences",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Babylon Biosciences",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://babylon.bio",
+          "context": "Listed by Lux: Babylon Biosciences is focused on discovering and developing small-molecule therapeutics to treat Alzheimer's disease."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "BIOAGE LABS",
+      "score": 18,
+      "signals": [
+        {
+          "name": "BIOAGE LABS",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://bioagelabs.com",
+          "context": "Listed by Lux: BIOAGE discovers and develops drugs to treat aging and associated diseases. The company's primary initiative, Azelaprag, is an oral APJ agonist on track for Phase 2 trials in conjunction with Tirzepat"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Cajal Neuroscience",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Cajal Neuroscience",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://cajalneuro.com",
+          "context": "Listed by Lux: Cajal Neuroscience is a biotechnology company integrating human genetics, functional genomics, and advanced microscopy to discover novel targets and therapeutics for neurodegeneration. The company com"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Cala Health",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Cala Health",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://calahealth.com",
+          "context": "Listed by Lux: Cala Health is a bioelectronic medicine company focused on developing wearable neuromodulation therapies for chronic diseases. The company integrates neuroscience and technology to provide individuali"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Caper",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Caper",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://caper.ai",
+          "context": "Listed by Lux: Caper (caper.ai) focuses on compacting Amazon Go's technology (image recognition, sensor fusion, and artificial intelligence) into a smart shopping cart, allowing each shopper to throw her groceries i"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Fusion Energy"
+    },
+    {
+      "name": "Carbon Health",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Carbon Health",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://carbonhealth.com",
+          "context": "Listed by Lux: Carbon Health is an American chain of primary healthcare and urgent care clinics that also provides telemedicine."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Cerulean",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Cerulean",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://cerulean.com",
+          "context": "Listed by Lux: As the market leading manufacturer of precision test and measuring equipment to the tobacco industry, Cerulean is the ideal supplier of quality assurance and process control instrumentation to ensure "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Covariant",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Covariant",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://covariant.ai",
+          "context": "Listed by Lux: Covariant is a developer of artificial intelligence for robotics. Covariant is building the Covariant Brain, a universal AI to give robots the ability to see, reason, and act on the world around them."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Creyon Bio",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Creyon Bio",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://creyonbio.com",
+          "context": "Listed by Lux: Creyon Bio is a pre-clinical stage company reimagining drug development as it should be, using a data-first approach for generating uniquely powerful datasets and developing machine learning models to"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "CryptoNumerics",
+      "score": 18,
+      "signals": [
+        {
+          "name": "CryptoNumerics",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://cryptonumerics.com",
+          "context": "Listed by Lux: HIPAA, GDPR, and data residency requirements restrict your ability to conduct data science. CryptoNumerics removes these restrictions. CryptoNumerics enables you to create privacy-protected datasets w"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Crystal IS",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Crystal IS",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://cisuvc.com",
+          "context": "Listed by Lux: Crystal IS is the market leader in the commercialization of single-crystal aluminum nitride (AlN) substrates for the cost-effective production of long-lasting, energy-efficient, water and air purifica"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Deepsim",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Deepsim",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://deepsim.io",
+          "context": "Listed by Lux: DeepSim develops electronic design automation technology to accelerate chip design and verification. The company's technology is used for running non-electronic circuit simulations, enabling chip desi"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Chips & Semiconductors"
+    },
+    {
+      "name": "Desktop Metal",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Desktop Metal",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://desktopmetal.com",
+          "context": "Listed by Lux: Desktop Metal is a leading provider of additive manufacturing technologies, materials, and applications for industrial, medical, and consumer product production. The company's innovative 3D printing s"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Robotics & Manufacturing"
+    },
+    {
+      "name": "Digital Biology",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Digital Biology",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://digit.bio",
+          "context": "Listed by Lux: Curing disease with novel spatial and functional biology tools."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Dyno Therapeutics",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Dyno Therapeutics",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://dynotx.com",
+          "context": "Listed by Lux: Dyno Therapeutics is pioneering an artificial intelligence (AI) powered approach to gene therapy. Using machine learning and quantitative high-throughput in vivo experimentation, we are inventing new "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Enveda",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Enveda",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://enveda.com",
+          "context": "Listed by Lux: Enveda discovers medicines by studying the chemistry of nature and translating natural compounds into potential therapeutic candidates. The company combines computational methods, analytical chemistry"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Everly Health",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Everly Health",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://everlyhealth.com",
+          "context": "Listed by Lux: Everly Health is a health care company that aims to provide modern diagnostics-driven care. The company provides an at-home full testing experience with the assistance of a national clinician network "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "EverSpin Technologies",
+      "score": 18,
+      "signals": [
+        {
+          "name": "EverSpin Technologies",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://everspin.com",
+          "context": "Listed by Lux: Everspin Technologies develops and manufactures integrated magnetic products. It was founded in 2008 and is headquartered in Chandler, Arizona."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "EvolutionaryScale",
+      "score": 18,
+      "signals": [
+        {
+          "name": "EvolutionaryScale",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://evolutionaryscale.ai",
+          "context": "Listed by Lux: EvolutionaryScale is a developer of biological artificial intelligence models for therapeutic design. The business predicts protein structures by combining biological data from DNA sequences, gene exp"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Fiddler AI",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Fiddler AI",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://fiddler.ai",
+          "context": "Listed by Lux: Fiddler Labs helps enterprises adopt cutting-edge AI by simplifying operationalization, removing the ambiguity around ROI, and crucially, by creating a culture of trust through their Explainable AI En"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Gameto",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Gameto",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://gametogen.com",
+          "context": "Listed by Lux: Gameto is a biotechnology company whose mission is to redefine female reproductive health by developing therapies that improve lives.\n\nWomen\u2019s health is a vastly underserved therapeutic area. Most con"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Gandeeva Therapeutics",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Gandeeva Therapeutics",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://gandeeva.com",
+          "context": "Listed by Lux: Gandeeva Therapeutics is a precision biotechnology company integrating the power of cryogenic electron microscopy (CRYO-EM) and machine learning to develop differentiated therapeutics by targeting and"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Happiest Baby",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Happiest Baby",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://happiestbaby.com",
+          "context": "Listed by Lux: Happiest Baby (www.happiestbaby.com) is a mission-driven technology company dedicated to helping parents succeed at their most important job\u2014raising healthy, happy children. Happiest Baby created SNOO"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Inductive Bio",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Inductive Bio",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://inductive.bio",
+          "context": "Listed by Lux: Inductive Bio provides the information, machine learning, tools, and know-how required to resolve ADMET issues."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Kala Pharmaceuticals",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Kala Pharmaceuticals",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://kalarx.com",
+          "context": "Listed by Lux: Kala Bio is a leader in the emerging field of Mesenchymal Stem Cell Secretome (MSC-S) therapy. Using our proprietary MSC-S platform, we are developing therapies with regenerative healing effects for r"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "LatchBio",
+      "score": 18,
+      "signals": [
+        {
+          "name": "LatchBio",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://latch.bio",
+          "context": "Listed by Lux: LatchBio develops a data infrastructure intended to build and disseminate the open-source infrastructure of the biocomputing revolution. Founded in 2021 by Alfredo Andere, Kyle Giffin, and Kenny Workm"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Lightsense Technology",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Lightsense Technology",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://lightsensetechnology.com",
+          "context": "Listed by Lux: Lightsense Technology has developed a revolutionary new generation of infrared gas sensors."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Looking Glass Factory",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Looking Glass Factory",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://lookingglassfactory.com",
+          "context": "Listed by Lux: Looking Glass Factory is building the holographic future, starting with the Looking Glass, the world\u2019s first desktop holographic display for 3D creators\u2014no VR or AR headset required. The company was f"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Robotics & Manufacturing"
+    },
+    {
+      "name": "Mendaera, Inc.",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Mendaera, Inc.",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://mendaera.com",
+          "context": "Listed by Lux: Mendaera is a medtech startup that focuses on developing advanced healthcare technologies, particularly in robotics and diagnostic tools. Mendaera envisions digitizing clinical judgment and technical "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Robotics & Manufacturing"
+    },
+    {
+      "name": "Noon Home",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Noon Home",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://noonhome.com",
+          "context": "Listed by Lux: Noon Home is a new home automation startup that creates the Noon Smart Lighting System and other products for the home.\n\nThe Noon Smart Lighting System transforms spaces with professional-quality laye"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "Ripcord",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Ripcord",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://ripcord.com",
+          "context": "Listed by Lux: Ripcord turns documents into powerful data. As a disruptor in the document intelligence market, Ripcord\u2019s AI-driven platform harnesses proprietary robotics, generative AI, and cloud software to digiti"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Science 37",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Science 37",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://science37.com",
+          "context": "Listed by Lux: Science 37 is making the promise of virtual trials the new reality. By engaging with patients from the comfort of their own home, the company provides access to patients who can never be reached by tr"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Shiru",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Shiru",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://shiru.com",
+          "context": "Listed by Lux: Shiru leverages computational design to create enhanced proteins that feed the world sustainably."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "SkySelect",
+      "score": 18,
+      "signals": [
+        {
+          "name": "SkySelect",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://skyselect.com",
+          "context": "Listed by Lux: SkySelect is a parts procurement service and technology for the $100B aircraft material industry. We are helping the world\u2019s leading airlines to operate efficiently and on time by enabling maintenance"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Tempo Automation",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Tempo Automation",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://tempoautomation.com",
+          "context": "Listed by Lux: Tempo Automation is transforming the way companies innovate and bring new electronic products to market. Tempo\u2019s breakthrough, software-automated PCBA manufacturing platform delivers unprecedented spe"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Robotics & Manufacturing"
+    },
+    {
+      "name": "Timber Technologies",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Timber Technologies",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://timber-technologies.com",
+          "context": "Listed by Lux: Timber Technologies manufactures engineered wood products for post-frame builders, such as glulam beams and columns. Their products include treated and untreated columns for sidewalls and end walls in"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Transfyr Bio",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Transfyr Bio",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://transfyr.bio",
+          "context": "Listed by Lux: Transfyr.bio is developing AI-powered tools to help capture, translate, and transfer the unspoken \"know-how\" that is crucial for successful biotech innovation."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Variant Bio",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Variant Bio",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://variantbio.com",
+          "context": "Listed by Lux: Variant Bio is leveraging the power of human genetic diversity to discover new therapeutics. The company's focus is to identify individuals and populations around the world who are extreme outliers fo"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Visterra",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Visterra",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://visterrainc.com",
+          "context": "Listed by Lux: Visterra, Inc. engages in pharmaceutical drug research and development of therapeutic and diagnostic products for infectious diseases. It also provides structure-based design of therapeutics and diagn"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Zoox",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Zoox",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-10-12",
+          "verifyUrl": "https://zoox.com",
+          "context": "Listed by Lux: Zoox is a California-based robotics company founded by Tim Kentley-Klay and Dr. Jesse Levinson to create autonomous mobility. Operating at the intersection of design, computer science, and electro-mec"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Robotics & Manufacturing"
     },
     {
       "name": "4pi Lab",
@@ -5680,6 +7033,489 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "Space & Aerospace"
     },
     {
+      "name": "Adaptive Insurance",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Adaptive Insurance",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/adaptive-insurance",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Aux Labs",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Aux Labs",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/aux-labs",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Bright Harbor",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Bright Harbor",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/bright-harbor",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Camus",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Camus",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/camus",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Chargepass",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Chargepass",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/chargepass",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Cloneable",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Cloneable",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/cloneable",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Coastal Assembly",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Coastal Assembly",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/coastal-assembly",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Demex",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Demex",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/demex",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Enerflo",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Enerflo",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/enerflo",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Ezra",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Ezra",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/ezra",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "First Street",
+      "score": 18,
+      "signals": [
+        {
+          "name": "First Street",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/first-street",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Fleet",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Fleet",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/fleet",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Fluxco",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Fluxco",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/fluxco",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Gridstrong",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Gridstrong",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/gridstrong",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Gritt Robotics",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Gritt Robotics",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/gritt-robotics",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Halcyon",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Halcyon",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/halcyon",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Leapfrog Power",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Leapfrog Power",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/leapfrog-power",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Planet Fwd",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Planet Fwd",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/planet-fwd",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Robigo",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Robigo",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/robigo",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Rockrose Risk",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Rockrose Risk",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/rockrose-risk",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Spanio",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Spanio",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-10-12",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/spanio",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Stor Preservation Systems",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Stor Preservation Systems",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/stor-preservation-systems",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Xtelligent",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Xtelligent",
+          "source": "VC portfolio: Congruent",
+          "sourceWeight": 18,
+          "vc": "Congruent",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.congruentvc.com/portfolio/xtelligent",
+          "context": "Listed by Congruent"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
       "name": "Alloy Therapeutics",
       "score": 18,
       "signals": [
@@ -6058,27 +7894,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Latus Bio",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Latus Bio",
-          "source": "VC portfolio: 8VC",
-          "sourceWeight": 18,
-          "vc": "8VC",
-          "date": "2026-09-25",
-          "verifyUrl": "https://8vc.com/companies/latus-bio",
-          "context": "Listed by 8VC: The next chapter in AAV gene therapy"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Biotech & Health"
-    },
-    {
       "name": "Luminate",
       "score": 18,
       "signals": [
@@ -6161,27 +7976,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": null
-    },
-    {
-      "name": "Octant",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Octant",
-          "source": "VC portfolio: 8VC",
-          "sourceWeight": 18,
-          "vc": "8VC",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.octant.bio/",
-          "context": "Listed by 8VC: Octant is a well-backed team of experienced scientists and entrepreneurs exploring new frontiers of biology. Octant is applying next-generation DNA sequencing, gene synthesis, and gene editing to revo"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Biotech & Health"
     },
     {
       "name": "Oculus",
@@ -6562,17 +8356,17 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Adaptive Insurance",
+      "name": "Activ Surgical",
       "score": 18,
       "signals": [
         {
-          "name": "Adaptive Insurance",
-          "source": "VC portfolio: Congruent",
+          "name": "Activ Surgical",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/adaptive-insurance",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://activsurgical.com",
+          "context": "Listed by 8VC: Activ Surgical is a digital surgery company focused on improving surgical efficiency, accuracy, patient outcomes, and accessibility. Its scalable and patent-protected surgical software platform techno"
         }
       ],
       "sources": [
@@ -6583,17 +8377,17 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Aux Labs",
+      "name": "Augmenta Bioworks",
       "score": 18,
       "signals": [
         {
-          "name": "Aux Labs",
-          "source": "VC portfolio: Congruent",
+          "name": "Augmenta Bioworks",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/aux-labs",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://augbio.com",
+          "context": "Listed by 8VC: Augmenta Bioworks focuses on the individual's immune profiling with the development of biologics therapeutics to treat various diseases."
         }
       ],
       "sources": [
@@ -6604,17 +8398,17 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Bonsai Robotics",
+      "name": "Baton",
       "score": 18,
       "signals": [
         {
-          "name": "Bonsai Robotics",
-          "source": "VC portfolio: Congruent",
+          "name": "Baton",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/bonsai-robotics",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://baton.io",
+          "context": "Listed by 8VC: Baton is the Silicon Valley-based technology innovation lab for Ryder, a Fortune 500 logistics company that owns 260K trucks and manages $7.4B of freight. Before being acquired by Ryder in September 2"
         }
       ],
       "sources": [
@@ -6625,17 +8419,17 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Bright Harbor",
+      "name": "BIOMx",
       "score": 18,
       "signals": [
         {
-          "name": "Bright Harbor",
-          "source": "VC portfolio: Congruent",
+          "name": "BIOMx",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/bright-harbor",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://biomx.com",
+          "context": "Listed by 8VC: BiomX discovers and develops innovative microbiome therapeutics. The company's mission is to develop novel therapeutics for preventing and treating diseases in which microbiome imbalances have been im"
         }
       ],
       "sources": [
@@ -6646,17 +8440,38 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Camus",
+      "name": "Cellanome",
       "score": 18,
       "signals": [
         {
-          "name": "Camus",
-          "source": "VC portfolio: Congruent",
+          "name": "Cellanome",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/camus",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://cellanome.com",
+          "context": "Listed by 8VC: Cellanome engages in cutting-edge synthetic biology and informatics methods through its multi-omics platform. The company's platform specializes in molecular biology, biochemistry, microfluidics, inte"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Common Living",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Common Living",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://common.com",
+          "context": "Listed by 8VC: Common Living is a community-driven residential company that brings community, convenience, and flexibility to housing. The company's homes give people all parts of coliving, affordable rent, beautifu"
         }
       ],
       "sources": [
@@ -6667,17 +8482,17 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Chargepass",
+      "name": "Deciduous Therapeutics",
       "score": 18,
       "signals": [
         {
-          "name": "Chargepass",
-          "source": "VC portfolio: Congruent",
+          "name": "Deciduous Therapeutics",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/chargepass",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://deciduoustx.com",
+          "context": "Listed by 8VC: Deciduous Therapeutics is an aging therapeutics company developing a novel class of immune-modulatory therapies that clear senescent cells and promote a healthy lifespan. Deciduous is led by Anil Bhus"
         }
       ],
       "sources": [
@@ -6688,17 +8503,17 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Cloneable",
+      "name": "Edgybees",
       "score": 18,
       "signals": [
         {
-          "name": "Cloneable",
-          "source": "VC portfolio: Congruent",
+          "name": "Edgybees",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/cloneable",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://edgybees.com",
+          "context": "Listed by 8VC: Edgybees\u2019 pioneering platform delivers real-time, high-speed augmented reality experiences to anything that moves. Using sensors and streaming data, AR application developers can now deliver overlays "
         }
       ],
       "sources": [
@@ -6709,17 +8524,59 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Coastal Assembly",
+      "name": "Elegen",
       "score": 18,
       "signals": [
         {
-          "name": "Coastal Assembly",
-          "source": "VC portfolio: Congruent",
+          "name": "Elegen",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/coastal-assembly",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://elegenbio.com",
+          "context": "Listed by 8VC: Elegen is a biotechnology company that develops microfluidic technology. It is driven by a mission to deploy this technology in a new generation of DNA synthesizers aimed at enabling and accelerating "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Ender",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Ender",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://ender.com",
+          "context": "Listed by 8VC: Ender is a real estate company that helps owners of rental homes to more efficiently handle day-to-day operations of property management. Its platform aims at streamlining the rental property manageme"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Even Healthcare",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Even Healthcare",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://even.in",
+          "context": "Listed by 8VC: Even is a health tech company and healthcare provider that partners directly with the top hospitals in the country to offer you unlimited diagnostics, consultations, and 50 lakh worth of hospitalizati"
         }
       ],
       "sources": [
@@ -6730,17 +8587,59 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Demex",
+      "name": "Examedi",
       "score": 18,
       "signals": [
         {
-          "name": "Demex",
-          "source": "VC portfolio: Congruent",
+          "name": "Examedi",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/demex",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://examedi.us",
+          "context": "Listed by 8VC: Examedi is a healthcare startup that provides nurse and lab technician services directly at patients' homes for appointments. Examedi connects the availabilities of healthcare providers with patients."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Forethought",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Forethought",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://forethought.ai",
+          "context": "Listed by 8VC: Launched in 2018, Forethought is a generative AI for customer service automation to maximize efficiency and productivity. Forethought\u2019s products enable seamless customer experiences by infusing genera"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "FreightWeb",
+      "score": 18,
+      "signals": [
+        {
+          "name": "FreightWeb",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://myfreightweb.com",
+          "context": "Listed by 8VC: FreightWeb is a transportation startup disrupting the trucking market by offering lower prices and better services."
         }
       ],
       "sources": [
@@ -6751,17 +8650,17 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Enerflo",
+      "name": "Fruitful",
       "score": 18,
       "signals": [
         {
-          "name": "Enerflo",
-          "source": "VC portfolio: Congruent",
+          "name": "Fruitful",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/enerflo",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://fruitful.co",
+          "context": "Listed by 8VC: Fruitful combines real estate crowdfunding with modular home developments to make beautiful, affordable homes."
         }
       ],
       "sources": [
@@ -6772,17 +8671,38 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Ezra",
+      "name": "Glow",
       "score": 18,
       "signals": [
         {
-          "name": "Ezra",
-          "source": "VC portfolio: Congruent",
+          "name": "Glow",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/ezra",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://glowing.com",
+          "context": "Listed by 8VC: Glow is a fertility app that crunches and analyzes vast quantities of data to help users take control of their reproductive health. It was launched as a single app on a single platform with the aim of"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "GridMatrix",
+      "score": 18,
+      "signals": [
+        {
+          "name": "GridMatrix",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://gridmatrix.com",
+          "context": "Listed by 8VC: GridMatrix's software helps cities reduce traffic congestion, emissions, and accidents by unlocking the power of their existing infrastructure. Using intersection cameras, GridMatrix enables real-time"
         }
       ],
       "sources": [
@@ -6793,17 +8713,59 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "First Street",
+      "name": "Habi",
       "score": 18,
       "signals": [
         {
-          "name": "First Street",
-          "source": "VC portfolio: Congruent",
+          "name": "Habi",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/first-street",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://habi.co",
+          "context": "Listed by 8VC: Habi is a technology-driven real estate company that helps middle-class customers buy and sell their homes more quickly and efficiently, without the uncertainty of traditional real estate transactions"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Hexagon Bio",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Hexagon Bio",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://hexagonbio.com",
+          "context": "Listed by 8VC: Hexagon Bio is a data-driven biotech developing targeted small molecule therapeutics. Our proprietary platform combines data science and synthetic biology to discover and engineer drugs from DNA seque"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "ianacare",
+      "score": 18,
+      "signals": [
+        {
+          "name": "ianacare",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://ianacare.com",
+          "context": "Listed by 8VC: Ianacare is on a mission to encourage, empower, and equip working family caregivers with resources and communities, so no one has to do it alone. Ianacare is the front door to navigating all the care "
         }
       ],
       "sources": [
@@ -6814,17 +8776,59 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Fleet",
+      "name": "iCOMAT",
       "score": 18,
       "signals": [
         {
-          "name": "Fleet",
-          "source": "VC portfolio: Congruent",
+          "name": "iCOMAT",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/fleet",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://icomat.co.uk",
+          "context": "Listed by 8VC: This advanced composite manufacturing company delivers lighter, stronger and more sustainable structures for aerospace and automotive vehicles faster and more cost-effectively."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "Immunai",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Immunai",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://immunai.com",
+          "context": "Listed by 8VC: Immunai is a biotech company that combines single-cell genomics with ML algorithms to enable high-resolution profiling of the immune system. Immunai's mission is to map the entire immune system and it"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "livevacancies.co.uk",
+      "score": 18,
+      "signals": [
+        {
+          "name": "livevacancies.co.uk",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://livevacancies.co.uk",
+          "context": "Listed by 8VC"
         }
       ],
       "sources": [
@@ -6835,17 +8839,17 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Fluxco",
+      "name": "Lyell Immunopharma",
       "score": 18,
       "signals": [
         {
-          "name": "Fluxco",
-          "source": "VC portfolio: Congruent",
+          "name": "Lyell Immunopharma",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/fluxco",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://lyell.com",
+          "context": "Listed by 8VC: Lyell is a T cell reprogramming company dedicated to the mastery of T cells to cure patients with solid tumors. Lyell focuses on addressing what it believes are the primary barriers that limit consist"
         }
       ],
       "sources": [
@@ -6856,17 +8860,122 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Fluxnium",
+      "name": "Matician",
       "score": 18,
       "signals": [
         {
-          "name": "Fluxnium",
-          "source": "VC portfolio: Congruent",
+          "name": "Matician",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/fluxnium",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://matician.com",
+          "context": "Listed by 8VC: We are building robots that can learn from the environment by moving around and interacting with it. We believe in owning the full stack from the lowest levels of software to the actual hardware. We d"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Robotics & Manufacturing"
+    },
+    {
+      "name": "Mosaic",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Mosaic",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://mosaic.us",
+          "context": "Listed by 8VC: Mosaic is a construction technology company building software to make residential construction more scalable. The company operates as a digital general contractor to provide construction and related s"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "MycoWorks",
+      "score": 18,
+      "signals": [
+        {
+          "name": "MycoWorks",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://mycoworks.com",
+          "context": "Listed by 8VC: MycoWorks is a biotech company that provides non-plastic and non-animal materials to the market. Their mycelium products provide natural alternatives to plastic foams, textiles, and leather. Their pro"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Myeloid Therapeutics",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Myeloid Therapeutics",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://myeloidtx.com",
+          "context": "Listed by 8VC: CREATE Medicines is a clinical-stage biotechnology company focused on developing RNA-based immunotherapies through in vivo immune cell programming. Its platform uses proprietary mRNA-lipid nanoparticl"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Mythic Therapeutics",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Mythic Therapeutics",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://mythictx.com",
+          "context": "Listed by 8VC: Mythic Therapeutics is a biotechnology company focused on a new generation of groundbreaking cancer therapeutics. The company is pioneering a powerful protein engineering-focused approach to improving"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Nines",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Nines",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://nines.com",
+          "context": "Listed by 8VC: Nines is the first-of-its-kind teleradiology practice. Our radiologists and engineers are on a mission to build world-class tools in-house to enable the best radiologists to deliver the best patient c"
         }
       ],
       "sources": [
@@ -6877,17 +8986,38 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Gridstrong",
+      "name": "Nutcracker Therapeutics",
       "score": 18,
       "signals": [
         {
-          "name": "Gridstrong",
-          "source": "VC portfolio: Congruent",
+          "name": "Nutcracker Therapeutics",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/gridstrong",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://nutcrackerx.com",
+          "context": "Listed by 8VC: Nutcracker Therapeutics is a biotech company that develops and produces mRNA therapeutics on its proprietary, microfluidic, and biochip-based platform. The company specializes in a fully integrated sy"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Nylas",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Nylas",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://nylas.com",
+          "context": "Listed by 8VC: Nylas is the communication platform-as-a-service company that empowers businesses worldwide to unlock the power of their communications data. They simplify developers\u2019 lives by enabling them to automa"
         }
       ],
       "sources": [
@@ -6898,17 +9028,59 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Gritt Robotics",
+      "name": "Parallel Fluidics",
       "score": 18,
       "signals": [
         {
-          "name": "Gritt Robotics",
-          "source": "VC portfolio: Congruent",
+          "name": "Parallel Fluidics",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/gritt-robotics",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://parallelfluidics.com",
+          "context": "Listed by 8VC: Parallel Fluidics is a new microfluidics manufacturing company out of Boston. The company started in 2019 to solve a problem they\u2019d faced firsthand as engineers: it\u2019s hard to get quality microfluidic "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Robotics & Manufacturing"
+    },
+    {
+      "name": "Paravel",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Paravel",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://tourparavel.com",
+          "context": "Listed by 8VC: Paravel is a designer and manufacturer of luggage bags and travel accessories. The company's product catalog includes luggage, kits, and accessories hand-painted and customized with appliqu\u00e9 designs a"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Photys Therapeutics",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Photys Therapeutics",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://photys.com",
+          "context": "Listed by 8VC: Photys Therapeutics\u2019 proprietary bifunctional small molecules platform unlocks fine-tuned control of protein post-translational modifications, going beyond degradation to restore protein function, rep"
         }
       ],
       "sources": [
@@ -6919,17 +9091,122 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Halcyon",
+      "name": "Phylo",
       "score": 18,
       "signals": [
         {
-          "name": "Halcyon",
-          "source": "VC portfolio: Congruent",
+          "name": "Phylo",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/halcyon",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://phylo.bio",
+          "context": "Listed by 8VC: Phylo provides an integrated workspace with AI-assisted tools to support planning, execution, and review of biological research."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "ProteinQure",
+      "score": 18,
+      "signals": [
+        {
+          "name": "ProteinQure",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://proteinqure.com",
+          "context": "Listed by 8VC: ProteinQure is a biotech company focused on the design of novel exotic peptides with broad therapeutic applications. Powered by atomic-level simulations and artificial intelligence, it designs dynamic"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Prox Biosciences",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Prox Biosciences",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://arpelos.com",
+          "context": "Listed by 8VC: Arpelos Biosciences is an early-stage biotechnology company developing multivalent biologics."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Rebellion Defense",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Rebellion Defense",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://rebelliondefense.com",
+          "context": "Listed by 8VC: Rebellion Defense turns data into a decision advantage, developing advanced software to stay ahead of national security threats. It equips warfighters with cutting-edge capabilities to detect, deter, "
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Defense & Security"
+    },
+    {
+      "name": "REK",
+      "score": 18,
+      "signals": [
+        {
+          "name": "REK",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://rek.com",
+          "context": "Listed by 8VC: REK, Our robots face off in the ring, putting engineering to the test and thrilling fans with the combat sport of the future."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Robotics & Manufacturing"
+    },
+    {
+      "name": "Samara",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Samara",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://samara.com",
+          "context": "Listed by 8VC: Samara is a home services company that provides home renovation, interior design, and architectural services."
         }
       ],
       "sources": [
@@ -6940,17 +9217,17 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Leapfrog Power",
+      "name": "Seed Health (Biotechnology)",
       "score": 18,
       "signals": [
         {
-          "name": "Leapfrog Power",
-          "source": "VC portfolio: Congruent",
+          "name": "Seed Health (Biotechnology)",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/leapfrog-power",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://seedhealth.com",
+          "context": "Listed by 8VC: Seed Health is a microbial sciences company pioneering applications of microbes for human and planetary health. In collaboration with leading academic researchers, we advance breakthrough discoveries "
         }
       ],
       "sources": [
@@ -6961,17 +9238,59 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Planet Fwd",
+      "name": "Showroom",
       "score": 18,
       "signals": [
         {
-          "name": "Planet Fwd",
-          "source": "VC portfolio: Congruent",
+          "name": "Showroom",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/planet-fwd",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://by-showroom.com",
+          "context": "Listed by 8VC: Showroom is the parent company to Vesta, the country\u2019s largest home staging, interior design, and furniture studio. \n\nSince 2017, we\u2019ve worked with developers, real estate brokers, agents, architects,"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "SURGE Therapeutics",
+      "score": 18,
+      "signals": [
+        {
+          "name": "SURGE Therapeutics",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://surgetx.com",
+          "context": "Listed by 8VC: SURGE Therapeutics seeks to dramatically improve cancer patient survival by disrupting cancer immunotherapy deployment. The company provides an injectable biodegradable hydrogel that allows for the pr"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Synthego",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Synthego",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://synthego.com",
+          "context": "Listed by 8VC: Synthego is a genome engineering company that enables the acceleration of life science research and development in the pursuit of improved human health.\n\nThe company leverages machine learning, automa"
         }
       ],
       "sources": [
@@ -6982,17 +9301,59 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Robigo",
+      "name": "SyntheX",
       "score": 18,
       "signals": [
         {
-          "name": "Robigo",
-          "source": "VC portfolio: Congruent",
+          "name": "SyntheX",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/robigo",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://synthexlabs.com",
+          "context": "Listed by 8VC: SyntheX expands the druggable proteome using synthetic biology-driven drug discovery platforms. The platforms rely on empirical intracellular selection to discover protein interaction modulators. Thes"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Tasca",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Tasca",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://tascatx.com",
+          "context": "Listed by 8VC: Tasca is a biotechnology company that offers small molecule drugs for hard-to-treat oncology indications."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Valius Sciences",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Valius Sciences",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://valiussciences.com",
+          "context": "Listed by 8VC: Valius Sciences offers maximalist oncology diagnostics for personalized cancer treatment."
         }
       ],
       "sources": [
@@ -7003,59 +9364,17 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Rockrose Risk",
+      "name": "YourChoice Therapeutics",
       "score": 18,
       "signals": [
         {
-          "name": "Rockrose Risk",
-          "source": "VC portfolio: Congruent",
+          "name": "YourChoice Therapeutics",
+          "source": "VC portfolio: 8VC",
           "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/rockrose-risk",
-          "context": "Listed by Congruent"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Stor Preservation Systems",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Stor Preservation Systems",
-          "source": "VC portfolio: Congruent",
-          "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/stor-preservation-systems",
-          "context": "Listed by Congruent"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Xtelligent",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Xtelligent",
-          "source": "VC portfolio: Congruent",
-          "sourceWeight": 18,
-          "vc": "Congruent",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.congruentvc.com/portfolio/xtelligent",
-          "context": "Listed by Congruent"
+          "vc": "8VC",
+          "date": "2026-10-12",
+          "verifyUrl": "https://yourchoicetx.com",
+          "context": "Listed by 8VC: YourChoice Therapeutics develops a non-hormonal contraceptive product. Its technology is based on the \u201cmolecular condom\u201d concept: the active compound inhibits vigorous sperm motility and prevents sper"
         }
       ],
       "sources": [
@@ -7139,7 +9458,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "vc": "a16z",
           "date": "2021-03-26",
           "verifyUrl": "https://www.trucksmarter.com/",
-          "context": "Listed by a16z, first funded 2021-03-26"
+          "context": "Listed by a16z, first funded 2021-03-26: TruckSmarter offers a platform designed for truck drivers that includes a free load board for finding and booking freight, as well as fuel discounts and factoring services with competitive rates. The "
         }
       ],
       "sources": [
@@ -7148,6 +9467,48 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": null
+    },
+    {
+      "name": "Erebor Bank",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Erebor Bank",
+          "source": "VC portfolio: a16z",
+          "sourceWeight": 18,
+          "vc": "a16z",
+          "date": "2026-03-24",
+          "verifyUrl": "https://erebor.bank",
+          "context": "Listed by a16z, first funded 2026-03-24: Erebor Bank provides deposit accounts and lending for technology businesses, including companies working in artificial intelligence, defense, manufacturing, and digital assets."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Defense & Security"
+    },
+    {
+      "name": "Method Security",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Method Security",
+          "source": "VC portfolio: a16z",
+          "sourceWeight": 18,
+          "vc": "a16z",
+          "date": "2023-10-25",
+          "verifyUrl": "https://method.security",
+          "context": "Listed by a16z, first funded 2023-10-25: The company provides cyber defense solutions designed for critical environments, utilizing digital twin technology for thorough exposure management and a software-defined infrastructure for conducting"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Defense & Security"
     },
     {
       "name": "Aerodome",
@@ -7202,7 +9563,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "vc": "8090 Industries",
           "date": "2026-09-25",
           "verifyUrl": "https://www.nscale.com/press-releases/nscale-acquires-american-intelligence-power-corporation",
-          "context": "Listed by 8090 Industries"
+          "context": "Listed by 8090 Industries: Nscale acquires American Intelligence & Power Corp and the Monarch Compute Campus, a state-certified AI microgrid with up to 8GW+ of onsite power potential."
         }
       ],
       "sources": [
@@ -7210,7 +9571,7 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "high",
-      "suggestedSector": null
+      "suggestedSector": "AI & Compute"
     },
     {
       "name": "Cere",
