@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 10.75,
+      "avg_change": 10.35,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -7.49,
+      "avg_change": -8.67,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -6.54,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -6.41,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.05,
+      "avg_change": -10.36,
       "count": 3
     },
     "climate": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 1.36,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.47,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.16,
+      "avg_change": -13.43,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -1.17,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -12.03,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": 0.45,
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -3.72,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -2.8,
+      "avg_change": -7.25,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "PLTR",
       "Palantir",
-      10.75
+      10.35
     ],
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      5.83
+      "LNZA",
+      "LanzaTech",
+      3.21
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      1.67
     ],
     [
       "TSLA",
       "Tesla",
-      3.27
+      -0.18
     ],
     [
-      "AUR",
-      "Aurora Innovation",
-      2.82
-    ],
-    [
-      "SLDP",
-      "Solid Power",
-      2.36
+      "ACHR",
+      "Archer Aviation",
+      -0.64
     ]
   ],
   "topLosers": [
     [
-      "LUNR",
-      "Intuitive Machines",
-      -10.33
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -10.93
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -12.09
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      -12.81
-    ],
-    [
       "DRSHF",
       "DroneShield",
-      -16.17
+      -12.7
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      -12.76
+    ],
+    [
+      "IONQ",
+      "IonQ",
+      -15.59
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -16.11
+    ],
+    [
+      "TEM",
+      "Tempus AI",
+      -18.62
     ]
   ],
-  "lastUpdated": "2026-10-12 07:26:22"
+  "lastUpdated": "2026-10-12 21:46:49"
 }
