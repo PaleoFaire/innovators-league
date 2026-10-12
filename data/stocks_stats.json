@@ -15,9 +15,9 @@
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -4.93,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -6.54,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.0,
+      "avg_change": -1.17,
       "count": 3
     },
     "transportation": {
@@ -79,21 +79,21 @@
       2.82
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      2.63
+      "SLDP",
+      "Solid Power",
+      2.36
     ]
   ],
   "topLosers": [
     [
-      "SATL",
-      "Satellogic",
-      -10.12
-    ],
-    [
       "LUNR",
       "Intuitive Machines",
       -10.33
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -10.93
     ],
     [
       "EVTL",
@@ -111,5 +111,5 @@
       -16.17
     ]
   ],
-  "lastUpdated": "2026-10-11 22:58:28"
+  "lastUpdated": "2026-10-12 07:26:22"
 }
