@@ -59014,12 +59014,9 @@ const FOUNDER_MAFIAS = {
     description: "Former Google, DeepMind, and Google Brain researchers building the physical AI layer",
     companies: [
       { company: "Physical Intelligence", founders: "Karol Hausman, Sergey Levine (Google Brain)" },
-      { company: "Covariant", founders: "Pieter Abbeel (UC Berkeley/Google Brain)" },
-      { company: "Waymo", founders: "Sebastian Thrun (Google self-driving spinout)" },
-      { company: "Figure AI", founders: "Brett Adcock (Google AI ecosystem)" },
-      { company: "Skild AI", founders: "Deepak Pathak (CMU/Google Research)" },
-      { company: "Kyutai", founders: "Former Meta & Google AI researchers" },
-      { company: "Aalyria", founders: "Spun out of Google X (Project Loon)" }
+      { company: "Waymo", founders: "Sebastian Thrun (launched Google's self-driving car project in 2009; Waymo is its Dec 2016 spinout)" },
+      { company: "Kyutai", founders: "Researchers from Meta FAIR (Alexandre Défossez) and Google (Neil Zeghidour); non-profit Paris lab" },
+      { company: "Aalyria", founders: "Spun out of Alphabet/Google in Sep 2022 with Project Loon's network-orchestration technology" }
     ]
   },
   "US Military & Intel Alumni": {
@@ -59028,13 +59025,9 @@ const FOUNDER_MAFIAS = {
     description: "Military veterans and intelligence community alumni building defense tech",
     companies: [
       { company: "Shield AI", founders: "Brandon Tseng (Navy SEAL)" },
-      { company: "Rebellion Defense", founders: "Chris Lynch (former Pentagon DIUX Director)" },
-      { company: "Forterra", founders: "Military autonomous vehicle program veterans" },
-      { company: "Firestorm Labs", founders: "Andrew Wimer (military drone operations)" },
-      { company: "SkySafe", founders: "Grant Jordan (military counter-drone)" },
-      { company: "Allen Control Systems", founders: "Military robotics veterans" },
-      { company: "Radiant", founders: "Defense and energy infrastructure veterans" },
-      { company: "Deepnight", founders: "Intelligence community alumni" }
+      { company: "Firestorm Labs", founders: "Chad McCoy (co-founder; career special-operations veteran); with Dan Magy (CEO) and Ian Muceus (CTO)" },
+      { company: "SkySafe", founders: "Grant Jordan (CEO; four years as a US Air Force officer at AFRL on counter-IED and small-UAV systems)" },
+      { company: "Allen Control Systems", founders: "Steve Simoni and Luke Allen (ex-US Navy nuclear engineers); with CEO Mike Wior" }
     ]
   },
   "Tesla/Autopilot Alumni": {
@@ -59043,10 +59036,7 @@ const FOUNDER_MAFIAS = {
     description: "Former Tesla, Autopilot, and EV ecosystem leaders",
     companies: [
       { company: "Redwood Materials", founders: "JB Straubel (Tesla Co-Founder, CTO)" },
-      { company: "Applied Intuition", founders: "Qasar Younis (Tesla/autonomous network)" },
-      { company: "Zoox", founders: "Autonomous driving competitor, acquired by Amazon" },
-      { company: "Tenstorrent", founders: "Jim Keller (Tesla Autopilot chip architect)" },
-      { company: "Bedrock Robotics", founders: "Former Waymo/Tesla ecosystem engineers" }
+      { company: "Tenstorrent", founders: "Jim Keller (CEO since 2023; led Tesla Autopilot hardware 2016-18; joined as CTO in 2020, not a founder)" }
     ]
   },
   "NASA/JPL Alumni": {
@@ -59054,14 +59044,11 @@ const FOUNDER_MAFIAS = {
     color: "#06b6d4",
     description: "Former NASA, JPL, and government space program veterans",
     companies: [
-      { company: "Rocket Lab", founders: "Peter Beck (NZ space program)" },
       { company: "Axiom Space", founders: "Michael Suffredini (former ISS Program Manager)" },
-      { company: "Planet Labs", founders: "Robbie Schingler, Will Marshall (NASA Ames)" },
-      { company: "AstroForge", founders: "Matt Gialich (JPL adjacent)" },
-      { company: "Sierra Space", founders: "Spun from Sierra Nevada Corp" },
+      { company: "Planet Labs", founders: "Will Marshall, Robbie Schingler, Chris Boshuizen (all ex-NASA Ames)" },
+      { company: "AstroForge", founders: "Jose Acain (co-founder; ex-NASA, then SpaceX); CEO Matt Gialich is ex-Virgin Orbit" },
       { company: "Starpath Robotics", founders: "NASA Break the Ice Challenge winner" },
-      { company: "Saildrone", founders: "Richard Jenkins (ocean exploration)" },
-      { company: "Intuitive Machines", founders: "NASA commercial lunar payload services" }
+      { company: "Intuitive Machines", founders: "Steve Altemus and Tim Crain (both ex-NASA Johnson Space Center), with Kam Ghaffarian" }
     ]
   },
   "Y Combinator Deep Tech": {
@@ -59071,29 +59058,20 @@ const FOUNDER_MAFIAS = {
     companies: [
       { company: "Boom Supersonic", founders: "Blake Scholl (YC W16)" },
       { company: "Helion", founders: "David Kirtley (YC S14)" },
-      { company: "Relativity Space", founders: "Tim Ellis (YC S16)" },
-      { company: "Gecko Robotics", founders: "Jake Loosararian (YC W16)" },
-      { company: "Orangewood Labs", founders: "Nishant Gupta (YC S16)" },
-      { company: "Trilobio", founders: "Max Hensen (YC adjacent)" },
-      { company: "Multiply Labs", founders: "Fred Parietti (YC S16)" },
-      { company: "Solugen", founders: "Gaurab Chakrabarti (YC S17)" }
+      { company: "Relativity Space", founders: "Tim Ellis, Jordan Noone (YC W16)" },
+      { company: "Gecko Robotics", founders: "Jake Loosararian, Troy Demmer (YC W16)" },
+      { company: "Orangewood Labs", founders: "Abhinav Das, Akash Bansal, Aditya Bhatia (YC W18)" },
+      { company: "Multiply Labs", founders: "Fred Parietti, Alice Melocchi (YC S16)" },
+      { company: "Solugen", founders: "Gaurab Chakrabarti, Sean Hunt (YC W17)" }
     ]
   },
   "Anduril / Palmer Luckey Network": {
     icon: "🔥",
     color: "#f97316",
-    description: "Palmer Luckey's defense tech empire and the Anduril alumni network reshaping national security",
+    description: "Companies founded or built by Anduril alumni (checked 12 Oct 2026 against founder bios and company team pages; competitors and companies with no verified Anduril employment removed)",
     companies: [
-      { company: "Anduril Industries", founders: "Palmer Luckey (Oculus VR founder), Trae Stephens (Founders Fund/Palantir)" },
-      { company: "Shield AI", founders: "Brandon Tseng — Anduril ecosystem, drone autonomy" },
-      { company: "Saronic", founders: "Deans Kamen — autonomous warships, defense tech ecosystem" },
-      { company: "Epirus", founders: "Andy Lowery — directed energy weapons, Anduril orbit" },
-      { company: "Firestorm Labs", founders: "Andrew Wimer — Anduril-adjacent drone swarm tech" },
-      { company: "Vannevar Labs", founders: "Brett Granberg — AI for intelligence community, Anduril/Palantir network" },
-      { company: "Rebellion Defense", founders: "Chris Lynch — Pentagon defense tech modernization" },
-      { company: "Forterra", founders: "Acquired goTenna — autonomous ground vehicles for defense" },
-      { company: "Neros", founders: "Defense AI and autonomy — Anduril ecosystem partner" },
-      { company: "CX2 Industries", founders: "Next-gen defense tech — Anduril supply chain partner" }
+      { company: "Anduril Industries", founders: "Palmer Luckey (Oculus founder), Trae Stephens (Founders Fund partner; early Palantir), Brian Schimpf, Matt Grimm, Joe Chen" },
+      { company: "Saronic", founders: "Vibhav Altekar (CTO; one of Anduril's earliest engineers); with Dino Mavrookas (CEO; ex-Navy SEAL), Rob Lehman and Doug Lambert" }
     ]
   }
 };
