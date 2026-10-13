@@ -11,13 +11,13 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -8.67,
+      "avg_change": -8.43,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -6.41,
+      "avg_change": -6.63,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.03,
+      "avg_change": -13.54,
       "count": 3
     },
     "transportation": {
@@ -64,14 +64,14 @@
       10.35
     ],
     [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      3.91
+    ],
+    [
       "LNZA",
       "LanzaTech",
       3.21
-    ],
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      1.67
     ],
     [
       "TSLA",
@@ -86,14 +86,14 @@
   ],
   "topLosers": [
     [
-      "DRSHF",
-      "DroneShield",
-      -12.7
-    ],
-    [
       "SMR",
       "NuScale Power",
       -12.76
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -14.68
     ],
     [
       "IONQ",
@@ -111,5 +111,5 @@
       -18.62
     ]
   ],
-  "lastUpdated": "2026-10-12 21:46:49"
+  "lastUpdated": "2026-10-13 07:47:17"
 }
