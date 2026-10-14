@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 3.92,
+      "avg_change": 3.53,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -17.28,
+      "avg_change": -17.5,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -14.09,
+      "avg_change": -13.94,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -21.15,
+      "avg_change": -21.29,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -16.74,
+      "avg_change": -17.1,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -20.62,
+      "avg_change": -21.64,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.85,
+      "avg_change": -6.91,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -6.96,
+      "avg_change": -6.25,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.87,
+      "avg_change": -13.29,
       "count": 3
     }
   },
@@ -66,7 +66,7 @@
     [
       "PLTR",
       "Palantir",
-      3.92
+      3.53
     ],
     [
       "9348.T",
@@ -74,22 +74,17 @@
       -1.01
     ],
     [
-      "TEM",
-      "Tempus AI",
-      -1.99
-    ],
-    [
       "TSLA",
       "Tesla",
-      -3.56
+      -2.82
+    ],
+    [
+      "TEM",
+      "Tempus AI",
+      -2.89
     ]
   ],
   "topLosers": [
-    [
-      "LUNR",
-      "Intuitive Machines",
-      -23.35
-    ],
     [
       "SMR",
       "NuScale Power",
@@ -98,18 +93,23 @@
     [
       "IONQ",
       "IonQ",
-      -24.01
+      -24.0
+    ],
+    [
+      "LNZA",
+      "LanzaTech",
+      -24.92
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -30.03
+      -30.52
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -35.06
+      -34.58
     ]
   ],
-  "lastUpdated": "2026-10-14 18:04:14"
+  "lastUpdated": "2026-10-14 22:20:38"
 }
