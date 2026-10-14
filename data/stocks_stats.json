@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 8.6,
+      "avg_change": 8.64,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -14.51,
+      "avg_change": -14.58,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -8.96,
+      "avg_change": -10.25,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -16.23,
+      "avg_change": -16.54,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.31,
+      "avg_change": -8.8,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -16.71,
+      "avg_change": -16.93,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.62,
+      "avg_change": -10.32,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -4.28,
+      "avg_change": -4.65,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.69,
+      "avg_change": -9.25,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "PLTR",
-      "Palantir",
-      8.6
-    ],
-    [
       "IDEAFORGE.NS",
       "ideaForge",
-      8.01
+      9.15
     ],
     [
-      "TSLA",
-      "Tesla",
-      -1.0
+      "PLTR",
+      "Palantir",
+      8.64
     ],
     [
       "9348.T",
       "ispace",
-      -1.25
+      -1.01
     ],
     [
-      "ACHR",
-      "Archer Aviation",
-      -3.42
+      "TSLA",
+      "Tesla",
+      -1.43
+    ],
+    [
+      "NVDA",
+      "NVIDIA",
+      -4.48
     ]
   ],
   "topLosers": [
     [
-      "LUNR",
-      "Intuitive Machines",
-      -18.73
-    ],
-    [
       "SMR",
       "NuScale Power",
-      -18.77
+      -19.08
+    ],
+    [
+      "LUNR",
+      "Intuitive Machines",
+      -19.12
     ],
     [
       "IONQ",
       "IonQ",
-      -19.79
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -25.46
+      -19.77
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -25.54
+      -25.44
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -26.11
     ]
   ],
-  "lastUpdated": "2026-10-13 19:54:51"
+  "lastUpdated": "2026-10-14 06:12:57"
 }
