@@ -32,6 +32,13 @@ jobs:
         run: python scripts/fetch_jobs.py
         continue-on-error: true
 
+      - name: Enrich jobs (role family, level, metro, hard-tech, clearance, IL30, recent raises)
+        # Deterministic given data/jobs_raw.json + data.js + data/deals_auto.json.
+        # Also refreshes data/jobs_desc_signals.json from the ATS boards whose
+        # job-id set changed (clearance / US-person signals, first_published).
+        run: python scripts/enrich_jobs.py
+        continue-on-error: true
+
       - name: Fetch stock prices + fundamentals
         run: python scripts/fetch_stocks.py
         continue-on-error: true
@@ -43,8 +50,10 @@ jobs:
       - name: Show data freshness (debug)
         run: |
           ls -la data/jobs_auto.js data/jobs_raw.json data/jobs_stats.json \
+                 data/jobs_enriched.json data/jobs_enriched.js data/jobs_desc_signals.json \
                  data/stocks_auto.js data/public_multiples_auto.json data/public_multiples_auto.js 2>/dev/null || true
           head -3 data/jobs_auto.js 2>/dev/null || true
+          head -2 data/jobs_enriched.js 2>/dev/null || true
           head -3 data/stocks_auto.js 2>/dev/null || true
           head -3 data/public_multiples_auto.js 2>/dev/null || true
 
@@ -56,6 +65,7 @@ jobs:
       - name: Commit and push (retry on conflict)
         run: |
           git add data/jobs_auto.js data/jobs_raw.json data/jobs_stats.json \
+                  data/jobs_enriched.json data/jobs_enriched.js data/jobs_desc_signals.json \
                   data/stocks_auto.js data/stocks_raw.json data/stocks_stats.json \
                   data/public_multiples_auto.json data/public_multiples_auto.js 2>/dev/null || true
           if git diff --staged --quiet; then
