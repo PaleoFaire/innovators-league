@@ -28,7 +28,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css?v=20261015">
-    <link rel="stylesheet" href="jobs-page.css?v=20260501">
+    <link rel="stylesheet" href="jobs-page.css?v=20261015">
     <script src="config.js?v=20261015"></script>
     <script src="analytics.js?v=20260501"></script>
     <link rel="stylesheet" href="css/_tokens.css?v=20260501" />
@@ -249,7 +249,7 @@
                 </div>
             </div>
             <p style="max-width:720px; margin:20px auto 0; text-align:center; font-size:12px; color:rgba(255,255,255,0.45); line-height:1.5;">
-                We track public job boards (Greenhouse, Lever, Ashby, Workable) for every company in our database. Companies using private ATS may not appear here. Updated every 6 hours.
+                We track the public job boards (Greenhouse, Ashby, Lever, Workable) of every company in the League database and sort the postings by what you do, where, and which kind of company. Companies on private ATS systems may not appear. Updated every 6 hours.
             </p>
             <p id="jobs-last-updated" style="max-width:720px; margin:8px auto 0; text-align:center; font-size:11px; color:rgba(255,255,255,0.5);"></p>
         </div>
@@ -261,92 +261,77 @@
         <button class="jt-tab" id="tab-btn-talent" onclick="switchJTTab('talent')">🧬 Talent Intelligence</button>
     </div>
 
-    <!-- Jobs Tab Content -->
+    <!-- Jobs Tab Content — Jobs Board v2 (rendered by jobs.js from data/jobs_enriched.js) -->
     <div id="tab-jobs">
+    <section class="section jb-section" id="jobs-section">
+        <div class="jb-container">
 
-    <!-- Hiring Intelligence Section -->
-    <section class="section" id="hiring-intelligence" style="background: linear-gradient(135deg, rgba(34,197,94,0.05) 0%, rgba(34,197,94,0.01) 100%);">
-        <div class="container">
-            <div style="text-align:center;margin-bottom:2rem;">
-                <p style="font-size:11px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--accent-orange);margin-bottom:8px;">HIRING INTELLIGENCE</p>
-                <h2 style="font-size:1.75rem;font-weight:800;color:var(--text-primary);margin-bottom:8px;">Who's Growing Fastest</h2>
-                <p style="color:var(--text-secondary);max-width:600px;margin:0 auto;">Hiring velocity is a leading indicator of company growth. See which companies are scaling their teams.</p>
+            <!-- Curated shelves -->
+            <div class="jb-shelves" id="jb-shelves" aria-label="Curated shelves"></div>
+
+            <!-- Search -->
+            <div class="jb-search">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="search" id="jb-search" placeholder="Search roles — try “welder”, “GNC”, “ML intern”, “Starlink”, “clearance”" autocomplete="off" aria-label="Search jobs">
+                <button type="button" class="jb-search-clear" id="jb-search-clear" aria-label="Clear search" style="display:none">×</button>
             </div>
 
-            <!-- Top Hiring Companies -->
-            <div id="hiring-leaders" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin-bottom:2rem;"></div>
-
-            <!-- Sector Hiring Trends -->
-            <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:1.5rem;margin-bottom:2rem;">
-                <h3 style="font-size:1rem;font-weight:700;margin-bottom:1rem;color:var(--text-primary);">📊 Hiring by Sector</h3>
-                <div id="sector-hiring-bars" style="display:flex;flex-direction:column;gap:12px;"></div>
+            <!-- Primary facets -->
+            <div class="jb-chiprows">
+                <div class="jb-chiprow"><div class="jb-chiprow-label">What I do</div><div class="jb-chips" id="chips-family"></div></div>
+                <div class="jb-chiprow"><div class="jb-chiprow-label">Where</div><div class="jb-chips" id="chips-metro"></div></div>
+                <div class="jb-chiprow"><div class="jb-chiprow-label">Which kind of company</div><div class="jb-chips" id="chips-sector"></div></div>
+                <div class="jb-chiprow"><div class="jb-chiprow-label">Level</div><div class="jb-chips" id="chips-level"></div></div>
             </div>
 
-            <!-- Hiring Insights -->
-            <div id="hiring-insights" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;"></div>
-        </div>
-    </section>
+            <div class="jb-body">
+                <!-- Secondary rail -->
+                <details class="jb-rail" id="jb-rail" open>
+                    <summary class="jb-rail-summary">More filters</summary>
+                    <div class="jb-rail-group">
+                        <h4>Company</h4>
+                        <input type="text" id="rail-company" list="rail-company-list" placeholder="Type a company…" autocomplete="off">
+                        <datalist id="rail-company-list"></datalist>
+                    </div>
+                    <div class="jb-rail-group"><h4>Stage</h4><div class="jb-chips" id="chips-stage"></div></div>
+                    <div class="jb-rail-group">
+                        <h4>Posted within</h4>
+                        <div class="jb-seg" id="rail-posted" role="group" aria-label="Posted within">
+                            <button type="button" data-days="7" aria-pressed="false">7 days</button>
+                            <button type="button" data-days="30" aria-pressed="false">30 days</button>
+                            <button type="button" data-days="90" aria-pressed="false">90 days</button>
+                        </div>
+                    </div>
+                    <div class="jb-rail-group">
+                        <h4>Must-haves</h4>
+                        <label class="jb-toggle"><input type="checkbox" id="rail-remote"> Remote</label>
+                        <label class="jb-toggle"><input type="checkbox" id="rail-salary"> Salary shown</label>
+                        <label class="jb-toggle"><input type="checkbox" id="rail-clearance"> Security clearance</label>
+                        <label class="jb-toggle"><input type="checkbox" id="rail-intern"> Internships</label>
+                        <label class="jb-toggle"><input type="checkbox" id="rail-il30"> IL30 companies only</label>
+                        <label class="jb-toggle"><input type="checkbox" id="rail-hardtech" checked> Hard-tech companies only</label>
+                        <label class="jb-toggle"><input type="checkbox" id="rail-stale"> Include postings idle for 90+ days</label>
+                    </div>
+                    <button type="button" class="jb-btn jb-btn-ghost" id="rail-reset">Reset filters</button>
+                    <div class="jb-rail-foot">Role, level and location are read from job titles and the League database — the ATS “department” field is blank on two-thirds of postings. Posted dates use the ATS first-published date where it exposes one. Clearance flags come from the posting text.</div>
+                </details>
 
-    <!-- Jobs Section -->
-    <section class="section" id="jobs-section">
-        <div class="container">
-            <!-- Stats Cards -->
-            <div class="jobs-stats-grid" id="sector-stats"></div>
-
-            <!-- Filters -->
-            <div class="filter-bar">
-                <div class="search-box">
-                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                    <input type="text" id="job-search" placeholder="Search jobs, companies, locations...">
+                <!-- Results -->
+                <div class="jb-results">
+                    <div class="jb-results-head" id="jb-results-head">
+                        <div id="jb-count"></div>
+                        <div class="jb-view" role="group" aria-label="View">
+                            <button type="button" id="jb-view-list" aria-pressed="true">List</button>
+                            <button type="button" id="jb-view-company" aria-pressed="false">By company</button>
+                        </div>
+                    </div>
+                    <div class="jb-active" id="jb-active"></div>
+                    <div class="jb-list" id="jb-list"></div>
+                    <button type="button" class="show-more-btn" id="jb-more" style="display:none">Show more</button>
                 </div>
-                <div class="filter-dropdowns">
-                    <select id="sector-filter" class="filter-select">
-                        <option value="all">All Sectors</option>
-                        <!-- Dynamically populated by JS -->
-                    </select>
-                    <select id="location-filter" class="filter-select">
-                        <option value="all">All Locations</option>
-                        <option value="remote">🌐 Remote Only</option>
-                        <!-- Dynamically populated by JS -->
-                    </select>
-                    <select id="company-filter" class="filter-select">
-                        <option value="all">All Companies</option>
-                    </select>
-                    <select id="sort-filter" class="filter-select">
-                        <option value="recent">Most Recent</option>
-                        <option value="company">By Company</option>
-                        <option value="title">By Title</option>
-                    </select>
-                    <label class="salary-filter-label" style="display:flex; align-items:center; gap:6px; font-size:13px; color:var(--text-muted); cursor:pointer; white-space:nowrap;">
-                        <input type="checkbox" id="salary-filter" style="accent-color:#22c55e;"> 💰 Salary disclosed
-                    </label>
-                </div>
-            </div>
-
-            <!-- Quick Filter Tags -->
-            <div class="filter-tags" id="quick-filters">
-                <span class="filter-tag" data-filter="engineering">Engineering</span>
-                <span class="filter-tag" data-filter="software">Software</span>
-                <span class="filter-tag" data-filter="hardware">Hardware</span>
-                <span class="filter-tag" data-filter="design">Design</span>
-                <span class="filter-tag" data-filter="product">Product</span>
-                <span class="filter-tag" data-filter="operations">Operations</span>
-                <span class="filter-tag" data-filter="sales">Sales</span>
-                <span class="filter-tag" data-filter="intern">Internships</span>
-            </div>
-
-            <!-- Jobs List -->
-            <div class="jobs-grid" id="jobs-grid"></div>
-
-            <!-- Pagination -->
-            <div class="jobs-pagination">
-                <button class="pagination-btn" id="prev-page" disabled>Previous</button>
-                <span class="pagination-info" id="pagination-info">Page 1 of 1</span>
-                <button class="pagination-btn" id="next-page">Next</button>
             </div>
         </div>
     </section>
-
     </div><!-- /tab-jobs -->
 
     <!-- Talent Tab Content -->
@@ -565,8 +550,8 @@
     <script src="utils.js?v=20260501"></script>
     <script src="auth.js?v=20260501"></script>
     <script src="data.js?v=20260822"></script>
-    <script src="data/jobs_auto.js?v=20260501"></script>
-    <script src="jobs.js?v=20260501"></script>
+    <script src="data/jobs_enriched.js?v=20261015"></script>
+    <script src="jobs.js?v=20261015"></script>
     <script src="data/founder_dna.js?v=20260501"></script>
     <script src="talent.js?v=20260501"></script>
     <script src="data/h1b_lca_auto.js?v=20260501"></script>
