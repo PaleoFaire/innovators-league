@@ -1,98 +1,133 @@
 [
   {
-    "sector": "Transportation",
-    "momentum": 39,
+    "sector": "Defense & Security",
+    "momentum": 56,
     "trend": "steady",
     "catalysts": [
-      "Active transportation ecosystem"
+      "Shield AI expects to fly its unmanned fighter jet within mon"
+    ],
+    "fundingQ": "$4.1B",
+    "components": {
+      "funding": 100,
+      "news": 5,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-10-14"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 51,
+    "trend": "steady",
+    "catalysts": [
+      "Rivian&#8217;s Mind Robotics snags Doug Field, ex-Tesla and",
+      "Rivian&#8217;s startup Mind Robotics hires former Ford EV ch",
+      "Learning to Play Like a Pro: Adaptive Motion Planning and Tr"
+    ],
+    "fundingQ": "$6.4B",
+    "components": {
+      "funding": 100,
+      "news": 25,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-14"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 38,
+    "trend": "steady",
+    "catalysts": [
+      "Rivian&#8217;s Mind Robotics snags Doug Field, ex-Tesla and",
+      "Rivian&#8217;s startup Mind Robotics hires former Ford EV ch"
     ],
     "fundingQ": "$3.0B",
     "components": {
       "funding": 100,
-      "news": 0,
+      "news": 10,
       "hiring": 0,
-      "market": 18
+      "market": 0
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-14"
   },
   {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 38,
+    "sector": "Nuclear Energy",
+    "momentum": 36,
+    "trend": "steady",
+    "catalysts": [
+      "With federal funding windfall, X-energy advances small nucle"
+    ],
+    "fundingQ": "$1.0B",
+    "components": {
+      "funding": 100,
+      "news": 5,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-10-14"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 23,
     "trend": "rising",
     "catalysts": [
-      "SpaceX to $1,000 in 2027? Follow the AI Factory Math",
-      "Ex-OpenAI robotics lead\u2019s factory startup in insolvency proc"
+      "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a",
+      "Cerebras CEO says we&#8217;re nearing a future where everyon",
+      "Cerebras CEO pushes back on AI doomsday warnings"
     ],
-    "fundingQ": "$1.4B",
+    "fundingQ": "$350M",
     "components": {
-      "funding": 72,
-      "news": 10,
+      "funding": 6,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-14"
   },
   {
-    "sector": "Defense & Security",
-    "momentum": 36,
+    "sector": "Climate & Energy",
+    "momentum": 20,
     "trend": "rising",
     "catalysts": [
-      "Shield AI expects to fly its unmanned fighter jet within mon",
-      "Terran Orbital Names Jamin Brown Chief Operating Officer"
+      "With federal funding windfall, X-energy advances small nucle",
+      "Mazama Energy raises $135M for superhot geothermal at Oregon",
+      "xAI has quietly built a massive battery at its Memphis data"
     ],
-    "fundingQ": "$1.1B",
+    "fundingQ": "$550M",
     "components": {
-      "funding": 40,
-      "news": 10,
+      "funding": 46,
+      "news": 15,
       "hiring": 0,
-      "market": 100
+      "market": 0
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-14"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 19,
     "trend": "rising",
     "catalysts": [
+      "SpaceX Files for Approval for Hundreds of Launches at Texas",
       "SpaceX to $1,000 in 2027? Follow the AI Factory Math",
-      "Elon&#8217;s CRAZY plan for SpaceX to Dwarf the World Econom",
-      "Varda Space Industries Raises $250 Million at a $1.6 Billion"
+      "Rocket Report: SpaceX completes launch triple-header; Rocket"
     ],
-    "fundingQ": "$501M",
+    "fundingQ": "$809M",
     "components": {
-      "funding": 23,
-      "news": 45,
+      "funding": 36,
+      "news": 25,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-14"
   },
   {
-    "sector": "Climate & Energy",
-    "momentum": 18,
-    "trend": "declining",
-    "catalysts": [
-      "With federal funding windfall, X-energy advances small nucle",
-      "Mazama Energy raises $135M for superhot geothermal at Oregon",
-      "xAI has quietly built a massive battery at its Memphis data"
-    ],
-    "fundingQ": "$135M",
-    "components": {
-      "funding": 11,
-      "news": 15,
-      "hiring": 0,
-      "market": 52
-    },
-    "lastUpdated": "2026-10-11"
-  },
-  {
-    "sector": "AI & Software",
+    "sector": "Consumer Tech",
     "momentum": 16,
     "trend": "declining",
     "catalysts": [
-      "Anthropic can&#8217;t reliably control its AI agents. It&#82",
-      "Ex-OpenAI robotics lead\u2019s factory startup in insolvency proc",
-      "OpenAI Makes 81% of Top Math Discoveries of the Last Three Y"
+      "Cerebras CEO says we&#8217;re nearing a future where everyon",
+      "Judge orders OpenAI to turn over hiring records in Apple tra",
+      "SpaceX Files for Approval for Hundreds of Launches at Texas"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -101,33 +136,15 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-11"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Estonia\u2019s KrattWorks crafting Shahed-like dummy drone for ta",
-      "Shield AI expects to fly its unmanned fighter jet within mon",
-      "NaviGate successfully demonstrates onboard precise orbit det"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-14"
   },
   {
     "sector": "Housing & Construction",
     "momentum": 14,
     "trend": "declining",
     "catalysts": [
+      "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a",
       "SpaceX to $1,000 in 2027? Follow the AI Factory Math",
-      "OpenAI Makes 81% of Top Math Discoveries of the Last Three Y",
       "<a href=\"/biotech/gsk-drinks-chai-discoverys-ai-models-after"
     ],
     "fundingQ": "$0M",
@@ -137,33 +154,15 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-14"
   },
   {
-    "sector": "Biotech & Health",
+    "sector": "Drones & Autonomous",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "Varda Space Industries Raises $250 Million at a $1.6 Billion",
-      "Quantum Space Executes Launch Processing Agreement with All",
-      "<a href=\"/biotech/gsk-drinks-chai-discoverys-ai-models-after"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 42
-    },
-    "lastUpdated": "2026-10-11"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "China-linked hackers posed as former US officials, Anthropic",
-      "Terran Orbital Names Jamin Brown Chief Operating Officer"
+      "Shield AI expects to fly its unmanned fighter jet within mon",
+      "NaviGate successfully demonstrates onboard precise orbit det"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -172,7 +171,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-14"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -188,7 +187,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-14"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -204,7 +203,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-14"
   },
   {
     "sector": "Ocean & Maritime",
@@ -220,31 +219,31 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-14"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 7,
+    "sector": "Biotech & Health",
+    "momentum": 2,
     "trend": "declining",
     "catalysts": [
-      "SpaceX to $1,000 in 2027? Follow the AI Factory Math",
-      "OpenAI Makes 81% of Top Math Discoveries of the Last Three Y"
+      "Quantum Space Executes Launch Processing Agreement with All",
+      "<a href=\"/biotech/gsk-drinks-chai-discoverys-ai-models-after"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 10,
       "hiring": 0,
-      "market": 22
+      "market": 0
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-14"
   },
   {
-    "sector": "Nuclear Energy",
+    "sector": "Chips & Semiconductors",
     "momentum": 1,
     "trend": "declining",
     "catalysts": [
-      "With federal funding windfall, X-energy advances small nucle"
+      "SpaceX to $1,000 in 2027? Follow the AI Factory Math"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -253,7 +252,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-14"
   },
   {
     "sector": "Quantum Computing",
@@ -269,6 +268,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-14"
   }
 ]

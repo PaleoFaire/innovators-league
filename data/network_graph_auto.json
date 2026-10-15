@@ -5306,7 +5306,7 @@
       "thesisCluster": ""
     },
     {
-      "id": "Farm-ng",
+      "id": "Bonsai Robotics",
       "sector": "Robotics & Manufacturing",
       "thesisCluster": ""
     },
@@ -5331,7 +5331,7 @@
       "thesisCluster": ""
     },
     {
-      "id": "Pryzm",
+      "id": "Belisar",
       "sector": "Defense & Security",
       "thesisCluster": ""
     },
@@ -5934,6 +5934,71 @@
       "id": "Watney Robotics",
       "sector": "Robotics & Manufacturing",
       "thesisCluster": "data-center-infrastructure"
+    },
+    {
+      "id": "Source Foundry",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "CScale",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Lumilens",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Upscale AI",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Discovered Materials",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "ZutaCore",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Fluxnium",
+      "sector": "Nuclear Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Sophia Space",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Hop Aero",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Proception",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Avatar Robotics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Riven Systems",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Fauna Robotics",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
     },
     {
       "id": "SpaceX-alumni-hub",
@@ -11134,7 +11199,7 @@
     }
   ],
   "counts": {
-    "total_nodes": 1193,
+    "total_nodes": 1206,
     "total_edges": 894,
     "competitor_edges": 191,
     "thesis_edges": 695,

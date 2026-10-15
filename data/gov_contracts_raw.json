@@ -925,6 +925,18 @@
   },
   {
     "company": "Anduril",
+    "awardId": "H9240226FE033",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 1890318.97,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2026-07-13",
+    "endDate": "2027-07-12",
+    "description": "SIP TO136 PHASE II DEVELOPMENT OF DISMOUNTED CUXS ATAK GUI"
+  },
+  {
+    "company": "Anduril",
     "awardId": "FA233025CB003",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 1799832.5,
@@ -934,6 +946,18 @@
     "startDate": "2024-11-25",
     "endDate": "2027-02-25",
     "description": "SBIR PHASE II MESHED RADAR NETWORK - NUMERICA NORTH AMERICAN INDUSTRY CLASSIFICATION SYSTEM (NAICS): 541715"
+  },
+  {
+    "company": "Anduril",
+    "awardId": "H9240224F0049",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 1791063.02,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2024-08-19",
+    "endDate": "2027-07-12",
+    "description": "INTERIM CONTRACTOR SUPPORT (ICS)"
   },
   {
     "company": "Anduril",
@@ -1174,30 +1198,6 @@
     "startDate": "2026-04-30",
     "endDate": "2027-07-31",
     "description": "AUSTERE COMMS TOWER M&S"
-  },
-  {
-    "company": "Anduril",
-    "awardId": "H9240225FE028",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 412413.63,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2025-09-09",
-    "endDate": "2026-05-30",
-    "description": "SIP TO112 - LOW SWAP SENSOR STUDY"
-  },
-  {
-    "company": "Anduril",
-    "awardId": "H9240226FE030",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 321367.5,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2026-06-09",
-    "endDate": "2027-06-08",
-    "description": "SIP TO140 BROADSWORD ANNUAL SUPPORT AND MAINTENANCE - ANNUAL SOFTWARE LICENSING AND SUSTAINMENT OF ADVANCED POSITION, NAVIGATION AND TIMING (PNT)"
   },
   {
     "company": "Anduril Industries",
@@ -2125,6 +2125,18 @@
   },
   {
     "company": "Anduril Industries",
+    "awardId": "H9240226FE033",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 1890318.97,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2026-07-13",
+    "endDate": "2027-07-12",
+    "description": "SIP TO136 PHASE II DEVELOPMENT OF DISMOUNTED CUXS ATAK GUI"
+  },
+  {
+    "company": "Anduril Industries",
     "awardId": "FA233025CB003",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 1799832.5,
@@ -2134,6 +2146,18 @@
     "startDate": "2024-11-25",
     "endDate": "2027-02-25",
     "description": "SBIR PHASE II MESHED RADAR NETWORK - NUMERICA NORTH AMERICAN INDUSTRY CLASSIFICATION SYSTEM (NAICS): 541715"
+  },
+  {
+    "company": "Anduril Industries",
+    "awardId": "H9240224F0049",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 1791063.02,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2024-08-19",
+    "endDate": "2027-07-12",
+    "description": "INTERIM CONTRACTOR SUPPORT (ICS)"
   },
   {
     "company": "Anduril Industries",
@@ -2374,30 +2398,6 @@
     "startDate": "2026-04-30",
     "endDate": "2027-07-31",
     "description": "AUSTERE COMMS TOWER M&S"
-  },
-  {
-    "company": "Anduril Industries",
-    "awardId": "H9240225FE028",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 412413.63,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2025-09-09",
-    "endDate": "2026-05-30",
-    "description": "SIP TO112 - LOW SWAP SENSOR STUDY"
-  },
-  {
-    "company": "Anduril Industries",
-    "awardId": "H9240226FE030",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 321367.5,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2026-06-09",
-    "endDate": "2027-06-08",
-    "description": "SIP TO140 BROADSWORD ANNUAL SUPPORT AND MAINTENANCE - ANNUAL SOFTWARE LICENSING AND SUSTAINMENT OF ADVANCED POSITION, NAVIGATION AND TIMING (PNT)"
   },
   {
     "company": "Shield AI",
@@ -4011,12 +4011,12 @@
     "company": "Space Exploration Technologies",
     "awardId": "FA881123F0015",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 95744249.0,
+    "amount": 96114249.0,
     "agency": "Department of Defense",
     "subAgency": "Department of the Air Force",
     "awardType": null,
     "startDate": "2023-06-15",
-    "endDate": "2026-10-30",
+    "endDate": "2027-01-12",
     "description": "NATIONAL SECURITY SPACE LAUNCH PHASE 2"
   },
   {
@@ -4239,7 +4239,7 @@
     "company": "Space Exploration Technologies",
     "awardId": "FA254126FB022",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 29235000.0,
+    "amount": 30795000.0,
     "agency": "Department of Defense",
     "subAgency": "Department of the Air Force",
     "awardType": null,
@@ -5458,18 +5458,6 @@
     "startDate": "2026-06-11",
     "endDate": "2027-12-10",
     "description": "PER SOW, CDRLS AND TECHNICAL PROPOSAL"
-  },
-  {
-    "company": "Castelion",
-    "awardId": "FA238523CB007",
-    "recipientName": "CASTELION CORPORATION",
-    "amount": 16972881.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2023-09-11",
-    "endDate": "2027-04-19",
-    "description": "FUTURE OPERATIONAL CAPABILITIES FOR THE US (FOCUS)"
   },
   {
     "company": "Castelion",
@@ -7308,6 +7296,18 @@
     "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER."
   },
   {
+    "company": "Astro Mechanica",
+    "awardId": "FA864925P0285",
+    "recipientName": "ASTRO MECHANICA CORP",
+    "amount": 1246143.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2025-06-24",
+    "endDate": "2027-03-24",
+    "description": "REVOLUTIONIZING AIR DOMINANCE: THE DUALITY ENGINES ROLE IN FUTURE COMBAT"
+  },
+  {
     "company": "Machina Labs",
     "awardId": "FA857124C0032",
     "recipientName": "MACHINA LABS INC",
@@ -8050,6 +8050,18 @@
     "startDate": "2025-12-29",
     "endDate": "2035-12-28",
     "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER"
+  },
+  {
+    "company": "Array Labs",
+    "awardId": "FA864925P0316",
+    "recipientName": "ARRAY LABS, INC.",
+    "amount": 1248427.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2025-05-21",
+    "endDate": "2027-02-23",
+    "description": "DEVELOPMENT OF ROBUST ALL-WEATHER 3D RADAR ALGORITHMS WITH IMMEDIATE WARFIGHTER BENEFIT"
   },
   {
     "company": "Array Labs",
@@ -9924,6 +9936,30 @@
     "description": "SBIR III RESEARCH AND DEVELOPMENT EFFORT ENTITLED WARMATRIX WHICH DEVELOPS WARGAMING SOFTWARE FOR MILITARY APPLICATION"
   },
   {
+    "company": "Star Catcher",
+    "awardId": "FA864925P0475",
+    "recipientName": "STAR CATCHER INDUSTRIES INC",
+    "amount": 1245875.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2025-08-27",
+    "endDate": "2027-02-26",
+    "description": "THERMAL MANAGEMENT FOR HIGH POWERED ENERGY BEAMING SYSTEMS"
+  },
+  {
+    "company": "Star Catcher",
+    "awardId": "FA864926P0219",
+    "recipientName": "STAR CATCHER INDUSTRIES INC",
+    "amount": 109625.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2026-07-13",
+    "endDate": "2026-10-13",
+    "description": "POWER BEAMING AND WIRELESS COMMUNICATION RECEIVER FOR INDEFINITE FLIGHT DURATION DRONES"
+  },
+  {
     "company": "Vector Defense",
     "awardId": "H9224026FE298",
     "recipientName": "VECTOR DEFENSE, INC",
@@ -9939,12 +9975,12 @@
     "company": "Vector Defense",
     "awardId": "H9224026FE295",
     "recipientName": "VECTOR DEFENSE, INC",
-    "amount": 658669.94,
+    "amount": 620060.94,
     "agency": "Department of Defense",
     "subAgency": "U.S. Special Operations Command",
     "awardType": null,
     "startDate": "2026-05-19",
-    "endDate": "2026-07-19",
+    "endDate": "2026-09-18",
     "description": "VECTOR FPV DRONES AND PARTS"
   },
   {
@@ -10476,6 +10512,30 @@
     "description": "SMALL BUSINESS INNOVATION RESEARCH, DIRECT TO PHASE II TOPIC A254-P030, XTECHOVERWATCH OPEN TOPIC"
   },
   {
+    "company": "Bonsai Robotics",
+    "awardId": "1232SA26P0416",
+    "recipientName": "BONSAI ROBOTICS INC",
+    "amount": 31088.85,
+    "agency": "Department of Agriculture",
+    "subAgency": "Agricultural Research Service",
+    "awardType": null,
+    "startDate": "2026-07-14",
+    "endDate": "2027-09-14",
+    "description": "PHENOTYPING ROBOTIC PLATFORM"
+  },
+  {
+    "company": "Bonsai Robotics",
+    "awardId": "1232SA26P0273",
+    "recipientName": "BONSAI ROBOTICS INC",
+    "amount": 29777.54,
+    "agency": "Department of Agriculture",
+    "subAgency": "Agricultural Research Service",
+    "awardType": null,
+    "startDate": "2026-05-21",
+    "endDate": "2026-07-18",
+    "description": "AUTONOMOUS ROBOTIC MOBILE PLATFORM.  (UNMANNED GROUND VEHICLE - UGV)"
+  },
+  {
     "company": "Specter Aerospace",
     "awardId": "N6833525C0355",
     "recipientName": "SPECTER AEROSPACE INC.",
@@ -10522,18 +10582,6 @@
     "startDate": "2025-09-11",
     "endDate": "2027-09-10",
     "description": "HITMAN: HYPERSONIC INTERCEPTOR FOR MANEUVERING SYSTEMS"
-  },
-  {
-    "company": "Pryzm",
-    "awardId": "HQ085926FE814",
-    "recipientName": "PRYZM DYNAMICS INC.",
-    "amount": 500.0,
-    "agency": "Department of Defense",
-    "subAgency": "Missile Defense Agency",
-    "awardType": null,
-    "startDate": "2025-12-29",
-    "endDate": "2035-12-28",
-    "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER."
   },
   {
     "company": "Argo Space",
@@ -10966,5 +11014,17 @@
     "startDate": "2026-09-21",
     "endDate": "2026-12-21",
     "description": "QUNNECT AUTOMATED POLARIZATION COMPENSATION SYSTEM"
+  },
+  {
+    "company": "Sophia Space",
+    "awardId": "80NSSC26C0446",
+    "recipientName": "SOPHIA SPACE, INC.",
+    "amount": 224936.0,
+    "agency": "National Aeronautics and Space Administration",
+    "subAgency": "National Aeronautics and Space Administration",
+    "awardType": null,
+    "startDate": "2026-09-30",
+    "endDate": "2027-03-30",
+    "description": "FY26 SBIR PHASE I - SOPHIA TILE FOR GPU-ACCELERATED COMPUTING WITH INTEGRATED THERMAL MANAGEMENT"
   }
 ]

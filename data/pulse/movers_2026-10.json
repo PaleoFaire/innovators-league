@@ -2,28 +2,36 @@
  "month": "2026-10",
  "up": [
   {
+   "company": "Ocean Infinity",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 20,
+   "roles_now": 33,
+   "change": 13,
+   "change_pct": 65.0
+  },
+  {
+   "company": "Star Catcher",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 20,
+   "roles_now": 33,
+   "change": 13,
+   "change_pct": 65.0
+  },
+  {
    "company": "DEFCON AI",
    "bucket": "Defence",
    "roles_prev": 5,
-   "roles_now": 9,
-   "change": 4,
-   "change_pct": 80.0
-  },
-  {
-   "company": "Unlimited Industries",
-   "bucket": "Manufacturing & Materials",
-   "roles_prev": 8,
-   "roles_now": 11,
+   "roles_now": 8,
    "change": 3,
-   "change_pct": 37.5
+   "change_pct": 60.0
   },
   {
-   "company": "JetZero",
-   "bucket": "Autonomy & Robotics",
-   "roles_prev": 17,
-   "roles_now": 23,
-   "change": 6,
-   "change_pct": 35.3
+   "company": "Rangeview",
+   "bucket": "Manufacturing & Materials",
+   "roles_prev": 7,
+   "roles_now": 10,
+   "change": 3,
+   "change_pct": 42.9
   },
   {
    "company": "Long Wall",
@@ -34,98 +42,92 @@
    "change_pct": 35.3
   },
   {
-   "company": "Rangeview",
-   "bucket": "Manufacturing & Materials",
+   "company": "JetZero",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 17,
+   "roles_now": 22,
+   "change": 5,
+   "change_pct": 29.4
+  },
+  {
+   "company": "Remora",
+   "bucket": "Power & Grid",
    "roles_prev": 7,
    "roles_now": 9,
    "change": 2,
    "change_pct": 28.6
   },
   {
-   "company": "Ocean Infinity",
-   "bucket": "Autonomy & Robotics",
-   "roles_prev": 20,
-   "roles_now": 24,
-   "change": 4,
-   "change_pct": 20.0
+   "company": "Lumotive",
+   "bucket": "Chips & Quantum",
+   "roles_prev": 7,
+   "roles_now": 9,
+   "change": 2,
+   "change_pct": 28.6
   },
   {
-   "company": "Thea Energy",
-   "bucket": "Nuclear",
-   "roles_prev": 5,
-   "roles_now": 6,
-   "change": 1,
-   "change_pct": 20.0
-  },
-  {
-   "company": "Integrate",
+   "company": "Performance Drone Works",
    "bucket": "Defence",
-   "roles_prev": 5,
-   "roles_now": 6,
-   "change": 1,
-   "change_pct": 20.0
+   "roles_prev": 28,
+   "roles_now": 36,
+   "change": 8,
+   "change_pct": 28.6
   },
   {
-   "company": "Varda Space Industries",
-   "bucket": "Space & Aerospace",
-   "roles_prev": 89,
-   "roles_now": 106,
-   "change": 17,
-   "change_pct": 19.1
-  },
-  {
-   "company": "9 Mothers",
+   "company": "Distributed Spectrum",
    "bucket": "Defence",
-   "roles_prev": 6,
-   "roles_now": 7,
-   "change": 1,
-   "change_pct": 16.7
+   "roles_prev": 11,
+   "roles_now": 14,
+   "change": 3,
+   "change_pct": 27.3
   }
  ],
  "down": [
   {
+   "company": "Quantum Space",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 38,
+   "roles_now": 17,
+   "change": -21,
+   "change_pct": -55.3
+  },
+  {
+   "company": "FleetZero",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 6,
+   "roles_now": 3,
+   "change": -3,
+   "change_pct": -50.0
+  },
+  {
    "company": "Corvus Robotics",
    "bucket": "Autonomy & Robotics",
    "roles_prev": 8,
-   "roles_now": 6,
-   "change": -2,
-   "change_pct": -25.0
+   "roles_now": 4,
+   "change": -4,
+   "change_pct": -50.0
   },
   {
    "company": "Dexterity",
    "bucket": "Autonomy & Robotics",
    "roles_prev": 9,
-   "roles_now": 7,
-   "change": -2,
-   "change_pct": -22.2
-  },
-  {
-   "company": "Lilac Solutions",
-   "bucket": "Manufacturing & Materials",
-   "roles_prev": 5,
-   "roles_now": 4,
-   "change": -1,
-   "change_pct": -20.0
-  },
-  {
-   "company": "Atomic Machines",
-   "bucket": "Chips & Quantum",
-   "roles_prev": 24,
-   "roles_now": 20,
-   "change": -4,
-   "change_pct": -16.7
-  },
-  {
-   "company": "Locus Robotics",
-   "bucket": "Autonomy & Robotics",
-   "roles_prev": 6,
    "roles_now": 5,
-   "change": -1,
-   "change_pct": -16.7
+   "change": -4,
+   "change_pct": -44.4
+  },
+  {
+   "company": "Carbon Robotics",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 18,
+   "roles_now": 11,
+   "change": -7,
+   "change_pct": -38.9
   }
  ],
  "factory_flags": [
+  "Heliux",
   "Northwood Space",
-  "Rondo Energy"
+  "Rondo Energy",
+  "Star Catcher"
  ]
 }

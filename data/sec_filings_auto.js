@@ -1,6 +1,11 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-11 12:23:47 UTC
+// Last updated: 2026-10-14 11:28:58 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "4", date: "2026-10-13", description: "xslF345X06/wk-form4_1791936127.xml", isIPO: false, ticker: "PLTR" },
+  { company: "Palantir Technologies", form: "4", date: "2026-10-13", description: "xslF345X06/wk-form4_1791936056.xml", isIPO: false, ticker: "PLTR" },
+  { company: "Oklo", form: "4", date: "2026-10-13", description: "xslF345X06/wk-form4_1791923982.xml", isIPO: false, ticker: "OKLO" },
+  { company: "UiPath", form: "4", date: "2026-10-13", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
+  { company: "UiPath", form: "4", date: "2026-10-13", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "Oklo", form: "4", date: "2026-10-08", description: "xslF345X06/wk-form4_1791490531.xml", isIPO: false, ticker: "OKLO" },
   { company: "Tempus AI", form: "8-K", date: "2026-10-08", description: "vnt-20261002.htm", isIPO: false, ticker: "TEM" },
   { company: "Satellogic", form: "8-K", date: "2026-10-08", description: "ea0308059-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
@@ -46,9 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "BlackSky Technology", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790886898.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790886831.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790886763.xml", isIPO: false, ticker: "BKSY" },
-  { company: "BlackSky Technology", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790886694.xml", isIPO: false, ticker: "BKSY" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-10-01", description: "qbts-20261001.htm", isIPO: false, ticker: "QBTS" },
-  { company: "Aurora Innovation", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790889196.xml", isIPO: false, ticker: "AUR" },
-  { company: "Aurora Innovation", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790889031.xml", isIPO: false, ticker: "AUR" },
-  { company: "Astera Labs", form: "8-K", date: "2026-10-01", description: "tra-20260928.htm", isIPO: false, ticker: "ALAB" },
 ];

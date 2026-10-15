@@ -1,50 +1,51 @@
 {
- "week": "2026-W41",
- "generated": "2026-10-05",
+ "week": "2026-W42",
+ "generated": "2026-10-12",
  "count": 3,
  "by_type": {
   "production_turn": 1,
-  "hiring_surge": 2
+  "hiring_surge": 1,
+  "hiring_pullback": 1
  },
  "signals": [
   {
-   "company": "Armada",
-   "bucket": "Space & Aerospace",
+   "company": "Atomic Machines",
+   "bucket": "Chips & Quantum",
    "state": "CA",
    "type": "production_turn",
-   "week": "2026-W41",
+   "week": "2026-W42",
    "evidence": {
-    "atoms_share_now_pct": 43.9,
-    "atoms_share_12w_ago_pct": 28.8,
-    "roles_now": 41
+    "atoms_share_now_pct": 65.5,
+    "atoms_share_12w_ago_pct": 48.3,
+    "roles_now": 29
    },
    "last_capital_event": null
   },
   {
-   "company": "Hubble Network",
-   "bucket": "Space & Aerospace",
-   "state": "WA",
-   "type": "hiring_surge",
-   "week": "2026-W41",
-   "evidence": {
-    "roles_4w_ago": 11,
-    "roles_now": 18,
-    "change_pct": 63.6
-   },
-   "last_capital_event": null
-  },
-  {
-   "company": "Amca",
-   "bucket": "Manufacturing & Materials",
+   "company": "Arbor Energy",
+   "bucket": "Power & Grid",
    "state": "CA",
    "type": "hiring_surge",
-   "week": "2026-W41",
+   "week": "2026-W42",
    "evidence": {
-    "roles_4w_ago": 35,
-    "roles_now": 50,
-    "change_pct": 42.9
+    "roles_4w_ago": 14,
+    "roles_now": 19,
+    "change_pct": 35.7
    },
-   "last_capital_event": "2024-10"
+   "last_capital_event": null
+  },
+  {
+   "company": "Carbon Robotics",
+   "bucket": "Autonomy & Robotics",
+   "state": "WA",
+   "type": "hiring_pullback",
+   "week": "2026-W42",
+   "evidence": {
+    "roles_4w_ago": 18,
+    "roles_now": 11,
+    "change_pct": -38.9
+   },
+   "last_capital_event": null
   }
  ]
 }
