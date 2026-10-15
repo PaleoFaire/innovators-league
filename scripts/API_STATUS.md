@@ -107,16 +107,19 @@ All scripts now **degrade gracefully**. Missing keys produce a structured `statu
 
 **Status:** Working — no API keys required
 
-- **Sources (all public):**
-  - Greenhouse: `https://boards-api.greenhouse.io/v1/boards/{company}/jobs`
-  - Lever: `https://api.lever.co/v0/postings/{company}`
-  - Ashby: `https://api.ashbyhq.com/posting-api/job-board/{company}`
-  - Workable: `https://apply.workable.com/api/v1/widget/accounts/{company}`
-- Added: retry logic with exponential backoff, Retry-After header support, auto-discovery of job boards for master-list companies not already covered, status metadata on empty results
+- **Board registry:** `data/pulse/job_boards.json` (company as data.js spells it, platform, slug, verified date, jobs seen, evidence). Maintained by `scripts/discover_job_boards.py`; the fetcher only reads it. Board health (ok / empty / unreachable per board) is written into `data/jobs_stats.json` → `boards`, and discovery re-checks any company whose boards returned nothing.
+- **Fetchers** live in `scripts/job_boards.py` (shared with discovery). All public, keyless:
+  - Greenhouse `boards-api.greenhouse.io/v1/boards/{slug}/jobs` · Lever `api.lever.co/v0/postings/{slug}` (EU fallback) · Ashby `api.ashbyhq.com/posting-api/job-board/{slug}` (with compensation) · Workable `apply.workable.com/api/v1/widget/accounts/{slug}`
+  - Rippling `api.rippling.com/platform/api/ats/v1/board/{slug}/jobs` · BambooHR `{slug}.bamboohr.com/careers/list`
+  - SmartRecruiters `api.smartrecruiters.com/v1/companies/{slug}/postings` · Workday `POST {tenant}.wdN.myworkdayjobs.com/wday/cxs/{tenant}/{site}/jobs` (slug `tenant.wdN/Site`)
+  - Recruitee `{slug}.recruitee.com/api/offers/` · Personio `{slug}.jobs.personio.de/xml` · Breezy `{slug}.breezy.hr/json` · Pinpoint `{slug}.pinpointhq.com/postings.json` · Teamtailor `{slug}.teamtailor.com/jobs.rss`
+  - JazzHR `{slug}.applytojob.com/apply/` and iCIMS `{slug}.icims.com/jobs/search?ss=1&in_iframe=1&pr=N` (HTML lists)
+- Job ids are `<2-letter platform prefix>-<slug>-<id>`; `jobs.js` reads the prefix as the source. Record shape is identical across platforms (id, company, title, location, department, type, posted, url, remote, sector, source, salary* when exposed).
+- Retry logic with exponential backoff, Retry-After support, status metadata on empty results. `--only "A,B"` and `--platform x` run partial pulls without writing the feed.
 
 **Graceful degradation:** Writes status metadata + placeholder JS snippet on total failure.
 
-**Action item:** None — script works out of the box.
+**Action item:** None — runs on `requests` alone (XML parsing is stdlib).
 
 ---
 

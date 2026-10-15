@@ -22,4 +22,4 @@ A monthly diffusion index of the private US hard-tech cohort tracked by The Inno
 
 **Never included.** Stock prices, news-mention counts, anything a company paid for. Every founder's own benchmark is free.
 
-Files: `pulse_history.csv` (the series), `pulse_buckets.csv`, `movers_<month>.json`, `snapshots/<month>.json` (per-company counts), `pulse_latest.json`, and `../pulse_auto.js` for the site. Coverage is expanded by `scripts/discover_job_boards.py`, whose high-confidence finds are picked up automatically by `scripts/fetch_jobs.py`.
+Files: `pulse_history.csv` (the series), `pulse_buckets.csv`, `movers_<month>.json`, `snapshots/<month>.json` (per-company counts), `pulse_latest.json`, and `../pulse_auto.js` for the site. Coverage is expanded by `scripts/discover_job_boards.py`, which verifies each board against the company (its own careers page, or the board naming the company and listing jobs where the company is) and writes it to `data/pulse/job_boards.json`, the registry `scripts/fetch_jobs.py` pulls from. Candidates and the reasons they were rejected are logged in `data/pulse/job_boards_discovered.json`.

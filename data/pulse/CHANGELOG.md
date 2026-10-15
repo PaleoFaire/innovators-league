@@ -2,6 +2,12 @@
 
 Every change to how the number is made is logged here with a date and a version. Printed values are never silently restated; revisions are listed in `revisions.json` with the first print beside the revised value.
 
+## v1.2.1 — 15 October 2026 (coverage, no method change)
+- **Board registry.** The hard-coded board lists in `fetch_jobs.py` (198 boards, 114 of them dead 404s after companies changed ATS) are replaced by `data/pulse/job_boards.json`, one source of truth shared by the fetcher and discovery. Every entry carries the company name as data.js spells it, the platform, the slug, the date it last returned jobs and how it was found.
+- **Verification before use.** A board is accepted when it is linked or embedded on the company's own careers page, or when the board itself names the company (organisation field, posting text or domain) and, for one-word matches, lists postings where the company is. Three boards that had been feeding the page under the wrong name (Govini→Air is a rebrand and stays; Newspace Research→Sonja Inc. and Thea Energy→Laboratoires Théa are not) are now rejected with the reason logged.
+- **Eleven more platforms** fetched through keyless public endpoints: SmartRecruiters, Workday, Recruitee, Personio, Breezy, Pinpoint, Teamtailor, JazzHR and iCIMS join Greenhouse, Lever, Ashby, Workable, Rippling and BambooHR. Discovery now reads script embeds, iframes and JSON-LD JobPosting markup, follows the careers link from the homepage nav, includes public companies and re-checks companies whose board returns nothing.
+- Pulse panels are unaffected until the next monthly compute; the board-change guard will flag any company whose count jumps because its board was re-found.
+
 ## v1.2 — 28 September 2026 (pre-publication audit)
 - **US-only universe.** The Pulse describes the *American* build-out, but the database holds 364 non-US companies and several (Halter, ICEYE, Destinus, Isar Aerospace, The Exploration Company, Humanoid) were on the hiring panel. The universe is now private · active · **US-headquartered** · in-lane. Every month is recomputed and the revisions are logged.
 - **Dedupe by posting id**, not by (company, title, location): a company hiring five technicians in one plant now counts five. Effect ≈0.5% of postings.

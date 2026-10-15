@@ -1,8 +1,11 @@
 name: Pulse — job-board discovery
 
-# Finds public job boards (Greenhouse, Lever, Ashby, Workable, SmartRecruiters…) for tracked
-# private companies that fetch_jobs.py doesn't cover yet. High-confidence finds are picked up
-# automatically by the jobs sync; medium-confidence ones wait in the same file for review.
+# Finds public job boards (Greenhouse, Lever, Ashby, Workable, SmartRecruiters, Workday,
+# Rippling, BambooHR, Recruitee, Personio, Breezy, Pinpoint, Teamtailor, JazzHR, iCIMS) for
+# every tracked company without a working board, including public companies and companies
+# whose registered board returned nothing in the last jobs pull. Verified boards go into
+# data/pulse/job_boards.json — the registry scripts/fetch_jobs.py pulls from; every candidate
+# and the reason it was accepted or rejected is logged in data/pulse/job_boards_discovered.json.
 # Monthly on the 2nd, so the boards are in place before the 1st-of-month Pulse print.
 
 on:
@@ -45,7 +48,7 @@ jobs:
             git stash --include-untracked 2>/dev/null || true
             git pull --rebase origin main || git rebase --abort 2>/dev/null || true
             git stash pop 2>/dev/null || true
-            git add data/pulse/job_boards_discovered.json 2>/dev/null || true
+            git add data/pulse/job_boards.json data/pulse/job_boards_discovered.json 2>/dev/null || true
             if git diff --staged --quiet; then echo "No changes."; exit 0; fi
             git commit -m "🫀 Pulse discovery: $(date -u +%Y-%m-%d)"
             git push origin main && exit 0

@@ -1,794 +1,159 @@
 #!/usr/bin/env python3
 """
 Jobs Aggregator for The Innovators League
-Fetches open positions from all 500 tracked companies via their public job board APIs.
+Pulls open positions from every job board in data/pulse/job_boards.json — the
+registry that scripts/discover_job_boards.py maintains — through the public,
+keyless ATS endpoints implemented in scripts/job_boards.py (Greenhouse, Lever,
+Ashby, Workable, Rippling, BambooHR, SmartRecruiters, Workday, Recruitee,
+Personio, Breezy, Pinpoint, Teamtailor, JazzHR, iCIMS).
 
-Sources (all public, no API keys required):
-  - Greenhouse: https://boards-api.greenhouse.io/v1/boards/{company}/jobs
-  - Lever:      https://api.lever.co/v0/postings/{company}
-  - Ashby:      https://api.ashbyhq.com/posting-api/job-board/{company}
-  - Workable:   https://apply.workable.com/api/v1/widget/accounts/{subdomain}
+Outputs (all consumed downstream — keep the shapes):
+  data/jobs_raw.json    list of job records (id, company, title, location, department,
+                        type, posted, url, remote, sector, source, salary*)
+  data/jobs_stats.json  aggregate stats + a "boards" health list (one row per board:
+                        company, platform, slug, status ok|empty|error, jobs) that the
+                        discovery script reads to re-check boards that return nothing
+  data/jobs_auto.js     const JOBS_DATA / JOBS_STATS for the legacy page
 
-Auto-discovery: Attempts to find job boards for remaining companies
-Enhancements over previous version:
-  - Retry logic with exponential backoff on 429/5xx errors
-  - Proper rate limit handling (Retry-After header)
-  - Full pagination for Greenhouse and Lever
-  - Status metadata instead of empty outputs
-  - Iterates companies discovered in company_master_list.js
+Usage:
+  python3 scripts/fetch_jobs.py            # full pull
+  python3 scripts/fetch_jobs.py --only "Anduril Industries,Shield AI"
+  python3 scripts/fetch_jobs.py --platform workday
 """
-
-import json
-import os
-import requests
-import re
-import time
-import logging
 import concurrent.futures
+import json
+import logging
+import re
+import sys
+import time
 from datetime import datetime
 from pathlib import Path
-from urllib.parse import quote
 
-# ─── Logging ───
-logging.basicConfig(
-    level=logging.INFO,
-    format="[%(asctime)s] %(levelname)s: %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import job_boards as jb  # noqa: E402
+
+logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s: %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
 log = logging.getLogger("fetch_jobs")
 
-DATA_DIR = Path(__file__).parent.parent / "data"
-SCRIPT_DIR = Path(__file__).parent
-
-REQUEST_TIMEOUT = 15
-MAX_RETRIES = 3
-BACKOFF_BASE = 2  # seconds
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+SCRIPT_DIR = Path(__file__).resolve().parent
+MAX_WORKERS = 12
 
 
-# ─── Load sector mapping from data.js ───
+# ─── Sector lookup from data.js ───
 def load_master_companies():
-    """Load company data from data.js for sector info."""
+    """{company name: sector} from data.js (regex — data.js is a JS file, not JSON)."""
     data_js_path = SCRIPT_DIR.parent / "data.js"
-
     companies = {}
     if data_js_path.exists():
-        content = data_js_path.read_text()
-        pattern = r'name:\s*"([^"]+)"[^}]*?sector:\s*"([^"]+)"'
-        for match in re.finditer(pattern, content, re.DOTALL):
-            name = match.group(1)
-            sector = match.group(2)
-            companies[name] = sector
-    return companies
-
-
-def load_companies_from_master_list():
-    """
-    Load companies from company_master_list.js if it exists.
-    Returns a list of {name, aliases} dicts.
-    """
-    master_list_path = SCRIPT_DIR / "company_master_list.js"
-    if not master_list_path.exists():
-        return []
-
-    content = master_list_path.read_text()
-    companies = []
-    pattern = r'\{\s*name:\s*"([^"]+)",\s*aliases:\s*\[([^\]]*)\]'
-    for match in re.finditer(pattern, content):
-        name = match.group(1)
-        aliases_str = match.group(2)
-        aliases = [a.strip().strip('"') for a in aliases_str.split(',') if a.strip()]
-        companies.append({"name": name, "aliases": aliases})
+        content = data_js_path.read_text(encoding="utf-8")
+        for match in re.finditer(r'name:\s*"([^"]+)"[^}]*?sector:\s*"([^"]+)"', content, re.DOTALL):
+            companies[match.group(1)] = match.group(2)
     return companies
 
 
 COMPANY_SECTORS = load_master_companies()
-MASTER_LIST = load_companies_from_master_list()
 
 
-# ─── Known job boards ───
-GREENHOUSE_COMPANIES = [
-    # Defense & Aerospace
-    ("Anduril Industries", "anduril"),
-    ("Shield AI", "shieldai"),
-    ("Palantir", "palantir"),
-    ("Saronic", "saronic"),
-    ("Skydio", "skydio"),
-    ("Epirus", "epirus"),
-    ("Hermeus", "hermeus"),
-    ("Boom Supersonic", "boomsupersonic"),
-    ("True Anomaly", "trueanomaly"),
-    ("Rebellion Defense", "rebelliondefense"),
-    ("Saildrone", "saildrone"),
-    ("Flock Safety", "flocksafety"),
-    ("Firefly Aerospace", "fireflyspace"),
-    ("Intuitive Machines", "intuitomach"),
-    ("Capella Space", "capellaspace"),
-    ("Planet Labs", "planet"),
-    ("Muon Space", "muonspace"),
-    ("Axiom Space", "axiomspace"),
-    ("Stoke Space", "stokespace"),
-    ("Impulse Space", "impulsespace"),
-    ("Ursa Major Technologies", "ursamajor"),
-    ("Astroscale", "astroscale"),
-    ("Relativity Space", "relativityspace"),
-    ("Varda Space Industries", "vardaspace"),
-    ("Vast", "vast"),
-
-    # Nuclear & Energy
-    ("Oklo", "oklo"),
-    ("Commonwealth Fusion Systems", "cfsenergy"),
-    ("Helion", "helionenergy"),
-    ("TAE Technologies", "taetechnologies"),
-    ("Fervo Energy", "fervoenergy"),
-    ("Form Energy", "formenergy"),
-    ("Antora Energy", "antoraenergy"),
-    ("Heirloom Carbon", "heirloom"),
-    ("Redwood Materials", "redwoodmaterials"),
-    ("KoBold Metals", "koboldmetals"),
-    ("Sublime Systems", "sublimesystems"),
-    ("Charm Industrial", "charmindustrial"),
-    ("Brimstone", "brimstone"),
-    ("Boston Metal", "bostonmetal"),
-    ("Solugen", "solugen"),
-    ("Twelve", "twelve"),
-    ("Natron Energy", "natronenergy"),
-    ("EnerVenue", "enervenue"),
-    ("Bedrock Energy", "bedrockenergy"),
-    ("Exowatt", "exowatt"),
-
-    # AI & Software
-    ("Anthropic", "anthropic"),
-    ("Scale AI", "scaleai"),
-    ("Cerebras", "cerebassystems"),
-    ("Applied Intuition", "appliedintuition"),
-    ("Cohere", "cohere"),
-    ("Cognition", "cognition"),
-    ("Synthesis", "synthesis"),
-    ("Primer AI", "primer"),
-    ("Hippocratic AI", "hippocraticai"),
-    ("Abridge", "abridge"),
-    ("Beacon AI", "beaconai"),
-    ("Air Space Intelligence", "airspaceintel"),
-    ("Atmo", "atmo"),
-    ("Second Front Systems", "secondfrontsystems"),
-    ("Vannevar Labs", "vannevarlabs"),
-
-    # Robotics & Autonomy
-    ("Figure AI", "figureai"),
-    ("Agility Robotics", "agilityrobotics"),
-    ("Apptronik", "apptronik"),
-    ("1X Technologies", "1x"),
-    ("Gecko Robotics", "geckorobotics"),
-    ("Bright Machines", "brightmachines"),
-    ("Carbon Robotics", "carbonrobotics"),
-    ("Electric Sheep", "electricsheep"),
-    ("Locus Robotics", "locusrobotics"),
-    ("AMP Robotics", "amprobotics"),
-    ("Formic", "formic"),
-    ("Matic Robotics", "maticrobots"),
-    ("Nuro", "nuro"),
-    ("Aurora Innovation", "aurora"),
-    ("Kodiak Robotics", "kodiak"),
-    ("Overland AI", "overlandai"),
-
-    # Biotech & Healthcare
-    ("Recursion Pharmaceuticals", "recursionpharmaceuticals"),
-    ("Insitro", "insitro"),
-    ("Colossal Biosciences", "colossal"),
-    ("Eikon Therapeutics", "eikontherapeutics"),
-    ("Tempus AI", "tempusai"),
-    ("Mammoth Biosciences", "mammothbiosciences"),
-    ("Altos Labs", "altoslabs"),
-    ("Retro Biosciences", "retrobio"),
-    ("New Limit", "newlimit"),
-
-    # Hardware & Manufacturing
-    ("Hadrian", "hadrian"),
-    ("Machina Labs", "machinalabs"),
-    ("Divergent", "divergent"),
-    ("Atomic Industries", "atomicindustries"),
-    ("Quilter", "quilter"),
-    ("Astera Labs", "asteralabs"),
-    ("Etched", "etched"),
-    ("Lightmatter", "lightmatter"),
-    ("d-Matrix", "dmatrix"),
-
-    # Aviation & Mobility
-    ("Joby Aviation", "jobyaviation"),
-    ("Archer Aviation", "archer"),
-    ("Zipline", "flyzipline"),
-    ("Whisper Aero", "whisperaero"),
-    ("Vertical Aerospace", "vertical"),
-    ("ZeroAvia", "zeroavia"),
-    ("Lilium", "lilium"),
-    ("Beta Technologies", "betatech"),
-    ("Wisk", "wisk"),
-
-    # Quantum & Computing
-    ("IonQ", "ionq"),
-    ("Rigetti Computing", "rigetti"),
-    ("PsiQuantum", "psiquantum"),
-    ("QuEra Computing", "quera"),
-    ("Atom Computing", "atomcomputing"),
-
-    # Space & Satellites
-    ("Astranis", "astranis"),
-    ("Umbra", "umbra"),
-    ("Albedo", "albedo"),
-    ("Array Labs", "arraylabs"),
-    ("Turion Space", "turionspace"),
-
-    # Companies moved from Lever to Greenhouse
-    ("SpaceX", "spacex"),
-    ("OpenAI", "openai"),
-    ("Rocket Lab", "rocketlab"),
-    ("Blue Origin", "blueorigin"),
-    ("Stripe", "stripe"),
-    ("Flexport", "flexport"),
-    ("Neuralink", "neuralink"),
-    ("The Boring Company", "boringcompany"),
-    ("Groq", "groq"),
-    ("Mistral AI", "mistralai"),
-
-    # Auto-discovered (Feb 2026)
-    ("AST SpaceMobile", "astspacemobile"),
-    ("Re:Build Manufacturing", "rebuildmanufacturing"),
-    ("Tenstorrent", "tenstorrent"),
-    ("Chaos Industries", "chaosindustries"),
-    ("Radiant", "radiant"),
-    ("Isar Aerospace", "isaraerospace"),
-    ("Armada", "armada"),
-    ("Kairos Power", "kairospower"),
-    ("General Matter", "generalmatter"),
-    ("ClearSpace", "clear"),
-    ("The Nuclear Company", "thenuclearcompany"),
-    ("Pacific Fusion", "pacificfusion"),
-    ("Together AI", "togetherai"),
-    ("Valar Atomics", "valaratomics"),
-    ("Allen Control Systems", "allencontrolsystems"),
-    ("Latitude", "latitude"),
-    ("Skyryse", "skyryse"),
-    ("Atomic Machines", "atomicmachines"),
-    ("Swarm Aero", "swarmaero"),
-    ("Inversion Space", "inversionspace"),
-    ("Outpost Space", "outpostspace"),
-    ("Slingshot Aerospace", "slingshotaerospace"),
-    ("Senra Systems", "senrasystems"),
-    ("Mara", "mara"),
-    ("Hive AI", "hive"),
-    ("Focused Energy", "focused"),
-    ("Salient Motion", "salientmotion"),
-    ("Labelbox", "labelbox"),
-    ("Marvel Fusion", "marvelfusion"),
-    ("Icarus", "icarus"),
-    ("Watershed", "watershed"),
-    ("Dusty Robotics", "dustyrobotics"),
-    ("Profluent", "profluent"),
-    ("Claros", "claros"),
-    ("Vivodyne", "vivodyne"),
-    ("Arbor Energy", "arborenergy"),
-    ("Hubble Network", "hubblenetwork"),
-    ("Solid Power", "solidpower"),
-    ("Floodbase", "floodbase"),
-    ("WeaveGrid", "weavegrid"),
-    ("Outrider", "outrider"),
-    ("Quaise Energy", "quaise"),
-    ("DNA Script", "dnascript"),
-]
-
-LEVER_COMPANIES = [
-    ("Waymo", "waymo"),
-    ("Cruise", "getcruise"),
-    ("Databricks", "databricks"),
-    ("Rippling", "rippling"),
-    ("Physical Intelligence", "physicalintelligence"),
-    ("Anysphere", "anysphere"),
-    ("Crusoe Energy", "crusoe"),
-    ("Terraform Industries", "terraformindustries"),
-    ("Cover", "cover"),
-    ("Framework Computer", "frame"),
-    ("Arc Boats", "arcboats"),
-    ("Base Power", "basepower"),
-    ("Impulse Labs", "impulselabs"),
-    ("Cape", "capeprivacy"),
-    ("Forterra", "forterra"),
-    ("Auterion", "auterion"),
-    ("Manna Aero", "manna"),
-    ("Seneca Systems", "senecasystems"),
-]
-
-ASHBY_COMPANIES = [
-    ("Groq", "groq"),
-    ("Mistral AI", "mistral"),
-    ("ElevenLabs", "elevenlabs"),
-    ("Skild AI", "skild"),
-    ("Covariant", "covariant"),
-    ("Extropic", "extropic"),
-    ("Helsing", "helsing"),
-]
-
-WORKABLE_COMPANIES = [
-    ("Orbex", "orbex"),
-    ("Oxford Nanopore Technologies", "oxfordnanopore"),
-    ("Oxford Quantum Circuits", "oqc"),
-    ("Tokamak Energy", "tokamakenergy"),
-    ("First Light Fusion", "firstlightfusion"),
-    ("Newcleo", "newcleo"),
-    ("Wayve", "wayve"),
-]
+# ─── Back-compat shims (older scripts import these names) ───
+http_get_with_retry = jb.http_get_with_retry
 
 
-# ─── HTTP helpers ───
-def http_get_with_retry(url, timeout=REQUEST_TIMEOUT, max_retries=MAX_RETRIES):
-    """GET with retries on 429/5xx. Returns Response or None."""
-    headers = {
-        "User-Agent": "InnovatorsLeague-JobsBot/1.0",
-        "Accept": "application/json",
-    }
-    for attempt in range(max_retries):
-        try:
-            resp = requests.get(url, timeout=timeout, headers=headers)
-        except requests.exceptions.Timeout:
-            if attempt < max_retries - 1:
-                time.sleep(BACKOFF_BASE * (2 ** attempt))
-                continue
-            return None
-        except requests.exceptions.RequestException:
-            if attempt < max_retries - 1:
-                time.sleep(BACKOFF_BASE * (2 ** attempt))
-                continue
-            return None
-
-        if resp.status_code == 200:
-            return resp
-        if resp.status_code == 404:
-            return resp  # Don't retry 404; caller handles
-        if resp.status_code == 429:
-            # Respect Retry-After if present
-            retry_after = resp.headers.get("Retry-After")
-            if retry_after:
-                try:
-                    wait = int(retry_after)
-                except ValueError:
-                    wait = BACKOFF_BASE * (2 ** attempt)
-            else:
-                wait = BACKOFF_BASE * (2 ** attempt)
-            time.sleep(wait)
-            continue
-        if 500 <= resp.status_code < 600:
-            time.sleep(BACKOFF_BASE * (2 ** attempt))
-            continue
-        return resp  # 4xx other than 429
-    return None
-
-
-# ─── Fetchers ───
 def fetch_greenhouse_jobs(company_name, board_token):
-    """Fetch jobs from Greenhouse public API. Paginated."""
-    url = f"https://boards-api.greenhouse.io/v1/boards/{board_token}/jobs?pay_transparency=true"
-
-    resp = http_get_with_retry(url)
-    if resp is None or resp.status_code != 200:
-        return []
-
-    try:
-        data = resp.json()
-    except ValueError:
-        return []
-
-    jobs = []
-    for job in data.get("jobs", []):
-        location = job.get("location", {}).get("name", "Remote")
-        remote = "remote" in location.lower() or "anywhere" in location.lower()
-        departments = job.get("departments", [])
-        department = departments[0].get("name", "General") if departments else "General"
-
-        pay_ranges = job.get("pay_input_ranges", [])
-        salary_min = None
-        salary_max = None
-        salary_currency = None
-        if pay_ranges:
-            first_range = pay_ranges[0]
-            min_cents = first_range.get("min_cents", 0)
-            max_cents = first_range.get("max_cents", 0)
-            if min_cents or max_cents:
-                salary_min = min_cents // 100 if min_cents else None
-                salary_max = max_cents // 100 if max_cents else None
-                salary_currency = first_range.get("currency_type", "USD")
-
-        jobs.append({
-            "id": f"gh-{board_token}-{job.get('id')}",
-            "company": company_name,
-            "title": job.get("title", ""),
-            "location": location,
-            "department": department,
-            "type": "Full-time",
-            "posted": job.get("updated_at", "")[:10] if job.get("updated_at") else "",
-            "url": job.get("absolute_url", ""),
-            "remote": remote,
-            "sector": COMPANY_SECTORS.get(company_name, "tech"),
-            "source": "greenhouse",
-            "salaryMin": salary_min,
-            "salaryMax": salary_max,
-            "salaryCurrency": salary_currency,
-        })
-    return jobs
+    return jb.fetch_greenhouse(company_name, board_token, COMPANY_SECTORS.get(company_name, "tech")) or []
 
 
 def fetch_lever_jobs(company_name, board_name):
-    """Fetch jobs from Lever public API."""
-    url = f"https://api.lever.co/v0/postings/{board_name}?mode=json"
-
-    resp = http_get_with_retry(url)
-    if resp is None or resp.status_code != 200:
-        return []
-
-    try:
-        data = resp.json()
-    except ValueError:
-        return []
-
-    jobs = []
-    for job in data:
-        location = job.get("categories", {}).get("location", "Remote")
-        remote = "remote" in location.lower() or "anywhere" in location.lower()
-        department = job.get("categories", {}).get("team", "General")
-        commitment = job.get("categories", {}).get("commitment", "Full-time")
-        created_at = job.get("createdAt", 0)
-        posted = (
-            datetime.fromtimestamp(created_at / 1000).strftime("%Y-%m-%d")
-            if created_at
-            else ""
-        )
-
-        jobs.append({
-            "id": f"lv-{board_name}-{job.get('id')}",
-            "company": company_name,
-            "title": job.get("text", ""),
-            "location": location,
-            "department": department,
-            "type": commitment,
-            "posted": posted,
-            "url": job.get("hostedUrl", ""),
-            "remote": remote,
-            "sector": COMPANY_SECTORS.get(company_name, "tech"),
-            "source": "lever",
-        })
-    return jobs
+    return jb.fetch_lever(company_name, board_name, COMPANY_SECTORS.get(company_name, "tech")) or []
 
 
 def fetch_ashby_jobs(company_name, board_name):
-    """Fetch jobs from Ashby public API."""
-    url = f"https://api.ashbyhq.com/posting-api/job-board/{board_name}"
-
-    resp = http_get_with_retry(url)
-    if resp is None or resp.status_code != 200:
-        return []
-
-    try:
-        data = resp.json()
-    except ValueError:
-        return []
-
-    jobs = []
-    for job in data.get("jobs", []):
-        location = job.get("location", "Remote")
-        remote = job.get("isRemote", False) or "remote" in location.lower()
-        department = job.get("department", "General")
-
-        jobs.append({
-            "id": f"ab-{board_name}-{job.get('id')}",
-            "company": company_name,
-            "title": job.get("title", ""),
-            "location": location,
-            "department": department,
-            "type": job.get("employmentType", "Full-time"),
-            "posted": job.get("publishedAt", "")[:10] if job.get("publishedAt") else "",
-            "url": job.get("jobUrl", ""),
-            "remote": remote,
-            "sector": COMPANY_SECTORS.get(company_name, "tech"),
-            "source": "ashby",
-        })
-    return jobs
+    return jb.fetch_ashby(company_name, board_name, COMPANY_SECTORS.get(company_name, "tech")) or []
 
 
 def fetch_workable_jobs(company_name, subdomain):
-    """Fetch jobs from Workable public API."""
-    url = f"https://apply.workable.com/api/v1/widget/accounts/{subdomain}"
-
-    resp = http_get_with_retry(url)
-    if resp is None or resp.status_code != 200:
-        return []
-
-    try:
-        data = resp.json()
-    except ValueError:
-        return []
-
-    jobs = []
-    for job in data.get("jobs", []):
-        location = job.get("location", {})
-        location_str = f"{location.get('city', '')}, {location.get('country', '')}".strip(", ")
-        if not location_str:
-            location_str = "Remote"
-        remote = job.get("remote", False) or "remote" in location_str.lower()
-
-        jobs.append({
-            "id": f"wk-{subdomain}-{job.get('shortcode')}",
-            "company": company_name,
-            "title": job.get("title", ""),
-            "location": location_str,
-            "department": job.get("department", "General"),
-            "type": job.get("employment_type", "Full-time"),
-            "posted": job.get("published_on", "")[:10] if job.get("published_on") else "",
-            "url": job.get("url", f"https://apply.workable.com/{subdomain}/j/{job.get('shortcode')}/"),
-            "remote": remote,
-            "sector": COMPANY_SECTORS.get(company_name, "tech"),
-            "source": "workable",
-        })
-    return jobs
-
-
-def try_discover_job_board(company_name):
-    """
-    Attempt to discover job boards for companies without known platforms.
-    Tries Greenhouse then Lever using common board name variants.
-    """
-    base_name = re.sub(r'[^a-z0-9]', '', company_name.lower())
-    variants = [base_name]
-    for suffix in ['inc', 'corp', 'co', 'labs', 'ai', 'technologies', 'tech']:
-        if base_name.endswith(suffix):
-            variants.append(base_name[:-len(suffix)])
-
-    for variant in variants:
-        if not variant:
-            continue
-        resp = http_get_with_retry(
-            f"https://boards-api.greenhouse.io/v1/boards/{variant}/jobs",
-            timeout=5,
-            max_retries=1,
-        )
-        if resp and resp.status_code == 200:
-            try:
-                data = resp.json()
-                if data.get("jobs"):
-                    return ("greenhouse", variant)
-            except ValueError:
-                pass
-
-    for variant in variants:
-        if not variant:
-            continue
-        resp = http_get_with_retry(
-            f"https://api.lever.co/v0/postings/{variant}",
-            timeout=5,
-            max_retries=1,
-        )
-        if resp and resp.status_code == 200:
-            try:
-                data = resp.json()
-                if data:
-                    return ("lever", variant)
-            except ValueError:
-                pass
-
-    return None
-
-
-def fetch_rippling_jobs(company_name, board_slug):
-    """Fetch jobs from the Rippling ATS public board API (no dates exposed)."""
-    url = f"https://api.rippling.com/platform/api/ats/v1/board/{board_slug}/jobs"
-    resp = http_get_with_retry(url)
-    if resp is None or resp.status_code != 200:
-        return []
-    try:
-        data = resp.json()
-    except ValueError:
-        return []
-    if not isinstance(data, list):
-        return []
-    jobs = []
-    for job in data:
-        loc = (job.get("workLocation") or {}).get("label") or "Remote"
-        dept = (job.get("department") or {}).get("label") or "General"
-        jobs.append({
-            "id": f"rp-{board_slug}-{job.get('uuid') or job.get('id')}",
-            "company": company_name,
-            "title": job.get("name", "") or job.get("title", ""),
-            "location": loc,
-            "department": dept,
-            "type": "Full-time",
-            "posted": "",
-            "url": job.get("url", f"https://ats.rippling.com/{board_slug}/jobs"),
-            "remote": "remote" in loc.lower(),
-            "sector": COMPANY_SECTORS.get(company_name, "tech"),
-            "source": "rippling",
-        })
-    return jobs
-
-
-def fetch_bamboohr_jobs(company_name, subdomain):
-    """Fetch jobs from a BambooHR careers page (public JSON list)."""
-    url = f"https://{subdomain}.bamboohr.com/careers/list"
-    resp = http_get_with_retry(url)
-    if resp is None or resp.status_code != 200:
-        return []
-    try:
-        data = resp.json()
-    except ValueError:
-        return []
-    jobs = []
-    for job in (data.get("result") or []):
-        loc_d = job.get("location") or {}
-        loc = ", ".join(x for x in (loc_d.get("city"), loc_d.get("state")) if x) or ("Remote" if job.get("isRemote") else "")
-        jobs.append({
-            "id": f"bh-{subdomain}-{job.get('id')}",
-            "company": company_name,
-            "title": job.get("jobOpeningName", ""),
-            "location": loc,
-            "department": job.get("departmentLabel") or "General",
-            "type": job.get("employmentStatusLabel") or "Full-time",
-            "posted": (job.get("datePosted") or "")[:10],
-            "url": f"https://{subdomain}.bamboohr.com/careers/{job.get('id')}",
-            "remote": bool(job.get("isRemote")) or "remote" in loc.lower(),
-            "sector": COMPANY_SECTORS.get(company_name, "tech"),
-            "source": "bamboohr",
-        })
-    return jobs
+    return jb.fetch_workable(company_name, subdomain, COMPANY_SECTORS.get(company_name, "tech")) or []
 
 
 def fetch_company_jobs(args):
-    """Fetch jobs for a single company (used in parallel processing)."""
+    """(platform, company, slug) -> list of jobs ([] when the board is gone)."""
     platform, company_name, board_id = args
-
-    if platform == "greenhouse":
-        return fetch_greenhouse_jobs(company_name, board_id)
-    if platform == "lever":
-        return fetch_lever_jobs(company_name, board_id)
-    if platform == "ashby":
-        return fetch_ashby_jobs(company_name, board_id)
-    if platform == "workable":
-        return fetch_workable_jobs(company_name, board_id)
-    if platform == "rippling":
-        return fetch_rippling_jobs(company_name, board_id)
-    if platform == "bamboohr":
-        return fetch_bamboohr_jobs(company_name, board_id)
-    return []
+    jobs = jb.fetch_board(platform, company_name, board_id, COMPANY_SECTORS.get(company_name, "tech"))
+    return jobs or []
 
 
-def fetch_all_jobs():
-    """Fetch jobs from all tracked companies using parallel requests."""
-    all_jobs = []
-
-    tasks = []
-    tasks.extend([("greenhouse", name, board) for name, board in GREENHOUSE_COMPANIES])
-    tasks.extend([("lever", name, board) for name, board in LEVER_COMPANIES])
-    tasks.extend([("ashby", name, board) for name, board in ASHBY_COMPANIES])
-    tasks.extend([("workable", name, board) for name, board in WORKABLE_COMPANIES])
-
-    # Boards found by scripts/discover_job_boards.py — high-confidence entries only
-    # (a link on the company's own careers page, or a domain-derived slug the board echoes).
-    # Medium-confidence hits stay in data/pulse/job_boards_discovered.json for review.
+# ─── The pull ───
+def fetch_one(rec):
+    """Registry record -> (rec, jobs or None, seconds)."""
+    t0 = time.time()
     try:
-        with open(DATA_DIR / "pulse" / "job_boards_discovered.json") as _f:
-            _discovered = json.load(_f)
-        _have_company = {t[1] for t in tasks}
-        _have_slug = {(t[0], t[2]) for t in tasks}
-        _added = 0
-        for _rec in _discovered:
-            for _cand in _rec.get("candidates", []):
-                if _cand.get("confidence") != "high":
-                    continue
-                if _cand.get("platform") not in ("greenhouse", "lever", "ashby", "workable", "rippling", "bamboohr"):
-                    continue
-                if _rec["company"] in _have_company or (_cand["platform"], _cand["slug"]) in _have_slug:
-                    continue
-                tasks.append((_cand["platform"], _rec["company"], _cand["slug"]))
-                _have_company.add(_rec["company"])
-                _have_slug.add((_cand["platform"], _cand["slug"]))
-                _added += 1
-                break
-        if _added:
-            log.info(f"  + {_added} discovered boards from data/pulse/job_boards_discovered.json")
-    except (FileNotFoundError, ValueError):
-        pass
+        jobs = jb.fetch_board(rec["platform"], rec["company"], rec["slug"], COMPANY_SECTORS.get(rec["company"], "tech"))
+    except Exception as e:  # noqa: BLE001 — one bad board must not sink the pull
+        log.warning(f"  {rec['company']} ({rec['platform']}/{rec['slug']}): error {e}")
+        jobs = None
+    return rec, jobs, time.time() - t0
 
+
+def fetch_all_jobs(registry):
+    all_jobs, health, seen_ids = [], [], set()
     log.info("=" * 60)
-    log.info(f"Fetching jobs from {len(tasks)} known job boards...")
+    log.info(f"Fetching jobs from {len(registry)} boards ({len({r['company'] for r in registry})} companies)...")
     log.info("=" * 60)
-
-    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-        future_to_company = {
-            executor.submit(fetch_company_jobs, task): task[1] for task in tasks
-        }
-
-        completed = 0
-        for future in concurrent.futures.as_completed(future_to_company):
-            company = future_to_company[future]
-            completed += 1
-            try:
-                jobs = future.result()
-                if jobs:
-                    log.info(f"  [{completed}/{len(tasks)}] {company}: {len(jobs)} jobs")
-                    all_jobs.extend(jobs)
-                else:
-                    log.info(f"  [{completed}/{len(tasks)}] {company}: 0 jobs")
-            except Exception as e:
-                log.warning(f"  [{completed}/{len(tasks)}] {company}: Error - {e}")
-
-    # ─── Auto-discovery pass for companies from the master list not already covered ───
-    if MASTER_LIST:
-        covered_names = set(
-            name.lower()
-            for name, _ in (
-                GREENHOUSE_COMPANIES + LEVER_COMPANIES + ASHBY_COMPANIES + WORKABLE_COMPANIES
-            )
-        )
-        discovery_candidates = [
-            c for c in MASTER_LIST
-            if c["name"].lower() not in covered_names
-        ]
-        # Limit discovery to prevent rate-limit flooding
-        discovery_candidates = discovery_candidates[:50]
-        log.info(
-            f"Attempting job-board auto-discovery for "
-            f"{len(discovery_candidates)} companies from master list..."
-        )
-        discovered = 0
-        for company in discovery_candidates:
-            board = try_discover_job_board(company["name"])
-            if board:
-                platform, board_id = board
-                jobs = fetch_company_jobs((platform, company["name"], board_id))
-                if jobs:
-                    discovered += 1
-                    log.info(f"  discovered {platform}:{board_id} for {company['name']} -> {len(jobs)} jobs")
-                    all_jobs.extend(jobs)
-            time.sleep(0.2)
-        log.info(f"Auto-discovery added {discovered} companies.")
-
-    return all_jobs
+    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = [executor.submit(fetch_one, rec) for rec in registry]
+        for i, fut in enumerate(concurrent.futures.as_completed(futures), 1):
+            rec, jobs, secs = fut.result()
+            row = {"company": rec["company"], "platform": rec["platform"], "slug": rec["slug"]}
+            if jobs is None:
+                row.update(status="error", jobs=0)
+                log.info(f"  [{i}/{len(registry)}] {rec['company']}: board unreachable ({rec['platform']}/{rec['slug']})")
+            else:
+                fresh = [j for j in jobs if j["id"] not in seen_ids]
+                seen_ids.update(j["id"] for j in fresh)
+                all_jobs.extend(fresh)
+                row.update(status="ok" if fresh else "empty", jobs=len(fresh))
+                log.info(f"  [{i}/{len(registry)}] {rec['company']}: {len(fresh)} jobs ({rec['platform']}, {secs:.1f}s)")
+            health.append(row)
+    health.sort(key=lambda r: (r["company"].lower(), r["platform"]))
+    return all_jobs, health
 
 
-def aggregate_stats(jobs):
-    """Generate aggregate statistics."""
+def aggregate_stats(jobs, health):
     stats = {
         "totalJobs": len(jobs),
-        "companiesHiring": len(set(job["company"] for job in jobs)),
+        "companiesHiring": len({job["company"] for job in jobs}),
+        "boardsTotal": len(health),
+        "boardsOk": sum(1 for b in health if b["status"] == "ok"),
+        "boardsEmpty": sum(1 for b in health if b["status"] == "empty"),
+        "boardsError": sum(1 for b in health if b["status"] == "error"),
         "byCompany": {},
         "bySector": {},
+        "bySource": {},
         "byLocation": {},
         "remoteJobs": 0,
-        "lastUpdated": datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC"),
+        "lastUpdated": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
     }
-
     for job in jobs:
-        company = job["company"]
-        stats["byCompany"][company] = stats["byCompany"].get(company, 0) + 1
-
+        stats["byCompany"][job["company"]] = stats["byCompany"].get(job["company"], 0) + 1
         sector = job.get("sector", "tech")
         stats["bySector"][sector] = stats["bySector"].get(sector, 0) + 1
-
+        src = job.get("source", "")
+        stats["bySource"][src] = stats["bySource"].get(src, 0) + 1
         location = job.get("location", "")
         city = location.split(",")[0].strip() if "," in location else location
         stats["byLocation"][city] = stats["byLocation"].get(city, 0) + 1
-
         if job.get("remote"):
             stats["remoteJobs"] += 1
-
-    stats["jobsWithSalary"] = sum(
-        1 for j in jobs if j.get("salaryMin") or j.get("salaryMax")
-    )
-
+    stats["jobsWithSalary"] = sum(1 for j in jobs if j.get("salaryMin") or j.get("salaryMax"))
+    stats["boards"] = health
     return stats
 
 
 def save_to_json(data, filename):
-    """Save data to JSON file."""
     output_path = DATA_DIR / filename
     output_path.parent.mkdir(exist_ok=True)
-    with open(output_path, "w") as f:
-        json.dump(data, f, indent=2)
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
     log.info(f"Saved to {output_path}")
 
 
@@ -796,95 +161,87 @@ def save_status_metadata(filename, status, message):
     """Write a status metadata file instead of leaving empty arrays."""
     DATA_DIR.mkdir(exist_ok=True)
     output_path = DATA_DIR / filename
-    metadata = {
-        "status": status,
-        "message": message,
-        "timestamp": datetime.now().isoformat(),
-        "source": "fetch_jobs.py",
-        "data": []
-    }
-    with open(output_path, "w") as f:
+    metadata = {"status": status, "message": message, "timestamp": datetime.now().isoformat(), "source": "fetch_jobs.py", "data": []}
+    with open(output_path, "w", encoding="utf-8") as f:
         json.dump(metadata, f, indent=2)
     log.warning(f"Wrote status metadata to {output_path}: {status}")
 
 
 def generate_js_snippet(jobs, stats):
-    """Generate JavaScript code snippet for the website."""
-    jobs.sort(key=lambda x: x.get("posted", ""), reverse=True)
-
+    jobs = sorted(jobs, key=lambda x: x.get("posted", ""), reverse=True)
+    slim_stats = {k: v for k, v in stats.items() if k != "boards"}
     js_output = f"""// Auto-generated jobs data for The Innovators League
 // Last updated: {stats['lastUpdated']}
 // Total jobs: {stats['totalJobs']} across {stats['companiesHiring']} companies
 
-const JOBS_DATA = {json.dumps(jobs, indent=2)};
+const JOBS_DATA = {json.dumps(jobs, indent=2, ensure_ascii=False)};
 
-const JOBS_STATS = {json.dumps(stats, indent=2)};
+const JOBS_STATS = {json.dumps(slim_stats, indent=2, ensure_ascii=False)};
 """
     output_path = DATA_DIR / "jobs_auto.js"
-    with open(output_path, "w") as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write(js_output)
     log.info(f"Generated JS snippet at {output_path}")
 
 
-def main():
+def main(argv=None):
+    argv = sys.argv[1:] if argv is None else argv
+    only = platform = None
+    if "--only" in argv:
+        only = {x.strip() for x in argv[argv.index("--only") + 1].split(",")}
+    if "--platform" in argv:
+        platform = argv[argv.index("--platform") + 1]
+
+    registry = jb.load_registry()
+    if not registry:
+        log.error(f"No boards in {jb.REGISTRY_PATH} — run scripts/discover_job_boards.py first")
+        save_status_metadata("jobs_raw.json", "error", "job board registry missing or empty")
+        save_status_metadata("jobs_stats.json", "error", "job board registry missing or empty")
+        return
+    if only:
+        registry = [r for r in registry if r["company"] in only]
+    if platform:
+        registry = [r for r in registry if r["platform"] == platform]
+
+    by_platform = {}
+    for r in registry:
+        by_platform[r["platform"]] = by_platform.get(r["platform"], 0) + 1
     log.info("=" * 60)
     log.info("Jobs Aggregator for The Innovators League")
     log.info("=" * 60)
-    total_companies = (
-        len(GREENHOUSE_COMPANIES)
-        + len(LEVER_COMPANIES)
-        + len(ASHBY_COMPANIES)
-        + len(WORKABLE_COMPANIES)
-    )
-    log.info(f"Greenhouse companies: {len(GREENHOUSE_COMPANIES)}")
-    log.info(f"Lever companies: {len(LEVER_COMPANIES)}")
-    log.info(f"Ashby companies: {len(ASHBY_COMPANIES)}")
-    log.info(f"Workable companies: {len(WORKABLE_COMPANIES)}")
-    log.info(f"Master list companies available: {len(MASTER_LIST)}")
-    log.info(f"Total companies to fetch: {total_companies}")
-    log.info("=" * 60)
+    for p, n in sorted(by_platform.items(), key=lambda x: -x[1]):
+        log.info(f"  {p:16s} {n:4d} boards")
+    log.info(f"Total boards: {len(registry)} · companies: {len({r['company'] for r in registry})}")
 
     try:
-        jobs = fetch_all_jobs()
-    except Exception as e:
+        jobs, health = fetch_all_jobs(registry)
+    except Exception as e:  # noqa: BLE001
         log.error(f"Fatal error: {e}")
-        save_status_metadata(
-            "jobs_raw.json",
-            "error",
-            f"Fatal error during job aggregation: {e}",
-        )
-        save_status_metadata(
-            "jobs_stats.json",
-            "error",
-            f"Fatal error during job aggregation: {e}",
-        )
+        save_status_metadata("jobs_raw.json", "error", f"Fatal error during job aggregation: {e}")
+        save_status_metadata("jobs_stats.json", "error", f"Fatal error during job aggregation: {e}")
+        return
+
+    if only or platform:
+        # partial pull: print, don't overwrite the feed
+        log.info(f"Partial pull: {len(jobs)} jobs from {len(health)} boards (not written)")
+        for b in health:
+            log.info(f"  {b['status']:5s} {b['jobs']:5d}  {b['company']} ({b['platform']}/{b['slug']})")
         return
 
     log.info(f"Total jobs fetched: {len(jobs)}")
-
     if not jobs:
-        save_status_metadata(
-            "jobs_raw.json",
-            "no_results",
-            "All job board APIs returned zero results",
-        )
-        save_status_metadata(
-            "jobs_stats.json",
-            "no_results",
-            "All job board APIs returned zero results",
-        )
-        # Still write a minimal JS snippet so front-end doesn't crash
+        save_status_metadata("jobs_raw.json", "no_results", "All job board APIs returned zero results")
+        save_status_metadata("jobs_stats.json", "no_results", "All job board APIs returned zero results")
         js_path = DATA_DIR / "jobs_auto.js"
         DATA_DIR.mkdir(exist_ok=True)
-        with open(js_path, "w") as f:
+        with open(js_path, "w", encoding="utf-8") as f:
             f.write("// Jobs data — no results returned\n")
             f.write(f"// Last updated: {datetime.now().strftime('%Y-%m-%d')}\n")
             f.write("const JOBS_DATA = [];\n")
             f.write("const JOBS_STATS = { totalJobs: 0, companiesHiring: 0 };\n")
         return
 
-    stats = aggregate_stats(jobs)
-
+    stats = aggregate_stats(jobs, health)
     save_to_json(jobs, "jobs_raw.json")
     save_to_json(stats, "jobs_stats.json")
     generate_js_snippet(jobs, stats)
@@ -894,13 +251,11 @@ def main():
     log.info("=" * 60)
     log.info(f"Total Jobs: {stats['totalJobs']}")
     log.info(f"Companies Hiring: {stats['companiesHiring']}")
-    log.info(
-        f"Remote Jobs: {stats['remoteJobs']} "
-        f"({100 * stats['remoteJobs'] // max(1, len(jobs))}%)"
-    )
+    log.info(f"Boards: {stats['boardsOk']} ok · {stats['boardsEmpty']} empty · {stats['boardsError']} unreachable")
+    log.info(f"Remote Jobs: {stats['remoteJobs']} ({100 * stats['remoteJobs'] // max(1, len(jobs))}%)")
+    log.info("By source: " + ", ".join(f"{k} {v}" for k, v in sorted(stats["bySource"].items(), key=lambda x: -x[1])))
     log.info("Top 15 companies by open positions:")
-    sorted_companies = sorted(stats["byCompany"].items(), key=lambda x: -x[1])[:15]
-    for company, count in sorted_companies:
+    for company, count in sorted(stats["byCompany"].items(), key=lambda x: -x[1])[:15]:
         log.info(f"  {company}: {count} jobs")
 
 
