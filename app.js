@@ -2514,8 +2514,11 @@ document.addEventListener('DOMContentLoaded', () => {
       var el = document.getElementById(id);
       if (el) {
         lazyObserver.observe(el);
-      } else {
-        // Section not in DOM — init immediately as fallback (may be on another page)
+      } else if (!document.body.hasAttribute('data-til-no-fallback')) {
+        // Section not in DOM — init immediately as fallback (may be on another page).
+        // index.html, companies.html and lab.html (15 Oct 2026) opt out: their
+        // sections are split across pages by design, so the fallback would only
+        // throw on missing grids.
         lazySections[id].forEach(function(fn) { safeInit(fn); });
       }
     });
@@ -4223,7 +4226,7 @@ function initKeyboard() {
       const active = document.activeElement;
       if (active.tagName !== 'INPUT' && active.tagName !== 'TEXTAREA') {
         e.preventDefault();
-        document.getElementById('search-input').focus();
+        document.getElementById('search-input')?.focus();  // absent on the homepage, where home.js focuses the hero search
       }
     }
 

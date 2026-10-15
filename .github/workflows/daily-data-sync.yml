@@ -227,6 +227,12 @@ jobs:
       - name: Build the Wire + Radar (data/wire_auto.js)
         run: python3 scripts/build_wire.py || echo "::warning::wire build failed"
 
+      # Live numbers for the navigation panels and the homepage tool cards
+      # (data/nav_counts.json, fetched by nav.js on every page). Guarded like
+      # the wire: a failure leaves yesterday's counts in place.
+      - name: Build nav counts (data/nav_counts.json)
+        run: node scripts/build_nav_counts.js || echo "::warning::nav counts build failed"
+
       - name: Configure Git
         run: |
           git config user.name "TIL Data Bot"
