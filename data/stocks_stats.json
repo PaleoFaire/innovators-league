@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 3.53,
+      "avg_change": 0.79,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -17.39,
+      "avg_change": -15.44,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -15.06,
+      "avg_change": -13.77,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -21.29,
+      "avg_change": -15.6,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -17.1,
+      "avg_change": -16.28,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -21.64,
+      "avg_change": -14.82,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -3.31,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 4.27,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -6.25,
+      "avg_change": -6.12,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -13.29,
+      "avg_change": -10.78,
       "count": 3
     }
   },
@@ -64,52 +64,52 @@
       7.79
     ],
     [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      6.71
+    ],
+    [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      5.38
+      4.38
+    ],
+    [
+      "TEM",
+      "Tempus AI",
+      1.71
     ],
     [
       "PLTR",
       "Palantir",
-      3.53
-    ],
-    [
-      "9348.T",
-      "ispace",
-      -0.27
-    ],
-    [
-      "TSLA",
-      "Tesla",
-      -2.82
+      0.79
     ]
   ],
   "topLosers": [
     [
-      "SMR",
-      "NuScale Power",
-      -23.99
+      "RKLB",
+      "Rocket Lab",
+      -21.79
     ],
     [
-      "IONQ",
-      "IonQ",
-      -24.0
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      -24.92
+      "277810.KQ",
+      "Rainbow Robotics",
+      -22.71
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -30.52
+      -23.31
+    ],
+    [
+      "LNZA",
+      "LanzaTech",
+      -25.83
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -34.58
+      -26.45
     ]
   ],
-  "lastUpdated": "2026-10-15 12:42:23"
+  "lastUpdated": "2026-10-15 17:51:59"
 }
