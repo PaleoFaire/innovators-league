@@ -28,7 +28,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css?v=20261015">
-    <link rel="stylesheet" href="jobs-page.css?v=20261015">
+    <link rel="stylesheet" href="jobs-page.css?v=20261015b">
     <script src="config.js?v=20261015"></script>
     <script src="analytics.js?v=20260501"></script>
     <link rel="stylesheet" href="css/_tokens.css?v=20260501" />
@@ -236,6 +236,7 @@
                 <div class="stat">
                     <span class="stat-number" id="total-jobs">0</span>
                     <span class="stat-label">Open Positions</span>
+                    <span class="stat-sub" id="total-roles" title="Postings that are per-location copies of one role at one company count once"></span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat">
@@ -313,7 +314,7 @@
                         <label class="jb-toggle"><input type="checkbox" id="rail-stale"> Include postings idle for 90+ days</label>
                     </div>
                     <button type="button" class="jb-btn jb-btn-ghost" id="rail-reset">Reset filters</button>
-                    <div class="jb-rail-foot">Role, level and location are read from job titles and the League database — the ATS “department” field is blank on two-thirds of postings. Posted dates use the ATS first-published date where it exposes one. Clearance flags come from the posting text.</div>
+                    <div class="jb-rail-foot">Role, level and location are read from job titles and the League database — the ATS “department” field is blank on two-thirds of postings. Where a title carries no level word, the level comes from the years of experience the posting asks for (dotted underline). Salary ranges marked “from posting” are read from the text; hourly rates are annualised at 2,080 hours. Per-location copies of one role fold into a single row. Posted dates use the ATS first-published date where it exposes one. Clearance flags and deadlines come from the posting text.</div>
                 </details>
 
                 <!-- Results -->
@@ -550,8 +551,8 @@
     <script src="utils.js?v=20260501"></script>
     <script src="auth.js?v=20260501"></script>
     <script src="data.js?v=20260822"></script>
-    <script src="data/jobs_enriched.js?v=20261015"></script>
-    <script src="jobs.js?v=20261015"></script>
+    <script src="data/jobs_enriched.js?v=20261015b"></script>
+    <script src="jobs.js?v=20261015b"></script>
     <script src="data/founder_dna.js?v=20260501"></script>
     <script src="talent.js?v=20260501"></script>
     <script src="data/h1b_lca_auto.js?v=20260501"></script>

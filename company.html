@@ -32,7 +32,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="styles.css?v=20261015">
-    <link rel="stylesheet" href="company-profile.css?v=20260501">
+    <link rel="stylesheet" href="company-profile.css?v=20261015">
     <link rel="stylesheet" href="earnings-signals-page.css?v=20260501">
     <script src="config.js?v=20261015"></script>
     <script src="analytics.js?v=20260501"></script>
@@ -297,6 +297,20 @@
                         <div id="revenue-intel"></div>
                     </div>
                 </div>
+            </section>
+
+            <!-- SECTION B1: Open roles — live postings from the jobs board (data/jobs_company_index.js says
+                 whether this company has any; the 3 MB board file is only loaded when it does, as the block
+                 scrolls into view). Hidden for companies with no tracked postings. -->
+            <section class="profile-section profile-open-roles" id="profile-open-roles" style="display:none;">
+                <h2 class="section-title">
+                    <span class="section-icon">💼</span>
+                    Open Roles
+                    <span class="open-roles-count" id="open-roles-count"></span>
+                </h2>
+                <p class="open-roles-summary" id="open-roles-summary"></p>
+                <div class="open-roles-list" id="open-roles-list"><div class="no-data"><p>Loading postings…</p></div></div>
+                <a class="open-roles-link" id="open-roles-link" href="jobs.html">See all on the jobs board &rarr;</a>
             </section>
 
             <!-- SECTION B2: Company Timeline -->
@@ -695,7 +709,8 @@
     <script src="data/headcount_estimates_auto.js?v=20260501"></script>
     <script src="data/product_launches_auto.js?v=20260501"></script>
     <script src="app.js?v=20261015"></script>
-    <script src="company-profile.js?v=20260822"></script>
+    <script src="data/jobs_company_index.js?v=20261015"></script>
+    <script src="company-profile.js?v=20261015"></script>
     <script src="earnings-signals.js?v=20260501"></script>
     <script>
     /* Incumbent Signals widget bootstrap.

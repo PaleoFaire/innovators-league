@@ -32,10 +32,12 @@ jobs:
         run: python scripts/fetch_jobs.py
         continue-on-error: true
 
-      - name: Enrich jobs (role family, level, metro, hard-tech, clearance, IL30, recent raises)
-        # Deterministic given data/jobs_raw.json + data.js + data/deals_auto.json.
-        # Also refreshes data/jobs_desc_signals.json from the ATS boards whose
-        # job-id set changed (clearance / US-person signals, first_published).
+      - name: Enrich jobs (role family, level, metro, salary, clones, surges, IL30, recent raises)
+        # Deterministic given data/jobs_raw.json + data.js + data/deals_auto.json
+        # + data/jobs_history.json (new postings per day per company, which this
+        # step appends to). Also refreshes data/jobs_desc_signals.json from the
+        # ATS boards whose job-id set changed (clearance / US-person signals,
+        # first_published, salary ranges, years of experience, deadlines).
         run: python scripts/enrich_jobs.py
         continue-on-error: true
 
@@ -51,6 +53,7 @@ jobs:
         run: |
           ls -la data/jobs_auto.js data/jobs_raw.json data/jobs_stats.json \
                  data/jobs_enriched.json data/jobs_enriched.js data/jobs_desc_signals.json \
+                 data/jobs_company_index.js data/jobs_history.json \
                  data/stocks_auto.js data/public_multiples_auto.json data/public_multiples_auto.js 2>/dev/null || true
           head -3 data/jobs_auto.js 2>/dev/null || true
           head -2 data/jobs_enriched.js 2>/dev/null || true
@@ -66,6 +69,7 @@ jobs:
         run: |
           git add data/jobs_auto.js data/jobs_raw.json data/jobs_stats.json \
                   data/jobs_enriched.json data/jobs_enriched.js data/jobs_desc_signals.json \
+                  data/jobs_company_index.js data/jobs_history.json \
                   data/stocks_auto.js data/stocks_raw.json data/stocks_stats.json \
                   data/public_multiples_auto.json data/public_multiples_auto.js 2>/dev/null || true
           if git diff --staged --quiet; then

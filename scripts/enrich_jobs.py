@@ -28,14 +28,31 @@ Per job it adds:
                         active / TS-SCI / Secret clearance is required
   usPersonLikely        description says U.S. person / ITAR
   trades, internSummer2027, generalApplication   shelf flags
+  salaryMin/Max/Currency, salarySource   the fetcher's structured range, else
+                        the ATS compensation block (Ashby, Lever), else the
+                        range written in the posting text ("posting"); hourly
+                        rates are annualised at 2,080 h ("...-hourly")
+  yearsExperience, levelSource   "N+ years" from the text sets the level only
+                        where the title carried no level word
+  applicationDeadline, closingSoon   a dated deadline in the posting (or the
+                        Greenhouse field, which is never set) within 14 days
+  groupId, groupSize, groupPrimary, groupLocations   per-location clones of
+                        one role at one company fold into the newest posting
+  newThisWeek           the role's first posting is <= 7 days old (a new
+                        location added to an old role does not count)
+  companySurge          company posted >= 5 more roles in the last 14 days
+                        than in the 14 before, and at least 1.5x as many
 
 Outputs:
   data/jobs_enriched.json      full records (compact JSON)
   data/jobs_enriched.js        columnar version for the page (window.JOBS_V2)
-  data/jobs_desc_signals.json  description-signal cache (written by the
-                               fetch pass; also carries Greenhouse
-                               first_published dates, which are earlier
-                               than the updated_at the fetcher stores)
+  data/jobs_company_index.js   {company: [postings, roles, newest, surge, 14d]}
+                               for company pages (window.JOBS_COMPANY_INDEX)
+  data/jobs_history.json       new postings per day per company (120 days),
+                               the series behind the hiring-surge shelf
+  data/jobs_desc_signals.json  description cache (written by the fetch pass):
+                               clearance / US-person flags, Greenhouse
+                               first_published, salary, deadline, years
 
 Deterministic: same inputs + same --today -> byte-identical outputs. The
 only network step (the description pass, on by default) refreshes a
@@ -69,11 +86,20 @@ DEALS_PATH = DATA / "deals_auto.json"
 DATA_JS_PATH = ROOT / "data.js"
 MASTER_LIST_PATH = ROOT / "scripts" / "company_master_list.js"
 CACHE_PATH = DATA / "jobs_desc_signals.json"
+HISTORY_PATH = DATA / "jobs_history.json"
 OUT_JSON = DATA / "jobs_enriched.json"
 OUT_JS = DATA / "jobs_enriched.js"
+OUT_INDEX_JS = DATA / "jobs_company_index.js"
 
 STALE_DAYS = 90
 RAISED_WINDOW_DAYS = 90
+NEW_DAYS = 7                 # "new this week"
+CLOSING_DAYS = 14            # "closing soon": stated application deadline within this many days
+SURGE_WINDOW_DAYS = 14       # "hiring surge": postings in the last 14 days vs the 14 before
+SURGE_MIN_EXTRA = 5
+SURGE_RATIO = 1.5
+HISTORY_KEEP_DAYS = 120
+CACHE_VERSION = 3            # v3 rows: [flags, firstPublished, salaryMin, salaryMax, currency, salaryKind, deadline, years]
 TODAY_FALLBACK = datetime.now(timezone.utc).date()
 
 
@@ -126,8 +152,13 @@ METROS = OrderedDict([
     ("nyc",    "New York"),
     ("bos",    "Boston"),
     ("us",     "Other US"),
+    ("london", "London"),
+    ("munich", "Munich / Bavaria"),
+    ("paris",  "Paris"),
+    ("toronto", "Toronto"),
+    ("telaviv", "Tel Aviv / Israel"),
+    ("intl",   "Other international"),
     ("remote", "Remote"),
-    ("intl",   "International"),
 ])
 
 STAGE_GROUPS = OrderedDict([
@@ -225,7 +256,25 @@ FAMILY_RULES = [
     ("science", _rx(r"scientist|chemist|physicist|biolog|\bphd\b|postdoc|research associate|\blab (manager|lead|director|head|technician|tech|scientist|operations)|laboratory|\bchemistry\b|microbiolog|geolog|geophysic|geotherm|nuclear engineer|reactor|\bfuel (cycle|engineer|fabrication)|\bplasma|\bfusion\b|neuroscien|clinical|bioinformatic|genomic|protein|\bassay|formulation|process development|immunolog|oncolog|pharmacolog|pharmacist|toxicolog|histolog|\bcell (line|culture)|\bmedical\b|\bphysician|\bnurse|psychiatr|\btherapist|\bclinician|\bveterinar|animal|drug discovery|\bomics\b|\bcomputational (biolog|chem)|\bresearch\b|\bquantum\b|cryptograph|\bphysics\b|\bmetrolog|\bexploration|\beconomist|\bresearcher|shielding|radiation (effects|engineer)|neutronic|dosimetr|antibody|\bengineering (biolog|chem)")),
     ("software", _rx(r"software|\bswe\b|full[- ]?stack|back[- ]?end|front[- ]?end|\bweb\b|devops|site reliability|\bsre\b|\bcloud\b|platform engineer|infrastructure engineer|developer|\bdevex|kubernetes|distributed systems|compiler|\bhpc\b|simulation|\bsecurity engineer|application security|product security|\bcyber|\bapi\b|\bmobile (engineer|developer)|\bios\b|android|\bplatform\b|\bbackend|\bfrontend|\bobservability|\bdatabase|\bengineer, (platform|infrastructure|core)|\bcomputing\b|\bsystems software|\bnetworking\b|\bprogrammer|c\+\+|\bpython\b|\brust\b|\bgolang\b|\bjava\b|founding engineer|bring-?up engineer|\barchitecture engineer|performance (engineer|modeling)|devsecops|\bsalesforce\b|triage")),
     ("operations", _rx(r"operations|\bops\b|facilities|\bfacility\b|construction|site (manager|lead|supervisor|director)|maintenance|\bplant\b|environmental|sustainability|real estate|janitor|custodian|cafeteria|\bchef\b|\bcook\b|\bbarista|\bestimator|\bporter\b|launch site|\brange\b|\bsite\b|\bspecialist\b|\bcoordinator\b|\bsupervisor\b|\bassociate\b|\bgeneralist\b|\bmanager\b|\blead\b|\bdirector\b|\bhead of\b")),
-    ("engineering", _rx(r"\bengineer|\bengineering\b|\barchitect\b|\bdevelopment\b|\bdesign\b")),
+    # long-tail rules (evaluated after the main domains, before the bare-engineer catch-all)
+    ("it",            _rx(r"\bsap\b|data ?cent(?:er|re)|\bav (?:engineer|technician|specialist|lead)|audio[- ]?visual|\bitsm\b|\bservicenow\b|\bworkday (?:analyst|admin|engineer)")),
+    ("program",       _rx(r"projektleit|project ?leider|projectleider|chef de projet|jefe de proyecto|\bpm\b")),
+    ("supply",        _rx(r"\blsa\b|\bils\b|almac[eé]n|\blager\b|entrep[oô]t|logisti(?:k|que|ca)|einkauf|\bachat")),
+    ("gna",           _rx(r"\bhrbp\b|\bfso\b|\bitpso\b|facility security officer|assitant|investigator|trust (?:&|and) safety|comptab|contab|personalreferent|recursos humanos|ressources humaines|\bjurist|rechtsanwalt|\bpaie\b|\bnómina")),
+    ("sales",         _rx(r"producer\b|filmmaker|videograph|photograph|animator|\beditor\b|copywriter|journalist|(?<!technical )(?<!tech )writer\b|market development|\bvertrieb|\bventes?\b|\bventas\b|comercial|\bkundenb|\bcommerc")),
+    ("data",          _rx(r"knowledge engineer|ontology|earth observation|remote sensing|\bmetrics\b")),
+    ("ml",            _rx(r"\brobot|machine intelligence|\bautonom")),
+    ("systems",       _rx(r"integrator\b|design criteria|\bsystems?\b")),
+    ("controls",      _rx(r"\bic&e\b|\bi, ?c ?& ?e\b|automatisierung|automatis(?:me|ation)")),
+    ("electrical",    _rx(r"signal processing|signal chain|\bsi/pi\b|emulation|processor architect|cpu architect|soc architect|power distribution|ground power|[ée]lectronique|elektronik|elektrotechnik|elektro\b|\bel[eé]ctric|\bbatter")),
+    ("test",          _rx(r"industrial hygien|fire protection|regulatory engineer|qualification|\byield\b|qualit[éä]t|calidad|qualidade|\binspection\b|\bsafety\b|\bsecurity\b")),
+    ("manufacturing", _rx(r"panel builder|\bbuilder\b|driller|\bdrilling\b|rig hand|roustabout|fertigung|produktion|produção|producción|montage|\boperario|\boperador|\bopérat|\bsoudeur|\businage|\bfabrication\b|\bassembly\b|\bproduction\b|\bwarehouse\b")),
+    ("mechanical",    _rx(r"prototyp|powertrain|materials (?:&|and) process|\bm&p\b|m[ée]canique|mechanik|maschinenbau|konstrukt|critical lift|\bmaterials?\b|\bstructures?\b|\bthermal\b|\bfluid")),
+    ("science",       _rx(r"\bnuclear\b|chemical|hydrolog|geoscien|environmental scientist|histopath|patholog|\br&d\b|modell?ing engineer|analysis engineer|\bphysi|\bchemi|\bbiol|\bgeol|\blab\b|\bresearch")),
+    ("software",      _rx(r"\bsw\b|\bdev\b|security architect|\barchitect\b|telco|telecom|logiciel|entwickler|desarrollador|développeur|informatique|\bsoftware\b|\bprogramm|\bcoding\b|\bplatform\b|\binfrastructure\b|\bcloud\b|\bdata\b")),
+    ("fde",           _rx(r"service engineer|outcome engineer|resident engineer|\bfield\b|\bdeployment\b|\bcustomer\b")),
+    ("operations",    _rx(r"opera[çc][õo]es|operaciones|\bbetrieb|\boperations?\b|\bfacilit|\bsite\b")),
+    ("engineering",   _rx(r"\bengineer|\bengineering\b|\barchitect\b|\bdevelopment\b|\bdesign\b")),
 ]
 
 # A software title with a strongly specific domain word belongs to that domain
@@ -277,6 +326,16 @@ METRO_RULES = OrderedDict([
     ("nyc", _rx(r"\b(?:new york|nyc|manhattan|brooklyn|jersey city|hoboken|long island city|queens|glen cove|elizabeth, nj|newark, nj|secaucus|stamford|white plains|bronx|staten island|long island)\b")),
     ("bos", _rx(r"\b(?:boston|cambridge, ma|cambridge, massachusetts|lexington|waltham|bedford, ma|burlington, ma|massachusetts|somerville|watertown|billerica|woburn|wilmington, ma|charlestown|peabody|devens|ma|andover|lowell, ma|worcester|marlborough|natick|needham|quincy, ma|canton, ma|norwood|framingham|westford|chelmsford|bedford|burlington)\b")),
 ])
+
+# Non-US hubs big enough for their own chip; everything else abroad is "Other international".
+SUBMETRO_RULES = OrderedDict([
+    ("london",  _rx(r"\blondon\b(?!, (?:on|ontario|ky|kentucky))|greater london|\bhounslow\b|\bcroydon\b|\bhayes, (?:uk|london)|\bstratford, london|\bshoreditch\b|\bcanary wharf\b|\bking'?s cross\b|\bwestminster, london|\bsoho, london")),
+    ("munich",  _rx(r"\bmunich\b|\bmünchen\b|\bmuenchen\b|\bbavaria\b|\bbayern\b|\bparsdorf\b|\bottobrunn\b|\btaufkirchen\b|\bgilching\b|\baugsburg\b|\boberpfaffenhofen\b|\bgarching\b|\bunterschlei|\bfreising\b|\bingolstadt\b|\bnuremberg\b|\bnürnberg\b|\berlangen\b|\bregensburg\b|\blandshut\b|\bputzbrunn\b|\bgermering\b|\bweßling\b|\bwessling\b")),
+    ("paris",   _rx(r"\bparis\b(?!, (?:tx|texas|tn|tennessee|il|ky))|[îi]le-de-france|\baubervilliers\b|\bbic[êe]tre\b|\bmassy\b|\bsaclay\b|\bpalaiseau\b|\bversailles\b|\bboulogne-billancourt\b|\bissy-les-moulineaux\b|\bla d[ée]fense\b|\bnanterre\b|\bmontreuil\b|\bsaint-denis\b|\bcourbevoie\b|\bvitry-sur-seine\b|\borly\b|\bcr[ée]teil\b|\bbagneux\b|\bmeudon\b|\bv[ée]lizy\b|\bgennevilliers\b|\bivry-sur-seine\b|\bpantin\b|\brueil-malmaison\b|\bsuresnes\b|\bantony\b")),
+    ("toronto", _rx(r"\btoronto\b|\bgreater toronto|\bgta\b|\bmississauga\b|\bmarkham\b|\bvaughan\b|\bbrampton\b|\boakville\b|\bnorth york\b|\bscarborough, on|\betobicoke\b|\brichmond hill\b|\bburlington, on|\bhamilton, on|\bpickering, on|\bajax, on|\bwhitby, on|\boshawa\b|\bconcord, on")),
+    ("telaviv", _rx(r"\btel[- ]aviv\b|\bisrael\b|\bherzliya\b|\bramat gan\b|\bpetah tikva\b|\bpetach tikva\b|\brehovot\b|\bhaifa\b|\bjerusalem\b|\bbe'?er sheva\b|\bnetanya\b|\braanana\b|\bra'anana\b|\bkfar saba\b|\bhod hasharon\b|\byokneam\b|\bcaesarea\b|\bor yehuda\b|\bholon\b|\brosh ha'?ayin\b|\bmodi'?in\b")),
+])
+LOCATION_SPLIT = re.compile(r"\s*(?:;|\||//|/(?!\w*\d)|\bor\b|\band\b|&|\+|·|•)\s*")
 
 REMOTE_RX = _rx(r"\bremote\b|anywhere|work from home|\bwfh\b|distributed|worldwide")
 
@@ -506,6 +565,18 @@ def job_level(title):
 HQ_ONLY = _rx(r"^(?:[\w .&'-]+ )?(?:hq|headquarters|head office|office|on-?site|onsite)$")
 
 
+def _location_parts(low):
+    """[(offset, part)] for each place in a multi-location string; the whole string when there is one."""
+    parts, pos = [], 0
+    for m in LOCATION_SPLIT.finditer(low):
+        if m.start() > pos:
+            parts.append((pos, low[pos:m.start()]))
+        pos = m.end()
+    if pos < len(low):
+        parts.append((pos, low[pos:]))
+    return parts or [(0, low)]
+
+
 def job_metros(location, remote_flag, company_location=""):
     loc = (location or "").replace("\u202f", " ").replace("\xa0", " ").strip()
     low = re.sub(r"\s+", " ", loc.lower())
@@ -520,9 +591,14 @@ def job_metros(location, remote_flag, company_location=""):
         m = rx.search(low)
         if m:
             found.append((m.start(), code))
-    m = INTL_RX.search(low)
-    if m:
-        found.append((m.start(), "intl"))
+    # multi-location strings ("Austin, TX; Toronto, Ontario; Berlin") are judged part by part so a
+    # named hub does not swallow the other places, and "Other international" only covers the rest
+    for off, part in _location_parts(low):
+        sub = [(off + m.start(), code) for code, rx in SUBMETRO_RULES.items() for m in [rx.search(part)] if m]
+        found.extend(sub)
+        m = INTL_RX.search(part)
+        if m and not sub:
+            found.append((off + m.start(), "intl"))
     m = REMOTE_RX.search(low)
     if m or remote_flag:
         found.append((m.start() if m else 9999, "remote"))
@@ -572,6 +648,344 @@ def month_mid(ym):
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Posting-text parsers: salary, years of experience, application deadline
+# ─────────────────────────────────────────────────────────────────────────────
+
+HOURS_PER_YEAR = 2080          # pay-transparency hourly rates are annualised at 40 h x 52 wk
+SAL_ANNUAL_MIN, SAL_ANNUAL_MAX = 20_000, 2_000_000
+SAL_HOURLY_MIN, SAL_HOURLY_MAX = 10, 400
+SAL_MONTHLY_MIN, SAL_MONTHLY_MAX = 1_500, 60_000
+
+# salary kinds stored in the cache / enriched records
+SAL_NONE, SAL_ATS, SAL_TEXT, SAL_TEXT_RATE = 0, 1, 2, 3   # 3 = annualised from an hourly/monthly rate
+
+_CODES = r"usd|gbp|eur|cad|aud|chf|inr|sgd|nzd|jpy|sek|dkk|nok|pln|ils|krw|twd|mxn|brl|hkd|czk|huf|zar"
+_SYMBOL_CUR = {"$": "USD", "£": "GBP", "€": "EUR", "₹": "INR", "₪": "ILS", "us$": "USD", "c$": "CAD", "ca$": "CAD",
+               "a$": "AUD", "au$": "AUD", "nz$": "NZD", "s$": "SGD", "hk$": "HKD", "mx$": "MXN", "r$": "BRL"}
+
+
+def _money(i):
+    return (r"(?:(?P<pre%d>us\$|ca\$|au\$|nz\$|hk\$|mx\$|[acrs]\$|\$|£|€|₹|₪|(?:%s)\s?)\s?)?"
+            r"(?P<amt%d>\d{1,3}(?:[,.']\d{3})+(?:\.\d{1,2})?|\d+(?:\.\d{1,2})?)\s?(?P<k%d>k\b)?"
+            r"(?:\s?(?P<post%d>%s|€|£|\$))?") % (i, _CODES, i, i, i, _CODES)
+
+
+SAL_RANGE_RX = _rx(_money(0) + r"\s*(?:-|–|—|to|and|through|up to|or)\s*" + _money(1))
+SAL_SINGLE_RX = _rx(_money(0))
+SAL_HOURLY_AFTER = _rx(r"^[^.$£€]{0,45}?(?:\b(?:per|an|a)\s+(?:hour|hr)\b|/\s?(?:hour|hr)\b|hourly|usd hourly)")
+SAL_HOURLY_BEFORE = _rx(r"(?:hourly|per hour|/\s?(?:hour|hr)\b|hour(?:ly)?\s+(?:pay\s+|wage\s+)?(?:rate|range)|wage)[^.$£€]{0,40}$")
+SAL_MONTHLY_AFTER = _rx(r"^[^.$£€]{0,30}?(?:\b(?:per|a)\s+month\b|/\s?month\b|monthly)")
+SAL_MONTHLY_BEFORE = _rx(r"(?:monthly|per month|/month)[^.$£€]{0,30}$")
+SAL_NEGATIVE = _rx(r"bonus|stipend|equity|stock|option|rsu|relocation|allowance|budget|fund\b|revenue|raised|valuation|funding|"
+                   r"series [a-f]\b|quota|contract value|award|grant|reimburs|per diem|credit|insurance|401|deductible|premium|"
+                   r"tuition|referral|commission|signing|sign-on|retention|severance|\bdeal\b|\bacv\b|\barr\b|\bmrr\b|pipeline|"
+                   r"savings|\bcosts?\b|\bprice|\bfees?\b|loan|spend|worth|discount|gift|membership|subscription|voucher|"
+                   r"donat|mortgage|rent\b|cash out|lump sum|one-time|one time|monthly housing|book|wellness|learning|development budget|gym")
+SAL_POSITIVE = _rx(r"salary|base pay|base rate|base compensation|compensation|pay rate|pay range|pay scale|pay band|hourly rate|hourly range|"
+                   r"rate of pay|per hour|/\s?hour|an hour|/\s?hr\b|per year|/\s?yr\b|per annum|annual|annually|starting (?:pay|rate|salary|wage)|"
+                   r"\bwage|\bote\b|on-target|target earnings|remuneration|gehalt|salaire|salario|salário")
+SAL_BASE = _rx(r"\bbase\b")
+SAL_NEGATED = _rx(r"not include|excludes?|excluding|exclusive of|in addition to|does not|separate from|on top of|plus|as well as|and benefits|\+")
+SAL_UNIT_AFTER = _rx(r"^\s*(?:m|mm|million|b|bn|billion|t|trillion|%|percent|years?|yrs|months?|days?|weeks?|hours?(?!\s*(?:per|a|/)))\b")
+
+
+def _negative_context(before):
+    """True when the words just before an amount, in the same sentence, say bonus / equity / funding and nothing negates them."""
+    before = re.split(r"[.;!?]\s", before)[-1]
+    return bool(SAL_NEGATIVE.search(before)) and not SAL_NEGATED.search(before)
+
+
+def _to_number(amount, k_flag):
+    s = amount.replace("'", "")
+    if re.fullmatch(r"\d{1,3},\d{2}", s):           # "$180,00 - $230,000": a dropped zero
+        s = s.replace(",", "") + "0"
+    if re.fullmatch(r"\d{1,3}(?:[,.]\d{3})+(?:\.\d{1,2})?", s):
+        # grouped thousands ("150,000", "36.830", "120,000.00")
+        if re.fullmatch(r"\d{1,3}(?:[,.]\d{3})+", s):
+            s = re.sub(r"[,.]", "", s)
+        else:
+            head, _, dec = s.rpartition(".")
+            s = re.sub(r"[,.]", "", head) + "." + dec
+    try:
+        v = float(s)
+    except ValueError:
+        return None
+    if k_flag and v < 10_000:
+        v *= 1000
+    return v
+
+
+def _currency(*marks):
+    for m in marks:
+        if not m:
+            continue
+        m = m.strip().lower()
+        if m in _SYMBOL_CUR:
+            return _SYMBOL_CUR[m]
+        if re.fullmatch(_CODES, m):
+            return m.upper()
+        if m.endswith("$"):
+            return "USD"
+    return ""
+
+
+def _classify_amounts(lo, hi, before, after):
+    """-> (kind, annual_lo, annual_hi) or None. before/after = text around the match."""
+    if lo is None or hi is None:
+        return None
+    if lo > hi:
+        lo, hi = hi, lo
+    if lo <= 0:
+        return None
+    if hi >= SAL_ANNUAL_MIN:                               # nobody is paid $20,000 an hour
+        if hi <= SAL_ANNUAL_MAX and (lo == hi or hi / lo <= 6):
+            return (SAL_TEXT, round(lo), round(hi))
+        return None
+    hourly = bool(SAL_HOURLY_AFTER.search(after)) or bool(SAL_HOURLY_BEFORE.search(before))
+    monthly = not hourly and (bool(SAL_MONTHLY_AFTER.search(after)) or bool(SAL_MONTHLY_BEFORE.search(before)))
+    if hourly or (not monthly and hi <= SAL_HOURLY_MAX):
+        if SAL_HOURLY_MIN <= lo <= hi <= SAL_HOURLY_MAX and (lo == hi or hi / lo <= 6):
+            return (SAL_TEXT_RATE, round(lo * HOURS_PER_YEAR), round(hi * HOURS_PER_YEAR))
+        return None
+    if monthly and SAL_MONTHLY_MIN <= lo <= hi <= SAL_MONTHLY_MAX and (lo == hi or hi / lo <= 6):
+        return (SAL_TEXT_RATE, round(lo * 12), round(hi * 12))
+    return None
+
+
+def parse_salary_text(text):
+    """Salary range from posting prose -> (min, max, currency, kind) or None.
+
+    Looks for '$150,000 - $200,000', '$150K–$200K', 'USD 150,000 to 200,000',
+    '£70,000 - £90,000', hourly '$35 - $45 per hour' (annualised at 2,080 h,
+    kind SAL_TEXT_RATE) and single amounts next to a pay keyword. Amounts that
+    sit next to bonus / equity / funding / stipend words are ignored. When a
+    posting lists several ranges (levels, locations) the 'base' ones win,
+    then the overall min-max is taken if it is not absurdly wide.
+    """
+    if not text:
+        return None
+    cands = []   # (priority, kind, lo, hi, currency, span)
+    spans = []
+    for m in SAL_RANGE_RX.finditer(text):
+        before = text[max(0, m.start() - 70):m.start()]
+        after = text[m.end():m.end() + 60]
+        cur = _currency(m.group("pre0"), m.group("post0"), m.group("pre1"), m.group("post1"))
+        has_marker = bool(cur or m.group("k0") or m.group("k1"))
+        if not has_marker and not SAL_POSITIVE.search(before[-60:]):
+            continue
+        if _negative_context(before[-45:]) and not SAL_POSITIVE.search(before[-30:]):
+            continue
+        if SAL_UNIT_AFTER.search(after):
+            continue
+        res = _classify_amounts(_to_number(m.group("amt0"), m.group("k0")), _to_number(m.group("amt1"), m.group("k1")), before, after)
+        if not res:
+            continue
+        prio = 0 if SAL_BASE.search(before[-60:]) else (1 if SAL_POSITIVE.search(before[-90:] + " " + after[:25]) else 2)
+        cands.append((prio, res[0], res[1], res[2], cur or "USD", (m.start(), m.end())))
+        spans.append((m.start(), m.end()))
+    for m in SAL_SINGLE_RX.finditer(text):
+        if any(s <= m.start() < e for s, e in spans):
+            continue
+        cur = _currency(m.group("pre0"), m.group("post0"))
+        if not cur and not m.group("k0"):
+            continue
+        before = text[max(0, m.start() - 70):m.start()]
+        after = text[m.end():m.end() + 60]
+        if not (SAL_POSITIVE.search(before[-60:]) or SAL_POSITIVE.search(after[:30])):
+            continue
+        if _negative_context(before[-45:]) or SAL_NEGATIVE.search(after[:14]):
+            continue
+        if SAL_UNIT_AFTER.search(after):
+            continue
+        v = _to_number(m.group("amt0"), m.group("k0"))
+        res = _classify_amounts(v, v, before, after)
+        if not res:
+            continue
+        prio = 0 if SAL_BASE.search(before[-60:]) else 1
+        cands.append((prio, res[0], res[1], res[2], cur or "USD", (m.start(), m.end())))
+    if not cands:
+        return None
+    best = min(c[0] for c in cands)
+    pool = [c for c in cands if c[0] == best]
+    if any(c[1] == SAL_TEXT for c in pool):               # prefer annual figures over rates
+        pool = [c for c in pool if c[1] == SAL_TEXT]
+    pool.sort(key=lambda c: c[5][0])
+    first = pool[0]
+    lo, hi = min(c[2] for c in pool), max(c[3] for c in pool)
+    currencies = {c[4] for c in pool}
+    if len(currencies) > 1 or hi > 4 * max(lo, 1):
+        return (first[2], first[3], first[4], first[1])
+    return (lo, hi, first[4], first[1])
+
+
+YEARS_RX = _rx(r"(?<![\d.$£€/])(?<!\d-)(?<!\d–)(?P<a>\d{1,2})\s*(?:\+|plus)?\s*(?:(?:-|–|—|to|or)\s*(?P<b>\d{1,2})\s*\+?)?\s*\+?\s*(?:years?|yrs?)\b['’]?(?P<tail>.{0,70})")
+YEARS_TAIL_OK = _rx(r"^\s*(?:of\s+)?(?:[\w/&,'’()+-]+\s+){0,5}?(?:experience|exp\.|expertise|background|track record|working|building|developing|"
+                    r"designing|leading|managing|operating|programming|writing|selling|shipping|deploying|hands-on|work\b|in\s+(?:a|an|the)\b|"
+                    r"in\s+[\w/&-]+(?:\s+[\w/&-]+)?\s+(?:roles?|positions?|environments?|settings?|engineering|development|design|"
+                    r"manufacturing|operations|sales|research|industry|experience)|of\s+(?:relevant|professional|industry|hands|related|"
+                    r"progressive|direct|demonstrated|proven|practical|combined|prior|work|full)|as\s+an?\b)")
+YEARS_BEFORE_BAD = _rx(r"(?:founded|established|over the (?:past|last|next)|for the (?:past|last|next)|in the (?:past|last|next)|within|"
+                       r"warranty|history|ha[sv]e been|next|last|past|ago|every|each|first|after|more than\s*$|lasts?|duration|period|"
+                       r"term of|contract of|vest|runway|revenue|growth|age[sd]?\b|old\b|children|kids)\s*(?:\w+\s+)?$")
+YEARS_TAIL_BAD = _rx(r"^\s*(?:old|of age|ago|warranty|vesting|from now|in business|in operation|in the (?:industry|market|making)|"
+                     r"of (?:operation|history|growth|innovation|service|runway|funding|revenue|age|life|data)|or (?:older|younger)|"
+                     r"of (?:the|our|its) (?:company|business|program))")
+
+
+def parse_years_experience(text):
+    """First credible 'N+ years' / 'N-M years of experience' in the text -> int (0 = none found).
+
+    A range takes the midpoint (rounded down), so '2-5 years' reads as 3.
+    """
+    if not text:
+        return 0
+    for m in YEARS_RX.finditer(text):
+        a = int(m.group("a"))
+        b = int(m.group("b")) if m.group("b") else None
+        if a > 30 or (b is not None and (b > 40 or b < a)):
+            continue
+        before = text[max(0, m.start() - 45):m.start()]
+        tail = m.group("tail") or ""
+        if YEARS_BEFORE_BAD.search(before) or YEARS_TAIL_BAD.search(tail):
+            continue
+        strong = ("+" in m.group(0)[: m.start("tail") - m.start()] or b is not None
+                  or re.search(r"(?:minimum of|at least|min\.?|minimum|minimum experience:?|experience(?: level)?:|years of experience:)\s*$", before, re.I))
+        if not strong and not YEARS_TAIL_OK.search(tail):
+            continue
+        return (a + b) // 2 if b is not None else a
+    return 0
+
+
+def level_from_years(years, title):
+    """Years of experience -> level code, or '' when the title must keep the default.
+
+    0-2 junior, 3-4 mid, 5-7 senior, 8+ staff; 8+ stays mid for managers,
+    whose seniority the title already carries.
+    """
+    if not years:
+        return ""
+    t = (title or "").lower()
+    if years <= 2:
+        return "junior"
+    if years <= 4:
+        return "mid"
+    if years <= 7:
+        return "senior"
+    if re.search(r"\bmanager\b|\bdirector\b|\bhead\b", t):
+        return "mid"
+    return "staff"
+
+
+_MONTHS = r"jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:t(?:ember)?)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?"
+_MONTH_NUM = {m: i + 1 for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"])}
+DATE_RX = (r"(?:(?P<mon>" + _MONTHS + r")\.?\s+(?P<day>\d{1,2})(?:st|nd|rd|th)?(?:,?\s*(?P<year>20\d\d))?"
+           r"|(?P<day2>\d{1,2})(?:st|nd|rd|th)?\s+(?:of\s+)?(?P<mon2>" + _MONTHS + r")\.?(?:,?\s*(?P<year2>20\d\d))?"
+           r"|(?P<m3>\d{1,2})/(?P<d3>\d{1,2})/(?P<y3>20\d\d|\d\d)\b"
+           r"|(?P<y4>20\d\d)-(?P<m4>\d\d)-(?P<d4>\d\d)\b)"
+           r"(?![\d/-])")
+DEADLINE_RX = _rx(r"(?:deadline|applications?\s+(?:will\s+)?(?:be\s+)?(?:accepted|received|reviewed|considered|open|close[sd]?|closing|due)|"
+                  r"(?:posting|position|role|requisition|job|opening|req)\s+(?:will\s+)?(?:(?:be\s+)?(?:open|posted|accepting|available|live)|"
+                  r"close[sd]?|closing|remain\s+open|expire[sd]?|end[s]?)|apply\s+(?:by|before|no later than)|accepting\s+applications|"
+                  r"expected\s+to\s+close|close[sd]?\s+on|open\s+(?:until|through)|no\s+later\s+than)"
+                  r"(?P<gap>[^.;!?]{0,70}?)(?:" + DATE_RX + r")")
+
+
+def _resolve_date(m, today):
+    try:
+        if m.group("y4"):
+            return date(int(m.group("y4")), int(m.group("m4")), int(m.group("d4")))
+        if m.group("m3"):
+            y = int(m.group("y3"))
+            y = y + 2000 if y < 100 else y
+            return date(y, int(m.group("m3")), int(m.group("d3")))
+        mon = (m.group("mon") or m.group("mon2"))[:3].lower()
+        day = int(m.group("day") or m.group("day2"))
+        yr = m.group("year") or m.group("year2")
+        if yr:
+            return date(int(yr), _MONTH_NUM[mon], day)
+        # no year: the next occurrence, allowing a few weeks of grace for a deadline just passed
+        d = date(today.year, _MONTH_NUM[mon], day)
+        if (today - d).days > 45:
+            d = date(today.year + 1, _MONTH_NUM[mon], day)
+        return d
+    except (ValueError, KeyError, TypeError):
+        return None
+
+
+def parse_deadline(text, today):
+    """Explicit application deadline in the posting -> ISO date or ''.
+
+    'Applications will close on December 1, 2026', 'apply by 11/30/2026',
+    'accepting applications through October 31'. Sentences about tight
+    project deadlines carry no date and never match; 'open until filled'
+    has no date either.
+    """
+    if not text:
+        return ""
+    for m in DEADLINE_RX.finditer(text):
+        gap = (m.group("gap") or "").lower()
+        if re.search(r"rolling|until filled|none\b|n/a|not\s+have|no\s+deadline|project|delivery|milestone|launch|product|customer|"
+                     r"start|begin|join|commence|onboard|available", gap) or re.search(r"start\s+(?:date|no later)", text[max(0, m.start() - 40):m.start()], re.I):
+            continue
+        d = _resolve_date(m, today)
+        if not d:
+            continue
+        if (d - today).days < -60 or (d - today).days > 400:
+            continue
+        return d.isoformat()
+    return ""
+
+
+def ashby_compensation(job):
+    """Ashby ?includeCompensation=true tiers -> (min, max, currency, kind) or None."""
+    comp = job.get("compensation") or {}
+    annual, rates = [], []
+    for tier in comp.get("compensationTiers") or []:
+        for c in tier.get("components") or []:
+            if c.get("compensationType") != "Salary" or c.get("minValue") is None and c.get("maxValue") is None:
+                continue
+            lo = c.get("minValue") if c.get("minValue") is not None else c.get("maxValue")
+            hi = c.get("maxValue") if c.get("maxValue") is not None else c.get("minValue")
+            cur = (c.get("currencyCode") or "USD").upper()
+            iv = (c.get("interval") or "").upper()
+            if iv == "1 YEAR":
+                annual.append((lo, hi, cur))
+            elif iv == "1 HOUR":
+                rates.append((lo * HOURS_PER_YEAR, hi * HOURS_PER_YEAR, cur))
+            elif iv == "1 MONTH":
+                rates.append((lo * 12, hi * 12, cur))
+    pool = annual or rates
+    if not pool:
+        return None
+    cur = pool[0][2]
+    pool = [p for p in pool if p[2] == cur]
+    lo, hi = min(p[0] for p in pool), max(p[1] for p in pool)
+    if not (SAL_ANNUAL_MIN <= lo <= hi <= SAL_ANNUAL_MAX * 2):
+        return None
+    return (round(lo), round(hi), cur, SAL_ATS)
+
+
+def lever_salary(job):
+    """Lever salaryRange {min,max,currency,interval} -> (min, max, currency, kind) or None."""
+    sr = job.get("salaryRange") or {}
+    lo, hi = sr.get("min"), sr.get("max")
+    if lo is None and hi is None:
+        return None
+    lo = lo if lo is not None else hi
+    hi = hi if hi is not None else lo
+    iv = (sr.get("interval") or "").lower()
+    if "hour" in iv:
+        lo, hi = lo * HOURS_PER_YEAR, hi * HOURS_PER_YEAR
+    elif "month" in iv:
+        lo, hi = lo * 12, hi * 12
+    elif "week" in iv:
+        lo, hi = lo * 52, hi * 52
+    if not (SAL_ANNUAL_MIN <= lo <= hi <= SAL_ANNUAL_MAX * 2):
+        return None
+    return (round(lo), round(hi), (sr.get("currency") or "USD").upper(), SAL_ATS)
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # ATS description pass (clearance / US-person signals, Greenhouse first_published)
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -589,8 +1003,12 @@ def board_key(job):
 
 
 def _plain(html_text):
+    """HTML -> text. Greenhouse ships HTML-escaped HTML, so entities (&mdash;,
+    &nbsp;) survive the first unescape; a second pass after tag-stripping
+    turns them into the characters the salary and date regexes expect."""
     t = html.unescape(html_text or "")
     t = re.sub(r"<[^>]+>", " ", t)
+    t = html.unescape(t).replace("\xa0", " ")
     return re.sub(r"\s+", " ", t)
 
 
@@ -603,14 +1021,52 @@ def _signal_flags(text):
     return flags
 
 
-def fetch_board_signals(kind, slug):
-    """Return {job_id: [flags, first_published]} for one board, or None on failure."""
+def _signal_row(flags, first_published, salary, deadline, years):
+    smin, smax, cur, kind = salary if salary else (0, 0, "", SAL_NONE)
+    return [flags, first_published, smin, smax, cur, kind, deadline, years]
+
+
+def extract_board_signals(kind, slug, data, today):
+    """Pure: one board's API payload -> {job_id: signal row}. None when the payload is not a board."""
+    out = {}
+    if kind == "gh":
+        for j in (data or {}).get("jobs", []):
+            text = _plain(j.get("content", ""))
+            fp = (j.get("first_published") or "")[:10]
+            up = (j.get("updated_at") or "")[:10]
+            deadline = (j.get("application_deadline") or "")[:10]
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", deadline):
+                deadline = parse_deadline(text, today)
+            out[f"gh-{slug}-{j.get('id')}"] = _signal_row(_signal_flags(text), fp if fp and fp < up else "",
+                                                           parse_salary_text(text), deadline, parse_years_experience(text))
+    elif kind == "ab":
+        for j in (data or {}).get("jobs", []):
+            text = j.get("descriptionPlain") or _plain(j.get("descriptionHtml", ""))
+            out[f"ab-{slug}-{j.get('id')}"] = _signal_row(_signal_flags(text), "", ashby_compensation(j) or parse_salary_text(text),
+                                                           parse_deadline(text, today), parse_years_experience(text))
+    elif kind == "lv":
+        if not isinstance(data, list):
+            return None
+        for j in data:
+            parts = [j.get("descriptionPlain") or "", j.get("additionalPlain") or ""]
+            for lst in j.get("lists", []) or []:
+                parts.append(_plain(lst.get("content", "")))
+            text = " ".join(parts)
+            out[f"lv-{slug}-{j.get('id')}"] = _signal_row(_signal_flags(text), "", lever_salary(j) or parse_salary_text(text),
+                                                           parse_deadline(text, today), parse_years_experience(text))
+    else:
+        return None
+    return out
+
+
+def fetch_board_signals(kind, slug, today):
+    """Download one board and return {job_id: signal row}; {} for a vanished board, None on failure."""
     import requests  # only needed for the fetch pass
     headers = {"User-Agent": "InnovatorsLeague-JobsBot/1.0", "Accept": "application/json"}
     if kind == "gh":
         url = f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true"
     elif kind == "ab":
-        url = f"https://api.ashbyhq.com/posting-api/job-board/{slug}"
+        url = f"https://api.ashbyhq.com/posting-api/job-board/{slug}?includeCompensation=true"
     elif kind == "lv":
         url = f"https://api.lever.co/v0/postings/{slug}?mode=json"
     else:
@@ -626,32 +1082,14 @@ def fetch_board_signals(kind, slug):
                 data = r.json()
             except ValueError:
                 return None
-            out = {}
-            if kind == "gh":
-                for j in data.get("jobs", []):
-                    fp = (j.get("first_published") or "")[:10]
-                    up = (j.get("updated_at") or "")[:10]
-                    out[f"gh-{slug}-{j.get('id')}"] = [_signal_flags(_plain(j.get("content", ""))), fp if fp and fp < up else ""]
-            elif kind == "ab":
-                for j in data.get("jobs", []):
-                    text = j.get("descriptionPlain") or _plain(j.get("descriptionHtml", ""))
-                    out[f"ab-{slug}-{j.get('id')}"] = [_signal_flags(text), ""]
-            else:
-                if not isinstance(data, list):
-                    return None
-                for j in data:
-                    parts = [j.get("descriptionPlain") or "", j.get("additionalPlain") or ""]
-                    for lst in j.get("lists", []) or []:
-                        parts.append(_plain(lst.get("content", "")))
-                    out[f"lv-{slug}-{j.get('id')}"] = [_signal_flags(" ".join(parts)), ""]
-            return out
+            return extract_board_signals(kind, slug, data, today)
         if r.status_code in (404, 410):
             return {}
         time.sleep(2 * (attempt + 1))
     return None
 
 
-def refresh_signal_cache(jobs, cache, force=False, limit=None, workers=8):
+def refresh_signal_cache(jobs, cache, today, force=False, limit=None, workers=8):
     """Re-fetch boards whose job-id set changed since the cache was written."""
     boards = {}
     for j in jobs:
@@ -671,7 +1109,7 @@ def refresh_signal_cache(jobs, cache, force=False, limit=None, workers=8):
     print(f"[enrich] description pass: {len(boards)} boards, {len(todo)} need fetching")
     ok = fail = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
-        futs = {ex.submit(fetch_board_signals, bk[0], bk[1]): (bk, key, h) for bk, key, h in todo}
+        futs = {ex.submit(fetch_board_signals, bk[0], bk[1], today): (bk, key, h) for bk, key, h in todo}
         for fut in concurrent.futures.as_completed(futs):
             bk, key, h = futs[fut]
             try:
@@ -686,9 +1124,9 @@ def refresh_signal_cache(jobs, cache, force=False, limit=None, workers=8):
             prefix = f"{bk[0]}-{bk[1]}-"
             for jid in [k for k in cache["jobs"] if k.startswith(prefix)]:
                 del cache["jobs"][jid]
-            for jid, (flags, fp) in res.items():
-                if flags or fp:
-                    cache["jobs"][jid] = [flags, fp]
+            for jid, row in res.items():
+                if row[0] or row[1] or row[5] or row[6] or row[7]:
+                    cache["jobs"][jid] = row
             cache["boards"][key] = {"ids": h, "n": len(res)}
     live_keys = {f"{bk[0]}:{bk[1]}" for bk in boards}
     for key in [k for k in cache["boards"] if k not in live_keys]:
@@ -696,8 +1134,108 @@ def refresh_signal_cache(jobs, cache, force=False, limit=None, workers=8):
     live_ids = {j["id"] for j in jobs}
     for jid in [k for k in cache["jobs"] if k not in live_ids]:
         del cache["jobs"][jid]
-    print(f"[enrich]   fetched {ok} boards, {fail} failed, {len(cache['jobs'])} jobs with signals or earlier publish dates cached")
+    print(f"[enrich]   fetched {ok} boards, {fail} failed, {len(cache['jobs'])} jobs with signals, salary, deadline or publish dates cached")
     return ok, fail
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Per-location clones and the posting history used for hiring surges
+# ─────────────────────────────────────────────────────────────────────────────
+
+SHIFT_SEGMENT = _rx(r"^(?:(?:\d(?:st|nd|rd|th)|first|second|third|1|2|3|4|a|b|c|d|day|days|night|nights|swing|weekend|weekends|mid|multiple|all|rotating|various|flex)\s*shifts?|"
+                    r"shift\s*[a-d1-4]?|nights?|days?|weekends?|overnight|rotating|weekend days|day/night|nights & weekends|all shifts)$")
+GENDER_SEGMENT = _rx(r"^\(?[mfwdhx](?:\s*/\s*[mfwdhx]){1,3}\)?$|^h/f$|^all genders$|^alle geschlechter$")
+TRAILING_SEGMENT = re.compile(r"\s*(?:[-–—|:,]\s*|\()([^-–—|:,()]+)\)?\s*$")
+
+
+def _is_location_segment(seg):
+    low = seg.lower().strip()
+    if not low or low in UNSPECIFIED or len(low) > 60:
+        return False
+    if REMOTE_RX.search(low) or HQ_ONLY.search(low):
+        return True
+    if any(rx.search(low) for rx in METRO_RULES.values()) or any(rx.search(low) for rx in SUBMETRO_RULES.values()):
+        return True
+    return bool(INTL_RX.search(low) or US_RX.search(low))
+
+
+def group_key(title):
+    """Title -> key shared by per-location / per-shift clones of the same role.
+
+    Case, whitespace and punctuation are folded; trailing segments naming a
+    place ("- Hawthorne, CA", "(Redmond)"), a shift ("- 2nd Shift") or a
+    gender marker ("(m/f/d)") are stripped; team or product segments like
+    "(Starlink)" or "(Summer 2027)" are kept because those are different roles.
+    """
+    t = norm_title(title)
+    for _ in range(3):
+        m = TRAILING_SEGMENT.search(t)
+        if not m or m.start() == 0:
+            break
+        seg = m.group(1).strip()
+        if _is_location_segment(seg) or SHIFT_SEGMENT.search(seg) or GENDER_SEGMENT.search(seg):
+            t = t[:m.start()].rstrip()
+        else:
+            break
+    t = re.sub(r"\((?:[mfwdhx](?:\s*/\s*[mfwdhx]){1,3})\)", " ", t, flags=re.I)
+    key = re.sub(r"[^a-z0-9+#&/ ]", " ", t.lower())
+    return re.sub(r"\s+", " ", key).strip()
+
+
+def load_history():
+    if HISTORY_PATH.exists():
+        try:
+            h = json.loads(HISTORY_PATH.read_text(encoding="utf-8"))
+            if isinstance(h, dict) and h.get("version") == 1 and isinstance(h.get("days"), dict):
+                return h
+        except ValueError:
+            pass
+    return {"version": 1, "days": {}}
+
+
+def update_history(history, out_jobs, today):
+    """Fold today's live postings into the per-day, per-company count of new postings.
+
+    A posting first published on day D is counted under D; the stored value is
+    the max ever seen for (D, company), so postings that close a few days later
+    still count for the day they appeared. Days older than HISTORY_KEEP_DAYS
+    are dropped. Idempotent: running twice on the same input changes nothing.
+    """
+    days = history.setdefault("days", {})
+    counts = Counter()
+    for j in out_jobs:
+        if j["posted"] and (today - date.fromisoformat(j["posted"])).days <= HISTORY_KEEP_DAYS:
+            counts[(j["posted"], j["company"])] += 1
+    for (day, company), n in counts.items():
+        row = days.setdefault(day, {})
+        if n > row.get(company, 0):
+            row[company] = n
+    cutoff = date.fromordinal(today.toordinal() - HISTORY_KEEP_DAYS).isoformat()
+    for day in [d for d in days if d < cutoff]:
+        del days[day]
+    history["days"] = OrderedDict(sorted(days.items()))
+    return history
+
+
+def surge_counts(history, today):
+    """{company: (postings in the last 14 days, postings in the 14 before)} from the history."""
+    recent_from = date.fromordinal(today.toordinal() - SURGE_WINDOW_DAYS).isoformat()
+    prior_from = date.fromordinal(today.toordinal() - 2 * SURGE_WINDOW_DAYS).isoformat()
+    recent, prior = Counter(), Counter()
+    for day, row in history.get("days", {}).items():
+        if day > today.isoformat():
+            continue
+        if day > recent_from:
+            for c, n in row.items():
+                recent[c] += n
+        elif day > prior_from:
+            for c, n in row.items():
+                prior[c] += n
+    return {c: (recent[c], prior[c]) for c in set(recent) | set(prior)}
+
+
+def is_surge(recent, prior):
+    return recent - prior >= SURGE_MIN_EXTRA and recent >= SURGE_RATIO * prior
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -752,18 +1290,20 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
     raised_cutoff = date.fromordinal(today.toordinal() - RAISED_WINDOW_DAYS)
 
     # description-signal cache
-    cache = {"version": 2, "boards": {}, "jobs": {}}
+    cache = {"version": CACHE_VERSION, "boards": {}, "jobs": {}}
     if CACHE_PATH.exists():
         try:
             loaded = json.loads(CACHE_PATH.read_text(encoding="utf-8"))
-            if loaded.get("version") == 2:
+            if loaded.get("version") == CACHE_VERSION:
                 cache = loaded
+            else:
+                print(f"[enrich] description cache is v{loaded.get('version')}, want v{CACHE_VERSION}: every board will be re-fetched")
         except ValueError:
             pass
     cache_touched = False
     if fetch:
         try:
-            refresh_signal_cache(raw, cache, force=force_fetch, limit=fetch_limit)
+            refresh_signal_cache(raw, cache, today, force=force_fetch, limit=fetch_limit)
             cache_touched = True
         except Exception as e:  # noqa: BLE001 — never let the network break the build
             print(f"[enrich] description pass skipped: {e}")
@@ -812,9 +1352,10 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
     for j in raw:
         title = norm_title(j.get("title"))
         comp = companies[j.get("company") or ""]
-        sig = desc_signals.get(j.get("id")) or [0, ""]
+        sig = list(desc_signals.get(j.get("id")) or [])
+        sig += [0, "", 0, 0, "", SAL_NONE, "", 0][len(sig):]
         updated = parse_date(j.get("posted"))           # the ATS "last activity" date the fetcher stores
-        first_pub = parse_date(sig[1]) if len(sig) > 1 and sig[1] else None
+        first_pub = parse_date(sig[1]) if sig[1] else None
         posted = first_pub if first_pub and (not updated or first_pub < updated) else updated
         days = (today - posted).days if posted else None
         if days is not None and days < 0:
@@ -824,12 +1365,31 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
             upd_days = 0
         fam = role_family(title)
         lvl = job_level(title)
+        level_source = "title" if lvl != "mid" else "default"
+        years = int(sig[7] or 0)
+        if level_source == "default" and years and fam != "general":
+            from_years = level_from_years(years, title)
+            if from_years:
+                lvl, level_source = from_years, "description"
         db_rec = db.get(comp["canonical"])
         metros = job_metros(j.get("location"), j.get("remote"), db_rec["location"] if db_rec else "")
         remote = bool(j.get("remote")) or "remote" in metros
         clearance = bool(CLEARANCE_TITLE.search(title)) or bool(sig[0] & 1)
         us_person = bool(sig[0] & 2)
         trades = fam not in ROLE_FAMILY_SKIP_TRADES and bool(TRADES.search(title)) and lvl != "intern"
+        # salary: the fetcher's structured range first, then the ATS compensation block (Ashby, Lever),
+        # then the range written in the posting text. Hourly figures are annualised at 2,080 h.
+        sal_min, sal_max, sal_cur, sal_source = None, None, None, ""
+        rmin, rmax = j.get("salaryMin") or 0, j.get("salaryMax") or 0
+        if rmax and SAL_HOURLY_MIN <= rmax <= SAL_HOURLY_MAX and rmin <= rmax:
+            sal_min, sal_max, sal_cur, sal_source = (rmin or rmax) * HOURS_PER_YEAR, rmax * HOURS_PER_YEAR, j.get("salaryCurrency") or "USD", "ats-hourly"
+        elif rmax >= SAL_ANNUAL_MIN or rmin >= SAL_ANNUAL_MIN:
+            sal_min, sal_max, sal_cur, sal_source = rmin or None, rmax or None, j.get("salaryCurrency") or "USD", "ats"
+        elif sig[5]:
+            sal_min, sal_max, sal_cur = sig[2] or None, sig[3] or None, sig[4] or "USD"
+            sal_source = {SAL_ATS: "ats", SAL_TEXT: "posting", SAL_TEXT_RATE: "posting-hourly"}.get(sig[5], "posting")
+        deadline = sig[6] or ""
+        deadline_days = (date.fromisoformat(deadline) - today).days if deadline else None
         out_jobs.append({
             "id": j.get("id"),
             "company": comp["name"],
@@ -841,9 +1401,14 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
             "url": j.get("url") or "",
             "source": j.get("source") or "",
             "remote": remote,
-            "salaryMin": j.get("salaryMin"),
-            "salaryMax": j.get("salaryMax"),
-            "salaryCurrency": j.get("salaryCurrency"),
+            "salaryMin": sal_min,
+            "salaryMax": sal_max,
+            "salaryCurrency": sal_cur,
+            "salarySource": sal_source,
+            "yearsExperience": years or None,
+            "levelSource": level_source,
+            "applicationDeadline": deadline,
+            "closingSoon": bool(deadline_days is not None and 0 <= deadline_days <= CLOSING_DAYS),
             "sector": comp["sector"],
             "roleFamily": fam,
             "level": lvl,
@@ -860,11 +1425,43 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
             "trades": trades,
             "internSummer2027": lvl == "intern" and bool(SUMMER_2027.search(title)),
             "generalApplication": fam == "general",
+            "groupKey": group_key(title),
         })
 
     # deterministic order: newest first (undated last), then company, title, id
     out_jobs.sort(key=lambda x: (x["posted"] == "", x["company"].lower(), x["title"].lower(), x["id"]))
     out_jobs.sort(key=lambda x: x["posted"] or "0000", reverse=True)
+
+    # per-location clones: same company + same normalised title -> one row (the newest posting) that
+    # carries the others; every posting keeps its own id and URL so the row can expand to them
+    groups = OrderedDict()
+    for x in out_jobs:
+        groups.setdefault((x["company"], x["groupKey"]), []).append(x)
+    for members in groups.values():
+        members.sort(key=lambda x: (x["posted"] or "0000", bool(x["salaryMin"] or x["salaryMax"]), x["id"]), reverse=True)
+        primary = members[0]
+        first_posted = min((x["posted"] for x in members if x["posted"]), default="")
+        for x in members:
+            x["groupPrimary"] = x is primary
+            x["newThisWeek"] = bool(first_posted and (today - date.fromisoformat(first_posted)).days <= NEW_DAYS)
+            if x is not primary:
+                x["groupId"] = primary["id"]          # clones point at their primary; primaries are their own group
+        primary["groupSize"] = len(members)
+        primary["groupFirstPosted"] = first_posted
+        primary["groupLocations"] = sorted({m["location"] for m in members if m["location"]})
+        primary["groupMetros"] = sorted({mm for m in members for mm in m["metros"]})
+    for x in out_jobs:
+        del x["groupKey"]
+
+    # hiring surge: new postings per company in the last 14 days vs the 14 before, from the history file
+    history = update_history(load_history(), out_jobs, today)
+    surge = surge_counts(history, today)
+    roles = Counter(x["company"] for x in out_jobs if x["groupPrimary"])
+    for c in companies.values():
+        rec, pri = surge.get(c["name"], (0, 0))
+        c["recent14"], c["prior14"], c["surge"] = rec, pri, is_surge(rec, pri)
+        c["roles"] = roles.get(c["name"], 0)
+        c["newestPosted"] = max((x["posted"] for x in out_jobs if x["company"] == c["name"]), default="")
 
     totals = {
         "jobs": len(out_jobs),
@@ -881,11 +1478,26 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
         "trades": sum(1 for x in out_jobs if x["trades"]),
         "descriptionSignals": sum(1 for v in desc_signals.values() if v and v[0]),
         "boardsWithDescriptions": len(cache.get("boards", {})),
+        "withSalaryStructured": sum(1 for x in out_jobs if x["salarySource"] in ("ats", "ats-hourly")),
+        "withSalaryFromPosting": sum(1 for x in out_jobs if x["salarySource"] in ("posting", "posting-hourly")),
+        "withSalaryHourly": sum(1 for x in out_jobs if x["salarySource"] in ("ats-hourly", "posting-hourly")),
+        "levelFromTitle": sum(1 for x in out_jobs if x["levelSource"] == "title"),
+        "levelFromDescription": sum(1 for x in out_jobs if x["levelSource"] == "description"),
+        "levelDefault": sum(1 for x in out_jobs if x["levelSource"] == "default"),
+        "roles": sum(1 for x in out_jobs if x["groupPrimary"]),
+        "clones": sum(1 for x in out_jobs if not x["groupPrimary"]),
+        "newThisWeek": sum(1 for x in out_jobs if x["groupPrimary"] and x["newThisWeek"]),
+        "withDeadline": sum(1 for x in out_jobs if x["applicationDeadline"]),
+        "closingSoon": sum(1 for x in out_jobs if x["groupPrimary"] and x["closingSoon"]),
+        "surgeCompanies": sum(1 for c in companies.values() if c["surge"]),
+        "surgeJobs": sum(1 for x in out_jobs if x["groupPrimary"] and companies[x["company"]]["surge"]),
         "lastUpdated": stats.get("lastUpdated", ""),
     }
     coverage = {
         "roleFamily": Counter(x["roleFamily"] for x in out_jobs),
         "level": Counter(x["level"] for x in out_jobs),
+        "levelSource": Counter(x["levelSource"] for x in out_jobs),
+        "salarySource": Counter(x["salarySource"] or "none" for x in out_jobs),
         "metro": Counter(m for x in out_jobs for m in x["metros"]),
         "metroUnresolved": sum(1 for x in out_jobs if not x["metros"]),
         "sector": Counter(x["sector"] for x in out_jobs),
@@ -897,6 +1509,9 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
         ("source", "data/jobs_raw.json"),
         ("staleAfterDays", STALE_DAYS),
         ("raisedWindowDays", RAISED_WINDOW_DAYS),
+        ("newDays", NEW_DAYS),
+        ("closingDays", CLOSING_DAYS),
+        ("surgeWindowDays", SURGE_WINDOW_DAYS),
         ("totals", totals),
         ("families", FAMILIES),
         ("levels", LEVELS),
@@ -908,6 +1523,8 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
     ])
     OUT_JSON.write_text(json.dumps(enriched, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     write_compact_js(enriched)
+    write_company_index(enriched)
+    HISTORY_PATH.write_text(json.dumps(history, separators=(",", ":"), sort_keys=True) + "\n", encoding="utf-8")
     if cache_touched:
         cache["updated"] = today.isoformat()
         CACHE_PATH.write_text(json.dumps(cache, separators=(",", ":"), sort_keys=True) + "\n", encoding="utf-8")
@@ -940,16 +1557,24 @@ def write_compact_js(enriched):
     comp_rows = []
     for c in enriched["companies"]:
         comp_index[c["name"]] = len(comp_rows)
-        flags = (1 if c["il30"] else 0) | (2 if c["isHardTech"] else 0) | (4 if c["inDatabase"] else 0)
+        flags = (1 if c["il30"] else 0) | (2 if c["isHardTech"] else 0) | (4 if c["inDatabase"] else 0) | (8 if c["surge"] else 0)
         r = c["raised"] or {}
         comp_rows.append([c["name"], sectors.index(c["sector"]), stage_codes.index(c["stageGroup"]), flags,
                           r.get("amount", ""), r.get("round", ""), r.get("month", ""), c["fundingStage"], c["jobs"],
-                          c["canonical"] if c["canonical"] != c["name"] else ""])
+                          c["canonical"] if c["canonical"] != c["name"] else "",
+                          c["recent14"], c["prior14"], c["roles"]])
+    row_index = {}
+    for i, j in enumerate(enriched["jobs"]):
+        if j["groupPrimary"]:
+            row_index[j["id"]] = i
     job_rows = []
     for j in enriched["jobs"]:
         flags = ((1 if j["remote"] else 0) | (2 if j["stale"] else 0) | (4 if j["clearanceLikely"] else 0)
                  | (8 if j["usPersonLikely"] else 0) | (16 if j["trades"] else 0) | (32 if j["internSummer2027"] else 0)
-                 | (64 if j["generalApplication"] else 0))
+                 | (64 if j["generalApplication"] else 0)
+                 | (128 if j["salarySource"] in ("posting", "posting-hourly") else 0)
+                 | (256 if j["salarySource"] in ("ats-hourly", "posting-hourly") else 0)
+                 | (512 if j["levelSource"] == "description" else 0))
         job_rows.append([
             j["id"], comp_index[j["company"]], j["title"], j["location"], j["posted"], canonical_url(j),
             fam_codes.index(j["roleFamily"]), lvl_codes.index(j["level"]), ",".join(j["metros"]),
@@ -957,11 +1582,16 @@ def write_compact_js(enriched):
             currencies.index(j["salaryCurrency"]) if j["salaryCurrency"] in currencies else 0,
             flags, j["postedDaysAgo"] if j["postedDaysAgo"] is not None else -1,
             j["updatedDaysAgo"] if j["updatedDaysAgo"] is not None else -1,
+            -1 if j["groupPrimary"] else row_index[j["groupId"]],
+            j["applicationDeadline"],
         ])
     payload = OrderedDict([
         ("generated", enriched["generated"]),
         ("staleAfterDays", STALE_DAYS),
         ("raisedWindowDays", RAISED_WINDOW_DAYS),
+        ("newDays", NEW_DAYS),
+        ("closingDays", CLOSING_DAYS),
+        ("surgeWindowDays", SURGE_WINDOW_DAYS),
         ("totals", enriched["totals"]),
         ("families", [[k, v] for k, v in FAMILIES.items()]),
         ("levels", [[k, v] for k, v in LEVELS.items()]),
@@ -969,8 +1599,8 @@ def write_compact_js(enriched):
         ("stages", [[k, v] for k, v in STAGE_GROUPS.items()]),
         ("sectors", sectors),
         ("currencies", currencies),
-        ("companyFields", ["name", "sector", "stage", "flags", "raisedAmount", "raisedRound", "raisedMonth", "fundingStage", "jobs", "canonical"]),
-        ("jobFields", ["id", "company", "title", "location", "posted", "url", "family", "level", "metros", "salaryMin", "salaryMax", "currency", "flags", "daysAgo", "updatedDaysAgo"]),
+        ("companyFields", ["name", "sector", "stage", "flags", "raisedAmount", "raisedRound", "raisedMonth", "fundingStage", "jobs", "canonical", "recent14", "prior14", "roles"]),
+        ("jobFields", ["id", "company", "title", "location", "posted", "url", "family", "level", "metros", "salaryMin", "salaryMax", "currency", "flags", "daysAgo", "updatedDaysAgo", "group", "deadline"]),
         ("companies", comp_rows),
         ("jobs", job_rows),
     ])
@@ -978,10 +1608,29 @@ def write_compact_js(enriched):
     OUT_JS.write_text(
         "// Auto-generated by scripts/enrich_jobs.py — do not edit by hand.\n"
         f"// Generated {enriched['generated']} · {enriched['totals']['jobs']} jobs across {enriched['totals']['companies']} companies\n"
-        "// Row layouts: see companyFields / jobFields. Company flags: 1=IL30 2=hard-tech 4=in database.\n"
-        "// Job flags: 1=remote 2=stale 4=clearance 8=US person 16=trades 32=summer-2027 intern 64=general application.\n"
+        "// Row layouts: see companyFields / jobFields. Company flags: 1=IL30 2=hard-tech 4=in database 8=hiring surge.\n"
+        "// Job flags: 1=remote 2=stale 4=clearance 8=US person 16=trades 32=summer-2027 intern 64=general application\n"
+        "//   128=salary parsed from the posting text 256=salary annualised from an hourly rate (2,080 h) 512=level read from years of experience.\n"
+        "// group: -1 for a role's primary row, else the index of the primary row this posting is a per-location clone of.\n"
         "// An empty url means the ATS default, rebuilt from the id on the page.\n"
         "window.JOBS_V2 = " + body + ";\n",
+        encoding="utf-8",
+    )
+
+
+def write_company_index(enriched):
+    """Small per-company index for company pages: load the 3 MB board only when a company has postings."""
+    index = {}
+    for c in enriched["companies"]:
+        row = [c["jobs"], c["roles"], c["newestPosted"], (1 if c["surge"] else 0), c["recent14"]]
+        index[c["canonical"]] = row
+        if c["name"] != c["canonical"]:
+            index[c["name"]] = row
+    body = json.dumps(OrderedDict(sorted(index.items())), ensure_ascii=False, separators=(",", ":"))
+    OUT_INDEX_JS.write_text(
+        "// Auto-generated by scripts/enrich_jobs.py — do not edit by hand.\n"
+        f"// Generated {enriched['generated']} · company -> [postings, distinct roles, newest posted, hiring surge, postings in last 14 days]\n"
+        "window.JOBS_COMPANY_INDEX = " + body + ";\n",
         encoding="utf-8",
     )
 
@@ -997,8 +1646,14 @@ def print_summary(enriched):
     print(f"[enrich] role family resolved {100*(n-other)//n}% (other={other}); metro resolved {100*(n-cov['metroUnresolved'])//n}% (unresolved={cov['metroUnresolved']})")
     print("[enrich] families: " + ", ".join(f"{k}={v}" for k, v in sorted(cov["roleFamily"].items(), key=lambda kv: -kv[1])))
     print("[enrich] levels: " + ", ".join(f"{k}={v}" for k, v in cov["level"].items()))
+    print(f"[enrich] level source: title {t['levelFromTitle']} · description {t['levelFromDescription']} · default {t['levelDefault']} "
+          f"(explicit {100*(t['levelFromTitle']+t['levelFromDescription'])//n}%)")
+    print(f"[enrich] salary: structured {t['withSalaryStructured']} · from posting text {t['withSalaryFromPosting']} · of which hourly annualised {t['withSalaryHourly']} "
+          f"· total {t['withSalary']} ({100*t['withSalary']//n}%)")
+    print(f"[enrich] roles {t['roles']} (clones folded: {t['clones']}) · new this week {t['newThisWeek']} · deadlines {t['withDeadline']} (closing soon {t['closingSoon']}) "
+          f"· surge companies {t['surgeCompanies']} ({t['surgeJobs']} roles)")
     print("[enrich] metros: " + ", ".join(f"{k}={v}" for k, v in sorted(cov["metro"].items(), key=lambda kv: -kv[1])))
-    print(f"[enrich] wrote {OUT_JSON.name} ({OUT_JSON.stat().st_size//1024} KB) and {OUT_JS.name} ({OUT_JS.stat().st_size//1024} KB)")
+    print(f"[enrich] wrote {OUT_JSON.name} ({OUT_JSON.stat().st_size//1024} KB), {OUT_JS.name} ({OUT_JS.stat().st_size//1024} KB), {OUT_INDEX_JS.name} ({OUT_INDEX_JS.stat().st_size//1024} KB), {HISTORY_PATH.name}")
 
 
 def main(argv=None):

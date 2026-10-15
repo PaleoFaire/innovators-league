@@ -2,13 +2,19 @@
  * Jobs Board v2 — The ROS Innovators League
  *
  * Reads window.JOBS_V2 (data/jobs_enriched.js, built by scripts/enrich_jobs.py)
- * and renders: six curated shelves, a synonym-aware search box, four primary
+ * and renders: nine curated shelves, a synonym-aware search box, four primary
  * chip rows (what I do / where / which kind of company / level) with live
  * counts, a secondary filter rail, and a newest-first list with a per-company
  * cap and a group-by-company view.
  *
- * Also exposes JOBS_DATA / JOBS_STATS (expanded from the compact rows) so the
- * untouched Talent Intelligence tab (talent.js) keeps working.
+ * Postings that are per-location clones of one role (same company, same
+ * normalised title) arrive pre-grouped: the primary row carries the others
+ * and expands to the individual postings. Chips, shelves and the results
+ * count all count roles (grouped rows); the hero keeps the raw postings count.
+ *
+ * Also exposes JOBS_DATA / JOBS_STATS (one record per posting, expanded from
+ * the compact rows) so the untouched Talent Intelligence tab (talent.js)
+ * keeps working.
  */
 (function () {
   'use strict';
@@ -27,9 +33,13 @@
   }
 
   // ─── Constants ────────────────────────────────────────────────────────────
-  var F = { REMOTE: 1, STALE: 2, CLEARANCE: 4, USPERSON: 8, TRADES: 16, SUMMER27: 32, GENERAL: 64 };
-  var CF = { IL30: 1, HARDTECH: 2, INDB: 4 };
+  var F = { REMOTE: 1, STALE: 2, CLEARANCE: 4, USPERSON: 8, TRADES: 16, SUMMER27: 32, GENERAL: 64, SALTEXT: 128, SALHOURLY: 256, LVLDESC: 512 };
+  var CF = { IL30: 1, HARDTECH: 2, INDB: 4, SURGE: 8 };
   var STALE_DAYS = D.staleAfterDays || 90;
+  var NEW_DAYS = D.newDays || 7;
+  var CLOSING_DAYS = D.closingDays || 14;
+  var SURGE_DAYS = D.surgeWindowDays || 14;
+  var HOURS_PER_YEAR = 2080;
   var PAGE = 50;
   var GROUP_PAGE = 12;
   var COMPANY_CAP = 20;
@@ -101,7 +111,9 @@
     'simulation': ['simulation', 'sim'], 'materials': ['material'], 'chemist': ['chem'], 'chemistry': ['chem'], 'physicist': ['physic'], 'physics': ['physic'],
     'scientist': ['scientist', 'research'], 'research': ['research', 'scientist'], 'phd': ['phd', 'postdoc', 'research'],
     'starlink': ['starlink'], 'starship': ['starship'], 'spacex': ['spacex'], 'anduril': ['anduril'],
-    'london': ['london', 'uk'], 'uk': ['uk', 'london', 'united kingdom', 'england'], 'germany': ['germany', 'munich', 'berlin'], 'europe': ['europe', 'germany', 'uk', 'france', 'international'],
+    'london': ['london'], 'uk': ['uk', 'london', 'united kingdom', 'england'], 'germany': ['germany', 'munich', 'berlin', 'bavaria'], 'munich': ['munich', 'bavaria'],
+    'paris': ['paris'], 'france': ['france', 'paris'], 'toronto': ['toronto'], 'canada': ['canada', 'toronto'], 'tel aviv': ['tel aviv', 'israel'], 'israel': ['israel', 'tel aviv'],
+    'europe': ['europe', 'germany', 'uk', 'france', 'international', 'london', 'munich', 'paris'], 'international': ['international', 'london', 'munich', 'paris', 'toronto', 'tel aviv'],
     'sf': ['sf bay', 'san francisco'], 'bay area': ['sf bay', 'bay area', 'san francisco'], 'la': ['los angeles'], 'nyc': ['new york'], 'dc': ['washington dc', 'washington, dc'], 'texas': ['texas', 'austin'], 'austin': ['austin', 'texas'], 'seattle': ['seattle'], 'boston': ['boston'], 'denver': ['denver', 'colorado'], 'colorado': ['colorado', 'denver']
   };
 
@@ -114,9 +126,9 @@
   var companies = D.companies.map(function (r, i) {
     return {
       i: i, name: r[0], sector: SECTORS[r[1]] || 'Other', stage: STAGES[r[2]] ? STAGES[r[2]][0] : 'other',
-      il30: !!(r[3] & CF.IL30), hardTech: !!(r[3] & CF.HARDTECH), inDb: !!(r[3] & CF.INDB),
+      il30: !!(r[3] & CF.IL30), hardTech: !!(r[3] & CF.HARDTECH), inDb: !!(r[3] & CF.INDB), surge: !!(r[3] & CF.SURGE),
       raisedAmount: r[4] || '', raisedRound: r[5] || '', raisedMonth: r[6] || '', fundingStage: r[7] || '', jobs: r[8] || 0,
-      canonical: r[9] || r[0]
+      canonical: r[9] || r[0], recent14: r[10] || 0, prior14: r[11] || 0, roles: r[12] || r[8] || 0
     };
   });
 
@@ -131,13 +143,14 @@
     return '';
   }
 
+  function utcOf(iso) { var p = iso.split('-'); return Date.UTC(+p[0], +p[1] - 1, +p[2]); }
   function daysSince(posted, fallback) {
     if (!posted) return fallback >= 0 ? fallback : -1;
-    var p = posted.split('-');
-    var t = Date.UTC(+p[0], +p[1] - 1, +p[2]);
-    return Math.max(0, Math.round((todayUTC - t) / MS_DAY));
+    return Math.max(0, Math.round((todayUTC - utcOf(posted)) / MS_DAY));
   }
+  function daysUntil(iso) { return iso ? Math.round((utcOf(iso) - todayUTC) / MS_DAY) : null; }
 
+  // one record per posting
   var jobs = D.jobs.map(function (r, i) {
     var c = companies[r[1]];
     var fam = FAMILIES[r[6]] ? FAMILIES[r[6]][0] : 'other';
@@ -149,14 +162,53 @@
     return {
       i: i, id: r[0], c: c, title: r[2], location: r[3], posted: r[4], url: atsUrl(r[0], r[5]),
       fam: fam, lvl: lvl, metros: metros, salMin: r[9], salMax: r[10], cur: D.currencies[r[11]] || 'USD',
+      salText: !!(flags & F.SALTEXT), salHourly: !!(flags & F.SALHOURLY), lvlDesc: !!(flags & F.LVLDESC),
       days: days, updDays: updDays, stale: !!(flags & F.STALE) || updDays > STALE_DAYS,
       remote: !!(flags & F.REMOTE), clearance: !!(flags & F.CLEARANCE), usPerson: !!(flags & F.USPERSON),
       trades: !!(flags & F.TRADES), summer27: !!(flags & F.SUMMER27), general: !!(flags & F.GENERAL),
-      hay: (r[2] + ' ' + c.name + ' ' + r[3] + ' ' + (famLabel[fam] || '') + ' ' + (lvlLabel[lvl] || '') + ' ' + c.sector + ' ' + metros.map(function (m) { return metroLabel[m] || ''; }).join(' ')).toLowerCase()
+      group: typeof r[15] === 'number' ? r[15] : -1, deadline: r[16] || '', deadlineDays: daysUntil(r[16] || '')
     };
   });
 
-  // Talent tab compatibility (talent.js reads JOBS_DATA / JOBS_STATS)
+  // Fold per-location clones into their primary row. The primary is the newest posting of the
+  // role; it keeps every member so the row can expand, filters on the union of their metros, and
+  // only counts as stale when every posting is.
+  function uniq(arr) { var seen = {}, out = []; arr.forEach(function (v) { if (v && !seen[v]) { seen[v] = 1; out.push(v); } }); return out; }
+  var rows = [];
+  jobs.forEach(function (j) { if (j.group < 0) { j.members = [j]; rows.push(j); } });
+  jobs.forEach(function (j) {
+    if (j.group >= 0) {
+      var p = jobs[j.group];
+      if (p && p.members) { p.members.push(j); j.primary = p; }
+      else { j.members = [j]; rows.push(j); }
+    }
+  });
+  rows.forEach(function (r) {
+    var ms = r.members;
+    r.n = ms.length;
+    r.locations = uniq(ms.map(function (m) { return m.location; }));
+    r.allMetros = uniq([].concat.apply([], ms.map(function (m) { return m.metros; })));
+    r.firstDays = -1;
+    ms.forEach(function (m) { if (m.days > r.firstDays) r.firstDays = m.days; });
+    r.anyStale = r.stale; r.stale = ms.every(function (m) { return m.stale; });
+    r.remote = ms.some(function (m) { return m.remote; });
+    r.clearance = ms.some(function (m) { return m.clearance; });
+    r.usPerson = ms.some(function (m) { return m.usPerson; });
+    if (!(r.salMin || r.salMax)) {
+      var w = null; ms.forEach(function (m) { if (!w && (m.salMin || m.salMax)) w = m; });
+      if (w) { r.salMin = w.salMin; r.salMax = w.salMax; r.cur = w.cur; r.salText = w.salText; r.salHourly = w.salHourly; }
+    }
+    var dd = null, dIso = '';
+    ms.forEach(function (m) { if (m.deadlineDays !== null && m.deadlineDays >= 0 && (dd === null || m.deadlineDays < dd)) { dd = m.deadlineDays; dIso = m.deadline; } });
+    r.deadlineDays = dd; r.deadline = dIso;
+    r.isNew = r.firstDays >= 0 && r.firstDays <= NEW_DAYS;
+    r.closing = dd !== null && dd <= CLOSING_DAYS;
+    r.hay = (r.title + ' ' + r.c.name + ' ' + r.locations.join(' ') + ' ' + (famLabel[r.fam] || '') + ' ' + (lvlLabel[r.lvl] || '') + ' ' + r.c.sector + ' ' +
+      r.allMetros.map(function (m) { return metroLabel[m] || ''; }).join(' ')).toLowerCase();
+  });
+  var rowByIndex = {}; rows.forEach(function (r, k) { rowByIndex[r.i] = k; });
+
+  // Talent tab compatibility (talent.js reads JOBS_DATA / JOBS_STATS): one record per posting
   (function exposeLegacy() {
     var byCompany = {}, bySector = {}, remote = 0;
     window.JOBS_DATA = jobs.map(function (j) {
@@ -172,18 +224,22 @@
   var state = defaultState();
   var shown = PAGE;
   var shownGroups = GROUP_PAGE;
+  var expanded = {}; // row index -> true while its postings list is open
 
   function defaultState() {
     return { q: '', family: [], metro: [], sector: [], level: [], stage: [], company: '', remote: false, salary: false, clearance: false, intern: false, il30: false, hardtech: true, posted: 0, stale: false, view: 'list', shelf: '' };
   }
 
   var SHELVES = [
+    { key: 'new', icon: '🆕', title: 'New this week', blurb: 'Roles first posted in the last ' + NEW_DAYS + ' days (a new location on an old role does not count)', test: function (j) { return j.isNew; }, apply: function (s) {} },
+    { key: 'surge', icon: '📈', title: 'Hiring surge', blurb: 'Companies that posted 50%+ more roles in the last ' + SURGE_DAYS + ' days than in the ' + SURGE_DAYS + ' before', test: function (j) { return j.c.surge; }, apply: function (s) {} },
     { key: 'trades', icon: '🔧', title: 'Hard-tech trades', blurb: 'Technicians, welders, machinists, electricians', test: function (j) { return j.trades && j.c.hardTech; }, apply: function (s) { s.hardtech = true; } },
     { key: 'interns', icon: '🎓', title: 'Summer 2027 internships', blurb: 'Posted for next summer, newest first', test: function (j) { return j.summer27; }, apply: function (s) { s.intern = true; } },
     { key: 'raised', icon: '💵', title: 'Raised this quarter', blurb: 'Companies that closed a round in the last ' + (D.raisedWindowDays || 90) + ' days', test: function (j) { return !!j.c.raisedMonth; }, apply: function (s) {} },
     { key: 'il30', icon: '🏆', title: 'IL30 hiring now', blurb: 'Open roles at the Innovators League 30', test: function (j) { return j.c.il30; }, apply: function (s) { s.il30 = true; } },
     { key: 'remote', icon: '🌐', title: 'Remote hard-tech', blurb: 'Remote-friendly roles at hardware companies', test: function (j) { return j.remote && j.c.hardTech; }, apply: function (s) { s.remote = true; s.hardtech = true; } },
-    { key: 'cleared', icon: '🛡️', title: 'Cleared roles', blurb: 'Postings that call for a security clearance', test: function (j) { return j.clearance; }, apply: function (s) { s.clearance = true; } }
+    { key: 'cleared', icon: '🛡️', title: 'Cleared roles', blurb: 'Postings that call for a security clearance', test: function (j) { return j.clearance; }, apply: function (s) { s.clearance = true; } },
+    { key: 'closing', icon: '⏳', title: 'Closing soon', blurb: 'Postings that state an application deadline within ' + CLOSING_DAYS + ' days (all sectors)', test: function (j) { return j.closing; }, apply: function (s) { s.hardtech = false; } }
   ];
   var shelfByKey = {};
   SHELVES.forEach(function (s) { shelfByKey[s.key] = s; });
@@ -219,7 +275,7 @@
     try { history.replaceState(null, '', url); } catch (e) { /* ignore */ }
   }
 
-  // ─── Filtering ────────────────────────────────────────────────────────────
+  // ─── Filtering (over grouped rows) ────────────────────────────────────────
   function queryTerms(q) {
     q = (q || '').trim().toLowerCase();
     if (!q) return [];
@@ -227,15 +283,17 @@
     return q.split(/\s+/).map(function (w) { return SYN[w] || [w]; });
   }
 
+  function isCompany(c, name) { return c.name === name || c.canonical === name; }
+
   // skip: facet key whose own selection is ignored (for counts)
   function matches(j, s, terms, skip) {
     if (skip !== 'family' && s.family.length && s.family.indexOf(j.fam) < 0) return false;
-    if (skip !== 'metro' && s.metro.length && !j.metros.some(function (m) { return s.metro.indexOf(m) >= 0; })) return false;
+    if (skip !== 'metro' && s.metro.length && !j.allMetros.some(function (m) { return s.metro.indexOf(m) >= 0; })) return false;
     if (skip !== 'sector' && s.sector.length && s.sector.indexOf(j.c.sector) < 0) return false;
     if (skip !== 'level' && s.level.length && s.level.indexOf(j.lvl) < 0) return false;
     if (skip !== 'stage' && s.stage.length && s.stage.indexOf(j.c.stage) < 0) return false;
-    if (s.company && j.c.name !== s.company) return false;
-    if (s.hardtech && !j.c.hardTech) return false;
+    if (s.company && !isCompany(j.c, s.company)) return false;
+    if (s.hardtech && !s.company && !j.c.hardTech) return false; // asking for one company shows it whatever its sector
     if (s.remote && !j.remote) return false;
     if (s.salary && !(j.salMin || j.salMax)) return false;
     if (s.clearance && !j.clearance) return false;
@@ -257,7 +315,7 @@
   function run() {
     var terms = queryTerms(state.q);
     var out = [];
-    for (var i = 0; i < jobs.length; i++) if (matches(jobs[i], state, terms, null)) out.push(jobs[i]);
+    for (var i = 0; i < rows.length; i++) if (matches(rows[i], state, terms, null)) out.push(rows[i]);
     // newest first; undated last; then company A–Z, title
     out.sort(function (a, b) {
       if (a.posted !== b.posted) { if (!a.posted) return 1; if (!b.posted) return -1; return a.posted < b.posted ? 1 : -1; }
@@ -270,10 +328,10 @@
 
   function facetCounts(key, terms) {
     var counts = {};
-    for (var i = 0; i < jobs.length; i++) {
-      var j = jobs[i];
+    for (var i = 0; i < rows.length; i++) {
+      var j = rows[i];
       if (!matches(j, state, terms, key)) continue;
-      if (key === 'metro') { for (var m = 0; m < j.metros.length; m++) counts[j.metros[m]] = (counts[j.metros[m]] || 0) + 1; }
+      if (key === 'metro') { for (var m = 0; m < j.allMetros.length; m++) counts[j.allMetros[m]] = (counts[j.allMetros[m]] || 0) + 1; }
       else if (key === 'family') counts[j.fam] = (counts[j.fam] || 0) + 1;
       else if (key === 'sector') counts[j.c.sector] = (counts[j.c.sector] || 0) + 1;
       else if (key === 'level') counts[j.lvl] = (counts[j.lvl] || 0) + 1;
@@ -285,37 +343,58 @@
   // Cap: no company shows more than COMPANY_CAP rows unless the reader asked for that company
   function capByCompany(list) {
     if (state.company || state.q) return { rows: list, capped: {} };
-    var seen = {}, rows = [], capped = {};
+    var seen = {}, out = [], capped = {};
     for (var i = 0; i < list.length; i++) {
       var j = list[i], n = seen[j.c.i] || 0;
-      if (n < COMPANY_CAP) { rows.push(j); seen[j.c.i] = n + 1; }
+      if (n < COMPANY_CAP) { out.push(j); seen[j.c.i] = n + 1; }
       else { capped[j.c.i] = (capped[j.c.i] || 0) + 1; }
     }
-    return { rows: rows, capped: capped };
+    return { rows: out, capped: capped };
   }
 
   // ─── Formatting ───────────────────────────────────────────────────────────
-  function money(v) {
-    if (v >= 1000000) return '$' + (v / 1000000).toFixed(1).replace(/\.0$/, '') + 'M';
-    if (v >= 1000) return '$' + Math.round(v / 1000) + 'K';
-    return '$' + v;
+  var CUR_SYMBOL = { USD: '$', GBP: '£', EUR: '€', CAD: 'C$', AUD: 'A$', SGD: 'S$', NZD: 'NZ$', INR: '₹', ILS: '₪', CHF: 'CHF ', PLN: 'zł', BRL: 'R$' };
+  function money(v, cur) {
+    var sym = CUR_SYMBOL[cur] || (cur ? cur + ' ' : '$');
+    if (v >= 1000000) return sym + (v / 1000000).toFixed(1).replace(/\.0$/, '') + 'M';
+    if (v >= 1000) return sym + Math.round(v / 1000) + 'K';
+    return sym + v;
   }
-  function salary(j) {
+  function hourly(v, cur) {
+    var sym = CUR_SYMBOL[cur] || '$';
+    var h = v / HOURS_PER_YEAR;
+    return sym + (h < 100 ? h.toFixed(h % 1 ? 2 : 0).replace(/\.00$/, '') : Math.round(h));
+  }
+  function salaryText(j) {
     if (!j.salMin && !j.salMax) return '';
-    var cur = j.cur && j.cur !== 'USD' ? ' ' + j.cur : '';
-    if (j.salMin && j.salMax) return money(j.salMin) + '–' + money(j.salMax) + cur;
-    if (j.salMin) return money(j.salMin) + '+' + cur;
-    return 'Up to ' + money(j.salMax) + cur;
+    if (j.salMin && j.salMax && j.salMin !== j.salMax) return money(j.salMin, j.cur) + '–' + money(j.salMax, j.cur);
+    if (j.salMin && j.salMax) return money(j.salMin, j.cur);
+    if (j.salMin) return money(j.salMin, j.cur) + '+';
+    return 'Up to ' + money(j.salMax, j.cur);
   }
-  function age(j) {
-    if (j.days < 0) return '';
-    if (j.days === 0) return 'Today';
-    if (j.days === 1) return '1d';
-    if (j.days < 14) return j.days + 'd';
-    if (j.days < 60) return Math.round(j.days / 7) + 'w';
-    return Math.round(j.days / 30) + 'mo';
+  function salaryHtml(j) {
+    var s = salaryText(j);
+    if (!s) return '';
+    var hint = '', title = 'Salary range provided by the ATS';
+    if (j.salHourly) {
+      var lo = j.salMin || j.salMax, hi = j.salMax || j.salMin;
+      hint = '≈ ' + hourly(lo, j.cur) + (hi !== lo ? '–' + hourly(hi, j.cur) : '') + '/hr';
+      title = 'Hourly rate annualised at ' + fmtN(HOURS_PER_YEAR) + ' hours' + (j.salText ? ', read from the posting text' : '');
+    } else if (j.salText) {
+      hint = 'from posting'; title = 'Range read from the posting text, not from a structured ATS field';
+    }
+    return '<span class="jb-sal" title="' + esc(title) + '">💰 ' + esc(s) + (hint ? ' <span class="jb-hint">' + esc(hint) + '</span>' : '') + '</span>';
+  }
+  function age(days) {
+    if (days < 0) return '';
+    if (days === 0) return 'Today';
+    if (days === 1) return '1d';
+    if (days < 14) return days + 'd';
+    if (days < 60) return Math.round(days / 7) + 'w';
+    return Math.round(days / 30) + 'mo';
   }
   var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  function shortDate(iso) { if (!iso) return ''; var p = iso.split('-'); return MONTHS[(+p[1] || 1) - 1] + ' ' + (+p[2]); }
   function raisedTag(c, long) {
     if (!c.raisedMonth) return '';
     var m = c.raisedMonth.split('-');
@@ -323,65 +402,99 @@
     var amt = c.raisedAmount ? 'raised ' + esc(c.raisedAmount) : 'raised';
     return '<span class="jb-tag jb-tag-raised" title="' + esc(c.raisedRound || 'Funding round') + ' ' + esc(c.raisedMonth) + '">💵 ' + amt + ' in ' + month + (long && c.raisedRound ? ' · ' + esc(c.raisedRound) : '') + '</span>';
   }
+  function surgeTag(c) {
+    if (!c.surge) return '';
+    return '<span class="jb-tag jb-tag-surge" title="' + fmtN(c.recent14) + ' roles posted in the last ' + SURGE_DAYS + ' days vs ' + fmtN(c.prior14) + ' in the ' + SURGE_DAYS + ' before">📈 hiring surge · ' + fmtN(c.recent14) + ' in ' + SURGE_DAYS + 'd</span>';
+  }
   function companyLink(c, cls) {
     if (!c.inDb) return '<span class="' + cls + '">' + esc(c.name) + '</span>';
     return '<a class="' + cls + '" href="company.html?name=' + encodeURIComponent(c.canonical) + '">' + esc(c.name) + '</a>';
   }
-  function levelText(j) { return j.lvl === 'mid' ? '' : (lvlLabel[j.lvl] || ''); }
+  function levelHtml(j) {
+    if (j.lvl === 'mid' && !j.lvlDesc) return '';
+    var label = lvlLabel[j.lvl] || '';
+    if (!label) return '';
+    if (j.lvlDesc) return '<span class="jb-lvl jb-lvl-desc" title="Level read from the years of experience the posting asks for; the title carries no level word">' + esc(label) + '</span>';
+    return '<span class="jb-lvl">' + esc(label) + '</span>';
+  }
+  function locationHtml(j) {
+    if (!j.locations.length) return '';
+    var first = j.locations[0];
+    var extra = j.locations.length - 1;
+    var html = '<span class="jb-loc">📍 ' + esc(first);
+    if (extra > 0) html += ' <button type="button" class="jb-expand" data-row="' + j.i + '" aria-expanded="' + (expanded[j.i] ? 'true' : 'false') + '">+' + extra + ' location' + (extra === 1 ? '' : 's') + '</button>';
+    else if (j.n > 1) html += ' <button type="button" class="jb-expand" data-row="' + j.i + '" aria-expanded="' + (expanded[j.i] ? 'true' : 'false') + '">' + j.n + ' postings</button>';
+    return html + '</span>';
+  }
+  function clonesHtml(j) {
+    if (j.n < 2) return '';
+    var items = j.members.slice().sort(function (a, b) { return a.posted === b.posted ? (a.location < b.location ? -1 : 1) : (a.posted < b.posted ? 1 : -1); }).map(function (m) {
+      return '<li><span class="jb-clone-loc">📍 ' + esc(m.location || 'Location not given') + '</span>' +
+        (m.stale ? '<span class="jb-pill jb-pill-stale">Older</span>' : '') +
+        '<span class="jb-clone-age" title="' + esc(m.posted || 'Date not provided by the ATS') + '">' + esc(age(m.days)) + '</span>' +
+        '<a class="jb-clone-apply" href="' + esc(m.url) + '" target="_blank" rel="noopener">Apply ↗</a></li>';
+    });
+    return '<ul class="jb-clones" id="jb-clones-' + j.i + '"' + (expanded[j.i] ? '' : ' hidden') + '>' + items.join('') + '</ul>';
+  }
 
   // ─── Rendering ────────────────────────────────────────────────────────────
   function rowHtml(j, compact) {
     var c = j.c;
     var meta2 = [];
-    if (j.location) meta2.push('<span class="jb-loc">📍 ' + esc(j.location) + '</span>');
-    var lt = levelText(j); if (lt) meta2.push('<span class="jb-lvl">' + esc(lt) + '</span>');
-    var sal = salary(j); if (sal) meta2.push('<span class="jb-sal">💰 ' + esc(sal) + '</span>');
+    var loc = locationHtml(j); if (loc) meta2.push(loc);
+    var lt = levelHtml(j); if (lt) meta2.push(lt);
+    var sal = salaryHtml(j); if (sal) meta2.push(sal);
+    if (j.isNew) meta2.push('<span class="jb-pill jb-pill-new" title="First posted ' + esc(age(j.firstDays) || 'this week') + ' ago">New</span>');
     if (j.remote) meta2.push('<span class="jb-pill jb-pill-remote">Remote</span>');
     if (j.clearance) meta2.push('<span class="jb-pill jb-pill-clear">Clearance</span>');
+    if (j.deadlineDays !== null && j.deadlineDays >= 0 && j.deadlineDays <= 60) meta2.push('<span class="jb-pill jb-pill-close' + (j.closing ? ' jb-pill-urgent' : '') + '" title="Application deadline stated in the posting">Closes ' + esc(shortDate(j.deadline)) + '</span>');
     if (j.stale) meta2.push('<span class="jb-pill jb-pill-stale" title="No activity on the ATS for more than ' + STALE_DAYS + ' days">Older</span>');
     var head = compact ? '' :
       '<div class="jb-meta">' + companyLink(c, 'jb-company') +
       '<span class="jb-sector">' + (SECTOR_ICON[c.sector] || '') + ' ' + esc(c.sector) + '</span>' +
       (c.il30 ? '<span class="jb-tag jb-tag-il30" title="Innovators League 30">🏆 IL30</span>' : '') +
-      raisedTag(c) + '</div>';
-    return '<article class="jb-row' + (compact ? ' jb-row-compact' : '') + '">' +
+      raisedTag(c) + surgeTag(c) + '</div>';
+    var ageTitle = (j.posted || 'Date not provided by the ATS') + (j.n > 1 && j.firstDays > j.days ? ' · first posted ' + age(j.firstDays) + ' ago' : '');
+    return '<article class="jb-row' + (compact ? ' jb-row-compact' : '') + (j.n > 1 ? ' jb-row-grouped' : '') + '" data-row="' + j.i + '">' +
       '<div class="jb-row-main">' +
         '<a class="jb-title" href="' + esc(j.url) + '" target="_blank" rel="noopener">' + esc(j.title) + '</a>' +
         head +
         '<div class="jb-meta2">' + meta2.join('') + '</div>' +
+        clonesHtml(j) +
       '</div>' +
       '<div class="jb-row-side">' +
-        '<span class="jb-age" title="' + esc(j.posted || 'Date not provided by the ATS') + '">' + esc(age(j)) + '</span>' +
+        '<span class="jb-age" title="' + esc(ageTitle) + '">' + esc(age(j.days)) + '</span>' +
         '<a class="jb-apply" href="' + esc(j.url) + '" target="_blank" rel="noopener">Apply ↗</a>' +
       '</div>' +
     '</article>';
   }
 
-  function capNote(c, hidden) {
-    return '<div class="jb-capnote">' + esc(c.name) + ' has ' + fmtN(c.jobs) + ' open roles · showing the ' + COMPANY_CAP + ' newest that match · ' +
+  function capNote(c) {
+    var postings = c.jobs > c.roles ? ' (' + fmtN(c.jobs) + ' postings)' : '';
+    return '<div class="jb-capnote">' + esc(c.name) + ' has ' + fmtN(c.roles) + ' open roles' + postings + ' · showing the ' + COMPANY_CAP + ' newest that match · ' +
       '<button type="button" class="jb-link" data-company="' + esc(c.name) + '">See all at ' + esc(c.name) + ' →</button></div>';
   }
 
   function renderList(list) {
     var capped = capByCompany(list);
-    var rows = capped.rows;
+    var out = capped.rows;
     var el = $('jb-list');
-    if (!rows.length) {
+    if (!out.length) {
       el.innerHTML = '<div class="jb-empty"><h3>No roles match</h3><p>Try fewer filters, a broader search, or switch on <em>Include older postings</em>.</p><button type="button" class="jb-btn" id="jb-empty-reset">Clear all filters</button></div>';
       $('jb-more').style.display = 'none';
       return;
     }
     var html = [], seen = {};
-    var limit = Math.min(shown, rows.length);
+    var limit = Math.min(shown, out.length);
     for (var i = 0; i < limit; i++) {
-      var j = rows[i];
+      var j = out[i];
       html.push(rowHtml(j, false));
       seen[j.c.i] = (seen[j.c.i] || 0) + 1;
-      if (seen[j.c.i] === COMPANY_CAP && capped.capped[j.c.i]) html.push(capNote(j.c, capped.capped[j.c.i]));
+      if (seen[j.c.i] === COMPANY_CAP && capped.capped[j.c.i]) html.push(capNote(j.c));
     }
     el.innerHTML = html.join('');
     var more = $('jb-more');
-    if (rows.length > limit) { more.style.display = ''; more.textContent = 'Show ' + Math.min(PAGE, rows.length - limit) + ' more (' + fmtN(rows.length - limit) + ' left)'; }
+    if (out.length > limit) { more.style.display = ''; more.textContent = 'Show ' + Math.min(PAGE, out.length - limit) + ' more (' + fmtN(out.length - limit) + ' left)'; }
     else more.style.display = 'none';
   }
 
@@ -406,7 +519,7 @@
             '<span class="jb-sector">' + (SECTOR_ICON[c.sector] || '') + ' ' + esc(c.sector) + '</span>' +
             (c.il30 ? '<span class="jb-tag jb-tag-il30">🏆 IL30</span>' : '') +
             (c.fundingStage ? '<span class="jb-tag jb-tag-stage">' + esc(c.fundingStage) + '</span>' : '') +
-            raisedTag(c, true) + '</div>' +
+            raisedTag(c, true) + surgeTag(c) + '</div>' +
           '<div class="jb-group-count">' + (hidden ? 'showing ' + grp.rows.length + ' of ' + fmtN(grp.rows.length + hidden) + ' · <button type="button" class="jb-link" data-company="' + esc(c.name) + '">see all →</button>' : fmtN(grp.rows.length) + (grp.rows.length === 1 ? ' role' : ' roles')) + '</div>' +
         '</header>' +
         grp.rows.map(function (j) { return rowHtml(j, true); }).join('') +
@@ -445,23 +558,23 @@
   }
 
   function renderShelves() {
-    // counts under the board defaults (stale hidden, hard-tech on where the shelf says so)
-    var base = defaultState();
+    // counts under the board defaults (stale hidden, hard-tech on where the shelf says so); roles, not postings
     var el = $('jb-shelves');
     el.innerHTML = SHELVES.map(function (s) {
       var st = defaultState(); s.apply(st); st.shelf = s.key;
       var n = 0;
-      for (var i = 0; i < jobs.length; i++) if (matches(jobs[i], st, [], null)) n++;
+      for (var i = 0; i < rows.length; i++) if (matches(rows[i], st, [], null)) n++;
       var active = state.shelf === s.key;
-      return '<button type="button" class="jb-shelf" data-shelf="' + s.key + '" aria-pressed="' + (active ? 'true' : 'false') + '">' +
+      return '<button type="button" class="jb-shelf" data-shelf="' + s.key + '" aria-pressed="' + (active ? 'true' : 'false') + '"' + (n === 0 && !active ? ' data-empty="1"' : '') + ' title="' + esc(s.blurb) + '">' +
         '<span class="jb-shelf-ico">' + s.icon + '</span>' +
         '<span class="jb-shelf-body"><span class="jb-shelf-title">' + esc(s.title) + '</span><span class="jb-shelf-blurb">' + esc(s.blurb) + '</span></span>' +
         '<span class="jb-shelf-n">' + fmtN(n) + '</span></button>';
     }).join('');
-    void base;
   }
 
-  function renderActive(total) {
+  function renderActive(list) {
+    var total = list.length, postings = 0;
+    for (var i = 0; i < list.length; i++) postings += list[i].n;
     var pills = [];
     var pill = function (label, k, v) { pills.push('<button type="button" class="jb-active-pill" data-k="' + k + '" data-v="' + esc(v || '') + '">' + esc(label) + ' <span>×</span></button>'); };
     if (state.shelf && shelfByKey[state.shelf]) pill(shelfByKey[state.shelf].icon + ' ' + shelfByKey[state.shelf].title, 'shelf');
@@ -483,7 +596,9 @@
     var el = $('jb-active');
     el.innerHTML = pills.length ? pills.join('') + '<button type="button" class="jb-link jb-clear-all">Clear all</button>' : '';
     var count = $('jb-count');
-    count.innerHTML = '<strong>' + fmtN(total) + '</strong> ' + (total === 1 ? 'role' : 'roles') + (state.view === 'company' ? ' · grouped by company' : ' · newest first') +
+    count.innerHTML = '<strong>' + fmtN(total) + '</strong> ' + (total === 1 ? 'role' : 'roles') +
+      (postings > total ? ' <span class="jb-count-note">(' + fmtN(postings) + ' postings)</span>' : '') +
+      (state.view === 'company' ? ' · grouped by company' : ' · newest first') +
       (!state.stale && D.totals && D.totals.stale ? ' <span class="jb-count-note">(' + fmtN(D.totals.stale) + ' older than ' + STALE_DAYS + ' days hidden)</span>' : '');
   }
 
@@ -505,12 +620,12 @@
   }
 
   function render(resetPaging) {
-    if (resetPaging) { shown = PAGE; shownGroups = GROUP_PAGE; }
+    if (resetPaging) { shown = PAGE; shownGroups = GROUP_PAGE; expanded = {}; }
     var terms = queryTerms(state.q);
     var list = run();
     renderChips(terms);
     renderShelves();
-    renderActive(list.length);
+    renderActive(list);
     syncRail();
     if (state.view === 'company') renderGroups(list); else renderList(list);
     writeUrl();
@@ -528,9 +643,11 @@
   }
   function heroStats() {
     var t = D.totals || {};
-    animateNumber('total-jobs', t.jobs || jobs.length);
+    animateNumber('total-jobs', t.jobs || jobs.length);          // raw postings, as before
     animateNumber('total-companies', t.companies || companies.length);
     animateNumber('remote-jobs', t.remote || 0);
+    var roles = $('total-roles');
+    if (roles) roles.textContent = fmtN(t.roles || rows.length) + ' distinct roles';
     var el = $('jobs-last-updated');
     if (el && t.lastUpdated) {
       var last = new Date(t.lastUpdated.replace(' UTC', 'Z').replace(' ', 'T'));
@@ -552,6 +669,16 @@
 
   function wire() {
     document.addEventListener('click', function (e) {
+      var exp = e.target.closest('.jb-expand');
+      if (exp) {
+        var ri = parseInt(exp.getAttribute('data-row'), 10);
+        var list = $('jb-clones-' + ri);
+        var open = !expanded[ri];
+        expanded[ri] = open;
+        if (list) { if (open) list.removeAttribute('hidden'); else list.setAttribute('hidden', ''); }
+        exp.setAttribute('aria-expanded', String(open));
+        return;
+      }
       var chip = e.target.closest('.jb-chip');
       if (chip) { toggleIn(state[chip.getAttribute('data-facet')], chip.getAttribute('data-value')); render(true); return; }
       var shelf = e.target.closest('.jb-shelf');
@@ -596,9 +723,9 @@
 
     // company typeahead (datalist) — commit on exact match or on change
     var dl = $('rail-company-list');
-    dl.innerHTML = companies.slice().sort(function (a, b) { return b.jobs - a.jobs; }).map(function (c) { return '<option value="' + esc(c.name) + '">' + fmtN(c.jobs) + ' roles</option>'; }).join('');
+    dl.innerHTML = companies.slice().sort(function (a, b) { return b.roles - a.roles; }).map(function (c) { return '<option value="' + esc(c.name) + '">' + fmtN(c.roles) + ' roles</option>'; }).join('');
     var companyNames = {};
-    companies.forEach(function (c) { companyNames[c.name.toLowerCase()] = c.name; });
+    companies.forEach(function (c) { companyNames[c.name.toLowerCase()] = c.name; companyNames[c.canonical.toLowerCase()] = c.name; });
     var onCompany = function () {
       var v = this.value.trim();
       var hit = companyNames[v.toLowerCase()];

@@ -86,6 +86,7 @@
     renderHeroSection(currentCompany);
     renderConvictionSection(currentCompany);
     renderTractionSection(currentCompany);
+    renderOpenRoles(currentCompany);            // 💼 live postings from the jobs board (lazy-loaded)
     renderCompanyTimeline(currentCompany);
     renderCompetitiveSection(currentCompany);
     renderIntelligenceSection(currentCompany);
@@ -503,6 +504,117 @@
     } catch (e) {
       console.error('[TIL] Hiring chart failed:', e);
     }
+  }
+
+  // ─── Open roles: live postings from the jobs board ──────────────────────
+  // data/jobs_company_index.js (16 KB) says which companies have postings; the
+  // 3 MB data/jobs_enriched.js is injected only for those, when the block is
+  // about to scroll into view. Per-location clones of a role count once.
+  function renderOpenRoles(company) {
+    const section = document.getElementById('profile-open-roles');
+    const index = window.JOBS_COMPANY_INDEX;
+    if (!section || !index) return;
+    const entry = index[company.name];               // [postings, roles, newest posted, surge, posted in last 14 days]
+    if (!entry || !entry[0]) return;
+    const postings = entry[0], roles = entry[1] || postings, newest = entry[2] || '', surge = !!entry[3], recent14 = entry[4] || 0;
+    section.style.display = '';
+    document.getElementById('open-roles-count').textContent = roles.toLocaleString() + (roles === 1 ? ' role' : ' roles');
+    const bits = [];
+    if (postings > roles) bits.push('<strong>' + postings.toLocaleString() + '</strong> postings across locations');
+    if (newest) bits.push('newest posted <strong>' + escapeHtml(formatPostingDate(newest)) + '</strong>');
+    if (surge) bits.push('<strong>📈 hiring surge</strong> — ' + recent14 + ' roles posted in the last 14 days');
+    document.getElementById('open-roles-summary').innerHTML = bits.join(' · ');
+    const link = document.getElementById('open-roles-link');
+    link.href = 'jobs.html?company=' + encodeURIComponent(company.name);
+    link.textContent = 'See all ' + roles.toLocaleString() + ' on the jobs board →';
+
+    const load = function () {
+      if (window.JOBS_V2) { renderOpenRolesList(company); return; }
+      const s = document.createElement('script');
+      s.src = 'data/jobs_enriched.js?v=' + encodeURIComponent(newest || 'latest');
+      s.onload = function () { renderOpenRolesList(company); };
+      s.onerror = function () {
+        document.getElementById('open-roles-list').innerHTML = '<div class="no-data"><p>Could not load the postings. <a href="' + link.href + '">Open the jobs board</a>.</p></div>';
+      };
+      document.head.appendChild(s);
+    };
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver(function (entries) {
+        if (entries.some(function (e) { return e.isIntersecting; })) { io.disconnect(); load(); }
+      }, { rootMargin: '600px 0px' });
+      io.observe(section);
+    } else {
+      load();
+    }
+  }
+
+  function formatPostingDate(iso) {
+    const p = iso.split('-');
+    if (p.length !== 3) return iso;
+    const d = new Date(Date.UTC(+p[0], +p[1] - 1, +p[2]));
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+  }
+
+  function renderOpenRolesList(company) {
+    const D = window.JOBS_V2;
+    const list = document.getElementById('open-roles-list');
+    if (!D || !D.jobs || !list) return;
+    const MAX = 8;
+    const compIdx = {};
+    D.companies.forEach(function (r, i) { if (r[0] === company.name || (r[9] || r[0]) === company.name) compIdx[i] = true; });
+    const levels = D.levels || [], currencies = D.currencies || ['USD'];
+    const now = new Date();
+    const todayUTC = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+    const atsUrl = function (id, url) {
+      if (url) return url;
+      if (id.indexOf('gh-') === 0) { const k = id.lastIndexOf('-'); return 'https://job-boards.greenhouse.io/' + id.slice(3, k) + '/jobs/' + id.slice(k + 1); }
+      if (id.indexOf('ab-') === 0) return 'https://jobs.ashbyhq.com/' + id.slice(3, -37) + '/' + id.slice(-36);
+      if (id.indexOf('lv-') === 0) return 'https://jobs.lever.co/' + id.slice(3, -37) + '/' + id.slice(-36);
+      return '';
+    };
+    const money = function (v, cur) {
+      const sym = { USD: '$', GBP: '£', EUR: '€', CAD: 'C$', AUD: 'A$' }[cur] || (cur ? cur + ' ' : '$');
+      return v >= 1000 ? sym + Math.round(v / 1000) + 'K' : sym + v;
+    };
+    const age = function (iso) {
+      if (!iso) return '';
+      const p = iso.split('-'); const d = Math.max(0, Math.round((todayUTC - Date.UTC(+p[0], +p[1] - 1, +p[2])) / 86400000));
+      return d === 0 ? 'Today' : d === 1 ? '1d' : d < 14 ? d + 'd' : d < 60 ? Math.round(d / 7) + 'w' : Math.round(d / 30) + 'mo';
+    };
+    // primary rows only (group === -1); count the clones that point at each
+    const primaries = [], clones = {};
+    D.jobs.forEach(function (r, i) {
+      if (!compIdx[r[1]]) return;
+      if (r[15] >= 0) { clones[r[15]] = (clones[r[15]] || 0) + 1; return; }
+      if (r[12] & 2) return;                     // stale (no ATS activity in 90 days)
+      primaries.push({ i: i, r: r });
+    });
+    primaries.sort(function (a, b) { return a.r[4] === b.r[4] ? 0 : (a.r[4] < b.r[4] ? 1 : -1); });
+    if (!primaries.length) {
+      list.innerHTML = '<div class="no-data"><p>No active postings right now.</p></div>';
+      return;
+    }
+    list.innerHTML = primaries.slice(0, MAX).map(function (p) {
+      const r = p.r, flags = r[12], extra = clones[p.i] || 0;
+      const lvl = levels[r[7]] ? levels[r[7]][0] : 'mid';
+      const lvlLabel = lvl !== 'mid' && levels[r[7]] ? levels[r[7]][1] : '';
+      const meta = [];
+      if (r[3]) meta.push('<span>📍 ' + escapeHtml(r[3]) + (extra ? ' +' + extra + ' location' + (extra === 1 ? '' : 's') : '') + '</span>');
+      if (lvlLabel) meta.push('<span>' + escapeHtml(lvlLabel) + '</span>');
+      if (r[9] || r[10]) {
+        const cur = currencies[r[11]] || 'USD';
+        meta.push('<span class="sal">💰 ' + (r[9] && r[10] && r[9] !== r[10] ? money(r[9], cur) + '–' + money(r[10], cur) : money(r[9] || r[10], cur)) + ((flags & 256) ? ' <span style="font-weight:400;color:var(--text-muted);">≈ hourly</span>' : '') + '</span>');
+      }
+      if (flags & 1) meta.push('<span>Remote</span>');
+      if (flags & 4) meta.push('<span>Clearance</span>');
+      return '<article class="open-role">' +
+        '<div class="open-role-main">' +
+          '<a class="open-role-title" href="' + escapeHtml(atsUrl(r[0], r[5])) + '" target="_blank" rel="noopener">' + escapeHtml(r[2]) + '</a>' +
+          '<div class="open-role-meta">' + meta.join('') + '</div>' +
+        '</div>' +
+        '<span class="open-role-age" title="' + escapeHtml(r[4] || 'Date not provided by the ATS') + '">' + escapeHtml(age(r[4])) + '</span>' +
+      '</article>';
+    }).join('');
   }
 
   function renderMilestones(company) {
