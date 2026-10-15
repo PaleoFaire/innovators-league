@@ -1,6 +1,11 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-14 11:28:58 UTC
+// Last updated: 2026-10-15 11:05:36 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "4", date: "2026-10-14", description: "xslF345X06/wk-form4_1792022535.xml", isIPO: false, ticker: "PLTR" },
+  { company: "Rocket Lab", form: "8-K", date: "2026-10-14", description: "rklb-20261014.htm", isIPO: false, ticker: "RKLB" },
+  { company: "C3.ai", form: "4", date: "2026-10-14", description: "xslF345X06/wk-form4_1792014265.xml", isIPO: false, ticker: "AI" },
+  { company: "C3.ai", form: "4", date: "2026-10-14", description: "xslF345X06/wk-form4_1792011817.xml", isIPO: false, ticker: "AI" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-10-14", description: "xslF345X06/wk-form4_1792016328.xml", isIPO: false, ticker: "QBTS" },
   { company: "Palantir Technologies", form: "4", date: "2026-10-13", description: "xslF345X06/wk-form4_1791936127.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-10-13", description: "xslF345X06/wk-form4_1791936056.xml", isIPO: false, ticker: "PLTR" },
   { company: "Oklo", form: "4", date: "2026-10-13", description: "xslF345X06/wk-form4_1791923982.xml", isIPO: false, ticker: "OKLO" },
@@ -46,9 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Rivian", form: "8-K", date: "2026-10-02", description: "rivn-20261002.htm", isIPO: false, ticker: "RIVN" },
   { company: "Palantir Technologies", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790899324.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790899275.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Palantir Technologies", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790899206.xml", isIPO: false, ticker: "PLTR" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-10-01", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "BlackSky Technology", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790886898.xml", isIPO: false, ticker: "BKSY" },
-  { company: "BlackSky Technology", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790886831.xml", isIPO: false, ticker: "BKSY" },
-  { company: "BlackSky Technology", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790886763.xml", isIPO: false, ticker: "BKSY" },
 ];

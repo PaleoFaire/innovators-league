@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T11:43:03.585784Z",
+  "generated_at": "2026-10-15T11:17:53.684584Z",
   "takes": [
     {
       "author": "Canary Media",
@@ -10,22 +10,12 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/geothermal/mazama-energy-raises-135m-oregon-geothermal",
       "signal_type": "funding"
-    },
-    {
-      "author": "CleanTechnica",
-      "role": "Industry signal",
-      "company": "Waymo",
-      "text": "Waymo Raises $5 Billion to Expand Further",
-      "date": "Fri, 09 Oc",
-      "source": "news",
-      "source_url": "https://cleantechnica.com/2026/10/08/waymo-raises-5-billion-to-expand-further/",
-      "signal_type": "funding"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 2,
+    "from_news": 1,
     "from_press": 0
   }
 }
