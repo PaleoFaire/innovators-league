@@ -4339,7 +4339,7 @@ function initMobileMenu() {
     if (mainLink) {
       mainLink.addEventListener('click', (e) => {
         // On mobile, toggle dropdown instead of navigating
-        if (window.innerWidth <= 768) {
+        if (window.innerWidth <= 1100) {  // matches the collapsed-nav breakpoint in styles.css (15 Oct 2026)
           e.preventDefault();
           dropdown.classList.toggle('open');
           // Close other dropdowns

@@ -18833,3 +18833,74 @@ grid-template-columns: repeat(3, 1fr);
   color: #FF8C5C;
 }
 .upvote-profile-btn.upvoting { opacity: 0.7; }
+
+/* ─── TOP BAR OVERFLOW FIX (15 Oct 2026) ───
+   The nav had grown wider than most windows. The search box was the only flexible
+   item in the bar, so it shrank to ~50px and the results dropdown shrank with it.
+   Now: the search keeps a floor, the dropdown has its own width, the links tighten
+   below 1440px and 1280px, and between 769px and 1100px the links collapse into the
+   hamburger menu (the search stays visible). */
+.nav-search { flex: 1 1 240px; min-width: 150px; max-width: 320px; margin: 0 16px; }
+.nav-links { flex-shrink: 0; }
+.search-results-dropdown { right: auto; width: 440px; max-width: calc(100vw - 48px); }
+
+@media (max-width: 1440px) {
+  .nav-links { gap: 2px; }
+  .nav-links a, .nav-link-main { padding: 6px 7px; font-size: 12.5px; }
+  .nav-search { flex-basis: 200px; margin: 0 12px; }
+}
+
+@media (max-width: 1280px) {
+  .nav-title { display: none; }
+  .nav-links a, .nav-link-main { padding: 6px 6px; font-size: 12px; }
+  .nav-search { flex-basis: 170px; }
+}
+
+@media (min-width: 769px) and (max-width: 1100px) {
+  .nav-search { flex: 1 1 260px; max-width: none; margin: 0 16px; }
+  .mobile-menu-btn { display: flex; }
+  .nav-links {
+    display: none;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    right: 0;
+    max-height: calc(100vh - 56px);
+    overflow-y: auto;
+    background: rgba(0, 0, 0, 0.97);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    flex-direction: column;
+    align-items: stretch;
+    padding: 16px;
+    gap: 8px;
+    white-space: normal;
+    z-index: 999;
+  }
+  .nav-links.open { display: flex; }
+  .nav-links a.nav-link, .nav-link-main {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 16px;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-sm);
+  }
+  .nav-links a.nav-link { display: block; }
+  .nav-link-main { display: flex; justify-content: space-between; }
+  .nav-dropdown { width: 100%; }
+  .nav-dropdown-content {
+    position: static;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    display: none;
+    min-width: auto;
+    box-shadow: none;
+    background: var(--bg-secondary);
+    margin-top: 4px;
+    border-radius: var(--radius-sm);
+  }
+  .nav-dropdown:not(.open):hover .nav-dropdown-content { display: none; }
+  .nav-dropdown.open .nav-dropdown-content { display: block; }
+  .nav-dropdown-content a { padding: 12px 20px; font-size: 14px; }
+}
