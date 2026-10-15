@@ -26,8 +26,21 @@
   'use strict';
 
   // ─── Plausible (page analytics) ─────────────────────────────────────────
-  // Uncomment + set when ready.
-  // window.__TIL_PLAUSIBLE_DOMAIN = 'innovatorsleague.com';
+  // Set on 15 Oct 2026 with the homepage/nav redesign so tool-card and
+  // nav-item clicks can be counted (nav.js fires "Nav Click", "Nav Open",
+  // "Tool Click" and "Door Click" custom events; substack-capture.js fires
+  // "Subscribe Submitted").
+  //
+  // NOTHING IS RECORDED UNTIL STEPHEN CREATES THE SITE IN PLAUSIBLE:
+  // plausible.io → Sites → "+ Add a website" → domain exactly
+  // "paleofaire.github.io" (the host visitors actually hit; GitHub Pages
+  // serves the site at paleofaire.github.io/innovators-league). Then, under
+  // the site's Goals, add the four custom events above so they show up as
+  // goals. Until the site exists the Plausible script loads and its event
+  // calls are rejected silently — no error, no data. Analytics.js also skips
+  // everything for visitors with Do-Not-Track on. Change this string if the
+  // site moves to innovatorsleague.com.
+  window.__TIL_PLAUSIBLE_DOMAIN = 'paleofaire.github.io';
 
   // ─── Sentry (error reporting) ───────────────────────────────────────────
   // Uncomment + set when ready.
