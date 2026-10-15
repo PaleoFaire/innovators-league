@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 0.79,
+      "avg_change": 0.87,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -15.44,
+      "avg_change": -13.92,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -13.77,
+      "avg_change": -11.46,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -15.6,
+      "avg_change": -13.37,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -16.28,
+      "avg_change": -15.31,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -14.82,
+      "avg_change": -11.95,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.27,
+      "avg_change": 4.12,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -6.12,
+      "avg_change": -6.25,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.78,
+      "avg_change": -9.39,
       "count": 3
     }
   },
@@ -66,7 +66,7 @@
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      6.71
+      5.32
     ],
     [
       "ONT.L",
@@ -76,19 +76,24 @@
     [
       "TEM",
       "Tempus AI",
-      1.71
+      2.67
     ],
     [
       "PLTR",
       "Palantir",
-      0.79
+      0.87
     ]
   ],
   "topLosers": [
     [
       "RKLB",
       "Rocket Lab",
-      -21.79
+      -19.23
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -21.9
     ],
     [
       "277810.KQ",
@@ -96,20 +101,15 @@
       -22.71
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      -23.31
+      "EVTL",
+      "Vertical Aerospace",
+      -25.17
     ],
     [
       "LNZA",
       "LanzaTech",
-      -25.83
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -26.45
+      -26.32
     ]
   ],
-  "lastUpdated": "2026-10-15 17:51:59"
+  "lastUpdated": "2026-10-15 22:27:46"
 }
