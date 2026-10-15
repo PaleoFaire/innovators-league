@@ -19204,3 +19204,19 @@ body.nav-drawer-open { overflow: hidden; }
 .premium-footer .footer-links.footer-links--4 { grid-template-columns: repeat(4, 1fr); }
 @media (max-width: 1024px) { .premium-footer .footer-links.footer-links--4 { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 480px) { .premium-footer .footer-links.footer-links--4 { grid-template-columns: 1fr; } }
+
+/* Homepage IL30: the signature block shows nine cards (six on narrow screens) and links to il30.html
+   for the full thirty; il30.html itself shows them all. (15 Oct 2026) */
+body[data-il30-compact] .il30-showcase-grid > :nth-child(n+10) { display: none; }
+@media (max-width: 1023px) { body[data-il30-compact] .il30-showcase-grid > :nth-child(n+7) { display: none; } }
+.il30-see-all { text-align: center; margin-top: 24px; }
+.il30-see-all a {
+  display: inline-block; padding: 12px 22px; border-radius: 10px;
+  border: 1px solid rgba(251,191,36,.35); background: rgba(251,191,36,.08);
+  color: #fbbf24; font: 600 14px/1 'Inter', sans-serif; text-decoration: none;
+  transition: background var(--transition), border-color var(--transition);
+}
+.il30-see-all a:hover { background: rgba(251,191,36,.14); border-color: rgba(251,191,36,.6); }
+/* Drawer auth block mirrors the bar's signed-in state (nav.js) */
+.nav-v2 .nav-drawer-auth .nav-drawer-user { flex: 1; align-self: center; color: var(--text-secondary); font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.nav-v2 .nav-drawer-auth .nav-signout-btn { padding: 12px 16px; font-size: 14px; }

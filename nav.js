@@ -130,6 +130,34 @@
     if (!isMobile() && links && links.classList.contains('open')) toggleDrawer(false);
   });
 
+  /* ───────── drawer auth mirrors the bar ─────────
+     auth.js toggles #nav-auth / #nav-user inline (display none/flex). The drawer's
+     own Sign in / Join ROS block follows along, showing the member name and a
+     Sign out button once signed in. */
+  var drawerAuth = nav.querySelector('.nav-drawer-auth');
+  var barAuth = document.getElementById('nav-auth');
+  var barUser = document.getElementById('nav-user');
+  if (drawerAuth && barAuth && barUser) {
+    var drawerAuthDefault = drawerAuth.innerHTML;
+    var syncDrawerAuth = function () {
+      var signedIn = barUser.style.display && barUser.style.display !== 'none';
+      if (!signedIn) { if (drawerAuth.innerHTML !== drawerAuthDefault) drawerAuth.innerHTML = drawerAuthDefault; return; }
+      var emailEl = document.getElementById('nav-user-email');
+      var name = (emailEl && emailEl.textContent.trim()) || 'Member';
+      drawerAuth.innerHTML = '';
+      var who = document.createElement('span'); who.className = 'nav-drawer-user'; who.textContent = name;
+      var out = document.createElement('button'); out.type = 'button'; out.className = 'nav-signout-btn'; out.textContent = 'Sign out';
+      out.addEventListener('click', function () { if (window.TILAuth && TILAuth.signOut) TILAuth.signOut(); });
+      drawerAuth.appendChild(who); drawerAuth.appendChild(out);
+    };
+    if ('MutationObserver' in window) {
+      var authObserver = new MutationObserver(syncDrawerAuth);
+      authObserver.observe(barUser, { attributes: true, attributeFilter: ['style'] });
+      authObserver.observe(barAuth, { attributes: true, attributeFilter: ['style'] });
+    }
+    syncDrawerAuth();
+  }
+
   /* ───────── search button ─────────
      Pages with the global search (the homepage hero) focus it in place;
      every other page goes to the database search. */
