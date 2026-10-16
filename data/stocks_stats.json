@@ -3,113 +3,113 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 0.87,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -11.14,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -13.95,
+      "avg_change": -16.17,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -12.17,
+      "avg_change": -13.14,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -13.37,
+      "avg_change": -17.5,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -15.31,
+      "avg_change": -16.62,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.95,
+      "avg_change": -17.66,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.6,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -10.82,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -6.25,
+      "avg_change": -8.71,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.39,
+      "avg_change": -11.31,
       "count": 3
     }
   },
   "topGainers": [
-    [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      5.32
-    ],
-    [
-      "TEM",
-      "Tempus AI",
-      2.67
-    ],
     [
       "9348.T",
       "ispace",
       1.06
     ],
     [
-      "PLTR",
-      "Palantir",
-      0.87
-    ],
-    [
       "IDEAFORGE.NS",
       "ideaForge",
       -0.67
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      -4.04
+    ],
+    [
+      "NVDA",
+      "NVIDIA",
+      -5.98
+    ],
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -6.28
     ]
   ],
   "topLosers": [
     [
+      "PL",
+      "Planet Labs",
+      -20.9
+    ],
+    [
       "SATL",
       "Satellogic",
-      -19.09
+      -24.12
     ],
     [
       "RKLB",
       "Rocket Lab",
-      -19.23
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      -21.9
+      -24.29
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -25.17
+      -24.43
     ],
     [
       "LNZA",
       "LanzaTech",
-      -26.32
+      -25.61
     ]
   ],
-  "lastUpdated": "2026-10-16 12:29:59"
+  "lastUpdated": "2026-10-16 17:30:52"
 }
