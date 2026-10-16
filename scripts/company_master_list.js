@@ -8,7 +8,7 @@
  *
  * Coverage: 100% of companies in data.js
  * Total companies: 1303
- * Last updated: 2026-10-12
+ * Last updated: 2026-10-16
  * 
  * Each company has:
  *   - name: Official company name
@@ -123,7 +123,7 @@ const MASTER_COMPANY_LIST = [
   { name: "Flexport", aliases: ["logistics", "freight", "trade"], sector: "consumer", ticker: null },
   { name: "Shinkei", aliases: ["fish processing", "food tech"], sector: "consumer", ticker: null },
   { name: "Vital Lyfe", aliases: ["VitalLyfe", "desalination", "water", "filtration"], sector: "consumer", ticker: null },
-  { name: "Advanced Spade Company", aliases: ["AdvancedSpadeCompany", "utility locating", "mapping"], sector: "consumer", ticker: null },
+  { name: "Advanced Spade Company", aliases: ["Advanced Spade", "AdvancedSpadeCompany", "aspadeco"], sector: "infrastructure", ticker: null },
   { name: "Forterra", aliases: ["autonomous vehicles"], sector: "defense", ticker: null },
   { name: "Auterion", aliases: ["drone software", "open-source"], sector: "defense", ticker: null },
   { name: "Firehawk Aerospace", aliases: ["Firehawk", "FirehawkAerospace", "rocket engines", "propulsion"], sector: "defense", ticker: null },

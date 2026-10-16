@@ -54867,7 +54867,30 @@ tags: ["agtech", "autonomous robots", "precision agriculture"],
     signal: "watch",
     source: "Verified 11 Oct 2026: faunarobotics.com (title); CNBC, Bloomberg, TechCrunch and The Robot Report, 24 Mar 2026 (Amazon acquisition); Sacra; AP Jan 2026",
     addedDate: "2026-10"
-  }
+  },
+  {
+    name: "Advanced Spade Company",
+    status: "active",
+    sector: "Infrastructure & Logistics",
+    subsector: "General",
+    description: "Builds hardware and software for underground utility detection and mapping, and does trenchless construction (drilling under streets rather than digging them up). Its pitch is data collection, delivery and application for precision and safety in underground construction, run from its HQ and equipment yard in Signal Hill, CA, where it operates its own drilling trucks.",
+    founder: "Daniel Kimminau",
+    location: "Signal Hill, CA",
+    country: "United States",
+    state: "CA",
+    lat: 33.808,
+    lng: -118.159,
+    founded: 2024,
+    fundingStage: "Undisclosed",
+    totalRaised: "Undisclosed",
+    website: "https://www.advancedspadecompany.com",
+    investors: [],
+    tags: ["frontier-tech", "verified-add"],
+    source: "Stephen tip 2026-10-16",
+    addedDate: "2026-10",
+    insight: "Every dig risks hitting a gas line or fiber cable nobody mapped. A company that maps what's underground and then drills under it with its own rigs owns both the data and the job.",
+    signal: "emerging"
+  },
 ];
 
 // ─── VC FIRMS DATABASE ───
