@@ -9,15 +9,15 @@
       "count": 1
     },
     "space": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -13.92,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -13.87,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -11.46,
+      "avg_change": -11.83,
       "count": 7
     },
     "nuclear": {
@@ -59,11 +59,6 @@
   },
   "topGainers": [
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      7.79
-    ],
-    [
       "RXRX",
       "Recursion Pharmaceuticals",
       5.32
@@ -79,12 +74,22 @@
       2.67
     ],
     [
-      "PLTR",
-      "Palantir",
-      0.87
+      "9348.T",
+      "ispace",
+      1.58
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      0.88
     ]
   ],
   "topLosers": [
+    [
+      "SATL",
+      "Satellogic",
+      -19.09
+    ],
     [
       "RKLB",
       "Rocket Lab",
@@ -94,11 +99,6 @@
       "ASTS",
       "AST SpaceMobile",
       -21.9
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -22.71
     ],
     [
       "EVTL",
@@ -111,5 +111,5 @@
       -26.32
     ]
   ],
-  "lastUpdated": "2026-10-15 22:27:46"
+  "lastUpdated": "2026-10-16 05:57:37"
 }
