@@ -11,13 +11,13 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -13.87,
+      "avg_change": -13.95,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -11.83,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -12.17,
       "count": 7
     },
     "nuclear": {
@@ -39,9 +39,9 @@
       "count": 3
     },
     "biotech": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 4.12,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.6,
       "count": 3
     },
     "transportation": {
@@ -64,11 +64,6 @@
       5.32
     ],
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      4.38
-    ],
-    [
       "TEM",
       "Tempus AI",
       2.67
@@ -76,12 +71,17 @@
     [
       "9348.T",
       "ispace",
-      1.58
+      1.06
+    ],
+    [
+      "PLTR",
+      "Palantir",
+      0.87
     ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      0.88
+      -0.67
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -26.32
     ]
   ],
-  "lastUpdated": "2026-10-16 05:57:37"
+  "lastUpdated": "2026-10-16 12:29:59"
 }
