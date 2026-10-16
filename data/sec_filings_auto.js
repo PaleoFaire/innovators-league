@@ -1,6 +1,9 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-15 11:05:36 UTC
+// Last updated: 2026-10-16 11:01:11 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Oklo", form: "4", date: "2026-10-15", description: "xslF345X06/wk-form4_1792095818.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-10-15", description: "xslF345X06/wk-form4_1792095757.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Recursion Pharmaceuticals", form: "8-K", date: "2026-10-15", description: "rxrx-20261015.htm", isIPO: false, ticker: "RXRX" },
   { company: "Palantir Technologies", form: "4", date: "2026-10-14", description: "xslF345X06/wk-form4_1792022535.xml", isIPO: false, ticker: "PLTR" },
   { company: "Rocket Lab", form: "8-K", date: "2026-10-14", description: "rklb-20261014.htm", isIPO: false, ticker: "RKLB" },
   { company: "C3.ai", form: "4", date: "2026-10-14", description: "xslF345X06/wk-form4_1792014265.xml", isIPO: false, ticker: "AI" },
@@ -48,7 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Recursion Pharmaceuticals", form: "4", date: "2026-10-02", description: "xslF345X06/wk-form4_1790979423.xml", isIPO: false, ticker: "RXRX" },
   { company: "Archer Aviation", form: "8-K", date: "2026-10-02", description: "achr-20260929.htm", isIPO: false, ticker: "ACHR" },
   { company: "Rivian", form: "4", date: "2026-10-02", description: "xslF345X06/wk-form4_1790977870.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Rivian", form: "8-K", date: "2026-10-02", description: "rivn-20261002.htm", isIPO: false, ticker: "RIVN" },
-  { company: "Palantir Technologies", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790899324.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Palantir Technologies", form: "4", date: "2026-10-01", description: "xslF345X06/wk-form4_1790899275.xml", isIPO: false, ticker: "PLTR" },
 ];

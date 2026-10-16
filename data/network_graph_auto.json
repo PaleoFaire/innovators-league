@@ -6001,6 +6001,11 @@
       "thesisCluster": ""
     },
     {
+      "id": "Advanced Spade Company",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
       "id": "SpaceX-alumni-hub",
       "sector": "alumni",
       "thesisCluster": ""
@@ -11199,7 +11204,7 @@
     }
   ],
   "counts": {
-    "total_nodes": 1206,
+    "total_nodes": 1207,
     "total_edges": 894,
     "competitor_edges": 191,
     "thesis_edges": 695,

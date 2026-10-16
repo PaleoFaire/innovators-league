@@ -1,7 +1,25 @@
 [
   {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 51,
+    "trend": "steady",
+    "catalysts": [
+      "Waymo Opens To Everyone In San Antonio, San Diego, &#038; Ta",
+      "SpaceX\u2019s Terafab: How Elon Could Scale to TSMC Levels",
+      "Agility chooses Nyobolt for ultra-fast charging for Digit 5"
+    ],
+    "fundingQ": "$6.4B",
+    "components": {
+      "funding": 100,
+      "news": 25,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-16"
+  },
+  {
     "sector": "Defense & Security",
-    "momentum": 53,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
       "Shield AI expects to fly its unmanned fighter jet within mon"
@@ -11,27 +29,9 @@
       "funding": 100,
       "news": 5,
       "hiring": 0,
-      "market": 85
+      "market": 59
     },
-    "lastUpdated": "2026-10-15"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 50,
-    "trend": "steady",
-    "catalysts": [
-      "Ambrosia Energy will build a 10 GWh factory in Texas to make",
-      "Rivian&#8217;s Mind Robotics snags Doug Field, ex-Tesla and",
-      "Learning to Play Like a Pro: Adaptive Motion Planning and Tr"
-    ],
-    "fundingQ": "$6.4B",
-    "components": {
-      "funding": 100,
-      "news": 20,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-15"
+    "lastUpdated": "2026-10-16"
   },
   {
     "sector": "Nuclear Energy",
@@ -47,7 +47,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-15"
+    "lastUpdated": "2026-10-16"
   },
   {
     "sector": "Transportation",
@@ -63,52 +63,34 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-15"
+    "lastUpdated": "2026-10-16"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 21,
+    "momentum": 20,
     "trend": "rising",
     "catalysts": [
-      "Ambrosia Energy will build a 10 GWh factory in Texas to make",
       "With federal funding windfall, X-energy advances small nucle",
-      "Mazama Energy raises $135M for superhot geothermal at Oregon"
+      "Mazama Energy raises $135M for superhot geothermal at Oregon",
+      "xAI has quietly built a massive battery at its Memphis data"
     ],
     "fundingQ": "$550M",
     "components": {
       "funding": 46,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-15"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "Anthropic warns small AI models could self-replicate through",
-      "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a",
-      "OpenAI and Anthropic Tell British Lawmakers: Regulate Us"
-    ],
-    "fundingQ": "$350M",
-    "components": {
-      "funding": 6,
-      "news": 30,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-15"
+    "lastUpdated": "2026-10-16"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 19,
     "trend": "rising",
     "catalysts": [
-      "Colossal Biosciences announces new AI platform to help accel",
-      "SpaceX\u2019s Space AI Challenge: 5,000 Launches a Year",
-      "Polish spacetech KP Labs secures \u20ac4.42M from Momentum Capita"
+      "Waymo Opens To Everyone In San Antonio, San Diego, &#038; Ta",
+      "Tesla reveals SpaceX-powered Roadster that flies and falls w",
+      "SpaceX\u2019s Terafab: How Elon Could Scale to TSMC Levels"
     ],
     "fundingQ": "$809M",
     "components": {
@@ -117,49 +99,49 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-15"
+    "lastUpdated": "2026-10-16"
   },
   {
-    "sector": "Drones & Autonomous",
-    "momentum": 12,
+    "sector": "Biotech & Health",
+    "momentum": 18,
     "trend": "declining",
     "catalysts": [
-      "Forterra partners with Hypercraft on autonomous vehicle for",
-      "Shield AI expects to fly its unmanned fighter jet within mon"
+      "Active biotech & health ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 0,
       "hiring": 0,
-      "market": 50
+      "market": 90
     },
-    "lastUpdated": "2026-10-15"
+    "lastUpdated": "2026-10-16"
   },
   {
-    "sector": "Housing & Construction",
-    "momentum": 12,
+    "sector": "AI & Software",
+    "momentum": 17,
     "trend": "declining",
     "catalysts": [
-      "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a",
-      "SpaceX to $1,000 in 2027? Follow the AI Factory Math"
+      "Anthropic is letting METR researchers look under the hood wi",
+      "Anthropic warns small AI models could self-replicate through",
+      "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy"
     ],
-    "fundingQ": "$0M",
+    "fundingQ": "$350M",
     "components": {
-      "funding": 0,
-      "news": 10,
+      "funding": 6,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-15"
+    "lastUpdated": "2026-10-16"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "SpaceX Files for Approval for Hundreds of Launches at Texas",
-      "China-linked hackers posed as former US officials, Anthropic"
+      "Agility chooses Nyobolt for ultra-fast charging for Digit 5",
+      "SpaceX Files for Approval for Hundreds of Launches at Texas"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -168,14 +150,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-15"
+    "lastUpdated": "2026-10-16"
   },
   {
-    "sector": "Infrastructure & Logistics",
+    "sector": "Drones & Autonomous",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Ambrosia Energy will build a 10 GWh factory in Texas to make"
+      "Shield AI expects to fly its unmanned fighter jet within mon"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -184,7 +166,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-15"
+    "lastUpdated": "2026-10-16"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -200,7 +182,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-15"
+    "lastUpdated": "2026-10-16"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active housing & construction ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-16"
   },
   {
     "sector": "Ocean & Maritime",
@@ -216,41 +214,39 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-15"
+    "lastUpdated": "2026-10-16"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active infrastructure & logistics ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-16"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 2,
+    "momentum": 1,
     "trend": "declining",
     "catalysts": [
-      "Ricursive Intelligence is betting on AI-designed chips to he",
-      "SpaceX to $1,000 in 2027? Follow the AI Factory Math"
+      "SpaceX\u2019s Terafab: How Elon Could Scale to TSMC Levels"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-15"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 2,
-    "trend": "declining",
-    "catalysts": [
-      "Colossal Biosciences announces new AI platform to help accel",
-      "STAT+: The startup chasing \u2018general biological intelligence\u2019"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-10-15"
+    "lastUpdated": "2026-10-16"
   },
   {
     "sector": "Quantum Computing",
@@ -266,6 +262,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-15"
+    "lastUpdated": "2026-10-16"
   }
 ]

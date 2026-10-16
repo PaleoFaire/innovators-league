@@ -1,61 +1,102 @@
 [
   {
-    "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
-    "link": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
-    "description": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
-    "pubDate": "Thu, 15 Oct 2026 01:01:32 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Ricursive Intelligence",
+    "title": "Waymo Opens To Everyone In San Antonio, San Diego, &#038; Tampa",
+    "link": "https://cleantechnica.com/2026/10/15/waymo-opens-to-everyone-in-san-antonio-san-diego-tampa/",
+    "description": "It&#8217;s hard to keep track of where Waymo robotaxis are going to launch, are testing, are launching, are open to some people but not others, are open to everyone, etc. Three cities where it recently launched robotaxi service are Tampa, San Antonio, and San Diego, and now the robotaxi service   ..",
+    "pubDate": "Fri, 16 Oct 2026 02:46:45 +0000",
+    "category": "Autonomous Vehicles",
+    "source": "CleanTechnica",
+    "feedCategory": "energy",
+    "matchedCompany": "Waymo",
     "matchedCompanies": [
-      "Ricursive Intelligence"
+      "Waymo",
+      "Zoox"
     ],
     "sectors": [
-      "chips"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "10h ago"
-  },
-  {
-    "title": "Colossal Biosciences announces new AI platform to help accelerate de-extinction efforts",
-    "link": "https://techcrunch.com/2026/10/14/colossal-biosciences-announces-new-ai-platform-to-help-accelerate-de-extinction-efforts/",
-    "description": "Colossal announced a new AI platform to help accelerate its de-extinction efforts and Peter Diamandis has launched a new fund to back startups who use it.",
-    "pubDate": "Wed, 14 Oct 2026 21:00:00 +0000",
-    "category": "Biotech & Health",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Colossal Biosciences",
-    "matchedCompanies": [
-      "Colossal Biosciences"
-    ],
-    "sectors": [
-      "biotech"
+      "ai",
+      "transportation"
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "14h ago"
+    "time": "8h ago"
   },
   {
-    "title": "Ambrosia Energy will build a 10 GWh factory in Texas to make batteries for off-grid data centers",
-    "link": "https://techcrunch.com/2026/10/14/ambrosia-energy-will-build-a-10-gwh-factory-in-texas-to-make-batteries-for-off-grid-data-centers/",
-    "description": "Startup Ambrosia Energy will build a massive factory to crank out batteries to augment solar panels, creating a round-the-clock clean power plant.",
-    "pubDate": "Wed, 14 Oct 2026 19:51:34 +0000",
-    "category": "Climate",
+    "title": "Tesla reveals SpaceX-powered Roadster that flies and falls with style",
+    "link": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
+    "description": "The new car used thrusters to leap over a Cybercab, Cybertruck, Tesla Semi, Model Y, and Model 3 at a demo in Texas.",
+    "pubDate": "Fri, 16 Oct 2026 01:17:43 +0000",
+    "category": "Transportation",
     "source": "TechCrunch",
     "feedCategory": "tech",
-    "matchedCompany": "Ambrosia Energy",
+    "matchedCompany": "SpaceX",
     "matchedCompanies": [
-      "Ambrosia Energy",
-      "Exowatt"
+      "SpaceX"
     ],
     "sectors": [
-      "climate"
+      "space"
     ],
-    "type": "hire",
+    "type": "ipo",
+    "impact": "low",
+    "time": "9h ago"
+  },
+  {
+    "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+    "link": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+    "description": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
+    "pubDate": "Thu, 15 Oct 2026 19:14:26 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "OpenAI",
+      "Mistral AI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
     "impact": "low",
     "time": "15h ago"
+  },
+  {
+    "title": "SpaceX’s Terafab: How Elon Could Scale to TSMC Levels",
+    "link": "https://www.nextbigfuture.com/2026/10/spacexs-terafab-how-elon-could-scale-to-tsmc-levels.html",
+    "description": "Can SpaceX’s Terafab reach the scale of TSMC? The answer starts with understanding the sequence: develop the process, prove the production line, then replicate it. The useful question about Terafab is how it gets from a working production line to an enormous chip-manufacturing operation. That requir",
+    "pubDate": "Thu, 15 Oct 2026 18:22:14 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "16h ago"
+  },
+  {
+    "title": "Agility chooses Nyobolt for ultra-fast charging for Digit 5 humanoid",
+    "link": "https://www.therobotreport.com/agility-robotics-chooses-nyobolt-ultra-fast-charging-digit-5-humanoid/",
+    "description": "Nyobolt is providing power technology for Digit 5 that enables Agility's humanoid to work up to 20 hours a day.\nThe post Agility chooses Nyobolt for ultra-fast charging for Digit 5 humanoid appeared first on The Robot Report.",
+    "pubDate": "Thu, 15 Oct 2026 10:59:24 +0000",
+    "category": "Batteries / Power Supplies",
+    "source": "The Robot Report",
+    "feedCategory": "robotics",
+    "matchedCompany": "Nyobolt",
+    "matchedCompanies": [
+      "Nyobolt"
+    ],
+    "sectors": [
+      "battery"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1d ago"
   },
   {
     "title": "SpaceX’s Space AI Challenge: 5,000 Launches a Year",
@@ -74,45 +115,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "17h ago"
-  },
-  {
-    "title": "Forterra partners with Hypercraft on autonomous vehicle for high-risk missions",
-    "link": "https://www.defensenews.com/industry/techwatch/2026/10/14/forterra-partners-with-hypercraft-on-autonomous-vehicle-for-high-risk-missions/",
-    "description": "Forterra integrates its AutoDrive technology onto Hypercraft's Razorback ground vehicle, debuting at AUSA.",
-    "pubDate": "Wed, 14 Oct 2026 16:30:00 +0000",
-    "category": "/ MilTech",
-    "source": "Defense News",
-    "feedCategory": "defense",
-    "matchedCompany": "Forterra",
-    "matchedCompanies": [
-      "Forterra"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "18h ago"
-  },
-  {
-    "title": "STAT+: The startup chasing ‘general biological intelligence’",
-    "link": "https://www.statnews.com/2026/10/14/the-startup-chasing-general-biological-intelligence-ai-prognosis/?utm_campaign=rss",
-    "description": "In this edition of AI Prognosis, Brittany Trang talks to Eric Nguyen, the CEO of Radical Numerics, a startup pursuing \"general biological intelligence.'",
-    "pubDate": "Wed, 14 Oct 2026 13:17:57 +0000",
-    "category": "AI Prognosis",
-    "source": "STAT News",
-    "feedCategory": "biotech",
-    "matchedCompany": "General Biological",
-    "matchedCompanies": [
-      "General Biological"
-    ],
-    "sectors": [
-      "biotech"
-    ],
-    "type": "hire",
-    "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "Anthropic warns small AI models could self-replicate through IoT devices",
@@ -125,47 +128,6 @@
     "matchedCompany": "Anthropic",
     "matchedCompanies": [
       "Anthropic"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "22h ago"
-  },
-  {
-    "title": "Polish spacetech KP Labs secures €4.42M from Momentum Capital Partners to scale in-orbit AI data processing",
-    "link": "https://tech.eu/2026/10/14/polish-spacetech-kp-labs-secures-4-42m-from-momentum-capital-partners-to-scale-in-orbit-ai-data-processing/",
-    "description": "Polish company KP Labs, which develops solutions for processing satellite data directly in Earth orbit, has received €4.42 million (PLN 19.4 million) from Momentum Capital Partners.  As the space indu...",
-    "pubDate": "Wed, 14 Oct 2026 11:30:00 +0000",
-    "category": "Spacetech",
-    "source": "Tech.eu",
-    "feedCategory": "startups",
-    "matchedCompany": "KP Labs",
-    "matchedCompanies": [
-      "KP Labs",
-      "D-Orbit",
-      "H Company"
-    ],
-    "sectors": [
-      "space",
-      "ai"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "23h ago"
-  },
-  {
-    "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
-    "link": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
-    "description": "Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives.",
-    "pubDate": "Tue, 13 Oct 2026 23:17:59 +0000",
-    "category": "Security",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
     ],
     "sectors": [
       "ai"
@@ -197,32 +159,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us",
-    "link": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
-    "description": "AI leaders joined whistleblowers and security leaders at a sweeping parliamentary session, while a few hundred meters away Britain’s spy chief warned AI could be used to create new bioweapons.",
-    "pubDate": "Tue, 13 Oct 2026 19:35:29 +0000",
-    "category": "Business",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "Cape",
-      "OpenAI",
-      "Percepto",
-      "ideaForge"
-    ],
-    "sectors": [
-      "ai",
-      "climate",
-      "autonomous"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "SpaceX Files for Approval for Hundreds of Launches at Texas Facility",
@@ -241,7 +178,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
@@ -262,7 +199,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Learning to Play Like a Pro: Adaptive Motion Planning and Tracking for Humanoid Robots",
@@ -280,28 +217,6 @@
       "robotics"
     ],
     "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "SpaceX to $1,000 in 2027? Follow the AI Factory Math",
-    "link": "https://www.nextbigfuture.com/2026/10/spacex-to-1000-in-2027-follow-the-ai-factory-math.html",
-    "description": "One new AI data center per month represents $25 billion in annual revenue capacity each month and then it will triple to $75 billion per month with Rubin chips in 2027. Completing facilities at a monthly pace would make construction speed a major driver of SpaceX’s valuation. That is the core of the",
-    "pubDate": "Sun, 11 Oct 2026 01:09:58 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Astera Labs",
-      "Rebellions"
-    ],
-    "sectors": [
-      "space",
-      "chips"
-    ],
-    "type": "funding",
     "impact": "low",
     "time": "4d ago"
   },
@@ -322,7 +237,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6d ago"
+    "time": "10/8/2026"
   },
   {
     "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
@@ -342,25 +257,6 @@
     "type": "news",
     "impact": "low",
     "time": "10/6/2026"
-  },
-  {
-    "title": "China-linked hackers posed as former US officials, Anthropic employee to target AI experts",
-    "link": "https://www.defenseone.com/threats/2026/10/china-linked-hackers-posed-former-us-officials-anthropic-employee-target-ai-experts/416384/",
-    "description": "Proofpoint identified phishing campaigns that borrowed prominent figures’ identities to approach U.S. policy researchers before attempting to steal access to their cloud accounts.",
-    "pubDate": "Thu, 01 Oct 2026 05:00:00 -0400",
-    "category": "Threats",
-    "source": "Defense One",
-    "feedCategory": "defense",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "10/1/2026"
   },
   {
     "title": "With federal funding windfall, X-energy advances small nuclear reactor",
