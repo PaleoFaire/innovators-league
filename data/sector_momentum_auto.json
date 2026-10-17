@@ -1,37 +1,38 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 51,
-    "trend": "steady",
+    "momentum": 55,
+    "trend": "accelerating",
     "catalysts": [
-      "Waymo Opens To Everyone In San Antonio, San Diego, &#038; Ta",
-      "SpaceX\u2019s Terafab: How Elon Could Scale to TSMC Levels",
-      "Agility chooses Nyobolt for ultra-fast charging for Digit 5"
+      "Hello Toronto! Waymo is En Route",
+      "Waymo&#8217;s robotaxis are headed to Canada",
+      "Waymo picks Toronto as first Canadian city, targets riders i"
     ],
     "fundingQ": "$6.4B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-16"
+    "lastUpdated": "2026-10-17"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 48,
+    "momentum": 38,
     "trend": "steady",
     "catalysts": [
+      "What is Starshield, SpaceX\u2019s military version of Starlink?",
       "Shield AI expects to fly its unmanned fighter jet within mon"
     ],
     "fundingQ": "$4.1B",
     "components": {
       "funding": 100,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
-      "market": 59
+      "market": 0
     },
-    "lastUpdated": "2026-10-16"
+    "lastUpdated": "2026-10-17"
   },
   {
     "sector": "Nuclear Energy",
@@ -47,7 +48,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-16"
+    "lastUpdated": "2026-10-17"
   },
   {
     "sector": "Transportation",
@@ -63,7 +64,25 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-16"
+    "lastUpdated": "2026-10-17"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 21,
+    "trend": "rising",
+    "catalysts": [
+      "Can SpaceX Winning AI Data Centers Overcome Losing Model and",
+      "What is Starshield, SpaceX\u2019s military version of Starlink?",
+      "Waymo Opens To Everyone In San Antonio, San Diego, &#038; Ta"
+    ],
+    "fundingQ": "$809M",
+    "components": {
+      "funding": 36,
+      "news": 35,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-10-17"
   },
   {
     "sector": "Climate & Energy",
@@ -81,59 +100,43 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-16"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 19,
-    "trend": "rising",
-    "catalysts": [
-      "Waymo Opens To Everyone In San Antonio, San Diego, &#038; Ta",
-      "Tesla reveals SpaceX-powered Roadster that flies and falls w",
-      "SpaceX\u2019s Terafab: How Elon Could Scale to TSMC Levels"
-    ],
-    "fundingQ": "$809M",
-    "components": {
-      "funding": 36,
-      "news": 25,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-10-16"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 18,
-    "trend": "declining",
-    "catalysts": [
-      "Active biotech & health ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 90
-    },
-    "lastUpdated": "2026-10-16"
+    "lastUpdated": "2026-10-17"
   },
   {
     "sector": "AI & Software",
-    "momentum": 17,
+    "momentum": 18,
     "trend": "declining",
     "catalysts": [
-      "Anthropic is letting METR researchers look under the hood wi",
-      "Anthropic warns small AI models could self-replicate through",
-      "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy"
+      "Replit is no longer working with Anthropic, CEO says",
+      "OpenAI models hacked a crypto wallet and breached more websi",
+      "Anthropic warns small AI models could self-replicate through"
     ],
     "fundingQ": "$350M",
     "components": {
       "funding": 6,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-16"
+    "lastUpdated": "2026-10-17"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "Hello Toronto! Waymo is En Route",
+      "What is Starshield, SpaceX\u2019s military version of Starlink?",
+      "Shield AI expects to fly its unmanned fighter jet within mon"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-17"
   },
   {
     "sector": "Consumer Tech",
@@ -150,14 +153,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-16"
+    "lastUpdated": "2026-10-17"
   },
   {
-    "sector": "Drones & Autonomous",
+    "sector": "Housing & Construction",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Shield AI expects to fly its unmanned fighter jet within mon"
+      "Can SpaceX Winning AI Data Centers Overcome Losing Model and"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -166,7 +169,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-16"
+    "lastUpdated": "2026-10-17"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -182,23 +185,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-16"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active housing & construction ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-16"
+    "lastUpdated": "2026-10-17"
   },
   {
     "sector": "Ocean & Maritime",
@@ -214,7 +201,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-16"
+    "lastUpdated": "2026-10-17"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -230,7 +217,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-16"
+    "lastUpdated": "2026-10-17"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -246,7 +233,23 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-16"
+    "lastUpdated": "2026-10-17"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 0,
+    "trend": "declining",
+    "catalysts": [
+      "Active biotech & health ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-10-17"
   },
   {
     "sector": "Quantum Computing",
@@ -262,6 +265,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-16"
+    "lastUpdated": "2026-10-17"
   }
 ]
