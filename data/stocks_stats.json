@@ -1,6 +1,6 @@
 {
   "totalMarketCap": "$0.0B",
-  "companiesTracked": 32,
+  "companiesTracked": 31,
   "sectorPerformance": {
     "ai": {
       "gainers": 0,
@@ -40,9 +40,9 @@
     },
     "biotech": {
       "gainers": 0,
-      "losers": 3,
-      "avg_change": -11.86,
-      "count": 3
+      "losers": 2,
+      "avg_change": -7.52,
+      "count": 2
     },
     "transportation": {
       "gainers": 0,
@@ -111,5 +111,5 @@
       -25.47
     ]
   ],
-  "lastUpdated": "2026-10-17 11:40:27"
+  "lastUpdated": "2026-10-17 16:29:15"
 }
