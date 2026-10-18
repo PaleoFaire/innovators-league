@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-17 10:22:15 UTC
+// Last updated: 2026-10-18 10:39:19 UTC
 const SEC_FILINGS_LIVE = [
   { company: "C3.ai", form: "4", date: "2026-10-16", description: "xslF345X06/wk-form4_1792187625.xml", isIPO: false, ticker: "AI" },
   { company: "D-Wave Quantum", form: "4", date: "2026-10-16", description: "xslF345X06/wk-form4_1792186508.xml", isIPO: false, ticker: "QBTS" },
