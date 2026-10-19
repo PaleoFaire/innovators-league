@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-12T17:54:15.002011+00:00",
+  "generated_at": "2026-10-19T15:35:46.331094+00:00",
   "source": "buildlist",
   "source_url": "https://buildlist.xyz/companies",
   "note": "Report only, never applied to data.js. COMPANIES records whose state, country or city disagrees with BuildList's location_city. BuildList can be the stale side; check the company's own site before editing data.js.",
   "compared": 485,
   "matched_by": {
-    "domain": 56,
-    "name": 429
+    "domain": 55,
+    "name": 430
   },
   "ignored": [
     "Hermeus",
