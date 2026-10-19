@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T16:59:49.684157+00:00",
+  "generated_at": "2026-10-19T14:57:48.866169+00:00",
   "count": 45,
   "note": "COMPANIES whose investors field lacks a fund that lists them on its portfolio page. Domain matches are exact; name matches deserve a glance.",
   "items": [
@@ -228,14 +228,6 @@
       "first_funded": ""
     },
     {
-      "company": "Thor Dynamics",
-      "add": "Silent Ventures",
-      "fund": "Silent",
-      "matched_by": "domain",
-      "evidence": "https://silentvc.com/",
-      "first_funded": ""
-    },
-    {
       "company": "Lumaril",
       "add": "Pax Ventures",
       "fund": "Pax Ventures",
@@ -273,6 +265,14 @@
       "fund": "Prime Movers Lab",
       "matched_by": "domain",
       "evidence": "https://www.primemoverslab.com/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "Vannevar Labs",
+      "add": "In-Q-Tel",
+      "fund": "IQT",
+      "matched_by": "domain",
+      "evidence": "https://www.iqt.org/portfolio/",
       "first_funded": ""
     },
     {

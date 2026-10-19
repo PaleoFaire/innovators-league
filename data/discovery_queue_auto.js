@@ -1,17 +1,56 @@
 // Auto-generated from discovery_queue_auto.json
-// Last updated: 2026-10-12T17:02:16+00:00
+// Last updated: 2026-10-19T14:59:36+00:00
 const DISCOVERY_QUEUE_AUTO = {
-  "generatedAt": "2026-10-12T17:02:16+00:00",
-  "knownCompaniesCount": 1993,
+  "generatedAt": "2026-10-19T14:59:36+00:00",
+  "knownCompaniesCount": 1995,
   "summary": {
-    "totalCandidates": 481,
+    "totalCandidates": 482,
     "fromFormD": 0,
-    "fromVcPortfolios": 439,
+    "fromVcPortfolios": 441,
     "fromNewsletters": 23,
     "fromLlmExtraction": 34,
     "multiSource": 2
   },
   "candidates": [
+    {
+      "name": "Crux",
+      "score": 88,
+      "signals": [
+        {
+          "name": "Crux",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2023-04-13",
+          "verifyUrl": "https://cruxclimate.com",
+          "context": "Listed by Lowercarbon, first funded 2023-04-13: Unlocking the clean economy\u2019s trillions. Big Picture Tax credits kickstarted the US clean energy boom. Lower tax bills sparked a green feedback loop of lower costs, greater deployment, rinse and repea"
+        },
+        {
+          "name": "Crux",
+          "source": "VC portfolio: a16z",
+          "sourceWeight": 35,
+          "vc": "a16z",
+          "date": "2023-04-13",
+          "verifyUrl": "https://cruxclimate.com",
+          "context": "Listed by a16z: Unlocking the clean economy\u2019s trillions. Big Picture Tax credits kickstarted the US clean energy boom. Lower tax bills sparked a green feedback loop of lower costs, greater deployment, rinse and repea"
+        },
+        {
+          "name": "Crux",
+          "source": "VC portfolio: a16z",
+          "sourceWeight": 18,
+          "vc": "a16z",
+          "date": "2024-01-30",
+          "verifyUrl": "https://www.crux.com/",
+          "context": "Listed by a16z, first funded 2024-01-30: Crux modernizes how capital is raised and deployed for clean energy and critical infrastructure \u2013 advisory, investments, intelligence, and technology."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
     {
       "name": "Spartan",
       "score": 70,
@@ -280,36 +319,6 @@ const DISCOVERY_QUEUE_AUTO = {
           "date": "2026-10-12",
           "verifyUrl": "https://kallyope.com",
           "context": "Listed by Lux: Kallyope uses the science of gut-brain biology to create medicines that transform human health."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Crux",
-      "score": 53,
-      "signals": [
-        {
-          "name": "Crux",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 35,
-          "vc": "Lowercarbon",
-          "date": "2023-04-13",
-          "verifyUrl": "https://cruxclimate.com",
-          "context": "Listed by Lowercarbon, first funded 2023-04-13: Unlocking the clean economy\u2019s trillions. Big Picture Tax credits kickstarted the US clean energy boom. Lower tax bills sparked a green feedback loop of lower costs, greater deployment, rinse and repea"
-        },
-        {
-          "name": "Crux",
-          "source": "VC portfolio: a16z",
-          "sourceWeight": 18,
-          "vc": "a16z",
-          "date": "2024-01-30",
-          "verifyUrl": "https://www.crux.com/",
-          "context": "Listed by a16z, first funded 2024-01-30: Crux modernizes how capital is raised and deployed for clean energy and critical infrastructure \u2013 advisory, investments, intelligence, and technology."
         }
       ],
       "sources": [
@@ -3316,6 +3325,27 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
+      "name": "1st Avenue Power",
+      "score": 25,
+      "signals": [
+        {
+          "name": "1st Avenue Power",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 25,
+          "vc": "Lowercarbon",
+          "date": "2026-09-30",
+          "verifyUrl": "https://1ap.com",
+          "context": "Listed by Lowercarbon, first funded 2026-09-30: Solar power\u2019s overtime shift. Big Picture AI, EVs, and the electrification of heavy industry are going to need a whole lot of power that the grid currently doesn\u2019t have. Yet while gas turbines are sol"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
       "name": "Clairity",
       "score": 25,
       "signals": [
@@ -4576,6 +4606,132 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
+      "name": "Atomic Tessellator",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Atomic Tessellator",
+          "source": "VC portfolio: IQT",
+          "sourceWeight": 25,
+          "vc": "IQT",
+          "date": "2026-09-25",
+          "verifyUrl": "https://atomictessellator.com/",
+          "context": "Listed by IQT"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "BEI",
+      "score": 25,
+      "signals": [
+        {
+          "name": "BEI",
+          "source": "VC portfolio: IQT",
+          "sourceWeight": 25,
+          "vc": "IQT",
+          "date": "2026-09-25",
+          "verifyUrl": "https://beilab.ai/",
+          "context": "Listed by IQT"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "DefendEye",
+      "score": 25,
+      "signals": [
+        {
+          "name": "DefendEye",
+          "source": "VC portfolio: IQT",
+          "sourceWeight": 25,
+          "vc": "IQT",
+          "date": "2026-09-25",
+          "verifyUrl": "https://defendeye.com/",
+          "context": "Listed by IQT"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Edge",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Edge",
+          "source": "VC portfolio: IQT",
+          "sourceWeight": 25,
+          "vc": "IQT",
+          "date": "2026-09-25",
+          "verifyUrl": "https://www.tactical-edge.com/",
+          "context": "Listed by IQT"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Locus Lock",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Locus Lock",
+          "source": "VC portfolio: IQT",
+          "sourceWeight": 25,
+          "vc": "IQT",
+          "date": "2026-09-28",
+          "verifyUrl": "https://locuslock.com/",
+          "context": "Listed by IQT: Locus Lock builds software-defined GNSS technology for precise, resilient positioning in contested environments, serving aerospace, defense, and mobility companies."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "Mueon",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Mueon",
+          "source": "VC portfolio: IQT",
+          "sourceWeight": 25,
+          "vc": "IQT",
+          "date": "2026-09-25",
+          "verifyUrl": "https://mueon.com/",
+          "context": "Listed by IQT"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
       "name": "Nanotronics",
       "score": 25,
       "signals": [
@@ -4616,132 +4772,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": "Biotech & Health"
-    },
-    {
-      "name": "Atomic Tessellator",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Atomic Tessellator",
-          "source": "VC portfolio: IQT",
-          "sourceWeight": 18,
-          "vc": "IQT",
-          "date": "2026-09-25",
-          "verifyUrl": "https://atomictessellator.com/",
-          "context": "Listed by IQT"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "BEI",
-      "score": 18,
-      "signals": [
-        {
-          "name": "BEI",
-          "source": "VC portfolio: IQT",
-          "sourceWeight": 18,
-          "vc": "IQT",
-          "date": "2026-09-25",
-          "verifyUrl": "https://beilab.ai/",
-          "context": "Listed by IQT"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "DefendEye",
-      "score": 18,
-      "signals": [
-        {
-          "name": "DefendEye",
-          "source": "VC portfolio: IQT",
-          "sourceWeight": 18,
-          "vc": "IQT",
-          "date": "2026-09-25",
-          "verifyUrl": "https://defendeye.com/",
-          "context": "Listed by IQT"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Edge",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Edge",
-          "source": "VC portfolio: IQT",
-          "sourceWeight": 18,
-          "vc": "IQT",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.tactical-edge.com/",
-          "context": "Listed by IQT"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
-    },
-    {
-      "name": "Locus Lock",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Locus Lock",
-          "source": "VC portfolio: IQT",
-          "sourceWeight": 18,
-          "vc": "IQT",
-          "date": "2026-09-28",
-          "verifyUrl": "https://locuslock.com/",
-          "context": "Listed by IQT: Locus Lock builds software-defined GNSS technology for precise, resilient positioning in contested environments, serving aerospace, defense, and mobility companies."
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Space & Aerospace"
-    },
-    {
-      "name": "Mueon",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Mueon",
-          "source": "VC portfolio: IQT",
-          "sourceWeight": 18,
-          "vc": "IQT",
-          "date": "2026-09-25",
-          "verifyUrl": "https://mueon.com/",
-          "context": "Listed by IQT"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": null
     },
     {
       "name": "A-Alpha Bio",

@@ -1985,6 +1985,39 @@
     "source_list": "vc-portfolio-watcher"
   },
   {
+    "name": "Crux",
+    "domain": "cruxclimate.com",
+    "website": "https://cruxclimate.com",
+    "tagline": "Unlocking the clean economy’s trillions. Big Picture Tax credits kickstarted the US clean energy boom. Lower tax bills sparked a green feedback loop of lower costs, greater deployment, rinse and repeat. Trillions-with-a-T are flowing into clean energy, an already- exponential curve bent further by t",
+    "founders": "",
+    "founded": "2023",
+    "city": "Washington, DC",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2023-04-13",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/crux/",
+        "new_this_run": false
+      },
+      {
+        "fund": "a16z",
+        "first_funded": "",
+        "focus": "American Dynamism, Fintech",
+        "source_url": "https://jobs.a16z.com/companies",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.4,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 2,
+    "since": "2023-04-13",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
     "name": "Acceleron",
     "domain": "acceleron.energy",
     "website": "https://acceleron.energy",
@@ -2240,32 +2273,6 @@
     "possible_match": [],
     "listed_by": 1,
     "since": "2025-03-06",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Crux",
-    "domain": "cruxclimate.com",
-    "website": "https://cruxclimate.com",
-    "tagline": "Unlocking the clean economy’s trillions. Big Picture Tax credits kickstarted the US clean energy boom. Lower tax bills sparked a green feedback loop of lower costs, greater deployment, rinse and repeat. Trillions-with-a-T are flowing into clean energy, an already- exponential curve bent further by t",
-    "founders": "",
-    "founded": "2023",
-    "city": "Washington, DC",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2023-04-13",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/crux/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.4,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2023-04-13",
     "detected_at": "2026-09-25T07:59:45.838940+00:00",
     "status": "pending",
     "source_list": "vc-portfolio-watcher"
@@ -3255,6 +3262,32 @@
     "listed_by": 1,
     "since": "2022-02-02",
     "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "1st Avenue Power",
+    "domain": "1ap.com",
+    "website": "https://1ap.com",
+    "tagline": "Solar power’s overtime shift. Big Picture AI, EVs, and the electrification of heavy industry are going to need a whole lot of power that the grid currently doesn’t have. Yet while gas turbines are sold out into the 2030s, solar is a ready-and-waiting generation source that can come online at the spe",
+    "founders": "",
+    "founded": "2025",
+    "city": "Mountain View, CA",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2026-09-30",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/1ap/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.39,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-30",
+    "detected_at": "2026-10-19T14:57:48.866169+00:00",
     "status": "pending",
     "source_list": "vc-portfolio-watcher"
   },
@@ -4871,6 +4904,162 @@
     "source_list": "vc-portfolio-watcher"
   },
   {
+    "name": "Atomic Tessellator",
+    "domain": "atomictessellator.com",
+    "website": "https://atomictessellator.com/",
+    "tagline": "",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "IQT",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://www.iqt.org/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.267,
+    "needs_check": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "BEI",
+    "domain": "beilab.ai",
+    "website": "https://beilab.ai/",
+    "tagline": "",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "IQT",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://www.iqt.org/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.267,
+    "needs_check": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "DefendEye",
+    "domain": "defendeye.com",
+    "website": "https://defendeye.com/",
+    "tagline": "",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "IQT",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://www.iqt.org/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.267,
+    "needs_check": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Edge",
+    "domain": "tactical-edge.com",
+    "website": "https://www.tactical-edge.com/",
+    "tagline": "",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "IQT",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://www.iqt.org/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.267,
+    "needs_check": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Locus Lock",
+    "domain": "locuslock.com",
+    "website": "https://locuslock.com/",
+    "tagline": "Locus Lock builds software-defined GNSS technology for precise, resilient positioning in contested environments, serving aerospace, defense, and mobility companies.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "IQT",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://www.iqt.org/portfolio/",
+        "new_this_run": true
+      }
+    ],
+    "fund_overlap": 0.267,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-28",
+    "detected_at": "2026-09-28T15:56:23.164438+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Mueon",
+    "domain": "mueon.com",
+    "website": "https://mueon.com/",
+    "tagline": "",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "IQT",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://www.iqt.org/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.267,
+    "needs_check": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-09-25",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
     "name": "Nanotronics",
     "domain": "",
     "website": "",
@@ -4918,162 +5107,6 @@
     "possible_match": [],
     "listed_by": 1,
     "since": "2021-12-14",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Atomic Tessellator",
-    "domain": "atomictessellator.com",
-    "website": "https://atomictessellator.com/",
-    "tagline": "",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "IQT",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://www.iqt.org/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.2,
-    "needs_check": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "BEI",
-    "domain": "beilab.ai",
-    "website": "https://beilab.ai/",
-    "tagline": "",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "IQT",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://www.iqt.org/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.2,
-    "needs_check": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "DefendEye",
-    "domain": "defendeye.com",
-    "website": "https://defendeye.com/",
-    "tagline": "",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "IQT",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://www.iqt.org/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.2,
-    "needs_check": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Edge",
-    "domain": "tactical-edge.com",
-    "website": "https://www.tactical-edge.com/",
-    "tagline": "",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "IQT",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://www.iqt.org/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.2,
-    "needs_check": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Locus Lock",
-    "domain": "locuslock.com",
-    "website": "https://locuslock.com/",
-    "tagline": "Locus Lock builds software-defined GNSS technology for precise, resilient positioning in contested environments, serving aerospace, defense, and mobility companies.",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "IQT",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://www.iqt.org/portfolio/",
-        "new_this_run": true
-      }
-    ],
-    "fund_overlap": 0.2,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-28",
-    "detected_at": "2026-09-28T15:56:23.164438+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "Mueon",
-    "domain": "mueon.com",
-    "website": "https://mueon.com/",
-    "tagline": "",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "IQT",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://www.iqt.org/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.2,
-    "needs_check": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-09-25",
     "detected_at": "2026-09-25T07:59:45.838940+00:00",
     "status": "pending",
     "source_list": "vc-portfolio-watcher"
@@ -5217,7 +5250,7 @@
     "tagline": "A-Alpha Bio is a provider of cell-based tools for quantitative and high-throughput measurements of protein interactions, accelerating target discovery, library screening, and preclinical drug characterization. A-Alpha Bio utilizes its proprietary AlphaSeq technology to map protein-protein interactio",
     "founders": "",
     "founded": "",
-    "city": "",
+    "city": "University of Washington, Seattle, WA, USA",
     "funds": [
       {
         "fund": "Lux",
@@ -11427,6 +11460,34 @@
     "listed_by": 1,
     "since": "2023-10-25",
     "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
+  },
+  {
+    "name": "Zipline",
+    "domain": "flyzipline.com",
+    "website": "https://flyzipline.com",
+    "tagline": "Zipline is a Silicon Valley-based logistics company that designs, manufactures, and operates small robotic aircraft to provide fast, reliable, and affordable access to lifesaving medical products.",
+    "founders": "",
+    "founded": "",
+    "city": "South San Francisco, United States",
+    "funds": [
+      {
+        "fund": "a16z",
+        "first_funded": "",
+        "focus": "American Dynamism, Consumer",
+        "source_url": "https://jobs.a16z.com/companies",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.074,
+    "needs_check": false,
+    "possible_match": [
+      "Zipline"
+    ],
+    "listed_by": 1,
+    "since": "2026-10-19",
+    "detected_at": "2026-10-19T14:57:48.866169+00:00",
     "status": "pending",
     "source_list": "vc-portfolio-watcher"
   },
