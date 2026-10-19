@@ -1,6 +1,7 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-18 10:39:19 UTC
+// Last updated: 2026-10-19 12:37:26 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Centrus Energy", form: "8-K", date: "2026-10-19", description: "leu-20261016.htm", isIPO: false, ticker: "LEU" },
   { company: "C3.ai", form: "4", date: "2026-10-16", description: "xslF345X06/wk-form4_1792187625.xml", isIPO: false, ticker: "AI" },
   { company: "D-Wave Quantum", form: "4", date: "2026-10-16", description: "xslF345X06/wk-form4_1792186508.xml", isIPO: false, ticker: "QBTS" },
   { company: "D-Wave Quantum", form: "4", date: "2026-10-16", description: "xslF345X06/wk-form4_1792186445.xml", isIPO: false, ticker: "QBTS" },
@@ -50,5 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "NuScale Power", form: "4", date: "2026-10-02", description: "xslF345X06/wk-form4_1790971909.xml", isIPO: false, ticker: "SMR" },
   { company: "C3.ai", form: "4", date: "2026-10-02", description: "xslF345X06/form4-10022026_101059.xml", isIPO: false, ticker: "AI" },
   { company: "IonQ", form: "4", date: "2026-10-02", description: "xslF345X06/wk-form4_1790976860.xml", isIPO: false, ticker: "IONQ" },
-  { company: "IonQ", form: "4", date: "2026-10-02", description: "xslF345X06/wk-form4_1790976728.xml", isIPO: false, ticker: "IONQ" },
 ];
