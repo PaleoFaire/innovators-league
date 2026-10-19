@@ -3,93 +3,93 @@
  "states": [
   {
    "state": "CA",
-   "roles": 3608,
-   "atoms": 1992,
-   "sw": 709
-  },
-  {
-   "state": "REMOTE",
-   "roles": 531,
-   "atoms": 113,
-   "sw": 149
+   "roles": 7037,
+   "atoms": 3930,
+   "sw": 1505
   },
   {
    "state": "TX",
-   "roles": 410,
-   "atoms": 237,
-   "sw": 51
+   "roles": 1107,
+   "atoms": 623,
+   "sw": 120
   },
   {
    "state": "CO",
-   "roles": 358,
-   "atoms": 215,
-   "sw": 63
+   "roles": 935,
+   "atoms": 532,
+   "sw": 200
   },
   {
    "state": "WA",
-   "roles": 279,
-   "atoms": 132,
-   "sw": 43
+   "roles": 808,
+   "atoms": 380,
+   "sw": 136
+  },
+  {
+   "state": "REMOTE",
+   "roles": 662,
+   "atoms": 171,
+   "sw": 188
   },
   {
    "state": "MA",
-   "roles": 236,
-   "atoms": 108,
-   "sw": 51
-  },
-  {
-   "state": "NY",
-   "roles": 206,
-   "atoms": 70,
-   "sw": 63
+   "roles": 652,
+   "atoms": 341,
+   "sw": 147
   },
   {
    "state": "VA",
-   "roles": 103,
-   "atoms": 31,
-   "sw": 27
+   "roles": 255,
+   "atoms": 95,
+   "sw": 63
   },
   {
-   "state": "NV",
-   "roles": 94,
-   "atoms": 68,
-   "sw": 5
+   "state": "NY",
+   "roles": 196,
+   "atoms": 80,
+   "sw": 67
   },
   {
-   "state": "NC",
-   "roles": 73,
-   "atoms": 48,
-   "sw": 6
-  },
-  {
-   "state": "SC",
-   "roles": 59,
-   "atoms": 29,
-   "sw": 1
-  },
-  {
-   "state": "OR",
-   "roles": 56,
-   "atoms": 32,
-   "sw": 5
-  },
-  {
-   "state": "DC",
-   "roles": 48,
-   "atoms": 2,
-   "sw": 13
+   "state": "OH",
+   "roles": 175,
+   "atoms": 128,
+   "sw": 16
   },
   {
    "state": "FL",
-   "roles": 45,
-   "atoms": 22,
-   "sw": 10
+   "roles": 126,
+   "atoms": 81,
+   "sw": 15
   },
   {
-   "state": "UT",
-   "roles": 44,
-   "atoms": 30,
-   "sw": 0
+   "state": "WV",
+   "roles": 103,
+   "atoms": 84,
+   "sw": 3
+  },
+  {
+   "state": "NV",
+   "roles": 95,
+   "atoms": 65,
+   "sw": 5
+  },
+  {
+   "state": "PA",
+   "roles": 89,
+   "atoms": 38,
+   "sw": 29
+  },
+  {
+   "state": "GA",
+   "roles": 88,
+   "atoms": 49,
+   "sw": 20
+  },
+  {
+   "state": "RI",
+   "roles": 82,
+   "atoms": 58,
+   "sw": 9
   }
  ]
 }

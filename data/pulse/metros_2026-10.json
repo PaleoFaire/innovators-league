@@ -1,196 +1,189 @@
 {
  "month": "2026-10",
- "constant_set_size": 48,
+ "constant_set_size": 46,
  "top": [
   {
-   "metro": "San Francisco, CA",
-   "postings": 687,
-   "companies": 41,
-   "postings_12w_ago": 145
-  },
-  {
-   "metro": "Los Angeles, CA",
-   "postings": 475,
-   "companies": 22,
-   "postings_12w_ago": 104
-  },
-  {
-   "metro": "El Segundo, CA",
-   "postings": 456,
-   "companies": 16,
-   "postings_12w_ago": 258
-  },
-  {
-   "metro": "Torrance, CA",
-   "postings": 393,
-   "companies": 7,
-   "postings_12w_ago": 109
-  },
-  {
-   "metro": "Austin, TX",
-   "postings": 315,
-   "companies": 19,
-   "postings_12w_ago": 151
-  },
-  {
-   "metro": "South San Francisco, CA",
-   "postings": 284,
-   "companies": 5,
-   "postings_12w_ago": 146
-  },
-  {
-   "metro": "Long Beach, CA",
-   "postings": 259,
-   "companies": 8,
-   "postings_12w_ago": 148
-  },
-  {
-   "metro": "Mountain View, CA",
-   "postings": 203,
-   "companies": 13,
-   "postings_12w_ago": 114
-  },
-  {
-   "metro": "San Jose, CA",
-   "postings": 189,
-   "companies": 5,
-   "postings_12w_ago": 139
-  },
-  {
-   "metro": "New York, NY",
-   "postings": 157,
-   "companies": 22,
-   "postings_12w_ago": 2
-  },
-  {
-   "metro": "Huntington Beach, CA",
-   "postings": 153,
+   "metro": "Costa Mesa, CA",
+   "postings": 1315,
    "companies": 2,
    "postings_12w_ago": 0
   },
   {
+   "metro": "Austin, TX",
+   "postings": 817,
+   "companies": 36,
+   "postings_12w_ago": 144
+  },
+  {
+   "metro": "Los Angeles, CA",
+   "postings": 718,
+   "companies": 32,
+   "postings_12w_ago": 107
+  },
+  {
+   "metro": "San Francisco, CA",
+   "postings": 717,
+   "companies": 53,
+   "postings_12w_ago": 150
+  },
+  {
+   "metro": "Long Beach, CA",
+   "postings": 597,
+   "companies": 10,
+   "postings_12w_ago": 151
+  },
+  {
+   "metro": "Mountain View, CA",
+   "postings": 554,
+   "companies": 17,
+   "postings_12w_ago": 123
+  },
+  {
+   "metro": "El Segundo, CA",
+   "postings": 546,
+   "companies": 19,
+   "postings_12w_ago": 263
+  },
+  {
+   "metro": "Torrance, CA",
+   "postings": 383,
+   "companies": 7,
+   "postings_12w_ago": 129
+  },
+  {
+   "metro": "San Jose, CA",
+   "postings": 379,
+   "companies": 9,
+   "postings_12w_ago": 136
+  },
+  {
    "metro": "Denver, CO",
-   "postings": 122,
-   "companies": 12,
+   "postings": 293,
+   "companies": 14,
    "postings_12w_ago": 1
   },
   {
-   "metro": "Berthoud, CO",
-   "postings": 96,
-   "companies": 1,
-   "postings_12w_ago": 58
-  },
-  {
-   "metro": "Palo Alto, CA",
-   "postings": 92,
-   "companies": 7,
-   "postings_12w_ago": 35
-  },
-  {
    "metro": "Seattle, WA",
-   "postings": 86,
-   "companies": 10,
-   "postings_12w_ago": 27
+   "postings": 291,
+   "companies": 19,
+   "postings_12w_ago": 24
   },
   {
-   "metro": "Garden Grove, CA",
-   "postings": 85,
-   "companies": 1,
-   "postings_12w_ago": 0
+   "metro": "South San Francisco, CA",
+   "postings": 275,
+   "companies": 6,
+   "postings_12w_ago": 160
   },
   {
    "metro": "Boston, MA",
-   "postings": 85,
-   "companies": 14,
-   "postings_12w_ago": 28
+   "postings": 214,
+   "companies": 19,
+   "postings_12w_ago": 29
   },
   {
    "metro": "Houston, TX",
-   "postings": 85,
-   "companies": 11,
-   "postings_12w_ago": 17
+   "postings": 204,
+   "companies": 15,
+   "postings_12w_ago": 16
   },
   {
-   "metro": "Playa Vista, CA",
-   "postings": 81,
-   "companies": 1,
-   "postings_12w_ago": 73
-  },
-  {
-   "metro": "Menlo Park, CA",
-   "postings": 81,
-   "companies": 1,
+   "metro": "Irvine, CA",
+   "postings": 191,
+   "companies": 3,
    "postings_12w_ago": 0
   },
   {
-   "metro": "McCarran, NV",
-   "postings": 79,
-   "companies": 1,
-   "postings_12w_ago": 57
+   "metro": "Washington, WA",
+   "postings": 181,
+   "companies": 22,
+   "postings_12w_ago": 43
   },
   {
-   "metro": "Mojave, CA",
-   "postings": 75,
-   "companies": 3,
-   "postings_12w_ago": 5
-  },
-  {
-   "metro": "Burlingame, CA",
-   "postings": 69,
+   "metro": "Huntington Beach, CA",
+   "postings": 162,
    "companies": 2,
    "postings_12w_ago": 0
   },
   {
    "metro": "Santa Clara, CA",
-   "postings": 65,
-   "companies": 5,
-   "postings_12w_ago": 11
+   "postings": 152,
+   "companies": 12,
+   "postings_12w_ago": 12
   },
   {
-   "metro": "Redwood City, CA",
-   "postings": 59,
-   "companies": 4,
+   "metro": "Dallas, TX",
+   "postings": 142,
+   "companies": 6,
+   "postings_12w_ago": 2
+  },
+  {
+   "metro": "Westminster, CO",
+   "postings": 142,
+   "companies": 1,
    "postings_12w_ago": 0
   },
   {
-   "metro": "Gardena, CA",
-   "postings": 55,
-   "companies": 2,
-   "postings_12w_ago": 0
+   "metro": "New York, NY",
+   "postings": 132,
+   "companies": 21,
+   "postings_12w_ago": 3
   },
   {
-   "metro": "Golden, CO",
-   "postings": 50,
+   "metro": "San Carlos, CA",
+   "postings": 131,
    "companies": 3,
    "postings_12w_ago": 0
+  },
+  {
+   "metro": "Palo Alto, CA",
+   "postings": 126,
+   "companies": 12,
+   "postings_12w_ago": 34
   },
   {
    "metro": "Alameda, CA",
-   "postings": 49,
-   "companies": 3,
+   "postings": 124,
+   "companies": 6,
    "postings_12w_ago": 17
   },
   {
-   "metro": "Emeryville, CA",
-   "postings": 47,
-   "companies": 2,
-   "postings_12w_ago": 13
-  },
-  {
-   "metro": "Kirkland, WA",
-   "postings": 47,
+   "metro": "Ashville, OH",
+   "postings": 123,
    "companies": 1,
    "postings_12w_ago": 0
+  },
+  {
+   "metro": "San Diego, CA",
+   "postings": 120,
+   "companies": 8,
+   "postings_12w_ago": 6
+  },
+  {
+   "metro": "San Mateo, CA",
+   "postings": 117,
+   "companies": 2,
+   "postings_12w_ago": 0
+  },
+  {
+   "metro": "Devens, MA",
+   "postings": 111,
+   "companies": 2,
+   "postings_12w_ago": 0
+  },
+  {
+   "metro": "Santa Ana, CA",
+   "postings": 109,
+   "companies": 2,
+   "postings_12w_ago": 0
+  },
+  {
+   "metro": "Broomfield, CO",
+   "postings": 103,
+   "companies": 7,
+   "postings_12w_ago": 8
   }
  ],
  "new_this_quarter": [
-  {
-   "metro": "Longmont, CO",
-   "postings": 9,
-   "companies": [
-    "Ursa Major Technologies"
-   ]
-  },
   {
    "metro": "Ann Arbor, CA",
    "postings": 8,

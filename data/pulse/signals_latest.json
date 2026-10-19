@@ -1,49 +1,332 @@
 {
- "week": "2026-W42",
- "generated": "2026-10-12",
- "count": 3,
+ "week": "2026-W43",
+ "generated": "2026-10-19",
+ "count": 25,
  "by_type": {
-  "production_turn": 1,
-  "hiring_surge": 1,
-  "hiring_pullback": 1
+  "hiring_surge": 8,
+  "senior_manufacturing_hire": 1,
+  "hiring_pullback": 14,
+  "board_check": 2
  },
  "signals": [
   {
-   "company": "Atomic Machines",
-   "bucket": "Chips & Quantum",
-   "state": "CA",
-   "type": "production_turn",
-   "week": "2026-W42",
-   "evidence": {
-    "atoms_share_now_pct": 65.5,
-    "atoms_share_12w_ago_pct": 48.3,
-    "roles_now": 29
-   },
-   "last_capital_event": null
-  },
-  {
-   "company": "Arbor Energy",
+   "company": "Critical Loop",
    "bucket": "Power & Grid",
    "state": "CA",
    "type": "hiring_surge",
-   "week": "2026-W42",
+   "week": "2026-W43",
    "evidence": {
-    "roles_4w_ago": 14,
-    "roles_now": 19,
-    "change_pct": 35.7
+    "roles_4w_ago": 10,
+    "roles_now": 13,
+    "change_pct": 30.0
    },
    "last_capital_event": null
   },
   {
-   "company": "Carbon Robotics",
+   "company": "Maven Robotics",
    "bucket": "Autonomy & Robotics",
-   "state": "WA",
+   "state": "CA",
+   "type": "senior_manufacturing_hire",
+   "week": "2026-W43",
+   "evidence": {
+    "senior_roles_now": 1
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Star Catcher",
+   "bucket": "Space & Aerospace",
+   "state": "FL",
+   "type": "hiring_surge",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 19,
+    "roles_now": 36,
+    "change_pct": 89.5
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Dexterity",
+   "bucket": "Autonomy & Robotics",
+   "state": "CA",
    "type": "hiring_pullback",
-   "week": "2026-W42",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 10,
+    "roles_now": 6,
+    "change_pct": -40.0
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Heron Power",
+   "bucket": "Power & Grid",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 36,
+    "roles_now": 49,
+    "change_pct": 36.1
+   },
+   "last_capital_event": "2026-02"
+  },
+  {
+   "company": "Nuvacore",
+   "bucket": "Chips & Quantum",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W43",
    "evidence": {
     "roles_4w_ago": 18,
+    "roles_now": 24,
+    "change_pct": 33.3
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Armadin",
+   "bucket": "Defence",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 18,
+    "roles_now": 25,
+    "change_pct": 38.9
+   },
+   "last_capital_event": "2026-10"
+  },
+  {
+   "company": "Revel",
+   "bucket": "Manufacturing & Materials",
+   "state": "CA",
+   "type": "board_check",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 1,
+    "roles_now": 30
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Skylo",
+   "bucket": "Space & Aerospace",
+   "state": "CA",
+   "type": "hiring_pullback",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 47,
+    "roles_now": 27,
+    "change_pct": -42.6
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Sofar Ocean",
+   "bucket": "Autonomy & Robotics",
+   "state": "CA",
+   "type": "hiring_pullback",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 13,
+    "roles_now": 9,
+    "change_pct": -30.8
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Twenty",
+   "bucket": "Defence",
+   "state": "VA",
+   "type": "hiring_surge",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 28,
+    "roles_now": 39,
+    "change_pct": 39.3
+   },
+   "last_capital_event": "2026-07"
+  },
+  {
+   "company": "Atoms",
+   "bucket": "Autonomy & Robotics",
+   "state": "CA",
+   "type": "hiring_pullback",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 130,
+    "roles_now": 28,
+    "change_pct": -78.5
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Poseidon Aerospace",
+   "bucket": "Space & Aerospace",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 20,
+    "roles_now": 27,
+    "change_pct": 35.0
+   },
+   "last_capital_event": "2026-09"
+  },
+  {
+   "company": "Pickle Robot Company",
+   "bucket": "Autonomy & Robotics",
+   "state": "MA",
+   "type": "hiring_pullback",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 15,
+    "roles_now": 8,
+    "change_pct": -46.7
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Quantum Space",
+   "bucket": "Space & Aerospace",
+   "state": "MD",
+   "type": "hiring_pullback",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 39,
+    "roles_now": 17,
+    "change_pct": -56.4
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Pano AI",
+   "bucket": "Power & Grid",
+   "state": "CA",
+   "type": "hiring_pullback",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 10,
+    "roles_now": 3,
+    "change_pct": -70.0
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "TurbineOne",
+   "bucket": "Defence",
+   "state": "VA",
+   "type": "hiring_pullback",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 11,
+    "roles_now": 6,
+    "change_pct": -45.5
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Strider Technologies",
+   "bucket": "Defence",
+   "state": "UT",
+   "type": "hiring_pullback",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 17,
     "roles_now": 11,
-    "change_pct": -38.9
+    "change_pct": -35.3
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Blue Energy",
+   "bucket": "Nuclear",
+   "state": "MD",
+   "type": "hiring_pullback",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 19,
+    "roles_now": 12,
+    "change_pct": -36.8
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Long Wall",
+   "bucket": "Defence",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 17,
+    "roles_now": 23,
+    "change_pct": 35.3
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "GrayMatter Robotics",
+   "bucket": "Manufacturing & Materials",
+   "state": "CA",
+   "type": "hiring_pullback",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 18,
+    "roles_now": 12,
+    "change_pct": -33.3
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Emerald AI",
+   "bucket": "Power & Grid",
+   "state": "DC",
+   "type": "hiring_pullback",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 11,
+    "roles_now": 7,
+    "change_pct": -36.4
+   },
+   "last_capital_event": "2026-08"
+  },
+  {
+   "company": "Corvus Robotics",
+   "bucket": "Autonomy & Robotics",
+   "state": "CA",
+   "type": "hiring_pullback",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 10,
+    "roles_now": 4,
+    "change_pct": -60.0
+   },
+   "last_capital_event": "2026-08"
+  },
+  {
+   "company": "Kinetic Automation",
+   "bucket": "Manufacturing & Materials",
+   "state": "CA",
+   "type": "board_check",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 2,
+    "roles_now": 22
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Singularity",
+   "bucket": "Defence",
+   "state": "CA",
+   "type": "hiring_pullback",
+   "week": "2026-W43",
+   "evidence": {
+    "roles_4w_ago": 43,
+    "roles_now": 26,
+    "change_pct": -39.5
    },
    "last_capital_event": null
   }

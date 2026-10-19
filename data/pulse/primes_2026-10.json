@@ -2,16 +2,57 @@
  "month": "2026-10",
  "primes": [
   {
+   "prime": "Lockheed Martin",
+   "ticker": "LMT",
+   "partners_tracked": 8,
+   "on_panel": 2,
+   "diffusion_4w": 50.0,
+   "roles_now": 128,
+   "roles_4w_ago": 119,
+   "partners": [
+    "Anello Photonics",
+    "Divergent"
+   ]
+  },
+  {
    "prime": "Raytheon / RTX",
    "ticker": "RTX",
    "partners_tracked": 5,
-   "on_panel": 2,
-   "diffusion_4w": 100.0,
-   "roles_now": 169,
-   "roles_4w_ago": 143,
+   "on_panel": 3,
+   "diffusion_4w": 50.0,
+   "roles_now": 187,
+   "roles_4w_ago": 183,
    "partners": [
     "Divergent",
-    "Epirus"
+    "Epirus",
+    "Observable Space"
+   ]
+  },
+  {
+   "prime": "Northrop Grumman",
+   "ticker": "NOC",
+   "partners_tracked": 5,
+   "on_panel": 3,
+   "diffusion_4w": 50.0,
+   "roles_now": 73,
+   "roles_4w_ago": 76,
+   "partners": [
+    "Observable Space",
+    "Picogrid",
+    "Scout AI"
+   ]
+  },
+  {
+   "prime": "General Dynamics",
+   "ticker": "GD",
+   "partners_tracked": 6,
+   "on_panel": 2,
+   "diffusion_4w": 25.0,
+   "roles_now": 42,
+   "roles_4w_ago": 46,
+   "partners": [
+    "Span",
+    "Union"
    ]
   }
  ]

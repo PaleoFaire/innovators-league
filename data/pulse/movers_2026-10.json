@@ -2,36 +2,36 @@
  "month": "2026-10",
  "up": [
   {
-   "company": "Ocean Infinity",
-   "bucket": "Autonomy & Robotics",
-   "roles_prev": 20,
-   "roles_now": 33,
-   "change": 13,
-   "change_pct": 65.0
-  },
-  {
    "company": "Star Catcher",
    "bucket": "Space & Aerospace",
    "roles_prev": 20,
-   "roles_now": 33,
-   "change": 13,
-   "change_pct": 65.0
-  },
-  {
-   "company": "DEFCON AI",
-   "bucket": "Defence",
-   "roles_prev": 5,
-   "roles_now": 8,
-   "change": 3,
-   "change_pct": 60.0
+   "roles_now": 36,
+   "change": 16,
+   "change_pct": 80.0
   },
   {
    "company": "Rangeview",
    "bucket": "Manufacturing & Materials",
    "roles_prev": 7,
-   "roles_now": 10,
-   "change": 3,
-   "change_pct": 42.9
+   "roles_now": 11,
+   "change": 4,
+   "change_pct": 57.1
+  },
+  {
+   "company": "Verse",
+   "bucket": "Power & Grid",
+   "roles_prev": 5,
+   "roles_now": 7,
+   "change": 2,
+   "change_pct": 40.0
+  },
+  {
+   "company": "DEFCON AI",
+   "bucket": "Defence",
+   "roles_prev": 5,
+   "roles_now": 7,
+   "change": 2,
+   "change_pct": 40.0
   },
   {
    "company": "Long Wall",
@@ -42,6 +42,30 @@
    "change_pct": 35.3
   },
   {
+   "company": "Chaos Industries",
+   "bucket": "Defence",
+   "roles_prev": 122,
+   "roles_now": 161,
+   "change": 39,
+   "change_pct": 32.0
+  },
+  {
+   "company": "Kairos Power",
+   "bucket": "Nuclear",
+   "roles_prev": 32,
+   "roles_now": 42,
+   "change": 10,
+   "change_pct": 31.2
+  },
+  {
+   "company": "Critical Loop",
+   "bucket": "Power & Grid",
+   "roles_prev": 10,
+   "roles_now": 13,
+   "change": 3,
+   "change_pct": 30.0
+  },
+  {
    "company": "JetZero",
    "bucket": "Autonomy & Robotics",
    "roles_prev": 17,
@@ -50,39 +74,31 @@
    "change_pct": 29.4
   },
   {
-   "company": "Remora",
+   "company": "Heron Power",
    "bucket": "Power & Grid",
-   "roles_prev": 7,
-   "roles_now": 9,
-   "change": 2,
-   "change_pct": 28.6
-  },
-  {
-   "company": "Lumotive",
-   "bucket": "Chips & Quantum",
-   "roles_prev": 7,
-   "roles_now": 9,
-   "change": 2,
-   "change_pct": 28.6
-  },
-  {
-   "company": "Performance Drone Works",
-   "bucket": "Defence",
-   "roles_prev": 28,
-   "roles_now": 36,
-   "change": 8,
-   "change_pct": 28.6
-  },
-  {
-   "company": "Distributed Spectrum",
-   "bucket": "Defence",
-   "roles_prev": 11,
-   "roles_now": 14,
-   "change": 3,
-   "change_pct": 27.3
+   "roles_prev": 38,
+   "roles_now": 49,
+   "change": 11,
+   "change_pct": 28.9
   }
  ],
  "down": [
+  {
+   "company": "Atoms",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 134,
+   "roles_now": 28,
+   "change": -106,
+   "change_pct": -79.1
+  },
+  {
+   "company": "Pano AI",
+   "bucket": "Power & Grid",
+   "roles_prev": 7,
+   "roles_now": 3,
+   "change": -4,
+   "change_pct": -57.1
+  },
   {
    "company": "Quantum Space",
    "bucket": "Space & Aerospace",
@@ -100,34 +116,23 @@
    "change_pct": -50.0
   },
   {
-   "company": "Corvus Robotics",
-   "bucket": "Autonomy & Robotics",
-   "roles_prev": 8,
-   "roles_now": 4,
-   "change": -4,
+   "company": "Still Bright",
+   "bucket": "Manufacturing & Materials",
+   "roles_prev": 6,
+   "roles_now": 3,
+   "change": -3,
    "change_pct": -50.0
-  },
-  {
-   "company": "Dexterity",
-   "bucket": "Autonomy & Robotics",
-   "roles_prev": 9,
-   "roles_now": 5,
-   "change": -4,
-   "change_pct": -44.4
-  },
-  {
-   "company": "Carbon Robotics",
-   "bucket": "Autonomy & Robotics",
-   "roles_prev": 18,
-   "roles_now": 11,
-   "change": -7,
-   "change_pct": -38.9
   }
  ],
  "factory_flags": [
+  "Anello Photonics",
+  "Armada",
+  "Critical Loop",
   "Heliux",
   "Northwood Space",
   "Rondo Energy",
-  "Star Catcher"
+  "Sierra Space",
+  "Star Catcher",
+  "Vast"
  ]
 }
