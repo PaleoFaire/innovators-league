@@ -5,73 +5,63 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -6.25,
+      "avg_change": -7.7,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -11.06,
+      "avg_change": -11.82,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -3.96,
+      "avg_change": -5.13,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.35,
+      "avg_change": -12.41,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.14,
+      "avg_change": -5.77,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.61,
+      "avg_change": -10.24,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -1.84,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -2.58,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -3.48,
+      "avg_change": -3.72,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.99,
+      "avg_change": -9.81,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "TEM",
-      "Tempus AI",
-      0.75
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -0.19
-    ],
-    [
       "TSLA",
       "Tesla",
-      -0.2
+      -0.41
     ],
     [
       "DRSHF",
@@ -82,34 +72,44 @@
       "ONT.L",
       "Oxford Nanopore Technologies",
       -1.04
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      -1.07
+    ],
+    [
+      "TEM",
+      "Tempus AI",
+      -2.15
     ]
   ],
   "topLosers": [
     [
+      "LUNR",
+      "Intuitive Machines",
+      -13.46
+    ],
+    [
       "OKLO",
       "Oklo",
-      -12.49
+      -13.53
     ],
     [
       "SMR",
       "NuScale Power",
-      -12.56
-    ],
-    [
-      "LUNR",
-      "Intuitive Machines",
-      -12.64
+      -14.02
     ],
     [
       "SATL",
       "Satellogic",
-      -17.47
+      -18.9
     ],
     [
       "RKLB",
       "Rocket Lab",
-      -19.8
+      -20.74
     ]
   ],
-  "lastUpdated": "2026-10-20 18:05:25"
+  "lastUpdated": "2026-10-20 22:24:07"
 }
