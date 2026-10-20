@@ -11,13 +11,13 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -14.01,
+      "avg_change": -14.02,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -9.58,
+      "avg_change": -9.67,
       "count": 7
     },
     "nuclear": {
@@ -59,14 +59,14 @@
   },
   "topGainers": [
     [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -2.48
+    ],
+    [
       "TSLA",
       "Tesla",
       -2.64
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -3.32
     ],
     [
       "ONT.L",
@@ -74,9 +74,9 @@
       -3.59
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      -3.64
+      "9348.T",
+      "ispace",
+      -3.83
     ],
     [
       "NVDA",
@@ -111,5 +111,5 @@
       -21.84
     ]
   ],
-  "lastUpdated": "2026-10-19 22:59:44"
+  "lastUpdated": "2026-10-20 06:08:16"
 }
