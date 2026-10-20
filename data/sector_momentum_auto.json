@@ -4,8 +4,8 @@
     "momentum": 55,
     "trend": "accelerating",
     "catalysts": [
+      "Gecko Robotics secures $300M contract with the U.S. Navy",
       "Hello Toronto! Waymo is En Route",
-      "Waymo&#8217;s robotaxis are headed to Canada",
       "Waymo picks Toronto as first Canadian city, targets riders i"
     ],
     "fundingQ": "$6.4B",
@@ -15,40 +15,42 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-19"
+    "lastUpdated": "2026-10-20"
   },
   {
     "sector": "Defense & Security",
+    "momentum": 40,
+    "trend": "steady",
+    "catalysts": [
+      "Gecko Robotics secures $300M contract with the U.S. Navy",
+      "Shield AI software cuts autonomous flight development to six",
+      "What is Starshield, SpaceX\u2019s military version of Starlink?"
+    ],
+    "fundingQ": "$4.1B",
+    "components": {
+      "funding": 100,
+      "news": 20,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-10-20"
+  },
+  {
+    "sector": "Nuclear Energy",
     "momentum": 38,
     "trend": "steady",
     "catalysts": [
-      "What is Starshield, SpaceX\u2019s military version of Starlink?",
-      "Shield AI expects to fly its unmanned fighter jet within mon"
+      "AEP signs 960-MW Indiana nuclear pact with Amazon, X-energy",
+      "With federal funding windfall, X-energy advances small nucle"
     ],
-    "fundingQ": "$4.1B",
+    "fundingQ": "$1.0B",
     "components": {
       "funding": 100,
       "news": 10,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-19"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 36,
-    "trend": "steady",
-    "catalysts": [
-      "With federal funding windfall, X-energy advances small nucle"
-    ],
-    "fundingQ": "$1.0B",
-    "components": {
-      "funding": 100,
-      "news": 5,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-10-19"
+    "lastUpdated": "2026-10-20"
   },
   {
     "sector": "Transportation",
@@ -64,79 +66,97 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-19"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 20,
-    "trend": "rising",
-    "catalysts": [
-      "With federal funding windfall, X-energy advances small nucle",
-      "Mazama Energy raises $135M for superhot geothermal at Oregon",
-      "xAI has quietly built a massive battery at its Memphis data"
-    ],
-    "fundingQ": "$550M",
-    "components": {
-      "funding": 46,
-      "news": 15,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-10-19"
+    "lastUpdated": "2026-10-20"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 19,
+    "momentum": 25,
     "trend": "rising",
     "catalysts": [
-      "Can SpaceX Winning AI Data Centers Overcome Losing Model and",
-      "What is Starshield, SpaceX\u2019s military version of Starlink?",
-      "Waymo Opens To Everyone In San Antonio, San Diego, &#038; Ta"
+      "Top Investor Predicts SpaceX Will Buy Tesla At $420/Share In",
+      "Russian satellite stalked ICEYE spacecraft in potentially da",
+      "Shield AI software cuts autonomous flight development to six"
     ],
     "fundingQ": "$809M",
     "components": {
       "funding": 36,
-      "news": 25,
+      "news": 50,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-19"
+    "lastUpdated": "2026-10-20"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 21,
+    "trend": "rising",
+    "catalysts": [
+      "Top Investor Predicts SpaceX Will Buy Tesla At $420/Share In",
+      "With federal funding windfall, X-energy advances small nucle",
+      "Mazama Energy raises $135M for superhot geothermal at Oregon"
+    ],
+    "fundingQ": "$550M",
+    "components": {
+      "funding": 46,
+      "news": 20,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-10-20"
   },
   {
     "sector": "AI & Software",
-    "momentum": 18,
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
-      "Replit makes OpenAI its default over Anthropic, CEO says",
-      "OpenAI models hacked a crypto wallet and breached more websi",
-      "Anthropic warns small AI models could self-replicate through"
+      "OpenAI Engineer Accused of Spying on Executives Ordered to R",
+      "Musk pledges to give &#8216;every kid in America&#8217; one",
+      "OpenAI models hacked a crypto wallet and breached more websi"
     ],
     "fundingQ": "$350M",
     "components": {
       "funding": 6,
-      "news": 25,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-19"
+    "lastUpdated": "2026-10-20"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 14,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
+      "Shield AI software cuts autonomous flight development to six",
       "Hello Toronto! Waymo is En Route",
-      "What is Starshield, SpaceX\u2019s military version of Starlink?",
-      "Shield AI expects to fly its unmanned fighter jet within mon"
+      "What is Starshield, SpaceX\u2019s military version of Starlink?"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-19"
+    "lastUpdated": "2026-10-20"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 16,
+    "trend": "declining",
+    "catalysts": [
+      "Gecko Robotics secures $300M contract with the U.S. Navy",
+      "Top Investor Predicts SpaceX Will Buy Tesla At $420/Share In",
+      "Embedded AI evaluators won&#8217;t be an easy solution, Hugg"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-20"
   },
   {
     "sector": "Housing & Construction",
@@ -152,23 +172,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-19"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Agility chooses Nyobolt for ultra-fast charging for Digit 5"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-19"
+    "lastUpdated": "2026-10-20"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -184,7 +188,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-19"
+    "lastUpdated": "2026-10-20"
   },
   {
     "sector": "Ocean & Maritime",
@@ -200,7 +204,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-19"
+    "lastUpdated": "2026-10-20"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -216,14 +220,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-19"
+    "lastUpdated": "2026-10-20"
   },
   {
     "sector": "Chips & Semiconductors",
     "momentum": 1,
     "trend": "declining",
     "catalysts": [
-      "SpaceX\u2019s Terafab: How Elon Could Scale to TSMC Levels"
+      "Tenstorrent hits $6.2B valuation to scale open-weight AI chi"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -232,7 +236,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-19"
+    "lastUpdated": "2026-10-20"
   },
   {
     "sector": "Biotech & Health",
@@ -248,7 +252,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-19"
+    "lastUpdated": "2026-10-20"
   },
   {
     "sector": "Quantum Computing",
@@ -264,6 +268,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-19"
+    "lastUpdated": "2026-10-20"
   }
 ]

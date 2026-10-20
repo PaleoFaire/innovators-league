@@ -1,23 +1,225 @@
 [
   {
-    "title": "Replit makes OpenAI its default over Anthropic, CEO says",
-    "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-    "description": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
-    "pubDate": "Sat, 17 Oct 2026 18:48:08 +0000",
+    "title": "Gecko Robotics secures $300M contract with the U.S. Navy",
+    "link": "https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/",
+    "description": "Gecko claimed this signals the Pentagon’s confidence that it is a core military capability that is delivering results.\nThe post Gecko Robotics secures $300M contract with the U.S. Navy appeared first on The Robot Report.",
+    "pubDate": "Tue, 20 Oct 2026 10:25:47 +0000",
+    "category": "Artificial Intelligence",
+    "source": "The Robot Report",
+    "feedCategory": "robotics",
+    "matchedCompany": "Gecko Robotics",
+    "matchedCompanies": [
+      "Gecko Robotics"
+    ],
+    "sectors": [
+      "robotics"
+    ],
+    "type": "contract",
+    "impact": "medium",
+    "time": "Just now"
+  },
+  {
+    "title": "Top Investor Predicts SpaceX Will Buy Tesla At $420/Share In Coming Weeks",
+    "link": "https://cleantechnica.com/2026/10/19/top-investor-predicts-spacex-will-buy-tesla-at-420-share-in-coming-weeks/",
+    "description": "There&#8217;s been a lot of chatter in recent days, weeks, and months about the possibility that SpaceX and Tesla will merge. Elon Musk has been a fan of merging, swallowing, and mushing together his companies. This has happened especially as Musk companies have needed saving. Tesla saved SolarCity,",
+    "pubDate": "Tue, 20 Oct 2026 03:55:51 +0000",
+    "category": "Clean Power",
+    "source": "CleanTechnica",
+    "feedCategory": "energy",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "7h ago"
+  },
+  {
+    "title": "Embedded AI evaluators won&#8217;t be an easy solution, Hugging Face&#8217;s policy chief says",
+    "link": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+    "description": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology.",
+    "pubDate": "Mon, 19 Oct 2026 22:49:27 +0000",
     "category": "AI",
     "source": "TechCrunch",
     "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
+    "matchedCompany": "Hugging Face",
     "matchedCompanies": [
-      "Anthropic",
-      "OpenAI"
+      "Hugging Face"
     ],
     "sectors": [
       "ai"
     ],
+    "type": "news",
+    "impact": "low",
+    "time": "12h ago"
+  },
+  {
+    "title": "Russian satellite stalked ICEYE spacecraft in potentially dangerous on-orbit maneuvers",
+    "link": "https://breakingdefense.com/2026/10/russian-satellite-stalked-iceye-spacecraft-in-potentially-dangerous-on-orbit-maneuvers/",
+    "description": "The Cosmos 2612 came within 500 meters (about a third of a mile) to US-flagged ICEYE-X36 believed to be supporting Ukraine, according to LeoLabs.",
+    "pubDate": "Mon, 19 Oct 2026 20:57:20 +0000",
+    "category": "Space",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "ICEYE",
+    "matchedCompanies": [
+      "ICEYE",
+      "LeoLabs"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "14h ago"
+  },
+  {
+    "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
+    "link": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
+    "description": "A judge ordered Abdulrahman Alfozan to remain in custody, likening the Saudi government’s offer to secure the former OpenAI engineer’s release to a “blank check.”",
+    "pubDate": "Mon, 19 Oct 2026 19:49:17 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Palantir"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "15h ago"
+  },
+  {
+    "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+    "link": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+    "description": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
+    "pubDate": "Mon, 19 Oct 2026 18:37:27 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Tenstorrent",
+    "matchedCompanies": [
+      "Tenstorrent"
+    ],
+    "sectors": [
+      "chips"
+    ],
+    "type": "funding",
+    "impact": "low",
+    "time": "16h ago"
+  },
+  {
+    "title": "Shield AI software cuts autonomous flight development to six weeks",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/16/shield-ai-software-cuts-autonomous-flight-development-to-six-weeks/",
+    "description": "Shield AI said this week that its Hivemind software helped Honeywell Aerospace achieve autonomous flight after six weeks, down from 54 weeks.",
+    "pubDate": "Mon, 19 Oct 2026 15:00:00 +0000",
+    "category": "/ MilTech",
+    "source": "Defense News",
+    "feedCategory": "defense",
+    "matchedCompany": "Shield AI",
+    "matchedCompanies": [
+      "Shield AI",
+      "Hadrian",
+      "AnySignal",
+      "Beacon AI",
+      "Elodin",
+      "Orbital Composites"
+    ],
+    "sectors": [
+      "defense",
+      "robotics",
+      "space",
+      "ai",
+      "infrastructure"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "20h ago"
+  },
+  {
+    "title": "Tesla (TSLA) proxy shows a board getting ready for a SpaceX merger",
+    "link": "https://electrek.co/2026/10/19/tesla-tsla-proxy-annual-meeting-spacex-merger/",
+    "description": "Tesla’s proxy for its 2026 annual meeting, filed today, confirms that one of its supposedly independent directors now sits on SpaceX’s board. Ira Ehrenpreis, who chairs both Tesla’s compensation committee and its governance committee, joined SpaceX’s board in February.\n\n\n\nThat’s one of several detai",
+    "pubDate": "Mon, 19 Oct 2026 14:07:33 +0000",
+    "category": "News",
+    "source": "Electrek",
+    "feedCategory": "autonomous",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
     "type": "hire",
     "impact": "low",
-    "time": "1d ago"
+    "time": "21h ago"
+  },
+  {
+    "title": "AEP signs 960-MW Indiana nuclear pact with Amazon, X-energy",
+    "link": "https://www.utilitydive.com/news/aep-signs-advanced-960-mw-nuclear-amazon-x-energy/833341/",
+    "description": "&lt;figure&gt;&lt;div&gt;&lt;img src=\"https://imgproxy.divecdn.com/6XGE9RqYyTTqaRNSe4GcWngFpE1sWFnbVjqyncQfASw/g:nowe:0:0/c:1952:1103/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTc1MzkxOTM4LmpwZw==.webp\"/&gt;&lt;/div&gt;&lt;/figure&gt;&lt;p&gt;If the project is de",
+    "pubDate": "Mon, 19 Oct 2026 09:54:48 -0400",
+    "category": "",
+    "source": "Utility Dive",
+    "feedCategory": "energy",
+    "matchedCompany": "X-Energy",
+    "matchedCompanies": [
+      "X-Energy"
+    ],
+    "sectors": [
+      "nuclear"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "21h ago"
+  },
+  {
+    "title": "Gee Whiz Ma, Elon Musk Gave Me One Share In SpaceX, Isn&#8217;t He Great!",
+    "link": "https://cleantechnica.com/2026/10/19/spacex-ukraine-musk-diesel-us-elections-kids-publicity-stunt/",
+    "description": "SpaceX is in hot water over a decision to throttle back its Starlink and Starshield service in Ukraine last week, a decision for which nobody seems to have made.\nThe post Gee Whiz Ma, Elon Musk Gave Me One Share In SpaceX, Isn&#8217;t He Great! appeared first on CleanTechnica.",
+    "pubDate": "Mon, 19 Oct 2026 13:49:12 +0000",
+    "category": "Policy & Politics",
+    "source": "CleanTechnica",
+    "feedCategory": "energy",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "21h ago"
+  },
+  {
+    "title": "Musk pledges to give &#8216;every kid in America&#8217; one of his SpaceX shares",
+    "link": "https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares/",
+    "description": "Musk's post came just a few hours after Anthropic promised to put 5% of its shares into a new \"public benefit fund,\" which it intends to use to make \"large donations to traditional nonprofits or direct distributions to specific populations\" after its upcoming IPO.",
+    "pubDate": "Mon, 19 Oct 2026 12:42:55 +0000",
+    "category": "Social",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Anthropic"
+    ],
+    "sectors": [
+      "space",
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "22h ago"
   },
   {
     "title": "Can SpaceX Winning AI Data Centers Overcome Losing Model and Tesla Beyond the Roadster",
@@ -41,7 +243,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Hello Toronto! Waymo is En Route",
@@ -60,7 +262,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "OpenAI models hacked a crypto wallet and breached more websites",
@@ -79,7 +281,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "What is Starshield, SpaceX’s military version of Starlink?",
@@ -98,28 +300,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Waymo&#8217;s robotaxis are headed to Canada",
-    "link": "https://techcrunch.com/2026/10/16/waymos-robotaxis-are-headed-to-canada/",
-    "description": "The company will start off by testing its self-driving vehicles on Toronto's streets.",
-    "pubDate": "Fri, 16 Oct 2026 16:06:38 +0000",
-    "category": "Transportation",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Waymo",
-    "matchedCompanies": [
-      "Waymo",
-      "Aurora Innovation"
-    ],
-    "sectors": [
-      "ai",
-      "autonomous"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Waymo picks Toronto as first Canadian city, targets riders in 2028",
@@ -159,26 +340,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "SpaceX’s Terafab: How Elon Could Scale to TSMC Levels",
-    "link": "https://www.nextbigfuture.com/2026/10/spacexs-terafab-how-elon-could-scale-to-tsmc-levels.html",
-    "description": "Can SpaceX’s Terafab reach the scale of TSMC? The answer starts with understanding the sequence: develop the process, prove the production line, then replicate it. The useful question about Terafab is how it gets from a working production line to an enormous chip-manufacturing operation. That requir",
-    "pubDate": "Thu, 15 Oct 2026 18:22:14 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Agility chooses Nyobolt for ultra-fast charging for Digit 5 humanoid",
@@ -197,26 +359,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "SpaceX’s Space AI Challenge: 5,000 Launches a Year",
-    "link": "https://www.nextbigfuture.com/2026/10/spacexs-space-ai-challenge-5000-launches-a-year.html",
-    "description": "Five thousand launches a year means nearly fourteen launches every day. At an assumed 200 tonnes of payload per V4 Starship flight, that would deliver one million tonnes to orbit annually. Under the satellite power-density assumptions in my latest video, that supports 50–100 gigawatts of new orbital",
-    "pubDate": "Wed, 14 Oct 2026 17:09:00 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "medium",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Anthropic warns small AI models could self-replicate through IoT devices",
@@ -235,7 +378,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Rivian&#8217;s Mind Robotics snags Doug Field, ex-Tesla and Ford EV chief",
@@ -260,7 +403,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
@@ -281,7 +424,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6d ago"
+    "time": "10/12/2026"
   },
   {
     "title": "Learning to Play Like a Pro: Adaptive Motion Planning and Tracking for Humanoid Robots",
@@ -341,6 +484,46 @@
     "time": "10/6/2026"
   },
   {
+    "title": "Tesla (TSLA) wins SEC OK to auto-vote retail shares with board ahead of SpaceX merger",
+    "link": "https://electrek.co/2026/09/29/tesla-sec-retail-auto-vote-board-spacex-merger/",
+    "description": "Tesla (TSLA) got the SEC’s blessing today to let retail shareholders sign up for a standing instruction that automatically votes their shares the way Tesla’s board recommends, at every meeting, until they cancel it.\n\n\n\nThe timing is hard to ignore. Tesla still hasn’t scheduled its 2026 annual meetin",
+    "pubDate": "Tue, 29 Sep 2026 16:57:19 +0000",
+    "category": "News",
+    "source": "Electrek",
+    "feedCategory": "autonomous",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "9/29/2026"
+  },
+  {
+    "title": "Waymo says it has stopped 841 injuries in 271 million autonomous miles",
+    "link": "https://electrek.co/2026/09/24/waymo-says-it-has-stopped-841-injuries-in-271-million-autonomous-miles/",
+    "description": "Waymo has released new crash data which claims not only an 82% reduction in crashes, but for the first time says the number of injuries that have been avoided by its robotaxi operation.\n\n\n\n more…",
+    "pubDate": "Thu, 24 Sep 2026 13:00:00 +0000",
+    "category": "News",
+    "source": "Electrek",
+    "feedCategory": "autonomous",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Zoox"
+    ],
+    "sectors": [
+      "ai",
+      "transportation"
+    ],
+    "type": "news",
+    "impact": "medium",
+    "time": "9/24/2026"
+  },
+  {
     "title": "With federal funding windfall, X-energy advances small nuclear reactor",
     "link": "https://www.canarymedia.com/articles/nuclear/federal-funding-x-energy-small-nuclear-reactor",
     "description": "",
@@ -358,6 +541,29 @@
     "type": "funding",
     "impact": "low",
     "time": "9/23/2026"
+  },
+  {
+    "title": "Mercedes-Benz signs deal to put Wayve AI Driver in cars within 2 years",
+    "link": "https://electrek.co/2026/09/22/mercedes-benz-wayve-ai-driver-production-agreement/",
+    "description": "Mercedes-Benz has signed a definitive production agreement with British self-driving startup Wayve to build its “AI Driver” into future Mercedes vehicles, with integration starting within the next two years.\n\n\n\nIt’s the first time Wayve’s end-to-end driving AI is going into a production car in the p",
+    "pubDate": "Tue, 22 Sep 2026 14:49:05 +0000",
+    "category": "News",
+    "source": "Electrek",
+    "feedCategory": "autonomous",
+    "matchedCompany": "Wayve",
+    "matchedCompanies": [
+      "Wayve",
+      "Apptronik",
+      "Aurora Innovation"
+    ],
+    "sectors": [
+      "ai",
+      "robotics",
+      "autonomous"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "9/22/2026"
   },
   {
     "title": "Mazama Energy raises $135M for superhot geothermal at Oregon volcano",
