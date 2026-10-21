@@ -9,15 +9,15 @@
       "count": 1
     },
     "space": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -11.82,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -12.76,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -5.13,
+      "avg_change": -5.04,
       "count": 7
     },
     "nuclear": {
@@ -59,14 +59,14 @@
   },
   "topGainers": [
     [
+      "9348.T",
+      "ispace",
+      1.86
+    ],
+    [
       "TSLA",
       "Tesla",
       -0.41
-    ],
-    [
-      "DRSHF",
-      "DroneShield",
-      -0.93
     ],
     [
       "ONT.L",
@@ -74,9 +74,9 @@
       -1.04
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      -1.07
+      "DRSHF",
+      "DroneShield",
+      -1.68
     ],
     [
       "TEM",
@@ -86,14 +86,14 @@
   ],
   "topLosers": [
     [
-      "LUNR",
-      "Intuitive Machines",
-      -13.46
-    ],
-    [
       "OKLO",
       "Oklo",
       -13.53
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      -13.86
     ],
     [
       "SMR",
@@ -111,5 +111,5 @@
       -20.74
     ]
   ],
-  "lastUpdated": "2026-10-20 22:24:07"
+  "lastUpdated": "2026-10-21 06:08:37"
 }
