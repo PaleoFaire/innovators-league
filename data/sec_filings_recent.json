@@ -326,6 +326,15 @@
   {
     "company": "AST SpaceMobile",
     "ticker": "ASTS",
+    "form": "8-K",
+    "date": "2026-10-20",
+    "description": "form8-k.htm",
+    "accessionNumber": "0001493152-26-047766",
+    "isIPO": false
+  },
+  {
+    "company": "AST SpaceMobile",
+    "ticker": "ASTS",
     "form": "4",
     "date": "2026-10-19",
     "description": "xslF345X06/ownership.xml",
@@ -966,6 +975,15 @@
     "company": "Oklo",
     "ticker": "OKLO",
     "form": "4",
+    "date": "2026-10-20",
+    "description": "xslF345X06/wk-form4_1792527961.xml",
+    "accessionNumber": "0002146790-26-000021",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
     "date": "2026-10-15",
     "description": "xslF345X06/wk-form4_1792095818.xml",
     "accessionNumber": "0002146828-26-000010",
@@ -1464,6 +1482,15 @@
     "date": "2026-08-04",
     "description": "xslF345X06/wk-form4_1785891723.xml",
     "accessionNumber": "0001577526-26-000094",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
+    "form": "8-K",
+    "date": "2026-10-20",
+    "description": "upst-20261016.htm",
+    "accessionNumber": "0001647639-26-000071",
     "isIPO": false
   },
   {
@@ -3021,42 +3048,6 @@
     "date": "2026-07-30",
     "description": "rivn-20260730.htm",
     "accessionNumber": "0001874178-26-000053",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-07-22",
-    "description": "xslF345X06/wk-form4_1784752694.xml",
-    "accessionNumber": "0002066491-26-000011",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-07-22",
-    "description": "xslF345X06/wk-form4_1784752629.xml",
-    "accessionNumber": "0001607879-26-000006",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-07-22",
-    "description": "xslF345X06/wk-form4_1784752600.xml",
-    "accessionNumber": "0001891037-26-000009",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-07-22",
-    "description": "xslF345X06/wk-form4_1784752563.xml",
-    "accessionNumber": "0001891751-26-000008",
     "isIPO": false
   },
   {

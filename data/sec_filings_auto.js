@@ -1,6 +1,9 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-20 11:10:21 UTC
+// Last updated: 2026-10-21 11:25:50 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "AST SpaceMobile", form: "8-K", date: "2026-10-20", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
+  { company: "Oklo", form: "4", date: "2026-10-20", description: "xslF345X06/wk-form4_1792527961.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Upstart Holdings", form: "8-K", date: "2026-10-20", description: "upst-20261016.htm", isIPO: false, ticker: "UPST" },
   { company: "Palantir Technologies", form: "4", date: "2026-10-19", description: "xslF345X06/wk-form4_1792454773.xml", isIPO: false, ticker: "PLTR" },
   { company: "AST SpaceMobile", form: "4", date: "2026-10-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "Centrus Energy", form: "8-K", date: "2026-10-19", description: "leu-20261016.htm", isIPO: false, ticker: "LEU" },
@@ -48,7 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "UiPath", form: "4", date: "2026-10-05", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "UiPath", form: "4", date: "2026-10-05", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "UiPath", form: "4", date: "2026-10-05", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "Astera Labs", form: "4", date: "2026-10-05", description: "xslF345X06/wk-form4_1791236728.xml", isIPO: false, ticker: "ALAB" },
-  { company: "Rocket Lab", form: "4", date: "2026-10-02", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "NuScale Power", form: "4", date: "2026-10-02", description: "xslF345X06/wk-form4_1790971958.xml", isIPO: false, ticker: "SMR" },
 ];

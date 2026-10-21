@@ -1,30 +1,30 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 55,
+    "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
-      "Gecko Robotics secures $300M contract with the U.S. Navy",
-      "Hello Toronto! Waymo is En Route",
-      "Waymo picks Toronto as first Canadian city, targets riders i"
+      "\u00a1Llegamos a Madrid! Waymo is Coming to Spain",
+      "US Navy, Gecko Robotics surge AI maintenance contract to $30",
+      "SpaceX alum&#8217;s aviation startup, Reliable Robotics, lan"
     ],
     "fundingQ": "$6.4B",
     "components": {
       "funding": 100,
-      "news": 40,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-20"
+    "lastUpdated": "2026-10-21"
   },
   {
     "sector": "Defense & Security",
     "momentum": 40,
     "trend": "steady",
     "catalysts": [
+      "US Navy, Gecko Robotics surge AI maintenance contract to $30",
       "Gecko Robotics secures $300M contract with the U.S. Navy",
-      "Shield AI software cuts autonomous flight development to six",
-      "What is Starshield, SpaceX\u2019s military version of Starlink?"
+      "Shield AI software cuts autonomous flight development to six"
     ],
     "fundingQ": "$4.1B",
     "components": {
@@ -33,7 +33,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-20"
+    "lastUpdated": "2026-10-21"
   },
   {
     "sector": "Nuclear Energy",
@@ -50,7 +50,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-20"
+    "lastUpdated": "2026-10-21"
   },
   {
     "sector": "Transportation",
@@ -66,29 +66,29 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-20"
+    "lastUpdated": "2026-10-21"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 25,
-    "trend": "rising",
+    "momentum": 34,
+    "trend": "steady",
     "catalysts": [
-      "Top Investor Predicts SpaceX Will Buy Tesla At $420/Share In",
-      "Russian satellite stalked ICEYE spacecraft in potentially da",
-      "Shield AI software cuts autonomous flight development to six"
+      "Thoughts on Tesla\u2013SpaceX Merger \u2014 Readers Chime In",
+      "Tesla and SpaceX take first step towards merger, would dilut",
+      "AI Demand for 20 GW of SpaceX AI in 2027? Boom or Bust?"
     ],
     "fundingQ": "$809M",
     "components": {
       "funding": 36,
-      "news": 50,
+      "news": 85,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-20"
+    "lastUpdated": "2026-10-21"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 21,
+    "momentum": 24,
     "trend": "rising",
     "catalysts": [
       "Top Investor Predicts SpaceX Will Buy Tesla At $420/Share In",
@@ -100,63 +100,63 @@
       "funding": 46,
       "news": 20,
       "hiring": 0,
-      "market": 0
+      "market": 16
     },
-    "lastUpdated": "2026-10-20"
+    "lastUpdated": "2026-10-21"
   },
   {
     "sector": "AI & Software",
-    "momentum": 20,
-    "trend": "declining",
+    "momentum": 23,
+    "trend": "rising",
     "catalysts": [
-      "OpenAI Engineer Accused of Spying on Executives Ordered to R",
-      "Musk pledges to give &#8216;every kid in America&#8217; one",
-      "OpenAI models hacked a crypto wallet and breached more websi"
+      "OpenAI Invests in Startup That Uses Brain Implants to Detect",
+      "Anthropic pitches AI safety bill that may block a model if 5",
+      "Anthropic\u2019s cloud partnerships are getting messy"
     ],
     "fundingQ": "$350M",
     "components": {
       "funding": 6,
+      "news": 45,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-21"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "\u00a1Llegamos a Madrid! Waymo is Coming to Spain",
+      "US Navy, Gecko Robotics surge AI maintenance contract to $30",
+      "Shield AI software cuts autonomous flight development to six"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
       "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-20"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "Shield AI software cuts autonomous flight development to six",
-      "Hello Toronto! Waymo is En Route",
-      "What is Starshield, SpaceX\u2019s military version of Starlink?"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-20"
+    "lastUpdated": "2026-10-21"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 16,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
       "Gecko Robotics secures $300M contract with the U.S. Navy",
       "Top Investor Predicts SpaceX Will Buy Tesla At $420/Share In",
-      "Embedded AI evaluators won&#8217;t be an easy solution, Hugg"
+      "Gee Whiz Ma, Elon Musk Gave Me One Share In SpaceX, Isn&#821"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-20"
+    "lastUpdated": "2026-10-21"
   },
   {
     "sector": "Housing & Construction",
@@ -172,7 +172,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-20"
+    "lastUpdated": "2026-10-21"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Anthropic\u2019s cloud partnerships are getting messy"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-21"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -188,7 +204,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-20"
+    "lastUpdated": "2026-10-21"
   },
   {
     "sector": "Ocean & Maritime",
@@ -204,46 +220,30 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-20"
+    "lastUpdated": "2026-10-21"
   },
   {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 10,
+    "sector": "Biotech & Health",
+    "momentum": 4,
     "trend": "declining",
     "catalysts": [
-      "Active infrastructure & logistics ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-20"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 1,
-    "trend": "declining",
-    "catalysts": [
-      "Tenstorrent hits $6.2B valuation to scale open-weight AI chi"
+      "OpenAI acquires startup Orchestra Bio\u2060 to beef up its biotec"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 0
+      "market": 16
     },
-    "lastUpdated": "2026-10-20"
+    "lastUpdated": "2026-10-21"
   },
   {
-    "sector": "Biotech & Health",
+    "sector": "Chips & Semiconductors",
     "momentum": 0,
     "trend": "declining",
     "catalysts": [
-      "Active biotech & health ecosystem"
+      "Active chips & semiconductors ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -252,7 +252,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-20"
+    "lastUpdated": "2026-10-21"
   },
   {
     "sector": "Quantum Computing",
@@ -268,6 +268,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-20"
+    "lastUpdated": "2026-10-21"
   }
 ]
