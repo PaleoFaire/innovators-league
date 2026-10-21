@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -0.74,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 0.37,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -4.9,
+      "avg_change": -4.6,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 1.27,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": 0.25,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -0.59,
+      "avg_change": -2.57,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 6.46,
+      "avg_change": 4.59,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 2.45,
+      "avg_change": 2.16,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 1.06,
+      "avg_change": 0.05,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 1.28,
+      "avg_change": 0.74,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.21,
+      "avg_change": -2.09,
       "count": 3
     }
   },
@@ -61,39 +61,39 @@
     [
       "EVTL",
       "Vertical Aerospace",
-      14.5
+      12.57
     ],
     [
       "LNZA",
       "LanzaTech",
-      11.36
+      12.49
     ],
     [
       "TSLA",
       "Tesla",
-      5.37
+      5.26
     ],
     [
-      "NNE",
-      "Nano Nuclear Energy",
-      4.58
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      3.64
     ],
     [
-      "SLDP",
-      "Solid Power",
-      4.57
+      "RGTI",
+      "Rigetti Computing",
+      3.17
     ]
   ],
   "topLosers": [
     [
       "ACHR",
       "Archer Aviation",
-      -4.13
+      -4.91
     ],
     [
-      "SATL",
-      "Satellogic",
-      -5.7
+      "SMR",
+      "NuScale Power",
+      -5.66
     ],
     [
       "IDEAFORGE.NS",
@@ -103,7 +103,7 @@
     [
       "RKLB",
       "Rocket Lab",
-      -10.19
+      -9.31
     ],
     [
       "ASRHF",
@@ -111,5 +111,5 @@
       -13.86
     ]
   ],
-  "lastUpdated": "2026-10-21 18:08:28"
+  "lastUpdated": "2026-10-21 22:27:45"
 }
