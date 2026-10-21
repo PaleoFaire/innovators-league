@@ -11,13 +11,13 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -12.76,
+      "avg_change": -12.68,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -5.04,
+      "avg_change": -4.99,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -2.58,
+      "avg_change": -2.75,
       "count": 3
     },
     "transportation": {
@@ -61,7 +61,7 @@
     [
       "9348.T",
       "ispace",
-      1.86
+      2.39
     ],
     [
       "TSLA",
@@ -71,7 +71,7 @@
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      -1.04
+      -1.53
     ],
     [
       "DRSHF",
@@ -79,9 +79,9 @@
       -1.68
     ],
     [
-      "TEM",
-      "Tempus AI",
-      -2.15
+      "277810.KQ",
+      "Rainbow Robotics",
+      -1.97
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -20.74
     ]
   ],
-  "lastUpdated": "2026-10-21 06:08:37"
+  "lastUpdated": "2026-10-21 13:00:11"
 }
