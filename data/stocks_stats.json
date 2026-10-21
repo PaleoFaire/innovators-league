@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -7.7,
+      "avg_change": -0.74,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -12.68,
+      "avg_change": -4.9,
       "count": 7
     },
     "autonomous": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -4.99,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 1.27,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -12.41,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -0.59,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -5.77,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 6.46,
       "count": 3
     },
     "quantum": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -10.24,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 2.45,
       "count": 3
     },
     "biotech": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -2.75,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 1.06,
       "count": 3
     },
     "transportation": {
-      "gainers": 0,
-      "losers": 2,
-      "avg_change": -3.72,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": 1.28,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -9.81,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.21,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "9348.T",
-      "ispace",
-      2.39
+      "EVTL",
+      "Vertical Aerospace",
+      14.5
+    ],
+    [
+      "LNZA",
+      "LanzaTech",
+      11.36
     ],
     [
       "TSLA",
       "Tesla",
-      -0.41
+      5.37
     ],
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -1.53
+      "NNE",
+      "Nano Nuclear Energy",
+      4.58
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      -1.68
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -1.97
+      "SLDP",
+      "Solid Power",
+      4.57
     ]
   ],
   "topLosers": [
     [
-      "OKLO",
-      "Oklo",
-      -13.53
+      "ACHR",
+      "Archer Aviation",
+      -4.13
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      -5.7
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -6.2
+    ],
+    [
+      "RKLB",
+      "Rocket Lab",
+      -10.19
     ],
     [
       "ASRHF",
       "Astroscale",
       -13.86
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      -14.02
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      -18.9
-    ],
-    [
-      "RKLB",
-      "Rocket Lab",
-      -20.74
     ]
   ],
-  "lastUpdated": "2026-10-21 13:00:11"
+  "lastUpdated": "2026-10-21 18:08:28"
 }
