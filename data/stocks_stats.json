@@ -3,70 +3,65 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 0.37,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -2.15,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -5.09,
+      "avg_change": -9.85,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 0.86,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -3.51,
       "count": 7
     },
     "nuclear": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -2.57,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -11.63,
       "count": 3
     },
     "climate": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 4.59,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -0.56,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 2.16,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -10.64,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 0.11,
+      "avg_change": -9.35,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.74,
+      "avg_change": -1.9,
       "count": 2
     },
     "chips": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -2.09,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -8.76,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "EVTL",
-      "Vertical Aerospace",
-      12.57
-    ],
-    [
       "LNZA",
       "LanzaTech",
-      12.49
+      8.76
     ],
     [
       "277810.KQ",
@@ -76,40 +71,45 @@
     [
       "TSLA",
       "Tesla",
-      5.26
+      4.16
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      2.49
     ],
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      3.82
+      0.86
     ]
   ],
   "topLosers": [
     [
-      "ACHR",
-      "Archer Aviation",
-      -4.91
+      "TEM",
+      "Tempus AI",
+      -13.09
     ],
     [
       "SMR",
       "NuScale Power",
-      -5.66
+      -13.66
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -5.68
+      "ALAB",
+      "Astera Labs",
+      -14.49
     ],
     [
-      "RKLB",
-      "Rocket Lab",
-      -9.31
+      "ASTS",
+      "AST SpaceMobile",
+      -14.75
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      -13.86
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -15.82
     ]
   ],
-  "lastUpdated": "2026-10-22 13:02:59"
+  "lastUpdated": "2026-10-22 18:05:02"
 }
