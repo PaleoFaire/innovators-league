@@ -1,6 +1,10 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-21 11:25:50 UTC
+// Last updated: 2026-10-22 11:26:15 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Ginkgo Bioworks", form: "4", date: "2026-10-21", description: "xslF345X06/wk-form4_1792613221.xml", isIPO: false, ticker: "DNA" },
+  { company: "Ginkgo Bioworks", form: "4", date: "2026-10-21", description: "xslF345X06/wk-form4_1792613197.xml", isIPO: false, ticker: "DNA" },
+  { company: "Ginkgo Bioworks", form: "4", date: "2026-10-21", description: "xslF345X06/wk-form4_1792613163.xml", isIPO: false, ticker: "DNA" },
+  { company: "Ginkgo Bioworks", form: "4", date: "2026-10-21", description: "xslF345X06/wk-form4_1792613131.xml", isIPO: false, ticker: "DNA" },
   { company: "AST SpaceMobile", form: "8-K", date: "2026-10-20", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
   { company: "Oklo", form: "4", date: "2026-10-20", description: "xslF345X06/wk-form4_1792527961.xml", isIPO: false, ticker: "OKLO" },
   { company: "Upstart Holdings", form: "8-K", date: "2026-10-20", description: "upst-20261016.htm", isIPO: false, ticker: "UPST" },
@@ -47,8 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Oklo", form: "4", date: "2026-10-05", description: "xslF345X06/wk-form4_1791230530.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-10-05", description: "xslF345X06/wk-form4_1791230514.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-10-05", description: "xslF345X06/wk-form4_1791230497.xml", isIPO: false, ticker: "OKLO" },
-  { company: "UiPath", form: "4", date: "2026-10-05", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "4", date: "2026-10-05", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "4", date: "2026-10-05", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "4", date: "2026-10-05", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
 ];

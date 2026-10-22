@@ -1,60 +1,43 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 58,
+    "momentum": 55,
     "trend": "accelerating",
     "catalysts": [
       "\u00a1Llegamos a Madrid! Waymo is Coming to Spain",
       "US Navy, Gecko Robotics surge AI maintenance contract to $30",
-      "SpaceX alum&#8217;s aviation startup, Reliable Robotics, lan"
+      "Gecko Robotics secures $300M contract with the U.S. Navy"
     ],
     "fundingQ": "$6.4B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-21"
+    "lastUpdated": "2026-10-22"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 40,
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
+      "Cloud Of Betrayal Settles Over Potential SpaceX-Tesla Merger",
       "US Navy, Gecko Robotics surge AI maintenance contract to $30",
-      "Gecko Robotics secures $300M contract with the U.S. Navy",
-      "Shield AI software cuts autonomous flight development to six"
+      "Gecko Robotics secures $300M contract with the U.S. Navy"
     ],
     "fundingQ": "$4.1B",
     "components": {
       "funding": 100,
       "news": 20,
       "hiring": 0,
-      "market": 0
+      "market": 54
     },
-    "lastUpdated": "2026-10-21"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 38,
-    "trend": "steady",
-    "catalysts": [
-      "AEP signs 960-MW Indiana nuclear pact with Amazon, X-energy",
-      "With federal funding windfall, X-energy advances small nucle"
-    ],
-    "fundingQ": "$1.0B",
-    "components": {
-      "funding": 100,
-      "news": 10,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-10-21"
+    "lastUpdated": "2026-10-22"
   },
   {
     "sector": "Transportation",
-    "momentum": 36,
+    "momentum": 41,
     "trend": "steady",
     "catalysts": [
       "Rivian&#8217;s Mind Robotics snags Doug Field, ex-Tesla and"
@@ -64,31 +47,29 @@
       "funding": 100,
       "news": 5,
       "hiring": 0,
-      "market": 0
+      "market": 23
     },
-    "lastUpdated": "2026-10-21"
+    "lastUpdated": "2026-10-22"
   },
   {
-    "sector": "Space & Aerospace",
-    "momentum": 34,
+    "sector": "Nuclear Energy",
+    "momentum": 36,
     "trend": "steady",
     "catalysts": [
-      "Thoughts on Tesla\u2013SpaceX Merger \u2014 Readers Chime In",
-      "Tesla and SpaceX take first step towards merger, would dilut",
-      "AI Demand for 20 GW of SpaceX AI in 2027? Boom or Bust?"
+      "With federal funding windfall, X-energy advances small nucle"
     ],
-    "fundingQ": "$809M",
+    "fundingQ": "$1.0B",
     "components": {
-      "funding": 36,
-      "news": 85,
+      "funding": 100,
+      "news": 5,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-21"
+    "lastUpdated": "2026-10-22"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 24,
+    "momentum": 34,
     "trend": "rising",
     "catalysts": [
       "Top Investor Predicts SpaceX Will Buy Tesla At $420/Share In",
@@ -100,31 +81,49 @@
       "funding": 46,
       "news": 20,
       "hiring": 0,
-      "market": 16
+      "market": 63
     },
-    "lastUpdated": "2026-10-21"
+    "lastUpdated": "2026-10-22"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 29,
+    "trend": "steady",
+    "catalysts": [
+      "Cloud Of Betrayal Settles Over Potential SpaceX-Tesla Merger",
+      "Thoughts on Tesla\u2013SpaceX Merger \u2014 Readers Chime In",
+      "Tesla and SpaceX take first step towards merger, would dilut"
+    ],
+    "fundingQ": "$809M",
+    "components": {
+      "funding": 36,
+      "news": 60,
+      "hiring": 0,
+      "market": 9
+    },
+    "lastUpdated": "2026-10-22"
   },
   {
     "sector": "AI & Software",
-    "momentum": 23,
-    "trend": "rising",
+    "momentum": 18,
+    "trend": "declining",
     "catalysts": [
       "OpenAI Invests in Startup That Uses Brain Implants to Detect",
-      "Anthropic pitches AI safety bill that may block a model if 5",
-      "Anthropic\u2019s cloud partnerships are getting messy"
+      "OpenAI models hacked a crypto wallet and breached more websi",
+      "Anthropic warns small AI models could self-replicate through"
     ],
     "fundingQ": "$350M",
     "components": {
       "funding": 6,
-      "news": 45,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-21"
+    "lastUpdated": "2026-10-22"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 18,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
       "\u00a1Llegamos a Madrid! Waymo is Coming to Spain",
@@ -134,61 +133,45 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 30,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-21"
+    "lastUpdated": "2026-10-22"
   },
   {
     "sector": "Consumer Tech",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Cloud Of Betrayal Settles Over Potential SpaceX-Tesla Merger",
+      "Gecko Robotics secures $300M contract with the U.S. Navy",
+      "Top Investor Predicts SpaceX Will Buy Tesla At $420/Share In"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-22"
+  },
+  {
+    "sector": "Quantum Computing",
     "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "Gecko Robotics secures $300M contract with the U.S. Navy",
-      "Top Investor Predicts SpaceX Will Buy Tesla At $420/Share In",
-      "Gee Whiz Ma, Elon Musk Gave Me One Share In SpaceX, Isn&#821"
+      "Active quantum computing ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 0,
       "hiring": 0,
-      "market": 50
+      "market": 72
     },
-    "lastUpdated": "2026-10-21"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Can SpaceX Winning AI Data Centers Overcome Losing Model and"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-21"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Anthropic\u2019s cloud partnerships are getting messy"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-21"
+    "lastUpdated": "2026-10-22"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -204,7 +187,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-21"
+    "lastUpdated": "2026-10-22"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active housing & construction ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-22"
   },
   {
     "sector": "Ocean & Maritime",
@@ -220,27 +219,44 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-21"
+    "lastUpdated": "2026-10-22"
   },
   {
-    "sector": "Biotech & Health",
-    "momentum": 4,
+    "sector": "Infrastructure & Logistics",
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "OpenAI acquires startup Orchestra Bio\u2060 to beef up its biotec"
+      "Active infrastructure & logistics ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
-      "market": 16
+      "market": 50
     },
-    "lastUpdated": "2026-10-21"
+    "lastUpdated": "2026-10-22"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 9,
+    "trend": "declining",
+    "catalysts": [
+      "Hugging Face\u2019s New AI Biology Model Lets You Chat With DNA",
+      "STAT+: What&#8217;s the deal with Isomorphic Labs?"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 33
+    },
+    "lastUpdated": "2026-10-22"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 0,
+    "momentum": 6,
     "trend": "declining",
     "catalysts": [
       "Active chips & semiconductors ecosystem"
@@ -250,24 +266,8 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 0
+      "market": 29
     },
-    "lastUpdated": "2026-10-21"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 0,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-10-21"
+    "lastUpdated": "2026-10-22"
   }
 ]

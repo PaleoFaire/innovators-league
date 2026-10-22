@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T11:39:43.864822Z",
+  "generated_at": "2026-10-22T11:40:52.567180Z",
   "takes": [
     {
       "author": "Next Big Future",
@@ -10,16 +10,6 @@
       "source": "news",
       "source_url": "https://www.nextbigfuture.com/2026/10/spacex-live-q3-earnings-beat-14-6-billion-revenue-4-4-billion-net-income.html",
       "signal_type": "ipo"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "SpaceX alum&#8217;s aviation startup, Reliable Robotics, lands $115M, topping $1B valuation",
-      "date": "Tue, 20 Oc",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/",
-      "signal_type": "funding"
     },
     {
       "author": "Canary Media",
@@ -35,7 +25,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 3,
+    "from_news": 2,
     "from_press": 0
   }
 }

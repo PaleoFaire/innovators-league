@@ -1,5 +1,62 @@
 [
   {
+    "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
+    "link": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+    "description": "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.",
+    "pubDate": "Thu, 22 Oct 2026 10:00:00 +0000",
+    "category": "Science",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Hugging Face",
+    "matchedCompanies": [
+      "Hugging Face"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "STAT+: What&#8217;s the deal with Isomorphic Labs?",
+    "link": "https://www.statnews.com/2026/10/21/whats-the-deal-with-isomorphic-labs-ai-prognosis/?utm_campaign=rss",
+    "description": "In this edition of STAT's AI Prognosis: What does Isomorphic Labs' high valuation say about AI's role in drug development, and the debate around AI and cost of care.",
+    "pubDate": "Wed, 21 Oct 2026 17:49:31 +0000",
+    "category": "AI Prognosis",
+    "source": "STAT News",
+    "feedCategory": "biotech",
+    "matchedCompany": "Isomorphic Labs",
+    "matchedCompanies": [
+      "Isomorphic Labs"
+    ],
+    "sectors": [
+      "biotech"
+    ],
+    "type": "funding",
+    "impact": "low",
+    "time": "17h ago"
+  },
+  {
+    "title": "Cloud Of Betrayal Settles Over Potential SpaceX-Tesla Merger",
+    "link": "https://cleantechnica.com/2026/10/21/space-x-tesla-merger-elon-musk-ukraine-ultimate-decider-starlink-starshield/",
+    "description": "According to a new report, Elon Musk himself ordered SpaceX satellites to dial down essential services to Ukraine last week, cripping the nation's ability to defense itself against Russian attacks.\nThe post Cloud Of Betrayal Settles Over Potential SpaceX-Tesla Merger appeared first on CleanTechnica.",
+    "pubDate": "Wed, 21 Oct 2026 16:38:19 +0000",
+    "category": "Policy & Politics",
+    "source": "CleanTechnica",
+    "feedCategory": "energy",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "18h ago"
+  },
+  {
     "title": "OpenAI Invests in Startup That Uses Brain Implants to Detect Cancer",
     "link": "https://www.wired.com/story/openai-startup-brain-implants-detect-cancer/",
     "description": "It’s the latest in a growing wave of bets that AI companies are making on brain data.",
@@ -17,7 +74,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "Just now"
+    "time": "1d ago"
   },
   {
     "title": "Thoughts on Tesla–SpaceX Merger — Readers Chime In",
@@ -36,7 +93,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "7h ago"
+    "time": "1d ago"
   },
   {
     "title": "¡Llegamos a Madrid! Waymo is Coming to Spain",
@@ -55,7 +112,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "1d ago"
   },
   {
     "title": "Tesla and SpaceX take first step towards merger, would dilute all shareholders",
@@ -74,7 +131,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "8h ago"
+    "time": "1d ago"
   },
   {
     "title": "AI Demand for 20 GW of SpaceX AI in 2027? Boom or Bust?",
@@ -93,84 +150,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "9h ago"
-  },
-  {
-    "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-    "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-    "description": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
-    "pubDate": "Tue, 20 Oct 2026 23:01:23 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "Kolena"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "12h ago"
-  },
-  {
-    "title": "SpaceX and Tesla boards form special committees to review merger",
-    "link": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
-    "description": "Elon Musk likes the idea but says he is not on either committee, which is made up of independent directors.",
-    "pubDate": "Tue, 20 Oct 2026 22:57:57 +0000",
-    "category": "Space",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "hire",
-    "impact": "low",
-    "time": "12h ago"
-  },
-  {
-    "title": "Anthropic’s cloud partnerships are getting messy",
-    "link": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
-    "description": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO.",
-    "pubDate": "Tue, 20 Oct 2026 21:25:22 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "ipo",
-    "impact": "medium",
-    "time": "14h ago"
-  },
-  {
-    "title": "SpaceX&#8217;s AI business is beating expectations",
-    "link": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
-    "description": "SpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine.",
-    "pubDate": "Tue, 20 Oct 2026 20:40:41 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "14h ago"
+    "time": "1d ago"
   },
   {
     "title": "SpaceX Live Q3 Earnings &#8211; Beat $14.6 billion Revenue, $4.4 Billion net Income",
@@ -192,26 +172,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "14h ago"
-  },
-  {
-    "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
-    "link": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
-    "description": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
-    "pubDate": "Tue, 20 Oct 2026 20:35:10 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "14h ago"
+    "time": "1d ago"
   },
   {
     "title": "US Navy, Gecko Robotics surge AI maintenance contract to $300M",
@@ -230,27 +191,7 @@
     ],
     "type": "contract",
     "impact": "medium",
-    "time": "20h ago"
-  },
-  {
-    "title": "SpaceX alum&#8217;s aviation startup, Reliable Robotics, lands $115M, topping $1B valuation",
-    "link": "https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/",
-    "description": "Reliable Robotics extended its Series D round with $115 million in equity and $25 million in debt.",
-    "pubDate": "Tue, 20 Oct 2026 13:17:36 +0000",
-    "category": "Fundraising",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Reliable Robotics"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
@@ -272,7 +213,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Gecko Robotics secures $300M contract with the U.S. Navy",
@@ -291,7 +232,7 @@
     ],
     "type": "contract",
     "impact": "medium",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Top Investor Predicts SpaceX Will Buy Tesla At $420/Share In Coming Weeks",
@@ -310,7 +251,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Russian satellite stalked ICEYE spacecraft in potentially dangerous on-orbit maneuvers",
@@ -330,27 +271,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
-    "link": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
-    "description": "A judge ordered Abdulrahman Alfozan to remain in custody, likening the Saudi government’s offer to secure the former OpenAI engineer’s release to a “blank check.”",
-    "pubDate": "Mon, 19 Oct 2026 19:49:17 +0000",
-    "category": "Business",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "Palantir"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Shield AI software cuts autonomous flight development to six weeks",
@@ -378,7 +299,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Tesla (TSLA) proxy shows a board getting ready for a SpaceX merger",
@@ -397,26 +318,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "AEP signs 960-MW Indiana nuclear pact with Amazon, X-energy",
-    "link": "https://www.utilitydive.com/news/aep-signs-advanced-960-mw-nuclear-amazon-x-energy/833341/",
-    "description": "&lt;figure&gt;&lt;div&gt;&lt;img src=\"https://imgproxy.divecdn.com/6XGE9RqYyTTqaRNSe4GcWngFpE1sWFnbVjqyncQfASw/g:nowe:0:0/c:1952:1103/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTc1MzkxOTM4LmpwZw==.webp\"/&gt;&lt;/div&gt;&lt;/figure&gt;&lt;p&gt;If the project is de",
-    "pubDate": "Mon, 19 Oct 2026 09:54:48 -0400",
-    "category": "",
-    "source": "Utility Dive",
-    "feedCategory": "energy",
-    "matchedCompany": "X-Energy",
-    "matchedCompanies": [
-      "X-Energy"
-    ],
-    "sectors": [
-      "nuclear"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Gee Whiz Ma, Elon Musk Gave Me One Share In SpaceX, Isn&#8217;t He Great!",
@@ -435,31 +337,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Can SpaceX Winning AI Data Centers Overcome Losing Model and Tesla Beyond the Roadster",
-    "link": "https://www.nextbigfuture.com/2026/10/huge-q3-earnings-critical-spacex-projects-in-texas-and-tennessee.html",
-    "description": "SpaceX can build a minihard AI data center in about 5 months. There&#8217;s room for six in Texas and six more in Tennessee, so a dozen could be under construction at once. Each one costs about $13B to build and could bring in roughly $27B a year in revenue, at about 40% lower cost than ... Read mor",
-    "pubDate": "Sat, 17 Oct 2026 03:31:08 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Crusoe Energy",
-      "Astera Labs",
-      "Rebellions"
-    ],
-    "sectors": [
-      "space",
-      "ai",
-      "chips"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "4d ago"
+    "time": "2d ago"
   },
   {
     "title": "Hello Toronto! Waymo is En Route",
@@ -478,7 +356,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "OpenAI models hacked a crypto wallet and breached more websites",
@@ -497,26 +375,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "What is Starshield, SpaceX’s military version of Starlink?",
-    "link": "https://www.defensenews.com/industry/techwatch/2026/10/16/what-is-starshield-spacexs-military-version-of-starlink/",
-    "description": "Ukraine said on Wednesday that SpaceX had restricted “military-grade” Starlink services, hampering Ukrainian drone strike missions and air defenses.",
-    "pubDate": "Fri, 16 Oct 2026 20:08:08 +0000",
-    "category": "/ MilTech",
-    "source": "Defense News",
-    "feedCategory": "defense",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Waymo picks Toronto as first Canadian city, targets riders in 2028",
@@ -534,27 +393,6 @@
       "ai"
     ],
     "type": "ipo",
-    "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "Waymo Opens To Everyone In San Antonio, San Diego, &#038; Tampa",
-    "link": "https://cleantechnica.com/2026/10/15/waymo-opens-to-everyone-in-san-antonio-san-diego-tampa/",
-    "description": "It&#8217;s hard to keep track of where Waymo robotaxis are going to launch, are testing, are launching, are open to some people but not others, are open to everyone, etc. Three cities where it recently launched robotaxi service are Tampa, San Antonio, and San Diego, and now the robotaxi service   ..",
-    "pubDate": "Fri, 16 Oct 2026 02:46:45 +0000",
-    "category": "Autonomous Vehicles",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Waymo",
-    "matchedCompanies": [
-      "Waymo",
-      "Zoox"
-    ],
-    "sectors": [
-      "ai",
-      "transportation"
-    ],
-    "type": "milestone",
     "impact": "low",
     "time": "5d ago"
   },
@@ -575,7 +413,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6d ago"
+    "time": "10/14/2026"
   },
   {
     "title": "Rivian&#8217;s Mind Robotics snags Doug Field, ex-Tesla and Ford EV chief",
