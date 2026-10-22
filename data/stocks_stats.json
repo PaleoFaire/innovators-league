@@ -9,15 +9,15 @@
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -4.6,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -5.05,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": 0.25,
+      "avg_change": 0.86,
       "count": 7
     },
     "nuclear": {
@@ -74,14 +74,14 @@
       5.26
     ],
     [
+      "277810.KQ",
+      "Rainbow Robotics",
+      4.92
+    ],
+    [
       "ONT.L",
       "Oxford Nanopore Technologies",
       3.64
-    ],
-    [
-      "RGTI",
-      "Rigetti Computing",
-      3.17
     ]
   ],
   "topLosers": [
@@ -91,14 +91,14 @@
       -4.91
     ],
     [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -4.95
+    ],
+    [
       "SMR",
       "NuScale Power",
       -5.66
-    ],
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -6.2
     ],
     [
       "RKLB",
@@ -111,5 +111,5 @@
       -13.86
     ]
   ],
-  "lastUpdated": "2026-10-21 22:27:45"
+  "lastUpdated": "2026-10-22 06:12:42"
 }
