@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -2.15,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 5.21,
       "count": 1
     },
     "space": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -8.4,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -0.43,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -5.04,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -3.39,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.11,
+      "avg_change": -6.34,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": 1.62,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 2.94,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.22,
+      "avg_change": -2.03,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -6.74,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 4.67,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -2.01,
+      "avg_change": 0.54,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.86,
+      "avg_change": -4.06,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "LNZA",
       "LanzaTech",
-      11.91
-    ],
-    [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      4.0
-    ],
-    [
-      "TSLA",
-      "Tesla",
-      3.35
-    ],
-    [
-      "DRSHF",
-      "DroneShield",
-      2.49
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      0.0
-    ]
-  ],
-  "topLosers": [
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -11.5
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      -12.52
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      -12.8
+      6.71
     ],
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      -13.94
+      5.48
+    ],
+    [
+      "PLTR",
+      "Palantir",
+      5.21
+    ],
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      5.2
+    ],
+    [
+      "TSLA",
+      "Tesla",
+      4.66
+    ]
+  ],
+  "topLosers": [
+    [
+      "OKLO",
+      "Oklo",
+      -5.72
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -5.75
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      -7.63
     ],
     [
       "ALAB",
       "Astera Labs",
-      -14.62
+      -9.04
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -11.5
     ]
   ],
-  "lastUpdated": "2026-10-23 12:43:03"
+  "lastUpdated": "2026-10-23 17:57:31"
 }
