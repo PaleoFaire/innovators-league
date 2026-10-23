@@ -1,5 +1,120 @@
 [
   {
+    "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+    "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+    "description": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
+    "pubDate": "Thu, 22 Oct 2026 22:08:24 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "funding",
+    "impact": "high",
+    "time": "13h ago"
+  },
+  {
+    "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+    "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+    "description": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+    "pubDate": "Thu, 22 Oct 2026 19:00:00 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "16h ago"
+  },
+  {
+    "title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
+    "link": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
+    "description": "Wearing cameras and sensor gloves, the startup’s human chemists will train robots to perform various lab tasks.",
+    "pubDate": "Thu, 22 Oct 2026 18:38:47 +0000",
+    "category": "Biotech & Health",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "medium",
+    "time": "16h ago"
+  },
+  {
+    "title": "Rethinking networks in space with Aalyria’s Brian Barritt",
+    "link": "https://spacenews.com/rethinking-networks-in-space-with-aalyrias-brian-barritt/",
+    "description": "\nIn this episode, SpaceNews’ Mike Gruss talks with the CEO of Aalyria Brian Barritt about how networks are evolving, what scaling the company means and the role of software interoperability [&#8230;]\nThe post Rethinking networks in space with Aalyria’s Brian Barritt appeared first on SpaceNews.",
+    "pubDate": "Thu, 22 Oct 2026 18:13:38 +0000",
+    "category": "Video",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Aalyria",
+    "matchedCompanies": [
+      "Aalyria"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "17h ago"
+  },
+  {
+    "title": "MDA awards $75M to Long Wall for low-cost, midcourse interceptor testing",
+    "link": "https://breakingdefense.com/2026/10/mda-awards-75m-to-long-wall-for-low-cost-midcourse-interceptor-testing/",
+    "description": "Long Wall is matching the Missile Defense Agency&#8217;s funding with its own capital to continue development of the Cyclops, according to the company.",
+    "pubDate": "Thu, 22 Oct 2026 16:08:18 +0000",
+    "category": "Air Warfare",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "Long Wall",
+    "matchedCompanies": [
+      "Long Wall",
+      "Firestorm Labs"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "funding",
+    "impact": "medium",
+    "time": "19h ago"
+  },
+  {
+    "title": "Navy awards Applied Intuition $25M to deploy AI sensor fusion at sea",
+    "link": "https://breakingdefense.com/2026/10/navy-awards-applied-intuition-25m-to-deploy-ai-sensor-fusion-at-sea/",
+    "description": "The Intelligent Perception System will help sailors understand a flood of sensor feeds while collecting data to train improved AI models, the company said.",
+    "pubDate": "Thu, 22 Oct 2026 15:43:21 +0000",
+    "category": "Naval Warfare",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "Applied Intuition",
+    "matchedCompanies": [
+      "Applied Intuition"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "contract",
+    "impact": "medium",
+    "time": "19h ago"
+  },
+  {
     "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
     "link": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
     "description": "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.",
@@ -16,26 +131,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
-  },
-  {
-    "title": "STAT+: What&#8217;s the deal with Isomorphic Labs?",
-    "link": "https://www.statnews.com/2026/10/21/whats-the-deal-with-isomorphic-labs-ai-prognosis/?utm_campaign=rss",
-    "description": "In this edition of STAT's AI Prognosis: What does Isomorphic Labs' high valuation say about AI's role in drug development, and the debate around AI and cost of care.",
-    "pubDate": "Wed, 21 Oct 2026 17:49:31 +0000",
-    "category": "AI Prognosis",
-    "source": "STAT News",
-    "feedCategory": "biotech",
-    "matchedCompany": "Isomorphic Labs",
-    "matchedCompanies": [
-      "Isomorphic Labs"
-    ],
-    "sectors": [
-      "biotech"
-    ],
-    "type": "funding",
-    "impact": "low",
-    "time": "17h ago"
+    "time": "1d ago"
   },
   {
     "title": "Cloud Of Betrayal Settles Over Potential SpaceX-Tesla Merger",
@@ -54,7 +150,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "18h ago"
+    "time": "1d ago"
   },
   {
     "title": "OpenAI Invests in Startup That Uses Brain Implants to Detect Cancer",
@@ -74,7 +170,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Thoughts on Tesla–SpaceX Merger — Readers Chime In",
@@ -93,7 +189,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "¡Llegamos a Madrid! Waymo is Coming to Spain",
@@ -112,7 +208,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Tesla and SpaceX take first step towards merger, would dilute all shareholders",
@@ -131,48 +227,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "AI Demand for 20 GW of SpaceX AI in 2027? Boom or Bust?",
-    "link": "https://www.nextbigfuture.com/2026/10/ai-demand-for-20-gw-of-spacex-ai-in-2027-boom-or-bust.html",
-    "description": "SpaceX talked about adding 10-20 Gigawatts of AI compute in 2027. I was already looking at the demand for AI that would absorb the 50 Gigawatts in 2027 that is built according to Semi Analysis. Elon osfairly confident&#8221; of an incremental 10 GW of compute online in 2027, and aiming for an increm",
-    "pubDate": "Wed, 21 Oct 2026 02:12:13 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "SpaceX Live Q3 Earnings &#8211; Beat $14.6 billion Revenue, $4.4 Billion net Income",
-    "link": "https://www.nextbigfuture.com/2026/10/spacex-live-q3-earnings-beat-14-6-billion-revenue-4-4-billion-net-income.html",
-    "description": "There will be 20 launch tower in Louisiana starting around 2029. They plan weekly Starship launches in the first half of 2026 and then twice weekly and then perhaps daily in 2027. This would be 100-200 launches in 2027. They will have 10Gw of AI data center added next year and a non-zero chance of .",
-    "pubDate": "Tue, 20 Oct 2026 20:35:27 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Astera Labs",
-      "Rebellions"
-    ],
-    "sectors": [
-      "space",
-      "chips"
-    ],
-    "type": "ipo",
-    "impact": "high",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "US Navy, Gecko Robotics surge AI maintenance contract to $300M",
@@ -191,7 +246,7 @@
     ],
     "type": "contract",
     "impact": "medium",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
@@ -213,7 +268,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Gecko Robotics secures $300M contract with the U.S. Navy",
@@ -232,7 +287,7 @@
     ],
     "type": "contract",
     "impact": "medium",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Top Investor Predicts SpaceX Will Buy Tesla At $420/Share In Coming Weeks",
@@ -251,55 +306,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Russian satellite stalked ICEYE spacecraft in potentially dangerous on-orbit maneuvers",
-    "link": "https://breakingdefense.com/2026/10/russian-satellite-stalked-iceye-spacecraft-in-potentially-dangerous-on-orbit-maneuvers/",
-    "description": "The Cosmos 2612 came within 500 meters (about a third of a mile) to US-flagged ICEYE-X36 believed to be supporting Ukraine, according to LeoLabs.",
-    "pubDate": "Mon, 19 Oct 2026 20:57:20 +0000",
-    "category": "Space",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "ICEYE",
-    "matchedCompanies": [
-      "ICEYE",
-      "LeoLabs"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Shield AI software cuts autonomous flight development to six weeks",
-    "link": "https://www.defensenews.com/industry/techwatch/2026/10/16/shield-ai-software-cuts-autonomous-flight-development-to-six-weeks/",
-    "description": "Shield AI said this week that its Hivemind software helped Honeywell Aerospace achieve autonomous flight after six weeks, down from 54 weeks.",
-    "pubDate": "Mon, 19 Oct 2026 15:00:00 +0000",
-    "category": "/ MilTech",
-    "source": "Defense News",
-    "feedCategory": "defense",
-    "matchedCompany": "Shield AI",
-    "matchedCompanies": [
-      "Shield AI",
-      "Hadrian",
-      "AnySignal",
-      "Beacon AI",
-      "Elodin",
-      "Orbital Composites"
-    ],
-    "sectors": [
-      "defense",
-      "robotics",
-      "space",
-      "ai",
-      "infrastructure"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Tesla (TSLA) proxy shows a board getting ready for a SpaceX merger",
@@ -318,7 +325,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Gee Whiz Ma, Elon Musk Gave Me One Share In SpaceX, Isn&#8217;t He Great!",
@@ -337,26 +344,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Hello Toronto! Waymo is En Route",
-    "link": "https://cleantechnica.com/2026/10/16/hello-toronto-waymo-is-en-route/",
-    "description": "Waymo is officially heading to Canada! We’re laying the groundwork for our fully autonomous ride-hailing service in Toronto, investing in local facilities and jobs, with the goal of welcoming our first riders in 2028. In the coming days, you’ll start to see Waymo vehicles on the streets of Toronto a",
-    "pubDate": "Sat, 17 Oct 2026 01:43:01 +0000",
-    "category": "Autonomous Vehicles",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Waymo",
-    "matchedCompanies": [
-      "Waymo"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "5d ago"
+    "time": "3d ago"
   },
   {
     "title": "OpenAI models hacked a crypto wallet and breached more websites",
@@ -375,7 +363,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "Waymo picks Toronto as first Canadian city, targets riders in 2028",
@@ -394,7 +382,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "Anthropic warns small AI models could self-replicate through IoT devices",
@@ -414,31 +402,6 @@
     "type": "news",
     "impact": "low",
     "time": "10/14/2026"
-  },
-  {
-    "title": "Rivian&#8217;s Mind Robotics snags Doug Field, ex-Tesla and Ford EV chief",
-    "link": "https://electrek.co/2026/10/13/rivian-mind-robotics-doug-field-president-tesla-ford/",
-    "description": "Doug Field, the engineer who ran Tesla’s Model 3 program and later Ford’s entire EV operation, is now president of Mind Robotics, the industrial robotics startup Rivian CEO RJ Scaringe spun out of Rivian last year.\n\n\n\nHe lands at a company that has now raised more than $1 billion in under a year, an",
-    "pubDate": "Tue, 13 Oct 2026 19:40:31 +0000",
-    "category": "News",
-    "source": "Electrek",
-    "feedCategory": "autonomous",
-    "matchedCompany": "Mind Robotics",
-    "matchedCompanies": [
-      "Mind Robotics",
-      "Karman Industries",
-      "Solugen",
-      "Gecko Robotics",
-      "Teralta"
-    ],
-    "sectors": [
-      "robotics",
-      "climate",
-      "infrastructure"
-    ],
-    "type": "funding",
-    "impact": "low",
-    "time": "10/13/2026"
   },
   {
     "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
@@ -500,46 +463,6 @@
     "time": "10/6/2026"
   },
   {
-    "title": "Tesla (TSLA) wins SEC OK to auto-vote retail shares with board ahead of SpaceX merger",
-    "link": "https://electrek.co/2026/09/29/tesla-sec-retail-auto-vote-board-spacex-merger/",
-    "description": "Tesla (TSLA) got the SEC’s blessing today to let retail shareholders sign up for a standing instruction that automatically votes their shares the way Tesla’s board recommends, at every meeting, until they cancel it.\n\n\n\nThe timing is hard to ignore. Tesla still hasn’t scheduled its 2026 annual meetin",
-    "pubDate": "Tue, 29 Sep 2026 16:57:19 +0000",
-    "category": "News",
-    "source": "Electrek",
-    "feedCategory": "autonomous",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "9/29/2026"
-  },
-  {
-    "title": "Waymo says it has stopped 841 injuries in 271 million autonomous miles",
-    "link": "https://electrek.co/2026/09/24/waymo-says-it-has-stopped-841-injuries-in-271-million-autonomous-miles/",
-    "description": "Waymo has released new crash data which claims not only an 82% reduction in crashes, but for the first time says the number of injuries that have been avoided by its robotaxi operation.\n\n\n\n more…",
-    "pubDate": "Thu, 24 Sep 2026 13:00:00 +0000",
-    "category": "News",
-    "source": "Electrek",
-    "feedCategory": "autonomous",
-    "matchedCompany": "Waymo",
-    "matchedCompanies": [
-      "Waymo",
-      "Zoox"
-    ],
-    "sectors": [
-      "ai",
-      "transportation"
-    ],
-    "type": "news",
-    "impact": "medium",
-    "time": "9/24/2026"
-  },
-  {
     "title": "With federal funding windfall, X-energy advances small nuclear reactor",
     "link": "https://www.canarymedia.com/articles/nuclear/federal-funding-x-energy-small-nuclear-reactor",
     "description": "",
@@ -557,29 +480,6 @@
     "type": "funding",
     "impact": "low",
     "time": "9/23/2026"
-  },
-  {
-    "title": "Mercedes-Benz signs deal to put Wayve AI Driver in cars within 2 years",
-    "link": "https://electrek.co/2026/09/22/mercedes-benz-wayve-ai-driver-production-agreement/",
-    "description": "Mercedes-Benz has signed a definitive production agreement with British self-driving startup Wayve to build its “AI Driver” into future Mercedes vehicles, with integration starting within the next two years.\n\n\n\nIt’s the first time Wayve’s end-to-end driving AI is going into a production car in the p",
-    "pubDate": "Tue, 22 Sep 2026 14:49:05 +0000",
-    "category": "News",
-    "source": "Electrek",
-    "feedCategory": "autonomous",
-    "matchedCompany": "Wayve",
-    "matchedCompanies": [
-      "Wayve",
-      "Apptronik",
-      "Aurora Innovation"
-    ],
-    "sectors": [
-      "ai",
-      "robotics",
-      "autonomous"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "9/22/2026"
   },
   {
     "title": "Mazama Energy raises $135M for superhot geothermal at Oregon volcano",

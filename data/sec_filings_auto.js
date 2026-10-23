@@ -1,6 +1,14 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-22 11:26:15 UTC
+// Last updated: 2026-10-23 11:16:01 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "BlackSky Technology", form: "4", date: "2026-10-22", description: "xslF345X06/wk-form4_1792706213.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "4", date: "2026-10-22", description: "xslF345X06/wk-form4_1792706148.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "4", date: "2026-10-22", description: "xslF345X06/wk-form4_1792706045.xml", isIPO: false, ticker: "BKSY" },
+  { company: "Oklo", form: "4", date: "2026-10-22", description: "xslF345X06/wk-form4_1792700558.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Rivian", form: "4", date: "2026-10-22", description: "xslF345X06/wk-form4_1792717084.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Rivian", form: "4", date: "2026-10-22", description: "xslF345X06/wk-form4_1792717061.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Rivian", form: "4", date: "2026-10-22", description: "xslF345X06/wk-form4_1792717039.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Rivian", form: "4", date: "2026-10-22", description: "xslF345X06/wk-form4_1792717008.xml", isIPO: false, ticker: "RIVN" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-10-21", description: "xslF345X06/wk-form4_1792613221.xml", isIPO: false, ticker: "DNA" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-10-21", description: "xslF345X06/wk-form4_1792613197.xml", isIPO: false, ticker: "DNA" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-10-21", description: "xslF345X06/wk-form4_1792613163.xml", isIPO: false, ticker: "DNA" },
@@ -43,12 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "LanzaTech", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791403347.xml", isIPO: false, ticker: "LNZA" },
   { company: "Rivian", form: "8-K", date: "2026-10-07", description: "rivn-20261007.htm", isIPO: false, ticker: "RIVN" },
   { company: "Virgin Galactic", form: "4", date: "2026-10-06", description: "xslF345X06/wk-form4_1791318440.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "4", date: "2026-10-06", description: "xslF345X06/wk-form4_1791318382.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "4", date: "2026-10-06", description: "xslF345X06/wk-form4_1791318323.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Oklo", form: "4", date: "2026-10-06", description: "xslF345X06/wk-form4_1791317271.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Palantir Technologies", form: "4", date: "2026-10-05", description: "xslF345X06/wk-form4_1791244812.xml", isIPO: false, ticker: "PLTR" },
-  { company: "NuScale Power", form: "4", date: "2026-10-05", description: "xslF345X06/wk-form4_1791230618.xml", isIPO: false, ticker: "SMR" },
-  { company: "Oklo", form: "4", date: "2026-10-05", description: "xslF345X06/wk-form4_1791230530.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-10-05", description: "xslF345X06/wk-form4_1791230514.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-10-05", description: "xslF345X06/wk-form4_1791230497.xml", isIPO: false, ticker: "OKLO" },
 ];
