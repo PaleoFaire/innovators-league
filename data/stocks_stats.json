@@ -11,13 +11,13 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -8.47,
+      "avg_change": -8.36,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -3.4,
+      "avg_change": -4.87,
       "count": 7
     },
     "nuclear": {
@@ -64,11 +64,6 @@
       11.91
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      5.64
-    ],
-    [
       "TSLA",
       "Tesla",
       3.35
@@ -82,6 +77,11 @@
       "ONT.L",
       "Oxford Nanopore Technologies",
       0.86
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      0.28
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -14.62
     ]
   ],
-  "lastUpdated": "2026-10-22 22:26:57"
+  "lastUpdated": "2026-10-23 06:07:07"
 }
