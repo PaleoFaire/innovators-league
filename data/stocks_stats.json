@@ -5,73 +5,68 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 5.21,
+      "avg_change": 5.76,
       "count": 1
     },
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -0.43,
+      "avg_change": -0.01,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -3.39,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -3.12,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.34,
+      "avg_change": -6.37,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 2.94,
+      "avg_change": 1.04,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -2.03,
+      "avg_change": -1.14,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.67,
+      "avg_change": 5.48,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.54,
+      "avg_change": 0.09,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.06,
+      "avg_change": -4.59,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "LNZA",
-      "LanzaTech",
-      6.71
-    ],
-    [
       "RXRX",
       "Recursion Pharmaceuticals",
-      5.48
+      6.78
     ],
     [
       "PLTR",
       "Palantir",
-      5.21
+      5.76
     ],
     [
       "ONT.L",
@@ -81,29 +76,34 @@
     [
       "TSLA",
       "Tesla",
-      4.66
+      4.93
+    ],
+    [
+      "TEM",
+      "Tempus AI",
+      4.47
     ]
   ],
   "topLosers": [
     [
-      "OKLO",
-      "Oklo",
-      -5.72
+      "NNE",
+      "Nano Nuclear Energy",
+      -5.59
     ],
     [
-      "EVTL",
-      "Vertical Aerospace",
-      -5.75
+      "OKLO",
+      "Oklo",
+      -5.79
     ],
     [
       "SMR",
       "NuScale Power",
-      -7.63
+      -7.72
     ],
     [
       "ALAB",
       "Astera Labs",
-      -9.04
+      -10.03
     ],
     [
       "IDEAFORGE.NS",
@@ -111,5 +111,5 @@
       -11.5
     ]
   ],
-  "lastUpdated": "2026-10-23 17:57:31"
+  "lastUpdated": "2026-10-23 22:18:36"
 }
