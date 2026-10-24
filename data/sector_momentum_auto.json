@@ -1,60 +1,43 @@
 [
   {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 52,
-    "trend": "steady",
-    "catalysts": [
-      "Former OpenAI science lead launches Warp Science to automate",
-      "\u00a1Llegamos a Madrid! Waymo is Coming to Spain",
-      "US Navy, Gecko Robotics surge AI maintenance contract to $30"
-    ],
-    "fundingQ": "$6.4B",
-    "components": {
-      "funding": 100,
-      "news": 30,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-23"
-  },
-  {
     "sector": "Defense & Security",
-    "momentum": 47,
+    "momentum": 62,
     "trend": "steady",
     "catalysts": [
-      "MDA awards $75M to Long Wall for low-cost, midcourse interce",
-      "Navy awards Applied Intuition $25M to deploy AI sensor fusio",
-      "Cloud Of Betrayal Settles Over Potential SpaceX-Tesla Merger"
+      "Kyiv eyes purchase of planned ICEYE, Nokia &#8216;sovereign&",
+      "Natilus secures Air Force contract to develop blended wing b",
+      "MDA awards $75M to Long Wall for low-cost, midcourse interce"
     ],
     "fundingQ": "$4.1B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 30,
       "hiring": 0,
-      "market": 28
+      "market": 100
     },
-    "lastUpdated": "2026-10-23"
+    "lastUpdated": "2026-10-24"
   },
   {
-    "sector": "Nuclear Energy",
-    "momentum": 38,
+    "sector": "Robotics & Manufacturing",
+    "momentum": 50,
     "trend": "steady",
     "catalysts": [
-      "Navy awards Applied Intuition $25M to deploy AI sensor fusio",
-      "With federal funding windfall, X-energy advances small nucle"
+      "\u00a1Llegamos a Madrid! Waymo is Coming to Spain",
+      "Gecko Robotics secures $300M contract with the U.S. Navy",
+      "Waymo picks Toronto as first Canadian city, targets riders i"
     ],
-    "fundingQ": "$1.0B",
+    "fundingQ": "$6.4B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 20,
       "hiring": 0,
-      "market": 0
+      "market": 50
     },
-    "lastUpdated": "2026-10-23"
+    "lastUpdated": "2026-10-24"
   },
   {
     "sector": "Transportation",
-    "momentum": 35,
+    "momentum": 41,
     "trend": "steady",
     "catalysts": [
       "Active transportation ecosystem"
@@ -64,13 +47,31 @@
       "funding": 100,
       "news": 0,
       "hiring": 0,
+      "market": 28
+    },
+    "lastUpdated": "2026-10-24"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 39,
+    "trend": "steady",
+    "catalysts": [
+      "Commonwealth Fusion Systems gets $85M to build better fusion",
+      "Navy awards Applied Intuition $25M to deploy AI sensor fusio",
+      "With federal funding windfall, X-energy advances small nucle"
+    ],
+    "fundingQ": "$1.0B",
+    "components": {
+      "funding": 100,
+      "news": 15,
+      "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-10-23"
+    "lastUpdated": "2026-10-24"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 27,
+    "momentum": 32,
     "trend": "rising",
     "catalysts": [
       "Top Investor Predicts SpaceX Will Buy Tesla At $420/Share In",
@@ -82,49 +83,65 @@
       "funding": 46,
       "news": 20,
       "hiring": 0,
-      "market": 31
+      "market": 55
     },
-    "lastUpdated": "2026-10-23"
+    "lastUpdated": "2026-10-24"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 25,
+    "momentum": 30,
     "trend": "rising",
     "catalysts": [
-      "OpenAI makes its Jev competitor widely available as decision",
-      "Former OpenAI science lead launches Warp Science to automate",
-      "Rethinking networks in space with Aalyria\u2019s Brian Barritt"
+      "Rethinking networks in space with Aalyria\u2019s Brian Barritt",
+      "Cloud Of Betrayal Settles Over Potential SpaceX-Tesla Merger",
+      "Thoughts on Tesla\u2013SpaceX Merger \u2014 Readers Chime In"
     ],
     "fundingQ": "$809M",
     "components": {
       "funding": 36,
-      "news": 50,
+      "news": 35,
       "hiring": 0,
-      "market": 0
+      "market": 44
     },
-    "lastUpdated": "2026-10-23"
+    "lastUpdated": "2026-10-24"
   },
   {
     "sector": "AI & Software",
-    "momentum": 22,
+    "momentum": 21,
     "trend": "declining",
     "catalysts": [
-      "OpenAI working on new $30B raise at $1.25T valuation ahead o",
-      "OpenAI makes its Jev competitor widely available as decision",
-      "Former OpenAI science lead launches Warp Science to automate"
+      "OpenAI says it will no longer train its AI models on the liv",
+      "What some of Anthropic\u2019s backers are worth before its IPO",
+      "OpenAI working on new $30B raise at $1.25T valuation ahead o"
     ],
     "fundingQ": "$350M",
     "components": {
       "funding": 6,
-      "news": 40,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-23"
+    "lastUpdated": "2026-10-24"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 21,
+    "trend": "declining",
+    "catalysts": [
+      "Hugging Face\u2019s New AI Biology Model Lets You Chat With DNA"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-10-24"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 18,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
       "Rethinking networks in space with Aalyria\u2019s Brian Barritt",
@@ -134,19 +151,19 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 30,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-23"
+    "lastUpdated": "2026-10-24"
   },
   {
     "sector": "Drones & Autonomous",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "\u00a1Llegamos a Madrid! Waymo is Coming to Spain",
-      "US Navy, Gecko Robotics surge AI maintenance contract to $30"
+      "Kyiv eyes purchase of planned ICEYE, Nokia &#8216;sovereign&",
+      "\u00a1Llegamos a Madrid! Waymo is Coming to Spain"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -155,7 +172,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-23"
+    "lastUpdated": "2026-10-24"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -171,7 +188,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-23"
+    "lastUpdated": "2026-10-24"
   },
   {
     "sector": "Housing & Construction",
@@ -187,7 +204,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-23"
+    "lastUpdated": "2026-10-24"
   },
   {
     "sector": "Ocean & Maritime",
@@ -203,7 +220,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-23"
+    "lastUpdated": "2026-10-24"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -219,43 +236,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-23"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 1,
-    "trend": "declining",
-    "catalysts": [
-      "Hugging Face\u2019s New AI Biology Model Lets You Chat With DNA"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-10-23"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 0,
-    "trend": "declining",
-    "catalysts": [
-      "Active chips & semiconductors ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-10-23"
+    "lastUpdated": "2026-10-24"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 0,
+    "momentum": 8,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -265,8 +250,24 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 0
+      "market": 39
     },
-    "lastUpdated": "2026-10-23"
+    "lastUpdated": "2026-10-24"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 2,
+    "trend": "declining",
+    "catalysts": [
+      "Commonwealth Fusion Systems gets $85M to build better fusion"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 4
+    },
+    "lastUpdated": "2026-10-24"
   }
 ]

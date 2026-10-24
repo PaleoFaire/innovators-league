@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-23 11:16:01 UTC
+// Last updated: 2026-10-24 10:35:31 UTC
 const SEC_FILINGS_LIVE = [
   { company: "BlackSky Technology", form: "4", date: "2026-10-22", description: "xslF345X06/wk-form4_1792706213.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-10-22", description: "xslF345X06/wk-form4_1792706148.xml", isIPO: false, ticker: "BKSY" },

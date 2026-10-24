@@ -1,5 +1,109 @@
 [
   {
+    "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+    "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+    "description": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+    "pubDate": "Fri, 23 Oct 2026 23:05:49 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "11h ago"
+  },
+  {
+    "title": "Kyiv eyes purchase of planned ICEYE, Nokia &#8216;sovereign&#8217; communication sats",
+    "link": "https://breakingdefense.com/2026/10/kyiv-eyes-purchase-of-planned-iceye-nokia-sovereign-communication-sats/",
+    "description": "The letter of intent comes on the heels of the political dust up between US President Donald Trump and Elon Musk over a US move to throttle Ukraine&#8217;s Starshield access that has all but grounded the countries military drones in its war with Russia.",
+    "pubDate": "Fri, 23 Oct 2026 19:07:34 +0000",
+    "category": "Space",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "ICEYE",
+    "matchedCompanies": [
+      "ICEYE"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "15h ago"
+  },
+  {
+    "title": "Commonwealth Fusion Systems gets $85M to build better fusion-ready semiconductors",
+    "link": "https://techcrunch.com/2026/10/23/commonwealth-fusion-systems-gets-85m-to-build-better-fusion-ready-semiconductors/",
+    "description": "Top-funded fusion startup Commonwealth Fusion Systems received an $85 million award from the federal government to advance conductors for fusion power plants.",
+    "pubDate": "Fri, 23 Oct 2026 16:20:28 +0000",
+    "category": "Climate",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Commonwealth Fusion Systems",
+    "matchedCompanies": [
+      "Commonwealth Fusion Systems",
+      "Palantir",
+      "Cerebras",
+      "Lab 91",
+      "Black Semiconductor",
+      "Rapidus",
+      "Rebellions"
+    ],
+    "sectors": [
+      "climate",
+      "ai",
+      "chips"
+    ],
+    "type": "contract",
+    "impact": "medium",
+    "time": "18h ago"
+  },
+  {
+    "title": "What some of Anthropic’s backers are worth before its IPO",
+    "link": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
+    "description": "Early-stage and follow-on investors in the AI lab are already sitting on major paper returns.",
+    "pubDate": "Fri, 23 Oct 2026 16:02:43 +0000",
+    "category": "Venture",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "high",
+    "time": "18h ago"
+  },
+  {
+    "title": "Natilus secures Air Force contract to develop blended wing body aircraft",
+    "link": "https://breakingdefense.com/2026/10/natilus-secures-air-force-contract-to-develop-blended-wing-body-aircraft/",
+    "description": "“We think now&#8217;s the right time” for a blended wing body design to make its debut, Natilus Chief Operating Officer Nolan Giblin told Breaking Defense. ",
+    "pubDate": "Fri, 23 Oct 2026 12:03:00 +0000",
+    "category": "Air Warfare",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "AIR",
+    "matchedCompanies": [
+      "AIR",
+      "Natilus"
+    ],
+    "sectors": [
+      "autonomous"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "22h ago"
+  },
+  {
     "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
     "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
     "description": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
@@ -16,45 +120,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "13h ago"
-  },
-  {
-    "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-    "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-    "description": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
-    "pubDate": "Thu, 22 Oct 2026 19:00:00 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "16h ago"
-  },
-  {
-    "title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
-    "link": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
-    "description": "Wearing cameras and sensor gloves, the startup’s human chemists will train robots to perform various lab tasks.",
-    "pubDate": "Thu, 22 Oct 2026 18:38:47 +0000",
-    "category": "Biotech & Health",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "milestone",
-    "impact": "medium",
-    "time": "16h ago"
+    "time": "1d ago"
   },
   {
     "title": "Rethinking networks in space with Aalyria’s Brian Barritt",
@@ -73,7 +139,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "17h ago"
+    "time": "1d ago"
   },
   {
     "title": "MDA awards $75M to Long Wall for low-cost, midcourse interceptor testing",
@@ -93,7 +159,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "19h ago"
+    "time": "1d ago"
   },
   {
     "title": "Navy awards Applied Intuition $25M to deploy AI sensor fusion at sea",
@@ -112,7 +178,7 @@
     ],
     "type": "contract",
     "impact": "medium",
-    "time": "19h ago"
+    "time": "1d ago"
   },
   {
     "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
@@ -131,7 +197,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Cloud Of Betrayal Settles Over Potential SpaceX-Tesla Merger",
@@ -149,26 +215,6 @@
       "space"
     ],
     "type": "ipo",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "OpenAI Invests in Startup That Uses Brain Implants to Detect Cancer",
-    "link": "https://www.wired.com/story/openai-startup-brain-implants-detect-cancer/",
-    "description": "It’s the latest in a growing wave of bets that AI companies are making on brain data.",
-    "pubDate": "Wed, 21 Oct 2026 10:30:00 +0000",
-    "category": "Science",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "Neuralink"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "milestone",
     "impact": "low",
     "time": "2d ago"
   },
@@ -189,7 +235,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "¡Llegamos a Madrid! Waymo is Coming to Spain",
@@ -208,7 +254,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Tesla and SpaceX take first step towards merger, would dilute all shareholders",
@@ -227,26 +273,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "US Navy, Gecko Robotics surge AI maintenance contract to $300M",
-    "link": "https://www.defensenews.com/news/your-navy/2026/10/20/us-navy-gecko-robotics-surge-ai-maintenance-contract-to-300m/",
-    "description": "Gecko Robotics uses drones, wall-climbing robots and fixed sensors to gather data on components, decks, welds and hulls.",
-    "pubDate": "Tue, 20 Oct 2026 15:15:32 +0000",
-    "category": "/ MilTech",
-    "source": "Defense News",
-    "feedCategory": "defense",
-    "matchedCompany": "Gecko Robotics",
-    "matchedCompanies": [
-      "Gecko Robotics"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "contract",
-    "impact": "medium",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
@@ -268,7 +295,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Gecko Robotics secures $300M contract with the U.S. Navy",
@@ -287,7 +314,7 @@
     ],
     "type": "contract",
     "impact": "medium",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Top Investor Predicts SpaceX Will Buy Tesla At $420/Share In Coming Weeks",
@@ -306,7 +333,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Tesla (TSLA) proxy shows a board getting ready for a SpaceX merger",
@@ -325,26 +352,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Gee Whiz Ma, Elon Musk Gave Me One Share In SpaceX, Isn&#8217;t He Great!",
-    "link": "https://cleantechnica.com/2026/10/19/spacex-ukraine-musk-diesel-us-elections-kids-publicity-stunt/",
-    "description": "SpaceX is in hot water over a decision to throttle back its Starlink and Starshield service in Ukraine last week, a decision for which nobody seems to have made.\nThe post Gee Whiz Ma, Elon Musk Gave Me One Share In SpaceX, Isn&#8217;t He Great! appeared first on CleanTechnica.",
-    "pubDate": "Mon, 19 Oct 2026 13:49:12 +0000",
-    "category": "Policy & Politics",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "OpenAI models hacked a crypto wallet and breached more websites",
@@ -363,7 +371,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6d ago"
+    "time": "10/16/2026"
   },
   {
     "title": "Waymo picks Toronto as first Canadian city, targets riders in 2028",
@@ -382,7 +390,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "6d ago"
+    "time": "10/16/2026"
   },
   {
     "title": "Anthropic warns small AI models could self-replicate through IoT devices",
