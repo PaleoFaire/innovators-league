@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 5.76,
+      "avg_change": 1.24,
       "count": 1
     },
     "space": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 0.11,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -1.48,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -3.46,
+      "avg_change": -3.37,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.37,
+      "avg_change": -5.75,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.04,
+      "avg_change": 0.04,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -1.14,
+      "avg_change": -1.26,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 5.48,
+      "avg_change": 3.03,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.09,
+      "avg_change": 1.12,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.59,
+      "avg_change": -5.16,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      6.78
-    ],
-    [
-      "PLTR",
-      "Palantir",
-      5.76
-    ],
-    [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      5.2
-    ],
-    [
       "TSLA",
       "Tesla",
-      4.93
+      7.39
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      6.37
+    ],
+    [
+      "RKLB",
+      "Rocket Lab",
+      4.76
     ],
     [
       "TEM",
       "Tempus AI",
-      4.47
+      2.33
+    ],
+    [
+      "JOBY",
+      "Joby Aviation",
+      2.28
     ]
   ],
   "topLosers": [
     [
-      "OKLO",
-      "Oklo",
-      -5.79
+      "SMR",
+      "NuScale Power",
+      -5.54
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -6.35
+      "NNE",
+      "Nano Nuclear Energy",
+      -7.07
     ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      -7.56
+      -7.65
     ],
     [
-      "SMR",
-      "NuScale Power",
-      -7.72
+      "277810.KQ",
+      "Rainbow Robotics",
+      -8.07
     ],
     [
       "ALAB",
       "Astera Labs",
-      -10.03
+      -11.05
     ]
   ],
-  "lastUpdated": "2026-10-26 06:20:46"
+  "lastUpdated": "2026-10-26 14:22:23"
 }
