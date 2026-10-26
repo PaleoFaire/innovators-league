@@ -1,6 +1,6 @@
 {
  "month": "2026-10",
- "generated": "2026-10-19",
+ "generated": "2026-10-26",
  "portfolio_pulse": [
   {
    "fund": "Gigascale Capital",
@@ -10,40 +10,12 @@
    "diffusion": 90.0,
    "up": 4,
    "down": 0,
-   "roles_now": 173,
+   "roles_now": 180,
    "roles_prev": 148,
-   "atoms_bits": 8.29,
+   "atoms_bits": 6.71,
    "raised_last_3m": 1,
-   "factory_flags": []
-  },
-  {
-   "fund": "Eclipse Ventures",
-   "key": "Eclipse",
-   "tracked_in_lane": 28,
-   "on_hiring_panel": 14,
-   "diffusion": 71.4,
-   "up": 8,
-   "down": 2,
-   "roles_now": 649,
-   "roles_prev": 644,
-   "atoms_bits": 3.71,
-   "raised_last_3m": 3,
-   "factory_flags": []
-  },
-  {
-   "fund": "Lux Capital",
-   "key": "Lux",
-   "tracked_in_lane": 25,
-   "on_hiring_panel": 13,
-   "diffusion": 69.2,
-   "up": 6,
-   "down": 1,
-   "roles_now": 565,
-   "roles_prev": 527,
-   "atoms_bits": 4.32,
-   "raised_last_3m": 4,
    "factory_flags": [
-    "Armada"
+    "Panthalassa"
    ]
   },
   {
@@ -51,13 +23,41 @@
    "key": "Riot",
    "tracked_in_lane": 13,
    "on_hiring_panel": 6,
-   "diffusion": 66.7,
-   "up": 3,
-   "down": 1,
-   "roles_now": 162,
+   "diffusion": 83.3,
+   "up": 4,
+   "down": 0,
+   "roles_now": 173,
    "roles_prev": 153,
-   "atoms_bits": 6.79,
+   "atoms_bits": 7.5,
    "raised_last_3m": 3,
+   "factory_flags": []
+  },
+  {
+   "fund": "Khosla Ventures",
+   "key": "KV",
+   "tracked_in_lane": 30,
+   "on_hiring_panel": 10,
+   "diffusion": 75.0,
+   "up": 6,
+   "down": 1,
+   "roles_now": 504,
+   "roles_prev": 430,
+   "atoms_bits": 5.33,
+   "raised_last_3m": 4,
+   "factory_flags": []
+  },
+  {
+   "fund": "8VC",
+   "key": "8VC",
+   "tracked_in_lane": 26,
+   "on_hiring_panel": 11,
+   "diffusion": 68.2,
+   "up": 6,
+   "down": 2,
+   "roles_now": 575,
+   "roles_prev": 521,
+   "atoms_bits": 2.52,
+   "raised_last_3m": 4,
    "factory_flags": []
   },
   {
@@ -68,51 +68,71 @@
    "diffusion": 66.7,
    "up": 2,
    "down": 0,
-   "roles_now": 301,
+   "roles_now": 305,
    "roles_prev": 280,
-   "atoms_bits": 4.2,
+   "atoms_bits": 4.31,
    "raised_last_3m": 1,
    "factory_flags": []
   },
   {
-   "fund": "Khosla Ventures",
-   "key": "KV",
-   "tracked_in_lane": 25,
-   "on_hiring_panel": 7,
-   "diffusion": 64.3,
-   "up": 2,
-   "down": 0,
-   "roles_now": 222,
-   "roles_prev": 199,
-   "atoms_bits": 7.7,
-   "raised_last_3m": 2,
-   "factory_flags": []
+   "fund": "Pax Ventures",
+   "key": "Pax Ventures",
+   "tracked_in_lane": 16,
+   "on_hiring_panel": 10,
+   "diffusion": 60.0,
+   "up": 4,
+   "down": 2,
+   "roles_now": 350,
+   "roles_prev": 337,
+   "atoms_bits": 4.22,
+   "raised_last_3m": 1,
+   "factory_flags": [
+    "Northwood Space"
+   ]
   },
   {
-   "fund": "8VC",
-   "key": "8VC",
-   "tracked_in_lane": 26,
-   "on_hiring_panel": 11,
-   "diffusion": 63.6,
-   "up": 6,
+   "fund": "Eclipse Ventures",
+   "key": "Eclipse",
+   "tracked_in_lane": 28,
+   "on_hiring_panel": 14,
+   "diffusion": 57.1,
+   "up": 5,
    "down": 3,
-   "roles_now": 571,
-   "roles_prev": 521,
-   "atoms_bits": 2.83,
+   "roles_now": 663,
+   "roles_prev": 644,
+   "atoms_bits": 3.66,
    "raised_last_3m": 4,
-   "factory_flags": []
+   "factory_flags": [
+    "Ursa Major Technologies"
+   ]
+  },
+  {
+   "fund": "Lux Capital",
+   "key": "Lux",
+   "tracked_in_lane": 25,
+   "on_hiring_panel": 13,
+   "diffusion": 53.8,
+   "up": 5,
+   "down": 4,
+   "roles_now": 570,
+   "roles_prev": 527,
+   "atoms_bits": 4.62,
+   "raised_last_3m": 4,
+   "factory_flags": [
+    "Armada"
+   ]
   },
   {
    "fund": "Cantos Ventures",
    "key": "Cantos",
    "tracked_in_lane": 26,
    "on_hiring_panel": 11,
-   "diffusion": 54.5,
-   "up": 4,
+   "diffusion": 50.0,
+   "up": 3,
    "down": 3,
-   "roles_now": 539,
+   "roles_now": 542,
    "roles_prev": 522,
-   "atoms_bits": 5.03,
+   "atoms_bits": 4.59,
    "raised_last_3m": 3,
    "factory_flags": []
   },
@@ -121,78 +141,39 @@
    "key": "a16z",
    "tracked_in_lane": 49,
    "on_hiring_panel": 27,
-   "diffusion": 53.7,
-   "up": 11,
-   "down": 9,
-   "roles_now": 1345,
+   "diffusion": 48.1,
+   "up": 9,
+   "down": 10,
+   "roles_now": 1323,
    "roles_prev": 1425,
-   "atoms_bits": 3.26,
+   "atoms_bits": 3.11,
    "raised_last_3m": 9,
    "factory_flags": [
     "Northwood Space"
    ]
   },
   {
-   "fund": "Pax Ventures",
-   "key": "Pax Ventures",
-   "tracked_in_lane": 16,
-   "on_hiring_panel": 10,
-   "diffusion": 50.0,
-   "up": 3,
-   "down": 3,
-   "roles_now": 353,
-   "roles_prev": 337,
-   "atoms_bits": 4.0,
-   "raised_last_3m": 1,
-   "factory_flags": [
-    "Northwood Space"
-   ]
-  },
-  {
-   "fund": "Lowercarbon Capital",
-   "key": "Lowercarbon",
-   "tracked_in_lane": 29,
-   "on_hiring_panel": 12,
-   "diffusion": 37.5,
-   "up": 3,
-   "down": 6,
-   "roles_now": 235,
-   "roles_prev": 236,
-   "atoms_bits": 7.52,
-   "raised_last_3m": 1,
-   "factory_flags": []
-  },
-  {
    "fund": "Prime Movers Lab",
    "key": "Prime Movers Lab",
    "tracked_in_lane": 13,
    "on_hiring_panel": 6,
-   "diffusion": 33.3,
-   "up": 1,
+   "diffusion": 41.7,
+   "up": 2,
    "down": 3,
-   "roles_now": 245,
+   "roles_now": 251,
    "roles_prev": 258,
-   "atoms_bits": 4.24,
+   "atoms_bits": 4.38,
    "raised_last_3m": 0,
    "factory_flags": []
   }
  ],
  "about_to_raise": [
   {
-   "company": "Skyryse",
-   "bucket": "Space & Aerospace",
-   "roles_3m_ago": 9,
-   "roles_now": 20,
-   "growth_pct": 122.2,
-   "last_capital_event": "2025-10",
-   "senior_mfg_hire": true
-  },
-  {
    "company": "Divergent",
    "bucket": "Manufacturing & Materials",
    "roles_3m_ago": 58,
-   "roles_now": 122,
-   "growth_pct": 110.3,
+   "roles_now": 130,
+   "growth_pct": 124.1,
    "last_capital_event": null,
    "senior_mfg_hire": true
   },
@@ -200,55 +181,55 @@
    "company": "Ursa Major Technologies",
    "bucket": "Space & Aerospace",
    "roles_3m_ago": 62,
-   "roles_now": 114,
-   "growth_pct": 83.9,
+   "roles_now": 133,
+   "growth_pct": 114.5,
    "last_capital_event": "2025-10",
-   "senior_mfg_hire": false
+   "senior_mfg_hire": true
   },
   {
    "company": "Kairos Power",
    "bucket": "Nuclear",
    "roles_3m_ago": 26,
-   "roles_now": 42,
-   "growth_pct": 61.5,
+   "roles_now": 55,
+   "growth_pct": 111.5,
    "last_capital_event": null,
-   "senior_mfg_hire": false
+   "senior_mfg_hire": true
+  },
+  {
+   "company": "Skyryse",
+   "bucket": "Space & Aerospace",
+   "roles_3m_ago": 9,
+   "roles_now": 19,
+   "growth_pct": 111.1,
+   "last_capital_event": "2025-10",
+   "senior_mfg_hire": true
   },
   {
    "company": "Amca",
    "bucket": "Manufacturing & Materials",
    "roles_3m_ago": 34,
-   "roles_now": 51,
-   "growth_pct": 50.0,
+   "roles_now": 52,
+   "growth_pct": 52.9,
    "last_capital_event": "2024-10",
-   "senior_mfg_hire": false
-  },
-  {
-   "company": "Extropic",
-   "bucket": "Chips & Quantum",
-   "roles_3m_ago": 7,
-   "roles_now": 10,
-   "growth_pct": 42.9,
-   "last_capital_event": null,
    "senior_mfg_hire": false
   },
   {
    "company": "Zipline",
    "bucket": "Autonomy & Robotics",
    "roles_3m_ago": 242,
-   "roles_now": 345,
-   "growth_pct": 42.6,
+   "roles_now": 349,
+   "growth_pct": 44.2,
    "last_capital_event": "2016-07",
    "senior_mfg_hire": true
   },
   {
-   "company": "Agility Robotics",
-   "bucket": "Autonomy & Robotics",
-   "roles_3m_ago": 56,
-   "roles_now": 77,
-   "growth_pct": 37.5,
+   "company": "Inversion Space",
+   "bucket": "Space & Aerospace",
+   "roles_3m_ago": 67,
+   "roles_now": 91,
+   "growth_pct": 35.8,
    "last_capital_event": null,
-   "senior_mfg_hire": true
+   "senior_mfg_hire": false
   }
  ],
  "about_to_build": [
@@ -257,7 +238,7 @@
    "bucket": "Space & Aerospace",
    "state": "CO",
    "roles_prev": 178,
-   "roles_now": 205,
+   "roles_now": 184,
    "senior_roles_open": 3,
    "last_capital_event": null
   },
@@ -266,25 +247,25 @@
    "bucket": "Defence",
    "state": "CA",
    "roles_prev": 122,
-   "roles_now": 161,
+   "roles_now": 163,
    "senior_roles_open": 2,
    "last_capital_event": null
   },
   {
-   "company": "Apex Space",
-   "bucket": "Space & Aerospace",
+   "company": "Divergent",
+   "bucket": "Manufacturing & Materials",
    "state": "CA",
-   "roles_prev": 127,
-   "roles_now": 134,
+   "roles_prev": 115,
+   "roles_now": 130,
    "senior_roles_open": 2,
-   "last_capital_event": "2022-10"
+   "last_capital_event": null
   },
   {
-   "company": "Armada",
-   "bucket": "Space & Aerospace",
-   "state": "CA",
-   "roles_prev": 39,
-   "roles_now": 39,
+   "company": "Re:Build Manufacturing",
+   "bucket": "Autonomy & Robotics",
+   "state": "MA",
+   "roles_prev": 129,
+   "roles_now": 129,
    "senior_roles_open": 2,
    "last_capital_event": null
   },
@@ -293,7 +274,7 @@
    "bucket": "Power & Grid",
    "state": "CA",
    "roles_prev": 10,
-   "roles_now": 13,
+   "roles_now": 16,
    "senior_roles_open": 2,
    "last_capital_event": null
   },
@@ -302,52 +283,43 @@
    "bucket": "Space & Aerospace",
    "state": "CA",
    "roles_prev": 130,
-   "roles_now": 144,
+   "roles_now": 143,
    "senior_roles_open": 1,
    "last_capital_event": "2026-08"
+  },
+  {
+   "company": "Ursa Major Technologies",
+   "bucket": "Space & Aerospace",
+   "state": "CO",
+   "roles_prev": 109,
+   "roles_now": 133,
+   "senior_roles_open": 1,
+   "last_capital_event": "2025-10"
   },
   {
    "company": "General Matter",
    "bucket": "Nuclear",
    "state": "CA",
    "roles_prev": 123,
-   "roles_now": 127,
+   "roles_now": 131,
    "senior_roles_open": 1,
    "last_capital_event": "2025-11"
-  },
-  {
-   "company": "Divergent",
-   "bucket": "Manufacturing & Materials",
-   "state": "CA",
-   "roles_prev": 115,
-   "roles_now": 122,
-   "senior_roles_open": 1,
-   "last_capital_event": null
-  },
-  {
-   "company": "Nuro",
-   "bucket": "Autonomy & Robotics",
-   "state": "CA",
-   "roles_prev": 108,
-   "roles_now": 108,
-   "senior_roles_open": 1,
-   "last_capital_event": null
   },
   {
    "company": "Stratolaunch",
    "bucket": "Space & Aerospace",
    "state": "CA",
    "roles_prev": 55,
-   "roles_now": 65,
+   "roles_now": 73,
    "senior_roles_open": 1,
    "last_capital_event": null
   },
   {
-   "company": "Defense Unicorns",
-   "bucket": "Defence",
-   "state": "CO",
-   "roles_prev": 52,
-   "roles_now": 58,
+   "company": "Loft Orbital",
+   "bucket": "Space & Aerospace",
+   "state": "CA",
+   "roles_prev": 57,
+   "roles_now": 64,
    "senior_roles_open": 1,
    "last_capital_event": null
   },
@@ -356,7 +328,25 @@
    "bucket": "Manufacturing & Materials",
    "state": "NC",
    "roles_prev": 55,
+   "roles_now": 57,
+   "senior_roles_open": 1,
+   "last_capital_event": null
+  },
+  {
+   "company": "Defense Unicorns",
+   "bucket": "Defence",
+   "state": "CO",
+   "roles_prev": 52,
    "roles_now": 56,
+   "senior_roles_open": 1,
+   "last_capital_event": null
+  },
+  {
+   "company": "Kairos Power",
+   "bucket": "Nuclear",
+   "state": "CA",
+   "roles_prev": 32,
+   "roles_now": 55,
    "senior_roles_open": 1,
    "last_capital_event": null
   },
@@ -365,16 +355,25 @@
    "bucket": "Nuclear",
    "state": "CO",
    "roles_prev": 48,
-   "roles_now": 51,
+   "roles_now": 53,
    "senior_roles_open": 1,
-   "last_capital_event": "2025-03"
+   "last_capital_event": null
+  },
+  {
+   "company": "Panthalassa",
+   "bucket": "Power & Grid",
+   "state": "OR",
+   "roles_prev": 40,
+   "roles_now": 52,
+   "senior_roles_open": 1,
+   "last_capital_event": null
   },
   {
    "company": "Heron Power",
    "bucket": "Power & Grid",
    "state": "CA",
    "roles_prev": 38,
-   "roles_now": 49,
+   "roles_now": 50,
    "senior_roles_open": 1,
    "last_capital_event": "2026-02"
   },
@@ -383,25 +382,16 @@
    "bucket": "Chips & Quantum",
    "state": "CA",
    "roles_prev": 36,
-   "roles_now": 44,
+   "roles_now": 48,
    "senior_roles_open": 1,
    "last_capital_event": "2026-08"
   },
   {
-   "company": "Standard Bots",
-   "bucket": "Autonomy & Robotics",
-   "state": "NY",
-   "roles_prev": 38,
-   "roles_now": 39,
-   "senior_roles_open": 1,
-   "last_capital_event": null
-  },
-  {
-   "company": "Nimble Robotics",
-   "bucket": "Autonomy & Robotics",
-   "state": "CA",
-   "roles_prev": 38,
-   "roles_now": 38,
+   "company": "Star Catcher",
+   "bucket": "Space & Aerospace",
+   "state": "FL",
+   "roles_prev": 20,
+   "roles_now": 42,
    "senior_roles_open": 1,
    "last_capital_event": null
   },
@@ -415,11 +405,11 @@
    "last_capital_event": null
   },
   {
-   "company": "Star Catcher",
-   "bucket": "Space & Aerospace",
-   "state": "FL",
-   "roles_prev": 20,
-   "roles_now": 36,
+   "company": "TerraFirma",
+   "bucket": "Manufacturing & Materials",
+   "state": "TX",
+   "roles_prev": 31,
+   "roles_now": 35,
    "senior_roles_open": 1,
    "last_capital_event": null
   },
@@ -428,18 +418,9 @@
    "bucket": "Manufacturing & Materials",
    "state": "MA",
    "roles_prev": 33,
-   "roles_now": 34,
-   "senior_roles_open": 1,
-   "last_capital_event": "2025-10"
-  },
-  {
-   "company": "TerraFirma",
-   "bucket": "Manufacturing & Materials",
-   "state": "TX",
-   "roles_prev": 31,
    "roles_now": 33,
    "senior_roles_open": 1,
-   "last_capital_event": null
+   "last_capital_event": "2025-10"
   },
   {
    "company": "Mesh Optical Technologies",
@@ -447,6 +428,15 @@
    "state": "CA",
    "roles_prev": 29,
    "roles_now": 29,
+   "senior_roles_open": 1,
+   "last_capital_event": null
+  },
+  {
+   "company": "Maybell Quantum",
+   "bucket": "Chips & Quantum",
+   "state": "CO",
+   "roles_prev": 23,
+   "roles_now": 27,
    "senior_roles_open": 1,
    "last_capital_event": null
   },
@@ -460,40 +450,39 @@
    "last_capital_event": null
   },
   {
-   "company": "Pyka",
-   "bucket": "Autonomy & Robotics",
-   "state": "CA",
-   "roles_prev": 21,
-   "roles_now": 22,
-   "senior_roles_open": 1,
-   "last_capital_event": null
-  },
-  {
    "company": "Furientis",
    "bucket": "Defence",
    "state": "CA",
    "roles_prev": 20,
-   "roles_now": 20,
+   "roles_now": 23,
    "senior_roles_open": 1,
    "last_capital_event": "2026-10"
   }
  ],
- "runway_stress_count": 2,
+ "runway_stress_count": 3,
  "runway_stress_paid": [
   {
    "company": "Armada",
    "bucket": "Space & Aerospace",
    "roles_3m_ago": 62,
-   "roles_now": 39,
-   "decline_pct": 37.1,
+   "roles_now": 36,
+   "decline_pct": 41.9,
+   "last_capital_event": null
+  },
+  {
+   "company": "Locus Robotics",
+   "bucket": "Autonomy & Robotics",
+   "roles_3m_ago": 5,
+   "roles_now": 3,
+   "decline_pct": 40.0,
    "last_capital_event": null
   },
   {
    "company": "Outpost Space",
    "bucket": "Space & Aerospace",
    "roles_3m_ago": 24,
-   "roles_now": 16,
-   "decline_pct": 33.3,
+   "roles_now": 15,
+   "decline_pct": 37.5,
    "last_capital_event": null
   }
  ],
@@ -503,14 +492,14 @@
   "raisers": {
    "n": 13,
    "median_growth_pct": 34.2,
-   "share_up_30pct": 61.5,
+   "share_up_30pct": 69.2,
    "share_down": 7.7
   },
   "others": {
    "n": 206,
-   "median_growth_pct": 11.6,
-   "share_up_30pct": 38.8,
-   "share_down": 33.0
+   "median_growth_pct": 11.4,
+   "share_up_30pct": 38.3,
+   "share_down": 34.0
   },
   "window": "2026-02..2026-10",
   "definition": "Role growth over the three months to M for companies on the panel with \u22655 roles at M-3; raisers = a capital event in M or M+1."

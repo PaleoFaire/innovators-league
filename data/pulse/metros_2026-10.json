@@ -3,104 +3,86 @@
  "constant_set_size": 46,
  "top": [
   {
-   "metro": "Costa Mesa, CA",
-   "postings": 1315,
-   "companies": 2,
-   "postings_12w_ago": 0
-  },
-  {
    "metro": "Austin, TX",
-   "postings": 817,
+   "postings": 816,
    "companies": 36,
-   "postings_12w_ago": 144
+   "postings_12w_ago": 148
   },
   {
    "metro": "Los Angeles, CA",
-   "postings": 718,
-   "companies": 32,
-   "postings_12w_ago": 107
+   "postings": 740,
+   "companies": 31,
+   "postings_12w_ago": 106
   },
   {
    "metro": "San Francisco, CA",
-   "postings": 717,
-   "companies": 53,
-   "postings_12w_ago": 150
+   "postings": 727,
+   "companies": 54,
+   "postings_12w_ago": 148
   },
   {
    "metro": "Long Beach, CA",
-   "postings": 597,
+   "postings": 614,
    "companies": 10,
-   "postings_12w_ago": 151
-  },
-  {
-   "metro": "Mountain View, CA",
-   "postings": 554,
-   "companies": 17,
-   "postings_12w_ago": 123
+   "postings_12w_ago": 148
   },
   {
    "metro": "El Segundo, CA",
-   "postings": 546,
-   "companies": 19,
-   "postings_12w_ago": 263
+   "postings": 540,
+   "companies": 18,
+   "postings_12w_ago": 273
   },
   {
-   "metro": "Torrance, CA",
-   "postings": 383,
-   "companies": 7,
-   "postings_12w_ago": 129
+   "metro": "Mountain View, CA",
+   "postings": 539,
+   "companies": 16,
+   "postings_12w_ago": 128
   },
   {
    "metro": "San Jose, CA",
-   "postings": 379,
+   "postings": 383,
    "companies": 9,
-   "postings_12w_ago": 136
+   "postings_12w_ago": 151
+  },
+  {
+   "metro": "Torrance, CA",
+   "postings": 382,
+   "companies": 7,
+   "postings_12w_ago": 142
   },
   {
    "metro": "Denver, CO",
-   "postings": 293,
+   "postings": 301,
    "companies": 14,
    "postings_12w_ago": 1
   },
   {
-   "metro": "Seattle, WA",
-   "postings": 291,
-   "companies": 19,
-   "postings_12w_ago": 24
-  },
-  {
    "metro": "South San Francisco, CA",
-   "postings": 275,
+   "postings": 277,
    "companies": 6,
-   "postings_12w_ago": 160
+   "postings_12w_ago": 173
   },
   {
-   "metro": "Boston, MA",
-   "postings": 214,
-   "companies": 19,
-   "postings_12w_ago": 29
+   "metro": "Seattle, WA",
+   "postings": 260,
+   "companies": 17,
+   "postings_12w_ago": 22
   },
   {
    "metro": "Houston, TX",
-   "postings": 204,
-   "companies": 15,
+   "postings": 227,
+   "companies": 16,
    "postings_12w_ago": 16
   },
   {
-   "metro": "Irvine, CA",
-   "postings": 191,
-   "companies": 3,
-   "postings_12w_ago": 0
-  },
-  {
-   "metro": "Washington, WA",
-   "postings": 181,
-   "companies": 22,
-   "postings_12w_ago": 43
+   "metro": "Boston, MA",
+   "postings": 173,
+   "companies": 17,
+   "postings_12w_ago": 31
   },
   {
    "metro": "Huntington Beach, CA",
-   "postings": 162,
+   "postings": 167,
    "companies": 2,
    "postings_12w_ago": 0
   },
@@ -108,85 +90,103 @@
    "metro": "Santa Clara, CA",
    "postings": 152,
    "companies": 12,
-   "postings_12w_ago": 12
-  },
-  {
-   "metro": "Dallas, TX",
-   "postings": 142,
-   "companies": 6,
-   "postings_12w_ago": 2
+   "postings_12w_ago": 11
   },
   {
    "metro": "Westminster, CO",
-   "postings": 142,
+   "postings": 143,
    "companies": 1,
    "postings_12w_ago": 0
   },
   {
-   "metro": "New York, NY",
-   "postings": 132,
-   "companies": 21,
-   "postings_12w_ago": 3
+   "metro": "Dallas, TX",
+   "postings": 136,
+   "companies": 6,
+   "postings_12w_ago": 2
+  },
+  {
+   "metro": "Alameda, CA",
+   "postings": 128,
+   "companies": 6,
+   "postings_12w_ago": 16
+  },
+  {
+   "metro": "San Mateo, CA",
+   "postings": 126,
+   "companies": 2,
+   "postings_12w_ago": 0
   },
   {
    "metro": "San Carlos, CA",
-   "postings": 131,
+   "postings": 125,
    "companies": 3,
    "postings_12w_ago": 0
   },
   {
    "metro": "Palo Alto, CA",
-   "postings": 126,
-   "companies": 12,
-   "postings_12w_ago": 34
-  },
-  {
-   "metro": "Alameda, CA",
-   "postings": 124,
-   "companies": 6,
-   "postings_12w_ago": 17
-  },
-  {
-   "metro": "Ashville, OH",
-   "postings": 123,
-   "companies": 1,
-   "postings_12w_ago": 0
+   "postings": 125,
+   "companies": 11,
+   "postings_12w_ago": 26
   },
   {
    "metro": "San Diego, CA",
-   "postings": 120,
+   "postings": 123,
    "companies": 8,
    "postings_12w_ago": 6
   },
   {
-   "metro": "San Mateo, CA",
-   "postings": 117,
-   "companies": 2,
-   "postings_12w_ago": 0
+   "metro": "New York, NY",
+   "postings": 121,
+   "companies": 24,
+   "postings_12w_ago": 2
+  },
+  {
+   "metro": "Berthoud, CO",
+   "postings": 112,
+   "companies": 1,
+   "postings_12w_ago": 70
   },
   {
    "metro": "Devens, MA",
-   "postings": 111,
-   "companies": 2,
-   "postings_12w_ago": 0
-  },
-  {
-   "metro": "Santa Ana, CA",
    "postings": 109,
    "companies": 2,
    "postings_12w_ago": 0
   },
   {
-   "metro": "Broomfield, CO",
-   "postings": 103,
-   "companies": 7,
-   "postings_12w_ago": 8
+   "metro": "Hawthorne, CA",
+   "postings": 100,
+   "companies": 9,
+   "postings_12w_ago": 37
+  },
+  {
+   "metro": "Weirton, WV",
+   "postings": 92,
+   "companies": 1,
+   "postings_12w_ago": 0
+  },
+  {
+   "metro": "Berkeley, CA",
+   "postings": 91,
+   "companies": 4,
+   "postings_12w_ago": 0
+  },
+  {
+   "metro": "Playa Vista, CA",
+   "postings": 91,
+   "companies": 2,
+   "postings_12w_ago": 67
+  },
+  {
+   "metro": "Everett, WA",
+   "postings": 88,
+   "companies": 3,
+   "postings_12w_ago": 0
   }
  ],
  "new_this_quarter": [
   {
    "metro": "Ann Arbor, CA",
-   "postings": 8,
+   "postings": 9,
    "companies": [
     "Zipline"
    ]

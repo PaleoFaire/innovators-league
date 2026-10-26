@@ -1,0 +1,206 @@
+{
+ "week": "2026-W44",
+ "generated": "2026-10-26",
+ "count": 15,
+ "by_type": {
+  "hiring_surge": 13,
+  "hiring_pullback": 2
+ },
+ "signals": [
+  {
+   "company": "Chaos Industries",
+   "bucket": "Defence",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W44",
+   "evidence": {
+    "roles_4w_ago": 125,
+    "roles_now": 163,
+    "change_pct": 30.4
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Tutor Intelligence",
+   "bucket": "Autonomy & Robotics",
+   "state": "MA",
+   "type": "hiring_surge",
+   "week": "2026-W44",
+   "evidence": {
+    "roles_4w_ago": 33,
+    "roles_now": 45,
+    "change_pct": 36.4
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Atomic Machines",
+   "bucket": "Chips & Quantum",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W44",
+   "evidence": {
+    "roles_4w_ago": 20,
+    "roles_now": 29,
+    "change_pct": 45.0
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Heven AeroTech",
+   "bucket": "Defence",
+   "state": "VA",
+   "type": "hiring_pullback",
+   "week": "2026-W44",
+   "evidence": {
+    "roles_4w_ago": 37,
+    "roles_now": 22,
+    "change_pct": -40.5
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Mariana Minerals",
+   "bucket": "Manufacturing & Materials",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W44",
+   "evidence": {
+    "roles_4w_ago": 72,
+    "roles_now": 95,
+    "change_pct": 31.9
+   },
+   "last_capital_event": "2026-08"
+  },
+  {
+   "company": "Nooks",
+   "bucket": "Defence",
+   "state": "VA",
+   "type": "hiring_surge",
+   "week": "2026-W44",
+   "evidence": {
+    "roles_4w_ago": 10,
+    "roles_now": 66,
+    "change_pct": 560.0
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Normal Computing",
+   "bucket": "Chips & Quantum",
+   "state": "NY",
+   "type": "hiring_surge",
+   "week": "2026-W44",
+   "evidence": {
+    "roles_4w_ago": 18,
+    "roles_now": 39,
+    "change_pct": 116.7
+   },
+   "last_capital_event": "2026-03"
+  },
+  {
+   "company": "Panthalassa",
+   "bucket": "Power & Grid",
+   "state": "OR",
+   "type": "hiring_surge",
+   "week": "2026-W44",
+   "evidence": {
+    "roles_4w_ago": 40,
+    "roles_now": 52,
+    "change_pct": 30.0
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "SirenOpt",
+   "bucket": "Manufacturing & Materials",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W44",
+   "evidence": {
+    "roles_4w_ago": 10,
+    "roles_now": 14,
+    "change_pct": 40.0
+   },
+   "last_capital_event": "2026-09"
+  },
+  {
+   "company": "XDOF",
+   "bucket": "Manufacturing & Materials",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W44",
+   "evidence": {
+    "roles_4w_ago": 20,
+    "roles_now": 26,
+    "change_pct": 30.0
+   },
+   "last_capital_event": "2026-06"
+  },
+  {
+   "company": "Humble Robotics",
+   "bucket": "Autonomy & Robotics",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W44",
+   "evidence": {
+    "roles_4w_ago": 16,
+    "roles_now": 24,
+    "change_pct": 50.0
+   },
+   "last_capital_event": "2026-05"
+  },
+  {
+   "company": "Velaura AI",
+   "bucket": "Chips & Quantum",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W44",
+   "evidence": {
+    "roles_4w_ago": 36,
+    "roles_now": 48,
+    "change_pct": 33.3
+   },
+   "last_capital_event": "2026-08"
+  },
+  {
+   "company": "Bluecore Energy",
+   "bucket": "Nuclear",
+   "state": "CA",
+   "type": "hiring_pullback",
+   "week": "2026-W44",
+   "evidence": {
+    "roles_4w_ago": 10,
+    "roles_now": 6,
+    "change_pct": -40.0
+   },
+   "last_capital_event": "2026-09"
+  },
+  {
+   "company": "Aalo Atomics",
+   "bucket": "Nuclear",
+   "state": "TX",
+   "type": "hiring_surge",
+   "week": "2026-W44",
+   "evidence": {
+    "roles_4w_ago": 57,
+    "roles_now": 76,
+    "change_pct": 33.3
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Performance Drone Works",
+   "bucket": "Defence",
+   "state": "AL",
+   "type": "hiring_surge",
+   "week": "2026-W44",
+   "evidence": {
+    "roles_4w_ago": 29,
+    "roles_now": 40,
+    "change_pct": 37.9
+   },
+   "last_capital_event": null
+  }
+ ]
+}

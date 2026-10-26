@@ -2,16 +2,16 @@
  "month": "2026-10",
  "primes": [
   {
-   "prime": "Lockheed Martin",
-   "ticker": "LMT",
-   "partners_tracked": 8,
+   "prime": "Northrop Grumman",
+   "ticker": "NOC",
+   "partners_tracked": 5,
    "on_panel": 2,
-   "diffusion_4w": 50.0,
-   "roles_now": 128,
-   "roles_4w_ago": 119,
+   "diffusion_4w": 75.0,
+   "roles_now": 44,
+   "roles_4w_ago": 44,
    "partners": [
-    "Anello Photonics",
-    "Divergent"
+    "Observable Space",
+    "Picogrid"
    ]
   },
   {
@@ -19,9 +19,9 @@
    "ticker": "RTX",
    "partners_tracked": 5,
    "on_panel": 3,
-   "diffusion_4w": 50.0,
-   "roles_now": 187,
-   "roles_4w_ago": 183,
+   "diffusion_4w": 66.7,
+   "roles_now": 194,
+   "roles_4w_ago": 187,
    "partners": [
     "Divergent",
     "Epirus",
@@ -29,17 +29,16 @@
    ]
   },
   {
-   "prime": "Northrop Grumman",
-   "ticker": "NOC",
-   "partners_tracked": 5,
-   "on_panel": 3,
+   "prime": "Lockheed Martin",
+   "ticker": "LMT",
+   "partners_tracked": 8,
+   "on_panel": 2,
    "diffusion_4w": 50.0,
-   "roles_now": 73,
-   "roles_4w_ago": 76,
+   "roles_now": 136,
+   "roles_4w_ago": 128,
    "partners": [
-    "Observable Space",
-    "Picogrid",
-    "Scout AI"
+    "Anello Photonics",
+    "Divergent"
    ]
   },
   {
@@ -47,9 +46,9 @@
    "ticker": "GD",
    "partners_tracked": 6,
    "on_panel": 2,
-   "diffusion_4w": 25.0,
-   "roles_now": 42,
-   "roles_4w_ago": 46,
+   "diffusion_4w": 50.0,
+   "roles_now": 41,
+   "roles_4w_ago": 44,
    "partners": [
     "Span",
     "Union"
