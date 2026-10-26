@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-19T15:35:46.331094+00:00",
+  "generated_at": "2026-10-26T15:11:29.541801+00:00",
   "source": "buildlist",
   "source_url": "https://buildlist.xyz/companies",
   "note": "Report only, never applied to data.js. COMPANIES records whose state, country or city disagrees with BuildList's location_city. BuildList can be the stale side; check the company's own site before editing data.js.",
-  "compared": 485,
+  "compared": 478,
   "matched_by": {
-    "domain": 55,
-    "name": 430
+    "domain": 0,
+    "name": 478
   },
   "ignored": [
     "Hermeus",
@@ -25,13 +25,13 @@
       "company": "Clone Robotics",
       "buildlist_name": "Clone Robotics",
       "kind": "country",
-      "matched_by": "domain",
+      "matched_by": "name",
       "db_location": "Wrocław, Poland",
       "db_state": "",
       "db_country": "Poland",
       "buildlist_location": "New York, NY",
       "buildlist_metro": "NYC",
-      "evidence": "https://clonerobotics.com/company#open-roles"
+      "evidence": ""
     },
     {
       "company": "Dawn Aerospace",
@@ -85,25 +85,25 @@
       "company": "Zenno Astronautics",
       "buildlist_name": "Zenno Astronautics",
       "kind": "country",
-      "matched_by": "domain",
+      "matched_by": "name",
       "db_location": "Los Angeles, CA",
       "db_state": "CA",
       "db_country": "United States",
       "buildlist_location": "Auckland, New Zealand",
       "buildlist_metro": "New Zealand",
-      "evidence": "https://www.zennoastronautics.com/careers"
+      "evidence": ""
     },
     {
       "company": "Aleph Surgical",
       "buildlist_name": "Aleph Surgical",
       "kind": "state",
-      "matched_by": "domain",
+      "matched_by": "name",
       "db_location": "San Francisco, CA",
       "db_state": "CA",
       "db_country": "United States",
       "buildlist_location": "New York, NY",
       "buildlist_metro": "NYC",
-      "evidence": "https://alephsurgical.com/jobs"
+      "evidence": ""
     },
     {
       "company": "Applied Atomics",
@@ -169,13 +169,13 @@
       "company": "Impossible Metals",
       "buildlist_name": "Impossible Metals",
       "kind": "state",
-      "matched_by": "domain",
+      "matched_by": "name",
       "db_location": "Pittsburgh, PA",
       "db_state": "PA",
       "db_country": "United States",
       "buildlist_location": "Pasadena, CA",
       "buildlist_metro": "Los Angeles",
-      "evidence": "https://impossiblemetals.com/join-us/"
+      "evidence": ""
     },
     {
       "company": "Last Energy",
@@ -445,13 +445,13 @@
       "company": "Auriga Space",
       "buildlist_name": "Auriga Space",
       "kind": "city",
-      "matched_by": "domain",
+      "matched_by": "name",
       "db_location": "Orange County, CA",
       "db_state": "CA",
       "db_country": "United States",
       "buildlist_location": "Garden Grove, CA",
       "buildlist_metro": "Los Angeles",
-      "evidence": "https://www.aurigaspace.com/careers"
+      "evidence": ""
     },
     {
       "company": "Bedrock Ocean",
@@ -538,6 +538,18 @@
       "evidence": ""
     },
     {
+      "company": "Dimensional Energy",
+      "buildlist_name": "Dimensional Energy",
+      "kind": "city",
+      "matched_by": "name",
+      "db_location": "Ithaca, NY",
+      "db_state": "NY",
+      "db_country": "United States",
+      "buildlist_location": "New York, NY",
+      "buildlist_metro": "NYC",
+      "evidence": ""
+    },
+    {
       "company": "Endeavor Optical Networks",
       "buildlist_name": "Endeavor Optical Networks",
       "kind": "city",
@@ -589,13 +601,13 @@
       "company": "Floodbase",
       "buildlist_name": "Floodbase",
       "kind": "city",
-      "matched_by": "domain",
+      "matched_by": "name",
       "db_location": "New York, NY",
       "db_state": "NY",
       "db_country": "United States",
       "buildlist_location": "Brooklyn, NY",
       "buildlist_metro": "NYC",
-      "evidence": "https://www.floodbase.com/careers"
+      "evidence": ""
     },
     {
       "company": "FlyBy Robotics",
@@ -608,18 +620,6 @@
       "buildlist_location": "Los Angeles, CA",
       "buildlist_metro": "Los Angeles",
       "evidence": ""
-    },
-    {
-      "company": "Gilmour Space Technologies",
-      "buildlist_name": "Gilmour Space",
-      "kind": "city",
-      "matched_by": "domain",
-      "db_location": "Yatala, Australia",
-      "db_state": "",
-      "db_country": "Australia",
-      "buildlist_location": "Gold Coast, Australia",
-      "buildlist_metro": "Australia",
-      "evidence": "https://www.gspace.com/career"
     },
     {
       "company": "GrayMatter Robotics",
@@ -829,13 +829,13 @@
       "company": "Rapidus",
       "buildlist_name": "Rapidus",
       "kind": "city",
-      "matched_by": "domain",
+      "matched_by": "name",
       "db_location": "Chiyoda, Tokyo, Japan",
       "db_state": "",
       "db_country": "Japan",
       "buildlist_location": "Tokyo, Japan",
       "buildlist_metro": "Japan",
-      "evidence": "https://www.rapidus.inc/recruit/"
+      "evidence": ""
     },
     {
       "company": "Red 6",
