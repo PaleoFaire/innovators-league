@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T14:57:48.866169+00:00",
+  "generated_at": "2026-10-26T14:33:11.584240+00:00",
   "count": 45,
   "note": "COMPANIES whose investors field lacks a fund that lists them on its portfolio page. Domain matches are exact; name matches deserve a glance.",
   "items": [
@@ -236,7 +236,7 @@
       "first_funded": ""
     },
     {
-      "company": "ASI",
+      "company": "American Housing Corporation",
       "add": "Pax Ventures",
       "fund": "Pax Ventures",
       "matched_by": "domain",
@@ -244,7 +244,7 @@
       "first_funded": ""
     },
     {
-      "company": "American Housing Corporation",
+      "company": "ASI",
       "add": "Pax Ventures",
       "fund": "Pax Ventures",
       "matched_by": "domain",
@@ -265,14 +265,6 @@
       "fund": "Prime Movers Lab",
       "matched_by": "domain",
       "evidence": "https://www.primemoverslab.com/portfolio",
-      "first_funded": ""
-    },
-    {
-      "company": "Vannevar Labs",
-      "add": "In-Q-Tel",
-      "fund": "IQT",
-      "matched_by": "domain",
-      "evidence": "https://www.iqt.org/portfolio/",
       "first_funded": ""
     },
     {
@@ -313,6 +305,14 @@
       "fund": "KV",
       "matched_by": "domain",
       "evidence": "https://jobs.khoslaventures.com/companies/planted-solar-2",
+      "first_funded": ""
+    },
+    {
+      "company": "Swarm Aero",
+      "add": "Khosla Ventures",
+      "fund": "KV",
+      "matched_by": "domain",
+      "evidence": "https://jobs.khoslaventures.com/companies/swarm-aero-2",
       "first_funded": ""
     },
     {

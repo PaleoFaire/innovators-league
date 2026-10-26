@@ -1,7 +1,7 @@
 // Auto-generated from discovery_queue_auto.json
-// Last updated: 2026-10-19T14:59:36+00:00
+// Last updated: 2026-10-26T14:34:57+00:00
 const DISCOVERY_QUEUE_AUTO = {
-  "generatedAt": "2026-10-19T14:59:36+00:00",
+  "generatedAt": "2026-10-26T14:34:57+00:00",
   "knownCompaniesCount": 1995,
   "summary": {
     "totalCandidates": 482,
