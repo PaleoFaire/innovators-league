@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 3.76,
+      "avg_change": 3.18,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 7.87,
+      "avg_change": 7.46,
       "count": 7
     },
     "autonomous": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 2.1,
+      "avg_change": 2.34,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.13,
+      "avg_change": -1.06,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": 0.39,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.28,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.47,
+      "avg_change": 5.02,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 9.8,
+      "avg_change": 8.93,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 2.05,
+      "avg_change": 2.06,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.6,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 2.04,
       "count": 3
     }
   },
@@ -61,7 +61,7 @@
     [
       "RKLB",
       "Rocket Lab",
-      14.58
+      14.56
     ],
     [
       "ASRHF",
@@ -71,17 +71,17 @@
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      12.3
+      10.66
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      9.87
+      9.68
     ],
     [
-      "TEM",
-      "Tempus AI",
-      9.05
+      "TSLA",
+      "Tesla",
+      9.03
     ]
   ],
   "topLosers": [
@@ -91,25 +91,25 @@
       -3.64
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      -3.99
+      "NNE",
+      "Nano Nuclear Energy",
+      -4.78
     ],
     [
       "RIVN",
       "Rivian",
-      -4.71
+      -4.91
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      -4.94
     ],
     [
       "277810.KQ",
       "Rainbow Robotics",
       -5.38
-    ],
-    [
-      "NNE",
-      "Nano Nuclear Energy",
-      -6.1
     ]
   ],
-  "lastUpdated": "2026-10-27 18:50:57"
+  "lastUpdated": "2026-10-27 23:02:33"
 }
