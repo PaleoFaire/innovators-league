@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 2.42,
+      "avg_change": 3.76,
       "count": 1
     },
     "space": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -1.58,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 7.87,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -2.44,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 2.1,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -7.0,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.13,
       "count": 3
     },
     "climate": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -0.23,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 0.39,
       "count": 3
     },
     "quantum": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -1.49,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 4.47,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.2,
+      "avg_change": 9.8,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -0.48,
+      "avg_change": 2.05,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -3.74,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.6,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "TSLA",
-      "Tesla",
-      6.4
+      "RKLB",
+      "Rocket Lab",
+      14.58
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      14.43
     ],
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      5.26
+      12.3
     ],
     [
-      "RKLB",
-      "Rocket Lab",
-      4.79
+      "LUNR",
+      "Intuitive Machines",
+      9.87
     ],
     [
       "TEM",
       "Tempus AI",
-      4.38
-    ],
-    [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      2.97
+      9.05
     ]
   ],
   "topLosers": [
     [
+      "9348.T",
+      "ispace",
+      -3.64
+    ],
+    [
       "DRSHF",
       "DroneShield",
-      -7.09
+      -3.99
     ],
     [
       "RIVN",
       "Rivian",
-      -7.37
+      -4.71
     ],
     [
-      "SMR",
-      "NuScale Power",
-      -7.38
+      "277810.KQ",
+      "Rainbow Robotics",
+      -5.38
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -8.84
-    ],
-    [
-      "ALAB",
-      "Astera Labs",
-      -9.45
+      -6.1
     ]
   ],
-  "lastUpdated": "2026-10-27 13:18:30"
+  "lastUpdated": "2026-10-27 18:50:57"
 }
