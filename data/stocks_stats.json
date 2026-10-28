@@ -3,113 +3,113 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 3.18,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -3.59,
       "count": 1
     },
     "space": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 7.76,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 2.25,
       "count": 7
     },
     "autonomous": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 3.99,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 4.05,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.06,
+      "avg_change": -3.52,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.28,
+      "avg_change": 1.27,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 5.02,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -0.51,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.93,
+      "avg_change": 13.46,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 2.06,
+      "avg_change": -2.0,
       "count": 2
     },
     "chips": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 2.04,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 0.5,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "RKLB",
-      "Rocket Lab",
-      14.56
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      14.43
-    ],
-    [
       "RXRX",
       "Recursion Pharmaceuticals",
-      10.66
+      18.54
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      9.68
+      "TEM",
+      "Tempus AI",
+      12.88
     ],
     [
-      "TSLA",
-      "Tesla",
-      9.03
+      "ACHR",
+      "Archer Aviation",
+      10.08
+    ],
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      8.97
+    ],
+    [
+      "JOBY",
+      "Joby Aviation",
+      8.58
     ]
   ],
   "topLosers": [
     [
-      "LNZA",
-      "LanzaTech",
-      -1.19
+      "QBTS",
+      "D-Wave Quantum",
+      -3.18
     ],
     [
-      "9348.T",
-      "ispace",
-      -1.58
+      "PLTR",
+      "Palantir",
+      -3.59
     ],
     [
-      "NNE",
-      "Nano Nuclear Energy",
-      -4.78
+      "OKLO",
+      "Oklo",
+      -4.11
     ],
     [
       "RIVN",
       "Rivian",
-      -4.91
+      -7.42
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      -4.94
+      "NNE",
+      "Nano Nuclear Energy",
+      -7.9
     ]
   ],
-  "lastUpdated": "2026-10-28 06:57:18"
+  "lastUpdated": "2026-10-28 14:06:34"
 }
