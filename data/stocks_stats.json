@@ -11,13 +11,13 @@
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 7.46,
+      "avg_change": 7.76,
       "count": 7
     },
     "autonomous": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 2.34,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 3.99,
       "count": 7
     },
     "nuclear": {
@@ -86,9 +86,14 @@
   ],
   "topLosers": [
     [
+      "LNZA",
+      "LanzaTech",
+      -1.19
+    ],
+    [
       "9348.T",
       "ispace",
-      -3.64
+      -1.58
     ],
     [
       "NNE",
@@ -104,12 +109,7 @@
       "DRSHF",
       "DroneShield",
       -4.94
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -5.38
     ]
   ],
-  "lastUpdated": "2026-10-27 23:02:33"
+  "lastUpdated": "2026-10-28 06:57:18"
 }
