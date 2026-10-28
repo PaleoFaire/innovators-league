@@ -1,59 +1,57 @@
 [
   {
-    "sector": "Defense & Security",
-    "momentum": 55,
-    "trend": "steady",
-    "catalysts": [
-      "Helsing rolls out Contra air defense design, plus two new in",
-      "SpaceX Starlink Has Never Been a Weapon System But SpaceX St",
-      "Kyiv eyes purchase of planned ICEYE, Nokia &#8216;sovereign&"
-    ],
-    "fundingQ": "$4.1B",
-    "components": {
-      "funding": 100,
-      "news": 20,
-      "hiring": 0,
-      "market": 74
-    },
-    "lastUpdated": "2026-10-27"
-  },
-  {
     "sector": "Robotics & Manufacturing",
-    "momentum": 51,
-    "trend": "steady",
+    "momentum": 56,
+    "trend": "accelerating",
     "catalysts": [
-      "Bedrock Robotics nears $1B in total funding as demand for au",
-      "Teradyne Robotics partners with Sereact to scale physical AI",
-      "Waymo picks Toronto as first Canadian city, targets riders i"
+      "Waymo Growing Further",
+      "Re:Build, which spun out Slate Auto, raises $2.1B",
+      "Waymo adds nearly 250 square miles of robotaxi coverage in 5"
     ],
     "fundingQ": "$6.4B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-27"
+    "lastUpdated": "2026-10-28"
   },
   {
-    "sector": "Transportation",
-    "momentum": 41,
+    "sector": "Defense & Security",
+    "momentum": 53,
     "trend": "steady",
     "catalysts": [
-      "Rivian&#8217;s Mind Robotics snags Doug Field, ex-Tesla and"
+      "Helsing rolls out Contra air defense design, plus two new in"
     ],
-    "fundingQ": "$3.0B",
+    "fundingQ": "$4.1B",
     "components": {
       "funding": 100,
       "news": 5,
       "hiring": 0,
-      "market": 23
+      "market": 82
     },
-    "lastUpdated": "2026-10-27"
+    "lastUpdated": "2026-10-28"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 51,
+    "trend": "steady",
+    "catalysts": [
+      "Active transportation ecosystem"
+    ],
+    "fundingQ": "$3.0B",
+    "components": {
+      "funding": 100,
+      "news": 0,
+      "hiring": 0,
+      "market": 80
+    },
+    "lastUpdated": "2026-10-28"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 36,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
       "With federal funding windfall, X-energy advances small nucle"
@@ -63,31 +61,31 @@
       "funding": 100,
       "news": 5,
       "hiring": 0,
-      "market": 0
+      "market": 58
     },
-    "lastUpdated": "2026-10-27"
+    "lastUpdated": "2026-10-28"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 32,
+    "momentum": 40,
     "trend": "rising",
     "catalysts": [
       "Anthropic IPO, Scaling and Almost Tripled SpaceX Leasing to",
-      "SpaceX locks in $40B GPU financing deal with Apollo",
-      "Astranis Upgrades Falcon 9 Launch Contract to Dedicated Miss"
+      "Astranis Upgrades Falcon 9 Launch Contract to Dedicated Miss",
+      "Rethinking networks in space with Aalyria\u2019s Brian Barritt"
     ],
     "fundingQ": "$809M",
     "components": {
       "funding": 36,
-      "news": 40,
+      "news": 30,
       "hiring": 0,
-      "market": 45
+      "market": 100
     },
-    "lastUpdated": "2026-10-27"
+    "lastUpdated": "2026-10-28"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 30,
+    "momentum": 40,
     "trend": "rising",
     "catalysts": [
       "With federal funding windfall, X-energy advances small nucle",
@@ -99,27 +97,27 @@
       "funding": 46,
       "news": 15,
       "hiring": 0,
-      "market": 51
+      "market": 100
     },
-    "lastUpdated": "2026-10-27"
+    "lastUpdated": "2026-10-28"
   },
   {
     "sector": "AI & Software",
-    "momentum": 28,
+    "momentum": 31,
     "trend": "rising",
     "catalysts": [
-      "How OpenAI turned its coding tools into dots, an always-on p",
-      "Why Anthropic\u2019s IPO Prospectus Is Missing So Many Key Figure",
-      "Anthropic IPO, Scaling and Almost Tripled SpaceX Leasing to"
+      "VCs will make billions on Anthropic&#8217;s IPO, but Amazon",
+      "Who&#8217;s really in charge at Anthropic after the IPO?",
+      "Anthropic Says It Will Revolutionize Biology\u2014Some Day"
     ],
     "fundingQ": "$350M",
     "components": {
       "funding": 6,
-      "news": 65,
+      "news": 75,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-27"
+    "lastUpdated": "2026-10-28"
   },
   {
     "sector": "Biotech & Health",
@@ -133,18 +131,34 @@
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 98
+      "market": 100
     },
-    "lastUpdated": "2026-10-27"
+    "lastUpdated": "2026-10-28"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-10-28"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 16,
     "trend": "declining",
     "catalysts": [
+      "ANYbotics begins delivering ANYmal X legged robot for explos",
       "Bedrock Robotics nears $1B in total funding as demand for au",
-      "Will the real Anthropic please stand up",
-      "Anthropic\u2019s IPO filing reveals its strategy for keeping ente"
+      "Will the real Anthropic please stand up"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -153,16 +167,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-27"
+    "lastUpdated": "2026-10-28"
   },
   {
-    "sector": "Drones & Autonomous",
+    "sector": "Housing & Construction",
     "momentum": 15,
     "trend": "declining",
     "catalysts": [
-      "Bedrock Robotics nears $1B in total funding as demand for au",
-      "Helsing rolls out Contra air defense design, plus two new in",
-      "SpaceX Starlink Has Never Been a Weapon System But SpaceX St"
+      "Waymo adds nearly 250 square miles of robotaxi coverage in 5",
+      "Anthropic Says It Will Revolutionize Biology\u2014Some Day",
+      "Bedrock Robotics nears $1B in total funding as demand for au"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -171,41 +185,58 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-27"
+    "lastUpdated": "2026-10-28"
   },
   {
-    "sector": "Housing & Construction",
-    "momentum": 12,
+    "sector": "Chips & Semiconductors",
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "Bedrock Robotics nears $1B in total funding as demand for au",
-      "<a href=\"/biotech/anthropic-extols-ais-drug-rd-potential-inc"
+      "Active chips & semiconductors ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 0,
       "hiring": 0,
-      "market": 50
+      "market": 70
     },
-    "lastUpdated": "2026-10-27"
+    "lastUpdated": "2026-10-28"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 12,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
+      "The Download: Anthropic\u2019s IPO, smarter power grids, and exer",
       "Anthropic IPO, Scaling and Almost Tripled SpaceX Leasing to",
       "Teradyne Robotics partners with Sereact to scale physical AI"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-28"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "Bedrock Robotics nears $1B in total funding as demand for au",
+      "Helsing rolls out Contra air defense design, plus two new in"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
       "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-27"
+    "lastUpdated": "2026-10-28"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -221,7 +252,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-27"
+    "lastUpdated": "2026-10-28"
   },
   {
     "sector": "Ocean & Maritime",
@@ -237,38 +268,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-27"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 7,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 35
-    },
-    "lastUpdated": "2026-10-27"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 4,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX locks in $40B GPU financing deal with Apollo"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 13
-    },
-    "lastUpdated": "2026-10-27"
+    "lastUpdated": "2026-10-28"
   }
 ]

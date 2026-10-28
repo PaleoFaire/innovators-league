@@ -1,6 +1,7 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-27 11:50:06 UTC
+// Last updated: 2026-10-28 12:25:01 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-10-28", description: "qbts-20261028.htm", isIPO: false, ticker: "QBTS" },
   { company: "UiPath", form: "4", date: "2026-10-26", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "BlackSky Technology", form: "4", date: "2026-10-22", description: "xslF345X06/wk-form4_1792706213.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-10-22", description: "xslF345X06/wk-form4_1792706148.xml", isIPO: false, ticker: "BKSY" },
@@ -50,5 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "LanzaTech", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791403362.xml", isIPO: false, ticker: "LNZA" },
   { company: "LanzaTech", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791403354.xml", isIPO: false, ticker: "LNZA" },
   { company: "LanzaTech", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791403347.xml", isIPO: false, ticker: "LNZA" },
-  { company: "Rivian", form: "8-K", date: "2026-10-07", description: "rivn-20261007.htm", isIPO: false, ticker: "RIVN" },
 ];

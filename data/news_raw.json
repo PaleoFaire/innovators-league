@@ -1,11 +1,131 @@
 [
   {
-    "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-    "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
-    "description": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
-    "pubDate": "Tue, 27 Oct 2026 02:00:00 +0000",
+    "title": "Waymo Growing Further",
+    "link": "https://cleantechnica.com/2026/10/27/waymo-growing-more-in-5-places/",
+    "description": "Waymo keeps rolling out robotaxi service in more and more places. With Tesla right on its back, the initial self-driving car company might be pushing even harder in order to keep growing and spreading quickly. Either way, the news today is that Waymo is growing again. Here are more details   ... [co",
+    "pubDate": "Wed, 28 Oct 2026 02:39:28 +0000",
+    "category": "Autonomous Vehicles",
+    "source": "CleanTechnica",
+    "feedCategory": "energy",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Aurora Innovation",
+      "Zoox"
+    ],
+    "sectors": [
+      "ai",
+      "autonomous",
+      "transportation"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "9h ago"
+  },
+  {
+    "title": "VCs will make billions on Anthropic&#8217;s IPO, but Amazon is set to make much (much) more",
+    "link": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+    "description": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
+    "pubDate": "Wed, 28 Oct 2026 01:15:28 +0000",
     "category": "AI",
     "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "high",
+    "time": "11h ago"
+  },
+  {
+    "title": "Who&#8217;s really in charge at Anthropic after the IPO?",
+    "link": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+    "description": "Here's a clear explanation of Anthropic's incredibly complex governance structure.",
+    "pubDate": "Tue, 27 Oct 2026 21:38:28 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "high",
+    "time": "14h ago"
+  },
+  {
+    "title": "Re:Build, which spun out Slate Auto, raises $2.1B",
+    "link": "https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b/",
+    "description": "The manufacturing accelerator bills itself as \"America’s answer to Shenzhen.\"",
+    "pubDate": "Tue, 27 Oct 2026 20:31:17 +0000",
+    "category": "Fundraising",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Slate Auto",
+    "matchedCompanies": [
+      "Slate Auto"
+    ],
+    "sectors": [
+      "transportation"
+    ],
+    "type": "funding",
+    "impact": "high",
+    "time": "15h ago"
+  },
+  {
+    "title": "Waymo adds nearly 250 square miles of robotaxi coverage in 5 cities",
+    "link": "https://electrek.co/2026/10/27/waymo-expansion-250-square-miles-five-cities/",
+    "description": "Waymo is growing its driverless service area by nearly 250 square miles over the next week, spread across Los Angeles, Nashville, Orlando, San Diego, and the San Francisco Bay Area.\n\n\n\nThat’s about as big as Tesla’s entire Houston Robotaxi geofence after this week’s expansion, and Waymo is adding it",
+    "pubDate": "Tue, 27 Oct 2026 19:55:12 +0000",
+    "category": "News",
+    "source": "Electrek",
+    "feedCategory": "autonomous",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Zoox"
+    ],
+    "sectors": [
+      "ai",
+      "transportation"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "16h ago"
+  },
+  {
+    "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
+    "link": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
+    "description": "In breathless press releases and posts, the company has touted its models’ ability to deliver scientific breakthroughs. But its IPO filing taps the brakes on just how fast its AI will lead to big discoveries.",
+    "pubDate": "Tue, 27 Oct 2026 19:39:04 +0000",
+    "category": "Science",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "16h ago"
+  },
+  {
+    "title": "OpenAI Proved Exponential Time Hypothesis is False",
+    "link": "https://www.nextbigfuture.com/2026/10/openai-proved-exponential-time-hypothesis-is-false.html",
+    "description": "OpenAI proved the Exponential Time Hypothesis is false. Hundreds of research papers assumed it was true. Some really hard problems might be solvable much faster than thought. There is no practical speed up yet. It just shows that the assumption and claim that some really hard problems only have expo",
+    "pubDate": "Tue, 27 Oct 2026 18:35:38 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
     "feedCategory": "tech",
     "matchedCompany": "OpenAI",
     "matchedCompanies": [
@@ -16,26 +136,105 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
+    "time": "17h ago"
   },
   {
-    "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-    "link": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-    "description": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
-    "pubDate": "Tue, 27 Oct 2026 01:12:21 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
+    "title": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
+    "link": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
+    "description": "A government watchdog is considering a probe into the Home Office’s use of ChatGPT technology to process asylum claims amid concerns over the tools’ accuracy and secrecy surrounding their use.",
+    "pubDate": "Tue, 27 Oct 2026 15:10:26 +0000",
+    "category": "Politics",
+    "source": "Wired",
     "feedCategory": "tech",
-    "matchedCompany": "Cohere",
+    "matchedCompany": "OpenAI",
     "matchedCompanies": [
-      "Cohere"
+      "OpenAI",
+      "Palantir"
     ],
     "sectors": [
       "ai"
     ],
     "type": "news",
     "impact": "low",
-    "time": "10h ago"
+    "time": "21h ago"
+  },
+  {
+    "title": "ANYbotics begins delivering ANYmal X legged robot for explosive atmospheres",
+    "link": "https://www.therobotreport.com/anybotics-begins-delivering-anymal-x-legged-robot-explosive-atmospheres/",
+    "description": "ANYbotics has designed the ANYmal X inspection robot to comply with the strictest safety standards of the oil, gas, and chemical industries.\nThe post ANYbotics begins delivering ANYmal X legged robot for explosive atmospheres appeared first on The Robot Report.",
+    "pubDate": "Tue, 27 Oct 2026 14:29:58 +0000",
+    "category": "Actuators / Motors / Servos",
+    "source": "The Robot Report",
+    "feedCategory": "robotics",
+    "matchedCompany": "ANYbotics",
+    "matchedCompanies": [
+      "ANYbotics"
+    ],
+    "sectors": [
+      "robotics"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "21h ago"
+  },
+  {
+    "title": "Musk declares Tesla Robotaxi win over Waymo, but Waymo still drives 7x more",
+    "link": "https://electrek.co/2026/10/27/musk-robotaxi-victory-waymo-austin-miles/",
+    "description": "Elon Musk says Tesla’s Robotaxi race against Waymo “was never a real contest” after Tesla’s driverless fleet logged 438,000 miles in Austin in a single week, edging past Waymo’s 406,000 weekly average in the city.\n\n\n\nThat’s one city, one week, and a Waymo figure that’s four months old. Across the US",
+    "pubDate": "Tue, 27 Oct 2026 14:21:45 +0000",
+    "category": "News",
+    "source": "Electrek",
+    "feedCategory": "autonomous",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Zoox"
+    ],
+    "sectors": [
+      "ai",
+      "transportation"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "22h ago"
+  },
+  {
+    "title": "UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court",
+    "link": "https://www.wired.com/story/the-big-interview-podcast-jess-asato/",
+    "description": "Jess Asato’s public campaigning for victims of online abuse put her in the crosshairs of Grok’s deepfake scandal. Then the UK member of parliament became a victim of the abuse herself.",
+    "pubDate": "Tue, 27 Oct 2026 13:29:41 +0000",
+    "category": "The Big Story",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "xAI",
+    "matchedCompanies": [
+      "xAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "22h ago"
+  },
+  {
+    "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
+    "link": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
+    "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Will the real Anthropic please stand up? After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages",
+    "pubDate": "Tue, 27 Oct 2026 12:10:00 +0000",
+    "category": "The Download",
+    "source": "MIT Tech Review",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "high",
+    "time": "1d ago"
   },
   {
     "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
@@ -54,7 +253,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "14h ago"
+    "time": "1d ago"
   },
   {
     "title": "Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges",
@@ -74,7 +273,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "14h ago"
+    "time": "1d ago"
   },
   {
     "title": "Anthropic IPO, Scaling and Almost Tripled SpaceX Leasing to $3.1 B per Month",
@@ -95,7 +294,7 @@
     ],
     "type": "hire",
     "impact": "high",
-    "time": "16h ago"
+    "time": "1d ago"
   },
   {
     "title": "Helsing rolls out Contra air defense design, plus two new inteceptors",
@@ -114,12 +313,12 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "17h ago"
+    "time": "1d ago"
   },
   {
     "title": "Will the real Anthropic please stand up",
     "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
-    "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s u",
+    "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the compan",
     "pubDate": "Mon, 26 Oct 2026 17:45:43 +0000",
     "category": "Artificial intelligence",
     "source": "MIT Tech Review",
@@ -133,45 +332,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "18h ago"
-  },
-  {
-    "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-    "link": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-    "description": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
-    "pubDate": "Mon, 26 Oct 2026 16:49:42 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "ipo",
-    "impact": "high",
-    "time": "19h ago"
-  },
-  {
-    "title": "SpaceX locks in $40B GPU financing deal with Apollo",
-    "link": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
-    "description": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
-    "pubDate": "Mon, 26 Oct 2026 16:46:36 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "high",
-    "time": "19h ago"
+    "time": "1d ago"
   },
   {
     "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
@@ -190,27 +351,7 @@
     ],
     "type": "hire",
     "impact": "high",
-    "time": "20h ago"
-  },
-  {
-    "title": "Anthropic officially files for its public debut",
-    "link": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-    "description": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
-    "pubDate": "Mon, 26 Oct 2026 14:35:22 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "Kolena"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "Astranis Upgrades Falcon 9 Launch Contract to Dedicated Mission for Entire Block 4 Production Run of Satellites",
@@ -230,7 +371,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics",
@@ -249,65 +390,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "SpaceX Starlink Has Never Been a Weapon System But SpaceX Starshield Is",
-    "link": "https://www.nextbigfuture.com/2026/10/spacex-starlink-has-never-been-a-weapon-system-but-spacex-starshield-is.html",
-    "description": "Elon Musk / SpaceX has long restricted Starlink (the commercial/civilian service) from offensive military uses such as guiding drones, consistent with its terms of service, and offers a separate military product (Starshield). This is common for technology companies and especially satellite companies",
-    "pubDate": "Sun, 25 Oct 2026 03:11:56 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
     "time": "2d ago"
-  },
-  {
-    "title": "Kyiv eyes purchase of planned ICEYE, Nokia &#8216;sovereign&#8217; communication sats",
-    "link": "https://breakingdefense.com/2026/10/kyiv-eyes-purchase-of-planned-iceye-nokia-sovereign-communication-sats/",
-    "description": "The letter of intent comes on the heels of the political dust up between US President Donald Trump and Elon Musk over a US move to throttle Ukraine&#8217;s Starshield access that has all but grounded the countries military drones in its war with Russia.",
-    "pubDate": "Fri, 23 Oct 2026 19:07:34 +0000",
-    "category": "Space",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "ICEYE",
-    "matchedCompanies": [
-      "ICEYE"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Natilus secures Air Force contract to develop blended wing body aircraft",
-    "link": "https://breakingdefense.com/2026/10/natilus-secures-air-force-contract-to-develop-blended-wing-body-aircraft/",
-    "description": "“We think now&#8217;s the right time” for a blended wing body design to make its debut, Natilus Chief Operating Officer Nolan Giblin told Breaking Defense. ",
-    "pubDate": "Fri, 23 Oct 2026 12:03:00 +0000",
-    "category": "Air Warfare",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "AIR",
-    "matchedCompanies": [
-      "AIR",
-      "Natilus"
-    ],
-    "sectors": [
-      "autonomous"
-    ],
-    "type": "contract",
-    "impact": "low",
-    "time": "3d ago"
   },
   {
     "title": "Rethinking networks in space with Aalyria’s Brian Barritt",
@@ -326,7 +409,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Tesla and SpaceX take first step towards merger, would dilute all shareholders",
@@ -345,7 +428,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "6d ago"
+    "time": "10/21/2026"
   },
   {
     "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
@@ -367,7 +450,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "6d ago"
+    "time": "10/20/2026"
   },
   {
     "title": "Tesla (TSLA) proxy shows a board getting ready for a SpaceX merger",
@@ -444,31 +527,6 @@
     "type": "news",
     "impact": "low",
     "time": "10/14/2026"
-  },
-  {
-    "title": "Rivian&#8217;s Mind Robotics snags Doug Field, ex-Tesla and Ford EV chief",
-    "link": "https://electrek.co/2026/10/13/rivian-mind-robotics-doug-field-president-tesla-ford/",
-    "description": "Doug Field, the engineer who ran Tesla’s Model 3 program and later Ford’s entire EV operation, is now president of Mind Robotics, the industrial robotics startup Rivian CEO RJ Scaringe spun out of Rivian last year.\n\n\n\nHe lands at a company that has now raised more than $1 billion in under a year, an",
-    "pubDate": "Tue, 13 Oct 2026 19:40:31 +0000",
-    "category": "News",
-    "source": "Electrek",
-    "feedCategory": "autonomous",
-    "matchedCompany": "Mind Robotics",
-    "matchedCompanies": [
-      "Mind Robotics",
-      "Karman Industries",
-      "Solugen",
-      "Gecko Robotics",
-      "Teralta"
-    ],
-    "sectors": [
-      "robotics",
-      "climate",
-      "infrastructure"
-    ],
-    "type": "funding",
-    "impact": "low",
-    "time": "10/13/2026"
   },
   {
     "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
