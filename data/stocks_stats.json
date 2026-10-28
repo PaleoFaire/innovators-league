@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -3.59,
+      "avg_change": -2.43,
       "count": 1
     },
     "space": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 2.25,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 3.53,
       "count": 7
     },
     "autonomous": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 4.05,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 4.64,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -3.52,
+      "avg_change": -2.05,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.27,
+      "avg_change": 2.9,
       "count": 3
     },
     "quantum": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -0.51,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 0.21,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 13.46,
+      "avg_change": 13.76,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -2.0,
+      "avg_change": -0.88,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 0.5,
+      "avg_change": 1.38,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      18.54
+      19.51
     ],
     [
       "TEM",
       "Tempus AI",
-      12.88
+      13.06
     ],
     [
       "ACHR",
       "Archer Aviation",
-      10.08
-    ],
-    [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      8.97
+      12.14
     ],
     [
       "JOBY",
       "Joby Aviation",
-      8.58
+      9.48
+    ],
+    [
+      "RKLB",
+      "Rocket Lab",
+      9.19
     ]
   ],
   "topLosers": [
     [
       "QBTS",
       "D-Wave Quantum",
-      -3.18
+      -2.73
     ],
     [
-      "PLTR",
-      "Palantir",
-      -3.59
+      "NVDA",
+      "NVIDIA",
+      -2.97
     ],
     [
-      "OKLO",
-      "Oklo",
-      -4.11
+      "SATL",
+      "Satellogic",
+      -3.3
     ],
     [
       "RIVN",
       "Rivian",
-      -7.42
+      -6.34
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -7.9
+      -7.05
     ]
   ],
-  "lastUpdated": "2026-10-28 14:06:34"
+  "lastUpdated": "2026-10-28 23:19:04"
 }
