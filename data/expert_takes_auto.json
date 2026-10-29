@@ -1,35 +1,15 @@
 {
-  "generated_at": "2026-10-28T12:38:31.053458Z",
+  "generated_at": "2026-10-29T12:47:49.183787Z",
   "takes": [
     {
       "author": "TechCrunch",
       "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "VCs will make billions on Anthropic&#8217;s IPO, but Amazon is set to make much (much) more",
+      "company": "OpenAI",
+      "text": "Microsoft recorded $10 billion in revenue from OpenAI",
       "date": "Wed, 28 Oc",
       "source": "news",
-      "source_url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Who&#8217;s really in charge at Anthropic after the IPO?",
-      "date": "Tue, 27 Oc",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Slate Auto",
-      "text": "Re:Build, which spun out Slate Auto, raises $2.1B",
-      "date": "Tue, 27 Oc",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b/",
-      "signal_type": "funding"
+      "source_url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "signal_type": "news"
     },
     {
       "author": "MIT Tech Review",
@@ -62,16 +42,6 @@
       "signal_type": "ipo"
     },
     {
-      "author": "Wired",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Why Anthropic\u2019s IPO Prospectus Is Missing So Many Key Figures",
-      "date": "Mon, 26 Oc",
-      "source": "news",
-      "source_url": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
-      "signal_type": "ipo"
-    },
-    {
       "author": "The Robot Report",
       "role": "Industry signal",
       "company": "Bedrock Robotics",
@@ -80,32 +50,12 @@
       "source": "news",
       "source_url": "https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/",
       "signal_type": "funding"
-    },
-    {
-      "author": "Next Big Future",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "Anthropic IPO, Scaling and Almost Tripled SpaceX Leasing to $3.1 B per Month",
-      "date": "Mon, 26 Oc",
-      "source": "news",
-      "source_url": "https://www.nextbigfuture.com/2026/10/anthropic-ipo-scaling-and-almost-tripled-spacex-leasing-to-3-1-b-per-month.html",
-      "signal_type": "hire"
-    },
-    {
-      "author": "Wired",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Anthropic\u2019s IPO Prospectus Reveals What\u2019s Under the Hood",
-      "date": "Mon, 26 Oc",
-      "source": "news",
-      "source_url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
-      "signal_type": "hire"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 10,
+    "from_news": 5,
     "from_press": 0
   }
 }

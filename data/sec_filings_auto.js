@@ -1,7 +1,19 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-10-28 12:25:01 UTC
+// Last updated: 2026-10-29 12:34:28 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Centrus Energy", form: "8-K", date: "2026-10-29", description: "leu-20261029.htm", isIPO: false, ticker: "LEU" },
+  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232680.xml", isIPO: false, ticker: "AI" },
+  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232655.xml", isIPO: false, ticker: "AI" },
+  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232629.xml", isIPO: false, ticker: "AI" },
+  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232606.xml", isIPO: false, ticker: "AI" },
+  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232582.xml", isIPO: false, ticker: "AI" },
+  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232552.xml", isIPO: false, ticker: "AI" },
+  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232529.xml", isIPO: false, ticker: "AI" },
+  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232500.xml", isIPO: false, ticker: "AI" },
+  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232467.xml", isIPO: false, ticker: "AI" },
   { company: "D-Wave Quantum", form: "8-K", date: "2026-10-28", description: "qbts-20261028.htm", isIPO: false, ticker: "QBTS" },
+  { company: "Aurora Innovation", form: "10-Q", date: "2026-10-28", description: "aur-20260930.htm", isIPO: false, ticker: "AUR" },
+  { company: "Aurora Innovation", form: "8-K", date: "2026-10-28", description: "aur-20261028.htm", isIPO: false, ticker: "AUR" },
   { company: "UiPath", form: "4", date: "2026-10-26", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "BlackSky Technology", form: "4", date: "2026-10-22", description: "xslF345X06/wk-form4_1792706213.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-10-22", description: "xslF345X06/wk-form4_1792706148.xml", isIPO: false, ticker: "BKSY" },
@@ -39,16 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Palantir Technologies", form: "4", date: "2026-10-13", description: "xslF345X06/wk-form4_1791936127.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-10-13", description: "xslF345X06/wk-form4_1791936056.xml", isIPO: false, ticker: "PLTR" },
   { company: "Oklo", form: "4", date: "2026-10-13", description: "xslF345X06/wk-form4_1791923982.xml", isIPO: false, ticker: "OKLO" },
-  { company: "UiPath", form: "4", date: "2026-10-13", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "4", date: "2026-10-13", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "Oklo", form: "4", date: "2026-10-08", description: "xslF345X06/wk-form4_1791490531.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Tempus AI", form: "8-K", date: "2026-10-08", description: "vnt-20261002.htm", isIPO: false, ticker: "TEM" },
-  { company: "Satellogic", form: "8-K", date: "2026-10-08", description: "ea0308059-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791410921.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791410900.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Ginkgo Bioworks", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791406827.xml", isIPO: false, ticker: "DNA" },
-  { company: "LanzaTech", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791403369.xml", isIPO: false, ticker: "LNZA" },
-  { company: "LanzaTech", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791403362.xml", isIPO: false, ticker: "LNZA" },
-  { company: "LanzaTech", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791403354.xml", isIPO: false, ticker: "LNZA" },
-  { company: "LanzaTech", form: "4", date: "2026-10-07", description: "xslF345X06/wk-form4_1791403347.xml", isIPO: false, ticker: "LNZA" },
 ];
