@@ -3,113 +3,113 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -0.36,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 0.12,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 9.26,
+      "avg_change": 7.62,
       "count": 7
     },
     "autonomous": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 4.68,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 3.91,
       "count": 7
     },
     "nuclear": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 2.53,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 2.25,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 2.46,
+      "avg_change": 4.58,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 2.99,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 2.08,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 16.99,
+      "avg_change": 16.95,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 2.31,
+      "avg_change": 1.31,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.23,
+      "avg_change": 8.28,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      21.51
-    ],
-    [
       "TEM",
       "Tempus AI",
-      20.0
+      21.99
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      18.44
     ],
     [
       "RKLB",
       "Rocket Lab",
-      17.75
+      15.38
     ],
     [
       "ACHR",
       "Archer Aviation",
-      16.71
+      15.26
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      14.26
+      "ALAB",
+      "Astera Labs",
+      12.65
     ]
   ],
   "topLosers": [
     [
-      "PLTR",
-      "Palantir",
-      -0.36
-    ],
-    [
-      "9348.T",
-      "ispace",
-      -0.53
+      "OKLO",
+      "Oklo",
+      -0.74
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -0.8
+      -2.55
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      -2.91
     ],
     [
       "RIVN",
       "Rivian",
-      -3.61
+      -5.06
     ],
     [
       "AUR",
       "Aurora Innovation",
-      -6.17
+      -9.36
     ]
   ],
-  "lastUpdated": "2026-10-29 14:26:38"
+  "lastUpdated": "2026-10-29 23:24:16"
 }
