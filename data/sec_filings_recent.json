@@ -1251,15 +1251,6 @@
     "isIPO": false
   },
   {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-08-25",
-    "description": "xslF345X06/wk-form4_1787688441.xml",
-    "accessionNumber": "0002146790-26-000004",
-    "isIPO": false
-  },
-  {
     "company": "Centrus Energy",
     "ticker": "LEU",
     "form": "8-K",
@@ -2441,6 +2432,15 @@
   {
     "company": "Ginkgo Bioworks",
     "ticker": "DNA",
+    "form": "8-K",
+    "date": "2026-10-29",
+    "description": "dna-20261029.htm",
+    "accessionNumber": "0001628280-26-068220",
+    "isIPO": false
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "ticker": "DNA",
     "form": "4",
     "date": "2026-10-21",
     "description": "xslF345X06/wk-form4_1792613221.xml",
@@ -2643,123 +2643,6 @@
     "date": "2026-08-07",
     "description": "skyt-20260628.htm",
     "accessionNumber": "0001819974-26-000031",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2026-07-31",
-    "description": "xslF345X06/wk-form4_1785509549.xml",
-    "accessionNumber": "0001856680-26-000025",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2026-07-31",
-    "description": "xslF345X06/wk-form4_1785509512.xml",
-    "accessionNumber": "0001611597-26-000009",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2026-07-31",
-    "description": "xslF345X06/wk-form4_1785509472.xml",
-    "accessionNumber": "0001964417-26-000011",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2026-07-31",
-    "description": "xslF345X06/wk-form4_1785509433.xml",
-    "accessionNumber": "0001994955-26-000007",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2026-07-31",
-    "description": "xslF345X06/wk-form4_1785509019.xml",
-    "accessionNumber": "0001353135-26-000005",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2026-07-31",
-    "description": "xslF345X06/wk-form4_1785508974.xml",
-    "accessionNumber": "0001910402-26-000004",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2026-07-31",
-    "description": "xslF345X06/wk-form4_1785508931.xml",
-    "accessionNumber": "0001914275-26-000008",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2026-07-31",
-    "description": "xslF345X06/wk-form4_1785508883.xml",
-    "accessionNumber": "0002063881-26-000004",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2026-07-31",
-    "description": "xslF345X06/wk-form4_1785508844.xml",
-    "accessionNumber": "0001850633-26-000004",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2026-07-31",
-    "description": "xslF345X06/wk-form4_1785508785.xml",
-    "accessionNumber": "0001867289-26-000008",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2026-07-31",
-    "description": "xslF345X06/wk-form4_1785508727.xml",
-    "accessionNumber": "0001996312-26-000012",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2026-07-31",
-    "description": "xslF345X06/form4-07312026_020749.xml",
-    "accessionNumber": "0001741560-26-000008",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "8-K",
-    "date": "2026-07-31",
-    "description": "d49031d8k.htm",
-    "accessionNumber": "0001193125-26-327137",
     "isIPO": false
   },
   {
@@ -3035,6 +2918,24 @@
   {
     "company": "Rivian",
     "ticker": "RIVN",
+    "form": "10-Q",
+    "date": "2026-10-29",
+    "description": "rivn-20260930.htm",
+    "accessionNumber": "0001874178-26-000066",
+    "isIPO": false
+  },
+  {
+    "company": "Rivian",
+    "ticker": "RIVN",
+    "form": "8-K",
+    "date": "2026-10-29",
+    "description": "rivn-20261027.htm",
+    "accessionNumber": "0001874178-26-000065",
+    "isIPO": false
+  },
+  {
+    "company": "Rivian",
+    "ticker": "RIVN",
     "form": "4",
     "date": "2026-10-22",
     "description": "xslF345X06/wk-form4_1792717084.xml",
@@ -3228,6 +3129,15 @@
     "date": "2026-08-04",
     "description": "xslF345X06/wk-form4_1785886439.xml",
     "accessionNumber": "0001628280-26-052842",
+    "isIPO": false
+  },
+  {
+    "company": "Satellogic",
+    "ticker": "SATL",
+    "form": "8-K",
+    "date": "2026-10-29",
+    "description": "ea0309860-8k_zoomcar.htm",
+    "accessionNumber": "0001213900-26-113911",
     "isIPO": false
   },
   {

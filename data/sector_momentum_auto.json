@@ -4,9 +4,9 @@
     "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
+      "Waymo taps Toyota to supply robotaxis for Japan and the U.K.",
       "Tesla vs Waymo &#8211; No Contest",
-      "Waymo for Business &#124; Ramp",
-      "Waymo Growing Further"
+      "Waymo for Business &#124; Ramp"
     ],
     "fundingQ": "$6.4B",
     "components": {
@@ -15,7 +15,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-29"
+    "lastUpdated": "2026-10-30"
   },
   {
     "sector": "Transportation",
@@ -31,61 +31,45 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-10-29"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 47,
-    "trend": "steady",
-    "catalysts": [
-      "With federal funding windfall, X-energy advances small nucle"
-    ],
-    "fundingQ": "$1.0B",
-    "components": {
-      "funding": 100,
-      "news": 5,
-      "hiring": 0,
-      "market": 54
-    },
-    "lastUpdated": "2026-10-29"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 41,
-    "trend": "rising",
-    "catalysts": [
-      "SpaceX Competitor Knows What It Will Take to Compete",
-      "Anthropic just launched tools to show companies what their A",
-      "Astranis Upgrades Falcon 9 Launch Contract to Dedicated Miss"
-    ],
-    "fundingQ": "$809M",
-    "components": {
-      "funding": 36,
-      "news": 35,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-10-29"
+    "lastUpdated": "2026-10-30"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 40,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "Active defense & security ecosystem"
+      "Ex-Palantir execs launch Dream with $17M from a16z to build"
     ],
     "fundingQ": "$4.1B",
     "components": {
       "funding": 100,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
-      "market": 26
+      "market": 51
     },
-    "lastUpdated": "2026-10-29"
+    "lastUpdated": "2026-10-30"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 43,
+    "trend": "rising",
+    "catalysts": [
+      "Ex-Palantir execs launch Dream with $17M from a16z to build",
+      "SpaceX Starlink in Talks to Stream Skydance Movies and Shows",
+      "SpaceX Competitor Knows What It Will Take to Compete"
+    ],
+    "fundingQ": "$809M",
+    "components": {
+      "funding": 36,
+      "news": 40,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-10-30"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 40,
+    "momentum": 32,
     "trend": "rising",
     "catalysts": [
       "With federal funding windfall, X-energy advances small nucle",
@@ -97,83 +81,47 @@
       "funding": 46,
       "news": 15,
       "hiring": 0,
-      "market": 100
+      "market": 62
     },
-    "lastUpdated": "2026-10-29"
+    "lastUpdated": "2026-10-30"
   },
   {
     "sector": "AI & Software",
-    "momentum": 25,
-    "trend": "rising",
+    "momentum": 21,
+    "trend": "declining",
     "catalysts": [
-      "Microsoft recorded $10 billion in revenue from OpenAI",
-      "Anthropic just launched tools to show companies what their A",
-      "OpenAI Proved Exponential Time Hypothesis is False"
+      "OpenAI-backed Thrive Holdings acquires ADT",
+      "Ex-Palantir execs launch Dream with $17M from a16z to build",
+      "The Download: Anthropic\u2019s IPO, smarter power grids, and exer"
     ],
     "fundingQ": "$350M",
     "components": {
       "funding": 6,
-      "news": 50,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-29"
+    "lastUpdated": "2026-10-30"
   },
   {
-    "sector": "Biotech & Health",
-    "momentum": 21,
+    "sector": "Nuclear Energy",
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
-      "<a href=\"/biotech/anthropic-extols-ais-drug-rd-potential-inc"
+      "With federal funding windfall, X-energy advances small nucle"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 100
+      "market": 96
     },
-    "lastUpdated": "2026-10-29"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "ANYbotics begins delivering ANYmal X legged robot for explos",
-      "Bedrock Robotics nears $1B in total funding as demand for au",
-      "Will the real Anthropic please stand up"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-29"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Waymo adds nearly 250 square miles of robotaxi coverage in 5",
-      "Bedrock Robotics nears $1B in total funding as demand for au",
-      "<a href=\"/biotech/anthropic-extols-ais-drug-rd-potential-inc"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-10-29"
+    "lastUpdated": "2026-10-30"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 13,
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
       "Active chips & semiconductors ecosystem"
@@ -183,9 +131,77 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 64
+      "market": 100
     },
-    "lastUpdated": "2026-10-29"
+    "lastUpdated": "2026-10-30"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "Active biotech & health ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-10-30"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "ANYbotics begins delivering ANYmal X legged robot for explos",
+      "Bedrock Robotics nears $1B in total funding as demand for au",
+      "Teradyne Robotics partners with Sereact to scale physical AI"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-30"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 71
+    },
+    "lastUpdated": "2026-10-30"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "Ex-Palantir execs launch Dream with $17M from a16z to build",
+      "Waymo adds nearly 250 square miles of robotaxi coverage in 5",
+      "Bedrock Robotics nears $1B in total funding as demand for au"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-10-30"
   },
   {
     "sector": "Drones & Autonomous",
@@ -202,7 +218,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-29"
+    "lastUpdated": "2026-10-30"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -219,7 +235,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-29"
+    "lastUpdated": "2026-10-30"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -235,23 +251,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-29"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 52
-    },
-    "lastUpdated": "2026-10-29"
+    "lastUpdated": "2026-10-30"
   },
   {
     "sector": "Ocean & Maritime",
@@ -267,6 +267,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-29"
+    "lastUpdated": "2026-10-30"
   }
 ]

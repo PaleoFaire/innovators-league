@@ -3348,15 +3348,6 @@
     "isIPO": false
   },
   {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-08-25",
-    "description": "xslF345X06/wk-form4_1787688441.xml",
-    "accessionNumber": "0002146790-26-000004",
-    "isIPO": false
-  },
-  {
     "company": "Centrus Energy",
     "ticker": "LEU",
     "form": "8-K",
@@ -5802,6 +5793,15 @@
     "date": "2026-07-09",
     "description": "xslF345X06/wk-form4_1783634656.xml",
     "accessionNumber": "0001856094-26-000011",
+    "isIPO": false
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "ticker": "DNA",
+    "form": "8-K",
+    "date": "2026-10-29",
+    "description": "dna-20261029.htm",
+    "accessionNumber": "0001628280-26-068220",
     "isIPO": false
   },
   {
@@ -8696,6 +8696,24 @@
   {
     "company": "Rivian",
     "ticker": "RIVN",
+    "form": "10-Q",
+    "date": "2026-10-29",
+    "description": "rivn-20260930.htm",
+    "accessionNumber": "0001874178-26-000066",
+    "isIPO": false
+  },
+  {
+    "company": "Rivian",
+    "ticker": "RIVN",
+    "form": "8-K",
+    "date": "2026-10-29",
+    "description": "rivn-20261027.htm",
+    "accessionNumber": "0001874178-26-000065",
+    "isIPO": false
+  },
+  {
+    "company": "Rivian",
+    "ticker": "RIVN",
     "form": "4",
     "date": "2026-10-22",
     "description": "xslF345X06/wk-form4_1792717084.xml",
@@ -9015,15 +9033,6 @@
     "date": "2026-05-22",
     "description": "xslF345X06/wk-form4_1779480424.xml",
     "accessionNumber": "0001262742-26-000010",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-05-22",
-    "description": "xslF345X06/wk-form4_1779480402.xml",
-    "accessionNumber": "0001943929-26-000012",
     "isIPO": false
   },
   {
@@ -9390,6 +9399,15 @@
     "company": "Satellogic",
     "ticker": "SATL",
     "form": "8-K",
+    "date": "2026-10-29",
+    "description": "ea0309860-8k_zoomcar.htm",
+    "accessionNumber": "0001213900-26-113911",
+    "isIPO": false
+  },
+  {
+    "company": "Satellogic",
+    "ticker": "SATL",
+    "form": "8-K",
     "date": "2026-10-08",
     "description": "ea0308059-8k_zoomcar.htm",
     "accessionNumber": "0001213900-26-107954",
@@ -9627,15 +9645,6 @@
     "date": "2026-02-12",
     "description": "xslF345X05/ownership.xml",
     "accessionNumber": "0001213900-26-015620",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "8-K",
-    "date": "2026-01-23",
-    "description": "ea0273974-8k_zoomcar.htm",
-    "accessionNumber": "0001213900-26-007349",
     "isIPO": false
   }
 ]
