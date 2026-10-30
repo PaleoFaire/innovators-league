@@ -11,13 +11,13 @@
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 7.62,
+      "avg_change": 7.54,
       "count": 7
     },
     "autonomous": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 3.91,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 2.71,
       "count": 7
     },
     "nuclear": {
@@ -86,11 +86,6 @@
   ],
   "topLosers": [
     [
-      "OKLO",
-      "Oklo",
-      -0.74
-    ],
-    [
       "NNE",
       "Nano Nuclear Energy",
       -2.55
@@ -99,6 +94,11 @@
       "DRSHF",
       "DroneShield",
       -2.91
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -3.2
     ],
     [
       "RIVN",
@@ -111,5 +111,5 @@
       -9.36
     ]
   ],
-  "lastUpdated": "2026-10-29 23:24:16"
+  "lastUpdated": "2026-10-30 07:14:23"
 }
