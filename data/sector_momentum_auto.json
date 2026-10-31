@@ -1,75 +1,75 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 58,
+    "momentum": 61,
     "trend": "accelerating",
     "catalysts": [
-      "Waymo taps Toyota to supply robotaxis for Japan and the U.K.",
-      "Tesla vs Waymo &#8211; No Contest",
-      "Waymo for Business &#124; Ramp"
+      "Toyota &#038; Waymo Advance Autonomous Driving Collaboration",
+      "Percepto launches Axion AI platform to unify inspection data",
+      "Humanoid developer Agility now expects to raise $465M in SPA"
     ],
     "fundingQ": "$6.4B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 65,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "sector": "Transportation",
     "momentum": 55,
     "trend": "steady",
     "catalysts": [
-      "Active transportation ecosystem"
+      "Toyota &#038; Waymo Advance Autonomous Driving Collaboration"
     ],
     "fundingQ": "$3.0B",
     "components": {
       "funding": 100,
-      "news": 0,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-10-30"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 46,
-    "trend": "steady",
-    "catalysts": [
-      "Ex-Palantir execs launch Dream with $17M from a16z to build"
-    ],
-    "fundingQ": "$4.1B",
-    "components": {
-      "funding": 100,
       "news": 5,
       "hiring": 0,
-      "market": 51
+      "market": 94
     },
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 43,
+    "momentum": 37,
     "trend": "rising",
     "catalysts": [
-      "Ex-Palantir execs launch Dream with $17M from a16z to build",
-      "SpaceX Starlink in Talks to Stream Skydance Movies and Shows",
-      "SpaceX Competitor Knows What It Will Take to Compete"
+      "Percepto launches Axion AI platform to unify inspection data",
+      "Investanswers and Nextbigfuture talk SpaceX",
+      "SpaceX Starlink in Talks to Stream Skydance Movies and Shows"
     ],
     "fundingQ": "$809M",
     "components": {
       "funding": 36,
       "news": 40,
       "hiring": 0,
-      "market": 100
+      "market": 72
     },
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 35,
+    "trend": "steady",
+    "catalysts": [
+      "Active defense & security ecosystem"
+    ],
+    "fundingQ": "$4.1B",
+    "components": {
+      "funding": 100,
+      "news": 0,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-10-31"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 32,
+    "momentum": 31,
     "trend": "rising",
     "catalysts": [
       "With federal funding windfall, X-energy advances small nucle",
@@ -81,59 +81,27 @@
       "funding": 46,
       "news": 15,
       "hiring": 0,
-      "market": 62
+      "market": 57
     },
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "sector": "AI & Software",
-    "momentum": 21,
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
-      "OpenAI-backed Thrive Holdings acquires ADT",
-      "Ex-Palantir execs launch Dream with $17M from a16z to build",
-      "The Download: Anthropic\u2019s IPO, smarter power grids, and exer"
+      "Anthropic expected to receive high &#8216;junk&#8217; rating",
+      "The Download: Anthropic\u2019s IPO, smarter power grids, and exer",
+      "OpenAI models hacked a crypto wallet and breached more websi"
     ],
     "fundingQ": "$350M",
     "components": {
       "funding": 6,
-      "news": 35,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-30"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "With federal funding windfall, X-energy advances small nucle"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 96
-    },
-    "lastUpdated": "2026-10-30"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "Active chips & semiconductors ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "sector": "Biotech & Health",
@@ -149,49 +117,33 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 15,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
-      "ANYbotics begins delivering ANYmal X legged robot for explos",
-      "Bedrock Robotics nears $1B in total funding as demand for au",
-      "Teradyne Robotics partners with Sereact to scale physical AI"
+      "Percepto launches Axion AI platform to unify inspection data",
+      "Humanoid developer Agility now expects to raise $465M in SPA",
+      "ANYbotics begins delivering ANYmal X legged robot for explos"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
-    "sector": "Quantum Computing",
+    "sector": "Drones & Autonomous",
     "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 71
-    },
-    "lastUpdated": "2026-10-30"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Ex-Palantir execs launch Dream with $17M from a16z to build",
-      "Waymo adds nearly 250 square miles of robotaxi coverage in 5",
+      "Toyota &#038; Waymo Advance Autonomous Driving Collaboration",
+      "Waymo for Business &#124; Ramp",
       "Bedrock Robotics nears $1B in total funding as demand for au"
     ],
     "fundingQ": "$0M",
@@ -201,14 +153,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
-    "sector": "Drones & Autonomous",
+    "sector": "Housing & Construction",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "Waymo for Business &#124; Ramp",
+      "Waymo adds nearly 250 square miles of robotaxi coverage in 5",
       "Bedrock Robotics nears $1B in total funding as demand for au"
     ],
     "fundingQ": "$0M",
@@ -218,15 +170,15 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "sector": "Infrastructure & Logistics",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "The Download: Anthropic\u2019s IPO, smarter power grids, and exer",
-      "Teradyne Robotics partners with Sereact to scale physical AI"
+      "Percepto launches Axion AI platform to unify inspection data",
+      "The Download: Anthropic\u2019s IPO, smarter power grids, and exer"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -235,7 +187,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "With federal funding windfall, X-energy advances small nucle"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 51
+    },
+    "lastUpdated": "2026-10-31"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -251,7 +219,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "sector": "Ocean & Maritime",
@@ -267,6 +235,38 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 7,
+    "trend": "declining",
+    "catalysts": [
+      "Active chips & semiconductors ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 34
+    },
+    "lastUpdated": "2026-10-31"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 0,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-10-31"
   }
 ]
