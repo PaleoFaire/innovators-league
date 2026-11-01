@@ -84,14 +84,6 @@
  ],
  "down": [
   {
-   "company": "Claros",
-   "bucket": "Power & Grid",
-   "roles_prev": 5,
-   "roles_now": 1,
-   "change": -4,
-   "change_pct": -80.0
-  },
-  {
    "company": "Astranis",
    "bucket": "Space & Aerospace",
    "roles_prev": 142,
@@ -122,6 +114,14 @@
    "roles_now": 13,
    "change": -3,
    "change_pct": -18.8
+  },
+  {
+   "company": "Carbon Robotics",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 23,
+   "roles_now": 19,
+   "change": -4,
+   "change_pct": -17.4
   }
  ],
  "factory_flags": [

@@ -1,0 +1,230 @@
+{
+ "month": "2026-11",
+ "n_postings_with_true_dates": 6726,
+ "median_age_days_by_class": {
+  "hardware": 53,
+  "software": 59,
+  "commercial": 44,
+  "manufacturing": 45,
+  "other": 44
+ },
+ "hardest_to_fill_titles": [
+  {
+   "title": "robotics software engineer",
+   "n": 9,
+   "median_age_days": 181
+  },
+  {
+   "title": "full stack software engineer",
+   "n": 7,
+   "median_age_days": 171
+  },
+  {
+   "title": "data engineer",
+   "n": 6,
+   "median_age_days": 140
+  },
+  {
+   "title": "firmware engineer",
+   "n": 8,
+   "median_age_days": 110
+  },
+  {
+   "title": "general application",
+   "n": 12,
+   "median_age_days": 102
+  },
+  {
+   "title": "rf systems engineer",
+   "n": 7,
+   "median_age_days": 102
+  },
+  {
+   "title": "machine learning engineer",
+   "n": 9,
+   "median_age_days": 89
+  },
+  {
+   "title": "product manager",
+   "n": 15,
+   "median_age_days": 88
+  },
+  {
+   "title": "software engineer",
+   "n": 27,
+   "median_age_days": 82
+  },
+  {
+   "title": "robotics engineer",
+   "n": 6,
+   "median_age_days": 82
+  },
+  {
+   "title": "technician",
+   "n": 6,
+   "median_age_days": 74
+  },
+  {
+   "title": "mission operations engineer",
+   "n": 9,
+   "median_age_days": 74
+  },
+  {
+   "title": "assembly technician",
+   "n": 9,
+   "median_age_days": 73
+  },
+  {
+   "title": "software engineer, core platform (all levels)",
+   "n": 6,
+   "median_age_days": 73
+  },
+  {
+   "title": "infrastructure engineer",
+   "n": 14,
+   "median_age_days": 69
+  },
+  {
+   "title": "hardware engineer",
+   "n": 6,
+   "median_age_days": 64
+  },
+  {
+   "title": "full stack engineer",
+   "n": 8,
+   "median_age_days": 63
+  },
+  {
+   "title": "rf engineer",
+   "n": 12,
+   "median_age_days": 63
+  },
+  {
+   "title": "communication systems engineer",
+   "n": 6,
+   "median_age_days": 63
+  },
+  {
+   "title": "embedded software engineer",
+   "n": 35,
+   "median_age_days": 62
+  }
+ ],
+ "most_posted_titles": [
+  {
+   "title": "mechanical engineer",
+   "n": 84,
+   "median_age_days": 61
+  },
+  {
+   "title": "electrical engineer",
+   "n": 62,
+   "median_age_days": 58
+  },
+  {
+   "title": "embedded software engineer",
+   "n": 35,
+   "median_age_days": 62
+  },
+  {
+   "title": "manufacturing engineer",
+   "n": 31,
+   "median_age_days": 47
+  },
+  {
+   "title": "software engineer",
+   "n": 27,
+   "median_age_days": 82
+  },
+  {
+   "title": "forward deployed engineer",
+   "n": 24,
+   "median_age_days": 60
+  },
+  {
+   "title": "power electronics engineer",
+   "n": 23,
+   "median_age_days": 13
+  },
+  {
+   "title": "systems engineer",
+   "n": 22,
+   "median_age_days": 53
+  },
+  {
+   "title": "technical recruiter",
+   "n": 21,
+   "median_age_days": 46
+  },
+  {
+   "title": "test engineer",
+   "n": 19,
+   "median_age_days": 60
+  },
+  {
+   "title": "quality engineer",
+   "n": 17,
+   "median_age_days": 40
+  },
+  {
+   "title": "process engineer",
+   "n": 15,
+   "median_age_days": 45
+  },
+  {
+   "title": "program manager",
+   "n": 15,
+   "median_age_days": 24
+  },
+  {
+   "title": "product manager",
+   "n": 15,
+   "median_age_days": 88
+  },
+  {
+   "title": "recruiting coordinator",
+   "n": 14,
+   "median_age_days": 34
+  },
+  {
+   "title": "infrastructure engineer",
+   "n": 14,
+   "median_age_days": 69
+  },
+  {
+   "title": "flight software engineer",
+   "n": 13,
+   "median_age_days": 57
+  },
+  {
+   "title": "technical program manager",
+   "n": 13,
+   "median_age_days": 53
+  },
+  {
+   "title": "fpga engineer",
+   "n": 13,
+   "median_age_days": 38
+  },
+  {
+   "title": "mechanical design engineer",
+   "n": 12,
+   "median_age_days": 30
+  }
+ ],
+ "median_age_days_by_state": {
+  "CA": 58,
+  "TX": 52,
+  "WA": 47,
+  "CO": 40,
+  "MA": 39,
+  "NY": 52,
+  "WV": 80,
+  "LA": 98,
+  "VA": 54,
+  "RI": 46,
+  "FL": 61,
+  "UT": 25
+ },
+ "note": "Ages from platforms that expose the original posting date (Lever, Ashby, Workable, BambooHR). Greenhouse exposes a refresh date and is excluded."
+}

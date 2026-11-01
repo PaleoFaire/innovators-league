@@ -1,0 +1,128 @@
+{
+ "month": "2026-11",
+ "up": [
+  {
+   "company": "REGENT Craft",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 32,
+   "roles_now": 34,
+   "change": 2,
+   "change_pct": 6.2
+  },
+  {
+   "company": "Tutor Intelligence",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 66,
+   "roles_now": 67,
+   "change": 1,
+   "change_pct": 1.5
+  },
+  {
+   "company": "Peak Energy",
+   "bucket": "Power & Grid",
+   "roles_prev": 25,
+   "roles_now": 25,
+   "change": 0,
+   "change_pct": 0.0
+  },
+  {
+   "company": "Rainmaker",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 19,
+   "roles_now": 19,
+   "change": 0,
+   "change_pct": 0.0
+  },
+  {
+   "company": "Redwood Materials",
+   "bucket": "Manufacturing & Materials",
+   "roles_prev": 133,
+   "roles_now": 133,
+   "change": 0,
+   "change_pct": 0.0
+  },
+  {
+   "company": "Anduril Industries",
+   "bucket": "Defence",
+   "roles_prev": 2562,
+   "roles_now": 2562,
+   "change": 0,
+   "change_pct": 0.0
+  },
+  {
+   "company": "Antares",
+   "bucket": "Nuclear",
+   "roles_prev": 91,
+   "roles_now": 91,
+   "change": 0,
+   "change_pct": 0.0
+  },
+  {
+   "company": "Auterion",
+   "bucket": "Defence",
+   "roles_prev": 24,
+   "roles_now": 24,
+   "change": 0,
+   "change_pct": 0.0
+  },
+  {
+   "company": "Form Energy",
+   "bucket": "Power & Grid",
+   "roles_prev": 200,
+   "roles_now": 200,
+   "change": 0,
+   "change_pct": 0.0
+  },
+  {
+   "company": "Relativity Space",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 410,
+   "roles_now": 410,
+   "change": 0,
+   "change_pct": 0.0
+  }
+ ],
+ "down": [
+  {
+   "company": "Simbe Robotics",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 15,
+   "roles_now": 14,
+   "change": -1,
+   "change_pct": -6.7
+  },
+  {
+   "company": "Peak Energy",
+   "bucket": "Power & Grid",
+   "roles_prev": 25,
+   "roles_now": 25,
+   "change": 0,
+   "change_pct": 0.0
+  },
+  {
+   "company": "Rainmaker",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 19,
+   "roles_now": 19,
+   "change": 0,
+   "change_pct": 0.0
+  },
+  {
+   "company": "Redwood Materials",
+   "bucket": "Manufacturing & Materials",
+   "roles_prev": 133,
+   "roles_now": 133,
+   "change": 0,
+   "change_pct": 0.0
+  },
+  {
+   "company": "Anduril Industries",
+   "bucket": "Defence",
+   "roles_prev": 2562,
+   "roles_now": 2562,
+   "change": 0,
+   "change_pct": 0.0
+  }
+ ],
+ "factory_flags": []
+}
