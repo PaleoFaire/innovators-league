@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T15:11:29.541801+00:00",
+  "generated_at": "2026-11-02T18:21:35.297899+00:00",
   "source": "buildlist",
   "source_url": "https://buildlist.xyz/companies",
   "note": "Report only, never applied to data.js. COMPANIES records whose state, country or city disagrees with BuildList's location_city. BuildList can be the stale side; check the company's own site before editing data.js.",
@@ -622,6 +622,18 @@
       "evidence": ""
     },
     {
+      "company": "Foundry Robotics",
+      "buildlist_name": "Foundry Robotics",
+      "kind": "city",
+      "matched_by": "name",
+      "db_location": "Emeryville, CA",
+      "db_state": "CA",
+      "db_country": "United States",
+      "buildlist_location": "San Francisco, CA",
+      "buildlist_metro": "SF Bay Area",
+      "evidence": ""
+    },
+    {
       "company": "GrayMatter Robotics",
       "buildlist_name": "GrayMatter Robotics",
       "kind": "city",
@@ -1051,18 +1063,6 @@
       "db_country": "United States",
       "buildlist_location": "San Francisco, CA",
       "buildlist_metro": "SF Bay Area",
-      "evidence": ""
-    },
-    {
-      "company": "Valar Atomics",
-      "buildlist_name": "Valar Atomics",
-      "kind": "city",
-      "matched_by": "name",
-      "db_location": "Torrance, CA",
-      "db_state": "CA",
-      "db_country": "United States",
-      "buildlist_location": "El Segundo, CA",
-      "buildlist_metro": "Los Angeles",
       "evidence": ""
     },
     {
