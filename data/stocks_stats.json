@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -6.42,
+      "avg_change": -10.31,
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": -1.13,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -6.2,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": -0.08,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": -1.05,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.3,
+      "avg_change": -5.13,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 2.13,
+      "avg_change": 1.88,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.98,
+      "avg_change": -9.24,
       "count": 3
     },
     "biotech": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 7.18,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 5.57,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 5.1,
+      "avg_change": 9.26,
       "count": 2
     },
     "chips": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -1.57,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -10.03,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "EVTL",
-      "Vertical Aerospace",
-      9.04
+      "TEM",
+      "Tempus AI",
+      16.86
     ],
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      8.92
+      "RIVN",
+      "Rivian",
+      15.4
     ],
     [
       "ACHR",
       "Archer Aviation",
-      7.42
+      5.84
     ],
     [
-      "TSLA",
-      "Tesla",
-      7.41
+      "277810.KQ",
+      "Rainbow Robotics",
+      4.32
     ],
     [
-      "TEM",
-      "Tempus AI",
-      6.81
+      "LNZA",
+      "LanzaTech",
+      3.57
     ]
   ],
   "topLosers": [
     [
-      "PLTR",
-      "Palantir",
-      -6.42
+      "ALAB",
+      "Astera Labs",
+      -11.5
+    ],
+    [
+      "AMD",
+      "AMD",
+      -12.13
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      -8.66
+      -12.56
     ],
     [
       "AUR",
       "Aurora Innovation",
-      -9.36
-    ],
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -10.89
+      -13.14
     ],
     [
       "SATL",
       "Satellogic",
-      -13.32
+      -16.98
     ]
   ],
-  "lastUpdated": "2026-11-02 07:45:45"
+  "lastUpdated": "2026-11-02 22:24:36"
 }
