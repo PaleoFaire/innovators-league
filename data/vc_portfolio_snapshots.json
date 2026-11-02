@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T14:33:11.584240+00:00",
+ "generated_at": "2026-11-02T17:25:39.145238+00:00",
  "funds": {
   "a16z": {
    "name": "Andreessen Horowitz",
@@ -7,27 +7,27 @@
    "kind": "a16z_board+a16z",
    "note": "jobs.a16z.com (678 with domain and HQ) + portfolio JSON (focus areas, first-investment dates)",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
-   "count": 937,
-   "tracked": 69,
-   "overlap": 0.074,
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+   "count": 941,
+   "tracked": 68,
+   "overlap": 0.072,
    "new_this_run": 5,
    "baseline": false,
    "new_names": [
-    "Cowrie",
-    "Digital Asset Holdings",
-    "Felix Pago",
-    "OpenReserve",
-    "Ornn"
+    "Circle",
+    "IFTTT",
+    "Lightfield",
+    "Matik",
+    "problems"
    ],
    "candidates": 6,
    "rejected_by_bar": {
-    "megacap / mega-private, deliberately untracked": 17,
-    "focus outside American Dynamism": 813,
+    "megacap / mega-private, deliberately untracked": 16,
+    "focus outside American Dynamism": 818,
     "software or services wearing a hard-tech label": 6,
     "description shows no physical product": 14,
     "a co-investor, not a company": 6,
-    "exited": 6
+    "exited": 7
    },
    "holdings": [
     {
@@ -73,6 +73,13 @@
      "known_as": null
     },
     {
+     "id": "harvey.ai",
+     "name": "Harvey",
+     "domain": "harvey.ai",
+     "first_funded": "2025-12-03",
+     "known_as": null
+    },
+    {
      "id": "revolut.com",
      "name": "Revolut",
      "domain": "revolut.com",
@@ -85,13 +92,6 @@
      "domain": "waymo.com",
      "first_funded": "2020-03-02",
      "known_as": "Waymo"
-    },
-    {
-     "id": "harvey.ai",
-     "name": "Harvey",
-     "domain": "harvey.ai",
-     "first_funded": "2025-12-03",
-     "known_as": null
     },
     {
      "id": "flyzipline.com",
@@ -108,18 +108,18 @@
      "known_as": "Applied Intuition"
     },
     {
-     "id": "letsdeel.com",
-     "name": "Deel",
-     "domain": "letsdeel.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
      "id": "saronic.com",
      "name": "Saronic",
      "domain": "saronic.com",
      "first_funded": "2023-02-01",
      "known_as": "Saronic"
+    },
+    {
+     "id": "letsdeel.com",
+     "name": "Deel",
+     "domain": "letsdeel.com",
+     "first_funded": "",
+     "known_as": null
     },
     {
      "id": "mistral.ai",
@@ -136,6 +136,13 @@
      "known_as": null
     },
     {
+     "id": "flexport.com",
+     "name": "Flexport",
+     "domain": "flexport.com",
+     "first_funded": "2022-01-24",
+     "known_as": null
+    },
+    {
      "id": "basepowercompany.com",
      "name": "Base Power",
      "domain": "basepowercompany.com",
@@ -143,11 +150,18 @@
      "known_as": "Base Power"
     },
     {
-     "id": "flexport.com",
-     "name": "Flexport",
-     "domain": "flexport.com",
-     "first_funded": "2022-01-24",
-     "known_as": null
+     "id": "skydio.com",
+     "name": "Skydio",
+     "domain": "skydio.com",
+     "first_funded": "2014-11-20",
+     "known_as": "Skydio"
+    },
+    {
+     "id": "astranis.com",
+     "name": "Astranis",
+     "domain": "astranis.com",
+     "first_funded": "2017-08-29",
+     "known_as": "Astranis"
     },
     {
      "id": "talkiatry.com",
@@ -157,11 +171,11 @@
      "known_as": null
     },
     {
-     "id": "astranis.com",
-     "name": "Astranis",
-     "domain": "astranis.com",
-     "first_funded": "2017-08-29",
-     "known_as": "Astranis"
+     "id": "pinterest.com",
+     "name": "Pinterest",
+     "domain": "pinterest.com",
+     "first_funded": "2011-10-03",
+     "known_as": null
     },
     {
      "id": "lyft.com",
@@ -178,17 +192,10 @@
      "known_as": null
     },
     {
-     "id": "skydio.com",
-     "name": "Skydio",
-     "domain": "skydio.com",
-     "first_funded": "2014-11-20",
-     "known_as": "Skydio"
-    },
-    {
-     "id": "pinterest.com",
-     "name": "Pinterest",
-     "domain": "pinterest.com",
-     "first_funded": "2011-10-03",
+     "id": "redditinc.com",
+     "name": "Reddit",
+     "domain": "redditinc.com",
+     "first_funded": "2014-09-19",
      "known_as": null
     },
     {
@@ -199,20 +206,6 @@
      "known_as": "Atoms"
     },
     {
-     "id": "redditinc.com",
-     "name": "Reddit",
-     "domain": "redditinc.com",
-     "first_funded": "2014-09-19",
-     "known_as": null
-    },
-    {
-     "id": "elevenlabs.io",
-     "name": "ElevenLabs",
-     "domain": "elevenlabs.io",
-     "first_funded": "2023-05-01",
-     "known_as": null
-    },
-    {
      "id": "hadrian.co",
      "name": "Hadrian",
      "domain": "hadrian.co",
@@ -220,10 +213,10 @@
      "known_as": "Hadrian"
     },
     {
-     "id": "whatnot.com",
-     "name": "Whatnot",
-     "domain": "whatnot.com",
-     "first_funded": "2021-01-28",
+     "id": "elevenlabs.io",
+     "name": "ElevenLabs",
+     "domain": "elevenlabs.io",
+     "first_funded": "2023-05-01",
      "known_as": null
     },
     {
@@ -234,11 +227,11 @@
      "known_as": null
     },
     {
-     "id": "apexspace.com",
-     "name": "Apex Space",
-     "domain": "apexspace.com",
-     "first_funded": "2022-10-17",
-     "known_as": "Apex Space"
+     "id": "whatnot.com",
+     "name": "Whatnot",
+     "domain": "whatnot.com",
+     "first_funded": "2021-01-28",
+     "known_as": null
     },
     {
      "id": "decagon.ai",
@@ -248,10 +241,17 @@
      "known_as": null
     },
     {
-     "id": "eliseai.com",
-     "name": "EliseAI",
-     "domain": "eliseai.com",
-     "first_funded": "2025-08-05",
+     "id": "apexspace.com",
+     "name": "Apex Space",
+     "domain": "apexspace.com",
+     "first_funded": "2022-10-17",
+     "known_as": "Apex Space"
+    },
+    {
+     "id": "box.com",
+     "name": "Box",
+     "domain": "box.com",
+     "first_funded": "2011-02-14",
      "known_as": null
     },
     {
@@ -262,17 +262,10 @@
      "known_as": null
     },
     {
-     "id": "box.com",
-     "name": "Box",
-     "domain": "box.com",
-     "first_funded": "2011-02-14",
-     "known_as": null
-    },
-    {
-     "id": "instacart.com",
-     "name": "Instacart",
-     "domain": "instacart.com",
-     "first_funded": "2014-06-10",
+     "id": "eliseai.com",
+     "name": "EliseAI",
+     "domain": "eliseai.com",
+     "first_funded": "2025-08-05",
      "known_as": null
     },
     {
@@ -297,17 +290,10 @@
      "known_as": null
     },
     {
-     "id": "radiantnuclear.com",
-     "name": "Radiant",
-     "domain": "radiantnuclear.com",
-     "first_funded": "2023-04-04",
-     "known_as": "Radiant"
-    },
-    {
-     "id": "shopcider.com",
-     "name": "Cider",
-     "domain": "shopcider.com",
-     "first_funded": "2020-09-17",
+     "id": "konghq.com",
+     "name": "Kong",
+     "domain": "konghq.com",
+     "first_funded": "2016-12-22",
      "known_as": null
     },
     {
@@ -318,24 +304,38 @@
      "known_as": "Mariana Minerals"
     },
     {
-     "id": "headway.co",
-     "name": "Headway",
-     "domain": "headway.co",
-     "first_funded": "2021-03-08",
+     "id": "shopcider.com",
+     "name": "Cider",
+     "domain": "shopcider.com",
+     "first_funded": "2020-09-17",
      "known_as": null
     },
     {
-     "id": "konghq.com",
-     "name": "Kong",
-     "domain": "konghq.com",
-     "first_funded": "2016-12-22",
+     "id": "instacart.com",
+     "name": "Instacart",
+     "domain": "instacart.com",
+     "first_funded": "2014-06-10",
      "known_as": null
+    },
+    {
+     "id": "radiantnuclear.com",
+     "name": "Radiant",
+     "domain": "radiantnuclear.com",
+     "first_funded": "2023-04-04",
+     "known_as": "Radiant"
     },
     {
      "id": "cresta.com",
      "name": "Cresta",
      "domain": "cresta.com",
      "first_funded": "2018-06-12",
+     "known_as": null
+    },
+    {
+     "id": "headway.co",
+     "name": "Headway",
+     "domain": "headway.co",
+     "first_funded": "2021-03-08",
      "known_as": null
     },
     {
@@ -346,10 +346,10 @@
      "known_as": null
     },
     {
-     "id": "tryjeeves.com",
-     "name": "Jeeves",
-     "domain": "tryjeeves.com",
-     "first_funded": "2021-04-30",
+     "id": "carta.com",
+     "name": "Carta",
+     "domain": "carta.com",
+     "first_funded": "2019-05-03",
      "known_as": null
     },
     {
@@ -367,13 +367,6 @@
      "known_as": null
     },
     {
-     "id": "carta.com",
-     "name": "Carta",
-     "domain": "carta.com",
-     "first_funded": "2019-05-03",
-     "known_as": null
-    },
-    {
      "id": "temporal.io",
      "name": "Temporal",
      "domain": "temporal.io",
@@ -381,10 +374,17 @@
      "known_as": null
     },
     {
-     "id": "tanium.com",
-     "name": "Tanium",
-     "domain": "tanium.com",
-     "first_funded": "2014-05-23",
+     "id": "tryjeeves.com",
+     "name": "Jeeves",
+     "domain": "tryjeeves.com",
+     "first_funded": "2021-04-30",
+     "known_as": null
+    },
+    {
+     "id": "devoted.com",
+     "name": "Devoted Health",
+     "domain": "devoted.com",
+     "first_funded": "2018-09-07",
      "known_as": null
     },
     {
@@ -395,17 +395,24 @@
      "known_as": "Cowboy Space Corporation"
     },
     {
-     "id": "devoted.com",
-     "name": "Devoted Health",
-     "domain": "devoted.com",
-     "first_funded": "2018-09-07",
-     "known_as": null
-    },
-    {
      "id": "illumio.com",
      "name": "Illumio",
      "domain": "illumio.com",
      "first_funded": "2013-01-14",
+     "known_as": null
+    },
+    {
+     "id": "tanium.com",
+     "name": "Tanium",
+     "domain": "tanium.com",
+     "first_funded": "2014-05-23",
+     "known_as": null
+    },
+    {
+     "id": "exa.ai",
+     "name": "Exa",
+     "domain": "exa.ai",
+     "first_funded": "2026-05-20",
      "known_as": null
     },
     {
@@ -423,38 +430,10 @@
      "known_as": null
     },
     {
-     "id": "exa.ai",
-     "name": "Exa",
-     "domain": "exa.ai",
-     "first_funded": "2026-05-20",
-     "known_as": null
-    },
-    {
      "id": "foodology.com.co",
      "name": "Foodology",
      "domain": "foodology.com.co",
      "first_funded": "2021-10-12",
-     "known_as": null
-    },
-    {
-     "id": "sprinterhealth.com",
-     "name": "Sprinter Health",
-     "domain": "sprinterhealth.com",
-     "first_funded": "2021-09-23",
-     "known_as": null
-    },
-    {
-     "id": "amca.co",
-     "name": "Amca",
-     "domain": "amca.co",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "thinkingmachines.ai",
-     "name": "Thinking Machines Lab",
-     "domain": "thinkingmachines.ai",
-     "first_funded": "2025-03-10",
      "known_as": null
     },
     {
@@ -465,11 +444,11 @@
      "known_as": null
     },
     {
-     "id": "heronpower.com",
-     "name": "Heron Power",
-     "domain": "heronpower.com",
-     "first_funded": "2026-02-18",
-     "known_as": "Heron Power"
+     "id": "amca.co",
+     "name": "Amca",
+     "domain": "amca.co",
+     "first_funded": "",
+     "known_as": null
     },
     {
      "id": "hippocraticai.com",
@@ -479,10 +458,17 @@
      "known_as": null
     },
     {
-     "id": "rappi.com",
-     "name": "Rappi",
-     "domain": "rappi.com",
-     "first_funded": "2016-05-02",
+     "id": "thinkingmachines.ai",
+     "name": "Thinking Machines Lab",
+     "domain": "thinkingmachines.ai",
+     "first_funded": "2025-03-10",
+     "known_as": null
+    },
+    {
+     "id": "sprinterhealth.com",
+     "name": "Sprinter Health",
+     "domain": "sprinterhealth.com",
+     "first_funded": "2021-09-23",
      "known_as": null
     },
     {
@@ -493,17 +479,17 @@
      "known_as": "Arc Boats"
     },
     {
-     "id": "clickup.com",
-     "name": "ClickUp",
-     "domain": "clickup.com",
-     "first_funded": "2021-10-21",
-     "known_as": null
+     "id": "heronpower.com",
+     "name": "Heron Power",
+     "domain": "heronpower.com",
+     "first_funded": "2026-02-18",
+     "known_as": "Heron Power"
     },
     {
-     "id": "sardine.ai",
-     "name": "Sardine",
-     "domain": "sardine.ai",
-     "first_funded": "2021-10-29",
+     "id": "rappi.com",
+     "name": "Rappi",
+     "domain": "rappi.com",
+     "first_funded": "2016-05-02",
      "known_as": null
     },
     {
@@ -514,31 +500,10 @@
      "known_as": null
     },
     {
-     "id": "volta.com",
-     "name": "Volta",
-     "domain": "volta.com",
-     "first_funded": "2026-08-04",
-     "known_as": null
-    },
-    {
-     "id": "kalshi.com",
-     "name": "Kalshi",
-     "domain": "kalshi.com",
-     "first_funded": "2025-10-08",
-     "known_as": null
-    },
-    {
-     "id": "li.me",
-     "name": "Lime",
-     "domain": "li.me",
-     "first_funded": "2017-03-06",
-     "known_as": null
-    },
-    {
-     "id": "mixpanel.com",
-     "name": "Mixpanel",
-     "domain": "mixpanel.com",
-     "first_funded": "2012-04-27",
+     "id": "clickup.com",
+     "name": "ClickUp",
+     "domain": "clickup.com",
+     "first_funded": "2021-10-21",
      "known_as": null
     },
     {
@@ -549,6 +514,27 @@
      "known_as": null
     },
     {
+     "id": "li.me",
+     "name": "Lime",
+     "domain": "li.me",
+     "first_funded": "2017-03-06",
+     "known_as": null
+    },
+    {
+     "id": "sardine.ai",
+     "name": "Sardine",
+     "domain": "sardine.ai",
+     "first_funded": "2021-10-29",
+     "known_as": null
+    },
+    {
+     "id": "mixpanel.com",
+     "name": "Mixpanel",
+     "domain": "mixpanel.com",
+     "first_funded": "2012-04-27",
+     "known_as": null
+    },
+    {
      "id": "sandboxvr.com",
      "name": "Sandbox VR",
      "domain": "sandboxvr.com",
@@ -556,17 +542,10 @@
      "known_as": null
     },
     {
-     "id": "rillet.com",
-     "name": "Rillet",
-     "domain": "rillet.com",
-     "first_funded": "2025-08-04",
-     "known_as": null
-    },
-    {
-     "id": "sentilink.com",
-     "name": "SentiLink",
-     "domain": "sentilink.com",
-     "first_funded": "2018-12-14",
+     "id": "volta.com",
+     "name": "Volta",
+     "domain": "volta.com",
+     "first_funded": "2026-08-04",
      "known_as": null
     },
     {
@@ -577,31 +556,10 @@
      "known_as": null
     },
     {
-     "id": "crossriver.com",
-     "name": "Cross River Bank",
-     "domain": "crossriver.com",
-     "first_funded": "2016-10-05",
-     "known_as": null
-    },
-    {
-     "id": "hex.tech",
-     "name": "Hex",
-     "domain": "hex.tech",
-     "first_funded": "2022-02-02",
-     "known_as": null
-    },
-    {
-     "id": "replit.com",
-     "name": "Replit",
-     "domain": "replit.com",
-     "first_funded": "2018-05-22",
-     "known_as": null
-    },
-    {
-     "id": "wonderschool.com",
-     "name": "Wonderschool",
-     "domain": "wonderschool.com",
-     "first_funded": "2018-08-03",
+     "id": "rillet.com",
+     "name": "Rillet",
+     "domain": "rillet.com",
+     "first_funded": "2025-08-04",
      "known_as": null
     },
     {
@@ -612,6 +570,20 @@
      "known_as": null
     },
     {
+     "id": "crossriver.com",
+     "name": "Cross River Bank",
+     "domain": "crossriver.com",
+     "first_funded": "2016-10-05",
+     "known_as": null
+    },
+    {
+     "id": "sentilink.com",
+     "name": "SentiLink",
+     "domain": "sentilink.com",
+     "first_funded": "2018-12-14",
+     "known_as": null
+    },
+    {
      "id": "astromecha.co",
      "name": "Astro Mechanica",
      "domain": "astromecha.co",
@@ -619,32 +591,18 @@
      "known_as": "Astro Mechanica"
     },
     {
-     "id": "reducto.ai",
-     "name": "Reducto",
-     "domain": "reducto.ai",
-     "first_funded": "2025-09-05",
+     "id": "wonderschool.com",
+     "name": "Wonderschool",
+     "domain": "wonderschool.com",
+     "first_funded": "2018-08-03",
      "known_as": null
     },
     {
-     "id": "covenant.com",
-     "name": "Covenant",
-     "domain": "covenant.com",
-     "first_funded": "",
-     "known_as": "Covenant"
-    },
-    {
-     "id": "starburst.io",
-     "name": "Starburst",
-     "domain": "starburst.io",
-     "first_funded": "2020-12-18",
+     "id": "hex.tech",
+     "name": "Hex",
+     "domain": "hex.tech",
+     "first_funded": "2022-02-02",
      "known_as": null
-    },
-    {
-     "id": "airspace-intelligence.com",
-     "name": "ASI",
-     "domain": "airspace-intelligence.com",
-     "first_funded": "2023-11-03",
-     "known_as": "ASI"
     },
     {
      "id": "everlaw.com",
@@ -654,31 +612,10 @@
      "known_as": null
     },
     {
-     "id": "mindrobotics.com",
-     "name": "Mind Robotics",
-     "domain": "mindrobotics.com",
-     "first_funded": "2026-03-11",
-     "known_as": "Mind Robotics"
-    },
-    {
-     "id": "periodiclabs.ai",
-     "name": "Periodic Labs",
-     "domain": "periodiclabs.ai",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "flow.life",
-     "name": "Flow",
-     "domain": "flow.life",
-     "first_funded": "2022-08-08",
-     "known_as": null
-    },
-    {
-     "id": "functionhealth.com",
-     "name": "Function Health",
-     "domain": "functionhealth.com",
-     "first_funded": "2022-12-09",
+     "id": "reducto.ai",
+     "name": "Reducto",
+     "domain": "reducto.ai",
+     "first_funded": "2025-09-05",
      "known_as": null
     },
     {
@@ -689,10 +626,80 @@
      "known_as": null
     },
     {
+     "id": "freenome.com",
+     "name": "Freenome",
+     "domain": "freenome.com",
+     "first_funded": "2016-05-23",
+     "known_as": "Freenome"
+    },
+    {
+     "id": "functionhealth.com",
+     "name": "Function Health",
+     "domain": "functionhealth.com",
+     "first_funded": "2022-12-09",
+     "known_as": null
+    },
+    {
+     "id": "replit.com",
+     "name": "Replit",
+     "domain": "replit.com",
+     "first_funded": "2018-05-22",
+     "known_as": null
+    },
+    {
+     "id": "starburst.io",
+     "name": "Starburst",
+     "domain": "starburst.io",
+     "first_funded": "2020-12-18",
+     "known_as": null
+    },
+    {
+     "id": "mindrobotics.com",
+     "name": "Mind Robotics",
+     "domain": "mindrobotics.com",
+     "first_funded": "2026-03-11",
+     "known_as": "Mind Robotics"
+    },
+    {
+     "id": "airspace-intelligence.com",
+     "name": "ASI",
+     "domain": "airspace-intelligence.com",
+     "first_funded": "2023-11-03",
+     "known_as": "ASI"
+    },
+    {
      "id": "inferact.ai",
      "name": "Inferact",
      "domain": "inferact.ai",
      "first_funded": "2026-01-22",
+     "known_as": null
+    },
+    {
+     "id": "kalshi.com",
+     "name": "Kalshi",
+     "domain": "kalshi.com",
+     "first_funded": "2025-10-08",
+     "known_as": null
+    },
+    {
+     "id": "periodiclabs.ai",
+     "name": "Periodic Labs",
+     "domain": "periodiclabs.ai",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "earnin.com",
+     "name": "Earnin",
+     "domain": "earnin.com",
+     "first_funded": "2017-06-28",
+     "known_as": null
+    },
+    {
+     "id": "tesseralabs.ai",
+     "name": "Tessera Labs",
+     "domain": "tesseralabs.ai",
+     "first_funded": "2026-05-05",
      "known_as": null
     },
     {
@@ -703,10 +710,17 @@
      "known_as": null
     },
     {
-     "id": "lumalabs.ai",
-     "name": "Luma AI",
-     "domain": "lumalabs.ai",
-     "first_funded": "2023-11-27",
+     "id": "flocksafety.com",
+     "name": "Flock",
+     "domain": "flocksafety.com",
+     "first_funded": "2021-06-30",
+     "known_as": "Flock Safety"
+    },
+    {
+     "id": "thatch.ai",
+     "name": "Thatch Health",
+     "domain": "thatch.ai",
+     "first_funded": "2022-03-18",
      "known_as": null
     },
     {
@@ -717,24 +731,10 @@
      "known_as": null
     },
     {
-     "id": "freenome.com",
-     "name": "Freenome",
-     "domain": "freenome.com",
-     "first_funded": "2016-05-23",
-     "known_as": "Freenome"
-    },
-    {
-     "id": "koboldmetals.com",
-     "name": "KoBold Metals",
-     "domain": "koboldmetals.com",
-     "first_funded": "2018-09-28",
-     "known_as": "KoBold Metals"
-    },
-    {
-     "id": "groupon.com",
-     "name": "Groupon, Inc.",
-     "domain": "groupon.com",
-     "first_funded": "2011-01-21",
+     "id": "flow.life",
+     "name": "Flow",
+     "domain": "flow.life",
+     "first_funded": "2022-08-08",
      "known_as": null
     },
     {
@@ -742,6 +742,41 @@
      "name": "Netris",
      "domain": "netris.io",
      "first_funded": "2026-06-25",
+     "known_as": null
+    },
+    {
+     "id": "covenant.com",
+     "name": "Covenant",
+     "domain": "covenant.com",
+     "first_funded": "",
+     "known_as": "Covenant"
+    },
+    {
+     "id": "lumalabs.ai",
+     "name": "Luma AI",
+     "domain": "lumalabs.ai",
+     "first_funded": "2023-11-27",
+     "known_as": null
+    },
+    {
+     "id": "valon.ai",
+     "name": "Valon",
+     "domain": "valon.ai",
+     "first_funded": "2020-07-13",
+     "known_as": null
+    },
+    {
+     "id": "atlys.com",
+     "name": "Atlys",
+     "domain": "atlys.com",
+     "first_funded": "2021-08-24",
+     "known_as": null
+    },
+    {
+     "id": "groupon.com",
+     "name": "Groupon, Inc.",
+     "domain": "groupon.com",
+     "first_funded": "2011-01-21",
      "known_as": null
     },
     {
@@ -759,115 +794,17 @@
      "known_as": null
     },
     {
-     "id": "thatch.ai",
-     "name": "Thatch Health",
-     "domain": "thatch.ai",
-     "first_funded": "2022-03-18",
-     "known_as": null
-    },
-    {
-     "id": "dynamic.xyz",
-     "name": "Dynamic Labs, Inc.",
-     "domain": "dynamic.xyz",
-     "first_funded": "2022-01-21",
-     "known_as": null
-    },
-    {
-     "id": "flocksafety.com",
-     "name": "Flock",
-     "domain": "flocksafety.com",
-     "first_funded": "2021-06-30",
-     "known_as": "Flock Safety"
-    },
-    {
-     "id": "stuut.co",
-     "name": "Stuut",
-     "domain": "stuut.co",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "tesseralabs.ai",
-     "name": "Tessera Labs",
-     "domain": "tesseralabs.ai",
-     "first_funded": "2026-05-05",
-     "known_as": null
-    },
-    {
-     "id": "valon.ai",
-     "name": "Valon",
-     "domain": "valon.ai",
-     "first_funded": "2020-07-13",
-     "known_as": null
+     "id": "koboldmetals.com",
+     "name": "KoBold Metals",
+     "domain": "koboldmetals.com",
+     "first_funded": "2018-09-28",
+     "known_as": "KoBold Metals"
     },
     {
      "id": "ambient.ai",
      "name": "Ambient.ai",
      "domain": "ambient.ai",
      "first_funded": "2018-11-28",
-     "known_as": null
-    },
-    {
-     "id": "cape.co",
-     "name": "Cape",
-     "domain": "cape.co",
-     "first_funded": "2022-02-14",
-     "known_as": "Cape"
-    },
-    {
-     "id": "lightfield.app",
-     "name": "Lightfield",
-     "domain": "lightfield.app",
-     "first_funded": "2026-09-09",
-     "known_as": null
-    },
-    {
-     "id": "xdof.ai",
-     "name": "XDOF",
-     "domain": "xdof.ai",
-     "first_funded": "2026-06-01",
-     "known_as": "XDOF"
-    },
-    {
-     "id": "sesame.com",
-     "name": "Sesame",
-     "domain": "sesame.com",
-     "first_funded": "2023-10-23",
-     "known_as": null
-    },
-    {
-     "id": "doppel.com",
-     "name": "Doppel",
-     "domain": "doppel.com",
-     "first_funded": "2023-12-21",
-     "known_as": null
-    },
-    {
-     "id": "komodohealth.com",
-     "name": "Komodo Health",
-     "domain": "komodohealth.com",
-     "first_funded": "2019-08-23",
-     "known_as": null
-    },
-    {
-     "id": "earnin.com",
-     "name": "Earnin",
-     "domain": "earnin.com",
-     "first_funded": "2017-06-28",
-     "known_as": null
-    },
-    {
-     "id": "pindrop.com",
-     "name": "Pindrop",
-     "domain": "pindrop.com",
-     "first_funded": "2012-01-18",
-     "known_as": null
-    },
-    {
-     "id": "anchorage.com",
-     "name": "Anchorage",
-     "domain": "anchorage.com",
-     "first_funded": "2017-12-06",
      "known_as": null
     },
     {
@@ -878,10 +815,10 @@
      "known_as": null
     },
     {
-     "id": "hebbia.com",
-     "name": "Hebbia",
-     "domain": "hebbia.com",
-     "first_funded": "2024-04-29",
+     "id": "lightfield.app",
+     "name": "Lightfield",
+     "domain": "lightfield.app",
+     "first_funded": "",
      "known_as": null
     },
     {
@@ -892,6 +829,34 @@
      "known_as": null
     },
     {
+     "id": "stuut.co",
+     "name": "Stuut",
+     "domain": "stuut.co",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "cape.co",
+     "name": "Cape",
+     "domain": "cape.co",
+     "first_funded": "2022-02-14",
+     "known_as": "Cape"
+    },
+    {
+     "id": "dynamic.xyz",
+     "name": "Dynamic Labs, Inc.",
+     "domain": "dynamic.xyz",
+     "first_funded": "2022-01-21",
+     "known_as": null
+    },
+    {
+     "id": "doppel.com",
+     "name": "Doppel",
+     "domain": "doppel.com",
+     "first_funded": "2023-12-21",
+     "known_as": null
+    },
+    {
      "id": "nash.ai",
      "name": "Nash",
      "domain": "nash.ai",
@@ -899,10 +864,24 @@
      "known_as": null
     },
     {
-     "id": "neo.ai",
-     "name": "Neo",
-     "domain": "neo.ai",
-     "first_funded": "2026-07-20",
+     "id": "usepylon.com",
+     "name": "Pylon",
+     "domain": "usepylon.com",
+     "first_funded": "2024-06-17",
+     "known_as": null
+    },
+    {
+     "id": "senrasystems.us",
+     "name": "Senra Systems",
+     "domain": "senrasystems.us",
+     "first_funded": "2024-01-25",
+     "known_as": "Senra Systems"
+    },
+    {
+     "id": "sesame.com",
+     "name": "Sesame",
+     "domain": "sesame.com",
+     "first_funded": "2023-10-23",
      "known_as": null
     },
     {
@@ -913,11 +892,18 @@
      "known_as": "Standard Nuclear"
     },
     {
-     "id": "telepatia.ai",
-     "name": "Telepatia AI",
-     "domain": "telepatia.ai",
-     "first_funded": "2026-06-17",
+     "id": "unitedmasters.com",
+     "name": "UnitedMasters",
+     "domain": "unitedmasters.com",
+     "first_funded": "2016-02-19",
      "known_as": null
+    },
+    {
+     "id": "xdof.ai",
+     "name": "XDOF",
+     "domain": "xdof.ai",
+     "first_funded": "2026-06-01",
+     "known_as": "XDOF"
     },
     {
      "id": "yubico.com",
@@ -927,10 +913,80 @@
      "known_as": null
     },
     {
-     "id": "atlys.com",
-     "name": "Atlys",
-     "domain": "atlys.com",
-     "first_funded": "2021-08-24",
+     "id": "anchorage.com",
+     "name": "Anchorage",
+     "domain": "anchorage.com",
+     "first_funded": "2017-12-06",
+     "known_as": null
+    },
+    {
+     "id": "hebbia.com",
+     "name": "Hebbia",
+     "domain": "hebbia.com",
+     "first_funded": "2024-04-29",
+     "known_as": null
+    },
+    {
+     "id": "komodohealth.com",
+     "name": "Komodo Health",
+     "domain": "komodohealth.com",
+     "first_funded": "2019-08-23",
+     "known_as": null
+    },
+    {
+     "id": "unconv.ai",
+     "name": "Unconventional AI",
+     "domain": "unconv.ai",
+     "first_funded": "2025-09-29",
+     "known_as": "Unconventional AI"
+    },
+    {
+     "id": "cruxclimate.com",
+     "name": "Crux",
+     "domain": "cruxclimate.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "current.com",
+     "name": "Current",
+     "domain": "current.com",
+     "first_funded": "2021-04-15",
+     "known_as": null
+    },
+    {
+     "id": "formation.bio",
+     "name": "Formation Bio",
+     "domain": "formation.bio",
+     "first_funded": "2024-05-21",
+     "known_as": null
+    },
+    {
+     "id": "stoik.io",
+     "name": "Stoik",
+     "domain": "stoik.io",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "talos.com",
+     "name": "Talos",
+     "domain": "talos.com",
+     "first_funded": "2021-04-05",
+     "known_as": null
+    },
+    {
+     "id": "ambiencehealthcare.com",
+     "name": "Ambience Healthcare",
+     "domain": "ambiencehealthcare.com",
+     "first_funded": "2020-09-08",
+     "known_as": null
+    },
+    {
+     "id": "eve.legal",
+     "name": "Eve",
+     "domain": "eve.legal",
+     "first_funded": "2024-11-07",
      "known_as": null
     },
     {
@@ -955,27 +1011,6 @@
      "known_as": null
     },
     {
-     "id": "withotter.com",
-     "name": "Otter",
-     "domain": "withotter.com",
-     "first_funded": "2021-01-08",
-     "known_as": null
-    },
-    {
-     "id": "ambiencehealthcare.com",
-     "name": "Ambience Healthcare",
-     "domain": "ambiencehealthcare.com",
-     "first_funded": "2020-09-08",
-     "known_as": null
-    },
-    {
-     "id": "current.com",
-     "name": "Current",
-     "domain": "current.com",
-     "first_funded": "2021-04-15",
-     "known_as": null
-    },
-    {
      "id": "loft.com.br",
      "name": "Loft",
      "domain": "loft.com.br",
@@ -983,31 +1018,17 @@
      "known_as": null
     },
     {
-     "id": "omadahealth.com",
-     "name": "Omada Health",
-     "domain": "omadahealth.com",
-     "first_funded": "2014-04-04",
+     "id": "neo.ai",
+     "name": "Neo",
+     "domain": "neo.ai",
+     "first_funded": "2026-07-20",
      "known_as": null
     },
     {
-     "id": "senrasystems.us",
-     "name": "Senra Systems",
-     "domain": "senrasystems.us",
-     "first_funded": "2024-01-25",
-     "known_as": "Senra Systems"
-    },
-    {
-     "id": "stoik.io",
-     "name": "Stoik",
-     "domain": "stoik.io",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "unitedmasters.com",
-     "name": "UnitedMasters",
-     "domain": "unitedmasters.com",
-     "first_funded": "2016-02-19",
+     "id": "withotter.com",
+     "name": "Otter",
+     "domain": "withotter.com",
+     "first_funded": "2021-01-08",
      "known_as": null
     },
     {
@@ -1018,66 +1039,10 @@
      "known_as": null
     },
     {
-     "id": "formation.bio",
-     "name": "Formation Bio",
-     "domain": "formation.bio",
-     "first_funded": "2024-05-21",
-     "known_as": null
-    },
-    {
-     "id": "fu.do",
-     "name": "Fudo",
-     "domain": "fu.do",
-     "first_funded": "2022-05-27",
-     "known_as": null
-    },
-    {
-     "id": "cruxclimate.com",
-     "name": "Crux",
-     "domain": "cruxclimate.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
      "id": "pave.com",
      "name": "Pave",
      "domain": "pave.com",
      "first_funded": "2020-09-02",
-     "known_as": null
-    },
-    {
-     "id": "usepylon.com",
-     "name": "Pylon",
-     "domain": "usepylon.com",
-     "first_funded": "2024-06-17",
-     "known_as": null
-    },
-    {
-     "id": "runetech.co",
-     "name": "Rune Technologies",
-     "domain": "runetech.co",
-     "first_funded": "2024-06-26",
-     "known_as": "Rune Technologies"
-    },
-    {
-     "id": "talos.com",
-     "name": "Talos",
-     "domain": "talos.com",
-     "first_funded": "2021-04-05",
-     "known_as": null
-    },
-    {
-     "id": "unconv.ai",
-     "name": "Unconventional AI",
-     "domain": "unconv.ai",
-     "first_funded": "2025-09-29",
-     "known_as": "Unconventional AI"
-    },
-    {
-     "id": "verygoodsecurity.com",
-     "name": "Very Good Security",
-     "domain": "verygoodsecurity.com",
-     "first_funded": "2017-04-21",
      "known_as": null
     },
     {
@@ -1088,17 +1053,94 @@
      "known_as": null
     },
     {
-     "id": "dialpad.com",
-     "name": "Dialpad",
-     "domain": "dialpad.com",
-     "first_funded": "2012-07-17",
+     "id": "fu.do",
+     "name": "Fudo",
+     "domain": "fu.do",
+     "first_funded": "2022-05-27",
      "known_as": null
     },
     {
-     "id": "eve.legal",
-     "name": "Eve",
-     "domain": "eve.legal",
-     "first_funded": "2024-11-07",
+     "id": "omadahealth.com",
+     "name": "Omada Health",
+     "domain": "omadahealth.com",
+     "first_funded": "2014-04-04",
+     "known_as": null
+    },
+    {
+     "id": "pindrop.com",
+     "name": "Pindrop",
+     "domain": "pindrop.com",
+     "first_funded": "2012-01-18",
+     "known_as": null
+    },
+    {
+     "id": "verygoodsecurity.com",
+     "name": "Very Good Security",
+     "domain": "verygoodsecurity.com",
+     "first_funded": "2017-04-21",
+     "known_as": null
+    },
+    {
+     "id": "airgarage.com",
+     "name": "AirGarage",
+     "domain": "airgarage.com",
+     "first_funded": "2021-10-15",
+     "known_as": null
+    },
+    {
+     "id": "a16z.com",
+     "name": "Andreessen Horowitz",
+     "domain": "a16z.com",
+     "first_funded": "2012-02-13",
+     "known_as": null
+    },
+    {
+     "id": "mazetx.com",
+     "name": "Maze Therapeutics",
+     "domain": "mazetx.com",
+     "first_funded": "2021-12-08",
+     "known_as": null
+    },
+    {
+     "id": "withprotege.ai",
+     "name": "Protege",
+     "domain": "withprotege.ai",
+     "first_funded": "2026-01-08",
+     "known_as": null
+    },
+    {
+     "id": "runetech.co",
+     "name": "Rune Technologies",
+     "domain": "runetech.co",
+     "first_funded": "2024-06-26",
+     "known_as": "Rune Technologies"
+    },
+    {
+     "id": "substack.com",
+     "name": "Substack",
+     "domain": "substack.com",
+     "first_funded": "2019-07-08",
+     "known_as": null
+    },
+    {
+     "id": "telepatia.ai",
+     "name": "Telepatia AI",
+     "domain": "telepatia.ai",
+     "first_funded": "2026-06-17",
+     "known_as": null
+    },
+    {
+     "id": "theoceancompany.com",
+     "name": "Ulysses",
+     "domain": "theoceancompany.com",
+     "first_funded": "2026-04-16",
+     "known_as": "Ulysses Robotics"
+    },
+    {
+     "id": "generalmedicine.co",
+     "name": "General Medicine",
+     "domain": "generalmedicine.co",
+     "first_funded": "2026-10-06",
      "known_as": null
     },
     {
@@ -1109,17 +1151,45 @@
      "known_as": null
     },
     {
-     "id": "loopcrypto.xyz",
-     "name": "Loop",
-     "domain": "loopcrypto.xyz",
-     "first_funded": "2022-03-09",
+     "id": "greenlightcard.com",
+     "name": "Greenlight",
+     "domain": "greenlightcard.com",
+     "first_funded": "",
      "known_as": null
     },
     {
-     "id": "airgarage.com",
-     "name": "AirGarage",
-     "domain": "airgarage.com",
-     "first_funded": "2021-10-15",
+     "id": "rigetti.com",
+     "name": "Rigetti Quantum Computing",
+     "domain": "rigetti.com",
+     "first_funded": "2016-03-01",
+     "known_as": "Rigetti Computing"
+    },
+    {
+     "id": "getsphere.com",
+     "name": "Sphere",
+     "domain": "getsphere.com",
+     "first_funded": "2025-09-26",
+     "known_as": null
+    },
+    {
+     "id": "town.com",
+     "name": "Town",
+     "domain": "town.com",
+     "first_funded": "2026-06-03",
+     "known_as": null
+    },
+    {
+     "id": "turquoise.health",
+     "name": "Turquoise Health",
+     "domain": "turquoise.health",
+     "first_funded": "2021-06-08",
+     "known_as": null
+    },
+    {
+     "id": "typesafe.ai",
+     "name": "TypeSafe AI",
+     "domain": "typesafe.ai",
+     "first_funded": "2026-10-09",
      "known_as": null
     },
     {
@@ -1137,46 +1207,11 @@
      "known_as": null
     },
     {
-     "id": "generalmedicine.co",
-     "name": "General Medicine",
-     "domain": "generalmedicine.co",
-     "first_funded": "2026-10-06",
-     "known_as": null
-    },
-    {
-     "id": "mazetx.com",
-     "name": "Maze Therapeutics",
-     "domain": "mazetx.com",
-     "first_funded": "2021-12-08",
-     "known_as": null
-    },
-    {
-     "id": "getsphere.com",
-     "name": "Sphere",
-     "domain": "getsphere.com",
-     "first_funded": "2025-09-26",
-     "known_as": null
-    },
-    {
-     "id": "substack.com",
-     "name": "Substack",
-     "domain": "substack.com",
-     "first_funded": "2019-07-08",
-     "known_as": null
-    },
-    {
-     "id": "a16z.com",
-     "name": "Andreessen Horowitz",
-     "domain": "a16z.com",
-     "first_funded": "2012-02-13",
-     "known_as": null
-    },
-    {
-     "id": "cyngn.com",
-     "name": "Cyngn",
-     "domain": "cyngn.com",
-     "first_funded": "2013-11-22",
-     "known_as": null
+     "id": "exowatt.com",
+     "name": "Exowatt",
+     "domain": "exowatt.com",
+     "first_funded": "2024-03-08",
+     "known_as": "Exowatt"
     },
     {
      "id": "joinhonor.com",
@@ -1193,10 +1228,10 @@
      "known_as": null
     },
     {
-     "id": "mintlify.com",
-     "name": "Mintlify",
-     "domain": "mintlify.com",
-     "first_funded": "2024-09-05",
+     "id": "loopcrypto.xyz",
+     "name": "Loop",
+     "domain": "loopcrypto.xyz",
+     "first_funded": "2022-03-09",
      "known_as": null
     },
     {
@@ -1207,24 +1242,10 @@
      "known_as": null
     },
     {
-     "id": "rigetti.com",
-     "name": "Rigetti Quantum Computing",
-     "domain": "rigetti.com",
-     "first_funded": "2016-03-01",
-     "known_as": "Rigetti Computing"
-    },
-    {
-     "id": "town.com",
-     "name": "Town",
-     "domain": "town.com",
-     "first_funded": "2026-06-03",
-     "known_as": null
-    },
-    {
-     "id": "typesafe.ai",
-     "name": "TypeSafe AI",
-     "domain": "typesafe.ai",
-     "first_funded": "2026-10-09",
+     "id": "usetako.com",
+     "name": "Tako",
+     "domain": "usetako.com",
+     "first_funded": "",
      "known_as": null
     },
     {
@@ -1235,10 +1256,24 @@
      "known_as": "Ultima Genomics"
     },
     {
+     "id": "blackforestlabs.ai",
+     "name": "Black Forest Labs",
+     "domain": "blackforestlabs.ai",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "boltz.bio",
      "name": "Boltz",
      "domain": "boltz.bio",
      "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "cyngn.com",
+     "name": "Cyngn",
+     "domain": "cyngn.com",
+     "first_funded": "2013-11-22",
      "known_as": null
     },
     {
@@ -1249,17 +1284,10 @@
      "known_as": null
     },
     {
-     "id": "exowatt.com",
-     "name": "Exowatt",
-     "domain": "exowatt.com",
-     "first_funded": "2024-03-08",
-     "known_as": "Exowatt"
-    },
-    {
-     "id": "greenlightcard.com",
-     "name": "Greenlight",
-     "domain": "greenlightcard.com",
-     "first_funded": "",
+     "id": "endra.ai",
+     "name": "Endra",
+     "domain": "endra.ai",
+     "first_funded": "2026-06-01",
      "known_as": null
     },
     {
@@ -1270,10 +1298,10 @@
      "known_as": "Insitro"
     },
     {
-     "id": "overwolf.com",
-     "name": "Overwolf",
-     "domain": "overwolf.com",
-     "first_funded": "2021-09-23",
+     "id": "mintlify.com",
+     "name": "Mintlify",
+     "domain": "mintlify.com",
+     "first_funded": "2024-09-05",
      "known_as": null
     },
     {
@@ -1291,38 +1319,10 @@
      "known_as": null
     },
     {
-     "id": "trysalient.com",
-     "name": "Salient",
-     "domain": "trysalient.com",
-     "first_funded": "2023-04-06",
-     "known_as": null
-    },
-    {
-     "id": "usetako.com",
-     "name": "Tako",
-     "domain": "usetako.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "turquoise.health",
-     "name": "Turquoise Health",
-     "domain": "turquoise.health",
-     "first_funded": "2021-06-08",
-     "known_as": null
-    },
-    {
      "id": "wrapbook.com",
      "name": "Wrapbook",
      "domain": "wrapbook.com",
      "first_funded": "2021-02-22",
-     "known_as": null
-    },
-    {
-     "id": "y.uno",
-     "name": "Yuno",
-     "domain": "y.uno",
-     "first_funded": "2022-01-21",
      "known_as": null
     },
     {
@@ -1333,13 +1333,6 @@
      "known_as": null
     },
     {
-     "id": "blackforestlabs.ai",
-     "name": "Black Forest Labs",
-     "domain": "blackforestlabs.ai",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
      "id": "character.ai",
      "name": "Character.AI",
      "domain": "character.ai",
@@ -1347,10 +1340,10 @@
      "known_as": null
     },
     {
-     "id": "endra.ai",
-     "name": "Endra",
-     "domain": "endra.ai",
-     "first_funded": "2026-06-01",
+     "id": "krea.ai",
+     "name": "Krea",
+     "domain": "krea.ai",
+     "first_funded": "2024-01-26",
      "known_as": null
     },
     {
@@ -1361,11 +1354,25 @@
      "known_as": null
     },
     {
-     "id": "theoceancompany.com",
-     "name": "Ulysses",
-     "domain": "theoceancompany.com",
-     "first_funded": "2026-04-16",
-     "known_as": "Ulysses Robotics"
+     "id": "phantom.app",
+     "name": "Phantom",
+     "domain": "phantom.app",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "getprosper.ai",
+     "name": "Prosper AI",
+     "domain": "getprosper.ai",
+     "first_funded": "2026-06-22",
+     "known_as": null
+    },
+    {
+     "id": "trysalient.com",
+     "name": "Salient",
+     "domain": "trysalient.com",
+     "first_funded": "2023-04-06",
+     "known_as": null
     },
     {
      "id": "11x.ai",
@@ -1382,24 +1389,17 @@
      "known_as": null
     },
     {
-     "id": "withclutch.com",
-     "name": "Clutch",
-     "domain": "withclutch.com",
-     "first_funded": "2020-07-24",
+     "id": "counselhealth.com",
+     "name": "Counsel Health",
+     "domain": "counselhealth.com",
+     "first_funded": "2024-08-15",
      "known_as": null
     },
     {
-     "id": "convex.dev",
-     "name": "Convex",
-     "domain": "convex.dev",
-     "first_funded": "2021-12-22",
-     "known_as": null
-    },
-    {
-     "id": "krea.ai",
-     "name": "Krea",
-     "domain": "krea.ai",
-     "first_funded": "2024-01-26",
+     "id": "dialpad.com",
+     "name": "Dialpad",
+     "domain": "dialpad.com",
+     "first_funded": "2012-07-17",
      "known_as": null
     },
     {
@@ -1417,10 +1417,10 @@
      "known_as": null
     },
     {
-     "id": "phantom.app",
-     "name": "Phantom",
-     "domain": "phantom.app",
-     "first_funded": "",
+     "id": "morpho.xyz",
+     "name": "Morpho",
+     "domain": "morpho.xyz",
+     "first_funded": "2022-03-22",
      "known_as": null
     },
     {
@@ -1431,17 +1431,10 @@
      "known_as": null
     },
     {
-     "id": "withprotege.ai",
-     "name": "Protege",
-     "domain": "withprotege.ai",
-     "first_funded": "2026-01-08",
-     "known_as": null
-    },
-    {
-     "id": "snaplogic.com",
-     "name": "SnapLogic",
-     "domain": "snaplogic.com",
-     "first_funded": "2009-10-27",
+     "id": "titanvest.com",
+     "name": "Titan",
+     "domain": "titanvest.com",
+     "first_funded": "",
      "known_as": null
     },
     {
@@ -1459,6 +1452,13 @@
      "known_as": null
     },
     {
+     "id": "favorited.com",
+     "name": "favorited",
+     "domain": "favorited.com",
+     "first_funded": "2023-06-02",
+     "known_as": null
+    },
+    {
      "id": "airbase.us",
      "name": "Airbase",
      "domain": "airbase.us",
@@ -1473,10 +1473,24 @@
      "known_as": null
     },
     {
+     "id": "boku.com",
+     "name": "Boku",
+     "domain": "boku.com",
+     "first_funded": "2010-04-22",
+     "known_as": null
+    },
+    {
      "id": "branch.co",
      "name": "Branch.co",
      "domain": "branch.co",
      "first_funded": "2015-12-21",
+     "known_as": null
+    },
+    {
+     "id": "withclutch.com",
+     "name": "Clutch",
+     "domain": "withclutch.com",
+     "first_funded": "2020-07-24",
      "known_as": null
     },
     {
@@ -1487,10 +1501,10 @@
      "known_as": null
     },
     {
-     "id": "counselhealth.com",
-     "name": "Counsel Health",
-     "domain": "counselhealth.com",
-     "first_funded": "2024-08-15",
+     "id": "convex.dev",
+     "name": "Convex",
+     "domain": "convex.dev",
+     "first_funded": "2021-12-22",
      "known_as": null
     },
     {
@@ -1501,10 +1515,17 @@
      "known_as": null
     },
     {
-     "id": "morpho.xyz",
-     "name": "Morpho",
-     "domain": "morpho.xyz",
-     "first_funded": "2022-03-22",
+     "id": "genesis.ml",
+     "name": "Genesis Molecular AI",
+     "domain": "genesis.ml",
+     "first_funded": "2019-04-22",
+     "known_as": "Genesis Therapeutics"
+    },
+    {
+     "id": "overwolf.com",
+     "name": "Overwolf",
+     "domain": "overwolf.com",
+     "first_funded": "2021-09-23",
      "known_as": null
     },
     {
@@ -1522,31 +1543,10 @@
      "known_as": null
     },
     {
-     "id": "getprosper.ai",
-     "name": "Prosper AI",
-     "domain": "getprosper.ai",
-     "first_funded": "2026-06-22",
-     "known_as": null
-    },
-    {
-     "id": "titanvest.com",
-     "name": "Titan",
-     "domain": "titanvest.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "favorited.com",
-     "name": "favorited",
-     "domain": "favorited.com",
-     "first_funded": "2023-06-02",
-     "known_as": null
-    },
-    {
-     "id": "boku.com",
-     "name": "Boku",
-     "domain": "boku.com",
-     "first_funded": "2010-04-22",
+     "id": "adaptive.build",
+     "name": "Adaptive",
+     "domain": "adaptive.build",
+     "first_funded": "2022-04-13",
      "known_as": null
     },
     {
@@ -1557,10 +1557,10 @@
      "known_as": "Chariot Defense"
     },
     {
-     "id": "descript.com",
-     "name": "Descript",
-     "domain": "descript.com",
-     "first_funded": "2017-10-11",
+     "id": "labelbox.com",
+     "name": "Labelbox",
+     "domain": "labelbox.com",
+     "first_funded": "2019-12-20",
      "known_as": null
     },
     {
@@ -1571,10 +1571,17 @@
      "known_as": null
     },
     {
-     "id": "vals.ai",
-     "name": "Vals AI",
-     "domain": "vals.ai",
-     "first_funded": "2026-08-13",
+     "id": "snaplogic.com",
+     "name": "SnapLogic",
+     "domain": "snaplogic.com",
+     "first_funded": "2009-10-27",
+     "known_as": null
+    },
+    {
+     "id": "y.uno",
+     "name": "Yuno",
+     "domain": "y.uno",
+     "first_funded": "2022-01-21",
      "known_as": null
     },
     {
@@ -1585,6 +1592,13 @@
      "known_as": "Zeromark"
     },
     {
+     "id": "k-id.com",
+     "name": "k-ID",
+     "domain": "k-id.com",
+     "first_funded": "2023-09-29",
+     "known_as": null
+    },
+    {
      "id": "akasa.com",
      "name": "AKASA",
      "domain": "akasa.com",
@@ -1592,10 +1606,10 @@
      "known_as": null
     },
     {
-     "id": "adaptive.build",
-     "name": "Adaptive",
-     "domain": "adaptive.build",
-     "first_funded": "2022-04-13",
+     "id": "aktisoncology.com",
+     "name": "Aktis Oncology",
+     "domain": "aktisoncology.com",
+     "first_funded": "2026-01-09",
      "known_as": null
     },
     {
@@ -1603,6 +1617,13 @@
      "name": "Apollo",
      "domain": "apollographql.com",
      "first_funded": "2012-06-15",
+     "known_as": null
+    },
+    {
+     "id": "descript.com",
+     "name": "Descript",
+     "domain": "descript.com",
+     "first_funded": "2017-10-11",
      "known_as": null
     },
     {
@@ -1641,24 +1662,10 @@
      "known_as": null
     },
     {
-     "id": "kavak.com",
-     "name": "Kavak",
-     "domain": "kavak.com",
-     "first_funded": "2026-02-17",
-     "known_as": null
-    },
-    {
      "id": "methodfi.com",
      "name": "Method",
      "domain": "methodfi.com",
      "first_funded": "2022-11-10",
-     "known_as": null
-    },
-    {
-     "id": "method.security",
-     "name": "Method Security",
-     "domain": "method.security",
-     "first_funded": "2023-10-25",
      "known_as": null
     },
     {
@@ -1690,6 +1697,13 @@
      "known_as": null
     },
     {
+     "id": "uniswap.org",
+     "name": "Uniswap",
+     "domain": "uniswap.org",
+     "first_funded": "2020-06-05",
+     "known_as": null
+    },
+    {
      "id": "unlimitedindustries.com",
      "name": "Unlimited Industries",
      "domain": "unlimitedindustries.com",
@@ -1697,10 +1711,10 @@
      "known_as": "Unlimited Industries"
     },
     {
-     "id": "k-id.com",
-     "name": "k-ID",
-     "domain": "k-id.com",
-     "first_funded": "2023-09-29",
+     "id": "zushealth.com",
+     "name": "Zus Health",
+     "domain": "zushealth.com",
+     "first_funded": "2021-06-16",
      "known_as": null
     },
     {
@@ -1711,25 +1725,11 @@
      "known_as": null
     },
     {
-     "id": "bastion.com",
-     "name": "Bastion",
-     "domain": "bastion.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
      "id": "endeavornetworks.com",
      "name": "EON",
      "domain": "endeavornetworks.com",
      "first_funded": "2026-08-04",
      "known_as": "Endeavor Optical Networks"
-    },
-    {
-     "id": "tryglimpse.com",
-     "name": "Glimpse",
-     "domain": "tryglimpse.com",
-     "first_funded": "2026-03-25",
-     "known_as": null
     },
     {
      "id": "inceptive.life",
@@ -1739,10 +1739,10 @@
      "known_as": null
     },
     {
-     "id": "labelbox.com",
-     "name": "Labelbox",
-     "domain": "labelbox.com",
-     "first_funded": "2019-12-20",
+     "id": "method.security",
+     "name": "Method Security",
+     "domain": "method.security",
+     "first_funded": "2023-10-25",
      "known_as": null
     },
     {
@@ -1802,24 +1802,24 @@
      "known_as": null
     },
     {
+     "id": "setpoint.io",
+     "name": "Setpoint.io",
+     "domain": "setpoint.io",
+     "first_funded": "2022-11-23",
+     "known_as": null
+    },
+    {
+     "id": "sharpperformance.com",
+     "name": "Sharp Performance",
+     "domain": "sharpperformance.com",
+     "first_funded": "2025-05-01",
+     "known_as": null
+    },
+    {
      "id": "solana.com",
      "name": "Solana",
      "domain": "solana.com",
      "first_funded": "2021-04-13",
-     "known_as": null
-    },
-    {
-     "id": "sourcegraph.com",
-     "name": "Sourcegraph",
-     "domain": "sourcegraph.com",
-     "first_funded": "2021-06-24",
-     "known_as": null
-    },
-    {
-     "id": "sprig.com",
-     "name": "Sprig",
-     "domain": "sprig.com",
-     "first_funded": "2021-05-03",
      "known_as": null
     },
     {
@@ -1844,20 +1844,6 @@
      "known_as": null
     },
     {
-     "id": "zushealth.com",
-     "name": "Zus Health",
-     "domain": "zushealth.com",
-     "first_funded": "2021-06-16",
-     "known_as": null
-    },
-    {
-     "id": "aktisoncology.com",
-     "name": "Aktis Oncology",
-     "domain": "aktisoncology.com",
-     "first_funded": "2026-01-09",
-     "known_as": null
-    },
-    {
      "id": "alleviatehealth.care",
      "name": "Alleviate Health",
      "domain": "alleviatehealth.care",
@@ -1879,10 +1865,10 @@
      "known_as": "Asimov"
     },
     {
-     "id": "blackore.ai",
-     "name": "Black Ore Technologies",
-     "domain": "blackore.ai",
-     "first_funded": "2022-01-13",
+     "id": "bastion.com",
+     "name": "Bastion",
+     "domain": "bastion.com",
+     "first_funded": "",
      "known_as": null
     },
     {
@@ -1893,13 +1879,6 @@
      "known_as": null
     },
     {
-     "id": "compound.finance",
-     "name": "Compound",
-     "domain": "compound.finance",
-     "first_funded": "2018-04-06",
-     "known_as": null
-    },
-    {
      "id": "concourse.co",
      "name": "Concourse",
      "domain": "concourse.co",
@@ -1907,24 +1886,17 @@
      "known_as": null
     },
     {
-     "id": "hilberts.ai",
-     "name": "Hilbert",
-     "domain": "hilberts.ai",
-     "first_funded": "2026-04-15",
+     "id": "tryglimpse.com",
+     "name": "Glimpse",
+     "domain": "tryglimpse.com",
+     "first_funded": "2026-03-25",
      "known_as": null
     },
     {
-     "id": "inductive.bio",
-     "name": "Inductive Bio",
-     "domain": "inductive.bio",
-     "first_funded": "2022-03-14",
-     "known_as": null
-    },
-    {
-     "id": "knownwell.co",
-     "name": "Knownwell",
-     "domain": "knownwell.co",
-     "first_funded": "2023-12-04",
+     "id": "keycard.ai",
+     "name": "Keycard",
+     "domain": "keycard.ai",
+     "first_funded": "2024-12-20",
      "known_as": null
     },
     {
@@ -1949,6 +1921,13 @@
      "known_as": null
     },
     {
+     "id": "motherduck.com",
+     "name": "Motherduck",
+     "domain": "motherduck.com",
+     "first_funded": "2022-08-23",
+     "known_as": null
+    },
+    {
      "id": "palmstreet.app",
      "name": "Palmstreet",
      "domain": "palmstreet.app",
@@ -1956,24 +1935,10 @@
      "known_as": null
     },
     {
-     "id": "podiumautomation.com",
-     "name": "Podium Automation",
-     "domain": "podiumautomation.com",
-     "first_funded": "2025-02-14",
-     "known_as": "Podium Automation"
-    },
-    {
      "id": "propel.app",
      "name": "Propel",
      "domain": "propel.app",
      "first_funded": "2017-04-25",
-     "known_as": null
-    },
-    {
-     "id": "setpoint.io",
-     "name": "Setpoint.io",
-     "domain": "setpoint.io",
-     "first_funded": "2022-11-23",
      "known_as": null
     },
     {
@@ -1991,10 +1956,31 @@
      "known_as": null
     },
     {
+     "id": "sourcegraph.com",
+     "name": "Sourcegraph",
+     "domain": "sourcegraph.com",
+     "first_funded": "2021-06-24",
+     "known_as": null
+    },
+    {
      "id": "bettermoney.com",
      "name": "The Better Money Company",
      "domain": "bettermoney.com",
      "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "vals.ai",
+     "name": "Vals AI",
+     "domain": "vals.ai",
+     "first_funded": "2026-08-13",
+     "known_as": null
+    },
+    {
+     "id": "vantage.sh",
+     "name": "Vantage",
+     "domain": "vantage.sh",
+     "first_funded": "2021-05-21",
      "known_as": null
     },
     {
@@ -2012,6 +1998,13 @@
      "known_as": null
     },
     {
+     "id": "backstory.ai",
+     "name": "Backstory",
+     "domain": "backstory.ai",
+     "first_funded": "2018-04-20",
+     "known_as": null
+    },
+    {
      "id": "usebounce.com",
      "name": "Bounce",
      "domain": "usebounce.com",
@@ -2023,6 +2016,13 @@
      "name": "ConductorAI",
      "domain": "conductorai.co",
      "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "inductive.bio",
+     "name": "Inductive Bio",
+     "domain": "inductive.bio",
+     "first_funded": "2022-03-14",
      "known_as": null
     },
     {
@@ -2040,17 +2040,10 @@
      "known_as": null
     },
     {
-     "id": "withodyssey.com",
-     "name": "Odyssey",
-     "domain": "withodyssey.com",
-     "first_funded": "2022-06-15",
-     "known_as": null
-    },
-    {
-     "id": "offerup.com",
-     "name": "OfferUp",
-     "domain": "offerup.com",
-     "first_funded": "2014-06-16",
+     "id": "pearlhealth.com",
+     "name": "Pearl Health",
+     "domain": "pearlhealth.com",
+     "first_funded": "2021-06-29",
      "known_as": null
     },
     {
@@ -2068,24 +2061,24 @@
      "known_as": null
     },
     {
+     "id": "podiumautomation.com",
+     "name": "Podium Automation",
+     "domain": "podiumautomation.com",
+     "first_funded": "2025-02-14",
+     "known_as": "Podium Automation"
+    },
+    {
+     "id": "preferencemodel.com",
+     "name": "Preference Model",
+     "domain": "preferencemodel.com",
+     "first_funded": "2026-10-07",
+     "known_as": null
+    },
+    {
      "id": "skymavis.com",
      "name": "Sky Mavis",
      "domain": "skymavis.com",
      "first_funded": "2021-09-04",
-     "known_as": null
-    },
-    {
-     "id": "spruceid.com",
-     "name": "Spruce Systems",
-     "domain": "spruceid.com",
-     "first_funded": "2022-02-25",
-     "known_as": null
-    },
-    {
-     "id": "supersonik.ai",
-     "name": "Supersonik",
-     "domain": "supersonik.ai",
-     "first_funded": "2025-02-27",
      "known_as": null
     },
     {
@@ -2096,10 +2089,10 @@
      "known_as": "Toka"
     },
     {
-     "id": "uniswap.org",
-     "name": "Uniswap",
-     "domain": "uniswap.org",
-     "first_funded": "2020-06-05",
+     "id": "veefriends.com",
+     "name": "VeeFriends",
+     "domain": "veefriends.com",
+     "first_funded": "2022-04-15",
      "known_as": null
     },
     {
@@ -2124,17 +2117,17 @@
      "known_as": "Aleph Surgical"
     },
     {
-     "id": "backstory.ai",
-     "name": "Backstory",
-     "domain": "backstory.ai",
-     "first_funded": "2018-04-20",
-     "known_as": null
-    },
-    {
      "id": "pryzm.io",
      "name": "Belisar",
      "domain": "pryzm.io",
      "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "blackore.ai",
+     "name": "Black Ore Technologies",
+     "domain": "blackore.ai",
+     "first_funded": "2022-01-13",
      "known_as": null
     },
     {
@@ -2150,6 +2143,13 @@
      "domain": "cx2.com",
      "first_funded": "2024-07-09",
      "known_as": "CX2 Industries"
+    },
+    {
+     "id": "compound.finance",
+     "name": "Compound",
+     "domain": "compound.finance",
+     "first_funded": "2018-04-06",
+     "known_as": null
     },
     {
      "id": "dapperlabs.com",
@@ -2194,6 +2194,20 @@
      "known_as": null
     },
     {
+     "id": "knownwell.co",
+     "name": "Knownwell",
+     "domain": "knownwell.co",
+     "first_funded": "2023-12-04",
+     "known_as": null
+    },
+    {
+     "id": "material.security",
+     "name": "Material Security",
+     "domain": "material.security",
+     "first_funded": "2018-08-20",
+     "known_as": "MATERIAL"
+    },
+    {
      "id": "modernfi.com",
      "name": "ModernFi",
      "domain": "modernfi.com",
@@ -2208,10 +2222,24 @@
      "known_as": null
     },
     {
+     "id": "withodyssey.com",
+     "name": "Odyssey",
+     "domain": "withodyssey.com",
+     "first_funded": "2022-06-15",
+     "known_as": null
+    },
+    {
      "id": "patch.io",
      "name": "Patch",
      "domain": "patch.io",
      "first_funded": "2020-12-18",
+     "known_as": null
+    },
+    {
+     "id": "payrails.com",
+     "name": "Payrails",
+     "domain": "payrails.com",
+     "first_funded": "2021-11-09",
      "known_as": null
     },
     {
@@ -2229,6 +2257,34 @@
      "known_as": null
     },
     {
+     "id": "slingshot.xyz",
+     "name": "Slingshot AI",
+     "domain": "slingshot.xyz",
+     "first_funded": "2024-07-23",
+     "known_as": "Slingshot Aerospace"
+    },
+    {
+     "id": "sprig.com",
+     "name": "Sprig",
+     "domain": "sprig.com",
+     "first_funded": "2021-05-03",
+     "known_as": null
+    },
+    {
+     "id": "spruceid.com",
+     "name": "Spruce Systems",
+     "domain": "spruceid.com",
+     "first_funded": "2022-02-25",
+     "known_as": null
+    },
+    {
+     "id": "supersonik.ai",
+     "name": "Supersonik",
+     "domain": "supersonik.ai",
+     "first_funded": "2025-02-27",
+     "known_as": null
+    },
+    {
      "id": "treeline.ai",
      "name": "Treeline",
      "domain": "treeline.ai",
@@ -2243,31 +2299,17 @@
      "known_as": null
     },
     {
-     "id": "vantage.sh",
-     "name": "Vantage",
-     "domain": "vantage.sh",
-     "first_funded": "2021-05-21",
-     "known_as": null
-    },
-    {
-     "id": "veefriends.com",
-     "name": "VeeFriends",
-     "domain": "veefriends.com",
-     "first_funded": "2022-04-15",
-     "known_as": null
-    },
-    {
-     "id": "voldex.com",
-     "name": "Voldex",
-     "domain": "voldex.com",
-     "first_funded": "2022-05-12",
-     "known_as": null
-    },
-    {
      "id": "workboard.com",
      "name": "WorkBoard",
      "domain": "workboard.com",
      "first_funded": "2019-12-18",
+     "known_as": null
+    },
+    {
+     "id": "gooddata.ai",
+     "name": "gooddata.ai",
+     "domain": "gooddata.ai",
+     "first_funded": "2009-10-07",
      "known_as": null
     },
     {
@@ -2282,6 +2324,13 @@
      "name": "Blackbird.xyz",
      "domain": "blackbird.xyz",
      "first_funded": "2023-10-04",
+     "known_as": null
+    },
+    {
+     "id": "ccpgames.com",
+     "name": "CCP",
+     "domain": "ccpgames.com",
+     "first_funded": "",
      "known_as": null
     },
     {
@@ -2327,6 +2376,13 @@
      "known_as": null
     },
     {
+     "id": "eveonline.com",
+     "name": "Fenris Games",
+     "domain": "eveonline.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "flockhomes.com",
      "name": "Flock Homes",
      "domain": "flockhomes.com",
@@ -2362,10 +2418,24 @@
      "known_as": null
     },
     {
+     "id": "highstock.com",
+     "name": "Highstock",
+     "domain": "highstock.com",
+     "first_funded": "2026-09-10",
+     "known_as": null
+    },
+    {
      "id": "hipcamp.com",
      "name": "Hipcamp",
      "domain": "hipcamp.com",
      "first_funded": "2019-07-02",
+     "known_as": null
+    },
+    {
+     "id": "ideogram.ai",
+     "name": "Ideogram",
+     "domain": "ideogram.ai",
+     "first_funded": "2023-01-27",
      "known_as": null
     },
     {
@@ -2383,10 +2453,10 @@
      "known_as": null
     },
     {
-     "id": "keycard.ai",
-     "name": "Keycard",
-     "domain": "keycard.ai",
-     "first_funded": "2024-12-20",
+     "id": "kavak.com",
+     "name": "Kavak",
+     "domain": "kavak.com",
+     "first_funded": "2026-02-17",
      "known_as": null
     },
     {
@@ -2411,20 +2481,6 @@
      "known_as": null
     },
     {
-     "id": "material.security",
-     "name": "Material Security",
-     "domain": "material.security",
-     "first_funded": "2018-08-20",
-     "known_as": "MATERIAL"
-    },
-    {
-     "id": "matter-labs.io",
-     "name": "Matter Labs",
-     "domain": "matter-labs.io",
-     "first_funded": "2021-09-20",
-     "known_as": null
-    },
-    {
      "id": "merit.systems",
      "name": "Merit Systems",
      "domain": "merit.systems",
@@ -2432,24 +2488,10 @@
      "known_as": null
     },
     {
-     "id": "netlify.com",
-     "name": "Netlify",
-     "domain": "netlify.com",
-     "first_funded": "2017-06-14",
-     "known_as": null
-    },
-    {
-     "id": "pearlhealth.com",
-     "name": "Pearl Health",
-     "domain": "pearlhealth.com",
-     "first_funded": "2021-06-29",
-     "known_as": null
-    },
-    {
-     "id": "preferencemodel.com",
-     "name": "Preference Model",
-     "domain": "preferencemodel.com",
-     "first_funded": "2026-10-07",
+     "id": "offerup.com",
+     "name": "OfferUp",
+     "domain": "offerup.com",
+     "first_funded": "2014-06-16",
      "known_as": null
     },
     {
@@ -2460,13 +2502,6 @@
      "known_as": null
     },
     {
-     "id": "proof.xyz",
-     "name": "Proof Holdings",
-     "domain": "proof.xyz",
-     "first_funded": "2022-06-17",
-     "known_as": null
-    },
-    {
      "id": "rademploy.com",
      "name": "RadEmploy",
      "domain": "rademploy.com",
@@ -2474,10 +2509,17 @@
      "known_as": null
     },
     {
-     "id": "rasa.com",
-     "name": "Rasa",
-     "domain": "rasa.com",
-     "first_funded": "2020-06-08",
+     "id": "reface.ai",
+     "name": "Reface",
+     "domain": "reface.ai",
+     "first_funded": "2020-12-02",
+     "known_as": null
+    },
+    {
+     "id": "rezotx.com",
+     "name": "Rezo Therapeutics",
+     "domain": "rezotx.com",
+     "first_funded": "2022-07-21",
      "known_as": null
     },
     {
@@ -2488,25 +2530,11 @@
      "known_as": null
     },
     {
-     "id": "sharpperformance.com",
-     "name": "Sharp Performance",
-     "domain": "sharpperformance.com",
-     "first_funded": "2025-05-01",
-     "known_as": null
-    },
-    {
      "id": "shef.com",
      "name": "Shef",
      "domain": "shef.com",
      "first_funded": "2020-11-25",
      "known_as": null
-    },
-    {
-     "id": "slingshot.xyz",
-     "name": "Slingshot AI",
-     "domain": "slingshot.xyz",
-     "first_funded": "2024-07-23",
-     "known_as": "Slingshot Aerospace"
     },
     {
      "id": "topkey.io",
@@ -2530,17 +2558,17 @@
      "known_as": null
     },
     {
-     "id": "gooddata.ai",
-     "name": "gooddata.ai",
-     "domain": "gooddata.ai",
-     "first_funded": "2009-10-07",
-     "known_as": null
-    },
-    {
      "id": "angle.money",
      "name": "Angle",
      "domain": "angle.money",
      "first_funded": "2021-08-23",
+     "known_as": null
+    },
+    {
+     "id": "rxcure.com",
+     "name": "Aradigm",
+     "domain": "rxcure.com",
+     "first_funded": "",
      "known_as": null
     },
     {
@@ -2558,6 +2586,13 @@
      "known_as": null
     },
     {
+     "id": "belonghome.com",
+     "name": "Belong",
+     "domain": "belonghome.com",
+     "first_funded": "2018-05-04",
+     "known_as": null
+    },
+    {
      "id": "bioagelabs.com",
      "name": "BioAge Labs",
      "domain": "bioagelabs.com",
@@ -2572,13 +2607,6 @@
      "known_as": null
     },
     {
-     "id": "ccpgames.com",
-     "name": "CCP",
-     "domain": "ccpgames.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
      "id": "runway.cfo.ai",
      "name": "CFO.ai",
      "domain": "runway.cfo.ai",
@@ -2590,13 +2618,6 @@
      "name": "Camp4",
      "domain": "camp4tx.com",
      "first_funded": "2018-04-20",
-     "known_as": null
-    },
-    {
-     "id": "clubhouse.com",
-     "name": "Clubhouse",
-     "domain": "clubhouse.com",
-     "first_funded": "2020-06-01",
      "known_as": null
     },
     {
@@ -2621,10 +2642,10 @@
      "known_as": null
     },
     {
-     "id": "eveonline.com",
-     "name": "Fenris Games",
-     "domain": "eveonline.com",
-     "first_funded": "",
+     "id": "ferry.health",
+     "name": "Ferry Health",
+     "domain": "ferry.health",
+     "first_funded": "2026-09-16",
      "known_as": null
     },
     {
@@ -2640,20 +2661,6 @@
      "domain": "galadyne.io",
      "first_funded": "2026-02-03",
      "known_as": "Galadyne"
-    },
-    {
-     "id": "highstock.com",
-     "name": "Highstock",
-     "domain": "highstock.com",
-     "first_funded": "2026-09-10",
-     "known_as": null
-    },
-    {
-     "id": "ideogram.ai",
-     "name": "Ideogram",
-     "domain": "ideogram.ai",
-     "first_funded": "2023-01-27",
-     "known_as": null
     },
     {
      "id": "jito.network",
@@ -2677,6 +2684,13 @@
      "known_as": null
     },
     {
+     "id": "matter-labs.io",
+     "name": "Matter Labs",
+     "domain": "matter-labs.io",
+     "first_funded": "2021-09-20",
+     "known_as": null
+    },
+    {
      "id": "maven.com",
      "name": "Maven",
      "domain": "maven.com",
@@ -2691,13 +2705,6 @@
      "known_as": null
     },
     {
-     "id": "motherduck.com",
-     "name": "Motherduck",
-     "domain": "motherduck.com",
-     "first_funded": "2022-08-23",
-     "known_as": null
-    },
-    {
      "id": "nx.app",
      "name": "NX",
      "domain": "nx.app",
@@ -2705,10 +2712,31 @@
      "known_as": null
     },
     {
+     "id": "netlify.com",
+     "name": "Netlify",
+     "domain": "netlify.com",
+     "first_funded": "2017-06-14",
+     "known_as": null
+    },
+    {
      "id": "orchestra.bio",
      "name": "Orchestra Bio",
      "domain": "orchestra.bio",
      "first_funded": "2022-12-09",
+     "known_as": null
+    },
+    {
+     "id": "proof.xyz",
+     "name": "Proof Holdings",
+     "domain": "proof.xyz",
+     "first_funded": "2022-06-17",
+     "known_as": null
+    },
+    {
+     "id": "rasa.com",
+     "name": "Rasa",
+     "domain": "rasa.com",
+     "first_funded": "2020-06-08",
      "known_as": null
     },
     {
@@ -2740,6 +2768,13 @@
      "known_as": null
     },
     {
+     "id": "svix.com",
+     "name": "Svix",
+     "domain": "svix.com",
+     "first_funded": "2022-10-27",
+     "known_as": null
+    },
+    {
      "id": "upsmith.com",
      "name": "UpSmith",
      "domain": "upsmith.com",
@@ -2765,13 +2800,6 @@
      "name": "Alpha-9 Oncology",
      "domain": "a9oncology.com",
      "first_funded": "2024-10-01",
-     "known_as": null
-    },
-    {
-     "id": "believer.gg",
-     "name": "Believer",
-     "domain": "believer.gg",
-     "first_funded": "2022-11-07",
      "known_as": null
     },
     {
@@ -2831,24 +2859,17 @@
      "known_as": "Diode"
     },
     {
-     "id": "ferry.health",
-     "name": "Ferry Health",
-     "domain": "ferry.health",
-     "first_funded": "2026-09-16",
-     "known_as": null
-    },
-    {
-     "id": "filmhub.com",
-     "name": "Filmhub",
-     "domain": "filmhub.com",
-     "first_funded": "2021-11-12",
-     "known_as": null
-    },
-    {
      "id": "gensyn.ai",
      "name": "Gensyn",
      "domain": "gensyn.ai",
      "first_funded": "2023-06-11",
+     "known_as": null
+    },
+    {
+     "id": "inngest.com",
+     "name": "Inngest",
+     "domain": "inngest.com",
+     "first_funded": "2023-12-18",
      "known_as": null
     },
     {
@@ -2894,24 +2915,10 @@
      "known_as": null
     },
     {
-     "id": "payrails.com",
-     "name": "Payrails",
-     "domain": "payrails.com",
-     "first_funded": "2021-11-09",
-     "known_as": null
-    },
-    {
      "id": "pimlico.io",
      "name": "Pimlico",
      "domain": "pimlico.io",
      "first_funded": "2023-11-07",
-     "known_as": null
-    },
-    {
-     "id": "reface.ai",
-     "name": "Reface",
-     "domain": "reface.ai",
-     "first_funded": "2020-12-02",
      "known_as": null
     },
     {
@@ -2926,13 +2933,6 @@
      "name": "Replay",
      "domain": "replay.io",
      "first_funded": "2021-06-07",
-     "known_as": null
-    },
-    {
-     "id": "rezotx.com",
-     "name": "Rezo Therapeutics",
-     "domain": "rezotx.com",
-     "first_funded": "2022-07-21",
      "known_as": null
     },
     {
@@ -2964,10 +2964,10 @@
      "known_as": null
     },
     {
-     "id": "svix.com",
-     "name": "Svix",
-     "domain": "svix.com",
-     "first_funded": "2022-10-27",
+     "id": "stackerhq.com",
+     "name": "Stacker",
+     "domain": "stackerhq.com",
+     "first_funded": "",
      "known_as": null
     },
     {
@@ -2992,6 +2992,13 @@
      "known_as": null
     },
     {
+     "id": "voldex.com",
+     "name": "Voldex",
+     "domain": "voldex.com",
+     "first_funded": "2022-05-12",
+     "known_as": null
+    },
+    {
      "id": "aleo.org",
      "name": "Aleo",
      "domain": "aleo.org",
@@ -3003,13 +3010,6 @@
      "name": "AnyRoad",
      "domain": "anyroad.com",
      "first_funded": "2019-04-22",
-     "known_as": null
-    },
-    {
-     "id": "rxcure.com",
-     "name": "Aradigm",
-     "domain": "rxcure.com",
-     "first_funded": "",
      "known_as": null
     },
     {
@@ -3048,10 +3048,10 @@
      "known_as": null
     },
     {
-     "id": "belonghome.com",
-     "name": "Belong",
-     "domain": "belonghome.com",
-     "first_funded": "2018-05-04",
+     "id": "believer.gg",
+     "name": "Believer",
+     "domain": "believer.gg",
+     "first_funded": "2022-11-07",
      "known_as": null
     },
     {
@@ -3073,6 +3073,13 @@
      "name": "Capitolis",
      "domain": "capitolis.com",
      "first_funded": "2021-02-17",
+     "known_as": null
+    },
+    {
+     "id": "clubhouse.com",
+     "name": "Clubhouse",
+     "domain": "clubhouse.com",
+     "first_funded": "2020-06-01",
      "known_as": null
     },
     {
@@ -3111,6 +3118,13 @@
      "known_as": null
     },
     {
+     "id": "filmhub.com",
+     "name": "Filmhub",
+     "domain": "filmhub.com",
+     "first_funded": "2021-11-12",
+     "known_as": null
+    },
+    {
      "id": "flashhoops.com",
      "name": "Flash Hoops",
      "domain": "flashhoops.com",
@@ -3139,13 +3153,6 @@
      "known_as": null
     },
     {
-     "id": "halliday.xyz",
-     "name": "Halliday",
-     "domain": "halliday.xyz",
-     "first_funded": "2022-05-11",
-     "known_as": null
-    },
-    {
      "id": "iyk.app",
      "name": "IYK",
      "domain": "iyk.app",
@@ -3157,13 +3164,6 @@
      "name": "Incredible Health",
      "domain": "incrediblehealth.com",
      "first_funded": "2019-07-03",
-     "known_as": null
-    },
-    {
-     "id": "inngest.com",
-     "name": "Inngest",
-     "domain": "inngest.com",
-     "first_funded": "2023-12-18",
      "known_as": null
     },
     {
@@ -3219,7 +3219,7 @@
      "id": "matik.io",
      "name": "Matik",
      "domain": "matik.io",
-     "first_funded": "2021-08-09",
+     "first_funded": "",
      "known_as": null
     },
     {
@@ -3241,13 +3241,6 @@
      "name": "Mythical Games",
      "domain": "mythicalgames.com",
      "first_funded": "2021-10-27",
-     "known_as": null
-    },
-    {
-     "id": "nansen.ai",
-     "name": "Nansen",
-     "domain": "nansen.ai",
-     "first_funded": "2021-06-23",
      "known_as": null
     },
     {
@@ -3276,13 +3269,6 @@
      "name": "Scene Infrastructure Co",
      "domain": "sceneinfrastructure.com",
      "first_funded": "2024-11-15",
-     "known_as": null
-    },
-    {
-     "id": "stackerhq.com",
-     "name": "Stacker",
-     "domain": "stackerhq.com",
-     "first_funded": "",
      "known_as": null
     },
     {
@@ -3415,7 +3401,7 @@
      "id": "beeps.dev",
      "name": "Beeps",
      "domain": "beeps.dev",
-     "first_funded": "2023-06-13",
+     "first_funded": "",
      "known_as": null
     },
     {
@@ -3811,6 +3797,13 @@
      "known_as": null
     },
     {
+     "id": "halliday.xyz",
+     "name": "Halliday",
+     "domain": "halliday.xyz",
+     "first_funded": "2022-05-11",
+     "known_as": null
+    },
+    {
      "id": "hntlabs.com",
      "name": "Here Not There, Inc.",
      "domain": "hntlabs.com",
@@ -3818,10 +3811,17 @@
      "known_as": null
     },
     {
+     "id": "hilberts.ai",
+     "name": "Hilbert",
+     "domain": "hilberts.ai",
+     "first_funded": "2026-04-15",
+     "known_as": null
+    },
+    {
      "id": "ifttt.com",
      "name": "IFTTT",
      "domain": "ifttt.com",
-     "first_funded": "2012-12-19",
+     "first_funded": "",
      "known_as": null
     },
     {
@@ -4081,6 +4081,13 @@
      "name": "NOD Games",
      "domain": "nodgames.com",
      "first_funded": "2021-11-18",
+     "known_as": null
+    },
+    {
+     "id": "nansen.ai",
+     "name": "Nansen",
+     "domain": "nansen.ai",
+     "first_funded": "2021-06-23",
      "known_as": null
     },
     {
@@ -4861,6 +4868,13 @@
      "known_as": null
     },
     {
+     "id": "circle.com",
+     "name": "Circle",
+     "domain": "circle.com",
+     "first_funded": "2026-10-22",
+     "known_as": null
+    },
+    {
      "id": "cowrie.io",
      "name": "Cowrie",
      "domain": "cowrie.io",
@@ -4893,20 +4907,6 @@
      "name": "Ornn",
      "domain": "ornn.com",
      "first_funded": "2026-10-22",
-     "known_as": null
-    },
-    {
-     "id": "armadin.com",
-     "name": "Armadin",
-     "domain": "armadin.com",
-     "first_funded": "2026-10-01",
-     "known_as": "Armadin"
-    },
-    {
-     "id": "foundrymgt.com",
-     "name": "Foundry Management",
-     "domain": "foundrymgt.com",
-     "first_funded": "2026-10-01",
      "known_as": null
     },
     {
@@ -5736,11 +5736,11 @@
      "known_as": null
     },
     {
-     "id": "spacex.com",
-     "name": "SpaceX",
-     "domain": "spacex.com",
+     "id": "x.ai",
+     "name": "SpaceXSI",
+     "domain": "x.ai",
      "first_funded": "2021-03-24",
-     "known_as": "SpaceX"
+     "known_as": null
     },
     {
      "id": "stackoverflowbusiness.com",
@@ -5911,13 +5911,6 @@
      "known_as": null
     },
     {
-     "id": "x.ai",
-     "name": "xAI",
-     "domain": "x.ai",
-     "first_funded": "2024-05-10",
-     "known_as": null
-    },
-    {
      "id": "zulily.com",
      "name": "Zulily",
      "domain": "zulily.com",
@@ -6000,6 +5993,13 @@
      "domain": "ardatx.com",
      "first_funded": "2021-12-17",
      "known_as": null
+    },
+    {
+     "id": "armadin.com",
+     "name": "Armadin",
+     "domain": "armadin.com",
+     "first_funded": "2026-10-01",
+     "known_as": "Armadin"
     },
     {
      "id": "bastion.io",
@@ -6205,18 +6205,18 @@
      "known_as": null
     },
     {
+     "id": "foundrymgt.com",
+     "name": "Foundry Management",
+     "domain": "foundrymgt.com",
+     "first_funded": "2026-10-01",
+     "known_as": null
+    },
+    {
      "id": "gc-tx.com",
      "name": "GC Therapeutics",
      "domain": "gc-tx.com",
      "first_funded": "2021-02-09",
      "known_as": null
-    },
-    {
-     "id": "genesis.ml",
-     "name": "Genesis Molecular AI",
-     "domain": "genesis.ml",
-     "first_funded": "2019-04-22",
-     "known_as": "Genesis Therapeutics"
     },
     {
      "id": "glorify.global",
@@ -6244,6 +6244,13 @@
      "name": "Harbor",
      "domain": "harbor.com",
      "first_funded": "2018-04-06",
+     "known_as": null
+    },
+    {
+     "id": "ifttt.ai",
+     "name": "IFTTT",
+     "domain": "ifttt.ai",
+     "first_funded": "2012-12-19",
      "known_as": null
     },
     {
@@ -6275,6 +6282,13 @@
      "known_as": null
     },
     {
+     "id": "lightfield.com",
+     "name": "Lightfield",
+     "domain": "lightfield.com",
+     "first_funded": "2026-09-09",
+     "known_as": null
+    },
+    {
      "id": "longitudelabs.com",
      "name": "Longitude Labs",
      "domain": "longitudelabs.com",
@@ -6293,6 +6307,13 @@
      "name": "Lumos",
      "domain": "lumos.com",
      "first_funded": "2020-11-25",
+     "known_as": null
+    },
+    {
+     "id": "matik.ai",
+     "name": "Matik",
+     "domain": "matik.ai",
+     "first_funded": "2021-08-09",
      "known_as": null
     },
     {
@@ -6391,6 +6412,13 @@
      "name": "Plaid",
      "domain": "plaid.com",
      "first_funded": "2018-12-03",
+     "known_as": null
+    },
+    {
+     "id": "problems.dev",
+     "name": "problems",
+     "domain": "problems.dev",
+     "first_funded": "2023-06-13",
      "known_as": null
     },
     {
@@ -6597,7 +6625,7 @@
    "kind": "wp_company",
    "note": "WordPress company feed with dates and founders",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 64,
    "tracked": 15,
    "overlap": 0.234,
@@ -7090,7 +7118,7 @@
    "kind": "sanity",
    "note": "Public Sanity dataset: websiteURL, foundedYear, founder",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 53,
    "tracked": 35,
    "overlap": 0.66,
@@ -7482,18 +7510,19 @@
    "kind": "getro",
    "note": "Getro job board (~375); fallback: Webflow cards with the site in a hidden anchor",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
-   "count": 376,
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+   "count": 378,
    "tracked": 38,
    "overlap": 0.101,
-   "new_this_run": 1,
+   "new_this_run": 2,
    "baseline": false,
    "new_names": [
-    "8VC"
+    "Hone",
+    "Minerva"
    ],
-   "candidates": 69,
+   "candidates": 70,
    "rejected_by_bar": {
-    "software or services wearing a hard-tech label": 102,
+    "software or services wearing a hard-tech label": 103,
     "description shows no physical product": 50,
     "the board's industry tags show no physical product": 106,
     "a co-investor, not a company": 8,
@@ -8621,6 +8650,13 @@
      "known_as": null
     },
     {
+     "id": "hone.com",
+     "name": "Hone",
+     "domain": "hone.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "joinhonor.com",
      "name": "Honor",
      "domain": "joinhonor.com",
@@ -8995,6 +9031,13 @@
      "id": "mindbridge.ai",
      "name": "MindBridge AI",
      "domain": "mindbridge.ai",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "minerva.io",
+     "name": "Minerva",
+     "domain": "minerva.io",
      "first_funded": "",
      "known_as": null
     },
@@ -10140,7 +10183,7 @@
    "kind": "getro",
    "note": "Getro job board (~189); fallback: 28 featured cards, names only",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 189,
    "tracked": 34,
    "overlap": 0.18,
@@ -11487,17 +11530,19 @@
    "kind": "getro",
    "note": "Getro job board (~50); fallback: homepage grid (13)",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
-   "count": 49,
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+   "count": 50,
    "tracked": 29,
-   "overlap": 0.592,
-   "new_this_run": 0,
+   "overlap": 0.58,
+   "new_this_run": 1,
    "baseline": false,
-   "new_names": [],
+   "new_names": [
+    "Garnet"
+   ],
    "candidates": 13,
    "rejected_by_bar": {
     "software or services wearing a hard-tech label": 3,
-    "the board's industry tags show no physical product": 1,
+    "the board's industry tags show no physical product": 2,
     "description shows no physical product": 3
    },
    "holdings": [
@@ -11647,6 +11692,13 @@
      "domain": "furno.com",
      "first_funded": "",
      "known_as": "Furno Materials"
+    },
+    {
+     "id": "garnet.ai",
+     "name": "Garnet",
+     "domain": "garnet.ai",
+     "first_funded": "",
+     "known_as": null
     },
     {
      "id": "glyphic.bio",
@@ -11852,7 +11904,7 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 28,
    "tracked": 15,
    "overlap": 0.536,
@@ -12081,7 +12133,7 @@
     "a co-investor, not a company": 11,
     "description shows no physical product": 1
    },
-   "error": "parsed 20 holdings (last run: 55); the page or feed has probably changed",
+   "error": "parsed 21 holdings (last run: 55); the page or feed has probably changed",
    "stale_since": "2026-10-19T14:57:48.866169+00:00"
   },
   "Pax Ventures": {
@@ -12090,7 +12142,7 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 26,
    "tracked": 19,
    "overlap": 0.731,
@@ -12292,7 +12344,7 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 29,
    "tracked": 18,
    "overlap": 0.621,
@@ -12515,7 +12567,7 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 46,
    "tracked": 19,
    "overlap": 0.413,
@@ -12859,14 +12911,16 @@
    "kind": "links",
    "note": "Space-only fund; ~100 companies",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
-   "count": 103,
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+   "count": 104,
    "tracked": 17,
-   "overlap": 0.165,
-   "new_this_run": 0,
+   "overlap": 0.163,
+   "new_this_run": 1,
    "baseline": false,
-   "new_names": [],
-   "candidates": 66,
+   "new_names": [
+    "MP Space"
+   ],
+   "candidates": 67,
    "rejected_by_bar": {
     "description shows no physical product": 15,
     "software or services wearing a hard-tech label": 4,
@@ -13308,6 +13362,13 @@
      "known_as": null
     },
     {
+     "id": "mpspace.io",
+     "name": "MP Space",
+     "domain": "mpspace.io",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "mutabletactics.ai",
      "name": "Mutable Tactics",
      "domain": "mutabletactics.ai",
@@ -13344,7 +13405,7 @@
     },
     {
      "id": "onlineoceans.com",
-     "name": "",
+     "name": "Online Oceans",
      "domain": "onlineoceans.com",
      "first_funded": "",
      "known_as": null
@@ -13602,7 +13663,7 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 24,
    "tracked": 17,
    "overlap": 0.708,
@@ -13788,17 +13849,21 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
-   "count": 27,
-   "tracked": 10,
-   "overlap": 0.37,
-   "new_this_run": 0,
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+   "count": 30,
+   "tracked": 11,
+   "overlap": 0.367,
+   "new_this_run": 3,
    "baseline": false,
-   "new_names": [],
-   "candidates": 11,
+   "new_names": [
+    "noetive.ai",
+    "plantedsolar.com",
+    "warp.xyz"
+   ],
+   "candidates": 12,
    "rejected_by_bar": {
     "software or services wearing a hard-tech label": 2,
-    "description shows no physical product": 4
+    "description shows no physical product": 5
    },
    "holdings": [
     {
@@ -13900,6 +13965,13 @@
      "known_as": null
     },
     {
+     "id": "noetive.ai",
+     "name": "",
+     "domain": "noetive.ai",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "nyquis.com",
      "name": "",
      "domain": "nyquis.com",
@@ -13919,6 +13991,13 @@
      "domain": "pasturebio.com",
      "first_funded": "",
      "known_as": null
+    },
+    {
+     "id": "plantedsolar.com",
+     "name": "",
+     "domain": "plantedsolar.com",
+     "first_funded": "",
+     "known_as": "Planted Solar"
     },
     {
      "id": "radiantnuclear.com",
@@ -13984,6 +14063,13 @@
      "known_as": null
     },
     {
+     "id": "warp.xyz",
+     "name": "",
+     "domain": "warp.xyz",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "xcimer.energy",
      "name": "",
      "domain": "xcimer.energy",
@@ -13998,17 +14084,17 @@
    "kind": "links",
    "note": "Page shows the first 15 only; the rest load on click",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 15,
-   "tracked": 2,
-   "overlap": 0.133,
+   "tracked": 4,
+   "overlap": 0.267,
    "new_this_run": 2,
    "baseline": false,
    "new_names": [
-    "Warhound",
-    "Watchtower Labs"
+    "Northwood Space",
+    "Proteus Space"
    ],
-   "candidates": 6,
+   "candidates": 4,
    "rejected_by_bar": {
     "description shows no physical product": 7
    },
@@ -14019,6 +14105,20 @@
      "domain": "warhound.com",
      "first_funded": "",
      "known_as": null
+    },
+    {
+     "id": "northwoodspace.io",
+     "name": "Northwood Space",
+     "domain": "northwoodspace.io",
+     "first_funded": "",
+     "known_as": "Northwood Space"
+    },
+    {
+     "id": "proteus-space.com",
+     "name": "Proteus Space",
+     "domain": "proteus-space.com",
+     "first_funded": "",
+     "known_as": "Proteus Space"
     },
     {
      "id": "watchtowerlabs.ai",
@@ -14103,20 +14203,6 @@
      "domain": "terasi.io",
      "first_funded": "",
      "known_as": null
-    },
-    {
-     "id": "atomictessellator.com",
-     "name": "Atomic Tessellator",
-     "domain": "atomictessellator.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "beilab.ai",
-     "name": "BEI",
-     "domain": "beilab.ai",
-     "first_funded": "",
-     "known_as": null
     }
    ]
   },
@@ -14126,7 +14212,7 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 14,
    "tracked": 4,
    "overlap": 0.286,
@@ -14245,7 +14331,7 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 1,
    "tracked": 0,
    "overlap": 0.0,
@@ -14270,7 +14356,7 @@
    "kind": "slugs",
    "note": "Subpage slugs only",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 60,
    "tracked": 18,
    "overlap": 0.3,
@@ -14710,7 +14796,7 @@
    "kind": "slugs",
    "note": "Subpage slugs only",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 8,
    "tracked": 3,
    "overlap": 0.375,
@@ -14784,7 +14870,7 @@
    "kind": "slugs",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 30,
    "tracked": 5,
    "overlap": 0.167,
@@ -15012,53 +15098,48 @@
    "kind": "getro",
    "note": "Getro job board (~400); fallback: portfolio page links",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
-   "count": 308,
-   "tracked": 40,
-   "overlap": 0.13,
-   "new_this_run": 34,
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+   "count": 330,
+   "tracked": 41,
+   "overlap": 0.124,
+   "new_this_run": 22,
    "baseline": false,
    "new_names": [
-    "3D Architech",
-    "Avant Health",
-    "Bild AI",
-    "Circadia Health",
-    "Credit Genie",
-    "Dili (Yc S23)",
-    "Drafter",
-    "Eden",
-    "Emergent",
-    "Eragon",
-    "Fastino",
-    "Field Ai",
-    "Foundry Robotics",
-    "Highlight",
-    "Industrial Next",
-    "Mach Industries",
-    "Magnus Medical",
-    "Mariana Minerals",
-    "Norm AI",
-    "Partcl",
-    "Performance Lab",
-    "Point One Navigation",
-    "Portola",
-    "Pramaana Labs",
-    "Profound",
-    "Radical Health Ai",
-    "Sabi Inc.",
-    "Sekai",
-    "Spellbook",
-    "Swarm Aero",
-    "Synthetic",
-    "Tacit",
-    "Tempo",
-    "WithCoverage"
+    "1Sharpe Capital",
+    "All Day Kitchens",
+    "Bunkerhill Health",
+    "castform.com",
+    "Excelsior Sciences",
+    "Happy Droid",
+    "HeartVista, inc.",
+    "Loti",
+    "minterm.ai",
+    "New Theory",
+    "Pathway",
+    "Prava\u0304h",
+    "prismml.com",
+    "Roam",
+    "Runlayer",
+    "Scaled Foundations",
+    "Serova",
+    "Shade Inc.",
+    "The Antifraud Company",
+    "True Short",
+    "tryripline.com",
+    "wajo.ai"
    ],
    "candidates": 0,
    "rejected_by_bar": {
-    "generalist fund: holdings only": 268
+    "generalist fund: holdings only": 289
    },
    "holdings": [
+    {
+     "id": "1sharpe.com",
+     "name": "1Sharpe Capital",
+     "domain": "1sharpe.com",
+     "first_funded": "",
+     "known_as": null
+    },
     {
      "id": "3d-architech.com",
      "name": "3D Architech",
@@ -15140,6 +15221,13 @@
      "id": "alivecor.com",
      "name": "AliveCor",
      "domain": "alivecor.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "alldaykitchens.com",
+     "name": "All Day Kitchens",
+     "domain": "alldaykitchens.com",
      "first_funded": "",
      "known_as": null
     },
@@ -15333,6 +15421,13 @@
      "known_as": null
     },
     {
+     "id": "bunkerhillhealth.com",
+     "name": "Bunkerhill Health",
+     "domain": "bunkerhillhealth.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "caelux.com",
      "name": "Caelux Corporation",
      "domain": "caelux.com",
@@ -15357,6 +15452,13 @@
      "id": "careswitch.com",
      "name": "Careswitch",
      "domain": "careswitch.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "castform.com",
+     "name": "castform.com",
+     "domain": "castform.com",
      "first_funded": "",
      "known_as": null
     },
@@ -15697,6 +15799,13 @@
      "known_as": null
     },
     {
+     "id": "excelsiorsci.com",
+     "name": "Excelsior Sciences",
+     "domain": "excelsiorsci.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "faire.com",
      "name": "Faire",
      "domain": "faire.com",
@@ -15865,9 +15974,23 @@
      "known_as": null
     },
     {
+     "id": "happydroid.ai",
+     "name": "Happy Droid",
+     "domain": "happydroid.ai",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "healthtap.com",
      "name": "HealthTap",
      "domain": "healthtap.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "vista.ai",
+     "name": "HeartVista, inc.",
+     "domain": "vista.ai",
      "first_funded": "",
      "known_as": null
     },
@@ -16145,6 +16268,13 @@
      "known_as": null
     },
     {
+     "id": "goloti.com",
+     "name": "Loti",
+     "domain": "goloti.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "loyalfordogs.com",
      "name": "Loyal",
      "domain": "loyalfordogs.com",
@@ -16236,6 +16366,13 @@
      "known_as": null
     },
     {
+     "id": "minterm.ai",
+     "name": "minterm.ai",
+     "domain": "minterm.ai",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "mirvie.com",
      "name": "Mirvie",
      "domain": "mirvie.com",
@@ -16274,6 +16411,13 @@
      "id": "neurotrack.com",
      "name": "Neurotrack",
      "domain": "neurotrack.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "newtheory.ai",
+     "name": "New Theory",
+     "domain": "newtheory.ai",
      "first_funded": "",
      "known_as": null
     },
@@ -16404,6 +16548,13 @@
      "known_as": null
     },
     {
+     "id": "workwithpathway.com",
+     "name": "Pathway",
+     "domain": "workwithpathway.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "pearlbio.com",
      "name": "Pearl Bio",
      "domain": "pearlbio.com",
@@ -16422,7 +16573,7 @@
      "name": "Performance Lab",
      "domain": "arda.ai",
      "first_funded": "",
-     "known_as": null
+     "known_as": "Arda"
     },
     {
      "id": "peripheral.so",
@@ -16488,6 +16639,13 @@
      "known_as": null
     },
     {
+     "id": "pravah.com",
+     "name": "Prava\u0304h",
+     "domain": "pravah.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "prellisbio.com",
      "name": "Prellis Biologics",
      "domain": "prellisbio.com",
@@ -16498,6 +16656,13 @@
      "id": "primer.com",
      "name": "Primer",
      "domain": "primer.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "prismml.com",
+     "name": "prismml.com",
+     "domain": "prismml.com",
      "first_funded": "",
      "known_as": null
     },
@@ -16677,6 +16842,13 @@
      "known_as": null
     },
     {
+     "id": "withroam.com",
+     "name": "Roam",
+     "domain": "withroam.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "rogo.ai",
      "name": "Rogo",
      "domain": "rogo.ai",
@@ -16701,6 +16873,13 @@
      "id": "rubedolife.com",
      "name": "Rubedo Life Sciences",
      "domain": "rubedolife.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "runlayer.com",
+     "name": "Runlayer",
+     "domain": "runlayer.com",
      "first_funded": "",
      "known_as": null
     },
@@ -16747,6 +16926,13 @@
      "known_as": null
     },
     {
+     "id": "generalrobotics.company",
+     "name": "Scaled Foundations",
+     "domain": "generalrobotics.company",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "sciphermedicine.com",
      "name": "Scipher Medicine",
      "domain": "sciphermedicine.com",
@@ -16761,9 +16947,23 @@
      "known_as": null
     },
     {
+     "id": "serova.bio",
+     "name": "Serova",
+     "domain": "serova.bio",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "sfox.com",
      "name": "SFOX",
      "domain": "sfox.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "shade.inc",
+     "name": "Shade Inc.",
+     "domain": "shade.inc",
      "first_funded": "",
      "known_as": null
     },
@@ -16950,18 +17150,18 @@
      "known_as": null
     },
     {
-     "id": "tempo.fit",
-     "name": "Tempo",
-     "domain": "tempo.fit",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
      "id": "tempoenergy.com",
      "name": "Tempo",
      "domain": "tempoenergy.com",
      "first_funded": "",
      "known_as": "Tempo"
+    },
+    {
+     "id": "tempo.fit",
+     "name": "Tempo",
+     "domain": "tempo.fit",
+     "first_funded": "",
+     "known_as": null
     },
     {
      "id": "terawatt-technology.com",
@@ -16974,6 +17174,13 @@
      "id": "terraai.com",
      "name": "Terra AI",
      "domain": "terraai.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "antifraudcompany.com",
+     "name": "The Antifraud Company",
+     "domain": "antifraudcompany.com",
      "first_funded": "",
      "known_as": null
     },
@@ -17013,9 +17220,23 @@
      "known_as": null
     },
     {
+     "id": "trueshort.com",
+     "name": "True Short",
+     "domain": "trueshort.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "trueaccord.com",
      "name": "TrueAccord",
      "domain": "trueaccord.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "tryripline.com",
+     "name": "tryripline.com",
+     "domain": "tryripline.com",
      "first_funded": "",
      "known_as": null
     },
@@ -17160,6 +17381,13 @@
      "known_as": "Waabi"
     },
     {
+     "id": "wajo.ai",
+     "name": "wajo.ai",
+     "domain": "wajo.ai",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "wave.com",
      "name": "Wave Mobile Money",
      "domain": "wave.com",
@@ -17223,7 +17451,7 @@
    "kind": "consider",
    "note": "Consider job board (~255 with domains); fallback: sitemap company pages, domain-only",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 256,
    "tracked": 12,
    "overlap": 0.047,
@@ -17250,16 +17478,16 @@
      "known_as": null
     },
     {
-     "id": "rippling.com",
-     "name": "Rippling",
-     "domain": "rippling.com",
+     "id": "harvey.ai",
+     "name": "Harvey",
+     "domain": "harvey.ai",
      "first_funded": "",
      "known_as": null
     },
     {
-     "id": "harvey.ai",
-     "name": "Harvey",
-     "domain": "harvey.ai",
+     "id": "rippling.com",
+     "name": "Rippling",
+     "domain": "rippling.com",
      "first_funded": "",
      "known_as": null
     },
@@ -17285,13 +17513,6 @@
      "known_as": null
     },
     {
-     "id": "graphcore.ai",
-     "name": "Graphcore",
-     "domain": "graphcore.ai",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
      "id": "sierra.ai",
      "name": "Sierra",
      "domain": "sierra.ai",
@@ -17299,9 +17520,9 @@
      "known_as": null
     },
     {
-     "id": "cohesity.com",
-     "name": "Cohesity",
-     "domain": "cohesity.com",
+     "id": "graphcore.ai",
+     "name": "Graphcore",
+     "domain": "graphcore.ai",
      "first_funded": "",
      "known_as": null
     },
@@ -17309,6 +17530,13 @@
      "id": "pennylane.tech",
      "name": "Pennylane",
      "domain": "pennylane.tech",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "cohesity.com",
+     "name": "Cohesity",
+     "domain": "cohesity.com",
      "first_funded": "",
      "known_as": null
     },
@@ -17325,13 +17553,6 @@
      "domain": "machindustries.com",
      "first_funded": "",
      "known_as": "Mach Industries"
-    },
-    {
-     "id": "grafana.com",
-     "name": "Grafana Labs",
-     "domain": "grafana.com",
-     "first_funded": "",
-     "known_as": null
     },
     {
      "id": "notion.so",
@@ -17362,9 +17583,30 @@
      "known_as": null
     },
     {
+     "id": "grafana.com",
+     "name": "Grafana Labs",
+     "domain": "grafana.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "wiz.io",
      "name": "Wiz",
      "domain": "wiz.io",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "rogo.com",
+     "name": "Rogo",
+     "domain": "rogo.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "langchain.com",
+     "name": "LangChain",
+     "domain": "langchain.com",
      "first_funded": "",
      "known_as": null
     },
@@ -17376,9 +17618,9 @@
      "known_as": null
     },
     {
-     "id": "langchain.com",
-     "name": "LangChain",
-     "domain": "langchain.com",
+     "id": "chainguard.dev",
+     "name": "Chainguard",
+     "domain": "chainguard.dev",
      "first_funded": "",
      "known_as": null
     },
@@ -17397,23 +17639,9 @@
      "known_as": null
     },
     {
-     "id": "remote.com",
-     "name": "Remote",
-     "domain": "remote.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "rogo.com",
-     "name": "Rogo",
-     "domain": "rogo.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "peregrine.io",
-     "name": "Peregrine",
-     "domain": "peregrine.io",
+     "id": "gong.io",
+     "name": "Gong",
+     "domain": "gong.io",
      "first_funded": "",
      "known_as": null
     },
@@ -17425,20 +17653,6 @@
      "known_as": null
     },
     {
-     "id": "chainguard.dev",
-     "name": "Chainguard",
-     "domain": "chainguard.dev",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "gong.io",
-     "name": "Gong",
-     "domain": "gong.io",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
      "id": "cresta.com",
      "name": "Cresta",
      "domain": "cresta.com",
@@ -17446,16 +17660,9 @@
      "known_as": null
     },
     {
-     "id": "vanta.com",
-     "name": "Vanta",
-     "domain": "vanta.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "cribl.io",
-     "name": "Cribl",
-     "domain": "cribl.io",
+     "id": "peregrine.io",
+     "name": "Peregrine",
+     "domain": "peregrine.io",
      "first_funded": "",
      "known_as": null
     },
@@ -17467,30 +17674,9 @@
      "known_as": null
     },
     {
-     "id": "mercury.com",
-     "name": "Mercury",
-     "domain": "mercury.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "faire.com",
-     "name": "Faire Wholesale, Inc.",
-     "domain": "faire.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "ethoslife.com",
-     "name": "Ethos Life",
-     "domain": "ethoslife.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "temporal.io",
-     "name": "Temporal Technologies",
-     "domain": "temporal.io",
+     "id": "vanta.com",
+     "name": "Vanta",
+     "domain": "vanta.com",
      "first_funded": "",
      "known_as": null
     },
@@ -17502,6 +17688,27 @@
      "known_as": null
     },
     {
+     "id": "mercury.com",
+     "name": "Mercury",
+     "domain": "mercury.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "temporal.io",
+     "name": "Temporal Technologies",
+     "domain": "temporal.io",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "cribl.io",
+     "name": "Cribl",
+     "domain": "cribl.io",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "upway.shop",
      "name": "Upway",
      "domain": "upway.shop",
@@ -17509,9 +17716,30 @@
      "known_as": null
     },
     {
+     "id": "ethoslife.com",
+     "name": "Ethos Life",
+     "domain": "ethoslife.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "faire.com",
+     "name": "Faire Wholesale, Inc.",
+     "domain": "faire.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "citadelsecurities.com",
      "name": "Citadel Securities",
      "domain": "citadelsecurities.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "remote.com",
+     "name": "Remote",
+     "domain": "remote.com",
      "first_funded": "",
      "known_as": null
     },
@@ -17530,13 +17758,6 @@
      "known_as": null
     },
     {
-     "id": "mecka.ai",
-     "name": "Mecka AI",
-     "domain": "mecka.ai",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
      "id": "apollo.io",
      "name": "Apollo",
      "domain": "apollo.io",
@@ -17544,23 +17765,9 @@
      "known_as": null
     },
     {
-     "id": "thumbtack.com",
-     "name": "Thumbtack",
-     "domain": "thumbtack.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "kalshi.com",
-     "name": "Kalshi",
-     "domain": "kalshi.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "alkira.com",
-     "name": "Alkira",
-     "domain": "alkira.com",
+     "id": "mecka.ai",
+     "name": "Mecka AI",
+     "domain": "mecka.ai",
      "first_funded": "",
      "known_as": null
     },
@@ -17579,6 +17786,34 @@
      "known_as": null
     },
     {
+     "id": "alkira.com",
+     "name": "Alkira",
+     "domain": "alkira.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "skai.io",
+     "name": "Skai",
+     "domain": "skai.io",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "rox.com",
+     "name": "Rox",
+     "domain": "rox.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "rappi.com",
+     "name": "Rappi",
+     "domain": "rappi.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "watershed.com",
      "name": "Watershed",
      "domain": "watershed.com",
@@ -17586,9 +17821,9 @@
      "known_as": null
     },
     {
-     "id": "clipboardhealth.com",
-     "name": "Clipboard Health",
-     "domain": "clipboardhealth.com",
+     "id": "thumbtack.com",
+     "name": "Thumbtack",
+     "domain": "thumbtack.com",
      "first_funded": "",
      "known_as": null
     },
@@ -17607,6 +17842,20 @@
      "known_as": null
     },
     {
+     "id": "flowengineering.com",
+     "name": "Flow Engineering",
+     "domain": "flowengineering.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "clipboardhealth.com",
+     "name": "Clipboard Health",
+     "domain": "clipboardhealth.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "ridezum.com",
      "name": "Z\u016bm",
      "domain": "ridezum.com",
@@ -17614,9 +17863,16 @@
      "known_as": null
     },
     {
-     "id": "rox.com",
-     "name": "Rox",
-     "domain": "rox.com",
+     "id": "arqfinance.com",
+     "name": "ARQ",
+     "domain": "arqfinance.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "kalshi.com",
+     "name": "Kalshi",
+     "domain": "kalshi.com",
      "first_funded": "",
      "known_as": null
     },
@@ -17624,20 +17880,6 @@
      "id": "eon.io",
      "name": "Eon.io",
      "domain": "eon.io",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "linear.app",
-     "name": "Linear",
-     "domain": "linear.app",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "flowengineering.com",
-     "name": "Flow Engineering",
-     "domain": "flowengineering.com",
      "first_funded": "",
      "known_as": null
     },
@@ -17656,30 +17898,9 @@
      "known_as": "RobCo"
     },
     {
-     "id": "mavenclinic.com",
-     "name": "Maven Clinic",
-     "domain": "mavenclinic.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "listenlabs.ai",
-     "name": "Listen Labs",
-     "domain": "listenlabs.ai",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "ironcladapp.com",
-     "name": "Ironclad",
-     "domain": "ironcladapp.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "arqfinance.com",
-     "name": "ARQ",
-     "domain": "arqfinance.com",
+     "id": "dust.tt",
+     "name": "Dust",
+     "domain": "dust.tt",
      "first_funded": "",
      "known_as": null
     },
@@ -17691,16 +17912,30 @@
      "known_as": null
     },
     {
-     "id": "iambic.ai",
-     "name": "Iambic Therapeutics",
-     "domain": "iambic.ai",
+     "id": "listenlabs.ai",
+     "name": "Listen Labs",
+     "domain": "listenlabs.ai",
      "first_funded": "",
-     "known_as": "Iambic Therapeutics"
+     "known_as": null
+    },
+    {
+     "id": "linear.app",
+     "name": "Linear",
+     "domain": "linear.app",
+     "first_funded": "",
+     "known_as": null
     },
     {
      "id": "attentive.com",
      "name": "Attentive Mobile",
      "domain": "attentive.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "mavenclinic.com",
+     "name": "Maven Clinic",
+     "domain": "mavenclinic.com",
      "first_funded": "",
      "known_as": null
     },
@@ -17712,6 +17947,13 @@
      "known_as": null
     },
     {
+     "id": "iambic.ai",
+     "name": "Iambic Therapeutics",
+     "domain": "iambic.ai",
+     "first_funded": "",
+     "known_as": "Iambic Therapeutics"
+    },
+    {
      "id": "strava.com",
      "name": "Strava",
      "domain": "strava.com",
@@ -17719,37 +17961,9 @@
      "known_as": null
     },
     {
-     "id": "rappi.com",
-     "name": "Rappi",
-     "domain": "rappi.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "fireblocks.com",
-     "name": "Fireblocks",
-     "domain": "fireblocks.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "sesame.com",
-     "name": "Sesame",
-     "domain": "sesame.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "getenter.ai",
-     "name": "Enter",
-     "domain": "getenter.ai",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "skai.io",
-     "name": "Skai",
-     "domain": "skai.io",
+     "id": "ironcladapp.com",
+     "name": "Ironclad",
+     "domain": "ironcladapp.com",
      "first_funded": "",
      "known_as": null
     },
@@ -17761,16 +17975,16 @@
      "known_as": null
     },
     {
-     "id": "dust.tt",
-     "name": "Dust",
-     "domain": "dust.tt",
+     "id": "fireblocks.com",
+     "name": "Fireblocks",
+     "domain": "fireblocks.com",
      "first_funded": "",
      "known_as": null
     },
     {
-     "id": "tacto.ai",
-     "name": "Tacto",
-     "domain": "tacto.ai",
+     "id": "getenter.ai",
+     "name": "Enter",
+     "domain": "getenter.ai",
      "first_funded": "",
      "known_as": null
     },
@@ -17782,6 +17996,13 @@
      "known_as": null
     },
     {
+     "id": "lilt.com",
+     "name": "Lilt",
+     "domain": "lilt.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "captivateiq.com",
      "name": "CaptivateIQ",
      "domain": "captivateiq.com",
@@ -17789,16 +18010,16 @@
      "known_as": null
     },
     {
-     "id": "reflectorbital.com",
-     "name": "Reflect Orbital",
-     "domain": "reflectorbital.com",
+     "id": "tacto.ai",
+     "name": "Tacto",
+     "domain": "tacto.ai",
      "first_funded": "",
-     "known_as": "Reflect Orbital"
+     "known_as": null
     },
     {
-     "id": "outreach.io",
-     "name": "Outreach.io",
-     "domain": "outreach.io",
+     "id": "sesame.com",
+     "name": "Sesame",
+     "domain": "sesame.com",
      "first_funded": "",
      "known_as": null
     },
@@ -17810,30 +18031,16 @@
      "known_as": null
     },
     {
-     "id": "dominodatalab.com",
-     "name": "Domino Data Lab",
-     "domain": "dominodatalab.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "productboard.com",
-     "name": "Productboard",
-     "domain": "productboard.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "lilt.com",
-     "name": "Lilt",
-     "domain": "lilt.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
      "id": "edra.ai",
      "name": "Edra",
      "domain": "edra.ai",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "wonolo.com",
+     "name": "Wonolo",
+     "domain": "wonolo.com",
      "first_funded": "",
      "known_as": null
     },
@@ -17852,16 +18059,9 @@
      "known_as": null
     },
     {
-     "id": "wonolo.com",
-     "name": "Wonolo",
-     "domain": "wonolo.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "tavus.io",
-     "name": "Tavus",
-     "domain": "tavus.io",
+     "id": "dominodatalab.com",
+     "name": "Domino Data Lab",
+     "domain": "dominodatalab.com",
      "first_funded": "",
      "known_as": null
     },
@@ -17873,9 +18073,23 @@
      "known_as": null
     },
     {
-     "id": "island.io",
-     "name": "Island",
-     "domain": "island.io",
+     "id": "tavus.io",
+     "name": "Tavus",
+     "domain": "tavus.io",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "productboard.com",
+     "name": "Productboard",
+     "domain": "productboard.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "outreach.io",
+     "name": "Outreach.io",
+     "domain": "outreach.io",
      "first_funded": "",
      "known_as": null
     },
@@ -17883,6 +18097,20 @@
      "id": "middesk.com",
      "name": "Middesk",
      "domain": "middesk.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "reflectorbital.com",
+     "name": "Reflect Orbital",
+     "domain": "reflectorbital.com",
+     "first_funded": "",
+     "known_as": "Reflect Orbital"
+    },
+    {
+     "id": "island.io",
+     "name": "Island",
+     "domain": "island.io",
      "first_funded": "",
      "known_as": null
     },
@@ -17908,9 +18136,23 @@
      "known_as": null
     },
     {
-     "id": "salt.security",
-     "name": "Salt Security",
-     "domain": "salt.security",
+     "id": "personetics.com",
+     "name": "Personetics",
+     "domain": "personetics.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "dashlane.com",
+     "name": "Dashlane",
+     "domain": "dashlane.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "carbon3d.com",
+     "name": "Carbon",
+     "domain": "carbon3d.com",
      "first_funded": "",
      "known_as": null
     },
@@ -17929,23 +18171,9 @@
      "known_as": null
     },
     {
-     "id": "carbon3d.com",
-     "name": "Carbon",
-     "domain": "carbon3d.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "personetics.com",
-     "name": "Personetics",
-     "domain": "personetics.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "dashlane.com",
-     "name": "Dashlane",
-     "domain": "dashlane.com",
+     "id": "securityscorecard.com",
+     "name": "SecurityScorecard",
+     "domain": "securityscorecard.com",
      "first_funded": "",
      "known_as": null
     },
@@ -17957,6 +18185,13 @@
      "known_as": null
     },
     {
+     "id": "wirescreen.ai",
+     "name": "WireScreen",
+     "domain": "wirescreen.ai",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "fin.tech",
      "name": "Fin",
      "domain": "fin.tech",
@@ -17964,9 +18199,9 @@
      "known_as": null
     },
     {
-     "id": "securityscorecard.com",
-     "name": "SecurityScorecard",
-     "domain": "securityscorecard.com",
+     "id": "salt.security",
+     "name": "Salt Security",
+     "domain": "salt.security",
      "first_funded": "",
      "known_as": null
     },
@@ -17985,20 +18220,6 @@
      "known_as": null
     },
     {
-     "id": "wirescreen.ai",
-     "name": "WireScreen",
-     "domain": "wirescreen.ai",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "pendulum.co",
-     "name": "Pendulum Therapeutics",
-     "domain": "pendulum.co",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
      "id": "23andme.com",
      "name": "23andMe",
      "domain": "23andme.com",
@@ -18013,16 +18234,16 @@
      "known_as": null
     },
     {
-     "id": "sourcegraph.com",
-     "name": "Sourcegraph",
-     "domain": "sourcegraph.com",
+     "id": "safebreach.com",
+     "name": "SafeBreach",
+     "domain": "safebreach.com",
      "first_funded": "",
      "known_as": null
     },
     {
-     "id": "safebreach.com",
-     "name": "SafeBreach",
-     "domain": "safebreach.com",
+     "id": "pendulum.co",
+     "name": "Pendulum Therapeutics",
+     "domain": "pendulum.co",
      "first_funded": "",
      "known_as": null
     },
@@ -18041,11 +18262,11 @@
      "known_as": null
     },
     {
-     "id": "ampsortation.com",
-     "name": "AMP Sortation",
-     "domain": "ampsortation.com",
+     "id": "sourcegraph.com",
+     "name": "Sourcegraph",
+     "domain": "sourcegraph.com",
      "first_funded": "",
-     "known_as": "AMP Robotics"
+     "known_as": null
     },
     {
      "id": "osohq.com",
@@ -18076,18 +18297,18 @@
      "known_as": null
     },
     {
-     "id": "cortex.io",
-     "name": "Cortex",
-     "domain": "cortex.io",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
      "id": "cobaltrobotics.com",
      "name": "Cobalt Robotics",
      "domain": "cobaltrobotics.com",
      "first_funded": "",
      "known_as": null
+    },
+    {
+     "id": "ampsortation.com",
+     "name": "AMP Sortation",
+     "domain": "ampsortation.com",
+     "first_funded": "",
+     "known_as": "AMP Robotics"
     },
     {
      "id": "squint.ai",
@@ -18097,9 +18318,9 @@
      "known_as": "Squint"
     },
     {
-     "id": "noom.com",
-     "name": "Noom",
-     "domain": "noom.com",
+     "id": "picsart.com",
+     "name": "PicsArt",
+     "domain": "picsart.com",
      "first_funded": "",
      "known_as": null
     },
@@ -18125,9 +18346,16 @@
      "known_as": null
     },
     {
-     "id": "frontapp.com",
-     "name": "Front",
-     "domain": "frontapp.com",
+     "id": "doppler.com",
+     "name": "Doppler",
+     "domain": "doppler.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "cortex.io",
+     "name": "Cortex",
+     "domain": "cortex.io",
      "first_funded": "",
      "known_as": null
     },
@@ -18139,9 +18367,9 @@
      "known_as": null
     },
     {
-     "id": "xbow.com",
-     "name": "XBOW",
-     "domain": "xbow.com",
+     "id": "warp.dev",
+     "name": "Warp",
+     "domain": "warp.dev",
      "first_funded": "",
      "known_as": null
     },
@@ -18153,9 +18381,9 @@
      "known_as": null
     },
     {
-     "id": "picsart.com",
-     "name": "PicsArt",
-     "domain": "picsart.com",
+     "id": "magentic.com",
+     "name": "Magentic",
+     "domain": "magentic.com",
      "first_funded": "",
      "known_as": null
     },
@@ -18163,6 +18391,13 @@
      "id": "getir.com",
      "name": "Getir",
      "domain": "getir.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "getfreed.ai",
+     "name": "Freed",
+     "domain": "getfreed.ai",
      "first_funded": "",
      "known_as": null
     },
@@ -18188,13 +18423,6 @@
      "known_as": null
     },
     {
-     "id": "warp.dev",
-     "name": "Warp",
-     "domain": "warp.dev",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
      "id": "veed.io",
      "name": "VEED.IO",
      "domain": "veed.io",
@@ -18209,20 +18437,6 @@
      "known_as": null
     },
     {
-     "id": "magentic.com",
-     "name": "Magentic",
-     "domain": "magentic.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "genedit.com",
-     "name": "GenEdit",
-     "domain": "genedit.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
      "id": "evy.eu",
      "name": "Evy",
      "domain": "evy.eu",
@@ -18230,9 +18444,16 @@
      "known_as": null
     },
     {
-     "id": "anterior.com",
-     "name": "Anterior",
-     "domain": "anterior.com",
+     "id": "xbow.com",
+     "name": "XBOW",
+     "domain": "xbow.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "snapdocs.com",
+     "name": "Snapdocs",
+     "domain": "snapdocs.com",
      "first_funded": "",
      "known_as": null
     },
@@ -18244,9 +18465,37 @@
      "known_as": null
     },
     {
+     "id": "noom.com",
+     "name": "Noom",
+     "domain": "noom.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "genedit.com",
+     "name": "GenEdit",
+     "domain": "genedit.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "clutter.com",
      "name": "Clutter",
      "domain": "clutter.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "anterior.com",
+     "name": "Anterior",
+     "domain": "anterior.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
+     "id": "xentral.com",
+     "name": "Xentral",
+     "domain": "xentral.com",
      "first_funded": "",
      "known_as": null
     },
@@ -18265,9 +18514,9 @@
      "known_as": null
     },
     {
-     "id": "snapdocs.com",
-     "name": "Snapdocs",
-     "domain": "snapdocs.com",
+     "id": "magiceden.io",
+     "name": "Magic Eden",
+     "domain": "magiceden.io",
      "first_funded": "",
      "known_as": null
     },
@@ -18286,13 +18535,6 @@
      "known_as": "JITX"
     },
     {
-     "id": "getfreed.ai",
-     "name": "Freed",
-     "domain": "getfreed.ai",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
      "id": "fintual.cl",
      "name": "Fintual",
      "domain": "fintual.cl",
@@ -18300,9 +18542,9 @@
      "known_as": null
     },
     {
-     "id": "xentral.com",
-     "name": "Xentral",
-     "domain": "xentral.com",
+     "id": "draftea.com",
+     "name": "Draftea",
+     "domain": "draftea.com",
      "first_funded": "",
      "known_as": null
     },
@@ -18321,13 +18563,6 @@
      "known_as": null
     },
     {
-     "id": "magiceden.io",
-     "name": "Magic Eden",
-     "domain": "magiceden.io",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
      "id": "thecommons.earth",
      "name": "Commons",
      "domain": "thecommons.earth",
@@ -18335,9 +18570,9 @@
      "known_as": null
     },
     {
-     "id": "eventbrite.com",
-     "name": "Eventbrite",
-     "domain": "eventbrite.com",
+     "id": "frontapp.com",
+     "name": "Front",
+     "domain": "frontapp.com",
      "first_funded": "",
      "known_as": null
     },
@@ -18345,20 +18580,6 @@
      "id": "edxmarkets.com",
      "name": "EDX Markets",
      "domain": "edxmarkets.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "draftea.com",
-     "name": "Draftea",
-     "domain": "draftea.com",
-     "first_funded": "",
-     "known_as": null
-    },
-    {
-     "id": "doppler.com",
-     "name": "Doppler",
-     "domain": "doppler.com",
      "first_funded": "",
      "known_as": null
     },
@@ -18832,6 +19053,13 @@
      "known_as": null
     },
     {
+     "id": "eventbrite.com",
+     "name": "Eventbrite",
+     "domain": "eventbrite.com",
+     "first_funded": "",
+     "known_as": null
+    },
+    {
      "id": "elyn.io",
      "name": "Elyn",
      "domain": "elyn.io",
@@ -19035,7 +19263,7 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 36,
    "tracked": 8,
    "overlap": 0.222,
@@ -19307,7 +19535,7 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 46,
    "tracked": 12,
    "overlap": 0.261,
@@ -19649,15 +19877,13 @@
    "kind": "links",
    "note": "",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 93,
    "tracked": 8,
    "overlap": 0.086,
-   "new_this_run": 1,
+   "new_this_run": 0,
    "baseline": false,
-   "new_names": [
-    "bind.ai"
-   ],
+   "new_names": [],
    "candidates": 0,
    "rejected_by_bar": {
     "generalist fund: holdings only": 85
@@ -20322,7 +20548,7 @@
    "kind": "links",
    "note": "Kevin Ryan's NYC studio; ~140 cards (aria-label names), mostly software and healthcare",
    "partial": "",
-   "fetched_at": "2026-10-26T14:33:11.584240+00:00",
+   "fetched_at": "2026-11-02T17:25:39.145238+00:00",
    "count": 142,
    "tracked": 10,
    "overlap": 0.07,
@@ -27796,6 +28022,34 @@
    "description": "Watchtower is an AI-native decision environment for high-stakes operations under constraint.",
    "fetched": "2026-10-26",
    "final_url": "https://www.watchtowerlabs.ai/",
+   "status": 200
+  },
+  "noetive.ai": {
+   "title": "The Physical Economy's AI lab",
+   "description": "Noetive is an applied research lab building the Intelligence of Record for the physical economy.",
+   "fetched": "2026-11-02",
+   "final_url": "https://noetive.ai/",
+   "status": 200
+  },
+  "warp.xyz": {
+   "title": "Warp Sciences | AI and robotics for faster drug discovery",
+   "description": "Warp is the AI-driven U.S. chemistry CRO that turns AI-designed molecules into compounds drug discovery teams can test, in labs built for automation.",
+   "fetched": "2026-11-02",
+   "final_url": "https://warp.xyz/",
+   "status": 200
+  },
+  "mpspace.io": {
+   "title": "Home - MP Space",
+   "description": "",
+   "fetched": "2026-11-02",
+   "final_url": "https://mpspace.io/",
+   "status": 200
+  },
+  "problems.dev": {
+   "title": "support for agents",
+   "description": "Embed problems.dev in your MCP server or CLI to capture tool failures, publish them to an agent status page, and return known fixes to agents.",
+   "fetched": "2026-11-02",
+   "final_url": "https://problems.dev/",
    "status": 200
   }
  }

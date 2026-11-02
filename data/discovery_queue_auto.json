@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-26T14:34:57+00:00",
-  "knownCompaniesCount": 1995,
+  "generatedAt": "2026-11-02T17:27:16+00:00",
+  "knownCompaniesCount": 1996,
   "summary": {
-    "totalCandidates": 482,
+    "totalCandidates": 485,
     "fromFormD": 0,
-    "fromVcPortfolios": 441,
+    "fromVcPortfolios": 444,
     "fromNewsletters": 23,
     "fromLlmExtraction": 34,
     "multiSource": 2
@@ -3691,6 +3691,27 @@
           "date": "2026-09-25",
           "verifyUrl": "https://www.vorsystems.com/",
           "context": "Listed by Gigascale: Vor is an AI-enabled transaction platform built for complex energy deals \u2013 supporting M&A, project finance, tax equity, and corporate capital raising."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Warp Sciences",
+      "score": 25,
+      "signals": [
+        {
+          "name": "Warp Sciences",
+          "source": "VC portfolio: Gigascale",
+          "sourceWeight": 25,
+          "vc": "Gigascale",
+          "date": "2026-11-02",
+          "verifyUrl": "https://warp.xyz/",
+          "context": "Listed by Gigascale: Warp is the AI-driven U.S. chemistry CRO that turns AI-designed molecules into compounds drug discovery teams can test, in labs built for automation."
         }
       ],
       "sources": [
@@ -7544,6 +7565,27 @@
       "suggestedSector": null
     },
     {
+      "name": "MP Space",
+      "score": 18,
+      "signals": [
+        {
+          "name": "MP Space",
+          "source": "VC portfolio: Seraphim Space",
+          "sourceWeight": 18,
+          "vc": "Seraphim Space",
+          "date": "2026-11-02",
+          "verifyUrl": "https://mpspace.io/",
+          "context": "Listed by Seraphim Space"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
       "name": "Alloy Therapeutics",
       "score": 18,
       "signals": [
@@ -8781,6 +8823,27 @@
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Hone",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Hone",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-11-02",
+          "verifyUrl": "https://hone.com",
+          "context": "Listed by 8VC: Hone is a San Francisco-based artificial intelligence company that develops autonomous AI systems designed to manage business processes, collaborate with teams, and achieve measurable outcomes. Its AI"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
     },
     {
       "name": "ianacare",
