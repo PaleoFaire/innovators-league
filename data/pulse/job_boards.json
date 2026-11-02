@@ -13,7 +13,7 @@
   "platform": "personio",
   "slug": "4401",
   "verified": "2026-10-15",
-  "jobs_seen": 1,
+  "jobs_seen": 0,
   "evidence": "link https://www.4401.earth/",
   "added": "2026-10-15"
  },
@@ -70,6 +70,15 @@
   "jobs_seen": 2,
   "evidence": "link https://www.adarga.ai/",
   "added": "2026-10-15"
+ },
+ {
+  "company": "Aeon Industrial",
+  "platform": "lever",
+  "slug": "aeon",
+  "verified": "2026-11-02",
+  "jobs_seen": 9,
+  "evidence": "name-slug lever:aeon",
+  "added": "2026-11-02"
  },
  {
   "company": "AGent Energy",
@@ -621,6 +630,15 @@
   "added": "2026-10-15"
  },
  {
+  "company": "Avalanche Energy",
+  "platform": "ashby",
+  "slug": "avalanchefusion",
+  "verified": "2026-11-02",
+  "jobs_seen": 8,
+  "evidence": "embed https://www.avalanchefusion.com/careers",
+  "added": "2026-11-02"
+ },
+ {
   "company": "Avnos",
   "platform": "greenhouse",
   "slug": "avnos",
@@ -722,11 +740,11 @@
  {
   "company": "Belisar",
   "platform": "ashby",
-  "slug": "pryzm",
-  "verified": "2026-10-15",
-  "jobs_seen": 5,
-  "evidence": "slug-probe https://pryzm.io/careers",
-  "added": "2026-10-15"
+  "slug": "belisar",
+  "verified": "2026-11-02",
+  "jobs_seen": 3,
+  "evidence": "embed https://belisar.com/careers",
+  "added": "2026-11-02"
  },
  {
   "company": "Besxar Space Industries",
@@ -763,6 +781,15 @@
   "jobs_seen": 39,
   "evidence": "careers-page https://www.blacksemi.com/careers",
   "added": "2026-10-15"
+ },
+ {
+  "company": "BlackSea Technologies",
+  "platform": "greenhouse",
+  "slug": "aevexaerospace",
+  "verified": "2026-11-02",
+  "jobs_seen": 66,
+  "evidence": "link https://aevex.com/careers/",
+  "added": "2026-11-02"
  },
  {
   "company": "Blackshark.ai",
@@ -937,6 +964,15 @@
  },
  {
   "company": "Carbon Robotics",
+  "platform": "ashby",
+  "slug": "carbon-robotics",
+  "verified": "2026-11-02",
+  "jobs_seen": 3,
+  "evidence": "name-slug ashby:carbon-robotics",
+  "added": "2026-11-02"
+ },
+ {
+  "company": "Carbon Robotics",
   "platform": "greenhouse",
   "slug": "carbonrobotics",
   "verified": "2026-10-15",
@@ -1060,6 +1096,15 @@
   "jobs_seen": 61,
   "evidence": "legacy fetch_jobs.py list",
   "added": "2026-10-15"
+ },
+ {
+  "company": "Climeworks",
+  "platform": "recruitee",
+  "slug": "climeworks",
+  "verified": "2026-11-02",
+  "jobs_seen": 3,
+  "evidence": "link https://climeworks.com/jobs/filtration-module-product-owner-80-100",
+  "added": "2026-11-02"
  },
  {
   "company": "Coco Robotics",
@@ -1449,6 +1494,15 @@
   "added": "2026-10-15"
  },
  {
+  "company": "Durin",
+  "platform": "greenhouse",
+  "slug": "durinmining",
+  "verified": "2026-11-02",
+  "jobs_seen": 6,
+  "evidence": "link https://www.durin.com/careers.html",
+  "added": "2026-11-02"
+ },
+ {
   "company": "Dyna Robotics",
   "platform": "ashby",
   "slug": "dyna-robotics",
@@ -1474,6 +1528,15 @@
   "jobs_seen": 54,
   "evidence": "careers-page https://echodyne.com/careers",
   "added": "2026-10-15"
+ },
+ {
+  "company": "Eclipse Space",
+  "platform": "greenhouse",
+  "slug": "eclipsespace",
+  "verified": "2026-11-02",
+  "jobs_seen": 15,
+  "evidence": "name-slug greenhouse:eclipsespace",
+  "added": "2026-11-02"
  },
  {
   "company": "EdgeRunner AI",
@@ -1593,6 +1656,15 @@
   "added": "2026-10-15"
  },
  {
+  "company": "Enapter",
+  "platform": "breezy",
+  "slug": "enapter-gmbh",
+  "verified": "2026-11-02",
+  "jobs_seen": 1,
+  "evidence": "link https://enapter.com/en/about-us/careers/",
+  "added": "2026-11-02"
+ },
+ {
   "company": "EnCharge AI",
   "platform": "greenhouse",
   "slug": "enchargeai36",
@@ -1604,11 +1676,11 @@
  {
   "company": "Endeavor Optical Networks",
   "platform": "ashby",
-  "slug": "eon",
-  "verified": "2026-10-15",
+  "slug": "EON",
+  "verified": "2026-11-02",
   "jobs_seen": 8,
-  "evidence": "careers-page https://endeavornetworks.com/careers",
-  "added": "2026-10-15"
+  "evidence": "link https://www.endeavornetworks.com/careers",
+  "added": "2026-11-02"
  },
  {
   "company": "Endurance Energy",
@@ -1631,11 +1703,11 @@
  {
   "company": "Eon Systems",
   "platform": "ashby",
-  "slug": "eon",
-  "verified": "2026-10-15",
+  "slug": "Eon",
+  "verified": "2026-11-02",
   "jobs_seen": 8,
-  "evidence": "careers-page https://eon.systems/careers",
-  "added": "2026-10-15"
+  "evidence": "embed https://eon.systems/careers",
+  "added": "2026-11-02"
  },
  {
   "company": "Ephemeris Net",
@@ -1681,6 +1753,15 @@
   "jobs_seen": 2,
   "evidence": "careers-page https://www.eradrive.space",
   "added": "2026-10-15"
+ },
+ {
+  "company": "Eridu",
+  "platform": "rippling",
+  "slug": "eridu-ai",
+  "verified": "2026-11-02",
+  "jobs_seen": 28,
+  "evidence": "link https://eridu.ai/",
+  "added": "2026-11-02"
  },
  {
   "company": "Etched",
@@ -1762,6 +1843,15 @@
   "jobs_seen": 97,
   "evidence": "legacy fetch_jobs.py list",
   "added": "2026-10-15"
+ },
+ {
+  "company": "Firefly Aerospace",
+  "platform": "workday",
+  "slug": "fireflyspace.wd115/Firefly",
+  "verified": "2026-11-02",
+  "jobs_seen": 127,
+  "evidence": "link https://fireflyspace.com/careers/",
+  "added": "2026-11-02"
  },
  {
   "company": "First Resonance",
@@ -2304,6 +2394,15 @@
   "added": "2026-10-15"
  },
  {
+  "company": "Hertha Metals",
+  "platform": "jazzhr",
+  "slug": "herthametals",
+  "verified": "2026-11-02",
+  "jobs_seen": 5,
+  "evidence": "link https://herthametals.com/careers-at-hertha-metals/",
+  "added": "2026-11-02"
+ },
+ {
   "company": "Heven AeroTech",
   "platform": "greenhouse",
   "slug": "hevenaerotech",
@@ -2512,6 +2611,15 @@
  },
  {
   "company": "Integrate",
+  "platform": "ashby",
+  "slug": "integrate",
+  "verified": "2026-11-02",
+  "jobs_seen": 10,
+  "evidence": "link https://integrate.co/careers",
+  "added": "2026-11-02"
+ },
+ {
+  "company": "Integrate",
   "platform": "lever",
   "slug": "integrate",
   "verified": "2026-10-15",
@@ -2547,6 +2655,15 @@
   "added": "2026-10-15"
  },
  {
+  "company": "IQM Quantum Computers",
+  "platform": "teamtailor",
+  "slug": "iqm",
+  "verified": "2026-11-02",
+  "jobs_seen": 27,
+  "evidence": "link https://iqm.tech/careers/",
+  "added": "2026-11-02"
+ },
+ {
   "company": "Ironstead",
   "platform": "ashby",
   "slug": "ironstead",
@@ -2572,6 +2689,15 @@
   "jobs_seen": 31,
   "evidence": "slug-probe https://jobs.lever.co/isee/0e76d6a5-9835-46bc-95aa-3a217354c921",
   "added": "2026-10-15"
+ },
+ {
+  "company": "Isembard",
+  "platform": "ashby",
+  "slug": "isembard",
+  "verified": "2026-11-02",
+  "jobs_seen": 33,
+  "evidence": "domain-slug ashby:isembard",
+  "added": "2026-11-02"
  },
  {
   "company": "Isomorphic Labs",
@@ -2917,6 +3043,15 @@
  },
  {
   "company": "Lucid Bots",
+  "platform": "ashby",
+  "slug": "lucidbots",
+  "verified": "2026-11-02",
+  "jobs_seen": 1,
+  "evidence": "link https://www.lucidbots.com/",
+  "added": "2026-11-02"
+ },
+ {
+  "company": "Lucid Bots",
   "platform": "greenhouse",
   "slug": "lucidbots",
   "verified": "2026-10-15",
@@ -3168,6 +3303,24 @@
   "added": "2026-10-15"
  },
  {
+  "company": "MineSense Technologies",
+  "platform": "lever",
+  "slug": "minesense",
+  "verified": "2026-11-02",
+  "jobs_seen": 7,
+  "evidence": "link https://minesense.com/careers-2/",
+  "added": "2026-11-02"
+ },
+ {
+  "company": "Mission Barns",
+  "platform": "ashby",
+  "slug": "mission-barns",
+  "verified": "2026-11-02",
+  "jobs_seen": 1,
+  "evidence": "name-slug ashby:mission-barns",
+  "added": "2026-11-02"
+ },
+ {
   "company": "Modern Intelligence",
   "platform": "lever",
   "slug": "ModernIntelligence",
@@ -3198,8 +3351,8 @@
   "company": "Monumental",
   "platform": "ashby",
   "slug": "monumental",
-  "verified": "2026-10-15",
-  "jobs_seen": 26,
+  "verified": "2026-11-02",
+  "jobs_seen": 27,
   "evidence": "slug-probe https://jobs.ashbyhq.com/monumental/bcbed947-a414-4c7c-b6e2-61440f4e9ecf",
   "added": "2026-10-15"
  },
@@ -3207,8 +3360,8 @@
   "company": "Monumental Labs",
   "platform": "ashby",
   "slug": "monumental",
-  "verified": "2026-10-15",
-  "jobs_seen": 26,
+  "verified": "2026-11-02",
+  "jobs_seen": 27,
   "evidence": "domain-slug ashby:monumental",
   "added": "2026-10-15"
  },
@@ -3217,7 +3370,7 @@
   "platform": "recruitee",
   "slug": "careers.morpheus.space",
   "verified": "2026-10-15",
-  "jobs_seen": 1,
+  "jobs_seen": 0,
   "evidence": "embed https://careers.morpheus.space/",
   "added": "2026-10-15"
  },
@@ -3610,6 +3763,15 @@
  },
  {
   "company": "Outpost Space",
+  "platform": "ashby",
+  "slug": "outpost-technologies-corporation",
+  "verified": "2026-11-02",
+  "jobs_seen": 15,
+  "evidence": "link https://www.outpost.space/careers",
+  "added": "2026-11-02"
+ },
+ {
+  "company": "Outpost Space",
   "platform": "greenhouse",
   "slug": "outpostspace",
   "verified": "2026-10-15",
@@ -3898,6 +4060,15 @@
  },
  {
   "company": "Primer AI",
+  "platform": "ashby",
+  "slug": "primer",
+  "verified": "2026-11-02",
+  "jobs_seen": 21,
+  "evidence": "domain-slug ashby:primer",
+  "added": "2026-11-02"
+ },
+ {
+  "company": "Primer AI",
   "platform": "greenhouse",
   "slug": "primerai",
   "verified": "2026-10-15",
@@ -3922,6 +4093,15 @@
   "jobs_seen": 15,
   "evidence": "legacy fetch_jobs.py list",
   "added": "2026-10-15"
+ },
+ {
+  "company": "Proteus Space",
+  "platform": "greenhouse",
+  "slug": "proteusspace",
+  "verified": "2026-11-02",
+  "jobs_seen": 7,
+  "evidence": "name-slug greenhouse:proteusspace",
+  "added": "2026-11-02"
  },
  {
   "company": "Proxima Fusion",
@@ -3987,6 +4167,15 @@
   "added": "2026-10-15"
  },
  {
+  "company": "Quantum Motion",
+  "platform": "personio",
+  "slug": "quantummotion",
+  "verified": "2026-11-02",
+  "jobs_seen": 20,
+  "evidence": "embed https://quantummotion.com/careers/",
+  "added": "2026-11-02"
+ },
+ {
   "company": "Quantum Space",
   "platform": "greenhouse",
   "slug": "quantumspacellc",
@@ -3994,6 +4183,15 @@
   "jobs_seen": 17,
   "evidence": "slug-probe https://www.quantumspace.us",
   "added": "2026-10-15"
+ },
+ {
+  "company": "QuantumDiamonds",
+  "platform": "ashby",
+  "slug": "quantumdiamonds",
+  "verified": "2026-11-02",
+  "jobs_seen": 20,
+  "evidence": "link https://www.qd-st.com/careers",
+  "added": "2026-11-02"
  },
  {
   "company": "QuantumDiamonds",
@@ -4483,6 +4681,15 @@
  },
  {
   "company": "Scout AI",
+  "platform": "ashby",
+  "slug": "scout-ai",
+  "verified": "2026-11-02",
+  "jobs_seen": 26,
+  "evidence": "link https://scoutco.ai/",
+  "added": "2026-11-02"
+ },
+ {
+  "company": "Scout AI",
   "platform": "greenhouse",
   "slug": "scoutai",
   "verified": "2026-10-15",
@@ -4717,6 +4924,15 @@
  },
  {
   "company": "Slingshot Aerospace",
+  "platform": "ashby",
+  "slug": "slingshot-aerospace",
+  "verified": "2026-11-02",
+  "jobs_seen": 11,
+  "evidence": "name-slug ashby:slingshot-aerospace",
+  "added": "2026-11-02"
+ },
+ {
+  "company": "Slingshot Aerospace",
   "platform": "greenhouse",
   "slug": "slingshotaerospace",
   "verified": "2026-10-15",
@@ -4756,7 +4972,7 @@
   "platform": "ashby",
   "slug": "sorcerer",
   "verified": "2026-10-15",
-  "jobs_seen": 1,
+  "jobs_seen": 0,
   "evidence": "careers-page https://sorcerer.earth",
   "added": "2026-10-15"
  },
@@ -5650,6 +5866,15 @@
   "jobs_seen": 0,
   "evidence": "embed https://www.vulcanforms.com/careers/",
   "added": "2026-10-15"
+ },
+ {
+  "company": "VVater",
+  "platform": "breezy",
+  "slug": "vvater-llc",
+  "verified": "2026-11-02",
+  "jobs_seen": 28,
+  "evidence": "link https://vvater.com/",
+  "added": "2026-11-02"
  },
  {
   "company": "Vyoma",
