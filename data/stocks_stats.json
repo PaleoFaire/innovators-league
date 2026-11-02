@@ -11,13 +11,13 @@
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": -0.78,
+      "avg_change": -1.13,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 0.74,
+      "avg_change": -0.08,
       "count": 7
     },
     "nuclear": {
@@ -86,11 +86,6 @@
   ],
   "topLosers": [
     [
-      "NNE",
-      "Nano Nuclear Energy",
-      -4.19
-    ],
-    [
       "PLTR",
       "Palantir",
       -6.42
@@ -106,10 +101,15 @@
       -9.36
     ],
     [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -10.89
+    ],
+    [
       "SATL",
       "Satellogic",
       -13.32
     ]
   ],
-  "lastUpdated": "2026-11-01 22:53:12"
+  "lastUpdated": "2026-11-02 07:45:45"
 }
