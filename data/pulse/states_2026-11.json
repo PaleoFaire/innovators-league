@@ -3,39 +3,39 @@
  "states": [
   {
    "state": "CA",
-   "roles": 7153,
-   "atoms": 4040,
-   "sw": 1474
+   "roles": 7163,
+   "atoms": 4045,
+   "sw": 1475
   },
   {
    "state": "TX",
-   "roles": 1131,
-   "atoms": 637,
+   "roles": 1129,
+   "atoms": 635,
    "sw": 120
   },
   {
    "state": "CO",
-   "roles": 922,
-   "atoms": 516,
-   "sw": 193
+   "roles": 914,
+   "atoms": 512,
+   "sw": 191
   },
   {
    "state": "WA",
-   "roles": 852,
+   "roles": 854,
    "atoms": 410,
-   "sw": 136
-  },
-  {
-   "state": "REMOTE",
-   "roles": 686,
-   "atoms": 183,
-   "sw": 186
+   "sw": 137
   },
   {
    "state": "MA",
-   "roles": 686,
-   "atoms": 372,
-   "sw": 144
+   "roles": 693,
+   "atoms": 373,
+   "sw": 150
+  },
+  {
+   "state": "REMOTE",
+   "roles": 684,
+   "atoms": 182,
+   "sw": 186
   },
   {
    "state": "VA",
@@ -57,8 +57,8 @@
   },
   {
    "state": "FL",
-   "roles": 145,
-   "atoms": 100,
+   "roles": 143,
+   "atoms": 98,
    "sw": 14
   },
   {
@@ -87,9 +87,9 @@
   },
   {
    "state": "AL",
-   "roles": 82,
+   "roles": 83,
    "atoms": 48,
-   "sw": 10
+   "sw": 11
   }
  ]
 }

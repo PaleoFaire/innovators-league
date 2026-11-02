@@ -47,6 +47,15 @@
    "last_contract": null
   },
   {
+   "company": "Amca",
+   "bucket": "Manufacturing & Materials",
+   "score": 47.2,
+   "roles": 46,
+   "in_hiring_panel": true,
+   "last_capital": "2026-05",
+   "last_contract": null
+  },
+  {
    "company": "Senra Systems",
    "bucket": "Autonomy & Robotics",
    "score": 45.8,
@@ -191,6 +200,15 @@
    "last_contract": null
   },
   {
+   "company": "Skydio",
+   "bucket": "Defence",
+   "score": 35.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-04",
+   "last_contract": "2026-10"
+  },
+  {
    "company": "Axiom Space",
    "bucket": "Space & Aerospace",
    "score": 35.0,
@@ -236,15 +254,6 @@
    "last_contract": null
   },
   {
-   "company": "Amca",
-   "bucket": "Manufacturing & Materials",
-   "score": 32.2,
-   "roles": 46,
-   "in_hiring_panel": true,
-   "last_capital": "2024-10",
-   "last_contract": null
-  },
-  {
    "company": "Extropic",
    "bucket": "Chips & Quantum",
    "score": 31.4,
@@ -267,6 +276,15 @@
    "bucket": "Defence",
    "score": 29.0,
    "roles": 35,
+   "in_hiring_panel": false,
+   "last_capital": "2026-07",
+   "last_contract": "2025-12"
+  },
+  {
+   "company": "K2 Space",
+   "bucket": "Space & Aerospace",
+   "score": 29.0,
+   "roles": 0,
    "in_hiring_panel": false,
    "last_capital": "2026-07",
    "last_contract": "2025-12"
@@ -331,7 +349,7 @@
    "score": 25.0,
    "roles": 77,
    "in_hiring_panel": false,
-   "last_capital": "2026-01",
+   "last_capital": "2026-11",
    "last_contract": "2026-07"
   },
   {
@@ -431,24 +449,6 @@
    "roles": 20,
    "in_hiring_panel": false,
    "last_capital": "2026-10",
-   "last_contract": null
-  },
-  {
-   "company": "PILGRIM",
-   "bucket": "Defence",
-   "score": 25.0,
-   "roles": 15,
-   "in_hiring_panel": false,
-   "last_capital": "2026-09",
-   "last_contract": null
-  },
-  {
-   "company": "Charge Robotics",
-   "bucket": "Manufacturing & Materials",
-   "score": 25.0,
-   "roles": 14,
-   "in_hiring_panel": false,
-   "last_capital": "2026-07",
    "last_contract": null
   }
  ]

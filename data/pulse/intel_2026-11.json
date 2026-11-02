@@ -1,18 +1,46 @@
 {
  "month": "2026-11",
- "generated": "2026-11-01",
+ "generated": "2026-11-02",
  "portfolio_pulse": [
   {
-   "fund": "Andreessen Horowitz",
-   "key": "a16z",
-   "tracked_in_lane": 49,
-   "on_hiring_panel": 37,
-   "diffusion": 50.0,
-   "up": 0,
+   "fund": "Valor Equity Partners",
+   "key": "Valor",
+   "tracked_in_lane": 9,
+   "on_hiring_panel": 6,
+   "diffusion": 58.3,
+   "up": 1,
    "down": 0,
-   "roles_now": 5753,
-   "roles_prev": 5753,
-   "atoms_bits": 2.42,
+   "roles_now": 3260,
+   "roles_prev": 3256,
+   "atoms_bits": 2.9,
+   "raised_last_3m": 1,
+   "factory_flags": []
+  },
+  {
+   "fund": "Founders Fund",
+   "key": "Founders Fund",
+   "tracked_in_lane": 9,
+   "on_hiring_panel": 7,
+   "diffusion": 57.1,
+   "up": 1,
+   "down": 0,
+   "roles_now": 3277,
+   "roles_prev": 3270,
+   "atoms_bits": 3.16,
+   "raised_last_3m": 3,
+   "factory_flags": []
+  },
+  {
+   "fund": "8VC",
+   "key": "8VC",
+   "tracked_in_lane": 26,
+   "on_hiring_panel": 19,
+   "diffusion": 52.6,
+   "up": 1,
+   "down": 0,
+   "roles_now": 3595,
+   "roles_prev": 3592,
+   "atoms_bits": 2.76,
    "raised_last_3m": 3,
    "factory_flags": []
   },
@@ -21,13 +49,27 @@
    "key": "Lux",
    "tracked_in_lane": 25,
    "on_hiring_panel": 21,
-   "diffusion": 50.0,
-   "up": 0,
+   "diffusion": 52.4,
+   "up": 1,
    "down": 0,
-   "roles_now": 4052,
+   "roles_now": 4057,
    "roles_prev": 4052,
-   "atoms_bits": 3.48,
+   "atoms_bits": 3.46,
    "raised_last_3m": 2,
+   "factory_flags": []
+  },
+  {
+   "fund": "Andreessen Horowitz",
+   "key": "a16z",
+   "tracked_in_lane": 49,
+   "on_hiring_panel": 38,
+   "diffusion": 51.3,
+   "up": 1,
+   "down": 0,
+   "roles_now": 5765,
+   "roles_prev": 5761,
+   "atoms_bits": 2.41,
+   "raised_last_3m": 4,
    "factory_flags": []
   },
   {
@@ -41,21 +83,7 @@
    "roles_now": 1023,
    "roles_prev": 1024,
    "atoms_bits": 2.6,
-   "raised_last_3m": 4,
-   "factory_flags": []
-  },
-  {
-   "fund": "8VC",
-   "key": "8VC",
-   "tracked_in_lane": 26,
-   "on_hiring_panel": 19,
-   "diffusion": 50.0,
-   "up": 0,
-   "down": 0,
-   "roles_now": 3592,
-   "roles_prev": 3592,
-   "atoms_bits": 2.77,
-   "raised_last_3m": 3,
+   "raised_last_3m": 5,
    "factory_flags": []
   },
   {
@@ -66,24 +94,24 @@
    "diffusion": 50.0,
    "up": 0,
    "down": 0,
-   "roles_now": 634,
+   "roles_now": 632,
    "roles_prev": 634,
-   "atoms_bits": 4.18,
+   "atoms_bits": 4.28,
    "raised_last_3m": 1,
    "factory_flags": []
   },
   {
    "fund": "Khosla Ventures",
    "key": "KV",
-   "tracked_in_lane": 30,
+   "tracked_in_lane": 31,
    "on_hiring_panel": 17,
    "diffusion": 50.0,
    "up": 0,
    "down": 0,
-   "roles_now": 897,
+   "roles_now": 898,
    "roles_prev": 897,
    "atoms_bits": 3.61,
-   "raised_last_3m": 2,
+   "raised_last_3m": 4,
    "factory_flags": []
   },
   {
@@ -94,10 +122,10 @@
    "diffusion": 50.0,
    "up": 0,
    "down": 0,
-   "roles_now": 425,
+   "roles_now": 423,
    "roles_prev": 425,
-   "atoms_bits": 3.04,
-   "raised_last_3m": 0,
+   "atoms_bits": 3.01,
+   "raised_last_3m": 1,
    "factory_flags": []
   },
   {
@@ -122,10 +150,24 @@
    "diffusion": 50.0,
    "up": 0,
    "down": 0,
-   "roles_now": 888,
+   "roles_now": 889,
    "roles_prev": 889,
    "atoms_bits": 3.27,
    "raised_last_3m": 2,
+   "factory_flags": []
+  },
+  {
+   "fund": "Gigascale Capital",
+   "key": "Gigascale",
+   "tracked_in_lane": 9,
+   "on_hiring_panel": 9,
+   "diffusion": 50.0,
+   "up": 0,
+   "down": 0,
+   "roles_now": 570,
+   "roles_prev": 568,
+   "atoms_bits": 7.4,
+   "raised_last_3m": 0,
    "factory_flags": []
   },
   {
@@ -143,20 +185,6 @@
    "factory_flags": []
   },
   {
-   "fund": "Gigascale Capital",
-   "key": "Gigascale",
-   "tracked_in_lane": 8,
-   "on_hiring_panel": 8,
-   "diffusion": 50.0,
-   "up": 0,
-   "down": 0,
-   "roles_now": 560,
-   "roles_prev": 560,
-   "atoms_bits": 7.45,
-   "raised_last_3m": 0,
-   "factory_flags": []
-  },
-  {
    "fund": "Harpoon Ventures",
    "key": "Harpoon",
    "tracked_in_lane": 11,
@@ -171,30 +199,16 @@
    "factory_flags": []
   },
   {
-   "fund": "Founders Fund",
-   "key": "Founders Fund",
-   "tracked_in_lane": 9,
-   "on_hiring_panel": 7,
-   "diffusion": 50.0,
-   "up": 0,
-   "down": 0,
-   "roles_now": 3270,
-   "roles_prev": 3270,
-   "atoms_bits": 3.18,
-   "raised_last_3m": 3,
-   "factory_flags": []
-  },
-  {
    "fund": "Seraphim Space",
    "key": "Seraphim Space",
    "tracked_in_lane": 10,
    "on_hiring_panel": 6,
    "diffusion": 50.0,
-   "up": 0,
-   "down": 0,
-   "roles_now": 77,
+   "up": 1,
+   "down": 1,
+   "roles_now": 78,
    "roles_prev": 77,
-   "atoms_bits": 3.5,
+   "atoms_bits": 3.6,
    "raised_last_3m": 0,
    "factory_flags": []
   },
@@ -224,20 +238,6 @@
    "roles_prev": 553,
    "atoms_bits": 3.17,
    "raised_last_3m": 2,
-   "factory_flags": []
-  },
-  {
-   "fund": "Valor Equity Partners",
-   "key": "Valor",
-   "tracked_in_lane": 9,
-   "on_hiring_panel": 6,
-   "diffusion": 50.0,
-   "up": 0,
-   "down": 0,
-   "roles_now": 3256,
-   "roles_prev": 3256,
-   "atoms_bits": 2.92,
-   "raised_last_3m": 1,
    "factory_flags": []
   },
   {
@@ -316,15 +316,6 @@
    "senior_mfg_hire": false
   },
   {
-   "company": "Amca",
-   "bucket": "Manufacturing & Materials",
-   "roles_3m_ago": 36,
-   "roles_now": 54,
-   "growth_pct": 50.0,
-   "last_capital_event": "2024-10",
-   "senior_mfg_hire": true
-  },
-  {
    "company": "Vannevar Labs",
    "bucket": "Defence",
    "roles_3m_ago": 22,
@@ -340,7 +331,7 @@
    "bucket": "Defence",
    "state": "CA",
    "roles_prev": 2562,
-   "roles_now": 2562,
+   "roles_now": 2566,
    "senior_roles_open": 46,
    "last_capital_event": "2026-05"
   },
@@ -349,7 +340,7 @@
    "bucket": "Defence",
    "state": "CA",
    "roles_prev": 634,
-   "roles_now": 634,
+   "roles_now": 635,
    "senior_roles_open": 4,
    "last_capital_event": "2026-03"
   },
@@ -377,15 +368,6 @@
    "state": "MA",
    "roles_prev": 129,
    "roles_now": 129,
-   "senior_roles_open": 3,
-   "last_capital_event": null
-  },
-  {
-   "company": "Armada",
-   "bucket": "Space & Aerospace",
-   "state": "CA",
-   "roles_prev": 35,
-   "roles_now": 35,
    "senior_roles_open": 3,
    "last_capital_event": null
   },
@@ -439,7 +421,7 @@
    "bucket": "Autonomy & Robotics",
    "state": "MA",
    "roles_prev": 66,
-   "roles_now": 67,
+   "roles_now": 71,
    "senior_roles_open": 2,
    "last_capital_event": null
   },
@@ -480,20 +462,11 @@
    "last_capital_event": null
   },
   {
-   "company": "Rondo Energy",
-   "bucket": "Power & Grid",
-   "state": "CA",
-   "roles_prev": 14,
-   "roles_now": 14,
-   "senior_roles_open": 2,
-   "last_capital_event": null
-  },
-  {
    "company": "Impulse Space",
    "bucket": "Space & Aerospace",
    "state": "CA",
    "roles_prev": 216,
-   "roles_now": 216,
+   "roles_now": 218,
    "senior_roles_open": 1,
    "last_capital_event": "2026-09"
   },
@@ -504,14 +477,14 @@
    "roles_prev": 184,
    "roles_now": 184,
    "senior_roles_open": 1,
-   "last_capital_event": "2014-11"
+   "last_capital_event": "2026-04"
   },
   {
    "company": "Lumilens",
    "bucket": "Chips & Quantum",
    "state": "CA",
    "roles_prev": 159,
-   "roles_now": 159,
+   "roles_now": 160,
    "senior_roles_open": 1,
    "last_capital_event": null
   },
@@ -543,20 +516,38 @@
    "last_capital_event": null
   },
   {
-   "company": "Loft Orbital",
-   "bucket": "Space & Aerospace",
-   "state": "CA",
-   "roles_prev": 73,
-   "roles_now": 73,
-   "senior_roles_open": 1,
-   "last_capital_event": null
-  },
-  {
    "company": "Kairos Power",
    "bucket": "Nuclear",
    "state": "CA",
    "roles_prev": 64,
    "roles_now": 64,
+   "senior_roles_open": 1,
+   "last_capital_event": null
+  },
+  {
+   "company": "Northwood Space",
+   "bucket": "Space & Aerospace",
+   "state": "CA",
+   "roles_prev": 60,
+   "roles_now": 60,
+   "senior_roles_open": 1,
+   "last_capital_event": "2026-11"
+  },
+  {
+   "company": "Amca",
+   "bucket": "Manufacturing & Materials",
+   "state": "CA",
+   "roles_prev": 54,
+   "roles_now": 54,
+   "senior_roles_open": 1,
+   "last_capital_event": "2026-05"
+  },
+  {
+   "company": "Panthalassa",
+   "bucket": "Power & Grid",
+   "state": "OR",
+   "roles_prev": 51,
+   "roles_now": 51,
    "senior_roles_open": 1,
    "last_capital_event": null
   }
@@ -583,8 +574,8 @@
    "company": "Armada",
    "bucket": "Space & Aerospace",
    "roles_3m_ago": 61,
-   "roles_now": 35,
-   "decline_pct": 42.6,
+   "roles_now": 33,
+   "decline_pct": 45.9,
    "last_capital_event": null
   }
  ],

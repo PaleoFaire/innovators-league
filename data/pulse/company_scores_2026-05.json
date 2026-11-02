@@ -11,6 +11,15 @@
    "last_contract": "2026-04"
   },
   {
+   "company": "Amca",
+   "bucket": "Manufacturing & Materials",
+   "score": 61.9,
+   "roles": 30,
+   "in_hiring_panel": true,
+   "last_capital": "2026-05",
+   "last_contract": null
+  },
+  {
    "company": "Redwood Materials",
    "bucket": "Manufacturing & Materials",
    "score": 61.0,
@@ -83,6 +92,15 @@
    "last_contract": "2026-05"
   },
   {
+   "company": "Skydio",
+   "bucket": "Defence",
+   "score": 45.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-04",
+   "last_contract": "2026-10"
+  },
+  {
    "company": "Firestorm Labs",
    "bucket": "Defence",
    "score": 45.0,
@@ -126,15 +144,6 @@
    "in_hiring_panel": false,
    "last_capital": "2026-03",
    "last_contract": "2026-07"
-  },
-  {
-   "company": "Amca",
-   "bucket": "Manufacturing & Materials",
-   "score": 36.9,
-   "roles": 30,
-   "in_hiring_panel": true,
-   "last_capital": "2024-10",
-   "last_contract": null
   },
   {
    "company": "Overland AI",
@@ -236,6 +245,15 @@
    "last_contract": "2025-12"
   },
   {
+   "company": "Valar Atomics",
+   "bucket": "Nuclear",
+   "score": 27.2,
+   "roles": 33,
+   "in_hiring_panel": true,
+   "last_capital": "2026-08",
+   "last_contract": null
+  },
+  {
    "company": "Ursa Major Technologies",
    "bucket": "Space & Aerospace",
    "score": 26.3,
@@ -287,6 +305,15 @@
    "roles": 0,
    "in_hiring_panel": false,
    "last_capital": "2026-05",
+   "last_contract": null
+  },
+  {
+   "company": "Hermeus",
+   "bucket": "Space & Aerospace",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-04",
    "last_contract": null
   },
   {
@@ -422,33 +449,6 @@
    "roles": 0,
    "in_hiring_panel": false,
    "last_capital": "2026-05",
-   "last_contract": null
-  },
-  {
-   "company": "Uptool",
-   "bucket": "Manufacturing & Materials",
-   "score": 25.0,
-   "roles": 0,
-   "in_hiring_panel": false,
-   "last_capital": "2026-03",
-   "last_contract": null
-  },
-  {
-   "company": "Standard Thermal",
-   "bucket": "Power & Grid",
-   "score": 25.0,
-   "roles": 0,
-   "in_hiring_panel": false,
-   "last_capital": "2026-04",
-   "last_contract": null
-  },
-  {
-   "company": "Pacific Fusion",
-   "bucket": "Nuclear",
-   "score": 24.4,
-   "roles": 35,
-   "in_hiring_panel": true,
-   "last_capital": null,
    "last_contract": null
   }
  ]

@@ -1,0 +1,50 @@
+{
+ "week": "2026-W45",
+ "generated": "2026-11-02",
+ "count": 3,
+ "by_type": {
+  "hiring_surge": 2,
+  "hiring_pullback": 1
+ },
+ "signals": [
+  {
+   "company": "Astro Mechanica",
+   "bucket": "Space & Aerospace",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W45",
+   "evidence": {
+    "roles_4w_ago": 23,
+    "roles_now": 37,
+    "change_pct": 60.9
+   },
+   "last_capital_event": "2024-01"
+  },
+  {
+   "company": "Quantum Space",
+   "bucket": "Space & Aerospace",
+   "state": "MD",
+   "type": "hiring_surge",
+   "week": "2026-W45",
+   "evidence": {
+    "roles_4w_ago": 17,
+    "roles_now": 26,
+    "change_pct": 52.9
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Pyka",
+   "bucket": "Autonomy & Robotics",
+   "state": "CA",
+   "type": "hiring_pullback",
+   "week": "2026-W45",
+   "evidence": {
+    "roles_4w_ago": 22,
+    "roles_now": 15,
+    "change_pct": -31.8
+   },
+   "last_capital_event": null
+  }
+ ]
+}

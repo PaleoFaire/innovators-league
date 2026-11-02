@@ -1,4 +1,4 @@
-# Does hiring precede raising? — generated 2026-11-01
+# Does hiring precede raising? — generated 2026-11-02
 
 Role growth over the three months to M for companies on the panel with ≥5 roles at M-3; raisers = a capital event in M or M+1.
 

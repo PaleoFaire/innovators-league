@@ -1,10 +1,10 @@
 {
  "month": "2026-11",
- "n_postings_with_ranges": 7620,
+ "n_postings_with_ranges": 7614,
  "median_midpoint_by_class": {
-  "software": 195000,
   "other": 175000,
   "hardware": 170000,
+  "software": 195500,
   "commercial": 170000,
   "manufacturing": 148500
  },
@@ -12,7 +12,7 @@
   "CA": 171500,
   "WA": 193000,
   "MA": 169500,
-  "CO": 150000,
+  "CO": 150750,
   "TX": 165000,
   "VA": 186500,
   "OH": 146500,
@@ -45,11 +45,6 @@
    "median_midpoint": 239250
   },
   {
-   "title": "software engineer, robotics tracking and fusion",
-   "n": 6,
-   "median_midpoint": 238500
-  },
-  {
    "title": "software engineer, discovery",
    "n": 4,
    "median_midpoint": 232000
@@ -58,6 +53,11 @@
    "title": "firmware engineer",
    "n": 8,
    "median_midpoint": 224500
+  },
+  {
+   "title": "software engineer, robotics tracking and fusion",
+   "n": 8,
+   "median_midpoint": 222500
   },
   {
    "title": "discovery engineer",
@@ -90,25 +90,25 @@
    "median_midpoint": 222000
   },
   {
+   "title": "software engineer- machine learning",
+   "n": 4,
+   "median_midpoint": 221750
+  },
+  {
    "title": "software engineer, platform",
    "n": 4,
    "median_midpoint": 216800
-  },
-  {
-   "title": "security engineer",
-   "n": 6,
-   "median_midpoint": 215250
   }
  ],
  "most_common_paid_titles": [
   {
    "title": "mechanical engineer",
-   "n": 78,
+   "n": 77,
    "median_midpoint": 155000
   },
   {
    "title": "electrical engineer",
-   "n": 66,
+   "n": 65,
    "median_midpoint": 173500
   },
   {
@@ -132,14 +132,14 @@
    "median_midpoint": 178500
   },
   {
-   "title": "embedded software engineer",
-   "n": 25,
-   "median_midpoint": 154000
-  },
-  {
    "title": "systems engineer",
    "n": 25,
    "median_midpoint": 159500
+  },
+  {
+   "title": "embedded software engineer",
+   "n": 23,
+   "median_midpoint": 160000
   },
   {
    "title": "flight software engineer",
