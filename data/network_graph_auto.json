@@ -6006,6 +6006,11 @@
       "thesisCluster": ""
     },
     {
+      "id": "Arda",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
       "id": "SpaceX-alumni-hub",
       "sector": "alumni",
       "thesisCluster": ""
@@ -11204,7 +11209,7 @@
     }
   ],
   "counts": {
-    "total_nodes": 1207,
+    "total_nodes": 1208,
     "total_edges": 894,
     "competitor_edges": 191,
     "thesis_edges": 695,

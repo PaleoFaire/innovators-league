@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-11-01 12:54:57 UTC
+// Last updated: 2026-11-02 15:10:19 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Palantir Technologies", form: "4", date: "2026-10-30", description: "xslF345X06/wk-form4_1793404885.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-10-30", description: "xslF345X06/wk-form4_1793404846.xml", isIPO: false, ticker: "PLTR" },

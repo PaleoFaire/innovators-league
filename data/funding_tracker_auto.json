@@ -350,6 +350,19 @@
     "roundCount": 1
   },
   {
+    "company": "K2 Space",
+    "totalRaised": "$1B+",
+    "totalRaisedRaw": 1000.0,
+    "lastRound": "Series D",
+    "lastRoundAmount": "$500M",
+    "lastRoundDate": "2026-07",
+    "valuation": "$6.8B",
+    "leadInvestors": [
+      "Kleiner Perkins"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Axiom Space",
     "totalRaised": "$1B+",
     "totalRaisedRaw": 1000.0,
@@ -370,19 +383,6 @@
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "K2 Space",
-    "totalRaised": "$1B+",
-    "totalRaisedRaw": 1000.0,
-    "lastRound": "Series D",
-    "lastRoundAmount": "$500M",
-    "lastRoundDate": "2026-07",
-    "valuation": "$6.8B",
-    "leadInvestors": [
-      "Kleiner Perkins"
     ],
     "roundCount": 1
   },
@@ -582,6 +582,21 @@
       "Khosla Ventures"
     ],
     "roundCount": 1
+  },
+  {
+    "company": "Northwood Space",
+    "totalRaised": "$130M+",
+    "totalRaisedRaw": 475.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$375M",
+    "lastRoundDate": "2026-11",
+    "valuation": "",
+    "leadInvestors": [
+      "a16z",
+      "Washington Harbour Partners",
+      "Andreessen Horowitz"
+    ],
+    "roundCount": 2
   },
   {
     "company": "Unconventional AI",
@@ -1259,20 +1274,6 @@
     "valuation": "",
     "leadInvestors": [
       "U.S. Innovative Technology Fund"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Northwood Space",
-    "totalRaised": "$130M+",
-    "totalRaisedRaw": 130.0,
-    "lastRound": "Series B",
-    "lastRoundAmount": "$100M",
-    "lastRoundDate": "2026-01",
-    "valuation": "",
-    "leadInvestors": [
-      "Washington Harbour Partners",
-      "Andreessen Horowitz"
     ],
     "roundCount": 1
   },
