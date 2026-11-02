@@ -159,6 +159,20 @@
     "roundCount": 1
   },
   {
+    "company": "Shield AI",
+    "totalRaised": "$2B+",
+    "totalRaisedRaw": 2000.0,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$1.5B",
+    "lastRoundDate": "2026-03",
+    "valuation": "$12.7B",
+    "leadInvestors": [
+      "Advent International",
+      "JPMorganChase"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "ICEYE",
     "totalRaised": "$1.8B+",
     "totalRaisedRaw": 1800.0,
@@ -187,18 +201,18 @@
     "roundCount": 2
   },
   {
-    "company": "Shield AI",
-    "totalRaised": "$1.5B+",
-    "totalRaisedRaw": 1500.0,
-    "lastRound": "Series G",
-    "lastRoundAmount": "$1.5B",
-    "lastRoundDate": "2026-03",
-    "valuation": "$12.7B",
+    "company": "Valar Atomics",
+    "totalRaised": "$1.47B+",
+    "totalRaisedRaw": 1470.0,
+    "lastRound": "Series B",
+    "lastRoundAmount": "$1B",
+    "lastRoundDate": "2026-08",
+    "valuation": "$6B",
     "leadInvestors": [
-      "Advent International",
-      "JPMorganChase"
+      "Sequoia Capital",
+      "Undisclosed"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "Mind Robotics",
@@ -207,7 +221,7 @@
     "lastRound": "Funding Round",
     "lastRoundAmount": "$1B",
     "lastRoundDate": "2026-10",
-    "valuation": "$3B+",
+    "valuation": "$3.4B",
     "leadInvestors": [
       "Undisclosed",
       "Kleiner Perkins"
@@ -223,9 +237,10 @@
     "lastRoundDate": "2026-09",
     "valuation": "$4.26B",
     "leadInvestors": [
-      "Undisclosed"
+      "Undisclosed",
+      "137 Ventures"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "Neuralink",
@@ -308,17 +323,18 @@
     "roundCount": 1
   },
   {
-    "company": "Valar Atomics",
-    "totalRaised": "$1B",
+    "company": "Mach Industries",
+    "totalRaised": "$1B+",
     "totalRaisedRaw": 1000.0,
-    "lastRound": "Series B",
-    "lastRoundAmount": "$1B",
-    "lastRoundDate": "2026-08",
-    "valuation": "$6B",
+    "lastRound": "Series C",
+    "lastRoundAmount": "$600M",
+    "lastRoundDate": "2026-09",
+    "valuation": "$3.7B",
     "leadInvestors": [
-      "Sequoia Capital"
+      "Undisclosed",
+      "Infinite Capital"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "Neko Health",
@@ -358,6 +374,19 @@
     "roundCount": 1
   },
   {
+    "company": "K2 Space",
+    "totalRaised": "$1B+",
+    "totalRaisedRaw": 1000.0,
+    "lastRound": "Series D",
+    "lastRoundAmount": "$500M",
+    "lastRoundDate": "2026-07",
+    "valuation": "$6.8B",
+    "leadInvestors": [
+      "Kleiner Perkins"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Rebellions",
     "totalRaised": "$850M",
     "totalRaisedRaw": 850.0,
@@ -385,15 +414,15 @@
     "roundCount": 1
   },
   {
-    "company": "Mach Industries",
-    "totalRaised": "$785M+",
-    "totalRaisedRaw": 785.0,
-    "lastRound": "Series C",
-    "lastRoundAmount": "$600M",
-    "lastRoundDate": "2026-09",
-    "valuation": "$3.7B",
+    "company": "Apex Space",
+    "totalRaised": "$718M+",
+    "totalRaisedRaw": 718.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$200M",
+    "lastRoundDate": "2026-06",
+    "valuation": "$2.3B",
     "leadInvestors": [
-      "Undisclosed"
+      "Glade Brook Capital Partners"
     ],
     "roundCount": 1
   },
@@ -406,9 +435,10 @@
     "lastRoundDate": "2026-08",
     "valuation": "$3B",
     "leadInvestors": [
-      "8VC"
+      "8VC",
+      "Radical Ventures"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "Cellares",
@@ -420,6 +450,19 @@
     "valuation": "",
     "leadInvestors": [
       "BlackRock"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Skydio",
+    "totalRaised": "~$672M",
+    "totalRaisedRaw": 672.0,
+    "lastRound": "Series F",
+    "lastRoundAmount": "$110M",
+    "lastRoundDate": "2026-04",
+    "valuation": "$4.4B",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   },
@@ -451,12 +494,12 @@
   },
   {
     "company": "Varda Space Industries",
-    "totalRaised": "$580M+",
-    "totalRaisedRaw": 580.0,
+    "totalRaised": "$598M",
+    "totalRaisedRaw": 598.0,
     "lastRound": "Series D",
     "lastRoundAmount": "$250M",
     "lastRoundDate": "2026-10",
-    "valuation": "$1.58B",
+    "valuation": "$1.6B",
     "leadInvestors": [
       "Undisclosed",
       "Lux Capital"
@@ -474,6 +517,19 @@
     "leadInvestors": [
       "8VC",
       "Washington Harbour Partners"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Forterra",
+    "totalRaised": "$540M+",
+    "totalRaisedRaw": 540.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$238M",
+    "lastRoundDate": "2025-11",
+    "valuation": "$1B+",
+    "leadInvestors": [
+      "Moore Strategic Ventures"
     ],
     "roundCount": 1
   },
@@ -512,6 +568,19 @@
     "lastRoundDate": "2026-05",
     "valuation": "",
     "leadInvestors": [],
+    "roundCount": 1
+  },
+  {
+    "company": "Hermeus",
+    "totalRaised": "$500M+",
+    "totalRaisedRaw": 500.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$350M",
+    "lastRoundDate": "2026-04",
+    "valuation": "$1B",
+    "leadInvestors": [
+      "Khosla Ventures"
+    ],
     "roundCount": 1
   },
   {
@@ -631,19 +700,6 @@
     "roundCount": 1
   },
   {
-    "company": "Mariana Minerals",
-    "totalRaised": "$405M+",
-    "totalRaisedRaw": 405.0,
-    "lastRound": "Series B",
-    "lastRoundAmount": "$310M",
-    "lastRoundDate": "2026-08",
-    "valuation": "",
-    "leadInvestors": [
-      "Khosla Ventures"
-    ],
-    "roundCount": 1
-  },
-  {
     "company": "Type One Energy",
     "totalRaised": "$400M",
     "totalRaisedRaw": 400.0,
@@ -683,6 +739,19 @@
     "roundCount": 1
   },
   {
+    "company": "Mariana Minerals",
+    "totalRaised": "~$400M",
+    "totalRaisedRaw": 400.0,
+    "lastRound": "Series B",
+    "lastRoundAmount": "$310M",
+    "lastRoundDate": "2026-08",
+    "valuation": "",
+    "leadInvestors": [
+      "Khosla Ventures"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Muon Space",
     "totalRaised": "$386M",
     "totalRaisedRaw": 386.0,
@@ -696,6 +765,19 @@
     "roundCount": 1
   },
   {
+    "company": "Amca",
+    "totalRaised": "$376.5M",
+    "totalRaisedRaw": 376.5,
+    "lastRound": "Series B",
+    "lastRoundAmount": "$300M",
+    "lastRoundDate": "2026-05",
+    "valuation": "$1B+",
+    "leadInvestors": [
+      "Caffeinated Capital"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Endurosat",
     "totalRaised": "$372M+",
     "totalRaisedRaw": 372.0,
@@ -705,6 +787,20 @@
     "valuation": "",
     "leadInvestors": [
       "Riot Ventures"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Neros",
+    "totalRaised": "$370M+",
+    "totalRaisedRaw": 370.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$250M",
+    "lastRoundDate": "2026-08",
+    "valuation": "$2.5B",
+    "leadInvestors": [
+      "Sequoia Capital",
+      "American Strategic Technology Fund"
     ],
     "roundCount": 1
   },
@@ -880,16 +976,15 @@
     "roundCount": 1
   },
   {
-    "company": "Neros",
-    "totalRaised": "$250M",
-    "totalRaisedRaw": 250.0,
-    "lastRound": "Series C",
-    "lastRoundAmount": "$250M",
-    "lastRoundDate": "2026-08",
-    "valuation": "$2.5B",
+    "company": "Arda",
+    "totalRaised": "$232M",
+    "totalRaisedRaw": 232.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$160M",
+    "lastRoundDate": "2026-10",
+    "valuation": "$1.5B",
     "leadInvestors": [
-      "Sequoia Capital",
-      "American Strategic Technology Fund"
+      "Altimeter"
     ],
     "roundCount": 1
   },
@@ -1037,6 +1132,19 @@
     "roundCount": 1
   },
   {
+    "company": "Peak Energy",
+    "totalRaised": "$163M+",
+    "totalRaisedRaw": 163.0,
+    "lastRound": "Series B",
+    "lastRoundAmount": "$108M",
+    "lastRoundDate": "2026-10",
+    "valuation": "",
+    "leadInvestors": [
+      "GM Ventures"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Skyroot Aerospace",
     "totalRaised": "$160M",
     "totalRaisedRaw": 160.0,
@@ -1178,6 +1286,19 @@
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Foundry Robotics",
+    "totalRaised": "$119M",
+    "totalRaisedRaw": 119.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$100M",
+    "lastRoundDate": "2026-10",
+    "valuation": "",
+    "leadInvestors": [
+      "Marlinspike Partners"
     ],
     "roundCount": 1
   },
@@ -1364,19 +1485,6 @@
     "roundCount": 1
   },
   {
-    "company": "Endurance Energy",
-    "totalRaised": "$79M+",
-    "totalRaisedRaw": 79.0,
-    "lastRound": "Series A",
-    "lastRoundAmount": "$54M",
-    "lastRoundDate": "2026-06",
-    "valuation": "",
-    "leadInvestors": [
-      "Founders Fund"
-    ],
-    "roundCount": 1
-  },
-  {
     "company": "NVision Imaging Technologies",
     "totalRaised": "$75M+",
     "totalRaisedRaw": 75.0,
@@ -1438,6 +1546,19 @@
     "valuation": "",
     "leadInvestors": [
       "DiamondStream Partners"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Endurance Energy",
+    "totalRaised": "$63M",
+    "totalRaisedRaw": 63.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$54M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Founders Fund"
     ],
     "roundCount": 1
   },
@@ -1560,6 +1681,32 @@
     "roundCount": 1
   },
   {
+    "company": "Ulysses Robotics",
+    "totalRaised": "$46M",
+    "totalRaisedRaw": 46.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$38M",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Andreessen Horowitz"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Atomic Industries",
+    "totalRaised": "$45M+",
+    "totalRaisedRaw": 45.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$25M",
+    "lastRoundDate": "2025-09",
+    "valuation": "",
+    "leadInvestors": [
+      "MaC Venture Capital"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Charge Robotics",
     "totalRaised": "$43.9M",
     "totalRaisedRaw": 43.9,
@@ -1569,6 +1716,19 @@
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Chariot Defense",
+    "totalRaised": "$41M",
+    "totalRaisedRaw": 41.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$34M",
+    "lastRoundDate": "2026-02",
+    "valuation": "",
+    "leadInvestors": [
+      "Andreessen Horowitz"
     ],
     "roundCount": 1
   },
@@ -1690,6 +1850,19 @@
     "roundCount": 1
   },
   {
+    "company": "Podium Automation",
+    "totalRaised": "$23M+",
+    "totalRaisedRaw": 23.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$18M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Construct Capital"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Aventra",
     "totalRaised": "$20.5M",
     "totalRaisedRaw": 20.5,
@@ -1755,6 +1928,32 @@
     "roundCount": 1
   },
   {
+    "company": "Diode",
+    "totalRaised": "$14M+",
+    "totalRaisedRaw": 14.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$11.4M",
+    "lastRoundDate": "2025-07",
+    "valuation": "",
+    "leadInvestors": [
+      "Andreessen Horowitz"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Unlimited Industries",
+    "totalRaised": "$12M",
+    "totalRaisedRaw": 12.0,
+    "lastRound": "Seed",
+    "lastRoundAmount": "$12M",
+    "lastRoundDate": "2025-12",
+    "valuation": "",
+    "leadInvestors": [
+      "Andreessen Horowitz"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Atlas Motion",
     "totalRaised": "$11.5M",
     "totalRaisedRaw": 11.5,
@@ -1765,6 +1964,19 @@
     "leadInvestors": [
       "Greycroft",
       "Also Capital"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Westmag",
+    "totalRaised": "$11M",
+    "totalRaisedRaw": 11.0,
+    "lastRound": "Seed",
+    "lastRoundAmount": "$11M",
+    "lastRoundDate": "2026-06",
+    "valuation": "",
+    "leadInvestors": [
+      "Andreessen Horowitz"
     ],
     "roundCount": 1
   },

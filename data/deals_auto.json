@@ -372,7 +372,7 @@
   {
     "company": "PLD Space",
     "investor": "Mitsubishi Electric",
-    "amount": "\u20ac108M",
+    "amount": "€108M",
     "round": "Series C",
     "date": "2026-09",
     "valuation": "",
@@ -442,7 +442,7 @@
   {
     "company": "Open Cosmos",
     "investor": "Lightrock",
-    "amount": "\u20ac300M",
+    "amount": "€300M",
     "round": "Funding Round",
     "date": "2026-09",
     "valuation": "",
@@ -942,12 +942,12 @@
   {
     "company": "QuantumDiamonds",
     "investor": "World Fund",
-    "amount": "\u20ac15M",
+    "amount": "€15M",
     "round": "Series A",
     "date": "2026-07",
     "valuation": "",
     "leadOrParticipant": "lead",
-    "headline": "Verified 12 Oct 2026: EU-Startups 9 Jul 2026 (equity portion of the \u20ac91M headline)"
+    "headline": "Verified 12 Oct 2026: EU-Startups 9 Jul 2026 (equity portion of the €91M headline)"
   },
   {
     "company": "Helsing",
@@ -1062,7 +1062,7 @@
   {
     "company": "Quobly",
     "investor": "Bpifrance",
-    "amount": "\u20ac115M",
+    "amount": "€115M",
     "round": "Series A",
     "date": "2026-06",
     "valuation": "",
@@ -1112,10 +1112,10 @@
   {
     "company": "ICEYE",
     "investor": "General Atlantic",
-    "amount": "\u20ac1B",
+    "amount": "€1B",
     "round": "Series F",
     "date": "2026-06",
-    "valuation": "\u20ac10B+",
+    "valuation": "€10B+",
     "leadOrParticipant": "lead",
     "headline": "Verified 12 Oct 2026: Bloomberg 8 Jun 2026; EQT Scaleup Europe co-lead Aug 2026"
   },
@@ -1192,7 +1192,7 @@
   {
     "company": "eleQtron",
     "investor": "Schwarz Digits",
-    "amount": "\u20ac57M",
+    "amount": "€57M",
     "round": "Series A",
     "date": "2026-05",
     "valuation": "",
@@ -1262,7 +1262,7 @@
   {
     "company": "Skeleton Technologies",
     "investor": "Axon Partners",
-    "amount": "\u20ac33M",
+    "amount": "€33M",
     "round": "Pre-IPO",
     "date": "2026-05",
     "valuation": "",
@@ -1432,7 +1432,7 @@
   {
     "company": "Frankenburg Technologies",
     "investor": "Plural",
-    "amount": "\u20ac30M",
+    "amount": "€30M",
     "round": "Series A",
     "date": "2026-02",
     "valuation": "",
@@ -1561,7 +1561,7 @@
   },
   {
     "company": "Vention",
-    "investor": "Investissement Qu\u00e9bec",
+    "investor": "Investissement Québec",
     "amount": "$110M",
     "round": "Series D",
     "date": "2026-01",
@@ -1718,5 +1718,205 @@
     "valuation": "",
     "leadOrParticipant": "lead",
     "headline": "Verified 1 Oct 2026: PR Newswire 5 Mar 2025"
+  },
+  {
+    "company": "Arda",
+    "investor": "Altimeter",
+    "amount": "$160M",
+    "round": "Series A",
+    "date": "2026-10",
+    "valuation": "$1.5B",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026: company release (Business Wire) and CNBC, 20 Oct 2026; co-led with Accel and Khosla Ventures"
+  },
+  {
+    "company": "Peak Energy",
+    "investor": "GM Ventures",
+    "amount": "$108M",
+    "round": "Series B",
+    "date": "2026-10",
+    "valuation": "",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): company release 21 Oct 2026; pv magazine/Mercom 23 Oct 2026"
+  },
+  {
+    "company": "Foundry Robotics",
+    "investor": "Marlinspike Partners",
+    "amount": "$100M",
+    "round": "Series A",
+    "date": "2026-10",
+    "valuation": "",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): company release (Business Wire) 28 Oct 2026"
+  },
+  {
+    "company": "Podium Automation",
+    "investor": "Construct Capital",
+    "amount": "$18M",
+    "round": "Series A",
+    "date": "2026-06",
+    "valuation": "",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): PR Newswire/Pulse 2.0 15 Jun 2026"
+  },
+  {
+    "company": "Apex Space",
+    "investor": "Glade Brook Capital Partners",
+    "amount": "$200M",
+    "round": "Funding Round",
+    "date": "2026-06",
+    "valuation": "$2.3B",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): Payload Space 5 Jun 2026"
+  },
+  {
+    "company": "Forterra",
+    "investor": "Moore Strategic Ventures",
+    "amount": "$238M",
+    "round": "Series C",
+    "date": "2025-11",
+    "valuation": "$1B+",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): company release 12 Nov 2025 (incl. $50M debt); Tectonic Defense 13 Nov 2025"
+  },
+  {
+    "company": "Westmag",
+    "investor": "Andreessen Horowitz",
+    "amount": "$11M",
+    "round": "Seed",
+    "date": "2026-06",
+    "valuation": "",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): Pulse 2.0 4 Jun 2026 (announced at stealth exit; closed Aug 2025)"
+  },
+  {
+    "company": "Diode",
+    "investor": "Andreessen Horowitz",
+    "amount": "$11.4M",
+    "round": "Series A",
+    "date": "2025-07",
+    "valuation": "",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): Business Insider 23 Jul 2025"
+  },
+  {
+    "company": "Ulysses Robotics",
+    "investor": "Andreessen Horowitz",
+    "amount": "$38M",
+    "round": "Series A",
+    "date": "2026-04",
+    "valuation": "",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): Tectonic Defense 17 Apr 2026"
+  },
+  {
+    "company": "Atomic Industries",
+    "investor": "MaC Venture Capital",
+    "amount": "$25M",
+    "round": "Series A",
+    "date": "2025-09",
+    "valuation": "",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): Pulse 2.0 23 Sep 2025; co-led with DTX Ventures"
+  },
+  {
+    "company": "Chariot Defense",
+    "investor": "Andreessen Horowitz",
+    "amount": "$34M",
+    "round": "Series A",
+    "date": "2026-02",
+    "valuation": "",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): Pulse 2.0 25 Feb 2026"
+  },
+  {
+    "company": "Hermeus",
+    "investor": "Khosla Ventures",
+    "amount": "$350M",
+    "round": "Series C",
+    "date": "2026-04",
+    "valuation": "$1B",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): company release 7 Apr 2026 ($200M equity + $150M debt)"
+  },
+  {
+    "company": "Mach Industries",
+    "investor": "Infinite Capital",
+    "amount": "$300M",
+    "round": "Series C",
+    "date": "2026-06",
+    "valuation": "$1.8B",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): TechCrunch 1 Jun 2026; co-led with Ribbit Capital"
+  },
+  {
+    "company": "K2 Space",
+    "investor": "Kleiner Perkins",
+    "amount": "$500M",
+    "round": "Series D",
+    "date": "2026-07",
+    "valuation": "$6.8B",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): PR Newswire/SpaceNews 30 Jul 2026; co-led with ICONIQ"
+  },
+  {
+    "company": "Amca",
+    "investor": "Caffeinated Capital",
+    "amount": "$300M",
+    "round": "Series B",
+    "date": "2026-05",
+    "valuation": "$1B+",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): company release 20 May 2026"
+  },
+  {
+    "company": "Generalist AI",
+    "investor": "Radical Ventures",
+    "amount": "$400M",
+    "round": "Series B",
+    "date": "2026-06",
+    "valuation": "",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): company blog 4 Jun 2026"
+  },
+  {
+    "company": "Impulse Space",
+    "investor": "137 Ventures",
+    "amount": "$500M",
+    "round": "Series D",
+    "date": "2026-06",
+    "valuation": "$4.26B",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): company release 2 Jun 2026; co-led with BANNER VC"
+  },
+  {
+    "company": "Skydio",
+    "investor": "Undisclosed",
+    "amount": "$110M",
+    "round": "Series F",
+    "date": "2026-04",
+    "valuation": "$4.4B",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): DroneXL 23 Apr 2026 (existing investors)"
+  },
+  {
+    "company": "Valar Atomics",
+    "investor": "Undisclosed",
+    "amount": "$340M",
+    "round": "Funding Round",
+    "date": "2026-03",
+    "valuation": "$2B",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): Bloomberg 31 Mar 2026"
+  },
+  {
+    "company": "Unlimited Industries",
+    "investor": "Andreessen Horowitz",
+    "amount": "$12M",
+    "round": "Seed",
+    "date": "2025-12",
+    "valuation": "",
+    "leadOrParticipant": "lead",
+    "headline": "Verified 2 Nov 2026 (AD50 2026 check): GlobeNewswire 3 Dec 2025; co-led with CIV"
   }
 ]

@@ -231,6 +231,14 @@ OVERRIDES = {
     "Easy Aerial": "Drones & Counter-UAS",
     "Monumental Labs": "Advanced Manufacturing",
     "Glacier": "Industrial Automation",
+    # 2 Nov 2026 (AD50 2026 check): rewritten descriptions trip keyword rules; lock the verified subsectors
+    "Neros": "Drones & Counter-UAS",                    # FPV drones; "interceptor" in text
+    "Chaos Industries": "Electronic Warfare & Sensing", # radar maker; "interceptors" in text
+    "General Matter": "Fuels & Isotopes",               # uranium enrichment
+    "Heron Power": "Grid & Power Delivery",             # solid-state transformers; "batteries" in text
+    "Cellares": "Biomanufacturing & Tools",             # automated cell-therapy manufacturing
+    "Epoch Biodesign": "Biomanufacturing & Tools",      # engineered enzymes for recycling
+    "Matter": "Industrial Automation",                  # autonomous final-assembly factories
 }
 
 
