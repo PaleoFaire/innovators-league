@@ -15,9 +15,9 @@
       "count": 7
     },
     "autonomous": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": -1.05,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": -0.48,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 5.57,
+      "avg_change": 4.02,
       "count": 3
     },
     "transportation": {
@@ -74,14 +74,14 @@
       5.84
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      4.32
-    ],
-    [
       "LNZA",
       "LanzaTech",
       3.57
+    ],
+    [
+      "TSLA",
+      "Tesla",
+      3.12
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -16.98
     ]
   ],
-  "lastUpdated": "2026-11-02 22:24:36"
+  "lastUpdated": "2026-11-03 08:00:35"
 }
