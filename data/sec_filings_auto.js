@@ -1,6 +1,14 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-11-02 15:10:19 UTC
+// Last updated: 2026-11-03 13:52:31 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "10-Q", date: "2026-11-03", description: "pltr-20260930.htm", isIPO: false, ticker: "PLTR" },
+  { company: "Upstart Holdings", form: "10-Q", date: "2026-11-03", description: "upst-20260930.htm", isIPO: false, ticker: "UPST" },
+  { company: "Upstart Holdings", form: "8-K", date: "2026-11-03", description: "upst-20261103.htm", isIPO: false, ticker: "UPST" },
+  { company: "Palantir Technologies", form: "8-K", date: "2026-11-02", description: "pltr-20261102.htm", isIPO: false, ticker: "PLTR" },
+  { company: "Oklo", form: "4", date: "2026-11-02", description: "xslF345X06/wk-form4_1793655014.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-11-02", description: "xslF345X06/wk-form4_1793654922.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Recursion Pharmaceuticals", form: "10-Q", date: "2026-11-02", description: "rxrx-20260930.htm", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "8-K", date: "2026-11-02", description: "rxrx-20261031.htm", isIPO: false, ticker: "RXRX" },
   { company: "Palantir Technologies", form: "4", date: "2026-10-30", description: "xslF345X06/wk-form4_1793404885.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-10-30", description: "xslF345X06/wk-form4_1793404846.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-10-30", description: "xslF345X06/wk-form4_1793404813.xml", isIPO: false, ticker: "PLTR" },
@@ -43,12 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Palantir Technologies", form: "4", date: "2026-10-19", description: "xslF345X06/wk-form4_1792454773.xml", isIPO: false, ticker: "PLTR" },
   { company: "AST SpaceMobile", form: "4", date: "2026-10-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "Centrus Energy", form: "8-K", date: "2026-10-19", description: "leu-20261016.htm", isIPO: false, ticker: "LEU" },
-  { company: "UiPath", form: "4", date: "2026-10-19", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "C3.ai", form: "4", date: "2026-10-16", description: "xslF345X06/wk-form4_1792187625.xml", isIPO: false, ticker: "AI" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-10-16", description: "xslF345X06/wk-form4_1792186508.xml", isIPO: false, ticker: "QBTS" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-10-16", description: "xslF345X06/wk-form4_1792186445.xml", isIPO: false, ticker: "QBTS" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-10-16", description: "xslF345X06/wk-form4_1792186394.xml", isIPO: false, ticker: "QBTS" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-10-16", description: "xslF345X06/wk-form4_1792186326.xml", isIPO: false, ticker: "QBTS" },
-  { company: "Agrify Corporation", form: "8-K", date: "2026-10-16", description: "ea0308624-8k_rythm.htm", isIPO: false, ticker: "AGFY" },
-  { company: "Oklo", form: "4", date: "2026-10-15", description: "xslF345X06/wk-form4_1792095818.xml", isIPO: false, ticker: "OKLO" },
 ];
