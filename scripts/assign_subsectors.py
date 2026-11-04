@@ -239,6 +239,7 @@ OVERRIDES = {
     "Cellares": "Biomanufacturing & Tools",             # automated cell-therapy manufacturing
     "Epoch Biodesign": "Biomanufacturing & Tools",      # engineered enzymes for recycling
     "Matter": "Industrial Automation",                  # autonomous final-assembly factories
+    "Ouros Energy": "Batteries & Storage",              # silicon-anode Li-ion cells
 }
 
 
