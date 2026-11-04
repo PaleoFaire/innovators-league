@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -11.74,
+      "avg_change": -12.43,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -8.0,
+      "avg_change": -10.83,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -7.57,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -7.44,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.07,
+      "avg_change": -13.34,
       "count": 3
     },
     "climate": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 0.29,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 3.68,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.46,
+      "avg_change": -10.63,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -1.88,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -7.36,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 5.12,
+      "avg_change": 7.55,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.43,
+      "avg_change": -16.24,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "RIVN",
       "Rivian",
-      12.44
-    ],
-    [
-      "TEM",
-      "Tempus AI",
-      7.83
-    ],
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      2.2
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      1.8
+      19.58
     ],
     [
       "SLDP",
       "Solid Power",
-      0.5
+      6.83
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      5.46
+    ],
+    [
+      "QS",
+      "QuantumScape",
+      4.01
+    ],
+    [
+      "JOBY",
+      "Joby Aviation",
+      0.79
     ]
   ],
   "topLosers": [
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -14.22
+      "AMD",
+      "AMD",
+      -16.44
     ],
     [
-      "QBTS",
-      "D-Wave Quantum",
-      -14.51
+      "DRSHF",
+      "DroneShield",
+      -17.48
+    ],
+    [
+      "OKLO",
+      "Oklo",
+      -18.33
     ],
     [
       "AUR",
       "Aurora Innovation",
-      -16.6
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      -16.71
+      -19.84
     ],
     [
       "ALAB",
       "Astera Labs",
-      -18.51
+      -26.07
     ]
   ],
-  "lastUpdated": "2026-11-04 07:36:29"
+  "lastUpdated": "2026-11-04 20:30:02"
 }
