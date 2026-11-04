@@ -240,6 +240,7 @@ OVERRIDES = {
     "Epoch Biodesign": "Biomanufacturing & Tools",      # engineered enzymes for recycling
     "Matter": "Industrial Automation",                  # autonomous final-assembly factories
     "Ouros Energy": "Batteries & Storage",              # silicon-anode Li-ion cells
+    "Karman Industries": "Industrial Heat & Efficiency", # CO2 heat-processing units for data centers
 }
 
 
