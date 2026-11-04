@@ -191,6 +191,24 @@
   {
     "company": "Rocket Lab",
     "ticker": "RKLB",
+    "form": "4",
+    "date": "2026-11-03",
+    "description": "xslF345X06/edgardoc.xml",
+    "accessionNumber": "0002001011-26-000145",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
+    "form": "4",
+    "date": "2026-11-03",
+    "description": "xslF345X06/edgardoc.xml",
+    "accessionNumber": "0002001011-26-000144",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
     "form": "8-K",
     "date": "2026-10-14",
     "description": "rklb-20261014.htm",
@@ -821,6 +839,24 @@
   {
     "company": "Momentus",
     "ticker": "MNTS",
+    "form": "10-Q",
+    "date": "2026-11-04",
+    "description": "apre-20260930x10q.htm",
+    "accessionNumber": "0001104659-26-122405",
+    "isIPO": false
+  },
+  {
+    "company": "Momentus",
+    "ticker": "MNTS",
+    "form": "8-K",
+    "date": "2026-11-04",
+    "description": "tm2628880d1_8k.htm",
+    "accessionNumber": "0001104659-26-122403",
+    "isIPO": false
+  },
+  {
+    "company": "Momentus",
+    "ticker": "MNTS",
     "form": "8-K",
     "date": "2026-08-28",
     "description": "apre-20260828x8k.htm",
@@ -978,24 +1014,6 @@
     "date": "2026-08-06",
     "description": "xslF345X06/wk-form4_1786046932.xml",
     "accessionNumber": "0001983680-26-000001",
-    "isIPO": false
-  },
-  {
-    "company": "NuScale Power",
-    "ticker": "SMR",
-    "form": "8-K",
-    "date": "2026-08-05",
-    "description": "smr-20260805.htm",
-    "accessionNumber": "0001822966-26-000086",
-    "isIPO": false
-  },
-  {
-    "company": "NuScale Power",
-    "ticker": "SMR",
-    "form": "10-Q",
-    "date": "2026-08-05",
-    "description": "smr-20260630.htm",
-    "accessionNumber": "0001822966-26-000085",
     "isIPO": false
   },
   {
@@ -1347,15 +1365,6 @@
     "date": "2026-08-06",
     "description": "leu-20260630.htm",
     "accessionNumber": "0001628280-26-053863",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "8-K",
-    "date": "2026-08-05",
-    "description": "leu-20260805.htm",
-    "accessionNumber": "0001628280-26-053433",
     "isIPO": false
   },
   {
@@ -2081,6 +2090,15 @@
   {
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
+    "form": "8-K",
+    "date": "2026-11-04",
+    "description": "qbts-20261104.htm",
+    "accessionNumber": "0001907982-26-000172",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
     "form": "4",
     "date": "2026-10-30",
     "description": "xslF345X06/wk-form4_1793394671.xml",
@@ -2304,15 +2322,6 @@
     "isIPO": false
   },
   {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "8-K",
-    "date": "2026-08-05",
-    "description": "qbts-20260805.htm",
-    "accessionNumber": "0001907982-26-000123",
-    "isIPO": false
-  },
-  {
     "company": "Recursion Pharmaceuticals",
     "ticker": "RXRX",
     "form": "10-Q",
@@ -2448,24 +2457,6 @@
     "isIPO": false
   },
   {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "10-Q",
-    "date": "2026-08-05",
-    "description": "rxrx-20260630.htm",
-    "accessionNumber": "0001601830-26-000098",
-    "isIPO": false
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "8-K",
-    "date": "2026-08-05",
-    "description": "rxrx-20260805.htm",
-    "accessionNumber": "0001601830-26-000097",
-    "isIPO": false
-  },
-  {
     "company": "Ginkgo Bioworks",
     "ticker": "DNA",
     "form": "8-K",
@@ -2544,15 +2535,6 @@
     "date": "2026-08-06",
     "description": "dna-20260630.htm",
     "accessionNumber": "0001628280-26-054298",
-    "isIPO": false
-  },
-  {
-    "company": "Ginkgo Bioworks",
-    "ticker": "DNA",
-    "form": "8-K",
-    "date": "2026-08-05",
-    "description": "dna-20260805.htm",
-    "accessionNumber": "0001628280-26-053319",
     "isIPO": false
   },
   {
@@ -2679,6 +2661,24 @@
     "date": "2026-08-07",
     "description": "skyt-20260628.htm",
     "accessionNumber": "0001819974-26-000031",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "10-Q",
+    "date": "2026-11-04",
+    "description": "ea0309433-10q_rythm.htm",
+    "accessionNumber": "0001213900-26-115734",
+    "isIPO": false
+  },
+  {
+    "company": "Agrify Corporation",
+    "ticker": "AGFY",
+    "form": "8-K",
+    "date": "2026-11-04",
+    "description": "ea0310618-8k_rythm.htm",
+    "accessionNumber": "0001213900-26-115732",
     "isIPO": false
   },
   {
@@ -3090,6 +3090,15 @@
     "company": "Astera Labs",
     "ticker": "ALAB",
     "form": "4",
+    "date": "2026-11-03",
+    "description": "xslF345X06/wk-form4_1793749351.xml",
+    "accessionNumber": "0001628280-26-069711",
+    "isIPO": false
+  },
+  {
+    "company": "Astera Labs",
+    "ticker": "ALAB",
+    "form": "4",
     "date": "2026-10-05",
     "description": "xslF345X06/wk-form4_1791236728.xml",
     "accessionNumber": "0001628280-26-065083",
@@ -3138,15 +3147,6 @@
     "date": "2026-08-06",
     "description": "tra-20260630.htm",
     "accessionNumber": "0001628280-26-053737",
-    "isIPO": false
-  },
-  {
-    "company": "Astera Labs",
-    "ticker": "ALAB",
-    "form": "8-K",
-    "date": "2026-08-05",
-    "description": "tra-20260805.htm",
-    "accessionNumber": "0001628280-26-053336",
     "isIPO": false
   },
   {

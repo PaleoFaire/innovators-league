@@ -1,7 +1,7 @@
 [
   {
     "mafia": "SpaceX Mafia",
-    "count": 71,
+    "count": 72,
     "companies": [
       {
         "company": "Plantd Materials",
@@ -184,11 +184,11 @@
         "valuation": ""
       }
     ],
-    "description": "71 companies with founding-team links to SpaceX."
+    "description": "72 companies with founding-team links to SpaceX."
   },
   {
     "mafia": "Y Combinator",
-    "count": 26,
+    "count": 30,
     "companies": [
       {
         "company": "Revoy",
@@ -345,9 +345,33 @@
         "sector": "Robotics & Manufacturing",
         "totalRaised": "$11M+",
         "valuation": "Undisclosed"
+      },
+      {
+        "company": "Tensr",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "Undisclosed",
+        "valuation": ""
+      },
+      {
+        "company": "Inflection Space Systems",
+        "sector": "Space & Aerospace",
+        "totalRaised": "Undisclosed",
+        "valuation": ""
+      },
+      {
+        "company": "Applied Electrodynamics",
+        "sector": "Housing & Construction",
+        "totalRaised": "Undisclosed",
+        "valuation": ""
+      },
+      {
+        "company": "Edgerun",
+        "sector": "Defense & Security",
+        "totalRaised": "Undisclosed",
+        "valuation": ""
       }
     ],
-    "description": "26 companies with founding-team links to Y Combinator."
+    "description": "30 companies with founding-team links to Y Combinator."
   },
   {
     "mafia": "Google/DeepMind",
@@ -479,6 +503,37 @@
     "description": "4 companies with founding-team links to Palantir."
   },
   {
+    "mafia": "Apple Mafia",
+    "count": 4,
+    "companies": [
+      {
+        "company": "Tenstorrent",
+        "sector": "Chips & Semiconductors",
+        "totalRaised": "$2.5B+",
+        "valuation": "$6.2B"
+      },
+      {
+        "company": "Volund Manufacturing",
+        "sector": "Defense & Security",
+        "totalRaised": "$12M",
+        "valuation": ""
+      },
+      {
+        "company": "Maven Robotics",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "$100M+",
+        "valuation": "Undisclosed"
+      },
+      {
+        "company": "Applied Electrodynamics",
+        "sector": "Housing & Construction",
+        "totalRaised": "Undisclosed",
+        "valuation": ""
+      }
+    ],
+    "description": "4 companies with founding-team links to Apple."
+  },
+  {
     "mafia": "NASA / JPL",
     "count": 4,
     "companies": [
@@ -558,31 +613,6 @@
       }
     ],
     "description": "3 companies with founding-team links to OpenAI."
-  },
-  {
-    "mafia": "Apple Mafia",
-    "count": 3,
-    "companies": [
-      {
-        "company": "Tenstorrent",
-        "sector": "Chips & Semiconductors",
-        "totalRaised": "$2.5B+",
-        "valuation": "$6.2B"
-      },
-      {
-        "company": "Volund Manufacturing",
-        "sector": "Defense & Security",
-        "totalRaised": "$12M",
-        "valuation": ""
-      },
-      {
-        "company": "Maven Robotics",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$100M+",
-        "valuation": "Undisclosed"
-      }
-    ],
-    "description": "3 companies with founding-team links to Apple."
   },
   {
     "mafia": "Anduril Mafia",

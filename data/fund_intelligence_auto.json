@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-03T14:09:19.703075Z",
+  "generated_at": "2026-11-04T16:56:38.683110Z",
   "platform": {
-    "companiesTracked": 1202,
+    "companiesTracked": 1211,
     "sectorsMonitored": 16,
-    "totalCapitalRaisedTracked": "$464.2B",
-    "totalValuationTracked": "$1756.2B",
-    "companiesWithValuation": 202,
-    "govContractsTracked": 180,
+    "totalCapitalRaisedTracked": "$475.7B",
+    "totalValuationTracked": "$1801.8B",
+    "companiesWithValuation": 216,
+    "govContractsTracked": 154,
     "sbirAwardsTracked": 341,
-    "dealsTracked": 193,
-    "newsItemsTracked": 22,
-    "dataPointsUpdated": "48,080+"
+    "dealsTracked": 237,
+    "newsItemsTracked": 23,
+    "dataPointsUpdated": "48,440+"
   },
   "topFunds": [
     {
       "fund": "a16z",
-      "portfolio_count": 26,
+      "portfolio_count": 27,
       "companies": [
         "Anduril Industries",
         "Atlas Atomics",
@@ -25,8 +25,8 @@
         "Castelion",
         "Chariot Defense",
         "Diode",
-        "Endeavor Optical Networks",
-        "Forterra"
+        "Echo Neurotechnologies",
+        "Endeavor Optical Networks"
       ]
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "fund": "Founders Fund",
-      "portfolio_count": 18,
+      "portfolio_count": 19,
       "companies": [
         "Amca",
         "American Terawatt",
@@ -63,7 +63,7 @@
     },
     {
       "fund": "Khosla Ventures",
-      "portfolio_count": 14,
+      "portfolio_count": 15,
       "companies": [
         "Arda",
         "Foundry Robotics",
@@ -79,18 +79,18 @@
     },
     {
       "fund": "General Catalyst",
-      "portfolio_count": 12,
+      "portfolio_count": 14,
       "companies": [
         "Alsym Energy",
         "Atlas Atomics",
         "Collaborative Robotics",
         "Endeavor Optical Networks",
         "General Intuition",
+        "Lumaril",
+        "Minerva Humanoids",
         "Onodrim Industries",
         "Pacific Fusion",
-        "Raphe mPhibr",
-        "Skyroot Aerospace",
-        "Thatch"
+        "Raphe mPhibr"
       ]
     },
     {
@@ -136,6 +136,19 @@
       ]
     },
     {
+      "fund": "Accel",
+      "portfolio_count": 7,
+      "companies": [
+        "Arda",
+        "Armadin",
+        "Blackshark.ai",
+        "Lazarus Energy Systems",
+        "Mind Robotics",
+        "Tensr",
+        "True Anomaly"
+      ]
+    },
+    {
       "fund": "Lux Capital",
       "portfolio_count": 7,
       "companies": [
@@ -159,18 +172,6 @@
         "Neko Health",
         "Telesat Lightspeed",
         "Unconventional AI"
-      ]
-    },
-    {
-      "fund": "Accel",
-      "portfolio_count": 6,
-      "companies": [
-        "Arda",
-        "Armadin",
-        "Blackshark.ai",
-        "Lazarus Energy Systems",
-        "Mind Robotics",
-        "True Anomaly"
       ]
     },
     {
@@ -271,18 +272,18 @@
     }
   ],
   "sectorConcentration": {
-    "Space & Aerospace": 205,
-    "Robotics & Manufacturing": 196,
-    "Defense & Security": 183,
+    "Space & Aerospace": 206,
+    "Robotics & Manufacturing": 200,
+    "Defense & Security": 185,
     "Climate & Energy": 181,
     "Chips & Semiconductors": 91,
-    "Biotech & Health": 90,
+    "Biotech & Health": 91,
     "Nuclear Energy": 71,
     "Quantum Computing": 52,
     "Drones & Autonomous": 44,
     "Transportation": 25,
     "AI & Software": 21,
-    "Housing & Construction": 14,
+    "Housing & Construction": 15,
     "Ocean & Maritime": 13,
     "Infrastructure & Logistics": 7,
     "Consumer Tech": 5

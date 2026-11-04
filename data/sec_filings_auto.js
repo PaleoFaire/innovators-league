@@ -1,9 +1,17 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-11-03 13:52:31 UTC
+// Last updated: 2026-11-04 14:00:04 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Momentus", form: "10-Q", date: "2026-11-04", description: "apre-20260930x10q.htm", isIPO: false, ticker: "MNTS" },
+  { company: "Momentus", form: "8-K", date: "2026-11-04", description: "tm2628880d1_8k.htm", isIPO: false, ticker: "MNTS" },
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-11-04", description: "qbts-20261104.htm", isIPO: false, ticker: "QBTS" },
+  { company: "Agrify Corporation", form: "10-Q", date: "2026-11-04", description: "ea0309433-10q_rythm.htm", isIPO: false, ticker: "AGFY" },
+  { company: "Agrify Corporation", form: "8-K", date: "2026-11-04", description: "ea0310618-8k_rythm.htm", isIPO: false, ticker: "AGFY" },
   { company: "Palantir Technologies", form: "10-Q", date: "2026-11-03", description: "pltr-20260930.htm", isIPO: false, ticker: "PLTR" },
+  { company: "Rocket Lab", form: "4", date: "2026-11-03", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "4", date: "2026-11-03", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Upstart Holdings", form: "10-Q", date: "2026-11-03", description: "upst-20260930.htm", isIPO: false, ticker: "UPST" },
   { company: "Upstart Holdings", form: "8-K", date: "2026-11-03", description: "upst-20261103.htm", isIPO: false, ticker: "UPST" },
+  { company: "Astera Labs", form: "4", date: "2026-11-03", description: "xslF345X06/wk-form4_1793749351.xml", isIPO: false, ticker: "ALAB" },
   { company: "Palantir Technologies", form: "8-K", date: "2026-11-02", description: "pltr-20261102.htm", isIPO: false, ticker: "PLTR" },
   { company: "Oklo", form: "4", date: "2026-11-02", description: "xslF345X06/wk-form4_1793655014.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-11-02", description: "xslF345X06/wk-form4_1793654922.xml", isIPO: false, ticker: "OKLO" },
@@ -43,12 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Rivian", form: "4", date: "2026-10-22", description: "xslF345X06/wk-form4_1792717008.xml", isIPO: false, ticker: "RIVN" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-10-21", description: "xslF345X06/wk-form4_1792613221.xml", isIPO: false, ticker: "DNA" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-10-21", description: "xslF345X06/wk-form4_1792613197.xml", isIPO: false, ticker: "DNA" },
-  { company: "Ginkgo Bioworks", form: "4", date: "2026-10-21", description: "xslF345X06/wk-form4_1792613163.xml", isIPO: false, ticker: "DNA" },
-  { company: "Ginkgo Bioworks", form: "4", date: "2026-10-21", description: "xslF345X06/wk-form4_1792613131.xml", isIPO: false, ticker: "DNA" },
-  { company: "AST SpaceMobile", form: "8-K", date: "2026-10-20", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
-  { company: "Oklo", form: "4", date: "2026-10-20", description: "xslF345X06/wk-form4_1792527961.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Upstart Holdings", form: "8-K", date: "2026-10-20", description: "upst-20261016.htm", isIPO: false, ticker: "UPST" },
-  { company: "Palantir Technologies", form: "4", date: "2026-10-19", description: "xslF345X06/wk-form4_1792454773.xml", isIPO: false, ticker: "PLTR" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-10-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "Centrus Energy", form: "8-K", date: "2026-10-19", description: "leu-20261016.htm", isIPO: false, ticker: "LEU" },
 ];
