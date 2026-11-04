@@ -1,90 +1,122 @@
 [
   {
-    "company": "SpaceX",
-    "status": "IPO Imminent \u2014 Targeting Mid-2026",
+    "company": "Agility Robotics",
+    "status": "SPAC Vote Passed 2 Nov — Trading Expected 5 Nov (AGLT)",
     "likelihood": "high",
-    "estimatedDate": "Mid-2026",
-    "estimatedValuation": "$1.5T+",
+    "estimatedDate": "Nov 2026",
+    "estimatedValuation": "$2.5B",
+    "sector": "Robotics & Manufacturing"
+  },
+  {
+    "company": "Quantum Space",
+    "status": "S-4 Effective 29 Oct — SPAC Vote Pending (NYSE)",
+    "likelihood": "high",
+    "estimatedDate": "Q4 2026",
+    "estimatedValuation": "$1.2B",
     "sector": "Space & Aerospace"
   },
   {
-    "company": "Cerebras",
-    "status": "S-1 Filed, Targeting Q2 2026",
-    "likelihood": "high",
-    "estimatedDate": "Q2 2026",
-    "estimatedValuation": "$22B+",
-    "sector": "Chips & Semiconductors"
+    "company": "Elroy Air",
+    "status": "SPAC Merger Amended 28 Oct — S-4/A Filed",
+    "likelihood": "medium",
+    "estimatedDate": "Late 2026",
+    "estimatedValuation": "$800M",
+    "sector": "Drones & Autonomous"
+  },
+  {
+    "company": "Nth Cycle",
+    "status": "SPAC Merger Pending — S-4/A Filed 9 Oct",
+    "likelihood": "medium",
+    "estimatedDate": "Late 2026",
+    "estimatedValuation": "$585M",
+    "sector": "Climate & Energy"
+  },
+  {
+    "company": "Ursa Major Technologies",
+    "status": "SPAC Deal Signed — Close Expected Q1 2027",
+    "likelihood": "medium",
+    "estimatedDate": "Q1 2027",
+    "estimatedValuation": "$2.3B",
+    "sector": "Space & Aerospace"
+  },
+  {
+    "company": "Gravitics",
+    "status": "Reverse Merger Pending — Offering Cut to ~$50M",
+    "likelihood": "low",
+    "estimatedDate": "Pending",
+    "estimatedValuation": "Undisclosed",
+    "sector": "Space & Aerospace"
   },
   {
     "company": "Databricks",
-    "status": "IPO-Ready, CEO Confirmed",
+    "status": "IPO-Ready — Raised $5B in Aug 2026",
     "likelihood": "high",
-    "estimatedDate": "2026",
-    "estimatedValuation": "$134B+",
+    "estimatedDate": "2027",
+    "estimatedValuation": "$190B",
     "sector": "AI & Software"
   },
   {
     "company": "Anduril Industries",
-    "status": "Will 'Definitely' Go Public \u2014 CEO",
-    "likelihood": "high",
-    "estimatedDate": "2026-2027",
-    "estimatedValuation": "$78B+",
+    "status": "CEO: Will Go Public, Not Mid-Hype — $90B Tender (Oct)",
+    "likelihood": "medium",
+    "estimatedDate": "2027+",
+    "estimatedValuation": "$90B",
     "sector": "Defense & Security"
+  },
+  {
+    "company": "Stripe",
+    "status": "Heavily Speculated — $159B Tender (Feb 2026)",
+    "likelihood": "medium",
+    "estimatedDate": "2027+",
+    "estimatedValuation": "$159B",
+    "sector": "AI & Software"
   },
   {
     "company": "Applied Intuition",
     "status": "Likely Last Private Round",
     "likelihood": "medium",
-    "estimatedDate": "2026-2027",
-    "estimatedValuation": "$15B+",
+    "estimatedDate": "2027",
+    "estimatedValuation": "$15B",
     "sector": "AI & Software"
   },
   {
-    "company": "Stripe",
-    "status": "Heavily Speculated",
-    "likelihood": "medium",
-    "estimatedDate": "2026-2027",
-    "estimatedValuation": "$129B+",
-    "sector": "AI & Software"
+    "company": "Helion",
+    "status": "Building Orion Plant for Microsoft",
+    "likelihood": "low",
+    "estimatedDate": "2029+",
+    "estimatedValuation": "$15.5B",
+    "sector": "Nuclear Energy"
   },
   {
     "company": "Shield AI",
     "status": "IPO Candidate",
     "likelihood": "medium",
     "estimatedDate": "2027-2028",
-    "estimatedValuation": "$10B+",
+    "estimatedValuation": "$12.7B",
     "sector": "Defense & Security"
-  },
-  {
-    "company": "Boom Supersonic",
-    "status": "Pre-Revenue, XB-1 Complete",
-    "likelihood": "low",
-    "estimatedDate": "2028+",
-    "estimatedValuation": "$3B+",
-    "sector": "Supersonic & Hypersonic"
-  },
-  {
-    "company": "Helion",
-    "status": "Pre-Demonstration",
-    "likelihood": "low",
-    "estimatedDate": "2029+",
-    "estimatedValuation": "$10B+",
-    "sector": "Nuclear Energy"
-  },
-  {
-    "company": "Hadrian",
-    "status": "Revenue Growing",
-    "likelihood": "medium",
-    "estimatedDate": "2027-2028",
-    "estimatedValuation": "$5B+",
-    "sector": "Robotics & Manufacturing"
   },
   {
     "company": "Saronic",
     "status": "Rapid Growth, USN Contracts",
     "likelihood": "medium",
     "estimatedDate": "2027-2028",
-    "estimatedValuation": "$8B+",
+    "estimatedValuation": "$9.25B",
     "sector": "Defense & Security"
+  },
+  {
+    "company": "Hadrian",
+    "status": "Revenue Growing — Lockheed Production Deal",
+    "likelihood": "medium",
+    "estimatedDate": "2027-2028",
+    "estimatedValuation": "$7.87B",
+    "sector": "Robotics & Manufacturing"
+  },
+  {
+    "company": "Boom Supersonic",
+    "status": "Pre-Revenue, XB-1 Complete",
+    "likelihood": "low",
+    "estimatedDate": "2028+",
+    "estimatedValuation": "$1.5B",
+    "sector": "Supersonic & Hypersonic"
   }
 ]

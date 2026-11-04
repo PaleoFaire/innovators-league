@@ -118,7 +118,7 @@ def update_sec_filings(data_js_content):
     js_array += "];"
 
     # Replace existing SEC_FILINGS_LIVE
-    pattern = r'const SEC_FILINGS_LIVE = \[[\s\S]*?\];'
+    pattern = r'(?://\s*(?:Auto-updated|Last updated)[^\n]*\n)*const SEC_FILINGS_LIVE = \[[\s\S]*?\];'
     if re.search(pattern, data_js_content):
         data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
         print("  Updated SEC_FILINGS_LIVE")
@@ -164,7 +164,7 @@ def update_company_signals(data_js_content):
     js_array += "];"
 
     # Replace existing COMPANY_SIGNALS
-    pattern = r'const COMPANY_SIGNALS = \[[\s\S]*?\];'
+    pattern = r'(?://\s*(?:Auto-updated|Last updated)[^\n]*\n)*const COMPANY_SIGNALS = \[[\s\S]*?\];'
     if re.search(pattern, data_js_content):
         data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
         print("  Updated COMPANY_SIGNALS")
@@ -200,7 +200,7 @@ def update_gov_contracts(data_js_content):
     js_array += "];"
 
     # Replace existing GOV_CONTRACTS (but not GOV_CONTRACTS_AUTO)
-    pattern = r'const GOV_CONTRACTS = \[[\s\S]*?\];'
+    pattern = r'(?://\s*(?:Auto-updated|Last updated)[^\n]*\n)*const GOV_CONTRACTS = \[[\s\S]*?\];'
     if re.search(pattern, data_js_content):
         data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
         print("  Updated GOV_CONTRACTS")
@@ -242,7 +242,7 @@ def update_deal_tracker(data_js_content):
 
     js_array += "];"
 
-    pattern = r'const DEAL_TRACKER = \[[\s\S]*?\];'
+    pattern = r'(?://\s*(?:Auto-updated|Last updated)[^\n]*\n)*const DEAL_TRACKER = \[[\s\S]*?\];'
     if re.search(pattern, data_js_content):
         data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
         print("  Updated DEAL_TRACKER")
@@ -312,7 +312,7 @@ def update_ipo_pipeline(data_js_content):
 
     js_array += "];"
 
-    pattern = r'const IPO_PIPELINE = \[[\s\S]*?\];'
+    pattern = r'(?://\s*(?:Auto-updated|Last updated)[^\n]*\n)*const IPO_PIPELINE = \[[\s\S]*?\];'
     if re.search(pattern, data_js_content):
         data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
         print("  Updated IPO_PIPELINE")
@@ -345,7 +345,7 @@ def update_revenue_intel(data_js_content):
 
     js_array += "];"
 
-    pattern = r'const REVENUE_INTEL = \[[\s\S]*?\];'
+    pattern = r'(?://\s*(?:Auto-updated|Last updated)[^\n]*\n)*const REVENUE_INTEL = \[[\s\S]*?\];'
     if re.search(pattern, data_js_content):
         data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
         print("  Updated REVENUE_INTEL")
@@ -1389,7 +1389,7 @@ def update_contractor_readiness(data_js_content):
         return data_js_content
 
     # Parse existing CONTRACTOR_READINESS
-    pattern = r'const CONTRACTOR_READINESS = \[([\s\S]*?)\];'
+    pattern = r'(?://\s*(?:Auto-updated|Last updated)[^\n]*\n)*const CONTRACTOR_READINESS = \[([\s\S]*?)\];'
     match = re.search(pattern, data_js_content)
     if not match:
         print("  CONTRACTOR_READINESS not found in data.js, skipping...")
@@ -1527,7 +1527,7 @@ def update_news_feed(data_js_content):
         return data_js_content
 
     # Parse existing curated NEWS_FEED entries (those with rosAnalysis)
-    pattern = r'const NEWS_FEED = \[([\s\S]*?)\];'
+    pattern = r'(?://\s*(?:Auto-updated|Last updated)[^\n]*\n)*const NEWS_FEED = \[([\s\S]*?)\];'
     match = re.search(pattern, data_js_content)
     if not match:
         print("  NEWS_FEED not found in data.js, skipping...")
@@ -1857,7 +1857,7 @@ def update_patent_intel(data_js_content):
             auto_data[entry["company"]] = entry
 
     # Parse existing curated PATENT_INTEL entries to preserve ipMoatScore, notablePatents, note
-    pattern = r'const PATENT_INTEL = \[([\s\S]*?)\];'
+    pattern = r'(?://\s*(?:Auto-updated|Last updated)[^\n]*\n)*const PATENT_INTEL = \[([\s\S]*?)\];'
     match = re.search(pattern, data_js_content)
     if not match:
         print("  PATENT_INTEL not found in data.js, skipping...")
@@ -2015,7 +2015,7 @@ def update_valley_of_death(data_js_content):
         return data_js_content
 
     # Parse existing VALLEY_OF_DEATH entries
-    pattern = r'const VALLEY_OF_DEATH = \[([\s\S]*?)\];'
+    pattern = r'(?://\s*(?:Auto-updated|Last updated)[^\n]*\n)*const VALLEY_OF_DEATH = \[([\s\S]*?)\];'
     match = re.search(pattern, data_js_content)
     if not match:
         print("  VALLEY_OF_DEATH not found in data.js, skipping...")
@@ -2223,7 +2223,7 @@ def update_deal_flow_signals(data_js_content):
 
     # Parse existing curated entries to preserve editorial fields
     curated = {}
-    pattern = r'const DEAL_FLOW_SIGNALS = \[([\s\S]*?)\];'
+    pattern = r'(?://\s*(?:Auto-updated|Last updated)[^\n]*\n)*const DEAL_FLOW_SIGNALS = \[([\s\S]*?)\];'
     match = re.search(pattern, data_js_content)
     if match:
         # Extract company names and their curated fields from existing data
@@ -2583,7 +2583,7 @@ def update_gov_demand_tracker(data_js_content):
 
     # Parse existing curated entries
     curated_entries = {}
-    pattern = r'const GOV_DEMAND_TRACKER = \[([\s\S]*?)\];'
+    pattern = r'(?://\s*(?:Auto-updated|Last updated)[^\n]*\n)*const GOV_DEMAND_TRACKER = \[([\s\S]*?)\];'
     match = re.search(pattern, data_js_content)
     if match:
         id_pattern = r'id:\s*"([^"]+)"'
@@ -2802,7 +2802,7 @@ def update_budget_signals(data_js_content):
         return data_js_content
 
     # Update beneficiaries in existing BUDGET_SIGNALS entries
-    pattern = r'const BUDGET_SIGNALS = \[([\s\S]*?)\];'
+    pattern = r'(?://\s*(?:Auto-updated|Last updated)[^\n]*\n)*const BUDGET_SIGNALS = \[([\s\S]*?)\];'
     match = re.search(pattern, data_js_content)
     if not match:
         print("  BUDGET_SIGNALS not found in data.js")
