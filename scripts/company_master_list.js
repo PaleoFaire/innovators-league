@@ -7,8 +7,8 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1304
- * Last updated: 2026-11-02
+ * Total companies: 1305
+ * Last updated: 2026-11-04
  * 
  * Each company has:
  *   - name: Official company name
@@ -1364,6 +1364,8 @@ const MASTER_COMPANY_LIST = [
   { name: "Sophia Space", aliases: ["SophiaSpace"], sector: "space", ticker: null },
   // ─── 02 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
   { name: "Arda", aliases: [], sector: "robotics", ticker: null },
+  // ─── 04 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
+  { name: "CircuitHub", aliases: [], sector: "robotics", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════

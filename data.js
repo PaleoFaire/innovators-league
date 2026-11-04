@@ -59017,6 +59017,31 @@ const COMPANIES = [
     signal: "hot",
     source: "Verified 2 Nov 2026: arda.ai (title \"Arda Industries – AI for Manufacturing\"); company release via Business Wire/Morningstar, 20 Oct 2026 (founders, $232M = $72M seed + $160M Series A, leads, $1.5B); CNBC 20 Oct 2026; The Next Web 20 Oct 2026 (\"We started Arda in 2025\"); a16z American Dynamism 50 2026 (29 Oct 2026)",
     addedDate: "2026-11"
+  },
+  {
+    name: "CircuitHub",
+    status: "active",
+    sector: "Robotics & Manufacturing",
+    subsector: "Industrial Automation",
+    description: "On-demand circuit-board assembly from The Grid, its automated factory in South Deerfield, Massachusetts, where levitating movers carry each board and its parts between robots that print solder paste, place parts, reflow and inspect. Because every board takes its own route, the line needs no changeovers between designs, so prototypes and production batches ship in as little as three days, ordered through a browser-based quoting platform. CircuitHub says the factory is about 10x better than a conventional line and, in Oct 2026, that it matches Chinese suppliers on price and beats them on speed for some orders. Raised $28M led by Plural in May 2026 to expand automated factories across the US and Europe; it also has engineering and manufacturing in Cambridge, UK.",
+    founder: "Andrew Seddon (founder, CEO)",
+    location: "South Deerfield, MA",
+    state: "MA",
+    country: "United States",
+    lat: 42.4773,
+    lng: -72.6079,
+    founded: 2011,
+    fundingStage: "Undisclosed",
+    totalRaised: "~$46M",
+    website: "https://www.circuithub.com",
+    investors: ["Plural (lead, 2026)"],
+    tags: ["electronics manufacturing", "PCB assembly", "factory automation", "reshoring", "physical AI supply chain"],
+    techApproach: "High-mix assembly line in which levitating movers route each board individually between paste-printing, placement, reflow and inspection robots, so many designs run at once with no changeovers; quoting and job setup are automated from uploaded design files.",
+    insight: "High-mix, low-volume electronics (prototypes, test stations and short runs for robotics, space and defense) has resisted automation and largely moved to Asia. A line with no changeover cost turns small batches into a software problem; if CircuitHub's speed and price claims hold, US hardware teams can iterate on boards in days without depending on Chinese suppliers.",
+    recentEvent: { type: "milestone", text: "Expanding its robotic Massachusetts factory for physical-AI demand; says it now matches Chinese PCB suppliers on price and beats them on speed for some orders", date: "2026-10" },
+    signal: "rising",
+    source: "Verified 4 Nov 2026: circuithub.com (The Grid; offices: South Deerfield, MA engineering & manufacturing, Cambridge UK, London); SEC Form D filings, CircuitHub, Inc. (CIK 1708548): first sale Dec 2011, $4.3M (2020), $2.0M (2021), $9.7M (2023), $25.5M of $29.4M (Apr 2026); Tech.eu and SiliconANGLE, 20 May 2026 ($28M led by Plural; founded by CEO Andrew Seddon); The Business Journals, 26 Oct 2026; Fierce Sensors, 27 Oct 2026; TechRadar, 2 Nov 2026; S3 video \"Inside the Secret PCB Factory in Massachusetts\", 31 Oct 2026",
+    addedDate: "2026-11"
   }
 ];
 
