@@ -242,6 +242,10 @@ OVERRIDES = {
     "Ouros Energy": "Batteries & Storage",              # silicon-anode Li-ion cells
     "Karman Industries": "Industrial Heat & Efficiency", # CO2 heat-processing units for data centers
     "Mindgrove Technologies": "Sensors & Specialty Silicon", # RISC-V microcontrollers
+    "Purple Rhombus": "Drones & Counter-UAS",           # attritable Group 2 strike/ISR drones
+    "Tensr": "Advanced Manufacturing",                  # robotic contract micro-factory
+    "Kyber Labs": "Industrial Automation",              # dexterous robot hands for assembly
+    "Edgerun": "General",                               # soldier exoskeletons
 }
 
 

@@ -7,7 +7,7 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1305
+ * Total companies: 1313
  * Last updated: 2026-11-04
  * 
  * Each company has:
@@ -1366,6 +1366,15 @@ const MASTER_COMPANY_LIST = [
   { name: "Arda", aliases: [], sector: "robotics", ticker: null },
   // ─── 04 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
   { name: "CircuitHub", aliases: [], sector: "robotics", ticker: null },
+  // ─── 04 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
+  { name: "Echo Neurotechnologies", aliases: ["EchoNeurotechnologies"], sector: "biotech", ticker: null },
+  { name: "Applied Electrodynamics", aliases: ["AppliedElectrodynamics"], sector: "construction", ticker: null },
+  { name: "Edgerun", aliases: [], sector: "defense", ticker: null },
+  { name: "Purple Rhombus", aliases: ["PurpleRhombus"], sector: "defense", ticker: null },
+  { name: "Tensr", aliases: [], sector: "manufacturing", ticker: null },
+  { name: "Kyber Labs", aliases: ["KyberLabs"], sector: "robotics", ticker: null },
+  { name: "Minerva Humanoids", aliases: ["MinervaHumanoids"], sector: "robotics", ticker: null },
+  { name: "Inflection Space Systems", aliases: ["InflectionSpaceSystems"], sector: "space", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════
