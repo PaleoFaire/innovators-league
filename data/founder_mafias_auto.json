@@ -1,12 +1,18 @@
 [
   {
     "mafia": "SpaceX Mafia",
-    "count": 26,
+    "count": 71,
     "companies": [
       {
         "company": "Plantd Materials",
         "sector": "Housing & Construction",
-        "totalRaised": "$42M",
+        "totalRaised": "$47.5M",
+        "valuation": ""
+      },
+      {
+        "company": "Critical Loop",
+        "sector": "Climate & Energy",
+        "totalRaised": "$49M",
         "valuation": ""
       },
       {
@@ -16,9 +22,33 @@
         "valuation": ""
       },
       {
+        "company": "Farcast",
+        "sector": "Space & Aerospace",
+        "totalRaised": "$23.6M",
+        "valuation": ""
+      },
+      {
         "company": "1872",
         "sector": "Robotics & Manufacturing",
         "totalRaised": "$15M",
+        "valuation": ""
+      },
+      {
+        "company": "Resurgent Industries",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "$19.2M",
+        "valuation": ""
+      },
+      {
+        "company": "Nine Fives",
+        "sector": "Chips & Semiconductors",
+        "totalRaised": "$500K",
+        "valuation": ""
+      },
+      {
+        "company": "Ironstead",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "Undisclosed",
         "valuation": ""
       },
       {
@@ -34,6 +64,12 @@
         "valuation": ""
       },
       {
+        "company": "Beyond Reach Labs",
+        "sector": "Space & Aerospace",
+        "totalRaised": "$10M+",
+        "valuation": ""
+      },
+      {
         "company": "Lux Aeterna",
         "sector": "Space & Aerospace",
         "totalRaised": "$14M",
@@ -46,9 +82,27 @@
         "valuation": "$13B"
       },
       {
+        "company": "CX2 Industries",
+        "sector": "Defense & Security",
+        "totalRaised": "$46M",
+        "valuation": ""
+      },
+      {
         "company": "Andrenam",
         "sector": "Defense & Security",
         "totalRaised": "$30M",
+        "valuation": ""
+      },
+      {
+        "company": "Radiant",
+        "sector": "Nuclear Energy",
+        "totalRaised": "$465M+",
+        "valuation": ""
+      },
+      {
+        "company": "Antares",
+        "sector": "Nuclear Energy",
+        "totalRaised": "$596M",
         "valuation": ""
       },
       {
@@ -58,9 +112,69 @@
         "valuation": "Undisclosed"
       },
       {
+        "company": "Apex Space",
+        "sector": "Space & Aerospace",
+        "totalRaised": "$718M+",
+        "valuation": "$2.3B"
+      },
+      {
+        "company": "Varda Space Industries",
+        "sector": "Space & Aerospace",
+        "totalRaised": "$598M",
+        "valuation": "$1.6B"
+      },
+      {
+        "company": "AstroForge",
+        "sector": "Space & Aerospace",
+        "totalRaised": "~$56M",
+        "valuation": ""
+      },
+      {
+        "company": "Relativity Space",
+        "sector": "Space & Aerospace",
+        "totalRaised": "$1.335B",
+        "valuation": "Undisclosed"
+      },
+      {
+        "company": "Impulse Space",
+        "sector": "Space & Aerospace",
+        "totalRaised": "$1.3B",
+        "valuation": "$4.26B"
+      },
+      {
+        "company": "K2 Space",
+        "sector": "Space & Aerospace",
+        "totalRaised": "$1B+",
+        "valuation": "$6.8B"
+      },
+      {
+        "company": "Observable Space",
+        "sector": "Space & Aerospace",
+        "totalRaised": "$90M",
+        "valuation": ""
+      },
+      {
+        "company": "Firefly Aerospace",
+        "sector": "Space & Aerospace",
+        "totalRaised": "$868M IPO",
+        "valuation": "$3.35B"
+      },
+      {
         "company": "Senra Systems",
         "sector": "Robotics & Manufacturing",
         "totalRaised": "$112M+",
+        "valuation": ""
+      },
+      {
+        "company": "Base Power",
+        "sector": "Climate & Energy",
+        "totalRaised": "$2.5B+",
+        "valuation": "$13B"
+      },
+      {
+        "company": "Arc Boats",
+        "sector": "Transportation",
+        "totalRaised": "$150M+",
         "valuation": ""
       },
       {
@@ -68,99 +182,9 @@
         "sector": "Climate & Energy",
         "totalRaised": "$24M",
         "valuation": ""
-      },
-      {
-        "company": "Endurance Energy",
-        "sector": "Climate & Energy",
-        "totalRaised": "$63M",
-        "valuation": ""
-      },
-      {
-        "company": "Fortastra",
-        "sector": "Space & Aerospace",
-        "totalRaised": "$38M",
-        "valuation": ""
-      },
-      {
-        "company": "Long Wall",
-        "sector": "Defense & Security",
-        "totalRaised": "$544M",
-        "valuation": ""
-      },
-      {
-        "company": "Starpath Robotics",
-        "sector": "Space & Aerospace",
-        "totalRaised": "$24M",
-        "valuation": ""
-      },
-      {
-        "company": "Freeform",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$85M+",
-        "valuation": ""
-      },
-      {
-        "company": "First Resonance",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$40.8M",
-        "valuation": ""
-      },
-      {
-        "company": "Canada Rocket Company",
-        "sector": "Space & Aerospace",
-        "totalRaised": "$6.2M",
-        "valuation": ""
-      },
-      {
-        "company": "Panthalassa",
-        "sector": "Climate & Energy",
-        "totalRaised": "$140M+",
-        "valuation": "~$1B"
-      },
-      {
-        "company": "Mesh Optical Technologies",
-        "sector": "Chips & Semiconductors",
-        "totalRaised": "$50M",
-        "valuation": ""
-      },
-      {
-        "company": "Sift Stack",
-        "sector": "AI & Software",
-        "totalRaised": "$67M",
-        "valuation": ""
-      },
-      {
-        "company": "Ethos Space",
-        "sector": "Space & Aerospace",
-        "totalRaised": "Undisclosed",
-        "valuation": ""
-      },
-      {
-        "company": "TerraFirma",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$115M",
-        "valuation": "Undisclosed"
-      },
-      {
-        "company": "Eclipse Space",
-        "sector": "Space & Aerospace",
-        "totalRaised": "Undisclosed",
-        "valuation": "Undisclosed"
-      },
-      {
-        "company": "Asymm",
-        "sector": "Space & Aerospace",
-        "totalRaised": "$6M",
-        "valuation": "Undisclosed"
-      },
-      {
-        "company": "Airhart Aeronautics",
-        "sector": "Transportation",
-        "totalRaised": "$5M+",
-        "valuation": "Undisclosed"
       }
     ],
-    "description": "26 companies with founding-team links to SpaceX."
+    "description": "71 companies with founding-team links to SpaceX."
   },
   {
     "mafia": "Y Combinator",
@@ -436,7 +460,7 @@
       {
         "company": "Cape",
         "sector": "Defense & Security",
-        "totalRaised": "$195M",
+        "totalRaised": "$191M",
         "valuation": ""
       },
       {
@@ -473,7 +497,7 @@
       {
         "company": "Matter Intelligence",
         "sector": "Space & Aerospace",
-        "totalRaised": "$12M+",
+        "totalRaised": "$47.9M+",
         "valuation": "Undisclosed"
       },
       {
@@ -523,7 +547,7 @@
       {
         "company": "Besxar Space Industries",
         "sector": "Space & Aerospace",
-        "totalRaised": "$10.3M",
+        "totalRaised": "~$14M",
         "valuation": ""
       },
       {
@@ -542,8 +566,8 @@
       {
         "company": "Tenstorrent",
         "sector": "Chips & Semiconductors",
-        "totalRaised": "$1B+",
-        "valuation": "$2.7B"
+        "totalRaised": "$2.5B+",
+        "valuation": "$6.2B"
       },
       {
         "company": "Volund Manufacturing",
