@@ -2,6 +2,15 @@
   {
     "company": "Palantir Technologies",
     "ticker": "PLTR",
+    "form": "4",
+    "date": "2026-11-04",
+    "description": "xslF345X06/wk-form4_1793845563.xml",
+    "accessionNumber": "0001840244-26-000023",
+    "isIPO": false
+  },
+  {
+    "company": "Palantir Technologies",
+    "ticker": "PLTR",
     "form": "10-Q",
     "date": "2026-11-03",
     "description": "pltr-20260930.htm",
@@ -1001,6 +1010,15 @@
   {
     "company": "BlackSky Technology",
     "ticker": "BKSY",
+    "form": "8-K",
+    "date": "2026-11-05",
+    "description": "bksy-20261105.htm",
+    "accessionNumber": "0001753539-26-000154",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
     "form": "4",
     "date": "2026-10-22",
     "description": "xslF345X06/wk-form4_1792706213.xml",
@@ -1587,6 +1605,15 @@
     "company": "Intuitive Machines",
     "ticker": "LUNR",
     "form": "8-K",
+    "date": "2026-11-05",
+    "description": "tm2629083d1_8k.htm",
+    "accessionNumber": "0001104659-26-122947",
+    "isIPO": false
+  },
+  {
+    "company": "Intuitive Machines",
+    "ticker": "LUNR",
+    "form": "8-K",
     "date": "2026-09-16",
     "description": "tm2625564d1_8k.htm",
     "accessionNumber": "0001104659-26-108302",
@@ -1977,15 +2004,6 @@
     "date": "2026-03-11",
     "description": "xslF345X05/form4-03112026_040303.xml",
     "accessionNumber": "0001641790-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "Intuitive Machines",
-    "ticker": "LUNR",
-    "form": "8-K",
-    "date": "2026-03-09",
-    "description": "tm268324d1_8k.htm",
-    "accessionNumber": "0001104659-26-025192",
     "isIPO": false
   },
   {
@@ -3036,6 +3054,33 @@
     "company": "Oklo",
     "ticker": "OKLO",
     "form": "4",
+    "date": "2026-11-04",
+    "description": "xslF345X06/wk-form4_1793827087.xml",
+    "accessionNumber": "0001855623-26-000022",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
+    "date": "2026-11-04",
+    "description": "xslF345X06/wk-form4_1793827021.xml",
+    "accessionNumber": "0002021433-26-000023",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
+    "date": "2026-11-04",
+    "description": "xslF345X06/wk-form4_1793826972.xml",
+    "accessionNumber": "0002021786-26-000023",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
     "date": "2026-11-02",
     "description": "xslF345X06/wk-form4_1793655014.xml",
     "accessionNumber": "0002146828-26-000012",
@@ -3294,12 +3339,21 @@
     "isIPO": false
   },
   {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-08-27",
-    "description": "xslF345X06/wk-form4_1787862889.xml",
-    "accessionNumber": "0002146790-26-000006",
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "10-Q",
+    "date": "2026-11-05",
+    "description": "leu-20260930.htm",
+    "accessionNumber": "0001628280-26-070557",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "8-K",
+    "date": "2026-11-04",
+    "description": "leu-20261104.htm",
+    "accessionNumber": "0001628280-26-070229",
     "isIPO": false
   },
   {
@@ -5609,6 +5663,24 @@
   {
     "company": "Recursion Pharmaceuticals",
     "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-11-04",
+    "description": "xslF345X06/wk-form4_1793830355.xml",
+    "accessionNumber": "0001601830-26-000151",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-11-04",
+    "description": "xslF345X06/wk-form4_1793830349.xml",
+    "accessionNumber": "0001601830-26-000150",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
     "form": "10-Q",
     "date": "2026-11-02",
     "description": "rxrx-20260930.htm",
@@ -5757,15 +5829,6 @@
     "date": "2026-08-05",
     "description": "rxrx-20260805.htm",
     "accessionNumber": "0001601830-26-000097",
-    "isIPO": false
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-07-09",
-    "description": "xslF345X06/wk-form4_1783634656.xml",
-    "accessionNumber": "0001856094-26-000011",
     "isIPO": false
   },
   {
@@ -8310,6 +8373,15 @@
     "company": "Tempus AI",
     "ticker": "TEM",
     "form": "8-K",
+    "date": "2026-11-05",
+    "description": "vnt-20261105.htm",
+    "accessionNumber": "0001628280-26-070524",
+    "isIPO": false
+  },
+  {
+    "company": "Tempus AI",
+    "ticker": "TEM",
+    "form": "8-K",
     "date": "2026-10-08",
     "description": "vnt-20261002.htm",
     "accessionNumber": "0001628280-26-065383",
@@ -8637,15 +8709,6 @@
     "date": "2026-01-02",
     "description": "xslF345X05/wk-form4_1767388677.xml",
     "accessionNumber": "0001628280-26-000156",
-    "isIPO": false
-  },
-  {
-    "company": "Tempus AI",
-    "ticker": "TEM",
-    "form": "4",
-    "date": "2025-12-12",
-    "description": "xslF345X05/wk-form4_1765573356.xml",
-    "accessionNumber": "0001628280-25-056744",
     "isIPO": false
   },
   {
@@ -8979,6 +9042,24 @@
     "date": "2026-05-29",
     "description": "xslF345X06/wk-form4_1780086784.xml",
     "accessionNumber": "0001891517-26-000025",
+    "isIPO": false
+  },
+  {
+    "company": "Astera Labs",
+    "ticker": "ALAB",
+    "form": "10-Q",
+    "date": "2026-11-05",
+    "description": "tra-20260930.htm",
+    "accessionNumber": "0001628280-26-070415",
+    "isIPO": false
+  },
+  {
+    "company": "Astera Labs",
+    "ticker": "ALAB",
+    "form": "8-K",
+    "date": "2026-11-04",
+    "description": "tra-20261104.htm",
+    "accessionNumber": "0001628280-26-070127",
     "isIPO": false
   },
   {
@@ -9330,15 +9411,6 @@
     "date": "2025-11-06",
     "description": "tra-20250930.htm",
     "accessionNumber": "0001628280-25-049776",
-    "isIPO": false
-  },
-  {
-    "company": "Astera Labs",
-    "ticker": "ALAB",
-    "form": "4",
-    "date": "2025-11-04",
-    "description": "xslF345X05/wk-form4_1762294320.xml",
-    "accessionNumber": "0001628280-25-049000",
     "isIPO": false
   },
   {
