@@ -92,7 +92,7 @@ const SBIR_TOPICS_AUTO = [
         ]
       },
       {
-        "company": "Govini",
+        "company": "Air (formerly Govini)",
         "sector": "Defense & Security",
         "bid_fit_score": 15.0,
         "matched_terms": [

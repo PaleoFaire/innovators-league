@@ -78,6 +78,10 @@
       "only_if": "eVTOL|aircraft|aviation|flying|flights?\\b|cargo|drones?\\b|FAA|airev",
       "note": "Ours is the eVTOL maker AIR (airev.aero); an AI-agent security startup called Air raised in 2026."
     },
+    "ATLAS": {
+      "only_if": "brain|EEG|neuro|wearable|Occam|stress|cognitive|\\bBCI\\b|atlasmankind",
+      "note": "Ours is the former Occam, the San Francisco brain-wearable maker (atlasmankind.com). Atlas is also a ULA rocket, a Boston Dynamics robot, Atlas Copco, MongoDB Atlas, Atlas Air and many funds; data.js also holds Atlas Atomics and Atlas Motion."
+    },
     "Laminar": {
       "only_if": "sensors?|spectral|factor(?:y|ies)|manufactur|process|H2Ok|water",
       "note": "Ours is the former H2Ok Innovations (inline spectral sensors, runlaminar.com); an agent-debugging Laminar is another."
@@ -254,7 +258,7 @@
     {"name": "Twelve Labs", "not": ["Twelve"], "note": "Video-understanding AI company; Twelve is the Berkeley CO2-to-fuels company (twelve.co). Both reduce to the stem 'twelve'."}
   ],
   "common_word_names": [
-    "Abridge", "Agility", "AIR", "Airship", "Ample", "Anode", "Anthropic", "Arbor", "Armada", "ASI", "Atoms", "Avalanche",
+    "Abridge", "Agility", "AIR", "Airship", "Ample", "Anode", "Anthropic", "Arbor", "Armada", "ASI", "ATLAS", "Atoms", "Avalanche",
     "Axiom", "Bedrock", "Bronco", "Built", "Cape", "Chaos", "Cohere", "Collaborative", "Colossal", "Covariant", "Covenant", "Cover",
     "Cradle", "Deterrence", "Dexterity", "Diode", "Divergent", "Dragonfly", "Dust", "Earth", "Endurance", "Enigma", "Etched", "Field",
     "Figure", "Firefly", "Flux", "Focused", "Gambit", "Gecko", "Glacier", "Glimpse", "Halo", "Helios", "Humane", "Humanoid",

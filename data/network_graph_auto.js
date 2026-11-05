@@ -1014,7 +1014,7 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": "autonomy-drone-military"
     },
     {
-      "id": "Firehawk Aerospace",
+      "id": "Firehawk Defense",
       "sector": "Defense & Security",
       "thesisCluster": "defense-munitions-energetics"
     },
@@ -2694,7 +2694,7 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": "autonomous-manufacturing"
     },
     {
-      "id": "Occam",
+      "id": "ATLAS",
       "sector": "Biotech & Health",
       "thesisCluster": "brain-computer-interface"
     },
@@ -2854,7 +2854,7 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": "quantum-computing"
     },
     {
-      "id": "NVision Imaging Technologies",
+      "id": "NVision Quantum",
       "sector": "Biotech & Health",
       "thesisCluster": "quantum-sensing"
     },
@@ -3189,7 +3189,7 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": ""
     },
     {
-      "id": "Improbable Defence",
+      "id": "Skyral",
       "sector": "Defense & Security",
       "thesisCluster": ""
     },
@@ -4734,7 +4734,7 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": ""
     },
     {
-      "id": "Govini",
+      "id": "Air (formerly Govini)",
       "sector": "Defense & Security",
       "thesisCluster": ""
     },
@@ -8535,7 +8535,7 @@ const NETWORK_GRAPH_AUTO = {
     },
     {
       "src": "Neuralink",
-      "dst": "Occam",
+      "dst": "ATLAS",
       "type": "thesis",
       "cluster": "brain-computer-interface"
     },
@@ -8547,12 +8547,12 @@ const NETWORK_GRAPH_AUTO = {
     },
     {
       "src": "Atom Bodies",
-      "dst": "Occam",
+      "dst": "ATLAS",
       "type": "thesis",
       "cluster": "brain-computer-interface"
     },
     {
-      "src": "Occam",
+      "src": "ATLAS",
       "dst": "Science Corporation",
       "type": "thesis",
       "cluster": "brain-computer-interface"
@@ -10934,7 +10934,7 @@ const NETWORK_GRAPH_AUTO = {
       "cluster": "quantum-computing"
     },
     {
-      "src": "NVision Imaging Technologies",
+      "src": "NVision Quantum",
       "dst": "QuantumDiamonds",
       "type": "thesis",
       "cluster": "quantum-sensing"

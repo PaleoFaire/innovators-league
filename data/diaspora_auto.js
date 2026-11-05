@@ -287,7 +287,7 @@ const FOUNDER_DIASPORA = {
      "via": "description"
     },
     {
-     "name": "Govini",
+     "name": "Air (formerly Govini)",
      "sector": "Defense & Security",
      "raised": "$174M",
      "stage": "Growth",

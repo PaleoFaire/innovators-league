@@ -90,7 +90,7 @@ const CHANGELOG_WEEKLY = {
       "detail": "Completed SPAC merger with Archimedes Tech SPAC Partners II; began trading on Nasdaq as NANO on 22 Oct 2026"
     },
     {
-      "name": "Improbable Defence",
+      "name": "Skyral",
       "from": "acquired",
       "to": "active",
       "detail": ""
@@ -182,7 +182,7 @@ const CHANGELOG_WEEKLY = {
       "to": "$1.6B"
     },
     {
-      "name": "Firehawk Aerospace",
+      "name": "Firehawk Defense",
       "from": "",
       "to": "$1.4B+"
     },
@@ -414,7 +414,7 @@ const CHANGELOG_WEEKLY = {
       "to": "$250M+"
     },
     {
-      "name": "Firehawk Aerospace",
+      "name": "Firehawk Defense",
       "from": "$25M+",
       "to": "$210M+"
     },
@@ -584,7 +584,7 @@ const CHANGELOG_WEEKLY = {
       "to": "$29M+"
     },
     {
-      "name": "Occam",
+      "name": "ATLAS",
       "from": "$14M",
       "to": "$24M"
     },
@@ -614,7 +614,7 @@ const CHANGELOG_WEEKLY = {
       "to": "$20.5M"
     },
     {
-      "name": "Improbable Defence",
+      "name": "Skyral",
       "from": "$703M",
       "to": "$20M+"
     },
@@ -766,7 +766,7 @@ const CHANGELOG_WEEKLY = {
       "to": "Seed"
     },
     {
-      "name": "Firehawk Aerospace",
+      "name": "Firehawk Defense",
       "from": "Series A",
       "to": "Series D"
     },
@@ -831,7 +831,7 @@ const CHANGELOG_WEEKLY = {
       "to": "Public"
     },
     {
-      "name": "Improbable Defence",
+      "name": "Skyral",
       "from": "Growth",
       "to": "Series A"
     },

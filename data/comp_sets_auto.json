@@ -26540,9 +26540,9 @@
       "narrative": "Auterion, a Series B defense and security company, is evaluated against a peer universe of 8 private and 2 public comparables in the same sector and stage. The private peer set spans valuations from $300M to $3.0B, with Dream Security, Allen Control Systems, and Harmattan AI representing the upper quartile at $3.0B, $2.2B, and $1.4B respectively.\n\nTwo valuation methods were applied. The stage-progression method, anchoring to $130M in total raised and applying a 1.9x Series B step-up multiplier, implied a value of $247M. The peer-median method, based on 8 same-stage, same-sector private comparables, yielded a median valuation of $1.1B, with a range spanning $300M to $3.0B. This significant methodological divergence reflects dispersion within the Defense & Security peer set and uncertainty regarding Auterion's relative positioning within that cohort.\n\nThe triangulated analysis supports a valuation range of $210M (low) to $1.3B (high), with a median of $686M. The wide dispersion—spanning over 6x from low to high—underscores material uncertainty around revenue scale, customer concentration, and defensibility relative to the peer set. Resolution of these factors, particularly evidence of traction relative to the upper-quartile peers cited, would be necessary to narrow the range materially.",
       "lastUpdated": "2026-09-13T13:49:33+00:00"
     },
-    "Firehawk Aerospace": {
+    "Firehawk Defense": {
       "target": {
-        "name": "Firehawk Aerospace",
+        "name": "Firehawk Defense",
         "sector": "Defense & Security",
         "stage": "Series A",
         "currentValuation": "",
@@ -85574,9 +85574,9 @@
       "narrative": "GenFab Co is a seed-stage robotics and manufacturing company founded by Matt Parlmer that has raised $510K to date. The valuation analysis draws from a broader comp universe of 9 private companies and 1 public peer (277810.KQ) in the robotics and manufacturing sector, though a sufficiently deep peer set at the same stage and valuation tier was not available for direct median benchmarking.\n\nThe stage-progression method, the only triangulation approach with sufficient applicability, uses total capital raised as a proxy baseline and applies a 2.5x step-up multiplier typical of seed-to-next-stage advancement. This yields an implied valuation of $1.3M. A peer-median approach was not viable: while 11 robotics and manufacturing peers exist in the broader database, filtering for same-stage, adjacent-stage, or similar-valuation-tier companies produced insufficient datapoints (fewer than 3 required for statistical relevance). The private comparable set includes Walden Robotics, Divergent, Exotec, Locus Robotics, and Generalist AI, though detailed stage and valuation data from these peers did not support narrow-band triangulation.\n\nThe analysis supports a valuation range of $1.1M (low) to $1.5M (high), with a median point of $1.3M. This range is anchored to a single methodology and carries material uncertainty around stage-appropriate multiplier assumptions and the absence of tightly comparable peer valuations. Validation would benefit from additional seed-stage robotics company datasets or forward-looking revenue/funding trajectory data.",
       "lastUpdated": "2026-09-13T14:15:00+00:00"
     },
-    "Occam": {
+    "ATLAS": {
       "target": {
-        "name": "Occam",
+        "name": "ATLAS",
         "sector": "Biotech & Health",
         "stage": "Seed",
         "currentValuation": null,
@@ -91237,9 +91237,9 @@
       "narrative": "Phasecraft is a Series A quantum computing company founded by Montanaro, Cubitt, and Morton, having raised $25M to date. The quantum computing sector comprises 3 public comps (IONQ, RGTI, QBTS) and 8 private peers including Quantinuum, IonQ, PsiQuantum, D-Wave Quantum, and SandboxAQ.\n\nStage-progression analysis is the applicable valuation method. Using total capital raised of $25M as a proxy for entry valuation and applying a 2.0x step-up multiplier typical of Series A-to-next-stage progression yields an implied valuation of $50M. Peer-median triangulation was not applicable due to insufficient same-stage or adjacent-stage comparable data within quantum computing; while 8 private peers exist in the sector, none met the filtering thresholds of ≥3 companies at matching stage or valuation tier, making broader sector median unreliable.\n\nThe analysis supports a valuation range of $42M to $57M, with a median point of $50M. This range reflects the stage-progression methodology applied to observed capital deployment. Key uncertainties include the lack of narrow-stage peer data for cross-validation and the early stage of the quantum computing sector itself, which limits the stability of typical step-up multipliers. Validation through revenue, technology defensibility, or team track record would strengthen confidence in this range.",
       "lastUpdated": "2026-09-13T14:17:22+00:00"
     },
-    "NVision Imaging Technologies": {
+    "NVision Quantum": {
       "target": {
-        "name": "NVision Imaging Technologies",
+        "name": "NVision Quantum",
         "sector": "Biotech & Health",
         "stage": "Series A",
         "currentValuation": null,
@@ -103440,9 +103440,9 @@
       "narrative": "Blackshark.ai is a Series A defense and security company that has raised $55M to date. The valuation analysis draws on a peer universe of 11 same-sector and adjacent-stage private companies, supplemented by two public comparables (DRSHF, IDEAFORGE.NS). The private peer set ranges from $125M to $3.0B in valuation, with notable comparable companies including Dream Security ($3.0B Series B), Anduril Industries, Helsing, and others in the defense AI space.\n\nTwo triangulation methods were applied. The stage-progression method uses the $55M raised as a proxy for current value, applying a 2.0x step-up multiplier typical of Series A progression, yielding $110M. The peer-median method examines 11 defense and security companies at Series A and adjacent stages, establishing a median valuation of $1.0B, with a range floor of $125M and ceiling of $3.0B. These methods produce meaningfully different results, reflecting the wide dispersion in comparable company valuations at this stage.\n\nThe triangulated analysis supports a valuation range of $94M (low) to $1.1B (high), with a median of $555M. The wide range reflects genuine uncertainty: stage-based progression anchors conservatively on deployed capital, while peer multiples suggest materially higher valuations are achievable in this sector. Key uncertainties include revenue trajectory, capital efficiency relative to peers, and customer concentration in the defense vertical.",
       "lastUpdated": "2026-09-13T14:22:19+00:00"
     },
-    "Improbable Defence": {
+    "Skyral": {
       "target": {
-        "name": "Improbable Defence",
+        "name": "Skyral",
         "sector": "Defense & Security",
         "stage": "Growth",
         "currentValuation": "",
@@ -158897,9 +158897,9 @@
       "narrative": "Stardust Solutions is a Series A climate and energy company founded by Yanai Yedvab that has raised $75M to date. The valuation analysis draws on a comp universe of 9 private frontier-tech peers in Climate & Energy (Redwood Materials, QuantumScape, KoBold Metals, Electric Hydrogen, and Enovix among them) alongside 1 public comparable (LNZA).\n\nOnly one valuation method was applicable to this analysis. Stage-progression modeling, which uses the company's $75M total raised as a proxy base value and applies a 2.0x step-up multiplier typical of Series A-to-next-stage progression, yields an implied valuation of $150M. A peer-median approach could not be applied: while 8 same-sector peers exist, none met the narrow filtering criteria (same stage, adjacent stage, or similar valuation tier), and a broad all-sector median would lack relevance to frontier-climate positioning.\n\nThe triangulated range supported by this single-method analysis is $128M (low) to $172M (high), with a median of $150M. This range reflects a conservative 15% discount and 15% premium around the point estimate. The primary uncertainty stems from the single-method foundation: absent sufficient same-stage or adjacent-stage comparables, the analysis lacks cross-validation. Refinement would require either narrower peer data at Series A or later-stage comps with disclosed round mechanics.",
       "lastUpdated": "2026-09-13T14:46:59+00:00"
     },
-    "Govini": {
+    "Air (formerly Govini)": {
       "target": {
-        "name": "Govini",
+        "name": "Air (formerly Govini)",
         "sector": "Defense & Security",
         "stage": "Growth",
         "currentValuation": null,

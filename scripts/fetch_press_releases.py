@@ -159,7 +159,7 @@ SHORT_GENERIC_NAMES = {
     'ada', 'cape', 'sift', 'revel', 'cover', 'modal', 'runway', 'prepared',
     'surge ai', 'rain ai', 'hive ai', 'field ai', 'flux', 'matter', 'dirac',
     'freeform', 'drafter', 'hlabs', 'group1', 'openx', 'emelody', 'advano',
-    'rangeview', 'duranium', 'ouster', 'durin', 'attio', 'twelve',
+    'rangeview', 'duranium', 'ouster', 'durin', 'attio', 'twelve', 'atlas',
 }
 
 

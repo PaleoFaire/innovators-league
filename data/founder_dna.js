@@ -11012,7 +11012,7 @@ const FOUNDER_DNA = [
     "sector": "Chips & Semiconductors"
   },
   {
-    "company": "Occam",
+    "company": "ATLAS",
     "founderCount": 2,
     "teamStructure": "duo",
     "founders": [
@@ -12794,7 +12794,7 @@ const FOUNDER_DNA = [
     "sector": "Climate & Energy"
   },
   {
-    "company": "Improbable Defence",
+    "company": "Skyral",
     "founderCount": 1,
     "teamStructure": "solo",
     "founders": [
@@ -19274,7 +19274,7 @@ const FOUNDER_DNA = [
     "sector": "Drones & Autonomous"
   },
   {
-    "company": "Firehawk Aerospace",
+    "company": "Firehawk Defense",
     "founderCount": 1,
     "teamStructure": "solo",
     "founders": [
@@ -19871,7 +19871,7 @@ const FOUNDER_DNA = [
     "sector": "Chips & Semiconductors"
   },
   {
-    "company": "NVision Imaging Technologies",
+    "company": "NVision Quantum",
     "founderCount": 5,
     "teamStructure": "squad",
     "founders": [
@@ -20898,7 +20898,7 @@ const FOUNDER_DNA = [
     "sector": "AI & Software"
   },
   {
-    "company": "Govini",
+    "company": "Air (formerly Govini)",
     "founderCount": 1,
     "teamStructure": "solo",
     "founders": [

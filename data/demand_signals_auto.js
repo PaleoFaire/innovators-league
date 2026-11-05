@@ -3138,7 +3138,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "NVision Imaging Technologies",
+        "name": "NVision Quantum",
         "score": 22,
         "matchReasons": [
           "tag: quantum sensing",
@@ -3156,7 +3156,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Anduril Industries",
       "Picogrid",
       "Andrenam",
-      "NVision Imaging Technologies"
+      "NVision Quantum"
     ]
   },
   {
@@ -6284,8 +6284,8 @@ const GOV_PULL_SCORES_AUTO = {
       "Quantum Sensing for Position, Navigation, and Timing"
     ]
   },
-  "NVision Imaging Technologies": {
-    "name": "NVision Imaging Technologies",
+  "NVision Quantum": {
+    "name": "NVision Quantum",
     "govPullScore": 16,
     "matchCount": 1,
     "topAgencies": [

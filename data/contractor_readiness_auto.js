@@ -2327,7 +2327,7 @@ const CONTRACTOR_READINESS_AUTO = [
     "headcountFormatted": ""
   },
   {
-    "company": "Improbable Defence",
+    "company": "Skyral",
     "sector": "Defense & Security",
     "readinessScore": 63,
     "govTractionScore": 6,
@@ -2535,7 +2535,7 @@ const CONTRACTOR_READINESS_AUTO = [
     "headcountFormatted": "350+"
   },
   {
-    "company": "Firehawk Aerospace",
+    "company": "Firehawk Defense",
     "sector": "Defense & Security",
     "readinessScore": 60,
     "govTractionScore": 6,

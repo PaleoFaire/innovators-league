@@ -634,6 +634,32 @@ function renderRadarChart(scores) {
 }
 
 // ─── BOOKMARKS ───
+// Renamed companies: bookmarks and Pro watchlist columns are saved in the browser by
+// company name, so rewrite any former name (COMPANIES[].formerNames) to the current
+// name before they load. Runs on every page load; does nothing once lists are current.
+(function migrateRenamedCompanies() {
+  if (typeof COMPANIES === 'undefined') return;
+  const current = {};
+  COMPANIES.forEach(c => (c.formerNames || []).forEach(f => { current[f] = c.name; }));
+  if (!Object.keys(current).length) return;
+  const fix = n => current[n] || n;
+  try {
+    const saved = JSON.parse(localStorage.getItem('til-bookmarks') || '[]');
+    if (Array.isArray(saved) && saved.some(n => current[n])) {
+      localStorage.setItem('til-bookmarks', JSON.stringify([...new Set(saved.map(fix))]));
+    }
+    const board = JSON.parse(localStorage.getItem('til-pro-watchlist') || '{}');
+    let changed = false;
+    Object.keys(board || {}).forEach(col => {
+      if (Array.isArray(board[col]) && board[col].some(n => current[n])) {
+        board[col] = [...new Set(board[col].map(fix))];
+        changed = true;
+      }
+    });
+    if (changed) localStorage.setItem('til-pro-watchlist', JSON.stringify(board));
+  } catch (e) { console.warn('[TIL] Rename migration skipped:', e); }
+})();
+
 let bookmarks = [];
 try { bookmarks = JSON.parse(localStorage.getItem('til-bookmarks') || '[]'); } catch(e) { console.warn('[TIL] Failed to load bookmarks:', e); }
 

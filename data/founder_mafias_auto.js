@@ -497,7 +497,7 @@ const FOUNDER_MAFIAS_AUTO = [
         "valuation": ""
       },
       {
-        "company": "Govini",
+        "company": "Air (formerly Govini)",
         "sector": "Defense & Security",
         "totalRaised": "$174M",
         "valuation": ""

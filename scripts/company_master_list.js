@@ -8,7 +8,7 @@
  *
  * Coverage: 100% of companies in data.js
  * Total companies: 1313
- * Last updated: 2026-11-04
+ * Last updated: 2026-11-05
  * 
  * Each company has:
  *   - name: Official company name
@@ -126,7 +126,7 @@ const MASTER_COMPANY_LIST = [
   { name: "Advanced Spade Company", aliases: ["Advanced Spade", "AdvancedSpadeCompany", "aspadeco"], sector: "infrastructure", ticker: null },
   { name: "Forterra", aliases: ["autonomous vehicles"], sector: "defense", ticker: null },
   { name: "Auterion", aliases: ["drone software", "open-source"], sector: "defense", ticker: null },
-  { name: "Firehawk Aerospace", aliases: ["Firehawk", "FirehawkAerospace", "rocket engines", "propulsion"], sector: "defense", ticker: null },
+  { name: "Firehawk Defense", aliases: ["Firehawk Aerospace", "Firehawk", "rocket engines", "propulsion"], sector: "defense", ticker: null },
   { name: "Reveal Technology", aliases: ["Reveal", "RevealTechnology", "battlefield AI", "intelligence"], sector: "defense", ticker: null },
   { name: "Galvanick", aliases: ["cybersecurity", "critical infrastructure", "OT security"], sector: "defense", ticker: null },
   { name: "SkySafe", aliases: ["RF detection"], sector: "defense", ticker: null },
@@ -794,12 +794,12 @@ const MASTER_COMPANY_LIST = [
   { name: "Mendra", aliases: [], sector: "biotech", ticker: null },
   { name: "Merge Labs", aliases: ["MergeLabs"], sector: "biotech", ticker: null },
   { name: "Modular Genetics", aliases: ["ModularGenetics"], sector: "biotech", ticker: null },
-  { name: "NVision Imaging Technologies", aliases: ["NVisionImagingTechnologies", "NVision Imaging"], sector: "biotech", ticker: null },
+  { name: "NVision Quantum", aliases: ["NVision Imaging Technologies", "NVision Imaging"], sector: "biotech", ticker: null },
   { name: "Nervonik", aliases: [], sector: "biotech", ticker: null },
   { name: "Nitricity", aliases: [], sector: "biotech", ticker: null },
   { name: "Nucleus RadioPharma", aliases: ["NucleusRadioPharma"], sector: "biotech", ticker: null },
   { name: "Nudge", aliases: [], sector: "biotech", ticker: null },
-  { name: "Occam", aliases: [], sector: "biotech", ticker: null },
+  { name: "ATLAS", aliases: ["Occam"], sector: "biotech", ticker: null },
   { name: "Ohalo Genetics", aliases: ["OhaloGenetics"], sector: "biotech", ticker: null },
   { name: "Paradromics", aliases: [], sector: "biotech", ticker: null },
   { name: "Phantom Neuro", aliases: ["PhantomNeuro"], sector: "biotech", ticker: null },
@@ -1011,12 +1011,12 @@ const MASTER_COMPANY_LIST = [
   { name: "Gallatin AI", aliases: ["GallatinAI", "Gallatin"], sector: "defense", ticker: null },
   { name: "Gambit", aliases: [], sector: "defense", ticker: null },
   { name: "Ghost Robotics", aliases: ["GhostRobotics"], sector: "defense", ticker: null },
-  { name: "Govini", aliases: [], sector: "defense", ticker: null },
+  { name: "Air (formerly Govini)", aliases: ["Govini"], sector: "defense", ticker: null },
   { name: "Greenroom Robotics", aliases: ["GreenroomRobotics"], sector: "defense", ticker: null },
   { name: "HIMERA", aliases: [], sector: "defense", ticker: null },
   { name: "Hadean", aliases: [], sector: "defense", ticker: null },
   { name: "Heaviside", aliases: [], sector: "defense", ticker: null },
-  { name: "Improbable Defence", aliases: ["ImprobableDefence"], sector: "defense", ticker: null },
+  { name: "Skyral", aliases: ["Improbable Defence"], sector: "defense", ticker: null },
   { name: "Integrate", aliases: [], sector: "defense", ticker: null },
   { name: "Kelluu", aliases: [], sector: "defense", ticker: null },
   { name: "Kestrel", aliases: [], sector: "defense", ticker: null },

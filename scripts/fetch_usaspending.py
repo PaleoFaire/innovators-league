@@ -226,7 +226,8 @@ def companies_from_data_js(scope: str) -> list[dict]:
         'const fs=require("fs"),vm=require("vm");const s={};vm.createContext(s);'
         'vm.runInContext(fs.readFileSync(process.argv[1],"utf8")'
         '+";globalThis.__n=COMPANIES.map(c=>({name:c.name,country:c.country||\'\','
-        'state:c.state||\'\',sector:c.sector||\'\',status:c.status||\'\'}));",s);'
+        'state:c.state||\'\',sector:c.sector||\'\',status:c.status||\'\','
+        'former:c.formerNames||[]}));",s);'
         "console.log(JSON.stringify(s.__n));"
     )
     rows = json.loads(subprocess.run(["node", "-e", js, str(DATA_JS)],
@@ -237,7 +238,15 @@ def companies_from_data_js(scope: str) -> list[dict]:
             if r["country"] == "United States" and r["status"] not in ("dead",)]
     if scope != "all":
         rows = [r for r in rows if GOV_SECTORS.search(r["sector"] or "")]
-    return [{"name": r["name"], "state": r["state"]} for r in rows]
+    out = []
+    for r in rows:
+        out.append({"name": r["name"], "state": r["state"]})
+        # A renamed company's awards stay filed under its old name for a while,
+        # so query each former name too and credit what it finds to the current one.
+        for f in r.get("former") or []:
+            if isinstance(f, str) and f.strip():
+                out.append({"name": f, "state": r["state"], "canonical": r["name"]})
+    return out
 
 
 def fetch_with_retry(url, headers=None, json_payload=None, method="get", max_retries=3, timeout=30):
@@ -339,7 +348,7 @@ def fetch_all_contracts(targets=None):
                 rejected += 1
                 continue
             all_contracts.append({
-                "company": company,
+                "company": t.get("canonical") or company,
                 "awardId": award.get("Award ID", ""),
                 "recipientName": awardee,
                 "amount": award.get("Award Amount", 0),

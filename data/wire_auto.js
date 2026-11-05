@@ -816,7 +816,7 @@ const WIRE = {
   {
    "kind": "funding",
    "label": "ROUND",
-   "company": "Firehawk Aerospace",
+   "company": "Firehawk Defense",
    "sector": "Defense & Security",
    "headline": "raised $150M",
    "detail": "Series D, led by Advent International, at $1.4B+",

@@ -450,7 +450,7 @@ const GOV_CONTRACTS_AUTO = [
     lastUpdated: "2026-11-04"
   },
   {
-    company: "Firehawk Aerospace",
+    company: "Firehawk Defense",
     totalGovValue: "$3M+",
     contractCount: 2,
     agencies: ["Department of Defense"],
