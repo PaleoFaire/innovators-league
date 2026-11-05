@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -12.43,
+      "avg_change": -12.76,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -10.83,
+      "avg_change": -10.07,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -7.44,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -6.61,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -13.34,
+      "avg_change": -13.19,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 3.68,
+      "avg_change": 5.45,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.63,
+      "avg_change": -10.11,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.36,
+      "avg_change": -7.53,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 7.55,
+      "avg_change": 7.88,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -16.24,
+      "avg_change": -15.82,
       "count": 3
     }
   },
@@ -61,34 +61,34 @@
     [
       "RIVN",
       "Rivian",
-      19.58
-    ],
-    [
-      "SLDP",
-      "Solid Power",
-      6.83
+      20.48
     ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      5.46
+      11.08
+    ],
+    [
+      "SLDP",
+      "Solid Power",
+      9.76
     ],
     [
       "QS",
       "QuantumScape",
-      4.01
+      4.48
     ],
     [
-      "JOBY",
-      "Joby Aviation",
-      0.79
+      "ASRHF",
+      "Astroscale",
+      3.92
     ]
   ],
   "topLosers": [
     [
-      "AMD",
-      "AMD",
-      -16.44
+      "ASTS",
+      "AST SpaceMobile",
+      -15.79
     ],
     [
       "DRSHF",
@@ -98,7 +98,7 @@
     [
       "OKLO",
       "Oklo",
-      -18.33
+      -18.44
     ],
     [
       "AUR",
@@ -108,8 +108,8 @@
     [
       "ALAB",
       "Astera Labs",
-      -26.07
+      -24.88
     ]
   ],
-  "lastUpdated": "2026-11-04 20:30:02"
+  "lastUpdated": "2026-11-05 07:59:58"
 }
