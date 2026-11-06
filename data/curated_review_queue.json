@@ -4,7 +4,7 @@
     "status": "rejected",
     "sector": "Robotics",
     "tagline": "Builds educational robots for kids.",
-    "founders": "Paolo Pirjanian, Maja Matari\u0107",
+    "founders": "Paolo Pirjanian, Maja Matarić",
     "city": "Pasadena, CA",
     "founded": "2016",
     "round": "Series C+",
@@ -65,7 +65,7 @@
   },
   {
     "name": "Friend",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Compute & Semiconductors",
     "tagline": "Builds AI-powered wearables.",
     "founders": "Avi Schiffmann",
@@ -76,8 +76,9 @@
     "our_sector": "Chips & Semiconductors",
     "source_list": "buildlist",
     "detected_at": "2026-08-17T09:00:50.108391+00:00",
-    "review_note": "Needs Stephen's call: consumer AI companion pendant (phone accessory running third-party LLMs); watcher mapped it to Chips & Semiconductors, which is wrong.",
-    "reviewed_at": "2026-09-22"
+    "review_note": "consumer AI pendant (left for Stephen on 22 Sept; not hard tech)",
+    "reviewed_at": "2026-09-22",
+    "reviewed": "2026-11-06"
   },
   {
     "name": "Traba",
@@ -227,7 +228,7 @@
   },
   {
     "name": "Optica Industries",
-    "status": "held",
+    "status": "rejected",
     "sector": "Materials Science",
     "tagline": "This is some fake text for this private startup. Couldn't have someone taking a sneak peak after all. But don't worry, we'll have this information available as soon as the startup is out of stealth.",
     "founders": "Dylan Jin-Ngo, Sam Katz, Henry Zhou",
@@ -239,8 +240,9 @@
     "our_sector": "Robotics & Manufacturing",
     "source_list": "blackflag",
     "detected_at": "2026-08-18T14:26:33.315798+00:00",
-    "review_note": "Stealth: blank site; aluminum-recycling/metals focus seen only in filings and LinkedIn.",
-    "reviewed_at": "2026-09-22"
+    "review_note": "Fail (evidence unverified): optica.industries is a one-page site ('Rebuilding American Metal Supply', 1200 Indiana St, San Francisco) with no team, product, funding, investor or customer details; no SEC Form D found. A job listing describes",
+    "reviewed_at": "2026-09-22",
+    "reviewed": "2026-11-06"
   },
   {
     "name": "Valinor",
@@ -293,7 +295,7 @@
   },
   {
     "name": "Corridian",
-    "status": "held",
+    "status": "added",
     "sector": "Defense",
     "tagline": "Builds autonomous underwater systems for defense, sensing, and electronic warfare.",
     "founders": "Greg Barrow, Kyle Arace",
@@ -304,8 +306,9 @@
     "our_sector": "Defense & Security",
     "source_list": "buildlist",
     "detected_at": "2026-08-24T09:04:53.711937+00:00",
-    "review_note": "Stealth: site says 'launching soon'; only buildlist's tagline and a tracker investor note to go on.",
-    "reviewed_at": "2026-09-22"
+    "review_note": "added as Corridian",
+    "reviewed_at": "2026-09-22",
+    "reviewed": "2026-11-06"
   },
   {
     "name": "Elve",
@@ -566,7 +569,7 @@
   },
   {
     "name": "Valkryn Industries",
-    "status": "held",
+    "status": "rejected",
     "sector": "Defense",
     "tagline": "Builds forward-deployable defense manufacturing systems, unmanned aircraft, and critical aerospace components.",
     "founders": "Hugh Zabriskie, Andrew Hoff",
@@ -577,8 +580,9 @@
     "our_sector": "Defense & Security",
     "source_list": "buildlist",
     "detected_at": "2026-08-24T09:04:53.711937+00:00",
-    "review_note": "Site returns a 404 page; HQ conflicts (DC per PitchBook vs Santa Ana per buildlist); founder link unconfirmed.",
-    "reviewed_at": "2026-09-22"
+    "review_note": "Fail (website and evidence): no company site found for 'Valkryn Industries'. valkrynindustries.com is an unpublished Webflow 404, valkryn.com redirects to a Minecraft server, and valkryn.co is a one-line 'Valkryn Systems' page (founded 2025",
+    "reviewed_at": "2026-09-22",
+    "reviewed": "2026-11-06"
   },
   {
     "name": "Skylo",
@@ -662,7 +666,7 @@
   },
   {
     "name": "Verkada",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Defense",
     "tagline": "Builds cloud-managed cameras, access controls, and physical security systems.",
     "founders": "Filip Kaliszan, James Ren, Benjamin Bercovitz, Hans Robertson",
@@ -674,11 +678,13 @@
     "careers_url": "https://job-boards.greenhouse.io/verkada",
     "our_sector": "Defense & Security",
     "source_list": "buildlist",
-    "detected_at": "2026-09-22T04:50:33.545847+00:00"
+    "detected_at": "2026-09-22T04:50:33.545847+00:00",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
   },
   {
     "name": "OLIX",
-    "status": "pending",
+    "status": "added",
     "sector": "Compute & Semiconductors",
     "tagline": "Develops optical computing systems for efficient AI inference.",
     "founders": "James Dacombe",
@@ -690,7 +696,9 @@
     "careers_url": "https://olix.com/careers",
     "our_sector": "Chips & Semiconductors",
     "source_list": "buildlist",
-    "detected_at": "2026-09-22T04:50:33.545847+00:00"
+    "detected_at": "2026-09-22T04:50:33.545847+00:00",
+    "reviewed": "2026-11-06",
+    "review_note": "added as OLIX"
   },
   {
     "name": "Covenant",
@@ -732,7 +740,7 @@
   },
   {
     "name": "Neion Bio",
-    "status": "pending",
+    "status": "added",
     "sector": "Bio & Health",
     "tagline": "Uses genetically engineered hens to manufacture biologic medicines in eggs.",
     "founders": "Dimi Kellari, Sam Levin",
@@ -744,11 +752,13 @@
     "careers_url": "https://www.neionbio.com/about#careers",
     "our_sector": "Biotech & Health",
     "source_list": "buildlist",
-    "detected_at": "2026-09-22T04:50:33.545847+00:00"
+    "detected_at": "2026-09-22T04:50:33.545847+00:00",
+    "reviewed": "2026-11-06",
+    "review_note": "added as Neion Bio"
   },
   {
     "name": "Wispr Flow",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Bio & Health",
     "tagline": "Turns natural speech into polished text across apps.",
     "founders": "Sahaj Garg, Tanay Kothari",
@@ -760,7 +770,9 @@
     "careers_url": "https://jobs.ashbyhq.com/wispr-flow",
     "our_sector": "Biotech & Health",
     "source_list": "buildlist",
-    "detected_at": "2026-10-05T17:08:46.542265+00:00"
+    "detected_at": "2026-10-05T17:08:46.542265+00:00",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
   },
   {
     "name": "Autoridad Panandina",
@@ -780,7 +792,7 @@
   },
   {
     "name": "Looking Glass Factory",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Compute & Semiconductors",
     "tagline": "Displays holograms in 3D.",
     "founders": "Alex Hornstein, Shawn Frayne",
@@ -792,11 +804,13 @@
     "careers_url": "https://apply.workable.com/looking-glass-factory/",
     "our_sector": "Chips & Semiconductors",
     "source_list": "buildlist",
-    "detected_at": "2026-10-05T17:08:46.542265+00:00"
+    "detected_at": "2026-10-05T17:08:46.542265+00:00",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
   },
   {
     "name": "Neuron Industries",
-    "status": "held",
+    "status": "rejected",
     "sector": "",
     "tagline": "YC S26; Cortex AI controller in paid pilots; no disclosed round (11 Oct 2026 check)",
     "founders": "",
@@ -808,11 +822,12 @@
     "source_list": "trip research (Who Else, 9 Oct) + 11 Oct review",
     "detected_at": "2026-10-11T02:31:38.887021+00:00",
     "reviewed_at": "2026-10-11",
-    "review_note": "Held 11 Oct 2026: below the bar or unverifiable website; recheck when a round or site appears."
+    "review_note": "no disclosed funding or contracts",
+    "reviewed": "2026-11-06"
   },
   {
     "name": "Kara",
-    "status": "held",
+    "status": "rejected",
     "sector": "",
     "tagline": "karalabs.ai; CVD diamond substrates; YC S26; 2 employees; no funding disclosed",
     "founders": "",
@@ -824,11 +839,12 @@
     "source_list": "trip research (Who Else, 9 Oct) + 11 Oct review",
     "detected_at": "2026-10-11T02:31:38.887135+00:00",
     "reviewed_at": "2026-10-11",
-    "review_note": "Held 11 Oct 2026: below the bar or unverifiable website; recheck when a round or site appears."
+    "review_note": "2 employees, no funding",
+    "reviewed": "2026-11-06"
   },
   {
     "name": "Intelligent Machines",
-    "status": "held",
+    "status": "rejected",
     "sector": "",
     "tagline": "intelligentmachines.ai stub; ex-Optimus AI lead; ~$100M seed sought, not closed (The Information, 7 Oct 2026)",
     "founders": "",
@@ -840,11 +856,12 @@
     "source_list": "trip research (Who Else, 9 Oct) + 11 Oct review",
     "detected_at": "2026-10-11T02:31:38.887136+00:00",
     "reviewed_at": "2026-10-11",
-    "review_note": "Held 11 Oct 2026: below the bar or unverifiable website; recheck when a round or site appears."
+    "review_note": "stub site; round not closed",
+    "reviewed": "2026-11-06"
   },
   {
     "name": "CarbonSix",
-    "status": "held",
+    "status": "rejected",
     "sector": "",
     "tagline": "Robot hands; $40M Series A (1 Jul 2026) but no verifiable company website",
     "founders": "",
@@ -856,7 +873,8 @@
     "source_list": "trip research (Who Else, 9 Oct) + 11 Oct review",
     "detected_at": "2026-10-11T02:31:38.887137+00:00",
     "reviewed_at": "2026-10-11",
-    "review_note": "Held 11 Oct 2026: below the bar or unverifiable website; recheck when a round or site appears."
+    "review_note": "no verifiable company website",
+    "reviewed": "2026-11-06"
   },
   {
     "name": "Critical Materials Group",
@@ -876,7 +894,7 @@
   },
   {
     "name": "Subsense",
-    "status": "held",
+    "status": "rejected",
     "sector": "",
     "tagline": "Nasal nanoparticle BCI; $27M mostly from co-founder; preclinical; site unreachable",
     "founders": "",
@@ -888,11 +906,12 @@
     "source_list": "trip research (Who Else, 9 Oct) + 11 Oct review",
     "detected_at": "2026-10-11T02:31:38.887138+00:00",
     "reviewed_at": "2026-10-11",
-    "review_note": "Held 11 Oct 2026: below the bar or unverifiable website; recheck when a round or site appears."
+    "review_note": "site unreachable; preclinical; funding mostly from a co-founder",
+    "reviewed": "2026-11-06"
   },
   {
     "name": "Navier AI",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Aerospace",
     "tagline": "Drives agent-based engineering.",
     "founders": "Cameron Flannery, Evan Kay",
@@ -905,11 +924,13 @@
     "careers_url": "https://job-boards.greenhouse.io/navierai",
     "our_sector": "Space & Aerospace",
     "source_list": "buildlist",
-    "detected_at": "2026-10-12T17:54:15.002011+00:00"
+    "detected_at": "2026-10-12T17:54:15.002011+00:00",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
   },
   {
     "name": "Victus AI",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Defense",
     "tagline": "Contested autonomy software that works where GPS doesn't, from the seafloor to low Earth orbit.",
     "founders": "Jesse Hamel",
@@ -922,6 +943,8 @@
     "careers_url": "https://getvictus.ai/about/careers/",
     "our_sector": "Defense & Security",
     "source_list": "buildlist",
-    "detected_at": "2026-10-12T17:54:15.002011+00:00"
+    "detected_at": "2026-10-12T17:54:15.002011+00:00",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
   }
 ]
