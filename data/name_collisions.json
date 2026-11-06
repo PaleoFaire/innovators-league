@@ -82,6 +82,18 @@
       "only_if": "brain|EEG|neuro|wearable|Occam|stress|cognitive|\\bBCI\\b|atlasmankind",
       "note": "Ours is the former Occam, the San Francisco brain-wearable maker (atlasmankind.com). Atlas is also a ULA rocket, a Boston Dynamics robot, Atlas Copco, MongoDB Atlas, Atlas Air and many funds; data.js also holds Atlas Atomics and Atlas Motion."
     },
+    "ALSO": {
+      "only_if": "Rivian|micromobility|e-?bikes?|TM-B|ridealso|Chris Yu|electric (?:bike|quad|vehicle)",
+      "note": "Ours is the Palo Alto micromobility maker spun out of Rivian (ridealso.com); 'also' is an everyday English word."
+    },
+    "Malta": {
+      "only_if": "heat pump|thermal (?:storage|battery|energy)|energy storage|process heat|Malta Inc|maltainc|Delleville|Proman|Kobe Steel|pumped heat",
+      "note": "Ours is the Cambridge, MA heat-pump and thermal-storage company (maltainc.com); Malta is also a country."
+    },
+    "Yard Stick": {
+      "only_if": "soil carbon|soil organic|carbon removal|spectroscop|Tolles|useyardstick",
+      "note": "Ours is the Cambridge, MA soil-carbon measurement company (useyardstick.com); 'yardstick' is an everyday word."
+    },
     "Pascal": {
       "only_if": "refrigera|cooling|\\bHVAC\\b|barocaloric|solid[- ]state (?:cooling|refrigerant)|Watertown|Slavney|pascaltechnology",
       "note": "Ours is the Watertown, MA solid-refrigerant cooling startup (pascaltechnology.com). Pascal is also an Nvidia GPU generation, a programming language, a unit of pressure and a common first and last name."
@@ -262,17 +274,17 @@
     {"name": "Twelve Labs", "not": ["Twelve"], "note": "Video-understanding AI company; Twelve is the Berkeley CO2-to-fuels company (twelve.co). Both reduce to the stem 'twelve'."}
   ],
   "common_word_names": [
-    "Abridge", "Agility", "AIR", "Airship", "Ample", "Anode", "Anthropic", "Arbor", "Armada", "ASI", "ATLAS", "Atoms",
-    "Avalanche", "Axiom", "Bedrock", "Bronco", "Built", "Cape", "Chaos", "Cohere", "Collaborative", "Colossal",
-    "Covariant", "Covenant", "Cover", "Cradle", "Deterrence", "Dexterity", "Diode", "Divergent", "Dragonfly", "Dust",
-    "Earth", "Endurance", "Enigma", "Etched", "Field", "Figure", "Firefly", "Flux", "Focused", "Gambit", "Gecko",
-    "Glacier", "Glimpse", "Halo", "Helios", "Humane", "Humanoid", "Icon", "Impulse", "Integrate", "Inversion",
-    "Kestrel", "Latitude", "Launchpad", "Locus", "Loyal", "Mammoth", "Material", "Matter", "Mistral", "Modal",
-    "Monumental", "Multiply", "Mythic", "Nominal", "Nudge", "Observable", "Orchid", "Ouster", "Outpost", "Overland",
-    "Parallel", "Parry", "Pascal", "Pilgrim", "Pivotal", "Planet", "Primer", "Radiant", "Rainbow", "Rapid",
-    "Rebellions", "Relativity", "Resilience", "Reveal", "Revel", "Runway", "Sift", "Singularity", "Skeleton",
-    "Skyways", "Slingshot", "Span", "Specter", "Steady", "Stoke", "Sublime", "Substrate", "Surge", "Swan", "Synthesis",
-    "Tempo", "Terrestrial", "Twelve", "Twenty", "Union", "Until", "Uplift", "Vast", "Verse", "Vertical", "Watershed",
-    "Zoo"
+    "Abridge", "Agility", "AIR", "Airship", "ALSO", "Ample", "Anode", "Anthropic", "Arbor", "Armada", "ASI", "ATLAS",
+    "Atoms", "Avalanche", "Axiom", "Bedrock", "Bronco", "Built", "Cape", "Chaos", "Cohere", "Collaborative",
+    "Colossal", "Covariant", "Covenant", "Cover", "Cradle", "Deterrence", "Dexterity", "Diode", "Divergent",
+    "Dragonfly", "Dust", "Earth", "Endurance", "Enigma", "Etched", "Field", "Figure", "Firefly", "Flux", "Focused",
+    "Gambit", "Gecko", "Glacier", "Glimpse", "Halo", "Helios", "Humane", "Humanoid", "Icon", "Impulse", "Integrate",
+    "Inversion", "Kestrel", "Latitude", "Launchpad", "Locus", "Loyal", "Malta", "Mammoth", "Material", "Matter",
+    "Mistral", "Modal", "Monumental", "Multiply", "Mythic", "Nominal", "Nudge", "Observable", "Orchid", "Ouster",
+    "Outpost", "Overland", "Parallel", "Parry", "Pascal", "Pilgrim", "Pivotal", "Planet", "Primer", "Radiant",
+    "Rainbow", "Rapid", "Rebellions", "Relativity", "Resilience", "Reveal", "Revel", "Runway", "Sift", "Singularity",
+    "Skeleton", "Skyways", "Slingshot", "Span", "Specter", "Steady", "Stoke", "Sublime", "Substrate", "Surge", "Swan",
+    "Synthesis", "Tempo", "Terrestrial", "Twelve", "Twenty", "Union", "Until", "Uplift", "Vast", "Verse", "Vertical",
+    "Watershed", "Yard Stick", "Zoo"
   ]
 }

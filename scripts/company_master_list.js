@@ -7,7 +7,7 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1346
+ * Total companies: 1364
  * Last updated: 2026-11-06
  * 
  * Each company has:
@@ -1409,6 +1409,25 @@ const MASTER_COMPANY_LIST = [
   { name: "Hypersonica", aliases: [], sector: "space", ticker: null },
   { name: "KMI Space", aliases: ["KMISpace"], sector: "space", ticker: null },
   { name: "Logos Space", aliases: ["LogosSpace"], sector: "space", ticker: null },
+  // ─── 06 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
+  { name: "Pison", aliases: [], sector: "biotech", ticker: null },
+  { name: "Watchmaker Genomics", aliases: ["WatchmakerGenomics"], sector: "biotech", ticker: null },
+  { name: "Windfall Bio", aliases: ["WindfallBio"], sector: "biotech", ticker: null },
+  { name: "Aeroseal", aliases: [], sector: "climate", ticker: null },
+  { name: "Airloom", aliases: [], sector: "climate", ticker: null },
+  { name: "Alta Resource Technologies", aliases: ["AltaResourceTechnologies"], sector: "climate", ticker: null },
+  { name: "Blue Frontier", aliases: ["BlueFrontier"], sector: "climate", ticker: null },
+  { name: "Circularity Fuels", aliases: ["CircularityFuels"], sector: "climate", ticker: null },
+  { name: "Estes Energy", aliases: ["EstesEnergy"], sector: "climate", ticker: null },
+  { name: "Malta", aliases: [], sector: "climate", ticker: null },
+  { name: "Stratus Materials", aliases: ["StratusMaterials"], sector: "climate", ticker: null },
+  { name: "Sustaera", aliases: [], sector: "climate", ticker: null },
+  { name: "Terra CO2", aliases: ["TerraCO2"], sector: "climate", ticker: null },
+  { name: "Yard Stick", aliases: ["YardStick"], sector: "climate", ticker: null },
+  { name: "Overwatch Imaging", aliases: ["OverwatchImaging"], sector: "defense", ticker: null },
+  { name: "Kodama Systems", aliases: ["KodamaSystems"], sector: "robotics", ticker: null },
+  { name: "mPower Technology", aliases: ["MPowerTechnology"], sector: "space", ticker: null },
+  { name: "ALSO", aliases: [], sector: "transportation", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════
