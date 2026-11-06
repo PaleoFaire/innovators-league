@@ -7,7 +7,7 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1394
+ * Total companies: 1411
  * Last updated: 2026-11-06
  * 
  * Each company has:
@@ -1460,6 +1460,24 @@ const MASTER_COMPANY_LIST = [
   { name: "Sora Fuel", aliases: ["SoraFuel"], sector: "climate", ticker: null },
   { name: "Corridian", aliases: [], sector: "defense", ticker: null },
   { name: "Molten Salt Solutions", aliases: ["MoltenSaltSolutions"], sector: "nuclear", ticker: null },
+  // ─── 06 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
+  { name: "Biosphere", aliases: [], sector: "biotech", ticker: null },
+  { name: "Loam Bio", aliases: ["LoamBio"], sector: "biotech", ticker: null },
+  { name: "Mosa Meat", aliases: ["MosaMeat"], sector: "biotech", ticker: null },
+  { name: "Arca Climate", aliases: ["ArcaClimate"], sector: "climate", ticker: null },
+  { name: "Cocoon Carbon", aliases: ["CocoonCarbon"], sector: "climate", ticker: null },
+  { name: "Milvus Advanced", aliases: ["MilvusAdvanced"], sector: "climate", ticker: null },
+  { name: "Novalith", aliases: [], sector: "climate", ticker: null },
+  { name: "Quilt", aliases: [], sector: "climate", ticker: null },
+  { name: "Rune Energy", aliases: ["RuneEnergy"], sector: "climate", ticker: null },
+  { name: "Seabound", aliases: [], sector: "climate", ticker: null },
+  { name: "Verdox", aliases: [], sector: "climate", ticker: null },
+  { name: "Woodoo", aliases: [], sector: "construction", ticker: null },
+  { name: "Carbon Crusher", aliases: ["CarbonCrusher"], sector: "infrastructure", ticker: null },
+  { name: "Velo3D", aliases: [], sector: "manufacturing", ticker: null },
+  { name: "Acceleron Fusion", aliases: ["AcceleronFusion"], sector: "nuclear", ticker: null },
+  { name: "River Mobility", aliases: ["RiverMobility"], sector: "transportation", ticker: null },
+  { name: "Zeno Moto", aliases: ["ZenoMoto"], sector: "transportation", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════

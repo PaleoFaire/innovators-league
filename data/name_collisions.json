@@ -82,6 +82,18 @@
       "only_if": "brain|EEG|neuro|wearable|Occam|stress|cognitive|\\bBCI\\b|atlasmankind",
       "note": "Ours is the former Occam, the San Francisco brain-wearable maker (atlasmankind.com). Atlas is also a ULA rocket, a Boston Dynamics robot, Atlas Copco, MongoDB Atlas, Atlas Air and many funds; data.js also holds Atlas Atomics and Atlas Motion."
     },
+    "Biosphere": {
+      "only_if": "bioreactor|fermentation|biomanufactur|UV[- ]steril|biosphere\\.io|Lowercarbon",
+      "note": "Ours is the Oakland bioreactor maker (biosphere.io); 'biosphere' is an everyday word and the name of many projects."
+    },
+    "Quilt": {
+      "only_if": "heat pump|HVAC|thermostat|ductless|quilt\\.com|home energy",
+      "note": "Ours is the Redwood City heat-pump maker (quilt.com); 'quilt' is an everyday word."
+    },
+    "Seabound": {
+      "only_if": "carbon capture|onboard|ship(?:s|ping)?\\b|vessel|maritime|seabound\\.co",
+      "note": "Ours is the London maker of onboard ship carbon capture; 'seabound' is also an ordinary adjective."
+    },
     "Mantel": {
       "only_if": "carbon capture|molten (?:salt|borate)|CO2|decarboni|Shell Ventures|Eni Next|mantelcapture|pulp mill",
       "note": "Ours is the Cambridge, MA molten-salt carbon-capture company (mantel.com); a mantel is a fireplace shelf, and Hilary Mantel was a novelist."
@@ -287,16 +299,16 @@
   ],
   "common_word_names": [
     "Abridge", "Agility", "AIR", "Airship", "ALSO", "Ample", "Anode", "Anthropic", "Arbor", "Armada", "ASI", "ATLAS",
-    "Atoms", "Avalanche", "Axiom", "Bedrock", "Bronco", "Built", "Cape", "Chaos", "Cohere", "Collaborative",
-    "Colossal", "Covariant", "Covenant", "Cover", "Cradle", "Deterrence", "Dexterity", "Diode", "Divergent",
-    "Dragonfly", "Dust", "Earth", "Endurance", "Enigma", "Etched", "Field", "Figure", "Firefly", "Flux", "Focused",
-    "Gambit", "Gecko", "Glacier", "Glimpse", "Halo", "Helios", "Humane", "Humanoid", "Icon", "Impulse", "Integrate",
-    "Inversion", "Kestrel", "Latitude", "Launchpad", "Locus", "Loyal", "Malta", "Mammoth", "Mantel", "Material",
-    "Matter", "Mistral", "Modal", "Monumental", "Multiply", "Mythic", "Nominal", "Nudge", "Observable", "Orchid",
-    "Osmoses", "Ouster", "Outpost", "Overland", "Parallel", "Parry", "Pascal", "Pilgrim", "Pivotal", "Planet",
-    "Primer", "Queue", "Radiant", "Rainbow", "Rapid", "Rebellions", "Relativity", "Resilience", "Reveal", "Revel",
-    "Runway", "Sift", "Singularity", "Skeleton", "Skyways", "Slingshot", "Span", "Specter", "Steady", "Stoke",
-    "Sublime", "Substrate", "Surge", "Swan", "Synthesis", "Tempo", "Terrestrial", "Twelve", "Twenty", "Union", "Until",
-    "Uplift", "Vast", "Verse", "Vertical", "Watershed", "Yard Stick", "Zoo"
+    "Atoms", "Avalanche", "Axiom", "Bedrock", "Biosphere", "Bronco", "Built", "Cape", "Chaos", "Cohere",
+    "Collaborative", "Colossal", "Covariant", "Covenant", "Cover", "Cradle", "Deterrence", "Dexterity", "Diode",
+    "Divergent", "Dragonfly", "Dust", "Earth", "Endurance", "Enigma", "Etched", "Field", "Figure", "Firefly", "Flux",
+    "Focused", "Gambit", "Gecko", "Glacier", "Glimpse", "Halo", "Helios", "Humane", "Humanoid", "Icon", "Impulse",
+    "Integrate", "Inversion", "Kestrel", "Latitude", "Launchpad", "Locus", "Loyal", "Malta", "Mammoth", "Mantel",
+    "Material", "Matter", "Mistral", "Modal", "Monumental", "Multiply", "Mythic", "Nominal", "Nudge", "Observable",
+    "Orchid", "Osmoses", "Ouster", "Outpost", "Overland", "Parallel", "Parry", "Pascal", "Pilgrim", "Pivotal",
+    "Planet", "Primer", "Queue", "Quilt", "Radiant", "Rainbow", "Rapid", "Rebellions", "Relativity", "Resilience",
+    "Reveal", "Revel", "Runway", "Seabound", "Sift", "Singularity", "Skeleton", "Skyways", "Slingshot", "Span",
+    "Specter", "Steady", "Stoke", "Sublime", "Substrate", "Surge", "Swan", "Synthesis", "Tempo", "Terrestrial",
+    "Twelve", "Twenty", "Union", "Until", "Uplift", "Vast", "Verse", "Vertical", "Watershed", "Yard Stick", "Zoo"
   ]
 }
