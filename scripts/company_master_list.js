@@ -7,7 +7,7 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1364
+ * Total companies: 1380
  * Last updated: 2026-11-06
  * 
  * Each company has:
@@ -1428,6 +1428,23 @@ const MASTER_COMPANY_LIST = [
   { name: "Kodama Systems", aliases: ["KodamaSystems"], sector: "robotics", ticker: null },
   { name: "mPower Technology", aliases: ["MPowerTechnology"], sector: "space", ticker: null },
   { name: "ALSO", aliases: [], sector: "transportation", ticker: null },
+  // ─── 06 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
+  { name: "LIFT Aircraft", aliases: ["LIFTAircraft"], sector: "autonomous", ticker: null },
+  { name: "GigaCrop", aliases: [], sector: "biotech", ticker: null },
+  { name: "LyGenesis", aliases: [], sector: "biotech", ticker: null },
+  { name: "Neion Bio", aliases: ["NeionBio"], sector: "biotech", ticker: null },
+  { name: "Pow.Bio", aliases: ["PowBio"], sector: "biotech", ticker: null },
+  { name: "Visolis", aliases: [], sector: "biotech", ticker: null },
+  { name: "Eridan", aliases: [], sector: "chips", ticker: null },
+  { name: "OLIX", aliases: [], sector: "chips", ticker: null },
+  { name: "American Supercritical", aliases: ["AmericanSupercritical"], sector: "climate", ticker: null },
+  { name: "Element Zero", aliases: ["ElementZero"], sector: "climate", ticker: null },
+  { name: "Remedy Scientific", aliases: ["RemedyScientific"], sector: "climate", ticker: null },
+  { name: "Tarana", aliases: [], sector: "infrastructure", ticker: null },
+  { name: "Queue", aliases: [], sector: "robotics", ticker: null },
+  { name: "Momentus", aliases: [], sector: "space", ticker: null },
+  { name: "Skyband", aliases: [], sector: "space", ticker: null },
+  { name: "Voyager Technologies", aliases: ["VoyagerTechnologies"], sector: "space", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════
