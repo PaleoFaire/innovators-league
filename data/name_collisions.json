@@ -82,6 +82,14 @@
       "only_if": "brain|EEG|neuro|wearable|Occam|stress|cognitive|\\bBCI\\b|atlasmankind",
       "note": "Ours is the former Occam, the San Francisco brain-wearable maker (atlasmankind.com). Atlas is also a ULA rocket, a Boston Dynamics robot, Atlas Copco, MongoDB Atlas, Atlas Air and many funds; data.js also holds Atlas Atomics and Atlas Motion."
     },
+    "Mantel": {
+      "only_if": "carbon capture|molten (?:salt|borate)|CO2|decarboni|Shell Ventures|Eni Next|mantelcapture|pulp mill",
+      "note": "Ours is the Cambridge, MA molten-salt carbon-capture company (mantel.com); a mantel is a fireplace shelf, and Hilary Mantel was a novelist."
+    },
+    "Osmoses": {
+      "only_if": "membrane|gas separation|Halliburton Labs|ARPA-E|osmoses\\.com",
+      "note": "Ours is the Cambridge, MA gas-separation membrane company; 'osmoses' is also the plural of osmosis."
+    },
     "Queue": {
       "only_if": "pharmac|prescription|kiosk|medication|robotic (?:pharmacy|dispens)|AlleyCorp|withqueue|queue\\.co",
       "note": "Ours is the Newark, CA robotic pharmacy-kiosk maker; 'queue' is an everyday word."
@@ -283,12 +291,12 @@
     "Colossal", "Covariant", "Covenant", "Cover", "Cradle", "Deterrence", "Dexterity", "Diode", "Divergent",
     "Dragonfly", "Dust", "Earth", "Endurance", "Enigma", "Etched", "Field", "Figure", "Firefly", "Flux", "Focused",
     "Gambit", "Gecko", "Glacier", "Glimpse", "Halo", "Helios", "Humane", "Humanoid", "Icon", "Impulse", "Integrate",
-    "Inversion", "Kestrel", "Latitude", "Launchpad", "Locus", "Loyal", "Malta", "Mammoth", "Material", "Matter",
-    "Mistral", "Modal", "Monumental", "Multiply", "Mythic", "Nominal", "Nudge", "Observable", "Orchid", "Ouster",
-    "Outpost", "Overland", "Parallel", "Parry", "Pascal", "Pilgrim", "Pivotal", "Planet", "Primer", "Queue", "Radiant",
-    "Rainbow", "Rapid", "Rebellions", "Relativity", "Resilience", "Reveal", "Revel", "Runway", "Sift", "Singularity",
-    "Skeleton", "Skyways", "Slingshot", "Span", "Specter", "Steady", "Stoke", "Sublime", "Substrate", "Surge", "Swan",
-    "Synthesis", "Tempo", "Terrestrial", "Twelve", "Twenty", "Union", "Until", "Uplift", "Vast", "Verse", "Vertical",
-    "Watershed", "Yard Stick", "Zoo"
+    "Inversion", "Kestrel", "Latitude", "Launchpad", "Locus", "Loyal", "Malta", "Mammoth", "Mantel", "Material",
+    "Matter", "Mistral", "Modal", "Monumental", "Multiply", "Mythic", "Nominal", "Nudge", "Observable", "Orchid",
+    "Osmoses", "Ouster", "Outpost", "Overland", "Parallel", "Parry", "Pascal", "Pilgrim", "Pivotal", "Planet",
+    "Primer", "Queue", "Radiant", "Rainbow", "Rapid", "Rebellions", "Relativity", "Resilience", "Reveal", "Revel",
+    "Runway", "Sift", "Singularity", "Skeleton", "Skyways", "Slingshot", "Span", "Specter", "Steady", "Stoke",
+    "Sublime", "Substrate", "Surge", "Swan", "Synthesis", "Tempo", "Terrestrial", "Twelve", "Twenty", "Union", "Until",
+    "Uplift", "Vast", "Verse", "Vertical", "Watershed", "Yard Stick", "Zoo"
   ]
 }

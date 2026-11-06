@@ -7,7 +7,7 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1380
+ * Total companies: 1394
  * Last updated: 2026-11-06
  * 
  * Each company has:
@@ -1445,6 +1445,21 @@ const MASTER_COMPANY_LIST = [
   { name: "Momentus", aliases: [], sector: "space", ticker: null },
   { name: "Skyband", aliases: [], sector: "space", ticker: null },
   { name: "Voyager Technologies", aliases: ["VoyagerTechnologies"], sector: "space", ticker: null },
+  // ─── 06 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
+  { name: "64x Bio", aliases: ["64xBio"], sector: "biotech", ticker: null },
+  { name: "Axoft", aliases: [], sector: "biotech", ticker: null },
+  { name: "HyperLight", aliases: [], sector: "chips", ticker: null },
+  { name: "Oso Semiconductor", aliases: ["OsoSemiconductor"], sector: "chips", ticker: null },
+  { name: "Syenta", aliases: [], sector: "chips", ticker: null },
+  { name: "AtmosZero", aliases: [], sector: "climate", ticker: null },
+  { name: "Copernic Catalysts", aliases: ["CopernicCatalysts"], sector: "climate", ticker: null },
+  { name: "EVOLOH", aliases: [], sector: "climate", ticker: null },
+  { name: "Hephae", aliases: [], sector: "climate", ticker: null },
+  { name: "Mantel", aliases: [], sector: "climate", ticker: null },
+  { name: "Osmoses", aliases: [], sector: "climate", ticker: null },
+  { name: "Sora Fuel", aliases: ["SoraFuel"], sector: "climate", ticker: null },
+  { name: "Corridian", aliases: [], sector: "defense", ticker: null },
+  { name: "Molten Salt Solutions", aliases: ["MoltenSaltSolutions"], sector: "nuclear", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════
