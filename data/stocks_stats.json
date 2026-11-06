@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -21.45,
+      "avg_change": -21.09,
       "count": 1
     },
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -17.3,
+      "avg_change": -18.15,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -6.31,
+      "avg_change": -6.71,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -24.43,
+      "avg_change": -25.22,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.37,
+      "avg_change": -4.01,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -18.22,
+      "avg_change": -18.91,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -13.3,
+      "avg_change": -11.66,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.48,
+      "avg_change": 0.65,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -26.12,
+      "avg_change": -27.27,
       "count": 3
     }
   },
@@ -61,17 +61,12 @@
     [
       "RIVN",
       "Rivian",
-      15.94
-    ],
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      10.31
+      16.07
     ],
     [
       "JOBY",
       "Joby Aviation",
-      4.04
+      4.33
     ],
     [
       "ASRHF",
@@ -79,37 +74,42 @@
       3.92
     ],
     [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      3.54
+    ],
+    [
       "SLDP",
       "Solid Power",
-      0.25
+      0.49
     ]
   ],
   "topLosers": [
     [
       "LUNR",
       "Intuitive Machines",
-      -25.68
-    ],
-    [
-      "AMD",
-      "AMD",
-      -27.05
+      -26.2
     ],
     [
       "OKLO",
       "Oklo",
-      -27.6
+      -28.38
+    ],
+    [
+      "AMD",
+      "AMD",
+      -28.6
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -29.6
+      -29.88
     ],
     [
       "ALAB",
       "Astera Labs",
-      -36.47
+      -38.21
     ]
   ],
-  "lastUpdated": "2026-11-05 20:46:42"
+  "lastUpdated": "2026-11-06 08:00:21"
 }
