@@ -7,8 +7,8 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1313
- * Last updated: 2026-11-05
+ * Total companies: 1346
+ * Last updated: 2026-11-06
  * 
  * Each company has:
  *   - name: Official company name
@@ -1375,6 +1375,40 @@ const MASTER_COMPANY_LIST = [
   { name: "Kyber Labs", aliases: ["KyberLabs"], sector: "robotics", ticker: null },
   { name: "Minerva Humanoids", aliases: ["MinervaHumanoids"], sector: "robotics", ticker: null },
   { name: "Inflection Space Systems", aliases: ["InflectionSpaceSystems"], sector: "space", ticker: null },
+  // ─── 06 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
+  { name: "Cognixion", aliases: [], sector: "biotech", ticker: null },
+  { name: "Gordian Bio", aliases: ["GordianBio"], sector: "biotech", ticker: null },
+  { name: "Kanvas Biosciences", aliases: ["KanvasBiosciences"], sector: "biotech", ticker: null },
+  { name: "Quantune", aliases: [], sector: "biotech", ticker: null },
+  { name: "The Biological Computing Co.", aliases: ["TheBiologicalComputingCo"], sector: "biotech", ticker: null },
+  { name: "EUV Tech", aliases: ["EUVTech"], sector: "chips", ticker: null },
+  { name: "EdgeCortix", aliases: [], sector: "chips", ticker: null },
+  { name: "FononTech", aliases: [], sector: "chips", ticker: null },
+  { name: "PicoJool", aliases: [], sector: "chips", ticker: null },
+  { name: "Powerlattice", aliases: [], sector: "chips", ticker: null },
+  { name: "Snowcap Compute", aliases: ["SnowcapCompute"], sector: "chips", ticker: null },
+  { name: "Addis Energy", aliases: ["AddisEnergy"], sector: "climate", ticker: null },
+  { name: "Ayr Energy", aliases: ["AyrEnergy"], sector: "climate", ticker: null },
+  { name: "Emvolon", aliases: [], sector: "climate", ticker: null },
+  { name: "Genomines", aliases: [], sector: "climate", ticker: null },
+  { name: "Pascal", aliases: [], sector: "climate", ticker: null },
+  { name: "Samsara Eco", aliases: ["SamsaraEco"], sector: "climate", ticker: null },
+  { name: "Vaulted Deep", aliases: ["VaultedDeep"], sector: "climate", ticker: null },
+  { name: "ZwitterCo", aliases: [], sector: "climate", ticker: null },
+  { name: "Constelli", aliases: [], sector: "defense", ticker: null },
+  { name: "RaySecur", aliases: [], sector: "defense", ticker: null },
+  { name: "SoloPulse", aliases: [], sector: "defense", ticker: null },
+  { name: "Warhound", aliases: [], sector: "defense", ticker: null },
+  { name: "Jeh Aerospace", aliases: ["JehAerospace"], sector: "manufacturing", ticker: null },
+  { name: "EeroQ", aliases: [], sector: "quantum", ticker: null },
+  { name: "Boxbot", aliases: [], sector: "robotics", ticker: null },
+  { name: "Rhoda AI", aliases: ["RhodaAI"], sector: "robotics", ticker: null },
+  { name: "Robust.AI", aliases: ["RobustAI"], sector: "robotics", ticker: null },
+  { name: "Catalyx Space", aliases: ["CatalyxSpace"], sector: "space", ticker: null },
+  { name: "Helogen", aliases: [], sector: "space", ticker: null },
+  { name: "Hypersonica", aliases: [], sector: "space", ticker: null },
+  { name: "KMI Space", aliases: ["KMISpace"], sector: "space", ticker: null },
+  { name: "Logos Space", aliases: ["LogosSpace"], sector: "space", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════

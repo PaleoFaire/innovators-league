@@ -82,6 +82,10 @@
       "only_if": "brain|EEG|neuro|wearable|Occam|stress|cognitive|\\bBCI\\b|atlasmankind",
       "note": "Ours is the former Occam, the San Francisco brain-wearable maker (atlasmankind.com). Atlas is also a ULA rocket, a Boston Dynamics robot, Atlas Copco, MongoDB Atlas, Atlas Air and many funds; data.js also holds Atlas Atomics and Atlas Motion."
     },
+    "Pascal": {
+      "only_if": "refrigera|cooling|\\bHVAC\\b|barocaloric|solid[- ]state (?:cooling|refrigerant)|Watertown|Slavney|pascaltechnology",
+      "note": "Ours is the Watertown, MA solid-refrigerant cooling startup (pascaltechnology.com). Pascal is also an Nvidia GPU generation, a programming language, a unit of pressure and a common first and last name."
+    },
     "Laminar": {
       "only_if": "sensors?|spectral|factor(?:y|ies)|manufactur|process|H2Ok|water",
       "note": "Ours is the former H2Ok Innovations (inline spectral sensors, runlaminar.com); an agent-debugging Laminar is another."
@@ -258,15 +262,17 @@
     {"name": "Twelve Labs", "not": ["Twelve"], "note": "Video-understanding AI company; Twelve is the Berkeley CO2-to-fuels company (twelve.co). Both reduce to the stem 'twelve'."}
   ],
   "common_word_names": [
-    "Abridge", "Agility", "AIR", "Airship", "Ample", "Anode", "Anthropic", "Arbor", "Armada", "ASI", "ATLAS", "Atoms", "Avalanche",
-    "Axiom", "Bedrock", "Bronco", "Built", "Cape", "Chaos", "Cohere", "Collaborative", "Colossal", "Covariant", "Covenant", "Cover",
-    "Cradle", "Deterrence", "Dexterity", "Diode", "Divergent", "Dragonfly", "Dust", "Earth", "Endurance", "Enigma", "Etched", "Field",
-    "Figure", "Firefly", "Flux", "Focused", "Gambit", "Gecko", "Glacier", "Glimpse", "Halo", "Helios", "Humane", "Humanoid",
-    "Icon", "Impulse", "Integrate", "Inversion", "Kestrel", "Latitude", "Launchpad", "Locus", "Loyal", "Mammoth", "Material", "Matter",
-    "Mistral", "Modal", "Monumental", "Multiply", "Mythic", "Nominal", "Nudge", "Observable", "Orchid", "Ouster", "Outpost", "Overland",
-    "Parallel", "Parry", "Pilgrim", "Pivotal", "Planet", "Primer", "Radiant", "Rainbow", "Rapid", "Rebellions", "Relativity", "Resilience",
-    "Reveal", "Revel", "Runway", "Sift", "Singularity", "Skeleton", "Skyways", "Slingshot", "Span", "Specter", "Steady", "Stoke",
-    "Sublime", "Substrate", "Surge", "Swan", "Synthesis", "Tempo", "Terrestrial", "Twelve", "Twenty", "Union", "Until", "Uplift",
-    "Vast", "Verse", "Vertical", "Watershed", "Zoo"
+    "Abridge", "Agility", "AIR", "Airship", "Ample", "Anode", "Anthropic", "Arbor", "Armada", "ASI", "ATLAS", "Atoms",
+    "Avalanche", "Axiom", "Bedrock", "Bronco", "Built", "Cape", "Chaos", "Cohere", "Collaborative", "Colossal",
+    "Covariant", "Covenant", "Cover", "Cradle", "Deterrence", "Dexterity", "Diode", "Divergent", "Dragonfly", "Dust",
+    "Earth", "Endurance", "Enigma", "Etched", "Field", "Figure", "Firefly", "Flux", "Focused", "Gambit", "Gecko",
+    "Glacier", "Glimpse", "Halo", "Helios", "Humane", "Humanoid", "Icon", "Impulse", "Integrate", "Inversion",
+    "Kestrel", "Latitude", "Launchpad", "Locus", "Loyal", "Mammoth", "Material", "Matter", "Mistral", "Modal",
+    "Monumental", "Multiply", "Mythic", "Nominal", "Nudge", "Observable", "Orchid", "Ouster", "Outpost", "Overland",
+    "Parallel", "Parry", "Pascal", "Pilgrim", "Pivotal", "Planet", "Primer", "Radiant", "Rainbow", "Rapid",
+    "Rebellions", "Relativity", "Resilience", "Reveal", "Revel", "Runway", "Sift", "Singularity", "Skeleton",
+    "Skyways", "Slingshot", "Span", "Specter", "Steady", "Stoke", "Sublime", "Substrate", "Surge", "Swan", "Synthesis",
+    "Tempo", "Terrestrial", "Twelve", "Twenty", "Union", "Until", "Uplift", "Vast", "Verse", "Vertical", "Watershed",
+    "Zoo"
   ]
 }
