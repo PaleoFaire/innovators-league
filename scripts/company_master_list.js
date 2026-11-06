@@ -7,7 +7,7 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1411
+ * Total companies: 1422
  * Last updated: 2026-11-06
  * 
  * Each company has:
@@ -1478,6 +1478,18 @@ const MASTER_COMPANY_LIST = [
   { name: "Acceleron Fusion", aliases: ["AcceleronFusion"], sector: "nuclear", ticker: null },
   { name: "River Mobility", aliases: ["RiverMobility"], sector: "transportation", ticker: null },
   { name: "Zeno Moto", aliases: ["ZenoMoto"], sector: "transportation", ticker: null },
+  // ─── 06 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
+  { name: "LambdaVision", aliases: [], sector: "biotech", ticker: null },
+  { name: "QLM Technology", aliases: ["QLMTechnology"], sector: "climate", ticker: null },
+  { name: "Evolve Dynamics", aliases: ["EvolveDynamics"], sector: "defense", ticker: null },
+  { name: "Online Oceans", aliases: ["OnlineOceans"], sector: "ocean", ticker: null },
+  { name: "KETS Quantum Security", aliases: ["KETSQuantumSecurity"], sector: "quantum", ticker: null },
+  { name: "Kurs Orbital", aliases: ["KursOrbital"], sector: "space", ticker: null },
+  { name: "Methera Global", aliases: ["MetheraGlobal"], sector: "space", ticker: null },
+  { name: "Ravee Optics", aliases: ["RaveeOptics"], sector: "space", ticker: null },
+  { name: "SmartIR", aliases: [], sector: "space", ticker: null },
+  { name: "Sofant Technologies", aliases: ["SofantTechnologies"], sector: "space", ticker: null },
+  { name: "Spaceflux", aliases: [], sector: "space", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════
