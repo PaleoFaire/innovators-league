@@ -1,71 +1,55 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 56,
-    "trend": "accelerating",
+    "momentum": 54,
+    "trend": "steady",
     "catalysts": [
-      "Waymo confirms it&#8217;s shaking up its Uber relationship i",
-      "Churchill Capital XI shareholders approve $2.5B Agility Robo",
-      "Tutor Intelligence raises Series B to scale model training,"
+      "How did Agility Robotics perform on its first day on the sto",
+      "Agility Robotics begins trading on Nasdaq",
+      "Churchill Capital XI shareholders approve $2.5B Agility Robo"
     ],
     "fundingQ": "$7.0B",
     "components": {
       "funding": 100,
-      "news": 45,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "sector": "Transportation",
-    "momentum": 56,
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
-      "Toyota &#038; Waymo Advance Autonomous Driving Collaboration"
+      "Active transportation ecosystem"
     ],
     "fundingQ": "$3.0B",
     "components": {
       "funding": 100,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
-      "market": 99
+      "market": 79
     },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 38,
+    "momentum": 40,
     "trend": "steady",
     "catalysts": [
-      "Navy unfairly evaluated Saildrone MUSV proposal, court finds",
-      "Shield AI cofounder teases &#8216;snowball&#8217; of X-BAT f"
+      "CesiumAstro Secures $730 Million in Janus Henderson-Led Seri",
+      "Harbinger raises $240M after expanding into defense",
+      "Shield AI acquires radar firm Echodyne in $5.3B deal"
     ],
     "fundingQ": "$4.1B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 20,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-05"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 38,
-    "trend": "rising",
-    "catalysts": [
-      "With federal funding windfall, X-energy advances small nucle",
-      "Mazama Energy raises $135M for superhot geothermal at Oregon"
-    ],
-    "fundingQ": "$550M",
-    "components": {
-      "funding": 46,
-      "news": 10,
-      "hiring": 0,
-      "market": 95
-    },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "sector": "Nuclear Energy",
@@ -81,16 +65,16 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 25,
     "trend": "rising",
     "catalysts": [
-      "What does a blue Texas sweep mean for Elon Musk, Tesla &#038",
-      "Simera Sense and Spacemanic to Collaborate on a New Complete",
-      "Percepto launches Axion AI platform to unify inspection data"
+      "How Will SpaceX Leapfrog ATT &#038; Verizon",
+      "CesiumAstro Secures $730 Million in Janus Henderson-Led Seri",
+      "Ukraine eyeing new SpaceX Starshield deal by mid-2027, still"
     ],
     "fundingQ": "$1.2B",
     "components": {
@@ -99,52 +83,50 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 23,
+    "trend": "rising",
+    "catalysts": [
+      "With federal funding windfall, X-energy advances small nucle"
+    ],
+    "fundingQ": "$550M",
+    "components": {
+      "funding": 46,
+      "news": 5,
+      "hiring": 0,
+      "market": 29
+    },
+    "lastUpdated": "2026-11-06"
   },
   {
     "sector": "AI & Software",
-    "momentum": 19,
+    "momentum": 21,
     "trend": "declining",
     "catalysts": [
-      "OpenAI is already trying to shape the 2028 election",
-      "OpenAI models hacked a crypto wallet and breached more websi",
-      "Anthropic warns small AI models could self-replicate through"
+      "OpenAI released a new cybersecurity model. Is that enough?",
+      "OpenAI president Greg Brockman says company could be IPO rea",
+      "OpenAI models hacked a crypto wallet and breached more websi"
     ],
     "fundingQ": "$1.1B",
     "components": {
       "funding": 16,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "OpenAI is already trying to shape the 2028 election",
-      "Churchill Capital XI shareholders approve $2.5B Agility Robo",
-      "Tutor Intelligence raises Series B to scale model training,"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-05"
-  },
-  {
-    "sector": "Drones & Autonomous",
     "momentum": 15,
     "trend": "declining",
     "catalysts": [
-      "Navy unfairly evaluated Saildrone MUSV proposal, court finds",
-      "Waymo confirms it&#8217;s shaking up its Uber relationship i",
-      "Shield AI cofounder teases &#8216;snowball&#8217; of X-BAT f"
+      "How did Agility Robotics perform on its first day on the sto",
+      "Agility Robotics begins trading on Nasdaq",
+      "Churchill Capital XI shareholders approve $2.5B Agility Robo"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -153,7 +135,58 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "Saildrone inks agreement with Norwegian shipbuilder Umoe Man",
+      "Shield AI acquires radar firm Echodyne in $5.3B deal",
+      "Navy unfairly evaluated Saildrone MUSV proposal, court finds"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "sector": "Ocean & Maritime",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "Saildrone inks agreement with Norwegian shipbuilder Umoe Man",
+      "Navy unfairly evaluated Saildrone MUSV proposal, court finds"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Missile startup Hypersonica raises \u20ac100m from Lightspeed, Ge"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-06"
   },
   {
     "sector": "Housing & Construction",
@@ -169,30 +202,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-05"
-  },
-  {
-    "sector": "Ocean & Maritime",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Navy unfairly evaluated Saildrone MUSV proposal, court finds"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "sector": "Infrastructure & Logistics",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Percepto launches Axion AI platform to unify inspection data"
+      "OpenAI released a new cybersecurity model. Is that enough?"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -201,23 +218,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
-    "sector": "Supersonic & Hypersonic",
-    "momentum": 10,
+    "sector": "Biotech & Health",
+    "momentum": 1,
     "trend": "declining",
     "catalysts": [
-      "Active supersonic & hypersonic ecosystem"
+      "Missile startup Hypersonica raises \u20ac100m from Lightspeed, Ge"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
-      "market": 50
+      "market": 0
     },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -233,23 +250,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-05"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 0,
-    "trend": "declining",
-    "catalysts": [
-      "Active biotech & health ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "sector": "Quantum Computing",
@@ -265,6 +266,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   }
 ]

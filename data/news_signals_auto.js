@@ -1,74 +1,140 @@
 // Auto-generated news signals
-// Last updated: 2026-11-05T14:21:22.126Z
+// Last updated: 2026-11-06T13:57:56.707Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1793888482125,
-    "type": "funding",
-    "company": "Helsing",
-    "headline": "Exclusive: Helsing CEO backs AI learning startup Mindmax in £2.5m raise",
-    "source": "Sifted",
-    "time": "9h ago",
-    "impact": "low",
-    "unread": true,
-    "link": "https://sifted.eu/articles/memrise-mindmax-helsing-funding-round-memory/"
-  },
-  {
-    "id": 1793888482127,
-    "type": "news",
-    "company": "Saildrone",
-    "headline": "Navy unfairly evaluated Saildrone MUSV proposal, court finds",
-    "source": "Breaking Defense",
+    "id": 1793973476707,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "How Will SpaceX Leapfrog ATT &#038; Verizon",
+    "source": "Next Big Future",
     "time": "14h ago",
     "impact": "low",
     "unread": true,
-    "link": "https://breakingdefense.com/2026/11/navy-unfairly-evaluated-saildrone-musv-proposal-court-finds/"
+    "link": "https://www.nextbigfuture.com/2026/11/how-will-spacex-leapfrog-att-verizon.html"
   },
   {
-    "id": 1793888482128,
-    "type": "contract",
-    "company": "OpenAI",
-    "headline": "OpenAI is already trying to shape the 2028 election",
-    "source": "TechCrunch",
-    "time": "16h ago",
+    "id": 1793973476708,
+    "type": "news",
+    "company": "Agility Robotics",
+    "headline": "How did Agility Robotics perform on its first day on the stock market?",
+    "source": "The Robot Report",
+    "time": "15h ago",
     "impact": "low",
     "unread": true,
-    "link": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/"
+    "link": "https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/"
   },
   {
-    "id": 1793888482129,
+    "id": 1793973476709,
+    "type": "funding",
+    "company": "CesiumAstro",
+    "headline": "CesiumAstro Secures $730 Million in Janus Henderson-Led Series D at a Valuation Above $4.5 Billion; Unveils Synchronicit",
+    "source": "SpaceNews",
+    "time": "16h ago",
+    "impact": "high",
+    "unread": true,
+    "link": "https://spacenews.com/cesiumastro-secures-730-million-in-janus-henderson-led-series-d-at-a-valuation-above-4-5-billion-unveils-synchronicity-satellite-constellation-following-fully-successful-element-1-mission/"
+  },
+  {
+    "id": 1793973476710,
     "type": "news",
-    "company": "Hugging Face",
-    "headline": "Open source AI is booming. Hugging Face explains who profits.",
+    "company": "OpenAI",
+    "headline": "OpenAI released a new cybersecurity model. Is that enough?",
     "source": "TechCrunch",
     "time": "18h ago",
     "impact": "low",
     "unread": true,
-    "link": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/"
+    "link": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
   },
   {
-    "id": 1793888482130,
-    "type": "news",
-    "company": "Waymo",
-    "headline": "Waymo confirms it&#8217;s shaking up its Uber relationship in January 2028",
-    "source": "TechCrunch",
-    "time": "20h ago",
-    "impact": "low",
-    "unread": true,
-    "link": "https://techcrunch.com/2026/11/04/waymo-confirms-its-shaking-up-its-uber-relationship-in-january-2028/"
-  },
-  {
-    "id": 1793888482131,
+    "id": 1793973476711,
     "type": "ipo",
-    "company": "Shield AI",
-    "headline": "Shield AI cofounder teases &#8216;snowball&#8217; of X-BAT fighter drone announcements in Europe",
+    "company": "OpenAI",
+    "headline": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+    "source": "TechCrunch",
+    "time": "19h ago",
+    "impact": "high",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/"
+  },
+  {
+    "id": 1793973476712,
+    "type": "contract",
+    "company": "SpaceX",
+    "headline": "Ukraine eyeing new SpaceX Starshield deal by mid-2027, still no answers about October problems",
     "source": "Breaking Defense",
-    "time": "22h ago",
+    "time": "19h ago",
     "impact": "low",
     "unread": false,
-    "link": "https://breakingdefense.com/2026/11/shield-ai-cofounder-teases-snowball-of-x-bat-fighter-drone-announcements-in-europe/"
+    "link": "https://breakingdefense.com/2026/11/ukraine-eyeing-new-spacex-starshield-deal-by-mid-2027-still-no-answers-about-october-problems/"
   },
   {
-    "id": 1793888482132,
+    "id": 1793973476713,
+    "type": "funding",
+    "company": "Harbinger",
+    "headline": "Harbinger raises $240M after expanding into defense",
+    "source": "TechCrunch",
+    "time": "20h ago",
+    "impact": "high",
+    "unread": false,
+    "link": "https://techcrunch.com/2026/11/05/harbinger-raises-240m-after-expanding-into-defense/"
+  },
+  {
+    "id": 1793973476714,
+    "type": "funding",
+    "company": "Saildrone",
+    "headline": "Saildrone inks agreement with Norwegian shipbuilder Umoe Mandal to produce USVs",
+    "source": "Breaking Defense",
+    "time": "20h ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://breakingdefense.com/2026/11/saildrone-inks-agreement-with-norwegian-shipbuilder-umoe-mandal-to-produce-usvs/"
+  },
+  {
+    "id": 1793973476715,
+    "type": "news",
+    "company": "Shield AI",
+    "headline": "Shield AI acquires radar firm Echodyne in $5.3B deal",
+    "source": "Breaking Defense",
+    "time": "21h ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://breakingdefense.com/2026/11/shield-ai-acquires-radar-firm-echodyne-in-5-3b-deal/"
+  },
+  {
+    "id": 1793973476716,
+    "type": "ipo",
+    "company": "Agility Robotics",
+    "headline": "Agility Robotics begins trading on Nasdaq",
+    "source": "The Robot Report",
+    "time": "23h ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/"
+  },
+  {
+    "id": 1793973476717,
+    "type": "funding",
+    "company": "Helsing",
+    "headline": "Exclusive: Helsing CEO backs AI learning startup Mindmax in £2.5m raise",
+    "source": "Sifted",
+    "time": "1d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://sifted.eu/articles/memrise-mindmax-helsing-funding-round-memory/"
+  },
+  {
+    "id": 1793973476718,
+    "type": "news",
+    "company": "Saildrone",
+    "headline": "Navy unfairly evaluated Saildrone MUSV proposal, court finds",
+    "source": "Breaking Defense",
+    "time": "1d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://breakingdefense.com/2026/11/navy-unfairly-evaluated-saildrone-musv-proposal-court-finds/"
+  },
+  {
+    "id": 1793973476719,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "What does a blue Texas sweep mean for Elon Musk, Tesla &#038; SpaceX?",
@@ -79,95 +145,62 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/11/04/what-does-a-blue-texas-sweep-mean-for-tesla-spacex-elon-musk/"
   },
   {
-    "id": 1793888482133,
+    "id": 1793973476720,
     "type": "ipo",
     "company": "Simera Sense",
     "headline": "Simera Sense and Spacemanic to Collaborate on a New Complete Dual-Use Mission Solution",
     "source": "SpaceNews",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/simera-sense-and-spacemanic-to-collaborate-on-a-new-complete-dual-use-mission-solution/"
   },
   {
-    "id": 1793888482134,
+    "id": 1793973476721,
     "type": "ipo",
     "company": "Agility Robotics",
     "headline": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
     "source": "The Robot Report",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/"
   },
   {
-    "id": 1793888482135,
+    "id": 1793973476722,
     "type": "funding",
     "company": "Tutor Intelligence",
     "headline": "Tutor Intelligence raises Series B to scale model training, robot deployments",
     "source": "The Robot Report",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "medium",
     "unread": false,
     "link": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/"
   },
   {
-    "id": 1793888482136,
-    "type": "news",
-    "company": "Waymo",
-    "headline": "Tesla Robotaxi Ramp in Texas and Florida Tracking To Pass Waymo by End of 2026",
-    "source": "Next Big Future",
+    "id": 1793973476723,
+    "type": "funding",
+    "company": "Hypersonica",
+    "headline": "Missile startup Hypersonica raises €100m from Lightspeed, General Catalyst as missile defence takes off",
+    "source": "Sifted",
     "time": "4d ago",
     "impact": "low",
     "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/10/tesla-robotaxi-ramp-in-texas-and-florida-tracking-to-pass-waymo-by-end-of-2026.html"
+    "link": "https://sifted.eu/articles/missile-startup-hypersonica-fundraise-lightspeed-general-catalyst-europe/"
   },
   {
-    "id": 1793888482137,
-    "type": "news",
-    "company": "Waymo",
-    "headline": "Toyota &#038; Waymo Advance Autonomous Driving Collaboration for Safer Streets and Freedom of Movement for All",
-    "source": "CleanTechnica",
-    "time": "5d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://cleantechnica.com/2026/10/30/toyota-waymo-advance-autonomous-driving-collaboration-for-safer-streets-and-freedom-of-movement-for-all/"
-  },
-  {
-    "id": 1793888482138,
-    "type": "milestone",
-    "company": "Percepto",
-    "headline": "Percepto launches Axion AI platform to unify inspection data analysis",
-    "source": "The Robot Report",
-    "time": "5d ago",
-    "impact": "medium",
-    "unread": false,
-    "link": "https://www.therobotreport.com/percepto-launches-axion-ai-platform-unify-inspection-data-analysis/"
-  },
-  {
-    "id": 1793888482139,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "Investanswers and Nextbigfuture talk SpaceX",
-    "source": "Next Big Future",
-    "time": "5d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/10/investanswers-and-nextbigfuture-talk-spacex.html"
-  },
-  {
-    "id": 1793888482140,
+    "id": 1793973476724,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Waymo picks Toyota bZ4X as its next robotaxi, starting in Japan in 2027",
     "source": "Electrek",
-    "time": "6d ago",
+    "time": "10/30/2026",
     "impact": "low",
     "unread": false,
     "link": "https://electrek.co/2026/10/30/waymo-toyota-bz4x-robotaxi-japan-2027/"
   },
   {
-    "id": 1793888482141,
+    "id": 1793973476725,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo adds nearly 250 square miles of robotaxi coverage in 5 cities",
@@ -178,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/10/27/waymo-expansion-250-square-miles-five-cities/"
   },
   {
-    "id": 1793888482142,
+    "id": 1793973476726,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Musk declares Tesla Robotaxi win over Waymo, but Waymo still drives 7x more",
@@ -187,38 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://electrek.co/2026/10/27/musk-robotaxi-victory-waymo-austin-miles/"
-  },
-  {
-    "id": 1793888482143,
-    "type": "contract",
-    "company": "Astranis",
-    "headline": "Astranis Upgrades Falcon 9 Launch Contract to Dedicated Mission for Entire Block 4 Production Run of Satellites",
-    "source": "SpaceNews",
-    "time": "10/26/2026",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/astranis-upgrades-falcon-9-launch-contract-to-dedicated-mission-for-entire-block-4-production-run-of-satellites/"
-  },
-  {
-    "id": 1793888482144,
-    "type": "hire",
-    "company": "Aalyria",
-    "headline": "Rethinking networks in space with Aalyria’s Brian Barritt",
-    "source": "SpaceNews",
-    "time": "10/22/2026",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/rethinking-networks-in-space-with-aalyrias-brian-barritt/"
-  },
-  {
-    "id": 1793888482145,
-    "type": "news",
-    "company": "OpenAI",
-    "headline": "OpenAI models hacked a crypto wallet and breached more websites",
-    "source": "Ars Technica",
-    "time": "10/16/2026",
-    "impact": "low",
-    "unread": false,
-    "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
   }
 ];

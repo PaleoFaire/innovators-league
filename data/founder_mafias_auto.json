@@ -1,7 +1,7 @@
 [
   {
     "mafia": "SpaceX Mafia",
-    "count": 72,
+    "count": 74,
     "companies": [
       {
         "company": "Plantd Materials",
@@ -184,11 +184,11 @@
         "valuation": ""
       }
     ],
-    "description": "72 companies with founding-team links to SpaceX."
+    "description": "74 companies with founding-team links to SpaceX."
   },
   {
     "mafia": "Y Combinator",
-    "count": 30,
+    "count": 31,
     "companies": [
       {
         "company": "Revoy",
@@ -371,7 +371,7 @@
         "valuation": ""
       }
     ],
-    "description": "30 companies with founding-team links to Y Combinator."
+    "description": "31 companies with founding-team links to Y Combinator."
   },
   {
     "mafia": "Google/DeepMind",
@@ -430,7 +430,7 @@
   },
   {
     "mafia": "Tesla Mafia",
-    "count": 6,
+    "count": 7,
     "companies": [
       {
         "company": "Lightship",
@@ -467,9 +467,89 @@
         "sector": "Ocean & Maritime",
         "totalRaised": "",
         "valuation": ""
+      },
+      {
+        "company": "Estes Energy",
+        "sector": "Climate & Energy",
+        "totalRaised": "$20M",
+        "valuation": ""
       }
     ],
-    "description": "6 companies with founding-team links to Tesla."
+    "description": "7 companies with founding-team links to Tesla."
+  },
+  {
+    "mafia": "MIT CSAIL Spinouts",
+    "count": 5,
+    "companies": [
+      {
+        "company": "QuEra Computing",
+        "sector": "Quantum Computing",
+        "totalRaised": "$230M",
+        "valuation": ""
+      },
+      {
+        "company": "Robust.AI",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "$42.5M",
+        "valuation": ""
+      },
+      {
+        "company": "Pison",
+        "sector": "Biotech & Health",
+        "totalRaised": "~$17.2M",
+        "valuation": ""
+      },
+      {
+        "company": "Osmoses",
+        "sector": "Climate & Energy",
+        "totalRaised": "~$17M",
+        "valuation": ""
+      },
+      {
+        "company": "Verdox",
+        "sector": "Climate & Energy",
+        "totalRaised": "~$100M",
+        "valuation": ""
+      }
+    ],
+    "description": "5 companies with founding-team links to MIT CSAIL Spinouts."
+  },
+  {
+    "mafia": "Apple Mafia",
+    "count": 5,
+    "companies": [
+      {
+        "company": "Tenstorrent",
+        "sector": "Chips & Semiconductors",
+        "totalRaised": "$2.5B+",
+        "valuation": "$6.2B"
+      },
+      {
+        "company": "Volund Manufacturing",
+        "sector": "Defense & Security",
+        "totalRaised": "$12M",
+        "valuation": ""
+      },
+      {
+        "company": "Maven Robotics",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "$100M+",
+        "valuation": "Undisclosed"
+      },
+      {
+        "company": "Applied Electrodynamics",
+        "sector": "Housing & Construction",
+        "totalRaised": "Undisclosed",
+        "valuation": ""
+      },
+      {
+        "company": "Oso Semiconductor",
+        "sector": "Chips & Semiconductors",
+        "totalRaised": "$5.2M",
+        "valuation": ""
+      }
+    ],
+    "description": "5 companies with founding-team links to Apple."
   },
   {
     "mafia": "Palantir Mafia",
@@ -501,37 +581,6 @@
       }
     ],
     "description": "4 companies with founding-team links to Palantir."
-  },
-  {
-    "mafia": "Apple Mafia",
-    "count": 4,
-    "companies": [
-      {
-        "company": "Tenstorrent",
-        "sector": "Chips & Semiconductors",
-        "totalRaised": "$2.5B+",
-        "valuation": "$6.2B"
-      },
-      {
-        "company": "Volund Manufacturing",
-        "sector": "Defense & Security",
-        "totalRaised": "$12M",
-        "valuation": ""
-      },
-      {
-        "company": "Maven Robotics",
-        "sector": "Robotics & Manufacturing",
-        "totalRaised": "$100M+",
-        "valuation": "Undisclosed"
-      },
-      {
-        "company": "Applied Electrodynamics",
-        "sector": "Housing & Construction",
-        "totalRaised": "Undisclosed",
-        "valuation": ""
-      }
-    ],
-    "description": "4 companies with founding-team links to Apple."
   },
   {
     "mafia": "NASA / JPL",
@@ -638,25 +687,6 @@
       }
     ],
     "description": "3 companies with founding-team links to Anduril."
-  },
-  {
-    "mafia": "MIT CSAIL Spinouts",
-    "count": 2,
-    "companies": [
-      {
-        "company": "QuEra Computing",
-        "sector": "Quantum Computing",
-        "totalRaised": "$230M",
-        "valuation": ""
-      },
-      {
-        "company": "Finwave Semiconductor",
-        "sector": "Chips & Semiconductors",
-        "totalRaised": "$25M+",
-        "valuation": ""
-      }
-    ],
-    "description": "2 companies with founding-team links to MIT CSAIL Spinouts."
   },
   {
     "mafia": "Blue Origin Mafia",

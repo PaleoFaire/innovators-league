@@ -4,11 +4,11 @@
     "totalGovValue": "$3.9B+",
     "contractCount": 200,
     "agencies": [
-      "Department of Defense",
-      "Department of Commerce",
       "Department of Energy",
-      "National Aeronautics and Space Administration",
-      "Department of Homeland Security"
+      "Department of Commerce",
+      "Department of Homeland Security",
+      "Department of Defense",
+      "National Aeronautics and Space Administration"
     ],
     "recentContracts": [
       {
@@ -42,18 +42,18 @@
         "date": "2026-04-27"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Palantir",
     "totalGovValue": "$1.9B+",
     "contractCount": 95,
     "agencies": [
-      "Department of Agriculture",
+      "Department of State",
       "Department of the Treasury",
-      "Department of Health and Human Services",
-      "Department of Defense",
-      "Department of Veterans Affairs"
+      "Department of Housing and Urban Development",
+      "Department of Agriculture",
+      "Department of Health and Human Services"
     ],
     "recentContracts": [
       {
@@ -87,18 +87,18 @@
         "date": "2025-09-30"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "SpaceX",
     "totalGovValue": "$12.2B+",
-    "contractCount": 81,
+    "contractCount": 82,
     "agencies": [
-      "Department of Defense",
+      "Department of State",
       "Department of the Interior",
-      "Department of Justice",
-      "Department of Veterans Affairs",
-      "Department of Transportation"
+      "Department of Transportation",
+      "Department of Homeland Security",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -132,17 +132,17 @@
         "date": "2026-01-09"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Skydio",
     "totalGovValue": "$5M+",
     "contractCount": 57,
     "agencies": [
-      "Department of Labor",
+      "Department of State",
       "Department of Agriculture",
-      "Department of Defense",
       "Department of the Interior",
+      "Department of Defense",
       "Department of Justice"
     ],
     "recentContracts": [
@@ -177,7 +177,7 @@
         "date": "2026-04-12"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Neros",
@@ -219,15 +219,15 @@
         "date": "2026-02-20"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Shield AI",
     "totalGovValue": "$68M+",
     "contractCount": 13,
     "agencies": [
-      "Department of Defense",
-      "Department of Homeland Security"
+      "Department of Homeland Security",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -261,7 +261,7 @@
         "date": "2026-10-30"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Firefly Aerospace",
@@ -303,7 +303,7 @@
         "date": "2026-06-30"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Intuitive Machines",
@@ -345,7 +345,7 @@
         "date": "2026-06-30"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Firestorm Labs",
@@ -386,7 +386,7 @@
         "date": "2026-03-04"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Picogrid",
@@ -427,7 +427,7 @@
         "date": "2025-06-13"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Sierra Space",
@@ -469,7 +469,7 @@
         "date": "2024-09-26"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Castelion",
@@ -510,7 +510,7 @@
         "date": "2025-09-08"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Rocket Lab",
@@ -552,7 +552,7 @@
         "date": "2026-05-28"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Axiom Space",
@@ -594,7 +594,7 @@
         "date": "2026-07-28"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Impulse Space",
@@ -636,7 +636,7 @@
         "date": "2026-07-07"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Muon Space",
@@ -679,7 +679,7 @@
         "date": "2026-07-17"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Umbra",
@@ -721,7 +721,7 @@
         "date": "2026-09-30"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Saildrone",
@@ -763,7 +763,7 @@
         "date": "2025-09-12"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Onebrief",
@@ -804,7 +804,49 @@
         "date": "2025-09-16"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "company": "Momentus",
+    "totalGovValue": "$12M+",
+    "contractCount": 8,
+    "agencies": [
+      "National Aeronautics and Space Administration",
+      "Department of Defense"
+    ],
+    "recentContracts": [
+      {
+        "amount": 5444487.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "INTEGRATION AND FLIGHT OF THE T0426 COMMERCIAL ORBITAL SYSTEM FOR MICROGRAVITY IN-SPACE CRYSTALLIZATION (COSMIC) PAYLOAD.",
+        "date": "2025-09-26"
+      },
+      {
+        "amount": 3128585.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "INTEGRATION AND FLIGHT OF THE T0428 JUNO ROTATING DETONATION ROCKET ENGINE",
+        "date": "2025-09-29"
+      },
+      {
+        "amount": 1860934.0,
+        "agency": "Department of Defense",
+        "description": "THE END STATE OF THIS PROJECT IS TO ESTABLISH A ROBUST AND SUSTAINABLE FRAMEWORK FOR SPACE SUSTAINMENT AND MANEUVER, ENABLING COMPANIES TO FACILITATE MOVEMENT WITHIN THE SPACE DOMAIN ACROSS ALL ORBITA",
+        "date": "2025-06-18"
+      },
+      {
+        "amount": 395798.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "THE CONTRACTOR SHALL DEVELOP GEN 1 SOLAR SAIL MISSION CONCEPTS THAT WILL ADDRESS THE OBJECTIVES OF A FUTURE IMPLEMENTATION PLAN IN ACCORDANCE WITH THE MANIFEST REQUIREMENTS DOCUMENT (MRD) TITLED T0412",
+        "date": "2025-09-26"
+      },
+      {
+        "amount": 340891.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "MINIMUM GUARANTEED",
+        "date": "2024-03-15"
+      }
+    ],
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Epsilon3",
@@ -845,7 +887,7 @@
         "date": "2025-04-04"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "ThinkOrbital",
@@ -887,16 +929,16 @@
         "date": "2026-06-22"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Viken Detection",
     "totalGovValue": "$5M+",
     "contractCount": 7,
     "agencies": [
-      "Department of Homeland Security",
+      "Department of State",
       "Department of Justice",
-      "Department of State"
+      "Department of Homeland Security"
     ],
     "recentContracts": [
       {
@@ -930,7 +972,7 @@
         "date": "2026-08-14"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Cislune",
@@ -971,16 +1013,16 @@
         "date": "2026-09-30"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Nooks",
     "totalGovValue": "$56M+",
     "contractCount": 7,
     "agencies": [
-      "Department of Defense",
       "General Services Administration",
-      "Executive Office of the President"
+      "Executive Office of the President",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -1014,7 +1056,7 @@
         "date": "2025-09-30"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Varda Space Industries",
@@ -1056,7 +1098,7 @@
         "date": "2024-03-15"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Parry Labs",
@@ -1097,7 +1139,7 @@
         "date": "2026-01-19"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Vector Defense",
@@ -1138,7 +1180,7 @@
         "date": "2026-05-15"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Boston Dynamics",
@@ -1148,8 +1190,8 @@
       "Department of Agriculture",
       "Department of Health and Human Services",
       "Department of Commerce",
-      "Department of Justice",
-      "Department of Homeland Security"
+      "Department of Homeland Security",
+      "Department of Justice"
     ],
     "recentContracts": [
       {
@@ -1183,7 +1225,7 @@
         "date": "2026-04-19"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Quantum Space",
@@ -1224,7 +1266,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Darkhive",
@@ -1265,7 +1307,7 @@
         "date": "2025-09-16"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Deepnight",
@@ -1306,7 +1348,7 @@
         "date": "2026-04-01"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Aalyria",
@@ -1348,7 +1390,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Ursa Major Technologies",
@@ -1389,7 +1431,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Inversion Space",
@@ -1431,7 +1473,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Starfish Space",
@@ -1473,7 +1515,7 @@
         "date": "2025-09-04"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Portal Space Systems",
@@ -1514,7 +1556,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "CesiumAstro",
@@ -1556,7 +1598,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Vantage Robotics",
@@ -1597,7 +1639,7 @@
         "date": "2026-03-31"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Capella Space",
@@ -1633,7 +1675,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Scale AI",
@@ -1668,7 +1710,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Viridian Space",
@@ -1704,7 +1746,7 @@
         "date": "2026-09-30"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Turion Space",
@@ -1739,7 +1781,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Array Labs",
@@ -1774,7 +1816,7 @@
         "date": "2025-08-19"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Overland AI",
@@ -1809,7 +1851,7 @@
         "date": "2026-01-19"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Rhoman Aerospace",
@@ -1844,7 +1886,7 @@
         "date": "2025-05-23"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Long Wall",
@@ -1879,7 +1921,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Gravitics",
@@ -1915,16 +1957,16 @@
         "date": "2026-01-21"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Echodyne",
     "totalGovValue": "$66M+",
     "contractCount": 4,
     "agencies": [
+      "Department of State",
       "Department of Transportation",
-      "Department of Defense",
-      "Department of State"
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -1952,7 +1994,7 @@
         "date": "2026-02-24"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Interlune",
@@ -1987,7 +2029,7 @@
         "date": "2025-09-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Specter Aerospace",
@@ -2022,7 +2064,7 @@
         "date": "2025-09-11"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Odys Aviation",
@@ -2058,7 +2100,44 @@
         "date": "2026-09-30"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "company": "RaySecur",
+    "totalGovValue": "$2M+",
+    "contractCount": 4,
+    "agencies": [
+      "Department of Justice",
+      "Department of Homeland Security",
+      "Department of Defense"
+    ],
+    "recentContracts": [
+      {
+        "amount": 1566739.0,
+        "agency": "Department of Homeland Security",
+        "description": "TSAS ALARM RESOLUTION INITIATIVE TO DEVELOP A TERAHERTZ HANDHELD SECONDARY SCREENER ENABLING PRECISE, NON-INVASIVE SECONDARY SCREENING USING TERAHERTZ IMAGING TO DETECT CONCEALED THREATS ON-PERSON.",
+        "date": "2026-09-30"
+      },
+      {
+        "amount": 72599.13,
+        "agency": "Department of Defense",
+        "description": "ALL IN ONE MAILROOM SCANNER",
+        "date": "2023-10-15"
+      },
+      {
+        "amount": 68942.81,
+        "agency": "Department of Homeland Security",
+        "description": "RAYSECUR MAIL SCANNER MODEL MS300-T2-MS300-P-Q1 FOR INSTALLATION AT BUFFALO FEDERAL DETENTION FACILITY (BFDF), BATAVIA, NY.",
+        "date": "2024-01-10"
+      },
+      {
+        "amount": 33645.36,
+        "agency": "Department of Justice",
+        "description": "FY26 MAILSECUR MAINTENANCE POP: 9/21/2026 - 9/20/2027",
+        "date": "2026-09-21"
+      }
+    ],
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Saronic",
@@ -2087,7 +2166,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Relativity Space",
@@ -2117,7 +2196,7 @@
         "date": "2026-08-18"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Ginkgo Bioworks",
@@ -2146,7 +2225,7 @@
         "date": "2026-05-03"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Auriga Space",
@@ -2175,7 +2254,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Teradar",
@@ -2204,7 +2283,7 @@
         "date": "2024-12-20"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Reditus Space",
@@ -2234,7 +2313,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Mach Industries",
@@ -2263,7 +2342,37 @@
         "date": "2026-01-21"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "company": "Astranis",
+    "totalGovValue": "$7M+",
+    "contractCount": 3,
+    "agencies": [
+      "National Aeronautics and Space Administration",
+      "Department of Defense"
+    ],
+    "recentContracts": [
+      {
+        "amount": 6918000.0,
+        "agency": "Department of Defense",
+        "description": "PHASE III SMALL BUSINESS INNOVATION RESEARCH FOR PROTECTED ANTI-JAM TACTICAL SATELLITE COMMUNICATIONS",
+        "date": "2022-09-30"
+      },
+      {
+        "amount": 100000.0,
+        "agency": "Department of Defense",
+        "description": "CONCEPT DEVELOPMENT MINIMUM GUARANTEE",
+        "date": "2026-04-28"
+      },
+      {
+        "amount": 1.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "NEXTSTEP-3 APPENDIX E FOR PROJECT NEXUS, KA-BAND BACKWARD-COMPATIBLE RELAY (TRDRS-COMPATIBLE)",
+        "date": "2026-11-04"
+      }
+    ],
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Machina Labs",
@@ -2292,7 +2401,7 @@
         "date": "2025-04-16"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Divergent",
@@ -2321,15 +2430,15 @@
         "date": "2026-01-21"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Reveal Technology",
     "totalGovValue": "$10M+",
     "contractCount": 3,
     "agencies": [
-      "Department of Defense",
-      "General Services Administration"
+      "General Services Administration",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
@@ -2351,7 +2460,7 @@
         "date": "2025-12-17"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Rune Technologies",
@@ -2380,7 +2489,7 @@
         "date": "2026-06-17"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Slingshot Aerospace",
@@ -2409,7 +2518,7 @@
         "date": "2024-08-16"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Fortem Technologies",
@@ -2439,7 +2548,7 @@
         "date": "2026-04-21"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Lunar Outpost",
@@ -2469,7 +2578,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Stratolaunch",
@@ -2499,7 +2608,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Sofar Ocean",
@@ -2528,7 +2637,7 @@
         "date": "2026-03-09"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Windborne",
@@ -2557,7 +2666,7 @@
         "date": "2026-03-31"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "HawkEye 360",
@@ -2586,7 +2695,7 @@
         "date": "2024-06-26"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Shift5",
@@ -2615,7 +2724,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Quindar",
@@ -2644,7 +2753,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Titan Dynamics",
@@ -2673,7 +2782,7 @@
         "date": "2026-05-01"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Purple Rhombus",
@@ -2702,7 +2811,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Sandtable",
@@ -2725,7 +2834,7 @@
         "date": "2025-05-26"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Noble Gas Systems",
@@ -2748,7 +2857,7 @@
         "date": "2024-09-24"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Elve",
@@ -2772,7 +2881,7 @@
         "date": "2026-01-28"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Orb Aerospace",
@@ -2795,7 +2904,7 @@
         "date": "2025-10-21"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "General Matter",
@@ -2818,7 +2927,7 @@
         "date": "2025-04-11"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "AstroForge",
@@ -2841,7 +2950,7 @@
         "date": "2026-09-10"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "K2 Space",
@@ -2864,30 +2973,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
-  },
-  {
-    "company": "Astranis",
-    "totalGovValue": "$7M+",
-    "contractCount": 2,
-    "agencies": [
-      "Department of Defense"
-    ],
-    "recentContracts": [
-      {
-        "amount": 6918000.0,
-        "agency": "Department of Defense",
-        "description": "PHASE III SMALL BUSINESS INNOVATION RESEARCH FOR PROTECTED ANTI-JAM TACTICAL SATELLITE COMMUNICATIONS",
-        "date": "2022-09-30"
-      },
-      {
-        "amount": 100000.0,
-        "agency": "Department of Defense",
-        "description": "CONCEPT DEVELOPMENT MINIMUM GUARANTEE",
-        "date": "2026-04-28"
-      }
-    ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Firehawk Defense",
@@ -2910,7 +2996,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "SkySafe",
@@ -2934,7 +3020,7 @@
         "date": "2026-09-09"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Distributed Spectrum",
@@ -2957,7 +3043,7 @@
         "date": "2026-04-01"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "AnySignal",
@@ -2980,7 +3066,7 @@
         "date": "2026-03-03"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "True Anomaly",
@@ -3003,7 +3089,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Nano Nuclear Energy",
@@ -3026,15 +3112,15 @@
         "date": "2026-06-23"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Gecko Robotics",
     "totalGovValue": "$4M+",
     "contractCount": 2,
     "agencies": [
-      "Department of Homeland Security",
-      "General Services Administration"
+      "General Services Administration",
+      "Department of Homeland Security"
     ],
     "recentContracts": [
       {
@@ -3050,7 +3136,7 @@
         "date": "2026-06-21"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Whisper Aero",
@@ -3074,7 +3160,7 @@
         "date": "2025-07-17"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Orbital Composites",
@@ -3098,7 +3184,7 @@
         "date": "2025-08-26"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Hidden Level",
@@ -3121,7 +3207,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Ouster",
@@ -3145,15 +3231,15 @@
         "date": "2026-03-04"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Biobot Analytics",
     "totalGovValue": "$3M+",
     "contractCount": 2,
     "agencies": [
-      "Department of Health and Human Services",
-      "Executive Office of the President"
+      "Executive Office of the President",
+      "Department of Health and Human Services"
     ],
     "recentContracts": [
       {
@@ -3169,7 +3255,7 @@
         "date": "2026-09-28"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Reliable Robotics",
@@ -3192,7 +3278,7 @@
         "date": "2025-08-26"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Scout AI",
@@ -3215,7 +3301,7 @@
         "date": "2026-01-19"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Scout Space",
@@ -3238,7 +3324,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Performance Drone Works",
@@ -3261,7 +3347,7 @@
         "date": "2025-09-18"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Vulcan Elements",
@@ -3284,7 +3370,7 @@
         "date": "2026-07-10"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Star Catcher",
@@ -3307,7 +3393,7 @@
         "date": "2026-07-13"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Integrate",
@@ -3330,7 +3416,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Orbital Sidekick",
@@ -3353,7 +3439,7 @@
         "date": "2026-07-09"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Bonsai Robotics",
@@ -3376,7 +3462,7 @@
         "date": "2026-05-21"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Argo Space",
@@ -3399,7 +3485,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Gambit",
@@ -3422,7 +3508,7 @@
         "date": "2025-08-26"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "EraDrive",
@@ -3445,7 +3531,7 @@
         "date": "2026-06-10"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Easy Aerial",
@@ -3469,7 +3555,7 @@
         "date": "2026-10-21"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Qunnect",
@@ -3493,7 +3579,100 @@
         "date": "2026-09-21"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "company": "SoloPulse",
+    "totalGovValue": "$2M+",
+    "contractCount": 2,
+    "agencies": [
+      "Department of Defense"
+    ],
+    "recentContracts": [
+      {
+        "amount": 1985665.03,
+        "agency": "Department of Defense",
+        "description": "SMALL BUSINESS INNOVATION RESEARCH, DIRECT TO PHASE II TOPIC A254-021, RUGGEDIZED SENSORS TO INCREASE DRIVING VISIBILITY AND VEHICLE SAFETY",
+        "date": "2026-04-01"
+      },
+      {
+        "amount": 500000.0,
+        "agency": "Department of Defense",
+        "description": "251-31-NE-FY25-SOLOPULSE(STRIDER)",
+        "date": "2026-04-22"
+      }
+    ],
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "company": "Overwatch Imaging",
+    "totalGovValue": "$1M+",
+    "contractCount": 2,
+    "agencies": [
+      "Department of Homeland Security",
+      "Department of Defense"
+    ],
+    "recentContracts": [
+      {
+        "amount": 1192061.0,
+        "agency": "Department of Defense",
+        "description": "BASE AWARD FOR SBIR PHASE II TOPIC #N231-049.",
+        "date": "2025-05-08"
+      },
+      {
+        "amount": 49900.0,
+        "agency": "Department of Homeland Security",
+        "description": "AUTOMATED SENSOR OPERATOR (ASO) STANDALONE EVALUATION MSIL EVALUATION ON-AIRCRAFT GROUND TEST FLIGHT EVALUATION",
+        "date": "2026-08-14"
+      }
+    ],
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "company": "LambdaVision",
+    "totalGovValue": "$4M+",
+    "contractCount": 2,
+    "agencies": [
+      "National Aeronautics and Space Administration"
+    ],
+    "recentContracts": [
+      {
+        "amount": 3275000.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "FY25 SBIR PHASE III - IN SPACE PRODUCTION OF PROTEIN- BASED ARTIFICIAL RETINAS",
+        "date": "2025-06-24"
+      },
+      {
+        "amount": 899973.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "PHASE II - ON-ORBIT SOLUTION RECYCLING METHODS TO IMPROVE SCALE OF LAYER-BY-LAYER ARTIFICIAL RETINA MANUFACTURING",
+        "date": "2024-07-12"
+      }
+    ],
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "company": "Merlin",
+    "totalGovValue": "$16M+",
+    "contractCount": 2,
+    "agencies": [
+      "Department of Defense"
+    ],
+    "recentContracts": [
+      {
+        "amount": 15955778.32,
+        "agency": "Department of Defense",
+        "description": "PDR & CDR",
+        "date": "2024-08-01"
+      },
+      {
+        "amount": 500.0,
+        "agency": "Department of Defense",
+        "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
+        "date": "2025-12-29"
+      }
+    ],
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Epirus",
@@ -3510,7 +3689,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Vannevar Labs",
@@ -3527,7 +3706,7 @@
         "date": "2025-01-06"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Hadrian",
@@ -3544,7 +3723,7 @@
         "date": "2026-03-17"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Albedo",
@@ -3561,7 +3740,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Radiant",
@@ -3578,7 +3757,7 @@
         "date": "2025-10-24"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Ursa Space Systems",
@@ -3595,7 +3774,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Critical Loop",
@@ -3612,7 +3791,7 @@
         "date": "2026-06-30"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Farcast",
@@ -3629,7 +3808,7 @@
         "date": "2024-08-22"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Sphinx Defense",
@@ -3646,7 +3825,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Maybell Quantum",
@@ -3663,7 +3842,7 @@
         "date": "2022-08-01"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Radical AI",
@@ -3680,7 +3859,7 @@
         "date": "2025-05-23"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Monarch Quantum",
@@ -3697,7 +3876,7 @@
         "date": "2025-04-10"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Twenty",
@@ -3714,7 +3893,7 @@
         "date": "2025-12-10"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "EdgeRunner AI",
@@ -3731,7 +3910,7 @@
         "date": "2026-03-23"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Phoenix Tailings",
@@ -3748,7 +3927,7 @@
         "date": "2026-06-24"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Allen Control Systems",
@@ -3765,7 +3944,7 @@
         "date": "2026-01-30"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Reflect Orbital",
@@ -3782,7 +3961,7 @@
         "date": "2025-05-23"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Vast",
@@ -3799,7 +3978,7 @@
         "date": "2026-02-12"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Northwood Space",
@@ -3816,7 +3995,7 @@
         "date": "2026-07-01"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Astro Mechanica",
@@ -3833,7 +4012,7 @@
         "date": "2025-06-24"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Rangeview",
@@ -3850,7 +4029,7 @@
         "date": "2025-09-25"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Zipline",
@@ -3867,7 +4046,7 @@
         "date": "2023-09-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Rainmaker",
@@ -3884,7 +4063,7 @@
         "date": "2024-06-26"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Cerebras",
@@ -3901,7 +4080,7 @@
         "date": "2025-06-18"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Aurelius Systems",
@@ -3918,7 +4097,7 @@
         "date": "2026-01-21"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Proteus Space",
@@ -3935,7 +4114,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "PsiQuantum",
@@ -3952,7 +4131,7 @@
         "date": "2025-03-13"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "IonQ",
@@ -3969,7 +4148,7 @@
         "date": "2026-01-21"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Fortastra",
@@ -3986,7 +4165,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "GITAI",
@@ -4003,7 +4182,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Pano AI",
@@ -4020,7 +4199,7 @@
         "date": "2026-06-05"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Modern Intelligence",
@@ -4037,7 +4216,7 @@
         "date": "2022-05-06"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Cresilon",
@@ -4054,7 +4233,7 @@
         "date": "2026-07-22"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "FlyBy Robotics",
@@ -4071,7 +4250,7 @@
         "date": "2025-05-21"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Tenna Systems",
@@ -4088,7 +4267,7 @@
         "date": "2026-06-25"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Voyant Photonics",
@@ -4105,7 +4284,7 @@
         "date": "2026-04-01"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Standard Bots",
@@ -4122,7 +4301,7 @@
         "date": "2026-06-15"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Gallox Semiconductors",
@@ -4139,7 +4318,7 @@
         "date": "2026-03-13"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Chariot Defense",
@@ -4156,7 +4335,7 @@
         "date": "2026-06-17"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Pyka",
@@ -4173,7 +4352,7 @@
         "date": "2025-09-26"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Slip Robotics",
@@ -4190,7 +4369,7 @@
         "date": "2026-01-07"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "BurnBot",
@@ -4207,7 +4386,7 @@
         "date": "2023-09-27"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Strider Technologies",
@@ -4224,7 +4403,7 @@
         "date": "2026-05-07"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Roam Robotics",
@@ -4241,7 +4420,7 @@
         "date": "2024-12-01"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Orbit Fab",
@@ -4258,7 +4437,7 @@
         "date": "2025-12-16"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "MightyFly",
@@ -4275,7 +4454,7 @@
         "date": "2026-06-30"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Strand Therapeutics",
@@ -4292,7 +4471,7 @@
         "date": "2025-08-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "BRINC Drones",
@@ -4309,7 +4488,7 @@
         "date": "2026-05-19"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "AIM Intelligent Machines",
@@ -4326,7 +4505,7 @@
         "date": "2025-09-25"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Lyten",
@@ -4343,7 +4522,7 @@
         "date": "2024-04-30"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Compound Eye",
@@ -4360,7 +4539,7 @@
         "date": "2024-03-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Noveon Magnetics",
@@ -4377,7 +4556,7 @@
         "date": "2026-05-26"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Code Metal",
@@ -4394,7 +4573,7 @@
         "date": "2025-09-30"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Voya Energy",
@@ -4411,7 +4590,7 @@
         "date": "2026-06-26"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "NODA AI",
@@ -4428,7 +4607,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Anello Photonics",
@@ -4445,7 +4624,7 @@
         "date": "2025-07-16"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Ethos Space",
@@ -4462,7 +4641,7 @@
         "date": "2025-09-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Wisk Aero",
@@ -4479,7 +4658,7 @@
         "date": "2026-07-24"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Ampaire",
@@ -4496,7 +4675,7 @@
         "date": "2023-08-30"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Privateer",
@@ -4513,7 +4692,7 @@
         "date": "2025-09-19"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Swift Solar",
@@ -4530,7 +4709,7 @@
         "date": "2025-04-07"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Lucid Bots",
@@ -4547,7 +4726,7 @@
         "date": "2026-09-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Beacon AI",
@@ -4564,7 +4743,7 @@
         "date": "2025-05-23"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Swarmbotics AI",
@@ -4581,7 +4760,7 @@
         "date": "2026-01-19"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Belisar",
@@ -4598,7 +4777,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Kayhan Space",
@@ -4615,7 +4794,7 @@
         "date": "2024-11-01"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Cognitive Space",
@@ -4632,7 +4811,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Irradiant Technologies",
@@ -4649,7 +4828,7 @@
         "date": "2026-07-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Ghost Robotics",
@@ -4666,7 +4845,7 @@
         "date": "2026-04-24"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Fenix Space",
@@ -4683,7 +4862,7 @@
         "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "TRL11",
@@ -4700,7 +4879,7 @@
         "date": "2026-10-01"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Matter Intelligence",
@@ -4717,7 +4896,7 @@
         "date": "2025-08-29"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "PteroDynamics",
@@ -4734,7 +4913,7 @@
         "date": "2023-07-23"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Space Kinetic",
@@ -4751,7 +4930,7 @@
         "date": "2026-07-24"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   {
     "company": "Sophia Space",
@@ -4768,6 +4947,108 @@
         "date": "2026-09-30"
       }
     ],
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "company": "mPower Technology",
+    "totalGovValue": "$40K",
+    "contractCount": 1,
+    "agencies": [
+      "National Aeronautics and Space Administration"
+    ],
+    "recentContracts": [
+      {
+        "amount": 40000.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "PROVIDE DRAGONSCALES PHOTOVOLTAIC TEST ARTICLES  IN SUPPORT OF L-DREAM PROJECT.",
+        "date": "2025-10-01"
+      }
+    ],
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "company": "Airloom",
+    "totalGovValue": "$110K",
+    "contractCount": 1,
+    "agencies": [
+      "Department of Defense"
+    ],
+    "recentContracts": [
+      {
+        "amount": 109848.0,
+        "agency": "Department of Defense",
+        "description": "WING ENERGY FOR RESILIENT BASING AND ASSURED ACCESS TO SPACE",
+        "date": "2026-06-17"
+      }
+    ],
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "company": "Remedy Scientific",
+    "totalGovValue": "$670K",
+    "contractCount": 1,
+    "agencies": [
+      "Department of Defense"
+    ],
+    "recentContracts": [
+      {
+        "amount": 670000.0,
+        "agency": "Department of Defense",
+        "description": "CONTRACT IS FOR ESTCP PROJECT ER25-8516 \"ML-ENABLED REAL-TIME OPTIMIZATION FOR NON-TOXIC CHEMO-KINEMATIC DESTRUCTION OF PFAS IN SOIL.\" CUSTOMER IS USACE HQ, ESTCP.",
+        "date": "2025-09-19"
+      }
+    ],
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "company": "Oso Semiconductor",
+    "totalGovValue": "$75K",
+    "contractCount": 1,
+    "agencies": [
+      "Department of Defense"
+    ],
+    "recentContracts": [
+      {
+        "amount": 74901.0,
+        "agency": "Department of Defense",
+        "description": "DISRUPTIVE RF BEAMFORMING TECHNOLOGY FOR ULTRA-LOW SIZE, WEIGHT, POWER AND COST (SWAP-C) PHASED ARRAYS IN WIRELESS COMMUNICATIONS AND RADAR FEATURING ENHANCED ANTI-JAMMING CAPABILITIES",
+        "date": "2026-07-01"
+      }
+    ],
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "company": "Velo3D",
+    "totalGovValue": "$700K",
+    "contractCount": 1,
+    "agencies": [
+      "National Aeronautics and Space Administration"
+    ],
+    "recentContracts": [
+      {
+        "amount": 700000.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "ONE-YEAR LEASE OF A VELO3D SAPPHIRE METAL ADDITIVE MANUFACTURING (AM) SYSTEM",
+        "date": "2023-03-31"
+      }
+    ],
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "company": "AscendArc",
+    "totalGovValue": "$2M+",
+    "contractCount": 1,
+    "agencies": [
+      "Department of Defense"
+    ],
+    "recentContracts": [
+      {
+        "amount": 1799924.0,
+        "agency": "Department of Defense",
+        "description": "RAPID, SCALEABLE GEOSYNCHRONOUS COMMUNICATIONS",
+        "date": "2024-08-26"
+      }
+    ],
+    "lastUpdated": "2026-11-06"
   }
 ]

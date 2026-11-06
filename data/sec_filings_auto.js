@@ -1,9 +1,17 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-11-05 14:21:08 UTC
+// Last updated: 2026-11-06 13:58:02 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Oklo", form: "10-Q", date: "2026-11-06", description: "oklo-20260930.htm", isIPO: false, ticker: "OKLO" },
+  { company: "BlackSky Technology", form: "10-Q", date: "2026-11-05", description: "bksy-20260930.htm", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "8-K", date: "2026-11-05", description: "bksy-20261105.htm", isIPO: false, ticker: "BKSY" },
+  { company: "Intuitive Machines", form: "10-Q", date: "2026-11-05", description: "acdc-20260930.htm", isIPO: false, ticker: "LUNR" },
   { company: "Intuitive Machines", form: "8-K", date: "2026-11-05", description: "tm2629083d1_8k.htm", isIPO: false, ticker: "LUNR" },
+  { company: "NuScale Power", form: "10-Q", date: "2026-11-05", description: "smr-20260930.htm", isIPO: false, ticker: "SMR" },
+  { company: "NuScale Power", form: "8-K", date: "2026-11-05", description: "smr-20261105.htm", isIPO: false, ticker: "SMR" },
+  { company: "Oklo", form: "4", date: "2026-11-05", description: "xslF345X06/wk-form4_1793912960.xml", isIPO: false, ticker: "OKLO" },
   { company: "Centrus Energy", form: "10-Q", date: "2026-11-05", description: "leu-20260930.htm", isIPO: false, ticker: "LEU" },
+  { company: "Ginkgo Bioworks", form: "8-K", date: "2026-11-05", description: "dna-20261105.htm", isIPO: false, ticker: "DNA" },
+  { company: "Tempus AI", form: "10-Q", date: "2026-11-05", description: "vnt-20261002.htm", isIPO: false, ticker: "TEM" },
   { company: "Tempus AI", form: "8-K", date: "2026-11-05", description: "vnt-20261105.htm", isIPO: false, ticker: "TEM" },
   { company: "Astera Labs", form: "10-Q", date: "2026-11-05", description: "tra-20260930.htm", isIPO: false, ticker: "ALAB" },
   { company: "Palantir Technologies", form: "4", date: "2026-11-04", description: "xslF345X06/wk-form4_1793845563.xml", isIPO: false, ticker: "PLTR" },
@@ -43,12 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Satellogic", form: "8-K", date: "2026-10-29", description: "ea0309860-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232680.xml", isIPO: false, ticker: "AI" },
   { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232655.xml", isIPO: false, ticker: "AI" },
-  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232629.xml", isIPO: false, ticker: "AI" },
-  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232606.xml", isIPO: false, ticker: "AI" },
-  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232582.xml", isIPO: false, ticker: "AI" },
-  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232552.xml", isIPO: false, ticker: "AI" },
-  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232529.xml", isIPO: false, ticker: "AI" },
-  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232500.xml", isIPO: false, ticker: "AI" },
-  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232467.xml", isIPO: false, ticker: "AI" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-10-28", description: "qbts-20261028.htm", isIPO: false, ticker: "QBTS" },
 ];

@@ -1,21 +1,41 @@
 {
-  "generated_at": "2026-11-05T14:33:13.713458Z",
+  "generated_at": "2026-11-06T14:12:53.384846Z",
   "takes": [
     {
-      "author": "Canary Media",
+      "author": "SpaceNews",
       "role": "Industry signal",
-      "company": "Mazama",
-      "text": "Mazama Energy raises $135M for superhot geothermal at Oregon volcano",
-      "date": "Thu, 17 Se",
+      "company": "CesiumAstro",
+      "text": "CesiumAstro Secures $730 Million in Janus Henderson-Led Series D at a Valuation Above $4.5 Billion; Unveils Synchronicity Satellite Constellation Following Fully Successful Element-1 Mission",
+      "date": "Thu, 05 No",
       "source": "news",
-      "source_url": "https://www.canarymedia.com/articles/geothermal/mazama-energy-raises-135m-oregon-geothermal",
+      "source_url": "https://spacenews.com/cesiumastro-secures-730-million-in-janus-henderson-led-series-d-at-a-valuation-above-4-5-billion-unveils-synchronicity-satellite-constellation-following-fully-successful-element-1-mission/",
+      "signal_type": "funding"
+    },
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "OpenAI",
+      "text": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+      "date": "Thu, 05 No",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "Harbinger",
+      "text": "Harbinger raises $240M after expanding into defense",
+      "date": "Thu, 05 No",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/11/05/harbinger-raises-240m-after-expanding-into-defense/",
       "signal_type": "funding"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 1,
+    "from_news": 3,
     "from_press": 0
   }
 }
