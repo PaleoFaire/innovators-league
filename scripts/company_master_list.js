@@ -7,7 +7,7 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1422
+ * Total companies: 1431
  * Last updated: 2026-11-06
  * 
  * Each company has:
@@ -1490,6 +1490,16 @@ const MASTER_COMPANY_LIST = [
   { name: "SmartIR", aliases: [], sector: "space", ticker: null },
   { name: "Sofant Technologies", aliases: ["SofantTechnologies"], sector: "space", ticker: null },
   { name: "Spaceflux", aliases: [], sector: "space", ticker: null },
+  // ─── 06 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
+  { name: "Activ Surgical", aliases: ["ActivSurgical"], sector: "biotech", ticker: null },
+  { name: "Cellanome", aliases: [], sector: "biotech", ticker: null },
+  { name: "Elegen", aliases: [], sector: "biotech", ticker: null },
+  { name: "Latent Labs", aliases: ["LatentLabs"], sector: "biotech", ticker: null },
+  { name: "Parallel Fluidics", aliases: ["ParallelFluidics"], sector: "biotech", ticker: null },
+  { name: "ICOMAT", aliases: [], sector: "manufacturing", ticker: null },
+  { name: "Oratomic", aliases: [], sector: "quantum", ticker: null },
+  { name: "Veoware", aliases: [], sector: "space", ticker: null },
+  { name: "Evotrex", aliases: [], sector: "transportation", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════
