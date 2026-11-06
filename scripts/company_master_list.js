@@ -7,7 +7,7 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1431
+ * Total companies: 1446
  * Last updated: 2026-11-06
  * 
  * Each company has:
@@ -1500,6 +1500,22 @@ const MASTER_COMPANY_LIST = [
   { name: "Oratomic", aliases: [], sector: "quantum", ticker: null },
   { name: "Veoware", aliases: [], sector: "space", ticker: null },
   { name: "Evotrex", aliases: [], sector: "transportation", ticker: null },
+  // ─── 06 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
+  { name: "Merlin", aliases: [], sector: "autonomous", ticker: null },
+  { name: "A-Alpha Bio", aliases: ["AAlphaBio"], sector: "biotech", ticker: null },
+  { name: "Cala Health", aliases: ["CalaHealth"], sector: "biotech", ticker: null },
+  { name: "Enveda", aliases: [], sector: "biotech", ticker: null },
+  { name: "Mendaera", aliases: [], sector: "biotech", ticker: null },
+  { name: "Octant", aliases: [], sector: "biotech", ticker: null },
+  { name: "Mueon", aliases: [], sector: "chips", ticker: null },
+  { name: "aXenic", aliases: [], sector: "chips", ticker: null },
+  { name: "BEI", aliases: [], sector: "climate", ticker: null },
+  { name: "Solcoa", aliases: [], sector: "climate", ticker: null },
+  { name: "Locus Lock", aliases: ["LocusLock"], sector: "defense", ticker: null },
+  { name: "AADYAH Aerospace", aliases: ["AADYAHAerospace"], sector: "space", ticker: null },
+  { name: "AscendArc", aliases: [], sector: "space", ticker: null },
+  { name: "BioOrbit", aliases: [], sector: "space", ticker: null },
+  { name: "CisLunar Industries", aliases: ["CisLunarIndustries"], sector: "space", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════

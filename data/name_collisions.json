@@ -82,6 +82,22 @@
       "only_if": "brain|EEG|neuro|wearable|Occam|stress|cognitive|\\bBCI\\b|atlasmankind",
       "note": "Ours is the former Occam, the San Francisco brain-wearable maker (atlasmankind.com). Atlas is also a ULA rocket, a Boston Dynamics robot, Atlas Copco, MongoDB Atlas, Atlas Air and many funds; data.js also holds Atlas Atomics and Atlas Motion."
     },
+    "aXenic": {
+      "only_if": "modulator|photonic|gallium arsenide|GaAs|optical|laser|Sedgefield|satellite",
+      "note": "Ours is aXenic, the UK maker of GaAs optical modulators; 'axenic' is also a biology term for germ-free cultures."
+    },
+    "Merlin": {
+      "only_if": "autonom|C-130|aircraft|pilot|cockpit|Merlin Labs|MRLN|flight",
+      "note": "Ours is Merlin (Merlin Labs; Nasdaq: MRLN), the Boston aircraft-autonomy company; Merlin is also a wizard, an engine, a theme-park operator and many products."
+    },
+    "BEI": {
+      "only_if": "batter|lithium|anode|cell|In-Q-Tel|IQT|Ansan",
+      "note": "Ours is BEI, the Korean anode-free lithium-metal battery maker (IQT portfolio); BEI is also BEI Sensors, BEI Precision and other acronyms."
+    },
+    "Octant": {
+      "only_if": "drug|biolog|synthetic|therapeut|Emeryville|orphan|Phase 1",
+      "note": "Ours is Octant, the Emeryville synthetic-biology drug-discovery company; 'octant' is also a geometry term and several unrelated firms."
+    },
     "Biosphere": {
       "only_if": "bioreactor|fermentation|biomanufactur|UV[- ]steril|biosphere\\.io|Lowercarbon",
       "note": "Ours is the Oakland bioreactor maker (biosphere.io); 'biosphere' is an everyday word and the name of many projects."
@@ -299,16 +315,17 @@
   ],
   "common_word_names": [
     "Abridge", "Agility", "AIR", "Airship", "ALSO", "Ample", "Anode", "Anthropic", "Arbor", "Armada", "ASI", "ATLAS",
-    "Atoms", "Avalanche", "Axiom", "Bedrock", "Biosphere", "Bronco", "Built", "Cape", "Chaos", "Cohere",
-    "Collaborative", "Colossal", "Covariant", "Covenant", "Cover", "Cradle", "Deterrence", "Dexterity", "Diode",
-    "Divergent", "Dragonfly", "Dust", "Earth", "Endurance", "Enigma", "Etched", "Field", "Figure", "Firefly", "Flux",
-    "Focused", "Gambit", "Gecko", "Glacier", "Glimpse", "Halo", "Helios", "Humane", "Humanoid", "Icon", "Impulse",
-    "Integrate", "Inversion", "Kestrel", "Latitude", "Launchpad", "Locus", "Loyal", "Malta", "Mammoth", "Mantel",
-    "Material", "Matter", "Mistral", "Modal", "Monumental", "Multiply", "Mythic", "Nominal", "Nudge", "Observable",
-    "Orchid", "Osmoses", "Ouster", "Outpost", "Overland", "Parallel", "Parry", "Pascal", "Pilgrim", "Pivotal",
-    "Planet", "Primer", "Queue", "Quilt", "Radiant", "Rainbow", "Rapid", "Rebellions", "Relativity", "Resilience",
-    "Reveal", "Revel", "Runway", "Seabound", "Sift", "Singularity", "Skeleton", "Skyways", "Slingshot", "Span",
-    "Specter", "Steady", "Stoke", "Sublime", "Substrate", "Surge", "Swan", "Synthesis", "Tempo", "Terrestrial",
-    "Twelve", "Twenty", "Union", "Until", "Uplift", "Vast", "Verse", "Vertical", "Watershed", "Yard Stick", "Zoo"
+    "Atoms", "Avalanche", "aXenic", "Axiom", "Bedrock", "BEI", "Biosphere", "Bronco", "Built", "Cape", "Chaos",
+    "Cohere", "Collaborative", "Colossal", "Covariant", "Covenant", "Cover", "Cradle", "Deterrence", "Dexterity",
+    "Diode", "Divergent", "Dragonfly", "Dust", "Earth", "Endurance", "Enigma", "Etched", "Field", "Figure", "Firefly",
+    "Flux", "Focused", "Gambit", "Gecko", "Glacier", "Glimpse", "Halo", "Helios", "Humane", "Humanoid", "Icon",
+    "Impulse", "Integrate", "Inversion", "Kestrel", "Latitude", "Launchpad", "Locus", "Loyal", "Malta", "Mammoth",
+    "Mantel", "Material", "Matter", "Merlin", "Mistral", "Modal", "Monumental", "Multiply", "Mythic", "Nominal",
+    "Nudge", "Observable", "Octant", "Orchid", "Osmoses", "Ouster", "Outpost", "Overland", "Parallel", "Parry",
+    "Pascal", "Pilgrim", "Pivotal", "Planet", "Primer", "Queue", "Quilt", "Radiant", "Rainbow", "Rapid", "Rebellions",
+    "Relativity", "Resilience", "Reveal", "Revel", "Runway", "Seabound", "Sift", "Singularity", "Skeleton", "Skyways",
+    "Slingshot", "Span", "Specter", "Steady", "Stoke", "Sublime", "Substrate", "Surge", "Swan", "Synthesis", "Tempo",
+    "Terrestrial", "Twelve", "Twenty", "Union", "Until", "Uplift", "Vast", "Verse", "Vertical", "Watershed",
+    "Yard Stick", "Zoo"
   ]
 }
