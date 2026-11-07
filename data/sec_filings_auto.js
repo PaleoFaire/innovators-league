@@ -1,7 +1,9 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-11-06 13:58:02 UTC
+// Last updated: 2026-11-07 12:42:07 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "AST SpaceMobile", form: "8-K", date: "2026-11-06", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
   { company: "Oklo", form: "10-Q", date: "2026-11-06", description: "oklo-20260930.htm", isIPO: false, ticker: "OKLO" },
+  { company: "Centrus Energy", form: "4", date: "2026-11-06", description: "xslF345X06/wk-form4_1793989125.xml", isIPO: false, ticker: "LEU" },
   { company: "BlackSky Technology", form: "10-Q", date: "2026-11-05", description: "bksy-20260930.htm", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "8-K", date: "2026-11-05", description: "bksy-20261105.htm", isIPO: false, ticker: "BKSY" },
   { company: "Intuitive Machines", form: "10-Q", date: "2026-11-05", description: "acdc-20260930.htm", isIPO: false, ticker: "LUNR" },
@@ -49,6 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Rivian", form: "10-Q", date: "2026-10-29", description: "rivn-20260930.htm", isIPO: false, ticker: "RIVN" },
   { company: "Rivian", form: "8-K", date: "2026-10-29", description: "rivn-20261027.htm", isIPO: false, ticker: "RIVN" },
   { company: "Satellogic", form: "8-K", date: "2026-10-29", description: "ea0309860-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
-  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232680.xml", isIPO: false, ticker: "AI" },
-  { company: "C3.ai", form: "4", date: "2026-10-28", description: "xslF345X06/wk-form4_1793232655.xml", isIPO: false, ticker: "AI" },
 ];

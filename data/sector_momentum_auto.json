@@ -1,25 +1,25 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 54,
-    "trend": "steady",
+    "momentum": 55,
+    "trend": "accelerating",
     "catalysts": [
+      "Blue Origin NorthStar Rocket Engine 30% Better Than BE4 But",
       "How did Agility Robotics perform on its first day on the sto",
-      "Agility Robotics begins trading on Nasdaq",
-      "Churchill Capital XI shareholders approve $2.5B Agility Robo"
+      "Agility Robotics begins trading on Nasdaq"
     ],
     "fundingQ": "$7.0B",
     "components": {
       "funding": 100,
-      "news": 35,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "sector": "Transportation",
-    "momentum": 51,
+    "momentum": 55,
     "trend": "steady",
     "catalysts": [
       "Active transportation ecosystem"
@@ -29,27 +29,78 @@
       "funding": 100,
       "news": 0,
       "hiring": 0,
-      "market": 79
+      "market": 100
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 50,
+    "trend": "steady",
+    "catalysts": [
+      "OpenAI reportedly raises an additional $11 billion at a $1.2",
+      "Ramp data shows AI spending stalling just as Anthropic nears",
+      "OpenAI models hacked a crypto wallet and breached more websi"
+    ],
+    "fundingQ": "$12.1B",
+    "components": {
+      "funding": 100,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-07"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 40,
+    "momentum": 38,
     "trend": "steady",
     "catalysts": [
       "CesiumAstro Secures $730 Million in Janus Henderson-Led Seri",
-      "Harbinger raises $240M after expanding into defense",
       "Shield AI acquires radar firm Echodyne in $5.3B deal"
     ],
     "fundingQ": "$4.1B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 10,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 37,
+    "trend": "rising",
+    "catalysts": [
+      "With federal funding windfall, X-energy advances small nucle"
+    ],
+    "fundingQ": "$550M",
+    "components": {
+      "funding": 46,
+      "news": 5,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 28,
+    "trend": "steady",
+    "catalysts": [
+      "Tesla &#038; SpaceX Lost $420 Billion In Market Cap This Wee",
+      "Blue Origin NorthStar Rocket Engine 30% Better Than BE4 But",
+      "How Will SpaceX Leapfrog ATT &#038; Verizon"
+    ],
+    "fundingQ": "$1.2B",
+    "components": {
+      "funding": 51,
+      "news": 40,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-11-07"
   },
   {
     "sector": "Nuclear Energy",
@@ -65,59 +116,23 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "sector": "Space & Aerospace",
-    "momentum": 25,
-    "trend": "rising",
-    "catalysts": [
-      "How Will SpaceX Leapfrog ATT &#038; Verizon",
-      "CesiumAstro Secures $730 Million in Janus Henderson-Led Seri",
-      "Ukraine eyeing new SpaceX Starshield deal by mid-2027, still"
-    ],
-    "fundingQ": "$1.2B",
-    "components": {
-      "funding": 51,
-      "news": 30,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-11-06"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 23,
-    "trend": "rising",
-    "catalysts": [
-      "With federal funding windfall, X-energy advances small nucle"
-    ],
-    "fundingQ": "$550M",
-    "components": {
-      "funding": 46,
-      "news": 5,
-      "hiring": 0,
-      "market": 29
-    },
-    "lastUpdated": "2026-11-06"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 21,
+    "sector": "Quantum Computing",
+    "momentum": 19,
     "trend": "declining",
     "catalysts": [
-      "OpenAI released a new cybersecurity model. Is that enough?",
-      "OpenAI president Greg Brockman says company could be IPO rea",
-      "OpenAI models hacked a crypto wallet and breached more websi"
+      "Active quantum computing ecosystem"
     ],
-    "fundingQ": "$1.1B",
+    "fundingQ": "$0M",
     "components": {
-      "funding": 16,
-      "news": 20,
+      "funding": 0,
+      "news": 0,
       "hiring": 0,
-      "market": 50
+      "market": 94
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "sector": "Consumer Tech",
@@ -135,33 +150,15 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Saildrone inks agreement with Norwegian shipbuilder Umoe Man",
-      "Shield AI acquires radar firm Echodyne in $5.3B deal",
-      "Navy unfairly evaluated Saildrone MUSV proposal, court finds"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-06"
-  },
-  {
-    "sector": "Ocean & Maritime",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
       "Saildrone inks agreement with Norwegian shipbuilder Umoe Man",
-      "Navy unfairly evaluated Saildrone MUSV proposal, court finds"
+      "Shield AI acquires radar firm Echodyne in $5.3B deal"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -170,7 +167,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -186,7 +183,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "sector": "Housing & Construction",
@@ -202,14 +199,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "sector": "Infrastructure & Logistics",
+    "sector": "Ocean & Maritime",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "OpenAI released a new cybersecurity model. Is that enough?"
+      "Saildrone inks agreement with Norwegian shipbuilder Umoe Man"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -218,11 +215,27 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active infrastructure & logistics ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-07"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 1,
+    "momentum": 4,
     "trend": "declining",
     "catalysts": [
       "Missile startup Hypersonica raises \u20ac100m from Lightspeed, Ge"
@@ -232,9 +245,9 @@
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 0
+      "market": 13
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -250,22 +263,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-06"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 0,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   }
 ]
