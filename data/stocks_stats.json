@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 1.57,
+      "avg_change": 1.88,
       "count": 7
     },
     "nuclear": {
@@ -74,14 +74,14 @@
       8.59
     ],
     [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      7.01
+    ],
+    [
       "ACHR",
       "Archer Aviation",
       5.71
-    ],
-    [
-      "QS",
-      "QuantumScape",
-      5.42
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -26.28
     ]
   ],
-  "lastUpdated": "2026-11-08 07:26:48"
+  "lastUpdated": "2026-11-08 18:25:20"
 }
