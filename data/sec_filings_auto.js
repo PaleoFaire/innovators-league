@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-11-07 12:42:07 UTC
+// Last updated: 2026-11-08 12:59:22 UTC
 const SEC_FILINGS_LIVE = [
   { company: "AST SpaceMobile", form: "8-K", date: "2026-11-06", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
   { company: "Oklo", form: "10-Q", date: "2026-11-06", description: "oklo-20260930.htm", isIPO: false, ticker: "OKLO" },
