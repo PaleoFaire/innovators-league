@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-02T18:21:35.297899+00:00",
+  "generated_at": "2026-11-09T18:48:43.972745+00:00",
   "source": "buildlist",
   "source_url": "https://buildlist.xyz/companies",
   "note": "Report only, never applied to data.js. COMPANIES records whose state, country or city disagrees with BuildList's location_city. BuildList can be the stale side; check the company's own site before editing data.js.",
-  "compared": 478,
+  "compared": 481,
   "matched_by": {
     "domain": 0,
-    "name": 478
+    "name": 481
   },
   "ignored": [
     "Hermeus",
@@ -14,11 +14,11 @@
     "Moment Energy",
     "SpaceX"
   ],
-  "count": 92,
+  "count": 103,
   "by_kind": {
     "country": 6,
-    "state": 16,
-    "city": 70
+    "state": 20,
+    "city": 77
   },
   "items": [
     {
@@ -118,6 +118,30 @@
       "evidence": ""
     },
     {
+      "company": "Dandelion Energy",
+      "buildlist_name": "Dandelion Energy",
+      "kind": "state",
+      "matched_by": "name",
+      "db_location": "Arlington, VA",
+      "db_state": "VA",
+      "db_country": "United States",
+      "buildlist_location": "New York, NY",
+      "buildlist_metro": "NYC",
+      "evidence": ""
+    },
+    {
+      "company": "Defense Unicorns",
+      "buildlist_name": "Defense Unicorns",
+      "kind": "state",
+      "matched_by": "name",
+      "db_location": "San Antonio, TX",
+      "db_state": "TX",
+      "db_country": "United States",
+      "buildlist_location": "Colorado Springs, CO",
+      "buildlist_metro": "Denver",
+      "evidence": ""
+    },
+    {
       "company": "Deterrence",
       "buildlist_name": "Deterrence",
       "kind": "state",
@@ -190,6 +214,18 @@
       "evidence": ""
     },
     {
+      "company": "Lumafield",
+      "buildlist_name": "Lumafield",
+      "kind": "state",
+      "matched_by": "name",
+      "db_location": "San Francisco, CA",
+      "db_state": "CA",
+      "db_country": "United States",
+      "buildlist_location": "Cambridge, MA",
+      "buildlist_metro": "Boston",
+      "evidence": ""
+    },
+    {
       "company": "Orchard Robotics",
       "buildlist_name": "Orchard Robotics",
       "kind": "state",
@@ -226,6 +262,18 @@
       "evidence": ""
     },
     {
+      "company": "Quaise Energy",
+      "buildlist_name": "Quaise Energy",
+      "kind": "state",
+      "matched_by": "name",
+      "db_location": "Houston, TX",
+      "db_state": "TX",
+      "db_country": "United States",
+      "buildlist_location": "Cambridge, MA",
+      "buildlist_metro": "Boston",
+      "evidence": ""
+    },
+    {
       "company": "Second Front Systems",
       "buildlist_name": "Second Front Systems",
       "kind": "state",
@@ -238,15 +286,15 @@
       "evidence": ""
     },
     {
-      "company": "Slingshot Aerospace",
-      "buildlist_name": "Slingshot Aerospace",
+      "company": "TerraDepth",
+      "buildlist_name": "TerraDepth",
       "kind": "state",
       "matched_by": "name",
-      "db_location": "El Segundo, CA",
-      "db_state": "CA",
+      "db_location": "Panama City Beach, FL",
+      "db_state": "FL",
       "db_country": "United States",
-      "buildlist_location": "Colorado Springs, CO",
-      "buildlist_metro": "Denver",
+      "buildlist_location": "Cedar Park, TX",
+      "buildlist_metro": "Austin",
       "evidence": ""
     },
     {
@@ -442,18 +490,6 @@
       "evidence": ""
     },
     {
-      "company": "Auriga Space",
-      "buildlist_name": "Auriga Space",
-      "kind": "city",
-      "matched_by": "name",
-      "db_location": "Orange County, CA",
-      "db_state": "CA",
-      "db_country": "United States",
-      "buildlist_location": "Garden Grove, CA",
-      "buildlist_metro": "Los Angeles",
-      "evidence": ""
-    },
-    {
       "company": "Bedrock Ocean",
       "buildlist_name": "Bedrock Ocean",
       "kind": "city",
@@ -634,6 +670,18 @@
       "evidence": ""
     },
     {
+      "company": "Gatik",
+      "buildlist_name": "Gatik",
+      "kind": "city",
+      "matched_by": "name",
+      "db_location": "Santa Clara, CA",
+      "db_state": "CA",
+      "db_country": "United States",
+      "buildlist_location": "Mountain View, CA",
+      "buildlist_metro": "SF Bay Area",
+      "evidence": ""
+    },
+    {
       "company": "GrayMatter Robotics",
       "buildlist_name": "GrayMatter Robotics",
       "kind": "city",
@@ -670,6 +718,18 @@
       "evidence": ""
     },
     {
+      "company": "Havoc AI",
+      "buildlist_name": "Havoc AI",
+      "kind": "city",
+      "matched_by": "name",
+      "db_location": "East Providence, RI",
+      "db_state": "RI",
+      "db_country": "United States",
+      "buildlist_location": "Providence, RI",
+      "buildlist_metro": "Boston",
+      "evidence": ""
+    },
+    {
       "company": "HEO",
       "buildlist_name": "HEO Robotics",
       "kind": "city",
@@ -694,6 +754,30 @@
       "evidence": ""
     },
     {
+      "company": "Isar Aerospace",
+      "buildlist_name": "Isar Aerospace",
+      "kind": "city",
+      "matched_by": "name",
+      "db_location": "Vaterstetten, Germany",
+      "db_state": "",
+      "db_country": "Germany",
+      "buildlist_location": "Ottobrunn, Germany",
+      "buildlist_metro": "Germany",
+      "evidence": ""
+    },
+    {
+      "company": "Longshot Space",
+      "buildlist_name": "Longshot Space",
+      "kind": "city",
+      "matched_by": "name",
+      "db_location": "Alameda, CA",
+      "db_state": "CA",
+      "db_country": "United States",
+      "buildlist_location": "Oakland, CA",
+      "buildlist_metro": "SF Bay Area",
+      "evidence": ""
+    },
+    {
       "company": "Lydian",
       "buildlist_name": "Lydian",
       "kind": "city",
@@ -706,26 +790,14 @@
       "evidence": ""
     },
     {
-      "company": "Magrathea Metals",
-      "buildlist_name": "Magrathea Metals",
+      "company": "Mytra",
+      "buildlist_name": "Mytra",
       "kind": "city",
       "matched_by": "name",
-      "db_location": "Oakland, CA",
+      "db_location": "Brisbane, CA",
       "db_state": "CA",
       "db_country": "United States",
-      "buildlist_location": "San Francisco, CA",
-      "buildlist_metro": "SF Bay Area",
-      "evidence": ""
-    },
-    {
-      "company": "Muon Space",
-      "buildlist_name": "Muon Space",
-      "kind": "city",
-      "matched_by": "name",
-      "db_location": "San Jose, CA",
-      "db_state": "CA",
-      "db_country": "United States",
-      "buildlist_location": "Mountain View, CA",
+      "buildlist_location": "South San Francisco, CA",
       "buildlist_metro": "SF Bay Area",
       "evidence": ""
     },
@@ -790,6 +862,18 @@
       "evidence": ""
     },
     {
+      "company": "Nox Metals",
+      "buildlist_name": "Nox Metals",
+      "kind": "city",
+      "matched_by": "name",
+      "db_location": "Ferndale, MI",
+      "db_state": "MI",
+      "db_country": "United States",
+      "buildlist_location": "Detroit, MI",
+      "buildlist_metro": "Detroit",
+      "evidence": ""
+    },
+    {
       "company": "Oklo",
       "buildlist_name": "Oklo",
       "kind": "city",
@@ -811,6 +895,18 @@
       "db_country": "United States",
       "buildlist_location": "Playa Vista, CA",
       "buildlist_metro": "Los Angeles",
+      "evidence": ""
+    },
+    {
+      "company": "Periodic Labs",
+      "buildlist_name": "Periodic Labs",
+      "kind": "city",
+      "matched_by": "name",
+      "db_location": "Menlo Park, CA",
+      "db_state": "CA",
+      "db_country": "United States",
+      "buildlist_location": "San Francisco, CA",
+      "buildlist_metro": "SF Bay Area",
       "evidence": ""
     },
     {
@@ -838,18 +934,6 @@
       "evidence": ""
     },
     {
-      "company": "Rapidus",
-      "buildlist_name": "Rapidus",
-      "kind": "city",
-      "matched_by": "name",
-      "db_location": "Chiyoda, Tokyo, Japan",
-      "db_state": "",
-      "db_country": "Japan",
-      "buildlist_location": "Tokyo, Japan",
-      "buildlist_metro": "Japan",
-      "evidence": ""
-    },
-    {
       "company": "Red 6",
       "buildlist_name": "RED 6",
       "kind": "city",
@@ -862,6 +946,18 @@
       "evidence": ""
     },
     {
+      "company": "Reflex Robotics",
+      "buildlist_name": "Reflex Robotics",
+      "kind": "city",
+      "matched_by": "name",
+      "db_location": "New York, NY",
+      "db_state": "NY",
+      "db_country": "United States",
+      "buildlist_location": "Brooklyn, NY",
+      "buildlist_metro": "NYC",
+      "evidence": ""
+    },
+    {
       "company": "Remora",
       "buildlist_name": "Remora",
       "kind": "city",
@@ -871,6 +967,18 @@
       "db_country": "United States",
       "buildlist_location": "Livonia, MI",
       "buildlist_metro": "Detroit",
+      "evidence": ""
+    },
+    {
+      "company": "Resolute Grid",
+      "buildlist_name": "Resolute Grid",
+      "kind": "city",
+      "matched_by": "name",
+      "db_location": "Rockwall, TX",
+      "db_state": "TX",
+      "db_country": "United States",
+      "buildlist_location": "Heath, TX",
+      "buildlist_metro": "Dallas",
       "evidence": ""
     },
     {
@@ -910,6 +1018,18 @@
       "evidence": ""
     },
     {
+      "company": "Safire",
+      "buildlist_name": "Safire",
+      "kind": "city",
+      "matched_by": "name",
+      "db_location": "Tysons, VA",
+      "db_state": "VA",
+      "db_country": "United States",
+      "buildlist_location": "McLean, VA",
+      "buildlist_metro": "Washington, D.C.",
+      "evidence": ""
+    },
+    {
       "company": "Salient Motion",
       "buildlist_name": "Salient Motion",
       "kind": "city",
@@ -934,18 +1054,6 @@
       "evidence": ""
     },
     {
-      "company": "Singularity",
-      "buildlist_name": "Singularity",
-      "kind": "city",
-      "matched_by": "name",
-      "db_location": "El Segundo, CA",
-      "db_state": "CA",
-      "db_country": "United States",
-      "buildlist_location": "Gardena, CA",
-      "buildlist_metro": "Los Angeles",
-      "evidence": ""
-    },
-    {
       "company": "SirenOpt",
       "buildlist_name": "SirenOpt",
       "kind": "city",
@@ -955,6 +1063,18 @@
       "db_country": "United States",
       "buildlist_location": "Oakland, CA",
       "buildlist_metro": "SF Bay Area",
+      "evidence": ""
+    },
+    {
+      "company": "Slingshot Aerospace",
+      "buildlist_name": "Slingshot Aerospace",
+      "kind": "city",
+      "matched_by": "name",
+      "db_location": "Windsor, CO",
+      "db_state": "CO",
+      "db_country": "United States",
+      "buildlist_location": "Colorado Springs, CO",
+      "buildlist_metro": "Denver",
       "evidence": ""
     },
     {
@@ -979,6 +1099,18 @@
       "db_country": "United States",
       "buildlist_location": "New York, NY",
       "buildlist_metro": "NYC",
+      "evidence": ""
+    },
+    {
+      "company": "Standard Subsea",
+      "buildlist_name": "Standard Subsea",
+      "kind": "city",
+      "matched_by": "name",
+      "db_location": "Los Angeles, CA",
+      "db_state": "CA",
+      "db_country": "United States",
+      "buildlist_location": "El Segundo, CA",
+      "buildlist_metro": "Los Angeles",
       "evidence": ""
     },
     {
@@ -1018,6 +1150,30 @@
       "evidence": ""
     },
     {
+      "company": "Synchron",
+      "buildlist_name": "Synchron",
+      "kind": "city",
+      "matched_by": "name",
+      "db_location": "New York, NY",
+      "db_state": "NY",
+      "db_country": "United States",
+      "buildlist_location": "Brooklyn, NY",
+      "buildlist_metro": "NYC",
+      "evidence": ""
+    },
+    {
+      "company": "TerraFirma",
+      "buildlist_name": "TerraFirma",
+      "kind": "city",
+      "matched_by": "name",
+      "db_location": "Austin, TX",
+      "db_state": "TX",
+      "db_country": "United States",
+      "buildlist_location": "Buda, TX",
+      "buildlist_metro": "Austin",
+      "evidence": ""
+    },
+    {
       "company": "Terranova",
       "buildlist_name": "Terranova",
       "kind": "city",
@@ -1042,23 +1198,11 @@
       "evidence": ""
     },
     {
-      "company": "Unconventional AI",
-      "buildlist_name": "Unconventional AI",
-      "kind": "city",
-      "matched_by": "name",
-      "db_location": "San Francisco, CA",
-      "db_state": "CA",
-      "db_country": "United States",
-      "buildlist_location": "Mountain View, CA",
-      "buildlist_metro": "SF Bay Area",
-      "evidence": ""
-    },
-    {
       "company": "Unspun",
       "buildlist_name": "Unspun",
       "kind": "city",
       "matched_by": "name",
-      "db_location": "Oakland, CA",
+      "db_location": "Emeryville, CA",
       "db_state": "CA",
       "db_country": "United States",
       "buildlist_location": "San Francisco, CA",
@@ -1087,18 +1231,6 @@
       "db_country": "United States",
       "buildlist_location": "Burlington, MA",
       "buildlist_metro": "Boston",
-      "evidence": ""
-    },
-    {
-      "company": "Wardstone",
-      "buildlist_name": "Wardstone",
-      "kind": "city",
-      "matched_by": "name",
-      "db_location": "Los Angeles, CA",
-      "db_state": "CA",
-      "db_country": "United States",
-      "buildlist_location": "El Segundo, CA",
-      "buildlist_metro": "Los Angeles",
       "evidence": ""
     },
     {
