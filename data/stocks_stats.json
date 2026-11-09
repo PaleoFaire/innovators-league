@@ -5,95 +5,100 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -12.89,
+      "avg_change": -5.13,
       "count": 1
     },
     "space": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -3.88,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 11.02,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 0.31,
+      "avg_change": 2.22,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -6.99,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 9.89,
       "count": 3
     },
     "climate": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.52,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 3.68,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.44,
+      "avg_change": 20.26,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -3.58,
+      "avg_change": 1.91,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.76,
+      "avg_change": -0.08,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -15.38,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.74,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "JOBY",
-      "Joby Aviation",
-      21.02
+      "SATL",
+      "Satellogic",
+      28.73
     ],
     [
-      "RIVN",
-      "Rivian",
-      11.92
+      "JOBY",
+      "Joby Aviation",
+      28.48
     ],
     [
       "IONQ",
       "IonQ",
-      8.59
+      25.45
     ],
     [
-      "ACHR",
-      "Archer Aviation",
-      5.71
+      "LUNR",
+      "Intuitive Machines",
+      22.11
     ],
     [
-      "QS",
-      "QuantumScape",
-      5.42
+      "RGTI",
+      "Rigetti Computing",
+      21.65
     ]
   ],
   "topLosers": [
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      -12.66
+      "ALAB",
+      "Astera Labs",
+      -5.57
     ],
     [
-      "PLTR",
-      "Palantir",
-      -12.89
+      "TSLA",
+      "Tesla",
+      -6.38
+    ],
+    [
+      "NVDA",
+      "NVIDIA",
+      -11.58
     ],
     [
       "277810.KQ",
@@ -101,15 +106,10 @@
       -16.55
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      -21.09
-    ],
-    [
-      "ALAB",
-      "Astera Labs",
-      -26.28
+      "DRSHF",
+      "DroneShield",
+      -18.62
     ]
   ],
-  "lastUpdated": "2026-11-09 08:03:37"
+  "lastUpdated": "2026-11-09 23:04:01"
 }
