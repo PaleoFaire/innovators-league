@@ -11,13 +11,13 @@
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -4.79,
+      "avg_change": -3.88,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 1.88,
+      "avg_change": 0.31,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.97,
+      "avg_change": -3.58,
       "count": 3
     },
     "transportation": {
@@ -74,22 +74,17 @@
       8.59
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      7.01
-    ],
-    [
       "ACHR",
       "Archer Aviation",
       5.71
+    ],
+    [
+      "QS",
+      "QuantumScape",
+      5.42
     ]
   ],
   "topLosers": [
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -11.57
-    ],
     [
       "RXRX",
       "Recursion Pharmaceuticals",
@@ -99,6 +94,11 @@
       "PLTR",
       "Palantir",
       -12.89
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -16.55
     ],
     [
       "ASTS",
@@ -111,5 +111,5 @@
       -26.28
     ]
   ],
-  "lastUpdated": "2026-11-08 22:57:56"
+  "lastUpdated": "2026-11-09 08:03:37"
 }
