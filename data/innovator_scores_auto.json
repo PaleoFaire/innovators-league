@@ -9492,18 +9492,6 @@
     "note": "Large addressable market. Composite: 39/100."
   },
   {
-    "company": "CesiumAstro",
-    "techMoat": 3,
-    "momentum": 4,
-    "teamPedigree": 5,
-    "marketGravity": 3,
-    "capitalEfficiency": 5.5,
-    "govTraction": 4,
-    "composite": 39.0,
-    "tier": "early",
-    "note": "Capital efficient. Composite: 39/100."
-  },
-  {
     "company": "Voya Energy",
     "techMoat": 3,
     "momentum": 4,
@@ -10594,6 +10582,18 @@
     "composite": 37.0,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 37/100."
+  },
+  {
+    "company": "CesiumAstro",
+    "techMoat": 3,
+    "momentum": 4,
+    "teamPedigree": 5,
+    "marketGravity": 3,
+    "capitalEfficiency": 5.5,
+    "govTraction": 2,
+    "composite": 37.0,
+    "tier": "early",
+    "note": "Capital efficient. Composite: 37/100."
   },
   {
     "company": "Code Metal",

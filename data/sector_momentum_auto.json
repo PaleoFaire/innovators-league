@@ -4,9 +4,9 @@
     "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
+      "Waymo robotaxis kept illegally passing school buses after so",
       "HUGE Things in About Tesla and SpaceX",
-      "Blue Origin NorthStar Rocket Engine 30% Better Than BE4 But",
-      "How did Agility Robotics perform on its first day on the sto"
+      "Blue Origin NorthStar Rocket Engine 30% Better Than BE4 But"
     ],
     "fundingQ": "$7.0B",
     "components": {
@@ -15,7 +15,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-09"
   },
   {
     "sector": "Transportation",
@@ -31,43 +31,41 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-09"
   },
   {
     "sector": "AI & Software",
-    "momentum": 50,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "OpenAI reportedly raises an additional $11 billion at a $1.2",
-      "Ramp data shows AI spending stalling just as Anthropic nears",
-      "OpenAI models hacked a crypto wallet and breached more websi"
+      "OpenAI models hacked a crypto wallet and breached more websi",
+      "Anthropic warns small AI models could self-replicate through"
     ],
     "fundingQ": "$12.1B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-09"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 39,
+    "momentum": 38,
     "trend": "steady",
     "catalysts": [
       "Harbinger scores another $240M in latest investment round",
-      "CesiumAstro Secures $730 Million in Janus Henderson-Led Seri",
-      "Shield AI acquires radar firm Echodyne in $5.3B deal"
+      "CesiumAstro Secures $730 Million in Janus Henderson-Led Seri"
     ],
     "fundingQ": "$4.1B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-09"
   },
   {
     "sector": "Climate & Energy",
@@ -83,16 +81,16 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-09"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 29,
     "trend": "steady",
     "catalysts": [
+      "Sequoia partners reportedly blindsided when Roelof Botha joi",
       "HUGE Things in About Tesla and SpaceX",
-      "Tesla &#038; SpaceX Lost $420 Billion In Market Cap This Wee",
-      "Blue Origin NorthStar Rocket Engine 30% Better Than BE4 But"
+      "Tesla &#038; SpaceX Lost $420 Billion In Market Cap This Wee"
     ],
     "fundingQ": "$1.2B",
     "components": {
@@ -101,7 +99,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-09"
   },
   {
     "sector": "Nuclear Energy",
@@ -117,7 +115,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-09"
   },
   {
     "sector": "Quantum Computing",
@@ -133,11 +131,11 @@
       "hiring": 0,
       "market": 94
     },
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-09"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 15,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
       "How did Agility Robotics perform on its first day on the sto",
@@ -147,35 +145,18 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-09"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "Saildrone inks agreement with Norwegian shipbuilder Umoe Man",
-      "Shield AI acquires radar firm Echodyne in $5.3B deal"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-08"
-  },
-  {
-    "sector": "Supersonic & Hypersonic",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Missile startup Hypersonica raises \u20ac100m from Lightspeed, Ge"
+      "Saildrone inks agreement with Norwegian shipbuilder Umoe Man"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -184,7 +165,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-09"
   },
   {
     "sector": "Housing & Construction",
@@ -200,7 +181,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-09"
   },
   {
     "sector": "Ocean & Maritime",
@@ -216,7 +197,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-09"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active supersonic & hypersonic ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-09"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -232,23 +229,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-09"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 4,
+    "momentum": 3,
     "trend": "declining",
     "catalysts": [
-      "Missile startup Hypersonica raises \u20ac100m from Lightspeed, Ge"
+      "Active biotech & health ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 13
     },
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-09"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -264,6 +261,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-09"
   }
 ]

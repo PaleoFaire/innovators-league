@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T14:35:40.013576Z",
+  "generated_at": "2026-11-09T16:17:02.932231Z",
   "takes": [
     {
       "author": "SpaceNews",
@@ -12,16 +12,6 @@
       "signal_type": "funding"
     },
     {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "OpenAI",
-      "text": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "date": "Fri, 06 No",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "signal_type": "funding"
-    },
-    {
       "author": "CleanTechnica",
       "role": "Industry signal",
       "company": "SpaceX",
@@ -30,22 +20,12 @@
       "source": "news",
       "source_url": "https://cleantechnica.com/2026/11/06/tesla-spacex-lost-420-billion-in-market-cap-this-week-didnt-have-to-be-this-way/",
       "signal_type": "ipo"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-      "date": "Fri, 06 No",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "signal_type": "ipo"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 4,
+    "from_news": 2,
     "from_press": 0
   }
 }
