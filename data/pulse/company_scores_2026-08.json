@@ -38,6 +38,15 @@
    "last_contract": null
   },
   {
+   "company": "Zipline",
+   "bucket": "Autonomy & Robotics",
+   "score": 47.1,
+   "roles": 328,
+   "in_hiring_panel": true,
+   "last_capital": "2026-03",
+   "last_contract": "2023-09"
+  },
+  {
    "company": "Inversion Space",
    "bucket": "Space & Aerospace",
    "score": 47.1,
@@ -99,6 +108,15 @@
    "in_hiring_panel": false,
    "last_capital": "2026-06",
    "last_contract": "2026-10"
+  },
+  {
+   "company": "Standard Bots",
+   "bucket": "Autonomy & Robotics",
+   "score": 45.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-06",
+   "last_contract": "2026-06"
   },
   {
    "company": "Voya Energy",
@@ -164,12 +182,21 @@
    "last_contract": null
   },
   {
+   "company": "Vast",
+   "bucket": "Space & Aerospace",
+   "score": 37.8,
+   "roles": 174,
+   "in_hiring_panel": true,
+   "last_capital": "2026-03",
+   "last_contract": "2026-02"
+  },
+  {
    "company": "Tenstorrent",
    "bucket": "Chips & Quantum",
    "score": 37.1,
    "roles": 135,
    "in_hiring_panel": true,
-   "last_capital": "2026-04",
+   "last_capital": "2026-10",
    "last_contract": null
   },
   {
@@ -191,6 +218,15 @@
    "last_contract": "2026-03"
   },
   {
+   "company": "BRINC Drones",
+   "bucket": "Defence",
+   "score": 37.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-07",
+   "last_contract": "2026-05"
+  },
+  {
    "company": "Windborne",
    "bucket": "Power & Grid",
    "score": 37.0,
@@ -206,7 +242,7 @@
    "roles": 86,
    "in_hiring_panel": true,
    "last_capital": "2026-05",
-   "last_contract": "2026-04"
+   "last_contract": "2026-11"
   },
   {
    "company": "The Nuclear Company",
@@ -245,15 +281,6 @@
    "last_contract": null
   },
   {
-   "company": "Zipline",
-   "bucket": "Autonomy & Robotics",
-   "score": 32.1,
-   "roles": 328,
-   "in_hiring_panel": true,
-   "last_capital": "2016-07",
-   "last_contract": "2023-09"
-  },
-  {
    "company": "Whisper Aero",
    "bucket": "Space & Aerospace",
    "score": 31.9,
@@ -261,15 +288,6 @@
    "in_hiring_panel": true,
    "last_capital": null,
    "last_contract": "2025-09"
-  },
-  {
-   "company": "Agility Robotics",
-   "bucket": "Autonomy & Robotics",
-   "score": 29.6,
-   "roles": 66,
-   "in_hiring_panel": true,
-   "last_capital": null,
-   "last_contract": null
   },
   {
    "company": "Twenty",
@@ -323,7 +341,7 @@
    "roles": 0,
    "in_hiring_panel": false,
    "last_capital": "2026-03",
-   "last_contract": "2026-05"
+   "last_contract": "2026-10"
   },
   {
    "company": "Skydio",
@@ -380,12 +398,30 @@
    "last_contract": null
   },
   {
+   "company": "Revoy",
+   "bucket": "Autonomy & Robotics",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-07",
+   "last_contract": null
+  },
+  {
    "company": "Uplift",
    "bucket": "Manufacturing & Materials",
    "score": 25.0,
    "roles": 0,
    "in_hiring_panel": false,
    "last_capital": "2026-08",
+   "last_contract": null
+  },
+  {
+   "company": "Beyond Reach Labs",
+   "bucket": "Space & Aerospace",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-07",
    "last_contract": null
   },
   {
@@ -413,42 +449,6 @@
    "roles": 0,
    "in_hiring_panel": false,
    "last_capital": "2026-06",
-   "last_contract": null
-  },
-  {
-   "company": "Northwood Space",
-   "bucket": "Space & Aerospace",
-   "score": 25.0,
-   "roles": 0,
-   "in_hiring_panel": false,
-   "last_capital": "2026-11",
-   "last_contract": "2026-07"
-  },
-  {
-   "company": "Commonwealth Fusion Systems",
-   "bucket": "Nuclear",
-   "score": 25.0,
-   "roles": 0,
-   "in_hiring_panel": false,
-   "last_capital": "2026-07",
-   "last_contract": null
-  },
-  {
-   "company": "Base Power",
-   "bucket": "Power & Grid",
-   "score": 25.0,
-   "roles": 0,
-   "in_hiring_panel": false,
-   "last_capital": "2026-08",
-   "last_contract": null
-  },
-  {
-   "company": "Form Energy",
-   "bucket": "Power & Grid",
-   "score": 25.0,
-   "roles": 0,
-   "in_hiring_panel": false,
-   "last_capital": "2026-08",
    "last_contract": null
   }
  ]

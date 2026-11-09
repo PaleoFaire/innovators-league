@@ -2,27 +2,28 @@
  "month": "2026-11",
  "primes": [
   {
-   "prime": "Lockheed Martin",
-   "ticker": "LMT",
-   "partners_tracked": 8,
+   "prime": "L3Harris",
+   "ticker": "LHX",
+   "partners_tracked": 3,
    "on_panel": 2,
-   "diffusion_4w": 50.0,
-   "roles_now": 143,
-   "roles_4w_ago": 132,
+   "diffusion_4w": 100.0,
+   "roles_now": 854,
+   "roles_4w_ago": 828,
    "partners": [
-    "Anello Photonics",
-    "Divergent"
+    "Shield AI",
+    "True Anomaly"
    ]
   },
   {
    "prime": "General Dynamics",
    "ticker": "GD",
    "partners_tracked": 6,
-   "on_panel": 2,
-   "diffusion_4w": 50.0,
-   "roles_now": 43,
-   "roles_4w_ago": 43,
+   "on_panel": 3,
+   "diffusion_4w": 66.7,
+   "roles_now": 681,
+   "roles_4w_ago": 664,
    "partners": [
+    "Shield AI",
     "Span",
     "Union"
    ]
@@ -31,27 +32,44 @@
    "prime": "Raytheon / RTX",
    "ticker": "RTX",
    "partners_tracked": 5,
-   "on_panel": 3,
-   "diffusion_4w": 50.0,
-   "roles_now": 201,
-   "roles_4w_ago": 194,
+   "on_panel": 4,
+   "diffusion_4w": 62.5,
+   "roles_now": 205,
+   "roles_4w_ago": 189,
    "partners": [
     "Divergent",
     "Epirus",
-    "Observable Space"
+    "Observable Space",
+    "Volund Manufacturing"
    ]
   },
   {
    "prime": "Northrop Grumman",
    "ticker": "NOC",
    "partners_tracked": 5,
-   "on_panel": 2,
+   "on_panel": 4,
    "diffusion_4w": 50.0,
-   "roles_now": 42,
-   "roles_4w_ago": 43,
+   "roles_now": 709,
+   "roles_4w_ago": 695,
    "partners": [
     "Observable Space",
-    "Picogrid"
+    "Picogrid",
+    "Scout AI",
+    "Shield AI"
+   ]
+  },
+  {
+   "prime": "Lockheed Martin",
+   "ticker": "LMT",
+   "partners_tracked": 8,
+   "on_panel": 3,
+   "diffusion_4w": 33.3,
+   "roles_now": 213,
+   "roles_4w_ago": 205,
+   "partners": [
+    "Anello Photonics",
+    "Divergent",
+    "Hermeus"
    ]
   }
  ]

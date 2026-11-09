@@ -47,6 +47,15 @@
    "last_contract": "2026-01"
   },
   {
+   "company": "Kairos Power",
+   "bucket": "Nuclear",
+   "score": 63.0,
+   "roles": 64,
+   "in_hiring_panel": true,
+   "last_capital": "2026-10",
+   "last_contract": null
+  },
+  {
    "company": "Gravitics",
    "bucket": "Space & Aerospace",
    "score": 61.4,
@@ -69,6 +78,15 @@
    "bucket": "Defence",
    "score": 60.0,
    "roles": 27,
+   "in_hiring_panel": true,
+   "last_capital": "2026-10",
+   "last_contract": null
+  },
+  {
+   "company": "Formic",
+   "bucket": "Autonomy & Robotics",
+   "score": 59.1,
+   "roles": 54,
    "in_hiring_panel": true,
    "last_capital": "2026-10",
    "last_contract": null
@@ -218,6 +236,24 @@
    "last_contract": null
   },
   {
+   "company": "Mainspring Energy",
+   "bucket": "Power & Grid",
+   "score": 48.3,
+   "roles": 93,
+   "in_hiring_panel": true,
+   "last_capital": "2026-10",
+   "last_contract": null
+  },
+  {
+   "company": "Tenstorrent",
+   "bucket": "Chips & Quantum",
+   "score": 47.6,
+   "roles": 126,
+   "in_hiring_panel": true,
+   "last_capital": "2026-10",
+   "last_contract": null
+  },
+  {
    "company": "Inversion Space",
    "bucket": "Space & Aerospace",
    "score": 47.2,
@@ -272,6 +308,15 @@
    "last_contract": "2026-10"
   },
   {
+   "company": "Aslan",
+   "bucket": "Defence",
+   "score": 44.9,
+   "roles": 6,
+   "in_hiring_panel": true,
+   "last_capital": "2026-09",
+   "last_contract": null
+  },
+  {
    "company": "Chariot Defense",
    "bucket": "Defence",
    "score": 44.5,
@@ -287,7 +332,7 @@
    "roles": 185,
    "in_hiring_panel": true,
    "last_capital": "2026-05",
-   "last_contract": "2026-04"
+   "last_contract": "2026-11"
   },
   {
    "company": "Amca",
@@ -296,6 +341,15 @@
    "roles": 54,
    "in_hiring_panel": true,
    "last_capital": "2026-05",
+   "last_contract": null
+  },
+  {
+   "company": "Beyond Reach Labs",
+   "bucket": "Space & Aerospace",
+   "score": 44.0,
+   "roles": 7,
+   "in_hiring_panel": true,
+   "last_capital": "2026-07",
    "last_contract": null
   },
   {
@@ -344,12 +398,30 @@
    "last_contract": "2026-03"
   },
   {
+   "company": "Orbital Operations",
+   "bucket": "Space & Aerospace",
+   "score": 42.4,
+   "roles": 5,
+   "in_hiring_panel": true,
+   "last_capital": "2026-10",
+   "last_contract": null
+  },
+  {
    "company": "Lydian",
    "bucket": "Power & Grid",
    "score": 41.5,
    "roles": 6,
    "in_hiring_panel": true,
    "last_capital": "2026-08",
+   "last_contract": null
+  },
+  {
+   "company": "Re:Build Manufacturing",
+   "bucket": "Autonomy & Robotics",
+   "score": 40.9,
+   "roles": 129,
+   "in_hiring_panel": true,
+   "last_capital": "2026-10",
    "last_contract": null
   },
   {
@@ -378,78 +450,6 @@
    "in_hiring_panel": true,
    "last_capital": null,
    "last_contract": "2026-03"
-  },
-  {
-   "company": "Kunin",
-   "bucket": "Manufacturing & Materials",
-   "score": 39.9,
-   "roles": 27,
-   "in_hiring_panel": true,
-   "last_capital": null,
-   "last_contract": null
-  },
-  {
-   "company": "Foxglove",
-   "bucket": "Manufacturing & Materials",
-   "score": 39.8,
-   "roles": 5,
-   "in_hiring_panel": true,
-   "last_capital": "2025-10",
-   "last_contract": null
-  },
-  {
-   "company": "Fortera",
-   "bucket": "Power & Grid",
-   "score": 39.6,
-   "roles": 4,
-   "in_hiring_panel": true,
-   "last_capital": null,
-   "last_contract": null
-  },
-  {
-   "company": "Rugged Robotics",
-   "bucket": "Manufacturing & Materials",
-   "score": 39.3,
-   "roles": 3,
-   "in_hiring_panel": true,
-   "last_capital": null,
-   "last_contract": null
-  },
-  {
-   "company": "Kestrel",
-   "bucket": "Defence",
-   "score": 39.2,
-   "roles": 10,
-   "in_hiring_panel": true,
-   "last_capital": null,
-   "last_contract": null
-  },
-  {
-   "company": "fab2",
-   "bucket": "Chips & Quantum",
-   "score": 39.1,
-   "roles": 57,
-   "in_hiring_panel": true,
-   "last_capital": "2026-09",
-   "last_contract": null
-  },
-  {
-   "company": "Tutor Intelligence",
-   "bucket": "Autonomy & Robotics",
-   "score": 39.0,
-   "roles": 66,
-   "in_hiring_panel": true,
-   "last_capital": null,
-   "last_contract": null
-  },
-  {
-   "company": "XDOF",
-   "bucket": "Manufacturing & Materials",
-   "score": 38.9,
-   "roles": 23,
-   "in_hiring_panel": true,
-   "last_capital": "2026-06",
-   "last_contract": null
   }
  ]
 }

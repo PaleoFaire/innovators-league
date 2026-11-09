@@ -3,93 +3,93 @@
  "states": [
   {
    "state": "CA",
-   "roles": 7163,
-   "atoms": 4045,
-   "sw": 1475
+   "roles": 7257,
+   "atoms": 4096,
+   "sw": 1477
   },
   {
    "state": "TX",
-   "roles": 1129,
-   "atoms": 635,
-   "sw": 120
+   "roles": 1127,
+   "atoms": 617,
+   "sw": 114
   },
   {
    "state": "CO",
-   "roles": 914,
-   "atoms": 512,
-   "sw": 191
+   "roles": 959,
+   "atoms": 530,
+   "sw": 199
   },
   {
    "state": "WA",
-   "roles": 854,
-   "atoms": 410,
-   "sw": 137
+   "roles": 889,
+   "atoms": 421,
+   "sw": 144
   },
   {
    "state": "MA",
-   "roles": 693,
-   "atoms": 373,
-   "sw": 150
+   "roles": 688,
+   "atoms": 379,
+   "sw": 140
   },
   {
    "state": "REMOTE",
-   "roles": 684,
-   "atoms": 182,
-   "sw": 186
+   "roles": 682,
+   "atoms": 187,
+   "sw": 177
   },
   {
    "state": "VA",
-   "roles": 245,
-   "atoms": 88,
-   "sw": 58
+   "roles": 247,
+   "atoms": 90,
+   "sw": 56
   },
   {
    "state": "OH",
-   "roles": 207,
-   "atoms": 146,
-   "sw": 20
+   "roles": 212,
+   "atoms": 145,
+   "sw": 19
   },
   {
    "state": "NY",
-   "roles": 206,
+   "roles": 209,
    "atoms": 91,
    "sw": 67
   },
   {
    "state": "FL",
-   "roles": 143,
-   "atoms": 98,
-   "sw": 14
+   "roles": 144,
+   "atoms": 95,
+   "sw": 13
   },
   {
    "state": "WV",
-   "roles": 96,
-   "atoms": 78,
+   "roles": 98,
+   "atoms": 80,
    "sw": 3
   },
   {
-   "state": "NV",
-   "roles": 86,
-   "atoms": 58,
-   "sw": 5
-  },
-  {
-   "state": "PA",
-   "roles": 84,
-   "atoms": 40,
-   "sw": 22
-  },
-  {
    "state": "NC",
-   "roles": 84,
-   "atoms": 64,
+   "roles": 89,
+   "atoms": 68,
    "sw": 5
   },
   {
    "state": "AL",
-   "roles": 83,
-   "atoms": 48,
-   "sw": 11
+   "roles": 86,
+   "atoms": 50,
+   "sw": 10
+  },
+  {
+   "state": "NV",
+   "roles": 81,
+   "atoms": 56,
+   "sw": 4
+  },
+  {
+   "state": "MD",
+   "roles": 80,
+   "atoms": 32,
+   "sw": 17
   }
  ]
 }

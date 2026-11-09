@@ -2,6 +2,15 @@
  "month": "2026-04",
  "top": [
   {
+   "company": "Vast",
+   "bucket": "Space & Aerospace",
+   "score": 71.2,
+   "roles": 145,
+   "in_hiring_panel": true,
+   "last_capital": "2026-03",
+   "last_contract": "2026-02"
+  },
+  {
    "company": "General Matter",
    "bucket": "Nuclear",
    "score": 63.0,
@@ -16,7 +25,7 @@
    "score": 56.6,
    "roles": 117,
    "in_hiring_panel": true,
-   "last_capital": "2026-04",
+   "last_capital": "2026-10",
    "last_contract": null
   },
   {
@@ -47,13 +56,13 @@
    "last_contract": "2025-12"
   },
   {
-   "company": "Vast",
-   "bucket": "Space & Aerospace",
-   "score": 46.2,
-   "roles": 145,
+   "company": "Zipline",
+   "bucket": "Autonomy & Robotics",
+   "score": 45.9,
+   "roles": 196,
    "in_hiring_panel": true,
-   "last_capital": null,
-   "last_contract": "2026-02"
+   "last_capital": "2026-03",
+   "last_contract": "2023-09"
   },
   {
    "company": "Valar Atomics",
@@ -71,7 +80,7 @@
    "roles": 0,
    "in_hiring_panel": false,
    "last_capital": "2026-03",
-   "last_contract": "2026-05"
+   "last_contract": "2026-10"
   },
   {
    "company": "Skydio",
@@ -116,7 +125,7 @@
    "roles": 138,
    "in_hiring_panel": true,
    "last_capital": "2026-05",
-   "last_contract": "2026-04"
+   "last_contract": "2026-11"
   },
   {
    "company": "Senra Systems",
@@ -173,15 +182,6 @@
    "last_contract": "2025-12"
   },
   {
-   "company": "Slingshot Aerospace",
-   "bucket": "Space & Aerospace",
-   "score": 33.8,
-   "roles": 17,
-   "in_hiring_panel": true,
-   "last_capital": null,
-   "last_contract": "2025-12"
-  },
-  {
    "company": "Vannevar Labs",
    "bucket": "Defence",
    "score": 33.3,
@@ -214,7 +214,7 @@
    "score": 29.8,
    "roles": 37,
    "in_hiring_panel": true,
-   "last_capital": null,
+   "last_capital": "2026-10",
    "last_contract": null
   },
   {
@@ -254,13 +254,13 @@
    "last_contract": null
   },
   {
-   "company": "Agility Robotics",
-   "bucket": "Autonomy & Robotics",
-   "score": 27.1,
-   "roles": 41,
+   "company": "Slingshot Aerospace",
+   "bucket": "Space & Aerospace",
+   "score": 25.8,
+   "roles": 17,
    "in_hiring_panel": true,
    "last_capital": null,
-   "last_contract": null
+   "last_contract": "2025-10"
   },
   {
    "company": "Atomic Machines",
@@ -290,6 +290,15 @@
    "last_contract": null
   },
   {
+   "company": "Arc Boats",
+   "bucket": "Autonomy & Robotics",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-03",
+   "last_contract": null
+  },
+  {
    "company": "Avalanche Energy",
    "bucket": "Nuclear",
    "score": 25.0,
@@ -313,7 +322,7 @@
    "score": 25.0,
    "roles": 0,
    "in_hiring_panel": false,
-   "last_capital": "2026-02",
+   "last_capital": "2026-10",
    "last_contract": null
   },
   {
@@ -353,6 +362,15 @@
    "last_contract": null
   },
   {
+   "company": "Natilus",
+   "bucket": "Autonomy & Robotics",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-02",
+   "last_contract": null
+  },
+  {
    "company": "Heron Power",
    "bucket": "Power & Grid",
    "score": 25.0,
@@ -367,7 +385,7 @@
    "score": 25.0,
    "roles": 0,
    "in_hiring_panel": false,
-   "last_capital": "2026-03",
+   "last_capital": "2026-10",
    "last_contract": null
   },
   {
@@ -427,24 +445,6 @@
   {
    "company": "Glimpse",
    "bucket": "Power & Grid",
-   "score": 25.0,
-   "roles": 0,
-   "in_hiring_panel": false,
-   "last_capital": "2026-03",
-   "last_contract": null
-  },
-  {
-   "company": "Airbase",
-   "bucket": "Defence",
-   "score": 25.0,
-   "roles": 0,
-   "in_hiring_panel": false,
-   "last_capital": "2026-03",
-   "last_contract": null
-  },
-  {
-   "company": "Uptool",
-   "bucket": "Manufacturing & Materials",
    "score": 25.0,
    "roles": 0,
    "in_hiring_panel": false,

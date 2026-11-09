@@ -8,7 +8,7 @@
    "roles": 142,
    "in_hiring_panel": true,
    "last_capital": "2026-05",
-   "last_contract": "2026-04"
+   "last_contract": "2026-11"
   },
   {
    "company": "Amca",
@@ -38,15 +38,6 @@
    "last_contract": "2026-03"
   },
   {
-   "company": "Slingshot Aerospace",
-   "bucket": "Space & Aerospace",
-   "score": 50.7,
-   "roles": 38,
-   "in_hiring_panel": true,
-   "last_capital": null,
-   "last_contract": "2025-12"
-  },
-  {
    "company": "Inversion Space",
    "bucket": "Space & Aerospace",
    "score": 48.9,
@@ -61,8 +52,17 @@
    "score": 48.6,
    "roles": 124,
    "in_hiring_panel": true,
-   "last_capital": "2026-04",
+   "last_capital": "2026-10",
    "last_contract": null
+  },
+  {
+   "company": "Vast",
+   "bucket": "Space & Aerospace",
+   "score": 47.2,
+   "roles": 141,
+   "in_hiring_panel": true,
+   "last_capital": "2026-03",
+   "last_contract": "2026-02"
   },
   {
    "company": "Epirus",
@@ -89,7 +89,7 @@
    "roles": 0,
    "in_hiring_panel": false,
    "last_capital": "2026-03",
-   "last_contract": "2026-05"
+   "last_contract": "2026-10"
   },
   {
    "company": "Skydio",
@@ -117,6 +117,24 @@
    "in_hiring_panel": false,
    "last_capital": "2026-05",
    "last_contract": "2026-05"
+  },
+  {
+   "company": "Zipline",
+   "bucket": "Autonomy & Robotics",
+   "score": 44.1,
+   "roles": 200,
+   "in_hiring_panel": true,
+   "last_capital": "2026-03",
+   "last_contract": "2023-09"
+  },
+  {
+   "company": "Slingshot Aerospace",
+   "bucket": "Space & Aerospace",
+   "score": 42.7,
+   "roles": 38,
+   "in_hiring_panel": true,
+   "last_capital": null,
+   "last_contract": "2025-10"
   },
   {
    "company": "Quaise Energy",
@@ -326,6 +344,15 @@
    "last_contract": "2026-03"
   },
   {
+   "company": "Arc Boats",
+   "bucket": "Autonomy & Robotics",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-03",
+   "last_contract": null
+  },
+  {
    "company": "Boston Metal",
    "bucket": "Power & Grid",
    "score": 25.0,
@@ -376,7 +403,7 @@
    "score": 25.0,
    "roles": 0,
    "in_hiring_panel": false,
-   "last_capital": "2026-03",
+   "last_capital": "2026-10",
    "last_contract": null
   },
   {
@@ -423,33 +450,6 @@
    "in_hiring_panel": false,
    "last_capital": "2026-03",
    "last_contract": "2026-09"
-  },
-  {
-   "company": "Glimpse",
-   "bucket": "Power & Grid",
-   "score": 25.0,
-   "roles": 0,
-   "in_hiring_panel": false,
-   "last_capital": "2026-03",
-   "last_contract": null
-  },
-  {
-   "company": "Airbase",
-   "bucket": "Defence",
-   "score": 25.0,
-   "roles": 0,
-   "in_hiring_panel": false,
-   "last_capital": "2026-03",
-   "last_contract": null
-  },
-  {
-   "company": "Humble Robotics",
-   "bucket": "Autonomy & Robotics",
-   "score": 25.0,
-   "roles": 0,
-   "in_hiring_panel": false,
-   "last_capital": "2026-05",
-   "last_contract": null
   }
  ]
 }

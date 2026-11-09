@@ -1,29 +1,39 @@
 {
  "month": "2026-11",
- "n_postings_with_ranges": 7614,
+ "n_postings_with_ranges": 7692,
  "median_midpoint_by_class": {
-  "other": 175000,
   "hardware": 170000,
-  "software": 195500,
   "commercial": 170000,
+  "software": 195000,
+  "other": 174500,
   "manufacturing": 148500
  },
  "median_midpoint_by_state": {
   "CA": 171500,
   "WA": 193000,
   "MA": 169500,
-  "CO": 150750,
-  "TX": 165000,
+  "CO": 151500,
+  "TX": 167500,
   "VA": 186500,
   "OH": 146500,
   "NY": 175000,
-  "GA": 135000,
-  "FL": 143250,
-  "AL": 167000,
-  "MS": 136250,
+  "GA": 142500,
+  "AL": 167500,
+  "FL": 135200,
+  "MS": 142500,
   "RI": 137500
  },
  "top_paid_titles": [
+  {
+   "title": "software engineer, robotics",
+   "n": 7,
+   "median_midpoint": 256000
+  },
+  {
+   "title": "software engineer, robotics tracking and fusion",
+   "n": 4,
+   "median_midpoint": 256000
+  },
   {
    "title": "chief engineer",
    "n": 4,
@@ -35,13 +45,13 @@
    "median_midpoint": 250000
   },
   {
-   "title": "software engineer, quality integration",
-   "n": 6,
-   "median_midpoint": 239250
+   "title": "data engineer",
+   "n": 4,
+   "median_midpoint": 246750
   },
   {
-   "title": "software engineer, robotics",
-   "n": 8,
+   "title": "software engineer, release",
+   "n": 4,
    "median_midpoint": 239250
   },
   {
@@ -50,13 +60,18 @@
    "median_midpoint": 232000
   },
   {
-   "title": "firmware engineer",
-   "n": 8,
-   "median_midpoint": 224500
+   "title": "director, business development, integrated air & missile defense",
+   "n": 4,
+   "median_midpoint": 227000
   },
   {
-   "title": "software engineer, robotics tracking and fusion",
-   "n": 8,
+   "title": "head of people",
+   "n": 4,
+   "median_midpoint": 222500
+  },
+  {
+   "title": "mission software engineer",
+   "n": 4,
    "median_midpoint": 222500
   },
   {
@@ -65,24 +80,9 @@
    "median_midpoint": 222500
   },
   {
-   "title": "software engineer, manufacturing test",
-   "n": 7,
-   "median_midpoint": 222500
-  },
-  {
-   "title": "mission software engineer",
-   "n": 5,
-   "median_midpoint": 222500
-  },
-  {
    "title": "software engineer, ai platform",
    "n": 9,
    "median_midpoint": 222500
-  },
-  {
-   "title": "robotics software engineer",
-   "n": 11,
-   "median_midpoint": 222000
   },
   {
    "title": "software engineer, full stack",
@@ -90,91 +90,91 @@
    "median_midpoint": 222000
   },
   {
-   "title": "software engineer- machine learning",
+   "title": "machine learning tracking engineer",
    "n": 4,
    "median_midpoint": 221750
   },
   {
-   "title": "software engineer, platform",
-   "n": 4,
-   "median_midpoint": 216800
+   "title": "firmware engineer",
+   "n": 8,
+   "median_midpoint": 216641
   }
  ],
  "most_common_paid_titles": [
   {
    "title": "mechanical engineer",
-   "n": 77,
+   "n": 75,
    "median_midpoint": 155000
   },
   {
    "title": "electrical engineer",
-   "n": 65,
-   "median_midpoint": 173500
+   "n": 62,
+   "median_midpoint": 171500
   },
   {
    "title": "manufacturing engineer",
-   "n": 39,
+   "n": 40,
    "median_midpoint": 153500
   },
   {
    "title": "technical recruiter",
-   "n": 35,
+   "n": 33,
+   "median_midpoint": 155000
+  },
+  {
+   "title": "embedded software engineer",
+   "n": 24,
    "median_midpoint": 162500
   },
   {
    "title": "software engineer",
-   "n": 28,
+   "n": 23,
    "median_midpoint": 200000
   },
   {
-   "title": "power electronics engineer",
-   "n": 26,
-   "median_midpoint": 178500
+   "title": "flight software engineer",
+   "n": 23,
+   "median_midpoint": 189500
   },
   {
    "title": "systems engineer",
-   "n": 25,
+   "n": 23,
    "median_midpoint": 159500
   },
   {
-   "title": "embedded software engineer",
-   "n": 23,
-   "median_midpoint": 160000
-  },
-  {
-   "title": "flight software engineer",
+   "title": "power electronics engineer",
    "n": 21,
-   "median_midpoint": 192000
-  },
-  {
-   "title": "accountant",
-   "n": 19,
-   "median_midpoint": 120000
-  },
-  {
-   "title": "quality engineer",
-   "n": 18,
-   "median_midpoint": 142505
+   "median_midpoint": 173500
   },
   {
    "title": "test engineer",
-   "n": 18,
+   "n": 20,
    "median_midpoint": 151250
   },
   {
-   "title": "technical program manager",
-   "n": 17,
-   "median_midpoint": 192000
+   "title": "accountant",
+   "n": 18,
+   "median_midpoint": 122500
   },
   {
-   "title": "executive assistant",
+   "title": "quality engineer",
    "n": 16,
-   "median_midpoint": 110000
+   "median_midpoint": 140000
   },
   {
-   "title": "fpga engineer",
+   "title": "forward deployed engineer",
+   "n": 16,
+   "median_midpoint": 192500
+  },
+  {
+   "title": "program manager",
    "n": 15,
-   "median_midpoint": 159200
+   "median_midpoint": 204500
+  },
+  {
+   "title": "technical program manager",
+   "n": 14,
+   "median_midpoint": 189288
   }
  ],
  "note": "Greenhouse postings with a published USD range (pay-transparency states over-represented: CA, CO, NY, WA). Midpoint of the range."

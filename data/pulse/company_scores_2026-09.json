@@ -26,7 +26,7 @@
    "roles": 172,
    "in_hiring_panel": true,
    "last_capital": "2026-05",
-   "last_contract": "2026-04"
+   "last_contract": "2026-11"
   },
   {
    "company": "Hubble Network",
@@ -146,6 +146,15 @@
    "last_contract": null
   },
   {
+   "company": "Vast",
+   "bucket": "Space & Aerospace",
+   "score": 38.8,
+   "roles": 200,
+   "in_hiring_panel": true,
+   "last_capital": "2026-03",
+   "last_contract": "2026-02"
+  },
+  {
    "company": "Captura",
    "bucket": "Power & Grid",
    "score": 38.8,
@@ -162,6 +171,15 @@
    "in_hiring_panel": true,
    "last_capital": "2026-06",
    "last_contract": "2026-01"
+  },
+  {
+   "company": "BRINC Drones",
+   "bucket": "Defence",
+   "score": 37.0,
+   "roles": 33,
+   "in_hiring_panel": false,
+   "last_capital": "2026-07",
+   "last_contract": "2026-05"
   },
   {
    "company": "Castelion",
@@ -196,7 +214,7 @@
    "score": 35.5,
    "roles": 32,
    "in_hiring_panel": true,
-   "last_capital": null,
+   "last_capital": "2026-10",
    "last_contract": null
   },
   {
@@ -236,15 +254,6 @@
    "last_contract": "2025-01"
   },
   {
-   "company": "Vast",
-   "bucket": "Space & Aerospace",
-   "score": 33.8,
-   "roles": 200,
-   "in_hiring_panel": true,
-   "last_capital": null,
-   "last_contract": "2026-02"
-  },
-  {
    "company": "Arbor Energy",
    "bucket": "Power & Grid",
    "score": 33.1,
@@ -252,6 +261,15 @@
    "in_hiring_panel": true,
    "last_capital": null,
    "last_contract": null
+  },
+  {
+   "company": "Zipline",
+   "bucket": "Autonomy & Robotics",
+   "score": 31.5,
+   "roles": 352,
+   "in_hiring_panel": true,
+   "last_capital": "2026-03",
+   "last_contract": "2023-09"
   },
   {
    "company": "Extropic",
@@ -268,7 +286,7 @@
    "score": 29.0,
    "roles": 41,
    "in_hiring_panel": true,
-   "last_capital": null,
+   "last_capital": "2026-10",
    "last_contract": null
   },
   {
@@ -308,6 +326,15 @@
    "last_contract": "2026-03"
   },
   {
+   "company": "Standard Bots",
+   "bucket": "Autonomy & Robotics",
+   "score": 27.0,
+   "roles": 38,
+   "in_hiring_panel": false,
+   "last_capital": "2026-06",
+   "last_contract": "2026-06"
+  },
+  {
    "company": "Firestorm Labs",
    "bucket": "Defence",
    "score": 27.0,
@@ -324,15 +351,6 @@
    "in_hiring_panel": false,
    "last_capital": "2026-05",
    "last_contract": "2026-05"
-  },
-  {
-   "company": "Zipline",
-   "bucket": "Autonomy & Robotics",
-   "score": 26.5,
-   "roles": 352,
-   "in_hiring_panel": true,
-   "last_capital": "2016-07",
-   "last_contract": "2023-09"
   },
   {
    "company": "Epirus",
@@ -431,24 +449,6 @@
    "roles": 21,
    "in_hiring_panel": false,
    "last_capital": "2026-09",
-   "last_contract": null
-  },
-  {
-   "company": "Positron AI",
-   "bucket": "Chips & Quantum",
-   "score": 25.0,
-   "roles": 21,
-   "in_hiring_panel": false,
-   "last_capital": "2026-09",
-   "last_contract": null
-  },
-  {
-   "company": "Furientis",
-   "bucket": "Defence",
-   "score": 25.0,
-   "roles": 20,
-   "in_hiring_panel": false,
-   "last_capital": "2026-10",
    "last_contract": null
   }
  ]

@@ -20,6 +20,24 @@
    "last_contract": "2026-01"
   },
   {
+   "company": "Vast",
+   "bucket": "Space & Aerospace",
+   "score": 51.8,
+   "roles": 157,
+   "in_hiring_panel": true,
+   "last_capital": "2026-03",
+   "last_contract": "2026-02"
+  },
+  {
+   "company": "Zipline",
+   "bucket": "Autonomy & Robotics",
+   "score": 50.2,
+   "roles": 280,
+   "in_hiring_panel": true,
+   "last_capital": "2026-03",
+   "last_contract": "2023-09"
+  },
+  {
    "company": "Inversion Space",
    "bucket": "Space & Aerospace",
    "score": 49.0,
@@ -35,7 +53,7 @@
    "roles": 84,
    "in_hiring_panel": true,
    "last_capital": "2026-05",
-   "last_contract": "2026-04"
+   "last_contract": "2026-11"
   },
   {
    "company": "Skydio",
@@ -63,6 +81,15 @@
    "in_hiring_panel": false,
    "last_capital": "2026-04",
    "last_contract": "2026-04"
+  },
+  {
+   "company": "Standard Bots",
+   "bucket": "Autonomy & Robotics",
+   "score": 45.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-06",
+   "last_contract": "2026-06"
   },
   {
    "company": "Lunar Outpost",
@@ -115,7 +142,7 @@
    "score": 38.5,
    "roles": 122,
    "in_hiring_panel": true,
-   "last_capital": "2026-04",
+   "last_capital": "2026-10",
    "last_contract": null
   },
   {
@@ -146,15 +173,6 @@
    "last_contract": "2026-09"
   },
   {
-   "company": "Vast",
-   "bucket": "Space & Aerospace",
-   "score": 36.8,
-   "roles": 157,
-   "in_hiring_panel": true,
-   "last_capital": null,
-   "last_contract": "2026-02"
-  },
-  {
    "company": "Quaise Energy",
    "bucket": "Power & Grid",
    "score": 36.1,
@@ -182,15 +200,6 @@
    "last_contract": null
   },
   {
-   "company": "Zipline",
-   "bucket": "Autonomy & Robotics",
-   "score": 35.2,
-   "roles": 280,
-   "in_hiring_panel": true,
-   "last_capital": "2016-07",
-   "last_contract": "2023-09"
-  },
-  {
    "company": "The Nuclear Company",
    "bucket": "Nuclear",
    "score": 35.0,
@@ -206,7 +215,7 @@
    "roles": 0,
    "in_hiring_panel": false,
    "last_capital": "2026-03",
-   "last_contract": "2026-05"
+   "last_contract": "2026-10"
   },
   {
    "company": "Overland AI",
@@ -234,15 +243,6 @@
    "in_hiring_panel": false,
    "last_capital": "2026-01",
    "last_contract": "2026-05"
-  },
-  {
-   "company": "Agility Robotics",
-   "bucket": "Autonomy & Robotics",
-   "score": 34.3,
-   "roles": 56,
-   "in_hiring_panel": true,
-   "last_capital": null,
-   "last_contract": null
   },
   {
    "company": "Senra Systems",
@@ -434,21 +434,21 @@
    "last_contract": null
   },
   {
+   "company": "Orbital Inc.",
+   "bucket": "Space & Aerospace",
+   "score": 25.0,
+   "roles": 0,
+   "in_hiring_panel": false,
+   "last_capital": "2026-06",
+   "last_contract": null
+  },
+  {
    "company": "Generalist AI",
    "bucket": "Autonomy & Robotics",
    "score": 25.0,
    "roles": 0,
    "in_hiring_panel": false,
    "last_capital": "2026-08",
-   "last_contract": null
-  },
-  {
-   "company": "XDOF",
-   "bucket": "Manufacturing & Materials",
-   "score": 25.0,
-   "roles": 0,
-   "in_hiring_panel": false,
-   "last_capital": "2026-06",
    "last_contract": null
   }
  ]
