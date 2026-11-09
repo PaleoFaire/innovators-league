@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T17:25:39.145238+00:00",
+  "generated_at": "2026-11-09T17:48:00.317824+00:00",
   "funds": {
     "a16z": {
       "name": "Andreessen Horowitz",
@@ -7,23 +7,21 @@
       "kind": "a16z_board+a16z",
       "note": "jobs.a16z.com (678 with domain and HQ) + portfolio JSON (focus areas, first-investment dates)",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
-      "count": 941,
-      "tracked": 68,
-      "overlap": 0.072,
-      "new_this_run": 5,
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
+      "count": 944,
+      "tracked": 71,
+      "overlap": 0.075,
+      "new_this_run": 3,
       "baseline": false,
       "new_names": [
-        "Circle",
-        "IFTTT",
-        "Lightfield",
-        "Matik",
-        "problems"
+        "Tutor Intelligence",
+        "Lighter",
+        "ASI"
       ],
-      "candidates": 6,
+      "candidates": 7,
       "rejected_by_bar": {
         "megacap / mega-private, deliberately untracked": 16,
-        "focus outside American Dynamism": 818,
+        "focus outside American Dynamism": 817,
         "software or services wearing a hard-tech label": 6,
         "description shows no physical product": 14,
         "a co-investor, not a company": 6,
@@ -36,14 +34,14 @@
       "kind": "wp_company",
       "note": "WordPress company feed with dates and founders",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 64,
-      "tracked": 15,
-      "overlap": 0.234,
+      "tracked": 16,
+      "overlap": 0.25,
       "new_this_run": 0,
       "baseline": false,
       "new_names": [],
-      "candidates": 3,
+      "candidates": 2,
       "rejected_by_bar": {
         "description shows no physical product": 7,
         "industry 'Analytics & Software' is software or consumer": 23,
@@ -79,17 +77,17 @@
       "kind": "sanity",
       "note": "Public Sanity dataset: websiteURL, foundedYear, founder",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 53,
-      "tracked": 35,
-      "overlap": 0.66,
+      "tracked": 38,
+      "overlap": 0.717,
       "new_this_run": 0,
       "baseline": false,
       "new_names": [],
-      "candidates": 4,
+      "candidates": 3,
       "rejected_by_bar": {
-        "software or services wearing a hard-tech label": 11,
-        "description shows no physical product": 3
+        "software or services wearing a hard-tech label": 10,
+        "description shows no physical product": 2
       }
     },
     "8VC": {
@@ -98,17 +96,14 @@
       "kind": "getro",
       "note": "Getro job board (~375); fallback: Webflow cards with the site in a hidden anchor",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 378,
-      "tracked": 38,
-      "overlap": 0.101,
-      "new_this_run": 2,
+      "tracked": 44,
+      "overlap": 0.116,
+      "new_this_run": 0,
       "baseline": false,
-      "new_names": [
-        "Hone",
-        "Minerva"
-      ],
-      "candidates": 70,
+      "new_names": [],
+      "candidates": 64,
       "rejected_by_bar": {
         "software or services wearing a hard-tech label": 103,
         "description shows no physical product": 50,
@@ -123,14 +118,14 @@
       "kind": "getro",
       "note": "Getro job board (~189); fallback: 28 featured cards, names only",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 189,
-      "tracked": 34,
-      "overlap": 0.18,
+      "tracked": 39,
+      "overlap": 0.206,
       "new_this_run": 0,
       "baseline": false,
       "new_names": [],
-      "candidates": 55,
+      "candidates": 50,
       "rejected_by_bar": {
         "description shows no physical product": 23,
         "software or services wearing a hard-tech label": 35,
@@ -145,16 +140,14 @@
       "kind": "getro",
       "note": "Getro job board (~50); fallback: homepage grid (13)",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 50,
-      "tracked": 29,
-      "overlap": 0.58,
-      "new_this_run": 1,
+      "tracked": 32,
+      "overlap": 0.64,
+      "new_this_run": 0,
       "baseline": false,
-      "new_names": [
-        "Garnet"
-      ],
-      "candidates": 13,
+      "new_names": [],
+      "candidates": 10,
       "rejected_by_bar": {
         "software or services wearing a hard-tech label": 3,
         "the board's industry tags show no physical product": 2,
@@ -167,14 +160,14 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 28,
-      "tracked": 15,
-      "overlap": 0.536,
+      "tracked": 16,
+      "overlap": 0.571,
       "new_this_run": 0,
       "baseline": false,
       "new_names": [],
-      "candidates": 6,
+      "candidates": 5,
       "rejected_by_bar": {
         "software or services wearing a hard-tech label": 6,
         "description shows no physical product": 1
@@ -198,7 +191,7 @@
         "a co-investor, not a company": 11,
         "description shows no physical product": 1
       },
-      "error": "parsed 21 holdings (last run: 55); the page or feed has probably changed",
+      "error": "parsed 23 holdings (last run: 55); the page or feed has probably changed",
       "stale_since": "2026-10-19T14:57:48.866169+00:00"
     },
     "Pax Ventures": {
@@ -207,16 +200,16 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 26,
       "tracked": 19,
       "overlap": 0.731,
       "new_this_run": 0,
       "baseline": false,
       "new_names": [],
-      "candidates": 3,
+      "candidates": 2,
       "rejected_by_bar": {
-        "description shows no physical product": 4
+        "description shows no physical product": 5
       }
     },
     "Prime Movers Lab": {
@@ -225,14 +218,14 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 29,
-      "tracked": 18,
-      "overlap": 0.621,
+      "tracked": 21,
+      "overlap": 0.724,
       "new_this_run": 0,
       "baseline": false,
       "new_names": [],
-      "candidates": 9,
+      "candidates": 6,
       "rejected_by_bar": {
         "description shows no physical product": 2
       }
@@ -243,16 +236,18 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
-      "count": 46,
-      "tracked": 19,
-      "overlap": 0.413,
-      "new_this_run": 0,
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
+      "count": 47,
+      "tracked": 28,
+      "overlap": 0.596,
+      "new_this_run": 1,
       "baseline": false,
-      "new_names": [],
-      "candidates": 18,
+      "new_names": [
+        "xrlabs.ai"
+      ],
+      "candidates": 9,
       "rejected_by_bar": {
-        "description shows no physical product": 7,
+        "description shows no physical product": 8,
         "megacap / mega-private, deliberately untracked": 1,
         "software or services wearing a hard-tech label": 1
       }
@@ -263,16 +258,16 @@
       "kind": "links",
       "note": "Space-only fund; ~100 companies",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
-      "count": 104,
-      "tracked": 17,
-      "overlap": 0.163,
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
+      "count": 105,
+      "tracked": 35,
+      "overlap": 0.333,
       "new_this_run": 1,
       "baseline": false,
       "new_names": [
-        "MP Space"
+        "IPO"
       ],
-      "candidates": 67,
+      "candidates": 50,
       "rejected_by_bar": {
         "description shows no physical product": 15,
         "software or services wearing a hard-tech label": 4,
@@ -285,14 +280,14 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 24,
-      "tracked": 17,
-      "overlap": 0.708,
+      "tracked": 19,
+      "overlap": 0.792,
       "new_this_run": 0,
       "baseline": false,
       "new_names": [],
-      "candidates": 7,
+      "candidates": 5,
       "rejected_by_bar": {}
     },
     "Gigascale": {
@@ -301,18 +296,14 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 30,
-      "tracked": 11,
-      "overlap": 0.367,
-      "new_this_run": 3,
+      "tracked": 15,
+      "overlap": 0.5,
+      "new_this_run": 0,
       "baseline": false,
-      "new_names": [
-        "noetive.ai",
-        "plantedsolar.com",
-        "warp.xyz"
-      ],
-      "candidates": 12,
+      "new_names": [],
+      "candidates": 8,
       "rejected_by_bar": {
         "software or services wearing a hard-tech label": 2,
         "description shows no physical product": 5
@@ -324,19 +315,19 @@
       "kind": "links",
       "note": "Page shows the first 15 only; the rest load on click",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 15,
-      "tracked": 4,
-      "overlap": 0.267,
+      "tracked": 8,
+      "overlap": 0.533,
       "new_this_run": 2,
       "baseline": false,
       "new_names": [
-        "Northwood Space",
-        "Proteus Space"
+        "Sooth Labs",
+        "American Binary"
       ],
-      "candidates": 4,
+      "candidates": 3,
       "rejected_by_bar": {
-        "description shows no physical product": 7
+        "description shows no physical product": 4
       }
     },
     "Caffeinated": {
@@ -345,7 +336,7 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 14,
       "tracked": 4,
       "overlap": 0.286,
@@ -364,7 +355,7 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 1,
       "tracked": 0,
       "overlap": 0.0,
@@ -380,14 +371,27 @@
       "kind": "slugs",
       "note": "Subpage slugs only",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
-      "count": 60,
-      "tracked": 18,
-      "overlap": 0.3,
-      "new_this_run": 0,
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
+      "count": 72,
+      "tracked": 22,
+      "overlap": 0.306,
+      "new_this_run": 12,
       "baseline": false,
-      "new_names": [],
-      "candidates": 41,
+      "new_names": [
+        "Chaos",
+        "Frontier Security",
+        "Moonlake Ai",
+        "Statecraft",
+        "Aptamino",
+        "Secondmind",
+        "Corridian",
+        "Kunin",
+        "Chiral Systems",
+        "Stealth Co 2A3B5",
+        "Stealth Co 2D148",
+        "Stealth Co 43Be5"
+      ],
+      "candidates": 49,
       "rejected_by_bar": {
         "megacap / mega-private, deliberately untracked": 1
       }
@@ -398,7 +402,7 @@
       "kind": "slugs",
       "note": "Subpage slugs only",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 8,
       "tracked": 3,
       "overlap": 0.375,
@@ -414,7 +418,7 @@
       "kind": "slugs",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 30,
       "tracked": 5,
       "overlap": 0.167,
@@ -430,39 +434,16 @@
       "kind": "getro",
       "note": "Getro job board (~400); fallback: portfolio page links",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 330,
-      "tracked": 41,
-      "overlap": 0.124,
-      "new_this_run": 22,
+      "tracked": 44,
+      "overlap": 0.133,
+      "new_this_run": 0,
       "baseline": false,
-      "new_names": [
-        "1Sharpe Capital",
-        "All Day Kitchens",
-        "Bunkerhill Health",
-        "castform.com",
-        "Excelsior Sciences",
-        "Happy Droid",
-        "HeartVista, inc.",
-        "Loti",
-        "minterm.ai",
-        "New Theory",
-        "Pathway",
-        "Prava\u0304h",
-        "prismml.com",
-        "Roam",
-        "Runlayer",
-        "Scaled Foundations",
-        "Serova",
-        "Shade Inc.",
-        "The Antifraud Company",
-        "True Short",
-        "tryripline.com",
-        "wajo.ai"
-      ],
+      "new_names": [],
       "candidates": 0,
       "rejected_by_bar": {
-        "generalist fund: holdings only": 289
+        "generalist fund: holdings only": 286
       }
     },
     "Sequoia": {
@@ -471,8 +452,8 @@
       "kind": "consider",
       "note": "Consider job board (~255 with domains); fallback: sitemap company pages, domain-only",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
-      "count": 256,
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
+      "count": 254,
       "tracked": 12,
       "overlap": 0.047,
       "new_this_run": 0,
@@ -480,7 +461,7 @@
       "new_names": [],
       "candidates": 0,
       "rejected_by_bar": {
-        "generalist fund: holdings only": 244
+        "generalist fund: holdings only": 242
       }
     },
     "Valor": {
@@ -489,7 +470,7 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 36,
       "tracked": 8,
       "overlap": 0.222,
@@ -507,7 +488,7 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 46,
       "tracked": 12,
       "overlap": 0.261,
@@ -525,7 +506,7 @@
       "kind": "links",
       "note": "",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 93,
       "tracked": 8,
       "overlap": 0.086,
@@ -543,20 +524,20 @@
       "kind": "links",
       "note": "Kevin Ryan's NYC studio; ~140 cards (aria-label names), mostly software and healthcare",
       "partial": "",
-      "fetched_at": "2026-11-02T17:25:39.145238+00:00",
+      "fetched_at": "2026-11-09T17:48:00.317824+00:00",
       "count": 142,
-      "tracked": 10,
-      "overlap": 0.07,
+      "tracked": 11,
+      "overlap": 0.077,
       "new_this_run": 0,
       "baseline": false,
       "new_names": [],
       "candidates": 0,
       "rejected_by_bar": {
-        "generalist fund: holdings only": 132
+        "generalist fund: holdings only": 131
       }
     }
   },
-  "total_candidates": 347,
+  "total_candidates": 303,
   "broken": [
     "Lowercarbon",
     "Silent"

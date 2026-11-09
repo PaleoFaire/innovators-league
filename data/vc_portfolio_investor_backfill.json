@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-02T17:25:39.145238+00:00",
-  "count": 48,
+  "generated_at": "2026-11-09T17:48:00.317824+00:00",
+  "count": 59,
   "note": "COMPANIES whose investors field lacks a fund that lists them on its portfolio page. Domain matches are exact; name matches deserve a glance.",
   "items": [
     {
-      "company": "ASI",
+      "company": "Tutor Intelligence",
       "add": "Andreessen Horowitz",
       "fund": "a16z",
       "matched_by": "domain",
       "evidence": "https://jobs.a16z.com/companies",
-      "first_funded": "2023-11-03"
+      "first_funded": "2026-11-02"
     },
     {
       "company": "Toka",
@@ -26,6 +26,14 @@
       "matched_by": "domain",
       "evidence": "https://jobs.a16z.com/companies",
       "first_funded": "2026-07-17"
+    },
+    {
+      "company": "ASI",
+      "add": "Andreessen Horowitz",
+      "fund": "a16z",
+      "matched_by": "domain",
+      "evidence": "https://a16z.com/companies/air-space-intelligence/",
+      "first_funded": "2023-11-03"
     },
     {
       "company": "Boom Supersonic",
@@ -52,43 +60,11 @@
       "first_funded": ""
     },
     {
-      "company": "Freeform",
+      "company": "Octant",
       "add": "8VC",
       "fund": "8VC",
       "matched_by": "domain",
-      "evidence": "https://jobs.8vc.com/companies/freeform-2",
-      "first_funded": ""
-    },
-    {
-      "company": "General Matter",
-      "add": "8VC",
-      "fund": "8VC",
-      "matched_by": "domain",
-      "evidence": "https://jobs.8vc.com/companies/general-matter-2",
-      "first_funded": ""
-    },
-    {
-      "company": "Halo",
-      "add": "8VC",
-      "fund": "8VC",
-      "matched_by": "domain",
-      "evidence": "https://jobs.8vc.com/companies/halo-industries",
-      "first_funded": ""
-    },
-    {
-      "company": "Lazarus Energy Systems",
-      "add": "8VC",
-      "fund": "8VC",
-      "matched_by": "domain",
-      "evidence": "https://jobs.8vc.com/companies/lazarus-energy-systems",
-      "first_funded": ""
-    },
-    {
-      "company": "Mojo Vision",
-      "add": "8VC",
-      "fund": "8VC",
-      "matched_by": "domain",
-      "evidence": "https://jobs.8vc.com/companies/mojo-vision",
+      "evidence": "https://jobs.8vc.com/companies/octant-bio-2",
       "first_funded": ""
     },
     {
@@ -97,6 +73,14 @@
       "fund": "8VC",
       "matched_by": "domain",
       "evidence": "https://jobs.8vc.com/companies/oklo",
+      "first_funded": ""
+    },
+    {
+      "company": "Parallel Fluidics",
+      "add": "8VC",
+      "fund": "8VC",
+      "matched_by": "domain",
+      "evidence": "https://jobs.8vc.com/companies/parallel-fluidics-2",
       "first_funded": ""
     },
     {
@@ -124,27 +108,11 @@
       "first_funded": ""
     },
     {
-      "company": "XDOF",
-      "add": "8VC",
-      "fund": "8VC",
-      "matched_by": "domain",
-      "evidence": "https://jobs.8vc.com/companies/xdof",
-      "first_funded": ""
-    },
-    {
-      "company": "Astranis",
+      "company": "A-Alpha Bio",
       "add": "Lux Capital",
       "fund": "Lux",
       "matched_by": "domain",
-      "evidence": "https://jobs.luxcapital.com/companies/astranis-2",
-      "first_funded": ""
-    },
-    {
-      "company": "Bright Machines",
-      "add": "Lux Capital",
-      "fund": "Lux",
-      "matched_by": "domain",
-      "evidence": "https://jobs.luxcapital.com/companies/bright-machines-2",
+      "evidence": "https://jobs.luxcapital.com/companies/a-alpha-bio-2",
       "first_funded": ""
     },
     {
@@ -156,11 +124,11 @@
       "first_funded": ""
     },
     {
-      "company": "Relativity Space",
+      "company": "Octant",
       "add": "Lux Capital",
       "fund": "Lux",
       "matched_by": "domain",
-      "evidence": "https://jobs.luxcapital.com/companies/relativity-space",
+      "evidence": "https://jobs.luxcapital.com/companies/octant-bio-2",
       "first_funded": ""
     },
     {
@@ -172,27 +140,11 @@
       "first_funded": ""
     },
     {
-      "company": "Windborne",
-      "add": "Lux Capital",
-      "fund": "Lux",
-      "matched_by": "domain",
-      "evidence": "https://jobs.luxcapital.com/companies/windborne-systems-2",
-      "first_funded": ""
-    },
-    {
-      "company": "Asymm",
+      "company": "Eridan",
       "add": "Cantos Ventures",
       "fund": "Cantos",
       "matched_by": "domain",
-      "evidence": "https://jobs.cantos.vc/companies/asymm-2",
-      "first_funded": ""
-    },
-    {
-      "company": "Atom Computing",
-      "add": "Cantos Ventures",
-      "fund": "Cantos",
-      "matched_by": "domain",
-      "evidence": "https://jobs.cantos.vc/companies/atom-computing-2",
+      "evidence": "https://jobs.cantos.vc/companies/eridan",
       "first_funded": ""
     },
     {
@@ -204,27 +156,11 @@
       "first_funded": ""
     },
     {
-      "company": "Glyphic Biotechnologies",
-      "add": "Cantos Ventures",
-      "fund": "Cantos",
-      "matched_by": "domain",
-      "evidence": "https://jobs.cantos.vc/companies/glyphic-biotechnologies",
-      "first_funded": ""
-    },
-    {
       "company": "Nabla Bio",
       "add": "Cantos Ventures",
       "fund": "Cantos",
       "matched_by": "domain",
       "evidence": "https://jobs.cantos.vc/companies/nabla-bio",
-      "first_funded": ""
-    },
-    {
-      "company": "Twelve",
-      "add": "Cantos Ventures",
-      "fund": "Cantos",
-      "matched_by": "domain",
-      "evidence": "https://jobs.cantos.vc/companies/twelve-2",
       "first_funded": ""
     },
     {
@@ -237,14 +173,6 @@
     },
     {
       "company": "American Housing Corporation",
-      "add": "Pax Ventures",
-      "fund": "Pax Ventures",
-      "matched_by": "domain",
-      "evidence": "https://www.pax.vc/",
-      "first_funded": ""
-    },
-    {
-      "company": "ASI",
       "add": "Pax Ventures",
       "fund": "Pax Ventures",
       "matched_by": "domain",
@@ -268,7 +196,151 @@
       "first_funded": ""
     },
     {
+      "company": "Gordian Bio",
+      "add": "Prime Movers Lab",
+      "fund": "Prime Movers Lab",
+      "matched_by": "domain",
+      "evidence": "https://www.primemoverslab.com/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "LyGenesis",
+      "add": "Prime Movers Lab",
+      "fund": "Prime Movers Lab",
+      "matched_by": "domain",
+      "evidence": "https://www.primemoverslab.com/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "Velo3D",
+      "add": "Playground Global",
+      "fund": "Playground",
+      "matched_by": "domain",
+      "evidence": "https://playground.global/portfolio/",
+      "first_funded": ""
+    },
+    {
+      "company": "AADYAH Aerospace",
+      "add": "Seraphim Space",
+      "fund": "Seraphim Space",
+      "matched_by": "domain",
+      "evidence": "https://seraphim.vc/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "aXenic",
+      "add": "Seraphim Space",
+      "fund": "Seraphim Space",
+      "matched_by": "domain",
+      "evidence": "https://seraphim.vc/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "BioOrbit",
+      "add": "Seraphim Space",
+      "fund": "Seraphim Space",
+      "matched_by": "domain",
+      "evidence": "https://seraphim.vc/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "CisLunar Industries",
+      "add": "Seraphim Space",
+      "fund": "Seraphim Space",
+      "matched_by": "domain",
+      "evidence": "https://seraphim.vc/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "Evolve Dynamics",
+      "add": "Seraphim Space",
+      "fund": "Seraphim Space",
+      "matched_by": "domain",
+      "evidence": "https://seraphim.vc/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "KETS Quantum Security",
+      "add": "Seraphim Space",
+      "fund": "Seraphim Space",
+      "matched_by": "domain",
+      "evidence": "https://seraphim.vc/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "Kurs Orbital",
+      "add": "Seraphim Space",
+      "fund": "Seraphim Space",
+      "matched_by": "domain",
+      "evidence": "https://seraphim.vc/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "Methera Global",
+      "add": "Seraphim Space",
+      "fund": "Seraphim Space",
+      "matched_by": "domain",
+      "evidence": "https://seraphim.vc/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "QLM Technology",
+      "add": "Seraphim Space",
+      "fund": "Seraphim Space",
+      "matched_by": "domain",
+      "evidence": "https://seraphim.vc/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "Ravee Optics",
+      "add": "Seraphim Space",
+      "fund": "Seraphim Space",
+      "matched_by": "domain",
+      "evidence": "https://seraphim.vc/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "SmartIR",
+      "add": "Seraphim Space",
+      "fund": "Seraphim Space",
+      "matched_by": "domain",
+      "evidence": "https://seraphim.vc/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "Sofant Technologies",
+      "add": "Seraphim Space",
+      "fund": "Seraphim Space",
+      "matched_by": "domain",
+      "evidence": "https://seraphim.vc/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "Spaceflux",
+      "add": "Seraphim Space",
+      "fund": "Seraphim Space",
+      "matched_by": "domain",
+      "evidence": "https://seraphim.vc/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "LIFT Aircraft",
+      "add": "Decisive Point",
+      "fund": "Decisive Point",
+      "matched_by": "domain",
+      "evidence": "https://decisivepoint.com/portfolio",
+      "first_funded": ""
+    },
+    {
       "company": "Planted Solar",
+      "add": "Gigascale Capital",
+      "fund": "Gigascale",
+      "matched_by": "domain",
+      "evidence": "https://gigascale.com/portfolio/",
+      "first_funded": ""
+    },
+    {
+      "company": "Rhoda AI",
       "add": "Gigascale Capital",
       "fund": "Gigascale",
       "matched_by": "domain",
@@ -292,6 +364,30 @@
       "first_funded": ""
     },
     {
+      "company": "FononTech",
+      "add": "In-Q-Tel",
+      "fund": "IQT",
+      "matched_by": "domain",
+      "evidence": "https://www.iqt.org/portfolio/",
+      "first_funded": ""
+    },
+    {
+      "company": "Merlin",
+      "add": "Harpoon Ventures",
+      "fund": "Harpoon",
+      "matched_by": "stem",
+      "evidence": "https://harpoon.vc/portfolio/merlin-labs",
+      "first_funded": ""
+    },
+    {
+      "company": "Kunin",
+      "add": "Harpoon Ventures",
+      "fund": "Harpoon",
+      "matched_by": "exact-name",
+      "evidence": "https://harpoon.vc/portfolio/kunin",
+      "first_funded": ""
+    },
+    {
       "company": "Bonsai Robotics",
       "add": "Congruent Ventures",
       "fund": "Congruent",
@@ -308,35 +404,19 @@
       "first_funded": ""
     },
     {
-      "company": "Mojo Vision",
-      "add": "Khosla Ventures",
-      "fund": "KV",
-      "matched_by": "domain",
-      "evidence": "https://jobs.khoslaventures.com/companies/mojo-vision",
-      "first_funded": ""
-    },
-    {
-      "company": "Nitricity",
-      "add": "Khosla Ventures",
-      "fund": "KV",
-      "matched_by": "domain",
-      "evidence": "https://jobs.khoslaventures.com/companies/nitricity",
-      "first_funded": ""
-    },
-    {
-      "company": "Planted Solar",
-      "add": "Khosla Ventures",
-      "fund": "KV",
-      "matched_by": "domain",
-      "evidence": "https://jobs.khoslaventures.com/companies/planted-solar-2",
-      "first_funded": ""
-    },
-    {
       "company": "Swarm Aero",
       "add": "Khosla Ventures",
       "fund": "KV",
       "matched_by": "domain",
       "evidence": "https://jobs.khoslaventures.com/companies/swarm-aero-2",
+      "first_funded": ""
+    },
+    {
+      "company": "Velo3D",
+      "add": "Khosla Ventures",
+      "fund": "KV",
+      "matched_by": "domain",
+      "evidence": "https://jobs.khoslaventures.com/companies/velo3d",
       "first_funded": ""
     },
     {
@@ -348,27 +428,11 @@
       "first_funded": ""
     },
     {
-      "company": "Squint",
-      "add": "Sequoia Capital",
-      "fund": "Sequoia",
-      "matched_by": "domain",
-      "evidence": "https://jobs.sequoiacap.com/companies/squint",
-      "first_funded": ""
-    },
-    {
       "company": "Whisper Aero",
       "add": "Sequoia Capital",
       "fund": "Sequoia",
       "matched_by": "domain",
       "evidence": "https://jobs.sequoiacap.com/companies/whisper-ai",
-      "first_funded": ""
-    },
-    {
-      "company": "ASI",
-      "add": "Spark Capital",
-      "fund": "Spark",
-      "matched_by": "domain",
-      "evidence": "https://www.sparkcapital.com/companies",
       "first_funded": ""
     },
     {
@@ -380,11 +444,35 @@
       "first_funded": ""
     },
     {
+      "company": "Pison",
+      "add": "Decisive Point",
+      "fund": "Decisive Point",
+      "matched_by": "domain",
+      "evidence": "https://decisivepoint.com/portfolio",
+      "first_funded": ""
+    },
+    {
       "company": "Vatn Systems",
       "add": "Decisive Point",
       "fund": "Decisive Point",
       "matched_by": "domain",
       "evidence": "https://decisivepoint.com/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "KMI Space",
+      "add": "Seraphim Space",
+      "fund": "Seraphim Space",
+      "matched_by": "domain",
+      "evidence": "https://seraphim.vc/portfolio",
+      "first_funded": ""
+    },
+    {
+      "company": "Veoware",
+      "add": "Seraphim Space",
+      "fund": "Seraphim Space",
+      "matched_by": "domain",
+      "evidence": "https://seraphim.vc/portfolio",
       "first_funded": ""
     }
   ]
