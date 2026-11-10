@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -5.13,
+      "avg_change": -4.67,
       "count": 1
     },
     "space": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 10.98,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 4.81,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 4.59,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 4.5,
       "count": 7
     },
     "nuclear": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 9.89,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.87,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 3.68,
+      "avg_change": -5.08,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 20.26,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 8.18,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 1.54,
+      "avg_change": -2.69,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -0.08,
+      "avg_change": -1.55,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.74,
+      "avg_change": -6.51,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "SATL",
-      "Satellogic",
-      28.73
-    ],
-    [
       "JOBY",
       "Joby Aviation",
-      28.48
+      21.75
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      17.33
     ],
     [
       "IONQ",
       "IonQ",
-      25.45
+      15.82
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      22.11
+      "ACHR",
+      "Archer Aviation",
+      13.08
     ],
     [
-      "RGTI",
-      "Rigetti Computing",
-      21.65
+      "RKLB",
+      "Rocket Lab",
+      11.75
     ]
   ],
   "topLosers": [
     [
       "ALAB",
       "Astera Labs",
-      -5.57
-    ],
-    [
-      "TSLA",
-      "Tesla",
-      -6.38
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -6.61
-    ],
-    [
-      "NVDA",
-      "NVIDIA",
-      -11.58
+      -7.68
     ],
     [
       "DRSHF",
       "DroneShield",
-      -12.0
+      -8.51
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -9.99
+    ],
+    [
+      "LNZA",
+      "LanzaTech",
+      -13.78
+    ],
+    [
+      "NVDA",
+      "NVIDIA",
+      -18.49
     ]
   ],
-  "lastUpdated": "2026-11-10 08:31:02"
+  "lastUpdated": "2026-11-10 20:32:47"
 }
