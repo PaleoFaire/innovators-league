@@ -7,7 +7,7 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1461
+ * Total companies: 1468
  * Last updated: 2026-11-10
  * 
  * Each company has:
@@ -1534,6 +1534,14 @@ const MASTER_COMPANY_LIST = [
   { name: "Gravis Robotics", aliases: ["GravisRobotics"], sector: "robotics", ticker: null },
   { name: "Tractian", aliases: [], sector: "robotics", ticker: null },
   { name: "Advanced Navigation", aliases: ["AdvancedNavigation"], sector: "space", ticker: null },
+  // ─── 10 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
+  { name: "PINC Technologies", aliases: ["PINCTechnologies"], sector: "chips", ticker: null },
+  { name: "Tycho.AI", aliases: ["TychoAI"], sector: "defense", ticker: null },
+  { name: "Photon Queue", aliases: ["PhotonQueue"], sector: "quantum", ticker: null },
+  { name: "Quanfluence", aliases: [], sector: "quantum", ticker: null },
+  { name: "Kapta Space", aliases: ["KaptaSpace"], sector: "space", ticker: null },
+  { name: "Rhea Space Activity", aliases: ["RheaSpaceActivity"], sector: "space", ticker: null },
+  { name: "York Space Systems", aliases: ["YorkSpaceSystems"], sector: "space", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════
