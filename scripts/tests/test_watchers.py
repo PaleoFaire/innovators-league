@@ -201,6 +201,22 @@ def test_cos_json_adapter_keeps_current_investments_only():
         lambda: w.extract_cos_json(w.FUNDS["Red Glass"]))(), [], "no COS block = nothing, not a crash")
 
 
+def test_portfolio_cards_adapter_reads_h3_names():
+    page = ('<a class="portfolio-card" href="https://worktrace.ai" target="_blank">'
+            '<div class="co-invest"><span>Co-invested alongside:</span> Conviction / 8VC</div>'
+            '<h3>Worktrace.ai</h3><p>Enterprise workflow automation.</p>'
+            '<img src="assets/worktrace-team.jpg" alt="The Worktrace team"></a>'
+            '<a class="portfolio-card" href="https://foundryrobotics.ai/"><h3>Foundry</h3>'
+            '<p>Assembly-focused robotics.</p></a>'
+            '<a class="social" href="https://www.linkedin.com/company/zero-shot">LinkedIn</a>')
+    rows = with_fakes(get=lambda url, session=None, **kw: FakeResponse(text=page))(
+        lambda: w.extract_portfolio_cards(w.FUNDS["Zero Shot"]))()
+    check([(r["name"], r["domain"]) for r in rows],
+          [("Worktrace.ai", "worktrace.ai"), ("Foundry", "foundryrobotics.ai")],
+          "h3 names, not the co-invest label or photo alt; non-card links ignored")
+    check(rows[1]["blurb"], "Assembly-focused robotics.", "card blurb")
+
+
 def test_consider_adapter_uses_csrf_and_sequence():
     page_html = '<script>window.serverInitialData = {"csrfToken":"tok-123","board":{"id":"sequoia-capital"}};</script>'
     pages = [

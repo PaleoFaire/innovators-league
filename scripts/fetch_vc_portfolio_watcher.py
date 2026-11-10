@@ -48,6 +48,8 @@ adapter and a plain fetch beats a headless browser:
   slugs       Harpoon, Shield, Congruent: only /portfolio/<slug> subpages.
   cos_json    Red Glass embeds its portfolio in the homepage as `var COS = {…}`
               (name, site, founders, stage). Current investments only.
+  portfolio_cards  Zero Shot: <a class="portfolio-card" href=site> cards with
+              the name in <h3> and a one-line <p>.
 
 A fund with a job-board adapter keeps its older adapter as `fallback`, used
 when the board fails or returns nothing; the run records that as `partial`.
@@ -220,6 +222,11 @@ FUNDS = {
                       discover=True,
                       note="Bilal Zuberi's Menlo Park seed fund (AI x the physical world); "
                            "'PRIOR INVESTMENT' rows are the partners' deals at earlier firms and are skipped"),
+    # Added 10 Nov 2026 at Stephen's request ("very well connected in SF and AI circles").
+    "Zero Shot": dict(name="Zero Shot Fund", short=None, investor="Zero Shot Fund",
+                      alias=r"zero ?shot", kind="portfolio_cards", urls=["https://zeroshotfund.com/"],
+                      discover=True,
+                      note="$100M pre-seed/seed fund anchored by OpenAI alumni; two public holdings in Nov 2026"),
     # Generalists: read for holdings and investor back-fill, never for discovery.
     "KV": dict(name="Khosla Ventures", short="KV", investor="Khosla Ventures", alias=r"khosla",
                kind="getro", getro=dict(collection=257, origin="https://jobs.khoslaventures.com"),
@@ -891,11 +898,31 @@ def extract_cos_json(fund: dict) -> list[dict]:
     return out
 
 
+def extract_portfolio_cards(fund: dict) -> list[dict]:
+    """Zero Shot: each holding is <a class="portfolio-card" href=site> holding an
+    <h3> name and a one-line <p>. The generic links adapter would take the
+    "Co-invested alongside:" label or a team-photo alt as the name."""
+    out, seen = [], set()
+    for url in fund["urls"]:
+        html = get(url).text
+        for m in re.finditer(r'<a\b[^>]*class="[^"]*\bportfolio-card\b[^"]*"[^>]*>(.*?)</a>', html, re.S | re.I):
+            href = (re.search(r'href="(https?://[^"#?]+)"', m.group(0)) or [None, ""])[1]
+            name = clean_text((re.search(r"<h[2-4][^>]*>(.*?)</h[2-4]>", m.group(1), re.S) or [None, ""])[1])
+            blurb = clean_text((re.search(r"<p[^>]*>(.*?)</p>", m.group(1), re.S) or [None, ""])[1])
+            d = dom(href)
+            if not (name or d) or (d and (d in seen or skip_domain(d))):
+                continue
+            seen.add(d)
+            out.append(holding(name=name, website=href, blurb=blurb, source_url=url))
+    return out
+
+
 EXTRACTORS = {"a16z": extract_a16z, "wp_company": extract_wp_company, "sanity": extract_sanity,
               "cards_8vc": extract_cards_8vc, "cards_lux": extract_cards_lux,
               "links": extract_links, "slugs": extract_slugs, "getro": extract_getro,
               "a16z_board": extract_a16z_board, "consider": extract_consider,
-              "sequoia_sitemap": extract_sequoia_sitemap, "cos_json": extract_cos_json}
+              "sequoia_sitemap": extract_sequoia_sitemap, "cos_json": extract_cos_json,
+              "portfolio_cards": extract_portfolio_cards}
 
 
 def merge_holdings(primary: list[dict], extra: list[dict]) -> list[dict]:
