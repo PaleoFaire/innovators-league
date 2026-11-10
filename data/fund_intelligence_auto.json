@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-09T16:17:03.391910Z",
+  "generated_at": "2026-11-10T14:52:00.531393Z",
   "platform": {
-    "companiesTracked": 1344,
+    "companiesTracked": 1413,
     "sectorsMonitored": 16,
-    "totalCapitalRaisedTracked": "$485.0B",
-    "totalValuationTracked": "$1806.3B",
-    "companiesWithValuation": 217,
-    "govContractsTracked": 193,
+    "totalCapitalRaisedTracked": "$501.2B",
+    "totalValuationTracked": "$1808.1B",
+    "companiesWithValuation": 218,
+    "govContractsTracked": 201,
     "sbirAwardsTracked": 341,
     "dealsTracked": 241,
-    "newsItemsTracked": 22,
-    "dataPointsUpdated": "53,760+"
+    "newsItemsTracked": 23,
+    "dataPointsUpdated": "56,520+"
   },
   "topFunds": [
     {
@@ -31,23 +31,23 @@
     },
     {
       "fund": "NVIDIA",
-      "portfolio_count": 21,
+      "portfolio_count": 25,
       "companies": [
         "Ayar Labs",
         "Crusoe Energy",
+        "Dream Labs",
         "Eridan",
         "Etched",
         "Figure AI",
         "Foxglove",
         "Freeform",
         "Genesis Therapeutics",
-        "Humanoid",
-        "Iambic Therapeutics"
+        "Humanoid"
       ]
     },
     {
       "fund": "Founders Fund",
-      "portfolio_count": 20,
+      "portfolio_count": 21,
       "companies": [
         "Amca",
         "American Terawatt",
@@ -55,10 +55,10 @@
         "Crusoe Energy",
         "Endurance Energy",
         "Endurosat",
+        "Fortell",
         "Freeform",
         "General Matter",
-        "Gordian Bio",
-        "Halter"
+        "Gordian Bio"
       ]
     },
     {
@@ -78,26 +78,11 @@
       ]
     },
     {
-      "fund": "Breakthrough Energy",
-      "portfolio_count": 17,
-      "companies": [
-        "Aeroseal",
-        "Airloom",
-        "Blue Frontier",
-        "Dioxycle",
-        "H2Pro",
-        "Heron Power",
-        "Kodama Systems",
-        "Lydian",
-        "Mission Zero Technologies",
-        "Pacific Fusion"
-      ]
-    },
-    {
       "fund": "Khosla Ventures",
-      "portfolio_count": 17,
+      "portfolio_count": 19,
       "companies": [
         "Arda",
+        "Flow Neuroscience",
         "Foundry Robotics",
         "General Intuition",
         "Hermeus",
@@ -105,15 +90,31 @@
         "Mara",
         "Mariana Minerals",
         "Mazama",
-        "Nitricity",
-        "Nomagic"
+        "Nitricity"
+      ]
+    },
+    {
+      "fund": "Breakthrough Energy",
+      "portfolio_count": 18,
+      "companies": [
+        "Aeroseal",
+        "Airloom",
+        "Blue Frontier",
+        "Borealis Fusion",
+        "Dioxycle",
+        "H2Pro",
+        "Heron Power",
+        "Kodama Systems",
+        "Lydian",
+        "Mission Zero Technologies"
       ]
     },
     {
       "fund": "Accel",
-      "portfolio_count": 11,
+      "portfolio_count": 12,
       "companies": [
         "Acceleron Fusion",
+        "Algen Biotechnologies",
         "Arda",
         "Armadin",
         "Blackshark.ai",
@@ -121,8 +122,7 @@
         "Lazarus Energy Systems",
         "Mind Robotics",
         "Sora Fuel",
-        "Tensr",
-        "True Anomaly"
+        "Tensr"
       ]
     },
     {
@@ -142,6 +142,22 @@
       ]
     },
     {
+      "fund": "Lightspeed",
+      "portfolio_count": 10,
+      "companies": [
+        "Alif Semiconductor",
+        "Amca",
+        "Discovered Materials",
+        "Helsing",
+        "Hypersonica",
+        "Neko Health",
+        "Nexthop AI",
+        "Skyband",
+        "Telesat Lightspeed",
+        "Unconventional AI"
+      ]
+    },
+    {
       "fund": "NATO Innovation Fund",
       "portfolio_count": 9,
       "companies": [
@@ -154,21 +170,6 @@
         "Portal Biotech",
         "Stark Defence",
         "Uplift360"
-      ]
-    },
-    {
-      "fund": "Lightspeed",
-      "portfolio_count": 9,
-      "companies": [
-        "Alif Semiconductor",
-        "Amca",
-        "Discovered Materials",
-        "Helsing",
-        "Hypersonica",
-        "Neko Health",
-        "Skyband",
-        "Telesat Lightspeed",
-        "Unconventional AI"
       ]
     },
     {
@@ -187,6 +188,20 @@
       ]
     },
     {
+      "fund": "Valor Equity",
+      "portfolio_count": 8,
+      "companies": [
+        "Alta Resource Technologies",
+        "CScale",
+        "Chaos Industries",
+        "Fortell",
+        "General Intuition",
+        "Remora",
+        "Uplift",
+        "Zipline"
+      ]
+    },
+    {
       "fund": "Lux Capital",
       "portfolio_count": 7,
       "companies": [
@@ -197,19 +212,6 @@
         "Terra Industries",
         "Traysar",
         "Varda Space Industries"
-      ]
-    },
-    {
-      "fund": "Valor Equity",
-      "portfolio_count": 7,
-      "companies": [
-        "Alta Resource Technologies",
-        "CScale",
-        "Chaos Industries",
-        "General Intuition",
-        "Remora",
-        "Uplift",
-        "Zipline"
       ]
     },
     {
@@ -225,6 +227,30 @@
       ]
     },
     {
+      "fund": "SoftBank",
+      "portfolio_count": 6,
+      "companies": [
+        "1X Technologies",
+        "Agile Robots",
+        "Formlabs",
+        "Gravis Robotics",
+        "Opentrons",
+        "Wayve"
+      ]
+    },
+    {
+      "fund": "Fidelity",
+      "portfolio_count": 6,
+      "companies": [
+        "Genesis Therapeutics",
+        "Nord Quantique",
+        "SiMa.ai",
+        "Skyroot Aerospace",
+        "Vention",
+        "Xsight Labs"
+      ]
+    },
+    {
       "fund": "Benchmark",
       "portfolio_count": 5,
       "companies": [
@@ -236,14 +262,24 @@
       ]
     },
     {
-      "fund": "Fidelity",
+      "fund": "T. Rowe Price",
       "portfolio_count": 5,
       "companies": [
-        "Genesis Therapeutics",
-        "Nord Quantique",
-        "Skyroot Aerospace",
-        "Vention",
-        "Xsight Labs"
+        "Cellares",
+        "Cyclic Materials",
+        "Form Energy",
+        "Jetti Resources",
+        "SandboxAQ"
+      ]
+    },
+    {
+      "fund": "Thrive Capital",
+      "portfolio_count": 4,
+      "companies": [
+        "Anduril Industries",
+        "Fortell",
+        "Isomorphic Labs",
+        "Physical Intelligence"
       ]
     },
     {
@@ -255,51 +291,23 @@
         "Glacier",
         "Positron AI"
       ]
-    },
-    {
-      "fund": "BlackRock",
-      "portfolio_count": 4,
-      "companies": [
-        "Cellares",
-        "Genesis Therapeutics",
-        "Project Prometheus",
-        "PsiQuantum"
-      ]
-    },
-    {
-      "fund": "Index Ventures",
-      "portfolio_count": 3,
-      "companies": [
-        "Cowboy Space Corporation",
-        "Enigma",
-        "Thatch"
-      ]
-    },
-    {
-      "fund": "Thrive Capital",
-      "portfolio_count": 3,
-      "companies": [
-        "Anduril Industries",
-        "Isomorphic Labs",
-        "Physical Intelligence"
-      ]
     }
   ],
   "sectorConcentration": {
-    "Space & Aerospace": 225,
-    "Climate & Energy": 221,
-    "Robotics & Manufacturing": 208,
-    "Defense & Security": 193,
-    "Biotech & Health": 120,
-    "Chips & Semiconductors": 104,
-    "Nuclear Energy": 73,
-    "Quantum Computing": 55,
+    "Climate & Energy": 236,
+    "Space & Aerospace": 235,
+    "Robotics & Manufacturing": 217,
+    "Defense & Security": 194,
+    "Biotech & Health": 136,
+    "Chips & Semiconductors": 113,
+    "Nuclear Energy": 74,
+    "Quantum Computing": 57,
     "Drones & Autonomous": 46,
-    "Transportation": 29,
+    "Transportation": 31,
     "AI & Software": 21,
-    "Housing & Construction": 16,
-    "Ocean & Maritime": 14,
-    "Infrastructure & Logistics": 9,
+    "Housing & Construction": 17,
+    "Ocean & Maritime": 15,
+    "Infrastructure & Logistics": 11,
     "Supersonic & Hypersonic": 5
   }
 }

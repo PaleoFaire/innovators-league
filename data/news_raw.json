@@ -1,41 +1,190 @@
 [
   {
-    "title": "Waymo robotaxis kept illegally passing school buses after software fix, feds say",
-    "link": "https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/",
-    "description": "The update to Waymo's self-driving system was rolled out nearly a year ago.",
-    "pubDate": "Mon, 09 Nov 2026 15:24:59 +0000",
-    "category": "Transportation",
+    "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+    "link": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+    "description": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
+    "pubDate": "Tue, 10 Nov 2026 14:01:39 +0000",
+    "category": "AI",
     "source": "TechCrunch",
     "feedCategory": "tech",
-    "matchedCompany": "Waymo",
+    "matchedCompany": "Anthropic",
     "matchedCompanies": [
-      "Waymo",
-      "Aurora Innovation"
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "funding",
+    "impact": "high",
+    "time": "Just now"
+  },
+  {
+    "title": "Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor",
+    "link": "https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/",
+    "description": "The partners plan to bring Skydio drones to public safety agencies across the U.S. as Axon expands its Drone as First Responder program.\nThe post Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor appeared first on The Robot Report.",
+    "pubDate": "Tue, 10 Nov 2026 13:06:58 +0000",
+    "category": "Drones",
+    "source": "The Robot Report",
+    "feedCategory": "robotics",
+    "matchedCompany": "Skydio",
+    "matchedCompanies": [
+      "Skydio",
+      "Flock Safety",
+      "Pano AI",
+      "Aerodome"
+    ],
+    "sectors": [
+      "defense",
+      "climate"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Cyberattacks threaten to make open-source AI a little less open, Hugging Face exec warns",
+    "link": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+    "description": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open-source communities valuable to developers worldwide.",
+    "pubDate": "Tue, 10 Nov 2026 13:00:00 +0000",
+    "category": "Security",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Hugging Face",
+    "matchedCompanies": [
+      "Hugging Face",
+      "Cape",
+      "Percepto",
+      "ideaForge"
     ],
     "sectors": [
       "ai",
+      "climate",
       "autonomous"
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "1h ago"
   },
   {
-    "title": "Sequoia partners reportedly blindsided when Roelof Botha joined SpaceX board",
-    "link": "https://techcrunch.com/2026/11/08/sequoia-partners-reportedly-blindsided-when-roelof-botha-joined-spacex-board/",
-    "description": "A new report claims Sequoia's recent changes undo the legacy of the firm's former steward.",
-    "pubDate": "Sun, 08 Nov 2026 19:51:30 +0000",
-    "category": "Venture",
+    "title": "Anthropic reportedly plans to move forward with IPO plans",
+    "link": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+    "description": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+    "pubDate": "Tue, 10 Nov 2026 01:27:12 +0000",
+    "category": "AI",
     "source": "TechCrunch",
     "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
+    "matchedCompany": "Anthropic",
     "matchedCompanies": [
-      "SpaceX"
+      "Anthropic"
     ],
     "sectors": [
-      "space"
+      "ai"
     ],
-    "type": "ipo",
+    "type": "funding",
+    "impact": "high",
+    "time": "13h ago"
+  },
+  {
+    "title": "Anthropic Latest Fable 5.2 is a Crippled Model 3 Early and They Have Model 4 Internally",
+    "link": "https://www.nextbigfuture.com/2026/11/anthropic-latest-fable-5-2-is-a-crippled-model-3-early-and-they-have-model-4-internally.html",
+    "description": "Model 4 is an internal, unreleased Anthropic AI model identified in METR’s October 2026 assessment. It finished training between September and October 2026 and was the first model in METR’s test set to score above 50% on all 15 benchmarks evaluated. The Fable 5.2 Modle is Model 3 Early. Has Anthropi",
+    "pubDate": "Tue, 10 Nov 2026 01:26:24 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "13h ago"
+  },
+  {
+    "title": "Anthropic Fable 5.2 Called Best AI Model by Far and is Pushing Engineering and Science Advancement",
+    "link": "https://www.nextbigfuture.com/2026/11/anthropic-fable-5-2-called-best-ai-model-by-far-and-is-pushing-engineering-and-science-advancement.html",
+    "description": "Anthropic&#8217;s Fable 5.2 formalized Fermat&#8217;s Last Theorem in just 30 hours &#8211; A team of approximately 1,000 AI agents coordinated to formalize an existing mathematical proof in Lean. &#8211; Completed the task in only 30 hours with minimal human intervention. &#8211; The previous syste",
+    "pubDate": "Tue, 10 Nov 2026 01:06:06 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "13h ago"
+  },
+  {
+    "title": "Waymo Said It Fixed Its School Bus Problem. The US Government Says It Didn’t Work",
+    "link": "https://www.wired.com/story/waymo-school-bus-problem-the-us-government-says-it-didnt-work/",
+    "description": "Last year, Waymo recalled its software after several of its autonomous cars drove around stopped buses. But the problems remained. Now the feds want to know more.",
+    "pubDate": "Mon, 09 Nov 2026 22:40:10 +0000",
+    "category": "Gear",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Palantir"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "15h ago"
+  },
+  {
+    "title": "AI hardware startup Nominal triples valuation to $3B in 8 months",
+    "link": "https://techcrunch.com/2026/11/09/ai-hardware-startup-nominal-triples-valuation-to-3b-in-8-months/",
+    "description": "Nominal, a startup that offers an AI platform for hardware engineering and claims Anduril as a major customer, has raised another big round of financing that triples its valuation.",
+    "pubDate": "Mon, 09 Nov 2026 19:21:46 +0000",
+    "category": "Startups",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Nominal",
+    "matchedCompanies": [
+      "Nominal"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "funding",
+    "impact": "high",
+    "time": "19h ago"
+  },
+  {
+    "title": "Korean Air Aerospace pushes forward with Collaborative Combat Aircraft plans",
+    "link": "https://breakingdefense.com/2026/11/korean-air-aerospace-pushes-forward-with-collaborative-combat-aircraft-plans/",
+    "description": "&#8220;We delivered our CCA platform last year and will having flight tests at the end of this year,&#8221; Director of International Business for KE-ASD Haneul Kim confirmed.",
+    "pubDate": "Mon, 09 Nov 2026 19:19:25 +0000",
+    "category": "Air Warfare",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "AIR",
+    "matchedCompanies": [
+      "AIR",
+      "Hadrian",
+      "AnySignal",
+      "Elodin",
+      "Orbital Composites",
+      "Collaborative Robotics"
+    ],
+    "sectors": [
+      "autonomous",
+      "robotics",
+      "space",
+      "infrastructure"
+    ],
+    "type": "hire",
     "impact": "low",
     "time": "19h ago"
   },
@@ -56,7 +205,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Harbinger scores another $240M in latest investment round",
@@ -75,7 +224,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Tesla &#038; SpaceX Lost $420 Billion In Market Cap This Week — Didn&#8217;t Have To Be This Way",
@@ -94,47 +243,6 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "2d ago"
-  },
-  {
-    "title": "Blue Origin NorthStar Rocket Engine 30% Better Than BE4 But Far From SpaceX Raptor 3",
-    "link": "https://www.nextbigfuture.com/2026/11/blue-origin-northstar-rocket-engine-30-better-than-be4-but-far-from-spacex-raptor-3.html",
-    "description": "Blue Origin announced Northstar, a new liquid oxygen/liquefied natural gas (LOX/LNG) booster engine that produces 715,000 pounds of thrust. Northstar leverages Blue Origin&#8217;s in-house large-scale additive manufacturing capabilities, with more than 65% of the engine produced through additive man",
-    "pubDate": "Fri, 06 Nov 2026 15:02:55 +0000",
-    "category": "Energy",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Divergent",
-      "Blue Origin"
-    ],
-    "sectors": [
-      "space",
-      "robotics"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "How Will SpaceX Leapfrog ATT &#038; Verizon",
-    "link": "https://www.nextbigfuture.com/2026/11/how-will-spacex-leapfrog-att-verizon.html",
-    "description": "SpaceX is in talks to buy Boost Mobile which has about seven million subscribers. That will not be the deal. SpaceX will buy the rest of EchoStar instead, because the ATT could try to block a Boost-only deal. This is more than phones. It is about getting Starlink, X and Grok onto every phone three .",
-    "pubDate": "Thu, 05 Nov 2026 23:14:54 +0000",
-    "category": "Space",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
     "time": "3d ago"
   },
   {
@@ -155,7 +263,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "CesiumAstro Secures $730 Million in Janus Henderson-Led Series D at a Valuation Above $4.5 Billion; Unveils Synchronicity Satellite Constellation Following Fully Successful Element-1 Mission",
@@ -174,45 +282,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "3d ago"
-  },
-  {
-    "title": "Ukraine eyeing new SpaceX Starshield deal by mid-2027, still no answers about October problems",
-    "link": "https://breakingdefense.com/2026/11/ukraine-eyeing-new-spacex-starshield-deal-by-mid-2027-still-no-answers-about-october-problems/",
-    "description": "“I hope that the contract will be signed,&#8221; Ukraine&#8217;s Chargé d&#8217;Affaires Denys Sienik said, even as Kyiv considers potential alternatives to SpaceX.",
-    "pubDate": "Thu, 05 Nov 2026 18:02:00 +0000",
-    "category": "Air Warfare",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "contract",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Saildrone inks agreement with Norwegian shipbuilder Umoe Mandal to produce USVs",
-    "link": "https://breakingdefense.com/2026/11/saildrone-inks-agreement-with-norwegian-shipbuilder-umoe-mandal-to-produce-usvs/",
-    "description": "The agreement is the latest in a series of moves by Saildrone to expand into Europe.",
-    "pubDate": "Thu, 05 Nov 2026 17:23:00 +0000",
-    "category": "Naval Warfare",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "Saildrone",
-    "matchedCompanies": [
-      "Saildrone"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "funding",
-    "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Agility Robotics begins trading on Nasdaq",
@@ -250,7 +320,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "What does a blue Texas sweep mean for Elon Musk, Tesla &#038; SpaceX?",
@@ -269,7 +339,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "Simera Sense and Spacemanic to Collaborate on a New Complete Dual-Use Mission Solution",
@@ -289,31 +359,6 @@
       "space",
       "defense",
       "ai"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "5d ago"
-  },
-  {
-    "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
-    "link": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/",
-    "description": "Deal is expected to provide approximately $465 million in gross capital as Agility expands deployments of its Digit humanoid with industrial customers.\nThe post Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC appeared first on The Robot Report.",
-    "pubDate": "Tue, 03 Nov 2026 00:15:39 +0000",
-    "category": "Financial",
-    "source": "The Robot Report",
-    "feedCategory": "robotics",
-    "matchedCompany": "Agility Robotics",
-    "matchedCompanies": [
-      "Agility Robotics",
-      "Karman Industries",
-      "Solugen",
-      "Gecko Robotics",
-      "Teralta"
-    ],
-    "sectors": [
-      "robotics",
-      "climate",
-      "infrastructure"
     ],
     "type": "ipo",
     "impact": "low",
@@ -362,27 +407,6 @@
     "time": "10/27/2026"
   },
   {
-    "title": "Musk declares Tesla Robotaxi win over Waymo, but Waymo still drives 7x more",
-    "link": "https://electrek.co/2026/10/27/musk-robotaxi-victory-waymo-austin-miles/",
-    "description": "Elon Musk says Tesla’s Robotaxi race against Waymo “was never a real contest” after Tesla’s driverless fleet logged 438,000 miles in Austin in a single week, edging past Waymo’s 406,000 weekly average in the city.\n\n\n\nThat’s one city, one week, and a Waymo figure that’s four months old. Across the US",
-    "pubDate": "Tue, 27 Oct 2026 14:21:45 +0000",
-    "category": "News",
-    "source": "Electrek",
-    "feedCategory": "autonomous",
-    "matchedCompany": "Waymo",
-    "matchedCompanies": [
-      "Waymo",
-      "Zoox"
-    ],
-    "sectors": [
-      "ai",
-      "transportation"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "10/27/2026"
-  },
-  {
     "title": "OpenAI models hacked a crypto wallet and breached more websites",
     "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
     "description": "",
@@ -402,25 +426,6 @@
     "time": "10/16/2026"
   },
   {
-    "title": "Anthropic warns small AI models could self-replicate through IoT devices",
-    "link": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
-    "description": "",
-    "pubDate": "Wed, 14 Oct 2026 12:55:06 +0000",
-    "category": "AI",
-    "source": "Ars Technica",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "10/14/2026"
-  },
-  {
     "title": "With federal funding windfall, X-energy advances small nuclear reactor",
     "link": "https://www.canarymedia.com/articles/nuclear/federal-funding-x-energy-small-nuclear-reactor",
     "description": "",
@@ -438,5 +443,24 @@
     "type": "funding",
     "impact": "low",
     "time": "9/23/2026"
+  },
+  {
+    "title": "<a href=\"/biotech/abcellera-becomes-latest-biotech-abandon-dream-developing-ox40-drug\" hreflang=\"en\">AbCellera becomes latest biotech to abandon dream of developing OX40 drug</a>",
+    "link": "https://www.fiercebiotech.com/biotech/abcellera-becomes-latest-biotech-abandon-dream-developing-ox40-drug",
+    "description": "AbCellera has become the latest drug developer to abandon its attempts to crack the OX40 code.",
+    "pubDate": "Nov 10, 2026 5:07am",
+    "category": "",
+    "source": "FierceBiotech",
+    "feedCategory": "biotech",
+    "matchedCompany": "AbCellera",
+    "matchedCompanies": [
+      "AbCellera"
+    ],
+    "sectors": [
+      "biotech"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "Invalid Date"
   }
 ]

@@ -1,23 +1,5 @@
 [
   {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 56,
-    "trend": "accelerating",
-    "catalysts": [
-      "Waymo robotaxis kept illegally passing school buses after so",
-      "HUGE Things in About Tesla and SpaceX",
-      "Blue Origin NorthStar Rocket Engine 30% Better Than BE4 But"
-    ],
-    "fundingQ": "$7.0B",
-    "components": {
-      "funding": 100,
-      "news": 45,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-09"
-  },
-  {
     "sector": "Transportation",
     "momentum": 55,
     "trend": "steady",
@@ -31,41 +13,95 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-10"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 54,
+    "trend": "steady",
+    "catalysts": [
+      "Axon invests $1.2B into Skydio and becomes its U.S. public s",
+      "Waymo Said It Fixed Its School Bus Problem. The US Governmen",
+      "HUGE Things in About Tesla and SpaceX"
+    ],
+    "fundingQ": "$7.0B",
+    "components": {
+      "funding": 100,
+      "news": 35,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-10"
   },
   {
     "sector": "AI & Software",
-    "momentum": 48,
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
-      "OpenAI models hacked a crypto wallet and breached more websi",
-      "Anthropic warns small AI models could self-replicate through"
+      "Anthropic sets IPO price range of $70 to $78 per share to re",
+      "Anthropic reportedly plans to move forward with IPO plans",
+      "Anthropic Latest Fable 5.2 is a Crippled Model 3 Early and T"
     ],
     "fundingQ": "$12.1B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-10"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 45,
+    "trend": "rising",
+    "catalysts": [
+      "With federal funding windfall, X-energy advances small nucle"
+    ],
+    "fundingQ": "$643M",
+    "components": {
+      "funding": 67,
+      "news": 5,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-11-10"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 45,
+    "trend": "rising",
+    "catalysts": [
+      "Korean Air Aerospace pushes forward with Collaborative Comba",
+      "HUGE Things in About Tesla and SpaceX",
+      "Tesla &#038; SpaceX Lost $420 Billion In Market Cap This Wee"
+    ],
+    "fundingQ": "$1.2B",
+    "components": {
+      "funding": 51,
+      "news": 30,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-11-10"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 38,
+    "momentum": 39,
     "trend": "steady",
     "catalysts": [
+      "Axon invests $1.2B into Skydio and becomes its U.S. public s",
       "Harbinger scores another $240M in latest investment round",
       "CesiumAstro Secures $730 Million in Janus Henderson-Led Seri"
     ],
     "fundingQ": "$4.1B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-10"
   },
   {
     "sector": "Climate & Energy",
@@ -81,45 +117,11 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-11-09"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 29,
-    "trend": "steady",
-    "catalysts": [
-      "Sequoia partners reportedly blindsided when Roelof Botha joi",
-      "HUGE Things in About Tesla and SpaceX",
-      "Tesla &#038; SpaceX Lost $420 Billion In Market Cap This Wee"
-    ],
-    "fundingQ": "$1.2B",
-    "components": {
-      "funding": 51,
-      "news": 45,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-11-09"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 25,
-    "trend": "rising",
-    "catalysts": [
-      "With federal funding windfall, X-energy advances small nucle"
-    ],
-    "fundingQ": "$643M",
-    "components": {
-      "funding": 67,
-      "news": 5,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-10"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 19,
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -129,43 +131,60 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 94
+      "market": 100
     },
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-10"
   },
   {
-    "sector": "Consumer Tech",
-    "momentum": 14,
+    "sector": "Biotech & Health",
+    "momentum": 18,
     "trend": "declining",
     "catalysts": [
-      "How did Agility Robotics perform on its first day on the sto",
-      "Agility Robotics begins trading on Nasdaq",
-      "Churchill Capital XI shareholders approve $2.5B Agility Robo"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-09"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Saildrone inks agreement with Norwegian shipbuilder Umoe Man"
+      "<a href=\"/biotech/abcellera-becomes-latest-biotech-abandon-d"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 5,
       "hiring": 0,
+      "market": 85
+    },
+    "lastUpdated": "2026-11-10"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Axon invests $1.2B into Skydio and becomes its U.S. public s",
+      "Anthropic Fable 5.2 Called Best AI Model by Far and is Pushi",
+      "How did Agility Robotics perform on its first day on the sto"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-10"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "Axon invests $1.2B into Skydio and becomes its U.S. public s",
+      "Waymo Said It Fixed Its School Bus Problem. The US Governmen"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-10"
   },
   {
     "sector": "Housing & Construction",
@@ -181,23 +200,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-09"
-  },
-  {
-    "sector": "Ocean & Maritime",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Saildrone inks agreement with Norwegian shipbuilder Umoe Man"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-10"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -213,7 +216,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-10"
+  },
+  {
+    "sector": "Ocean & Maritime",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active ocean & maritime ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-10"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -229,38 +248,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-09"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 3,
-    "trend": "declining",
-    "catalysts": [
-      "Active biotech & health ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 13
-    },
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-10"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 0,
+    "momentum": 7,
     "trend": "declining",
     "catalysts": [
-      "Active chips & semiconductors ecosystem"
+      "Anthropic Latest Fable 5.2 is a Crippled Model 3 Early and T",
+      "Anthropic Fable 5.2 Called Best AI Model by Far and is Pushi"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 10,
       "hiring": 0,
-      "market": 0
+      "market": 23
     },
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-10"
   }
 ]
