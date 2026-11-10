@@ -7,7 +7,7 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1448
+ * Total companies: 1461
  * Last updated: 2026-11-10
  * 
  * Each company has:
@@ -1520,6 +1520,20 @@ const MASTER_COMPANY_LIST = [
   { name: "Mavria", aliases: [], sector: "infrastructure", ticker: null },
   // ─── 10 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
   { name: "Helicon", aliases: [], sector: "manufacturing", ticker: null },
+  // ─── 10 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
+  { name: "Eliyan", aliases: [], sector: "chips", ticker: null },
+  { name: "Frore Systems", aliases: ["FroreSystems"], sector: "chips", ticker: null },
+  { name: "Lyte", aliases: [], sector: "chips", ticker: null },
+  { name: "Nexthop AI", aliases: ["NexthopAI"], sector: "chips", ticker: null },
+  { name: "SiFive", aliases: [], sector: "chips", ticker: null },
+  { name: "SiMa.ai", aliases: ["SiMaAi"], sector: "chips", ticker: null },
+  { name: "Vayyar", aliases: [], sector: "chips", ticker: null },
+  { name: "Formlabs", aliases: [], sector: "manufacturing", ticker: null },
+  { name: "Dream Labs", aliases: ["DreamLabs"], sector: "robotics", ticker: null },
+  { name: "Eka Robotics", aliases: ["EkaRobotics"], sector: "robotics", ticker: null },
+  { name: "Gravis Robotics", aliases: ["GravisRobotics"], sector: "robotics", ticker: null },
+  { name: "Tractian", aliases: [], sector: "robotics", ticker: null },
+  { name: "Advanced Navigation", aliases: ["AdvancedNavigation"], sector: "space", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════
