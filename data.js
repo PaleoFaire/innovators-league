@@ -63758,6 +63758,32 @@ const COMPANIES = [
     signal: "watch",
     source: "Verified 6 Nov 2026 (candidate review): https://www.cislunarindustries.com/leadership; https://www.cislunarindustries.com/post/cislunar-industries-selected-for-1-9m-space-force-contract-for-revolutionary-space-power-and-propul; https://www.cislunarindustries.com/post/cislunar-industries-raises-2-6m-in-oversubscribed-seed-round; https://www.cislunarindustries.com/post/atomos-space-selects-cislunar-industries-for-power-processing-units",
     addedDate: "2026-11"
+  },
+  {
+    name: "Mavria",
+    status: "active",
+    sector: "Infrastructure & Logistics",
+    subsector: "General",
+    description: "Mavria builds AI data centers as manufactured products. Its first product, Terrain, integrates power, cooling, controls and IT pods into a standardized system that is built and tested in a factory instead of constructed on site, for frontier labs, neoclouds, developers and infrastructure owners; Mavria supplies the physical infrastructure and does not run a cloud or sell compute. Terrain 01 is in production in Houston. The co-founders worked together at the U.S. Department of Energy. The company says it has raised $130M across pre-seed and seed rounds, the latest led by Paradigm at a $1B valuation; its Oct 2026 SEC Form D shows $75M sold to 16 investors.",
+    founder: "Adam Blake (co-founder and CEO; built one of the largest US commercial solar companies, sold a software business to Vista Equity Partners, former advisor to the Secretary of Energy), Seth Cohen (co-founder; former DOE, NRC and NASA nuclear policy leader, began as a Kirkland & Ellis lawyer), Nick Poradek (co-founder; engineer who sold his last company to Liberty Energy and helped build Liberty's manufacturing platform)",
+    location: "The Woodlands, TX",
+    state: "TX",
+    country: "United States",
+    lat: 30.1734,
+    lng: -95.5047,
+    founded: 2026,
+    fundingStage: "Seed",
+    totalRaised: "$130M",
+    valuation: "$1B",
+    website: "https://mavria.com",
+    investors: ["Paradigm (lead, Seed)", "AMP PBC", "Liquid 2", "Critical Frontier", "Dream Ventures"],
+    tags: ["factory-built data centers", "ai infrastructure", "modular manufacturing", "power and cooling", "ex-doe founders"],
+    techApproach: "Terrain pre-integrates and tests power, cooling, controls and IT pods as one standardized data-center system, with equipment and supply chains secured ahead of demand, so each deployment is repeatable production rather than a custom build.",
+    insight: "AI's constraint is moving from chips to turning available power into working data-center capacity. Mavria is betting that manufacturing the whole data center beats custom construction on speed and cost; the test is whether Terrain 01 ships on schedule and turns into repeat orders from labs and neoclouds.",
+    recentEvent: { type: "funding", text: "Unveiled with $130M raised across pre-seed and seed; latest round led by Paradigm at a $1B valuation", date: "2026-11" },
+    signal: "hot",
+    source: "Verified 10 Nov 2026 (requested by Stephen): https://mavria.com; https://mavria.com/introducing (CEO post: $130M across pre-seed and seed, latest round led by Paradigm at a $1B valuation); https://mavria.com/terrain; SEC Form D, Mavria Inc (CIK 2159979), filed 21 Oct 2026, The Woodlands, TX address, incorporated 2026, $75M of $100M sold from 14 Oct 2026: https://www.sec.gov/Archives/edgar/data/2159979/000215997926000002/primary_doc.xml",
+    addedDate: "2026-11"
   }
 ];
 
