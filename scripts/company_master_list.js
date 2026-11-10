@@ -7,7 +7,7 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1497
+ * Total companies: 1515
  * Last updated: 2026-11-10
  * 
  * Each company has:
@@ -1572,6 +1572,25 @@ const MASTER_COMPANY_LIST = [
   { name: "Xoople", aliases: [], sector: "space", ticker: null },
   { name: "Radia", aliases: [], sector: "transportation", ticker: null },
   { name: "Turntide", aliases: [], sector: "transportation", ticker: null },
+  // ─── 10 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
+  { name: "AMSilk", aliases: [], sector: "biotech", ticker: null },
+  { name: "Algen Biotechnologies", aliases: ["AlgenBiotechnologies"], sector: "biotech", ticker: null },
+  { name: "BioLumic", aliases: [], sector: "biotech", ticker: null },
+  { name: "Biolinq", aliases: [], sector: "biotech", ticker: null },
+  { name: "Flow Neuroscience", aliases: ["FlowNeuroscience"], sector: "biotech", ticker: null },
+  { name: "Sequel Med Tech", aliases: ["SequelMedTech"], sector: "biotech", ticker: null },
+  { name: "TISSIUM", aliases: [], sector: "biotech", ticker: null },
+  { name: "Aircapture", aliases: [], sector: "climate", ticker: null },
+  { name: "Cyclic Materials", aliases: ["CyclicMaterials"], sector: "climate", ticker: null },
+  { name: "HT Materials Science", aliases: ["HTMaterialsScience"], sector: "climate", ticker: null },
+  { name: "ON.energy", aliases: ["ONEnergy"], sector: "climate", ticker: null },
+  { name: "Utility Global", aliases: ["UtilityGlobal"], sector: "climate", ticker: null },
+  { name: "C-Crete Technologies", aliases: ["CCreteTechnologies"], sector: "construction", ticker: null },
+  { name: "Ubicquia", aliases: [], sector: "infrastructure", ticker: null },
+  { name: "GelSight", aliases: [], sector: "manufacturing", ticker: null },
+  { name: "STAX Engineering", aliases: ["STAXEngineering"], sector: "ocean", ticker: null },
+  { name: "Beewise", aliases: [], sector: "robotics", ticker: null },
+  { name: "Saga Robotics", aliases: ["SagaRobotics"], sector: "robotics", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════
