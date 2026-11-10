@@ -7,7 +7,7 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1468
+ * Total companies: 1497
  * Last updated: 2026-11-10
  * 
  * Each company has:
@@ -1542,6 +1542,36 @@ const MASTER_COMPANY_LIST = [
   { name: "Kapta Space", aliases: ["KaptaSpace"], sector: "space", ticker: null },
   { name: "Rhea Space Activity", aliases: ["RheaSpaceActivity"], sector: "space", ticker: null },
   { name: "York Space Systems", aliases: ["YorkSpaceSystems"], sector: "space", ticker: null },
+  // ─── 10 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
+  { name: "Alloy Therapeutics", aliases: ["AlloyTherapeutics"], sector: "biotech", ticker: null },
+  { name: "CMR Surgical", aliases: ["CMRSurgical"], sector: "biotech", ticker: null },
+  { name: "Element Biosciences", aliases: ["ElementBiosciences"], sector: "biotech", ticker: null },
+  { name: "Fortell", aliases: [], sector: "biotech", ticker: null },
+  { name: "HistoSonics", aliases: [], sector: "biotech", ticker: null },
+  { name: "Opentrons", aliases: [], sector: "biotech", ticker: null },
+  { name: "Ossium Health", aliases: ["OssiumHealth"], sector: "biotech", ticker: null },
+  { name: "Tessera Therapeutics", aliases: ["TesseraTherapeutics"], sector: "biotech", ticker: null },
+  { name: "Visby Medical", aliases: ["VisbyMedical"], sector: "biotech", ticker: null },
+  { name: "Diamond Foundry", aliases: ["DiamondFoundry"], sector: "chips", ticker: null },
+  { name: "24M", aliases: [], sector: "climate", ticker: null },
+  { name: "CMBlu Energy", aliases: ["CMBluEnergy"], sector: "climate", ticker: null },
+  { name: "Energy Dome", aliases: ["EnergyDome"], sector: "climate", ticker: null },
+  { name: "Gradiant", aliases: [], sector: "climate", ticker: null },
+  { name: "Group14", aliases: [], sector: "climate", ticker: null },
+  { name: "Jetti Resources", aliases: ["JettiResources"], sector: "climate", ticker: null },
+  { name: "Ohmium", aliases: [], sector: "climate", ticker: null },
+  { name: "Our Next Energy", aliases: ["OurNextEnergy"], sector: "climate", ticker: null },
+  { name: "Polarium", aliases: [], sector: "climate", ticker: null },
+  { name: "ProLogium", aliases: [], sector: "climate", ticker: null },
+  { name: "Borealis Fusion", aliases: ["BorealisFusion"], sector: "nuclear", ticker: null },
+  { name: "Exotrail", aliases: [], sector: "space", ticker: null },
+  { name: "Infinite Orbits", aliases: ["InfiniteOrbits"], sector: "space", ticker: null },
+  { name: "Kinéis", aliases: ["KinIs"], sector: "space", ticker: null },
+  { name: "Leaf Space", aliases: ["LeafSpace"], sector: "space", ticker: null },
+  { name: "Look Up Space", aliases: ["LookUpSpace"], sector: "space", ticker: null },
+  { name: "Xoople", aliases: [], sector: "space", ticker: null },
+  { name: "Radia", aliases: [], sector: "transportation", ticker: null },
+  { name: "Turntide", aliases: [], sector: "transportation", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════
