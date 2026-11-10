@@ -46,6 +46,8 @@ adapter and a plain fetch beats a headless browser:
   links       Everyone else: each outbound link on the page is a holding, and
               the company's own domain is a far better key than its name.
   slugs       Harpoon, Shield, Congruent: only /portfolio/<slug> subpages.
+  cos_json    Red Glass embeds its portfolio in the homepage as `var COS = {…}`
+              (name, site, founders, stage). Current investments only.
 
 A fund with a job-board adapter keeps its older adapter as `fallback`, used
 when the board fails or returns nothing; the run records that as `partial`.
@@ -212,6 +214,12 @@ FUNDS = {
     "Congruent": dict(name="Congruent Ventures", short=None, investor="Congruent Ventures",
                       alias=r"congruent", kind="slugs",
                       urls=["https://www.congruentvc.com/portfolio"], discover=True),
+    # Added 10 Nov 2026 at Stephen's request. redglassventures.com redirects here.
+    "Red Glass": dict(name="Red Glass Ventures", short=None, investor="Red Glass Ventures",
+                      alias=r"red ?glass", kind="cos_json", urls=["https://www.redglass.vc/"],
+                      discover=True,
+                      note="Bilal Zuberi's Menlo Park seed fund (AI x the physical world); "
+                           "'PRIOR INVESTMENT' rows are the partners' deals at earlier firms and are skipped"),
     # Generalists: read for holdings and investor back-fill, never for discovery.
     "KV": dict(name="Khosla Ventures", short="KV", investor="Khosla Ventures", alias=r"khosla",
                kind="getro", getro=dict(collection=257, origin="https://jobs.khoslaventures.com"),
@@ -858,11 +866,36 @@ def extract_sequoia_sitemap(fund: dict) -> list[dict]:
     return out
 
 
+def extract_cos_json(fund: dict) -> list[dict]:
+    """Red Glass: the homepage embeds the portfolio as `var COS = {key: {name, tag,
+    stage, url, text, people}}`. Rows staged "PRIOR INVESTMENT" are deals the
+    partners made at earlier firms (Lux, for Bilal Zuberi), not the fund's, so they
+    are skipped; "Stealth" rows carry no name or site."""
+    html = get(fund["urls"][0]).text
+    m = re.search(r"\bvar\s+COS\s*=\s*", html)
+    if not m:
+        return []
+    try:
+        cos, _ = json.JSONDecoder().raw_decode(html, m.end())
+    except json.JSONDecodeError:
+        return []
+    out = []
+    for c in (cos.values() if isinstance(cos, dict) else []):
+        name = (c.get("name") or "").strip()
+        if not name or name.lower() == "stealth" or "PRIOR" in (c.get("stage") or "").upper():
+            continue
+        people = ", ".join(p[0] for p in (c.get("people") or []) if p and p[0])
+        blurb = ". ".join(x.strip().rstrip(".") for x in (c.get("tag"), c.get("text")) if x and x.strip())
+        out.append(holding(name=name, website=c.get("url") or "", blurb=blurb, founders=people,
+                           source_url=fund["urls"][0]))
+    return out
+
+
 EXTRACTORS = {"a16z": extract_a16z, "wp_company": extract_wp_company, "sanity": extract_sanity,
               "cards_8vc": extract_cards_8vc, "cards_lux": extract_cards_lux,
               "links": extract_links, "slugs": extract_slugs, "getro": extract_getro,
               "a16z_board": extract_a16z_board, "consider": extract_consider,
-              "sequoia_sitemap": extract_sequoia_sitemap}
+              "sequoia_sitemap": extract_sequoia_sitemap, "cos_json": extract_cos_json}
 
 
 def merge_holdings(primary: list[dict], extra: list[dict]) -> list[dict]:

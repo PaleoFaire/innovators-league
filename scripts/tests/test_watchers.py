@@ -182,6 +182,25 @@ def test_getro_adapter_pages_and_drops_the_fund_itself():
     assert w.HARD_TAGS.search(" | ".join(rows[2]["_tags"])), "biotech fails the tag bar"
 
 
+def test_cos_json_adapter_keeps_current_investments_only():
+    page = ('<script>\n(function(){\n        var COS = {'
+            '"foundry": {"name": "Foundry Robotics", "tag": "Robotics for manufacturing", "stage": "SEED", '
+            '"url": "https://www.foundryrobotics.com", "text": "Builds an automated factory.", '
+            '"people": [["Adarsh Kulkarni", "", ""], ["Emmanuel Lamacchia", "", ""]]}, '
+            '"anvil": {"name": "Stealth", "tag": "Undisclosed", "stage": "", "url": "", "text": "In stealth.", "people": []}, '
+            '"saildrone": {"name": "Saildrone", "tag": "Naval defense platform", "stage": "PRIOR INVESTMENT", '
+            '"url": "https://www.saildrone.com", "text": "", "people": []}};\n'
+            '        var SRC = 1;\n})();\n</script>')
+    rows = with_fakes(get=lambda url, session=None, **kw: FakeResponse(text=page))(
+        lambda: w.extract_cos_json(w.FUNDS["Red Glass"]))()
+    check([r["name"] for r in rows], ["Foundry Robotics"], "stealth and prior-firm rows dropped")
+    check((rows[0]["domain"], rows[0]["founders"]), ("foundryrobotics.com", "Adarsh Kulkarni, Emmanuel Lamacchia"),
+          "domain and founders")
+    check(rows[0]["blurb"], "Robotics for manufacturing. Builds an automated factory", "tag + text blurb")
+    check(with_fakes(get=lambda url, session=None, **kw: FakeResponse(text="<html></html>"))(
+        lambda: w.extract_cos_json(w.FUNDS["Red Glass"]))(), [], "no COS block = nothing, not a crash")
+
+
 def test_consider_adapter_uses_csrf_and_sequence():
     page_html = '<script>window.serverInitialData = {"csrfToken":"tok-123","board":{"id":"sequoia-capital"}};</script>'
     pages = [
