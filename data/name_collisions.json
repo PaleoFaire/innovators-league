@@ -82,6 +82,10 @@
       "only_if": "brain|EEG|neuro|wearable|Occam|stress|cognitive|\\bBCI\\b|atlasmankind",
       "note": "Ours is the former Occam, the San Francisco brain-wearable maker (atlasmankind.com). Atlas is also a ULA rocket, a Boston Dynamics robot, Atlas Copco, MongoDB Atlas, Atlas Air and many funds; data.js also holds Atlas Atomics and Atlas Motion."
     },
+    "Helicon": {
+      "only_if": "composite|carbon[- ]fib(?:er|re)|drone|airframe|\\bUAV|Torrance|AlleyCorp|Niehaus|Sanz-Gadea|helicon\\.tech",
+      "note": "Ours is Helicon Industries, the Torrance, CA automated carbon-fiber composites maker (helicon.tech). Helicon is also a brass instrument, a Greek mountain, Helicon Focus photo software, Helicon Tech's IIS tools and several unrelated firms."
+    },
     "aXenic": {
       "only_if": "modulator|photonic|gallium arsenide|GaAs|optical|laser|Sedgefield|satellite",
       "note": "Ours is aXenic, the UK maker of GaAs optical modulators; 'axenic' is also a biology term for germ-free cultures."
@@ -318,14 +322,14 @@
     "Atoms", "Avalanche", "aXenic", "Axiom", "Bedrock", "BEI", "Biosphere", "Bronco", "Built", "Cape", "Chaos",
     "Cohere", "Collaborative", "Colossal", "Covariant", "Covenant", "Cover", "Cradle", "Deterrence", "Dexterity",
     "Diode", "Divergent", "Dragonfly", "Dust", "Earth", "Endurance", "Enigma", "Etched", "Field", "Figure", "Firefly",
-    "Flux", "Focused", "Gambit", "Gecko", "Glacier", "Glimpse", "Halo", "Helios", "Humane", "Humanoid", "Icon",
-    "Impulse", "Integrate", "Inversion", "Kestrel", "Latitude", "Launchpad", "Locus", "Loyal", "Malta", "Mammoth",
-    "Mantel", "Material", "Matter", "Merlin", "Mistral", "Modal", "Monumental", "Multiply", "Mythic", "Nominal",
-    "Nudge", "Observable", "Octant", "Orchid", "Osmoses", "Ouster", "Outpost", "Overland", "Parallel", "Parry",
-    "Pascal", "Pilgrim", "Pivotal", "Planet", "Primer", "Queue", "Quilt", "Radiant", "Rainbow", "Rapid", "Rebellions",
-    "Relativity", "Resilience", "Reveal", "Revel", "Runway", "Seabound", "Sift", "Singularity", "Skeleton", "Skyways",
-    "Slingshot", "Span", "Specter", "Steady", "Stoke", "Sublime", "Substrate", "Surge", "Swan", "Synthesis", "Tempo",
-    "Terrestrial", "Twelve", "Twenty", "Union", "Until", "Uplift", "Vast", "Verse", "Vertical", "Watershed",
-    "Yard Stick", "Zoo"
+    "Flux", "Focused", "Gambit", "Gecko", "Glacier", "Glimpse", "Halo", "Helicon", "Helios", "Humane", "Humanoid",
+    "Icon", "Impulse", "Integrate", "Inversion", "Kestrel", "Latitude", "Launchpad", "Locus", "Loyal", "Malta",
+    "Mammoth", "Mantel", "Material", "Matter", "Merlin", "Mistral", "Modal", "Monumental", "Multiply", "Mythic",
+    "Nominal", "Nudge", "Observable", "Octant", "Orchid", "Osmoses", "Ouster", "Outpost", "Overland", "Parallel",
+    "Parry", "Pascal", "Pilgrim", "Pivotal", "Planet", "Primer", "Queue", "Quilt", "Radiant", "Rainbow", "Rapid",
+    "Rebellions", "Relativity", "Resilience", "Reveal", "Revel", "Runway", "Seabound", "Sift", "Singularity",
+    "Skeleton", "Skyways", "Slingshot", "Span", "Specter", "Steady", "Stoke", "Sublime", "Substrate", "Surge", "Swan",
+    "Synthesis", "Tempo", "Terrestrial", "Twelve", "Twenty", "Union", "Until", "Uplift", "Vast", "Verse", "Vertical",
+    "Watershed", "Yard Stick", "Zoo"
   ]
 }

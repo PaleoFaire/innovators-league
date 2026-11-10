@@ -32429,7 +32429,7 @@ const COMPANIES = [
     keyCustomers: "Anduril, Shield AI, US Air Force, plus aerospace/defense/energy/advanced manufacturing programs",
     website: "https://nominal.io",
     addedDate: "2026-06-04",
-    investors: ["Sequoia Capital (lead Series B)", "Founders Fund (lead Series B-2)", "General Catalyst", "Lux Capital", "Lightspeed Venture Partners", "Red Glass", "Pax Ventures"]
+    investors: ["Sequoia Capital (lead Series B)", "Founders Fund (lead Series B-2)", "General Catalyst", "Lux Capital", "Lightspeed Venture Partners", "Red Glass Ventures", "Pax Ventures"]
   },
   {
     name: "Palantir",
@@ -52389,7 +52389,7 @@ const COMPANIES = [
     subsector: "AI Compute",
     description: "Develops a new kind of energy-efficient AI computer that uses the analog, nonlinear dynamics of silicon circuits (e.g., coupled-oscillator hardware) instead of conventional digital accelerators; it is still research-stage. Founded in 2025 by Naveen Rao (ex-Databricks/MosaicML), Michael Carbin, Sara Achour and MeeLan Lee, it raised a $475M seed at a $4.5B valuation led by a16z and Lightspeed in December 2025. In October 2026 it agreed to buy Israeli AI-chip startup NeuReality (Reuters).",
     founded: 2025,
-    investors: ["DCVC", "Andreessen Horowitz", "Playground Global", "Sequoia Capital"],
+    investors: ["DCVC", "Andreessen Horowitz", "Playground Global", "Sequoia Capital", "Red Glass Ventures"],
     source: "VC portfolio audit DCVC",
     addedDate: "2026-05-15",
     tags: ["vc-portfolio-add"],
@@ -54836,7 +54836,7 @@ const COMPANIES = [
     valuation: "$3B",
     valuationType: "tracker-estimate",
     valuationAsOf: "Aug 2026 round led by 8VC (TechCrunch, sources)",
-    investors: ["Radical Ventures (lead)", "8VC", "Union Square Ventures", "Hanabi Capital", "Norwest", "NVentures (NVIDIA)", "Bezos Expeditions", "Spark Capital", "Boldstart", "NFDG", "Fei-Fei Li", "Naval Ravikant", "Bin Lin"],
+    investors: ["Radical Ventures (lead)", "8VC", "Union Square Ventures", "Hanabi Capital", "Norwest", "NVentures (NVIDIA)", "Bezos Expeditions", "Spark Capital", "Boldstart", "NFDG", "Fei-Fei Li", "Naval Ravikant", "Bin Lin", "Red Glass Ventures"],
     website: "https://generalistai.com",
     techApproach: "Large cross-embodiment vision-language-action foundation models (GEN-0/GEN-1/GEN-1.5, in-context one-shot task learning) trained on massive real-world manipulation data so one model generalizes across thousands of robot form factors, tasks, and environments.",
     tags: ["robotics", "foundation models", "embodied ai", "physical agi", "manipulation", "ad50-2026"],
@@ -63783,6 +63783,31 @@ const COMPANIES = [
     recentEvent: { type: "funding", text: "Unveiled with $130M raised across pre-seed and seed; latest round led by Paradigm at a $1B valuation", date: "2026-11" },
     signal: "hot",
     source: "Verified 10 Nov 2026 (requested by Stephen): https://mavria.com; https://mavria.com/introducing (CEO post: $130M across pre-seed and seed, latest round led by Paradigm at a $1B valuation); https://mavria.com/terrain; SEC Form D, Mavria Inc (CIK 2159979), filed 21 Oct 2026, The Woodlands, TX address, incorporated 2026, $75M of $100M sold from 14 Oct 2026: https://www.sec.gov/Archives/edgar/data/2159979/000215997926000002/primary_doc.xml",
+    addedDate: "2026-11"
+  },
+  {
+    name: "Helicon",
+    status: "active",
+    sector: "Robotics & Manufacturing",
+    subsector: "Advanced Manufacturing",
+    description: "Builds automated, robotic factories for carbon-fiber composite parts, starting with airframes and structures for Group 1-3 drones and extending to ground robots, humanoids and unmanned boats. Its Argos software automates part engineering, mold design, simulation and production planning, and robots handle material placement, demolding and trimming. It is ramping production at a 36,000 sq ft facility in Torrance, California that it says can make more than a million small-drone frames a year, targeting cycle times under 15 minutes, and says it has fewer than ten launch customers with high-volume needs. Emerged from stealth in October 2026 with a $16.5M seed round led by AlleyCorp.",
+    founder: "Alex Niehaus (co-founder and CEO), Edmundo Sanz-Gadea (co-founder and CTO; studied aerospace at TU Delft and worked on autonomous drones and robotics)",
+    location: "Torrance, CA",
+    state: "CA",
+    country: "United States",
+    lat: 33.8359,
+    lng: -118.3406,
+    founded: 2026,
+    fundingStage: "Seed",
+    totalRaised: "$16.5M",
+    website: "https://www.helicon.tech",
+    investors: ["AlleyCorp (lead, Seed)", "Josh Buckley (Buckley Ventures)", "Mike Chalfen", "Gokul Rajaram", "Eileen Tanghal", "Fredrik Hjelm", "Charlie Songhurst", "Lucas Vaz"],
+    tags: ["composites", "carbon fiber", "drones", "advanced manufacturing", "robotic automation", "defense supply chain"],
+    techApproach: "Argos software turns a part design into mold design, simulation and a production plan, and robotic cells place carbon-fiber material, extract and trim parts, using processes picked for automation and sub-15-minute cycles instead of manual layup and autoclave curing.",
+    insight: "Carbon-fiber drone frames come mostly from a China-concentrated supply chain and composites are still made largely by hand, so automated domestic cells that hit their cycle times would give US drone makers an NDAA-compliant source of airframes at volume. Watch whether the launch customers turn into volume orders and whether it wins aerospace and defense certifications.",
+    recentEvent: { type: "funding", text: "Emerged from stealth with a $16.5M seed round led by AlleyCorp; ramping production at a 36,000 sq ft Torrance facility", date: "2026-10" },
+    signal: "rising",
+    source: "Verified 10 Nov 2026 (added at Stephen's request): https://www.helicon.tech/announcement; https://www.compositesworld.com/news/helicon-raises-165m-to-automate-carbon-fiber-part-production; https://tectonicdefense.com/exclusive-helicon-emerges-from-stealth-raises-16-5m; https://www.sec.gov/Archives/edgar/data/2141564/000214156426000001/primary_doc.xml",
     addedDate: "2026-11"
   }
 ];
