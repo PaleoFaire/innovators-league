@@ -3,113 +3,113 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -3.75,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 0.51,
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 6.73,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 12.35,
       "count": 7
     },
     "autonomous": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 5.82,
+      "gainers": 7,
+      "losers": 0,
+      "avg_change": 7.93,
       "count": 7
     },
     "nuclear": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.78,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 8.85,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -5.01,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -11.8,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 9.11,
+      "avg_change": 6.24,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.29,
+      "avg_change": -1.91,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -0.81,
+      "avg_change": -1.12,
       "count": 2
     },
     "chips": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -6.43,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.72,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "JOBY",
-      "Joby Aviation",
-      22.06
+      "RKLB",
+      "Rocket Lab",
+      25.87
     ],
     [
       "SATL",
       "Satellogic",
-      18.54
+      23.05
     ],
     [
-      "IONQ",
-      "IonQ",
-      16.67
-    ],
-    [
-      "RKLB",
-      "Rocket Lab",
-      15.21
+      "LUNR",
+      "Intuitive Machines",
+      22.86
     ],
     [
       "ACHR",
       "Archer Aviation",
-      14.04
+      17.84
+    ],
+    [
+      "JOBY",
+      "Joby Aviation",
+      17.52
     ]
   ],
   "topLosers": [
     [
-      "ALAB",
-      "Astera Labs",
-      -7.47
+      "ASRHF",
+      "Astroscale",
+      -7.03
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      -8.51
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -8.76
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      -9.31
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      -16.14
+      "SLDP",
+      "Solid Power",
+      -11.78
     ],
     [
       "NVDA",
       "NVIDIA",
-      -18.29
+      -12.44
+    ],
+    [
+      "LNZA",
+      "LanzaTech",
+      -20.13
     ]
   ],
-  "lastUpdated": "2026-11-11 07:50:40"
+  "lastUpdated": "2026-11-11 20:16:26"
 }
