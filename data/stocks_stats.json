@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -4.67,
+      "avg_change": -3.75,
       "count": 1
     },
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 4.81,
+      "avg_change": 6.73,
       "count": 7
     },
     "autonomous": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 4.5,
+      "avg_change": 5.82,
       "count": 7
     },
     "nuclear": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.87,
+      "avg_change": 1.78,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -5.08,
+      "avg_change": -5.01,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 8.18,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 9.11,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.69,
+      "avg_change": -2.29,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -1.55,
+      "avg_change": -0.81,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -6.51,
+      "avg_change": -6.43,
       "count": 3
     }
   },
@@ -61,34 +61,34 @@
     [
       "JOBY",
       "Joby Aviation",
-      21.75
+      22.06
     ],
     [
       "SATL",
       "Satellogic",
-      17.33
+      18.54
     ],
     [
       "IONQ",
       "IonQ",
-      15.82
-    ],
-    [
-      "ACHR",
-      "Archer Aviation",
-      13.08
+      16.67
     ],
     [
       "RKLB",
       "Rocket Lab",
-      11.75
+      15.21
+    ],
+    [
+      "ACHR",
+      "Archer Aviation",
+      14.04
     ]
   ],
   "topLosers": [
     [
       "ALAB",
       "Astera Labs",
-      -7.68
+      -7.47
     ],
     [
       "DRSHF",
@@ -98,18 +98,18 @@
     [
       "ASTS",
       "AST SpaceMobile",
-      -9.99
+      -9.31
     ],
     [
       "LNZA",
       "LanzaTech",
-      -13.78
+      -16.14
     ],
     [
       "NVDA",
       "NVIDIA",
-      -18.49
+      -18.29
     ]
   ],
-  "lastUpdated": "2026-11-10 20:32:47"
+  "lastUpdated": "2026-11-11 07:50:40"
 }
