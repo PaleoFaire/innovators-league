@@ -171,15 +171,6 @@
     "isIPO": false
   },
   {
-    "company": "Palantir Technologies",
-    "ticker": "PLTR",
-    "form": "4",
-    "date": "2026-08-12",
-    "description": "xslF345X06/wk-form4_1786579300.xml",
-    "accessionNumber": "0001824159-26-000013",
-    "isIPO": false
-  },
-  {
     "company": "Rocket Lab",
     "ticker": "RKLB",
     "form": "10-Q",
@@ -819,24 +810,6 @@
     "isIPO": false
   },
   {
-    "company": "Intuitive Machines",
-    "ticker": "LUNR",
-    "form": "4",
-    "date": "2026-08-12",
-    "description": "xslF345X06/form4-08122026_110816.xml",
-    "accessionNumber": "0001104659-26-095159",
-    "isIPO": false
-  },
-  {
-    "company": "Intuitive Machines",
-    "ticker": "LUNR",
-    "form": "4",
-    "date": "2026-08-12",
-    "description": "xslF345X06/form4-08122026_060801.xml",
-    "accessionNumber": "0001696102-26-000008",
-    "isIPO": false
-  },
-  {
     "company": "Momentus",
     "ticker": "MNTS",
     "form": "10-Q",
@@ -861,24 +834,6 @@
     "date": "2026-08-28",
     "description": "apre-20260828x8k.htm",
     "accessionNumber": "0001104659-26-102795",
-    "isIPO": false
-  },
-  {
-    "company": "Momentus",
-    "ticker": "MNTS",
-    "form": "10-Q",
-    "date": "2026-08-12",
-    "description": "apre-20260630x10q.htm",
-    "accessionNumber": "0001104659-26-094544",
-    "isIPO": false
-  },
-  {
-    "company": "Momentus",
-    "ticker": "MNTS",
-    "form": "8-K",
-    "date": "2026-08-12",
-    "description": "apre-20260812x8k.htm",
-    "accessionNumber": "0001104659-26-094542",
     "isIPO": false
   },
   {
@@ -924,24 +879,6 @@
     "date": "2026-08-18",
     "description": "spce-20260818.htm",
     "accessionNumber": "0001706946-26-000130",
-    "isIPO": false
-  },
-  {
-    "company": "Virgin Galactic",
-    "ticker": "SPCE",
-    "form": "10-Q",
-    "date": "2026-08-12",
-    "description": "spce-20260630.htm",
-    "accessionNumber": "0001706946-26-000128",
-    "isIPO": false
-  },
-  {
-    "company": "Virgin Galactic",
-    "ticker": "SPCE",
-    "form": "8-K",
-    "date": "2026-08-12",
-    "description": "spce-20260812.htm",
-    "accessionNumber": "0001706946-26-000126",
     "isIPO": false
   },
   {
@@ -1014,6 +951,15 @@
     "date": "2026-08-19",
     "description": "xslF345X06/wk-form4_1787169657.xml",
     "accessionNumber": "0001922054-26-000001",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
+    "date": "2026-11-10",
+    "description": "xslF345X06/wk-form4_1794347507.xml",
+    "accessionNumber": "0002146790-26-000027",
     "isIPO": false
   },
   {
@@ -1296,12 +1242,12 @@
     "isIPO": false
   },
   {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-09-02",
-    "description": "xslF345X06/wk-form4_1788381083.xml",
-    "accessionNumber": "0002021786-26-000019",
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "8-K",
+    "date": "2026-11-10",
+    "description": "leu-20261104.htm",
+    "accessionNumber": "0001628280-26-072824",
     "isIPO": false
   },
   {
@@ -1740,6 +1686,15 @@
     "company": "UiPath",
     "ticker": "PATH",
     "form": "4",
+    "date": "2026-11-10",
+    "description": "xslF345X06/primarydocument.xml",
+    "accessionNumber": "0001543401-26-000009",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
+    "form": "4",
     "date": "2026-10-26",
     "description": "xslF345X06/primarydocument.xml",
     "accessionNumber": "0002127293-26-000013",
@@ -2022,6 +1977,24 @@
     "date": "2026-08-17",
     "description": "d145238d8k.htm",
     "accessionNumber": "0001193125-26-353239",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
+    "form": "10-Q",
+    "date": "2026-11-10",
+    "description": "rgti-20260930x10q.htm",
+    "accessionNumber": "0001104659-26-125161",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
+    "form": "8-K",
+    "date": "2026-11-10",
+    "description": "rgti-20261110x8k.htm",
+    "accessionNumber": "0001104659-26-125152",
     "isIPO": false
   },
   {

@@ -1,7 +1,12 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-11-10 14:35:21 UTC
+// Last updated: 2026-11-11 13:50:01 UTC
 const SEC_FILINGS_LIVE = [
   { company: "AST SpaceMobile", form: "8-K", date: "2026-11-10", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
+  { company: "Oklo", form: "4", date: "2026-11-10", description: "xslF345X06/wk-form4_1794347507.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Centrus Energy", form: "8-K", date: "2026-11-10", description: "leu-20261104.htm", isIPO: false, ticker: "LEU" },
+  { company: "UiPath", form: "4", date: "2026-11-10", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
+  { company: "Rigetti Computing", form: "10-Q", date: "2026-11-10", description: "rgti-20260930x10q.htm", isIPO: false, ticker: "RGTI" },
+  { company: "Rigetti Computing", form: "8-K", date: "2026-11-10", description: "rgti-20261110x8k.htm", isIPO: false, ticker: "RGTI" },
   { company: "D-Wave Quantum", form: "8-K", date: "2026-11-10", description: "qbts-20261110.htm", isIPO: false, ticker: "QBTS" },
   { company: "LanzaTech", form: "10-Q", date: "2026-11-10", description: "tlsi-20260930.htm", isIPO: false, ticker: "LNZA" },
   { company: "LanzaTech", form: "8-K", date: "2026-11-10", description: "tlsi-20261110.htm", isIPO: false, ticker: "LNZA" },
@@ -46,9 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Palantir Technologies", form: "10-Q", date: "2026-11-03", description: "pltr-20260930.htm", isIPO: false, ticker: "PLTR" },
   { company: "Rocket Lab", form: "4", date: "2026-11-03", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Rocket Lab", form: "4", date: "2026-11-03", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Upstart Holdings", form: "10-Q", date: "2026-11-03", description: "upst-20260930.htm", isIPO: false, ticker: "UPST" },
-  { company: "Upstart Holdings", form: "8-K", date: "2026-11-03", description: "upst-20261103.htm", isIPO: false, ticker: "UPST" },
-  { company: "Astera Labs", form: "4", date: "2026-11-03", description: "xslF345X06/wk-form4_1793749351.xml", isIPO: false, ticker: "ALAB" },
-  { company: "Palantir Technologies", form: "8-K", date: "2026-11-02", description: "pltr-20261102.htm", isIPO: false, ticker: "PLTR" },
-  { company: "Oklo", form: "4", date: "2026-11-02", description: "xslF345X06/wk-form4_1793655014.xml", isIPO: false, ticker: "OKLO" },
 ];

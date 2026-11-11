@@ -1,25 +1,15 @@
 {
-  "generated_at": "2026-11-10T14:51:59.929715Z",
+  "generated_at": "2026-11-11T14:06:25.078183Z",
   "takes": [
     {
       "author": "TechCrunch",
       "role": "Industry signal",
       "company": "Anthropic",
-      "text": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+      "text": "All 7 Anthropic founders will each cash out about $250M in IPO",
       "date": "Tue, 10 No",
       "source": "news",
-      "source_url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
-      "signal_type": "funding"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Anthropic reportedly plans to move forward with IPO plans",
-      "date": "Tue, 10 No",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
-      "signal_type": "funding"
+      "source_url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+      "signal_type": "ipo"
     },
     {
       "author": "SpaceNews",
@@ -29,16 +19,6 @@
       "date": "Thu, 05 No",
       "source": "news",
       "source_url": "https://spacenews.com/cesiumastro-secures-730-million-in-janus-henderson-led-series-d-at-a-valuation-above-4-5-billion-unveils-synchronicity-satellite-constellation-following-fully-successful-element-1-mission/",
-      "signal_type": "funding"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Nominal",
-      "text": "AI hardware startup Nominal triples valuation to $3B in 8 months",
-      "date": "Mon, 09 No",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/11/09/ai-hardware-startup-nominal-triples-valuation-to-3b-in-8-months/",
       "signal_type": "funding"
     },
     {
@@ -55,7 +35,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 5,
+    "from_news": 3,
     "from_press": 0
   }
 }

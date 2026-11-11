@@ -2790,15 +2790,6 @@
     "isIPO": false
   },
   {
-    "company": "Virgin Galactic",
-    "ticker": "SPCE",
-    "form": "4",
-    "date": "2026-04-09",
-    "description": "xslF345X06/wk-form4_1775775170.xml",
-    "accessionNumber": "0001916877-26-000006",
-    "isIPO": false
-  },
-  {
     "company": "NuScale Power",
     "ticker": "SMR",
     "form": "10-Q",
@@ -3066,6 +3057,15 @@
     "date": "2026-04-13",
     "description": "xslF345X06/wk-form4_1776114526.xml",
     "accessionNumber": "0001124198-26-000038",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
+    "date": "2026-11-10",
+    "description": "xslF345X06/wk-form4_1794347507.xml",
+    "accessionNumber": "0002146790-26-000027",
     "isIPO": false
   },
   {
@@ -3348,12 +3348,12 @@
     "isIPO": false
   },
   {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-09-02",
-    "description": "xslF345X06/wk-form4_1788381083.xml",
-    "accessionNumber": "0002021786-26-000019",
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "8-K",
+    "date": "2026-11-10",
+    "description": "leu-20261104.htm",
+    "accessionNumber": "0001628280-26-072824",
     "isIPO": false
   },
   {
@@ -3633,15 +3633,6 @@
     "date": "2026-06-22",
     "description": "xslF345X06/wk-form4_1782175158.xml",
     "accessionNumber": "0001628280-26-044784",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "8-K",
-    "date": "2026-06-18",
-    "description": "leu-20260618.htm",
-    "accessionNumber": "0001628280-26-044386",
     "isIPO": false
   },
   {
@@ -4230,15 +4221,6 @@
     "isIPO": false
   },
   {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "4",
-    "date": "2026-06-15",
-    "description": "xslF345X06/wk-form4_1781568269.xml",
-    "accessionNumber": "0001577526-26-000060",
-    "isIPO": false
-  },
-  {
     "company": "Upstart Holdings",
     "ticker": "UPST",
     "form": "8-K",
@@ -4524,6 +4506,15 @@
     "date": "2026-05-18",
     "description": "xslF345X06/wk-form4_1779138435.xml",
     "accessionNumber": "0001832808-26-000008",
+    "isIPO": false
+  },
+  {
+    "company": "UiPath",
+    "ticker": "PATH",
+    "form": "4",
+    "date": "2026-11-10",
+    "description": "xslF345X06/primarydocument.xml",
+    "accessionNumber": "0001543401-26-000009",
     "isIPO": false
   },
   {
@@ -5123,6 +5114,24 @@
   {
     "company": "Rigetti Computing",
     "ticker": "RGTI",
+    "form": "10-Q",
+    "date": "2026-11-10",
+    "description": "rgti-20260930x10q.htm",
+    "accessionNumber": "0001104659-26-125161",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
+    "form": "8-K",
+    "date": "2026-11-10",
+    "description": "rgti-20261110x8k.htm",
+    "accessionNumber": "0001104659-26-125152",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
     "form": "4",
     "date": "2026-09-10",
     "description": "xslF345X06/form4.xml",
@@ -5352,15 +5361,6 @@
     "date": "2026-05-11",
     "description": "rgti-20260511x8k.htm",
     "accessionNumber": "0001104659-26-058635",
-    "isIPO": false
-  },
-  {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
-    "form": "DEF 14A",
-    "date": "2026-04-24",
-    "description": "tm261606-2_def14a.htm",
-    "accessionNumber": "0001104659-26-048555",
     "isIPO": false
   },
   {
@@ -8772,15 +8772,6 @@
     "date": "2026-02-12",
     "description": "vnt-20251231.htm",
     "accessionNumber": "0001628280-26-007648",
-    "isIPO": false
-  },
-  {
-    "company": "Tempus AI",
-    "ticker": "TEM",
-    "form": "8-K",
-    "date": "2026-02-12",
-    "description": "vnt-20260212.htm",
-    "accessionNumber": "0001628280-26-007456",
     "isIPO": false
   },
   {
