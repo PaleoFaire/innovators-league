@@ -247,7 +247,14 @@ def test_master_list_covers_every_data_js_company():
     renames, new, _, _ = sm.plan(companies, entries, None, None, False)
     check((len(renames), [n for _, n, _ in new]), (0, []), "data.js companies missing from the master list")
     keys = [fd._db_key(n) for _, n, _ in entries]
-    check(sorted({n for _, n, _ in entries if keys.count(fd._db_key(n)) > 1}), [], "duplicate master-list lines")
+    exact = {fd._squash(n) for _, n, _ in entries}
+    # A renamed company's "X (formerly Y)" line may share its bare key with a
+    # company literally called X: init_matcher gives the bare key to the exact
+    # name, and the renamed one is reached by its full name and former names.
+    dupes = {n for _, n, _ in entries if keys.count(fd._db_key(n)) > 1
+             and not ("(" in n and fd._db_key(n) in exact and fd._squash(n) != fd._db_key(n))}
+    dupes = {n for n in dupes if sum(1 for d in dupes if fd._db_key(d) == fd._db_key(n)) > 1}
+    check(sorted(dupes), [], "duplicate master-list lines")
     # ...and nothing cut from the database came back with it.
     import json
     cut = {fd._squash(c["name"]) for c in json.loads(sm.ARCHIVE.read_text())["companies"]}
@@ -395,6 +402,29 @@ def test_funding_rss_uses_the_deal_matcher():
     check(sorted(d), sorted(["company", "amount", "round", "investors", "date", "source", "url",
                              "headline", "fetched_at"]), "fields")
     check((d["date"], d["url"], d["source"]), ("2026-10-07", "https://example.com/a", "Test"), "date and link")
+
+
+def test_unlabelled_round_is_the_same_deal_as_a_labelled_one():
+    """Harbinger's $240M (Nov 2026) arrived as 'Funding Round' and as 'Series D'."""
+    existing = [{"company": "Harbinger", "investor": "Undisclosed", "amount": "$240M", "round": "Funding Round",
+                 "date": "2026-11", "valuation": "", "leadOrParticipant": "lead", "headline": "a"}]
+    new = [{"company": "Harbinger", "amount": "$240M", "round": "Series D", "date": "2026-11",
+            "investors": [], "headline": "b"}]
+    merged, added = fd.deduplicate_deals(existing, new)
+    assert added == 0 and len(merged) == 1, (added, merged)
+    assert merged[0]["round"] == "Series D", "the label fills the unlabelled entry"
+    merged, added = fd.deduplicate_deals(merged, [{"company": "Harbinger", "amount": "$240M", "round": "Funding Round",
+                                                    "date": "2026-11", "investors": [], "headline": "c"}])
+    assert added == 0 and len(merged) == 1, "an unlabelled repeat is dropped"
+    merged, added = fd.deduplicate_deals(merged, [{"company": "Harbinger", "amount": "$240M", "round": "Series E",
+                                                    "date": "2026-12", "investors": [], "headline": "d"}])
+    assert added == 1, "a different month is a different deal"
+
+
+def test_bare_key_belongs_to_the_exact_name():
+    fd.init_matcher()
+    check(fd._DB_BY_KEY.get("air"), "AIR", "bare 'air' is the eVTOL maker, not Air (formerly Govini)")
+    check(fd._DB_BY_KEY.get(fd._squash("Air (formerly Govini)")), "Air (formerly Govini)", "renamed one by full name")
 
 
 if __name__ == "__main__":

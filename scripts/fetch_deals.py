@@ -189,8 +189,13 @@ def init_matcher(data_js=DATA_JS_PATH, collisions=NAME_COLLISIONS_PATH):
     former = {_db_key(n): {f.lower() for f in r["former"]} for n, r in DB_COMPANIES.items() if r.get("former")}
     COMPANY_ALIASES = load_company_aliases(former)
     _DB_BY_KEY = {}
+    # Exact names first, then names without their parenthetical, so a bare key
+    # always belongs to the company that is literally called that: "air" is
+    # AIR the eVTOL maker, never "Air (formerly Govini)", whatever the order
+    # of data.js.
     for n in DB_COMPANIES:
         _DB_BY_KEY.setdefault(_squash(n), n)
+    for n in DB_COMPANIES:
         _DB_BY_KEY.setdefault(_db_key(n), n)
     _ALIAS_BY_KEY = {_squash(a): c for a, c in COMPANY_ALIASES.items()}
     CONTEXT_GUARDS, DIFFERENT = load_name_collisions(collisions)
@@ -977,19 +982,49 @@ def load_existing_deals():
     return deals
 
 
+GENERIC_ROUNDS = {"", "funding round", "undisclosed", "round", "funding"}
+
+
+def _loose_key(d):
+    """company|amount|month: one round reported twice, once without a label."""
+    return f"{d.get('company', '')}|{d.get('amount', '')}|{d.get('date', '')}".lower()
+
+
+def _is_generic(rnd):
+    return (rnd or "").strip().lower() in GENERIC_ROUNDS
+
+
 def deduplicate_deals(existing, new_deals):
-    """Merge new deals with existing, avoiding duplicates."""
+    """Merge new deals with existing, avoiding duplicates.
+
+    Two stories about one round can label it differently: Harbinger's $240M
+    (Nov 2026) arrived as "Funding Round" from one outlet and "Series D" from
+    another, and both reached DEAL_TRACKER. So a deal whose company, amount
+    and month match an existing one is the same deal when either side has no
+    round label; a labelled newcomer lends its label to the unlabelled entry.
+    """
     # Create a set of existing deal keys
     existing_keys = set()
+    by_loose = {}
     for d in existing:
         key = f"{d.get('company', '')}|{d.get('amount', '')}|{d.get('round', '')}|{d.get('date', '')}"
         existing_keys.add(key.lower())
+        by_loose.setdefault(_loose_key(d), []).append(d)
 
     merged = list(existing)
     added = 0
 
     for deal in new_deals:
         key = f"{deal['company']}|{deal['amount']}|{deal['round']}|{deal['date']}"
+        same = by_loose.get(_loose_key(deal), [])
+        if key.lower() not in existing_keys and same and (
+                _is_generic(deal.get("round")) or any(_is_generic(d.get("round")) for d in same)):
+            if not _is_generic(deal.get("round")):
+                for d in same:
+                    if _is_generic(d.get("round")):
+                        d["round"] = deal["round"]
+            existing_keys.add(key.lower())
+            continue
         if key.lower() not in existing_keys:
             # Convert to DEAL_TRACKER format (one entry per investor)
             if deal['investors']:
@@ -1022,6 +1057,7 @@ def deduplicate_deals(existing, new_deals):
                 added += 1
 
             existing_keys.add(key.lower())
+            by_loose.setdefault(_loose_key(deal), []).append(merged[-1])
 
     return merged, added
 
