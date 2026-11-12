@@ -165,6 +165,18 @@ SOFT = re.compile(
     r"revenue cycle|claims processing|cloud gpu|gpu capacity|malware|"
     r"managing secrets|software that coordinates)", re.I)
 
+# Since 12 Nov 2026 (Stephen): software is in scope when it is built for hard,
+# frontier or real-world tech; his example is Nominal (test and data software
+# for hardware). So a SOFT tell no longer rejects on its own: the candidate
+# goes to review. These never belong, whatever field they serve: the AI and
+# GPU clouds he cut on 25 Sept 2026, insurance and health-care services,
+# marketplaces and labor platforms, retail energy and generic IT security.
+SOFT_ALWAYS = re.compile(
+    r"(medicare|insurance|referral|clinical document|revenue cycle|claims processing|"
+    r"lab testing|marketplace|labor market|labor platform|gpu cloud|ai cloud|cloud gpu|"
+    r"gpu capacity|serverless|energy retail|generative ai agents|trades .*online|"
+    r"penetration testing|malware|managing secrets)", re.I)
+
 # Public megacaps and mega-private labs we deliberately do not track.
 EXCLUDE = {
     "nvidia", "tesla", "coreweave", "cerebrassystems", "aurora", "nebius", "meta",
@@ -511,8 +523,8 @@ def in_scope(c: dict) -> tuple[bool, str]:
         return False, "public company"
     if norm(c["name"]) in EXCLUDE:
         return False, "megacap / mega-private, deliberately untracked"
-    if SOFT.search(c.get("tagline") or ""):
-        return False, "software or services wearing a hard-tech label"
+    if SOFT_ALWAYS.search(c.get("tagline") or ""):
+        return False, "software or services outside hard tech"
     if not (c.get("founders") or "").strip():
         return False, "no named founders"
 

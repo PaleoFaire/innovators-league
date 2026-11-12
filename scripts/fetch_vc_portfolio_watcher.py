@@ -112,8 +112,8 @@ CHANGES_OUT = DATA_DIR / "vc_portfolio_changes.json"
 BACKFILL_OUT = DATA_DIR / "vc_portfolio_investor_backfill.json"
 
 sys.path.insert(0, str(ROOT / "scripts"))
-from fetch_curated_lists import (EXCLUDE, SOFT, different_company, load_collisions,  # noqa: E402
-                                 norm, person_set, stem)
+from fetch_curated_lists import (EXCLUDE, SOFT, SOFT_ALWAYS, different_company,  # noqa: E402
+                                 load_collisions, norm, person_set, stem)
 
 # Fund sites serve bot user-agents a challenge page or nothing at all.
 HEADERS = {
@@ -291,13 +291,36 @@ HARD = re.compile(
     r"material|biotech|biolog|therap|\bdrug|genom|protein|\bcells?\b|medical device|"
     r"diagnos|implant|neural|brain|construction|housing|\bhomes?\b|autonom|vehicle|truck|"
     r"electric|motor|engine|turbine|\bpower\b|microgrid|desalin|water|weapon|missile|"
-    r"munition|armor|radiopharm|microscop|instrument|spectromet|refrigerat|cryogenic)", re.I)
+    r"munition|armor|radiopharm|microscop|instrument|spectromet|refrigerat|cryogenic|"
+    r"military|warfight|national security|mission-critical|battlefield|combatant|\bdod\b|"
+    r"department of (?:war|defense))", re.I)
 SOFT2 = re.compile(
     r"(platform (that|for|to|enabl|connect)|\bsaas\b|marketplace|payments?\b|insurance|"
     r"fintech|e-?commerce|post-purchase|retail market|logistics platform|delivery solution|"
     r"control plane|inference cloud|benchmarks|local government|govtech|autonomous finance|"
     r"home care network|veterinari|dementia care|creative and communications studio|"
     r"transit agencies|energy management, helping|quoting|rate-ingestion)", re.I)
+# The SOFT2 tells that never belong, whatever field they name.
+SOFT2_ALWAYS = re.compile(
+    r"(payments?\b|insurance|fintech|e-?commerce|post-purchase|retail market|marketplace|"
+    r"inference cloud|autonomous finance|home care network|veterinari|dementia care)", re.I)
+
+
+def software_bar(blurb: str) -> tuple[str, bool]:
+    """(reject_reason, is_software) for a holding's description.
+
+    Since 12 Nov 2026 software built for hard, frontier or real-world tech is
+    in scope (Stephen; his example is Nominal). A software tell now rejects
+    only when the description names no hard-tech field; the categories he cut
+    or that are plainly not hard tech (SOFT_ALWAYS, SOFT2_ALWAYS) always do.
+    """
+    b = blurb or ""
+    if SOFT_ALWAYS.search(b) or SOFT2_ALWAYS.search(b):
+        return "software or services outside hard tech", True
+    soft = bool(SOFT.search(b) or SOFT2.search(b))
+    if soft and not HARD.search(b):
+        return "software with no hard-tech field named", True
+    return "", soft
 # Getro boards tag every company. A holding none of whose tags names a
 # physical industry is software or services, whatever words its description
 # happens to contain: Nylas ("power"), Vercel ("engine"), Rocketlane, Qualia
@@ -1192,6 +1215,7 @@ def main() -> int:
             continue
         overlap = fund_overlap.get(key, overlap)
         why = ""
+        sw_why, is_software = software_bar(h["blurb"])
         if not fund["discover"]:
             why = "generalist fund: holdings only"
         elif norm(h["name"]) in EXCLUDE or norm(name_from_domain(h["domain"])) in EXCLUDE:
@@ -1205,8 +1229,8 @@ def main() -> int:
             why = f"industry '{h['focus']}' is software or consumer"
         elif h.get("status", "").startswith("Exits"):
             why = "exited"
-        elif SOFT.search(h["blurb"] or "") or SOFT2.search(h["blurb"] or ""):
-            why = "software or services wearing a hard-tech label"
+        elif sw_why:
+            why = sw_why
         elif h.get("_tags") and not HARD_TAGS.search(" | ".join(h["_tags"])):
             why = "the board's industry tags show no physical product"
         elif h["blurb"] and not HARD.search(h["blurb"]):
@@ -1220,7 +1244,9 @@ def main() -> int:
             "tagline": h["blurb"], "founders": h["founders"], "founded": h["founded"],
             "city": h["hq"], "funds": [], "fund_overlap": 0.0,
             "needs_check": not bool(h["blurb"]),
+            "software_for_hard_tech": False,
             "possible_match": possible_matches(h, db)})
+        c["software_for_hard_tech"] = c.get("software_for_hard_tech") or is_software
         c["funds"].append({"fund": key, "first_funded": h["first_funded"], "focus": h["focus"],
                            "source_url": h["source_url"], "new_this_run": is_new})
         c["fund_overlap"] = max(c["fund_overlap"], round(overlap, 3))

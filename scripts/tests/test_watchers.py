@@ -182,6 +182,22 @@ def test_getro_adapter_pages_and_drops_the_fund_itself():
     assert w.HARD_TAGS.search(" | ".join(rows[2]["_tags"])), "biotech fails the tag bar"
 
 
+def test_software_for_hard_tech_goes_to_review():
+    # 12 Nov 2026 rule: software built for hard, frontier or real-world tech is in scope.
+    check(w.software_bar("Observability for mission-critical hardware"), ("", True), "Nominal-style software kept")
+    check(w.software_bar("AI-native decision tools for military operations"), ("", False), "no software tell")
+    assert w.HARD.search("AI-native decision tools for military operations"), "military counts as a hard-tech field"
+    check(w.software_bar("SaaS platform for restaurants")[0], "software with no hard-tech field named", "generic SaaS")
+    check(w.software_bar("GPU cloud for robotics startups")[0], "software or services outside hard tech",
+          "AI and GPU clouds stay out (cut 25 Sept)")
+    check(w.software_bar("Insurance platform for drone fleets")[0], "software or services outside hard tech",
+          "insurance stays out whatever it insures")
+    row = {"sector": "Software", "name": "Testco", "founders": "A. Founder", "founded": "2023", "raised": "$20M"}
+    check(fc.in_scope({**row, "tagline": "Telemetry platform for rocket engine test stands"}), (True, ""),
+          "curated: software serving hard tech kept")
+    check(fc.in_scope({**row, "tagline": "GPU cloud for AI startups"})[0], False, "curated: AI cloud still rejected")
+
+
 def test_cos_json_adapter_keeps_current_investments_only():
     page = ('<script>\n(function(){\n        var COS = {'
             '"foundry": {"name": "Foundry Robotics", "tag": "Robotics for manufacturing", "stage": "SEED", '
