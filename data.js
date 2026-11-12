@@ -65893,6 +65893,31 @@ const COMPANIES = [
     signal: "hot",
     source: "Verified 12 Nov 2026 (added at Stephen's request): https://www.watchtowerlabs.ai/news-releases/watchtower-labs-emerges-from-stealth-with-35-million-to-build-ai-native-decision-tools-for-military-operations; https://www.watchtowerlabs.ai/team; https://www.upstartsmedia.com/p/watchtower-35m-defense-logistics",
     addedDate: "2026-11"
+  },
+  {
+    name: "ZaiNar",
+    status: "active",
+    sector: "Infrastructure & Logistics",
+    subsector: "General",
+    description: "Turns existing 5G, Wi-Fi and private cellular networks into a positioning system: by synchronizing wireless signals to sub-nanosecond accuracy it derives centimeter-level 3D location indoors, outdoors and underground without satellites, cameras or added hardware, as a location layer for physical AI such as robots, industrial sites and tracked assets. It says it is deployed and operating on multiple continents with carrier and enterprise partners, and it has joined Arm Total Design for physical AI. Emerged from nine years of stealth in February 2026 with more than $100M invested at a valuation above $1B.",
+    founder: "Daniel Jacker (co-founder and CEO)",
+    location: "Belmont, CA",
+    state: "CA",
+    country: "United States",
+    lat: 37.5165,
+    lng: -122.2942,
+    founded: 2017,
+    fundingStage: "Undisclosed",
+    totalRaised: "$100M+",
+    website: "https://zainartech.com",
+    investors: ["Future Ventures", "Samsung", "SoftBank NY", "AME Cloud Ventures", "GFC", "Steve Jurvetson (board member)", "Jaan Tallinn", "Nicholas Pritzker"],
+    tags: ["positioning", "wireless sensing", "5g", "physical ai", "time synchronization", "location"],
+    techApproach: "Sub-nanosecond time synchronization of the signals already flowing through 5G, Wi-Fi and private cellular networks lets it compute centimeter-level 3D positions of devices and assets without installing new hardware.",
+    insight: "Precise indoor and underground location has needed dedicated beacons or cameras; if network-side positioning works at carrier scale it becomes a shared location layer for robots, industrial sites and logistics. Watch carrier deployments and whether accuracy holds outside controlled sites.",
+    recentEvent: { type: "funding", text: "Emerged from stealth with more than $100M invested at a valuation above $1B", date: "2026-02" },
+    signal: "rising",
+    source: "Verified 12 Nov 2026 (re-check under the 12 Nov software rule): https://zainartech.com/news/funding; https://www.therobotreport.com/zainar-raises-100m-and-launches-physical-ai-platform/; https://zainartech.com/",
+    addedDate: "2026-11"
   }
 ];
 
