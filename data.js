@@ -29545,7 +29545,7 @@ const COMPANIES = [
     fundingStage: "Seed",
     totalRaised: "$30M",
     website: "https://furientis.com",
-    investors: ["Benchmark (lead, Series A)", "Silent Ventures", "Bessemer Venture Partners", "SV Angel"],
+    investors: ["Benchmark (lead, Seed)", "Silent Ventures (lead, Pre-Seed)", "Bessemer Venture Partners", "SV Angel"],
     tags: ["interceptors", "missiles", "cost-per-intercept", "anduril-alumni"],
     source: "Silent Ventures portfolio scan, Sep 2026; Fortune; GlobeNewswire",
     addedDate: "2026-09",
