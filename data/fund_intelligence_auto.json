@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-11T14:06:25.642134Z",
+  "generated_at": "2026-11-12T15:05:15.384966Z",
   "platform": {
-    "companiesTracked": 1413,
+    "companiesTracked": 1415,
     "sectorsMonitored": 16,
-    "totalCapitalRaisedTracked": "$501.2B",
+    "totalCapitalRaisedTracked": "$501.3B",
     "totalValuationTracked": "$1808.1B",
     "companiesWithValuation": 218,
     "govContractsTracked": 201,
     "sbirAwardsTracked": 341,
-    "dealsTracked": 241,
-    "newsItemsTracked": 24,
-    "dataPointsUpdated": "56,520+"
+    "dealsTracked": 242,
+    "newsItemsTracked": 22,
+    "dataPointsUpdated": "56,600+"
   },
   "topFunds": [
     {
@@ -47,7 +47,7 @@
     },
     {
       "fund": "Founders Fund",
-      "portfolio_count": 21,
+      "portfolio_count": 22,
       "companies": [
         "Amca",
         "American Terawatt",
@@ -127,7 +127,7 @@
     },
     {
       "fund": "In-Q-Tel",
-      "portfolio_count": 10,
+      "portfolio_count": 11,
       "companies": [
         "Alta Resource Technologies",
         "Anello Photonics",
@@ -297,7 +297,7 @@
     "Climate & Energy": 236,
     "Space & Aerospace": 235,
     "Robotics & Manufacturing": 217,
-    "Defense & Security": 194,
+    "Defense & Security": 195,
     "Biotech & Health": 136,
     "Chips & Semiconductors": 113,
     "Nuclear Energy": 74,
@@ -307,7 +307,7 @@
     "AI & Software": 21,
     "Housing & Construction": 17,
     "Ocean & Maritime": 15,
-    "Infrastructure & Logistics": 11,
+    "Infrastructure & Logistics": 12,
     "Supersonic & Hypersonic": 5
   }
 }

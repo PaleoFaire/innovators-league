@@ -306,15 +306,6 @@
     "isIPO": false
   },
   {
-    "company": "Palantir Technologies",
-    "ticker": "PLTR",
-    "form": "4",
-    "date": "2026-06-02",
-    "description": "xslF345X06/wk-form4_1780445944.xml",
-    "accessionNumber": "0001840244-26-000010",
-    "isIPO": false
-  },
-  {
     "company": "Rocket Lab",
     "ticker": "RKLB",
     "form": "10-Q",
@@ -3351,6 +3342,15 @@
     "company": "Centrus Energy",
     "ticker": "LEU",
     "form": "8-K",
+    "date": "2026-11-12",
+    "description": "leu-20261112.htm",
+    "accessionNumber": "0001628280-26-073175",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "8-K",
     "date": "2026-11-10",
     "description": "leu-20261104.htm",
     "accessionNumber": "0001628280-26-072824",
@@ -5367,6 +5367,15 @@
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
     "form": "8-K",
+    "date": "2026-11-12",
+    "description": "qbts-20261112.htm",
+    "accessionNumber": "0001907982-26-000183",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "8-K",
     "date": "2026-11-10",
     "description": "qbts-20261110.htm",
     "accessionNumber": "0001907982-26-000180",
@@ -5694,15 +5703,6 @@
     "date": "2026-07-14",
     "description": "qbts-20260714.htm",
     "accessionNumber": "0001907982-26-000099",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "8-K",
-    "date": "2026-07-07",
-    "description": "qbts-20260707.htm",
-    "accessionNumber": "0001907982-26-000097",
     "isIPO": false
   },
   {

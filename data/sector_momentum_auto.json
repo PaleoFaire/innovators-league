@@ -1,23 +1,5 @@
 [
   {
-    "sector": "AI & Software",
-    "momentum": 56,
-    "trend": "accelerating",
-    "catalysts": [
-      "OpenAI acquires Odessia, travel startup created by Sonder fo",
-      "OpenAI, Anthropic face new oversight as New York\u2019s AI safety",
-      "All 7 Anthropic founders will each cash out about $250M in I"
-    ],
-    "fundingQ": "$12.1B",
-    "components": {
-      "funding": 100,
-      "news": 45,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-11"
-  },
-  {
     "sector": "Transportation",
     "momentum": 55,
     "trend": "steady",
@@ -31,47 +13,29 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-11-11"
+    "lastUpdated": "2026-11-12"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 50,
+    "momentum": 52,
     "trend": "steady",
     "catalysts": [
-      "Introducing the Waymo Accessibility Network UK: Co-Designing",
-      "Axon invests $1.2B into Skydio and becomes its U.S. public s",
-      "How did Agility Robotics perform on its first day on the sto"
+      "Viam Launchpad aims to accelerate robotics deployments",
+      "Runway&#8217;s Praxis-1 world action model for robotics is n",
+      "SoftBank leads $500m round for Agile Robots"
     ],
     "fundingQ": "$7.0B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-11"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 49,
-    "trend": "steady",
-    "catalysts": [
-      "Introducing the Waymo Accessibility Network UK: Co-Designing",
-      "Allen Control Systems launches new division to develop count",
-      "Anthropic launches Claude Meetings to turn workplace discuss"
-    ],
-    "fundingQ": "$1.2B",
-    "components": {
-      "funding": 51,
-      "news": 45,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-11-11"
+    "lastUpdated": "2026-11-12"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 42,
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
       "Allen Control Systems launches new division to develop count",
@@ -83,118 +47,154 @@
       "funding": 100,
       "news": 20,
       "hiring": 0,
-      "market": 12
+      "market": 54
     },
-    "lastUpdated": "2026-11-11"
+    "lastUpdated": "2026-11-12"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 50,
+    "trend": "steady",
+    "catalysts": [
+      "OpenAI acquires Odessia, travel startup created by Sonder fo",
+      "Anthropic Seeks Record $88.5B Tied To Public Market Debut",
+      "Anthropic Latest Fable 5.2 is a Crippled Model 3 Early and T"
+    ],
+    "fundingQ": "$12.1B",
+    "components": {
+      "funding": 100,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-12"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 49,
+    "trend": "steady",
+    "catalysts": [
+      "Viam Launchpad aims to accelerate robotics deployments",
+      "Runway&#8217;s Praxis-1 world action model for robotics is n",
+      "More Power and Data Centers for SpaceX in Mississippi"
+    ],
+    "fundingQ": "$1.2B",
+    "components": {
+      "funding": 51,
+      "news": 45,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-11-12"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 40,
+    "momentum": 43,
     "trend": "rising",
     "catalysts": [
-      "X-energy gets green light to build its first small modular n",
-      "With federal funding windfall, X-energy advances small nucle"
+      "Active nuclear energy ecosystem"
     ],
     "fundingQ": "$643M",
     "components": {
       "funding": 67,
-      "news": 10,
-      "hiring": 0,
-      "market": 70
-    },
-    "lastUpdated": "2026-11-11"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 37,
-    "trend": "rising",
-    "catalysts": [
-      "With federal funding windfall, X-energy advances small nucle"
-    ],
-    "fundingQ": "$550M",
-    "components": {
-      "funding": 46,
-      "news": 5,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-11-11"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
       "news": 0,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-11-11"
+    "lastUpdated": "2026-11-12"
   },
   {
-    "sector": "Consumer Tech",
-    "momentum": 18,
+    "sector": "Quantum Computing",
+    "momentum": 21,
     "trend": "declining",
     "catalysts": [
-      "Introducing the Waymo Accessibility Network UK: Co-Designing",
-      "OpenAI rolls out new business profiles, making ChatGPT just",
-      "Anthropic launches Claude Meetings to turn workplace discuss"
+      "QuantumScape unveils Osprey all-solid-state cell: 1,000 cycl"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 30,
+      "news": 5,
       "hiring": 0,
-      "market": 50
+      "market": 100
     },
-    "lastUpdated": "2026-11-11"
+    "lastUpdated": "2026-11-12"
   },
   {
-    "sector": "Drones & Autonomous",
-    "momentum": 14,
+    "sector": "Chips & Semiconductors",
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
-      "Introducing the Waymo Accessibility Network UK: Co-Designing",
-      "Allen Control Systems launches new division to develop count",
-      "Axon invests $1.2B into Skydio and becomes its U.S. public s"
+      "With $720M round, Britain&#8217;s Fractile gets a leg up in",
+      "SpaceX Is Turning the Data Internet Into an Optimized AI Del",
+      "Anthropic Latest Fable 5.2 is a Crippled Model 3 Early and T"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 50
+      "market": 61
     },
-    "lastUpdated": "2026-11-11"
+    "lastUpdated": "2026-11-12"
   },
   {
-    "sector": "Housing & Construction",
-    "momentum": 12,
+    "sector": "Climate & Energy",
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
-      "X-energy gets green light to build its first small modular n",
-      "OpenAI rolls out new business profiles, making ChatGPT just"
+      "Active climate & energy ecosystem"
+    ],
+    "fundingQ": "$550M",
+    "components": {
+      "funding": 46,
+      "news": 0,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-11-12"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Drone startup Uforce raises $700m backed by Valor Equity Par",
+      "Introducing the Waymo Accessibility Network UK: Co-Designing",
+      "Allen Control Systems launches new division to develop count"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-11"
+    "lastUpdated": "2026-11-12"
   },
   {
-    "sector": "Biotech & Health",
+    "sector": "Consumer Tech",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Viam Launchpad aims to accelerate robotics deployments",
+      "Runway&#8217;s Praxis-1 world action model for robotics is n",
+      "Introducing the Waymo Accessibility Network UK: Co-Designing"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-12"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "<a href=\"/biotech/abcellera-becomes-latest-biotech-abandon-d"
+      "Runway&#8217;s Praxis-1 world action model for robotics is n"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -203,14 +203,30 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-11"
+    "lastUpdated": "2026-11-12"
   },
   {
-    "sector": "Supersonic & Hypersonic",
+    "sector": "Infrastructure & Logistics",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Viam Launchpad aims to accelerate robotics deployments"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-12"
+  },
+  {
+    "sector": "Housing & Construction",
     "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "Active supersonic & hypersonic ecosystem"
+      "Active housing & construction ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -219,7 +235,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-11"
+    "lastUpdated": "2026-11-12"
   },
   {
     "sector": "Ocean & Maritime",
@@ -235,40 +251,22 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-11"
+    "lastUpdated": "2026-11-12"
   },
   {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 10,
+    "sector": "Biotech & Health",
+    "momentum": 9,
     "trend": "declining",
     "catalysts": [
-      "Active infrastructure & logistics ecosystem"
+      "<a href=\"/biotech/abcellera-becomes-latest-biotech-abandon-d"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
-      "market": 50
+      "market": 38
     },
-    "lastUpdated": "2026-11-11"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 4,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX Is Turning the Data Internet Into an Optimized AI Del",
-      "Anthropic Latest Fable 5.2 is a Crippled Model 3 Early and T",
-      "Anthropic Fable 5.2 Called Best AI Model by Far and is Pushi"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-11-11"
+    "lastUpdated": "2026-11-12"
   }
 ]

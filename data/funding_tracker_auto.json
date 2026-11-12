@@ -267,6 +267,19 @@
     "roundCount": 2
   },
   {
+    "company": "Fractile",
+    "totalRaised": "~$920M",
+    "totalRaisedRaw": 1420.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$720M",
+    "lastRoundDate": "2026-11",
+    "valuation": "$6.5B",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 2
+  },
+  {
     "company": "Mind Robotics",
     "totalRaised": "$1B+",
     "totalRaisedRaw": 1400.0,
@@ -492,19 +505,6 @@
     "roundCount": 1
   },
   {
-    "company": "Fractile",
-    "totalRaised": "~$920M",
-    "totalRaisedRaw": 920.0,
-    "lastRound": "Series C",
-    "lastRoundAmount": "$700M",
-    "lastRoundDate": "2026-10",
-    "valuation": "$6.5B",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
     "company": "FuriosaAI",
     "totalRaised": "~$866M",
     "totalRaisedRaw": 866.0,
@@ -554,6 +554,19 @@
     "valuation": "$2.3B",
     "leadInvestors": [
       "Glade Brook Capital Partners"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "UFORCE",
+    "totalRaised": "$50M",
+    "totalRaisedRaw": 700.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$700M",
+    "lastRoundDate": "2026-11",
+    "valuation": "$1B+",
+    "leadInvestors": [
+      "Valor Equity Partners"
     ],
     "roundCount": 1
   },
@@ -1084,7 +1097,7 @@
     "company": "Harbinger",
     "totalRaised": "$358M",
     "totalRaisedRaw": 358.0,
-    "lastRound": "Funding Round",
+    "lastRound": "Series D",
     "lastRoundAmount": "$240M",
     "lastRoundDate": "2026-11",
     "valuation": "",

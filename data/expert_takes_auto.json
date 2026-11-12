@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-11T14:06:25.078183Z",
+  "generated_at": "2026-11-12T15:05:15.021459Z",
   "takes": [
     {
-      "author": "TechCrunch",
+      "author": "Sifted",
       "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "All 7 Anthropic founders will each cash out about $250M in IPO",
-      "date": "Tue, 10 No",
+      "company": "UFORCE",
+      "text": "Drone startup Uforce raises $700m backed by Valor Equity Partners, UK National Wealth Fund",
+      "date": "Thu, 12 No",
       "source": "news",
-      "source_url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
-      "signal_type": "ipo"
+      "source_url": "https://sifted.eu/articles/drone-startup-uforce-fundraise-uk-national-wealth-fund-scoop/",
+      "signal_type": "funding"
     },
     {
       "author": "SpaceNews",
@@ -20,22 +20,12 @@
       "source": "news",
       "source_url": "https://spacenews.com/cesiumastro-secures-730-million-in-janus-henderson-led-series-d-at-a-valuation-above-4-5-billion-unveils-synchronicity-satellite-constellation-following-fully-successful-element-1-mission/",
       "signal_type": "funding"
-    },
-    {
-      "author": "CleanTechnica",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "Tesla &#038; SpaceX Lost $420 Billion In Market Cap This Week \u2014 Didn&#8217;t Have To Be This Way",
-      "date": "Fri, 06 No",
-      "source": "news",
-      "source_url": "https://cleantechnica.com/2026/11/06/tesla-spacex-lost-420-billion-in-market-cap-this-week-didnt-have-to-be-this-way/",
-      "signal_type": "ipo"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 3,
+    "from_news": 2,
     "from_press": 0
   }
 }

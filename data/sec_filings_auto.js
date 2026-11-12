@@ -1,6 +1,8 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-11-11 13:50:01 UTC
+// Last updated: 2026-11-12 14:52:16 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Centrus Energy", form: "8-K", date: "2026-11-12", description: "leu-20261112.htm", isIPO: false, ticker: "LEU" },
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-11-12", description: "qbts-20261112.htm", isIPO: false, ticker: "QBTS" },
   { company: "AST SpaceMobile", form: "8-K", date: "2026-11-10", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
   { company: "Oklo", form: "4", date: "2026-11-10", description: "xslF345X06/wk-form4_1794347507.xml", isIPO: false, ticker: "OKLO" },
   { company: "Centrus Energy", form: "8-K", date: "2026-11-10", description: "leu-20261104.htm", isIPO: false, ticker: "LEU" },
@@ -49,6 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Agrify Corporation", form: "8-K", date: "2026-11-04", description: "ea0310618-8k_rythm.htm", isIPO: false, ticker: "AGFY" },
   { company: "Astera Labs", form: "8-K", date: "2026-11-04", description: "tra-20261104.htm", isIPO: false, ticker: "ALAB" },
   { company: "Palantir Technologies", form: "10-Q", date: "2026-11-03", description: "pltr-20260930.htm", isIPO: false, ticker: "PLTR" },
-  { company: "Rocket Lab", form: "4", date: "2026-11-03", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2026-11-03", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
 ];

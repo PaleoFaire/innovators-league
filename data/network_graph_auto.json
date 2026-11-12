@@ -7066,6 +7066,16 @@
       "thesisCluster": ""
     },
     {
+      "id": "Watchtower Labs",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "ZaiNar",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": ""
+    },
+    {
       "id": "SpaceX-alumni-hub",
       "sector": "alumni",
       "thesisCluster": ""
@@ -12509,7 +12519,7 @@
     }
   ],
   "counts": {
-    "total_nodes": 1419,
+    "total_nodes": 1421,
     "total_edges": 943,
     "competitor_edges": 194,
     "thesis_edges": 695,
