@@ -65868,6 +65868,31 @@ const COMPANIES = [
     signal: "rising",
     source: "Verified 10 Nov 2026 (frontier-list scan): https://www.sequelmedtech.com/about; https://www.sequelmedtech.com/blog-posts/sequel-brings-twiist-nationwide-redefining-automated-insulin-delivery-category-with-industry-first-innovation; https://www.sequelmedtech.com/news; https://www.sequelmedtech.com/media-kit",
     addedDate: "2026-11"
+  },
+  {
+    name: "Watchtower Labs",
+    status: "active",
+    sector: "Defense & Security",
+    subsector: "Defense Software & Intelligence",
+    description: "Builds AI-native decision software for military operations, starting with logistics planning: it models the constraints that bind a force (fuel, munitions, spare parts, transport, routes and time), generates executable courses of action and stress-tests them against hundreds of possible futures, with planners asking questions in plain language. The Defense Innovation Unit selected it in January 2026 for the Joint Sustainment Decision Tool prototype program, after a 2025 research partnership with the Naval Postgraduate School, and Upstarts reports several early prototype contracts with major operational commands. Incubated inside Shield Capital, it emerged from stealth in October 2026 with a $35M seed round led by Shield Capital and Conviction, with Founders Fund and In-Q-Tel.",
+    founder: "Akhil Iyer (co-founder and CEO; former Marine special operations officer and Shield Capital investor), Suren Aghajanyan (co-founder and CTO; former Microsoft engineering leader), John Morman (co-founder and head of engineering; former Microsoft engineering leader)",
+    location: "Seattle, WA",
+    state: "WA",
+    country: "United States",
+    lat: 47.6062,
+    lng: -122.3321,
+    founded: 2025,
+    fundingStage: "Seed",
+    totalRaised: "$35M",
+    website: "https://www.watchtowerlabs.ai",
+    investors: ["Shield Capital (co-lead, Seed)", "Conviction (co-lead, Seed)", "Founders Fund", "In-Q-Tel"],
+    tags: ["defense logistics", "decision support", "simulation", "operations research", "military planning", "ai"],
+    techApproach: "Models a force's operational constraints and runs simulation and optimization across hundreds of possible futures, with language models turning plain-language questions into the underlying data and scenarios, to generate and compare executable courses of action.",
+    insight: "Military logistics planning still runs largely on spreadsheets and email while munitions and transport are scarce, and INDOPACOM asked Shield Capital for exactly this tool. The test is turning DIU and prototype work into programs of record alongside Palantir and other incumbent planning platforms.",
+    recentEvent: { type: "funding", text: "Emerged from stealth with a $35M seed round led by Shield Capital and Conviction, with Founders Fund and In-Q-Tel", date: "2026-10" },
+    signal: "hot",
+    source: "Verified 12 Nov 2026 (added at Stephen's request): https://www.watchtowerlabs.ai/news-releases/watchtower-labs-emerges-from-stealth-with-35-million-to-build-ai-native-decision-tools-for-military-operations; https://www.watchtowerlabs.ai/team; https://www.upstartsmedia.com/p/watchtower-35m-defense-logistics",
+    addedDate: "2026-11"
   }
 ];
 
