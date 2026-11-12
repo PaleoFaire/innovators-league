@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 0.41,
+      "avg_change": 10.65,
       "count": 1
     },
     "space": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 12.68,
+      "gainers": 7,
+      "losers": 0,
+      "avg_change": 23.27,
       "count": 7
     },
     "autonomous": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 8.61,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 3.5,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.23,
+      "avg_change": 18.25,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.37,
+      "avg_change": -11.65,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 5.67,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 10.26,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -0.51,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 0.52,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -1.12,
+      "avg_change": 6.1,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.12,
+      "avg_change": 20.6,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "RKLB",
-      "Rocket Lab",
-      26.31
-    ],
-    [
       "LUNR",
       "Intuitive Machines",
-      22.66
+      51.04
     ],
     [
-      "SATL",
-      "Satellogic",
-      18.38
+      "AMD",
+      "AMD",
+      44.08
     ],
     [
-      "ACHR",
-      "Archer Aviation",
-      17.96
+      "RKLB",
+      "Rocket Lab",
+      39.31
     ],
     [
       "OKLO",
       "Oklo",
-      16.91
+      28.02
+    ],
+    [
+      "ALAB",
+      "Astera Labs",
+      26.58
     ]
   ],
   "topLosers": [
     [
-      "ASRHF",
-      "Astroscale",
-      -7.03
-    ],
-    [
       "RXRX",
       "Recursion Pharmaceuticals",
-      -7.47
+      -4.57
+    ],
+    [
+      "QS",
+      "QuantumScape",
+      -5.23
     ],
     [
       "SLDP",
       "Solid Power",
-      -12.0
+      -8.33
     ],
     [
       "NVDA",
       "NVIDIA",
-      -13.19
+      -8.87
     ],
     [
       "LNZA",
       "LanzaTech",
-      -20.13
+      -21.4
     ]
   ],
-  "lastUpdated": "2026-11-12 08:26:38"
+  "lastUpdated": "2026-11-12 20:55:11"
 }
