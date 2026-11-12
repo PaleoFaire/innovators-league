@@ -5,43 +5,43 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 0.51,
+      "avg_change": 0.41,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 12.35,
+      "avg_change": 12.68,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 7.93,
+      "avg_change": 8.61,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.85,
+      "avg_change": 8.23,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.8,
+      "avg_change": -12.37,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 6.24,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 5.67,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -1.91,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -0.51,
       "count": 3
     },
     "transportation": {
@@ -53,7 +53,7 @@
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.72,
+      "avg_change": 1.12,
       "count": 3
     }
   },
@@ -61,27 +61,27 @@
     [
       "RKLB",
       "Rocket Lab",
-      25.87
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      23.05
+      26.31
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      22.86
+      22.66
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      18.38
     ],
     [
       "ACHR",
       "Archer Aviation",
-      17.84
+      17.96
     ],
     [
-      "JOBY",
-      "Joby Aviation",
-      17.52
+      "OKLO",
+      "Oklo",
+      16.91
     ]
   ],
   "topLosers": [
@@ -93,17 +93,17 @@
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      -8.76
+      -7.47
     ],
     [
       "SLDP",
       "Solid Power",
-      -11.78
+      -12.0
     ],
     [
       "NVDA",
       "NVIDIA",
-      -12.44
+      -13.19
     ],
     [
       "LNZA",
@@ -111,5 +111,5 @@
       -20.13
     ]
   ],
-  "lastUpdated": "2026-11-11 20:16:26"
+  "lastUpdated": "2026-11-12 08:26:38"
 }
