@@ -743,11 +743,17 @@ def write_js(rows: list[dict], meta: dict) -> None:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--min-score", type=int, default=25)
+    ap.add_argument("--min-score", type=int, default=45)
     ap.add_argument("--include-unmatched", action="store_true",
                     help="also publish new formations with no pedigree match. "
                          "Off by default: they were 282 of 291 rows on the first "
                          "run and are indistinguishable from noise.")
+    ap.add_argument("--allow-name-only", action="store_true",
+                    help="publish rows whose only link is a name collision — an "
+                         "officer sharing a name with someone in COMPANIES, with "
+                         "no documented prior employer. Off by default: on the "
+                         "19 Sep run these were 5 of 5 published rows and every "
+                         "one was a false positive.")
     ap.add_argument("--dry", action="store_true")
     args = ap.parse_args()
 
@@ -775,9 +781,34 @@ def main() -> int:
 
     all_scored = [score_candidate(c, roster, collisions, sector_of) for c in cands]
     known = [s for s in all_scored if s["confidence"] == "Known company"]
+
+    def documented_pedigree(row: dict) -> bool:
+        """The product is companies founded by people out of SpaceX, Anduril,
+        Palantir and their peers. That requires two things to be true of the
+        same match, and until now only the first was enforced:
+
+          1. the person carries a documented prior employer in our data, and
+          2. their name is not one we have already flagged as ambiguous.
+
+        Both matter, and (2) is the one that was missing. A row could publish
+        on a bare surname collision — an officer named William Ryan Davis
+        matching a founder named William Davis — with employers[] and
+        evidence[] both empty. Five of five rows published on 19 Sep 2026
+        were exactly that: a flavours company, a dental product, a management
+        group. Every one carried its own warning line, "that name is common
+        or ambiguous in our data", and published anyway.
+
+        Note that a match's `evidence` cannot stand in for (2). Evidence says
+        why the ROSTER person has pedigree, not why the filer is that person,
+        so requiring it would not have caught any of the five.
+        """
+        return any(m.get("employers") and not m.get("name_ambiguous")
+                   for m in row.get("matches") or [])
+
     scored = [s for s in all_scored
               if s["confidence"] != "Known company" and s["score"] >= args.min_score
-              and (args.include_unmatched or s.get("matches"))]
+              and (args.include_unmatched or s.get("matches"))
+              and (args.allow_name_only or documented_pedigree(s))]
     scored.sort(key=lambda r: (-r["score"], r.get("first_sale") or ""))
 
     # Ask EDGAR whether each shortlisted entity has ever filed before. This is
