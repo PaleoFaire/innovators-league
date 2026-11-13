@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 10.65,
+      "avg_change": 10.7,
       "count": 1
     },
     "space": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 23.27,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 22.02,
       "count": 7
     },
     "autonomous": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 3.5,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 4.71,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 18.25,
+      "avg_change": 17.58,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.65,
+      "avg_change": -11.94,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 10.26,
+      "avg_change": 10.12,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 0.52,
+      "avg_change": 0.25,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 6.1,
+      "avg_change": 5.98,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 20.6,
+      "avg_change": 21.05,
       "count": 3
     }
   },
@@ -61,12 +61,12 @@
     [
       "LUNR",
       "Intuitive Machines",
-      51.04
+      51.16
     ],
     [
       "AMD",
       "AMD",
-      44.08
+      44.73
     ],
     [
       "RKLB",
@@ -76,34 +76,34 @@
     [
       "OKLO",
       "Oklo",
-      28.02
+      27.34
     ],
     [
       "ALAB",
       "Astera Labs",
-      26.58
+      26.92
     ]
   ],
   "topLosers": [
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      -4.57
+      -4.86
     ],
     [
       "QS",
       "QuantumScape",
-      -5.23
-    ],
-    [
-      "SLDP",
-      "Solid Power",
-      -8.33
+      -5.6
     ],
     [
       "NVDA",
       "NVIDIA",
-      -8.87
+      -8.49
+    ],
+    [
+      "SLDP",
+      "Solid Power",
+      -8.82
     ],
     [
       "LNZA",
@@ -111,5 +111,5 @@
       -21.4
     ]
   ],
-  "lastUpdated": "2026-11-12 20:55:11"
+  "lastUpdated": "2026-11-13 08:06:35"
 }
