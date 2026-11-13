@@ -2468,6 +2468,33 @@
   {
     "company": "Virgin Galactic",
     "ticker": "SPCE",
+    "form": "8-K",
+    "date": "2026-11-13",
+    "description": "d112611d8k.htm",
+    "accessionNumber": "0001193125-26-459413",
+    "isIPO": false
+  },
+  {
+    "company": "Virgin Galactic",
+    "ticker": "SPCE",
+    "form": "8-K",
+    "date": "2026-11-12",
+    "description": "d183696d8k.htm",
+    "accessionNumber": "0001193125-26-458580",
+    "isIPO": false
+  },
+  {
+    "company": "Virgin Galactic",
+    "ticker": "SPCE",
+    "form": "10-Q",
+    "date": "2026-11-12",
+    "description": "spce-20260930.htm",
+    "accessionNumber": "0001706946-26-000135",
+    "isIPO": false
+  },
+  {
+    "company": "Virgin Galactic",
+    "ticker": "SPCE",
     "form": "4",
     "date": "2026-10-06",
     "description": "xslF345X06/wk-form4_1791318440.xml",
@@ -2742,42 +2769,6 @@
     "date": "2026-04-21",
     "description": "spce-20260421.htm",
     "accessionNumber": "0001706946-26-000045",
-    "isIPO": false
-  },
-  {
-    "company": "Virgin Galactic",
-    "ticker": "SPCE",
-    "form": "8-K",
-    "date": "2026-04-20",
-    "description": "spce-20260420.htm",
-    "accessionNumber": "0001706946-26-000032",
-    "isIPO": false
-  },
-  {
-    "company": "Virgin Galactic",
-    "ticker": "SPCE",
-    "form": "8-K",
-    "date": "2026-04-14",
-    "description": "spce-20260413.htm",
-    "accessionNumber": "0001706946-26-000026",
-    "isIPO": false
-  },
-  {
-    "company": "Virgin Galactic",
-    "ticker": "SPCE",
-    "form": "4",
-    "date": "2026-04-09",
-    "description": "xslF345X06/wk-form4_1775775201.xml",
-    "accessionNumber": "0001955335-26-000007",
-    "isIPO": false
-  },
-  {
-    "company": "Virgin Galactic",
-    "ticker": "SPCE",
-    "form": "4",
-    "date": "2026-04-09",
-    "description": "xslF345X06/wk-form4_1775775187.xml",
-    "accessionNumber": "0001589800-26-000006",
     "isIPO": false
   },
   {
@@ -3318,24 +3309,6 @@
     "date": "2026-09-08",
     "description": "xslF345X06/wk-form4_1788899044.xml",
     "accessionNumber": "0002146790-26-000008",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-09-03",
-    "description": "xslF345X06/wk-form4_1788467088.xml",
-    "accessionNumber": "0001855623-26-000019",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-09-03",
-    "description": "xslF345X06/wk-form4_1788467003.xml",
-    "accessionNumber": "0002147680-26-000006",
     "isIPO": false
   },
   {
@@ -3899,6 +3872,15 @@
   {
     "company": "C3.ai",
     "ticker": "AI",
+    "form": "4",
+    "date": "2026-11-12",
+    "description": "xslF345X06/wk-form4_1794523959.xml",
+    "accessionNumber": "0001577526-26-000181",
+    "isIPO": false
+  },
+  {
+    "company": "C3.ai",
+    "ticker": "AI",
     "form": "8-K",
     "date": "2026-10-30",
     "description": "ai-20261026.htm",
@@ -4223,6 +4205,15 @@
   {
     "company": "Upstart Holdings",
     "ticker": "UPST",
+    "form": "4",
+    "date": "2026-11-12",
+    "description": "xslF345X06/wk-form4_1794519066.xml",
+    "accessionNumber": "0001833851-26-000023",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
     "form": "8-K",
     "date": "2026-11-09",
     "description": "upst-20261103.htm",
@@ -4497,15 +4488,6 @@
     "date": "2026-05-18",
     "description": "xslF345X06/wk-form4_1779138462.xml",
     "accessionNumber": "0001558259-26-000012",
-    "isIPO": false
-  },
-  {
-    "company": "Upstart Holdings",
-    "ticker": "UPST",
-    "form": "4",
-    "date": "2026-05-18",
-    "description": "xslF345X06/wk-form4_1779138435.xml",
-    "accessionNumber": "0001832808-26-000008",
     "isIPO": false
   },
   {

@@ -1,7 +1,61 @@
 [
   {
-    "sector": "Transportation",
+    "sector": "Defense & Security",
+    "momentum": 61,
+    "trend": "steady",
+    "catalysts": [
+      "SDA explores integration of SpaceX laser communication termi",
+      "Air Force unveils T-19A, a new aerobatic plane to train futu",
+      "Axon invests $1.2B into Skydio and becomes its U.S. public s"
+    ],
+    "fundingQ": "$4.1B",
+    "components": {
+      "funding": 100,
+      "news": 25,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-11-13"
+  },
+  {
+    "sector": "Space & Aerospace",
     "momentum": 55,
+    "trend": "steady",
+    "catalysts": [
+      "AST SpaceMobile presses case for developing own launch vehic",
+      "SpaceX and Tesla Merger Likely in About 4 Weeks",
+      "SpaceX could announce $1.5 trillion Tesla merger in December"
+    ],
+    "fundingQ": "$1.2B",
+    "components": {
+      "funding": 51,
+      "news": 70,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-11-13"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 52,
+    "trend": "steady",
+    "catalysts": [
+      "How Rhoda AI is using video data to create generalized AI mo",
+      "Viam Launchpad aims to accelerate robotics deployments",
+      "Runway&#8217;s Praxis-1 world action model for robotics is n"
+    ],
+    "fundingQ": "$7.0B",
+    "components": {
+      "funding": 100,
+      "news": 30,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-13"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
       "Active transportation ecosystem"
@@ -11,81 +65,26 @@
       "funding": 100,
       "news": 0,
       "hiring": 0,
-      "market": 100
+      "market": 80
     },
-    "lastUpdated": "2026-11-12"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 52,
-    "trend": "steady",
-    "catalysts": [
-      "Viam Launchpad aims to accelerate robotics deployments",
-      "Runway&#8217;s Praxis-1 world action model for robotics is n",
-      "SoftBank leads $500m round for Agile Robots"
-    ],
-    "fundingQ": "$7.0B",
-    "components": {
-      "funding": 100,
-      "news": 30,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-12"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 51,
-    "trend": "steady",
-    "catalysts": [
-      "Allen Control Systems launches new division to develop count",
-      "Axon invests $1.2B into Skydio and becomes its U.S. public s",
-      "Harbinger scores another $240M in latest investment round"
-    ],
-    "fundingQ": "$4.1B",
-    "components": {
-      "funding": 100,
-      "news": 20,
-      "hiring": 0,
-      "market": 54
-    },
-    "lastUpdated": "2026-11-12"
+    "lastUpdated": "2026-11-13"
   },
   {
     "sector": "AI & Software",
-    "momentum": 50,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "OpenAI acquires Odessia, travel startup created by Sonder fo",
       "Anthropic Seeks Record $88.5B Tied To Public Market Debut",
-      "Anthropic Latest Fable 5.2 is a Crippled Model 3 Early and T"
+      "OpenAI models hacked a crypto wallet and breached more websi"
     ],
     "fundingQ": "$12.1B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-12"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 49,
-    "trend": "steady",
-    "catalysts": [
-      "Viam Launchpad aims to accelerate robotics deployments",
-      "Runway&#8217;s Praxis-1 world action model for robotics is n",
-      "More Power and Data Centers for SpaceX in Mississippi"
-    ],
-    "fundingQ": "$1.2B",
-    "components": {
-      "funding": 51,
-      "news": 45,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-11-12"
+    "lastUpdated": "2026-11-13"
   },
   {
     "sector": "Nuclear Energy",
@@ -101,93 +100,111 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-11-12"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "QuantumScape unveils Osprey all-solid-state cell: 1,000 cycl"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-11-12"
+    "lastUpdated": "2026-11-13"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 16,
+    "momentum": 24,
     "trend": "declining",
     "catalysts": [
-      "With $720M round, Britain&#8217;s Fractile gets a leg up in",
-      "SpaceX Is Turning the Data Internet Into an Optimized AI Del",
-      "Anthropic Latest Fable 5.2 is a Crippled Model 3 Early and T"
+      "Hugging Face CEO vows to keep fighting for open source AI af",
+      "SpaceX Releases Vision and $74 Billion Phase 1 AI Data Cente",
+      "SpaceX Is Turning the Data Internet Into an Optimized AI Del"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 61
+      "market": 100
     },
-    "lastUpdated": "2026-11-12"
+    "lastUpdated": "2026-11-13"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 22,
+    "trend": "declining",
+    "catalysts": [
+      "QuantumScape Has An Osprey Up Its Solid-State EV Battery Sle",
+      "QuantumScape unveils Osprey all-solid-state cell: 1,000 cycl"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-11-13"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "How Rhoda AI is using video data to create generalized AI mo",
+      "AST SpaceMobile presses case for developing own launch vehic",
+      "QuantumScape Has An Osprey Up Its Solid-State EV Battery Sle"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 40,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-13"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 16,
-    "trend": "declining",
+    "momentum": 17,
+    "trend": "rising",
     "catalysts": [
-      "Active climate & energy ecosystem"
+      "QuantumScape Has An Osprey Up Its Solid-State EV Battery Sle"
     ],
     "fundingQ": "$550M",
     "components": {
       "funding": 46,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-12"
+    "lastUpdated": "2026-11-13"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "How Rhoda AI is using video data to create generalized AI mo",
+      "Synchron Pauses Trials of Its Brain Implant Due to Performan"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 64
+    },
+    "lastUpdated": "2026-11-13"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 15,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
       "Drone startup Uforce raises $700m backed by Valor Equity Par",
       "Introducing the Waymo Accessibility Network UK: Co-Designing",
-      "Allen Control Systems launches new division to develop count"
+      "Axon invests $1.2B into Skydio and becomes its U.S. public s"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-12"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 15,
-    "trend": "declining",
-    "catalysts": [
-      "Viam Launchpad aims to accelerate robotics deployments",
-      "Runway&#8217;s Praxis-1 world action model for robotics is n",
-      "Introducing the Waymo Accessibility Network UK: Co-Designing"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-12"
+    "lastUpdated": "2026-11-13"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -203,7 +220,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-12"
+    "lastUpdated": "2026-11-13"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "SpaceX Releases Vision and $74 Billion Phase 1 AI Data Cente"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-13"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -219,23 +252,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-12"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Active housing & construction ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-12"
+    "lastUpdated": "2026-11-13"
   },
   {
     "sector": "Ocean & Maritime",
@@ -251,22 +268,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-12"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 9,
-    "trend": "declining",
-    "catalysts": [
-      "<a href=\"/biotech/abcellera-becomes-latest-biotech-abandon-d"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 38
-    },
-    "lastUpdated": "2026-11-12"
+    "lastUpdated": "2026-11-13"
   }
 ]

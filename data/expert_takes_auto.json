@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-11-12T15:05:15.021459Z",
+  "generated_at": "2026-11-13T14:29:26.114928Z",
   "takes": [
+    {
+      "author": "Next Big Future",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "SpaceX Releases Vision and $74 Billion Phase 1 AI Data Center Plans in Texas and Arizona",
+      "date": "Thu, 12 No",
+      "source": "news",
+      "source_url": "https://www.nextbigfuture.com/2026/11/spacex-releases-vision-and-74-billion-phase-1-ai-data-center-plans-in-texas-and-arizona.html",
+      "signal_type": "ipo"
+    },
     {
       "author": "Sifted",
       "role": "Industry signal",
@@ -25,7 +35,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 2,
+    "from_news": 3,
     "from_press": 0
   }
 }

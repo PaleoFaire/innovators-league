@@ -812,6 +812,33 @@
   {
     "company": "Virgin Galactic",
     "ticker": "SPCE",
+    "form": "8-K",
+    "date": "2026-11-13",
+    "description": "d112611d8k.htm",
+    "accessionNumber": "0001193125-26-459413",
+    "isIPO": false
+  },
+  {
+    "company": "Virgin Galactic",
+    "ticker": "SPCE",
+    "form": "8-K",
+    "date": "2026-11-12",
+    "description": "d183696d8k.htm",
+    "accessionNumber": "0001193125-26-458580",
+    "isIPO": false
+  },
+  {
+    "company": "Virgin Galactic",
+    "ticker": "SPCE",
+    "form": "10-Q",
+    "date": "2026-11-12",
+    "description": "spce-20260930.htm",
+    "accessionNumber": "0001706946-26-000135",
+    "isIPO": false
+  },
+  {
+    "company": "Virgin Galactic",
+    "ticker": "SPCE",
     "form": "4",
     "date": "2026-10-06",
     "description": "xslF345X06/wk-form4_1791318440.xml",
@@ -1197,24 +1224,6 @@
     "isIPO": false
   },
   {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-09-03",
-    "description": "xslF345X06/wk-form4_1788467088.xml",
-    "accessionNumber": "0001855623-26-000019",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-09-03",
-    "description": "xslF345X06/wk-form4_1788467003.xml",
-    "accessionNumber": "0002147680-26-000006",
-    "isIPO": false
-  },
-  {
     "company": "Centrus Energy",
     "ticker": "LEU",
     "form": "8-K",
@@ -1311,6 +1320,15 @@
     "date": "2026-08-18",
     "description": "leu-20260815.htm",
     "accessionNumber": "0001628280-26-057731",
+    "isIPO": false
+  },
+  {
+    "company": "C3.ai",
+    "ticker": "AI",
+    "form": "4",
+    "date": "2026-11-12",
+    "description": "xslF345X06/wk-form4_1794523959.xml",
+    "accessionNumber": "0001577526-26-000181",
     "isIPO": false
   },
   {
@@ -1527,6 +1545,15 @@
     "date": "2026-08-27",
     "description": "ai-20260825.htm",
     "accessionNumber": "0001577526-26-000103",
+    "isIPO": false
+  },
+  {
+    "company": "Upstart Holdings",
+    "ticker": "UPST",
+    "form": "4",
+    "date": "2026-11-12",
+    "description": "xslF345X06/wk-form4_1794519066.xml",
+    "accessionNumber": "0001833851-26-000023",
     "isIPO": false
   },
   {
@@ -1833,15 +1860,6 @@
     "date": "2026-08-19",
     "description": "xslF345X06/primarydocument.xml",
     "accessionNumber": "0001855767-26-000017",
-    "isIPO": false
-  },
-  {
-    "company": "UiPath",
-    "ticker": "PATH",
-    "form": "4",
-    "date": "2026-08-14",
-    "description": "xslF345X06/primarydocument.xml",
-    "accessionNumber": "0001855764-26-000009",
     "isIPO": false
   },
   {
@@ -3111,24 +3129,6 @@
     "date": "2026-08-31",
     "description": "ea0304018-8k_zoomcar.htm",
     "accessionNumber": "0001213900-26-095700",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "10-Q",
-    "date": "2026-08-14",
-    "description": "ea0300908-10q_zoomcar.htm",
-    "accessionNumber": "0001213900-26-089946",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "8-K",
-    "date": "2026-08-14",
-    "description": "ea0302057-8k_zoomcar.htm",
-    "accessionNumber": "0001213900-26-089345",
     "isIPO": false
   }
 ]
