@@ -1,39 +1,39 @@
 [
   {
     "sector": "Defense & Security",
-    "momentum": 61,
+    "momentum": 62,
     "trend": "steady",
     "catalysts": [
+      "Hermeus recruits Northrop Grumman to Quarterhorse drone prog",
       "SDA explores integration of SpaceX laser communication termi",
-      "Air Force unveils T-19A, a new aerobatic plane to train futu",
-      "Axon invests $1.2B into Skydio and becomes its U.S. public s"
+      "Air Force unveils T-19A, a new aerobatic plane to train futu"
     ],
     "fundingQ": "$4.1B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 30,
       "hiring": 0,
-      "market": 100
+      "market": 97
     },
-    "lastUpdated": "2026-11-13"
+    "lastUpdated": "2026-11-14"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 55,
+    "momentum": 59,
     "trend": "steady",
     "catalysts": [
-      "AST SpaceMobile presses case for developing own launch vehic",
-      "SpaceX and Tesla Merger Likely in About 4 Weeks",
-      "SpaceX could announce $1.5 trillion Tesla merger in December"
+      "SpaceX Minihard Data Center Gun Range Built in 4 Months",
+      "SpaceX Booster 22 Landed at 60 MPH In Shallow Water",
+      "SpaceX Starship Flight 15 Launched -Booster Return Abort. Sh"
     ],
     "fundingQ": "$1.2B",
     "components": {
       "funding": 51,
-      "news": 70,
+      "news": 85,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-11-13"
+    "lastUpdated": "2026-11-14"
   },
   {
     "sector": "Robotics & Manufacturing",
@@ -51,23 +51,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-13"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 51,
-    "trend": "steady",
-    "catalysts": [
-      "Active transportation ecosystem"
-    ],
-    "fundingQ": "$3.0B",
-    "components": {
-      "funding": 100,
-      "news": 0,
-      "hiring": 0,
-      "market": 80
-    },
-    "lastUpdated": "2026-11-13"
+    "lastUpdated": "2026-11-14"
   },
   {
     "sector": "AI & Software",
@@ -84,11 +68,27 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-13"
+    "lastUpdated": "2026-11-14"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 35,
+    "trend": "steady",
+    "catalysts": [
+      "Active transportation ecosystem"
+    ],
+    "fundingQ": "$3.0B",
+    "components": {
+      "funding": 100,
+      "news": 0,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-11-14"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 43,
+    "momentum": 27,
     "trend": "rising",
     "catalysts": [
       "Active nuclear energy ecosystem"
@@ -98,62 +98,43 @@
       "funding": 67,
       "news": 0,
       "hiring": 0,
-      "market": 100
+      "market": 16
     },
-    "lastUpdated": "2026-11-13"
+    "lastUpdated": "2026-11-14"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 24,
+    "momentum": 21,
     "trend": "declining",
     "catalysts": [
-      "Hugging Face CEO vows to keep fighting for open source AI af",
-      "SpaceX Releases Vision and $74 Billion Phase 1 AI Data Cente",
-      "SpaceX Is Turning the Data Internet Into an Optimized AI Del"
+      "SpaceX Releases Vision and $74 Billion Phase 1 AI Data Cente"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 5,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-11-13"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 22,
-    "trend": "declining",
-    "catalysts": [
-      "QuantumScape Has An Osprey Up Its Solid-State EV Battery Sle",
-      "QuantumScape unveils Osprey all-solid-state cell: 1,000 cycl"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-11-13"
+    "lastUpdated": "2026-11-14"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 20,
+    "momentum": 21,
     "trend": "declining",
     "catalysts": [
+      "ElevenLabs&#8217; new app combines meeting note-taking and d",
       "How Rhoda AI is using video data to create generalized AI mo",
-      "AST SpaceMobile presses case for developing own launch vehic",
-      "QuantumScape Has An Osprey Up Its Solid-State EV Battery Sle"
+      "AST SpaceMobile presses case for developing own launch vehic"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 40,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-13"
+    "lastUpdated": "2026-11-14"
   },
   {
     "sector": "Climate & Energy",
@@ -169,74 +150,59 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-13"
+    "lastUpdated": "2026-11-14"
   },
   {
-    "sector": "Biotech & Health",
+    "sector": "Drones & Autonomous",
     "momentum": 15,
     "trend": "declining",
     "catalysts": [
-      "How Rhoda AI is using video data to create generalized AI mo",
-      "Synchron Pauses Trials of Its Brain Implant Due to Performan"
+      "Hermeus recruits Northrop Grumman to Quarterhorse drone prog",
+      "Drone startup Uforce raises $700m backed by Valor Equity Par",
+      "Introducing the Waymo Accessibility Network UK: Co-Designing"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-14"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "Hermeus recruits Northrop Grumman to Quarterhorse drone prog",
+      "Runway&#8217;s Praxis-1 world action model for robotics is n"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 10,
       "hiring": 0,
-      "market": 64
-    },
-    "lastUpdated": "2026-11-13"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Drone startup Uforce raises $700m backed by Valor Equity Par",
-      "Introducing the Waymo Accessibility Network UK: Co-Designing",
-      "Axon invests $1.2B into Skydio and becomes its U.S. public s"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-13"
-  },
-  {
-    "sector": "Supersonic & Hypersonic",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Runway&#8217;s Praxis-1 world action model for robotics is n"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-13"
+    "lastUpdated": "2026-11-14"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 11,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
+      "SpaceX Minihard Data Center Gun Range Built in 4 Months",
       "SpaceX Releases Vision and $74 Billion Phase 1 AI Data Cente"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-13"
+    "lastUpdated": "2026-11-14"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -252,7 +218,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-13"
+    "lastUpdated": "2026-11-14"
   },
   {
     "sector": "Ocean & Maritime",
@@ -268,6 +234,39 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-13"
+    "lastUpdated": "2026-11-14"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 2,
+    "trend": "declining",
+    "catalysts": [
+      "QuantumScape Has An Osprey Up Its Solid-State EV Battery Sle",
+      "QuantumScape unveils Osprey all-solid-state cell: 1,000 cycl"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-11-14"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 1,
+    "trend": "declining",
+    "catalysts": [
+      "How Rhoda AI is using video data to create generalized AI mo"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-11-14"
   }
 ]

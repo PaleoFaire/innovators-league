@@ -1,7 +1,9 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-11-13 14:15:56 UTC
+// Last updated: 2026-11-14 13:13:57 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "4", date: "2026-11-13", description: "xslF345X06/wk-form4_1794618004.xml", isIPO: false, ticker: "PLTR" },
   { company: "Virgin Galactic", form: "8-K", date: "2026-11-13", description: "d112611d8k.htm", isIPO: false, ticker: "SPCE" },
+  { company: "Upstart Holdings", form: "4", date: "2026-11-13", description: "xslF345X06/wk-form4_1794609492.xml", isIPO: false, ticker: "UPST" },
   { company: "Virgin Galactic", form: "8-K", date: "2026-11-12", description: "d183696d8k.htm", isIPO: false, ticker: "SPCE" },
   { company: "Virgin Galactic", form: "10-Q", date: "2026-11-12", description: "spce-20260930.htm", isIPO: false, ticker: "SPCE" },
   { company: "Centrus Energy", form: "8-K", date: "2026-11-12", description: "leu-20261112.htm", isIPO: false, ticker: "LEU" },
@@ -49,6 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Oklo", form: "4", date: "2026-11-04", description: "xslF345X06/wk-form4_1793827021.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-11-04", description: "xslF345X06/wk-form4_1793826972.xml", isIPO: false, ticker: "OKLO" },
   { company: "Centrus Energy", form: "8-K", date: "2026-11-04", description: "leu-20261104.htm", isIPO: false, ticker: "LEU" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-11-04", description: "qbts-20261104.htm", isIPO: false, ticker: "QBTS" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-11-04", description: "xslF345X06/wk-form4_1793830355.xml", isIPO: false, ticker: "RXRX" },
 ];
