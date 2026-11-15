@@ -1,5 +1,23 @@
 [
   {
+    "sector": "Space & Aerospace",
+    "momentum": 63,
+    "trend": "accelerating",
+    "catalysts": [
+      "How SpaceX Succeeded With Reusable Starship adn More SpaceX",
+      "SpaceX Starship 15 Caught",
+      "SpaceX Starship Put Up More Starlink Capacity Than Falcon 9"
+    ],
+    "fundingQ": "$1.2B",
+    "components": {
+      "funding": 51,
+      "news": 100,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-11-15"
+  },
+  {
     "sector": "Defense & Security",
     "momentum": 62,
     "trend": "steady",
@@ -15,60 +33,43 @@
       "hiring": 0,
       "market": 97
     },
-    "lastUpdated": "2026-11-14"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 59,
-    "trend": "steady",
-    "catalysts": [
-      "SpaceX Minihard Data Center Gun Range Built in 4 Months",
-      "SpaceX Booster 22 Landed at 60 MPH In Shallow Water",
-      "SpaceX Starship Flight 15 Launched -Booster Return Abort. Sh"
-    ],
-    "fundingQ": "$1.2B",
-    "components": {
-      "funding": 51,
-      "news": 85,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-11-14"
+    "lastUpdated": "2026-11-15"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 52,
-    "trend": "steady",
+    "momentum": 55,
+    "trend": "accelerating",
     "catalysts": [
-      "How Rhoda AI is using video data to create generalized AI mo",
-      "Viam Launchpad aims to accelerate robotics deployments",
-      "Runway&#8217;s Praxis-1 world action model for robotics is n"
+      "How SpaceX Succeeded With Reusable Starship adn More SpaceX",
+      "Zoox Launches Robotaxis in Atlanta",
+      "Zoox Expands Robotaxi Service in Las Vegas"
     ],
     "fundingQ": "$7.0B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-14"
+    "lastUpdated": "2026-11-15"
   },
   {
     "sector": "AI & Software",
-    "momentum": 48,
+    "momentum": 49,
     "trend": "steady",
     "catalysts": [
+      "$3.4 Billion \u2014 Anthropic Order for Gas Power Plants!",
       "Anthropic Seeks Record $88.5B Tied To Public Market Debut",
       "OpenAI models hacked a crypto wallet and breached more websi"
     ],
     "fundingQ": "$12.1B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-14"
+    "lastUpdated": "2026-11-15"
   },
   {
     "sector": "Transportation",
@@ -84,7 +85,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-14"
+    "lastUpdated": "2026-11-15"
   },
   {
     "sector": "Nuclear Energy",
@@ -100,27 +101,27 @@
       "hiring": 0,
       "market": 16
     },
-    "lastUpdated": "2026-11-14"
+    "lastUpdated": "2026-11-15"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 21,
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
-      "SpaceX Releases Vision and $74 Billion Phase 1 AI Data Cente"
+      "Active chips & semiconductors ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-11-14"
+    "lastUpdated": "2026-11-15"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 21,
+    "momentum": 19,
     "trend": "declining",
     "catalysts": [
       "ElevenLabs&#8217; new app combines meeting note-taking and d",
@@ -130,11 +131,11 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 45,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-14"
+    "lastUpdated": "2026-11-15"
   },
   {
     "sector": "Climate & Energy",
@@ -150,25 +151,25 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-14"
+    "lastUpdated": "2026-11-15"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 15,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
       "Hermeus recruits Northrop Grumman to Quarterhorse drone prog",
       "Drone startup Uforce raises $700m backed by Valor Equity Par",
-      "Introducing the Waymo Accessibility Network UK: Co-Designing"
+      "Axon invests $1.2B into Skydio and becomes its U.S. public s"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-14"
+    "lastUpdated": "2026-11-15"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -185,15 +186,15 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-14"
+    "lastUpdated": "2026-11-15"
   },
   {
     "sector": "Housing & Construction",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "SpaceX Minihard Data Center Gun Range Built in 4 Months",
-      "SpaceX Releases Vision and $74 Billion Phase 1 AI Data Cente"
+      "How SpaceX Succeeded With Reusable Starship adn More SpaceX",
+      "SpaceX Minihard Data Center Gun Range Built in 4 Months"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -202,7 +203,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-14"
+    "lastUpdated": "2026-11-15"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -218,7 +219,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-14"
+    "lastUpdated": "2026-11-15"
   },
   {
     "sector": "Ocean & Maritime",
@@ -234,7 +235,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-14"
+    "lastUpdated": "2026-11-15"
   },
   {
     "sector": "Quantum Computing",
@@ -251,7 +252,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-14"
+    "lastUpdated": "2026-11-15"
   },
   {
     "sector": "Biotech & Health",
@@ -267,6 +268,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-14"
+    "lastUpdated": "2026-11-15"
   }
 ]
