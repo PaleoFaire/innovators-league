@@ -3,113 +3,113 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 4.74,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -5.21,
       "count": 1
     },
     "space": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 5.81,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -9.27,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -4.23,
+      "avg_change": -9.05,
       "count": 7
     },
     "nuclear": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -2.23,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -16.55,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -16.22,
+      "avg_change": -27.89,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -13.36,
+      "avg_change": -26.59,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.93,
+      "avg_change": -16.64,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -0.79,
+      "avg_change": -6.59,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 7.5,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -6.72,
       "count": 3
     }
   },
   "topGainers": [
-    [
-      "LUNR",
-      "Intuitive Machines",
-      24.16
-    ],
-    [
-      "AMD",
-      "AMD",
-      18.93
-    ],
     [
       "277810.KQ",
       "Rainbow Robotics",
       18.51
     ],
     [
-      "ALAB",
-      "Astera Labs",
-      16.32
+      "IDEAFORGE.NS",
+      "ideaForge",
+      5.27
     ],
     [
-      "RKLB",
-      "Rocket Lab",
-      15.94
+      "TSLA",
+      "Tesla",
+      0.45
+    ],
+    [
+      "9348.T",
+      "ispace",
+      -0.54
+    ],
+    [
+      "AMD",
+      "AMD",
+      -0.85
     ]
   ],
   "topLosers": [
     [
-      "EVTL",
-      "Vertical Aerospace",
-      -12.89
+      "QBTS",
+      "D-Wave Quantum",
+      -24.41
     ],
     [
       "QS",
       "QuantumScape",
-      -14.02
+      -24.95
     ],
     [
-      "JOBY",
-      "Joby Aviation",
-      -14.33
+      "IONQ",
+      "IonQ",
+      -25.16
     ],
     [
       "RGTI",
       "Rigetti Computing",
-      -18.13
+      -30.2
     ],
     [
       "LNZA",
       "LanzaTech",
-      -23.31
+      -42.65
     ]
   ],
-  "lastUpdated": "2026-11-16 08:04:00"
+  "lastUpdated": "2026-11-16 23:00:27"
 }
