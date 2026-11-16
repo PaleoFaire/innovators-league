@@ -1,12 +1,30 @@
 [
   {
+    "sector": "Defense & Security",
+    "momentum": 63,
+    "trend": "steady",
+    "catalysts": [
+      "After dodging death, battery startup Our Next Energy is now",
+      "Hermeus recruits Northrop Grumman to Quarterhorse drone prog",
+      "SDA explores integration of SpaceX laser communication termi"
+    ],
+    "fundingQ": "$4.1B",
+    "components": {
+      "funding": 100,
+      "news": 35,
+      "hiring": 0,
+      "market": 97
+    },
+    "lastUpdated": "2026-11-16"
+  },
+  {
     "sector": "Space & Aerospace",
     "momentum": 63,
     "trend": "accelerating",
     "catalysts": [
-      "How SpaceX Succeeded With Reusable Starship adn More SpaceX",
-      "SpaceX Starship 15 Caught",
-      "SpaceX Starship Put Up More Starlink Capacity Than Falcon 9"
+      "Bedrock Energy raises $24M to build more AI-enabled geotherm",
+      "Vulcan rocket fails during launch, dealing major blow to Spa",
+      "How SpaceX Succeeded With Reusable Starship adn More SpaceX"
     ],
     "fundingQ": "$1.2B",
     "components": {
@@ -15,43 +33,25 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-11-15"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 62,
-    "trend": "steady",
-    "catalysts": [
-      "Hermeus recruits Northrop Grumman to Quarterhorse drone prog",
-      "SDA explores integration of SpaceX laser communication termi",
-      "Air Force unveils T-19A, a new aerobatic plane to train futu"
-    ],
-    "fundingQ": "$4.1B",
-    "components": {
-      "funding": 100,
-      "news": 30,
-      "hiring": 0,
-      "market": 97
-    },
-    "lastUpdated": "2026-11-15"
+    "lastUpdated": "2026-11-16"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 55,
+    "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
+      "Zoox robotaxis are now on the Uber app in Las Vegas",
       "How SpaceX Succeeded With Reusable Starship adn More SpaceX",
-      "Zoox Launches Robotaxis in Atlanta",
-      "Zoox Expands Robotaxi Service in Las Vegas"
+      "Zoox Launches Robotaxis in Atlanta"
     ],
     "fundingQ": "$7.0B",
     "components": {
       "funding": 100,
-      "news": 40,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-15"
+    "lastUpdated": "2026-11-16"
   },
   {
     "sector": "AI & Software",
@@ -69,7 +69,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-15"
+    "lastUpdated": "2026-11-16"
   },
   {
     "sector": "Transportation",
@@ -85,7 +85,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-15"
+    "lastUpdated": "2026-11-16"
   },
   {
     "sector": "Nuclear Energy",
@@ -101,30 +101,48 @@
       "hiring": 0,
       "market": 16
     },
-    "lastUpdated": "2026-11-15"
+    "lastUpdated": "2026-11-16"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 20,
+    "momentum": 21,
     "trend": "declining",
     "catalysts": [
-      "Active chips & semiconductors ecosystem"
+      "Indian chip startup Bharat Semi lands $24M seed round as it"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-11-15"
+    "lastUpdated": "2026-11-16"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 21,
+    "trend": "rising",
+    "catalysts": [
+      "Mazama Energy has a solution for geothermal\u2019s biggest drilli",
+      "After dodging death, battery startup Our Next Energy is now",
+      "Bedrock Energy raises $24M to build more AI-enabled geotherm"
+    ],
+    "fundingQ": "$550M",
+    "components": {
+      "funding": 46,
+      "news": 20,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-11-16"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 19,
     "trend": "declining",
     "catalysts": [
-      "ElevenLabs&#8217; new app combines meeting note-taking and d",
+      "Zoox robotaxis are now on the Uber app in Las Vegas",
       "How Rhoda AI is using video data to create generalized AI mo",
       "AST SpaceMobile presses case for developing own launch vehic"
     ],
@@ -135,23 +153,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-15"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 17,
-    "trend": "rising",
-    "catalysts": [
-      "QuantumScape Has An Osprey Up Its Solid-State EV Battery Sle"
-    ],
-    "fundingQ": "$550M",
-    "components": {
-      "funding": 46,
-      "news": 5,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-11-15"
+    "lastUpdated": "2026-11-16"
   },
   {
     "sector": "Drones & Autonomous",
@@ -169,7 +171,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-15"
+    "lastUpdated": "2026-11-16"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -186,7 +188,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-15"
+    "lastUpdated": "2026-11-16"
   },
   {
     "sector": "Housing & Construction",
@@ -203,23 +205,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-15"
+    "lastUpdated": "2026-11-16"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 11,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
+      "Bedrock Energy raises $24M to build more AI-enabled geotherm",
       "Viam Launchpad aims to accelerate robotics deployments"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-15"
+    "lastUpdated": "2026-11-16"
   },
   {
     "sector": "Ocean & Maritime",
@@ -235,7 +238,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-15"
+    "lastUpdated": "2026-11-16"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 2,
+    "trend": "declining",
+    "catalysts": [
+      "Indian chip startup Bharat Semi lands $24M seed round as it",
+      "How Rhoda AI is using video data to create generalized AI mo"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-11-16"
   },
   {
     "sector": "Quantum Computing",
@@ -252,22 +272,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-15"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 1,
-    "trend": "declining",
-    "catalysts": [
-      "How Rhoda AI is using video data to create generalized AI mo"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-11-15"
+    "lastUpdated": "2026-11-16"
   }
 ]
