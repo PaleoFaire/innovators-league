@@ -1,12 +1,12 @@
 // Auto-generated from discovery_queue_auto.json
-// Last updated: 2026-11-09T17:49:49+00:00
+// Last updated: 2026-11-16T17:27:06+00:00
 const DISCOVERY_QUEUE_AUTO = {
-  "generatedAt": "2026-11-09T17:49:49+00:00",
-  "knownCompaniesCount": 2209,
+  "generatedAt": "2026-11-16T17:27:06+00:00",
+  "knownCompaniesCount": 2319,
   "summary": {
-    "totalCandidates": 72,
+    "totalCandidates": 95,
     "fromFormD": 0,
-    "fromVcPortfolios": 18,
+    "fromVcPortfolios": 41,
     "fromNewsletters": 23,
     "fromLlmExtraction": 34,
     "multiSource": 1
@@ -134,17 +134,17 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "American Binary",
+      "name": "Gravity",
       "score": 35,
       "signals": [
         {
-          "name": "American Binary",
-          "source": "VC portfolio: IQT",
+          "name": "Gravity",
+          "source": "VC portfolio: Eclipse",
           "sourceWeight": 35,
-          "vc": "IQT",
-          "date": "2026-11-09",
-          "verifyUrl": "https://www.ambit.inc/",
-          "context": "Listed by IQT: Defense-grade digital armor to protect your livelihood: post-quantum VPN and more. Do it once. Do it right. American Binary."
+          "vc": "Eclipse",
+          "date": "2025-10-28",
+          "verifyUrl": "https://www.gravityclimate.com/",
+          "context": "Listed by Eclipse, first funded 2025-10-28: Gravity is the AI-native platform for energy management, helping enterprises move from compliance-driven carbon reporting to real operational and financial outcomes."
         }
       ],
       "sources": [
@@ -152,7 +152,91 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "high",
-      "suggestedSector": "Defense & Security"
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Starboard",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Starboard",
+          "source": "VC portfolio: Eclipse",
+          "sourceWeight": 35,
+          "vc": "Eclipse",
+          "date": "2026-03-24",
+          "verifyUrl": "https://www.starboard.biz/",
+          "context": "Listed by Eclipse, first funded 2026-03-24: Starboard has deployed agentic quoting, automated rate-ingestion, and procurement networks that materially expand margins and improve execution speed for forwarders."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "8Fleet",
+      "score": 35,
+      "signals": [
+        {
+          "name": "8Fleet",
+          "source": "VC portfolio: Red Glass",
+          "sourceWeight": 35,
+          "vc": "Red Glass",
+          "date": "2026-11-16",
+          "verifyUrl": "https://www.eightfleet.com/",
+          "context": "Listed by Red Glass: Fleet management for ride sharing networks. 8Fleet builds infrastructure for scaled rideshare fleet operations, starting with conventional vehicles as a wedge toward autonomous fleets"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Rev1",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Rev1",
+          "source": "VC portfolio: Red Glass",
+          "sourceWeight": 35,
+          "vc": "Red Glass",
+          "date": "2026-11-16",
+          "verifyUrl": "https://rev1.so",
+          "context": "Listed by Red Glass: AI for CAD workflows. Rev1 automates hardware engineering workflows, starting with 3D to 2D CAD drawing conversion"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "1st Avenue Power",
+      "score": 35,
+      "signals": [
+        {
+          "name": "1st Avenue Power",
+          "source": "VC portfolio: Lowercarbon",
+          "sourceWeight": 35,
+          "vc": "Lowercarbon",
+          "date": "2026-09-30",
+          "verifyUrl": "https://1ap.com",
+          "context": "Listed by Lowercarbon, first funded 2026-09-30: Solar power\u2019s overtime shift. Big Picture AI, EVs, and the electrification of heavy industry are going to need a whole lot of power that the grid currently doesn\u2019t have. Yet while gas turbines are sol"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
     },
     {
       "name": "CargoKite",
@@ -237,6 +321,69 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": "Climate & Energy"
+    },
+    {
+      "name": "Mesa Quantum",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Mesa Quantum",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-11-16",
+          "verifyUrl": "https://mesaquantum.com/",
+          "context": "Listed by Playground: Mesa Quantum's sensors are changing how systems perceive our world. Our mass-manufacturable, chip-scale sensors help machines know where they are, what time it is, and what's around them."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Quantum Computing"
+    },
+    {
+      "name": "Rapidsos",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Rapidsos",
+          "source": "VC portfolio: Playground",
+          "sourceWeight": 35,
+          "vc": "Playground",
+          "date": "2026-11-16",
+          "verifyUrl": "https://rapidsos.com/",
+          "context": "Listed by Playground: As the leading public safety AI company, RapidSOS unlocks mission-critical intelligence for first responders and security teams."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Terraton",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Terraton",
+          "source": "VC portfolio: Gigascale",
+          "sourceWeight": 35,
+          "vc": "Gigascale",
+          "date": "2026-11-16",
+          "verifyUrl": "https://terraton.ai/",
+          "context": "Listed by Gigascale: Terraton is a full-stack biochar platform for agribusiness operators ready to build carbon removal into their business."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
     },
     {
       "name": "Arena",
@@ -577,59 +724,17 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "1st Avenue Power",
+      "name": "PowerMarket",
       "score": 25,
       "signals": [
         {
-          "name": "1st Avenue Power",
-          "source": "VC portfolio: Lowercarbon",
-          "sourceWeight": 25,
-          "vc": "Lowercarbon",
-          "date": "2026-09-30",
-          "verifyUrl": "https://1ap.com",
-          "context": "Listed by Lowercarbon, first funded 2026-09-30: Solar power\u2019s overtime shift. Big Picture AI, EVs, and the electrification of heavy industry are going to need a whole lot of power that the grid currently doesn\u2019t have. Yet while gas turbines are sol"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Arkisys",
-      "score": 25,
-      "signals": [
-        {
-          "name": "Arkisys",
+          "name": "PowerMarket",
           "source": "VC portfolio: Seraphim Space",
           "sourceWeight": 25,
           "vc": "Seraphim Space",
-          "date": "2026-09-25",
-          "verifyUrl": "https://www.arkisys.com/",
-          "context": "Listed by Seraphim Space: Arkisys is building one of the first businesses for Infrastructure-as-a-Service in Space. \"The Port\" is a lighthouse on orbit and a beacon to enable existing and new customers and markets in Earth orb"
-        }
-      ],
-      "sources": [
-        "VC portfolio"
-      ],
-      "multiSource": false,
-      "confidence": "high",
-      "suggestedSector": "Space & Aerospace"
-    },
-    {
-      "name": "IPO",
-      "score": 25,
-      "signals": [
-        {
-          "name": "IPO",
-          "source": "VC portfolio: Seraphim Space",
-          "sourceWeight": 25,
-          "vc": "Seraphim Space",
-          "date": "2026-11-09",
-          "verifyUrl": "https://www.yorkspacesystems.com/",
-          "context": "Listed by Seraphim Space: YORK provides complete solutions for mission design, spacecraft, launch, ground, and operations. \u200b We deliver complete mission solutions for both government and fortune 500 companies from cyber-secure"
+          "date": "2026-11-16",
+          "verifyUrl": "http://www.powermarket.net/",
+          "context": "Listed by Seraphim Space: PowerMarket is the UK's leading solar energy platform for enterprises. Specialising in Solar PPA solutions, power purchase agreements, and intelligent renewable energy management for businesses."
         }
       ],
       "sources": [
@@ -682,17 +787,80 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Chiral Systems",
-      "score": 25,
+      "name": "Aera Therapeutics",
+      "score": 18,
       "signals": [
         {
-          "name": "Chiral Systems",
-          "source": "VC portfolio: Harpoon",
-          "sourceWeight": 25,
-          "vc": "Harpoon",
-          "date": "2026-11-09",
-          "verifyUrl": "https://harpoon.vc/portfolio/chiral-systems",
-          "context": "Listed by Harpoon"
+          "name": "Aera Therapeutics",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-11-16",
+          "verifyUrl": "https://aeratx.com",
+          "context": "Listed by Lux: Aera Therapeutics is a biotechnology company that uses its proprietary protein nanoparticle (PNP) delivery platform to help genetic medicines reach their full potential. Aera's platform, which is base"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Braid Health",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Braid Health",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-11-16",
+          "verifyUrl": "https://braid.health",
+          "context": "Listed by Lux: Braid Health is a digital health innovation company that develops an AI-powered diagnostic collaboration platform that improves the speed, quality, and workflow of radiologists and healthcare provider"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Hangar Technology",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Hangar Technology",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-11-16",
+          "verifyUrl": "https://hangar.com",
+          "context": "Listed by Lux: Hangar is building an automated platform for drones to deliver fast, professional aerial data across industry. Using a proprietary autonomous flight engine deeply integrated with the world\u2019s top-selli"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Defense & Security"
+    },
+    {
+      "name": "Higharc",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Higharc",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-11-16",
+          "verifyUrl": "https://higharc.com",
+          "context": "Listed by Lux: Higharc is the all-in-one web platform that simplifies, connects, and improves each step of design, construction, and sales for home building. It enables builders to design, sell in 3D, and get permit"
         }
       ],
       "sources": [
@@ -703,17 +871,59 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Frontier Security",
-      "score": 25,
+      "name": "Kela Technologies",
+      "score": 18,
       "signals": [
         {
-          "name": "Frontier Security",
-          "source": "VC portfolio: Harpoon",
-          "sourceWeight": 25,
-          "vc": "Harpoon",
-          "date": "2026-11-09",
-          "verifyUrl": "https://harpoon.vc/portfolio/frontier-security",
-          "context": "Listed by Harpoon"
+          "name": "Kela Technologies",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-11-16",
+          "verifyUrl": "https://kelasys.com",
+          "context": "Listed by Lux: Kela Technologies is a secure, open platform that enables the rapid and seamless integration of commercial and military systems in support of Western defense."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Defense & Security"
+    },
+    {
+      "name": "Nomic",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Nomic",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-11-16",
+          "verifyUrl": "https://nomic.bio",
+          "context": "Listed by Lux: Nomic is a bioengineering company working to make the human proteome as broadly and easily accessible as the human genome. They are building the nELISA, a next-generation protein profiling platform fo"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Nozomi Networks",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Nozomi Networks",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-11-16",
+          "verifyUrl": "https://nozominetworks.com",
+          "context": "Listed by Lux: Nozomi Networks offers a cybersecurity platform that protects Operational Technology (OT), Internet of Things (IoT), and cyber-physical systems through unified visibility, threat detection, and automa"
         }
       ],
       "sources": [
@@ -724,17 +934,59 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Moonlake Ai",
-      "score": 25,
+      "name": "OpenSpace",
+      "score": 18,
       "signals": [
         {
-          "name": "Moonlake Ai",
-          "source": "VC portfolio: Harpoon",
-          "sourceWeight": 25,
-          "vc": "Harpoon",
-          "date": "2026-11-09",
-          "verifyUrl": "https://harpoon.vc/portfolio/moonlake-ai",
-          "context": "Listed by Harpoon"
+          "name": "OpenSpace",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-11-16",
+          "verifyUrl": "https://openspace.ai",
+          "context": "Listed by Lux: OpenSpace is the Visual Intelligence Platform for builders \u2014 the category-defining platform that combines reality capture, Spatial AI, and field execution workflows for the construction industry. Lead"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "Plexium",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Plexium",
+          "source": "VC portfolio: Lux",
+          "sourceWeight": 18,
+          "vc": "Lux",
+          "date": "2026-11-16",
+          "verifyUrl": "https://plexium.com",
+          "context": "Listed by Lux: Plexium develops a targeted protein degradation platform to find new therapies for cancer and other diseases. Plexium's platform focuses on the discovery of next-generation TPD drugs that extend beyon"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Addepar",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Addepar",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-11-16",
+          "verifyUrl": "https://addepar.com",
+          "context": "Listed by 8VC: Addepar is a software and data platform that is purpose-built for professional wealth, investment, and asset management firms to deliver outstanding results for their clients. More than 800 leading fi"
         }
       ],
       "sources": [
@@ -745,17 +997,17 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Secondmind",
-      "score": 25,
+      "name": "Ascend.io",
+      "score": 18,
       "signals": [
         {
-          "name": "Secondmind",
-          "source": "VC portfolio: Harpoon",
-          "sourceWeight": 25,
-          "vc": "Harpoon",
-          "date": "2026-11-09",
-          "verifyUrl": "https://harpoon.vc/portfolio/secondmind",
-          "context": "Listed by Harpoon"
+          "name": "Ascend.io",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-11-16",
+          "verifyUrl": "https://ascend.io",
+          "context": "Listed by 8VC: Ascend.io, named a 2021 Gartner Cool Vendor, provides the most advanced automation for data and analytics engineering workloads. Ascend unifies the core capabilities of data engineering\u2014data ingestion"
         }
       ],
       "sources": [
@@ -766,17 +1018,38 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Statecraft",
-      "score": 25,
+      "name": "Coherence Neuro",
+      "score": 18,
       "signals": [
         {
-          "name": "Statecraft",
-          "source": "VC portfolio: Harpoon",
-          "sourceWeight": 25,
-          "vc": "Harpoon",
-          "date": "2026-11-09",
-          "verifyUrl": "https://harpoon.vc/portfolio/statecraft",
-          "context": "Listed by Harpoon"
+          "name": "Coherence Neuro",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-11-16",
+          "verifyUrl": "https://coherenceneuro.com",
+          "context": "Listed by 8VC: We're building the world's first cancer therapy platform that learns. \r\n\r\n"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Color",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Color",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-11-16",
+          "verifyUrl": "https://color.com",
+          "context": "Listed by 8VC: Color is a complete platform for healthcare delivery. From population genomics programs to high-throughput COVID-19 testing, Color provides the technology and infrastructure for large-scale health ini"
         }
       ],
       "sources": [
@@ -787,17 +1060,80 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Stealth Co 2A3B5",
-      "score": 25,
+      "name": "Coram AI",
+      "score": 18,
       "signals": [
         {
-          "name": "Stealth Co 2A3B5",
-          "source": "VC portfolio: Harpoon",
-          "sourceWeight": 25,
-          "vc": "Harpoon",
-          "date": "2026-11-09",
-          "verifyUrl": "https://harpoon.vc/portfolio/stealth-co-2a3b5",
-          "context": "Listed by Harpoon"
+          "name": "Coram AI",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-11-16",
+          "verifyUrl": "https://coram.ai",
+          "context": "Listed by 8VC: Coram AI develops a video intelligence platform to provide businesses with insights into daily operations. The company offers a novel, AI-native security platform that helps customers ranging from sch"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Felux",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Felux",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-11-16",
+          "verifyUrl": "https://felux.com",
+          "context": "Listed by 8VC: Felux is a supply chain platform that serves the mining industry."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Flexport",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Flexport",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-11-16",
+          "verifyUrl": "https://flexport.com",
+          "context": "Listed by 8VC: Flexport offers ocean and air freight services, customs brokerage, trucking coordination, and fulfillment solutions for both direct-to-consumer and business shipments. Its technology platform delivers"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Hearth",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Hearth",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-11-16",
+          "verifyUrl": "https://gethearth.com",
+          "context": "Listed by 8VC: Shogun Enterprises is a financial technology platform for home improvement."
         }
       ],
       "sources": [
@@ -808,17 +1144,38 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Stealth Co 2D148",
-      "score": 25,
+      "name": "Invisible AI",
+      "score": 18,
       "signals": [
         {
-          "name": "Stealth Co 2D148",
-          "source": "VC portfolio: Harpoon",
-          "sourceWeight": 25,
-          "vc": "Harpoon",
-          "date": "2026-11-09",
-          "verifyUrl": "https://harpoon.vc/portfolio/stealth-co-2d148",
-          "context": "Listed by Harpoon"
+          "name": "Invisible AI",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-11-16",
+          "verifyUrl": "https://invisible.ai",
+          "context": "Listed by 8VC: Invisible AI is a next-generation computer vision company that offers a no-code, edge-based visual intelligence platform to improve quality, productivity, and safety in manufacturing industries. Its l"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Lumber",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Lumber",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-11-16",
+          "verifyUrl": "https://lumberfi.com",
+          "context": "Listed by 8VC: Lumber is an automated payroll, time-tracking, accounts payable, compliance, and onboarding platform for the construction industry."
         }
       ],
       "sources": [
@@ -829,17 +1186,38 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Stealth Co 43Be5",
-      "score": 25,
+      "name": "Plotlogic",
+      "score": 18,
       "signals": [
         {
-          "name": "Stealth Co 43Be5",
-          "source": "VC portfolio: Harpoon",
-          "sourceWeight": 25,
-          "vc": "Harpoon",
-          "date": "2026-11-09",
-          "verifyUrl": "https://harpoon.vc/portfolio/stealth-co-43be5",
-          "context": "Listed by Harpoon"
+          "name": "Plotlogic",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-11-16",
+          "verifyUrl": "https://plotlogic.com",
+          "context": "Listed by 8VC: Plotlogic is a global technology company allowing mine operators to understand the location and material properties of every rock in the mine. It utilizes an AI and sensor-driven platform to enhance y"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Premise",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Premise",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-11-16",
+          "verifyUrl": "https://premise.com",
+          "context": "Listed by 8VC: Premise is a data and analytics platform that empowers decision-makers with real-time, actionable intelligence. By combining the power of a global network of on-the-ground contributors with industry-l"
         }
       ],
       "sources": [
@@ -848,6 +1226,111 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "high",
       "suggestedSector": null
+    },
+    {
+      "name": "RealScout",
+      "score": 18,
+      "signals": [
+        {
+          "name": "RealScout",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-11-16",
+          "verifyUrl": "https://realscout.com",
+          "context": "Listed by 8VC: RealScout is the platform that powers successful relationships between real estate professionals and their clients. For home buyers and their agents, RealScout offers a collaborative home search exper"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Superpower",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Superpower",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-11-16",
+          "verifyUrl": "https://superpower.com",
+          "context": "Listed by 8VC: Superpower offers a digital health platform that integrates comprehensive diagnostics, personalized care plans, and health tracking tools. The service includes over 100 lab tests per year, covering ar"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Welcome Homes",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Welcome Homes",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-11-16",
+          "verifyUrl": "https://welcomehomes.com",
+          "context": "Listed by 8VC: Welcome Homes is the online home building platform that makes buying a beautiful new home simple by streamlining the entire new home construction journey from land selection to customization to constr"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Xilis",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Xilis",
+          "source": "VC portfolio: 8VC",
+          "sourceWeight": 18,
+          "vc": "8VC",
+          "date": "2026-11-16",
+          "verifyUrl": "https://xilis.com",
+          "context": "Listed by 8VC: Xilis is a biotechnology company that develops technologies to guide precision therapy for cancer patients and accelerate drug discovery. The company's platform enables diagnostics, drug screening, an"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Foundry Management",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Foundry Management",
+          "source": "VC portfolio: a16z",
+          "sourceWeight": 18,
+          "vc": "a16z",
+          "date": "2026-10-01",
+          "verifyUrl": "https://www.foundrymgt.com/",
+          "context": "Listed by a16z, first funded 2026-10-01: Foundry is a company-building platform that embeds technical founders within industrial businesses to develop physical AI products and launch independent companies."
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": "Space & Aerospace"
     },
     {
       "name": "Cere",
