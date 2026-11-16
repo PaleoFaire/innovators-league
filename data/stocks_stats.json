@@ -9,15 +9,15 @@
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 6.71,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 5.81,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -4.91,
+      "avg_change": -4.23,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.22,
+      "avg_change": -6.93,
       "count": 3
     },
     "transportation": {
@@ -69,6 +69,11 @@
       18.93
     ],
     [
+      "277810.KQ",
+      "Rainbow Robotics",
+      18.51
+    ],
+    [
       "ALAB",
       "Astera Labs",
       16.32
@@ -77,11 +82,6 @@
       "RKLB",
       "Rocket Lab",
       15.94
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      13.24
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -23.31
     ]
   ],
-  "lastUpdated": "2026-11-15 19:26:20"
+  "lastUpdated": "2026-11-16 08:04:00"
 }
