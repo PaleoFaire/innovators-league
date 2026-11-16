@@ -2,40 +2,13 @@
  "month": "2026-11",
  "primes": [
   {
-   "prime": "L3Harris",
-   "ticker": "LHX",
-   "partners_tracked": 3,
-   "on_panel": 2,
-   "diffusion_4w": 100.0,
-   "roles_now": 854,
-   "roles_4w_ago": 828,
-   "partners": [
-    "Shield AI",
-    "True Anomaly"
-   ]
-  },
-  {
-   "prime": "General Dynamics",
-   "ticker": "GD",
-   "partners_tracked": 6,
-   "on_panel": 3,
-   "diffusion_4w": 66.7,
-   "roles_now": 681,
-   "roles_4w_ago": 664,
-   "partners": [
-    "Shield AI",
-    "Span",
-    "Union"
-   ]
-  },
-  {
    "prime": "Raytheon / RTX",
    "ticker": "RTX",
    "partners_tracked": 5,
    "on_panel": 4,
-   "diffusion_4w": 62.5,
-   "roles_now": 205,
-   "roles_4w_ago": 189,
+   "diffusion_4w": 75.0,
+   "roles_now": 213,
+   "roles_4w_ago": 196,
    "partners": [
     "Divergent",
     "Epirus",
@@ -44,32 +17,43 @@
    ]
   },
   {
-   "prime": "Northrop Grumman",
-   "ticker": "NOC",
-   "partners_tracked": 5,
-   "on_panel": 4,
-   "diffusion_4w": 50.0,
-   "roles_now": 709,
-   "roles_4w_ago": 695,
-   "partners": [
-    "Observable Space",
-    "Picogrid",
-    "Scout AI",
-    "Shield AI"
-   ]
-  },
-  {
    "prime": "Lockheed Martin",
    "ticker": "LMT",
    "partners_tracked": 8,
    "on_panel": 3,
-   "diffusion_4w": 33.3,
-   "roles_now": 213,
-   "roles_4w_ago": 205,
+   "diffusion_4w": 50.0,
+   "roles_now": 218,
+   "roles_4w_ago": 207,
    "partners": [
     "Anello Photonics",
     "Divergent",
     "Hermeus"
+   ]
+  },
+  {
+   "prime": "General Dynamics",
+   "ticker": "GD",
+   "partners_tracked": 6,
+   "on_panel": 2,
+   "diffusion_4w": 25.0,
+   "roles_now": 38,
+   "roles_4w_ago": 42,
+   "partners": [
+    "Span",
+    "Union"
+   ]
+  },
+  {
+   "prime": "Northrop Grumman",
+   "ticker": "NOC",
+   "partners_tracked": 5,
+   "on_panel": 2,
+   "diffusion_4w": 25.0,
+   "roles_now": 42,
+   "roles_4w_ago": 44,
+   "partners": [
+    "Observable Space",
+    "Picogrid"
    ]
   }
  ]

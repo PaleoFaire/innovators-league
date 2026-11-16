@@ -1,0 +1,220 @@
+{
+ "week": "2026-W47",
+ "generated": "2026-11-16",
+ "count": 16,
+ "by_type": {
+  "hiring_surge": 9,
+  "production_turn": 2,
+  "hiring_pullback": 5
+ },
+ "signals": [
+  {
+   "company": "REGENT Craft",
+   "bucket": "Autonomy & Robotics",
+   "state": "RI",
+   "type": "hiring_surge",
+   "week": "2026-W47",
+   "evidence": {
+    "roles_4w_ago": 33,
+    "roles_now": 66,
+    "change_pct": 100.0
+   },
+   "last_capital_event": "2026-08"
+  },
+  {
+   "company": "Unconventional AI",
+   "bucket": "Chips & Quantum",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W47",
+   "evidence": {
+    "roles_4w_ago": 18,
+    "roles_now": 24,
+    "change_pct": 33.3
+   },
+   "last_capital_event": "2025-12"
+  },
+  {
+   "company": "Atomic Machines",
+   "bucket": "Chips & Quantum",
+   "state": "CA",
+   "type": "production_turn",
+   "week": "2026-W47",
+   "evidence": {
+    "atoms_share_now_pct": 54.1,
+    "atoms_share_12w_ago_pct": 37.0,
+    "roles_now": 37
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Deterrence",
+   "bucket": "Defence",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W47",
+   "evidence": {
+    "roles_4w_ago": 10,
+    "roles_now": 14,
+    "change_pct": 40.0
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Dyna Robotics",
+   "bucket": "Autonomy & Robotics",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W47",
+   "evidence": {
+    "roles_4w_ago": 23,
+    "roles_now": 30,
+    "change_pct": 30.4
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "GITAI",
+   "bucket": "Autonomy & Robotics",
+   "state": "CA",
+   "type": "hiring_pullback",
+   "week": "2026-W47",
+   "evidence": {
+    "roles_4w_ago": 19,
+    "roles_now": 11,
+    "change_pct": -42.1
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Loft Orbital",
+   "bucket": "Space & Aerospace",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W47",
+   "evidence": {
+    "roles_4w_ago": 64,
+    "roles_now": 84,
+    "change_pct": 31.2
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Phoenix Tailings",
+   "bucket": "Manufacturing & Materials",
+   "state": "MA",
+   "type": "hiring_surge",
+   "week": "2026-W47",
+   "evidence": {
+    "roles_4w_ago": 13,
+    "roles_now": 20,
+    "change_pct": 53.8
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Whisper Aero",
+   "bucket": "Space & Aerospace",
+   "state": "TN",
+   "type": "production_turn",
+   "week": "2026-W47",
+   "evidence": {
+    "atoms_share_now_pct": 72.7,
+    "atoms_share_12w_ago_pct": 50.0,
+    "roles_now": 11
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Vital Lyfe",
+   "bucket": "Power & Grid",
+   "state": "CA",
+   "type": "hiring_surge",
+   "week": "2026-W47",
+   "evidence": {
+    "roles_4w_ago": 12,
+    "roles_now": 17,
+    "change_pct": 41.7
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Neurophos",
+   "bucket": "Chips & Quantum",
+   "state": "TX",
+   "type": "hiring_surge",
+   "week": "2026-W47",
+   "evidence": {
+    "roles_4w_ago": 19,
+    "roles_now": 27,
+    "change_pct": 42.1
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Shift5",
+   "bucket": "Defence",
+   "state": "VA",
+   "type": "hiring_pullback",
+   "week": "2026-W47",
+   "evidence": {
+    "roles_4w_ago": 14,
+    "roles_now": 8,
+    "change_pct": -42.9
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Simbe Robotics",
+   "bucket": "Autonomy & Robotics",
+   "state": "CA",
+   "type": "hiring_pullback",
+   "week": "2026-W47",
+   "evidence": {
+    "roles_4w_ago": 16,
+    "roles_now": 11,
+    "change_pct": -31.2
+   },
+   "last_capital_event": "2025-10"
+  },
+  {
+   "company": "Starfish Space",
+   "bucket": "Space & Aerospace",
+   "state": "WA",
+   "type": "hiring_pullback",
+   "week": "2026-W47",
+   "evidence": {
+    "roles_4w_ago": 12,
+    "roles_now": 8,
+    "change_pct": -33.3
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Reflect Orbital",
+   "bucket": "Space & Aerospace",
+   "state": "CA",
+   "type": "hiring_pullback",
+   "week": "2026-W47",
+   "evidence": {
+    "roles_4w_ago": 20,
+    "roles_now": 14,
+    "change_pct": -30.0
+   },
+   "last_capital_event": null
+  },
+  {
+   "company": "Positron AI",
+   "bucket": "Chips & Quantum",
+   "state": "NV",
+   "type": "hiring_surge",
+   "week": "2026-W47",
+   "evidence": {
+    "roles_4w_ago": 21,
+    "roles_now": 35,
+    "change_pct": 66.7
+   },
+   "last_capital_event": "2026-09"
+  }
+ ]
+}

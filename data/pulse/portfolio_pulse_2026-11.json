@@ -2,20 +2,32 @@
  "month": "2026-11",
  "funds": [
   {
+   "fund": "Gigascale Capital",
+   "key": "Gigascale",
+   "tracked_in_lane": 12,
+   "on_hiring_panel": 8,
+   "diffusion": 81.2,
+   "up": 5,
+   "down": 0,
+   "roles_now": 591,
+   "roles_prev": 560,
+   "atoms_bits": 7.62,
+   "raised_last_3m": 0,
+   "factory_flags": []
+  },
+  {
    "fund": "Founders Fund",
    "key": "Founders Fund",
    "tracked_in_lane": 9,
    "on_hiring_panel": 7,
-   "diffusion": 85.7,
-   "up": 5,
+   "diffusion": 78.6,
+   "up": 4,
    "down": 0,
-   "roles_now": 3334,
+   "roles_now": 3346,
    "roles_prev": 3270,
-   "atoms_bits": 3.27,
+   "atoms_bits": 3.33,
    "raised_last_3m": 3,
-   "factory_flags": [
-    "Anduril Industries"
-   ]
+   "factory_flags": []
   },
   {
    "fund": "Spark Capital",
@@ -23,196 +35,12 @@
    "tracked_in_lane": 9,
    "on_hiring_panel": 5,
    "diffusion": 70.0,
-   "up": 2,
-   "down": 0,
-   "roles_now": 354,
-   "roles_prev": 338,
-   "atoms_bits": 2.97,
-   "raised_last_3m": 1,
-   "factory_flags": []
-  },
-  {
-   "fund": "Gigascale Capital",
-   "key": "Gigascale",
-   "tracked_in_lane": 12,
-   "on_hiring_panel": 8,
-   "diffusion": 68.8,
-   "up": 4,
-   "down": 1,
-   "roles_now": 563,
-   "roles_prev": 560,
-   "atoms_bits": 9.07,
-   "raised_last_3m": 0,
-   "factory_flags": []
-  },
-  {
-   "fund": "Playground Global",
-   "key": "Playground",
-   "tracked_in_lane": 14,
-   "on_hiring_panel": 7,
-   "diffusion": 64.3,
-   "up": 4,
-   "down": 2,
-   "roles_now": 752,
-   "roles_prev": 748,
-   "atoms_bits": 3.19,
-   "raised_last_3m": 1,
-   "factory_flags": [
-    "Skydio"
-   ]
-  },
-  {
-   "fund": "Lux Capital",
-   "key": "Lux",
-   "tracked_in_lane": 25,
-   "on_hiring_panel": 21,
-   "diffusion": 61.9,
-   "up": 8,
-   "down": 3,
-   "roles_now": 4113,
-   "roles_prev": 4052,
-   "atoms_bits": 3.55,
-   "raised_last_3m": 3,
-   "factory_flags": [
-    "Anduril Industries"
-   ]
-  },
-  {
-   "fund": "Andreessen Horowitz",
-   "key": "a16z",
-   "tracked_in_lane": 50,
-   "on_hiring_panel": 38,
-   "diffusion": 61.8,
-   "up": 15,
-   "down": 6,
-   "roles_now": 5891,
-   "roles_prev": 5805,
-   "atoms_bits": 2.44,
-   "raised_last_3m": 6,
-   "factory_flags": [
-    "Anduril Industries",
-    "Shield AI",
-    "Skydio",
-    "Tutor Intelligence",
-    "Waymo"
-   ]
-  },
-  {
-   "fund": "Khosla Ventures",
-   "key": "KV",
-   "tracked_in_lane": 33,
-   "on_hiring_panel": 16,
-   "diffusion": 59.4,
-   "up": 4,
-   "down": 1,
-   "roles_now": 909,
-   "roles_prev": 889,
-   "atoms_bits": 3.69,
-   "raised_last_3m": 7,
-   "factory_flags": []
-  },
-  {
-   "fund": "Prime Movers Lab",
-   "key": "Prime Movers Lab",
-   "tracked_in_lane": 14,
-   "on_hiring_panel": 11,
-   "diffusion": 59.1,
-   "up": 5,
-   "down": 3,
-   "roles_now": 728,
-   "roles_prev": 697,
-   "atoms_bits": 5.16,
-   "raised_last_3m": 0,
-   "factory_flags": [
-    "Quantum Space"
-   ]
-  },
-  {
-   "fund": "Sequoia Capital",
-   "key": "Sequoia",
-   "tracked_in_lane": 8,
-   "on_hiring_panel": 6,
-   "diffusion": 58.3,
-   "up": 2,
-   "down": 1,
-   "roles_now": 554,
-   "roles_prev": 553,
-   "atoms_bits": 3.46,
-   "raised_last_3m": 2,
-   "factory_flags": []
-  },
-  {
-   "fund": "8VC",
-   "key": "8VC",
-   "tracked_in_lane": 26,
-   "on_hiring_panel": 19,
-   "diffusion": 57.9,
-   "up": 6,
-   "down": 3,
-   "roles_now": 3647,
-   "roles_prev": 3592,
-   "atoms_bits": 2.8,
-   "raised_last_3m": 5,
-   "factory_flags": [
-    "Anduril Industries"
-   ]
-  },
-  {
-   "fund": "Cantos Ventures",
-   "key": "Cantos",
-   "tracked_in_lane": 28,
-   "on_hiring_panel": 17,
-   "diffusion": 55.9,
-   "up": 4,
-   "down": 2,
-   "roles_now": 635,
-   "roles_prev": 634,
-   "atoms_bits": 4.56,
-   "raised_last_3m": 1,
-   "factory_flags": []
-  },
-  {
-   "fund": "Harpoon Ventures",
-   "key": "Harpoon",
-   "tracked_in_lane": 14,
-   "on_hiring_panel": 9,
-   "diffusion": 55.6,
-   "up": 2,
-   "down": 1,
-   "roles_now": 367,
-   "roles_prev": 364,
-   "atoms_bits": 4.98,
-   "raised_last_3m": 1,
-   "factory_flags": []
-  },
-  {
-   "fund": "Riot Ventures",
-   "key": "Riot",
-   "tracked_in_lane": 14,
-   "on_hiring_panel": 10,
-   "diffusion": 55.0,
    "up": 3,
-   "down": 2,
-   "roles_now": 894,
-   "roles_prev": 889,
-   "atoms_bits": 3.08,
-   "raised_last_3m": 2,
-   "factory_flags": [
-    "Shield AI"
-   ]
-  },
-  {
-   "fund": "Eclipse Ventures",
-   "key": "Eclipse",
-   "tracked_in_lane": 30,
-   "on_hiring_panel": 20,
-   "diffusion": 50.0,
-   "up": 4,
-   "down": 4,
-   "roles_now": 1025,
-   "roles_prev": 1024,
-   "atoms_bits": 2.53,
-   "raised_last_3m": 8,
+   "down": 1,
+   "roles_now": 346,
+   "roles_prev": 338,
+   "atoms_bits": 3.07,
+   "raised_last_3m": 1,
    "factory_flags": []
   },
   {
@@ -220,13 +48,168 @@
    "key": "AlleyCorp",
    "tracked_in_lane": 8,
    "on_hiring_panel": 5,
-   "diffusion": 50.0,
-   "up": 1,
-   "down": 1,
-   "roles_now": 171,
+   "diffusion": 70.0,
+   "up": 2,
+   "down": 0,
+   "roles_now": 184,
    "roles_prev": 175,
-   "atoms_bits": 4.5,
+   "atoms_bits": 4.88,
    "raised_last_3m": 0,
+   "factory_flags": [
+    "Valar Atomics"
+   ]
+  },
+  {
+   "fund": "Lux Capital",
+   "key": "Lux",
+   "tracked_in_lane": 25,
+   "on_hiring_panel": 21,
+   "diffusion": 69.0,
+   "up": 11,
+   "down": 3,
+   "roles_now": 4114,
+   "roles_prev": 4052,
+   "atoms_bits": 3.58,
+   "raised_last_3m": 3,
+   "factory_flags": []
+  },
+  {
+   "fund": "8VC",
+   "key": "8VC",
+   "tracked_in_lane": 26,
+   "on_hiring_panel": 19,
+   "diffusion": 63.2,
+   "up": 8,
+   "down": 3,
+   "roles_now": 3663,
+   "roles_prev": 3592,
+   "atoms_bits": 2.8,
+   "raised_last_3m": 5,
+   "factory_flags": []
+  },
+  {
+   "fund": "Andreessen Horowitz",
+   "key": "a16z",
+   "tracked_in_lane": 53,
+   "on_hiring_panel": 37,
+   "diffusion": 62.2,
+   "up": 13,
+   "down": 4,
+   "roles_now": 5264,
+   "roles_prev": 5171,
+   "atoms_bits": 2.45,
+   "raised_last_3m": 8,
+   "factory_flags": [
+    "Skydio",
+    "Tutor Intelligence",
+    "Waymo",
+    "Zipline"
+   ]
+  },
+  {
+   "fund": "Lowercarbon Capital",
+   "key": "Lowercarbon",
+   "tracked_in_lane": 38,
+   "on_hiring_panel": 22,
+   "diffusion": 61.4,
+   "up": 9,
+   "down": 4,
+   "roles_now": 701,
+   "roles_prev": 678,
+   "atoms_bits": 6.79,
+   "raised_last_3m": 0,
+   "factory_flags": []
+  },
+  {
+   "fund": "Riot Ventures",
+   "key": "Riot",
+   "tracked_in_lane": 14,
+   "on_hiring_panel": 9,
+   "diffusion": 61.1,
+   "up": 3,
+   "down": 1,
+   "roles_now": 274,
+   "roles_prev": 255,
+   "atoms_bits": 6.44,
+   "raised_last_3m": 2,
+   "factory_flags": [
+    "Valar Atomics"
+   ]
+  },
+  {
+   "fund": "Prime Movers Lab",
+   "key": "Prime Movers Lab",
+   "tracked_in_lane": 14,
+   "on_hiring_panel": 10,
+   "diffusion": 60.0,
+   "up": 4,
+   "down": 2,
+   "roles_now": 573,
+   "roles_prev": 553,
+   "atoms_bits": 5.29,
+   "raised_last_3m": 0,
+   "factory_flags": [
+    "Quantum Space"
+   ]
+  },
+  {
+   "fund": "Cantos Ventures",
+   "key": "Cantos",
+   "tracked_in_lane": 28,
+   "on_hiring_panel": 17,
+   "diffusion": 58.8,
+   "up": 5,
+   "down": 2,
+   "roles_now": 654,
+   "roles_prev": 634,
+   "atoms_bits": 3.95,
+   "raised_last_3m": 2,
+   "factory_flags": []
+  },
+  {
+   "fund": "Playground Global",
+   "key": "Playground",
+   "tracked_in_lane": 15,
+   "on_hiring_panel": 7,
+   "diffusion": 57.1,
+   "up": 3,
+   "down": 2,
+   "roles_now": 754,
+   "roles_prev": 748,
+   "atoms_bits": 3.13,
+   "raised_last_3m": 1,
+   "factory_flags": [
+    "Skydio"
+   ]
+  },
+  {
+   "fund": "Sequoia Capital",
+   "key": "Sequoia",
+   "tracked_in_lane": 9,
+   "on_hiring_panel": 7,
+   "diffusion": 57.1,
+   "up": 3,
+   "down": 2,
+   "roles_now": 575,
+   "roles_prev": 567,
+   "atoms_bits": 3.19,
+   "raised_last_3m": 2,
+   "factory_flags": [
+    "Zipline"
+   ]
+  },
+  {
+   "fund": "Eclipse Ventures",
+   "key": "Eclipse",
+   "tracked_in_lane": 31,
+   "on_hiring_panel": 21,
+   "diffusion": 54.8,
+   "up": 7,
+   "down": 5,
+   "roles_now": 1178,
+   "roles_prev": 1163,
+   "atoms_bits": 2.32,
+   "raised_last_3m": 9,
    "factory_flags": []
   },
   {
@@ -234,13 +217,55 @@
    "key": "Pax Ventures",
    "tracked_in_lane": 16,
    "on_hiring_panel": 12,
-   "diffusion": 45.8,
-   "up": 2,
-   "down": 3,
-   "roles_now": 418,
+   "diffusion": 54.2,
+   "up": 3,
+   "down": 2,
+   "roles_now": 428,
    "roles_prev": 425,
-   "atoms_bits": 3.41,
+   "atoms_bits": 3.01,
    "raised_last_3m": 2,
+   "factory_flags": []
+  },
+  {
+   "fund": "Khosla Ventures",
+   "key": "KV",
+   "tracked_in_lane": 33,
+   "on_hiring_panel": 16,
+   "diffusion": 53.1,
+   "up": 6,
+   "down": 5,
+   "roles_now": 920,
+   "roles_prev": 889,
+   "atoms_bits": 3.52,
+   "raised_last_3m": 7,
+   "factory_flags": []
+  },
+  {
+   "fund": "Decisive Point",
+   "key": "Decisive Point",
+   "tracked_in_lane": 15,
+   "on_hiring_panel": 6,
+   "diffusion": 50.0,
+   "up": 1,
+   "down": 1,
+   "roles_now": 126,
+   "roles_prev": 126,
+   "atoms_bits": 1.62,
+   "raised_last_3m": 0,
+   "factory_flags": []
+  },
+  {
+   "fund": "Harpoon Ventures",
+   "key": "Harpoon",
+   "tracked_in_lane": 14,
+   "on_hiring_panel": 9,
+   "diffusion": 44.4,
+   "up": 1,
+   "down": 2,
+   "roles_now": 357,
+   "roles_prev": 364,
+   "atoms_bits": 5.09,
+   "raised_last_3m": 1,
    "factory_flags": []
   },
   {
@@ -251,7 +276,7 @@
    "diffusion": 41.7,
    "up": 1,
    "down": 2,
-   "roles_now": 73,
+   "roles_now": 74,
    "roles_prev": 77,
    "atoms_bits": 4.0,
    "raised_last_3m": 0,
@@ -262,30 +287,16 @@
    "key": "Valor",
    "tracked_in_lane": 9,
    "on_hiring_panel": 6,
-   "diffusion": 41.7,
+   "diffusion": 33.3,
    "up": 2,
-   "down": 3,
-   "roles_now": 3289,
+   "down": 4,
+   "roles_now": 3259,
    "roles_prev": 3256,
-   "atoms_bits": 2.99,
+   "atoms_bits": 3.02,
    "raised_last_3m": 1,
    "factory_flags": [
-    "Anduril Industries"
+    "Zipline"
    ]
-  },
-  {
-   "fund": "Decisive Point",
-   "key": "Decisive Point",
-   "tracked_in_lane": 15,
-   "on_hiring_panel": 6,
-   "diffusion": 33.3,
-   "up": 0,
-   "down": 2,
-   "roles_now": 102,
-   "roles_prev": 126,
-   "atoms_bits": 2.18,
-   "raised_last_3m": 0,
-   "factory_flags": []
   }
  ]
 }
