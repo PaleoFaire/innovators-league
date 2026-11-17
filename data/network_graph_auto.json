@@ -7076,6 +7076,81 @@
       "thesisCluster": ""
     },
     {
+      "id": "Mesa Quantum",
+      "sector": "Quantum Computing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Nomic",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Coherence",
+      "sector": "Biotech & Health",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Invisible AI",
+      "sector": "Robotics & Manufacturing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Plotlogic",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Primordial Labs",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Gallium Defense",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Cosmoserve Space",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Marble Imaging",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "U-Space",
+      "sector": "Space & Aerospace",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Quintessent",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "memQ",
+      "sector": "Quantum Computing",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Q.ANT",
+      "sector": "Chips & Semiconductors",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Hephaestus",
+      "sector": "Nuclear Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Tagup",
+      "sector": "Defense & Security",
+      "thesisCluster": ""
+    },
+    {
       "id": "SpaceX-alumni-hub",
       "sector": "alumni",
       "thesisCluster": ""
@@ -12519,7 +12594,7 @@
     }
   ],
   "counts": {
-    "total_nodes": 1421,
+    "total_nodes": 1436,
     "total_edges": 943,
     "competitor_edges": 194,
     "thesis_edges": 695,

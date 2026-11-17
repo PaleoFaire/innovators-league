@@ -1,75 +1,74 @@
 [
   {
-    "sector": "Defense & Security",
-    "momentum": 63,
-    "trend": "steady",
-    "catalysts": [
-      "After dodging death, battery startup Our Next Energy is now",
-      "Hermeus recruits Northrop Grumman to Quarterhorse drone prog",
-      "SDA explores integration of SpaceX laser communication termi"
-    ],
-    "fundingQ": "$4.1B",
-    "components": {
-      "funding": 100,
-      "news": 35,
-      "hiring": 0,
-      "market": 97
-    },
-    "lastUpdated": "2026-11-16"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 63,
-    "trend": "accelerating",
-    "catalysts": [
-      "Bedrock Energy raises $24M to build more AI-enabled geotherm",
-      "Vulcan rocket fails during launch, dealing major blow to Spa",
-      "How SpaceX Succeeded With Reusable Starship adn More SpaceX"
-    ],
-    "fundingQ": "$1.2B",
-    "components": {
-      "funding": 51,
-      "news": 100,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-11-16"
-  },
-  {
     "sector": "Robotics & Manufacturing",
-    "momentum": 56,
+    "momentum": 59,
     "trend": "accelerating",
     "catalysts": [
-      "Zoox robotaxis are now on the Uber app in Las Vegas",
-      "How SpaceX Succeeded With Reusable Starship adn More SpaceX",
-      "Zoox Launches Robotaxis in Atlanta"
+      "Robotics startup Genesis AI raises $500m backed by Nvidia",
+      "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robo",
+      "Genesis AI raises $500 million to deploy glove-wearing robot"
     ],
     "fundingQ": "$7.0B",
     "components": {
       "funding": 100,
-      "news": 45,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-16"
+    "lastUpdated": "2026-11-17"
   },
   {
     "sector": "AI & Software",
-    "momentum": 49,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "$3.4 Billion \u2014 Anthropic Order for Gas Power Plants!",
-      "Anthropic Seeks Record $88.5B Tied To Public Market Debut",
-      "OpenAI models hacked a crypto wallet and breached more websi"
+      "California state AG sues OpenAI over rogue agent incidents",
+      "$3.4 Billion \u2014 Anthropic Order for Gas Power Plants!"
     ],
     "fundingQ": "$12.1B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-16"
+    "lastUpdated": "2026-11-17"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 42,
+    "trend": "steady",
+    "catalysts": [
+      "Uber and Zipline&#8217;s drone delivery service takes off in",
+      "Spending Isn\u2019t Deterrence: Fixing Germany\u2019s Procurement Mach",
+      "Air Force bets on hybrid-electric aircraft for transport"
+    ],
+    "fundingQ": "$4.1B",
+    "components": {
+      "funding": 100,
+      "news": 30,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-11-17"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 39,
+    "trend": "steady",
+    "catalysts": [
+      "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit",
+      "Tiberius Aerospace with strong UK links raises $85M",
+      "Two SpaceX Starship Flights Already Double Starlink Growth,"
+    ],
+    "fundingQ": "$1.2B",
+    "components": {
+      "funding": 51,
+      "news": 85,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-11-17"
   },
   {
     "sector": "Transportation",
@@ -85,11 +84,11 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-16"
+    "lastUpdated": "2026-11-17"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 27,
+    "momentum": 23,
     "trend": "rising",
     "catalysts": [
       "Active nuclear energy ecosystem"
@@ -99,52 +98,18 @@
       "funding": 67,
       "news": 0,
       "hiring": 0,
-      "market": 16
-    },
-    "lastUpdated": "2026-11-16"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "Indian chip startup Bharat Semi lands $24M seed round as it"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-11-16"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 21,
-    "trend": "rising",
-    "catalysts": [
-      "Mazama Energy has a solution for geothermal\u2019s biggest drilli",
-      "After dodging death, battery startup Our Next Energy is now",
-      "Bedrock Energy raises $24M to build more AI-enabled geotherm"
-    ],
-    "fundingQ": "$550M",
-    "components": {
-      "funding": 46,
-      "news": 20,
-      "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-16"
+    "lastUpdated": "2026-11-17"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 19,
     "trend": "declining",
     "catalysts": [
-      "Zoox robotaxis are now on the Uber app in Las Vegas",
-      "How Rhoda AI is using video data to create generalized AI mo",
-      "AST SpaceMobile presses case for developing own launch vehic"
+      "Genesis AI raises $500 million to deploy glove-wearing robot",
+      "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit",
+      "Tiberius Aerospace with strong UK links raises $85M"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -153,16 +118,32 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-16"
+    "lastUpdated": "2026-11-17"
   },
   {
-    "sector": "Drones & Autonomous",
+    "sector": "Climate & Energy",
+    "momentum": 16,
+    "trend": "declining",
+    "catalysts": [
+      "Active climate & energy ecosystem"
+    ],
+    "fundingQ": "$550M",
+    "components": {
+      "funding": 46,
+      "news": 0,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-11-17"
+  },
+  {
+    "sector": "Housing & Construction",
     "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "Hermeus recruits Northrop Grumman to Quarterhorse drone prog",
-      "Drone startup Uforce raises $700m backed by Valor Equity Par",
-      "Axon invests $1.2B into Skydio and becomes its U.S. public s"
+      "Isomorphic Labs raises $5B as it looks to take drug candidat",
+      "How SpaceX Succeeded With Reusable Starship and More SpaceX",
+      "SpaceX Minihard Data Center Gun Range Built in 4 Months"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -171,14 +152,31 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-16"
+    "lastUpdated": "2026-11-17"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "Uber and Zipline&#8217;s drone delivery service takes off in",
+      "Drone startup Uforce raises $700m backed by Valor Equity Par"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-17"
   },
   {
     "sector": "Supersonic & Hypersonic",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "Hermeus recruits Northrop Grumman to Quarterhorse drone prog",
+      "Spending Isn\u2019t Deterrence: Fixing Germany\u2019s Procurement Mach",
       "Runway&#8217;s Praxis-1 world action model for robotics is n"
     ],
     "fundingQ": "$0M",
@@ -188,41 +186,41 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-16"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "How SpaceX Succeeded With Reusable Starship adn More SpaceX",
-      "SpaceX Minihard Data Center Gun Range Built in 4 Months"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-16"
+    "lastUpdated": "2026-11-17"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 12,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Bedrock Energy raises $24M to build more AI-enabled geotherm",
       "Viam Launchpad aims to accelerate robotics deployments"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-16"
+    "lastUpdated": "2026-11-17"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Isomorphic Labs raises $5B as it looks to take drug candidat",
+      "Robotics startup Genesis AI raises $500m backed by Nvidia",
+      "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robo"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 40,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-11-17"
   },
   {
     "sector": "Ocean & Maritime",
@@ -238,40 +236,38 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-16"
+    "lastUpdated": "2026-11-17"
   },
   {
-    "sector": "Biotech & Health",
-    "momentum": 2,
+    "sector": "Chips & Semiconductors",
+    "momentum": 1,
     "trend": "declining",
     "catalysts": [
-      "Indian chip startup Bharat Semi lands $24M seed round as it",
-      "How Rhoda AI is using video data to create generalized AI mo"
+      "Robotics startup Genesis AI raises $500m backed by Nvidia"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-16"
+    "lastUpdated": "2026-11-17"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 2,
+    "momentum": 1,
     "trend": "declining",
     "catalysts": [
-      "QuantumScape Has An Osprey Up Its Solid-State EV Battery Sle",
       "QuantumScape unveils Osprey all-solid-state cell: 1,000 cycl"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-16"
+    "lastUpdated": "2026-11-17"
   }
 ]
