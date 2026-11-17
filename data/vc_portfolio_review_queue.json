@@ -23,8 +23,10 @@
     "listed_by": 1,
     "since": "2025-10-28",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: software (carbon/energy management SaaS)"
   },
   {
     "name": "Starboard",
@@ -50,8 +52,10 @@
     "listed_by": 1,
     "since": "2026-03-24",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: software (freight quoting)"
   },
   {
     "name": "The Lumber Manufactory",
@@ -132,8 +136,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "Bar 3 fails: in scope (AI GD&T drawing automation for hardware engineers, YC W26), but only funding found is YC's standard ~$500K (aggregators: pre-seed/convertible note); YC counts only with a priced round or $2M+, and no Red Glass investm"
   },
   {
     "name": "1st Avenue Power",
@@ -210,8 +216,10 @@
     "listed_by": 1,
     "since": "2025-03-06",
     "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "Fail as dormant: site still live and lists investors, but no dated 2026 news, launch or milestone found; latest verifiable item is the July 2024 Lomarlabs agreement (first ships targeted for 2027). The site shows no dated updates. Re-add if"
   },
   {
     "name": "FarmHQ",
@@ -315,8 +323,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "added",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "added as Mesa Quantum"
   },
   {
     "name": "Rapidsos",
@@ -342,8 +352,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: software (public-safety data)"
   },
   {
     "name": "Terraton",
@@ -369,8 +381,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "Bar 2 fails: Terraton (terraton.ai) is a biochar 'business-in-a-box' that arranges financing, vetted third-party equipment, tracking software and carbon-credit sales for agribusiness partners who build and run the facilities. It does not ma"
   },
   {
     "name": "PowerMarket",
@@ -396,8 +410,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: solar PPA marketplace"
   },
   {
     "name": "Aptamino",
@@ -475,8 +491,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: therapeutics developer"
   },
   {
     "name": "Braid Health",
@@ -502,8 +520,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: digital-health software"
   },
   {
     "name": "Hangar Technology",
@@ -529,8 +549,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "Not independent: acquired by AirMap (announced 23 Sep 2019). hangar.com now shows only a 'Hangar Aerospace' contact form (c 2025), not an operating product site."
   },
   {
     "name": "Higharc",
@@ -556,8 +578,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: homebuilding design SaaS"
   },
   {
     "name": "Kela Technologies",
@@ -610,8 +634,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "added",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "added as Nomic"
   },
   {
     "name": "Nozomi Networks",
@@ -637,8 +663,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "Not independent: Mitsubishi Electric completed its ~$1B acquisition of Nozomi Networks on 28 Jan 2026 (wholly owned subsidiary)."
   },
   {
     "name": "OpenSpace",
@@ -664,8 +692,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: construction SaaS (reality capture)"
   },
   {
     "name": "Plexium",
@@ -691,8 +721,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: therapeutics developer"
   },
   {
     "name": "Addepar",
@@ -718,8 +750,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: wealth-management software"
   },
   {
     "name": "Ascend.io",
@@ -745,8 +779,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: data-engineering software"
   },
   {
     "name": "Coherence Neuro",
@@ -772,8 +808,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "added",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "added as Coherence"
   },
   {
     "name": "Color",
@@ -799,8 +837,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: healthcare services"
   },
   {
     "name": "Coram AI",
@@ -826,8 +866,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: video-security software"
   },
   {
     "name": "Felux",
@@ -853,8 +895,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: mining supply marketplace"
   },
   {
     "name": "Flexport",
@@ -880,8 +924,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: freight forwarder"
   },
   {
     "name": "Hearth",
@@ -907,8 +953,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: fintech"
   },
   {
     "name": "Invisible AI",
@@ -934,8 +982,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "added",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "added as Invisible AI"
   },
   {
     "name": "Lumber",
@@ -961,8 +1011,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: payroll software"
   },
   {
     "name": "Plotlogic",
@@ -988,8 +1040,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "added",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "added as Plotlogic"
   },
   {
     "name": "Premise",
@@ -1015,8 +1069,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: data/analytics"
   },
   {
     "name": "RealScout",
@@ -1042,8 +1098,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: real-estate software"
   },
   {
     "name": "Superpower",
@@ -1069,8 +1127,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: consumer health"
   },
   {
     "name": "Welcome Homes",
@@ -1096,8 +1156,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: homebuilding marketplace"
   },
   {
     "name": "Xilis",
@@ -1123,8 +1185,10 @@
     "listed_by": 1,
     "since": "2026-11-16",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "Bar 1/active: xilis.com says 'Xilis, Inc. has closed'; its MOS technology is now sold by Uniform Bio as MOSgen (checked 17 Nov 2026)."
   },
   {
     "name": "Foundry Management",
@@ -1150,8 +1214,10 @@
     "listed_by": 1,
     "since": "2026-10-01",
     "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: company-building studio, not a product company"
   },
   {
     "name": "Andean Inc",

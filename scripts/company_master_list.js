@@ -7,8 +7,8 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1517
- * Last updated: 2026-11-12
+ * Total companies: 1532
+ * Last updated: 2026-11-17
  * 
  * Each company has:
  *   - name: Official company name
@@ -1595,6 +1595,22 @@ const MASTER_COMPANY_LIST = [
   { name: "Watchtower Labs", aliases: ["WatchtowerLabs"], sector: "defense", ticker: null },
   // ─── 12 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
   { name: "ZaiNar", aliases: [], sector: "infrastructure", ticker: null },
+  // ─── 17 Nov 2026 sync: data.js companies the list lacked (scripts/sync_master_list.py) ───
+  { name: "Coherence", aliases: [], sector: "biotech", ticker: null },
+  { name: "Nomic", aliases: [], sector: "biotech", ticker: null },
+  { name: "Q.ANT", aliases: ["QANT"], sector: "chips", ticker: null },
+  { name: "Quintessent", aliases: [], sector: "chips", ticker: null },
+  { name: "Plotlogic", aliases: [], sector: "climate", ticker: null },
+  { name: "Gallium Defense", aliases: ["GalliumDefense"], sector: "defense", ticker: null },
+  { name: "Primordial Labs", aliases: ["PrimordialLabs"], sector: "defense", ticker: null },
+  { name: "Tagup", aliases: [], sector: "defense", ticker: null },
+  { name: "Hephaestus", aliases: [], sector: "nuclear", ticker: null },
+  { name: "Mesa Quantum", aliases: ["MesaQuantum"], sector: "quantum", ticker: null },
+  { name: "memQ", aliases: [], sector: "quantum", ticker: null },
+  { name: "Invisible AI", aliases: ["InvisibleAI"], sector: "robotics", ticker: null },
+  { name: "Cosmoserve Space", aliases: ["CosmoserveSpace"], sector: "space", ticker: null },
+  { name: "Marble Imaging", aliases: ["MarbleImaging"], sector: "space", ticker: null },
+  { name: "U-Space", aliases: ["USpace"], sector: "space", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════

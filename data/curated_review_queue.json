@@ -4,7 +4,7 @@
     "status": "rejected",
     "sector": "Robotics",
     "tagline": "Builds educational robots for kids.",
-    "founders": "Paolo Pirjanian, Maja Matari\u0107",
+    "founders": "Paolo Pirjanian, Maja Matarić",
     "city": "Pasadena, CA",
     "founded": "2016",
     "round": "Series C+",
@@ -951,7 +951,7 @@
   },
   {
     "name": "Verse Medical",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Bio & Health",
     "tagline": "Builds software that coordinates medical supplies and care for patients at home.",
     "founders": "Dhaivat Pandya",
@@ -964,7 +964,9 @@
     "careers_url": "",
     "our_sector": "Biotech & Health",
     "source_list": "buildlist",
-    "detected_at": "2026-11-16T18:32:51.026897+00:00"
+    "detected_at": "2026-11-16T18:32:51.026897+00:00",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: software (home-care coordination)"
   },
   {
     "name": "Formation Bio",
@@ -1002,7 +1004,7 @@
   },
   {
     "name": "Dataminr",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Defense",
     "tagline": "Real-time AI that detects emerging risks and threats from public data.",
     "founders": "Ted Bailey, Sam Hendel, Jeff Kinsey",
@@ -1015,11 +1017,13 @@
     "careers_url": "",
     "our_sector": "Defense & Security",
     "source_list": "buildlist",
-    "detected_at": "2026-11-16T18:32:51.026897+00:00"
+    "detected_at": "2026-11-16T18:32:51.026897+00:00",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: software (risk-detection AI)"
   },
   {
     "name": "Abridge",
-    "status": "pending",
+    "status": "rejected",
     "sector": "Bio & Health",
     "tagline": "Turns clinical conversations into AI-generated documentation and care insights.",
     "founders": "Shiv Rao, Zack Lipton, Sandeep Konam, Florian Metze",
@@ -1032,6 +1036,8 @@
     "careers_url": "",
     "our_sector": "Biotech & Health",
     "source_list": "buildlist",
-    "detected_at": "2026-11-16T18:32:51.026897+00:00"
+    "detected_at": "2026-11-16T18:32:51.026897+00:00",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: software (clinical documentation AI)"
   }
 ]
