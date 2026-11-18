@@ -1,60 +1,166 @@
 [
   {
-    "title": "Uber and Zipline&#8217;s drone delivery service takes off in Texas, with dozens of cities to follow",
-    "link": "https://techcrunch.com/2026/11/17/uber-and-ziplines-drone-delivery-service-takes-off-in-texas-with-dozens-of-cities-to-follow/",
-    "description": "The two companies want to make one million deliveries per day using Zipline drones by the end of 2029.",
-    "pubDate": "Tue, 17 Nov 2026 15:07:06 +0000",
-    "category": "Transportation",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Zipline",
+    "title": "ElevenLabs, Lovable and DeepL CEOs urge EU to back homegrown AI",
+    "link": "https://sifted.eu/articles/elevenlabs-lovable-deepl-yann-lecun-eu-ai-open-letter/",
+    "description": "",
+    "pubDate": "Wed, 18 Nov 2026 12:30:18 GMT",
+    "category": "",
+    "source": "Sifted",
+    "feedCategory": "startups",
+    "matchedCompany": "ElevenLabs",
     "matchedCompanies": [
-      "Zipline"
+      "ElevenLabs"
     ],
     "sectors": [
-      "autonomous"
+      "ai"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "Anthropic’s $1.4tn IPO puts Europe’s AI boom to the test",
+    "link": "https://sifted.eu/articles/anthropic-ipo-puts-europe-ai-boom-to-the-test/",
+    "description": "",
+    "pubDate": "Wed, 18 Nov 2026 05:00:46 GMT",
+    "category": "",
+    "source": "Sifted",
+    "feedCategory": "startups",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "high",
+    "time": "10h ago"
+  },
+  {
+    "title": "Exclusive: OpenAI and Meta insiders back startup policing rogue AI agents",
+    "link": "https://sifted.eu/articles/disseqt-ai-agents-rogue/",
+    "description": "",
+    "pubDate": "Wed, 18 Nov 2026 05:00:24 GMT",
+    "category": "",
+    "source": "Sifted",
+    "feedCategory": "startups",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "10h ago"
   },
   {
-    "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
-    "link": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
-    "description": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 Billion in a Series C funding round.",
-    "pubDate": "Tue, 17 Nov 2026 14:50:58 +0000",
+    "title": "Zoox Partnering with Uber to Bring Autonomous Mobility to More Riders",
+    "link": "https://cleantechnica.com/2026/11/17/zoox-partnering-with-uber-to-bring-autonomous-mobility-to-more-riders/",
+    "description": "Now live in Las Vegas, with Los Angeles to follow In March 2026, we announced a multi-year partnership between Zoox and Uber to bring our robotaxi experience to Uber’s growing autonomy platform in select cities. Now, beginning today, Uber riders in Las Vegas will have the opportunity to be matched  ",
+    "pubDate": "Wed, 18 Nov 2026 02:07:38 +0000",
+    "category": "Autonomous Vehicles",
+    "source": "CleanTechnica",
+    "feedCategory": "energy",
+    "matchedCompany": "Zoox",
+    "matchedCompanies": [
+      "Zoox",
+      "Waymo"
+    ],
+    "sectors": [
+      "transportation",
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "13h ago"
+  },
+  {
+    "title": "OpenAI gives NATO access to most advanced cybersecurity AI",
+    "link": "https://www.defenseone.com/technology/2026/11/openai-gives-nato-access-most-advanced-cybersecurity-ai/417296/",
+    "description": "NATO operators this month built and deployed AI agents in an exercise, with help from OpenAI.",
+    "pubDate": "Tue, 17 Nov 2026 19:39:24 -0500",
+    "category": "Science &amp; Tech",
+    "source": "Defense One",
+    "feedCategory": "defense",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Galvanick"
+    ],
+    "sectors": [
+      "ai",
+      "defense"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "14h ago"
+  },
+  {
+    "title": "California DMV bars Waymo AVs from operating on the state&#8217;s freeways",
+    "link": "https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/",
+    "description": "The DMV determined that Waymo's freeway operations \"pose an imminent hazard to public safety due to recurring incursions by its vehicles.\"\nThe post California DMV bars Waymo AVs from operating on the state&#8217;s freeways appeared first on The Robot Report.",
+    "pubDate": "Tue, 17 Nov 2026 23:55:07 +0000",
+    "category": "Artificial Intelligence",
+    "source": "The Robot Report",
+    "feedCategory": "robotics",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Skydio",
+      "Flock Safety",
+      "Pano AI",
+      "Aerodome"
+    ],
+    "sectors": [
+      "ai",
+      "defense",
+      "climate"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "15h ago"
+  },
+  {
+    "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+    "link": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+    "description": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+    "pubDate": "Tue, 17 Nov 2026 22:29:05 +0000",
     "category": "AI",
     "source": "TechCrunch",
     "feedCategory": "tech",
-    "matchedCompany": "Isomorphic Labs",
+    "matchedCompany": "Anthropic",
     "matchedCompanies": [
-      "Isomorphic Labs"
+      "Anthropic"
     ],
     "sectors": [
-      "biotech"
+      "ai"
     ],
-    "type": "funding",
+    "type": "ipo",
     "impact": "high",
-    "time": "Just now"
+    "time": "16h ago"
   },
   {
-    "title": "Science Corporation&#8217;s brain tech is worth $3.5 billion after new funding",
-    "link": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
-    "description": "Science Corp raised a $400 million Series D to scale up its anti-blindness business.",
-    "pubDate": "Tue, 17 Nov 2026 14:26:46 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Science Corporation",
+    "title": "ICEYE makes $2B bid for Italian rocket firm Avio",
+    "link": "https://breakingdefense.com/2026/11/iceye-makes-2b-bid-for-italian-rocket-firm-avio/",
+    "description": "The proposed deal comes at a time when many in Europe have grown increasingly concerned about the reliance on the US for space launch and military space capabilities.",
+    "pubDate": "Tue, 17 Nov 2026 21:12:16 +0000",
+    "category": "Space",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "ICEYE",
     "matchedCompanies": [
-      "Science Corporation"
+      "ICEYE",
+      "Astro Mechanica"
     ],
     "sectors": [
-      "biotech"
+      "space"
     ],
-    "type": "funding",
+    "type": "ipo",
     "impact": "high",
-    "time": "1h ago"
+    "time": "18h ago"
   },
   {
     "title": "Robotics startup Genesis AI raises $500m backed by Nvidia",
@@ -73,7 +179,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "1h ago"
+    "time": "1d ago"
   },
   {
     "title": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses",
@@ -92,45 +198,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "1h ago"
-  },
-  {
-    "title": "Genesis AI raises $500 million to deploy glove-wearing robots",
-    "link": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
-    "description": "Genesis AI's novel approach to training dexterous robots earned it $500 million in Series A funding.",
-    "pubDate": "Tue, 17 Nov 2026 14:00:00 +0000",
-    "category": "Robotics",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Genesis AI",
-    "matchedCompanies": [
-      "Genesis AI"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "1h ago"
-  },
-  {
-    "title": "Sequoia and Greenoaks lead massive $5BN Series C funding round in Isomorphic Labs",
-    "link": "https://tech.eu/2026/11/17/sequoia-and-greenoaks-lead-massive-5bn-series-c-funding-round-in-isomorphic-labs/",
-    "description": "Demis Hassabis’'s Isomorphic Labs has raised a massive $5bn Series C funding round, just six months after raising $2.1bn in a Series B funding, as it looks to leverage AI to power a new generation of ...",
-    "pubDate": "Tue, 17 Nov 2026 13:07:00 +0000",
-    "category": "Artificial Intelligence",
-    "source": "Tech.eu",
-    "feedCategory": "startups",
-    "matchedCompany": "Isomorphic Labs",
-    "matchedCompanies": [
-      "Isomorphic Labs"
-    ],
-    "sectors": [
-      "biotech"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "2h ago"
+    "time": "1d ago"
   },
   {
     "title": "Isomorphic Labs raises $5bn backed by Sequoia and A16z",
@@ -149,7 +217,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "2h ago"
+    "time": "1d ago"
   },
   {
     "title": "Spending Isn’t Deterrence: Fixing Germany’s Procurement Machine",
@@ -168,7 +236,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
+    "time": "1d ago"
   },
   {
     "title": "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit in 2027",
@@ -192,33 +260,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "7h ago"
-  },
-  {
-    "title": "Tiberius Aerospace with strong UK links raises $85M",
-    "link": "https://tech.eu/2026/11/17/tiberius-aerospace-with-strong-uk-links-raises-85-million/",
-    "description": "A global defence tech startup with strong links to the UK, including a UK co-founder who worked at Google and Apple, has raised an $85m funding round, valuing it at more than $1bn, it said.The Series ...",
-    "pubDate": "Tue, 17 Nov 2026 07:30:00 +0000",
-    "category": "Defencetech",
-    "source": "Tech.eu",
-    "feedCategory": "startups",
-    "matchedCompany": "Tiberius Aerospace",
-    "matchedCompanies": [
-      "Tiberius Aerospace",
-      "Hadrian",
-      "AnySignal",
-      "Elodin",
-      "Orbital Composites"
-    ],
-    "sectors": [
-      "defense",
-      "robotics",
-      "space",
-      "infrastructure"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "8h ago"
+    "time": "1d ago"
   },
   {
     "title": "Air Force bets on hybrid-electric aircraft for transport",
@@ -237,7 +279,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "1d ago"
   },
   {
     "title": "Two SpaceX Starship Flights Already Double Starlink Growth, Reusability Will 10-20X 2027",
@@ -256,45 +298,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "19h ago"
-  },
-  {
-    "title": "California state AG sues OpenAI over rogue agent incidents",
-    "link": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-    "description": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
-    "pubDate": "Mon, 16 Nov 2026 20:07:13 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "19h ago"
-  },
-  {
-    "title": "LeoLabs acquires FishEye to bolster its missile defense chops",
-    "link": "https://breakingdefense.com/2026/11/leolabs-acquires-fisheye-to-bolster-its-missile-defense-chops/",
-    "description": "&#8220;As a wholly owned subsidiary of LeoLabs, FishEye will strengthen our ability to accelerate delivery of our next-generation radars optimized for missile warning and tracking, such as Scout-X,&#8221; a LeoLabs spokesperson told Breaking Defense.",
-    "pubDate": "Mon, 16 Nov 2026 19:01:00 +0000",
-    "category": "Pentagon",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "LeoLabs",
-    "matchedCompanies": [
-      "LeoLabs"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "Agile Robots raises $500M to increase production capacity",
@@ -314,7 +318,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
@@ -327,26 +331,6 @@
     "matchedCompany": "SpaceX",
     "matchedCompanies": [
       "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "How SpaceX Succeeded With Reusable Starship and More SpaceX Starship 42 Catch Photos",
-    "link": "https://www.nextbigfuture.com/2026/11/more-spacex-starship-42-catch-photos.html",
-    "description": "SpaceX’s core challenge has always been making orbital launch cheap, reliable, and routine through reusability—first with Falcon 9’s first stage, and now with fully reusable Starship. This has driven engine design, recovery systems, heat protection, regulatory navigation, manufacturing scale, and bu",
-    "pubDate": "Sun, 15 Nov 2026 07:33:50 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Dawn Aerospace"
     ],
     "sectors": [
       "space"
@@ -372,83 +356,7 @@
     ],
     "type": "contract",
     "impact": "high",
-    "time": "2d ago"
-  },
-  {
-    "title": "SpaceX Starship 15 Caught",
-    "link": "https://www.nextbigfuture.com/2026/11/spacex-starship-15-catch-attempt-in-minutes.html",
-    "description": "Good deorbit burn. Starship is on course to reenter Earth’s atmosphere ahead of a planned catch at Starbase in 1 Minutes. Catch was good",
-    "pubDate": "Sat, 14 Nov 2026 21:11:00 +0000",
-    "category": "Energy",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "SpaceX Starship Put Up More Starlink Capacity Than Falcon 9 Last 6 Weeks",
-    "link": "https://www.nextbigfuture.com/2026/11/spacex-starship-put-up-more-starlink-capacity-than-falcon-9-last-6-weeks.html",
-    "description": "SpaceX Falcon 9 averages less than 10 launches per month. Two Starship tests each put up 26 V3 STarlink in the last 6 weeks. 52 V3 is more than 9 weeks of Falcon 9 launches. Continuing to test launch at this rate. Means more than doubling rate of capacity added Starlink. Starship Flight 14 launched ",
-    "pubDate": "Sat, 14 Nov 2026 20:22:14 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "SpaceX Flight 15 Booster Burned More Fuel Than Expected",
-    "link": "https://www.nextbigfuture.com/2026/11/spacex-flight-15-booster-burned-more-fuel-than-expected.html",
-    "description": "Elon says the Flight 15 Booster aborted return and then crashed. It was running low on fuel. Booster burned a bit too much fuel. They also used up more fuel to divert. Attempting to land at the tower was deemed too risky. They may have needed to hover which would risk a crash. Slight underperformanc",
-    "pubDate": "Sat, 14 Nov 2026 19:59:42 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Future of SpaceX Beyond the Catches",
-    "link": "https://www.nextbigfuture.com/2026/11/future-of-spacex-beyond-the-catches.html",
-    "description": "The Flight 15 booster catch was aborted, and the booster splashed down in the Gulf of Mexico. That is not the story that will matter in a few years. The real question is what Starship is being built to carry. I&#8217;m Brian Wang of NextBigFuture and Herbert Ong, host of Brighter with Herbert (brigh",
-    "pubDate": "Sat, 14 Nov 2026 19:31:56 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Zoox Launches Robotaxis in Atlanta",
@@ -469,7 +377,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Zoox Expands Robotaxi Service in Las Vegas",
@@ -490,29 +398,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "SpaceX Minihard Data Center Gun Range Built in 4 Months",
-    "link": "https://www.nextbigfuture.com/2026/11/spacex-minihard-data-center-gun-range-built-in-4-months.html",
-    "description": "While most are fighting for 8–12 month build times, SpaceX has cut them in half. MiniHard finished construction in ~5 months, and the new Gun Range plot just south of the state line will take ~4. How Are They Building So Fast? One thing often overlooked is that the Elon companies are some of the ...",
-    "pubDate": "Sat, 14 Nov 2026 01:19:38 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Astera Labs",
-      "Rebellions"
-    ],
-    "sectors": [
-      "space",
-      "chips"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Commercial Space Federation Welcomes CesiumAstro as a New Associate Member",
@@ -533,25 +419,6 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "How Rhoda AI is using video data to create generalized AI models for robots",
-    "link": "https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/",
-    "description": "Rhoda AI offers a direct video action model, which it recently extended with mobile DVA, to enable robots to understand the physical world.\nThe post How Rhoda AI is using video data to create generalized AI models for robots appeared first on The Robot Report.",
-    "pubDate": "Fri, 13 Nov 2026 13:30:44 +0000",
-    "category": "Artificial Intelligence",
-    "source": "The Robot Report",
-    "feedCategory": "robotics",
-    "matchedCompany": "Rhoda AI",
-    "matchedCompanies": [
-      "Rhoda AI"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
     "time": "4d ago"
   },
   {
@@ -571,7 +438,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Viam Launchpad aims to accelerate robotics deployments",
@@ -590,7 +457,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "Runway&#8217;s Praxis-1 world action model for robotics is now available",
@@ -611,45 +478,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "5d ago"
-  },
-  {
-    "title": "Drone startup Uforce raises $700m backed by Valor Equity Partners, UK National Wealth Fund",
-    "link": "https://sifted.eu/articles/drone-startup-uforce-fundraise-uk-national-wealth-fund-scoop/",
-    "description": "",
-    "pubDate": "Thu, 12 Nov 2026 10:10:54 GMT",
-    "category": "",
-    "source": "Sifted",
-    "feedCategory": "startups",
-    "matchedCompany": "UFORCE",
-    "matchedCompanies": [
-      "UFORCE"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "5d ago"
-  },
-  {
-    "title": "SoftBank leads $500m round for Agile Robots",
-    "link": "https://sifted.eu/articles/softbank-leads-500m-round-for-agile-robots/",
-    "description": "",
-    "pubDate": "Thu, 12 Nov 2026 09:41:32 GMT",
-    "category": "",
-    "source": "Sifted",
-    "feedCategory": "startups",
-    "matchedCompany": "Agile Robots",
-    "matchedCompanies": [
-      "Agile Robots"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "news",
-    "impact": "medium",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "QuantumScape unveils Osprey all-solid-state cell: 1,000 cycles at 1 atm",
@@ -668,7 +497,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6d ago"
+    "time": "11/11/2026"
   },
   {
     "title": "Harbinger scores another $240M in latest investment round",
@@ -709,29 +538,6 @@
     "time": "11/5/2026"
   },
   {
-    "title": "Simera Sense and Spacemanic to Collaborate on a New Complete Dual-Use Mission Solution",
-    "link": "https://spacenews.com/simera-sense-and-spacemanic-to-collaborate-on-a-new-complete-dual-use-mission-solution/",
-    "description": "\nCzech company Spacemanic and Belgian optical leader Simera Sense are teaming up to deliver a new dual-use satellite solution that can compete with bigger and heavier satellites. Simera Sense xScape200 [&#8230;]\nThe post Simera Sense and Spacemanic to Collaborate on a New Complete Dual-Use Mission S",
-    "pubDate": "Tue, 03 Nov 2026 16:59:43 +0000",
-    "category": "Press Release",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Simera Sense",
-    "matchedCompanies": [
-      "Simera Sense",
-      "Kodiak AI",
-      "H Company"
-    ],
-    "sectors": [
-      "space",
-      "defense",
-      "ai"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "11/3/2026"
-  },
-  {
     "title": "<a href=\"/biotech/isomorphic-labs-raises-5b-series-c-months-after-21b-round\" hreflang=\"en\">Isomorphic Labs raises $5B series C months after $2.1B round</a>",
     "link": "https://www.fiercebiotech.com/biotech/isomorphic-labs-raises-5b-series-c-months-after-21b-round",
     "description": "Isomorphic Labs has raised a $5 billion series C round, marking the second time in six months that the AI drug development startup has pulled off a multibillion-dollar financing.",
@@ -749,5 +555,24 @@
     "type": "funding",
     "impact": "high",
     "time": "Invalid Date"
+  },
+  {
+    "title": "How Rhoda AI is using video data to create generalized AI models for robots",
+    "link": "https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/",
+    "description": "Rhoda AI offers a direct video action model, which it recently extended with mobile DVA, to enable robots to understand the physical world.\nThe post How Rhoda AI is using video data to create generalized AI models for robots appeared first on The Robot Report.",
+    "pubDate": "Fri, 13 Nov 2026 13:30:44 +0000",
+    "category": "Artificial Intelligence",
+    "source": "The Robot Report",
+    "feedCategory": "robotics",
+    "matchedCompany": "Rhoda AI",
+    "matchedCompanies": [
+      "Rhoda AI"
+    ],
+    "sectors": [
+      "robotics"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "5d ago"
   }
 ]

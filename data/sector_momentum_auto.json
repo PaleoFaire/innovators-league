@@ -1,74 +1,57 @@
 [
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 59,
+    "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
-      "Robotics startup Genesis AI raises $500m backed by Nvidia",
-      "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robo",
-      "Genesis AI raises $500 million to deploy glove-wearing robot"
+      "Zoox Partnering with Uber to Bring Autonomous Mobility to Mo",
+      "California DMV bars Waymo AVs from operating on the state&#8",
+      "Robotics startup Genesis AI raises $500m backed by Nvidia"
     ],
     "fundingQ": "$7.0B",
     "components": {
       "funding": 100,
-      "news": 55,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-17"
+    "lastUpdated": "2026-11-18"
   },
   {
     "sector": "AI & Software",
-    "momentum": 48,
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
-      "California state AG sues OpenAI over rogue agent incidents",
-      "$3.4 Billion \u2014 Anthropic Order for Gas Power Plants!"
+      "Anthropic\u2019s $1.4tn IPO puts Europe\u2019s AI boom to the test",
+      "Exclusive: OpenAI and Meta insiders back startup policing ro",
+      "OpenAI gives NATO access to most advanced cybersecurity AI"
     ],
     "fundingQ": "$12.1B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-17"
+    "lastUpdated": "2026-11-18"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 42,
+    "momentum": 41,
     "trend": "steady",
     "catalysts": [
-      "Uber and Zipline&#8217;s drone delivery service takes off in",
+      "ICEYE makes $2B bid for Italian rocket firm Avio",
       "Spending Isn\u2019t Deterrence: Fixing Germany\u2019s Procurement Mach",
       "Air Force bets on hybrid-electric aircraft for transport"
     ],
     "fundingQ": "$4.1B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 25,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-17"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 39,
-    "trend": "steady",
-    "catalysts": [
-      "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit",
-      "Tiberius Aerospace with strong UK links raises $85M",
-      "Two SpaceX Starship Flights Already Double Starlink Growth,"
-    ],
-    "fundingQ": "$1.2B",
-    "components": {
-      "funding": 51,
-      "news": 85,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-11-17"
+    "lastUpdated": "2026-11-18"
   },
   {
     "sector": "Transportation",
@@ -84,7 +67,25 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-17"
+    "lastUpdated": "2026-11-18"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 30,
+    "trend": "steady",
+    "catalysts": [
+      "ICEYE makes $2B bid for Italian rocket firm Avio",
+      "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit",
+      "Two SpaceX Starship Flights Already Double Starlink Growth,"
+    ],
+    "fundingQ": "$1.2B",
+    "components": {
+      "funding": 51,
+      "news": 50,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-11-18"
   },
   {
     "sector": "Nuclear Energy",
@@ -100,25 +101,25 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-17"
+    "lastUpdated": "2026-11-18"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 19,
+    "momentum": 18,
     "trend": "declining",
     "catalysts": [
-      "Genesis AI raises $500 million to deploy glove-wearing robot",
+      "California DMV bars Waymo AVs from operating on the state&#8",
       "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit",
-      "Tiberius Aerospace with strong UK links raises $85M"
+      "Agile Robots raises $500M to increase production capacity"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 35,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-17"
+    "lastUpdated": "2026-11-18"
   },
   {
     "sector": "Climate & Energy",
@@ -134,42 +135,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-17"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Isomorphic Labs raises $5B as it looks to take drug candidat",
-      "How SpaceX Succeeded With Reusable Starship and More SpaceX",
-      "SpaceX Minihard Data Center Gun Range Built in 4 Months"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-17"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "Uber and Zipline&#8217;s drone delivery service takes off in",
-      "Drone startup Uforce raises $700m backed by Valor Equity Par"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-17"
+    "lastUpdated": "2026-11-18"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -186,7 +152,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-17"
+    "lastUpdated": "2026-11-18"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Zoox Partnering with Uber to Bring Autonomous Mobility to Mo"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-18"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -202,25 +184,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-17"
+    "lastUpdated": "2026-11-18"
   },
   {
-    "sector": "Biotech & Health",
+    "sector": "Housing & Construction",
     "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "Isomorphic Labs raises $5B as it looks to take drug candidat",
-      "Robotics startup Genesis AI raises $500m backed by Nvidia",
-      "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robo"
+      "Active housing & construction ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 40,
+      "news": 0,
       "hiring": 0,
-      "market": 0
+      "market": 50
     },
-    "lastUpdated": "2026-11-17"
+    "lastUpdated": "2026-11-18"
   },
   {
     "sector": "Ocean & Maritime",
@@ -236,11 +216,29 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-17"
+    "lastUpdated": "2026-11-18"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 5,
+    "trend": "declining",
+    "catalysts": [
+      "Robotics startup Genesis AI raises $500m backed by Nvidia",
+      "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robo",
+      "<a href=\"/biotech/isomorphic-labs-raises-5b-series-c-months-"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-11-18"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 1,
+    "momentum": 3,
     "trend": "declining",
     "catalysts": [
       "Robotics startup Genesis AI raises $500m backed by Nvidia"
@@ -250,9 +248,9 @@
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 0
+      "market": 9
     },
-    "lastUpdated": "2026-11-17"
+    "lastUpdated": "2026-11-18"
   },
   {
     "sector": "Quantum Computing",
@@ -268,6 +266,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-17"
+    "lastUpdated": "2026-11-18"
   }
 ]
