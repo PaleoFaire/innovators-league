@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -7.26,
+      "avg_change": -9.12,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -13.28,
+      "avg_change": -17.95,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -14.84,
+      "avg_change": -16.93,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -13.97,
+      "avg_change": -17.21,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -28.43,
+      "avg_change": -25.54,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -27.43,
+      "avg_change": -27.96,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -15.52,
+      "avg_change": -15.13,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": -6.59,
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -7.33,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.12,
+      "avg_change": -7.79,
       "count": 3
     }
   },
@@ -66,50 +66,50 @@
     [
       "TSLA",
       "Tesla",
-      0.09
+      -1.82
+    ],
+    [
+      "AMD",
+      "AMD",
+      -4.12
     ],
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      -1.95
+      -4.19
     ],
     [
-      "ALAB",
-      "Astera Labs",
-      -2.12
-    ],
-    [
-      "AMD",
-      "AMD",
-      -2.29
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -6.12
     ]
   ],
   "topLosers": [
     [
-      "QS",
-      "QuantumScape",
-      -26.29
-    ],
-    [
-      "IONQ",
-      "IonQ",
-      -29.01
-    ],
-    [
       "EVTL",
       "Vertical Aerospace",
-      -29.85
-    ],
-    [
-      "RGTI",
-      "Rigetti Computing",
-      -30.37
+      -29.54
     ],
     [
       "LNZA",
       "LanzaTech",
-      -41.55
+      -30.18
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -30.39
+    ],
+    [
+      "IONQ",
+      "IonQ",
+      -31.06
+    ],
+    [
+      "ACHR",
+      "Archer Aviation",
+      -33.54
     ]
   ],
-  "lastUpdated": "2026-11-18 08:38:54"
+  "lastUpdated": "2026-11-18 21:32:08"
 }
