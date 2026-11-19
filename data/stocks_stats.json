@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -9.12,
+      "avg_change": -10.43,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -17.9,
+      "avg_change": -18.32,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -15.5,
+      "avg_change": -12.76,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -17.21,
+      "avg_change": -15.27,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -25.54,
+      "avg_change": -21.64,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -27.96,
+      "avg_change": -24.7,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -14.03,
+      "avg_change": -13.57,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -7.33,
+      "avg_change": -8.8,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.79,
+      "avg_change": -11.9,
       "count": 3
     }
   },
@@ -66,50 +66,50 @@
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      -0.89
-    ],
-    [
-      "TSLA",
-      "Tesla",
-      -1.82
+      -0.94
     ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      -3.37
+      -3.78
     ],
     [
-      "AMD",
-      "AMD",
-      -4.12
+      "TSLA",
+      "Tesla",
+      -5.8
+    ],
+    [
+      "9348.T",
+      "ispace",
+      -6.54
     ]
   ],
   "topLosers": [
     [
-      "EVTL",
-      "Vertical Aerospace",
-      -29.54
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      -30.18
+      "QBTS",
+      "D-Wave Quantum",
+      -25.71
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -30.39
-    ],
-    [
-      "IONQ",
-      "IonQ",
-      -31.06
+      -25.94
     ],
     [
       "ACHR",
       "Archer Aviation",
-      -33.54
+      -26.1
+    ],
+    [
+      "JOBY",
+      "Joby Aviation",
+      -26.4
+    ],
+    [
+      "IONQ",
+      "IonQ",
+      -26.41
     ]
   ],
-  "lastUpdated": "2026-11-19 08:54:58"
+  "lastUpdated": "2026-11-19 21:42:17"
 }
