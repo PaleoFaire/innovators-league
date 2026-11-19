@@ -1,57 +1,57 @@
 [
   {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 58,
+    "sector": "AI & Software",
+    "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
-      "Zoox Partnering with Uber to Bring Autonomous Mobility to Mo",
-      "California DMV bars Waymo AVs from operating on the state&#8",
-      "Robotics startup Genesis AI raises $500m backed by Nvidia"
-    ],
-    "fundingQ": "$7.0B",
-    "components": {
-      "funding": 100,
-      "news": 50,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-18"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 51,
-    "trend": "steady",
-    "catalysts": [
-      "Anthropic\u2019s $1.4tn IPO puts Europe\u2019s AI boom to the test",
-      "Exclusive: OpenAI and Meta insiders back startup policing ro",
-      "OpenAI gives NATO access to most advanced cybersecurity AI"
+      "Anthropic&#8217;s IPO puts AI&#8217;s circular financing boo",
+      "Is AI in a bubble? Menlo Ventures\u2019 Deedy Das on Anthropic\u2019s",
+      "Anthropic\u2019s Record-Breaking IPO Highlights the AI Giant\u2019s Wo"
     ],
     "fundingQ": "$12.1B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-18"
+    "lastUpdated": "2026-11-19"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 56,
+    "trend": "accelerating",
+    "catalysts": [
+      "Defense Business Brief: Vantor\u2019s Raptor; Hadrian\u2019s foundry,",
+      "Zoox Partnering with Uber to Bring Autonomous Mobility to Mo",
+      "California DMV bars Waymo AVs from operating on the state&#8"
+    ],
+    "fundingQ": "$7.0B",
+    "components": {
+      "funding": 100,
+      "news": 45,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-19"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 41,
+    "momentum": 42,
     "trend": "steady",
     "catalysts": [
+      "Defense Business Brief: Vantor\u2019s Raptor; Hadrian\u2019s foundry,",
       "ICEYE makes $2B bid for Italian rocket firm Avio",
-      "Spending Isn\u2019t Deterrence: Fixing Germany\u2019s Procurement Mach",
-      "Air Force bets on hybrid-electric aircraft for transport"
+      "Spending Isn\u2019t Deterrence: Fixing Germany\u2019s Procurement Mach"
     ],
     "fundingQ": "$4.1B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 30,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-18"
+    "lastUpdated": "2026-11-19"
   },
   {
     "sector": "Transportation",
@@ -67,25 +67,25 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-18"
+    "lastUpdated": "2026-11-19"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 30,
+    "momentum": 28,
     "trend": "steady",
     "catalysts": [
       "ICEYE makes $2B bid for Italian rocket firm Avio",
       "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit",
-      "Two SpaceX Starship Flights Already Double Starlink Growth,"
+      "Vulcan rocket fails during launch, dealing major blow to Spa"
     ],
     "fundingQ": "$1.2B",
     "components": {
       "funding": 51,
-      "news": 50,
+      "news": 40,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-18"
+    "lastUpdated": "2026-11-19"
   },
   {
     "sector": "Nuclear Energy",
@@ -101,25 +101,25 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-18"
+    "lastUpdated": "2026-11-19"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 18,
+    "momentum": 19,
     "trend": "declining",
     "catalysts": [
+      "A Muslim Author Is Suing xAI After People Used Grok to Strip",
       "California DMV bars Waymo AVs from operating on the state&#8",
-      "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit",
-      "Agile Robots raises $500M to increase production capacity"
+      "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 30,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-18"
+    "lastUpdated": "2026-11-19"
   },
   {
     "sector": "Climate & Energy",
@@ -135,7 +135,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-18"
+    "lastUpdated": "2026-11-19"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -152,7 +152,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-18"
+    "lastUpdated": "2026-11-19"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "Anthropic&#8217;s IPO puts AI&#8217;s circular financing boo",
+      "Viam Launchpad aims to accelerate robotics deployments"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-19"
   },
   {
     "sector": "Drones & Autonomous",
@@ -168,23 +185,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-18"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Viam Launchpad aims to accelerate robotics deployments"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-18"
+    "lastUpdated": "2026-11-19"
   },
   {
     "sector": "Housing & Construction",
@@ -200,7 +201,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-18"
+    "lastUpdated": "2026-11-19"
   },
   {
     "sector": "Ocean & Maritime",
@@ -216,7 +217,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-18"
+    "lastUpdated": "2026-11-19"
   },
   {
     "sector": "Biotech & Health",
@@ -234,11 +235,11 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-18"
+    "lastUpdated": "2026-11-19"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 3,
+    "momentum": 1,
     "trend": "declining",
     "catalysts": [
       "Robotics startup Genesis AI raises $500m backed by Nvidia"
@@ -248,9 +249,9 @@
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 9
+      "market": 0
     },
-    "lastUpdated": "2026-11-18"
+    "lastUpdated": "2026-11-19"
   },
   {
     "sector": "Quantum Computing",
@@ -266,6 +267,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-18"
+    "lastUpdated": "2026-11-19"
   }
 ]

@@ -182,6 +182,15 @@
   {
     "company": "Rocket Lab",
     "ticker": "RKLB",
+    "form": "4",
+    "date": "2026-11-18",
+    "description": "xslF345X06/edgardoc.xml",
+    "accessionNumber": "0002001011-26-000147",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
     "form": "10-Q",
     "date": "2026-11-09",
     "description": "rklb-20260930.htm",
@@ -321,6 +330,15 @@
     "date": "2026-08-26",
     "description": "xslF345X06/edgardoc.xml",
     "accessionNumber": "0002001011-26-000125",
+    "isIPO": false
+  },
+  {
+    "company": "AST SpaceMobile",
+    "ticker": "ASTS",
+    "form": "8-K",
+    "date": "2026-11-18",
+    "description": "form8-k.htm",
+    "accessionNumber": "0001493152-26-053080",
     "isIPO": false
   },
   {
@@ -834,15 +852,6 @@
     "date": "2026-08-28",
     "description": "xslF345X06/wk-form4_1787950354.xml",
     "accessionNumber": "0001922054-26-000003",
-    "isIPO": false
-  },
-  {
-    "company": "NuScale Power",
-    "ticker": "SMR",
-    "form": "4",
-    "date": "2026-08-20",
-    "description": "xslF345X06/wk-form4_1787258468.xml",
-    "accessionNumber": "0001957490-26-000004",
     "isIPO": false
   },
   {
@@ -1863,51 +1872,6 @@
     "isIPO": false
   },
   {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
-    "form": "4",
-    "date": "2026-08-20",
-    "description": "xslF345X06/form4.xml",
-    "accessionNumber": "0001123292-26-001153",
-    "isIPO": false
-  },
-  {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
-    "form": "4",
-    "date": "2026-08-20",
-    "description": "xslF345X06/form4.xml",
-    "accessionNumber": "0001123292-26-001152",
-    "isIPO": false
-  },
-  {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
-    "form": "4",
-    "date": "2026-08-20",
-    "description": "xslF345X06/form4.xml",
-    "accessionNumber": "0001123292-26-001151",
-    "isIPO": false
-  },
-  {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
-    "form": "8-K",
-    "date": "2026-08-20",
-    "description": "tm2623611d2_8k.htm",
-    "accessionNumber": "0001104659-26-098999",
-    "isIPO": false
-  },
-  {
-    "company": "Rigetti Computing",
-    "ticker": "RGTI",
-    "form": "8-K",
-    "date": "2026-08-20",
-    "description": "tm2623611d1_8k.htm",
-    "accessionNumber": "0001104659-26-098877",
-    "isIPO": false
-  },
-  {
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
     "form": "4",
@@ -2139,6 +2103,33 @@
     "date": "2026-08-25",
     "description": "qbts-20260819.htm",
     "accessionNumber": "0001907982-26-000138",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-11-18",
+    "description": "xslF345X06/wk-form4_1795040147.xml",
+    "accessionNumber": "0001601830-26-000157",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-11-18",
+    "description": "xslF345X06/wk-form4_1795040124.xml",
+    "accessionNumber": "0001601830-26-000156",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-11-18",
+    "description": "xslF345X06/wk-form4_1795040105.xml",
+    "accessionNumber": "0001601830-26-000155",
     "isIPO": false
   },
   {

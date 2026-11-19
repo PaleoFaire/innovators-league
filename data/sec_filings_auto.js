@@ -1,6 +1,11 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-11-18 15:22:19 UTC
+// Last updated: 2026-11-19 15:28:49 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "4", date: "2026-11-18", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "AST SpaceMobile", form: "8-K", date: "2026-11-18", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-11-18", description: "xslF345X06/wk-form4_1795040147.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-11-18", description: "xslF345X06/wk-form4_1795040124.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-11-18", description: "xslF345X06/wk-form4_1795040105.xml", isIPO: false, ticker: "RXRX" },
   { company: "Palantir Technologies", form: "4", date: "2026-11-17", description: "xslF345X06/wk-form4_1794963692.xml", isIPO: false, ticker: "PLTR" },
   { company: "AST SpaceMobile", form: "8-K", date: "2026-11-17", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
   { company: "Oklo", form: "4", date: "2026-11-17", description: "xslF345X06/wk-form4_1794951615.xml", isIPO: false, ticker: "OKLO" },
@@ -46,9 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Rigetti Computing", form: "10-Q", date: "2026-11-10", description: "rgti-20260930x10q.htm", isIPO: false, ticker: "RGTI" },
   { company: "Rigetti Computing", form: "8-K", date: "2026-11-10", description: "rgti-20261110x8k.htm", isIPO: false, ticker: "RGTI" },
   { company: "D-Wave Quantum", form: "8-K", date: "2026-11-10", description: "qbts-20261110.htm", isIPO: false, ticker: "QBTS" },
-  { company: "LanzaTech", form: "10-Q", date: "2026-11-10", description: "tlsi-20260930.htm", isIPO: false, ticker: "LNZA" },
-  { company: "LanzaTech", form: "8-K", date: "2026-11-10", description: "tlsi-20261110.htm", isIPO: false, ticker: "LNZA" },
-  { company: "Rocket Lab", form: "10-Q", date: "2026-11-09", description: "rklb-20260930.htm", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "8-K", date: "2026-11-09", description: "rklb-20261109.htm", isIPO: false, ticker: "RKLB" },
-  { company: "AST SpaceMobile", form: "10-Q", date: "2026-11-09", description: "asts-20260930.htm", isIPO: false, ticker: "ASTS" },
 ];

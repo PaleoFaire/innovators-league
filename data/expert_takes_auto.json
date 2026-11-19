@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-11-18T15:36:23.723707Z",
+  "generated_at": "2026-11-19T15:43:52.467945Z",
   "takes": [
+    {
+      "author": "Crunchbase News",
+      "role": "Industry signal",
+      "company": "Anthropic",
+      "text": "Anthropic Prices IPO Shares At $83, Above Range",
+      "date": "Wed, 18 No",
+      "source": "news",
+      "source_url": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "Anthropic",
+      "text": "Anthropic prices IPO at $83 a share, above projected range",
+      "date": "Wed, 18 No",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+      "signal_type": "ipo"
+    },
     {
       "author": "Sifted",
       "role": "Industry signal",
@@ -9,16 +29,6 @@
       "date": "Wed, 18 No",
       "source": "news",
       "source_url": "https://sifted.eu/articles/anthropic-ipo-puts-europe-ai-boom-to-the-test/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
-      "date": "Tue, 17 No",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
       "signal_type": "ipo"
     },
     {
@@ -60,6 +70,36 @@
       "source": "news",
       "source_url": "https://sifted.eu/articles/isomorphic-labs-raises-5bn-backed-by-sequoia-and-a16z/",
       "signal_type": "funding"
+    },
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "Anthropic",
+      "text": "Anthropic&#8217;s IPO puts AI&#8217;s circular financing boom to the test",
+      "date": "Thu, 19 No",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "Sifted",
+      "role": "Industry signal",
+      "company": "Anthropic",
+      "text": "Is AI in a bubble? Menlo Ventures\u2019 Deedy Das on Anthropic\u2019s IPO and Europe",
+      "date": "Thu, 19 No",
+      "source": "news",
+      "source_url": "https://sifted.eu/articles/menlo-ventures-podcast/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "Wired",
+      "role": "Industry signal",
+      "company": "Anthropic",
+      "text": "Anthropic\u2019s Record-Breaking IPO Highlights the AI Giant\u2019s Worst Enemy\u2014Itself",
+      "date": "Thu, 19 No",
+      "source": "news",
+      "source_url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+      "signal_type": "ipo"
     },
     {
       "author": "SpaceNews",
@@ -105,7 +145,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 10,
+    "from_news": 14,
     "from_press": 0
   }
 }
