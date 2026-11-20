@@ -227,6 +227,17 @@ jobs:
       - name: Build the Wire + Radar (data/wire_auto.js)
         run: python3 scripts/build_wire.py || echo "::warning::wire build failed"
 
+      # The Build-Out, Live (lagebild.html): one sourced line per public
+      # build-out event. Runs AFTER merge_data.py so company matching reads
+      # today's data.js, and after the deals and contracts steps above. It
+      # reads only files already in the repo and makes no network calls.
+      # Guarded like the wire: a failure leaves yesterday's files in place.
+      # Its outputs (data/lagebild/ and data/lagebild_auto.js) sit under data/,
+      # so the commit step below stages them with `git add data.js data/`.
+      # Job-board signals stay held until --include-job-signals is added here.
+      - name: Build the Build-Out feed (data/lagebild_auto.js)
+        run: python3 scripts/build_lagebild.py || echo "::warning::lagebild build failed"
+
       # Live numbers for the navigation panels and the homepage tool cards
       # (data/nav_counts.json, fetched by nav.js on every page). Guarded like
       # the wire: a failure leaves yesterday's counts in place.
