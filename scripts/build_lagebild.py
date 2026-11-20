@@ -1713,7 +1713,7 @@ def rejected_report(result):
     files = []
     for s in result["sources"]:
         entry = OrderedDict([("file", s["file"]), ("role", s["role"]), ("note", s["note"]),
-                             ("rows_in_file", s["rows"]), ("rows_not_read_as_events", s["rows_not_read_as_events"])])
+                             ("rows_read", s["rows"]), ("rows_not_read_as_events", s["rows_not_read_as_events"])])
         matched = [k for k in by_file if k == s["file"] or k.startswith(s["file"] + "/")]
         if matched:
             merged = {"rows": 0, "published": 0, "held": 0, "merged_duplicates": 0, "rejected": 0,
