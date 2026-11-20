@@ -1,26 +1,26 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 56,
+    "momentum": 61,
     "trend": "accelerating",
     "catalysts": [
-      "Anthropic&#8217;s IPO puts AI&#8217;s circular financing boo",
-      "Is AI in a bubble? Menlo Ventures\u2019 Deedy Das on Anthropic\u2019s",
-      "Anthropic\u2019s Record-Breaking IPO Highlights the AI Giant\u2019s Wo"
+      "Anthropic&#8217;s 7 founders cashed out nearly $2B in record",
+      "Should You Buy Anthropic, SpaceX or Both",
+      "Anthropic&#8217;s IPO could deliver $156B to charity"
     ],
     "fundingQ": "$12.1B",
     "components": {
       "funding": 100,
-      "news": 45,
+      "news": 65,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 56,
-    "trend": "accelerating",
+    "momentum": 54,
+    "trend": "steady",
     "catalysts": [
       "Defense Business Brief: Vantor\u2019s Raptor; Hadrian\u2019s foundry,",
       "Zoox Partnering with Uber to Bring Autonomous Mobility to Mo",
@@ -29,29 +29,29 @@
     "fundingQ": "$7.0B",
     "components": {
       "funding": 100,
-      "news": 45,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 42,
+    "momentum": 40,
     "trend": "steady",
     "catalysts": [
       "Defense Business Brief: Vantor\u2019s Raptor; Hadrian\u2019s foundry,",
-      "ICEYE makes $2B bid for Italian rocket firm Avio",
-      "Spending Isn\u2019t Deterrence: Fixing Germany\u2019s Procurement Mach"
+      "Spending Isn\u2019t Deterrence: Fixing Germany\u2019s Procurement Mach",
+      "Air Force bets on hybrid-electric aircraft for transport"
     ],
     "fundingQ": "$4.1B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 20,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "sector": "Transportation",
@@ -67,25 +67,25 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 28,
-    "trend": "steady",
+    "momentum": 25,
+    "trend": "rising",
     "catalysts": [
-      "ICEYE makes $2B bid for Italian rocket firm Avio",
-      "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit",
-      "Vulcan rocket fails during launch, dealing major blow to Spa"
+      "Elon Musk says SpaceX has a plan to eliminate cell phone dea",
+      "Should You Buy Anthropic, SpaceX or Both",
+      "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit"
     ],
     "fundingQ": "$1.2B",
     "components": {
       "funding": 51,
-      "news": 40,
+      "news": 30,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "sector": "Nuclear Energy",
@@ -101,75 +101,41 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-19"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 19,
-    "trend": "declining",
-    "catalysts": [
-      "A Muslim Author Is Suing xAI After People Used Grok to Strip",
-      "California DMV bars Waymo AVs from operating on the state&#8",
-      "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 35,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 16,
-    "trend": "declining",
+    "momentum": 17,
+    "trend": "rising",
     "catalysts": [
-      "Active climate & energy ecosystem"
+      "Google signs 50-MW superhot geothermal PPA with Quaise Energ"
     ],
     "fundingQ": "$550M",
     "components": {
       "funding": 46,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
-    "sector": "Supersonic & Hypersonic",
-    "momentum": 12,
+    "sector": "Consumer Tech",
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
-      "Spending Isn\u2019t Deterrence: Fixing Germany\u2019s Procurement Mach",
-      "Runway&#8217;s Praxis-1 world action model for robotics is n"
+      "California DMV bars Waymo AVs from operating on the state&#8",
+      "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit",
+      "Agile Robots raises $500M to increase production capacity"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-19"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "Anthropic&#8217;s IPO puts AI&#8217;s circular financing boo",
-      "Viam Launchpad aims to accelerate robotics deployments"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "sector": "Drones & Autonomous",
@@ -185,23 +151,39 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
-    "sector": "Housing & Construction",
-    "momentum": 10,
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Active housing & construction ecosystem"
+      "Spending Isn\u2019t Deterrence: Fixing Germany\u2019s Procurement Mach"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Elon Musk says SpaceX has a plan to eliminate cell phone dea"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-20"
   },
   {
     "sector": "Ocean & Maritime",
@@ -217,7 +199,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active infrastructure & logistics ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-20"
   },
   {
     "sector": "Biotech & Health",
@@ -226,7 +224,7 @@
     "catalysts": [
       "Robotics startup Genesis AI raises $500m backed by Nvidia",
       "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robo",
-      "<a href=\"/biotech/isomorphic-labs-raises-5b-series-c-months-"
+      "<a href=\"/biotech/anthropic-board-director-vas-narasimhan-be"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -235,7 +233,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -251,7 +249,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "sector": "Quantum Computing",
@@ -267,6 +265,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   }
 ]

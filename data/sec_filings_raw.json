@@ -288,15 +288,6 @@
     "isIPO": false
   },
   {
-    "company": "Palantir Technologies",
-    "ticker": "PLTR",
-    "form": "4",
-    "date": "2026-06-08",
-    "description": "xslF345X06/wk-form4_1780963392.xml",
-    "accessionNumber": "0001930526-26-000007",
-    "isIPO": false
-  },
-  {
     "company": "Rocket Lab",
     "ticker": "RKLB",
     "form": "4",
@@ -519,6 +510,15 @@
     "date": "2026-06-18",
     "description": "xslF345X06/edgardoc.xml",
     "accessionNumber": "0002001011-26-000105",
+    "isIPO": false
+  },
+  {
+    "company": "AST SpaceMobile",
+    "ticker": "ASTS",
+    "form": "4",
+    "date": "2026-11-19",
+    "description": "xslF345X06/ownership.xml",
+    "accessionNumber": "0001493152-26-053327",
     "isIPO": false
   },
   {
@@ -2000,6 +2000,15 @@
   {
     "company": "Momentus",
     "ticker": "MNTS",
+    "form": "8-K",
+    "date": "2026-11-20",
+    "description": "tm2630244d1_8k.htm",
+    "accessionNumber": "0001104659-26-130446",
+    "isIPO": false
+  },
+  {
+    "company": "Momentus",
+    "ticker": "MNTS",
     "form": "10-Q",
     "date": "2026-11-04",
     "description": "apre-20260930x10q.htm",
@@ -3018,6 +3027,15 @@
     "company": "Oklo",
     "ticker": "OKLO",
     "form": "4",
+    "date": "2026-11-19",
+    "description": "xslF345X06/wk-form4_1795123188.xml",
+    "accessionNumber": "0002146790-26-000031",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
     "date": "2026-11-17",
     "description": "xslF345X06/wk-form4_1794951615.xml",
     "accessionNumber": "0002163354-26-000004",
@@ -3246,15 +3264,6 @@
     "date": "2026-09-29",
     "description": "xslF345X06/wk-form4_1790713525.xml",
     "accessionNumber": "0002147680-26-000012",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-09-29",
-    "description": "xslF345X06/wk-form4_1790713476.xml",
-    "accessionNumber": "0002080717-26-000013",
     "isIPO": false
   },
   {
@@ -7500,6 +7509,24 @@
     "company": "LanzaTech",
     "ticker": "LNZA",
     "form": "4",
+    "date": "2026-11-19",
+    "description": "xslF345X06/wk-form4_1795124401.xml",
+    "accessionNumber": "0001628280-26-075100",
+    "isIPO": false
+  },
+  {
+    "company": "LanzaTech",
+    "ticker": "LNZA",
+    "form": "4",
+    "date": "2026-11-19",
+    "description": "xslF345X06/wk-form4_1795124348.xml",
+    "accessionNumber": "0001628280-26-075095",
+    "isIPO": false
+  },
+  {
+    "company": "LanzaTech",
+    "ticker": "LNZA",
+    "form": "4",
     "date": "2026-11-17",
     "description": "xslF345X06/wk-form4_1794949328.xml",
     "accessionNumber": "0001628280-26-074470",
@@ -7836,24 +7863,6 @@
     "date": "2026-03-20",
     "description": "xslF345X06/wk-form4_1774038338.xml",
     "accessionNumber": "0001628280-26-020188",
-    "isIPO": false
-  },
-  {
-    "company": "LanzaTech",
-    "ticker": "LNZA",
-    "form": "4",
-    "date": "2026-03-20",
-    "description": "xslF345X06/wk-form4_1774038332.xml",
-    "accessionNumber": "0001628280-26-020187",
-    "isIPO": false
-  },
-  {
-    "company": "LanzaTech",
-    "ticker": "LNZA",
-    "form": "4",
-    "date": "2026-03-20",
-    "description": "xslF345X06/wk-form4_1774038323.xml",
-    "accessionNumber": "0001628280-26-020186",
     "isIPO": false
   },
   {

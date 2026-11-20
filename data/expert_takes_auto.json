@@ -1,24 +1,14 @@
 {
-  "generated_at": "2026-11-19T15:43:52.467945Z",
+  "generated_at": "2026-11-20T15:19:29.455423Z",
   "takes": [
     {
       "author": "Crunchbase News",
       "role": "Industry signal",
       "company": "Anthropic",
-      "text": "Anthropic Prices IPO Shares At $83, Above Range",
+      "text": "Anthropic Closes Up 17% After Massive IPO",
       "date": "Wed, 18 No",
       "source": "news",
       "source_url": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Anthropic prices IPO at $83 a share, above projected range",
-      "date": "Wed, 18 No",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
       "signal_type": "ipo"
     },
     {
@@ -29,16 +19,6 @@
       "date": "Wed, 18 No",
       "source": "news",
       "source_url": "https://sifted.eu/articles/anthropic-ipo-puts-europe-ai-boom-to-the-test/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "Breaking Defense",
-      "role": "Industry signal",
-      "company": "ICEYE",
-      "text": "ICEYE makes $2B bid for Italian rocket firm Avio",
-      "date": "Tue, 17 No",
-      "source": "news",
-      "source_url": "https://breakingdefense.com/2026/11/iceye-makes-2b-bid-for-italian-rocket-firm-avio/",
       "signal_type": "ipo"
     },
     {
@@ -62,24 +42,24 @@
       "signal_type": "funding"
     },
     {
-      "author": "Sifted",
+      "author": "TechCrunch",
       "role": "Industry signal",
-      "company": "Isomorphic Labs",
-      "text": "Isomorphic Labs raises $5bn backed by Sequoia and A16z",
-      "date": "Tue, 17 No",
+      "company": "Anthropic",
+      "text": "Anthropic&#8217;s IPO could deliver $156B to charity",
+      "date": "Thu, 19 No",
       "source": "news",
-      "source_url": "https://sifted.eu/articles/isomorphic-labs-raises-5bn-backed-by-sequoia-and-a16z/",
-      "signal_type": "funding"
+      "source_url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "signal_type": "ipo"
     },
     {
       "author": "TechCrunch",
       "role": "Industry signal",
       "company": "Anthropic",
-      "text": "Anthropic&#8217;s IPO puts AI&#8217;s circular financing boom to the test",
+      "text": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
       "date": "Thu, 19 No",
       "source": "news",
-      "source_url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-      "signal_type": "ipo"
+      "source_url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+      "signal_type": "funding"
     },
     {
       "author": "Sifted",
@@ -102,36 +82,6 @@
       "signal_type": "ipo"
     },
     {
-      "author": "SpaceNews",
-      "role": "Industry signal",
-      "company": "CesiumAstro",
-      "text": "CesiumAstro Secures $730 Million in Janus Henderson-Led Series D at a Valuation Above $4.5 Billion; Unveils Synchronicity Satellite Constellation Following Fully Successful Element-1 Mission",
-      "date": "Thu, 05 No",
-      "source": "news",
-      "source_url": "https://spacenews.com/cesiumastro-secures-730-million-in-janus-henderson-led-series-d-at-a-valuation-above-4-5-billion-unveils-synchronicity-satellite-constellation-following-fully-successful-element-1-mission/",
-      "signal_type": "funding"
-    },
-    {
-      "author": "CleanTechnica",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "$3.4 Billion \u2014 Anthropic Order for Gas Power Plants!",
-      "date": "Sun, 15 No",
-      "source": "news",
-      "source_url": "https://cleantechnica.com/2026/11/14/3-4-billion-anthropic-order-for-gas-power-plants/",
-      "signal_type": "contract"
-    },
-    {
-      "author": "FierceBiotech",
-      "role": "Industry signal",
-      "company": "Isomorphic Labs",
-      "text": "<a href=\"/biotech/isomorphic-labs-raises-5b-series-c-months-after-21b-round\" hreflang=\"en\">Isomorphic Labs raises $5B series C months after $2.1B round</a>",
-      "date": "Nov 17, 20",
-      "source": "news",
-      "source_url": "https://www.fiercebiotech.com/biotech/isomorphic-labs-raises-5b-series-c-months-after-21b-round",
-      "signal_type": "funding"
-    },
-    {
       "author": "The Robot Report",
       "role": "Industry signal",
       "company": "Agile Robots",
@@ -140,12 +90,22 @@
       "source": "news",
       "source_url": "https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/",
       "signal_type": "funding"
+    },
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "Anthropic",
+      "text": "Anthropic&#8217;s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "date": "Fri, 20 No",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "signal_type": "ipo"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 14,
+    "from_news": 10,
     "from_press": 0
   }
 }

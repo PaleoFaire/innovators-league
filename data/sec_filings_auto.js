@@ -1,6 +1,11 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-11-19 15:28:49 UTC
+// Last updated: 2026-11-20 15:05:54 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Momentus", form: "8-K", date: "2026-11-20", description: "tm2630244d1_8k.htm", isIPO: false, ticker: "MNTS" },
+  { company: "AST SpaceMobile", form: "4", date: "2026-11-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "Oklo", form: "4", date: "2026-11-19", description: "xslF345X06/wk-form4_1795123188.xml", isIPO: false, ticker: "OKLO" },
+  { company: "LanzaTech", form: "4", date: "2026-11-19", description: "xslF345X06/wk-form4_1795124401.xml", isIPO: false, ticker: "LNZA" },
+  { company: "LanzaTech", form: "4", date: "2026-11-19", description: "xslF345X06/wk-form4_1795124348.xml", isIPO: false, ticker: "LNZA" },
   { company: "Rocket Lab", form: "4", date: "2026-11-18", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "AST SpaceMobile", form: "8-K", date: "2026-11-18", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
   { company: "Recursion Pharmaceuticals", form: "4", date: "2026-11-18", description: "xslF345X06/wk-form4_1795040147.xml", isIPO: false, ticker: "RXRX" },
@@ -46,9 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "D-Wave Quantum", form: "8-K", date: "2026-11-12", description: "qbts-20261112.htm", isIPO: false, ticker: "QBTS" },
   { company: "AST SpaceMobile", form: "8-K", date: "2026-11-10", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
   { company: "Oklo", form: "4", date: "2026-11-10", description: "xslF345X06/wk-form4_1794347507.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Centrus Energy", form: "8-K", date: "2026-11-10", description: "leu-20261104.htm", isIPO: false, ticker: "LEU" },
-  { company: "UiPath", form: "4", date: "2026-11-10", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "Rigetti Computing", form: "10-Q", date: "2026-11-10", description: "rgti-20260930x10q.htm", isIPO: false, ticker: "RGTI" },
-  { company: "Rigetti Computing", form: "8-K", date: "2026-11-10", description: "rgti-20261110x8k.htm", isIPO: false, ticker: "RGTI" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-11-10", description: "qbts-20261110.htm", isIPO: false, ticker: "QBTS" },
 ];
