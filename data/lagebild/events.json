@@ -1,0 +1,1175 @@
+{
+ "as_of": "2026-11-20",
+ "method_version": "1.0",
+ "counts": {
+  "published": 21,
+  "by_window_days": {
+   "7": 0,
+   "30": 1,
+   "90": 8
+  },
+  "by_type": {
+   "round": 10,
+   "debt": 2,
+   "form_d": 4,
+   "contract": 5
+  }
+ },
+ "events": [
+  {
+   "id": "round-e40524e47f",
+   "type": "round",
+   "company": "Nominal",
+   "sector": "AI & Software",
+   "date": "2026-11-09",
+   "age_days": 11,
+   "amount_usd": 240000000,
+   "agency": null,
+   "program": null,
+   "place": {
+    "name": "Los Angeles, CA",
+    "state": "CA",
+    "lat": 34.1,
+    "lng": -118.2,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "Company newsroom",
+    "url": "https://nominal.io/blog/series-c-news",
+    "also": [
+     "https://nominal.io/blog/series-c"
+    ]
+   },
+   "detail": {
+    "round_label": null,
+    "valuation_usd": 3000000000
+   },
+   "line": "Nominal raised $240M at a $3B valuation.",
+   "first_of_kind": false,
+   "score": 53.8,
+   "score_parts": {
+    "type": 20,
+    "dollars": 33.8,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/company_announcements_auto.json",
+     "ref": "results[90].hits[0]",
+     "fields": {
+      "title": "Nominal raises $240M at a $3B valuation to build the intelligence platform for hardware engineering",
+      "date": "Mon, 09 Nov 2026 00:00:00 GMT",
+      "link": "https://nominal.io/blog/series-c-news",
+      "amount": "$240M",
+      "round": "",
+      "valuation": "$3B"
+     }
+    },
+    {
+     "file": "data/company_announcements_auto.json",
+     "ref": "results[90].hits[1]",
+     "fields": {
+      "title": "We raised $240M to build the intelligence platform for hardware",
+      "date": "Mon, 09 Nov 2026 00:00:00 GMT",
+      "link": "https://nominal.io/blog/series-c",
+      "amount": "$240M",
+      "round": "",
+      "valuation": "$3B"
+     }
+    }
+   ],
+   "thread": {
+    "root": "round-e40524e47f",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "round-17df6d8a9c",
+   "type": "round",
+   "company": "Oxide Computer Company",
+   "sector": "Chips & Semiconductors",
+   "date": "2026-10-09",
+   "age_days": 42,
+   "amount_usd": 445000000,
+   "agency": null,
+   "program": null,
+   "place": {
+    "name": "Emeryville, CA",
+    "state": "CA",
+    "lat": 37.8,
+    "lng": -122.3,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "Company newsroom",
+    "url": "https://oxide.computer/blog/our-445m-series-d",
+    "also": []
+   },
+   "detail": {
+    "round_label": "Series D",
+    "valuation_usd": null
+   },
+   "line": "Oxide Computer Company raised a $445M Series D.",
+   "first_of_kind": false,
+   "score": 56.5,
+   "score_parts": {
+    "type": 20,
+    "dollars": 36.5,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/company_announcements_auto.json",
+     "ref": "results[314].hits[0]",
+     "fields": {
+      "title": "Our $445M Series D",
+      "date": "2026-10-09T00:00:00.000Z",
+      "link": "https://oxide.computer/blog/our-445m-series-d",
+      "amount": "$445M",
+      "round": "Series D",
+      "valuation": ""
+     }
+    }
+   ],
+   "thread": {
+    "root": "round-17df6d8a9c",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "debt-c698197d1a",
+   "type": "debt",
+   "company": "Waymo",
+   "sector": "Drones & Autonomous",
+   "date": "2026-10-08",
+   "age_days": 43,
+   "amount_usd": 5000000000,
+   "agency": null,
+   "program": null,
+   "place": {
+    "name": "Mountain View, CA",
+    "state": "CA",
+    "lat": 37.4,
+    "lng": -122.1,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "Company newsroom",
+    "url": "https://waymo.com/blog/2026/10/waymo-closes-5-billion-debt-financing",
+    "also": []
+   },
+   "detail": {
+    "round_label": null,
+    "valuation_usd": null
+   },
+   "line": "Waymo announced $5B in debt financing.",
+   "first_of_kind": false,
+   "score": 67.0,
+   "score_parts": {
+    "type": 20,
+    "dollars": 47.0,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/company_announcements_auto.json",
+     "ref": "results[87].hits[0]",
+     "fields": {
+      "title": "Waymo Closes $5 Billion Debt Financing to Accelerate Business Expansion",
+      "date": "Thu, 08 Oct 2026 00:00:00 GMT",
+      "link": "https://waymo.com/blog/2026/10/waymo-closes-5-billion-debt-financing",
+      "amount": "$5B",
+      "round": "",
+      "valuation": ""
+     }
+    }
+   ],
+   "thread": {
+    "root": "debt-c698197d1a",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "form_d-7fe8a8fdc3",
+   "type": "form_d",
+   "company": "Precision Neuroscience",
+   "sector": "Biotech & Health",
+   "date": "2026-09-28",
+   "age_days": 53,
+   "amount_usd": 249999984,
+   "agency": null,
+   "program": null,
+   "place": {
+    "name": "New York, NY",
+    "state": "NY",
+    "lat": 40.7,
+    "lng": -74.0,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "SEC EDGAR",
+    "url": "https://www.sec.gov/Archives/edgar/data/1858288/000112329226001327/primary_doc.xml",
+    "also": []
+   },
+   "detail": {
+    "form": "D",
+    "offering_usd": null,
+    "securities": "Equity"
+   },
+   "line": "Precision Neuroscience filed a Form D with the SEC reporting $250M sold.",
+   "first_of_kind": false,
+   "score": 44.0,
+   "score_parts": {
+    "type": 10,
+    "dollars": 34.0,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/form_d_daily_auto.json",
+     "ref": "filings[0]",
+     "fields": {
+      "issuer_name": "Precision Neuroscience Corp",
+      "form": "D",
+      "filed_date": "2026-09-28",
+      "accession": "0001123292-26-001327",
+      "offering_amount": "Indefinite",
+      "amount_sold": "249999984",
+      "securities_type": "Equity",
+      "match_method": "cik"
+     }
+    }
+   ],
+   "thread": {
+    "root": "form_d-7fe8a8fdc3",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "form_d-fecdb1328e",
+   "type": "form_d",
+   "company": "Sunflower Labs",
+   "sector": "Drones & Autonomous",
+   "date": "2026-09-28",
+   "age_days": 53,
+   "amount_usd": 14902982,
+   "agency": null,
+   "program": null,
+   "place": {
+    "name": "San Carlos, CA",
+    "state": "CA",
+    "lat": 37.5,
+    "lng": -122.3,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "SEC EDGAR",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876339/000187633926000003/primary_doc.xml",
+    "also": []
+   },
+   "detail": {
+    "form": "D",
+    "offering_usd": 20000000,
+    "securities": "Equity"
+   },
+   "line": "Sunflower Labs filed a Form D with the SEC reporting $14.9M sold of a $20M offering.",
+   "first_of_kind": false,
+   "score": 31.7,
+   "score_parts": {
+    "type": 10,
+    "dollars": 21.7,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/form_d_daily_auto.json",
+     "ref": "filings[1]",
+     "fields": {
+      "issuer_name": "Sunflower Labs Inc.",
+      "form": "D",
+      "filed_date": "2026-09-28",
+      "accession": "0001876339-26-000003",
+      "offering_amount": "20000000",
+      "amount_sold": "14902982",
+      "securities_type": "Equity",
+      "match_method": "cik"
+     }
+    }
+   ],
+   "thread": {
+    "root": "form_d-fecdb1328e",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "debt-f1d8866b8e",
+   "type": "debt",
+   "company": "Vaulted Deep",
+   "sector": "Climate & Energy",
+   "date": "2026-09-21",
+   "age_days": 60,
+   "amount_usd": 35000000,
+   "agency": null,
+   "program": null,
+   "place": {
+    "name": "Houston, TX",
+    "state": "TX",
+    "lat": 29.8,
+    "lng": -95.4,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "Company newsroom",
+    "url": "https://vaulteddeep.com/vaulted-deep-secures-35-million-in-debt-financing-to-expand-nationwide/",
+    "also": []
+   },
+   "detail": {
+    "round_label": null,
+    "valuation_usd": null
+   },
+   "line": "Vaulted Deep announced $35M in debt financing.",
+   "first_of_kind": false,
+   "score": 45.4,
+   "score_parts": {
+    "type": 20,
+    "dollars": 25.4,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/company_announcements_auto.json",
+     "ref": "results[331].hits[0]",
+     "fields": {
+      "title": "Vaulted Deep Secures $35 Million in Debt Financing to Expand Nationwide",
+      "date": "Mon, 21 Sep 2026 22:05:34 +0000",
+      "link": "https://vaulteddeep.com/vaulted-deep-secures-35-million-in-debt-financing-to-expand-nationwide/",
+      "amount": "$35M",
+      "round": "",
+      "valuation": ""
+     }
+    }
+   ],
+   "thread": {
+    "root": "debt-f1d8866b8e",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "form_d-173f6d18ba",
+   "type": "form_d",
+   "company": "Gravitics",
+   "sector": "Space & Aerospace",
+   "date": "2026-09-18",
+   "age_days": 63,
+   "amount_usd": 28554354,
+   "agency": null,
+   "program": null,
+   "place": {
+    "name": "Marysville, WA",
+    "state": "WA",
+    "lat": 48.1,
+    "lng": -122.2,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "SEC EDGAR",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001957517&type=D&dateb=&owner=include&count=10",
+    "also": []
+   },
+   "detail": {
+    "form": "D",
+    "offering_usd": 28554354,
+    "securities": "Equity"
+   },
+   "line": "Gravitics filed a Form D with the SEC reporting $28.6M sold of a $28.6M offering.",
+   "first_of_kind": false,
+   "score": 34.6,
+   "score_parts": {
+    "type": 10,
+    "dollars": 24.6,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/form_d_filings_auto.json",
+     "ref": "filings[4]",
+     "fields": {
+      "issuer_name": "Gravitics, Inc",
+      "form": "D",
+      "filed_date": "2026-09-18",
+      "accession": "0001957517-26-000005",
+      "offering_amount": "28554354",
+      "amount_sold": "28554354",
+      "securities_type": "Equity",
+      "match_method": "cik"
+     }
+    }
+   ],
+   "thread": {
+    "root": "form_d-173f6d18ba",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "form_d-e762d95859",
+   "type": "form_d",
+   "company": "SirenOpt",
+   "sector": "Robotics & Manufacturing",
+   "date": "2026-09-18",
+   "age_days": 63,
+   "amount_usd": 19428895,
+   "agency": null,
+   "program": null,
+   "place": {
+    "name": "San Leandro, CA",
+    "state": "CA",
+    "lat": 37.7,
+    "lng": -122.1,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "SEC EDGAR",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002029046&type=D&dateb=&owner=include&count=10",
+    "also": []
+   },
+   "detail": {
+    "form": "D",
+    "offering_usd": 32411720,
+    "securities": "Equity"
+   },
+   "line": "SirenOpt filed a Form D with the SEC reporting $19.4M sold of a $32.4M offering.",
+   "first_of_kind": false,
+   "score": 32.9,
+   "score_parts": {
+    "type": 10,
+    "dollars": 22.9,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/form_d_filings_auto.json",
+     "ref": "filings[3]",
+     "fields": {
+      "issuer_name": "SirenOpt Inc",
+      "form": "D",
+      "filed_date": "2026-09-18",
+      "accession": "0002029046-26-000004",
+      "offering_amount": "32411720",
+      "amount_sold": "19428895",
+      "securities_type": "Equity",
+      "match_method": "cik"
+     }
+    }
+   ],
+   "thread": {
+    "root": "form_d-e762d95859",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "round-6122715836",
+   "type": "round",
+   "company": "Muon Space",
+   "sector": "Space & Aerospace",
+   "date": "2026-08-20",
+   "age_days": 92,
+   "amount_usd": 250000000,
+   "agency": null,
+   "program": null,
+   "place": {
+    "name": "Mountain View, CA",
+    "state": "CA",
+    "lat": 37.4,
+    "lng": -122.1,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "Company newsroom",
+    "url": "https://www.muonspace.com/muon-space-closes-250-million-series-c-to-scale-space-infrastructure/",
+    "also": []
+   },
+   "detail": {
+    "round_label": "Series C",
+    "valuation_usd": null
+   },
+   "line": "Muon Space raised a $250M Series C.",
+   "first_of_kind": false,
+   "score": 54.0,
+   "score_parts": {
+    "type": 20,
+    "dollars": 34.0,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/company_announcements_auto.json",
+     "ref": "results[120].hits[0]",
+     "fields": {
+      "title": "Muon Space Closes $250 Million Series C to Scale Space Infrastructure",
+      "date": "Thu, 20 Aug 2026 11:00:00 +0000",
+      "link": "https://www.muonspace.com/muon-space-closes-250-million-series-c-to-scale-space-infrastructure/",
+      "amount": "$250M",
+      "round": "Series C",
+      "valuation": ""
+     }
+    }
+   ],
+   "thread": {
+    "root": "round-6122715836",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "round-de1a66abf7",
+   "type": "round",
+   "company": "Velaura AI",
+   "sector": "Chips & Semiconductors",
+   "date": "2026-08-18",
+   "age_days": 94,
+   "amount_usd": 110000000,
+   "agency": null,
+   "program": null,
+   "place": {
+    "name": "Santa Clara, CA",
+    "state": "CA",
+    "lat": 37.4,
+    "lng": -122.0,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "Company newsroom",
+    "url": "https://velaura.ai/velaura-ai-raises-110-million-series-a-to-advance-the-next-generation-of-ultra-low-power-ai-compute-infrastructure/",
+    "also": []
+   },
+   "detail": {
+    "round_label": "Series A",
+    "valuation_usd": null
+   },
+   "line": "Velaura AI raised a $110M Series A.",
+   "first_of_kind": false,
+   "score": 50.4,
+   "score_parts": {
+    "type": 20,
+    "dollars": 30.4,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/company_announcements_auto.json",
+     "ref": "results[181].hits[0]",
+     "fields": {
+      "title": "Velaura AI Raises $110 Million Series A to Advance the Next Generation of Ultra-Low-Power AI Compute Infrastructure",
+      "date": "Tue, 18 Aug 2026 13:52:38 +0000",
+      "link": "https://velaura.ai/velaura-ai-raises-110-million-series-a-to-advance-the-next-generation-of-ultra-low-power-ai-compute-infrastructure/",
+      "amount": "$110M",
+      "round": "Series A",
+      "valuation": "$1B"
+     }
+    }
+   ],
+   "thread": {
+    "root": "round-de1a66abf7",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "round-3c53afe9ef",
+   "type": "round",
+   "company": "Eliyan",
+   "sector": "Chips & Semiconductors",
+   "date": "2026-07-29",
+   "age_days": 114,
+   "amount_usd": 145000000,
+   "agency": null,
+   "program": null,
+   "place": {
+    "name": "Santa Clara, CA",
+    "state": "CA",
+    "lat": 37.4,
+    "lng": -122.0,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "Company newsroom",
+    "url": "https://eliyan.com/news/eliyan-achieves-unicorn-status-with-145-million-series-c/",
+    "also": []
+   },
+   "detail": {
+    "round_label": "Series C",
+    "valuation_usd": null
+   },
+   "line": "Eliyan raised a $145M Series C.",
+   "first_of_kind": false,
+   "score": 51.6,
+   "score_parts": {
+    "type": 20,
+    "dollars": 31.6,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/company_announcements_auto.json",
+     "ref": "results[354].hits[1]",
+     "fields": {
+      "title": "Eliyan Achieves Unicorn Status with $145 Million Series C to Advance Electro-optical Interconnects for AI Infrastructure",
+      "date": "Wed, 29 Jul 2026 13:25:00 +0000",
+      "link": "https://eliyan.com/news/eliyan-achieves-unicorn-status-with-145-million-series-c/",
+      "amount": "$145M",
+      "round": "Series C",
+      "valuation": ""
+     }
+    }
+   ],
+   "thread": {
+    "root": "round-3c53afe9ef",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "round-48c92bcbd0",
+   "type": "round",
+   "company": "Nominal",
+   "sector": "AI & Software",
+   "date": "2026-03-05",
+   "age_days": 260,
+   "amount_usd": 80000000,
+   "agency": null,
+   "program": null,
+   "place": {
+    "name": "Los Angeles, CA",
+    "state": "CA",
+    "lat": 34.1,
+    "lng": -118.2,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "Company newsroom",
+    "url": "https://nominal.io/blog/series-b2",
+    "also": []
+   },
+   "detail": {
+    "round_label": null,
+    "valuation_usd": null
+   },
+   "line": "Nominal raised $80M.",
+   "first_of_kind": false,
+   "score": 49.0,
+   "score_parts": {
+    "type": 20,
+    "dollars": 29.0,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/company_announcements_auto.json",
+     "ref": "results[90].hits[2]",
+     "fields": {
+      "title": "We raised $80M to make hardware teams AI-ready",
+      "date": "Thu, 05 Mar 2026 00:00:00 GMT",
+      "link": "https://nominal.io/blog/series-b2",
+      "amount": "$80M",
+      "round": "",
+      "valuation": "$1B"
+     }
+    }
+   ],
+   "thread": {
+    "root": "round-48c92bcbd0",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "round-b679a70a19",
+   "type": "round",
+   "company": "Oxide Computer Company",
+   "sector": "Chips & Semiconductors",
+   "date": "2026-02-05",
+   "age_days": 288,
+   "amount_usd": 200000000,
+   "agency": null,
+   "program": null,
+   "place": {
+    "name": "Emeryville, CA",
+    "state": "CA",
+    "lat": 37.8,
+    "lng": -122.3,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "Company newsroom",
+    "url": "https://oxide.computer/blog/our-200m-series-c",
+    "also": []
+   },
+   "detail": {
+    "round_label": "Series C",
+    "valuation_usd": null
+   },
+   "line": "Oxide Computer Company raised a $200M Series C.",
+   "first_of_kind": false,
+   "score": 53.0,
+   "score_parts": {
+    "type": 20,
+    "dollars": 33.0,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/company_announcements_auto.json",
+     "ref": "results[314].hits[1]",
+     "fields": {
+      "title": "Our $200M Series C",
+      "date": "2026-02-05T00:00:00.000Z",
+      "link": "https://oxide.computer/blog/our-200m-series-c",
+      "amount": "$200M",
+      "round": "Series C",
+      "valuation": ""
+     }
+    }
+   ],
+   "thread": {
+    "root": "round-b679a70a19",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "contract-a6e1876afe",
+   "type": "contract",
+   "company": "Starfish Space",
+   "sector": "Space & Aerospace",
+   "date": "2026-01-30",
+   "age_days": 294,
+   "amount_usd": 48500000,
+   "agency": "Department of Defense",
+   "program": null,
+   "place": {
+    "name": "Seattle, WA",
+    "state": "WA",
+    "lat": 47.6,
+    "lng": -122.3,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "USAspending.gov",
+    "url": "https://www.usaspending.gov/award/CONT_AWD_FA881126CB001_9700_-NONE-_-NONE-",
+    "also": []
+   },
+   "detail": {
+    "sub_agency": "Department of the Air Force"
+   },
+   "line": "Starfish Space was awarded a $48.5M contract by the Department of Defense (Department of the Air Force).",
+   "first_of_kind": false,
+   "score": 46.9,
+   "score_parts": {
+    "type": 20,
+    "dollars": 26.9,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/gov_contracts_raw.json",
+     "ref": "[790]",
+     "fields": {
+      "awardId": "FA881126CB001",
+      "recipientName": "STARFISH SPACE INC.",
+      "amount": 48500000.0,
+      "agency": "Department of Defense",
+      "subAgency": "Department of the Air Force",
+      "startDate": "2026-01-30"
+     }
+    }
+   ],
+   "thread": {
+    "root": "contract-a6e1876afe",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "round-1c65747754",
+   "type": "round",
+   "company": "HistoSonics",
+   "sector": "Biotech & Health",
+   "date": "2025-10-16",
+   "age_days": 400,
+   "amount_usd": 250000000,
+   "agency": null,
+   "program": null,
+   "place": {
+    "name": "Ann Arbor, MI",
+    "state": "MI",
+    "lat": 42.3,
+    "lng": -83.7,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "Company press release",
+    "url": "https://www.businesswire.com/news/home/20251016119331/en/HistoSonics-Announces-Oversubscribed-%24250-Million-Growth-Financing#new_tab",
+    "also": []
+   },
+   "detail": {
+    "round_label": "growth round",
+    "valuation_usd": null
+   },
+   "line": "HistoSonics raised a $250M growth round.",
+   "first_of_kind": false,
+   "score": 54.0,
+   "score_parts": {
+    "type": 20,
+    "dollars": 34.0,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/company_announcements_auto.json",
+     "ref": "results[372].hits[0]",
+     "fields": {
+      "title": "HistoSonics Announces Oversubscribed $250 Million Growth Financing",
+      "date": "Thu, 16 Oct 2025 14:30:25 +0000",
+      "link": "https://www.businesswire.com/news/home/20251016119331/en/HistoSonics-Announces-Oversubscribed-%24250-Million-Growth-Financing#new_tab",
+      "amount": "$250M",
+      "round": "Growth",
+      "valuation": ""
+     }
+    }
+   ],
+   "thread": {
+    "root": "round-1c65747754",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "round-59849a50c4",
+   "type": "round",
+   "company": "Oxide Computer Company",
+   "sector": "Chips & Semiconductors",
+   "date": "2025-07-30",
+   "age_days": 478,
+   "amount_usd": 100000000,
+   "agency": null,
+   "program": null,
+   "place": {
+    "name": "Emeryville, CA",
+    "state": "CA",
+    "lat": 37.8,
+    "lng": -122.3,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "Company newsroom",
+    "url": "https://oxide.computer/blog/our-100m-series-b",
+    "also": []
+   },
+   "detail": {
+    "round_label": "Series B",
+    "valuation_usd": null
+   },
+   "line": "Oxide Computer Company raised a $100M Series B.",
+   "first_of_kind": false,
+   "score": 50.0,
+   "score_parts": {
+    "type": 20,
+    "dollars": 30.0,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/company_announcements_auto.json",
+     "ref": "results[314].hits[2]",
+     "fields": {
+      "title": "Our $100M Series B",
+      "date": "2025-07-30T13:00:00.000Z",
+      "link": "https://oxide.computer/blog/our-100m-series-b",
+      "amount": "$100M",
+      "round": "Series B",
+      "valuation": ""
+     }
+    }
+   ],
+   "thread": {
+    "root": "round-59849a50c4",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "contract-73183896d5",
+   "type": "contract",
+   "company": "Turion Space",
+   "sector": "Space & Aerospace",
+   "date": "2024-12-18",
+   "age_days": 702,
+   "amount_usd": 21974594,
+   "agency": "Department of Defense",
+   "program": null,
+   "place": {
+    "name": "Irvine, CA",
+    "state": "CA",
+    "lat": 33.7,
+    "lng": -117.8,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "USAspending.gov",
+    "url": "https://www.usaspending.gov/award/CONT_AWD_FA880925CB004_9700_-NONE-_-NONE-",
+    "also": []
+   },
+   "detail": {
+    "sub_agency": "Department of the Air Force"
+   },
+   "line": "Turion Space was awarded a $22M contract by the Department of Defense (Department of the Air Force).",
+   "first_of_kind": false,
+   "score": 43.4,
+   "score_parts": {
+    "type": 20,
+    "dollars": 23.4,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/gov_contracts_raw.json",
+     "ref": "[687]",
+     "fields": {
+      "awardId": "FA880925CB004",
+      "recipientName": "TURION SPACE CORP",
+      "amount": 21974594.01,
+      "agency": "Department of Defense",
+      "subAgency": "Department of the Air Force",
+      "startDate": "2024-12-18"
+     }
+    }
+   ],
+   "thread": {
+    "root": "contract-73183896d5",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "contract-d957064110",
+   "type": "contract",
+   "company": "Impulse Space",
+   "sector": "Space & Aerospace",
+   "date": "2024-10-03",
+   "age_days": 778,
+   "amount_usd": 28311901,
+   "agency": "Department of Defense",
+   "program": null,
+   "place": {
+    "name": "Redondo Beach, CA",
+    "state": "CA",
+    "lat": 33.8,
+    "lng": -118.4,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "USAspending.gov",
+    "url": "https://www.usaspending.gov/award/CONT_AWD_FA880925CB001_9700_-NONE-_-NONE-",
+    "also": []
+   },
+   "detail": {
+    "sub_agency": "Department of the Air Force"
+   },
+   "line": "Impulse Space was awarded a $28.3M contract by the Department of Defense (Department of the Air Force).",
+   "first_of_kind": false,
+   "score": 44.5,
+   "score_parts": {
+    "type": 20,
+    "dollars": 24.5,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/gov_contracts_raw.json",
+     "ref": "[514]",
+     "fields": {
+      "awardId": "FA880925CB001",
+      "recipientName": "IMPULSE SPACE, INC.",
+      "amount": 28311900.5,
+      "agency": "Department of Defense",
+      "subAgency": "Department of the Air Force",
+      "startDate": "2024-10-03"
+     }
+    }
+   ],
+   "thread": {
+    "root": "contract-d957064110",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "contract-92e5cff052",
+   "type": "contract",
+   "company": "Castelion",
+   "sector": "Defense & Security",
+   "date": "2024-10-02",
+   "age_days": 779,
+   "amount_usd": 55849158,
+   "agency": "Department of Defense",
+   "program": null,
+   "place": {
+    "name": "Torrance, CA",
+    "state": "CA",
+    "lat": 33.8,
+    "lng": -118.3,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "USAspending.gov",
+    "url": "https://www.usaspending.gov/award/CONT_AWD_FA861224CB010_9700_-NONE-_-NONE-",
+    "also": []
+   },
+   "detail": {
+    "sub_agency": "Department of the Air Force"
+   },
+   "line": "Castelion was awarded a $55.8M contract by the Department of Defense (Department of the Air Force).",
+   "first_of_kind": false,
+   "score": 47.5,
+   "score_parts": {
+    "type": 20,
+    "dollars": 27.5,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/gov_contracts_raw.json",
+     "ref": "[470]",
+     "fields": {
+      "awardId": "FA861224CB010",
+      "recipientName": "CASTELION CORPORATION",
+      "amount": 55849158.0,
+      "agency": "Department of Defense",
+      "subAgency": "Department of the Air Force",
+      "startDate": "2024-10-02"
+     }
+    }
+   ],
+   "thread": {
+    "root": "contract-92e5cff052",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "contract-d5281dfcee",
+   "type": "contract",
+   "company": "Starfish Space",
+   "sector": "Space & Aerospace",
+   "date": "2024-08-16",
+   "age_days": 826,
+   "amount_usd": 14999999,
+   "agency": "National Aeronautics and Space Administration",
+   "program": null,
+   "place": {
+    "name": "Seattle, WA",
+    "state": "WA",
+    "lat": 47.6,
+    "lng": -122.3,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "USAspending.gov",
+    "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC24CA187_8000_-NONE-_-NONE-",
+    "also": []
+   },
+   "detail": {
+    "sub_agency": null
+   },
+   "line": "Starfish Space was awarded a $15M contract by the National Aeronautics and Space Administration.",
+   "first_of_kind": false,
+   "score": 41.8,
+   "score_parts": {
+    "type": 20,
+    "dollars": 21.8,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/gov_contracts_raw.json",
+     "ref": "[792]",
+     "fields": {
+      "awardId": "80NSSC24CA187",
+      "recipientName": "STARFISH SPACE INC.",
+      "amount": 14999999.0,
+      "agency": "National Aeronautics and Space Administration",
+      "subAgency": "National Aeronautics and Space Administration",
+      "startDate": "2024-08-16"
+     }
+    }
+   ],
+   "thread": {
+    "root": "contract-d5281dfcee",
+    "position": 0,
+    "size": 1
+   }
+  },
+  {
+   "id": "round-4aaf5f326b",
+   "type": "round",
+   "company": "Orbit Fab",
+   "sector": "Space & Aerospace",
+   "date": "2023-04-17",
+   "age_days": 1313,
+   "amount_usd": 28500000,
+   "agency": null,
+   "program": null,
+   "place": {
+    "name": "Lafayette, CO",
+    "state": "CO",
+    "lat": 40.0,
+    "lng": -105.1,
+    "basis": "hq"
+   },
+   "source": {
+    "name": "Company newsroom",
+    "url": "https://www.orbitfab.com/news/orbit-fab-raises-28-5-million/",
+    "also": []
+   },
+   "detail": {
+    "round_label": null,
+    "valuation_usd": null
+   },
+   "line": "Orbit Fab raised $28.5M.",
+   "first_of_kind": false,
+   "score": 44.5,
+   "score_parts": {
+    "type": 20,
+    "dollars": 24.5,
+    "first": 0
+   },
+   "provenance": [
+    {
+     "file": "data/company_announcements_auto.json",
+     "ref": "results[197].hits[0]",
+     "fields": {
+      "title": "Orbit Fab raises $28.5 million",
+      "date": "Mon, 17 Apr 2023 19:43:04 +0000",
+      "link": "https://www.orbitfab.com/news/orbit-fab-raises-28-5-million/",
+      "amount": "$28.5M",
+      "round": "",
+      "valuation": ""
+     }
+    }
+   ],
+   "thread": {
+    "root": "round-4aaf5f326b",
+    "position": 0,
+    "size": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,483 @@
+{
+ "as_of": "2026-11-20",
+ "method_version": "1.0",
+ "note": "Counts only. No company is named in this file.",
+ "job_board_signals": "held: switched off until the owner turns them on",
+ "totals": {
+  "rows_read_as_events": 1962,
+  "published": 21,
+  "held": 77,
+  "merged_duplicates": 151,
+  "rejected": 1713
+ },
+ "reasons": {
+  "negative_signal": "Negative or distress signal about a named company. Never published.",
+  "not_an_event": "A forecast, estimate, schedule or data check, not something that happened.",
+  "company_not_in_database": "The company name does not match a record in data.js.",
+  "outside_us": "The company is not headquartered in the United States.",
+  "no_source_url": "The repo data holds no link to a primary source for the event.",
+  "source_not_primary": "The link is not a secure link to a primary source: the company's own site, a filing or an award record.",
+  "date_missing": "No date in the source data.",
+  "date_not_a_day": "The date has no day (a month or a year only).",
+  "date_future": "The date is after the build date.",
+  "date_implausible": "The date is not a real date, is before 1990, or is before the company was founded.",
+  "date_unreliable": "Several different announcements carry one identical timestamp.",
+  "fields_not_confirmed": "The source does not state a completed event with these fields.",
+  "fields_implausible": "The numbers look like a change in the data feed, not a real change.",
+  "line_mismatch": "The written line did not match the fields when checked."
+ },
+ "by_type": {
+  "round": {
+   "label": "Funding round",
+   "rows": 400,
+   "published": 10,
+   "held": 0,
+   "merged_duplicates": 1,
+   "rejected": 389,
+   "primary_reason": {
+    "company_not_in_database": 1,
+    "outside_us": 87,
+    "no_source_url": 196,
+    "source_not_primary": 2,
+    "date_missing": 96,
+    "date_unreliable": 3,
+    "fields_not_confirmed": 4
+   },
+   "any_reason": {
+    "company_not_in_database": 1,
+    "outside_us": 87,
+    "no_source_url": 248,
+    "source_not_primary": 2,
+    "date_missing": 118,
+    "date_not_a_day": 248,
+    "date_unreliable": 3,
+    "fields_not_confirmed": 368
+   }
+  },
+  "debt": {
+   "label": "Debt financing",
+   "rows": 2,
+   "published": 2,
+   "held": 0,
+   "merged_duplicates": 0,
+   "rejected": 0,
+   "primary_reason": {},
+   "any_reason": {}
+  },
+  "form_d": {
+   "label": "SEC Form D",
+   "rows": 8,
+   "published": 4,
+   "held": 0,
+   "merged_duplicates": 3,
+   "rejected": 1,
+   "primary_reason": {
+    "outside_us": 1
+   },
+   "any_reason": {
+    "outside_us": 1
+   }
+  },
+  "contract": {
+   "label": "Federal contract",
+   "rows": 1111,
+   "published": 5,
+   "held": 0,
+   "merged_duplicates": 147,
+   "rejected": 959,
+   "primary_reason": {
+    "company_not_in_database": 105,
+    "no_source_url": 854
+   },
+   "any_reason": {
+    "company_not_in_database": 105,
+    "no_source_url": 959,
+    "date_future": 1,
+    "date_implausible": 1
+   }
+  },
+  "grant": {
+   "label": "Federal grant",
+   "rows": 253,
+   "published": 0,
+   "held": 0,
+   "merged_duplicates": 0,
+   "rejected": 253,
+   "primary_reason": {
+    "company_not_in_database": 253
+   },
+   "any_reason": {
+    "company_not_in_database": 253,
+    "no_source_url": 253
+   }
+  },
+  "new_location": {
+   "label": "New location",
+   "rows": 3,
+   "published": 0,
+   "held": 3,
+   "merged_duplicates": 0,
+   "rejected": 0,
+   "primary_reason": {},
+   "any_reason": {}
+  },
+  "first_mfg_role": {
+   "label": "First manufacturing role",
+   "rows": 3,
+   "published": 0,
+   "held": 3,
+   "merged_duplicates": 0,
+   "rejected": 0,
+   "primary_reason": {},
+   "any_reason": {}
+  },
+  "senior_mfg_role": {
+   "label": "Senior manufacturing role",
+   "rows": 13,
+   "published": 0,
+   "held": 13,
+   "merged_duplicates": 0,
+   "rejected": 0,
+   "primary_reason": {},
+   "any_reason": {}
+  },
+  "production_turn": {
+   "label": "Shift to production roles",
+   "rows": 13,
+   "published": 0,
+   "held": 9,
+   "merged_duplicates": 0,
+   "rejected": 4,
+   "primary_reason": {
+    "no_source_url": 3,
+    "fields_implausible": 1
+   },
+   "any_reason": {
+    "no_source_url": 3,
+    "fields_implausible": 1
+   }
+  },
+  "hiring_surge": {
+   "label": "Rise in open roles",
+   "rows": 54,
+   "published": 0,
+   "held": 49,
+   "merged_duplicates": 0,
+   "rejected": 5,
+   "primary_reason": {
+    "no_source_url": 5
+   },
+   "any_reason": {
+    "no_source_url": 5,
+    "fields_implausible": 1
+   }
+  },
+  "ipo_estimate": {
+   "label": "IPO pipeline estimate",
+   "rows": 14,
+   "published": 0,
+   "held": 0,
+   "merged_duplicates": 0,
+   "rejected": 14,
+   "primary_reason": {
+    "not_an_event": 14
+   },
+   "any_reason": {
+    "not_an_event": 14,
+    "company_not_in_database": 2
+   }
+  },
+  "launch": {
+   "label": "Scheduled launch",
+   "rows": 50,
+   "published": 0,
+   "held": 0,
+   "merged_duplicates": 0,
+   "rejected": 50,
+   "primary_reason": {
+    "not_an_event": 50
+   },
+   "any_reason": {
+    "not_an_event": 50,
+    "company_not_in_database": 22
+   }
+  },
+  "hiring_pullback": {
+   "label": "Hiring pullback",
+   "rows": 34,
+   "published": 0,
+   "held": 0,
+   "merged_duplicates": 0,
+   "rejected": 34,
+   "primary_reason": {
+    "negative_signal": 34
+   },
+   "any_reason": {
+    "negative_signal": 34
+   }
+  },
+  "board_check": {
+   "label": "Job-board data check",
+   "rows": 4,
+   "published": 0,
+   "held": 0,
+   "merged_duplicates": 0,
+   "rejected": 4,
+   "primary_reason": {
+    "not_an_event": 4
+   },
+   "any_reason": {
+    "not_an_event": 4
+   }
+  }
+ },
+ "by_source": [
+  {
+   "file": "data/company_announcements_auto.json",
+   "role": "events",
+   "note": "Funding announcements found on company newsrooms. One row per hit.",
+   "rows_read": 154,
+   "rows_not_read_as_events": 0,
+   "rows": 154,
+   "published": 12,
+   "held": 0,
+   "merged_duplicates": 1,
+   "rejected": 141,
+   "primary_reason": {
+    "outside_us": 36,
+    "source_not_primary": 2,
+    "date_missing": 96,
+    "date_unreliable": 3,
+    "fields_not_confirmed": 4
+   },
+   "any_reason": {
+    "outside_us": 36,
+    "source_not_primary": 2,
+    "date_missing": 118,
+    "date_unreliable": 3,
+    "fields_not_confirmed": 132
+   }
+  },
+  {
+   "file": "data/deals_auto.json",
+   "role": "events",
+   "note": "Rounds taken from trade press. Read so the rows can be counted; the feed has no link field.",
+   "rows_read": 248,
+   "rows_not_read_as_events": 0,
+   "rows": 248,
+   "published": 0,
+   "held": 0,
+   "merged_duplicates": 0,
+   "rejected": 248,
+   "primary_reason": {
+    "company_not_in_database": 1,
+    "outside_us": 51,
+    "no_source_url": 196
+   },
+   "any_reason": {
+    "company_not_in_database": 1,
+    "outside_us": 51,
+    "no_source_url": 248,
+    "date_not_a_day": 248,
+    "fields_not_confirmed": 236
+   }
+  },
+  {
+   "file": "data/funding_tracker_auto.json",
+   "role": "roll-up",
+   "note": "One summary row per company, built from the deals feed. The single rounds are read from the deals feed.",
+   "rows_read": 209,
+   "rows_not_read_as_events": 209
+  },
+  {
+   "file": "data/form_d_filings_auto.json",
+   "role": "events",
+   "note": "SEC Form D filings matched to a company by its SEC number.",
+   "rows_read": 5,
+   "rows_not_read_as_events": 0,
+   "rows": 5,
+   "published": 2,
+   "held": 0,
+   "merged_duplicates": 3,
+   "rejected": 0,
+   "primary_reason": {},
+   "any_reason": {}
+  },
+  {
+   "file": "data/form_d_daily_auto.json",
+   "role": "events",
+   "note": "SEC Form D filings matched to a company by its SEC number.",
+   "rows_read": 3,
+   "rows_not_read_as_events": 0,
+   "rows": 3,
+   "published": 2,
+   "held": 0,
+   "merged_duplicates": 0,
+   "rejected": 1,
+   "primary_reason": {
+    "outside_us": 1
+   },
+   "any_reason": {
+    "outside_us": 1
+   }
+  },
+  {
+   "file": "data/sec_filings_raw.json",
+   "role": "events",
+   "note": "Only registration statements (S-1, S-1/A, F-1, F-1/A) are read as events. Ownership forms and periodic reports are not.",
+   "rows_read": 1074,
+   "rows_not_read_as_events": 1074
+  },
+  {
+   "file": "data/ipo_pipeline_auto.json",
+   "role": "events",
+   "note": "Likelihoods and estimated dates. Never an event.",
+   "rows_read": 14,
+   "rows_not_read_as_events": 0,
+   "rows": 14,
+   "published": 0,
+   "held": 0,
+   "merged_duplicates": 0,
+   "rejected": 14,
+   "primary_reason": {
+    "not_an_event": 14
+   },
+   "any_reason": {
+    "not_an_event": 14,
+    "company_not_in_database": 2
+   }
+  },
+  {
+   "file": "data/sbir_awards_auto.json",
+   "role": "link lookup",
+   "note": "USAspending permalinks keyed by award id. Used only to give a contract its link.",
+   "rows_read": 313,
+   "rows_not_read_as_events": 313
+  },
+  {
+   "file": "data/gov_contracts_raw.json",
+   "role": "events",
+   "note": "Federal contract awards from USAspending. The fetcher stores no link to the award.",
+   "rows_read": 1111,
+   "rows_not_read_as_events": 0,
+   "rows": 1111,
+   "published": 5,
+   "held": 0,
+   "merged_duplicates": 147,
+   "rejected": 959,
+   "primary_reason": {
+    "company_not_in_database": 105,
+    "no_source_url": 854
+   },
+   "any_reason": {
+    "company_not_in_database": 105,
+    "no_source_url": 959,
+    "date_future": 1,
+    "date_implausible": 1
+   }
+  },
+  {
+   "file": "data/gov_contracts_aggregated.json",
+   "role": "roll-up",
+   "note": "One summary row per company. The single awards are read from gov_contracts_raw.json.",
+   "rows_read": 205,
+   "rows_not_read_as_events": 205
+  },
+  {
+   "file": "data/nsf_awards_raw.json",
+   "role": "events",
+   "note": "National Science Foundation awards. Published only when the awardee is a company in data.js.",
+   "rows_read": 253,
+   "rows_not_read_as_events": 0,
+   "rows": 253,
+   "published": 0,
+   "held": 0,
+   "merged_duplicates": 0,
+   "rejected": 253,
+   "primary_reason": {
+    "company_not_in_database": 253
+   },
+   "any_reason": {
+    "company_not_in_database": 253,
+    "no_source_url": 253
+   }
+  },
+  {
+   "file": "data/launch_manifest_auto.json",
+   "role": "events",
+   "note": "A list of upcoming launches. A scheduled launch is not an event.",
+   "rows_read": 50,
+   "rows_not_read_as_events": 0,
+   "rows": 50,
+   "published": 0,
+   "held": 0,
+   "merged_duplicates": 0,
+   "rejected": 50,
+   "primary_reason": {
+    "not_an_event": 50
+   },
+   "any_reason": {
+    "not_an_event": 50,
+    "company_not_in_database": 22
+   }
+  },
+  {
+   "file": "data/pulse/signals",
+   "role": "events",
+   "note": "Weekly signals computed from public job boards. Only the five build-out signals can become events.",
+   "rows_read": 124,
+   "rows_not_read_as_events": 0,
+   "rows": 124,
+   "published": 0,
+   "held": 77,
+   "merged_duplicates": 0,
+   "rejected": 47,
+   "primary_reason": {
+    "negative_signal": 34,
+    "not_an_event": 4,
+    "no_source_url": 8,
+    "fields_implausible": 1
+   },
+   "any_reason": {
+    "negative_signal": 34,
+    "not_an_event": 4,
+    "no_source_url": 8,
+    "fields_implausible": 2
+   }
+  },
+  {
+   "file": "data/jobs_raw.json",
+   "role": "link lookup",
+   "note": "Job posting links. Used only to find the address of a company's job board.",
+   "rows_read": 3653,
+   "rows_not_read_as_events": 3653
+  },
+  {
+   "file": "data/pulse/job_boards.json",
+   "role": "link lookup",
+   "note": "The register of each company's verified job board.",
+   "rows_read": 665,
+   "rows_not_read_as_events": 665
+  }
+ ],
+ "passed_every_check_except_the_link": {
+  "contract": {
+   "7": 4,
+   "30": 21,
+   "90": 76,
+   "all": 853
+  },
+  "production_turn": {
+   "7": 0,
+   "30": 1,
+   "90": 3,
+   "all": 3
+  },
+  "hiring_surge": {
+   "7": 1,
+   "30": 3,
+   "90": 4,
+   "all": 4
+  }
+ }
+}
