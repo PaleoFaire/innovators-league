@@ -28,7 +28,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css?v=20261015">
-    <link rel="stylesheet" href="jobs-page.css?v=20261015b">
+    <link rel="stylesheet" href="jobs-page.css?v=20261120">
     <script src="config.js?v=20261015"></script>
     <script src="analytics.js?v=20260501"></script>
     <link rel="stylesheet" href="css/_tokens.css?v=20260501" />
@@ -267,6 +267,57 @@
     <section class="section jb-section" id="jobs-section">
         <div class="jb-container">
 
+            <!-- Family layer: plain role types, search near home and the filters families ask about (rendered by jobs.js) -->
+            <section class="jb-family" id="jb-family" aria-labelledby="jb-family-title">
+                <h2 class="jb-family-title" id="jb-family-title">Find a job near home</h2>
+                <p class="jb-family-lead" id="jb-family-lead"></p>
+
+                <fieldset class="jb-fs" id="jb-types-wrap">
+                    <legend>1. What kind of work?</legend>
+                    <p class="jb-fs-help">Pick one or more. “Internships and first jobs” narrows the others: with “Hands-on” it shows hands-on first jobs.</p>
+                    <div class="jb-types" id="jb-types"></div>
+                </fieldset>
+
+                <div class="jb-fs" id="jb-near-wrap" role="group" aria-labelledby="jb-near-title">
+                    <h3 class="jb-fs-title" id="jb-near-title">2. Where?</h3>
+                    <p class="jb-fs-help" id="jb-near-off" hidden>Search near home will be ready after the next data update. The board refreshes every 6 hours.</p>
+                    <div id="jb-near-on">
+                        <label class="jb-near-label" id="jb-near-label" for="jb-near">Town or city</label>
+                        <div class="jb-near-row">
+                            <div class="jb-near-box">
+                                <input type="text" id="jb-near" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="jb-near-list" aria-describedby="jb-near-help">
+                                <ul class="jb-near-list" id="jb-near-list" role="listbox" aria-label="Places" hidden></ul>
+                            </div>
+                            <button type="button" class="jb-fbtn jb-fbtn-primary" id="jb-near-go">Search</button>
+                            <button type="button" class="jb-fbtn" id="jb-near-me">Use my location</button>
+                            <button type="button" class="jb-fbtn jb-fbtn-quiet" id="jb-near-clear" hidden>Clear</button>
+                        </div>
+                        <p class="jb-fs-help" id="jb-near-help"></p>
+                        <fieldset class="jb-within">
+                            <legend>How far would you travel?</legend>
+                            <label><input type="radio" name="jb-within" value="25"> 25 miles</label>
+                            <label><input type="radio" name="jb-within" value="50"> 50 miles</label>
+                            <label><input type="radio" name="jb-within" value="100"> 100 miles</label>
+                            <label><input type="radio" name="jb-within" value="0"> Open to moving (any distance)</label>
+                        </fieldset>
+                        <label class="jb-check"><input type="checkbox" id="jb-plusremote"> Also show remote jobs anywhere in the US</label>
+                        <p class="jb-near-status" id="jb-near-status" role="status" aria-live="polite"></p>
+                    </div>
+                </div>
+
+                <fieldset class="jb-fs">
+                    <legend>3. Anything else?</legend>
+                    <div class="jb-ffilters" id="jb-ffilters"></div>
+                </fieldset>
+
+                <div class="jb-share">
+                    <button type="button" class="jb-fbtn" id="jb-copy-search">Copy link to this search</button>
+                    <button type="button" class="jb-fbtn" id="jb-print">Print this list</button>
+                    <p class="jb-copy-status" id="jb-copy-status" role="status" aria-live="polite"></p>
+                </div>
+                <p class="jb-family-note">We only link to each company’s own job posting. We never collect applications or personal details, and a location you share stays in your browser.</p>
+            </section>
+
             <!-- Curated shelves -->
             <div class="jb-shelves" id="jb-shelves" aria-label="Curated shelves"></div>
 
@@ -306,8 +357,6 @@
                     <div class="jb-rail-group">
                         <h4>Must-haves</h4>
                         <label class="jb-toggle"><input type="checkbox" id="rail-remote"> Remote</label>
-                        <label class="jb-toggle"><input type="checkbox" id="rail-salary"> Salary shown</label>
-                        <label class="jb-toggle"><input type="checkbox" id="rail-clearance"> Security clearance</label>
                         <label class="jb-toggle"><input type="checkbox" id="rail-intern"> Internships</label>
                         <label class="jb-toggle"><input type="checkbox" id="rail-il30"> IL30 companies only</label>
                         <label class="jb-toggle"><input type="checkbox" id="rail-hardtech" checked> Hard-tech companies only</label>
@@ -321,6 +370,10 @@
                 <div class="jb-results">
                     <div class="jb-results-head" id="jb-results-head">
                         <div id="jb-count"></div>
+                        <div class="jb-sort" id="jb-sort" role="group" aria-label="Order" hidden>
+                            <button type="button" data-sort="near" aria-pressed="false">Nearest first</button>
+                            <button type="button" data-sort="new" aria-pressed="false">Newest first</button>
+                        </div>
                         <div class="jb-view" role="group" aria-label="View">
                             <button type="button" id="jb-view-list" aria-pressed="true">List</button>
                             <button type="button" id="jb-view-company" aria-pressed="false">By company</button>
@@ -333,6 +386,8 @@
             </div>
         </div>
     </section>
+    <div class="jb-print-sheet" id="jb-print-sheet"></div>
+    <div class="jb-sr" id="jb-live" role="status" aria-live="polite"></div>
     </div><!-- /tab-jobs -->
 
     <!-- Talent Tab Content -->
@@ -551,8 +606,8 @@
     <script src="utils.js?v=20260501"></script>
     <script src="auth.js?v=20260501"></script>
     <script src="data.js?v=20260822"></script>
-    <script src="data/jobs_enriched.js?v=20261015b"></script>
-    <script src="jobs.js?v=20261015b"></script>
+    <script src="data/jobs_enriched.js?v=20261120"></script>
+    <script src="jobs.js?v=20261120"></script>
     <script src="data/founder_dna.js?v=20260501"></script>
     <script src="talent.js?v=20260501"></script>
     <script src="data/h1b_lca_auto.js?v=20260501"></script>
@@ -630,6 +685,7 @@
         document.getElementById('tab-talent').style.display = tab === 'talent' ? '' : 'none';
         document.getElementById('tab-btn-jobs').className = 'jt-tab' + (tab === 'jobs' ? ' active' : '');
         document.getElementById('tab-btn-talent').className = 'jt-tab' + (tab === 'talent' ? ' active' : '');
+        document.body.classList.toggle('jt-talent', tab === 'talent');   // the jobs printout applies only on the jobs tab
         if (tab === 'talent' && !window._talentInitialized) {
             window._talentInitialized = true;
             if (typeof initTalentPage === 'function') initTalentPage();
