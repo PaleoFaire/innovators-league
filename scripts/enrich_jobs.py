@@ -43,21 +43,46 @@ Per job it adds:
   companySurge          company posted >= 5 more roles in the last 14 days
                         than in the 14 before, and at least 1.5x as many
 
+The family layer (for readers who do not know the trade names) adds:
+  roleTypes, roleTypeMask   plain role types from the family, the title and
+                        the level: hands | engineering | software | business,
+                        plus "early" (intern or junior) across them. See
+                        ROLE_TYPES and work_type().
+  entryLevel            a regular job for someone starting out (junior level)
+  places                the towns the location text names, as indexes into a
+                        small `places` table with a point each, so the page
+                        can measure distance from the reader's home. Points
+                        come from data/geo/us_places.json (built by
+                        scripts/build_geo_places.py); a town that file does
+                        not know gets no place. See job_places().
+  noDegreeLikely        the posting text says a college degree is not needed
+                        (description pass only; see NO_DEGREE_DESC)
+and per company a `card` of plain facts: what it builds (one line), its field,
+founding year and home town from data.js; the last dated funding round from
+data/deals_auto.json and FUNDING_TRACKER; the investors on record; and open
+postings now against about 90 days earlier from the Pulse history
+(data/pulse/snapshots/). A missing fact stays missing; nothing is estimated.
+
 Outputs:
   data/jobs_enriched.json      full records (compact JSON)
-  data/jobs_enriched.js        columnar version for the page (window.JOBS_V2)
+  data/jobs_enriched.js        columnar version for the page (window.JOBS_V2);
+                               new columns are only ever appended, because
+                               company-profile.js reads rows by position
   data/jobs_company_index.js   {company: [postings, roles, newest, surge, 14d]}
                                for company pages (window.JOBS_COMPANY_INDEX)
   data/jobs_history.json       new postings per day per company (120 days),
                                the series behind the hiring-surge shelf
   data/jobs_desc_signals.json  description cache (written by the fetch pass):
-                               clearance / US-person flags, Greenhouse
-                               first_published, salary, deadline, years
+                               clearance / US-person / no-degree flags,
+                               Greenhouse first_published, salary, deadline,
+                               years
 
 Deterministic: same inputs + same --today -> byte-identical outputs. The
 only network step (the description pass, on by default) refreshes a
 per-board cache keyed on the board's job-id set, so boards without new
 postings are not re-downloaded; with --no-fetch nothing touches the network.
+A board cached under older description rules (SIGNAL_RULES_VERSION) is read
+once more on the next pass so a new signal fills in.
 
 Usage:
   python3 scripts/enrich_jobs.py                 # enrich + refresh desc cache
@@ -70,9 +95,11 @@ import concurrent.futures
 import hashlib
 import html
 import json
+import math
 import re
 import sys
 import time
+import unicodedata
 from collections import Counter, OrderedDict
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -170,6 +197,32 @@ STAGE_GROUPS = OrderedDict([
     ("public",  "Public"),
     ("other",   "Undisclosed / Other"),
 ])
+
+# Plain role types: the first choice on the board for a reader who does not know the trade
+# names. Every role gets at most one kind of work (hands / engineering / software / business)
+# from its family and title; "early" cuts across them, so an apprentice welder is both
+# hands-on and a first job. Code -> (label, one-line explanation shown under the label).
+ROLE_TYPES = OrderedDict([
+    ("hands",       ("Hands-on", "Technician, machinist, welder, assembly, operator: work done with tools and machines.")),
+    ("engineering", ("Engineering", "Engineers and scientists who design the product and test it.")),
+    ("software",    ("Software", "Writing code, working with data, or running the computer systems.")),
+    ("business",    ("Business and operations", "Buying, planning, project management, sales, finance, hiring and running the sites.")),
+    ("early",       ("Internships and first jobs", "Internships, apprenticeships, new-graduate and junior jobs, in any kind of work.")),
+])
+ROLE_TYPE_BITS = OrderedDict((code, 1 << i) for i, code in enumerate(ROLE_TYPES))   # hands=1 ... early=16
+ENTRY_LEVEL_BIT = 32          # a regular job for someone starting out (not an internship)
+
+# Family -> kind of work, for titles that carry no stronger signal (see work_type).
+WORK_TYPE_BY_FAMILY = {
+    "manufacturing": "hands",
+    "mechanical": "engineering", "electrical": "engineering", "propulsion": "engineering",
+    "systems": "engineering", "controls": "engineering", "test": "engineering", "science": "engineering",
+    "software": "software", "ml": "software", "firmware": "software", "data": "software", "it": "software",
+    "supply": "business", "program": "business", "operations": "business", "fde": "business",
+    "product": "business", "sales": "business", "gna": "business", "leadership": "business",
+}
+EARLY_LEVELS = ("intern", "junior")     # "Internships and first jobs"
+ENTRY_LEVELS = ("junior",)              # "Entry level": new-grad / junior by title, or two years of experience or less
 
 # Database sectors that mean "pure software" for the hard-tech switch.
 SOFTWARE_SECTORS = {"AI & Software", "Consumer Tech"}
@@ -306,10 +359,59 @@ CLEARANCE_DESC = _rx(
 )
 US_PERSON_DESC = _rx(r"u\.?s\.?\s+(?:citizen|person|national)|\bitar\b|export[- ]control|permanent resident|green card")
 
+# "No degree required (likely)": the posting text says so in words, or names a high-school
+# diploma or GED as the schooling it asks for. Deliberately narrow. "Bachelor's degree or
+# equivalent experience" does NOT count, and a posting that also says a college degree is
+# required is not flagged. Read only from the posting text in the description pass, never
+# from the title: a technician title is no proof that no degree is asked for.
+_DEGREE_KIND = r"(?:college |university |four[- ]year |4[- ]year |bachelor'?s |undergraduate |formal |advanced )?"
+NO_DEGREE_DESC = _rx(
+    r"\bno " + _DEGREE_KIND + r"degree (?:is |are )?(?:required|needed|necessary)"
+    r"|\bdegree\b[^.;:!?]{0,25}?\bnot (?:required|needed|necessary|a requirement)"
+    r"|(?:do(?:es)? not|don'?t|doesn'?t) (?:require|need) (?:a |an |any )?" + _DEGREE_KIND + r"degree"
+    r"|\bhigh school (?:diploma|degree|graduate|graduation|education|equivalen)|\bged\b|\bh\.?s\.? diploma"
+    r"|\bsecondary school (?:diploma|certificate)"
+)
+_COLLEGE_DEGREE = (
+    r"(?:\b(?:bachelor|master|associate)(?:'?s)? (?:degree|of (?:science|arts|engineering|applied science|business))"
+    r"|\b(?:bachelor|master)'?s in\b"
+    r"|\b(?:b\.?s\.?c?|b\.?a\.?|m\.?s\.?c?|mba)(?:\s*/\s*(?:m\.?s\.?c?|ph\.?d\.?))? (?:degree|in)\b"
+    r"|\bph\.?d\b|\bdoctorate\b|\b(?:college|university|undergraduate|graduate|four[- ]year|4[- ]year) degree)"
+)
+DEGREE_REQUIRED_DESC = _rx(
+    _COLLEGE_DEGREE + r"[^.;:!?]{0,60}?(?<!not )(?<!n't )\b(?:required|mandatory)\b"
+    r"|(?<!not )(?<!n't )\b(?:requires?|must (?:have|hold|possess)|required:) (?:a |an )?" + _COLLEGE_DEGREE
+)
+
+# Bumped when the description rules above change what a cached row can say. A board cached
+# under an older number is fetched again on the next description pass, so the new signal
+# fills in; --no-fetch never touches the cache. 2 = adds the no-degree flag (4).
+SIGNAL_RULES_VERSION = 2
+
 TRADES = _rx(r"\btechnician\b|\btech\b|\bwelder|\bwelding\b|\bmachinist|\bcnc\b|\bassembler|\bassembly (tech|technician|operator|associate)|\bfabricat|\belectrician|\bmechanic\b|\bmillwright|\bpipefitter|\bpainter|\bmachine operator|\boperator\b|\btoolmaker|\btool\s*(&|and)\s*die|\bcomposite tech|\binspector\b|\bplumber|\bhvac\b|\bcrane\b|\brigger|\bforklift|\bmaterial handler|\bwarehouse associate|\bproduction (associate|worker|operator|technician)|\btechnologist\b|\bcarpenter|\bdriver\b|\bcdl\b|\bsheet ?metal|\bmaintenance (technician|mechanic)|\bapprentice|\bjourneyman|\bfitter\b|\binstaller\b|mechaniker|mechatroniker|techniker|monteur|technicien|opérateur|schweiß|elektriker")
 SUMMER_2027 = _rx(r"summer\s*(?:20)?27\b|2027\s*summer|summer\s*'27")
 
 ROLE_FAMILY_SKIP_TRADES = {"sales", "gna", "leadership", "general", "it", "data", "product", "software", "ml"}
+
+# Plain role types (see ROLE_TYPES): what in a title overrides the family's kind of work.
+ENGINEER_TITLE = _rx(r"\bengineers?\b|ingenieur|ingénieur")           # the person is an engineer ...
+ENGINEERING_TITLE = _rx(r"\bengineering\b")                           # ... or leads or works in engineering
+NOT_ENGINEERING_WORK = _rx(r"recruit|\btalent\b|sourc|procure|supply chain|\bbuyer\b|fp&a|financ|accounting|counsel|\blegal\b|"
+                           r"(?:program|project|product) manager|\bpeople\b|\bhr\b|marketing|\bsales\b|coordinator|\bassistant\b|"
+                           r"planner|scheduler|business partner")     # "Sales Engineer", "Recruiter, Hardware Engineering"
+MANAGER_TITLE = _rx(r"\bmanager\b|\bdirector\b|\bhead of\b|\b(?:s?vp|evp|avp)\b|vice president")
+PRINCIPAL_TITLE = _rx(r"\bprincipal\b")                              # "Principal Technologist" is not shop-floor work
+SOFTWARE_TITLE = _rx(r"software|\bswe\b|full[- ]?stack|(?<!rf )(?<!analog )(?<!optical )\b(?:back|front)[- ]?end|\bdeveloper\b")
+SOFTWARE_MAKER = _rx(r"\bengineer(?:s|ing)?\b|(?<!business )\bdeveloper\b|\bprogrammer\b|\bswe\b|\bintern(?:ship)?s?\b|\bco-?op\b")
+TECH_LEAD_TITLE = _rx(r"\btech lead\b")
+# Three families hold two kinds of work; the title decides which.
+FIRMWARE_IS_SOFTWARE = _rx(r"firmware|embedded|software|\bfpga\b|\brtos\b|\bbsp\b|device driver")    # else avionics hardware
+DATA_IS_SOFTWARE = _rx(r"\bdata\b|scientist|\bengineer|geospatial|\bgis\b|business intelligence|\bbi\b|machine learning")  # else an analyst
+SAFETY_NOT_ENGINEERING = _rx(r"\behs\b|\bhse\b|safety|health|environmental|security")              # in test, quality & safety
+# The manufacturing family rules without the bare word "tech": a title that is in the family
+# only because of "Tech Lead" or a team called "Core Tech" is not shop-floor work.
+MANUFACTURING_NO_BARE_TECH = [re.compile(rx.pattern.replace(r"|\btech\b", ""), re.I)
+                              for code, rx in FAMILY_RULES if code == "manufacturing"]
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -372,6 +474,127 @@ US_CITIES = (
 )
 US_RX = _rx(r"united states|\busa\b|\bu\.s\.a?\b|\bus\b|\bu\.s\b|america(?!n)|, (?:" + US_STATE_ABBR + r")\b|\b(?:" + US_STATES + r")\b|\b(?:" + US_CITIES + r")\b")
 UNSPECIFIED = {"", "n/a", "na", "any", "tbd", "various", "multiple locations", "multiple", "customer site", "flexible", "-", "location", "field", "talent community", "mountain", "south central", "sud-oeste", "sea", "ca"}
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Place rules: job location text -> a town on the map ("search near home")
+#
+# The coordinates themselves live in data/geo/us_places.json, built by
+# scripts/build_geo_places.py. These rules only decide WHICH town a location
+# string names. A job gets a place only when the text names a town and a state
+# that the places file knows; nothing is guessed.
+# ─────────────────────────────────────────────────────────────────────────────
+
+GEO_PLACES_PATH = DATA / "geo" / "us_places.json"
+
+US_STATE_NAMES = {
+    "alabama": "AL", "alaska": "AK", "arizona": "AZ", "arkansas": "AR", "california": "CA", "colorado": "CO",
+    "connecticut": "CT", "delaware": "DE", "district of columbia": "DC", "florida": "FL", "georgia": "GA",
+    "hawaii": "HI", "idaho": "ID", "illinois": "IL", "indiana": "IN", "iowa": "IA", "kansas": "KS", "kentucky": "KY",
+    "louisiana": "LA", "maine": "ME", "maryland": "MD", "massachusetts": "MA", "michigan": "MI", "minnesota": "MN",
+    "mississippi": "MS", "missouri": "MO", "montana": "MT", "nebraska": "NE", "nevada": "NV", "new hampshire": "NH",
+    "new jersey": "NJ", "new mexico": "NM", "new york": "NY", "north carolina": "NC", "north dakota": "ND",
+    "ohio": "OH", "oklahoma": "OK", "oregon": "OR", "pennsylvania": "PA", "puerto rico": "PR", "rhode island": "RI",
+    "south carolina": "SC", "south dakota": "SD", "tennessee": "TN", "texas": "TX", "utah": "UT", "vermont": "VT",
+    "virginia": "VA", "washington": "WA", "west virginia": "WV", "wisconsin": "WI", "wyoming": "WY",
+}
+US_STATE_CODES = frozenset(US_STATE_NAMES.values())
+
+# The states a hub's rule covers: a bare "Sunnyvale" on a Bay Area posting can only be Sunnyvale, CA.
+METRO_STATES = {
+    "sf": ("CA",), "la": ("CA",), "tx": ("TX",), "sea": ("WA",), "den": ("CO",),
+    "dc": ("DC", "VA", "MD"), "nyc": ("NY", "NJ", "CT"), "bos": ("MA",),
+}
+
+# The town each hub is centred on (build_geo_places.py reads its point from repo data).
+HUB_ANCHORS = OrderedDict([
+    ("sf", ("San Francisco", "CA")), ("la", ("Los Angeles", "CA")), ("tx", ("Austin", "TX")),
+    ("sea", ("Seattle", "WA")), ("den", ("Denver", "CO")), ("dc", ("Washington", "DC")),
+    ("nyc", ("New York", "NY")), ("bos", ("Boston", "MA")),
+])
+
+# Other ways people write a town: (written name, written state or "" for none) -> (town, state).
+PLACE_ALIASES = [
+    ("New York City", "NY", "New York", "NY"), ("New York City", "", "New York", "NY"), ("NYC", "", "New York", "NY"),
+    ("NYC", "NY", "New York", "NY"), ("Manhattan", "NY", "New York", "NY"), ("Brooklyn", "NY", "New York", "NY"),
+    ("SF", "", "San Francisco", "CA"), ("SF", "CA", "San Francisco", "CA"), ("San Fransisco", "", "San Francisco", "CA"),
+    ("San Francisco HQ", "", "San Francisco", "CA"), ("LA", "CA", "Los Angeles", "CA"),
+    ("Washington DC", "", "Washington", "DC"), ("Washington D.C.", "", "Washington", "DC"), ("DC", "", "Washington", "DC"),
+    ("D.C.", "", "Washington", "DC"), ("Mt. View", "CA", "Mountain View", "CA"), ("South SF", "", "South San Francisco", "CA"),
+    ("Dallas-Fort Worth", "TX", "Dallas", "TX"), ("DFW", "", "Dallas", "TX"), ("DFW", "TX", "Dallas", "TX"),
+    ("Boca Chica", "TX", "Starbase", "TX"),
+]
+
+# Bare big-city names that mean one state when a posting gives no state. Names shared by two
+# large cities (Portland, Columbus, Kansas City, Springfield ...) are left out on purpose.
+BARE_CITY_STATE = {
+    "chicago": "IL", "pittsburgh": "PA", "phoenix": "AZ", "atlanta": "GA", "miami": "FL", "detroit": "MI",
+    "san diego": "CA", "huntsville": "AL", "tucson": "AZ", "albuquerque": "NM", "salt lake city": "UT",
+    "honolulu": "HI", "philadelphia": "PA", "minneapolis": "MN", "nashville": "TN", "orlando": "FL",
+    "las vegas": "NV", "indianapolis": "IN", "cincinnati": "OH", "st louis": "MO", "new orleans": "LA",
+    "raleigh": "NC", "tampa": "FL", "boise": "ID", "tulsa": "OK", "omaha": "NE", "houston": "TX", "dallas": "TX",
+    "san antonio": "TX", "austin": "TX", "seattle": "WA", "denver": "CO", "boston": "MA", "san francisco": "CA",
+    "los angeles": "CA", "san jose": "CA", "baltimore": "MD", "milwaukee": "WI", "el paso": "TX", "fort worth": "TX",
+    "oklahoma city": "OK", "sacramento": "CA", "long beach": "CA", "colorado springs": "CO", "cape canaveral": "FL",
+    "ann arbor": "MI", "idaho falls": "ID", "oak ridge": "TN",
+}
+
+# Location text that names a whole area, not a town: it is pinned to the area's main town and
+# marked approximate. "Greater Seattle Area" and "Washington DC Metro" need no entry here;
+# PLACE_AREA_WORDS strips the area words and the town that is left is marked approximate.
+AREA_NAMES = {
+    "bay area": ("San Francisco", "CA"), "sf bay area": ("San Francisco", "CA"),
+    "san francisco bay area": ("San Francisco", "CA"), "silicon valley": ("San Jose", "CA"),
+    "east bay": ("Oakland", "CA"), "east bay area": ("Oakland", "CA"), "dmv": ("Washington", "DC"),
+    "dallas fort worth": ("Dallas", "TX"), "dfw": ("Dallas", "TX"),
+}
+
+# Location strings split into separate places on these. "or"/"and" are matched in lower case
+# only, so the state code OR (Oregon) survives; an upper-case " OR " splits unless it follows a comma.
+PLACE_SPLIT = re.compile(r"\s*(?:;|\||//|·|•|&|\+|/(?!\w*\d))\s*|\s+(?:or|and)\s+|(?<![,\s])\s+(?:OR|AND)\s+")
+PLACE_LEAD_LABEL = re.compile(r"^(?:(?:(?:us|usa|hybrid|on-?site|remote(?:-friendly)?|in-?office|office)\b|u\.s\.?a?\.?(?![a-z]))\s*[-–:]?\s*)+", re.I)
+PLACE_STATE_PREFIX = re.compile(r"^([A-Z]{2})\s*[-–:]\s+(?=\S)")
+PLACE_TRAIL_LABEL = re.compile(r"\s*[-–]?\s*\b(?:hq|headquarters|head office|office|on-?site|hybrid|remote|us|usa)$", re.I)
+PLACE_AREA_WORDS = re.compile(r"^greater\s+|\s*[-–]\s*greater\s+area$|\s+(?:bay\s+)?(?:metro(?:politan)?\s+)?area$|\s*[-–]?\s*metro$", re.I)
+PLACE_IGNORE = _rx(r"^(?:united states(?: of america)?|usa?|u\.s\.?a?\.?|america|remote|hybrid|on-?site|anywhere|nationwide|"
+                   r"multiple locations?|various|tbd|n/a|hq|headquarters|field|travel[- ]required|flexible)$")
+PLACES_PER_POSTING = 8
+
+
+def norm_place(name):
+    """Town name -> lookup key: lower case, no accents or punctuation, "Saint" and "St." alike.
+
+    jobs.js carries the same few lines (normPlace) for what a reader types; the two are
+    tested against the same cases.
+    """
+    s = unicodedata.normalize("NFKD", name or "")
+    s = "".join(ch for ch in s if not unicodedata.combining(ch))
+    s = s.encode("ascii", "ignore").decode("ascii").lower()
+    s = s.replace(".", "").replace("'", "")
+    s = re.sub(r"[^a-z0-9]+", " ", s).strip()
+    s = re.sub(r"^saint ", "st ", s)
+    s = re.sub(r"^mount ", "mt ", s)
+    return re.sub(r"^fort ", "ft ", s)
+
+
+def place_key(name, state):
+    return norm_place(name) + "|" + (state or "").upper()
+
+
+def state_code(token):
+    """'CA', 'California', 'D.C.' -> 'CA' / 'CA' / 'DC'; anything else -> ''."""
+    t = (token or "").strip()
+    code = t.replace(".", "").upper()
+    if code in US_STATE_CODES:
+        return code
+    return US_STATE_NAMES.get(re.sub(r"\s+", " ", t.replace(".", "").lower()), "")
+
+
+def haversine_miles(lat1, lng1, lat2, lng2):
+    """Great-circle distance in miles (earth radius 3,958.8 mi), as jobs.js computes it in the browser."""
+    p1, p2 = math.radians(lat1), math.radians(lat2)
+    a = math.sin((p2 - p1) / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(math.radians(lng2 - lng1) / 2) ** 2
+    return 2 * 3958.8 * math.asin(min(1.0, math.sqrt(a)))
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -472,6 +695,22 @@ def _field(rec, key):
         return raw
 
 
+def _list_field(rec, key):
+    """A `key: ["a", "b"]` list of strings in a record -> ['a', 'b'] ([] when absent)."""
+    m = re.search(r"(?<![\w.])" + re.escape(key) + r"\s*:\s*\[", rec)
+    block = _scan_block(rec, m.end() - 1) if m else None
+    if not block:
+        return []
+    out = []
+    for dq, sq in re.findall(r"\"((?:[^\"\\]|\\.)*)\"|'((?:[^'\\]|\\.)*)'", block):
+        raw = dq if dq else sq.replace("\\'", "'").replace('"', '\\"')
+        try:
+            out.append(json.loads('"' + raw + '"'))
+        except ValueError:
+            out.append(raw)
+    return out
+
+
 def load_database():
     """Companies, IL30 names and funding tracker from data.js."""
     src = DATA_JS_PATH.read_text(encoding="utf-8")
@@ -481,6 +720,7 @@ def load_database():
         name = _field(rec, "name")
         if not name:
             continue
+        founded = re.search(r"(?<![\w.])founded\s*:\s*\"?(\d{4})\b", rec)
         companies[name] = {
             "sector": _field(rec, "sector") or "",
             "subsector": _field(rec, "subsector") or "",
@@ -488,6 +728,11 @@ def load_database():
             "status": _field(rec, "status") or "",
             "country": _field(rec, "country") or "",
             "location": _field(rec, "location") or "",
+            # employer-card facts
+            "description": _field(rec, "description") or "",
+            "founded": int(founded.group(1)) if founded else 0,
+            "ticker": _field(rec, "ticker") or "",
+            "investors": _list_field(rec, "investors"),
         }
     il30 = []
     arr = _extract_const_array(src, "INNOVATORS_LEAGUE_30")
@@ -501,6 +746,7 @@ def load_database():
             "amount": _field(rec, "lastRoundAmount") or "",
             "round": _field(rec, "lastRound") or "",
             "date": _field(rec, "lastRoundDate") or "",
+            "leads": _list_field(rec, "leadInvestors"),
         })
     return companies, il30, tracker
 
@@ -562,6 +808,88 @@ def job_level(title):
     return "mid"
 
 
+def names_a_trade(title_lower):
+    """The title names a trade (TRADES). A bare "tech" does not count: it is nearly always
+    "Tech Lead" or a team called "Core Tech", and real technicians are caught by the family."""
+    return any(m.group(0).strip() != "tech" for m in TRADES.finditer(title_lower))
+
+
+def work_type(title, family):
+    """Plain kind of work for a role: 'hands' | 'engineering' | 'software' | 'business' | ''.
+
+    Built on the family the title already resolved to (WORK_TYPE_BY_FAMILY), with these
+    overrides read from the title itself, in this order:
+      - a trade word (technician, welder, machinist, operator ...) makes it hands-on, unless
+        the title says engineer, manager or principal ("Welding Engineer", "Manager, Machine
+        Shop", "Principal Technologist") or the family is a desk family ("IT Technician"
+        stays with software);
+      - "Software Engineer, Propulsion" is software whatever family the second half put it in;
+      - firmware, data and test hold two kinds of work each: an avionics engineer is
+        engineering, a trade analyst is business, a safety officer is business;
+      - in the manufacturing family, engineers go to engineering and managers to business;
+      - "engineer" or "engineering" in a supply, program, operations, field, product, sales
+        or admin title makes it engineering ("Supplier Quality Engineer", "Engineering
+        Manager, Avionics"), unless the job is plainly something else ("Sales Engineer",
+        "Recruiter, Hardware Engineering").
+    '' for general applications and for titles no rule could sort.
+    """
+    t = norm_title(title).lower()
+    if family == "general" or not t:
+        return ""
+    base = WORK_TYPE_BY_FAMILY.get(family, "")
+    engineer = bool(ENGINEER_TITLE.search(t))
+    manager = bool(MANAGER_TITLE.search(t))
+    principal = bool(PRINCIPAL_TITLE.search(t))
+    if not (engineer or manager or principal) and family not in ROLE_FAMILY_SKIP_TRADES and names_a_trade(t):
+        return "hands"
+    if SOFTWARE_TITLE.search(t) and SOFTWARE_MAKER.search(t):
+        return "software"
+    if family == "firmware":
+        return "software" if FIRMWARE_IS_SOFTWARE.search(t) else "engineering"
+    if family == "data":
+        return "software" if DATA_IS_SOFTWARE.search(t) else "business"
+    if base == "software":
+        return base
+    engineering = (engineer or bool(ENGINEERING_TITLE.search(t))) and not NOT_ENGINEERING_WORK.search(t)
+    if family == "manufacturing":
+        shop_floor = any(rx.search(t) for rx in MANUFACTURING_NO_BARE_TECH)
+        if engineering or principal or (not shop_floor and TECH_LEAD_TITLE.search(t)):
+            return "engineering"
+        if manager:
+            return "business"
+        return "hands" if shop_floor else ""
+    if family == "test" and not engineering and SAFETY_NOT_ENGINEERING.search(t):
+        return "business"
+    return "engineering" if engineering else base
+
+
+def role_types(title, family, level):
+    """-> the role's plain types, in ROLE_TYPES order: its kind of work, plus 'early' for interns and juniors."""
+    out = []
+    kind = work_type(title, family)
+    if kind:
+        out.append(kind)
+    if level in EARLY_LEVELS:
+        out.append("early")
+    return out
+
+
+def role_type_mask(types, level):
+    """Types as the bit mask the page reads, with ENTRY_LEVEL_BIT for a regular entry-level job."""
+    mask = 0
+    for code in types:
+        mask |= ROLE_TYPE_BITS[code]
+    if level in ENTRY_LEVELS:
+        mask |= ENTRY_LEVEL_BIT
+    return mask
+
+
+def no_degree_likely(text):
+    """True when the posting text itself says a college degree is not needed (see NO_DEGREE_DESC)."""
+    t = (text or "").replace("’", "'")
+    return bool(t) and bool(NO_DEGREE_DESC.search(t)) and not DEGREE_REQUIRED_DESC.search(t)
+
+
 HQ_ONLY = _rx(r"^(?:[\w .&'-]+ )?(?:hq|headquarters|head office|office|on-?site|onsite)$")
 
 
@@ -613,6 +941,156 @@ def job_metros(location, remote_flag, company_location=""):
             seen.add(c)
             out.append(c)
     return out
+
+
+class GeoPlaces(object):
+    """data/geo/us_places.json loaded for lookups: (town, state) -> a row with a point."""
+
+    def __init__(self, payload=None):
+        payload = payload if isinstance(payload, dict) else {}
+        states = payload.get("states") or []
+        self.source = payload.get("source") or ""
+        self.zip_count = int((payload.get("counts") or {}).get("zips") or 0)
+        self.rows, self.by_key = [], {}          # rows: (name, state, lat, lng)
+        for r in payload.get("places") or []:
+            name, state, lat, lng = r[0], states[r[1]], float(r[2]), float(r[3])
+            self.by_key.setdefault(place_key(name, state), len(self.rows))
+            self.rows.append((name, state, lat, lng))
+        self.aliases = {k: v for k, v in (payload.get("aliases") or {}).items()
+                        if isinstance(v, int) and 0 <= v < len(self.rows)}
+
+    def find(self, name, state):
+        """Row index for a town and state as written (other spellings included), or None."""
+        key = place_key(name, state)
+        i = self.by_key.get(key)
+        return self.aliases.get(key) if i is None else i
+
+
+def load_geo_places(path=None):
+    """The places file as a GeoPlaces. Empty (no job gets a place) when the file is missing or unreadable."""
+    path = Path(path or GEO_PLACES_PATH)
+    try:
+        return GeoPlaces(json.loads(path.read_text(encoding="utf-8")))
+    except (OSError, ValueError, TypeError, IndexError, KeyError):
+        return GeoPlaces()
+
+
+def location_candidates(location):
+    """Location text -> [(name, state, approximate)], in the order the text names them.
+
+    state is '' when the text gives none; approximate is True when the text names an area
+    ("Greater Seattle Area", "Bay Area") rather than the town. A piece of text that names
+    another country yields only a leading "Town, ST" pair, never a name without a state.
+
+        "Hawthorne, CA"                                 -> ("Hawthorne", "CA")
+        "Costa Mesa, California, United States"         -> ("Costa Mesa", "CA")
+        "San Francisco, CA | New York City, NY"         -> two places
+        "Hybrid (Oakland, California, US)"              -> ("Oakland", "CA")
+        "Sunnyvale"                                     -> ("Sunnyvale", "")
+        "Toronto, Ontario, CA"                          -> nothing usable: it is Canada, not Ontario, California
+    """
+    text = re.sub(r"[()\[\]]", ",", (location or "").replace(" ", " ").replace("\xa0", " "))
+    out = []
+    for part in PLACE_SPLIT.split(text):
+        abroad = bool(INTL_RX.search(part.lower()))
+        found, pending = [], None            # pending: (name, approximate, state from a "CA - Town" prefix)
+        for raw in part.split(","):
+            tok = raw.strip(" .-–\t")
+            prefix_state = ""
+            m = PLACE_STATE_PREFIX.match(tok)
+            if m:
+                prefix_state, tok = state_code(m.group(1)), tok[m.end():]
+            tok = PLACE_TRAIL_LABEL.sub("", PLACE_LEAD_LABEL.sub("", tok).strip(" .-–")).strip(" .-–")
+            if not tok or PLACE_IGNORE.match(tok):
+                continue
+            area = AREA_NAMES.get(norm_place(tok))
+            if area:
+                if pending:
+                    found.append((pending[0], pending[2], pending[1]))
+                    pending = None
+                found.append((area[0], area[1], True))
+                continue
+            approx = False
+            for _ in range(3):               # "Greater Seattle Area" -> "Seattle", marked approximate
+                stripped = PLACE_AREA_WORDS.sub("", tok).strip(" .-–")
+                if not stripped or stripped == tok:
+                    break
+                tok, approx = stripped, True
+            code = state_code(tok)
+            if code and pending:
+                found.append((pending[0], code, pending[1] or approx))
+                pending = None
+                continue
+            if pending:
+                found.append((pending[0], pending[2], pending[1]))
+            pending = (tok, approx, prefix_state)
+        if pending:
+            found.append((pending[0], pending[2], pending[1]))
+        for i, (name, state, approx) in enumerate(found):
+            # In a piece that names another country, trust only a leading "Town, ST" pair.
+            if abroad and (not state or i > 0):
+                continue
+            out.append((name, state, approx))
+    return out
+
+
+def _resolve_place(geo, name, state, hint_states, hq):
+    if state:
+        return geo.find(name, state)
+    key = norm_place(name)
+    if not key:
+        return None
+    hit = geo.aliases.get(key + "|")                       # NYC, SF, DC ...
+    if hit is not None:
+        return hit
+    hits = sorted({i for i in (geo.find(name, st) for st in hint_states) if i is not None})
+    if len(hits) == 1:
+        return hits[0]
+    if hq and norm_place(hq[0]) == key:                    # the company's own home town
+        return geo.find(hq[0], hq[1])
+    if key in BARE_CITY_STATE:
+        return geo.find(name, BARE_CITY_STATE[key])
+    m = re.match(r"^(.+?)\s+([A-Z]{2})$", name)            # "Austin TX"
+    if m and state_code(m.group(2)):
+        return geo.find(m.group(1), m.group(2))
+    m = re.match(r"^([A-Z]{2})\s+(.+)$", name)             # "CA San Mateo"
+    if m and state_code(m.group(1)):
+        return geo.find(m.group(2), m.group(1))
+    return None
+
+
+def job_places(location, metros, hq, geo):
+    """Where a posting is, as rows of the places file: [(row index, approximate)].
+
+    A town counts only when the text gives its state, or when one of these settles the state:
+    the hub the location already matched (a bare "Sunnyvale" on a Bay Area posting), the
+    company's own home town, or BARE_CITY_STATE. Anything else gets no place rather than a
+    guess, and so does a town the places file does not know. hq is the company's home
+    (town, state) when it is in the United States, else None.
+    """
+    if not geo.rows:
+        return []
+    loc = (location or "").replace(" ", " ").replace("\xa0", " ").strip()
+    low = re.sub(r"\s+", " ", loc.lower())
+    if low in UNSPECIFIED or HQ_ONLY.search(low):
+        i = geo.find(hq[0], hq[1]) if hq else None
+        return [(i, False)] if i is not None else []
+    hint_states = []
+    for code in metros or []:
+        for st in METRO_STATES.get(code, ()):
+            if st not in hint_states:
+                hint_states.append(st)
+    order, approximate = [], {}
+    for name, state, approx in location_candidates(loc):
+        i = _resolve_place(geo, name, state, hint_states, hq)
+        if i is None:
+            continue
+        if i not in approximate:
+            order.append(i)
+            approximate[i] = approx
+        elif not approx:
+            approximate[i] = False           # named as a town as well as an area: the town wins
+    return [(i, approximate[i]) for i in order[:PLACES_PER_POSTING]]
 
 
 def stage_group(stage, status):
@@ -1013,11 +1491,14 @@ def _plain(html_text):
 
 
 def _signal_flags(text):
+    """Posting text -> 1 clearance | 2 US person | 4 no degree required (each "likely": read from prose)."""
     flags = 0
     if CLEARANCE_DESC.search(text):
         flags |= 1
     if US_PERSON_DESC.search(text):
         flags |= 2
+    if no_degree_likely(text):
+        flags |= 4
     return flags
 
 
@@ -1089,8 +1570,15 @@ def fetch_board_signals(kind, slug, today):
     return None
 
 
+def board_needs_fetch(entry, ids_hash):
+    """A cached board is fetched again when its postings changed or it was read under older rules."""
+    entry = entry or {}
+    return entry.get("ids") != ids_hash or int(entry.get("sig") or 1) < SIGNAL_RULES_VERSION
+
+
 def refresh_signal_cache(jobs, cache, today, force=False, limit=None, workers=8):
-    """Re-fetch boards whose job-id set changed since the cache was written."""
+    """Re-fetch boards whose job-id set changed since the cache was written, or whose cached
+    rows predate the current description rules (SIGNAL_RULES_VERSION)."""
     boards = {}
     for j in jobs:
         bk = board_key(j)
@@ -1102,7 +1590,7 @@ def refresh_signal_cache(jobs, cache, today, force=False, limit=None, workers=8)
     for bk, ids in sorted(boards.items()):
         key = f"{bk[0]}:{bk[1]}"
         h = hashlib.sha1("\n".join(sorted(ids)).encode()).hexdigest()[:16]
-        if force or cache["boards"].get(key, {}).get("ids") != h:
+        if force or board_needs_fetch(cache["boards"].get(key), h):
             todo.append((bk, key, h))
     if limit:
         todo = todo[:limit]
@@ -1127,7 +1615,7 @@ def refresh_signal_cache(jobs, cache, today, force=False, limit=None, workers=8)
             for jid, row in res.items():
                 if row[0] or row[1] or row[5] or row[6] or row[7]:
                     cache["jobs"][jid] = row
-            cache["boards"][key] = {"ids": h, "n": len(res)}
+            cache["boards"][key] = {"ids": h, "n": len(res), "sig": SIGNAL_RULES_VERSION}
     live_keys = {f"{bk[0]}:{bk[1]}" for bk in boards}
     for key in [k for k in cache["boards"] if k not in live_keys]:
         del cache["boards"][key]
@@ -1239,6 +1727,165 @@ def is_surge(recent, prior):
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Employer card: a few facts about a company, each from data already in the repo.
+# Facts only. Nothing here scores, ranks or judges an employer.
+# ─────────────────────────────────────────────────────────────────────────────
+
+PULSE_DIR = DATA / "pulse"
+ABOUT_MAX = 170                   # characters of "what it builds" before it is cut at a word
+BACKERS_SHOWN = 5
+TREND_TARGET_DAYS = 90
+TREND_WINDOW_DAYS = (60, 120)     # "about 90 days": how far back the earlier count may be
+TREND_FRESH_DAYS = 45             # the newest count must be this recent to stand for "now"
+BOARD_CHANGE_FROM, BOARD_CHANGE_TO = 20, 3   # as calc_pulse.py: 20+ postings to 3 or fewer (or the reverse) is a changed job board
+
+SENTENCE_END = re.compile(r"(?<=[a-z0-9)\]%\"”])[.!?](?=\s+[A-Z0-9$€£¥~(\"“])")
+NOT_A_SENTENCE_END = _rx(r"(?:\b(?:inc|corp|co|ltd|llc|st|mt|ft|dr|mr|mrs|ms|vs|approx|no|jr|sr|gen)|\bu\.s|\be\.g|\bi\.e)$")
+# Wording the employer card's one-line description stops at: a claim about the company or a
+# comment on it rather than what it does, and funding talk, which the card states separately
+# from dated records (the last line of the pattern).
+CLAUSE_BREAK = re.compile(r"\s+[—–-]\s+|[;:]\s+|\s+\(")      # where a sentence can stop cleanly
+COMMA_BREAK = re.compile(r",\s+")                                 # ... or, failing that, be cut short
+SKIP_WORDING = _rx(
+    r"world'?s (?:first|only|leading|largest|biggest|best|most|fastest|smallest|highest|lowest)|\bleading\b|\bleader\b|\bonly (?:company|firm|one|u\.?s\.?)\b|"
+    r"\bdefining\b|revolution|cutting[- ]edge|world[- ]class|next[- ]gen|state[- ]of[- ]the[- ]art|best[- ]in[- ]class|game[- ]chang|"
+    r"groundbreaking|pioneer|unparalleled|unmatched|unrivall?ed|\bbreakthrough\b(?! (?:energy|institute|victoria))|\binnovative\b|visionary|"
+    r"unicorn|\bmost (?:advanced|mature|important|ambitious|valuable|powerful|capable)\b|\bpremier\b|\bdominant\b|first[- ]ever|"
+    r"fastest[- ]growing|\bbest\b|superintelligence|\bhottest\b|under stress|layoffs?|\bpivot|resigned|\bstruggl|\bcontrovers|\bscandal|lawsuit|"
+    r"\bvaluation\b|\braised\b|\bbacked\b|[$€£¥]\s?\d"
+)
+NOT_A_BACKER = _rx(r"^(?:undisclosed(?: investors?)?|not disclosed|unknown|n/?a|none|tbd|various|others?|private|public)$")
+# The site's own publisher is never listed as a backer of a company it writes about.
+SITE_OWN_NAMES = _rx(r"rational optimist|innovators league|\bros\b")
+
+
+def sentences(text):
+    """Split a description into sentences without breaking on "Inc." or "U.S."."""
+    t = re.sub(r"\s+", " ", text or "").strip()
+    out, start = [], 0
+    for m in SENTENCE_END.finditer(t):
+        if NOT_A_SENTENCE_END.search(t[:m.start()]):
+            continue
+        out.append(t[start:m.end()].strip())
+        start = m.end()
+    if t[start:].strip():
+        out.append(t[start:].strip())
+    return out
+
+
+def one_line(text, limit=ABOUT_MAX):
+    """What a company builds, in one line: the opening sentence of its database description.
+
+    The sentence stops before the first part that makes a claim about the company ("world's
+    first", "leading"), comments on it, or talks about funding (SKIP_WORDING), so the card
+    says what the company does and nothing about how good it is: "Crystal-sulfur cathode
+    lithium batteries — €25M+ raised" keeps the first half. '' when nothing plain is left
+    (the card then shows the company's field alone). Later sentences are never used; they are
+    news, not a description. Cut at a word, with an ellipsis, past `limit` characters.
+    """
+    s = (sentences(text) or [""])[0]
+    cut = s.endswith("...") or s.endswith("…")
+    m = SKIP_WORDING.search(s)
+    if m:
+        clean = [b.start() for b in CLAUSE_BREAK.finditer(s) if b.start() < m.start()]
+        commas = [b.start() for b in COMMA_BREAK.finditer(s) if b.start() < m.start()]
+        if clean:
+            s, cut = s[:clean[-1]], False
+        else:
+            s, cut = (s[:commas[-1]] if commas else ""), True      # cut mid-list: say so with an ellipsis
+    s = re.sub(r"(?:\.\.\.|…)$", "", s).rstrip(" .!?")
+    if len(s) > limit:
+        s = s[:limit + 1]
+        s = s[:s.rfind(" ")] if " " in s else s[:limit]
+        cut = True
+    s = s.rstrip(" ,;:-–—(")
+    if len(s.split()) < 3:
+        return ""
+    return s + ("…" if cut else ".")
+
+
+def clean_backers(names, shown=BACKERS_SHOWN):
+    """Investor strings as the database writes them -> (first few names, how many in all).
+
+    "Sequoia Capital (Andrew Reed)" and "Accel (co-led Series B)" lose the note in brackets;
+    "Undisclosed" and repeats are dropped.
+    """
+    out, seen = [], set()
+    for raw in names or []:
+        name = re.sub(r"\s*\([^)]*\)", "", raw or "").strip(" ,;")
+        if not name or NOT_A_BACKER.search(name) or SITE_OWN_NAMES.search(name):
+            continue
+        if name.lower() not in seen:
+            seen.add(name.lower())
+            out.append(name)
+    return out[:shown], len(out)
+
+
+def load_posting_snapshots(directory=None):
+    """The Pulse history's month-end counts of open postings per company, oldest first.
+
+    -> ([(date, {company: postings})], {company: [month, ...]}) where the second item is the
+    months in which the Pulse held a company out because its job board changed
+    (data/pulse/board_checks_<month>.json).
+    """
+    directory = Path(directory or PULSE_DIR)
+    snaps, held = [], {}
+    for p in sorted((directory / "snapshots").glob("*.json")) if (directory / "snapshots").is_dir() else []:
+        try:
+            s = json.loads(p.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        asof = parse_date(s.get("asof")) if isinstance(s, dict) else None
+        roles = s.get("roles") if isinstance(s, dict) else None
+        if asof and isinstance(roles, dict):
+            snaps.append((asof, {k: int(v) for k, v in roles.items() if isinstance(v, (int, float))}))
+    snaps.sort(key=lambda x: x[0])
+    for p in sorted(directory.glob("board_checks_*.json")):
+        try:
+            rows = json.loads(p.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        for r in rows if isinstance(rows, list) else []:
+            if isinstance(r, dict) and r.get("company") and r.get("month"):
+                held.setdefault(r["company"], []).append(r["month"])
+    return snaps, held
+
+
+def postings_trend(snapshots, held, company, today):
+    """Open postings now and about 90 days earlier, from the Pulse snapshots.
+
+    -> None when the company has no recent count; else {"now", "nowDate", "then", "thenDate",
+    "since", "boardChanged"}. then / thenDate are None when no snapshot 60 to 120 days before
+    the newest one holds the company ("since" is the first date it was counted). boardChanged
+    is True when the counts cannot be compared: the Pulse held the company out in between, or
+    the count went from 20 or more to 3 or fewer (or the reverse), which is a changed job
+    board and not a change in hiring.
+    """
+    usable = [(d, r) for d, r in snapshots if d <= today]
+    if not usable:
+        return None
+    now_date, now_roles = usable[-1]
+    if (today - now_date).days > TREND_FRESH_DAYS or company not in now_roles:
+        return None
+    best = None
+    for d, r in usable[:-1]:
+        back = (now_date - d).days
+        if company in r and TREND_WINDOW_DAYS[0] <= back <= TREND_WINDOW_DAYS[1]:
+            score = (abs(back - TREND_TARGET_DAYS), -d.toordinal())
+            if best is None or score < best[0]:
+                best = (score, d, r[company])
+    out = {"now": now_roles[company], "nowDate": now_date.isoformat(), "then": None, "thenDate": None,
+           "since": min(d for d, r in usable if company in r).isoformat(), "boardChanged": False}
+    if best:
+        _, then_date, then = best
+        out["then"], out["thenDate"] = then, then_date.isoformat()
+        lo, hi = min(then, out["now"]), max(then, out["now"])
+        between = [m for m in held.get(company, []) if then_date.isoformat()[:7] < m <= now_date.isoformat()[:7]]
+        out["boardChanged"] = bool(between) or (hi >= BOARD_CHANGE_FROM and lo <= BOARD_CHANGE_TO)
+    return out
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Main enrichment
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -1276,7 +1923,8 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
                 continue
             cur = deals.get(c)
             if not cur or dm > cur["_d"]:
-                deals[c] = {"_d": dm, "amount": d.get("amount") or "", "round": d.get("round") or "", "month": (d.get("date") or "")[:7]}
+                deals[c] = {"_d": dm, "amount": d.get("amount") or "", "round": d.get("round") or "", "month": (d.get("date") or "")[:7],
+                            "leads": [d.get("investor") or ""] if d.get("leadOrParticipant") == "lead" else []}
     except (FileNotFoundError, ValueError):
         pass
     for d in tracker:
@@ -1286,8 +1934,34 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
             continue
         cur = deals.get(c)
         if not cur or dm > cur["_d"]:
-            deals[c] = {"_d": dm, "amount": d["amount"], "round": d["round"], "month": d["date"][:7]}
+            deals[c] = {"_d": dm, "amount": d["amount"], "round": d["round"], "month": d["date"][:7], "leads": d.get("leads") or []}
     raised_cutoff = date.fromordinal(today.toordinal() - RAISED_WINDOW_DAYS)
+
+    # employer-card inputs and the places file
+    snapshots, held_out = load_posting_snapshots()
+    geo = load_geo_places()
+
+    def employer_card(canon, rec):
+        """Facts for the board's employer card, or None for a company the database does not hold."""
+        if not rec:
+            return None
+        deal = deals.get(canon)
+        backers, total = clean_backers(rec["investors"])
+        if not backers and deal:
+            backers, total = clean_backers(deal.get("leads"))
+        amount = (deal or {}).get("amount") or ""
+        return OrderedDict([
+            ("about", one_line(rec["description"])),
+            ("field", rec["subsector"]),
+            ("founded", rec["founded"]),
+            ("hq", rec["location"]),
+            ("ticker", rec["ticker"]),
+            ("lastRound", OrderedDict([("round", deal["round"]), ("amount", "" if NOT_A_BACKER.search(amount) else amount),
+                                       ("month", deal["month"])]) if deal else None),
+            ("backers", backers),
+            ("backersTotal", total),
+            ("postings", postings_trend(snapshots, held_out, canon, today)),
+        ])
 
     # description-signal cache
     cache = {"version": CACHE_VERSION, "boards": {}, "jobs": {}}
@@ -1345,10 +2019,20 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
             "isHardTech": hard,
             "raised": raised,
             "jobs": 1,
+            "card": employer_card(canon, rec),
         }
+
+    def home_town(rec):
+        """The company's home (town, state) when it is in the United States, for unspecified job locations."""
+        if not rec or rec["country"] not in ("United States", "USA", "US", "United States of America"):
+            return None
+        m = re.match(r"^\s*([^,]+?)\s*,\s*([A-Za-z. ]+?)\s*$", rec["location"] or "")
+        code = state_code(m.group(2)) if m else ""
+        return (m.group(1), code) if code else None
 
     # jobs
     out_jobs = []
+    used_places = {}                                    # (row in the places file, approximate) -> postings
     for j in raw:
         title = norm_title(j.get("title"))
         comp = companies[j.get("company") or ""]
@@ -1390,6 +2074,10 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
             sal_source = {SAL_ATS: "ats", SAL_TEXT: "posting", SAL_TEXT_RATE: "posting-hourly"}.get(sig[5], "posting")
         deadline = sig[6] or ""
         deadline_days = (date.fromisoformat(deadline) - today).days if deadline else None
+        types = role_types(title, fam, lvl)
+        spots = job_places(j.get("location"), metros, home_town(db_rec), geo)
+        for spot in spots:
+            used_places[spot] = used_places.get(spot, 0) + 1
         out_jobs.append({
             "id": j.get("id"),
             "company": comp["name"],
@@ -1425,12 +2113,27 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
             "trades": trades,
             "internSummer2027": lvl == "intern" and bool(SUMMER_2027.search(title)),
             "generalApplication": fam == "general",
+            "roleTypes": types,
+            "roleTypeMask": role_type_mask(types, lvl),
+            "entryLevel": lvl in ENTRY_LEVELS,
+            "noDegreeLikely": bool(sig[0] & 4),
+            "places": spots,                            # rows of the places file for now; re-pointed below
             "groupKey": group_key(title),
         })
 
     # deterministic order: newest first (undated last), then company, title, id
     out_jobs.sort(key=lambda x: (x["posted"] == "", x["company"].lower(), x["title"].lower(), x["id"]))
     out_jobs.sort(key=lambda x: x["posted"] or "0000", reverse=True)
+
+    # places: one small table of the towns the postings name; each posting points into it, so the
+    # page can measure distance from the reader's home without a lat/lng on every row
+    place_order = sorted(used_places, key=lambda s: (geo.rows[s[0]][1], norm_place(geo.rows[s[0]][0]), geo.rows[s[0]][0], s[1]))
+    place_index = {s: i for i, s in enumerate(place_order)}
+    place_table = [OrderedDict([("name", geo.rows[s[0]][0] + (" area" if s[1] else "")), ("state", geo.rows[s[0]][1]),
+                                ("lat", round(geo.rows[s[0]][2], 3)), ("lng", round(geo.rows[s[0]][3], 3)),
+                                ("approximate", bool(s[1])), ("postings", used_places[s])]) for s in place_order]
+    for x in out_jobs:
+        x["places"] = [place_index[s] for s in x["places"]]
 
     # per-location clones: same company + same normalised title -> one row (the newest posting) that
     # carries the others; every posting keeps its own id and URL so the row can expand to them
@@ -1450,6 +2153,7 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
         primary["groupFirstPosted"] = first_posted
         primary["groupLocations"] = sorted({m["location"] for m in members if m["location"]})
         primary["groupMetros"] = sorted({mm for m in members for mm in m["metros"]})
+        primary["groupStale"] = all(m["stale"] for m in members)     # the board hides a role only when every posting is stale
     for x in out_jobs:
         del x["groupKey"]
 
@@ -1492,7 +2196,23 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
         "surgeCompanies": sum(1 for c in companies.values() if c["surge"]),
         "surgeJobs": sum(1 for x in out_jobs if x["groupPrimary"] and companies[x["company"]]["surge"]),
         "lastUpdated": stats.get("lastUpdated", ""),
+        # family layer
+        "usPerson": sum(1 for x in out_jobs if x["usPersonLikely"]),
+        "entryLevel": sum(1 for x in out_jobs if x["entryLevel"]),
+        "noDegree": sum(1 for x in out_jobs if x["noDegreeLikely"]),
+        "noDegreeBoards": sum(1 for b in cache.get("boards", {}).values() if int(b.get("sig") or 1) >= SIGNAL_RULES_VERSION),
+        "withPlace": sum(1 for x in out_jobs if x["places"]),
+        "placeTowns": len(place_table),
+        "employerCards": sum(1 for c in companies.values() if c["card"]),
+        "cardsWithDatedRound": sum(1 for c in companies.values() if c["card"] and c["card"]["lastRound"]),
+        "cardsWithBackers": sum(1 for c in companies.values() if c["card"] and c["card"]["backers"]),
+        "cardsWithTrend": sum(1 for c in companies.values() if c["card"] and c["card"]["postings"]
+                              and c["card"]["postings"]["then"] is not None and not c["card"]["postings"]["boardChanged"]),
     }
+    # the board's default view: one row per role, hard-tech companies, roles with a live posting
+    on_board = [x for x in out_jobs if x["groupPrimary"] and x["isHardTech"] and not x["groupStale"]]
+    totals["boardRoles"] = len(on_board)
+    totals["boardCompanies"] = len({x["company"] for x in on_board})
     coverage = {
         "roleFamily": Counter(x["roleFamily"] for x in out_jobs),
         "level": Counter(x["level"] for x in out_jobs),
@@ -1502,6 +2222,8 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
         "metroUnresolved": sum(1 for x in out_jobs if not x["metros"]),
         "sector": Counter(x["sector"] for x in out_jobs),
         "stage": Counter(companies[x["company"]]["stageGroup"] for x in out_jobs),
+        "roleType": Counter(t for x in out_jobs for t in (x["roleTypes"] or ["unsorted"])),
+        "roleTypeOnBoard": Counter(t for x in on_board for t in (x["roleTypes"] or ["unsorted"])),
     }
 
     enriched = OrderedDict([
@@ -1517,6 +2239,10 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
         ("levels", LEVELS),
         ("metros", METROS),
         ("stageGroups", STAGE_GROUPS),
+        ("roleTypes", OrderedDict((code, OrderedDict([("label", label), ("about", about), ("bit", ROLE_TYPE_BITS[code])]))
+                                  for code, (label, about) in ROLE_TYPES.items())),
+        ("geo", OrderedDict([("source", geo.source), ("towns", len(geo.rows)), ("zips", geo.zip_count)])),
+        ("places", place_table),
         ("coverage", {k: (dict(v) if isinstance(v, Counter) else v) for k, v in coverage.items()}),
         ("companies", list(companies.values())),
         ("jobs", out_jobs),
@@ -1547,6 +2273,29 @@ def canonical_url(job):
     return url
 
 
+CARD_FIELDS = ["about", "field", "founded", "home", "ticker", "lastRound", "backers", "backersTotal", "postings"]
+
+
+def compact_card(card):
+    """Employer card as a short row for the page (see CARD_FIELDS); 0 for a company the database does not hold.
+
+    lastRound: [round, amount, "YYYY-MM"] or 0. backers: the first few names. postings:
+    [now, nowDate, then, thenDate, boardChanged] where then is -1 and thenDate is the first
+    date the company was counted when there is nothing from about 90 days earlier; 0 when
+    there is no recent count at all.
+    """
+    if not card:
+        return 0
+    r, p = card["lastRound"], card["postings"]
+    return [
+        card["about"], card["field"], card["founded"], card["hq"], card["ticker"],
+        [r["round"], r["amount"], r["month"]] if r else 0,
+        card["backers"], card["backersTotal"],
+        0 if not p else [p["now"], p["nowDate"], p["then"] if p["then"] is not None else -1,
+                         p["thenDate"] or p["since"], 1 if p["boardChanged"] else 0],
+    ]
+
+
 def write_compact_js(enriched):
     fam_codes = list(FAMILIES)
     lvl_codes = list(LEVELS)
@@ -1562,7 +2311,7 @@ def write_compact_js(enriched):
         comp_rows.append([c["name"], sectors.index(c["sector"]), stage_codes.index(c["stageGroup"]), flags,
                           r.get("amount", ""), r.get("round", ""), r.get("month", ""), c["fundingStage"], c["jobs"],
                           c["canonical"] if c["canonical"] != c["name"] else "",
-                          c["recent14"], c["prior14"], c["roles"]])
+                          c["recent14"], c["prior14"], c["roles"], compact_card(c["card"])])
     row_index = {}
     for i, j in enumerate(enriched["jobs"]):
         if j["groupPrimary"]:
@@ -1574,7 +2323,9 @@ def write_compact_js(enriched):
                  | (64 if j["generalApplication"] else 0)
                  | (128 if j["salarySource"] in ("posting", "posting-hourly") else 0)
                  | (256 if j["salarySource"] in ("ats-hourly", "posting-hourly") else 0)
-                 | (512 if j["levelSource"] == "description" else 0))
+                 | (512 if j["levelSource"] == "description" else 0)
+                 | (1024 if j["noDegreeLikely"] else 0))
+        spots = j["places"]
         job_rows.append([
             j["id"], comp_index[j["company"]], j["title"], j["location"], j["posted"], canonical_url(j),
             fam_codes.index(j["roleFamily"]), lvl_codes.index(j["level"]), ",".join(j["metros"]),
@@ -1584,6 +2335,9 @@ def write_compact_js(enriched):
             j["updatedDaysAgo"] if j["updatedDaysAgo"] is not None else -1,
             -1 if j["groupPrimary"] else row_index[j["groupId"]],
             j["applicationDeadline"],
+            # appended for the family layer; older readers (company pages) stop at "deadline"
+            -1 if not spots else (spots[0] if len(spots) == 1 else spots),
+            j["roleTypeMask"],
         ])
     payload = OrderedDict([
         ("generated", enriched["generated"]),
@@ -1599,8 +2353,14 @@ def write_compact_js(enriched):
         ("stages", [[k, v] for k, v in STAGE_GROUPS.items()]),
         ("sectors", sectors),
         ("currencies", currencies),
-        ("companyFields", ["name", "sector", "stage", "flags", "raisedAmount", "raisedRound", "raisedMonth", "fundingStage", "jobs", "canonical", "recent14", "prior14", "roles"]),
-        ("jobFields", ["id", "company", "title", "location", "posted", "url", "family", "level", "metros", "salaryMin", "salaryMax", "currency", "flags", "daysAgo", "updatedDaysAgo", "group", "deadline"]),
+        ("roleTypes", [[code, label, about, ROLE_TYPE_BITS[code]] for code, (label, about) in ROLE_TYPES.items()]),
+        ("entryLevelBit", ENTRY_LEVEL_BIT),
+        ("geo", enriched["geo"]),
+        ("placeFields", ["name", "state", "lat", "lng", "approximate"]),
+        ("places", [[p["name"], p["state"], p["lat"], p["lng"], 1 if p["approximate"] else 0] for p in enriched["places"]]),
+        ("companyFields", ["name", "sector", "stage", "flags", "raisedAmount", "raisedRound", "raisedMonth", "fundingStage", "jobs", "canonical", "recent14", "prior14", "roles", "card"]),
+        ("cardFields", CARD_FIELDS),
+        ("jobFields", ["id", "company", "title", "location", "posted", "url", "family", "level", "metros", "salaryMin", "salaryMax", "currency", "flags", "daysAgo", "updatedDaysAgo", "group", "deadline", "places", "roleTypes"]),
         ("companies", comp_rows),
         ("jobs", job_rows),
     ])
@@ -1610,9 +2370,12 @@ def write_compact_js(enriched):
         f"// Generated {enriched['generated']} · {enriched['totals']['jobs']} jobs across {enriched['totals']['companies']} companies\n"
         "// Row layouts: see companyFields / jobFields. Company flags: 1=IL30 2=hard-tech 4=in database 8=hiring surge.\n"
         "// Job flags: 1=remote 2=stale 4=clearance 8=US person 16=trades 32=summer-2027 intern 64=general application\n"
-        "//   128=salary parsed from the posting text 256=salary annualised from an hourly rate (2,080 h) 512=level read from years of experience.\n"
+        "//   128=salary parsed from the posting text 256=salary annualised from an hourly rate (2,080 h) 512=level read from years of experience\n"
+        "//   1024=posting text says no college degree is required.\n"
         "// group: -1 for a role's primary row, else the index of the primary row this posting is a per-location clone of.\n"
         "// An empty url means the ATS default, rebuilt from the id on the page.\n"
+        "// places: -1 none, a number (one town) or a list (several): indexes into `places` (placeFields).\n"
+        "// roleTypes: bit mask, bits as listed in `roleTypes`, plus entryLevelBit. card: see cardFields; 0 = company not in the database.\n"
         "window.JOBS_V2 = " + body + ";\n",
         encoding="utf-8",
     )
@@ -1653,6 +2416,18 @@ def print_summary(enriched):
     print(f"[enrich] roles {t['roles']} (clones folded: {t['clones']}) · new this week {t['newThisWeek']} · deadlines {t['withDeadline']} (closing soon {t['closingSoon']}) "
           f"· surge companies {t['surgeCompanies']} ({t['surgeJobs']} roles)")
     print("[enrich] metros: " + ", ".join(f"{k}={v}" for k, v in sorted(cov["metro"].items(), key=lambda kv: -kv[1])))
+    order = list(ROLE_TYPES) + ["unsorted"]
+    print(f"[enrich] default board (hard-tech, live roles): {t['boardRoles']} roles at {t['boardCompanies']} companies · by plain type: "
+          + ", ".join(f"{k}={cov['roleTypeOnBoard'].get(k, 0)}" for k in order))
+    print("[enrich] plain types, all postings: " + ", ".join(f"{k}={cov['roleType'].get(k, 0)}" for k in order)
+          + f" · entry level {t['entryLevel']} · US person likely {t['usPerson']}")
+    geo = enriched["geo"]
+    print(f"[enrich] places: {t['withPlace']} of {t['jobs']} postings ({100*t['withPlace']//n}%) placed in {t['placeTowns']} towns "
+          f"· places file: source={geo['source'] or 'missing'}, {geo['towns']} towns, {geo['zips']} ZIP codes")
+    print(f"[enrich] no degree required (likely): {t['noDegree']} postings · boards read under the current description rules: "
+          f"{t['noDegreeBoards']} of {t['boardsWithDescriptions']}" + ("" if t["noDegreeBoards"] else " (the next description pass fills this in)"))
+    print(f"[enrich] employer cards: {t['employerCards']} of {t['companies']} companies · dated round {t['cardsWithDatedRound']} "
+          f"· backers {t['cardsWithBackers']} · 90-day postings comparison {t['cardsWithTrend']}")
     print(f"[enrich] wrote {OUT_JSON.name} ({OUT_JSON.stat().st_size//1024} KB), {OUT_JS.name} ({OUT_JS.stat().st_size//1024} KB), {OUT_INDEX_JS.name} ({OUT_INDEX_JS.stat().st_size//1024} KB), {HISTORY_PATH.name}")
 
 
