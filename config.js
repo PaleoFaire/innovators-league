@@ -8,7 +8,7 @@
  * --- WHEN YOU'RE READY TO ENABLE EITHER ONE ---
  *   1. Plausible:
  *        Sign up at https://plausible.io and add the site
- *        "innovatorsleague.com" (or whatever your final domain is).
+ *        "paleofaire.github.io/innovators-league" (or whatever your final domain is).
  *        Then uncomment the PLAUSIBLE_DOMAIN line below and set it to that
  *        exact domain string.
  *

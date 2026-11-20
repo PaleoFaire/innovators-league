@@ -40,7 +40,7 @@
     document.head.appendChild(s);
   }
 
-  var BASE = 'https://innovatorsleague.com';
+  var BASE = 'https://paleofaire.github.io/innovators-league/';
 
   // ─── Organization ────────────────────────────────────────────────────────
   inject({

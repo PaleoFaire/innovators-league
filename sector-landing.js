@@ -235,7 +235,7 @@
           '@type': 'ListItem',
           'position': i + 1,
           'name': c.name,
-          'url': 'https://innovatorsleague.com/company.html?c=' + encodeURIComponent(c.name)
+          'url': 'https://paleofaire.github.io/innovators-league/company.html?c=' + encodeURIComponent(c.name)
         };
       })
     };
