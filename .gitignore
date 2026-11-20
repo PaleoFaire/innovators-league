@@ -38,3 +38,11 @@ data/.exit_watch_history.json
 
 # Private, never published (GitHub Pages serves this repo): his own portfolio/visit/coverage relationships
 data/private/
+
+# ── Internal notes, never published (GitHub Pages serves every tracked file; untracked 2026-11-20) ──
+# Strategy notes, fund rankings, trip plans, sourcing and verification reports live at the repo root as *.md.
+/*.md
+!/README.md
+data/ros_fund_scored.json
+data/action_brief*
+deliverables/
