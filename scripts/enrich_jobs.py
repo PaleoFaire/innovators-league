@@ -210,6 +210,7 @@ ROLE_TYPES = OrderedDict([
     ("early",       ("Internships and first jobs", "Internships, apprenticeships, new-graduate and junior jobs, in any kind of work.")),
 ])
 ROLE_TYPE_BITS = OrderedDict((code, 1 << i) for i, code in enumerate(ROLE_TYPES))   # hands=1 ... early=16
+ROLE_TYPES_ACROSS = ("early",)   # narrows the kinds of work (AND) instead of adding to them (OR)
 ENTRY_LEVEL_BIT = 32          # a regular job for someone starting out (not an internship)
 
 # Family -> kind of work, for titles that carry no stronger signal (see work_type).
@@ -2239,7 +2240,8 @@ def enrich(today, fetch=True, force_fetch=False, fetch_limit=None):
         ("levels", LEVELS),
         ("metros", METROS),
         ("stageGroups", STAGE_GROUPS),
-        ("roleTypes", OrderedDict((code, OrderedDict([("label", label), ("about", about), ("bit", ROLE_TYPE_BITS[code])]))
+        ("roleTypes", OrderedDict((code, OrderedDict([("label", label), ("about", about), ("bit", ROLE_TYPE_BITS[code]),
+                                                      ("across", code in ROLE_TYPES_ACROSS)]))
                                   for code, (label, about) in ROLE_TYPES.items())),
         ("geo", OrderedDict([("source", geo.source), ("towns", len(geo.rows)), ("zips", geo.zip_count)])),
         ("places", place_table),
@@ -2353,8 +2355,11 @@ def write_compact_js(enriched):
         ("stages", [[k, v] for k, v in STAGE_GROUPS.items()]),
         ("sectors", sectors),
         ("currencies", currencies),
-        ("roleTypes", [[code, label, about, ROLE_TYPE_BITS[code]] for code, (label, about) in ROLE_TYPES.items()]),
+        ("roleTypeFields", ["code", "label", "about", "bit", "across"]),
+        ("roleTypes", [[code, label, about, ROLE_TYPE_BITS[code], 1 if code in ROLE_TYPES_ACROSS else 0]
+                       for code, (label, about) in ROLE_TYPES.items()]),
         ("entryLevelBit", ENTRY_LEVEL_BIT),
+        ("usMetros", list(METRO_RULES) + ["us"]),
         ("geo", enriched["geo"]),
         ("placeFields", ["name", "state", "lat", "lng", "approximate"]),
         ("places", [[p["name"], p["state"], p["lat"], p["lng"], 1 if p["approximate"] else 0] for p in enriched["places"]]),
@@ -2375,7 +2380,8 @@ def write_compact_js(enriched):
         "// group: -1 for a role's primary row, else the index of the primary row this posting is a per-location clone of.\n"
         "// An empty url means the ATS default, rebuilt from the id on the page.\n"
         "// places: -1 none, a number (one town) or a list (several): indexes into `places` (placeFields).\n"
-        "// roleTypes: bit mask, bits as listed in `roleTypes`, plus entryLevelBit. card: see cardFields; 0 = company not in the database.\n"
+        "// roleTypes: bit mask, bits as listed in `roleTypes` (across=1: narrows the others), plus entryLevelBit.\n"
+        "// card: see cardFields; 0 = company not in the database.\n"
         "window.JOBS_V2 = " + body + ";\n",
         encoding="utf-8",
     )
