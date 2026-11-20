@@ -991,10 +991,14 @@
     var title = 'Straight-line distance from ' + (origin.kind === 'me' ? 'your location' : origin.label) + ' to ' + placeName(j.distPlace) +
       (j.distApprox ? '. The posting names an area, so this is measured to its main town.' : '');
     var text = (j.distApprox ? 'About ' : '') + L.milesText(j.dist) + (origin.kind === 'me' ? ' from you' : ' away');
+    // A role listed in several towns is measured to the nearest one; say which, because the card shows the first town listed.
+    if (j.locations.length > 1 && j.distPlace >= 0) text += ' (' + placeName(j.distPlace) + ')';
     return '<span class="jb-dist" title="' + esc(title) + '">📏 ' + esc(text) + '</span>';
   }
   function whereText(j) {
-    var t = j.locations[0] || (j.remote ? 'Remote' : '');
+    var near = origin && origin.kind !== 'hub' && isFinite(j.dist) && j.distPlace >= 0;
+    // On a distance search, name the town the distance is measured to.
+    var t = (near && j.locations.length > 1 ? placeName(j.distPlace) : j.locations[0]) || (j.remote ? 'Remote' : '');
     if (j.locations.length > 1) t += ' (+' + (j.locations.length - 1) + ' more)';
     if (origin && origin.kind !== 'hub' && isFinite(j.dist)) t += ' · ' + (j.distApprox ? 'about ' : '') + L.milesText(j.dist);
     return t;
