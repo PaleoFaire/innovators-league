@@ -1,7 +1,17 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-11-20 15:05:54 UTC
+// Last updated: 2026-11-21 14:25:48 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Momentus", form: "8-K", date: "2026-11-20", description: "tm2630244d1_8k.htm", isIPO: false, ticker: "MNTS" },
+  { company: "Upstart Holdings", form: "4", date: "2026-11-20", description: "xslF345X06/wk-form4_1795224238.xml", isIPO: false, ticker: "UPST" },
+  { company: "Upstart Holdings", form: "4", date: "2026-11-20", description: "xslF345X06/wk-form4_1795224216.xml", isIPO: false, ticker: "UPST" },
+  { company: "Upstart Holdings", form: "4", date: "2026-11-20", description: "xslF345X06/wk-form4_1795224189.xml", isIPO: false, ticker: "UPST" },
+  { company: "Upstart Holdings", form: "4", date: "2026-11-20", description: "xslF345X06/wk-form4_1795224166.xml", isIPO: false, ticker: "UPST" },
+  { company: "Upstart Holdings", form: "4", date: "2026-11-20", description: "xslF345X06/wk-form4_1795224137.xml", isIPO: false, ticker: "UPST" },
+  { company: "Upstart Holdings", form: "4", date: "2026-11-20", description: "xslF345X06/wk-form4_1795224112.xml", isIPO: false, ticker: "UPST" },
+  { company: "IonQ", form: "4", date: "2026-11-20", description: "xslF345X06/wk-form4_1795210373.xml", isIPO: false, ticker: "IONQ" },
+  { company: "Rigetti Computing", form: "4", date: "2026-11-20", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
+  { company: "Rigetti Computing", form: "4", date: "2026-11-20", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
+  { company: "Rigetti Computing", form: "4", date: "2026-11-20", description: "xslF345X06/form4.xml", isIPO: false, ticker: "RGTI" },
   { company: "AST SpaceMobile", form: "4", date: "2026-11-19", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "Oklo", form: "4", date: "2026-11-19", description: "xslF345X06/wk-form4_1795123188.xml", isIPO: false, ticker: "OKLO" },
   { company: "LanzaTech", form: "4", date: "2026-11-19", description: "xslF345X06/wk-form4_1795124401.xml", isIPO: false, ticker: "LNZA" },
@@ -41,14 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "LanzaTech", form: "4", date: "2026-11-16", description: "xslF345X06/wk-form4_1794834989.xml", isIPO: false, ticker: "LNZA" },
   { company: "Satellogic", form: "8-K", date: "2026-11-16", description: "zcar-20261113_8k.htm", isIPO: false, ticker: "SATL" },
   { company: "Palantir Technologies", form: "4", date: "2026-11-13", description: "xslF345X06/wk-form4_1794618004.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Virgin Galactic", form: "8-K", date: "2026-11-13", description: "d112611d8k.htm", isIPO: false, ticker: "SPCE" },
-  { company: "Upstart Holdings", form: "4", date: "2026-11-13", description: "xslF345X06/wk-form4_1794609492.xml", isIPO: false, ticker: "UPST" },
-  { company: "Virgin Galactic", form: "8-K", date: "2026-11-12", description: "d183696d8k.htm", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "10-Q", date: "2026-11-12", description: "spce-20260930.htm", isIPO: false, ticker: "SPCE" },
-  { company: "Centrus Energy", form: "8-K", date: "2026-11-12", description: "leu-20261112.htm", isIPO: false, ticker: "LEU" },
-  { company: "C3.ai", form: "4", date: "2026-11-12", description: "xslF345X06/wk-form4_1794523959.xml", isIPO: false, ticker: "AI" },
-  { company: "Upstart Holdings", form: "4", date: "2026-11-12", description: "xslF345X06/wk-form4_1794519066.xml", isIPO: false, ticker: "UPST" },
-  { company: "D-Wave Quantum", form: "8-K", date: "2026-11-12", description: "qbts-20261112.htm", isIPO: false, ticker: "QBTS" },
-  { company: "AST SpaceMobile", form: "8-K", date: "2026-11-10", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
-  { company: "Oklo", form: "4", date: "2026-11-10", description: "xslF345X06/wk-form4_1794347507.xml", isIPO: false, ticker: "OKLO" },
 ];

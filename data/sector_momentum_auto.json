@@ -1,48 +1,48 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 61,
+    "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
       "Anthropic&#8217;s 7 founders cashed out nearly $2B in record",
       "Should You Buy Anthropic, SpaceX or Both",
-      "Anthropic&#8217;s IPO could deliver $156B to charity"
+      "Anthropic opens at $101"
     ],
     "fundingQ": "$12.1B",
     "components": {
       "funding": 100,
-      "news": 65,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-20"
+    "lastUpdated": "2026-11-21"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 54,
+    "momentum": 52,
     "trend": "steady",
     "catalysts": [
+      "Waymo Pulls Robotaxis from Highways",
       "Defense Business Brief: Vantor\u2019s Raptor; Hadrian\u2019s foundry,",
-      "Zoox Partnering with Uber to Bring Autonomous Mobility to Mo",
-      "California DMV bars Waymo AVs from operating on the state&#8"
+      "Zoox Partnering with Uber to Bring Autonomous Mobility to Mo"
     ],
     "fundingQ": "$7.0B",
     "components": {
       "funding": 100,
-      "news": 35,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-20"
+    "lastUpdated": "2026-11-21"
   },
   {
     "sector": "Defense & Security",
     "momentum": 40,
     "trend": "steady",
     "catalysts": [
+      "Autonomy firm Auterion to launch joint venture with Ukrainia",
       "Defense Business Brief: Vantor\u2019s Raptor; Hadrian\u2019s foundry,",
-      "Spending Isn\u2019t Deterrence: Fixing Germany\u2019s Procurement Mach",
-      "Air Force bets on hybrid-electric aircraft for transport"
+      "Spending Isn\u2019t Deterrence: Fixing Germany\u2019s Procurement Mach"
     ],
     "fundingQ": "$4.1B",
     "components": {
@@ -51,7 +51,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-20"
+    "lastUpdated": "2026-11-21"
   },
   {
     "sector": "Transportation",
@@ -67,25 +67,25 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-20"
+    "lastUpdated": "2026-11-21"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 25,
+    "momentum": 27,
     "trend": "rising",
     "catalysts": [
+      "Autonomy firm Auterion to launch joint venture with Ukrainia",
       "Elon Musk says SpaceX has a plan to eliminate cell phone dea",
-      "Should You Buy Anthropic, SpaceX or Both",
-      "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit"
+      "Should You Buy Anthropic, SpaceX or Both"
     ],
     "fundingQ": "$1.2B",
     "components": {
       "funding": 51,
-      "news": 30,
+      "news": 35,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-20"
+    "lastUpdated": "2026-11-21"
   },
   {
     "sector": "Nuclear Energy",
@@ -101,7 +101,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-20"
+    "lastUpdated": "2026-11-21"
   },
   {
     "sector": "Climate & Energy",
@@ -117,41 +117,59 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-20"
+    "lastUpdated": "2026-11-21"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 15,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
+      "Waymo Pulls Robotaxis from Highways",
       "California DMV bars Waymo AVs from operating on the state&#8",
-      "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit",
-      "Agile Robots raises $500M to increase production capacity"
+      "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-20"
+    "lastUpdated": "2026-11-21"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 11,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
+      "Autonomy firm Auterion to launch joint venture with Ukrainia",
       "Zoox Partnering with Uber to Bring Autonomous Mobility to Mo"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-20"
+    "lastUpdated": "2026-11-21"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 12,
+    "trend": "declining",
+    "catalysts": [
+      "Waymo Pulls Robotaxis from Highways",
+      "Elon Musk says SpaceX has a plan to eliminate cell phone dea"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-21"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -167,23 +185,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-20"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Elon Musk says SpaceX has a plan to eliminate cell phone dea"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-20"
+    "lastUpdated": "2026-11-21"
   },
   {
     "sector": "Ocean & Maritime",
@@ -199,7 +201,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-20"
+    "lastUpdated": "2026-11-21"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -215,41 +217,24 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-20"
+    "lastUpdated": "2026-11-21"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 5,
+    "momentum": 2,
     "trend": "declining",
     "catalysts": [
-      "Robotics startup Genesis AI raises $500m backed by Nvidia",
-      "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robo",
-      "<a href=\"/biotech/anthropic-board-director-vas-narasimhan-be"
+      "<a href=\"/biotech/anthropic-board-director-vas-narasimhan-be",
+      "How Rhoda AI is using video data to create generalized AI mo"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 10,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-20"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 1,
-    "trend": "declining",
-    "catalysts": [
-      "Robotics startup Genesis AI raises $500m backed by Nvidia"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-11-20"
+    "lastUpdated": "2026-11-21"
   },
   {
     "sector": "Quantum Computing",
@@ -265,6 +250,22 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-20"
+    "lastUpdated": "2026-11-21"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 0,
+    "trend": "declining",
+    "catalysts": [
+      "Active chips & semiconductors ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-11-21"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T15:19:29.455423Z",
+  "generated_at": "2026-11-21T14:41:03.563023Z",
   "takes": [
     {
       "author": "Crunchbase News",
@@ -24,61 +24,11 @@
     {
       "author": "Sifted",
       "role": "Industry signal",
-      "company": "Genesis AI",
-      "text": "Robotics startup Genesis AI raises $500m backed by Nvidia",
-      "date": "Tue, 17 No",
-      "source": "news",
-      "source_url": "https://sifted.eu/articles/genesis-ai-raises-500m/",
-      "signal_type": "funding"
-    },
-    {
-      "author": "Crunchbase News",
-      "role": "Industry signal",
-      "company": "Genesis AI",
-      "text": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses",
-      "date": "Tue, 17 No",
-      "source": "news",
-      "source_url": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
-      "signal_type": "funding"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Anthropic&#8217;s IPO could deliver $156B to charity",
-      "date": "Thu, 19 No",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
-      "date": "Thu, 19 No",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
-      "signal_type": "funding"
-    },
-    {
-      "author": "Sifted",
-      "role": "Industry signal",
       "company": "Anthropic",
       "text": "Is AI in a bubble? Menlo Ventures\u2019 Deedy Das on Anthropic\u2019s IPO and Europe",
       "date": "Thu, 19 No",
       "source": "news",
       "source_url": "https://sifted.eu/articles/menlo-ventures-podcast/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "Wired",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Anthropic\u2019s Record-Breaking IPO Highlights the AI Giant\u2019s Worst Enemy\u2014Itself",
-      "date": "Thu, 19 No",
-      "source": "news",
-      "source_url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
       "signal_type": "ipo"
     },
     {
@@ -105,7 +55,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 10,
+    "from_news": 5,
     "from_press": 0
   }
 }
