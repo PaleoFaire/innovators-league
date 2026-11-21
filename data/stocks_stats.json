@@ -11,19 +11,19 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -22.15,
+      "avg_change": -23.5,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -13.96,
+      "avg_change": -14.4,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -20.99,
+      "avg_change": -21.0,
       "count": 3
     },
     "climate": {
@@ -35,7 +35,7 @@
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -28.5,
+      "avg_change": -28.59,
       "count": 3
     },
     "biotech": {
@@ -66,7 +66,7 @@
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      -1.74
+      -1.45
     ],
     [
       "ONT.L",
@@ -74,21 +74,21 @@
       -5.18
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      -8.01
-    ],
-    [
       "9348.T",
       "ispace",
       -10.66
+    ],
+    [
+      "TSLA",
+      "Tesla",
+      -11.38
     ]
   ],
   "topLosers": [
     [
       "IONQ",
       "IonQ",
-      -28.12
+      -28.25
     ],
     [
       "ASTS",
@@ -111,5 +111,5 @@
       -32.5
     ]
   ],
-  "lastUpdated": "2026-11-20 21:15:18"
+  "lastUpdated": "2026-11-21 08:22:22"
 }
