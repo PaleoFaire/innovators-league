@@ -15,11 +15,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-21"
+    "lastUpdated": "2026-11-22"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 52,
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
       "Waymo Pulls Robotaxis from Highways",
@@ -29,11 +29,11 @@
     "fundingQ": "$7.0B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-21"
+    "lastUpdated": "2026-11-22"
   },
   {
     "sector": "Defense & Security",
@@ -51,7 +51,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-21"
+    "lastUpdated": "2026-11-22"
   },
   {
     "sector": "Transportation",
@@ -67,25 +67,25 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-21"
+    "lastUpdated": "2026-11-22"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 27,
+    "momentum": 25,
     "trend": "rising",
     "catalysts": [
       "Autonomy firm Auterion to launch joint venture with Ukrainia",
-      "Elon Musk says SpaceX has a plan to eliminate cell phone dea",
-      "Should You Buy Anthropic, SpaceX or Both"
+      "Should You Buy Anthropic, SpaceX or Both",
+      "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit"
     ],
     "fundingQ": "$1.2B",
     "components": {
       "funding": 51,
-      "news": 35,
+      "news": 30,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-21"
+    "lastUpdated": "2026-11-22"
   },
   {
     "sector": "Nuclear Energy",
@@ -101,7 +101,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-21"
+    "lastUpdated": "2026-11-22"
   },
   {
     "sector": "Climate & Energy",
@@ -117,11 +117,11 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-21"
+    "lastUpdated": "2026-11-22"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 16,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
       "Waymo Pulls Robotaxis from Highways",
@@ -131,11 +131,11 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-21"
+    "lastUpdated": "2026-11-22"
   },
   {
     "sector": "Drones & Autonomous",
@@ -152,24 +152,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-21"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "Waymo Pulls Robotaxis from Highways",
-      "Elon Musk says SpaceX has a plan to eliminate cell phone dea"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-21"
+    "lastUpdated": "2026-11-22"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -185,7 +168,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-21"
+    "lastUpdated": "2026-11-22"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Waymo Pulls Robotaxis from Highways"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-22"
   },
   {
     "sector": "Ocean & Maritime",
@@ -201,7 +200,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-21"
+    "lastUpdated": "2026-11-22"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -217,24 +216,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-21"
+    "lastUpdated": "2026-11-22"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 2,
+    "momentum": 1,
     "trend": "declining",
     "catalysts": [
-      "<a href=\"/biotech/anthropic-board-director-vas-narasimhan-be",
-      "How Rhoda AI is using video data to create generalized AI mo"
+      "<a href=\"/biotech/anthropic-board-director-vas-narasimhan-be"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-21"
+    "lastUpdated": "2026-11-22"
   },
   {
     "sector": "Quantum Computing",
@@ -250,7 +248,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-21"
+    "lastUpdated": "2026-11-22"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -266,6 +264,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-21"
+    "lastUpdated": "2026-11-22"
   }
 ]

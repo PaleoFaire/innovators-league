@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-11-21 14:25:48 UTC
+// Last updated: 2026-11-22 14:19:20 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Momentus", form: "8-K", date: "2026-11-20", description: "tm2630244d1_8k.htm", isIPO: false, ticker: "MNTS" },
   { company: "Upstart Holdings", form: "4", date: "2026-11-20", description: "xslF345X06/wk-form4_1795224238.xml", isIPO: false, ticker: "UPST" },

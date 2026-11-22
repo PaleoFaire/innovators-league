@@ -2576,7 +2576,7 @@
     "subAgency": "Office of the Chief Financial Officer",
     "awardType": null,
     "startDate": "2026-04-18",
-    "endDate": "2027-04-17",
+    "endDate": "2027-05-31",
     "description": "CENTRALIZE FARM PRODUCTION & CONSERVATION IT SYSTEMS, AUTOMATE PROCESSES, AND INTEGRATE DATA FOR BETTER EFFICIENCY PER THE LANDMARK PLATFORM INITIATIVE. STAFF + PRODUCERS GAIN UNIFIED ACCESS, WITH POS"
   },
   {
@@ -3140,7 +3140,7 @@
     "subAgency": "Office of the Chief Financial Officer",
     "awardType": null,
     "startDate": "2026-04-18",
-    "endDate": "2027-04-17",
+    "endDate": "2027-05-31",
     "description": "CENTRALIZE FARM PRODUCTION & CONSERVATION IT SYSTEMS, AUTOMATE PROCESSES, AND INTEGRATE DATA FOR BETTER EFFICIENCY PER THE LANDMARK PLATFORM INITIATIVE. STAFF + PRODUCERS GAIN UNIFIED ACCESS, WITH POS"
   },
   {
@@ -3877,6 +3877,18 @@
   },
   {
     "company": "Space Exploration Technologies",
+    "awardId": "80KSC020C0012",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 139924073.02,
+    "agency": "National Aeronautics and Space Administration",
+    "subAgency": "National Aeronautics and Space Administration",
+    "awardType": null,
+    "startDate": "2020-03-25",
+    "endDate": "2032-03-24",
+    "description": "GATEWAY LOGISTICS SERVICES (GLS) CONTRACT AWARD - SPACE EXPLORATION TECHNOLOGIES (SPACEX)"
+  },
+  {
+    "company": "Space Exploration Technologies",
     "awardId": "FA254126FB019",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
     "amount": 134467050.0,
@@ -3898,18 +3910,6 @@
     "startDate": "2026-06-08",
     "endDate": "2027-06-07",
     "description": "PLEO WARRIOR PLAN SUPPORT: SECURE GLOBAL SATCOM VIA POOLED STARSHIELD SERVICE. ENHANCED FEATURES, SECURITY, AND CENTRAL MANAGEMENT FOR ALL MISSIONS."
-  },
-  {
-    "company": "Space Exploration Technologies",
-    "awardId": "80KSC020C0012",
-    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 127924073.02,
-    "agency": "National Aeronautics and Space Administration",
-    "subAgency": "National Aeronautics and Space Administration",
-    "awardType": null,
-    "startDate": "2020-03-25",
-    "endDate": "2032-03-24",
-    "description": "GATEWAY LOGISTICS SERVICES (GLS) CONTRACT AWARD - SPACE EXPLORATION TECHNOLOGIES (SPACEX)"
   },
   {
     "company": "Space Exploration Technologies",
@@ -4256,7 +4256,7 @@
     "subAgency": "Department of State",
     "awardType": null,
     "startDate": "2026-09-30",
-    "endDate": "2028-09-29",
+    "endDate": "2028-09-30",
     "description": "PERU - SPACE X STARLINK"
   },
   {
@@ -5883,7 +5883,7 @@
     "company": "Axiom Space",
     "awardId": "80JSC022FA103",
     "recipientName": "AXIOM SPACE INC",
-    "amount": 414539931.6,
+    "amount": 382539931.6,
     "agency": "National Aeronautics and Space Administration",
     "subAgency": "National Aeronautics and Space Administration",
     "awardType": null,
@@ -8494,6 +8494,18 @@
     "startDate": "2026-02-11",
     "endDate": "2026-09-11",
     "description": "CALL ORDER FOR SOUTHWEST DISTRICT MARITIME DOMAIN AWARENESS."
+  },
+  {
+    "company": "Saildrone",
+    "awardId": "1305M223FNMAN0327",
+    "recipientName": "SAILDRONE INC",
+    "amount": 1666980.18,
+    "agency": "Department of Commerce",
+    "subAgency": "National Oceanic and Atmospheric Administration",
+    "awardType": null,
+    "startDate": "2023-07-01",
+    "endDate": "2025-09-28",
+    "description": "NOAA/OMAO/UMS - BUOY OBSERVATIONS"
   },
   {
     "company": "Saildrone",
