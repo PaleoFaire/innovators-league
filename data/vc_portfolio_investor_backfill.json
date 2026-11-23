@@ -1,16 +1,8 @@
 {
-  "generated_at": "2026-11-16T17:25:38.049038+00:00",
-  "count": 61,
+  "generated_at": "2026-11-23T19:28:21.619425+00:00",
+  "count": 62,
   "note": "COMPANIES whose investors field lacks a fund that lists them on its portfolio page. Domain matches are exact; name matches deserve a glance.",
   "items": [
-    {
-      "company": "Tutor Intelligence",
-      "add": "Andreessen Horowitz",
-      "fund": "a16z",
-      "matched_by": "domain",
-      "evidence": "https://jobs.a16z.com/companies",
-      "first_funded": "2026-11-02"
-    },
     {
       "company": "Toka",
       "add": "Andreessen Horowitz",
@@ -34,6 +26,14 @@
       "matched_by": "domain",
       "evidence": "https://jobs.a16z.com/companies",
       "first_funded": ""
+    },
+    {
+      "company": "Tutor Intelligence",
+      "add": "Andreessen Horowitz",
+      "fund": "a16z",
+      "matched_by": "domain",
+      "evidence": "https://jobs.a16z.com/companies",
+      "first_funded": "2026-11-02"
     },
     {
       "company": "ASI",
@@ -89,6 +89,14 @@
       "fund": "8VC",
       "matched_by": "domain",
       "evidence": "https://jobs.8vc.com/companies/parallel-fluidics-2",
+      "first_funded": ""
+    },
+    {
+      "company": "Plotlogic",
+      "add": "8VC",
+      "fund": "8VC",
+      "matched_by": "domain",
+      "evidence": "https://jobs.8vc.com/companies/plotlogic-2",
       "first_funded": ""
     },
     {

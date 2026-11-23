@@ -1,63 +1,5 @@
 [
   {
-    "name": "Gravity",
-    "domain": "gravityclimate.com",
-    "website": "https://www.gravityclimate.com/",
-    "tagline": "Gravity is the AI-native platform for energy management, helping enterprises move from compliance-driven carbon reporting to real operational and financial outcomes.",
-    "founders": "Saleh ElHattab",
-    "founded": "2022",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Eclipse",
-        "first_funded": "2025-10-28",
-        "focus": "early_stage",
-        "source_url": "https://eclipse.vc/portfolio/gravity",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.709,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2025-10-28",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: software (carbon/energy management SaaS)"
-  },
-  {
-    "name": "Starboard",
-    "domain": "starboard.biz",
-    "website": "https://www.starboard.biz/",
-    "tagline": "Starboard has deployed agentic quoting, automated rate-ingestion, and procurement networks that materially expand margins and improve execution speed for forwarders.",
-    "founders": "Sumeet Trehan",
-    "founded": "2024",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Eclipse",
-        "first_funded": "2026-03-24",
-        "focus": "early_stage",
-        "source_url": "https://eclipse.vc/portfolio/starboard",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.709,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-03-24",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: software (freight quoting)"
-  },
-  {
     "name": "The Lumber Manufactory",
     "domain": "lumbermanufactory.com",
     "website": "https://lumbermanufactory.com",
@@ -113,33 +55,31 @@
     "source_list": "vc-portfolio-watcher"
   },
   {
-    "name": "Rev1",
-    "domain": "rev1.so",
-    "website": "https://rev1.so",
-    "tagline": "AI for CAD workflows. Rev1 automates hardware engineering workflows, starting with 3D to 2D CAD drawing conversion",
-    "founders": "Alex Rivero, Louis Liu",
+    "name": "Tesorai",
+    "domain": "tesorai.com",
+    "website": "https://www.tesorai.com/",
+    "tagline": "Tesorai connects AI mass spectrometry search, plain-English analysis and curated public proteomics datasets in one cloud platform. Supports DDA and DIA.",
+    "founders": "",
     "founded": "",
     "city": "",
     "funds": [
       {
-        "fund": "Red Glass",
+        "fund": "IQT",
         "first_funded": "",
         "focus": "",
-        "source_url": "https://www.redglass.vc/",
-        "new_this_run": false
+        "source_url": "https://www.iqt.org/portfolio/",
+        "new_this_run": true
       }
     ],
-    "fund_overlap": 0.625,
+    "fund_overlap": 0.6,
     "needs_check": false,
     "software_for_hard_tech": false,
     "possible_match": [],
     "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "Bar 3 fails: in scope (AI GD&T drawing automation for hardware engineers, YC W26), but only funding found is YC's standard ~$500K (aggregators: pre-seed/convertible note); YC counts only with a priced round or $2M+, and no Red Glass investm"
+    "since": "2026-11-23",
+    "detected_at": "2026-11-23T19:28:21.619425+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
   },
   {
     "name": "1st Avenue Power",
@@ -192,34 +132,6 @@
     "detected_at": "2026-09-25T07:59:45.838940+00:00",
     "status": "pending",
     "source_list": "vc-portfolio-watcher"
-  },
-  {
-    "name": "CargoKite",
-    "domain": "cargokite.com",
-    "website": "https://cargokite.com",
-    "tagline": "Clean kitesurfing cargo ships. Big Picture Big cargo ships come with big problems. Not only do container ships emit more than a billion tons of CO₂ a year, these massive vessels can only access about 5% of the world’s ports. As recent shipping accidents and supply chain chaos make all too clear, thi",
-    "founders": "",
-    "founded": "2020",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Lowercarbon",
-        "first_funded": "2025-03-06",
-        "focus": "",
-        "source_url": "https://lowercarbon.com/company/cargokite/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.578,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2025-03-06",
-    "detected_at": "2026-09-25T07:59:45.838940+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "Fail as dormant: site still live and lists investors, but no dated 2026 news, launch or milestone found; latest verifiable item is the July 2024 Lomarlabs agreement (first ships targeted for 2027). The site shows no dated updates. Re-add if"
   },
   {
     "name": "FarmHQ",
@@ -300,10 +212,10 @@
     "source_list": "vc-portfolio-watcher"
   },
   {
-    "name": "Mesa Quantum",
-    "domain": "mesaquantum.com",
-    "website": "https://mesaquantum.com/",
-    "tagline": "Mesa Quantum's sensors are changing how systems perceive our world. Our mass-manufacturable, chip-scale sensors help machines know where they are, what time it is, and what's around them.",
+    "name": "프레이저테라퓨틱스",
+    "domain": "prazertx.com",
+    "website": "https://prazertx.com/",
+    "tagline": "PRAZER THERAPEUTICS",
     "founders": "",
     "founded": "",
     "city": "",
@@ -316,104 +228,15 @@
         "new_this_run": true
       }
     ],
-    "fund_overlap": 0.558,
+    "fund_overlap": 0.566,
     "needs_check": false,
     "software_for_hard_tech": false,
     "possible_match": [],
     "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "added",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "added as Mesa Quantum"
-  },
-  {
-    "name": "Rapidsos",
-    "domain": "rapidsos.com",
-    "website": "https://rapidsos.com/",
-    "tagline": "As the leading public safety AI company, RapidSOS unlocks mission-critical intelligence for first responders and security teams.",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Playground",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://playground.global/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.558,
-    "needs_check": false,
-    "software_for_hard_tech": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: software (public-safety data)"
-  },
-  {
-    "name": "Terraton",
-    "domain": "terraton.ai",
-    "website": "https://terraton.ai/",
-    "tagline": "Terraton is a full-stack biochar platform for agribusiness operators ready to build carbon removal into their business.",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Gigascale",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://gigascale.com/portfolio/",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.5,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "Bar 2 fails: Terraton (terraton.ai) is a biochar 'business-in-a-box' that arranges financing, vetted third-party equipment, tracking software and carbon-credit sales for agribusiness partners who build and run the facilities. It does not ma"
-  },
-  {
-    "name": "PowerMarket",
-    "domain": "powermarket.net",
-    "website": "http://www.powermarket.net/",
-    "tagline": "PowerMarket is the UK's leading solar energy platform for enterprises. Specialising in Solar PPA solutions, power purchase agreements, and intelligent renewable energy management for businesses.",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Seraphim Space",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://seraphim.vc/portfolio",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.343,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: solar PPA marketplace"
+    "since": "2026-11-23",
+    "detected_at": "2026-11-23T19:28:21.619425+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
   },
   {
     "name": "Aptamino",
@@ -468,122 +291,6 @@
     "source_list": "vc-portfolio-watcher"
   },
   {
-    "name": "Aera Therapeutics",
-    "domain": "aeratx.com",
-    "website": "https://aeratx.com",
-    "tagline": "Aera Therapeutics is a biotechnology company that uses its proprietary protein nanoparticle (PNP) delivery platform to help genetic medicines reach their full potential. Aera's platform, which is based on endogenous human proteins, is being developed to address the limitations of current delivery te",
-    "founders": "",
-    "founded": "",
-    "city": "West Street / River Street, Boston, MA, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Biopharma, Biotechnology, Biotechnology Research, Product Research",
-        "source_url": "https://jobs.luxcapital.com/companies/aera-therapeutics",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: therapeutics developer"
-  },
-  {
-    "name": "Braid Health",
-    "domain": "braid.health",
-    "website": "https://braid.health",
-    "tagline": "Braid Health is a digital health innovation company that develops an AI-powered diagnostic collaboration platform that improves the speed, quality, and workflow of radiologists and healthcare providers. Braid Health empowers radiologists and healthcare providers to deliver diagnoses for any patient,",
-    "founders": "",
-    "founded": "",
-    "city": "San Francisco, CA, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Artificial Intelligence (AI), Health Care, Health Diagnostics",
-        "source_url": "https://jobs.luxcapital.com/companies/braid-health",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: digital-health software"
-  },
-  {
-    "name": "Hangar Technology",
-    "domain": "hangar.com",
-    "website": "https://hangar.com",
-    "tagline": "Hangar is building an automated platform for drones to deliver fast, professional aerial data across industry. Using a proprietary autonomous flight engine deeply integrated with the world’s top-selling drones, Hangar allows a worldwide network of pilots to safely and professionally acquire data. Th",
-    "founders": "",
-    "founded": "",
-    "city": "Austin, TX, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Cloud Computing, Drones, Enterprise Software, Robotics, Software",
-        "source_url": "https://jobs.luxcapital.com/companies/hangar-technology",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "Not independent: acquired by AirMap (announced 23 Sep 2019). hangar.com now shows only a 'Hangar Aerospace' contact form (c 2025), not an operating product site."
-  },
-  {
-    "name": "Higharc",
-    "domain": "higharc.com",
-    "website": "https://higharc.com",
-    "tagline": "Higharc is the all-in-one web platform that simplifies, connects, and improves each step of design, construction, and sales for home building. It enables builders to design, sell in 3D, and get permit-ready construction documents — all in a single platform. Higharc is on a mission to help builders c",
-    "founders": "",
-    "founded": "",
-    "city": "Duke University - Main Campus, Durham, NC, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Architecture, Artificial Intelligence (AI), Construction, Real Estate, Software",
-        "source_url": "https://jobs.luxcapital.com/companies/higharc",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: homebuilding design SaaS"
-  },
-  {
     "name": "Kela Technologies",
     "domain": "kelasys.com",
     "website": "https://kelasys.com",
@@ -600,7 +307,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "software_for_hard_tech": true,
     "possible_match": [],
@@ -611,184 +318,10 @@
     "source_list": "vc-portfolio-watcher"
   },
   {
-    "name": "Nomic",
-    "domain": "nomic.bio",
-    "website": "https://nomic.bio",
-    "tagline": "Nomic is a bioengineering company working to make the human proteome as broadly and easily accessible as the human genome. They are building the nELISA, a next-generation protein profiling platform for measuring proteins at scale and at high throughput. They offer scientists protein profiling soluti",
-    "founders": "",
-    "founded": "",
-    "city": "Montreal, QC, Canada",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Biotechnology, Biotechnology Research, Health Diagnostics, Market Research, Nanotechnology",
-        "source_url": "https://jobs.luxcapital.com/companies/nomic-2",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "added",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "added as Nomic"
-  },
-  {
-    "name": "Nozomi Networks",
-    "domain": "nozominetworks.com",
-    "website": "https://nozominetworks.com",
-    "tagline": "Nozomi Networks offers a cybersecurity platform that protects Operational Technology (OT), Internet of Things (IoT), and cyber-physical systems through unified visibility, threat detection, and automated remediation. Nozomi Networks delivers network and endpoint monitoring via sensors such as Guardi",
-    "founders": "",
-    "founded": "",
-    "city": "San Francisco, CA, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Computer and Network Security, Cyber Security, Information Technology, Internet of Things, Network Security",
-        "source_url": "https://jobs.luxcapital.com/companies/nozomi-networks",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "Not independent: Mitsubishi Electric completed its ~$1B acquisition of Nozomi Networks on 28 Jan 2026 (wholly owned subsidiary)."
-  },
-  {
-    "name": "OpenSpace",
-    "domain": "openspace.ai",
-    "website": "https://openspace.ai",
-    "tagline": "OpenSpace is the Visual Intelligence Platform for builders — the category-defining platform that combines reality capture, Spatial AI, and field execution workflows for the construction industry. Leading builders worldwide, including Suffolk, Comfort Systems, and Tishman Speyer, rely on OpenSpace to",
-    "founders": "",
-    "founded": "",
-    "city": "Union Street, San Francisco, CA, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Artificial Intelligence (AI), Construction, Data Visualization, Information Technology, Software, Software Development",
-        "source_url": "https://jobs.luxcapital.com/companies/openspace",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: construction SaaS (reality capture)"
-  },
-  {
-    "name": "Plexium",
-    "domain": "plexium.com",
-    "website": "https://plexium.com",
-    "tagline": "Plexium develops a targeted protein degradation platform to find new therapies for cancer and other diseases. Plexium's platform focuses on the discovery of next-generation TPD drugs that extend beyond the limited applications of Proteolysis Targeting Chimeras (PROTACs) and cereblon imids, unravelin",
-    "founders": "",
-    "founded": "",
-    "city": "Liberty Station, San Diego, CA, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Biotechnology, Health Care, Medical, Pharmaceutical, Therapeutics",
-        "source_url": "https://jobs.luxcapital.com/companies/plexium",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: therapeutics developer"
-  },
-  {
-    "name": "Addepar",
-    "domain": "addepar.com",
-    "website": "https://addepar.com",
-    "tagline": "Addepar is a software and data platform that is purpose-built for professional wealth, investment, and asset management firms to deliver outstanding results for their clients. More than 800 leading firms trust Addepar to unlock the power and possibility of more informed, data-driven investing and ad",
-    "founders": "",
-    "founded": "",
-    "city": "Mountain View, CA, USA",
-    "funds": [
-      {
-        "fund": "8VC",
-        "first_funded": "",
-        "focus": "Analytics, Financial Services, Fintech, Software Development, Wealth Management",
-        "source_url": "https://jobs.8vc.com/companies/addepar",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.119,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: wealth-management software"
-  },
-  {
-    "name": "Ascend.io",
-    "domain": "ascend.io",
-    "website": "https://ascend.io",
-    "tagline": "Ascend.io, named a 2021 Gartner Cool Vendor, provides the most advanced automation for data and analytics engineering workloads. Ascend unifies the core capabilities of data engineering—data ingestion, transformation, delivery, orchestration, and observability—into a single platform so that data tea",
-    "founders": "",
-    "founded": "",
-    "city": "Palo Alto, CA, USA",
-    "funds": [
-      {
-        "fund": "8VC",
-        "first_funded": "",
-        "focus": "Analytics, Artificial Intelligence (AI), Big Data, Data Center Automation, SaaS, Software",
-        "source_url": "https://jobs.8vc.com/companies/ascend-io",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.119,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: data-engineering software"
-  },
-  {
-    "name": "Coherence Neuro",
-    "domain": "coherenceneuro.com",
-    "website": "https://coherenceneuro.com",
-    "tagline": "We're building the world's first cancer therapy platform that learns. \r\n\r\n",
+    "name": "Mosaic Intelligence Labs",
+    "domain": "mosaicintelligence.xyz",
+    "website": "https://mosaicintelligence.xyz",
+    "tagline": "The future of surgery starts with perception.\r\n\r\nMosaic Intelligence Labs builds embodied intelligence and robotics to push the frontiers of surgery. Our mission is to expand the success, scope and scalability of surgery, starting from what can be treated from inside the vascular system.",
     "founders": "",
     "founded": "",
     "city": "San Francisco, CA, USA",
@@ -797,27 +330,25 @@
         "fund": "8VC",
         "first_funded": "",
         "focus": "",
-        "source_url": "https://jobs.8vc.com/companies/coherence-neuro",
-        "new_this_run": false
+        "source_url": "https://jobs.8vc.com/companies/mosaic-intelligence-labs-2",
+        "new_this_run": true
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
-    "software_for_hard_tech": true,
+    "software_for_hard_tech": false,
     "possible_match": [],
     "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "added",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "added as Coherence"
+    "since": "2026-11-23",
+    "detected_at": "2026-11-23T19:28:21.619425+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
   },
   {
-    "name": "Color",
-    "domain": "color.com",
-    "website": "https://color.com",
-    "tagline": "Color is a complete platform for healthcare delivery. From population genomics programs to high-throughput COVID-19 testing, Color provides the technology and infrastructure for large-scale health initiatives.\n\nEquitable, accessible healthcare programs.\n\nWe bring together everything that’s required ",
+    "name": "Somana",
+    "domain": "somana.tech",
+    "website": "https://somana.tech",
+    "tagline": "We develop generative robotics technology and physical AI infrastructure for industrial applications. Our platform combines specialised computing hardware, software, sensors and robotic systems to improve manufacturing capacity, production throughput, yield and quality. We build systems that collect",
     "founders": "",
     "founded": "",
     "city": "San Francisco, CA, USA",
@@ -825,399 +356,101 @@
       {
         "fund": "8VC",
         "first_funded": "",
-        "focus": "Apps, Biotechnology, Electronic Health Record (EHR), Genetics, Health Care, Personal Health",
-        "source_url": "https://jobs.8vc.com/companies/color-2",
-        "new_this_run": false
+        "focus": "",
+        "source_url": "https://jobs.8vc.com/companies/somana-2-73342af2-c606-45b1-baab-188b5654d491",
+        "new_this_run": true
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
-    "software_for_hard_tech": true,
+    "software_for_hard_tech": false,
     "possible_match": [],
     "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: healthcare services"
+    "since": "2026-11-23",
+    "detected_at": "2026-11-23T19:28:21.619425+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
   },
   {
-    "name": "Coram AI",
-    "domain": "coram.ai",
-    "website": "https://coram.ai",
-    "tagline": "Coram AI develops a video intelligence platform to provide businesses with insights into daily operations. The company offers a novel, AI-native security platform that helps customers ranging from schools to manufacturers better monitor their sites to dramatically improve safety and efficiency.",
+    "name": "Kaizen",
+    "domain": "kaizenlabs.co",
+    "website": "https://kaizenlabs.co",
+    "tagline": "Kaizen builds and runs the application layer for America's mission-critical services, helping federal agencies replace legacy systems with AI-native applications that warfighters, public servants, Veterans, and citizens rely on to complete essential work.",
     "founders": "",
     "founded": "",
-    "city": "Palo Alto, CA, USA",
+    "city": "New York, United States",
     "funds": [
       {
-        "fund": "8VC",
+        "fund": "a16z",
         "first_funded": "",
-        "focus": "Artificial Intelligence (AI), Computer Vision, Intelligent Systems, Security, Software, Software Development",
-        "source_url": "https://jobs.8vc.com/companies/coram-ai",
+        "focus": "American Dynamism",
+        "source_url": "https://jobs.a16z.com/companies",
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.077,
     "needs_check": false,
-    "software_for_hard_tech": true,
+    "software_for_hard_tech": false,
     "possible_match": [],
     "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: video-security software"
+    "since": "2026-11-23",
+    "detected_at": "2026-11-23T19:28:21.619425+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
   },
   {
-    "name": "Felux",
-    "domain": "felux.com",
-    "website": "https://felux.com",
-    "tagline": "Felux is a supply chain platform that serves the mining industry.",
-    "founders": "",
-    "founded": "",
-    "city": "Cleveland, OH, USA",
+    "name": "Kaizen",
+    "domain": "kaizenlabs.com",
+    "website": "https://www.kaizenlabs.com/",
+    "tagline": "Kaizen builds and runs the application layer for America's mission-critical services, helping federal agencies replace legacy systems with AI-native applications that warfighters, public servants, Veterans, and citizens rely on to complete essential work. ",
+    "founders": "Nikhil Reddy, KJ Shah",
+    "founded": "2022",
+    "city": "",
     "funds": [
       {
-        "fund": "8VC",
-        "first_funded": "",
-        "focus": "B2B, Mining, Procurement, Supply Chain Management",
-        "source_url": "https://jobs.8vc.com/companies/felux",
-        "new_this_run": false
+        "fund": "a16z",
+        "first_funded": "2023-11-15",
+        "focus": "American Dynamism",
+        "source_url": "https://a16z.com/companies/kaizen-labs/",
+        "new_this_run": true
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.077,
     "needs_check": false,
-    "software_for_hard_tech": true,
+    "software_for_hard_tech": false,
     "possible_match": [],
     "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: mining supply marketplace"
+    "since": "2023-11-15",
+    "detected_at": "2026-11-23T19:28:21.619425+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
   },
   {
-    "name": "Flexport",
-    "domain": "flexport.com",
-    "website": "https://flexport.com",
-    "tagline": "Flexport offers ocean and air freight services, customs brokerage, trucking coordination, and fulfillment solutions for both direct-to-consumer and business shipments. Its technology platform delivers shipment tracking, SKU-level visibility, cost management tools, and centralized documentation acros",
-    "founders": "",
-    "founded": "",
-    "city": "San Francisco, CA, USA",
-    "funds": [
-      {
-        "fund": "8VC",
-        "first_funded": "",
-        "focus": "Freight Service, Logistics, Shipping, Software, Supply Chain Management, Transportation, Logistics, Supply Chain and Storage",
-        "source_url": "https://jobs.8vc.com/companies/flexport",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.119,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: freight forwarder"
-  },
-  {
-    "name": "Hearth",
-    "domain": "gethearth.com",
-    "website": "https://gethearth.com",
-    "tagline": "Shogun Enterprises is a financial technology platform for home improvement.",
-    "founders": "",
-    "founded": "",
-    "city": "West University, Austin, TX, USA",
-    "funds": [
-      {
-        "fund": "8VC",
-        "first_funded": "",
-        "focus": "Construction, Financial Services, Fintech, Software Development",
-        "source_url": "https://jobs.8vc.com/companies/hearth",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.119,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: fintech"
-  },
-  {
-    "name": "Invisible AI",
-    "domain": "invisible.ai",
-    "website": "https://invisible.ai",
-    "tagline": "Invisible AI is a next-generation computer vision company that offers a no-code, edge-based visual intelligence platform to improve quality, productivity, and safety in manufacturing industries. Its low-bandwidth and low-cost cameras, which can be deployed at each workstation, track real-time human ",
-    "founders": "",
-    "founded": "",
-    "city": "Palo Alto, CA, USA",
-    "funds": [
-      {
-        "fund": "8VC",
-        "first_funded": "",
-        "focus": "Artificial Intelligence (AI), Automation Machinery Manufacturing, Computer Vision, Machine Learning, Motion Capture, Productivity Tools",
-        "source_url": "https://jobs.8vc.com/companies/invisible-ai",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.119,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "added",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "added as Invisible AI"
-  },
-  {
-    "name": "Lumber",
-    "domain": "lumberfi.com",
-    "website": "https://lumberfi.com",
-    "tagline": "Lumber is an automated payroll, time-tracking, accounts payable, compliance, and onboarding platform for the construction industry.",
-    "founders": "",
-    "founded": "",
-    "city": "Stokes, San Jose, CA, USA",
-    "funds": [
-      {
-        "fund": "8VC",
-        "first_funded": "",
-        "focus": "Construction, Financial Services, Payments",
-        "source_url": "https://jobs.8vc.com/companies/lumber",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.119,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: payroll software"
-  },
-  {
-    "name": "Plotlogic",
-    "domain": "plotlogic.com",
-    "website": "https://plotlogic.com",
-    "tagline": "Plotlogic is a global technology company allowing mine operators to understand the location and material properties of every rock in the mine. It utilizes an AI and sensor-driven platform to enhance yield in the critical mineral industry.",
-    "founders": "",
-    "founded": "",
-    "city": "Red Hill QLD 4059, Australia",
-    "funds": [
-      {
-        "fund": "8VC",
-        "first_funded": "",
-        "focus": "Analytics, Artificial Intelligence (AI), Mining, Mining Technology",
-        "source_url": "https://jobs.8vc.com/companies/plotlogic-2",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.119,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "added",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "added as Plotlogic"
-  },
-  {
-    "name": "Premise",
-    "domain": "premise.com",
-    "website": "https://premise.com",
-    "tagline": "Premise is a data and analytics platform that empowers decision-makers with real-time, actionable intelligence. By combining the power of a global network of on-the-ground contributors with industry-leading data science and machine learning, Premise is ‘The Source of Ground Truth.’ A $66M Series C v",
-    "founders": "",
-    "founded": "",
-    "city": "San Francisco, CA, USA",
-    "funds": [
-      {
-        "fund": "8VC",
-        "first_funded": "",
-        "focus": "Analytics, Big Data, Business Intelligence, Data Visualization, Enterprise Software, Information Services",
-        "source_url": "https://jobs.8vc.com/companies/premise-2-e37565a3-0b97-48b9-bc62-b494c2f81034",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.119,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: data/analytics"
-  },
-  {
-    "name": "RealScout",
-    "domain": "realscout.com",
-    "website": "https://realscout.com",
-    "tagline": "RealScout is the platform that powers successful relationships between real estate professionals and their clients. For home buyers and their agents, RealScout offers a collaborative home search experience that makes picking the perfect home simple and easy. For home sellers and their agents, RealSc",
-    "founders": "",
-    "founded": "",
-    "city": "San Francisco, CA, USA",
-    "funds": [
-      {
-        "fund": "8VC",
-        "first_funded": "",
-        "focus": "PropTech, Real Estate, Residential",
-        "source_url": "https://jobs.8vc.com/companies/realscout",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.119,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: real-estate software"
-  },
-  {
-    "name": "Superpower",
-    "domain": "superpower.com",
-    "website": "https://superpower.com",
-    "tagline": "Superpower offers a digital health platform that integrates comprehensive diagnostics, personalized care plans, and health tracking tools. The service includes over 100 lab tests per year, covering areas such as cardiovascular health, hormone levels, inflammation, and gut microbiome analysis. Users ",
-    "founders": "",
-    "founded": "",
-    "city": "Los Angeles, CA, USA",
-    "funds": [
-      {
-        "fund": "8VC",
-        "first_funded": "",
-        "focus": "Health Care, Health Diagnostics, Personal Health",
-        "source_url": "https://jobs.8vc.com/companies/superpower-2",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.119,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: consumer health"
-  },
-  {
-    "name": "Welcome Homes",
-    "domain": "welcomehomes.com",
-    "website": "https://welcomehomes.com",
-    "tagline": "Welcome Homes is the online home building platform that makes buying a beautiful new home simple by streamlining the entire new home construction journey from land selection to customization to construction, so home buyers can save time, know what they are going to pay, and live where they want to l",
-    "founders": "",
-    "founded": "",
-    "city": "Union Square, New York, NY, USA",
-    "funds": [
-      {
-        "fund": "8VC",
-        "first_funded": "",
-        "focus": "Construction, Property Development, Real Estate, Residential",
-        "source_url": "https://jobs.8vc.com/companies/welcome-homes",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.119,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: homebuilding marketplace"
-  },
-  {
-    "name": "Xilis",
-    "domain": "xilis.com",
-    "website": "https://xilis.com",
-    "tagline": "Xilis is a biotechnology company that develops technologies to guide precision therapy for cancer patients and accelerate drug discovery. The company's platform enables diagnostics, drug screening, and scalable patient-derived models for drug discovery, enabling physicians and pharmaceutical compani",
-    "founders": "",
-    "founded": "",
-    "city": "Durham, NC, USA",
-    "funds": [
-      {
-        "fund": "8VC",
-        "first_funded": "",
-        "focus": "Biotechnology, Health Care, Health Diagnostics, Life Science, Pharmaceutical",
-        "source_url": "https://jobs.8vc.com/companies/xilis-2-a44dc1b6-a4d3-4e72-b91c-50b58e3b9307",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.119,
-    "needs_check": false,
-    "software_for_hard_tech": true,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-11-16",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "Bar 1/active: xilis.com says 'Xilis, Inc. has closed'; its MOS technology is now sold by Uniform Bio as MOSgen (checked 17 Nov 2026)."
-  },
-  {
-    "name": "Foundry Management",
-    "domain": "foundrymgt.com",
-    "website": "https://www.foundrymgt.com/",
-    "tagline": "Foundry is a company-building platform that embeds technical founders within industrial businesses to develop physical AI products and launch independent companies.",
+    "name": "Valkryn",
+    "domain": "valkryn.co",
+    "website": "https://valkryn.co",
+    "tagline": "Valkryn builds test and evaluation infrastructure that helps defense organizations measure and compare the performance of robotic and autonomous systems under realistic combat conditions.",
     "founders": "",
     "founded": "",
     "city": "",
     "funds": [
       {
         "fund": "a16z",
-        "first_funded": "2026-10-01",
+        "first_funded": "2026-11-17",
         "focus": "American Dynamism",
-        "source_url": "https://a16z.com/companies/foundry-management/",
-        "new_this_run": false
+        "source_url": "https://jobs.a16z.com/companies",
+        "new_this_run": true
       }
     ],
-    "fund_overlap": 0.078,
+    "fund_overlap": 0.077,
     "needs_check": false,
-    "software_for_hard_tech": true,
+    "software_for_hard_tech": false,
     "possible_match": [],
     "listed_by": 1,
-    "since": "2026-10-01",
-    "detected_at": "2026-11-16T17:25:38.049038+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-17",
-    "review_note": "screen 17 Nov: company-building studio, not a product company"
+    "since": "2026-11-17",
+    "detected_at": "2026-11-23T19:28:21.619425+00:00",
+    "status": "pending",
+    "source_list": "vc-portfolio-watcher"
   },
   {
     "name": "Andean Inc",
@@ -1773,6 +1006,35 @@
     "review_note": "added as American Supercritical"
   },
   {
+    "name": "Gravity",
+    "domain": "gravityclimate.com",
+    "website": "https://www.gravityclimate.com/",
+    "tagline": "Gravity is the AI-native platform for energy management, helping enterprises move from compliance-driven carbon reporting to real operational and financial outcomes.",
+    "founders": "Saleh ElHattab",
+    "founded": "2022",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Eclipse",
+        "first_funded": "2025-10-28",
+        "focus": "early_stage",
+        "source_url": "https://eclipse.vc/portfolio/gravity",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.709,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2025-10-28",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: software (carbon/energy management SaaS)"
+  },
+  {
     "name": "Harbinger Industries",
     "domain": "harbinger.industries",
     "website": "https://harbinger.industries/",
@@ -1801,6 +1063,35 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "already in the database as Harbinger"
+  },
+  {
+    "name": "Starboard",
+    "domain": "starboard.biz",
+    "website": "https://www.starboard.biz/",
+    "tagline": "Starboard has deployed agentic quoting, automated rate-ingestion, and procurement networks that materially expand margins and improve execution speed for forwarders.",
+    "founders": "Sumeet Trehan",
+    "founded": "2024",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Eclipse",
+        "first_funded": "2026-03-24",
+        "focus": "early_stage",
+        "source_url": "https://eclipse.vc/portfolio/starboard",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.709,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-03-24",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: software (freight quoting)"
   },
   {
     "name": "Voyager Technologies",
@@ -2282,6 +1573,35 @@
     "matched_record": "Maybell Quantum",
     "reviewed_at": "2026-09-25",
     "review_note": "Added 25 Sept 2026 after primary-source checks (founders, HQ, round); see the record source field."
+  },
+  {
+    "name": "Rev1",
+    "domain": "rev1.so",
+    "website": "https://rev1.so",
+    "tagline": "AI for CAD workflows. Rev1 automates hardware engineering workflows, starting with 3D to 2D CAD drawing conversion",
+    "founders": "Alex Rivero, Louis Liu",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Red Glass",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://www.redglass.vc/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.625,
+    "needs_check": false,
+    "software_for_hard_tech": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "Bar 3 fails: in scope (AI GD&T drawing automation for hardware engineers, YC W26), but only funding found is YC's standard ~$500K (aggregators: pre-seed/convertible note); YC counts only with a priced round or $2M+, and no Red Glass investm"
   },
   {
     "name": "VATN",
@@ -2936,6 +2256,34 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "CargoKite",
+    "domain": "cargokite.com",
+    "website": "https://cargokite.com",
+    "tagline": "Clean kitesurfing cargo ships. Big Picture Big cargo ships come with big problems. Not only do container ships emit more than a billion tons of CO₂ a year, these massive vessels can only access about 5% of the world’s ports. As recent shipping accidents and supply chain chaos make all too clear, thi",
+    "founders": "",
+    "founded": "2020",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Lowercarbon",
+        "first_funded": "2025-03-06",
+        "focus": "",
+        "source_url": "https://lowercarbon.com/company/cargokite/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.578,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2025-03-06",
+    "detected_at": "2026-09-25T07:59:45.838940+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "Fail as dormant: site still live and lists investors, but no dated 2026 news, launch or milestone found; latest verifiable item is the July 2024 Lomarlabs agreement (first ships targeted for 2027). The site shows no dated updates. Re-add if"
   },
   {
     "name": "Cloover",
@@ -3868,6 +3216,35 @@
     "review_note": "Added 25 Sept 2026 after primary-source checks (founders, HQ, round); see the record source field."
   },
   {
+    "name": "Rapidsos",
+    "domain": "rapidsos.com",
+    "website": "https://rapidsos.com/",
+    "tagline": "As the leading public safety AI company, RapidSOS unlocks mission-critical intelligence for first responders and security teams.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.566,
+    "needs_check": false,
+    "software_for_hard_tech": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: software (public-safety data)"
+  },
+  {
     "name": "Reframe Systems",
     "domain": "reframe.systems",
     "website": "https://www.reframe.systems/",
@@ -3926,6 +3303,35 @@
     "matched_record": "Vinci",
     "reviewed_at": "2026-09-25",
     "review_note": "Same company as the tracked record: the fund links an older or alternate domain that redirects to, or belongs to, ours."
+  },
+  {
+    "name": "Mesa Quantum",
+    "domain": "mesaquantum.com",
+    "website": "https://mesaquantum.com/",
+    "tagline": "Mesa Quantum's sensors are changing how systems perceive our world. Our mass-manufacturable, chip-scale sensors help machines know where they are, what time it is, and what's around them.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Playground",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://playground.global/portfolio/",
+        "new_this_run": true
+      }
+    ],
+    "fund_overlap": 0.558,
+    "needs_check": false,
+    "software_for_hard_tech": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "added",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "added as Mesa Quantum"
   },
   {
     "name": "Queue",
@@ -4154,6 +3560,35 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Terraton",
+    "domain": "terraton.ai",
+    "website": "https://terraton.ai/",
+    "tagline": "Terraton is a full-stack biochar platform for agribusiness operators ready to build carbon removal into their business.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Gigascale",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://gigascale.com/portfolio/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.5,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "Bar 2 fails: Terraton (terraton.ai) is a biochar 'business-in-a-box' that arranges financing, vetted third-party equipment, tracking software and carbon-credit sales for agribusiness partners who build and run the facilities. It does not ma"
   },
   {
     "name": "Thalo Labs",
@@ -6744,6 +6179,35 @@
     "review_note": "Fail (hard tech): live site pangalactic.io (offices at Hull University, UK and Monrovia, CA), but everything it sells is software: a post-quantum Linux operating system (GalacticOS), a post-quantum crypto library, secure containers and a qu"
   },
   {
+    "name": "PowerMarket",
+    "domain": "powermarket.net",
+    "website": "http://www.powermarket.net/",
+    "tagline": "PowerMarket is the UK's leading solar energy platform for enterprises. Specialising in Solar PPA solutions, power purchase agreements, and intelligent renewable energy management for businesses.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Seraphim Space",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://seraphim.vc/portfolio",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.343,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: solar PPA marketplace"
+  },
+  {
     "name": "Renoster",
     "domain": "renoster.co",
     "website": "https://www.renoster.co/",
@@ -9046,7 +8510,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 2,
@@ -9081,7 +8545,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 2,
@@ -9116,7 +8580,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 2,
@@ -9144,7 +8608,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9154,6 +8618,35 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Aera Therapeutics",
+    "domain": "aeratx.com",
+    "website": "https://aeratx.com",
+    "tagline": "Aera Therapeutics is a biotechnology company that uses its proprietary protein nanoparticle (PNP) delivery platform to help genetic medicines reach their full potential. Aera's platform, which is based on endogenous human proteins, is being developed to address the limitations of current delivery te",
+    "founders": "",
+    "founded": "",
+    "city": "West Street / River Street, Boston, MA, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Biopharma, Biotechnology, Biotechnology Research, Product Research",
+        "source_url": "https://jobs.luxcapital.com/companies/aera-therapeutics",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: therapeutics developer"
   },
   {
     "name": "Atavistik Bio",
@@ -9172,7 +8665,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9200,7 +8693,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9228,7 +8721,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9256,7 +8749,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9284,7 +8777,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9312,7 +8805,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9322,6 +8815,35 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Braid Health",
+    "domain": "braid.health",
+    "website": "https://braid.health",
+    "tagline": "Braid Health is a digital health innovation company that develops an AI-powered diagnostic collaboration platform that improves the speed, quality, and workflow of radiologists and healthcare providers. Braid Health empowers radiologists and healthcare providers to deliver diagnoses for any patient,",
+    "founders": "",
+    "founded": "",
+    "city": "San Francisco, CA, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Artificial Intelligence (AI), Health Care, Health Diagnostics",
+        "source_url": "https://jobs.luxcapital.com/companies/braid-health",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: digital-health software"
   },
   {
     "name": "Cajal Neuroscience",
@@ -9340,7 +8862,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9368,7 +8890,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9396,7 +8918,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9424,7 +8946,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9452,7 +8974,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9480,7 +9002,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9508,7 +9030,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9536,7 +9058,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9564,7 +9086,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9592,7 +9114,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9620,7 +9142,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9648,7 +9170,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9676,7 +9198,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9704,7 +9226,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9732,7 +9254,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9760,7 +9282,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9788,7 +9310,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9816,7 +9338,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9826,6 +9348,35 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Hangar Technology",
+    "domain": "hangar.com",
+    "website": "https://hangar.com",
+    "tagline": "Hangar is building an automated platform for drones to deliver fast, professional aerial data across industry. Using a proprietary autonomous flight engine deeply integrated with the world’s top-selling drones, Hangar allows a worldwide network of pilots to safely and professionally acquire data. Th",
+    "founders": "",
+    "founded": "",
+    "city": "Austin, TX, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Cloud Computing, Drones, Enterprise Software, Robotics, Software",
+        "source_url": "https://jobs.luxcapital.com/companies/hangar-technology",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "Not independent: acquired by AirMap (announced 23 Sep 2019). hangar.com now shows only a 'Hangar Aerospace' contact form (c 2025), not an operating product site."
   },
   {
     "name": "Happiest Baby",
@@ -9844,7 +9395,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9854,6 +9405,35 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Higharc",
+    "domain": "higharc.com",
+    "website": "https://higharc.com",
+    "tagline": "Higharc is the all-in-one web platform that simplifies, connects, and improves each step of design, construction, and sales for home building. It enables builders to design, sell in 3D, and get permit-ready construction documents — all in a single platform. Higharc is on a mission to help builders c",
+    "founders": "",
+    "founded": "",
+    "city": "Duke University - Main Campus, Durham, NC, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Architecture, Artificial Intelligence (AI), Construction, Real Estate, Software",
+        "source_url": "https://jobs.luxcapital.com/companies/higharc",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: homebuilding design SaaS"
   },
   {
     "name": "Inductive Bio",
@@ -9872,7 +9452,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9900,7 +9480,576 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.206,
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-12",
+    "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "LabGenius",
+    "domain": "labgeni.us",
+    "website": "https://labgeni.us",
+    "tagline": "LabGenius is a biopharmaceutical company developing protein therapeutics using a machine learning-driven evolution engine. Its protein engineering platform integrates several bleeding-edge technologies from the fields of machine learning, synthetic biology, and robotics.",
+    "founders": "",
+    "founded": "",
+    "city": "Mile End, London, UK",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Artificial Intelligence (AI), Biotechnology, Biotechnology Research, Machine Learning, Robotics, Therapeutics",
+        "source_url": "https://jobs.luxcapital.com/companies/labgenius",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "possible_match": [
+      "LabGenius"
+    ],
+    "listed_by": 1,
+    "since": "2026-10-12",
+    "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "duplicate",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-06",
+    "review_note": "already in the database as LabGenius"
+  },
+  {
+    "name": "LatchBio",
+    "domain": "latch.bio",
+    "website": "https://latch.bio",
+    "tagline": "LatchBio develops a data infrastructure intended to build and disseminate the open-source infrastructure of the biocomputing revolution. Founded in 2021 by Alfredo Andere, Kyle Giffin, and Kenny Workman, the company creates open-source machine learning and cloud infrastructure for the next generatio",
+    "founders": "",
+    "founded": "",
+    "city": "San Francisco, CA, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Artificial Intelligence (AI), Bioinformatics, Biopharma, Biotechnology, Machine Learning",
+        "source_url": "https://jobs.luxcapital.com/companies/latchbio",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-12",
+    "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Lightsense Technology",
+    "domain": "lightsensetechnology.com",
+    "website": "https://lightsensetechnology.com",
+    "tagline": "Lightsense Technology has developed a revolutionary new generation of infrared gas sensors.",
+    "founders": "",
+    "founded": "",
+    "city": "Tucson, AZ, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Electronics, Energy, Industrial Engineering",
+        "source_url": "https://jobs.luxcapital.com/companies/lightsense-technology",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-12",
+    "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-06",
+    "review_note": "Fail (evidence): the site is live and the product is real (DrugDetect-F1 handheld fentanyl detector; NYC Corrections bought 'multiple units' in Aug 2025), but there is no verified $5M+ raise (SEC Form D shows $20K in 2015; an aggregator rep"
+  },
+  {
+    "name": "Looking Glass Factory",
+    "domain": "lookingglassfactory.com",
+    "website": "https://lookingglassfactory.com",
+    "tagline": "Looking Glass Factory is building the holographic future, starting with the Looking Glass, the world’s first desktop holographic display for 3D creators—no VR or AR headset required. The company was founded in 2015 and is headquartered in Brooklyn, New York, with a wholly-owned subsidiary in Hong Ko",
+    "founders": "",
+    "founded": "",
+    "city": "United States",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "3D Modeling, 3D Technology, Augmented Reality, Business And Industrial, Computers and Electronics Manufacturing, Consumer Products, Hardware",
+        "source_url": "https://jobs.luxcapital.com/companies/looking-glass-factory",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-12",
+    "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Noon Home",
+    "domain": "noonhome.com",
+    "website": "https://noonhome.com",
+    "tagline": "Noon Home is a new home automation startup that creates the Noon Smart Lighting System and other products for the home.\n\nThe Noon Smart Lighting System transforms spaces with professional-quality layered lighting with one-touch control. Working with the existing lights and fixtures, Noon creates lig",
+    "founders": "",
+    "founded": "",
+    "city": "Cupertino, CA, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Computers and Electronics Manufacturing, Consumer Electronics, Consumer Goods, Electronics",
+        "source_url": "https://jobs.luxcapital.com/companies/noon-home",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-12",
+    "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Nozomi Networks",
+    "domain": "nozominetworks.com",
+    "website": "https://nozominetworks.com",
+    "tagline": "Nozomi Networks offers a cybersecurity platform that protects Operational Technology (OT), Internet of Things (IoT), and cyber-physical systems through unified visibility, threat detection, and automated remediation. Nozomi Networks delivers network and endpoint monitoring via sensors such as Guardi",
+    "founders": "",
+    "founded": "",
+    "city": "San Francisco, CA, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Computer and Network Security, Cyber Security, Information Technology, Internet of Things, Network Security",
+        "source_url": "https://jobs.luxcapital.com/companies/nozomi-networks",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "Not independent: Mitsubishi Electric completed its ~$1B acquisition of Nozomi Networks on 28 Jan 2026 (wholly owned subsidiary)."
+  },
+  {
+    "name": "OpenSpace",
+    "domain": "openspace.ai",
+    "website": "https://openspace.ai",
+    "tagline": "OpenSpace is the Visual Intelligence Platform for builders — the category-defining platform that combines reality capture, Spatial AI, and field execution workflows for the construction industry. Leading builders worldwide, including Suffolk, Comfort Systems, and Tishman Speyer, rely on OpenSpace to",
+    "founders": "",
+    "founded": "",
+    "city": "Union Street, San Francisco, CA, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Artificial Intelligence (AI), Construction, Data Visualization, Information Technology, Software, Software Development",
+        "source_url": "https://jobs.luxcapital.com/companies/openspace",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: construction SaaS (reality capture)"
+  },
+  {
+    "name": "Physical Intelligence",
+    "domain": "physicalintelligence.company",
+    "website": "https://physicalintelligence.company",
+    "tagline": "Physical Intelligence is a company working on integrating general-purpose AI with robotics and physical devices. It develops foundation models and learning algorithms for robots to allow industries to perform tasks across various applications.",
+    "founders": "",
+    "founded": "",
+    "city": "San Francisco, CA, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Artificial Intelligence (AI), Embedded Software, Machine Learning, Robotics, Software",
+        "source_url": "https://jobs.luxcapital.com/companies/physical-intelligence",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "possible_match": [
+      "Physical Intelligence"
+    ],
+    "listed_by": 1,
+    "since": "2026-10-12",
+    "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "duplicate",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-06",
+    "review_note": "already in the database as Physical Intelligence"
+  },
+  {
+    "name": "Plexium",
+    "domain": "plexium.com",
+    "website": "https://plexium.com",
+    "tagline": "Plexium develops a targeted protein degradation platform to find new therapies for cancer and other diseases. Plexium's platform focuses on the discovery of next-generation TPD drugs that extend beyond the limited applications of Proteolysis Targeting Chimeras (PROTACs) and cereblon imids, unravelin",
+    "founders": "",
+    "founded": "",
+    "city": "Liberty Station, San Diego, CA, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Biotechnology, Health Care, Medical, Pharmaceutical, Therapeutics",
+        "source_url": "https://jobs.luxcapital.com/companies/plexium",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: therapeutics developer"
+  },
+  {
+    "name": "Recursion Pharmaceuticals",
+    "domain": "recursionpharma.com",
+    "website": "https://recursionpharma.com",
+    "tagline": "We are a clinical-stage techbio company decoding biology by integrating technological innovations across biology, chemistry, automation, data science, and engineering to industrialize drug discovery.\n\nWe are leveraging new technology to create virtuous cycles of learning around datasets to build the",
+    "founders": "",
+    "founded": "",
+    "city": "Salt Lake City, UT, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Pharmaceuticals",
+        "source_url": "https://jobs.luxcapital.com/companies/recursion-pharmaceuticals-2-ccbe89ca-ec35-439d-885e-ca59051ce93b",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "possible_match": [
+      "Recursion Pharmaceuticals"
+    ],
+    "listed_by": 1,
+    "since": "2026-10-12",
+    "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "duplicate",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-06",
+    "review_note": "already in the database as Recursion Pharmaceuticals"
+  },
+  {
+    "name": "Ripcord",
+    "domain": "ripcord.com",
+    "website": "https://ripcord.com",
+    "tagline": "Ripcord turns documents into powerful data. As a disruptor in the document intelligence market, Ripcord’s AI-driven platform harnesses proprietary robotics, generative AI, and cloud software to digitize and accurately derive vital information from paper and digital documents. Founded out of NASA res",
+    "founders": "",
+    "founded": "",
+    "city": "Hayward, CA, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Artificial Intelligence (AI), Business Process Automation (BPA), Document Management, Document Preparation, Enterprise Software, Robotics",
+        "source_url": "https://jobs.luxcapital.com/companies/ripcord",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-12",
+    "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Science 37",
+    "domain": "science37.com",
+    "website": "https://science37.com",
+    "tagline": "Science 37 is making the promise of virtual trials the new reality. By engaging with patients from the comfort of their own home, the company provides access to patients who can never be reached by traditional site-based research models. Its virtual model has proven to enroll faster, retain patients",
+    "founders": "",
+    "founded": "",
+    "city": "Durham, NC, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Biotechnology, Clinical Trials, Health Care, Home Health Care, Research Services",
+        "source_url": "https://jobs.luxcapital.com/companies/science-37-2",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-12",
+    "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Shiru",
+    "domain": "shiru.com",
+    "website": "https://shiru.com",
+    "tagline": "Shiru leverages computational design to create enhanced proteins that feed the world sustainably.",
+    "founders": "",
+    "founded": "",
+    "city": "Emeryville, CA, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Artificial Intelligence (AI), Nutrition, Plant-Based Foods",
+        "source_url": "https://jobs.luxcapital.com/companies/shiru",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-12",
+    "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "SkySelect",
+    "domain": "skyselect.com",
+    "website": "https://skyselect.com",
+    "tagline": "SkySelect is a parts procurement service and technology for the $100B aircraft material industry. We are helping the world’s leading airlines to operate efficiently and on time by enabling maintenance leaders to automate the purchasing and fulfillment of high-quality aircraft parts from the world’s ",
+    "founders": "",
+    "founded": "",
+    "city": "San Francisco, CA, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Aerospace, Air Transportation, Airlines and Aviation, Enterprise Software, Information Technology, Supply Chain Management",
+        "source_url": "https://jobs.luxcapital.com/companies/skyselect-2",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-12",
+    "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Tempo Automation",
+    "domain": "tempoautomation.com",
+    "website": "https://tempoautomation.com",
+    "tagline": "Tempo Automation is transforming the way companies innovate and bring new electronic products to market. Tempo’s breakthrough, software-automated PCBA manufacturing platform delivers unprecedented speed, quality, and transparency at the most critical time in a product’s lifecycle – prototype through",
+    "founders": "",
+    "founded": "",
+    "city": "San Francisco, CA, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Appliances, Electrical, and Electronics Manufacturing, Automotive, Consumer Electronics, Electronic Design Automation (EDA), Electronics, Industrial Manufacturing",
+        "source_url": "https://jobs.luxcapital.com/companies/tempo-automation",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-12",
+    "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Timber Technologies",
+    "domain": "timber-technologies.com",
+    "website": "https://timber-technologies.com",
+    "tagline": "Timber Technologies manufactures engineered wood products for post-frame builders, such as glulam beams and columns. Their products include treated and untreated columns for sidewalls and end walls in post-frame buildings, glue-laminated headers and beams, and architectural grade beams for high-end ",
+    "founders": "",
+    "founded": "",
+    "city": "Colfax, WI, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Building Material, Manufacturing, Wood Processing",
+        "source_url": "https://jobs.luxcapital.com/companies/timber-technologies",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-12",
+    "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Transfyr Bio",
+    "domain": "transfyr.bio",
+    "website": "https://transfyr.bio",
+    "tagline": "Transfyr.bio is developing AI-powered tools to help capture, translate, and transfer the unspoken \"know-how\" that is crucial for successful biotech innovation.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://jobs.luxcapital.com/companies/transfyr-bio-2",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-12",
+    "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Variant Bio",
+    "domain": "variantbio.com",
+    "website": "https://variantbio.com",
+    "tagline": "Variant Bio is leveraging the power of human genetic diversity to discover new therapeutics. The company's focus is to identify individuals and populations around the world who are extreme outliers for traits of medical relevance and to use innovative sequencing and analytic approaches to identify g",
+    "founders": "",
+    "founded": "",
+    "city": "University of Washington, Seattle, WA, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Biotechnology, Biotechnology Research, Genetics, Medical, Therapeutics",
+        "source_url": "https://jobs.luxcapital.com/companies/variant-bio",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-12",
+    "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Visterra",
+    "domain": "visterrainc.com",
+    "website": "https://visterrainc.com",
+    "tagline": "Visterra, Inc. engages in pharmaceutical drug research and development of therapeutic and diagnostic products for infectious diseases. It also provides structure-based design of therapeutics and diagnostic platforms, based on an understanding of glycobiology and glycochemistry. The company was forme",
+    "founders": "",
+    "founded": "",
+    "city": "Cambridge, MA, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Biotechnology, Clinical Trials, Health Diagnostics, Therapeutics",
+        "source_url": "https://jobs.luxcapital.com/companies/visterra",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
+    "needs_check": false,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-12",
+    "detected_at": "2026-10-12T16:59:49.684157+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-06",
+    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Zoox",
+    "domain": "zoox.com",
+    "website": "https://zoox.com",
+    "tagline": "Zoox is a California-based robotics company founded by Tim Kentley-Klay and Dr. Jesse Levinson to create autonomous mobility. Operating at the intersection of design, computer science, and electro-mechanical engineering, Zoox is a multidisciplinary team working to imagine and build an advanced mobil",
+    "founders": "",
+    "founded": "",
+    "city": "San Francisco, CA, USA",
+    "funds": [
+      {
+        "fund": "Lux",
+        "first_funded": "",
+        "focus": "Artificial Intelligence (AI), Automotive, Autonomous Vehicles, Machine Learning, Robotics, Transportation",
+        "source_url": "https://jobs.luxcapital.com/companies/zoox",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.213,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -9940,486 +10089,33 @@
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
   },
   {
-    "name": "LabGenius",
-    "domain": "labgeni.us",
-    "website": "https://labgeni.us",
-    "tagline": "LabGenius is a biopharmaceutical company developing protein therapeutics using a machine learning-driven evolution engine. Its protein engineering platform integrates several bleeding-edge technologies from the fields of machine learning, synthetic biology, and robotics.",
+    "name": "Nomic",
+    "domain": "nomic.bio",
+    "website": "https://nomic.bio",
+    "tagline": "Nomic is a bioengineering company working to make the human proteome as broadly and easily accessible as the human genome. They are building the nELISA, a next-generation protein profiling platform for measuring proteins at scale and at high throughput. They offer scientists protein profiling soluti",
     "founders": "",
     "founded": "",
-    "city": "Mile End, London, UK",
+    "city": "Montreal, QC, Canada",
     "funds": [
       {
         "fund": "Lux",
         "first_funded": "",
-        "focus": "Artificial Intelligence (AI), Biotechnology, Biotechnology Research, Machine Learning, Robotics, Therapeutics",
-        "source_url": "https://jobs.luxcapital.com/companies/labgenius",
+        "focus": "Biotechnology, Biotechnology Research, Health Diagnostics, Market Research, Nanotechnology",
+        "source_url": "https://jobs.luxcapital.com/companies/nomic-2",
         "new_this_run": false
       }
     ],
     "fund_overlap": 0.206,
     "needs_check": false,
-    "possible_match": [
-      "LabGenius"
-    ],
-    "listed_by": 1,
-    "since": "2026-10-12",
-    "detected_at": "2026-10-12T16:59:49.684157+00:00",
-    "status": "duplicate",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-06",
-    "review_note": "already in the database as LabGenius"
-  },
-  {
-    "name": "LatchBio",
-    "domain": "latch.bio",
-    "website": "https://latch.bio",
-    "tagline": "LatchBio develops a data infrastructure intended to build and disseminate the open-source infrastructure of the biocomputing revolution. Founded in 2021 by Alfredo Andere, Kyle Giffin, and Kenny Workman, the company creates open-source machine learning and cloud infrastructure for the next generatio",
-    "founders": "",
-    "founded": "",
-    "city": "San Francisco, CA, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Artificial Intelligence (AI), Bioinformatics, Biopharma, Biotechnology, Machine Learning",
-        "source_url": "https://jobs.luxcapital.com/companies/latchbio",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
+    "software_for_hard_tech": true,
     "possible_match": [],
     "listed_by": 1,
-    "since": "2026-10-12",
-    "detected_at": "2026-10-12T16:59:49.684157+00:00",
-    "status": "rejected",
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "added",
     "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-06",
-    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
-  },
-  {
-    "name": "Lightsense Technology",
-    "domain": "lightsensetechnology.com",
-    "website": "https://lightsensetechnology.com",
-    "tagline": "Lightsense Technology has developed a revolutionary new generation of infrared gas sensors.",
-    "founders": "",
-    "founded": "",
-    "city": "Tucson, AZ, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Electronics, Energy, Industrial Engineering",
-        "source_url": "https://jobs.luxcapital.com/companies/lightsense-technology",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-10-12",
-    "detected_at": "2026-10-12T16:59:49.684157+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-06",
-    "review_note": "Fail (evidence): the site is live and the product is real (DrugDetect-F1 handheld fentanyl detector; NYC Corrections bought 'multiple units' in Aug 2025), but there is no verified $5M+ raise (SEC Form D shows $20K in 2015; an aggregator rep"
-  },
-  {
-    "name": "Looking Glass Factory",
-    "domain": "lookingglassfactory.com",
-    "website": "https://lookingglassfactory.com",
-    "tagline": "Looking Glass Factory is building the holographic future, starting with the Looking Glass, the world’s first desktop holographic display for 3D creators—no VR or AR headset required. The company was founded in 2015 and is headquartered in Brooklyn, New York, with a wholly-owned subsidiary in Hong Ko",
-    "founders": "",
-    "founded": "",
-    "city": "United States",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "3D Modeling, 3D Technology, Augmented Reality, Business And Industrial, Computers and Electronics Manufacturing, Consumer Products, Hardware",
-        "source_url": "https://jobs.luxcapital.com/companies/looking-glass-factory",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-10-12",
-    "detected_at": "2026-10-12T16:59:49.684157+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-06",
-    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
-  },
-  {
-    "name": "Noon Home",
-    "domain": "noonhome.com",
-    "website": "https://noonhome.com",
-    "tagline": "Noon Home is a new home automation startup that creates the Noon Smart Lighting System and other products for the home.\n\nThe Noon Smart Lighting System transforms spaces with professional-quality layered lighting with one-touch control. Working with the existing lights and fixtures, Noon creates lig",
-    "founders": "",
-    "founded": "",
-    "city": "Cupertino, CA, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Computers and Electronics Manufacturing, Consumer Electronics, Consumer Goods, Electronics",
-        "source_url": "https://jobs.luxcapital.com/companies/noon-home",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-10-12",
-    "detected_at": "2026-10-12T16:59:49.684157+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-06",
-    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
-  },
-  {
-    "name": "Physical Intelligence",
-    "domain": "physicalintelligence.company",
-    "website": "https://physicalintelligence.company",
-    "tagline": "Physical Intelligence is a company working on integrating general-purpose AI with robotics and physical devices. It develops foundation models and learning algorithms for robots to allow industries to perform tasks across various applications.",
-    "founders": "",
-    "founded": "",
-    "city": "San Francisco, CA, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Artificial Intelligence (AI), Embedded Software, Machine Learning, Robotics, Software",
-        "source_url": "https://jobs.luxcapital.com/companies/physical-intelligence",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "possible_match": [
-      "Physical Intelligence"
-    ],
-    "listed_by": 1,
-    "since": "2026-10-12",
-    "detected_at": "2026-10-12T16:59:49.684157+00:00",
-    "status": "duplicate",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-06",
-    "review_note": "already in the database as Physical Intelligence"
-  },
-  {
-    "name": "Recursion Pharmaceuticals",
-    "domain": "recursionpharma.com",
-    "website": "https://recursionpharma.com",
-    "tagline": "We are a clinical-stage techbio company decoding biology by integrating technological innovations across biology, chemistry, automation, data science, and engineering to industrialize drug discovery.\n\nWe are leveraging new technology to create virtuous cycles of learning around datasets to build the",
-    "founders": "",
-    "founded": "",
-    "city": "Salt Lake City, UT, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Pharmaceuticals",
-        "source_url": "https://jobs.luxcapital.com/companies/recursion-pharmaceuticals-2-ccbe89ca-ec35-439d-885e-ca59051ce93b",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "possible_match": [
-      "Recursion Pharmaceuticals"
-    ],
-    "listed_by": 1,
-    "since": "2026-10-12",
-    "detected_at": "2026-10-12T16:59:49.684157+00:00",
-    "status": "duplicate",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-06",
-    "review_note": "already in the database as Recursion Pharmaceuticals"
-  },
-  {
-    "name": "Ripcord",
-    "domain": "ripcord.com",
-    "website": "https://ripcord.com",
-    "tagline": "Ripcord turns documents into powerful data. As a disruptor in the document intelligence market, Ripcord’s AI-driven platform harnesses proprietary robotics, generative AI, and cloud software to digitize and accurately derive vital information from paper and digital documents. Founded out of NASA res",
-    "founders": "",
-    "founded": "",
-    "city": "Hayward, CA, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Artificial Intelligence (AI), Business Process Automation (BPA), Document Management, Document Preparation, Enterprise Software, Robotics",
-        "source_url": "https://jobs.luxcapital.com/companies/ripcord",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-10-12",
-    "detected_at": "2026-10-12T16:59:49.684157+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-06",
-    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
-  },
-  {
-    "name": "Science 37",
-    "domain": "science37.com",
-    "website": "https://science37.com",
-    "tagline": "Science 37 is making the promise of virtual trials the new reality. By engaging with patients from the comfort of their own home, the company provides access to patients who can never be reached by traditional site-based research models. Its virtual model has proven to enroll faster, retain patients",
-    "founders": "",
-    "founded": "",
-    "city": "Durham, NC, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Biotechnology, Clinical Trials, Health Care, Home Health Care, Research Services",
-        "source_url": "https://jobs.luxcapital.com/companies/science-37-2",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-10-12",
-    "detected_at": "2026-10-12T16:59:49.684157+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-06",
-    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
-  },
-  {
-    "name": "Shiru",
-    "domain": "shiru.com",
-    "website": "https://shiru.com",
-    "tagline": "Shiru leverages computational design to create enhanced proteins that feed the world sustainably.",
-    "founders": "",
-    "founded": "",
-    "city": "Emeryville, CA, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Artificial Intelligence (AI), Nutrition, Plant-Based Foods",
-        "source_url": "https://jobs.luxcapital.com/companies/shiru",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-10-12",
-    "detected_at": "2026-10-12T16:59:49.684157+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-06",
-    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
-  },
-  {
-    "name": "SkySelect",
-    "domain": "skyselect.com",
-    "website": "https://skyselect.com",
-    "tagline": "SkySelect is a parts procurement service and technology for the $100B aircraft material industry. We are helping the world’s leading airlines to operate efficiently and on time by enabling maintenance leaders to automate the purchasing and fulfillment of high-quality aircraft parts from the world’s ",
-    "founders": "",
-    "founded": "",
-    "city": "San Francisco, CA, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Aerospace, Air Transportation, Airlines and Aviation, Enterprise Software, Information Technology, Supply Chain Management",
-        "source_url": "https://jobs.luxcapital.com/companies/skyselect-2",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-10-12",
-    "detected_at": "2026-10-12T16:59:49.684157+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-06",
-    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
-  },
-  {
-    "name": "Tempo Automation",
-    "domain": "tempoautomation.com",
-    "website": "https://tempoautomation.com",
-    "tagline": "Tempo Automation is transforming the way companies innovate and bring new electronic products to market. Tempo’s breakthrough, software-automated PCBA manufacturing platform delivers unprecedented speed, quality, and transparency at the most critical time in a product’s lifecycle – prototype through",
-    "founders": "",
-    "founded": "",
-    "city": "San Francisco, CA, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Appliances, Electrical, and Electronics Manufacturing, Automotive, Consumer Electronics, Electronic Design Automation (EDA), Electronics, Industrial Manufacturing",
-        "source_url": "https://jobs.luxcapital.com/companies/tempo-automation",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-10-12",
-    "detected_at": "2026-10-12T16:59:49.684157+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-06",
-    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
-  },
-  {
-    "name": "Timber Technologies",
-    "domain": "timber-technologies.com",
-    "website": "https://timber-technologies.com",
-    "tagline": "Timber Technologies manufactures engineered wood products for post-frame builders, such as glulam beams and columns. Their products include treated and untreated columns for sidewalls and end walls in post-frame buildings, glue-laminated headers and beams, and architectural grade beams for high-end ",
-    "founders": "",
-    "founded": "",
-    "city": "Colfax, WI, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Building Material, Manufacturing, Wood Processing",
-        "source_url": "https://jobs.luxcapital.com/companies/timber-technologies",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-10-12",
-    "detected_at": "2026-10-12T16:59:49.684157+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-06",
-    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
-  },
-  {
-    "name": "Transfyr Bio",
-    "domain": "transfyr.bio",
-    "website": "https://transfyr.bio",
-    "tagline": "Transfyr.bio is developing AI-powered tools to help capture, translate, and transfer the unspoken \"know-how\" that is crucial for successful biotech innovation.",
-    "founders": "",
-    "founded": "",
-    "city": "",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "",
-        "source_url": "https://jobs.luxcapital.com/companies/transfyr-bio-2",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-10-12",
-    "detected_at": "2026-10-12T16:59:49.684157+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-06",
-    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
-  },
-  {
-    "name": "Variant Bio",
-    "domain": "variantbio.com",
-    "website": "https://variantbio.com",
-    "tagline": "Variant Bio is leveraging the power of human genetic diversity to discover new therapeutics. The company's focus is to identify individuals and populations around the world who are extreme outliers for traits of medical relevance and to use innovative sequencing and analytic approaches to identify g",
-    "founders": "",
-    "founded": "",
-    "city": "University of Washington, Seattle, WA, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Biotechnology, Biotechnology Research, Genetics, Medical, Therapeutics",
-        "source_url": "https://jobs.luxcapital.com/companies/variant-bio",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-10-12",
-    "detected_at": "2026-10-12T16:59:49.684157+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-06",
-    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
-  },
-  {
-    "name": "Visterra",
-    "domain": "visterrainc.com",
-    "website": "https://visterrainc.com",
-    "tagline": "Visterra, Inc. engages in pharmaceutical drug research and development of therapeutic and diagnostic products for infectious diseases. It also provides structure-based design of therapeutics and diagnostic platforms, based on an understanding of glycobiology and glycochemistry. The company was forme",
-    "founders": "",
-    "founded": "",
-    "city": "Cambridge, MA, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Biotechnology, Clinical Trials, Health Diagnostics, Therapeutics",
-        "source_url": "https://jobs.luxcapital.com/companies/visterra",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-10-12",
-    "detected_at": "2026-10-12T16:59:49.684157+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-06",
-    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
-  },
-  {
-    "name": "Zoox",
-    "domain": "zoox.com",
-    "website": "https://zoox.com",
-    "tagline": "Zoox is a California-based robotics company founded by Tim Kentley-Klay and Dr. Jesse Levinson to create autonomous mobility. Operating at the intersection of design, computer science, and electro-mechanical engineering, Zoox is a multidisciplinary team working to imagine and build an advanced mobil",
-    "founders": "",
-    "founded": "",
-    "city": "San Francisco, CA, USA",
-    "funds": [
-      {
-        "fund": "Lux",
-        "first_funded": "",
-        "focus": "Artificial Intelligence (AI), Automotive, Autonomous Vehicles, Machine Learning, Robotics, Transportation",
-        "source_url": "https://jobs.luxcapital.com/companies/zoox",
-        "new_this_run": false
-      }
-    ],
-    "fund_overlap": 0.206,
-    "needs_check": false,
-    "possible_match": [],
-    "listed_by": 1,
-    "since": "2026-10-12",
-    "detected_at": "2026-10-12T16:59:49.684157+00:00",
-    "status": "rejected",
-    "source_list": "vc-portfolio-watcher",
-    "reviewed": "2026-11-06",
-    "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+    "reviewed": "2026-11-17",
+    "review_note": "added as Nomic"
   },
   {
     "name": "Harbinger Motors",
@@ -13132,6 +12828,64 @@
     "review_note": "Same company as the tracked record: the fund links an older or alternate domain that redirects to, or belongs to, ours."
   },
   {
+    "name": "Addepar",
+    "domain": "addepar.com",
+    "website": "https://addepar.com",
+    "tagline": "Addepar is a software and data platform that is purpose-built for professional wealth, investment, and asset management firms to deliver outstanding results for their clients. More than 800 leading firms trust Addepar to unlock the power and possibility of more informed, data-driven investing and ad",
+    "founders": "",
+    "founded": "",
+    "city": "Mountain View, CA, USA",
+    "funds": [
+      {
+        "fund": "8VC",
+        "first_funded": "",
+        "focus": "Analytics, Financial Services, Fintech, Software Development, Wealth Management",
+        "source_url": "https://jobs.8vc.com/companies/addepar",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.127,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: wealth-management software"
+  },
+  {
+    "name": "Ascend.io",
+    "domain": "ascend.io",
+    "website": "https://ascend.io",
+    "tagline": "Ascend.io, named a 2021 Gartner Cool Vendor, provides the most advanced automation for data and analytics engineering workloads. Ascend unifies the core capabilities of data engineering—data ingestion, transformation, delivery, orchestration, and observability—into a single platform so that data tea",
+    "founders": "",
+    "founded": "",
+    "city": "Palo Alto, CA, USA",
+    "funds": [
+      {
+        "fund": "8VC",
+        "first_funded": "",
+        "focus": "Analytics, Artificial Intelligence (AI), Big Data, Data Center Automation, SaaS, Software",
+        "source_url": "https://jobs.8vc.com/companies/ascend-io",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.127,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: data-engineering software"
+  },
+  {
     "name": "Augmenta Bioworks",
     "domain": "augbio.com",
     "website": "https://augbio.com",
@@ -13148,7 +12902,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13176,7 +12930,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13204,7 +12958,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13214,6 +12968,35 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Color",
+    "domain": "color.com",
+    "website": "https://color.com",
+    "tagline": "Color is a complete platform for healthcare delivery. From population genomics programs to high-throughput COVID-19 testing, Color provides the technology and infrastructure for large-scale health initiatives.\n\nEquitable, accessible healthcare programs.\n\nWe bring together everything that’s required ",
+    "founders": "",
+    "founded": "",
+    "city": "San Francisco, CA, USA",
+    "funds": [
+      {
+        "fund": "8VC",
+        "first_funded": "",
+        "focus": "Apps, Biotechnology, Electronic Health Record (EHR), Genetics, Health Care, Personal Health",
+        "source_url": "https://jobs.8vc.com/companies/color-2",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.127,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: healthcare services"
   },
   {
     "name": "Common Living",
@@ -13232,7 +13015,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13242,6 +13025,35 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Coram AI",
+    "domain": "coram.ai",
+    "website": "https://coram.ai",
+    "tagline": "Coram AI develops a video intelligence platform to provide businesses with insights into daily operations. The company offers a novel, AI-native security platform that helps customers ranging from schools to manufacturers better monitor their sites to dramatically improve safety and efficiency.",
+    "founders": "",
+    "founded": "",
+    "city": "Palo Alto, CA, USA",
+    "funds": [
+      {
+        "fund": "8VC",
+        "first_funded": "",
+        "focus": "Artificial Intelligence (AI), Computer Vision, Intelligent Systems, Security, Software, Software Development",
+        "source_url": "https://jobs.8vc.com/companies/coram-ai",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.127,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: video-security software"
   },
   {
     "name": "Deciduous Therapeutics",
@@ -13260,7 +13072,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13288,7 +13100,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13316,7 +13128,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13344,7 +13156,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13372,7 +13184,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13382,6 +13194,64 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Felux",
+    "domain": "felux.com",
+    "website": "https://felux.com",
+    "tagline": "Felux is a supply chain platform that serves the mining industry.",
+    "founders": "",
+    "founded": "",
+    "city": "Cleveland, OH, USA",
+    "funds": [
+      {
+        "fund": "8VC",
+        "first_funded": "",
+        "focus": "B2B, Mining, Procurement, Supply Chain Management",
+        "source_url": "https://jobs.8vc.com/companies/felux",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.127,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: mining supply marketplace"
+  },
+  {
+    "name": "Flexport",
+    "domain": "flexport.com",
+    "website": "https://flexport.com",
+    "tagline": "Flexport offers ocean and air freight services, customs brokerage, trucking coordination, and fulfillment solutions for both direct-to-consumer and business shipments. Its technology platform delivers shipment tracking, SKU-level visibility, cost management tools, and centralized documentation acros",
+    "founders": "",
+    "founded": "",
+    "city": "San Francisco, CA, USA",
+    "funds": [
+      {
+        "fund": "8VC",
+        "first_funded": "",
+        "focus": "Freight Service, Logistics, Shipping, Software, Supply Chain Management, Transportation, Logistics, Supply Chain and Storage",
+        "source_url": "https://jobs.8vc.com/companies/flexport",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.127,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: freight forwarder"
   },
   {
     "name": "Forethought",
@@ -13400,7 +13270,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13428,7 +13298,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13456,7 +13326,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13484,7 +13354,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13512,7 +13382,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13540,7 +13410,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13550,6 +13420,35 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Hearth",
+    "domain": "gethearth.com",
+    "website": "https://gethearth.com",
+    "tagline": "Shogun Enterprises is a financial technology platform for home improvement.",
+    "founders": "",
+    "founded": "",
+    "city": "West University, Austin, TX, USA",
+    "funds": [
+      {
+        "fund": "8VC",
+        "first_funded": "",
+        "focus": "Construction, Financial Services, Fintech, Software Development",
+        "source_url": "https://jobs.8vc.com/companies/hearth",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.127,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: fintech"
   },
   {
     "name": "Hexagon Bio",
@@ -13568,7 +13467,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13596,7 +13495,7 @@
         "new_this_run": true
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13624,7 +13523,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13652,7 +13551,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13680,7 +13579,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13708,7 +13607,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": true,
     "possible_match": [],
     "listed_by": 1,
@@ -13718,6 +13617,35 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Lumber",
+    "domain": "lumberfi.com",
+    "website": "https://lumberfi.com",
+    "tagline": "Lumber is an automated payroll, time-tracking, accounts payable, compliance, and onboarding platform for the construction industry.",
+    "founders": "",
+    "founded": "",
+    "city": "Stokes, San Jose, CA, USA",
+    "funds": [
+      {
+        "fund": "8VC",
+        "first_funded": "",
+        "focus": "Construction, Financial Services, Payments",
+        "source_url": "https://jobs.8vc.com/companies/lumber",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.127,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: payroll software"
   },
   {
     "name": "Lyell Immunopharma",
@@ -13736,7 +13664,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13764,7 +13692,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13792,7 +13720,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13820,7 +13748,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13848,7 +13776,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13876,7 +13804,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13904,7 +13832,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13932,7 +13860,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13960,7 +13888,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -13988,7 +13916,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -14016,7 +13944,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -14044,7 +13972,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -14054,6 +13982,35 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Premise",
+    "domain": "premise.com",
+    "website": "https://premise.com",
+    "tagline": "Premise is a data and analytics platform that empowers decision-makers with real-time, actionable intelligence. By combining the power of a global network of on-the-ground contributors with industry-leading data science and machine learning, Premise is ‘The Source of Ground Truth.’ A $66M Series C v",
+    "founders": "",
+    "founded": "",
+    "city": "San Francisco, CA, USA",
+    "funds": [
+      {
+        "fund": "8VC",
+        "first_funded": "",
+        "focus": "Analytics, Big Data, Business Intelligence, Data Visualization, Enterprise Software, Information Services",
+        "source_url": "https://jobs.8vc.com/companies/premise-2-e37565a3-0b97-48b9-bc62-b494c2f81034",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.127,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: data/analytics"
   },
   {
     "name": "ProteinQure",
@@ -14072,7 +14029,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -14100,7 +14057,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -14110,6 +14067,35 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "RealScout",
+    "domain": "realscout.com",
+    "website": "https://realscout.com",
+    "tagline": "RealScout is the platform that powers successful relationships between real estate professionals and their clients. For home buyers and their agents, RealScout offers a collaborative home search experience that makes picking the perfect home simple and easy. For home sellers and their agents, RealSc",
+    "founders": "",
+    "founded": "",
+    "city": "San Francisco, CA, USA",
+    "funds": [
+      {
+        "fund": "8VC",
+        "first_funded": "",
+        "focus": "PropTech, Real Estate, Residential",
+        "source_url": "https://jobs.8vc.com/companies/realscout",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.127,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: real-estate software"
   },
   {
     "name": "Rebellion Defense",
@@ -14128,7 +14114,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -14156,7 +14142,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -14184,7 +14170,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -14212,7 +14198,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -14240,7 +14226,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -14250,6 +14236,35 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Superpower",
+    "domain": "superpower.com",
+    "website": "https://superpower.com",
+    "tagline": "Superpower offers a digital health platform that integrates comprehensive diagnostics, personalized care plans, and health tracking tools. The service includes over 100 lab tests per year, covering areas such as cardiovascular health, hormone levels, inflammation, and gut microbiome analysis. Users ",
+    "founders": "",
+    "founded": "",
+    "city": "Los Angeles, CA, USA",
+    "funds": [
+      {
+        "fund": "8VC",
+        "first_funded": "",
+        "focus": "Health Care, Health Diagnostics, Personal Health",
+        "source_url": "https://jobs.8vc.com/companies/superpower-2",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.127,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: consumer health"
   },
   {
     "name": "SURGE Therapeutics",
@@ -14268,7 +14283,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -14296,7 +14311,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -14324,7 +14339,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -14352,7 +14367,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -14380,7 +14395,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -14390,6 +14405,64 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Welcome Homes",
+    "domain": "welcomehomes.com",
+    "website": "https://welcomehomes.com",
+    "tagline": "Welcome Homes is the online home building platform that makes buying a beautiful new home simple by streamlining the entire new home construction journey from land selection to customization to construction, so home buyers can save time, know what they are going to pay, and live where they want to l",
+    "founders": "",
+    "founded": "",
+    "city": "Union Square, New York, NY, USA",
+    "funds": [
+      {
+        "fund": "8VC",
+        "first_funded": "",
+        "focus": "Construction, Property Development, Real Estate, Residential",
+        "source_url": "https://jobs.8vc.com/companies/welcome-homes",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.127,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: homebuilding marketplace"
+  },
+  {
+    "name": "Xilis",
+    "domain": "xilis.com",
+    "website": "https://xilis.com",
+    "tagline": "Xilis is a biotechnology company that develops technologies to guide precision therapy for cancer patients and accelerate drug discovery. The company's platform enables diagnostics, drug screening, and scalable patient-derived models for drug discovery, enabling physicians and pharmaceutical compani",
+    "founders": "",
+    "founded": "",
+    "city": "Durham, NC, USA",
+    "funds": [
+      {
+        "fund": "8VC",
+        "first_funded": "",
+        "focus": "Biotechnology, Health Care, Health Diagnostics, Life Science, Pharmaceutical",
+        "source_url": "https://jobs.8vc.com/companies/xilis-2-a44dc1b6-a4d3-4e72-b91c-50b58e3b9307",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.127,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "Bar 1/active: xilis.com says 'Xilis, Inc. has closed'; its MOS technology is now sold by Uniform Bio as MOSgen (checked 17 Nov 2026)."
   },
   {
     "name": "YourChoice Therapeutics",
@@ -14408,7 +14481,7 @@
         "new_this_run": false
       }
     ],
-    "fund_overlap": 0.119,
+    "fund_overlap": 0.127,
     "needs_check": false,
     "possible_match": [],
     "listed_by": 1,
@@ -14418,6 +14491,93 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Coherence Neuro",
+    "domain": "coherenceneuro.com",
+    "website": "https://coherenceneuro.com",
+    "tagline": "We're building the world's first cancer therapy platform that learns. \r\n\r\n",
+    "founders": "",
+    "founded": "",
+    "city": "San Francisco, CA, USA",
+    "funds": [
+      {
+        "fund": "8VC",
+        "first_funded": "",
+        "focus": "",
+        "source_url": "https://jobs.8vc.com/companies/coherence-neuro",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.119,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "added",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "added as Coherence"
+  },
+  {
+    "name": "Invisible AI",
+    "domain": "invisible.ai",
+    "website": "https://invisible.ai",
+    "tagline": "Invisible AI is a next-generation computer vision company that offers a no-code, edge-based visual intelligence platform to improve quality, productivity, and safety in manufacturing industries. Its low-bandwidth and low-cost cameras, which can be deployed at each workstation, track real-time human ",
+    "founders": "",
+    "founded": "",
+    "city": "Palo Alto, CA, USA",
+    "funds": [
+      {
+        "fund": "8VC",
+        "first_funded": "",
+        "focus": "Artificial Intelligence (AI), Automation Machinery Manufacturing, Computer Vision, Machine Learning, Motion Capture, Productivity Tools",
+        "source_url": "https://jobs.8vc.com/companies/invisible-ai",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.119,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "added",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "added as Invisible AI"
+  },
+  {
+    "name": "Plotlogic",
+    "domain": "plotlogic.com",
+    "website": "https://plotlogic.com",
+    "tagline": "Plotlogic is a global technology company allowing mine operators to understand the location and material properties of every rock in the mine. It utilizes an AI and sensor-driven platform to enhance yield in the critical mineral industry.",
+    "founders": "",
+    "founded": "",
+    "city": "Red Hill QLD 4059, Australia",
+    "funds": [
+      {
+        "fund": "8VC",
+        "first_funded": "",
+        "focus": "Analytics, Artificial Intelligence (AI), Mining, Mining Technology",
+        "source_url": "https://jobs.8vc.com/companies/plotlogic-2",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.119,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-11-16",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "added",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "added as Plotlogic"
   },
   {
     "name": "Bonsai Robotics",
@@ -14698,6 +14858,35 @@
     "source_list": "vc-portfolio-watcher",
     "reviewed": "2026-11-06",
     "review_note": "screen: software / services / consumer / therapeutics-only / acquired, public-and-not-hard-tech or defunct / not a company"
+  },
+  {
+    "name": "Foundry Management",
+    "domain": "foundrymgt.com",
+    "website": "https://www.foundrymgt.com/",
+    "tagline": "Foundry is a company-building platform that embeds technical founders within industrial businesses to develop physical AI products and launch independent companies.",
+    "founders": "",
+    "founded": "",
+    "city": "",
+    "funds": [
+      {
+        "fund": "a16z",
+        "first_funded": "2026-10-01",
+        "focus": "American Dynamism",
+        "source_url": "https://a16z.com/companies/foundry-management/",
+        "new_this_run": false
+      }
+    ],
+    "fund_overlap": 0.078,
+    "needs_check": false,
+    "software_for_hard_tech": true,
+    "possible_match": [],
+    "listed_by": 1,
+    "since": "2026-10-01",
+    "detected_at": "2026-11-16T17:25:38.049038+00:00",
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-17",
+    "review_note": "screen 17 Nov: company-building studio, not a product company"
   },
   {
     "name": "Method Security",
