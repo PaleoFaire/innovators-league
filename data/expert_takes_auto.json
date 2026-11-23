@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T14:33:45.931170Z",
+  "generated_at": "2026-11-23T17:58:19.054871Z",
   "takes": [
     {
       "author": "Crunchbase News",
@@ -15,20 +15,20 @@
       "author": "Sifted",
       "role": "Industry signal",
       "company": "Anthropic",
-      "text": "Anthropic\u2019s $1.4tn IPO puts Europe\u2019s AI boom to the test",
-      "date": "Wed, 18 No",
-      "source": "news",
-      "source_url": "https://sifted.eu/articles/anthropic-ipo-puts-europe-ai-boom-to-the-test/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "Sifted",
-      "role": "Industry signal",
-      "company": "Anthropic",
       "text": "Is AI in a bubble? Menlo Ventures\u2019 Deedy Das on Anthropic\u2019s IPO and Europe",
       "date": "Thu, 19 No",
       "source": "news",
       "source_url": "https://sifted.eu/articles/menlo-ventures-podcast/",
+      "signal_type": "ipo"
+    },
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "Anthropic",
+      "text": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "date": "Mon, 23 No",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
       "signal_type": "ipo"
     },
     {
@@ -40,22 +40,12 @@
       "source": "news",
       "source_url": "https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/",
       "signal_type": "funding"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Anthropic&#8217;s 7 founders cashed out nearly $2B in record-breaking IPO",
-      "date": "Fri, 20 No",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
-      "signal_type": "ipo"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 5,
+    "from_news": 4,
     "from_press": 0
   }
 }

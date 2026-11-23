@@ -1,6 +1,7 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-11-22 14:19:20 UTC
+// Last updated: 2026-11-23 17:43:04 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Agrify Corporation", form: "8-K", date: "2026-11-23", description: "ea0312911-8k_rythm.htm", isIPO: false, ticker: "AGFY" },
   { company: "Momentus", form: "8-K", date: "2026-11-20", description: "tm2630244d1_8k.htm", isIPO: false, ticker: "MNTS" },
   { company: "Upstart Holdings", form: "4", date: "2026-11-20", description: "xslF345X06/wk-form4_1795224238.xml", isIPO: false, ticker: "UPST" },
   { company: "Upstart Holdings", form: "4", date: "2026-11-20", description: "xslF345X06/wk-form4_1795224216.xml", isIPO: false, ticker: "UPST" },
@@ -50,5 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "D-Wave Quantum", form: "10-Q", date: "2026-11-16", description: "qbts-20260930.htm", isIPO: false, ticker: "QBTS" },
   { company: "LanzaTech", form: "4", date: "2026-11-16", description: "xslF345X06/wk-form4_1794834989.xml", isIPO: false, ticker: "LNZA" },
   { company: "Satellogic", form: "8-K", date: "2026-11-16", description: "zcar-20261113_8k.htm", isIPO: false, ticker: "SATL" },
-  { company: "Palantir Technologies", form: "4", date: "2026-11-13", description: "xslF345X06/wk-form4_1794618004.xml", isIPO: false, ticker: "PLTR" },
 ];
