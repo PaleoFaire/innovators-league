@@ -2,36 +2,44 @@
  "month": "2026-11",
  "up": [
   {
-   "company": "REGENT Craft",
+   "company": "Odin Dynamics",
    "bucket": "Autonomy & Robotics",
-   "roles_prev": 32,
-   "roles_now": 66,
-   "change": 34,
-   "change_pct": 106.2
+   "roles_prev": 5,
+   "roles_now": 18,
+   "change": 13,
+   "change_pct": 260.0
   },
   {
    "company": "Quantum Space",
    "bucket": "Space & Aerospace",
    "roles_prev": 26,
-   "roles_now": 51,
-   "change": 25,
-   "change_pct": 96.2
+   "roles_now": 57,
+   "change": 31,
+   "change_pct": 119.2
+  },
+  {
+   "company": "REGENT Craft",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 32,
+   "roles_now": 68,
+   "change": 36,
+   "change_pct": 112.5
   },
   {
    "company": "Albedo",
    "bucket": "Space & Aerospace",
    "roles_prev": 5,
-   "roles_now": 9,
-   "change": 4,
-   "change_pct": 80.0
+   "roles_now": 10,
+   "change": 5,
+   "change_pct": 100.0
   },
   {
-   "company": "Positron AI",
-   "bucket": "Chips & Quantum",
-   "roles_prev": 22,
-   "roles_now": 35,
-   "change": 13,
-   "change_pct": 59.1
+   "company": "Scout Space",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 9,
+   "roles_now": 16,
+   "change": 7,
+   "change_pct": 77.8
   },
   {
    "company": "Whisper Aero",
@@ -42,6 +50,14 @@
    "change_pct": 57.1
   },
   {
+   "company": "LTA Research",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 9,
+   "roles_now": 14,
+   "change": 5,
+   "change_pct": 55.6
+  },
+  {
    "company": "Phoenix Tailings",
    "bucket": "Manufacturing & Materials",
    "roles_prev": 13,
@@ -50,96 +66,80 @@
    "change_pct": 53.8
   },
   {
-   "company": "The Lumber Manufactory",
+   "company": "First Resonance",
    "bucket": "Manufacturing & Materials",
-   "roles_prev": 6,
-   "roles_now": 9,
-   "change": 3,
+   "roles_prev": 12,
+   "roles_now": 18,
+   "change": 6,
    "change_pct": 50.0
-  },
-  {
-   "company": "Neurophos",
-   "bucket": "Chips & Quantum",
-   "roles_prev": 19,
-   "roles_now": 27,
-   "change": 8,
-   "change_pct": 42.1
-  },
-  {
-   "company": "Deterrence",
-   "bucket": "Defence",
-   "roles_prev": 10,
-   "roles_now": 14,
-   "change": 4,
-   "change_pct": 40.0
   },
   {
    "company": "Coco Robotics",
    "bucket": "Autonomy & Robotics",
    "roles_prev": 6,
-   "roles_now": 8,
-   "change": 2,
-   "change_pct": 33.3
+   "roles_now": 9,
+   "change": 3,
+   "change_pct": 50.0
   }
  ],
  "down": [
   {
-   "company": "Strider Technologies",
-   "bucket": "Defence",
-   "roles_prev": 5,
+   "company": "SirenOpt",
+   "bucket": "Manufacturing & Materials",
+   "roles_prev": 14,
    "roles_now": 2,
-   "change": -3,
-   "change_pct": -60.0
+   "change": -12,
+   "change_pct": -85.7
   },
   {
-   "company": "Bedrock Ocean",
-   "bucket": "Autonomy & Robotics",
+   "company": "Foxglove",
+   "bucket": "Manufacturing & Materials",
    "roles_prev": 5,
-   "roles_now": 2,
-   "change": -3,
-   "change_pct": -60.0
-  },
-  {
-   "company": "GITAI",
-   "bucket": "Autonomy & Robotics",
-   "roles_prev": 18,
-   "roles_now": 11,
-   "change": -7,
-   "change_pct": -38.9
-  },
-  {
-   "company": "Shift5",
-   "bucket": "Defence",
-   "roles_prev": 13,
-   "roles_now": 8,
-   "change": -5,
-   "change_pct": -38.5
-  },
-  {
-   "company": "Starfish Space",
-   "bucket": "Space & Aerospace",
-   "roles_prev": 12,
-   "roles_now": 8,
+   "roles_now": 1,
    "change": -4,
-   "change_pct": -33.3
+   "change_pct": -80.0
+  },
+  {
+   "company": "Sierra Space",
+   "bucket": "Space & Aerospace",
+   "roles_prev": 199,
+   "roles_now": 60,
+   "change": -139,
+   "change_pct": -69.8
+  },
+  {
+   "company": "Lightship",
+   "bucket": "Autonomy & Robotics",
+   "roles_prev": 10,
+   "roles_now": 5,
+   "change": -5,
+   "change_pct": -50.0
+  },
+  {
+   "company": "Atomic Industries",
+   "bucket": "Manufacturing & Materials",
+   "roles_prev": 7,
+   "roles_now": 4,
+   "change": -3,
+   "change_pct": -42.9
   }
  ],
  "factory_flags": [
   "Antares",
+  "Apex Space",
   "Beyond Reach Labs",
   "Dexterity",
+  "Epirus",
+  "Hadrian",
   "Helion",
-  "Icarus",
   "Kairos Power",
   "Maven Robotics",
   "Ocean Infinity",
+  "Podium Automation",
   "Quantum Space",
   "Quindar",
+  "Saronic",
   "Skydio",
-  "Tutor Intelligence",
-  "Valar Atomics",
-  "Voya Energy",
-  "Waymo",
-  "Zipline"
+  "Valar Atomics"
  ]
 }

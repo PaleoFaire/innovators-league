@@ -1,19 +1,19 @@
 {
  "month": "2026-11",
  "by_bucket": {
-  "Nuclear": 23,
+  "Autonomy & Robotics": 74,
   "Defence": 70,
-  "Space & Aerospace": 75,
+  "Chips & Quantum": 36,
   "Manufacturing & Materials": 60,
+  "Space & Aerospace": 76,
   "Power & Grid": 54,
-  "Autonomy & Robotics": 76,
-  "Chips & Quantum": 36
+  "Nuclear": 23
  },
  "by_stage": {
-  "Series A": 103,
-  "Series B": 79,
+  "Series A": 102,
+  "Series B": 78,
   "Seed": 72,
-  "Series C": 52,
+  "Series C": 53,
   "Series D": 22,
   "Undisclosed": 13,
   "Growth": 10,
@@ -24,11 +24,11 @@
   "Series G": 4,
   "Series F": 4,
   "Series H": 2,
-  "Pre-IPO": 2,
   "Series A+": 2,
+  "Pre-IPO": 2,
   "Seed + SAFE": 1,
-  "Series B+": 1,
-  "Series B-2": 1
+  "Series B-2": 1,
+  "Series B+": 1
  },
  "by_founded": {
   "2024": 57,
@@ -38,8 +38,8 @@
   "2021": 34,
   "2025": 33,
   "2017": 27,
-  "2019": 26,
   "2018": 25,
+  "2019": 25,
   "2016": 19,
   "2014": 12,
   "2015": 8
@@ -47,9 +47,9 @@
  "by_state": {
   "CA": 216,
   "TX": 33,
-  "MA": 26,
-  "NY": 20,
-  "CO": 19,
+  "MA": 25,
+  "CO": 20,
+  "NY": 19,
   "VA": 17,
   "WA": 15,
   "DC": 7,

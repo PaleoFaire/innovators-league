@@ -2,13 +2,40 @@
  "month": "2026-11",
  "primes": [
   {
+   "prime": "Northrop Grumman",
+   "ticker": "NOC",
+   "partners_tracked": 5,
+   "on_panel": 2,
+   "diffusion_4w": 100.0,
+   "roles_now": 49,
+   "roles_4w_ago": 42,
+   "partners": [
+    "Observable Space",
+    "Picogrid"
+   ]
+  },
+  {
+   "prime": "Lockheed Martin",
+   "ticker": "LMT",
+   "partners_tracked": 8,
+   "on_panel": 3,
+   "diffusion_4w": 83.3,
+   "roles_now": 225,
+   "roles_4w_ago": 215,
+   "partners": [
+    "Anello Photonics",
+    "Divergent",
+    "Hermeus"
+   ]
+  },
+  {
    "prime": "Raytheon / RTX",
    "ticker": "RTX",
    "partners_tracked": 5,
    "on_panel": 4,
    "diffusion_4w": 75.0,
-   "roles_now": 213,
-   "roles_4w_ago": 196,
+   "roles_now": 224,
+   "roles_4w_ago": 206,
    "partners": [
     "Divergent",
     "Epirus",
@@ -17,43 +44,16 @@
    ]
   },
   {
-   "prime": "Lockheed Martin",
-   "ticker": "LMT",
-   "partners_tracked": 8,
-   "on_panel": 3,
-   "diffusion_4w": 50.0,
-   "roles_now": 218,
-   "roles_4w_ago": 207,
-   "partners": [
-    "Anello Photonics",
-    "Divergent",
-    "Hermeus"
-   ]
-  },
-  {
    "prime": "General Dynamics",
    "ticker": "GD",
    "partners_tracked": 6,
    "on_panel": 2,
-   "diffusion_4w": 25.0,
-   "roles_now": 38,
-   "roles_4w_ago": 42,
+   "diffusion_4w": 50.0,
+   "roles_now": 44,
+   "roles_4w_ago": 43,
    "partners": [
     "Span",
     "Union"
-   ]
-  },
-  {
-   "prime": "Northrop Grumman",
-   "ticker": "NOC",
-   "partners_tracked": 5,
-   "on_panel": 2,
-   "diffusion_4w": 25.0,
-   "roles_now": 42,
-   "roles_4w_ago": 44,
-   "partners": [
-    "Observable Space",
-    "Picogrid"
    ]
   }
  ]

@@ -1,230 +1,230 @@
 {
  "month": "2026-11",
- "n_postings_with_true_dates": 6398,
+ "n_postings_with_true_dates": 6420,
  "median_age_days_by_class": {
-  "commercial": 41,
+  "commercial": 40,
+  "manufacturing": 48,
   "software": 62,
-  "hardware": 55,
-  "other": 47,
-  "manufacturing": 49
+  "other": 48,
+  "hardware": 60
  },
  "hardest_to_fill_titles": [
   {
    "title": "robotics software engineer",
+   "n": 7,
+   "median_age_days": 264
+  },
+  {
+   "title": "rf systems engineer",
    "n": 8,
-   "median_age_days": 258
+   "median_age_days": 167
   },
   {
    "title": "full stack software engineer",
    "n": 8,
-   "median_age_days": 155
+   "median_age_days": 162
   },
   {
    "title": "firmware engineer",
    "n": 7,
-   "median_age_days": 154
+   "median_age_days": 161
   },
   {
-   "title": "rf systems engineer",
-   "n": 6,
-   "median_age_days": 132
-  },
-  {
-   "title": "ai engineer",
-   "n": 7,
-   "median_age_days": 129
+   "title": "machine learning engineer",
+   "n": 8,
+   "median_age_days": 118
   },
   {
    "title": "cnc programmer",
    "n": 6,
-   "median_age_days": 110
-  },
-  {
-   "title": "machine learning engineer",
-   "n": 9,
-   "median_age_days": 104
-  },
-  {
-   "title": "general application",
-   "n": 13,
-   "median_age_days": 96
-  },
-  {
-   "title": "head of marketing",
-   "n": 6,
-   "median_age_days": 93
-  },
-  {
-   "title": "technician",
-   "n": 6,
-   "median_age_days": 89
-  },
-  {
-   "title": "mission operations engineer",
-   "n": 9,
-   "median_age_days": 89
+   "median_age_days": 117
   },
   {
    "title": "product manager",
    "n": 16,
-   "median_age_days": 88
+   "median_age_days": 95
   },
   {
    "title": "software engineer, core platform (all levels)",
    "n": 6,
-   "median_age_days": 88
+   "median_age_days": 95
   },
   {
    "title": "robotics engineer",
    "n": 6,
-   "median_age_days": 83
+   "median_age_days": 90
+  },
+  {
+   "title": "software engineer",
+   "n": 25,
+   "median_age_days": 88
   },
   {
    "title": "assembly technician",
    "n": 8,
-   "median_age_days": 80
+   "median_age_days": 87
   },
   {
-   "title": "software engineer",
-   "n": 27,
-   "median_age_days": 75
+   "title": "general application",
+   "n": 13,
+   "median_age_days": 84
+  },
+  {
+   "title": "ai engineer",
+   "n": 8,
+   "median_age_days": 84
   },
   {
    "title": "test engineer",
-   "n": 21,
-   "median_age_days": 74
+   "n": 19,
+   "median_age_days": 82
   },
   {
    "title": "infrastructure engineer",
-   "n": 7,
+   "n": 8,
+   "median_age_days": 80
+  },
+  {
+   "title": "recruiter",
+   "n": 11,
+   "median_age_days": 79
+  },
+  {
+   "title": "electrical engineer",
+   "n": 54,
+   "median_age_days": 76
+  },
+  {
+   "title": "controls engineer",
+   "n": 10,
    "median_age_days": 74
   },
   {
-   "title": "gnc engineer",
-   "n": 6,
-   "median_age_days": 73
+   "title": "electrical design engineer",
+   "n": 8,
+   "median_age_days": 74
   },
   {
-   "title": "rf engineer",
-   "n": 14,
-   "median_age_days": 70
+   "title": "reliability engineer",
+   "n": 6,
+   "median_age_days": 71
   }
  ],
  "most_posted_titles": [
   {
    "title": "mechanical engineer",
-   "n": 81,
-   "median_age_days": 69
+   "n": 79,
+   "median_age_days": 67
   },
   {
    "title": "electrical engineer",
-   "n": 55,
-   "median_age_days": 69
+   "n": 54,
+   "median_age_days": 76
   },
   {
    "title": "embedded software engineer",
-   "n": 39,
-   "median_age_days": 67
+   "n": 36,
+   "median_age_days": 65
   },
   {
    "title": "manufacturing engineer",
    "n": 35,
-   "median_age_days": 52
-  },
-  {
-   "title": "software engineer",
-   "n": 27,
-   "median_age_days": 75
-  },
-  {
-   "title": "technical recruiter",
-   "n": 25,
-   "median_age_days": 27
+   "median_age_days": 56
   },
   {
    "title": "forward deployed engineer",
+   "n": 26,
+   "median_age_days": 61
+  },
+  {
+   "title": "software engineer",
    "n": 25,
-   "median_age_days": 66
+   "median_age_days": 88
+  },
+  {
+   "title": "technical recruiter",
+   "n": 24,
+   "median_age_days": 26
   },
   {
    "title": "test engineer",
-   "n": 21,
-   "median_age_days": 74
-  },
-  {
-   "title": "systems engineer",
-   "n": 18,
-   "median_age_days": 62
-  },
-  {
-   "title": "technical program manager",
-   "n": 17,
-   "median_age_days": 40
+   "n": 19,
+   "median_age_days": 82
   },
   {
    "title": "power electronics engineer",
-   "n": 17,
-   "median_age_days": 28
+   "n": 18,
+   "median_age_days": 35
   },
   {
    "title": "quality engineer",
-   "n": 17,
-   "median_age_days": 49
+   "n": 18,
+   "median_age_days": 52
   },
   {
    "title": "product manager",
    "n": 16,
-   "median_age_days": 88
+   "median_age_days": 95
+  },
+  {
+   "title": "flight software engineer",
+   "n": 15,
+   "median_age_days": 41
+  },
+  {
+   "title": "technical program manager",
+   "n": 15,
+   "median_age_days": 35
+  },
+  {
+   "title": "rf engineer",
+   "n": 15,
+   "median_age_days": 69
+  },
+  {
+   "title": "systems engineer",
+   "n": 15,
+   "median_age_days": 69
   },
   {
    "title": "recruiting coordinator",
    "n": 14,
-   "median_age_days": 19
+   "median_age_days": 17
   },
   {
    "title": "fpga engineer",
-   "n": 14,
-   "median_age_days": 53
-  },
-  {
-   "title": "rf engineer",
-   "n": 14,
-   "median_age_days": 70
-  },
-  {
-   "title": "process engineer",
    "n": 14,
    "median_age_days": 60
   },
   {
    "title": "general application",
    "n": 13,
-   "median_age_days": 96
+   "median_age_days": 84
   },
   {
    "title": "controller",
    "n": 13,
-   "median_age_days": 41
+   "median_age_days": 34
   },
   {
-   "title": "flight software engineer",
+   "title": "program manager",
    "n": 13,
-   "median_age_days": 62
+   "median_age_days": 46
   }
  ],
  "median_age_days_by_state": {
   "CA": 55,
-  "TX": 54,
-  "CO": 48,
-  "MA": 48,
-  "WA": 52,
-  "NY": 53,
-  "WV": 82,
-  "RI": 26,
-  "VA": 49,
-  "LA": 103,
-  "FL": 61,
-  "UT": 28
+  "TX": 53,
+  "CO": 52,
+  "MA": 54,
+  "WA": 48,
+  "NY": 55,
+  "WV": 84,
+  "RI": 18,
+  "VA": 54,
+  "FL": 58,
+  "LA": 109,
+  "UT": 29
  },
  "note": "Ages from platforms that expose the original posting date (Lever, Ashby, Workable, BambooHR). Greenhouse exposes a refresh date and is excluded."
 }
