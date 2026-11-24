@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-23T17:58:19.589261Z",
+  "generated_at": "2026-11-24T17:30:20.807034Z",
   "platform": {
-    "companiesTracked": 1430,
+    "companiesTracked": 1437,
     "sectorsMonitored": 16,
-    "totalCapitalRaisedTracked": "$501.8B",
+    "totalCapitalRaisedTracked": "$502.0B",
     "totalValuationTracked": "$1808.1B",
     "companiesWithValuation": 218,
     "govContractsTracked": 205,
     "sbirAwardsTracked": 341,
-    "dealsTracked": 248,
-    "newsItemsTracked": 23,
-    "dataPointsUpdated": "57,200+"
+    "dealsTracked": 249,
+    "newsItemsTracked": 25,
+    "dataPointsUpdated": "57,480+"
   },
   "topFunds": [
     {
@@ -111,7 +111,7 @@
     },
     {
       "fund": "Accel",
-      "portfolio_count": 12,
+      "portfolio_count": 13,
       "companies": [
         "Acceleron Fusion",
         "Algen Biotechnologies",
@@ -121,8 +121,8 @@
         "FononTech",
         "Lazarus Energy Systems",
         "Mind Robotics",
-        "Sora Fuel",
-        "Tensr"
+        "SE3",
+        "Sora Fuel"
       ]
     },
     {
@@ -158,6 +158,22 @@
       ]
     },
     {
+      "fund": "8VC",
+      "portfolio_count": 10,
+      "companies": [
+        "Alva Energy",
+        "Cambium",
+        "Gallatin AI",
+        "Generalist AI",
+        "ICOMAT",
+        "Mendra",
+        "Mosaic Intelligence Labs",
+        "Overland AI",
+        "Stark Defence",
+        "Terra Industries"
+      ]
+    },
+    {
       "fund": "NATO Innovation Fund",
       "portfolio_count": 9,
       "companies": [
@@ -170,21 +186,6 @@
         "Portal Biotech",
         "Stark Defence",
         "Uplift360"
-      ]
-    },
-    {
-      "fund": "8VC",
-      "portfolio_count": 9,
-      "companies": [
-        "Alva Energy",
-        "Cambium",
-        "Gallatin AI",
-        "Generalist AI",
-        "ICOMAT",
-        "Mendra",
-        "Overland AI",
-        "Stark Defence",
-        "Terra Industries"
       ]
     },
     {
@@ -296,10 +297,10 @@
   "sectorConcentration": {
     "Space & Aerospace": 238,
     "Climate & Energy": 237,
-    "Robotics & Manufacturing": 218,
-    "Defense & Security": 198,
-    "Biotech & Health": 138,
-    "Chips & Semiconductors": 115,
+    "Robotics & Manufacturing": 221,
+    "Defense & Security": 200,
+    "Biotech & Health": 139,
+    "Chips & Semiconductors": 116,
     "Nuclear Energy": 75,
     "Quantum Computing": 59,
     "Drones & Autonomous": 46,

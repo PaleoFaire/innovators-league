@@ -1,5 +1,122 @@
 [
   {
+    "title": "Uber and Nuro begin driverless testing of Lucid robotaxis ahead of 2027 launch",
+    "link": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/",
+    "description": "Uber and Nuro have started testing driverless Lucid Gravity SUVs on public streets in the San Francisco Bay Area.",
+    "pubDate": "Tue, 24 Nov 2026 16:40:46 +0000",
+    "category": "Transportation",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Nuro",
+    "matchedCompanies": [
+      "Nuro"
+    ],
+    "sectors": [
+      "autonomous"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
+    "link": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
+    "description": "A new test assumes AI agents can go rogue—and asks whether they can resist temptation.",
+    "pubDate": "Tue, 24 Nov 2026 16:00:00 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Nuro pulls safety drivers from Lucid Gravity Uber robotaxis in Bay Area",
+    "link": "https://electrek.co/2026/11/24/nuro-lucid-gravity-uber-robotaxi-driverless-testing-bay-area/",
+    "description": "Nuro is now testing Lucid Gravity robotaxis on public roads in the San Francisco Bay Area with nobody in the driver’s seat. The driverless testing starts in four Peninsula and South Bay cities, with a fleet of more than 100 Gravity SUVs delivered by Lucid for the program.\n\n\n\nIt’s the biggest step ye",
+    "pubDate": "Tue, 24 Nov 2026 15:32:19 +0000",
+    "category": "News",
+    "source": "Electrek",
+    "feedCategory": "autonomous",
+    "matchedCompany": "Nuro",
+    "matchedCompanies": [
+      "Nuro"
+    ],
+    "sectors": [
+      "autonomous"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Simera Sense, Spacemanic, Zaitra and World from Space Join Forces on an End-to-End Dual-Use Mission Solution",
+    "link": "https://spacenews.com/simera-sense-spacemanic-zaitra-and-world-from-space-join-forces-on-an-end-to-end-dual-use-mission-solution/",
+    "description": "\nBremen, 18 November 2026 – Simera Sense, Spacemanic, Zaitra and World from Space have signed a Memorandum of Understanding in Bremen to cooperate on a complete mission solution built around [&#8230;]\nThe post Simera Sense, Spacemanic, Zaitra and World from Space Join Forces on an End-to-End Dual-Us",
+    "pubDate": "Tue, 24 Nov 2026 15:17:50 +0000",
+    "category": "Press Release",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Simera Sense",
+    "matchedCompanies": [
+      "Simera Sense",
+      "Kodiak AI"
+    ],
+    "sectors": [
+      "space",
+      "defense"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Tesla (TSLA), SpaceX race for year-end merger deal before new Congress",
+    "link": "https://electrek.co/2026/11/24/tesla-spacex-merger-year-end-deadline-new-congress/",
+    "description": "Tesla (TSLA) and SpaceX are working toward a year-end deadline to agree on their all-stock merger, according to the Financial Times. A signed deal by December 31 would land days before the new Congress, where Democrats have promised to dig into Musk’s companies, is sworn in on January 3.\n\n\n\nThe FT a",
+    "pubDate": "Tue, 24 Nov 2026 14:43:50 +0000",
+    "category": "News",
+    "source": "Electrek",
+    "feedCategory": "autonomous",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+    "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+    "description": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+    "pubDate": "Mon, 23 Nov 2026 22:05:50 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Anysphere"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "medium",
+    "time": "19h ago"
+  },
+  {
     "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
     "link": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
     "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we app",
@@ -16,7 +133,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "Just now"
+    "time": "23h ago"
   },
   {
     "title": "Umbra, ICEYE tout higher-resolution radar imaging with new satellites",
@@ -36,7 +153,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "23h ago"
   },
   {
     "title": "States Sue SpaceX Over Grok Deepfakes",
@@ -55,26 +172,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "6h ago"
-  },
-  {
-    "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-    "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-    "description": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
-    "pubDate": "Mon, 23 Nov 2026 01:25:53 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "ipo",
-    "impact": "high",
-    "time": "16h ago"
+    "time": "1d ago"
   },
   {
     "title": "Waymo Pulls Robotaxis from Highways",
@@ -93,26 +191,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Autonomy firm Auterion to launch joint venture with Ukrainian drone maker Skyfall",
-    "link": "https://breakingdefense.com/2026/11/autonomy-firm-auterion-to-launch-joint-venture-with-ukrainian-drone-maker-skyfall/",
-    "description": "The new venture, called Skyfall X Auterion, will produce Skyfall drones with Auterion software in Germany, &#8220;outside the range of air strikes,&#8221; Auterion said.",
-    "pubDate": "Fri, 20 Nov 2026 18:24:00 +0000",
-    "category": "Air Warfare",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "Auterion",
-    "matchedCompanies": [
-      "Auterion"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Should You Buy Anthropic, SpaceX or Both",
@@ -131,26 +210,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Google signs 50-MW superhot geothermal PPA with Quaise Energy",
-    "link": "https://www.utilitydive.com/news/google-signs-50-mw-superhot-geothermal-ppa-with-quaise-energy/875217/",
-    "description": "&lt;figure&gt;&lt;div&gt;&lt;img src=\"https://imgproxy.divecdn.com/kN1u6HpNXZUN6dC_Eu18Ig0WXgeKNDz1M2YJnUS9e84/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9DYWxpZm9ybmlhX2dlb3RoZXJtYWwuanBn.webp\"/&gt;&lt;/div&gt;&lt;/figure&gt;&lt;p&gt;The agreement will support Google&amp;#39;",
-    "pubDate": "Thu, 19 Nov 2026 12:58:42 -0500",
-    "category": "",
-    "source": "Utility Dive",
-    "feedCategory": "energy",
-    "matchedCompany": "Quaise Energy",
-    "matchedCompanies": [
-      "Quaise Energy"
-    ],
-    "sectors": [
-      "climate"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Anthropic opens at $101",
@@ -169,7 +229,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Defense Business Brief: Vantor’s Raptor; Hadrian’s foundry, and more",
@@ -188,7 +248,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Is AI in a bubble? Menlo Ventures’ Deedy Das on Anthropic’s IPO and Europe",
@@ -207,7 +267,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Anthropic Closes Up 17% After Massive IPO",
@@ -226,7 +286,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "OpenAI gives NATO access to most advanced cybersecurity AI",
@@ -247,7 +307,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "California DMV bars Waymo AVs from operating on the state&#8217;s freeways",
@@ -272,7 +332,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "Spending Isn’t Deterrence: Fixing Germany’s Procurement Machine",
@@ -291,7 +351,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6d ago"
+    "time": "11/17/2026"
   },
   {
     "title": "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit in 2027",
@@ -315,7 +375,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "6d ago"
+    "time": "11/17/2026"
   },
   {
     "title": "Air Force bets on hybrid-electric aircraft for transport",
@@ -334,27 +394,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6d ago"
-  },
-  {
-    "title": "Agile Robots raises $500M to increase production capacity",
-    "link": "https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/",
-    "description": "Agile Robots builds and deploys a range of robots, including humanoids, mobile robots, robotic arms, and robotics hands.\nThe post Agile Robots raises $500M to increase production capacity appeared first on The Robot Report.",
-    "pubDate": "Mon, 16 Nov 2026 17:47:48 +0000",
-    "category": "Artificial Intelligence",
-    "source": "The Robot Report",
-    "feedCategory": "robotics",
-    "matchedCompany": "Agile Robots",
-    "matchedCompanies": [
-      "Agile Robots",
-      "Kinova Robotics"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "6d ago"
+    "time": "11/16/2026"
   },
   {
     "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",

@@ -1,7 +1,13 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-11-23 17:43:04 UTC
+// Last updated: 2026-11-24 17:14:31 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "4", date: "2026-11-23", description: "xslF345X06/wk-form4_1795482132.xml", isIPO: false, ticker: "PLTR" },
+  { company: "BlackSky Technology", form: "4", date: "2026-11-23", description: "xslF345X06/wk-form4_1795477191.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "4", date: "2026-11-23", description: "xslF345X06/wk-form4_1795477158.xml", isIPO: false, ticker: "BKSY" },
+  { company: "BlackSky Technology", form: "4", date: "2026-11-23", description: "xslF345X06/wk-form4_1795477120.xml", isIPO: false, ticker: "BKSY" },
+  { company: "Oklo", form: "4", date: "2026-11-23", description: "xslF345X06/wk-form4_1795469599.xml", isIPO: false, ticker: "OKLO" },
   { company: "Agrify Corporation", form: "8-K", date: "2026-11-23", description: "ea0312911-8k_rythm.htm", isIPO: false, ticker: "AGFY" },
+  { company: "Satellogic", form: "10-Q", date: "2026-11-23", description: "zcar_10q.htm", isIPO: false, ticker: "SATL" },
   { company: "Momentus", form: "8-K", date: "2026-11-20", description: "tm2630244d1_8k.htm", isIPO: false, ticker: "MNTS" },
   { company: "Upstart Holdings", form: "4", date: "2026-11-20", description: "xslF345X06/wk-form4_1795224238.xml", isIPO: false, ticker: "UPST" },
   { company: "Upstart Holdings", form: "4", date: "2026-11-20", description: "xslF345X06/wk-form4_1795224216.xml", isIPO: false, ticker: "UPST" },
@@ -45,10 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Rivian", form: "4", date: "2026-11-17", description: "xslF345X06/wk-form4_1794954645.xml", isIPO: false, ticker: "RIVN" },
   { company: "Rivian", form: "4", date: "2026-11-17", description: "xslF345X06/wk-form4_1794954627.xml", isIPO: false, ticker: "RIVN" },
   { company: "Rivian", form: "4", date: "2026-11-17", description: "xslF345X06/wk-form4_1794954598.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Rivian", form: "4", date: "2026-11-17", description: "xslF345X06/wk-form4_1794954576.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Rivian", form: "8-K", date: "2026-11-17", description: "rivn-20261115.htm", isIPO: false, ticker: "RIVN" },
-  { company: "Oklo", form: "4", date: "2026-11-16", description: "xslF345X06/wk-form4_1794863002.xml", isIPO: false, ticker: "OKLO" },
-  { company: "D-Wave Quantum", form: "10-Q", date: "2026-11-16", description: "qbts-20260930.htm", isIPO: false, ticker: "QBTS" },
-  { company: "LanzaTech", form: "4", date: "2026-11-16", description: "xslF345X06/wk-form4_1794834989.xml", isIPO: false, ticker: "LNZA" },
-  { company: "Satellogic", form: "8-K", date: "2026-11-16", description: "zcar-20261113_8k.htm", isIPO: false, ticker: "SATL" },
 ];
