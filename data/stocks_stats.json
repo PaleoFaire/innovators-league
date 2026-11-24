@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -0.64,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 2.95,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -11.87,
+      "avg_change": -13.91,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -2.49,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -0.83,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.99,
+      "avg_change": -16.41,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -8.6,
+      "avg_change": -4.72,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.7,
+      "avg_change": -12.23,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.2,
+      "avg_change": -5.42,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -2.88,
+      "avg_change": -1.63,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.8,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -9.18,
       "count": 3
     }
   },
@@ -64,52 +64,52 @@
       39.23
     ],
     [
-      "ALAB",
-      "Astera Labs",
-      9.78
+      "LNZA",
+      "LanzaTech",
+      16.47
     ],
     [
-      "NVDA",
-      "NVIDIA",
-      5.71
+      "DRSHF",
+      "DroneShield",
+      7.14
+    ],
+    [
+      "PLTR",
+      "Palantir",
+      2.95
     ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
       2.49
-    ],
-    [
-      "TSLA",
-      "Tesla",
-      1.51
     ]
   ],
   "topLosers": [
     [
-      "QBTS",
-      "D-Wave Quantum",
-      -15.69
-    ],
-    [
-      "LUNR",
-      "Intuitive Machines",
-      -16.88
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      -17.33
+      "AMD",
+      "AMD",
+      -17.91
     ],
     [
       "ACHR",
       "Archer Aviation",
-      -17.91
+      -18.18
+    ],
+    [
+      "LUNR",
+      "Intuitive Machines",
+      -19.15
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      -19.32
     ],
     [
       "JOBY",
       "Joby Aviation",
-      -18.43
+      -19.86
     ]
   ],
-  "lastUpdated": "2026-11-24 11:03:14"
+  "lastUpdated": "2026-11-24 23:06:07"
 }
