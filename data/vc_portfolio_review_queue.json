@@ -235,8 +235,10 @@
     "listed_by": 1,
     "since": "2026-11-23",
     "detected_at": "2026-11-23T19:28:21.619425+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-24",
+    "review_note": "screen: therapeutics developer (Prazer Therapeutics), not hard tech"
   },
   {
     "name": "Aptamino",
@@ -261,8 +263,10 @@
     "listed_by": 1,
     "since": "2026-11-09",
     "detected_at": "2026-11-09T17:48:00.317824+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-24",
+    "review_note": "third look: site still password-protected ($8.0M Form D exists)"
   },
   {
     "name": "Chaos",
@@ -341,8 +345,10 @@
     "listed_by": 1,
     "since": "2026-11-23",
     "detected_at": "2026-11-23T19:28:21.619425+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "added",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-24",
+    "review_note": "added as Mosaic Intelligence Labs"
   },
   {
     "name": "Somana",
@@ -368,8 +374,10 @@
     "listed_by": 1,
     "since": "2026-11-23",
     "detected_at": "2026-11-23T19:28:21.619425+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-24",
+    "review_note": "holding page only; no confirmed funding"
   },
   {
     "name": "Kaizen",
@@ -395,8 +403,10 @@
     "listed_by": 1,
     "since": "2026-11-23",
     "detected_at": "2026-11-23T19:28:21.619425+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-24",
+    "review_note": "general federal IT modernisation (Army workflow-app platform, up to $49M); not defence-operations software"
   },
   {
     "name": "Kaizen",
@@ -422,8 +432,10 @@
     "listed_by": 1,
     "since": "2023-11-15",
     "detected_at": "2026-11-23T19:28:21.619425+00:00",
-    "status": "pending",
-    "source_list": "vc-portfolio-watcher"
+    "status": "rejected",
+    "source_list": "vc-portfolio-watcher",
+    "reviewed": "2026-11-24",
+    "review_note": "general federal IT modernisation (Army workflow-app platform, up to $49M); not defence-operations software"
   },
   {
     "name": "Valkryn",
