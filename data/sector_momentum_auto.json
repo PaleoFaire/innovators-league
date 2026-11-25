@@ -1,21 +1,39 @@
 [
   {
-    "sector": "AI & Software",
-    "momentum": 56,
-    "trend": "accelerating",
+    "sector": "Defense & Security",
+    "momentum": 55,
+    "trend": "steady",
     "catalysts": [
+      "Defense Business Brief: Vantor\u2019s Raptor; Hadrian\u2019s foundry,",
+      "Spending Isn\u2019t Deterrence: Fixing Germany\u2019s Procurement Mach",
+      "Air Force bets on hybrid-electric aircraft for transport"
+    ],
+    "fundingQ": "$4.1B",
+    "components": {
+      "funding": 100,
+      "news": 15,
+      "hiring": 0,
+      "market": 80
+    },
+    "lastUpdated": "2026-11-25"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 52,
+    "trend": "steady",
+    "catalysts": [
+      "Anthropic shares fall below IPO price, a worrying sign for A",
       "Anthropic Created a Honeypot to Lure AI Agents Into Misbehav",
-      "Anthropic launches Claude Ship, letting AI agents review, fi",
       "A legendary philosopher isn\u2019t buying Anthropic\u2019s consciousne"
     ],
     "fundingQ": "$12.1B",
     "components": {
       "funding": 100,
-      "news": 45,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-24"
+    "lastUpdated": "2026-11-25"
   },
   {
     "sector": "Robotics & Manufacturing",
@@ -33,25 +51,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-24"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 48,
-    "trend": "steady",
-    "catalysts": [
-      "Defense Business Brief: Vantor\u2019s Raptor; Hadrian\u2019s foundry,",
-      "Spending Isn\u2019t Deterrence: Fixing Germany\u2019s Procurement Mach",
-      "Air Force bets on hybrid-electric aircraft for transport"
-    ],
-    "fundingQ": "$4.1B",
-    "components": {
-      "funding": 100,
-      "news": 15,
-      "hiring": 0,
-      "market": 44
-    },
-    "lastUpdated": "2026-11-24"
+    "lastUpdated": "2026-11-25"
   },
   {
     "sector": "Transportation",
@@ -67,25 +67,25 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-24"
+    "lastUpdated": "2026-11-25"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 32,
+    "momentum": 29,
     "trend": "steady",
     "catalysts": [
+      "Tesla &#038; SpaceX Merger Nears With Big Moves From The Boa",
       "Uber and Nuro begin driverless testing of Lucid robotaxis ah",
-      "Simera Sense, Spacemanic, Zaitra and World from Space Join F",
-      "Tesla (TSLA), SpaceX race for year-end merger deal before ne"
+      "Simera Sense, Spacemanic, Zaitra and World from Space Join F"
     ],
     "fundingQ": "$1.2B",
     "components": {
       "funding": 51,
-      "news": 55,
+      "news": 45,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-24"
+    "lastUpdated": "2026-11-25"
   },
   {
     "sector": "Nuclear Energy",
@@ -101,7 +101,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-24"
+    "lastUpdated": "2026-11-25"
   },
   {
     "sector": "Climate & Energy",
@@ -117,41 +117,25 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-24"
+    "lastUpdated": "2026-11-25"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 16,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
-      "Anthropic launches Claude Ship, letting AI agents review, fi",
       "A legendary philosopher isn\u2019t buying Anthropic\u2019s consciousne",
-      "Waymo Pulls Robotaxis from Highways"
+      "Waymo Pulls Robotaxis from Highways",
+      "California DMV bars Waymo AVs from operating on the state&#8"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-24"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Active chips & semiconductors ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 68
-    },
-    "lastUpdated": "2026-11-24"
+    "lastUpdated": "2026-11-25"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -167,7 +151,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-24"
+    "lastUpdated": "2026-11-25"
   },
   {
     "sector": "Housing & Construction",
@@ -183,7 +167,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-24"
+    "lastUpdated": "2026-11-25"
   },
   {
     "sector": "Drones & Autonomous",
@@ -199,7 +183,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-24"
+    "lastUpdated": "2026-11-25"
   },
   {
     "sector": "Ocean & Maritime",
@@ -215,7 +199,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-24"
+    "lastUpdated": "2026-11-25"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -231,40 +215,54 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-24"
+    "lastUpdated": "2026-11-25"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 0,
+    "trend": "declining",
+    "catalysts": [
+      "Active chips & semiconductors ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-11-25"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 4,
+    "momentum": 0,
     "trend": "declining",
     "catalysts": [
-      "Anthropic launches Claude Ship, letting AI agents review, fi",
-      "States Sue SpaceX Over Grok Deepfakes",
-      "<a href=\"/biotech/anthropic-board-director-vas-narasimhan-be"
+      "Active biotech & health ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 0,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-24"
+    "lastUpdated": "2026-11-25"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 1,
+    "momentum": 0,
     "trend": "declining",
     "catalysts": [
-      "QuantumScape unveils Osprey all-solid-state cell: 1,000 cycl"
+      "Active quantum computing ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-24"
+    "lastUpdated": "2026-11-25"
   }
 ]

@@ -1,31 +1,21 @@
 {
-  "generated_at": "2026-11-24T17:30:20.410969Z",
+  "generated_at": "2026-11-25T17:14:01.054153Z",
   "takes": [
     {
-      "author": "Crunchbase News",
+      "author": "TechCrunch",
       "role": "Industry signal",
       "company": "Anthropic",
-      "text": "Anthropic Closes Up 17% After Massive IPO",
-      "date": "Wed, 18 No",
+      "text": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "date": "Tue, 24 No",
       "source": "news",
-      "source_url": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "Sifted",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Is AI in a bubble? Menlo Ventures\u2019 Deedy Das on Anthropic\u2019s IPO and Europe",
-      "date": "Thu, 19 No",
-      "source": "news",
-      "source_url": "https://sifted.eu/articles/menlo-ventures-podcast/",
-      "signal_type": "ipo"
+      "source_url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "signal_type": "funding"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 2,
+    "from_news": 1,
     "from_press": 0
   }
 }
