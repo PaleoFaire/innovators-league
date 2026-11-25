@@ -1,0 +1,1016 @@
+{
+  "about": "Hand-written source for imagined.html (Who's Building It). Each theme: one early appearance in fiction from Not Boring's Sci-Fi Idea Bank (linked, never copied), a status with one dated primary source, one gap line, and the rules that pick companies from data.js. Rebuild with: python3 scripts/build_imagined.py. Method: data/imagined/README-METHOD.md.",
+  "themes": [
+    {
+      "id": "space-stations",
+      "title": "Space stations",
+      "imagined": "A brick satellite is launched by accident with people aboard, and they make a life in orbit.",
+      "fiction": {
+        "idea_id": "r43",
+        "entry": "Brick Moon",
+        "work": "The Brick Moon",
+        "author": "Edward Everett Hale",
+        "year": 1869
+      },
+      "status": "built",
+      "evidence": {
+        "date": "2025-12-02",
+        "publisher": "NASA",
+        "url": "https://www.nasa.gov/centers-and-facilities/johnson/the-international-space-station-marks-25-years-of-continuous-human-presence/",
+        "fact": "NASA marked 25 years of people living aboard the International Space Station without a break since 2 November 2000. At least 290 people from 26 countries have visited."
+      },
+      "gap": "Every crewed station so far has been run by governments. No private station has launched yet, and Vast now aims for 2027.",
+      "checked": "2026-11-25",
+      "featured": true,
+      "match": {
+        "tags": [
+          "space station"
+        ],
+        "pattern": "space station|commercial station|orbital habitat|inflatable habitat",
+        "include": [],
+        "exclude": [
+          "GITAI"
+        ]
+      }
+    },
+    {
+      "id": "mining-in-space",
+      "title": "Mining in space",
+      "imagined": "Prospectors fly out to small asteroids and dig out their ore.",
+      "fiction": {
+        "idea_id": "r120",
+        "entry": "Asteroid Mining",
+        "work": "Edison's Conquest of Mars",
+        "author": "Garrett P. Serviss",
+        "year": 1898
+      },
+      "also": [
+        {
+          "idea_id": "r1309",
+          "entry": "Asteroid Mining Robot",
+          "work": "Catch That Rabbit",
+          "author": "Isaac Asimov",
+          "year": 1944
+        }
+      ],
+      "status": "in_development",
+      "evidence": {
+        "date": "2023-09-24",
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/mission/osiris-rex/",
+        "fact": "NASA's OSIRIS-REx dropped a capsule in Utah holding 121.6 grams of rock and dust collected from the asteroid Bennu."
+      },
+      "gap": "Only grams have come back, for science. No one has mined the Moon or an asteroid for material to use or sell.",
+      "checked": "2026-11-25",
+      "match": {
+        "tags": [
+          "asteroid mining",
+          "space resources",
+          "lunar-mining",
+          "isru"
+        ],
+        "pattern": "asteroid|space resource|helium-3|lunar (mining|resource|regolith)|in-situ resource|\\bisru\\b",
+        "include": [],
+        "exclude": []
+      }
+    },
+    {
+      "id": "moon-bases",
+      "title": "Moon bases",
+      "imagined": "People live and work at a permanent base on the Moon.",
+      "fiction": {
+        "idea_id": "t4488",
+        "entry": "Lunar Colony",
+        "work": "On the Silver Globe",
+        "author": "Jerzy Żuławski",
+        "year": 1903
+      },
+      "also": [
+        {
+          "idea_id": "r1383",
+          "entry": "Moonbase (or Moon Base)",
+          "work": "The Exiles of Venus",
+          "author": "Jim Vanny",
+          "year": 1931
+        }
+      ],
+      "status": "in_development",
+      "evidence": {
+        "date": "2026-08-04",
+        "publisher": "NASA",
+        "url": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+        "fact": "NASA set out plans for a Moon Base near the lunar south pole. The robot landers meant to supply it, including Blue Moon MK1 and IM-3, were still in testing."
+      },
+      "gap": "No one has landed on the Moon since 1972, and nothing permanent has been built there.",
+      "checked": "2026-11-25",
+      "match": {
+        "tags": [
+          "lunar",
+          "moon",
+          "lunar lander",
+          "moon lander",
+          "lunar robotics",
+          "lunar-mining"
+        ],
+        "pattern": "\\blunar\\b|\\bmoon\\b|cislunar",
+        "include": [
+          "ICON"
+        ],
+        "exclude": [
+          "Lunar Energy",
+          "Voyager Technologies",
+          "Quantum Space",
+          "PAVE Space",
+          "Rhea Space Activity",
+          "CisLunar Industries",
+          "Frontier Aerospace"
+        ]
+      }
+    },
+    {
+      "id": "orbital-factories",
+      "title": "Factories in orbit",
+      "imagined": "Factories circle the Earth, making things that are hard to make on the ground.",
+      "fiction": {
+        "idea_id": "r2829",
+        "entry": "Orbital Factory",
+        "work": "Bind Your Sons To Exile",
+        "author": "Jerry Pournelle",
+        "year": 1976
+      },
+      "status": "demonstrated",
+      "evidence": {
+        "date": "2024-02-21",
+        "publisher": "Varda Space Industries",
+        "url": "https://www.varda.com/mission/w-1",
+        "fact": "Varda's W-1 capsule landed in Utah carrying crystals of the HIV drug ritonavir that were grown in orbit."
+      },
+      "gap": "Only small test batches have come back. No factory makes goods in orbit for sale yet.",
+      "checked": "2026-11-25",
+      "match": {
+        "tags": [
+          "space manufacturing",
+          "in-space manufacturing",
+          "microgravity"
+        ],
+        "pattern": "in-space manufactur|in-orbit manufactur|space-based manufactur|orbital manufactur|microgravity|space factory|re-?entry capsule|returnable capsule",
+        "include": [],
+        "exclude": [
+          "Axiom Space",
+          "Vast",
+          "Gravitics",
+          "Inversion Space",
+          "Beyond Reach Labs",
+          "Tensr"
+        ]
+      }
+    },
+    {
+      "id": "power-from-space",
+      "title": "Power beamed from space",
+      "imagined": "A space station gathers sunlight and beams the energy down to the planets.",
+      "fiction": {
+        "idea_id": "r1197",
+        "entry": "Solar Station",
+        "work": "Reason",
+        "author": "Isaac Asimov",
+        "year": 1941
+      },
+      "status": "demonstrated",
+      "evidence": {
+        "date": "2023-06-01",
+        "publisher": "Caltech",
+        "url": "https://www.caltech.edu/about/news/in-a-first-caltechs-space-solar-power-demonstrator-wirelessly-transmits-power-in-space",
+        "fact": "Caltech's MAPLE test satellite beamed power wirelessly in orbit and sent a detectable amount to a receiver on a campus rooftop."
+      },
+      "gap": "The power that reached the ground was barely detectable. No satellite sends useful electricity to Earth yet.",
+      "checked": "2026-11-25",
+      "match": {
+        "tags": [
+          "space-based solar",
+          "power beaming",
+          "laser power beaming",
+          "reflected sunlight"
+        ],
+        "pattern": "space-based solar|space solar power|power beaming|beam(ed|ing)? (power|energy)|wireless power transmission|reflected sunlight",
+        "include": [
+          "Virtus Solis"
+        ],
+        "exclude": [
+          "Cowboy Space Corporation"
+        ]
+      }
+    },
+    {
+      "id": "watching-earth",
+      "title": "Watching Earth from orbit",
+      "imagined": "Pictures taken from orbit guide a military operation on the ground.",
+      "fiction": {
+        "idea_id": "r450",
+        "entry": "Satellite Photography for Surveillance",
+        "work": "The Prince of Space",
+        "author": "Jack Williamson",
+        "year": 1931
+      },
+      "status": "built",
+      "evidence": {
+        "date": "1960-08",
+        "publisher": "Central Intelligence Agency",
+        "url": "https://www.cia.gov/legacy/museum/artifact/corona-film/",
+        "fact": "The CORONA spy satellite program first brought film back from space in August 1960. That one mission photographed more of the Soviet Union than all earlier U-2 flights."
+      },
+      "gap": "Live, sharp video of any spot on Earth on demand does not exist yet. Most pictures are snapshots taken as a satellite passes.",
+      "checked": "2026-11-25",
+      "match": {
+        "subsectors": [
+          "Earth Observation"
+        ],
+        "tags": [
+          "earth observation",
+          "sar",
+          "hyperspectral"
+        ],
+        "pattern": "earth observation|satellite imag|synthetic aperture|hyperspectral",
+        "include": [],
+        "exclude": [
+          "AiDash",
+          "Ursa Space Systems",
+          "Cognitive Space",
+          "Plotlogic",
+          "Asterra",
+          "Near Space Labs",
+          "Veoware"
+        ]
+      }
+    },
+    {
+      "id": "satellite-connections",
+      "title": "Satellites that connect everyone",
+      "imagined": "A satellite that seems to hover over one spot relays signals around the world.",
+      "fiction": {
+        "idea_id": "r1327",
+        "entry": "Geosynchronous Satellite",
+        "work": "V2 for Ionospheric Research",
+        "author": "Arthur C. Clarke",
+        "year": 1945
+      },
+      "status": "built",
+      "evidence": {
+        "date": "1964-08-19",
+        "publisher": "NASA",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1964-047A",
+        "fact": "NASA's Syncom 3, launched on 19 August 1964, was the first satellite parked over one spot on Earth. It relayed live television of the Tokyo Olympics."
+      },
+      "gap": "Ordinary phones can now text and use a few apps through satellites, at low speeds. Normal calls and broadband from space are not here yet.",
+      "checked": "2026-11-25",
+      "match": {
+        "tags": [
+          "direct-to-cell",
+          "starlink",
+          "geo satellites",
+          "satellite internet"
+        ],
+        "pattern": "direct-to-(cell|device)|satellite[- ]to[- ]phone|satellite (internet|broadband|connectivity)|connectivity from space|\\bstarlink\\b",
+        "include": [],
+        "exclude": [
+          "BRINC Drones",
+          "Panthalassa",
+          "Kodama Systems",
+          "Online Oceans"
+        ]
+      }
+    },
+    {
+      "id": "cheap-rides-to-orbit",
+      "title": "Cheap rides to orbit",
+      "imagined": "Flying to low orbit becomes cheap and routine.",
+      "fiction": {
+        "idea_id": "r3442",
+        "entry": "Spaceplane (Clarke-class)",
+        "work": "A Quantum Murder",
+        "author": "Peter F. Hamilton",
+        "year": 1998
+      },
+      "status": "built",
+      "evidence": {
+        "date": "2026-11-14",
+        "publisher": "SpaceX",
+        "url": "https://www.spacex.com/launches/starship-flight-15",
+        "fact": "On Starship's 15th flight the upper stage reached orbit, released 26 Starlink satellites and flew back to Starbase, where the launch tower caught it for the first time."
+      },
+      "gap": "Falcon boosters now fly again and again, but no rocket is fully reusable yet: Flight 15's booster was lost and no caught ship has flown twice.",
+      "checked": "2026-11-25",
+      "match": {
+        "subsectors": [
+          "Launch"
+        ],
+        "tags": [
+          "reusable rocket",
+          "launch"
+        ],
+        "pattern": "launch vehicle|reusable (rocket|launch)|orbital launch|spaceplane",
+        "include": [],
+        "exclude": [
+          "Ursa Major Technologies",
+          "Firehawk Defense",
+          "Southern Launch",
+          "Pulsar Fusion",
+          "Dhruva Space",
+          "SpaceForest",
+          "Auriga Space"
+        ]
+      }
+    },
+    {
+      "id": "fusion-power",
+      "title": "Fusion power",
+      "imagined": "Power plants make energy by fusing atoms together.",
+      "fiction": {
+        "idea_id": "r1909",
+        "entry": "Fusion Power",
+        "work": "The Judas Valley",
+        "author": "Gerald Vance",
+        "year": 1956
+      },
+      "status": "in_development",
+      "evidence": {
+        "date": "2025-04-07",
+        "publisher": "Lawrence Livermore National Laboratory",
+        "url": "https://annual.llnl.gov/fy-2025/national-ignition-facility-2025",
+        "fact": "Livermore's National Ignition Facility got a record 8.6 megajoules of fusion energy from 2.08 megajoules of laser light on target, a gain of about four."
+      },
+      "gap": "That gain counts only the laser light on target. The facility draws far more power, and no fusion machine has made electricity.",
+      "checked": "2026-11-25",
+      "match": {
+        "subsectors": [
+          "Fusion"
+        ],
+        "tags": [
+          "fusion"
+        ],
+        "include": [],
+        "exclude": []
+      }
+    },
+    {
+      "id": "small-reactors",
+      "title": "Small nuclear reactors",
+      "imagined": "A tiny generator runs on atomic power.",
+      "fiction": {
+        "idea_id": "r917",
+        "entry": "Tiny Atomic-Power Drive Unit",
+        "work": "The Brain Pirates",
+        "author": "John W. Campbell",
+        "year": 1938
+      },
+      "status": "built",
+      "evidence": {
+        "date": "1955-01-17",
+        "publisher": "Naval History and Heritage Command",
+        "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/n/nautilus-ssn-571-iv.html",
+        "fact": "USS Nautilus cast off on 17 January 1955 and got underway on nuclear power, the Navy's history of the submarine records."
+      },
+      "gap": "On land, the first new microreactors only reached zero-power tests in 2026. None sells electricity yet.",
+      "checked": "2026-11-25",
+      "match": {
+        "subsectors": [
+          "Fission Reactors"
+        ],
+        "tags": [
+          "smr",
+          "microreactor"
+        ],
+        "include": [],
+        "exclude": [
+          "Alva Energy",
+          "The Nuclear Company",
+          "Exodys Energy",
+          "Nuclearn.ai"
+        ]
+      }
+    },
+    {
+      "id": "making-rain",
+      "title": "Making rain",
+      "imagined": "A machine makes it rain when and where people want.",
+      "fiction": {
+        "idea_id": "r76",
+        "entry": "Aeriduct (Rain Maker)",
+        "work": "A Journey In Other Worlds",
+        "author": "John Jacob Astor IV",
+        "year": 1894
+      },
+      "status": "built",
+      "evidence": {
+        "date": "2020-02-24",
+        "publisher": "University of Colorado Boulder",
+        "url": "https://www.colorado.edu/today/2020/02/24/cloud-seeding",
+        "fact": "Researchers measured the snowfall that cloud seeding produced over Idaho's mountains and reported the results in PNAS."
+      },
+      "gap": "Seeding only works on clouds that already hold water. The WMO finds solid evidence mainly for winter clouds over mountains.",
+      "checked": "2026-11-25",
+      "match": {
+        "tags": [
+          "cloud seeding",
+          "weather modification"
+        ],
+        "include": [],
+        "exclude": []
+      }
+    },
+    {
+      "id": "household-robots",
+      "title": "Household robots",
+      "imagined": "An electric robot housemaid does the chores.",
+      "fiction": {
+        "idea_id": "r139",
+        "entry": "Electric-Automatic Housemaid Robot (Automaton)",
+        "work": "Ely's Automatic Housemaid",
+        "author": "Elizabeth Bellamy",
+        "year": 1899
+      },
+      "also": [
+        {
+          "idea_id": "r1916",
+          "entry": "Flexible Frank",
+          "work": "The Door Into Summer",
+          "author": "Robert Heinlein",
+          "year": 1956
+        }
+      ],
+      "status": "demonstrated",
+      "evidence": {
+        "date": "2025-10-28",
+        "publisher": "1X",
+        "url": "https://www.1x.tech/discover/neo-home-robot",
+        "fact": "1X opened orders for NEO, a $20,000 home humanoid due to ship in 2026. For chores it has not learned, owners can book a 1X expert to guide it."
+      },
+      "gap": "Robot vacuums and mowers each do one job. No robot yet does a home's chores on its own.",
+      "checked": "2026-11-25",
+      "match": {
+        "pattern": "household robot|home robot|household chores|domestic chores|home humanoid|robots? for (the )?home",
+        "wide": true,
+        "include": [
+          "1X Technologies",
+          "The Bot Company",
+          "Sunday Robotics",
+          "Weave Robotics",
+          "Figure AI"
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "id": "robot-workers",
+      "title": "Robot workers",
+      "imagined": "Factories turn out artificial workers, called robots, to do jobs for people.",
+      "fiction": {
+        "idea_id": "r217",
+        "entry": "Robot",
+        "work": "R.U.R.",
+        "author": "Karel Capek",
+        "year": 1920
+      },
+      "status": "built",
+      "evidence": {
+        "date": "2024-06-27",
+        "publisher": "Agility Robotics",
+        "url": "https://www.agilityrobotics.com/content/gxo-signs-industry-first-multi-year-agreement-with-agility-robotics",
+        "fact": "GXO signed a multi-year deal to use Agility's Digit humanoids, billed as the first formal commercial deployment of humanoid robots."
+      },
+      "gap": "Humanoids do narrow, repetitive jobs at a few sites, and many deals are still pilots. Most robot workers are fixed arms.",
+      "checked": "2026-11-25",
+      "match": {
+        "subsectors": [
+          "Humanoids"
+        ],
+        "tags": [
+          "humanoid robots",
+          "humanoid robotics"
+        ],
+        "pattern": "humanoid",
+        "include": [],
+        "exclude": [
+          "Atoms",
+          "Mimic Robotics",
+          "Proception",
+          "Neuromeka",
+          "1X Technologies",
+          "The Bot Company",
+          "Sunday Robotics",
+          "Weave Robotics"
+        ]
+      }
+    },
+    {
+      "id": "self-running-factories",
+      "title": "Factories that run themselves",
+      "imagined": "A factory works entirely on its own, with no one guiding it.",
+      "fiction": {
+        "idea_id": "r793",
+        "entry": "Unattended Factory",
+        "work": "The Hidden Colony",
+        "author": "Otfrid von Hanstein",
+        "year": 1935
+      },
+      "status": "built",
+      "evidence": {
+        "date": "undated",
+        "accessed": "2026-11-25",
+        "publisher": "FANUC",
+        "url": "https://www.fanuc.co.jp/en/profile/production/factory1.html",
+        "fact": "FANUC says robot cells in its own factories machine parts without people for long hours, including nights and weekends."
+      },
+      "gap": "People still supply materials, fix faults and run other shifts. No factory runs for good with nobody on site.",
+      "checked": "2026-11-25",
+      "match": {
+        "tags": [
+          "automated factory",
+          "factory automation",
+          "robotic manufacturing"
+        ],
+        "pattern": "lights-out|automated factor|autonomous factor|robotic (factory|manufactur|machining)|software-defined (factory|manufactur)",
+        "include": [
+          "Tensr"
+        ],
+        "exclude": [
+          "Volund Manufacturing",
+          "Inflection Space Systems"
+        ]
+      }
+    },
+    {
+      "id": "3d-printing",
+      "title": "3D printing",
+      "imagined": "A machine prints the parts for a spaceship.",
+      "fiction": {
+        "idea_id": "r1332",
+        "entry": "Plastic Constructor (3D Printer)",
+        "work": "Things Pass By",
+        "author": "Murray Leinster",
+        "year": 1945
+      },
+      "status": "built",
+      "evidence": {
+        "date": "1986-03-11",
+        "publisher": "US Patent and Trademark Office",
+        "url": "https://patents.google.com/patent/US4575330A/en",
+        "fact": "Chuck Hull's patent for stereolithography, a machine that builds solid objects layer by layer, was issued on 11 March 1986."
+      },
+      "gap": "Printers still can't turn out a finished product like a phone in one go. Most printed parts need finishing and assembly.",
+      "checked": "2026-11-25",
+      "match": {
+        "tags": [
+          "additive manufacturing",
+          "3d printing"
+        ],
+        "pattern": "additive manufactur|3d[- ]print|metal printing",
+        "include": [
+          "Aon3D"
+        ],
+        "exclude": [
+          "Nano Nuclear Energy",
+          "Type One Energy",
+          "Ursa Major Technologies",
+          "Firehawk Defense",
+          "Skyroot Aerospace",
+          "Agnikul Cosmos",
+          "Titan Dynamics"
+        ]
+      }
+    },
+    {
+      "id": "robot-farmers",
+      "title": "Robot farmers",
+      "imagined": "Automatic electric machines take over the work of the farm.",
+      "fiction": {
+        "idea_id": "r145",
+        "entry": "Electrical Farming Implements",
+        "work": "Looking Forward: A Dream of the United States of the Americas in 1999",
+        "author": "Arthur Bird",
+        "year": 1899
+      },
+      "also": [
+        {
+          "idea_id": "r1762",
+          "entry": "Robot Farmer",
+          "work": "The Turning Wheel",
+          "author": "Philip K. Dick",
+          "year": 1954
+        }
+      ],
+      "status": "built",
+      "evidence": {
+        "date": "undated",
+        "accessed": "2026-11-25",
+        "publisher": "Carbon Robotics",
+        "url": "https://carbonrobotics.com/",
+        "fact": "Carbon Robotics says more than 200 growers in 15 countries use its machines, including the LaserWeeder, which kills weeds with lasers."
+      },
+      "gap": "Robots do single jobs like weeding or milking. No robot yet farms on its own from planting to harvest.",
+      "checked": "2026-11-25",
+      "match": {
+        "subsectors": [
+          "Food & Agriculture Robotics"
+        ],
+        "tags": [
+          "laser weeding"
+        ],
+        "pattern": "agricultur\\w* robot|farm robot|weeding robot|harvest(ing)? robot|autonomous tractor|robotic (harvest|weeding|farm)",
+        "include": [
+          "Tevel Aerobotics",
+          "Precision AI"
+        ],
+        "exclude": [
+          "Halter",
+          "Chef Robotics",
+          "Bountiful"
+        ]
+      }
+    },
+    {
+      "id": "self-driving-cars",
+      "title": "Self-driving vehicles",
+      "imagined": "Cars without steering wheels drive themselves.",
+      "fiction": {
+        "idea_id": "r777",
+        "entry": "No Steering Wheel Autonomous Car",
+        "work": "Paradise and Iron",
+        "author": "Miles J. Breuer",
+        "year": 1930
+      },
+      "status": "built",
+      "evidence": {
+        "date": "2026-02-02",
+        "publisher": "Waymo",
+        "url": "https://waymo.com/blog/2026/02/waymo-raises-usd16-billion-investment-round/",
+        "fact": "Waymo said it was giving more than 400,000 driverless rides a week across six US metro areas, with more than 20 million rides so far."
+      },
+      "gap": "Most robotaxis still have steering wheels and drive only in mapped city zones. Nobody can buy a car that drives itself everywhere.",
+      "checked": "2026-11-25",
+      "match": {
+        "subsectors": [
+          "Autonomous Vehicles"
+        ],
+        "tags": [
+          "robotaxi",
+          "autonomous vehicles",
+          "autonomous trucking",
+          "autonomous driving"
+        ],
+        "include": [],
+        "exclude": [
+          "Innoviz Technologies",
+          "Aseon Labs",
+          "Coco Robotics",
+          "Intramotev"
+        ]
+      }
+    },
+    {
+      "id": "air-taxis",
+      "title": "Air taxis",
+      "imagined": "Electric flying taxis carry people across the city.",
+      "fiction": {
+        "idea_id": "r180",
+        "entry": "Aerocab (Aeroflyer)",
+        "work": "Ralph 124c 41 +",
+        "author": "Hugo Gernsback",
+        "year": 1911
+      },
+      "status": "demonstrated",
+      "evidence": {
+        "date": "2026-11-04",
+        "publisher": "Joby Aviation",
+        "url": "https://www.jobyaviation.com/news/joby-reports-third-quarter-2026-financial-results",
+        "fact": "Joby said it had finished a wide range of tests that count toward FAA certification, in the fifth and final stage of certifying its electric air taxi."
+      },
+      "gap": "No air taxi has FAA certification yet, and regular paid service has not started at scale anywhere.",
+      "checked": "2026-11-25",
+      "match": {
+        "subsectors": [
+          "eVTOL & Air Mobility"
+        ],
+        "tags": [
+          "evtol",
+          "air taxi",
+          "flying car"
+        ],
+        "include": [],
+        "exclude": [
+          "Quantum-Systems",
+          "Pyka",
+          "Odys Aviation"
+        ]
+      }
+    },
+    {
+      "id": "drone-delivery",
+      "title": "Drone delivery",
+      "imagined": "Pilotless planes carry the mail.",
+      "fiction": {
+        "idea_id": "r799",
+        "entry": "Automatic Air Mail Plane",
+        "work": "The Living Machine",
+        "author": "David H. Keller",
+        "year": 1935
+      },
+      "status": "built",
+      "evidence": {
+        "date": "2026-01-21",
+        "publisher": "Zipline",
+        "url": "https://www.zipline.com/newsroom/zipline-surpasses-2-million-deliveries-raises-more-than-600m-to-power-next-phase-of-growth-and-expands-operations-to-houston-and-phoenix",
+        "fact": "Zipline said it had passed two million commercial deliveries, with more than 125 million autonomous miles flown."
+      },
+      "gap": "Drones carry small parcels over short hops in approved areas. Heavy, long-distance freight flights without pilots are not routine.",
+      "checked": "2026-11-25",
+      "match": {
+        "subsectors": [
+          "Cargo & Delivery Drones"
+        ],
+        "tags": [
+          "delivery drones",
+          "drone delivery"
+        ],
+        "include": [],
+        "exclude": [
+          "Dynamo Air",
+          "DroneForge"
+        ]
+      }
+    },
+    {
+      "id": "heat-rays",
+      "title": "Heat rays",
+      "imagined": "Invaders fire a beam of heat that burns whatever it touches.",
+      "fiction": {
+        "idea_id": "r118",
+        "entry": "Heat Ray",
+        "work": "The War of the Worlds",
+        "author": "H.G. Wells",
+        "year": 1898
+      },
+      "status": "built",
+      "evidence": {
+        "date": "2025-12-28",
+        "publisher": "Israel Ministry of Defense",
+        "url": "https://mod.gov.il/en/press-releases/press-room/israel-mod-and-rafael-deliver-first-operational-high-power-laser-system-iron-beam-to-the-idf",
+        "fact": "Israel's Defense Ministry and Rafael handed the first operational Iron Beam high-power laser system to the Israeli military."
+      },
+      "gap": "Lasers work at short range against small threats and lose power in cloud or haze. Nothing like Wells's all-burning ray exists.",
+      "checked": "2026-11-25",
+      "match": {
+        "tags": [
+          "directed energy",
+          "high-power microwave",
+          "laser weapon"
+        ],
+        "pattern": "directed.energy|high.power microwave|high.energy laser|laser weapon",
+        "include": [],
+        "exclude": []
+      }
+    },
+    {
+      "id": "robot-ships",
+      "title": "Robot ships",
+      "imagined": "Ships cross the sea with no crew steering them.",
+      "fiction": {
+        "idea_id": "t3956",
+        "entry": "Autonomous Ship",
+        "work": "Paradise and Iron",
+        "author": "Miles J. Breuer",
+        "year": 1930
+      },
+      "status": "built",
+      "evidence": {
+        "date": "2026-02-24",
+        "publisher": "Saildrone",
+        "url": "https://www.saildrone.com/news/mariana-islands-saildrone-partners-with-woolpert-survey-critical-maritime-region-noaa",
+        "fact": "Saildrone sent a 20-meter uncrewed Surveyor to map about 13,000 square nautical miles of seafloor around the Mariana Islands for NOAA."
+      },
+      "gap": "Robot boats map, patrol and even fight, but big ships still sail with crews, and most robot boats are watched by remote operators.",
+      "checked": "2026-11-25",
+      "match": {
+        "tags": [
+          "autonomous vessels",
+          "usv",
+          "uuv"
+        ],
+        "pattern": "autonomous (ship|vessel|boat|surface|underwater|submarine)|uncrewed (ship|vessel|surface|underwater)|unmanned (surface|underwater)|\\busv\\b|\\buuv\\b|\\bauv\\b",
+        "include": [
+          "Havoc AI",
+          "TerraDepth",
+          "Albacore",
+          "Kraken Robotics",
+          "Odin Dynamics",
+          "Bubble Robotics"
+        ],
+        "exclude": [
+          "Scout AI",
+          "Thalassa Robotics"
+        ]
+      }
+    },
+    {
+      "id": "mind-controlled-machines",
+      "title": "Mind-controlled machines",
+      "imagined": "A brain implant lets a person see and control machines.",
+      "fiction": {
+        "idea_id": "r995",
+        "entry": "Neuronic Control Apparatus",
+        "work": "Masson's Secret",
+        "author": "Raymond Z. Gallun",
+        "year": 1939
+      },
+      "status": "demonstrated",
+      "evidence": {
+        "date": "2026-03-17",
+        "publisher": "Fudan University",
+        "url": "https://www.fudan.edu.cn/en/2026/0317/c344a148424/page.htm",
+        "fact": "China's drug regulator approved NEO, an implanted brain-computer interface that helps paralyzed patients grip with a pneumatic glove. Fudan calls it the world's first approved BCI for hand movement."
+      },
+      "gap": "It restores one kind of grip, through a glove, for one injury. Moving a cursor or a robot arm by thought is still in trials.",
+      "checked": "2026-11-25",
+      "match": {
+        "subsectors": [
+          "Neurotech"
+        ],
+        "tags": [
+          "bci",
+          "brain-computer interface"
+        ],
+        "include": [],
+        "exclude": [
+          "ABL Bio",
+          "Insitro",
+          "Alto Neuroscience",
+          "Cala Health",
+          "Nervonik",
+          "The Biological Computing Co.",
+          "Pison",
+          "Zeta Surgical",
+          "Flow Neuroscience",
+          "ATLAS"
+        ]
+      }
+    },
+    {
+      "id": "gene-editing",
+      "title": "Gene editing",
+      "imagined": "Scientists reshape living things by working directly on their genes.",
+      "fiction": {
+        "idea_id": "r1490",
+        "entry": "Genetic Engineering",
+        "work": "Dragon's Island",
+        "author": "Jack Williamson",
+        "year": 1951
+      },
+      "status": "built",
+      "evidence": {
+        "date": "2023-12-08",
+        "publisher": "US Food and Drug Administration",
+        "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapies-treat-patients-sickle-cell-disease",
+        "fact": "The FDA approved Casgevy for sickle cell disease, the first approved medicine made with CRISPR gene editing."
+      },
+      "gap": "Approved edits treat a few blood disorders in a patient's own cells. Editing embryos is barred in most countries.",
+      "checked": "2026-11-25",
+      "match": {
+        "tags": [
+          "gene editing",
+          "crispr"
+        ],
+        "pattern": "gene editing|crispr|base editing|prime editing|gene writing|genome editing",
+        "include": [
+          "Inari"
+        ],
+        "exclude": [
+          "Anthrogen"
+        ]
+      }
+    },
+    {
+      "id": "robot-surgeons",
+      "title": "Robot surgeons",
+      "imagined": "A robot performs an operation on its own.",
+      "fiction": {
+        "idea_id": "r2819",
+        "entry": "Robot Surgeon",
+        "work": "Winged Planet",
+        "author": "Adam Chase",
+        "year": 1957
+      },
+      "status": "demonstrated",
+      "evidence": {
+        "date": "2025-07-09",
+        "publisher": "Johns Hopkins University",
+        "url": "https://hub.jhu.edu/2025/07/09/robot-performs-first-realistic-surgery-without-human-help/",
+        "fact": "A Johns Hopkins robot did a 17-task phase of gallbladder removal on a lifelike patient model without human help, after learning from surgery videos."
+      },
+      "gap": "Surgeons still drive every robot used on patients. No robot has done a full operation on a living person by itself.",
+      "checked": "2026-11-25",
+      "match": {
+        "tags": [
+          "surgical robots",
+          "surgical robotics"
+        ],
+        "pattern": "surgical robot|robotic surg|autonomous surg",
+        "include": [
+          "Aleph Surgical"
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "id": "spare-organs",
+      "title": "Spare organs",
+      "imagined": "Human organs for transplant are grown outside the body.",
+      "fiction": {
+        "idea_id": "r2502",
+        "entry": "Artificially Grown Organs",
+        "work": "A Gift From Earth",
+        "author": "Larry Niven",
+        "year": 1968
+      },
+      "status": "demonstrated",
+      "evidence": {
+        "date": "2026-09-03",
+        "publisher": "Mass General Brigham",
+        "url": "https://news.massgeneralbrigham.org/en/pig-kidney-xenotransplant-bridge-to-human-transplant",
+        "fact": "A patient lived 271 days without dialysis on a gene-edited pig kidney, the longest yet, before moving on to a human kidney."
+      },
+      "gap": "No grown or pig organ is approved for routine use. The FDA has approved only simpler made tissue, such as a lab-grown blood vessel.",
+      "checked": "2026-11-25",
+      "match": {
+        "tags": [
+          "xenotransplantation"
+        ],
+        "pattern": "xenotransplant|organ (transplant|replacement|manufactur)|bioprint|lab-grown organ",
+        "include": [
+          "LyGenesis",
+          "Until"
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "id": "stopping-aging",
+      "title": "Stopping aging",
+      "imagined": "A cheap drug sold at the corner store stops people from growing old.",
+      "fiction": {
+        "idea_id": "r1741",
+        "entry": "Anti-Gerasone",
+        "work": "Tomorrow and Tomorrow and Tomorrow",
+        "author": "Kurt Vonnegut, Jr.",
+        "year": 1954
+      },
+      "status": "still_fiction",
+      "evidence": {
+        "date": "2026-01-13",
+        "publisher": "Loyal",
+        "url": "https://loyal.com/posts/loy-002-tas-announcement",
+        "fact": "The FDA accepted the safety section of Loyal's application for LOY-002, a daily pill meant to extend the healthy lives of senior dogs."
+      },
+      "gap": "No drug has been shown to slow or reverse aging in people. The nearest is a dog drug still waiting for FDA approval.",
+      "checked": "2026-11-25",
+      "match": {
+        "subsectors": [
+          "Longevity"
+        ],
+        "tags": [
+          "longevity",
+          "aging"
+        ],
+        "include": [],
+        "exclude": []
+      }
+    },
+    {
+      "id": "extinct-animals",
+      "title": "Bringing back extinct animals",
+      "imagined": "A mammoth is brought back to life from the genes of the original.",
+      "fiction": {
+        "idea_id": "r3238",
+        "entry": "Mammontelephas",
+        "work": "Earth",
+        "author": "David Brin",
+        "year": 1990
+      },
+      "status": "in_development",
+      "evidence": {
+        "date": "2024-10-01",
+        "publisher": "Colossal Biosciences",
+        "url": "https://colossal.com/direwolf/",
+        "fact": "Colossal says its three wolf pups, the first born on 1 October 2024, are dire wolves brought back from extinction."
+      },
+      "gap": "The pups are gray wolves with gene edits for dire-wolf traits. No mammoth-like calf has been born yet.",
+      "checked": "2026-11-25",
+      "match": {
+        "tags": [
+          "de-extinction"
+        ],
+        "include": [],
+        "exclude": []
+      }
+    }
+  ]
+}
