@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 2.95,
+      "avg_change": 4.42,
       "count": 1
     },
     "space": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -14.47,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -7.86,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -4.32,
+      "avg_change": 0.16,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -16.41,
+      "avg_change": -14.0,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.72,
+      "avg_change": -1.35,
       "count": 3
     },
     "quantum": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -12.23,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -4.82,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.54,
+      "avg_change": -7.12,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": -1.63,
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -0.84,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.18,
+      "avg_change": -12.23,
       "count": 3
     }
   },
   "topGainers": [
-    [
-      "LNZA",
-      "LanzaTech",
-      16.47
-    ],
     [
       "277810.KQ",
       "Rainbow Robotics",
       13.88
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      5.95
+      "LNZA",
+      "LanzaTech",
+      12.88
     ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      4.56
+      4.6
     ],
     [
       "PLTR",
       "Palantir",
-      2.95
+      4.42
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      2.08
     ]
   ],
   "topLosers": [
     [
-      "AMD",
-      "AMD",
-      -17.91
+      "SATL",
+      "Satellogic",
+      -12.78
     ],
     [
-      "ACHR",
-      "Archer Aviation",
-      -18.18
+      "TEM",
+      "Tempus AI",
+      -13.96
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      -19.15
+      "NNE",
+      "Nano Nuclear Energy",
+      -14.44
     ],
     [
       "SMR",
       "NuScale Power",
-      -19.32
+      -16.88
     ],
     [
-      "JOBY",
-      "Joby Aviation",
-      -19.86
+      "AMD",
+      "AMD",
+      -23.41
     ]
   ],
-  "lastUpdated": "2026-11-25 09:55:59"
+  "lastUpdated": "2026-11-25 22:40:03"
 }
