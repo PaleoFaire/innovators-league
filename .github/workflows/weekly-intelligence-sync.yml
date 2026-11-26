@@ -113,7 +113,7 @@ jobs:
 
       - name: DSCA Foreign Military Sales Notifications
         # Defense tech as named subs in foreign arms packages; geographic
-        # demand signal (UAE, Taiwan, Saudi) — relevant to SAVI/ADIO.
+        # demand signal (UAE, Taiwan, Saudi).
         run: python scripts/fetch_dsca_fms.py
         continue-on-error: true
 

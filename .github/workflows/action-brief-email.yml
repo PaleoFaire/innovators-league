@@ -2,17 +2,17 @@ name: Email the Action Brief
 
 # THE ROUTE
 #
-#   this workflow  ──email──▶  stephenmcbride92@gmail.com
+#   this workflow  ──email──▶  the personal inbox (MAIL_TO)
 #                                       │
 #                              morning dossier ingests the inbox
 #                                       │
 #                                       ▼
-#                    stephen@rationaloptimistsociety.com, 06:00 Gulf
+#                    the ROS inbox, 06:00 Gulf
 #
 # The brief is NOT sent to Stephen directly. It is sent INTO the inbox the
 # dossier reads, so it arrives as a section of the dossier rather than as a
 # second thing to open. MAIL_TO is therefore the gmail address, deliberately —
-# pointing it at stephen@rationaloptimistsociety.com would bypass the dossier
+# pointing it at the ROS inbox would bypass the dossier
 # and produce exactly the extra daily email this is meant to avoid.
 #
 # Timing is load-bearing: the dossier goes out at 02:00 UTC, the brief builds at
@@ -28,14 +28,14 @@ name: Email the Action Brief
 #                   (requires 2-Step Verification to be on). An app password is
 #                   scoped to one app and revocable on its own, which is why it
 #                   is the right credential here.
-#   MAIL_TO         stephenmcbride92@gmail.com
+#   MAIL_TO         the inbox the dossier reads
 #
 # Until those exist the job skips cleanly rather than failing, so nothing goes
 # red in the Actions tab while it waits.
 #
 # A note on the sender: mail from your own address to your own address is the
 # simplest setup and needs no domain configuration. If you would rather it came
-# from stephen@rationaloptimistsociety.com, that works too — point
+# from the ROS inbox, that works too — point
 # MAIL_USERNAME at it and use that account's app password, keeping MAIL_TO on
 # the gmail address the dossier watches.
 
