@@ -78203,7 +78203,7 @@ const INNOVATOR_50 = [
     scores: { techMoat: 8, momentum: 10, team: 9, capitalEfficiency: 7, govTraction: 9 },
     totalScore: 43,
 
-    foundersNote: 'Dino Trevisan built his first boat company at 19. When we visited the Austin shipyard, vessels were being built on timelines that would make traditional shipbuilders weep. The "shipyard as startup" model is genuinely novel — they\'re treating boats like software products.',
+    foundersNote: 'Dino Mavrookas and his co-founders treat shipbuilding like a startup problem: Saronic builds its own autonomous vessels at its Franklin, Louisiana yard and in 2026 broke ground on Port Alpha, a $3.2B shipyard in Brownsville, Texas. The "shipyard as startup" model is genuinely novel: they\'re treating boats like software products.',
 
     whyNow: 'Navy modernization urgency at peak. Replicator program selecting vendors. First vessels delivered and operational.',
     nextMilestone: 'Replicator contract expansion. International naval customer.',
