@@ -76,37 +76,10 @@ def parse_company_names():
 
 
 def seeded_shipments():
-    """Realistic 2025-2026 shipment records for tracked hardware cos.
-    Pattern-matched from ImportYeti / ImportGenius public data."""
-    return [
-        # Anduril — scaling counter-drone + Arsenal-1 Columbus
-        {"consignee": "Anduril Industries", "shipper": "Taiwan Semiconductor Manufacturing Co. (TSMC)", "shipper_country": "TAIWAN", "hs_code": "8542", "description": "Integrated circuits for Lattice sensor fusion", "port": "Los Angeles, CA", "weight_kg": 1240, "shipments_ytd": 47, "first_seen": "2024-08-12", "last_seen": "2026-04-02"},
-        {"consignee": "Anduril Industries", "shipper": "Foxconn Interconnect Technology", "shipper_country": "TAIWAN", "hs_code": "8544", "description": "Wiring harnesses for sentry towers", "port": "Long Beach, CA", "weight_kg": 8900, "shipments_ytd": 22, "first_seen": "2025-02-05", "last_seen": "2026-03-28"},
-        # Skydio — ongoing DJI-alternative hardware
-        {"consignee": "Skydio Inc.", "shipper": "Sony Semiconductor Solutions", "shipper_country": "JAPAN", "hs_code": "8525", "description": "IMX-series image sensors for X10D", "port": "Oakland, CA", "weight_kg": 320, "shipments_ytd": 31, "first_seen": "2024-11-20", "last_seen": "2026-04-10"},
-        {"consignee": "Skydio Inc.", "shipper": "LG Chem", "shipper_country": "SOUTH KOREA", "hs_code": "8507", "description": "Lithium polymer batteries for X10D payload", "port": "Long Beach, CA", "weight_kg": 4200, "shipments_ytd": 18, "first_seen": "2025-01-15", "last_seen": "2026-04-05"},
-        # Oklo — nuclear fuel + cryogenic components
-        {"consignee": "Oklo Inc.", "shipper": "Linde Engineering (Germany)", "shipper_country": "GERMANY", "hs_code": "8419", "description": "Cryogenic heat exchangers for Aurora", "port": "Baltimore, MD", "weight_kg": 15400, "shipments_ytd": 4, "first_seen": "2025-08-22", "last_seen": "2026-03-18"},
-        # Figure AI — humanoid components
-        {"consignee": "Figure AI, Inc.", "shipper": "Harmonic Drive Systems", "shipper_country": "JAPAN", "hs_code": "8483", "description": "Harmonic reducer gearboxes for humanoid joints", "port": "Oakland, CA", "weight_kg": 2800, "shipments_ytd": 38, "first_seen": "2024-06-14", "last_seen": "2026-04-08"},
-        {"consignee": "Figure AI, Inc.", "shipper": "Maxon Motor", "shipper_country": "SWITZERLAND", "hs_code": "8501", "description": "Precision brushless motors", "port": "Los Angeles, CA", "weight_kg": 1100, "shipments_ytd": 24, "first_seen": "2024-10-02", "last_seen": "2026-04-01"},
-        # Saronic — maritime autonomy
-        {"consignee": "Saronic Technologies", "shipper": "Yanmar Holdings", "shipper_country": "JAPAN", "hs_code": "8407", "description": "Marine diesel engines for Corsair platforms", "port": "Houston, TX", "weight_kg": 42000, "shipments_ytd": 9, "first_seen": "2024-09-11", "last_seen": "2026-03-25"},
-        # Helion
-        {"consignee": "Helion Energy, Inc.", "shipper": "SuperPower Inc.", "shipper_country": "JAPAN", "hs_code": "8507", "description": "HTS superconducting wire", "port": "Seattle, WA", "weight_kg": 480, "shipments_ytd": 12, "first_seen": "2025-03-18", "last_seen": "2026-04-03"},
-        # Rocket Lab — Neutron production
-        {"consignee": "Rocket Lab USA", "shipper": "Mitsubishi Chemical Advanced Materials", "shipper_country": "JAPAN", "hs_code": "3926", "description": "Carbon composite substrates for Neutron fairings", "port": "Long Beach, CA", "weight_kg": 8700, "shipments_ytd": 15, "first_seen": "2024-12-04", "last_seen": "2026-04-06"},
-        # Commonwealth Fusion
-        {"consignee": "Commonwealth Fusion Systems", "shipper": "Fujikura Ltd.", "shipper_country": "JAPAN", "hs_code": "8544", "description": "REBCO HTS tape for SPARC magnets", "port": "Boston, MA", "weight_kg": 920, "shipments_ytd": 8, "first_seen": "2025-04-20", "last_seen": "2026-03-30"},
-        # Shield AI
-        {"consignee": "Shield AI", "shipper": "Maxon Motor", "shipper_country": "SWITZERLAND", "hs_code": "8501", "description": "Precision servo motors for V-BAT VTOL", "port": "Long Beach, CA", "weight_kg": 780, "shipments_ytd": 14, "first_seen": "2025-01-08", "last_seen": "2026-03-15"},
-        # Archer Aviation
-        {"consignee": "Archer Aviation", "shipper": "Hexcel Composites (Austria)", "shipper_country": "AUSTRIA", "hs_code": "3901", "description": "Carbon prepreg for Midnight airframes", "port": "Oakland, CA", "weight_kg": 22000, "shipments_ytd": 11, "first_seen": "2024-11-18", "last_seen": "2026-04-02"},
-        # Tesla-adjacent / Velaura AI (post-rebrand)
-        {"consignee": "Velaura AI, Inc.", "shipper": "ASML Netherlands", "shipper_country": "NETHERLANDS", "hs_code": "9011", "description": "2nm EUV photomask blanks", "port": "San Francisco, CA", "weight_kg": 150, "shipments_ytd": 3, "first_seen": "2025-12-22", "last_seen": "2026-04-11"},
-        # Hermeus
-        {"consignee": "Hermeus Corp.", "shipper": "Inconel Specialty Alloys", "shipper_country": "UNITED KINGDOM", "hs_code": "7220", "description": "Nickel superalloys for Chimera turbine section", "port": "Savannah, GA", "weight_kg": 6300, "shipments_ytd": 6, "first_seen": "2025-05-04", "last_seen": "2026-03-12"},
-    ]
+    """Placeholder records were removed on 26 Nov 2026. The site never publishes
+    invented data: if the live source is down, the output is empty and marked
+    "unavailable"."""
+    return []
 
 
 def try_importyeti(company_name):
@@ -195,7 +168,7 @@ def main():
         source_status = "live_pending"
     else:
         print("  ImportYeti unreachable — emitting seeded shipments")
-        source_status = "seeded"
+        source_status = "unavailable"
 
     shipments = seeded_shipments()
     for s in shipments:

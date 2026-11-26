@@ -154,88 +154,9 @@ def score_transcript(transcript, prior_hedge_density=None):
 # Seeded transcripts — in production swap for live earnings-call pulls
 # ────────────────────────────────────────────────────────────────────────
 
-SEEDED_CALLS = [
-    {
-        "company": "Palantir",
-        "ticker": "NYSE: PLTR",
-        "quarter": "Q1 2026",
-        "date": "2026-05-05",
-        "transcript": "Our performance this quarter has been absolutely incredible. The company has seen unprecedented demand across the US government segment. Revenue grew at record-breaking rates, and we see that momentum continuing. On international commercial, frankly, it's phenomenal. AIP is transforming everything. Every quarter we break records and this will continue.",
-        "prior_hedge_density": 12.1,
-    },
-    {
-        "company": "Rocket Lab",
-        "ticker": "NASDAQ: RKLB",
-        "quarter": "Q1 2026",
-        "date": "2026-05-08",
-        "transcript": "We executed against plan this quarter. Neutron development is on track. Electron launches continue. We maintained a strong backlog. Pricing power is improving in the launch business. Our photon spacecraft customer pipeline grew 40% year-over-year. We expect continued execution through the balance of the year.",
-        "prior_hedge_density": 18.4,
-    },
-    {
-        "company": "Archer Aviation",
-        "ticker": "NYSE: ACHR",
-        "quarter": "Q1 2026",
-        "date": "2026-05-09",
-        "transcript": "We believe the Midnight certification process is probably going to be completed in the timeframe we previously discussed. Potentially some variables could impact the exact date. Roughly speaking, we expect production to ramp in the second half. We don't break that out. Let me get back to you on the specific unit economics. Generally our launch customers have been supportive.",
-        "prior_hedge_density": 14.2,
-    },
-    {
-        "company": "IonQ",
-        "ticker": "NYSE: IONQ",
-        "quarter": "Q1 2026",
-        "date": "2026-05-07",
-        "transcript": "IonQ continues to execute on its technical roadmap. We achieved milestone algorithmic qubits targets this quarter. The company's partnerships expanded. Government contracts grew at a steady pace. We don't guide on individual deals but commercial interest remains strong. Margin improvement is tracking expectations.",
-        "prior_hedge_density": 16.8,
-    },
-    {
-        "company": "AST SpaceMobile",
-        "ticker": "NASDAQ: ASTS",
-        "quarter": "Q1 2026",
-        "date": "2026-05-12",
-        "transcript": "BlueBird operations are progressing as expected. We've had approximately the number of successful direct-to-cell links we projected. Partnership economics are, we believe, fairly favorable. The business is complex. We don't disclose per-satellite economics. Generally we are pleased with progress. Some variables could shift timing on next-generation production.",
-        "prior_hedge_density": 22.1,
-    },
-    {
-        "company": "Oklo",
-        "ticker": "NYSE: OKLO",
-        "quarter": "Q4 2025",
-        "date": "2026-02-18",
-        "transcript": "The Aurora SMR program advanced. NRC pre-application engagement completed. We placed orders for long-lead items. Fuel qualification progress remains on schedule. We secured additional memorandums of understanding with commercial offtakers. Cash position strengthened following the follow-on offering.",
-        "prior_hedge_density": 9.3,
-    },
-    {
-        "company": "NuScale Power",
-        "ticker": "NYSE: SMR",
-        "quarter": "Q1 2026",
-        "date": "2026-05-04",
-        "transcript": "NuScale has continued to advance its design certification. We potentially see project economics improving somewhat in the current environment. Relatively speaking, costs are stabilizing. We believe the Carbon Free Power Project alternative structures could work. Maybe by end of year we'll have clarity. We don't comment on confidential customer discussions.",
-        "prior_hedge_density": 15.6,
-    },
-    {
-        "company": "Joby Aviation",
-        "ticker": "NYSE: JOBY",
-        "quarter": "Q1 2026",
-        "date": "2026-05-11",
-        "transcript": "Type certification work with the FAA continued on plan. Flight testing programs progressed. Dubai operations launched commercially. We are manufacturing at a deliberate pace to preserve quality. Partner commitments remain intact. Our pilot training program is up and running.",
-        "prior_hedge_density": 11.2,
-    },
-    {
-        "company": "Symbotic",
-        "ticker": "NASDAQ: SYM",
-        "quarter": "Q2 2026",
-        "date": "2026-05-13",
-        "transcript": "This quarter was absolutely fantastic for Symbotic. Record bookings. The company has truly transformational opportunities ahead. Walmart deployment is phenomenal. We're seeing unprecedented demand from new customers. Every operating metric is off the charts. The organization is stunning.",
-        "prior_hedge_density": 8.9,
-    },
-    {
-        "company": "D-Wave",
-        "ticker": "NYSE: QBTS",
-        "quarter": "Q1 2026",
-        "date": "2026-05-14",
-        "transcript": "We continued commercial engagement with enterprise customers. Advantage2 system interest grew. Quantum application revenue pipeline is developing. We delivered against planned milestones. Partnership with EP Business Resources is on track. Annual recurring revenue remains a key focus.",
-        "prior_hedge_density": 17.5,
-    },
-]
+# Invented placeholder transcripts were removed on 26 Nov 2026: never score made-up
+# quotes attributed to real companies. Wire real transcripts in before re-enabling.
+SEEDED_CALLS = []
 
 
 def parse_company_names():
@@ -300,7 +221,7 @@ def main():
 
     payload = {
         "generated_at": datetime.now(tz=timezone.utc).isoformat(),
-        "source_status": "seeded",  # swap to "live" when wired to real transcripts
+        "source_status": "seeded" if SEEDED_CALLS else "unavailable",  # the gate blocks "seeded"
         "model_basis": "Larcker & Zakolyukina (2010) + Cialdini hedge/frame theory",
         "scored_calls": scored,
         "summary": {

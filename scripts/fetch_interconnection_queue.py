@@ -140,167 +140,10 @@ def fetch_interconnection_fyi():
 
 
 def seeded_queue_entries():
-    """Curated high-profile queue entries as a reliable fallback. These
-    are all public filings cross-referenced from press + ISO queue PDFs.
-    Regenerated with any known updates each release."""
-    return [
-        {
-            "queue_id": "PJM-Q2024-0321",
-            "rto": "PJM",
-            "customer": "Stargate (OpenAI/SoftBank/Oracle)",
-            "project_name": "Stargate Abilene Data Center Phase 1",
-            "mw_size": 1200,
-            "fuel_type": "Gas + Battery Storage",
-            "county": "Taylor",
-            "state": "TX",
-            "proposed_online_date": "2027-06",
-            "status": "Active — System Impact Study",
-            "queue_date": "2024-09-15",
-        },
-        {
-            "queue_id": "ERCOT-INR-24-1822",
-            "rto": "ERCOT",
-            "customer": "Crusoe Cloud",
-            "project_name": "Crusoe Abilene Site B Expansion",
-            "mw_size": 500,
-            "fuel_type": "Gas Peaker + Solar",
-            "county": "Taylor",
-            "state": "TX",
-            "proposed_online_date": "2026-12",
-            "status": "Active — Planning Phase",
-            "queue_date": "2024-11-02",
-        },
-        {
-            "queue_id": "MISO-J1445",
-            "rto": "MISO",
-            "customer": "Meta Platforms",
-            "project_name": "Meta Louisiana Hyperscale Campus",
-            "mw_size": 2000,
-            "fuel_type": "Nuclear (proposed SMR offtake)",
-            "county": "Richland",
-            "state": "LA",
-            "proposed_online_date": "2028-03",
-            "status": "Active — DPP Group",
-            "queue_date": "2024-08-20",
-        },
-        {
-            "queue_id": "CAISO-Q2024-088",
-            "rto": "CAISO",
-            "customer": "Microsoft Azure",
-            "project_name": "Microsoft Santa Clara Expansion",
-            "mw_size": 400,
-            "fuel_type": "Grid + Battery Storage",
-            "county": "Santa Clara",
-            "state": "CA",
-            "proposed_online_date": "2027-01",
-            "status": "Active — Cluster Study",
-            "queue_date": "2025-01-12",
-        },
-        {
-            "queue_id": "SPP-IA-2024-092",
-            "rto": "SPP",
-            "customer": "Oklo Inc",
-            "project_name": "Oklo Aurora Idaho Falls (SMR)",
-            "mw_size": 75,
-            "fuel_type": "Nuclear — Advanced Reactor",
-            "county": "Bonneville",
-            "state": "ID",
-            "proposed_online_date": "2028-12",
-            "status": "Active — NRC Coordination",
-            "queue_date": "2024-05-28",
-        },
-        {
-            "queue_id": "NYISO-2024-LCD-44",
-            "rto": "NYISO",
-            "customer": "TerraPower (Natrium)",
-            "project_name": "TerraPower Natrium Demo",
-            "mw_size": 345,
-            "fuel_type": "Nuclear — Sodium Fast Reactor",
-            "county": "Lincoln",
-            "state": "WY",
-            "proposed_online_date": "2030-06",
-            "status": "Active — Feasibility Study",
-            "queue_date": "2023-11-10",
-        },
-        {
-            "queue_id": "ERCOT-INR-24-2001",
-            "rto": "ERCOT",
-            "customer": "xAI (Colossus II)",
-            "project_name": "xAI Memphis Expansion",
-            "mw_size": 1500,
-            "fuel_type": "Gas Turbine + Grid",
-            "county": "Shelby",
-            "state": "TN",
-            "proposed_online_date": "2027-09",
-            "status": "Active — System Impact Study",
-            "queue_date": "2025-02-18",
-        },
-        {
-            "queue_id": "PJM-AF1-2024-0089",
-            "rto": "PJM",
-            "customer": "Amazon Web Services",
-            "project_name": "AWS Virginia Prince William Co. Phase III",
-            "mw_size": 960,
-            "fuel_type": "Grid + On-site Solar",
-            "county": "Prince William",
-            "state": "VA",
-            "proposed_online_date": "2027-04",
-            "status": "Active — Construction Planning",
-            "queue_date": "2024-06-11",
-        },
-        {
-            "queue_id": "PJM-AG2-2024-0122",
-            "rto": "PJM",
-            "customer": "CoreWeave / Core Scientific",
-            "project_name": "CoreWeave Dallas-Denton Cluster",
-            "mw_size": 640,
-            "fuel_type": "Gas + Storage",
-            "county": "Denton",
-            "state": "TX",
-            "proposed_online_date": "2026-10",
-            "status": "Active — Feasibility Study",
-            "queue_date": "2024-10-03",
-        },
-        {
-            "queue_id": "SPP-IA-2025-001",
-            "rto": "SPP",
-            "customer": "X-energy / Energy Northwest",
-            "project_name": "Cascade Advanced Reactor Project",
-            "mw_size": 320,
-            "fuel_type": "Nuclear — Xe-100 HTGR",
-            "county": "Benton",
-            "state": "WA",
-            "proposed_online_date": "2030-12",
-            "status": "Active — NRC Pre-App",
-            "queue_date": "2025-01-30",
-        },
-        {
-            "queue_id": "CAISO-Q2025-012",
-            "rto": "CAISO",
-            "customer": "Kairos Power",
-            "project_name": "Kairos Hermes 2 Test Reactor",
-            "mw_size": 35,
-            "fuel_type": "Nuclear — FHR (molten-salt)",
-            "county": "Roane",
-            "state": "TN",
-            "proposed_online_date": "2028-06",
-            "status": "Active — NRC Construction Permit",
-            "queue_date": "2024-12-18",
-        },
-        {
-            "queue_id": "ISO-NE-2024-Q3-017",
-            "rto": "ISO-NE",
-            "customer": "Google (Alphabet)",
-            "project_name": "Google Data Center Expansion — MA",
-            "mw_size": 280,
-            "fuel_type": "Grid + Battery",
-            "county": "Middlesex",
-            "state": "MA",
-            "proposed_online_date": "2026-11",
-            "status": "Active — Feasibility",
-            "queue_date": "2024-08-05",
-        },
-    ]
+    """Placeholder records were removed on 26 Nov 2026. The site never publishes
+    invented data: if the live source is down, the output is empty and marked
+    "unavailable"."""
+    return []
 
 
 def enrich(entries, company_names):
@@ -341,7 +184,7 @@ def main():
     if not entries:
         print("  Falling back to seeded curated entries")
         entries = seeded_queue_entries()
-        source_status = "seeded"
+        source_status = "unavailable"
 
     # Filter to things >= MIN_MW OR SMR regardless of size
     filtered = []

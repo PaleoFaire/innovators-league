@@ -17,7 +17,7 @@ Why it matters for frontier tech:
   loitering munition, and C4ISR packages.
 
   Also: geographic demand signal — UAE, Saudi, Taiwan, Japan FMS
-  cadence is directly relevant to Stephen's ADIO / SAVI work.
+  cadence is a useful Gulf and Asia demand signal.
 
 This pipeline:
   1. Scrapes dsca.mil/Press-Media/Major-Arms-Sales (HTML list + detail
@@ -25,7 +25,7 @@ This pipeline:
   2. Parses each notification for: country, article, total value,
      primary contractors, congressional notification date
   3. Cross-references named contractors against COMPANIES array
-  4. Graceful fallback to seeded realistic 2025-2026 notifications
+  4. If DSCA can't be read, emit nothing (status "unavailable"); never invent notifications
 
 Output:
   data/dsca_fms_auto.json
@@ -80,119 +80,10 @@ def parse_company_names():
 
 
 def seeded_fms_notifications():
-    """2025-2026 realistic FMS notifications. These reflect real
-    patterns — counter-drone to Saudi, loitering munitions to Taiwan,
-    autonomous systems to UAE, etc."""
-    return [
-        {
-            "notification_id": "Transmittal 25-11",
-            "country": "Saudi Arabia",
-            "article": "Counter-UAS Air Defense System Package",
-            "value_usd_m": 1200,
-            "primary_contractors": ["Lockheed Martin", "Raytheon", "Anduril Industries"],
-            "notification_date": "2025-12-04",
-            "summary": "Saudi Arabia requested integrated counter-drone + short-range air defense — includes Anduril Pulsar EW and sentry-tower radars as subsystem.",
-        },
-        {
-            "notification_id": "Transmittal 25-14",
-            "country": "United Arab Emirates",
-            "article": "Maritime Autonomous Surface Vessels and Training",
-            "value_usd_m": 480,
-            "primary_contractors": ["Saronic Technologies", "HII Mission Technologies"],
-            "notification_date": "2025-12-18",
-            "summary": "UAE requested autonomous maritime systems and associated training — first large FMS featuring Saronic as named prime, relevant to Abu Dhabi SAVI relationships.",
-        },
-        {
-            "notification_id": "Transmittal 26-01",
-            "country": "Taiwan",
-            "article": "Loitering Munitions — Switchblade 600 + Phoenix Ghost",
-            "value_usd_m": 350,
-            "primary_contractors": ["AeroVironment", "Anduril Industries"],
-            "notification_date": "2026-01-09",
-            "summary": "Taiwan requested additional loitering munitions and associated training. Anduril Phoenix Ghost variant named.",
-        },
-        {
-            "notification_id": "Transmittal 26-02",
-            "country": "Japan",
-            "article": "Advanced SAR Satellite Constellation Ground Services",
-            "value_usd_m": 830,
-            "primary_contractors": ["L3Harris", "Capella Space"],
-            "notification_date": "2026-01-23",
-            "summary": "Japan requested commercial SAR imagery subscription and terminal infrastructure — Capella named as data provider sub.",
-        },
-        {
-            "notification_id": "Transmittal 26-03",
-            "country": "Australia",
-            "article": "Counter-UAS Directed Energy (Epirus Leonidas)",
-            "value_usd_m": 220,
-            "primary_contractors": ["Epirus, Inc.", "Northrop Grumman"],
-            "notification_date": "2026-02-06",
-            "summary": "Australia requested solid-state microwave counter-drone systems under AUKUS Pillar II — Epirus Leonidas named prime.",
-        },
-        {
-            "notification_id": "Transmittal 26-05",
-            "country": "Poland",
-            "article": "AI Decision-Support for Command-and-Control",
-            "value_usd_m": 490,
-            "primary_contractors": ["Palantir Technologies", "Booz Allen Hamilton"],
-            "notification_date": "2026-02-19",
-            "summary": "Poland requested Palantir MSS/Gotham for NATO eastern-flank command centers with associated analyst training.",
-        },
-        {
-            "notification_id": "Transmittal 26-06",
-            "country": "South Korea",
-            "article": "Autonomous Ground Vehicles and Integration",
-            "value_usd_m": 310,
-            "primary_contractors": ["Milrem Robotics", "Textron Systems", "Bone AI"],
-            "notification_date": "2026-03-05",
-            "summary": "ROK requested UGV platforms + autonomy stack — first notification featuring Bone AI as a named sub.",
-        },
-        {
-            "notification_id": "Transmittal 26-07",
-            "country": "Norway",
-            "article": "Naval Strike Missiles + Coastal Defense Radar",
-            "value_usd_m": 740,
-            "primary_contractors": ["Kongsberg", "Raytheon"],
-            "notification_date": "2026-03-13",
-            "summary": "Norway requested NSM Block 1A and associated coastal radar; no tracked frontier-tech subs named.",
-        },
-        {
-            "notification_id": "Transmittal 26-08",
-            "country": "Israel",
-            "article": "Long-Range Strike Munition Package",
-            "value_usd_m": 2900,
-            "primary_contractors": ["Boeing", "Lockheed Martin"],
-            "notification_date": "2026-03-20",
-            "summary": "Israel requested GBU-39 SDB + JDAM + tanker fuel; no tracked frontier subs.",
-        },
-        {
-            "notification_id": "Transmittal 26-09",
-            "country": "India",
-            "article": "MQ-9B SkyGuardian UAS Package",
-            "value_usd_m": 3800,
-            "primary_contractors": ["General Atomics", "L3Harris"],
-            "notification_date": "2026-04-03",
-            "summary": "India requested 31× MQ-9B platforms with sensors and Hellfire/GBU-38 integration.",
-        },
-        {
-            "notification_id": "Transmittal 26-10",
-            "country": "United Arab Emirates",
-            "article": "AI Decision Platform + Sensor Fusion",
-            "value_usd_m": 560,
-            "primary_contractors": ["Palantir Technologies", "Anduril Industries"],
-            "notification_date": "2026-04-10",
-            "summary": "UAE requested Palantir AIP for Defense + Anduril Lattice for integrated air-picture and counter-drone coordination. Direct tie-in to SAVI cluster.",
-        },
-        {
-            "notification_id": "Transmittal 26-11",
-            "country": "Philippines",
-            "article": "Maritime Surveillance Satellite Data",
-            "value_usd_m": 180,
-            "primary_contractors": ["BlackSky", "Planet Labs"],
-            "notification_date": "2026-04-16",
-            "summary": "Philippines requested commercial satellite imagery subscription + AIS fusion — BlackSky and Planet named.",
-        },
-    ]
+    """Placeholder records were removed on 26 Nov 2026. The site never publishes
+    invented data: if the live source is down, the output is empty and marked
+    "unavailable"."""
+    return []
 
 
 def match_contractors(contractors, company_names):
@@ -222,7 +113,7 @@ def main():
 
     if not live:
         print("  DSCA unreachable — emitting seeded FMS notifications")
-        source_status = "seeded"
+        source_status = "unavailable"
     else:
         # Real scraper would parse the index page + each notification detail
         print("  DSCA reachable — using seeded (live scrape pending)")

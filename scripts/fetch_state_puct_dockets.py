@@ -75,22 +75,10 @@ def parse_company_names():
 
 
 def seeded_dockets():
-    """Realistic 2025-2026 state PUC dockets tied to frontier-tech
-    AI data centers, SMR siting, fab construction, lithium refineries."""
-    return [
-        {"docket_id": "TX-PUCT-57891", "state": "TX", "commission": "PUCT", "applicant": "Stargate Texas LLC (OpenAI)", "filing_type": "Large Load Interconnection Application", "mw_requested": 1200, "site_location": "Abilene, Taylor County", "filing_date": "2025-11-18", "status": "Active — Comment Period", "url": "https://interchange.puc.texas.gov/Search/Filings?Number=57891"},
-        {"docket_id": "TX-PUCT-58014", "state": "TX", "commission": "PUCT", "applicant": "Crusoe Cloud Texas LP", "filing_type": "Colocation Tariff Filing", "mw_requested": 500, "site_location": "Abilene, Taylor County", "filing_date": "2025-12-03", "status": "Active — Discovery", "url": "https://interchange.puc.texas.gov/Search/Filings?Number=58014"},
-        {"docket_id": "TX-PUCT-58221", "state": "TX", "commission": "PUCT", "applicant": "Texas Instruments (Sherman Fab Expansion)", "filing_type": "Large Load Interconnection", "mw_requested": 320, "site_location": "Sherman, Grayson County", "filing_date": "2026-01-09", "status": "Active — Review", "url": "https://interchange.puc.texas.gov/Search/Filings?Number=58221"},
-        {"docket_id": "CA-CPUC-A.25-12-003", "state": "CA", "commission": "CPUC", "applicant": "Microsoft Santa Clara Energy LLC", "filing_type": "Direct Access Application", "mw_requested": 400, "site_location": "Santa Clara County", "filing_date": "2025-12-15", "status": "Active — Prehearing Conf.", "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=All&DocID=A.25-12-003"},
-        {"docket_id": "TX-PUCT-58455", "state": "TX", "commission": "PUCT", "applicant": "Meta Platforms Texas LLC", "filing_type": "Large Load Interconnection", "mw_requested": 750, "site_location": "Fort Worth, Tarrant County", "filing_date": "2026-01-22", "status": "Active — System Impact Study", "url": "https://interchange.puc.texas.gov/Search/Filings?Number=58455"},
-        {"docket_id": "CA-CPUC-A.26-01-011", "state": "CA", "commission": "CPUC", "applicant": "Apple Silicon Energy Services Inc.", "filing_type": "Behind-the-Meter Generation Certification", "mw_requested": 180, "site_location": "Santa Clara County", "filing_date": "2026-01-28", "status": "Active — Comments", "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=All&DocID=A.26-01-011"},
-        {"docket_id": "TX-PUCT-58770", "state": "TX", "commission": "PUCT", "applicant": "Samsung Austin Semiconductor LLC", "filing_type": "Large Load Interconnection Amendment", "mw_requested": 250, "site_location": "Taylor, Williamson County", "filing_date": "2026-02-14", "status": "Active — Intervenor Testimony", "url": "https://interchange.puc.texas.gov/Search/Filings?Number=58770"},
-        {"docket_id": "AZ-ACC-E-04204A-26-0003", "state": "AZ", "commission": "ACC", "applicant": "TSMC Arizona Corporation (Fab 21 Phase 2)", "filing_type": "Certificate of Convenience and Necessity", "mw_requested": 480, "site_location": "Phoenix, Maricopa County", "filing_date": "2026-02-21", "status": "Active — CCN Review", "url": "https://edocket.azcc.gov/search/docketsearch/searchByDocketNumber/"},
-        {"docket_id": "NV-PUCN-26-04003", "state": "NV", "commission": "PUCN", "applicant": "Tesla Gigafactory Nevada LLC", "filing_type": "Large Industrial Customer Application", "mw_requested": 650, "site_location": "Storey County (Reno area)", "filing_date": "2026-03-08", "status": "Active — Stipulation Phase", "url": "https://pucweb1.state.nv.us/PUC2/DktInfo.aspx"},
-        {"docket_id": "OH-PUCO-26-0512-EL-AIR", "state": "OH", "commission": "PUCO", "applicant": "Intel Ohio LLC (Chip Fab Phase 1)", "filing_type": "Transmission Rate Filing", "mw_requested": 290, "site_location": "New Albany, Licking County", "filing_date": "2026-03-14", "status": "Active — Initial Comments", "url": "https://dis.puc.state.oh.us/"},
-        {"docket_id": "WY-PSC-20000-645-EA-26", "state": "WY", "commission": "PSC", "applicant": "TerraPower LLC (Natrium Demo)", "filing_type": "CCN for Advanced Reactor Siting", "mw_requested": 345, "site_location": "Kemmerer, Lincoln County", "filing_date": "2026-03-28", "status": "Active — Site Review", "url": "https://psc.wyo.gov/home/docketsearch/"},
-        {"docket_id": "ID-IPUC-IPC-E-26-12", "state": "ID", "commission": "IPUC", "applicant": "Oklo Inc. (Aurora Idaho Falls)", "filing_type": "Interconnection Queue Position Application", "mw_requested": 75, "site_location": "Idaho Falls, Bonneville County", "filing_date": "2026-04-05", "status": "Active — Consultation", "url": "https://puc.idaho.gov/Cases/Details"},
-    ]
+    """Placeholder records were removed on 26 Nov 2026. The site never publishes
+    invented data: if the live source is down, the output is empty and marked
+    "unavailable"."""
+    return []
 
 
 def match_company(applicant, company_names):
@@ -121,7 +109,7 @@ def main():
         source_status = "live_pending"
         print("  Texas PUCT reachable — live scrape pending (using seeded)")
     else:
-        source_status = "seeded"
+        source_status = "unavailable"
         print("  PUCT unreachable — emitting seeded dockets")
 
     dockets = seeded_dockets()

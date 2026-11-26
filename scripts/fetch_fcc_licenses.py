@@ -101,143 +101,10 @@ def match_company(applicant, company_names):
 
 
 def seeded_fcc_filings():
-    """Realistic recent FCC filings — reliable fallback when live API
-    is degraded. Reflects actual ELS / ULS filings from known
-    frontier-tech companies in 2025–2026."""
-    return [
-        {
-            "filing_id": "ELS-2025-12-0341",
-            "applicant": "Skydio, Inc.",
-            "service_type": "Experimental — Unmanned Aircraft",
-            "frequency_band": "2.4 GHz / 5.8 GHz",
-            "purpose": "Command-and-control testing for X10D beyond-visual-line-of-sight operations",
-            "filing_date": "2025-12-04",
-            "bureau": "OET",
-            "location": "California",
-            "url": "https://apps.fcc.gov/els/GetAtn.action?id=209445",
-        },
-        {
-            "filing_id": "SAT-LOA-2025-11-08912",
-            "applicant": "Astranis Space Technologies",
-            "service_type": "Satellite — Geostationary",
-            "frequency_band": "Ka-band (27.5–30 GHz / 17.7–20.2 GHz)",
-            "purpose": "MicroGEO 2 broadband satellite launch operating authority",
-            "filing_date": "2025-11-15",
-            "bureau": "IB",
-            "location": "Space / California HQ",
-            "url": "https://fcc.report/IBFS/SAT-LOA-2025-11-08912",
-        },
-        {
-            "filing_id": "ELS-2026-01-0044",
-            "applicant": "Anduril Industries",
-            "service_type": "Experimental — Radar + Counter-UAS",
-            "frequency_band": "X-band / Ku-band (10 GHz / 15 GHz)",
-            "purpose": "Counter-drone sentry tower radar testing at Costa Mesa range",
-            "filing_date": "2026-01-18",
-            "bureau": "OET",
-            "location": "Costa Mesa, CA",
-            "url": "https://apps.fcc.gov/els/GetAtn.action?id=211230",
-        },
-        {
-            "filing_id": "SAT-STA-2026-01-00021",
-            "applicant": "AST SpaceMobile",
-            "service_type": "Satellite — Experimental Direct-to-Device",
-            "frequency_band": "S-band (2 GHz)",
-            "purpose": "BlueBird 6 direct-to-cellular test operations",
-            "filing_date": "2026-01-22",
-            "bureau": "IB",
-            "location": "Midland, TX",
-            "url": "https://fcc.report/IBFS/SAT-STA-2026-01-00021",
-        },
-        {
-            "filing_id": "ELS-2026-02-0128",
-            "applicant": "Shield AI",
-            "service_type": "Experimental — Autonomous UAV Datalink",
-            "frequency_band": "L-band (1.5 GHz)",
-            "purpose": "V-BAT Teams swarm coordination field trials",
-            "filing_date": "2026-02-03",
-            "bureau": "OET",
-            "location": "San Diego, CA",
-            "url": "https://apps.fcc.gov/els/GetAtn.action?id=212088",
-        },
-        {
-            "filing_id": "SAT-LOA-2026-02-00045",
-            "applicant": "Amazon Kuiper Systems",
-            "service_type": "Satellite — NGSO Constellation",
-            "frequency_band": "Ka-band",
-            "purpose": "Kuiper operational gateway earth station — Redmond, WA",
-            "filing_date": "2026-02-10",
-            "bureau": "IB",
-            "location": "Redmond, WA",
-            "url": "https://fcc.report/IBFS/SAT-LOA-2026-02-00045",
-        },
-        {
-            "filing_id": "ELS-2026-02-0301",
-            "applicant": "Archer Aviation",
-            "service_type": "Experimental — eVTOL",
-            "frequency_band": "L-band / C-band",
-            "purpose": "Midnight aircraft avionics and flight-data telemetry testing",
-            "filing_date": "2026-02-19",
-            "bureau": "OET",
-            "location": "San Jose, CA",
-            "url": "https://apps.fcc.gov/els/GetAtn.action?id=213104",
-        },
-        {
-            "filing_id": "SAT-STA-2026-03-00112",
-            "applicant": "Capella Space",
-            "service_type": "Satellite — SAR Imaging",
-            "frequency_band": "X-band (9.4–9.9 GHz)",
-            "purpose": "Acadia 2 SAR satellite TT&C + payload operations",
-            "filing_date": "2026-03-02",
-            "bureau": "IB",
-            "location": "San Francisco, CA",
-            "url": "https://fcc.report/IBFS/SAT-STA-2026-03-00112",
-        },
-        {
-            "filing_id": "ELS-2026-03-0422",
-            "applicant": "Picogrid",
-            "service_type": "Experimental — Mesh Networking",
-            "frequency_band": "900 MHz ISM",
-            "purpose": "Picogrid tactical mesh comms at El Segundo range",
-            "filing_date": "2026-03-20",
-            "bureau": "OET",
-            "location": "El Segundo, CA",
-            "url": "https://apps.fcc.gov/els/GetAtn.action?id=214220",
-        },
-        {
-            "filing_id": "ELS-2026-04-0057",
-            "applicant": "Hermeus Corp.",
-            "service_type": "Experimental — High-Altitude Telemetry",
-            "frequency_band": "S-band (2.2 GHz)",
-            "purpose": "Quarterhorse flight test telemetry at Edwards AFB",
-            "filing_date": "2026-04-02",
-            "bureau": "OET",
-            "location": "Edwards AFB, CA",
-            "url": "https://apps.fcc.gov/els/GetAtn.action?id=215088",
-        },
-        {
-            "filing_id": "SAT-STA-2026-04-00089",
-            "applicant": "Umbra Lab",
-            "service_type": "Satellite — SAR Imaging",
-            "frequency_band": "X-band",
-            "purpose": "Umbra Gen-4 SAR satellite operations",
-            "filing_date": "2026-04-10",
-            "bureau": "IB",
-            "location": "Santa Barbara, CA",
-            "url": "https://fcc.report/IBFS/SAT-STA-2026-04-00089",
-        },
-        {
-            "filing_id": "ELS-2026-04-0156",
-            "applicant": "Saronic Technologies",
-            "service_type": "Experimental — Maritime Autonomy",
-            "frequency_band": "VHF / UHF / Iridium",
-            "purpose": "Corsair autonomous surface vessel comms testing — Texas Gulf",
-            "filing_date": "2026-04-14",
-            "bureau": "OET",
-            "location": "Austin, TX",
-            "url": "https://apps.fcc.gov/els/GetAtn.action?id=215450",
-        },
-    ]
+    """Placeholder records were removed on 26 Nov 2026. The site never publishes
+    invented data: if the live source is down, the output is empty and marked
+    "unavailable"."""
+    return []
 
 
 def main():
@@ -263,7 +130,7 @@ def main():
     if not api_live:
         print("  FCC License View API unreachable — emitting seeded filings")
         filings = seeded_fcc_filings()
-        source_status = "seeded"
+        source_status = "unavailable"
     else:
         # Real paginated fetch would go here
         print("  FCC API reachable — using seeded data (live pipeline pending)")

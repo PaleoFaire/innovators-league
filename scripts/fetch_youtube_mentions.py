@@ -105,100 +105,10 @@ def parse_company_names():
 
 
 def seeded_mentions():
-    """Curated recent mentions from public corporate events — reliable
-    fallback when the live pipeline is degraded."""
-    return [
-        {
-            "company": "Oklo",
-            "video_id": "dQw4w9WgXcQ",  # placeholder — replace on real ingest
-            "channel": "Bloomberg Technology",
-            "video_title": "The Nuclear Power Needed for the AI Boom",
-            "published_at": "2026-03-14",
-            "timestamp": "4:22",
-            "context": "…Oklo's Aurora microreactor is the first SMR the Department of Energy has scheduled for fuel loading in Idaho…",
-        },
-        {
-            "company": "Anduril",
-            "video_id": "zRt1GFq1ZVc",
-            "channel": "All-In Podcast",
-            "video_title": "E212: Defense tech's new era, Anduril vs. Lockheed",
-            "published_at": "2026-03-20",
-            "timestamp": "1:18:44",
-            "context": "…Anduril just booked a nine-figure contract for sentry towers and Lattice…",
-        },
-        {
-            "company": "Hermeus",
-            "video_id": "J0nQRBz9GG4",
-            "channel": "Acquired",
-            "video_title": "Hypersonic & the End of the Jet Age",
-            "published_at": "2026-02-28",
-            "timestamp": "2:04:00",
-            "context": "…AJ Piplica at Hermeus said the Quarterhorse demonstrator is basically a testbed for Chimera…",
-        },
-        {
-            "company": "Velaura AI",
-            "video_id": "YxBDgTExKHg",
-            "channel": "BG2 Pod",
-            "video_title": "The Picks & Shovels of the AI Inference Stack",
-            "published_at": "2026-03-26",
-            "timestamp": "51:12",
-            "context": "…what used to be Auradine is now Velaura AI — a 2-to-4x power efficiency improvement at 2nm…",
-        },
-        {
-            "company": "Palantir",
-            "video_id": "Q4ZoDp0VvOU",
-            "channel": "The Twenty Minute VC",
-            "video_title": "Why Palantir Is Bigger Than You Think",
-            "published_at": "2026-04-02",
-            "timestamp": "33:40",
-            "context": "…Palantir's Maven Smart System now touches almost every combatant command…",
-        },
-        {
-            "company": "Rebellions",
-            "video_id": "k8yX9GvcZCI",
-            "channel": "Dwarkesh Patel",
-            "video_title": "The Korean Inference Chip Contender",
-            "published_at": "2026-04-05",
-            "timestamp": "28:15",
-            "context": "…Rebellions just raised $400M pre-IPO at $2.34B — Mirae Asset + Korea National Growth Fund…",
-        },
-        {
-            "company": "Starcloud",
-            "video_id": "vJf5-DLP7F8",
-            "channel": "Lex Fridman",
-            "video_title": "Data Centers in Space — Starcloud's Philip Johnston",
-            "published_at": "2026-04-08",
-            "timestamp": "1:12:34",
-            "context": "…Starcloud-1 is already flying with an H100 onboard. Starcloud-2 launches October with 100x power generation…",
-        },
-        {
-            "company": "Impulse Space",
-            "video_id": "bWvs7c5OqV4",
-            "channel": "Acquired",
-            "video_title": "Tom Mueller: From SpaceX to Impulse",
-            "published_at": "2026-03-08",
-            "timestamp": "1:42:20",
-            "context": "…Impulse Space's Helios kickstage is what lets you get from LEO to GEO for one-tenth the cost…",
-        },
-        {
-            "company": "Horizon Quantum Computing",
-            "video_id": "F7xQtT6jkzM",
-            "channel": "All-In Podcast",
-            "video_title": "Quantum's First Public Company of 2026",
-            "published_at": "2026-03-30",
-            "timestamp": "56:30",
-            "context": "…Horizon Quantum just closed the dMY Squared SPAC merger, trades on NASDAQ: HQ…",
-        },
-        {
-            "company": "Commonwealth Fusion Systems",
-            "video_id": "a5h9VnNvh0s",
-            "channel": "Invest Like the Best",
-            "video_title": "Fusion is Finally Real",
-            "published_at": "2026-04-11",
-            "timestamp": "42:08",
-            "context": "…CFS has net-energy gain demonstrated — SPARC first plasma ahead of schedule…",
-        },
-    ]
+    """Placeholder records were removed on 26 Nov 2026. The site never publishes
+    invented data: if the live source is down, the output is empty and marked
+    "unavailable"."""
+    return []
 
 
 def match_companies_in_text(text, company_names):
@@ -359,7 +269,7 @@ def main():
     if not YOUTUBE_API_KEY:
         print("  YOUTUBE_API_KEY not set — emitting seeded mentions")
         mentions = seeded_mentions()
-        source_status = "seeded"
+        source_status = "unavailable"
     else:
         print(f"  Live pipeline: {len(CURATED_CHANNELS)} curated channels")
         try:

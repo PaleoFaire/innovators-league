@@ -127,6 +127,16 @@ def main():
     errors, warnings = [], []
     d = DATA_JS.read_text()
 
+    # 0. never publish invented ("seeded") placeholder datasets (added 26 Nov 2026)
+    for f in sorted((DATA_JS.parent / "data").glob("*_auto.js*")):
+        try:
+            txt = f.read_text(errors="ignore")
+        except OSError:
+            continue
+        if re.search(r'"source_status"\s*:\s*"seeded"|^// Source status: seeded', txt, re.M):
+            errors.append(f"{f.name}: seeded placeholder data; the site never publishes invented records "
+                          f"(emit an empty 'unavailable' payload instead)")
+
     # 11. size ceiling
     size = len(d)
     if size > 8_000_000:
