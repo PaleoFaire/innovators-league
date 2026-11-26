@@ -236,6 +236,7 @@ OVERRIDES = {
     "Chaos Industries": "Electronic Warfare & Sensing", # radar maker; "interceptors" in text
     "General Matter": "Fuels & Isotopes",               # uranium enrichment
     "Heron Power": "Grid & Power Delivery",             # solid-state transformers; "batteries" in text
+    "DG Matrix": "Grid & Power Delivery",               # solid-state transformers; "copper-iron" in text hit Critical Minerals
     "Cellares": "Biomanufacturing & Tools",             # automated cell-therapy manufacturing
     "Epoch Biodesign": "Biomanufacturing & Tools",      # engineered enzymes for recycling
     "Matter": "Industrial Automation",                  # autonomous final-assembly factories

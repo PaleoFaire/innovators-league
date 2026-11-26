@@ -82,6 +82,10 @@
       "only_if": "brain|EEG|neuro|wearable|Occam|stress|cognitive|\\bBCI\\b|atlasmankind",
       "note": "Ours is the former Occam, the San Francisco brain-wearable maker (atlasmankind.com). Atlas is also a ULA rocket, a Boston Dynamics robot, Atlas Copco, MongoDB Atlas, Atlas Air and many funds; data.js also holds Atlas Atomics and Atlas Motion."
     },
+    "Parallax": {
+      "only_if": "turbine|\\bgas\\b|power|energy|megawatt|\\bMW\\b|data cent|electricity|generator|Schoeller",
+      "note": "Ours is Parallax, the San Francisco gas-turbine company (parallax.ai). Parallax is also an ordinary word and the name of many unrelated firms: Parallax Worlds (robot simulation testing), Parallax Advanced Research, a Swiss AI code editor, an RV power-supply maker."
+    },
     "Helicon": {
       "only_if": "composite|carbon[- ]fib(?:er|re)|drone|airframe|\\bUAV|Torrance|AlleyCorp|Niehaus|Sanz-Gadea|helicon\\.tech",
       "note": "Ours is Helicon Industries, the Torrance, CA automated carbon-fiber composites maker (helicon.tech). Helicon is also a brass instrument, a Greek mountain, Helicon Focus photo software, Helicon Tech's IIS tools and several unrelated firms."
@@ -315,21 +319,22 @@
     {"name": "Bedrock Ocean Exploration", "not": ["Bedrock Robotics", "Bedrock Energy"], "note": "The seafloor-mapping company at bedrockocean.com: data.js holds it as Bedrock Ocean and, since 7 Oct 2026, also as a second record named Bedrock Ocean Exploration. Never Bedrock Robotics or Bedrock Energy."},
     {"name": "Parallel Bio", "not": ["Parallel Systems"], "note": "Immune-organoid biotech; 'Bio' is a corporate suffix to the deal matcher, so without this entry its rounds would land on Parallel Systems."},
     {"name": "Parallel Web Systems", "not": ["Parallel Systems"], "note": "Parag Agrawal's AI web-search company."},
-    {"name": "Twelve Labs", "not": ["Twelve"], "note": "Video-understanding AI company; Twelve is the Berkeley CO2-to-fuels company (twelve.co). Both reduce to the stem 'twelve'."}
+    {"name": "Twelve Labs", "not": ["Twelve"], "note": "Video-understanding AI company; Twelve is the Berkeley CO2-to-fuels company (twelve.co). Both reduce to the stem 'twelve'."},
+    {"name": "Parallax Worlds", "not": ["Parallax"], "note": "Not in data.js (removed 29 May 2026): robot reliability testing in simulation. Parallax is the San Francisco gas-turbine company (parallax.ai)."}
   ],
   "common_word_names": [
     "Abridge", "Agility", "AIR", "Airship", "ALSO", "Ample", "Anode", "Anthropic", "Arbor", "Armada", "ASI", "ATLAS",
     "Atoms", "Avalanche", "aXenic", "Axiom", "Bedrock", "BEI", "Biosphere", "Bronco", "Built", "Cape", "Chaos",
-    "Cohere", "Coherence", "Collaborative", "Colossal", "Covariant", "Covenant", "Cover", "Cradle", "Deterrence", "Dexterity",
-    "Diode", "Divergent", "Dragonfly", "Dust", "Earth", "Endurance", "Enigma", "Etched", "Field", "Figure", "Firefly",
-    "Flux", "Focused", "Gambit", "Gecko", "Glacier", "Glimpse", "Halo", "Helicon", "Helios", "Humane", "Humanoid",
-    "Icon", "Impulse", "Integrate", "Inversion", "Kestrel", "Latitude", "Launchpad", "Locus", "Loyal", "Malta",
-    "Mammoth", "Mantel", "Material", "Matter", "Merlin", "Mistral", "Modal", "Monumental", "Multiply", "Mythic",
-    "Nomic", "Nominal", "Nudge", "Observable", "Octant", "Orchid", "Osmoses", "Ouster", "Outpost", "Overland", "Parallel",
-    "Parry", "Pascal", "Pilgrim", "Pivotal", "Planet", "Primer", "Queue", "Quilt", "Radiant", "Rainbow", "Rapid",
-    "Rebellions", "Relativity", "Resilience", "Reveal", "Revel", "Runway", "Seabound", "Sift", "Singularity",
-    "Skeleton", "Skyways", "Slingshot", "Span", "Specter", "Steady", "Stoke", "Sublime", "Substrate", "Surge", "Swan",
-    "Synthesis", "Tempo", "Terrestrial", "Twelve", "Twenty", "Union", "Until", "Uplift", "Vast", "Verse", "Vertical",
-    "Watershed", "Yard Stick", "Zoo"
+    "Cohere", "Coherence", "Collaborative", "Colossal", "Covariant", "Covenant", "Cover", "Cradle", "Deterrence",
+    "Dexterity", "Diode", "Divergent", "Dragonfly", "Dust", "Earth", "Endurance", "Enigma", "Etched", "Field",
+    "Figure", "Firefly", "Flux", "Focused", "Gambit", "Gecko", "Glacier", "Glimpse", "Halo", "Helicon", "Helios",
+    "Humane", "Humanoid", "Icon", "Impulse", "Integrate", "Inversion", "Kestrel", "Latitude", "Launchpad", "Locus",
+    "Loyal", "Malta", "Mammoth", "Mantel", "Material", "Matter", "Merlin", "Mistral", "Modal", "Monumental",
+    "Multiply", "Mythic", "Nomic", "Nominal", "Nudge", "Observable", "Octant", "Orchid", "Osmoses", "Ouster",
+    "Outpost", "Overland", "Parallax", "Parallel", "Parry", "Pascal", "Pilgrim", "Pivotal", "Planet", "Primer",
+    "Queue", "Quilt", "Radiant", "Rainbow", "Rapid", "Rebellions", "Relativity", "Resilience", "Reveal", "Revel",
+    "Runway", "Seabound", "Sift", "Singularity", "Skeleton", "Skyways", "Slingshot", "Span", "Specter", "Steady",
+    "Stoke", "Sublime", "Substrate", "Surge", "Swan", "Synthesis", "Tempo", "Terrestrial", "Twelve", "Twenty", "Union",
+    "Until", "Uplift", "Vast", "Verse", "Vertical", "Watershed", "Yard Stick", "Zoo"
   ]
 }
