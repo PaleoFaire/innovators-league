@@ -55,19 +55,6 @@
     return Math.floor(days / 365) + 'y ago';
   }
 
-  // Determine ROS Fund check-size fit: green = $100K-$250K, amber = stretch, red = too big
-  function checkFit(offering) {
-    if (!offering) return { class: 'gray', label: 'Size unknown' };
-    const n = parseFloat(String(offering).replace(/[^0-9.]/g, ''));
-    if (!n || isNaN(n)) return { class: 'gray', label: 'Size unknown' };
-    // Heuristic: round size correlates roughly with check needed
-    // Most rounds, our $100-250K is meaningful at < $5M total raise
-    if (n < 5e6) return { class: 'green', label: 'Direct fit' };
-    if (n < 25e6) return { class: 'amber', label: 'SPV / stretch' };
-    if (n < 100e6) return { class: 'red', label: 'Too big · LP play' };
-    return { class: 'gray', label: 'Late stage' };
-  }
-
   // ═══ SECTION 1: Active Raise Calendar ═══
   function renderActiveRaises() {
     const body = document.getElementById('ih-raise-body');
@@ -88,7 +75,6 @@
     );
 
     const rows = sorted.map(f => {
-      const fit = checkFit(f.offering_amount);
       const isSafe = f.is_safe || /safe/i.test(f.securities_type || '');
       return '<tr>' +
         '<td class="ih-raise-co">' +
@@ -103,7 +89,6 @@
         '<td>' + esc(f.filed_date || '') +
           '<div style="font-size:11px; color:rgba(255,255,255,0.5);">' + esc(daysAgo(f.filed_date)) + '</div>' +
         '</td>' +
-        '<td><span class="ih-raise-fit ' + fit.class + '">' + esc(fit.label) + '</span></td>' +
         '<td>' + (f.filing_url
           ? '<a class="ih-source-link" href="' + esc(f.filing_url) + '" target="_blank" rel="noopener">SEC EDGAR →</a>'
           : '') + '</td>' +
@@ -113,7 +98,7 @@
     body.innerHTML =
       '<table class="ih-raise-table">' +
         '<thead><tr>' +
-          '<th>Company</th><th>Offering</th><th>Filed</th><th>ROS Fund Fit</th><th>Source</th>' +
+          '<th>Company</th><th>Offering</th><th>Filed</th><th>Source</th>' +
         '</tr></thead>' +
         '<tbody>' + rows + '</tbody>' +
       '</table>';

@@ -35864,15 +35864,15 @@ const COMPANIES = [
     founded: 2019,
     sector: "Robotics & Manufacturing",
     subsector: "Industrial Automation",
-    description: "Giant robotic arms that automate metal forming and manufacturing. Roboforming technology. Toyota partnership for auto body panels. $35M Abu Dhabi investment. Air Force contract.",
+    description: "Giant robotic arms that automate metal forming and manufacturing (roboforming). Toyota partnership for auto body panels; Air Force contract. Raised a $124M Series C in February 2026 to build its first US Intelligent Factory, with Abu Dhabi's Strategic Development Fund (owned by EDGE Group) among the investors. SDF had signed an initial agreement in December 2025 toward a UAE joint venture for advanced metal structures, with up to AED 125M (about $35M) of further funding.",
     founder: "Ed Mehr",
     location: "Chatsworth, CA",
     country: "United States",
     state: "CA",
     lat: 34.2572,
     lng: -118.6012,
-    fundingStage: "Series B",
-    totalRaised: "$80M+",
+    fundingStage: "Series C",
+    totalRaised: "$170M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     tags: ["robotic manufacturing", "metal forming", "automotive"],
@@ -35886,7 +35886,7 @@ const COMPANIES = [
     techApproach: "Giant robotic arms performing AI-controlled metal forming, replacing expensive dies with flexible roboforming for rapid prototyping",
     addedDate: "2026-02",
     website: "https://machinalabs.ai",
-    investors: ["NVentures (NVIDIA)", "Innovation Endeavors"]
+    investors: ["NVentures (NVIDIA)", "Innovation Endeavors", "Woven Capital (Series C)", "Lockheed Martin Ventures (Series C)", "Balerion Space Ventures (Series C)", "Strategic Development Fund (EDGE Group, Series C)"]
   },
   {
     name: "DIRAC",
