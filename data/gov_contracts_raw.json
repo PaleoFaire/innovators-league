@@ -613,18 +613,6 @@
   },
   {
     "company": "Anduril",
-    "awardId": "N6833524C0294",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 6698000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Navy",
-    "awardType": null,
-    "startDate": "2024-09-26",
-    "endDate": "2026-10-06",
-    "description": "SBIR PHASE III"
-  },
-  {
-    "company": "Anduril",
     "awardId": "H9240226FE012",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 6591450.0,
@@ -1198,6 +1186,18 @@
     "startDate": "2024-07-22",
     "endDate": "2025-12-31",
     "description": "THE PURPOSE OF THIS EFFORT IS TO CONTINUE ADVANCING THE ALTIUS-600 METOC SYSTEM TO A HIGHER TECHNICAL MATURITY LEVEL WITH AN AIM TO ALLOW NOAA TO ROUTINELY COLLECT VALUABLE METEOROLOGICAL AND OCEANOGR"
+  },
+  {
+    "company": "Anduril",
+    "awardId": "70B02C26F00000312",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 425923.56,
+    "agency": "Department of Homeland Security",
+    "subAgency": "U.S. Customs and Border Protection",
+    "awardType": null,
+    "startDate": "2026-04-30",
+    "endDate": "2027-07-31",
+    "description": "AUSTERE COMMS TOWER M&S"
   },
   {
     "company": "Anduril Industries",
@@ -1813,18 +1813,6 @@
   },
   {
     "company": "Anduril Industries",
-    "awardId": "N6833524C0294",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 6698000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Navy",
-    "awardType": null,
-    "startDate": "2024-09-26",
-    "endDate": "2026-10-06",
-    "description": "SBIR PHASE III"
-  },
-  {
-    "company": "Anduril Industries",
     "awardId": "H9240226FE012",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 6591450.0,
@@ -2400,6 +2388,18 @@
     "description": "THE PURPOSE OF THIS EFFORT IS TO CONTINUE ADVANCING THE ALTIUS-600 METOC SYSTEM TO A HIGHER TECHNICAL MATURITY LEVEL WITH AN AIM TO ALLOW NOAA TO ROUTINELY COLLECT VALUABLE METEOROLOGICAL AND OCEANOGR"
   },
   {
+    "company": "Anduril Industries",
+    "awardId": "70B02C26F00000312",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 425923.56,
+    "agency": "Department of Homeland Security",
+    "subAgency": "U.S. Customs and Border Protection",
+    "awardType": null,
+    "startDate": "2026-04-30",
+    "endDate": "2027-07-31",
+    "description": "AUSTERE COMMS TOWER M&S"
+  },
+  {
     "company": "Shield AI",
     "awardId": "70Z02326F93130005",
     "recipientName": "SHIELD AI INC",
@@ -2869,6 +2869,18 @@
   },
   {
     "company": "Palantir",
+    "awardId": "75N99226F00002",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 8456373.96,
+    "agency": "Department of Health and Human Services",
+    "subAgency": "National Institutes of Health",
+    "awardType": null,
+    "startDate": "2026-06-05",
+    "endDate": "2027-05-31",
+    "description": "THE CONTRACTOR SHALL SUSTAIN AND PROVIDE CONTINUITY FOR THE DPMO AND AURORA AND, IF DIRECTED, DELIVER AND INTEGRATE AN AI PLATFORM-AS-A-SERVICE LICENSED SOLUTION THAT EMBEDS AGENTIC AI CAPABILITIES, G"
+  },
+  {
+    "company": "Palantir",
     "awardId": "47QACA26F0278",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 7746801.56,
@@ -2974,18 +2986,6 @@
     "startDate": "2025-09-24",
     "endDate": "2026-09-23",
     "description": "PROCUREMENT MANAGEMENT PALANTIR PROJECT IS TO REDUCE OVERALL INTERNAL REVENUE SERVICE (IRS) OPERATING COSTS AND STREAMLINE SYSTEMS AND SERVICES NEEDED TO CONDUCT IRS REVENUE COLLECTION AND TAXPAYER SE"
-  },
-  {
-    "company": "Palantir",
-    "awardId": "75N99226F00002",
-    "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 4228186.98,
-    "agency": "Department of Health and Human Services",
-    "subAgency": "National Institutes of Health",
-    "awardType": null,
-    "startDate": "2026-06-05",
-    "endDate": "2027-05-31",
-    "description": "THE CONTRACTOR SHALL SUSTAIN AND PROVIDE CONTINUITY FOR THE DPMO AND AURORA AND, IF DIRECTED, DELIVER AND INTEGRATE AN AI PLATFORM-AS-A-SERVICE LICENSED SOLUTION THAT EMBEDS AGENTIC AI CAPABILITIES, G"
   },
   {
     "company": "Palantir",
@@ -3421,6 +3421,18 @@
   },
   {
     "company": "Palantir Technologies",
+    "awardId": "75N99226F00002",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 8456373.96,
+    "agency": "Department of Health and Human Services",
+    "subAgency": "National Institutes of Health",
+    "awardType": null,
+    "startDate": "2026-06-05",
+    "endDate": "2027-05-31",
+    "description": "THE CONTRACTOR SHALL SUSTAIN AND PROVIDE CONTINUITY FOR THE DPMO AND AURORA AND, IF DIRECTED, DELIVER AND INTEGRATE AN AI PLATFORM-AS-A-SERVICE LICENSED SOLUTION THAT EMBEDS AGENTIC AI CAPABILITIES, G"
+  },
+  {
+    "company": "Palantir Technologies",
     "awardId": "47QACA26F0278",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
     "amount": 7746801.56,
@@ -3526,18 +3538,6 @@
     "startDate": "2025-09-24",
     "endDate": "2026-09-23",
     "description": "PROCUREMENT MANAGEMENT PALANTIR PROJECT IS TO REDUCE OVERALL INTERNAL REVENUE SERVICE (IRS) OPERATING COSTS AND STREAMLINE SYSTEMS AND SERVICES NEEDED TO CONDUCT IRS REVENUE COLLECTION AND TAXPAYER SE"
-  },
-  {
-    "company": "Palantir Technologies",
-    "awardId": "75N99226F00002",
-    "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 4228186.98,
-    "agency": "Department of Health and Human Services",
-    "subAgency": "National Institutes of Health",
-    "awardType": null,
-    "startDate": "2026-06-05",
-    "endDate": "2027-05-31",
-    "description": "THE CONTRACTOR SHALL SUSTAIN AND PROVIDE CONTINUITY FOR THE DPMO AND AURORA AND, IF DIRECTED, DELIVER AND INTEGRATE AN AI PLATFORM-AS-A-SERVICE LICENSED SOLUTION THAT EMBEDS AGENTIC AI CAPABILITIES, G"
   },
   {
     "company": "Palantir Technologies",
@@ -8077,18 +8077,6 @@
   },
   {
     "company": "Firestorm Labs",
-    "awardId": "W911W626FA001",
-    "recipientName": "FIRESTORM LABS, INC.",
-    "amount": 1286255.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2025-12-01",
-    "endDate": "2026-11-30",
-    "description": "FIRESTORM LE DEVELOPMENT WILL SUPPORT FURTHER MATURATION OF THESE SBIR TECHNOLOGIES AND BETTER SUPPORT THE ARMY GOALS FOR ON DEMAND LAUNCHABLE UAS FROM MANNED ROTORCRAFT, UAS HOST PLATFORMS AND GROUND"
-  },
-  {
-    "company": "Firestorm Labs",
     "awardId": "FA864925P0337",
     "recipientName": "FIRESTORM LABS, INC.",
     "amount": 1249850.0,
@@ -8302,18 +8290,6 @@
     "startDate": "2026-09-30",
     "endDate": "2027-09-29",
     "description": "CSDA PROGRAM: SAR TASK ORDER"
-  },
-  {
-    "company": "Umbra",
-    "awardId": "80HQTR26FA015",
-    "recipientName": "UMBRA LAB, INC",
-    "amount": 502875.0,
-    "agency": "National Aeronautics and Space Administration",
-    "subAgency": "National Aeronautics and Space Administration",
-    "awardType": null,
-    "startDate": "2025-11-25",
-    "endDate": "2026-11-24",
-    "description": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR DISASTER RESPONSE SATELLITE DATA"
   },
   {
     "company": "Umbra",
@@ -10124,7 +10100,7 @@
     "subAgency": "Department of State",
     "awardType": null,
     "startDate": "2025-08-25",
-    "endDate": "2026-12-15",
+    "endDate": "2027-02-28",
     "description": "NEW CONTRACT IN THE AMOUNT OF $2,019,100.00 FOR MOBILE SCANNERS, WARRANTY, MAINTENANCE, AND TRAINING, WITH A PERFORMANCE PERIOD OF 08/25/2025 THROUGH 08/24/2026. THIS REQUIREMENT IS IN SUPPORT OF THE "
   },
   {

@@ -7186,6 +7186,16 @@
       "thesisCluster": ""
     },
     {
+      "id": "Parallax",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
+      "id": "Viraj Aero",
+      "sector": "Climate & Energy",
+      "thesisCluster": ""
+    },
+    {
       "id": "SpaceX-alumni-hub",
       "sector": "alumni",
       "thesisCluster": ""
@@ -12629,7 +12639,7 @@
     }
   ],
   "counts": {
-    "total_nodes": 1443,
+    "total_nodes": 1445,
     "total_edges": 943,
     "competitor_edges": 194,
     "thesis_edges": 695,

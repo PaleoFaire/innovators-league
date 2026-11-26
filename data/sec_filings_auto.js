@@ -1,6 +1,11 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-11-25 16:57:51 UTC
+// Last updated: 2026-11-26 16:37:37 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "4", date: "2026-11-25", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "4", date: "2026-11-25", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "4", date: "2026-11-25", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "4", date: "2026-11-25", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
+  { company: "Rocket Lab", form: "4", date: "2026-11-25", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Astera Labs", form: "8-K", date: "2026-11-25", description: "tra-20261119.htm", isIPO: false, ticker: "ALAB" },
   { company: "Palantir Technologies", form: "4", date: "2026-11-24", description: "xslF345X06/form4-11252026_011156.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-11-24", description: "xslF345X06/wk-form4_1795568813.xml", isIPO: false, ticker: "PLTR" },
@@ -46,9 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Palantir Technologies", form: "4", date: "2026-11-17", description: "xslF345X06/wk-form4_1794963692.xml", isIPO: false, ticker: "PLTR" },
   { company: "AST SpaceMobile", form: "8-K", date: "2026-11-17", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
   { company: "Oklo", form: "4", date: "2026-11-17", description: "xslF345X06/wk-form4_1794951615.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-11-17", description: "xslF345X06/wk-form4_1794951544.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-11-17", description: "xslF345X06/wk-form4_1794951467.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-11-17", description: "xslF345X06/wk-form4_1794951432.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "8-K", date: "2026-11-17", description: "oklo-20261111.htm", isIPO: false, ticker: "OKLO" },
-  { company: "C3.ai", form: "4", date: "2026-11-17", description: "xslF345X06/wk-form4_1794954210.xml", isIPO: false, ticker: "AI" },
 ];

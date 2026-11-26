@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-25T17:14:01.638472Z",
+  "generated_at": "2026-11-26T16:52:27.685708Z",
   "platform": {
-    "companiesTracked": 1437,
+    "companiesTracked": 1439,
     "sectorsMonitored": 16,
-    "totalCapitalRaisedTracked": "$502.0B",
+    "totalCapitalRaisedTracked": "$502.2B",
     "totalValuationTracked": "$1808.1B",
     "companiesWithValuation": 218,
     "govContractsTracked": 205,
     "sbirAwardsTracked": 341,
     "dealsTracked": 249,
-    "newsItemsTracked": 20,
-    "dataPointsUpdated": "57,480+"
+    "newsItemsTracked": 22,
+    "dataPointsUpdated": "57,560+"
   },
   "topFunds": [
     {
@@ -47,7 +47,7 @@
     },
     {
       "fund": "Founders Fund",
-      "portfolio_count": 23,
+      "portfolio_count": 24,
       "companies": [
         "Amca",
         "American Terawatt",
@@ -63,7 +63,7 @@
     },
     {
       "fund": "General Catalyst",
-      "portfolio_count": 19,
+      "portfolio_count": 20,
       "companies": [
         "Alsym Energy",
         "Atlas Atomics",
@@ -189,6 +189,20 @@
       ]
     },
     {
+      "fund": "Lux Capital",
+      "portfolio_count": 8,
+      "companies": [
+        "Lumaril",
+        "Mendra",
+        "Oligo Space",
+        "Parallax",
+        "Resurgent Industries",
+        "Terra Industries",
+        "Traysar",
+        "Varda Space Industries"
+      ]
+    },
+    {
       "fund": "Valor Equity",
       "portfolio_count": 8,
       "companies": [
@@ -200,19 +214,6 @@
         "Remora",
         "Uplift",
         "Zipline"
-      ]
-    },
-    {
-      "fund": "Lux Capital",
-      "portfolio_count": 7,
-      "companies": [
-        "Lumaril",
-        "Mendra",
-        "Oligo Space",
-        "Resurgent Industries",
-        "Terra Industries",
-        "Traysar",
-        "Varda Space Industries"
       ]
     },
     {
@@ -295,8 +296,8 @@
     }
   ],
   "sectorConcentration": {
+    "Climate & Energy": 239,
     "Space & Aerospace": 238,
-    "Climate & Energy": 237,
     "Robotics & Manufacturing": 221,
     "Defense & Security": 200,
     "Biotech & Health": 139,

@@ -1,7 +1,7 @@
 [
   {
     "sector": "Defense & Security",
-    "momentum": 55,
+    "momentum": 58,
     "trend": "steady",
     "catalysts": [
       "Defense Business Brief: Vantor\u2019s Raptor; Hadrian\u2019s foundry,",
@@ -13,18 +13,18 @@
       "funding": 100,
       "news": 15,
       "hiring": 0,
-      "market": 80
+      "market": 94
     },
-    "lastUpdated": "2026-11-25"
+    "lastUpdated": "2026-11-26"
   },
   {
     "sector": "AI & Software",
     "momentum": 52,
     "trend": "steady",
     "catalysts": [
-      "Anthropic shares fall below IPO price, a worrying sign for A",
-      "Anthropic Created a Honeypot to Lure AI Agents Into Misbehav",
-      "A legendary philosopher isn\u2019t buying Anthropic\u2019s consciousne"
+      "AI Is About to Get 1000x Cheaper \u2014 And SpaceX Just Got Appro",
+      "OpenAI says heavy ChatGPT users may hit limits sooner as it",
+      "Anthropic\u2019s Dario Amodei calls accusations of surrendering h"
     ],
     "fundingQ": "$12.1B",
     "components": {
@@ -33,16 +33,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-25"
+    "lastUpdated": "2026-11-26"
   },
   {
     "sector": "Robotics & Manufacturing",
     "momentum": 51,
     "trend": "steady",
     "catalysts": [
-      "Uber and Nuro begin driverless testing of Lucid robotaxis ah",
-      "Nuro pulls safety drivers from Lucid Gravity Uber robotaxis",
-      "Waymo Pulls Robotaxis from Highways"
+      "Denver man traps Waymo robotaxis with cones, eggs them at le",
+      "How Vention is cutting factory programming from weeks to min",
+      "Nuro pulls safety drivers from Lucid Gravity Uber robotaxis"
     ],
     "fundingQ": "$7.0B",
     "components": {
@@ -51,11 +51,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-25"
+    "lastUpdated": "2026-11-26"
   },
   {
     "sector": "Transportation",
-    "momentum": 35,
+    "momentum": 36,
     "trend": "steady",
     "catalysts": [
       "Active transportation ecosystem"
@@ -65,43 +65,61 @@
       "funding": 100,
       "news": 0,
       "hiring": 0,
-      "market": 0
+      "market": 5
     },
-    "lastUpdated": "2026-11-25"
+    "lastUpdated": "2026-11-26"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 29,
+    "momentum": 30,
     "trend": "steady",
     "catalysts": [
-      "Tesla &#038; SpaceX Merger Nears With Big Moves From The Boa",
-      "Uber and Nuro begin driverless testing of Lucid robotaxis ah",
-      "Simera Sense, Spacemanic, Zaitra and World from Space Join F"
+      "AI Is About to Get 1000x Cheaper \u2014 And SpaceX Just Got Appro",
+      "FCC approves SpaceX plan to put AI data centers in space",
+      "Tesla &#038; SpaceX Merger Nears With Big Moves From The Boa"
     ],
     "fundingQ": "$1.2B",
     "components": {
       "funding": 51,
-      "news": 45,
+      "news": 50,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-25"
+    "lastUpdated": "2026-11-26"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 23,
+    "momentum": 25,
     "trend": "rising",
     "catalysts": [
-      "Active nuclear energy ecosystem"
+      "Proxima Fusion CEO calls out \u2018short-termism\u2019 amid AI boom"
     ],
     "fundingQ": "$643M",
     "components": {
       "funding": 67,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-25"
+    "lastUpdated": "2026-11-26"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "AI Is About to Get 1000x Cheaper \u2014 And SpaceX Just Got Appro",
+      "FCC approves SpaceX plan to put AI data centers in space",
+      "How Vention is cutting factory programming from weeks to min"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 30,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-11-26"
   },
   {
     "sector": "Climate & Energy",
@@ -117,25 +135,24 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-25"
+    "lastUpdated": "2026-11-26"
   },
   {
-    "sector": "Consumer Tech",
-    "momentum": 15,
+    "sector": "Housing & Construction",
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "A legendary philosopher isn\u2019t buying Anthropic\u2019s consciousne",
-      "Waymo Pulls Robotaxis from Highways",
-      "California DMV bars Waymo AVs from operating on the state&#8"
+      "AI Is About to Get 1000x Cheaper \u2014 And SpaceX Just Got Appro",
+      "Waymo Pulls Robotaxis from Highways"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-25"
+    "lastUpdated": "2026-11-26"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -151,23 +168,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-25"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Waymo Pulls Robotaxis from Highways"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-11-25"
+    "lastUpdated": "2026-11-26"
   },
   {
     "sector": "Drones & Autonomous",
@@ -183,7 +184,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-25"
+    "lastUpdated": "2026-11-26"
   },
   {
     "sector": "Ocean & Maritime",
@@ -199,7 +200,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-25"
+    "lastUpdated": "2026-11-26"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -215,7 +216,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-11-25"
+    "lastUpdated": "2026-11-26"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -231,7 +232,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-25"
+    "lastUpdated": "2026-11-26"
   },
   {
     "sector": "Biotech & Health",
@@ -247,7 +248,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-11-25"
+    "lastUpdated": "2026-11-26"
   },
   {
     "sector": "Quantum Computing",
@@ -261,8 +262,8 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 0
+      "market": 2
     },
-    "lastUpdated": "2026-11-25"
+    "lastUpdated": "2026-11-26"
   }
 ]
