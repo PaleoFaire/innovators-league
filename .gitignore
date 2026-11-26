@@ -46,3 +46,6 @@ data/private/
 data/ros_fund_scored.json
 data/action_brief*
 deliverables/
+
+# Local Claude Code config (machine-specific; never publish)
+.claude/
