@@ -2410,60 +2410,6 @@
       "notes": "Sources provided contain only basic company information from official website. Cannot verify founder names, location, founding year, funding stage, total raised, or investor information from these sources. Database entry contains details not supported by provided sources."
     },
     {
-      "name": "Rune Technologies",
-      "current": {
-        "name": "Rune Technologies",
-        "founder": "David Tuttle, Peter Goldsborough",
-        "location": "Arlington, VA",
-        "founded": 2024,
-        "fundingStage": "Series A",
-        "totalRaised": "$20M+",
-        "website": null
-      },
-      "verified": {
-        "name": "Rune Technologies",
-        "description": "Rune Technologies develops TyrOS, an AI-enabled logistics platform for military supply chain management, planning, and decision support at tactical and operational levels.",
-        "founders": null,
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://runetechnologies.co",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [0] is company website but contains no readable founder names, founding year, location, funding stage, or investor information despite indicating a 'Backers and investors' section. Database entry references David Tuttle and Peter Goldsborough as founders, Arlington VA location, 2024 founding, Series A stage, and $20M+ raised, but none of these can be verified from the provided source material."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://runetechnologies.co",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://runetechnologies.co"
-        }
-      ],
-      "notes": "Source [0] is company website but contains no readable founder names, founding year, location, funding stage, or investor information despite indicating a 'Backers and investors' section. Database entry references David Tuttle and Peter Goldsborough as founders, Arlington VA location, 2024 founding, Series A stage, and $20M+ raised, but none of these can be verified from the provided source material."
-    },
-    {
       "name": "AnySignal",
       "current": {
         "name": "AnySignal",
@@ -2799,78 +2745,6 @@
         }
       ],
       "notes": "Only Lucas Kukielka is explicitly named as co-founder in source [1]. Phillip Buckendorf and Kris Dorosz from database entry are not mentioned in provided sources. Founded year 2018, Series B stage, $50M+ total raised, and Boston MA location from database entry cannot be verified from provided sources."
-    },
-    {
-      "name": "Atmo",
-      "current": {
-        "name": "Atmo",
-        "founder": "Alex Levy, Johan Mathe",
-        "location": "San Francisco, CA",
-        "founded": null,
-        "fundingStage": "Series A",
-        "totalRaised": "$15M+",
-        "website": null
-      },
-      "verified": {
-        "name": "Atmo",
-        "description": "AI-powered weather forecasting platform that delivers forecasts up to 50% more accurate than traditional models and operates up to 40,000 times faster. Trusted by the United States Air Force, Navy, and the Philippines national government.",
-        "founders": null,
-        "location": "San Francisco, CA",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://atmo.ai",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "location": [
-            0,
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Wikipedia source [2] refers to Adobe Atmosphere, a discontinued 3D graphics software from 2001-2004, which is a different product. Only sources [0] and [1] (company website and about page) are relevant to the weather forecasting company. Founders Alex Levy and Johan Mathe could not be verified from provided sources. Founded year, funding stage, total raised, valuation, and specific investors could not be verified from provided sources."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://atmo.ai",
-          "sources": [
-            0,
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://atmo.ai"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://atmo.ai/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Atmo"
-        }
-      ],
-      "notes": "Wikipedia source [2] refers to Adobe Atmosphere, a discontinued 3D graphics software from 2001-2004, which is a different product. Only sources [0] and [1] (company website and about page) are relevant to the weather forecasting company. Founders Alex Levy and Johan Mathe could not be verified from provided sources. Founded year, funding stage, total raised, valuation, and specific investors could not be verified from provided sources."
     },
     {
       "name": "Beacon AI",

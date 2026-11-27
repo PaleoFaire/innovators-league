@@ -799,16 +799,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Rune Technologies",
-        "score": 34,
-        "matchReasons": [
-          "tag: logistics",
-          "tag: ai",
-          "tag: defense",
-          "techApproach overlap"
-        ]
-      },
-      {
         "name": "Foundation Robotics",
         "score": 30,
         "matchReasons": [
@@ -870,7 +860,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     ],
     "relevantCompanies": [
       "Humanoid",
-      "Rune Technologies",
       "Foundation Robotics",
       "Forterra",
       "Overland AI",
@@ -930,14 +919,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Rune Technologies",
-        "score": 25,
-        "matchReasons": [
-          "tag: ai",
-          "tag: defense"
-        ]
-      },
-      {
         "name": "Strider Technologies",
         "score": 24,
         "matchReasons": [
@@ -983,7 +964,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Vannevar Labs",
       "Reveal Technology",
       "Palantir",
-      "Rune Technologies",
       "Strider Technologies",
       "Anduril Industries",
       "Zeromark",
@@ -2463,14 +2443,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: direct air capture",
           "tag: dac"
         ]
-      },
-      {
-        "name": "Carbyon",
-        "score": 22,
-        "matchReasons": [
-          "tag: direct air capture",
-          "tag: dac"
-        ]
       }
     ],
     "relevantCompanies": [
@@ -2480,8 +2452,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Captura",
       "Heirloom Carbon",
       "Fortera",
-      "Mission Zero Technologies",
-      "Carbyon"
+      "Mission Zero Technologies"
     ]
   },
   {
@@ -2805,14 +2776,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Rune Technologies",
-        "score": 20,
-        "matchReasons": [
-          "tag: ai",
-          "tag: defense"
-        ]
-      },
-      {
         "name": "Tytan Technologies",
         "score": 20,
         "matchReasons": [
@@ -2829,7 +2792,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Shield AI",
       "Parry Labs",
       "Zeromark",
-      "Rune Technologies",
       "Tytan Technologies"
     ]
   },
@@ -3395,14 +3357,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Rune Technologies",
-        "score": 20,
-        "matchReasons": [
-          "tag: ai",
-          "tag: defense"
-        ]
-      },
-      {
         "name": "Umbra",
         "score": 20,
         "matchReasons": [
@@ -3420,7 +3374,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Asterra",
       "Shield AI",
       "Zeromark",
-      "Rune Technologies",
       "Umbra"
     ]
   },
@@ -3608,16 +3561,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
-        "name": "Rune Technologies",
-        "score": 34,
-        "matchReasons": [
-          "tag: logistics",
-          "tag: ai",
-          "tag: defense",
-          "techApproach overlap"
-        ]
-      },
-      {
         "name": "Mujin",
         "score": 34,
         "matchReasons": [
@@ -3691,7 +3634,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       }
     ],
     "relevantCompanies": [
-      "Rune Technologies",
       "Mujin",
       "Forterra",
       "Overland AI",
@@ -4639,24 +4581,6 @@ const GOV_PULL_SCORES_AUTO = {
     "topSignals": [
       "General-Purpose Robotics for Military Logistics",
       "Dexterous Manipulation for Unstructured Environments"
-    ]
-  },
-  "Rune Technologies": {
-    "name": "Rune Technologies",
-    "govPullScore": 62,
-    "matchCount": 5,
-    "topAgencies": [
-      "Chief Digital and AI Office (CDAO)",
-      "Defense Innovation Unit (DIU)",
-      "NSA Cybersecurity Directorate",
-      "SOCOM",
-      "U.S. Army"
-    ],
-    "avgRelevance": 27,
-    "topSignals": [
-      "General-Purpose Robotics for Military Logistics",
-      "Autonomous Logistics Resupply Vehicles",
-      "AI-Powered Intelligence Fusion Platform"
     ]
   },
   "Foundation Robotics": {
@@ -5850,18 +5774,6 @@ const GOV_PULL_SCORES_AUTO = {
   },
   "Mission Zero Technologies": {
     "name": "Mission Zero Technologies",
-    "govPullScore": 18,
-    "matchCount": 1,
-    "topAgencies": [
-      "Department of Energy (DOE)"
-    ],
-    "avgRelevance": 22,
-    "topSignals": [
-      "Direct Air Capture Hub Expansion"
-    ]
-  },
-  "Carbyon": {
-    "name": "Carbyon",
     "govPullScore": 18,
     "matchCount": 1,
     "topAgencies": [

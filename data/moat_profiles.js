@@ -1882,47 +1882,6 @@ const MOAT_PROFILES = [
     "scalePath": "Scalable robot foundation model from CMU robotics faculty; $1.5B valuation on limited traction but world-class team and paradigm-level thesis"
   },
   {
-    "company": "AiDash",
-    "moatDepth": 38,
-    "primaryMoatType": "platform",
-    "moatTrend": "stable",
-    "dimensions": {
-      "regulatoryMoat": {
-        "score": 3,
-        "label": "Light Regulation",
-        "evidence": "Infrastructure & Logistics regulatory environment"
-      },
-      "switchingCosts": {
-        "score": 5,
-        "label": "Moderate Stickiness",
-        "evidence": "Platform deeply embedded in customer workflows"
-      },
-      "manufacturingReadiness": {
-        "score": 4,
-        "label": "Prototype Stage",
-        "evidence": "Manufacturing readiness developing"
-      },
-      "dataAdvantage": {
-        "score": 3,
-        "label": "Early Data Collection",
-        "evidence": "AI/ML systems generating proprietary training data"
-      },
-      "supplyChainControl": {
-        "score": 1,
-        "label": "Outsourced",
-        "evidence": "Developing supply chain capabilities"
-      },
-      "talentDensity": {
-        "score": 5,
-        "label": "Competitive Hiring",
-        "evidence": "Building specialized technical team"
-      }
-    },
-    "moatNarrative": "Integrates 30-year climate hazard projections for proactive grid hardening. Backed by both VCs and strategic utility investors (Shell Ventures, National Grid Partners, Duke Energy). Platform effects create increasing switching costs as adoption deepens.",
-    "keyMilestone": "$58.5M Series C led by Lightrock",
-    "scalePath": "Satellite-AI platform for utility vegetation management; clear ROI for power companies but narrow vertical and competing with legacy inspection method"
-  },
-  {
     "company": "Field AI",
     "moatDepth": 37,
     "primaryMoatType": "platform",

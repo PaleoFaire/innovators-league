@@ -2281,37 +2281,6 @@
       ]
     },
     {
-      "company": "Claros",
-      "url": "https://claros.tech/",
-      "snapshots_seen": 10,
-      "change_in_window": false,
-      "latest_snapshot": "20250321204939",
-      "latest_digest": "7AKQT6XZGM4EKZVE25U3NTW5TBMZRNJG",
-      "prior_digest": "MTZOQLRO5J6ROC5MJ5LDU6HRBEXN7TIV",
-      "snapshots": [
-        {
-          "timestamp": "20250321204939",
-          "digest": "7AKQT6XZGM4EKZVE25U3NTW5TBMZRNJG"
-        },
-        {
-          "timestamp": "20250321204938",
-          "digest": "MTZOQLRO5J6ROC5MJ5LDU6HRBEXN7TIV"
-        },
-        {
-          "timestamp": "20250318130039",
-          "digest": "XLP44GREO4NVXD3VPKVAS755MA5AALLP"
-        },
-        {
-          "timestamp": "20250220131125",
-          "digest": "YJS3DDAJ5SLTQXCOMSLLGD36N4ZDTUXY"
-        },
-        {
-          "timestamp": "20250219214630",
-          "digest": "KDXEJ43ZSER5K6ZYBUC3WCLHZ2QMRDOT"
-        }
-      ]
-    },
-    {
       "company": "Zipline",
       "url": "https://zipline.com",
       "snapshots_seen": 10,
@@ -2826,15 +2795,6 @@
     {
       "company": "Zeromark",
       "url": "https://zeromark.com",
-      "snapshots_seen": 0,
-      "change_in_window": false,
-      "latest_snapshot": null,
-      "latest_digest": null,
-      "prior_digest": null
-    },
-    {
-      "company": "Rune Technologies",
-      "url": "https://www.runetech.co/",
       "snapshots_seen": 0,
       "change_in_window": false,
       "latest_snapshot": null,

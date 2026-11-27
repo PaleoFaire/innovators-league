@@ -2530,72 +2530,6 @@
       "notes": "Company redomiciled to Delaware in 2025 to officially become a US company (per Wikipedia). Went public via SPAC merger with CF Acquisition Corp. V in January 2022, officially listed on Nasdaq on January 26, 2024 per company timeline. As of September 2025, has launched more than 50 ÑuSat satellites."
     },
     {
-      "name": "Dragonfly Aerospace",
-      "current": {
-        "name": "Dragonfly Aerospace",
-        "founder": "Bryan Dean",
-        "location": "Stellenbosch, South Africa",
-        "founded": 2019,
-        "fundingStage": "Series G",
-        "totalRaised": "$20M+",
-        "website": null
-      },
-      "verified": {
-        "name": "Dragonfly Aerospace",
-        "description": "Leader in high-performance imaging satellites and payloads, with manufacturing facility in Stellenbosch featuring clean rooms and test facilities. Designs and deploys electro-optics imaging systems including RGB, multispectral, and hyperspectral imagers for Earth observation.",
-        "founders": null,
-        "location": "Stellenbosch, South Africa",
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://dragonflyaerospace.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "location": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Sources provided do not contain verifiable information about founders (despite database entry listing 'Bryan Dean'), founding year (database claims 2019), funding stage, total raised, or investors. Website and about page focus on product offerings and vision but lack funding/financing details."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://dragonflyaerospace.com",
-          "sources": [
-            0,
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://dragonflyaerospace.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://dragonflyaerospace.com/about"
-        }
-      ],
-      "notes": "Sources provided do not contain verifiable information about founders (despite database entry listing 'Bryan Dean'), founding year (database claims 2019), funding stage, total raised, or investors. Website and about page focus on product offerings and vision but lack funding/financing details."
-    },
-    {
       "name": "Prusa Research",
       "current": {
         "name": "Prusa Research",
@@ -4630,89 +4564,6 @@
       "notes": "Sources confirm venture-backed status and 1000+ actuators shipped, but do not specify funding amount, stage, location, or founding year. Database entry claims Boulder, CO location; Seed stage; $5M+ raised; and 2018 founding year, but none of these are supported by provided sources."
     },
     {
-      "name": "Nascent Materials",
-      "current": {
-        "name": "Nascent Materials",
-        "founder": "Chaitanya Sharma",
-        "location": "Newark, NJ",
-        "founded": 2024,
-        "fundingStage": "Seed",
-        "totalRaised": "$2.3M",
-        "website": null
-      },
-      "verified": {
-        "name": "Nascent Materials",
-        "description": "Develops and scales advanced manufacturing technologies for lithium-ion battery cathode materials, including LFP and LMFP chemistries, using a proprietary pCAM-free thermo-fusion synthesis method to reduce U.S. dependence on Asian cathode material imports.",
-        "founders": [
-          "Chaitanya Sharma"
-        ],
-        "location": "Newark, NJ",
-        "founded_year": null,
-        "current_stage": "Seed",
-        "total_raised": "$2.3M",
-        "valuation": null,
-        "investors": [
-          "SOSV"
-        ],
-        "website": "https://nascentmaterials.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "founders": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "current_stage": [
-            0
-          ],
-          "total_raised": [
-            0
-          ],
-          "investors": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Company emerged from stealth on June 25, 2025. Seed round led by SOSV. Only Chaitanya Sharma is explicitly named as founder (CEO/Co-founder); Nan Wu and Tana Siboonruang are listed as Research Scientists, not founders. Founded year not specified in sources."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://nascentmaterials.com",
-          "sources": [
-            0
-          ]
-        },
-        {
-          "field": "investors",
-          "current": "[]",
-          "verified": [
-            "SOSV"
-          ],
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://nascentmaterials.com"
-        }
-      ],
-      "notes": "Company emerged from stealth on June 25, 2025. Seed round led by SOSV. Only Chaitanya Sharma is explicitly named as founder (CEO/Co-founder); Nan Wu and Tana Siboonruang are listed as Research Scientists, not founders. Founded year not specified in sources."
-    },
-    {
       "name": "VulcanForms",
       "current": {
         "name": "VulcanForms",
@@ -5128,10 +4979,6 @@
     },
     {
       "name": "Starpath Robotics",
-      "reason": "no public sources accessible"
-    },
-    {
-      "name": "DroneForge",
       "reason": "no public sources accessible"
     },
     {

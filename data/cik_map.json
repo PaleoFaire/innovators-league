@@ -48,13 +48,6 @@
     "hasFormD": false,
     "note": "Japanese, TSE-listed; no EDGAR entity"
   },
-  "ADASI": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "UAE EDGE Group subsidiary; no EDGAR entity"
-  },
   "AIM Intelligent Machines": {
     "cik": "2052192",
     "confidence": "High",
@@ -223,13 +216,6 @@
     "hasFormD": true,
     "note": ""
   },
-  "AiDash": {
-    "cik": "1832348",
-    "confidence": "High",
-    "edgarName": "AiDash Inc",
-    "hasFormD": true,
-    "note": ""
-  },
   "Aigen": {
     "cik": "1901989",
     "confidence": "High",
@@ -278,13 +264,6 @@
     "edgarName": "",
     "hasFormD": false,
     "note": "No EDGAR entity"
-  },
-  "Alif Semiconductor": {
-    "cik": "1772926",
-    "confidence": "High",
-    "edgarName": "Alif Semiconductor",
-    "hasFormD": true,
-    "note": "added with legends-sweep insert"
   },
   "AlixLabs": {
     "cik": "",
@@ -629,13 +608,6 @@
     "hasFormD": false,
     "note": "Out of stealth Aug 2026; no Form D on EDGAR as of 2026-08-10 (FTS + company search both empty). Incorporated Feb 2026 — recheck after next raise."
   },
-  "Atmo": {
-    "cik": "2049448",
-    "confidence": "High",
-    "edgarName": "Atmo, Inc.",
-    "hasFormD": true,
-    "note": "CA matches SF HQ; exact legal-name match"
-  },
   "Atmos Space Cargo": {
     "cik": "",
     "confidence": "None",
@@ -881,13 +853,6 @@
     "hasFormD": false,
     "note": "No EDGAR entity"
   },
-  "BlackSea Technologies": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "Blacksea Marine Inc. (foreign, J3) is unrelated; no matching filer"
-  },
   "Blackshark.ai": {
     "cik": "",
     "confidence": "None",
@@ -950,13 +915,6 @@
     "edgarName": "Boston Electrometallurgical Corp",
     "hasFormD": true,
     "note": "Legal name of Boston Metal; DE inc, Woburn/MA business address; Form Ds 2019-2026"
-  },
-  "BotBuilt": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "Only 'BotBuilt 1, a Series of Shadow Ventures Master, LLC' SPV; company itself has no CIK"
   },
   "Breaker Industries": {
     "cik": "",
@@ -1112,13 +1070,6 @@
     "hasFormD": true,
     "note": "Canadian (BC federal inc Z4, business A5); exact name; Form D filer"
   },
-  "Carbyon": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "Dutch; no EDGAR entity"
-  },
   "Cascade Space": {
     "cik": "",
     "confidence": "None",
@@ -1230,20 +1181,6 @@
     "edgarName": "Citra Space Corp",
     "hasFormD": true,
     "note": "CO location matches Colorado Springs HQ; DE incorporated"
-  },
-  "Claros": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "claros.tech (McLean VA) has no filer. Claros Technologies, Inc. (0001876740, Minneapolis MN materials firm) and Claros Mortgage Trust (REIT) are different companies."
-  },
-  "Classiq": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "Israeli; only 'AVSF - Classiq 2025, LLC' investor SPV on EDGAR — rejected"
   },
   "ClearSpace": {
     "cik": "",
@@ -1644,13 +1581,6 @@
     "hasFormD": false,
     "note": "Canadian company; no US filings."
   },
-  "Dragonfly Aerospace": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "South Africa; the many 'Dragonfly' EDGAR entities are funds/an energy SPAC, none is this company"
-  },
   "Dream Security": {
     "cik": "",
     "confidence": "None",
@@ -1664,13 +1594,6 @@
     "edgarName": "",
     "hasFormD": false,
     "note": "Bulgarian company; no EDGAR entity"
-  },
-  "DroneForge": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "No EDGAR entity found"
   },
   "DroneShield": {
     "cik": "1671541",
@@ -1727,13 +1650,6 @@
     "edgarName": "Earth AI Inc.",
     "hasFormD": true,
     "note": "DE inc with Australia (C3) business address — matches the Sydney mineral-exploration AI company; filed Form D."
-  },
-  "Echodyne": {
-    "cik": "1628751",
-    "confidence": "High",
-    "edgarName": "Echodyne Corp.",
-    "hasFormD": true,
-    "note": ""
   },
   "Eclipse Space": {
     "cik": "",
@@ -1931,13 +1847,6 @@
     "hasFormD": true,
     "note": "DE/NY, Form D Jul 2025; unique name"
   },
-  "Exolaunch": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "German company; no EDGAR entity."
-  },
   "Exotec": {
     "cik": "",
     "confidence": "None",
@@ -1972,13 +1881,6 @@
     "edgarName": "Farcast Corp.",
     "hasFormD": true,
     "note": "fka UTVATE Corp; CA, Form D/D-A."
-  },
-  "Fergani Space": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "Turkish; no EDGAR entity"
   },
   "Fervo Energy": {
     "cik": "0001853868",
@@ -2407,13 +2309,6 @@
     "hasFormD": true,
     "note": ""
   },
-  "Greenroom Robotics": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "Australian; no EDGAR entity"
-  },
   "Gritt": {
     "cik": "",
     "confidence": "None",
@@ -2462,13 +2357,6 @@
     "edgarName": "Hadrian Automation, Inc.",
     "hasFormD": true,
     "note": "DE inc, Torrance CA. Form Ds 2021-2025."
-  },
-  "Hailo": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "Israeli AI-chip co; only 'OurCrowd (Investment in Hailo) L.P.' feeder fund on EDGAR — rejected"
   },
   "Halo": {
     "cik": "2022295",
@@ -3422,13 +3310,6 @@
     "hasFormD": false,
     "note": "Only MEDRACON, INC. (IL) — unrelated. No filer for Medra AI (SF lab-automation)."
   },
-  "Mesh Optical Technologies": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "No EDGAR entity found under any name variant"
-  },
   "MightyFly": {
     "cik": "2096047",
     "confidence": "High",
@@ -3604,13 +3485,6 @@
     "hasFormD": false,
     "note": "Korean; no EDGAR entity"
   },
-  "Nascent Materials": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "No EDGAR entity found"
-  },
   "Natilus": {
     "cik": "",
     "confidence": "None",
@@ -3624,13 +3498,6 @@
     "edgarName": "",
     "hasFormD": false,
     "note": "'Navier, Inc.' CIK 1911798 is a DIFFERENT Chicago company (officers Metnick/Milinovich). Boat company appears only via third-party SPVs (Gaingels Navier Boat LLC); issuer never filed."
-  },
-  "Naïo Technologies": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "French company; no EDGAR entity"
   },
   "Near Space Labs": {
     "cik": "1745399",
@@ -4934,13 +4801,6 @@
     "hasFormD": false,
     "note": "No EDGAR entity found"
   },
-  "Rune Technologies": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "No filer; Rune Labs (CA neuro) and Rune PBC (TX) are different companies."
-  },
   "Sabanto": {
     "cik": "",
     "confidence": "None",
@@ -5577,13 +5437,6 @@
     "edgarName": "",
     "hasFormD": false,
     "note": "No EDGAR entity found"
-  },
-  "Stratolaunch": {
-    "cik": "",
-    "confidence": "None",
-    "edgarName": "",
-    "hasFormD": false,
-    "note": "No EDGAR entity for Stratolaunch/Stratolaunch Systems (Cerberus-owned, no Form D found)."
   },
   "Strider Technologies": {
     "cik": "1776892",

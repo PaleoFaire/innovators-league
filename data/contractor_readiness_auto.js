@@ -697,24 +697,6 @@ const CONTRACTOR_READINESS_AUTO = [
     "headcountFormatted": "750+"
   },
   {
-    "company": "Stratolaunch",
-    "sector": "Space & Aerospace",
-    "readinessScore": 100,
-    "govTractionScore": 10,
-    "compositeScore": 88.5,
-    "contractsTracked": 1,
-    "agencies": [
-      "MDA"
-    ],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": false,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 1243,
-    "headcountFormatted": "1,243+"
-  },
-  {
     "company": "ICON",
     "sector": "Housing & Construction",
     "readinessScore": 100,
@@ -1197,22 +1179,6 @@ const CONTRACTOR_READINESS_AUTO = [
     },
     "estimatedHeadcount": 229,
     "headcountFormatted": "250+"
-  },
-  {
-    "company": "ADASI",
-    "sector": "Defense & Security",
-    "readinessScore": 80,
-    "govTractionScore": 8,
-    "compositeScore": 78.0,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": false,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
   },
   {
     "company": "Baykar",
@@ -2015,22 +1981,6 @@ const CONTRACTOR_READINESS_AUTO = [
     "headcountFormatted": ""
   },
   {
-    "company": "Greenroom Robotics",
-    "sector": "Defense & Security",
-    "readinessScore": 70,
-    "govTractionScore": 7,
-    "compositeScore": 77.0,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": false,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
-  },
-  {
     "company": "SpectralX",
     "sector": "Defense & Security",
     "readinessScore": 70,
@@ -2213,22 +2163,6 @@ const CONTRACTOR_READINESS_AUTO = [
     },
     "estimatedHeadcount": 0,
     "headcountFormatted": ""
-  },
-  {
-    "company": "Rune Technologies",
-    "sector": "Defense & Security",
-    "readinessScore": 63,
-    "govTractionScore": 6,
-    "compositeScore": 63.5,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": true,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 243,
-    "headcountFormatted": "250+"
   },
   {
     "company": "Overland AI",
@@ -3132,22 +3066,6 @@ const CONTRACTOR_READINESS_AUTO = [
     "readinessScore": 60,
     "govTractionScore": 6,
     "compositeScore": 70.0,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": false,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
-  },
-  {
-    "company": "Fergani Space",
-    "sector": "Space & Aerospace",
-    "readinessScore": 60,
-    "govTractionScore": 6,
-    "compositeScore": 71.0,
     "contractsTracked": 0,
     "agencies": [],
     "keyIndicators": {

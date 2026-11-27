@@ -320,12 +320,6 @@ const FOUNDER_MAFIAS_AUTO = [
         "valuation": ""
       },
       {
-        "company": "Atmo",
-        "sector": "AI & Software",
-        "totalRaised": "$29.1M",
-        "valuation": ""
-      },
-      {
         "company": "Aseon Labs",
         "sector": "Robotics & Manufacturing",
         "totalRaised": "$10M",
@@ -693,12 +687,6 @@ const FOUNDER_MAFIAS_AUTO = [
         "sector": "Defense & Security",
         "totalRaised": "$6M",
         "valuation": ""
-      },
-      {
-        "company": "Arxlight",
-        "sector": "Defense & Security",
-        "totalRaised": "Undisclosed",
-        "valuation": "Undisclosed"
       }
     ],
     "description": "3 companies with founding-team links to Anduril."

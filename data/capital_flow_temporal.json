@@ -214,18 +214,6 @@
         "companiesWithUnknownAmount": 3,
         "companies": [
           {
-            "name": "DroneForge",
-            "amount": null,
-            "date": "2025-12",
-            "source": "recentEvent",
-            "investors": [
-              "Outlander VC",
-              "First In Capital",
-              "Tofino Capital",
-              "Shor Capital"
-            ]
-          },
-          {
             "name": "FlyBy Robotics",
             "amount": null,
             "date": "2025-11",
@@ -1231,25 +1219,7 @@
         "deals": 1,
         "totalSold": null,
         "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "Na\u00efo Technologies",
-            "amount": null,
-            "date": "2025-09",
-            "source": "recentEvent",
-            "investors": [
-              "Mirova",
-              "Bpifrance",
-              "Capagro",
-              "Demeter",
-              "Pymwymic",
-              "Ecotechnologies Fund",
-              "Codema",
-              "M Capital",
-              "ARIS Occitanie"
-            ]
-          }
-        ],
+        "companies": [],
         "investors": []
       }
     },
@@ -1310,23 +1280,7 @@
         "deals": 1,
         "totalSold": null,
         "companiesWithUnknownAmount": 1,
-        "companies": [
-          {
-            "name": "AiDash",
-            "amount": null,
-            "date": "2025-01",
-            "source": "recentEvent",
-            "investors": [
-              "Lightrock",
-              "Lightsmith Group",
-              "Marubeni Corporation",
-              "Duke Energy",
-              "National Grid Partners",
-              "Edison International",
-              "G2 Venture Partners"
-            ]
-          }
-        ],
+        "companies": [],
         "investors": []
       },
       "2025-Q2": {

@@ -264,7 +264,6 @@ def test_master_list_covers_every_data_js_company():
 
 def test_companies_added_in_the_sync_are_credited():
     for t, want in (("xLight raises $40M to build EUV lasers", "xLight"),
-                    ("Arxlight raises $9M", "Arxlight"),
                     ("American Terawatt raises $52.6M to build a national HVDC network", "American Terawatt"),
                     ("Chip startup Efficient Computer raises $97 million at $650 million valuation",
                      "Efficient Computer"),
@@ -273,6 +272,8 @@ def test_companies_added_in_the_sync_are_credited():
     # A one-word name only counts as written: "xlight" is not xLight, a bare number never matches.
     check(company("xlight raises $40M"), None, "lower-case xlight")
     check(company("Founded in 1872, Foo raises $10M"), None, "1872 is a year here")
+    # Arxlight was cut on 27 Nov 2026: its deals credit no one, and never fall through to xLight.
+    check((deal("Arxlight raises $9M") or {}).get("company"), None, "Arxlight (cut) credits no one")
 
 
 def test_title_case_headlines():

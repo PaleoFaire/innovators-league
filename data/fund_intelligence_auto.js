@@ -148,7 +148,6 @@ const FUND_INTELLIGENCE_AUTO = {
       "fund": "Lightspeed",
       "portfolio_count": 10,
       "companies": [
-        "Alif Semiconductor",
         "Amca",
         "Discovered Materials",
         "Helsing",
@@ -223,8 +222,6 @@ const FUND_INTELLIGENCE_AUTO = {
       "fund": "Kleiner Perkins",
       "portfolio_count": 6,
       "companies": [
-        "Alif Semiconductor",
-        "Fauna Robotics",
         "K2 Space",
         "Mind Robotics",
         "Saronic",

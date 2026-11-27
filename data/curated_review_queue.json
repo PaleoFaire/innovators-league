@@ -408,7 +408,7 @@
   },
   {
     "name": "Lightmill",
-    "status": "added",
+    "status": "rejected",
     "sector": "Manufacturing",
     "tagline": "Uses large-format laser milling to make precision metal parts.",
     "founders": "Owen Murphy",
@@ -420,7 +420,8 @@
     "source_list": "buildlist",
     "detected_at": "2026-08-24T09:04:53.711937+00:00",
     "matched_record": "Lightmill",
-    "reviewed_at": "2026-09-22"
+    "reviewed_at": "2026-11-27",
+    "review_note": "Cut 2026-11-27 in the database quality review. Restore with scripts/restore_cut_company.py."
   },
   {
     "name": "Moment Energy",

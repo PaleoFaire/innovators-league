@@ -978,13 +978,6 @@
       "evidence": ""
     },
     {
-      "company": "Claros",
-      "url": "https://www.claros.tech",
-      "status_in_db": "active",
-      "verdict": "tls_error",
-      "evidence": "HTTPSConnectionPool(host='www.claros.tech', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, "
-    },
-    {
       "company": "Zipline",
       "url": "https://zipline.com",
       "status_in_db": "active",
@@ -1200,13 +1193,6 @@
       "status_in_db": "active",
       "verdict": "live",
       "evidence": ""
-    },
-    {
-      "company": "Rune Technologies",
-      "url": "https://runetechnologies.co",
-      "status_in_db": "active",
-      "verdict": "tls_error",
-      "evidence": "HTTPSConnectionPool(host='runetechnologies.co', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError"
     },
     {
       "company": "Biofire",
@@ -2483,13 +2469,6 @@
       "evidence": ""
     },
     {
-      "company": "Dragonfly Aerospace",
-      "url": "https://dragonflyaerospace.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Solinftec",
       "url": "https://solinftec.com",
       "status_in_db": "active",
@@ -2535,13 +2514,6 @@
       "company": "Deep Isolation",
       "url": "https://deepisolation.com",
       "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "Naïo Technologies",
-      "url": "https://www.naio-technologies.com",
-      "status_in_db": "acquired",
       "verdict": "live",
       "evidence": ""
     },
@@ -2609,13 +2581,6 @@
       "evidence": ""
     },
     {
-      "company": "AiDash",
-      "url": "https://aidash.com",
-      "status_in_db": "acquired",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Pano AI",
       "url": "https://www.pano.ai",
       "status_in_db": "active",
@@ -2649,13 +2614,6 @@
       "status_in_db": "active",
       "verdict": "empty_page",
       "evidence": "Starpath Robotics — The Space Infrastructure Company html, body { background: #0d0d0d; }"
-    },
-    {
-      "company": "DroneForge",
-      "url": "https://thedroneforge.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
     },
     {
       "company": "Built Robotics",
@@ -3351,13 +3309,6 @@
       "evidence": ""
     },
     {
-      "company": "Nascent Materials",
-      "url": "https://nascentmaterials.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Freeform",
       "url": "https://freeform.co",
       "status_in_db": "active",
@@ -3946,13 +3897,6 @@
       "evidence": ""
     },
     {
-      "company": "BotBuilt",
-      "url": "https://botbuilt.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Precision AI",
       "url": "https://www.precision.ai",
       "status_in_db": "active",
@@ -4200,13 +4144,6 @@
     {
       "company": "HyImpulse",
       "url": "https://www.hyimpulse.de/en/",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "Exolaunch",
-      "url": "https://exolaunch.com",
       "status_in_db": "active",
       "verdict": "live",
       "evidence": ""
@@ -4674,13 +4611,6 @@
       "evidence": ""
     },
     {
-      "company": "Carbyon",
-      "url": "https://carbyon.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Synspective",
       "url": "https://synspective.com",
       "status_in_db": "ipo",
@@ -4933,13 +4863,6 @@
       "evidence": ""
     },
     {
-      "company": "Greenroom Robotics",
-      "url": "https://greenroomrobotics.com",
-      "status_in_db": "acquired",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Cortical Labs",
       "url": "https://corticallabs.com",
       "status_in_db": "active",
@@ -4996,13 +4919,6 @@
       "evidence": ""
     },
     {
-      "company": "Classiq",
-      "url": "https://www.classiq.io",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Majestic Labs",
       "url": "https://majestic-labs.ai",
       "status_in_db": "active",
@@ -5012,13 +4928,6 @@
     {
       "company": "Speedata",
       "url": "https://www.speedata.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "Hailo",
-      "url": "https://hailo.ai",
       "status_in_db": "active",
       "verdict": "live",
       "evidence": ""
@@ -5080,13 +4989,6 @@
       "evidence": "http 403"
     },
     {
-      "company": "ADASI",
-      "url": "https://adasi.ae",
-      "status_in_db": "active",
-      "verdict": "http_403",
-      "evidence": "http 403"
-    },
-    {
       "company": "HUMAIN",
       "url": "https://www.humain.com",
       "status_in_db": "active",
@@ -5096,13 +4998,6 @@
     {
       "company": "Baykar",
       "url": "https://www.baykartech.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "Fergani Space",
-      "url": "https://ferganispace.com",
       "status_in_db": "active",
       "verdict": "live",
       "evidence": ""
@@ -5584,13 +5479,6 @@
       "evidence": ""
     },
     {
-      "company": "Stratolaunch",
-      "url": "https://stratolaunch.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Scout Space",
       "url": "https://www.scout.space",
       "status_in_db": "active",
@@ -5820,13 +5708,6 @@
       "status_in_db": "active",
       "verdict": "http_202",
       "evidence": "http 202"
-    },
-    {
-      "company": "Echodyne",
-      "url": "https://echodyne.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
     },
     {
       "company": "Epsilon3",
@@ -6109,13 +5990,6 @@
       "evidence": ""
     },
     {
-      "company": "Mesh Optical Technologies",
-      "url": "https://www.meshoptical.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Periodic Labs",
       "url": "https://periodic.com",
       "status_in_db": "active",
@@ -6235,13 +6109,6 @@
       "evidence": ""
     },
     {
-      "company": "BlackSea Technologies",
-      "url": "https://www.blackseatech.com",
-      "status_in_db": "active",
-      "verdict": "empty_page",
-      "evidence": "window.onload=function(){window.location.href=\"/lander\"}"
-    },
-    {
       "company": "CuspAI",
       "url": "https://www.cusp.ai",
       "status_in_db": "active",
@@ -6342,13 +6209,6 @@
     {
       "company": "Maritime Fusion",
       "url": "https://maritimefusion.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "Atmo",
-      "url": "https://atmo.ai",
       "status_in_db": "active",
       "verdict": "live",
       "evidence": ""
@@ -6697,13 +6557,6 @@
       "evidence": ""
     },
     {
-      "company": "Alif Semiconductor",
-      "url": "https://alifsemi.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Aigen",
       "url": "https://aigen.io",
       "status_in_db": "active",
@@ -6734,13 +6587,6 @@
     {
       "company": "Inari",
       "url": "https://inari.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "Ample",
-      "url": "https://www.ample.energy",
       "status_in_db": "active",
       "verdict": "live",
       "evidence": ""
@@ -7047,29 +6893,8 @@
       "evidence": ""
     },
     {
-      "company": "Ghost Robotics",
-      "url": "https://www.ghostrobotics.io",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "ADMARES",
-      "url": "https://admares.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
       "company": "Aleph Surgical",
       "url": "https://alephsurgical.com",
-      "status_in_db": "active",
-      "verdict": "live",
-      "evidence": ""
-    },
-    {
-      "company": "Arxlight",
-      "url": "https://www.arxlight.com",
       "status_in_db": "active",
       "verdict": "live",
       "evidence": ""

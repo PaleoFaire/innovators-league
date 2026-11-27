@@ -87,9 +87,7 @@
       },
       "data-center-infrastructure": {
         "count": 1,
-        "companies": [
-          "Claros"
-        ]
+        "companies": []
       },
       "semiconductor-advanced-materials": {
         "count": 1,
@@ -570,9 +568,7 @@
       },
       "construction-robotics": {
         "count": 1,
-        "companies": [
-          "BotBuilt"
-        ]
+        "companies": []
       },
       "hydrogen-aviation": {
         "count": 1,
@@ -1630,8 +1626,7 @@
       "ai-defense-intelligence": {
         "count": 2,
         "companies": [
-          "Vannevar Labs",
-          "Rune Technologies"
+          "Vannevar Labs"
         ]
       },
       "space-satellites-buses": {
@@ -2018,9 +2013,7 @@
       },
       "direct-air-capture": {
         "count": 1,
-        "companies": [
-          "Carbyon"
-        ]
+        "companies": []
       },
       "stellarator-fusion": {
         "count": 1,
@@ -5263,11 +5256,6 @@
           "company": "Epoch Biodesign",
           "cluster": "synthetic-biology",
           "addedDate": "2026-04"
-        },
-        {
-          "company": "Carbyon",
-          "cluster": "direct-air-capture",
-          "addedDate": "2026-04"
         }
       ]
     },
@@ -5760,11 +5748,6 @@
           "addedDate": "2026-06"
         },
         {
-          "company": "Rune Technologies",
-          "cluster": "ai-defense-intelligence",
-          "addedDate": "2026-03"
-        },
-        {
           "company": "Atomic Industries",
           "cluster": "manufacturing-reshoring",
           "addedDate": "2026-03"
@@ -5886,11 +5869,6 @@
         "company": "Canada Rocket Company",
         "cluster": "sovereign-launch",
         "founder": "Hugh Kolias, David Tenny"
-      },
-      {
-        "company": "Mesh Optical Technologies",
-        "cluster": null,
-        "founder": "Travis Brashears, Cameron Ramos, Serena Grown-Haeberli"
       },
       {
         "company": "Orbital Operations",

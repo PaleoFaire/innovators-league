@@ -18,7 +18,6 @@
     "Ephos",
     "Contec",
     "Q-Factor",
-    "ADASI",
     "Akaer",
     "Svante",
     "Scout Space"
@@ -556,60 +555,6 @@
         }
       ],
       "notes": "Source [0] is company website only; cannot verify founder names, founding year, funding stage, total raised, or valuation from provided sources. Database entry claims Benny Buller as founder, 2014 founding, Public stage, and $300M+ raised, but none of these are supported by the single source provided."
-    },
-    {
-      "name": "BotBuilt",
-      "current": {
-        "name": "BotBuilt",
-        "founder": "Barrett Ames, Colin Devine",
-        "location": "Durham, NC",
-        "founded": 2019,
-        "fundingStage": "Seed",
-        "totalRaised": "$12.4M",
-        "website": null
-      },
-      "verified": {
-        "name": "BotBuilt",
-        "description": "Uses robotic systems to automate the framing and construction of residential home components. The company digitizes building plans and manufactures components to exact specifications for on-site assembly.",
-        "founders": null,
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://botbuilt.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [0] is the company website but contains no information about founders, location, founding year, funding stage, total raised, or investors. The database entry references these fields but no supporting evidence was found in the provided sources."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://botbuilt.com",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://botbuilt.com"
-        }
-      ],
-      "notes": "Source [0] is the company website but contains no information about founders, location, founding year, funding stage, total raised, or investors. The database entry references these fields but no supporting evidence was found in the provided sources."
     },
     {
       "name": "Ascend Elements",
@@ -3365,66 +3310,6 @@
       "notes": "Wikipedia lists Özdemir Bayraktar as founder (1984). Selçuk and Haluk Bayraktar are listed as Key people (CTO and GM respectively) but not explicitly named as co-founders in sources provided. Piaggio Aerospace acquisition announced December 27, 2024 per Wikipedia [1]. Leonardo cooperation agreement announced March 6, 2025 per Wikipedia [1]. Revenue listed as $2 billion (2023) in Wikipedia [1]. Valuation and total_raised cannot be verified from provided sources."
     },
     {
-      "name": "Fergani Space",
-      "current": {
-        "name": "Fergani Space",
-        "founder": "Selçuk Bayraktar",
-        "location": "Ankara, Turkey",
-        "founded": 2022,
-        "fundingStage": "Private (Baykar-aligned)",
-        "totalRaised": "Undisclosed",
-        "website": null
-      },
-      "verified": {
-        "name": "Fergani Space",
-        "description": "A Turkish space technology company established in 2022 that develops commercial satellites, satellite components, payloads, and orbit transfer vehicles (OTVs) powered by proprietary propulsion technology.",
-        "founders": null,
-        "location": "Ankara, Turkey",
-        "founded_year": 2022,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://ferganispace.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "description": [
-            0
-          ],
-          "location": [
-            0
-          ],
-          "founded_year": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Source [0] provides minimal information. Founder name (Selçuk Bayraktar) from database entry cannot be verified from provided sources. Current stage, total raised, valuation, and investor information not found in sources. Website content does not specify founders explicitly."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://ferganispace.com",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://ferganispace.com"
-        }
-      ],
-      "notes": "Source [0] provides minimal information. Founder name (Selçuk Bayraktar) from database entry cannot be verified from provided sources. Current stage, total raised, valuation, and investor information not found in sources. Website content does not specify founders explicitly."
-    },
-    {
       "name": "Ranovus",
       "current": {
         "name": "Ranovus",
@@ -4695,124 +4580,6 @@
         }
       ],
       "notes": "Source [0] is the company website (red6.com) but the provided content is unreadable/corrupted—only the domain and search engine navigation elements are visible. No factual company information could be extracted from this source. Cannot verify any claims from the database entry (founder name, location, founding year, stage, funding amounts, or description) without readable source material."
-    },
-    {
-      "name": "Stratolaunch",
-      "current": {
-        "name": "Stratolaunch",
-        "founder": "Paul Allen (now Cerberus-owned)",
-        "location": "Mojave, CA",
-        "founded": 2011,
-        "fundingStage": "Private",
-        "totalRaised": "Cerberus-owned",
-        "website": null
-      },
-      "verified": {
-        "name": "Stratolaunch",
-        "description": "Private American aerospace company providing high-speed flight test services. Operates the Roc carrier aircraft for air-launched hypersonic flight testing.",
-        "founders": [
-          "Paul Allen",
-          "Burt Rutan"
-        ],
-        "location": "Mojave, California, U.S.",
-        "founded_year": 2011,
-        "current_stage": "Private",
-        "total_raised": null,
-        "valuation": null,
-        "investors": [
-          "Cerberus Capital Management"
-        ],
-        "website": "https://stratolaunch.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1,
-            2
-          ],
-          "description": [
-            2
-          ],
-          "founders": [
-            2
-          ],
-          "location": [
-            1,
-            2
-          ],
-          "founded_year": [
-            2
-          ],
-          "current_stage": [
-            2
-          ],
-          "investors": [
-            2
-          ],
-          "website": [
-            0,
-            1,
-            2
-          ]
-        },
-        "notes": "Company was founded in 2011 by Paul Allen and Burt Rutan. Acquired by Cerberus Capital Management in 2019. Currently led by CEO Zachary Krevor (since March 2022). Wikipedia notes 360+ employees as of December 2023."
-      },
-      "changes": [
-        {
-          "field": "founder",
-          "current": "Paul Allen (now Cerberus-owned)",
-          "verified": "Paul Allen, Burt Rutan",
-          "sources": [
-            2
-          ]
-        },
-        {
-          "field": "location",
-          "current": "Mojave, CA",
-          "verified": "Mojave, California, U.S.",
-          "sources": [
-            1,
-            2
-          ]
-        },
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://stratolaunch.com",
-          "sources": [
-            0,
-            1,
-            2
-          ]
-        },
-        {
-          "field": "investors",
-          "current": "[]",
-          "verified": [
-            "Cerberus Capital Management"
-          ],
-          "sources": [
-            2
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://stratolaunch.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://stratolaunch.com/about"
-        },
-        {
-          "idx": 2,
-          "src": "wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Stratolaunch"
-        }
-      ],
-      "notes": "Company was founded in 2011 by Paul Allen and Burt Rutan. Acquired by Cerberus Capital Management in 2019. Currently led by CEO Zachary Krevor (since March 2022). Wikipedia notes 360+ employees as of December 2023."
     },
     {
       "name": "Reflex Robotics",

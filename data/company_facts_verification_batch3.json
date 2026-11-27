@@ -14,7 +14,6 @@
     "GITAI",
     "Mujin",
     "Gladia",
-    "Na\u00efo Technologies",
     "Reaction Dynamics",
     "Osmo",
     "Freeform",
@@ -4807,72 +4806,6 @@
         }
       ],
       "notes": "Source [2] is about deep geological repositories in general and does not contain company-specific information about Deep Isolation. Founded year listed in database entry (2016) could not be verified from sources. Founder Elizabeth Muller not explicitly named as founder in sources. No Series A stage, total raised, or valuation information found in sources. Company appears to have received ARPA-E SCALEUP Ready award with up to $40M in support (source 0), but this is grant funding, not equity financing."
-    },
-    {
-      "name": "AiDash",
-      "current": {
-        "name": "AiDash",
-        "founder": "Abhishek Singh",
-        "location": "Palo Alto, CA",
-        "founded": 2019,
-        "fundingStage": "Series C",
-        "totalRaised": "$91M+",
-        "website": null
-      },
-      "verified": {
-        "name": "AiDASH",
-        "description": "Enterprise SaaS platform using satellite imagery and AI to help utilities and critical infrastructure operators with vegetation management, climate risk intelligence, and asset monitoring across distributed geographies.",
-        "founders": null,
-        "location": null,
-        "founded_year": 2019,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://aidash.com",
-        "sources_per_field": {
-          "name": [
-            0,
-            1
-          ],
-          "description": [
-            0,
-            1
-          ],
-          "founded_year": [
-            1
-          ],
-          "website": [
-            0,
-            1
-          ]
-        },
-        "notes": "Source [0] states '185+ customers'; Source [1] states 'more than 150 customers' \u2014 discrepancy noted but [0] appears more recent. Founders mentioned as 'serial entrepreneurs' and 'three entrepreneurs' in [1] but no specific names provided. Location (Palo Alto, CA) and financial details (Series C, $91M+, $400M+ valuation) from database entry could not be verified in provided sources."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://aidash.com",
-          "sources": [
-            0,
-            1
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://aidash.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://aidash.com/about"
-        }
-      ],
-      "notes": "Source [0] states '185+ customers'; Source [1] states 'more than 150 customers' \u2014 discrepancy noted but [0] appears more recent. Founders mentioned as 'serial entrepreneurs' and 'three entrepreneurs' in [1] but no specific names provided. Location (Palo Alto, CA) and financial details (Series C, $91M+, $400M+ valuation) from database entry could not be verified in provided sources."
     },
     {
       "name": "Chef Robotics",

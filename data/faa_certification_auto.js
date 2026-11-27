@@ -226,42 +226,6 @@ const FAA_CERTIFICATION_AUTO = [
     "lastUpdated": "2026-09-29"
   },
   {
-    "company": "Wisk Aero",
-    "certType": "Type Certificate",
-    "category": "eVTOL (Autonomous)",
-    "aircraft": "Cora (Gen 6)",
-    "faaProject": "TC Application \u2014 First Autonomous eVTOL",
-    "status": "Type Certification In Progress",
-    "milestones": [
-      {
-        "date": "2022-10-01",
-        "event": "FAA Accepted TC Application",
-        "status": "completed"
-      },
-      {
-        "date": "2023-03-01",
-        "event": "FAA Granted First Autonomous eVTOL Airworthiness Criteria",
-        "status": "completed"
-      },
-      {
-        "date": "2025-01-01",
-        "event": "Flight Test Program",
-        "status": "in_progress"
-      },
-      {
-        "date": "2027-01-01",
-        "event": "Type Certificate (Autonomous)",
-        "status": "pending"
-      }
-    ],
-    "progressPercent": 50,
-    "currentMilestone": "Flight Test Program",
-    "nextMilestone": "Type Certificate (Autonomous)",
-    "nextMilestoneDate": "2027-01-01",
-    "note": "Boeing-backed. First fully autonomous air taxi seeking FAA TC.",
-    "lastUpdated": "2026-09-29"
-  },
-  {
     "company": "Rocket Lab",
     "certType": "Launch License",
     "category": "Commercial Space",

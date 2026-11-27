@@ -352,13 +352,6 @@ const GOV_CONTRACTS_AUTO = [
     lastUpdated: "2026-11-26"
   },
   {
-    company: "Echodyne",
-    totalGovValue: "$66M+",
-    contractCount: 4,
-    agencies: ["Department of Defense", "Department of Transportation", "Department of State"],
-    lastUpdated: "2026-11-26"
-  },
-  {
     company: "Interlune",
     totalGovValue: "$7M+",
     contractCount: 4,
@@ -485,13 +478,6 @@ const GOV_CONTRACTS_AUTO = [
     lastUpdated: "2026-11-26"
   },
   {
-    company: "Rune Technologies",
-    totalGovValue: "$2M+",
-    contractCount: 3,
-    agencies: ["Department of Defense"],
-    lastUpdated: "2026-11-26"
-  },
-  {
     company: "Slingshot Aerospace",
     totalGovValue: "$25M+",
     contractCount: 3,
@@ -508,13 +494,6 @@ const GOV_CONTRACTS_AUTO = [
   {
     company: "Lunar Outpost",
     totalGovValue: "$128M+",
-    contractCount: 3,
-    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
-    lastUpdated: "2026-11-26"
-  },
-  {
-    company: "Stratolaunch",
-    totalGovValue: "$30M+",
     contractCount: 3,
     agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
     lastUpdated: "2026-11-26"
@@ -1248,13 +1227,6 @@ const GOV_CONTRACTS_AUTO = [
     lastUpdated: "2026-11-26"
   },
   {
-    company: "Wisk Aero",
-    totalGovValue: "$191K",
-    contractCount: 1,
-    agencies: ["Department of Defense"],
-    lastUpdated: "2026-11-26"
-  },
-  {
     company: "Ampaire",
     totalGovValue: "$1M+",
     contractCount: 1,
@@ -1320,13 +1292,6 @@ const GOV_CONTRACTS_AUTO = [
   {
     company: "Irradiant Technologies",
     totalGovValue: "$347K",
-    contractCount: 1,
-    agencies: ["Department of Defense"],
-    lastUpdated: "2026-11-26"
-  },
-  {
-    company: "Ghost Robotics",
-    totalGovValue: "$78K",
     contractCount: 1,
     agencies: ["Department of Defense"],
     lastUpdated: "2026-11-26"

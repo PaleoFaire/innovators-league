@@ -165,7 +165,6 @@ OVERRIDES = {
     # Database audit (1 Oct 2026): rewritten descriptions tripped the text rules for these.
     "Standard Electron": "Grid & Power Delivery",       # on-site power systems; "battery storage" hits Batteries
     "Aalo Atomics": "Fission Reactors",                 # "UO2 fuel" hits Fuels & Isotopes
-    "Claros": "Industrial Heat & Efficiency",           # chip-level power delivery; "power delivery" hits Grid
     "General Galactic": "Space Logistics & Servicing",  # in-space logistics; "Mars" hits Deep Space
     "Frankenburg Technologies": "Missiles & Munitions", # interceptor missiles; "maritime platforms" hits Maritime
     "Porotech": "Photonics & Interconnect",             # GaN micro-LEDs/optical I/O; "AI compute" hits AI Compute

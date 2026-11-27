@@ -80,14 +80,6 @@ const FOUNDER_DIASPORA = {
      "via": "founder-field"
     },
     {
-     "name": "Mesh Optical Technologies",
-     "sector": "Chips & Semiconductors",
-     "raised": "$50M",
-     "stage": "Series A",
-     "evidence": "Ex-SpaceX engineers mass-producing American-made optical transceivers (data-center fiber/l",
-     "via": "description"
-    },
-    {
      "name": "Orbital Operations",
      "sector": "Space & Aerospace",
      "raised": "$8.8M",

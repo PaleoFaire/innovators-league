@@ -264,32 +264,6 @@
   "candidates": []
  },
  {
-  "company": "ADASI",
-  "checked": "2026-11-02",
-  "site": {
-   "reachable": false,
-   "careers_pages": [],
-   "jsonld": false,
-   "unsupported": [],
-   "pages_scanned": 0
-  },
-  "candidates": []
- },
- {
-  "company": "ADMARES",
-  "checked": "2026-11-02",
-  "site": {
-   "reachable": true,
-   "careers_pages": [
-    "https://admares.com/about-us/careers/"
-   ],
-   "jsonld": false,
-   "unsupported": [],
-   "pages_scanned": 3
-  },
-  "candidates": []
- },
- {
   "company": "AGent Energy",
   "checked": "2026-09-26",
   "candidates": [
@@ -827,31 +801,6 @@
   "candidates": []
  },
  {
-  "company": "AiDash",
-  "checked": "2026-10-15",
-  "site": {
-   "reachable": true,
-   "careers_pages": [
-    "https://www.aidash.com/careers/"
-   ],
-   "jsonld": false,
-   "unsupported": [],
-   "pages_scanned": 2
-  },
-  "candidates": [
-   {
-    "platform": "greenhouse",
-    "slug": "aidashinc",
-    "confidence": "high",
-    "how": "embed",
-    "evidence": "https://www.aidash.com/careers/",
-    "jobs_seen": 13,
-    "org": "AiDASH, Inc.",
-    "reason": "own-site"
-   }
-  ]
- },
- {
   "company": "Aigen",
   "checked": "2026-11-02",
   "site": {
@@ -1105,19 +1054,6 @@
     "confidence": "high",
     "evidence": "https://alice-bob.com/join-us",
     "jobs_seen": 27
-   }
-  ]
- },
- {
-  "company": "Alif Semiconductor",
-  "checked": "2026-09-26",
-  "candidates": [
-   {
-    "platform": "lever",
-    "slug": "alifsemi",
-    "confidence": "high",
-    "evidence": "https://jobs.lever.co/alifsemi/cd79811b-8d7b-426f-8243-705e354ee4c7",
-    "jobs_seen": 11
    }
   ]
  },
@@ -1624,11 +1560,6 @@
     "jobs_seen": 2
    }
   ]
- },
- {
-  "company": "Ample",
-  "checked": "2026-09-26",
-  "candidates": []
  },
  {
   "company": "Anatar",
@@ -2553,20 +2484,6 @@
   "candidates": []
  },
  {
-  "company": "Arxlight",
-  "checked": "2026-11-02",
-  "site": {
-   "reachable": true,
-   "careers_pages": [
-    "https://arxlight.ai/hiring"
-   ],
-   "jsonld": false,
-   "unsupported": [],
-   "pages_scanned": 2
-  },
-  "candidates": []
- },
- {
   "company": "Aseon Labs",
   "checked": "2026-11-02",
   "site": {
@@ -2986,23 +2903,6 @@
     "reason": "empty board, no own-site evidence"
    }
   ]
- },
- {
-  "company": "Atmo",
-  "checked": "2026-10-15",
-  "site": {
-   "reachable": true,
-   "careers_pages": [
-    "https://www.linkedin.com/jobs/chief-meteorologist-jobs?trk=expired_jd_redirect",
-    "https://www.linkedin.com/jobs/beaches-tanning-%2B-spa-jobs?trk=expired_jd_redirect",
-    "https://www.linkedin.com/jobs/crsa-jobs?trk=expired_jd_redirect",
-    "https://www.linkedin.com/jobs/skuid-a-nintex-company-jobs?trk=expired_jd_redirect"
-   ],
-   "jsonld": false,
-   "unsupported": [],
-   "pages_scanned": 5
-  },
-  "candidates": []
  },
  {
   "company": "AtmoCooling",
@@ -4227,32 +4127,6 @@
   ]
  },
  {
-  "company": "BlackSea Technologies",
-  "checked": "2026-11-02",
-  "site": {
-   "reachable": true,
-   "careers_pages": [
-    "https://aevex.com/careers/",
-    "https://aevex.com/careers/"
-   ],
-   "jsonld": false,
-   "unsupported": [],
-   "pages_scanned": 3
-  },
-  "candidates": [
-   {
-    "platform": "greenhouse",
-    "slug": "aevexaerospace",
-    "confidence": "high",
-    "how": "link",
-    "evidence": "https://aevex.com/careers/",
-    "jobs_seen": 66,
-    "org": "AEVEX",
-    "reason": "own-site"
-   }
-  ]
- },
- {
   "company": "Blackshark.ai",
   "checked": "2026-10-15",
   "site": {
@@ -4529,20 +4403,6 @@
     "reason": "board not found"
    }
   ]
- },
- {
-  "company": "BotBuilt",
-  "checked": "2026-11-02",
-  "site": {
-   "reachable": true,
-   "careers_pages": [
-    "https://botbuilt.com/careers/"
-   ],
-   "jsonld": false,
-   "unsupported": [],
-   "pages_scanned": 2
-  },
-  "candidates": []
  },
  {
   "company": "Bountiful",
@@ -5543,11 +5403,6 @@
   ]
  },
  {
-  "company": "Carbyon",
-  "checked": "2026-09-25",
-  "candidates": []
- },
- {
   "company": "Cascade Space",
   "checked": "2026-11-02",
   "site": {
@@ -6049,20 +5904,6 @@
    "jsonld": false,
    "unsupported": [],
    "pages_scanned": 2
-  },
-  "candidates": []
- },
- {
-  "company": "Classiq",
-  "checked": "2026-11-02",
-  "site": {
-   "reachable": true,
-   "careers_pages": [
-    "https://www.classiq.io/careers-page"
-   ],
-   "jsonld": true,
-   "unsupported": [],
-   "pages_scanned": 3
   },
   "candidates": []
  },
@@ -8239,18 +8080,6 @@
   "candidates": []
  },
  {
-  "company": "Dragonfly Aerospace",
-  "checked": "2026-11-02",
-  "site": {
-   "reachable": false,
-   "careers_pages": [],
-   "jsonld": false,
-   "unsupported": [],
-   "pages_scanned": 0
-  },
-  "candidates": []
- },
- {
   "company": "Dream Security",
   "checked": "2026-11-02",
   "site": {
@@ -8288,21 +8117,6 @@
     "reason": "own-site"
    }
   ]
- },
- {
-  "company": "DroneForge",
-  "checked": "2026-11-02",
-  "site": {
-   "reachable": true,
-   "careers_pages": [
-    "https://thedroneforge.com/careers",
-    "https://thedroneforge.com/jobs"
-   ],
-   "jsonld": false,
-   "unsupported": [],
-   "pages_scanned": 3
-  },
-  "candidates": []
  },
  {
   "company": "DroneShield",
@@ -8999,26 +8813,6 @@
    "pages_scanned": 4
   },
   "candidates": []
- },
- {
-  "company": "Echodyne",
-  "checked": "2026-09-26",
-  "candidates": [
-   {
-    "platform": "greenhouse",
-    "slug": "echodynecorp",
-    "confidence": "high",
-    "evidence": "https://echodyne.com/careers",
-    "jobs_seen": 57
-   },
-   {
-    "platform": "greenhouse",
-    "slug": "echodynecorp",
-    "confidence": "high",
-    "evidence": "https://echodyne.com/careers",
-    "jobs_seen": 57
-   }
-  ]
  },
  {
   "company": "Eclipse Space",
@@ -9790,11 +9584,6 @@
   "candidates": []
  },
  {
-  "company": "Exolaunch",
-  "checked": "2026-09-25",
-  "candidates": []
- },
- {
   "company": "Exotec",
   "checked": "2026-11-02",
   "site": {
@@ -9934,20 +9723,6 @@
     "reason": "no name/domain match in postings"
    }
   ]
- },
- {
-  "company": "Fergani Space",
-  "checked": "2026-11-02",
-  "site": {
-   "reachable": true,
-   "careers_pages": [
-    "https://kariyer.ferganispace.com/en/"
-   ],
-   "jsonld": false,
-   "unsupported": [],
-   "pages_scanned": 5
-  },
-  "candidates": []
  },
  {
   "company": "Field AI",
@@ -12306,11 +12081,6 @@
     "reason": "own-site"
    }
   ]
- },
- {
-  "company": "Hailo",
-  "checked": "2026-09-25",
-  "candidates": []
  },
  {
   "company": "Halo",
@@ -14850,21 +14620,6 @@
   "candidates": []
  },
  {
-  "company": "Lightmill",
-  "checked": "2026-11-02",
-  "site": {
-   "reachable": true,
-   "careers_pages": [
-    "https://www.lightmill.us/careers",
-    "https://www.lightmill.us/jobs"
-   ],
-   "jsonld": false,
-   "unsupported": [],
-   "pages_scanned": 3
-  },
-  "candidates": []
- },
- {
   "company": "Lightship",
   "checked": "2026-09-25",
   "candidates": [
@@ -15377,18 +15132,6 @@
     "reason": "org 'MBRYONICS Careers' is the name"
    }
   ]
- },
- {
-  "company": "MIFTI Fusion",
-  "checked": "2026-11-02",
-  "site": {
-   "reachable": true,
-   "careers_pages": [],
-   "jsonld": false,
-   "unsupported": [],
-   "pages_scanned": 1
-  },
-  "candidates": []
  },
  {
   "company": "Mach Industries",
@@ -16008,26 +15751,6 @@
   ]
  },
  {
-  "company": "Mesh Optical Technologies",
-  "checked": "2026-09-26",
-  "candidates": [
-   {
-    "platform": "greenhouse",
-    "slug": "meshopticaltechnologies",
-    "confidence": "high",
-    "evidence": "https://www.meshoptical.com",
-    "jobs_seen": 29
-   },
-   {
-    "platform": "greenhouse",
-    "slug": "meshopticaltechnologies",
-    "confidence": "high",
-    "evidence": "https://www.meshoptical.com",
-    "jobs_seen": 29
-   }
-  ]
- },
- {
   "company": "Meter",
   "checked": "2026-09-26",
   "candidates": [
@@ -16250,18 +15973,6 @@
     "reason": "own-site"
    }
   ]
- },
- {
-  "company": "Modular Genetics",
-  "checked": "2026-11-02",
-  "site": {
-   "reachable": true,
-   "careers_pages": [],
-   "jsonld": false,
-   "unsupported": [],
-   "pages_scanned": 1
-  },
-  "candidates": []
  },
  {
   "company": "Mojo Vision",
@@ -17213,29 +16924,6 @@
    "pages_scanned": 2
   },
   "candidates": []
- },
- {
-  "company": "Nascent Materials",
-  "checked": "2026-11-02",
-  "site": {
-   "reachable": true,
-   "careers_pages": [],
-   "jsonld": false,
-   "unsupported": [],
-   "pages_scanned": 1
-  },
-  "candidates": [
-   {
-    "platform": "ashby",
-    "slug": "nascent",
-    "confidence": "rejected",
-    "how": "previous",
-    "evidence": "https://jobs.ashbyhq.com/nascent/36bd799c-d80c-4e65-bf50-a1bfd82efb79",
-    "jobs_seen": 3,
-    "org": "Nascent Jobs",
-    "reason": "org 'Nascent Jobs' is part of the name, but posting never mentions 'materials'"
-   }
-  ]
  },
  {
   "company": "Natilus",
@@ -20218,18 +19906,6 @@
   ]
  },
  {
-  "company": "Numenor Maritime",
-  "checked": "2026-11-02",
-  "site": {
-   "reachable": true,
-   "careers_pages": [],
-   "jsonld": false,
-   "unsupported": [],
-   "pages_scanned": 1
-  },
-  "candidates": []
- },
- {
   "company": "Nuvacore",
   "checked": "2026-09-26",
   "candidates": [
@@ -20770,19 +20446,6 @@
     "confidence": "high",
     "evidence": "https://jobs.lever.co/orbitalsidekick/4b790a87-4cd3-4f71-a237-46e7fd634ba4",
     "jobs_seen": 2
-   }
-  ]
- },
- {
-  "company": "Orchard Robotics",
-  "checked": "2026-09-26",
-  "candidates": [
-   {
-    "platform": "ashby",
-    "slug": "orchard",
-    "confidence": "high",
-    "evidence": "https://www.orchard.ai/careers",
-    "jobs_seen": 25
    }
   ]
  },
@@ -23344,18 +23007,6 @@
   "candidates": []
  },
  {
-  "company": "Radify Metals",
-  "checked": "2026-11-02",
-  "site": {
-   "reachable": true,
-   "careers_pages": [],
-   "jsonld": false,
-   "unsupported": [],
-   "pages_scanned": 1
-  },
-  "candidates": []
- },
- {
   "company": "Rain Industries",
   "checked": "2026-11-02",
   "site": {
@@ -24307,19 +23958,6 @@
     "confidence": "high",
     "evidence": "https://rugged-robotics.com/careers",
     "jobs_seen": 1
-   }
-  ]
- },
- {
-  "company": "Rune Technologies",
-  "checked": "2026-09-25",
-  "candidates": [
-   {
-    "platform": "ashby",
-    "slug": "runetech",
-    "confidence": "high",
-    "evidence": "https://jobs.ashbyhq.com/runetech/c0d33d4a-f322-4e81-a814-64306038b467",
-    "jobs_seen": 17
    }
   ]
  },
@@ -26876,32 +26514,6 @@
   "company": "Stratek Global",
   "checked": "2026-09-25",
   "candidates": []
- },
- {
-  "company": "Stratolaunch",
-  "checked": "2026-09-26",
-  "candidates": [
-   {
-    "platform": "greenhouse",
-    "slug": "stratolaunch",
-    "confidence": "high",
-    "evidence": "https://job-boards.greenhouse.io/stratolaunch/jobs/5433491008",
-    "jobs_seen": 56
-   }
-  ]
- },
- {
-  "company": "Stratum AI",
-  "checked": "2026-09-26",
-  "candidates": [
-   {
-    "platform": "ashby",
-    "slug": "stratum-ai",
-    "confidence": "high",
-    "evidence": "https://stratum.gs/careers",
-    "jobs_seen": 11
-   }
-  ]
  },
  {
   "company": "Strider Technologies",

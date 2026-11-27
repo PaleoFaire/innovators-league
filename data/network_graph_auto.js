@@ -219,11 +219,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": "nuclear-smr-advanced"
     },
     {
-      "id": "Lightmill",
-      "sector": "Robotics & Manufacturing",
-      "thesisCluster": "manufacturing-reshoring"
-    },
-    {
       "id": "Nine Fives",
       "sector": "Chips & Semiconductors",
       "thesisCluster": "hardware-test-equipment"
@@ -904,11 +899,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": "electrolysis-green-hydrogen"
     },
     {
-      "id": "Claros",
-      "sector": "Climate & Energy",
-      "thesisCluster": "data-center-infrastructure"
-    },
-    {
       "id": "Zipline",
       "sector": "Drones & Autonomous",
       "thesisCluster": "autonomy-delivery-logistics"
@@ -1062,11 +1052,6 @@ const NETWORK_GRAPH_AUTO = {
       "id": "Zeromark",
       "sector": "Defense & Security",
       "thesisCluster": "autonomy-counter-drone"
-    },
-    {
-      "id": "Rune Technologies",
-      "sector": "Defense & Security",
-      "thesisCluster": "ai-defense-intelligence"
     },
     {
       "id": "Biofire",
@@ -1979,11 +1964,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": "space-launch-small-intl"
     },
     {
-      "id": "Dragonfly Aerospace",
-      "sector": "Space & Aerospace",
-      "thesisCluster": "satellite-earth-observation"
-    },
-    {
       "id": "Solinftec",
       "sector": "Robotics & Manufacturing",
       "thesisCluster": "robotics-agriculture"
@@ -2017,11 +1997,6 @@ const NETWORK_GRAPH_AUTO = {
       "id": "Deep Isolation",
       "sector": "Nuclear Energy",
       "thesisCluster": "nuclear-services-fuel"
-    },
-    {
-      "id": "Naïo Technologies",
-      "sector": "Robotics & Manufacturing",
-      "thesisCluster": "robotics-agriculture"
     },
     {
       "id": "Delian Alliance Industries",
@@ -2069,11 +2044,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": "biotech-lab-automation"
     },
     {
-      "id": "AiDash",
-      "sector": "Infrastructure & Logistics",
-      "thesisCluster": "ai-computer-vision-sensing"
-    },
-    {
       "id": "Pano AI",
       "sector": "Climate & Energy",
       "thesisCluster": "ai-computer-vision-sensing"
@@ -2097,11 +2067,6 @@ const NETWORK_GRAPH_AUTO = {
       "id": "Starpath Robotics",
       "sector": "Space & Aerospace",
       "thesisCluster": "space-lunar-planetary"
-    },
-    {
-      "id": "DroneForge",
-      "sector": "Drones & Autonomous",
-      "thesisCluster": "autonomy-drone-military"
     },
     {
       "id": "Built Robotics",
@@ -2594,11 +2559,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": "battery-advanced-chemistry"
     },
     {
-      "id": "Nascent Materials",
-      "sector": "Climate & Energy",
-      "thesisCluster": "battery-advanced-chemistry"
-    },
-    {
       "id": "Freeform",
       "sector": "Robotics & Manufacturing",
       "thesisCluster": "additive-manufacturing"
@@ -3019,11 +2979,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": "autonomous-logistics"
     },
     {
-      "id": "BotBuilt",
-      "sector": "Housing & Construction",
-      "thesisCluster": "construction-robotics"
-    },
-    {
       "id": "Precision AI",
       "sector": "Drones & Autonomous",
       "thesisCluster": "precision-agriculture"
@@ -3200,11 +3155,6 @@ const NETWORK_GRAPH_AUTO = {
     },
     {
       "id": "HyImpulse",
-      "sector": "Space & Aerospace",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Exolaunch",
       "sector": "Space & Aerospace",
       "thesisCluster": ""
     },
@@ -3534,11 +3484,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": "battery-chemistry"
     },
     {
-      "id": "Carbyon",
-      "sector": "Climate & Energy",
-      "thesisCluster": "direct-air-capture"
-    },
-    {
       "id": "Synspective",
       "sector": "Space & Aerospace",
       "thesisCluster": "sar-satellites"
@@ -3719,11 +3664,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": "agri-autonomy"
     },
     {
-      "id": "Greenroom Robotics",
-      "sector": "Defense & Security",
-      "thesisCluster": "maritime-autonomy"
-    },
-    {
       "id": "Cortical Labs",
       "sector": "AI & Software",
       "thesisCluster": "bio-compute"
@@ -3764,11 +3704,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": "neutral-atom-quantum"
     },
     {
-      "id": "Classiq",
-      "sector": "Quantum Computing",
-      "thesisCluster": "quantum-software"
-    },
-    {
       "id": "Majestic Labs",
       "sector": "Chips & Semiconductors",
       "thesisCluster": "disaggregated-ai"
@@ -3777,11 +3712,6 @@ const NETWORK_GRAPH_AUTO = {
       "id": "Speedata",
       "sector": "Chips & Semiconductors",
       "thesisCluster": "analytics-silicon"
-    },
-    {
-      "id": "Hailo",
-      "sector": "Chips & Semiconductors",
-      "thesisCluster": "edge-ai-silicon"
     },
     {
       "id": "H2Pro",
@@ -3824,19 +3754,9 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": "uae-sovereign-space"
     },
     {
-      "id": "ADASI",
-      "sector": "Defense & Security",
-      "thesisCluster": "uae-defense"
-    },
-    {
       "id": "Baykar",
       "sector": "Defense & Security",
       "thesisCluster": "combat-drones"
-    },
-    {
-      "id": "Fergani Space",
-      "sector": "Space & Aerospace",
-      "thesisCluster": "turkish-space"
     },
     {
       "id": "Tritone Technologies",
@@ -4169,11 +4089,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": "space-maneuverability"
     },
     {
-      "id": "Stratolaunch",
-      "sector": "Space & Aerospace",
-      "thesisCluster": "hypersonic-testbed"
-    },
-    {
       "id": "Scout Space",
       "sector": "Space & Aerospace",
       "thesisCluster": "space-ssa"
@@ -4336,11 +4251,6 @@ const NETWORK_GRAPH_AUTO = {
     {
       "id": "Caelux",
       "sector": "Climate & Energy",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Echodyne",
-      "sector": "Defense & Security",
       "thesisCluster": ""
     },
     {
@@ -4544,11 +4454,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": ""
     },
     {
-      "id": "Mesh Optical Technologies",
-      "sector": "Chips & Semiconductors",
-      "thesisCluster": ""
-    },
-    {
       "id": "Periodic Labs",
       "sector": "AI & Software",
       "thesisCluster": ""
@@ -4634,11 +4539,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": ""
     },
     {
-      "id": "BlackSea Technologies",
-      "sector": "Defense & Security",
-      "thesisCluster": ""
-    },
-    {
       "id": "HawkEye 360",
       "sector": "Space & Aerospace",
       "thesisCluster": ""
@@ -4696,11 +4596,6 @@ const NETWORK_GRAPH_AUTO = {
     {
       "id": "Maritime Fusion",
       "sector": "Nuclear Energy",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Atmo",
-      "sector": "AI & Software",
       "thesisCluster": ""
     },
     {
@@ -4934,11 +4829,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": ""
     },
     {
-      "id": "Alif Semiconductor",
-      "sector": "Chips & Semiconductors",
-      "thesisCluster": ""
-    },
-    {
       "id": "Aigen",
       "sector": "Robotics & Manufacturing",
       "thesisCluster": ""
@@ -4966,16 +4856,6 @@ const NETWORK_GRAPH_AUTO = {
     {
       "id": "Inari",
       "sector": "Biotech & Health",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Ample",
-      "sector": "Climate & Energy",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Wisk Aero",
-      "sector": "Space & Aerospace",
       "thesisCluster": ""
     },
     {
@@ -5224,16 +5104,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": ""
     },
     {
-      "id": "Orchard Robotics",
-      "sector": "Robotics & Manufacturing",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Electric Sheep",
-      "sector": "Robotics & Manufacturing",
-      "thesisCluster": ""
-    },
-    {
       "id": "Dimensional Energy",
       "sector": "Climate & Energy",
       "thesisCluster": ""
@@ -5414,11 +5284,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": ""
     },
     {
-      "id": "Modular Genetics",
-      "sector": "Biotech & Health",
-      "thesisCluster": ""
-    },
-    {
       "id": "VVater",
       "sector": "Climate & Energy",
       "thesisCluster": ""
@@ -5469,21 +5334,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": ""
     },
     {
-      "id": "Ghost Robotics",
-      "sector": "Defense & Security",
-      "thesisCluster": ""
-    },
-    {
-      "id": "ADMARES",
-      "sector": "Housing & Construction",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Stratum AI",
-      "sector": "Climate & Energy",
-      "thesisCluster": ""
-    },
-    {
       "id": "Aleph Surgical",
       "sector": "Biotech & Health",
       "thesisCluster": ""
@@ -5491,11 +5341,6 @@ const NETWORK_GRAPH_AUTO = {
     {
       "id": "Ark Electronics",
       "sector": "Robotics & Manufacturing",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Arxlight",
-      "sector": "Defense & Security",
       "thesisCluster": ""
     },
     {
@@ -5591,11 +5436,6 @@ const NETWORK_GRAPH_AUTO = {
     {
       "id": "Perseus Defense",
       "sector": "Defense & Security",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Radify Metals",
-      "sector": "Robotics & Manufacturing",
       "thesisCluster": ""
     },
     {
@@ -5794,16 +5634,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": ""
     },
     {
-      "id": "Numenor Maritime",
-      "sector": "Defense & Security",
-      "thesisCluster": ""
-    },
-    {
-      "id": "MIFTI Fusion",
-      "sector": "Nuclear Energy",
-      "thesisCluster": ""
-    },
-    {
       "id": "Gridraven",
       "sector": "Climate & Energy",
       "thesisCluster": ""
@@ -5991,11 +5821,6 @@ const NETWORK_GRAPH_AUTO = {
     {
       "id": "Riven Systems",
       "sector": "Climate & Energy",
-      "thesisCluster": ""
-    },
-    {
-      "id": "Fauna Robotics",
-      "sector": "Robotics & Manufacturing",
       "thesisCluster": ""
     },
     {
@@ -6864,11 +6689,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": ""
     },
     {
-      "id": "Polarium",
-      "sector": "Climate & Energy",
-      "thesisCluster": ""
-    },
-    {
       "id": "Ohmium",
       "sector": "Climate & Energy",
       "thesisCluster": ""
@@ -7621,11 +7441,6 @@ const NETWORK_GRAPH_AUTO = {
       "type": "competitor"
     },
     {
-      "src": "Auterion",
-      "dst": "DroneForge",
-      "type": "competitor"
-    },
-    {
       "src": "Dexterity",
       "dst": "Nimble Robotics",
       "type": "competitor"
@@ -7977,11 +7792,6 @@ const NETWORK_GRAPH_AUTO = {
     },
     {
       "src": "DEEPX",
-      "dst": "Hailo",
-      "type": "competitor"
-    },
-    {
-      "src": "DEEPX",
       "dst": "SiMa.ai",
       "type": "competitor"
     },
@@ -8018,11 +7828,6 @@ const NETWORK_GRAPH_AUTO = {
     {
       "src": "Palantir",
       "dst": "Strider Technologies",
-      "type": "competitor"
-    },
-    {
-      "src": "Hailo",
-      "dst": "Mythic",
       "type": "competitor"
     },
     {
@@ -8096,11 +7901,6 @@ const NETWORK_GRAPH_AUTO = {
       "type": "competitor"
     },
     {
-      "src": "Radian Aerospace",
-      "dst": "Stratolaunch",
-      "type": "competitor"
-    },
-    {
       "src": "Lunar Outpost",
       "dst": "ispace",
       "type": "competitor"
@@ -8143,11 +7943,6 @@ const NETWORK_GRAPH_AUTO = {
     {
       "src": "Natilus",
       "dst": "Reliable Robotics",
-      "type": "competitor"
-    },
-    {
-      "src": "BotBuilt",
-      "dst": "ICON",
       "type": "competitor"
     },
     {
@@ -8612,12 +8407,6 @@ const NETWORK_GRAPH_AUTO = {
       "cluster": "ai-defense-intelligence"
     },
     {
-      "src": "Rune Technologies",
-      "dst": "Vannevar Labs",
-      "type": "thesis",
-      "cluster": "ai-defense-intelligence"
-    },
-    {
       "src": "Helsing",
       "dst": "Vannevar Labs",
       "type": "thesis",
@@ -8642,12 +8431,6 @@ const NETWORK_GRAPH_AUTO = {
       "cluster": "ai-defense-intelligence"
     },
     {
-      "src": "Reveal Technology",
-      "dst": "Rune Technologies",
-      "type": "thesis",
-      "cluster": "ai-defense-intelligence"
-    },
-    {
       "src": "Helsing",
       "dst": "Reveal Technology",
       "type": "thesis",
@@ -8674,36 +8457,6 @@ const NETWORK_GRAPH_AUTO = {
     {
       "src": "Parry Labs",
       "dst": "Reveal Technology",
-      "type": "thesis",
-      "cluster": "ai-defense-intelligence"
-    },
-    {
-      "src": "Helsing",
-      "dst": "Rune Technologies",
-      "type": "thesis",
-      "cluster": "ai-defense-intelligence"
-    },
-    {
-      "src": "Rune Technologies",
-      "dst": "Second Front Systems",
-      "type": "thesis",
-      "cluster": "ai-defense-intelligence"
-    },
-    {
-      "src": "Primer AI",
-      "dst": "Rune Technologies",
-      "type": "thesis",
-      "cluster": "ai-defense-intelligence"
-    },
-    {
-      "src": "Modern Intelligence",
-      "dst": "Rune Technologies",
-      "type": "thesis",
-      "cluster": "ai-defense-intelligence"
-    },
-    {
-      "src": "Parry Labs",
-      "dst": "Rune Technologies",
       "type": "thesis",
       "cluster": "ai-defense-intelligence"
     },
@@ -10784,12 +10537,6 @@ const NETWORK_GRAPH_AUTO = {
       "cluster": "robotics-agriculture"
     },
     {
-      "src": "Naïo Technologies",
-      "dst": "Shinkei",
-      "type": "thesis",
-      "cluster": "robotics-agriculture"
-    },
-    {
       "src": "Carbon Robotics",
       "dst": "Tevel Aerobotics",
       "type": "thesis",
@@ -10798,30 +10545,12 @@ const NETWORK_GRAPH_AUTO = {
     {
       "src": "Carbon Robotics",
       "dst": "Solinftec",
-      "type": "thesis",
-      "cluster": "robotics-agriculture"
-    },
-    {
-      "src": "Carbon Robotics",
-      "dst": "Naïo Technologies",
       "type": "thesis",
       "cluster": "robotics-agriculture"
     },
     {
       "src": "Solinftec",
       "dst": "Tevel Aerobotics",
-      "type": "thesis",
-      "cluster": "robotics-agriculture"
-    },
-    {
-      "src": "Naïo Technologies",
-      "dst": "Tevel Aerobotics",
-      "type": "thesis",
-      "cluster": "robotics-agriculture"
-    },
-    {
-      "src": "Naïo Technologies",
-      "dst": "Solinftec",
       "type": "thesis",
       "cluster": "robotics-agriculture"
     },
@@ -11126,12 +10855,6 @@ const NETWORK_GRAPH_AUTO = {
       "cluster": "battery-advanced-chemistry"
     },
     {
-      "src": "Form Energy",
-      "dst": "Nascent Materials",
-      "type": "thesis",
-      "cluster": "battery-advanced-chemistry"
-    },
-    {
       "src": "QuantumScape",
       "dst": "Verkor",
       "type": "thesis",
@@ -11156,12 +10879,6 @@ const NETWORK_GRAPH_AUTO = {
       "cluster": "battery-advanced-chemistry"
     },
     {
-      "src": "Nascent Materials",
-      "dst": "Verkor",
-      "type": "thesis",
-      "cluster": "battery-advanced-chemistry"
-    },
-    {
       "src": "Ouros Energy",
       "dst": "QuantumScape",
       "type": "thesis",
@@ -11169,12 +10886,6 @@ const NETWORK_GRAPH_AUTO = {
     },
     {
       "src": "Forge Nano",
-      "dst": "QuantumScape",
-      "type": "thesis",
-      "cluster": "battery-advanced-chemistry"
-    },
-    {
-      "src": "Nascent Materials",
       "dst": "QuantumScape",
       "type": "thesis",
       "cluster": "battery-advanced-chemistry"
@@ -11192,26 +10903,8 @@ const NETWORK_GRAPH_AUTO = {
       "cluster": "battery-advanced-chemistry"
     },
     {
-      "src": "Nascent Materials",
-      "dst": "Solid Power",
-      "type": "thesis",
-      "cluster": "battery-advanced-chemistry"
-    },
-    {
       "src": "Forge Nano",
       "dst": "Ouros Energy",
-      "type": "thesis",
-      "cluster": "battery-advanced-chemistry"
-    },
-    {
-      "src": "Nascent Materials",
-      "dst": "Ouros Energy",
-      "type": "thesis",
-      "cluster": "battery-advanced-chemistry"
-    },
-    {
-      "src": "Forge Nano",
-      "dst": "Nascent Materials",
       "type": "thesis",
       "cluster": "battery-advanced-chemistry"
     },
@@ -11396,12 +11089,6 @@ const NETWORK_GRAPH_AUTO = {
       "cluster": "robotics-construction-mining"
     },
     {
-      "src": "AiDash",
-      "dst": "Flock Safety",
-      "type": "thesis",
-      "cluster": "ai-computer-vision-sensing"
-    },
-    {
       "src": "Flock Safety",
       "dst": "Pano AI",
       "type": "thesis",
@@ -11433,42 +11120,6 @@ const NETWORK_GRAPH_AUTO = {
     },
     {
       "src": "Flock Safety",
-      "dst": "Voyant Photonics",
-      "type": "thesis",
-      "cluster": "ai-computer-vision-sensing"
-    },
-    {
-      "src": "AiDash",
-      "dst": "Pano AI",
-      "type": "thesis",
-      "cluster": "ai-computer-vision-sensing"
-    },
-    {
-      "src": "AiDash",
-      "dst": "Floodbase",
-      "type": "thesis",
-      "cluster": "ai-computer-vision-sensing"
-    },
-    {
-      "src": "AiDash",
-      "dst": "Lumotive",
-      "type": "thesis",
-      "cluster": "ai-computer-vision-sensing"
-    },
-    {
-      "src": "AiDash",
-      "dst": "Ouster",
-      "type": "thesis",
-      "cluster": "ai-computer-vision-sensing"
-    },
-    {
-      "src": "Aeva Technologies",
-      "dst": "AiDash",
-      "type": "thesis",
-      "cluster": "ai-computer-vision-sensing"
-    },
-    {
-      "src": "AiDash",
       "dst": "Voyant Photonics",
       "type": "thesis",
       "cluster": "ai-computer-vision-sensing"
@@ -12032,20 +11683,8 @@ const NETWORK_GRAPH_AUTO = {
       "cluster": "defense-munitions"
     },
     {
-      "src": "BotBuilt",
-      "dst": "Rugged Robotics",
-      "type": "thesis",
-      "cluster": "construction-robotics"
-    },
-    {
       "src": "Apis Cor",
       "dst": "Rugged Robotics",
-      "type": "thesis",
-      "cluster": "construction-robotics"
-    },
-    {
-      "src": "Apis Cor",
-      "dst": "BotBuilt",
       "type": "thesis",
       "cluster": "construction-robotics"
     },
@@ -12164,12 +11803,6 @@ const NETWORK_GRAPH_AUTO = {
       "cluster": "synthetic-training"
     },
     {
-      "src": "Carbyon",
-      "dst": "Mission Zero Technologies",
-      "type": "thesis",
-      "cluster": "direct-air-capture"
-    },
-    {
       "src": "H2Pro",
       "dst": "Hystar",
       "type": "thesis",
@@ -12177,18 +11810,6 @@ const NETWORK_GRAPH_AUTO = {
     },
     {
       "src": "Axelera AI",
-      "dst": "Hailo",
-      "type": "thesis",
-      "cluster": "edge-ai-silicon"
-    },
-    {
-      "src": "Axelera AI",
-      "dst": "Kneron",
-      "type": "thesis",
-      "cluster": "edge-ai-silicon"
-    },
-    {
-      "src": "Hailo",
       "dst": "Kneron",
       "type": "thesis",
       "cluster": "edge-ai-silicon"
@@ -12230,18 +11851,6 @@ const NETWORK_GRAPH_AUTO = {
       "cluster": "quantum-software"
     },
     {
-      "src": "Classiq",
-      "dst": "QunaSys",
-      "type": "thesis",
-      "cluster": "quantum-software"
-    },
-    {
-      "src": "Classiq",
-      "dst": "Qedma",
-      "type": "thesis",
-      "cluster": "quantum-software"
-    },
-    {
       "src": "Digantara",
       "dst": "Vyoma",
       "type": "thesis",
@@ -12258,12 +11867,6 @@ const NETWORK_GRAPH_AUTO = {
       "dst": "Vyoma",
       "type": "thesis",
       "cluster": "space-ssa"
-    },
-    {
-      "src": "Greenroom Robotics",
-      "dst": "Sagar Defence Engineering",
-      "type": "thesis",
-      "cluster": "maritime-autonomy"
     },
     {
       "src": "Mindgrove Technologies",

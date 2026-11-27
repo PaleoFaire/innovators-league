@@ -593,16 +593,6 @@
             "cybersecurity",
             "critical"
           ]
-        },
-        {
-          "company": "AiDash",
-          "sector": "Infrastructure & Logistics",
-          "bid_fit_score": 10.8,
-          "matched_terms": [
-            "infrastructure",
-            "energy",
-            "critical"
-          ]
         }
       ],
       "bidFitSource": "TF-IDF across insight/description/thesisCluster"
@@ -846,16 +836,6 @@
             "maritime",
             "surface",
             "autonomous"
-          ]
-        },
-        {
-          "company": "BlackSea Technologies",
-          "sector": "Defense & Security",
-          "bid_fit_score": 24.4,
-          "matched_terms": [
-            "naval",
-            "maritime",
-            "defense"
           ]
         },
         {
