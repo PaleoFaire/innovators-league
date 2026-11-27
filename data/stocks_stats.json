@@ -9,15 +9,15 @@
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -8.47,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -7.13,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -0.05,
+      "avg_change": 3.85,
       "count": 7
     },
     "nuclear": {
@@ -39,9 +39,9 @@
       "count": 3
     },
     "biotech": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -7.15,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -5.48,
       "count": 3
     },
     "transportation": {
@@ -59,19 +59,19 @@
   },
   "topGainers": [
     [
-      "LNZA",
-      "LanzaTech",
-      12.88
-    ],
-    [
       "277810.KQ",
       "Rainbow Robotics",
-      9.75
+      30.15
     ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      7.26
+      14.17
+    ],
+    [
+      "LNZA",
+      "LanzaTech",
+      12.88
     ],
     [
       "PLTR",
@@ -79,9 +79,9 @@
       4.42
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      2.08
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      4.24
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -23.41
     ]
   ],
-  "lastUpdated": "2026-11-26 22:25:58"
+  "lastUpdated": "2026-11-27 09:44:20"
 }
