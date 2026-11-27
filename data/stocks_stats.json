@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 4.42,
+      "avg_change": 12.03,
       "count": 1
     },
     "space": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -7.13,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -0.87,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 3.85,
+      "gainers": 7,
+      "losers": 0,
+      "avg_change": 9.74,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -14.0,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -4.31,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -1.35,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -3.0,
       "count": 3
     },
     "quantum": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -4.82,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 6.49,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -5.48,
+      "avg_change": -0.8,
       "count": 3
     },
     "transportation": {
-      "gainers": 0,
-      "losers": 2,
-      "avg_change": -0.84,
+      "gainers": 2,
+      "losers": 0,
+      "avg_change": 7.36,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -12.23,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -4.13,
       "count": 3
     }
   },
@@ -66,50 +66,50 @@
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      14.17
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      12.88
+      13.9
     ],
     [
       "PLTR",
       "Palantir",
-      4.42
+      12.03
     ],
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      4.24
+      "IONQ",
+      "IonQ",
+      9.95
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      8.33
     ]
   ],
   "topLosers": [
     [
-      "SATL",
-      "Satellogic",
-      -12.78
+      "SLDP",
+      "Solid Power",
+      -4.67
     ],
     [
       "TEM",
       "Tempus AI",
-      -13.96
+      -6.21
     ],
     [
-      "NNE",
-      "Nano Nuclear Energy",
-      -14.44
+      "ASRHF",
+      "Astroscale",
+      -7.43
     ],
     [
       "SMR",
       "NuScale Power",
-      -16.88
+      -8.66
     ],
     [
       "AMD",
       "AMD",
-      -23.41
+      -13.22
     ]
   ],
-  "lastUpdated": "2026-11-27 09:44:20"
+  "lastUpdated": "2026-11-27 22:02:14"
 }
