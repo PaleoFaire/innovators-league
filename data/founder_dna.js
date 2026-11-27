@@ -7375,29 +7375,6 @@ const FOUNDER_DNA = [
     "sector": "Robotics & Manufacturing"
   },
   {
-    "company": "Swift Beat",
-    "founderCount": 1,
-    "teamStructure": "solo",
-    "founders": [
-      "Eric Schmidt"
-    ],
-    "mafiaConnections": [],
-    "mafiaCount": 0,
-    "serialFounders": [],
-    "hasSerialFounder": false,
-    "totalRaisedM": 50.0,
-    "capitalPerFounderM": 50.0,
-    "scores": {
-      "mafiaPedigree": 0,
-      "capitalEfficiency": 7,
-      "serialBonus": 0,
-      "teamSizeSignal": 6,
-      "teamPedigree": 9
-    },
-    "dnaScore": 46,
-    "sector": "Defense & Security"
-  },
-  {
     "company": "Starcloud",
     "founderCount": 3,
     "teamStructure": "trio",

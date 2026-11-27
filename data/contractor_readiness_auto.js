@@ -1055,22 +1055,6 @@ const CONTRACTOR_READINESS_AUTO = [
     "headcountFormatted": "1,929+"
   },
   {
-    "company": "Swift Beat",
-    "sector": "Defense & Security",
-    "readinessScore": 80,
-    "govTractionScore": 8,
-    "compositeScore": 83.0,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": false,
-      "itar_compliant": false,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
-  },
-  {
     "company": "Fortem Technologies",
     "sector": "Defense & Security",
     "readinessScore": 80,

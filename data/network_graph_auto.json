@@ -2326,11 +2326,6 @@
       "thesisCluster": "maritime-electric-transport"
     },
     {
-      "id": "Swift Beat",
-      "sector": "Defense & Security",
-      "thesisCluster": "autonomy-drone-military"
-    },
-    {
       "id": "Parry Labs",
       "sector": "Defense & Security",
       "thesisCluster": "ai-defense-intelligence"
@@ -7775,16 +7770,6 @@
     {
       "src": "Ocean Infinity",
       "dst": "Ulysses Robotics",
-      "type": "competitor"
-    },
-    {
-      "src": "Anduril Industries",
-      "dst": "Swift Beat",
-      "type": "competitor"
-    },
-    {
-      "src": "Shield AI",
-      "dst": "Swift Beat",
       "type": "competitor"
     },
     {

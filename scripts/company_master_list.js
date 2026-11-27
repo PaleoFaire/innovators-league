@@ -7,8 +7,8 @@
  * python3 scripts/sync_master_list.py (--check reports drift).
  *
  * Coverage: 100% of companies in data.js
- * Total companies: 1541
- * Last updated: 2026-11-26
+ * Total companies: 1540
+ * Last updated: 2026-11-27
  * 
  * Each company has:
  *   - name: Official company name
@@ -1048,7 +1048,6 @@ const MASTER_COMPANY_LIST = [
   { name: "Strider Technologies", aliases: ["StriderTechnologies"], sector: "defense", ticker: null },
   { name: "Supply Energetics", aliases: ["SupplyEnergetics"], sector: "defense", ticker: null },
   { name: "Swarmbotics AI", aliases: ["SwarmboticsAI", "Swarmbotics"], sector: "defense", ticker: null },
-  { name: "Swift Beat", aliases: ["SwiftBeat"], sector: "defense", ticker: null },
   { name: "Teradar", aliases: [], sector: "defense", ticker: null },
   { name: "Thermopylae Aerospace", aliases: ["ThermopylaeAerospace", "Thermopylae"], sector: "defense", ticker: null },
   { name: "Thor Dynamics", aliases: ["ThorDynamics"], sector: "defense", ticker: null },

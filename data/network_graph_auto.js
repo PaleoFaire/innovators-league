@@ -2329,11 +2329,6 @@ const NETWORK_GRAPH_AUTO = {
       "thesisCluster": "maritime-electric-transport"
     },
     {
-      "id": "Swift Beat",
-      "sector": "Defense & Security",
-      "thesisCluster": "autonomy-drone-military"
-    },
-    {
       "id": "Parry Labs",
       "sector": "Defense & Security",
       "thesisCluster": "ai-defense-intelligence"
@@ -7778,16 +7773,6 @@ const NETWORK_GRAPH_AUTO = {
     {
       "src": "Ocean Infinity",
       "dst": "Ulysses Robotics",
-      "type": "competitor"
-    },
-    {
-      "src": "Anduril Industries",
-      "dst": "Swift Beat",
-      "type": "competitor"
-    },
-    {
-      "src": "Shield AI",
-      "dst": "Swift Beat",
       "type": "competitor"
     },
     {

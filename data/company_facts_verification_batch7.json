@@ -3363,62 +3363,6 @@
       "notes": "Source [0] is company website only; does not contain information about founders, location, founding year, funding stage, total raised, or investors. Database entry references Jason Lu & Cat Orman as founders and $5M+ raised, but these cannot be verified from provided sources."
     },
     {
-      "name": "Swift Beat",
-      "current": {
-        "name": "Swift Beat",
-        "founder": "Eric Schmidt",
-        "location": "Palo Alto, CA",
-        "founded": 2022,
-        "fundingStage": "Series A",
-        "totalRaised": "$50M+",
-        "website": null
-      },
-      "verified": {
-        "name": "Swift Beat",
-        "description": null,
-        "founders": null,
-        "location": null,
-        "founded_year": null,
-        "current_stage": null,
-        "total_raised": null,
-        "valuation": null,
-        "investors": null,
-        "website": "https://swiftbeat.com",
-        "sources_per_field": {
-          "name": [
-            0
-          ],
-          "website": [
-            0
-          ]
-        },
-        "notes": "Company website provides only mission statement and generic descriptions. No specific founding year, founder names, funding stage, total raised, valuation, investor names, or location details are verifiable from the provided sources. Database entry claims cannot be verified against these sources."
-      },
-      "changes": [
-        {
-          "field": "website",
-          "current": "",
-          "verified": "https://swiftbeat.com",
-          "sources": [
-            0
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "idx": 0,
-          "src": "company_website",
-          "url": "https://swiftbeat.com"
-        },
-        {
-          "idx": 1,
-          "src": "company_about",
-          "url": "https://swiftbeat.com/about"
-        }
-      ],
-      "notes": "Company website provides only mission statement and generic descriptions. No specific founding year, founder names, funding stage, total raised, valuation, investor names, or location details are verifiable from the provided sources. Database entry claims cannot be verified against these sources."
-    },
-    {
       "name": "Hexium",
       "current": {
         "name": "Hexium",

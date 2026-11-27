@@ -193,6 +193,8 @@ EXCLUDE = {
     # Cut 2026-10-07 after the high-bar audit (no funding, top fund or contracts on record);
     # never re-queue them. Restore with scripts/restore_cut_company.py.
     "becoming", "firmapower", "mithrilmining", "pathpower", "pilaenergy", "voltra", "wetstone", "determinantmaterials", "stonepower", "adastraskysupply", "airrow", "bohrsystems", "brynhildindustries", "dispatcher", "lodgesystems", "maritimeoperationsgroup", "notusautonomoussystems", "ornadyne", "rebelspace", "revere", "victustechnologies", "vight", "deepatomic", "zephyrfusion", "deepwaterexploration", "athanor", "atopile", "axialcomposites", "digichem", "drafter", "frameworkautomation", "grainweevil", "krevera", "mbodiai", "octavia", "radianforge", "robotwin", "vuecason", "xenops", "epicaerospace", "gru", "floatcargo", "sysgit", "obsidiasemiconductor", "photonium", "guardianrf", "splashindustries", "astrolight", "thespaceportcompany", "maymanaerospace", "arkrobotics", "nordicairdefence", "rmfg", "tobeenergy", "soaring", "aibot", "kytedynamics", "createme", "parityqc", "noblemachines",
+    # Merged 2026-11-27 into Perennial Autonomy (duplicate record); never re-queue it.
+    "swiftbeat",
 }
 
 SUFFIX = re.compile(

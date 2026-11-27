@@ -238,15 +238,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Swift Beat",
-        "score": 32,
-        "matchReasons": [
-          "tag: ai",
-          "tag: defense",
-          "cluster: autonomy-drone-military"
-        ]
-      },
-      {
         "name": "Andrenam",
         "score": 29,
         "matchReasons": [
@@ -265,7 +256,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Delian Alliance Industries",
       "Firestorm Labs",
       "Swarm Aero",
-      "Swift Beat",
       "Andrenam"
     ]
   },
@@ -862,14 +852,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Swift Beat",
-        "score": 22,
-        "matchReasons": [
-          "tag: ai",
-          "tag: defense"
-        ]
-      },
-      {
         "name": "Physical Intelligence",
         "score": 20,
         "matchReasons": [
@@ -894,7 +876,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Overland AI",
       "Anduril Industries",
       "Shield AI",
-      "Swift Beat",
       "Physical Intelligence",
       "Palantir"
     ]
@@ -990,14 +971,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Swift Beat",
-        "score": 22,
-        "matchReasons": [
-          "tag: ai",
-          "tag: defense"
-        ]
-      },
-      {
         "name": "Primer AI",
         "score": 21,
         "matchReasons": [
@@ -1015,7 +988,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Anduril Industries",
       "Zeromark",
       "Fuse Energy",
-      "Swift Beat",
       "Primer AI"
     ]
   },
@@ -1117,14 +1089,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: defense",
           "cluster: defense-ew-rf-cyber"
         ]
-      },
-      {
-        "name": "Swift Beat",
-        "score": 22,
-        "matchReasons": [
-          "tag: ai",
-          "tag: defense"
-        ]
       }
     ],
     "relevantCompanies": [
@@ -1136,8 +1100,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Anduril Industries",
       "Palantir",
       "Theseus",
-      "Kela",
-      "Swift Beat"
+      "Kela"
     ]
   },
   {
@@ -2642,13 +2605,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         "matchReasons": [
           "tag: autonomous"
         ]
-      },
-      {
-        "name": "Swift Beat",
-        "score": 17,
-        "matchReasons": [
-          "tag: ai"
-        ]
       }
     ],
     "relevantCompanies": [
@@ -2660,8 +2616,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Anduril Industries",
       "Shield AI",
       "Firestorm Labs",
-      "Quantum-Systems",
-      "Swift Beat"
+      "Quantum-Systems"
     ]
   },
   {
@@ -2858,14 +2813,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Swift Beat",
-        "score": 20,
-        "matchReasons": [
-          "tag: ai",
-          "tag: defense"
-        ]
-      },
-      {
         "name": "Tytan Technologies",
         "score": 20,
         "matchReasons": [
@@ -2883,7 +2830,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Parry Labs",
       "Zeromark",
       "Rune Technologies",
-      "Swift Beat",
       "Tytan Technologies"
     ]
   },
@@ -3742,14 +3688,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: ai",
           "tag: defense"
         ]
-      },
-      {
-        "name": "Swift Beat",
-        "score": 27,
-        "matchReasons": [
-          "tag: ai",
-          "tag: defense"
-        ]
       }
     ],
     "relevantCompanies": [
@@ -3761,8 +3699,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Anduril Industries",
       "Darkhive",
       "Firestorm Labs",
-      "Shield AI",
-      "Swift Beat"
+      "Shield AI"
     ]
   },
   {
@@ -3846,14 +3783,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Swift Beat",
-        "score": 21,
-        "matchReasons": [
-          "tag: ai",
-          "techApproach overlap"
-        ]
-      },
-      {
         "name": "Physical Intelligence",
         "score": 20,
         "matchReasons": [
@@ -3878,7 +3807,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Mujin",
       "Cohesive Robotics",
       "Seneca",
-      "Swift Beat",
       "Physical Intelligence",
       "Shinkei"
     ]
@@ -4369,24 +4297,6 @@ const GOV_PULL_SCORES_AUTO = {
     "topSignals": [
       "AI-Enabled Autonomous Naval Surface Vessels",
       "Undersea Autonomous Systems for ISR"
-    ]
-  },
-  "Swift Beat": {
-    "name": "Swift Beat",
-    "govPullScore": 76,
-    "matchCount": 8,
-    "topAgencies": [
-      "Chief Digital and AI Office (CDAO)",
-      "DARPA",
-      "Defense Innovation Unit (DIU)",
-      "Department of Defense",
-      "National Science Foundation (NSF)"
-    ],
-    "avgRelevance": 23,
-    "topSignals": [
-      "AI-Enabled Autonomous Naval Surface Vessels",
-      "Autonomous Logistics Resupply Vehicles",
-      "General-Purpose Robotics for Military Logistics"
     ]
   },
   "Andrenam": {
