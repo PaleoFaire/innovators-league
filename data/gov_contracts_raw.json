@@ -517,18 +517,6 @@
   },
   {
     "company": "Anduril",
-    "awardId": "FA228025F0014",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 8400000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2025-02-20",
-    "endDate": "2025-08-20",
-    "description": "THIS TASK ORDER LEVERAGES THE THUNDERDOME DIGITAL ENGINEERING AND SIMULATION ENVIRONMENTS TO RAPIDLY DEVELOP MODULAR AUTONOMOUS UAV CAPABILITIES FOR A VARIETY OF USE CASES."
-  },
-  {
-    "company": "Anduril",
     "awardId": "FA558724P0057",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 8278707.5,
@@ -1198,6 +1186,18 @@
     "startDate": "2026-04-30",
     "endDate": "2027-07-31",
     "description": "AUSTERE COMMS TOWER M&S"
+  },
+  {
+    "company": "Anduril",
+    "awardId": "H9240225FE028",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 412413.63,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2025-09-09",
+    "endDate": "2026-05-30",
+    "description": "SIP TO112 - LOW SWAP SENSOR STUDY"
   },
   {
     "company": "Anduril Industries",
@@ -1717,18 +1717,6 @@
   },
   {
     "company": "Anduril Industries",
-    "awardId": "FA228025F0014",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 8400000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2025-02-20",
-    "endDate": "2025-08-20",
-    "description": "THIS TASK ORDER LEVERAGES THE THUNDERDOME DIGITAL ENGINEERING AND SIMULATION ENVIRONMENTS TO RAPIDLY DEVELOP MODULAR AUTONOMOUS UAV CAPABILITIES FOR A VARIETY OF USE CASES."
-  },
-  {
-    "company": "Anduril Industries",
     "awardId": "FA558724P0057",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 8278707.5,
@@ -2400,6 +2388,18 @@
     "description": "AUSTERE COMMS TOWER M&S"
   },
   {
+    "company": "Anduril Industries",
+    "awardId": "H9240225FE028",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 412413.63,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2025-09-09",
+    "endDate": "2026-05-30",
+    "description": "SIP TO112 - LOW SWAP SENSOR STUDY"
+  },
+  {
     "company": "Shield AI",
     "awardId": "70Z02326F93130005",
     "recipientName": "SHIELD AI INC",
@@ -2595,12 +2595,12 @@
     "company": "Palantir",
     "awardId": "36C10B25F0313",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 74703140.17,
+    "amount": 75412466.95,
     "agency": "Department of Veterans Affairs",
     "subAgency": "Department of Veterans Affairs",
     "awardType": null,
     "startDate": "2025-09-30",
-    "endDate": "2027-01-02",
+    "endDate": "2027-01-27",
     "description": "NATIONAL CENTER FOR VETERANS ANALYSIS AND STATISTICS PLATFORM"
   },
   {
@@ -3147,12 +3147,12 @@
     "company": "Palantir Technologies",
     "awardId": "36C10B25F0313",
     "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 74703140.17,
+    "amount": 75412466.95,
     "agency": "Department of Veterans Affairs",
     "subAgency": "Department of Veterans Affairs",
     "awardType": null,
     "startDate": "2025-09-30",
-    "endDate": "2027-01-02",
+    "endDate": "2027-01-27",
     "description": "NATIONAL CENTER FOR VETERANS ANALYSIS AND STATISTICS PLATFORM"
   },
   {
@@ -3730,18 +3730,6 @@
     "startDate": "2026-01-09",
     "endDate": "2027-01-09",
     "description": "PHASE 3 LANE 1 LAUNCH SERVICE TASK ORDER (LSTO) FOR NTO-5"
-  },
-  {
-    "company": "Space Exploration Technologies",
-    "awardId": "HC101324F0144",
-    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 198580260.0,
-    "agency": "Department of Defense",
-    "subAgency": "Defense Information Systems Agency",
-    "awardType": null,
-    "startDate": "2024-09-11",
-    "endDate": "2026-09-29",
-    "description": "SBS003512 BEST EFFORT"
   },
   {
     "company": "Space Exploration Technologies",
@@ -4726,18 +4714,6 @@
     "startDate": "2026-04-12",
     "endDate": "2026-08-09",
     "description": "DELIVERY ORDER FOR UAS AND ACCESSORIES"
-  },
-  {
-    "company": "Skydio",
-    "awardId": "1605C125P00014",
-    "recipientName": "SKYDIO, INC",
-    "amount": 190340.04,
-    "agency": "Department of Labor",
-    "subAgency": "Office of the Assistant Secretary for Administration and Management",
-    "awardType": null,
-    "startDate": "2025-06-27",
-    "endDate": "2026-06-26",
-    "description": "TO OBTAIN DRONES FOR OSHA FLEET"
   },
   {
     "company": "Skydio",
@@ -7944,42 +7920,6 @@
     "description": "SMALL BUSINESS INNOVATION RESEARCH (SBIR) PHASE I TOPIC A254-P039, XTECHSEARCH 9."
   },
   {
-    "company": "Rune Technologies",
-    "awardId": "W5170126CA041",
-    "recipientName": "RUNE TECHNOLOGIES INC.",
-    "amount": 1999031.95,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2026-02-23",
-    "endDate": "2027-08-23",
-    "description": "SMALL BUSINESS INNOVATION RESEARCH, DIRECT TO PHASE II TOPIC A254-045, PREDICT, OPTIMIZE, RECOMMEND, AND TRACK OF ADAPTIVE LOGISTICS (PORTAL)"
-  },
-  {
-    "company": "Rune Technologies",
-    "awardId": "FA864926P0077",
-    "recipientName": "RUNE TECHNOLOGIES INC.",
-    "amount": 74293.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2026-06-25",
-    "endDate": "2026-09-28",
-    "description": "AI ENABLED PREDICTIVE LOGISTICS IN SUPPORT OF AGILE COMBAT EMPLOYMENT OPERATIONS"
-  },
-  {
-    "company": "Rune Technologies",
-    "awardId": "W9128Z26FA020",
-    "recipientName": "RUNE TECHNOLOGIES INC.",
-    "amount": 56250.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2026-06-17",
-    "endDate": "2026-09-30",
-    "description": "RUNE - TYROS LICENSE IN SUPPORT OF NGC2 PROTOTYPING"
-  },
-  {
     "company": "Firestorm Labs",
     "awardId": "FA862926CB001",
     "recipientName": "FIRESTORM LABS, INC.",
@@ -9588,42 +9528,6 @@
     "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER."
   },
   {
-    "company": "Stratolaunch",
-    "awardId": "FA930023C6019",
-    "recipientName": "STRATOLAUNCH, LLC",
-    "amount": 28063853.6,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2023-10-01",
-    "endDate": "2027-01-15",
-    "description": "FLIGHT EXPERIMENTS ON TESTBED"
-  },
-  {
-    "company": "Stratolaunch",
-    "awardId": "80AFRC25P0001",
-    "recipientName": "STRATOLAUNCH, LLC",
-    "amount": 1994437.0,
-    "agency": "National Aeronautics and Space Administration",
-    "subAgency": "National Aeronautics and Space Administration",
-    "awardType": null,
-    "startDate": "2025-08-22",
-    "endDate": "2027-03-05",
-    "description": "FLIGHT TEST VEHICLE CONCEPT STUDY IN SUPPORT OF   MAKING ADVANCEMENTS IN COMMERCIAL HYPERSONICS (MACH) PROGRAM  NASA HYPERSONIC TECHNOLOGY PROJECT"
-  },
-  {
-    "company": "Stratolaunch",
-    "awardId": "HQ085926FF938",
-    "recipientName": "STRATOLAUNCH, LLC",
-    "amount": 500.0,
-    "agency": "Department of Defense",
-    "subAgency": "Missile Defense Agency",
-    "awardType": null,
-    "startDate": "2025-12-29",
-    "endDate": "2035-12-28",
-    "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER."
-  },
-  {
     "company": "Scout Space",
     "awardId": "FA881924CB003",
     "recipientName": "SCOUT SPACE INC",
@@ -9732,54 +9636,6 @@
     "description": "SBIR PHASE II"
   },
   {
-    "company": "Echodyne",
-    "awardId": "19AQMM25C1050",
-    "recipientName": "ECHODYNE CORP",
-    "amount": 35316331.0,
-    "agency": "Department of State",
-    "subAgency": "Department of State",
-    "awardType": null,
-    "startDate": "2025-07-31",
-    "endDate": "2026-07-31",
-    "description": "COUNTER-DRONE RADARS, TECHNICAL SUPPORT, AND TRAINING."
-  },
-  {
-    "company": "Echodyne",
-    "awardId": "19AQMM26C0298",
-    "recipientName": "ECHODYNE CORP",
-    "amount": 26886117.97,
-    "agency": "Department of State",
-    "subAgency": "Department of State",
-    "awardType": null,
-    "startDate": "2026-03-05",
-    "endDate": "2027-03-31",
-    "description": "INL KYIV RADAR SYSTEMS, SPARE PARTS, TRAINING, AND TECHNICAL SUPPORT."
-  },
-  {
-    "company": "Echodyne",
-    "awardId": "W912CH26PA005",
-    "recipientName": "ECHODYNE CORP",
-    "amount": 3454110.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2026-03-13",
-    "endDate": "2026-03-27",
-    "description": "PROCUREMENT OF ECHOSHIELD RADARS, RADAR DEPLOYMENT KITS, SOFTWARE UPDATES AND TECHNICAL SUPPORT, AND PROFESSIONAL SERVICES."
-  },
-  {
-    "company": "Echodyne",
-    "awardId": "6973GH26P01094",
-    "recipientName": "ECHODYNE CORP",
-    "amount": 64500.0,
-    "agency": "Department of Transportation",
-    "subAgency": "Federal Aviation Administration",
-    "awardType": null,
-    "startDate": "2026-02-24",
-    "endDate": "2026-03-24",
-    "description": "ASSETS IN SUPPORT OF THE NAS"
-  },
-  {
     "company": "Epsilon3",
     "awardId": "80TECH26P0017",
     "recipientName": "EPSILON3, INC.",
@@ -9814,18 +9670,6 @@
     "startDate": "2026-02-21",
     "endDate": "2027-02-20",
     "description": "EPSILON3 PRO LICENSE RENEWAL (2/21/2026-2/20/2027)"
-  },
-  {
-    "company": "Epsilon3",
-    "awardId": "80NSSC25PA560",
-    "recipientName": "EPSILON3, INC.",
-    "amount": 101400.0,
-    "agency": "National Aeronautics and Space Administration",
-    "subAgency": "National Aeronautics and Space Administration",
-    "awardType": null,
-    "startDate": "2025-02-21",
-    "endDate": "2026-02-20",
-    "description": "EPSILON3 PRO LICENSE RENEWAL"
   },
   {
     "company": "Epsilon3",
@@ -10393,18 +10237,6 @@
   },
   {
     "company": "Onebrief",
-    "awardId": "FA440726F0015",
-    "recipientName": "ONEBRIEF, INC.",
-    "amount": 3000000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2025-10-01",
-    "endDate": "2025-12-10",
-    "description": "ONEBRIEF - LICENSE FOR AMC"
-  },
-  {
-    "company": "Onebrief",
     "awardId": "W56ZLW26P0006",
     "recipientName": "ONEBRIEF, INC.",
     "amount": 2499994.0,
@@ -10558,18 +10390,6 @@
     "startDate": "2025-09-29",
     "endDate": "2026-03-27",
     "description": "SBIR I LUNAR IN-SITU THERMAL WADIS"
-  },
-  {
-    "company": "Wisk Aero",
-    "awardId": "W911W626CA005",
-    "recipientName": "WISK AERO LLC",
-    "amount": 191367.13,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Army",
-    "awardType": null,
-    "startDate": "2026-07-24",
-    "endDate": "2027-01-31",
-    "description": "PERFORMANCE CHARACTERISTICS OF HE-VTOL AIRCRAFT"
   },
   {
     "company": "Shift5",
@@ -10966,18 +10786,6 @@
     "startDate": "2025-08-26",
     "endDate": "2027-04-29",
     "description": "SPECTRUM SUPREMACY UTILIZING A MESH NETWORK: NEURON"
-  },
-  {
-    "company": "Ghost Robotics",
-    "awardId": "FA480126C0004",
-    "recipientName": "GHOST ROBOTICS CORPORATION",
-    "amount": 78000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2026-04-24",
-    "endDate": "2027-04-23",
-    "description": "1 YEAR VISION 60 WARRANTY PACKAGE FOR TWO (2) SECURITY FORCES GHOST ROBOTICS QUADRUPEDAL UNMANNED GROUND VEHICLES."
   },
   {
     "company": "EraDrive",
@@ -11977,6 +11785,18 @@
   },
   {
     "company": "Formlabs",
+    "awardId": "N6449826FG122",
+    "recipientName": "FORMLABS INC.",
+    "amount": 5301.78,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Navy",
+    "awardType": null,
+    "startDate": "2026-06-29",
+    "endDate": "2026-07-21",
+    "description": "FORM 3L RESIN TANK V3 (3EA), GRAY RESIN V4.1 (5EA), GRAY RESIN V4.1 (1EA)"
+  },
+  {
+    "company": "Formlabs",
     "awardId": "SPE2D626F6BK0",
     "recipientName": "FORMLABS INC.",
     "amount": 4184.52,
@@ -12058,18 +11878,6 @@
     "startDate": "2026-04-02",
     "endDate": "2026-04-09",
     "description": "4571355064!DENTAL LT COMFORT RESIN (FORM 3)"
-  },
-  {
-    "company": "Formlabs",
-    "awardId": "SPE2D626F517X",
-    "recipientName": "FORMLABS INC.",
-    "amount": 2361.56,
-    "agency": "Department of Defense",
-    "subAgency": "Defense Logistics Agency",
-    "awardType": null,
-    "startDate": "2025-11-26",
-    "endDate": "2025-12-04",
-    "description": "4570106937!OPEN MATERIAL MODE FOR FORM 4 GENERATION"
   },
   {
     "company": "Formlabs",

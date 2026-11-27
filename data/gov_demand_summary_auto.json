@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T16:52:27.127532Z",
+  "generated_at": "2026-11-27T16:37:02.743631Z",
   "sectors": {
     "Defense & Security": {
       "icon": "\ud83d\udee1\ufe0f",
@@ -184,11 +184,11 @@
       "icon": "\ud83d\udee9\ufe0f",
       "color": "#ef4444",
       "description": "Federal demand across supersonic & hypersonic.",
-      "trend": "Gov demand index 2: 1 active opportunities, 0 contract awards, 1 SBIR awards in the last 90 days.",
-      "demandIndex": 2,
+      "trend": "Gov demand index 1: 1 active opportunities, 0 contract awards, 0 SBIR awards in the last 90 days.",
+      "demandIndex": 1,
       "activeOpps": 1,
       "contractsAwarded": 0,
-      "sbirAwards": 1,
+      "sbirAwards": 0,
       "examples": [
         {
           "type": "demand_signal",

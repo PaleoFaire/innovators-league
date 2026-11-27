@@ -1,6 +1,11 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-11-26 16:37:37 UTC
+// Last updated: 2026-11-27 16:22:45 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "LanzaTech", form: "4", date: "2026-11-27", description: "xslF345X06/wk-form4_1795787087.xml", isIPO: false, ticker: "LNZA" },
+  { company: "LanzaTech", form: "4", date: "2026-11-27", description: "xslF345X06/wk-form4_1795787081.xml", isIPO: false, ticker: "LNZA" },
+  { company: "LanzaTech", form: "4", date: "2026-11-27", description: "xslF345X06/wk-form4_1795787076.xml", isIPO: false, ticker: "LNZA" },
+  { company: "LanzaTech", form: "4", date: "2026-11-27", description: "xslF345X06/wk-form4_1795787070.xml", isIPO: false, ticker: "LNZA" },
+  { company: "LanzaTech", form: "4", date: "2026-11-27", description: "xslF345X06/wk-form4_1795787062.xml", isIPO: false, ticker: "LNZA" },
   { company: "Rocket Lab", form: "4", date: "2026-11-25", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Rocket Lab", form: "4", date: "2026-11-25", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "Rocket Lab", form: "4", date: "2026-11-25", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
@@ -46,9 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Rocket Lab", form: "4", date: "2026-11-18", description: "xslF345X06/edgardoc.xml", isIPO: false, ticker: "RKLB" },
   { company: "AST SpaceMobile", form: "8-K", date: "2026-11-18", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
   { company: "Recursion Pharmaceuticals", form: "4", date: "2026-11-18", description: "xslF345X06/wk-form4_1795040147.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-11-18", description: "xslF345X06/wk-form4_1795040124.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-11-18", description: "xslF345X06/wk-form4_1795040105.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Palantir Technologies", form: "4", date: "2026-11-17", description: "xslF345X06/wk-form4_1794963692.xml", isIPO: false, ticker: "PLTR" },
-  { company: "AST SpaceMobile", form: "8-K", date: "2026-11-17", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
-  { company: "Oklo", form: "4", date: "2026-11-17", description: "xslF345X06/wk-form4_1794951615.xml", isIPO: false, ticker: "OKLO" },
 ];
