@@ -750,8 +750,31 @@
     renderCompetitors(company);
     renderThesisNeighbors(company);
     renderTransformationFeature(company);
+    renderImaginedFeature(company);
     renderThesis(company);
     renderMoatEvidence(company);
+  }
+
+  // Who's Building It (imagined.html): the ideas from science fiction this company works on.
+  // IMAGINED comes from data/imagined_auto.js; by_company is keyed by the same slug as profiles.
+  function renderImaginedFeature(company) {
+    const card = document.getElementById('imagined-feature-card');
+    const body = document.getElementById('imagined-feature-body');
+    if (!card || !body || !company) return;
+    if (typeof IMAGINED === 'undefined' || !IMAGINED || !IMAGINED.by_company || !Array.isArray(IMAGINED.themes)) {
+      card.style.display = 'none';
+      return;
+    }
+    const ids = IMAGINED.by_company[profileSlug(company.name)] || [];
+    const themes = ids.map(id => IMAGINED.themes.find(t => t.id === id)).filter(Boolean).slice(0, 2);
+    if (!themes.length) { card.style.display = 'none'; return; }
+    body.innerHTML = themes.map(t => `
+      <p style="font-size:13px; color:var(--text-primary); margin:0 0 4px;"><strong>${escapeHtml(t.title)}</strong> <span style="color:var(--text-muted);">&middot; ${escapeHtml(t.status_label)}</span></p>
+      <p style="font-size:12px; color:var(--text-muted); margin:0 0 10px;">${escapeHtml(t.fiction.author)} imagined it in <a href="${escapeHtml(t.fiction.url)}" target="_blank" rel="noopener" style="color:var(--text-secondary);"><cite>${escapeHtml(t.fiction.work)}</cite></a> (${Number(t.fiction.year)}). Still missing: ${escapeHtml(t.gap)}</p>
+      <a href="imagined.html#${encodeURIComponent(t.id)}" style="display:inline-flex; align-items:center; gap:6px; margin-bottom:12px; padding:6px 12px; border-radius:999px; background:rgba(255,225,77,0.12); color:#ffe14d; text-decoration:none; font-size:12px; font-weight:600; border:1px solid rgba(255,225,77,0.35);">
+        Who's building it: ${Number(t.count)} companies &rarr;
+      </a>`).join('');
+    card.style.display = '';
   }
 
   function renderTransformationFeature(company) {

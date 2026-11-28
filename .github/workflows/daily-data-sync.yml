@@ -233,6 +233,14 @@ jobs:
       - name: Build nav counts (data/nav_counts.json)
         run: node scripts/build_nav_counts.js || echo "::warning::nav counts build failed"
 
+      # Who's Building It (imagined.html): ideas from science fiction and the
+      # companies working on them. Re-matches companies against today's data.js
+      # from the hand-written rules in data/imagined/themes.json. No network.
+      # Guarded like the wire: a failure leaves yesterday's file in place. Its
+      # output sits under data/, so the commit step stages it with `data/`.
+      - name: Build Who's Building It (data/imagined_auto.js)
+        run: python3 scripts/build_imagined.py || echo "::warning::imagined build failed"
+
       - name: Configure Git
         run: |
           git config user.name "TIL Data Bot"
