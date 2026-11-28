@@ -1,0 +1,44 @@
+{
+  "about": "Cases shared by scripts/tests/test_jobs_family.py (Python, the pipeline) and scripts/tests/test_jobs_family.js (Node, the page). Both sides must give the same answers, so the page and the pipeline agree on place names, distances and ZIP decoding.",
+  "normPlace": [
+    ["St. Louis", "st louis"],
+    ["Saint Louis", "st louis"],
+    ["  Winston-Salem ", "winston salem"],
+    ["O'Fallon", "ofallon"],
+    ["Coeur d’Alene", "coeur dalene"],
+    ["Mount Vernon", "mt vernon"],
+    ["Mt. Vernon", "mt vernon"],
+    ["Fort Worth", "ft worth"],
+    ["Ft. Worth", "ft worth"],
+    ["San José", "san jose"],
+    ["Añasco", "anasco"],
+    ["Mayagüez", "mayaguez"],
+    ["NEW YORK", "new york"],
+    ["Dallas-Fort Worth", "dallas fort worth"],
+    ["Washington D.C.", "washington dc"],
+    ["", ""]
+  ],
+  "stateCode": [
+    ["CA", "CA"], ["ca", "CA"], ["California", "CA"], ["new york", "NY"], ["D.C.", "DC"],
+    ["District of Columbia", "DC"], ["Puerto Rico", "PR"], ["ON", ""], ["Ontario", ""], ["", ""], ["Cal", ""]
+  ],
+  "distanceMiles": [
+    {"from": [0, 0], "to": [1, 0], "miles": 69.094, "why": "one degree of latitude on a 3,958.8-mile sphere"},
+    {"from": [0, 0], "to": [0, 90], "miles": 6218.468, "why": "a quarter of the equator"},
+    {"from": [34.0522, -118.2437], "to": [37.7749, -122.4194], "miles": 347.425, "why": "Los Angeles to San Francisco"},
+    {"from": [40.7128, -74.006], "to": [42.3601, -71.0589], "miles": 190.209, "why": "New York to Boston"},
+    {"from": [33.6659, -117.9123], "to": [33.6659, -117.9123], "miles": 0, "why": "a place to itself"}
+  ],
+  "zips": {
+    "packed": {"006": "018ci8ql", "100": "01a3786g", "926": "269jk4sh279jh4sg", "997": "23cfy1sh"},
+    "lookups": [
+      ["92626", [33.68, -117.91]],
+      ["92627", [33.65, -117.92]],
+      ["00601", [18.18, -66.75]],
+      ["99723", [71.26, -156.79]],
+      ["10001", [40.75, -74.0]],
+      ["92628", null],
+      ["30301", null]
+    ]
+  }
+}
